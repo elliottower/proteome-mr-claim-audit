@@ -1,6 +1,9 @@
 # How often do proteome-wide Mendelian-randomization abstracts repeat and contradict one another's protein–outcome claims, and how often do repeated claims rest on the same source data?
 
-**Status:** DRAFT — not frozen.
+**Status:** FROZEN at `02bb006f3e55`
+**Plan sha256:** `9f06131af9936cc7c3556e87d77dcec65d034e4665be023eedf39948082d417b`
+**Log:** 104 entries, head `b11f1677`
+**Frozen:** 2026-10-03
 
 Sections use the [OSF Preregistration](https://osf.io/prereg/) question titles verbatim. A
 question that does not apply is answered **N/A** with the reason, never deleted.
@@ -1717,4 +1720,52 @@ The last column is what distinguishes an amendment from a deviation: `nothing ru
 2026-10-03  v18a: author-supplied lists for the SCALLOP CVD-I and AGES (Emilsson 2018) rows replace the background only when pinned before the pathway enrichment first runs (first s5_biology_ run in the ledger or earliest written confirmatory enrichment output); otherwise read only in the sensitivity author_supplied_lists_after_cutoff (scripts/author_lists.py, verification/author_supplied_lists.csv, empty); foreknowledge item 20 states the requests sent 2026-10-02 and 2026-10-03, no reply; text above the log changes by these only (planning/perplexity_paper1_final/PREREG_v18_to_v18a.diff)  nothing run  ·474314c1
 2026-10-03  the author confirmed the 14 platform rows on 2026-10-03 (third check, literal match of quoted value to coded value; docs/stage0_build/PLATFORM_ROWS_CONFIRMATION.md), status coded; the ledger access level planned for the freeze is 'metadata only' (RUNBOOK.md, Results ledger); unit tests on Modal 727 pass, 1 skipped, the three synthetic dry runs pass (outputs/tests/pytest_all_modal_20261003T200129Z.txt); 11 deliberate changes of the new rule each made a test fail (docs/stage0_build/mutation_check_author_lists.json); OSF dry run accepted; synthetic records, fixtures and committed tables only  nothing run  ·e0c4b36a
 2026-10-03  v18b: one sentence in the dataset-dictionary paragraph states that a cohort in a release's pinned cohort table stays a component where a footnote limits its role (GIGASTROKE WHI; MAGIC Oxford Biobank, UKHLS, VIKING, Whitehall II), the rule the components table already applied; no table or code changed  nothing run  ·bae5bf42
+2026-10-03  frozen at 02bb006f3e55                nothing run  ·b7b0f8af
+2026-10-03  osf draft 6ac165699df176be36e148ff of plan 9f06131af9936cc7  nothing run  ·e4b6225c
+2026-10-03  osf attached dataset_dictionary.csv sha256 f30dda8e00f8bbc6c43e31e80b38935c7d4f0d3916f33b2e776cabc14fb0d39c  nothing run  ·b06cfa58
+2026-10-03  osf attached RELEASES.md sha256 8dd5069d86d85c25e5fd0d84da23b18ab3b6e541e145c463e09d07c353cdd1c6  nothing run  ·1cf23051
+2026-10-03  osf attached references.bib sha256 4e85a982b2c62fbbbcf43c9d8794c5aae35ead664ebaab58e28a1adc4ae0148f  nothing run  ·287d69dc
+2026-10-03  osf attached modal_inputs_manifest.json sha256 03b054b9d27551d9329d25231974ea5d142be7e9b6c302c6a5918ebb9198e767  nothing run  ·44a643c5
+2026-10-03  osf attached eligibility_prompt.md sha256 97073ed7699623d85d7accc0ddc8a7728938d3e2b4292ec3450af2541ddf21d3  nothing run  ·a11d894b
+2026-10-03  osf attached extraction_prompt.md sha256 2a2bef3852f822eb64a19cdc6b880f8ba4f4cac7d262976f0016e517177a6049  nothing run  ·10c62984
+2026-10-03  osf attached fulltext_extraction_prompt.md sha256 47d6b47bf7d90f1d9927af656db75000bbab6da34bd12a70e5c9bdbb250f9493  nothing run  ·18d0cfb9
+2026-10-03  osf attached schema.json sha256 8b74e25a9a48b85cb89a15d9f7632ddaa5d9a2ee792e54c99b5a8f7a6046f7e1  nothing run  ·58de2641
+2026-10-03  osf attached queries.md sha256 09c6b37010afaa03e777ebc5a7e451a5617300eca8e4d9d07c69437e1bb07eab  nothing run  ·80ac335f
+2026-10-03  osf attached prefilter_terms.json sha256 b3ecc5d2f00b60494e737574c655c239af344b737f154f311853eebecc601496  nothing run  ·d6003ef1
+2026-10-03  osf attached known_items.md sha256 c148b311cd4d7de338a55b9235851d3040fe376be990fa4e28faef1f53cc5e44  nothing run  ·8ac8ca17
+2026-10-03  osf attached negative_controls.jsonl sha256 6f664f53f41bd4ce383ff69695715fa40ca6d04ce9a843401c8340c56e784de7  nothing run  ·9fb9a40b
+2026-10-03  osf attached negative_controls_meta.json sha256 4021030cb3df79d7d92208006b66bedacfc54fd4d6ef5df17e38f2862a70ef71  nothing run  ·cd15a042
+2026-10-03  osf attached author_supplied_lists.csv sha256 35a057dcb054872d0f41c2f2c8178cebc20984cbaead3f702d304a08c87e2869  nothing run  ·60044711
+2026-10-03  osf attached dataset_components.csv sha256 b82a8ce799626ec054f6e79513f6b6af9af24e3f5de36ea6f9096911de85a591  nothing run  ·02961986
+2026-10-03  osf attached direction_lexicon.json sha256 bdd67b7aca7abd0ae5cc0e6cdc241e1d383b56ebf58f54f7d9cafd88d9b09f75  nothing run  ·57ac031f
+2026-10-03  osf attached epigraphdb_protein_mapping.csv sha256 e809a3c1771ba142687bfcfd5ab22f17e5fcca9607fde84055de7bac0c6dcd7a  nothing run  ·260d1d74
+2026-10-03  osf attached epigraphdb_trait_alias_seed.csv sha256 f4b0bfcfd559479d48691499f356870cebbbe9f5a1c31ad4cbf3287c082cda22  nothing run  ·694a1b3e
+2026-10-03  osf attached epigraphdb_trait_aliases.csv sha256 322b98891819c2f0461a86df9e39da2407528aa05f7a579a6b65cef99275f714  nothing run  ·130ba0c3
+2026-10-03  osf attached epigraphdb_trait_mapping.csv sha256 097b38acecffe2bd5c3b8009d79ebc2155f80f3feda1546ccfdfdb0bb0c15cf8  nothing run  ·2dfa1789
+2026-10-03  osf attached mondo_efo_collision_table.csv sha256 b858b4bd0fba33c1d2138e272b3c753c45f3d3f8b426e25b99a9d97c320fd0e0  nothing run  ·299956c1
+2026-10-03  osf attached mondo_efo_collision_table.meta.json sha256 edb203309ed9df178f44cc6ac4e7130e89d5b28c808156a1095d0aef34f74265  nothing run  ·cf3e9e8f
+2026-10-03  osf attached obsolete_label_replacements.csv sha256 a9578b07753d7f77606404ced6af5cd5289b9909489760ca05465aedc43db3d7  nothing run  ·169d656c
+2026-10-03  osf attached obsolete_label_replacements.meta.json sha256 8b9d0e961e91891f69e96f2c4d015880f093863197c8a259702076b5b242ad25  nothing run  ·62f0daed
+2026-10-03  osf attached ontology_edges.csv sha256 5b8f0b3fe17aab4c885c04ad337cec2c980d35c69acc847c8a754f14deff7261  nothing run  ·1f0ee260
+2026-10-03  osf attached ontology_edges.meta.json sha256 dd453c702a7611531f9c5a09ce8057f22bd74814c7bd823eb30a0d846c1508d8  nothing run  ·02f6dfef
+2026-10-03  osf attached outcome_alias_seed.csv sha256 02783d0b2006f67c4fcd3eadcdafae244e034e96f047f74f47af823c9c3cd598  nothing run  ·c7340a81
+2026-10-03  osf attached outcome_aliases.csv sha256 663555898aa3d9fa1892693a8c1bd71dc4f17f81f382f852ac7da33c12a3f240  nothing run  ·e16f68b4
+2026-10-03  osf attached phenotype_cross_references.csv sha256 0756154ed75c8c7795ac8928ae914f111a6c7c05c81eff4bc8104ee3ccfd4a67  nothing run  ·aa89489a
+2026-10-03  osf attached phenotype_cross_references.meta.json sha256 2c7e38c8764135d79e1a788b69ec1777db3543693aa175c4b0a7b530808a9953  nothing run  ·478da4e9
+2026-10-03  osf attached platform_assay_attachments.csv sha256 1c9041e5628fa0422f1be8c562e7c400944381aea39b6cee7bffc64735aa2b12  nothing run  ·d38563de
+2026-10-03  osf attached platform_assay_lists.csv sha256 3a01aa3c4ed2fe6c616bc7d767de3d7bee18ec9090509837f10e8c3620c68e96  nothing run  ·9ef75998
+2026-10-03  osf attached platform_assay_lists.meta.json sha256 a2def84b1d7e876ea943582a79283ad1df12dc80f7e5aeac3560f8d15b933627  nothing run  ·25b7e037
+2026-10-03  osf attached platform_list_sources.csv sha256 5b6b08535c27d58a8b356fe409ac315b0818279c14ca1167f6c103619a173484  nothing run  ·9bac13ee
+2026-10-03  osf attached pleiotropic_loci_eldjarn2023_ST36.csv sha256 717050fab7df62dc0ec804bd26561755e0d0ed85bb2a0c206bd178e0356d3cdf  nothing run  ·759c3fd2
+2026-10-03  osf attached pleiotropic_loci_eldjarn2023_ST36.meta.json sha256 c34665bdbc66207d1248a6e2e79843dca2e6d3798aaa3ca0c6f4db54f483dcf6  nothing run  ·05126716
+2026-10-03  osf attached pqtl_row_attributes.csv sha256 66d71cf132b80d91bf6be4bd03db9c8b57789c5eae042213a4e7729cf5531d0b  nothing run  ·6f0aafb1
+2026-10-03  osf attached improve_folkersen2017_S3.csv sha256 808da6fada52f3dea578b974bd4954c9dd30ed2b24de181d4351794c53e1fed3  nothing run  ·ef8e7cc7
+2026-10-03  osf attached jhs_katz2022_soma13k_reagents.csv sha256 b339784a8fe6b2f50109dc499a2eae130d439911cd3757e89f4f332f8458565a  nothing run  ·8355c953
+2026-10-03  osf attached nsphs_enroth2014_analysed.csv sha256 67d35accfb7900082965b493b3267d8d0ea9b36d8061a3168b3cf3d119e15ebb  nothing run  ·3e39e1fd
+2026-10-03  osf attached published_lists_derived.meta.json sha256 6bf469b22ceae8755c8bbd898a5f5432d7ff1096ab5bfcbf4c545b5de68c5f81  nothing run  ·e820fa28
+2026-10-03  osf attached scallop_koprulu2026_S5_targets.csv sha256 35addfef914fa8636e64320c22c6c2df74376b2be86a705fed4bb63ae1e3f993  nothing run  ·8b2ecd82
+2026-10-03  osf attached published_source_files.csv sha256 b7c94e9062087c4bcc29b208d44923ee18dca2fcbe526bd531cdef831866a1b4  nothing run  ·f12e3de3
+2026-10-03  osf attached therapeutic_area_names.csv sha256 87a51779e3e2c4621d04b0df7637cd573f4c40e6ca1ff64676e1a4769564614b  nothing run  ·e4cc6ef2
+2026-10-03  osf attached therapeutic_areas.csv sha256 31f61cdac2a185e217cd43e7d0358cb6489c284bff20b9c70ece8efb82540afe  nothing run  ·cd1fb359
+2026-10-03  osf attached wording_lexicon.json sha256 8a5dd42f85c5ca9d1e32bca2a24eb0f3eb69e6b9add2ca9c3e55e7cfdce35fcf  nothing run  ·b11f1677
 ```
