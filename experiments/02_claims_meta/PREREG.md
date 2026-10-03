@@ -2,7 +2,7 @@
 
 **Status:** FROZEN at `02bb006f3e55`
 **Plan sha256:** `9f06131af9936cc7c3556e87d77dcec65d034e4665be023eedf39948082d417b`
-**Log:** 105 entries, head `5404f1b8`
+**Log:** 106 entries, head `7b8af343`
 **Frozen:** 2026-10-03
 
 Sections use the [OSF Preregistration](https://osf.io/prereg/) question titles verbatim. A
@@ -1769,4 +1769,5 @@ The last column is what distinguishes an amendment from a deviation: `nothing ru
 2026-10-03  osf attached therapeutic_areas.csv sha256 31f61cdac2a185e217cd43e7d0358cb6489c284bff20b9c70ece8efb82540afe  nothing run  ·cd1fb359
 2026-10-03  osf attached wording_lexicon.json sha256 8a5dd42f85c5ca9d1e32bca2a24eb0f3eb69e6b9add2ca9c3e55e7cfdce35fcf  nothing run  ·b11f1677
 2026-10-03  osf registration https://osf.io/zae8c submitted by the author 2026-10-03T21:04:30Z from draft 6ac165699df176be36e148ff, public immediately; in the OSF approval window when logged  nothing run  ·5404f1b8
+2026-10-03  osf registration https://osf.io/zae8c approved by the author and public (checked 2026-10-03T21:32Z)  nothing run  ·7b8af343
 ```
