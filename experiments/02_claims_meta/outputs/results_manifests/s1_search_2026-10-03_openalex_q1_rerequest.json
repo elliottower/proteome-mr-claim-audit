@@ -1,0 +1,211 @@
+{
+ "run_id": "s1_search_2026-10-03_openalex_q1_rerequest",
+ "note": "second request of the OpenAlex Q1 streams (confirmatory and update) on the search date 2026-10-03, after the runner's count gap; raw responses and the identifier comparison; stored beside the first request, not yet used",
+ "written_utc": "2026-10-03T21:48:30+00:00",
+ "files": [
+  {
+   "path": "outputs/raw/search/2026-10-03_openalex_q1_rerequest/comparison.json",
+   "bytes": 870,
+   "sha256": "7be33914e107aeffa71929861be08cd3ea2c237c163a29cf8b38d6663d098823"
+  },
+  {
+   "path": "outputs/raw/search/2026-10-03_openalex_q1_rerequest/manifest.jsonl",
+   "bytes": 61993,
+   "sha256": "c221e9bce87e0fd531fe4eebd8503f73ccd13c16e22b8840e82e6f42ebd6ee05"
+  },
+  {
+   "path": "outputs/raw/search/2026-10-03_openalex_q1_rerequest/openalex/Q1_confirmatory/page_0001.json.gz",
+   "bytes": 177735,
+   "sha256": "74f435ecafb90c8fbede9790e6832f79249e9f616b725257008fbc77eab617d1"
+  },
+  {
+   "path": "outputs/raw/search/2026-10-03_openalex_q1_rerequest/openalex/Q1_confirmatory/page_0002.json.gz",
+   "bytes": 215168,
+   "sha256": "7ae343c16dad0aab22599d8e75e19554d65e235d40fdfd7874b8d4460b48c6ba"
+  },
+  {
+   "path": "outputs/raw/search/2026-10-03_openalex_q1_rerequest/openalex/Q1_confirmatory/page_0003.json.gz",
+   "bytes": 167132,
+   "sha256": "2d7cccccf0509608d2c7737eb03abc438cf7755d4dc46b60c6ce8f6d3d2a5d6a"
+  },
+  {
+   "path": "outputs/raw/search/2026-10-03_openalex_q1_rerequest/openalex/Q1_confirmatory/page_0004.json.gz",
+   "bytes": 206294,
+   "sha256": "31ad987968a6aabc6727c5a4949bd45c9c6d2c672b09faba731f17fa7b825396"
+  },
+  {
+   "path": "outputs/raw/search/2026-10-03_openalex_q1_rerequest/openalex/Q1_confirmatory/page_0005.json.gz",
+   "bytes": 212798,
+   "sha256": "fea2adceba1225ea125435621ca031daa2ec57e42702c99430b9f4816b48ec2c"
+  },
+  {
+   "path": "outputs/raw/search/2026-10-03_openalex_q1_rerequest/openalex/Q1_confirmatory/page_0006.json.gz",
+   "bytes": 195384,
+   "sha256": "889889cd59153c98dcc6cb7986a3c8c35e0b62ce147e4e751aa6427fbc4fe3a7"
+  },
+  {
+   "path": "outputs/raw/search/2026-10-03_openalex_q1_rerequest/openalex/Q1_confirmatory/page_0007.json.gz",
+   "bytes": 247173,
+   "sha256": "4847d4f3b6fd9818f5b096fc5e57f4614f0091de3494a838bea6a7e7f5a7c21e"
+  },
+  {
+   "path": "outputs/raw/search/2026-10-03_openalex_q1_rerequest/openalex/Q1_confirmatory/page_0008.json.gz",
+   "bytes": 213119,
+   "sha256": "bd835ba1b2d6ed5c8db9cd270086e19b7bfcea605065d54d8a31f2e5abf20722"
+  },
+  {
+   "path": "outputs/raw/search/2026-10-03_openalex_q1_rerequest/openalex/Q1_confirmatory/page_0009.json.gz",
+   "bytes": 243476,
+   "sha256": "ed17370cd4c40b7f5227a35545873f1accfc402870d2c25aa64f19ecb6968237"
+  },
+  {
+   "path": "outputs/raw/search/2026-10-03_openalex_q1_rerequest/openalex/Q1_confirmatory/page_0010.json.gz",
+   "bytes": 244052,
+   "sha256": "03d79d24b8aa90afdf1546ca348328f371546280b6e8af8db3ded8dc1029cf1b"
+  },
+  {
+   "path": "outputs/raw/search/2026-10-03_openalex_q1_rerequest/openalex/Q1_confirmatory/page_0011.json.gz",
+   "bytes": 212310,
+   "sha256": "c8cc7569094613ff70aa96d6d29c0556a8fb12b57bb3bb3431b6699261705861"
+  },
+  {
+   "path": "outputs/raw/search/2026-10-03_openalex_q1_rerequest/openalex/Q1_confirmatory/page_0012.json.gz",
+   "bytes": 218609,
+   "sha256": "d40c936287ce54c15835f596cbbba96e77049af88a699532113e726b49e09683"
+  },
+  {
+   "path": "outputs/raw/search/2026-10-03_openalex_q1_rerequest/openalex/Q1_confirmatory/page_0013.json.gz",
+   "bytes": 230541,
+   "sha256": "de99fc8080471a602ec938b0236e138bb8517b4c5b0ab1c46c982bddca3bbf8c"
+  },
+  {
+   "path": "outputs/raw/search/2026-10-03_openalex_q1_rerequest/openalex/Q1_confirmatory/page_0014.json.gz",
+   "bytes": 224218,
+   "sha256": "06273e1731403b63f9922e0ca2746e2a47dbcb08852bfdd7d314af7b078a1be1"
+  },
+  {
+   "path": "outputs/raw/search/2026-10-03_openalex_q1_rerequest/openalex/Q1_confirmatory/page_0015.json.gz",
+   "bytes": 236367,
+   "sha256": "e52929d090a68fb0fb9c22654268d7a605e74f2f320cacc40aeca60e272c0667"
+  },
+  {
+   "path": "outputs/raw/search/2026-10-03_openalex_q1_rerequest/openalex/Q1_confirmatory/page_0016.json.gz",
+   "bytes": 281558,
+   "sha256": "1f6d8a8d6d9d7f6bbaa7288ec7b0101b515a88005101bbc0777495c4b088a48e"
+  },
+  {
+   "path": "outputs/raw/search/2026-10-03_openalex_q1_rerequest/openalex/Q1_confirmatory/page_0017.json.gz",
+   "bytes": 231620,
+   "sha256": "9cb2af9985a72ee0b3dc4df2ddee7929e2f9ceaebbf119d31d57a96e58dfc862"
+  },
+  {
+   "path": "outputs/raw/search/2026-10-03_openalex_q1_rerequest/openalex/Q1_confirmatory/page_0018.json.gz",
+   "bytes": 232549,
+   "sha256": "b680d1a591173464490b71eca21fe295f83f729cb0e59e8ea57a41ddcd3567c5"
+  },
+  {
+   "path": "outputs/raw/search/2026-10-03_openalex_q1_rerequest/openalex/Q1_confirmatory/page_0019.json.gz",
+   "bytes": 237973,
+   "sha256": "acfa72d1e06809792900f6a972df563077fc78acf9c64c1520b8b8aeb92b8adf"
+  },
+  {
+   "path": "outputs/raw/search/2026-10-03_openalex_q1_rerequest/openalex/Q1_confirmatory/page_0020.json.gz",
+   "bytes": 239768,
+   "sha256": "5aae2f4786da3cca474ddda98202812f50f7c57348c93edfb5c7ad6129fb27cb"
+  },
+  {
+   "path": "outputs/raw/search/2026-10-03_openalex_q1_rerequest/openalex/Q1_confirmatory/page_0021.json.gz",
+   "bytes": 269206,
+   "sha256": "f2c112b91f757cb0e6160d0827d7a897927a40f617a495b285a5577edde42bfe"
+  },
+  {
+   "path": "outputs/raw/search/2026-10-03_openalex_q1_rerequest/openalex/Q1_confirmatory/page_0022.json.gz",
+   "bytes": 231381,
+   "sha256": "315476b4a97b78810aa69db94fa5ee2da5d9d30d5227ced656285389367fc8d9"
+  },
+  {
+   "path": "outputs/raw/search/2026-10-03_openalex_q1_rerequest/openalex/Q1_confirmatory/page_0023.json.gz",
+   "bytes": 271999,
+   "sha256": "6a9e84911e4f1c7a9609e1f2a497c6a8ffaa326f64adbed668eeb5076f99f023"
+  },
+  {
+   "path": "outputs/raw/search/2026-10-03_openalex_q1_rerequest/openalex/Q1_confirmatory/page_0024.json.gz",
+   "bytes": 284054,
+   "sha256": "11896f96cd0f2e276a6ed542ec694a5b795165f0ddadfca3d8dd952c434c319b"
+  },
+  {
+   "path": "outputs/raw/search/2026-10-03_openalex_q1_rerequest/openalex/Q1_confirmatory/page_0025.json.gz",
+   "bytes": 734145,
+   "sha256": "ae6f24d88ef4168b5802a7fbbb17c2647bfa59bd9824333b1b45569db4b3d2e1"
+  },
+  {
+   "path": "outputs/raw/search/2026-10-03_openalex_q1_rerequest/openalex/Q1_update/page_0001.json.gz",
+   "bytes": 120859,
+   "sha256": "b7f648ba679a54693ddab427450f3f59dc9ab8c9ee0ab4b4298352e572b40b97"
+  },
+  {
+   "path": "outputs/raw/search/2026-10-03_openalex_q1_rerequest/openalex/Q1_update/page_0002.json.gz",
+   "bytes": 181999,
+   "sha256": "d29af0ccb0423b1bc9e271b7a75b8c0e0793e72ae37538ba1e5a77bf214a9c27"
+  },
+  {
+   "path": "outputs/raw/search/2026-10-03_openalex_q1_rerequest/openalex/Q1_update/page_0003.json.gz",
+   "bytes": 204843,
+   "sha256": "61ed7c7f70c1233679dd15412da95fee7e1e45bcd69f078ad2f409a6e78e556e"
+  },
+  {
+   "path": "outputs/raw/search/2026-10-03_openalex_q1_rerequest/openalex/Q1_update/page_0004.json.gz",
+   "bytes": 210044,
+   "sha256": "b53c9876769fe76ab1b42f3eabc7205b7a81b29be34b7eebae777f42682bb8d9"
+  },
+  {
+   "path": "outputs/raw/search/2026-10-03_openalex_q1_rerequest/openalex/Q1_update/page_0005.json.gz",
+   "bytes": 181279,
+   "sha256": "d81461db6cd2fdb66e5db62ce779afbe3b517cf745b0635a884558b88c44fb65"
+  },
+  {
+   "path": "outputs/raw/search/2026-10-03_openalex_q1_rerequest/openalex/Q1_update/page_0006.json.gz",
+   "bytes": 212257,
+   "sha256": "c0385d7a7fe06ef108778c65061333785169baa292c2b171f073009b5a609974"
+  },
+  {
+   "path": "outputs/raw/search/2026-10-03_openalex_q1_rerequest/openalex/Q1_update/page_0007.json.gz",
+   "bytes": 207990,
+   "sha256": "7c71fc43997772a06876a7861a13b103f673deb6fc0879069d995e0817f914fe"
+  },
+  {
+   "path": "outputs/raw/search/2026-10-03_openalex_q1_rerequest/openalex/Q1_update/page_0008.json.gz",
+   "bytes": 185593,
+   "sha256": "91dca81b28f06252d882956bcb7a4aa06e8df310e4c6c4369f3177cb183001ac"
+  },
+  {
+   "path": "outputs/raw/search/2026-10-03_openalex_q1_rerequest/openalex/Q1_update/page_0009.json.gz",
+   "bytes": 210447,
+   "sha256": "adec5527c8757252186f588a58d50bf81c73c64613456746a0085b7a84cc45a5"
+  },
+  {
+   "path": "outputs/raw/search/2026-10-03_openalex_q1_rerequest/openalex/Q1_update/page_0010.json.gz",
+   "bytes": 230157,
+   "sha256": "127c46f0f27a2025e96db55a6c46ecf2254964d8483e76446aaf5d8d79200e2e"
+  },
+  {
+   "path": "outputs/raw/search/2026-10-03_openalex_q1_rerequest/openalex/Q1_update/page_0011.json.gz",
+   "bytes": 244034,
+   "sha256": "95fccc046a6e340eba4b255e898bf16c4d0425b31fdcbca79449ec473e6c0961"
+  },
+  {
+   "path": "outputs/raw/search/2026-10-03_openalex_q1_rerequest/openalex/Q1_update/page_0012.json.gz",
+   "bytes": 194680,
+   "sha256": "5dae7cbccdcb48b8d6f28807fd8f75692e4a6bb1c8dca7445f752f33338f6fd2"
+  },
+  {
+   "path": "outputs/raw/search/2026-10-03_openalex_q1_rerequest/run.json",
+   "bytes": 673,
+   "sha256": "c521fbbd0e32b5827dc2a51d9e7e62f39d3f8cf3fc3a590f2d781a27036f187e"
+  }
+ ],
+ "recorded_directly": [
+  "outputs/raw/search/2026-10-03_openalex_q1_rerequest/comparison.json"
+ ],
+ "volume_checks": []
+}

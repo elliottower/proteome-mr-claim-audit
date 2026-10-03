@@ -1,0 +1,16 @@
+{
+ "search_date_utc": "2026-10-03",
+ "started_utc": "2026-10-03T21:47:19.785+00:00",
+ "second_request_of": "outputs/raw/search/2026-10-03",
+ "streams": [
+  "Q1_confirmatory",
+  "Q1_update"
+ ],
+ "openalex_select": "id,doi,ids,display_name,publication_date,publication_year,type,language,authorships,primary_location,abstract_inverted_index",
+ "openalex_key_sent": true,
+ "scripts_sha256": {
+  "run_search.py": "a3ef0bcdb9ab31b303631751e3089b6fba2dae49e3e2a1cef7b75067e32684e3",
+  "search_queries.py": "d34360d56752205474da12136ce78b5db2508060ed0f67ada8520269710aa167",
+  "rerequest_openalex_stream.py": "922cf1c3b3d9d6419847671146c5476b7cd38a93e4ed15c63981cd94d7d29eac"
+ }
+}

@@ -1,0 +1,36 @@
+{
+ "finished_utc": "2026-10-03T21:48:09.560+00:00",
+ "first_request": "outputs/raw/search/2026-10-03",
+ "second_request": "outputs/raw/search/2026-10-03_openalex_q1_rerequest",
+ "read": "work identifiers and meta.count only",
+ "streams": [
+  {
+   "stream": "Q1_confirmatory",
+   "first_reported": 2484,
+   "first_distinct": 2483,
+   "first_duplicates": 3,
+   "second_reported": 2484,
+   "second_distinct": 2483,
+   "second_duplicates": 5,
+   "only_in_first": [
+    "https://openalex.org/W7104183659"
+   ],
+   "only_in_second": [
+    "https://openalex.org/W4416323386"
+   ]
+  },
+  {
+   "stream": "Q1_update",
+   "first_reported": 1157,
+   "first_distinct": 1156,
+   "first_duplicates": 0,
+   "second_reported": 1157,
+   "second_distinct": 1157,
+   "second_duplicates": 3,
+   "only_in_first": [],
+   "only_in_second": [
+    "https://openalex.org/W7134936538"
+   ]
+  }
+ ]
+}
