@@ -2,7 +2,7 @@
 
 **Status:** FROZEN at `02bb006f3e55`
 **Plan sha256:** `9f06131af9936cc7c3556e87d77dcec65d034e4665be023eedf39948082d417b`
-**Log:** 106 entries, head `7b8af343`
+**Log:** 107 entries, head `7128f963`
 **Frozen:** 2026-10-03
 
 Sections use the [OSF Preregistration](https://osf.io/prereg/) question titles verbatim. A
@@ -1770,4 +1770,5 @@ The last column is what distinguishes an amendment from a deviation: `nothing ru
 2026-10-03  osf attached wording_lexicon.json sha256 8a5dd42f85c5ca9d1e32bca2a24eb0f3eb69e6b9add2ca9c3e55e7cfdce35fcf  nothing run  ·b11f1677
 2026-10-03  osf registration https://osf.io/zae8c submitted by the author 2026-10-03T21:04:30Z from draft 6ac165699df176be36e148ff, public immediately; in the OSF approval window when logged  nothing run  ·5404f1b8
 2026-10-03  osf registration https://osf.io/zae8c approved by the author and public (checked 2026-10-03T21:32Z)  nothing run  ·7b8af343
+2026-10-03  registered search run once on 2026-10-03 (UTC 21:37 to 21:40), all 26 streams complete, no failed request; run_search.py then ended with its count-gap error: six OpenAlex streams retrieved a number of rows different from meta.count (Q1 confirmatory 2486 rows, 2483 distinct works, reported 2484; Q3 confirmatory 1293, 1291, 1291; Q4 confirmatory 2291, 2289, 2289; Q1 update 1156, 1156, 1157; Q3 update 515, 513, 513; Q4 update 1006, 1005, 1005), i.e. ten works returned twice across cursor pages and one work fewer than reported in each Q1 window; PubMed and Europe PMC streams match their reported counts; only counts and work identifiers were read; no screening set assembled and no record sent to GPT-6.1 Sol; the run is stopped here for the author's decision on the gap  results not opened  ·7128f963
 ```

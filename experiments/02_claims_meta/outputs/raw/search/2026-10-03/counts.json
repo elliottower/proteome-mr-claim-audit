@@ -1,0 +1,154 @@
+{
+ "search_date_utc": "2026-10-03",
+ "windows": {
+  "confirmatory": [
+   "2019-01-01",
+   "2025-12-31"
+  ],
+  "update": [
+   "2026-01-01",
+   "2026-10-03"
+  ]
+ },
+ "streams": {
+  "pubmed/esearch_Q1_confirmatory": {
+   "reported": 1476,
+   "retrieved": 1476,
+   "pages": 1
+  },
+  "pubmed/esearch_Q2_confirmatory": {
+   "reported": 333,
+   "retrieved": 333,
+   "pages": 1
+  },
+  "pubmed/esearch_Q3_confirmatory": {
+   "reported": 816,
+   "retrieved": 816,
+   "pages": 1
+  },
+  "pubmed/esearch_Q4_confirmatory": {
+   "reported": 1319,
+   "retrieved": 1319,
+   "pages": 1
+  },
+  "pubmed/esearch_Q1_update": {
+   "reported": 724,
+   "retrieved": 724,
+   "pages": 1
+  },
+  "pubmed/esearch_Q2_update": {
+   "reported": 173,
+   "retrieved": 173,
+   "pages": 1
+  },
+  "pubmed/esearch_Q3_update": {
+   "reported": 350,
+   "retrieved": 350,
+   "pages": 1
+  },
+  "pubmed/esearch_Q4_update": {
+   "reported": 525,
+   "retrieved": 525,
+   "pages": 1
+  },
+  "pubmed/efetch": {
+   "reported": 3145,
+   "retrieved": 3145,
+   "pages": 16
+  },
+  "epmc/Q1_confirmatory": {
+   "reported": 1779,
+   "retrieved": 1779,
+   "pages": 3
+  },
+  "epmc/Q2_confirmatory": {
+   "reported": 417,
+   "retrieved": 417,
+   "pages": 1
+  },
+  "epmc/Q3_confirmatory": {
+   "reported": 979,
+   "retrieved": 979,
+   "pages": 1
+  },
+  "epmc/Q4_confirmatory": {
+   "reported": 1591,
+   "retrieved": 1591,
+   "pages": 3
+  },
+  "epmc/Q1_update": {
+   "reported": 706,
+   "retrieved": 706,
+   "pages": 1
+  },
+  "epmc/Q2_update": {
+   "reported": 180,
+   "retrieved": 180,
+   "pages": 1
+  },
+  "epmc/Q3_update": {
+   "reported": 320,
+   "retrieved": 320,
+   "pages": 1
+  },
+  "epmc/Q4_update": {
+   "reported": 533,
+   "retrieved": 533,
+   "pages": 1
+  },
+  "openalex/Q1_confirmatory": {
+   "reported": 2484,
+   "retrieved": 2486,
+   "pages": 25
+  },
+  "openalex/Q2_confirmatory": {
+   "reported": 600,
+   "retrieved": 600,
+   "pages": 7
+  },
+  "openalex/Q3_confirmatory": {
+   "reported": 1291,
+   "retrieved": 1293,
+   "pages": 13
+  },
+  "openalex/Q4_confirmatory": {
+   "reported": 2289,
+   "retrieved": 2291,
+   "pages": 23
+  },
+  "openalex/Q1_update": {
+   "reported": 1157,
+   "retrieved": 1156,
+   "pages": 12
+  },
+  "openalex/Q2_update": {
+   "reported": 344,
+   "retrieved": 344,
+   "pages": 4
+  },
+  "openalex/Q3_update": {
+   "reported": 513,
+   "retrieved": 515,
+   "pages": 6
+  },
+  "openalex/Q4_update": {
+   "reported": 1005,
+   "retrieved": 1006,
+   "pages": 11
+  },
+  "pubmed/efetch_linked": {
+   "reported": 254,
+   "retrieved": 226,
+   "pages": 2
+  }
+ },
+ "finished_utc": "2026-10-03T21:40:57.588+00:00",
+ "streams_with_count_gap": [
+  "openalex/Q1_confirmatory",
+  "openalex/Q1_update",
+  "openalex/Q3_confirmatory",
+  "openalex/Q3_update",
+  "openalex/Q4_confirmatory",
+  "openalex/Q4_update"
+ ]
+}
