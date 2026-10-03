@@ -1,0 +1,36 @@
+source:
+  citation: michailidou2017bcac_ref20_michailidou2015_supp_table1
+  local: sources/original/michailidou2017bcac_ref20_michailidou2015_supp_table1.pdf
+  sha256: ef102026761d084cbf2588994f166d221f3325cdd575f852a131ac8b75f300c4
+  url: https://static-content.springer.com/esm/art%3A10.1038%2Fng.3242/MediaObjects/41588_2015_BFng3242_MOESM386_ESM.pdf
+  doi: 10.1038/ng.3242
+  note: 'Original file behind claims/michailidou2017bcac_ref20_michailidou2015_supp_table1.yaml: 41588_2015_BFng3242_MOESM386_ESM.pdf
+    from static-content.springer.com. The quotations here are the quotations of that file that resolve
+    in this file under the citations readers; a quotation absent here is pinned to the extracted text
+    there only.'
+claims:
+  fn_wtccc:
+    quotes:
+    - exact: 4 Controls from Welcome Trust Case-Control Consortium.
+      section: Supplementary Table 1a footnote 4 (Michailidou 2015)
+  fn_rotterdam:
+    quotes:
+    - exact: 5 Controls from Rotterdam Study.
+      section: Supplementary Table 1a footnote 5 (Michailidou 2015)
+  fn_kora:
+    quotes:
+    - exact: 6 Controls from KORA.
+      section: Supplementary Table 1a footnote 6 (Michailidou 2015)
+  fn_nordicdb:
+    quotes:
+    - exact: 7 Controls from NordicDB.
+      section: Supplementary Table 1a footnote 7 (Michailidou 2015)
+  st1_caption:
+    quotes:
+    - exact: Supplementary Table 1. Studies contributing to the analysis.
+      section: Supplementary Table 1 caption (Michailidou 2015)
+  tnbcc_external_controls:
+    quotes:
+    - exact: TNBCC used external controls, drawn from population-based studies from the same countries
+        as the cases.
+      section: Supplementary Table 1d footnote 2 (Michailidou 2015)

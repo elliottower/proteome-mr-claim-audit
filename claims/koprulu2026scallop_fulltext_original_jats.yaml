@@ -1,0 +1,81 @@
+source:
+  citation: koprulu2026scallop_fulltext
+  local: sources/original/koprulu2026scallop_fulltext.xml
+  sha256: eb693b89f105c4bd7b64db5b686826cee08b969330557b854fd40a0d013c5f06
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13343581/fullTextXML
+  doi: 10.1016/j.cell.2026.03.049
+  extractor: jats-text
+  note: 'Original file behind claims/koprulu2026scallop_fulltext.yaml: the XML pinned in claims/koprulu2026scallop_fulltext_original.yaml,
+    read by the citations extractor jats-text. The quotations here are those of that file that resolve
+    in this reading; a quotation absent here stays pinned where it already was.'
+  extractor_version: 1
+  derived_sha256: 7536beba2e100df4d27cf4cb5928d19887ab6042ab645782f1ced1913a41bb42
+claims:
+  abstract-38:
+    quotes:
+    - exact: n = 78,664 participants across 38 studies
+      section: Summary
+  up-to-37:
+    quotes:
+    - exact: We performed a multi-cohort meta-analysis of genome-wide summary statistics of plasma levels
+        of 1,194 protein targets from up to 37 cohorts (Table S1), referred to as SCALLOP meta-analyses.
+      section: 'STAR Methods: Experimental model and study participant details'
+  ukb:
+    quotes:
+    - exact: We additionally included proteogenomic analysis conducted using genomic and proteomic data
+        from 48,017 participants of European ancestry in UK Biobank (UKBB).
+      section: 'STAR Methods: Experimental model and study participant details'
+  meta:
+    quotes:
+    - exact: Using the summary statistics from SCALLOP meta-analyses and UKBB proteogenomic analysis,
+        we performed inverse-variance fixed-effects meta-analyses using METAL
+      section: STAR Methods
+  results-38:
+    quotes:
+    - exact: We performed a proteogenomic meta-analysis of 1,161 protein targets measured in blood across
+        38 cohorts, including up to 78,664 participants of European ancestry (Table S1A; for study design
+        see Figure S1).
+      section: 'Results: Multi-cohort genome-proteome-wide pQTL discovery'
+  noneur:
+    quotes:
+    - exact: namely Immuno-oncology panel in China Kadoorie Biobank (CKB, n=816 participants of Chinese
+        ancestry), Metabolism panel in Qatar Metabolomics study on Diabetes (QMDIAB, n=350 participants
+        of Indian, Filipino or Arabic ancestry) and Inflammation, Cardiovascular III, Neurology and Oncology
+        II panels in Shanghai Women and Men’s Health Study (SWMHS, n=548 participants of Chinese ancestry)
+      section: 'STAR Methods: comparison with non-European ancestry'
+  ukb-platform:
+    quotes:
+    - exact: In UKBB, the proteomic measurements used in this study were generated through Olink Explore
+        1536 platform
+      section: 'STAR Methods: Proteomic measurements'
+  sumstats:
+    quotes:
+    - exact: Genome-wide summary statistics for all protein targets in this study will be available on
+        https://omicscience.org/ upon publication. All remaining data have been accessed via publicly
+        available links
+      section: Data and code availability
+  panels-13:
+    quotes:
+    - exact: For the 37 cohorts included in this study, antibody-based proteomic measurements were generated
+        through at least one of the 13 Target-96 panels offered by Olink measuring 92 protein targets
+        (Cardiometabolic, Cardiovascular II, Cardiovascular III, Cell Regulation, Development, Immuno-oncology,
+        Inflammation, Immune Response, Metabolism, Neurology, Neuro Exploratory, Organ Damage, Oncology
+        II).
+      section: 'STAR Methods: Proteomic measurements'
+  ukb-explore-1536:
+    quotes:
+    - exact: In UKBB, the proteomic measurements used in this study were generated through Olink Explore
+        1536 platform utilizing the same antibody-based technology but measuring a broader coverage of
+        1,463 protein targets.
+      section: 'STAR Methods: Proteomic measurements'
+  overlap-1161:
+    quotes:
+    - exact: Finally, we performed an inverse-variance fixed-effects meta-analyses (with METAL59) for
+        1,161 protein targets (with overlapping UniProt ID across different antibody-based platforms offered
+        by Olink) using summary level data from SCALLOP meta-analyses and UKB
+      section: 'STAR Methods: Genome-wide meta-analyses of protein levels'
+  scallop-1194:
+    quotes:
+    - exact: We performed a multi-cohort meta-analysis of genome-wide summary statistics of plasma levels
+        of 1,194 protein targets from up to 37 cohorts (Table S1), referred to as SCALLOP meta-analyses.
+      section: STAR Methods

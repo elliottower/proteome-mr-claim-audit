@@ -1,0 +1,27 @@
+source:
+  citation: sun2023
+  local: sources/sun2023.txt
+  sha256: 6a7e009887917bec4c512a988e0f778dbc1d0572d9be1b044e08872beb37eaab
+  doi: 10.1038/s41586-023-06592-6
+  note: Full text from Europe PMC fullTextXML (PMC10567551), tags stripped. Sun BB, Chiou J, Traylor M,
+    et al. Plasma proteomic associations with genetics and health in the UK Biobank. Nature 2023;622:329-338.
+    PMID 37794186.
+claims:
+  abstract-54219:
+    quotes:
+    - exact: characterizing the plasma proteomic profiles of 54,219 UK Biobank participants
+      section: Abstract
+  within-replication:
+    quotes:
+    - exact: A total of 95.6% (1,869 out of 1,955) of cis and 64.1% (7,906 out of 12,332) of trans associations
+        remained significant
+      section: 'Results: replication of pQTLs'
+  antibody-84:
+    quotes:
+    - exact: 84% (934 out of 1116) of the previous associations were replicated in our discovery study
+      section: 'Results: comparisons with previous pQTL studies'
+  aptamer-38:
+    quotes:
+    - exact: 38% of previous associations replicated in our discovery study (1,877 out of 4,978 associations,
+        across 1,982 proteins)
+      section: 'Results: comparisons with previous pQTL studies'

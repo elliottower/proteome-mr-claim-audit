@@ -1,0 +1,38 @@
+source:
+  citation: gibson2023
+  local: sources/original/gibson2023.xml
+  sha256: f3ae8e9a2c64aefe623987b6392a2a79b467dd486331018b0474ecc46fba46aa
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10086297/fullTextXML
+  doi: 10.1136/bmjebm-2022-112006
+  note: 'Original file behind claims/gibson2023.yaml: Europe PMC fullTextXML of PMC10086297, read as plain
+    text with its markup. The quotations here are the quotations of that file that resolve in this file
+    under the citations readers; a quotation absent here is pinned to the extracted text there only.'
+claims:
+  direct-replications:
+    quotes:
+    - exact: Future research should focus on the quality of code and analyses, attempt direct replications
+        and investigate the impact of the STROBE-MR specifically.
+      section: 'Abstract: Conclusions'
+  range-3-100:
+    quotes:
+    - exact: The proportion of articles which reported complete information/adequate methodology ranged
+        from 3% to 100% across the different items.
+      section: 'Abstract: Results'
+  checklist-25:
+    quotes:
+    - exact: Data were extracted using a 25-item checklist relating to reporting and methodological quality
+      section: 'Abstract: Methods'
+  n116:
+    quotes:
+    - exact: 116 articles were included in this review.
+      section: 'Abstract: Results'
+  scope-individual-level:
+    quotes:
+    - exact: The aim of our study is to assess whether published articles that conduct MR analyses using
+        individual-level data from the UKB cohort use appropriate analyses and report enough details to
+        allow accurate interpretation and replication
+      section: Introduction
+  mean-completeness:
+    quotes:
+    - exact: Overall, the mean article completeness was 55% (SD = 9%).
+      section: Results

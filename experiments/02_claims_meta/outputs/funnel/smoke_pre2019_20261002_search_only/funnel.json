@@ -1,0 +1,168 @@
+{
+ "written_utc": "2026-10-02T20:15:29+00:00",
+ "inputs": {
+  "screening_dirs": [
+   "outputs/screening_smoke/smoke_pre2019_20261002"
+  ],
+  "decisions": [
+   "outputs/parsed/sol_eligibility_smoke_pre2019_20261002_2811496ef424.decisions.jsonl"
+  ],
+  "extraction": [
+   "outputs/parsed/sol_extraction_smoke_pre2019_20261002_0b97103cd7a4.jsonl"
+  ],
+  "spans": [
+   "outputs/verification/sol_extraction_smoke_pre2019_20261002_0b97103cd7a4/spans.jsonl"
+  ],
+  "checks": [
+   "outputs/verification/sol_extraction_smoke_pre2019_20261002_0b97103cd7a4/claim_checks.jsonl"
+  ],
+  "assembly": "outputs/registry/smoke_pre2019_20261002_coded"
+ },
+ "search": {
+  "smoke_pre2019_20261002": {
+   "run": "outputs/raw/search_smoke/smoke_pre2019_20261002",
+   "source_records": {
+    "pubmed": 16,
+    "epmc": 8,
+    "openalex": 13
+   },
+   "pubmed_records_fetched_for_other_sources": 4,
+   "retrieved_records_by_stream": {
+    "epmc/Q1_smoke": 1,
+    "epmc/Q2_smoke": 1,
+    "epmc/Q3_smoke": 1,
+    "epmc/Q4_smoke": 7,
+    "openalex/Q1_smoke": 3,
+    "openalex/Q4_smoke": 10,
+    "pubmed/Q1_smoke": 2,
+    "pubmed/Q2_smoke": 1,
+    "pubmed/Q3_smoke": 1,
+    "pubmed/Q4_smoke": 10
+   },
+   "screening_records": 18,
+   "duplicates_removed": 19,
+   "screening_records_by_sources": {
+    "pubmed": 4,
+    "pubmed+epmc": 1,
+    "pubmed+openalex": 4,
+    "pubmed+epmc+openalex": 7,
+    "openalex": 2
+   },
+   "screening_records_by_kind": {
+    "journal": 17,
+    "other": 1
+   },
+   "screening_records_by_lead_source_type": {
+    "pubmed: Comparative Study; Journal Article; Multicenter Study; Observational Study; Research Support, Non-U.S. Gov't": 1,
+    "pubmed: Journal Article; Research Support, Non-U.S. Gov't": 5,
+    "pubmed: Letter; Research Support, N.I.H., Extramural": 1,
+    "pubmed: Journal Article": 5,
+    "pubmed: Journal Article; Research Support, N.I.H., Extramural; Research Support, Non-U.S. Gov't": 2,
+    "pubmed: Journal Article; Comment": 2,
+    "openalex: article": 1,
+    "openalex: conference-abstract": 1
+   },
+   "screening_records_without_abstract": 0,
+   "preprints_with_published_link": 0
+  }
+ },
+ "citation_chasing": {},
+ "screening": {
+  "records": 18,
+  "records_from_citation_chasing": 0,
+  "by_document_class": {
+   "journal": 17,
+   "other": 1
+  }
+ },
+ "prefilter": {
+  "smoke_pre2019_20261002": {
+   "records": 18,
+   "marked": 0,
+   "no_genetic_term": 0,
+   "no_protein_term": 0,
+   "marked_records_sampled_by_the_gate_audit": 0,
+   "marked_records_not_screened": 0,
+   "sent_to_screening": 18
+  }
+ },
+ "eligibility": {
+  "records_sent_to_screening": 18,
+  "decisions": {
+   "eligible_count_not_stated": 1,
+   "ineligible": 17
+  },
+  "to_extraction": 1,
+  "eligibility_uncertain": 0,
+  "also_tissue_or_csf": 0,
+  "ineligible_by_reason": {
+   "excluded_non_human": 7,
+   "excluded_review": 3,
+   "excluded_tissue_or_csf_proteomics": 12,
+   "no_circulating_protein_instruments": 16,
+   "no_protein_outcome_result": 3,
+   "not_proteome_or_panel_wide": 12
+  }
+ },
+ "extraction": {
+  "records": 1,
+  "ok": 1,
+  "extraction_failed": 0,
+  "needed_retry": 0,
+  "claim_records": 0
+ },
+ "quotation_check": {
+  "spans": 0,
+  "pass": 0,
+  "fail": 0
+ },
+ "verification": {
+  "claim_records": 0,
+  "enters_registry": 0,
+  "left_out_by_first_failure": {},
+  "direction_verification_state": {}
+ },
+ "families": {
+  "links_by_rule": {
+   "fuzzy_title_author": 2
+  },
+  "eligible_families": 2,
+  "eligible_families_by_window": {
+   "outside": 2
+  },
+  "eligible_families_extraction_failed": 0,
+  "eligible_no_named_claims": 2,
+  "eligible_no_named_claims_families": [
+   "29875488",
+   "W2901567682"
+  ]
+ },
+ "registry_assembly": {
+  "written_utc": "2026-10-02T20:14:33+00:00",
+  "records": 114,
+  "records_other_document_type": 1,
+  "other_document_types_included": false,
+  "families": 112,
+  "eligible_families": 2,
+  "eligible_families_by_window": {
+   "outside": 2
+  },
+  "claim_records_of_other_records": 0,
+  "registry": {
+   "claim_records": 3,
+   "claims_with_a_pair": 3,
+   "left_out_by_reason": {},
+   "pair_ambiguous_by_reason": {},
+   "claims_with_a_manually_coded_dataset": 0
+  },
+  "dating": {
+   "claim_records": 0,
+   "claims_with_a_pair": 0,
+   "left_out_by_reason": {},
+   "pair_ambiguous_by_reason": {},
+   "claims_with_a_manually_coded_dataset": 0
+  }
+ },
+ "prefiltered_citation_chasing_gate_audit": {},
+ "gate_audit_rounds_cap_reached_without_satisfying_tolerance": []
+}

@@ -1,0 +1,16 @@
+source:
+  citation: okada2014ra_main
+  local: sources/original/okada2014ra_main.xml
+  sha256: af9b93cea488d3af9b199198b6e54a09d60a5fe160580b26ffec8eed4c4b0429
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC3944098/fullTextXML
+  doi: 10.1038/nature12873
+  note: 'Original file behind claims/okada2014ra_main.yaml: Europe PMC fullTextXML of PMC3944098, read
+    as plain text with its markup. The quotations here are the quotations of that file that resolve in
+    this file under the citations readers; a quotation absent here is pinned to the extracted text there
+    only.'
+claims:
+  stage1-22:
+    quotes:
+    - exact: The 19,234 RA cases and 61,565 controls enrolled in the Stage I trans-ethnic GWAS meta-analysis
+        were obtained from 22 studies from European and Asian ancestries
+      section: 'Methods: Subjects'

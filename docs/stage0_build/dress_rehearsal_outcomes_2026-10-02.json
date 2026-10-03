@@ -1,0 +1,139 @@
+{
+ "date": "2026-10-02",
+ "tools": {
+  "reproducible_science_main": "b078cb2",
+  "modal_client": "1.4.3"
+ },
+ "no_in_window_record_read": true,
+ "model_requests": 0,
+ "search_requests": 0,
+ "rehearsal_1": {
+  "paths": 2231,
+  "crlf_tables_stored_as_lf_without_gitattributes": 22,
+  "freeze": {
+   "commit_named": "eeb885645205",
+   "plan_sha256": "3b56787175c1a2391ff54f55180e107c331a51f511b53985820f4b392393f241",
+   "log_entries_at_freeze": 41
+  },
+  "prereg_check_after_edit": {
+   "hypothesis_character": "CHANGED",
+   "title_paragraph_character": "CHANGED",
+   "header_plan_sha256": "CHANGED",
+   "log_line_edited": "LOG ALTERED",
+   "log_line_removed": "LOG ALTERED",
+   "status_commit": "unchanged",
+   "frozen_date": "unchanged"
+  },
+  "ledger_runs": {
+   "s1_search_2026-10-01": {
+    "files": 25
+   },
+   "s4_verification_zzrehearsal": {
+    "files": 86,
+    "compared_with_volume": 5
+   },
+   "zzrehearsal_synthetic_registry": {
+    "files": 6
+   },
+   "s5_biology_zz_rehearsal_20261002": {
+    "files": 34,
+    "compared_with_volume": [
+     16,
+     16
+    ]
+   },
+   "s5_drug_zz_rehearsal_20261002": {
+    "files": 4,
+    "compared_with_volume": 3
+   }
+  },
+  "sealed_plan_after_one_log_line": "CHANGED",
+  "tamper": {
+   "file_recorded_directly": {
+    "results_verify": "CHANGED",
+    "stage_record_verify": "raises"
+   },
+   "file_named_only_in_manifest": {
+    "results_verify": "not reported",
+    "stage_record_verify": "raises"
+   },
+   "sealed_input": {
+    "results_verify": "CHANGED"
+   },
+   "manifest": {
+    "results_verify": "CHANGED"
+   },
+   "ledger_line_edited": {
+    "results_verify": "CHAIN EDITED"
+   },
+   "ledger_line_removed": {
+    "results_verify": "CHAIN TRUNCATED"
+   }
+  },
+  "verify_spans": {
+   "spans_pinned": 129,
+   "claim_records": 141,
+   "seconds": 67
+  },
+  "results_coverage_strict_exit": {
+   "one_digit_values_before_and_after_edit": [
+    0,
+    0
+   ],
+   "two_digit_values_unbound": 1,
+   "bound": 0,
+   "after_a_value_changed": 1
+  },
+  "repro_verify_exit": {
+   "clean": 0,
+   "reported_value_changed": 1,
+   "pointer_gone": 1,
+   "artifact_edited": 1,
+   "strict_with_run_record": 0,
+   "strict_after_plan_log_line": 1
+  },
+  "repro_check": {
+   "claims_citing_header_commit_listed": 5,
+   "claim_citing_status_commit_listed": 0,
+   "parked_plan_counts_as_not_frozen": true
+  },
+  "citations_verify": {
+   "without_sources": {
+    "unchecked": 5470,
+    "exit": 1
+   },
+   "with_sources": {
+    "found": 5470,
+    "not_found": 0,
+    "exit": 0
+   }
+  },
+  "osf_dry_run": {
+   "accepted": true,
+   "answers": 23,
+   "bytes": 105557,
+   "longest_answer_characters": 43174
+  }
+ },
+ "rehearsal_2": {
+  "paths": 2289,
+  "results_verify_files_exit_after_log_line": 0,
+  "plan_check": "ok",
+  "root_prereg_check_exit": 0,
+  "clone": {
+   "results_verify_files_exit": 0,
+   "files_ok": 117,
+   "crlf_tables_stored_as_crlf": 22
+  }
+ },
+ "fixes": {
+  "tests_pass_on_modal": 593,
+  "test_output": "experiments/02_claims_meta/outputs/tests/pytest_all_modal_20261002T192344Z.txt",
+  "mutations_killed": 12,
+  "mutations": 12
+ },
+ "modal_scratch_removed": [
+  "/02_claims_meta/stage5/zz_rehearsal_20261002",
+  "/02_claims_meta/stage4/sol_extraction_zzrehearsal_0b97103cd7a4"
+ ]
+}

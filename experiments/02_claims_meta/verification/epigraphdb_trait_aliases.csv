@@ -1,0 +1,67 @@
+surface,term_id,term_label,rule,alias_relation,source,rationale
+2hr glucose,EFO:0004307,glucose tolerance test,hand_alias,derived_measurement,epigraphdb_trait,the two-hour value of the oral glucose tolerance test
+Alcohol intake frequency,EFO:0004329,alcohol drinking,hand_alias,broader_proxy,epigraphdb_trait,a frequency measure mapped to the broader behavior
+Body fat,EFO:0007800,body fat percentage,hand_alias,normalized_equivalent,epigraphdb_trait,the snapshot trait is body fat percentage
+Cancer code  self-reported: small intestine or small bowel cancer,MONDO:0000956,small intestine cancer,hand_alias,normalized_equivalent,epigraphdb_trait,UK Biobank field wording of the same condition
+Caudate volume,EFO:0004830,caudate nucleus volume,hand_alias,normalized_equivalent,epigraphdb_trait,the caudate is the caudate nucleus
+Childhood intelligence,EFO:0004337,intelligence,hand_alias,broader_proxy,epigraphdb_trait,the term drops the age at measurement
+Cigarettes smoked per day,EFO:0006525,cigarettes per day measurement,hand_alias,normalized_equivalent,epigraphdb_trait,wording of the same measurement
+Non-cancer illness code  self-reported: uterine fibroids,MONDO:0007886,uterine corpus leiomyoma,hand_alias,normalized_equivalent,epigraphdb_trait,common name of uterine leiomyoma; ambiguous as written: the label also names an EFO measurement term
+Diagnoses - main ICD10: I83 Varicose veins of lower extremities,MONDO:0008638,varicose disease,hand_alias,broader_proxy,epigraphdb_trait,the term drops the site
+Diagnoses - main ICD10: K35 Acute appendicitis,MONDO:0005649,appendicitis,hand_alias,broader_proxy,epigraphdb_trait,the term drops the acuity; the pinned files have no term for acute appendicitis
+Diagnoses - main ICD10: K57 Diverticular disease of intestine,EFO:0009959,diverticular disease,hand_alias,normalized_equivalent,epigraphdb_trait,ICD-10 chapter wording of the same condition
+Non-cancer illness code  self-reported: diverticular disease or diverticulitis,EFO:0009959,diverticular disease,hand_alias,normalized_equivalent,epigraphdb_trait,UK Biobank field wording of the same condition
+Diagnoses - main ICD10: M16 Coxarthrosis [arthrosis of hip],MONDO:0006629,"osteoarthritis, hip",hand_alias,normalized_equivalent,epigraphdb_trait,ICD-10 chapter wording of the same condition
+Diagnoses - main ICD10: M17 Gonarthrosis [arthrosis of knee],MONDO:0005416,"osteoarthritis, knee",hand_alias,normalized_equivalent,epigraphdb_trait,ICD-10 chapter wording of the same condition
+Diagnoses - main ICD10: M54 Dorsalgia,HP:0003418,Back pain,hand_alias,normalized_equivalent,epigraphdb_trait,dorsalgia is back pain
+Non-cancer illness code  self-reported: enlarged prostate,MONDO:0010811,benign prostatic hyperplasia,hand_alias,normalized_equivalent,epigraphdb_trait,common name of benign prostatic hyperplasia
+Non-cancer illness code  self-reported: vaginal prolapse or uterine prolapse,MONDO:0000082,pelvic organ prolapse,hand_alias,broader_proxy,epigraphdb_trait,two named forms mapped to the general term
+Diagnoses - main ICD10: R14 Flatulence and related conditions,EFO:0009669,flatulence,hand_alias,broader_proxy,epigraphdb_trait,the term drops `and related conditions`
+Diagnoses - main ICD10: R55 Syncope and collapse,HP:0001279,Syncope,hand_alias,broader_proxy,epigraphdb_trait,the term drops `and collapse`
+Diastolic blood pressure  automated reading,EFO:0006336,diastolic blood pressure,hand_alias,normalized_equivalent,epigraphdb_trait,UK Biobank field wording of the same measurement
+Systolic blood pressure  automated reading,EFO:0006335,systolic blood pressure,hand_alias,normalized_equivalent,epigraphdb_trait,UK Biobank field wording of the same measurement
+ER-negative Breast cancer (Combined Oncoarray; iCOGS; GWAS meta analysis),MONDO:0006513,estrogen-receptor negative breast cancer,hand_alias,normalized_equivalent,epigraphdb_trait,"the subtype, without the data-source note"
+ER-positive Breast cancer (Combined Oncoarray; iCOGS; GWAS meta analysis),MONDO:0006512,estrogen-receptor positive breast cancer,hand_alias,normalized_equivalent,epigraphdb_trait,"the subtype, without the data-source note"
+Eye problems or disorders: Diabetes related eye disease,MONDO:0005266,diabetic retinopathy,hand_alias,broader_proxy,epigraphdb_trait,diabetes-related eye disease is broader than retinopathy
+Fasting proinsulin,EFO:0010814,proinsulin measurement,hand_alias,broader_proxy,epigraphdb_trait,the term drops the fasting state
+Lumbar spine bone mineral density,EFO:0007701,spine bone mineral density,hand_alias,broader_proxy,epigraphdb_trait,the term drops the lumbar site
+Heel bone mineral density (BMD) T-score  automated,EFO:0009270,heel bone mineral density,hand_alias,derived_measurement,epigraphdb_trait,the T-score is derived from the heel bone mineral density; ambiguous as written: its parenthesis matches synonyms of two MONDO terms
+Fractured bone site(s): Ankle,EFO:0009615,ankle fracture,hand_alias,normalized_equivalent,epigraphdb_trait,UK Biobank field wording of the same condition
+Fractured bone site(s): Wrist,EFO:0009515,wrist fracture,hand_alias,normalized_equivalent,epigraphdb_trait,UK Biobank field wording of the same condition
+Fractured or broken bones in last 5 years,MONDO:0005315,bone fracture,hand_alias,broader_proxy,epigraphdb_trait,the term drops the five-year window
+HDL cholesterol,EFO:0004612,high density lipoprotein cholesterol measurement,hand_alias,normalized_equivalent,epigraphdb_trait,abbreviation of the same measurement
+Height,OBA:VT0001253,body height,hand_alias,normalized_equivalent,epigraphdb_trait,common name of body height
+High grade serous ovarian cancer,EFO:1001958,high grade ovarian serous adenocarcinoma,hand_alias,normalized_equivalent,epigraphdb_trait,common name of the histological type
+Invasive mucinous ovarian cancer,MONDO:0005601,ovarian mucinous adenocarcinoma,hand_alias,normalized_equivalent,epigraphdb_trait,common name of the histological type
+Hippocampus volume,EFO:0005035,hippocampal volume,hand_alias,exact_equivalent,epigraphdb_trait,the term's label with the noun in place of the adjective
+Iron,OBA:2050055,serum iron amount,hand_alias,normalized_equivalent,epigraphdb_trait,the snapshot trait is serum iron
+Mean cell haemoglobin concentration,EFO:0004528,mean corpuscular hemoglobin concentration,hand_alias,exact_equivalent,epigraphdb_trait,the term's label in another spelling and wording of `corpuscular`
+Mean cell haemoglobin,EFO:0004527,mean corpuscular hemoglobin,hand_alias,exact_equivalent,epigraphdb_trait,the term's label in another spelling and wording of `corpuscular`
+Neo-agreeableness,EFO:0007915,agreeableness measurement,hand_alias,normalized_equivalent,epigraphdb_trait,NEO personality inventory scale of the trait
+Neo-conscientiousness,EFO:0007912,conscientiousness measurement,hand_alias,normalized_equivalent,epigraphdb_trait,NEO personality inventory scale of the trait
+Neo-extraversion,EFO:0007913,extraversion measurement,hand_alias,normalized_equivalent,epigraphdb_trait,NEO personality inventory scale of the trait
+Neo-neuroticism,EFO:0007660,neuroticism measurement,hand_alias,normalized_equivalent,epigraphdb_trait,NEO personality inventory scale of the trait
+Neo-openness to experience,EFO:0007914,openness measurement,hand_alias,normalized_equivalent,epigraphdb_trait,NEO personality inventory scale of the trait
+Non-cancer illness code  self-reported: chronic obstructive airways disease or copd,MONDO:0005002,chronic obstructive pulmonary disease,hand_alias,normalized_equivalent,epigraphdb_trait,UK Biobank field wording of the same condition
+Non-cancer illness code  self-reported: gastro-oesophageal reflux (gord)  or  gastric reflux,MONDO:0007186,gastroesophageal reflux disease,hand_alias,normalized_equivalent,epigraphdb_trait,UK Biobank field wording of the same condition
+Non-cancer illness code  self-reported: hayfever or allergic rhinitis,MONDO:0011786,allergic rhinitis,hand_alias,normalized_equivalent,epigraphdb_trait,UK Biobank field wording of the same condition
+Non-cancer illness code  self-reported: high cholesterol,HP:0003124,Hypercholesterolemia,hand_alias,normalized_equivalent,epigraphdb_trait,"common name; the term is a phenotype term, the pinned files having no disease term for it"
+Non-cancer illness code  self-reported: hyperthyroidism or thyrotoxicosis,MONDO:0004425,hyperthyroidism,hand_alias,normalized_equivalent,epigraphdb_trait,UK Biobank field wording of the same condition
+Non-cancer illness code  self-reported: hypothyroidism or myxoedema,MONDO:0005420,hypothyroidism,hand_alias,normalized_equivalent,epigraphdb_trait,UK Biobank field wording of the same condition
+Non-cancer illness code  self-reported: kidney stone or ureter stone or bladder stone,MONDO:0024647,urolithiasis,hand_alias,normalized_equivalent,epigraphdb_trait,UK Biobank field wording of the same condition
+Non-cancer illness code  self-reported: mania or bipolar disorder or manic depression,MONDO:0004985,bipolar disorder,hand_alias,normalized_equivalent,epigraphdb_trait,UK Biobank field wording of the same condition
+Non-cancer illness code  self-reported: pernicious anaemia,MONDO:0008228,pernicious anemia,hand_alias,exact_equivalent,epigraphdb_trait,the term's label in another spelling
+Non-cancer illness code  self-reported: polio  or  poliomyelitis,MONDO:0017373,poliomyelitis,hand_alias,normalized_equivalent,epigraphdb_trait,UK Biobank field wording of the same condition
+Non-cancer illness code self-reported: pulmonary embolism (with or without) dvt,MONDO:0005279,pulmonary embolism,hand_alias,normalized_equivalent,epigraphdb_trait,UK Biobank field wording of the same condition
+Packed cell volume,EFO:0004348,hematocrit,hand_alias,normalized_equivalent,epigraphdb_trait,older name of the hematocrit
+Percent emphysema,EFO:0007626,emphysema imaging measurement,hand_alias,broader_proxy,epigraphdb_trait,one imaging measure mapped to the general imaging-measurement term
+Pulse rate,OBA:1001087,heart rate,hand_alias,normalized_equivalent,epigraphdb_trait,the pulse rate is the heart rate measured at the pulse
+Serum creatinine (eGFRcrea),OBA:0003747,glomerular filtration rate,hand_alias,derived_measurement,epigraphdb_trait,the glomerular filtration rate estimated from serum creatinine
+Sleep duration,OBA:2040171,sleep duration trait,hand_alias,exact_equivalent,epigraphdb_trait,the term's label without `trait`
+Subjective well being,EFO:0007869,wellbeing measurement,hand_alias,normalized_equivalent,epigraphdb_trait,wording of the same measurement
+Years of schooling,EFO:0011015,educational attainment,hand_alias,normalized_equivalent,epigraphdb_trait,the measure of educational attainment used by the source GWAS
+Lung adenocarcinoma,MONDO:0005061,lung adenocarcinoma,hand_alias,exact_equivalent,epigraphdb_trait,the term's own label; ambiguous as written because the label also names an EFO-file term
+Mean cell volume,OBA:0003460,erythrocyte volume,hand_alias,normalized_equivalent,epigraphdb_trait,"mean cell volume is mean corpuscular volume, whose EFO term is obsolete; resolved through its replacement"
+Mean platelet volume,OBA:0003277,platelet volume,hand_alias,exact_equivalent,epigraphdb_trait,the label of the obsolete EFO term; resolved through its replacement
+Potassium in urine,OBA:2050095,urine potassium amount,hand_alias,normalized_equivalent,epigraphdb_trait,"wording of urinary potassium measurement, whose EFO term is obsolete; resolved through its replacement"
+Diagnoses - main ICD10: I30 Acute pericarditis,MONDO:0005904,pericarditis,hand_alias,broader_proxy,epigraphdb_trait,the term drops the acuity; the pinned files have no term for acute pericarditis

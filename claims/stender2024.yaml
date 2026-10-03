@@ -1,0 +1,27 @@
+source:
+  citation: stender2024
+  local: sources/stender2024.txt
+  sha256: ff073a9b7ecc4b3cfd804c7d8937633ef14ea1054dae993a5fd3fb4b11803f77
+  doi: 10.1186/s12944-024-02284-w
+  note: Full text from Europe PMC fullTextXML (PMC11380209), tags stripped. Stender S, Gellert-Kristensen
+    H, Davey Smith G. Reclaiming mendelian randomization from the deluge of papers and misleading findings.
+    Lipids Health Dis 2024;23:286. PMID 39244551.
+claims:
+  minimal-value:
+    quotes:
+    - exact: These studies add minimal – if any – value and overwhelm reviewers and journals.
+      section: Abstract
+  off-rails:
+    quotes:
+    - exact: Sadly, MR has run off the rails.
+      section: Final paragraph
+  counts:
+    quotes:
+    - exact: A decade ago, there were about 100 MR papers published annually. In 2023, this number exceeded
+        3,000, and it will reach almost 5,000 in 2024 (Fig. 1).
+      section: Main text, paragraph 4
+  fig1-search:
+    quotes:
+    - exact: Number of papers identified using the search term ‘Mendelian randomization’ in PubMed, stratified
+        by year.
+      section: Fig. 1 caption

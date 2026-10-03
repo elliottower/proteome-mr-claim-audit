@@ -1,0 +1,37 @@
+source:
+  citation: zhou2022gbmi_main
+  local: sources/original/zhou2022gbmi_main.xml
+  sha256: 61c667b30896191e17103a846e3389dec2c382b94aef2ea4eab89ea9307f4f14
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9903716/fullTextXML
+  doi: 10.1016/j.xgen.2022.100192
+  extractor: jats-text
+  note: 'Original file behind claims/zhou2022gbmi_main.yaml: the XML pinned in claims/zhou2022gbmi_main_original.yaml,
+    read by the citations extractor jats-text. The quotations here are those of that file that resolve
+    in this reading; a quotation absent here stays pinned where it already was.'
+  extractor_version: 1
+  derived_sha256: 4b418c3d643dc1c23a275803fcd1b84b985a3ecf8ef4088dfa84f60765a58741
+claims:
+  pilot-18:
+    quotes:
+    - exact: we meta-analyzed GWAS results for 14 endpoints of common interest of 18 biobanks and then
+        meta-analyzed GWAS results of 5 more biobanks for replication
+      section: Results
+  meta-types:
+    quotes:
+    - exact: Fixed-effect meta-analyses based on inverse-variance weighting were performed for all endpoints
+        with 1. all biobanks across all ancestries, 2. leave-one-biobank out (LOBO)
+      section: STAR Methods
+  public-release:
+    quotes:
+    - exact: The all-biobank meta-analysis results and plots for the 14 endpoints (including both ancestry-specific
+        and cross-ancestry meta-analyses and sex-stratified meta-analyses) are available for downloading
+        at https://www.globalbiobankmeta.org/resources
+      section: Data and code availability
+  leave-ukbb-prs:
+    quotes:
+    - exact: leave-UKBB-out multi-ancestry meta-analyses have been deposited within the PGS Catalog
+      section: Data and code availability
+  asthma-n:
+    quotes:
+    - exact: 'asthma (153,763 cases [sample prevalence: 8.54%])'
+      section: Results

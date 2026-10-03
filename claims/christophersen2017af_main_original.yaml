@@ -1,0 +1,16 @@
+source:
+  citation: christophersen2017af_main
+  local: sources/original/christophersen2017af_main.xml
+  sha256: de9d160eb5c2ee82c04e4c7dec6d138b9a087a11f13524c80aa6e002a99907ad
+  url: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=PMC5585859
+  doi: 10.1038/ng.3843
+  note: 'Original file behind claims/christophersen2017af_main.yaml: NCBI E-utilities efetch (db=pmc)
+    XML of PMC5585859, read as plain text with its markup. The quotations here are the quotations of that
+    file that resolve in this file under the citations readers; a quotation absent here is pinned to the
+    extracted text there only.'
+claims:
+  n31:
+    quotes:
+    - exact: In this study, we included 33 studies from AFGen, of which 31 participated in the GWAS meta-analysis,
+        whereas 17 studies were part of the exome chip analyses.
+      section: Online Methods

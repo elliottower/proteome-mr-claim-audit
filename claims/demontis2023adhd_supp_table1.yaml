@@ -1,0 +1,70 @@
+source:
+  citation: demontis2023adhd_supp_table1
+  local: sources/demontis2023adhd_supp_table1.txt
+  sha256: 8ed04a029212b119bcef5dc648dc20811b8e1579c29dc465a077d8cf35a8cc38
+  doi: 10.1038/s41588-022-01285-8
+  note: Supplementary Table 1 (sheet '1.Cohorts included') of Supplementary Tables xlsx 41588_2022_1285_MOESM6_ESM.xlsx
+    of Demontis D et al. 2023 Nat Genet, from static-content.springer.com, converted with pandas, one
+    row per line, non-empty cells separated by ' | '
+claims:
+  caption:
+    quotes:
+    - exact: Supplementary Table 1. Cohorts included in the GWAS meta-analysis of ADHD.
+      section: Supplementary Table 1
+  caption-pgc-ref:
+    quotes:
+    - exact: Detailed description of the PGC cohorts can be found in Demontis&Walters, Nature Genetics,
+        51, pages 63–75 (2019)
+      section: Supplementary Table 1
+  ipsych1:
+    quotes:
+    - exact: iPSYCH1 | 17019
+      section: Supplementary Table 1
+  ipsych2:
+    quotes:
+    - exact: iPSYCH2 | 8876
+      section: Supplementary Table 1
+  decode:
+    quotes:
+    - exact: deCODE | 8281 | 0.4704 | 137993
+      section: Supplementary Table 1
+  barcelona:
+    quotes:
+    - exact: Barcelona, Spain | 572
+      section: Supplementary Table 1
+  bergen:
+    quotes:
+    - exact: Bergen, Norway | 295
+      section: Supplementary Table 1
+  cardiff:
+    quotes:
+    - exact: Cardiff, UK | 721
+      section: Supplementary Table 1
+  chop:
+    quotes:
+    - exact: CHOP, USA | 262
+      section: Supplementary Table 1
+  germany:
+    quotes:
+    - exact: Germany | 487
+      section: Supplementary Table 1
+  image1:
+    quotes:
+    - exact: IMAGE-I | 700
+      section: Supplementary Table 1
+  image2:
+    quotes:
+    - exact: IMAGE-II | 624
+      section: Supplementary Table 1
+  puwma:
+    quotes:
+    - exact: PUWMa | 563
+      section: Supplementary Table 1
+  toronto:
+    quotes:
+    - exact: Toronto, Canada | 109
+      section: Supplementary Table 1
+  yalepenn:
+    quotes:
+    - exact: Yale-Penn | 182
+      section: Supplementary Table 1

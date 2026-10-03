@@ -1,0 +1,19 @@
+source:
+  citation: emilsson2018ages
+  local: sources/emilsson2018ages.txt
+  sha256: daa4cdf57c9f92744c19a55fdaa64cbd968fea522ad575a25827cb865594695e
+  doi: 10.1126/science.aaq1327
+  note: Full text from NCBI efetch db=pmc (PMC6190714), tags stripped, one title or paragraph per line.
+    Emilsson V et al. 2018 Science (Co-regulatory networks of human serum proteins link genetics to disease),
+    author manuscript. PMID 30072576.
+claims:
+  platform-custom:
+    quotes:
+    - exact: We designed an expanded custom version of this platform to include proteins known or predicted
+        to be found in the extracellular milieu
+      section: A custom-designed aptamer-based multiplex proteomic platform
+  somamers-5034:
+    quotes:
+    - exact: This resulted in an updated array of 5034 SOMAmers, 4783 of which recognize 4137 individual
+        human proteins (table S1)
+      section: A custom-designed aptamer-based multiplex proteomic platform

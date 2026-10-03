@@ -1,0 +1,289 @@
+source:
+  citation: fernandezrozadilla2023crc_supp_table1
+  local: sources/fernandezrozadilla2023crc_supp_table1.txt
+  sha256: 4209b1bac741d0db046e227d3f329a2ce6aa7e4835f3fe4f205b31459f195a2c
+  doi: 10.1038/s41588-022-01222-9
+  note: Supplementary Table 1 (Description of all studies included in the meta-analyses) of Fernandez-Rozadilla
+    et al. 2023 Nat Genet, ESM xlsx 41588_2022_1222_MOESM3_ESM.xlsx (sheet ST1) from static-content.springer.com,
+    converted with openpyxl, one row per line, cells joined by ' | ', empty cells dropped
+claims:
+  colon:
+    quotes:
+    - exact: 'COLON | Colorectal Cancer: Longitudinal Observational study on Nutritional and lifestyle
+        factors'
+      section: Supplementary Table 1
+  dachs:
+    quotes:
+    - exact: 'DACHS_3 | Darmkrebs: Chancen der Verhütung durch Screening Study | case-control | Germany'
+      section: Supplementary Table 1
+  dachs4:
+    quotes:
+    - exact: 'DACHS 4 | 1028 | 661 | Darmkrebs: Chancen der Verhütung durch Screening'
+      section: Supplementary Table 1
+  epic:
+    quotes:
+    - exact: EPIC | European Prospective Investigation into Cancer and Nutrition | cohort | Europe
+      section: Supplementary Table 1
+  hpfs:
+    quotes:
+    - exact: HPFS_4 | Health Professionals Follow-Up Study | cohort | USA
+      section: Supplementary Table 1
+  nhs:
+    quotes:
+    - exact: NHS_4 | Nurses’ Health Study | cohort | USA
+      section: Supplementary Table 1
+  nhsii:
+    quotes:
+    - exact: NHSII | Nurses’ Health Study | cohort | USA
+      section: Supplementary Table 1
+  atbc:
+    quotes:
+    - exact: ATBC | Alpha-Tocopherol, Beta Carotene Cancer Prevention Study | cohort | Finland
+      section: Supplementary Table 1
+  ccfr:
+    quotes:
+    - exact: CCFR_3 | Colon Cancer Family Registry | case-control | USA, Canada, Australia
+      section: Supplementary Table 1
+  colocare:
+    quotes:
+    - exact: ColoCare_Heidelberg | ColoCare Consortium | case-series | Germany
+      section: Supplementary Table 1
+  cpsii:
+    quotes:
+    - exact: CPSII_1 | American Cancer Society Cancer Prevention Study II nested case-control study |
+        cohort | USA
+      section: Supplementary Table 1
+  crcgen:
+    quotes:
+    - exact: CRCGEN | Colorectal Cancer Genetics & Genomics, Spanish study | case-control | Spain
+      section: Supplementary Table 1
+  esther:
+    quotes:
+    - exact: ESTHER_VERDI | Epidemiologische Studie zu Chancen der Verhütung
+      section: Supplementary Table 1
+  kentucky:
+    quotes:
+    - exact: Kentucky | Kentucky Case-Control Study | case-control | USA
+      section: Supplementary Table 1
+  mccs:
+    quotes:
+    - exact: MCCS | Melbourne Collaborative Cohort Study | cohort | Australia
+      section: Supplementary Table 1
+  mec:
+    quotes:
+    - exact: MEC_2 | Multiethnic Cohort Study | cohort | USA
+      section: Supplementary Table 1
+  mecc:
+    quotes:
+    - exact: MECC_1 | Molecular Epidemiology of Colorectal Cancer Study | case-control | Israel
+      section: Supplementary Table 1
+  mskcc:
+    quotes:
+    - exact: MSKCC | Memorial Sloan Kettering Cancer Center Cohort | case-control | USA
+      section: Supplementary Table 1
+  nfccr:
+    quotes:
+    - exact: NFCCR | Newfoundland Case-Control Study | case-control | Canada
+      section: Supplementary Table 1
+  ngccs:
+    quotes:
+    - exact: NGCCS | PopGen Biobank | case-control | Germany
+      section: Supplementary Table 1
+  search:
+    quotes:
+    - exact: SEARCH | Studies of Epidemiology and Risk Factors in Cancer Heredity | case-control | UK
+      section: Supplementary Table 1
+  slrccs:
+    quotes:
+    - exact: SLRCCS | Swedish Low-Risk Colorectal Cancer Study | cohort | Sweden
+      section: Supplementary Table 1
+  smccosm:
+    quotes:
+    - exact: SMC_COSM | Swedish Mammography Cohort and Cohort of Swedish Men | cohort | Sweden
+      section: Supplementary Table 1
+  usc:
+    quotes:
+    - exact: USC_HRT_CRC | Los Angeles County Cancer Surveillance Program | case-control | USA
+      section: Supplementary Table 1
+  corsa:
+    quotes:
+    - exact: CORSA_1 | 1460 | 774 | Colorectal Cancer Study of Austria | case-control | Austria
+      section: Supplementary Table 1
+  clueii:
+    quotes:
+    - exact: CLUEII | Campaign against Cancer and Heart Disease II | cohort | USA
+      section: Supplementary Table 1
+  czech:
+    quotes:
+    - exact: Czech | Czech Republic CCS | case-control | Czech Republic
+      section: Supplementary Table 1
+  edrn:
+    quotes:
+    - exact: EDRN | Early Detection Research Network | case cohort | USA
+      section: Supplementary Table 1
+  epicolon:
+    quotes:
+    - exact: EPICOLON | EPICOLON | case-control | Spain
+      section: Supplementary Table 1
+  hawaiiad:
+    quotes:
+    - exact: HawaiiCCS_AD | Hawaii Adenoma Study | case-control | USA
+      section: Supplementary Table 1
+  lccs:
+    quotes:
+    - exact: LCCS | Leeds Colorectal Cancer Study | case-control | UK
+      section: Supplementary Table 1
+  ncccs:
+    quotes:
+    - exact: NCCCSI | North Carolina Colon Cancer Study, I | case-control | USA
+      section: Supplementary Table 1
+  nshds:
+    quotes:
+    - exact: NSHDS | The Northern Sweden Health and Disease Study | cohort | Sweden
+      section: Supplementary Table 1
+  osumc:
+    quotes:
+    - exact: OSUMC | Columbus-area HNPCC study, Ohio Colorectal Cancer Prevention Initiative, Ohio State
+        University Medical Center | case-control | USA
+      section: Supplementary Table 1
+  plco:
+    quotes:
+    - exact: PLCO_4_AD | Prostate, Lung, Colorectal, and Ovarian Cancer Screening Trial | cohort | USA
+      section: Supplementary Table 1
+  select:
+    quotes:
+    - exact: SELECT | Selenium and Vitamin E Prevention Trial | clinical trial | USA
+      section: Supplementary Table 1
+  sms:
+    quotes:
+    - exact: SMS_AD | Screening Markers for Colorectal Cancer Study (advanced adenomas) | case-control
+        | USA
+      section: Supplementary Table 1
+  whi:
+    quotes:
+    - exact: WHI_3 | Women’s Health Initiative Study | cohort | USA
+      section: Supplementary Table 1
+  asterisk:
+    quotes:
+    - exact: ASTERISK | Association STudy Evaluating RISK for sporadic colorectal cancer | case-control
+        | France
+      section: Supplementary Table 1
+  colo23:
+    quotes:
+    - exact: Colo2&3 | Hawai’i Colorectal Cancer Studies 2&3 | case-series | USA
+      section: Supplementary Table 1
+  dals:
+    quotes:
+    - exact: DALS_1 | Diet, Activity and Lifestyle Study | case-control | USA
+      section: Supplementary Table 1
+  ofccr:
+    quotes:
+    - exact: OFCCR | Ontario Familial Colorectal Cancer Registry | case-control | Canada
+      section: Supplementary Table 1
+  phs:
+    quotes:
+    - exact: PHS | Physicians’ Health Study | cohort | USA
+      section: Supplementary Table 1
+  pmhccfr:
+    quotes:
+    - exact: PMH-CCFR | Postmenopausal Hormones Supplementary Study to the Colon Cancer Family Registry
+        | case-control | USA
+      section: Supplementary Table 1
+  vital:
+    quotes:
+    - exact: VITAL | VITamins And Lifestyle | cohort | USA
+      section: Supplementary Table 1
+  coin:
+    quotes:
+    - exact: COIN | 1950 | 2162 | COIN and COIN-B clinical trial | Case-control | UK
+      section: Supplementary Table 1
+  croatia:
+    quotes:
+    - exact: Croatia | 689 | 441 | Croatia case-control CRC study | Case-control | Croatia
+      section: Supplementary Table 1
+  fin2:
+    quotes:
+    - exact: FIN2 | 1760 | 14132 | Finnish colorectal cancer collection | Case-control | Finland
+      section: Supplementary Table 1
+  nsccg:
+    quotes:
+    - exact: NSCCG | 6596 | 7205 | National Study of Colorectal Cancer Genetics | Case-control | UK
+      section: Supplementary Table 1
+  scot:
+    quotes:
+    - exact: SCOT | 2910 | 4095 | Short Course Oncology Treatment (SCOT) trial | Case-control | UK
+      section: Supplementary Table 1
+  scotcogs:
+    quotes:
+    - exact: ScotlandPhase1 | 932 | 943 | Colorectal Cancer Genetic Susceptibility (COGS) study | Case-control
+        | Scotland
+      section: Supplementary Table 1
+  soccs_gs:
+    quotes:
+    - exact: SOCCS_GS | 4551 | 8804 | Study Of Colorectal Cancer in Scotland (cases), Generation Scotland
+        (controls)
+      section: Supplementary Table 1
+  gs:
+    quotes:
+    - exact: SOCCS_GS | 4551 | 8804 | Study Of Colorectal Cancer in Scotland (cases), Generation Scotland
+        (controls)
+      section: Supplementary Table 1
+  lbc:
+    quotes:
+    - exact: SOCCS_LBC | 996 | 1297 | Study Of Colorectal Cancer in Scotland (cases), Lothian Birth Cohort
+        (controls)
+      section: Supplementary Table 1
+  corgi:
+    quotes:
+    - exact: UK1 | 890 | 900 | Colorectal Tumour Gene Identification (CoRGI) study | Case-control | UK
+      section: Supplementary Table 1
+  ukb:
+    quotes:
+    - exact: UK Biobank | 4800 | 20289 | UK Biobank | Cohort | UK
+      section: Supplementary Table 1
+  vq58:
+    quotes:
+    - exact: VQ58 | 1794 | 2686 | VICTOR and QUASAR2 clinical trials (cases), 1958 birth cohort (controls)
+      section: Supplementary Table 1
+  b58c:
+    quotes:
+    - exact: VQ58 | 1794 | 2686 | VICTOR and QUASAR2 clinical trials (cases), 1958 birth cohort (controls)
+      section: Supplementary Table 1
+  aichi:
+    quotes:
+    - exact: Aichi1 | 401 | 939 | Aichi CRC study | Case-control | Japan
+      section: Supplementary Table 1
+  bbj:
+    quotes:
+    - exact: BBJ | 6692 | 27178 | BioBank Japan CRC Study | Case-control | Japan
+      section: Supplementary Table 1
+  guangzhou:
+    quotes:
+    - exact: Guangzhou1 | 638 | 971 | Guangzhou CRC Study | Case-control | China
+      section: Supplementary Table 1
+  hces:
+    quotes:
+    - exact: HCES | 3130 | 4625 | Hwasun Cancer Epidemiology Study-Colon and Rectum Cancer | Case-control
+        | Korea
+      section: Supplementary Table 1
+  kcpsii:
+    quotes:
+    - exact: Korea_KCPSII | 325 | 975 | Korean Cancer Prevention Study-II CRC | Case-control | Korea
+      section: Supplementary Table 1
+  koreancc:
+    quotes:
+    - exact: Korea_NCC | 1313 | 1223 | Korean-National Cancer Center CRC Study | Case-control | Korea
+      section: Supplementary Table 1
+  seoul:
+    quotes:
+    - exact: Korea_seoul | 773 | 619 | Seoul CRC Study | Case-control | Korea
+      section: Supplementary Table 1
+  shanghai:
+    quotes:
+    - exact: Shanghai1 | 474 | 2626 | Shanghai CRC Study | Case-control | China
+      section: Supplementary Table 1
+  caption:
+    quotes:
+    - exact: 'Supplementary Table 1: Description of all studies included in the meta-analyses for the
+        GWAS, TWAS and MWAS.'
+      section: Supplementary Table 1

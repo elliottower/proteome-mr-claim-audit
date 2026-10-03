@@ -1,0 +1,74 @@
+source:
+  citation: bellenguez2022_supp_table1
+  local: sources/original/bellenguez2022_supp_table1.xlsx
+  sha256: 6fdf437222b307fdfb7a5d1a6fbf7cfd725f92daabb2a5a9106553a01b74f83b
+  url: https://static-content.springer.com/esm/art%3A10.1038%2Fs41588-022-01024-z/MediaObjects/41588_2022_1024_MOESM4_ESM.xlsx
+  doi: 10.1038/s41588-022-01024-z
+  extractor: sheet-rows
+  note: 'Original file behind claims/bellenguez2022_supp_table1.yaml: 41588_2022_1024_MOESM4_ESM.xlsx
+    from static-content.springer.com, read by the citations extractor sheet-rows. The quotations here
+    are those of that file that resolve in this reading; a quotation absent here stays pinned where it
+    already was.'
+  extractor_version: 1
+  derived_sha256: a8f7efad3ac2da369a33c6e8d96e282dea48d0753a88c45e1a2e68fe5e72df04
+claims:
+  row_eadb_topmed:
+    quotes:
+    - exact: EADB-TOPMed | 20301 | 61.7
+      section: Supplementary Table 1
+  row_bulgaria:
+    quotes:
+    - exact: Bulgaria | 164 | 54.9
+      section: Supplementary Table 1
+  row_eadb_hrc:
+    quotes:
+    - exact: EADB-HRC | 163 | 54
+      section: Supplementary Table 1
+  row_eadi:
+    quotes:
+    - exact: EADI | 2400 | 65.6
+      section: Supplementary Table 1
+  row_gerad:
+    quotes:
+    - exact: GERAD | 3030 | 63.2
+      section: Supplementary Table 1
+  row_bonn:
+    quotes:
+    - exact: Bonn | 635 | 65.5
+      section: Supplementary Table 1
+  row_rs1:
+    quotes:
+    - exact: RS1 | 1165 | 72.9
+      section: Supplementary Table 1
+  row_rs2:
+    quotes:
+    - exact: RS2 | 141 | 59.6
+      section: Supplementary Table 1
+  row_gr_ace_degesco:
+    quotes:
+    - exact: GR@ACE/DEGESCO | 6497 | 64.1
+      section: Supplementary Table 1
+  row_demgene:
+    quotes:
+    - exact: DemGene | 1693 | 65.5
+      section: Supplementary Table 1
+  row_cchs:
+    quotes:
+    - exact: CCHS | 365 | 68.5
+      section: Supplementary Table 1
+  row_nxc:
+    quotes:
+    - exact: NxC | 269 | 72.4
+      section: Supplementary Table 1
+  row_ukbb_p:
+    quotes:
+    - exact: UKBB-P | 49275 | 57.3
+      section: Supplementary Table 1
+  row_adgc_replication:
+    quotes:
+    - exact: ADGC | 17141 | 57.3
+      section: Supplementary Table 1
+  row_finngen_replication:
+    quotes:
+    - exact: FinnGen | 7329 | 48.8
+      section: Supplementary Table 1

@@ -1,0 +1,18 @@
+source:
+  citation: vanderharst2018cad_refs
+  local: sources/vanderharst2018cad_refs.txt
+  sha256: 969981e3f9a03f640f4a5ef5d8a9a06151317079c35b288fc4403029cbdc4f33
+  doi: 10.1161/CIRCRESAHA.117.312086
+  note: van der Harst and Verweij 2018 Circ Res reference list, from Europe PMC fullTextXML PMC5805277
+    (ref elements, text joined with spaces), one reference per line.
+claims:
+  ref9-howson:
+    quotes:
+    - exact: 9. Howson JMM Zhao W Barnes DR CARDIoGRAMplusC4D; EPIC-CVD Fifteen new risk loci for coronary
+        artery disease highlight arterial-wall-specific mechanisms.
+      section: Reference 9
+  ref7-nikpay:
+    quotes:
+    - exact: 7. Nikpay M Goel A Won HH A comprehensive 1,000 Genomes-based genome-wide association meta-analysis
+        of coronary artery disease.
+      section: Reference 7

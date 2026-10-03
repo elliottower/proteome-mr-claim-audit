@@ -1,0 +1,19 @@
+source:
+  citation: kunkle2019_main
+  local: sources/kunkle2019_main.txt
+  sha256: b525cb95f87551f3c1a38c9263f780488a387cc7b0647c16b3f8cdf5d5f5df94
+  doi: 10.1038/s41588-019-0358-2
+  note: Author manuscript full text of Kunkle et al. 2019 Nat Genet (PMC6463297), plain-text file PMC6463297.1.txt
+    from the PMC Cloud bucket pmc-oa-opendata, unmodified
+claims:
+  stage1_46_studies:
+    quotes:
+    - exact: 'All Stage 1 meta-analysis samples are from four consortia: ADGC, CHARGE, EADI, and GERAD/PERADES.
+        Summary demographics of all 46 case-control studies from the four consortia are described in Supplementary
+        Tables 1 and 2.'
+      section: Methods
+  stage1_sumstats_niagads:
+    quotes:
+    - exact: Genome-wide summary statistics for the Stage 1 discovery have been deposited in The National
+        Institute on Aging Genetics of Alzheimer’s Disease Data Storage Site (NIAGADS)
+      section: Data availability

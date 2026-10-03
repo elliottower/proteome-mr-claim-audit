@@ -1,0 +1,21 @@
+source:
+  citation: yengo2018giant_abstract
+  local: sources/yengo2018giant_abstract.txt
+  sha256: e39e53575985e823c42720c7b09fa9590ec465ee3f1981742ed64a11b45a992b
+  doi: 10.1093/hmg/ddy271
+  note: Title and abstract only of Yengo et al. 2018 Hum Mol Genet 27:3641, NCBI efetch db=pmc id=6488973
+    (returned front matter only; the body and supplement were not obtainable from PMC, Europe PMC or the
+    publisher), extracted with lxml
+claims:
+  combine:
+    quotes:
+    - exact: Recent genome-wide association studies (GWAS) of height and body mass index (BMI) in ∼250000
+        European participants have led to the discovery of ∼700 and ∼100 nearly independent single nucleotide
+        polymorphisms (SNPs) associated with these traits, respectively. Here we combine summary statistics
+        from those two studies with GWAS of height and BMI performed in ∼450000 UK Biobank participants
+        of European ancestry.
+      section: Abstract
+  available:
+    quotes:
+    - exact: All summary statistics are made available for follow-up studies.
+      section: Abstract

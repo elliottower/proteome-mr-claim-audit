@@ -1,0 +1,32 @@
+source:
+  citation: woolf2022
+  local: sources/original/woolf2022.xml
+  sha256: 0f46f31debb919a06990af9aede244e0eaa6639c58e1af1c51a746d5c086518c
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9749715/fullTextXML
+  doi: 10.1093/ije/dyac074
+  note: 'Original file behind claims/woolf2022.yaml: Europe PMC fullTextXML of PMC9749715, read as plain
+    text with its markup. The quotations here are the quotations of that file that resolve in this file
+    under the citations readers; a quotation absent here is pinned to the extracted text there only.'
+claims:
+  n-87:
+    quotes:
+    - exact: In the primary analysis, 87 studies were included.
+      section: Abstract, Results
+  overlap:
+    quotes:
+    - exact: Neither question in the ‘2SMR specific assumption’ domain (on sample overlap and consistency
+        of populations) was answered adequately, both being reported in fewer than 40% of studies.
+      section: Results
+  code:
+    quotes:
+    - exact: fewer than 10% provided the analysis code
+      section: Results
+  multiple-testing:
+    quotes:
+    - exact: just under 50% of studies that tested more than one hypothesis described the use of a multiple
+        testing correction
+      section: Results
+  prereg:
+    quotes:
+    - exact: was pre-registered on the Open Science Framework
+      section: Methods

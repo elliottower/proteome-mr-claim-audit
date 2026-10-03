@@ -1,0 +1,1429 @@
+{
+ "inputs": "resource files only; no claim, pair or registry record read",
+ "reference_sha256": {
+  "hgnc": "6f43d6ff43aa9fdfa5fb2f20a20a7cace66e6e02e2a0dcf19d9b726e2e248d20",
+  "uniprot": "620d646a96c07ab3c6c71306518bbf28ee61c0d5e91cab26e4c5417e91e19f83",
+  "mondo": "50c8367f9bd9978321eedf84d4e2e79cb757efbed514c81effb00b9ad2e49994",
+  "efo": "66e87fc65a6254c6d69281ed3d286784ee5f8265b1e57691efddd29b20570c46"
+ },
+ "ontology": {
+  "collision_table_sha256": "b858b4bd0fba33c1d2138e272b3c753c45f3d3f8b426e25b99a9d97c320fd0e0",
+  "files": {
+   "mondo": {
+    "release": "v2026-09-01",
+    "sha256": "50c8367f9bd9978321eedf84d4e2e79cb757efbed514c81effb00b9ad2e49994",
+    "live_outcome_terms": 36907,
+    "is_a_edges": 53488
+   },
+   "efo": {
+    "release": "v3.93.0",
+    "sha256": "66e87fc65a6254c6d69281ed3d286784ee5f8265b1e57691efddd29b20570c46",
+    "live_outcome_terms": 51817,
+    "is_a_edges": 69972
+   }
+  },
+  "live_outcome_terms": 71533,
+  "edges_before_canonical": 96736,
+  "edges": 96473,
+  "ontology_edges_sha256": "5b8f0b3fe17aab4c885c04ad337cec2c980d35c69acc847c8a754f14deff7261"
+ },
+ "outcome_aliases": {
+  "outcome_alias_rows": 58,
+  "outcome_aliases_by_relation": {
+   "broader_proxy": 5,
+   "derived_measurement": 4,
+   "exact_equivalent": 1,
+   "normalized_equivalent": 48
+  },
+  "phenotype_cross_references": {
+   "phenotype_terms_cross_referenced": 249,
+   "rows": 247,
+   "phenotype_terms_with_several_canonical_terms": 2,
+   "by_tag": {
+    "MONDO:otherHierarchy": 247
+   }
+  },
+  "obsolete_label_replacements": {
+   "obsolete_efo_terms": 4931,
+   "replacement_not_a_live_outcome_term": 1039,
+   "label_is_a_live_name": 2892,
+   "no_single_replacement": 91,
+   "rows": 901,
+   "rows_replaced_by_MONDO": 174,
+   "rows_replaced_by_EFO": 23,
+   "rows_replaced_by_HP": 4,
+   "rows_replaced_by_OBA": 697,
+   "rows_replaced_by_Orphanet": 3
+  },
+  "sha256": {
+   "outcome_aliases.csv": "663555898aa3d9fa1892693a8c1bd71dc4f17f81f382f852ac7da33c12a3f240",
+   "phenotype_cross_references.csv": "0756154ed75c8c7795ac8928ae914f111a6c7c05c81eff4bc8104ee3ccfd4a67",
+   "obsolete_label_replacements.csv": "a9578b07753d7f77606404ced6af5cd5289b9909489760ca05465aedc43db3d7"
+  }
+ },
+ "therapeutic_areas": {
+  "disease_rows": 45896,
+  "rows_without_area": 0,
+  "rows_with_several_areas": 13506,
+  "canonical_terms": 45867,
+  "canonical_terms_with_an_area": 45867,
+  "areas": 26,
+  "areas_flagged_is_therapeutic_area": 26,
+  "flagged_areas_never_used": 0,
+  "disease_file_sha256": "a89b8b8b89bad168016e6ff8302d2bcc8d9b7f9cbb35c459ef847c36a4f17aed",
+  "areas_by_terms": [
+   {
+    "area_id": "EFO:0001444",
+    "name": "measurement",
+    "terms": 25413,
+    "disease_area": false
+   },
+   {
+    "area_id": "OTAR:0000018",
+    "name": "genetic, familial or congenital disease",
+    "terms": 10539,
+    "disease_area": false
+   },
+   {
+    "area_id": "EFO:0000651",
+    "name": "phenotype",
+    "terms": 7618,
+    "disease_area": false
+   },
+   {
+    "area_id": "MONDO:0005071",
+    "name": "nervous system disorder",
+    "terms": 4267,
+    "disease_area": true
+   },
+   {
+    "area_id": "MONDO:0045024",
+    "name": "cancer or benign tumor",
+    "terms": 3672,
+    "disease_area": true
+   },
+   {
+    "area_id": "OTAR:0000006",
+    "name": "musculoskeletal or connective tissue disease",
+    "terms": 3095,
+    "disease_area": true
+   },
+   {
+    "area_id": "OTAR:0000020",
+    "name": "nutritional or metabolic disease",
+    "terms": 1934,
+    "disease_area": true
+   },
+   {
+    "area_id": "MONDO:0005151",
+    "name": "endocrine system disorder",
+    "terms": 1491,
+    "disease_area": true
+   },
+   {
+    "area_id": "MONDO:0024458",
+    "name": "disorder of visual system",
+    "terms": 1397,
+    "disease_area": true
+   },
+   {
+    "area_id": "MONDO:0002051",
+    "name": "integumentary system disorder",
+    "terms": 1364,
+    "disease_area": true
+   },
+   {
+    "area_id": "EFO:0010282",
+    "name": "gastrointestinal disease",
+    "terms": 1319,
+    "disease_area": true
+   },
+   {
+    "area_id": "OTAR:0000017",
+    "name": "reproductive system or breast disease",
+    "terms": 1312,
+    "disease_area": true
+   },
+   {
+    "area_id": "MONDO:0004995",
+    "name": "cardiovascular disorder",
+    "terms": 1268,
+    "disease_area": true
+   },
+   {
+    "area_id": "MONDO:0005046",
+    "name": "immune system disorder",
+    "terms": 1148,
+    "disease_area": true
+   },
+   {
+    "area_id": "MONDO:0005570",
+    "name": "hematologic disorder",
+    "terms": 1080,
+    "disease_area": true
+   },
+   {
+    "area_id": "MONDO:0005550",
+    "name": "infectious disease",
+    "terms": 873,
+    "disease_area": true
+   },
+   {
+    "area_id": "GO:0008150",
+    "name": "biological_process",
+    "terms": 811,
+    "disease_area": false
+   },
+   {
+    "area_id": "MONDO:0002118",
+    "name": "urinary system disorder",
+    "terms": 672,
+    "disease_area": true
+   },
+   {
+    "area_id": "OTAR:0000010",
+    "name": "respiratory or thoracic disease",
+    "terms": 546,
+    "disease_area": true
+   },
+   {
+    "area_id": "MONDO:0002025",
+    "name": "psychiatric disorder",
+    "terms": 310,
+    "disease_area": true
+   },
+   {
+    "area_id": "MONDO:0002515",
+    "name": "hepatobiliary disorder",
+    "terms": 276,
+    "disease_area": true
+   },
+   {
+    "area_id": "MONDO:0021205",
+    "name": "disorder of ear",
+    "terms": 186,
+    "disease_area": true
+   },
+   {
+    "area_id": "OTAR:0000009",
+    "name": "injury, poisoning or other complication",
+    "terms": 151,
+    "disease_area": true
+   },
+   {
+    "area_id": "OTAR:0000014",
+    "name": "pregnancy or perinatal disease",
+    "terms": 75,
+    "disease_area": true
+   },
+   {
+    "area_id": "MONDO:0005583",
+    "name": "non-human animal disease",
+    "terms": 71,
+    "disease_area": false
+   },
+   {
+    "area_id": "EFO:0002571",
+    "name": "medical procedure",
+    "terms": 61,
+    "disease_area": false
+   }
+  ],
+  "not_disease_areas_present": [
+   "EFO:0000651",
+   "EFO:0001444",
+   "EFO:0002571",
+   "GO:0008150",
+   "MONDO:0005583",
+   "OTAR:0000018"
+  ],
+  "not_disease_areas_missing": [],
+  "coverage_live_outcome_terms": {
+   "terms": 70112,
+   "in_table": 45358,
+   "with_an_area": 45358,
+   "with_a_disease_area": 15628,
+   "share_with_an_area": 0.6469363304427203,
+   "by_area_rule": {
+    "direct": 45358,
+    "nearest_ancestor": 19567,
+    "none": 5187
+   },
+   "with_a_disease_area_under_the_registered_rule": 22123,
+   "by_number_of_disease_areas": {
+    "0": 54484,
+    "1": 8317,
+    "2": 4770,
+    "3": 1777,
+    "4": 603,
+    "5": 145,
+    "6": 14,
+    "7": 2
+   }
+  },
+  "coverage_by_prefix": {
+   "EFO": {
+    "terms": 13509,
+    "in_table": 9245,
+    "with_an_area": 9245,
+    "with_a_disease_area": 1056,
+    "share_with_an_area": 0.6843585757643053,
+    "by_area_rule": {
+     "direct": 9245,
+     "nearest_ancestor": 2,
+     "none": 4262
+    },
+    "with_a_disease_area_under_the_registered_rule": 1058,
+    "by_number_of_disease_areas": {
+     "0": 12453,
+     "1": 576,
+     "2": 360,
+     "3": 81,
+     "4": 37,
+     "5": 2
+    }
+   },
+   "HP": {
+    "terms": 6043,
+    "in_table": 2183,
+    "with_an_area": 2183,
+    "with_a_disease_area": 312,
+    "share_with_an_area": 0.3612444150256495,
+    "by_area_rule": {
+     "direct": 2183,
+     "nearest_ancestor": 3823,
+     "none": 37
+    },
+    "with_a_disease_area_under_the_registered_rule": 449,
+    "by_number_of_disease_areas": {
+     "0": 5731,
+     "1": 288,
+     "2": 19,
+     "3": 4,
+     "5": 1
+    }
+   },
+   "MONDO": {
+    "terms": 32111,
+    "in_table": 15574,
+    "with_an_area": 15574,
+    "with_a_disease_area": 13907,
+    "share_with_an_area": 0.4850051384260845,
+    "by_area_rule": {
+     "direct": 15574,
+     "nearest_ancestor": 15649,
+     "none": 888
+    },
+    "with_a_disease_area_under_the_registered_rule": 20193,
+    "by_number_of_disease_areas": {
+     "0": 18204,
+     "1": 7163,
+     "2": 4350,
+     "3": 1674,
+     "4": 563,
+     "5": 141,
+     "6": 14,
+     "7": 2
+    }
+   },
+   "OBA": {
+    "terms": 17825,
+    "in_table": 17825,
+    "with_an_area": 17825,
+    "with_a_disease_area": 0,
+    "share_with_an_area": 1.0,
+    "by_area_rule": {
+     "direct": 17825
+    },
+    "with_a_disease_area_under_the_registered_rule": 0,
+    "by_number_of_disease_areas": {
+     "0": 17825
+    }
+   },
+   "Orphanet": {
+    "terms": 624,
+    "in_table": 531,
+    "with_an_area": 531,
+    "with_a_disease_area": 353,
+    "share_with_an_area": 0.8509615384615384,
+    "by_area_rule": {
+     "direct": 531,
+     "nearest_ancestor": 93
+    },
+    "with_a_disease_area_under_the_registered_rule": 423,
+    "by_number_of_disease_areas": {
+     "0": 271,
+     "1": 290,
+     "2": 41,
+     "3": 18,
+     "4": 3,
+     "5": 1
+    }
+   }
+  },
+  "coverage_under": {
+   "human_disease": {
+    "terms": 24954,
+    "in_table": 17108,
+    "with_an_area": 17108,
+    "with_a_disease_area": 15227,
+    "share_with_an_area": 0.6855814699046245,
+    "by_area_rule": {
+     "direct": 17108,
+     "nearest_ancestor": 7493,
+     "none": 353
+    },
+    "with_a_disease_area_under_the_registered_rule": 21590,
+    "by_number_of_disease_areas": {
+     "0": 9727,
+     "1": 7955,
+     "2": 4736,
+     "3": 1773,
+     "4": 603,
+     "5": 144,
+     "6": 14,
+     "7": 2
+    }
+   },
+   "measurement": {
+    "terms": 25404,
+    "in_table": 25398,
+    "with_an_area": 25398,
+    "with_a_disease_area": 1,
+    "share_with_an_area": 0.999763816721776,
+    "by_area_rule": {
+     "direct": 25398,
+     "nearest_ancestor": 6
+    },
+    "with_a_disease_area_under_the_registered_rule": 1,
+    "by_number_of_disease_areas": {
+     "0": 25403,
+     "2": 1
+    }
+   }
+  },
+  "therapeutic_areas_sha256": "31f61cdac2a185e217cd43e7d0358cb6489c284bff20b9c70ece8efb82540afe",
+  "therapeutic_area_names_sha256": "87a51779e3e2c4621d04b0df7637cd573f4c40e6ca1ff64676e1a4769564614b"
+ },
+ "assay_lists_and_pathways": {
+  "reactome": {
+   "file_sha256": "e34fe56a5129d88d8cd67300c279d7e81fa1d3bf86fa0577cf91032c326eaecc",
+   "human_rows_distinct_accession_pathway": 50283,
+   "pathways": 2344,
+   "accessions": 12155,
+   "accessions_in_reviewed_uniprot": 11346
+  },
+  "assay_lists": {
+   "fenland_covid_179": {
+    "accessions": 175,
+    "with_a_pathway": 153
+   },
+   "fhs_luminex_71": {
+    "accessions": 70,
+    "with_a_pathway": 65
+   },
+   "gnhs_swath_ms_304": {
+    "accessions": 304,
+    "with_a_pathway": 223
+   },
+   "olink_cvd1_improve_analysed": {
+    "accessions": 82,
+    "with_a_pathway": 75
+   },
+   "olink_explore_1536": {
+    "accessions": 1465,
+    "with_a_pathway": 1150
+   },
+   "olink_explore_3072": {
+    "accessions": 2926,
+    "with_a_pathway": 2156
+   },
+   "olink_helic_png2021": {
+    "accessions": 184,
+    "with_a_pathway": 143
+   },
+   "olink_manolis_gilly2020_analysed": {
+    "accessions": 258,
+    "with_a_pathway": 221
+   },
+   "olink_oncology_I_nsphs_analysed": {
+    "accessions": 77,
+    "with_a_pathway": 68
+   },
+   "olink_proseek_oncology_I": {
+    "accessions": 91,
+    "with_a_pathway": 81
+   },
+   "olink_target_96": {
+    "accessions": 1163,
+    "with_a_pathway": 918
+   },
+   "olink_target_96:CAM": {
+    "accessions": 92,
+    "with_a_pathway": 76
+   },
+   "olink_target_96:CAM|olink_target_96:CVD II|olink_target_96:CVD III|olink_target_96:CRE|olink_target_96:DEV|olink_target_96:IMO|olink_target_96:INF|olink_target_96:IRE|olink_target_96:MET|olink_target_96:NEU|olink_target_96:NEX|olink_target_96:ODA|olink_target_96:ONC II": {
+    "accessions": 1071,
+    "with_a_pathway": 856
+   },
+   "olink_target_96:CRE": {
+    "accessions": 92,
+    "with_a_pathway": 64
+   },
+   "olink_target_96:CVD I": {
+    "accessions": 92,
+    "with_a_pathway": 84
+   },
+   "olink_target_96:CVD II": {
+    "accessions": 93,
+    "with_a_pathway": 84
+   },
+   "olink_target_96:CVD III": {
+    "accessions": 91,
+    "with_a_pathway": 84
+   },
+   "olink_target_96:CVD II|olink_target_96:CVD III|olink_target_96:MET": {
+    "accessions": 275,
+    "with_a_pathway": 231
+   },
+   "olink_target_96:DEV": {
+    "accessions": 93,
+    "with_a_pathway": 70
+   },
+   "olink_target_96:IMO": {
+    "accessions": 94,
+    "with_a_pathway": 86
+   },
+   "olink_target_96:INF": {
+    "accessions": 92,
+    "with_a_pathway": 82
+   },
+   "olink_target_96:IRE": {
+    "accessions": 92,
+    "with_a_pathway": 73
+   },
+   "olink_target_96:MET": {
+    "accessions": 91,
+    "with_a_pathway": 63
+   },
+   "olink_target_96:NEU": {
+    "accessions": 93,
+    "with_a_pathway": 76
+   },
+   "olink_target_96:NEU|olink_target_96:NEX": {
+    "accessions": 185,
+    "with_a_pathway": 144
+   },
+   "olink_target_96:NEX": {
+    "accessions": 92,
+    "with_a_pathway": 68
+   },
+   "olink_target_96:ODA": {
+    "accessions": 92,
+    "with_a_pathway": 72
+   },
+   "olink_target_96:ONC II": {
+    "accessions": 93,
+    "with_a_pathway": 76
+   },
+   "olink_target_96:ONC III": {
+    "accessions": 92,
+    "with_a_pathway": 62
+   },
+   "scallop_koprulu2026_analysed": {
+    "accessions": 1034,
+    "with_a_pathway": 828
+   },
+   "somascan_1.3k": {
+    "accessions": 1063,
+    "with_a_pathway": 940
+   },
+   "somascan_1.3k_jhs_katz2022": {
+    "accessions": 1296,
+    "with_a_pathway": 1145
+   },
+   "somascan_160410": {
+    "accessions": 3592,
+    "with_a_pathway": 2622
+   },
+   "somascan_160410|somascan_v3.2_kora|somascan_ages_custom|olink_target_96:CVD I|fhs_luminex_71": {
+    "accessions": 4172,
+    "with_a_pathway": 3005
+   },
+   "somascan_ages_custom": {
+    "accessions": 4146,
+    "with_a_pathway": 2985
+   },
+   "somascan_v3.2_kora": {
+    "accessions": 1124,
+    "with_a_pathway": 1000
+   },
+   "somascan_v4": {
+    "accessions": 4717,
+    "with_a_pathway": 3447
+   },
+   "somascan_v4.1": {
+    "accessions": 6375,
+    "with_a_pathway": 4444
+   },
+   "zheng2020_instrumented_1699": {
+    "accessions": 1725,
+    "with_a_pathway": 1270
+   }
+  },
+  "attached_lists": {
+   "fenland_covid_179": {
+    "dictionary_rows": [
+     "Fenland SomaScan v4 (Pietzner 2020, COVID-19 host proteins)"
+    ],
+    "background": 175,
+    "with_a_pathway": 153,
+    "pathways_kept_10_to_500": 9
+   },
+   "fhs_luminex_71": {
+    "dictionary_rows": [
+     "Framingham Heart Study (Yao 2018)"
+    ],
+    "background": 70,
+    "with_a_pathway": 65,
+    "pathways_kept_10_to_500": 4
+   },
+   "gnhs_swath_ms_304": {
+    "dictionary_rows": [
+     "Guangzhou Nutrition and Health Study (Xu 2023)"
+    ],
+    "background": 304,
+    "with_a_pathway": 223,
+    "pathways_kept_10_to_500": 21
+   },
+   "olink_cvd1_improve_analysed": {
+    "dictionary_rows": [
+     "IMPROVE (Folkersen 2017)"
+    ],
+    "background": 82,
+    "with_a_pathway": 75,
+    "pathways_kept_10_to_500": 3
+   },
+   "olink_explore_3072": {
+    "dictionary_rows": [
+     "Dhindsa 2023 UKB-PPP exome (rare variant)",
+     "Eldjarn 2023 UKB Olink (UKB-BI / UKB-SA / UKB-AF)",
+     "UKB-PPP ancestry-specific (non-European)",
+     "UKB-PPP discovery",
+     "UKB-PPP full cohort (combined)",
+     "UKB-PPP replication"
+    ],
+    "background": 2926,
+    "with_a_pathway": 2156,
+    "pathways_kept_10_to_500": 222
+   },
+   "olink_helic_png2021": {
+    "dictionary_rows": [
+     "MANOLIS and Pomak neurology (Png 2021)"
+    ],
+    "background": 184,
+    "with_a_pathway": 143,
+    "pathways_kept_10_to_500": 3
+   },
+   "olink_manolis_gilly2020_analysed": {
+    "dictionary_rows": [
+     "MANOLIS (Gilly 2020)"
+    ],
+    "background": 258,
+    "with_a_pathway": 221,
+    "pathways_kept_10_to_500": 7
+   },
+   "olink_oncology_I_nsphs_analysed": {
+    "dictionary_rows": [
+     "NSPHS (Enroth 2014)"
+    ],
+    "background": 77,
+    "with_a_pathway": 68,
+    "pathways_kept_10_to_500": 6
+   },
+   "olink_target_96:CVD I": {
+    "dictionary_rows": [
+     "SCALLOP CVD-I (Folkersen 2020)"
+    ],
+    "background": 92,
+    "with_a_pathway": 84,
+    "pathways_kept_10_to_500": 3
+   },
+   "olink_target_96:INF": {
+    "dictionary_rows": [
+     "SCALLOP Inflammation (Zhao 2023)"
+    ],
+    "background": 92,
+    "with_a_pathway": 82,
+    "pathways_kept_10_to_500": 5
+   },
+   "olink_target_96:NEU": {
+    "dictionary_rows": [
+     "Lothian Birth Cohort 1936 neurology panel (Hillary 2019)"
+    ],
+    "background": 93,
+    "with_a_pathway": 76,
+    "pathways_kept_10_to_500": 0
+   },
+   "scallop_koprulu2026_analysed": {
+    "dictionary_rows": [
+     "SCALLOP multi-cohort meta-analysis (Koprulu 2026)"
+    ],
+    "background": 1034,
+    "with_a_pathway": 828,
+    "pathways_kept_10_to_500": 53
+   },
+   "somascan_1.3k_jhs_katz2022": {
+    "dictionary_rows": [
+     "Jackson Heart Study (Katz 2022)"
+    ],
+    "background": 1296,
+    "with_a_pathway": 1145,
+    "pathways_kept_10_to_500": 213
+   },
+   "somascan_160410": {
+    "dictionary_rows": [
+     "INTERVAL SomaScan (Sun 2018)"
+    ],
+    "background": 3592,
+    "with_a_pathway": 2622,
+    "pathways_kept_10_to_500": 456
+   },
+   "somascan_ages_custom": {
+    "dictionary_rows": [
+     "AGES Reykjavik (Emilsson 2018)",
+     "AGES Reykjavik (Gudjonsson 2022)"
+    ],
+    "background": 4146,
+    "with_a_pathway": 2985,
+    "pathways_kept_10_to_500": 513
+   },
+   "somascan_v3.2_kora": {
+    "dictionary_rows": [
+     "KORA (Suhre 2017)"
+    ],
+    "background": 1124,
+    "with_a_pathway": 1000,
+    "pathways_kept_10_to_500": 151
+   },
+   "somascan_v4": {
+    "dictionary_rows": [
+     "ARIC African American (Zhang 2022)",
+     "ARIC European American (Zhang 2022)",
+     "Fenland SomaScan v4 (Pietzner 2021)",
+     "deCODE SomaScan v4 (Eldjarn 2023 update)",
+     "deCODE SomaScan v4 (Ferkingstad 2021)"
+    ],
+    "background": 4717,
+    "with_a_pathway": 3447,
+    "pathways_kept_10_to_500": 584
+   },
+   "zheng2020_instrumented_1699": {
+    "dictionary_rows": [
+     "Zheng 2020 proteome-wide MR instrument set"
+    ],
+    "background": 1725,
+    "with_a_pathway": 1270,
+    "pathways_kept_10_to_500": 123
+   },
+   "pooled": {
+    "dictionary_rows": [],
+    "background": 6117,
+    "with_a_pathway": 4349,
+    "pathways_kept_10_to_500": 717
+   },
+   "alternative: Zheng 2020 proteome-wide MR instrument set": {
+    "dictionary_rows": [],
+    "background": 4172,
+    "with_a_pathway": 3005,
+    "pathways_kept_10_to_500": 517
+   },
+   "whole panel: SCALLOP multi-cohort meta-analysis (Koprulu 2026)": {
+    "dictionary_rows": [],
+    "background": 1071,
+    "with_a_pathway": 856,
+    "pathways_kept_10_to_500": 55
+   },
+   "whole panel: IMPROVE (Folkersen 2017)": {
+    "dictionary_rows": [],
+    "background": 92,
+    "with_a_pathway": 84,
+    "pathways_kept_10_to_500": 3
+   },
+   "whole panel: MANOLIS (Gilly 2020)": {
+    "dictionary_rows": [],
+    "background": 275,
+    "with_a_pathway": 231,
+    "pathways_kept_10_to_500": 7
+   },
+   "whole panel: MANOLIS and Pomak neurology (Png 2021)": {
+    "dictionary_rows": [],
+    "background": 185,
+    "with_a_pathway": 144,
+    "pathways_kept_10_to_500": 3
+   },
+   "whole panel: NSPHS (Enroth 2014)": {
+    "dictionary_rows": [],
+    "background": 91,
+    "with_a_pathway": 81,
+    "pathways_kept_10_to_500": 6
+   },
+   "whole panel: Jackson Heart Study (Katz 2022)": {
+    "dictionary_rows": [],
+    "background": 1063,
+    "with_a_pathway": 940,
+    "pathways_kept_10_to_500": 116
+   },
+   "pooled, whole panel": {
+    "dictionary_rows": [],
+    "background": 6119,
+    "with_a_pathway": 4351,
+    "pathways_kept_10_to_500": 718
+   }
+  },
+  "dictionary_rows_without_a_list": [],
+  "backgrounds_by_dictionary_row": {
+   "UKB-PPP discovery": {
+    "background_level": "assayed",
+    "assay_list": "olink_explore_3072",
+    "assay_reagents": 2941,
+    "reported_targets": 2923,
+    "analysed_targets": null,
+    "reviewed_accessions": 2926,
+    "proxy_coverage_of_reported_targets": 1.0010263427984947,
+    "whole_panel_assay_list": null,
+    "whole_panel_reviewed_accessions": null
+   },
+   "UKB-PPP replication": {
+    "background_level": "assayed",
+    "assay_list": "olink_explore_3072",
+    "assay_reagents": 2941,
+    "reported_targets": 2923,
+    "analysed_targets": null,
+    "reviewed_accessions": 2926,
+    "proxy_coverage_of_reported_targets": 1.0010263427984947,
+    "whole_panel_assay_list": null,
+    "whole_panel_reviewed_accessions": null
+   },
+   "UKB-PPP full cohort (combined)": {
+    "background_level": "assayed",
+    "assay_list": "olink_explore_3072",
+    "assay_reagents": 2941,
+    "reported_targets": 2923,
+    "analysed_targets": null,
+    "reviewed_accessions": 2926,
+    "proxy_coverage_of_reported_targets": 1.0010263427984947,
+    "whole_panel_assay_list": null,
+    "whole_panel_reviewed_accessions": null
+   },
+   "UKB-PPP ancestry-specific (non-European)": {
+    "background_level": "assayed",
+    "assay_list": "olink_explore_3072",
+    "assay_reagents": 2941,
+    "reported_targets": 2923,
+    "analysed_targets": null,
+    "reviewed_accessions": 2926,
+    "proxy_coverage_of_reported_targets": 1.0010263427984947,
+    "whole_panel_assay_list": null,
+    "whole_panel_reviewed_accessions": null
+   },
+   "Dhindsa 2023 UKB-PPP exome (rare variant)": {
+    "background_level": "assayed",
+    "assay_list": "olink_explore_3072",
+    "assay_reagents": null,
+    "reported_targets": 2923,
+    "analysed_targets": null,
+    "reviewed_accessions": 2926,
+    "proxy_coverage_of_reported_targets": 1.0010263427984947,
+    "whole_panel_assay_list": null,
+    "whole_panel_reviewed_accessions": null
+   },
+   "Eldjarn 2023 UKB Olink (UKB-BI / UKB-SA / UKB-AF)": {
+    "background_level": "assayed",
+    "assay_list": "olink_explore_3072",
+    "assay_reagents": null,
+    "reported_targets": null,
+    "analysed_targets": null,
+    "reviewed_accessions": 2926,
+    "proxy_coverage_of_reported_targets": null,
+    "whole_panel_assay_list": null,
+    "whole_panel_reviewed_accessions": null
+   },
+   "deCODE SomaScan v4 (Eldjarn 2023 update)": {
+    "background_level": "assayed",
+    "assay_list": "somascan_v4",
+    "assay_reagents": 4907,
+    "reported_targets": null,
+    "analysed_targets": null,
+    "reviewed_accessions": 4717,
+    "proxy_coverage_of_reported_targets": null,
+    "whole_panel_assay_list": null,
+    "whole_panel_reviewed_accessions": null
+   },
+   "deCODE SomaScan v4 (Ferkingstad 2021)": {
+    "background_level": "assayed",
+    "assay_list": "somascan_v4",
+    "assay_reagents": 4907,
+    "reported_targets": null,
+    "analysed_targets": null,
+    "reviewed_accessions": 4717,
+    "proxy_coverage_of_reported_targets": null,
+    "whole_panel_assay_list": null,
+    "whole_panel_reviewed_accessions": null
+   },
+   "INTERVAL SomaScan (Sun 2018)": {
+    "background_level": "assayed",
+    "assay_list": "somascan_160410",
+    "assay_reagents": 4034,
+    "reported_targets": 3622,
+    "analysed_targets": null,
+    "reviewed_accessions": 3592,
+    "proxy_coverage_of_reported_targets": 0.9917172832689122,
+    "whole_panel_assay_list": null,
+    "whole_panel_reviewed_accessions": null
+   },
+   "Fenland SomaScan v4 (Pietzner 2021)": {
+    "background_level": "platform",
+    "assay_list": "somascan_v4",
+    "assay_reagents": 4979,
+    "reported_targets": 4775,
+    "analysed_targets": null,
+    "reviewed_accessions": 4717,
+    "proxy_coverage_of_reported_targets": 0.9878534031413613,
+    "whole_panel_assay_list": null,
+    "whole_panel_reviewed_accessions": null
+   },
+   "Fenland SomaScan v4 (Pietzner 2020, COVID-19 host proteins)": {
+    "background_level": "analysed",
+    "assay_list": "fenland_covid_179",
+    "assay_reagents": 190,
+    "reported_targets": 179,
+    "analysed_targets": 179,
+    "reviewed_accessions": 175,
+    "proxy_coverage_of_reported_targets": null,
+    "whole_panel_assay_list": null,
+    "whole_panel_reviewed_accessions": null
+   },
+   "ARIC European American (Zhang 2022)": {
+    "background_level": "platform",
+    "assay_list": "somascan_v4",
+    "assay_reagents": null,
+    "reported_targets": null,
+    "analysed_targets": null,
+    "reviewed_accessions": 4717,
+    "proxy_coverage_of_reported_targets": null,
+    "whole_panel_assay_list": null,
+    "whole_panel_reviewed_accessions": null
+   },
+   "ARIC African American (Zhang 2022)": {
+    "background_level": "platform",
+    "assay_list": "somascan_v4",
+    "assay_reagents": null,
+    "reported_targets": null,
+    "analysed_targets": null,
+    "reviewed_accessions": 4717,
+    "proxy_coverage_of_reported_targets": null,
+    "whole_panel_assay_list": null,
+    "whole_panel_reviewed_accessions": null
+   },
+   "SCALLOP CVD-I (Folkersen 2020)": {
+    "background_level": "assayed",
+    "assay_list": "olink_target_96:CVD I",
+    "assay_reagents": 92,
+    "reported_targets": 92,
+    "analysed_targets": 90,
+    "reviewed_accessions": 92,
+    "proxy_coverage_of_reported_targets": 1.0,
+    "whole_panel_assay_list": null,
+    "whole_panel_reviewed_accessions": null
+   },
+   "SCALLOP Inflammation (Zhao 2023)": {
+    "background_level": "platform",
+    "assay_list": "olink_target_96:INF",
+    "assay_reagents": null,
+    "reported_targets": 91,
+    "analysed_targets": null,
+    "reviewed_accessions": 92,
+    "proxy_coverage_of_reported_targets": 1.010989010989011,
+    "whole_panel_assay_list": null,
+    "whole_panel_reviewed_accessions": null
+   },
+   "SCALLOP multi-cohort meta-analysis (Koprulu 2026)": {
+    "background_level": "analysed",
+    "assay_list": "scallop_koprulu2026_analysed",
+    "assay_reagents": null,
+    "reported_targets": 1194,
+    "analysed_targets": 1161,
+    "reviewed_accessions": 1034,
+    "proxy_coverage_of_reported_targets": null,
+    "whole_panel_assay_list": "olink_target_96:CAM|olink_target_96:CVD II|olink_target_96:CVD III|olink_target_96:CRE|olink_target_96:DEV|olink_target_96:IMO|olink_target_96:INF|olink_target_96:IRE|olink_target_96:MET|olink_target_96:NEU|olink_target_96:NEX|olink_target_96:ODA|olink_target_96:ONC II",
+    "whole_panel_reviewed_accessions": 1071
+   },
+   "AGES Reykjavik (Emilsson 2018)": {
+    "background_level": "assayed",
+    "assay_list": "somascan_ages_custom",
+    "assay_reagents": 5034,
+    "reported_targets": 4137,
+    "analysed_targets": null,
+    "reviewed_accessions": 4146,
+    "proxy_coverage_of_reported_targets": 1.0021754894851342,
+    "whole_panel_assay_list": null,
+    "whole_panel_reviewed_accessions": null
+   },
+   "AGES Reykjavik (Gudjonsson 2022)": {
+    "background_level": "analysed",
+    "assay_list": "somascan_ages_custom",
+    "assay_reagents": 4782,
+    "reported_targets": 4135,
+    "analysed_targets": 4118,
+    "reviewed_accessions": 4146,
+    "proxy_coverage_of_reported_targets": null,
+    "whole_panel_assay_list": null,
+    "whole_panel_reviewed_accessions": null
+   },
+   "KORA (Suhre 2017)": {
+    "background_level": "analysed",
+    "assay_list": "somascan_v3.2_kora",
+    "assay_reagents": 1129,
+    "reported_targets": null,
+    "analysed_targets": 1124,
+    "reviewed_accessions": 1124,
+    "proxy_coverage_of_reported_targets": null,
+    "whole_panel_assay_list": null,
+    "whole_panel_reviewed_accessions": null
+   },
+   "Framingham Heart Study (Yao 2018)": {
+    "background_level": "analysed",
+    "assay_list": "fhs_luminex_71",
+    "assay_reagents": 85,
+    "reported_targets": 85,
+    "analysed_targets": 71,
+    "reviewed_accessions": 70,
+    "proxy_coverage_of_reported_targets": null,
+    "whole_panel_assay_list": null,
+    "whole_panel_reviewed_accessions": null
+   },
+   "IMPROVE (Folkersen 2017)": {
+    "background_level": "analysed",
+    "assay_list": "olink_cvd1_improve_analysed",
+    "assay_reagents": 92,
+    "reported_targets": 92,
+    "analysed_targets": 83,
+    "reviewed_accessions": 82,
+    "proxy_coverage_of_reported_targets": null,
+    "whole_panel_assay_list": "olink_target_96:CVD I",
+    "whole_panel_reviewed_accessions": 92
+   },
+   "Lothian Birth Cohort 1936 neurology panel (Hillary 2019)": {
+    "background_level": "platform",
+    "assay_list": "olink_target_96:NEU",
+    "assay_reagents": null,
+    "reported_targets": 92,
+    "analysed_targets": null,
+    "reviewed_accessions": 93,
+    "proxy_coverage_of_reported_targets": 1.0108695652173914,
+    "whole_panel_assay_list": null,
+    "whole_panel_reviewed_accessions": null
+   },
+   "Zheng 2020 proteome-wide MR instrument set": {
+    "background_level": "analysed",
+    "assay_list": "zheng2020_instrumented_1699",
+    "assay_reagents": null,
+    "reported_targets": 1699,
+    "analysed_targets": 1699,
+    "reviewed_accessions": 1725,
+    "proxy_coverage_of_reported_targets": null,
+    "whole_panel_assay_list": null,
+    "whole_panel_reviewed_accessions": null
+   },
+   "MANOLIS (Gilly 2020)": {
+    "background_level": "analysed",
+    "assay_list": "olink_manolis_gilly2020_analysed",
+    "assay_reagents": null,
+    "reported_targets": 275,
+    "analysed_targets": 257,
+    "reviewed_accessions": 258,
+    "proxy_coverage_of_reported_targets": null,
+    "whole_panel_assay_list": "olink_target_96:CVD II|olink_target_96:CVD III|olink_target_96:MET",
+    "whole_panel_reviewed_accessions": 275
+   },
+   "MANOLIS and Pomak neurology (Png 2021)": {
+    "background_level": "analysed",
+    "assay_list": "olink_helic_png2021",
+    "assay_reagents": null,
+    "reported_targets": 184,
+    "analysed_targets": 184,
+    "reviewed_accessions": 184,
+    "proxy_coverage_of_reported_targets": null,
+    "whole_panel_assay_list": "olink_target_96:NEU|olink_target_96:NEX",
+    "whole_panel_reviewed_accessions": 185
+   },
+   "NSPHS (Enroth 2014)": {
+    "background_level": "analysed",
+    "assay_list": "olink_oncology_I_nsphs_analysed",
+    "assay_reagents": 92,
+    "reported_targets": 92,
+    "analysed_targets": 77,
+    "reviewed_accessions": 77,
+    "proxy_coverage_of_reported_targets": null,
+    "whole_panel_assay_list": "olink_proseek_oncology_I",
+    "whole_panel_reviewed_accessions": 91
+   },
+   "Jackson Heart Study (Katz 2022)": {
+    "background_level": "analysed",
+    "assay_list": "somascan_1.3k_jhs_katz2022",
+    "assay_reagents": 1305,
+    "reported_targets": 1301,
+    "analysed_targets": 1301,
+    "reviewed_accessions": 1296,
+    "proxy_coverage_of_reported_targets": null,
+    "whole_panel_assay_list": "somascan_1.3k",
+    "whole_panel_reviewed_accessions": 1063
+   },
+   "Guangzhou Nutrition and Health Study (Xu 2023)": {
+    "background_level": "analysed",
+    "assay_list": "gnhs_swath_ms_304",
+    "assay_reagents": null,
+    "reported_targets": 304,
+    "analysed_targets": 304,
+    "reviewed_accessions": 304,
+    "proxy_coverage_of_reported_targets": null,
+    "whole_panel_assay_list": null,
+    "whole_panel_reviewed_accessions": null
+   }
+  },
+  "dictionary_rows_by_background_level": {
+   "analysed": 12,
+   "assayed": 11,
+   "platform": 5
+  },
+  "platform_assay_lists_sha256": "3a01aa3c4ed2fe6c616bc7d767de3d7bee18ec9090509837f10e8c3620c68e96"
+ },
+ "epigraphdb": {
+  "exposures": 989,
+  "traits": 225,
+  "exposures_by_state": {
+   "mapped": 973,
+   "multiple_uniprot": 2,
+   "no_hgnc": 14
+  },
+  "exposures_mapped_by_tier": {
+   "tier_1": 952,
+   "tier_2": 2,
+   "tier_3": 19
+  },
+  "distinct_accessions": 973,
+  "traits_by_state": {
+   "mapped": 191,
+   "unmapped": 34
+  },
+  "traits_mapped_by_name_rule": {
+   "after_last_colon": 35,
+   "alias_table": 63,
+   "as_written": 82,
+   "icd10_cross_reference": 11
+  },
+  "traits_mapped_by_tier": {
+   "none": 74,
+   "tier_1": 7,
+   "tier_2": 105,
+   "tier_3": 3,
+   "tier_4": 2
+  },
+  "distinct_canonical_outcomes": 166,
+  "response_files_missing": 0,
+  "estimates": 179928,
+  "distinct_exposure_trait_pairs": 179928,
+  "estimates_by_sign_of_beta": {
+   "lowers": 88977,
+   "raises": 90951
+  },
+  "estimates_on_mapped_pairs": 135653,
+  "distinct_canonical_pairs": 128490,
+  "traits_read_in_the_primary_join": 176,
+  "traits_mapped_through_a_proxy_alias": 15,
+  "estimates_on_mapped_pairs_with_proxy_aliases": 147819,
+  "traits_mapped_by_alias_relation": {
+   "broader_proxy": 13,
+   "derived_measurement": 2,
+   "exact_equivalent": 5,
+   "normalized_equivalent": 43
+  },
+  "alias_rows_not_used_an_earlier_rule_maps_the_trait": [
+   "Diagnoses - main ICD10: D25 Leiomyoma of uterus",
+   "Diagnoses - main ICD10: N40 Hyperplasia of prostate",
+   "Diagnoses - main ICD10: N81 Female genital prolapse",
+   "Mean platelet volume",
+   "Serum creatinine (eGFRcrea)",
+   "Sleep duration"
+  ],
+  "icd10_coded_traits": 44,
+  "icd10_coded_traits_by_name_rule": {
+   "None": 15,
+   "after_last_colon": 9,
+   "alias_table": 9,
+   "icd10_cross_reference": 11
+  },
+  "mrres_estimates_sha256": "9a5cd35eef39eb195cf75e335376911bd4722299518570c19f740b7cb1aa09dd",
+  "trait_alias_rows": 69,
+  "traits_unmapped": [
+   "Cough on most days",
+   "Creatinine (enzymatic) in urine",
+   "Diagnoses - main ICD10: D12 Benign neoplasm of colon  rectum  anus and anal canal",
+   "Diagnoses - main ICD10: G56 Mononeuropathies of upper limb",
+   "Diagnoses - main ICD10: I48 Atrial fibrillation and flutter",
+   "Diagnoses - main ICD10: I80 Phlebitis and thrombophlebitis",
+   "Diagnoses - main ICD10: K29 Gastritis and duodenitis",
+   "Diagnoses - main ICD10: K60 Fissure and fistula of anal and rectal regions",
+   "Diagnoses - main ICD10: M23 Internal derangement of knee",
+   "Diagnoses - main ICD10: N92 Excessive  frequent and irregular menstruation",
+   "Diagnoses - main ICD10: R04 Haemorrhage from respiratory passages",
+   "Diagnoses - main ICD10: R07 Pain in throat and chest",
+   "Diagnoses - main ICD10: R10 Abdominal and pelvic pain",
+   "Diagnoses - main ICD10: S66 Injury of muscle and tendon at wrist and hand level",
+   "Diagnoses - main ICD10: S76 Injury of muscle and tendon at hip and thigh level",
+   "Diagnoses - main ICD10: Z09 Follow-up examination after treatment for conditions other than malignant neoplasms",
+   "Eye problems or disorders: Injury or trauma resulting in loss of vision",
+   "Forearm bone mineral density",
+   "Fracture resulting from simple fall",
+   "Fractured bone site(s): Arm",
+   "Fractured bone site(s): Other bones",
+   "Happiness",
+   "Hearing difficulty or problems: Yes",
+   "Internalizing problems",
+   "Knee and hip osteoarthritis",
+   "Large vessel disease",
+   "Low grade serous ovarian cancer",
+   "Non-cancer illness code  self-reported: anxiety or panic attacks",
+   "Non-cancer illness code  self-reported: bladder problem (not cancer)",
+   "Non-cancer illness code  self-reported: emphysema or chronic bronchitis",
+   "Non-cancer illness code  self-reported: muscle or soft tissue injuries",
+   "PGC cross-disorder traits",
+   "Small vessel disease",
+   "Underlying (primary) cause of death: ICD10: E85.4 Organ-limited amyloidosis"
+  ],
+  "traits_ambiguous": [],
+  "trait_aliases_sha256": "1f73109c72bfd22923deed64241ee28a52d9eb3aedf490683975091a085e5a22",
+  "protein_mapping_sha256": "e809a3c1771ba142687bfcfd5ab22f17e5fcca9607fde84055de7bac0c6dcd7a",
+  "trait_mapping_sha256": "d78da752d1ceb33c650877b86eba0b6a57be6fb7c0300d4baaa6898b414f3c77"
+ },
+ "outcome_names": {
+  "names_with_no_mondo_or_efo_identifier": 47734,
+  "of_those_completed_by_a_phenotype_cross_reference": 282,
+  "completed_examples": [
+   "abnormalcurvingofthecorneaorlensoftheeye: HP:0000483 -> MONDO:0011284",
+   "abnormalityofthethumb: HP:0001172 -> MONDO:0008561",
+   "abnormalityofthethumbs: HP:0001172 -> MONDO:0008561",
+   "abnormalityofthetricuspidvalve: HP:0001702 -> MONDO:0020289",
+   "abnormallyindentedhipsockets: HP:0003179 -> MONDO:0008320",
+   "abnormallysmallcranium: HP:0000252 -> MONDO:0001149",
+   "abnormallysmallskull: HP:0000252 -> MONDO:0001149",
+   "abnormalthumbmorphology: HP:0001172 -> MONDO:0008561",
+   "abnormaltricuspidvalvemorphology: HP:0001702 -> MONDO:0020289",
+   "absolutelymphocytecountdecrease: HP:0001888 -> MONDO:0003783",
+   "acalculia: HP:0002442 -> MONDO:0001552",
+   "acetabularprotrusion: HP:0003179 -> MONDO:0008320",
+   "achalasiaoftheesophagus: HP:0002571 -> MONDO:0008698",
+   "achalasiaoftheoesophagus: HP:0002571 -> MONDO:0008698",
+   "acutepancreaticinflammation: HP:0001735 -> MONDO:0006515",
+   "amelia: HP:0009827 -> MONDO:0017419",
+   "ameliainvolvingthelowerlimbs: HP:0009818 -> MONDO:0017438",
+   "ameliainvolvingtheupperlimbs: HP:0009812 -> MONDO:0017437",
+   "anaemia: HP:0001903 -> MONDO:0002280",
+   "anteriorbulgingoftheglobe: HP:0000520 -> MONDO:0004770",
+   "anteriorbulgingoftheglobeofeye: HP:0000520 -> MONDO:0004770",
+   "anteriormegalophthalmos: HP:0000485 -> MONDO:0009576",
+   "arterialhypertension: HP:0000822 -> MONDO:0005044",
+   "arterialhypotension: HP:0002615 -> MONDO:0005468",
+   "astereognosis: HP:0010527 -> MONDO:0000680",
+   "asymmetricpupilsizes: HP:0009916 -> MONDO:0007122",
+   "asymmetryofthepupils: HP:0009916 -> MONDO:0007122",
+   "bacterialinfectionofskin: HP:0100658 -> MONDO:0005230",
+   "basalgangliacalcifications: HP:0002135 -> MONDO:0008947",
+   "basalganglioncalcification: HP:0002135 -> MONDO:0008947",
+   "benignuterineleiomyomas: HP:0000131 -> MONDO:0007886",
+   "birthdefectinwhichpartofesophagusdidnotdevelop: HP:0002032 -> MONDO:0001044",
+   "birthdefectinwhichpartofoesophagusdidnotdevelop: HP:0002032 -> MONDO:0001044",
+   "bladderdiverticula: HP:0000015 -> MONDO:0007197",
+   "bloodclotinarteryoflung: HP:0002204 -> MONDO:0005279",
+   "brachydactylysyndrome: HP:0001156 -> MONDO:0021004",
+   "breakdownoflightsensitivecellsinbackofeye: HP:0000556 -> MONDO:0019118",
+   "bronchialasthma: HP:0002099 -> MONDO:0004979",
+   "bulgingeye: HP:0000520 -> MONDO:0004770",
+   "calcificationofthebasalganglia: HP:0002135 -> MONDO:0008947"
+  ],
+  "names": 156053,
+  "names_with_several_candidates": 1965,
+  "by_ontologies_before_the_rule": {
+   "EFOx1+HPx1": 61,
+   "EFOx1+HPx1+MONDOx1": 15,
+   "EFOx1+MONDOx1": 688,
+   "EFOx1+MONDOx1+Orphanetx1": 1,
+   "EFOx1+MONDOx2": 4,
+   "EFOx1+OBAx1": 8,
+   "EFOx1+Orphanetx1": 2,
+   "EFOx2": 91,
+   "EFOx2+MONDOx1": 2,
+   "EFOx3": 2,
+   "HPx1+MONDOx1": 740,
+   "HPx1+MONDOx1+Orphanetx1": 1,
+   "HPx1+MONDOx2": 7,
+   "HPx1+Orphanetx1": 1,
+   "MONDOx1+Orphanetx1": 109,
+   "MONDOx2": 211,
+   "MONDOx3": 14,
+   "MONDOx4": 5,
+   "MONDOx5": 1,
+   "OBAx2": 2
+  },
+  "resolved_to_one_mondo_or_efo_identifier": 921,
+  "still_ambiguous": 1044,
+  "still_ambiguous_by_ontologies": {
+   "EFOx1+MONDOx1": 704,
+   "EFOx1+MONDOx2": 4,
+   "EFOx2": 91,
+   "EFOx2+MONDOx1": 2,
+   "EFOx3": 2,
+   "HPx1+Orphanetx1": 1,
+   "MONDOx2": 218,
+   "MONDOx3": 14,
+   "MONDOx4": 5,
+   "MONDOx5": 1,
+   "OBAx2": 2
+  },
+  "still_ambiguous_examples": {
+   "EFOx1+MONDOx1": [
+    "17alphahydroxylase1720lyasedeficiency: EFO:0009067|MONDO:0008730",
+    "3methylglutaconicaciduriatype7: EFO:0009014|MONDO:0014561",
+    "4hsyndrome: EFO:0700106|MONDO:0011897",
+    "acquiredaplasticanemia: EFO:0006926|MONDO:0015610",
+    "acquiredneuromyotonia: EFO:1000638|MONDO:0019399",
+    "actinobacillosis: EFO:0007127|MONDO:0005630",
+    "acutecholecystitis: EFO:1001289|MONDO:0043994",
+    "acuteerythroblasticleukemia: EFO:1001257|MONDO:0017858",
+    "acutegraftvshostdisease: EFO:0004599|MONDO:0020546",
+    "ada2deficiency: EFO:0009295|MONDO:0014306",
+    "adamantinomatouscraniopharyngioma: EFO:1000069|MONDO:0002787",
+    "adrenalrestneoplasm: EFO:1000798|MONDO:0002110",
+    "adrenalresttumor: EFO:1000798|MONDO:0002110",
+    "adulthypophosphatasia: EFO:0021431|MONDO:1010154",
+    "ags: EFO:0002109|MONDO:0100001",
+    "ahdc1relatedintellectualdisabilityobstructivesleepapneamilddysmorphismsyndrome: EFO:0009015|MONDO:0014358",
+    "allergicasthma: EFO:0010638|MONDO:0004784",
+    "allergicpurpura: EFO:1000965|MONDO:0019167",
+    "alphaheavychaindisease: EFO:1001798|MONDO:0015045",
+    "alternariosis: EFO:1001262|MONDO:0044083",
+    "amnioticfluidembolism: EFO:1001263|MONDO:0850046",
+    "an1: EFO:0006984|MONDO:0024507",
+    "analglandneoplasm: EFO:1000804|MONDO:0003045",
+    "anaplasticlungcarcinoma: EFO:1000016|MONDO:0003050",
+    "anaplasticmalignantmeningioma: EFO:1000082|MONDO:0020635"
+   ],
+   "EFOx1+MONDOx2": [
+    "css: EFO:0004004|MONDO:0015452|MONDO:0015943",
+    "dm: EFO:0010133|MONDO:0005015|MONDO:0016367",
+    "lpp: EFO:0009856|MONDO:0015597|MONDO:0018879",
+    "mf: EFO:0004169|MONDO:0009691|MONDO:0020481"
+   ],
+   "EFOx2": [
+    "33hydroxyphenylpropionatemeasurement: EFO:0021007|EFO:0800952",
+    "3hydroxyanthranilate34dioxygenasemeasurement: EFO:0021862|EFO:0021997",
+    "3indoxylsulfatemeasurement: EFO:0010985|EFO:0022088",
+    "3seq: EFO:0008643|EFO:0008645",
+    "adamts13measurement: EFO:0008011|EFO:0009269",
+    "alpha13fucosyltransferase5measurement: EFO:0020136|EFO:0021979",
+    "ambidexterity: EFO:0003889|EFO:0009902",
+    "betahydroxybutyricacidmeasurement: EFO:0010113|EFO:0010465",
+    "bl1: EFO:0005173|EFO:0022727",
+    "c3: EFO:0001329|EFO:0022468",
+    "c3h: EFO:0001329|EFO:0022468",
+    "c57bl10: EFO:0000604|EFO:0022395",
+    "calciumcalmodulindependent35cyclicnucleotidephosphodiesterase1ameasurement: EFO:0021986|EFO:0802359",
+    "capseq: EFO:0008671|EFO:0008673",
+    "ccmotifchemokine21measurement: EFO:0008048|EFO:0009416",
+    "ccmotifchemokine23measurement: EFO:0008049|EFO:0009417",
+    "ccmotifchemokine24measurement: EFO:0009418|EFO:0020197",
+    "cdna: EFO:0004187|EFO:0008481",
+    "chitinase3likeprotein1measurement: EFO:0004869|EFO:0801470",
+    "chr: EFO:0009202|EFO:0009229",
+    "clinicaltreatment: EFO:0000355|EFO:0007056",
+    "colo783: EFO:0006375|EFO:0006376",
+    "complementarydna: EFO:0004187|EFO:0008481",
+    "cosmx: EFO:0022994|EFO:0920059",
+    "ctypelectindomainfamily7memberameasurement: EFO:0020203|EFO:0802349"
+   ],
+   "EFOx2+MONDOx1": [
+    "map: EFO:0006340|EFO:0009296|MONDO:0012041",
+    "sma: EFO:0008929|EFO:0010970|MONDO:0019079"
+   ],
+   "EFOx3": [
+    "mih: EFO:0000368|EFO:0005321|EFO:0700113",
+    "nucseq: EFO:0008834|EFO:0008835|EFO:0009991"
+   ],
+   "HPx1+Orphanetx1": [
+    "postaxialpolydactylyoffoot: HP:0001830|Orphanet:295008"
+   ],
+   "MONDOx2": [
+    "acthproducingpituitaryadenoma: MONDO:0006068|MONDO:0009050",
+    "ad: MONDO:0004975|MONDO:0004980",
+    "adcnm: MONDO:0008048|MONDO:1012922",
+    "adlte: MONDO:0010898|MONDO:0700090",
+    "adpeaf: MONDO:0010898|MONDO:0700090",
+    "aha: MONDO:0020108|MONDO:0035735",
+    "aidp: MONDO:0007691|MONDO:0020347",
+    "aip: MONDO:0015175|MONDO:0019203",
+    "air: MONDO:0011126|MONDO:0100014",
+    "alclalk: MONDO:0017602|MONDO:0017603",
+    "alkalcl: MONDO:0017602|MONDO:0017603",
+    "alkanaplasticlargecelllymphoma: MONDO:0017602|MONDO:0017603",
+    "alopeciauniversalis: MONDO:0008757|MONDO:0800198",
+    "alphamethylacylcoaracemasedeficiency: MONDO:0008967|MONDO:0013681",
+    "amacrdeficiency: MONDO:0008967|MONDO:0013681",
+    "amc: MONDO:0007157|MONDO:0015168",
+    "ankyloblepharonfiliformeimperforateanus: MONDO:0015201|MONDO:0022457",
+    "antiphospholipidsyndrome: MONDO:0017278|MONDO:8000010",
+    "aos: MONDO:0007034|MONDO:0013426",
+    "arbd: MONDO:0000395|MONDO:0016011",
+    "ards: MONDO:0006502|MONDO:1012930",
+    "arf: MONDO:0002492|MONDO:0017767",
+    "atrioventricularseptaldefect: MONDO:0020290|MONDO:0859565",
+    "bilateralretinoblastoma: MONDO:0003075|MONDO:0018160",
+    "birthoggdubesyndrome: MONDO:0800444|MONDO:0800445"
+   ],
+   "MONDOx3": [
+    "acs: MONDO:0005632|MONDO:0008708|MONDO:0019796",
+    "cad: MONDO:0005010|MONDO:0018922|MONDO:0100077",
+    "cln7: MONDO:0012588|MONDO:1010900|MONDO:1010901",
+    "cmd: MONDO:0007251|MONDO:0019950|MONDO:0044875",
+    "fhi: MONDO:0007080|MONDO:0016989|MONDO:0017182",
+    "mas: MONDO:0006851|MONDO:0015545|MONDO:0018919",
+    "mpsi: MONDO:0001586|MONDO:1012617|MONDO:1012618",
+    "mpsii: MONDO:0010674|MONDO:1012664|MONDO:1012665",
+    "pls: MONDO:0009490|MONDO:0018155|MONDO:0020562",
+    "rcc: MONDO:0005086|MONDO:0005549|MONDO:0044874",
+    "sls: MONDO:0010031|MONDO:0700001|MONDO:1011200",
+    "tbscid: MONDO:0017855|MONDO:0044200|MONDO:0044201",
+    "tbseverecombinedimmunodeficiency: MONDO:0017855|MONDO:0044200|MONDO:0044201",
+    "tmd: MONDO:0005473|MONDO:0008040|MONDO:0010870"
+   ],
+   "MONDOx4": [
+    "cln5: MONDO:0009745|MONDO:1010887|MONDO:1010888|MONDO:1010889",
+    "cln6: MONDO:0011144|MONDO:1010879|MONDO:1010880|MONDO:1010881",
+    "deds: MONDO:1010746|MONDO:1010747|MONDO:1010748|MONDO:1010749",
+    "mcd: MONDO:0009020|MONDO:0015454|MONDO:0019754|MONDO:0800215",
+    "pcd: MONDO:0008919|MONDO:0008932|MONDO:0016575|MONDO:0018215"
+   ],
+   "MONDOx5": [
+    "ceds: MONDO:0011804|MONDO:1010793|MONDO:1010794|MONDO:1010797|MONDO:1010798"
+   ],
+   "OBAx2": [
+    "cerebrospinalfluidcaseinkinaseiisubunitalphahumanamount: OBA:2057315|OBA:2058351",
+    "levelofcaseinkinaseiisubunitalphahumanincerebrospinalfluid: OBA:2057315|OBA:2058351"
+   ]
+  }
+ },
+ "derived_estimates": {
+  "volume_path": "/vol/02_claims_meta/derived/epigraphdb_mrres_estimates.jsonl",
+  "sha256": "9a5cd35eef39eb195cf75e335376911bd4722299518570c19f740b7cb1aa09dd"
+ }
+}

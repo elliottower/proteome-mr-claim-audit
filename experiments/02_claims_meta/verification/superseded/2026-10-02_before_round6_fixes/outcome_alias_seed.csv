@@ -1,0 +1,59 @@
+surface,target_label,source,note
+CAD,coronary artery disorder,clinical_abbreviation,
+CHD,coronary artery disorder,clinical_abbreviation,coronary heart disease; Mondo has no separate term
+coronary heart disease,coronary artery disorder,clinical_abbreviation,Mondo has no separate term
+coronary artery disease,coronary artery disorder,clinical_abbreviation,EFO term obsolete; Mondo label differs
+MI,myocardial infarction,clinical_abbreviation,
+T2D,type 2 diabetes mellitus,clinical_abbreviation,
+T2DM,type 2 diabetes mellitus,clinical_abbreviation,
+type 2 diabetes,type 2 diabetes mellitus,clinical_abbreviation,
+T1D,type 1 diabetes mellitus,clinical_abbreviation,
+type 1 diabetes,type 1 diabetes mellitus,clinical_abbreviation,
+AD,Alzheimer disease,clinical_abbreviation,
+IBD,inflammatory bowel disease,clinical_abbreviation,
+UC,ulcerative colitis,clinical_abbreviation,
+RA,rheumatoid arthritis,clinical_abbreviation,
+SLE,systemic lupus erythematosus,clinical_abbreviation,
+COPD,chronic obstructive pulmonary disease,clinical_abbreviation,
+CKD,chronic kidney disease,clinical_abbreviation,
+AF,atrial fibrillation,clinical_abbreviation,
+HF,heart failure,clinical_abbreviation,
+MS,multiple sclerosis,clinical_abbreviation,
+PD,Parkinson disease,clinical_abbreviation,
+ALS,amyotrophic lateral sclerosis,clinical_abbreviation,
+AAA,abdominal aortic aneurysm,clinical_abbreviation,
+VTE,venous thromboembolism,clinical_abbreviation,
+NAFLD,obsolete_non-alcoholic fatty liver disease,clinical_abbreviation,resolved through replaced_by
+OA,osteoarthritis,clinical_abbreviation,
+BMI,body mass index,clinical_abbreviation,
+SBP,systolic blood pressure,clinical_abbreviation,
+DBP,diastolic blood pressure,clinical_abbreviation,
+eGFR,glomerular filtration rate,clinical_abbreviation,EFO term obsolete; replaced by OBA
+estimated glomerular filtration rate,glomerular filtration rate,clinical_abbreviation,
+CRP,C-reactive protein measurement,clinical_abbreviation,
+C-reactive protein,C-reactive protein measurement,clinical_abbreviation,
+IL-6,amount of interleukin-6 (human) in blood,clinical_abbreviation,outcome that is itself a protein
+interleukin 6,amount of interleukin-6 (human) in blood,dev_set_miss,outcome that is itself a protein
+interleukin-6,amount of interleukin-6 (human) in blood,dev_set_miss,
+log interleukin-6,amount of interleukin-6 (human) in blood,dev_set_miss,PMID 22421340
+fibrinogen,circulating fibrinogen levels,dev_set_miss,PMID 22421340; EFO fibrinogen measurement obsolete
+stem cell factor,amount of kit ligand (human) in blood,dev_set_miss,PMID 28369058; stem cell factor = kit ligand
+apolipoprotein E,level of apolipoprotein E in blood serum,dev_set_miss,PMID 29258991
+apolipoprotein E protein,level of apolipoprotein E in blood serum,dev_set_miss,PMID 29258991
+fasting glucose,blood glucose amount,dev_set_miss,PMID 25350643; EFO fasting blood glucose measurement obsolete
+fasting insulin,blood insulin amount,dev_set_miss,PMID 25350643; EFO fasting blood insulin measurement obsolete
+bone mineral density,bone tissue density,dev_set_miss,PMID 25350643; EFO bone density obsolete
+25OHD,vitamin D level,dev_set_miss,PMID 25350643; 25-hydroxyvitamin D
+serum albumin,serum albumin amount,dev_set_miss,PMID 27327646
+serum protein,total blood protein measurement,dev_set_miss,PMID 27327646
+estimated glomerular filtration rate from serum creatinine,glomerular filtration rate,dev_set_miss,PMID 27327646
+knee osteoarthritis,"osteoarthritis, knee",dev_set_miss,PMID 27327646
+lung function,forced expiratory volume,dev_set_miss,PMID 29191953; related not exact
+intestinal type gastric cancer,gastric intestinal type adenocarcinoma,dev_set_miss,PMID 26886630
+hospitalization or death with depression,depressive disorder,dev_set_miss,PMID 24246360; broader
+depression,depressive disorder,dev_set_miss,PMID 24246360
+prescription antidepressant medication use,Antidepressant use measurement,dev_set_miss,PMID 24246360
+antidepressant medication use,Antidepressant use measurement,dev_set_miss,
+CAD/MI,coronary artery disorder,dev_set_miss,PMID 27882376; composite mapped to the broader term
+Gleason grade,Gleason score measurement,dev_set_miss,PMID 27225428
+high (vs. low) Gleason grade,Gleason score measurement,dev_set_miss,PMID 27225428

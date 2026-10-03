@@ -1,0 +1,83 @@
+{
+ "search_date_utc": "2026-10-02",
+ "windows": {
+  "smoke": [
+   "2018-06-01",
+   "2018-06-30"
+  ]
+ },
+ "streams": {
+  "pubmed/esearch_Q1_smoke": {
+   "reported": 2,
+   "retrieved": 2,
+   "pages": 1
+  },
+  "pubmed/esearch_Q2_smoke": {
+   "reported": 1,
+   "retrieved": 1,
+   "pages": 1
+  },
+  "pubmed/esearch_Q3_smoke": {
+   "reported": 1,
+   "retrieved": 1,
+   "pages": 1
+  },
+  "pubmed/esearch_Q4_smoke": {
+   "reported": 10,
+   "retrieved": 10,
+   "pages": 1
+  },
+  "pubmed/efetch": {
+   "reported": 12,
+   "retrieved": 12,
+   "pages": 1
+  },
+  "epmc/Q1_smoke": {
+   "reported": 1,
+   "retrieved": 1,
+   "pages": 1
+  },
+  "epmc/Q2_smoke": {
+   "reported": 1,
+   "retrieved": 1,
+   "pages": 1
+  },
+  "epmc/Q3_smoke": {
+   "reported": 1,
+   "retrieved": 1,
+   "pages": 1
+  },
+  "epmc/Q4_smoke": {
+   "reported": 7,
+   "retrieved": 7,
+   "pages": 1
+  },
+  "openalex/Q1_smoke": {
+   "reported": 3,
+   "retrieved": 3,
+   "pages": 1
+  },
+  "openalex/Q2_smoke": {
+   "reported": 0,
+   "retrieved": 0,
+   "pages": 1
+  },
+  "openalex/Q3_smoke": {
+   "reported": 0,
+   "retrieved": 0,
+   "pages": 1
+  },
+  "openalex/Q4_smoke": {
+   "reported": 10,
+   "retrieved": 10,
+   "pages": 1
+  },
+  "pubmed/efetch_linked": {
+   "reported": 4,
+   "retrieved": 4,
+   "pages": 1
+  }
+ },
+ "finished_utc": "2026-10-02T20:07:41.214+00:00",
+ "streams_with_count_gap": []
+}

@@ -1,0 +1,23 @@
+source:
+  citation: folkersen2017improve
+  local: sources/original/folkersen2017improve.xml
+  sha256: f215d73025add62bd1205ae6ba5923822ead72d81ce7f18c39ab4c08566f2936
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5393901/fullTextXML
+  doi: 10.1371/journal.pgen.1006706
+  extractor: jats-text
+  note: 'Original file behind claims/folkersen2017improve.yaml: the XML pinned in claims/folkersen2017improve_original.yaml,
+    read by the citations extractor jats-text. The quotations here are those of that file that resolve
+    in this reading; a quotation absent here stays pinned where it already was.'
+  extractor_version: 1
+  derived_sha256: b1cb8495bd8b2d8dc9b5c4ae3b1d0276b7e0a43d3c4f5df77ea1d062eb211ec2
+claims:
+  platform-cvd1:
+    quotes:
+    - exact: Plasma concentrations were measured in baseline EDTA plasma samples using the ProSeek CVD
+        array I (Olink Biosciences, Uppsala, Sweden), according to the standard protocol.
+      section: 'Materials and methods: Plasma protein determinations and quality control'
+  proteins-83-of-92:
+    quotes:
+    - exact: After QC, a total number of 83 proteins out of the 92 remained for analysis (full overview
+        in supplementary S3 Table).
+      section: 'Materials and methods: Plasma protein determinations and quality control'

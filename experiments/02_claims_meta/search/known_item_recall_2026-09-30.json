@@ -1,0 +1,625 @@
+{
+  "run_date": "2026-09-30",
+  "note": "hit counts of (query) AND PMID[uid]; no abstract fetched or read",
+  "queries": {
+    "Q1": "(\"Mendelian Randomization Analysis\"[Mesh] OR \"Mendelian randomization\"[tiab] OR \"Mendelian randomisation\"[tiab]) AND (proteome-wide[tiab] OR \"proteome wide\"[tiab] OR protein-wide[tiab] OR proteomic*[tiab] OR \"plasma proteom*\"[tiab] OR \"circulating proteom*\"[tiab] OR \"plasma protein*\"[tiab] OR \"serum protein*\"[tiab] OR \"circulating protein*\"[tiab] OR pQTL[tiab] OR pQTLs[tiab] OR \"protein quantitative trait*\"[tiab] OR \"protein QTL*\"[tiab] OR \"genetically proxied protein*\"[tiab] OR \"genetically predicted protein*\"[tiab] OR \"genetically predicted plasma protein*\"[tiab]) AND (\"2019/01/01\"[dp] : \"2025/12/31\"[dp])",
+    "Q2": "(\"Mendelian Randomization Analysis\"[Mesh] OR \"Mendelian randomization\"[tiab] OR \"Mendelian randomisation\"[tiab]) AND (SomaScan[tiab] OR SomaLogic[tiab] OR Olink[tiab] OR Fenland[tiab] OR \"UKB-PPP\"[tiab] OR \"UK Biobank Pharma Proteomics\"[tiab] OR deCODE[tiab] OR SCALLOP[tiab] OR \"INTERVAL study\"[tiab] OR ARIC[tiab]) AND (\"2019/01/01\"[dp] : \"2025/12/31\"[dp])",
+    "Q3": "(\"drug target*\"[tiab] OR \"therapeutic target*\"[tiab] OR druggable[tiab] OR repurpos*[tiab] OR \"target prioriti*\"[tiab] OR \"therapeutic prioriti*\"[tiab] OR \"drug-target MR\"[tiab]) AND (pQTL[tiab] OR pQTLs[tiab] OR \"protein quantitative trait*\"[tiab] OR \"protein QTL*\"[tiab] OR \"plasma protein*\"[tiab] OR proteom*[tiab]) AND ((\"Mendelian Randomization Analysis\"[Mesh] OR \"Mendelian randomization\"[tiab] OR \"Mendelian randomisation\"[tiab]) OR pQTL[tiab] OR pQTLs[tiab] OR \"protein quantitative trait*\"[tiab] OR \"genetically predicted\"[tiab] OR \"genetically proxied\"[tiab] OR \"cis-MR\"[tiab]) AND (\"2019/01/01\"[dp] : \"2025/12/31\"[dp])",
+    "Q4": "(\"summary-data-based Mendelian randomization\"[tiab] OR SMR[tiab] OR colocali*[tiab] OR \"cis-MR\"[tiab] OR \"cis Mendelian randomization\"[tiab]) AND (pQTL[tiab] OR pQTLs[tiab] OR \"protein quantitative trait*\"[tiab] OR \"protein QTL*\"[tiab] OR \"plasma protein*\"[tiab] OR proteom*[tiab]) AND (\"2019/01/01\"[dp] : \"2025/12/31\"[dp])"
+  },
+  "control_uid_only_count": 1,
+  "items": {
+    "32895551": {
+      "source": "Chen L 2022 and Yoshikawa 2024 reference lists; foreknowledge item 7",
+      "title": "Phenome-wide Mendelian randomization mapping the influence of the plasma proteome on complex diseases.",
+      "journal": "Nature genetics",
+      "pubdate": "2020 Oct",
+      "epubdate": "2020 Sep 7",
+      "doi": "10.1038/s41588-020-0682-6",
+      "pubtype": [
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "counts": {
+        "Q1": 1,
+        "Q2": 0,
+        "Q3": 1,
+        "Q4": 1
+      },
+      "retrieved_by": [
+        "Q1",
+        "Q3",
+        "Q4"
+      ]
+    },
+    "36253349": {
+      "source": "project foreknowledge item 7 (Chen L 2022, Nat Commun)",
+      "title": "Systematic Mendelian randomization using the human plasma proteome to discover potential therapeutic targets for stroke.",
+      "journal": "Nature communications",
+      "pubdate": "2022 Oct 17",
+      "epubdate": "2022 Oct 17",
+      "doi": "10.1038/s41467-022-33675-1",
+      "pubtype": [
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "counts": {
+        "Q1": 1,
+        "Q2": 0,
+        "Q3": 1,
+        "Q4": 1
+      },
+      "retrieved_by": [
+        "Q1",
+        "Q3",
+        "Q4"
+      ]
+    },
+    "39702585": {
+      "source": "project foreknowledge item 7 (Yoshikawa 2024, Commun Biol)",
+      "title": "Systematic proteome-wide Mendelian randomization to prioritize causal plasma proteins for skin cancers.",
+      "journal": "Communications biology",
+      "pubdate": "2024 Dec 19",
+      "epubdate": "2024 Dec 19",
+      "doi": "10.1038/s42003-024-07403-y",
+      "pubtype": [
+        "Journal Article"
+      ],
+      "counts": {
+        "Q1": 1,
+        "Q2": 1,
+        "Q3": 0,
+        "Q4": 1
+      },
+      "retrieved_by": [
+        "Q1",
+        "Q2",
+        "Q4"
+      ]
+    },
+    "31208196": {
+      "source": "Zheng 2020 reference list (Europe PMC references endpoint)",
+      "title": "Novel Drug Targets for Ischemic Stroke Identified Through Mendelian Randomization Analysis of the Blood Proteome.",
+      "journal": "Circulation",
+      "pubdate": "2019 Sep 9",
+      "epubdate": "2019 Jun 18",
+      "doi": "10.1161/CIRCULATIONAHA.119.040180",
+      "pubtype": [
+        "Journal Article"
+      ],
+      "counts": {
+        "Q1": 1,
+        "Q2": 0,
+        "Q3": 1,
+        "Q4": 0
+      },
+      "retrieved_by": [
+        "Q1",
+        "Q3"
+      ]
+    },
+    "36864689": {
+      "source": "Yoshikawa 2024 reference list; Zheng 2020 citing papers (Europe PMC)",
+      "title": "Potential drug targets for multiple sclerosis identified through Mendelian randomization analysis.",
+      "journal": "Brain : a journal of neurology",
+      "pubdate": "2023 Aug 1",
+      "epubdate": "",
+      "doi": "10.1093/brain/awad070",
+      "pubtype": [
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "counts": {
+        "Q1": 0,
+        "Q2": 0,
+        "Q3": 0,
+        "Q4": 0
+      },
+      "retrieved_by": []
+    },
+    "38576019": {
+      "source": "Yoshikawa 2024 reference list",
+      "title": "Systematic proteome-wide Mendelian randomization using the human plasma proteome to identify therapeutic targets for lung adenocarcinoma.",
+      "journal": "Journal of translational medicine",
+      "pubdate": "2024 Apr 4",
+      "epubdate": "2024 Apr 4",
+      "doi": "10.1186/s12967-024-04919-z",
+      "pubtype": [
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "counts": {
+        "Q1": 1,
+        "Q2": 0,
+        "Q3": 1,
+        "Q4": 1
+      },
+      "retrieved_by": [
+        "Q1",
+        "Q3",
+        "Q4"
+      ]
+    },
+    "38049731": {
+      "source": "Yoshikawa 2024 reference list",
+      "title": "Proteome-wide analysis reveals potential therapeutic targets for Colorectal cancer: a two-sample mendelian randomization study.",
+      "journal": "BMC cancer",
+      "pubdate": "2023 Dec 4",
+      "epubdate": "2023 Dec 4",
+      "doi": "10.1186/s12885-023-11669-6",
+      "pubtype": [
+        "Journal Article"
+      ],
+      "counts": {
+        "Q1": 1,
+        "Q2": 0,
+        "Q3": 1,
+        "Q4": 0
+      },
+      "retrieved_by": [
+        "Q1",
+        "Q3"
+      ]
+    },
+    "35300523": {
+      "source": "OpenAlex scoop query D (2026-09-30 rerun), title only",
+      "title": "Therapeutic Targets for Heart Failure Identified Using Proteomics and Mendelian Randomization.",
+      "journal": "Circulation",
+      "pubdate": "2022 Apr 19",
+      "epubdate": "2022 Mar 18",
+      "doi": "10.1161/CIRCULATIONAHA.121.056663",
+      "pubtype": [
+        "Journal Article",
+        "Meta-Analysis",
+        "Research Support, Non-U.S. Gov't",
+        "Research Support, N.I.H., Extramural"
+      ],
+      "counts": {
+        "Q1": 1,
+        "Q2": 0,
+        "Q3": 1,
+        "Q4": 0
+      },
+      "retrieved_by": [
+        "Q1",
+        "Q3"
+      ]
+    },
+    "36388766": {
+      "source": "OpenAlex scoop query D (2026-09-30 rerun), title only",
+      "title": "Proteome-wide Mendelian randomization in global biobank meta-analysis reveals multi-ancestry drug targets for common diseases.",
+      "journal": "Cell genomics",
+      "pubdate": "2022 Nov 9",
+      "epubdate": "2022 Nov 9",
+      "doi": "10.1016/j.xgen.2022.100195",
+      "pubtype": [
+        "Journal Article"
+      ],
+      "counts": {
+        "Q1": 1,
+        "Q2": 0,
+        "Q3": 1,
+        "Q4": 1
+      },
+      "retrieved_by": [
+        "Q1",
+        "Q3",
+        "Q4"
+      ]
+    },
+    "36510323": {
+      "source": "PubMed scoop query pm_1 (2026-09-30 rerun), title only",
+      "title": "Mendelian randomization and genetic colocalization infer the effects of the multi-tissue proteome on 211 complex disease-related phenotypes.",
+      "journal": "Genome medicine",
+      "pubdate": "2022 Dec 12",
+      "epubdate": "2022 Dec 12",
+      "doi": "10.1186/s13073-022-01140-9",
+      "pubtype": [
+        "Meta-Analysis",
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't",
+        "Research Support, N.I.H., Extramural"
+      ],
+      "counts": {
+        "Q1": 1,
+        "Q2": 0,
+        "Q3": 1,
+        "Q4": 1
+      },
+      "retrieved_by": [
+        "Q1",
+        "Q3",
+        "Q4"
+      ]
+    },
+    "36736436": {
+      "source": "PubMed scoop query pm_1 (2026-09-30 rerun), title only",
+      "title": "Proteome-Wide Mendelian Randomization Identifies Causal Links Between Blood Proteins and Acute Pancreatitis.",
+      "journal": "Gastroenterology",
+      "pubdate": "2023 May",
+      "epubdate": "2023 Feb 1",
+      "doi": "10.1053/j.gastro.2023.01.028",
+      "pubtype": [
+        "Meta-Analysis",
+        "Journal Article",
+        "Research Support, N.I.H., Extramural",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "counts": {
+        "Q1": 1,
+        "Q2": 1,
+        "Q3": 1,
+        "Q4": 1
+      },
+      "retrieved_by": [
+        "Q1",
+        "Q2",
+        "Q3",
+        "Q4"
+      ]
+    },
+    "37652020": {
+      "source": "PubMed scoop query pm_1 (2026-09-30 rerun), title only",
+      "title": "Plasma proteins and onset of type 2 diabetes and diabetic complications: Proteome-wide Mendelian randomization and colocalization analyses.",
+      "journal": "Cell reports. Medicine",
+      "pubdate": "2023 Sep 19",
+      "epubdate": "2023 Aug 30",
+      "doi": "10.1016/j.xcrm.2023.101174",
+      "pubtype": [
+        "Meta-Analysis",
+        "Journal Article"
+      ],
+      "counts": {
+        "Q1": 1,
+        "Q2": 0,
+        "Q3": 0,
+        "Q4": 1
+      },
+      "retrieved_by": [
+        "Q1",
+        "Q4"
+      ]
+    },
+    "37726845": {
+      "source": "PubMed scoop query pm_1 (2026-09-30 rerun), title only",
+      "title": "Identification of novel protein biomarkers and drug targets for colorectal cancer by integrating human plasma proteome with genome.",
+      "journal": "Genome medicine",
+      "pubdate": "2023 Sep 19",
+      "epubdate": "2023 Sep 19",
+      "doi": "10.1186/s13073-023-01229-9",
+      "pubtype": [
+        "Meta-Analysis",
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "counts": {
+        "Q1": 1,
+        "Q2": 0,
+        "Q3": 1,
+        "Q4": 1
+      },
+      "retrieved_by": [
+        "Q1",
+        "Q3",
+        "Q4"
+      ]
+    },
+    "37429843": {
+      "source": "PubMed scoop query pm_1 (2026-09-30 rerun), title only",
+      "title": "Genome-wide association analysis and Mendelian randomization proteomics identify drug targets for heart failure.",
+      "journal": "Nature communications",
+      "pubdate": "2023 Jul 10",
+      "epubdate": "2023 Jul 10",
+      "doi": "10.1038/s41467-023-39253-3",
+      "pubtype": [
+        "Meta-Analysis",
+        "Journal Article",
+        "Research Support, U.S. Gov't, Non-P.H.S.",
+        "Research Support, N.I.H., Extramural",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "counts": {
+        "Q1": 1,
+        "Q2": 0,
+        "Q3": 1,
+        "Q4": 1
+      },
+      "retrieved_by": [
+        "Q1",
+        "Q3",
+        "Q4"
+      ]
+    },
+    "39068416": {
+      "source": "PubMed scoop query pm_1 (2026-09-30 rerun), title only",
+      "title": "Associations between genetically predicted concentrations of plasma proteins and the risk of prostate cancer.",
+      "journal": "BMC cancer",
+      "pubdate": "2024 Jul 27",
+      "epubdate": "2024 Jul 27",
+      "doi": "10.1186/s12885-024-12659-y",
+      "pubtype": [
+        "Journal Article",
+        "Meta-Analysis"
+      ],
+      "counts": {
+        "Q1": 1,
+        "Q2": 0,
+        "Q3": 1,
+        "Q4": 0
+      },
+      "retrieved_by": [
+        "Q1",
+        "Q3"
+      ]
+    },
+    "41247789": {
+      "source": "PubMed scoop query pm_1 (2026-09-30 rerun), title only",
+      "title": "Causal associations between human plasma proteins and prostate cancer identified by proteome-wide Mendelian randomization.",
+      "journal": "eLife",
+      "pubdate": "2025 Nov 17",
+      "epubdate": "2025 Nov 17",
+      "doi": "10.7554/eLife.101584",
+      "pubtype": [
+        "Journal Article",
+        "Meta-Analysis"
+      ],
+      "counts": {
+        "Q1": 1,
+        "Q2": 1,
+        "Q3": 1,
+        "Q4": 1
+      },
+      "retrieved_by": [
+        "Q1",
+        "Q2",
+        "Q3",
+        "Q4"
+      ]
+    },
+    "41286868": {
+      "source": "PubMed scoop query pm_1 (2026-09-30 rerun), title only",
+      "title": "Potential drug targets for chronic obstructive pulmonary disease in the plasma proteome identified through Mendelian randomization.",
+      "journal": "BMC pulmonary medicine",
+      "pubdate": "2025 Nov 24",
+      "epubdate": "2025 Nov 24",
+      "doi": "10.1186/s12890-025-04006-z",
+      "pubtype": [
+        "Journal Article",
+        "Meta-Analysis"
+      ],
+      "counts": {
+        "Q1": 1,
+        "Q2": 1,
+        "Q3": 1,
+        "Q4": 1
+      },
+      "retrieved_by": [
+        "Q1",
+        "Q2",
+        "Q3",
+        "Q4"
+      ]
+    },
+    "37996402": {
+      "source": "web search result (2026-09-30), title only",
+      "title": "Evaluation of circulating plasma proteins in breast cancer using Mendelian randomisation.",
+      "journal": "Nature communications",
+      "pubdate": "2023 Nov 24",
+      "epubdate": "2023 Nov 24",
+      "doi": "10.1038/s41467-023-43485-8",
+      "pubtype": [
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "counts": {
+        "Q1": 1,
+        "Q2": 0,
+        "Q3": 1,
+        "Q4": 0
+      },
+      "retrieved_by": [
+        "Q1",
+        "Q3"
+      ]
+    },
+    "36280454": {
+      "source": "Zheng 2020 citing papers (Europe PMC citations endpoint), title only",
+      "title": "Circulating Proteins Influencing Psychiatric Disease: A Mendelian Randomization Study.",
+      "journal": "Biological psychiatry",
+      "pubdate": "2023 Jan 1",
+      "epubdate": "2022 Aug 22",
+      "doi": "10.1016/j.biopsych.2022.08.015",
+      "pubtype": [
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "counts": {
+        "Q1": 1,
+        "Q2": 0,
+        "Q3": 1,
+        "Q4": 1
+      },
+      "retrieved_by": [
+        "Q1",
+        "Q3",
+        "Q4"
+      ]
+    },
+    "34758976": {
+      "source": "Zheng 2020 citing papers (Europe PMC citations endpoint), title only",
+      "title": "Clinically Relevant Circulating Protein Biomarkers for Type 1 Diabetes: Evidence From a Two-Sample Mendelian Randomization Study.",
+      "journal": "Diabetes care",
+      "pubdate": "2022 Jan 1",
+      "epubdate": "",
+      "doi": "10.2337/dc21-1049",
+      "pubtype": [
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "counts": {
+        "Q1": 1,
+        "Q2": 0,
+        "Q3": 0,
+        "Q4": 0
+      },
+      "retrieved_by": [
+        "Q1"
+      ]
+    },
+    "38184718": {
+      "source": "Zheng 2020 citing papers (Europe PMC citations endpoint), title only",
+      "title": "Mendelian randomization identifies circulating proteins as biomarkers for age at menarche and age at natural menopause.",
+      "journal": "Communications biology",
+      "pubdate": "2024 Jan 6",
+      "epubdate": "2024 Jan 6",
+      "doi": "10.1038/s42003-023-05737-7",
+      "pubtype": [
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "counts": {
+        "Q1": 1,
+        "Q2": 0,
+        "Q3": 0,
+        "Q4": 1
+      },
+      "retrieved_by": [
+        "Q1",
+        "Q4"
+      ]
+    },
+    "40037332": {
+      "source": "Zheng 2020 citing papers (Europe PMC citations endpoint), title only",
+      "title": "Mendelian randomization identifies proteins involved in neurodegenerative diseases.",
+      "journal": "Brain : a journal of neurology",
+      "pubdate": "2025 Jul 7",
+      "epubdate": "",
+      "doi": "10.1093/brain/awaf018",
+      "pubtype": [
+        "Journal Article"
+      ],
+      "counts": {
+        "Q1": 1,
+        "Q2": 1,
+        "Q3": 0,
+        "Q4": 1
+      },
+      "retrieved_by": [
+        "Q1",
+        "Q2",
+        "Q4"
+      ]
+    },
+    "39806440": {
+      "source": "Zheng 2020 citing papers (Europe PMC citations endpoint), title only",
+      "title": "Potential drug targets for asthma identified through mendelian randomization analysis.",
+      "journal": "Respiratory research",
+      "pubdate": "2025 Jan 13",
+      "epubdate": "2025 Jan 13",
+      "doi": "10.1186/s12931-024-03086-5",
+      "pubtype": [
+        "Journal Article"
+      ],
+      "counts": {
+        "Q1": 1,
+        "Q2": 0,
+        "Q3": 1,
+        "Q4": 1
+      },
+      "retrieved_by": [
+        "Q1",
+        "Q3",
+        "Q4"
+      ]
+    },
+    "39541108": {
+      "source": "Zheng 2020 citing papers (Europe PMC citations endpoint), title only",
+      "title": "Potential Drug Targets for Diabetic Retinopathy Identified Through Mendelian Randomization Analysis.",
+      "journal": "Translational vision science & technology",
+      "pubdate": "2024 Nov 4",
+      "epubdate": "",
+      "doi": "10.1167/tvst.13.11.17",
+      "pubtype": [
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "counts": {
+        "Q1": 1,
+        "Q2": 1,
+        "Q3": 1,
+        "Q4": 1
+      },
+      "retrieved_by": [
+        "Q1",
+        "Q2",
+        "Q3",
+        "Q4"
+      ]
+    },
+    "38762700": {
+      "source": "Zheng 2020 citing papers (Europe PMC citations endpoint), title only",
+      "title": "Potential drug targets for tumors identified through Mendelian randomization analysis.",
+      "journal": "Scientific reports",
+      "pubdate": "2024 May 18",
+      "epubdate": "2024 May 18",
+      "doi": "10.1038/s41598-024-62178-w",
+      "pubtype": [
+        "Journal Article"
+      ],
+      "counts": {
+        "Q1": 1,
+        "Q2": 0,
+        "Q3": 1,
+        "Q4": 1
+      },
+      "retrieved_by": [
+        "Q1",
+        "Q3",
+        "Q4"
+      ]
+    }
+  },
+  "recall_failures": [
+    "36864689"
+  ],
+  "preprint_lookup": {
+    "method": "Europe PMC SRC:PPR title search on the first nine title words, 2026-09-30; metadata only",
+    "found": {
+      "32895551": [
+        "2019-05-05",
+        "10.1101/627398",
+        "bioRxiv"
+      ],
+      "36388766": [
+        "2022-01-11",
+        "10.1101/2022.01.09.21268473",
+        "medRxiv"
+      ],
+      "36736436": [
+        "2021-03-11",
+        "10.1101/2021.03.09.21253206",
+        "medRxiv"
+      ],
+      "37726845": [
+        "2022-12-21",
+        "10.21203/rs.3.rs-2317124/v1",
+        "Research Square"
+      ],
+      "37429843": [
+        "2022-04-18",
+        "10.1101/2022.04.14.22273877",
+        "medRxiv"
+      ],
+      "39806440": [
+        "2024-10-14",
+        "10.21203/rs.3.rs-4921839/v1",
+        "Research Square"
+      ],
+      "36253349": [
+        "2023-11-17",
+        "10.21203/rs.3.rs-3583683/v1",
+        "Research Square (posted after the journal version; not the earliest)"
+      ]
+    }
+  }
+}

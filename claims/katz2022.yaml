@@ -1,0 +1,44 @@
+source:
+  citation: katz2022
+  local: sources/katz2022.txt
+  sha256: 53f4e1d2f082054a08a727e193791b16bb8e89b7eee602749dc61b640ded9dea
+  doi: 10.1126/sciadv.abm5164
+  note: Full text from Europe PMC fullTextXML (PMC9390994), tags stripped. Katz DH, Robbins JM, Deng S,
+    Tahir UA, Bick AG, Pampana A, Yu Z, Ngo D, Benson MD, Chen ZZ, Cruz DE, Shen D, Gao Y, Bouchard C,
+    Sarzynski MA, Correa A, Natarajan P, Wilson JG, Gerszten RE. Proteomic profiling platforms head to
+    head. Sci Adv 2022;8:eabm5164. PMID 35984888.
+claims:
+  jhs-568:
+    quotes:
+    - exact: we profiled a subset of JHS participants (N = 568) using both aptamer-based and antibody-based
+        methods
+      section: Introduction
+  overlap-591:
+    quotes:
+    - exact: revealing 591 overlapping proteins mapping to 602 Soma1.3K aptamers and 597 Olink probes
+      section: Results
+  pairs-164:
+    quotes:
+    - exact: At this threshold, 164 of the reagent pairs show a cis pQTL for both reagents.
+      section: 'Results: Accuracy: Platform correlation and cis pQTLs'
+  pairs-98:
+    quotes:
+    - exact: At this threshold, 98 reagent pairs have cis pQTLs for both reagents.
+      section: 'Results: Accuracy: Platform correlation and cis pQTLs'
+  cites-485:
+    quotes:
+    - exact: a larger effort to compare these platforms (N = 485 overlapping samples) demonstrated very
+        poor correlation between a large number of reagents targeting the same protein (18)
+      section: Introduction
+  jhs-soma13k-discovery:
+    quotes:
+    - exact: Our group has previously described the genetic architecture of the circulating plasma proteome
+        from JHS, leveraging the SomaScan1.3K (1301 aptamers, herein “Soma1.3K”) platform for discovery
+        and the Olink Explore (1472 probes, herein “Olink”) platform for validation (21)
+      section: Introduction
+  soma13k-1305:
+    quotes:
+    - exact: Proteomic measurements were performed using Soma1.3K, a single-stranded DNA aptamer-based
+        proteomic platform, which contained 1305 aptamers (43). Nonhuman proteins were excluded from analysis
+        (N = 4) for a final count of 1301.
+      section: 'Materials and Methods: SomaScan proteomic profiling'

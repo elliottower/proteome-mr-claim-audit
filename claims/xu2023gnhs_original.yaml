@@ -1,0 +1,15 @@
+source:
+  citation: xu2023gnhs
+  local: sources/original/xu2023gnhs.xml
+  sha256: db73f198be83fe14910eadc36f17242f26d4721f167f1f3ce0b74536b2d65394
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9935862/fullTextXML
+  doi: 10.1038/s41467-023-36491-3
+  note: 'Original file behind claims/xu2023gnhs.yaml: Europe PMC fullTextXML of PMC9935862, read as plain
+    text with its markup. The quotations here are the quotations of that file that resolve in this file
+    under the citations readers; a quotation absent here is pinned to the extracted text there only.'
+claims:
+  platform-swath:
+    quotes:
+    - exact: Peptide samples were then analyzed by SWATH-MS over a 20 min linear LC gradient on a TripleTOF
+        5600 system (SCIEX, CA, USA) coupled to Eksigent NanoLC 400 System (Eksigent, Dublin, CA, USA).
+      section: 'Methods: Circulating proteomics profiling'

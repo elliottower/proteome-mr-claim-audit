@@ -1,0 +1,17 @@
+source:
+  citation: wood2014giant_main
+  local: sources/original/wood2014giant_main.xml
+  sha256: 554b5fe49a2ed5c7ffbc608ebad0c9e954e3aebe0fd5b193b5b66f9120c08736
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC4250049/fullTextXML
+  doi: 10.1038/ng.3097
+  note: 'Original file behind claims/wood2014giant_main.yaml: Europe PMC fullTextXML of PMC4250049, read
+    as plain text with its markup. The quotations here are the quotations of that file that resolve in
+    this file under the citations readers; a quotation absent here is pinned to the extracted text there
+    only.'
+claims:
+  metabochip_replication:
+    quotes:
+    - exact: Using data from 80,067 individuals genotyped on the Metabochip array from 37 independent
+        studies, we observed very strong evidence of concordance of effect sizes between the Metabochip
+        and GWAS samples
+      section: Results

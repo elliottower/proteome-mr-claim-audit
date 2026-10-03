@@ -1,0 +1,67 @@
+surface,target_label,alias_relation,source,rationale
+2hr glucose,glucose tolerance test,derived_measurement,epigraphdb_trait,the two-hour value of the oral glucose tolerance test
+Alcohol intake frequency,alcohol drinking,broader_proxy,epigraphdb_trait,a frequency measure mapped to the broader behavior
+Body fat,body fat percentage,normalized_equivalent,epigraphdb_trait,the snapshot trait is body fat percentage
+Cancer code  self-reported: small intestine or small bowel cancer,small intestine cancer,normalized_equivalent,epigraphdb_trait,UK Biobank field wording of the same condition
+Caudate volume,caudate nucleus volume,normalized_equivalent,epigraphdb_trait,the caudate is the caudate nucleus
+Childhood intelligence,intelligence,broader_proxy,epigraphdb_trait,the term drops the age at measurement
+Cigarettes smoked per day,cigarettes per day measurement,normalized_equivalent,epigraphdb_trait,wording of the same measurement
+Non-cancer illness code  self-reported: uterine fibroids,uterine corpus leiomyoma,normalized_equivalent,epigraphdb_trait,common name of uterine leiomyoma; ambiguous as written: the label also names an EFO measurement term
+Diagnoses - main ICD10: I83 Varicose veins of lower extremities,varicose disease,broader_proxy,epigraphdb_trait,the term drops the site
+Diagnoses - main ICD10: K35 Acute appendicitis,appendicitis,broader_proxy,epigraphdb_trait,the term drops the acuity; the pinned files have no term for acute appendicitis
+Diagnoses - main ICD10: K57 Diverticular disease of intestine,diverticular disease,normalized_equivalent,epigraphdb_trait,ICD-10 chapter wording of the same condition
+Non-cancer illness code  self-reported: diverticular disease or diverticulitis,diverticular disease,normalized_equivalent,epigraphdb_trait,UK Biobank field wording of the same condition
+Diagnoses - main ICD10: M16 Coxarthrosis [arthrosis of hip],"osteoarthritis, hip",normalized_equivalent,epigraphdb_trait,ICD-10 chapter wording of the same condition
+Diagnoses - main ICD10: M17 Gonarthrosis [arthrosis of knee],"osteoarthritis, knee",normalized_equivalent,epigraphdb_trait,ICD-10 chapter wording of the same condition
+Diagnoses - main ICD10: M54 Dorsalgia,Back pain,normalized_equivalent,epigraphdb_trait,dorsalgia is back pain
+Non-cancer illness code  self-reported: enlarged prostate,benign prostatic hyperplasia,normalized_equivalent,epigraphdb_trait,common name of benign prostatic hyperplasia
+Non-cancer illness code  self-reported: vaginal prolapse or uterine prolapse,pelvic organ prolapse,broader_proxy,epigraphdb_trait,two named forms mapped to the general term
+Diagnoses - main ICD10: R14 Flatulence and related conditions,flatulence,broader_proxy,epigraphdb_trait,the term drops `and related conditions`
+Diagnoses - main ICD10: R55 Syncope and collapse,Syncope,broader_proxy,epigraphdb_trait,the term drops `and collapse`
+Diastolic blood pressure  automated reading,diastolic blood pressure,normalized_equivalent,epigraphdb_trait,UK Biobank field wording of the same measurement
+Systolic blood pressure  automated reading,systolic blood pressure,normalized_equivalent,epigraphdb_trait,UK Biobank field wording of the same measurement
+ER-negative Breast cancer (Combined Oncoarray; iCOGS; GWAS meta analysis),estrogen-receptor negative breast cancer,normalized_equivalent,epigraphdb_trait,"the subtype, without the data-source note"
+ER-positive Breast cancer (Combined Oncoarray; iCOGS; GWAS meta analysis),estrogen-receptor positive breast cancer,normalized_equivalent,epigraphdb_trait,"the subtype, without the data-source note"
+Eye problems or disorders: Diabetes related eye disease,diabetic retinopathy,broader_proxy,epigraphdb_trait,diabetes-related eye disease is broader than retinopathy
+Fasting proinsulin,proinsulin measurement,broader_proxy,epigraphdb_trait,the term drops the fasting state
+Lumbar spine bone mineral density,spine bone mineral density,broader_proxy,epigraphdb_trait,the term drops the lumbar site
+Heel bone mineral density (BMD) T-score  automated,heel bone mineral density,derived_measurement,epigraphdb_trait,the T-score is derived from the heel bone mineral density; ambiguous as written: its parenthesis matches synonyms of two MONDO terms
+Fractured bone site(s): Ankle,ankle fracture,normalized_equivalent,epigraphdb_trait,UK Biobank field wording of the same condition
+Fractured bone site(s): Wrist,wrist fracture,normalized_equivalent,epigraphdb_trait,UK Biobank field wording of the same condition
+Fractured or broken bones in last 5 years,bone fracture,broader_proxy,epigraphdb_trait,the term drops the five-year window
+HDL cholesterol,high density lipoprotein cholesterol measurement,normalized_equivalent,epigraphdb_trait,abbreviation of the same measurement
+Height,body height,normalized_equivalent,epigraphdb_trait,common name of body height
+High grade serous ovarian cancer,high grade ovarian serous adenocarcinoma,normalized_equivalent,epigraphdb_trait,common name of the histological type
+Invasive mucinous ovarian cancer,ovarian mucinous adenocarcinoma,normalized_equivalent,epigraphdb_trait,common name of the histological type
+Hippocampus volume,hippocampal volume,exact_equivalent,epigraphdb_trait,the term's label with the noun in place of the adjective
+Iron,serum iron amount,normalized_equivalent,epigraphdb_trait,the snapshot trait is serum iron
+Mean cell haemoglobin concentration,mean corpuscular hemoglobin concentration,exact_equivalent,epigraphdb_trait,the term's label in another spelling and wording of `corpuscular`
+Mean cell haemoglobin,mean corpuscular hemoglobin,exact_equivalent,epigraphdb_trait,the term's label in another spelling and wording of `corpuscular`
+Neo-agreeableness,agreeableness measurement,normalized_equivalent,epigraphdb_trait,NEO personality inventory scale of the trait
+Neo-conscientiousness,conscientiousness measurement,normalized_equivalent,epigraphdb_trait,NEO personality inventory scale of the trait
+Neo-extraversion,extraversion measurement,normalized_equivalent,epigraphdb_trait,NEO personality inventory scale of the trait
+Neo-neuroticism,neuroticism measurement,normalized_equivalent,epigraphdb_trait,NEO personality inventory scale of the trait
+Neo-openness to experience,openness measurement,normalized_equivalent,epigraphdb_trait,NEO personality inventory scale of the trait
+Non-cancer illness code  self-reported: chronic obstructive airways disease or copd,chronic obstructive pulmonary disease,normalized_equivalent,epigraphdb_trait,UK Biobank field wording of the same condition
+Non-cancer illness code  self-reported: gastro-oesophageal reflux (gord)  or  gastric reflux,gastroesophageal reflux disease,normalized_equivalent,epigraphdb_trait,UK Biobank field wording of the same condition
+Non-cancer illness code  self-reported: hayfever or allergic rhinitis,allergic rhinitis,normalized_equivalent,epigraphdb_trait,UK Biobank field wording of the same condition
+Non-cancer illness code  self-reported: high cholesterol,Hypercholesterolemia,normalized_equivalent,epigraphdb_trait,"common name; the term is a phenotype term, the pinned files having no disease term for it"
+Non-cancer illness code  self-reported: hyperthyroidism or thyrotoxicosis,hyperthyroidism,normalized_equivalent,epigraphdb_trait,UK Biobank field wording of the same condition
+Non-cancer illness code  self-reported: hypothyroidism or myxoedema,hypothyroidism,normalized_equivalent,epigraphdb_trait,UK Biobank field wording of the same condition
+Non-cancer illness code  self-reported: kidney stone or ureter stone or bladder stone,urolithiasis,normalized_equivalent,epigraphdb_trait,UK Biobank field wording of the same condition
+Non-cancer illness code  self-reported: mania or bipolar disorder or manic depression,bipolar disorder,normalized_equivalent,epigraphdb_trait,UK Biobank field wording of the same condition
+Non-cancer illness code  self-reported: pernicious anaemia,pernicious anemia,exact_equivalent,epigraphdb_trait,the term's label in another spelling
+Non-cancer illness code  self-reported: polio  or  poliomyelitis,poliomyelitis,normalized_equivalent,epigraphdb_trait,UK Biobank field wording of the same condition
+Non-cancer illness code self-reported: pulmonary embolism (with or without) dvt,pulmonary embolism,normalized_equivalent,epigraphdb_trait,UK Biobank field wording of the same condition
+Packed cell volume,hematocrit,normalized_equivalent,epigraphdb_trait,older name of the hematocrit
+Percent emphysema,emphysema imaging measurement,broader_proxy,epigraphdb_trait,one imaging measure mapped to the general imaging-measurement term
+Pulse rate,heart rate,normalized_equivalent,epigraphdb_trait,the pulse rate is the heart rate measured at the pulse
+Serum creatinine (eGFRcrea),glomerular filtration rate,derived_measurement,epigraphdb_trait,the glomerular filtration rate estimated from serum creatinine
+Sleep duration,sleep duration trait,exact_equivalent,epigraphdb_trait,the term's label without `trait`
+Subjective well being,wellbeing measurement,normalized_equivalent,epigraphdb_trait,wording of the same measurement
+Years of schooling,educational attainment,normalized_equivalent,epigraphdb_trait,the measure of educational attainment used by the source GWAS
+Lung adenocarcinoma,lung adenocarcinoma,exact_equivalent,epigraphdb_trait,the term's own label; ambiguous as written because the label also names an EFO-file term
+Mean cell volume,obsolete_mean corpuscular volume,normalized_equivalent,epigraphdb_trait,"mean cell volume is mean corpuscular volume, whose EFO term is obsolete; resolved through its replacement"
+Mean platelet volume,obsolete_mean platelet volume,exact_equivalent,epigraphdb_trait,the label of the obsolete EFO term; resolved through its replacement
+Potassium in urine,obsolete_urinary potassium measurement,normalized_equivalent,epigraphdb_trait,"wording of urinary potassium measurement, whose EFO term is obsolete; resolved through its replacement"
+Diagnoses - main ICD10: I30 Acute pericarditis,pericarditis,broader_proxy,epigraphdb_trait,the term drops the acuity; the pinned files have no term for acute pericarditis

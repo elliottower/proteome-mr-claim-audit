@@ -1,0 +1,34 @@
+source:
+  citation: nievergelt2019ptsd_main
+  local: sources/nievergelt2019ptsd_main.txt
+  sha256: f3603af5c4da67f8f030bcc0c768f855c7a8935b9a031f55099ee5ea50b48e15
+  url: https://pmc-oa-opendata.s3.amazonaws.com/PMC6783435.1/PMC6783435.1.txt
+  doi: 10.1038/s41467-019-12576-w
+  note: Main text of Nievergelt et al. 2019 Nat Commun 10:4558 (PMC6783435), plain-text file PMC6783435.1.txt
+    from the PMC AWS open-data bucket (pmc-oa-opendata)
+claims:
+  pgc15-without-ukb:
+    quotes:
+    - exact: the PGC2 data without the UK Biobank (referred to as PGC1.5) and the UK Biobank (UKB) by
+        itself, which comprises a large proportion of PGC2
+      section: Results, heritability
+  sixty-cohorts:
+    quotes:
+    - exact: The PGC-PTSD combined data from 60 multi-ethnic cohorts (PGC1.5) and the UK Biobank (PGC2)
+        achieved a sample size of 206,655 participants with 32,428 PTSD cases
+      section: Discussion
+  data-availability:
+    quotes:
+    - exact: The full meta-analyses summary statistics are available for download from the Psychiatric
+        Genomics Consortium at https://www.med.unc.edu/pgc/results-and-downloads/.
+      section: Data availability
+  eua-sumstats:
+    quotes:
+    - exact: Summary statistics for PTSD studies were restricted to the EUA meta-analysis, including UKB
+        subjects (23,212 cases, 151,447 controls)
+      section: Methods, genetic correlation
+  mvp-replication:
+    quotes:
+    - exact: In an attempt to replicate our genomics findings in an adequately-powered external study
+        we used the large MVP cohort
+      section: Results, replication

@@ -1,0 +1,16 @@
+source:
+  citation: emilsson2018ages
+  local: sources/original/emilsson2018ages.xml
+  sha256: c8ac6175cae94dfeb3e012f4a9279ac8fc5fe72c91e2226ad0df439d21b368fd
+  url: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=PMC6190714
+  doi: 10.1126/science.aaq1327
+  note: 'Original file behind claims/emilsson2018ages.yaml: NCBI E-utilities efetch (db=pmc) XML of PMC6190714,
+    read as plain text with its markup. The quotations here are the quotations of that file that resolve
+    in this file under the citations readers; a quotation absent here is pinned to the extracted text
+    there only.'
+claims:
+  platform-custom:
+    quotes:
+    - exact: We designed an expanded custom version of this platform to include proteins known or predicted
+        to be found in the extracellular milieu
+      section: A custom-designed aptamer-based multiplex proteomic platform

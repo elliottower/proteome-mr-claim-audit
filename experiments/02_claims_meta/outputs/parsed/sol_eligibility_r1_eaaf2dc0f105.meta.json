@@ -1,0 +1,25 @@
+{
+ "task": "eligibility",
+ "label": "r1",
+ "revision": "eaaf2dc0f105",
+ "model_requested": "gpt-6.1-sol",
+ "models_returned": [
+  "gpt-6.1-sol"
+ ],
+ "reasoning_effort": "medium",
+ "endpoint": "https://api.openai.com/v1/responses",
+ "abstracts": "prompts/dev_abstracts.jsonl",
+ "n_records": 30,
+ "n_ok": 30,
+ "n_extraction_failed": 0,
+ "n_needed_retry": 0,
+ "usage_new_requests_this_invocation": {
+  "requests": 30,
+  "input_tokens": 34425,
+  "cached_input_tokens": 0,
+  "output_tokens": 3545,
+  "reasoning_tokens": 1074
+ },
+ "started_utc": "2026-09-30T18:55:56.858+00:00",
+ "finished_utc": "2026-09-30T18:56:44.133+00:00"
+}

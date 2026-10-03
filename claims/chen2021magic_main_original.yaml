@@ -1,0 +1,15 @@
+source:
+  citation: chen2021magic_main
+  local: sources/original/chen2021magic_main.xml
+  sha256: 1e62c048a80eb0f3b83b76c481bb8fb6f934b46e02319c235f6e12a63c16da6f
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7610958/fullTextXML
+  doi: 10.1038/s41588-021-00852-9
+  note: 'Original file behind claims/chen2021magic_main.yaml: Europe PMC fullTextXML of PMC7610958, read
+    as plain text with its markup. The quotations here are the quotations of that file that resolve in
+    this file under the citations readers; a quotation absent here is pinned to the extracted text there
+    only.'
+claims:
+  ukb_grs:
+    quotes:
+    - exact: tested the association of each cluster with T2D risk using samples from the UK Biobank
+      section: Methods

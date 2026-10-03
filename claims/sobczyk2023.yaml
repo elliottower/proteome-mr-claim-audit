@@ -1,0 +1,11 @@
+source:
+  citation: sobczyk2023
+  local: sources/sobczyk2023_mr_vs_rct_bmjopen.txt
+  sha256: 7bdbe89c15e42124ac72468345fb24ed93f9ca6a47ad8dbc16d45dc6d257d97a
+  doi: 10.1136/bmjopen-2023-072087
+  note: Sobczyk MK, Zheng J, Davey Smith G, Gaunt TR. BMJ Open 2023. PMC10533809.
+claims:
+  comparisons:
+    quotes:
+    - exact: a series of 26 manual literature comparisons among 54 MR and 77 RCT publications
+      section: Abstract/Results

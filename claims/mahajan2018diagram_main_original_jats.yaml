@@ -1,0 +1,28 @@
+source:
+  citation: mahajan2018diagram_main
+  local: sources/original/mahajan2018diagram_main.xml
+  sha256: 790cbd74d2873fd5159d252c29b8d395b4bf5e5805da27db1caeb016e911ce09
+  url: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=PMC6287706
+  doi: 10.1038/s41588-018-0241-6
+  extractor: jats-text
+  note: 'Original file behind claims/mahajan2018diagram_main.yaml: the XML pinned in claims/mahajan2018diagram_main_original.yaml,
+    read by the citations extractor jats-text. The quotations here are those of that file that resolve
+    in this reading; a quotation absent here stays pinned where it already was.'
+  extractor_version: 1
+  derived_sha256: 45722909e3bb8eaf4d8b36c54f92adadf2260d05c271e3c4eb34bd61361b240e
+claims:
+  n32:
+    quotes:
+    - exact: We considered a total of 74,124 T2D cases and 824,006 controls from 32 GWAS undertaken in
+        individuals of European ancestry (Supplementary Table 1)
+      section: Methods
+  prs_noukb:
+    quotes:
+    - exact: using the GWAS summary statistics from the sex-combined BMI-unadjusted T2D meta-analysis
+        excluding UK Biobank samples
+      section: Methods (polygenic risk scores)
+  availability:
+    quotes:
+    - exact: Summary level data from the exome array component of this project will be made available
+        at the DIAGRAM consortium website
+      section: Data availability

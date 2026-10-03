@@ -1,0 +1,17 @@
+source:
+  citation: pmid29191953
+  local: sources/pmid29191953.txt
+  sha256: 2d8a69311b9ecf8fc417146c23f8777f1bd27cb30363630fd9e7c26118c50faa
+  url: https://pubmed.ncbi.nlm.nih.gov/29191953/
+  note: PubMed abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: In Mendelian randomisation analyses, variants associated with increased serum SP-D levels
+        decreased the risk of COPD (estimate -0.19, p=6.46×10-03) and slowed the lung function decline
+        (estimate=0.0038, p=7.68×10-3).
+  c001:
+    quotes:
+    - exact: In Mendelian randomisation analyses, variants associated with increased serum SP-D levels
+        decreased the risk of COPD (estimate -0.19, p=6.46×10-03) and slowed the lung function decline
+        (estimate=0.0038, p=7.68×10-3).

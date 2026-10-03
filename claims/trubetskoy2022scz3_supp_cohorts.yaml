@@ -1,0 +1,521 @@
+source:
+  citation: trubetskoy2022scz3_supp_cohorts
+  local: sources/trubetskoy2022scz3_supp_cohorts.txt
+  sha256: e95822f8276d16fe4bb4b6add0d9e128d94e144bbb1963f77732891822f6759a
+  doi: 10.1038/s41586-022-04434-5
+  note: Supplementary Information of Trubetskoy et al. 2022 Nature (PMC9392466; Springer ESM 41586_2022_4434_MOESM1_ESM.pdf
+    from static-content.springer.com), converted with pdftotext -layout; section 'Case-control sample
+    descriptions' through 'Control cohorts descriptions' kept verbatim, and the 'Sample Description Table'
+    rewritten one sample per line with cells separated by ' | '
+claims:
+  row-scz_xume2_eur_sr-qc:
+    quotes:
+    - exact: scz_xume2_eur_sr-qc | EUR | OMEX | 595 | 1638 | 2233 | 1152 | 1079 | 2 | 625174
+      section: Supplementary Information, Sample Description Table
+  row-scz_xtop8_eur_sr-qc:
+    quotes:
+    - exact: scz_xtop8_eur_sr-qc | EUR | A6.0 | 377 | 403 | 780 | 364 | 416 | 0 | 694404
+      section: Supplementary Information, Sample Description Table
+  row-scz_to10c_eur_sr-qc:
+    quotes:
+    - exact: scz_to10c_eur_sr-qc | EUR | OMEX | 970 | 5040 | 6010 | 2946 | 3064 | 0 | 605462
+      section: Supplementary Information, Sample Description Table
+  row-scz_eusp2_eur_sr-qc:
+    quotes:
+    - exact: scz_eusp2_eur_sr-qc | EUR | COEX | 338 | 490 | 828 | 291 | 537 | 0 | 360801
+      section: Supplementary Information, Sample Description Table
+  row-scz_celso_eur_sr-qc:
+    quotes:
+    - exact: scz_celso_eur_sr-qc | EUR | PSYC | 2030 | 1517 | 3547 | 1377 | 2170 | 0 | 296859
+      section: Supplementary Information, Sample Description Table
+  row-scz_eutu2_eur_sr-qc:
+    quotes:
+    - exact: scz_eutu2_eur_sr-qc | EUR | COEX | 393 | 690 | 1083 | 513 | 570 | 0 | 292450
+      section: Supplementary Information, Sample Description Table
+  row-scz_geba1_eur_sr-qc:
+    quotes:
+    - exact: scz_geba1_eur_sr-qc | EUR | PSYC | 397 | 703 | 1100 | 578 | 522 | 0 | 225788
+      section: Supplementary Information, Sample Description Table
+  row-scz_sb2aa_eur_sr-qc:
+    quotes:
+    - exact: scz_sb2aa_eur_sr-qc | EUR | OMEX | 250 | 237 | 487 | 179 | 308 | 0 | 479655
+      section: Supplementary Information, Sample Description Table
+  row-scz_xedin_eur_sr-qc:
+    quotes:
+    - exact: scz_xedin_eur_sr-qc | EUR | A6.0 | 368 | 284 | 652 | 239 | 413 | 0 | 686101
+      section: Supplementary Information, Sample Description Table
+  row-scz_xaarh_eur_sr-qc:
+    quotes:
+    - exact: scz_xaarh_eur_sr-qc | EUR | I650 | 883 | 873 | 1756 | 799 | 957 | 0 | 570800
+      section: Supplementary Information, Sample Description Table
+  row-scz_cogs1_eur_sr-qc:
+    quotes:
+    - exact: scz_cogs1_eur_sr-qc | EUR | PSYC | 428 | 476 | 904 | 362 | 542 | 0 | 395587
+      section: Supplementary Information, Sample Description Table
+  row-scz_xpewb_eur_sr-qc:
+    quotes:
+    - exact: scz_xpewb_eur_sr-qc | EUR | I1M | 641 | 1892 | 2533 | 1121 | 1412 | 0 | 730963
+      section: Supplementary Information, Sample Description Table
+  row-scz_xpews_eur_sr-qc:
+    quotes:
+    - exact: scz_xpews_eur_sr-qc | EUR | I1M | 150 | 236 | 386 | 160 | 226 | 0 | 758373
+      section: Supplementary Information, Sample Description Table
+  row-scz_xmsaf_eur_sr-qc:
+    quotes:
+    - exact: scz_xmsaf_eur_sr-qc | EUR | A6.0 | 327 | 139 | 466 | 180 | 286 | 0 | 772796
+      section: Supplementary Information, Sample Description Table
+  row-scz_rouin_eur_sr-qc:
+    quotes:
+    - exact: scz_rouin_eur_sr-qc | EUR | PSYC | 204 | 185 | 389 | 169 | 220 | 0 | 346567
+      section: Supplementary Information, Sample Description Table
+  row-scz_xdubl_eur_sr-qc:
+    quotes:
+    - exact: scz_xdubl_eur_sr-qc | EUR | A6.0 | 272 | 860 | 1132 | 686 | 446 | 0 | 684202
+      section: Supplementary Information, Sample Description Table
+  row-scz_du2aa_eur_sr-qc:
+    quotes:
+    - exact: scz_du2aa_eur_sr-qc | EUR | COEX | 345 | 245 | 590 | 233 | 357 | 0 | 311797
+      section: Supplementary Information, Sample Description Table
+  row-scz_xirwt_eur_sr-qc:
+    quotes:
+    - exact: scz_xirwt_eur_sr-qc | EUR | A6.0 | 1309 | 1022 | 2331 | 893 | 1438 | 0 | 691537
+      section: Supplementary Information, Sample Description Table
+  row-scz_gap1a_eur_sr-qc:
+    quotes:
+    - exact: scz_gap1a_eur_sr-qc | EUR | COEX | 152 | 164 | 334 | 133 | 201 | 0 | 318675
+      section: Supplementary Information, Sample Description Table
+  row-scz_enric_eur_sr-qc:
+    quotes:
+    - exact: scz_enric_eur_sr-qc | EUR | PSYC | 700 | 574 | 1274 | 539 | 735 | 0 | 379548
+      section: Supplementary Information, Sample Description Table
+  row-scz_xgras_eur_sr-qc:
+    quotes:
+    - exact: scz_xgras_eur_sr-qc | EUR | AXI | 1086 | 1232 | 2318 | 829 | 1489 | 0 | 593545
+      section: Supplementary Information, Sample Description Table
+  row-scz_xegcu_eur_sr-qc:
+    quotes:
+    - exact: scz_xegcu_eur_sr-qc | EUR | omni | 239 | 1177 | 1416 | 1037 | 379 | 0 | 610089
+      section: Supplementary Information, Sample Description Table
+  row-scz_xjrsa_eur_sr-qc:
+    quotes:
+    - exact: scz_xjrsa_eur_sr-qc | EUR | I1M | 1181 | 2313 | 3494 | 1728 | 1766 | 0 | 813668
+      section: Supplementary Information, Sample Description Table
+  row-scz_xjr3a_eur_sr-qc:
+    quotes:
+    - exact: scz_xjr3a_eur_sr-qc | EUR | I317 | 362 | 325 | 687 | 332 | 355 | 0 | 277187
+      section: Supplementary Information, Sample Description Table
+  row-scz_xjr3b_eur_sr-qc:
+    quotes:
+    - exact: scz_xjr3b_eur_sr-qc | EUR | I317 | 647 | 639 | 1286 | 682 | 604 | 0 | 282011
+      section: Supplementary Information, Sample Description Table
+  row-scz_xjri6_eur_sr-qc:
+    quotes:
+    - exact: scz_xjri6_eur_sr-qc | EUR | I610 | 260 | 130 | 390 | 202 | 188 | 0 | 479354
+      section: Supplementary Information, Sample Description Table
+  row-scz_price_eur_sr-qc:
+    quotes:
+    - exact: scz_price_eur_sr-qc | EUR | PSYC | 841 | 727 | 1568 | 681 | 887 | 0 | 296858
+      section: Supplementary Information, Sample Description Table
+  row-scz_gawli_eur_sr-qc:
+    quotes:
+    - exact: scz_gawli_eur_sr-qc | EUR | PSYC | 1255 | 1555 | 2810 | 1235 | 1575 | 0 | 287202
+      section: Supplementary Information, Sample Description Table
+  row-scz_xmgs2_eur_sr-qc:
+    quotes:
+    - exact: scz_xmgs2_eur_sr-qc | EUR | A6.0 | 2681 | 2653 | 5334 | 2200 | 3134 | 0 | 653445
+      section: Supplementary Information, Sample Description Table
+  row-scz_mosc2_eur_sr-qc:
+    quotes:
+    - exact: scz_mosc2_eur_sr-qc | EUR | I650 | 410 | 433 | 843 | 401 | 442 | 0 | 543041
+      section: Supplementary Information, Sample Description Table
+  row-scz_xuclo_eur_sr-qc:
+    quotes:
+    - exact: scz_xuclo_eur_sr-qc | EUR | A6.0 | 521 | 494 | 1015 | 434 | 581 | 0 | 281420
+      section: Supplementary Information, Sample Description Table
+  row-kor1:
+    quotes:
+    - exact: kor1 | ASN | Korean BioBank chip (affy) | 688 | 492 | 1180 | 573 | 607 | 0 | 638808
+      section: Supplementary Information, Sample Description Table
+  row-jpn1:
+    quotes:
+    - exact: jpn1 | ASN | A5.0 | 547 | 540 | 1087 | 544 | 543 | 0 | 355120
+      section: Supplementary Information, Sample Description Table
+  row-scz_xersw_eur_sr-qc:
+    quotes:
+    - exact: scz_xersw_eur_sr-qc | EUR | omni | 322 | 332 | 654 | 250 | 404 | 0 | 728357
+      section: Supplementary Information, Sample Description Table
+  row-umc1:
+    quotes:
+    - exact: umc1 | ASN | PSYC | 2328 | 2380 | 4708 | 2176 | 2532 | 0 | 372575
+      section: Supplementary Information, Sample Description Table
+  row-scz_xbuls_eur_sr-qc:
+    quotes:
+    - exact: scz_xbuls_eur_sr-qc | EUR | A6.0 | 195 | 608 | 803 | 422 | 381 | 0 | 697382
+      section: Supplementary Information, Sample Description Table
+  row-msscz_xuktr_eur_sr-qc:
+    quotes:
+    - exact: ms.scz_xuktr_eur_sr-qc | EUR | omni | 70 | 140 | 210 | 85 | 125 | 0 | 605797
+      section: Supplementary Information, Sample Description Table
+  row-msscz_xbutr_eur_sr-qc:
+    quotes:
+    - exact: ms.scz_xbutr_eur_sr-qc | EUR | A6.0 | 741 | 1156 | 1947 | 970 | 977 | 0 | 657466
+      section: Supplementary Information, Sample Description Table
+  row-scz_xlktu_eur_sr-qc:
+    quotes:
+    - exact: scz_xlktu_eur_sr-qc | EUR | A6.0 | 322 | 332 | 654 | 250 | 404 | 0 | 728357
+      section: Supplementary Information, Sample Description Table
+  row-scz_paris_eur_sr-qc:
+    quotes:
+    - exact: scz_paris_eur_sr-qc | EUR | PSYC | 316 | 390 | 706 | 314 | 392 | 0 | 378285
+      section: Supplementary Information, Sample Description Table
+  row-scz_xajsz_eur_sr-qc:
+    quotes:
+    - exact: scz_xajsz_eur_sr-qc | EUR | omni | 896 | 1595 | 2491 | 744 | 1747 | 0 | 761416
+      section: Supplementary Information, Sample Description Table
+  row-scz_xlacw_eur_sr-qc:
+    quotes:
+    - exact: scz_xlacw_eur_sr-qc | EUR | I550 | 157 | 466 | 623 | 51 | 572 | 0 | 512787
+      section: Supplementary Information, Sample Description Table
+  row-msscz_xlemu_eur_sr-qc:
+    quotes:
+    - exact: ms.scz_xlemu_eur_sr-qc | EUR | I650 | 585 | 0 | 1548 | 687 | 861 | 0 | 569126
+      section: Supplementary Information, Sample Description Table
+  row-imh1:
+    quotes:
+    - exact: imh1 | ASN | I1M | 898 | 996 | 1894 | 1197 | 648 | 49 | 973108
+      section: Supplementary Information, Sample Description Table
+  row-imh2:
+    quotes:
+    - exact: imh2 | ASN | I1M | 821 | 956 | 1777 | 937 | 835 | 5 | 861016
+      section: Supplementary Information, Sample Description Table
+  row-xju1:
+    quotes:
+    - exact: xju1 | ASN | Zhonghua-8 | 1902 | 1009 | 2911 | 1224 | 1732 | 0 | 850021
+      section: Supplementary Information, Sample Description Table
+  row-scz_xzhh1_eur_sr-qc:
+    quotes:
+    - exact: scz_xzhh1_eur_sr-qc | EUR | A500 | 191 | 190 | 381 | 161 | 220 | 0 | 264937
+      section: Supplementary Information, Sample Description Table
+  row-scz_mcqul_eur_sr-qc:
+    quotes:
+    - exact: scz_mcqul_eur_sr-qc | EUR | PSYC | 1351 | 1310 | 2661 | 1241 | 1420 | 0 | 282320
+      section: Supplementary Information, Sample Description Table
+  row-scz_braz2_eur_sr-qc:
+    quotes:
+    - exact: scz_braz2_eur_sr-qc | EUR | COEX | 110 | 334 | 444 | 199 | 245 | 0 | 354156
+      section: Supplementary Information, Sample Description Table
+  row-scz_xasrb_eur_sr-qc:
+    quotes:
+    - exact: scz_xasrb_eur_sr-qc | EUR | I650 | 509 | 310 | 819 | 327 | 492 | 0 | 561022
+      section: Supplementary Information, Sample Description Table
+  row-tai1:
+    quotes:
+    - exact: tai1 | ASN | PSYC | 1123 | 2243 | 3366 | 1807 | 1559 | 0 | 332892
+      section: Supplementary Information, Sample Description Table
+  row-tai2:
+    quotes:
+    - exact: tai2 | ASN | PSYC | 593 | 1190 | 1783 | 593 | 1190 | 0 | 327109
+      section: Supplementary Information, Sample Description Table
+  row-scz_viyo1_eur_sr-qc:
+    quotes:
+    - exact: scz_viyo1_eur_sr-qc | EUR | PSYC | 356 | 131 | 487 | 201 | 286 | 0 | 282551
+      section: Supplementary Information, Sample Description Table
+  row-scz_xcaws_eur_sr-qc:
+    quotes:
+    - exact: scz_xcaws_eur_sr-qc | EUR | A500 | 424 | 306 | 730 | 300 | 430 | 0 | 365639
+      section: Supplementary Information, Sample Description Table
+  row-scz_xclm2_eur_sr-qc:
+    quotes:
+    - exact: scz_xclm2_eur_sr-qc | EUR | I1M | 3466 | 4297 | 7763 | 3078 | 4685 | 0 | 429056
+      section: Supplementary Information, Sample Description Table
+  row-scz_xclo3_eur_sr-qc:
+    quotes:
+    - exact: scz_xclo3_eur_sr-qc | EUR | omni | 2150 | 2083 | 4233 | 1638 | 2595 | 0 | 659685
+      section: Supplementary Information, Sample Description Table
+  row-scz_xucla_eur_sr-qc:
+    quotes:
+    - exact: scz_xucla_eur_sr-qc | EUR | I550 | 705 | 637 | 1342 | 499 | 843 | 0 | 520895
+      section: Supplementary Information, Sample Description Table
+  row-scz_xfi3m_eur_sr-qc:
+    quotes:
+    - exact: scz_xfi3m_eur_sr-qc | EUR | I317 | 186 | 930 | 1116 | 542 | 574 | 0 | 287517
+      section: Supplementary Information, Sample Description Table
+  row-scz_xfii6_eur_sr-qc:
+    quotes:
+    - exact: scz_xfii6_eur_sr-qc | EUR | I550 | 361 | 1082 | 1443 | 775 | 668 | 0 | 511059
+      section: Supplementary Information, Sample Description Table
+  row-scz_xport_eur_sr-qc:
+    quotes:
+    - exact: scz_xport_eur_sr-qc | EUR | A6.0 | 346 | 216 | 562 | 269 | 293 | 0 | 344466
+      section: Supplementary Information, Sample Description Table
+  row-scz_gpc2a_eur_sr-qc:
+    quotes:
+    - exact: scz_gpc2a_eur_sr-qc | EUR | PSYC | 1957 | 2062 | 4019 | 1722 | 2297 | 0 | 294169
+      section: Supplementary Information, Sample Description Table
+  row-scz_xcims_eur_sr-qc:
+    quotes:
+    - exact: scz_xcims_eur_sr-qc | EUR | ill | 71 | 69 | 140 | 34 | 106 | 0 | 670122
+      section: Supplementary Information, Sample Description Table
+  row-scz_xboco_eur_sr-qc:
+    quotes:
+    - exact: scz_xboco_eur_sr-qc | EUR | I550 | 1847 | 2170 | 4017 | 2050 | 1967 | 0 | 434891
+      section: Supplementary Information, Sample Description Table
+  row-scz_bep1b:
+    quotes:
+    - exact: scz_bep1b | EUR | GSA | 294 | 573 | 867 | 510 | 357 | 0 | 525759
+      section: Supplementary Information, Sample Description Table
+  row-scz_sanch_eur_sr-qc:
+    quotes:
+    - exact: scz_sanch_eur_sr-qc | EUR | PSYC | 335 | 1209 | 1544 | 693 | 851 | 0 | 296387
+      section: Supplementary Information, Sample Description Table
+  row-scz_xmunc_eur_sr-qc:
+    quotes:
+    - exact: scz_xmunc_eur_sr-qc | EUR | I317 | 437 | 351 | 788 | 340 | 448 | 0 | 305068
+      section: Supplementary Information, Sample Description Table
+  row-uwa1:
+    quotes:
+    - exact: uwa1 | ASN | PSYC | 996 | 1047 | 2043 | 1277 | 764 | 2 | 351136
+      section: Supplementary Information, Sample Description Table
+  row-scz_serri_eur_sr-qc:
+    quotes:
+    - exact: scz_serri_eur_sr-qc | EUR | PSYC | 217 | 238 | 455 | 213 | 242 | 0 | 345297
+      section: Supplementary Information, Sample Description Table
+  row-hku1:
+    quotes:
+    - exact: hku1 | ASN | I610 | 476 | 2018 | 2494 | 992 | 1501 | 1 | 457012
+      section: Supplementary Information, Sample Description Table
+  row-bix1:
+    quotes:
+    - exact: bix1 | ASN | A6.0 | 1047 | 2301 | 3348 | 1453 | 1895 | 0 | 660360
+      section: Supplementary Information, Sample Description Table
+  row-bix2:
+    quotes:
+    - exact: bix2 | ASN | A6.0 | 1021 | 1001 | 2022 | 919 | 1113 | 0 | 672911
+      section: Supplementary Information, Sample Description Table
+  row-bix3:
+    quotes:
+    - exact: bix3 | ASN | A6.0 | 492 | 679 | 1171 | 656 | 515 | 0 | 629614
+      section: Supplementary Information, Sample Description Table
+  row-scz_xaber_eur_sr-qc:
+    quotes:
+    - exact: scz_xaber_eur_sr-qc | EUR | A6.0 | 720 | 699 | 1419 | 435 | 984 | 0 | 373076
+      section: Supplementary Information, Sample Description Table
+  row-scz_xcati_eur_sr-qc:
+    quotes:
+    - exact: scz_xcati_eur_sr-qc | EUR | A500 | 409 | 392 | 801 | 187 | 614 | 0 | 419565
+      section: Supplementary Information, Sample Description Table
+  row-scz_xswe1_eur_sr-qc:
+    quotes:
+    - exact: scz_xswe1_eur_sr-qc | EUR | A5.0 | 221 | 214 | 435 | 208 | 227 | 0 | 387864
+      section: Supplementary Information, Sample Description Table
+  row-scz_xs234_eur_sr-qc:
+    quotes:
+    - exact: scz_xs234_eur_sr-qc | EUR | A6.0 | 2077 | 2341 | 4418 | 1990 | 2428 | 0 | 746747
+      section: Supplementary Information, Sample Description Table
+  row-scz_xswe5_eur_sr-qc:
+    quotes:
+    - exact: scz_xswe5_eur_sr-qc | EUR | omni | 1801 | 2617 | 4418 | 1975 | 2443 | 0 | 642179
+      section: Supplementary Information, Sample Description Table
+  row-scz_xswe6_eur_sr-qc:
+    quotes:
+    - exact: scz_xswe6_eur_sr-qc | EUR | omni | 1094 | 1219 | 2313 | 1062 | 1251 | 0 | 631239
+      section: Supplementary Information, Sample Description Table
+  row-msscz_grtr1_eur_sr-qc:
+    quotes:
+    - exact: ms.scz_grtr1_eur_sr-qc | EUR | COEX | 145 | 290 | 435 | 171 | 264 | 0 | 308001
+      section: Supplementary Information, Sample Description Table
+  row-scz_gro2a_eur_sr-qc:
+    quotes:
+    - exact: scz_gro2a_eur_sr-qc | EUR | COEX | 329 | 277 | 606 | 220 | 386 | 0 | 318633
+      section: Supplementary Information, Sample Description Table
+  row-scz_eu5me_eur_sa-qc:
+    quotes:
+    - exact: scz_eu5me_eur_sa-qc | EUR | COEX | 615 | 182 | 797 | 388 | 408 | 1 | 259434
+      section: Supplementary Information, Sample Description Table
+  row-scz_cgs1c_eur_sr-qc:
+    quotes:
+    - exact: scz_cgs1c_eur_sr-qc | EUR | OMEX | 524 | 3115 | 3639 | 1766 | 1873 | 0 | 539647
+      section: Supplementary Information, Sample Description Table
+  row-scz_xcou3_eur_sr-qc:
+    quotes:
+    - exact: scz_xcou3_eur_sr-qc | EUR | omni | 540 | 693 | 1233 | 557 | 676 | 0 | 700613
+      section: Supplementary Information, Sample Description Table
+  row-scz_clz2a_eur_sr-qc:
+    quotes:
+    - exact: scz_clz2a_eur_sr-qc | EUR | OMEX | 5370 | 6940 | 12310 | 5527 | 6779 | 4 | 556861
+      section: Supplementary Information, Sample Description Table
+  row-scz_xlie5_eur_sr-qc:
+    quotes:
+    - exact: scz_xlie5_eur_sr-qc | EUR | I550 | 509 | 389 | 898 | 335 | 563 | 0 | 495531
+      section: Supplementary Information, Sample Description Table
+  row-scz_xlie2_eur_sr-qc:
+    quotes:
+    - exact: scz_xlie2_eur_sr-qc | EUR | O25 | 137 | 269 | 406 | 184 | 222 | 0 | 1503067
+      section: Supplementary Information, Sample Description Table
+  row-scz_xpfla_eur_sr-qc:
+    quotes:
+    - exact: scz_xpfla_eur_sr-qc | EUR | I550 | 681 | 1174 | 1855 | 856 | 999 | 0 | 471418
+      section: Supplementary Information, Sample Description Table
+  row-scz_xdenm_eur_sr-qc:
+    quotes:
+    - exact: scz_xdenm_eur_sr-qc | EUR | I650 | 492 | 458 | 950 | 396 | 554 | 0 | 555486
+      section: Supplementary Information, Sample Description Table
+  row-cno1-bjm1:
+    quotes:
+    - exact: cno1[bjm1] | ASN | Zhonghua-8 | 1332 | 2036 | 3368 | 1582 | 1786 | 0 | 869413
+      section: Supplementary Information, Sample Description Table
+  table-caption:
+    quotes:
+    - exact: Sample Description Table. Information on the genotyping chip, number of cases and controls
+        with
+      section: Supplementary Information, Sample Description Table
+  asian-samples:
+    quotes:
+    - exact: All fourteen Asian samples (bix1, bix2, bix3, cno1[bjm1], hku1, imh1, imh2, jpn1, kor1, tai1,
+        tai2,
+      section: Supplementary Information, Asian samples
+  ctl-betula:
+    quotes:
+    - exact: Revision (ICD-10)52 criteria. Controls were recruited from the Betula study, an ongoing
+      section: Supplementary Information, Case-control sample descriptions (Adolfsson, scz_xume2)
+  ctl-dnsb:
+    quotes:
+    - exact: Danish Newborn Screening Biobank), with case/control status established using the Danish
+      section: Supplementary Information, Case-control sample descriptions (Borglum, scz_xaarh)
+  ctl-ibts-dublin:
+    quotes:
+    - exact: been previously described73. The controls were recruited, from the same region through the
+        Irish
+      section: Supplementary Information, Case-control sample descriptions (Corvin, scz_xdubl)
+  ctl-ibts-wtccc2:
+    quotes:
+    - exact: was obtained from all participating hospitals and centres. Controls were blood donors from
+        the Irish
+      section: Supplementary Information, Case-control sample descriptions (Corvin, Riley, scz_xirwt)
+  ctl-egcut:
+    quotes:
+    - exact: database. Controls were drawn from a larger pool of genotyped biobank samples by matching
+        on
+      section: Supplementary Information, Case-control sample descriptions (Esko, scz_xegcu)
+  ctl-egcut-jr:
+    quotes:
+    - exact: Esko, T; Li, Q; Malhotra D | J&J and Roche cases, EGCUT controls | scz_xjr3b_eur_sr-qc
+      section: Supplementary Information, Case-control sample descriptions (scz_xjr*)
+  ctl-egcut-jr2:
+    quotes:
+    - exact: Estonian Biobank project (EGCUT)85 and were ancestrally matched with cases from the J&J sample.
+        Data
+      section: Supplementary Information, Case-control sample descriptions (scz_xjr*)
+  ctl-mgs:
+    quotes:
+    - exact: ancestry control sample and ascertainment is described in detail elsewhere87. DNA samples
+        were
+      section: Supplementary Information, Case-control sample descriptions (Gejman, scz_xmgs2)
+  ctl-migen:
+    quotes:
+    - exact: controls were chosen from the Myocardial Infarction Genetics Consortium (MIGen, dbGaP ID
+      section: Supplementary Information, Case-control sample descriptions (Kennedy, Collier, scz_xlktu)
+  ctl-wtccc-xlacw:
+    quotes:
+    - exact: Levinson, D | 22885689 | Six countries, WTCCC controls | scz_xlacw_eur_sr-qc
+      section: Supplementary Information, Case-control sample descriptions (Levinson, scz_xlacw)
+  ctl-ecacc:
+    quotes:
+    - exact: supplemented with DNA from 480 ECACC Human Random Control (HRC) samples obtained from
+      section: Supplementary Information, Case-control sample descriptions (McQuillin, scz_mcqul)
+  ctl-b58c-ukbs-xcaws:
+    quotes:
+    - exact: 1958 British Birth Cohort and a panel of consenting blood donors (UK Blood Service). Samples
+      section: Supplementary Information, Case-control sample descriptions (O'Donovan, Owen, scz_xcaws)
+  ctl-finnish:
+    quotes:
+    - exact: 'several different population-based cohorts: the Finnish Health 2000 survey, the National
+        FINRISK'
+      section: Supplementary Information, Case-control sample descriptions (Palotie, scz_xfi3m, scz_xfii6)
+  ctl-finnish2:
+    quotes:
+    - exact: Study, Northern Finland Birth Cohort (NFBC) and Helsinki Birth Cohort Study (HBCS). For the
+      section: Supplementary Information, Case-control sample descriptions (Palotie, scz_xfi3m, scz_xfii6)
+  ctl-popgen:
+    quotes:
+    - exact: drawn from three population-based epidemiological studies (PopGen)110, the Cooperative Health
+      section: Supplementary Information, Case-control sample descriptions (Rietschel, Rujescu, Nothen,
+        scz_xboco)
+  ctl-kora-hnr:
+    quotes:
+    - exact: Research in the Region of Augsburg (KORA) study111, and the Heinz Nixdorf Recall (HNR)
+      section: Supplementary Information, Case-control sample descriptions (Rietschel, Rujescu, Nothen,
+        scz_xboco)
+  ctl-munich:
+    quotes:
+    - exact: the human subjects protocols. Additional controls were randomly selected from a Munich-based
+      section: Supplementary Information, Case-control sample descriptions (scz_xboco)
+  ctl-catie-mgs:
+    quotes:
+    - exact: by MGS (described above) and gave online informed consent and were fully anonymized. There
+      section: Supplementary Information, Case-control sample descriptions (Sullivan, scz_xcati)
+  ctl-clozuk-wtccc2:
+    quotes:
+    - exact: WTCCC2 control samples (~3,000 from the 1958 British Birth Cohort and ~3,000 samples from
+        the
+      section: Supplementary Information, Case-control sample descriptions (Walters, scz_xclm2, scz_xclo3)
+  ctl-clozuk-ukbs:
+    quotes:
+    - exact: UK Blood Service Control Group). An additional 900 controls, held by Cardiff University,
+        were
+      section: Supplementary Information, Case-control sample descriptions (Walters, scz_xclm2, scz_xclo3)
+  ctl-clozuk-nbts:
+    quotes:
+    - exact: recruited from the UK National Blood Transfusion Service. They were not specifically screened
+        for
+      section: Supplementary Information, Case-control sample descriptions (Walters, scz_xclm2, scz_xclo3)
+  ctl-wtccc2:
+    quotes:
+    - exact: Wellcome Trust Case-Control Consortium unscreened controls from the UK Blood Bank and 1958
+        Birth
+      section: Supplementary Information, Control cohorts descriptions
+  ctl-genscot:
+    quotes:
+    - exact: Samples from individuals recruited by the Generation Scotland Scottish Family Health Study.
+      section: Supplementary Information, Control cohorts descriptions
+  ctl-dbgap:
+    quotes:
+    - exact: 'dbGAP We obtained control genotypes from dbGAP, accession numbers: phs000021.v3.p2,'
+      section: Supplementary Information, Control cohorts descriptions
+  peic-wtccc2:
+    quotes:
+    - exact: The Psychosis Endophenotypes International Consortium (PEIC) was part of WTCCC2. Samples
+      section: Supplementary Information, Case-control sample descriptions (Bramon, scz_xpews, scz_xpewb)
+  aalat-gpc:
+    quotes:
+    - exact: Cases and controls of African-American and Latino ancestry were ascertained from the Genomic
+      section: Supplementary Information, African-American and Latino samples
+  aalat-nimh:
+    quotes:
+    - exact: Schizophrenia (MGS)86,87,134, COGS135, and PAARTNERS136 studies.
+      section: Supplementary Information, African-American and Latino samples
+  decode-sample:
+    quotes:
+    - exact: Stefánsson, K | Iceland (SGENE+, deCODE) | NA
+      section: Supplementary Information, Case-control sample descriptions (deCODE, extended GWAS only)
+  grtr1:
+    quotes:
+    - exact: Van Os, J | Netherlands and Belgium | ms.scz_grtr1_eur_sr-qc
+      section: Supplementary Information, Case-control sample descriptions
+  ctl-pisma:
+    quotes:
+    - exact: control participants from the PISMA study, which has been reported elsewhere71
+      section: Supplementary Information, Case-control sample descriptions (Cervilla, scz_sanch)
+  ctl-pfizer:
+    quotes:
+    - exact: The controls (A9011027) were recruited in a multi-site, cross-sectional
+      section: Supplementary Information, Case-control sample descriptions (Paciga, scz_xpfla)
+  decode-nonicelandic:
+    quotes:
+    - exact: Stefánsson, K | Non-Icelandic (SGENE+, deCODE) | NA
+      section: Supplementary Information, Case-control sample descriptions (deCODE, extended GWAS only)
+  decode-nonicelandic-countries:
+    quotes:
+    - exact: Psychiatric disorders. The non-Icelandic sample included cases and controls from Hungary,
+        Italy,
+      section: Supplementary Information, Case-control sample descriptions (deCODE)

@@ -1,0 +1,22 @@
+source:
+  citation: png2021helic
+  local: sources/png2021helic.txt
+  sha256: 187f0a326c76ed8431cec4741d604405b14bc2181d52ebd5ad07275efb30797f
+  doi: 10.1038/s41467-021-27387-1
+  note: Full text from Europe PMC fullTextXML (PMC8640022), tags stripped, one title or paragraph per
+    line. Png G et al. 2021 Nat Commun (Mapping the serum proteome to neurological diseases using whole
+    genome sequencing). PMID 34857772.
+claims:
+  platform-two-panels:
+    quotes:
+    - exact: Proteins from Olink’s (https://www.olink.com) Neurology and Neuro-exploratory panels were
+        measured in the serum of 1457 MANOLIS and 1611 Pomak samples.
+      section: 'Methods: Proteomics and QC'
+  list-184:
+    quotes:
+    - exact: The full list of 184 proteins is provided in Supplementary Data 8.
+      section: 'Methods: Proteomics and QC'
+  all-included:
+    quotes:
+    - exact: We included all proteins and all below-LOD NPX values in our analysis.
+      section: 'Methods: Proteomics and QC'

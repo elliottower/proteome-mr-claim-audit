@@ -1,0 +1,26 @@
+source:
+  citation: chen2026llmreview
+  local: sources/original/chen2026llmreview.xml
+  sha256: a0f060c723b481bd18ba9dbbb7f608fdc1cbc9970ee3da8564771b8323d3f6b2
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13004689/fullTextXML
+  doi: 10.1038/s41591-026-04229-5
+  note: 'Original file behind claims/chen2026llmreview.yaml: Europe PMC fullTextXML of PMC13004689, read
+    as plain text with its markup. The quotations here are the quotations of that file that resolve in
+    this file under the citations readers; a quotation absent here is pinned to the extracted text there
+    only.'
+claims:
+  validation:
+    quotes:
+    - exact: We validate and compute statistical bounds on the results of this automated review by comparison
+        to ground truth, unseen human-labeled screening data.
+      section: Introduction
+  sens-spec:
+    quotes:
+    - exact: we found high sensitivity (0.911; 95% CI 0.866–0.952) and specificity (0.921; 95% CI 0.892–0.949)
+        for inclusion and exclusion
+      section: Results
+  abstract-limit:
+    quotes:
+    - exact: the automated analysis was performed on the title and abstract of a given work, rather than
+        the full text
+      section: Discussion

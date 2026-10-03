@@ -1,0 +1,25 @@
+{
+ "task": "extraction",
+ "label": "smoke_pre2019_20261002_chase1_repeat",
+ "revision": "0b97103cd7a4",
+ "model_requested": "gpt-6.1-sol",
+ "models_returned": [
+  "gpt-6.1-sol"
+ ],
+ "reasoning_effort": "medium",
+ "endpoint": "https://api.openai.com/v1/responses",
+ "abstracts": "outputs/parsed/sol_eligibility_smoke_pre2019_20261002_chase1_2811496ef424.decisions.repeat_sample.jsonl",
+ "n_records": 1,
+ "n_ok": 1,
+ "n_extraction_failed": 0,
+ "n_needed_retry": 0,
+ "usage_new_requests_this_invocation": {
+  "requests": 1,
+  "input_tokens": 2794,
+  "cached_input_tokens": 2791,
+  "output_tokens": 757,
+  "reasoning_tokens": 199
+ },
+ "started_utc": "2026-10-02T20:10:48.373+00:00",
+ "finished_utc": "2026-10-02T20:11:04.382+00:00"
+}

@@ -1,0 +1,23 @@
+source:
+  citation: aragam2022cad_main
+  local: sources/original/aragam2022cad_main.xml
+  sha256: 67b694e3c9e3d7400e08d5efca955b35a026cf416f8bf1db548c2cbe8356288c
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9729111/fullTextXML
+  doi: 10.1038/s41588-022-01233-6
+  note: 'Original file behind claims/aragam2022cad_main.yaml: Europe PMC fullTextXML of PMC9729111, read
+    as plain text with its markup. The quotations here are the quotations of that file that resolve in
+    this file under the citations readers; a quotation absent here is pinned to the extracted text there
+    only.'
+claims:
+  design:
+    quotes:
+    - exact: we analyzed imputed data from nine studies not previously included in genome-wide association
+        study (GWAS) meta-analyses (86,847 cases and 417,789 controls) and combined results with data
+        from UK Biobank, the CARDIoGRAMplusC4D Consortium and Biobank Japan, achieving a total sample
+        of 210,842 CAD cases among 1,378,170 participants
+      section: Introduction
+  bbj-meta:
+    quotes:
+    - exact: we meta-analyzed the Biobank Japan summary statistics with the current analysis, yielding
+        38 additional new loci at genome-wide significance
+      section: Results

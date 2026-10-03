@@ -1,0 +1,19 @@
+source:
+  citation: suhre2017kora
+  local: sources/original/suhre2017kora.xml
+  sha256: f58e69b9bfc65f07000f425b1958dd20faae30fad45661ae519cdad84caa2624
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5333359/fullTextXML
+  doi: 10.1038/ncomms14357
+  note: 'Original file behind claims/suhre2017kora.yaml: Europe PMC fullTextXML of PMC5333359, read as
+    plain text with its markup. The quotations here are the quotations of that file that resolve in this
+    file under the citations readers; a quotation absent here is pinned to the extracted text there only.'
+claims:
+  platform-v3-2:
+    quotes:
+    - exact: Data for 1,129 SOMAmer probes (SOMAscan assay V3.2) was obtained for these samples.
+      section: 'Methods: Proteomics measurements'
+  kora-f4:
+    quotes:
+    - exact: For this study, 1,000 individuals were randomly selected from a subset of 1,800 already deeply
+        phenotyped KORA F4 study participants
+      section: 'Methods: Study population'

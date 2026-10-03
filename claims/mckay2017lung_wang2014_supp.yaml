@@ -1,0 +1,16 @@
+source:
+  citation: mckay2017lung_wang2014_supp
+  local: sources/mckay2017lung_wang2014_supp.txt
+  sha256: 3a0edf73dd43cf80ec6e320fce0bf7bd7ba7663bac5523156a2c38c35965c1a7
+  doi: 10.1038/ng.3002
+  note: Supplementary PDF (NIHMS58504-supplement-1.pdf) of Wang et al. 2014 Nat Genet from Europe PMC
+    supplementaryFiles zip for PMC4074058, converted with pdftotext -layout
+claims:
+  st1a-counts:
+    quotes:
+    - exact: ALL 2,533 3,791 1,150 1,134 5,713 5,736 1,952 5,200 1,319 26,380 984 970
+      section: Supplementary Table 1 (a) Study participants
+  hunt-tromso:
+    quotes:
+    - exact: North Trondelag Health Study 2 / Tromsø IV
+      section: Supplementary Table 1 footnote 3

@@ -1,0 +1,42 @@
+{
+ "description": "Keyword prefilter term lists (scripts/keyword_prefilter.py): the title-and-abstract terms of the registered query blocks. genetic = MR, GEN, LOCUS; protein = PROT, PQTLB. A list is an AND group.",
+ "terms": {
+  "genetic": [
+   "Mendelian randomization",
+   "Mendelian randomisation",
+   "pQTL",
+   "pQTLs",
+   "protein quantitative trait*",
+   "genetically predicted",
+   "genetically proxied",
+   "cis-MR",
+   "summary-data-based Mendelian randomization",
+   "SMR",
+   "colocali*",
+   "cis Mendelian randomization"
+  ],
+  "protein": [
+   "proteome-wide",
+   "proteome wide",
+   "protein-wide",
+   "proteomic*",
+   "plasma proteom*",
+   "circulating proteom*",
+   "plasma protein*",
+   "serum protein*",
+   "circulating protein*",
+   "pQTL",
+   "pQTLs",
+   "protein quantitative trait*",
+   "protein QTL*",
+   "genetically proxied protein*",
+   "genetically predicted protein*",
+   "genetically predicted plasma protein*",
+   [
+    "plasma",
+    "protein*"
+   ],
+   "proteom*"
+  ]
+ }
+}

@@ -1,0 +1,21 @@
+source:
+  citation: katz2022jhs
+  local: sources/katz2022jhs.txt
+  sha256: a046927e6d3e514669b79e3d0f57c3b2d2e206ca5efb60837e5d863c8874ecfb
+  doi: 10.1161/CIRCULATIONAHA.121.055117
+  note: Full text from NCBI efetch db=pmc (PMC9158509), tags stripped, one title or paragraph per line.
+    Katz DH et al. 2022 Circulation (Whole Genome Sequence Analysis of the Plasma Proteome in Black Adults
+    Provides Novel Insights into Cardiovascular Disease), author manuscript. PMID 34814699.
+claims:
+  profiling:
+    quotes:
+    - exact: Proteomic profiling by SomaScan® (aptamer-based affinity platform) and Olink® (antibody-based
+        affinity platform) have been described previously.6,15 Please see Supplemental Methods for further
+        details.
+      section: 'Methods: Proteomic Profiling'
+  measures-1301:
+    quotes:
+    - exact: We performed whole genome association analysis between 28.1 million variants with an allele
+        count in JHS of at least 5 and 1,301 plasma protein measures in 1852 self-identified Black individuals
+        (61% women).
+      section: 'Results: Whole genome association analysis of proteomic profiling'

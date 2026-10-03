@@ -1,0 +1,49 @@
+source:
+  citation: finngen_docs_r12_cohort_description
+  local: sources/finngen_docs_r12_cohort_description.txt
+  sha256: 2323ee590e42bfb7adceeecfc6d266cf55a320cede8f951b715846d7eee6ff55
+  url: https://finngen.gitbook.io/documentation/r12/methods/cohort-description.md
+  note: FinnGen public documentation, R12 Methods > Participating biobanks/cohorts page, markdown from
+    https://finngen.gitbook.io/documentation/r12/methods/cohort-description.md, retrieved 2026-09-30,
+    unmodified.
+claims:
+  arctic:
+    quotes:
+    - exact: '[Arctic Biobank]'
+      section: Participating biobanks/cohorts
+  auria:
+    quotes:
+    - exact: '[Auria Biobank]'
+      section: Participating biobanks/cohorts
+  borealis:
+    quotes:
+    - exact: '[Biobank Borealis of Northern Finland]'
+      section: Participating biobanks/cohorts
+  eastern:
+    quotes:
+    - exact: '[Biobank of Eastern Finland]'
+      section: Participating biobanks/cohorts
+  central:
+    quotes:
+    - exact: '[Central Finland Biobank]'
+      section: Participating biobanks/cohorts
+  bloodservice:
+    quotes:
+    - exact: '[Finnish Red Cross Blood Service Biobank]'
+      section: Participating biobanks/cohorts
+  tampere:
+    quotes:
+    - exact: '[Finnish Clinical Biobank Tampere]'
+      section: Participating biobanks/cohorts
+  helsinki:
+    quotes:
+    - exact: '[Helsinki Biobank]'
+      section: Participating biobanks/cohorts
+  terveystalo:
+    quotes:
+    - exact: '[Terveystalo Biobank]'
+      section: Participating biobanks/cohorts
+  thl:
+    quotes:
+    - exact: '[THL Biobank]'
+      section: Participating biobanks/cohorts

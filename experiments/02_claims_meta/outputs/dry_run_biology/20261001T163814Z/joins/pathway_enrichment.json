@@ -1,0 +1,53 @@
+{
+ "inputs": "/tmp/dry/inputs",
+ "window": "confirmatory",
+ "claim_records": 13,
+ "resources": {
+  "ontology_edges": "/tmp/dry/resources/ontology_edges.csv",
+  "category_anchors": "/tmp/dry/resources/anchors.csv",
+  "assay_lists": "/tmp/dry/resources/assay_lists.csv",
+  "attachments": "/tmp/dry/resources/attachments.csv",
+  "reactome": "/tmp/dry/resources/UniProt2Reactome.txt",
+  "snapshot_estimates": "/tmp/dry/resources/mrres_estimates.jsonl",
+  "protein_mapping": "/tmp/dry/resources/protein_mapping.csv",
+  "trait_mapping": "/tmp/dry/resources/trait_mapping.csv",
+  "locus_list": "/tmp/dry/resources/loci.csv"
+ },
+ "written_utc": "2026-10-01T16:38:15+00:00",
+ "claims": 13,
+ "claims_by_enrichment_state": {
+  "enters_enrichment": 6,
+  "not_causal_or_target": 4,
+  "platform_not_stated": 1,
+  "no_pinned_assay_list": 2
+ },
+ "registry_proteins": 5,
+ "registry_proteins_with_a_pathway": 5,
+ "primary": {
+  "syn_olink": {
+   "background": 20,
+   "claimed": 2,
+   "claimed_outside_background": 0,
+   "background_with_a_pathway": 20,
+   "pathways_tested": 2,
+   "pathways_dropped_by_size": 0
+  },
+  "syn_soma": {
+   "background": 20,
+   "claimed": 2,
+   "claimed_outside_background": 0,
+   "background_with_a_pathway": 19,
+   "pathways_tested": 1,
+   "pathways_dropped_by_size": 1
+  }
+ },
+ "secondary_pooled_open_to_platform_composition_confounding": {
+  "background": 22,
+  "claimed": 3,
+  "claimed_outside_background": 0,
+  "background_with_a_pathway": 21,
+  "pathways_tested": 2,
+  "pathways_dropped_by_size": 0
+ },
+ "density_cells": 8
+}

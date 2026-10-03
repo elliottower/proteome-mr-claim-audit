@@ -1,0 +1,77 @@
+{
+ "label": "smoke_pre2019_20261002",
+ "rerun_label": "smoke_pre2019_20261002_no_abstract_rule",
+ "requests_made": 0,
+ "model_calls": 0,
+ "floor_characters": 200,
+ "before": {
+  "screening_records": 115,
+  "no_abstract_records": 0,
+  "records_sent_to_gpt_6_1_sol": 115,
+  "eligibility_decisions": {
+   "eligible_count_not_stated": 1,
+   "ineligible": 110,
+   "uncertain": 4
+  },
+  "records_to_extraction": 5,
+  "chase_round_1_marked": 86,
+  "chase_round_1_gate_sampled": 86,
+  "chase_round_1_gate_positives": 3,
+  "chase_round_1_gate_positive_ids": [
+   "16325682",
+   "29966350",
+   "W4406537262"
+  ],
+  "chase_round_1_gate_upper_bound_one_sided_95": 0.0876939304487041,
+  "chase_round_1_gate_stopping_reason": "every_marked_record_sampled",
+  "eligible_families": 5,
+  "eligible_no_named_claims": 4,
+  "claim_records": 3,
+  "claims_entering_the_registry": 3,
+  "round_2_seeds": 4
+ },
+ "after": {
+  "screening_records": 115,
+  "no_abstract_records": 3,
+  "records_sent_to_gpt_6_1_sol": 112,
+  "eligibility_decisions": {
+   "eligible_count_not_stated": 1,
+   "ineligible": 110,
+   "uncertain": 1
+  },
+  "records_to_extraction": 2,
+  "chase_round_1_marked": 83,
+  "chase_round_1_gate_sampled": 83,
+  "chase_round_1_gate_positives": 0,
+  "chase_round_1_gate_positive_ids": [],
+  "chase_round_1_gate_upper_bound_one_sided_95": 0.035449568145885055,
+  "chase_round_1_gate_stopping_reason": "every_marked_record_sampled",
+  "eligible_families": 2,
+  "eligible_no_named_claims": 1,
+  "claim_records": 3,
+  "claims_entering_the_registry": 3,
+  "round_2_seeds": 1
+ },
+ "no_abstract_after": {
+  "floor_characters": 200,
+  "smoke_pre2019_20261002_no_abstract_rule": {
+   "records": 0,
+   "empty": 0,
+   "stub_below_floor": 0,
+   "by_document_class": {},
+   "title_holds_both_term_groups": 0,
+   "title_holds_both_term_groups_record_ids": []
+  },
+  "chase_round_1": {
+   "records": 3,
+   "empty": 2,
+   "stub_below_floor": 1,
+   "by_document_class": {
+    "journal": 3
+   },
+   "title_holds_both_term_groups": 0,
+   "title_holds_both_term_groups_record_ids": []
+  }
+ },
+ "records_first_public_after_2018_left_out_of_the_round": 1
+}

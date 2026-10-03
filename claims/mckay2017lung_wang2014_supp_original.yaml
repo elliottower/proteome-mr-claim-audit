@@ -1,0 +1,18 @@
+source:
+  citation: mckay2017lung_wang2014_supp
+  local: sources/original/mckay2017lung_wang2014_supp.pdf
+  sha256: 822c9532e306519ee1e7c748252636124a6e8fa2d45d5054ff23f7d59d6d8370
+  url: https://pmc-oa-opendata.s3.amazonaws.com/PMC4074058.1/NIHMS58504-supplement-1.pdf
+  doi: 10.1038/ng.3002
+  note: 'Original file behind claims/mckay2017lung_wang2014_supp.yaml: NIHMS58504-supplement-1.pdf from
+    the PMC open-data bucket. The quotations here are the quotations of that file that resolve in this
+    file under the citations readers; a quotation absent here is pinned to the extracted text there only.'
+claims:
+  st1a-counts:
+    quotes:
+    - exact: ALL 2,533 3,791 1,150 1,134 5,713 5,736 1,952 5,200 1,319 26,380 984 970
+      section: Supplementary Table 1 (a) Study participants
+  hunt-tromso:
+    quotes:
+    - exact: North Trondelag Health Study 2 / Tromsø IV
+      section: Supplementary Table 1 footnote 3

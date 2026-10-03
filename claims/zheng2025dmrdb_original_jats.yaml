@@ -1,0 +1,23 @@
+source:
+  citation: zheng2025dmrdb
+  local: sources/original/zheng2025dmrdb.xml
+  sha256: 8b9f8f10a830d51517d681132c48215740bed2932514f8de0a2a6f634661aeea
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11701675/fullTextXML
+  doi: 10.1093/nar/gkae853
+  extractor: jats-text
+  note: 'Original file behind claims/zheng2025dmrdb.yaml: the XML pinned in claims/zheng2025dmrdb_original.yaml,
+    read by the citations extractor jats-text. The quotations here are those of that file that resolve
+    in this reading; a quotation absent here stays pinned where it already was.'
+  extractor_version: 1
+  derived_sha256: 4fd40031bd88986e4c732ff0294d7c782ba85ea866abb251addeaa9b19e500bf
+claims:
+  literature:
+    quotes:
+    - exact: over 380 000 causal relationship pairs from 1223 literature sources relevant to MR analyses
+      section: Abstract
+  pqtl-lit:
+    quotes:
+    - exact: including 1057 publications on MR studies on causal relationships between diseases and 166
+        MR studies on eQTL/pQTL relationships between diseases, resulting in >380 thousand pairs of causal
+        relationships
+      section: Database content and usage, Schematic overview

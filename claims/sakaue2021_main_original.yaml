@@ -1,0 +1,39 @@
+source:
+  citation: sakaue2021_main
+  local: sources/original/sakaue2021_main.xml
+  sha256: 8781bcd448659302ec07b2e39a3ae717871d2c999518c0f9db0321220bb9fff8
+  url: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=PMC12208603
+  doi: 10.1038/s41588-021-00931-x
+  note: 'Original file behind claims/sakaue2021_main.yaml: NCBI E-utilities efetch (db=pmc) XML of PMC12208603,
+    read as plain text with its markup. The quotations here are the quotations of that file that resolve
+    in this file under the citations readers; a quotation absent here is pinned to the extracted text
+    there only.'
+claims:
+  bbj-12-institutions:
+    quotes:
+    - exact: BBJ is a prospective biobank that collaboratively collected DNA and serum samples from 12
+        medical institutions in Japan
+      section: 'Methods: GWAS of 220 traits in BBJ'
+  bbj-n:
+    quotes:
+    - exact: we analyzed 178,726 participants of East Asian ancestry
+      section: 'Methods: GWAS of 220 traits in BBJ'
+  ukb-finngen-gwas:
+    quotes:
+    - exact: We conducted the GWASs harmonized with BBJ in UKB and in FinnGen.
+      section: Methods
+  finngen-r3:
+    quotes:
+    - exact: For GWASs, we used the summary statistics of FinnGen release 3 data
+      section: Methods
+  meta-procedure:
+    quotes:
+    - exact: First, we performed intra-European meta-analysis when summary statistics of both UKB and
+        FinnGen were available, and then performed cross-population meta-analysis across three or two
+        cohorts
+      section: 'Methods: Meta-analysis'
+  release:
+    quotes:
+    - exact: The summary statistics of GWASs in this study (BioBank Japan, European, and cross-population
+        meta-analyses) are also deposited at the National Bioscience Database Center (NBDC) Human Database
+      section: Data availability

@@ -1,0 +1,50 @@
+{
+ "extraction": "outputs/parsed/sol_extraction_r2_826f3bd1ebb9.jsonl",
+ "reference_releases": {
+  "hgnc": "2026-09-04",
+  "uniprot": "2026_03",
+  "mondo": "v2026-09-01",
+  "efo": "v3.94.0"
+ },
+ "reference_sha256": {
+  "hgnc": "6f43d6ff43aa9fdfa5fb2f20a20a7cace66e6e02e2a0dcf19d9b726e2e248d20",
+  "uniprot": "8a9fda6847b0e8995f9f47626e6f829bf8640aabcd8ff746b95da1951130f29a",
+  "mondo": "50c8367f9bd9978321eedf84d4e2e79cb757efbed514c81effb00b9ad2e49994",
+  "efo": "1f7bdc48b91c17cd98742d8c0fca77d576d4d74998efd643e51b1b49602ca49c"
+ },
+ "lexicon": "verification/direction_lexicon.json",
+ "dataset_dictionary": null,
+ "n_claims": 69,
+ "span_pass": 69,
+ "protein_check": {
+  "pass": 61,
+  "protein_unmapped": 4,
+  "protein_not_in_span": 4
+ },
+ "protein_ambiguous_multiple_hgnc": 3,
+ "outcome_check": {
+  "outcome_unmapped": 23,
+  "pass": 45,
+  "outcome_not_in_span": 1
+ },
+ "direction_check": {
+  "not_applicable": 19,
+  "agrees": 21,
+  "direction_unverified": 29
+ },
+ "direction_check_among_directional_claims": {
+  "agrees": 21,
+  "direction_unverified": 29
+ },
+ "dataset_names": {
+  "no_dictionary": 20
+ },
+ "enters_registry": 40,
+ "enters_direction_results": 12,
+ "first_failure": {
+  "outcome_unmapped": 20,
+  "protein_unmapped": 4,
+  "outcome_not_in_span": 1,
+  "protein_not_in_span": 4
+ }
+}

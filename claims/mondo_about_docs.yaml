@@ -1,0 +1,13 @@
+source:
+  citation: mondo_about_docs
+  local: sources/mondo_about.txt
+  sha256: 4a96c05d20cf7cdf665935e17378a22203b095fa4ffde303cf73ad3ff96dadc0
+  url: https://mondo.readthedocs.io/en/stable/
+  note: Mondo documentation "About Mondo", mondo.readthedocs.io/en/stable/, retrieved 2026-09-30, tags
+    stripped.
+claims:
+  equivalence:
+    quotes:
+    - exact: It curated precise 1:1 equivalence axioms connecting to other resources, validated by OWL
+        reasoning.
+      section: About Mondo

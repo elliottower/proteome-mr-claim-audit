@@ -1,0 +1,26 @@
+source:
+  citation: nibali2026
+  local: sources/nibali2026.raw.txt
+  sha256: 07ffc11ec3afe9e613d04e04b21ae40ab15f21d1187739ac12c5ad530c6fdce5
+  doi: 10.1111/jre.70168
+  note: 'Publisher PDF via OpenAlex content endpoint (CC BY), pdftotext. Nibali L, Kang J, Haworth S,
+    Polizzi A, Isola G. Pharmacological Targets for Periodontitis: A Systematic Review of Drug-Target
+    Mendelian Randomisation Studies. J Periodontal Res 2026. PMID 42683821.'
+claims:
+  n-15:
+    quotes:
+    - exact: Fifteen MR studies published between 2023 and 2026 were included.
+      section: Abstract, Results
+  q3-three:
+    quotes:
+    - exact: Exclusion restriction (Q3) was rated Low in only three studies
+      section: Results, risk of bias
+  search-terms:
+    quotes:
+    - exact: The search combined terms related to periodontitis, Mendelian randomisation methodology,
+        and drug-­target prioritisation
+      section: 2.3 Search Methods
+  designs-iii:
+    quotes:
+    - exact: explicitly designed to identify potential therapeutic targets
+      section: 2.2 Eligibility Criteria, design (iii) proteome-wide cis-pQTL analyses

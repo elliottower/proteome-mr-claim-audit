@@ -1,0 +1,49 @@
+source:
+  citation: michailidou2017bcac_main
+  local: sources/original/michailidou2017bcac_main.xml
+  sha256: 7b30f8fabb0c4bf4db19dd108f5362654fe85f46bdbf18c80aa07e8e2ab15c56
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5798588/fullTextXML
+  doi: 10.1038/nature24284
+  extractor: jats-text
+  note: 'Original file behind claims/michailidou2017bcac_main.yaml: the XML pinned in claims/michailidou2017bcac_main_original.yaml,
+    read by the citations extractor jats-text. The quotations here are those of that file that resolve
+    in this reading; a quotation absent here stays pinned where it already was.'
+  extractor_version: 1
+  derived_sha256: 1f04cf4eede084269c39c8bb65285368525453ae9faa9e3a01ea7dd457331ce2
+claims:
+  design_three_components:
+    quotes:
+    - exact: We combined these results with results from the iCOGS project (46,785 cases and 42,892 controls)
+        2 and 11 other breast cancer GWAS (14,910 cases, 17,588 controls), using a fixed-effect meta-analysis.
+      section: Main text, first results paragraph
+  oncoarray_68_studies:
+    quotes:
+    - exact: Subjects came from 68 studies collaborating in the Breast Cancer Association Consortium (BCAC)
+        and Discovery, Biology and Risk of Inherited Variants in Breast Cancer Consortium (DRIVE) ( Supplementary
+        Table 1 ).
+      section: Main text
+  details_elsewhere:
+    quotes:
+    - exact: Details of the studies and genotype calling and quality control (QC) for the iCOGS and eleven
+        other GWAS are described elsewhere 2 , 20 .
+      section: 'Online Methods: Study participants'
+  oncoarray_78_studies:
+    quotes:
+    - exact: Seventy-eight studies participated in the breast cancer component of the OncoArray, of which
+        67 studies contributed European ancestry data and 12 contributed Asian ancestry data (one study,
+        NBCS, was excluded as there were no controls from Norway) ( Supplementary Table 1 ).
+      section: 'Online Methods: Study participants'
+  european_total:
+    quotes:
+    - exact: 122,977 cases and 105,974 controls of European ancestry and 14,068 cases and 13,104 controls
+        of East Asian ancestry
+      section: Main text
+  asian_analysis:
+    quotes:
+    - exact: We also assessed the association with breast cancer in Asians including 7,799 cases and 6,480
+        controls from the OncoArray project and 6,269 cases and 6,624 controls from iCOGS.
+      section: Main text
+  summary_results:
+    quotes:
+    - exact: Summary results for all variants are available at http://bcac.ccge.medschl.cam.ac.uk/ .
+      section: Data availability

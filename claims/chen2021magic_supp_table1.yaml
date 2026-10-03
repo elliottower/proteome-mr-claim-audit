@@ -1,0 +1,533 @@
+source:
+  citation: chen2021magic_supp_table1
+  local: sources/chen2021magic_supp_table1.txt
+  sha256: 9d7327d269be5a2dd94f7f2d4a643f2977bb79fd5caa67db06a54903183f459a
+  doi: 10.1038/s41588-021-00852-9
+  note: Supplementary Table 1 (contributing cohorts) of Chen et al. 2021 Nat Genet, EMS120610-supplement-Supplementary_Tables.xlsx
+    sheet 'S1-Cohort Table' from the Europe PMC supplementaryFiles zip for PMC7610958, converted with
+    openpyxl, one row per line, cells separated by ' | '
+claims:
+  c_uganda_gpc:
+    quotes:
+    - exact: '| Uganda | African'
+      section: Supplementary Table 1 (contributing cohorts)
+  c_aric:
+    quotes:
+    - exact: '| Athersclerosis Risk in Communities (ARIC) | American American'
+      section: Supplementary Table 1 (contributing cohorts)
+  c_biome:
+    quotes:
+    - exact: '| BioMe | African Ancestry'
+      section: Supplementary Table 1 (contributing cohorts)
+  c_chs:
+    quotes:
+    - exact: '| Cardiovascular Health Study (CHS) | African Americans'
+      section: Supplementary Table 1 (contributing cohorts)
+  c_cfs:
+    quotes:
+    - exact: '| Cleveland Family Study (CFS) | African Americans'
+      section: Supplementary Table 1 (contributing cohorts)
+  c_famhs:
+    quotes:
+    - exact: '| Family Heart Study (FamHS) | African Americans'
+      section: Supplementary Table 1 (contributing cohorts)
+  c_genestar:
+    quotes:
+    - exact: '| GeneSTAR | African American'
+      section: Supplementary Table 1 (contributing cohorts)
+  c_genoa:
+    quotes:
+    - exact: '| Genetic Epidemiology Network of Arteriopathy (GENOA) | African Americans'
+      section: Supplementary Table 1 (contributing cohorts)
+  c_handls:
+    quotes:
+    - exact: '| Healthy Aging in Neighborhoods of Diversity across the Life Span (HANDLS)'
+      section: Supplementary Table 1 (contributing cohorts)
+  c_jhs:
+    quotes:
+    - exact: '| Jackson Heart Study (JHS)'
+      section: Supplementary Table 1 (contributing cohorts)
+  c_mesa:
+    quotes:
+    - exact: '| Multi-Ethnic Study of Atherosclerosis (MESA) | African Americans'
+      section: Supplementary Table 1 (contributing cohorts)
+  c_whi:
+    quotes:
+    - exact: '| Women''s Health Initiative (WHI)'
+      section: Supplementary Table 1 (contributing cohorts)
+  c_aasc:
+    quotes:
+    - exact: '| Anti-Aging Study Cohort (AASC)'
+      section: Supplementary Table 1 (contributing cohorts)
+  c_bes:
+    quotes:
+    - exact: '| Beijing Eye Study (BES) Illumina OmniExpress'
+      section: Supplementary Table 1 (contributing cohorts)
+  c_cage_gwas:
+    quotes:
+    - exact: '| Cardiometabolic Genome Epidemiology 1 (CAGE-GWAS1)'
+      section: Supplementary Table 1 (contributing cohorts)
+  c_cage_king:
+    quotes:
+    - exact: '| Cardiometabolic Genome Epidemiology Kita-Nagoya Genomic Quad (CAGE-KING-Quad)'
+      section: Supplementary Table 1 (contributing cohorts)
+  c_clhns:
+    quotes:
+    - exact: '| Cebu Longitudinal Health and Nutrition Survey (CLHNS)'
+      section: Supplementary Table 1 (contributing cohorts)
+  c_chns:
+    quotes:
+    - exact: '| China Health and Nutrition Survey (CHNS)'
+      section: Supplementary Table 1 (contributing cohorts)
+  c_kare:
+    quotes:
+    - exact: '| Korean Association Resource (KARE)'
+      section: Supplementary Table 1 (contributing cohorts)
+  c_living_biobank:
+    quotes:
+    - exact: '| Living Biobank | East Asian Chinese'
+      section: Supplementary Table 1 (contributing cohorts)
+  c_nagahama:
+    quotes:
+    - exact: '| Nagahama Study'
+      section: Supplementary Table 1 (contributing cohorts)
+  c_nhapc:
+    quotes:
+    - exact: '| Nutrition and Health of Aging Population in China (NHAPC)'
+      section: Supplementary Table 1 (contributing cohorts)
+  c_sces:
+    quotes:
+    - exact: '| Singapore Chinese Eye Study (SCES)'
+      section: Supplementary Table 1 (contributing cohorts)
+  c_simes:
+    quotes:
+    - exact: '| Singapore Malay Eye Study (SiMES)'
+      section: Supplementary Table 1 (contributing cohorts)
+  c_sp2:
+    quotes:
+    - exact: '| Singapore Prospective Study Program (SP2) Illumina1Mduov3'
+      section: Supplementary Table 1 (contributing cohorts)
+  c_taichi:
+    quotes:
+    - exact: '| Taiwan Metabochip Consortium (TAICHI)'
+      section: Supplementary Table 1 (contributing cohorts)
+  c_crc_china:
+    quotes:
+    - exact: '| The Colorectal Cancer Study (CRC)'
+      section: Supplementary Table 1 (contributing cohorts)
+  c_twsc:
+    quotes:
+    - exact: '| TWSC | Han Chinese'
+      section: Supplementary Table 1 (contributing cohorts)
+  c_sbcs:
+    quotes:
+    - exact: '| Shanghai Breast Cancer Study'
+      section: Supplementary Table 1 (contributing cohorts)
+  c_smhs:
+    quotes:
+    - exact: '| Shanghai Men''s Health Study'
+      section: Supplementary Table 1 (contributing cohorts)
+  c_ages:
+    quotes:
+    - exact: '| AGES | European'
+      section: Supplementary Table 1 (contributing cohorts)
+  c_amish:
+    quotes:
+    - exact: '| AMISH | European'
+      section: Supplementary Table 1 (contributing cohorts)
+  c_abcd:
+    quotes:
+    - exact: '| Amsterdam Born Children and their Development (ABCD)'
+      section: Supplementary Table 1 (contributing cohorts)
+  c_ascot:
+    quotes:
+    - exact: '| Anglo-Scandinavian Cardiac Outcomes Trial (ASCOT) Scandinavia'
+      section: Supplementary Table 1 (contributing cohorts)
+  c_alspac:
+    quotes:
+    - exact: '| Avon Longitudinal Study of Parents and Children (ALSPAC) Children'
+      section: Supplementary Table 1 (contributing cohorts)
+  c_bc1936_dk:
+    quotes:
+    - exact: '| Birth Cohort 1936 (BC 1936)'
+      section: Supplementary Table 1 (contributing cohorts)
+  c_colaus:
+    quotes:
+    - exact: '| CoLaus | European'
+      section: Supplementary Table 1 (contributing cohorts)
+  c_kora:
+    quotes:
+    - exact: '| Cooperative Health Research in the Augsburg Region (KORA) F4'
+      section: Supplementary Table 1 (contributing cohorts)
+  c_copsac2000:
+    quotes:
+    - exact: '| Copenhagen Prospective Study on Astma in Childhood (COPSAC) 2000'
+      section: Supplementary Table 1 (contributing cohorts)
+  c_korcula:
+    quotes:
+    - exact: '| CROATIA-Korcula'
+      section: Supplementary Table 1 (contributing cohorts)
+  c_split:
+    quotes:
+    - exact: '| CROATIA-Split'
+      section: Supplementary Table 1 (contributing cohorts)
+  c_vis:
+    quotes:
+    - exact: '| CROATIA-Vis'
+      section: Supplementary Table 1 (contributing cohorts)
+  c_dgi:
+    quotes:
+    - exact: '| Diabetes Genetics (DGI)'
+      section: Supplementary Table 1 (contributing cohorts)
+  c_diagen:
+    quotes:
+    - exact: '| DIAGEN | German'
+      section: Supplementary Table 1 (contributing cohorts)
+  c_dps:
+    quotes:
+    - exact: '| DPS | Finnish'
+      section: Supplementary Table 1 (contributing cohorts)
+  c_dreca:
+    quotes:
+    - exact: '| DRECA | European'
+      section: Supplementary Table 1 (contributing cohorts)
+  c_drs_extra:
+    quotes:
+    - exact: '| DRSEXTRA | Finnish'
+      section: Supplementary Table 1 (contributing cohorts)
+  c_ely:
+    quotes:
+    - exact: '| Ely | European'
+      section: Supplementary Table 1 (contributing cohorts)
+  c_epihealth:
+    quotes:
+    - exact: '| Epihealth | European'
+      section: Supplementary Table 1 (contributing cohorts)
+  c_erf:
+    quotes:
+    - exact: '| Erasmus Rucphen Family Study (ERF)'
+      section: Supplementary Table 1 (contributing cohorts)
+  c_estonian_biobank:
+    quotes:
+    - exact: '| Estonian Genome Centre, University of Tartu (EGCUT)'
+      section: Supplementary Table 1 (contributing cohorts)
+  c_epic_interact:
+    quotes:
+    - exact: '| European Prospective Investigation into Cancer (EPIC)-InterAct'
+      section: Supplementary Table 1 (contributing cohorts)
+  c_epic_norfolk:
+    quotes:
+    - exact: '| European Prospective Investigation into Cancer (EPIC)-Norfolk'
+      section: Supplementary Table 1 (contributing cohorts)
+  c_fenland:
+    quotes:
+    - exact: '| Fenland | European'
+      section: Supplementary Table 1 (contributing cohorts)
+  c_fin_d2d2007:
+    quotes:
+    - exact: '| FIN-D2D2007'
+      section: Supplementary Table 1 (contributing cohorts)
+  c_fusion:
+    quotes:
+    - exact: '| Finland-United States Investigation of NIDDM Genetics (FUSION)'
+      section: Supplementary Table 1 (contributing cohorts)
+  c_fhs:
+    quotes:
+    - exact: '| Framingham Heart Study (FHS)'
+      section: Supplementary Table 1 (contributing cohorts)
+  c_french_adult_control:
+    quotes:
+    - exact: '| French Adult Control'
+      section: Supplementary Table 1 (contributing cohorts)
+  c_french_adult_obese:
+    quotes:
+    - exact: '| French Adult Obese'
+      section: Supplementary Table 1 (contributing cohorts)
+  c_french_young_control:
+    quotes:
+    - exact: '| French Young Control'
+      section: Supplementary Table 1 (contributing cohorts)
+  c_french_young_obese:
+    quotes:
+    - exact: '| French Young Obese'
+      section: Supplementary Table 1 (contributing cohorts)
+  c_unnamed_sweden_metabochip:
+    quotes:
+    - exact: '| | European'
+      section: Supplementary Table 1 (contributing cohorts)
+  c_generation_scotland:
+    quotes:
+    - exact: '| Generation Scotland'
+      section: Supplementary Table 1 (contributing cohorts)
+  c_godarts:
+    quotes:
+    - exact: '| Genetics of Diabetes Audit and Research in Tayside Scotland (GoDARTS)'
+      section: Supplementary Table 1 (contributing cohorts)
+  c_goya:
+    quotes:
+    - exact: '| Genetics of Overweight Young Adults (GOYA) Males'
+      section: Supplementary Table 1 (contributing cohorts)
+  c_health2006:
+    quotes:
+    - exact: '| Health2006'
+      section: Supplementary Table 1 (contributing cohorts)
+  c_manolis:
+    quotes:
+    - exact: '| Hellenic Isolated Cohorts (HELIC) Manolis'
+      section: Supplementary Table 1 (contributing cohorts)
+  c_pomak:
+    quotes:
+    - exact: '| Hellenic Isolated Cohorts (HELIC) Pomak'
+      section: Supplementary Table 1 (contributing cohorts)
+  c_improve:
+    quotes:
+    - exact: '| IMPROVE | European'
+      section: Supplementary Table 1 (contributing cohorts)
+  c_inter99:
+    quotes:
+    - exact: '| Inter99 | European'
+      section: Supplementary Table 1 (contributing cohorts)
+  c_inchianti:
+    quotes:
+    - exact: '| Invecchiare in Chianti (INCHIANTI)'
+      section: Supplementary Table 1 (contributing cohorts)
+  c_lls:
+    quotes:
+    - exact: '| Leiden Longevity Study'
+      section: Supplementary Table 1 (contributing cohorts)
+  c_leipzig_adults:
+    quotes:
+    - exact: '| LEIPZIG-adults'
+      section: Supplementary Table 1 (contributing cohorts)
+  c_leipzig_kids:
+    quotes:
+    - exact: '| LEIPZIG-kids'
+      section: Supplementary Table 1 (contributing cohorts)
+  c_lifelines:
+    quotes:
+    - exact: '| LifeLines | European'
+      section: Supplementary Table 1 (contributing cohorts)
+  c_lolipop:
+    quotes:
+    - exact: '| London Life Science Prospective Population Study (LOLIPO) EWP'
+      section: Supplementary Table 1 (contributing cohorts)
+  c_luric:
+    quotes:
+    - exact: '| Ludwigshafen Risk and Cardiovascular Health (LURIC)'
+      section: Supplementary Table 1 (contributing cohorts)
+  c_metsim:
+    quotes:
+    - exact: '| Metabolic Sydrome in Met (METSIM)'
+      section: Supplementary Table 1 (contributing cohorts)
+  c_micros:
+    quotes:
+    - exact: '| Microsisolates in South Tyrol (MICROS)'
+      section: Supplementary Table 1 (contributing cohorts)
+  c_nshd:
+    quotes:
+    - exact: '| MRC National Survey of Health and Development (NSHD)'
+      section: Supplementary Table 1 (contributing cohorts)
+  c_mega:
+    quotes:
+    - exact: '| Multiple Environmental and Genetic Assessment of Risk Factors for Venous Thrombosis (MEGA)'
+      section: Supplementary Table 1 (contributing cohorts)
+  c_neo:
+    quotes:
+    - exact: '| Netherlands Epidemiology of Obesity (NEO)'
+      section: Supplementary Table 1 (contributing cohorts)
+  c_ntr:
+    quotes:
+    - exact: '| Netherlands Twin Register (NTR)'
+      section: Supplementary Table 1 (contributing cohorts)
+  c_nfbc1966:
+    quotes:
+    - exact: '| Northern Finland Birth Cohort 1966 (NFBC1966)'
+      section: Supplementary Table 1 (contributing cohorts)
+  c_nfbc1986:
+    quotes:
+    - exact: '| Northern Finland Birth Cohort 1986 (NFBC1986)'
+      section: Supplementary Table 1 (contributing cohorts)
+  c_orcades:
+    quotes:
+    - exact: '| Orkey Complex Disease Study (ORCADES)'
+      section: Supplementary Table 1 (contributing cohorts)
+  c_oxford_biobank:
+    quotes:
+    - exact: '| Oxford Biobank'
+      section: Supplementary Table 1 (contributing cohorts)
+  c_prosper:
+    quotes:
+    - exact: '| Pharmacogenetic Study of Statins in the Eldery at Risk for Vascular Disease (PROSPER)'
+      section: Supplementary Table 1 (contributing cohorts)
+  c_procardis:
+    quotes:
+    - exact: '| Precocious Coronary Artery Disease Study (PROCARDIS)'
+      section: Supplementary Table 1 (contributing cohorts)
+  c_prevend:
+    quotes:
+    - exact: '| Prevend | European'
+      section: Supplementary Table 1 (contributing cohorts)
+  c_pivus:
+    quotes:
+    - exact: '| Prospectve Investigation of the Vasculature in Uppsala Seniors (PIVUS)'
+      section: Supplementary Table 1 (contributing cohorts)
+  c_risc:
+    quotes:
+    - exact: '| Relationship Between Insulin Sensitivity and Cardiovascular Disease Risk (RISC)'
+      section: Supplementary Table 1 (contributing cohorts)
+  c_rs:
+    quotes:
+    - exact: '| Rotterdam Study (RS) 1'
+      section: Supplementary Table 1 (contributing cohorts)
+  c_sardinia:
+    quotes:
+    - exact: '| SardiNIA | European'
+      section: Supplementary Table 1 (contributing cohorts)
+  c_sorbs:
+    quotes:
+    - exact: '| SORBS | European'
+      section: Supplementary Table 1 (contributing cohorts)
+  c_scarfsheep:
+    quotes:
+    - exact: '| Stockhold Coronary Artery Risk Factor study/Stockholm Heart Epidemiology Programme (SCARFSHEEP)'
+      section: Supplementary Table 1 (contributing cohorts)
+  c_trails:
+    quotes:
+    - exact: '| Tracking Adolescents'' Individual Lives Survey (TRAILS)'
+      section: Supplementary Table 1 (contributing cohorts)
+  c_tromso:
+    quotes:
+    - exact: '| Tromso | European'
+      section: Supplementary Table 1 (contributing cohorts)
+  c_twingene:
+    quotes:
+    - exact: '| TwinGene | European'
+      section: Supplementary Table 1 (contributing cohorts)
+  c_twinsuk:
+    quotes:
+    - exact: '| TwinsUK | European'
+      section: Supplementary Table 1 (contributing cohorts)
+  c_ukhls:
+    quotes:
+    - exact: '| UK Househod Longitudinal Study (UKHLS)'
+      section: Supplementary Table 1 (contributing cohorts)
+  c_ulsam:
+    quotes:
+    - exact: '| Uppsala Longitudinal Study of Adult Men (ULSAM)'
+      section: Supplementary Table 1 (contributing cohorts)
+  c_viking:
+    quotes:
+    - exact: '| Viking Health Study (VIKING)'
+      section: Supplementary Table 1 (contributing cohorts)
+  c_raine:
+    quotes:
+    - exact: '| The Raine Study'
+      section: Supplementary Table 1 (contributing cohorts)
+  c_whitehall2:
+    quotes:
+    - exact: '| Whitehall II'
+      section: Supplementary Table 1 (contributing cohorts)
+  c_wghs:
+    quotes:
+    - exact: '| Women''s Genome Health Study (WGHS)'
+      section: Supplementary Table 1 (contributing cohorts)
+  c_betagene:
+    quotes:
+    - exact: '| Genetics of Pancreatic Beta-cell Failure in Mexican-Americans (BetaGene)'
+      section: Supplementary Table 1 (contributing cohorts)
+  c_tripod:
+    quotes:
+    - exact: '| Troglitazone in Prevention of Diabetes (TRIPOD)'
+      section: Supplementary Table 1 (contributing cohorts)
+  c_htnir:
+    quotes:
+    - exact: '| Hypertension-Insulin Resistance Family Study (HTN)'
+      section: Supplementary Table 1 (contributing cohorts)
+  c_iras:
+    quotes:
+    - exact: '| Insulin Resistance Atherosclerosis Study (IRAS) | Hispanic'
+      section: Supplementary Table 1 (contributing cohorts)
+  c_iras_fs:
+    quotes:
+    - exact: '| Insulin Resistance Atherosclerosis Study (IRAS) FS'
+      section: Supplementary Table 1 (contributing cohorts)
+  c_macad:
+    quotes:
+    - exact: '| Mexican-American Coronary Artery Disease Study (MACAD)'
+      section: Supplementary Table 1 (contributing cohorts)
+  c_niddm:
+    quotes:
+    - exact: '| NIDDM | Hispanic'
+      section: Supplementary Table 1 (contributing cohorts)
+  c_pelotas:
+    quotes:
+    - exact: '| Pelotas Birth Cohort Study (PELOTAS)'
+      section: Supplementary Table 1 (contributing cohorts)
+  c_sigma:
+    quotes:
+    - exact: '| Slim-Initiative in Genomic Medicine for the Americas (SIGMA)'
+      section: Supplementary Table 1 (contributing cohorts)
+  c_hchs_sol:
+    quotes:
+    - exact: '| Hispanic Community Health Study/Study of Latinos (HCHS/SOL)'
+      section: Supplementary Table 1 (contributing cohorts)
+  c_rhs:
+    quotes:
+    - exact: '| Ragama Health Study (RHS)'
+      section: Supplementary Table 1 (contributing cohorts)
+  c_sindi:
+    quotes:
+    - exact: '| Singapore Indian Eye Study (SINDI)'
+      section: Supplementary Table 1 (contributing cohorts)
+  caption:
+    quotes:
+    - exact: 'Supplementary Table 1: Information for each of the contributing cohorts with respect to
+        study population characteristics'
+      section: Supplementary Table 1 (contributing cohorts)
+  c_oxford_biobank_analysis:
+    quotes:
+    - exact: ' | Oxford Biobank | European | UK | Population-based | 29040543 | https://www.oxfordbiobank.org.uk/
+        | Yes'
+      section: Supplementary Table 1 (contributing cohorts), Data Analyses columns
+  c_oxford_biobank_analysis_options:
+    quotes:
+    - exact: untransformed/ age, sex, bmi, pc1-4 | Natural log transformed/ age, sex, bmi, pc1-4 | n.a.
+        | n.a. | As per protocol | VarExp only - as per protocol
+      section: Supplementary Table 1 (contributing cohorts), Data Analyses columns
+  c_ukhls_analysis:
+    quotes:
+    - exact: ' | UK Househod Longitudinal Study (UKHLS) | European | UK | Longitudinal population-based
+        cohort | 29695297 | https://www.understandingsociety.ac.uk | Yes'
+      section: Supplementary Table 1 (contributing cohorts), Data Analyses columns
+  c_ukhls_analysis_options:
+    quotes:
+    - exact: n.a. | n.a. | n.a. | age,age^2,sex,PC1-PC10 | R 3.5, qctoolV2 | VarExp only - as per protocol
+      section: Supplementary Table 1 (contributing cohorts), Data Analyses columns
+  c_viking_analysis:
+    quotes:
+    - exact: ' | Viking Health Study (VIKING) | European | UK | Population-based | - | NA | Yes'
+      section: Supplementary Table 1 (contributing cohorts), Data Analyses columns
+  c_viking_analysis_options:
+    quotes:
+    - exact: untransformed / age, age^2, BMI (trait residuals extracted from LMM to a/c for relatedness)
+        | Natural log / age, age^2, BMI (trait residuals extracted from LMM to a/c for relatedness) |
+        na | untransformed / age, age^2, BMI | VarExp only - as per protocol | VarExp only - as per protocol
+      section: Supplementary Table 1 (contributing cohorts), Data Analyses columns
+  c_whitehall2_analysis:
+    quotes:
+    - exact: ' | Whitehall II | European | UK | Population-based | - | https://www.ucl.ac.uk/iehc/research/epidemiology-public-health/research/whitehallII
+        | Yes'
+      section: Supplementary Table 1 (contributing cohorts), Data Analyses columns
+  c_whitehall2_analysis_options:
+    quotes:
+    - exact: untransformed/age,age^2,sex,bmi,PC1-PC10 | natural log/age,age^2,sex,bmi,PC1-PC10 | untransformed/age,age^2,sex,bmi,PC1-PC10
+        | age,age^2,sex,PC1-PC10 | R 3.5, qctoolV2 | VarExp only - as per protocol
+      section: Supplementary Table 1 (contributing cohorts), Data Analyses columns
+  header_varexp_column:
+    quotes:
+    - exact: Contributed to variance explained analysis? (Yes/No)
+      section: Supplementary Table 1 header row
+  header_analysis_columns:
+    quotes:
+    - exact: Software for analysis | Analysis options
+      section: Supplementary Table 1 header row

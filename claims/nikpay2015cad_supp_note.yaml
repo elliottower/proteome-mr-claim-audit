@@ -1,0 +1,100 @@
+source:
+  citation: nikpay2015cad_supp_note
+  local: sources/nikpay2015cad_supp_note.txt
+  sha256: b1fa74879d42562d61da9180b7e4eb491b87a5634a5527c9708b5e57329fe815
+  doi: 10.1038/ng.3396
+  note: Nikpay et al. 2015 Supplementary Note (cohort descriptions and acknowledgements), NIHMS64693-supplement-Note_NoteFigs.docx
+    from the Europe PMC supplementaryFiles zip for PMC4589895, converted with python-docx, one paragraph
+    or table row per line.
+claims:
+  ctrl-advance-cardia:
+    quotes:
+    - exact: a subset of 479 participants in the same age range from the Coronary Artery Risk Development
+        in Young Adults (CARDIA) study
+      section: Cohort Descriptions, ADVANCE
+  ctrl-cardiogenics:
+    quotes:
+    - exact: Controls were healthy individuals (aged 32 to 65 years) recruited in Cambridge who were blood
+        donors recruited as part of the Cambridge Bioresource.
+      section: Cohort Descriptions, CARDIOGENICS
+  ctrl-cas:
+    quotes:
+    - exact: Controls of CAS study were recruited from the International Collaborative Study of Cardiovascular
+        Disease in Asia (InterASIA in China)
+      section: Cohort Descriptions, CAS
+  corogene-finrisk:
+    quotes:
+    - exact: FINRISK is a population cohort collected every 5 years (10 000 individuals recruited each
+        time) form 5 different regions in Finland.
+      section: Cohort Descriptions, COROGENE (the only paragraph under this heading)
+  famhs-parents:
+    quotes:
+    - exact: 'The participants were sampled from four population-based parent studies: the Framingham
+        Heart Study, the Utah Family Tree Study, and two centers for the Atherosclerosis Risk in Communities
+        study (ARIC: Minneapolis, and Forsyth County, NC).'
+      section: Cohort Descriptions, FamHS
+  ctrl-genric:
+    quotes:
+    - exact: 2,690 controls from HEXA (Health Examinee) which is one of the KoGES (Korean Genome Epidemiology
+        Study) population based cohorts
+      section: Cohort Descriptions, GenRIC
+  ctrl-germifs1:
+    quotes:
+    - exact: Population-based subjects were entered as controls.
+      section: Cohort Descriptions, GerMIFS I-IV
+  ctrl-germifs2:
+    quotes:
+    - exact: Population-based controls were derived from the MONICA/KORA Augsburg survey F4 and the PopGen
+        blood donor sample 2 (PopGen-BSP).
+      section: Cohort Descriptions, GerMIFS I-IV
+  germifs3-kora:
+    quotes:
+    - exact: 'GerMIFS III (KORA): cases of non-fatal MI were identified in the KORA registry with DNA
+        available.'
+      section: Cohort Descriptions, GerMIFS I-IV
+  ctrl-germifs3:
+    quotes:
+    - exact: Controls were from the population-based Augsburg KORA S4/F4 study and PopGen.
+      section: Cohort Descriptions, GerMIFS I-IV
+  ctrl-germifs4:
+    quotes:
+    - exact: Control samples were recruited as part of the Berlin Aging Study II (BASE-II)
+      section: Cohort Descriptions, GerMIFS I-IV
+  ctrl-hps:
+    quotes:
+    - exact: Population controls were used from the UK Twins Study and WTCCC2 National Blood Service collections.
+      section: Cohort Descriptions, HPS
+  migen-sites:
+    quotes:
+    - exact: from six international sites - Boston and Seattle in the United States as well as Sweden,
+        Finland, Spain and Italy
+      section: Cohort Descriptions, MIGen
+  predictcvd-finrisk:
+    quotes:
+    - exact: The PredictCVD study is a case-cohort sample that comprises of incident cardiovascular disease
+        cases and matched controls selected from the 1992, 1997, 2002 and 2007 FINRISK surveys.
+      section: Cohort Descriptions, PREDICTCVD
+  ctrl-procardis:
+    quotes:
+    - exact: PoBI21 (http://www.peopleofthebritishisles.org) and the UK Twin study (http://www.twinsuk.ac.uk)
+        provided GWAS genotyped UK-based population controls that were not screened for CAD.
+      section: Cohort Descriptions, PROCARDIS
+  ctrl-wtccc:
+    quotes:
+    - exact: Controls comprised an equal number of subjects from the 1958 Birth Cohort and from blood
+        donors recruited through the UK National Blood Service as part of the WTCCC study.
+      section: Cohort Descriptions, WTCCC
+  ages-reykjavik:
+    quotes:
+    - exact: Between 2002 and 2006, the AGES-Reykjavik study re-examined 5,764 survivors of the original
+        cohort who had participated earlier in the Reykjavik Study.
+      section: Cohort Descriptions, AGES
+  charge:
+    quotes:
+    - exact: '*Cohorts AGES, ARIC, FamHS, FHS, PROSPER and RS are members of the Cohorts for Heart and
+        Aging Research in Genomic Epidemiology (CHARGE) Consortium'
+      section: Cohort Descriptions footnote
+  lolipop-decode:
+    quotes:
+    - exact: The cases and controls were genotyped at deCODE using the Illumina Human610-Quad Beadchip
+      section: Cohort Descriptions, LOLIPOP

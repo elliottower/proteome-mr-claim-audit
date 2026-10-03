@@ -1,0 +1,151 @@
+{
+ "floor_characters": 200,
+ "length": "characters after runs of whitespace are collapsed and the ends stripped",
+ "pooled_distinct_records_first_public_before_2019": {
+  "records": 313,
+  "empty": 7,
+  "1-99": 1,
+  "100-199": 1,
+  "200-399": 0,
+  "400-599": 8,
+  "600 or more": 296,
+  "below_floor": 9,
+  "shortest_nonempty": [
+   3,
+   151,
+   408,
+   430,
+   541,
+   545,
+   546,
+   557
+  ],
+  "median_nonempty": 1427.0,
+  "shortest_at_or_above_floor": 408
+ },
+ "per_set": {
+  "development abstracts (prompts/dev_abstracts.jsonl)": {
+   "records": 30,
+   "empty": 0,
+   "1-99": 0,
+   "100-199": 0,
+   "200-399": 0,
+   "400-599": 0,
+   "600 or more": 30,
+   "shortest_nonempty": [
+    809,
+    829,
+    857,
+    1021,
+    1104
+   ],
+   "median_nonempty": 1638.0
+  },
+  "smoke search 2018-06": {
+   "records": 18,
+   "empty": 0,
+   "1-99": 0,
+   "100-199": 0,
+   "200-399": 0,
+   "400-599": 0,
+   "600 or more": 18,
+   "shortest_nonempty": [
+    973,
+    1054,
+    1184,
+    1409,
+    1483
+   ],
+   "median_nonempty": 1930.0
+  },
+  "smoke chase round 1 (2018-06 seed)": {
+   "records": 97,
+   "empty": 2,
+   "1-99": 1,
+   "100-199": 0,
+   "200-399": 0,
+   "400-599": 5,
+   "600 or more": 89,
+   "shortest_nonempty": [
+    3,
+    408,
+    541,
+    557,
+    562
+   ],
+   "median_nonempty": 1192
+  },
+  "stage-0 smoke search 2018-11 to 2018-12": {
+   "records": 20,
+   "empty": 1,
+   "1-99": 0,
+   "100-199": 0,
+   "200-399": 0,
+   "400-599": 0,
+   "600 or more": 19,
+   "shortest_nonempty": [
+    853,
+    1059,
+    1404,
+    1622,
+    1684
+   ],
+   "median_nonempty": 1848
+  },
+  "stage-0 chase round on two development papers": {
+   "records": 183,
+   "empty": 4,
+   "1-99": 0,
+   "100-199": 1,
+   "200-399": 0,
+   "400-599": 4,
+   "600 or more": 174,
+   "shortest_nonempty": [
+    151,
+    430,
+    545,
+    546,
+    581
+   ],
+   "median_nonempty": 1425
+  }
+ },
+ "records_dated_2019_by_pubmed_left_out": [
+  {
+   "set": "stage-0 smoke search 2018-11 to 2018-12",
+   "record_id": "30451371",
+   "first_public": "2019-01-01"
+  },
+  {
+   "set": "stage-0 smoke search 2018-11 to 2018-12",
+   "record_id": "30586346",
+   "first_public": "2019-02-01"
+  },
+  {
+   "set": "stage-0 smoke search 2018-11 to 2018-12",
+   "record_id": "30601998",
+   "first_public": "2019-01-21"
+  },
+  {
+   "set": "stage-0 chase round on two development papers",
+   "record_id": "30239796",
+   "first_public": "2019-01-10"
+  },
+  {
+   "set": "stage-0 chase round on two development papers",
+   "record_id": "30307499",
+   "first_public": "2019-02-01"
+  },
+  {
+   "set": "stage-0 chase round on two development papers",
+   "record_id": "30423114",
+   "first_public": "2019-03-01"
+  }
+ ],
+ "known_items_lengths_only": {
+  "records": 24,
+  "shortest": 1014,
+  "longest": 3045,
+  "below_floor": 0
+ }
+}

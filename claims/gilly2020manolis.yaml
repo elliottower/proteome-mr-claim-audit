@@ -1,0 +1,19 @@
+source:
+  citation: gilly2020manolis
+  local: sources/gilly2020manolis.txt
+  sha256: 98b71ac2a05b28328133c7b3ad8eb5ad58b35bc756b80df0b5a5aa9ff63b8a8b
+  doi: 10.1038/s41467-020-20079-2
+  note: Full text from Europe PMC fullTextXML (PMC7729872), tags stripped, one title or paragraph per
+    line. Gilly A et al. 2020 Nat Commun (Whole-genome sequencing analysis of the cardiometabolic proteome).
+    PMID 33303764.
+claims:
+  platform-three-panels:
+    quotes:
+    - exact: The serum levels of 275 unique proteins in 1407 MANOLIS samples from three Olink panels—CVDII,
+        CVDIII and Metabolism—were measured using Olink’s proximity extension assay (PEA) technology9.
+      section: 'Methods: Proteomics'
+  excluded-13:
+    quotes:
+    - exact: We excluded 13 protein measurements across all panels with missingness or below-LOD proportion
+        greater than 40% (Supplementary Data 7).
+      section: 'Methods: Quality control'

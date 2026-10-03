@@ -1,0 +1,25 @@
+source:
+  citation: katz2022jhs
+  local: sources/original/katz2022jhs.xml
+  sha256: 1bc5095aa229a76f553a728e65f0f79cbe0f9e9c2e1894acd42c425c391804e1
+  url: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=PMC9158509
+  doi: 10.1161/CIRCULATIONAHA.121.055117
+  extractor: jats-text
+  note: 'Original file behind claims/katz2022jhs.yaml: the XML pinned in claims/katz2022jhs_original.yaml,
+    read by the citations extractor jats-text. The quotations here are those of that file that resolve
+    in this reading; a quotation absent here stays pinned where it already was.'
+  extractor_version: 1
+  derived_sha256: 172a33b690caddb36308af3800a3224f84a3bfe652dde835d28a9fcef905f1ad
+claims:
+  profiling:
+    quotes:
+    - exact: Proteomic profiling by SomaScan® (aptamer-based affinity platform) and Olink® (antibody-based
+        affinity platform) have been described previously.6,15 Please see Supplemental Methods for further
+        details.
+      section: 'Methods: Proteomic Profiling'
+  measures-1301:
+    quotes:
+    - exact: We performed whole genome association analysis between 28.1 million variants with an allele
+        count in JHS of at least 5 and 1,301 plasma protein measures in 1852 self-identified Black individuals
+        (61% women).
+      section: 'Results: Whole genome association analysis of proteomic profiling'

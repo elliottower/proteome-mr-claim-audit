@@ -1,0 +1,60 @@
+{
+ "inputs": "/tmp/dry_run_biology/inputs",
+ "window": "confirmatory",
+ "claim_records": 13,
+ "resources": {
+  "ontology_edges": "/tmp/dry_run_biology/resources/ontology_edges.csv",
+  "therapeutic_areas": "/tmp/dry_run_biology/resources/therapeutic_areas.csv",
+  "therapeutic_area_names": "/tmp/dry_run_biology/resources/therapeutic_area_names.csv",
+  "assay_lists": "/tmp/dry_run_biology/resources/assay_lists.csv",
+  "attachments": "/tmp/dry_run_biology/resources/attachments.csv",
+  "author_lists": "/exp/verification/author_supplied_lists.csv",
+  "reactome": "/tmp/dry_run_biology/resources/UniProt2Reactome.txt",
+  "snapshot_estimates": "/tmp/dry_run_biology/resources/mrres_estimates.jsonl",
+  "protein_mapping": "/tmp/dry_run_biology/resources/protein_mapping.csv",
+  "trait_mapping": "/tmp/dry_run_biology/resources/trait_mapping.csv",
+  "locus_list": "/tmp/dry_run_biology/resources/loci.csv"
+ },
+ "written_utc": "2026-10-03T20:01:46+00:00",
+ "claim_records_by_class": {
+  "earlier_in_registry": 4,
+  "no_earlier_in_registry": 9
+ },
+ "novelty_language_claims": 3,
+ "novelty_language_by_class": {
+  "earlier_in_registry": 2,
+  "no_earlier_in_registry": 1
+ },
+ "novelty_language_earlier_in_registry": 2,
+ "novelty_language_earlier_in_registry_share": 0.6666666666666666,
+ "wilson_descriptive": [
+  0.2076596008020477,
+  0.9385080552796037
+ ],
+ "novelty_language_tied_or_unknown_order": 0,
+ "novelty_language_related_prior_claim": 1,
+ "related_prior_claim_all_claims": 2,
+ "imprecise_under_20": true,
+ "sensitivity_claim_dates_from_registry_abstracts_only": {
+  "claim_records": 13,
+  "claim_records_by_class": {
+   "earlier_in_registry": 4,
+   "no_earlier_in_registry": 9
+  },
+  "novelty_language_claims": 3,
+  "novelty_language_by_class": {
+   "earlier_in_registry": 2,
+   "no_earlier_in_registry": 1
+  },
+  "novelty_language_earlier_in_registry": 2,
+  "novelty_language_earlier_in_registry_share": 0.6666666666666666,
+  "wilson_descriptive": [
+   0.2076596008020477,
+   0.9385080552796037
+  ],
+  "novelty_language_tied_or_unknown_order": 0,
+  "novelty_language_related_prior_claim": 1,
+  "related_prior_claim_all_claims": 2,
+  "imprecise_under_20": true
+ }
+}

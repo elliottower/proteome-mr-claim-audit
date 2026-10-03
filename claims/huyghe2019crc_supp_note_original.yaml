@@ -1,0 +1,48 @@
+source:
+  citation: huyghe2019crc_supp_note
+  local: sources/original/huyghe2019crc_supp_note.pdf
+  sha256: 6652482cbd1f81fb663b5e9cc45d7f52538d0e459999180ea7dd51e67fbea189
+  url: https://static-content.springer.com/esm/art%3A10.1038%2Fs41588-018-0286-6/MediaObjects/41588_2018_286_MOESM1_ESM.pdf
+  doi: 10.1038/s41588-018-0286-6
+  note: 'Original file behind claims/huyghe2019crc_supp_note.yaml: 41588_2018_286_MOESM1_ESM.pdf from
+    static-content.springer.com. The quotations here are the quotations of that file that resolve in this
+    file under the citations readers; a quotation absent here is pinned to the extracted text there only.'
+claims:
+  stage1-30-studies:
+    quotes:
+    - exact: The stage 1 meta-analysis comprised existing genotyping data from 30 studies that have been
+        described in detail previously
+      section: 'Supplementary Note: Study descriptions'
+  stage2-22-studies:
+    quotes:
+    - exact: Studies included in the stage 2 meta-analysis comprised newly generated genotype data involving
+        4 genotyping projects and 22 studies and are described here.
+      section: 'Supplementary Note: Study descriptions'
+  ukb-stage2:
+    quotes:
+    - exact: In total, 5,356 CRC (5,004) or advanced adenoma (352) cases and 21,407 matched controls were
+        included in the stage 2 analysis.
+      section: 'Supplementary Note: UK Biobank (UKB)'
+  ukb-nested:
+    quotes:
+    - exact: We constructed a CRC and advanced adenoma nested case-control dataset from the UK Biobank
+      section: 'Supplementary Note: UK Biobank (UKB)'
+  epic-countries:
+    quotes:
+    - exact: The current study included participants from France, Germany, Greece, Italy, the Netherlands,
+        Spain, Sweden, and United Kingdom (UK).
+      section: 'Supplementary Note: European Prospective Investigation into Cancer and Nutrition (EPIC)'
+  epic-sweden-registry:
+    quotes:
+    - exact: In Sweden, cases were identified by linkage with the essentially complete Cancer Registry
+        of Northern Sweden
+      section: 'Supplementary Note: EPIC'
+  epic-controls:
+    quotes:
+    - exact: Controls were selected from the full cohort of individuals who were alive and free of cancer
+      section: 'Supplementary Note: EPIC'
+  combined-overview:
+    quotes:
+    - exact: Next, we performed a combined (stage 1 + stage 2) meta-analysis of up to 125,478 CRC cases
+        (58,131) and controls (67,347).
+      section: Supplementary Figure 1 legend

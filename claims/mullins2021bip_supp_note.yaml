@@ -1,0 +1,175 @@
+source:
+  citation: mullins2021bip_supp_note
+  local: sources/mullins2021bip_supp_note.txt
+  sha256: e57b3e3bee7ceeaa36fff25acb59723fd99ad217ec6ecbad8d62b686dd67a100
+  doi: 10.1038/s41588-021-00857-4
+  note: Supplementary Note of Mullins et al. 2021 Nat Genet (NIHMS1687813-supplement-Supplementary_Note.pdf
+    from the NCBI PMC open-data bucket, PMC8192451.1), converted with pdftotext -layout
+claims:
+  ctrl-blts:
+    quotes:
+    - exact: Controls were parents of unselected adolescent twins from the Brisbane Longitudinal Twin
+        Study.
+      section: Supplementary Note, Sample descriptions (bip_bmau_eur)
+  ctrl-hnr-bmg2:
+    quotes:
+    - exact: Control subjects were ascertained from the population-based Heinz Nixdorf Recall (HNR) Study
+      section: Supplementary Note, Sample descriptions (bip_bmg2_eur)
+  ctrl-iarc-poland:
+    quotes:
+    - exact: The Polish controls were produced by the International Agency for Research on Cancer (IARC)
+        and the Centre National de Génotypage (CNG) GWAS Initiative for a study of upper aerodigestive
+        tract cancers.
+      section: Supplementary Note, Sample descriptions (bip_bmpo_eur)
+  ctrl-ecrhs:
+    quotes:
+    - exact: Controls were Spanish subjects drawn from a cohort of individuals recruited in the framework
+        of the European Community Respiratory Health Survey (ECRHS, http://www.ecrhs.org/).
+      section: Supplementary Note, Sample descriptions (bip_bmsp_eur)
+  ctrl-bonn-popgen-kora-hnr:
+    quotes:
+    - exact: Controls were ascertained from three population-based studies in Germany (PopGen, KORA, and
+        Heinz-Nixdorf-Recall Study).
+      section: Supplementary Note, Sample descriptions (bip_bonn_eur)
+  ctrl-irish-genebank:
+    quotes:
+    - exact: Controls were ascertained with informed consent from the Irish GeneBank and represented blood
+        donors
+      section: Supplementary Note, Sample descriptions (bip_dub1_eur)
+  ctrl-ssbts:
+    quotes:
+    - exact: Ethnically-matched controls from the same region were recruited through the South of Scotland
+        Blood Transfusion Service.
+      section: Supplementary Note, Sample descriptions (bip_edi1_eur)
+  ctrl-nimh-gain:
+    quotes:
+    - exact: Controls were from the NIMH Genetic Repository sample obtained by Dr. P. Gejman through a
+        contract to Knowledge Networks, Inc.
+      section: Supplementary Note, Sample descriptions (bip_gain_eur)
+  ctrl-i2b2:
+    quotes:
+    - exact: Control subjects were drawn from the I2B2 (Informatics for Integrating Biology and the Bedside)
+        project
+      section: Supplementary Note, Sample descriptions (bip_hal2_eur)
+  ctrl-icuk-wtccc:
+    quotes:
+    - exact: Controls were part of the Wellcome Trust Case Control Consortium common control set, which
+        comprised healthy blood donors recruited from the UK Blood Service and samples from the 1958 British
+        Birth Cohort.
+      section: Supplementary Note, Sample descriptions (bip_icuk_eur)
+  ctrl-sage:
+    quotes:
+    - exact: 'Controls subjects were drawn from the Study of Addiction: Genetics and Environment (SAGE,
+        dbGaP Study Accession: phs000092.v1.p1).'
+      section: Supplementary Note, Sample descriptions (bip_jst5_eur)
+  ctrl-mayo-biobank:
+    quotes:
+    - exact: Controls were selected from the Mayo Clinic Biobank17.
+      section: Supplementary Note, Sample descriptions (bip_may1_eur)
+  ctrl-ucl-nbs:
+    quotes:
+    - exact: The UCL control subjects were recruited from London branches of the National Blood Service
+      section: Supplementary Note, Sample descriptions (bip_uclo_eur)
+  ctrl-betula:
+    quotes:
+    - exact: were randomly selected from the ‘Betula study’.
+      section: Supplementary Note, Sample descriptions (bip_ume4_eur)
+  ctrl-red-cross:
+    quotes:
+    - exact: German Red Cross controls were collected by the Central Institute for Mental Health in Mannheim
+      section: Supplementary Note, Sample descriptions (BIP_KFO_eur)
+  ctrl-cassi:
+    quotes:
+    - exact: Healthy controls were sourced from the high risk, IGP and the Cognitive and Affective Symptoms
+        of Schizophrenia Intervention (CASSI) trial57 studies
+      section: Supplementary Note, Sample descriptions (neuc1)
+  ctrl-mentalcat-inschool:
+    quotes:
+    - exact: The Spanish controls were part of the Mental-Cat clinical sample or the INSchool population-based
+        cohort.
+      section: Supplementary Note, Sample descriptions (spsp3)
+  ctrl-gems-eims:
+    quotes:
+    - exact: 'were collected as part of two case-control studies of multiple sclerosis: GEMS (Genes and
+        Environment in Multiple Sclerosis) and EIMS (Epidemiological Investigation of Multiple Sclerosis)59.'
+      section: Supplementary Note, Sample descriptions (swed1)
+  ctrl-ecacc:
+    quotes:
+    - exact: A subset (n=448) of the control subjects were random UK blood donors obtained from the ECACC
+        DNA Panels
+      section: Supplementary Note, Sample descriptions (ukwa1)
+  ctrl-mnd:
+    quotes:
+    - exact: Controls were drawn from blood donors to the UK Motor Neuron Disease Association DNA Biobank60
+      section: Supplementary Note, Sample descriptions (ukwa1)
+  ctrl-mathews:
+    quotes:
+    - exact: Control samples were ascertained as part of ongoing genetic and neurophysiological studies
+        of hoarding, obsessive compulsive and tic disorders.
+      section: Supplementary Note, Sample descriptions (usaw4)
+  ctrl-waldman:
+    quotes:
+    - exact: Control samples were ascertained as part of an ongoing genetic study of ADHD and other Externalizing
+        disorders
+      section: Supplementary Note, Sample descriptions (usaw4)
+  ctrl-image:
+    quotes:
+    - exact: The controls included are healthy individuals from the Dutch part of the International Multicenter
+        ADHD Genetics (IMAGE) project51,52.
+      section: Supplementary Note, Sample descriptions (dutch)
+  ctrl-nescog:
+    quotes:
+    - exact: Data were provided for 960 unscreened Dutch population controls from the Netherlands Study
+        of Cognition, Environment and Genes (NESCOG)53.
+      section: Supplementary Note, Sample descriptions (dutch)
+  ctrl-lochner:
+    quotes:
+    - exact: Controls include population based-controls ascertained from blood banks and controls recruited
+        through university campuses and newspaper advertisements
+      section: Supplementary Note, Sample descriptions (dutch)
+  ctrl-wtcc:
+    quotes:
+    - exact: 'Controls were recruited from two sources: the 1958 Birth Cohort study and the UK Blood Service
+        (blood donors) and were not screened for history of mental illness.'
+      section: Supplementary Note, Sample descriptions (bip_wtcc_eur_sr-qc)
+  ctrl-jea2-estbb:
+    quotes:
+    - exact: Most of the Eastern European controls were from the Estonian Biobank project (EGCUT)31
+      section: Supplementary Note, Sample descriptions (JJ_EAST_eur)
+  ctrl-stp1-nimh:
+    quotes:
+    - exact: Two groups of controls samples from the NIMH repository were used.
+      section: Supplementary Note, Sample descriptions (bip_stp1_eur)
+  ctrl-swa2-unspecified:
+    quotes:
+    - exact: The control subjects used were the same as for the SCZ analyses described above.
+      section: Supplementary Note, Sample descriptions (bip_swa2_eur)
+  ctrl-fat2-nimh:
+    quotes:
+    - exact: The control samples were NIMH controls
+      section: Supplementary Note, Sample descriptions (bip_fat2_eur)
+  ctrl-mich-nimh:
+    quotes:
+    - exact: The Pritzker Neuropsychiatric Disorders Research Consortium (NIMH/Pritzker) case and control
+        samples were from the NIMH Genetics Initiative Genetics Initiative Repository.
+      section: Supplementary Note, Sample descriptions (bip_mich_eur)
+  note-57-studies:
+    quotes:
+    - exact: We performed a GWAS meta-analysis of 57 studies from 21 countries in Europe, North America
+        and Australia (Supplementary Table 1), totaling 41,917 cases and 371,549 controls of European
+        descent.
+      section: Supplementary Note, Sample descriptions
+  note-five-external:
+    quotes:
+    - exact: For five external cohorts, GWAS summary statistics for BD were shared with the PGC (iPSYCH,
+        deCODE genetics, Estonian Biobank, HUNT and UK Biobank).
+      section: Supplementary Note, Sample descriptions
+  decode-iceland:
+    quotes:
+    - exact: Stefánsson, H | [PGC1 replication] | Iceland (deCODE genetics) | deCODE
+      section: Supplementary Note, Sample descriptions (deCODE)
+  ukb-cases:
+    quotes:
+    - exact: Participants were classified as having bipolar disorder if they had a reported clinical diagnosis
+        of bipolar disorder
+      section: Supplementary Note, Sample descriptions (UKBiobank)

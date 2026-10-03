@@ -1,0 +1,29 @@
+source:
+  citation: eldjarn2022preprint
+  local: sources/eldjarn2022_biorxiv_v1.txt
+  sha256: 0b31e1e84c26811af6a54fa0777f8e7685fd08ec3e67046ba8a5197af5ee3d28
+  doi: 10.1101/2022.02.18.481034
+  note: 'bioRxiv v1 (20 Feb 2022) JATS source XML, tags stripped. WITHDRAWN: v2 (15 Mar 2022) is a withdrawal
+    notice; authors ask that it not be cited. Hjorleifsson Eldjarn G, Ferkingstad E, et al. Large-scale
+    comparison of immunoassay- and aptamer-based plasma proteomics through genetics and disease.'
+claims:
+  cis-both-616:
+    quotes:
+    - exact: Of the 1,097 proteins targeted with both SomaScan v4 and Olink Explore, 616 (56%) had a cis
+        pQTL detected using the two platforms.
+      section: Results
+  ld-248:
+    quotes:
+    - exact: For 248 of these 616 proteins (40%), the sentinel cis pQTLs detected using SomaScan v4 and
+        Olink Explore were in high LD (r2>0.80)
+      section: Results
+  ukb-47151:
+    quotes:
+    - exact: Olink Explore 1536 (1,459 immunoassays) in 47,151 European participants from the UK Biobank
+      section: Summary
+  counts-541-519:
+    quotes:
+    - exact: this is based on 541 replicating and 85 non-replicating pQTLs, while for cis pQTLs detected
+        using the Olink Explore platform and replicated using the SomaScan v4 platform, this is based
+        on 519 replicating and 238 non-replicating pQTLs.
+      section: Supplementary note text / Figure 3 legend area

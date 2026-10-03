@@ -1,0 +1,17 @@
+source:
+  citation: mcgowan2016
+  local: sources/mcgowan2016_pubmed_abstract.txt
+  sha256: b8d7f1b1cb56f7de9dcf153215e10a2a1e55afed2b7fe104e68028a2b577fad7
+  doi: 10.1016/j.jclinepi.2016.01.021
+  note: 'PubMed abstract only (E-utilities efetch). Full text not read: publisher blocked, no OpenAlex
+    content copy. McGowan J, Sampson M, Salzwedel DM, Cogo E, Foerster V, Lefebvre C. PRESS Peer Review
+    of Electronic Search Strategies: 2015 Guideline Statement. J Clin Epidemiol 2016;75:40-46. PMID 27005575.'
+claims:
+  structured-press:
+    quotes:
+    - exact: structured PRESS could identify search errors and improve the selection of search terms
+      section: Abstract, Results
+  six-retained:
+    quotes:
+    - exact: Of the seven original PRESS elements, six were retained
+      section: Abstract, Results

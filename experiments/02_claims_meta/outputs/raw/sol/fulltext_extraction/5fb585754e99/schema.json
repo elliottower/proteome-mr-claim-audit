@@ -1,0 +1,136 @@
+{
+ "type": "object",
+ "additionalProperties": false,
+ "required": [
+  "claims"
+ ],
+ "properties": {
+  "claims": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+     "protein_as_written",
+     "outcome_as_written",
+     "direction",
+     "evidence_type",
+     "claim_scope",
+     "analysis_context_as_written",
+     "subgroup_as_written",
+     "pqtl_datasets",
+     "outcome_datasets",
+     "dataset_attribution",
+     "platform",
+     "ancestry",
+     "relation_ambiguous",
+     "evidence_span",
+     "source_location",
+     "colocalization",
+     "replication"
+    ],
+    "properties": {
+     "protein_as_written": {
+      "type": "string"
+     },
+     "outcome_as_written": {
+      "type": "string"
+     },
+     "direction": {
+      "type": "string",
+      "enum": [
+       "raises",
+       "lowers",
+       "reported_nonsignificant_or_null",
+       "not_stated"
+      ]
+     },
+     "evidence_type": {
+      "type": "string",
+      "enum": [
+       "mr_estimate",
+       "observational",
+       "experimental",
+       "variant_association",
+       "other"
+      ]
+     },
+     "claim_scope": {
+      "type": "string",
+      "enum": [
+       "overall",
+       "dataset_specific",
+       "ancestry_specific",
+       "subgroup_specific",
+       "sensitivity",
+       "unclear"
+      ]
+     },
+     "analysis_context_as_written": {
+      "type": "string"
+     },
+     "subgroup_as_written": {
+      "type": "string"
+     },
+     "pqtl_datasets": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+       "type": "string"
+      }
+     },
+     "outcome_datasets": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+       "type": "string"
+      }
+     },
+     "dataset_attribution": {
+      "type": "string",
+      "enum": [
+       "claim_specific",
+       "whole_study",
+       "unclear"
+      ]
+     },
+     "platform": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+       "type": "string"
+      }
+     },
+     "ancestry": {
+      "type": "string"
+     },
+     "relation_ambiguous": {
+      "type": "boolean"
+     },
+     "evidence_span": {
+      "type": "string"
+     },
+     "source_location": {
+      "type": "string"
+     },
+     "colocalization": {
+      "type": "string",
+      "enum": [
+       "supports",
+       "does_not_support",
+       "not_reported"
+      ]
+     },
+     "replication": {
+      "type": "string",
+      "enum": [
+       "replicated",
+       "not_replicated",
+       "not_reported"
+      ]
+     }
+    }
+   }
+  }
+ }
+}

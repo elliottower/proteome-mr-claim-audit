@@ -1,0 +1,105 @@
+source:
+  citation: webb2017cad_supp
+  local: sources/webb2017cad_supp.txt
+  sha256: 751d05a64dfd8dcfa49c3c8ab64bd16988387158347cefede348fa6bf13ef77c
+  doi: 10.1016/j.jacc.2016.11.056
+  note: Webb et al. 2017 JACC 69:823 Online Appendix mmc1.docx from the Europe PMC supplementaryFiles
+    zip for PMC5314135, converted with python-docx, one paragraph or table row per line; Supplemental
+    Table 1 lists the 20 exome-array discovery studies.
+claims:
+  caption-st1:
+    quotes:
+    - exact: 'Supplemental Table 1: Sources of cases and controls in the discovery study'
+      section: Supplemental Table 1 caption
+  row-atvb:
+    quotes:
+    - exact: ATVB | Case-control | MI in men or women ≤ 45 years of age
+      section: Supplemental Table 1
+  row-bhf-fhs:
+    quotes:
+    - exact: Controls were selected from the UK 1958 Birth Cohort | 2,833 | 5,912
+      section: Supplemental Table 1
+  row-biovu:
+    quotes:
+    - exact: Controls were individuals from the Vanderbilt University Biorepository
+      section: Supplemental Table 1
+  row-duke:
+    quotes:
+    - exact: Duke | Case-control | MI or coronary stenosis ≥ 50%
+      section: Supplemental Table 1
+  row-epic-cad:
+    quotes:
+    - exact: EPIC CAD | Nested case-control | The EPIC (European Prospective Study into Cancer and Nutrition)
+        study sub-cohorts from the UK were used. Subjects were collected in collaboration with general
+        practitioners, mainly in Cambridgeshire and Norfolk.
+      section: Supplemental Table 1
+  row-fia3:
+    quotes:
+    - exact: Cases of MI occurring in participants from Vasterbotten Intervention Program (VIP), WHO’s
+        Multinational Monitoring of Trends and Determinants in Cardiovascular Disease (MONICA) study in
+        northern Sweden and the Mammography Screening Project (MSP) in Vasterbotten | Individuals free
+        of MI from VIP and MSP
+      section: Supplemental Table 1
+  row-godarts:
+    quotes:
+    - exact: GoDARTS CAD | Case-control |
+      section: Supplemental Table 1
+  row-egcut:
+    quotes:
+    - exact: Controls were selected from the Estonian Biobank (Estonian Genome Center at the University
+        of Tartu)
+      section: Supplemental Table 1
+  row-german-north:
+    quotes:
+    - exact: German CAD North | The German North cohort includes individuals from GerMIFS4, PopGen, and
+        HNR with MI or CAD. | Controls were derived from population-based studies in Germany.
+      section: Supplemental Table 1
+  row-german-south:
+    quotes:
+    - exact: German CAD South | The German South cohort includes samples from GerMIFS3 and Munich-MI with
+        MI or CAD. | Controls were derived from population-based studies in Germany.
+      section: Supplemental Table 1
+  row-hunt:
+    quotes:
+    - exact: Controls were selected among HUNT 2 and HUNT 3 participants with available DNA
+      section: Supplemental Table 1
+  row-biome:
+    quotes:
+    - exact: Controls were individuals from the BioMe Biobank who did not meet the criteria for cases
+      section: Supplemental Table 1
+  row-mdc:
+    quotes:
+    - exact: MDC | Prospective cohort | Prevalent and incident nonfatal or fatal MI
+      section: Supplemental Table 1
+  row-mhi:
+    quotes:
+    - exact: Controls were individuals from the Montreal Heart Institute Biobank
+      section: Supplemental Table 1
+  row-ohs:
+    quotes:
+    - exact: OHS | Case-control |
+      section: Supplemental Table 1
+  row-pas-amc:
+    quotes:
+    - exact: PAS-AMC | Case-control |
+      section: Supplemental Table 1
+  row-penncath:
+    quotes:
+    - exact: PennCath | Case-control |
+      section: Supplemental Table 1
+  row-procardis:
+    quotes:
+    - exact: PROCARDIS | Case-control | Symptomatic CAD before age 66.
+      section: Supplemental Table 1
+  row-vhs:
+    quotes:
+    - exact: VHS | Case-control |
+      section: Supplemental Table 1
+  row-whi:
+    quotes:
+    - exact: Cases were individuals from the Women’s Health Initiative
+      section: Supplemental Table 1
+  total:
+    quotes:
+    - exact: Discovery study total | 42,335 | 78,240
+      section: Supplemental Table 1

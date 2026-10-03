@@ -1,0 +1,28 @@
+source:
+  citation: aragam2022cad_supp_table1
+  local: sources/original/aragam2022cad_supp_table1.xlsx
+  sha256: 98b8f915e9b7ddbc45f1d4d470dd382cdc245ea92d60dc33a2dc691551212c48
+  url: https://static-content.springer.com/esm/art%3A10.1038%2Fs41588-022-01233-6/MediaObjects/41588_2022_1233_MOESM4_ESM.xlsx
+  doi: 10.1038/s41588-022-01233-6
+  extractor: sheet-rows
+  note: 'Original file behind claims/aragam2022cad_supp_table1.yaml: 41588_2022_1233_MOESM4_ESM.xlsx from
+    static-content.springer.com, read by the citations extractor sheet-rows. The quotations here are those
+    of that file that resolve in this reading; a quotation absent here stays pinned where it already was.'
+  extractor_version: 1
+  derived_sha256: dba0456f273496650bc84ffd325b74da16e8292b682e1c57a163715df8c2e774
+claims:
+  caption:
+    quotes:
+    - exact: Summary of participant characteristics, genotyping and imputation methods and genetic QC
+        for the ten studies included in the primary CAD GWAS.
+      section: Supplementary Table 1 caption
+  studies:
+    quotes:
+    - exact: Study | deCODE | EPIC-CVD | GerMIFS5 | GerMIFS6 | GerMIFS7 | Greek Coronary Disease cohort
+        | HUNT | Mass General Brigham Biobank | TIMI | UK Biobank
+      section: Supplementary Table 1 header row
+  ctrl-germifs6:
+    quotes:
+    - exact: Non-CAD cases from cohort | Non-CAD cases from cohort | Population-based controls | Non-CAD
+        cases from cohort | Population-based controls
+      section: Supplementary Table 1, Controls row

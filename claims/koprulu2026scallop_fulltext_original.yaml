@@ -1,0 +1,40 @@
+source:
+  citation: koprulu2026scallop_fulltext
+  local: sources/original/koprulu2026scallop_fulltext.xml
+  sha256: eb693b89f105c4bd7b64db5b686826cee08b969330557b854fd40a0d013c5f06
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13343581/fullTextXML
+  doi: 10.1016/j.cell.2026.03.049
+  note: 'Original file behind claims/koprulu2026scallop_fulltext.yaml: Europe PMC fullTextXML of PMC13343581,
+    read as plain text with its markup. The quotations here are the quotations of that file that resolve
+    in this file under the citations readers; a quotation absent here is pinned to the extracted text
+    there only.'
+claims:
+  ukb:
+    quotes:
+    - exact: We additionally included proteogenomic analysis conducted using genomic and proteomic data
+        from 48,017 participants of European ancestry in UK Biobank (UKBB).
+      section: 'STAR Methods: Experimental model and study participant details'
+  meta:
+    quotes:
+    - exact: Using the summary statistics from SCALLOP meta-analyses and UKBB proteogenomic analysis,
+        we performed inverse-variance fixed-effects meta-analyses using METAL
+      section: STAR Methods
+  ukb-platform:
+    quotes:
+    - exact: In UKBB, the proteomic measurements used in this study were generated through Olink Explore
+        1536 platform
+      section: 'STAR Methods: Proteomic measurements'
+  panels-13:
+    quotes:
+    - exact: For the 37 cohorts included in this study, antibody-based proteomic measurements were generated
+        through at least one of the 13 Target-96 panels offered by Olink measuring 92 protein targets
+        (Cardiometabolic, Cardiovascular II, Cardiovascular III, Cell Regulation, Development, Immuno-oncology,
+        Inflammation, Immune Response, Metabolism, Neurology, Neuro Exploratory, Organ Damage, Oncology
+        II).
+      section: 'STAR Methods: Proteomic measurements'
+  ukb-explore-1536:
+    quotes:
+    - exact: In UKBB, the proteomic measurements used in this study were generated through Olink Explore
+        1536 platform utilizing the same antibody-based technology but measuring a broader coverage of
+        1,463 protein targets.
+      section: 'STAR Methods: Proteomic measurements'

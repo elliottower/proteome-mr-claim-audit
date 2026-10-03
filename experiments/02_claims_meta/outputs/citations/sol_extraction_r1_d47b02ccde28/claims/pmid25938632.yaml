@@ -1,0 +1,30 @@
+source:
+  citation: pmid25938632
+  local: sources/pmid25938632.txt
+  sha256: 1bb07a049dd61059f1c36c1cfe48cd3d0cd46b2b5409d3ac42c986655a72996e
+  url: https://pubmed.ncbi.nlm.nih.gov/25938632/
+  note: PubMed abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: However, two LPA single nucleotide polymorphisms (SNPs) and the kringle IV type 2 (KIV-2)
+        genotype that were associated with 98, 95, and 68 mg/dL higher lipoprotein(a) levels were not
+        causally associated with increased CRP levels.
+  c001:
+    quotes:
+    - exact: Elevated levels of lipoprotein(a) were not causally associated with increased low-grade inflammation
+        as measured through CRP despite a causal association with increased risk of aortic valve stenosis
+        and MI.
+  c002:
+    quotes:
+    - exact: For aortic valve stenosis, a 1-SD increase in lipoprotein(a) levels was associated observationally
+        with a multifactorially adjusted hazard ratio of 1.23 (95% CI, 1.06-1.41), with corresponding
+        causal risk ratios of 1.38 (1.23-1.55) based on LPA SNPs and of 1.21 (1.06-1.40) based on LPA
+        KIV-2 genotype.
+  c003:
+    quotes:
+    - exact: For aortic valve stenosis, a 1-SD increase in lipoprotein(a) levels was associated observationally
+        with a multifactorially adjusted hazard ratio of 1.23 (95% CI, 1.06-1.41), with corresponding
+        causal risk ratios of 1.38 (1.23-1.55) based on LPA SNPs and of 1.21 (1.06-1.40) based on LPA
+        KIV-2 genotype. For myocardial infarction, corresponding values were 1.20 (1.10;1.31) observationally,
+        and 1.18 (1.11;1.26) and 1.31 (1.22;1.42) causally, respectively.

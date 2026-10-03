@@ -1,0 +1,33 @@
+source:
+  citation: vanderharst2018cad_main
+  local: sources/original/vanderharst2018cad_main.xml
+  sha256: 4ef911dc8c172c00324b9186a29aab2b4ea9a7d82d8d28def7284c2c56302fbf
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5805277/fullTextXML
+  doi: 10.1161/CIRCRESAHA.117.312086
+  extractor: jats-text
+  note: 'Original file behind claims/vanderharst2018cad_main.yaml: the XML pinned in claims/vanderharst2018cad_main_original.yaml,
+    read by the citations extractor jats-text. The quotations here are those of that file that resolve
+    in this reading; a quotation absent here stays pinned where it already was.'
+  extractor_version: 1
+  derived_sha256: e5b6b5209b87bffb1be6953d930b0f30c066b36198063c226f0000de68fce758
+claims:
+  ukb-gwas:
+    quotes:
+    - exact: We performed a genome-wide association study in 34 541 CAD cases and 261 984 controls of
+        UK Biobank resource followed by replication in 88 192 cases and 162 544 controls from CARDIoGRAMplusC4D.
+      section: Abstract
+  meta-all:
+    quotes:
+    - exact: Finally, we performed a meta-analysis of CARDIoGRAMplusC4D9 and the CARDIoGRAMplusC4D 1000
+        Genomes meta-analysis7 with UK Biobank
+      section: Results
+  release:
+    quotes:
+    - exact: Complete summary statistics of all SNPs in UK Biobank and the UK Biobank CARDIoGRAMplusC4D
+        meta-analysis are available as download on www.cardiomics.net.
+      section: Results
+  mendeley:
+    quotes:
+    - exact: The de novo GWAS analysis and meta-analysis have been posted on Mendeley (doi:10.17632/2zdd47c94h.1;
+        doi:10.17632/gbbsrpx6bs.1).
+      section: Methods

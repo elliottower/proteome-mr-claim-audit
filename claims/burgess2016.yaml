@@ -1,0 +1,35 @@
+source:
+  citation: burgess2016
+  local: sources/burgess2016.txt
+  sha256: ed80265e0f006e8758d407e23efe4edadae565a7172e37291ccec5253e95bbdf
+  doi: 10.1002/gepi.21998
+  note: Full text from Europe PMC fullTextXML (PMC5082560), tags stripped. Burgess S, Davies NM, Thompson
+    SG. Bias due to participant overlap in two-sample Mendelian randomization. Genet Epidemiol 2016;40(7):597-608.
+    PMID 27625185.
+claims:
+  linear:
+    quotes:
+    - exact: For a continuous outcome, bias due to sample overlap is a linear function of the proportion
+        of overlap between the samples.
+      section: Abstract
+  null-direction:
+    quotes:
+    - exact: is less biased and any bias is in the direction of the null
+      section: Abstract
+  illustration:
+    quotes:
+    - exact: if the relative bias of the one‐sample instrumental variable estimate is 10% (corresponding
+        to an F parameter of 10), then the relative bias with 50% sample overlap is 5%, and with 30% sample
+        overlap is 3%.
+      section: Abstract
+  larger-dataset:
+    quotes:
+    - exact: If the datasets are of different size, then the percentage overlap in these formulae should
+        be taken with respect to the larger dataset
+      section: Section 6.1 Overlap with datasets of different size
+  binary-controls:
+    quotes:
+    - exact: With a binary outcome, provided that the IV–risk factor associations are estimated in the
+        control participants only, bias due to sample overlap is negligible and Type 1 error rates are
+        at nominal levels.
+      section: Section 6 Discussion

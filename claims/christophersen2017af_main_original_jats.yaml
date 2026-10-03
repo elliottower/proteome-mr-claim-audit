@@ -1,0 +1,24 @@
+source:
+  citation: christophersen2017af_main
+  local: sources/original/christophersen2017af_main.xml
+  sha256: de9d160eb5c2ee82c04e4c7dec6d138b9a087a11f13524c80aa6e002a99907ad
+  url: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=PMC5585859
+  doi: 10.1038/ng.3843
+  extractor: jats-text
+  note: 'Original file behind claims/christophersen2017af_main.yaml: the XML pinned in claims/christophersen2017af_main_original.yaml,
+    read by the citations extractor jats-text. The quotations here are those of that file that resolve
+    in this reading; a quotation absent here stays pinned where it already was.'
+  extractor_version: 1
+  derived_sha256: 648d1161b1b9ee502bf0c77de4c310e6fd946bcafb9a41e517f4a5ed41101d63
+claims:
+  n31:
+    quotes:
+    - exact: In this study, we included 33 studies from AFGen, of which 31 participated in the GWAS meta-analysis,
+        whereas 17 studies were part of the exome chip analyses.
+      section: Online Methods
+  ancestry:
+    quotes:
+    - exact: We also included studies with African-American (3 studies; 641 cases, 4956 referents), Japanese
+        (1 study; 837 cases, 2456 referents), Hispanic (1 study; 277 cases, 3081 referents), and Brazilian
+        (1 study; 187 cases, 550 referents) ancestry (Supplementary Table 1).
+      section: Online Methods

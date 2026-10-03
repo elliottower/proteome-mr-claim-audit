@@ -1,0 +1,49 @@
+source:
+  citation: mckay2017lung_wang2014_main
+  local: sources/original/mckay2017lung_wang2014_main.xml
+  sha256: 50c35fcfc4dd8d58238fcb4621ac08dfa3a5cd2ad265b695dd394c032ae69b9f
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC4074058/fullTextXML
+  doi: 10.1038/ng.3002
+  note: 'Original file behind claims/mckay2017lung_wang2014_main.yaml: Europe PMC fullTextXML of PMC4074058,
+    read as plain text with its markup. The quotations here are the quotations of that file that resolve
+    in this file under the citations readers; a quotation absent here is pinned to the extracted text
+    there only.'
+claims:
+  NCI-GWAS:
+    quotes:
+    - exact: 'Briefly, the study comprised samples from four series: (i) The Environment and Genetics
+        in Lung cancer Etiology (EAGLE)'
+      section: 'Online Methods: NCI-GWAS'
+  CPS_II:
+    quotes:
+    - exact: (iv) The Cancer Prevention Study II Nutrition Cohort (CPS-II), a cohort study of approximately
+        184,000 individuals enrolled by the American Cancer Society
+      section: 'Online Methods: NCI-GWAS'
+  PLCO:
+    quotes:
+    - exact: (iii) The Prostate, Lung, Colon, Ovary Screening Trial (PLCO)
+      section: 'Online Methods: NCI-GWAS'
+  ATBC:
+    quotes:
+    - exact: (ii) The Alpha-Tocopherol, Beta-Carotene Cancer Prevention Study (ATBC)
+      section: 'Online Methods: NCI-GWAS'
+  GELCAPS:
+    quotes:
+    - exact: ascertained through the Genetic Lung Cancer Predisposition Study (GELCAPS) conducted between
+        March 1999 and July 2004
+      section: 'Online Methods: ICR-GWAS'
+  DECODE-controls:
+    quotes:
+    - exact: The controls used in this study consisted of individuals from other GWASs, age and sex-matched
+        to cases
+      section: 'Online Methods: deCODE'
+  HARVARD-controls:
+    quotes:
+    - exact: Controls were healthy non-blood-related family members and friends of patients with cancer
+        or with cardiothoracic conditions undergoing surgery.
+      section: 'Online Methods: Harvard'
+  MDACC-controls:
+    quotes:
+    - exact: Controls were healthy individuals seen for routine care at Kelsey-Seybold Clinics, in the
+        Houston Metropolitan area.
+      section: 'Online Methods: MDACC-GWAS'

@@ -1,0 +1,42 @@
+source:
+  citation: trubetskoy2022scz3_main
+  local: sources/trubetskoy2022scz3_main.txt
+  sha256: 8d77300f6cb86f7373d95273bc5a70d7db3229b7f0c2969009c69d52b40c316d
+  url: https://pmc-oa-opendata.s3.amazonaws.com/PMC9392466.1/PMC9392466.1.txt
+  doi: 10.1038/s41586-022-04434-5
+  note: Author manuscript full text of Trubetskoy et al. 2022 Nature, PMC9392466.1.txt from the NCBI PMC
+    AWS open-data bucket (pmc-oa-opendata), unmodified
+claims:
+  primary-composition:
+    quotes:
+    - exact: In the primary GWAS, we combined by meta-analysis i) individual genotypes from a core PGC
+        dataset of 90 cohorts of European (EUR) and East Asian (ASN) ancestry from the Psychiatric Genomics
+        Consortium (PGC) totalling 67,390 cases and 94,015 controls. ii) summary-level data from 7,386
+        cases and 7,008 controls from 9 cohorts of African-American (AA) and Latino (LAT) ancestry10.
+      section: Results
+  core-90:
+    quotes:
+    - exact: The core PGC dataset included 90 cohorts for which we had individual level genotype data
+        fully processed under a uniform pipeline.
+      section: Methods, Samples
+  details-in-supp:
+    quotes:
+    - exact: Details of each of the samples (including sample size, ancestry, and whether included in
+        the previous publication by the PGC) are given in Supplementary Cohort Descriptions.
+      section: Methods, Samples
+  decode-extended:
+    quotes:
+    - exact: were further meta-analysed with an additional dataset of 1,979 cases and 142,626 controls
+        of European ancestry obtained from deCODE genetics, thus the final analysis represents 320,404
+        diploid genomes.
+      section: Methods, Samples
+  primary-n:
+    quotes:
+    - exact: We carried out a primary GWAS in 74,776 cases and 101,023 controls followed by an Extended
+        GWAS which included additional data for the most significant SNPs (Methods).
+      section: Results
+  release:
+    quotes:
+    - exact: Summary statistics for the “Extended”, “Core”, ancestry specific and sex-stratified analyses
+        is available at
+      section: Data availability

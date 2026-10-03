@@ -1,0 +1,23 @@
+source:
+  citation: chen2022stroke
+  local: sources/original/chen2022stroke.xml
+  sha256: a2a57ab9b1d00d4a3d4971e38b7617b059b1b75ab8aace56d6b0e6f8ffd8e27b
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9576777/fullTextXML
+  doi: 10.1038/s41467-022-33675-1
+  note: 'Original file behind claims/chen2022stroke.yaml: Europe PMC fullTextXML of PMC9576777, read as
+    plain text with its markup. The quotations here are the quotations of that file that resolve in this
+    file under the citations readers; a quotation absent here is pinned to the extracted text there only.'
+claims:
+  mr-308:
+    quotes:
+    - exact: resulting in 308 proteins for MR analyses
+      section: Methods, Proteome GWAS
+  gwas-354:
+    quotes:
+    - exact: About 354 proteins (of 363) that passed quality control were taken forward for the GWAS.
+      section: Methods, Proteome GWAS
+  olink-4994:
+    quotes:
+    - exact: we derived genetic instrumental variables (IV) of 308 circulating plasma proteins from 4994
+        participants
+      section: Introduction

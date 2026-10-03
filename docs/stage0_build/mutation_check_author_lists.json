@@ -1,0 +1,62 @@
+{
+ "written_utc": "2026-10-03T19:59:02+00:00",
+ "mutations": 11,
+ "killed": 11,
+ "results": [
+  {
+   "mutation": "pin at the cutoff counts as before",
+   "file": "author_lists.py",
+   "killed": true
+  },
+  {
+   "mutation": "no-cutoff branch removed",
+   "file": "author_lists.py",
+   "killed": true
+  },
+  {
+   "mutation": "any stage-5 run sets the cutoff",
+   "file": "author_lists.py",
+   "killed": true
+  },
+  {
+   "mutation": "latest ledger run used",
+   "file": "author_lists.py",
+   "killed": true
+  },
+  {
+   "mutation": "update-window outputs set the cutoff",
+   "file": "author_lists.py",
+   "killed": true
+  },
+  {
+   "mutation": "later of ledger and outputs used",
+   "file": "author_lists.py",
+   "killed": true
+  },
+  {
+   "mutation": "any row may be replaced",
+   "file": "author_lists.py",
+   "killed": true
+  },
+  {
+   "mutation": "no sha256 required",
+   "file": "author_lists.py",
+   "killed": true
+  },
+  {
+   "mutation": "joins run without a decisions file",
+   "file": "author_lists.py",
+   "killed": true
+  },
+  {
+   "mutation": "override ignored",
+   "file": "pathway_enrichment.py",
+   "killed": true
+  },
+  {
+   "mutation": "coverage rule skipped for a supplied list",
+   "file": "pathway_enrichment.py",
+   "killed": true
+  }
+ ]
+}

@@ -1,0 +1,26 @@
+source:
+  citation: khan2024preprint
+  local: sources/original/khan2024preprint.xml
+  sha256: 266a5c11c7ed51c4190e244516821dcf4263305a62f26fc8a6c2ab54cc86e82e
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11469465/fullTextXML
+  doi: 10.1101/2024.09.20.24314108
+  extractor: jats-text
+  note: 'Original file behind claims/khan2024preprint.yaml: the XML pinned in claims/khan2024preprint_original.yaml,
+    read by the citations extractor jats-text. The quotations here are those of that file that resolve
+    in this reading; a quotation absent here stays pinned where it already was.'
+  extractor_version: 1
+  derived_sha256: 18f4c5aea767a7a4e617ec94aa5a6ca74f3b88e338f851a35fbd0ca80168df1c
+claims:
+  two-reviewer:
+    quotes:
+    - exact: mimics the real-world two-reviewer process
+      section: Abstract, Objective
+  concordant-094:
+    quotes:
+    - exact: In the test set, 342 (87%) responses were concordant. The accuracy of the concordant responses
+        was 0.94.
+      section: Abstract, Results
+  discordant:
+    quotes:
+    - exact: The accuracy of the discordant responses was 0.41 for GPT-4-turbo and 0.50 for Claude-3-Opus.
+      section: Abstract, Results

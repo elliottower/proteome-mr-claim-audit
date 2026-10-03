@@ -1,0 +1,23 @@
+source:
+  citation: mahajan2018diagram_main
+  local: sources/mahajan2018diagram_main.txt
+  sha256: 099932a0e9dda5e17c241b72da37e0cda7ca3eab7b5070dda11689914f1ec069
+  doi: 10.1038/s41588-018-0241-6
+  note: Main text (author manuscript) of Mahajan et al. 2018 Nat Genet 50:1505 (DIAGRAM T2D fine-mapping),
+    NCBI efetch db=pmc id=6287706 XML, paragraphs and table rows extracted with lxml, one block per line
+claims:
+  n32:
+    quotes:
+    - exact: We considered a total of 74,124 T2D cases and 824,006 controls from 32 GWAS undertaken in
+        individuals of European ancestry (Supplementary Table 1)
+      section: Methods
+  prs_noukb:
+    quotes:
+    - exact: using the GWAS summary statistics from the sex-combined BMI-unadjusted T2D meta-analysis
+        excluding UK Biobank samples
+      section: Methods (polygenic risk scores)
+  availability:
+    quotes:
+    - exact: Summary level data from the exome array component of this project will be made available
+        at the DIAGRAM consortium website
+      section: Data availability

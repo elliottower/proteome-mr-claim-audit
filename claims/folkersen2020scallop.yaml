@@ -1,0 +1,24 @@
+source:
+  citation: folkersen2020scallop
+  local: sources/folkersen2020scallop.txt
+  sha256: 9394d67601bcacc259a3501cd069e3ec1982627a0f84e95f9ccc962c213843ab
+  doi: 10.1038/s42255-020-00287-2
+  note: Full text from NCBI efetch db=pmc (PMC7611474), tags stripped, one title or paragraph per line.
+    Folkersen L et al. 2020 Nat Metab (Genomic and drug target evaluation of 90 cardiovascular proteins
+    in 30,931 individuals), author manuscript. PMID 33067605.
+claims:
+  platform-cvd1:
+    quotes:
+    - exact: Summary statistics from GWAS of Olink CVD-I proteins were obtained from 13 cohorts of European
+        ancestry.
+      section: 'Online Methods: Cohorts and data collection'
+  proteins-90:
+    quotes:
+    - exact: Ninety proteins in up to 21,758 participants from 13 cohorts passed quality control (QC)
+        criteria and were available for GWAS meta-analysis [Supplementary Table 1].
+      section: Results
+  panel-selection:
+    quotes:
+    - exact: Proteins for the Olink PEA CVD-I panel were selected by mining the literature for protein
+        biomarkers associated with cardiovascular risk or prognosis
+      section: 'Online Methods: Selection of proteins'

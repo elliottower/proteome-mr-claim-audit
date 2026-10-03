@@ -1,0 +1,27 @@
+source:
+  citation: vanderharst2018cad_supp
+  local: sources/vanderharst2018cad_supp.txt
+  sha256: 66a88672dd2fc84964147432d97145db4c3a8b65ac39c46ea0209fd5bbab77d1
+  doi: 10.1161/CIRCRESAHA.117.312086
+  note: van der Harst and Verweij 2018 Online Data Supplement res-122-433-s001.pdf from the Europe PMC
+    supplementaryFiles zip for PMC5805277, converted with pdftotext -layout.
+claims:
+  meta-howson:
+    quotes:
+    - exact: Finally, we performed a meta-analysis of the GWAS of UK Biobank and the 1000Genomes4+ study6
+      section: Online Data Supplement, Methods
+  ref4-nikpay:
+    quotes:
+    - exact: Nikpay M, Goel A, Won H-H, et al. A comprehensive 1,000 Genomes-based genome-wide association
+        meta-analysis of coronary artery disease.
+      section: References
+  ref5-deloukas:
+    quotes:
+    - exact: CARDIoGRAMplusC4D Consortium P, Deloukas P, Kanoni S, et al. Large-scale association analysis
+        identifies new risk loci for coronary artery disease.
+      section: References
+  ref6-howson:
+    quotes:
+    - exact: Howson JMM, Zhao W, Barnes DR, et al. Fifteen new risk loci for coronary artery disease highlight
+        arterial-wall-specific mechanisms.
+      section: References

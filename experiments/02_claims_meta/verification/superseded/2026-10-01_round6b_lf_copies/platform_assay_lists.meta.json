@@ -1,0 +1,385 @@
+{
+ "platform_assay_lists_sha256": "978e0be7f5a3d4a950b928de6127180f6f919b5bd435a0b8db277018dd59be51",
+ "lists": {
+  "olink_explore_3072": {
+   "source_file": "olink_protein_map_3k_v1.tsv",
+   "column": "UniProt",
+   "rows": 2958,
+   "rows_without_accession": 1,
+   "accessions_printed": 2927,
+   "accessions_in_reviewed_uniprot": 2926,
+   "accessions_not_in_reviewed_uniprot": [
+    "Q8IXS6"
+   ],
+   "source_sha256": "2bc9668e56f43818e2a61558fcdd0b5384b4919602bc61c9faaed2622aefe6aa"
+  },
+  "olink_explore_1536": {
+   "source_file": "olink_protein_map_1.5k_v1.tsv",
+   "column": "UniProt",
+   "rows": 1480,
+   "rows_without_accession": 1,
+   "accessions_printed": 1465,
+   "accessions_in_reviewed_uniprot": 1465,
+   "accessions_not_in_reviewed_uniprot": [],
+   "source_sha256": "431187e35d15c39b3861b75e6c10ab634b1506fe3e02f90f6c753c8d78fe91d6"
+  },
+  "olink_target_96": {
+   "source_file": "pQTLdata_0.6_Olink_Target_96.tsv",
+   "column": "UniProt",
+   "rows": 1161,
+   "rows_without_accession": 1,
+   "accessions_printed": 1163,
+   "accessions_in_reviewed_uniprot": 1163,
+   "accessions_not_in_reviewed_uniprot": [],
+   "source_sha256": "99d540b85780f6e04ddb94d9efc0339b5852a1dc8804ed0bb1c76bf3e279a56d"
+  },
+  "olink_target_96:CAM": {
+   "source_file": "pQTLdata_0.6_Olink_Target_96.tsv",
+   "column": "UniProt",
+   "rows": 92,
+   "rows_without_accession": 0,
+   "accessions_printed": 92,
+   "accessions_in_reviewed_uniprot": 92,
+   "accessions_not_in_reviewed_uniprot": [],
+   "source_sha256": "99d540b85780f6e04ddb94d9efc0339b5852a1dc8804ed0bb1c76bf3e279a56d"
+  },
+  "olink_target_96:CRE": {
+   "source_file": "pQTLdata_0.6_Olink_Target_96.tsv",
+   "column": "UniProt",
+   "rows": 92,
+   "rows_without_accession": 0,
+   "accessions_printed": 92,
+   "accessions_in_reviewed_uniprot": 92,
+   "accessions_not_in_reviewed_uniprot": [],
+   "source_sha256": "99d540b85780f6e04ddb94d9efc0339b5852a1dc8804ed0bb1c76bf3e279a56d"
+  },
+  "olink_target_96:CVD II": {
+   "source_file": "pQTLdata_0.6_Olink_Target_96.tsv",
+   "column": "UniProt",
+   "rows": 92,
+   "rows_without_accession": 0,
+   "accessions_printed": 93,
+   "accessions_in_reviewed_uniprot": 93,
+   "accessions_not_in_reviewed_uniprot": [],
+   "source_sha256": "99d540b85780f6e04ddb94d9efc0339b5852a1dc8804ed0bb1c76bf3e279a56d"
+  },
+  "olink_target_96:CVD III": {
+   "source_file": "pQTLdata_0.6_Olink_Target_96.tsv",
+   "column": "UniProt",
+   "rows": 92,
+   "rows_without_accession": 1,
+   "accessions_printed": 91,
+   "accessions_in_reviewed_uniprot": 91,
+   "accessions_not_in_reviewed_uniprot": [],
+   "source_sha256": "99d540b85780f6e04ddb94d9efc0339b5852a1dc8804ed0bb1c76bf3e279a56d"
+  },
+  "olink_target_96:DEV": {
+   "source_file": "pQTLdata_0.6_Olink_Target_96.tsv",
+   "column": "UniProt",
+   "rows": 92,
+   "rows_without_accession": 0,
+   "accessions_printed": 93,
+   "accessions_in_reviewed_uniprot": 93,
+   "accessions_not_in_reviewed_uniprot": [],
+   "source_sha256": "99d540b85780f6e04ddb94d9efc0339b5852a1dc8804ed0bb1c76bf3e279a56d"
+  },
+  "olink_target_96:IMO": {
+   "source_file": "pQTLdata_0.6_Olink_Target_96.tsv",
+   "column": "UniProt",
+   "rows": 92,
+   "rows_without_accession": 0,
+   "accessions_printed": 94,
+   "accessions_in_reviewed_uniprot": 94,
+   "accessions_not_in_reviewed_uniprot": [],
+   "source_sha256": "99d540b85780f6e04ddb94d9efc0339b5852a1dc8804ed0bb1c76bf3e279a56d"
+  },
+  "olink_target_96:INF": {
+   "source_file": "pQTLdata_0.6_Olink_Target_96.tsv",
+   "column": "UniProt",
+   "rows": 92,
+   "rows_without_accession": 0,
+   "accessions_printed": 92,
+   "accessions_in_reviewed_uniprot": 92,
+   "accessions_not_in_reviewed_uniprot": [],
+   "source_sha256": "99d540b85780f6e04ddb94d9efc0339b5852a1dc8804ed0bb1c76bf3e279a56d"
+  },
+  "olink_target_96:IRE": {
+   "source_file": "pQTLdata_0.6_Olink_Target_96.tsv",
+   "column": "UniProt",
+   "rows": 92,
+   "rows_without_accession": 0,
+   "accessions_printed": 92,
+   "accessions_in_reviewed_uniprot": 92,
+   "accessions_not_in_reviewed_uniprot": [],
+   "source_sha256": "99d540b85780f6e04ddb94d9efc0339b5852a1dc8804ed0bb1c76bf3e279a56d"
+  },
+  "olink_target_96:MET": {
+   "source_file": "pQTLdata_0.6_Olink_Target_96.tsv",
+   "column": "UniProt",
+   "rows": 92,
+   "rows_without_accession": 1,
+   "accessions_printed": 91,
+   "accessions_in_reviewed_uniprot": 91,
+   "accessions_not_in_reviewed_uniprot": [],
+   "source_sha256": "99d540b85780f6e04ddb94d9efc0339b5852a1dc8804ed0bb1c76bf3e279a56d"
+  },
+  "olink_target_96:NEU": {
+   "source_file": "pQTLdata_0.6_Olink_Target_96.tsv",
+   "column": "UniProt",
+   "rows": 92,
+   "rows_without_accession": 0,
+   "accessions_printed": 93,
+   "accessions_in_reviewed_uniprot": 93,
+   "accessions_not_in_reviewed_uniprot": [],
+   "source_sha256": "99d540b85780f6e04ddb94d9efc0339b5852a1dc8804ed0bb1c76bf3e279a56d"
+  },
+  "olink_target_96:NEX": {
+   "source_file": "pQTLdata_0.6_Olink_Target_96.tsv",
+   "column": "UniProt",
+   "rows": 92,
+   "rows_without_accession": 0,
+   "accessions_printed": 92,
+   "accessions_in_reviewed_uniprot": 92,
+   "accessions_not_in_reviewed_uniprot": [],
+   "source_sha256": "99d540b85780f6e04ddb94d9efc0339b5852a1dc8804ed0bb1c76bf3e279a56d"
+  },
+  "olink_target_96:ODA": {
+   "source_file": "pQTLdata_0.6_Olink_Target_96.tsv",
+   "column": "UniProt",
+   "rows": 92,
+   "rows_without_accession": 0,
+   "accessions_printed": 92,
+   "accessions_in_reviewed_uniprot": 92,
+   "accessions_not_in_reviewed_uniprot": [],
+   "source_sha256": "99d540b85780f6e04ddb94d9efc0339b5852a1dc8804ed0bb1c76bf3e279a56d"
+  },
+  "olink_target_96:ONC II": {
+   "source_file": "pQTLdata_0.6_Olink_Target_96.tsv",
+   "column": "UniProt",
+   "rows": 92,
+   "rows_without_accession": 0,
+   "accessions_printed": 93,
+   "accessions_in_reviewed_uniprot": 93,
+   "accessions_not_in_reviewed_uniprot": [],
+   "source_sha256": "99d540b85780f6e04ddb94d9efc0339b5852a1dc8804ed0bb1c76bf3e279a56d"
+  },
+  "olink_target_96:ONC III": {
+   "source_file": "pQTLdata_0.6_Olink_Target_96.tsv",
+   "column": "UniProt",
+   "rows": 92,
+   "rows_without_accession": 0,
+   "accessions_printed": 92,
+   "accessions_in_reviewed_uniprot": 92,
+   "accessions_not_in_reviewed_uniprot": [],
+   "source_sha256": "99d540b85780f6e04ddb94d9efc0339b5852a1dc8804ed0bb1c76bf3e279a56d"
+  },
+  "somascan_v4": {
+   "source_file": "eldjarn2023_ST2_soma_assays.tsv",
+   "column": "uniprot",
+   "rows": 5029,
+   "rows_without_accession": 0,
+   "accessions_printed": 4724,
+   "accessions_in_reviewed_uniprot": 4717,
+   "accessions_not_in_reviewed_uniprot": [
+    "J3QR46",
+    "P01233",
+    "P01562",
+    "P04745",
+    "P30042",
+    "Q8NFS9",
+    "Q9Y4X1"
+   ],
+   "source_sha256": "d274b6466f59384457d27f398f97de09b8bf059236e8f56d11725587bd48f82c"
+  },
+  "somascan_1.3k": {
+   "source_file": "eldjarn2023_ST2_soma_assays.tsv",
+   "column": "uniprot",
+   "rows": 1158,
+   "rows_without_accession": 0,
+   "accessions_printed": 1064,
+   "accessions_in_reviewed_uniprot": 1063,
+   "accessions_not_in_reviewed_uniprot": [
+    "P01233"
+   ],
+   "source_sha256": "d274b6466f59384457d27f398f97de09b8bf059236e8f56d11725587bd48f82c",
+   "row_filter": "on_1.2k == True"
+  },
+  "somascan_160410": {
+   "source_file": "pQTLdata_0.6_SomaScan160410.tsv",
+   "column": "UniProt",
+   "rows": 5178,
+   "rows_without_accession": 0,
+   "accessions_printed": 3601,
+   "accessions_in_reviewed_uniprot": 3592,
+   "accessions_not_in_reviewed_uniprot": [
+    "J3QR46",
+    "P01233",
+    "P01916",
+    "P04232",
+    "P04745",
+    "P13763",
+    "P30042",
+    "Q8NFS9",
+    "Q9Y4X1"
+   ],
+   "source_sha256": "30c311410c04940ae1728a060d22e02d55240d38942b6846733bbad20b698d41"
+  },
+  "somascan_v4.1": {
+   "source_file": "pQTLdata_0.6_SomaScanV4.1.tsv",
+   "column": "UniProt.ID",
+   "rows": 7288,
+   "rows_without_accession": 0,
+   "accessions_printed": 6383,
+   "accessions_in_reviewed_uniprot": 6375,
+   "accessions_not_in_reviewed_uniprot": [
+    "B9ZVM9",
+    "P01562",
+    "P04745",
+    "P30042",
+    "Q12799",
+    "Q6F5E7",
+    "Q8NFS9",
+    "Q9Y4X1"
+   ],
+   "source_sha256": "9442ebd9964c0cf344b71753d67409b2ec1850cd2325d2ae8519f48549b9a9a4"
+  },
+  "fenland_covid_179": {
+   "source": "Pietzner et al. 2020 (Nat Commun) Supplementary Data 1",
+   "source_file": "pietzner2020_SD1.xlsx",
+   "source_sha256": "bb9e011a1d82adb9e40227877483403f5142a3629b928eff57c6c0edd2812e78",
+   "sheet": "SD1",
+   "column": "UniProtID",
+   "id_kind": "uniprot",
+   "row_filter": "SOMAmer target (1-yes, 0-no) == 1",
+   "rows": 179,
+   "rows_without_identifier": 0,
+   "distinct_identifier_cells": 174,
+   "accessions_printed": 175,
+   "accessions_in_reviewed_uniprot": 175,
+   "cells_or_symbols_without_reviewed_accession": []
+  },
+  "olink_target_96:CVD I": {
+   "source": "Folkersen et al. 2020 (Nat Metab) Supplementary Table 1",
+   "source_file": "folkersen2020_ST1.xlsx",
+   "source_sha256": "928e2526e972469f52cfea931e1bcec1be9d699f3305db4a197aad0ffeb64d4d",
+   "sheet": "1 Protein_info",
+   "column": "UniProt ID",
+   "id_kind": "uniprot",
+   "row_filter": "CVDI == Y",
+   "rows": 92,
+   "rows_without_identifier": 0,
+   "distinct_identifier_cells": 92,
+   "accessions_printed": 92,
+   "accessions_in_reviewed_uniprot": 92,
+   "cells_or_symbols_without_reviewed_accession": [
+    "NA"
+   ]
+  },
+  "somascan_ages_custom": {
+   "source": "Gudjonsson et al. 2022 (Nat Commun) Supplementary Data 6",
+   "source_file": "gudjonsson2022_SD6.xlsx",
+   "source_sha256": "c6364dede2887c75c0429a31ec8320a7465d61fdb6379d11264087f8f383a88a",
+   "sheet": "first sheet",
+   "column": "Protein (Entrez symbol)",
+   "id_kind": "gene_symbol",
+   "row_filter": null,
+   "rows": 4118,
+   "rows_without_identifier": 0,
+   "distinct_identifier_cells": 4118,
+   "accessions_printed": 4146,
+   "accessions_in_reviewed_uniprot": 4146,
+   "cells_or_symbols_without_reviewed_accession": [
+    "IGK",
+    "IGL",
+    "LOC652493"
+   ]
+  },
+  "somascan_v3.2_kora": {
+   "source": "Suhre et al. 2017 (Nat Commun) Supplementary Dataset 2",
+   "source_file": "suhre2017_dataset2.xlsx",
+   "source_sha256": "d945d90433bcc6ac6ff3eb82ae19d0589681effa894720a24d97aaba494609b4",
+   "sheet": "Supplemental Data 2",
+   "column": "UniProt",
+   "id_kind": "uniprot",
+   "row_filter": null,
+   "rows": 1124,
+   "rows_without_identifier": 0,
+   "distinct_identifier_cells": 1095,
+   "accessions_printed": 1130,
+   "accessions_in_reviewed_uniprot": 1124,
+   "cells_or_symbols_without_reviewed_accession": [
+    "P03129",
+    "P06788",
+    "P08107",
+    "P18093",
+    "Q70626"
+   ]
+  },
+  "fhs_luminex_71": {
+   "source": "Yao et al. 2018 (Nat Commun) Supplementary Data 1",
+   "source_file": "yao2018_SD1.xlsx",
+   "source_sha256": "3369290df4595d7dea1a953294215df0d119c8a8736c3e5b6676548653eda658",
+   "sheet": "first sheet",
+   "column": "Protein-coding Gene Abbreviation",
+   "id_kind": "gene_symbol",
+   "row_filter": null,
+   "rows": 76,
+   "rows_without_identifier": 5,
+   "distinct_identifier_cells": 70,
+   "accessions_printed": 70,
+   "accessions_in_reviewed_uniprot": 70,
+   "cells_or_symbols_without_reviewed_accession": []
+  },
+  "zheng2020_instrumented_1699": {
+   "source": "Zheng et al. 2020 (Nat Genet) Supplementary Table 1",
+   "source_file": "zheng2020_ST1.xlsx",
+   "source_sha256": "0812c04ca38150e67d6eae1bde3863331ffd61fc0f7634e1120780edd8328a14",
+   "sheet": "TableS1.Instruments",
+   "column": "UNIPROT",
+   "id_kind": "uniprot",
+   "row_filter": null,
+   "rows": 2113,
+   "rows_without_identifier": 0,
+   "distinct_identifier_cells": 1698,
+   "accessions_printed": 3026,
+   "accessions_in_reviewed_uniprot": 1725,
+   "cells_or_symbols_without_reviewed_accession": [
+    "#N/A",
+    "A0A140T9Z0;Q9Y4X1;D6RFW5",
+    "B4DSX9;O75612;Q86SR3;X6R868",
+    "E7EXA8;E9PAL0",
+    "P04745;Q6NSB3"
+   ]
+  },
+  "olink_proseek_oncology_I": {
+   "source": "Enroth et al. 2014 (Nat Commun) Supplementary Data 1",
+   "source_file": "enroth2014_SD1.xlsx",
+   "source_sha256": "25a61c2f2fb24d7471404900c26ed8df0da6af1d37a6d5c4b589474b748e6e30",
+   "sheet": "Analytes",
+   "column": "UniprotID",
+   "id_kind": "uniprot",
+   "row_filter": null,
+   "rows": 92,
+   "rows_without_identifier": 1,
+   "distinct_identifier_cells": 91,
+   "accessions_printed": 91,
+   "accessions_in_reviewed_uniprot": 91,
+   "cells_or_symbols_without_reviewed_accession": []
+  },
+  "gnhs_swath_ms_304": {
+   "source": "Xu et al. 2023 (Nat Commun) Supplementary Data 2",
+   "source_file": "xu2023_SD2.xlsx",
+   "source_sha256": "cf5488da38892896ff371f09d377ac55f0709755a5d9a91e5360f9befc02a847",
+   "sheet": "first sheet",
+   "column": "UniProtKB ID",
+   "id_kind": "uniprot",
+   "row_filter": "Sequence of peptide == NULL",
+   "rows": 304,
+   "rows_without_identifier": 0,
+   "distinct_identifier_cells": 304,
+   "accessions_printed": 304,
+   "accessions_in_reviewed_uniprot": 304,
+   "cells_or_symbols_without_reviewed_accession": []
+  }
+ }
+}

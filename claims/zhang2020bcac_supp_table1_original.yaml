@@ -1,0 +1,48 @@
+source:
+  citation: zhang2020bcac_supp_table1
+  local: sources/original/zhang2020bcac_supp_table1.xlsx
+  sha256: 277b381fc31a9d5cb38d7558a6cc9271b7acf680b9ac530d88ae951f2f8ede9e
+  url: https://static-content.springer.com/esm/art%3A10.1038%2Fs41588-020-0609-2/MediaObjects/41588_2020_609_MOESM3_ESM.xlsx
+  doi: 10.1038/s41588-020-0609-2
+  extractor: sheet-rows
+  note: 'Original file behind claims/zhang2020bcac_supp_table1.yaml: 41588_2020_609_MOESM3_ESM.xlsx from
+    static-content.springer.com, read by the citations extractor sheet-rows. The quotations here are those
+    of that file that resolve in this reading; a quotation absent here stays pinned where it already was.'
+  extractor_version: 1
+  derived_sha256: 4259290ae84bf9ecb6b6188e3a9c9eafd923406d522b763d310849a207d0c3f2
+claims:
+  s1-caption:
+    quotes:
+    - exact: 'Supplementary Table 1: BCAC studies contributing data1, by genotyping initiative'
+      section: Supplementary Table 1 caption
+  s1-ahs:
+    quotes:
+    - exact: 'AHS | Agricultural Health Study | USA | Prospective cohorts: nested case-control studies'
+      section: Supplementary Table 1
+  s1-bcfr:
+    quotes:
+    - exact: BCFR | Breast Cancer Family Registry | USA, Canada, Australia | Case-control study
+      section: Supplementary Table 1
+  s1-bpc3:
+    quotes:
+    - exact: 'BPC3 | Breast and Prostate Cancer Cohort Consortium | International | Prospective cohorts:
+        nested case-control studies'
+      section: Supplementary Table 1
+  s1-hmbcs:
+    quotes:
+    - exact: HMBCS# | Hannover-Minsk Breast Cancer Study | Belarus | Case-control study
+      section: Supplementary Table 1
+  s1-uk2:
+    quotes:
+    - exact: UK2 | UK2 GWAS | UK | Case-control study
+      section: Supplementary Table 1
+  s1-norway-footnote:
+    quotes:
+    - exact: 1 We excluded the OncoArray data from Norway (the Norwegian Breast Cancer Study) because
+        there were no controls available from Norway
+      section: Supplementary Table 1 footnote
+  s1-column-heads:
+    quotes:
+    - exact: Acronym | Study Name | Country | Study design | Controls | Invasive | In Situ | Unknown Invasiveness
+        | Controls | Invasive | In Situ | Unknown Invasiveness | Controls | Cases
+      section: Supplementary Table 1 header (iCOGS | OncoArray | Other GWAS)

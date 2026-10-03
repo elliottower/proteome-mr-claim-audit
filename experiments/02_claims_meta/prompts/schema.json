@@ -1,0 +1,334 @@
+{
+  "eligibility": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+      "genetic_instruments_for_circulating_proteins",
+      "states_protein_outcome_result",
+      "proteome_or_panel_wide_screen",
+      "n_proteins_tested",
+      "n_proteins_tested_span",
+      "count_other",
+      "count_other_span",
+      "exclusion",
+      "also_tissue_or_csf"
+    ],
+    "properties": {
+      "genetic_instruments_for_circulating_proteins": {
+        "type": "string",
+        "enum": [
+          "yes",
+          "no",
+          "uncertain"
+        ]
+      },
+      "states_protein_outcome_result": {
+        "type": "string",
+        "enum": [
+          "yes",
+          "no",
+          "uncertain"
+        ]
+      },
+      "proteome_or_panel_wide_screen": {
+        "type": "string",
+        "enum": [
+          "yes",
+          "no",
+          "uncertain"
+        ]
+      },
+      "n_proteins_tested": {
+        "type": [
+          "integer",
+          "null"
+        ],
+        "description": "Proteins stated as entered into the MR (or other genetically proxied) analysis; not a count of proteins found associated or significant."
+      },
+      "n_proteins_tested_span": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "count_other": {
+        "type": [
+          "integer",
+          "null"
+        ],
+        "description": "Proteins measured, assayed, with pQTLs/instruments, or available for analysis, not stated as tested in MR; never a count of proteins associated with, significant for, or causally linked to an outcome. Null if only such result counts are given."
+      },
+      "count_other_span": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "exclusion": {
+        "type": "array",
+        "items": {
+          "type": "string",
+          "enum": [
+            "review",
+            "protocol",
+            "non_human",
+            "tissue_or_csf_proteomics"
+          ]
+        }
+      },
+      "also_tissue_or_csf": {
+        "type": "boolean"
+      }
+    }
+  },
+  "extraction": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+      "claims"
+    ],
+    "properties": {
+      "claims": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "protein_as_written",
+            "outcome_as_written",
+            "direction",
+            "evidence_type",
+            "claim_scope",
+            "analysis_context_as_written",
+            "subgroup_as_written",
+            "pqtl_datasets",
+            "outcome_datasets",
+            "dataset_attribution",
+            "platform",
+            "ancestry",
+            "relation_ambiguous",
+            "evidence_span"
+          ],
+          "properties": {
+            "protein_as_written": {
+              "type": "string"
+            },
+            "outcome_as_written": {
+              "type": "string"
+            },
+            "direction": {
+              "type": "string",
+              "enum": [
+                "raises",
+                "lowers",
+                "reported_nonsignificant_or_null",
+                "not_stated"
+              ]
+            },
+            "evidence_type": {
+              "type": "string",
+              "enum": [
+                "mr_estimate",
+                "observational",
+                "experimental",
+                "variant_association",
+                "other"
+              ]
+            },
+            "claim_scope": {
+              "type": "string",
+              "enum": [
+                "overall",
+                "dataset_specific",
+                "ancestry_specific",
+                "subgroup_specific",
+                "sensitivity",
+                "unclear"
+              ]
+            },
+            "analysis_context_as_written": {
+              "type": "string"
+            },
+            "subgroup_as_written": {
+              "type": "string"
+            },
+            "pqtl_datasets": {
+              "type": "array",
+              "minItems": 1,
+              "items": {
+                "type": "string"
+              }
+            },
+            "outcome_datasets": {
+              "type": "array",
+              "minItems": 1,
+              "items": {
+                "type": "string"
+              }
+            },
+            "dataset_attribution": {
+              "type": "string",
+              "enum": [
+                "claim_specific",
+                "whole_study",
+                "unclear"
+              ]
+            },
+            "platform": {
+              "type": "array",
+              "minItems": 1,
+              "items": {
+                "type": "string"
+              }
+            },
+            "ancestry": {
+              "type": "string"
+            },
+            "relation_ambiguous": {
+              "type": "boolean"
+            },
+            "evidence_span": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    }
+  },
+  "fulltext_extraction": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+      "claims"
+    ],
+    "properties": {
+      "claims": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "protein_as_written",
+            "outcome_as_written",
+            "direction",
+            "evidence_type",
+            "claim_scope",
+            "analysis_context_as_written",
+            "subgroup_as_written",
+            "pqtl_datasets",
+            "outcome_datasets",
+            "dataset_attribution",
+            "platform",
+            "ancestry",
+            "relation_ambiguous",
+            "evidence_span",
+            "source_location",
+            "colocalization",
+            "replication"
+          ],
+          "properties": {
+            "protein_as_written": {
+              "type": "string"
+            },
+            "outcome_as_written": {
+              "type": "string"
+            },
+            "direction": {
+              "type": "string",
+              "enum": [
+                "raises",
+                "lowers",
+                "reported_nonsignificant_or_null",
+                "not_stated"
+              ]
+            },
+            "evidence_type": {
+              "type": "string",
+              "enum": [
+                "mr_estimate",
+                "observational",
+                "experimental",
+                "variant_association",
+                "other"
+              ]
+            },
+            "claim_scope": {
+              "type": "string",
+              "enum": [
+                "overall",
+                "dataset_specific",
+                "ancestry_specific",
+                "subgroup_specific",
+                "sensitivity",
+                "unclear"
+              ]
+            },
+            "analysis_context_as_written": {
+              "type": "string"
+            },
+            "subgroup_as_written": {
+              "type": "string"
+            },
+            "pqtl_datasets": {
+              "type": "array",
+              "minItems": 1,
+              "items": {
+                "type": "string"
+              }
+            },
+            "outcome_datasets": {
+              "type": "array",
+              "minItems": 1,
+              "items": {
+                "type": "string"
+              }
+            },
+            "dataset_attribution": {
+              "type": "string",
+              "enum": [
+                "claim_specific",
+                "whole_study",
+                "unclear"
+              ]
+            },
+            "platform": {
+              "type": "array",
+              "minItems": 1,
+              "items": {
+                "type": "string"
+              }
+            },
+            "ancestry": {
+              "type": "string"
+            },
+            "relation_ambiguous": {
+              "type": "boolean"
+            },
+            "evidence_span": {
+              "type": "string"
+            },
+            "source_location": {
+              "type": "string"
+            },
+            "colocalization": {
+              "type": "string",
+              "enum": [
+                "supports",
+                "does_not_support",
+                "not_reported"
+              ]
+            },
+            "replication": {
+              "type": "string",
+              "enum": [
+                "replicated",
+                "not_replicated",
+                "not_reported"
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}

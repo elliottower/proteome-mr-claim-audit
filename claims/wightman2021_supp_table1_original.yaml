@@ -1,0 +1,78 @@
+source:
+  citation: wightman2021_supp_table1
+  local: sources/original/wightman2021_supp_table1.xlsx
+  sha256: 917eac5ffaa8404088ecdfef0e2f3289d23b1b7d81767bc5866f65f54e38e11b
+  url: https://static-content.springer.com/esm/art%3A10.1038%2Fs41588-021-00921-z/MediaObjects/41588_2021_921_MOESM4_ESM.xlsx
+  doi: 10.1038/s41588-021-00921-z
+  extractor: sheet-rows
+  note: 'Original file behind claims/wightman2021_supp_table1.yaml: 41588_2021_921_MOESM4_ESM.xlsx from
+    static-content.springer.com, read by the citations extractor sheet-rows. The quotations here are those
+    of that file that resolve in this reading; a quotation absent here stays pinned where it already was.'
+  extractor_version: 1
+  derived_sha256: 16da4c720a11be38df634ef1525dcc1b1cb4e2e037b734caa4ed5a761612e98e
+claims:
+  caption:
+    quotes:
+    - exact: 'Supplementary Table 1: A list of the datasets included in the meta-analysis.'
+      section: Supplementary Table 1
+  grand_total:
+    quotes:
+    - exact: Grand total | - | 90338 | 1036225
+      section: Supplementary Table 1
+  row_igap:
+    quotes:
+    - exact: IGAP* | US & Europe | 21982 | 41944
+      section: Supplementary Table 1
+  row_ukb:
+    quotes:
+    - exact: UKB (Proxy) | UK | 46613 | 318246
+      section: Supplementary Table 1
+  row_demgene:
+    quotes:
+    - exact: DemGene | Norway | 1638 | 6059
+      section: Supplementary Table 1
+  row_twingene:
+    quotes:
+    - exact: TwinGene | Sweden | 224 | 6321
+      section: Supplementary Table 1
+  row_stsa:
+    quotes:
+    - exact: STSA | Sweden | 320 | 750
+      section: Supplementary Table 1
+  row_decode:
+    quotes:
+    - exact: deCODE (partially included) | Iceland | 7002 | 181573
+      section: Supplementary Table 1
+  row_finngen:
+    quotes:
+    - exact: Finngen* | Finland | 1798 | 72206
+      section: Supplementary Table 1
+  row_grace:
+    quotes:
+    - exact: GR@CE | Spain | 4120 | 3289
+      section: Supplementary Table 1
+  row_hunt:
+    quotes:
+    - exact: HUNT | Norway | 1156 | 7157
+      section: Supplementary Table 1
+  row_biovu:
+    quotes:
+    - exact: BioVU | US | 600 | 36059
+      section: Supplementary Table 1
+  row_23andme:
+    quotes:
+    - exact: 23andMe | US | 3807 | 359839
+      section: Supplementary Table 1
+  row_gothenburg_h70:
+    quotes:
+    - exact: Gothenburg H70 Birth Cohort Studies and Clinical AD from Sweden (Gothenburg) | Sweden | 712
+        | 2523
+      section: Supplementary Table 1
+  row_anmerge:
+    quotes:
+    - exact: ANMerge | EUR | 366 | 259
+      section: Supplementary Table 1
+  st1-footnote-public:
+    quotes:
+    - exact: '*=publically available'
+      section: Supplementary Table 1 footnote

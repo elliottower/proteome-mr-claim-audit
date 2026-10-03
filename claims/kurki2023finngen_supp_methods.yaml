@@ -1,0 +1,26 @@
+source:
+  citation: kurki2023finngen_supp_methods
+  local: sources/kurki2023finngen_supp_methods.txt
+  sha256: 50f1c3ac0ba6d00f196f550c412b3bef64f154b337c683f73d3a414ab5b0786d
+  doi: 10.1038/s41586-022-05473-8
+  note: Supplementary Methods and Figures of Kurki MI et al. 2023 Nature (41586_2022_5473_MOESM5_ESM.docx
+    from the Europe PMC supplementaryFiles zip for PMC9849126), paragraphs extracted with python-docx,
+    one paragraph per line.
+claims:
+  legacy-def:
+    quotes:
+    - exact: The FinnGen cohort consists of (a) legacy samples recruited by specific research projects,
+        collected based on study-specific consents (Supplementary Table 2) and later transferred to a
+        biobank according to the Finnish Biobank Act 13 § (mainly from the Biobank of the Finnish Institute
+        for Health and Welfare (THL))
+      section: Section 2
+  r5-biobanks:
+    quotes:
+    - exact: 'from the following biobanks: Auria Biobank, Helsinki Biobank, Biobank of Eastern Finland,
+        Central Finland Biobank, Northern Finland Biobank Borealis, Finnish Clinical Biobank Tampere,
+        THL Biobank, Blood Service Biobank, and Terveystalo Biobank.'
+      section: Section 2
+  legacy-chips:
+    quotes:
+    - exact: 70,023 individuals from legacy collections genotyped with non-custom genotyping arrays
+      section: Section 3

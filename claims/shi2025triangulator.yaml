@@ -1,0 +1,18 @@
+source:
+  citation: shi2025triangulator
+  local: sources/shi2025_evidence_triangulator.txt
+  sha256: f483354b87f4a975676cab4c5941978a9c4b6ddb86a94e7971558ecb475a220e
+  doi: 10.1038/s41467-025-62783-x
+  note: Shi X, Zhao W, Chen T, Yang C, Du J. Evidence triangulator. Nat Commun 2025;16:7355. PMC12335490,
+    Europe PMC fullTextXML, tags stripped.
+claims:
+  direction-f1:
+    quotes:
+    - exact: particularly in identifying the direction of effect (F1 = 0.86) and statistical significance
+        (F1 = 0.96)
+      section: Abstract
+  abstracts:
+    quotes:
+    - exact: our LLM pipeline—despite relying solely on results reported in abstracts—closely aligns with
+        established systematic review processes
+      section: Results, Case 1

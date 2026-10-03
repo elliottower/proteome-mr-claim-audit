@@ -1,0 +1,59 @@
+surface,term_id,term_label,source,note
+CAD,MONDO:0005010,coronary artery disorder,clinical_abbreviation,
+CHD,MONDO:0005010,coronary artery disorder,clinical_abbreviation,coronary heart disease; Mondo has no separate term
+coronary heart disease,MONDO:0005010,coronary artery disorder,clinical_abbreviation,Mondo has no separate term
+coronary artery disease,MONDO:0005010,coronary artery disorder,clinical_abbreviation,EFO term obsolete; Mondo label differs
+MI,MONDO:0005068,myocardial infarction,clinical_abbreviation,
+T2D,MONDO:0005148,type 2 diabetes mellitus,clinical_abbreviation,
+T2DM,MONDO:0005148,type 2 diabetes mellitus,clinical_abbreviation,
+type 2 diabetes,MONDO:0005148,type 2 diabetes mellitus,clinical_abbreviation,
+T1D,MONDO:0005147,type 1 diabetes mellitus,clinical_abbreviation,
+type 1 diabetes,MONDO:0005147,type 1 diabetes mellitus,clinical_abbreviation,
+AD,MONDO:0004975,Alzheimer disease,clinical_abbreviation,
+IBD,MONDO:0005265,inflammatory bowel disease,clinical_abbreviation,
+UC,MONDO:0005101,ulcerative colitis,clinical_abbreviation,
+RA,MONDO:0008383,rheumatoid arthritis,clinical_abbreviation,
+SLE,MONDO:0007915,systemic lupus erythematosus,clinical_abbreviation,
+COPD,MONDO:0005002,chronic obstructive pulmonary disease,clinical_abbreviation,
+CKD,MONDO:0005300,chronic kidney disease,clinical_abbreviation,
+AF,MONDO:0004981,atrial fibrillation,clinical_abbreviation,
+HF,MONDO:0005252,heart failure,clinical_abbreviation,
+MS,MONDO:0005301,multiple sclerosis,clinical_abbreviation,
+PD,MONDO:0005180,Parkinson disease,clinical_abbreviation,
+ALS,MONDO:0004976,amyotrophic lateral sclerosis,clinical_abbreviation,
+AAA,MONDO:0005350,abdominal aortic aneurysm,clinical_abbreviation,
+VTE,MONDO:0005399,venous thromboembolism,clinical_abbreviation,
+NAFLD,MONDO:0013209,metabolic dysfunction-associated steatotic liver disease,clinical_abbreviation,resolved through replaced_by
+OA,MONDO:0005178,osteoarthritis,clinical_abbreviation,
+BMI,EFO:0004340,body mass index,clinical_abbreviation,
+SBP,EFO:0006335,systolic blood pressure,clinical_abbreviation,
+DBP,EFO:0006336,diastolic blood pressure,clinical_abbreviation,
+eGFR,OBA:0003747,glomerular filtration rate,clinical_abbreviation,EFO term obsolete; replaced by OBA
+estimated glomerular filtration rate,OBA:0003747,glomerular filtration rate,clinical_abbreviation,
+CRP,EFO:0004458,C-reactive protein measurement,clinical_abbreviation,
+C-reactive protein,EFO:0004458,C-reactive protein measurement,clinical_abbreviation,
+IL-6,OBA:2052890,amount of interleukin-6 (human) in blood,clinical_abbreviation,outcome that is itself a protein
+interleukin 6,OBA:2052890,amount of interleukin-6 (human) in blood,dev_set_miss,outcome that is itself a protein
+interleukin-6,OBA:2052890,amount of interleukin-6 (human) in blood,dev_set_miss,
+log interleukin-6,OBA:2052890,amount of interleukin-6 (human) in blood,dev_set_miss,PMID 22421340
+fibrinogen,OBA:0000061,circulating fibrinogen levels,dev_set_miss,PMID 22421340; EFO fibrinogen measurement obsolete
+stem cell factor,OBA:2052629,amount of kit ligand (human) in blood,dev_set_miss,PMID 28369058; stem cell factor = kit ligand
+apolipoprotein E,OBA:2040627,level of apolipoprotein E in blood serum,dev_set_miss,PMID 29258991
+apolipoprotein E protein,OBA:2040627,level of apolipoprotein E in blood serum,dev_set_miss,PMID 29258991
+fasting glucose,OBA:VT0000188,blood glucose amount,dev_set_miss,PMID 25350643; EFO fasting blood glucose measurement obsolete
+fasting insulin,OBA:VT0001560,blood insulin amount,dev_set_miss,PMID 25350643; EFO fasting blood insulin measurement obsolete
+bone mineral density,OBA:1000110,bone tissue density,dev_set_miss,PMID 25350643; EFO bone density obsolete
+25OHD,OBA:1000968,vitamin D level,dev_set_miss,PMID 25350643; 25-hydroxyvitamin D
+serum albumin,OBA:2050068,serum albumin amount,dev_set_miss,PMID 27327646
+serum protein,EFO:0004536,total blood protein measurement,dev_set_miss,PMID 27327646
+estimated glomerular filtration rate from serum creatinine,OBA:0003747,glomerular filtration rate,dev_set_miss,PMID 27327646
+knee osteoarthritis,MONDO:0005416,"osteoarthritis, knee",dev_set_miss,PMID 27327646
+lung function,EFO:0004314,forced expiratory volume,dev_set_miss,PMID 29191953; related not exact
+intestinal type gastric cancer,MONDO:0005037,gastric intestinal type adenocarcinoma,dev_set_miss,PMID 26886630
+hospitalization or death with depression,MONDO:0002050,depressive disorder,dev_set_miss,PMID 24246360; broader
+depression,MONDO:0002050,depressive disorder,dev_set_miss,PMID 24246360
+prescription antidepressant medication use,EFO:0009940,Antidepressant use measurement,dev_set_miss,PMID 24246360
+antidepressant medication use,EFO:0009940,Antidepressant use measurement,dev_set_miss,
+CAD/MI,MONDO:0005010,coronary artery disorder,dev_set_miss,PMID 27882376; composite mapped to the broader term
+Gleason grade,EFO:0007000,Gleason score measurement,dev_set_miss,PMID 27225428
+high (vs. low) Gleason grade,EFO:0007000,Gleason score measurement,dev_set_miss,PMID 27225428

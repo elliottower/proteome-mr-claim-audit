@@ -1,0 +1,29 @@
+source:
+  citation: nielsen2018af_main
+  local: sources/nielsen2018af_main.txt
+  sha256: 8b05575b11786fbe32dfea520c692caf04c37c0a07e91ef9191a5756f4fddd5b
+  doi: 10.1038/s41588-018-0171-3
+  note: Nielsen et al. 2018 Nat Genet 50:1234 (AF), author manuscript full text PMC6530775 from NCBI E-utilities
+    efetch (db=pmc), paragraphs extracted with lxml, one per line.
+claims:
+  six-studies:
+    quotes:
+    - exact: comparing a total of 60,620 cases and 970,216 controls of European ancestry from six contributing
+        studies (The Nord-Trøndelag Health Study (HUNT), deCODE, the Michigan Genomics Initiative (MGI),
+        DiscovEHR, UK Biobank, and the AFGen Consortium) (Supplementary Table 1)
+      section: Main text
+  afgen:
+    quotes:
+    - exact: Published atrial fibrillation association summary statistics from 31 cohorts representing
+        17,931 atrial fibrillation cases and 115,142 controls were obtained from the authors6.
+      section: Online Methods, AFGen Consortium
+  ctrl-decode:
+    quotes:
+    - exact: Controls were 358,161 Icelanders recruited through different genetic research projects at
+        deCODE genetics, excluding those in the atrial fibrillation cohort.
+      section: Online Methods, deCODE
+  release:
+    quotes:
+    - exact: The meta-analysis summary association statistics that support the findings of this study
+        are available for download at http://csg.sph.umich.edu/willer/public/afib2018.
+      section: Data availability

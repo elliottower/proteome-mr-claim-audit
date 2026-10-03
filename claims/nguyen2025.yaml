@@ -1,0 +1,27 @@
+source:
+  citation: nguyen2025
+  local: sources/nguyen2025_myopia.txt
+  sha256: c0e4b374f08ce94a9145a60a48bcc73e40b3cde29b60ea516f0bcea1a6ebaefc
+  doi: 10.1167/iovs.66.13.57
+  note: 'Nguyen TN, Terry L, Guggenheim JA. Mendelian Randomization Studies of Myopia: Choosing the Right
+    Summary Statistics. IOVS 2025;66(13):57. PMID 41171040, PMC12582192. Europe PMC full text.'
+claims:
+  design:
+    quotes:
+    - exact: we re-analyzed selected published MR studies using our newly derived myopia GWAS summary
+        statistics
+      section: Methods, Part 2
+  plan:
+    quotes:
+    - exact: we adhered to the analysis plan outlined in the original articles
+      section: Methods, Part 2
+  result:
+    quotes:
+    - exact: Only one out of eight re-analyses generated findings that were consistent with the original
+        study.
+      section: Discussion
+  sample:
+    quotes:
+    - exact: From 35 published MR studies that used GWAS summary statistics of myopia case-control status,
+        we selected eight studies that met our criteria for re-analysis (Supplementary Note S6).
+      section: Results

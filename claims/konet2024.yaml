@@ -1,0 +1,25 @@
+source:
+  citation: konet2024
+  local: sources/konet2024.raw.txt
+  sha256: 2efcf5b7d2a5b7661bb725d9fc4e7c545a5ab793f87cd3bff81d631b43cba164
+  doi: 10.1002/jrsm.1732
+  note: Publisher PDF via OpenAlex content endpoint, pdftotext. Konet A, Thomas I, Gartlehner G, Kahwati
+    L, Hilscher R, Kugley S, Crotty K, Viswanathan M, Chew R. Performance of two large language models
+    for data extraction in evidence synthesis. Res Synth Methods 2024;15(5):818-824. PMID 38895747.
+claims:
+  plugin:
+    quotes:
+    - exact: most of the errors were due to the plug-in
+      section: Abstract
+  text-only:
+    quotes:
+    - exact: Claude 2 and GPT-4 accurately extracted 98.7% and 100%
+      section: Abstract
+  claude-963-gpt4-688:
+    quotes:
+    - exact: (96.3%). The accuracy of GPT-4 with the plug-in was lower (68.8%)
+      section: Abstract
+  human-validate:
+    quotes:
+    - exact: For now, it remains essential for a human investigator to validate LLM extractions
+      section: Abstract

@@ -1,0 +1,240 @@
+{
+ "run_id": "smoke_pre2019_20261002_window_s4_registry",
+ "note": "pre-freeze smoke run on records first public before 2019, with the smoke-window switch (pre-2019 families treated as inside the window): span and claim checks of the chase extraction, registry of 5 families and 3 claims, manual-coding queue of 1 row (no row coded), record metadata, funnel of the search and chase round 1 with its gate audit",
+ "written_utc": "2026-10-02T20:44:02+00:00",
+ "files": [
+  {
+   "path": "outputs/citations/sol_extraction_smoke_pre2019_20261002_chase1gate_0b97103cd7a4/claims/pmid16325682.yaml",
+   "bytes": 257,
+   "sha256": "a6c0f43fa90125481db51991908f5ba9d0c921c2bc14bcbe4f8a52aa29f1378a"
+  },
+  {
+   "path": "outputs/citations/sol_extraction_smoke_pre2019_20261002_chase1gate_0b97103cd7a4/claims/pmid29966350.yaml",
+   "bytes": 257,
+   "sha256": "f6f3f1e70b3a19eb7109afdcf162d567979e43d169d8d88abadcfdf755dc8af7"
+  },
+  {
+   "path": "outputs/citations/sol_extraction_smoke_pre2019_20261002_chase1gate_0b97103cd7a4/claims/pmidW2901567682.yaml",
+   "bytes": 1091,
+   "sha256": "471e36b6af07f1cbdec4e406598d06b4550dc06d75ca4ebfdb592c1dc57d84fb"
+  },
+  {
+   "path": "outputs/citations/sol_extraction_smoke_pre2019_20261002_chase1gate_0b97103cd7a4/claims/pmidW2901567682.yaml.provenance-lock",
+   "bytes": 0,
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+   "path": "outputs/citations/sol_extraction_smoke_pre2019_20261002_chase1gate_0b97103cd7a4/claims/pmidW4406537262.yaml",
+   "bytes": 254,
+   "sha256": "c53d57bda8067c7399a327fe4b583fc5d3a7d40a736f2d612cf29c5804fa3bf0"
+  },
+  {
+   "path": "outputs/citations/sol_extraction_smoke_pre2019_20261002_chase1gate_0b97103cd7a4/sources/pmid16325682.txt",
+   "bytes": 0,
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+   "path": "outputs/citations/sol_extraction_smoke_pre2019_20261002_chase1gate_0b97103cd7a4/sources/pmid29966350.txt",
+   "bytes": 3,
+   "sha256": "a683c5c5349f6f7fb903ba8a9e7e55d0ba1b8f03579f95be83f4954c33e81098"
+  },
+  {
+   "path": "outputs/citations/sol_extraction_smoke_pre2019_20261002_chase1gate_0b97103cd7a4/sources/pmidW2901567682.txt",
+   "bytes": 1677,
+   "sha256": "8195de1a1bd31a92b75fd0bb7ab0d0ae8e319821ef4813d32729f957b28445cb"
+  },
+  {
+   "path": "outputs/citations/sol_extraction_smoke_pre2019_20261002_chase1gate_0b97103cd7a4/sources/pmidW4406537262.txt",
+   "bytes": 0,
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+   "path": "outputs/funnel/smoke_pre2019_20261002_window/funnel.json",
+   "bytes": 7134,
+   "sha256": "1dfa8c622f5ee61f85c21dd202dfcdb279d460ea80ca075a4bb5896d16759dee"
+  },
+  {
+   "path": "outputs/manual_coding/smoke_pre2019_20261002_window/manual_coding_packet.csv",
+   "bytes": 1233,
+   "sha256": "04e737e114fc946c20556d3a515fae59f9c388a750966e497c125c3d9541c255"
+  },
+  {
+   "path": "outputs/manual_coding/smoke_pre2019_20261002_window/manual_coding_queue.csv",
+   "bytes": 378,
+   "sha256": "2b3a9aa2e669fa983cf99f9e66ad45ed5e80732a42881bb7b508bf45caad5d1b"
+  },
+  {
+   "path": "outputs/manual_coding/smoke_pre2019_20261002_window/manual_dataset_codes.csv",
+   "bytes": 155,
+   "sha256": "5e3aaf1a140dff3baac746eb36b2df4c201f8ffacc0061d44abe2b20df342ce2"
+  },
+  {
+   "path": "outputs/manual_coding/smoke_pre2019_20261002_window/manual_dataset_codes.template.csv",
+   "bytes": 196,
+   "sha256": "bb262fae6d4c2398c8c11950734f1d7eabccaa096c17d27f369a343dd5047862"
+  },
+  {
+   "path": "outputs/raw/openalex_metadata/smoke_pre2019_20261002_window_coded/counts.json",
+   "bytes": 78,
+   "sha256": "7e421c6b238603d267d85ac160761702b8e4d28f6c411be38011d9c316eddb30"
+  },
+  {
+   "path": "outputs/raw/openalex_metadata/smoke_pre2019_20261002_window_coded/manifest.jsonl",
+   "bytes": 700,
+   "sha256": "5b8f4f697df5379f7291f6555008d58724f95a1f9984db1c5588d3227123a843"
+  },
+  {
+   "path": "outputs/raw/openalex_metadata/smoke_pre2019_20261002_window_coded/openalex/works_doi_0001/page_0001.json.gz",
+   "bytes": 12159,
+   "sha256": "ce456c04f88e3d0ec94af7d75838e75293f7fbd87d4ea38884bfc133b81bb74b"
+  },
+  {
+   "path": "outputs/registry/smoke_pre2019_20261002_window/claim_tags.jsonl",
+   "bytes": 492,
+   "sha256": "ae3863a4e9f67be0e96be02340f0f7eda5d0e3de361ef707560d4273ad5bbb8f"
+  },
+  {
+   "path": "outputs/registry/smoke_pre2019_20261002_window/dating_claims.jsonl",
+   "bytes": 0,
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+   "path": "outputs/registry/smoke_pre2019_20261002_window/dating_claims_update.jsonl",
+   "bytes": 0,
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+   "path": "outputs/registry/smoke_pre2019_20261002_window/families.json",
+   "bytes": 4261,
+   "sha256": "5d34d1bfbf8e266949d5c456ce300d5d565c000079b64acbe40544d6239bd5c7"
+  },
+  {
+   "path": "outputs/registry/smoke_pre2019_20261002_window/families_meta.json",
+   "bytes": 1856,
+   "sha256": "47665fd3b75d554ffe659f8e2b693fbaebefa917d385abba144d828c77541ecc"
+  },
+  {
+   "path": "outputs/registry/smoke_pre2019_20261002_window/record_dates.json",
+   "bytes": 338,
+   "sha256": "7e27eff590c86daf71088d0ffe040be4077b969f5202c3c5b96cda26da1dbe7f"
+  },
+  {
+   "path": "outputs/registry/smoke_pre2019_20261002_window/registry_assembly.json",
+   "bytes": 690,
+   "sha256": "96fbb48a95af560cf0f5ac8d5b0dd8d0b483c48dab69122bd33b15ee586acd07"
+  },
+  {
+   "path": "outputs/registry/smoke_pre2019_20261002_window/registry_claims.jsonl",
+   "bytes": 1254,
+   "sha256": "b24964ba2a7d420fdac2871f086cd79144a3c8122747c79a38738744a2c19a69"
+  },
+  {
+   "path": "outputs/registry/smoke_pre2019_20261002_window/registry_claims_update.jsonl",
+   "bytes": 0,
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+   "path": "outputs/registry/smoke_pre2019_20261002_window/wording.jsonl",
+   "bytes": 750,
+   "sha256": "fc5bef2be7cf2934acb642645d1f242eeb297c7aadda3f95ec82f33fbe12692b"
+  },
+  {
+   "path": "outputs/registry/smoke_pre2019_20261002_window/wording_summary.json",
+   "bytes": 564,
+   "sha256": "09985836dd4b9c8113f87635fb3d1b2cf2ed2a1b48f21b05a2533d5ccc743183"
+  },
+  {
+   "path": "outputs/registry/smoke_pre2019_20261002_window_coded/claim_tags.jsonl",
+   "bytes": 492,
+   "sha256": "ae3863a4e9f67be0e96be02340f0f7eda5d0e3de361ef707560d4273ad5bbb8f"
+  },
+  {
+   "path": "outputs/registry/smoke_pre2019_20261002_window_coded/dating_claims.jsonl",
+   "bytes": 0,
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+   "path": "outputs/registry/smoke_pre2019_20261002_window_coded/dating_claims_update.jsonl",
+   "bytes": 0,
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+   "path": "outputs/registry/smoke_pre2019_20261002_window_coded/families.json",
+   "bytes": 4261,
+   "sha256": "5d34d1bfbf8e266949d5c456ce300d5d565c000079b64acbe40544d6239bd5c7"
+  },
+  {
+   "path": "outputs/registry/smoke_pre2019_20261002_window_coded/families_meta.json",
+   "bytes": 1856,
+   "sha256": "47665fd3b75d554ffe659f8e2b693fbaebefa917d385abba144d828c77541ecc"
+  },
+  {
+   "path": "outputs/registry/smoke_pre2019_20261002_window_coded/record_dates.json",
+   "bytes": 338,
+   "sha256": "7e27eff590c86daf71088d0ffe040be4077b969f5202c3c5b96cda26da1dbe7f"
+  },
+  {
+   "path": "outputs/registry/smoke_pre2019_20261002_window_coded/record_metadata.jsonl",
+   "bytes": 6147,
+   "sha256": "d5717e52c166fdefd9326be3e6b04bee2612241342e2ce7064e3eaacff10750a"
+  },
+  {
+   "path": "outputs/registry/smoke_pre2019_20261002_window_coded/registry_assembly.json",
+   "bytes": 690,
+   "sha256": "706d2cb2650cc28bc91c9bbdf629d7e13223c74961891a374011747bf6530530"
+  },
+  {
+   "path": "outputs/registry/smoke_pre2019_20261002_window_coded/registry_claims.jsonl",
+   "bytes": 1254,
+   "sha256": "b24964ba2a7d420fdac2871f086cd79144a3c8122747c79a38738744a2c19a69"
+  },
+  {
+   "path": "outputs/registry/smoke_pre2019_20261002_window_coded/registry_claims_update.jsonl",
+   "bytes": 0,
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+   "path": "outputs/results_manifests/smoke_pre2019_20261002_window_s4.volume.json",
+   "bytes": 3048,
+   "sha256": "daaccb94d9838cd68206bd5d09f97327afa5796fe8c36a8d2979f83d2ed2706e"
+  },
+  {
+   "path": "outputs/verification/sol_extraction_smoke_pre2019_20261002_chase1gate_0b97103cd7a4/citations_verify.txt",
+   "bytes": 286,
+   "sha256": "a041268a421cbc7b9473de97ff2cebcc65318d486685f8f1495c7d354f088c5c"
+  },
+  {
+   "path": "outputs/verification/sol_extraction_smoke_pre2019_20261002_chase1gate_0b97103cd7a4/claim_checks.jsonl",
+   "bytes": 4768,
+   "sha256": "094085bfa91dd6588c3e7c6ec9013d89806fbe81a4eff02c8e1d6a52c7d05859"
+  },
+  {
+   "path": "outputs/verification/sol_extraction_smoke_pre2019_20261002_chase1gate_0b97103cd7a4/claim_summary.json",
+   "bytes": 2174,
+   "sha256": "6a1fa978b9686db4a970f01af58753566e029aacce5f56e37eb1839a42a6edcb"
+  },
+  {
+   "path": "outputs/verification/sol_extraction_smoke_pre2019_20261002_chase1gate_0b97103cd7a4/span_summary.json",
+   "bytes": 391,
+   "sha256": "27c7ba645a1a5be40ae91caca7771d25de88e6dfedcb9cdaafec758061cefab6"
+  },
+  {
+   "path": "outputs/verification/sol_extraction_smoke_pre2019_20261002_chase1gate_0b97103cd7a4/spans.jsonl",
+   "bytes": 1224,
+   "sha256": "3c25756ddcbc9ab5484c59947a43b1c67d7697e27f4b9a38935033f813fb50fb"
+  }
+ ],
+ "recorded_directly": [
+  "outputs/funnel/smoke_pre2019_20261002_window/funnel.json",
+  "outputs/registry/smoke_pre2019_20261002_window_coded/registry_assembly.json",
+  "outputs/results_manifests/smoke_pre2019_20261002_window_s4.volume.json"
+ ],
+ "volume_checks": [
+  {
+   "volume_folder": "/02_claims_meta/stage4/sol_extraction_smoke_pre2019_20261002_chase1gate_0b97103cd7a4",
+   "local_folder": "outputs/verification/sol_extraction_smoke_pre2019_20261002_chase1gate_0b97103cd7a4",
+   "n_compared": 5,
+   "volume_only": []
+  }
+ ]
+}

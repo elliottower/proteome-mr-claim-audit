@@ -1,0 +1,31 @@
+source:
+  citation: sun2023
+  local: sources/original/sun2023.xml
+  sha256: f352084df35360aafba530a0bf8e8dfb8e6c0a3cceff69e8ab322d932e5202e0
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10567551/fullTextXML
+  doi: 10.1038/s41586-023-06592-6
+  extractor: jats-text
+  note: 'Original file behind claims/sun2023.yaml: the XML pinned in claims/sun2023_original.yaml, read
+    by the citations extractor jats-text. The quotations here are those of that file that resolve in this
+    reading; a quotation absent here stays pinned where it already was.'
+  extractor_version: 1
+  derived_sha256: 2a96ed8cfd7293efe6b922ff55aaca8b7e73887542c712f4688781629bfa067b
+claims:
+  abstract-54219:
+    quotes:
+    - exact: characterizing the plasma proteomic profiles of 54,219 UK Biobank participants
+      section: Abstract
+  within-replication:
+    quotes:
+    - exact: A total of 95.6% (1,869 out of 1,955) of cis and 64.1% (7,906 out of 12,332) of trans associations
+        remained significant
+      section: 'Results: replication of pQTLs'
+  antibody-84:
+    quotes:
+    - exact: 84% (934 out of 1116) of the previous associations were replicated in our discovery study
+      section: 'Results: comparisons with previous pQTL studies'
+  aptamer-38:
+    quotes:
+    - exact: 38% of previous associations replicated in our discovery study (1,877 out of 4,978 associations,
+        across 1,982 proteins)
+      section: 'Results: comparisons with previous pQTL studies'

@@ -1,0 +1,14 @@
+source:
+  citation: zheng2020pwmr
+  local: sources/original/zheng2020pwmr.xml
+  sha256: 6a14fee84a1e133db61dc8bcd9d08b199d6a51c1e0665e8b4759a238297ae6bf
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7610464/fullTextXML
+  doi: 10.1038/s41588-020-0682-6
+  note: 'Original file behind claims/zheng2020pwmr.yaml: Europe PMC fullTextXML of PMC7610464, read as
+    plain text with its markup. The quotations here are the quotations of that file that resolve in this
+    file under the citations readers; a quotation absent here is pinned to the extracted text there only.'
+claims:
+  valid-1002:
+    quotes:
+    - exact: Of 1,002 proteins with a valid instrument, 765 had only a single cis or trans instrument
+      section: 'Results: Characterizing genetic instruments for proteins'

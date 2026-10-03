@@ -1,0 +1,16 @@
+source:
+  citation: roselli2018af_main
+  local: sources/original/roselli2018af_main.xml
+  sha256: ca06e84df5cb546a17595eec53656bafcb633b80570e274aa68d1564c16abd59
+  url: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=PMC6136836
+  doi: 10.1038/s41588-018-0133-9
+  note: 'Original file behind claims/roselli2018af_main.yaml: NCBI E-utilities efetch (db=pmc) XML of
+    PMC6136836, read as plain text with its markup. The quotations here are the quotations of that file
+    that resolve in this file under the citations readers; a quotation absent here is pinned to the extracted
+    text there only.'
+claims:
+  n50:
+    quotes:
+    - exact: We conducted a large-scale analysis with over half a million participants, including 65,446
+        with AF, from more than 50 studies.
+      section: Main text

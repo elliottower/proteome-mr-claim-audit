@@ -1,0 +1,20 @@
+source:
+  citation: michailidou2017bcac_ref20_michailidou2015_main
+  local: sources/original/michailidou2017bcac_ref20_michailidou2015_main.xml
+  sha256: 64273cc8958402153768df5d1fa74b476212ceefe08f2c0f92831600fa8210e4
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC4549775/fullTextXML
+  doi: 10.1038/ng.3242
+  note: 'Original file behind claims/michailidou2017bcac_ref20_michailidou2015_main.yaml: Europe PMC fullTextXML
+    of PMC4549775, read as plain text with its markup. The quotations here are the quotations of that
+    file that resolve in this file under the citations readers; a quotation absent here is pinned to the
+    extracted text there only.'
+claims:
+  eleven_gwas:
+    quotes:
+    - exact: Of the 11 GWAS, 8 (C-BCAC) plus a subset of the BPC3 GWAS (CGEMS) were used in the combined
+        GWAS analysis
+      section: Online Methods (Michailidou 2015)
+  european_only:
+    quotes:
+    - exact: All subjects were women of European ancestry.
+      section: Results (Michailidou 2015)

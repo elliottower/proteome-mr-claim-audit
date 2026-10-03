@@ -1,0 +1,134 @@
+source:
+  citation: wood2014giant_supp_note
+  local: sources/wood2014giant_supp_note.txt
+  sha256: de294bf6427f09c26b5af6a77311cea228c825f6710df8bb24b6f2764f04653c
+  doi: 10.1038/ng.3097
+  note: Supplementary Note and Supplementary Tables (incl. Supplementary Table 17, GWAS cohorts not in
+    Lango Allen 2010) of Wood et al. 2014, NIHMS60217-supplement-1.docx from the Europe PMC supplementaryFiles
+    zip for PMC4250049, converted with python-docx, paragraphs and table rows one per line, cells separated
+    by ' | '
+claims:
+  c_actg:
+    quotes:
+    - exact: ACTG | The AIDS Clinical Trials Group
+      section: Supplementary Table 17 (GWAS cohorts not previously reported in Lango Allen et al. 2010)
+  c_athero_express:
+    quotes:
+    - exact: AE | Athero-Express Biobank Study
+      section: Supplementary Table 17 (GWAS cohorts not previously reported in Lango Allen et al. 2010)
+  c_ascot:
+    quotes:
+    - exact: ASCOT | Anglo-Scandinavian Cardiac Outcome Trial
+      section: Supplementary Table 17 (GWAS cohorts not previously reported in Lango Allen et al. 2010)
+  c_blsa:
+    quotes:
+    - exact: BLSA | Baltimore Longitudinal Study on Aging
+      section: Supplementary Table 17 (GWAS cohorts not previously reported in Lango Allen et al. 2010)
+  c_b_proof:
+    quotes:
+    - exact: B-PROOF | B-vitamins for the Prevention of Osteoporotic Fractures
+      section: Supplementary Table 17 (GWAS cohorts not previously reported in Lango Allen et al. 2010)
+  c_desir:
+    quotes:
+    - exact: DESIR | Data from an Epidemiological Study on the Insulin Resistance syndrome | Population-based
+        | 731
+      section: Supplementary Table 17 (GWAS cohorts not previously reported in Lango Allen et al. 2010)
+  c_dnbc:
+    quotes:
+    - exact: DNBC | Danish National Birth Cohort - Preterm Delivery Study
+      section: Supplementary Table 17 (GWAS cohorts not previously reported in Lango Allen et al. 2010)
+  c_estonian_biobank:
+    quotes:
+    - exact: EGCUT-370 | Estonian Genome Center, University of Tartu
+      section: Supplementary Table 17 (GWAS cohorts not previously reported in Lango Allen et al. 2010)
+  c_erf:
+    quotes:
+    - exact: ERF | Erasmus Rucphen Family Study
+      section: Supplementary Table 17 (GWAS cohorts not previously reported in Lango Allen et al. 2010)
+  c_famhs:
+    quotes:
+    - exact: FamHS | Family Heart Study
+      section: Supplementary Table 17 (GWAS cohorts not previously reported in Lango Allen et al. 2010)
+  c_habc:
+    quotes:
+    - exact: Health ABC | Health, Aging, and Body Composition Study
+      section: Supplementary Table 17 (GWAS cohorts not previously reported in Lango Allen et al. 2010)
+  c_heritage:
+    quotes:
+    - exact: HERITAGE Family Study | Health, Risk Factors, Training and Genetics (HERITAGE) Family Study
+      section: Supplementary Table 17 (GWAS cohorts not previously reported in Lango Allen et al. 2010)
+  c_hypergenes:
+    quotes:
+    - exact: HYPERGENES Controls | HYPERGENES
+      section: Supplementary Table 17 (GWAS cohorts not previously reported in Lango Allen et al. 2010)
+  c_inchianti:
+    quotes:
+    - exact: InCHIANTI | Invecchiare in Chianti
+      section: Supplementary Table 17 (GWAS cohorts not previously reported in Lango Allen et al. 2010)
+  c_biome:
+    quotes:
+    - exact: IPM Mount Sinai BioMe | The Charles Bronfman Institute for Personalized Medicine BioMe Biobank
+        Program
+      section: Supplementary Table 17 (GWAS cohorts not previously reported in Lango Allen et al. 2010)
+  c_lifelines:
+    quotes:
+    - exact: LifeLines | LifeLines Cohort study
+      section: Supplementary Table 17 (GWAS cohorts not previously reported in Lango Allen et al. 2010)
+  c_lls:
+    quotes:
+    - exact: LLS | Leiden Longevity Study
+      section: Supplementary Table 17 (GWAS cohorts not previously reported in Lango Allen et al. 2010)
+  c_lolipop:
+    quotes:
+    - exact: LOLIPOP_EW610 | London Life Sciences Prospective Population Study
+      section: Supplementary Table 17 (GWAS cohorts not previously reported in Lango Allen et al. 2010)
+  c_nelson:
+    quotes:
+    - exact: NELSON | Dutch and Belgian Lung Cancer Screening Trial
+      section: Supplementary Table 17 (GWAS cohorts not previously reported in Lango Allen et al. 2010)
+  c_plco:
+    quotes:
+    - exact: PLCO2 controls | Prostate, Lung, Colorectal, and Ovarian Cancer Screening Trial
+      section: Supplementary Table 17 (GWAS cohorts not previously reported in Lango Allen et al. 2010)
+  c_prevend:
+    quotes:
+    - exact: PREVEND | Prevention of REnal and Vascular ENdstage Disease (PREVEND) Study
+      section: Supplementary Table 17 (GWAS cohorts not previously reported in Lango Allen et al. 2010)
+  c_procardis:
+    quotes:
+    - exact: PROCARDIS | Precocious Coronary Artery Disease
+      section: Supplementary Table 17 (GWAS cohorts not previously reported in Lango Allen et al. 2010)
+  c_prosper:
+    quotes:
+    - exact: PROSPER/ PHASE | The PROspective study of Pravastatin in the Elderly at Risk for vascular
+        disease
+      section: Supplementary Table 17 (GWAS cohorts not previously reported in Lango Allen et al. 2010)
+  c_qfs:
+    quotes:
+    - exact: QFS | Quebec Family Study
+      section: Supplementary Table 17 (GWAS cohorts not previously reported in Lango Allen et al. 2010)
+  c_qimr:
+    quotes:
+    - exact: QIMR | Twin study at Queensland Institute of Medical Research
+      section: Supplementary Table 17 (GWAS cohorts not previously reported in Lango Allen et al. 2010)
+  c_risc:
+    quotes:
+    - exact: RISC | Relationship between Insulin Sensitivity and Cardiovascular disease Study
+      section: Supplementary Table 17 (GWAS cohorts not previously reported in Lango Allen et al. 2010)
+  c_ship_trend:
+    quotes:
+    - exact: SHIP-TREND | Study of Health in Pomerania - TREND
+      section: Supplementary Table 17 (GWAS cohorts not previously reported in Lango Allen et al. 2010)
+  c_trails:
+    quotes:
+    - exact: TRAILS | Tracking Adolescents' Individual Lives Survey
+      section: Supplementary Table 17 (GWAS cohorts not previously reported in Lango Allen et al. 2010)
+  c_twingene:
+    quotes:
+    - exact: TWINGENE | TWINGENE
+      section: Supplementary Table 17 (GWAS cohorts not previously reported in Lango Allen et al. 2010)
+  same_studies:
+    quotes:
+    - exact: studies included in the primary GWA meta-analysis but not previously reported in Lango Allen
+        et al. (2010)1 are provided in Supplementary Tables 17-19
+      section: Supplementary Note 1.1.1

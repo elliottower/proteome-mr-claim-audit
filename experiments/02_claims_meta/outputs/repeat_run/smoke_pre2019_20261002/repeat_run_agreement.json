@@ -1,0 +1,94 @@
+{
+ "run1": "outputs/parsed/sol_extraction_smoke_pre2019_20261002_0b97103cd7a4.jsonl",
+ "run1_sha256": "232d2cf8b9b3e18f846d1c256e8488b43ac47fd642092f14d3272d4e44726585",
+ "run2": "outputs/parsed/sol_extraction_smoke_pre2019_20261002_repeat_0b97103cd7a4.jsonl",
+ "run2_sha256": "232d2cf8b9b3e18f846d1c256e8488b43ac47fd642092f14d3272d4e44726585",
+ "sample": "outputs/parsed/sol_eligibility_smoke_pre2019_20261002_2811496ef424.decisions.repeat_sample.json",
+ "seed": 20261001,
+ "fraction": 0.1,
+ "n_eligible": 1,
+ "written_utc": "2026-10-02T20:10:47+00:00",
+ "revision": "0b97103cd7a4",
+ "sampled_abstracts": 1,
+ "abstracts_compared": 1,
+ "abstracts_extraction_failed_in_run1": 0,
+ "abstracts_extraction_failed_in_run2": 0,
+ "abstracts_with_equal_record_count": 1,
+ "run1_records": 0,
+ "run2_records": 0,
+ "paired_records": 0,
+ "paired_by_pass": {
+  "full_key": 0,
+  "protein_and_outcome_only": 0
+ },
+ "run1_share_paired": null,
+ "run2_share_paired": null,
+ "field_agreement_among_paired": {
+  "protein_as_written": {
+   "agree": 0,
+   "share": null
+  },
+  "outcome_as_written": {
+   "agree": 0,
+   "share": null
+  },
+  "direction": {
+   "agree": 0,
+   "share": null
+  },
+  "evidence_type": {
+   "agree": 0,
+   "share": null
+  },
+  "claim_scope": {
+   "agree": 0,
+   "share": null
+  },
+  "analysis_context_as_written": {
+   "agree": 0,
+   "share": null
+  },
+  "subgroup_as_written": {
+   "agree": 0,
+   "share": null
+  },
+  "pqtl_datasets": {
+   "agree": 0,
+   "share": null
+  },
+  "outcome_datasets": {
+   "agree": 0,
+   "share": null
+  },
+  "dataset_attribution": {
+   "agree": 0,
+   "share": null
+  },
+  "platform": {
+   "agree": 0,
+   "share": null
+  },
+  "ancestry": {
+   "agree": 0,
+   "share": null
+  },
+  "relation_ambiguous": {
+   "agree": 0,
+   "share": null
+  },
+  "evidence_span": {
+   "agree": 0,
+   "share": null
+  }
+ },
+ "per_abstract": [
+  {
+   "record_id": "29875488",
+   "run1_records": 0,
+   "run2_records": 0,
+   "pairs": 0,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  }
+ ]
+}

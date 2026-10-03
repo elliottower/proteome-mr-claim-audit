@@ -1,0 +1,22 @@
+source:
+  citation: clark2025
+  local: sources/PMC12527500.txt
+  sha256: 63c4613af180d8aeeb152310f21103d4adc46b79088ba23973be9437aa360dd5
+  doi: 10.1017/rsm.2025.16
+  note: 'Full text from Europe PMC fullTextXML (PMC12527500), tags stripped. Clark J, Barton B, Albarqouni
+    L, Byambasuren O, Jowsey T, Keogh J, Liang T, Moro C, O''Neill H, Jones M. Generative artificial intelligence
+    use in evidence synthesis: A systematic review. Res Synth Methods 2025. PMID 41626912.'
+claims:
+  no-support:
+    quotes:
+    - exact: current evidence does not support GenAI use in evidence synthesis without human involvement
+        or oversight
+      section: Abstract, Conclusion
+  extraction-range:
+    quotes:
+    - exact: incorrect data extractions ranging from 4% to 31% (median = 14%)
+      section: Abstract, Results
+  exclusion-range:
+    quotes:
+    - exact: incorrect exclusion decisions ranging from 1% to 83% (median = 28%)
+      section: Abstract, Results

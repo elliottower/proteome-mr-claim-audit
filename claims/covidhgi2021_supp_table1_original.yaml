@@ -1,0 +1,244 @@
+source:
+  citation: covidhgi2021_supp_table1
+  local: sources/original/covidhgi2021_supp_table1.xlsx
+  sha256: 072031db9d224c4dfe131cd35395c8e9d75c77c774168a8bbc783431eda6553a
+  url: https://static-content.springer.com/esm/art%3A10.1038%2Fs41586-021-03767-x/MediaObjects/41586_2021_3767_MOESM6_ESM.xlsx
+  doi: 10.1038/s41586-021-03767-x
+  extractor: sheet-rows
+  note: 'Original file behind claims/covidhgi2021_supp_table1.yaml: 41586_2021_3767_MOESM6_ESM.xlsx from
+    static-content.springer.com, read by the citations extractor sheet-rows. The quotations here are those
+    of that file that resolve in this reading; a quotation absent here stays pinned where it already was.'
+  extractor_version: 1
+  derived_sha256: bdf2c48cfdabecc2a4ebc3582981b715b53341d23668d884bcaa8104db5017b5
+claims:
+  23andme_eur:
+    quotes:
+    - exact: 23andMe | United States | 23ANDME | EUR | 495 | 680440 | 613 | 680416 | 9913 | 85072
+      section: Supplementary Table 1
+  23andme_his:
+    quotes:
+    - exact: 23andMe | United States | 23ANDME | HIS | 102 | 94330 | 613 | 94327 | 2553 | 13086
+      section: Supplementary Table 1
+  amsterdam_umc_covid_eur:
+    quotes:
+    - exact: Amsterdam UMC COVID study group | The Netherlands | Amsterdam_UMC_COVID_study_group | EUR
+        | 66 | 1413 | 108 | 1413 | 108 | 1413
+      section: Supplementary Table 1
+  belcovid_eur:
+    quotes:
+    - exact: BelCovid | Belgium | BelCovid | EUR | 182 | 1477 | 363 | 1477 | 485 | 1477
+      section: Supplementary Table 1
+  bqc19_eur:
+    quotes:
+    - exact: Biobanque Quebec COVID19 | Canada | BQC19 | EUR | 88 | 552 | 244 | 396 | 269 | 368
+      section: Supplementary Table 1
+  biovu_eur:
+    quotes:
+    - exact: BioVU | United States | BioVU | EUR | - | - | - | - | 141 | 70615
+      section: Supplementary Table 1
+  bosco_eur:
+    quotes:
+    - exact: Bonn Study of COVID19 genetics | Germany | BoSCO | EUR | - | - | 212 | 512 | - | -
+      section: Supplementary Table 1
+  chris_eur:
+    quotes:
+    - exact: CHRIS | Italy | TOPMed_CHRIS10K | EUR | - | - | - | - | 92 | 2373
+      section: Supplementary Table 1
+  columbia_covid_biobank_afr:
+    quotes:
+    - exact: Columbia University COVID19 Biobank | United States | CU | AFR | 133 | 2610 | 304 | 2610
+        | 332 | 2610
+      section: Supplementary Table 1
+  columbia_covid_biobank_eur:
+    quotes:
+    - exact: Columbia University COVID19 Biobank | United States | CU | EUR | 203 | 2149 | 453 | 2149
+        | 508 | 2149
+      section: Supplementary Table 1
+  corea_eas:
+    quotes:
+    - exact: Corea (Genetics of COVID-related Manifestation) | Korea | Corea | EAS | - | - | 69 | 6500
+        | 108 | 6500
+      section: Supplementary Table 1
+  covid19_hostage_eur:
+    quotes:
+    - exact: COVID19-Host(a)ge | Germany | HOSTAGE | EUR | 1000 | 2180 | 1610 | 2205 | 1610 | 2205
+      section: Supplementary Table 1
+  decode_eur:
+    quotes:
+    - exact: deCODE genetics | Iceland | DECODE | EUR | - | - | 89 | 274322 | 4256 | 270934
+      section: Supplementary Table 1
+  spgrx_eur:
+    quotes:
+    - exact: Determining the Molecular Pathways and Genetic Predisposition of the Acute Inflammatory Process
+        Caused by SARS-CoV-2 | Spain | SPGRX | EUR | 101 | 302 | 311 | 302 | 362 | 302
+      section: Supplementary Table 1
+  estonian_biobank_eur:
+    quotes:
+    - exact: Estonian Biobank | Estonia | EstBB | EUR | - | - | 90 | 196339 | 1322 | 193774
+      section: Supplementary Table 1
+  fhogid_eur:
+    quotes:
+    - exact: FHoGID | Switzerland | FHoGID | EUR | - | - | 362 | 259 | - | -
+      section: Supplementary Table 1
+  finngen_fin:
+    quotes:
+    - exact: Finngen | Finland | FinnGen | FIN | 68 | 238643 | 106 | 238605 | 810 | 237901
+      section: Supplementary Table 1
+  gcat_eur:
+    quotes:
+    - exact: GCAT. Genomes For Life. | Spain | GCAT | EUR | - | - | - | - | 253 | 4735
+      section: Supplementary Table 1
+  gen_covid_eur:
+    quotes:
+    - exact: GEN-COVID, reCOVID | Italy | GENCOVID | EUR | 724 | 2443 | 893 | 2443 | 1220 | 2443
+      section: Supplementary Table 1
+  genes_and_health_sas:
+    quotes:
+    - exact: Genes & Health | United Kingdom | GNH | SAS | - | - | 115 | 34049 | 1379 | 32785
+      section: Supplementary Table 1
+  genes_for_good_eur:
+    quotes:
+    - exact: Genes for Good | United States | GFG | EUR | - | - | - | - | 147 | 5442
+      section: Supplementary Table 1
+  bracovid_amr:
+    quotes:
+    - exact: Genetic determinants of COVID-19 complications in the Brazilian population | Brazil | BRACOVID
+        | AMR | 539 | 1149 | 853 | 835 | 853 | 835
+      section: Supplementary Table 1
+  genetics_covid19_korea_eas:
+    quotes:
+    - exact: Genetic influences on severity of COVID-19 illness in Korea | Korea, United States | Genetics_COVID19_Korea
+        | EAS | - | - | 624 | 6549 | 624 | 6549
+      section: Supplementary Table 1
+  stanford_covid_eur:
+    quotes:
+    - exact: Genomic epidemiology of SARS-Cov-2 and host genetics in Coronavirus Disease 2019 (COVID-19)
+        | United States | Stanford | EUR | - | - | - | - | 169 | 190
+      section: Supplementary Table 1
+  genomicc_eas:
+    quotes:
+    - exact: GenOMICC (Genetics Of Mortality in Critical Care) | United Kingdom | genomicc | EAS | 149
+        | 745 | 149 | 745 | 149 | 745
+      section: Supplementary Table 1
+  genomicc_eur:
+    quotes:
+    - exact: GenOMICC (Genetics Of Mortality in Critical Care) | United Kingdom | genomicc | EUR | 1676
+        | 8380 | 1676 | 8380 | 1676 | 8380
+      section: Supplementary Table 1
+  genotek_eur:
+    quotes:
+    - exact: Genotek COVID-19 study | Russia | Genotek | EUR | - | - | - | - | 676 | 12317
+      section: Supplementary Table 1
+  helix_eur:
+    quotes:
+    - exact: Helix Exome+ COVID-19 Phenotypes | United States | Helix | EUR | - | - | - | - | 178 | 5441
+      section: Supplementary Table 1
+  idipaz_24genetics_eur:
+    quotes:
+    - exact: idipaz24genetics | Spain | idipaz24genetics | EUR | 59 | 75 | 106 | 75 | 106 | 75
+      section: Supplementary Table 1
+  japan_covid_taskforce_eas:
+    quotes:
+    - exact: Japan Coronavirus Taskforce | Japan | CGI | EAS | 155 | 1705 | 572 | 1705 | 614 | 1705
+      section: Supplementary Table 1
+  latvia_lgdb_eur:
+    quotes:
+    - exact: Latvia COVID-19 research platform | Latvia | LGDB | EUR | - | - | 57 | 1531 | 275 | 1313
+      section: Supplementary Table 1
+  lifelines_eur:
+    quotes:
+    - exact: Lifelines | The Netherlands | Lifelines | EUR | - | - | - | - | 244 | 26553
+      section: Supplementary Table 1
+  mass_general_brigham_biobank_afr:
+    quotes:
+    - exact: Mass General Brigham - Host Vulnerability to COVID-19 | United States | PHBB | AFR | - |
+        - | - | - | 60 | 2445
+      section: Supplementary Table 1
+  mass_general_brigham_biobank_eur:
+    quotes:
+    - exact: Mass General Brigham - Host Vulnerability to COVID-19 | United States | PHBB | EUR | - |
+        - | - | - | 151 | 29966
+      section: Supplementary Table 1
+  mass_general_brigham_biobank_his:
+    quotes:
+    - exact: Mass General Brigham - Host Vulnerability to COVID-19 | United States | PHBB | HIS | - |
+        - | - | - | 66 | 2405
+      section: Supplementary Table 1
+  mgi_eur:
+    quotes:
+    - exact: Michigan Genomics Initiative | United States | MGI | EUR | - | - | - | - | 122 | 51458
+      section: Supplementary Table 1
+  mount_sinai_covid_eur:
+    quotes:
+    - exact: Mount Sinai Health System COVID-19 Genomics Initiative | United States | MSHS-CGI | EUR |
+        - | - | - | - | 330 | 1396
+      section: Supplementary Table 1
+  discovehr_eur:
+    quotes:
+    - exact: MyCode Health Initiative | United States | GHS_Freeze_145 | EUR | 53 | 112862 | 180 | 112862
+        | 869 | 112862
+      section: Supplementary Table 1
+  ntr_eur:
+    quotes:
+    - exact: Netherlands Twin Register | The Netherlands | NTR | EUR | - | - | - | - | 145 | 5252
+      section: Supplementary Table 1
+  penn_medicine_biobank_afr:
+    quotes:
+    - exact: Penn Medicine Biobank | United States | PMBB | AFR | - | - | 66 | 8536 | 166 | 8436
+      section: Supplementary Table 1
+  qatar_genome_program_arab:
+    quotes:
+    - exact: Qatar Genome Program | Qatar | QGP | ARAB | - | - | 60 | 13360 | 700 | 13360
+      section: Supplementary Table 1
+  swecovid_eur:
+    quotes:
+    - exact: The genetic predisposition to severe COVID-19 | Sweden | SweCovid | EUR | 77 | 3748 | 77
+        | 3748 | 77 | 3748
+      section: Supplementary Table 1
+  ucla_atlas_amr:
+    quotes:
+    - exact: UCLA Precision Health COVID-19 Biobank | United States | UCLA | AMR | - | - | 95 | 4569 |
+        169 | 4495
+      section: Supplementary Table 1
+  ucla_atlas_eur:
+    quotes:
+    - exact: UCLA Precision Health COVID-19 Biobank | United States | UCLA | EUR | - | - | 80 | 17514
+        | 203 | 17391
+      section: Supplementary Table 1
+  genomics_england_100kgp_eur:
+    quotes:
+    - exact: UK 100,000 Genomes Project | United Kingdom | genomicsengland100kgp | EUR | - | - | - | -
+        | 218 | 62302
+      section: Supplementary Table 1
+  ukb_afr:
+    quotes:
+    - exact: UK Biobank | United Kingdom | UKBB | AFR | - | - | 71 | 7691 | 206 | 7691
+      section: Supplementary Table 1
+  ukb_eur:
+    quotes:
+    - exact: UK Biobank | United Kingdom | UKBB | EUR | 309 | 328577 | 1670 | 328577 | 6490 | 328577
+      section: Supplementary Table 1
+  ukb_sas:
+    quotes:
+    - exact: UK Biobank | United Kingdom | UKBB | SAS | - | - | 71 | 9231 | 309 | 9231
+      section: Supplementary Table 1
+  interval_eur:
+    quotes:
+    - exact: UK Blood Donors Cohort | United Kingdom | INTERVAL | EUR | - | - | - | - | 838 | 40994
+      section: Supplementary Table 1
+  mvp_afr:
+    quotes:
+    - exact: VA Million Veteran Program | USA | MVP | AFR | - | - | 349 | 1745 | 1217 | 6085
+      section: Supplementary Table 1
+  mvp_eur:
+    quotes:
+    - exact: VA Million Veteran Program | USA | MVP | EUR | - | - | 436 | 2180 | 1520 | 7600
+      section: Supplementary Table 1
+  mvp_his:
+    quotes:
+    - exact: VA Million Veteran Program | USA | MVP | HIS | - | - | 117 | 585 | 510 | 2550
+      section: Supplementary Table 1
+  val_gardena_eur:
+    quotes:
+    - exact: Val Gardena | Italy | TOPMed_Gardena | EUR | - | - | - | - | 452 | 458
+      section: Supplementary Table 1

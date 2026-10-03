@@ -1,0 +1,80 @@
+source:
+  citation: kurki2023finngen_supp_table2
+  local: sources/kurki2023finngen_supp_table2.txt
+  sha256: 3eda6912226a9e915cfd694eebcedb93af479db7ccedde316ffcd7eb8c47929e
+  doi: 10.1038/s41586-022-05473-8
+  note: Supplementary Table 2 (Legacy cohorts in FinnGen) of Kurki MI et al. 2023 Nature, sheet of 41586_2022_5473_MOESM4_ESM.xlsx
+    from the Europe PMC supplementaryFiles zip for PMC9849126, converted with pandas, one row per line.
+claims:
+  caption:
+    quotes:
+    - exact: 'Supplementary Table 2: Legacy cohorts in FinnGen.'
+      section: Supplementary Table 2
+  botnia:
+    quotes:
+    - exact: Botnia Study THL Biobank* |
+      section: Supplementary Table 2
+  corogene:
+    quotes:
+    - exact: Corogene Study THL Biobank* |
+      section: Supplementary Table 2
+  finrisk:
+    quotes:
+    - exact: The National FINRISK Study 1992-2012 THL Biobank* |
+      section: Supplementary Table 2
+  generisk:
+    quotes:
+    - exact: GeneRISK Study THL Biobank** |
+      section: Supplementary Table 2
+  health2000:
+    quotes:
+    - exact: Health 2000 and 2011 Surveys THL Biobank* |
+      section: Supplementary Table 2
+  hhs:
+    quotes:
+    - exact: Helsinki Heart Study THL Biobank* |
+      section: Supplementary Table 2
+  migraine:
+    quotes:
+    - exact: Migraine Study THL Biobank* |
+      section: Supplementary Table 2
+  finhealth2017:
+    quotes:
+    - exact: National FinHealth 2017 Study THL Biobank** |
+      section: Supplementary Table 2
+  super:
+    quotes:
+    - exact: SUPER Study THL Biobank** |
+      section: Supplementary Table 2
+  thl-diabetes:
+    quotes:
+    - exact: THL Diabetes Studies THL Biobank* |
+      section: Supplementary Table 2
+  twins:
+    quotes:
+    - exact: The Finnish Twin Cohort Study THL Biobank* |
+      section: Supplementary Table 2
+  ipf:
+    quotes:
+    - exact: Finnish IPF Study THL Biobank** |
+      section: Supplementary Table 2
+  finnaki:
+    quotes:
+    - exact: FiNNAKI Study Helsinki Biobank* |
+      section: Supplementary Table 2
+  total:
+    quotes:
+    - exact: Total |  |  |  | 106 806
+      section: Supplementary Table 2
+  super-stanley:
+    quotes:
+    - exact: The Study is a part of the International Stanley Global Neuropsychiatric Genomics Initiative
+      section: Supplementary Table 2
+  st2-footnote-optout:
+    quotes:
+    - exact: '*Cohort has been transferred to biobank according to the Opt out process of Biobank Act'
+      section: Supplementary Table 2 footnotes
+  st2-footnote-consented:
+    quotes:
+    - exact: '**Biobank consented'
+      section: Supplementary Table 2 footnotes

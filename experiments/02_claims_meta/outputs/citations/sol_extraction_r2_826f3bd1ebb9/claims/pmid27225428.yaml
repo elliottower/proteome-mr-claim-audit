@@ -1,0 +1,15 @@
+source:
+  citation: pmid27225428
+  local: sources/pmid27225428.txt
+  sha256: 260536ffafb8bc823d833f288321a2225d91f37c358b7269955e5039f1307083
+  url: https://pubmed.ncbi.nlm.nih.gov/27225428/
+  note: PubMed abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: 'Using rs11977526 as an IV we estimated the causal effect of a one SD increase in IGF-II
+        (∼265 ng/mL) on risk of high vs. low grade disease as 1.14 (95% CI: 1.00, 1.31).'
+  c001:
+    quotes:
+    - exact: 'Rs11977526 was associated with high (vs. low) Gleason grade (OR per IGF-II/IGFBP-3 level-raising
+        allele 1.05; 95% CI: 1.00, 1.10).'

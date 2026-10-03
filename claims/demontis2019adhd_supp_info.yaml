@@ -1,0 +1,93 @@
+source:
+  citation: demontis2019adhd_supp_info
+  local: sources/demontis2019adhd_supp_info.txt
+  sha256: a92a8773579cd33222ab98f1c0dcc3d366c2b2accf2825d8624f99581f698766
+  doi: 10.1038/s41588-018-0269-7
+  note: Supplementary Information (Supplementary Methods and Results, incl. sample descriptions and Supplementary
+    Tables) of Demontis D et al. 2019 Nat Genet, ESM 41588_2018_269_MOESM1_ESM.pdf from static-content.springer.com,
+    converted with pdftotext (no -layout), unedited
+claims:
+  ipsych-controls:
+    quotes:
+    - exact: Controls were randomly selected from the same nationwide birth cohort
+      section: Supplementary Information, Detailed description of individual samples
+  barcelona-controls:
+    quotes:
+    - exact: The control sample consisted of 584 unrelated blood donors
+      section: Supplementary Information, Detailed description of individual samples
+  beijing-controls:
+    quotes:
+    - exact: The 963 control individuals were students from local elementary schools, healthy blood donors
+        from the Blood Center of the First Hospital, Peking University, and healthy volunteers from the
+        institute of Han Chinese decent
+      section: Supplementary Information, Detailed description of individual samples
+  bergen-controls:
+    quotes:
+    - exact: The 205 controls were recruited through the Medical Birth Registry of Norway
+      section: Supplementary Information, Detailed description of individual samples
+  cardiff-controls:
+    quotes:
+    - exact: Control participants were obtained from the Wellcome Trust Case Control Consortium–Phase
+        2. They comprised 3,000 individuals born in the United Kingdom during 1 week in 1958 (the 1958
+        British Birth Cohort) and 3,000 individuals from the U.K. Blood Services collection (N=5,081 passed
+        QC).
+      section: Supplementary Information, Detailed description of individual samples
+  germany-controls:
+    quotes:
+    - exact: 'controls were drawn from three population based epidemiological studies: (a) the Heinz Nixdorf
+        Recall (Risk Factors, Evaluation of Coronary Calcification, and Lifestyle) study 3, (b) PopGen,
+        (c) KORA (Cooperative Health Research in the Region of Augsburg.'
+      section: Supplementary Information, Detailed description of individual samples
+  image2-controls:
+    quotes:
+    - exact: Control samples (1,755 population controls of European ancestry) were assembled from an IRB
+        approved genome-wide association study (GWAS) of myocardial infarction20. Controls were collected
+        from multiple sites in the US and Europe, including Seattle, Washington; Boston, Massachusetts;
+        Gerona, Spain; Malmo, Sweden; and the United Kingdom.
+      section: Supplementary Information, Detailed description of individual samples
+  image2-wtccc-removed:
+    quotes:
+    - exact: Control participants from the Wellcome Trust Case Control Consortium overlapping with the
+        Cardiff, UK sample (described above) were removed.
+      section: Supplementary Information, Detailed description of individual samples
+  image2-ref20:
+    quotes:
+    - exact: Myocardial Infarction Genetics Consortium et al. Genome-wide association of early-onset myocardial
+        infarction
+      section: Supplementary Information references
+  yalepenn-controls:
+    quotes:
+    - exact: 182 individuals with ADHD and 1,315 unrelated controls of European ancestry were included
+      section: Supplementary Information, Detailed description of individual samples
+  chop:
+    quotes:
+    - exact: The CHOP (Children’s Hospital of Philadelphia) ADHD trio sample (2,064 trios)
+      section: Supplementary Information, Detailed description of individual samples
+  image1:
+    quotes:
+    - exact: The IMAGE-I (International Multisite ADHD Genetics Project) trio samples9,10
+      section: Supplementary Information, Detailed description of individual samples
+  puwma:
+    quotes:
+    - exact: The PUWMa (Pfizer-funded study from the University of California, Los Angeles (UCLA), Washington
+        University, and Massachusetts General Hospital (MGH)) trio samples11
+      section: Supplementary Information, Detailed description of individual samples
+  toronto:
+    quotes:
+    - exact: The Canadian ADHD trio sample12 was drawn from an outpatient clinic in an urban pediatric
+        hospital
+      section: Supplementary Information, Detailed description of individual samples
+  image2-cases:
+    quotes:
+    - exact: along with samples provided by colleagues at other sites (Cardiff; St. Andrews, Dublin; MGH;
+        Germany; and the Netherlands)
+      section: Supplementary Information, Detailed description of individual samples
+  decode-replication:
+    quotes:
+    - exact: The Icelandic ADHD cohort (N = 5,085) consists of individuals
+      section: Supplementary Information, Detailed description of individual samples (Replication samples)
+  meta-total:
+    quotes:
+    - exact: The meta-analysis included summary statistics from GWASs of the 23 waves in iPSYCH and 11
+        PGC samples, in total containing 20,183 cases and 35,191 controls.
+      section: Supplementary Information, GWAS and meta-analysis

@@ -1,0 +1,14 @@
+source:
+  citation: yoshikawa2024
+  local: sources/original/yoshikawa2024.xml
+  sha256: c7cb7209d485cf6714bc38dfb60242258698b219d5bd74e3eba6b77c80372998
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11659389/fullTextXML
+  doi: 10.1038/s42003-024-07403-y
+  note: 'Original file behind claims/yoshikawa2024.yaml: Europe PMC fullTextXML of PMC11659389, read as
+    plain text with its markup. The quotations here are the quotations of that file that resolve in this
+    file under the citations readers; a quotation absent here is pinned to the extracted text there only.'
+claims:
+  zheng-source:
+    quotes:
+    - exact: They selected 1064 pQTLs of 955 plasma proteins from five studies
+      section: Methods, Study design and datasets

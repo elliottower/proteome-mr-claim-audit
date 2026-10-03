@@ -1,0 +1,19 @@
+source:
+  citation: eldjarn2022withdrawal
+  local: sources/original/eldjarn2022withdrawal.pdf
+  sha256: 31c66bac1bd46d0a0d20cf2fc864f825ed3a796570f89aa9c4edfda1e69fe6f8
+  url: https://www.biorxiv.org/content/10.1101/2022.02.18.481034v2.full.pdf
+  doi: 10.1101/2022.02.18.481034
+  note: 'Original file behind claims/eldjarn2022withdrawal.yaml: bioRxiv version 2 PDF (withdrawal notice).
+    The quotations here are the quotations of that file that resolve in this file under the citations
+    readers; a quotation absent here is pinned to the extracted text there only.'
+claims:
+  withdrawn:
+    quotes:
+    - exact: The authors have withdrawn this manuscript because this paper was posted prematurely in advance
+        of a UK Biobank Pharma Proteomics Project consortium effort.
+      section: Withdrawal notice (v2)
+  do-not-cite:
+    quotes:
+    - exact: Therefore, the authors do not wish this work to be cited as reference for the project.
+      section: Withdrawal notice (v2)

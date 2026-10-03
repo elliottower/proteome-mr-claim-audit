@@ -1,0 +1,16 @@
+source:
+  citation: graham2021glgc_main
+  local: sources/original/graham2021glgc_main.xml
+  sha256: 8d46ed5ca3ad56378fd028b5ec971f1f1933aaded38d500a8c8c66c370c1fdff
+  url: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=PMC8730582
+  doi: 10.1038/s41586-021-04064-3
+  note: 'Original file behind claims/graham2021glgc_main.yaml: NCBI E-utilities efetch (db=pmc) XML of
+    PMC8730582, read as plain text with its markup. The quotations here are the quotations of that file
+    that resolve in this file under the citations readers; a quotation absent here is pinned to the extracted
+    text there only.'
+claims:
+  201-primary-studies:
+    quotes:
+    - exact: The Global Lipids Genetics Consortium aggregated GWAS results from 1,654,960 individuals
+        from 201 primary studies representing five genetic ancestry groups
+      section: Results

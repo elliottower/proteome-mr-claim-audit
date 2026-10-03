@@ -1,0 +1,20 @@
+source:
+  citation: wood2014giant_main
+  local: sources/wood2014giant_main.txt
+  sha256: fe3806d521afc6cf6439ee0dbf096e3e70bbc6577cf770ff9ad8f8f063f09afe
+  doi: 10.1038/ng.3097
+  note: Main text (author manuscript) of Wood et al. 2014 Nat Genet 46:1173 (GIANT height), Europe PMC
+    fullTextXML PMC4250049, paragraphs and table rows extracted with lxml, one block per line
+claims:
+  n79:
+    quotes:
+    - exact: We combined height summary association statistics from 79 genome-wide association (GWA) studies
+        in a meta-analysis of 253,288 individuals using the same methods and studies as previously described6
+        and additional studies as described in Supplementary Tables 17-19.
+      section: Online Methods
+  metabochip_replication:
+    quotes:
+    - exact: Using data from 80,067 individuals genotyped on the Metabochip array from 37 independent
+        studies, we observed very strong evidence of concordance of effect sizes between the Metabochip
+        and GWAS samples
+      section: Results

@@ -1,0 +1,477 @@
+source:
+  citation: vanrheenen2021_supp_table1
+  local: sources/vanrheenen2021_supp_table1.txt
+  sha256: 0fd703e11413abab39ebd97893c7694d15d26e6c264f5057b9cf6e76f7f017df
+  doi: 10.1038/s41588-021-00973-1
+  note: Supplementary Table 1 (GWAS cohorts) of van Rheenen et al. 2021 Nat Genet, ESM 41588_2021_973_MOESM4_ESM.xlsx
+    from the Europe PMC supplementaryFiles zip for PMC8648564, converted with pandas, one row per line,
+    cells ' | '
+claims:
+  row_c1:
+    quotes:
+    - exact: c1 | cNL1 | Illumina317 | 911
+      section: Supplementary Table 1 (GWAS Cohorts)
+  row_c2:
+    quotes:
+    - exact: c2 | cBE1 | Illumina370 | 682
+      section: Supplementary Table 1 (GWAS Cohorts)
+  row_c3:
+    quotes:
+    - exact: c3 | cNL2 | Illumina370 | 1211
+      section: Supplementary Table 1 (GWAS Cohorts)
+  row_c4:
+    quotes:
+    - exact: c4 | cSW1 | Illumina370 | 993
+      section: Supplementary Table 1 (GWAS Cohorts)
+  row_c5:
+    quotes:
+    - exact: c5 | cNL3 | Illumina550 | 5974
+      section: Supplementary Table 1 (GWAS Cohorts)
+  row_c6:
+    quotes:
+    - exact: c6 | cFR1 | Illumina317 | 975
+      section: Supplementary Table 1 (GWAS Cohorts)
+  row_c7:
+    quotes:
+    - exact: c7 | cUK1 | Illumina317 | 466
+      section: Supplementary Table 1 (GWAS Cohorts)
+  row_c8:
+    quotes:
+    - exact: c8 | cUS1 | Illumina317 | 1564
+      section: Supplementary Table 1 (GWAS Cohorts)
+  row_c9:
+    quotes:
+    - exact: c9 | cIR1 | Illumina550 | 432
+      section: Supplementary Table 1 (GWAS Cohorts)
+  row_c10:
+    quotes:
+    - exact: c10 | cIR2 | Illumina610 | 230
+      section: Supplementary Table 1 (GWAS Cohorts)
+  row_c11:
+    quotes:
+    - exact: c11 | cUK2 | Illumina550 | 661
+      section: Supplementary Table 1 (GWAS Cohorts)
+  row_c12:
+    quotes:
+    - exact: c12 | cUS2 | Illumina550 | 527
+      section: Supplementary Table 1 (GWAS Cohorts)
+  row_c13:
+    quotes:
+    - exact: c13 | cUS3 | Illumina550 | 276
+      section: Supplementary Table 1 (GWAS Cohorts)
+  row_c14:
+    quotes:
+    - exact: c14 | cIT1 | Illumina610 | 141
+      section: Supplementary Table 1 (GWAS Cohorts)
+  row_c15:
+    quotes:
+    - exact: c15 | cIT2 | Illumina550 | 507
+      section: Supplementary Table 1 (GWAS Cohorts)
+  row_c16:
+    quotes:
+    - exact: c16 | cUK3 | Illumina1M | 2501
+      section: Supplementary Table 1 (GWAS Cohorts)
+  row_c17:
+    quotes:
+    - exact: c17 | cUK4 | Illumina1M | 2699
+      section: Supplementary Table 1 (GWAS Cohorts)
+  row_c18:
+    quotes:
+    - exact: c18 | cUS4 | Illumina370 | 867
+      section: Supplementary Table 1 (GWAS Cohorts)
+  row_c19:
+    quotes:
+    - exact: c19 | cUS5 | Illumina1M | 1986
+      section: Supplementary Table 1 (GWAS Cohorts)
+  row_c20:
+    quotes:
+    - exact: c20 | cFIN1 | Illumina370 | 201
+      section: Supplementary Table 1 (GWAS Cohorts)
+  row_c21:
+    quotes:
+    - exact: c21 | cFIN2 | Illumina370 | 592
+      section: Supplementary Table 1 (GWAS Cohorts)
+  row_c22:
+    quotes:
+    - exact: c22 | cFIN3 | Illumina1M | 103
+      section: Supplementary Table 1 (GWAS Cohorts)
+  row_c23:
+    quotes:
+    - exact: c23 | cNL4 | IlluminaOmniExpress | 3488
+      section: Supplementary Table 1 (GWAS Cohorts)
+  row_c24:
+    quotes:
+    - exact: c24 | cGER1 | IlluminaOmniExpress | 866
+      section: Supplementary Table 1 (GWAS Cohorts)
+  row_c25:
+    quotes:
+    - exact: c25 | cIT3 | IlluminaOmniExpress | 411
+      section: Supplementary Table 1 (GWAS Cohorts)
+  row_c26:
+    quotes:
+    - exact: c26 | cPU1 | IlluminaOmniExpress | 94
+      section: Supplementary Table 1 (GWAS Cohorts)
+  row_c27:
+    quotes:
+    - exact: c27 | cSP1 | IlluminaOmniExpress | 168
+      section: Supplementary Table 1 (GWAS Cohorts)
+  row_c28:
+    quotes:
+    - exact: c28 | cCZ1 | IlluminaOmniExpress | 464
+      section: Supplementary Table 1 (GWAS Cohorts)
+  row_c29:
+    quotes:
+    - exact: c29 | cBE2 | IlluminaOmniExpress | 475
+      section: Supplementary Table 1 (GWAS Cohorts)
+  row_c30:
+    quotes:
+    - exact: c30 | cDEN1 | IlluminaOmniExpress | 110
+      section: Supplementary Table 1 (GWAS Cohorts)
+  row_c31:
+    quotes:
+    - exact: c31 | cFIN4 | IlluminaOmniExpress | 144
+      section: Supplementary Table 1 (GWAS Cohorts)
+  row_c32:
+    quotes:
+    - exact: c32 | cIR3 | IlluminaOmniExpress | 746
+      section: Supplementary Table 1 (GWAS Cohorts)
+  row_c33:
+    quotes:
+    - exact: c33 | cNOR1 | IlluminaOmniExpress | 125
+      section: Supplementary Table 1 (GWAS Cohorts)
+  row_c34:
+    quotes:
+    - exact: c34 | cSW2 | IlluminaOmniExpress | 552
+      section: Supplementary Table 1 (GWAS Cohorts)
+  row_c35:
+    quotes:
+    - exact: c35 | cUS6 | IlluminaOmniExpress | 107
+      section: Supplementary Table 1 (GWAS Cohorts)
+  row_c36:
+    quotes:
+    - exact: c36 | cGER2 | IlluminaExome | 1519
+      section: Supplementary Table 1 (GWAS Cohorts)
+  row_c37:
+    quotes:
+    - exact: c37 | cFR2 | IlluminaOmniExpress | 363
+      section: Supplementary Table 1 (GWAS Cohorts)
+  row_c38:
+    quotes:
+    - exact: c38 | cSL1 | IlluminaOmniExpress | 160
+      section: Supplementary Table 1 (GWAS Cohorts)
+  row_c39:
+    quotes:
+    - exact: c39 | cUS7 | IlluminaOmniExpress | 573
+      section: Supplementary Table 1 (GWAS Cohorts)
+  row_c40:
+    quotes:
+    - exact: c40 | cUK5 | IlluminaOmniExpress | 1228
+      section: Supplementary Table 1 (GWAS Cohorts)
+  row_c41:
+    quotes:
+    - exact: c41 | cFR3 | Illumina550 | 1100
+      section: Supplementary Table 1 (GWAS Cohorts)
+  row_c42:
+    quotes:
+    - exact: c42 | cGER3 | Illumina550 | 677
+      section: Supplementary Table 1 (GWAS Cohorts)
+  row_c43:
+    quotes:
+    - exact: c43 | cIT4 | Illumina660 | 3536
+      section: Supplementary Table 1 (GWAS Cohorts)
+  row_c44:
+    quotes:
+    - exact: c44 | cNL5 | Illumina2M | 7954
+      section: Supplementary Table 1 (GWAS Cohorts)
+  row_c45:
+    quotes:
+    - exact: c45 | phs000336_317K | Illumina317 | 1040
+      section: Supplementary Table 1 (GWAS Cohorts)
+  row_c46:
+    quotes:
+    - exact: c46 | phs000336_550K | Illumina550 | 830
+      section: Supplementary Table 1 (GWAS Cohorts)
+  row_c47:
+    quotes:
+    - exact: c47 | phs000336_610K | Illumina610 | 1816
+      section: Supplementary Table 1 (GWAS Cohorts)
+  row_c48:
+    quotes:
+    - exact: c48 | phs000336_1M | Illumina1M | 148
+      section: Supplementary Table 1 (GWAS Cohorts)
+  row_c49:
+    quotes:
+    - exact: c49 | phs000346_317K | Illumina317 | 1087
+      section: Supplementary Table 1 (GWAS Cohorts)
+  row_c50:
+    quotes:
+    - exact: c50 | phs000346_550K | Illumina550 | 825
+      section: Supplementary Table 1 (GWAS Cohorts)
+  row_c51:
+    quotes:
+    - exact: c51 | phs000346_610K | Illumina610 | 2273
+      section: Supplementary Table 1 (GWAS Cohorts)
+  row_c52:
+    quotes:
+    - exact: c52 | phs000346_1M | Illumina1M | 1083
+      section: Supplementary Table 1 (GWAS Cohorts)
+  row_c53:
+    quotes:
+    - exact: c53 | phs000789_1M | Illumina1M | 2420
+      section: Supplementary Table 1 (GWAS Cohorts)
+  row_c54:
+    quotes:
+    - exact: c54 | phs000206_550K | Illumina550 | 2016
+      section: Supplementary Table 1 (GWAS Cohorts)
+  row_c55:
+    quotes:
+    - exact: c55 | phs000206_610K | Illumina610 | 577
+      section: Supplementary Table 1 (GWAS Cohorts)
+  row_c56:
+    quotes:
+    - exact: c56 | phs000297_660K | Illumina660 | 2116
+      section: Supplementary Table 1 (GWAS Cohorts)
+  row_c57:
+    quotes:
+    - exact: c57 | phs000297_1M | Illumina1M | 529
+      section: Supplementary Table 1 (GWAS Cohorts)
+  row_c58:
+    quotes:
+    - exact: c58 | phs000652_550K | Illumina550 | 1284
+      section: Supplementary Table 1 (GWAS Cohorts)
+  row_c59:
+    quotes:
+    - exact: c59 | phs000652_610K | Illumina610 | 1360
+      section: Supplementary Table 1 (GWAS Cohorts)
+  row_c60:
+    quotes:
+    - exact: c60 | phs000652_660K | Illumina660 | 1139
+      section: Supplementary Table 1 (GWAS Cohorts)
+  row_c61:
+    quotes:
+    - exact: c61 | phs000869_1M | Illumina1M | 1864
+      section: Supplementary Table 1 (GWAS Cohorts)
+  row_c62:
+    quotes:
+    - exact: c62 | phs000812_550K | Illumina550 | 2963
+      section: Supplementary Table 1 (GWAS Cohorts)
+  row_c63:
+    quotes:
+    - exact: c63 | phs000812_610K | Illumina610 | 3011
+      section: Supplementary Table 1 (GWAS Cohorts)
+  row_c64:
+    quotes:
+    - exact: c64 | phs000812_660K | Illumina660 | 1236
+      section: Supplementary Table 1 (GWAS Cohorts)
+  row_c65:
+    quotes:
+    - exact: c65 | phs000428_2M | Illumina2M | 12595
+      section: Supplementary Table 1 (GWAS Cohorts)
+  row_c66:
+    quotes:
+    - exact: c66 | cKingsOE | IlluminaOmniExpress | 916
+      section: Supplementary Table 1 (GWAS Cohorts)
+  row_c67:
+    quotes:
+    - exact: c67 | phs000360.v3.p1.c1_54886 | Illumina660 | 17045
+      section: Supplementary Table 1 (GWAS Cohorts)
+  row_c68:
+    quotes:
+    - exact: c68 | phs000893.v1.p1.c1_54889 | IlluminaOmniExpress | 819
+      section: Supplementary Table 1 (GWAS Cohorts)
+  row_c69:
+    quotes:
+    - exact: c69 | phs000893.v1.p1.c9_54890 | IlluminaExome | 239
+      section: Supplementary Table 1 (GWAS Cohorts)
+  row_c70:
+    quotes:
+    - exact: c70 | phs000168.v2.p2.c1_54891 | Illumina610 | 1279
+      section: Supplementary Table 1 (GWAS Cohorts)
+  row_c71:
+    quotes:
+    - exact: c71 | phs000092.v1.p1.c1_54894 | Illumina1M | 1880
+      section: Supplementary Table 1 (GWAS Cohorts)
+  row_c72:
+    quotes:
+    - exact: c72 | phs000864.v1.p1.c1_54895 | IlluminaOmniExpress | 3451
+      section: Supplementary Table 1 (GWAS Cohorts)
+  row_c73:
+    quotes:
+    - exact: c73 | phs000170.v2.p1.c1_54896 | Illumina660 | 1370
+      section: Supplementary Table 1 (GWAS Cohorts)
+  row_c74:
+    quotes:
+    - exact: c74 | phs000431.v2.p1.c1_54897 | Illumina610 | 902
+      section: Supplementary Table 1 (GWAS Cohorts)
+  row_c75:
+    quotes:
+    - exact: c75 | phs000237.v1.p1.c1_54899 | Illumina1M | 846
+      section: Supplementary Table 1 (GWAS Cohorts)
+  row_c76:
+    quotes:
+    - exact: c76 | phs000237.v1.p1.c1_54899 | Illumina660 | 844
+      section: Supplementary Table 1 (GWAS Cohorts)
+  row_c77:
+    quotes:
+    - exact: c77 | phs000169.v1.p1.c1_54901 | Illumina1M | 2991
+      section: Supplementary Table 1 (GWAS Cohorts)
+  row_c78:
+    quotes:
+    - exact: c78 | phs000982.v1.p1.c1_54902 | IlluminaOmniExpress | 1417
+      section: Supplementary Table 1 (GWAS Cohorts)
+  row_c79:
+    quotes:
+    - exact: c79 | phs000289.v2.p1.c1_54903 | Illumina660 | 1302
+      section: Supplementary Table 1 (GWAS Cohorts)
+  row_c80:
+    quotes:
+    - exact: c80 | phs000634.v1.p1.c1_54904 | IlluminaOmniExpress | 1052
+      section: Supplementary Table 1 (GWAS Cohorts)
+  row_c81:
+    quotes:
+    - exact: c81 | phs000274.v1.p1.c1_54905 | Illumina660 | 530
+      section: Supplementary Table 1 (GWAS Cohorts)
+  row_c82:
+    quotes:
+    - exact: c82 | phs001172.v1.p2.c1_54906 | Illumina550 | 538
+      section: Supplementary Table 1 (GWAS Cohorts)
+  row_c83:
+    quotes:
+    - exact: c83 | phs001172.v1.p2.c1_54906 | Illumina317 | 263
+      section: Supplementary Table 1 (GWAS Cohorts)
+  row_c84:
+    quotes:
+    - exact: c84 | phs000389.v1.p1.c1_54907 | IlluminaOmniExpress | 903
+      section: Supplementary Table 1 (GWAS Cohorts)
+  row_c85:
+    quotes:
+    - exact: c85 | phs000460.v1.p1.c1_54908 | Illumina610 | 698
+      section: Supplementary Table 1 (GWAS Cohorts)
+  row_c86:
+    quotes:
+    - exact: c86 | phs000138.v2.p1.c1_54909 | Illumina610 | 1487
+      section: Supplementary Table 1 (GWAS Cohorts)
+  row_c87:
+    quotes:
+    - exact: c87 | phs000394.v1.p1.c1_54910 | IlluminaOmniExpress | 334
+      section: Supplementary Table 1 (GWAS Cohorts)
+  row_c88:
+    quotes:
+    - exact: c88 | phs000948.v1.p1.c1_54912 | IlluminaExome | 1968
+      section: Supplementary Table 1 (GWAS Cohorts)
+  row_c89:
+    quotes:
+    - exact: c89 | phs000630.v1.p1.c1_54914 | IlluminaExome | 1051
+      section: Supplementary Table 1 (GWAS Cohorts)
+  row_c90:
+    quotes:
+    - exact: c90 | phs000678.v1.p1.c1_54915 | IlluminaOmniExpress | 536
+      section: Supplementary Table 1 (GWAS Cohorts)
+  row_c91:
+    quotes:
+    - exact: c91 | phs000351.v1.p1.c1_54964 | Illumina550 | 845
+      section: Supplementary Table 1 (GWAS Cohorts)
+  row_c92:
+    quotes:
+    - exact: c92 | phs000351.v1.p1.c1_54964 | Illumina610 | 2691
+      section: Supplementary Table 1 (GWAS Cohorts)
+  row_c93:
+    quotes:
+    - exact: c93 | phs000314.v1.p1.c1_54965 | IlluminaOmniExpress | 988
+      section: Supplementary Table 1 (GWAS Cohorts)
+  row_c94:
+    quotes:
+    - exact: c94 | phs000147.v3.p1.c1_54966 | Illumina550 | 1431
+      section: Supplementary Table 1 (GWAS Cohorts)
+  row_c95:
+    quotes:
+    - exact: c95 | phs000882.v1.p1.c1_54967 | Illumina2M | 3040
+      section: Supplementary Table 1 (GWAS Cohorts)
+  row_c96:
+    quotes:
+    - exact: c96 | phs000238.v1.p1.c1_56660 | Illumina660 | 1240
+      section: Supplementary Table 1 (GWAS Cohorts)
+  row_c97:
+    quotes:
+    - exact: c97 | phs000397.v1.p1.c1_56661 | Illumina2M | 4813
+      section: Supplementary Table 1 (GWAS Cohorts)
+  row_c98:
+    quotes:
+    - exact: c98 | phs000421.v1.p1.c2_56664 | Illumina2M | 526
+      section: Supplementary Table 1 (GWAS Cohorts)
+  row_c99:
+    quotes:
+    - exact: c99 | phs000142.v1.p1.c1_56665 | Illumina610 | 2928
+      section: Supplementary Table 1 (GWAS Cohorts)
+  row_c100:
+    quotes:
+    - exact: c100 | phs000303.v1.p1.c1_56666 | Illumina2M | 1869
+      section: Supplementary Table 1 (GWAS Cohorts)
+  row_c101:
+    quotes:
+    - exact: c101 | phs000125.v1.p1.c1_56667 | Illumina1M | 561
+      section: Supplementary Table 1 (GWAS Cohorts)
+  row_c102:
+    quotes:
+    - exact: c102 | phs001039.v1.p1.c1_56668 | IlluminaExome | 13035
+      section: Supplementary Table 1 (GWAS Cohorts)
+  row_c103:
+    quotes:
+    - exact: c103 | phs000187.v1.p1.c1_58733 | Illumina1M | 1047
+      section: Supplementary Table 1 (GWAS Cohorts)
+  row_c104:
+    quotes:
+    - exact: c104 | cKingsGSA | IlluminaGSA | 2156
+      section: Supplementary Table 1 (GWAS Cohorts)
+  row_c105:
+    quotes:
+    - exact: c105 | phs000101.v5.p1 | IlluminaOmniExpress | 12319
+      section: Supplementary Table 1 (GWAS Cohorts)
+  row_c107:
+    quotes:
+    - exact: c107 | cAUS1 | IlluminaCoreExome | 1810
+      section: Supplementary Table 1 (GWAS Cohorts)
+  row_c109:
+    quotes:
+    - exact: c109 | phs000101.v5.p1.c1_64460 | Illumina550 | 527
+      section: Supplementary Table 1 (GWAS Cohorts)
+  row_c110:
+    quotes:
+    - exact: c110 | phs000101.v5.p1.c1_64460 | Illumina550 | 47
+      section: Supplementary Table 1 (GWAS Cohorts)
+  row_c111:
+    quotes:
+    - exact: c111 | phs000101.v5.p1.c1_64460 | Illumina317 | 221
+      section: Supplementary Table 1 (GWAS Cohorts)
+  row_c112:
+    quotes:
+    - exact: c112 | phs000101.v5.p1.c1_64460 | Illumina550 | 276
+      section: Supplementary Table 1 (GWAS Cohorts)
+  row_c113:
+    quotes:
+    - exact: c113 | phs000101.v5.p1.c1_64460 | Illumina370 | 247
+      section: Supplementary Table 1 (GWAS Cohorts)
+  row_c114:
+    quotes:
+    - exact: c114 | phs000101.v5.p1.c1_64460 | Illumina550 | 507
+      section: Supplementary Table 1 (GWAS Cohorts)
+  row_c116:
+    quotes:
+    - exact: c116 | phs000101.v5.p1.c1_64460 | Illumina550 | 141
+      section: Supplementary Table 1 (GWAS Cohorts)
+  row_c117:
+    quotes:
+    - exact: c117 | Qskin | IlluminaGSA | 16474
+      section: Supplementary Table 1 (GWAS Cohorts)
+  row_c118:
+    quotes:
+    - exact: c118 | Sripke | IlluminaGSA | 573
+      section: Supplementary Table 1 (GWAS Cohorts)
+  row_c119:
+    quotes:
+    - exact: c119 | cKingsGSA2 | IlluminaGSA | 3738
+      section: Supplementary Table 1 (GWAS Cohorts)
+  row_c120:
+    quotes:
+    - exact: c120 | cErasmusGSA | IlluminaGSA | 3240
+      section: Supplementary Table 1 (GWAS Cohorts)

@@ -1,0 +1,29 @@
+source:
+  citation: mullins2021bip_main
+  local: sources/mullins2021bip_main.txt
+  sha256: 81f7d4fc42efa14ef473bc9caa1b69183f71d7c5ef99aeea05fc9554dc020b0c
+  url: https://pmc-oa-opendata.s3.amazonaws.com/PMC8192451.1/PMC8192451.1.txt
+  doi: 10.1038/s41588-021-00857-4
+  note: Full text of Mullins N et al. 2021 Nat Genet 53:817-829 (PMID 34002096, PMC8192451 author manuscript),
+    plain-text rendering PMC8192451.1.txt from the NCBI PMC open-data bucket (pmc-oa-opendata.s3.amazonaws.com),
+    unedited
+claims:
+  main-57-cohorts:
+    quotes:
+    - exact: We conducted a GWAS meta-analysis of 57 BD cohorts collected in Europe, North America and
+        Australia (Supplementary Table 1), totaling 41,917 BD cases and 371,549 controls of European descent
+      section: Main text, Results
+  main-external-ukb:
+    quotes:
+    - exact: BD GWAS summary statistics were received for five external cohorts (iPSYCH30, deCODE genetics31,
+        Estonian Biobank32, Trøndelag Health Study (HUNT)33 and UK Biobank34)
+      section: Main text, Results
+  main-followup-noneur:
+    quotes:
+    - exact: Follow-up analyses included four non-European BD case-control cohorts, two from East Asia
+        (Japan59 and Korea92), and two admixed African American cohorts22,93
+      section: Main text, Online Methods
+  main-data-availability:
+    quotes:
+    - exact: GWAS summary statistics are publicly available on the PGC website (https://www.med.unc.edu/pgc/results-and-downloads).
+      section: Main text, Data availability

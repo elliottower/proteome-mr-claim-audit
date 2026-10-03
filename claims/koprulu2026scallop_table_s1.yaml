@@ -1,0 +1,218 @@
+source:
+  citation: koprulu2026scallop_table_s1
+  local: sources/koprulu2026scallop_table_s1.txt
+  sha256: 5bada5afa06fb1cbbd4b41bc502126bd4ef34e2cb4ba60d51efbad5f45e73107
+  doi: 10.1016/j.cell.2026.03.049
+  note: Table S1 (sheets S1A cohort characteristics and S1B cohort acknowledgements) of Koprulu et al.
+    2026 Cell, NIHMS2173841-supplement-MMC1.xlsx from the Europe PMC supplementaryFiles zip for PMC13343581,
+    converted with openpyxl, one row per line, cells separated by ' | '
+claims:
+  1000ibd:
+    quotes:
+    - exact: 1000IBD | 1000IBD | INF |
+      section: Table S1A
+  aristotle:
+    quotes:
+    - exact: the Apixaban for Reduction in Stroke and Other Thromboembolic Events in Atrial Fibrillation
+        trial | ARISTOTLE | CVD2, CVD3, INF
+      section: Table S1A
+  asap:
+    quotes:
+    - exact: The Advanced Study of Aortic Pathology | ASAP |
+      section: Table S1A
+  bamse-w1:
+    quotes:
+    - exact: Barn/Child, Allergy, Milieu, Stockholm, Epidemiology (Genotyping Wave 1) | BAMSE_W1 | INF
+      section: Table S1A
+  bamse-w2:
+    quotes:
+    - exact: Barn/Child, Allergy, Milieu, Stockholm, Epidemiology (Genotyping Wave 2) | BAMSE_W2 | INF
+      section: Table S1A
+  biofinder:
+    quotes:
+    - exact: Biomarkers For Identifying Neurodegenerative Disorders Early and Reliably | Biofinder | CVD3
+      section: Table S1A
+  cosmc:
+    quotes:
+    - exact: Cohort of Swedish Men - Clinical, a subcohort within the national research infrastructure
+        SIMPLER | COSMC | CVD2, CVD3, MET
+      section: Table S1A
+  epihealth:
+    quotes:
+    - exact: Epihealth | Epihealth | CVD2, CVD3, MET
+      section: Table S1A
+  fhs:
+    quotes:
+    - exact: Framingham Heart Study | FHS | CVD2, CVD3
+      section: Table S1A
+  lifelines:
+    quotes:
+    - exact: LifeLinesDeep | LifeLinesDEEP | CVD3
+      section: Table S1A
+  mpp:
+    quotes:
+    - exact: Malmö Preventive Project | MPP | CVD3
+      section: Table S1A
+  pivus:
+    quotes:
+    - exact: Prospective investigation of the Vascularture in Uppsala Seniors | PIVUS | CVD1
+      section: Table S1A
+  smcc:
+    quotes:
+    - exact: Swedish Mammography Cohort Clinical, a subcohort within the national research infrastructure
+        SIMPLER | SMCC | CVD2, CVD3, MET
+      section: Table S1A
+  dannicad:
+    quotes:
+    - exact: Danish study of Non-Invasive Testing in Coronary Artery Disease | DanNICAD | CVD2, CVD3
+      section: Table S1A
+  estbb:
+    quotes:
+    - exact: Estonian Biobank | EstBB | CVD2, CVD3, INF, ONC2
+      section: Table S1A
+  epic-cases:
+    quotes:
+    - exact: European Investigation into Cancer and Nutrition | EPICcases | IO
+      section: Table S1A
+  epic-controls:
+    quotes:
+    - exact: European Investigation into Cancer and Nutrition | EPICcontrols | IO
+      section: Table S1A
+  fenland:
+    quotes:
+    - exact: Fenland | Fenland | CM, CR, CVD2, CVD3, DEV, INF, IR, MET, NEU, NEX, OD, ONC2
+      section: Table S1A
+  manolis:
+    quotes:
+    - exact: HELIC MANOLIS | HELIC_Manolis | CVD2, CVD3, MET, NEU, NEX
+      section: Table S1A
+  pomak:
+    quotes:
+    - exact: HELIC POMAK | HELIC_Pomak | CVD2, CVD3, MET, NEU, NEX
+      section: Table S1A
+  interval:
+    quotes:
+    - exact: The INTERVAL study | INTERVAL | CVD2, CVD3, INF, NEU
+      section: Table S1A
+  karma:
+    quotes:
+    - exact: Karolinska Mammography Project for Risk Prediction of Breast Cancer | KARMA | CM, IO
+      section: Table S1A
+  kora:
+    quotes:
+    - exact: Cooperative Health Research in the Region of Augsburg | KORA | INF
+      section: Table S1A
+  kora-f4:
+    quotes:
+    - exact: The present analysis includes participants aged 55-74 years from the KORA F4 study, which
+        is the first follow-up examination of KORA S4.
+      section: Table S1A, KORA row
+  lbc1936:
+    quotes:
+    - exact: Lothian Birth Cohort 1936 | LBC1936 | INF, NEU
+      section: Table S1A
+  direct-diabetes:
+    quotes:
+    - exact: DIabetes REsearCh on patient straTification | DIRECT_diabetes | MET, CM, CVDII, CVDIII, DEV
+      section: Table S1A
+  direct-prediabetics:
+    quotes:
+    - exact: DIabetes REsearCh on patient straTification | DIRECT_prediabetics | MET, CM, CVDII, CVDIII,
+        DEV
+      section: Table S1A
+  mutographs:
+    quotes:
+    - exact: MUTOGRAPHS | MUTOGRAPHcases | CR, CVD2, IO
+      section: Table S1A
+  sahlsis:
+    quotes:
+    - exact: the Sahlgrenska Academy Study on Ischemic Stroke | SAHLSIS / GOTHENBURG | NEU
+      section: Table S1A
+  sahlsis-controls:
+    quotes:
+    - exact: was recruited by random selection from population-based cohorts or registers
+      section: Table S1A, SAHLSIS row
+  orcades:
+    quotes:
+    - exact: Orkney Complex Disease Study | ORCADES | CM, CR, CVD2, CVD3, DEV, INF, IR, MET, NEU, NEX,
+        OD, ONC2
+      section: Table S1A
+  procardis-cases:
+    quotes:
+    - exact: PROCARDIS | PROCARDIS_cases | INF
+      section: Table S1A
+  procardis-controls:
+    quotes:
+    - exact: PROCARDIS | PROCARDIS_controls | INF
+      section: Table S1A
+  risc:
+    quotes:
+    - exact: Relationship between Insulin Sensitivity and Cardiovascular disease | RISC | CM, CVD2, CVD3,
+        DEV, INF, IR, MET, OD, ONC2
+      section: Table S1A
+  stability:
+    quotes:
+    - exact: the Stabilization of Atherosclerotic Plaque by Initiation of Darapladib Therapy trial | STABILITY
+        | CVD1, INF
+      section: Table S1A
+  swebic-lah1:
+    quotes:
+    - exact: SWEBIC (lah1) | SWEBIClah1 |
+      section: Table S1A
+  swebic-swe6:
+    quotes:
+    - exact: SWEBIC (swe6) | SWEBICswe6 |
+      section: Table S1A
+  swebic-stanley:
+    quotes:
+    - exact: Funding support for SWEBIC was provided by the Stanley Center for Psychiatric Research
+      section: Table S1B
+  ulsam:
+    quotes:
+    - exact: Uppsala Longitudinal Study of Adult Men | ULSAM | CM, CVD2, CVD3, DEV, INF, IR, MET, OD,
+        ONC2
+      section: Table S1A
+  vis:
+    quotes:
+    - exact: CROATIA-VIS | VIS | INF
+      section: Table S1A
+  rs3:
+    quotes:
+    - exact: Rotterdam Study III | RS3 | CM, INF
+      section: Table S1A
+  nsphs:
+    quotes:
+    - exact: Northern Sweden Population Health Study | NSPHS | CVD2, CVD3, INF, NEU, ONC2
+      section: Table S1A
+  rs1:
+    quotes:
+    - exact: Rotterdam Study I | RS | NEU
+      section: Table S1A
+  belove:
+    quotes:
+    - exact: Berlin Longterm Observation of Vascular Events | BeLOVE | CM, MET
+      section: Table S1A
+  dannicad-decode-genotyping:
+    quotes:
+    - exact: Genotyping was performed by deCODE genetics.
+      section: Table S1B, Dan-NICAD
+  ukb-ack:
+    quotes:
+    - exact: This research has been conducted using the UK Biobank resource under the application 44448.
+      section: Table S1B, UK Biobank
+  caption:
+    quotes:
+    - exact: 'Sheet S1A Table S1: Cohort related information, related to Figure S1 and Figure 1. A. Genotype
+        and proteomic measurements and cohort characteristics of SCALLOP cohorts included in this study.'
+      section: Table S1A caption
+  direct-sources:
+    quotes:
+    - exact: 'DIRECT_prediabetics | MET, CM, CVDII, CVDIII, DEV | Illumina HumanCore array (HCE24 v1.0)
+        | HRC.r1-1 | 2233 (MET, CM, CVDIII, DEV), 2231 (CVDII) | The DIRECT (Diabetes Research on Patient
+        Stratification) consortium includes pre-diabetic participants (target sample size 2,200–2,700)
+        and patients with newly diagnosed type 2 diabetes (target sample size ~1,000) from existing cohort
+        studies across Europe: Metabolic Syndrome in Men (METSIM) (Finland); Relationship between Insulin
+        Sensitivity and Cardiovascular disease (RISC), Hoorn Meal Study (HMS), and New Hoorn Study (NHS)
+        (Netherlands); Health2010, Health2006, Danish Study of Functional Disorders (DanFunD) (Dandund-web),
+        and Gut, Grain and Greens (GGG) studies (Denmark); Malmö Diet and Cancer (MDC) study (Sweden).'
+      section: Table S1A, DIRECT_prediabetics row

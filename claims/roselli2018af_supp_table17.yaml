@@ -1,0 +1,316 @@
+source:
+  citation: roselli2018af_supp_table17
+  local: sources/roselli2018af_supp_table17.txt
+  sha256: 2d22ab629617db7a14b8d8aaea579c7d47890b7a4eb7a7c72754bd7576e7bf08
+  doi: 10.1038/s41588-018-0133-9
+  note: Roselli et al. 2018 Supplementary Table 17 (baseline summary for GWAS) from 41588_2018_133_MOESM14_ESM.xlsx
+    (static-content.springer.com), converted with pandas, one row per line, cells separated by ' | '.
+claims:
+  caption:
+    quotes:
+    - exact: Supplementary Table 17. Baseline summary for GWAS
+      section: Supplementary Table 17 caption
+  row-ages:
+    quotes:
+    - exact: AGES | Cases | 199
+      section: Supplementary Table 17
+  row-beat-af:
+    quotes:
+    - exact: BEAT-AF | Cases | 1520
+      section: Supplementary Table 17
+  row-biome-eur:
+    quotes:
+    - exact: BioMe | Cases | 291
+      section: Supplementary Table 17
+  row-broad-afct:
+    quotes:
+    - exact: Broad AF Study | AFCT | Case | 110
+      section: Supplementary Table 17
+  row-broad-aflmu:
+    quotes:
+    - exact: AFLMU | Case | 2282
+      section: Supplementary Table 17
+  row-broad-australian:
+    quotes:
+    - exact: Australian Familial AF Study | Case | 146
+      section: Supplementary Table 17
+  row-broad-biovu:
+    quotes:
+    - exact: BioVU | Case | 5055
+      section: Supplementary Table 17
+  row-broad-danish:
+    quotes:
+    - exact: Danish AF Study | Case | 577
+      section: Supplementary Table 17
+  row-broad-duke:
+    quotes:
+    - exact: Duke | Case | 251
+      section: Supplementary Table 17
+  row-broad-east:
+    quotes:
+    - exact: EAST AFNET4 | Case | 1202
+      section: Supplementary Table 17
+  row-broad-genaf:
+    quotes:
+    - exact: GENAF | Case | 103
+      section: Supplementary Table 17
+  row-broad-ggaf:
+    quotes:
+    - exact: GGAF | Case | 988
+      section: Supplementary Table 17
+  row-broad-grade:
+    quotes:
+    - exact: GRADE | Case | 113
+      section: Supplementary Table 17
+  row-broad-germifs:
+    quotes:
+    - exact: GerMIFS | Case | 96
+      section: Supplementary Table 17
+  row-broad-ghc-controls:
+    quotes:
+    - exact: German Heart Center Controls | Referent | 1111
+      section: Supplementary Table 17
+  row-broad-hvh:
+    quotes:
+    - exact: HVH | Case | 707
+      section: Supplementary Table 17
+  row-broad-hopkins:
+    quotes:
+    - exact: Hopkins | Case | 444
+      section: Supplementary Table 17
+  row-broad-intermountain:
+    quotes:
+    - exact: Intermountain | Case | 854
+      section: Supplementary Table 17
+  row-broad-mgh-af:
+    quotes:
+    - exact: MGH AF | Case | 1112
+      section: Supplementary Table 17
+  row-broad-mgh-dofegen:
+    quotes:
+    - exact: MGH DOFEGEN | Case | 54
+      section: Supplementary Table 17
+  row-broad-mgh-stroke:
+    quotes:
+    - exact: MGH Stroke | Case | 187
+      section: Supplementary Table 17
+  row-broad-mpp-af:
+    quotes:
+    - exact: MPP AF | Case | 799
+      section: Supplementary Table 17
+  row-broad-mpp-echo:
+    quotes:
+    - exact: MPP Echo | Referent | 742
+      section: Supplementary Table 17
+  row-broad-penn:
+    quotes:
+    - exact: Penn | Case | 723
+      section: Supplementary Table 17
+  row-broad-tcai:
+    quotes:
+    - exact: TCAI | Case | 190
+      section: Supplementary Table 17
+  row-broad-ucsf:
+    quotes:
+    - exact: UCSF | Case | 236
+      section: Supplementary Table 17
+  row-broad-umass:
+    quotes:
+    - exact: UMass | Case | 92
+      section: Supplementary Table 17
+  row-broad-vafar:
+    quotes:
+    - exact: VAFAR | Case | 330
+      section: Supplementary Table 17
+  row-ccaf:
+    quotes:
+    - exact: CCAF | Cases | 606
+      section: Supplementary Table 17
+  row-corogene:
+    quotes:
+    - exact: Corogene | Cases | 248
+      section: Supplementary Table 17
+  row-fhs:
+    quotes:
+    - exact: FHS | Cases | 319
+      section: Supplementary Table 17
+  row-gs-sfhs:
+    quotes:
+    - exact: GS:SFHS | Cases | 203
+      section: Supplementary Table 17
+  row-luric:
+    quotes:
+    - exact: LURIC | Cases | 358
+      section: Supplementary Table 17
+  row-mdcs:
+    quotes:
+    - exact: MDCS | Cases | 119
+      section: Supplementary Table 17
+  row-mgh-camp:
+    quotes:
+    - exact: MGH CAMP | Cases | 651
+      section: Supplementary Table 17
+  row-sign1:
+    quotes:
+    - exact: SiGN Group1 | Cases | 157
+      section: Supplementary Table 17
+  row-sign2:
+    quotes:
+    - exact: SiGN Group2 | Cases | 703
+      section: Supplementary Table 17
+  row-sign4:
+    quotes:
+    - exact: SiGN Group4 | Cases | 751
+      section: Supplementary Table 17
+  row-sign5:
+    quotes:
+    - exact: SiGN Group5 | Cases | 356
+      section: Supplementary Table 17
+  row-sign6:
+    quotes:
+    - exact: SiGN Group6 | Cases | 120
+      section: Supplementary Table 17
+  row-sign7:
+    quotes:
+    - exact: SiGN Group7 | Cases | 368
+      section: Supplementary Table 17
+  row-sign8:
+    quotes:
+    - exact: SiGN Group8 | Cases | 203
+      section: Supplementary Table 17
+  row-sign9:
+    quotes:
+    - exact: SiGN Group9 | Cases | 319
+      section: Supplementary Table 17
+  row-vanderbilt-af-registry:
+    quotes:
+    - exact: Vanderbilt AF Registry | Cases | 1069
+      section: Supplementary Table 17
+  row-wtccc2-munich:
+    quotes:
+    - exact: WTCCC2 Munich | Cases | 330
+      section: Supplementary Table 17
+  row-aric:
+    quotes:
+    - exact: ARIC | Cohort | 8880
+      section: Supplementary Table 17
+  row-chs:
+    quotes:
+    - exact: CHS | Cohort | 3201
+      section: Supplementary Table 17
+  row-mesa:
+    quotes:
+    - exact: MESA | Cohort | 2527
+      section: Supplementary Table 17
+  row-pivus:
+    quotes:
+    - exact: PIVUS | Cohort | Cohort* | 949
+      section: Supplementary Table 17
+  row-prosper:
+    quotes:
+    - exact: PROSPER | Cohort* | 5187
+      section: Supplementary Table 17
+  row-twingene:
+    quotes:
+    - exact: TWINGENE | Cohort* | 6813
+      section: Supplementary Table 17
+  row-ulsam:
+    quotes:
+    - exact: ULSAM | Cohort | Cohort* | 1120
+      section: Supplementary Table 17
+  row-wghs:
+    quotes:
+    - exact: WGHS | Cohort | 20856
+      section: Supplementary Table 17
+  row-anges:
+    quotes:
+    - exact: ANGES | prev+inc | 779
+      section: Supplementary Table 17
+  row-egcut370:
+    quotes:
+    - exact: EGCUT 370 | prev+inc | 2259
+      section: Supplementary Table 17
+  row-egcut-omni:
+    quotes:
+    - exact: EGCUT Omni | prev+inc | 6739
+      section: Supplementary Table 17
+  row-fincavas:
+    quotes:
+    - exact: FINCAVAS | prev+inc | 2879
+      section: Supplementary Table 17
+  row-phb-mega:
+    quotes:
+    - exact: PHB (MEGA) | prev+inc | 3976
+      section: Supplementary Table 17
+  row-phb-megaex:
+    quotes:
+    - exact: PHB (MEGA Ex) | prev+inc | 3669
+      section: Supplementary Table 17
+  row-phb-meg:
+    quotes:
+    - exact: PHB (MEG) | prev+inc | 3771
+      section: Supplementary Table 17
+  row-prevend:
+    quotes:
+    - exact: PREVEND | prev+inc | 3554
+      section: Supplementary Table 17
+  row-rs1:
+    quotes:
+    - exact: RS1 | prev+inc | 5947
+      section: Supplementary Table 17
+  row-rs2:
+    quotes:
+    - exact: RS2 | prev+inc | 1806
+      section: Supplementary Table 17
+  row-rs3:
+    quotes:
+    - exact: RS3 | prev+inc | 3030
+      section: Supplementary Table 17
+  row-ship:
+    quotes:
+    - exact: SHIP | prev+inc | 1917
+      section: Supplementary Table 17
+  row-ukb:
+    quotes:
+    - exact: UK Biobank | prev+inc | 351017 | 16064
+      section: Supplementary Table 17
+  row-biome-aa:
+    quotes:
+    - exact: BioMe | Cases | 174
+      section: Supplementary Table 17
+  row-broad-aa:
+    quotes:
+    - exact: Broad AF Study | *** | Cases | 482
+      section: Supplementary Table 17
+  row-sign4-aa:
+    quotes:
+    - exact: SiGN Group4 | Cases | 119
+      section: Supplementary Table 17
+  row-aric-aa:
+    quotes:
+    - exact: ARIC | Cohort | 2768
+      section: Supplementary Table 17
+  row-chs-aa:
+    quotes:
+    - exact: CHS | Cohort | 796
+      section: Supplementary Table 17
+  row-sphfc:
+    quotes:
+    - exact: SPHFC | Cases | 184
+      section: Supplementary Table 17
+  row-broad-incor:
+    quotes:
+    - exact: Broad AF Study | Incor Warfarin Study | Cases | 384
+      section: Supplementary Table 17
+  row-bbj:
+    quotes:
+    - exact: BBJ | Cases | 8180
+      section: Supplementary Table 17
+  row-biome-hisp:
+    quotes:
+    - exact: BioMe | Cases | 277
+      section: Supplementary Table 17
+  st17-footnote-logistic:
+    quotes:
+    - exact: '*analyzed in logistic model'
+      section: Supplementary Table 17 abbreviations line

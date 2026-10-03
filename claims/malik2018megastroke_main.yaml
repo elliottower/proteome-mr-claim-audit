@@ -1,0 +1,13 @@
+source:
+  citation: malik2018megastroke_main
+  local: sources/malik2018megastroke_main.txt
+  sha256: fdbe837cc01860882f17281c5a697cbb6dc347a20ff77a1a4424af48df6666f3
+  doi: 10.1038/s41588-018-0058-3
+  note: Full text of Malik et al. 2018 Nat Genet (PMC5968830) from NCBI E-utilities efetch db=pmc XML,
+    text of p/title/td/th/caption/label elements, one element per line
+claims:
+  data-availability:
+    quotes:
+    - exact: The datasets generated and/or analyzed during the current study are available from the corresponding
+        authors upon reasonable request.
+      section: Data availability

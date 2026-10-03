@@ -1,0 +1,28 @@
+source:
+  citation: folkersen2020scallop
+  local: sources/original/folkersen2020scallop.xml
+  sha256: 909a7ab92770ae678578909a5fd7f3e48245ad184ea0e4059ff0521fead13688
+  url: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=PMC7611474
+  doi: 10.1038/s42255-020-00287-2
+  extractor: jats-text
+  note: 'Original file behind claims/folkersen2020scallop.yaml: the XML pinned in claims/folkersen2020scallop_original.yaml,
+    read by the citations extractor jats-text. The quotations here are those of that file that resolve
+    in this reading; a quotation absent here stays pinned where it already was.'
+  extractor_version: 1
+  derived_sha256: 7b3610fdb7bdcc41f5e9cad0bd8856ad970fd6146f4ce99c4016ac1174bb9c96
+claims:
+  platform-cvd1:
+    quotes:
+    - exact: Summary statistics from GWAS of Olink CVD-I proteins were obtained from 13 cohorts of European
+        ancestry.
+      section: 'Online Methods: Cohorts and data collection'
+  proteins-90:
+    quotes:
+    - exact: Ninety proteins in up to 21,758 participants from 13 cohorts passed quality control (QC)
+        criteria and were available for GWAS meta-analysis [Supplementary Table 1].
+      section: Results
+  panel-selection:
+    quotes:
+    - exact: Proteins for the Olink PEA CVD-I panel were selected by mining the literature for protein
+        biomarkers associated with cardiovascular risk or prognosis
+      section: 'Online Methods: Selection of proteins'

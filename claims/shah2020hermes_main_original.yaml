@@ -1,0 +1,22 @@
+source:
+  citation: shah2020hermes_main
+  local: sources/original/shah2020hermes_main.xml
+  sha256: 92bbe2d6a0c9f975156effc7641f5b1910655f4c1dd5aebb83312df6ce987497
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6952380/fullTextXML
+  doi: 10.1038/s41467-019-13690-5
+  note: 'Original file behind claims/shah2020hermes_main.yaml: Europe PMC fullTextXML of PMC6952380, read
+    as plain text with its markup. The quotations here are the quotations of that file that resolve in
+    this file under the citations readers; a quotation absent here is pinned to the extracted text there
+    only.'
+claims:
+  n26:
+    quotes:
+    - exact: We conducted a GWAS comprising 47,309 cases and 930,014 controls of European ancestry across
+        26 studies from the Heart Failure Molecular Epidemiology for Therapeutic Targets (HERMES) Consortium.
+      section: Results
+  n29datasets:
+    quotes:
+    - exact: Participants of European ancestry from 26 cohorts (with a total of 29 distinct datasets)
+        with either a case-control or population-based study design were included in the meta-analysis,
+        as part of the HERMES Consortium.
+      section: Methods

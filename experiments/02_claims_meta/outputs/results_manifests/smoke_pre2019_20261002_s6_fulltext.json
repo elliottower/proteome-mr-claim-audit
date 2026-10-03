@@ -1,0 +1,31 @@
+{
+ "run_id": "smoke_pre2019_20261002_s6_fulltext",
+ "note": "pre-freeze smoke run on records first public before 2019: full-text census of the two eligible families; neither has an open-access full text in Europe PMC, so no full text was extracted",
+ "written_utc": "2026-10-02T20:20:25+00:00",
+ "files": [
+  {
+   "path": "outputs/fulltext/smoke_pre2019_20261002/fulltext_bodies.jsonl",
+   "bytes": 0,
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+   "path": "outputs/fulltext/smoke_pre2019_20261002/fulltext_status.json",
+   "bytes": 691,
+   "sha256": "0020ec1c783631d34d4c22dd7f232f1dc5267b5bb753e8235cca925682104c89"
+  },
+  {
+   "path": "outputs/fulltext/smoke_pre2019_20261002/records/29875488.json",
+   "bytes": 125,
+   "sha256": "a4bb34b0b699188a21bebaac5adf249665bb0e20d35f23cd39228ae6921097bc"
+  },
+  {
+   "path": "outputs/fulltext/smoke_pre2019_20261002/records/W2901567682.json",
+   "bytes": 82,
+   "sha256": "706dda293d5f7809d43e49b83446979403318ce83e1c00a1e1a7483b783faa7a"
+  }
+ ],
+ "recorded_directly": [
+  "outputs/fulltext/smoke_pre2019_20261002/fulltext_status.json"
+ ],
+ "volume_checks": []
+}

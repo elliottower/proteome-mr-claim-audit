@@ -1,0 +1,19 @@
+source:
+  citation: chen2025lung
+  local: sources/original/chen2025lung.pdf
+  sha256: e97ff9fed366e58cc171cb3a85e7638680e208b6317b0058d526b1152b1bf032
+  url: https://www.medrxiv.org/content/medrxiv/early/2025/02/10/2025.02.07.25321860.full.pdf
+  doi: 10.1101/2025.02.07.25321860
+  note: 'Original file behind claims/chen2025lung.yaml: medRxiv version 1 PDF (the copy served at the
+    url, which differs in bytes from the copy the text pin was extracted from). The quotations here are
+    the quotations of that file that resolve in this file under the citations readers; a quotation absent
+    here is pinned to the extracted text there only.'
+claims:
+  proteins-2923:
+    quotes:
+    - exact: We applied two-sample MR by integrating protein GWAS data (2,923 proteins, 48,195
+      section: Abstract, Methods
+  cis-1841:
+    quotes:
+    - exact: Our GWAS studies of 2,923 proteins identified 1,841 proteins with a suitable cis-pQTL instrument
+      section: Results

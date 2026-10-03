@@ -1,0 +1,36 @@
+{
+ "inputs": "/tmp/dry/inputs",
+ "window": "confirmatory",
+ "claim_records": 13,
+ "resources": {
+  "ontology_edges": "/tmp/dry/resources/ontology_edges.csv",
+  "category_anchors": "/tmp/dry/resources/anchors.csv",
+  "assay_lists": "/tmp/dry/resources/assay_lists.csv",
+  "attachments": "/tmp/dry/resources/attachments.csv",
+  "reactome": "/tmp/dry/resources/UniProt2Reactome.txt",
+  "snapshot_estimates": "/tmp/dry/resources/mrres_estimates.jsonl",
+  "protein_mapping": "/tmp/dry/resources/protein_mapping.csv",
+  "trait_mapping": "/tmp/dry/resources/trait_mapping.csv",
+  "locus_list": "/tmp/dry/resources/loci.csv"
+ },
+ "written_utc": "2026-10-01T16:41:35+00:00",
+ "claim_records_by_class": {
+  "earlier_in_registry": 4,
+  "no_earlier_in_registry": 9
+ },
+ "novelty_language_claims": 3,
+ "novelty_language_by_class": {
+  "earlier_in_registry": 2,
+  "no_earlier_in_registry": 1
+ },
+ "novelty_language_earlier_in_registry": 2,
+ "novelty_language_earlier_in_registry_share": 0.6666666666666666,
+ "wilson_descriptive": [
+  0.2076596008020477,
+  0.9385080552796037
+ ],
+ "novelty_language_tied_or_unknown_order": 0,
+ "novelty_language_related_prior_claim": 1,
+ "related_prior_claim_all_claims": 2,
+ "imprecise_under_20": true
+}

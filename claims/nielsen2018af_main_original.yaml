@@ -1,0 +1,16 @@
+source:
+  citation: nielsen2018af_main
+  local: sources/original/nielsen2018af_main.xml
+  sha256: 8d3e7e7a9fef829918cc82c2e37cbb0f6a48d29c7869e489c8a9262670fac80c
+  url: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=PMC6530775
+  doi: 10.1038/s41588-018-0171-3
+  note: 'Original file behind claims/nielsen2018af_main.yaml: NCBI E-utilities efetch (db=pmc) XML of
+    PMC6530775, read as plain text with its markup. The quotations here are the quotations of that file
+    that resolve in this file under the citations readers; a quotation absent here is pinned to the extracted
+    text there only.'
+claims:
+  ctrl-decode:
+    quotes:
+    - exact: Controls were 358,161 Icelanders recruited through different genetic research projects at
+        deCODE genetics, excluding those in the atrial fibrillation cohort.
+      section: Online Methods, deCODE

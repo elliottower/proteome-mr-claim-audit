@@ -1,0 +1,76 @@
+source:
+  citation: zhang2020bcac_main
+  local: sources/zhang2020bcac_main.txt
+  sha256: 9d314aeecdbbb1f181ced6a61b9efddfaf214491179d7c2ed501cd8228d13adc
+  doi: 10.1038/s41588-020-0609-2
+  note: Full text of Zhang H et al. 2020 Nat Genet 52:572-581 (author manuscript), Europe PMC fullTextXML
+    PMC7808397, tags stripped, one paragraph per line
+claims:
+  bcac-82:
+    quotes:
+    - exact: we analyzed data from 118,474 cases and 96,201 controls of European ancestry participating
+        in 82 studies from the BCAC and 9,414 affected and 9,494 unaffected BRCA1 mutation carriers from
+        60 studies from the Consortium of Investigators of Modifiers of BRCA1/2 (CIMBA)
+      section: Main text, first Results paragraph
+  other-gwas-11:
+    quotes:
+    - exact: In analyses of overall breast cancer, we also included summary level data from 11 other breast
+        cancer GWAS (14,910 cases and 17,588 controls) without subtype information.
+      section: Main text, first Results paragraph
+  overall-st1:
+    quotes:
+    - exact: The overall breast cancer analyses included women of European ancestry from 82 BCAC studies
+        from over 20 countries, with genotyping data derived from two Illumina genome-wide custom arrays,
+        the iCOGS and OncoArray (Supplementary Table 1).
+      section: 'Online Methods: Study populations'
+  lmbc-icogs-excluded:
+    quotes:
+    - exact: One study (LMBC) contributing to the iCOGS dataset was excluded due to inflation of the test
+        statistics
+      section: 'Online Methods: Study populations'
+  norway-excluded:
+    quotes:
+    - exact: We also excluded OncoArray data from Norway (the Norwegian Breast Cancer Study) because there
+        were no controls available from Norway with OncoArray data.
+      section: 'Online Methods: Study populations'
+  overall-total:
+    quotes:
+    - exact: The total sample size for this analysis, including iCOGS, OncoArray and other GWAS data,
+        comprised 133,384 cases and 113,789 controls.
+      section: 'Online Methods: Study populations'
+  subtype-81:
+    quotes:
+    - exact: In the GWAS analyses accounting for underlying heterogeneity according to ER, PR, HER2 and
+        grade, we included genotyping data from 81 BCAC studies.
+      section: 'Online Methods: Study populations'
+  subtype-no-gwas:
+    quotes:
+    - exact: We did not include the summary results from the 14,910 cases and 17,588 controls from the
+        11 other GWAS in subtype analyses because these studies did not provide data on tumor characteristics.
+      section: 'Online Methods: Study populations'
+  subtype-total:
+    quotes:
+    - exact: In total, the final sample for the two-stage polytomous logistic regression comprised 106,278
+        invasive cases and 91,477 controls.
+      section: 'Online Methods: Study populations'
+  cimba-overlap-removed:
+    quotes:
+    - exact: Following quality control and removal of participants that overlapped with the BCAC OncoArray
+        study, data were available on 15,566 BRCA1 mutation carriers
+      section: 'Online Methods: Study populations'
+  gwas-overlap-approx:
+    quotes:
+    - exact: Since individual level genotyping data were not available for some previous GWAS, we conservatively
+        approximated the potential overlap between the GWAS and iCOGS and OncoArray datasets
+      section: 'Online Methods: Statistical analysis'
+  tn-meta:
+    quotes:
+    - exact: Analyses investigating triple-negative susceptibility variants included 91,477 controls and
+        8,602 triple-negative TN (effective sample, see Supplementary Note) cases from BCAC and 9,414
+        affected and 9,494 unaffected BRCA1/2 carriers from 60 studies
+      section: Figure 1 legend / flow chart
+  data-availability:
+    quotes:
+    - exact: Summary level statistics are available from http://bcac.ccge.medschl.cam.ac.uk/bcacdata/
+        and http://cimba.ccge.medschl.cam.ac.uk/projects/.
+      section: Data Availability Statement

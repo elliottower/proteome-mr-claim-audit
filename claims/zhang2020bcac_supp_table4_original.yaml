@@ -1,0 +1,21 @@
+source:
+  citation: zhang2020bcac_supp_table4
+  local: sources/original/zhang2020bcac_supp_table4.xlsx
+  sha256: 277b381fc31a9d5cb38d7558a6cc9271b7acf680b9ac530d88ae951f2f8ede9e
+  url: https://static-content.springer.com/esm/art%3A10.1038%2Fs41588-020-0609-2/MediaObjects/41588_2020_609_MOESM3_ESM.xlsx
+  doi: 10.1038/s41588-020-0609-2
+  extractor: sheet-rows
+  note: 'Original file behind claims/zhang2020bcac_supp_table4.yaml: 41588_2020_609_MOESM3_ESM.xlsx from
+    static-content.springer.com, read by the citations extractor sheet-rows. The quotations here are those
+    of that file that resolve in this reading; a quotation absent here stays pinned where it already was.'
+  extractor_version: 1
+  derived_sha256: 4259290ae84bf9ecb6b6188e3a9c9eafd923406d522b763d310849a207d0c3f2
+claims:
+  overall-row:
+    quotes:
+    - exact: Data in overall analysis2 | 37818 | 38349 | 58383 | 80125 | 14910 | 17588
+      section: Supplementary Table 4
+  subtype-row:
+    quotes:
+    - exact: Data in subtypes analysis3 | 37628 | 34783 | 56779 | 71708
+      section: Supplementary Table 4

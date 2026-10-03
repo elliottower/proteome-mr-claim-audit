@@ -1,0 +1,234 @@
+{
+ "run_id": "smoke_pre2019_20261002_s2_eligibility_2811496ef424",
+ "note": "pre-freeze smoke run on records first public before 2019: eligibility exchanges and decisions for the search and chase round 1",
+ "written_utc": "2026-10-02T20:20:03+00:00",
+ "files": [
+  {
+   "path": "outputs/parsed/sol_eligibility_smoke_pre2019_20261002_2811496ef424.decisions.eligible_abstracts.jsonl",
+   "bytes": 1277,
+   "sha256": "c4d8a1599f744adcdcf415c2db4dd9c547b8f801f5ccd8f65818bd73efb056be"
+  },
+  {
+   "path": "outputs/parsed/sol_eligibility_smoke_pre2019_20261002_2811496ef424.decisions.eligible_records.jsonl",
+   "bytes": 1850,
+   "sha256": "3ef76603e5de7b75037984a001912d313243f301a183cf86e9c5fa7d679192b2"
+  },
+  {
+   "path": "outputs/parsed/sol_eligibility_smoke_pre2019_20261002_2811496ef424.decisions.jsonl",
+   "bytes": 3910,
+   "sha256": "1279cc2858abf36a2b5cc1fc6bb27b998ea4e8e8d2ff79a28a3a2449372af038"
+  },
+  {
+   "path": "outputs/parsed/sol_eligibility_smoke_pre2019_20261002_2811496ef424.decisions.repeat_sample.json",
+   "bytes": 492,
+   "sha256": "ad47c3f1b028b9e7aa01657d1a2c8f7249f98a8e5ac1c57f6eacd417c6fe80f8"
+  },
+  {
+   "path": "outputs/parsed/sol_eligibility_smoke_pre2019_20261002_2811496ef424.decisions.repeat_sample.jsonl",
+   "bytes": 1277,
+   "sha256": "c4d8a1599f744adcdcf415c2db4dd9c547b8f801f5ccd8f65818bd73efb056be"
+  },
+  {
+   "path": "outputs/parsed/sol_eligibility_smoke_pre2019_20261002_2811496ef424.jsonl",
+   "bytes": 9109,
+   "sha256": "21568ca27549e448df23be1360489736c4db093ecd2012d355bc9d6315c95aca"
+  },
+  {
+   "path": "outputs/parsed/sol_eligibility_smoke_pre2019_20261002_2811496ef424.meta.json",
+   "bytes": 688,
+   "sha256": "9531e1e0187d0a58b1876ec2f90b17c40da6776c1ea05661673e34ee384cdd15"
+  },
+  {
+   "path": "outputs/parsed/sol_eligibility_smoke_pre2019_20261002_chase1_2811496ef424.decisions.eligible_abstracts.jsonl",
+   "bytes": 1810,
+   "sha256": "4b999698729ed74015f65809608ac8df49ba316e7dd0fd1322684f6b7a842e3e"
+  },
+  {
+   "path": "outputs/parsed/sol_eligibility_smoke_pre2019_20261002_chase1_2811496ef424.decisions.eligible_records.jsonl",
+   "bytes": 2244,
+   "sha256": "15f186e2d78c2ee69d74d3b8c444c6c95f9ce400aef0306a3866718f7e46676e"
+  },
+  {
+   "path": "outputs/parsed/sol_eligibility_smoke_pre2019_20261002_chase1_2811496ef424.decisions.jsonl",
+   "bytes": 1984,
+   "sha256": "34de5fea966a40e3cea19a4214d8e262244bfc4e603913fcbd522f6aff73f2a3"
+  },
+  {
+   "path": "outputs/parsed/sol_eligibility_smoke_pre2019_20261002_chase1_2811496ef424.decisions.repeat_sample.json",
+   "bytes": 516,
+   "sha256": "1c0f9ba67aa253f9bd9d29ee4674f3da43645eb0fa733bb6453e6cb93fef86cd"
+  },
+  {
+   "path": "outputs/parsed/sol_eligibility_smoke_pre2019_20261002_chase1_2811496ef424.decisions.repeat_sample.jsonl",
+   "bytes": 1810,
+   "sha256": "4b999698729ed74015f65809608ac8df49ba316e7dd0fd1322684f6b7a842e3e"
+  },
+  {
+   "path": "outputs/parsed/sol_eligibility_smoke_pre2019_20261002_chase1_2811496ef424.jsonl",
+   "bytes": 6665,
+   "sha256": "b102f44608f99af3df40bd891c8daa7869232641c69399b4e3ddab90362aa9bf"
+  },
+  {
+   "path": "outputs/parsed/sol_eligibility_smoke_pre2019_20261002_chase1_2811496ef424.meta.json",
+   "bytes": 708,
+   "sha256": "b33a488b469206b0121f6c1c33cd498772feb8cbfb982c488d4c559293c8ff46"
+  },
+  {
+   "path": "outputs/raw/sol_smoke_pre2019_20261002/eligibility/2811496ef424/23676674_attempt1.json",
+   "bytes": 20976,
+   "sha256": "2541375ce22f449cc39f21ea8a3fea52da14d6150e2c9b9a21d054920c90f738"
+  },
+  {
+   "path": "outputs/raw/sol_smoke_pre2019_20261002/eligibility/2811496ef424/25657249_attempt1.json",
+   "bytes": 20761,
+   "sha256": "15868082062bcce1a8746d26e3246caba7889ca27b29c31d2ad79ec5f9272d49"
+  },
+  {
+   "path": "outputs/raw/sol_smoke_pre2019_20261002/eligibility/2811496ef424/28129359_attempt1.json",
+   "bytes": 21725,
+   "sha256": "795b8abbbecd702dd8e0a30cf1556c0a492bcfa060e06386b821a810a30bc4c0"
+  },
+  {
+   "path": "outputs/raw/sol_smoke_pre2019_20261002/eligibility/2811496ef424/28240269_attempt1.json",
+   "bytes": 20868,
+   "sha256": "1fb483ba20ce4d2eaa37d0bdcb40e537f605689a56da8ab9dd5a77bd2e0eb3be"
+  },
+  {
+   "path": "outputs/raw/sol_smoke_pre2019_20261002/eligibility/2811496ef424/29523632_attempt1.json",
+   "bytes": 20532,
+   "sha256": "d790a632125a7ff36cc42923e3a8e6b4b63c2af8312f07d791c733ec35317216"
+  },
+  {
+   "path": "outputs/raw/sol_smoke_pre2019_20261002/eligibility/2811496ef424/29535160_attempt1.json",
+   "bytes": 20788,
+   "sha256": "364093705dfe6e9e51eee53103c52b02ac624ec8e004f638bdf69983a30881ee"
+  },
+  {
+   "path": "outputs/raw/sol_smoke_pre2019_20261002/eligibility/2811496ef424/29748389_attempt1.json",
+   "bytes": 21038,
+   "sha256": "aa60b737eceaaba2b130654c04d1865d42bb47468c6af1a437feab24b73b73f4"
+  },
+  {
+   "path": "outputs/raw/sol_smoke_pre2019_20261002/eligibility/2811496ef424/29791134_attempt1.json",
+   "bytes": 20715,
+   "sha256": "252ab02e1c3aec9aa5dcf6b171762ea80c73b39f0fda40f82728c0d832a7d478"
+  },
+  {
+   "path": "outputs/raw/sol_smoke_pre2019_20261002/eligibility/2811496ef424/29875488_attempt1.json",
+   "bytes": 20487,
+   "sha256": "c828f2938f4f98c5f2435723e18e5461c1a395a0244f691f502550641d00552b"
+  },
+  {
+   "path": "outputs/raw/sol_smoke_pre2019_20261002/eligibility/2811496ef424/29877588_attempt1.json",
+   "bytes": 21201,
+   "sha256": "0de1d50c7e1d4425373dad0031f1a621c219c52d4578a3e93c67ca48d376bc9c"
+  },
+  {
+   "path": "outputs/raw/sol_smoke_pre2019_20261002/eligibility/2811496ef424/29893863_attempt1.json",
+   "bytes": 23659,
+   "sha256": "a685dc6fdcb6d0b8a5a52cbbd0017b2adca1bc44e8541f04748b11e50e661ff7"
+  },
+  {
+   "path": "outputs/raw/sol_smoke_pre2019_20261002/eligibility/2811496ef424/29895825_attempt1.json",
+   "bytes": 21222,
+   "sha256": "12ca03ba35bbcb207d0895d57b8eadeab95adf311d5c4a803ef0546d801e1bb3"
+  },
+  {
+   "path": "outputs/raw/sol_smoke_pre2019_20261002/eligibility/2811496ef424/29925955_attempt1.json",
+   "bytes": 21354,
+   "sha256": "c835d324cb5e0384770ddd02ef4769f4a6d788bafc571cb8b00274630fec71d9"
+  },
+  {
+   "path": "outputs/raw/sol_smoke_pre2019_20261002/eligibility/2811496ef424/29942306_attempt1.json",
+   "bytes": 21650,
+   "sha256": "5dae00a3a962db0d679e7a1a61fbc822692801bd76519cd892c31dc71cb16f0c"
+  },
+  {
+   "path": "outputs/raw/sol_smoke_pre2019_20261002/eligibility/2811496ef424/29945872_attempt1.json",
+   "bytes": 21075,
+   "sha256": "781b648a304cec22de2d72e277bdffbcc59b1d6b61a5dce40e2b06a4e7301dc3"
+  },
+  {
+   "path": "outputs/raw/sol_smoke_pre2019_20261002/eligibility/2811496ef424/29954413_attempt1.json",
+   "bytes": 22287,
+   "sha256": "993f5a303d724c731b7acd09f2bb683b0eea32b506689a44be847f93f0fc33d9"
+  },
+  {
+   "path": "outputs/raw/sol_smoke_pre2019_20261002/eligibility/2811496ef424/29955817_attempt1.json",
+   "bytes": 28580,
+   "sha256": "f356e0687f94e8b7552b7d3c24d547ae5d41fd80cb7e71fa65573cc98582b94a"
+  },
+  {
+   "path": "outputs/raw/sol_smoke_pre2019_20261002/eligibility/2811496ef424/30018671_attempt1.json",
+   "bytes": 20984,
+   "sha256": "7924a064e4d6ea0494b630f013d8c694b748af6334b127f6d4c575de87e3e8a6"
+  },
+  {
+   "path": "outputs/raw/sol_smoke_pre2019_20261002/eligibility/2811496ef424/30062055_attempt1.json",
+   "bytes": 22065,
+   "sha256": "76a7e76a665aa08a4191f31ca52d03c3dfca008ce4c79792877dccf62de227c3"
+  },
+  {
+   "path": "outputs/raw/sol_smoke_pre2019_20261002/eligibility/2811496ef424/30111768_attempt1.json",
+   "bytes": 18827,
+   "sha256": "3769cdb8079aabe7f938c8891dc229909eca2a576620f4c2aa2fb1b1558826a8"
+  },
+  {
+   "path": "outputs/raw/sol_smoke_pre2019_20261002/eligibility/2811496ef424/30165554_attempt1.json",
+   "bytes": 26449,
+   "sha256": "ab5bf999a302000e45c4504c592186dc81a7cf90a9d44387fe52ea0eb8497d6f"
+  },
+  {
+   "path": "outputs/raw/sol_smoke_pre2019_20261002/eligibility/2811496ef424/30562114_attempt1.json",
+   "bytes": 21415,
+   "sha256": "23d29681e418f28962d189cabb101c5397d00af5546dec55c680cc69fa853390"
+  },
+  {
+   "path": "outputs/raw/sol_smoke_pre2019_20261002/eligibility/2811496ef424/30571344_attempt1.json",
+   "bytes": 22267,
+   "sha256": "1a9150433d217b9bec0a6aeb64c93142e9a041b418c450f7e922bb7c3629e6da"
+  },
+  {
+   "path": "outputs/raw/sol_smoke_pre2019_20261002/eligibility/2811496ef424/W2612499628_attempt1.json",
+   "bytes": 18808,
+   "sha256": "383d358df49c66752e8bdd86405b17d27897a13eb9677061b4052ef5f4610b0b"
+  },
+  {
+   "path": "outputs/raw/sol_smoke_pre2019_20261002/eligibility/2811496ef424/W2808804611_attempt1.json",
+   "bytes": 22394,
+   "sha256": "b9a67e3cfbc7afc2df55179dd81ecd61f5fe0d7a44440574bf3d899532690c0e"
+  },
+  {
+   "path": "outputs/raw/sol_smoke_pre2019_20261002/eligibility/2811496ef424/W2810932466_attempt1.json",
+   "bytes": 21538,
+   "sha256": "3627f0110f08a7f16e965530f864dc97a77e0f154fd9c0b1ba82efcf9a25bca4"
+  },
+  {
+   "path": "outputs/raw/sol_smoke_pre2019_20261002/eligibility/2811496ef424/W2887252907_attempt1.json",
+   "bytes": 21581,
+   "sha256": "37156e349c953c8b1b0c6b81db6f555b03eb68907c5f8cab2a11714916f2ab74"
+  },
+  {
+   "path": "outputs/raw/sol_smoke_pre2019_20261002/eligibility/2811496ef424/W2897544150_attempt1.json",
+   "bytes": 20261,
+   "sha256": "ef8a53b7a9c67367482fbdf53be2a0f0cf61a48224f29311aa36614fb9b9bbf8"
+  },
+  {
+   "path": "outputs/raw/sol_smoke_pre2019_20261002/eligibility/2811496ef424/W2901567682_attempt1.json",
+   "bytes": 21124,
+   "sha256": "73da2556bfd998fb362fe264c63ed97ec3c16682192ac2b54028bab39f113ac8"
+  },
+  {
+   "path": "outputs/raw/sol_smoke_pre2019_20261002/eligibility/2811496ef424/prompt.md",
+   "bytes": 4591,
+   "sha256": "97073ed7699623d85d7accc0ddc8a7728938d3e2b4292ec3450af2541ddf21d3"
+  },
+  {
+   "path": "outputs/raw/sol_smoke_pre2019_20261002/eligibility/2811496ef424/schema.json",
+   "bytes": 1661,
+   "sha256": "e74dc2b0ab8fecf4f9270ad28a7f1114d6436e6ffca53c643bbe2b224a4d86fd"
+  }
+ ],
+ "recorded_directly": [],
+ "volume_checks": []
+}

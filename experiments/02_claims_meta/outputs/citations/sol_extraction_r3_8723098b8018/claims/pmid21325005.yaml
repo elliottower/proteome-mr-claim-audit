@@ -1,0 +1,11 @@
+source:
+  citation: pmid21325005
+  local: sources/pmid21325005.txt
+  sha256: a69852a23c52400c8b390c8de9011d0ccff1a45389adc03b4aa3382719240bae
+  url: https://pubmed.ncbi.nlm.nih.gov/21325005/
+  note: PubMed abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: In a combined analysis, the risk ratio for coronary heart disease was 1.00 (0.90 to 1.13)
+        per 1 SD higher genetically raised natural log (ln) concentration of C reactive protein.

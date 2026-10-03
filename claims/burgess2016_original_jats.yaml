@@ -1,0 +1,39 @@
+source:
+  citation: burgess2016
+  local: sources/original/burgess2016.xml
+  sha256: 5015a7a83b166c279b67f9b5fa2fab4e423dccc94af0b41485ee88b653c0de75
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5082560/fullTextXML
+  doi: 10.1002/gepi.21998
+  extractor: jats-text
+  note: 'Original file behind claims/burgess2016.yaml: the XML pinned in claims/burgess2016_original.yaml,
+    read by the citations extractor jats-text. The quotations here are those of that file that resolve
+    in this reading; a quotation absent here stays pinned where it already was.'
+  extractor_version: 1
+  derived_sha256: 4aaf23fc45a743088ead8df71abb6458cc9b370cdb266d625ff6b7a8a86656e3
+claims:
+  linear:
+    quotes:
+    - exact: For a continuous outcome, bias due to sample overlap is a linear function of the proportion
+        of overlap between the samples.
+      section: Abstract
+  null-direction:
+    quotes:
+    - exact: is less biased and any bias is in the direction of the null
+      section: Abstract
+  illustration:
+    quotes:
+    - exact: if the relative bias of the one‐sample instrumental variable estimate is 10% (corresponding
+        to an F parameter of 10), then the relative bias with 50% sample overlap is 5%, and with 30% sample
+        overlap is 3%.
+      section: Abstract
+  larger-dataset:
+    quotes:
+    - exact: If the datasets are of different size, then the percentage overlap in these formulae should
+        be taken with respect to the larger dataset
+      section: Section 6.1 Overlap with datasets of different size
+  binary-controls:
+    quotes:
+    - exact: With a binary outcome, provided that the IV–risk factor associations are estimated in the
+        control participants only, bias due to sample overlap is negligible and Type 1 error rates are
+        at nominal levels.
+      section: Section 6 Discussion

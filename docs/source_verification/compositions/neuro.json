@@ -1,0 +1,3525 @@
+[
+  {
+    "row_name": "IGAP stage 1 (Lambert 2013)",
+    "new_row": false,
+    "side": "outcome",
+    "aliases_proposed": "",
+    "release": "2013 stage 1 (discovery meta-analysis; the IGAP stage 1 summary statistics)",
+    "source_citation": "Lambert JC et al. 2013. Meta-analysis of 74,046 individuals identifies 11 new susceptibility loci for Alzheimer's disease. Nat Genet 45:1452-1458",
+    "source_identifier": "doi:10.1038/ng.2802; PMID:24162737; PMC3896259",
+    "components": [
+      {
+        "id": "ACT",
+        "as_written": "ACT (Adult Changes in Thought (ACT)/ Electronic Medical Records and Genetics (eMERGE) study)",
+        "role": "case-control",
+        "quote_id": "claims/lambert2013_supp.yaml#st1_act"
+      },
+      {
+        "id": "NACC_ADC",
+        "as_written": "ADC1; ADC2; ADC3 (NIA Alzheimer Disease Centers)",
+        "role": "case-control",
+        "quote_id": "claims/lambert2013_supp.yaml#st1_nacc_adc"
+      },
+      {
+        "id": "ADNI",
+        "as_written": "ADNI",
+        "role": "case-control",
+        "quote_id": "claims/lambert2013_supp.yaml#st1_adni"
+      },
+      {
+        "id": "GENADA",
+        "as_written": "GSK (GenADA Study)",
+        "role": "case-control",
+        "quote_id": "claims/lambert2013_supp.yaml#st1_genada"
+      },
+      {
+        "id": "NIA_LOAD",
+        "as_written": "LOAD (NCRAD/NIA-LOAD Family Study)",
+        "role": "case-control",
+        "quote_id": "claims/lambert2013_supp.yaml#st1_nia_load"
+      },
+      {
+        "id": "MAYO",
+        "as_written": "MAYO (Mayo Clinic)",
+        "role": "case-control",
+        "quote_id": "claims/lambert2013_supp.yaml#st1_mayo"
+      },
+      {
+        "id": "MIRAGE",
+        "as_written": "MIRAGE",
+        "role": "case-control",
+        "quote_id": "claims/lambert2013_supp.yaml#st1_mirage"
+      },
+      {
+        "id": "OHSU",
+        "as_written": "OHSU (Oregon Health and Science University)",
+        "role": "case-control",
+        "quote_id": "claims/lambert2013_supp.yaml#st1_ohsu"
+      },
+      {
+        "id": "ROSMAP",
+        "as_written": "ROSMAP (Religious Orders Study/Memory and Aging Project)",
+        "role": "case-control",
+        "quote_id": "claims/lambert2013_supp.yaml#st1_rosmap"
+      },
+      {
+        "id": "TGEN2",
+        "as_written": "TGEN2",
+        "role": "case-control",
+        "quote_id": "claims/lambert2013_supp.yaml#st1_tgen2"
+      },
+      {
+        "id": "UM_VU_MSSM",
+        "as_written": "UMVUMSS (University of Miami/Vanderbilt University/Mt. Sinai School of Medicine)",
+        "role": "case-control",
+        "quote_id": "claims/lambert2013_supp.yaml#st1_um_vu_mssm"
+      },
+      {
+        "id": "UPITT",
+        "as_written": "UPITT (University of Pittsburgh)",
+        "role": "case-control",
+        "quote_id": "claims/lambert2013_supp.yaml#st1_upitt"
+      },
+      {
+        "id": "WASHU",
+        "as_written": "WASHU (Washington University)",
+        "role": "case-control",
+        "quote_id": "claims/lambert2013_supp.yaml#st1_washu"
+      },
+      {
+        "id": "AGES",
+        "as_written": "AGES (AGES-Reykjavik)",
+        "role": "cohort",
+        "quote_id": "claims/lambert2013_supp.yaml#st1_ages"
+      },
+      {
+        "id": "CHS",
+        "as_written": "CHS.inc; CHS.prev (Cardiovascular Health Study)",
+        "role": "cohort",
+        "quote_id": "claims/lambert2013_supp.yaml#st1_chs"
+      },
+      {
+        "id": "FHS",
+        "as_written": "FHS.inc; FHS.prev (Framingham Heart Study, Original and Offspring)",
+        "role": "cohort",
+        "quote_id": "claims/lambert2013_supp.yaml#st1_fhs"
+      },
+      {
+        "id": "RS",
+        "as_written": "RS.inc; RS.prev (Rotterdam Study)",
+        "role": "cohort",
+        "quote_id": "claims/lambert2013_supp.yaml#st1_rs"
+      },
+      {
+        "id": "EADI",
+        "as_written": "EADI (AD cases ascertained by neurologists from Bordeaux, Dijon, Lille, Montpellier, Paris, Rouen)",
+        "role": "case-control",
+        "quote_id": "claims/lambert2013_supp.yaml#eadi_cases"
+      },
+      {
+        "id": "THREE_C",
+        "as_written": "3C Study (Three-City Study; EADI controls and incident/prevalent cases)",
+        "role": "cohort",
+        "quote_id": "claims/lambert2013_supp.yaml#eadi_controls_3c"
+      },
+      {
+        "id": "MRC_GENETIC_RESOURCE_AD",
+        "as_written": "MRC (Medical Research Council Genetic Resource for AD)",
+        "role": "case-control",
+        "quote_id": "claims/lambert2013_supp.yaml#st7_mrc_genetic_resource_ad"
+      },
+      {
+        "id": "ARUK",
+        "as_written": "ARUK (Alzheimer’s Research Trust Collaboration)",
+        "role": "case-control",
+        "quote_id": "claims/lambert2013_supp.yaml#st7_aruk"
+      },
+      {
+        "id": "BONN",
+        "as_written": "BONN (Competence Network of Dementia and Department of Psychiatry, University of Bonn)",
+        "role": "case-control",
+        "quote_id": "claims/lambert2013_supp.yaml#st7_bonn"
+      },
+      {
+        "id": "NIMH_AD_GENETICS_INITIATIVE",
+        "as_written": "NIMH (National Institute of Mental Health AD Genetics Initiative)",
+        "role": "case-control",
+        "quote_id": "claims/lambert2013_supp.yaml#st7_nimh_ad_genetics_initiative"
+      },
+      {
+        "id": "UCL_PRION",
+        "as_written": "UCL:PRION (MRC PRION Unit, University College London)",
+        "role": "case-control",
+        "quote_id": "claims/lambert2013_supp.yaml#st7_ucl_prion"
+      },
+      {
+        "id": "UCL_LASER_AD",
+        "as_written": "UCL:LASER (LASER-AD, University College London)",
+        "role": "case-control",
+        "quote_id": "claims/lambert2013_supp.yaml#st7_ucl_laser_ad"
+      },
+      {
+        "id": "B58C",
+        "as_written": "1958BC (1958 British Birth Cohort)",
+        "role": "controls_only",
+        "quote_id": "claims/lambert2013_supp.yaml#st7_b58c"
+      },
+      {
+        "id": "KORA",
+        "as_written": "KORA (KORA F4 Study)",
+        "role": "controls_only",
+        "quote_id": "claims/lambert2013_supp.yaml#st7_kora"
+      },
+      {
+        "id": "HNR",
+        "as_written": "HNR (Heinz Nixdorf Recall Study)",
+        "role": "controls_only",
+        "quote_id": "claims/lambert2013_supp.yaml#st7_hnr"
+      }
+    ],
+    "replication_only": [
+      "Stage 2 case-control samples by centre (Supplementary Table 8; not pinned): Austria, Belgium, Finland, Germany, Greece, Hungary, Italy, Spain, Sweden, UK, USA"
+    ],
+    "components_complete": "yes",
+    "complete_reason": "Supplementary Table 1 lists every stage 1 dataset of ADGC (15 datasets), CHARGE (AGES, CHS, FHS, RS) and EADI; Supplementary Table 7 lists every GERAD stage 1 dataset including the population controls (1958BC, KORA, HNR; the 2,660 WTCCC2 genotypes are among these population controls); the Supplementary Note names the EADI control source (3C Study) and states that ARIC and ASPS were excluded from CHARGE. MAYO is counted once (ADGC).",
+    "includes_ukb": "no",
+    "includes_iceland": "yes",
+    "pqtl_cohort_flags": {
+      "INTERVAL": "no",
+      "FENLAND": "no",
+      "ARIC": "no",
+      "AGES": "yes",
+      "KORA": "yes",
+      "FHS": "yes",
+      "IMPROVE": "no",
+      "DECODE": "no",
+      "UKB": "no"
+    },
+    "ancestry": "European",
+    "sample_size": "17,008 cases; 37,154 controls (stage 1)",
+    "source_read": "https://static-content.springer.com/esm/art%3A10.1038%2Fng.2802/MediaObjects/41588_2013_BFng2802_MOESM27_ESM.pdf (Supplementary Tables 1 and 7; Supplementary Note 'Full I-GAP datasets description'); author manuscript text PMC3896259.1.txt from the PMC Cloud bucket pmc-oa-opendata (Results)",
+    "claims_files": [
+      "claims/lambert2013_supp.yaml",
+      "claims/lambert2013_main.yaml"
+    ],
+    "notes": "ID choices: ADC1-3 collapsed to NACC_ADC; 'GSK' row is the GenADA study (Supplementary Note gives 669 cases/713 CNEs, matching the GSK row; claims/lambert2013_supp.yaml#genada_is_gsk); EADI split into the French case series (EADI) and the 3C Study (THREE_C), which supplied controls and 459 incident/prevalent cases (claims/lambert2013_supp.yaml#eadi_3c_cases). GERAD WASHU and ADGC WASHU are both Washington University series and share the WASHU id. The 2,660 GERAD controls genotyped by WTCCC2 (claims/lambert2013_supp.yaml#gerad_wtccc2_controls) are within the listed population controls. Stage 2 includes a CHARGE centre (Graz, Austria) but stage 2 is replication only."
+  },
+  {
+    "row_name": "IGAP (Kunkle 2019)",
+    "new_row": false,
+    "side": "outcome",
+    "aliases_proposed": "",
+    "release": "2019 stage 1 (discovery; NIAGADS NG00075 summary statistics)",
+    "source_citation": "Kunkle BW et al. 2019. Genetic meta-analysis of diagnosed Alzheimer's disease identifies new risk loci and implicates Abeta, tau, immunity and lipid processing. Nat Genet 51:414-430",
+    "source_identifier": "doi:10.1038/s41588-019-0358-2; PMID:30820047; PMC6463297",
+    "components": [
+      {
+        "id": "ACT",
+        "as_written": "ACT",
+        "role": "cohort",
+        "quote_id": "claims/kunkle2019_supp_tables.yaml#st2_act"
+      },
+      {
+        "id": "NACC_ADC",
+        "as_written": "ADC1; ADC2; ADC3; ADC4; ADC5; ADC6 (NIA Alzheimer Disease Centers, waves 1-6)",
+        "role": "case-control",
+        "quote_id": "claims/kunkle2019_supp_tables.yaml#st2_nacc_adc"
+      },
+      {
+        "id": "ADNI",
+        "as_written": "ADNI",
+        "role": "case-control",
+        "quote_id": "claims/kunkle2019_supp_tables.yaml#st2_adni"
+      },
+      {
+        "id": "BIOCARD",
+        "as_written": "BIOCARD",
+        "role": "case-control",
+        "quote_id": "claims/kunkle2019_supp_tables.yaml#st2_biocard"
+      },
+      {
+        "id": "CHAP",
+        "as_written": "CHAP (Chicago Health and Aging Project)",
+        "role": "cohort",
+        "quote_id": "claims/kunkle2019_supp_tables.yaml#st2_chap"
+      },
+      {
+        "id": "EINSTEIN_AGING_STUDY",
+        "as_written": "EAS (Einstein Aging Study)",
+        "role": "cohort",
+        "quote_id": "claims/kunkle2019_supp_tables.yaml#st2_einstein_aging_study"
+      },
+      {
+        "id": "GENADA",
+        "as_written": "GenADA",
+        "role": "case-control",
+        "quote_id": "claims/kunkle2019_supp_tables.yaml#st2_genada"
+      },
+      {
+        "id": "MAYO",
+        "as_written": "MAYO; RMAYO (Mayo Clinic; Rochester Mayo Clinic)",
+        "role": "case-control",
+        "quote_id": "claims/kunkle2019_supp_tables.yaml#st2_mayo"
+      },
+      {
+        "id": "MIRAGE",
+        "as_written": "MIRAGE",
+        "role": "case-control",
+        "quote_id": "claims/kunkle2019_supp_tables.yaml#st2_mirage"
+      },
+      {
+        "id": "MTC",
+        "as_written": "MTC (University of Miami/Texas Alzheimer’s Research Care Consortium Wave 2/Case Western Reserve University)",
+        "role": "case-control",
+        "quote_id": "claims/kunkle2019_supp_tables.yaml#st2_mtc"
+      },
+      {
+        "id": "NIA_LOAD",
+        "as_written": "NIALOAD",
+        "role": "case-control",
+        "quote_id": "claims/kunkle2019_supp_tables.yaml#st2_nia_load"
+      },
+      {
+        "id": "NBB",
+        "as_written": "NBB (Netherlands Brain Bank)",
+        "role": "case-control",
+        "quote_id": "claims/kunkle2019_supp_tables.yaml#st2_nbb"
+      },
+      {
+        "id": "OHSU",
+        "as_written": "OHSU",
+        "role": "case-control",
+        "quote_id": "claims/kunkle2019_supp_tables.yaml#st2_ohsu"
+      },
+      {
+        "id": "PFIZER",
+        "as_written": "PFIZER (Pfizer sample collection: LEADe trial, PrecisionMed, A3041005)",
+        "role": "case-control",
+        "quote_id": "claims/kunkle2019_supp_tables.yaml#st2_pfizer"
+      },
+      {
+        "id": "ROSMAP",
+        "as_written": "ROSMAP; ROSMAP2",
+        "role": "cohort",
+        "quote_id": "claims/kunkle2019_supp_tables.yaml#st2_rosmap"
+      },
+      {
+        "id": "TARCC",
+        "as_written": "TARC1 (Texas Alzheimer’s Research and Care Consortium, wave 1)",
+        "role": "case-control",
+        "quote_id": "claims/kunkle2019_supp_tables.yaml#st2_tarcc"
+      },
+      {
+        "id": "TGEN2",
+        "as_written": "TGEN2",
+        "role": "case-control",
+        "quote_id": "claims/kunkle2019_supp_tables.yaml#st2_tgen2"
+      },
+      {
+        "id": "UKS",
+        "as_written": "UKS (Universitatsklinikum Saarlandes)",
+        "role": "case-control",
+        "quote_id": "claims/kunkle2019_supp_tables.yaml#st2_uks"
+      },
+      {
+        "id": "UM_VU_MSSM",
+        "as_written": "UMCWRMSSM (University of Miami/Case Western Reserve University/Mt. Sinai School of Medicine, formerly UM/VU/MSSM)",
+        "role": "case-control",
+        "quote_id": "claims/kunkle2019_supp_tables.yaml#st2_um_vu_mssm"
+      },
+      {
+        "id": "UPITT",
+        "as_written": "UPITT",
+        "role": "case-control",
+        "quote_id": "claims/kunkle2019_supp_tables.yaml#st2_upitt"
+      },
+      {
+        "id": "WASHU",
+        "as_written": "WASHU; WASHU2 (Washington University)",
+        "role": "case-control",
+        "quote_id": "claims/kunkle2019_supp_tables.yaml#st2_washu"
+      },
+      {
+        "id": "WHICAP",
+        "as_written": "WHICAP (Washington Heights-Inwood Community Aging Project)",
+        "role": "cohort",
+        "quote_id": "claims/kunkle2019_supp_tables.yaml#st2_whicap"
+      },
+      {
+        "id": "AGES",
+        "as_written": "AGES (AGES-RS)",
+        "role": "cohort",
+        "quote_id": "claims/kunkle2019_supp_tables.yaml#st2_ages"
+      },
+      {
+        "id": "ASPS",
+        "as_written": "ASPS (Austrian Stroke Prevention Study / PRODEM)",
+        "role": "cohort",
+        "quote_id": "claims/kunkle2019_supp_tables.yaml#st2_asps"
+      },
+      {
+        "id": "CHS",
+        "as_written": "CHS",
+        "role": "cohort",
+        "quote_id": "claims/kunkle2019_supp_tables.yaml#st2_chs"
+      },
+      {
+        "id": "FHS",
+        "as_written": "FHS",
+        "role": "cohort",
+        "quote_id": "claims/kunkle2019_supp_tables.yaml#st2_fhs"
+      },
+      {
+        "id": "RS",
+        "as_written": "ROTTERDAM (Rotterdam Study)",
+        "role": "cohort",
+        "quote_id": "claims/kunkle2019_supp_tables.yaml#st2_rs"
+      },
+      {
+        "id": "EADI",
+        "as_written": "EADI (AD cases ascertained by neurologists from Bordeaux, Dijon, Lille, Montpellier, Paris, Rouen)",
+        "role": "case-control",
+        "quote_id": "claims/kunkle2019_supp_note.yaml#eadi_cases"
+      },
+      {
+        "id": "THREE_C",
+        "as_written": "3C Study (EADI controls and incident/prevalent cases)",
+        "role": "cohort",
+        "quote_id": "claims/kunkle2019_supp_note.yaml#eadi_controls_3c"
+      },
+      {
+        "id": "MRC_GENETIC_RESOURCE_AD",
+        "as_written": "MRC [GERAD/PERADES]",
+        "role": "case-control",
+        "quote_id": "claims/kunkle2019_supp_tables.yaml#st2_gerad_mrc_genetic_resource_ad"
+      },
+      {
+        "id": "ARUK",
+        "as_written": "ARUK [GERAD/PERADES]",
+        "role": "case-control",
+        "quote_id": "claims/kunkle2019_supp_tables.yaml#st2_gerad_aruk"
+      },
+      {
+        "id": "BONN",
+        "as_written": "BONN [GERAD/PERADES]",
+        "role": "case-control",
+        "quote_id": "claims/kunkle2019_supp_tables.yaml#st2_gerad_bonn"
+      },
+      {
+        "id": "NIMH_AD_GENETICS_INITIATIVE",
+        "as_written": "NIMH [GERAD/PERADES]",
+        "role": "case-control",
+        "quote_id": "claims/kunkle2019_supp_tables.yaml#st2_gerad_nimh_ad_genetics_initiative"
+      },
+      {
+        "id": "UCL_PRION",
+        "as_written": "UCL:PRION [GERAD/PERADES]",
+        "role": "case-control",
+        "quote_id": "claims/kunkle2019_supp_tables.yaml#st2_gerad_ucl_prion"
+      },
+      {
+        "id": "UCL_LASER_AD",
+        "as_written": "UCL:LASER [GERAD/PERADES]",
+        "role": "case-control",
+        "quote_id": "claims/kunkle2019_supp_tables.yaml#st2_gerad_ucl_laser_ad"
+      },
+      {
+        "id": "B58C",
+        "as_written": "1958BC (1958 British Birth Cohort) [GERAD/PERADES]",
+        "role": "controls_only",
+        "quote_id": "claims/kunkle2019_supp_tables.yaml#st2_gerad_b58c"
+      },
+      {
+        "id": "KORA",
+        "as_written": "KORA (KORA F4 Study) [GERAD/PERADES]",
+        "role": "controls_only",
+        "quote_id": "claims/kunkle2019_supp_tables.yaml#st2_gerad_kora"
+      },
+      {
+        "id": "HNR",
+        "as_written": "HNR (Heinz Nixdorf Recall Study) [GERAD/PERADES]",
+        "role": "controls_only",
+        "quote_id": "claims/kunkle2019_supp_tables.yaml#st2_gerad_hnr"
+      }
+    ],
+    "replication_only": [
+      "Stage 2: 8,362 cases and 10,483 controls (centres in Belgium, Finland, Germany, Greece, Hungary, Italy, Spain, Sweden, UK, USA)",
+      "Stage 3: Spain (ACE), UK (Cardiff), USA (ADC7), Spain (GR@ACE)"
+    ],
+    "components_complete": "yes",
+    "complete_reason": "Supplementary Table 2 lists all 46 stage 1 case-control datasets of ADGC (30), CHARGE (5), EADI (1) and GERAD/PERADES (10 plus MAYO counted in ADGC), with totals 21,982 cases / 41,944 controls matching Supplementary Table 1; the main text states these are all stage 1 samples; the Supplementary Note names the EADI control source (3C) and the GERAD population-control cohorts and states ARIC was excluded from CHARGE.",
+    "includes_ukb": "no",
+    "includes_iceland": "yes",
+    "pqtl_cohort_flags": {
+      "INTERVAL": "no",
+      "FENLAND": "no",
+      "ARIC": "no",
+      "AGES": "yes",
+      "KORA": "yes",
+      "FHS": "yes",
+      "IMPROVE": "no",
+      "DECODE": "no",
+      "UKB": "no"
+    },
+    "ancestry": "Non-Hispanic White (European)",
+    "sample_size": "21,982 cases; 41,944 controls (stage 1)",
+    "source_read": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41588-019-0358-2/MediaObjects/41588_2019_358_MOESM3_ESM.xlsx (Supplementary Tables 1-2); .../41588_2019_358_MOESM1_ESM.pdf (Supplementary Note, IGAP stage 1 discovery dataset descriptions); author manuscript text PMC6463297.1.txt (PMC Cloud) (Methods; Data availability)",
+    "claims_files": [
+      "claims/kunkle2019_supp_tables.yaml",
+      "claims/kunkle2019_supp_note.yaml",
+      "claims/kunkle2019_main.yaml"
+    ],
+    "notes": "ADC waves 1-6 collapsed to NACC_ADC; MAYO and RMAYO collapsed to MAYO; ROSMAP and ROSMAP2 to ROSMAP; WASHU and WASHU2 (and GERAD WASHU) to WASHU. MTC mixes University of Miami, TARCC wave 2 and Case Western Reserve University (claims/kunkle2019_supp_note.yaml#mtc_sources). ARIC excluded (claims/kunkle2019_supp_note.yaml#charge_aric_excluded)."
+  },
+  {
+    "row_name": "AD and AD-by-proxy (Jansen 2019)",
+    "new_row": false,
+    "side": "outcome",
+    "aliases_proposed": "",
+    "release": "2019 phase 3 (clinical AD meta-analysis of PGC-ALZ, IGAP stage 1, ADSP plus UKB AD-by-proxy; CTG summary statistics)",
+    "source_citation": "Jansen IE et al. 2019. Genome-wide meta-analysis identifies new loci and functional pathways influencing Alzheimer's disease risk. Nat Genet 51:404-413",
+    "source_identifier": "doi:10.1038/s41588-018-0311-9; PMID:30617256; PMC6836675",
+    "components": [
+      {
+        "id": "ACT",
+        "as_written": "ACT (Adult Changes in Thought (ACT)/ Electronic Medical Records and Genetics (eMERGE) study) [via IGAP stage 1, Lambert 2013]",
+        "role": "case-control",
+        "quote_id": "claims/lambert2013_supp.yaml#st1_act"
+      },
+      {
+        "id": "NACC_ADC",
+        "as_written": "ADC1; ADC2; ADC3 (NIA Alzheimer Disease Centers) [via IGAP stage 1, Lambert 2013]",
+        "role": "case-control",
+        "quote_id": "claims/lambert2013_supp.yaml#st1_nacc_adc"
+      },
+      {
+        "id": "ADNI",
+        "as_written": "ADNI [via IGAP stage 1, Lambert 2013]",
+        "role": "case-control",
+        "quote_id": "claims/lambert2013_supp.yaml#st1_adni"
+      },
+      {
+        "id": "GENADA",
+        "as_written": "GSK (GenADA Study) [via IGAP stage 1, Lambert 2013]",
+        "role": "case-control",
+        "quote_id": "claims/lambert2013_supp.yaml#st1_genada"
+      },
+      {
+        "id": "NIA_LOAD",
+        "as_written": "LOAD (NCRAD/NIA-LOAD Family Study) [via IGAP stage 1, Lambert 2013]",
+        "role": "case-control",
+        "quote_id": "claims/lambert2013_supp.yaml#st1_nia_load"
+      },
+      {
+        "id": "MAYO",
+        "as_written": "MAYO (Mayo Clinic) [via IGAP stage 1, Lambert 2013]",
+        "role": "case-control",
+        "quote_id": "claims/lambert2013_supp.yaml#st1_mayo"
+      },
+      {
+        "id": "MIRAGE",
+        "as_written": "MIRAGE [via IGAP stage 1, Lambert 2013]",
+        "role": "case-control",
+        "quote_id": "claims/lambert2013_supp.yaml#st1_mirage"
+      },
+      {
+        "id": "OHSU",
+        "as_written": "OHSU (Oregon Health and Science University) [via IGAP stage 1, Lambert 2013]",
+        "role": "case-control",
+        "quote_id": "claims/lambert2013_supp.yaml#st1_ohsu"
+      },
+      {
+        "id": "ROSMAP",
+        "as_written": "ROSMAP (Religious Orders Study/Memory and Aging Project) [via IGAP stage 1, Lambert 2013]",
+        "role": "case-control",
+        "quote_id": "claims/lambert2013_supp.yaml#st1_rosmap"
+      },
+      {
+        "id": "TGEN2",
+        "as_written": "TGEN2 [via IGAP stage 1, Lambert 2013]",
+        "role": "case-control",
+        "quote_id": "claims/lambert2013_supp.yaml#st1_tgen2"
+      },
+      {
+        "id": "UM_VU_MSSM",
+        "as_written": "UMVUMSS (University of Miami/Vanderbilt University/Mt. Sinai School of Medicine) [via IGAP stage 1, Lambert 2013]",
+        "role": "case-control",
+        "quote_id": "claims/lambert2013_supp.yaml#st1_um_vu_mssm"
+      },
+      {
+        "id": "UPITT",
+        "as_written": "UPITT (University of Pittsburgh) [via IGAP stage 1, Lambert 2013]",
+        "role": "case-control",
+        "quote_id": "claims/lambert2013_supp.yaml#st1_upitt"
+      },
+      {
+        "id": "WASHU",
+        "as_written": "WASHU (Washington University) [via IGAP stage 1, Lambert 2013]",
+        "role": "case-control",
+        "quote_id": "claims/lambert2013_supp.yaml#st1_washu"
+      },
+      {
+        "id": "AGES",
+        "as_written": "AGES (AGES-Reykjavik) [via IGAP stage 1, Lambert 2013]",
+        "role": "cohort",
+        "quote_id": "claims/lambert2013_supp.yaml#st1_ages"
+      },
+      {
+        "id": "CHS",
+        "as_written": "CHS.inc; CHS.prev (Cardiovascular Health Study) [via IGAP stage 1, Lambert 2013]",
+        "role": "cohort",
+        "quote_id": "claims/lambert2013_supp.yaml#st1_chs"
+      },
+      {
+        "id": "FHS",
+        "as_written": "FHS.inc; FHS.prev (Framingham Heart Study, Original and Offspring) [via IGAP stage 1, Lambert 2013]",
+        "role": "cohort",
+        "quote_id": "claims/lambert2013_supp.yaml#st1_fhs"
+      },
+      {
+        "id": "RS",
+        "as_written": "RS.inc; RS.prev (Rotterdam Study) [via IGAP stage 1, Lambert 2013]",
+        "role": "cohort",
+        "quote_id": "claims/lambert2013_supp.yaml#st1_rs"
+      },
+      {
+        "id": "EADI",
+        "as_written": "EADI (AD cases ascertained by neurologists from Bordeaux, Dijon, Lille, Montpellier, Paris, Rouen) [via IGAP stage 1, Lambert 2013]",
+        "role": "case-control",
+        "quote_id": "claims/lambert2013_supp.yaml#eadi_cases"
+      },
+      {
+        "id": "THREE_C",
+        "as_written": "3C Study (Three-City Study; EADI controls and incident/prevalent cases) [via IGAP stage 1, Lambert 2013]",
+        "role": "cohort",
+        "quote_id": "claims/lambert2013_supp.yaml#eadi_controls_3c"
+      },
+      {
+        "id": "MRC_GENETIC_RESOURCE_AD",
+        "as_written": "MRC (Medical Research Council Genetic Resource for AD) [via IGAP stage 1, Lambert 2013]",
+        "role": "case-control",
+        "quote_id": "claims/lambert2013_supp.yaml#st7_mrc_genetic_resource_ad"
+      },
+      {
+        "id": "ARUK",
+        "as_written": "ARUK (Alzheimer’s Research Trust Collaboration) [via IGAP stage 1, Lambert 2013]",
+        "role": "case-control",
+        "quote_id": "claims/lambert2013_supp.yaml#st7_aruk"
+      },
+      {
+        "id": "BONN",
+        "as_written": "BONN (Competence Network of Dementia and Department of Psychiatry, University of Bonn) [via IGAP stage 1, Lambert 2013]",
+        "role": "case-control",
+        "quote_id": "claims/lambert2013_supp.yaml#st7_bonn"
+      },
+      {
+        "id": "NIMH_AD_GENETICS_INITIATIVE",
+        "as_written": "NIMH (National Institute of Mental Health AD Genetics Initiative) [via IGAP stage 1, Lambert 2013]",
+        "role": "case-control",
+        "quote_id": "claims/lambert2013_supp.yaml#st7_nimh_ad_genetics_initiative"
+      },
+      {
+        "id": "UCL_PRION",
+        "as_written": "UCL:PRION (MRC PRION Unit, University College London) [via IGAP stage 1, Lambert 2013]",
+        "role": "case-control",
+        "quote_id": "claims/lambert2013_supp.yaml#st7_ucl_prion"
+      },
+      {
+        "id": "UCL_LASER_AD",
+        "as_written": "UCL:LASER (LASER-AD, University College London) [via IGAP stage 1, Lambert 2013]",
+        "role": "case-control",
+        "quote_id": "claims/lambert2013_supp.yaml#st7_ucl_laser_ad"
+      },
+      {
+        "id": "B58C",
+        "as_written": "1958BC (1958 British Birth Cohort) [via IGAP stage 1, Lambert 2013]",
+        "role": "controls_only",
+        "quote_id": "claims/lambert2013_supp.yaml#st7_b58c"
+      },
+      {
+        "id": "KORA",
+        "as_written": "KORA (KORA F4 Study) [via IGAP stage 1, Lambert 2013]",
+        "role": "controls_only",
+        "quote_id": "claims/lambert2013_supp.yaml#st7_kora"
+      },
+      {
+        "id": "HNR",
+        "as_written": "HNR (Heinz Nixdorf Recall Study) [via IGAP stage 1, Lambert 2013]",
+        "role": "controls_only",
+        "quote_id": "claims/lambert2013_supp.yaml#st7_hnr"
+      },
+      {
+        "id": "DEMGENE",
+        "as_written": "Norwegian DemGene network (NorCog, PADR, DemVest, AHUS, NordNorge, Nursing Home study, TrønderBrain)",
+        "role": "case-control",
+        "quote_id": "claims/jansen2019_supp_note.yaml#demgene_case_studies"
+      },
+      {
+        "id": "HUNT",
+        "as_written": "the HUNT Dementia Stud[y] (cases); HUNT (controls) [DemGene]",
+        "role": "case-control",
+        "quote_id": "claims/jansen2019_supp_note.yaml#demgene_controls"
+      },
+      {
+        "id": "NORWEGIAN_BLOOD_DONORS",
+        "as_written": "Norwegian blood donor samples (Oslo University Hospital, Ullevål Hospital, Oslo)",
+        "role": "controls_only",
+        "quote_id": "claims/jansen2019_supp_note.yaml#demgene_extra_controls"
+      },
+      {
+        "id": "TOP_STUDY",
+        "as_written": "Thematically Organized Psychosis (TOP) Research Study",
+        "role": "controls_only",
+        "quote_id": "claims/jansen2019_supp_note.yaml#demgene_extra_controls"
+      },
+      {
+        "id": "TWINGENE",
+        "as_written": "TwinGene",
+        "role": "cohort",
+        "quote_id": "claims/jansen2019_supp_table1.yaml#row_twingene"
+      },
+      {
+        "id": "STSA",
+        "as_written": "The Swedish Twin Studies of Aging (STSA: SATSA, GENDER, HARMONY)",
+        "role": "cohort",
+        "quote_id": "claims/jansen2019_supp_note.yaml#stsa"
+      },
+      {
+        "id": "ADSP",
+        "as_written": "Alzheimer’s Disease Sequencing Project (ADSP) whole-exome case-control data (dbGaP phs000572)",
+        "role": "case-control",
+        "quote_id": "claims/jansen2019_supp_table1.yaml#row_adsp"
+      },
+      {
+        "id": "UKB",
+        "as_written": "UK Biobank (AD-by-proxy)",
+        "role": "cohort",
+        "quote_id": "claims/jansen2019_supp_table1.yaml#row_ukb"
+      }
+    ],
+    "replication_only": [
+      "deCODE (6,593 cases, 174,289 controls)"
+    ],
+    "components_complete": "no",
+    "complete_reason": "The ADSP whole-exome component (7,506 individuals after QC) is given only as a consortium-level dataset; the Supplementary Note does not list which ADGC/CHARGE cohorts supplied those individuals. The ADSP acknowledgement names the CHARGE cohorts participating in ADSP (ASPS, ARIC, CHS, ERF, FHS, RS) but does not say which are in the analysed set. IGAP stage 1 and PGC-ALZ (DemGene, TwinGene, STSA) are resolved.",
+    "includes_ukb": "yes",
+    "includes_iceland": "yes",
+    "pqtl_cohort_flags": {
+      "INTERVAL": "unknown",
+      "FENLAND": "unknown",
+      "ARIC": "unknown",
+      "AGES": "yes",
+      "KORA": "yes",
+      "FHS": "yes",
+      "IMPROVE": "unknown",
+      "DECODE": "unknown",
+      "UKB": "yes"
+    },
+    "ancestry": "European",
+    "sample_size": "71,880 (proxy) cases; 383,378 (proxy) controls (phase 3)",
+    "source_read": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41588-018-0311-9/MediaObjects/41588_2018_311_MOESM3_ESM.xlsx (Table S1); .../41588_2018_311_MOESM1_ESM.pdf (Supplementary Note A 'Study Cohorts'; Acknowledgements); author manuscript text PMC6836675.1.txt (PMC Cloud) (Results; Methods; Data Availability)",
+    "claims_files": [
+      "claims/jansen2019_supp_table1.yaml",
+      "claims/jansen2019_supp_note.yaml",
+      "claims/jansen2019_main.yaml",
+      "claims/lambert2013_supp.yaml"
+    ],
+    "notes": "IGAP enters as public stage 1 summary statistics (claims/jansen2019_supp_note.yaml#igap_stage1_only); its components are those of the Lambert 2013 stage 1 row (quote ids point to the Lambert claims). ADSP overlaps IGAP; duplicates were removed from ADSP by IBD (claims/jansen2019_supp_note.yaml#adsp_overlap_with_igap). ARIC flag is unknown because the ADSP acknowledgement lists ARIC among CHARGE cohorts participating in ADSP (claims/jansen2019_supp_note.yaml#adsp_charge_cohorts_ack). DemGene includes the HUNT Dementia study and HUNT controls (HUNT is not a pQTL flag but listed). DemGene genotyping was done at deCODE Genetics; the samples are Norwegian. deCODE is replication only (claims/jansen2019_supp_note.yaml#decode_replication_only), but the DECODE flag stays unknown because the component list is incomplete; Iceland is yes through AGES in IGAP."
+  },
+  {
+    "row_name": "EADB (Bellenguez 2022)",
+    "new_row": false,
+    "side": "outcome",
+    "aliases_proposed": "",
+    "release": "2022 stage I (GWAS Catalog GCST90027158; the paper does not state which stage the deposited file covers)",
+    "source_citation": "Bellenguez C et al. 2022. New insights into the genetic etiology of Alzheimer's disease and related dementias. Nat Genet 54:412-436",
+    "source_identifier": "doi:10.1038/s41588-022-01024-z; PMID:35379992; PMC9005347",
+    "components": [
+      {
+        "id": "BELNEU",
+        "as_written": "Belgium: large prospective cohort of Belgian AD patients and healthy elderly controls (BELNEU consortium; Antwerp, Leuven) [EADB-TOPMed]",
+        "role": "case-control",
+        "quote_id": "claims/bellenguez2022_supp_note.yaml#eadb_belneu"
+      },
+      {
+        "id": "CBAS",
+        "as_written": "The Czech Brain Aging Study (CBAS) [EADB-TOPMed]",
+        "role": "case-control",
+        "quote_id": "claims/bellenguez2022_supp_note.yaml#eadb_cbas"
+      },
+      {
+        "id": "CGPS",
+        "as_written": "The Copenhagen General Population Study (CGPS) [EADB-TOPMed]",
+        "role": "cohort",
+        "quote_id": "claims/bellenguez2022_supp_note.yaml#eadb_cgps"
+      },
+      {
+        "id": "ADGEN",
+        "as_written": "The ADGEN cohort (Kuopio and Oulu, Finland) [EADB-TOPMed]",
+        "role": "case-control",
+        "quote_id": "claims/bellenguez2022_supp_note.yaml#eadb_adgen"
+      },
+      {
+        "id": "FINGER",
+        "as_written": "The FINGER study [EADB-TOPMed]",
+        "role": "cohort",
+        "quote_id": "claims/bellenguez2022_supp_note.yaml#eadb_finger"
+      },
+      {
+        "id": "BALTAZAR",
+        "as_written": "The BALTAZAR multicenter prospective study [EADB-TOPMed]",
+        "role": "case-control",
+        "quote_id": "claims/bellenguez2022_supp_note.yaml#eadb_baltazar"
+      },
+      {
+        "id": "MEMENTO",
+        "as_written": "MEMENTO [EADB-TOPMed]",
+        "role": "cohort",
+        "quote_id": "claims/bellenguez2022_supp_note.yaml#eadb_memento"
+      },
+      {
+        "id": "CNRMAJ_ROUEN",
+        "as_written": "The CNRMAJ-Rouen study [EADB-TOPMed]",
+        "role": "case-control",
+        "quote_id": "claims/bellenguez2022_supp_note.yaml#eadb_cnrmaj_rouen"
+      },
+      {
+        "id": "EADB_ITALY_CENTRES",
+        "as_written": "Italy: centres in Brescia, Cagliari, Florence, Milan, Rome, Pertugia, San Giovani Rotondo and Torino [EADB-TOPMed]",
+        "role": "case-control",
+        "quote_id": "claims/bellenguez2022_supp_note.yaml#eadb_eadb_italy_centres"
+      },
+      {
+        "id": "DEGESCO",
+        "as_written": "The Dementia Genetic Spanish Consortium (DEGESCO) (France and German nodes) [EADB-TOPMed]",
+        "role": "case-control",
+        "quote_id": "claims/bellenguez2022_supp_note.yaml#eadb_degesco"
+      },
+      {
+        "id": "UPPSALA_AD",
+        "as_written": "Sweden: Upsala (Memory Disorder Unit, Uppsala University Hospital) [EADB-TOPMed]",
+        "role": "case-control",
+        "quote_id": "claims/bellenguez2022_supp_note.yaml#eadb_uppsala_ad"
+      },
+      {
+        "id": "SNAC_K",
+        "as_written": "Swedish National Study on Aging and Care in Kungsholmen (SNAC-K) [EADB-TOPMed]",
+        "role": "cohort",
+        "quote_id": "claims/bellenguez2022_supp_note.yaml#eadb_snac_k"
+      },
+      {
+        "id": "UK_MRC_CNGG",
+        "as_written": "The UK: MRC (MRC Centre for Neuropsychiatric Genetics and Genomics, Cardiff; Institute of Psychiatry; Cambridge) [EADB-TOPMed]",
+        "role": "case-control",
+        "quote_id": "claims/bellenguez2022_supp_note.yaml#eadb_uk_mrc_cngg"
+      },
+      {
+        "id": "SOTON",
+        "as_written": "SOTON, University of Southampton [EADB-TOPMed]",
+        "role": "case-control",
+        "quote_id": "claims/bellenguez2022_supp_note.yaml#eadb_soton"
+      },
+      {
+        "id": "NOTTINGHAM_MANCHESTER",
+        "as_written": "Nottingham and Manchester (University of Nottingham; Manchester Brain Bank) [EADB-TOPMed]",
+        "role": "case-control",
+        "quote_id": "claims/bellenguez2022_supp_note.yaml#eadb_nottingham_manchester"
+      },
+      {
+        "id": "KCL_BRAIN_BANK",
+        "as_written": "KCL, London Neurodegenerative Diseases Brain Bank [EADB-TOPMed]",
+        "role": "case-control",
+        "quote_id": "claims/bellenguez2022_supp_note.yaml#eadb_kcl_brain_bank"
+      },
+      {
+        "id": "UCL_PRION",
+        "as_written": "PRION [EADB-TOPMed]",
+        "role": "case-control",
+        "quote_id": "claims/bellenguez2022_supp_note.yaml#eadb_ucl_prion"
+      },
+      {
+        "id": "CFAS_WALES",
+        "as_written": "The Cognitive Function and Ageing Study Wales (CFAS-Wales) [EADB-TOPMed]",
+        "role": "cohort",
+        "quote_id": "claims/bellenguez2022_supp_note.yaml#eadb_cfas_wales"
+      },
+      {
+        "id": "UCL_DRC",
+        "as_written": "UCL-DRC (UCL - EOAD DRC) [EADB-TOPMed]",
+        "role": "case-control",
+        "quote_id": "claims/bellenguez2022_supp_note.yaml#eadb_ucl_drc"
+      },
+      {
+        "id": "DELCODE",
+        "as_written": "DELCODE (DZNE-Longitudinal Cognitive Impairment and Dementia Study) [EADB-TOPMed]",
+        "role": "cohort",
+        "quote_id": "claims/bellenguez2022_supp_note.yaml#eadb_delcode"
+      },
+      {
+        "id": "VOGEL",
+        "as_written": "The VOGEL study (Würzburg) [EADB-TOPMed]",
+        "role": "cohort",
+        "quote_id": "claims/bellenguez2022_supp_note.yaml#eadb_vogel"
+      },
+      {
+        "id": "HEIDELBERG_MANNHEIM_MEMORY_CLINIC",
+        "as_written": "The Heidelberg/Mannheim memory clinic sample [EADB-TOPMed]",
+        "role": "case-control",
+        "quote_id": "claims/bellenguez2022_supp_note.yaml#eadb_heidelberg_mannheim_memory_clinic"
+      },
+      {
+        "id": "PAGES",
+        "as_written": "The PAGES study (Munich) [EADB-TOPMed]",
+        "role": "case-control",
+        "quote_id": "claims/bellenguez2022_supp_note.yaml#eadb_pages"
+      },
+      {
+        "id": "TUM_CCD",
+        "as_written": "The Technische Universität München study [EADB-TOPMed]",
+        "role": "case-control",
+        "quote_id": "claims/bellenguez2022_supp_note.yaml#eadb_tum_ccd"
+      },
+      {
+        "id": "GOTTINGEN",
+        "as_written": "The Göttingen Universität study [EADB-TOPMed]",
+        "role": "case-control",
+        "quote_id": "claims/bellenguez2022_supp_note.yaml#eadb_gottingen"
+      },
+      {
+        "id": "DCN",
+        "as_written": "The German Dementia Competence Network (DCN) cohort [EADB-TOPMed]",
+        "role": "cohort",
+        "quote_id": "claims/bellenguez2022_supp_note.yaml#eadb_dcn"
+      },
+      {
+        "id": "AGECODE",
+        "as_written": "The German Study on Aging, Cognition, and Dementia (AgeCoDe) [EADB-TOPMed]",
+        "role": "cohort",
+        "quote_id": "claims/bellenguez2022_supp_note.yaml#eadb_agecode"
+      },
+      {
+        "id": "HELIAD",
+        "as_written": "Greece: the HELIAD study [EADB-TOPMed]",
+        "role": "cohort",
+        "quote_id": "claims/bellenguez2022_supp_note.yaml#eadb_heliad"
+      },
+      {
+        "id": "LISBON_AD",
+        "as_written": "Portugal: the Lisbon study [EADB-TOPMed]",
+        "role": "case-control",
+        "quote_id": "claims/bellenguez2022_supp_note.yaml#eadb_lisbon_ad"
+      },
+      {
+        "id": "LAUSANNE",
+        "as_written": "The Lausanne study (Switzerland) [EADB-TOPMed]",
+        "role": "case-control",
+        "quote_id": "claims/bellenguez2022_supp_note.yaml#eadb_lausanne"
+      },
+      {
+        "id": "VITA",
+        "as_written": "The VITA study (Vienna, Austria) [EADB-TOPMed]",
+        "role": "cohort",
+        "quote_id": "claims/bellenguez2022_supp_note.yaml#eadb_vita"
+      },
+      {
+        "id": "ERASMUS_MC_POPULATION_STUDIES",
+        "as_written": "Erasmus Medical Center: population studies from the epidemiology department (unnamed) and neurology department [EADB-TOPMed]",
+        "role": "case-control",
+        "quote_id": "claims/bellenguez2022_supp_note.yaml#eadb_erasmus_mc_population_studies"
+      },
+      {
+        "id": "AMSTERDAM_DEMENTIA_COHORT",
+        "as_written": "The Amsterdam Dementia Cohort (ADC) [EADB-TOPMed]",
+        "role": "case-control",
+        "quote_id": "claims/bellenguez2022_supp_note.yaml#eadb_amsterdam_dementia_cohort"
+      },
+      {
+        "id": "100PLUS",
+        "as_written": "The 100-Plus study [EADB-TOPMed]",
+        "role": "controls_only",
+        "quote_id": "claims/bellenguez2022_supp_note.yaml#eadb_100plus"
+      },
+      {
+        "id": "PARELSNOER",
+        "as_written": "Parelsnoer Institute (Pearl Neurodegenerative Diseases) [EADB-TOPMed]",
+        "role": "case-control",
+        "quote_id": "claims/bellenguez2022_supp_note.yaml#eadb_parelsnoer"
+      },
+      {
+        "id": "NBB",
+        "as_written": "The Netherlands Brain Bank [EADB-TOPMed]",
+        "role": "case-control",
+        "quote_id": "claims/bellenguez2022_supp_note.yaml#eadb_nbb"
+      },
+      {
+        "id": "BB_ACL",
+        "as_written": "Maastricht University Medical Center (BioBank-Alzheimer Centrum Limburg, BB-ACL) [EADB-TOPMed]",
+        "role": "case-control",
+        "quote_id": "claims/bellenguez2022_supp_note.yaml#eadb_bb_acl"
+      },
+      {
+        "id": "EADB_BULGARIA",
+        "as_written": "Bulgaria (EADB-TOPMed row; no study description in the Supplementary Note)",
+        "role": "case-control",
+        "quote_id": "claims/bellenguez2022_supp_table1.yaml#row_bulgaria"
+      },
+      {
+        "id": "EADB_HRC",
+        "as_written": "EADB-HRC (no study description in the Supplementary Note)",
+        "role": "case-control",
+        "quote_id": "claims/bellenguez2022_supp_table1.yaml#row_eadb_hrc"
+      },
+      {
+        "id": "GRACE",
+        "as_written": "GR@ACE (Fundació ACE cases and controls)",
+        "role": "case-control",
+        "quote_id": "claims/bellenguez2022_supp_note.yaml#grace"
+      },
+      {
+        "id": "VALME_HOSPITAL",
+        "as_written": "Valme University Hospital (Seville) controls [GR@ACE]",
+        "role": "controls_only",
+        "quote_id": "claims/bellenguez2022_supp_note.yaml#grace_valme"
+      },
+      {
+        "id": "SPANISH_NATIONAL_DNA_BANK",
+        "as_written": "the Spanish National DNA Bank–Carlos III (University of Salamanca) controls [GR@ACE]",
+        "role": "controls_only",
+        "quote_id": "claims/bellenguez2022_supp_note.yaml#grace_dna_bank"
+      },
+      {
+        "id": "RS",
+        "as_written": "The Rotterdam Study (RS1, RS2; first, second and third subcohorts)",
+        "role": "cohort",
+        "quote_id": "claims/bellenguez2022_supp_note.yaml#rotterdam"
+      },
+      {
+        "id": "EADI",
+        "as_written": "EADI case-control studies (France)",
+        "role": "case-control",
+        "quote_id": "claims/bellenguez2022_supp_note.yaml#eadi"
+      },
+      {
+        "id": "THREE_C",
+        "as_written": "the 3C study [EADI]",
+        "role": "cohort",
+        "quote_id": "claims/bellenguez2022_supp_note.yaml#eadi_3c_controls"
+      },
+      {
+        "id": "MRC_GENETIC_RESOURCE_AD",
+        "as_written": "Medical Research Council (MRC) Genetic Resource for Alzheimer’s disease [GERAD]",
+        "role": "case-control",
+        "quote_id": "claims/bellenguez2022_supp_note.yaml#gerad_recruitment"
+      },
+      {
+        "id": "ARUK",
+        "as_written": "the Alzheimer’s Research Trust (ART) Collaboration [GERAD]",
+        "role": "case-control",
+        "quote_id": "claims/bellenguez2022_supp_note.yaml#gerad_art"
+      },
+      {
+        "id": "WASHU",
+        "as_written": "Washington University, St Louis [GERAD]",
+        "role": "case-control",
+        "quote_id": "claims/bellenguez2022_supp_note.yaml#gerad_washu"
+      },
+      {
+        "id": "UCL_LASER_AD",
+        "as_written": "LASER-AD, University College London [GERAD]",
+        "role": "case-control",
+        "quote_id": "claims/bellenguez2022_supp_note.yaml#gerad_laser"
+      },
+      {
+        "id": "NIMH_AD_GENETICS_INITIATIVE",
+        "as_written": "the National Institute of Mental Health (NIMH) Alzheimer’s disease Genetics Initiative [GERAD]",
+        "role": "case-control",
+        "quote_id": "claims/bellenguez2022_supp_note.yaml#gerad_nimh"
+      },
+      {
+        "id": "B58C",
+        "as_written": "the 1958 British Birth Cohort (1958BC) [GERAD controls]",
+        "role": "controls_only",
+        "quote_id": "claims/bellenguez2022_supp_note.yaml#gerad_population_controls"
+      },
+      {
+        "id": "KORA",
+        "as_written": "the KORA F4 Study [GERAD controls]",
+        "role": "controls_only",
+        "quote_id": "claims/bellenguez2022_supp_note.yaml#gerad_population_controls"
+      },
+      {
+        "id": "HNR",
+        "as_written": "the Heinz Nixdorf Recall Study [GERAD controls; Bonn OMNI controls]",
+        "role": "controls_only",
+        "quote_id": "claims/bellenguez2022_supp_note.yaml#bonn_hnr_controls"
+      },
+      {
+        "id": "BONN",
+        "as_written": "Memory Clinic at the University Hospital of Bonn; Competence Network of Dementia (CND), Bonn [Bonn OMNI; GERAD]",
+        "role": "case-control",
+        "quote_id": "claims/bellenguez2022_supp_note.yaml#bonn_omni"
+      },
+      {
+        "id": "AGECODE",
+        "as_written": "DietBB (subsample of AgeCoDe) [Bonn]",
+        "role": "cohort",
+        "quote_id": "claims/bellenguez2022_supp_note.yaml#bonn_dietbb"
+      },
+      {
+        "id": "DEMGENE",
+        "as_written": "The Norwegian DemGene Network",
+        "role": "case-control",
+        "quote_id": "claims/bellenguez2022_supp_note.yaml#demgene"
+      },
+      {
+        "id": "NORWEGIAN_BLOOD_DONORS",
+        "as_written": "blood donors of the Oslo University Hospital, Ulleval Hospital [DemGene controls]",
+        "role": "controls_only",
+        "quote_id": "claims/bellenguez2022_supp_note.yaml#demgene_blood_donors"
+      },
+      {
+        "id": "NXC",
+        "as_written": "The Neocodex–Murcia study (NxC)",
+        "role": "case-control",
+        "quote_id": "claims/bellenguez2022_supp_note.yaml#nxc"
+      },
+      {
+        "id": "CCHS",
+        "as_written": "The Copenhagen City Heart Study (CCHS)",
+        "role": "cohort",
+        "quote_id": "claims/bellenguez2022_supp_note.yaml#cchs"
+      },
+      {
+        "id": "UKB",
+        "as_written": "UK Biobank (UKBB-P; diagnosed and proxy cases)",
+        "role": "cohort",
+        "quote_id": "claims/bellenguez2022_supp_note.yaml#ukb"
+      }
+    ],
+    "replication_only": [
+      "ADGC (stage II, 35 datasets)",
+      "CHARGE: CHS, FHS (stage II)",
+      "FinnGen (stage II)",
+      "Sydney MAS (EADB-Australia; not in the meta-analysis)"
+    ],
+    "components_complete": "no",
+    "complete_reason": "Stage I is listed at study level for EADB-France, EADB-Germany, EADB-Netherlands, GR@ACE, Rotterdam, EADI, GERAD, DemGene, NxC, CCHS, Bonn and UKBB, but (1) the Bulgaria row of EADB-TOPMed (164 cases) and the EADB-HRC dataset (163 cases, 405 controls) have no study description; (2) the Erasmus MC contribution to EADB-Netherlands is described only as 'population studies from the epidemiology department'; (3) the Italian EADB samples are named only by centre city; (4) UK MRC controls include 'existing studies'.",
+    "includes_ukb": "yes",
+    "includes_iceland": "unknown",
+    "pqtl_cohort_flags": {
+      "INTERVAL": "unknown",
+      "FENLAND": "unknown",
+      "ARIC": "unknown",
+      "AGES": "unknown",
+      "KORA": "yes",
+      "FHS": "unknown",
+      "IMPROVE": "unknown",
+      "DECODE": "unknown",
+      "UKB": "yes"
+    },
+    "ancestry": "European",
+    "sample_size": "39,106 clinically diagnosed AD cases, 46,828 proxy-ADD cases, 401,577 controls (stage I)",
+    "source_read": "Europe PMC fullTextXML PMC9005347 (Methods, Samples; Data Availability); Europe PMC supplementaryFiles zip for PMC9005347: 41588_2022_1024_MOESM4_ESM.xlsx (Supplementary Table 1) and 41588_2022_1024_MOESM1_ESM.pdf (Supplementary Note section 1.1 Stage I samples)",
+    "claims_files": [
+      "claims/bellenguez2022_supp_table1.yaml",
+      "claims/bellenguez2022_supp_note.yaml",
+      "claims/bellenguez2022_main.yaml",
+      "claims/bellenguez2022_data_availability.yaml"
+    ],
+    "notes": "Public summary statistics: the Data Availability statement gives GCST90027158 without saying whether it is stage I only (claims/bellenguez2022_data_availability.yaml#gwas_catalog); nothing read settles it, so stage I is assumed only because stage II is replication of selected variants. No Icelandic cohort is named in stage I, but the list is incomplete, so includes_iceland and DECODE/AGES are unknown (the dictionary's 'no' is not supported by a complete list). DemGene samples were genotyped on a deCODE chip at deCODE Genetics but are Norwegian. UK MRC (EADB) and MRC Genetic Resource (GERAD) are separate ids because the sources do not say whether they share participants. PRION appears in both EADB (UK) and GERAD; both map to UCL_PRION."
+  },
+  {
+    "side": "outcome",
+    "source_citation": "Wightman DP et al. 2021. A genome-wide association study with 1,126,563 individuals identifies new risk loci for Alzheimer's disease. Nat Genet 53:1276-1282",
+    "source_identifier": "doi:10.1038/s41588-021-00921-z; PMID:34493870; PMC10243600",
+    "replication_only": [],
+    "includes_ukb": "yes",
+    "includes_iceland": "yes",
+    "ancestry": "European",
+    "source_read": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41588-021-00921-z/MediaObjects/41588_2021_921_MOESM4_ESM.xlsx (Supplementary Table 1); .../41588_2021_921_MOESM1_ESM.pdf (Supplementary Methods: Datasets); author manuscript text PMC10243600.1.txt (PMC Cloud) (Methods; Data Availability Statement)",
+    "claims_files": [
+      "claims/wightman2021_supp_table1.yaml",
+      "claims/wightman2021_supp_note.yaml",
+      "claims/wightman2021_main.yaml",
+      "claims/kunkle2019_supp_tables.yaml",
+      "claims/kunkle2019_supp_note.yaml",
+      "claims/jansen2019_supp_note.yaml"
+    ],
+    "row_name": "AD (Wightman 2021)",
+    "new_row": false,
+    "aliases_proposed": "",
+    "release": "2021 full meta-analysis including 23andMe (available from 23andMe on application)",
+    "components": [
+      {
+        "id": "ACT",
+        "as_written": "ACT [via IGAP stage 1, Kunkle 2019]",
+        "role": "cohort",
+        "quote_id": "claims/kunkle2019_supp_tables.yaml#st2_act"
+      },
+      {
+        "id": "NACC_ADC",
+        "as_written": "ADC1; ADC2; ADC3; ADC4; ADC5; ADC6 (NIA Alzheimer Disease Centers, waves 1-6) [via IGAP stage 1, Kunkle 2019]",
+        "role": "case-control",
+        "quote_id": "claims/kunkle2019_supp_tables.yaml#st2_nacc_adc"
+      },
+      {
+        "id": "ADNI",
+        "as_written": "ADNI [via IGAP stage 1, Kunkle 2019]",
+        "role": "case-control",
+        "quote_id": "claims/kunkle2019_supp_tables.yaml#st2_adni"
+      },
+      {
+        "id": "BIOCARD",
+        "as_written": "BIOCARD [via IGAP stage 1, Kunkle 2019]",
+        "role": "case-control",
+        "quote_id": "claims/kunkle2019_supp_tables.yaml#st2_biocard"
+      },
+      {
+        "id": "CHAP",
+        "as_written": "CHAP (Chicago Health and Aging Project) [via IGAP stage 1, Kunkle 2019]",
+        "role": "cohort",
+        "quote_id": "claims/kunkle2019_supp_tables.yaml#st2_chap"
+      },
+      {
+        "id": "EINSTEIN_AGING_STUDY",
+        "as_written": "EAS (Einstein Aging Study) [via IGAP stage 1, Kunkle 2019]",
+        "role": "cohort",
+        "quote_id": "claims/kunkle2019_supp_tables.yaml#st2_einstein_aging_study"
+      },
+      {
+        "id": "GENADA",
+        "as_written": "GenADA [via IGAP stage 1, Kunkle 2019]",
+        "role": "case-control",
+        "quote_id": "claims/kunkle2019_supp_tables.yaml#st2_genada"
+      },
+      {
+        "id": "MAYO",
+        "as_written": "MAYO; RMAYO (Mayo Clinic; Rochester Mayo Clinic) [via IGAP stage 1, Kunkle 2019]",
+        "role": "case-control",
+        "quote_id": "claims/kunkle2019_supp_tables.yaml#st2_mayo"
+      },
+      {
+        "id": "MIRAGE",
+        "as_written": "MIRAGE [via IGAP stage 1, Kunkle 2019]",
+        "role": "case-control",
+        "quote_id": "claims/kunkle2019_supp_tables.yaml#st2_mirage"
+      },
+      {
+        "id": "MTC",
+        "as_written": "MTC (University of Miami/Texas Alzheimer’s Research Care Consortium Wave 2/Case Western Reserve University) [via IGAP stage 1, Kunkle 2019]",
+        "role": "case-control",
+        "quote_id": "claims/kunkle2019_supp_tables.yaml#st2_mtc"
+      },
+      {
+        "id": "NIA_LOAD",
+        "as_written": "NIALOAD [via IGAP stage 1, Kunkle 2019]",
+        "role": "case-control",
+        "quote_id": "claims/kunkle2019_supp_tables.yaml#st2_nia_load"
+      },
+      {
+        "id": "NBB",
+        "as_written": "NBB (Netherlands Brain Bank) [via IGAP stage 1, Kunkle 2019]",
+        "role": "case-control",
+        "quote_id": "claims/kunkle2019_supp_tables.yaml#st2_nbb"
+      },
+      {
+        "id": "OHSU",
+        "as_written": "OHSU [via IGAP stage 1, Kunkle 2019]",
+        "role": "case-control",
+        "quote_id": "claims/kunkle2019_supp_tables.yaml#st2_ohsu"
+      },
+      {
+        "id": "PFIZER",
+        "as_written": "PFIZER (Pfizer sample collection: LEADe trial, PrecisionMed, A3041005) [via IGAP stage 1, Kunkle 2019]",
+        "role": "case-control",
+        "quote_id": "claims/kunkle2019_supp_tables.yaml#st2_pfizer"
+      },
+      {
+        "id": "ROSMAP",
+        "as_written": "ROSMAP; ROSMAP2 [via IGAP stage 1, Kunkle 2019]",
+        "role": "cohort",
+        "quote_id": "claims/kunkle2019_supp_tables.yaml#st2_rosmap"
+      },
+      {
+        "id": "TARCC",
+        "as_written": "TARC1 (Texas Alzheimer’s Research and Care Consortium, wave 1) [via IGAP stage 1, Kunkle 2019]",
+        "role": "case-control",
+        "quote_id": "claims/kunkle2019_supp_tables.yaml#st2_tarcc"
+      },
+      {
+        "id": "TGEN2",
+        "as_written": "TGEN2 [via IGAP stage 1, Kunkle 2019]",
+        "role": "case-control",
+        "quote_id": "claims/kunkle2019_supp_tables.yaml#st2_tgen2"
+      },
+      {
+        "id": "UKS",
+        "as_written": "UKS (Universitatsklinikum Saarlandes) [via IGAP stage 1, Kunkle 2019]",
+        "role": "case-control",
+        "quote_id": "claims/kunkle2019_supp_tables.yaml#st2_uks"
+      },
+      {
+        "id": "UM_VU_MSSM",
+        "as_written": "UMCWRMSSM (University of Miami/Case Western Reserve University/Mt. Sinai School of Medicine, formerly UM/VU/MSSM) [via IGAP stage 1, Kunkle 2019]",
+        "role": "case-control",
+        "quote_id": "claims/kunkle2019_supp_tables.yaml#st2_um_vu_mssm"
+      },
+      {
+        "id": "UPITT",
+        "as_written": "UPITT [via IGAP stage 1, Kunkle 2019]",
+        "role": "case-control",
+        "quote_id": "claims/kunkle2019_supp_tables.yaml#st2_upitt"
+      },
+      {
+        "id": "WASHU",
+        "as_written": "WASHU; WASHU2 (Washington University) [via IGAP stage 1, Kunkle 2019]",
+        "role": "case-control",
+        "quote_id": "claims/kunkle2019_supp_tables.yaml#st2_washu"
+      },
+      {
+        "id": "WHICAP",
+        "as_written": "WHICAP (Washington Heights-Inwood Community Aging Project) [via IGAP stage 1, Kunkle 2019]",
+        "role": "cohort",
+        "quote_id": "claims/kunkle2019_supp_tables.yaml#st2_whicap"
+      },
+      {
+        "id": "AGES",
+        "as_written": "AGES (AGES-RS) [via IGAP stage 1, Kunkle 2019]",
+        "role": "cohort",
+        "quote_id": "claims/kunkle2019_supp_tables.yaml#st2_ages"
+      },
+      {
+        "id": "ASPS",
+        "as_written": "ASPS (Austrian Stroke Prevention Study / PRODEM) [via IGAP stage 1, Kunkle 2019]",
+        "role": "cohort",
+        "quote_id": "claims/kunkle2019_supp_tables.yaml#st2_asps"
+      },
+      {
+        "id": "CHS",
+        "as_written": "CHS [via IGAP stage 1, Kunkle 2019]",
+        "role": "cohort",
+        "quote_id": "claims/kunkle2019_supp_tables.yaml#st2_chs"
+      },
+      {
+        "id": "FHS",
+        "as_written": "FHS [via IGAP stage 1, Kunkle 2019]",
+        "role": "cohort",
+        "quote_id": "claims/kunkle2019_supp_tables.yaml#st2_fhs"
+      },
+      {
+        "id": "RS",
+        "as_written": "ROTTERDAM (Rotterdam Study) [via IGAP stage 1, Kunkle 2019]",
+        "role": "cohort",
+        "quote_id": "claims/kunkle2019_supp_tables.yaml#st2_rs"
+      },
+      {
+        "id": "EADI",
+        "as_written": "EADI (AD cases ascertained by neurologists from Bordeaux, Dijon, Lille, Montpellier, Paris, Rouen) [via IGAP stage 1, Kunkle 2019]",
+        "role": "case-control",
+        "quote_id": "claims/kunkle2019_supp_note.yaml#eadi_cases"
+      },
+      {
+        "id": "THREE_C",
+        "as_written": "3C Study (EADI controls and incident/prevalent cases) [via IGAP stage 1, Kunkle 2019]",
+        "role": "cohort",
+        "quote_id": "claims/kunkle2019_supp_note.yaml#eadi_controls_3c"
+      },
+      {
+        "id": "MRC_GENETIC_RESOURCE_AD",
+        "as_written": "MRC [GERAD/PERADES] [via IGAP stage 1, Kunkle 2019]",
+        "role": "case-control",
+        "quote_id": "claims/kunkle2019_supp_tables.yaml#st2_gerad_mrc_genetic_resource_ad"
+      },
+      {
+        "id": "ARUK",
+        "as_written": "ARUK [GERAD/PERADES] [via IGAP stage 1, Kunkle 2019]",
+        "role": "case-control",
+        "quote_id": "claims/kunkle2019_supp_tables.yaml#st2_gerad_aruk"
+      },
+      {
+        "id": "BONN",
+        "as_written": "BONN [GERAD/PERADES] [via IGAP stage 1, Kunkle 2019]",
+        "role": "case-control",
+        "quote_id": "claims/kunkle2019_supp_tables.yaml#st2_gerad_bonn"
+      },
+      {
+        "id": "NIMH_AD_GENETICS_INITIATIVE",
+        "as_written": "NIMH [GERAD/PERADES] [via IGAP stage 1, Kunkle 2019]",
+        "role": "case-control",
+        "quote_id": "claims/kunkle2019_supp_tables.yaml#st2_gerad_nimh_ad_genetics_initiative"
+      },
+      {
+        "id": "UCL_PRION",
+        "as_written": "UCL:PRION [GERAD/PERADES] [via IGAP stage 1, Kunkle 2019]",
+        "role": "case-control",
+        "quote_id": "claims/kunkle2019_supp_tables.yaml#st2_gerad_ucl_prion"
+      },
+      {
+        "id": "UCL_LASER_AD",
+        "as_written": "UCL:LASER [GERAD/PERADES] [via IGAP stage 1, Kunkle 2019]",
+        "role": "case-control",
+        "quote_id": "claims/kunkle2019_supp_tables.yaml#st2_gerad_ucl_laser_ad"
+      },
+      {
+        "id": "B58C",
+        "as_written": "1958BC (1958 British Birth Cohort) [GERAD/PERADES] [via IGAP stage 1, Kunkle 2019]",
+        "role": "controls_only",
+        "quote_id": "claims/kunkle2019_supp_tables.yaml#st2_gerad_b58c"
+      },
+      {
+        "id": "KORA",
+        "as_written": "KORA (KORA F4 Study) [GERAD/PERADES] [via IGAP stage 1, Kunkle 2019]",
+        "role": "controls_only",
+        "quote_id": "claims/kunkle2019_supp_tables.yaml#st2_gerad_kora"
+      },
+      {
+        "id": "HNR",
+        "as_written": "HNR (Heinz Nixdorf Recall Study) [GERAD/PERADES] [via IGAP stage 1, Kunkle 2019]",
+        "role": "controls_only",
+        "quote_id": "claims/kunkle2019_supp_tables.yaml#st2_gerad_hnr"
+      },
+      {
+        "id": "UKB",
+        "as_written": "UKB (Proxy) [summary statistics from Jansen et al. 2019]",
+        "role": "cohort",
+        "quote_id": "claims/wightman2021_supp_table1.yaml#row_ukb"
+      },
+      {
+        "id": "DEMGENE",
+        "as_written": "DemGene (origin described in Jansen et al. 2019)",
+        "role": "case-control",
+        "quote_id": "claims/wightman2021_supp_table1.yaml#row_demgene"
+      },
+      {
+        "id": "HUNT",
+        "as_written": "HUNT Dementia study / HUNT controls within DemGene [Jansen 2019 description]; and the HUNT dataset (Trøndelag Health Study)",
+        "role": "cohort",
+        "quote_id": "claims/wightman2021_supp_table1.yaml#row_hunt"
+      },
+      {
+        "id": "NORWEGIAN_BLOOD_DONORS",
+        "as_written": "Norwegian blood donor samples [DemGene controls, Jansen 2019 description]",
+        "role": "controls_only",
+        "quote_id": "claims/jansen2019_supp_note.yaml#demgene_extra_controls"
+      },
+      {
+        "id": "TOP_STUDY",
+        "as_written": "Thematically Organized Psychosis (TOP) Research Study [DemGene controls, Jansen 2019 description]",
+        "role": "controls_only",
+        "quote_id": "claims/jansen2019_supp_note.yaml#demgene_extra_controls"
+      },
+      {
+        "id": "TWINGENE",
+        "as_written": "TwinGene",
+        "role": "cohort",
+        "quote_id": "claims/wightman2021_supp_table1.yaml#row_twingene"
+      },
+      {
+        "id": "STSA",
+        "as_written": "STSA",
+        "role": "cohort",
+        "quote_id": "claims/wightman2021_supp_table1.yaml#row_stsa"
+      },
+      {
+        "id": "DECODE",
+        "as_written": "deCODE (partially included)",
+        "role": "case-control",
+        "quote_id": "claims/wightman2021_supp_table1.yaml#row_decode"
+      },
+      {
+        "id": "FINNGEN",
+        "as_written": "Finngen (release 3, AD_LO_EXMORE)",
+        "role": "cohort",
+        "quote_id": "claims/wightman2021_supp_table1.yaml#row_finngen"
+      },
+      {
+        "id": "GRACE",
+        "as_written": "GR@CE (Moreno-Grau et al. 2020 stage I summary statistics)",
+        "role": "case-control",
+        "quote_id": "claims/wightman2021_supp_table1.yaml#row_grace"
+      },
+      {
+        "id": "BIOVU",
+        "as_written": "BioVU",
+        "role": "cohort",
+        "quote_id": "claims/wightman2021_supp_table1.yaml#row_biovu"
+      },
+      {
+        "id": "23ANDME",
+        "as_written": "23andMe",
+        "role": "cohort",
+        "quote_id": "claims/wightman2021_supp_table1.yaml#row_23andme"
+      },
+      {
+        "id": "GOTHENBURG_H70",
+        "as_written": "Gothenburg H70 Birth Cohort Studies (H70, H85, 95+) and memory-clinic AD cases from Sweden",
+        "role": "cohort",
+        "quote_id": "claims/wightman2021_supp_table1.yaml#row_gothenburg_h70"
+      },
+      {
+        "id": "PPSW",
+        "as_written": "Prospective Population Study of Women (PPSW) [Gothenburg]",
+        "role": "cohort",
+        "quote_id": "claims/wightman2021_supp_note.yaml#gothenburg_sources"
+      },
+      {
+        "id": "ANMERGE",
+        "as_written": "ANMerge",
+        "role": "case-control",
+        "quote_id": "claims/wightman2021_supp_table1.yaml#row_anmerge"
+      }
+    ],
+    "components_complete": "yes",
+    "complete_reason": "Supplementary Table 1 lists all 13 datasets (grand total 90,338 cases / 1,036,225 controls); IGAP is the Kunkle 2019 stage 1 (NIAGADS NG00075), resolved at study level in the Kunkle row; DemGene's origin is the Jansen 2019 description (DemGene sub-studies, HUNT, Norwegian blood donors, TOP); the remaining datasets are single participant sources (UKB, TwinGene, STSA, deCODE, FinnGen R3, GR@ACE, HUNT, BioVU, 23andMe, Gothenburg H70/PPSW, ANMerge). GR@ACE and ANMerge are taken as single sources; their own recruitment lists (Moreno-Grau 2020; Birkenbihl 2021) were not read.",
+    "pqtl_cohort_flags": {
+      "INTERVAL": "no",
+      "FENLAND": "no",
+      "ARIC": "no",
+      "AGES": "yes",
+      "KORA": "yes",
+      "FHS": "yes",
+      "IMPROVE": "no",
+      "DECODE": "yes",
+      "UKB": "yes"
+    },
+    "sample_size": "90,338 (46,613 proxy) cases; 1,036,225 (318,246 proxy) controls",
+    "notes": "The public CTG file excludes 23andMe (claims/wightman2021_main.yaml#public_excludes_23andme); that release is a separate row. HUNT controls were deduplicated against DemGene (claims/wightman2021_supp_note.yaml#hunt_demgene_overlap_removed). UKB enters as the Jansen 2019 UKB proxy summary statistics (claims/wightman2021_supp_note.yaml#ukb_from_jansen). Completeness relies on GR@ACE and ANMerge being single recruited sources. IGAP components are the Kunkle stage 1 components (quote ids point to the Kunkle claims). FinnGen, BioVU and 23andMe are biobank/consumer sources listed under their own ids."
+  },
+  {
+    "side": "outcome",
+    "source_citation": "Wightman DP et al. 2021. A genome-wide association study with 1,126,563 individuals identifies new risk loci for Alzheimer's disease. Nat Genet 53:1276-1282",
+    "source_identifier": "doi:10.1038/s41588-021-00921-z; PMID:34493870; PMC10243600",
+    "replication_only": [],
+    "includes_ukb": "yes",
+    "includes_iceland": "yes",
+    "ancestry": "European",
+    "source_read": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41588-021-00921-z/MediaObjects/41588_2021_921_MOESM4_ESM.xlsx (Supplementary Table 1); .../41588_2021_921_MOESM1_ESM.pdf (Supplementary Methods: Datasets); author manuscript text PMC10243600.1.txt (PMC Cloud) (Methods; Data Availability Statement)",
+    "claims_files": [
+      "claims/wightman2021_supp_table1.yaml",
+      "claims/wightman2021_supp_note.yaml",
+      "claims/wightman2021_main.yaml",
+      "claims/kunkle2019_supp_tables.yaml",
+      "claims/kunkle2019_supp_note.yaml",
+      "claims/jansen2019_supp_note.yaml"
+    ],
+    "row_name": "AD (Wightman 2021) excluding 23andMe",
+    "new_row": true,
+    "aliases_proposed": "Wightman 2021 excluding 23andMe|Wightman 2021 public|AD 2021 Nat Genet without 23andMe",
+    "release": "2021 meta-analysis excluding 23andMe (public, CTG website)",
+    "components": [
+      {
+        "id": "ACT",
+        "as_written": "ACT [via IGAP stage 1, Kunkle 2019]",
+        "role": "cohort",
+        "quote_id": "claims/kunkle2019_supp_tables.yaml#st2_act"
+      },
+      {
+        "id": "NACC_ADC",
+        "as_written": "ADC1; ADC2; ADC3; ADC4; ADC5; ADC6 (NIA Alzheimer Disease Centers, waves 1-6) [via IGAP stage 1, Kunkle 2019]",
+        "role": "case-control",
+        "quote_id": "claims/kunkle2019_supp_tables.yaml#st2_nacc_adc"
+      },
+      {
+        "id": "ADNI",
+        "as_written": "ADNI [via IGAP stage 1, Kunkle 2019]",
+        "role": "case-control",
+        "quote_id": "claims/kunkle2019_supp_tables.yaml#st2_adni"
+      },
+      {
+        "id": "BIOCARD",
+        "as_written": "BIOCARD [via IGAP stage 1, Kunkle 2019]",
+        "role": "case-control",
+        "quote_id": "claims/kunkle2019_supp_tables.yaml#st2_biocard"
+      },
+      {
+        "id": "CHAP",
+        "as_written": "CHAP (Chicago Health and Aging Project) [via IGAP stage 1, Kunkle 2019]",
+        "role": "cohort",
+        "quote_id": "claims/kunkle2019_supp_tables.yaml#st2_chap"
+      },
+      {
+        "id": "EINSTEIN_AGING_STUDY",
+        "as_written": "EAS (Einstein Aging Study) [via IGAP stage 1, Kunkle 2019]",
+        "role": "cohort",
+        "quote_id": "claims/kunkle2019_supp_tables.yaml#st2_einstein_aging_study"
+      },
+      {
+        "id": "GENADA",
+        "as_written": "GenADA [via IGAP stage 1, Kunkle 2019]",
+        "role": "case-control",
+        "quote_id": "claims/kunkle2019_supp_tables.yaml#st2_genada"
+      },
+      {
+        "id": "MAYO",
+        "as_written": "MAYO; RMAYO (Mayo Clinic; Rochester Mayo Clinic) [via IGAP stage 1, Kunkle 2019]",
+        "role": "case-control",
+        "quote_id": "claims/kunkle2019_supp_tables.yaml#st2_mayo"
+      },
+      {
+        "id": "MIRAGE",
+        "as_written": "MIRAGE [via IGAP stage 1, Kunkle 2019]",
+        "role": "case-control",
+        "quote_id": "claims/kunkle2019_supp_tables.yaml#st2_mirage"
+      },
+      {
+        "id": "MTC",
+        "as_written": "MTC (University of Miami/Texas Alzheimer’s Research Care Consortium Wave 2/Case Western Reserve University) [via IGAP stage 1, Kunkle 2019]",
+        "role": "case-control",
+        "quote_id": "claims/kunkle2019_supp_tables.yaml#st2_mtc"
+      },
+      {
+        "id": "NIA_LOAD",
+        "as_written": "NIALOAD [via IGAP stage 1, Kunkle 2019]",
+        "role": "case-control",
+        "quote_id": "claims/kunkle2019_supp_tables.yaml#st2_nia_load"
+      },
+      {
+        "id": "NBB",
+        "as_written": "NBB (Netherlands Brain Bank) [via IGAP stage 1, Kunkle 2019]",
+        "role": "case-control",
+        "quote_id": "claims/kunkle2019_supp_tables.yaml#st2_nbb"
+      },
+      {
+        "id": "OHSU",
+        "as_written": "OHSU [via IGAP stage 1, Kunkle 2019]",
+        "role": "case-control",
+        "quote_id": "claims/kunkle2019_supp_tables.yaml#st2_ohsu"
+      },
+      {
+        "id": "PFIZER",
+        "as_written": "PFIZER (Pfizer sample collection: LEADe trial, PrecisionMed, A3041005) [via IGAP stage 1, Kunkle 2019]",
+        "role": "case-control",
+        "quote_id": "claims/kunkle2019_supp_tables.yaml#st2_pfizer"
+      },
+      {
+        "id": "ROSMAP",
+        "as_written": "ROSMAP; ROSMAP2 [via IGAP stage 1, Kunkle 2019]",
+        "role": "cohort",
+        "quote_id": "claims/kunkle2019_supp_tables.yaml#st2_rosmap"
+      },
+      {
+        "id": "TARCC",
+        "as_written": "TARC1 (Texas Alzheimer’s Research and Care Consortium, wave 1) [via IGAP stage 1, Kunkle 2019]",
+        "role": "case-control",
+        "quote_id": "claims/kunkle2019_supp_tables.yaml#st2_tarcc"
+      },
+      {
+        "id": "TGEN2",
+        "as_written": "TGEN2 [via IGAP stage 1, Kunkle 2019]",
+        "role": "case-control",
+        "quote_id": "claims/kunkle2019_supp_tables.yaml#st2_tgen2"
+      },
+      {
+        "id": "UKS",
+        "as_written": "UKS (Universitatsklinikum Saarlandes) [via IGAP stage 1, Kunkle 2019]",
+        "role": "case-control",
+        "quote_id": "claims/kunkle2019_supp_tables.yaml#st2_uks"
+      },
+      {
+        "id": "UM_VU_MSSM",
+        "as_written": "UMCWRMSSM (University of Miami/Case Western Reserve University/Mt. Sinai School of Medicine, formerly UM/VU/MSSM) [via IGAP stage 1, Kunkle 2019]",
+        "role": "case-control",
+        "quote_id": "claims/kunkle2019_supp_tables.yaml#st2_um_vu_mssm"
+      },
+      {
+        "id": "UPITT",
+        "as_written": "UPITT [via IGAP stage 1, Kunkle 2019]",
+        "role": "case-control",
+        "quote_id": "claims/kunkle2019_supp_tables.yaml#st2_upitt"
+      },
+      {
+        "id": "WASHU",
+        "as_written": "WASHU; WASHU2 (Washington University) [via IGAP stage 1, Kunkle 2019]",
+        "role": "case-control",
+        "quote_id": "claims/kunkle2019_supp_tables.yaml#st2_washu"
+      },
+      {
+        "id": "WHICAP",
+        "as_written": "WHICAP (Washington Heights-Inwood Community Aging Project) [via IGAP stage 1, Kunkle 2019]",
+        "role": "cohort",
+        "quote_id": "claims/kunkle2019_supp_tables.yaml#st2_whicap"
+      },
+      {
+        "id": "AGES",
+        "as_written": "AGES (AGES-RS) [via IGAP stage 1, Kunkle 2019]",
+        "role": "cohort",
+        "quote_id": "claims/kunkle2019_supp_tables.yaml#st2_ages"
+      },
+      {
+        "id": "ASPS",
+        "as_written": "ASPS (Austrian Stroke Prevention Study / PRODEM) [via IGAP stage 1, Kunkle 2019]",
+        "role": "cohort",
+        "quote_id": "claims/kunkle2019_supp_tables.yaml#st2_asps"
+      },
+      {
+        "id": "CHS",
+        "as_written": "CHS [via IGAP stage 1, Kunkle 2019]",
+        "role": "cohort",
+        "quote_id": "claims/kunkle2019_supp_tables.yaml#st2_chs"
+      },
+      {
+        "id": "FHS",
+        "as_written": "FHS [via IGAP stage 1, Kunkle 2019]",
+        "role": "cohort",
+        "quote_id": "claims/kunkle2019_supp_tables.yaml#st2_fhs"
+      },
+      {
+        "id": "RS",
+        "as_written": "ROTTERDAM (Rotterdam Study) [via IGAP stage 1, Kunkle 2019]",
+        "role": "cohort",
+        "quote_id": "claims/kunkle2019_supp_tables.yaml#st2_rs"
+      },
+      {
+        "id": "EADI",
+        "as_written": "EADI (AD cases ascertained by neurologists from Bordeaux, Dijon, Lille, Montpellier, Paris, Rouen) [via IGAP stage 1, Kunkle 2019]",
+        "role": "case-control",
+        "quote_id": "claims/kunkle2019_supp_note.yaml#eadi_cases"
+      },
+      {
+        "id": "THREE_C",
+        "as_written": "3C Study (EADI controls and incident/prevalent cases) [via IGAP stage 1, Kunkle 2019]",
+        "role": "cohort",
+        "quote_id": "claims/kunkle2019_supp_note.yaml#eadi_controls_3c"
+      },
+      {
+        "id": "MRC_GENETIC_RESOURCE_AD",
+        "as_written": "MRC [GERAD/PERADES] [via IGAP stage 1, Kunkle 2019]",
+        "role": "case-control",
+        "quote_id": "claims/kunkle2019_supp_tables.yaml#st2_gerad_mrc_genetic_resource_ad"
+      },
+      {
+        "id": "ARUK",
+        "as_written": "ARUK [GERAD/PERADES] [via IGAP stage 1, Kunkle 2019]",
+        "role": "case-control",
+        "quote_id": "claims/kunkle2019_supp_tables.yaml#st2_gerad_aruk"
+      },
+      {
+        "id": "BONN",
+        "as_written": "BONN [GERAD/PERADES] [via IGAP stage 1, Kunkle 2019]",
+        "role": "case-control",
+        "quote_id": "claims/kunkle2019_supp_tables.yaml#st2_gerad_bonn"
+      },
+      {
+        "id": "NIMH_AD_GENETICS_INITIATIVE",
+        "as_written": "NIMH [GERAD/PERADES] [via IGAP stage 1, Kunkle 2019]",
+        "role": "case-control",
+        "quote_id": "claims/kunkle2019_supp_tables.yaml#st2_gerad_nimh_ad_genetics_initiative"
+      },
+      {
+        "id": "UCL_PRION",
+        "as_written": "UCL:PRION [GERAD/PERADES] [via IGAP stage 1, Kunkle 2019]",
+        "role": "case-control",
+        "quote_id": "claims/kunkle2019_supp_tables.yaml#st2_gerad_ucl_prion"
+      },
+      {
+        "id": "UCL_LASER_AD",
+        "as_written": "UCL:LASER [GERAD/PERADES] [via IGAP stage 1, Kunkle 2019]",
+        "role": "case-control",
+        "quote_id": "claims/kunkle2019_supp_tables.yaml#st2_gerad_ucl_laser_ad"
+      },
+      {
+        "id": "B58C",
+        "as_written": "1958BC (1958 British Birth Cohort) [GERAD/PERADES] [via IGAP stage 1, Kunkle 2019]",
+        "role": "controls_only",
+        "quote_id": "claims/kunkle2019_supp_tables.yaml#st2_gerad_b58c"
+      },
+      {
+        "id": "KORA",
+        "as_written": "KORA (KORA F4 Study) [GERAD/PERADES] [via IGAP stage 1, Kunkle 2019]",
+        "role": "controls_only",
+        "quote_id": "claims/kunkle2019_supp_tables.yaml#st2_gerad_kora"
+      },
+      {
+        "id": "HNR",
+        "as_written": "HNR (Heinz Nixdorf Recall Study) [GERAD/PERADES] [via IGAP stage 1, Kunkle 2019]",
+        "role": "controls_only",
+        "quote_id": "claims/kunkle2019_supp_tables.yaml#st2_gerad_hnr"
+      },
+      {
+        "id": "UKB",
+        "as_written": "UKB (Proxy) [summary statistics from Jansen et al. 2019]",
+        "role": "cohort",
+        "quote_id": "claims/wightman2021_supp_table1.yaml#row_ukb"
+      },
+      {
+        "id": "DEMGENE",
+        "as_written": "DemGene (origin described in Jansen et al. 2019)",
+        "role": "case-control",
+        "quote_id": "claims/wightman2021_supp_table1.yaml#row_demgene"
+      },
+      {
+        "id": "HUNT",
+        "as_written": "HUNT Dementia study / HUNT controls within DemGene [Jansen 2019 description]; and the HUNT dataset (Trøndelag Health Study)",
+        "role": "cohort",
+        "quote_id": "claims/wightman2021_supp_table1.yaml#row_hunt"
+      },
+      {
+        "id": "NORWEGIAN_BLOOD_DONORS",
+        "as_written": "Norwegian blood donor samples [DemGene controls, Jansen 2019 description]",
+        "role": "controls_only",
+        "quote_id": "claims/jansen2019_supp_note.yaml#demgene_extra_controls"
+      },
+      {
+        "id": "TOP_STUDY",
+        "as_written": "Thematically Organized Psychosis (TOP) Research Study [DemGene controls, Jansen 2019 description]",
+        "role": "controls_only",
+        "quote_id": "claims/jansen2019_supp_note.yaml#demgene_extra_controls"
+      },
+      {
+        "id": "TWINGENE",
+        "as_written": "TwinGene",
+        "role": "cohort",
+        "quote_id": "claims/wightman2021_supp_table1.yaml#row_twingene"
+      },
+      {
+        "id": "STSA",
+        "as_written": "STSA",
+        "role": "cohort",
+        "quote_id": "claims/wightman2021_supp_table1.yaml#row_stsa"
+      },
+      {
+        "id": "DECODE",
+        "as_written": "deCODE (partially included)",
+        "role": "case-control",
+        "quote_id": "claims/wightman2021_supp_table1.yaml#row_decode"
+      },
+      {
+        "id": "FINNGEN",
+        "as_written": "Finngen (release 3, AD_LO_EXMORE)",
+        "role": "cohort",
+        "quote_id": "claims/wightman2021_supp_table1.yaml#row_finngen"
+      },
+      {
+        "id": "GRACE",
+        "as_written": "GR@CE (Moreno-Grau et al. 2020 stage I summary statistics)",
+        "role": "case-control",
+        "quote_id": "claims/wightman2021_supp_table1.yaml#row_grace"
+      },
+      {
+        "id": "BIOVU",
+        "as_written": "BioVU",
+        "role": "cohort",
+        "quote_id": "claims/wightman2021_supp_table1.yaml#row_biovu"
+      },
+      {
+        "id": "GOTHENBURG_H70",
+        "as_written": "Gothenburg H70 Birth Cohort Studies (H70, H85, 95+) and memory-clinic AD cases from Sweden",
+        "role": "cohort",
+        "quote_id": "claims/wightman2021_supp_table1.yaml#row_gothenburg_h70"
+      },
+      {
+        "id": "PPSW",
+        "as_written": "Prospective Population Study of Women (PPSW) [Gothenburg]",
+        "role": "cohort",
+        "quote_id": "claims/wightman2021_supp_note.yaml#gothenburg_sources"
+      },
+      {
+        "id": "ANMERGE",
+        "as_written": "ANMerge",
+        "role": "case-control",
+        "quote_id": "claims/wightman2021_supp_table1.yaml#row_anmerge"
+      }
+    ],
+    "components_complete": "yes",
+    "complete_reason": "Supplementary Table 1 lists all 13 datasets (grand total 90,338 cases / 1,036,225 controls); IGAP is the Kunkle 2019 stage 1 (NIAGADS NG00075), resolved at study level in the Kunkle row; DemGene's origin is the Jansen 2019 description (DemGene sub-studies, HUNT, Norwegian blood donors, TOP); the remaining datasets are single participant sources (UKB, TwinGene, STSA, deCODE, FinnGen R3, GR@ACE, HUNT, BioVU, Gothenburg H70/PPSW, ANMerge). GR@ACE and ANMerge are taken as single sources; their own recruitment lists (Moreno-Grau 2020; Birkenbihl 2021) were not read. 23andMe is removed in this release.",
+    "pqtl_cohort_flags": {
+      "INTERVAL": "no",
+      "FENLAND": "no",
+      "ARIC": "no",
+      "AGES": "yes",
+      "KORA": "yes",
+      "FHS": "yes",
+      "IMPROVE": "no",
+      "DECODE": "yes",
+      "UKB": "yes"
+    },
+    "sample_size": "86,531 cases; 676,386 controls (90,338 - 3,807 cases; 1,036,225 - 359,839 controls; computed, not stated in the source)",
+    "notes": "Release defined by the Data Availability Statement (claims/wightman2021_main.yaml#public_excludes_23andme)."
+  },
+  {
+    "side": "outcome",
+    "source_citation": "Nalls MA et al. 2019. Identification of novel risk loci, causal insights, and heritable risk for Parkinson's disease: a meta-analysis of genome-wide association studies. Lancet Neurol 18:1091-1102",
+    "source_identifier": "doi:10.1016/S1474-4422(19)30320-5; PMID:31701892; PMC8422160",
+    "replication_only": [],
+    "includes_ukb": "yes",
+    "includes_iceland": "unknown",
+    "pqtl_cohort_flags": {
+      "INTERVAL": "unknown",
+      "FENLAND": "unknown",
+      "ARIC": "unknown",
+      "AGES": "unknown",
+      "KORA": "unknown",
+      "FHS": "unknown",
+      "IMPROVE": "unknown",
+      "DECODE": "unknown",
+      "UKB": "yes"
+    },
+    "ancestry": "European",
+    "source_read": "https://ars.els-cdn.com/content/image/1-s2.0-S1474442219303205-mmc1.pdf (Methods supplement; Table S1 caption only); author manuscript text PMC8422160.1.txt (PMC Cloud) (Methods; data sharing statement). Supplementary Table S1 (per-study list) is a separate spreadsheet that was not obtained: mmc2-mmc4 at ars.els-cdn.com return 404 and the bioRxiv supplement is behind Cloudflare.",
+    "claims_files": [
+      "claims/nalls2019_supp.yaml",
+      "claims/nalls2019_main.yaml"
+    ],
+    "row_name": "IPDGC Parkinson disease (Nalls 2019)",
+    "new_row": false,
+    "aliases_proposed": "",
+    "release": "2019 full meta-analysis (17 sets of summary statistics; full version available through 23andMe)",
+    "components": [
+      {
+        "id": "NALLS2014_META",
+        "as_written": "summary statistics from the meta-analyses of GWAS published in Nalls et al. 2014 (IPDGC Nalls et al. 2014 discovery phase)",
+        "role": "case-control",
+        "quote_id": "claims/nalls2019_supp.yaml#previous_studies"
+      },
+      {
+        "id": "23ANDME",
+        "as_written": "23andMe Web-Based Study of Parkinson's Disease (PDWBS, Chang et al. 2017) and 23andMe post-Chang et al. dataset",
+        "role": "cohort",
+        "quote_id": "claims/nalls2019_supp.yaml#post_chang_23andme"
+      },
+      {
+        "id": "BAYLOR_UMD_PD",
+        "as_written": "Baylor College of Medicine / University of Maryland",
+        "role": "case-control",
+        "quote_id": "claims/nalls2019_supp.yaml#nia_baylor_umd_pd"
+      },
+      {
+        "id": "FINNISH_PD",
+        "as_written": "Finnish Parkinson's",
+        "role": "case-control",
+        "quote_id": "claims/nalls2019_supp.yaml#nia_finnish_pd"
+      },
+      {
+        "id": "HBS",
+        "as_written": "Harvard Biomarker Study (HBS)",
+        "role": "case-control",
+        "quote_id": "claims/nalls2019_supp.yaml#nia_hbs"
+      },
+      {
+        "id": "MCGILL_PD",
+        "as_written": "McGill Parkinson's",
+        "role": "case-control",
+        "quote_id": "claims/nalls2019_supp.yaml#nia_mcgill_pd"
+      },
+      {
+        "id": "OSLO_PD",
+        "as_written": "Oslo Parkinson's Disease Study",
+        "role": "case-control",
+        "quote_id": "claims/nalls2019_supp.yaml#nia_oslo_pd"
+      },
+      {
+        "id": "PDBP",
+        "as_written": "Parkinson's Disease Biomarker's Program (PDBP)",
+        "role": "case-control",
+        "quote_id": "claims/nalls2019_supp.yaml#nia_pdbp"
+      },
+      {
+        "id": "PPMI",
+        "as_written": "Parkinson's Progression Markers Initiative (PPMI)",
+        "role": "case-control",
+        "quote_id": "claims/nalls2019_supp.yaml#nia_ppmi"
+      },
+      {
+        "id": "SPANISH_PD_IPDGC",
+        "as_written": "Spanish Parkinson's (from IPDGC)",
+        "role": "case-control",
+        "quote_id": "claims/nalls2019_supp.yaml#nia_spanish_pd_ipdgc"
+      },
+      {
+        "id": "TUBINGEN_PD",
+        "as_written": "Tubingen Parkinson's Disease cohort (CouragePD)",
+        "role": "case-control",
+        "quote_id": "claims/nalls2019_supp.yaml#nia_tubingen_pd"
+      },
+      {
+        "id": "VANCE_PD",
+        "as_written": "Vance (dbGap phs000394)",
+        "role": "case-control",
+        "quote_id": "claims/nalls2019_supp.yaml#nia_vance_pd"
+      },
+      {
+        "id": "UK_PDMED",
+        "as_written": "UK PDMED (CouragePD)",
+        "role": "case-control",
+        "quote_id": "claims/nalls2019_supp.yaml#nia_uk_pdmed"
+      },
+      {
+        "id": "NEUROX_DBGAP",
+        "as_written": "NeuroX - dbGaP (phs000918.v1.p1)",
+        "role": "case-control",
+        "quote_id": "claims/nalls2019_supp.yaml#nia_neurox_dbgap"
+      },
+      {
+        "id": "SGPD",
+        "as_written": "System Genomics of Parkinson's Disease (SGPD)",
+        "role": "case-control",
+        "quote_id": "claims/nalls2019_supp.yaml#sgpd"
+      },
+      {
+        "id": "MYERS_FAROUD_DBGAP",
+        "as_written": "Myers-Faroud datasets from dbGaP",
+        "role": "case-control",
+        "quote_id": "claims/nalls2019_supp.yaml#myers_faroud"
+      },
+      {
+        "id": "UKB",
+        "as_written": "UK BioBank (UKB) proxy-cases and controls",
+        "role": "cohort",
+        "quote_id": "claims/nalls2019_supp.yaml#ukb_proxy"
+      }
+    ],
+    "components_complete": "no",
+    "complete_reason": "Supplementary Table S1, the per-study list of the 17 summary-statistic sets, was not obtained; the 13 new datasets are known only partly, from the list of studies screened for relatedness at the NIA site plus SGPD and 23andMe post-Chang; the Nalls et al. 2014 meta-analysis (which includes 23andMe data) is a consortium-level component whose member studies are not listed in the sources read.",
+    "sample_size": "37,688 cases; 18,618 UKB proxy cases; 1,474,097 controls",
+    "notes": "Twelve named datasets come from the NIA relatedness-screening sentence; whether every one of them is among the 13 new datasets is not stated (the same sentence also names UKB, Nalls 2014 and NeuroX-dbGaP). Myers-Faroud is named among Table S1 samples in the LD-reference paragraph (claims/nalls2019_supp.yaml#myers_faroud). 23andMe data are inside Nalls et al. 2014 as well (claims/nalls2019_main.yaml#public_release_exclusions)."
+  },
+  {
+    "side": "outcome",
+    "source_citation": "Nalls MA et al. 2019. Identification of novel risk loci, causal insights, and heritable risk for Parkinson's disease: a meta-analysis of genome-wide association studies. Lancet Neurol 18:1091-1102",
+    "source_identifier": "doi:10.1016/S1474-4422(19)30320-5; PMID:31701892; PMC8422160",
+    "replication_only": [],
+    "includes_ukb": "yes",
+    "includes_iceland": "unknown",
+    "pqtl_cohort_flags": {
+      "INTERVAL": "unknown",
+      "FENLAND": "unknown",
+      "ARIC": "unknown",
+      "AGES": "unknown",
+      "KORA": "unknown",
+      "FHS": "unknown",
+      "IMPROVE": "unknown",
+      "DECODE": "unknown",
+      "UKB": "yes"
+    },
+    "ancestry": "European",
+    "source_read": "https://ars.els-cdn.com/content/image/1-s2.0-S1474442219303205-mmc1.pdf (Methods supplement; Table S1 caption only); author manuscript text PMC8422160.1.txt (PMC Cloud) (Methods; data sharing statement). Supplementary Table S1 (per-study list) is a separate spreadsheet that was not obtained: mmc2-mmc4 at ars.els-cdn.com return 404 and the bioRxiv supplement is behind Cloudflare.",
+    "claims_files": [
+      "claims/nalls2019_supp.yaml",
+      "claims/nalls2019_main.yaml"
+    ],
+    "row_name": "IPDGC Parkinson disease (Nalls 2019) excluding 23andMe",
+    "new_row": true,
+    "aliases_proposed": "Nalls 2019 public|IPDGC 2019 excluding 23andMe|Nalls 2019 without 23andMe",
+    "release": "2019 public summary statistics excluding Nalls et al. 2014, 23andMe post-Chang and PDWBS",
+    "components": [
+      {
+        "id": "BAYLOR_UMD_PD",
+        "as_written": "Baylor College of Medicine / University of Maryland",
+        "role": "case-control",
+        "quote_id": "claims/nalls2019_supp.yaml#nia_baylor_umd_pd"
+      },
+      {
+        "id": "FINNISH_PD",
+        "as_written": "Finnish Parkinson's",
+        "role": "case-control",
+        "quote_id": "claims/nalls2019_supp.yaml#nia_finnish_pd"
+      },
+      {
+        "id": "HBS",
+        "as_written": "Harvard Biomarker Study (HBS)",
+        "role": "case-control",
+        "quote_id": "claims/nalls2019_supp.yaml#nia_hbs"
+      },
+      {
+        "id": "MCGILL_PD",
+        "as_written": "McGill Parkinson's",
+        "role": "case-control",
+        "quote_id": "claims/nalls2019_supp.yaml#nia_mcgill_pd"
+      },
+      {
+        "id": "OSLO_PD",
+        "as_written": "Oslo Parkinson's Disease Study",
+        "role": "case-control",
+        "quote_id": "claims/nalls2019_supp.yaml#nia_oslo_pd"
+      },
+      {
+        "id": "PDBP",
+        "as_written": "Parkinson's Disease Biomarker's Program (PDBP)",
+        "role": "case-control",
+        "quote_id": "claims/nalls2019_supp.yaml#nia_pdbp"
+      },
+      {
+        "id": "PPMI",
+        "as_written": "Parkinson's Progression Markers Initiative (PPMI)",
+        "role": "case-control",
+        "quote_id": "claims/nalls2019_supp.yaml#nia_ppmi"
+      },
+      {
+        "id": "SPANISH_PD_IPDGC",
+        "as_written": "Spanish Parkinson's (from IPDGC)",
+        "role": "case-control",
+        "quote_id": "claims/nalls2019_supp.yaml#nia_spanish_pd_ipdgc"
+      },
+      {
+        "id": "TUBINGEN_PD",
+        "as_written": "Tubingen Parkinson's Disease cohort (CouragePD)",
+        "role": "case-control",
+        "quote_id": "claims/nalls2019_supp.yaml#nia_tubingen_pd"
+      },
+      {
+        "id": "VANCE_PD",
+        "as_written": "Vance (dbGap phs000394)",
+        "role": "case-control",
+        "quote_id": "claims/nalls2019_supp.yaml#nia_vance_pd"
+      },
+      {
+        "id": "UK_PDMED",
+        "as_written": "UK PDMED (CouragePD)",
+        "role": "case-control",
+        "quote_id": "claims/nalls2019_supp.yaml#nia_uk_pdmed"
+      },
+      {
+        "id": "NEUROX_DBGAP",
+        "as_written": "NeuroX - dbGaP (phs000918.v1.p1)",
+        "role": "case-control",
+        "quote_id": "claims/nalls2019_supp.yaml#nia_neurox_dbgap"
+      },
+      {
+        "id": "SGPD",
+        "as_written": "System Genomics of Parkinson's Disease (SGPD)",
+        "role": "case-control",
+        "quote_id": "claims/nalls2019_supp.yaml#sgpd"
+      },
+      {
+        "id": "MYERS_FAROUD_DBGAP",
+        "as_written": "Myers-Faroud datasets from dbGaP",
+        "role": "case-control",
+        "quote_id": "claims/nalls2019_supp.yaml#myers_faroud"
+      },
+      {
+        "id": "UKB",
+        "as_written": "UK BioBank (UKB) proxy-cases and controls",
+        "role": "cohort",
+        "quote_id": "claims/nalls2019_supp.yaml#ukb_proxy"
+      }
+    ],
+    "components_complete": "no",
+    "complete_reason": "Same gap as the full release: Supplementary Table S1 not obtained, so the new datasets are known only partly.",
+    "sample_size": "not stated in the sources read",
+    "notes": "Release defined by the data sharing statement (claims/nalls2019_main.yaml#public_release_exclusions). Because Nalls 2014 is removed, this release contains NeuroX-dbGaP, the 13 new datasets other than 23andMe post-Chang, and UKB."
+  },
+  {
+    "row_name": "IMSGC multiple sclerosis (2019)",
+    "new_row": false,
+    "side": "outcome",
+    "aliases_proposed": "",
+    "release": "2019 (which analysis the public download covers is not stated in the text read; discovery = 15 GWAS data sets, joint = discovery + MS Chip + ImmunoChip)",
+    "source_citation": "International Multiple Sclerosis Genetics Consortium 2019. Multiple sclerosis genomic map implicates peripheral immune cells and microglia in susceptibility. Science 365:eaav7188",
+    "source_identifier": "doi:10.1126/science.aav7188; PMID:31604244; PMC7241648",
+    "components": [
+      {
+        "id": "IMSGC",
+        "as_written": "15 GWAS data sets of the discovery study (Tables S1-S3, not obtained)",
+        "role": "case-control",
+        "quote_id": "claims/imsgc2019_main.yaml#discovery_15_datasets"
+      },
+      {
+        "id": "ANZGENE",
+        "as_written": "ANZGENE GWAS",
+        "role": "case-control",
+        "quote_id": "claims/imsgc2019_main.yaml#anzgene"
+      },
+      {
+        "id": "ROTTERDAM_MS",
+        "as_written": "Rotterdam MS data",
+        "role": "case-control",
+        "quote_id": "claims/imsgc2019_main.yaml#rotterdam_ms"
+      },
+      {
+        "id": "RS",
+        "as_written": "Rotterdam Study control data",
+        "role": "controls_only",
+        "quote_id": "claims/imsgc2019_main.yaml#rotterdam_study_controls"
+      },
+      {
+        "id": "KAISER_BERKELEY_MS",
+        "as_written": "MS case and controls recruited through Kaiser Permanente Division of Research and UC Berkeley",
+        "role": "case-control",
+        "quote_id": "claims/imsgc2019_main.yaml#kaiser_berkeley"
+      },
+      {
+        "id": "IMSGC_DBGAP_EGA",
+        "as_written": "dbGAP phs000275.v1.p1, phs000139.v1.p1, phs000294.v1.p1, phs000171.v1.p1; EGA EGAD00000000120, EGAD00000000022, EGAD00000000021",
+        "role": "case-control",
+        "quote_id": "claims/imsgc2019_main.yaml#discovery_repositories"
+      },
+      {
+        "id": "IMSGC_MS_CHIP",
+        "as_written": "MS Chip replication (9 data sets; EGAS00001003216)",
+        "role": "case-control",
+        "quote_id": "claims/imsgc2019_main.yaml#replication_chips"
+      },
+      {
+        "id": "IMSGC_IMMUNOCHIP",
+        "as_written": "ImmunoChip replication (EGAS00001003219)",
+        "role": "case-control",
+        "quote_id": "claims/imsgc2019_main.yaml#replication_chips"
+      }
+    ],
+    "replication_only": [],
+    "components_complete": "no",
+    "complete_reason": "Tables S1-S5 (data-set lists for discovery, MS Chip and ImmunoChip) were not obtainable: NCBI PMC returns a captcha page, Europe PMC reports the article is not open access, and the science.org supplement is behind Cloudflare. The main text names only the data repositories and three data sets (ANZGENE, Rotterdam MS with Rotterdam Study controls, Kaiser Permanente/UC Berkeley).",
+    "includes_ukb": "unknown",
+    "includes_iceland": "unknown",
+    "pqtl_cohort_flags": {
+      "INTERVAL": "unknown",
+      "FENLAND": "unknown",
+      "ARIC": "unknown",
+      "AGES": "unknown",
+      "KORA": "unknown",
+      "FHS": "unknown",
+      "IMPROVE": "unknown",
+      "DECODE": "unknown",
+      "UKB": "unknown"
+    },
+    "ancestry": "European",
+    "sample_size": "47,429 cases; 68,374 controls (joint); discovery 14,802 cases; 26,703 controls",
+    "source_read": "author manuscript text PMC7241648.1.txt from the PMC Cloud bucket pmc-oa-opendata (Results; Data availability). Not obtained: NIHMS1580882 Supplementary Tables xlsx (NCBI captcha; Europe PMC supplementaryFiles: not open access) and https://www.science.org/doi/suppl/10.1126/science.aav7188/suppl_file/aav7188_imsgc_sm.pdf (Cloudflare 403).",
+    "claims_files": [
+      "claims/imsgc2019_main.yaml"
+    ],
+    "notes": "The dbGaP/EGA accessions are discovery data sets whose cohort names are not given in the text read. Rotterdam Study controls are part of the discovery GWAS data (claims/imsgc2019_main.yaml#rotterdam_study_controls). The MS Chip and ImmunoChip replication components are in the joint analysis (47,429/68,374); whether they are in the public release is not stated in the text read, so they are listed as components rather than replication_only."
+  },
+  {
+    "side": "outcome",
+    "source_citation": "van Rheenen W et al. 2021. Common and rare variant association analyses in amyotrophic lateral sclerosis identify 15 risk loci with distinct genetic architectures and neuron-specific biology. Nat Genet 53:1636-1648",
+    "source_identifier": "doi:10.1038/s41588-021-00973-1; PMID:34873335; PMC8648564",
+    "replication_only": [],
+    "components_complete": "no",
+    "includes_ukb": "unknown",
+    "includes_iceland": "unknown",
+    "pqtl_cohort_flags": {
+      "INTERVAL": "unknown",
+      "FENLAND": "unknown",
+      "ARIC": "unknown",
+      "AGES": "unknown",
+      "KORA": "yes",
+      "FHS": "unknown",
+      "IMPROVE": "unknown",
+      "DECODE": "unknown",
+      "UKB": "unknown"
+    },
+    "source_read": "Europe PMC fullTextXML PMC8648564 (Results; Methods; Data availability with the dbGaP dataset list); Europe PMC supplementaryFiles zip: 41588_2021_973_MOESM4_ESM.xlsx (Supplementary Table 1, all 117 cohort rows), 41588_2021_973_MOESM1_ESM.pdf (Description of newly genotyped GWAS cohorts; Description of Asian ancestries GWAS), 41588_2021_973_MOESM3_ESM.pdf (Peer Review File, UK Biobank response)",
+    "claims_files": [
+      "claims/vanrheenen2021_supp_table1.yaml",
+      "claims/vanrheenen2021_supp_note.yaml",
+      "claims/vanrheenen2021_main.yaml",
+      "claims/vanrheenen2021_data_availability.yaml",
+      "claims/vanrheenen2021_peer_review.yaml"
+    ],
+    "row_name": "ALS (van Rheenen 2021)",
+    "new_row": false,
+    "aliases_proposed": "",
+    "release": "2021 cross-ancestry meta-analysis (GWAS Catalog GCST90027163)",
+    "components": [
+      {
+        "id": "NIH_ALS_GWAS",
+        "as_written": "phs000101.v3.p1 , NIH Genome-Wide Association Studies of Amyotrophic Lateral Sclerosis [c12 cUS2] [c13 cUS3] [c14 cIT1] [c15 cIT2] [c105 phs000101.v5.p1] [c109 phs000101.v5.p1.c1_64460] [c110 phs000101.v5.p1.c1_64460] [c111 phs000101.v5.p1.c1_64460] [c112 phs000101.v5.p1.c1_64460] [c113 phs000101.v5.p1.c1_64460] [c114 phs000101.v5.p1.c1_64460] [c116 phs000101.v5.p1.c1_64460]",
+        "role": "case-control",
+        "quote_id": "claims/vanrheenen2021_supp_table1.yaml#row_c12"
+      },
+      {
+        "id": "WTCCC",
+        "as_written": "Wellcome Trust Case Control Consortium [c16 cUK3] [c17 cUK4]",
+        "role": "controls_only",
+        "quote_id": "claims/vanrheenen2021_supp_table1.yaml#row_c16"
+      },
+      {
+        "id": "CIDR_FAMILIAL_PD",
+        "as_written": "phs000126.v1.p1 , CIDR: Genome Wide Association Study in Familial Parkinson Disease (PD [c18 cUS4]",
+        "role": "controls_only",
+        "quote_id": "claims/vanrheenen2021_supp_table1.yaml#row_c18"
+      },
+      {
+        "id": "PD_GENES_ENVIRONMENT",
+        "as_written": "phs000196.v1.p1 , Genome-Wide Association Study of Parkinson Disease: Genes and Environment [c19 cUS5]",
+        "role": "controls_only",
+        "quote_id": "claims/vanrheenen2021_supp_table1.yaml#row_c19"
+      },
+      {
+        "id": "ALS_FINLAND_GWAS",
+        "as_written": "phs000344.v1.p1 , Genome-Wide Association Study of Amyotrophic Lateral Sclerosis in Finland [c20 cFIN1] [c21 cFIN2] [c22 cFIN3]",
+        "role": "case-control",
+        "quote_id": "claims/vanrheenen2021_supp_table1.yaml#row_c20"
+      },
+      {
+        "id": "LUNG_CANCER_GWAS_PHS000336",
+        "as_written": "phs000336 , a Genome-Wide Association Study of Lung Cancer Risk [c45 phs000336_317K] [c46 phs000336_550K] [c47 phs000336_610K] [c48 phs000336_1M]",
+        "role": "controls_only",
+        "quote_id": "claims/vanrheenen2021_supp_table1.yaml#row_c45"
+      },
+      {
+        "id": "BLADDER_CANCER_GWAS",
+        "as_written": "phs000346 , Genome-Wide Association Study for Bladder Cancer Risk [c49 phs000346_317K] [c50 phs000346_550K] [c51 phs000346_610K] [c52 phs000346_1M]",
+        "role": "controls_only",
+        "quote_id": "claims/vanrheenen2021_supp_table1.yaml#row_c49"
+      },
+      {
+        "id": "CSGNM",
+        "as_written": "phs000789 , Collaborative Study of Genes, Nutrients and Metabolites (CSGNM [c53 phs000789_1M]",
+        "role": "controls_only",
+        "quote_id": "claims/vanrheenen2021_supp_table1.yaml#row_c53"
+      },
+      {
+        "id": "PANSCAN",
+        "as_written": "phs000206 , Whole Genome Scan for Pancreatic Cancer Risk in the Pancreatic Cancer Cohort Consortium and Pancreatic Cancer Case–Control Consortium (PanScan [c54 phs000206_550K] [c55 phs000206_610K]",
+        "role": "controls_only",
+        "quote_id": "claims/vanrheenen2021_supp_table1.yaml#row_c54"
+      },
+      {
+        "id": "EMERGE_RESISTANT_HYPERTENSION",
+        "as_written": "phs000297 , eMERGE Network Study of the Genetic Determinants of Resistant Hypertension [c56 phs000297_660K] [c57 phs000297_1M]",
+        "role": "controls_only",
+        "quote_id": "claims/vanrheenen2021_supp_table1.yaml#row_c56"
+      },
+      {
+        "id": "GLIOMASCAN",
+        "as_written": "phs000652 , Cohort-Based Genome-Wide Association Study of Glioma (GliomaScan [c58 phs000652_550K] [c59 phs000652_610K] [c60 phs000652_660K]",
+        "role": "controls_only",
+        "quote_id": "claims/vanrheenen2021_supp_table1.yaml#row_c58"
+      },
+      {
+        "id": "BEAGESS",
+        "as_written": "phs000869 , Barrett’s and Esophageal Adenocarcinoma Genetic Susceptibility Study (BEAGESS [c61 phs000869_1M]",
+        "role": "controls_only",
+        "quote_id": "claims/vanrheenen2021_supp_table1.yaml#row_c61"
+      },
+      {
+        "id": "BPC3",
+        "as_written": "phs000812 , the Breast and Prostate Cancer Cohort Consortium (BPC3 [c62 phs000812_550K] [c63 phs000812_610K] [c64 phs000812_660K]",
+        "role": "controls_only",
+        "quote_id": "claims/vanrheenen2021_supp_table1.yaml#row_c62"
+      },
+      {
+        "id": "HRS",
+        "as_written": "phs000428 , Genetics Resource with the HRS [c65 phs000428_2M]",
+        "role": "controls_only",
+        "quote_id": "claims/vanrheenen2021_supp_table1.yaml#row_c65"
+      },
+      {
+        "id": "EMERGE_RED_CELL_INDICES",
+        "as_written": "phs000360.v3 , eMERGE Network Genome-Wide Association Study of Red Cell Indices, White Blood Count (WBC [c67 phs000360.v3.p1.c1_54886]",
+        "role": "controls_only",
+        "quote_id": "claims/vanrheenen2021_supp_table1.yaml#row_c67"
+      },
+      {
+        "id": "E2C2",
+        "as_written": "phs000893.v1 , Genome-Wide Association Study of Endometrial Cancer in the Epidemiology of Endometrial Cancer Consortium (E2C2 [c68 phs000893.v1.p1.c1_54889] [c69 phs000893.v1.p1.c9_54890]",
+        "role": "controls_only",
+        "quote_id": "claims/vanrheenen2021_supp_table1.yaml#row_c68"
+      },
+      {
+        "id": "NIA_LOAD",
+        "as_written": "phs000168.v2 , National Institute on Aging—Late Onset Alzheimer’s Disease Family Study: Genome-Wide Association Study for Susceptibility Loci [c70 phs000168.v2.p2.c1_54891]",
+        "role": "controls_only",
+        "quote_id": "claims/vanrheenen2021_supp_table1.yaml#row_c70"
+      },
+      {
+        "id": "SAGE",
+        "as_written": "phs000092.v1 , Study of Addiction: Genetics and Environment (SAGE [c71 phs000092.v1.p1.c1_54894]",
+        "role": "controls_only",
+        "quote_id": "claims/vanrheenen2021_supp_table1.yaml#row_c71"
+      },
+      {
+        "id": "COMBAT_STRESS_GWAS",
+        "as_written": "phs000864.v1 , Genomic Predictors of Combat Stress Vulnerability and Resilience [c72 phs000864.v1.p1.c1_54895]",
+        "role": "controls_only",
+        "quote_id": "claims/vanrheenen2021_supp_table1.yaml#row_c72"
+      },
+      {
+        "id": "PMRP",
+        "as_written": "phs000170.v2 , a Genome-Wide Association Study on Cataract and HDL in the Personalized Medicine Research Project Cohort [c73 phs000170.v2.p1.c1_54896]",
+        "role": "controls_only",
+        "quote_id": "claims/vanrheenen2021_supp_table1.yaml#row_c73"
+      },
+      {
+        "id": "IGANGWAS2",
+        "as_written": "phs000431.v2 , IgA Nephropathy GWAS on Individuals of European Ancestry (IGANGWAS2 [c74 phs000431.v2.p1.c1_54897]",
+        "role": "controls_only",
+        "quote_id": "claims/vanrheenen2021_supp_table1.yaml#row_c74"
+      },
+      {
+        "id": "NUGENE",
+        "as_written": "phs000237.v1 , Northwestern NUgene Project: Type 2 Diabetes [c75 phs000237.v1.p1.c1_54899] [c76 phs000237.v1.p1.c1_54899]",
+        "role": "controls_only",
+        "quote_id": "claims/vanrheenen2021_supp_table1.yaml#row_c75"
+      },
+      {
+        "id": "HEALTH_ABC",
+        "as_written": "phs000169.v1 , Whole Genome Association Study of Visceral Adiposity in the Health Aging and Body Composition (Health ABC [c77 phs000169.v1.p1.c1_54901]",
+        "role": "controls_only",
+        "quote_id": "claims/vanrheenen2021_supp_table1.yaml#row_c77"
+      },
+      {
+        "id": "PSORIATIC_ARTHRITIS_GWAS",
+        "as_written": "phs000982.v1 , Genetic Analysis of Psoriasis and Psoriatic Arthritis: GWAS of Psoriatic Arthritis [c78 phs000982.v1.p1.c1_54902]",
+        "role": "controls_only",
+        "quote_id": "claims/vanrheenen2021_supp_table1.yaml#row_c78"
+      },
+      {
+        "id": "GENEVA_VTE",
+        "as_written": "phs000289.v2 , National Human Genome Research Institute (NHGRI [c79 phs000289.v2.p1.c1_54903]",
+        "role": "controls_only",
+        "quote_id": "claims/vanrheenen2021_supp_table1.yaml#row_c79"
+      },
+      {
+        "id": "NCI_LUNG_CANCER_NEVER_SMOKERS",
+        "as_written": "phs000634.v1 , National Cancer Institute (NCI [c80 phs000634.v1.p1.c1_54904]",
+        "role": "controls_only",
+        "quote_id": "claims/vanrheenen2021_supp_table1.yaml#row_c80"
+      },
+      {
+        "id": "CELIAC_GWAS",
+        "as_written": "phs000274.v1 , Genome-Wide Association Study of Celiac Disease [c81 phs000274.v1.p1.c1_54905]",
+        "role": "controls_only",
+        "quote_id": "claims/vanrheenen2021_supp_table1.yaml#row_c81"
+      },
+      {
+        "id": "NINDS_PD",
+        "as_written": "phs001172.v1 , National Institute of Neurological Disorders and Stroke (NINDS [c82 phs001172.v1.p2.c1_54906] [c83 phs001172.v1.p2.c1_54906]",
+        "role": "controls_only",
+        "quote_id": "claims/vanrheenen2021_supp_table1.yaml#row_c82"
+      },
+      {
+        "id": "GENIE_GOKIND",
+        "as_written": "phs000389.v1 , GEnetics of Nephropathy—an International Effort (GENIE [c84 phs000389.v1.p1.c1_54907]",
+        "role": "controls_only",
+        "quote_id": "claims/vanrheenen2021_supp_table1.yaml#row_c84"
+      },
+      {
+        "id": "URINE_COMPOSITION_GWAS",
+        "as_written": "phs000460.v1 , Genetics of 24 Hour Urine Composition [c85 phs000460.v1.p1.c1_54908]",
+        "role": "controls_only",
+        "quote_id": "claims/vanrheenen2021_supp_table1.yaml#row_c85"
+      },
+      {
+        "id": "BONE_FRAGILITY_GWAS",
+        "as_written": "phs000138.v2 , GWAS for Genetic Determinants of Bone Fragility in European–American Premenopausal Women [c86 phs000138.v2.p1.c1_54909]",
+        "role": "controls_only",
+        "quote_id": "claims/vanrheenen2021_supp_table1.yaml#row_c86"
+      },
+      {
+        "id": "APDGC",
+        "as_written": "phs000394.v1 , Autopsy-Confirmed Parkinson Disease GWAS Consortium (APDGC [c87 phs000394.v1.p1.c1_54910]",
+        "role": "controls_only",
+        "quote_id": "claims/vanrheenen2021_supp_table1.yaml#row_c87"
+      },
+      {
+        "id": "EMERGE_PHASE2",
+        "as_written": "phs000948.v1 , Genetic Discovery and Application in a Clinical Setting: Continuing a Partnership (eMERGE Phase II [c88 phs000948.v1.p1.c1_54912]",
+        "role": "controls_only",
+        "quote_id": "claims/vanrheenen2021_supp_table1.yaml#row_c88"
+      },
+      {
+        "id": "NIMH_CONTROLS_EXOMECHIP",
+        "as_written": "phs000630.v1 , Exome Chip Study of NIMH Controls [c89 phs000630.v1.p1.c1_54914]",
+        "role": "controls_only",
+        "quote_id": "claims/vanrheenen2021_supp_table1.yaml#row_c89"
+      },
+      {
+        "id": "YOUNG_ONSET_BREAST_CANCER",
+        "as_written": "phs000678.v1 , a Family-Based Study of Genes and Environment in Young-Onset Breast Cancer [c90 phs000678.v1.p1.c1_54915]",
+        "role": "controls_only",
+        "quote_id": "claims/vanrheenen2021_supp_table1.yaml#row_c90"
+      },
+      {
+        "id": "NCI_RENAL_CELL_CARCINOMA",
+        "as_written": "phs000351.v1 , National Cancer Institute Genome-Wide Association Study of Renal Cell Carcinoma [c91 phs000351.v1.p1.c1_54964] [c92 phs000351.v1.p1.c1_54964]",
+        "role": "controls_only",
+        "quote_id": "claims/vanrheenen2021_supp_table1.yaml#row_c91"
+      },
+      {
+        "id": "GAIT_CLUBFOOT",
+        "as_written": "phs000314.v1 , Genetic Associations in Idiopathic Talipes Equinovarus (Clubfoot [c93 phs000314.v1.p1.c1_54965]",
+        "role": "controls_only",
+        "quote_id": "claims/vanrheenen2021_supp_table1.yaml#row_c93"
+      },
+      {
+        "id": "CGEMS_NHS",
+        "as_written": "phs000147.v3 , Cancer Genetic Markers of Susceptibility (CGEMS [c94 phs000147.v3.p1.c1_54966]",
+        "role": "controls_only",
+        "quote_id": "claims/vanrheenen2021_supp_table1.yaml#row_c94"
+      },
+      {
+        "id": "PEGASUS",
+        "as_written": "phs000882.v1 , National Cancer Institute (NCI [c95 phs000882.v1.p1.c1_54967]",
+        "role": "controls_only",
+        "quote_id": "claims/vanrheenen2021_supp_table1.yaml#row_c95"
+      },
+      {
+        "id": "NEIGHBOR",
+        "as_written": "phs000238.v1 , National Eye Institute Glaucoma Human Genetics Collaboration (NEIGHBOR [c96 phs000238.v1.p1.c1_56660]",
+        "role": "controls_only",
+        "quote_id": "claims/vanrheenen2021_supp_table1.yaml#row_c96"
+      },
+      {
+        "id": "LLFS",
+        "as_written": "phs000397.v1 , National Institute on Aging (NIA [c97 phs000397.v1.p1.c1_56661]",
+        "role": "controls_only",
+        "quote_id": "claims/vanrheenen2021_supp_table1.yaml#row_c97"
+      },
+      {
+        "id": "FECD_GWAS",
+        "as_written": "phs000421.v1 , a Genome-Wide Association Study of Fuchs’ Endothelial Corneal Dystrophy (FECD [c98 phs000421.v1.p1.c2_56664]",
+        "role": "controls_only",
+        "quote_id": "claims/vanrheenen2021_supp_table1.yaml#row_c98"
+      },
+      {
+        "id": "MYOPIA_GLAUCOMA_TWINS",
+        "as_written": "phs000142.v1 , a Whole Genome Association Scan for Myopia and Glaucoma Endophenotypes using Twin Studies [c99 phs000142.v1.p1.c1_56665]",
+        "role": "controls_only",
+        "quote_id": "claims/vanrheenen2021_supp_table1.yaml#row_c99"
+      },
+      {
+        "id": "KORA",
+        "as_written": "phs000303.v1 , Genetic Epidemiology of Refractive Error in the KORA (Kooperative Gesundheitsforschung in der Region Augsburg [c100 phs000303.v1.p1.c1_56666]",
+        "role": "controls_only",
+        "quote_id": "claims/vanrheenen2021_supp_table1.yaml#row_c100"
+      },
+      {
+        "id": "COGA",
+        "as_written": "phs000125.v1 , CIDR: Collaborative Study on the Genetics of Alcoholism Case Control Study [c101 phs000125.v1.p1.c1_56667]",
+        "role": "controls_only",
+        "quote_id": "claims/vanrheenen2021_supp_table1.yaml#row_c101"
+      },
+      {
+        "id": "IAMDGC",
+        "as_written": "phs001039.v1 , International Age-Related Macular Degeneration Genomics Consortium—Exome Chip Experiment [c102 phs001039.v1.p1.c1_56668]",
+        "role": "controls_only",
+        "quote_id": "claims/vanrheenen2021_supp_table1.yaml#row_c102"
+      },
+      {
+        "id": "MELANOMA_GWAS",
+        "as_written": "phs000187.v1 , High Density SNP Association Analysis of Melanoma: Case–Control and Outcomes Investigation [c103 phs000187.v1.p1.c1_58733]",
+        "role": "controls_only",
+        "quote_id": "claims/vanrheenen2021_supp_table1.yaml#row_c103"
+      },
+      {
+        "id": "SALSA_SGC",
+        "as_written": "phs002068.v1.p1 , Sporadic ALS Australia Systems Genomics Consortium (SALSA-SGC [c107 cAUS1]",
+        "role": "case-control",
+        "quote_id": "claims/vanrheenen2021_supp_table1.yaml#row_c107"
+      },
+      {
+        "id": "JENA_ALS",
+        "as_written": "Germany (Grosskreutz): Thuringian Neuromuscular Center, Jena University Hospital [cKingsOE]",
+        "role": "case-control",
+        "quote_id": "claims/vanrheenen2021_supp_note.yaml#new_jena_als"
+      },
+      {
+        "id": "SLALOM",
+        "as_written": "Italy - Milan (Beghi): SLALOM registry [cKingsOE]",
+        "role": "case-control",
+        "quote_id": "claims/vanrheenen2021_supp_note.yaml#new_slalom"
+      },
+      {
+        "id": "PARALS",
+        "as_written": "Italy - Turin (Chio): PARALS register [cKingsOE]",
+        "role": "case-control",
+        "quote_id": "claims/vanrheenen2021_supp_note.yaml#new_parals"
+      },
+      {
+        "id": "SLAP",
+        "as_written": "Italy - Bari (Logroscino): SLAP registry [cKingsOE; cKingsGSA2/cErasmusGSA]",
+        "role": "case-control",
+        "quote_id": "claims/vanrheenen2021_supp_note.yaml#new_slap"
+      },
+      {
+        "id": "KAROLINSKA_ALS",
+        "as_written": "Sweden (Graff): Memory Clinic, Karolinska University Hospital [cKingsOE]",
+        "role": "case-control",
+        "quote_id": "claims/vanrheenen2021_supp_note.yaml#new_karolinska_als"
+      },
+      {
+        "id": "NETHERLANDS_ALS",
+        "as_written": "The Netherlands (Veldink, van den Berg): Dutch ALS Center / Prospective ALS Study in The Netherlands [cKingsOE; cKingsGSA; cKingsGSA2/cErasmusGSA]",
+        "role": "case-control",
+        "quote_id": "claims/vanrheenen2021_supp_note.yaml#new_netherlands_als"
+      },
+      {
+        "id": "QUEBEC_ALS",
+        "as_written": "Canada (Rouleau): neurological clinics across Québec [cKingsGSA; cKingsGSA2/cErasmusGSA]",
+        "role": "case-control",
+        "quote_id": "claims/vanrheenen2021_supp_note.yaml#new_quebec_als"
+      },
+      {
+        "id": "PARIS_PITIE_ALS",
+        "as_written": "France - Paris (Millecamps, Meininger, Salachas): Pitié-Salpêtrière [cKingsGSA]",
+        "role": "case-control",
+        "quote_id": "claims/vanrheenen2021_supp_note.yaml#new_paris_pitie_als"
+      },
+      {
+        "id": "LITORALS",
+        "as_written": "France - Tours/Limoges (LITORALS federation) [cKingsGSA; cKingsGSA2/cErasmusGSA]",
+        "role": "case-control",
+        "quote_id": "claims/vanrheenen2021_supp_note.yaml#new_litorals"
+      },
+      {
+        "id": "SLOVENIA_ALS",
+        "as_written": "Slovenia (Koritnik, Rogelj, Zidar, Ravnik-Glavač, Glavač): Ljubljana ALS Centre [cKingsGSA]",
+        "role": "case-control",
+        "quote_id": "claims/vanrheenen2021_supp_note.yaml#new_slovenia_als"
+      },
+      {
+        "id": "AUS_MND_DNA_BANK",
+        "as_written": "University of Sydney’s Australian Motor Neuron Disease DNA Bank (MND Bank) [cAUS]",
+        "role": "case-control",
+        "quote_id": "claims/vanrheenen2021_supp_note.yaml#new_aus_mnd_dna_bank"
+      },
+      {
+        "id": "OATS",
+        "as_written": "Older Australian Twin Study (controls) [cAUS]",
+        "role": "controls_only",
+        "quote_id": "claims/vanrheenen2021_supp_note.yaml#new_oats"
+      },
+      {
+        "id": "SYDNEY_MAS",
+        "as_written": "University of New South Wales Sydney Memory & Ageing Study (controls) [cAUS]",
+        "role": "controls_only",
+        "quote_id": "claims/vanrheenen2021_supp_note.yaml#new_sydney_mas"
+      },
+      {
+        "id": "QSKIN",
+        "as_written": "The QSkin Sun and Health Study (controls) [Qskin]",
+        "role": "controls_only",
+        "quote_id": "claims/vanrheenen2021_supp_note.yaml#new_qskin"
+      },
+      {
+        "id": "BEPS",
+        "as_written": "The Berlin Psychosis Study (BePS) (controls) [Sripke]",
+        "role": "controls_only",
+        "quote_id": "claims/vanrheenen2021_supp_note.yaml#new_beps"
+      },
+      {
+        "id": "HANNOVER_ALS",
+        "as_written": "Germany (Petri): Hannover Medical School [cKingsGSA2/cErasmusGSA]",
+        "role": "case-control",
+        "quote_id": "claims/vanrheenen2021_supp_note.yaml#new_hannover_als"
+      },
+      {
+        "id": "IRELAND_ALS",
+        "as_written": "Ireland (McLaughlin, Hardiman): Beaumont Hospital, Dublin [cKingsGSA2/cErasmusGSA]",
+        "role": "case-control",
+        "quote_id": "claims/vanrheenen2021_supp_note.yaml#new_ireland_als"
+      },
+      {
+        "id": "SLAGEN",
+        "as_written": "Italy - Milan (Silani, Ticozzi): SLAGEN Consortium [cKingsGSA2/cErasmusGSA]",
+        "role": "case-control",
+        "quote_id": "claims/vanrheenen2021_supp_note.yaml#new_slagen"
+      },
+      {
+        "id": "RUSSIA_ALS",
+        "as_written": "Russia (Brylev) [cKingsGSA2/cErasmusGSA]",
+        "role": "case-control",
+        "quote_id": "claims/vanrheenen2021_supp_note.yaml#new_russia_als"
+      },
+      {
+        "id": "SERBIA_ALS",
+        "as_written": "Serbia (Stevic) [cKingsGSA2/cErasmusGSA]",
+        "role": "case-control",
+        "quote_id": "claims/vanrheenen2021_supp_note.yaml#new_serbia_als"
+      },
+      {
+        "id": "SHEFFIELD_ALS",
+        "as_written": "UK (P. Shaw, Cooper-Knock): Sheffield [cKingsGSA2/cErasmusGSA]",
+        "role": "case-control",
+        "quote_id": "claims/vanrheenen2021_supp_note.yaml#new_sheffield_als"
+      },
+      {
+        "id": "CEDARS_SINAI_ALS",
+        "as_written": "US - Cedar-Sinai (Baloh) [cKingsGSA2/cErasmusGSA]",
+        "role": "case-control",
+        "quote_id": "claims/vanrheenen2021_supp_note.yaml#new_cedars_sinai_als"
+      },
+      {
+        "id": "UCLA_ALS",
+        "as_written": "US - UCLA (Ophoff) [cKingsGSA2/cErasmusGSA]",
+        "role": "case-control",
+        "quote_id": "claims/vanrheenen2021_supp_note.yaml#new_ucla_als"
+      },
+      {
+        "id": "ALS_CNL1",
+        "as_written": "c1 cNL1 (cohort code only; described in earlier Project MinE/ALS GWAS papers not read)",
+        "role": "case-control",
+        "quote_id": "claims/vanrheenen2021_supp_table1.yaml#row_c1"
+      },
+      {
+        "id": "ALS_CBE1",
+        "as_written": "c2 cBE1 (cohort code only; described in earlier Project MinE/ALS GWAS papers not read)",
+        "role": "case-control",
+        "quote_id": "claims/vanrheenen2021_supp_table1.yaml#row_c2"
+      },
+      {
+        "id": "ALS_CNL2",
+        "as_written": "c3 cNL2 (cohort code only; described in earlier Project MinE/ALS GWAS papers not read)",
+        "role": "case-control",
+        "quote_id": "claims/vanrheenen2021_supp_table1.yaml#row_c3"
+      },
+      {
+        "id": "ALS_CSW1",
+        "as_written": "c4 cSW1 (cohort code only; described in earlier Project MinE/ALS GWAS papers not read)",
+        "role": "case-control",
+        "quote_id": "claims/vanrheenen2021_supp_table1.yaml#row_c4"
+      },
+      {
+        "id": "ALS_CNL3",
+        "as_written": "c5 cNL3 (cohort code only; described in earlier Project MinE/ALS GWAS papers not read)",
+        "role": "controls_only",
+        "quote_id": "claims/vanrheenen2021_supp_table1.yaml#row_c5"
+      },
+      {
+        "id": "ALS_CFR1",
+        "as_written": "c6 cFR1 (cohort code only; described in earlier Project MinE/ALS GWAS papers not read)",
+        "role": "case-control",
+        "quote_id": "claims/vanrheenen2021_supp_table1.yaml#row_c6"
+      },
+      {
+        "id": "ALS_CUK1",
+        "as_written": "c7 cUK1 (cohort code only; described in earlier Project MinE/ALS GWAS papers not read)",
+        "role": "case-control",
+        "quote_id": "claims/vanrheenen2021_supp_table1.yaml#row_c7"
+      },
+      {
+        "id": "ALS_CUS1",
+        "as_written": "c8 cUS1 (cohort code only; described in earlier Project MinE/ALS GWAS papers not read)",
+        "role": "case-control",
+        "quote_id": "claims/vanrheenen2021_supp_table1.yaml#row_c8"
+      },
+      {
+        "id": "ALS_CIR1",
+        "as_written": "c9 cIR1 (cohort code only; described in earlier Project MinE/ALS GWAS papers not read)",
+        "role": "case-control",
+        "quote_id": "claims/vanrheenen2021_supp_table1.yaml#row_c9"
+      },
+      {
+        "id": "ALS_CIR2",
+        "as_written": "c10 cIR2 (cohort code only; described in earlier Project MinE/ALS GWAS papers not read)",
+        "role": "case-control",
+        "quote_id": "claims/vanrheenen2021_supp_table1.yaml#row_c10"
+      },
+      {
+        "id": "ALS_CUK2",
+        "as_written": "c11 cUK2 (cohort code only; described in earlier Project MinE/ALS GWAS papers not read)",
+        "role": "case-control",
+        "quote_id": "claims/vanrheenen2021_supp_table1.yaml#row_c11"
+      },
+      {
+        "id": "ALS_CNL4",
+        "as_written": "c23 cNL4 (cohort code only; described in earlier Project MinE/ALS GWAS papers not read)",
+        "role": "case-control",
+        "quote_id": "claims/vanrheenen2021_supp_table1.yaml#row_c23"
+      },
+      {
+        "id": "ALS_CGER1",
+        "as_written": "c24 cGER1 (cohort code only; described in earlier Project MinE/ALS GWAS papers not read)",
+        "role": "case-control",
+        "quote_id": "claims/vanrheenen2021_supp_table1.yaml#row_c24"
+      },
+      {
+        "id": "ALS_CIT3",
+        "as_written": "c25 cIT3 (cohort code only; described in earlier Project MinE/ALS GWAS papers not read)",
+        "role": "case-control",
+        "quote_id": "claims/vanrheenen2021_supp_table1.yaml#row_c25"
+      },
+      {
+        "id": "ALS_CPU1",
+        "as_written": "c26 cPU1 (cohort code only; described in earlier Project MinE/ALS GWAS papers not read)",
+        "role": "case-control",
+        "quote_id": "claims/vanrheenen2021_supp_table1.yaml#row_c26"
+      },
+      {
+        "id": "ALS_CSP1",
+        "as_written": "c27 cSP1 (cohort code only; described in earlier Project MinE/ALS GWAS papers not read)",
+        "role": "case-control",
+        "quote_id": "claims/vanrheenen2021_supp_table1.yaml#row_c27"
+      },
+      {
+        "id": "ALS_CCZ1",
+        "as_written": "c28 cCZ1 (cohort code only; described in earlier Project MinE/ALS GWAS papers not read)",
+        "role": "case-control",
+        "quote_id": "claims/vanrheenen2021_supp_table1.yaml#row_c28"
+      },
+      {
+        "id": "ALS_CBE2",
+        "as_written": "c29 cBE2 (cohort code only; described in earlier Project MinE/ALS GWAS papers not read)",
+        "role": "case-control",
+        "quote_id": "claims/vanrheenen2021_supp_table1.yaml#row_c29"
+      },
+      {
+        "id": "ALS_CDEN1",
+        "as_written": "c30 cDEN1 (cohort code only; described in earlier Project MinE/ALS GWAS papers not read)",
+        "role": "case-control",
+        "quote_id": "claims/vanrheenen2021_supp_table1.yaml#row_c30"
+      },
+      {
+        "id": "ALS_CFIN4",
+        "as_written": "c31 cFIN4 (cohort code only; described in earlier Project MinE/ALS GWAS papers not read)",
+        "role": "case-control",
+        "quote_id": "claims/vanrheenen2021_supp_table1.yaml#row_c31"
+      },
+      {
+        "id": "ALS_CIR3",
+        "as_written": "c32 cIR3 (cohort code only; described in earlier Project MinE/ALS GWAS papers not read)",
+        "role": "case-control",
+        "quote_id": "claims/vanrheenen2021_supp_table1.yaml#row_c32"
+      },
+      {
+        "id": "ALS_CNOR1",
+        "as_written": "c33 cNOR1 (cohort code only; described in earlier Project MinE/ALS GWAS papers not read)",
+        "role": "case-control",
+        "quote_id": "claims/vanrheenen2021_supp_table1.yaml#row_c33"
+      },
+      {
+        "id": "ALS_CSW2",
+        "as_written": "c34 cSW2 (cohort code only; described in earlier Project MinE/ALS GWAS papers not read)",
+        "role": "case-control",
+        "quote_id": "claims/vanrheenen2021_supp_table1.yaml#row_c34"
+      },
+      {
+        "id": "ALS_CUS6",
+        "as_written": "c35 cUS6 (cohort code only; described in earlier Project MinE/ALS GWAS papers not read)",
+        "role": "case-control",
+        "quote_id": "claims/vanrheenen2021_supp_table1.yaml#row_c35"
+      },
+      {
+        "id": "ALS_CGER2",
+        "as_written": "c36 cGER2 (cohort code only; described in earlier Project MinE/ALS GWAS papers not read)",
+        "role": "case-control",
+        "quote_id": "claims/vanrheenen2021_supp_table1.yaml#row_c36"
+      },
+      {
+        "id": "ALS_CFR2",
+        "as_written": "c37 cFR2 (cohort code only; described in earlier Project MinE/ALS GWAS papers not read)",
+        "role": "case-control",
+        "quote_id": "claims/vanrheenen2021_supp_table1.yaml#row_c37"
+      },
+      {
+        "id": "ALS_CSL1",
+        "as_written": "c38 cSL1 (cohort code only; described in earlier Project MinE/ALS GWAS papers not read)",
+        "role": "case-control",
+        "quote_id": "claims/vanrheenen2021_supp_table1.yaml#row_c38"
+      },
+      {
+        "id": "ALS_CUS7",
+        "as_written": "c39 cUS7 (cohort code only; described in earlier Project MinE/ALS GWAS papers not read)",
+        "role": "case-control",
+        "quote_id": "claims/vanrheenen2021_supp_table1.yaml#row_c39"
+      },
+      {
+        "id": "ALS_CUK5",
+        "as_written": "c40 cUK5 (cohort code only; described in earlier Project MinE/ALS GWAS papers not read)",
+        "role": "case-control",
+        "quote_id": "claims/vanrheenen2021_supp_table1.yaml#row_c40"
+      },
+      {
+        "id": "ALS_CFR3",
+        "as_written": "c41 cFR3 (cohort code only; described in earlier Project MinE/ALS GWAS papers not read)",
+        "role": "controls_only",
+        "quote_id": "claims/vanrheenen2021_supp_table1.yaml#row_c41"
+      },
+      {
+        "id": "ALS_CGER3",
+        "as_written": "c42 cGER3 (cohort code only; described in earlier Project MinE/ALS GWAS papers not read)",
+        "role": "controls_only",
+        "quote_id": "claims/vanrheenen2021_supp_table1.yaml#row_c42"
+      },
+      {
+        "id": "ALS_CIT4",
+        "as_written": "c43 cIT4 (cohort code only; described in earlier Project MinE/ALS GWAS papers not read)",
+        "role": "case-control",
+        "quote_id": "claims/vanrheenen2021_supp_table1.yaml#row_c43"
+      },
+      {
+        "id": "ALS_CNL5",
+        "as_written": "c44 cNL5 (cohort code only; described in earlier Project MinE/ALS GWAS papers not read)",
+        "role": "case-control",
+        "quote_id": "claims/vanrheenen2021_supp_table1.yaml#row_c44"
+      },
+      {
+        "id": "CHINESE_ALS_GWAS",
+        "as_written": "Chinese ancestries GWAS (Benyamin et al.): Peking University Third Hospital cases; controls from Peking University Third/Sixth Hospital and Shanghai Changzheng Hospital",
+        "role": "case-control",
+        "quote_id": "claims/vanrheenen2021_supp_note.yaml#asian_chinese"
+      },
+      {
+        "id": "JACALS",
+        "as_written": "Japanese ancestries GWAS (Nakamura et al.): cases from the Japanese Consortium for ALS research",
+        "role": "case-control",
+        "quote_id": "claims/vanrheenen2021_supp_note.yaml#asian_japanese"
+      },
+      {
+        "id": "TOHOKU_MEDICAL_MEGABANK",
+        "as_written": "Tohuku Medical Megabank Project (controls of the Japanese GWAS)",
+        "role": "controls_only",
+        "quote_id": "claims/vanrheenen2021_supp_note.yaml#asian_japanese_controls"
+      }
+    ],
+    "complete_reason": "All 117 cohorts of Supplementary Table 1 were read. dbGaP control cohorts are named through the paper's own list of dbGaP datasets, and the newly genotyped cohorts (66, 104, 107, 117-120) are described in the Supplementary Information, but 33 cohorts (e.g. cNL1-cNL5, cBE1, cSW1, cFR1, cUK1, cUS1, cIR1-cIR3, cUK2, cNL4, cGER1-cGER3, cIT1-cIT4 and others) are identified only by country codes and are described in earlier ALS GWAS papers that were not read; their participant sources (including any population-cohort controls, e.g. cNL3 with 5,974 controls) are unknown. Several dbGaP accessions are themselves consortium datasets (BPC3, PanScan, E2C2, eMERGE) whose member cohorts are not listed.",
+    "ancestry": "Cross-ancestry (European, Chinese, Japanese)",
+    "sample_size": "29,612 cases; 122,656 controls",
+    "notes": "KORA enters as dbGaP phs000303 ('Genetic Epidemiology of Refractive Error in the KORA ... Study'; claims/vanrheenen2021_data_availability.yaml#dbgap_phs000303). NIA-LOAD controls (phs000168) also appear, linking this row to the AD consortia. UK Biobank: the authors state UKB ALS cases are already in the UK MNDA biobank and that an ALS-by-proxy analysis was not possible (claims/vanrheenen2021_peer_review.yaml#ukb_not_usable); UKB is not named as a source, but the flag stays unknown because the component list is incomplete. The Asian ancestry GWAS enter as summary statistics (claims/vanrheenen2021_main.yaml#asian_summary_statistics)."
+  },
+  {
+    "side": "outcome",
+    "source_citation": "van Rheenen W et al. 2021. Common and rare variant association analyses in amyotrophic lateral sclerosis identify 15 risk loci with distinct genetic architectures and neuron-specific biology. Nat Genet 53:1636-1648",
+    "source_identifier": "doi:10.1038/s41588-021-00973-1; PMID:34873335; PMC8648564",
+    "replication_only": [],
+    "components_complete": "no",
+    "includes_ukb": "unknown",
+    "includes_iceland": "unknown",
+    "pqtl_cohort_flags": {
+      "INTERVAL": "unknown",
+      "FENLAND": "unknown",
+      "ARIC": "unknown",
+      "AGES": "unknown",
+      "KORA": "yes",
+      "FHS": "unknown",
+      "IMPROVE": "unknown",
+      "DECODE": "unknown",
+      "UKB": "unknown"
+    },
+    "source_read": "Europe PMC fullTextXML PMC8648564 (Results; Methods; Data availability with the dbGaP dataset list); Europe PMC supplementaryFiles zip: 41588_2021_973_MOESM4_ESM.xlsx (Supplementary Table 1, all 117 cohort rows), 41588_2021_973_MOESM1_ESM.pdf (Description of newly genotyped GWAS cohorts; Description of Asian ancestries GWAS), 41588_2021_973_MOESM3_ESM.pdf (Peer Review File, UK Biobank response)",
+    "claims_files": [
+      "claims/vanrheenen2021_supp_table1.yaml",
+      "claims/vanrheenen2021_supp_note.yaml",
+      "claims/vanrheenen2021_main.yaml",
+      "claims/vanrheenen2021_data_availability.yaml",
+      "claims/vanrheenen2021_peer_review.yaml"
+    ],
+    "row_name": "ALS European ancestry (van Rheenen 2021)",
+    "new_row": true,
+    "aliases_proposed": "van Rheenen 2021 European|ALS 2021 European|Project MinE ALS 2021 European",
+    "release": "2021 European ancestry meta-analysis (GWAS Catalog GCST90027164)",
+    "components": [
+      {
+        "id": "NIH_ALS_GWAS",
+        "as_written": "phs000101.v3.p1 , NIH Genome-Wide Association Studies of Amyotrophic Lateral Sclerosis [c12 cUS2] [c13 cUS3] [c14 cIT1] [c15 cIT2] [c105 phs000101.v5.p1] [c109 phs000101.v5.p1.c1_64460] [c110 phs000101.v5.p1.c1_64460] [c111 phs000101.v5.p1.c1_64460] [c112 phs000101.v5.p1.c1_64460] [c113 phs000101.v5.p1.c1_64460] [c114 phs000101.v5.p1.c1_64460] [c116 phs000101.v5.p1.c1_64460]",
+        "role": "case-control",
+        "quote_id": "claims/vanrheenen2021_supp_table1.yaml#row_c12"
+      },
+      {
+        "id": "WTCCC",
+        "as_written": "Wellcome Trust Case Control Consortium [c16 cUK3] [c17 cUK4]",
+        "role": "controls_only",
+        "quote_id": "claims/vanrheenen2021_supp_table1.yaml#row_c16"
+      },
+      {
+        "id": "CIDR_FAMILIAL_PD",
+        "as_written": "phs000126.v1.p1 , CIDR: Genome Wide Association Study in Familial Parkinson Disease (PD [c18 cUS4]",
+        "role": "controls_only",
+        "quote_id": "claims/vanrheenen2021_supp_table1.yaml#row_c18"
+      },
+      {
+        "id": "PD_GENES_ENVIRONMENT",
+        "as_written": "phs000196.v1.p1 , Genome-Wide Association Study of Parkinson Disease: Genes and Environment [c19 cUS5]",
+        "role": "controls_only",
+        "quote_id": "claims/vanrheenen2021_supp_table1.yaml#row_c19"
+      },
+      {
+        "id": "ALS_FINLAND_GWAS",
+        "as_written": "phs000344.v1.p1 , Genome-Wide Association Study of Amyotrophic Lateral Sclerosis in Finland [c20 cFIN1] [c21 cFIN2] [c22 cFIN3]",
+        "role": "case-control",
+        "quote_id": "claims/vanrheenen2021_supp_table1.yaml#row_c20"
+      },
+      {
+        "id": "LUNG_CANCER_GWAS_PHS000336",
+        "as_written": "phs000336 , a Genome-Wide Association Study of Lung Cancer Risk [c45 phs000336_317K] [c46 phs000336_550K] [c47 phs000336_610K] [c48 phs000336_1M]",
+        "role": "controls_only",
+        "quote_id": "claims/vanrheenen2021_supp_table1.yaml#row_c45"
+      },
+      {
+        "id": "BLADDER_CANCER_GWAS",
+        "as_written": "phs000346 , Genome-Wide Association Study for Bladder Cancer Risk [c49 phs000346_317K] [c50 phs000346_550K] [c51 phs000346_610K] [c52 phs000346_1M]",
+        "role": "controls_only",
+        "quote_id": "claims/vanrheenen2021_supp_table1.yaml#row_c49"
+      },
+      {
+        "id": "CSGNM",
+        "as_written": "phs000789 , Collaborative Study of Genes, Nutrients and Metabolites (CSGNM [c53 phs000789_1M]",
+        "role": "controls_only",
+        "quote_id": "claims/vanrheenen2021_supp_table1.yaml#row_c53"
+      },
+      {
+        "id": "PANSCAN",
+        "as_written": "phs000206 , Whole Genome Scan for Pancreatic Cancer Risk in the Pancreatic Cancer Cohort Consortium and Pancreatic Cancer Case–Control Consortium (PanScan [c54 phs000206_550K] [c55 phs000206_610K]",
+        "role": "controls_only",
+        "quote_id": "claims/vanrheenen2021_supp_table1.yaml#row_c54"
+      },
+      {
+        "id": "EMERGE_RESISTANT_HYPERTENSION",
+        "as_written": "phs000297 , eMERGE Network Study of the Genetic Determinants of Resistant Hypertension [c56 phs000297_660K] [c57 phs000297_1M]",
+        "role": "controls_only",
+        "quote_id": "claims/vanrheenen2021_supp_table1.yaml#row_c56"
+      },
+      {
+        "id": "GLIOMASCAN",
+        "as_written": "phs000652 , Cohort-Based Genome-Wide Association Study of Glioma (GliomaScan [c58 phs000652_550K] [c59 phs000652_610K] [c60 phs000652_660K]",
+        "role": "controls_only",
+        "quote_id": "claims/vanrheenen2021_supp_table1.yaml#row_c58"
+      },
+      {
+        "id": "BEAGESS",
+        "as_written": "phs000869 , Barrett’s and Esophageal Adenocarcinoma Genetic Susceptibility Study (BEAGESS [c61 phs000869_1M]",
+        "role": "controls_only",
+        "quote_id": "claims/vanrheenen2021_supp_table1.yaml#row_c61"
+      },
+      {
+        "id": "BPC3",
+        "as_written": "phs000812 , the Breast and Prostate Cancer Cohort Consortium (BPC3 [c62 phs000812_550K] [c63 phs000812_610K] [c64 phs000812_660K]",
+        "role": "controls_only",
+        "quote_id": "claims/vanrheenen2021_supp_table1.yaml#row_c62"
+      },
+      {
+        "id": "HRS",
+        "as_written": "phs000428 , Genetics Resource with the HRS [c65 phs000428_2M]",
+        "role": "controls_only",
+        "quote_id": "claims/vanrheenen2021_supp_table1.yaml#row_c65"
+      },
+      {
+        "id": "EMERGE_RED_CELL_INDICES",
+        "as_written": "phs000360.v3 , eMERGE Network Genome-Wide Association Study of Red Cell Indices, White Blood Count (WBC [c67 phs000360.v3.p1.c1_54886]",
+        "role": "controls_only",
+        "quote_id": "claims/vanrheenen2021_supp_table1.yaml#row_c67"
+      },
+      {
+        "id": "E2C2",
+        "as_written": "phs000893.v1 , Genome-Wide Association Study of Endometrial Cancer in the Epidemiology of Endometrial Cancer Consortium (E2C2 [c68 phs000893.v1.p1.c1_54889] [c69 phs000893.v1.p1.c9_54890]",
+        "role": "controls_only",
+        "quote_id": "claims/vanrheenen2021_supp_table1.yaml#row_c68"
+      },
+      {
+        "id": "NIA_LOAD",
+        "as_written": "phs000168.v2 , National Institute on Aging—Late Onset Alzheimer’s Disease Family Study: Genome-Wide Association Study for Susceptibility Loci [c70 phs000168.v2.p2.c1_54891]",
+        "role": "controls_only",
+        "quote_id": "claims/vanrheenen2021_supp_table1.yaml#row_c70"
+      },
+      {
+        "id": "SAGE",
+        "as_written": "phs000092.v1 , Study of Addiction: Genetics and Environment (SAGE [c71 phs000092.v1.p1.c1_54894]",
+        "role": "controls_only",
+        "quote_id": "claims/vanrheenen2021_supp_table1.yaml#row_c71"
+      },
+      {
+        "id": "COMBAT_STRESS_GWAS",
+        "as_written": "phs000864.v1 , Genomic Predictors of Combat Stress Vulnerability and Resilience [c72 phs000864.v1.p1.c1_54895]",
+        "role": "controls_only",
+        "quote_id": "claims/vanrheenen2021_supp_table1.yaml#row_c72"
+      },
+      {
+        "id": "PMRP",
+        "as_written": "phs000170.v2 , a Genome-Wide Association Study on Cataract and HDL in the Personalized Medicine Research Project Cohort [c73 phs000170.v2.p1.c1_54896]",
+        "role": "controls_only",
+        "quote_id": "claims/vanrheenen2021_supp_table1.yaml#row_c73"
+      },
+      {
+        "id": "IGANGWAS2",
+        "as_written": "phs000431.v2 , IgA Nephropathy GWAS on Individuals of European Ancestry (IGANGWAS2 [c74 phs000431.v2.p1.c1_54897]",
+        "role": "controls_only",
+        "quote_id": "claims/vanrheenen2021_supp_table1.yaml#row_c74"
+      },
+      {
+        "id": "NUGENE",
+        "as_written": "phs000237.v1 , Northwestern NUgene Project: Type 2 Diabetes [c75 phs000237.v1.p1.c1_54899] [c76 phs000237.v1.p1.c1_54899]",
+        "role": "controls_only",
+        "quote_id": "claims/vanrheenen2021_supp_table1.yaml#row_c75"
+      },
+      {
+        "id": "HEALTH_ABC",
+        "as_written": "phs000169.v1 , Whole Genome Association Study of Visceral Adiposity in the Health Aging and Body Composition (Health ABC [c77 phs000169.v1.p1.c1_54901]",
+        "role": "controls_only",
+        "quote_id": "claims/vanrheenen2021_supp_table1.yaml#row_c77"
+      },
+      {
+        "id": "PSORIATIC_ARTHRITIS_GWAS",
+        "as_written": "phs000982.v1 , Genetic Analysis of Psoriasis and Psoriatic Arthritis: GWAS of Psoriatic Arthritis [c78 phs000982.v1.p1.c1_54902]",
+        "role": "controls_only",
+        "quote_id": "claims/vanrheenen2021_supp_table1.yaml#row_c78"
+      },
+      {
+        "id": "GENEVA_VTE",
+        "as_written": "phs000289.v2 , National Human Genome Research Institute (NHGRI [c79 phs000289.v2.p1.c1_54903]",
+        "role": "controls_only",
+        "quote_id": "claims/vanrheenen2021_supp_table1.yaml#row_c79"
+      },
+      {
+        "id": "NCI_LUNG_CANCER_NEVER_SMOKERS",
+        "as_written": "phs000634.v1 , National Cancer Institute (NCI [c80 phs000634.v1.p1.c1_54904]",
+        "role": "controls_only",
+        "quote_id": "claims/vanrheenen2021_supp_table1.yaml#row_c80"
+      },
+      {
+        "id": "CELIAC_GWAS",
+        "as_written": "phs000274.v1 , Genome-Wide Association Study of Celiac Disease [c81 phs000274.v1.p1.c1_54905]",
+        "role": "controls_only",
+        "quote_id": "claims/vanrheenen2021_supp_table1.yaml#row_c81"
+      },
+      {
+        "id": "NINDS_PD",
+        "as_written": "phs001172.v1 , National Institute of Neurological Disorders and Stroke (NINDS [c82 phs001172.v1.p2.c1_54906] [c83 phs001172.v1.p2.c1_54906]",
+        "role": "controls_only",
+        "quote_id": "claims/vanrheenen2021_supp_table1.yaml#row_c82"
+      },
+      {
+        "id": "GENIE_GOKIND",
+        "as_written": "phs000389.v1 , GEnetics of Nephropathy—an International Effort (GENIE [c84 phs000389.v1.p1.c1_54907]",
+        "role": "controls_only",
+        "quote_id": "claims/vanrheenen2021_supp_table1.yaml#row_c84"
+      },
+      {
+        "id": "URINE_COMPOSITION_GWAS",
+        "as_written": "phs000460.v1 , Genetics of 24 Hour Urine Composition [c85 phs000460.v1.p1.c1_54908]",
+        "role": "controls_only",
+        "quote_id": "claims/vanrheenen2021_supp_table1.yaml#row_c85"
+      },
+      {
+        "id": "BONE_FRAGILITY_GWAS",
+        "as_written": "phs000138.v2 , GWAS for Genetic Determinants of Bone Fragility in European–American Premenopausal Women [c86 phs000138.v2.p1.c1_54909]",
+        "role": "controls_only",
+        "quote_id": "claims/vanrheenen2021_supp_table1.yaml#row_c86"
+      },
+      {
+        "id": "APDGC",
+        "as_written": "phs000394.v1 , Autopsy-Confirmed Parkinson Disease GWAS Consortium (APDGC [c87 phs000394.v1.p1.c1_54910]",
+        "role": "controls_only",
+        "quote_id": "claims/vanrheenen2021_supp_table1.yaml#row_c87"
+      },
+      {
+        "id": "EMERGE_PHASE2",
+        "as_written": "phs000948.v1 , Genetic Discovery and Application in a Clinical Setting: Continuing a Partnership (eMERGE Phase II [c88 phs000948.v1.p1.c1_54912]",
+        "role": "controls_only",
+        "quote_id": "claims/vanrheenen2021_supp_table1.yaml#row_c88"
+      },
+      {
+        "id": "NIMH_CONTROLS_EXOMECHIP",
+        "as_written": "phs000630.v1 , Exome Chip Study of NIMH Controls [c89 phs000630.v1.p1.c1_54914]",
+        "role": "controls_only",
+        "quote_id": "claims/vanrheenen2021_supp_table1.yaml#row_c89"
+      },
+      {
+        "id": "YOUNG_ONSET_BREAST_CANCER",
+        "as_written": "phs000678.v1 , a Family-Based Study of Genes and Environment in Young-Onset Breast Cancer [c90 phs000678.v1.p1.c1_54915]",
+        "role": "controls_only",
+        "quote_id": "claims/vanrheenen2021_supp_table1.yaml#row_c90"
+      },
+      {
+        "id": "NCI_RENAL_CELL_CARCINOMA",
+        "as_written": "phs000351.v1 , National Cancer Institute Genome-Wide Association Study of Renal Cell Carcinoma [c91 phs000351.v1.p1.c1_54964] [c92 phs000351.v1.p1.c1_54964]",
+        "role": "controls_only",
+        "quote_id": "claims/vanrheenen2021_supp_table1.yaml#row_c91"
+      },
+      {
+        "id": "GAIT_CLUBFOOT",
+        "as_written": "phs000314.v1 , Genetic Associations in Idiopathic Talipes Equinovarus (Clubfoot [c93 phs000314.v1.p1.c1_54965]",
+        "role": "controls_only",
+        "quote_id": "claims/vanrheenen2021_supp_table1.yaml#row_c93"
+      },
+      {
+        "id": "CGEMS_NHS",
+        "as_written": "phs000147.v3 , Cancer Genetic Markers of Susceptibility (CGEMS [c94 phs000147.v3.p1.c1_54966]",
+        "role": "controls_only",
+        "quote_id": "claims/vanrheenen2021_supp_table1.yaml#row_c94"
+      },
+      {
+        "id": "PEGASUS",
+        "as_written": "phs000882.v1 , National Cancer Institute (NCI [c95 phs000882.v1.p1.c1_54967]",
+        "role": "controls_only",
+        "quote_id": "claims/vanrheenen2021_supp_table1.yaml#row_c95"
+      },
+      {
+        "id": "NEIGHBOR",
+        "as_written": "phs000238.v1 , National Eye Institute Glaucoma Human Genetics Collaboration (NEIGHBOR [c96 phs000238.v1.p1.c1_56660]",
+        "role": "controls_only",
+        "quote_id": "claims/vanrheenen2021_supp_table1.yaml#row_c96"
+      },
+      {
+        "id": "LLFS",
+        "as_written": "phs000397.v1 , National Institute on Aging (NIA [c97 phs000397.v1.p1.c1_56661]",
+        "role": "controls_only",
+        "quote_id": "claims/vanrheenen2021_supp_table1.yaml#row_c97"
+      },
+      {
+        "id": "FECD_GWAS",
+        "as_written": "phs000421.v1 , a Genome-Wide Association Study of Fuchs’ Endothelial Corneal Dystrophy (FECD [c98 phs000421.v1.p1.c2_56664]",
+        "role": "controls_only",
+        "quote_id": "claims/vanrheenen2021_supp_table1.yaml#row_c98"
+      },
+      {
+        "id": "MYOPIA_GLAUCOMA_TWINS",
+        "as_written": "phs000142.v1 , a Whole Genome Association Scan for Myopia and Glaucoma Endophenotypes using Twin Studies [c99 phs000142.v1.p1.c1_56665]",
+        "role": "controls_only",
+        "quote_id": "claims/vanrheenen2021_supp_table1.yaml#row_c99"
+      },
+      {
+        "id": "KORA",
+        "as_written": "phs000303.v1 , Genetic Epidemiology of Refractive Error in the KORA (Kooperative Gesundheitsforschung in der Region Augsburg [c100 phs000303.v1.p1.c1_56666]",
+        "role": "controls_only",
+        "quote_id": "claims/vanrheenen2021_supp_table1.yaml#row_c100"
+      },
+      {
+        "id": "COGA",
+        "as_written": "phs000125.v1 , CIDR: Collaborative Study on the Genetics of Alcoholism Case Control Study [c101 phs000125.v1.p1.c1_56667]",
+        "role": "controls_only",
+        "quote_id": "claims/vanrheenen2021_supp_table1.yaml#row_c101"
+      },
+      {
+        "id": "IAMDGC",
+        "as_written": "phs001039.v1 , International Age-Related Macular Degeneration Genomics Consortium—Exome Chip Experiment [c102 phs001039.v1.p1.c1_56668]",
+        "role": "controls_only",
+        "quote_id": "claims/vanrheenen2021_supp_table1.yaml#row_c102"
+      },
+      {
+        "id": "MELANOMA_GWAS",
+        "as_written": "phs000187.v1 , High Density SNP Association Analysis of Melanoma: Case–Control and Outcomes Investigation [c103 phs000187.v1.p1.c1_58733]",
+        "role": "controls_only",
+        "quote_id": "claims/vanrheenen2021_supp_table1.yaml#row_c103"
+      },
+      {
+        "id": "SALSA_SGC",
+        "as_written": "phs002068.v1.p1 , Sporadic ALS Australia Systems Genomics Consortium (SALSA-SGC [c107 cAUS1]",
+        "role": "case-control",
+        "quote_id": "claims/vanrheenen2021_supp_table1.yaml#row_c107"
+      },
+      {
+        "id": "JENA_ALS",
+        "as_written": "Germany (Grosskreutz): Thuringian Neuromuscular Center, Jena University Hospital [cKingsOE]",
+        "role": "case-control",
+        "quote_id": "claims/vanrheenen2021_supp_note.yaml#new_jena_als"
+      },
+      {
+        "id": "SLALOM",
+        "as_written": "Italy - Milan (Beghi): SLALOM registry [cKingsOE]",
+        "role": "case-control",
+        "quote_id": "claims/vanrheenen2021_supp_note.yaml#new_slalom"
+      },
+      {
+        "id": "PARALS",
+        "as_written": "Italy - Turin (Chio): PARALS register [cKingsOE]",
+        "role": "case-control",
+        "quote_id": "claims/vanrheenen2021_supp_note.yaml#new_parals"
+      },
+      {
+        "id": "SLAP",
+        "as_written": "Italy - Bari (Logroscino): SLAP registry [cKingsOE; cKingsGSA2/cErasmusGSA]",
+        "role": "case-control",
+        "quote_id": "claims/vanrheenen2021_supp_note.yaml#new_slap"
+      },
+      {
+        "id": "KAROLINSKA_ALS",
+        "as_written": "Sweden (Graff): Memory Clinic, Karolinska University Hospital [cKingsOE]",
+        "role": "case-control",
+        "quote_id": "claims/vanrheenen2021_supp_note.yaml#new_karolinska_als"
+      },
+      {
+        "id": "NETHERLANDS_ALS",
+        "as_written": "The Netherlands (Veldink, van den Berg): Dutch ALS Center / Prospective ALS Study in The Netherlands [cKingsOE; cKingsGSA; cKingsGSA2/cErasmusGSA]",
+        "role": "case-control",
+        "quote_id": "claims/vanrheenen2021_supp_note.yaml#new_netherlands_als"
+      },
+      {
+        "id": "QUEBEC_ALS",
+        "as_written": "Canada (Rouleau): neurological clinics across Québec [cKingsGSA; cKingsGSA2/cErasmusGSA]",
+        "role": "case-control",
+        "quote_id": "claims/vanrheenen2021_supp_note.yaml#new_quebec_als"
+      },
+      {
+        "id": "PARIS_PITIE_ALS",
+        "as_written": "France - Paris (Millecamps, Meininger, Salachas): Pitié-Salpêtrière [cKingsGSA]",
+        "role": "case-control",
+        "quote_id": "claims/vanrheenen2021_supp_note.yaml#new_paris_pitie_als"
+      },
+      {
+        "id": "LITORALS",
+        "as_written": "France - Tours/Limoges (LITORALS federation) [cKingsGSA; cKingsGSA2/cErasmusGSA]",
+        "role": "case-control",
+        "quote_id": "claims/vanrheenen2021_supp_note.yaml#new_litorals"
+      },
+      {
+        "id": "SLOVENIA_ALS",
+        "as_written": "Slovenia (Koritnik, Rogelj, Zidar, Ravnik-Glavač, Glavač): Ljubljana ALS Centre [cKingsGSA]",
+        "role": "case-control",
+        "quote_id": "claims/vanrheenen2021_supp_note.yaml#new_slovenia_als"
+      },
+      {
+        "id": "AUS_MND_DNA_BANK",
+        "as_written": "University of Sydney’s Australian Motor Neuron Disease DNA Bank (MND Bank) [cAUS]",
+        "role": "case-control",
+        "quote_id": "claims/vanrheenen2021_supp_note.yaml#new_aus_mnd_dna_bank"
+      },
+      {
+        "id": "OATS",
+        "as_written": "Older Australian Twin Study (controls) [cAUS]",
+        "role": "controls_only",
+        "quote_id": "claims/vanrheenen2021_supp_note.yaml#new_oats"
+      },
+      {
+        "id": "SYDNEY_MAS",
+        "as_written": "University of New South Wales Sydney Memory & Ageing Study (controls) [cAUS]",
+        "role": "controls_only",
+        "quote_id": "claims/vanrheenen2021_supp_note.yaml#new_sydney_mas"
+      },
+      {
+        "id": "QSKIN",
+        "as_written": "The QSkin Sun and Health Study (controls) [Qskin]",
+        "role": "controls_only",
+        "quote_id": "claims/vanrheenen2021_supp_note.yaml#new_qskin"
+      },
+      {
+        "id": "BEPS",
+        "as_written": "The Berlin Psychosis Study (BePS) (controls) [Sripke]",
+        "role": "controls_only",
+        "quote_id": "claims/vanrheenen2021_supp_note.yaml#new_beps"
+      },
+      {
+        "id": "HANNOVER_ALS",
+        "as_written": "Germany (Petri): Hannover Medical School [cKingsGSA2/cErasmusGSA]",
+        "role": "case-control",
+        "quote_id": "claims/vanrheenen2021_supp_note.yaml#new_hannover_als"
+      },
+      {
+        "id": "IRELAND_ALS",
+        "as_written": "Ireland (McLaughlin, Hardiman): Beaumont Hospital, Dublin [cKingsGSA2/cErasmusGSA]",
+        "role": "case-control",
+        "quote_id": "claims/vanrheenen2021_supp_note.yaml#new_ireland_als"
+      },
+      {
+        "id": "SLAGEN",
+        "as_written": "Italy - Milan (Silani, Ticozzi): SLAGEN Consortium [cKingsGSA2/cErasmusGSA]",
+        "role": "case-control",
+        "quote_id": "claims/vanrheenen2021_supp_note.yaml#new_slagen"
+      },
+      {
+        "id": "RUSSIA_ALS",
+        "as_written": "Russia (Brylev) [cKingsGSA2/cErasmusGSA]",
+        "role": "case-control",
+        "quote_id": "claims/vanrheenen2021_supp_note.yaml#new_russia_als"
+      },
+      {
+        "id": "SERBIA_ALS",
+        "as_written": "Serbia (Stevic) [cKingsGSA2/cErasmusGSA]",
+        "role": "case-control",
+        "quote_id": "claims/vanrheenen2021_supp_note.yaml#new_serbia_als"
+      },
+      {
+        "id": "SHEFFIELD_ALS",
+        "as_written": "UK (P. Shaw, Cooper-Knock): Sheffield [cKingsGSA2/cErasmusGSA]",
+        "role": "case-control",
+        "quote_id": "claims/vanrheenen2021_supp_note.yaml#new_sheffield_als"
+      },
+      {
+        "id": "CEDARS_SINAI_ALS",
+        "as_written": "US - Cedar-Sinai (Baloh) [cKingsGSA2/cErasmusGSA]",
+        "role": "case-control",
+        "quote_id": "claims/vanrheenen2021_supp_note.yaml#new_cedars_sinai_als"
+      },
+      {
+        "id": "UCLA_ALS",
+        "as_written": "US - UCLA (Ophoff) [cKingsGSA2/cErasmusGSA]",
+        "role": "case-control",
+        "quote_id": "claims/vanrheenen2021_supp_note.yaml#new_ucla_als"
+      },
+      {
+        "id": "ALS_CNL1",
+        "as_written": "c1 cNL1 (cohort code only; described in earlier Project MinE/ALS GWAS papers not read)",
+        "role": "case-control",
+        "quote_id": "claims/vanrheenen2021_supp_table1.yaml#row_c1"
+      },
+      {
+        "id": "ALS_CBE1",
+        "as_written": "c2 cBE1 (cohort code only; described in earlier Project MinE/ALS GWAS papers not read)",
+        "role": "case-control",
+        "quote_id": "claims/vanrheenen2021_supp_table1.yaml#row_c2"
+      },
+      {
+        "id": "ALS_CNL2",
+        "as_written": "c3 cNL2 (cohort code only; described in earlier Project MinE/ALS GWAS papers not read)",
+        "role": "case-control",
+        "quote_id": "claims/vanrheenen2021_supp_table1.yaml#row_c3"
+      },
+      {
+        "id": "ALS_CSW1",
+        "as_written": "c4 cSW1 (cohort code only; described in earlier Project MinE/ALS GWAS papers not read)",
+        "role": "case-control",
+        "quote_id": "claims/vanrheenen2021_supp_table1.yaml#row_c4"
+      },
+      {
+        "id": "ALS_CNL3",
+        "as_written": "c5 cNL3 (cohort code only; described in earlier Project MinE/ALS GWAS papers not read)",
+        "role": "controls_only",
+        "quote_id": "claims/vanrheenen2021_supp_table1.yaml#row_c5"
+      },
+      {
+        "id": "ALS_CFR1",
+        "as_written": "c6 cFR1 (cohort code only; described in earlier Project MinE/ALS GWAS papers not read)",
+        "role": "case-control",
+        "quote_id": "claims/vanrheenen2021_supp_table1.yaml#row_c6"
+      },
+      {
+        "id": "ALS_CUK1",
+        "as_written": "c7 cUK1 (cohort code only; described in earlier Project MinE/ALS GWAS papers not read)",
+        "role": "case-control",
+        "quote_id": "claims/vanrheenen2021_supp_table1.yaml#row_c7"
+      },
+      {
+        "id": "ALS_CUS1",
+        "as_written": "c8 cUS1 (cohort code only; described in earlier Project MinE/ALS GWAS papers not read)",
+        "role": "case-control",
+        "quote_id": "claims/vanrheenen2021_supp_table1.yaml#row_c8"
+      },
+      {
+        "id": "ALS_CIR1",
+        "as_written": "c9 cIR1 (cohort code only; described in earlier Project MinE/ALS GWAS papers not read)",
+        "role": "case-control",
+        "quote_id": "claims/vanrheenen2021_supp_table1.yaml#row_c9"
+      },
+      {
+        "id": "ALS_CIR2",
+        "as_written": "c10 cIR2 (cohort code only; described in earlier Project MinE/ALS GWAS papers not read)",
+        "role": "case-control",
+        "quote_id": "claims/vanrheenen2021_supp_table1.yaml#row_c10"
+      },
+      {
+        "id": "ALS_CUK2",
+        "as_written": "c11 cUK2 (cohort code only; described in earlier Project MinE/ALS GWAS papers not read)",
+        "role": "case-control",
+        "quote_id": "claims/vanrheenen2021_supp_table1.yaml#row_c11"
+      },
+      {
+        "id": "ALS_CNL4",
+        "as_written": "c23 cNL4 (cohort code only; described in earlier Project MinE/ALS GWAS papers not read)",
+        "role": "case-control",
+        "quote_id": "claims/vanrheenen2021_supp_table1.yaml#row_c23"
+      },
+      {
+        "id": "ALS_CGER1",
+        "as_written": "c24 cGER1 (cohort code only; described in earlier Project MinE/ALS GWAS papers not read)",
+        "role": "case-control",
+        "quote_id": "claims/vanrheenen2021_supp_table1.yaml#row_c24"
+      },
+      {
+        "id": "ALS_CIT3",
+        "as_written": "c25 cIT3 (cohort code only; described in earlier Project MinE/ALS GWAS papers not read)",
+        "role": "case-control",
+        "quote_id": "claims/vanrheenen2021_supp_table1.yaml#row_c25"
+      },
+      {
+        "id": "ALS_CPU1",
+        "as_written": "c26 cPU1 (cohort code only; described in earlier Project MinE/ALS GWAS papers not read)",
+        "role": "case-control",
+        "quote_id": "claims/vanrheenen2021_supp_table1.yaml#row_c26"
+      },
+      {
+        "id": "ALS_CSP1",
+        "as_written": "c27 cSP1 (cohort code only; described in earlier Project MinE/ALS GWAS papers not read)",
+        "role": "case-control",
+        "quote_id": "claims/vanrheenen2021_supp_table1.yaml#row_c27"
+      },
+      {
+        "id": "ALS_CCZ1",
+        "as_written": "c28 cCZ1 (cohort code only; described in earlier Project MinE/ALS GWAS papers not read)",
+        "role": "case-control",
+        "quote_id": "claims/vanrheenen2021_supp_table1.yaml#row_c28"
+      },
+      {
+        "id": "ALS_CBE2",
+        "as_written": "c29 cBE2 (cohort code only; described in earlier Project MinE/ALS GWAS papers not read)",
+        "role": "case-control",
+        "quote_id": "claims/vanrheenen2021_supp_table1.yaml#row_c29"
+      },
+      {
+        "id": "ALS_CDEN1",
+        "as_written": "c30 cDEN1 (cohort code only; described in earlier Project MinE/ALS GWAS papers not read)",
+        "role": "case-control",
+        "quote_id": "claims/vanrheenen2021_supp_table1.yaml#row_c30"
+      },
+      {
+        "id": "ALS_CFIN4",
+        "as_written": "c31 cFIN4 (cohort code only; described in earlier Project MinE/ALS GWAS papers not read)",
+        "role": "case-control",
+        "quote_id": "claims/vanrheenen2021_supp_table1.yaml#row_c31"
+      },
+      {
+        "id": "ALS_CIR3",
+        "as_written": "c32 cIR3 (cohort code only; described in earlier Project MinE/ALS GWAS papers not read)",
+        "role": "case-control",
+        "quote_id": "claims/vanrheenen2021_supp_table1.yaml#row_c32"
+      },
+      {
+        "id": "ALS_CNOR1",
+        "as_written": "c33 cNOR1 (cohort code only; described in earlier Project MinE/ALS GWAS papers not read)",
+        "role": "case-control",
+        "quote_id": "claims/vanrheenen2021_supp_table1.yaml#row_c33"
+      },
+      {
+        "id": "ALS_CSW2",
+        "as_written": "c34 cSW2 (cohort code only; described in earlier Project MinE/ALS GWAS papers not read)",
+        "role": "case-control",
+        "quote_id": "claims/vanrheenen2021_supp_table1.yaml#row_c34"
+      },
+      {
+        "id": "ALS_CUS6",
+        "as_written": "c35 cUS6 (cohort code only; described in earlier Project MinE/ALS GWAS papers not read)",
+        "role": "case-control",
+        "quote_id": "claims/vanrheenen2021_supp_table1.yaml#row_c35"
+      },
+      {
+        "id": "ALS_CGER2",
+        "as_written": "c36 cGER2 (cohort code only; described in earlier Project MinE/ALS GWAS papers not read)",
+        "role": "case-control",
+        "quote_id": "claims/vanrheenen2021_supp_table1.yaml#row_c36"
+      },
+      {
+        "id": "ALS_CFR2",
+        "as_written": "c37 cFR2 (cohort code only; described in earlier Project MinE/ALS GWAS papers not read)",
+        "role": "case-control",
+        "quote_id": "claims/vanrheenen2021_supp_table1.yaml#row_c37"
+      },
+      {
+        "id": "ALS_CSL1",
+        "as_written": "c38 cSL1 (cohort code only; described in earlier Project MinE/ALS GWAS papers not read)",
+        "role": "case-control",
+        "quote_id": "claims/vanrheenen2021_supp_table1.yaml#row_c38"
+      },
+      {
+        "id": "ALS_CUS7",
+        "as_written": "c39 cUS7 (cohort code only; described in earlier Project MinE/ALS GWAS papers not read)",
+        "role": "case-control",
+        "quote_id": "claims/vanrheenen2021_supp_table1.yaml#row_c39"
+      },
+      {
+        "id": "ALS_CUK5",
+        "as_written": "c40 cUK5 (cohort code only; described in earlier Project MinE/ALS GWAS papers not read)",
+        "role": "case-control",
+        "quote_id": "claims/vanrheenen2021_supp_table1.yaml#row_c40"
+      },
+      {
+        "id": "ALS_CFR3",
+        "as_written": "c41 cFR3 (cohort code only; described in earlier Project MinE/ALS GWAS papers not read)",
+        "role": "controls_only",
+        "quote_id": "claims/vanrheenen2021_supp_table1.yaml#row_c41"
+      },
+      {
+        "id": "ALS_CGER3",
+        "as_written": "c42 cGER3 (cohort code only; described in earlier Project MinE/ALS GWAS papers not read)",
+        "role": "controls_only",
+        "quote_id": "claims/vanrheenen2021_supp_table1.yaml#row_c42"
+      },
+      {
+        "id": "ALS_CIT4",
+        "as_written": "c43 cIT4 (cohort code only; described in earlier Project MinE/ALS GWAS papers not read)",
+        "role": "case-control",
+        "quote_id": "claims/vanrheenen2021_supp_table1.yaml#row_c43"
+      },
+      {
+        "id": "ALS_CNL5",
+        "as_written": "c44 cNL5 (cohort code only; described in earlier Project MinE/ALS GWAS papers not read)",
+        "role": "case-control",
+        "quote_id": "claims/vanrheenen2021_supp_table1.yaml#row_c44"
+      }
+    ],
+    "complete_reason": "All 117 cohorts of Supplementary Table 1 were read. dbGaP control cohorts are named through the paper's own list of dbGaP datasets, and the newly genotyped cohorts (66, 104, 107, 117-120) are described in the Supplementary Information, but 33 cohorts (e.g. cNL1-cNL5, cBE1, cSW1, cFR1, cUK1, cUS1, cIR1-cIR3, cUK2, cNL4, cGER1-cGER3, cIT1-cIT4 and others) are identified only by country codes and are described in earlier ALS GWAS papers that were not read; their participant sources (including any population-cohort controls, e.g. cNL3 with 5,974 controls) are unknown. Several dbGaP accessions are themselves consortium datasets (BPC3, PanScan, E2C2, eMERGE) whose member cohorts are not listed.",
+    "ancestry": "European",
+    "sample_size": "27,205 cases; 110,881 controls",
+    "notes": "Release defined by the Data availability statement (claims/vanrheenen2021_data_availability.yaml#gwas_catalog_releases). Same European components as the cross-ancestry row without the Chinese and Japanese GWAS."
+  }
+]

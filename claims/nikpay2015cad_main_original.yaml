@@ -1,0 +1,22 @@
+source:
+  citation: nikpay2015cad_main
+  local: sources/original/nikpay2015cad_main.xml
+  sha256: e80295302a6fc59843664e9f0f233c7d99f69983fea8d68f72ca182f787ff349
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC4589895/fullTextXML
+  doi: 10.1038/ng.3396
+  note: 'Original file behind claims/nikpay2015cad_main.yaml: Europe PMC fullTextXML of PMC4589895, read
+    as plain text with its markup. The quotations here are the quotations of that file that resolve in
+    this file under the citations readers; a quotation absent here is pinned to the extracted text there
+    only.'
+claims:
+  n48:
+    quotes:
+    - exact: We assembled 60,801 cases and 123,504 controls from 48 studies for a GWAS meta-analysis of
+        CAD
+      section: Main text, introduction
+  ancestry:
+    quotes:
+    - exact: The majority (77%) of the participants were of European ancestry; 13% and 6% were of south
+        (India and Pakistan) and east (China and Korea) Asian ancestry with smaller samples of Hispanic
+        and African Americans
+      section: Main text, introduction

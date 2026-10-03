@@ -1,0 +1,19 @@
+source:
+  citation: lambert2013_main
+  local: sources/lambert2013_main.txt
+  sha256: 294ff64bb0241a828328ad2b5422b03bc2487735e0869f0358a70127bb425e41
+  doi: 10.1038/ng.2802
+  note: Author manuscript full text of Lambert et al. 2013 Nat Genet (PMC3896259), plain-text file PMC3896259.1.txt
+    from the PMC Cloud bucket pmc-oa-opendata, unmodified
+claims:
+  stage1_four_consortia:
+    quotes:
+    - exact: 'In the stage 1 meta-analysis, we used data from four consortia: the Alzheimer’s Disease
+        Genetic Consortium (ADGC), the Cohorts for Heart and Aging Research in Genomic Epidemiology (CHARGE)
+        Consortium, the European Alzheimer’s Disease Initiative (EADI) and the Genetic and Environmental
+        Risk in Alzheimer’s Disease (GERAD) Consortium'
+      section: Results
+  stage2_replication:
+    quotes:
+    - exact: In stage 2, we selected for genotyping all stage 1 SNPs
+      section: Results

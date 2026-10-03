@@ -1,0 +1,21 @@
+source:
+  citation: mahajan2018diagram_main
+  local: sources/original/mahajan2018diagram_main.xml
+  sha256: 790cbd74d2873fd5159d252c29b8d395b4bf5e5805da27db1caeb016e911ce09
+  url: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=PMC6287706
+  doi: 10.1038/s41588-018-0241-6
+  note: 'Original file behind claims/mahajan2018diagram_main.yaml: NCBI E-utilities efetch (db=pmc) XML
+    of PMC6287706, read as plain text with its markup. The quotations here are the quotations of that
+    file that resolve in this file under the citations readers; a quotation absent here is pinned to the
+    extracted text there only.'
+claims:
+  prs_noukb:
+    quotes:
+    - exact: using the GWAS summary statistics from the sex-combined BMI-unadjusted T2D meta-analysis
+        excluding UK Biobank samples
+      section: Methods (polygenic risk scores)
+  availability:
+    quotes:
+    - exact: Summary level data from the exome array component of this project will be made available
+        at the DIAGRAM consortium website
+      section: Data availability

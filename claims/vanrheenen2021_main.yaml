@@ -1,0 +1,26 @@
+source:
+  citation: vanrheenen2021_main
+  local: sources/vanrheenen2021_main.txt
+  sha256: d72fcaa06905666f46c17f5eb3f9bca3a233ac7d3b7aeec51630faec3b67563a
+  doi: 10.1038/s41588-021-00973-1
+  note: Full text of van Rheenen et al. 2021 Nat Genet from Europe PMC fullTextXML (PMC8648564), tags
+    stripped, one paragraph per line
+claims:
+  merged_117_cohorts:
+    quotes:
+    - exact: we merged individual-level genotype data from 117 cohorts into six strata matched by genotyping
+        platform
+      section: Results
+  european_totals:
+    quotes:
+    - exact: A total of 27,205 patients with ALS and 110,881 control participants of European ancestries
+        passed quality control
+      section: Results
+  cross_ancestry_totals:
+    quotes:
+    - exact: We therefore performed a cross-ancestry meta-analysis totaling 29,612 cases and 122,656 controls
+      section: Results
+  asian_summary_statistics:
+    quotes:
+    - exact: Summary statistics were obtained for the Asian ancestry GWAS of ALS
+      section: Methods

@@ -1,0 +1,23 @@
+source:
+  citation: suhre2017kora
+  local: sources/suhre2017kora.txt
+  sha256: 7ca15ff674091eac823a0a3e780e337c941c21284f0415fd5dcd70d7201e0c01
+  doi: 10.1038/ncomms14357
+  note: Full text from Europe PMC fullTextXML (PMC5333359), tags stripped, one title or paragraph per
+    line. Suhre K et al. 2017 Nat Commun (Connecting genetic risk to disease end points through the human
+    blood plasma proteome). PMID 28240269.
+claims:
+  platform-v3-2:
+    quotes:
+    - exact: Data for 1,129 SOMAmer probes (SOMAscan assay V3.2) was obtained for these samples.
+      section: 'Methods: Proteomics measurements'
+  probes-1124:
+    quotes:
+    - exact: Five of the probes failed SOMAscan QC, leaving a total of 1,124 probes for analysis (Supplementary
+        Table 1).
+      section: 'Methods: Proteomics measurements'
+  kora-f4:
+    quotes:
+    - exact: For this study, 1,000 individuals were randomly selected from a subset of 1,800 already deeply
+        phenotyped KORA F4 study participants
+      section: 'Methods: Study population'

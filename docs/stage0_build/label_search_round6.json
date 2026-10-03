@@ -1,0 +1,475 @@
+{
+ "acute pericarditis": {
+  "exact": [],
+  "contains": []
+ },
+ "pericarditis": {
+  "exact": [
+   "HP:0001701 Pericarditis",
+   "MONDO:0005904 pericarditis"
+  ],
+  "contains": [
+   "HP:0001701 Pericarditis",
+   "MONDO:0000981 Histoplasma pericarditis",
+   "MONDO:0002133 chronic rheumatic pericarditis",
+   "MONDO:0005904 pericarditis",
+   "MONDO:0006711 constrictive pericarditis",
+   "MONDO:0008828 camptodactyly-arthropathy-coxa vara-pericarditis syndrome",
+   "MONDO:0016662 idiopathic recurrent pericarditis",
+   "MONDO:0023164 viral pericarditis",
+   "MONDO:0024655 rheumatic pericarditis",
+   "MONDO:1013433 constrictive pericarditis, non-human animal",
+   "MONDO:1013748 pericarditis, non-human animal",
+   "MONDO:1013961 idiopathic pericarditis, non-human animal",
+   "MONDO:1013962 traumatic pericarditis, non-human animal",
+   "MONDO:1016826 effusive pericarditis, non-human animal",
+   "MONDO:1016827 fibrinous pericarditis, non-human animal",
+   "MONDO:1017969 traumatic reticulopericarditis, non-human animal"
+  ]
+ },
+ "low grade ovarian serous adenocarcinoma": {
+  "exact": [],
+  "contains": []
+ },
+ "low grade serous ovarian": {
+  "exact": [],
+  "contains": []
+ },
+ "mean corpuscular volume": {
+  "exact": [],
+  "contains": [
+   "HP:0005518 Increased mean corpuscular volume"
+  ]
+ },
+ "mean platelet volume": {
+  "exact": [],
+  "contains": [
+   "HP:0005537 Decreased mean platelet volume",
+   "HP:0011877 Increased mean platelet volume"
+  ]
+ },
+ "platelet volume": {
+  "exact": [
+   "OBA:0003277 platelet volume"
+  ],
+  "contains": [
+   "HP:0005537 Decreased mean platelet volume",
+   "HP:0011876 Abnormal platelet volume",
+   "HP:0011877 Increased mean platelet volume",
+   "OBA:0003277 platelet volume"
+  ]
+ },
+ "erythrocyte volume": {
+  "exact": [
+   "OBA:0003460 erythrocyte volume"
+  ],
+  "contains": [
+   "OBA:0003460 erythrocyte volume"
+  ]
+ },
+ "forearm bone mineral density": {
+  "exact": [],
+  "contains": []
+ },
+ "radius bone mineral density": {
+  "exact": [
+   "EFO:0007933 radius bone mineral density"
+  ],
+  "contains": [
+   "EFO:0007933 radius bone mineral density"
+  ]
+ },
+ "bone mineral density forearm": {
+  "exact": [],
+  "contains": []
+ },
+ "urinary creatinine": {
+  "exact": [],
+  "contains": [
+   "EFO:0007778 urinary albumin to creatinine ratio",
+   "EFO:0007935 urinary uric acid to creatinine ratio",
+   "EFO:0009882 urinary potassium to creatinine ratio",
+   "EFO:0009883 urinary sodium to creatinine ratio",
+   "EFO:0021488 urinary 6\u2011hydroxymelatonin sulfate to creatinine ratio"
+  ]
+ },
+ "creatinine urine": {
+  "exact": [],
+  "contains": []
+ },
+ "urinary potassium": {
+  "exact": [],
+  "contains": [
+   "EFO:0009882 urinary potassium to creatinine ratio",
+   "EFO:0009884 urinary sodium to potassium ratio",
+   "HP:0003081 Increased urinary potassium",
+   "HP:0012364 Decreased urinary potassium"
+  ]
+ },
+ "potassium urine": {
+  "exact": [],
+  "contains": [
+   "HP:0012598 Abnormal urine potassium concentration",
+   "OBA:2050095 urine potassium amount"
+  ]
+ },
+ "urine potassium": {
+  "exact": [],
+  "contains": [
+   "HP:0012598 Abnormal urine potassium concentration",
+   "OBA:2050095 urine potassium amount"
+  ]
+ },
+ "hypertension": {
+  "exact": [
+   "HP:0000822 Hypertension"
+  ],
+  "contains": [
+   "EFO:0009054 Pulmonary arterial hypertension associated with congenital heart disease",
+   "EFO:0009193 Pulmonary arterial hypertension associated with another disease",
+   "EFO:0009194 Pulmonary arterial hypertension associated with HIV infection",
+   "EFO:0009195 Pulmonary arterial hypertension associated with chronic hemolytic anemia",
+   "EFO:0009196 Pulmonary arterial hypertension associated with connective tissue disease",
+   "EFO:0009197 Pulmonary arterial hypertension associated with portal hypertension",
+   "EFO:0009198 Pulmonary arterial hypertension associated with schistosomiasis",
+   "EFO:0010675 chronic venous hypertension",
+   "EFO:0022954 chronic thromboembolic pulmonary hypertension",
+   "EFO:0803365 dietary approaches to stop hypertension diet",
+   "EFO:1002006 treatment-resistant hypertension",
+   "HP:0000822 Hypertension",
+   "HP:0001409 Portal hypertension",
+   "HP:0002092 Pulmonary arterial hypertension",
+   "HP:0008071 Maternal hypertension",
+   "HP:0033578 Pre-capillary pulmonary hypertension",
+   "HP:0430034 Hypertension resistant to conventional therapy",
+   "HP:0500106 Isolated systolic hypertension",
+   "MONDO:0001105 renal hypertension",
+   "MONDO:0001133 malignant essential hypertension",
+   "MONDO:0001134 essential hypertension",
+   "MONDO:0001151 benign essential hypertension",
+   "MONDO:0001200 secondary hypertension",
+   "MONDO:0001646 benign secondary hypertension",
+   "MONDO:0001647 benign renovascular hypertension"
+  ]
+ },
+ "hypertensive disorder": {
+  "exact": [
+   "MONDO:0005044 hypertensive disorder"
+  ],
+  "contains": [
+   "MONDO:0005044 hypertensive disorder",
+   "MONDO:1013079 hypertensive disorder, non-human animal",
+   "OBA:2040159 age of onset of hypertensive disorder"
+  ]
+ },
+ "anxiety": {
+  "exact": [
+   "HP:0000739 Anxiety",
+   "MONDO:0011918 anxiety"
+  ],
+  "contains": [
+   "EFO:0007795 anxiety disorder measurement",
+   "EFO:0009820 seeing a general practitioner for nerves, anxiety, tension or depression, self-reported",
+   "EFO:0009821 seeing a psychiatrist for nerves, anxiety, tension or depression, self-reported",
+   "EFO:0009863 anxiety measurement",
+   "EFO:0009874 decreased anxiety-related response",
+   "EFO:1001877 anxiety-like behavior",
+   "EFO:1001920 stress-induced anxiety-like behavior",
+   "HP:0000739 Anxiety",
+   "MONDO:0001098 separation anxiety disorder",
+   "MONDO:0001942 generalized anxiety disorder",
+   "MONDO:0005618 anxiety disorder",
+   "MONDO:0011918 anxiety",
+   "MONDO:0041086 mixed anxiety and depressive disorder"
+  ]
+ },
+ "panic": {
+  "exact": [],
+  "contains": [
+   "EFO:0009472 tympanic membrane perforation",
+   "EFO:1001907 panic disorder without agoraphobia",
+   "HP:0040090 Abnormal tympanic membrane morphology",
+   "MONDO:0001547 atrophic nonflaccid tympanic membrane",
+   "MONDO:0001964 chronic tubotympanic suppurative otitis media",
+   "MONDO:0003647 atrophic flaccid tympanic membrane",
+   "MONDO:0003648 tympanic membrane disorder",
+   "MONDO:0005383 panic disorder",
+   "MONDO:0006291 malignant jugulotympanic paraganglioma",
+   "MONDO:0008187 panic disorder 1",
+   "MONDO:0011924 panic disorder 2",
+   "MONDO:0012384 panic disorder 3",
+   "MONDO:0021064 jugulotympanic paraganglioma",
+   "MONDO:0023682 tympanic paraganglioma",
+   "MONDO:0031240 familial panic disorder",
+   "MONDO:0044141 panic disorder without agoraphobia",
+   "MONDO:0044144 panic disorder with agoraphobia",
+   "MONDO:1013819 tympanic bulla disorder, non-human animal",
+   "MONDO:1013820 tympanic bulla effusion, non-human animal"
+  ]
+ },
+ "emphysema": {
+  "exact": [],
+  "contains": [
+   "EFO:0005850 emphysema pattern measurement",
+   "EFO:0007626 emphysema imaging measurement",
+   "MONDO:0000923 interstitial emphysema",
+   "MONDO:0000924 compensatory emphysema",
+   "MONDO:0004849 pulmonary emphysema",
+   "MONDO:0005742 emphysematous cholecystitis",
+   "MONDO:0007535 emphysema, hereditary pulmonary",
+   "MONDO:0007536 congenital lobar emphysema",
+   "MONDO:0008859 berry aneurysm, cirrhosis, pulmonary emphysema, and cerebral calcification",
+   "MONDO:0011256 emphysema, congenital, with deafness, penoscrotal web, and intellectual disability",
+   "MONDO:0017591 combined pulmonary fibrosis-emphysema syndrome",
+   "MONDO:0800135 congenital emphysematous lung disease due to Filamin A loss-of-function variant",
+   "MONDO:1011753 juvenile with age-dependent emphysema hypotrichosis, non-human animal",
+   "MONDO:1012387 juvenile with age-dependent emphysema hypotrichosis, pig",
+   "MONDO:1013196 pulmonary emphysema, non-human animal",
+   "MONDO:1013546 emphysematous cholecystitis, non-human animal"
+  ]
+ },
+ "chronic bronchitis": {
+  "exact": [
+   "MONDO:0005607 chronic bronchitis"
+  ],
+  "contains": [
+   "MONDO:0005607 chronic bronchitis",
+   "MONDO:1017107 canine chronic bronchitis/obstructive airway disease",
+   "MONDO:1017181 chronic tracheobronchitis, non-human animal"
+  ]
+ },
+ "happiness": {
+  "exact": [],
+  "contains": []
+ },
+ "hearing loss": {
+  "exact": [],
+  "contains": [
+   "EFO:0009151 cone-rod dystrophy and hearing loss",
+   "EFO:0009647 epilepsy, hearing loss, and intellectual disability syndrome",
+   "EFO:0022485 paragangliomas with sensorineural hearing loss",
+   "HP:0008542 Low-frequency hearing loss",
+   "MONDO:0000912 autosomal recessive nonsyndromic hearing loss 5",
+   "MONDO:0005365 hearing loss disorder",
+   "MONDO:0007424 autosomal dominant nonsyndromic hearing loss 1",
+   "MONDO:0007850 autosomal dominant keratitis-ichthyosis-hearing loss syndrome",
+   "MONDO:0008131 optic atrophy, hearing loss, and peripheral neuropathy, autosomal dominant",
+   "MONDO:0008960 Charcot-Marie-Tooth disease-hearing loss-intellectual disability syndrome",
+   "MONDO:0009076 autosomal recessive nonsyndromic hearing loss 1A",
+   "MONDO:0009080 split hand-foot malformation 1 with sensorineural hearing loss",
+   "MONDO:0009090 hearing loss, sensorineural, autosomal-mitochondrial type",
+   "MONDO:0009342 Hirschsprung disease-hearing loss-polydactyly syndrome",
+   "MONDO:0009440 ichthyosiform erythroderma, corneal involvement, and hearing loss",
+   "MONDO:0009788 optic atrophy, hearing loss, and peripheral neuropathy, autosomal recessive",
+   "MONDO:0009968 renal tubular acidosis, distal, 2, with progressive sensorineural hearing loss",
+   "MONDO:0010228 hearing loss, X-linked 3",
+   "MONDO:0010238 hearing loss, X-linked 4",
+   "MONDO:0010378 X-linked hereditary sensory and autonomic neuropathy with hearing loss",
+   "MONDO:0010403 albinism-hearing loss syndrome",
+   "MONDO:0010484 hearing loss, X-linked 6",
+   "MONDO:0010576 X-linked mixed hearing loss with perilymphatic gusher",
+   "MONDO:0010577 hearing loss, X-linked 1",
+   "MONDO:0010764 hearing loss, Y-linked 1"
+  ]
+ },
+ "cough": {
+  "exact": [
+   "HP:0012735 Cough"
+  ],
+  "contains": [
+   "HP:0012735 Cough",
+   "HP:0031247 Whooping cough",
+   "MONDO:0001491 cough variant asthma"
+  ]
+ },
+ "atrial flutter": {
+  "exact": [
+   "MONDO:0005310 atrial flutter"
+  ],
+  "contains": [
+   "MONDO:0005310 atrial flutter",
+   "MONDO:0018684 idiopathic neonatal atrial flutter",
+   "MONDO:1013244 atrial flutter, non-human animal"
+  ]
+ },
+ "gastritis": {
+  "exact": [
+   "HP:0005263 Gastritis",
+   "MONDO:0004966 gastritis"
+  ],
+  "contains": [
+   "HP:0005263 Gastritis",
+   "MONDO:0002270 viral gastritis",
+   "MONDO:0002840 eosinophilic gastritis",
+   "MONDO:0002842 bacterial gastritis",
+   "MONDO:0002843 fungal gastritis",
+   "MONDO:0002844 lymphocytic gastritis",
+   "MONDO:0002845 necrotizing gastritis",
+   "MONDO:0002846 granulomatous gastritis",
+   "MONDO:0003769 herpetic gastritis",
+   "MONDO:0004640 alcoholic gastritis",
+   "MONDO:0004966 gastritis",
+   "MONDO:0005001 chronic gastritis",
+   "MONDO:0006665 chronic atrophic gastritis",
+   "MONDO:0009062 cystic fibrosis-gastritis-megaloblastic anemia syndrome",
+   "MONDO:0022196 chronic erosive gastritis",
+   "MONDO:0031014 autoimmune gastritis",
+   "MONDO:0043355 collagenous gastritis",
+   "MONDO:0044624 pediatric collagenous gastritis",
+   "MONDO:1013060 chronic gastritis, non-human animal",
+   "MONDO:1013062 lymphocytic gastritis, non-human animal",
+   "MONDO:1013539 eosinophilic gastritis, non-human animal",
+   "MONDO:1013540 granulomatous gastritis, non-human animal",
+   "MONDO:1013744 gastritis, non-human animal",
+   "MONDO:1014121 acute gastritis, non-human animal",
+   "MONDO:1014515 Helicobacter-associated gastritis, non-human animal"
+  ]
+ },
+ "duodenitis": {
+  "exact": [
+   "HP:0033117 Duodenitis",
+   "MONDO:0004627 duodenitis"
+  ],
+  "contains": [
+   "HP:0033117 Duodenitis",
+   "MONDO:0004627 duodenitis",
+   "MONDO:0004628 gastroduodenitis",
+   "MONDO:0024415 hemorrhagic duodenitis",
+   "MONDO:1014298 duodenitis-proximal jejunitis, non-human animal",
+   "MONDO:1014300 duodenitis, non-human animal"
+  ]
+ },
+ "amyloidosis": {
+  "exact": [
+   "MONDO:0019065 amyloidosis"
+  ],
+  "contains": [
+   "EFO:0700065 hereditary ATTR amyloidosis",
+   "EFO:1001885 diffuse alveolar-septal amyloidosis",
+   "EFO:1001910 pulmonary amyloidosis",
+   "EFO:1001911 pulmonary nodular amyloidosis",
+   "EFO:1001922 tracheobronchial amyloidosis",
+   "EFO:1001984 cardiac amyloidosis",
+   "HP:0001917 Renal amyloidosis",
+   "MONDO:0007097 Finnish type amyloidosis",
+   "MONDO:0007098 ACys amyloidosis",
+   "MONDO:0007099 familial visceral amyloidosis",
+   "MONDO:0007101 familial primary localized cutaneous amyloidosis",
+   "MONDO:0007297 ADan amyloidosis",
+   "MONDO:0008306 ABri amyloidosis",
+   "MONDO:0008776 amyloidosis of gingiva and conjunctiva, with intellectual disability",
+   "MONDO:0008778 amyloidosis, cutaneous bullous",
+   "MONDO:0013502 amyloidosis, primary localized cutaneous, 2",
+   "MONDO:0015033 ABeta amyloidosis, dutch type",
+   "MONDO:0015301 primary cutaneous amyloidosis",
+   "MONDO:0015302 nodular cutaneous amyloidosis",
+   "MONDO:0015303 macular amyloidosis",
+   "MONDO:0016533 apolipoprotein A-II amyloidosis",
+   "MONDO:0017810 variant ABeta2M amyloidosis",
+   "MONDO:0017816 primary systemic amyloidosis",
+   "MONDO:0017817 primary localized amyloidosis",
+   "MONDO:0017906 amyloidosis cutis dyschromia"
+  ]
+ },
+ "organ-limited amyloidosis": {
+  "exact": [],
+  "contains": []
+ },
+ "small vessel stroke": {
+  "exact": [
+   "EFO:1001504 small vessel stroke"
+  ],
+  "contains": [
+   "EFO:1001504 small vessel stroke"
+  ]
+ },
+ "large artery stroke": {
+  "exact": [
+   "MONDO:0005490 large artery stroke"
+  ],
+  "contains": [
+   "MONDO:0005490 large artery stroke"
+  ]
+ },
+ "internalizing": {
+  "exact": [],
+  "contains": [
+   "EFO:0020971 internalizing disorder"
+  ]
+ },
+ "benign neoplasm of colon": {
+  "exact": [],
+  "contains": []
+ },
+ "mononeuropathy upper limb": {
+  "exact": [],
+  "contains": []
+ },
+ "thrombophlebitis": {
+  "exact": [
+   "HP:0004418 Thrombophlebitis",
+   "MONDO:0002800 thrombophlebitis"
+  ],
+  "contains": [
+   "HP:0004418 Thrombophlebitis",
+   "HP:0004419 Recurrent thrombophlebitis",
+   "MONDO:0001148 iliac vein thrombophlebitis",
+   "MONDO:0001481 femoral vein thrombophlebitis",
+   "MONDO:0001954 thrombophlebitis migrans",
+   "MONDO:0002800 thrombophlebitis",
+   "MONDO:1013771 thrombophlebitis, non-human animal",
+   "MONDO:1013969 catheter-associated thrombophlebitis, non-human animal",
+   "MONDO:1013970 post-injection thrombophlebitis, non-human animal",
+   "MONDO:1013971 post-sampling thrombophlebitis, non-human animal",
+   "MONDO:1014001 non-septic thrombophlebitis, non-human animal",
+   "MONDO:1014002 septic thrombophlebitis, non-human animal",
+   "MONDO:1014038 jugular vein thrombophlebitis, non-human animal"
+  ]
+ },
+ "anal fissure": {
+  "exact": [
+   "HP:0012390 Anal fissure"
+  ],
+  "contains": [
+   "HP:0012390 Anal fissure"
+  ]
+ },
+ "menorrhagia": {
+  "exact": [
+   "HP:0000132 Menorrhagia"
+  ],
+  "contains": [
+   "HP:0000132 Menorrhagia"
+  ]
+ },
+ "hemoptysis": {
+  "exact": [
+   "HP:0002105 Hemoptysis"
+  ],
+  "contains": [
+   "HP:0002105 Hemoptysis"
+  ]
+ },
+ "abdominal pain": {
+  "exact": [
+   "HP:0002027 Abdominal pain"
+  ],
+  "contains": [
+   "HP:0002027 Abdominal pain",
+   "HP:0002574 Episodic abdominal pain",
+   "MONDO:0009842 Pelger-Huet-like anomaly and episodic fever with abdominal pain"
+  ]
+ },
+ "chest pain": {
+  "exact": [
+   "HP:0100749 Chest pain"
+  ],
+  "contains": [
+   "HP:0100749 Chest pain"
+  ]
+ },
+ "cross disorder": {
+  "exact": [],
+  "contains": []
+ }
+}

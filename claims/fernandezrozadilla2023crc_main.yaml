@@ -1,0 +1,17 @@
+source:
+  citation: fernandezrozadilla2023crc_main
+  local: sources/fernandezrozadilla2023crc_main.txt
+  sha256: 8283d466a5273eb47a95fc731ceddad48149bdfb48d249f5947c4bf3391596e3
+  doi: 10.1038/s41588-022-01222-9
+  note: Main text of Fernandez-Rozadilla et al. 2023 Nat Genet author manuscript (PMC10094749), NCBI eutils
+    efetch db=pmc XML, tags stripped, one paragraph per line
+claims:
+  release:
+    quotes:
+    - exact: Summary level data for the full set of Asian and European GWAS are available through GWAS
+        catalog (accession number GCST90129505).
+      section: Data availability
+  ancestry_split:
+    quotes:
+    - exact: comprising 100,204 CRC cases and 154,587 controls (73% European and 27% East Asian ancestry)
+      section: Results

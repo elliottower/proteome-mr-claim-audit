@@ -1,0 +1,17 @@
+source:
+  citation: bellenguez2022_main
+  local: sources/bellenguez2022_main.txt
+  sha256: 49831ec859f795818f4a7182bf31cc1671313a7b52c6de5336c1a01eed6a54ab
+  doi: 10.1038/s41588-022-01024-z
+  note: Full text of Bellenguez et al. 2022 Nat Genet from Europe PMC fullTextXML (PMC9005347), tags stripped,
+    one paragraph per line
+claims:
+  stage1_datasets:
+    quotes:
+    - exact: 'All of our stage I meta-analysis samples came from the following consortia/datasets: EADB,
+        GR@ACE, EADI, GERAD/PERADES, DemGene, Bonn, the Rotterdam study, the CCHS study, NxC and the UKBB.'
+      section: Methods, Samples
+  stage2_datasets:
+    quotes:
+    - exact: Stage II samples are from the ADGC, CHARGE and FinnGen consortia
+      section: Methods, Samples

@@ -1,0 +1,2542 @@
+{
+ "written_utc": "2026-10-02T13:25:03+00:00",
+ "ontology_dirs": {
+  "mondo": [
+   "mondo.obo",
+   "mondo.sssom.tsv",
+   "mondo_exactmatch_efo.sssom.tsv",
+   "source-versions.tsv"
+  ],
+  "efo": [
+   "efo.obo"
+  ]
+ },
+ "shown": {
+  "mondo:HP:0000822": [
+   "id: HP:0000822",
+   "name: Hypertension",
+   "is_a: HP:0032263 ! Increased blood pressure"
+  ],
+  "mondo:MONDO:0004981": [
+   "id: MONDO:0004981",
+   "name: atrial fibrillation",
+   "def: \"A disorder characterized by an electrocardiographic finding of a supraventricular arrhythmia characterized by the replacement of consistent P waves by rapid oscillations or fibrillatory waves that vary in size, shape and timing and are accompanied by an irregular ventricular response. (CDISC)\" [NCIT:P378]",
+   "subset: otar {source=\"MONDO:OTAR\"}",
+   "synonym: \"AF\" EXACT ABBREVIATION [NCIT:C50466]",
+   "synonym: \"AFib\" EXACT [DOID:0060224, NCIT:C50466]",
+   "synonym: \"atrial fibrillation\" EXACT [DOID:0060224, icd11.foundation:171698302, MONDO:ambiguous, NCIT:C50466]",
+   "synonym: \"atrial fibrillation (disease)\" EXACT [https://orcid.org/0000-0002-6601-2165]",
+   "xref: DOID:0060224 {source=\"EFO:0000275\", source=\"MONDO:equivalentTo\"}",
+   "xref: EFO:0000275 {source=\"MONDO:equivalentTo\", source=\"MONDO:EFO\"}",
+   "xref: HP:0005110 {source=\"DOID:0060224\", source=\"MONDO:otherHierarchy\"}",
+   "xref: icd11.foundation:171698302 {source=\"MONDO:equivalentTo\"}",
+   "xref: ICD9:427.31 {source=\"EFO:0000275\", source=\"DOID:0060224\", source=\"MONDO:equivalentTo\", source=\"MONDO:i2s\"}",
+   "xref: MEDGEN:445 {source=\"MONDO:equivalentTo\", source=\"MONDO:MEDGEN\"}",
+   "xref: MESH:D001281 {source=\"https://orcid.org/0000-0003-1967-3726\", source=\"EFO:0000275\", source=\"DOID:0060224\", source=\"MONDO:equivalentTo\"}",
+   "xref: NANDO:2100051 {source=\"MONDO:NANDO\", source=\"https://orcid.org/0000-0003-0011-764X\", source=\"https://orcid.org/0000-0002-0170-9172\"}",
+   "xref: NANDO:2200226 {source=\"MONDO:NANDO\", source=\"https://orcid.org/0000-0003-0011-764X\", source=\"https://orcid.org/0000-0002-0170-9172\"}",
+   "xref: NCIT:C50466 {source=\"EFO:0000275\", source=\"DOID:0060224\", source=\"MONDO:equivalentTo\"}",
+   "xref: SCTID:49436004 {source=\"EFO:0000275\", source=\"DOID:0060224\", source=\"MONDO:equivalentTo\"}",
+   "xref: UMLS:C0004238 {source=\"MONDO:equivalentTo\", source=\"MONDO:MEDGEN\", source=\"MEDGEN:445\"}",
+   "is_a: MONDO:0007263 {source=\"EFO:0000275\", source=\"NCIT:C50466\"} ! cardiac rhythm disease",
+   "relationship: disease_has_location UBERON:0002081 {source=\"EFO:0000784\"} ! cardiac atrium",
+   "property_value: curated_content_resource \"https://www.malacards.org/card/atrial_fibrillation\" xsd:anyURI {source=\"MONDO:MalaCards\"}",
+   "property_value: IAO:0000589 \"atrial fibrillation (disease)\" xsd:string",
+   "property_value: skos:exactMatch DOID:0060224",
+   "property_value: skos:exactMatch EFO:0000275",
+   "property_value: skos:exactMatch icd11.foundation:171698302",
+   "property_value: skos:exactMatch MEDGEN:445",
+   "property_value: skos:exactMatch MESH:D001281",
+   "property_value: skos:exactMatch NCIT:C50466",
+   "property_value: skos:exactMatch SCTID:49436004",
+   "property_value: skos:exactMatch UMLS:C0004238"
+  ],
+  "mondo:MONDO:0005044": [
+   "id: MONDO:0005044",
+   "name: hypertensive disorder",
+   "def: \"Persistently high systemic arterial blood pressure. Based on multiple readings (blood pressure determination), hypertension is currently defined as when systolic pressure is consistently greater than 140 mm Hg or when diastolic pressure is consistently 90 mm Hg or more.\" [MESH:D006973]",
+   "subset: otar {source=\"MONDO:OTAR\"}",
+   "synonym: \"blood pressure, high\" EXACT []",
+   "synonym: \"blood pressure, increased\" EXACT []",
+   "synonym: \"high blood pressure\" EXACT [NCIT:C3117]",
+   "synonym: \"HTN\" BROAD ABBREVIATION []",
+   "synonym: \"hypertensive disease\" EXACT [MTH:NOCODE]",
+   "synonym: \"increased blood pressure\" EXACT []",
+   "synonym: \"pressure, high blood\" EXACT []",
+   "synonym: \"vascular hypertensive disorder\" EXACT [DOID:10763, NCIT:C3117]",
+   "xref: DOID:10763 {source=\"MONDO:equivalentTo\", source=\"EFO:0000537\"}",
+   "xref: EFO:0000537 {source=\"MONDO:equivalentTo\", source=\"MONDO:EFO\"}",
+   "xref: HP:0000822 {source=\"MONDO:otherHierarchy\"}",
+   "xref: ICD10CM:I10-I16 {source=\"https://github.com/monarch-initiative/mondo/issues/4536\", source=\"MONDO:equivalentTo\", source=\"https://orcid.org/0000-0001-5208-3432\", source=\"https://orcid.org/0000-0002-4142-7153\"}",
+   "xref: ICD10CM:I15 {source=\"MONDO:equivalentTo\"}",
+   "xref: ICD9:401-405 {source=\"DOID:10763\", source=\"EFO:0000537\"}",
+   "xref: ICD9:997.91 {source=\"DOID:10763\"}",
+   "xref: MEDGEN:6969 {source=\"MONDO:equivalentTo\", source=\"MONDO:MEDGEN\"}",
+   "xref: MESH:D006973 {source=\"DOID:10763\", source=\"MONDO:equivalentTo\", source=\"EFO:0000537\"}",
+   "xref: NCIT:C3117 {source=\"DOID:10763\", source=\"MONDO:equivalentTo\", source=\"MONDO:otherHierarchy\", source=\"MONDO:exact-label-match\", source=\"EFO:0000537\"}",
+   "xref: SCTID:38341003 {source=\"DOID:10763\", source=\"MONDO:equivalentTo\"}",
+   "xref: UMLS:C0020538 {source=\"MONDO:equivalentTo\", source=\"MONDO:MEDGEN\", source=\"MEDGEN:6969\"}",
+   "is_a: MONDO:0000473 {source=\"DOID:10763\"} ! arterial disorder",
+   "relationship: disease_arises_from_feature HP:0000822 ! Hypertension",
+   "relationship: disease_has_location UBERON:0004573 ! systemic artery",
+   "property_value: curated_content_resource \"https://www.malacards.org/card/hypertension\" xsd:anyURI {source=\"MONDO:MalaCards\"}",
+   "property_value: skos:exactMatch DOID:10763",
+   "property_value: skos:exactMatch EFO:0000537",
+   "property_value: skos:exactMatch icd10cm:I10-I16",
+   "property_value: skos:exactMatch icd10cm:I15",
+   "property_value: skos:exactMatch MEDGEN:6969",
+   "property_value: skos:exactMatch MESH:D006973",
+   "property_value: skos:exactMatch NCIT:C3117",
+   "property_value: skos:exactMatch SCTID:38341003",
+   "property_value: skos:exactMatch UMLS:C0020538"
+  ],
+  "mondo:MONDO:0005068": [
+   "id: MONDO:0005068",
+   "name: myocardial infarction",
+   "def: \"Gross necrosis of the myocardium, as a result of interruption of the blood supply to the area, as in coronary thrombosis.\" [NCIT:C27996]",
+   "subset: otar {source=\"MONDO:OTAR\"}",
+   "synonym: \"heart attack\" EXACT [DOID:5844, NCIT:C27996]",
+   "synonym: \"infarction (MI), myocardial\" EXACT []",
+   "synonym: \"MI\" EXACT ABBREVIATION [NCIT:C27996]",
+   "synonym: \"MI, myocardial infarction\" EXACT []",
+   "synonym: \"myocardial infarct\" EXACT [DOID:5844, NCIT:C27996]",
+   "synonym: \"myocardial infarction\" EXACT [DOID:5844, MONDO:ambiguous, NCIT:C27996]",
+   "synonym: \"myocardial infarction (disease)\" EXACT [https://orcid.org/0000-0002-6601-2165]",
+   "synonym: \"myocardial infarction, (MI)\" EXACT []",
+   "xref: DOID:5844 {source=\"MONDO:equivalentTo\", source=\"EFO:0000612\"}",
+   "xref: EFO:0000612 {source=\"MONDO:equivalentTo\", source=\"MONDO:EFO\"}",
+   "xref: HP:0001658 {source=\"MONDO:otherHierarchy\"}",
+   "xref: ICD10CM:I21 {source=\"https://doi.org/10.1186/1472-6963-13-468\", source=\"MONDO:equivalentTo\", source=\"DOID:5844\"}",
+   "xref: MEDGEN:10150 {source=\"MONDO:equivalentTo\", source=\"MONDO:MEDGEN\"}",
+   "xref: MESH:D009203 {source=\"MONDO:equivalentTo\", source=\"DOID:5844\", source=\"EFO:0000612\"}",
+   "xref: NANDO:2200248 {source=\"MONDO:NANDO\", source=\"https://orcid.org/0000-0003-0011-764X\", source=\"https://orcid.org/0000-0002-0170-9172\"}",
+   "xref: NCIT:C27996 {source=\"MONDO:equivalentTo\", source=\"DOID:5844\", source=\"EFO:0000612\"}",
+   "xref: SCTID:22298006 {source=\"MONDO:equivalentTo\", source=\"DOID:5844\", source=\"EFO:0000612\"}",
+   "xref: UMLS:C0027051 {source=\"MONDO:equivalentTo\", source=\"MEDGEN:10150\", source=\"MONDO:MEDGEN\"}",
+   "is_a: MONDO:0024643 {source=\"NCIT:C27996\"} ! myocardial disorder",
+   "relationship: disease_has_feature HP:0001700 ! Myocardial necrosis",
+   "relationship: disease_has_location UBERON:0000948 {source=\"EFO:0000784\"} ! heart",
+   "relationship: excluded_subClassOf MONDO:0005010 {source=\"DOID:5844\", source=\"https://orcid.org/0000-0001-5208-3432\"} ! coronary artery disorder",
+   "property_value: curated_content_resource \"https://www.malacards.org/card/myocardial_infarction\" xsd:anyURI {source=\"MONDO:MalaCards\"}",
+   "property_value: IAO:0000589 \"myocardial infarction (disease)\" xsd:string",
+   "property_value: skos:exactMatch DOID:5844",
+   "property_value: skos:exactMatch EFO:0000612",
+   "property_value: skos:exactMatch icd10cm:I21",
+   "property_value: skos:exactMatch MEDGEN:10150",
+   "property_value: skos:exactMatch MESH:D009203",
+   "property_value: skos:exactMatch NCIT:C27996",
+   "property_value: skos:exactMatch SCTID:22298006",
+   "property_value: skos:exactMatch UMLS:C0027051"
+  ],
+  "mondo:MONDO:0005148": [
+   "id: MONDO:0005148",
+   "name: type 2 diabetes mellitus",
+   "def: \"A type of diabetes mellitus that is characterized by insulin resistance or desensitization and increased blood glucose levels. This is a chronic disease that can develop gradually over the life of a patient and can be linked to both environmental factors and heredity.\" [NCIT:P378]",
+   "subset: omim_susceptibility {source=\"OMIM:125853\"}",
+   "subset: otar {source=\"MONDO:OTAR\"}",
+   "synonym: \"adult onset diabetes\" EXACT DEPRECATED [icd11.foundation:119724091, NCIT:C26747]",
+   "synonym: \"adult-onset diabetes\" EXACT DEPRECATED [NCIT:C26747]",
+   "synonym: \"diabetes mellitis type 2\" EXACT []",
+   "synonym: \"diabetes mellitis type II\" EXACT []",
+   "synonym: \"diabetes mellitus, noninsulin-dependent\" EXACT [OMIM:125853]",
+   "synonym: \"diabetes mellitus, noninsulin-dependent, 2\" NARROW []",
+   "synonym: \"diabetes mellitus, noninsulin-dependent, association with\" EXACT []",
+   "synonym: \"diabetes mellitus, noninsulin-dependent, late onset\" EXACT []",
+   "synonym: \"diabetes mellitus, type 2\" EXACT [OMIM:125853]",
+   "synonym: \"diabetes mellitus, type II\" EXACT []",
+   "synonym: \"diabetes, type 2\" EXACT [NCIT:C26747]",
+   "synonym: \"insulin resistance, severe, digenic\" EXACT []",
+   "synonym: \"NIDDM\" EXACT DEPRECATED [DOID:9352, NCIT:C26747, OMIM:125853]",
+   "synonym: \"non-insulin dependent diabetes\" EXACT DEPRECATED [NCIT:C26747]",
+   "synonym: \"non-insulin dependent diabetes mellitus\" EXACT DEPRECATED [icd11.foundation:119724091, NCIT:C26747]",
+   "synonym: \"noninsulin dependent diabetes\" EXACT DEPRECATED [icd11.foundation:119724091, NCIT:C26747]",
+   "synonym: \"noninsulin-dependent diabetes mellitus\" EXACT [OMIM:125853]",
+   "synonym: \"T2D\" EXACT ABBREVIATION [https://orcid.org/0000-0002-4071-8397, OMIM:125853]",
+   "synonym: \"T2DM\" EXACT ABBREVIATION [https://orcid.org/0000-0002-4071-8397]",
+   "synonym: \"T2DM - type 2 diabetes mellitus\" EXACT [NCIT:C26747]",
+   "synonym: \"type 2 diabetes\" EXACT [DOID:9352, icd11.foundation:119724091, NCIT:C26747]",
+   "synonym: \"type 2 diabetes mellitus\" EXACT [DOID:9352, ICD10CM:E11, ICD10WHO:E11, icd11.foundation:119724091, NCIT:C26747, OMIM:125853]",
+   "synonym: \"type 2 diabetes mellitus non-insulin dependent\" EXACT [NCIT:C26747]",
+   "synonym: \"type II diabetes\" EXACT [icd11.foundation:119724091, NCIT:C26747]",
+   "synonym: \"type II diabetes mellitus\" EXACT [DOID:9352, icd11.foundation:119724091, NCIT:C26747]",
+   "xref: DOID:9352 {source=\"MONDO:equivalentTo\", source=\"EFO:0001360\"}",
+   "xref: ICD10CM:E11 {source=\"https://orcid.org/0009-0001-6494-4831\", source=\"MONDO:equivalentTo\", source=\"https://orcid.org/0000-0002-5002-8648\", source=\"DOID:9352\"}",
+   "xref: ICD10WHO:E11 {source=\"https://orcid.org/0000-0002-7941-5545\", source=\"MONDO:equivalentTo\", source=\"https://orcid.org/0000-0001-9439-5346\"}",
+   "xref: icd11.foundation:119724091 {source=\"MONDO:equivalentTo\"}",
+   "xref: MEDGEN:41523 {source=\"MONDO:equivalentTo\", source=\"MONDO:MEDGEN\"}",
+   "xref: MESH:D003924 {source=\"MONDO:equivalentTo\", source=\"DOID:9352\", source=\"EFO:0001360\"}",
+   "xref: NANDO:2200461 {source=\"MONDO:NANDO\", source=\"https://orcid.org/0000-0003-0011-764X\", source=\"https://orcid.org/0000-0002-0170-9172\"}",
+   "xref: NCIT:C26747 {source=\"MONDO:equivalentTo\", source=\"DOID:9352\", source=\"EFO:0001360\"}",
+   "xref: OMIM:125853 {source=\"MONDO:equivalentTo\", source=\"DOID:9352\", source=\"EFO:0001360\"}",
+   "xref: SCTID:44054006 {source=\"MONDO:equivalentTo\", source=\"DOID:9352\", source=\"EFO:0001360\"}",
+   "xref: UMLS:C0011860 {source=\"MEDGEN:41523\", source=\"MONDO:equivalentTo\", source=\"MONDO:MEDGEN\"}",
+   "is_a: MONDO:0005015 {source=\"DOID:9352\", source=\"EFO:0001360\", source=\"MESH:D003924\", source=\"NCIT:C26747\", source=\"icd11.foundation:119724091\"} ! diabetes mellitus",
+   "relationship: disease_disrupts GO:0030073 ! insulin secretion",
+   "relationship: disease_disrupts GO:0044381 ! glucose import in response to insulin stimulus",
+   "relationship: disease_has_feature HP:0000855 ! Insulin resistance",
+   "property_value: curated_content_resource \"https://www.malacards.org/card/type_2_diabetes_mellitus\" xsd:anyURI {source=\"MONDO:MalaCards\"}",
+   "property_value: IAO:0000233 \"https://github.com/monarch-initiative/mondo/issues/4521\" xsd:anyURI",
+   "property_value: IAO:0000233 \"https://github.com/monarch-initiative/mondo/issues/7275\" xsd:anyURI",
+   "property_value: IAO:0000233 \"https://github.com/monarch-initiative/mondo/issues/9097\" xsd:anyURI",
+   "property_value: skos:exactMatch DOID:9352",
+   "property_value: skos:exactMatch icd10cm:E11",
+   "property_value: skos:exactMatch ICD10WHO:E11",
+   "property_value: skos:exactMatch icd11.foundation:119724091",
+   "property_value: skos:exactMatch MEDGEN:41523",
+   "property_value: skos:exactMatch MESH:D003924",
+   "property_value: skos:exactMatch NCIT:C26747",
+   "property_value: skos:exactMatch OMIM:125853",
+   "property_value: skos:exactMatch SCTID:44054006",
+   "property_value: skos:exactMatch UMLS:C0011860"
+  ],
+  "efo:HP:0000822": [
+   "id: HP:0000822",
+   "name: Hypertension",
+   "alt_id: HP:0004949",
+   "alt_id: HP:0005126",
+   "def: \"The presence of chronic increased pressure in the systemic arterial system.\" [https://orcid.org/0000-0002-0736-9199]",
+   "comment: Hypertension is sustained elevation of resting systolic BP (140 mm Hg or higher), diastolic BP (90 mm Hg or higher), or both.",
+   "synonym: \"Arterial hypertension\" EXACT []",
+   "synonym: \"High blood pressure\" RELATED layperson [https://orcid.org/0000-0001-5208-3432]",
+   "synonym: \"Systemic hypertension\" EXACT []",
+   "xref: SNOMEDCT_US:24184005",
+   "xref: SNOMEDCT_US:38341003",
+   "xref: UMLS:C0020538",
+   "xref: UMLS:C0497247",
+   "is_a: HP:0032263 ! Increased blood pressure"
+  ],
+  "efo:MONDO:0004981": [
+   "id: MONDO:0004981",
+   "name: atrial fibrillation",
+   "def: \"A disorder characterized by an electrocardiographic finding of a supraventricular arrhythmia characterized by the replacement of consistent P waves by rapid oscillations or fibrillatory waves that vary in size, shape and timing and are accompanied by an irregular ventricular response. (CDISC)\" [NCIT:P378]",
+   "subset: otar {source=\"MONDO:OTAR\"}",
+   "synonym: \"AF\" EXACT ABBREVIATION [NCIT:C50466]",
+   "synonym: \"AFib\" EXACT [DOID:0060224, NCIT:C50466]",
+   "synonym: \"atrial fibrillation\" EXACT [DOID:0060224, icd11.foundation:171698302, MONDO:ambiguous, NCIT:C50466]",
+   "synonym: \"atrial fibrillation (disease)\" EXACT [https://orcid.org/0000-0002-6601-2165]",
+   "xref: DOID:0060224 {source=\"EFO:0000275\", source=\"MONDO:equivalentTo\"}",
+   "xref: EFO:0000275 {source=\"MONDO:equivalentTo\", source=\"MONDO:EFO\"}",
+   "xref: HP:0005110 {source=\"DOID:0060224\", source=\"MONDO:otherHierarchy\"}",
+   "xref: icd11.foundation:171698302 {source=\"MONDO:equivalentTo\"}",
+   "xref: ICD9:427.31 {source=\"EFO:0000275\", source=\"DOID:0060224\", source=\"MONDO:equivalentTo\", source=\"MONDO:i2s\"}",
+   "xref: MEDGEN:445 {source=\"MONDO:equivalentTo\", source=\"MONDO:MEDGEN\"}",
+   "xref: MESH:D001281 {source=\"https://orcid.org/0000-0003-1967-3726\", source=\"EFO:0000275\", source=\"DOID:0060224\", source=\"MONDO:equivalentTo\"}",
+   "xref: NANDO:2100051 {source=\"MONDO:NANDO\", source=\"https://orcid.org/0000-0003-0011-764X\", source=\"https://orcid.org/0000-0002-0170-9172\"}",
+   "xref: NANDO:2200226 {source=\"MONDO:NANDO\", source=\"https://orcid.org/0000-0003-0011-764X\", source=\"https://orcid.org/0000-0002-0170-9172\"}",
+   "xref: NCIT:C50466 {source=\"EFO:0000275\", source=\"DOID:0060224\", source=\"MONDO:equivalentTo\"}",
+   "xref: SCTID:49436004 {source=\"EFO:0000275\", source=\"DOID:0060224\", source=\"MONDO:equivalentTo\"}",
+   "xref: UMLS:C0004238 {source=\"MONDO:equivalentTo\", source=\"MONDO:MEDGEN\", source=\"MEDGEN:445\"}",
+   "is_a: MONDO:0007263 {source=\"EFO:0000275\", source=\"NCIT:C50466\"} ! cardiac rhythm disease",
+   "relationship: disease_has_location UBERON:0002081 {source=\"EFO:0000784\"} ! cardiac atrium",
+   "property_value: curated_content_resource \"https://www.malacards.org/card/atrial_fibrillation\" xsd:anyURI {source=\"MONDO:MalaCards\"}",
+   "property_value: IAO:0000589 \"atrial fibrillation (disease)\" xsd:string",
+   "property_value: skos:exactMatch DOID:0060224",
+   "property_value: skos:exactMatch efo:EFO_0000275",
+   "property_value: skos:exactMatch http://id.who.int/icd/entity/171698302",
+   "property_value: skos:exactMatch http://identifiers.org/medgen/445",
+   "property_value: skos:exactMatch http://identifiers.org/mesh/D001281",
+   "property_value: skos:exactMatch http://identifiers.org/snomedct/49436004",
+   "property_value: skos:exactMatch http://linkedlifedata.com/resource/umls/id/C0004238",
+   "property_value: skos:exactMatch NCIT:C50466"
+  ],
+  "efo:MONDO:0005044": [
+   "id: MONDO:0005044",
+   "name: hypertensive disorder",
+   "def: \"Persistently high systemic arterial blood pressure. Based on multiple readings (blood pressure determination), hypertension is currently defined as when systolic pressure is consistently greater than 140 mm Hg or when diastolic pressure is consistently 90 mm Hg or more.\" [MESH:D006973]",
+   "subset: otar {source=\"MONDO:OTAR\"}",
+   "synonym: \"blood pressure, high\" EXACT []",
+   "synonym: \"blood pressure, increased\" EXACT []",
+   "synonym: \"high blood pressure\" EXACT [NCIT:C3117]",
+   "synonym: \"HTN\" BROAD ABBREVIATION []",
+   "synonym: \"hypertensive disease\" EXACT [MTH:NOCODE]",
+   "synonym: \"increased blood pressure\" EXACT []",
+   "synonym: \"pressure, high blood\" EXACT []",
+   "synonym: \"vascular hypertensive disorder\" EXACT [DOID:10763, NCIT:C3117]",
+   "xref: DOID:10763 {source=\"MONDO:equivalentTo\", source=\"EFO:0000537\"}",
+   "xref: EFO:0000537 {source=\"MONDO:equivalentTo\", source=\"MONDO:EFO\"}",
+   "xref: HP:0000822 {source=\"MONDO:otherHierarchy\"}",
+   "xref: ICD10CM:I10-I16 {source=\"https://github.com/monarch-initiative/mondo/issues/4536\", source=\"MONDO:equivalentTo\", source=\"https://orcid.org/0000-0001-5208-3432\", source=\"https://orcid.org/0000-0002-4142-7153\"}",
+   "xref: ICD10CM:I15 {source=\"MONDO:equivalentTo\"}",
+   "xref: ICD9:401-405 {source=\"DOID:10763\", source=\"EFO:0000537\"}",
+   "xref: ICD9:997.91 {source=\"DOID:10763\"}",
+   "xref: MEDGEN:6969 {source=\"MONDO:equivalentTo\", source=\"MONDO:MEDGEN\"}",
+   "xref: MESH:D006973 {source=\"DOID:10763\", source=\"MONDO:equivalentTo\", source=\"EFO:0000537\"}",
+   "xref: NCIT:C3117 {source=\"DOID:10763\", source=\"MONDO:equivalentTo\", source=\"MONDO:otherHierarchy\", source=\"MONDO:exact-label-match\", source=\"EFO:0000537\"}",
+   "xref: SCTID:38341003 {source=\"DOID:10763\", source=\"MONDO:equivalentTo\"}",
+   "xref: UMLS:C0020538 {source=\"MONDO:equivalentTo\", source=\"MONDO:MEDGEN\", source=\"MEDGEN:6969\"}",
+   "is_a: MONDO:0000473 {source=\"DOID:10763\"} ! arterial disorder",
+   "relationship: disease_arises_from_feature HP:0000822 ! Hypertension",
+   "relationship: disease_has_location UBERON:0004573 ! systemic artery",
+   "property_value: curated_content_resource \"https://www.malacards.org/card/hypertension\" xsd:anyURI {source=\"MONDO:MalaCards\"}",
+   "property_value: skos:exactMatch DOID:10763",
+   "property_value: skos:exactMatch efo:EFO_0000537",
+   "property_value: skos:exactMatch http://identifiers.org/medgen/6969",
+   "property_value: skos:exactMatch http://identifiers.org/mesh/D006973",
+   "property_value: skos:exactMatch http://identifiers.org/snomedct/38341003",
+   "property_value: skos:exactMatch http://linkedlifedata.com/resource/umls/id/C0020538",
+   "property_value: skos:exactMatch http://purl.bioontology.org/ontology/ICD10CM/I10-I16",
+   "property_value: skos:exactMatch http://purl.bioontology.org/ontology/ICD10CM/I15",
+   "property_value: skos:exactMatch NCIT:C3117"
+  ],
+  "efo:MONDO:0005068": [
+   "id: MONDO:0005068",
+   "name: myocardial infarction",
+   "def: \"Gross necrosis of the myocardium, as a result of interruption of the blood supply to the area, as in coronary thrombosis.\" [NCIT:C27996]",
+   "subset: otar {source=\"MONDO:OTAR\"}",
+   "synonym: \"heart attack\" EXACT [DOID:5844, NCIT:C27996]",
+   "synonym: \"infarction (MI), myocardial\" EXACT []",
+   "synonym: \"MI\" EXACT ABBREVIATION [NCIT:C27996]",
+   "synonym: \"MI, myocardial infarction\" EXACT []",
+   "synonym: \"myocardial infarct\" EXACT [DOID:5844, NCIT:C27996]",
+   "synonym: \"myocardial infarction\" EXACT [DOID:5844, MONDO:ambiguous, NCIT:C27996]",
+   "synonym: \"myocardial infarction (disease)\" EXACT [https://orcid.org/0000-0002-6601-2165]",
+   "synonym: \"myocardial infarction, (MI)\" EXACT []",
+   "xref: DOID:5844 {source=\"MONDO:equivalentTo\", source=\"EFO:0000612\"}",
+   "xref: EFO:0000612 {source=\"MONDO:equivalentTo\", source=\"MONDO:EFO\"}",
+   "xref: HP:0001658 {source=\"MONDO:otherHierarchy\"}",
+   "xref: ICD10CM:I21 {source=\"https://doi.org/10.1186/1472-6963-13-468\", source=\"MONDO:equivalentTo\", source=\"DOID:5844\"}",
+   "xref: MEDGEN:10150 {source=\"MONDO:equivalentTo\", source=\"MONDO:MEDGEN\"}",
+   "xref: MESH:D009203 {source=\"MONDO:equivalentTo\", source=\"DOID:5844\", source=\"EFO:0000612\"}",
+   "xref: NANDO:2200248 {source=\"MONDO:NANDO\", source=\"https://orcid.org/0000-0003-0011-764X\", source=\"https://orcid.org/0000-0002-0170-9172\"}",
+   "xref: NCIT:C27996 {source=\"MONDO:equivalentTo\", source=\"DOID:5844\", source=\"EFO:0000612\"}",
+   "xref: SCTID:22298006 {source=\"MONDO:equivalentTo\", source=\"DOID:5844\", source=\"EFO:0000612\"}",
+   "xref: UMLS:C0027051 {source=\"MONDO:equivalentTo\", source=\"MEDGEN:10150\", source=\"MONDO:MEDGEN\"}",
+   "is_a: MONDO:0024643 {source=\"NCIT:C27996\"} ! myocardial disorder",
+   "relationship: disease_has_location UBERON:0000948 {source=\"EFO:0000784\"} ! heart",
+   "property_value: curated_content_resource \"https://www.malacards.org/card/myocardial_infarction\" xsd:anyURI {source=\"MONDO:MalaCards\"}",
+   "property_value: excluded_subClassOf MONDO:0005010 {source=\"DOID:5844\", source=\"https://orcid.org/0000-0001-5208-3432\"}",
+   "property_value: IAO:0000589 \"myocardial infarction (disease)\" xsd:string",
+   "property_value: skos:exactMatch DOID:5844",
+   "property_value: skos:exactMatch efo:EFO_0000612",
+   "property_value: skos:exactMatch http://identifiers.org/medgen/10150",
+   "property_value: skos:exactMatch http://identifiers.org/mesh/D009203",
+   "property_value: skos:exactMatch http://identifiers.org/snomedct/22298006",
+   "property_value: skos:exactMatch http://linkedlifedata.com/resource/umls/id/C0027051",
+   "property_value: skos:exactMatch http://purl.bioontology.org/ontology/ICD10CM/I21",
+   "property_value: skos:exactMatch NCIT:C27996"
+  ],
+  "efo:MONDO:0005148": [
+   "id: MONDO:0005148",
+   "name: type 2 diabetes mellitus",
+   "def: \"A type of diabetes mellitus that is characterized by insulin resistance or desensitization and increased blood glucose levels. This is a chronic disease that can develop gradually over the life of a patient and can be linked to both environmental factors and heredity.\" [NCIT:P378]",
+   "subset: omim_susceptibility {source=\"OMIM:125853\"}",
+   "subset: otar {source=\"MONDO:OTAR\"}",
+   "synonym: \"adult onset diabetes\" EXACT DEPRECATED [icd11.foundation:119724091, NCIT:C26747]",
+   "synonym: \"adult-onset diabetes\" EXACT DEPRECATED [NCIT:C26747]",
+   "synonym: \"diabetes mellitis type 2\" EXACT []",
+   "synonym: \"diabetes mellitis type II\" EXACT []",
+   "synonym: \"diabetes mellitus, noninsulin-dependent\" EXACT [OMIM:125853]",
+   "synonym: \"diabetes mellitus, noninsulin-dependent, 2\" NARROW []",
+   "synonym: \"diabetes mellitus, noninsulin-dependent, association with\" EXACT []",
+   "synonym: \"diabetes mellitus, noninsulin-dependent, late onset\" EXACT []",
+   "synonym: \"diabetes mellitus, type 2\" EXACT [OMIM:125853]",
+   "synonym: \"diabetes mellitus, type II\" EXACT []",
+   "synonym: \"diabetes, type 2\" EXACT [NCIT:C26747]",
+   "synonym: \"insulin resistance, severe, digenic\" EXACT []",
+   "synonym: \"NIDDM\" EXACT DEPRECATED [DOID:9352, NCIT:C26747, OMIM:125853]",
+   "synonym: \"non-insulin dependent diabetes\" EXACT DEPRECATED [NCIT:C26747]",
+   "synonym: \"non-insulin dependent diabetes mellitus\" EXACT DEPRECATED [icd11.foundation:119724091, NCIT:C26747]",
+   "synonym: \"noninsulin dependent diabetes\" EXACT DEPRECATED [icd11.foundation:119724091, NCIT:C26747]",
+   "synonym: \"noninsulin-dependent diabetes mellitus\" EXACT [OMIM:125853]",
+   "synonym: \"T2D\" EXACT ABBREVIATION [https://orcid.org/0000-0002-4071-8397, OMIM:125853]",
+   "synonym: \"T2DM\" EXACT ABBREVIATION [https://orcid.org/0000-0002-4071-8397]",
+   "synonym: \"T2DM - type 2 diabetes mellitus\" EXACT [NCIT:C26747]",
+   "synonym: \"type 2 diabetes\" EXACT [DOID:9352, icd11.foundation:119724091, NCIT:C26747]",
+   "synonym: \"type 2 diabetes mellitus\" EXACT [DOID:9352, ICD10CM:E11, ICD10WHO:E11, icd11.foundation:119724091, NCIT:C26747, OMIM:125853]",
+   "synonym: \"type 2 diabetes mellitus non-insulin dependent\" EXACT [NCIT:C26747]",
+   "synonym: \"type II diabetes\" EXACT [icd11.foundation:119724091, NCIT:C26747]",
+   "synonym: \"type II diabetes mellitus\" EXACT [DOID:9352, icd11.foundation:119724091, NCIT:C26747]",
+   "xref: DOID:9352 {source=\"MONDO:equivalentTo\", source=\"EFO:0001360\"}",
+   "xref: ICD10CM:E11 {source=\"https://orcid.org/0009-0001-6494-4831\", source=\"MONDO:equivalentTo\", source=\"https://orcid.org/0000-0002-5002-8648\", source=\"DOID:9352\"}",
+   "xref: ICD10WHO:E11 {source=\"https://orcid.org/0000-0002-7941-5545\", source=\"MONDO:equivalentTo\", source=\"https://orcid.org/0000-0001-9439-5346\"}",
+   "xref: icd11.foundation:119724091 {source=\"MONDO:equivalentTo\"}",
+   "xref: MEDGEN:41523 {source=\"MONDO:equivalentTo\", source=\"MONDO:MEDGEN\"}",
+   "xref: MESH:D003924 {source=\"MONDO:equivalentTo\", source=\"DOID:9352\", source=\"EFO:0001360\"}",
+   "xref: NANDO:2200461 {source=\"MONDO:NANDO\", source=\"https://orcid.org/0000-0003-0011-764X\", source=\"https://orcid.org/0000-0002-0170-9172\"}",
+   "xref: NCIT:C26747 {source=\"MONDO:equivalentTo\", source=\"DOID:9352\", source=\"EFO:0001360\"}",
+   "xref: OMIM:125853 {source=\"MONDO:equivalentTo\", source=\"DOID:9352\", source=\"EFO:0001360\"}",
+   "xref: SCTID:44054006 {source=\"MONDO:equivalentTo\", source=\"DOID:9352\", source=\"EFO:0001360\"}",
+   "xref: UMLS:C0011860 {source=\"MEDGEN:41523\", source=\"MONDO:equivalentTo\", source=\"MONDO:MEDGEN\"}",
+   "is_a: MONDO:0005015 {source=\"DOID:9352\", source=\"EFO:0001360\", source=\"MESH:D003924\", source=\"NCIT:C26747\", source=\"icd11.foundation:119724091\"} ! diabetes mellitus",
+   "relationship: disease_disrupts GO:0030073 ! insulin secretion",
+   "relationship: disease_disrupts GO:0044381 ! glucose import in response to insulin stimulus",
+   "property_value: curated_content_resource \"https://www.malacards.org/card/type_2_diabetes_mellitus\" xsd:anyURI {source=\"MONDO:MalaCards\"}",
+   "property_value: efo:gwas_trait \"true\" xsd:boolean",
+   "property_value: IAO:0000233 \"https://github.com/monarch-initiative/mondo/issues/4521\" xsd:anyURI",
+   "property_value: IAO:0000233 \"https://github.com/monarch-initiative/mondo/issues/7275\" xsd:anyURI",
+   "property_value: IAO:0000233 \"https://github.com/monarch-initiative/mondo/issues/9097\" xsd:anyURI",
+   "property_value: skos:exactMatch DOID:9352",
+   "property_value: skos:exactMatch http://id.who.int/icd/entity/119724091",
+   "property_value: skos:exactMatch http://identifiers.org/medgen/41523",
+   "property_value: skos:exactMatch http://identifiers.org/mesh/D003924",
+   "property_value: skos:exactMatch http://identifiers.org/snomedct/44054006",
+   "property_value: skos:exactMatch http://linkedlifedata.com/resource/umls/id/C0011860",
+   "property_value: skos:exactMatch http://purl.bioontology.org/ontology/ICD10CM/E11",
+   "property_value: skos:exactMatch https://icd.who.int/browse10/2019/en#/E11",
+   "property_value: skos:exactMatch https://omim.org/entry/125853",
+   "property_value: skos:exactMatch NCIT:C26747"
+  ],
+  "efo:EFO:0000537": [
+   "id: efo:EFO_0000537",
+   "name: obsolete_hypertension",
+   "synonym: \"(hypertensive disease) or (hypertension)\" EXACT []",
+   "synonym: \"[X]Hypertensive diseases\" EXACT []",
+   "synonym: \"[X]Hypertensive diseases (disorder)\" EXACT []",
+   "synonym: \"Blood Pressure, High\" EXACT []",
+   "synonym: \"Blood Pressures, High\" EXACT []",
+   "synonym: \"High Blood Pressure\" EXACT []",
+   "synonym: \"High blood pressure (& [essential hypertension])\" EXACT []",
+   "synonym: \"High Blood Pressures\" EXACT []",
+   "synonym: \"HTN\" EXACT []",
+   "synonym: \"HTN - hypertension\" EXACT []",
+   "synonym: \"hyperpiesia\" EXACT []",
+   "synonym: \"hypertension NOS\" EXACT []",
+   "synonym: \"HYPERTENSIVE DISEASE\" EXACT []",
+   "synonym: \"Hypertensive disease (disorder)\" EXACT []",
+   "synonym: \"hypertensive disease NOS\" EXACT []",
+   "synonym: \"Hypertensive disease NOS (disorder)\" EXACT []",
+   "synonym: \"SURG COMP - HYPERTENSION\" EXACT []",
+   "synonym: \"vascular hypertensive disorder\" EXACT []",
+   "xref: DOID:10763",
+   "xref: ICD10:I10",
+   "xref: ICD9:401-405.99",
+   "xref: MedDRA:10020772",
+   "xref: MESH:D006973",
+   "xref: NCIt:C3117",
+   "xref: OMIM:145500",
+   "property_value: efo:gwas_trait \"true\" xsd:boolean",
+   "property_value: efo:obsoleted_in_version \"3.88.0\" xsd:string",
+   "property_value: efo:reason_for_obsolescence \"Replaced by Mondo term MONDO_0005044, with which this term was previously merged. Use: http://purl.obolibrary.org/obo/MONDO_0005044\" xsd:string",
+   "property_value: IAO:0000117 \"James Malone\" xsd:string",
+   "is_obsolete: true",
+   "replaced_by: http://purl.obolibrary.org/obo/MONDO_0005044"
+  ],
+  "efo:EFO:0004530": [
+   "id: efo:EFO_0004530",
+   "name: triglyceride measurement",
+   "def: \"A triglyceride  measurement is a quantification of triglycerides in some body fluid, used as a biomarker for cardiovascular disease.\" []",
+   "synonym: \"triglyceride levels\" EXACT []",
+   "xref: NCIt:C64812",
+   "is_a: OBA:VT0001547 ! lipid amount",
+   "relationship: IAO:0000136 CHEBI:17855 ! is_about triglyceride",
+   "relationship: IAO:0000136 CHEBI:18059 ! is_about lipid",
+   "property_value: efo:gwas_trait \"true\" xsd:boolean",
+   "property_value: IAO:0000117 \"Helen Parkinson\" xsd:string"
+  ]
+ },
+ "xref_sources_top": {
+  "mondo": {
+   "MONDO -> MEDGEN [MONDO:equivalentTo]": 21661,
+   "MONDO -> MEDGEN [MONDO:MEDGEN]": 21661,
+   "MONDO -> UMLS [MONDO:equivalentTo]": 21661,
+   "MONDO -> UMLS [MONDO:MEDGEN]": 21661,
+   "MONDO -> GARD [MONDO:GARD]": 15947,
+   "MONDO -> DOID [MONDO:equivalentTo]": 11818,
+   "MONDO -> OMIM [MONDO:equivalentTo]": 9773,
+   "MONDO -> SCTID [MONDO:equivalentTo]": 8977,
+   "MONDO -> Orphanet [MONDO:equivalentTo]": 8457,
+   "MONDO -> MESH [MONDO:equivalentTo]": 8061,
+   "MONDO -> NCIT [MONDO:equivalentTo]": 7256,
+   "MONDO -> VeNom [MONDO:equivalentTo]": 5193,
+   "MONDO -> icd11.foundation [MONDO:equivalentTo]": 4565,
+   "MONDO -> ICD9 [MONDO:i2s]": 4262,
+   "MONDO -> OMIA [MONDO:equivalentTo]": 3172,
+   "MONDO -> EFO [MONDO:EFO]": 2400,
+   "MONDO -> EFO [MONDO:equivalentTo]": 2387,
+   "MONDO -> ICD9 [MONDO:relatedTo]": 2377,
+   "MONDO -> NANDO [MONDO:NANDO]": 2345,
+   "MONDO -> ICD10CM [MONDO:equivalentTo]": 2021,
+   "MONDO -> ICD9 [MONDO:equivalentTo]": 1859,
+   "MONDO -> MedDRA [no_mondo_source_tag]": 1482,
+   "MONDO -> ICD9 [no_mondo_source_tag]": 1386,
+   "MONDO -> Orphanet [MONDO:obsoleteEquivalent]": 1151,
+   "MONDO -> NCIT [MONDO:exact-label-match]": 941,
+   "MONDO -> NORD [MONDO:NORD]": 921,
+   "MONDO -> ICDO [no_mondo_source_tag]": 769,
+   "MONDO -> Orphanet [MONDO:equivalentObsolete]": 706,
+   "MONDO -> OMIMPS [MONDO:equivalentTo]": 608,
+   "MONDO -> HP [MONDO:otherHierarchy]": 558,
+   "MONDO -> ONCOTREE [MONDO:equivalentTo]": 553,
+   "MONDO -> OMIM [MONDO:obsoleteEquivalent]": 221,
+   "MONDO -> ICD10WHO [MONDO:equivalentTo]": 206,
+   "MONDO -> Orphanet [MONDO:obsoleteEquivalentObsolete]": 177,
+   "MONDO -> SCTID [MONDO:obsoleteEquivalent]": 141,
+   "MONDO -> DOID [MONDO:obsoleteEquivalent]": 136,
+   "MONDO -> OMIM [MONDO:equivalentObsolete]": 131,
+   "MONDO -> DOID [MONDO:equivalentObsolete]": 126,
+   "MONDO -> MESH [MONDO:obsoleteEquivalent]": 120,
+   "MONDO -> NCIT [MONDO:equivalentObsolete]": 91,
+   "MONDO -> Wikipedia [no_mondo_source_tag]": 86,
+   "MONDO -> ICD10CM [MONDO:mondoIsNarrowerThanSource]": 78,
+   "MONDO -> GTR [no_mondo_source_tag]": 73,
+   "MONDO -> icd11.foundation [MONDO:obsoleteEquivalent]": 68,
+   "MONDO -> NCIT [MONDO:otherHierarchy]": 61,
+   "MONDO -> DECIPHER [MONDO:equivalentTo]": 60,
+   "MONDO -> OMIM [MONDO:obsoleteEquivalentObsolete]": 51,
+   "MONDO -> NCIT [MONDO:obsoleteEquivalent]": 48,
+   "MONDO -> HGNC [no_mondo_source_tag]": 43,
+   "MONDO -> CSP [no_mondo_source_tag]": 39,
+   "MONDO -> NCIT [MONDO:relatedTo]": 34,
+   "MONDO -> ICD9 [MONDO:obsoleteEquivalent]": 29,
+   "MONDO -> PMID [no_mondo_source_tag]": 28,
+   "MONDO -> HP [no_mondo_source_tag]": 21,
+   "MONDO -> SCTID [MONDO:relatedTo]": 21,
+   "MONDO -> ICD10CM [MONDO:relatedTo]": 19,
+   "MONDO -> GARD [MONDO:obsoleteEquivalent]": 17,
+   "MONDO -> MESH [MONDO:equivalentObsolete]": 16,
+   "MONDO -> ICD10CM [MONDO:obsoleteEquivalent]": 15,
+   "MONDO -> birnlex [no_mondo_source_tag]": 15
+  },
+  "efo": {
+   "MONDO -> MEDGEN [MONDO:MEDGEN]": 14625,
+   "MONDO -> UMLS [MONDO:MEDGEN]": 14625,
+   "MONDO -> MEDGEN [MONDO:equivalentTo]": 14624,
+   "MONDO -> UMLS [MONDO:equivalentTo]": 14624,
+   "OBA -> PMID [no_mondo_source_tag]": 11638,
+   "MONDO -> GARD [MONDO:GARD]": 11286,
+   "CHEBI -> pubmed [no_mondo_source_tag]": 9891,
+   "MONDO -> DOID [MONDO:equivalentTo]": 8542,
+   "EFO -> PMID [no_mondo_source_tag]": 7298,
+   "MONDO -> SCTID [MONDO:equivalentTo]": 6900,
+   "MONDO -> Orphanet [MONDO:equivalentTo]": 6703,
+   "MONDO -> OMIM [MONDO:equivalentTo]": 6608,
+   "PR -> UniProtKB [no_mondo_source_tag]": 6486,
+   "MONDO -> MESH [MONDO:equivalentTo]": 5717,
+   "PR -> Reactome [no_mondo_source_tag]": 5602,
+   "MONDO -> NCIT [MONDO:equivalentTo]": 5601,
+   "Orphanet -> OMIM [no_mondo_source_tag]": 3664,
+   "MONDO -> icd11.foundation [MONDO:equivalentTo]": 3525,
+   "MONDO -> ICD9 [MONDO:i2s]": 3124,
+   "HP -> UMLS [no_mondo_source_tag]": 2935,
+   "EFO -> uniprot [no_mondo_source_tag]": 2615,
+   "Orphanet -> ICD10 [no_mondo_source_tag]": 2519,
+   "MONDO -> EFO [MONDO:EFO]": 2394,
+   "MONDO -> EFO [MONDO:equivalentTo]": 2386,
+   "EFO -> MedDRA [no_mondo_source_tag]": 2223,
+   "MONDO -> NANDO [MONDO:NANDO]": 2106,
+   "EFO -> MESH [no_mondo_source_tag]": 1996,
+   "MONDO -> ICD9 [MONDO:relatedTo]": 1881,
+   "EFO -> NCIt [no_mondo_source_tag]": 1848,
+   "HP -> SNOMEDCT_US [no_mondo_source_tag]": 1697,
+   "EFO -> DOID [no_mondo_source_tag]": 1620,
+   "MONDO -> ICD10CM [MONDO:equivalentTo]": 1440,
+   "EFO -> SNOMEDCT [no_mondo_source_tag]": 1366,
+   "MONDO -> MedDRA [no_mondo_source_tag]": 1295,
+   "EFO -> ICD10 [no_mondo_source_tag]": 1249,
+   "MONDO -> ICD9 [MONDO:equivalentTo]": 1238,
+   "CHEBI -> cas [no_mondo_source_tag]": 1208,
+   "MONDO -> ICD9 [no_mondo_source_tag]": 1100,
+   "Orphanet -> UMLS [no_mondo_source_tag]": 1069,
+   "CHEBI -> reaxys [no_mondo_source_tag]": 1014,
+   "PR -> IUPHARobj [no_mondo_source_tag]": 998,
+   "CHEBI -> CiteXplore [no_mondo_source_tag]": 947,
+   "CHEBI -> kegg.compound [no_mondo_source_tag]": 867,
+   "MONDO -> NORD [MONDO:NORD]": 833,
+   "EFO -> EFO [MONDO:equivalentTo]": 826,
+   "EFO -> NCIT [MONDO:equivalentTo]": 810,
+   "CHEBI -> wikipedia.en [no_mondo_source_tag]": 788,
+   "GO -> Reactome [no_mondo_source_tag]": 781,
+   "UBERON -> FMA [no_mondo_source_tag]": 778,
+   "EFO -> UMLS [MONDO:equivalentTo]": 769,
+   "EFO -> OMIM [no_mondo_source_tag]": 765,
+   "MONDO -> NCIT [MONDO:exact-label-match]": 744,
+   "UBERON -> EMAPA [no_mondo_source_tag]": 728,
+   "EFO -> BTO [no_mondo_source_tag]": 724,
+   "EFO -> RRID [no_mondo_source_tag]": 713,
+   "UBERON -> UMLS [no_mondo_source_tag]": 692,
+   "UBERON -> Wikipedia [no_mondo_source_tag]": 690,
+   "NCBITaxon -> SNOMEDCT [no_mondo_source_tag]": 681,
+   "UBERON -> SCTID [no_mondo_source_tag]": 672,
+   "Orphanet -> MESH [no_mondo_source_tag]": 671
+  }
+ },
+ "names_with_only_hp_oba_orphanet": {
+  "names": 47734,
+  "by_prefixes": {
+   "HP": 10576,
+   "OBA": 36310,
+   "Orphanet": 847,
+   "HP+Orphanet": 1
+  },
+  "hp_names_by_available_equivalence": {
+   "direct_xref=0,shared_umls=0,related_synonym=0": 9383,
+   "direct_xref=0,shared_umls=0,related_synonym=1": 22,
+   "direct_xref=0,shared_umls=1,related_synonym=0": 758,
+   "direct_xref=0,shared_umls=1,related_synonym=1": 26,
+   "direct_xref=0,shared_umls=2,related_synonym=0": 34,
+   "direct_xref=1,shared_umls=0,related_synonym=0": 104,
+   "direct_xref=1,shared_umls=1,related_synonym=0": 219,
+   "direct_xref=1,shared_umls=1,related_synonym=1": 4,
+   "direct_xref=1,shared_umls=2,related_synonym=0": 15,
+   "direct_xref=2,shared_umls=1,related_synonym=0": 10,
+   "direct_xref=2,shared_umls=1,related_synonym=1": 2,
+   "no_hp_identifier": 37157
+  },
+  "examples": {
+   "direct_xref=0,shared_umls=0,related_synonym=0": [
+    {
+     "name": "12fingercutaneoussyndactyly",
+     "hp": [
+      "HP:0010704"
+     ],
+     "direct": [],
+     "shared_umls": [],
+     "related": []
+    },
+    {
+     "name": "12toesyndactyly",
+     "hp": [
+      "HP:0010711"
+     ],
+     "direct": [],
+     "shared_umls": [],
+     "related": []
+    },
+    {
+     "name": "13fingercutaneoussyndactyly",
+     "hp": [
+      "HP:0010706"
+     ],
+     "direct": [],
+     "shared_umls": [],
+     "related": []
+    },
+    {
+     "name": "13toesyndactyly",
+     "hp": [
+      "HP:0001459"
+     ],
+     "direct": [],
+     "shared_umls": [],
+     "related": []
+    },
+    {
+     "name": "14fingercutaneoussyndactyly",
+     "hp": [
+      "HP:0010707"
+     ],
+     "direct": [],
+     "shared_umls": [],
+     "related": []
+    },
+    {
+     "name": "14toesyndactyly",
+     "hp": [
+      "HP:0010712"
+     ],
+     "direct": [],
+     "shared_umls": [],
+     "related": []
+    },
+    {
+     "name": "15fingercutaneoussyndactyly",
+     "hp": [
+      "HP:0010708"
+     ],
+     "direct": [],
+     "shared_umls": [],
+     "related": []
+    },
+    {
+     "name": "15toesyndactyly",
+     "hp": [
+      "HP:0010713"
+     ],
+     "direct": [],
+     "shared_umls": [],
+     "related": []
+    },
+    {
+     "name": "23fingercutaneoussyndactyly",
+     "hp": [
+      "HP:0001233"
+     ],
+     "direct": [],
+     "shared_umls": [],
+     "related": []
+    },
+    {
+     "name": "23syndactylyoffeet",
+     "hp": [
+      "HP:0004691"
+     ],
+     "direct": [],
+     "shared_umls": [],
+     "related": []
+    },
+    {
+     "name": "23toecutaneoussyndactyly",
+     "hp": [
+      "HP:0005709"
+     ],
+     "direct": [],
+     "shared_umls": [],
+     "related": []
+    },
+    {
+     "name": "23toesofttissuesyndactyly",
+     "hp": [
+      "HP:0004691"
+     ],
+     "direct": [],
+     "shared_umls": [],
+     "related": []
+    }
+   ],
+   "direct_xref=0,shared_umls=1,related_synonym=0": [
+    {
+     "name": "abnormalbloodcalciumconcentration",
+     "hp": [
+      "HP:0004363"
+     ],
+     "direct": [],
+     "shared_umls": [
+      "MONDO:0005557 calcium metabolic disease"
+     ],
+     "related": []
+    },
+    {
+     "name": "abnormalbloodcalciumlevels",
+     "hp": [
+      "HP:0004363"
+     ],
+     "direct": [],
+     "shared_umls": [
+      "MONDO:0005557 calcium metabolic disease"
+     ],
+     "related": []
+    },
+    {
+     "name": "abnormalbloodclot",
+     "hp": [
+      "HP:0001977"
+     ],
+     "direct": [],
+     "shared_umls": [
+      "MONDO:0000831 thrombotic disease"
+     ],
+     "related": []
+    },
+    {
+     "name": "abnormalbloodclotting",
+     "hp": [
+      "HP:0001977"
+     ],
+     "direct": [],
+     "shared_umls": [
+      "MONDO:0000831 thrombotic disease"
+     ],
+     "related": []
+    },
+    {
+     "name": "abnormalcalcium2level",
+     "hp": [
+      "HP:0004363"
+     ],
+     "direct": [],
+     "shared_umls": [
+      "MONDO:0005557 calcium metabolic disease"
+     ],
+     "related": []
+    },
+    {
+     "name": "abnormalcardiacseptummorphology",
+     "hp": [
+      "HP:0001671"
+     ],
+     "direct": [],
+     "shared_umls": [
+      "MONDO:0002078 heart septal defect"
+     ],
+     "related": []
+    },
+    {
+     "name": "abnormalchoroidmorphology",
+     "hp": [
+      "HP:0000610"
+     ],
+     "direct": [],
+     "shared_umls": [
+      "MONDO:0001898 optic choroid disorder"
+     ],
+     "related": []
+    },
+    {
+     "name": "abnormalcirculatingca2concentration",
+     "hp": [
+      "HP:0004363"
+     ],
+     "direct": [],
+     "shared_umls": [
+      "MONDO:0005557 calcium metabolic disease"
+     ],
+     "related": []
+    },
+    {
+     "name": "abnormalcirculatingcaconcentration",
+     "hp": [
+      "HP:0004363"
+     ],
+     "direct": [],
+     "shared_umls": [
+      "MONDO:0005557 calcium metabolic disease"
+     ],
+     "related": []
+    },
+    {
+     "name": "abnormalcirculatingcalciumconcentration",
+     "hp": [
+      "HP:0004363"
+     ],
+     "direct": [],
+     "shared_umls": [
+      "MONDO:0005557 calcium metabolic disease"
+     ],
+     "related": []
+    },
+    {
+     "name": "abnormaleye",
+     "hp": [
+      "HP:0000478"
+     ],
+     "direct": [],
+     "shared_umls": [
+      "MONDO:0005328 eye disorder"
+     ],
+     "related": []
+    },
+    {
+     "name": "abnormalfunctionoffiltratingstructuresinkidney",
+     "hp": [
+      "HP:0000124"
+     ],
+     "direct": [],
+     "shared_umls": [
+      "MONDO:0021568 renal tubule disorder"
+     ],
+     "related": []
+    }
+   ],
+   "direct_xref=0,shared_umls=2,related_synonym=0": [
+    {
+     "name": "abnormalbloodcoagulationstudies",
+     "hp": [
+      "HP:0001928"
+     ],
+     "direct": [],
+     "shared_umls": [
+      "MONDO:0001531 blood coagulation disease",
+      "MONDO:0002243 hemorrhagic disease"
+     ],
+     "related": []
+    },
+    {
+     "name": "abnormalheartrate",
+     "hp": [
+      "HP:0011675"
+     ],
+     "direct": [],
+     "shared_umls": [
+      "MONDO:0007263 cardiac rhythm disease",
+      "MONDO:0100042 cardiac conduction defect"
+     ],
+     "related": []
+    },
+    {
+     "name": "abnormalityofcoagulation",
+     "hp": [
+      "HP:0001928"
+     ],
+     "direct": [],
+     "shared_umls": [
+      "MONDO:0001531 blood coagulation disease",
+      "MONDO:0002243 hemorrhagic disease"
+     ],
+     "related": []
+    },
+    {
+     "name": "abnormalityofthelymphaticsystem",
+     "hp": [
+      "HP:0100763"
+     ],
+     "direct": [],
+     "shared_umls": [
+      "MONDO:0005833 lymphatic system disorder",
+      "MONDO:0044986 lymphoid system disorder"
+     ],
+     "related": []
+    },
+    {
+     "name": "abnormalperipheralnervoussystemmorphology",
+     "hp": [
+      "HP:0000759"
+     ],
+     "direct": [],
+     "shared_umls": [
+      "MONDO:0003620 peripheral nervous system disorder",
+      "MONDO:0005244 peripheral neuropathy"
+     ],
+     "related": []
+    },
+    {
+     "name": "abnormalperipheralnervoussystemstructure",
+     "hp": [
+      "HP:0000759"
+     ],
+     "direct": [],
+     "shared_umls": [
+      "MONDO:0003620 peripheral nervous system disorder",
+      "MONDO:0005244 peripheral neuropathy"
+     ],
+     "related": []
+    },
+    {
+     "name": "arrhythmias",
+     "hp": [
+      "HP:0011675"
+     ],
+     "direct": [],
+     "shared_umls": [
+      "MONDO:0007263 cardiac rhythm disease",
+      "MONDO:0100042 cardiac conduction defect"
+     ],
+     "related": []
+    },
+    {
+     "name": "cardiacrhythmdisturbances",
+     "hp": [
+      "HP:0011675"
+     ],
+     "direct": [],
+     "shared_umls": [
+      "MONDO:0007263 cardiac rhythm disease",
+      "MONDO:0100042 cardiac conduction defect"
+     ],
+     "related": []
+    },
+    {
+     "name": "climacteriumpraecox",
+     "hp": [
+      "HP:0008209"
+     ],
+     "direct": [],
+     "shared_umls": [
+      "MONDO:0001119 premature menopause",
+      "MONDO:0005387 primary ovarian failure"
+     ],
+     "related": []
+    },
+    {
+     "name": "coagulationabnormalities",
+     "hp": [
+      "HP:0001928"
+     ],
+     "direct": [],
+     "shared_umls": [
+      "MONDO:0001531 blood coagulation disease",
+      "MONDO:0002243 hemorrhagic disease"
+     ],
+     "related": []
+    },
+    {
+     "name": "coagulationabnormality",
+     "hp": [
+      "HP:0001928"
+     ],
+     "direct": [],
+     "shared_umls": [
+      "MONDO:0001531 blood coagulation disease",
+      "MONDO:0002243 hemorrhagic disease"
+     ],
+     "related": []
+    },
+    {
+     "name": "completeachromatopsia",
+     "hp": [
+      "HP:0007803"
+     ],
+     "direct": [],
+     "shared_umls": [
+      "MONDO:0009003 achromatopsia 2",
+      "MONDO:0018852 achromatopsia"
+     ],
+     "related": []
+    }
+   ],
+   "direct_xref=1,shared_umls=1,related_synonym=0": [
+    {
+     "name": "abnormalcurvingofthecorneaorlensoftheeye",
+     "hp": [
+      "HP:0000483"
+     ],
+     "direct": [
+      "MONDO:0011284 [MONDO:otherHierarchy]"
+     ],
+     "shared_umls": [
+      "MONDO:0011284 astigmatism"
+     ],
+     "related": []
+    },
+    {
+     "name": "abnormalityofthethumb",
+     "hp": [
+      "HP:0001172"
+     ],
+     "direct": [
+      "MONDO:0008561 [MONDO:otherHierarchy]"
+     ],
+     "shared_umls": [
+      "MONDO:0008561 thumb deformity"
+     ],
+     "related": []
+    },
+    {
+     "name": "abnormalityofthethumbs",
+     "hp": [
+      "HP:0001172"
+     ],
+     "direct": [
+      "MONDO:0008561 [MONDO:otherHierarchy]"
+     ],
+     "shared_umls": [
+      "MONDO:0008561 thumb deformity"
+     ],
+     "related": []
+    },
+    {
+     "name": "abnormallyindentedhipsockets",
+     "hp": [
+      "HP:0003179"
+     ],
+     "direct": [
+      "MONDO:0008320 [MONDO:otherHierarchy]"
+     ],
+     "shared_umls": [
+      "MONDO:0008320 Protrusio acetabuli"
+     ],
+     "related": []
+    },
+    {
+     "name": "abnormalthumbmorphology",
+     "hp": [
+      "HP:0001172"
+     ],
+     "direct": [
+      "MONDO:0008561 [MONDO:otherHierarchy]"
+     ],
+     "shared_umls": [
+      "MONDO:0008561 thumb deformity"
+     ],
+     "related": []
+    },
+    {
+     "name": "absolutelymphocytecountdecrease",
+     "hp": [
+      "HP:0001888"
+     ],
+     "direct": [
+      "MONDO:0003783 [MONDO:otherHierarchy]"
+     ],
+     "shared_umls": [
+      "MONDO:0003783 lymphopenia"
+     ],
+     "related": []
+    },
+    {
+     "name": "acetabularprotrusion",
+     "hp": [
+      "HP:0003179"
+     ],
+     "direct": [
+      "MONDO:0008320 [MONDO:otherHierarchy]"
+     ],
+     "shared_umls": [
+      "MONDO:0008320 Protrusio acetabuli"
+     ],
+     "related": []
+    },
+    {
+     "name": "achalasiaoftheesophagus",
+     "hp": [
+      "HP:0002571"
+     ],
+     "direct": [
+      "MONDO:0008698 [MONDO:otherHierarchy]"
+     ],
+     "shared_umls": [
+      "MONDO:0008698 achalasia"
+     ],
+     "related": []
+    },
+    {
+     "name": "achalasiaoftheoesophagus",
+     "hp": [
+      "HP:0002571"
+     ],
+     "direct": [
+      "MONDO:0008698 [MONDO:otherHierarchy]"
+     ],
+     "shared_umls": [
+      "MONDO:0008698 achalasia"
+     ],
+     "related": []
+    },
+    {
+     "name": "amelia",
+     "hp": [
+      "HP:0009827"
+     ],
+     "direct": [
+      "MONDO:0017419 [MONDO:otherHierarchy]"
+     ],
+     "shared_umls": [
+      "MONDO:0017419 non-syndromic amelia"
+     ],
+     "related": []
+    },
+    {
+     "name": "anteriorbulgingoftheglobe",
+     "hp": [
+      "HP:0000520"
+     ],
+     "direct": [
+      "MONDO:0004770 [MONDO:otherHierarchy]"
+     ],
+     "shared_umls": [
+      "MONDO:0004770 exophthalmos"
+     ],
+     "related": []
+    },
+    {
+     "name": "anteriorbulgingoftheglobeofeye",
+     "hp": [
+      "HP:0000520"
+     ],
+     "direct": [
+      "MONDO:0004770 [MONDO:otherHierarchy]"
+     ],
+     "shared_umls": [
+      "MONDO:0004770 exophthalmos"
+     ],
+     "related": []
+    }
+   ],
+   "direct_xref=1,shared_umls=0,related_synonym=0": [
+    {
+     "name": "abnormalityofthegenitourinarysystem",
+     "hp": [
+      "HP:0000119"
+     ],
+     "direct": [
+      "MONDO:0010594 [MONDO:otherHierarchy]"
+     ],
+     "shared_umls": [],
+     "related": []
+    },
+    {
+     "name": "abnormalityofthetricuspidvalve",
+     "hp": [
+      "HP:0001702"
+     ],
+     "direct": [
+      "MONDO:0020289 [MONDO:otherHierarchy]"
+     ],
+     "shared_umls": [],
+     "related": []
+    },
+    {
+     "name": "abnormaltricuspidvalvemorphology",
+     "hp": [
+      "HP:0001702"
+     ],
+     "direct": [
+      "MONDO:0020289 [MONDO:otherHierarchy]"
+     ],
+     "shared_umls": [],
+     "related": []
+    },
+    {
+     "name": "acalculia",
+     "hp": [
+      "HP:0002442"
+     ],
+     "direct": [
+      "MONDO:0001552 [MONDO:otherHierarchy]"
+     ],
+     "shared_umls": [],
+     "related": []
+    },
+    {
+     "name": "ameliainvolvingthelowerlimbs",
+     "hp": [
+      "HP:0009818"
+     ],
+     "direct": [
+      "MONDO:0017438 [MONDO:otherHierarchy]"
+     ],
+     "shared_umls": [],
+     "related": []
+    },
+    {
+     "name": "ameliainvolvingtheupperlimbs",
+     "hp": [
+      "HP:0009812"
+     ],
+     "direct": [
+      "MONDO:0017437 [MONDO:otherHierarchy]"
+     ],
+     "shared_umls": [],
+     "related": []
+    },
+    {
+     "name": "anteriormegalophthalmos",
+     "hp": [
+      "HP:0000485"
+     ],
+     "direct": [
+      "MONDO:0009576 [MONDO:otherHierarchy]"
+     ],
+     "shared_umls": [],
+     "related": []
+    },
+    {
+     "name": "astereognosis",
+     "hp": [
+      "HP:0010527"
+     ],
+     "direct": [
+      "MONDO:0000680 [MONDO:otherHierarchy]"
+     ],
+     "shared_umls": [],
+     "related": []
+    },
+    {
+     "name": "basalgangliacalcifications",
+     "hp": [
+      "HP:0002135"
+     ],
+     "direct": [
+      "MONDO:0008947 [MONDO:otherHierarchy]"
+     ],
+     "shared_umls": [],
+     "related": []
+    },
+    {
+     "name": "basalganglioncalcification",
+     "hp": [
+      "HP:0002135"
+     ],
+     "direct": [
+      "MONDO:0008947 [MONDO:otherHierarchy]"
+     ],
+     "shared_umls": [],
+     "related": []
+    },
+    {
+     "name": "bodyfailstorespondtoinsulin",
+     "hp": [
+      "HP:0000855"
+     ],
+     "direct": [
+      "EFO:0002614 [no_mondo_source_tag]"
+     ],
+     "shared_umls": [],
+     "related": []
+    },
+    {
+     "name": "calcificationofthebasalganglia",
+     "hp": [
+      "HP:0002135"
+     ],
+     "direct": [
+      "MONDO:0008947 [MONDO:otherHierarchy]"
+     ],
+     "shared_umls": [],
+     "related": []
+    }
+   ],
+   "direct_xref=1,shared_umls=2,related_synonym=0": [
+    {
+     "name": "abnormallysmallcranium",
+     "hp": [
+      "HP:0000252"
+     ],
+     "direct": [
+      "MONDO:0001149 [MONDO:otherHierarchy]"
+     ],
+     "shared_umls": [
+      "MONDO:0001149 microcephaly",
+      "MONDO:0016056 isolated congenital microcephaly"
+     ],
+     "related": []
+    },
+    {
+     "name": "abnormallysmallskull",
+     "hp": [
+      "HP:0000252"
+     ],
+     "direct": [
+      "MONDO:0001149 [MONDO:otherHierarchy]"
+     ],
+     "shared_umls": [
+      "MONDO:0001149 microcephaly",
+      "MONDO:0016056 isolated congenital microcephaly"
+     ],
+     "related": []
+    },
+    {
+     "name": "bronchialasthma",
+     "hp": [
+      "HP:0002099"
+     ],
+     "direct": [
+      "MONDO:0004979 [MONDO:otherHierarchy]"
+     ],
+     "shared_umls": [
+      "MONDO:0004979 asthma",
+      "MONDO:0100470 reactive airway disease"
+     ],
+     "related": []
+    },
+    {
+     "name": "cardiacfailures",
+     "hp": [
+      "HP:0001635"
+     ],
+     "direct": [
+      "MONDO:0005009 [MONDO:otherHierarchy]"
+     ],
+     "shared_umls": [
+      "MONDO:0005009 congestive heart failure",
+      "MONDO:0005252 heart failure"
+     ],
+     "related": []
+    },
+    {
+     "name": "chronicheartfailure",
+     "hp": [
+      "HP:0001635"
+     ],
+     "direct": [
+      "MONDO:0005009 [MONDO:otherHierarchy]"
+     ],
+     "shared_umls": [
+      "MONDO:0005009 congestive heart failure",
+      "MONDO:0005252 heart failure"
+     ],
+     "related": []
+    },
+    {
+     "name": "decreasedcircumferenceofcranium",
+     "hp": [
+      "HP:0000252"
+     ],
+     "direct": [
+      "MONDO:0001149 [MONDO:otherHierarchy]"
+     ],
+     "shared_umls": [
+      "MONDO:0001149 microcephaly",
+      "MONDO:0016056 isolated congenital microcephaly"
+     ],
+     "related": []
+    },
+    {
+     "name": "decreasedsizeofcranium",
+     "hp": [
+      "HP:0000252"
+     ],
+     "direct": [
+      "MONDO:0001149 [MONDO:otherHierarchy]"
+     ],
+     "shared_umls": [
+      "MONDO:0001149 microcephaly",
+      "MONDO:0016056 isolated congenital microcephaly"
+     ],
+     "related": []
+    },
+    {
+     "name": "decreasedsizeofskull",
+     "hp": [
+      "HP:0000252"
+     ],
+     "direct": [
+      "MONDO:0001149 [MONDO:otherHierarchy]"
+     ],
+     "shared_umls": [
+      "MONDO:0001149 microcephaly",
+      "MONDO:0016056 isolated congenital microcephaly"
+     ],
+     "related": []
+    },
+    {
+     "name": "keratitissicca",
+     "hp": [
+      "HP:0001097"
+     ],
+     "direct": [
+      "EFO:1000906 [no_mondo_source_tag]"
+     ],
+     "shared_umls": [
+      "MONDO:0000948 xerophthalmia",
+      "MONDO:0006733 dry eye syndrome"
+     ],
+     "related": []
+    },
+    {
+     "name": "loxia",
+     "hp": [
+      "HP:0000473"
+     ],
+     "direct": [
+      "MONDO:0008583 [MONDO:otherHierarchy]"
+     ],
+     "shared_umls": [
+      "MONDO:0000481 cervical dystonia",
+      "MONDO:0008583 inherited torticollis"
+     ],
+     "related": []
+    },
+    {
+     "name": "reducedheadcircumference",
+     "hp": [
+      "HP:0000252"
+     ],
+     "direct": [
+      "MONDO:0001149 [MONDO:otherHierarchy]"
+     ],
+     "shared_umls": [
+      "MONDO:0001149 microcephaly",
+      "MONDO:0016056 isolated congenital microcephaly"
+     ],
+     "related": []
+    },
+    {
+     "name": "smallcranium",
+     "hp": [
+      "HP:0000252"
+     ],
+     "direct": [
+      "MONDO:0001149 [MONDO:otherHierarchy]"
+     ],
+     "shared_umls": [
+      "MONDO:0001149 microcephaly",
+      "MONDO:0016056 isolated congenital microcephaly"
+     ],
+     "related": []
+    }
+   ],
+   "direct_xref=0,shared_umls=0,related_synonym=1": [
+    {
+     "name": "absentpatella",
+     "hp": [
+      "HP:0006443"
+     ],
+     "direct": [],
+     "shared_umls": [],
+     "related": [
+      "MONDO:0008205 patella aplasia/hypoplasia"
+     ]
+    },
+    {
+     "name": "alcoholaddiction",
+     "hp": [
+      "HP:0030955"
+     ],
+     "direct": [],
+     "shared_umls": [],
+     "related": [
+      "MONDO:0002046 alcohol abuse"
+     ]
+    },
+    {
+     "name": "analstenosis",
+     "hp": [
+      "HP:0002025"
+     ],
+     "direct": [],
+     "shared_umls": [],
+     "related": [
+      "MONDO:0001046 imperforate anus"
+     ]
+    },
+    {
+     "name": "bifidtongue",
+     "hp": [
+      "HP:0010297"
+     ],
+     "direct": [],
+     "shared_umls": [],
+     "related": [
+      "MONDO:0022790 cleft tongue"
+     ]
+    },
+    {
+     "name": "centralapnea",
+     "hp": [
+      "HP:0002871"
+     ],
+     "direct": [],
+     "shared_umls": [],
+     "related": [
+      "MONDO:0004731 central sleep apnea syndrome"
+     ]
+    },
+    {
+     "name": "coma",
+     "hp": [
+      "HP:0001259"
+     ],
+     "direct": [],
+     "shared_umls": [],
+     "related": [
+      "MONDO:0009764 ocular motor apraxia, Cogan type"
+     ]
+    },
+    {
+     "name": "diaphragmaticparalysis",
+     "hp": [
+      "HP:0006597"
+     ],
+     "direct": [],
+     "shared_umls": [],
+     "related": [
+      "MONDO:0043775 respiratory paralysis"
+     ]
+    },
+    {
+     "name": "diffusemesangialsclerosis",
+     "hp": [
+      "HP:0001967"
+     ],
+     "direct": [],
+     "shared_umls": [],
+     "related": [
+      "MONDO:0009733 nephrotic syndrome, type 4"
+     ]
+    },
+    {
+     "name": "duodenalstenosis",
+     "hp": [
+      "HP:0100867"
+     ],
+     "direct": [],
+     "shared_umls": [],
+     "related": [
+      "MONDO:0009126 duodenal atresia"
+     ]
+    },
+    {
+     "name": "furuncle",
+     "hp": [
+      "HP:0020083"
+     ],
+     "direct": [],
+     "shared_umls": [],
+     "related": [
+      "MONDO:0025419 furunculosis, fish"
+     ]
+    },
+    {
+     "name": "hypoadrenalism",
+     "hp": [
+      "HP:0000846"
+     ],
+     "direct": [],
+     "shared_umls": [],
+     "related": [
+      "MONDO:0000004 adrenocortical insufficiency"
+     ]
+    },
+    {
+     "name": "immunoglobulindeficiency",
+     "hp": [
+      "HP:0004313"
+     ],
+     "direct": [],
+     "shared_umls": [],
+     "related": [
+      "MONDO:0015977 agammaglobulinemia"
+     ]
+    }
+   ],
+   "direct_xref=0,shared_umls=1,related_synonym=1": [
+    {
+     "name": "acidlabilesubunitdeficiency",
+     "hp": [
+      "HP:0045046"
+     ],
+     "direct": [],
+     "shared_umls": [
+      "MONDO:0014420 short stature due to primary acid-labile subunit deficiency"
+     ],
+     "related": [
+      "MONDO:0014420 short stature due to primary acid-labile subunit deficiency"
+     ]
+    },
+    {
+     "name": "acutemonoblasticleukaemia",
+     "hp": [
+      "HP:0004845"
+     ],
+     "direct": [],
+     "shared_umls": [
+      "MONDO:0007896 acute monocytic leukemia"
+     ],
+     "related": [
+      "MONDO:0007896 acute monocytic leukemia"
+     ]
+    },
+    {
+     "name": "acutemonoblasticleukemia",
+     "hp": [
+      "HP:0004845"
+     ],
+     "direct": [],
+     "shared_umls": [
+      "MONDO:0007896 acute monocytic leukemia"
+     ],
+     "related": [
+      "MONDO:0007896 acute monocytic leukemia"
+     ]
+    },
+    {
+     "name": "adenomasebaceum",
+     "hp": [
+      "HP:0009720"
+     ],
+     "direct": [],
+     "shared_umls": [
+      "MONDO:0002375 sebaceous adenoma"
+     ],
+     "related": [
+      "MONDO:0001734 tuberous sclerosis"
+     ]
+    },
+    {
+     "name": "agenesisofthecorpuscallosum",
+     "hp": [
+      "HP:0001274"
+     ],
+     "direct": [],
+     "shared_umls": [
+      "MONDO:0009022 corpus callosum, agenesis of"
+     ],
+     "related": [
+      "MONDO:0009022 corpus callosum, agenesis of"
+     ]
+    },
+    {
+     "name": "anomalouspulmonaryvenousreturn",
+     "hp": [
+      "HP:0010772"
+     ],
+     "direct": [],
+     "shared_umls": [
+      "MONDO:0015987 scimitar syndrome"
+     ],
+     "related": [
+      "MONDO:0017705 congenital pulmonary venous return anomaly"
+     ]
+    },
+    {
+     "name": "aplasticanaemia",
+     "hp": [
+      "HP:0001915"
+     ],
+     "direct": [],
+     "shared_umls": [
+      "MONDO:0015909 aplastic anemia"
+     ],
+     "related": [
+      "MONDO:0012197 idiopathic aplastic anemia"
+     ]
+    },
+    {
+     "name": "camptocormia",
+     "hp": [
+      "HP:0100595"
+     ],
+     "direct": [],
+     "shared_umls": [
+      "MONDO:0015271 idiopathic camptocormia"
+     ],
+     "related": [
+      "MONDO:0015271 idiopathic camptocormia"
+     ]
+    },
+    {
+     "name": "duaneanomaly",
+     "hp": [
+      "HP:0009921"
+     ],
+     "direct": [],
+     "shared_umls": [
+      "MONDO:0007473 Duane retraction syndrome"
+     ],
+     "related": [
+      "MONDO:0007473 Duane retraction syndrome"
+     ]
+    },
+    {
+     "name": "ebsteinsmalformation",
+     "hp": [
+      "HP:0010316"
+     ],
+     "direct": [],
+     "shared_umls": [
+      "MONDO:0009144 Ebstein anomaly"
+     ],
+     "related": [
+      "MONDO:0009144 Ebstein anomaly"
+     ]
+    },
+    {
+     "name": "generalisedelastolysis",
+     "hp": [
+      "HP:0000973"
+     ],
+     "direct": [],
+     "shared_umls": [
+      "MONDO:0016175 cutis laxa"
+     ],
+     "related": [
+      "MONDO:0016175 cutis laxa"
+     ]
+    },
+    {
+     "name": "generalizedelastolysis",
+     "hp": [
+      "HP:0000973"
+     ],
+     "direct": [],
+     "shared_umls": [
+      "MONDO:0016175 cutis laxa"
+     ],
+     "related": [
+      "MONDO:0016175 cutis laxa"
+     ]
+    }
+   ],
+   "direct_xref=2,shared_umls=1,related_synonym=0": [
+    {
+     "name": "acutepancreaticinflammation",
+     "hp": [
+      "HP:0001735"
+     ],
+     "direct": [
+      "EFO:1000652 [no_mondo_source_tag]",
+      "MONDO:0006515 [MONDO:otherHierarchy]"
+     ],
+     "shared_umls": [
+      "MONDO:0006515 acute pancreatitis"
+     ],
+     "related": []
+    },
+    {
+     "name": "anaemia",
+     "hp": [
+      "HP:0001903"
+     ],
+     "direct": [
+      "EFO:0004272 [no_mondo_source_tag]",
+      "MONDO:0002280 [MONDO:otherHierarchy]"
+     ],
+     "shared_umls": [
+      "MONDO:0002280 anemia"
+     ],
+     "related": []
+    },
+    {
+     "name": "benignuterineleiomyomas",
+     "hp": [
+      "HP:0000131"
+     ],
+     "direct": [
+      "EFO:0000731 [MONDO:otherHierarchy]",
+      "MONDO:0007886 [MONDO:otherHierarchy]"
+     ],
+     "shared_umls": [
+      "MONDO:0007886 uterine corpus leiomyoma"
+     ],
+     "related": []
+    },
+    {
+     "name": "bloodclotinarteryoflung",
+     "hp": [
+      "HP:0002204"
+     ],
+     "direct": [
+      "EFO:0003827 [no_mondo_source_tag]",
+      "MONDO:0005279 [MONDO:otherHierarchy]"
+     ],
+     "shared_umls": [
+      "MONDO:0005279 pulmonary embolism"
+     ],
+     "related": []
+    },
+    {
+     "name": "cardiomyopathydilated",
+     "hp": [
+      "HP:0001644"
+     ],
+     "direct": [
+      "EFO:0000407 [no_mondo_source_tag]",
+      "MONDO:0005021 [MONDO:otherHierarchy]"
+     ],
+     "shared_umls": [
+      "MONDO:0005021 dilated cardiomyopathy"
+     ],
+     "related": []
+    },
+    {
+     "name": "congestivecardiomyopathy",
+     "hp": [
+      "HP:0001644"
+     ],
+     "direct": [
+      "EFO:0000407 [no_mondo_source_tag]",
+      "MONDO:0005021 [MONDO:otherHierarchy]"
+     ],
+     "shared_umls": [
+      "MONDO:0005021 dilated cardiomyopathy"
+     ],
+     "related": []
+    },
+    {
+     "name": "highurinetrimethylaminelevels",
+     "hp": [
+      "HP:0003614"
+     ],
+     "direct": [
+      "MONDO:0011182 [MONDO:otherHierarchy]",
+      "MONDO:0018767 [MONDO:otherHierarchy]"
+     ],
+     "shared_umls": [
+      "MONDO:0011182 trimethylaminuria"
+     ],
+     "related": []
+    },
+    {
+     "name": "lownumberofredbloodcellsorhaemoglobin",
+     "hp": [
+      "HP:0001903"
+     ],
+     "direct": [
+      "EFO:0004272 [no_mondo_source_tag]",
+      "MONDO:0002280 [MONDO:otherHierarchy]"
+     ],
+     "shared_umls": [
+      "MONDO:0002280 anemia"
+     ],
+     "related": []
+    },
+    {
+     "name": "lownumberofredbloodcellsorhemoglobin",
+     "hp": [
+      "HP:0001903"
+     ],
+     "direct": [
+      "EFO:0004272 [no_mondo_source_tag]",
+      "MONDO:0002280 [MONDO:otherHierarchy]"
+     ],
+     "shared_umls": [
+      "MONDO:0002280 anemia"
+     ],
+     "related": []
+    },
+    {
+     "name": "stretchedandthinnedheartmuscle",
+     "hp": [
+      "HP:0001644"
+     ],
+     "direct": [
+      "EFO:0000407 [no_mondo_source_tag]",
+      "MONDO:0005021 [MONDO:otherHierarchy]"
+     ],
+     "shared_umls": [
+      "MONDO:0005021 dilated cardiomyopathy"
+     ],
+     "related": []
+    }
+   ],
+   "direct_xref=2,shared_umls=1,related_synonym=1": [
+    {
+     "name": "dcm",
+     "hp": [
+      "HP:0001644"
+     ],
+     "direct": [
+      "EFO:0000407 [no_mondo_source_tag]",
+      "MONDO:0005021 [MONDO:otherHierarchy]"
+     ],
+     "shared_umls": [
+      "MONDO:0005021 dilated cardiomyopathy"
+     ],
+     "related": [
+      "MONDO:0016333 familial dilated cardiomyopathy"
+     ]
+    },
+    {
+     "name": "uterineleiomyoma",
+     "hp": [
+      "HP:0000131"
+     ],
+     "direct": [
+      "EFO:0000731 [MONDO:otherHierarchy]",
+      "MONDO:0007886 [MONDO:otherHierarchy]"
+     ],
+     "shared_umls": [
+      "MONDO:0007886 uterine corpus leiomyoma"
+     ],
+     "related": [
+      "MONDO:0007886 uterine corpus leiomyoma"
+     ]
+    }
+   ],
+   "direct_xref=1,shared_umls=1,related_synonym=1": [
+    {
+     "name": "dyschezia",
+     "hp": [
+      "HP:0002019"
+     ],
+     "direct": [
+      "MONDO:0002203 [MONDO:otherHierarchy]"
+     ],
+     "shared_umls": [
+      "MONDO:0002203 constipation disorder"
+     ],
+     "related": [
+      "MONDO:0002203 constipation disorder"
+     ]
+    },
+    {
+     "name": "impotence",
+     "hp": [
+      "HP:0000802"
+     ],
+     "direct": [
+      "MONDO:0005362 [MONDO:otherHierarchy]"
+     ],
+     "shared_umls": [
+      "MONDO:0005362 erectile dysfunction"
+     ],
+     "related": [
+      "MONDO:0005362 erectile dysfunction"
+     ]
+    },
+    {
+     "name": "minicoremyopathy",
+     "hp": [
+      "HP:0003789"
+     ],
+     "direct": [
+      "MONDO:0017939 [MONDO:otherHierarchy]"
+     ],
+     "shared_umls": [
+      "MONDO:0009712 congenital multicore myopathy with external ophthalmoplegia"
+     ],
+     "related": [
+      "MONDO:0017939 classic multiminicore myopathy"
+     ]
+    },
+    {
+     "name": "valvularaorticstenosis",
+     "hp": [
+      "HP:0001650"
+     ],
+     "direct": [
+      "MONDO:0042981 [MONDO:otherHierarchy]"
+     ],
+     "shared_umls": [
+      "MONDO:0042981 aortic valve stenosis"
+     ],
+     "related": [
+      "MONDO:0042981 aortic valve stenosis"
+     ]
+    }
+   ]
+  }
+ },
+ "probe_names": {
+  "hypertension": {
+   "exact_ids": [
+    "HP:0000822"
+   ],
+   "candidates": [
+    "HP:0000822"
+   ],
+   "final": [
+    "HP:0000822"
+   ],
+   "related_ids": [],
+   "hp_direct_xref": [
+    "MONDO:0005044 [MONDO:otherHierarchy]"
+   ],
+   "hp_shared_umls": [
+    "MONDO:0005044 hypertensive disorder"
+   ]
+  },
+  "myocardial infarction": {
+   "exact_ids": [
+    "MONDO:0005068"
+   ],
+   "candidates": [
+    "MONDO:0005068"
+   ],
+   "final": [
+    "MONDO:0005068"
+   ],
+   "related_ids": [],
+   "hp_direct_xref": [],
+   "hp_shared_umls": []
+  },
+  "atrial fibrillation": {
+   "exact_ids": [
+    "MONDO:0004981"
+   ],
+   "candidates": [
+    "MONDO:0004981"
+   ],
+   "final": [
+    "MONDO:0004981"
+   ],
+   "related_ids": [],
+   "hp_direct_xref": [],
+   "hp_shared_umls": []
+  },
+  "obesity": {
+   "exact_ids": [
+    "HP:0001513",
+    "MONDO:0011122"
+   ],
+   "candidates": [
+    "HP:0001513",
+    "MONDO:0011122"
+   ],
+   "final": [
+    "MONDO:0011122"
+   ],
+   "related_ids": [],
+   "hp_direct_xref": [
+    "MONDO:0011122 [MONDO:otherHierarchy]"
+   ],
+   "hp_shared_umls": [
+    "MONDO:0011122 obesity disorder"
+   ]
+  },
+  "stroke": {
+   "exact_ids": [
+    "HP:0001297",
+    "MONDO:0005098"
+   ],
+   "candidates": [
+    "HP:0001297",
+    "MONDO:0005098"
+   ],
+   "final": [
+    "MONDO:0005098"
+   ],
+   "related_ids": [],
+   "hp_direct_xref": [
+    "MONDO:0005098 [no_mondo_source_tag]"
+   ],
+   "hp_shared_umls": [
+    "MONDO:0005098 stroke disorder"
+   ]
+  },
+  "heart failure": {
+   "exact_ids": [
+    "HP:0001635",
+    "MONDO:0005252"
+   ],
+   "candidates": [
+    "HP:0001635",
+    "MONDO:0005252"
+   ],
+   "final": [
+    "MONDO:0005252"
+   ],
+   "related_ids": [],
+   "hp_direct_xref": [
+    "MONDO:0005009 [MONDO:otherHierarchy]"
+   ],
+   "hp_shared_umls": [
+    "MONDO:0005009 congestive heart failure",
+    "MONDO:0005252 heart failure"
+   ]
+  },
+  "type 2 diabetes": {
+   "exact_ids": [
+    "MONDO:0005148"
+   ],
+   "candidates": [
+    "MONDO:0005148"
+   ],
+   "final": [
+    "MONDO:0005148"
+   ],
+   "related_ids": [],
+   "hp_direct_xref": [],
+   "hp_shared_umls": []
+  },
+  "asthma": {
+   "exact_ids": [
+    "HP:0002099",
+    "MONDO:0004979"
+   ],
+   "candidates": [
+    "HP:0002099",
+    "MONDO:0004979"
+   ],
+   "final": [
+    "MONDO:0004979"
+   ],
+   "related_ids": [],
+   "hp_direct_xref": [
+    "MONDO:0004979 [MONDO:otherHierarchy]"
+   ],
+   "hp_shared_umls": [
+    "MONDO:0004979 asthma",
+    "MONDO:0100470 reactive airway disease"
+   ]
+  },
+  "osteoporosis": {
+   "exact_ids": [
+    "HP:0000939",
+    "MONDO:0005298"
+   ],
+   "candidates": [
+    "HP:0000939",
+    "MONDO:0005298"
+   ],
+   "final": [
+    "MONDO:0005298"
+   ],
+   "related_ids": [],
+   "hp_direct_xref": [],
+   "hp_shared_umls": [
+    "MONDO:0005298 osteoporosis"
+   ]
+  },
+  "depression": {
+   "exact_ids": [
+    "MONDO:0002050"
+   ],
+   "candidates": [
+    "MONDO:0002050"
+   ],
+   "final": [
+    "MONDO:0002050"
+   ],
+   "related_ids": [],
+   "hp_direct_xref": [],
+   "hp_shared_umls": []
+  },
+  "chronic kidney disease": {
+   "exact_ids": [
+    "MONDO:0005300"
+   ],
+   "candidates": [
+    "MONDO:0005300"
+   ],
+   "final": [
+    "MONDO:0005300"
+   ],
+   "related_ids": [],
+   "hp_direct_xref": [],
+   "hp_shared_umls": []
+  },
+  "migraine": {
+   "exact_ids": [
+    "HP:0002076",
+    "MONDO:0005277"
+   ],
+   "candidates": [
+    "HP:0002076",
+    "MONDO:0005277"
+   ],
+   "final": [
+    "MONDO:0005277"
+   ],
+   "related_ids": [],
+   "hp_direct_xref": [],
+   "hp_shared_umls": []
+  },
+  "hypercholesterolemia": {
+   "exact_ids": [
+    "HP:0003124"
+   ],
+   "candidates": [
+    "HP:0003124"
+   ],
+   "final": [
+    "HP:0003124"
+   ],
+   "related_ids": [],
+   "hp_direct_xref": [],
+   "hp_shared_umls": []
+  },
+  "gout": {
+   "exact_ids": [
+    "HP:0001997",
+    "MONDO:0005393"
+   ],
+   "candidates": [
+    "HP:0001997",
+    "MONDO:0005393"
+   ],
+   "final": [
+    "MONDO:0005393"
+   ],
+   "related_ids": [],
+   "hp_direct_xref": [],
+   "hp_shared_umls": [
+    "MONDO:0005393 gout"
+   ]
+  }
+ },
+ "epigraphdb_traits_not_mapped": [
+  {
+   "name": "Cough on most days",
+   "state": "unmapped",
+   "canonical_ids": "",
+   "icd_codes": [],
+   "icd_xref_terms": {}
+  },
+  {
+   "name": "Creatinine (enzymatic) in urine",
+   "state": "unmapped",
+   "canonical_ids": "",
+   "icd_codes": [],
+   "icd_xref_terms": {}
+  },
+  {
+   "name": "Diagnoses - main ICD10: D12 Benign neoplasm of colon  rectum  anus and anal canal",
+   "state": "unmapped",
+   "canonical_ids": "",
+   "icd_codes": [
+    "D12"
+   ],
+   "icd_xref_terms": {
+    "D12": []
+   }
+  },
+  {
+   "name": "Diagnoses - main ICD10: G56 Mononeuropathies of upper limb",
+   "state": "unmapped",
+   "canonical_ids": "",
+   "icd_codes": [
+    "G56"
+   ],
+   "icd_xref_terms": {
+    "G56": []
+   }
+  },
+  {
+   "name": "Diagnoses - main ICD10: I30 Acute pericarditis",
+   "state": "unmapped",
+   "canonical_ids": "",
+   "icd_codes": [
+    "I30"
+   ],
+   "icd_xref_terms": {
+    "I30": []
+   }
+  },
+  {
+   "name": "Diagnoses - main ICD10: I48 Atrial fibrillation and flutter",
+   "state": "unmapped",
+   "canonical_ids": "",
+   "icd_codes": [
+    "I48"
+   ],
+   "icd_xref_terms": {
+    "I48": []
+   }
+  },
+  {
+   "name": "Diagnoses - main ICD10: I80 Phlebitis and thrombophlebitis",
+   "state": "unmapped",
+   "canonical_ids": "",
+   "icd_codes": [
+    "I80"
+   ],
+   "icd_xref_terms": {
+    "I80": []
+   }
+  },
+  {
+   "name": "Diagnoses - main ICD10: K29 Gastritis and duodenitis",
+   "state": "unmapped",
+   "canonical_ids": "",
+   "icd_codes": [
+    "K29"
+   ],
+   "icd_xref_terms": {
+    "K29": []
+   }
+  },
+  {
+   "name": "Diagnoses - main ICD10: K60 Fissure and fistula of anal and rectal regions",
+   "state": "unmapped",
+   "canonical_ids": "",
+   "icd_codes": [
+    "K60"
+   ],
+   "icd_xref_terms": {
+    "K60": []
+   }
+  },
+  {
+   "name": "Diagnoses - main ICD10: M23 Internal derangement of knee",
+   "state": "unmapped",
+   "canonical_ids": "",
+   "icd_codes": [
+    "M23"
+   ],
+   "icd_xref_terms": {
+    "M23": [
+     "EFO:0009507 knee injury [ICD10|no_mondo_source_tag]"
+    ]
+   }
+  },
+  {
+   "name": "Diagnoses - main ICD10: N92 Excessive  frequent and irregular menstruation",
+   "state": "unmapped",
+   "canonical_ids": "",
+   "icd_codes": [
+    "N92"
+   ],
+   "icd_xref_terms": {
+    "N92": []
+   }
+  },
+  {
+   "name": "Diagnoses - main ICD10: R04 Haemorrhage from respiratory passages",
+   "state": "unmapped",
+   "canonical_ids": "",
+   "icd_codes": [
+    "R04"
+   ],
+   "icd_xref_terms": {
+    "R04": []
+   }
+  },
+  {
+   "name": "Diagnoses - main ICD10: R07 Pain in throat and chest",
+   "state": "unmapped",
+   "canonical_ids": "",
+   "icd_codes": [
+    "R07"
+   ],
+   "icd_xref_terms": {
+    "R07": []
+   }
+  },
+  {
+   "name": "Diagnoses - main ICD10: R10 Abdominal and pelvic pain",
+   "state": "unmapped",
+   "canonical_ids": "",
+   "icd_codes": [
+    "R10"
+   ],
+   "icd_xref_terms": {
+    "R10": []
+   }
+  },
+  {
+   "name": "Diagnoses - main ICD10: S66 Injury of muscle and tendon at wrist and hand level",
+   "state": "unmapped",
+   "canonical_ids": "",
+   "icd_codes": [
+    "S66"
+   ],
+   "icd_xref_terms": {
+    "S66": []
+   }
+  },
+  {
+   "name": "Diagnoses - main ICD10: S76 Injury of muscle and tendon at hip and thigh level",
+   "state": "unmapped",
+   "canonical_ids": "",
+   "icd_codes": [
+    "S76"
+   ],
+   "icd_xref_terms": {
+    "S76": [
+     "EFO:0009508 leg injury [ICD10|no_mondo_source_tag]"
+    ]
+   }
+  },
+  {
+   "name": "Diagnoses - main ICD10: Z09 Follow-up examination after treatment for conditions other than malignant neoplasms",
+   "state": "unmapped",
+   "canonical_ids": "",
+   "icd_codes": [
+    "Z09"
+   ],
+   "icd_xref_terms": {
+    "Z09": [
+     "EFO:0009642 follow-up [ICD10|no_mondo_source_tag]"
+    ]
+   }
+  },
+  {
+   "name": "Eye problems or disorders: Injury or trauma resulting in loss of vision",
+   "state": "unmapped",
+   "canonical_ids": "",
+   "icd_codes": [],
+   "icd_xref_terms": {}
+  },
+  {
+   "name": "Forearm bone mineral density",
+   "state": "unmapped",
+   "canonical_ids": "",
+   "icd_codes": [],
+   "icd_xref_terms": {}
+  },
+  {
+   "name": "Fracture resulting from simple fall",
+   "state": "unmapped",
+   "canonical_ids": "",
+   "icd_codes": [],
+   "icd_xref_terms": {}
+  },
+  {
+   "name": "Fractured bone site(s): Arm",
+   "state": "unmapped",
+   "canonical_ids": "",
+   "icd_codes": [],
+   "icd_xref_terms": {}
+  },
+  {
+   "name": "Fractured bone site(s): Other bones",
+   "state": "unmapped",
+   "canonical_ids": "",
+   "icd_codes": [],
+   "icd_xref_terms": {}
+  },
+  {
+   "name": "Happiness",
+   "state": "unmapped",
+   "canonical_ids": "",
+   "icd_codes": [],
+   "icd_xref_terms": {}
+  },
+  {
+   "name": "Hearing difficulty or problems: Yes",
+   "state": "unmapped",
+   "canonical_ids": "",
+   "icd_codes": [],
+   "icd_xref_terms": {}
+  },
+  {
+   "name": "Internalizing problems",
+   "state": "unmapped",
+   "canonical_ids": "",
+   "icd_codes": [],
+   "icd_xref_terms": {}
+  },
+  {
+   "name": "Knee and hip osteoarthritis",
+   "state": "unmapped",
+   "canonical_ids": "",
+   "icd_codes": [],
+   "icd_xref_terms": {}
+  },
+  {
+   "name": "Large vessel disease",
+   "state": "unmapped",
+   "canonical_ids": "",
+   "icd_codes": [],
+   "icd_xref_terms": {}
+  },
+  {
+   "name": "Low grade serous ovarian cancer",
+   "state": "unmapped",
+   "canonical_ids": "",
+   "icd_codes": [],
+   "icd_xref_terms": {}
+  },
+  {
+   "name": "Mean cell volume",
+   "state": "unmapped",
+   "canonical_ids": "",
+   "icd_codes": [],
+   "icd_xref_terms": {}
+  },
+  {
+   "name": "Mean platelet volume",
+   "state": "unmapped",
+   "canonical_ids": "",
+   "icd_codes": [],
+   "icd_xref_terms": {}
+  },
+  {
+   "name": "Non-cancer illness code  self-reported: anxiety or panic attacks",
+   "state": "unmapped",
+   "canonical_ids": "",
+   "icd_codes": [],
+   "icd_xref_terms": {}
+  },
+  {
+   "name": "Non-cancer illness code  self-reported: bladder problem (not cancer)",
+   "state": "unmapped",
+   "canonical_ids": "",
+   "icd_codes": [],
+   "icd_xref_terms": {}
+  },
+  {
+   "name": "Non-cancer illness code  self-reported: emphysema or chronic bronchitis",
+   "state": "unmapped",
+   "canonical_ids": "",
+   "icd_codes": [],
+   "icd_xref_terms": {}
+  },
+  {
+   "name": "Non-cancer illness code  self-reported: muscle or soft tissue injuries",
+   "state": "unmapped",
+   "canonical_ids": "",
+   "icd_codes": [],
+   "icd_xref_terms": {}
+  },
+  {
+   "name": "PGC cross-disorder traits",
+   "state": "unmapped",
+   "canonical_ids": "",
+   "icd_codes": [],
+   "icd_xref_terms": {}
+  },
+  {
+   "name": "Potassium in urine",
+   "state": "unmapped",
+   "canonical_ids": "",
+   "icd_codes": [],
+   "icd_xref_terms": {}
+  },
+  {
+   "name": "Small vessel disease",
+   "state": "unmapped",
+   "canonical_ids": "",
+   "icd_codes": [],
+   "icd_xref_terms": {}
+  },
+  {
+   "name": "Underlying (primary) cause of death: ICD10: E85.4 Organ-limited amyloidosis",
+   "state": "unmapped",
+   "canonical_ids": "",
+   "icd_codes": [
+    "E85.4"
+   ],
+   "icd_xref_terms": {
+    "E85.4": []
+   }
+  }
+ ],
+ "epigraphdb_traits_by_state_and_rule": {
+  "mapped|alias_table": 65,
+  "mapped|as_written": 79,
+  "mapped|after_last_colon": 43,
+  "unmapped|": 38
+ }
+}

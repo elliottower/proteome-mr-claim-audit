@@ -1,0 +1,54 @@
+{
+ "run_id": "smoke_pre2019_20261002_s3_extraction_chase1gate_0b97103cd7a4",
+ "note": "pre-freeze smoke run on records first public before 2019: extraction of the four records of chase round 1 judged eligible or uncertain (one from the screening queue, three from the gate sample)",
+ "written_utc": "2026-10-02T20:44:02+00:00",
+ "files": [
+  {
+   "path": "outputs/parsed/sol_extraction_smoke_pre2019_20261002_chase1gate_0b97103cd7a4.jsonl",
+   "bytes": 2817,
+   "sha256": "6e7e76f298b345b67e151a1038995eef01343b52e6b680a724819fb0034a2464"
+  },
+  {
+   "path": "outputs/parsed/sol_extraction_smoke_pre2019_20261002_chase1gate_0b97103cd7a4.meta.json",
+   "bytes": 729,
+   "sha256": "ad5d1912c2c00bc4895d6497ef756016a76a3cc971b0a98cda085c215c8e101f"
+  },
+  {
+   "path": "outputs/raw/sol_smoke_pre2019_20261002/extraction/0b97103cd7a4/16325682_attempt1.json",
+   "bytes": 28929,
+   "sha256": "d56b1348421b6301e6783391c39b13aeaa53676096b67b24fb9a0b0e34021f93"
+  },
+  {
+   "path": "outputs/raw/sol_smoke_pre2019_20261002/extraction/0b97103cd7a4/29875488_attempt1.json",
+   "bytes": 30128,
+   "sha256": "1d94ca6f82e4ba1ca20174f5bbd2e1cecbc70e1cd7deb63aa26e183a5164f252"
+  },
+  {
+   "path": "outputs/raw/sol_smoke_pre2019_20261002/extraction/0b97103cd7a4/29966350_attempt1.json",
+   "bytes": 28994,
+   "sha256": "1047d99e5455a4218c036f410501e0c791d28060127a3a5215f27b8cf86298ab"
+  },
+  {
+   "path": "outputs/raw/sol_smoke_pre2019_20261002/extraction/0b97103cd7a4/W2901567682_attempt1.json",
+   "bytes": 35869,
+   "sha256": "0805a554a93cedc06783f8f03d180dd54354311865712554097da9d077daa68a"
+  },
+  {
+   "path": "outputs/raw/sol_smoke_pre2019_20261002/extraction/0b97103cd7a4/W4406537262_attempt1.json",
+   "bytes": 28931,
+   "sha256": "8bcf78eea58670d1f450128c84c1b8e2ba793ba1874293486a56363d4bc98929"
+  },
+  {
+   "path": "outputs/raw/sol_smoke_pre2019_20261002/extraction/0b97103cd7a4/prompt.md",
+   "bytes": 9497,
+   "sha256": "2a2bef3852f822eb64a19cdc6b880f8ba4f4cac7d262976f0016e517177a6049"
+  },
+  {
+   "path": "outputs/raw/sol_smoke_pre2019_20261002/extraction/0b97103cd7a4/schema.json",
+   "bytes": 2126,
+   "sha256": "334a58f4b0a380300fac1116d35eb120ab58dc5d35a9f5f7e1e71a2077dcb351"
+  }
+ ],
+ "recorded_directly": [],
+ "volume_checks": []
+}

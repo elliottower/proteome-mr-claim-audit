@@ -1,0 +1,1836 @@
+[
+  {
+    "row_name": "IBD (de Lange 2017)",
+    "new_row": false,
+    "side": "outcome",
+    "aliases_proposed": "",
+    "release": "2017 meta-analysis of the new UK GWAS + UK low-coverage WGS with the publicly available IIBDGC (Liu 2015) European GWAS summary statistics; 25,042 IBD cases, 34,915 controls (IBD)",
+    "source_citation": "de Lange KM et al. 2017. Nat Genet 49:256-261; IIBDGC component list from Jostins L et al. 2012 Nature 491:119-124 Supplementary Table 1 (cited by Liu 2015 as the description of the GWAS cohorts)",
+    "source_identifier": "doi:10.1038/ng.3760; PMID:28067908; PMC5289481",
+    "components": [
+      {
+        "id": "UKIBDGC",
+        "as_written": "UK IBD Genetics Consortium (British IBD cases; HumanCoreExome GWAS and low-coverage WGS cases)",
+        "role": "case-control",
+        "quote_id": "claims/delange2017ibd_main.yaml#uk-cases-humancoreexome"
+      },
+      {
+        "id": "UKHLS",
+        "as_written": "Understanding Society Project (UK Household Longitudinal Study) population controls",
+        "role": "controls_only",
+        "quote_id": "claims/delange2017ibd_main.yaml#controls-understanding-society"
+      },
+      {
+        "id": "UK10K",
+        "as_written": "UK10K Consortium population controls (low-coverage WGS)",
+        "role": "controls_only",
+        "quote_id": "claims/delange2017ibd_main.yaml#wgs-ukibdgc-uk10k"
+      },
+      {
+        "id": "IIBDGC_BEL1",
+        "as_written": "BEL1 (Belgium, France)",
+        "role": "case-control",
+        "quote_id": "claims/jostins2012ibd_supp_table1.yaml#bel1"
+      },
+      {
+        "id": "IIBDGC_BEL2",
+        "as_written": "BEL2 (Belgium)",
+        "role": "case-control",
+        "quote_id": "claims/jostins2012ibd_supp_table1.yaml#bel2"
+      },
+      {
+        "id": "CEDARS_IBD",
+        "as_written": "CEDARS (USA)",
+        "role": "case-control",
+        "quote_id": "claims/jostins2012ibd_supp_table1.yaml#cedars-cd"
+      },
+      {
+        "id": "CHOP_IBD",
+        "as_written": "CHOP (USA, Canada, Italy, Scotland, Canada)",
+        "role": "case-control",
+        "quote_id": "claims/jostins2012ibd_supp_table1.yaml#chop-cd"
+      },
+      {
+        "id": "IIBDGC_GERMAN",
+        "as_written": "GERMAN (Germany; CD) / GERMANY (Germany; UC)",
+        "role": "case-control",
+        "quote_id": "claims/jostins2012ibd_supp_table1.yaml#german-cd"
+      },
+      {
+        "id": "NIDDK_IBDGC",
+        "as_written": "NIDDK / NIDDK1 / NIDDK2 (USA, Canada)",
+        "role": "case-control",
+        "quote_id": "claims/jostins2012ibd_supp_table1.yaml#niddk-cd"
+      },
+      {
+        "id": "IIBDGC_NORWEGIAN",
+        "as_written": "NORWEGIAN (Norway; UC)",
+        "role": "case-control",
+        "quote_id": "claims/jostins2012ibd_supp_table1.yaml#norwegian-uc"
+      },
+      {
+        "id": "IIBDGC_SWEDISH",
+        "as_written": "SWEDISH (Sweden; UC)",
+        "role": "case-control",
+        "quote_id": "claims/jostins2012ibd_supp_table1.yaml#swedish-uc"
+      },
+      {
+        "id": "WTCCC",
+        "as_written": "WTCCC (UK)",
+        "role": "case-control",
+        "quote_id": "claims/jostins2012ibd_supp_table1.yaml#wtccc-cd"
+      }
+    ],
+    "replication_only": [],
+    "components_complete": "no",
+    "complete_reason": "New UK samples are fully named (UKIBDGC cases, Understanding Society controls, UK10K controls) and the IIBDGC part is the Liu 2015 European GWAS (12,882 cases / 21,770 controls), whose collections are listed in Jostins 2012 Supplementary Table 1. Missing: (1) the control source cohorts of the IIBDGC collections (e.g. WTCCC controls are not split into 1958BC/UKBS; the German, Belgian, NIDDK, Cedars and CHOP control sources are not named); (2) the cohort composition of the UK10K control set (not stated in de Lange). Supplementary Table 1 of de Lange gives study-level counts, not control sources.",
+    "includes_ukb": "unknown",
+    "includes_iceland": "unknown",
+    "pqtl_cohort_flags": {
+      "INTERVAL": "unknown",
+      "FENLAND": "unknown",
+      "ARIC": "unknown",
+      "AGES": "unknown",
+      "KORA": "unknown",
+      "FHS": "unknown",
+      "IMPROVE": "unknown",
+      "DECODE": "unknown",
+      "UKB": "unknown"
+    },
+    "ancestry": "European",
+    "sample_size": "59,957 (IBD: 25,042 cases, 34,915 controls in the combined meta-analysis)",
+    "source_read": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5289481/fullTextXML (Results; Online Methods; Acknowledgements; reference 1); Supplementary Table 1 xlsx from https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5289481/supplementaryFiles; Jostins 2012 Supplementary Table 1 from https://static-content.springer.com/esm/art%3A10.1038%2Fnature11582/MediaObjects/41586_2012_BFnature11582_MOESM90_ESM.zip",
+    "claims_files": [
+      "claims/delange2017ibd_main.yaml",
+      "claims/delange2017ibd_supp_table1.yaml",
+      "claims/jostins2012ibd_supp_table1.yaml",
+      "claims/liu2015ibd_main.yaml"
+    ],
+    "notes": "Supplementary Table 1 of de Lange does not list control sources (it lists the UK WGS study, the UK HumanCoreExome study and the three IIBDGC summary-statistic studies); control sources come from the Online Methods. Prior samples already in IIBDGC meta-analyses were removed from the new data (Online Methods). No UK Biobank or Icelandic source is named anywhere in the texts read; UKB/Iceland stay unknown only because IIBDGC control sources are unlisted. Proposed new IDs: UKHLS, UK10K, IIBDGC_* collection IDs, CEDARS_IBD, CHOP_IBD, NIDDK_IBDGC."
+  },
+  {
+    "row_name": "IIBDGC trans-ethnic IBD (Liu 2015)",
+    "new_row": false,
+    "side": "outcome",
+    "aliases_proposed": "",
+    "release": "2015 trans-ethnic analysis: European GWAS (12,882 IBD cases / 21,770 controls) + European Immunochip (non-overlapping) + non-European Immunochip (East Asian, Indian, Iranian)",
+    "source_citation": "Liu JZ et al. 2015. Nat Genet 47:979-986; GWAS collections per Jostins L et al. 2012 Nature Supplementary Table 1",
+    "source_identifier": "doi:10.1038/ng.3359; PMID:26192919; PMC4881818",
+    "components": [
+      {
+        "id": "IIBDGC_BEL1",
+        "as_written": "BEL1 (Belgium, France)",
+        "role": "case-control",
+        "quote_id": "claims/jostins2012ibd_supp_table1.yaml#bel1"
+      },
+      {
+        "id": "IIBDGC_BEL2",
+        "as_written": "BEL2 (Belgium)",
+        "role": "case-control",
+        "quote_id": "claims/jostins2012ibd_supp_table1.yaml#bel2"
+      },
+      {
+        "id": "CEDARS_IBD",
+        "as_written": "CEDARS (USA)",
+        "role": "case-control",
+        "quote_id": "claims/jostins2012ibd_supp_table1.yaml#cedars-cd"
+      },
+      {
+        "id": "CHOP_IBD",
+        "as_written": "CHOP (USA, Canada, Italy, Scotland, Canada)",
+        "role": "case-control",
+        "quote_id": "claims/jostins2012ibd_supp_table1.yaml#chop-cd"
+      },
+      {
+        "id": "IIBDGC_GERMAN",
+        "as_written": "GERMAN (Germany; CD) / GERMANY (Germany; UC)",
+        "role": "case-control",
+        "quote_id": "claims/jostins2012ibd_supp_table1.yaml#german-cd"
+      },
+      {
+        "id": "NIDDK_IBDGC",
+        "as_written": "NIDDK / NIDDK1 / NIDDK2 (USA, Canada)",
+        "role": "case-control",
+        "quote_id": "claims/jostins2012ibd_supp_table1.yaml#niddk-cd"
+      },
+      {
+        "id": "IIBDGC_NORWEGIAN",
+        "as_written": "NORWEGIAN (Norway; UC)",
+        "role": "case-control",
+        "quote_id": "claims/jostins2012ibd_supp_table1.yaml#norwegian-uc"
+      },
+      {
+        "id": "IIBDGC_SWEDISH",
+        "as_written": "SWEDISH (Sweden; UC)",
+        "role": "case-control",
+        "quote_id": "claims/jostins2012ibd_supp_table1.yaml#swedish-uc"
+      },
+      {
+        "id": "WTCCC",
+        "as_written": "WTCCC (UK)",
+        "role": "case-control",
+        "quote_id": "claims/jostins2012ibd_supp_table1.yaml#wtccc-cd"
+      },
+      {
+        "id": "IIBDGC_IMMUNOCHIP_EUR",
+        "as_written": "European Immunochip cohorts recruited in 15 countries in Europe, North America and Oceania (listed by genotyping centre and country only)",
+        "role": "case-control",
+        "quote_id": "claims/liu2015ibd_main.yaml#immunochip-15-countries"
+      },
+      {
+        "id": "BBJ",
+        "as_written": "Japan Biobank (East Asian Immunochip samples; identification with BioBank Japan is ours)",
+        "role": "case-control",
+        "quote_id": "claims/liu2015ibd_main.yaml#non-european-sources"
+      },
+      {
+        "id": "IMS_UTOKYO_RIKEN_IBD",
+        "as_written": "Institute of Medical Science, University of Tokyo, RIKEN Yokohama Institute",
+        "role": "case-control",
+        "quote_id": "claims/liu2015ibd_main.yaml#non-european-sources"
+      },
+      {
+        "id": "YONSEI_ASAN_IBD",
+        "as_written": "Yonsei University College of Medicine and Asan Medical Centre, Seoul",
+        "role": "case-control",
+        "quote_id": "claims/liu2015ibd_main.yaml#non-european-sources"
+      },
+      {
+        "id": "CUHK_IBD",
+        "as_written": "Chinese University of Hong Kong",
+        "role": "case-control",
+        "quote_id": "claims/liu2015ibd_main.yaml#non-european-sources"
+      },
+      {
+        "id": "DMC_LUDHIANA_DELHI_IBD",
+        "as_written": "Dayanand Medical College and Hospital, Ludhiana and University of Delhi South Campus",
+        "role": "case-control",
+        "quote_id": "claims/liu2015ibd_main.yaml#indian-iranian"
+      },
+      {
+        "id": "TUMS_IBD",
+        "as_written": "Tehran University of Medical Sciences",
+        "role": "case-control",
+        "quote_id": "claims/liu2015ibd_main.yaml#indian-iranian"
+      }
+    ],
+    "replication_only": [],
+    "components_complete": "no",
+    "complete_reason": "The European GWAS collections are listed (Jostins 2012 ST1), but their control sources are not named, and the European Immunochip cohorts are given only by genotyping centre and country (Jostins 2012 ST1 tab 2; Liu 2015 Table 1 and Supplementary Table 12 give counts only). Liu 2015 states the Immunochip cohorts were recruited in 15 countries but does not list the studies.",
+    "includes_ukb": "unknown",
+    "includes_iceland": "unknown",
+    "pqtl_cohort_flags": {
+      "INTERVAL": "unknown",
+      "FENLAND": "unknown",
+      "ARIC": "unknown",
+      "AGES": "unknown",
+      "KORA": "unknown",
+      "FHS": "unknown",
+      "IMPROVE": "unknown",
+      "DECODE": "unknown",
+      "UKB": "unknown"
+    },
+    "ancestry": "European 86,640; East Asian, Indian, Iranian 9,846",
+    "sample_size": "96,486",
+    "source_read": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=4881818 (Study design; Online Methods: GWAS cohort, Immunochip cohorts, non-European cohorts; Table 1); ESM PDF https://static-content.springer.com/esm/art%3A10.1038%2Fng.3359/MediaObjects/41588_2015_BFng3359_MOESM20_ESM.pdf (Supplementary Table 12, Supplementary Figure 1; read, not pinned); Jostins 2012 Supplementary Table 1 (both tabs). Europe PMC fullTextXML and supplementaryFiles return 'not open access' for PMC4881818; NCBI /pmc/articles/.../bin/ supplement links returned a bot-check page.",
+    "claims_files": [
+      "claims/liu2015ibd_main.yaml",
+      "claims/jostins2012ibd_supp_table1.yaml"
+    ],
+    "notes": "PUBLIC RELEASE DIFFERS FROM THE PAPER'S ANALYSIS: de Lange 2017 (pinned, delange2017ibd_main#meta-with-iibdgc and #metal-iibdgc) describes the publicly available IIBDGC summary statistics of Liu 2015 as the 12,882-case / 21,770-control European GWAS imputed to 1000 Genomes. Proposed separate row below. 'Japan Biobank' as written in Liu 2015 is mapped to BBJ by us; the source does not expand the name. The Immunochip GWAS-overlapping samples were excluded from the trans-ethnic analysis (pinned #overlap-excluded)."
+  },
+  {
+    "row_name": "IIBDGC European IBD GWAS (Liu 2015, public summary statistics)",
+    "new_row": true,
+    "side": "outcome",
+    "aliases_proposed": "IIBDGC 2015 European GWAS|Liu 2015 European|IIBDGC 1KG GWAS|IIBDGC IBD summary statistics",
+    "release": "Public IIBDGC European GWAS summary statistics (1000 Genomes imputed): CD 5,956/14,927; UC 6,968/20,464; IBD 12,882/21,770",
+    "source_citation": "Liu JZ et al. 2015. Nat Genet 47:979-986 (GWAS arm); collections per Jostins L et al. 2012 Nature Supplementary Table 1; public-release identity per de Lange KM et al. 2017 Nat Genet 49:256-261",
+    "source_identifier": "doi:10.1038/ng.3359; PMID:26192919; PMC4881818",
+    "components": [
+      {
+        "id": "IIBDGC_BEL1",
+        "as_written": "BEL1 (Belgium, France)",
+        "role": "case-control",
+        "quote_id": "claims/jostins2012ibd_supp_table1.yaml#bel1"
+      },
+      {
+        "id": "IIBDGC_BEL2",
+        "as_written": "BEL2 (Belgium)",
+        "role": "case-control",
+        "quote_id": "claims/jostins2012ibd_supp_table1.yaml#bel2"
+      },
+      {
+        "id": "CEDARS_IBD",
+        "as_written": "CEDARS (USA)",
+        "role": "case-control",
+        "quote_id": "claims/jostins2012ibd_supp_table1.yaml#cedars-cd"
+      },
+      {
+        "id": "CHOP_IBD",
+        "as_written": "CHOP (USA, Canada, Italy, Scotland, Canada)",
+        "role": "case-control",
+        "quote_id": "claims/jostins2012ibd_supp_table1.yaml#chop-cd"
+      },
+      {
+        "id": "IIBDGC_GERMAN",
+        "as_written": "GERMAN (Germany; CD) / GERMANY (Germany; UC)",
+        "role": "case-control",
+        "quote_id": "claims/jostins2012ibd_supp_table1.yaml#german-cd"
+      },
+      {
+        "id": "NIDDK_IBDGC",
+        "as_written": "NIDDK / NIDDK1 / NIDDK2 (USA, Canada)",
+        "role": "case-control",
+        "quote_id": "claims/jostins2012ibd_supp_table1.yaml#niddk-cd"
+      },
+      {
+        "id": "IIBDGC_NORWEGIAN",
+        "as_written": "NORWEGIAN (Norway; UC)",
+        "role": "case-control",
+        "quote_id": "claims/jostins2012ibd_supp_table1.yaml#norwegian-uc"
+      },
+      {
+        "id": "IIBDGC_SWEDISH",
+        "as_written": "SWEDISH (Sweden; UC)",
+        "role": "case-control",
+        "quote_id": "claims/jostins2012ibd_supp_table1.yaml#swedish-uc"
+      },
+      {
+        "id": "WTCCC",
+        "as_written": "WTCCC (UK)",
+        "role": "case-control",
+        "quote_id": "claims/jostins2012ibd_supp_table1.yaml#wtccc-cd"
+      }
+    ],
+    "replication_only": [
+      "European Immunochip cohorts",
+      "non-European Immunochip cohorts"
+    ],
+    "components_complete": "no",
+    "complete_reason": "Seven CD and eight UC GWAS collections are listed in Jostins 2012 ST1 (BEL1, BEL2, CEDARS, CHOP, GERMAN/GERMANY, NIDDK/NIDDK1/NIDDK2, NORWEGIAN, SWEDISH, WTCCC), but their control sources are not named (WTCCC controls not split into 1958BC/UKBS; German controls not attributed to PopGen/KORA or other).",
+    "includes_ukb": "unknown",
+    "includes_iceland": "unknown",
+    "pqtl_cohort_flags": {
+      "INTERVAL": "unknown",
+      "FENLAND": "unknown",
+      "ARIC": "unknown",
+      "AGES": "unknown",
+      "KORA": "unknown",
+      "FHS": "unknown",
+      "IMPROVE": "unknown",
+      "DECODE": "unknown",
+      "UKB": "unknown"
+    },
+    "ancestry": "European",
+    "sample_size": "34,652 (IBD: 12,882 cases, 21,770 controls)",
+    "source_read": "as for the Liu 2015 row; de Lange 2017 Online Methods (METAL meta-analysis paragraph)",
+    "claims_files": [
+      "claims/liu2015ibd_main.yaml",
+      "claims/jostins2012ibd_supp_table1.yaml",
+      "claims/delange2017ibd_main.yaml"
+    ],
+    "notes": "Jostins 2012 ST1 totals (6,299 CD cases / 15,148 controls before QC; 5,956 / 14,927 QC+) match Liu 2015 Table 1 'European GWAS' row, pinned on both sides. KORA flag is unknown because German control sources are not named."
+  },
+  {
+    "row_name": "RA trans-ethnic (Okada 2014)",
+    "new_row": false,
+    "side": "outcome",
+    "aliases_proposed": "",
+    "release": "Stage I trans-ethnic GWAS meta-analysis (22 studies; 19,234 cases, 61,565 controls); European-only and Asian-only stage I meta-analyses also performed. Summary statistics of the GWAS meta-analysis released at plaza.umin.ac.jp/~yokada (Okada lab).",
+    "source_citation": "Okada Y et al. 2014. Genetics of rheumatoid arthritis contributes to biology and drug discovery. Nature 506:376-381",
+    "source_identifier": "doi:10.1038/nature12873; PMID:24390342; PMC3944098",
+    "components": [
+      {
+        "id": "BRASS",
+        "as_written": "BRASS",
+        "role": "case-control",
+        "quote_id": "claims/okada2014ra_main.yaml#stage1-list"
+      },
+      {
+        "id": "CANADA_RA",
+        "as_written": "CANADA",
+        "role": "case-control",
+        "quote_id": "claims/okada2014ra_main.yaml#stage1-list"
+      },
+      {
+        "id": "EIRA",
+        "as_written": "EIRA",
+        "role": "case-control",
+        "quote_id": "claims/okada2014ra_main.yaml#stage1-list"
+      },
+      {
+        "id": "NARAC",
+        "as_written": "NARAC1, NARAC2",
+        "role": "case-control",
+        "quote_id": "claims/okada2014ra_main.yaml#stage1-list"
+      },
+      {
+        "id": "WTCCC",
+        "as_written": "WTCCC",
+        "role": "case-control",
+        "quote_id": "claims/okada2014ra_main.yaml#stage1-list"
+      },
+      {
+        "id": "RACI_UK",
+        "as_written": "Rheumatoid Arthritis Consortium International for Immunochip (RACI)-UK",
+        "role": "case-control",
+        "quote_id": "claims/okada2014ra_main.yaml#stage1-list"
+      },
+      {
+        "id": "RACI_US",
+        "as_written": "RACI-US",
+        "role": "case-control",
+        "quote_id": "claims/okada2014ra_main.yaml#stage1-list"
+      },
+      {
+        "id": "RACI_SE_E",
+        "as_written": "RACI-SE-E",
+        "role": "case-control",
+        "quote_id": "claims/okada2014ra_main.yaml#stage1-list"
+      },
+      {
+        "id": "RACI_SE_U",
+        "as_written": "RACI-SE-U",
+        "role": "case-control",
+        "quote_id": "claims/okada2014ra_main.yaml#stage1-list"
+      },
+      {
+        "id": "RACI_NL",
+        "as_written": "RACI-NL",
+        "role": "case-control",
+        "quote_id": "claims/okada2014ra_main.yaml#stage1-list"
+      },
+      {
+        "id": "RACI_ES",
+        "as_written": "RACI-ES",
+        "role": "case-control",
+        "quote_id": "claims/okada2014ra_main.yaml#stage1-list"
+      },
+      {
+        "id": "RACI_I2B2",
+        "as_written": "RACI-i2b2",
+        "role": "case-control",
+        "quote_id": "claims/okada2014ra_main.yaml#stage1-list"
+      },
+      {
+        "id": "REACT_RA",
+        "as_written": "ReAct",
+        "role": "case-control",
+        "quote_id": "claims/okada2014ra_main.yaml#stage1-list"
+      },
+      {
+        "id": "DUTCH_RA",
+        "as_written": "Dutch (including AMC, BeSt, LUMC, and DREAM)",
+        "role": "case-control",
+        "quote_id": "claims/okada2014ra_main.yaml#stage1-list"
+      },
+      {
+        "id": "ACR_REF",
+        "as_written": "anti-TNF response to therapy collection (ACR-REF: BRAGGSS, BRAGGSS2, ERA, KI, and TEAR)",
+        "role": "case-control",
+        "quote_id": "claims/okada2014ra_main.yaml#stage1-list"
+      },
+      {
+        "id": "CORRONA",
+        "as_written": "CORRONA",
+        "role": "case-control",
+        "quote_id": "claims/okada2014ra_main.yaml#stage1-list"
+      },
+      {
+        "id": "VANDERBILT_RA",
+        "as_written": "Vanderbilt",
+        "role": "case-control",
+        "quote_id": "claims/okada2014ra_main.yaml#stage1-list"
+      },
+      {
+        "id": "BBJ",
+        "as_written": "BioBank Japan Project (GARNET consortium)",
+        "role": "case-control",
+        "quote_id": "claims/okada2014ra_main.yaml#stage1-list"
+      },
+      {
+        "id": "KYOTO_RA",
+        "as_written": "Kyoto University (GARNET consortium)",
+        "role": "case-control",
+        "quote_id": "claims/okada2014ra_main.yaml#stage1-list"
+      },
+      {
+        "id": "IORRA",
+        "as_written": "IORRA (GARNET consortium)",
+        "role": "case-control",
+        "quote_id": "claims/okada2014ra_main.yaml#stage1-list"
+      },
+      {
+        "id": "KOREA_RA",
+        "as_written": "Korea",
+        "role": "case-control",
+        "quote_id": "claims/okada2014ra_main.yaml#stage1-list"
+      }
+    ],
+    "replication_only": [
+      "Genentech",
+      "SLEGEN",
+      "China (Stage II)",
+      "CANADAII",
+      "BioBank Japan Project, Kyoto University and IORRA additional Stage III samples (same sources as Stage I Asian studies)"
+    ],
+    "components_complete": "no",
+    "complete_reason": "The full list of the 22 Stage I studies is read (Methods: Subjects). Missing: the control sources of the case-control collections (e.g. WTCCC shared controls, RACI-UK/US/SE/NL/ES controls, NARAC, EIRA, BRASS, CANADA) are not named in the text read; Extended Data Table 1 (study characteristics) is an image on nature.com and is not in the PMC author-manuscript text.",
+    "includes_ukb": "unknown",
+    "includes_iceland": "unknown",
+    "pqtl_cohort_flags": {
+      "INTERVAL": "unknown",
+      "FENLAND": "unknown",
+      "ARIC": "unknown",
+      "AGES": "unknown",
+      "KORA": "unknown",
+      "FHS": "unknown",
+      "IMPROVE": "unknown",
+      "DECODE": "unknown",
+      "UKB": "unknown"
+    },
+    "ancestry": "European (18 studies; 14,361 cases, 43,923 controls) and Asian (4 studies; 4,873 cases, 17,642 controls)",
+    "sample_size": "Stage I 80,799 (19,234 cases, 61,565 controls); all stages 103,638 (29,880 cases, 73,758 controls)",
+    "source_read": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC3944098/fullTextXML (Methods: Subjects; data availability line); Supplementary Information PDF https://static-content.springer.com/esm/art%3A10.1038%2Fnature12873/MediaObjects/41586_2014_BFnature12873_MOESM10_ESM.pdf (Supplementary Note is a consortium member list; no control-source table). Europe PMC supplementaryFiles had no tables.",
+    "claims_files": [
+      "claims/okada2014ra_main.yaml"
+    ],
+    "notes": "BBJ is a Stage I component (GARNET: BioBank Japan Project). The public summary statistics are the GWAS meta-analysis (Stage I) per the data line pinned as okada2014ra_main#sumstats-release; replication stages II-III were run only on 146 loci. No UK Biobank (published before UKB genotypes) or Icelandic study is named, but control sources are unlisted so both flags stay unknown under the rule."
+  },
+  {
+    "row_name": "SLE (Bentham 2015)",
+    "new_row": false,
+    "side": "outcome",
+    "aliases_proposed": "",
+    "release": "Genome-wide summary statistics: new GWAS (4,036 cases, 6,959 controls) and its meta-analysis with Hom et al. 2008 (1,165 cases, 2,107 controls); the replication study covers selected SNPs only. Released via ImmunoBase and insidegen.com (1KG-imputed).",
+    "source_citation": "Bentham J et al. 2015. Nat Genet 47:1457-1464",
+    "source_identifier": "doi:10.1038/ng.3434; PMID:26502338; PMC4668589",
+    "components": [
+      {
+        "id": "SLE_CANADA",
+        "as_written": "Canadian samples",
+        "role": "case-control",
+        "quote_id": "claims/bentham2015sle_supp_text.yaml#g1"
+      },
+      {
+        "id": "SLE_SPAIN_BARCELONA",
+        "as_written": "Spanish samples, coordinated by a center in Barcelona",
+        "role": "case-control",
+        "quote_id": "claims/bentham2015sle_supp_text.yaml#g2"
+      },
+      {
+        "id": "SLE_NL_POLAND",
+        "as_written": "Dutch and Polish samples, coordinated by a center in the Netherlands",
+        "role": "case-control",
+        "quote_id": "claims/bentham2015sle_supp_text.yaml#g3"
+      },
+      {
+        "id": "SLE_SPAIN_GRANADA",
+        "as_written": "Spanish samples, coordinated by a center in Granada",
+        "role": "case-control",
+        "quote_id": "claims/bentham2015sle_supp_text.yaml#g4"
+      },
+      {
+        "id": "SLE_GERMANY",
+        "as_written": "German samples",
+        "role": "case-control",
+        "quote_id": "claims/bentham2015sle_supp_text.yaml#g5"
+      },
+      {
+        "id": "SLE_TURKEY",
+        "as_written": "Turkish samples",
+        "role": "case-control",
+        "quote_id": "claims/bentham2015sle_supp_text.yaml#g6"
+      },
+      {
+        "id": "SLE_USA",
+        "as_written": "American samples",
+        "role": "case-control",
+        "quote_id": "claims/bentham2015sle_supp_text.yaml#g7"
+      },
+      {
+        "id": "B58C",
+        "as_written": "UK samples, provided by the MRC and 1958 British Birth Cohort",
+        "role": "case-control",
+        "quote_id": "claims/bentham2015sle_supp_text.yaml#g8"
+      },
+      {
+        "id": "BIOLUPUS",
+        "as_written": "Samples provided by the BIOLUPUS network (northern European); BIOLUPUS and GENLES networks (southern European); BIOLUPUS includes Iceland (Landspitali)",
+        "role": "case-control",
+        "quote_id": "claims/bentham2015sle_supp_text.yaml#g9"
+      },
+      {
+        "id": "GENLES",
+        "as_written": "BIOLUPUS and GENLES networks (southern European)",
+        "role": "case-control",
+        "quote_id": "claims/bentham2015sle_supp_text.yaml#g10"
+      },
+      {
+        "id": "SLE_UK",
+        "as_written": "UK samples",
+        "role": "case-control",
+        "quote_id": "claims/bentham2015sle_supp_text.yaml#g11"
+      },
+      {
+        "id": "HRS",
+        "as_written": "University of Michigan Health and Retirement Study (HRS)",
+        "role": "controls_only",
+        "quote_id": "claims/bentham2015sle_main.yaml#gwas-hrs"
+      },
+      {
+        "id": "HOM2008_SLE",
+        "as_written": "Hom et al. study (1,165 cases)",
+        "role": "case-control",
+        "quote_id": "claims/bentham2015sle_main.yaml#hom-meta"
+      },
+      {
+        "id": "CGEMS",
+        "as_written": "NIH CGEMS study (2,107 controls for the Hom et al. data)",
+        "role": "controls_only",
+        "quote_id": "claims/bentham2015sle_main.yaml#hom-cgems"
+      }
+    ],
+    "replication_only": [
+      "2,018 replication cases (Toronto, Hospital for Sick Children, Oklahoma Medical Research Foundation, Uppsala, Erlangen, Paris Cochin)",
+      "HRS controls independent of the GWAS (3,668)",
+      "melanoma study controls (dbGaP)",
+      "Genes and Blood Clotting Study controls"
+    ],
+    "components_complete": "no",
+    "complete_reason": "The new GWAS is fully listed by Supplementary Table 9 (11 groups) plus HRS controls. Missing: the case collections of the Hom et al. 2008 GWAS and the cohorts underlying the NIH CGEMS controls are not named in Bentham 2015.",
+    "includes_ukb": "unknown",
+    "includes_iceland": "yes",
+    "pqtl_cohort_flags": {
+      "INTERVAL": "unknown",
+      "FENLAND": "unknown",
+      "ARIC": "unknown",
+      "AGES": "unknown",
+      "KORA": "unknown",
+      "FHS": "unknown",
+      "IMPROVE": "unknown",
+      "DECODE": "unknown",
+      "UKB": "unknown"
+    },
+    "ancestry": "European",
+    "sample_size": "GWAS + Hom et al.: 5,201 cases, 9,066 controls; all stages 7,219 cases, 15,991 controls",
+    "source_read": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC4668589/fullTextXML (Abstract; Results; Online Methods: Data; Acknowledgements; Data access); NIHMS65418-supplement-1.docx from Europe PMC supplementaryFiles (Supplementary Text sections 1-2; Supplementary Table 9)",
+    "claims_files": [
+      "claims/bentham2015sle_main.yaml",
+      "claims/bentham2015sle_supp_text.yaml"
+    ],
+    "notes": "Iceland: the acknowledgements list Kristján Steinsson (Landspitali National University Hospital, Iceland) among samples obtained via BIOLUPUS, and BIOLUPUS groups 9-10 are in the main GWAS (ST9). Which BIOLUPUS centres' samples went into the GWAS vs replication is not itemized; we record includes_iceland=yes on that basis. B58C contributes to group 8. The dictionary sample size (7,219/15,991) includes the replication study, which is not genome-wide."
+  },
+  {
+    "row_name": "TAGC asthma (Demenais 2018)",
+    "new_row": false,
+    "side": "outcome",
+    "aliases_proposed": "",
+    "release": "TAGC multi-ancestry and European-ancestry meta-analyses (66 study rows in Supplementary Table 1)",
+    "source_citation": "Demenais F et al. 2018. Nat Genet 50:42-53",
+    "source_identifier": "doi:10.1038/s41588-017-0014-7; PMID:29273806; PMC5901974",
+    "components": [
+      {
+        "id": "AAGC",
+        "as_written": "Australian Asthma Genetics Consortium (AAGC)",
+        "role": "cohort",
+        "quote_id": "claims/demenais2018tagc_supp_table1.yaml#aagc"
+      },
+      {
+        "id": "CAPPS",
+        "as_written": "Canadian Asthma Primary Prevention Study (CAPPS-ch, CAPPS-ad)",
+        "role": "cohort",
+        "quote_id": "claims/demenais2018tagc_supp_table1.yaml#capps-ch"
+      },
+      {
+        "id": "SAGE_CANADA",
+        "as_written": "Study of Asthma Genes and the Environment (SAGE-ch, SAGE-ad)",
+        "role": "cohort",
+        "quote_id": "claims/demenais2018tagc_supp_table1.yaml#sage-ch"
+      },
+      {
+        "id": "SLSJ",
+        "as_written": "Saguenay-Lac-Saint Jean Study (SLSJ-ch, SLSJ-ad)",
+        "role": "cohort",
+        "quote_id": "claims/demenais2018tagc_supp_table1.yaml#slsj-ch"
+      },
+      {
+        "id": "FHS",
+        "as_written": "Framingham Heart Study",
+        "role": "cohort",
+        "quote_id": "claims/demenais2018tagc_supp_table1.yaml#fhs"
+      },
+      {
+        "id": "NFBC1966",
+        "as_written": "Northern Finland Birth Cohort 1966",
+        "role": "cohort",
+        "quote_id": "claims/demenais2018tagc_supp_table1.yaml#nfbc1966"
+      },
+      {
+        "id": "EPIC_NORFOLK",
+        "as_written": "EPIC-Norfolk obese cases; EPIC-Norfolk population based",
+        "role": "cohort",
+        "quote_id": "claims/demenais2018tagc_supp_table1.yaml#epic-n-pop"
+      },
+      {
+        "id": "FINRISK",
+        "as_written": "FINRISK (combined analysis unit FINRISK-H2000-HBC-YFS)",
+        "role": "cohort",
+        "quote_id": "claims/demenais2018tagc_supp_table1.yaml#finrisk"
+      },
+      {
+        "id": "HEALTH2000",
+        "as_written": "Health 2000 (H2000)",
+        "role": "cohort",
+        "quote_id": "claims/demenais2018tagc_supp_table1.yaml#finrisk"
+      },
+      {
+        "id": "HBC",
+        "as_written": "Helsinki Birth Cohort (HBC)",
+        "role": "cohort",
+        "quote_id": "claims/demenais2018tagc_supp_table1.yaml#finrisk"
+      },
+      {
+        "id": "YFS",
+        "as_written": "Young Finns Study (YFS)",
+        "role": "cohort",
+        "quote_id": "claims/demenais2018tagc_supp_table1.yaml#finrisk"
+      },
+      {
+        "id": "ARIC",
+        "as_written": "Atherosclerosis Risk in Communities Study (ARIC-AFAM, ARIC-EUAM)",
+        "role": "cohort",
+        "quote_id": "claims/demenais2018tagc_supp_table1.yaml#aric-euam"
+      },
+      {
+        "id": "CARDIA",
+        "as_written": "Coronary Artery Risk Development in Young Adults (CARDIA)",
+        "role": "cohort",
+        "quote_id": "claims/demenais2018tagc_supp_table1.yaml#cardia"
+      },
+      {
+        "id": "JHS",
+        "as_written": "Jackson Heart Study",
+        "role": "cohort",
+        "quote_id": "claims/demenais2018tagc_supp_table1.yaml#jhs"
+      },
+      {
+        "id": "MESA",
+        "as_written": "Multi-Ethnic Study of Atherosclerosis (MESA-AFAM, MESA-EUAM)",
+        "role": "cohort",
+        "quote_id": "claims/demenais2018tagc_supp_table1.yaml#mesa-euam"
+      },
+      {
+        "id": "CHS",
+        "as_written": "Cardiovascular Health Study",
+        "role": "cohort",
+        "quote_id": "claims/demenais2018tagc_supp_table1.yaml#chs"
+      },
+      {
+        "id": "DECODE",
+        "as_written": "deCODE Genetics (Iceland)",
+        "role": "case-control",
+        "quote_id": "claims/demenais2018tagc_supp_table1.yaml#decode"
+      },
+      {
+        "id": "COPSAC",
+        "as_written": "Copenhagen Study on Asthma in Childhood",
+        "role": "cohort",
+        "quote_id": "claims/demenais2018tagc_supp_table1.yaml#copsac"
+      },
+      {
+        "id": "DNBC",
+        "as_written": "Danish National Birth Cohort",
+        "role": "cohort",
+        "quote_id": "claims/demenais2018tagc_supp_table1.yaml#dnbc"
+      },
+      {
+        "id": "GENERATION_R",
+        "as_written": "GENERATION R",
+        "role": "cohort",
+        "quote_id": "claims/demenais2018tagc_supp_table1.yaml#genr"
+      },
+      {
+        "id": "LISA_GINI",
+        "as_written": "LISAplus & GINIplus Birth Cohorts",
+        "role": "cohort",
+        "quote_id": "claims/demenais2018tagc_supp_table1.yaml#lisa-gini"
+      },
+      {
+        "id": "MAAS",
+        "as_written": "Manchester Asthma and Allergy Study",
+        "role": "cohort",
+        "quote_id": "claims/demenais2018tagc_supp_table1.yaml#maas"
+      },
+      {
+        "id": "RAINE",
+        "as_written": "Western Australian Pregnancy (Raine) Cohort",
+        "role": "cohort",
+        "quote_id": "claims/demenais2018tagc_supp_table1.yaml#raine"
+      },
+      {
+        "id": "B58C",
+        "as_written": "British 1958 Birth Cohort",
+        "role": "cohort",
+        "quote_id": "claims/demenais2018tagc_supp_table1.yaml#b58c"
+      },
+      {
+        "id": "STAMPEED_ASTHMA",
+        "as_written": "CAG/CSGA/SARP (STAMPEED-EUAM, STAMPEED-AFAM)",
+        "role": "case-control",
+        "quote_id": "claims/demenais2018tagc_supp_table1.yaml#stampeed-euam"
+      },
+      {
+        "id": "CHILDRENS_HEALTH_STUDY",
+        "as_written": "Children's Health Study (CHS-LAT, CHS-EUAM)",
+        "role": "case-control",
+        "quote_id": "claims/demenais2018tagc_supp_table1.yaml#chs-lat"
+      },
+      {
+        "id": "GRAAD",
+        "as_written": "Genomic Research on Asthma in the African Diaspora",
+        "role": "case-control",
+        "quote_id": "claims/demenais2018tagc_supp_table1.yaml#graad"
+      },
+      {
+        "id": "SAPPHIRE",
+        "as_written": "Study of Asthma Phenotypes and Pharmacogenomics Interactions by Race Ethnicity",
+        "role": "case-control",
+        "quote_id": "claims/demenais2018tagc_supp_table1.yaml#sapphire"
+      },
+      {
+        "id": "JCOAAD",
+        "as_written": "Japanese Childhood Onset Asthma in Adult Asthma research (JAARC)",
+        "role": "case-control",
+        "quote_id": "claims/demenais2018tagc_supp_table1.yaml#jcoaad"
+      },
+      {
+        "id": "JPAC",
+        "as_written": "Japan Pediatric Asthma Consortium",
+        "role": "case-control",
+        "quote_id": "claims/demenais2018tagc_supp_table1.yaml#jpac"
+      },
+      {
+        "id": "EGEA",
+        "as_written": "Epidemiological study on the Genetics and Environment of Asthma (EGEA-ch, EGEA-ad)",
+        "role": "cohort",
+        "quote_id": "claims/demenais2018tagc_supp_table1.yaml#egea-ch"
+      },
+      {
+        "id": "ALSPAC",
+        "as_written": "Avon Longitudinal Study of Parents and Children",
+        "role": "cohort",
+        "quote_id": "claims/demenais2018tagc_supp_table1.yaml#alspac"
+      },
+      {
+        "id": "ECRHS",
+        "as_written": "European Community Respiratory Health Survey (ECRHS-ch, ECRHS-ad)",
+        "role": "cohort",
+        "quote_id": "claims/demenais2018tagc_supp_table1.yaml#ecrhs-ch"
+      },
+      {
+        "id": "BAMSE",
+        "as_written": "Barn Allergy Milieu Stockholm Epidemiology",
+        "role": "cohort",
+        "quote_id": "claims/demenais2018tagc_supp_table1.yaml#bamse"
+      },
+      {
+        "id": "BUSSELTON",
+        "as_written": "Busselton study (ch, ad)",
+        "role": "cohort",
+        "quote_id": "claims/demenais2018tagc_supp_table1.yaml#busselton-ch"
+      },
+      {
+        "id": "GABRIELA",
+        "as_written": "Gabriel Advanced Surveys",
+        "role": "cohort",
+        "quote_id": "claims/demenais2018tagc_supp_table1.yaml#gabriela"
+      },
+      {
+        "id": "KSMU",
+        "as_written": "Kursk State Medical University study (ch, ad)",
+        "role": "case-control",
+        "quote_id": "claims/demenais2018tagc_supp_table1.yaml#ksmu-ch"
+      },
+      {
+        "id": "MRCA_UK",
+        "as_written": "MRC Asthma UK Center in Allergic Mechanisms of Asthma",
+        "role": "cohort",
+        "quote_id": "claims/demenais2018tagc_supp_table1.yaml#mrca-uk"
+      },
+      {
+        "id": "MAGICS_MAS",
+        "as_written": "German MAGICS and MAS",
+        "role": "case-control",
+        "quote_id": "claims/demenais2018tagc_supp_table1.yaml#magics-mas"
+      },
+      {
+        "id": "PIAMA",
+        "as_written": "PIAMA birth cohort",
+        "role": "cohort",
+        "quote_id": "claims/demenais2018tagc_supp_table1.yaml#piama"
+      },
+      {
+        "id": "SAPALDIA",
+        "as_written": "Swiss study on Air Pollution And Lung Disease in Adults (ch, ad)",
+        "role": "cohort",
+        "quote_id": "claims/demenais2018tagc_supp_table1.yaml#sapaldia-ch"
+      },
+      {
+        "id": "TOMSK",
+        "as_written": "TOMSK study (ch, ad)",
+        "role": "cohort",
+        "quote_id": "claims/demenais2018tagc_supp_table1.yaml#tomsk-ch"
+      },
+      {
+        "id": "UFA",
+        "as_written": "UFA region study (ch, ad)",
+        "role": "case-control",
+        "quote_id": "claims/demenais2018tagc_supp_table1.yaml#ufa-ch"
+      },
+      {
+        "id": "GABRIEL_INDUSTRIAL",
+        "as_written": "Industrial Cohorts: Agricultural, Wood, Bakery, Isocyanate exposures",
+        "role": "cohort",
+        "quote_id": "claims/demenais2018tagc_supp_table1.yaml#agricultural"
+      },
+      {
+        "id": "GABRIEL_SEVERE",
+        "as_written": "Severe asthma study (UK)",
+        "role": "case-control",
+        "quote_id": "claims/demenais2018tagc_supp_table1.yaml#severe"
+      },
+      {
+        "id": "NTR",
+        "as_written": "The Netherlands Twin Register",
+        "role": "cohort",
+        "quote_id": "claims/demenais2018tagc_supp_table1.yaml#ntr"
+      },
+      {
+        "id": "RS",
+        "as_written": "Rotterdam Study 1, 2, 3",
+        "role": "cohort",
+        "quote_id": "claims/demenais2018tagc_supp_table1.yaml#rs1"
+      },
+      {
+        "id": "DAGC",
+        "as_written": "Dutch Asthma GWAS 1 (family) and 2 (case-control)",
+        "role": "case-control",
+        "quote_id": "claims/demenais2018tagc_supp_table1.yaml#dag1"
+      }
+    ],
+    "replication_only": [],
+    "components_complete": "no",
+    "complete_reason": "Supplementary Table 1 lists all 66 study rows of the meta-analysis. Missing: (1) AAGC is a single row for the Australian Asthma Genetics Consortium, whose member studies are not itemized; (2) control sources of the case-control studies (e.g. GABRIEL Severe asthma study, MAGICS-MAS, DAG2, STAMPEED, JCOAAD, KSMU, UFA) are not named in the table.",
+    "includes_ukb": "unknown",
+    "includes_iceland": "yes",
+    "pqtl_cohort_flags": {
+      "INTERVAL": "unknown",
+      "FENLAND": "unknown",
+      "ARIC": "yes",
+      "AGES": "unknown",
+      "KORA": "unknown",
+      "FHS": "yes",
+      "IMPROVE": "unknown",
+      "DECODE": "yes",
+      "UKB": "unknown"
+    },
+    "ancestry": "European 19,954/107,715; African 2,149/6,055; Japanese 1,239/3,976; Latino 606/792 (cases/controls)",
+    "sample_size": "23,948 cases; 118,538 controls",
+    "source_read": "Supplementary Table 1 xlsx https://static-content.springer.com/esm/art%3A10.1038%2Fs41588-017-0014-7/MediaObjects/41588_2017_14_MOESM3_ESM.xlsx (all rows). Europe PMC fullTextXML and supplementaryFiles for PMC5901974 were unavailable; the main text was not read (counts above are the dictionary's existing values, consistent with Han 2020's pinned description of TAGC).",
+    "claims_files": [
+      "claims/demenais2018tagc_supp_table1.yaml"
+    ],
+    "notes": "pQTL-relevant: ARIC (ARIC-EUAM, ARIC-AFAM), FHS, deCODE, EPIC-Norfolk (two units), FINRISK, Rotterdam Study, CHS, MESA, JHS, NFBC1966, B58C, ALSPAC. EPIC_NORFOLK is EPIC-CVD-adjacent; flag for the lead. UKB is not one of the 66 rows; it stays unknown only because AAGC members and case-control control sources are unlisted. Note CHILDRENS_HEALTH_STUDY (CHS-LAT/CHS-EUAM, EVE) is distinct from CHS (Cardiovascular Health Study, CHARGE). FINRISK, Health 2000, HBC and YFS were analysed as one unit and are listed separately here; FINRISK and Health 2000 are also FinnGen legacy cohorts (see FinnGen participant-sources object)."
+  },
+  {
+    "row_name": "UK Biobank + TAGC asthma (Han 2020)",
+    "new_row": false,
+    "side": "outcome",
+    "aliases_proposed": "",
+    "release": "Z-score meta-analysis of the UK Biobank asthma GWAS (all ancestries) with imputed public TAGC multi-ancestry summary statistics; sensitivity version with TAGC European-only",
+    "source_citation": "Han Y et al. 2020. Nat Commun 11:1776; TAGC components from Demenais F et al. 2018 Nat Genet Supplementary Table 1",
+    "source_identifier": "doi:10.1038/s41467-020-15649-3; PMID:32296059; PMC7160128",
+    "components": [
+      {
+        "id": "UKB",
+        "as_written": "UK Biobank (64,538 asthma cases, 329,321 controls)",
+        "role": "cohort",
+        "quote_id": "claims/han2020asthma_main.yaml#meta-n"
+      },
+      {
+        "id": "AAGC",
+        "as_written": "Australian Asthma Genetics Consortium (AAGC)",
+        "role": "cohort",
+        "quote_id": "claims/demenais2018tagc_supp_table1.yaml#aagc"
+      },
+      {
+        "id": "CAPPS",
+        "as_written": "Canadian Asthma Primary Prevention Study (CAPPS-ch, CAPPS-ad)",
+        "role": "cohort",
+        "quote_id": "claims/demenais2018tagc_supp_table1.yaml#capps-ch"
+      },
+      {
+        "id": "SAGE_CANADA",
+        "as_written": "Study of Asthma Genes and the Environment (SAGE-ch, SAGE-ad)",
+        "role": "cohort",
+        "quote_id": "claims/demenais2018tagc_supp_table1.yaml#sage-ch"
+      },
+      {
+        "id": "SLSJ",
+        "as_written": "Saguenay-Lac-Saint Jean Study (SLSJ-ch, SLSJ-ad)",
+        "role": "cohort",
+        "quote_id": "claims/demenais2018tagc_supp_table1.yaml#slsj-ch"
+      },
+      {
+        "id": "FHS",
+        "as_written": "Framingham Heart Study",
+        "role": "cohort",
+        "quote_id": "claims/demenais2018tagc_supp_table1.yaml#fhs"
+      },
+      {
+        "id": "NFBC1966",
+        "as_written": "Northern Finland Birth Cohort 1966",
+        "role": "cohort",
+        "quote_id": "claims/demenais2018tagc_supp_table1.yaml#nfbc1966"
+      },
+      {
+        "id": "EPIC_NORFOLK",
+        "as_written": "EPIC-Norfolk obese cases; EPIC-Norfolk population based",
+        "role": "cohort",
+        "quote_id": "claims/demenais2018tagc_supp_table1.yaml#epic-n-pop"
+      },
+      {
+        "id": "FINRISK",
+        "as_written": "FINRISK (combined analysis unit FINRISK-H2000-HBC-YFS)",
+        "role": "cohort",
+        "quote_id": "claims/demenais2018tagc_supp_table1.yaml#finrisk"
+      },
+      {
+        "id": "HEALTH2000",
+        "as_written": "Health 2000 (H2000)",
+        "role": "cohort",
+        "quote_id": "claims/demenais2018tagc_supp_table1.yaml#finrisk"
+      },
+      {
+        "id": "HBC",
+        "as_written": "Helsinki Birth Cohort (HBC)",
+        "role": "cohort",
+        "quote_id": "claims/demenais2018tagc_supp_table1.yaml#finrisk"
+      },
+      {
+        "id": "YFS",
+        "as_written": "Young Finns Study (YFS)",
+        "role": "cohort",
+        "quote_id": "claims/demenais2018tagc_supp_table1.yaml#finrisk"
+      },
+      {
+        "id": "ARIC",
+        "as_written": "Atherosclerosis Risk in Communities Study (ARIC-AFAM, ARIC-EUAM)",
+        "role": "cohort",
+        "quote_id": "claims/demenais2018tagc_supp_table1.yaml#aric-euam"
+      },
+      {
+        "id": "CARDIA",
+        "as_written": "Coronary Artery Risk Development in Young Adults (CARDIA)",
+        "role": "cohort",
+        "quote_id": "claims/demenais2018tagc_supp_table1.yaml#cardia"
+      },
+      {
+        "id": "JHS",
+        "as_written": "Jackson Heart Study",
+        "role": "cohort",
+        "quote_id": "claims/demenais2018tagc_supp_table1.yaml#jhs"
+      },
+      {
+        "id": "MESA",
+        "as_written": "Multi-Ethnic Study of Atherosclerosis (MESA-AFAM, MESA-EUAM)",
+        "role": "cohort",
+        "quote_id": "claims/demenais2018tagc_supp_table1.yaml#mesa-euam"
+      },
+      {
+        "id": "CHS",
+        "as_written": "Cardiovascular Health Study",
+        "role": "cohort",
+        "quote_id": "claims/demenais2018tagc_supp_table1.yaml#chs"
+      },
+      {
+        "id": "DECODE",
+        "as_written": "deCODE Genetics (Iceland)",
+        "role": "case-control",
+        "quote_id": "claims/demenais2018tagc_supp_table1.yaml#decode"
+      },
+      {
+        "id": "COPSAC",
+        "as_written": "Copenhagen Study on Asthma in Childhood",
+        "role": "cohort",
+        "quote_id": "claims/demenais2018tagc_supp_table1.yaml#copsac"
+      },
+      {
+        "id": "DNBC",
+        "as_written": "Danish National Birth Cohort",
+        "role": "cohort",
+        "quote_id": "claims/demenais2018tagc_supp_table1.yaml#dnbc"
+      },
+      {
+        "id": "GENERATION_R",
+        "as_written": "GENERATION R",
+        "role": "cohort",
+        "quote_id": "claims/demenais2018tagc_supp_table1.yaml#genr"
+      },
+      {
+        "id": "LISA_GINI",
+        "as_written": "LISAplus & GINIplus Birth Cohorts",
+        "role": "cohort",
+        "quote_id": "claims/demenais2018tagc_supp_table1.yaml#lisa-gini"
+      },
+      {
+        "id": "MAAS",
+        "as_written": "Manchester Asthma and Allergy Study",
+        "role": "cohort",
+        "quote_id": "claims/demenais2018tagc_supp_table1.yaml#maas"
+      },
+      {
+        "id": "RAINE",
+        "as_written": "Western Australian Pregnancy (Raine) Cohort",
+        "role": "cohort",
+        "quote_id": "claims/demenais2018tagc_supp_table1.yaml#raine"
+      },
+      {
+        "id": "B58C",
+        "as_written": "British 1958 Birth Cohort",
+        "role": "cohort",
+        "quote_id": "claims/demenais2018tagc_supp_table1.yaml#b58c"
+      },
+      {
+        "id": "STAMPEED_ASTHMA",
+        "as_written": "CAG/CSGA/SARP (STAMPEED-EUAM, STAMPEED-AFAM)",
+        "role": "case-control",
+        "quote_id": "claims/demenais2018tagc_supp_table1.yaml#stampeed-euam"
+      },
+      {
+        "id": "CHILDRENS_HEALTH_STUDY",
+        "as_written": "Children's Health Study (CHS-LAT, CHS-EUAM)",
+        "role": "case-control",
+        "quote_id": "claims/demenais2018tagc_supp_table1.yaml#chs-lat"
+      },
+      {
+        "id": "GRAAD",
+        "as_written": "Genomic Research on Asthma in the African Diaspora",
+        "role": "case-control",
+        "quote_id": "claims/demenais2018tagc_supp_table1.yaml#graad"
+      },
+      {
+        "id": "SAPPHIRE",
+        "as_written": "Study of Asthma Phenotypes and Pharmacogenomics Interactions by Race Ethnicity",
+        "role": "case-control",
+        "quote_id": "claims/demenais2018tagc_supp_table1.yaml#sapphire"
+      },
+      {
+        "id": "JCOAAD",
+        "as_written": "Japanese Childhood Onset Asthma in Adult Asthma research (JAARC)",
+        "role": "case-control",
+        "quote_id": "claims/demenais2018tagc_supp_table1.yaml#jcoaad"
+      },
+      {
+        "id": "JPAC",
+        "as_written": "Japan Pediatric Asthma Consortium",
+        "role": "case-control",
+        "quote_id": "claims/demenais2018tagc_supp_table1.yaml#jpac"
+      },
+      {
+        "id": "EGEA",
+        "as_written": "Epidemiological study on the Genetics and Environment of Asthma (EGEA-ch, EGEA-ad)",
+        "role": "cohort",
+        "quote_id": "claims/demenais2018tagc_supp_table1.yaml#egea-ch"
+      },
+      {
+        "id": "ALSPAC",
+        "as_written": "Avon Longitudinal Study of Parents and Children",
+        "role": "cohort",
+        "quote_id": "claims/demenais2018tagc_supp_table1.yaml#alspac"
+      },
+      {
+        "id": "ECRHS",
+        "as_written": "European Community Respiratory Health Survey (ECRHS-ch, ECRHS-ad)",
+        "role": "cohort",
+        "quote_id": "claims/demenais2018tagc_supp_table1.yaml#ecrhs-ch"
+      },
+      {
+        "id": "BAMSE",
+        "as_written": "Barn Allergy Milieu Stockholm Epidemiology",
+        "role": "cohort",
+        "quote_id": "claims/demenais2018tagc_supp_table1.yaml#bamse"
+      },
+      {
+        "id": "BUSSELTON",
+        "as_written": "Busselton study (ch, ad)",
+        "role": "cohort",
+        "quote_id": "claims/demenais2018tagc_supp_table1.yaml#busselton-ch"
+      },
+      {
+        "id": "GABRIELA",
+        "as_written": "Gabriel Advanced Surveys",
+        "role": "cohort",
+        "quote_id": "claims/demenais2018tagc_supp_table1.yaml#gabriela"
+      },
+      {
+        "id": "KSMU",
+        "as_written": "Kursk State Medical University study (ch, ad)",
+        "role": "case-control",
+        "quote_id": "claims/demenais2018tagc_supp_table1.yaml#ksmu-ch"
+      },
+      {
+        "id": "MRCA_UK",
+        "as_written": "MRC Asthma UK Center in Allergic Mechanisms of Asthma",
+        "role": "cohort",
+        "quote_id": "claims/demenais2018tagc_supp_table1.yaml#mrca-uk"
+      },
+      {
+        "id": "MAGICS_MAS",
+        "as_written": "German MAGICS and MAS",
+        "role": "case-control",
+        "quote_id": "claims/demenais2018tagc_supp_table1.yaml#magics-mas"
+      },
+      {
+        "id": "PIAMA",
+        "as_written": "PIAMA birth cohort",
+        "role": "cohort",
+        "quote_id": "claims/demenais2018tagc_supp_table1.yaml#piama"
+      },
+      {
+        "id": "SAPALDIA",
+        "as_written": "Swiss study on Air Pollution And Lung Disease in Adults (ch, ad)",
+        "role": "cohort",
+        "quote_id": "claims/demenais2018tagc_supp_table1.yaml#sapaldia-ch"
+      },
+      {
+        "id": "TOMSK",
+        "as_written": "TOMSK study (ch, ad)",
+        "role": "cohort",
+        "quote_id": "claims/demenais2018tagc_supp_table1.yaml#tomsk-ch"
+      },
+      {
+        "id": "UFA",
+        "as_written": "UFA region study (ch, ad)",
+        "role": "case-control",
+        "quote_id": "claims/demenais2018tagc_supp_table1.yaml#ufa-ch"
+      },
+      {
+        "id": "GABRIEL_INDUSTRIAL",
+        "as_written": "Industrial Cohorts: Agricultural, Wood, Bakery, Isocyanate exposures",
+        "role": "cohort",
+        "quote_id": "claims/demenais2018tagc_supp_table1.yaml#agricultural"
+      },
+      {
+        "id": "GABRIEL_SEVERE",
+        "as_written": "Severe asthma study (UK)",
+        "role": "case-control",
+        "quote_id": "claims/demenais2018tagc_supp_table1.yaml#severe"
+      },
+      {
+        "id": "NTR",
+        "as_written": "The Netherlands Twin Register",
+        "role": "cohort",
+        "quote_id": "claims/demenais2018tagc_supp_table1.yaml#ntr"
+      },
+      {
+        "id": "RS",
+        "as_written": "Rotterdam Study 1, 2, 3",
+        "role": "cohort",
+        "quote_id": "claims/demenais2018tagc_supp_table1.yaml#rs1"
+      },
+      {
+        "id": "DAGC",
+        "as_written": "Dutch Asthma GWAS 1 (family) and 2 (case-control)",
+        "role": "case-control",
+        "quote_id": "claims/demenais2018tagc_supp_table1.yaml#dag1"
+      }
+    ],
+    "replication_only": [],
+    "components_complete": "no",
+    "complete_reason": "UKB plus the TAGC meta-analysis; the TAGC part inherits the TAGC row's gaps (AAGC members not itemized; control sources of case-control studies not named).",
+    "includes_ukb": "yes",
+    "includes_iceland": "yes",
+    "pqtl_cohort_flags": {
+      "INTERVAL": "unknown",
+      "FENLAND": "unknown",
+      "ARIC": "yes",
+      "AGES": "unknown",
+      "KORA": "unknown",
+      "FHS": "yes",
+      "IMPROVE": "unknown",
+      "DECODE": "yes",
+      "UKB": "yes"
+    },
+    "ancestry": "UK Biobank all ancestries; TAGC multi-ancestry",
+    "sample_size": "88,486 cases; 447,859 controls",
+    "source_read": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7160128/fullTextXML (Introduction; Results; Fig. 1 legend; Methods: study populations, Imputation in the TAGC, Meta-analyses); TAGC list from Demenais 2018 Supplementary Table 1 (Han's Supplementary Data 1 summarizes the same TAGC cohorts and was not separately converted)",
+    "claims_files": [
+      "claims/han2020asthma_main.yaml",
+      "claims/demenais2018tagc_supp_table1.yaml"
+    ],
+    "notes": "A sensitivity analysis meta-analysed UKB with TAGC European-only (19,954 cases, 107,715 controls) (pinned #sensitivity-eur); whether those summary statistics were released is not stated in the text read."
+  },
+  {
+    "row_name": "GBMI asthma (Tsuo 2022)",
+    "new_row": true,
+    "side": "outcome",
+    "aliases_proposed": "GBMI asthma|Global Biobank Meta-analysis Initiative asthma|Tsuo 2022|GBMI|Zhou 2022 GBMI asthma",
+    "release": "GBMI all-biobank multi-ancestry asthma meta-analysis of 18 discovery biobanks (also ancestry-specific and sex-stratified versions), distributed at globalbiobankmeta.org/resources",
+    "source_citation": "Tsuo K et al. 2022. Multi-ancestry meta-analysis of asthma identifies novel associations and highlights the value of increased power and diversity. Cell Genomics 2:100212; Zhou W et al. 2022. Global Biobank Meta-analysis Initiative: Powering genetic discovery across human disease. Cell Genomics 2:100192",
+    "source_identifier": "doi:10.1016/j.xgen.2022.100212; PMID:36778051; PMC9903683; doi:10.1016/j.xgen.2022.100192; PMID:36777996; PMC9903716",
+    "components": [
+      {
+        "id": "CKB",
+        "as_written": "China Kadoorie Biobank (CKB)",
+        "role": "cohort",
+        "quote_id": "claims/tsuo2022gbmi_asthma_table_s1.yaml#ckb"
+      },
+      {
+        "id": "GENERATION_SCOTLAND",
+        "as_written": "Generation Scotland (GS)",
+        "role": "cohort",
+        "quote_id": "claims/tsuo2022gbmi_asthma_table_s1.yaml#gs"
+      },
+      {
+        "id": "LIFELINES",
+        "as_written": "Lifelines Biobank (Lifelines)",
+        "role": "cohort",
+        "quote_id": "claims/tsuo2022gbmi_asthma_table_s1.yaml#lifelines"
+      },
+      {
+        "id": "QSKIN",
+        "as_written": "The QSkin Sun and Health Study (QSKIN)",
+        "role": "cohort",
+        "quote_id": "claims/tsuo2022gbmi_asthma_table_s1.yaml#qskin"
+      },
+      {
+        "id": "GNH",
+        "as_written": "Genes & Health (GNH), East London",
+        "role": "cohort",
+        "quote_id": "claims/tsuo2022gbmi_asthma_table_s1.yaml#gnh"
+      },
+      {
+        "id": "HUNT",
+        "as_written": "Trøndelag Health Study (HUNT)",
+        "role": "cohort",
+        "quote_id": "claims/tsuo2022gbmi_asthma_table_s1.yaml#hunt"
+      },
+      {
+        "id": "UCLA_ATLAS",
+        "as_written": "UCLA ATLAS Community Health Initiative (UCLA)",
+        "role": "cohort",
+        "quote_id": "claims/tsuo2022gbmi_asthma_table_s1.yaml#ucla"
+      },
+      {
+        "id": "CCPM",
+        "as_written": "Colorado Center for Personalized Medicine (CCPM)",
+        "role": "cohort",
+        "quote_id": "claims/tsuo2022gbmi_asthma_table_s1.yaml#ccpm"
+      },
+      {
+        "id": "MGB",
+        "as_written": "Mass General Brigham Biobank (MGB)",
+        "role": "cohort",
+        "quote_id": "claims/tsuo2022gbmi_asthma_table_s1.yaml#mgb"
+      },
+      {
+        "id": "BIOVU",
+        "as_written": "BioVU (Vanderbilt University)",
+        "role": "cohort",
+        "quote_id": "claims/tsuo2022gbmi_asthma_table_s1.yaml#biovu"
+      },
+      {
+        "id": "BIOME",
+        "as_written": "BioMe (Mount Sinai)",
+        "role": "cohort",
+        "quote_id": "claims/tsuo2022gbmi_asthma_table_s1.yaml#biome"
+      },
+      {
+        "id": "MGI",
+        "as_written": "Michigan Genomics Initiative (MGI)",
+        "role": "cohort",
+        "quote_id": "claims/tsuo2022gbmi_asthma_table_s1.yaml#mgi"
+      },
+      {
+        "id": "BBJ",
+        "as_written": "Biobank Japan (BBJ)",
+        "role": "cohort",
+        "quote_id": "claims/tsuo2022gbmi_asthma_table_s1.yaml#bbj"
+      },
+      {
+        "id": "ESTONIAN_BIOBANK",
+        "as_written": "Estonian Biobank (ESTBB)",
+        "role": "cohort",
+        "quote_id": "claims/tsuo2022gbmi_asthma_table_s1.yaml#estbb"
+      },
+      {
+        "id": "DECODE",
+        "as_written": "deCODE Genetics (DECODE)",
+        "role": "cohort",
+        "quote_id": "claims/tsuo2022gbmi_asthma_table_s1.yaml#decode"
+      },
+      {
+        "id": "FINNGEN",
+        "as_written": "FinnGen",
+        "role": "cohort",
+        "quote_id": "claims/tsuo2022gbmi_asthma_table_s1.yaml#finngen"
+      },
+      {
+        "id": "TWB",
+        "as_written": "Taiwan Biobank (TWB)",
+        "role": "cohort",
+        "quote_id": "claims/tsuo2022gbmi_asthma_table_s1.yaml#twb"
+      },
+      {
+        "id": "UKB",
+        "as_written": "UK Biobank (UKBB)",
+        "role": "cohort",
+        "quote_id": "claims/tsuo2022gbmi_asthma_table_s1.yaml#ukbb"
+      }
+    ],
+    "replication_only": [
+      "Canadian Partnership for Tomorrow's Health (CanPath)",
+      "Qatar Biobank (QBB)",
+      "Biobank of the Americas (BBofA)",
+      "Penn Medicine BioBank (PMBB)"
+    ],
+    "components_complete": "yes",
+    "complete_reason": "Tsuo 2022 STAR Methods names all 18 discovery biobanks and Table S1 gives each one's row; each biobank is a single participant source.",
+    "includes_ukb": "yes",
+    "includes_iceland": "yes",
+    "pqtl_cohort_flags": {
+      "INTERVAL": "no",
+      "FENLAND": "no",
+      "ARIC": "no",
+      "AGES": "no",
+      "KORA": "no",
+      "FHS": "no",
+      "IMPROVE": "no",
+      "DECODE": "yes",
+      "UKB": "yes"
+    },
+    "ancestry": "EUR 121,940/1,254,131; EAS 18,549/322,655; AFR 5,051/27,607; AMR 4,069/14,104; CSA 4,015/27,091; MID 139/1,434 (cases/controls)",
+    "sample_size": "153,763 cases; 1,647,022 controls",
+    "source_read": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9903683/fullTextXML (Results; STAR Methods: meta-analysis; key resources table); Table S1 mmc2.xlsx from Europe PMC supplementaryFiles; Zhou 2022 https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9903716/fullTextXML (Results; STAR Methods; Data and code availability)",
+    "claims_files": [
+      "claims/tsuo2022gbmi_asthma_main.yaml",
+      "claims/tsuo2022gbmi_asthma_table_s1.yaml",
+      "claims/zhou2022gbmi_main.yaml"
+    ],
+    "notes": "Zhou 2022 performed leave-one-biobank-out (LOBO) meta-analyses and deposited leave-UKBB-out PRS weights; public leave-UKBB-out GWAS summary statistics are not stated in the text read, so no separate row is proposed. The FinnGen release used by GBMI is not stated in the texts read. 'no' flags rest on the complete 18-biobank list; note HUNT, ESTONIAN_BIOBANK, LIFELINES and GENERATION_SCOTLAND are existing component IDs. BBJ asthma here is a hospital-based biobank component also used by Sakaue 2021."
+  },
+  {
+    "row_name": "Sakaue 2021 BBJ (220 traits)",
+    "new_row": true,
+    "side": "outcome",
+    "aliases_proposed": "Sakaue 2021 BBJ|BBJ 220 traits|BioBank Japan Sakaue 2021|pheweb.jp BBJ|hum0197 BBJ",
+    "release": "BioBank Japan-only GWAS of 220 traits (159 diseases, 38 biomarkers, 23 medication usage), pheweb.jp / NBDC hum0197 / GWAS Catalog GCST90018563-GCST90019002",
+    "source_citation": "Sakaue S et al. 2021. A cross-population atlas of genetic associations for 220 human phenotypes. Nat Genet 53:1415-1424",
+    "source_identifier": "doi:10.1038/s41588-021-00931-x; PMID:34594039; PMC12208603",
+    "components": [
+      {
+        "id": "BBJ",
+        "as_written": "BioBank Japan (12 medical institutions in Japan)",
+        "role": "cohort",
+        "quote_id": "claims/sakaue2021_main.yaml#bbj-12-institutions"
+      }
+    ],
+    "replication_only": [],
+    "components_complete": "yes",
+    "complete_reason": "Single biobank (BBJ); controls are BBJ participants without the diagnosis.",
+    "includes_ukb": "no",
+    "includes_iceland": "no",
+    "pqtl_cohort_flags": {
+      "INTERVAL": "no",
+      "FENLAND": "no",
+      "ARIC": "no",
+      "AGES": "no",
+      "KORA": "no",
+      "FHS": "no",
+      "IMPROVE": "no",
+      "DECODE": "no",
+      "UKB": "no"
+    },
+    "ancestry": "East Asian (Japanese)",
+    "sample_size": "up to 178,726",
+    "source_read": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=12208603 (Abstract; Results; Methods: GWAS of 220 traits in BBJ, Harmonized GWAS in UKB and FinnGen, Meta-analysis; Data availability). Europe PMC returned 'not open access' for PMC12208603; the Supplementary Note (BBJ institutions, cohort descriptions) and Supplementary Tables were not read.",
+    "claims_files": [
+      "claims/sakaue2021_main.yaml"
+    ],
+    "notes": "BBJ participants all had at least one of 47 target diseases (hospital-based)."
+  },
+  {
+    "row_name": "Sakaue 2021 European meta-analysis (UKB + FinnGen R3)",
+    "new_row": true,
+    "side": "outcome",
+    "aliases_proposed": "Sakaue 2021 European|Sakaue 2021 UKB FinnGen|hum0197 European",
+    "release": "Sakaue 2021 'European' summary statistics: intra-European meta-analysis of harmonized UKB GWAS and FinnGen release 3 where both exist, UKB-only otherwise (FinnGen mapped for 128 traits; UKB for 196 traits plus 23 medication GWAS)",
+    "source_citation": "Sakaue S et al. 2021. Nat Genet 53:1415-1424",
+    "source_identifier": "doi:10.1038/s41588-021-00931-x; PMID:34594039; PMC12208603",
+    "components": [
+      {
+        "id": "UKB",
+        "as_written": "UK Biobank",
+        "role": "cohort",
+        "quote_id": "claims/sakaue2021_main.yaml#ukb-finngen-gwas"
+      },
+      {
+        "id": "FINNGEN",
+        "as_written": "FinnGen release 3",
+        "role": "cohort",
+        "quote_id": "claims/sakaue2021_main.yaml#finngen-r3"
+      }
+    ],
+    "replication_only": [],
+    "components_complete": "yes",
+    "complete_reason": "Two biobanks named in Methods; trait-dependent (UKB-only for traits without a FinnGen endpoint).",
+    "includes_ukb": "yes",
+    "includes_iceland": "no",
+    "pqtl_cohort_flags": {
+      "INTERVAL": "no",
+      "FENLAND": "no",
+      "ARIC": "no",
+      "AGES": "no",
+      "KORA": "no",
+      "FHS": "no",
+      "IMPROVE": "no",
+      "DECODE": "no",
+      "UKB": "yes"
+    },
+    "ancestry": "European",
+    "sample_size": "trait-dependent",
+    "source_read": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=12208603 (Abstract; Results; Methods: GWAS of 220 traits in BBJ, Harmonized GWAS in UKB and FinnGen, Meta-analysis; Data availability). Europe PMC returned 'not open access' for PMC12208603; the Supplementary Note (BBJ institutions, cohort descriptions) and Supplementary Tables were not read.",
+    "claims_files": [
+      "claims/sakaue2021_main.yaml"
+    ],
+    "notes": "FinnGen component is release 3; if the lead models FinnGen legacy cohorts (FINRISK etc.) as components of FINNGEN rows, the same applies here."
+  },
+  {
+    "row_name": "Sakaue 2021 cross-population meta-analysis (BBJ + UKB + FinnGen R3)",
+    "new_row": true,
+    "side": "outcome",
+    "aliases_proposed": "Sakaue 2021 cross-population|Sakaue 2021 meta-analysis|BBJ UKB FinnGen meta-analysis|hum0197 meta",
+    "release": "Cross-population inverse-variance meta-analysis across three (BBJ, UKB, FinnGen R3) or two cohorts, per trait; n total 628,000",
+    "source_citation": "Sakaue S et al. 2021. Nat Genet 53:1415-1424",
+    "source_identifier": "doi:10.1038/s41588-021-00931-x; PMID:34594039; PMC12208603",
+    "components": [
+      {
+        "id": "BBJ",
+        "as_written": "BioBank Japan",
+        "role": "cohort",
+        "quote_id": "claims/sakaue2021_main.yaml#bbj-220"
+      },
+      {
+        "id": "UKB",
+        "as_written": "UK Biobank",
+        "role": "cohort",
+        "quote_id": "claims/sakaue2021_main.yaml#meta-three"
+      },
+      {
+        "id": "FINNGEN",
+        "as_written": "FinnGen release 3",
+        "role": "cohort",
+        "quote_id": "claims/sakaue2021_main.yaml#finngen-r3"
+      }
+    ],
+    "replication_only": [],
+    "components_complete": "yes",
+    "complete_reason": "Three biobanks named; trait-dependent two-cohort versions where FinnGen or UKB lacks the trait.",
+    "includes_ukb": "yes",
+    "includes_iceland": "no",
+    "pqtl_cohort_flags": {
+      "INTERVAL": "no",
+      "FENLAND": "no",
+      "ARIC": "no",
+      "AGES": "no",
+      "KORA": "no",
+      "FHS": "no",
+      "IMPROVE": "no",
+      "DECODE": "no",
+      "UKB": "yes"
+    },
+    "ancestry": "East Asian + European",
+    "sample_size": "up to 628,000 (trait-dependent)",
+    "source_read": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=12208603 (Abstract; Results; Methods: GWAS of 220 traits in BBJ, Harmonized GWAS in UKB and FinnGen, Meta-analysis; Data availability). Europe PMC returned 'not open access' for PMC12208603; the Supplementary Note (BBJ institutions, cohort descriptions) and Supplementary Tables were not read.",
+    "claims_files": [
+      "claims/sakaue2021_main.yaml"
+    ],
+    "notes": "The meta-analysis procedure (intra-European first, then cross-population across three or two cohorts) is pinned as #meta-procedure."
+  },
+  {
+    "row_name": "FinnGen R12 + UK Biobank meta-analysis",
+    "new_row": true,
+    "side": "outcome",
+    "aliases_proposed": "FinnGen-UKBB meta-analysis R12|FinnGen R12 UKBB meta|FinnGen UKB meta-analysis|FG-UKBB meta R12",
+    "release": "FinnGen R12 FinnGen-UKBB meta-analysis (867 phenotypes), public-metaresults-fg-ukbb.finngen.fi; files also carry leave-one-out (FinnGen-only, UKBB-only) statistics",
+    "source_citation": "FinnGen public documentation, R12, Methods > Meta-analysis (finngen.gitbook.io)",
+    "source_identifier": "https://finngen.gitbook.io/documentation/r12/methods/meta-analysis",
+    "components": [
+      {
+        "id": "FINNGEN",
+        "as_written": "FinnGen (R12)",
+        "role": "cohort",
+        "quote_id": "claims/finngen_docs_r12_meta_analysis.yaml#fg-ukbb"
+      },
+      {
+        "id": "UKB",
+        "as_written": "pan-UKBB, European subset",
+        "role": "cohort",
+        "quote_id": "claims/finngen_docs_r12_meta_analysis.yaml#eur-subset"
+      }
+    ],
+    "replication_only": [],
+    "components_complete": "yes",
+    "complete_reason": "Two named sources (FinnGen R12 and the European subset of pan-UKBB).",
+    "includes_ukb": "yes",
+    "includes_iceland": "no",
+    "pqtl_cohort_flags": {
+      "INTERVAL": "no",
+      "FENLAND": "no",
+      "ARIC": "no",
+      "AGES": "no",
+      "KORA": "no",
+      "FHS": "no",
+      "IMPROVE": "no",
+      "DECODE": "no",
+      "UKB": "yes"
+    },
+    "ancestry": "European (Finnish + UKB European)",
+    "sample_size": "endpoint-dependent",
+    "source_read": "https://finngen.gitbook.io/documentation/r12/methods/meta-analysis.md (whole page); https://finngen.gitbook.io/documentation/llms.txt (index: a Meta-analysis page exists only under R12; none for R13 or R5-R11)",
+    "claims_files": [
+      "claims/finngen_docs_r12_meta_analysis.yaml"
+    ],
+    "notes": "FinnGen-UKBB meta-analyses for earlier releases (the 'FinnGen + UKBB mega' results used by MR papers, e.g. R5/R6/R7/R10) are not documented in the current FinnGen gitbook pages that were reachable; no row is proposed for them because no open source was read. The lead may need one generic row per release once a source is found."
+  },
+  {
+    "row_name": "FinnGen R12 + MVP + UK Biobank meta-analysis",
+    "new_row": true,
+    "side": "outcome",
+    "aliases_proposed": "FinnGen-MVP-UKBB meta-analysis|FinnGen MVP UKBB meta R12|FG-MVP-UKBB",
+    "release": "FinnGen R12 FinnGen-MVP-UKBB meta-analysis (330 binary phenotypes), public-mvp-ukbb.finngen.fi",
+    "source_citation": "FinnGen public documentation, R12, Methods > Meta-analysis (finngen.gitbook.io)",
+    "source_identifier": "https://finngen.gitbook.io/documentation/r12/methods/meta-analysis",
+    "components": [
+      {
+        "id": "FINNGEN",
+        "as_written": "FinnGen (R12)",
+        "role": "cohort",
+        "quote_id": "claims/finngen_docs_r12_meta_analysis.yaml#mvp"
+      },
+      {
+        "id": "MVP",
+        "as_written": "VA Million Veteran Program (African, Admixed American and European populations)",
+        "role": "cohort",
+        "quote_id": "claims/finngen_docs_r12_meta_analysis.yaml#mvp-pops"
+      },
+      {
+        "id": "UKB",
+        "as_written": "UKBB endpoint, when available",
+        "role": "cohort",
+        "quote_id": "claims/finngen_docs_r12_meta_analysis.yaml#mvp-ukbb"
+      }
+    ],
+    "replication_only": [],
+    "components_complete": "yes",
+    "complete_reason": "Three named sources; UKBB included only where a matching endpoint exists.",
+    "includes_ukb": "yes",
+    "includes_iceland": "no",
+    "pqtl_cohort_flags": {
+      "INTERVAL": "no",
+      "FENLAND": "no",
+      "ARIC": "no",
+      "AGES": "no",
+      "KORA": "no",
+      "FHS": "no",
+      "IMPROVE": "no",
+      "DECODE": "no",
+      "UKB": "yes"
+    },
+    "ancestry": "Multi-ancestry (Finnish, European, African, Admixed American)",
+    "sample_size": "endpoint-dependent",
+    "source_read": "https://finngen.gitbook.io/documentation/r12/methods/meta-analysis.md (whole page)",
+    "claims_files": [
+      "claims/finngen_docs_r12_meta_analysis.yaml"
+    ],
+    "notes": "includes_ukb=yes is endpoint-dependent ('if available'); MVP is a new component ID."
+  },
+  {
+    "row_name": "FinnGen (all releases): participant sources",
+    "new_row": false,
+    "side": "outcome",
+    "aliases_proposed": "",
+    "release": "Informational object, not a dictionary row: FinnGen sample sources (legacy cohorts as of R5 per Kurki 2023; participating biobanks per R12 documentation)",
+    "source_citation": "Kurki MI et al. 2023. FinnGen provides genetic insights from a well-phenotyped isolated population. Nature 613:508-518 (Supplementary Table 2; Supplementary Methods Section 2); FinnGen documentation R12 'Participating biobanks/cohorts'",
+    "source_identifier": "doi:10.1038/s41586-022-05473-8; PMID:36653562; PMC9849126",
+    "components": [
+      {
+        "id": "BOTNIA",
+        "as_written": "Botnia Study THL Biobank (Botnia Family Study; PPP-Botnia)",
+        "role": "cohort",
+        "quote_id": "claims/kurki2023finngen_supp_table2.yaml#botnia"
+      },
+      {
+        "id": "COROGENE",
+        "as_written": "Corogene Study THL Biobank",
+        "role": "cohort",
+        "quote_id": "claims/kurki2023finngen_supp_table2.yaml#corogene"
+      },
+      {
+        "id": "FINRISK",
+        "as_written": "The National FINRISK Study 1992-2012 THL Biobank",
+        "role": "cohort",
+        "quote_id": "claims/kurki2023finngen_supp_table2.yaml#finrisk"
+      },
+      {
+        "id": "GENERISK",
+        "as_written": "GeneRISK Study THL Biobank",
+        "role": "cohort",
+        "quote_id": "claims/kurki2023finngen_supp_table2.yaml#generisk"
+      },
+      {
+        "id": "HEALTH2000",
+        "as_written": "Health 2000 and 2011 Surveys THL Biobank",
+        "role": "cohort",
+        "quote_id": "claims/kurki2023finngen_supp_table2.yaml#health2000"
+      },
+      {
+        "id": "HELSINKI_HEART_STUDY",
+        "as_written": "Helsinki Heart Study THL Biobank",
+        "role": "cohort",
+        "quote_id": "claims/kurki2023finngen_supp_table2.yaml#hhs"
+      },
+      {
+        "id": "FINNISH_MIGRAINE",
+        "as_written": "Migraine Study THL Biobank",
+        "role": "cohort",
+        "quote_id": "claims/kurki2023finngen_supp_table2.yaml#migraine"
+      },
+      {
+        "id": "FINHEALTH2017",
+        "as_written": "National FinHealth 2017 Study THL Biobank",
+        "role": "cohort",
+        "quote_id": "claims/kurki2023finngen_supp_table2.yaml#finhealth2017"
+      },
+      {
+        "id": "SUPER_FINLAND",
+        "as_written": "SUPER Study THL Biobank (part of the Stanley Global Neuropsychiatric Genomics Initiative)",
+        "role": "cohort",
+        "quote_id": "claims/kurki2023finngen_supp_table2.yaml#super"
+      },
+      {
+        "id": "THL_DIABETES",
+        "as_written": "THL Diabetes Studies THL Biobank",
+        "role": "cohort",
+        "quote_id": "claims/kurki2023finngen_supp_table2.yaml#thl-diabetes"
+      },
+      {
+        "id": "FINNTWIN",
+        "as_written": "The Finnish Twin Cohort Study THL Biobank",
+        "role": "cohort",
+        "quote_id": "claims/kurki2023finngen_supp_table2.yaml#twins"
+      },
+      {
+        "id": "FINNISH_IPF",
+        "as_written": "Finnish IPF Study THL Biobank",
+        "role": "cohort",
+        "quote_id": "claims/kurki2023finngen_supp_table2.yaml#ipf"
+      },
+      {
+        "id": "FINNAKI",
+        "as_written": "FiNNAKI Study Helsinki Biobank",
+        "role": "cohort",
+        "quote_id": "claims/kurki2023finngen_supp_table2.yaml#finnaki"
+      },
+      {
+        "id": "ARCTIC_BIOBANK",
+        "as_written": "Arctic Biobank",
+        "role": "cohort",
+        "quote_id": "claims/finngen_docs_r12_cohort_description.yaml#arctic"
+      },
+      {
+        "id": "AURIA_BIOBANK",
+        "as_written": "Auria Biobank",
+        "role": "cohort",
+        "quote_id": "claims/finngen_docs_r12_cohort_description.yaml#auria"
+      },
+      {
+        "id": "BOREALIS_BIOBANK",
+        "as_written": "Biobank Borealis of Northern Finland",
+        "role": "cohort",
+        "quote_id": "claims/finngen_docs_r12_cohort_description.yaml#borealis"
+      },
+      {
+        "id": "EASTERN_FINLAND_BIOBANK",
+        "as_written": "Biobank of Eastern Finland",
+        "role": "cohort",
+        "quote_id": "claims/finngen_docs_r12_cohort_description.yaml#eastern"
+      },
+      {
+        "id": "CENTRAL_FINLAND_BIOBANK",
+        "as_written": "Central Finland Biobank",
+        "role": "cohort",
+        "quote_id": "claims/finngen_docs_r12_cohort_description.yaml#central"
+      },
+      {
+        "id": "FRCBS_BIOBANK",
+        "as_written": "Finnish Red Cross Blood Service Biobank",
+        "role": "cohort",
+        "quote_id": "claims/finngen_docs_r12_cohort_description.yaml#bloodservice"
+      },
+      {
+        "id": "TAMPERE_BIOBANK",
+        "as_written": "Finnish Clinical Biobank Tampere",
+        "role": "cohort",
+        "quote_id": "claims/finngen_docs_r12_cohort_description.yaml#tampere"
+      },
+      {
+        "id": "HELSINKI_BIOBANK",
+        "as_written": "Helsinki Biobank",
+        "role": "cohort",
+        "quote_id": "claims/finngen_docs_r12_cohort_description.yaml#helsinki"
+      },
+      {
+        "id": "TERVEYSTALO_BIOBANK",
+        "as_written": "Terveystalo Biobank",
+        "role": "cohort",
+        "quote_id": "claims/finngen_docs_r12_cohort_description.yaml#terveystalo"
+      },
+      {
+        "id": "THL_BIOBANK",
+        "as_written": "THL Biobank",
+        "role": "cohort",
+        "quote_id": "claims/finngen_docs_r12_cohort_description.yaml#thl"
+      }
+    ],
+    "replication_only": [],
+    "components_complete": "no",
+    "complete_reason": "The legacy-cohort list (13 cohorts, 106,806 participants) is complete for release 5 as published in Kurki 2023 Supplementary Table 2. Legacy cohorts added in R6-R13 are not documented in the sources read, and the prospective hospital-biobank samples are not cohorts in the component sense.",
+    "includes_ukb": "no",
+    "includes_iceland": "no",
+    "pqtl_cohort_flags": {
+      "INTERVAL": "no",
+      "FENLAND": "no",
+      "ARIC": "no",
+      "AGES": "no",
+      "KORA": "no",
+      "FHS": "no",
+      "IMPROVE": "no",
+      "DECODE": "no",
+      "UKB": "no"
+    },
+    "ancestry": "Finnish",
+    "sample_size": "R5: 224,737 after QC, of which 70,023 from legacy collections genotyped on non-custom arrays; ST2 lists 106,806 legacy participants in R5",
+    "source_read": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9849126/fullTextXML (Introduction; Results; Methods: Biobank samples; Fig. 1 legend); Supplementary Table 2 sheet of 41586_2022_5473_MOESM4_ESM.xlsx and Supplementary Methods 41586_2022_5473_MOESM5_ESM.docx from Europe PMC supplementaryFiles; https://finngen.gitbook.io/documentation/r12/methods/cohort-description.md",
+    "claims_files": [
+      "claims/kurki2023finngen_main.yaml",
+      "claims/kurki2023finngen_supp_table2.yaml",
+      "claims/kurki2023finngen_supp_methods.yaml",
+      "claims/finngen_docs_r12_cohort_description.yaml"
+    ],
+    "notes": "For the lead: FINRISK (30,204 in R5) and Health 2000/2011 (7,436) are FinnGen legacy cohorts, so every FINNGEN row (R3 onward, plus GBMI, Sakaue European/cross-population, FinnGen-UKBB/MVP metas) shares participants with any source that uses FINRISK or Health 2000 (e.g. TAGC via FINRISK-H2000-HBC-YFS, and any pQTL study on FINRISK). The legacy cohorts are mainly from the THL Biobank; Kurki 2023 R5 biobank list omits Arctic Biobank, which appears in the R12 documentation (Arctic Biobank holds the Northern Finland Birth Cohorts, but no source read says NFBC samples are in FinnGen). The 70,023 vs 106,806 legacy counts differ between the Supplementary Methods (after-QC legacy-array count) and Supplementary Table 2 (participants per cohort); both are pinned. Proposed IDs for legacy cohorts are new except FINRISK."
+  }
+]

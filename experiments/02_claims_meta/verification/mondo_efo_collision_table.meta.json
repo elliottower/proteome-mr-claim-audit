@@ -1,0 +1,56 @@
+{
+ "inputs": {
+  "mondo": {
+   "file": "inputs/mondo_v2026-09-01/mondo.obo",
+   "release": "v2026-09-01",
+   "sha256": "50c8367f9bd9978321eedf84d4e2e79cb757efbed514c81effb00b9ad2e49994"
+  },
+  "efo": {
+   "file": "inputs/efo_v3.93.0/efo.obo",
+   "release": "v3.93.0",
+   "sha256": "66e87fc65a6254c6d69281ed3d286784ee5f8265b1e57691efddd29b20570c46"
+  },
+  "mondo_exactmatch_efo_sssom": {
+   "modal_volume_path": "/02_claims_meta/inputs/mondo_v2026-09-01/mondo_exactmatch_efo.sssom.tsv",
+   "sha256": "7f4e2c0e27e3657885b7032a97aaab0186365b62922308434ff88c8c308defb9"
+  }
+ },
+ "table": "verification/mondo_efo_collision_table.csv",
+ "table_sha256": "b858b4bd0fba33c1d2138e272b3c753c45f3d3f8b426e25b99a9d97c320fd0e0",
+ "cross_referenced_pairs": 8141,
+ "pairs_not_listed_one_side_not_live": {
+  "efo_obsolete": 5978,
+  "mondo_obsolete": 736
+ },
+ "rows": 1427,
+ "distinct_mondo_ids": 1423,
+ "distinct_efo_side_ids": 1427,
+ "by_concept_class": {
+  "disease": 1423,
+  "non_disease_trait": 4
+ },
+ "by_canonical_prefix": {
+  "MONDO": 1423,
+  "EFO": 2,
+  "Orphanet": 2
+ },
+ "by_sources": {
+  "mondo_xref": 1411,
+  "efo_xref": 16
+ },
+ "by_mondo_branch": {
+  "disease": 1423,
+  "disease_susceptibility": 4
+ },
+ "by_efo_branch": {
+  "disease": 1425,
+  "measurement": 1,
+  "phenotype": 1
+ },
+ "rows_with_any_conflict": 14,
+ "conflicts": {
+  "branch_disagreement": 6,
+  "mondo_term_maps_to_multiple_efo": 8
+ },
+ "mondo_terms_imported_by_efo_under_mondo_id": 16596
+}

@@ -1,0 +1,14 @@
+source:
+  citation: bellenguez2022_data_availability
+  local: sources/bellenguez2022_data_availability.txt
+  sha256: 8c48b486b8cde479d1e466f331ad3e4662fed7dcf42fa775b4b0732aa8b85595
+  doi: 10.1038/s41588-022-01024-z
+  note: 'Data Availability section of Bellenguez et al. 2022 Nat Genet: heading and paragraph copied verbatim
+    from lines 976-977 of sources/bellenguez2022_main.txt (Europe PMC fullTextXML PMC9005347). Separate
+    file because the XML repeats the paragraph as ''Data Availability Statement''.'
+claims:
+  gwas_catalog:
+    quotes:
+    - exact: Genome-wide summary statistics have been deposited to the European Bioinformatics Institute
+        GWAS Catalog ( https://www.ebi.ac.uk/gwas/ ) under accession no. GCST90027158.
+      section: Data Availability

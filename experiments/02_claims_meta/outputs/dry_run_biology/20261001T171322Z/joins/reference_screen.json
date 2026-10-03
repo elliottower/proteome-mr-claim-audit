@@ -1,0 +1,124 @@
+{
+ "inputs": "/tmp/dry_run_biology/inputs",
+ "window": "confirmatory",
+ "claim_records": 13,
+ "resources": {
+  "ontology_edges": "/tmp/dry_run_biology/resources/ontology_edges.csv",
+  "category_anchors": "/tmp/dry_run_biology/resources/anchors.csv",
+  "assay_lists": "/tmp/dry_run_biology/resources/assay_lists.csv",
+  "attachments": "/tmp/dry_run_biology/resources/attachments.csv",
+  "reactome": "/tmp/dry_run_biology/resources/UniProt2Reactome.txt",
+  "snapshot_estimates": "/tmp/dry_run_biology/resources/mrres_estimates.jsonl",
+  "protein_mapping": "/tmp/dry_run_biology/resources/protein_mapping.csv",
+  "trait_mapping": "/tmp/dry_run_biology/resources/trait_mapping.csv",
+  "locus_list": "/tmp/dry_run_biology/resources/loci.csv"
+ },
+ "written_utc": "2026-10-01T17:13:29+00:00",
+ "snapshot_records": 4,
+ "snapshot_records_on_mapped_pairs": 2,
+ "snapshot_mapped_proteins": 2,
+ "snapshot_mapped_outcomes": 2,
+ "pairs": 8,
+ "pairs_by_class": {
+  "present_same": 0,
+  "present_opposite": 0,
+  "present_nondirectional_or_ambiguous": 1,
+  "no_returned_record": 2,
+  "mapping_failed": 5
+ },
+ "pairs_matched_to_snapshot": 3,
+ "claim_records_by_class": {
+  "present_same": 2,
+  "present_opposite": 1,
+  "present_nondirectional_or_ambiguous": 1,
+  "no_returned_record": 3,
+  "mapping_failed": 6
+ },
+ "claim_records_by_novelty_language": {
+  "false": {
+   "present_same": 2,
+   "present_opposite": 0,
+   "present_nondirectional_or_ambiguous": 1,
+   "no_returned_record": 2,
+   "mapping_failed": 5
+  },
+  "true": {
+   "present_same": 0,
+   "present_opposite": 1,
+   "present_nondirectional_or_ambiguous": 0,
+   "no_returned_record": 1,
+   "mapping_failed": 1
+  }
+ },
+ "claim_records_by_novelty_class": {
+  "earlier_in_registry": {
+   "present_same": 1,
+   "present_opposite": 1,
+   "present_nondirectional_or_ambiguous": 1,
+   "no_returned_record": 1,
+   "mapping_failed": 0
+  },
+  "no_earlier_in_registry": {
+   "present_same": 1,
+   "present_opposite": 0,
+   "present_nondirectional_or_ambiguous": 0,
+   "no_returned_record": 2,
+   "mapping_failed": 6
+  }
+ },
+ "sensitivity_names_as_written_only": {
+  "snapshot_records": 4,
+  "snapshot_records_on_mapped_pairs": 2,
+  "snapshot_mapped_proteins": 2,
+  "snapshot_mapped_outcomes": 2,
+  "pairs": 8,
+  "pairs_by_class": {
+   "present_same": 0,
+   "present_opposite": 0,
+   "present_nondirectional_or_ambiguous": 1,
+   "no_returned_record": 2,
+   "mapping_failed": 5
+  },
+  "pairs_matched_to_snapshot": 3,
+  "claim_records": 13,
+  "claim_records_by_class": {
+   "present_same": 2,
+   "present_opposite": 1,
+   "present_nondirectional_or_ambiguous": 1,
+   "no_returned_record": 3,
+   "mapping_failed": 6
+  },
+  "claim_records_by_novelty_language": {
+   "false": {
+    "present_same": 2,
+    "present_opposite": 0,
+    "present_nondirectional_or_ambiguous": 1,
+    "no_returned_record": 2,
+    "mapping_failed": 5
+   },
+   "true": {
+    "present_same": 0,
+    "present_opposite": 1,
+    "present_nondirectional_or_ambiguous": 0,
+    "no_returned_record": 1,
+    "mapping_failed": 1
+   }
+  },
+  "claim_records_by_novelty_class": {
+   "earlier_in_registry": {
+    "present_same": 1,
+    "present_opposite": 1,
+    "present_nondirectional_or_ambiguous": 1,
+    "no_returned_record": 1,
+    "mapping_failed": 0
+   },
+   "no_earlier_in_registry": {
+    "present_same": 1,
+    "present_opposite": 0,
+    "present_nondirectional_or_ambiguous": 0,
+    "no_returned_record": 2,
+    "mapping_failed": 6
+   }
+  }
+ }
+}

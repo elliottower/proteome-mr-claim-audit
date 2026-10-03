@@ -1,0 +1,22 @@
+source:
+  citation: tsuo2022gbmi_asthma_main
+  local: sources/original/tsuo2022gbmi_asthma_main.xml
+  sha256: 39d5a722da640bd9209f595e3aa50cc8b565d82cc37047a920feb1351b7c9394
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9903683/fullTextXML
+  doi: 10.1016/j.xgen.2022.100212
+  note: 'Original file behind claims/tsuo2022gbmi_asthma_main.yaml: Europe PMC fullTextXML of PMC9903683,
+    read as plain text with its markup. The quotations here are the quotations of that file that resolve
+    in this file under the citations readers; a quotation absent here is pinned to the extracted text
+    there only.'
+claims:
+  replication-4:
+    quotes:
+    - exact: 'We also performed fixed-effects meta-analysis with inverse variance weighting for 4 additional
+        biobanks that served as independent replication studies: Canadian Partnership for Tomorrow’s Health
+        (CanPath), Qatar Biobank (QBB), Biobank of the Americas (BBofA), and Penn Medicine Biobank (PMBB).'
+      section: STAR Methods
+  leave-bbj-out:
+    quotes:
+    - exact: we computed genetic correlation estimates between the GBMI leave-BBJ-out meta-analysis of
+        asthma
+      section: Results

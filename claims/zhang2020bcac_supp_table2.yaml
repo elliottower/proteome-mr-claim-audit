@@ -1,0 +1,366 @@
+source:
+  citation: zhang2020bcac_supp_table2
+  local: sources/zhang2020bcac_supp_table2.txt
+  sha256: 9585eeac6de11928dedfcf6b8c184e2aa32e5e113b2c73ee4af4de9323126b53
+  doi: 10.1038/s41588-020-0609-2
+  note: Supplementary Table 2 (BCAC studies in the two-stage polytomous subtype model) of Zhang et al.
+    2020 Nat Genet, ESM 41588_2020_609_MOESM3_ESM.xlsx from static-content.springer.com, sheet 'S2 tumor
+    sample size', converted with openpyxl, one row per line, cells separated by ' | '
+claims:
+  s2-two-sister:
+    quotes:
+    - exact: 2SISTER | The Two Sister Study | USA | Case-only study
+      section: Supplementary Table 2
+  s2-abcfs:
+    quotes:
+    - exact: ABCFS | Australian Breast Cancer Family Study | Australia | Case-control study
+      section: Supplementary Table 2
+  s2-abcs:
+    quotes:
+    - exact: ABCS | Amsterdam Breast Cancer Study | Netherlands | Case-control study
+      section: Supplementary Table 2
+  s2-abcs-f:
+    quotes:
+    - exact: ABCS-F | Amsterdam Breast Cancer Study – Familial | Netherlands | Case-only study
+      section: Supplementary Table 2
+  s2-abctb:
+    quotes:
+    - exact: ABCTB | Australian Breast Cancer Tissue Bank | Australia | Case-control study
+      section: Supplementary Table 2
+  s2-ahs:
+    quotes:
+    - exact: 'AHS | Agricultural Health Study | USA | Prospective cohort: nested case-control study'
+      section: Supplementary Table 2
+  s2-bbcc:
+    quotes:
+    - exact: BBCC | Bavarian Breast Cancer Cases and Controls | Germany | Case-control study
+      section: Supplementary Table 2
+  s2-bbcs:
+    quotes:
+    - exact: BBCS | British Breast Cancer Study | UK | Case-control study
+      section: Supplementary Table 2
+  s2-bcees:
+    quotes:
+    - exact: BCEES | Breast Cancer Employment and Environment Study | Australia | Case-control study
+      section: Supplementary Table 2
+  s2-bcfr-ny:
+    quotes:
+    - exact: BCFR-NY | New York site of the Breast Cancer Family Registry | USA | Case-control study
+      section: Supplementary Table 2
+  s2-bcfr-pa:
+    quotes:
+    - exact: BCFR-PA | Philadelphia site of the Breast Cancer Family Registry | USA | Case-control study
+      section: Supplementary Table 2
+  s2-bcfr-utah:
+    quotes:
+    - exact: BCFR-UTAH | Utah site of the Breast Cancer Family Registry | USA | Case-control study
+      section: Supplementary Table 2
+  s2-bcinis:
+    quotes:
+    - exact: BCINIS | Breast Cancer in Northern Israel Study | Israel | Case-control study
+      section: Supplementary Table 2
+  s2-biggs:
+    quotes:
+    - exact: BIGGS | Breast Cancer in Galway Genetic Study | Ireland | Case-control study
+      section: Supplementary Table 2
+  s2-breogan:
+    quotes:
+    - exact: BREOGAN | Breast Oncology Galicia Network | Spain | Case-control study
+      section: Supplementary Table 2
+  s2-bsuch:
+    quotes:
+    - exact: BSUCH | Breast Cancer Study of the University of Heidelberg | Germany | Case-control study
+      section: Supplementary Table 2
+  s2-cbcs:
+    quotes:
+    - exact: CBCS | Canadian Breast Cancer Study | Canada | Case-control study
+      section: Supplementary Table 2
+  s2-ccgp:
+    quotes:
+    - exact: CCGP | Crete Cancer Genetics Program | Greece | Case-control study
+      section: Supplementary Table 2
+  s2-cecile:
+    quotes:
+    - exact: CECILE | CECILE Breast Cancer Study | France | Case-control study
+      section: Supplementary Table 2
+  s2-cgps:
+    quotes:
+    - exact: CGPS | Copenhagen General Population Study | Denmark | Case-control study
+      section: Supplementary Table 2
+  s2-cnio-bcs:
+    quotes:
+    - exact: CNIO-BCS | Spanish National Cancer Centre Breast Cancer Study | Spain | Case-control study
+      section: Supplementary Table 2
+  s2-cpsii:
+    quotes:
+    - exact: 'CPSII | Cancer Prevention Study-II Nutrition Cohort | USA | Prospective cohort: nested case-control
+        study'
+      section: Supplementary Table 2
+  s2-cts:
+    quotes:
+    - exact: 'CTS | California Teachers Study | USA | Prospective cohort: nested case-control study'
+      section: Supplementary Table 2
+  s2-dietcomplyf:
+    quotes:
+    - exact: 'DIETCOMPLYF | DietCompLyf Breast Cancer Survival Study | UK | Prospective cohort: nested
+        case-control study'
+      section: Supplementary Table 2
+  s2-epic:
+    quotes:
+    - exact: 'EPIC | European Prospective Investigation Into Cancer and Nutrition | International (Europe)
+        | Prospective cohort: nested case-control study'
+      section: Supplementary Table 2
+  s2-esther:
+    quotes:
+    - exact: ESTHER | ESTHER Breast Cancer Study | Germany | Case-control study
+      section: Supplementary Table 2
+  s2-fhrisk:
+    quotes:
+    - exact: FHRISK | Family History Risk Study | UK | Case-control study
+      section: Supplementary Table 2
+  s2-gc-hboc:
+    quotes:
+    - exact: GC-HBOC | German Consortium for Hereditary Breast & Ovarian Cancer | Germany | Case-control
+        study
+      section: Supplementary Table 2
+  s2-genica:
+    quotes:
+    - exact: GENICA | Gene Environment Interaction and Breast Cancer in Germany | Germany | Case-control
+        study
+      section: Supplementary Table 2
+  s2-geparsixto:
+    quotes:
+    - exact: GEPARSIXTO | Randomized phase II trial | Germany | Case-only study
+      section: Supplementary Table 2
+  s2-gesbc:
+    quotes:
+    - exact: GESBC | Genetic Epidemiology Study of Breast Cancer by Age 50 | Germany | Case-control study
+      section: Supplementary Table 2
+  s2-habcs:
+    quotes:
+    - exact: HABCS | Hannover Breast Cancer Study | Germany | Case-control study
+      section: Supplementary Table 2
+  s2-hcsc:
+    quotes:
+    - exact: HCSC | Hospital Clinico San Carlos | Spain | Case-control study
+      section: Supplementary Table 2
+  s2-hebcs:
+    quotes:
+    - exact: HEBCS | Helsinki Breast Cancer Study | Finland | Case-control study
+      section: Supplementary Table 2
+  s2-hubcs:
+    quotes:
+    - exact: HUBCS | Hannover-Ufa Breast Cancer Study | Russia | Case-control study
+      section: Supplementary Table 2
+  s2-karbac:
+    quotes:
+    - exact: KARBAC | Karolinska Breast Cancer Study | Sweden | Case-control study
+      section: Supplementary Table 2
+  s2-karma:
+    quotes:
+    - exact: KARMA | Karolinska Mammography Project for Risk Prediction of Breast Cancer – Cohort Study
+        | Sweden | Case-control study
+      section: Supplementary Table 2
+  s2-kbcp:
+    quotes:
+    - exact: KBCP | Kuopio Breast Cancer Project | Finland | Case-control study
+      section: Supplementary Table 2
+  s2-kconfab-aocs:
+    quotes:
+    - exact: KCONFAB/AOCS | Kathleen Cuningham Foundation Consortium for research into Familial Breast
+        Cancer/Australian Ovarian Cancer Study | Australia and New Zeland | Case-control study
+      section: Supplementary Table 2
+  s2-lmbc:
+    quotes:
+    - exact: LMBC | Leuven Multidisciplinary Breast Centre | Belgium | Case-control study
+      section: Supplementary Table 2
+  s2-mabcs:
+    quotes:
+    - exact: MABCS | Macedonian Breast Cancer Study | Macedonia | Case-control study
+      section: Supplementary Table 2
+  s2-marie:
+    quotes:
+    - exact: MARIE | Mammary Carcinoma Risk Factor Investigation | Germany | Case-control study
+      section: Supplementary Table 2
+  s2-mbcsg:
+    quotes:
+    - exact: MBCSG | Milan Breast Cancer Study Group | Italy | Case-control study
+      section: Supplementary Table 2
+  s2-mcbcs:
+    quotes:
+    - exact: MCBCS | Mayo Clinic Breast Cancer Study | USA | Case-control study
+      section: Supplementary Table 2
+  s2-mccs:
+    quotes:
+    - exact: 'MCCS | Melbourne Collaborative Cohort Study | Australia | Prospective cohort: nested case-control
+        study'
+      section: Supplementary Table 2
+  s2-mec:
+    quotes:
+    - exact: 'MEC | Multiethnic Cohort | USA | Prospective cohort: nested case-control study'
+      section: Supplementary Table 2
+  s2-miss:
+    quotes:
+    - exact: 'MISS | Melanoma Inquiry of Southern Sweden | Sweden | Prospective cohort: nested case-control
+        study'
+      section: Supplementary Table 2
+  s2-mmhs:
+    quotes:
+    - exact: 'MMHS | Mayo Mammography Health Study | USA | Prospective cohort: nested case-control study'
+      section: Supplementary Table 2
+  s2-mskcc:
+    quotes:
+    - exact: MSKCC | Memorial Sloan-Kettering Cancer Center Study | USA | Case-control study
+      section: Supplementary Table 2
+  s2-mtlgebcs:
+    quotes:
+    - exact: MTLGEBCS | Montreal Gene-Environment Breast Cancer Study | Canada | Case-control study
+      section: Supplementary Table 2
+  s2-nbcs:
+    quotes:
+    - exact: NBCS | Norwegian Breast Cancer Study | Norway | Case-control study
+      section: Supplementary Table 2
+  s2-nbhs:
+    quotes:
+    - exact: NBHS | Nashville Breast Health Study | USA | Case-control study
+      section: Supplementary Table 2
+  s2-nc-bcfr:
+    quotes:
+    - exact: NC-BCFR | Northern California Breast Cancer Family Registry | USA | Case-control study
+      section: Supplementary Table 2
+  s2-ncbcs:
+    quotes:
+    - exact: NCBCS | North Carolina Breast Cancer study | USA | Case-control study
+      section: Supplementary Table 2
+  s2-nhs:
+    quotes:
+    - exact: 'NHS | Nurses Health Study | USA | Prospective cohort: nested case-control study'
+      section: Supplementary Table 2
+  s2-nhs2:
+    quotes:
+    - exact: 'NHS2 | Nurses Health Study 2 | USA | Prospective cohort: nested case-control study'
+      section: Supplementary Table 2
+  s2-obcs:
+    quotes:
+    - exact: OBCS | Oulu Breast Cancer Study | Finland | Case-control study
+      section: Supplementary Table 2
+  s2-ofbcr:
+    quotes:
+    - exact: OFBCR | Ontario Familial Breast Cancer Registry | Canada | Case-control study
+      section: Supplementary Table 2
+  s2-origo:
+    quotes:
+    - exact: 'ORIGO | Leiden University Medical Centre Breast Cancer Study | Netherlands | Prospective
+        cohort: nested case-control study'
+      section: Supplementary Table 2
+  s2-pbcs:
+    quotes:
+    - exact: PBCS | NCI Polish Breast Cancer Study | Poland | Case-control study
+      section: Supplementary Table 2
+  s2-pkarma:
+    quotes:
+    - exact: PKARMA | Karolinska Mammography Project for Risk Prediction of Breast Cancer - Case-Control
+        Study | Sweden | Case-control study
+      section: Supplementary Table 2
+  s2-plco:
+    quotes:
+    - exact: 'PLCO | The Prostate, Lung, Colorectal and Ovarian (PLCO) Cancer Screening Trial | USA |
+        Prospective cohort: nested case-control study'
+      section: Supplementary Table 2
+  s2-posh:
+    quotes:
+    - exact: POSH | Prospective Study of Outcomes in Sporadic Versus Hereditary Breast Cancer | UK | Case-only
+        study
+      section: Supplementary Table 2
+  s2-preface:
+    quotes:
+    - exact: PREFACE | Evaluation of Predictive Factors regarding the Effectivity of Aromatase Inhibitor
+        Therapy | Germany | Case-only study
+      section: Supplementary Table 2
+  s2-procas:
+    quotes:
+    - exact: 'PROCAS | Predicting the Risk Of Cancer At Screening Study | UK | Prospective cohort: nested
+        case-control study'
+      section: Supplementary Table 2
+  s2-rbcs:
+    quotes:
+    - exact: RBCS | Rotterdam Breast Cancer Study | Netherlands | Case-control study
+      section: Supplementary Table 2
+  s2-sasbac:
+    quotes:
+    - exact: SASBAC | Singapore and Sweden Breast Cancer Study | Sweden | Case-control study
+      section: Supplementary Table 2
+  s2-sbcs:
+    quotes:
+    - exact: SBCS | Sheffield Breast Cancer Study | UK | Case-control study
+      section: Supplementary Table 2
+  s2-search:
+    quotes:
+    - exact: SEARCH | Study of Epidemiology and Risk factors in Cancer Heredity | UK | Case-control study
+      section: Supplementary Table 2
+  s2-sister:
+    quotes:
+    - exact: 'SISTER | The Sister Study | USA | Prospective cohort: nested case-control study'
+      section: Supplementary Table 2
+  s2-skkdkfzs:
+    quotes:
+    - exact: SKKDKFZS | Städtisches Klinikum Karlsruhe Deutsches Krebsforschungszentrum Study | Germany
+        | Case-only study
+      section: Supplementary Table 2
+  s2-smc:
+    quotes:
+    - exact: 'SMC | Swedish Mammography Cohort | Sweden | Prospective cohort: nested case-control study'
+      section: Supplementary Table 2
+  s2-successb:
+    quotes:
+    - exact: SUCCESSB | Simultaneous Study of Gemcitabine-Docetaxel Combination adjuvant treatment | Germany
+        | Case-only study
+      section: Supplementary Table 2
+  s2-successc:
+    quotes:
+    - exact: SUCCESSC | Simultaneous Study of Docetaxel Based Anthracycline Free Adjuvant Treatment Evaluation
+        | Germany | Case-only study
+      section: Supplementary Table 2
+  s2-szbcs:
+    quotes:
+    - exact: SZBCS | IHCC-Szczecin Breast Cancer Study | Poland | Case-control study
+      section: Supplementary Table 2
+  s2-tnbcc:
+    quotes:
+    - exact: TNBCC | Triple-Negative Breast Cancer Consortium | International | Case-control studies
+      section: Supplementary Table 2
+  s2-ucibcs:
+    quotes:
+    - exact: UCIBCS | UCI Breast Cancer Study | USA | Case-control study
+      section: Supplementary Table 2
+  s2-ukbgs:
+    quotes:
+    - exact: 'UKBGS | UK Breakthrough Generations Study | UK | Prospective cohort: nested case-control
+        study'
+      section: Supplementary Table 2
+  s2-ukops:
+    quotes:
+    - exact: UKOPS | UK Ovarian Cancer Population Study | UK | Case-control study
+      section: Supplementary Table 2
+  s2-usrt:
+    quotes:
+    - exact: USRT | US Radiologic Technologists Study | USA | Case-control study
+      section: Supplementary Table 2
+  s2-whi:
+    quotes:
+    - exact: 'WHI | Women''s Health Initiative | USA | Prospective cohort: nested case-control study'
+      section: Supplementary Table 2
+  s2-caption:
+    quotes:
+    - exact: 'Supplementary Table 2: BCAC studies contributing data to the two-stage model polytomous
+        model investigating for susceptibility SNPs while accounting for heterogeneity according to estrogen
+        receptor (ER), progesterone receptor (PR), human epidermal growth factor receptor 2 (HER2), and
+        grade'
+      section: Supplementary Table 2 caption
+  s2-exclusions-footnote:
+    quotes:
+    - exact: 1 We excluded the iCOGS and OncoArray data from Belarus (the Hannover-Minsk Breast Cancer
+        Study) because it lacked PR and HER2 data; the iCOGs data from Greece (the Triple-Negative Breast
+        Cancer Consortium) because only TN cases were avaialable; and the OncoArray data from Norway (the
+        Norwegian Breast Cancer Study) because there were no controls available from Norway
+      section: Supplementary Table 2 footnote

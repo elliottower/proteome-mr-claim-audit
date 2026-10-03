@@ -1,0 +1,19 @@
+source:
+  citation: christophersen2017af_main
+  local: sources/christophersen2017af_main.txt
+  sha256: 109ecac4b851f5bc9c4a7d408b1c26ab14ddec401e70488571e787368ac2cebc
+  doi: 10.1038/ng.3843
+  note: Christophersen et al. 2017 Nat Genet 49:946 (AFGen), author manuscript full text PMC5585859 from
+    NCBI E-utilities efetch (db=pmc), paragraphs extracted with lxml, one per line.
+claims:
+  n31:
+    quotes:
+    - exact: In this study, we included 33 studies from AFGen, of which 31 participated in the GWAS meta-analysis,
+        whereas 17 studies were part of the exome chip analyses.
+      section: Online Methods
+  ancestry:
+    quotes:
+    - exact: We also included studies with African-American (3 studies; 641 cases, 4956 referents), Japanese
+        (1 study; 837 cases, 2456 referents), Hispanic (1 study; 277 cases, 3081 referents), and Brazilian
+        (1 study; 187 cases, 550 referents) ancestry (Supplementary Table 1).
+      section: Online Methods

@@ -1,0 +1,27 @@
+source:
+  citation: demontis2023adhd_main
+  local: sources/demontis2023adhd_main.txt
+  sha256: 32d0b7e3d4a8c0efe785c5f0f66272f723494f172f32c130172424cf2a16e62b
+  url: https://pmc-oa-opendata.s3.amazonaws.com/PMC10914347.1/PMC10914347.1.txt
+  doi: 10.1038/s41588-022-01285-8
+  note: Main text of Demontis D et al. 2023 Nat Genet 55:198-208 (author manuscript PMC10914347), plain
+    text file PMC10914347.1.txt from the NCBI PMC open-data bucket (pmc-oa-opendata.s3.amazonaws.com),
+    unedited
+claims:
+  composition:
+    quotes:
+    - exact: We conducted a GWAS meta-analysis based on expanded data from iPSYCH (25,895 cases; 37,148
+        controls), deCODE genetics (8,281 cases; 137,993 controls) and published data from 10 ADHD cohorts
+        with European ancestry collected by the PGC (4,515 cases; 11,702 controls), resulting in a total
+        sample size of 38,691 individuals with ADHD and 186,843 controls
+      section: Results
+  release:
+    quotes:
+    - exact: Summary statistics from the ADHD GWAS meta-analysis are available for download at the PGC
+        website
+      section: Data availability
+  ukb-only-rg:
+    quotes:
+    - exact: estimated using published GWASs (258 phenotypes) and GWASs of UK Biobank data (514 phenotypes),
+        available in LDhub35
+      section: Results

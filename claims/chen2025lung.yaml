@@ -1,0 +1,18 @@
+source:
+  citation: chen2025lung
+  local: sources/chen2025_medrxiv.raw.txt
+  sha256: cdf48213f69d8b1653dbc28d298ca4fd44749fa1387a3a45f20786d1d6692c63
+  doi: 10.1101/2025.02.07.25321860
+  note: medRxiv v1 PDF (posted 10 Feb 2025), pdftotext. Chen J, Shrine N, Coley K, Packer RJ, Edris A,
+    Izquierdo AG, Lim B, Dudbridge F, Walters RG, Hall IP, Wain LV, Tobin MD, Guyatt AL, et al. Proteome-wide
+    Mendelian randomization analyses to identify potential therapeutic targets for lung function and respiratory
+    disease.
+claims:
+  proteins-2923:
+    quotes:
+    - exact: We applied two-sample MR by integrating protein GWAS data (2,923 proteins, 48,195
+      section: Abstract, Methods
+  cis-1841:
+    quotes:
+    - exact: Our GWAS studies of 2,923 proteins identified 1,841 proteins with a suitable cis-pQTL instrument
+      section: Results

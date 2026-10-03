@@ -1,0 +1,72 @@
+# Numbers this repository states, and the files they were read from.
+#
+# Before the freeze the only numbers stated are the PubMed feasibility counts in PREREG.md,
+# §Explanation of foreknowledge, item 8. Each is bound to the counts file that produced it. The
+# plan itself is not pinned here: its whole-file sha256 changes with every `prereg log` line, and
+# `prereg check` is its record. Manuscript claims are added as the manuscript is written, each
+# bound to the ledger run behind it (experiments/02_claims_meta/RUNBOOK.md, §Results ledger).
+schema_version: repro/1
+project: proteome-mr-claim-audit
+
+artifacts:
+- id: feasibility-counts
+  path: docs/feasibility/query_counts_2026-09-30.json
+  media_type: application/json
+  digest:
+    algorithm: sha256
+    value: c69c368d14db46f93494728032ff0483aa5801dcef1bdc0e46553be0b85d8588
+- id: feasibility-unions
+  path: docs/feasibility/query_union_counts_2026-09-30.json
+  media_type: application/json
+  digest:
+    algorithm: sha256
+    value: 8db5597092efb5d0ece3bc0acec71fbc0c68eed07f202cec38874d98c2d4bf1a
+
+claims:
+- id: feasibility-q1
+  text: PubMed returned 1,309 records for query Q1, 2020-01-01 to 2025-12-31.
+  where: experiments/02_claims_meta/PREREG.md, Explanation of foreknowledge, item 8
+  evidence:
+  - kind: metric
+    artifact: feasibility-counts
+    name: Q1 PubMed count
+    reported: '1309'
+    pointer: /pubmed/Q1/count
+- id: feasibility-q2
+  text: PubMed returned 332 records for query Q2.
+  where: experiments/02_claims_meta/PREREG.md, Explanation of foreknowledge, item 8
+  evidence:
+  - kind: metric
+    artifact: feasibility-counts
+    name: Q2 PubMed count
+    reported: '332'
+    pointer: /pubmed/Q2/count
+- id: feasibility-q3-without-genetics-block
+  text: PubMed returned 6,590 records for query Q3 without the genetics block.
+  where: experiments/02_claims_meta/PREREG.md, Explanation of foreknowledge, item 8
+  evidence:
+  - kind: metric
+    artifact: feasibility-counts
+    name: Q3 PubMed count
+    reported: '6590'
+    pointer: /pubmed/Q3/count
+- id: feasibility-q3-with-genetics-block
+  text: PubMed returned 814 records for query Q3 with the genetics block.
+  where: experiments/02_claims_meta/PREREG.md, Explanation of foreknowledge, item 8
+  evidence:
+  - kind: metric
+    artifact: feasibility-unions
+    name: Q3 restricted to genetic terms
+    reported: '814'
+    pointer: /Q3_restricted_to_genetic_terms
+- id: feasibility-union
+  text: The union of the four queries, with Q3 restricted by the genetics block, held 2,089 PubMed
+    records.
+  where: experiments/02_claims_meta/PREREG.md, Explanation of foreknowledge, item 8, and Sample
+    size
+  evidence:
+  - kind: metric
+    artifact: feasibility-unions
+    name: union with the genetics-restricted Q3
+    reported: '2089'
+    pointer: /union_Q1_Q2_Q4_plus_Q3_genetic

@@ -1,0 +1,26 @@
+source:
+  citation: mckay2017lung_timofeeva2012_main
+  local: sources/original/mckay2017lung_timofeeva2012_main.xml
+  sha256: bb41c0a580447b9cada2bd1adf785b77fbef5b90de648cc8f1dad09742c773c1
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC3607485/fullTextXML
+  doi: 10.1093/hmg/dds334
+  extractor: jats-text
+  note: 'Original file behind claims/mckay2017lung_timofeeva2012_main.yaml: the XML pinned in claims/mckay2017lung_timofeeva2012_main_original.yaml,
+    read by the citations extractor jats-text. The quotations here are those of that file that resolve
+    in this reading; a quotation absent here stays pinned where it already was.'
+  extractor_version: 1
+  derived_sha256: 84e8f0edc05345dfeee9a137b7cabcc100d16122f4be8fc53d46382da822a946
+claims:
+  KORA-ack:
+    quotes:
+    - exact: the KORA Study Center and their co-workers for organizing and conducting the data collection
+      section: Acknowledgements
+  KORA-funding:
+    quotes:
+    - exact: The KORA Surveys were financed by the GSF
+      section: Funding
+  GELCAPS_B58C:
+    quotes:
+    - exact: the UK lung cancer GWAS from the Institute for Cancer Research including lung cancer cases
+        from the Genetic Lung Cancer Predisposition Study (GELCAPS) and controls from the 1958 Birth Cohort
+      section: Description of studies

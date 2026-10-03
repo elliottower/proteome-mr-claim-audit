@@ -1,0 +1,255 @@
+{
+ "run_id": "smoke_pre2019_20261002_s4_registry",
+ "note": "pre-freeze smoke run on records first public before 2019: span and claim checks, registry, empty manual-coding queue, record metadata, funnel of the search",
+ "written_utc": "2026-10-02T20:20:11+00:00",
+ "files": [
+  {
+   "path": "outputs/citations/sol_extraction_smoke_pre2019_20261002_0b97103cd7a4/claims/pmid29875488.yaml",
+   "bytes": 257,
+   "sha256": "7b73ddcb41d4447abb3ba650392a9f2a9790ac54cd060e2f69bc77495cf9232a"
+  },
+  {
+   "path": "outputs/citations/sol_extraction_smoke_pre2019_20261002_0b97103cd7a4/sources/pmid29875488.txt",
+   "bytes": 1184,
+   "sha256": "eb09de19900fa02659dfb097799f990f48b888f97d43c18f0909f048e01d097b"
+  },
+  {
+   "path": "outputs/citations/sol_extraction_smoke_pre2019_20261002_chase1_0b97103cd7a4/claims/pmidW2901567682.yaml",
+   "bytes": 1091,
+   "sha256": "471e36b6af07f1cbdec4e406598d06b4550dc06d75ca4ebfdb592c1dc57d84fb"
+  },
+  {
+   "path": "outputs/citations/sol_extraction_smoke_pre2019_20261002_chase1_0b97103cd7a4/claims/pmidW2901567682.yaml.provenance-lock",
+   "bytes": 0,
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+   "path": "outputs/citations/sol_extraction_smoke_pre2019_20261002_chase1_0b97103cd7a4/sources/pmidW2901567682.txt",
+   "bytes": 1677,
+   "sha256": "8195de1a1bd31a92b75fd0bb7ab0d0ae8e319821ef4813d32729f957b28445cb"
+  },
+  {
+   "path": "outputs/funnel/smoke_pre2019_20261002_search_only/funnel.json",
+   "bytes": 4394,
+   "sha256": "51a6f31c27168087f6892be493cb7266038d0b1fe85e3d4a25bf6fc997f6e5bc"
+  },
+  {
+   "path": "outputs/manual_coding/smoke_pre2019_20261002/manual_coding_packet.csv",
+   "bytes": 47,
+   "sha256": "449e790847c70379ca0737debaa71998ae6b32b357d7c09de44f84a6157dcd3e"
+  },
+  {
+   "path": "outputs/manual_coding/smoke_pre2019_20261002/manual_coding_queue.csv",
+   "bytes": 81,
+   "sha256": "e394fe183253d3194e6325ec0606e8869f379390b014044243e4b672353413ad"
+  },
+  {
+   "path": "outputs/manual_coding/smoke_pre2019_20261002/manual_dataset_codes.csv",
+   "bytes": 155,
+   "sha256": "5e3aaf1a140dff3baac746eb36b2df4c201f8ffacc0061d44abe2b20df342ce2"
+  },
+  {
+   "path": "outputs/manual_coding/smoke_pre2019_20261002/manual_dataset_codes.template.csv",
+   "bytes": 155,
+   "sha256": "5e3aaf1a140dff3baac746eb36b2df4c201f8ffacc0061d44abe2b20df342ce2"
+  },
+  {
+   "path": "outputs/manual_coding/smoke_pre2019_20261002/manual_dataset_coding_report.json",
+   "bytes": 327,
+   "sha256": "b408755919ef39452939e864cfa654792b6e59058381ca977066de1e703b8c1c"
+  },
+  {
+   "path": "outputs/raw/openalex_metadata/smoke_pre2019_20261002_coded/counts.json",
+   "bytes": 78,
+   "sha256": "1a934af273cdf1902c314d92f30d4fcf2bcc3df70def9dc425a3ee4ad554a671"
+  },
+  {
+   "path": "outputs/raw/openalex_metadata/smoke_pre2019_20261002_coded/manifest.jsonl",
+   "bytes": 593,
+   "sha256": "2af02262a13289b9239a811a3f4800943cc09045f76e4b98d4f7fd6ed9ee2667"
+  },
+  {
+   "path": "outputs/raw/openalex_metadata/smoke_pre2019_20261002_coded/openalex/works_doi_0001/page_0001.json.gz",
+   "bytes": 6372,
+   "sha256": "97a08b78e015351e0dd49636509936abb0e0f6bfe2f695403a18d9eb5bd92a7f"
+  },
+  {
+   "path": "outputs/registry/smoke_pre2019_20261002/claim_tags.jsonl",
+   "bytes": 492,
+   "sha256": "ae3863a4e9f67be0e96be02340f0f7eda5d0e3de361ef707560d4273ad5bbb8f"
+  },
+  {
+   "path": "outputs/registry/smoke_pre2019_20261002/dating_claims.jsonl",
+   "bytes": 0,
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+   "path": "outputs/registry/smoke_pre2019_20261002/dating_claims_update.jsonl",
+   "bytes": 0,
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+   "path": "outputs/registry/smoke_pre2019_20261002/families.json",
+   "bytes": 4261,
+   "sha256": "5d34d1bfbf8e266949d5c456ce300d5d565c000079b64acbe40544d6239bd5c7"
+  },
+  {
+   "path": "outputs/registry/smoke_pre2019_20261002/families_meta.json",
+   "bytes": 745,
+   "sha256": "b75eb49036be95b06b01d6d775a1aa17fb5dc2be27f1152b896690a827813061"
+  },
+  {
+   "path": "outputs/registry/smoke_pre2019_20261002/record_dates.json",
+   "bytes": 137,
+   "sha256": "3c81f2abde1c5e5a9bda5cd2246f43a6c5e3f0925508d5ab9f7d457fe2a7216e"
+  },
+  {
+   "path": "outputs/registry/smoke_pre2019_20261002/registry_assembly.json",
+   "bytes": 620,
+   "sha256": "2236026cddf51c03a7ff45b24ad82fd6a62dd8c9381850704a81d3441c31460f"
+  },
+  {
+   "path": "outputs/registry/smoke_pre2019_20261002/registry_claims.jsonl",
+   "bytes": 0,
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+   "path": "outputs/registry/smoke_pre2019_20261002/registry_claims_update.jsonl",
+   "bytes": 0,
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+   "path": "outputs/registry/smoke_pre2019_20261002/wording.jsonl",
+   "bytes": 750,
+   "sha256": "fc5bef2be7cf2934acb642645d1f242eeb297c7aadda3f95ec82f33fbe12692b"
+  },
+  {
+   "path": "outputs/registry/smoke_pre2019_20261002/wording_summary.json",
+   "bytes": 560,
+   "sha256": "d37b7d75c3f5a9f1faf534e1e8f05bc6262eda18e28227fff2f133056edc299b"
+  },
+  {
+   "path": "outputs/registry/smoke_pre2019_20261002_coded/claim_tags.jsonl",
+   "bytes": 492,
+   "sha256": "ae3863a4e9f67be0e96be02340f0f7eda5d0e3de361ef707560d4273ad5bbb8f"
+  },
+  {
+   "path": "outputs/registry/smoke_pre2019_20261002_coded/dating_claims.jsonl",
+   "bytes": 0,
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+   "path": "outputs/registry/smoke_pre2019_20261002_coded/dating_claims_update.jsonl",
+   "bytes": 0,
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+   "path": "outputs/registry/smoke_pre2019_20261002_coded/families.json",
+   "bytes": 4261,
+   "sha256": "5d34d1bfbf8e266949d5c456ce300d5d565c000079b64acbe40544d6239bd5c7"
+  },
+  {
+   "path": "outputs/registry/smoke_pre2019_20261002_coded/families_meta.json",
+   "bytes": 745,
+   "sha256": "b75eb49036be95b06b01d6d775a1aa17fb5dc2be27f1152b896690a827813061"
+  },
+  {
+   "path": "outputs/registry/smoke_pre2019_20261002_coded/record_dates.json",
+   "bytes": 137,
+   "sha256": "3c81f2abde1c5e5a9bda5cd2246f43a6c5e3f0925508d5ab9f7d457fe2a7216e"
+  },
+  {
+   "path": "outputs/registry/smoke_pre2019_20261002_coded/record_metadata.jsonl",
+   "bytes": 2687,
+   "sha256": "b819b481d65a5c904b73714483ac28a491b6b0fc64e5086c056a65fdadb3c976"
+  },
+  {
+   "path": "outputs/registry/smoke_pre2019_20261002_coded/registry_assembly.json",
+   "bytes": 620,
+   "sha256": "071a77abdc64332c29a29a353ed57381eeff90c65e78eec69c26f199040d038a"
+  },
+  {
+   "path": "outputs/registry/smoke_pre2019_20261002_coded/registry_claims.jsonl",
+   "bytes": 0,
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+   "path": "outputs/registry/smoke_pre2019_20261002_coded/registry_claims_update.jsonl",
+   "bytes": 0,
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+   "path": "outputs/results_manifests/smoke_pre2019_20261002_s4.volume.json",
+   "bytes": 2006,
+   "sha256": "d764ac6664f26fe09ce17293b79185a758c27d6735e39609958d63facb3658ed"
+  },
+  {
+   "path": "outputs/verification/sol_extraction_smoke_pre2019_20261002_0b97103cd7a4/citations_verify.txt",
+   "bytes": 294,
+   "sha256": "88939c8c9b4a9f03cb635e972397bd839703a12f851e136b3263c0af464bd2ab"
+  },
+  {
+   "path": "outputs/verification/sol_extraction_smoke_pre2019_20261002_0b97103cd7a4/claim_checks.jsonl",
+   "bytes": 0,
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+   "path": "outputs/verification/sol_extraction_smoke_pre2019_20261002_0b97103cd7a4/claim_summary.json",
+   "bytes": 1845,
+   "sha256": "44b6adaec0334f5bce86780238aa72fb597802118bf5dd674f22c211967267bb"
+  },
+  {
+   "path": "outputs/verification/sol_extraction_smoke_pre2019_20261002_0b97103cd7a4/span_summary.json",
+   "bytes": 381,
+   "sha256": "6405e4df2590945a5ef8bbe48cf2df2966a3b8f47b429873b872ae5b8c8900cb"
+  },
+  {
+   "path": "outputs/verification/sol_extraction_smoke_pre2019_20261002_0b97103cd7a4/spans.jsonl",
+   "bytes": 0,
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+   "path": "outputs/verification/sol_extraction_smoke_pre2019_20261002_chase1_0b97103cd7a4/citations_verify.txt",
+   "bytes": 282,
+   "sha256": "990c05f9bfb469060c39e55110574eb0ebb22295a4115631614a1e638c83370a"
+  },
+  {
+   "path": "outputs/verification/sol_extraction_smoke_pre2019_20261002_chase1_0b97103cd7a4/claim_checks.jsonl",
+   "bytes": 4768,
+   "sha256": "094085bfa91dd6588c3e7c6ec9013d89806fbe81a4eff02c8e1d6a52c7d05859"
+  },
+  {
+   "path": "outputs/verification/sol_extraction_smoke_pre2019_20261002_chase1_0b97103cd7a4/claim_summary.json",
+   "bytes": 2170,
+   "sha256": "b78ffc7a8128f168145881ed7cc327639a717520190e6c6ea9a3b69c2dfe8e95"
+  },
+  {
+   "path": "outputs/verification/sol_extraction_smoke_pre2019_20261002_chase1_0b97103cd7a4/span_summary.json",
+   "bytes": 387,
+   "sha256": "beec5c3c0962341d1315ea8821bd3b2f8f22025607ea2400e96dea8f78f5ba33"
+  },
+  {
+   "path": "outputs/verification/sol_extraction_smoke_pre2019_20261002_chase1_0b97103cd7a4/spans.jsonl",
+   "bytes": 1224,
+   "sha256": "3c25756ddcbc9ab5484c59947a43b1c67d7697e27f4b9a38935033f813fb50fb"
+  }
+ ],
+ "recorded_directly": [
+  "outputs/registry/smoke_pre2019_20261002_coded/registry_assembly.json",
+  "outputs/results_manifests/smoke_pre2019_20261002_s4.volume.json"
+ ],
+ "volume_checks": [
+  {
+   "volume_folder": "/02_claims_meta/stage4/sol_extraction_smoke_pre2019_20261002_0b97103cd7a4",
+   "local_folder": "outputs/verification/sol_extraction_smoke_pre2019_20261002_0b97103cd7a4",
+   "n_compared": 5,
+   "volume_only": []
+  },
+  {
+   "volume_folder": "/02_claims_meta/stage4/sol_extraction_smoke_pre2019_20261002_chase1_0b97103cd7a4",
+   "local_folder": "outputs/verification/sol_extraction_smoke_pre2019_20261002_chase1_0b97103cd7a4",
+   "n_compared": 5,
+   "volume_only": []
+  }
+ ]
+}

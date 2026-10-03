@@ -1,0 +1,249 @@
+{
+ "inputs": "/tmp/dry_run_biology/inputs",
+ "window": "confirmatory",
+ "claim_records": 13,
+ "resources": {
+  "ontology_edges": "/tmp/dry_run_biology/resources/ontology_edges.csv",
+  "therapeutic_areas": "/tmp/dry_run_biology/resources/therapeutic_areas.csv",
+  "therapeutic_area_names": "/tmp/dry_run_biology/resources/therapeutic_area_names.csv",
+  "assay_lists": "/tmp/dry_run_biology/resources/assay_lists.csv",
+  "attachments": "/tmp/dry_run_biology/resources/attachments.csv",
+  "reactome": "/tmp/dry_run_biology/resources/UniProt2Reactome.txt",
+  "snapshot_estimates": "/tmp/dry_run_biology/resources/mrres_estimates.jsonl",
+  "protein_mapping": "/tmp/dry_run_biology/resources/protein_mapping.csv",
+  "trait_mapping": "/tmp/dry_run_biology/resources/trait_mapping.csv",
+  "locus_list": "/tmp/dry_run_biology/resources/loci.csv"
+ },
+ "written_utc": "2026-10-02T21:11:44+00:00",
+ "snapshot_records": 5,
+ "snapshot_records_on_mapped_pairs": 2,
+ "snapshot_mapped_proteins": 2,
+ "snapshot_mapped_outcomes": 2,
+ "pairs": 8,
+ "pairs_by_class": {
+  "present_same": 0,
+  "present_opposite": 0,
+  "present_nondirectional_or_ambiguous": 1,
+  "no_returned_record": 2,
+  "mapping_failed": 5
+ },
+ "pairs_matched_to_snapshot": 3,
+ "claim_records_by_class": {
+  "present_same": 2,
+  "present_opposite": 1,
+  "present_nondirectional_or_ambiguous": 1,
+  "no_returned_record": 3,
+  "mapping_failed": 6
+ },
+ "claim_records_by_novelty_language": {
+  "false": {
+   "present_same": 2,
+   "present_opposite": 0,
+   "present_nondirectional_or_ambiguous": 1,
+   "no_returned_record": 2,
+   "mapping_failed": 5
+  },
+  "true": {
+   "present_same": 0,
+   "present_opposite": 1,
+   "present_nondirectional_or_ambiguous": 0,
+   "no_returned_record": 1,
+   "mapping_failed": 1
+  }
+ },
+ "claim_records_by_novelty_class": {
+  "earlier_in_registry": {
+   "present_same": 1,
+   "present_opposite": 1,
+   "present_nondirectional_or_ambiguous": 1,
+   "no_returned_record": 1,
+   "mapping_failed": 0
+  },
+  "no_earlier_in_registry": {
+   "present_same": 1,
+   "present_opposite": 0,
+   "present_nondirectional_or_ambiguous": 0,
+   "no_returned_record": 2,
+   "mapping_failed": 6
+  }
+ },
+ "claim_records_by_shared_pqtl_source": {
+  "shared_pqtl_source": {
+   "present_same": 1,
+   "present_opposite": 0,
+   "present_nondirectional_or_ambiguous": 0,
+   "no_returned_record": 0,
+   "mapping_failed": 2
+  },
+  "other_pqtl_source": {
+   "present_same": 1,
+   "present_opposite": 1,
+   "present_nondirectional_or_ambiguous": 1,
+   "no_returned_record": 2,
+   "mapping_failed": 4
+  },
+  "pqtl_not_stated_or_unmatched": {
+   "present_same": 0,
+   "present_opposite": 0,
+   "present_nondirectional_or_ambiguous": 0,
+   "no_returned_record": 1,
+   "mapping_failed": 0
+  }
+ },
+ "sensitivity_names_as_written_only": {
+  "snapshot_records": 5,
+  "snapshot_records_on_mapped_pairs": 1,
+  "snapshot_mapped_proteins": 2,
+  "snapshot_mapped_outcomes": 1,
+  "pairs": 8,
+  "pairs_by_class": {
+   "present_same": 0,
+   "present_opposite": 0,
+   "present_nondirectional_or_ambiguous": 1,
+   "no_returned_record": 1,
+   "mapping_failed": 6
+  },
+  "pairs_matched_to_snapshot": 2,
+  "claim_records": 13,
+  "claim_records_by_class": {
+   "present_same": 2,
+   "present_opposite": 1,
+   "present_nondirectional_or_ambiguous": 1,
+   "no_returned_record": 2,
+   "mapping_failed": 7
+  },
+  "claim_records_by_novelty_language": {
+   "false": {
+    "present_same": 2,
+    "present_opposite": 0,
+    "present_nondirectional_or_ambiguous": 1,
+    "no_returned_record": 1,
+    "mapping_failed": 6
+   },
+   "true": {
+    "present_same": 0,
+    "present_opposite": 1,
+    "present_nondirectional_or_ambiguous": 0,
+    "no_returned_record": 1,
+    "mapping_failed": 1
+   }
+  },
+  "claim_records_by_novelty_class": {
+   "earlier_in_registry": {
+    "present_same": 1,
+    "present_opposite": 1,
+    "present_nondirectional_or_ambiguous": 1,
+    "no_returned_record": 1,
+    "mapping_failed": 0
+   },
+   "no_earlier_in_registry": {
+    "present_same": 1,
+    "present_opposite": 0,
+    "present_nondirectional_or_ambiguous": 0,
+    "no_returned_record": 1,
+    "mapping_failed": 7
+   }
+  },
+  "claim_records_by_shared_pqtl_source": {
+   "shared_pqtl_source": {
+    "present_same": 1,
+    "present_opposite": 0,
+    "present_nondirectional_or_ambiguous": 0,
+    "no_returned_record": 0,
+    "mapping_failed": 2
+   },
+   "other_pqtl_source": {
+    "present_same": 1,
+    "present_opposite": 1,
+    "present_nondirectional_or_ambiguous": 1,
+    "no_returned_record": 1,
+    "mapping_failed": 5
+   },
+   "pqtl_not_stated_or_unmatched": {
+    "present_same": 0,
+    "present_opposite": 0,
+    "present_nondirectional_or_ambiguous": 0,
+    "no_returned_record": 1,
+    "mapping_failed": 0
+   }
+  }
+ },
+ "sensitivity_proxy_trait_aliases_included": {
+  "snapshot_records": 5,
+  "snapshot_records_on_mapped_pairs": 3,
+  "snapshot_mapped_proteins": 2,
+  "snapshot_mapped_outcomes": 3,
+  "pairs": 8,
+  "pairs_by_class": {
+   "present_same": 1,
+   "present_opposite": 0,
+   "present_nondirectional_or_ambiguous": 1,
+   "no_returned_record": 2,
+   "mapping_failed": 4
+  },
+  "pairs_matched_to_snapshot": 4,
+  "claim_records": 13,
+  "claim_records_by_class": {
+   "present_same": 3,
+   "present_opposite": 1,
+   "present_nondirectional_or_ambiguous": 1,
+   "no_returned_record": 3,
+   "mapping_failed": 5
+  },
+  "claim_records_by_novelty_language": {
+   "false": {
+    "present_same": 2,
+    "present_opposite": 0,
+    "present_nondirectional_or_ambiguous": 1,
+    "no_returned_record": 2,
+    "mapping_failed": 5
+   },
+   "true": {
+    "present_same": 1,
+    "present_opposite": 1,
+    "present_nondirectional_or_ambiguous": 0,
+    "no_returned_record": 1,
+    "mapping_failed": 0
+   }
+  },
+  "claim_records_by_novelty_class": {
+   "earlier_in_registry": {
+    "present_same": 1,
+    "present_opposite": 1,
+    "present_nondirectional_or_ambiguous": 1,
+    "no_returned_record": 1,
+    "mapping_failed": 0
+   },
+   "no_earlier_in_registry": {
+    "present_same": 2,
+    "present_opposite": 0,
+    "present_nondirectional_or_ambiguous": 0,
+    "no_returned_record": 2,
+    "mapping_failed": 5
+   }
+  },
+  "claim_records_by_shared_pqtl_source": {
+   "shared_pqtl_source": {
+    "present_same": 1,
+    "present_opposite": 0,
+    "present_nondirectional_or_ambiguous": 0,
+    "no_returned_record": 0,
+    "mapping_failed": 2
+   },
+   "other_pqtl_source": {
+    "present_same": 2,
+    "present_opposite": 1,
+    "present_nondirectional_or_ambiguous": 1,
+    "no_returned_record": 2,
+    "mapping_failed": 3
+   },
+   "pqtl_not_stated_or_unmatched": {
+    "present_same": 0,
+    "present_opposite": 0,
+    "present_nondirectional_or_ambiguous": 0,
+    "no_returned_record": 1,
+    "mapping_failed": 0
+   }
+  }
+ }
+}

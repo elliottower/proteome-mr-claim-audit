@@ -1,0 +1,26 @@
+source:
+  citation: munafo2024
+  local: sources/original/munafo2024.pdf
+  sha256: f4188dc2d436f96a1c24076f25581045a9644e5a8ca7067f31d71d495fb84d46
+  url: https://researchnow-admin.flinders.edu.au/ws/portalfiles/portal/159979874/Munafo_Managing_P2024.pdf
+  doi: 10.1136/tc-2024-058987
+  note: 'Original file behind claims/munafo2024.yaml: publisher PDF from the Flinders University repository.
+    The quotations here are the quotations of that file that resolve in this file under the citations
+    readers; a quotation absent here is pinned to the extracted text there only.'
+claims:
+  low-priority:
+    quotes:
+    - exact: We therefore suggest that MR studies that simply use summary GWAS data to estimate the causal
+        effect of X on Y should be given a low priority for publication unless they genuinely advance
+        knowledge.
+      section: p. 560, col. 1 (no section headings; editorial)
+  negative-controls:
+    quotes:
+    - exact: incorporating negative controls and/or evidence from other study designs such as natural
+        experiments, and collaborating with biologists to advance plausible biological mechanisms.
+      section: p. 560, col. 1
+  copub:
+    quotes:
+    - exact: The articles are identical except for minor stylistic and spelling differences in keeping
+        with each journal’s style.
+      section: p. 560, licence box

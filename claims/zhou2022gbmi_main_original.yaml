@@ -1,0 +1,29 @@
+source:
+  citation: zhou2022gbmi_main
+  local: sources/original/zhou2022gbmi_main.xml
+  sha256: 61c667b30896191e17103a846e3389dec2c382b94aef2ea4eab89ea9307f4f14
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9903716/fullTextXML
+  doi: 10.1016/j.xgen.2022.100192
+  note: 'Original file behind claims/zhou2022gbmi_main.yaml: Europe PMC fullTextXML of PMC9903716, read
+    as plain text with its markup. The quotations here are the quotations of that file that resolve in
+    this file under the citations readers; a quotation absent here is pinned to the extracted text there
+    only.'
+claims:
+  pilot-18:
+    quotes:
+    - exact: we meta-analyzed GWAS results for 14 endpoints of common interest of 18 biobanks and then
+        meta-analyzed GWAS results of 5 more biobanks for replication
+      section: Results
+  meta-types:
+    quotes:
+    - exact: Fixed-effect meta-analyses based on inverse-variance weighting were performed for all endpoints
+        with 1. all biobanks across all ancestries, 2. leave-one-biobank out (LOBO)
+      section: STAR Methods
+  leave-ukbb-prs:
+    quotes:
+    - exact: leave-UKBB-out multi-ancestry meta-analyses have been deposited within the PGS Catalog
+      section: Data and code availability
+  asthma-n:
+    quotes:
+    - exact: 'asthma (153,763 cases [sample prevalence: 8.54%])'
+      section: Results

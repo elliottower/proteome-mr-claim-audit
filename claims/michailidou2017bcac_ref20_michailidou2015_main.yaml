@@ -1,0 +1,24 @@
+source:
+  citation: michailidou2017bcac_ref20_michailidou2015_main
+  local: sources/michailidou2017bcac_ref20_michailidou2015_main.txt
+  sha256: 5bbd70c167380e77713272c571cf1e0b6492882209566a8b10ed42221b4ccc20
+  doi: 10.1038/ng.3242
+  note: Main text of Michailidou et al. 2015 Nat Genet 47:373-380 (ref 20 of Michailidou 2017, cited for
+    the iCOGS and eleven GWAS study details), Europe PMC fullTextXML PMC4549775, tags stripped, one paragraph
+    per line
+claims:
+  icogs_41_studies:
+    quotes:
+    - exact: After quality control (QC) exclusions, the dataset comprised 15,748 breast cancer cases and
+        18,084 controls from GWAS, and 46,785 cases and 42,892 controls from 41 studies genotyped with
+        iCOGS (see Online Methods and Supplementary Tables 1a–1e ).
+      section: Results (Michailidou 2015)
+  eleven_gwas:
+    quotes:
+    - exact: Of the 11 GWAS, 8 (C-BCAC) plus a subset of the BPC3 GWAS (CGEMS) were used in the combined
+        GWAS analysis
+      section: Online Methods (Michailidou 2015)
+  european_only:
+    quotes:
+    - exact: All subjects were women of European ancestry.
+      section: Results (Michailidou 2015)

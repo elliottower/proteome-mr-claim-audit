@@ -1,0 +1,36 @@
+{
+ "source": "inputs/chembl_37/tables/{drug_mechanism,target_dictionary}.csv",
+ "sha256": {
+  "drug_mechanism.csv": "6ac645e99656c332e971d8e9be69000656d2dd21cce9469595634ec934278d3e",
+  "target_dictionary.csv": "b8acb67f76221eff0b1a69350b84dda0c41617789da1c97da5a4ed02dc021eea"
+ },
+ "human_mechanisms_by_target_type": {
+  "SINGLE PROTEIN": 4479,
+  "PROTEIN FAMILY": 656,
+  "PROTEIN COMPLEX GROUP": 282,
+  "PROTEIN COMPLEX": 266,
+  "NUCLEIC-ACID": 191,
+  "SMALL MOLECULE": 61,
+  "OLIGOSACCHARIDE": 38,
+  "CHIMERIC PROTEIN": 23,
+  "MACROMOLECULE": 21,
+  "SELECTIVITY GROUP": 12,
+  "PROTEIN-PROTEIN INTERACTION": 9,
+  "LIPID": 9,
+  "PROTEIN NUCLEIC-ACID COMPLEX": 9,
+  "SUBCELLULAR": 6,
+  "UNKNOWN": 2,
+  "CELL-LINE": 1
+ },
+ "primary_rule_single_protein_direct_molecular": 4477,
+ "component_level_types": [
+  "PROTEIN COMPLEX",
+  "PROTEIN COMPLEX GROUP",
+  "PROTEIN FAMILY",
+  "SELECTIVITY GROUP",
+  "CHIMERIC PROTEIN",
+  "PROTEIN-PROTEIN INTERACTION"
+ ],
+ "component_level_human": 1248,
+ "no_tid_match": 577
+}

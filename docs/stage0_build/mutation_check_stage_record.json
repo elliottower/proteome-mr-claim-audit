@@ -1,0 +1,37 @@
+[
+ {
+  "mutation": "volume file missing ignored",
+  "tests_failed": true,
+  "summary": "1 failed, 7 passed in 0.27s"
+ },
+ {
+  "mutation": "hash mismatch ignored",
+  "tests_failed": true,
+  "summary": "1 failed, 7 passed in 0.33s"
+ },
+ {
+  "mutation": "verify ignores changed",
+  "tests_failed": true,
+  "summary": "1 failed, 7 passed in 0.31s"
+ },
+ {
+  "mutation": "overwrite allowed",
+  "tests_failed": true,
+  "summary": "1 failed, 7 passed in 0.25s"
+ },
+ {
+  "mutation": "folders not expanded",
+  "tests_failed": true,
+  "summary": "4 failed, 4 passed in 0.25s"
+ },
+ {
+  "mutation": "volume-only not reported",
+  "tests_failed": true,
+  "summary": "1 failed, 7 passed in 0.23s"
+ },
+ {
+  "mutation": "direct files not passed to ledger",
+  "tests_failed": true,
+  "summary": "1 failed, 7 passed in 0.24s"
+ }
+]

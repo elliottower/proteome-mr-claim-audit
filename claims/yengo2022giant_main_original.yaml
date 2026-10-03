@@ -1,0 +1,25 @@
+source:
+  citation: yengo2022giant_main
+  local: sources/original/yengo2022giant_main.xml
+  sha256: 735dd54d939eb6f5c5b5df644d33b3a2190352a46038c3a63736ad3fd4c19944
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9605867/fullTextXML
+  doi: 10.1038/s41586-022-05275-y
+  note: 'Original file behind claims/yengo2022giant_main.yaml: Europe PMC fullTextXML of PMC9605867, read
+    as plain text with its markup. The quotations here are the quotations of that file that resolve in
+    this file under the citations readers; a quotation absent here is pinned to the extracted text there
+    only.'
+claims:
+  n281:
+    quotes:
+    - exact: We performed genetic analysis of up to 5,380,080 individuals from 281 studies from the GIANT
+        consortium and 23andMe.
+      section: Results
+  anc_counts:
+    quotes:
+    - exact: We first performed ancestry-group-specific GWAS meta-analyses of 173 studies of EUR, 56 studies
+        of EAS, 29 studies of AFR, 11 studies of HIS and 12 studies of SAS.
+      section: Methods
+  holdout:
+    quotes:
+    - exact: We excluded 56,477 UK Biobank (UKB) participants from our discovery GWAS
+      section: Methods

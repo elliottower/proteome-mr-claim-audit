@@ -1,0 +1,222 @@
+source:
+  citation: nikpay2015cad_supp_tables
+  local: sources/nikpay2015cad_supp_tables.txt
+  sha256: b1783e4478fe8838f143a808c010482d228614223f756c8cecd93e828bef8b48
+  doi: 10.1038/ng.3396
+  note: Nikpay et al. 2015 Supplementary Tables 1 (cohort descriptives of the 48 studies) and 15 (per-study
+    lambda), from NIHMS64693-supplement-Tables.xlsx in the Europe PMC supplementaryFiles zip for PMC4589895,
+    converted with pandas, one table row per line, cells separated by ' | '.
+claims:
+  caption-st1:
+    quotes:
+    - exact: 'Supplementary Table 1: Cohort Descriptives of the 48 studies participated in the 1000G CAD
+        meta-analysis.'
+      section: Supplementary Table 1 caption
+  row-procardis:
+    quotes:
+    - exact: PC | PROCARDIS | Precocious Coronary Artery Disease
+      section: Supplementary Table 1
+  row-hsds:
+    quotes:
+    - exact: HS | HSDS | Helsinki Sudden Death Study/Tampere Coronary Study
+      section: Supplementary Table 1
+  row-advance:
+    quotes:
+    - exact: AD | ADVANCE | Atherosclerotic Disease, VAscular functioN, and genetiC Epidemiology
+      section: Supplementary Table 1
+  row-bas:
+    quotes:
+    - exact: BA | BEIJING (BAS) | Beijing Atherosclerosis Study
+      section: Supplementary Table 1
+  row-cardiogenics:
+    quotes:
+    - exact: CD | CARDIOGENICS | CARDIOGENICS
+      section: Supplementary Table 1
+  row-cas:
+    quotes:
+    - exact: CA | CHINA (CAS) | China Atherosclerosis Study
+      section: Supplementary Table 1
+  row-ccgb:
+    quotes:
+    - exact: CC | CCGB_2 | Cleveland Clinic Gene Bank
+      section: Supplementary Table 1
+  row-corogene:
+    quotes:
+    - exact: CO | COROGENE | The Corogene Study
+      section: Supplementary Table 1
+  row-duke:
+    quotes:
+    - exact: D2 | DUKE_2 | Duke Cathgen Study
+      section: Supplementary Table 1
+  row-egcut:
+    quotes:
+    - exact: EG | EGCUT | Estonian Genome Center of University of Tartu
+      section: Supplementary Table 1
+  row-fgentcard:
+    quotes:
+    - exact: FG | FGENTCARD | Functional genomic diagnostic tools for coronary artery disease
+      section: Supplementary Table 1
+  row-genric:
+    quotes:
+    - exact: GR | GENRIC | Genomics Research in Cardiovascular Disease
+      section: Supplementary Table 1
+  row-germifs1:
+    quotes:
+    - exact: G1 | GERMIFS I | German Myocardial Infarction Family Study I
+      section: Supplementary Table 1
+  row-germifs2:
+    quotes:
+    - exact: G2 | GERMIFS II | German Myocardial Infarction Family Study II
+      section: Supplementary Table 1
+  row-germifs3:
+    quotes:
+    - exact: G3 | GERMIFS III (KORA) | German Myocardial Infarction Family Study III (KORA)
+      section: Supplementary Table 1
+  row-germifs4:
+    quotes:
+    - exact: G4 | GERMIFS_IV | German Myocardial Infarction Family Study IV
+      section: Supplementary Table 1
+  row-godarts:
+    quotes:
+    - exact: GO | GODARTS | Genetics of Diabetes and Audit Research in Tayside Scotland
+      section: Supplementary Table 1
+  row-hps:
+    quotes:
+    - exact: HP | HPS | MRC/BHF Heart Protection Study
+      section: Supplementary Table 1
+  row-ipm-aa:
+    quotes:
+    - exact: AA | IPM_AA | MT. SINAI BioMe Biobank Platform
+      section: Supplementary Table 1
+  row-ipm-ea:
+    quotes:
+    - exact: 'EA | IPM_EA | PMID: 23743551 | European American'
+      section: Supplementary Table 1
+  row-ipm-ha:
+    quotes:
+    - exact: 'HA | IPM_HA | PMID: 23743551 | Hispanic American'
+      section: Supplementary Table 1
+  row-lolipop:
+    quotes:
+    - exact: LO | LOLIPOP | London Life Sciences Prospective Population Study
+      section: Supplementary Table 1
+  row-luric:
+    quotes:
+    - exact: LU | LURIC | Ludwigshafen Risk and Cardiovascular Health Study
+      section: Supplementary Table 1
+  row-medstar:
+    quotes:
+    - exact: MD | MEDSTAR | Medstar cardiac catheterization study
+      section: Supplementary Table 1
+  row-migen:
+    quotes:
+    - exact: MI | MIGen | Myocardial Infarction Genetics Consortium
+      section: Supplementary Table 1
+  row-ohgs-a2:
+    quotes:
+    - exact: A2 | OHGS_A2 | Ottawa Heart Genetic Study A2
+      section: Supplementary Table 1
+  row-ohgs-b2:
+    quotes:
+    - exact: B2 | OHGS_B2 | Ottawa Heart Genetic Study B2
+      section: Supplementary Table 1
+  row-ohgs-c2:
+    quotes:
+    - exact: C2 | OHGS_C2 | Ottawa Heart Genetic Study C2
+      section: Supplementary Table 1
+  row-penncath:
+    quotes:
+    - exact: PN | PENNCATH | University of Pennsylvania Medical Cente cardiac catherization study
+      section: Supplementary Table 1
+  row-pivus:
+    quotes:
+    - exact: PV | PIVUS | The Prospective Investigation of the Vasculature in Uppsala Seniors
+      section: Supplementary Table 1
+  row-predictcvd:
+    quotes:
+    - exact: PR | PREDICTCVD | A subset of FINRISK cohort study
+      section: Supplementary Table 1
+  row-sds:
+    quotes:
+    - exact: SD | SDS/AIDHS | Sikh Diabetes Study/ Asian Indian Diabetic Heart Study
+      section: Supplementary Table 1
+  row-thiseas:
+    quotes:
+    - exact: TH | THISEAS | The Hellenic Study of Interactions between Snps and Eating in Atherosclerosis
+        Susceptibility
+      section: Supplementary Table 1
+  row-twingene:
+    quotes:
+    - exact: TW | TWINGENE | TWINGENE
+      section: Supplementary Table 1
+  row-ulsam:
+    quotes:
+    - exact: UL | ULSAM | The Uppsala Longitudinal Study of Adult Men
+      section: Supplementary Table 1
+  row-wtccc:
+    quotes:
+    - exact: WT | WTCCC | Wellcome Trust Case Control Consortium
+      section: Supplementary Table 1
+  row-promis1:
+    quotes:
+    - exact: P1 | PROMIS1 | The Pakistan Risk Of Myocardial Infarction Study
+      section: Supplementary Table 1
+  row-promis2:
+    quotes:
+    - exact: P2 | PROMIS2 | The Pakistan Risk Of Myocardial Infarction Study
+      section: Supplementary Table 1
+  row-lifeheart:
+    quotes:
+    - exact: LI | LIFE-HEART | Leipzig Research Center for Civilization Diseases - Heart Study
+      section: Supplementary Table 1
+  row-wghs:
+    quotes:
+    - exact: WG | WGHS | Women's Genome Health Study
+      section: Supplementary Table 1
+  row-ith:
+    quotes:
+    - exact: IH | ITH_2 | INTERHEART study
+      section: Supplementary Table 1
+  row-mayovdb:
+    quotes:
+    - exact: MO | MAYO-VDB | case-control study
+      section: Supplementary Table 1
+  row-ages:
+    quotes:
+    - exact: AG | AGES | Age, Gene/Environment Susceptibility–Reykjavik Study
+      section: Supplementary Table 1
+  row-rs:
+    quotes:
+    - exact: RS | RS | The Rotterdam Study
+      section: Supplementary Table 1
+  row-fhs:
+    quotes:
+    - exact: FH | FHS | Framingham Heart Study
+      section: Supplementary Table 1
+  row-famhs:
+    quotes:
+    - exact: FM | FamHS | Family Heart Study
+      section: Supplementary Table 1
+  row-prosper:
+    quotes:
+    - exact: PP | PROSPER | PROspective Study of Pravastatin in the Elderly at Risk
+      section: Supplementary Table 1
+  row-aric:
+    quotes:
+    - exact: AR | ARIC | Atherosclerosis Risk in Communities
+      section: Supplementary Table 1
+  ctrl-procardis:
+    quotes:
+    - exact: '* PROCARDIS included population based UK controls that were not screened for CAD from People
+        of British Isles (PoBI) & UK Twin Study cohorts.'
+      section: Supplementary Table 1 footnote
+  ctrl-hps:
+    quotes:
+    - exact: ^ HPS CAD cases were compared with population controls from the UK Twins Study and the WTCCC2
+        National Blood Service Collections
+      section: Supplementary Table 1 footnote
+  caption-st15:
+    quotes:
+    - exact: 'Supplementary Table 15: Genomic control lambda of individual studies. Each study was corrected
+        for genomic control before the final meta-analysis.'
+      section: Supplementary Table 15 caption

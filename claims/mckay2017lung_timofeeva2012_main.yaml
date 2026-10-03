@@ -1,0 +1,42 @@
+source:
+  citation: mckay2017lung_timofeeva2012_main
+  local: sources/mckay2017lung_timofeeva2012_main.txt
+  sha256: 72dcdb54bd4171d01a5337d60f4ae60e1ae101ca1760ba0b2acd9e51a4d615ed
+  doi: 10.1093/hmg/dds334
+  note: Full text of Timofeeva et al. 2012 Hum Mol Genet (ref 3 of McKay 2017; previous lung cancer GWAS
+    meta-analysis entering McKay 2017), Europe PMC fullTextXML PMC3607485, tags stripped, one sentence
+    per line
+claims:
+  SLRI_TORONTO:
+    quotes:
+    - exact: SLRI c /Toronto 331 499 Toronto, Canada Hospital-based case–control
+      section: Table 1
+  HGF_GERMANY:
+    quotes:
+    - exact: HGF Germany g 487 480 Germany Population-based case–control (<50 years)
+      section: Table 1
+  KORA-ack:
+    quotes:
+    - exact: the KORA Study Center and their co-workers for organizing and conducting the data collection
+      section: Acknowledgements
+  KORA-funding:
+    quotes:
+    - exact: The KORA Surveys were financed by the GSF
+      section: Funding
+  HUNT_TROMSO:
+    quotes:
+    - exact: HUNT2/Tromso f 394 393 Norway Population-based case–control
+      section: Table 1
+  ESTONIA:
+    quotes:
+    - exact: Estonia 109 851 Estonia Hospital-based case–control
+      section: Table 1
+  GELCAPS_B58C:
+    quotes:
+    - exact: the UK lung cancer GWAS from the Institute for Cancer Research including lung cancer cases
+        from the Genetic Lung Cancer Predisposition Study (GELCAPS) and controls from the 1958 Birth Cohort
+      section: Description of studies
+  DECODE:
+    quotes:
+    - exact: DeCODE Genetics 830 11 228 Iceland Population-based case–control
+      section: Table 1

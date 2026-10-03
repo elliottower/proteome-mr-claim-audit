@@ -1,0 +1,23 @@
+source:
+  citation: clark2025
+  local: sources/original/clark2025.xml
+  sha256: afbea7b21f994c27878cae17427b02e25886090fe0d15994d737206112bf2a43
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12527500/fullTextXML
+  doi: 10.1017/rsm.2025.16
+  note: 'Original file behind claims/clark2025.yaml: Europe PMC fullTextXML of PMC12527500, read as plain
+    text with its markup. The quotations here are the quotations of that file that resolve in this file
+    under the citations readers; a quotation absent here is pinned to the extracted text there only.'
+claims:
+  no-support:
+    quotes:
+    - exact: current evidence does not support GenAI use in evidence synthesis without human involvement
+        or oversight
+      section: Abstract, Conclusion
+  extraction-range:
+    quotes:
+    - exact: incorrect data extractions ranging from 4% to 31% (median = 14%)
+      section: Abstract, Results
+  exclusion-range:
+    quotes:
+    - exact: incorrect exclusion decisions ranging from 1% to 83% (median = 28%)
+      section: Abstract, Results

@@ -1,0 +1,55 @@
+source:
+  citation: sakaue2021_main
+  local: sources/sakaue2021_main.txt
+  sha256: 6c9fd88f3ff0b729eb7a8ee74e76832e8a7d52eef5ed73632562f1eda7846a24
+  doi: 10.1038/s41588-021-00931-x
+  note: Main text of Sakaue S et al. 2021 Nat Genet 53:1415-1424 (PMC12208603, author manuscript), NCBI
+    efetch (db=pmc) XML with tags stripped by a local script, one paragraph per line.
+claims:
+  bbj-220:
+    quotes:
+    - exact: we conducted 220 deep-phenotype GWASs (diseases, biomarkers, and medication usage) in BioBank
+        Japan (n=179,000)
+      section: Abstract
+  meta-three:
+    quotes:
+    - exact: Meta-analyses with the UK Biobank and FinnGen (ntotal=628,000)
+      section: Abstract
+  bbj-12-institutions:
+    quotes:
+    - exact: BBJ is a prospective biobank that collaboratively collected DNA and serum samples from 12
+        medical institutions in Japan
+      section: 'Methods: GWAS of 220 traits in BBJ'
+  bbj-n:
+    quotes:
+    - exact: we analyzed 178,726 participants of East Asian ancestry
+      section: 'Methods: GWAS of 220 traits in BBJ'
+  ukb-finngen-gwas:
+    quotes:
+    - exact: We conducted the GWASs harmonized with BBJ in UKB and in FinnGen.
+      section: Methods
+  finngen-r3:
+    quotes:
+    - exact: For GWASs, we used the summary statistics of FinnGen release 3 data
+      section: Methods
+  meta-procedure:
+    quotes:
+    - exact: First, we performed intra-European meta-analysis when summary statistics of both UKB and
+        FinnGen were available, and then performed cross-population meta-analysis across three or two
+        cohorts
+      section: 'Methods: Meta-analysis'
+  ukb-medication:
+    quotes:
+    - exact: collected summary statistics of medication usage GWAS conducted in UKB20 (23 traits; Supplementary
+        Table 5)
+      section: Results
+  release:
+    quotes:
+    - exact: The summary statistics of GWASs in this study (BioBank Japan, European, and cross-population
+        meta-analyses) are also deposited at the National Bioscience Database Center (NBDC) Human Database
+      section: Data availability
+  gwas-catalog:
+    quotes:
+    - exact: GWAS Catalog (https://www.ebi.ac.uk/gwas/) with the study accession IDs from GCST90018563
+        to GCST90019002
+      section: Data availability

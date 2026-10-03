@@ -1,0 +1,47 @@
+source:
+  citation: pietzner2021
+  local: sources/pietzner2021_science_firstrelease.txt
+  sha256: 2cba09c21e20b080454270de847ab08eb17836908c8a5f84814b2764ad68ce78
+  doi: 10.1126/science.abj1541
+  note: Science First Release PDF (14 Oct 2021) from Helmholtz Munich repository (push-zb deliver.php?id=31523),
+    pdftotext. Pietzner M, Wheeler E, Carrasco-Zanini J, Cortes A, Koprulu M, Worheide MA, Oerton E, Cook
+    J, Stewart ID, Kerrison ND, Luan J, Raffler J, Arnold M, Arlt W, O'Rahilly S, Kastenmuller G, Gamazon
+    ER, Hingorani AD, Scott RA, Wareham NJ, Langenberg C. Mapping the proteo-genomic convergence of human
+    diseases. Science 2021;374:eabj1541. PMID 34648354, PMC9904207.
+claims:
+  olink-61:
+    quotes:
+    - exact: 61% (488 out of 797, table S2) of pQTLs replicated using the complementary Olink technique
+      section: 'Results: Genetic associations for protein targets'
+  cis-trans:
+    quotes:
+    - exact: with a higher proportion of replication for variants in cis (81.2%) compared to trans (44.2%)
+      section: 'Results: Genetic associations for protein targets'
+  interval-64:
+    quotes:
+    - exact: 64% (867 out of 1,356 pQTLs) available in (4) replicated (p < 0.05, directionally consistent)
+      section: 'Results: Genetic associations for protein targets (ref. 4 = Sun et al. 2018, INTERVAL
+        SomaScan)'
+  prior-871-485:
+    quotes:
+    - exact: We have previously provided a detailed comparison of 871 overlapping proteins measured in
+        485 individuals (10)
+      section: Introduction
+  omicscience:
+    quotes:
+    - exact: www.omicscience.org/apps/pgwas
+      section: Data availability
+  sumstats:
+    quotes:
+    - exact: Summary statistics can be obtained from www.omicscience.org/apps/pgwas.
+      section: Data availability
+  olink-61-full:
+    quotes:
+    - exact: Further, 61% (488 out of 797, table S2) of pQTLs replicated using the complementary Olink
+        technique (see supplementary materials), with a higher proportion of replication for variants
+        in cis (81.2%) compared to trans (44.2%).
+      section: 'Results: Genetic associations for protein targets'
+  ref10-title:
+    quotes:
+    - exact: Crossplatform proteomics to advance genetic prioritisation strategies
+      section: References, ref. 10

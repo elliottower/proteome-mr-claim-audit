@@ -1,0 +1,29 @@
+source:
+  citation: vanrheenen2021_main
+  local: sources/original/vanrheenen2021_main.xml
+  sha256: 9ed29bcadb578418e21c5facaf9bf9d0642cac03fceccc4675f3a0445c5aaef2
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8648564/fullTextXML
+  doi: 10.1038/s41588-021-00973-1
+  note: 'Original file behind claims/vanrheenen2021_main.yaml: Europe PMC fullTextXML of PMC8648564, read
+    as plain text with its markup. The quotations here are the quotations of that file that resolve in
+    this file under the citations readers; a quotation absent here is pinned to the extracted text there
+    only.'
+claims:
+  merged_117_cohorts:
+    quotes:
+    - exact: we merged individual-level genotype data from 117 cohorts into six strata matched by genotyping
+        platform
+      section: Results
+  european_totals:
+    quotes:
+    - exact: A total of 27,205 patients with ALS and 110,881 control participants of European ancestries
+        passed quality control
+      section: Results
+  cross_ancestry_totals:
+    quotes:
+    - exact: We therefore performed a cross-ancestry meta-analysis totaling 29,612 cases and 122,656 controls
+      section: Results
+  asian_summary_statistics:
+    quotes:
+    - exact: Summary statistics were obtained for the Asian ancestry GWAS of ALS
+      section: Methods

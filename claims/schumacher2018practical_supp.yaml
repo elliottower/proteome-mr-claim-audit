@@ -1,0 +1,319 @@
+source:
+  citation: schumacher2018practical_supp
+  local: sources/schumacher2018practical_supp.txt
+  sha256: 19bd806c66218d25f6a06d3e455cc01c990e114255104838b607c63742d79de8
+  doi: 10.1038/s41588-018-0142-8
+  note: Supplementary Tables 1-3 of Schumacher et al. 2018 Nat Genet (Supplementary Information PDF, 41588_2018_142_MOESM1_ESM.pdf
+    from static-content.springer.com), converted with pdftotext -layout. Supplementary Table 1 (52 OncoArray
+    studies) is kept as layout text (multi-line cells); Supplementary Table 2 is one row per line with
+    cells separated by ' | ' (runs of 2+ spaces replaced); Supplementary Table 3 is layout text.
+claims:
+  st2-cci:
+    quotes:
+    - exact: CCI | 270 | 63.71 | 6.94 | 0 | - | - | - | - | 176 | 94
+      section: Supplementary Table 2 (study-specific descriptive statistics)
+  st2-cosm:
+    quotes:
+    - exact: COSM | 2051 | 70.83 | 8.00 | 1121 | 62.16 | 8.05 | 495 | 779 | 767 | 497
+      section: Supplementary Table 2 (study-specific descriptive statistics)
+  st2-gene-pare:
+    quotes:
+    - exact: Gene-PARE | 1231 | 67.72 | 6.95 | 0 | - | - | - | 279 | 565 | 163
+      section: Supplementary Table 2 (study-specific descriptive statistics)
+  st2-hpfs:
+    quotes:
+    - exact: HPFS | 1170 | 69.77 | 7.58 | 1050 | 54.77 | 8.03 | 151 | 253 | 664 | 188
+      section: Supplementary Table 2 (study-specific descriptive statistics)
+  st2-mcc-spain:
+    quotes:
+    - exact: MCC-Spain | 523 | 66.76 | 7.44 | 399 | 66.90 | 8.29 | 90 | 118 | 266 | 113
+      section: Supplementary Table 2 (study-specific descriptive statistics)
+  st2-mdacc-as:
+    quotes:
+    - exact: MDACC-AS | 535 | 64.55 | 8.33 | 0 | - | - | - | - | 181 | 345
+      section: Supplementary Table 2 (study-specific descriptive statistics)
+  st2-moffitt:
+    quotes:
+    - exact: MOFFITT | 400 | 64.66 | 8.08 | 205 | 62.05 | 9.20 | 50 | 58 | 183 | 157
+      section: Supplementary Table 2 (study-specific descriptive statistics)
+  st2-phs:
+    quotes:
+    - exact: PHS | 631 | 68.62 | 7.21 | 267 | 58.86 | 8.40 | 159 | 147 | 332 | 128
+      section: Supplementary Table 2 (study-specific descriptive statistics)
+  st2-poland:
+    quotes:
+    - exact: Poland | 484 | 69.06 | 8.28 | 317 | 64.38 | 7.26 | 152 | 236 | 180 | 56
+      section: Supplementary Table 2 (study-specific descriptive statistics)
+  st2-procap:
+    quotes:
+    - exact: PROCAP | 613 | 64.39 | 5.01 | 241 | 66.03 | 8.44 | - | - | 368 | 132
+      section: Supplementary Table 2 (study-specific descriptive statistics)
+  st2-progress:
+    quotes:
+    - exact: PROGReSS | 674 | 69.74 | 6.75 | 322 | 61.14 | 12.03 | 95 | 193 | 380 | 93
+      section: Supplementary Table 2 (study-specific descriptive statistics)
+  st2-qld-apcb:
+    quotes:
+    - exact: QLD/APCB | 3299 | 62.72 | 7.04 | 1252 | 59.24 | 10.73 | 360 | 1027 | 1750 | 88
+      section: Supplementary Table 2 (study-specific descriptive statistics)
+  st2-search:
+    quotes:
+    - exact: SEARCH | 2431 | 63.20 | 4.72 | 232 | 54.38 | 7.74 | 468 | 827 | 865 | 291
+      section: Supplementary Table 2 (study-specific descriptive statistics)
+  st2-sthm2:
+    quotes:
+    - exact: STHM2 | 3028 | 65.29 | 6.97 | 1490 | 65.91 | 7.80 | 417 | 650 | 1266 | 661
+      section: Supplementary Table 2 (study-specific descriptive statistics)
+  st2-swog-pcpt:
+    quotes:
+    - exact: SWOG-PCPT | 1092 | 69.84 | 5.79 | 1152 | 63.86 | 5.69 | 66 | 77 | 360 | 618
+      section: Supplementary Table 2 (study-specific descriptive statistics)
+  st2-swog-select:
+    quotes:
+    - exact: SWOG-SELECT | 1508 | 67.40 | 6.03 | 2138 | 63.98 | 6.27 | 107 | 107 | 700 | 602
+      section: Supplementary Table 2 (study-specific descriptive statistics)
+  st2-tampere:
+    quotes:
+    - exact: TAMPERE | 2409 | 67.16 | 6.59 | 1179 | 65.99 | 3.23 | 349 | 532 | 743 | 404
+      section: Supplementary Table 2 (study-specific descriptive statistics)
+  st2-toronto:
+    quotes:
+    - exact: TORONTO | 732 | 64.78 | 7.92 | 544 | 61.84 | 8.40 | 54 | 106 | 350 | 156
+      section: Supplementary Table 2 (study-specific descriptive statistics)
+  st2-ukgpcs:
+    quotes:
+    - exact: UKGPCS | 5790 | 60.13 | 7.32 | 946 | 61.82 | 7.01 | 1324 | 2218 | 2070 | 539
+      section: Supplementary Table 2 (study-specific descriptive statistics)
+  st2-caps-2-gwas:
+    quotes:
+    - exact: CAPS 2 GWAS | 1458 | 65.6 | 7.2 | 512 | 67.2 | 7.4 | 648 | 715 | 393 | 339
+      section: Supplementary Table 2 (study-specific descriptive statistics)
+  st2-icogs:
+    quotes:
+    - exact: iCOGS | 20219 | 64.3 | 8 | 20440 | 60.4 | 11.1 | 3666 | 6247 | 7739 | 2397
+      section: Supplementary Table 2 (study-specific descriptive statistics)
+  st2-pegasus:
+    quotes:
+    - exact: Pegasus | 4600 | 68.79 | 5.8 | 2941 | 67.87 | 5.8 | 950 | 911 | 3263 | 1382
+      section: Supplementary Table 2 (study-specific descriptive statistics)
+  st2-uk-gwas-stage1:
+    quotes:
+    - exact: UK GWAS stage1 | 1854 | 57.6 | 7 | 1894 | 59.5 | 3.5 | 663 | 810 | 500 | 172
+      section: Supplementary Table 2 (study-specific descriptive statistics)
+  st2-uk-gwas-stage-2:
+    quotes:
+    - exact: UK GWAS stage 2 | 3650 | 63.5 | 8.6 | 3940 | 57.4 | 6.9 | 1204 | 1567 | 1486 | 376
+      section: Supplementary Table 2 (study-specific descriptive statistics)
+  st1-hunt:
+    quotes:
+    - exact: Trøndelag Health Study (HUNT 2
+      section: Supplementary Table 1 (case source / control source columns)
+  st1-tromso:
+    quotes:
+    - exact: The Tromsø Health Study (Tromsø
+      section: Supplementary Table 1 (case source / control source columns)
+  st1-hubro:
+    quotes:
+    - exact: The Oslo Health Study
+      section: Supplementary Table 1 (case source / control source columns)
+  st1-opphed:
+    quotes:
+    - exact: Study (OPPHED), and
+      section: Supplementary Table 1 (case source / control source columns)
+  st1-husk:
+    quotes:
+    - exact: theHordaland Health Study
+      section: Supplementary Table 1 (case source / control source columns)
+  st1-erspc-finland:
+    quotes:
+    - exact: records; and the Finnish arm of the
+      section: Supplementary Table 1 (case source / control source columns)
+  st1-mmc-biobank:
+    quotes:
+    - exact: the MMC Biobank, no history of
+      section: Supplementary Table 1 (case source / control source columns)
+  st1-arcbs:
+    quotes:
+    - exact: through (i) the Australian Red Cross
+      section: Supplementary Table 1 (case source / control source columns)
+  st1-aec-australia:
+    quotes:
+    - exact: Australian Electoral Commission
+      section: Supplementary Table 1 (case source / control source columns)
+  st1-caption:
+    quotes:
+    - exact: Supplementary Table 1. Brief overview and details of studies included in the prostate cancer
+        OncoArray project c.
+      section: Supplementary Table 1 caption
+  st1-footnote-c:
+    quotes:
+    - exact: We analysed the OncoArray data with and without overlap with the previous GWAS. This table
+        shows the number without overlap used for the meta-analysis.
+      section: Supplementary Table 1 footnote c
+  st2-caption:
+    quotes:
+    - exact: Supplementary Table 2. Study-specific descriptive statistics for studies included in the
+        analysis.
+      section: Supplementary Table 2 caption
+  st2-footnote-a:
+    quotes:
+    - exact: Numbers are based on samples who passed the quality control with no overlap with previous
+        GWAS. Only individuals of European ancestry ethnicities are included.
+      section: Supplementary Table 2 footnote a
+  epic-countries:
+    quotes:
+    - exact: EPIC European EU Multi Center in EU Case-control - Germany,
+      section: Supplementary Table 1, EPIC row
+  st2-aarhus:
+    quotes:
+    - exact: Aarhus | 1079 | 63.97 | 6.38 | 550 | 64.73 | 7.55 | 208 | 435 | 565
+      section: Supplementary Table 2 (study-specific descriptive statistics)
+  st2-ahs:
+    quotes:
+    - exact: AHS | 471 | 67.34 | 8.19 | 1179 | 56.90 | 8.72 | 80 | 116 | 138
+      section: Supplementary Table 2 (study-specific descriptive statistics)
+  st2-atbc:
+    quotes:
+    - exact: ATBC | 1205 | 72.30 | 5.55 | 1910 | 57.83 | 4.85 | 265 | 183 | 360
+      section: Supplementary Table 2 (study-specific descriptive statistics)
+  st2-canary-pass:
+    quotes:
+    - exact: Canary PASS | 371 | 62.01 | 6.74 | 0
+      section: Supplementary Table 2 (study-specific descriptive statistics)
+  st2-cerepp:
+    quotes:
+    - exact: CeRePP | 923 | 65.78 | 8.06 | 694 | 65.42 | 8.17 | 211 | 415 | 504
+      section: Supplementary Table 2 (study-specific descriptive statistics)
+  st2-coh:
+    quotes:
+    - exact: COH | 260 | 60.33 | 6.01 | 259 | 57.71 | 6.76 | - | 63 | 197
+      section: Supplementary Table 2 (study-specific descriptive statistics)
+  st2-cpcs1:
+    quotes:
+    - exact: CPCS1 | 533 | 68.25 | 7.12 | 256 | 57.93 | 11.05 | 166 | 272 | 187
+      section: Supplementary Table 2 (study-specific descriptive statistics)
+  st2-cpcs2:
+    quotes:
+    - exact: CPCS2 | 439 | 63.83 | 5.56 | 227 | 57.01 | 11.85 | - | 91 | 263
+      section: Supplementary Table 2 (study-specific descriptive statistics)
+  st2-cpsii:
+    quotes:
+    - exact: CPSII | 4425 | 71.42 | 5.87 | 4085 | 64.20 | 5.40 | 84 | 359 | 1009
+      section: Supplementary Table 2 (study-specific descriptive statistics)
+  st2-epic:
+    quotes:
+    - exact: EPIC | 632 | 66.73 | 6.16 | 696 | 57.03 | 6.45 | 71 | 121 | 212
+      section: Supplementary Table 2 (study-specific descriptive statistics)
+  st2-erspc:
+    quotes:
+    - exact: ERSPC | 71 | 71.16 | 2.26 | 66 | 71.27 | 2.25
+      section: Supplementary Table 2 (study-specific descriptive statistics)
+  st2-esther:
+    quotes:
+    - exact: ESTHER | 14 | 67.04 | 3.52 | 3 | 60.36 | 3.20
+      section: Supplementary Table 2 (study-specific descriptive statistics)
+  st2-fhcrc:
+    quotes:
+    - exact: FHCRC | 409 | 60.26 | 7.25 | 391 | 60.13 | 7.81 | 51 | 121 | 112
+      section: Supplementary Table 2 (study-specific descriptive statistics)
+  st2-hamburg-zagreb:
+    quotes:
+    - exact: Hamburg_Zagreb | 146 | 68.10 | 7.41 | 149 | 55.36 | 4.93 | - | 73 | 59
+      section: Supplementary Table 2 (study-specific descriptive statistics)
+  st2-impact:
+    quotes:
+    - exact: IMPACT | 50 | 63.67 | 5.70 | 875 | 53.14 | 8.34
+      section: Supplementary Table 2 (study-specific descriptive statistics)
+  st2-ipo-porto:
+    quotes:
+    - exact: IPO-Porto | 371 | 56.25 | 5.71 | 180 | 53.12 | 7.26 | 65 | 181 | 159
+      section: Supplementary Table 2 (study-specific descriptive statistics)
+  st2-kuleuven:
+    quotes:
+    - exact: KULEUVEN | 166 | 65.84 | 7.36 | 103 | 68.54 | 6.94 | 69 | 114
+      section: Supplementary Table 2 (study-specific descriptive statistics)
+  st2-laapc:
+    quotes:
+    - exact: LAAPC | 443 | 67.19 | 9.39 | 287 | 64.21 | 10.64
+      section: Supplementary Table 2 (study-specific descriptive statistics)
+  st2-mccs:
+    quotes:
+    - exact: MCCS | 401 | 71.08 | 7.27 | 303 | 58.89 | 7.17 | 109 | 89 | 148
+      section: Supplementary Table 2 (study-specific descriptive statistics)
+  st2-mec:
+    quotes:
+    - exact: MEC | 100 | 71.49 | 8.08 | 120 | 60.77 | 7.98
+      section: Supplementary Table 2 (study-specific descriptive statistics)
+  st2-oslo:
+    quotes:
+    - exact: Oslo | 1453 | 72.22 | 8.59 | 0 | - | - | 764 | 51 | 490
+      section: Supplementary Table 2 (study-specific descriptive statistics)
+  st2-pcmus:
+    quotes:
+    - exact: PCMUS | 192 | 68.18 | 7.65 | 89 | 66.42 | 9.21 | 68 | 111 | 93
+      section: Supplementary Table 2 (study-specific descriptive statistics)
+  st2-plco:
+    quotes:
+    - exact: PLCO | 677 | 72.39 | 5.49 | 980 | 61.76 | 4.80 | 101 | 115 | 274
+      section: Supplementary Table 2 (study-specific descriptive statistics)
+  st2-pragga:
+    quotes:
+    - exact: PRAGGA | 130 | 68.07 | 6.24 | 102 | 61.21 | 15.91 | - | 56
+      section: Supplementary Table 2 (study-specific descriptive statistics)
+  st2-profile:
+    quotes:
+    - exact: PROFILE | 12 | 59.85 | 7.90 | 22 | 51.53 | 7.73
+      section: Supplementary Table 2 (study-specific descriptive statistics)
+  st2-prompt:
+    quotes:
+    - exact: ProMPT | 782 | 64.55 | 7.93 | 12 | 58.54 | 9.52 | 184 | 412 | 321
+      section: Supplementary Table 2 (study-specific descriptive statistics)
+  st2-protect:
+    quotes:
+    - exact: ProtecT | 4 | 64.50 | 7.05 | 1414 | 60.91 | 5.61
+      section: Supplementary Table 2 (study-specific descriptive statistics)
+  st2-rapper:
+    quotes:
+    - exact: RAPPER | 2113 | 70.19 | 6.16 | 0
+      section: Supplementary Table 2 (study-specific descriptive statistics)
+  st2-sfpcs:
+    quotes:
+    - exact: SFPCS | 279 | 64.78 | 8.01 | 205 | 64.93 | 8.21 | 50
+      section: Supplementary Table 2 (study-specific descriptive statistics)
+  st2-snp-prostate-ghent:
+    quotes:
+    - exact: SNP_Prostate_Ghent | 316 | 65.28 | 6.90 | 135 | 66.44 | 9.48 | 62 | 140 | 140
+      section: Supplementary Table 2 (study-specific descriptive statistics)
+  st2-spag:
+    quotes:
+    - exact: SPAG | 40 | 65.21 | 7.07 | 171
+      section: Supplementary Table 2 (study-specific descriptive statistics)
+  st2-ulm:
+    quotes:
+    - exact: ULM | 403 | 64.69 | 7.08 | 3 | 50.67 | 12.50 | 69 | 161 | 228
+      section: Supplementary Table 2 (study-specific descriptive statistics)
+  st2-wugs-wupcs:
+    quotes:
+    - exact: WUGS/WUPCS | 674 | 61.25 | 7.88 | 0 | - | - | - | 164 | 363
+      section: Supplementary Table 2 (study-specific descriptive statistics)
+  st2-bpc3:
+    quotes:
+    - exact: BPC3 | 2068 | 68.6 | 6.9 | 2993 | 69.2 | 7 | 2068
+      section: Supplementary Table 2 (study-specific descriptive statistics)
+  st2-caps-1-gwas:
+    quotes:
+    - exact: CAPS 1 GWAS | 474 | 67.8 | 7.5 | 482 | 66.3 | 7.6 | 443 | 442
+      section: Supplementary Table 2 (study-specific descriptive statistics)
+  st1-trofinn:
+    quotes:
+    - exact: Health Study (TROFINN), The Nord
+      section: Supplementary Table 1 (case source / control source columns)
+  st1-cgps:
+    quotes:
+    - exact: 'Copenhagen General Population PMID: 23468462'
+      section: Supplementary Table 1 (case source / control source columns)
+  st1-trofinn-hunt:
+    quotes:
+    - exact: The Troms and Finnmark Health Study (TROFINN), The Nord-Trøndelag Health Study (HUNT 2 and
+        3)
+      section: Supplementary Table 1 (case source / control source columns)

@@ -1,0 +1,49 @@
+source:
+  citation: lambert2013_supp
+  local: sources/original/lambert2013_supp.pdf
+  sha256: 063c9bb0d3351aecbd1d89fd961f98e3dd78eeda33d063a975956acba319172b
+  url: https://static-content.springer.com/esm/art%3A10.1038%2Fng.2802/MediaObjects/41588_2013_BFng2802_MOESM27_ESM.pdf
+  doi: 10.1038/ng.2802
+  note: 'Original file behind claims/lambert2013_supp.yaml: 41588_2013_BFng2802_MOESM27_ESM.pdf from static-content.springer.com.
+    The quotations here are the quotations of that file that resolve in this file under the citations
+    readers; a quotation absent here is pinned to the extracted text there only.'
+claims:
+  charge_aric_asps_excluded:
+    quotes:
+    - exact: Of the six studies, two, the Atherosclerosis Risk in Communities (ARIC) study and the Aus-
+        trian Study of Stroke Prevention (ASPS) study were excluded from these analyses
+      section: Supplementary Note, CHARGE
+  mayo_counted_in_adgc_only:
+    quotes:
+    - exact: MAYO study is part of both ADGC and GERAD consortia, for the purposes of the mega-meta analysis,
+        MAYO was removed from the GERAD
+      section: Supplementary Table 7 footnote
+  gerad_wtccc2_controls:
+    quotes:
+    - exact: Genotypes for the remaining 2,660 population controls were obtained from WTCCC2
+      section: Supplementary Note, GERAD
+  gerad_population_controls:
+    quotes:
+    - exact: trols were drawn from large existing cohorts with available GWAS data, including the 1958
+        British Birth Cohort (1958BC) (http://www.b58cgene.sgul.ac.uk), the KORA F4 Study and the Heinz
+        Nixdorf Recall Study
+      section: Supplementary Note, GERAD
+  eadi_controls_3c:
+    quotes:
+    - exact: Controls were selected from the 3C Study [50]
+      section: Supplementary Note, EADI
+  eadi_3c_cases:
+    quotes:
+    - exact: These AD cases were included as cases in the EADI stage 1 dataset. We retained the other
+        individuals as controls (n=6,017).
+      section: Supplementary Note, EADI
+  eadi_cases:
+    quotes:
+    - exact: All the 2,243 AD cases were ascertained by neurologists from Bordeaux, Dijon, Lille, Montpellier,
+        Paris, Rouen
+      section: Supplementary Note, EADI
+  genada_is_gsk:
+    quotes:
+    - exact: 'The GenADA Study: Data from the GenADA cohort that were analyzed included 669 AD cases and
+        713 CNEs'
+      section: Supplementary Note, ADGC

@@ -1,0 +1,3292 @@
+[
+ {
+  "row_name": "CARDIoGRAMplusC4D 1000 Genomes CAD (Nikpay 2015)",
+  "new_row": false,
+  "side": "outcome",
+  "aliases_proposed": "",
+  "release": "1000 Genomes-imputed CARDIoGRAMplusC4D meta-analysis of 48 studies (60,801 cases, 123,504 controls), the dataset distributed at cardiogramplusc4d.org",
+  "source_citation": "Nikpay M et al. 2015. A comprehensive 1,000 Genomes-based genome-wide association meta-analysis of coronary artery disease. Nat Genet 47:1121-1130",
+  "source_identifier": "doi:10.1038/ng.3396; PMID:26343387; PMC4589895",
+  "components": [
+   {
+    "id": "PROCARDIS",
+    "as_written": "PC | PROCARDIS | Precocious Coronary Artery Disease",
+    "role": "case-control",
+    "quote_id": "claims/nikpay2015cad_supp_tables.yaml#row-procardis"
+   },
+   {
+    "id": "POBI",
+    "as_written": "People of British Isles (PoBI) (PROCARDIS controls)",
+    "role": "controls_only",
+    "quote_id": "claims/nikpay2015cad_supp_tables.yaml#ctrl-procardis"
+   },
+   {
+    "id": "TWINSUK",
+    "as_written": "UK Twin Study (PROCARDIS and HPS controls)",
+    "role": "controls_only",
+    "quote_id": "claims/nikpay2015cad_supp_tables.yaml#ctrl-procardis"
+   },
+   {
+    "id": "HSDS",
+    "as_written": "HSDS | Helsinki Sudden Death Study/Tampere Coronary Study",
+    "role": "case-control",
+    "quote_id": "claims/nikpay2015cad_supp_tables.yaml#row-hsds"
+   },
+   {
+    "id": "ADVANCE",
+    "as_written": "AD | ADVANCE",
+    "role": "case-control",
+    "quote_id": "claims/nikpay2015cad_supp_tables.yaml#row-advance"
+   },
+   {
+    "id": "CARDIA",
+    "as_written": "a subset of 479 participants ... from the Coronary Artery Risk Development in Young Adults (CARDIA) study (ADVANCE young control group; whether any are in the 312 GWAS controls is not stated)",
+    "role": "controls_only",
+    "quote_id": "claims/nikpay2015cad_supp_note.yaml#ctrl-advance-cardia"
+   },
+   {
+    "id": "BEIJING_BAS",
+    "as_written": "BEIJING (BAS) | Beijing Atherosclerosis Study",
+    "role": "case-control",
+    "quote_id": "claims/nikpay2015cad_supp_tables.yaml#row-bas"
+   },
+   {
+    "id": "CARDIOGENICS",
+    "as_written": "CD | CARDIOGENICS",
+    "role": "case-control",
+    "quote_id": "claims/nikpay2015cad_supp_tables.yaml#row-cardiogenics"
+   },
+   {
+    "id": "CAMBRIDGE_BIORESOURCE",
+    "as_written": "blood donors recruited as part of the Cambridge Bioresource (CARDIOGENICS controls)",
+    "role": "controls_only",
+    "quote_id": "claims/nikpay2015cad_supp_note.yaml#ctrl-cardiogenics"
+   },
+   {
+    "id": "CHINA_CAS",
+    "as_written": "CHINA (CAS) | China Atherosclerosis Study",
+    "role": "case-control",
+    "quote_id": "claims/nikpay2015cad_supp_tables.yaml#row-cas"
+   },
+   {
+    "id": "INTERASIA",
+    "as_written": "International Collaborative Study of Cardiovascular Disease in Asia (InterASIA in China) (CAS controls)",
+    "role": "controls_only",
+    "quote_id": "claims/nikpay2015cad_supp_note.yaml#ctrl-cas"
+   },
+   {
+    "id": "CCGB",
+    "as_written": "CCGB_2 | Cleveland Clinic Gene Bank",
+    "role": "case-control",
+    "quote_id": "claims/nikpay2015cad_supp_tables.yaml#row-ccgb"
+   },
+   {
+    "id": "COROGENE",
+    "as_written": "COROGENE | The Corogene Study",
+    "role": "case-control",
+    "quote_id": "claims/nikpay2015cad_supp_tables.yaml#row-corogene"
+   },
+   {
+    "id": "DUKE_CATHGEN",
+    "as_written": "DUKE_2 | Duke Cathgen Study",
+    "role": "case-control",
+    "quote_id": "claims/nikpay2015cad_supp_tables.yaml#row-duke"
+   },
+   {
+    "id": "ESTONIAN_BIOBANK",
+    "as_written": "EGCUT | Estonian Genome Center of University of Tartu",
+    "role": "case-control",
+    "quote_id": "claims/nikpay2015cad_supp_tables.yaml#row-egcut"
+   },
+   {
+    "id": "FGENTCARD",
+    "as_written": "FGENTCARD",
+    "role": "case-control",
+    "quote_id": "claims/nikpay2015cad_supp_tables.yaml#row-fgentcard"
+   },
+   {
+    "id": "GENRIC",
+    "as_written": "GENRIC | Genomics Research in Cardiovascular Disease",
+    "role": "case-control",
+    "quote_id": "claims/nikpay2015cad_supp_tables.yaml#row-genric"
+   },
+   {
+    "id": "KOGES_HEXA",
+    "as_written": "HEXA (Health Examinee) ... KoGES (GenRIC controls)",
+    "role": "controls_only",
+    "quote_id": "claims/nikpay2015cad_supp_note.yaml#ctrl-genric"
+   },
+   {
+    "id": "GERMIFS",
+    "as_written": "GERMIFS I, II, III (KORA), IV",
+    "role": "case-control",
+    "quote_id": "claims/nikpay2015cad_supp_tables.yaml#row-germifs1"
+   },
+   {
+    "id": "KORA",
+    "as_written": "GerMIFS III (KORA) cases from the KORA registry; controls from MONICA/KORA Augsburg F4 and KORA S4/F4 (GerMIFS II, III)",
+    "role": "case-control",
+    "quote_id": "claims/nikpay2015cad_supp_note.yaml#germifs3-kora"
+   },
+   {
+    "id": "POPGEN",
+    "as_written": "PopGen blood donor sample 2 (PopGen-BSP) / PopGen (GerMIFS II, III controls)",
+    "role": "controls_only",
+    "quote_id": "claims/nikpay2015cad_supp_note.yaml#ctrl-germifs2"
+   },
+   {
+    "id": "BASE_II",
+    "as_written": "Berlin Aging Study II (BASE-II) (GerMIFS IV controls)",
+    "role": "controls_only",
+    "quote_id": "claims/nikpay2015cad_supp_note.yaml#ctrl-germifs4"
+   },
+   {
+    "id": "GODARTS",
+    "as_written": "GODARTS",
+    "role": "case-control",
+    "quote_id": "claims/nikpay2015cad_supp_tables.yaml#row-godarts"
+   },
+   {
+    "id": "HPS",
+    "as_written": "HPS | MRC/BHF Heart Protection Study",
+    "role": "case-control",
+    "quote_id": "claims/nikpay2015cad_supp_tables.yaml#row-hps"
+   },
+   {
+    "id": "UKBS",
+    "as_written": "WTCCC2 National Blood Service collections (HPS controls); UK National Blood Service donors (WTCCC controls)",
+    "role": "controls_only",
+    "quote_id": "claims/nikpay2015cad_supp_tables.yaml#ctrl-hps"
+   },
+   {
+    "id": "BIOME",
+    "as_written": "IPM_AA / IPM_EA / IPM_HA | MT. SINAI BioMe Biobank Platform",
+    "role": "case-control",
+    "quote_id": "claims/nikpay2015cad_supp_tables.yaml#row-ipm-aa"
+   },
+   {
+    "id": "LOLIPOP",
+    "as_written": "LOLIPOP | London Life Sciences Prospective Population Study",
+    "role": "case-control",
+    "quote_id": "claims/nikpay2015cad_supp_tables.yaml#row-lolipop"
+   },
+   {
+    "id": "LURIC",
+    "as_written": "LURIC",
+    "role": "case-control",
+    "quote_id": "claims/nikpay2015cad_supp_tables.yaml#row-luric"
+   },
+   {
+    "id": "MEDSTAR",
+    "as_written": "MEDSTAR",
+    "role": "case-control",
+    "quote_id": "claims/nikpay2015cad_supp_tables.yaml#row-medstar"
+   },
+   {
+    "id": "ATVB",
+    "as_written": "Italian ATVB Study (MIGen site)",
+    "role": "case-control",
+    "quote_id": "claims/kathiresan2009migen_main.yaml#table1-studies"
+   },
+   {
+    "id": "HARPS",
+    "as_written": "Heart Attack Risk in Puget Sound (MIGen site)",
+    "role": "case-control",
+    "quote_id": "claims/kathiresan2009migen_main.yaml#table1-studies"
+   },
+   {
+    "id": "REGICOR",
+    "as_written": "REGICOR (MIGen site)",
+    "role": "case-control",
+    "quote_id": "claims/kathiresan2009migen_main.yaml#table1-studies"
+   },
+   {
+    "id": "MGH_PCAD",
+    "as_written": "MGH Premature Coronary Artery Disease Study (MIGen site)",
+    "role": "case-control",
+    "quote_id": "claims/kathiresan2009migen_main.yaml#table1-studies"
+   },
+   {
+    "id": "FINRISK",
+    "as_written": "FINRISK (MIGen site); PREDICTCVD | A subset of FINRISK cohort study",
+    "role": "case-control",
+    "quote_id": "claims/nikpay2015cad_supp_tables.yaml#row-predictcvd"
+   },
+   {
+    "id": "MDC",
+    "as_written": "Malmö Diet and Cancer Study (MIGen site)",
+    "role": "case-control",
+    "quote_id": "claims/kathiresan2009migen_main.yaml#table1-studies"
+   },
+   {
+    "id": "OHGS",
+    "as_written": "OHGS_A2 / OHGS_B2 / OHGS_C2 | Ottawa Heart Genetic Study",
+    "role": "case-control",
+    "quote_id": "claims/nikpay2015cad_supp_tables.yaml#row-ohgs-a2"
+   },
+   {
+    "id": "PENNCATH",
+    "as_written": "PENNCATH",
+    "role": "case-control",
+    "quote_id": "claims/nikpay2015cad_supp_tables.yaml#row-penncath"
+   },
+   {
+    "id": "PIVUS",
+    "as_written": "PIVUS",
+    "role": "cohort",
+    "quote_id": "claims/nikpay2015cad_supp_tables.yaml#row-pivus"
+   },
+   {
+    "id": "SDS_AIDHS",
+    "as_written": "SDS/AIDHS | Sikh Diabetes Study/ Asian Indian Diabetic Heart Study",
+    "role": "case-control",
+    "quote_id": "claims/nikpay2015cad_supp_tables.yaml#row-sds"
+   },
+   {
+    "id": "THISEAS",
+    "as_written": "THISEAS",
+    "role": "case-control",
+    "quote_id": "claims/nikpay2015cad_supp_tables.yaml#row-thiseas"
+   },
+   {
+    "id": "TWINGENE",
+    "as_written": "TWINGENE",
+    "role": "cohort",
+    "quote_id": "claims/nikpay2015cad_supp_tables.yaml#row-twingene"
+   },
+   {
+    "id": "ULSAM",
+    "as_written": "ULSAM",
+    "role": "cohort",
+    "quote_id": "claims/nikpay2015cad_supp_tables.yaml#row-ulsam"
+   },
+   {
+    "id": "WTCCC",
+    "as_written": "WTCCC | Wellcome Trust Case Control Consortium (CAD cases)",
+    "role": "case-control",
+    "quote_id": "claims/nikpay2015cad_supp_tables.yaml#row-wtccc"
+   },
+   {
+    "id": "B58C",
+    "as_written": "1958 Birth Cohort (WTCCC controls)",
+    "role": "controls_only",
+    "quote_id": "claims/nikpay2015cad_supp_note.yaml#ctrl-wtccc"
+   },
+   {
+    "id": "PROMIS",
+    "as_written": "PROMIS1 / PROMIS2",
+    "role": "case-control",
+    "quote_id": "claims/nikpay2015cad_supp_tables.yaml#row-promis1"
+   },
+   {
+    "id": "LIFE_HEART",
+    "as_written": "LIFE-HEART",
+    "role": "case-control",
+    "quote_id": "claims/nikpay2015cad_supp_tables.yaml#row-lifeheart"
+   },
+   {
+    "id": "WGHS",
+    "as_written": "WGHS | Women's Genome Health Study",
+    "role": "cohort",
+    "quote_id": "claims/nikpay2015cad_supp_tables.yaml#row-wghs"
+   },
+   {
+    "id": "INTERHEART",
+    "as_written": "ITH_2 | INTERHEART study",
+    "role": "case-control",
+    "quote_id": "claims/nikpay2015cad_supp_tables.yaml#row-ith"
+   },
+   {
+    "id": "MAYO_VDB",
+    "as_written": "MAYO-VDB",
+    "role": "case-control",
+    "quote_id": "claims/nikpay2015cad_supp_tables.yaml#row-mayovdb"
+   },
+   {
+    "id": "AGES",
+    "as_written": "AGES | Age, Gene/Environment Susceptibility–Reykjavik Study",
+    "role": "cohort",
+    "quote_id": "claims/nikpay2015cad_supp_tables.yaml#row-ages"
+   },
+   {
+    "id": "RS",
+    "as_written": "RS | The Rotterdam Study",
+    "role": "cohort",
+    "quote_id": "claims/nikpay2015cad_supp_tables.yaml#row-rs"
+   },
+   {
+    "id": "FHS",
+    "as_written": "FHS | Framingham Heart Study (Original and Offspring)",
+    "role": "cohort",
+    "quote_id": "claims/nikpay2015cad_supp_tables.yaml#row-fhs"
+   },
+   {
+    "id": "FAMHS",
+    "as_written": "FamHS | Family Heart Study (sampled from FHS, Utah Family Tree Study and two ARIC centres)",
+    "role": "cohort",
+    "quote_id": "claims/nikpay2015cad_supp_tables.yaml#row-famhs"
+   },
+   {
+    "id": "UTAH_FAMILY_TREE",
+    "as_written": "the Utah Family Tree Study (FamHS parent study)",
+    "role": "cohort",
+    "quote_id": "claims/nikpay2015cad_supp_note.yaml#famhs-parents"
+   },
+   {
+    "id": "PROSPER",
+    "as_written": "PROSPER",
+    "role": "cohort",
+    "quote_id": "claims/nikpay2015cad_supp_tables.yaml#row-prosper"
+   },
+   {
+    "id": "ARIC",
+    "as_written": "ARIC | Atherosclerosis Risk in Communities",
+    "role": "cohort",
+    "quote_id": "claims/nikpay2015cad_supp_tables.yaml#row-aric"
+   }
+  ],
+  "replication_only": [],
+  "components_complete": "yes",
+  "complete_reason": "Supplementary Table 1 lists all 48 studies by name (caption: 'the 48 studies participated in the 1000G CAD meta-analysis'; Supplementary Table 15 gives a lambda for the same 48); every row was read, and the Supplementary Note was read for control sources. MIGen resolved to its six studies via Kathiresan 2009 Table 1. Caveats the lead may weigh: GerMIFS I controls are described only as 'Population-based subjects were entered as controls' (claims/nikpay2015cad_supp_note.yaml#ctrl-germifs1), read here as the study's own population sample, not a named external cohort; whether CARDIA participants are among ADVANCE's 312 GWAS controls is not stated (listed conservatively); the COROGENE heading in the Supplementary Note carries only a FINRISK description (FINRISK is a component anyway).",
+  "includes_ukb": "no",
+  "includes_iceland": "yes",
+  "pqtl_cohort_flags": {
+   "INTERVAL": "no",
+   "FENLAND": "no",
+   "ARIC": "yes",
+   "AGES": "yes",
+   "KORA": "yes",
+   "FHS": "yes",
+   "IMPROVE": "no",
+   "DECODE": "no",
+   "UKB": "no"
+  },
+  "ancestry": "77% European; 13% South Asian; 6% East Asian; Hispanic and African American",
+  "sample_size": "60,801 cases; 123,504 controls",
+  "source_read": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC4589895/fullTextXML (main text); https://www.ebi.ac.uk/europepmc/webservices/rest/PMC4589895/supplementaryFiles (NIHMS64693-supplement-Tables.xlsx Supplementary Tables 1 and 15; NIHMS64693-supplement-Note_NoteFigs.docx Supplementary Note cohort descriptions); MIGen membership from https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=2681011 (Kathiresan 2009, Table 1)",
+  "claims_files": [
+   "claims/nikpay2015cad_main.yaml",
+   "claims/nikpay2015cad_supp_tables.yaml",
+   "claims/nikpay2015cad_supp_note.yaml",
+   "claims/kathiresan2009migen_main.yaml"
+  ],
+  "notes": "Iceland via AGES-Reykjavik (not deCODE); LOLIPOP was genotyped at deCODE, which is a laboratory, not a participant source. UK Biobank absent. FamHS participants were sampled from FHS, ARIC and the Utah Family Tree Study. The existing component CARDIOGRAM_C4D is replaced by the member list."
+ },
+ {
+  "row_name": "UK Biobank + CARDIoGRAMplusC4D CAD (van der Harst 2018)",
+  "new_row": false,
+  "side": "outcome",
+  "aliases_proposed": "",
+  "release": "Genome-wide meta-analysis of UK Biobank (34,541 cases, 261,984 controls) with CARDIoGRAMplusC4D 1000 Genomes (Nikpay 2015) and the CARDIoGRAMplusC4D CardioMetabochip meta-analysis of Howson 2017 (which contains Deloukas 2013 stages 1-2 plus Howson's de novo genotyped studies); posted at cardiomics.net and Mendeley doi:10.17632/gbbsrpx6bs.1",
+  "source_citation": "van der Harst P, Verweij N. 2018. Identification of 64 Novel Genetic Loci Provides an Expanded View on the Genetic Architecture of Coronary Artery Disease. Circ Res 122:433-443",
+  "source_identifier": "doi:10.1161/CIRCRESAHA.117.312086; PMID:29212778; PMC5805277",
+  "components": [
+   {
+    "id": "UKB",
+    "as_written": "UK Biobank",
+    "role": "cohort",
+    "quote_id": "claims/vanderharst2018cad_main.yaml#ukb-gwas"
+   },
+   {
+    "id": "PROCARDIS",
+    "as_written": "PC | PROCARDIS | Precocious Coronary Artery Disease",
+    "role": "case-control",
+    "quote_id": "claims/nikpay2015cad_supp_tables.yaml#row-procardis"
+   },
+   {
+    "id": "POBI",
+    "as_written": "People of British Isles (PoBI) (PROCARDIS controls)",
+    "role": "controls_only",
+    "quote_id": "claims/nikpay2015cad_supp_tables.yaml#ctrl-procardis"
+   },
+   {
+    "id": "TWINSUK",
+    "as_written": "UK Twin Study (PROCARDIS and HPS controls)",
+    "role": "controls_only",
+    "quote_id": "claims/nikpay2015cad_supp_tables.yaml#ctrl-procardis"
+   },
+   {
+    "id": "HSDS",
+    "as_written": "HSDS | Helsinki Sudden Death Study/Tampere Coronary Study",
+    "role": "case-control",
+    "quote_id": "claims/nikpay2015cad_supp_tables.yaml#row-hsds"
+   },
+   {
+    "id": "ADVANCE",
+    "as_written": "AD | ADVANCE",
+    "role": "case-control",
+    "quote_id": "claims/nikpay2015cad_supp_tables.yaml#row-advance"
+   },
+   {
+    "id": "CARDIA",
+    "as_written": "a subset of 479 participants ... from the Coronary Artery Risk Development in Young Adults (CARDIA) study (ADVANCE young control group; whether any are in the 312 GWAS controls is not stated)",
+    "role": "controls_only",
+    "quote_id": "claims/nikpay2015cad_supp_note.yaml#ctrl-advance-cardia"
+   },
+   {
+    "id": "BEIJING_BAS",
+    "as_written": "BEIJING (BAS) | Beijing Atherosclerosis Study",
+    "role": "case-control",
+    "quote_id": "claims/nikpay2015cad_supp_tables.yaml#row-bas"
+   },
+   {
+    "id": "CARDIOGENICS",
+    "as_written": "CD | CARDIOGENICS",
+    "role": "case-control",
+    "quote_id": "claims/nikpay2015cad_supp_tables.yaml#row-cardiogenics"
+   },
+   {
+    "id": "CAMBRIDGE_BIORESOURCE",
+    "as_written": "blood donors recruited as part of the Cambridge Bioresource (CARDIOGENICS controls)",
+    "role": "controls_only",
+    "quote_id": "claims/nikpay2015cad_supp_note.yaml#ctrl-cardiogenics"
+   },
+   {
+    "id": "CHINA_CAS",
+    "as_written": "CHINA (CAS) | China Atherosclerosis Study",
+    "role": "case-control",
+    "quote_id": "claims/nikpay2015cad_supp_tables.yaml#row-cas"
+   },
+   {
+    "id": "INTERASIA",
+    "as_written": "International Collaborative Study of Cardiovascular Disease in Asia (InterASIA in China) (CAS controls)",
+    "role": "controls_only",
+    "quote_id": "claims/nikpay2015cad_supp_note.yaml#ctrl-cas"
+   },
+   {
+    "id": "CCGB",
+    "as_written": "CCGB_2 | Cleveland Clinic Gene Bank",
+    "role": "case-control",
+    "quote_id": "claims/nikpay2015cad_supp_tables.yaml#row-ccgb"
+   },
+   {
+    "id": "COROGENE",
+    "as_written": "COROGENE | The Corogene Study",
+    "role": "case-control",
+    "quote_id": "claims/nikpay2015cad_supp_tables.yaml#row-corogene"
+   },
+   {
+    "id": "DUKE_CATHGEN",
+    "as_written": "DUKE_2 | Duke Cathgen Study",
+    "role": "case-control",
+    "quote_id": "claims/nikpay2015cad_supp_tables.yaml#row-duke"
+   },
+   {
+    "id": "ESTONIAN_BIOBANK",
+    "as_written": "EGCUT | Estonian Genome Center of University of Tartu",
+    "role": "case-control",
+    "quote_id": "claims/nikpay2015cad_supp_tables.yaml#row-egcut"
+   },
+   {
+    "id": "FGENTCARD",
+    "as_written": "FGENTCARD",
+    "role": "case-control",
+    "quote_id": "claims/nikpay2015cad_supp_tables.yaml#row-fgentcard"
+   },
+   {
+    "id": "GENRIC",
+    "as_written": "GENRIC | Genomics Research in Cardiovascular Disease",
+    "role": "case-control",
+    "quote_id": "claims/nikpay2015cad_supp_tables.yaml#row-genric"
+   },
+   {
+    "id": "KOGES_HEXA",
+    "as_written": "HEXA (Health Examinee) ... KoGES (GenRIC controls)",
+    "role": "controls_only",
+    "quote_id": "claims/nikpay2015cad_supp_note.yaml#ctrl-genric"
+   },
+   {
+    "id": "GERMIFS",
+    "as_written": "GERMIFS I, II, III (KORA), IV",
+    "role": "case-control",
+    "quote_id": "claims/nikpay2015cad_supp_tables.yaml#row-germifs1"
+   },
+   {
+    "id": "KORA",
+    "as_written": "GerMIFS III (KORA) cases from the KORA registry; controls from MONICA/KORA Augsburg F4 and KORA S4/F4 (GerMIFS II, III)",
+    "role": "case-control",
+    "quote_id": "claims/nikpay2015cad_supp_note.yaml#germifs3-kora"
+   },
+   {
+    "id": "POPGEN",
+    "as_written": "PopGen blood donor sample 2 (PopGen-BSP) / PopGen (GerMIFS II, III controls)",
+    "role": "controls_only",
+    "quote_id": "claims/nikpay2015cad_supp_note.yaml#ctrl-germifs2"
+   },
+   {
+    "id": "BASE_II",
+    "as_written": "Berlin Aging Study II (BASE-II) (GerMIFS IV controls)",
+    "role": "controls_only",
+    "quote_id": "claims/nikpay2015cad_supp_note.yaml#ctrl-germifs4"
+   },
+   {
+    "id": "GODARTS",
+    "as_written": "GODARTS",
+    "role": "case-control",
+    "quote_id": "claims/nikpay2015cad_supp_tables.yaml#row-godarts"
+   },
+   {
+    "id": "HPS",
+    "as_written": "HPS | MRC/BHF Heart Protection Study",
+    "role": "case-control",
+    "quote_id": "claims/nikpay2015cad_supp_tables.yaml#row-hps"
+   },
+   {
+    "id": "UKBS",
+    "as_written": "WTCCC2 National Blood Service collections (HPS controls); UK National Blood Service donors (WTCCC controls)",
+    "role": "controls_only",
+    "quote_id": "claims/nikpay2015cad_supp_tables.yaml#ctrl-hps"
+   },
+   {
+    "id": "BIOME",
+    "as_written": "IPM_AA / IPM_EA / IPM_HA | MT. SINAI BioMe Biobank Platform",
+    "role": "case-control",
+    "quote_id": "claims/nikpay2015cad_supp_tables.yaml#row-ipm-aa"
+   },
+   {
+    "id": "LOLIPOP",
+    "as_written": "LOLIPOP | London Life Sciences Prospective Population Study",
+    "role": "case-control",
+    "quote_id": "claims/nikpay2015cad_supp_tables.yaml#row-lolipop"
+   },
+   {
+    "id": "LURIC",
+    "as_written": "LURIC",
+    "role": "case-control",
+    "quote_id": "claims/nikpay2015cad_supp_tables.yaml#row-luric"
+   },
+   {
+    "id": "MEDSTAR",
+    "as_written": "MEDSTAR",
+    "role": "case-control",
+    "quote_id": "claims/nikpay2015cad_supp_tables.yaml#row-medstar"
+   },
+   {
+    "id": "ATVB",
+    "as_written": "Italian ATVB Study (MIGen site)",
+    "role": "case-control",
+    "quote_id": "claims/kathiresan2009migen_main.yaml#table1-studies"
+   },
+   {
+    "id": "HARPS",
+    "as_written": "Heart Attack Risk in Puget Sound (MIGen site)",
+    "role": "case-control",
+    "quote_id": "claims/kathiresan2009migen_main.yaml#table1-studies"
+   },
+   {
+    "id": "REGICOR",
+    "as_written": "REGICOR (MIGen site)",
+    "role": "case-control",
+    "quote_id": "claims/kathiresan2009migen_main.yaml#table1-studies"
+   },
+   {
+    "id": "MGH_PCAD",
+    "as_written": "MGH Premature Coronary Artery Disease Study (MIGen site)",
+    "role": "case-control",
+    "quote_id": "claims/kathiresan2009migen_main.yaml#table1-studies"
+   },
+   {
+    "id": "FINRISK",
+    "as_written": "FINRISK (MIGen site); PREDICTCVD | A subset of FINRISK cohort study",
+    "role": "case-control",
+    "quote_id": "claims/nikpay2015cad_supp_tables.yaml#row-predictcvd"
+   },
+   {
+    "id": "MDC",
+    "as_written": "Malmö Diet and Cancer Study (MIGen site)",
+    "role": "case-control",
+    "quote_id": "claims/kathiresan2009migen_main.yaml#table1-studies"
+   },
+   {
+    "id": "OHGS",
+    "as_written": "OHGS_A2 / OHGS_B2 / OHGS_C2 | Ottawa Heart Genetic Study",
+    "role": "case-control",
+    "quote_id": "claims/nikpay2015cad_supp_tables.yaml#row-ohgs-a2"
+   },
+   {
+    "id": "PENNCATH",
+    "as_written": "PENNCATH",
+    "role": "case-control",
+    "quote_id": "claims/nikpay2015cad_supp_tables.yaml#row-penncath"
+   },
+   {
+    "id": "PIVUS",
+    "as_written": "PIVUS",
+    "role": "cohort",
+    "quote_id": "claims/nikpay2015cad_supp_tables.yaml#row-pivus"
+   },
+   {
+    "id": "SDS_AIDHS",
+    "as_written": "SDS/AIDHS | Sikh Diabetes Study/ Asian Indian Diabetic Heart Study",
+    "role": "case-control",
+    "quote_id": "claims/nikpay2015cad_supp_tables.yaml#row-sds"
+   },
+   {
+    "id": "THISEAS",
+    "as_written": "THISEAS",
+    "role": "case-control",
+    "quote_id": "claims/nikpay2015cad_supp_tables.yaml#row-thiseas"
+   },
+   {
+    "id": "TWINGENE",
+    "as_written": "TWINGENE",
+    "role": "cohort",
+    "quote_id": "claims/nikpay2015cad_supp_tables.yaml#row-twingene"
+   },
+   {
+    "id": "ULSAM",
+    "as_written": "ULSAM",
+    "role": "cohort",
+    "quote_id": "claims/nikpay2015cad_supp_tables.yaml#row-ulsam"
+   },
+   {
+    "id": "WTCCC",
+    "as_written": "WTCCC | Wellcome Trust Case Control Consortium (CAD cases)",
+    "role": "case-control",
+    "quote_id": "claims/nikpay2015cad_supp_tables.yaml#row-wtccc"
+   },
+   {
+    "id": "B58C",
+    "as_written": "1958 Birth Cohort (WTCCC controls)",
+    "role": "controls_only",
+    "quote_id": "claims/nikpay2015cad_supp_note.yaml#ctrl-wtccc"
+   },
+   {
+    "id": "PROMIS",
+    "as_written": "PROMIS1 / PROMIS2",
+    "role": "case-control",
+    "quote_id": "claims/nikpay2015cad_supp_tables.yaml#row-promis1"
+   },
+   {
+    "id": "LIFE_HEART",
+    "as_written": "LIFE-HEART",
+    "role": "case-control",
+    "quote_id": "claims/nikpay2015cad_supp_tables.yaml#row-lifeheart"
+   },
+   {
+    "id": "WGHS",
+    "as_written": "WGHS | Women's Genome Health Study",
+    "role": "cohort",
+    "quote_id": "claims/nikpay2015cad_supp_tables.yaml#row-wghs"
+   },
+   {
+    "id": "INTERHEART",
+    "as_written": "ITH_2 | INTERHEART study",
+    "role": "case-control",
+    "quote_id": "claims/nikpay2015cad_supp_tables.yaml#row-ith"
+   },
+   {
+    "id": "MAYO_VDB",
+    "as_written": "MAYO-VDB",
+    "role": "case-control",
+    "quote_id": "claims/nikpay2015cad_supp_tables.yaml#row-mayovdb"
+   },
+   {
+    "id": "AGES",
+    "as_written": "AGES | Age, Gene/Environment Susceptibility–Reykjavik Study",
+    "role": "cohort",
+    "quote_id": "claims/nikpay2015cad_supp_tables.yaml#row-ages"
+   },
+   {
+    "id": "RS",
+    "as_written": "RS | The Rotterdam Study",
+    "role": "cohort",
+    "quote_id": "claims/nikpay2015cad_supp_tables.yaml#row-rs"
+   },
+   {
+    "id": "FHS",
+    "as_written": "FHS | Framingham Heart Study (Original and Offspring)",
+    "role": "cohort",
+    "quote_id": "claims/nikpay2015cad_supp_tables.yaml#row-fhs"
+   },
+   {
+    "id": "FAMHS",
+    "as_written": "FamHS | Family Heart Study (sampled from FHS, Utah Family Tree Study and two ARIC centres)",
+    "role": "cohort",
+    "quote_id": "claims/nikpay2015cad_supp_tables.yaml#row-famhs"
+   },
+   {
+    "id": "UTAH_FAMILY_TREE",
+    "as_written": "the Utah Family Tree Study (FamHS parent study)",
+    "role": "cohort",
+    "quote_id": "claims/nikpay2015cad_supp_note.yaml#famhs-parents"
+   },
+   {
+    "id": "PROSPER",
+    "as_written": "PROSPER",
+    "role": "cohort",
+    "quote_id": "claims/nikpay2015cad_supp_tables.yaml#row-prosper"
+   },
+   {
+    "id": "ARIC",
+    "as_written": "ARIC | Atherosclerosis Risk in Communities",
+    "role": "cohort",
+    "quote_id": "claims/nikpay2015cad_supp_tables.yaml#row-aric"
+   },
+   {
+    "id": "CADOMICS",
+    "as_written": "CADomics Coronary Artery Disease and Omics (controls: 'Population sample')",
+    "role": "case-control",
+    "quote_id": "claims/schunkert2011cardiogram_supp.yaml#row-cadomics"
+   },
+   {
+    "id": "DECODE",
+    "as_written": "deCODE CAD",
+    "role": "case-control",
+    "quote_id": "claims/schunkert2011cardiogram_supp.yaml#row-decode"
+   },
+   {
+    "id": "AMC_PAS",
+    "as_written": "AMC-PAS (Academic Medical Center Amsterdam Premature Atherosclerosis Study)",
+    "role": "case-control",
+    "quote_id": "claims/deloukas2013cad_supp.yaml#row-amc-pas"
+   },
+   {
+    "id": "SANQUIN",
+    "as_written": "Sanquin Blood Bank donors (AMC-PAS controls)",
+    "role": "controls_only",
+    "quote_id": "claims/deloukas2013cad_supp.yaml#ctrl-amc-pas"
+   },
+   {
+    "id": "ANGIO_LUEBECK",
+    "as_written": "Angio-Lueb/KORA F3 (Lübeck Registry of Structural Heart Disease)",
+    "role": "case-control",
+    "quote_id": "claims/deloukas2013cad_supp.yaml#row-angio-lueb-kora"
+   },
+   {
+    "id": "DILGOM",
+    "as_written": "DILGOM",
+    "role": "cohort",
+    "quote_id": "claims/deloukas2013cad_supp.yaml#row-dilgom"
+   },
+   {
+    "id": "EPIC_NORFOLK",
+    "as_written": "EPIC sub-cohorts from the UK, mainly in Cambridgeshire and Norfolk",
+    "role": "case-control",
+    "quote_id": "claims/deloukas2013cad_supp.yaml#epic-uk"
+   },
+   {
+    "id": "FRISCII",
+    "as_written": "FRISCII-GLACIER (FRISC II trial cases)",
+    "role": "case-control",
+    "quote_id": "claims/deloukas2013cad_supp.yaml#row-friscii-glacier"
+   },
+   {
+    "id": "VIP",
+    "as_written": "GLACIER, a subset of the Västerbottens Intervention Project",
+    "role": "controls_only",
+    "quote_id": "claims/deloukas2013cad_supp.yaml#glacier-vip"
+   },
+   {
+    "id": "EMIL",
+    "as_written": "EMIL ... GerBS control series ... blood donors (LURIC-EMIL controls)",
+    "role": "controls_only",
+    "quote_id": "claims/deloukas2013cad_supp.yaml#ctrl-luric-emil"
+   },
+   {
+    "id": "METSIM",
+    "as_written": "METSIM",
+    "role": "cohort",
+    "quote_id": "claims/deloukas2013cad_supp.yaml#row-metsim"
+   },
+   {
+    "id": "MORGAM_FIN",
+    "as_written": "MORGAM-FIN (Southern Finland, North Karelia, Kuopio, Oulu, Turku/Loimaa, Helsinki)",
+    "role": "cohort",
+    "quote_id": "claims/deloukas2013cad_supp.yaml#row-morgam-fin"
+   },
+   {
+    "id": "MORGAM_FRA",
+    "as_written": "MORGAM-FRA (Lille, Strasbourg, Toulouse)",
+    "role": "cohort",
+    "quote_id": "claims/deloukas2013cad_supp.yaml#row-morgam-fra"
+   },
+   {
+    "id": "MORGAM_GER",
+    "as_written": "MORGAM-GER (Augsburg)",
+    "role": "cohort",
+    "quote_id": "claims/deloukas2013cad_supp.yaml#row-morgam-ger"
+   },
+   {
+    "id": "MORGAM_ITA",
+    "as_written": "MORGAM-ITA (Brianza)",
+    "role": "cohort",
+    "quote_id": "claims/deloukas2013cad_supp.yaml#row-morgam-ita"
+   },
+   {
+    "id": "MORGAM_UNK",
+    "as_written": "MORGAM-UNK (Belfast)",
+    "role": "cohort",
+    "quote_id": "claims/deloukas2013cad_supp.yaml#row-morgam-unk"
+   },
+   {
+    "id": "PMB",
+    "as_written": "PMB Pfizer-MGH-Broad (Finland, Sweden); participant source not described",
+    "role": "case-control",
+    "quote_id": "claims/deloukas2013cad_supp.yaml#row-pmb"
+   },
+   {
+    "id": "SCARF_SHEEP",
+    "as_written": "SCARF-SHEEP",
+    "role": "case-control",
+    "quote_id": "claims/deloukas2013cad_supp.yaml#row-scarf-sheep"
+   },
+   {
+    "id": "STR",
+    "as_written": "STR (Swedish Twin Registry)",
+    "role": "cohort",
+    "quote_id": "claims/deloukas2013cad_supp.yaml#row-str"
+   },
+   {
+    "id": "WTCCC_CAD2",
+    "as_written": "WTCCC CAD2 (cases from PRAMIS, SPACE ROCKET, OPERA, BHF-FHS)",
+    "role": "case-control",
+    "quote_id": "claims/deloukas2013cad_supp.yaml#row-wtccc-cad2"
+   },
+   {
+    "id": "EPIC_CVD",
+    "as_written": "EPIC-CVD",
+    "role": "case-control",
+    "quote_id": "claims/howson2017cad_main.yaml#denovo-studies"
+   },
+   {
+    "id": "CCHS",
+    "as_written": "Copenhagen City Heart Study (CCHS)",
+    "role": "cohort",
+    "quote_id": "claims/howson2017cad_main.yaml#denovo-studies"
+   },
+   {
+    "id": "CIHDS",
+    "as_written": "Copenhagen Ischemic Heart Disease Study (CIHDS)",
+    "role": "case-control",
+    "quote_id": "claims/howson2017cad_main.yaml#denovo-studies"
+   },
+   {
+    "id": "CGPS",
+    "as_written": "Copenhagen General Population Study (CGPS)",
+    "role": "controls_only",
+    "quote_id": "claims/howson2017cad_supp.yaml#ctrl-cihds"
+   },
+   {
+    "id": "BRAVE",
+    "as_written": "Bangladesh Risk of Acute Vascular Events (BRAVE)",
+    "role": "case-control",
+    "quote_id": "claims/howson2017cad_main.yaml#denovo-sas"
+   },
+   {
+    "id": "TCAGEN",
+    "as_written": "Taiwan Coronary Artery Disease GENetic (TCAGEN) study (TAICHI)",
+    "role": "case-control",
+    "quote_id": "claims/howson2017cad_supp.yaml#taichi-1"
+   },
+   {
+    "id": "TCAD",
+    "as_written": "Taichung CAD (TCAD) study (TAICHI)",
+    "role": "case-control",
+    "quote_id": "claims/howson2017cad_supp.yaml#taichi-2"
+   },
+   {
+    "id": "TACT",
+    "as_written": "TAiwan Coronary and Transcatheter intervention (TACT) (TAICHI)",
+    "role": "case-control",
+    "quote_id": "claims/howson2017cad_supp.yaml#taichi-3"
+   },
+   {
+    "id": "TAIWAN_DRAGON",
+    "as_written": "Taiwan DRAGON (TAICHI)",
+    "role": "cohort",
+    "quote_id": "claims/howson2017cad_supp.yaml#taichi-4"
+   },
+   {
+    "id": "TUDR",
+    "as_written": "Taiwan USA Diabetes Retinopathy (TUDR) (TAICHI)",
+    "role": "cohort",
+    "quote_id": "claims/howson2017cad_supp.yaml#taichi-5"
+   },
+   {
+    "id": "HALST",
+    "as_written": "Healthy Aging Longitudinal Study in Taiwan (HALST) (TAICHI)",
+    "role": "controls_only",
+    "quote_id": "claims/howson2017cad_supp.yaml#taichi-6"
+   },
+   {
+    "id": "SAPPHIRE",
+    "as_written": "SAPPHIRe (TAICHI)",
+    "role": "controls_only",
+    "quote_id": "claims/howson2017cad_supp.yaml#taichi-7"
+   },
+   {
+    "id": "WHI",
+    "as_written": "Women’s Health Initiative (WHI) African American women",
+    "role": "cohort",
+    "quote_id": "claims/howson2017cad_main.yaml#denovo-aa"
+   },
+   {
+    "id": "MESA",
+    "as_written": "Multi-ethnic Study of Atherosclerosis (MESA) (MIGen AA)",
+    "role": "case-control",
+    "quote_id": "claims/howson2017cad_supp.yaml#migen-aa"
+   },
+   {
+    "id": "INVEST",
+    "as_written": "International Verapamil SR/Trandolapril Study (INVEST) (MIGen AA)",
+    "role": "case-control",
+    "quote_id": "claims/howson2017cad_supp.yaml#migen-aa"
+   },
+   {
+    "id": "TRIUMPH",
+    "as_written": "TRIUMPH (MIGen AA)",
+    "role": "case-control",
+    "quote_id": "claims/howson2017cad_supp.yaml#migen-aa"
+   },
+   {
+    "id": "PENN_MEDICINE_BIOBANK",
+    "as_written": "Penn Medicine Biobank (MIGen AA)",
+    "role": "case-control",
+    "quote_id": "claims/howson2017cad_supp.yaml#migen-aa"
+   },
+   {
+    "id": "EMORY_GENEBANK",
+    "as_written": "Emory GeneBank (MIGen AA)",
+    "role": "case-control",
+    "quote_id": "claims/howson2017cad_supp.yaml#migen-aa"
+   }
+  ],
+  "replication_only": [
+   "FINCAVAS (Deloukas 2013 stage 3 only; COROGENE and GenRIC, also stage 3 there, enter through Nikpay 2015)"
+  ],
+  "components_complete": "no",
+  "complete_reason": "Every layer was resolved to studies (UKB; Nikpay 2015 48 studies; Deloukas 2013 stage 1 = CARDIoGRAM 2011 14 GWAS via Schunkert 2011 Supplementary Table 1a, stage 2 = 34 studies in Supplementary Table 1a; Howson 2017 de novo studies incl. TAICHI 7 and MIGen-AA 6). Missing: Deloukas 2013 stage-2 study PMB (Pfizer-MGH-Broad, recruitment 'Finland, Sweden') has no description of which cohorts its participants come from. Also, the CARDIoGRAMplusC4D Metabochip summary statistics (Deloukas stage 1+2) are taken to be the dataset Howson meta-analysed; Howson states only 'meta-analysed with those reported by CARDIoGRAMplusC4D at 79,070 SNPs'.",
+  "includes_ukb": "yes",
+  "includes_iceland": "yes",
+  "pqtl_cohort_flags": {
+   "INTERVAL": "unknown",
+   "FENLAND": "unknown",
+   "ARIC": "yes",
+   "AGES": "yes",
+   "KORA": "yes",
+   "FHS": "yes",
+   "IMPROVE": "unknown",
+   "DECODE": "yes",
+   "UKB": "yes"
+  },
+  "ancestry": "Predominantly European; CARDIoGRAMplusC4D parts include South Asian, East Asian, African American and Hispanic samples",
+  "sample_size": "UKB 34,541 cases/261,984 controls; CARDIoGRAMplusC4D up to 88,192 cases/162,544 controls (Metabochip) and 60,801/123,504 (1000G)",
+  "source_read": "PMC5805277 fullTextXML (abstract, Methods, Results, reference list); PMC5805277 supplementaryFiles res-122-433-s001.pdf (Online Data Supplement methods and overlap table); Howson 2017 PMC5555387 (efetch) and 41588_2017_BFng3874_MOESM1_ESM.pdf (study descriptions); Deloukas 2013 41588_2013_BFng2480_MOESM9_ESM.pdf (Supplementary Tables 1a/1b/2a, study descriptions); Schunkert 2011 41588_2011_BFng784_MOESM10_ESM.pdf (Supplementary Tables 1a/1b); Nikpay 2015 sources as in that row",
+  "claims_files": [
+   "claims/vanderharst2018cad_main.yaml",
+   "claims/vanderharst2018cad_supp.yaml",
+   "claims/vanderharst2018cad_refs.yaml",
+   "claims/howson2017cad_main.yaml",
+   "claims/howson2017cad_supp.yaml",
+   "claims/deloukas2013cad_supp.yaml",
+   "claims/schunkert2011cardiogram_supp.yaml",
+   "claims/nikpay2015cad_supp_tables.yaml",
+   "claims/nikpay2015cad_supp_note.yaml",
+   "claims/kathiresan2009migen_main.yaml"
+  ],
+  "notes": "Main-text ref 9 ('meta-analysis of CARDIoGRAMplusC4D9') is Howson 2017 (claims/vanderharst2018cad_refs.yaml#ref9-howson); the supplement says 'the 1000Genomes4+ study6' (ref 6 = Howson). Iceland via deCODE (CARDIoGRAM stage 1) and AGES. The supplement estimates UKB/CARDIoGRAM UK-participant overlap at <0.1%; that does not change composition. CADomics controls are described only as 'Population sample' (claims/schunkert2011cardiogram_supp.yaml#ctrl-cadomics)."
+ },
+ {
+  "row_name": "CAD UK Biobank GWAS (van der Harst 2018)",
+  "new_row": true,
+  "side": "outcome",
+  "aliases_proposed": "van der Harst 2018 UK Biobank CAD|UKB CAD van der Harst",
+  "release": "UK Biobank-only BOLT-LMM GWAS of CAD (34,541 cases, 261,984 controls), posted separately at cardiomics.net / Mendeley doi:10.17632/2zdd47c94h.1",
+  "source_citation": "van der Harst P, Verweij N. 2018. Circ Res 122:433-443",
+  "source_identifier": "doi:10.1161/CIRCRESAHA.117.312086; PMID:29212778; PMC5805277",
+  "components": [
+   {
+    "id": "UKB",
+    "as_written": "UK Biobank resource",
+    "role": "cohort",
+    "quote_id": "claims/vanderharst2018cad_main.yaml#ukb-gwas"
+   }
+  ],
+  "replication_only": [],
+  "components_complete": "yes",
+  "complete_reason": "Single-cohort GWAS of UK Biobank; the paper states summary statistics of all SNPs in UK Biobank are released alongside the meta-analysis.",
+  "includes_ukb": "yes",
+  "includes_iceland": "no",
+  "pqtl_cohort_flags": {
+   "INTERVAL": "no",
+   "FENLAND": "no",
+   "ARIC": "no",
+   "AGES": "no",
+   "KORA": "no",
+   "FHS": "no",
+   "IMPROVE": "no",
+   "DECODE": "no",
+   "UKB": "yes"
+  },
+  "ancestry": "European (UK Biobank)",
+  "sample_size": "34,541 cases; 261,984 controls",
+  "source_read": "PMC5805277 fullTextXML (Abstract, Methods, Results)",
+  "claims_files": [
+   "claims/vanderharst2018cad_main.yaml"
+  ],
+  "notes": "Mendeley DOIs are both stated; which DOI holds which file is not stated in the text read."
+ },
+ {
+  "row_name": "CAD GWAS (Aragam 2022)",
+  "new_row": false,
+  "side": "outcome",
+  "aliases_proposed": "",
+  "release": "Primary (predominantly European) meta-analysis: ten de novo studies + CARDIoGRAMplusC4D summary statistics (per variant from 1000G, Metabochip or exome-array meta-analysis); 181,522 cases among 1,165,690 participants; one of GWAS Catalog GCST90132314/GCST90132315",
+  "components": [
+   {
+    "id": "DECODE",
+    "as_written": "deCODE",
+    "role": "cohort",
+    "quote_id": "claims/aragam2022cad_supp_table1.yaml#studies"
+   },
+   {
+    "id": "EPIC_CVD",
+    "as_written": "EPIC-CVD",
+    "role": "case-control",
+    "quote_id": "claims/aragam2022cad_supp_table1.yaml#studies"
+   },
+   {
+    "id": "GERMIFS",
+    "as_written": "GerMIFS5, GerMIFS6, GerMIFS7",
+    "role": "case-control",
+    "quote_id": "claims/aragam2022cad_supp_table1.yaml#studies"
+   },
+   {
+    "id": "KORA",
+    "as_written": "Cooperative Health Research in the Augsburg Region (GerMIFS V controls)",
+    "role": "controls_only",
+    "quote_id": "claims/aragam2022cad_supp_note.yaml#ctrl-germifs5"
+   },
+   {
+    "id": "HNR",
+    "as_written": "Heinz-Nixdorf-Recall Study (GerMIFS VII controls)",
+    "role": "controls_only",
+    "quote_id": "claims/aragam2022cad_supp_note.yaml#ctrl-germifs7"
+   },
+   {
+    "id": "GREEK_GCC",
+    "as_written": "Greek Coronary Disease cohort",
+    "role": "case-control",
+    "quote_id": "claims/aragam2022cad_supp_table1.yaml#studies"
+   },
+   {
+    "id": "TEENAGE",
+    "as_written": "TEENs of Attica: Gene and Environment study (TEENAGE) (GCC controls)",
+    "role": "controls_only",
+    "quote_id": "claims/aragam2022cad_supp_note.yaml#ctrl-gcc"
+   },
+   {
+    "id": "GREEK_NAFLD",
+    "as_written": "Non-alcoholic Fatty Liver Disease study (NAFLD) case-control study (GCC controls)",
+    "role": "controls_only",
+    "quote_id": "claims/aragam2022cad_supp_note.yaml#ctrl-gcc"
+   },
+   {
+    "id": "HUNT",
+    "as_written": "HUNT",
+    "role": "cohort",
+    "quote_id": "claims/aragam2022cad_supp_table1.yaml#studies"
+   },
+   {
+    "id": "MGB_BIOBANK",
+    "as_written": "Mass General Brigham Biobank",
+    "role": "cohort",
+    "quote_id": "claims/aragam2022cad_supp_table1.yaml#studies"
+   },
+   {
+    "id": "TIMI",
+    "as_written": "TIMI (PEGASUS-TIMI 54, ENGAGE AF-TIMI 48, SAVOR-TIMI 53)",
+    "role": "case-control",
+    "quote_id": "claims/aragam2022cad_supp_note.yaml#timi-trials"
+   },
+   {
+    "id": "UKB",
+    "as_written": "UK Biobank",
+    "role": "cohort",
+    "quote_id": "claims/aragam2022cad_supp_table1.yaml#studies"
+   },
+   {
+    "id": "PROCARDIS",
+    "as_written": "PC | PROCARDIS | Precocious Coronary Artery Disease",
+    "role": "case-control",
+    "quote_id": "claims/nikpay2015cad_supp_tables.yaml#row-procardis"
+   },
+   {
+    "id": "POBI",
+    "as_written": "People of British Isles (PoBI) (PROCARDIS controls)",
+    "role": "controls_only",
+    "quote_id": "claims/nikpay2015cad_supp_tables.yaml#ctrl-procardis"
+   },
+   {
+    "id": "TWINSUK",
+    "as_written": "UK Twin Study (PROCARDIS and HPS controls)",
+    "role": "controls_only",
+    "quote_id": "claims/nikpay2015cad_supp_tables.yaml#ctrl-procardis"
+   },
+   {
+    "id": "HSDS",
+    "as_written": "HSDS | Helsinki Sudden Death Study/Tampere Coronary Study",
+    "role": "case-control",
+    "quote_id": "claims/nikpay2015cad_supp_tables.yaml#row-hsds"
+   },
+   {
+    "id": "ADVANCE",
+    "as_written": "AD | ADVANCE",
+    "role": "case-control",
+    "quote_id": "claims/nikpay2015cad_supp_tables.yaml#row-advance"
+   },
+   {
+    "id": "CARDIA",
+    "as_written": "a subset of 479 participants ... from the Coronary Artery Risk Development in Young Adults (CARDIA) study (ADVANCE young control group; whether any are in the 312 GWAS controls is not stated)",
+    "role": "controls_only",
+    "quote_id": "claims/nikpay2015cad_supp_note.yaml#ctrl-advance-cardia"
+   },
+   {
+    "id": "BEIJING_BAS",
+    "as_written": "BEIJING (BAS) | Beijing Atherosclerosis Study",
+    "role": "case-control",
+    "quote_id": "claims/nikpay2015cad_supp_tables.yaml#row-bas"
+   },
+   {
+    "id": "CARDIOGENICS",
+    "as_written": "CD | CARDIOGENICS",
+    "role": "case-control",
+    "quote_id": "claims/nikpay2015cad_supp_tables.yaml#row-cardiogenics"
+   },
+   {
+    "id": "CAMBRIDGE_BIORESOURCE",
+    "as_written": "blood donors recruited as part of the Cambridge Bioresource (CARDIOGENICS controls)",
+    "role": "controls_only",
+    "quote_id": "claims/nikpay2015cad_supp_note.yaml#ctrl-cardiogenics"
+   },
+   {
+    "id": "CHINA_CAS",
+    "as_written": "CHINA (CAS) | China Atherosclerosis Study",
+    "role": "case-control",
+    "quote_id": "claims/nikpay2015cad_supp_tables.yaml#row-cas"
+   },
+   {
+    "id": "INTERASIA",
+    "as_written": "International Collaborative Study of Cardiovascular Disease in Asia (InterASIA in China) (CAS controls)",
+    "role": "controls_only",
+    "quote_id": "claims/nikpay2015cad_supp_note.yaml#ctrl-cas"
+   },
+   {
+    "id": "CCGB",
+    "as_written": "CCGB_2 | Cleveland Clinic Gene Bank",
+    "role": "case-control",
+    "quote_id": "claims/nikpay2015cad_supp_tables.yaml#row-ccgb"
+   },
+   {
+    "id": "COROGENE",
+    "as_written": "COROGENE | The Corogene Study",
+    "role": "case-control",
+    "quote_id": "claims/nikpay2015cad_supp_tables.yaml#row-corogene"
+   },
+   {
+    "id": "DUKE_CATHGEN",
+    "as_written": "DUKE_2 | Duke Cathgen Study",
+    "role": "case-control",
+    "quote_id": "claims/nikpay2015cad_supp_tables.yaml#row-duke"
+   },
+   {
+    "id": "ESTONIAN_BIOBANK",
+    "as_written": "EGCUT | Estonian Genome Center of University of Tartu",
+    "role": "case-control",
+    "quote_id": "claims/nikpay2015cad_supp_tables.yaml#row-egcut"
+   },
+   {
+    "id": "FGENTCARD",
+    "as_written": "FGENTCARD",
+    "role": "case-control",
+    "quote_id": "claims/nikpay2015cad_supp_tables.yaml#row-fgentcard"
+   },
+   {
+    "id": "GENRIC",
+    "as_written": "GENRIC | Genomics Research in Cardiovascular Disease",
+    "role": "case-control",
+    "quote_id": "claims/nikpay2015cad_supp_tables.yaml#row-genric"
+   },
+   {
+    "id": "KOGES_HEXA",
+    "as_written": "HEXA (Health Examinee) ... KoGES (GenRIC controls)",
+    "role": "controls_only",
+    "quote_id": "claims/nikpay2015cad_supp_note.yaml#ctrl-genric"
+   },
+   {
+    "id": "POPGEN",
+    "as_written": "PopGen blood donor sample 2 (PopGen-BSP) / PopGen (GerMIFS II, III controls)",
+    "role": "controls_only",
+    "quote_id": "claims/nikpay2015cad_supp_note.yaml#ctrl-germifs2"
+   },
+   {
+    "id": "BASE_II",
+    "as_written": "Berlin Aging Study II (BASE-II) (GerMIFS IV controls)",
+    "role": "controls_only",
+    "quote_id": "claims/nikpay2015cad_supp_note.yaml#ctrl-germifs4"
+   },
+   {
+    "id": "GODARTS",
+    "as_written": "GODARTS",
+    "role": "case-control",
+    "quote_id": "claims/nikpay2015cad_supp_tables.yaml#row-godarts"
+   },
+   {
+    "id": "HPS",
+    "as_written": "HPS | MRC/BHF Heart Protection Study",
+    "role": "case-control",
+    "quote_id": "claims/nikpay2015cad_supp_tables.yaml#row-hps"
+   },
+   {
+    "id": "UKBS",
+    "as_written": "WTCCC2 National Blood Service collections (HPS controls); UK National Blood Service donors (WTCCC controls)",
+    "role": "controls_only",
+    "quote_id": "claims/nikpay2015cad_supp_tables.yaml#ctrl-hps"
+   },
+   {
+    "id": "BIOME",
+    "as_written": "IPM_AA / IPM_EA / IPM_HA | MT. SINAI BioMe Biobank Platform",
+    "role": "case-control",
+    "quote_id": "claims/nikpay2015cad_supp_tables.yaml#row-ipm-aa"
+   },
+   {
+    "id": "LOLIPOP",
+    "as_written": "LOLIPOP | London Life Sciences Prospective Population Study",
+    "role": "case-control",
+    "quote_id": "claims/nikpay2015cad_supp_tables.yaml#row-lolipop"
+   },
+   {
+    "id": "LURIC",
+    "as_written": "LURIC",
+    "role": "case-control",
+    "quote_id": "claims/nikpay2015cad_supp_tables.yaml#row-luric"
+   },
+   {
+    "id": "MEDSTAR",
+    "as_written": "MEDSTAR",
+    "role": "case-control",
+    "quote_id": "claims/nikpay2015cad_supp_tables.yaml#row-medstar"
+   },
+   {
+    "id": "ATVB",
+    "as_written": "Italian ATVB Study (MIGen site)",
+    "role": "case-control",
+    "quote_id": "claims/kathiresan2009migen_main.yaml#table1-studies"
+   },
+   {
+    "id": "HARPS",
+    "as_written": "Heart Attack Risk in Puget Sound (MIGen site)",
+    "role": "case-control",
+    "quote_id": "claims/kathiresan2009migen_main.yaml#table1-studies"
+   },
+   {
+    "id": "REGICOR",
+    "as_written": "REGICOR (MIGen site)",
+    "role": "case-control",
+    "quote_id": "claims/kathiresan2009migen_main.yaml#table1-studies"
+   },
+   {
+    "id": "MGH_PCAD",
+    "as_written": "MGH Premature Coronary Artery Disease Study (MIGen site)",
+    "role": "case-control",
+    "quote_id": "claims/kathiresan2009migen_main.yaml#table1-studies"
+   },
+   {
+    "id": "FINRISK",
+    "as_written": "FINRISK (MIGen site); PREDICTCVD | A subset of FINRISK cohort study",
+    "role": "case-control",
+    "quote_id": "claims/nikpay2015cad_supp_tables.yaml#row-predictcvd"
+   },
+   {
+    "id": "MDC",
+    "as_written": "Malmö Diet and Cancer Study (MIGen site)",
+    "role": "case-control",
+    "quote_id": "claims/kathiresan2009migen_main.yaml#table1-studies"
+   },
+   {
+    "id": "OHGS",
+    "as_written": "OHGS_A2 / OHGS_B2 / OHGS_C2 | Ottawa Heart Genetic Study",
+    "role": "case-control",
+    "quote_id": "claims/nikpay2015cad_supp_tables.yaml#row-ohgs-a2"
+   },
+   {
+    "id": "PENNCATH",
+    "as_written": "PENNCATH",
+    "role": "case-control",
+    "quote_id": "claims/nikpay2015cad_supp_tables.yaml#row-penncath"
+   },
+   {
+    "id": "PIVUS",
+    "as_written": "PIVUS",
+    "role": "cohort",
+    "quote_id": "claims/nikpay2015cad_supp_tables.yaml#row-pivus"
+   },
+   {
+    "id": "SDS_AIDHS",
+    "as_written": "SDS/AIDHS | Sikh Diabetes Study/ Asian Indian Diabetic Heart Study",
+    "role": "case-control",
+    "quote_id": "claims/nikpay2015cad_supp_tables.yaml#row-sds"
+   },
+   {
+    "id": "THISEAS",
+    "as_written": "THISEAS",
+    "role": "case-control",
+    "quote_id": "claims/nikpay2015cad_supp_tables.yaml#row-thiseas"
+   },
+   {
+    "id": "TWINGENE",
+    "as_written": "TWINGENE",
+    "role": "cohort",
+    "quote_id": "claims/nikpay2015cad_supp_tables.yaml#row-twingene"
+   },
+   {
+    "id": "ULSAM",
+    "as_written": "ULSAM",
+    "role": "cohort",
+    "quote_id": "claims/nikpay2015cad_supp_tables.yaml#row-ulsam"
+   },
+   {
+    "id": "WTCCC",
+    "as_written": "WTCCC | Wellcome Trust Case Control Consortium (CAD cases)",
+    "role": "case-control",
+    "quote_id": "claims/nikpay2015cad_supp_tables.yaml#row-wtccc"
+   },
+   {
+    "id": "B58C",
+    "as_written": "1958 Birth Cohort (WTCCC controls)",
+    "role": "controls_only",
+    "quote_id": "claims/nikpay2015cad_supp_note.yaml#ctrl-wtccc"
+   },
+   {
+    "id": "PROMIS",
+    "as_written": "PROMIS1 / PROMIS2",
+    "role": "case-control",
+    "quote_id": "claims/nikpay2015cad_supp_tables.yaml#row-promis1"
+   },
+   {
+    "id": "LIFE_HEART",
+    "as_written": "LIFE-HEART",
+    "role": "case-control",
+    "quote_id": "claims/nikpay2015cad_supp_tables.yaml#row-lifeheart"
+   },
+   {
+    "id": "WGHS",
+    "as_written": "WGHS | Women's Genome Health Study",
+    "role": "cohort",
+    "quote_id": "claims/nikpay2015cad_supp_tables.yaml#row-wghs"
+   },
+   {
+    "id": "INTERHEART",
+    "as_written": "ITH_2 | INTERHEART study",
+    "role": "case-control",
+    "quote_id": "claims/nikpay2015cad_supp_tables.yaml#row-ith"
+   },
+   {
+    "id": "MAYO_VDB",
+    "as_written": "MAYO-VDB",
+    "role": "case-control",
+    "quote_id": "claims/nikpay2015cad_supp_tables.yaml#row-mayovdb"
+   },
+   {
+    "id": "AGES",
+    "as_written": "AGES | Age, Gene/Environment Susceptibility–Reykjavik Study",
+    "role": "cohort",
+    "quote_id": "claims/nikpay2015cad_supp_tables.yaml#row-ages"
+   },
+   {
+    "id": "RS",
+    "as_written": "RS | The Rotterdam Study",
+    "role": "cohort",
+    "quote_id": "claims/nikpay2015cad_supp_tables.yaml#row-rs"
+   },
+   {
+    "id": "FHS",
+    "as_written": "FHS | Framingham Heart Study (Original and Offspring)",
+    "role": "cohort",
+    "quote_id": "claims/nikpay2015cad_supp_tables.yaml#row-fhs"
+   },
+   {
+    "id": "FAMHS",
+    "as_written": "FamHS | Family Heart Study (sampled from FHS, Utah Family Tree Study and two ARIC centres)",
+    "role": "cohort",
+    "quote_id": "claims/nikpay2015cad_supp_tables.yaml#row-famhs"
+   },
+   {
+    "id": "UTAH_FAMILY_TREE",
+    "as_written": "the Utah Family Tree Study (FamHS parent study)",
+    "role": "cohort",
+    "quote_id": "claims/nikpay2015cad_supp_note.yaml#famhs-parents"
+   },
+   {
+    "id": "PROSPER",
+    "as_written": "PROSPER",
+    "role": "cohort",
+    "quote_id": "claims/nikpay2015cad_supp_tables.yaml#row-prosper"
+   },
+   {
+    "id": "ARIC",
+    "as_written": "ARIC | Atherosclerosis Risk in Communities",
+    "role": "cohort",
+    "quote_id": "claims/nikpay2015cad_supp_tables.yaml#row-aric"
+   },
+   {
+    "id": "CADOMICS",
+    "as_written": "CADomics Coronary Artery Disease and Omics (controls: 'Population sample')",
+    "role": "case-control",
+    "quote_id": "claims/schunkert2011cardiogram_supp.yaml#row-cadomics"
+   },
+   {
+    "id": "AMC_PAS",
+    "as_written": "AMC-PAS (Academic Medical Center Amsterdam Premature Atherosclerosis Study)",
+    "role": "case-control",
+    "quote_id": "claims/deloukas2013cad_supp.yaml#row-amc-pas"
+   },
+   {
+    "id": "SANQUIN",
+    "as_written": "Sanquin Blood Bank donors (AMC-PAS controls)",
+    "role": "controls_only",
+    "quote_id": "claims/deloukas2013cad_supp.yaml#ctrl-amc-pas"
+   },
+   {
+    "id": "ANGIO_LUEBECK",
+    "as_written": "Angio-Lueb/KORA F3 (Lübeck Registry of Structural Heart Disease)",
+    "role": "case-control",
+    "quote_id": "claims/deloukas2013cad_supp.yaml#row-angio-lueb-kora"
+   },
+   {
+    "id": "DILGOM",
+    "as_written": "DILGOM",
+    "role": "cohort",
+    "quote_id": "claims/deloukas2013cad_supp.yaml#row-dilgom"
+   },
+   {
+    "id": "EPIC_NORFOLK",
+    "as_written": "EPIC sub-cohorts from the UK, mainly in Cambridgeshire and Norfolk",
+    "role": "case-control",
+    "quote_id": "claims/deloukas2013cad_supp.yaml#epic-uk"
+   },
+   {
+    "id": "FRISCII",
+    "as_written": "FRISCII-GLACIER (FRISC II trial cases)",
+    "role": "case-control",
+    "quote_id": "claims/deloukas2013cad_supp.yaml#row-friscii-glacier"
+   },
+   {
+    "id": "VIP",
+    "as_written": "GLACIER, a subset of the Västerbottens Intervention Project",
+    "role": "controls_only",
+    "quote_id": "claims/deloukas2013cad_supp.yaml#glacier-vip"
+   },
+   {
+    "id": "EMIL",
+    "as_written": "EMIL ... GerBS control series ... blood donors (LURIC-EMIL controls)",
+    "role": "controls_only",
+    "quote_id": "claims/deloukas2013cad_supp.yaml#ctrl-luric-emil"
+   },
+   {
+    "id": "METSIM",
+    "as_written": "METSIM",
+    "role": "cohort",
+    "quote_id": "claims/deloukas2013cad_supp.yaml#row-metsim"
+   },
+   {
+    "id": "MORGAM_FIN",
+    "as_written": "MORGAM-FIN (Southern Finland, North Karelia, Kuopio, Oulu, Turku/Loimaa, Helsinki)",
+    "role": "cohort",
+    "quote_id": "claims/deloukas2013cad_supp.yaml#row-morgam-fin"
+   },
+   {
+    "id": "MORGAM_FRA",
+    "as_written": "MORGAM-FRA (Lille, Strasbourg, Toulouse)",
+    "role": "cohort",
+    "quote_id": "claims/deloukas2013cad_supp.yaml#row-morgam-fra"
+   },
+   {
+    "id": "MORGAM_GER",
+    "as_written": "MORGAM-GER (Augsburg)",
+    "role": "cohort",
+    "quote_id": "claims/deloukas2013cad_supp.yaml#row-morgam-ger"
+   },
+   {
+    "id": "MORGAM_ITA",
+    "as_written": "MORGAM-ITA (Brianza)",
+    "role": "cohort",
+    "quote_id": "claims/deloukas2013cad_supp.yaml#row-morgam-ita"
+   },
+   {
+    "id": "MORGAM_UNK",
+    "as_written": "MORGAM-UNK (Belfast)",
+    "role": "cohort",
+    "quote_id": "claims/deloukas2013cad_supp.yaml#row-morgam-unk"
+   },
+   {
+    "id": "PMB",
+    "as_written": "PMB Pfizer-MGH-Broad (Finland, Sweden); participant source not described",
+    "role": "case-control",
+    "quote_id": "claims/deloukas2013cad_supp.yaml#row-pmb"
+   },
+   {
+    "id": "SCARF_SHEEP",
+    "as_written": "SCARF-SHEEP",
+    "role": "case-control",
+    "quote_id": "claims/deloukas2013cad_supp.yaml#row-scarf-sheep"
+   },
+   {
+    "id": "STR",
+    "as_written": "STR (Swedish Twin Registry)",
+    "role": "cohort",
+    "quote_id": "claims/deloukas2013cad_supp.yaml#row-str"
+   },
+   {
+    "id": "WTCCC_CAD2",
+    "as_written": "WTCCC CAD2 (cases from PRAMIS, SPACE ROCKET, OPERA, BHF-FHS)",
+    "role": "case-control",
+    "quote_id": "claims/deloukas2013cad_supp.yaml#row-wtccc-cad2"
+   },
+   {
+    "id": "CCHS",
+    "as_written": "Copenhagen City Heart Study (CCHS)",
+    "role": "cohort",
+    "quote_id": "claims/howson2017cad_main.yaml#denovo-studies"
+   },
+   {
+    "id": "CIHDS",
+    "as_written": "Copenhagen Ischemic Heart Disease Study (CIHDS)",
+    "role": "case-control",
+    "quote_id": "claims/howson2017cad_main.yaml#denovo-studies"
+   },
+   {
+    "id": "CGPS",
+    "as_written": "Copenhagen General Population Study (CGPS)",
+    "role": "controls_only",
+    "quote_id": "claims/howson2017cad_supp.yaml#ctrl-cihds"
+   },
+   {
+    "id": "BRAVE",
+    "as_written": "Bangladesh Risk of Acute Vascular Events (BRAVE)",
+    "role": "case-control",
+    "quote_id": "claims/howson2017cad_main.yaml#denovo-sas"
+   },
+   {
+    "id": "TCAGEN",
+    "as_written": "Taiwan Coronary Artery Disease GENetic (TCAGEN) study (TAICHI)",
+    "role": "case-control",
+    "quote_id": "claims/howson2017cad_supp.yaml#taichi-1"
+   },
+   {
+    "id": "TCAD",
+    "as_written": "Taichung CAD (TCAD) study (TAICHI)",
+    "role": "case-control",
+    "quote_id": "claims/howson2017cad_supp.yaml#taichi-2"
+   },
+   {
+    "id": "TACT",
+    "as_written": "TAiwan Coronary and Transcatheter intervention (TACT) (TAICHI)",
+    "role": "case-control",
+    "quote_id": "claims/howson2017cad_supp.yaml#taichi-3"
+   },
+   {
+    "id": "TAIWAN_DRAGON",
+    "as_written": "Taiwan DRAGON (TAICHI)",
+    "role": "cohort",
+    "quote_id": "claims/howson2017cad_supp.yaml#taichi-4"
+   },
+   {
+    "id": "TUDR",
+    "as_written": "Taiwan USA Diabetes Retinopathy (TUDR) (TAICHI)",
+    "role": "cohort",
+    "quote_id": "claims/howson2017cad_supp.yaml#taichi-5"
+   },
+   {
+    "id": "HALST",
+    "as_written": "Healthy Aging Longitudinal Study in Taiwan (HALST) (TAICHI)",
+    "role": "controls_only",
+    "quote_id": "claims/howson2017cad_supp.yaml#taichi-6"
+   },
+   {
+    "id": "SAPPHIRE",
+    "as_written": "SAPPHIRe (TAICHI)",
+    "role": "controls_only",
+    "quote_id": "claims/howson2017cad_supp.yaml#taichi-7"
+   },
+   {
+    "id": "WHI",
+    "as_written": "Women’s Health Initiative (WHI) African American women",
+    "role": "cohort",
+    "quote_id": "claims/howson2017cad_main.yaml#denovo-aa"
+   },
+   {
+    "id": "MESA",
+    "as_written": "Multi-ethnic Study of Atherosclerosis (MESA) (MIGen AA)",
+    "role": "case-control",
+    "quote_id": "claims/howson2017cad_supp.yaml#migen-aa"
+   },
+   {
+    "id": "INVEST",
+    "as_written": "International Verapamil SR/Trandolapril Study (INVEST) (MIGen AA)",
+    "role": "case-control",
+    "quote_id": "claims/howson2017cad_supp.yaml#migen-aa"
+   },
+   {
+    "id": "TRIUMPH",
+    "as_written": "TRIUMPH (MIGen AA)",
+    "role": "case-control",
+    "quote_id": "claims/howson2017cad_supp.yaml#migen-aa"
+   },
+   {
+    "id": "PENN_MEDICINE_BIOBANK",
+    "as_written": "Penn Medicine Biobank (MIGen AA)",
+    "role": "case-control",
+    "quote_id": "claims/howson2017cad_supp.yaml#migen-aa"
+   },
+   {
+    "id": "EMORY_GENEBANK",
+    "as_written": "Emory GeneBank (MIGen AA)",
+    "role": "case-control",
+    "quote_id": "claims/howson2017cad_supp.yaml#migen-aa"
+   },
+   {
+    "id": "BHF_FHS",
+    "as_written": "BHF-FHS cases (supplemented by WTCCC-CAD2 cases); controls UK 1958 Birth Cohort",
+    "role": "case-control",
+    "quote_id": "claims/webb2017cad_supp.yaml#row-bhf-fhs"
+   },
+   {
+    "id": "BIOVU",
+    "as_written": "BioVU",
+    "role": "case-control",
+    "quote_id": "claims/webb2017cad_supp.yaml#row-biovu"
+   },
+   {
+    "id": "MONICA_NORTHERN_SWEDEN",
+    "as_written": "FIA3: WHO MONICA study in northern Sweden",
+    "role": "case-control",
+    "quote_id": "claims/webb2017cad_supp.yaml#row-fia3"
+   },
+   {
+    "id": "MSP_VASTERBOTTEN",
+    "as_written": "FIA3: Mammography Screening Project (MSP) in Vasterbotten",
+    "role": "case-control",
+    "quote_id": "claims/webb2017cad_supp.yaml#row-fia3"
+   },
+   {
+    "id": "GERMAN_POPULATION_CONTROLS_UNNAMED",
+    "as_written": "German CAD North/South: Controls were derived from population-based studies in Germany.",
+    "role": "controls_only",
+    "quote_id": "claims/webb2017cad_supp.yaml#row-german-north"
+   },
+   {
+    "id": "MUNICH_MI",
+    "as_written": "German CAD South: Munich-MI",
+    "role": "case-control",
+    "quote_id": "claims/webb2017cad_supp.yaml#row-german-south"
+   },
+   {
+    "id": "MHI_BIOBANK",
+    "as_written": "Montreal Heart Institute Biobank",
+    "role": "case-control",
+    "quote_id": "claims/webb2017cad_supp.yaml#row-mhi"
+   },
+   {
+    "id": "VHS",
+    "as_written": "VHS",
+    "role": "case-control",
+    "quote_id": "claims/webb2017cad_supp.yaml#row-vhs"
+   }
+  ],
+  "replication_only": [
+   "FINCAVAS (Deloukas 2013 stage 3)"
+  ],
+  "components_complete": "no",
+  "complete_reason": "Resolved: the ten de novo studies (ST1), (a) Nikpay 2015 48 studies, (b) Howson 2017 = Deloukas 2013 stages 1-2 + Howson de novo, (c) the exome-array meta-analysis of 42,335 cases/78,240 controls = Webb 2017 discovery (20 studies, Supplemental Table 1; totals match exactly). Missing: Webb's 'German CAD North' and 'German CAD South' controls are only 'derived from population-based studies in Germany' (unnamed; listed as GERMAN_POPULATION_CONTROLS_UNNAMED); Deloukas stage-2 PMB (Pfizer-MGH-Broad) participant source not described. Ref 5 (MIGen/CARDIoGRAM Exome, NEJM 2016) appendix was not obtained; not needed if (c) is the Webb discovery set, which its N indicates.",
+  "includes_ukb": "yes",
+  "includes_iceland": "yes",
+  "pqtl_cohort_flags": {
+   "INTERVAL": "unknown",
+   "FENLAND": "unknown",
+   "ARIC": "yes",
+   "AGES": "yes",
+   "KORA": "yes",
+   "FHS": "yes",
+   "IMPROVE": "unknown",
+   "DECODE": "yes",
+   "UKB": "yes"
+  },
+  "ancestry": ">95% European",
+  "sample_size": "181,522 cases among 1,165,690 participants (dictionary figure, not re-pinned here)",
+  "notes": "Per-variant source switching: each variant comes from whichever prior meta-analysis had the most effective cases, so the union of all three prior meta-analyses is the component set. EPIC-CVD removed from Metabochip/exome inputs, deCODE from Metabochip, HUNT from exome, to avoid duplicates (membership unchanged). The paper lists two GWAS Catalog accessions without stating which is which in the text read.",
+  "source_citation": "Aragam KG et al. 2022. Discovery and systematic characterization of risk variants and genes for coronary artery disease in over a million participants. Nat Genet 54:1803-1815",
+  "source_identifier": "doi:10.1038/s41588-022-01233-6; PMID:36474045; PMC9729111",
+  "source_read": "PMC9729111 fullTextXML (Introduction, Results, Online Methods, Data availability); PMC9729111 supplementaryFiles 41588_2022_1233_MOESM1_ESM.pdf (Supplementary Note: genetic discovery meta-analysis and study descriptions) and 41588_2022_1233_MOESM4_ESM.xlsx (Contents, ST1); Webb 2017 PMC5314135 supplementaryFiles mmc1.docx (Supplemental Table 1); Howson 2017, Deloukas 2013, Schunkert 2011, Nikpay 2015, Kathiresan 2009 as in the van der Harst row",
+  "claims_files": [
+   "claims/aragam2022cad_main.yaml",
+   "claims/aragam2022cad_supp_note.yaml",
+   "claims/aragam2022cad_supp_table1.yaml",
+   "claims/webb2017cad_supp.yaml",
+   "claims/howson2017cad_main.yaml",
+   "claims/howson2017cad_supp.yaml",
+   "claims/deloukas2013cad_supp.yaml",
+   "claims/schunkert2011cardiogram_supp.yaml",
+   "claims/nikpay2015cad_supp_tables.yaml",
+   "claims/nikpay2015cad_supp_note.yaml",
+   "claims/kathiresan2009migen_main.yaml"
+  ]
+ },
+ {
+  "row_name": "CAD GWAS cross-ancestry with Biobank Japan (Aragam 2022)",
+  "new_row": true,
+  "side": "outcome",
+  "aliases_proposed": "Aragam 2022 cross-ancestry|Aragam 2022 with BBJ|CAD 2022 multi-ancestry",
+  "release": "Cross-ancestry meta-analysis of the primary analysis with Biobank Japan summary statistics; 210,842 cases among 1,378,170 participants; one of GWAS Catalog GCST90132314/GCST90132315",
+  "components": [
+   {
+    "id": "DECODE",
+    "as_written": "deCODE",
+    "role": "cohort",
+    "quote_id": "claims/aragam2022cad_supp_table1.yaml#studies"
+   },
+   {
+    "id": "EPIC_CVD",
+    "as_written": "EPIC-CVD",
+    "role": "case-control",
+    "quote_id": "claims/aragam2022cad_supp_table1.yaml#studies"
+   },
+   {
+    "id": "GERMIFS",
+    "as_written": "GerMIFS5, GerMIFS6, GerMIFS7",
+    "role": "case-control",
+    "quote_id": "claims/aragam2022cad_supp_table1.yaml#studies"
+   },
+   {
+    "id": "KORA",
+    "as_written": "Cooperative Health Research in the Augsburg Region (GerMIFS V controls)",
+    "role": "controls_only",
+    "quote_id": "claims/aragam2022cad_supp_note.yaml#ctrl-germifs5"
+   },
+   {
+    "id": "HNR",
+    "as_written": "Heinz-Nixdorf-Recall Study (GerMIFS VII controls)",
+    "role": "controls_only",
+    "quote_id": "claims/aragam2022cad_supp_note.yaml#ctrl-germifs7"
+   },
+   {
+    "id": "GREEK_GCC",
+    "as_written": "Greek Coronary Disease cohort",
+    "role": "case-control",
+    "quote_id": "claims/aragam2022cad_supp_table1.yaml#studies"
+   },
+   {
+    "id": "TEENAGE",
+    "as_written": "TEENs of Attica: Gene and Environment study (TEENAGE) (GCC controls)",
+    "role": "controls_only",
+    "quote_id": "claims/aragam2022cad_supp_note.yaml#ctrl-gcc"
+   },
+   {
+    "id": "GREEK_NAFLD",
+    "as_written": "Non-alcoholic Fatty Liver Disease study (NAFLD) case-control study (GCC controls)",
+    "role": "controls_only",
+    "quote_id": "claims/aragam2022cad_supp_note.yaml#ctrl-gcc"
+   },
+   {
+    "id": "HUNT",
+    "as_written": "HUNT",
+    "role": "cohort",
+    "quote_id": "claims/aragam2022cad_supp_table1.yaml#studies"
+   },
+   {
+    "id": "MGB_BIOBANK",
+    "as_written": "Mass General Brigham Biobank",
+    "role": "cohort",
+    "quote_id": "claims/aragam2022cad_supp_table1.yaml#studies"
+   },
+   {
+    "id": "TIMI",
+    "as_written": "TIMI (PEGASUS-TIMI 54, ENGAGE AF-TIMI 48, SAVOR-TIMI 53)",
+    "role": "case-control",
+    "quote_id": "claims/aragam2022cad_supp_note.yaml#timi-trials"
+   },
+   {
+    "id": "UKB",
+    "as_written": "UK Biobank",
+    "role": "cohort",
+    "quote_id": "claims/aragam2022cad_supp_table1.yaml#studies"
+   },
+   {
+    "id": "PROCARDIS",
+    "as_written": "PC | PROCARDIS | Precocious Coronary Artery Disease",
+    "role": "case-control",
+    "quote_id": "claims/nikpay2015cad_supp_tables.yaml#row-procardis"
+   },
+   {
+    "id": "POBI",
+    "as_written": "People of British Isles (PoBI) (PROCARDIS controls)",
+    "role": "controls_only",
+    "quote_id": "claims/nikpay2015cad_supp_tables.yaml#ctrl-procardis"
+   },
+   {
+    "id": "TWINSUK",
+    "as_written": "UK Twin Study (PROCARDIS and HPS controls)",
+    "role": "controls_only",
+    "quote_id": "claims/nikpay2015cad_supp_tables.yaml#ctrl-procardis"
+   },
+   {
+    "id": "HSDS",
+    "as_written": "HSDS | Helsinki Sudden Death Study/Tampere Coronary Study",
+    "role": "case-control",
+    "quote_id": "claims/nikpay2015cad_supp_tables.yaml#row-hsds"
+   },
+   {
+    "id": "ADVANCE",
+    "as_written": "AD | ADVANCE",
+    "role": "case-control",
+    "quote_id": "claims/nikpay2015cad_supp_tables.yaml#row-advance"
+   },
+   {
+    "id": "CARDIA",
+    "as_written": "a subset of 479 participants ... from the Coronary Artery Risk Development in Young Adults (CARDIA) study (ADVANCE young control group; whether any are in the 312 GWAS controls is not stated)",
+    "role": "controls_only",
+    "quote_id": "claims/nikpay2015cad_supp_note.yaml#ctrl-advance-cardia"
+   },
+   {
+    "id": "BEIJING_BAS",
+    "as_written": "BEIJING (BAS) | Beijing Atherosclerosis Study",
+    "role": "case-control",
+    "quote_id": "claims/nikpay2015cad_supp_tables.yaml#row-bas"
+   },
+   {
+    "id": "CARDIOGENICS",
+    "as_written": "CD | CARDIOGENICS",
+    "role": "case-control",
+    "quote_id": "claims/nikpay2015cad_supp_tables.yaml#row-cardiogenics"
+   },
+   {
+    "id": "CAMBRIDGE_BIORESOURCE",
+    "as_written": "blood donors recruited as part of the Cambridge Bioresource (CARDIOGENICS controls)",
+    "role": "controls_only",
+    "quote_id": "claims/nikpay2015cad_supp_note.yaml#ctrl-cardiogenics"
+   },
+   {
+    "id": "CHINA_CAS",
+    "as_written": "CHINA (CAS) | China Atherosclerosis Study",
+    "role": "case-control",
+    "quote_id": "claims/nikpay2015cad_supp_tables.yaml#row-cas"
+   },
+   {
+    "id": "INTERASIA",
+    "as_written": "International Collaborative Study of Cardiovascular Disease in Asia (InterASIA in China) (CAS controls)",
+    "role": "controls_only",
+    "quote_id": "claims/nikpay2015cad_supp_note.yaml#ctrl-cas"
+   },
+   {
+    "id": "CCGB",
+    "as_written": "CCGB_2 | Cleveland Clinic Gene Bank",
+    "role": "case-control",
+    "quote_id": "claims/nikpay2015cad_supp_tables.yaml#row-ccgb"
+   },
+   {
+    "id": "COROGENE",
+    "as_written": "COROGENE | The Corogene Study",
+    "role": "case-control",
+    "quote_id": "claims/nikpay2015cad_supp_tables.yaml#row-corogene"
+   },
+   {
+    "id": "DUKE_CATHGEN",
+    "as_written": "DUKE_2 | Duke Cathgen Study",
+    "role": "case-control",
+    "quote_id": "claims/nikpay2015cad_supp_tables.yaml#row-duke"
+   },
+   {
+    "id": "ESTONIAN_BIOBANK",
+    "as_written": "EGCUT | Estonian Genome Center of University of Tartu",
+    "role": "case-control",
+    "quote_id": "claims/nikpay2015cad_supp_tables.yaml#row-egcut"
+   },
+   {
+    "id": "FGENTCARD",
+    "as_written": "FGENTCARD",
+    "role": "case-control",
+    "quote_id": "claims/nikpay2015cad_supp_tables.yaml#row-fgentcard"
+   },
+   {
+    "id": "GENRIC",
+    "as_written": "GENRIC | Genomics Research in Cardiovascular Disease",
+    "role": "case-control",
+    "quote_id": "claims/nikpay2015cad_supp_tables.yaml#row-genric"
+   },
+   {
+    "id": "KOGES_HEXA",
+    "as_written": "HEXA (Health Examinee) ... KoGES (GenRIC controls)",
+    "role": "controls_only",
+    "quote_id": "claims/nikpay2015cad_supp_note.yaml#ctrl-genric"
+   },
+   {
+    "id": "POPGEN",
+    "as_written": "PopGen blood donor sample 2 (PopGen-BSP) / PopGen (GerMIFS II, III controls)",
+    "role": "controls_only",
+    "quote_id": "claims/nikpay2015cad_supp_note.yaml#ctrl-germifs2"
+   },
+   {
+    "id": "BASE_II",
+    "as_written": "Berlin Aging Study II (BASE-II) (GerMIFS IV controls)",
+    "role": "controls_only",
+    "quote_id": "claims/nikpay2015cad_supp_note.yaml#ctrl-germifs4"
+   },
+   {
+    "id": "GODARTS",
+    "as_written": "GODARTS",
+    "role": "case-control",
+    "quote_id": "claims/nikpay2015cad_supp_tables.yaml#row-godarts"
+   },
+   {
+    "id": "HPS",
+    "as_written": "HPS | MRC/BHF Heart Protection Study",
+    "role": "case-control",
+    "quote_id": "claims/nikpay2015cad_supp_tables.yaml#row-hps"
+   },
+   {
+    "id": "UKBS",
+    "as_written": "WTCCC2 National Blood Service collections (HPS controls); UK National Blood Service donors (WTCCC controls)",
+    "role": "controls_only",
+    "quote_id": "claims/nikpay2015cad_supp_tables.yaml#ctrl-hps"
+   },
+   {
+    "id": "BIOME",
+    "as_written": "IPM_AA / IPM_EA / IPM_HA | MT. SINAI BioMe Biobank Platform",
+    "role": "case-control",
+    "quote_id": "claims/nikpay2015cad_supp_tables.yaml#row-ipm-aa"
+   },
+   {
+    "id": "LOLIPOP",
+    "as_written": "LOLIPOP | London Life Sciences Prospective Population Study",
+    "role": "case-control",
+    "quote_id": "claims/nikpay2015cad_supp_tables.yaml#row-lolipop"
+   },
+   {
+    "id": "LURIC",
+    "as_written": "LURIC",
+    "role": "case-control",
+    "quote_id": "claims/nikpay2015cad_supp_tables.yaml#row-luric"
+   },
+   {
+    "id": "MEDSTAR",
+    "as_written": "MEDSTAR",
+    "role": "case-control",
+    "quote_id": "claims/nikpay2015cad_supp_tables.yaml#row-medstar"
+   },
+   {
+    "id": "ATVB",
+    "as_written": "Italian ATVB Study (MIGen site)",
+    "role": "case-control",
+    "quote_id": "claims/kathiresan2009migen_main.yaml#table1-studies"
+   },
+   {
+    "id": "HARPS",
+    "as_written": "Heart Attack Risk in Puget Sound (MIGen site)",
+    "role": "case-control",
+    "quote_id": "claims/kathiresan2009migen_main.yaml#table1-studies"
+   },
+   {
+    "id": "REGICOR",
+    "as_written": "REGICOR (MIGen site)",
+    "role": "case-control",
+    "quote_id": "claims/kathiresan2009migen_main.yaml#table1-studies"
+   },
+   {
+    "id": "MGH_PCAD",
+    "as_written": "MGH Premature Coronary Artery Disease Study (MIGen site)",
+    "role": "case-control",
+    "quote_id": "claims/kathiresan2009migen_main.yaml#table1-studies"
+   },
+   {
+    "id": "FINRISK",
+    "as_written": "FINRISK (MIGen site); PREDICTCVD | A subset of FINRISK cohort study",
+    "role": "case-control",
+    "quote_id": "claims/nikpay2015cad_supp_tables.yaml#row-predictcvd"
+   },
+   {
+    "id": "MDC",
+    "as_written": "Malmö Diet and Cancer Study (MIGen site)",
+    "role": "case-control",
+    "quote_id": "claims/kathiresan2009migen_main.yaml#table1-studies"
+   },
+   {
+    "id": "OHGS",
+    "as_written": "OHGS_A2 / OHGS_B2 / OHGS_C2 | Ottawa Heart Genetic Study",
+    "role": "case-control",
+    "quote_id": "claims/nikpay2015cad_supp_tables.yaml#row-ohgs-a2"
+   },
+   {
+    "id": "PENNCATH",
+    "as_written": "PENNCATH",
+    "role": "case-control",
+    "quote_id": "claims/nikpay2015cad_supp_tables.yaml#row-penncath"
+   },
+   {
+    "id": "PIVUS",
+    "as_written": "PIVUS",
+    "role": "cohort",
+    "quote_id": "claims/nikpay2015cad_supp_tables.yaml#row-pivus"
+   },
+   {
+    "id": "SDS_AIDHS",
+    "as_written": "SDS/AIDHS | Sikh Diabetes Study/ Asian Indian Diabetic Heart Study",
+    "role": "case-control",
+    "quote_id": "claims/nikpay2015cad_supp_tables.yaml#row-sds"
+   },
+   {
+    "id": "THISEAS",
+    "as_written": "THISEAS",
+    "role": "case-control",
+    "quote_id": "claims/nikpay2015cad_supp_tables.yaml#row-thiseas"
+   },
+   {
+    "id": "TWINGENE",
+    "as_written": "TWINGENE",
+    "role": "cohort",
+    "quote_id": "claims/nikpay2015cad_supp_tables.yaml#row-twingene"
+   },
+   {
+    "id": "ULSAM",
+    "as_written": "ULSAM",
+    "role": "cohort",
+    "quote_id": "claims/nikpay2015cad_supp_tables.yaml#row-ulsam"
+   },
+   {
+    "id": "WTCCC",
+    "as_written": "WTCCC | Wellcome Trust Case Control Consortium (CAD cases)",
+    "role": "case-control",
+    "quote_id": "claims/nikpay2015cad_supp_tables.yaml#row-wtccc"
+   },
+   {
+    "id": "B58C",
+    "as_written": "1958 Birth Cohort (WTCCC controls)",
+    "role": "controls_only",
+    "quote_id": "claims/nikpay2015cad_supp_note.yaml#ctrl-wtccc"
+   },
+   {
+    "id": "PROMIS",
+    "as_written": "PROMIS1 / PROMIS2",
+    "role": "case-control",
+    "quote_id": "claims/nikpay2015cad_supp_tables.yaml#row-promis1"
+   },
+   {
+    "id": "LIFE_HEART",
+    "as_written": "LIFE-HEART",
+    "role": "case-control",
+    "quote_id": "claims/nikpay2015cad_supp_tables.yaml#row-lifeheart"
+   },
+   {
+    "id": "WGHS",
+    "as_written": "WGHS | Women's Genome Health Study",
+    "role": "cohort",
+    "quote_id": "claims/nikpay2015cad_supp_tables.yaml#row-wghs"
+   },
+   {
+    "id": "INTERHEART",
+    "as_written": "ITH_2 | INTERHEART study",
+    "role": "case-control",
+    "quote_id": "claims/nikpay2015cad_supp_tables.yaml#row-ith"
+   },
+   {
+    "id": "MAYO_VDB",
+    "as_written": "MAYO-VDB",
+    "role": "case-control",
+    "quote_id": "claims/nikpay2015cad_supp_tables.yaml#row-mayovdb"
+   },
+   {
+    "id": "AGES",
+    "as_written": "AGES | Age, Gene/Environment Susceptibility–Reykjavik Study",
+    "role": "cohort",
+    "quote_id": "claims/nikpay2015cad_supp_tables.yaml#row-ages"
+   },
+   {
+    "id": "RS",
+    "as_written": "RS | The Rotterdam Study",
+    "role": "cohort",
+    "quote_id": "claims/nikpay2015cad_supp_tables.yaml#row-rs"
+   },
+   {
+    "id": "FHS",
+    "as_written": "FHS | Framingham Heart Study (Original and Offspring)",
+    "role": "cohort",
+    "quote_id": "claims/nikpay2015cad_supp_tables.yaml#row-fhs"
+   },
+   {
+    "id": "FAMHS",
+    "as_written": "FamHS | Family Heart Study (sampled from FHS, Utah Family Tree Study and two ARIC centres)",
+    "role": "cohort",
+    "quote_id": "claims/nikpay2015cad_supp_tables.yaml#row-famhs"
+   },
+   {
+    "id": "UTAH_FAMILY_TREE",
+    "as_written": "the Utah Family Tree Study (FamHS parent study)",
+    "role": "cohort",
+    "quote_id": "claims/nikpay2015cad_supp_note.yaml#famhs-parents"
+   },
+   {
+    "id": "PROSPER",
+    "as_written": "PROSPER",
+    "role": "cohort",
+    "quote_id": "claims/nikpay2015cad_supp_tables.yaml#row-prosper"
+   },
+   {
+    "id": "ARIC",
+    "as_written": "ARIC | Atherosclerosis Risk in Communities",
+    "role": "cohort",
+    "quote_id": "claims/nikpay2015cad_supp_tables.yaml#row-aric"
+   },
+   {
+    "id": "CADOMICS",
+    "as_written": "CADomics Coronary Artery Disease and Omics (controls: 'Population sample')",
+    "role": "case-control",
+    "quote_id": "claims/schunkert2011cardiogram_supp.yaml#row-cadomics"
+   },
+   {
+    "id": "AMC_PAS",
+    "as_written": "AMC-PAS (Academic Medical Center Amsterdam Premature Atherosclerosis Study)",
+    "role": "case-control",
+    "quote_id": "claims/deloukas2013cad_supp.yaml#row-amc-pas"
+   },
+   {
+    "id": "SANQUIN",
+    "as_written": "Sanquin Blood Bank donors (AMC-PAS controls)",
+    "role": "controls_only",
+    "quote_id": "claims/deloukas2013cad_supp.yaml#ctrl-amc-pas"
+   },
+   {
+    "id": "ANGIO_LUEBECK",
+    "as_written": "Angio-Lueb/KORA F3 (Lübeck Registry of Structural Heart Disease)",
+    "role": "case-control",
+    "quote_id": "claims/deloukas2013cad_supp.yaml#row-angio-lueb-kora"
+   },
+   {
+    "id": "DILGOM",
+    "as_written": "DILGOM",
+    "role": "cohort",
+    "quote_id": "claims/deloukas2013cad_supp.yaml#row-dilgom"
+   },
+   {
+    "id": "EPIC_NORFOLK",
+    "as_written": "EPIC sub-cohorts from the UK, mainly in Cambridgeshire and Norfolk",
+    "role": "case-control",
+    "quote_id": "claims/deloukas2013cad_supp.yaml#epic-uk"
+   },
+   {
+    "id": "FRISCII",
+    "as_written": "FRISCII-GLACIER (FRISC II trial cases)",
+    "role": "case-control",
+    "quote_id": "claims/deloukas2013cad_supp.yaml#row-friscii-glacier"
+   },
+   {
+    "id": "VIP",
+    "as_written": "GLACIER, a subset of the Västerbottens Intervention Project",
+    "role": "controls_only",
+    "quote_id": "claims/deloukas2013cad_supp.yaml#glacier-vip"
+   },
+   {
+    "id": "EMIL",
+    "as_written": "EMIL ... GerBS control series ... blood donors (LURIC-EMIL controls)",
+    "role": "controls_only",
+    "quote_id": "claims/deloukas2013cad_supp.yaml#ctrl-luric-emil"
+   },
+   {
+    "id": "METSIM",
+    "as_written": "METSIM",
+    "role": "cohort",
+    "quote_id": "claims/deloukas2013cad_supp.yaml#row-metsim"
+   },
+   {
+    "id": "MORGAM_FIN",
+    "as_written": "MORGAM-FIN (Southern Finland, North Karelia, Kuopio, Oulu, Turku/Loimaa, Helsinki)",
+    "role": "cohort",
+    "quote_id": "claims/deloukas2013cad_supp.yaml#row-morgam-fin"
+   },
+   {
+    "id": "MORGAM_FRA",
+    "as_written": "MORGAM-FRA (Lille, Strasbourg, Toulouse)",
+    "role": "cohort",
+    "quote_id": "claims/deloukas2013cad_supp.yaml#row-morgam-fra"
+   },
+   {
+    "id": "MORGAM_GER",
+    "as_written": "MORGAM-GER (Augsburg)",
+    "role": "cohort",
+    "quote_id": "claims/deloukas2013cad_supp.yaml#row-morgam-ger"
+   },
+   {
+    "id": "MORGAM_ITA",
+    "as_written": "MORGAM-ITA (Brianza)",
+    "role": "cohort",
+    "quote_id": "claims/deloukas2013cad_supp.yaml#row-morgam-ita"
+   },
+   {
+    "id": "MORGAM_UNK",
+    "as_written": "MORGAM-UNK (Belfast)",
+    "role": "cohort",
+    "quote_id": "claims/deloukas2013cad_supp.yaml#row-morgam-unk"
+   },
+   {
+    "id": "PMB",
+    "as_written": "PMB Pfizer-MGH-Broad (Finland, Sweden); participant source not described",
+    "role": "case-control",
+    "quote_id": "claims/deloukas2013cad_supp.yaml#row-pmb"
+   },
+   {
+    "id": "SCARF_SHEEP",
+    "as_written": "SCARF-SHEEP",
+    "role": "case-control",
+    "quote_id": "claims/deloukas2013cad_supp.yaml#row-scarf-sheep"
+   },
+   {
+    "id": "STR",
+    "as_written": "STR (Swedish Twin Registry)",
+    "role": "cohort",
+    "quote_id": "claims/deloukas2013cad_supp.yaml#row-str"
+   },
+   {
+    "id": "WTCCC_CAD2",
+    "as_written": "WTCCC CAD2 (cases from PRAMIS, SPACE ROCKET, OPERA, BHF-FHS)",
+    "role": "case-control",
+    "quote_id": "claims/deloukas2013cad_supp.yaml#row-wtccc-cad2"
+   },
+   {
+    "id": "CCHS",
+    "as_written": "Copenhagen City Heart Study (CCHS)",
+    "role": "cohort",
+    "quote_id": "claims/howson2017cad_main.yaml#denovo-studies"
+   },
+   {
+    "id": "CIHDS",
+    "as_written": "Copenhagen Ischemic Heart Disease Study (CIHDS)",
+    "role": "case-control",
+    "quote_id": "claims/howson2017cad_main.yaml#denovo-studies"
+   },
+   {
+    "id": "CGPS",
+    "as_written": "Copenhagen General Population Study (CGPS)",
+    "role": "controls_only",
+    "quote_id": "claims/howson2017cad_supp.yaml#ctrl-cihds"
+   },
+   {
+    "id": "BRAVE",
+    "as_written": "Bangladesh Risk of Acute Vascular Events (BRAVE)",
+    "role": "case-control",
+    "quote_id": "claims/howson2017cad_main.yaml#denovo-sas"
+   },
+   {
+    "id": "TCAGEN",
+    "as_written": "Taiwan Coronary Artery Disease GENetic (TCAGEN) study (TAICHI)",
+    "role": "case-control",
+    "quote_id": "claims/howson2017cad_supp.yaml#taichi-1"
+   },
+   {
+    "id": "TCAD",
+    "as_written": "Taichung CAD (TCAD) study (TAICHI)",
+    "role": "case-control",
+    "quote_id": "claims/howson2017cad_supp.yaml#taichi-2"
+   },
+   {
+    "id": "TACT",
+    "as_written": "TAiwan Coronary and Transcatheter intervention (TACT) (TAICHI)",
+    "role": "case-control",
+    "quote_id": "claims/howson2017cad_supp.yaml#taichi-3"
+   },
+   {
+    "id": "TAIWAN_DRAGON",
+    "as_written": "Taiwan DRAGON (TAICHI)",
+    "role": "cohort",
+    "quote_id": "claims/howson2017cad_supp.yaml#taichi-4"
+   },
+   {
+    "id": "TUDR",
+    "as_written": "Taiwan USA Diabetes Retinopathy (TUDR) (TAICHI)",
+    "role": "cohort",
+    "quote_id": "claims/howson2017cad_supp.yaml#taichi-5"
+   },
+   {
+    "id": "HALST",
+    "as_written": "Healthy Aging Longitudinal Study in Taiwan (HALST) (TAICHI)",
+    "role": "controls_only",
+    "quote_id": "claims/howson2017cad_supp.yaml#taichi-6"
+   },
+   {
+    "id": "SAPPHIRE",
+    "as_written": "SAPPHIRe (TAICHI)",
+    "role": "controls_only",
+    "quote_id": "claims/howson2017cad_supp.yaml#taichi-7"
+   },
+   {
+    "id": "WHI",
+    "as_written": "Women’s Health Initiative (WHI) African American women",
+    "role": "cohort",
+    "quote_id": "claims/howson2017cad_main.yaml#denovo-aa"
+   },
+   {
+    "id": "MESA",
+    "as_written": "Multi-ethnic Study of Atherosclerosis (MESA) (MIGen AA)",
+    "role": "case-control",
+    "quote_id": "claims/howson2017cad_supp.yaml#migen-aa"
+   },
+   {
+    "id": "INVEST",
+    "as_written": "International Verapamil SR/Trandolapril Study (INVEST) (MIGen AA)",
+    "role": "case-control",
+    "quote_id": "claims/howson2017cad_supp.yaml#migen-aa"
+   },
+   {
+    "id": "TRIUMPH",
+    "as_written": "TRIUMPH (MIGen AA)",
+    "role": "case-control",
+    "quote_id": "claims/howson2017cad_supp.yaml#migen-aa"
+   },
+   {
+    "id": "PENN_MEDICINE_BIOBANK",
+    "as_written": "Penn Medicine Biobank (MIGen AA)",
+    "role": "case-control",
+    "quote_id": "claims/howson2017cad_supp.yaml#migen-aa"
+   },
+   {
+    "id": "EMORY_GENEBANK",
+    "as_written": "Emory GeneBank (MIGen AA)",
+    "role": "case-control",
+    "quote_id": "claims/howson2017cad_supp.yaml#migen-aa"
+   },
+   {
+    "id": "BHF_FHS",
+    "as_written": "BHF-FHS cases (supplemented by WTCCC-CAD2 cases); controls UK 1958 Birth Cohort",
+    "role": "case-control",
+    "quote_id": "claims/webb2017cad_supp.yaml#row-bhf-fhs"
+   },
+   {
+    "id": "BIOVU",
+    "as_written": "BioVU",
+    "role": "case-control",
+    "quote_id": "claims/webb2017cad_supp.yaml#row-biovu"
+   },
+   {
+    "id": "MONICA_NORTHERN_SWEDEN",
+    "as_written": "FIA3: WHO MONICA study in northern Sweden",
+    "role": "case-control",
+    "quote_id": "claims/webb2017cad_supp.yaml#row-fia3"
+   },
+   {
+    "id": "MSP_VASTERBOTTEN",
+    "as_written": "FIA3: Mammography Screening Project (MSP) in Vasterbotten",
+    "role": "case-control",
+    "quote_id": "claims/webb2017cad_supp.yaml#row-fia3"
+   },
+   {
+    "id": "GERMAN_POPULATION_CONTROLS_UNNAMED",
+    "as_written": "German CAD North/South: Controls were derived from population-based studies in Germany.",
+    "role": "controls_only",
+    "quote_id": "claims/webb2017cad_supp.yaml#row-german-north"
+   },
+   {
+    "id": "MUNICH_MI",
+    "as_written": "German CAD South: Munich-MI",
+    "role": "case-control",
+    "quote_id": "claims/webb2017cad_supp.yaml#row-german-south"
+   },
+   {
+    "id": "MHI_BIOBANK",
+    "as_written": "Montreal Heart Institute Biobank",
+    "role": "case-control",
+    "quote_id": "claims/webb2017cad_supp.yaml#row-mhi"
+   },
+   {
+    "id": "VHS",
+    "as_written": "VHS",
+    "role": "case-control",
+    "quote_id": "claims/webb2017cad_supp.yaml#row-vhs"
+   },
+   {
+    "id": "BBJ",
+    "as_written": "Biobank Japan (29,319 CAD cases, 183,134 controls)",
+    "role": "cohort",
+    "quote_id": "claims/aragam2022cad_main.yaml#bbj-n"
+   }
+  ],
+  "replication_only": [
+   "FINCAVAS (Deloukas 2013 stage 3)"
+  ],
+  "components_complete": "no",
+  "complete_reason": "Resolved: the ten de novo studies (ST1), (a) Nikpay 2015 48 studies, (b) Howson 2017 = Deloukas 2013 stages 1-2 + Howson de novo, (c) the exome-array meta-analysis of 42,335 cases/78,240 controls = Webb 2017 discovery (20 studies, Supplemental Table 1; totals match exactly). Missing: Webb's 'German CAD North' and 'German CAD South' controls are only 'derived from population-based studies in Germany' (unnamed; listed as GERMAN_POPULATION_CONTROLS_UNNAMED); Deloukas stage-2 PMB (Pfizer-MGH-Broad) participant source not described. Ref 5 (MIGen/CARDIoGRAM Exome, NEJM 2016) appendix was not obtained; not needed if (c) is the Webb discovery set, which its N indicates.",
+  "includes_ukb": "yes",
+  "includes_iceland": "yes",
+  "pqtl_cohort_flags": {
+   "INTERVAL": "unknown",
+   "FENLAND": "unknown",
+   "ARIC": "yes",
+   "AGES": "yes",
+   "KORA": "yes",
+   "FHS": "yes",
+   "IMPROVE": "unknown",
+   "DECODE": "yes",
+   "UKB": "yes"
+  },
+  "ancestry": "Predominantly European plus Japanese (Biobank Japan)",
+  "sample_size": "210,842 cases among 1,378,170 participants",
+  "notes": "Same components as the primary row plus BBJ.",
+  "source_citation": "Aragam KG et al. 2022. Discovery and systematic characterization of risk variants and genes for coronary artery disease in over a million participants. Nat Genet 54:1803-1815",
+  "source_identifier": "doi:10.1038/s41588-022-01233-6; PMID:36474045; PMC9729111",
+  "source_read": "PMC9729111 fullTextXML (Introduction, Results, Online Methods, Data availability); PMC9729111 supplementaryFiles 41588_2022_1233_MOESM1_ESM.pdf (Supplementary Note: genetic discovery meta-analysis and study descriptions) and 41588_2022_1233_MOESM4_ESM.xlsx (Contents, ST1); Webb 2017 PMC5314135 supplementaryFiles mmc1.docx (Supplemental Table 1); Howson 2017, Deloukas 2013, Schunkert 2011, Nikpay 2015, Kathiresan 2009 as in the van der Harst row",
+  "claims_files": [
+   "claims/aragam2022cad_main.yaml",
+   "claims/aragam2022cad_supp_note.yaml",
+   "claims/aragam2022cad_supp_table1.yaml",
+   "claims/webb2017cad_supp.yaml",
+   "claims/howson2017cad_main.yaml",
+   "claims/howson2017cad_supp.yaml",
+   "claims/deloukas2013cad_supp.yaml",
+   "claims/schunkert2011cardiogram_supp.yaml",
+   "claims/nikpay2015cad_supp_tables.yaml",
+   "claims/nikpay2015cad_supp_note.yaml",
+   "claims/kathiresan2009migen_main.yaml"
+  ]
+ },
+ {
+  "row_name": "HERMES heart failure (Shah 2020)",
+  "new_row": false,
+  "side": "outcome",
+  "aliases_proposed": "",
+  "release": "HERMES European-ancestry meta-analysis of 26 studies (29 datasets), 47,309 cases and 930,014 controls; summary estimates on the Cardiovascular Disease Knowledge Portal",
+  "source_citation": "Shah S et al. 2020. Genome-wide association and Mendelian randomisation analysis provide insights into the pathogenesis of heart failure. Nat Commun 11:163",
+  "source_identifier": "doi:10.1038/s41467-019-13690-5; PMID:31919418; PMC6952380",
+  "components": [
+   {
+    "id": "ARIC",
+    "as_written": "ARIC",
+    "role": "cohort",
+    "quote_id": "claims/shah2020hermes_supp_data.yaml#row-aric"
+   },
+   {
+    "id": "BIOSTAT_CHF",
+    "as_written": "BIOSTAT-CHF (Validation), Scotland (954 controls, source not described)",
+    "role": "case-control",
+    "quote_id": "claims/shah2020hermes_supp_data.yaml#row-biostat"
+   },
+   {
+    "id": "CHS",
+    "as_written": "CHS",
+    "role": "cohort",
+    "quote_id": "claims/shah2020hermes_supp_data.yaml#row-chs"
+   },
+   {
+    "id": "COGEN",
+    "as_written": "COGEN, Denmark (2,215 controls, source not described)",
+    "role": "case-control",
+    "quote_id": "claims/shah2020hermes_supp_data.yaml#row-cogen"
+   },
+   {
+    "id": "DECODE",
+    "as_written": "deCODE",
+    "role": "cohort",
+    "quote_id": "claims/shah2020hermes_supp_data.yaml#row-decode"
+   },
+   {
+    "id": "DISCOVEHR",
+    "as_written": "DiscovEHR (Regeneron/Geisinger)",
+    "role": "cohort",
+    "quote_id": "claims/shah2020hermes_supp_data.yaml#row-discovehr"
+   },
+   {
+    "id": "EPHESUS",
+    "as_written": "EPHESUS trial cases",
+    "role": "case-control",
+    "quote_id": "claims/shah2020hermes_supp_data.yaml#row-ephesus"
+   },
+   {
+    "id": "PFIZER_A9011027",
+    "as_written": "The controls (A9011027) ... elderly subjects in the US (EPHESUS controls)",
+    "role": "controls_only",
+    "quote_id": "claims/shah2020hermes_supp_info.yaml#ctrl-ephesus"
+   },
+   {
+    "id": "EPIC_NORFOLK",
+    "as_written": "EPIC-Norfolk",
+    "role": "cohort",
+    "quote_id": "claims/shah2020hermes_supp_data.yaml#row-epic-norfolk"
+   },
+   {
+    "id": "ESTONIAN_BIOBANK",
+    "as_written": "EGCUT 370 / EGCUT Exome / EGCUT Omni",
+    "role": "cohort",
+    "quote_id": "claims/shah2020hermes_supp_data.yaml#row-egcut370"
+   },
+   {
+    "id": "FHS",
+    "as_written": "FHS",
+    "role": "cohort",
+    "quote_id": "claims/shah2020hermes_supp_data.yaml#row-fhs"
+   },
+   {
+    "id": "FINRISK",
+    "as_written": "FINRISK",
+    "role": "cohort",
+    "quote_id": "claims/shah2020hermes_supp_data.yaml#row-finrisk"
+   },
+   {
+    "id": "GODARTS",
+    "as_written": "GoDARTS (Affymetrix) / GoDARTS (Illumina)",
+    "role": "cohort",
+    "quote_id": "claims/shah2020hermes_supp_data.yaml#row-godarts-affy"
+   },
+   {
+    "id": "GRADE",
+    "as_written": "GRADE",
+    "role": "case-control",
+    "quote_id": "claims/shah2020hermes_supp_data.yaml#row-grade"
+   },
+   {
+    "id": "BROAD_AF",
+    "as_written": "Broad AF study (GRADE controls)",
+    "role": "controls_only",
+    "quote_id": "claims/shah2020hermes_supp_info.yaml#ctrl-grade"
+   },
+   {
+    "id": "LURIC",
+    "as_written": "LURIC",
+    "role": "cohort",
+    "quote_id": "claims/shah2020hermes_supp_data.yaml#row-luric"
+   },
+   {
+    "id": "MDC",
+    "as_written": "MDCS",
+    "role": "cohort",
+    "quote_id": "claims/shah2020hermes_supp_data.yaml#row-mdcs"
+   },
+   {
+    "id": "PHFS",
+    "as_written": "PHFS (Penn Heart Failure Study; 4,523 controls, source not described)",
+    "role": "case-control",
+    "quote_id": "claims/shah2020hermes_supp_data.yaml#row-phfs"
+   },
+   {
+    "id": "PIVUS",
+    "as_written": "PIVUS",
+    "role": "cohort",
+    "quote_id": "claims/shah2020hermes_supp_data.yaml#row-pivus"
+   },
+   {
+    "id": "PREVEND",
+    "as_written": "PREVEND",
+    "role": "cohort",
+    "quote_id": "claims/shah2020hermes_supp_data.yaml#row-prevend"
+   },
+   {
+    "id": "PROSPER",
+    "as_written": "PROSPER",
+    "role": "cohort",
+    "quote_id": "claims/shah2020hermes_supp_data.yaml#row-prosper"
+   },
+   {
+    "id": "RS",
+    "as_written": "Rotterdam 1",
+    "role": "cohort",
+    "quote_id": "claims/shah2020hermes_supp_data.yaml#row-rs1"
+   },
+   {
+    "id": "SHIP",
+    "as_written": "SHIP",
+    "role": "cohort",
+    "quote_id": "claims/shah2020hermes_supp_data.yaml#row-ship"
+   },
+   {
+    "id": "SOLID_TIMI52",
+    "as_written": "SOLID (SOLID-TIMI 52)",
+    "role": "cohort",
+    "quote_id": "claims/shah2020hermes_supp_data.yaml#row-solid"
+   },
+   {
+    "id": "TWINGENE",
+    "as_written": "TwinGene",
+    "role": "cohort",
+    "quote_id": "claims/shah2020hermes_supp_data.yaml#row-twingene"
+   },
+   {
+    "id": "UKB",
+    "as_written": "UK Biobank",
+    "role": "cohort",
+    "quote_id": "claims/shah2020hermes_supp_data.yaml#row-ukb"
+   },
+   {
+    "id": "ULSAM",
+    "as_written": "ULSAM",
+    "role": "cohort",
+    "quote_id": "claims/shah2020hermes_supp_data.yaml#row-ulsam"
+   },
+   {
+    "id": "WGHS",
+    "as_written": "WGHS",
+    "role": "cohort",
+    "quote_id": "claims/shah2020hermes_supp_data.yaml#row-wghs"
+   }
+  ],
+  "replication_only": [],
+  "components_complete": "no",
+  "complete_reason": "All 26 studies are named (Supplementary Data 12, 29 dataset rows; Supplementary Note 2 descriptions) and listed. Missing: GRADE's controls 'were drawn from the Broad AF study', a multi-site resource whose referents come from several collections (Roselli 2018 Supplementary Table 17 lists MPP Echo, German Heart Center controls, GGAF/PREVEND-derived referents, etc.); which sub-collections supplied GRADE's 7,709 controls is not stated. Also undocumented: control sources of BIOSTAT-CHF (954), COGEN (2,215) and PHFS (4,523), read as each study's own recruits.",
+  "includes_ukb": "yes",
+  "includes_iceland": "yes",
+  "pqtl_cohort_flags": {
+   "INTERVAL": "unknown",
+   "FENLAND": "unknown",
+   "ARIC": "yes",
+   "AGES": "unknown",
+   "KORA": "unknown",
+   "FHS": "yes",
+   "IMPROVE": "unknown",
+   "DECODE": "yes",
+   "UKB": "yes"
+  },
+  "ancestry": "European",
+  "sample_size": "47,309 cases; 930,014 controls",
+  "source_read": "PMC6952380 fullTextXML (Results, Methods, Data availability); PMC6952380 supplementaryFiles: 41467_2019_13690_MOESM15_ESM.xlsx (Supplementary Data 12), MOESM14_ESM.xlsx (Supplementary Data 11), MOESM1_ESM.pdf (Supplementary Note 2, description of participating studies)",
+  "claims_files": [
+   "claims/shah2020hermes_main.yaml",
+   "claims/shah2020hermes_supp_data.yaml",
+   "claims/shah2020hermes_supp_info.yaml"
+  ],
+  "notes": "The existing component HERMES (consortium-level) is replaced by the member list. deCODE controls include population controls from the Icelandic genealogical database."
+ },
+ {
+  "row_name": "Atrial fibrillation (Nielsen 2018)",
+  "new_row": false,
+  "side": "outcome",
+  "aliases_proposed": "",
+  "release": "Meta-analysis of six contributing studies (HUNT, deCODE, MGI, DiscovEHR, UK Biobank, AFGen 2017 summary statistics), 60,620 cases and 970,216 controls; download at csg.sph.umich.edu/willer/public/afib2018",
+  "source_citation": "Nielsen JB et al. 2018. Biobank-driven genomic discovery yields new insight into atrial fibrillation biology. Nat Genet 50:1234-1239",
+  "source_identifier": "doi:10.1038/s41588-018-0171-3; PMID:30061737; PMC6530775",
+  "components": [
+   {
+    "id": "HUNT",
+    "as_written": "HUNT",
+    "role": "cohort",
+    "quote_id": "claims/nielsen2018af_supp_table1.yaml#header"
+   },
+   {
+    "id": "DECODE",
+    "as_written": "deCODE",
+    "role": "cohort",
+    "quote_id": "claims/nielsen2018af_supp_table1.yaml#header"
+   },
+   {
+    "id": "MGI",
+    "as_written": "MGI (Michigan Genomics Initiative)",
+    "role": "cohort",
+    "quote_id": "claims/nielsen2018af_supp_table1.yaml#header"
+   },
+   {
+    "id": "DISCOVEHR",
+    "as_written": "DiscoverEHR",
+    "role": "cohort",
+    "quote_id": "claims/nielsen2018af_supp_table1.yaml#header"
+   },
+   {
+    "id": "UKB",
+    "as_written": "UKB",
+    "role": "cohort",
+    "quote_id": "claims/nielsen2018af_supp_table1.yaml#header"
+   },
+   {
+    "id": "AFLMU",
+    "as_written": "AFLMU/ KORA (cases: Atrial Fibrillation Biobank LMU)",
+    "role": "case-control",
+    "quote_id": "claims/christophersen2017af_supp_table1.yaml#row-aflmu-kora"
+   },
+   {
+    "id": "KORA",
+    "as_written": "AFLMU/ KORA referents; KORAgen controls for WTCCC2-Munich",
+    "role": "controls_only",
+    "quote_id": "claims/christophersen2017af_supp_note.yaml#aflmu-kora"
+   },
+   {
+    "id": "AGES",
+    "as_written": "AGES",
+    "role": "cohort",
+    "quote_id": "claims/christophersen2017af_supp_table1.yaml#row-ages"
+   },
+   {
+    "id": "BEAT_AF",
+    "as_written": "Beat-AF",
+    "role": "case-control",
+    "quote_id": "claims/christophersen2017af_supp_table1.yaml#row-beat-af"
+   },
+   {
+    "id": "GAPP",
+    "as_written": "GAPP study, Liechtenstein (Beat-AF referents)",
+    "role": "controls_only",
+    "quote_id": "claims/christophersen2017af_supp_note.yaml#ctrl-beat-af"
+   },
+   {
+    "id": "BIOME",
+    "as_written": "BioMe (EUR, AA, Hispanic)",
+    "role": "case-control",
+    "quote_id": "claims/christophersen2017af_supp_table1.yaml#row-biome-eur"
+   },
+   {
+    "id": "BIOVU",
+    "as_written": "BioVU",
+    "role": "case-control",
+    "quote_id": "claims/christophersen2017af_supp_table1.yaml#row-biovu"
+   },
+   {
+    "id": "CCAF",
+    "as_written": "CCAF (Cleveland Clinic Lone AF GeneBank; 2,930 referents, source not described)",
+    "role": "case-control",
+    "quote_id": "claims/christophersen2017af_supp_table1.yaml#row-ccaf"
+   },
+   {
+    "id": "COROGENE",
+    "as_written": "COROGENE",
+    "role": "case-control",
+    "quote_id": "claims/christophersen2017af_supp_table1.yaml#row-corogene"
+   },
+   {
+    "id": "FHS",
+    "as_written": "FHS",
+    "role": "cohort",
+    "quote_id": "claims/christophersen2017af_supp_table1.yaml#row-fhs"
+   },
+   {
+    "id": "GENERATION_SCOTLAND",
+    "as_written": "GS_SFHS (Generation Scotland: Scottish Family Health Study)",
+    "role": "cohort",
+    "quote_id": "claims/christophersen2017af_supp_table1.yaml#row-gs-sfhs"
+   },
+   {
+    "id": "LURIC",
+    "as_written": "LURIC",
+    "role": "cohort",
+    "quote_id": "claims/christophersen2017af_supp_table1.yaml#row-luric"
+   },
+   {
+    "id": "MDC",
+    "as_written": "MDCS",
+    "role": "cohort",
+    "quote_id": "claims/christophersen2017af_supp_table1.yaml#row-mdcs"
+   },
+   {
+    "id": "MGH_AF",
+    "as_written": "MGH AF study (911 referents, source not described)",
+    "role": "case-control",
+    "quote_id": "claims/christophersen2017af_supp_table1.yaml#row-mgh-af"
+   },
+   {
+    "id": "MGH_CAMP",
+    "as_written": "MGH CAMP",
+    "role": "cohort",
+    "quote_id": "claims/christophersen2017af_supp_table1.yaml#row-mgh-camp"
+   },
+   {
+    "id": "SHIP",
+    "as_written": "SHIP",
+    "role": "cohort",
+    "quote_id": "claims/christophersen2017af_supp_table1.yaml#row-ship"
+   },
+   {
+    "id": "WTCCC2_MUNICH",
+    "as_written": "WTCCC2 Munich (cases)",
+    "role": "case-control",
+    "quote_id": "claims/christophersen2017af_supp_table1.yaml#row-wtccc2-munich"
+   },
+   {
+    "id": "ARIC",
+    "as_written": "ARIC (EUR and AA)",
+    "role": "cohort",
+    "quote_id": "claims/christophersen2017af_supp_table1.yaml#row-aric"
+   },
+   {
+    "id": "CHS",
+    "as_written": "CHS (EUR and AA)",
+    "role": "cohort",
+    "quote_id": "claims/christophersen2017af_supp_table1.yaml#row-chs"
+   },
+   {
+    "id": "MESA",
+    "as_written": "MESA",
+    "role": "cohort",
+    "quote_id": "claims/christophersen2017af_supp_table1.yaml#row-mesa"
+   },
+   {
+    "id": "PIVUS",
+    "as_written": "PIVUS",
+    "role": "cohort",
+    "quote_id": "claims/christophersen2017af_supp_table1.yaml#row-pivus"
+   },
+   {
+    "id": "PREVEND",
+    "as_written": "PREVEND",
+    "role": "cohort",
+    "quote_id": "claims/christophersen2017af_supp_table1.yaml#row-prevend"
+   },
+   {
+    "id": "PROSPER",
+    "as_written": "PROSPER",
+    "role": "cohort",
+    "quote_id": "claims/christophersen2017af_supp_table1.yaml#row-prosper"
+   },
+   {
+    "id": "TWINGENE",
+    "as_written": "TWINGENE",
+    "role": "cohort",
+    "quote_id": "claims/christophersen2017af_supp_table1.yaml#row-twingene"
+   },
+   {
+    "id": "ULSAM",
+    "as_written": "ULSAM",
+    "role": "cohort",
+    "quote_id": "claims/christophersen2017af_supp_table1.yaml#row-ulsam"
+   },
+   {
+    "id": "WGHS",
+    "as_written": "WGHS",
+    "role": "cohort",
+    "quote_id": "claims/christophersen2017af_supp_table1.yaml#row-wghs"
+   },
+   {
+    "id": "ANGES",
+    "as_written": "ANGES",
+    "role": "cohort",
+    "quote_id": "claims/christophersen2017af_supp_table1.yaml#row-anges"
+   },
+   {
+    "id": "FINCAVAS",
+    "as_written": "FINCAVAS",
+    "role": "cohort",
+    "quote_id": "claims/christophersen2017af_supp_table1.yaml#row-fincavas"
+   },
+   {
+    "id": "RS",
+    "as_written": "RS1 / RS2 / RS3",
+    "role": "cohort",
+    "quote_id": "claims/christophersen2017af_supp_table1.yaml#row-rs1"
+   },
+   {
+    "id": "BBJ",
+    "as_written": "Biobank Japan",
+    "role": "case-control",
+    "quote_id": "claims/christophersen2017af_supp_table1.yaml#row-bbj"
+   },
+   {
+    "id": "SPHFC",
+    "as_written": "SPHFC (Sao Paulo Heart Failure Cohort)",
+    "role": "case-control",
+    "quote_id": "claims/christophersen2017af_supp_table1.yaml#row-sphfc"
+   }
+  ],
+  "replication_only": [],
+  "components_complete": "yes",
+  "complete_reason": "Six contributing studies named (main text; Supplementary Table 1). AFGen = 'Published atrial fibrillation association summary statistics from 31 cohorts representing 17,931 ... cases and 115,142 controls', resolved via Christophersen 2017 Supplementary Table 1 (31 GWAS studies, all read). The AFGen counts equal Christophersen's all-ancestry GWAS (EUR 15,979/102,776 + AA, Japanese, Hispanic, Brazilian), so BBJ, BioMe AA/Hispanic and SPHFC are included. Caveat: referent sources of CCAF (2,930) and MGH AF study (911) are not described in Christophersen's note (studies 'described elsewhere'); read as each study's own referents.",
+  "includes_ukb": "yes",
+  "includes_iceland": "yes",
+  "pqtl_cohort_flags": {
+   "INTERVAL": "no",
+   "FENLAND": "no",
+   "ARIC": "yes",
+   "AGES": "yes",
+   "KORA": "yes",
+   "FHS": "yes",
+   "IMPROVE": "no",
+   "DECODE": "yes",
+   "UKB": "yes"
+  },
+  "ancestry": "Mainly European (AFGen part includes African American, Japanese, Hispanic, Brazilian samples)",
+  "sample_size": "60,620 cases; 970,216 controls",
+  "source_read": "NCBI efetch PMC6530775 (main text, Online Methods, Data availability); static-content.springer.com 41588_2018_171_MOESM3_ESM.xlsx (ST1-cohort-summary); Christophersen 2017 efetch PMC5585859 (Online Methods), 41588_2017_BFng3843_MOESM308_ESM.xlsx (Supplementary Table 1), 41588_2017_BFng3843_MOESM307_ESM.pdf (Supplementary Note study descriptions)",
+  "claims_files": [
+   "claims/nielsen2018af_main.yaml",
+   "claims/nielsen2018af_supp_table1.yaml",
+   "claims/christophersen2017af_main.yaml",
+   "claims/christophersen2017af_supp_table1.yaml",
+   "claims/christophersen2017af_supp_note.yaml"
+  ],
+  "notes": "The existing component AFGEN is replaced by the 31 member studies. Biobank Japan enters via AFGen 2017 (837 cases)."
+ },
+ {
+  "row_name": "AFGen atrial fibrillation (Roselli 2018)",
+  "new_row": false,
+  "side": "outcome",
+  "aliases_proposed": "",
+  "release": "Combined-ancestry meta-analysis, 65,446 cases and 522,744 referents (European 55,114/482,295; Japanese; African American; Brazilian; Hispanic); results on the Cardiovascular Disease Knowledge Portal",
+  "source_citation": "Roselli C et al. 2018. Multi-ethnic genome-wide association study for atrial fibrillation. Nat Genet 50:1225-1233",
+  "source_identifier": "doi:10.1038/s41588-018-0133-9; PMID:29892015; PMC6136836",
+  "components": [
+   {
+    "id": "BROAD_AF",
+    "as_written": "Broad AF Study (sub-collections: Maastricht AFCT, AFLMU, Australian Familial AF Study, BioVU, Danish AF Study, Duke, EAST AFNET4, GENAF, GGAF, GRADE, GerMIFS, German Heart Center Controls, HVH, Hopkins, Intermountain, MGH AF, MGH DOFEGEN, MGH Stroke, MPP AF, MPP Echo, Penn, TCAI, UCSF, UMass, VAFAR, AA and Incor Warfarin)",
+    "role": "case-control",
+    "quote_id": "claims/roselli2018af_supp_table17.yaml#row-broad-afct"
+   },
+   {
+    "id": "AFLMU",
+    "as_written": "AFLMU (Broad AF)",
+    "role": "case-control",
+    "quote_id": "claims/roselli2018af_supp_table17.yaml#row-broad-aflmu"
+   },
+   {
+    "id": "AUSTRALIAN_FAMILIAL_AF",
+    "as_written": "Australian Familial AF Study",
+    "role": "case-control",
+    "quote_id": "claims/roselli2018af_supp_table17.yaml#row-broad-australian"
+   },
+   {
+    "id": "BIOVU",
+    "as_written": "BioVU",
+    "role": "case-control",
+    "quote_id": "claims/roselli2018af_supp_table17.yaml#row-broad-biovu"
+   },
+   {
+    "id": "DANFIB",
+    "as_written": "Danish AF Study",
+    "role": "case-control",
+    "quote_id": "claims/roselli2018af_supp_table17.yaml#row-broad-danish"
+   },
+   {
+    "id": "DUKE_CATHGEN",
+    "as_written": "Duke",
+    "role": "case-control",
+    "quote_id": "claims/roselli2018af_supp_table17.yaml#row-broad-duke"
+   },
+   {
+    "id": "EAST_AFNET4",
+    "as_written": "EAST AFNET4",
+    "role": "case-control",
+    "quote_id": "claims/roselli2018af_supp_table17.yaml#row-broad-east"
+   },
+   {
+    "id": "GENAF",
+    "as_written": "GENAF",
+    "role": "case-control",
+    "quote_id": "claims/roselli2018af_supp_table17.yaml#row-broad-genaf"
+   },
+   {
+    "id": "GGAF",
+    "as_written": "GGAF (controls include 742 PREVEND individuals and GIPS)",
+    "role": "case-control",
+    "quote_id": "claims/roselli2018af_supp_table17.yaml#row-broad-ggaf"
+   },
+   {
+    "id": "PREVEND",
+    "as_written": "PREVEND (cohort row; also GGAF controls)",
+    "role": "cohort",
+    "quote_id": "claims/roselli2018af_supp_table17.yaml#row-prevend"
+   },
+   {
+    "id": "GRADE",
+    "as_written": "GRADE",
+    "role": "case-control",
+    "quote_id": "claims/roselli2018af_supp_table17.yaml#row-broad-grade"
+   },
+   {
+    "id": "GERMIFS",
+    "as_written": "GerMIFS (GerMIFS 6)",
+    "role": "case-control",
+    "quote_id": "claims/roselli2018af_supp_table17.yaml#row-broad-germifs"
+   },
+   {
+    "id": "GERMAN_HEART_CENTER_CONTROLS",
+    "as_written": "German Heart Center Controls",
+    "role": "controls_only",
+    "quote_id": "claims/roselli2018af_supp_table17.yaml#row-broad-ghc-controls"
+   },
+   {
+    "id": "HVH",
+    "as_written": "HVH (Group Health)",
+    "role": "case-control",
+    "quote_id": "claims/roselli2018af_supp_table17.yaml#row-broad-hvh"
+   },
+   {
+    "id": "HOPKINS_AF",
+    "as_written": "Hopkins",
+    "role": "case-control",
+    "quote_id": "claims/roselli2018af_supp_table17.yaml#row-broad-hopkins"
+   },
+   {
+    "id": "INTERMOUNTAIN",
+    "as_written": "Intermountain",
+    "role": "case-control",
+    "quote_id": "claims/roselli2018af_supp_table17.yaml#row-broad-intermountain"
+   },
+   {
+    "id": "MGH_AF",
+    "as_written": "MGH AF",
+    "role": "case-control",
+    "quote_id": "claims/roselli2018af_supp_table17.yaml#row-broad-mgh-af"
+   },
+   {
+    "id": "MGH_DOFEGEN",
+    "as_written": "MGH DOFEGEN",
+    "role": "case-control",
+    "quote_id": "claims/roselli2018af_supp_table17.yaml#row-broad-mgh-dofegen"
+   },
+   {
+    "id": "MGH_STROKE",
+    "as_written": "MGH Stroke (GOCHA, GASROS)",
+    "role": "case-control",
+    "quote_id": "claims/roselli2018af_supp_table17.yaml#row-broad-mgh-stroke"
+   },
+   {
+    "id": "MPP",
+    "as_written": "MPP AF / MPP Echo (Malmö Preventive Project)",
+    "role": "case-control",
+    "quote_id": "claims/roselli2018af_supp_table17.yaml#row-broad-mpp-af"
+   },
+   {
+    "id": "PENN_MEDICINE_BIOBANK",
+    "as_written": "Penn",
+    "role": "case-control",
+    "quote_id": "claims/roselli2018af_supp_table17.yaml#row-broad-penn"
+   },
+   {
+    "id": "TCAI",
+    "as_written": "TCAI",
+    "role": "case-control",
+    "quote_id": "claims/roselli2018af_supp_table17.yaml#row-broad-tcai"
+   },
+   {
+    "id": "UCSF",
+    "as_written": "UCSF",
+    "role": "case-control",
+    "quote_id": "claims/roselli2018af_supp_table17.yaml#row-broad-ucsf"
+   },
+   {
+    "id": "UMASS",
+    "as_written": "UMass",
+    "role": "case-control",
+    "quote_id": "claims/roselli2018af_supp_table17.yaml#row-broad-umass"
+   },
+   {
+    "id": "VAFAR",
+    "as_written": "VAFAR",
+    "role": "case-control",
+    "quote_id": "claims/roselli2018af_supp_table17.yaml#row-broad-vafar"
+   },
+   {
+    "id": "INCOR_WARFARIN",
+    "as_written": "Broad AF Study | Incor Warfarin Study",
+    "role": "case-control",
+    "quote_id": "claims/roselli2018af_supp_table17.yaml#row-broad-incor"
+   },
+   {
+    "id": "VANDERBILT_AF_REGISTRY",
+    "as_written": "Vanderbilt AF Registry",
+    "role": "case-control",
+    "quote_id": "claims/roselli2018af_supp_table17.yaml#row-vanderbilt-af-registry"
+   },
+   {
+    "id": "SIGN",
+    "as_written": "SiGN Group1, 2, 4, 5, 6, 7, 8, 9 (member studies not listed)",
+    "role": "case-control",
+    "quote_id": "claims/roselli2018af_supp_table17.yaml#row-sign1"
+   },
+   {
+    "id": "ESTONIAN_BIOBANK",
+    "as_written": "EGCUT 370 / EGCUT Omni",
+    "role": "cohort",
+    "quote_id": "claims/roselli2018af_supp_table17.yaml#row-egcut370"
+   },
+   {
+    "id": "PARTNERS_BIOBANK",
+    "as_written": "PHB (MEGA) / PHB (MEGA Ex) / PHB (MEG)",
+    "role": "cohort",
+    "quote_id": "claims/roselli2018af_supp_table17.yaml#row-phb-mega"
+   },
+   {
+    "id": "UKB",
+    "as_written": "UK Biobank",
+    "role": "cohort",
+    "quote_id": "claims/roselli2018af_supp_table17.yaml#row-ukb"
+   },
+   {
+    "id": "BBJ",
+    "as_written": "BBJ",
+    "role": "case-control",
+    "quote_id": "claims/roselli2018af_supp_table17.yaml#row-bbj"
+   },
+   {
+    "id": "KORA",
+    "as_written": "AFLMU/ KORA referents; KORAgen controls for WTCCC2-Munich",
+    "role": "controls_only",
+    "quote_id": "claims/christophersen2017af_supp_note.yaml#aflmu-kora"
+   },
+   {
+    "id": "AGES",
+    "as_written": "AGES",
+    "role": "cohort",
+    "quote_id": "claims/christophersen2017af_supp_table1.yaml#row-ages"
+   },
+   {
+    "id": "BEAT_AF",
+    "as_written": "Beat-AF",
+    "role": "case-control",
+    "quote_id": "claims/christophersen2017af_supp_table1.yaml#row-beat-af"
+   },
+   {
+    "id": "GAPP",
+    "as_written": "GAPP study, Liechtenstein (Beat-AF referents)",
+    "role": "controls_only",
+    "quote_id": "claims/christophersen2017af_supp_note.yaml#ctrl-beat-af"
+   },
+   {
+    "id": "BIOME",
+    "as_written": "BioMe (EUR, AA, Hispanic)",
+    "role": "case-control",
+    "quote_id": "claims/christophersen2017af_supp_table1.yaml#row-biome-eur"
+   },
+   {
+    "id": "CCAF",
+    "as_written": "CCAF (Cleveland Clinic Lone AF GeneBank; 2,930 referents, source not described)",
+    "role": "case-control",
+    "quote_id": "claims/christophersen2017af_supp_table1.yaml#row-ccaf"
+   },
+   {
+    "id": "COROGENE",
+    "as_written": "COROGENE",
+    "role": "case-control",
+    "quote_id": "claims/christophersen2017af_supp_table1.yaml#row-corogene"
+   },
+   {
+    "id": "FHS",
+    "as_written": "FHS",
+    "role": "cohort",
+    "quote_id": "claims/christophersen2017af_supp_table1.yaml#row-fhs"
+   },
+   {
+    "id": "GENERATION_SCOTLAND",
+    "as_written": "GS_SFHS (Generation Scotland: Scottish Family Health Study)",
+    "role": "cohort",
+    "quote_id": "claims/christophersen2017af_supp_table1.yaml#row-gs-sfhs"
+   },
+   {
+    "id": "LURIC",
+    "as_written": "LURIC",
+    "role": "cohort",
+    "quote_id": "claims/christophersen2017af_supp_table1.yaml#row-luric"
+   },
+   {
+    "id": "MDC",
+    "as_written": "MDCS",
+    "role": "cohort",
+    "quote_id": "claims/christophersen2017af_supp_table1.yaml#row-mdcs"
+   },
+   {
+    "id": "MGH_CAMP",
+    "as_written": "MGH CAMP",
+    "role": "cohort",
+    "quote_id": "claims/christophersen2017af_supp_table1.yaml#row-mgh-camp"
+   },
+   {
+    "id": "SHIP",
+    "as_written": "SHIP",
+    "role": "cohort",
+    "quote_id": "claims/christophersen2017af_supp_table1.yaml#row-ship"
+   },
+   {
+    "id": "WTCCC2_MUNICH",
+    "as_written": "WTCCC2 Munich (cases)",
+    "role": "case-control",
+    "quote_id": "claims/christophersen2017af_supp_table1.yaml#row-wtccc2-munich"
+   },
+   {
+    "id": "ARIC",
+    "as_written": "ARIC (EUR and AA)",
+    "role": "cohort",
+    "quote_id": "claims/christophersen2017af_supp_table1.yaml#row-aric"
+   },
+   {
+    "id": "CHS",
+    "as_written": "CHS (EUR and AA)",
+    "role": "cohort",
+    "quote_id": "claims/christophersen2017af_supp_table1.yaml#row-chs"
+   },
+   {
+    "id": "MESA",
+    "as_written": "MESA",
+    "role": "cohort",
+    "quote_id": "claims/christophersen2017af_supp_table1.yaml#row-mesa"
+   },
+   {
+    "id": "PIVUS",
+    "as_written": "PIVUS",
+    "role": "cohort",
+    "quote_id": "claims/christophersen2017af_supp_table1.yaml#row-pivus"
+   },
+   {
+    "id": "PROSPER",
+    "as_written": "PROSPER",
+    "role": "cohort",
+    "quote_id": "claims/christophersen2017af_supp_table1.yaml#row-prosper"
+   },
+   {
+    "id": "TWINGENE",
+    "as_written": "TWINGENE",
+    "role": "cohort",
+    "quote_id": "claims/christophersen2017af_supp_table1.yaml#row-twingene"
+   },
+   {
+    "id": "ULSAM",
+    "as_written": "ULSAM",
+    "role": "cohort",
+    "quote_id": "claims/christophersen2017af_supp_table1.yaml#row-ulsam"
+   },
+   {
+    "id": "WGHS",
+    "as_written": "WGHS",
+    "role": "cohort",
+    "quote_id": "claims/christophersen2017af_supp_table1.yaml#row-wghs"
+   },
+   {
+    "id": "ANGES",
+    "as_written": "ANGES",
+    "role": "cohort",
+    "quote_id": "claims/christophersen2017af_supp_table1.yaml#row-anges"
+   },
+   {
+    "id": "FINCAVAS",
+    "as_written": "FINCAVAS",
+    "role": "cohort",
+    "quote_id": "claims/christophersen2017af_supp_table1.yaml#row-fincavas"
+   },
+   {
+    "id": "RS",
+    "as_written": "RS1 / RS2 / RS3",
+    "role": "cohort",
+    "quote_id": "claims/christophersen2017af_supp_table1.yaml#row-rs1"
+   },
+   {
+    "id": "SPHFC",
+    "as_written": "SPHFC (Sao Paulo Heart Failure Cohort)",
+    "role": "case-control",
+    "quote_id": "claims/christophersen2017af_supp_table1.yaml#row-sphfc"
+   }
+  ],
+  "replication_only": [],
+  "components_complete": "no",
+  "complete_reason": "Supplementary Table 17 (baseline summary for GWAS) was read in full and every row is listed. Missing: the SiGN rows (Groups 1, 2, 4-9; e.g. Group4 11,820 referents) are stroke-consortium groupings whose member studies and control sources are given only in Pulit 2016 (not read). Broad AF case-only sites are paired with pooled referents; the referent collections listed are those named in ST17.",
+  "includes_ukb": "yes",
+  "includes_iceland": "yes",
+  "pqtl_cohort_flags": {
+   "INTERVAL": "unknown",
+   "FENLAND": "unknown",
+   "ARIC": "yes",
+   "AGES": "yes",
+   "KORA": "yes",
+   "FHS": "yes",
+   "IMPROVE": "unknown",
+   "DECODE": "unknown",
+   "UKB": "yes"
+  },
+  "ancestry": "Multi-ethnic: 84.2% European, 12.5% Japanese, 2% African American, 1.3% Brazilian and Hispanic",
+  "sample_size": "65,446 cases; 522,744 referents",
+  "source_read": "NCBI efetch PMC6136836 (main text, Online Methods, Data availability); static-content.springer.com 41588_2018_133_MOESM14_ESM.xlsx (Supplementary Table 17) and 41588_2018_133_MOESM1_ESM.pdf (Supplementary Table 1, Supplementary Notes study descriptions); AFGen studies 'described elsewhere' resolved via Christophersen 2017 sources",
+  "claims_files": [
+   "claims/roselli2018af_main.yaml",
+   "claims/roselli2018af_supp_table17.yaml",
+   "claims/roselli2018af_supp_note.yaml",
+   "claims/christophersen2017af_supp_table1.yaml",
+   "claims/christophersen2017af_supp_note.yaml"
+  ],
+  "notes": "Iceland via AGES; deCODE not among ST17 rows. KORA via WTCCC2-Munich controls (KORAgen) and AFLMU/KORA as described in Christophersen 2017 (Roselli cites it for these studies). Roselli ST17 does not list AFLMU/KORA prevalent row separately from Broad AF AFLMU cases; KORA kept from the AFGen-described WTCCC2-Munich controls. MGH AF, CCAF referent sources not described."
+ }
+]

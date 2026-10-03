@@ -1,0 +1,19 @@
+source:
+  citation: kathiresan2009migen_main
+  local: sources/kathiresan2009migen_main.txt
+  sha256: bd920d5aa4aec1807e95e95eba1a4d38bc84c2eaf2840f86799fd3e5f6dcfd93
+  doi: 10.1038/ng.327
+  note: Kathiresan et al. 2009 Nat Genet 41:334 (MIGen early-onset MI GWAS), author manuscript full text
+    PMC2681011 from NCBI E-utilities efetch (db=pmc), paragraphs and table rows extracted with lxml, one
+    per line.
+claims:
+  table1-studies:
+    quotes:
+    - exact: Study | Italian ATVB Study | Heart Attack Risk in Puget Sound | REGICOR | MGH Premature Coronary
+        Artery Disease Study | FINRISK | Malmö Diet and Cancer Study
+      section: Table 1
+  six-sites:
+    quotes:
+    - exact: 'from six international sites: Boston and Seattle in the United States as well as Sweden,
+        Finland, Spain, and Italy (Table 1 and Supplementary Methods)'
+      section: Main text, Results

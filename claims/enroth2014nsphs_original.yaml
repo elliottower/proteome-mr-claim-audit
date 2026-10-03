@@ -1,0 +1,15 @@
+source:
+  citation: enroth2014nsphs
+  local: sources/original/enroth2014nsphs.xml
+  sha256: d926ccabd38c17d5283124363f58f8ac7432ecbad7b42b0d5ff1cdece1d2cb99
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC4143927/fullTextXML
+  doi: 10.1038/ncomms5684
+  note: 'Original file behind claims/enroth2014nsphs.yaml: Europe PMC fullTextXML of PMC4143927, read
+    as plain text with its markup. The quotations here are the quotations of that file that resolve in
+    this file under the citations readers; a quotation absent here is pinned to the extracted text there
+    only.'
+claims:
+  remained-77:
+    quotes:
+    - exact: After individual and protein quality control, 77 proteins measured in 970 individuals remained.
+      section: 'Methods: Multiplexed PEA'

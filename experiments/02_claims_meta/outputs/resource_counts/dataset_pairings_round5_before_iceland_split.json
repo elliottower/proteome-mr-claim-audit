@@ -1,0 +1,86 @@
+{
+ "label": "round5_before_iceland_split",
+ "written_utc": "2026-10-01T15:26:25+00:00",
+ "dictionary": "dataset_dictionary.csv",
+ "dictionary_sha256": "aad14e0c9e3aca427bd887ddfebd3407acc74e20c662082aee561d8b8f1cd3dc",
+ "components": "verification/dataset_components.csv",
+ "components_sha256": "2a4e155c4c5765c9ab9f9e9e6029c5add6e265de200344acc3d61149ae806d54",
+ "sides": {
+  "pqtl": {
+   "rows": 28,
+   "rows_complete": 28,
+   "rows_incomplete": [],
+   "row_pairs": 378,
+   "relations": {
+    "overlapping_participant_source": 59,
+    "disjoint": 319
+   }
+  },
+  "outcome": {
+   "rows": 93,
+   "rows_complete": 44,
+   "rows_incomplete": [
+    "AD and AD-by-proxy (Jansen 2019)",
+    "AFGen atrial fibrillation (Roselli 2018)",
+    "ALS (van Rheenen 2021)",
+    "ALS European ancestry (van Rheenen 2021)",
+    "BCAC breast cancer (Michailidou 2017)",
+    "BCAC breast cancer intrinsic subtypes, two-stage polytomous model (Zhang 2020)",
+    "BCAC breast cancer subtypes (Zhang 2020)",
+    "BCAC-CIMBA triple-negative / BRCA1 carrier meta-analysis (Zhang 2020)",
+    "CAD GWAS (Aragam 2022)",
+    "CAD GWAS cross-ancestry with Biobank Japan (Aragam 2022)",
+    "COVID-19 HGI (2021 Nature)",
+    "COVID-19 HGI release 7",
+    "Colorectal cancer (Fernandez-Rozadilla 2023)",
+    "DIAMANTE T2D (Mahajan 2022)",
+    "DIAMANTE T2D African (Mahajan 2022)",
+    "EADB (Bellenguez 2022)",
+    "GIANT + UK Biobank height and BMI (Yengo 2018)",
+    "GIANT BMI (Locke 2015)",
+    "GIANT BMI European (Locke 2015)",
+    "GIANT height (Yengo 2022)",
+    "GIANT height European excluding 23andMe (Yengo 2022)",
+    "GIANT height excluding 23andMe (Yengo 2022)",
+    "GIGASTROKE (Mishra 2022)",
+    "GLGC (Graham 2021)",
+    "GLGC (Willer 2013)",
+    "HERMES heart failure (Shah 2020)",
+    "IBD (de Lange 2017)",
+    "IIBDGC European IBD GWAS (Liu 2015, public summary statistics)",
+    "IIBDGC trans-ethnic IBD (Liu 2015)",
+    "ILCCO/TRICL OncoArray lung cancer (McKay 2017)",
+    "IMSGC multiple sclerosis (2019)",
+    "IPDGC Parkinson disease (Nalls 2019)",
+    "IPDGC Parkinson disease (Nalls 2019) excluding 23andMe",
+    "MAGIC glycemic traits (Chen 2021)",
+    "MEGASTROKE (Malik 2018)",
+    "PGC BIP (Mullins 2021)",
+    "PGC SCZ2 (2014)",
+    "PGC SCZ3 (Trubetskoy 2022)",
+    "PGC SCZ3 extended (Trubetskoy 2022)",
+    "PGC/iPSYCH ADHD (Demontis 2019)",
+    "PGC/iPSYCH/deCODE ADHD (Demontis 2023)",
+    "PRACTICAL/ELLIPSE prostate cancer (Schumacher 2018)",
+    "RA trans-ethnic (Okada 2014)",
+    "SLE (Bentham 2015)",
+    "TAGC asthma (Demenais 2018)",
+    "UK Biobank + CARDIoGRAMplusC4D CAD (van der Harst 2018)",
+    "UK Biobank + ICBP blood pressure (Evangelou 2018)",
+    "UK Biobank + TAGC asthma (Han 2020)",
+    "deCODE genetics outcome GWAS (summary data)"
+   ],
+   "row_pairs": 4278,
+   "relations": {
+    "overlapping_participant_source": 2813,
+    "unclear": 1063,
+    "disjoint": 402
+   }
+  }
+ },
+ "pqtl_by_outcome": {
+  "disjoint": 917,
+  "shared_component": 847,
+  "unclear": 840
+ }
+}

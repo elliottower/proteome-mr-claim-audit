@@ -1,0 +1,38 @@
+source:
+  citation: wuttke2019ckdgen_main
+  local: sources/original/wuttke2019ckdgen_main.xml
+  sha256: 0da61fda29da4877503f33664e4d4904cb6f143edee9c2985257561e0c790b44
+  url: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=PMC6698888
+  doi: 10.1038/s41588-019-0407-x
+  extractor: jats-text
+  note: 'Original file behind claims/wuttke2019ckdgen_main.yaml: the XML pinned in claims/wuttke2019ckdgen_main_original.yaml,
+    read by the citations extractor jats-text. The quotations here are those of that file that resolve
+    in this reading; a quotation absent here stays pinned where it already was.'
+  extractor_version: 1
+  derived_sha256: e5d50722b7be0bf7d6884deb19d027cf1fe66ceed1bf43091ccf27048329c315
+claims:
+  121-gwas:
+    quotes:
+    - exact: We performed 121 GWAS encompassing 765,348 individuals of European (n = 567,460), East Asian
+        (n = 165,726), African-American (n = 13,842), South Asian (n = 13,359) and Hispanic (n = 4,961)
+        ancestry
+      section: Results
+  121-files:
+    quotes:
+    - exact: Studies contributed 121 GWAS summary statistics files for eGFR (total post-quality-control
+        n = 765,348)
+      section: Methods
+  mvp-replication:
+    quotes:
+    - exact: We assessed replication in an independent trans-ancestry GWAS meta-analysis of eGFR performed
+        among 280,722 MVP participants
+      section: Results
+  ukb-grs-only:
+    quotes:
+    - exact: Genetic association results with diseases were obtained for 452,264 UK Biobank participants
+        available in the GeneAtlas75 database
+      section: Methods
+  data-availability:
+    quotes:
+    - exact: Genome-wide summary statistics for this study have been made publicly available at http://ckdgen.imbi.uni-freiburg.de.
+      section: Data availability

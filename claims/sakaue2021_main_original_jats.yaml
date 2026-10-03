@@ -1,0 +1,60 @@
+source:
+  citation: sakaue2021_main
+  local: sources/original/sakaue2021_main.xml
+  sha256: 8781bcd448659302ec07b2e39a3ae717871d2c999518c0f9db0321220bb9fff8
+  url: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=PMC12208603
+  doi: 10.1038/s41588-021-00931-x
+  extractor: jats-text
+  note: 'Original file behind claims/sakaue2021_main.yaml: the XML pinned in claims/sakaue2021_main_original.yaml,
+    read by the citations extractor jats-text. The quotations here are those of that file that resolve
+    in this reading; a quotation absent here stays pinned where it already was.'
+  extractor_version: 1
+  derived_sha256: c7aee0a7225f8b53c9e48fc725356d1d271a2d49f9d2f5ff0c1195bad0ccd780
+claims:
+  bbj-220:
+    quotes:
+    - exact: we conducted 220 deep-phenotype GWASs (diseases, biomarkers, and medication usage) in BioBank
+        Japan (n=179,000)
+      section: Abstract
+  meta-three:
+    quotes:
+    - exact: Meta-analyses with the UK Biobank and FinnGen (ntotal=628,000)
+      section: Abstract
+  bbj-12-institutions:
+    quotes:
+    - exact: BBJ is a prospective biobank that collaboratively collected DNA and serum samples from 12
+        medical institutions in Japan
+      section: 'Methods: GWAS of 220 traits in BBJ'
+  bbj-n:
+    quotes:
+    - exact: we analyzed 178,726 participants of East Asian ancestry
+      section: 'Methods: GWAS of 220 traits in BBJ'
+  ukb-finngen-gwas:
+    quotes:
+    - exact: We conducted the GWASs harmonized with BBJ in UKB and in FinnGen.
+      section: Methods
+  finngen-r3:
+    quotes:
+    - exact: For GWASs, we used the summary statistics of FinnGen release 3 data
+      section: Methods
+  meta-procedure:
+    quotes:
+    - exact: First, we performed intra-European meta-analysis when summary statistics of both UKB and
+        FinnGen were available, and then performed cross-population meta-analysis across three or two
+        cohorts
+      section: 'Methods: Meta-analysis'
+  ukb-medication:
+    quotes:
+    - exact: collected summary statistics of medication usage GWAS conducted in UKB20 (23 traits; Supplementary
+        Table 5)
+      section: Results
+  release:
+    quotes:
+    - exact: The summary statistics of GWASs in this study (BioBank Japan, European, and cross-population
+        meta-analyses) are also deposited at the National Bioscience Database Center (NBDC) Human Database
+      section: Data availability
+  gwas-catalog:
+    quotes:
+    - exact: GWAS Catalog (https://www.ebi.ac.uk/gwas/) with the study accession IDs from GCST90018563
+        to GCST90019002
+      section: Data availability

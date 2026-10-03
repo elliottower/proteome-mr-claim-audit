@@ -1,0 +1,19 @@
+source:
+  citation: nikpay2015cad_main
+  local: sources/nikpay2015cad_main.txt
+  sha256: ba437ad6c51b692c315625fac79bcb11bb5f412321a60e063ceb3c0ea83791f9
+  doi: 10.1038/ng.3396
+  note: Nikpay et al. 2015 Nat Genet 47:1121 (CARDIoGRAMplusC4D 1000 Genomes CAD). Full text from Europe
+    PMC fullTextXML PMC4589895, paragraphs and table rows extracted with lxml, one per line.
+claims:
+  n48:
+    quotes:
+    - exact: We assembled 60,801 cases and 123,504 controls from 48 studies for a GWAS meta-analysis of
+        CAD
+      section: Main text, introduction
+  ancestry:
+    quotes:
+    - exact: The majority (77%) of the participants were of European ancestry; 13% and 6% were of south
+        (India and Pakistan) and east (China and Korea) Asian ancestry with smaller samples of Hispanic
+        and African Americans
+      section: Main text, introduction

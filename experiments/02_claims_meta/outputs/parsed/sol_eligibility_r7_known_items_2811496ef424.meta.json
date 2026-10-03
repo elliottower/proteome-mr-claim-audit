@@ -1,0 +1,25 @@
+{
+ "task": "eligibility",
+ "label": "r7_known_items",
+ "revision": "2811496ef424",
+ "model_requested": "gpt-6.1-sol",
+ "models_returned": [
+  "gpt-6.1-sol"
+ ],
+ "reasoning_effort": "medium",
+ "endpoint": "https://api.openai.com/v1/responses",
+ "abstracts": "outputs/known_items/known_items_abstracts_24.jsonl",
+ "n_records": 24,
+ "n_ok": 24,
+ "n_extraction_failed": 0,
+ "n_needed_retry": 0,
+ "usage_new_requests_this_invocation": {
+  "requests": 24,
+  "input_tokens": 42233,
+  "cached_input_tokens": 30268,
+  "output_tokens": 3961,
+  "reasoning_tokens": 656
+ },
+ "started_utc": "2026-09-30T19:42:21.078+00:00",
+ "finished_utc": "2026-09-30T19:42:41.624+00:00"
+}

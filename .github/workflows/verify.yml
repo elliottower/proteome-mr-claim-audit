@@ -1,0 +1,72 @@
+# Checks the study's records on every push: the frozen plan, the results ledger and every hash
+# it names, the stage manifests, the numbers declared in repro.yaml, and the bibliography.
+# A second job, run by hand or weekly, fetches the pinned sources and checks every quotation
+# against them; it is separate because the downloads are several hundred megabytes and some
+# publishers refuse automated clients on some days.
+#
+# The tools are installed from reproducible-science at the commit whose extractors the claims
+# files name (sheet-rows, docx-text, jats-text); move the pin when a release ships them.
+name: verify
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 6 * * 1"
+
+permissions:
+  contents: read
+
+env:
+  TOOLS: git+https://github.com/elliottower/reproducible-science@7bace1c
+
+jobs:
+  records:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1  # v7.0.1
+      - uses: astral-sh/setup-uv@20cfd1bf945f4377ade1205e4dbc17946fc9a30d  # v10.0.1
+      - name: install the tools
+        run: |
+          uv tool install "prereg @ ${TOOLS}#subdirectory=packages/prereg" \
+            --with "provenance-core @ ${TOOLS}#subdirectory=packages/provenance-core"
+          uv tool install "results-cli @ ${TOOLS}#subdirectory=packages/results" \
+            --with "provenance-core @ ${TOOLS}#subdirectory=packages/provenance-core"
+          uv tool install "citations[sheets,docx] @ ${TOOLS}#subdirectory=packages/citations" \
+            --with "provenance-core @ ${TOOLS}#subdirectory=packages/provenance-core"
+          uv tool install "reproducible-science @ ${TOOLS}#subdirectory=packages/repro" \
+            --with "provenance-core @ ${TOOLS}#subdirectory=packages/provenance-core" \
+            --with "prereg @ ${TOOLS}#subdirectory=packages/prereg" \
+            --with "results-cli @ ${TOOLS}#subdirectory=packages/results" \
+            --with "citations @ ${TOOLS}#subdirectory=packages/citations"
+      - name: the plan has not changed since the freeze
+        working-directory: experiments/02_claims_meta
+        run: prereg check
+      - name: the ledger chain and every hash it names
+        run: results verify --files
+      - name: every file each stage manifest names
+        working-directory: experiments/02_claims_meta
+        run: uv run scripts/stage_record.py verify
+      - name: the numbers declared in repro.yaml
+        run: repro verify --policy strict
+      - name: the bibliography
+        run: citations lint --bib experiments/02_claims_meta/references.bib
+
+  sources:
+    if: github.event_name == 'workflow_dispatch' || github.event_name == 'schedule'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1  # v7.0.1
+      - uses: astral-sh/setup-uv@20cfd1bf945f4377ade1205e4dbc17946fc9a30d  # v10.0.1
+      - run: sudo apt-get install -y poppler-utils
+      - name: install citations
+        run: |
+          uv tool install "citations[sheets,docx] @ ${TOOLS}#subdirectory=packages/citations" \
+            --with "provenance-core @ ${TOOLS}#subdirectory=packages/provenance-core"
+      - name: fetch the pinned sources that are openly available
+        run: citations fetch --claims claims/ || true
+      - name: every quotation whose source could be fetched
+        # Not --strict: a source a publisher would not serve is `unchecked`, reported as such,
+        # and is not a failure of the quotation. `not found` fails.
+        run: citations verify --claims claims/

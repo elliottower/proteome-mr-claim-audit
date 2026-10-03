@@ -1,0 +1,31 @@
+source:
+  citation: ripke2014scz2_main
+  local: sources/ripke2014scz2_main.txt
+  sha256: d7ff8ecef5baa14d828b7612bcf8f978a745a032aff88cb3df7c9b52e9c74eca
+  url: https://pmc-oa-opendata.s3.amazonaws.com/PMC4112379.1/PMC4112379.1.txt
+  doi: 10.1038/nature13595
+  note: Main text of Schizophrenia Working Group of the PGC 2014 Nature 511:421-427 (PMC4112379, author
+    manuscript), plain-text rendering PMC4112379.1.txt from the PMC open-data bucket (pmc-oa-opendata.s3.amazonaws.com/PMC4112379.1/),
+    unmodified.
+claims:
+  primary-dataset:
+    quotes:
+    - exact: We obtained genome-wide genotype data from which we constructed 49 ancestry matched, non-overlapping
+        case-control samples (46 of European and three of East Asian ancestry, 34,241 cases and 45,604
+        controls) and 3 family-based samples of European ancestry (1,235 parent affected-offspring trios)
+        (Supplementary Table 1 and Supplementary text). These comprise the primary PGC GWAS dataset.
+      section: 'Results: 128 Independent Associated Loci'
+  decode-top-snps:
+    quotes:
+    - exact: For the subset of LD (linkage disequilibrium)-independent SNPs with P < 1×10−6 in the meta-analysis,
+        we next obtained results from deCODE genetics (1,513 cases and 66,236 controls of European ancestry).
+      section: 'Results: 128 Independent Associated Loci'
+  decode-combined:
+    quotes:
+    - exact: The deCODE data were then combined with those from the primary GWAS to give a dataset of
+        36,989 cases and 113,075 controls.
+      section: 'Results: 128 Independent Associated Loci'
+  download-url:
+    quotes:
+    - exact: Results can be downloaded from the Psychiatric Genomics Consortium website (http://pgc.unc.edu)
+      section: URLs

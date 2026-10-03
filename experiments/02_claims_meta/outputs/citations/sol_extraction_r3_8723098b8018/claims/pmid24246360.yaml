@@ -1,0 +1,23 @@
+source:
+  citation: pmid24246360
+  local: sources/pmid24246360.txt
+  sha256: 6f494dd355db05fe1ed726f1b058f98ec5d8fecea678ae101e67133d13dcd61d
+  url: https://pubmed.ncbi.nlm.nih.gov/24246360/
+  note: PubMed abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: 'A doubling in plasma CRP yielded an observed odds ratio (OR) of 1.28 (95% confidence interval
+        [CI]: 1.23-1.33) for hospitalization or death with depression, whereas for genetically elevated
+        CRP, the causal OR was .79 (95% CI: .51-1.22; observed vs. causal estimate, p = .03).'
+  c001:
+    quotes:
+    - exact: 'A doubling in plasma CRP yielded an observed odds ratio (OR) of 1.28 (95% confidence interval
+        [CI]: 1.23-1.33) for hospitalization or death with depression, whereas for genetically elevated
+        CRP, the causal OR was .79 (95% CI: .51-1.22; observed vs. causal estimate, p = .03). For prescription
+        antidepressant medication use, corresponding ORs were 1.12 (1.11-1.15) and .98 (.83-1.15; p =
+        .08).'
+  c002:
+    quotes:
+    - exact: Elevated CRP was associated with increased risk of depression in individuals in the general
+        population, but genetically elevated CRP was not.

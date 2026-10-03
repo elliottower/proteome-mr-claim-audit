@@ -1,0 +1,23 @@
+source:
+  citation: graham2021glgc_main
+  local: sources/original/graham2021glgc_main.xml
+  sha256: 8d46ed5ca3ad56378fd028b5ec971f1f1933aaded38d500a8c8c66c370c1fdff
+  url: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=PMC8730582
+  doi: 10.1038/s41586-021-04064-3
+  extractor: jats-text
+  note: 'Original file behind claims/graham2021glgc_main.yaml: the XML pinned in claims/graham2021glgc_main_original.yaml,
+    read by the citations extractor jats-text. The quotations here are those of that file that resolve
+    in this reading; a quotation absent here stays pinned where it already was.'
+  extractor_version: 1
+  derived_sha256: 8ee4c338518657f5f1774be13ac18b420cb70641a1f615c36588fcbfc0edf015
+claims:
+  201-primary-studies:
+    quotes:
+    - exact: The Global Lipids Genetics Consortium aggregated GWAS results from 1,654,960 individuals
+        from 201 primary studies representing five genetic ancestry groups
+      section: Results
+  data-availability:
+    quotes:
+    - exact: 'The GWAS meta-analysis results (including both ancestry-specific and trans-ancestry analyses)
+        and risk score weights are available at: http://csg.sph.umich.edu/willer/public/glgc-lipids2021.'
+      section: Data Availability

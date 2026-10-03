@@ -1,0 +1,20 @@
+source:
+  citation: schroeder2025v1
+  local: sources/original/schroeder2025v1.pdf
+  sha256: e13e71af1421d1a168b6ea7473bc50171d03f92bab15074d5fe6a4cf97eb109a
+  url: https://arxiv.org/pdf/2501.11840v1
+  doi: 10.48550/arXiv.2501.11840
+  arxiv: 2501.11840v1
+  note: 'Original file behind claims/schroeder2025v1.yaml: arXiv 2501.11840 version 1 PDF. The quotations
+    here are the quotations of that file that resolve in this file under the citations readers; a quotation
+    absent here is pinned to the extracted text there only.'
+claims:
+  hil:
+    quotes:
+    - exact: these results highlight the dire need for a human-in-the-loop (HIL) process for AI-assisted
+        data extraction
+      section: Abstract
+  agreement:
+    quotes:
+    - exact: 71.17%, 72.14%, and 62.43% of data extracted being consistent with human coding
+      section: Abstract

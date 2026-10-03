@@ -1,0 +1,75 @@
+source:
+  citation: jostins2012ibd_supp_table1
+  local: sources/jostins2012ibd_supp_table1.txt
+  sha256: 5f3ee59288ea95b4de09209ac23c936fdb9e7871faf09d571d148bff55ec4b25
+  doi: 10.1038/nature11582
+  note: Supplementary Table 1 (tab 1 GWAS Samples, tab 2 ImmunoChip Samples) of Jostins L et al. 2012
+    Nature 491:119-124, from ESM zip 41586_2012_BFnature11582_MOESM90_ESM.zip on static-content.springer.com,
+    converted with pandas, one row per line. Cited by Liu 2015 (ng.3359) as the description of the IIBDGC
+    GWAS cohorts.
+claims:
+  bel1:
+    quotes:
+    - exact: BEL1 | Belgium, France | ILMN317
+      section: Supplementary Table 1, tab GWAS Samples
+  bel2:
+    quotes:
+    - exact: BEL2 | Belgium | ILMN317
+      section: Supplementary Table 1, tab GWAS Samples
+  cedars-cd:
+    quotes:
+    - exact: CEDARS | USA | ILMN317 | 1.04
+      section: Supplementary Table 1, tab GWAS Samples
+  chop-cd:
+    quotes:
+    - exact: CHOP | USA, Canada, Italy, Scotland, Canada | ILMN550 | 1.06
+      section: Supplementary Table 1, tab GWAS Samples
+  german-cd:
+    quotes:
+    - exact: GERMAN | Germany | ILMN550
+      section: Supplementary Table 1, tab GWAS Samples
+  niddk-cd:
+    quotes:
+    - exact: NIDDK | USA, Canada | ILMN317
+      section: Supplementary Table 1, tab GWAS Samples
+  wtccc-cd:
+    quotes:
+    - exact: WTCCC | UK | AFFX500
+      section: Supplementary Table 1, tab GWAS Samples
+  cd-total:
+    quotes:
+    - exact: Total |  |  | 1.14 | 6299 | 5956 | 5937 | 15148 | 14927 | 8043
+      section: Supplementary Table 1, tab GWAS Samples
+  germany-uc:
+    quotes:
+    - exact: GERMANY | Germany | AFFX6
+      section: Supplementary Table 1, tab GWAS Samples
+  niddk1-uc:
+    quotes:
+    - exact: NIDDK1 | USA, Canada | ILMN550
+      section: Supplementary Table 1, tab GWAS Samples
+  niddk2-uc:
+    quotes:
+    - exact: NIDDK2 | USA, Canada | ILMN550
+      section: Supplementary Table 1, tab GWAS Samples
+  norwegian-uc:
+    quotes:
+    - exact: NORWEGIAN | Norway | AFFX6
+      section: Supplementary Table 1, tab GWAS Samples
+  swedish-uc:
+    quotes:
+    - exact: SWEDISH | Sweden | ILMN317
+      section: Supplementary Table 1, tab GWAS Samples
+  wtccc-uc:
+    quotes:
+    - exact: WTCCC | UK | AFFX6
+      section: Supplementary Table 1, tab GWAS Samples
+  uc-total:
+    quotes:
+    - exact: Total |  |  | 1.13 | 7211 | 6968 | 6945 | 20783 | 20464 | 13727
+      section: Supplementary Table 1, tab GWAS Samples
+  header:
+    quotes:
+    - exact: Study | Country | GWAS array | Lambda_GC | Cases (total) | Cases (QC+) | Cases (unique) |
+        Controls (total)
+      section: Supplementary Table 1, tab GWAS Samples

@@ -1,0 +1,7 @@
+{
+ "mutations": 55,
+ "killed": 55,
+ "not_killed": [],
+ "unmutated_suite_returncode": 1,
+ "unmutated_tail": " (lone[\"assignment\"], lone[\"ancestor_distance\"], lone[\"nearest_ancestors\"],\n                lone[\"several_equally_near_ancestors\"]) == (\"inherited\", 1, [\"near\"], False)\nE       AssertionError: assert ('inherited',...'top'], False) == ('inherited',...near'], False)\nE         \nE         At index 1 diff: 2 != 1\nE         Use -v to get more diff\n\ntest_therapeutic_areas.py:105: AssertionError\n=========================== short test summary info ============================\nFAILED test_therapeutic_areas.py::test_area_assignment_records_direct_inherited_distance_and_ties\n1 failed, 563 passed in 6.06s\n"
+}

@@ -1,0 +1,221 @@
+{
+ "run_id": "smoke_pre2019_20261002_no_abstract_rule",
+ "note": "pre-freeze smoke round (records first public before 2019) re-assembled under the no_abstract rule from stored responses and decisions: screening sets, gate audit, selection, registry, funnel; no request and no model call",
+ "written_utc": "2026-10-02T21:12:00+00:00",
+ "files": [
+  {
+   "path": "outputs/funnel/smoke_pre2019_20261002_no_abstract_rule/funnel.json",
+   "bytes": 9862,
+   "sha256": "36693a1c0aaa345258b960c3a5e8de2aa10b366cc17a14939d78569c28ea4fcb"
+  },
+  {
+   "path": "outputs/registry/smoke_pre2019_20261002_no_abstract_rule/dating_claims.jsonl",
+   "bytes": 0,
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+   "path": "outputs/registry/smoke_pre2019_20261002_no_abstract_rule/dating_claims_update.jsonl",
+   "bytes": 0,
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+   "path": "outputs/registry/smoke_pre2019_20261002_no_abstract_rule/families.json",
+   "bytes": 4261,
+   "sha256": "5d34d1bfbf8e266949d5c456ce300d5d565c000079b64acbe40544d6239bd5c7"
+  },
+  {
+   "path": "outputs/registry/smoke_pre2019_20261002_no_abstract_rule/families_meta.json",
+   "bytes": 755,
+   "sha256": "2d850df4b16791e3a988afb10f4d7af9c1e641e1c2d3125d9cfa189275e3fc64"
+  },
+  {
+   "path": "outputs/registry/smoke_pre2019_20261002_no_abstract_rule/record_dates.json",
+   "bytes": 137,
+   "sha256": "3c81f2abde1c5e5a9bda5cd2246f43a6c5e3f0925508d5ab9f7d457fe2a7216e"
+  },
+  {
+   "path": "outputs/registry/smoke_pre2019_20261002_no_abstract_rule/registry_assembly.json",
+   "bytes": 768,
+   "sha256": "9c93ce2f12c1ab46fe619a175b0034a25fee5b2a0234f68cf9e917c34ec634ae"
+  },
+  {
+   "path": "outputs/registry/smoke_pre2019_20261002_no_abstract_rule/registry_claims.jsonl",
+   "bytes": 1254,
+   "sha256": "b24964ba2a7d420fdac2871f086cd79144a3c8122747c79a38738744a2c19a69"
+  },
+  {
+   "path": "outputs/registry/smoke_pre2019_20261002_no_abstract_rule/registry_claims_update.jsonl",
+   "bytes": 0,
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+   "path": "outputs/screening_smoke/smoke_pre2019_20261002_no_abstract_rule/chase_round_1/chase_counts.json",
+   "bytes": 810,
+   "sha256": "f7c116762a4f71a66c3b6faba5da3994668eae1b79ed6b9cd85821cfc23ca3ac"
+  },
+  {
+   "path": "outputs/screening_smoke/smoke_pre2019_20261002_no_abstract_rule/chase_round_1/gate_audit_after_batch_01.json",
+   "bytes": 1093,
+   "sha256": "3f4c4eee8b8a3e2a3a3c733d290bd0c01e9fe49680b0143192e625baaff10213"
+  },
+  {
+   "path": "outputs/screening_smoke/smoke_pre2019_20261002_no_abstract_rule/chase_round_1/gate_sample_batch_01.jsonl",
+   "bytes": 128498,
+   "sha256": "dc9ece2e83aa74fb0eac0ea69e19a6b81e26fbcabfda046d7b7868ee9de808dd"
+  },
+  {
+   "path": "outputs/screening_smoke/smoke_pre2019_20261002_no_abstract_rule/chase_round_1/gated_out.jsonl",
+   "bytes": 128498,
+   "sha256": "dc9ece2e83aa74fb0eac0ea69e19a6b81e26fbcabfda046d7b7868ee9de808dd"
+  },
+  {
+   "path": "outputs/screening_smoke/smoke_pre2019_20261002_no_abstract_rule/chase_round_1/no_abstract.jsonl",
+   "bytes": 424,
+   "sha256": "17c9e6c57ce9ff60a3f78f6538ba87b00e8dff6ea1db7668d48861001ba4f3d3"
+  },
+  {
+   "path": "outputs/screening_smoke/smoke_pre2019_20261002_no_abstract_rule/chase_round_1/prefilter_counts.json",
+   "bytes": 213,
+   "sha256": "1fe100988e64e476c3bfc30260c7df89ba2c2d207bf6a7fe1eeef73da7e6d36e"
+  },
+  {
+   "path": "outputs/screening_smoke/smoke_pre2019_20261002_no_abstract_rule/chase_round_1/prefilter_marks.jsonl",
+   "bytes": 8380,
+   "sha256": "2a8bc171fea3918cd0894b7a931cdc17c80986019d6611ec3c7b30eed4e91f69"
+  },
+  {
+   "path": "outputs/screening_smoke/smoke_pre2019_20261002_no_abstract_rule/chase_round_1/screening_queue.jsonl",
+   "bytes": 18137,
+   "sha256": "d5c5b489f70a5d51eef9856583892c20db3abbdc8d1446ad363c2ff81ec74e94"
+  },
+  {
+   "path": "outputs/screening_smoke/smoke_pre2019_20261002_no_abstract_rule/chase_round_1/screening_records.jsonl",
+   "bytes": 195037,
+   "sha256": "404c513826b9d600b22963223dc60fd2b7f2f13f7859aaec0fa768ebd89d511a"
+  },
+  {
+   "path": "outputs/screening_smoke/smoke_pre2019_20261002_no_abstract_rule/chase_round_1/screening_set.jsonl",
+   "bytes": 146635,
+   "sha256": "d30f6a70ccc89a957b7eca4952a85d31bdc5c527484d2ae2e3953e097dffeecc"
+  },
+  {
+   "path": "outputs/screening_smoke/smoke_pre2019_20261002_no_abstract_rule/chase_round_1/search_records.jsonl",
+   "bytes": 33547,
+   "sha256": "ef5c9743f5b66bbb967054b6e5c7d3bd3d864e8fb75680d39b34b4a1b1980e05"
+  },
+  {
+   "path": "outputs/screening_smoke/smoke_pre2019_20261002_no_abstract_rule/decisions/sol_eligibility_smoke_pre2019_20261002_no_abstract_rule_2811496ef424.decisions.eligible_abstracts.jsonl",
+   "bytes": 1277,
+   "sha256": "c4d8a1599f744adcdcf415c2db4dd9c547b8f801f5ccd8f65818bd73efb056be"
+  },
+  {
+   "path": "outputs/screening_smoke/smoke_pre2019_20261002_no_abstract_rule/decisions/sol_eligibility_smoke_pre2019_20261002_no_abstract_rule_2811496ef424.decisions.eligible_records.jsonl",
+   "bytes": 1872,
+   "sha256": "31a9c0800cc5275425c05d5bafb77b74abee9ebd900eb34a720f04d83d8b1a20"
+  },
+  {
+   "path": "outputs/screening_smoke/smoke_pre2019_20261002_no_abstract_rule/decisions/sol_eligibility_smoke_pre2019_20261002_no_abstract_rule_2811496ef424.decisions.jsonl",
+   "bytes": 3910,
+   "sha256": "1279cc2858abf36a2b5cc1fc6bb27b998ea4e8e8d2ff79a28a3a2449372af038"
+  },
+  {
+   "path": "outputs/screening_smoke/smoke_pre2019_20261002_no_abstract_rule/decisions/sol_eligibility_smoke_pre2019_20261002_no_abstract_rule_chase1_2811496ef424.decisions.eligible_abstracts.jsonl",
+   "bytes": 1810,
+   "sha256": "4b999698729ed74015f65809608ac8df49ba316e7dd0fd1322684f6b7a842e3e"
+  },
+  {
+   "path": "outputs/screening_smoke/smoke_pre2019_20261002_no_abstract_rule/decisions/sol_eligibility_smoke_pre2019_20261002_no_abstract_rule_chase1_2811496ef424.decisions.eligible_records.jsonl",
+   "bytes": 2266,
+   "sha256": "2188ba0039a86d52b876a5a32ecd0b99c30abfc028dadededf5a2a7508c8d421"
+  },
+  {
+   "path": "outputs/screening_smoke/smoke_pre2019_20261002_no_abstract_rule/decisions/sol_eligibility_smoke_pre2019_20261002_no_abstract_rule_chase1_2811496ef424.decisions.jsonl",
+   "bytes": 1984,
+   "sha256": "34de5fea966a40e3cea19a4214d8e262244bfc4e603913fcbd522f6aff73f2a3"
+  },
+  {
+   "path": "outputs/screening_smoke/smoke_pre2019_20261002_no_abstract_rule/decisions/sol_eligibility_smoke_pre2019_20261002_no_abstract_rule_gate1b1_2811496ef424.decisions.jsonl",
+   "bytes": 17587,
+   "sha256": "c921bbcaf29975bc20f508ff26e97c7f61910eb70191573ffdcc1902964aebc7"
+  },
+  {
+   "path": "outputs/screening_smoke/smoke_pre2019_20261002_no_abstract_rule/decisions/sol_extraction_smoke_pre2019_20261002_no_abstract_rule_0b97103cd7a4.claim_checks.jsonl",
+   "bytes": 0,
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+   "path": "outputs/screening_smoke/smoke_pre2019_20261002_no_abstract_rule/decisions/sol_extraction_smoke_pre2019_20261002_no_abstract_rule_0b97103cd7a4.jsonl",
+   "bytes": 175,
+   "sha256": "232d2cf8b9b3e18f846d1c256e8488b43ac47fd642092f14d3272d4e44726585"
+  },
+  {
+   "path": "outputs/screening_smoke/smoke_pre2019_20261002_no_abstract_rule/decisions/sol_extraction_smoke_pre2019_20261002_no_abstract_rule_0b97103cd7a4.spans.jsonl",
+   "bytes": 0,
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+   "path": "outputs/screening_smoke/smoke_pre2019_20261002_no_abstract_rule/decisions/sol_extraction_smoke_pre2019_20261002_no_abstract_rule_chase1gate_0b97103cd7a4.claim_checks.jsonl",
+   "bytes": 5068,
+   "sha256": "cfa3e47b9d6dd57d3e24149ae8f3c246f2aaab61931238c225a50ca109603344"
+  },
+  {
+   "path": "outputs/screening_smoke/smoke_pre2019_20261002_no_abstract_rule/decisions/sol_extraction_smoke_pre2019_20261002_no_abstract_rule_chase1gate_0b97103cd7a4.jsonl",
+   "bytes": 2289,
+   "sha256": "150d77e031a5f0443b3fe1e81df4d5efc0020c83f5e234ff73369bc42adb3d2a"
+  },
+  {
+   "path": "outputs/screening_smoke/smoke_pre2019_20261002_no_abstract_rule/decisions/sol_extraction_smoke_pre2019_20261002_no_abstract_rule_chase1gate_0b97103cd7a4.spans.jsonl",
+   "bytes": 1275,
+   "sha256": "79625273b988299bf800b85156d7f0784fb766fbb4995391a0a9133be4805aa3"
+  },
+  {
+   "path": "outputs/screening_smoke/smoke_pre2019_20261002_no_abstract_rule/funnel.json",
+   "bytes": 1554,
+   "sha256": "a4f8a34a5b953e95b28571f941cec32824732b05036197be7889357f08185981"
+  },
+  {
+   "path": "outputs/screening_smoke/smoke_pre2019_20261002_no_abstract_rule/no_abstract.jsonl",
+   "bytes": 0,
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+   "path": "outputs/screening_smoke/smoke_pre2019_20261002_no_abstract_rule/prefilter_counts.json",
+   "bytes": 205,
+   "sha256": "ecfc05108c27ed805739b1d234a4ced0949e4fe748003d47dcfc14210b16ff29"
+  },
+  {
+   "path": "outputs/screening_smoke/smoke_pre2019_20261002_no_abstract_rule/prefilter_marks.jsonl",
+   "bytes": 1590,
+   "sha256": "2de4029a201109dce9fd5392ebe462aaca60fce4ddc0761b608ffdf8188f362c"
+  },
+  {
+   "path": "outputs/screening_smoke/smoke_pre2019_20261002_no_abstract_rule/retrieved_records.jsonl",
+   "bytes": 95950,
+   "sha256": "6b5b5bdb1b1f7239d507a0418277bfb3d74b22466b6575c1dd24ad2d8ff3d479"
+  },
+  {
+   "path": "outputs/screening_smoke/smoke_pre2019_20261002_no_abstract_rule/screening_queue.jsonl",
+   "bytes": 52084,
+   "sha256": "59c9615e7666e8c15724757daf9d7faa0f8e907ecd8c3329002c146ca3b3fc5b"
+  },
+  {
+   "path": "outputs/screening_smoke/smoke_pre2019_20261002_no_abstract_rule/screening_records.jsonl",
+   "bytes": 61647,
+   "sha256": "f5013be2ddbd5fd4b8d10c06087d49a91b1ee264d81cdd578c7f3fcd35693204"
+  },
+  {
+   "path": "outputs/screening_smoke/smoke_pre2019_20261002_no_abstract_rule/screening_set.jsonl",
+   "bytes": 52084,
+   "sha256": "59c9615e7666e8c15724757daf9d7faa0f8e907ecd8c3329002c146ca3b3fc5b"
+  },
+  {
+   "path": "outputs/screening_smoke/smoke_pre2019_20261002_no_abstract_rule/search_records.jsonl",
+   "bytes": 6506,
+   "sha256": "5dc964d032f3c70f022722afb14b8a073202b948250ebea5be5a9b558e2ebfbe"
+  }
+ ],
+ "recorded_directly": [
+  "outputs/funnel/smoke_pre2019_20261002_no_abstract_rule/funnel.json"
+ ],
+ "volume_checks": []
+}

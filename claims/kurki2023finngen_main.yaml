@@ -1,0 +1,28 @@
+source:
+  citation: kurki2023finngen_main
+  local: sources/kurki2023finngen_main.txt
+  sha256: 1cacabe5e482d5f15d12dbded9420bad85cc3250fafa7786c64d86856322f951
+  doi: 10.1038/s41586-022-05473-8
+  note: Main text of Kurki MI et al. 2023 Nature 613:508-518 (PMC9849126), Europe PMC fullTextXML with
+    tags stripped by a local script, one paragraph per line.
+claims:
+  legacy-and-new:
+    quotes:
+    - exact: FinnGen is a public–private partnership research project that combines imputed genotype data
+        generated from newly collected and legacy samples from Finnish biobanks
+      section: Introduction
+  legacy-70023:
+    quotes:
+    - exact: Data on 70,023 additional individuals were derived from legacy collections (Supplementary
+        Table 2)
+      section: Results
+  legacy-prospected:
+    quotes:
+    - exact: Samples in the FinnGen study include legacy samples (prospected number 200,000) from previous
+        research cohorts (often disease-specific) that have been transferred to the Finnish biobanks
+      section: 'Methods: Biobank samples'
+  thl-nonregional:
+    quotes:
+    - exact: The Finnish Institute for Health and Welfare (THL), the Blood Service and the Terveystalo
+        biobanks are not regional.
+      section: Figure 1 legend

@@ -1,0 +1,12 @@
+source:
+  citation: wightman2021_main
+  local: sources/wightman2021_main.txt
+  sha256: 12305c28da3cb730dbde64fe1e7786bfdbc71323f7d3c19ae4cd69b8d1889ac8
+  doi: 10.1038/s41588-021-00921-z
+  note: Author manuscript full text of Wightman et al. 2021 Nat Genet (PMC10243600), plain-text file PMC10243600.1.txt
+    from the PMC Cloud bucket pmc-oa-opendata, unmodified
+claims:
+  public_excludes_23andme:
+    quotes:
+    - exact: Summary statistics from the meta-analysis excluding 23andMe are available at https://ctg.cncr.nl/software/summary_statistics.
+      section: Data Availability Statement

@@ -1,0 +1,29 @@
+source:
+  citation: xu2023gnhs
+  local: sources/original/xu2023gnhs.xml
+  sha256: db73f198be83fe14910eadc36f17242f26d4721f167f1f3ce0b74536b2d65394
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9935862/fullTextXML
+  doi: 10.1038/s41467-023-36491-3
+  extractor: jats-text
+  note: 'Original file behind claims/xu2023gnhs.yaml: the XML pinned in claims/xu2023gnhs_original.yaml,
+    read by the citations extractor jats-text. The quotations here are those of that file that resolve
+    in this reading; a quotation absent here stays pinned where it already was.'
+  extractor_version: 1
+  derived_sha256: 4f22c2a69bb319e482a8b87ec1a0e4f8cb12bcd911f9a1e24b41d0358a68ca39
+claims:
+  platform-swath:
+    quotes:
+    - exact: Peptide samples were then analyzed by SWATH-MS over a 20 min linear LC gradient on a TripleTOF
+        5600 system (SCIEX, CA, USA) coupled to Eksigent NanoLC 400 System (Eksigent, Dublin, CA, USA).
+      section: 'Methods: Circulating proteomics profiling'
+  library-536:
+    quotes:
+    - exact: After SWATH acquisition, the wiff files were analyzed using DIA-NN (1.7.12)59 against a serum
+        spectral library containing 3474 peptide precursors and 536 unique proteins from Swiss-Prot database
+        of Homo Sapiens60.
+      section: 'Methods: Circulating proteomics profiling'
+  proteins-304:
+    quotes:
+    - exact: We employed a mixed linear model-based genome-wide association analysis (GCTA-MLMA) of approximately
+        5 million autosomal variants against levels of 304 proteins in four sub-cohorts of GNHS independently16,17
+      section: 'Results: Associations of the genetic variants with proteins'

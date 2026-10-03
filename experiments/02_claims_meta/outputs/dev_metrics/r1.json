@@ -1,0 +1,150 @@
+{
+ "label": "r1",
+ "written_utc": "2026-09-30T19:15:06+00:00",
+ "eligibility_file": "outputs/parsed/sol_eligibility_r1_eaaf2dc0f105.jsonl",
+ "extraction_file": "outputs/parsed/sol_extraction_r1_d47b02ccde28.jsonl",
+ "revisions": {
+  "eligibility": "eaaf2dc0f105",
+  "extraction": "d47b02ccde28"
+ },
+ "n_abstracts": 30,
+ "schema_validity": {
+  "eligibility_ok": 30,
+  "eligibility_needed_retry": 0,
+  "eligibility_failed": 0,
+  "extraction_ok": 30,
+  "extraction_needed_retry": 0,
+  "extraction_failed": 0
+ },
+ "eligibility_by_role": {
+  "near_miss_eqtl_mr": {
+   "ineligible": 2
+  },
+  "near_miss_gene_score_mr": {
+   "ineligible": 1
+  },
+  "near_miss_pqtl_discovery": {
+   "ineligible": 3
+  },
+  "near_miss_review": {
+   "ineligible": 3
+  },
+  "pqtl_mr_panel": {
+   "ineligible": 7
+  },
+  "single_protein_mr": {
+   "ineligible": 14
+  }
+ },
+ "eligibility_reasons": {
+  "no_protein_outcome_result": 14,
+  "no_circulating_protein_instruments": 16,
+  "fewer_than_100_proteins": 3,
+  "not_proteome_or_panel_wide": 21,
+  "excluded_review": 3
+ },
+ "claims_per_abstract_by_role": {
+  "near_miss_eqtl_mr": 0,
+  "near_miss_gene_score_mr": 4,
+  "near_miss_pqtl_discovery": 1,
+  "near_miss_review": 0,
+  "pqtl_mr_panel": 3,
+  "single_protein_mr": 63
+ },
+ "direction_values": {
+  "not_stated": 16,
+  "raises": 23,
+  "lowers": 16,
+  "null": 16
+ },
+ "spans": {
+  "extraction": "outputs/parsed/sol_extraction_r1_d47b02ccde28.jsonl",
+  "n_claims": 71,
+  "registered_check_pass": 71,
+  "citations_pin_found": 71,
+  "citations_found_only_after_punctuation_folding": 0,
+  "citations_normalized_warning": 0,
+  "both_pass": 71,
+  "span_verification_rate": 1.0,
+  "spans_over_two_sentences": 0,
+  "citations_verify_exit": 0
+ },
+ "claim_checks": {
+  "extraction": "outputs/parsed/sol_extraction_r1_d47b02ccde28.jsonl",
+  "reference_releases": {
+   "hgnc": "2026-09-04",
+   "uniprot": "2026_03",
+   "mondo": "v2026-09-01",
+   "efo": "v3.94.0"
+  },
+  "reference_sha256": {
+   "hgnc": "6f43d6ff43aa9fdfa5fb2f20a20a7cace66e6e02e2a0dcf19d9b726e2e248d20",
+   "uniprot": "8a9fda6847b0e8995f9f47626e6f829bf8640aabcd8ff746b95da1951130f29a",
+   "mondo": "50c8367f9bd9978321eedf84d4e2e79cb757efbed514c81effb00b9ad2e49994",
+   "efo": "1f7bdc48b91c17cd98742d8c0fca77d576d4d74998efd643e51b1b49602ca49c"
+  },
+  "lexicon": "verification/direction_lexicon.json",
+  "dataset_dictionary": null,
+  "n_claims": 71,
+  "span_pass": 71,
+  "protein_check": {
+   "pass": 67,
+   "protein_unmapped": 4
+  },
+  "protein_ambiguous_multiple_hgnc": 4,
+  "outcome_check": {
+   "outcome_unmapped": 25,
+   "pass": 45,
+   "outcome_not_in_span": 1
+  },
+  "direction_check": {
+   "not_applicable": 16,
+   "agrees": 25,
+   "direction_unverified": 29,
+   "disagrees": 1
+  },
+  "direction_check_among_directional_claims": {
+   "agrees": 25,
+   "direction_unverified": 29,
+   "disagrees": 1
+  },
+  "dataset_names": {
+   "no_dictionary": 20
+  },
+  "enters_registry": 43,
+  "enters_direction_results": 15,
+  "first_failure": {
+   "outcome_unmapped": 23,
+   "protein_unmapped": 4,
+   "outcome_not_in_span": 1
+  }
+ },
+ "usage": {
+  "eligibility": {
+   "exchanges": 30,
+   "input_tokens": 34425,
+   "cached_input_tokens": 0,
+   "output_tokens": 3545,
+   "reasoning_tokens": 1074,
+   "models_returned": [
+    "gpt-6.1-sol"
+   ],
+   "cost_usd_upper": 0.1043
+  },
+  "extraction": {
+   "exchanges": 30,
+   "input_tokens": 48615,
+   "cached_input_tokens": 33872,
+   "output_tokens": 21871,
+   "reasoning_tokens": 4829,
+   "models_returned": [
+    "gpt-6.1-sol"
+   ],
+   "cost_usd_upper": 0.31594
+  }
+ },
+ "prices_usd_per_mtok": {
+  "input": 2.0,
+  "output": 10.0
+ }
+}

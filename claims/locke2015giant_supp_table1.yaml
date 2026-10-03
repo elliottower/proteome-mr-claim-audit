@@ -1,0 +1,460 @@
+source:
+  citation: locke2015giant_supp_table1
+  local: sources/locke2015giant_supp_table1.txt
+  sha256: 8a4b14fa1550c5dc2c4024052475166ac09a409da31b706a2d525e7cad01a8ad
+  doi: 10.1038/nature14177
+  note: Supplementary Table 1 (study design, sample QC; GWAS and Metabochip studies) of Locke et al. 2015
+    Nature, ESM 41586_2015_BFnature14177_MOESM108_ESM.xlsx sheet 'S1-Study QC' from static-content.springer.com,
+    converted with openpyxl, one row per line, cells separated by ' | '
+claims:
+  c_ages:
+    quotes:
+    - exact: AGES | Age, Gene/Environment Susceptibility-Reykjavik Study
+      section: Supplementary Table 1 (study design and sample QC, GWAS and Metabochip)
+  c_amish_hapi:
+    quotes:
+    - exact: Amish HAPI Heart Study | Amish Heredity and Phenotype Intervention Heart Study
+      section: Supplementary Table 1 (study design and sample QC, GWAS and Metabochip)
+  c_aric:
+    quotes:
+    - exact: ARIC | Atherosclerosis Risk in Communities Study
+      section: Supplementary Table 1 (study design and sample QC, GWAS and Metabochip)
+  c_b58c:
+    quotes:
+    - exact: B58C (T1DGC) | British 1958 birth cohort (Type 1 Diabetes Genetic Consortium controls)
+      section: Supplementary Table 1 (study design and sample QC, GWAS and Metabochip)
+  c_bright:
+    quotes:
+    - exact: BRIGHT | The British Genetics of Hypertension (BRIGHT) Study
+      section: Supplementary Table 1 (study design and sample QC, GWAS and Metabochip)
+  c_wtccc:
+    quotes:
+    - exact: CAD_WTCCC | WTCCC Coronary Heart Disease cases
+      section: Supplementary Table 1 (study design and sample QC, GWAS and Metabochip)
+  c_caps:
+    quotes:
+    - exact: CAPS1 Cases | Cancer Prostate in Sweden 1
+      section: Supplementary Table 1 (study design and sample QC, GWAS and Metabochip)
+  c_chs:
+    quotes:
+    - exact: CHS | Cardiovascular Health Study
+      section: Supplementary Table 1 (study design and sample QC, GWAS and Metabochip)
+  c_colaus:
+    quotes:
+    - exact: CoLaus | Cohorte Lausannoise
+      section: Supplementary Table 1 (study design and sample QC, GWAS and Metabochip)
+  c_vis:
+    quotes:
+    - exact: CROATIA | VIS (EUROSPAN) and KORCULA
+      section: Supplementary Table 1 (study design and sample QC, GWAS and Metabochip)
+  c_korcula:
+    quotes:
+    - exact: CROATIA | VIS (EUROSPAN) and KORCULA
+      section: Supplementary Table 1 (study design and sample QC, GWAS and Metabochip)
+  c_decode:
+    quotes:
+    - exact: deCODE | deCODE genetics sample set
+      section: Supplementary Table 1 (study design and sample QC, GWAS and Metabochip)
+  c_dgi:
+    quotes:
+    - exact: DGI (cases) | Diabetes Genetics Initiative of Broad Institute of Harvard and MIT, Lund University,
+        and Novartis Institutes of BioMedical Research
+      section: Supplementary Table 1 (study design and sample QC, GWAS and Metabochip)
+  c_estonian_biobank:
+    quotes:
+    - exact: EGCUT | Estonian Genome Center, University of Tartu
+      section: Supplementary Table 1 (study design and sample QC, GWAS and Metabochip)
+  c_epic_obesity:
+    quotes:
+    - exact: EPIC-Obesity Study | European Prospective Investigation into Cancer and Nutrition - Obesity
+        Study
+      section: Supplementary Table 1 (study design and sample QC, GWAS and Metabochip)
+  c_fenland:
+    quotes:
+    - exact: Fenland | Fenland Study
+      section: Supplementary Table 1 (study design and sample QC, GWAS and Metabochip)
+  c_fhs:
+    quotes:
+    - exact: FRAM | Framingham Heart Study
+      section: Supplementary Table 1 (study design and sample QC, GWAS and Metabochip)
+  c_finnish_twin_cohort:
+    quotes:
+    - exact: FTC | Finnish Twin Cohort
+      section: Supplementary Table 1 (study design and sample QC, GWAS and Metabochip)
+  c_fusion:
+    quotes:
+    - exact: FUSION cases | Finland-United States Investigation of NIDDM Genetics
+      section: Supplementary Table 1 (study design and sample QC, GWAS and Metabochip)
+  c_health2000_genmets:
+    quotes:
+    - exact: GENMETS cases | Health 2000 / GENMETS substudy
+      section: Supplementary Table 1 (study design and sample QC, GWAS and Metabochip)
+  c_germifs:
+    quotes:
+    - exact: GerMiFSI | German Myocard Infarct Family Study I
+      section: Supplementary Table 1 (study design and sample QC, GWAS and Metabochip)
+  c_kora:
+    quotes:
+    - exact: KORA3 | Cooperative Health Research in the Region of Augsburg, KOoperative Gesundheitsforschung
+        in der Region Augsburg
+      section: Supplementary Table 1 (study design and sample QC, GWAS and Metabochip)
+  c_micros:
+    quotes:
+    - exact: MICROS | MICROS (EUROSPAN)
+      section: Supplementary Table 1 (study design and sample QC, GWAS and Metabochip)
+  c_migen:
+    quotes:
+    - exact: Migen (cases) | Myocardial Infarction Genetics Consortium
+      section: Supplementary Table 1 (study design and sample QC, GWAS and Metabochip)
+  c_ukbs:
+    quotes:
+    - exact: NBS_WTCCC | WTCCC National Blood Service donors
+      section: Supplementary Table 1 (study design and sample QC, GWAS and Metabochip)
+  c_nfbc1966:
+    quotes:
+    - exact: NFBC-1966 | Northern Finland Birth Cohorts 1966
+      section: Supplementary Table 1 (study design and sample QC, GWAS and Metabochip)
+  c_nhs:
+    quotes:
+    - exact: NHS | The Nurses' Health Study
+      section: Supplementary Table 1 (study design and sample QC, GWAS and Metabochip)
+  c_nsphs:
+    quotes:
+    - exact: NSPHS | Northern Sweden Population Health Study (EUROSPAN)
+      section: Supplementary Table 1 (study design and sample QC, GWAS and Metabochip)
+  c_ntr:
+    quotes:
+    - exact: NTRNESDA cases | Netherlands Twin Register & the Netherlands Study of Depression and Anxiety
+      section: Supplementary Table 1 (study design and sample QC, GWAS and Metabochip)
+  c_nesda:
+    quotes:
+    - exact: NTRNESDA cases | Netherlands Twin Register & the Netherlands Study of Depression and Anxiety
+      section: Supplementary Table 1 (study design and sample QC, GWAS and Metabochip)
+  c_orcades:
+    quotes:
+    - exact: ORCADES | Orkney Complex Disease Study (EUROSPAN)
+      section: Supplementary Table 1 (study design and sample QC, GWAS and Metabochip)
+  c_plco:
+    quotes:
+    - exact: PLCO | Prostate, Lung, Colorectal, and Ovarian Cancer Screening Trial
+      section: Supplementary Table 1 (study design and sample QC, GWAS and Metabochip)
+  c_rs:
+    quotes:
+    - exact: RS-I | Rotterdam Study I
+      section: Supplementary Table 1 (study design and sample QC, GWAS and Metabochip)
+  c_runmc:
+    quotes:
+    - exact: RUNMC | Nijmegen Bladder Cancer Study and Nijmegen Biomedical Study
+      section: Supplementary Table 1 (study design and sample QC, GWAS and Metabochip)
+  c_sasbac:
+    quotes:
+    - exact: SASBAC Cases | Swedish And Singapore Breast Association Consortium
+      section: Supplementary Table 1 (study design and sample QC, GWAS and Metabochip)
+  c_search_ukops:
+    quotes:
+    - exact: SEARCH/UKOPS | Studies of Epidemiology and Risk factors in Cancer Heredity / UK Ovarian Cancer
+        Population Study
+      section: Supplementary Table 1 (study design and sample QC, GWAS and Metabochip)
+  c_ship:
+    quotes:
+    - exact: SHIP | Study of Health in Pomerania
+      section: Supplementary Table 1 (study design and sample QC, GWAS and Metabochip)
+  c_athero_express:
+    quotes:
+    - exact: AE | Athero-Express Biobank Study
+      section: Supplementary Table 1 (study design and sample QC, GWAS and Metabochip)
+  c_ascot:
+    quotes:
+    - exact: ASCOT | Anglo-Scandinavian Cardiac Outcome Trial
+      section: Supplementary Table 1 (study design and sample QC, GWAS and Metabochip)
+  c_blsa:
+    quotes:
+    - exact: BLSA | Baltimore Longitudinal Study on Aging
+      section: Supplementary Table 1 (study design and sample QC, GWAS and Metabochip)
+  c_busselton:
+    quotes:
+    - exact: BSN (BHS) | Busselton Health Study
+      section: Supplementary Table 1 (study design and sample QC, GWAS and Metabochip)
+  c_corogene:
+    quotes:
+    - exact: COROGENE | Genetic Predisposition of Coronary Heart Disease in Patients Verified with Coronary
+        Angiogram
+      section: Supplementary Table 1 (study design and sample QC, GWAS and Metabochip)
+  c_desir:
+    quotes:
+    - exact: DESIR | Data from an Epidemiological Study on the Insulin Resistance syndrome | Population-based
+        | white European | 731
+      section: Supplementary Table 1 (study design and sample QC, GWAS and Metabochip)
+  c_dnbc:
+    quotes:
+    - exact: DNBC | Danish National Birth Cohort - Preterm Delivery Study
+      section: Supplementary Table 1 (study design and sample QC, GWAS and Metabochip)
+  c_erf:
+    quotes:
+    - exact: Erasmus Ruchphen Family Study (ERF) | Erasmus Rucphen Family Study
+      section: Supplementary Table 1 (study design and sample QC, GWAS and Metabochip)
+  c_famhs:
+    quotes:
+    - exact: FamHS | Family Heart Study
+      section: Supplementary Table 1 (study design and sample QC, GWAS and Metabochip)
+  c_fingesture:
+    quotes:
+    - exact: FinGesture cases | Finnish Genetic Study of Arrhythmic Events
+      section: Supplementary Table 1 (study design and sample QC, GWAS and Metabochip)
+  c_good:
+    quotes:
+    - exact: GOOD | Gothenburg Osteoporosis and Obesity Determinants Study
+      section: Supplementary Table 1 (study design and sample QC, GWAS and Metabochip)
+  c_habc:
+    quotes:
+    - exact: Health ABC | Health, Aging, and Body Composition Study
+      section: Supplementary Table 1 (study design and sample QC, GWAS and Metabochip)
+  c_hbcs:
+    quotes:
+    - exact: HBCS | Helsinki Birth Cohort Study
+      section: Supplementary Table 1 (study design and sample QC, GWAS and Metabochip)
+  c_heritage:
+    quotes:
+    - exact: HERITAGE Family Study | Health, Risk Factors, Training and Genetics (HERITAGE) Family Study
+      section: Supplementary Table 1 (study design and sample QC, GWAS and Metabochip)
+  c_inchianti:
+    quotes:
+    - exact: InCHIANTI | Invecchiare in Chianti
+      section: Supplementary Table 1 (study design and sample QC, GWAS and Metabochip)
+  c_biome:
+    quotes:
+    - exact: IPM (Mount Sinai BioMe) | The Charles Bronfman Institute for Personalized Medicine BioMe
+        Biobank Program
+      section: Supplementary Table 1 (study design and sample QC, GWAS and Metabochip)
+  c_lifelines:
+    quotes:
+    - exact: LifeLines | LifeLines Cohort study
+      section: Supplementary Table 1 (study design and sample QC, GWAS and Metabochip)
+  c_lls:
+    quotes:
+    - exact: LLS | Leiden Longevity Study
+      section: Supplementary Table 1 (study design and sample QC, GWAS and Metabochip)
+  c_lolipop:
+    quotes:
+    - exact: LOLIPOP_EW610 | London Life Sciences Prospective Population Study
+      section: Supplementary Table 1 (study design and sample QC, GWAS and Metabochip)
+  c_mgs:
+    quotes:
+    - exact: MGS | Molecular Genetics of Schizophrenia/NIMH Repository Control Sample
+      section: Supplementary Table 1 (study design and sample QC, GWAS and Metabochip)
+  c_nelson:
+    quotes:
+    - exact: NELSON | Dutch and Belgian Lung Cancer Screening Trial
+      section: Supplementary Table 1 (study design and sample QC, GWAS and Metabochip)
+  c_procardis:
+    quotes:
+    - exact: PROCARDIS | Precocious Coronary Artery Disease
+      section: Supplementary Table 1 (study design and sample QC, GWAS and Metabochip)
+  c_prosper:
+    quotes:
+    - exact: PROSPER/PHASE | The PROspective study of Pravastatin in the Elderly at Risk for vascular
+        disease
+      section: Supplementary Table 1 (study design and sample QC, GWAS and Metabochip)
+  c_qfs:
+    quotes:
+    - exact: QFS | Quebec Family Study
+      section: Supplementary Table 1 (study design and sample QC, GWAS and Metabochip)
+  c_qimr:
+    quotes:
+    - exact: QIMR | Twin study at Queensland Instutite of Medical Rearch
+      section: Supplementary Table 1 (study design and sample QC, GWAS and Metabochip)
+  c_risc:
+    quotes:
+    - exact: RISC | Relationship between Insulin Sensitivity and Cardiovascular disease Study
+      section: Supplementary Table 1 (study design and sample QC, GWAS and Metabochip)
+  c_ship_trend:
+    quotes:
+    - exact: SHIP-TREND | Study of Health in Pomerania - TREND
+      section: Supplementary Table 1 (study design and sample QC, GWAS and Metabochip)
+  c_sorbs:
+    quotes:
+    - exact: Sorbs | Sorbs are self-contained population from Eastern Germany, European Descent
+      section: Supplementary Table 1 (study design and sample QC, GWAS and Metabochip)
+  c_trails:
+    quotes:
+    - exact: TRAILS | Tracking Adolescents' Individual Lives Survey
+      section: Supplementary Table 1 (study design and sample QC, GWAS and Metabochip)
+  c_twingene:
+    quotes:
+    - exact: TWINGENE | TWINGENE
+      section: Supplementary Table 1 (study design and sample QC, GWAS and Metabochip)
+  c_twinsuk:
+    quotes:
+    - exact: TwinsUK | TwinsUK
+      section: Supplementary Table 1 (study design and sample QC, GWAS and Metabochip)
+  c_wghs:
+    quotes:
+    - exact: WGHS | Women's Genome Health Study
+      section: Supplementary Table 1 (study design and sample QC, GWAS and Metabochip)
+  c_yfs:
+    quotes:
+    - exact: YFS | The Cardiovascular Risk in Young Finns Study
+      section: Supplementary Table 1 (study design and sample QC, GWAS and Metabochip)
+  c_advance:
+    quotes:
+    - exact: ADVANCE-CAD | Atherosclerotic Disease, VAscular FuNction, & GenetiC Epidemiology study
+      section: Supplementary Table 1 (study design and sample QC, GWAS and Metabochip)
+  c_amc_pas:
+    quotes:
+    - exact: AMC-PAS | Academic Medical Centre Amsterdam Premature Atherosclerosis Study
+      section: Supplementary Table 1 (study design and sample QC, GWAS and Metabochip)
+  c_cardiogenics:
+    quotes:
+    - exact: CARDIOGENICS | CARDIOGENICS
+      section: Supplementary Table 1 (study design and sample QC, GWAS and Metabochip)
+  c_clhns:
+    quotes:
+    - exact: CLHNS | Cebu Longitudinal Health and Nutrition Survey (Offspring)
+      section: Supplementary Table 1 (study design and sample QC, GWAS and Metabochip)
+  c_fin_d2d2007:
+    quotes:
+    - exact: D2D 2007 | FIN-D2D study, 2007 cohort
+      section: Supplementary Table 1 (study design and sample QC, GWAS and Metabochip)
+  c_diagen:
+    quotes:
+    - exact: DIAGEN | The DIAbetes GENetics Study
+      section: Supplementary Table 1 (study design and sample QC, GWAS and Metabochip)
+  c_dilgom:
+    quotes:
+    - exact: DILGOM | Dietary, life style, and genetic determinants of obesity and metabolic syndrome
+      section: Supplementary Table 1 (study design and sample QC, GWAS and Metabochip)
+  c_dps:
+    quotes:
+    - exact: DPS | Diabetes Prevention Study
+      section: Supplementary Table 1 (study design and sample QC, GWAS and Metabochip)
+  c_drs_extra:
+    quotes:
+    - exact: DR'S EXTRA | DR'S EXTRA
+      section: Supplementary Table 1 (study design and sample QC, GWAS and Metabochip)
+  c_dundee:
+    quotes:
+    - exact: DUNDEE | DUNDEE
+      section: Supplementary Table 1 (study design and sample QC, GWAS and Metabochip)
+  c_edinburgh_artery:
+    quotes:
+    - exact: EAS | Edinburgh Artery Study
+      section: Supplementary Table 1 (study design and sample QC, GWAS and Metabochip)
+  c_ely:
+    quotes:
+    - exact: Ely Study | MRC Ely Study
+      section: Supplementary Table 1 (study design and sample QC, GWAS and Metabochip)
+  c_emil:
+    quotes:
+    - exact: EMIL (SWABIA) | Echinococcus Multilocularis and Internal Diseases in Leutkirch (EMIL) study
+      section: Supplementary Table 1 (study design and sample QC, GWAS and Metabochip)
+  c_epic_norfolk:
+    quotes:
+    - exact: EPIC-Norfolk T2D | EPIC (European Prospective Investigation into Cancer) Norfolk T2D case-Cohort
+        Study
+      section: Supplementary Table 1 (study design and sample QC, GWAS and Metabochip)
+  c_gennet:
+    quotes:
+    - exact: 'FBPP | Family Blood Pressure Program: GenNet and HyperGEN studies'
+      section: Supplementary Table 1 (study design and sample QC, GWAS and Metabochip)
+  c_hypergen:
+    quotes:
+    - exact: 'FBPP | Family Blood Pressure Program: GenNet and HyperGEN studies'
+      section: Supplementary Table 1 (study design and sample QC, GWAS and Metabochip)
+  c_glacier:
+    quotes:
+    - exact: GLACIER | Gene x Lifestyle interactions And Complex traits Involved in Elevated disease Risk
+      section: Supplementary Table 1 (study design and sample QC, GWAS and Metabochip)
+  c_gxe_kingston:
+    quotes:
+    - exact: GXE | Kingston Gene-by-environment; subset of International Collaborative Study of Hypertension
+        in Blacks (ICSHIB)
+      section: Supplementary Table 1 (study design and sample QC, GWAS and Metabochip)
+  c_hnr:
+    quotes:
+    - exact: HNR | Heinz Nixdorf Recall
+      section: Supplementary Table 1 (study design and sample QC, GWAS and Metabochip)
+  c_hunt:
+    quotes:
+    - exact: HUNT 2 | The Nord-Trøndelag Health Study 2
+      section: Supplementary Table 1 (study design and sample QC, GWAS and Metabochip)
+  c_improve:
+    quotes:
+    - exact: IMPROVE | Carotid Intima Media Thickness [IMT] and IMT-Progression as Predictors of Vascular
+        Events in a High Risk European Population
+      section: Supplementary Table 1 (study design and sample QC, GWAS and Metabochip)
+  c_leipzig_adults:
+    quotes:
+    - exact: Leipzig Adults | Leipzig adults
+      section: Supplementary Table 1 (study design and sample QC, GWAS and Metabochip)
+  c_luric:
+    quotes:
+    - exact: LURIC | Ludwigshafen Risk and Cardiovascular Health Study
+      section: Supplementary Table 1 (study design and sample QC, GWAS and Metabochip)
+  c_mec:
+    quotes:
+    - exact: MEC Metabochip | Multiethnic Cohort Study
+      section: Supplementary Table 1 (study design and sample QC, GWAS and Metabochip)
+  c_metsim:
+    quotes:
+    - exact: METSIM | Metabolic Syndrome In Men
+      section: Supplementary Table 1 (study design and sample QC, GWAS and Metabochip)
+  c_morgam:
+    quotes:
+    - exact: MORGAM | MOnica Risk, Genetics, Archiving and Monograph
+      section: Supplementary Table 1 (study design and sample QC, GWAS and Metabochip)
+  c_nshd:
+    quotes:
+    - exact: MRC NSHD | MRC National Survey of Health & Development
+      section: Supplementary Table 1 (study design and sample QC, GWAS and Metabochip)
+  c_pivus:
+    quotes:
+    - exact: PIVUS | Prospective Investigation of the Vasculature in Uppsala Seniors
+      section: Supplementary Table 1 (study design and sample QC, GWAS and Metabochip)
+  c_promis:
+    quotes:
+    - exact: PROMIS | Pakistan Risk of Myocardial Infarction Study
+      section: Supplementary Table 1 (study design and sample QC, GWAS and Metabochip)
+  c_sardinia:
+    quotes:
+    - exact: SardiNIA | SardiNIA Study on Aging
+      section: Supplementary Table 1 (study design and sample QC, GWAS and Metabochip)
+  c_scarfsheep:
+    quotes:
+    - exact: SCARFSHEEP | Stockholm Coronary Artery Risk Factors/Stockholm Heart Epidemiology Progrgramme
+      section: Supplementary Table 1 (study design and sample QC, GWAS and Metabochip)
+  c_spanish_town:
+    quotes:
+    - exact: SPT | Spanish Town
+      section: Supplementary Table 1 (study design and sample QC, GWAS and Metabochip)
+  c_str:
+    quotes:
+    - exact: STR | Swedish Twin Registry
+      section: Supplementary Table 1 (study design and sample QC, GWAS and Metabochip)
+  c_tandem:
+    quotes:
+    - exact: TANDEM | Seychelles Family Study (TANDEM)
+      section: Supplementary Table 1 (study design and sample QC, GWAS and Metabochip)
+  c_thiseas:
+    quotes:
+    - exact: THISEAS | The Hellenic study of Interactions between Snps and Eating in Atherosclerosis Susceptibility
+      section: Supplementary Table 1 (study design and sample QC, GWAS and Metabochip)
+  c_tromso:
+    quotes:
+    - exact: Tromsø | Tromsø 4
+      section: Supplementary Table 1 (study design and sample QC, GWAS and Metabochip)
+  c_ulsam:
+    quotes:
+    - exact: ULSAM | Uppsala Longitudinal Study of Adult Men
+      section: Supplementary Table 1 (study design and sample QC, GWAS and Metabochip)
+  c_whi:
+    quotes:
+    - exact: WHI Metabochip | Womens Health Initiative
+      section: Supplementary Table 1 (study design and sample QC, GWAS and Metabochip)
+  c_whitehall2:
+    quotes:
+    - exact: Whitehall | The Whitehall II study
+      section: Supplementary Table 1 (study design and sample QC, GWAS and Metabochip)
+  c_hrs:
+    quotes:
+    - exact: HRS | Health and Retirement Study
+      section: Supplementary Table 1 (study design and sample QC, GWAS and Metabochip)

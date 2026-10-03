@@ -1,0 +1,19 @@
+source:
+  citation: gibson2022preprint
+  local: sources/original/gibson2022preprint.pdf
+  sha256: 4150229e6f61aeabb034be17ff2cf72eb10f6cc424ba3ed1783bdba431d07ec9
+  url: https://www.medrxiv.org/content/medrxiv/early/2022/04/26/2022.04.25.22274252.full.pdf
+  doi: 10.1101/2022.04.25.22274252
+  note: 'Original file behind claims/gibson2022preprint.yaml: medRxiv version 1 PDF (the copy served at
+    the url, which differs in bytes from the copy the text pin was extracted from). The quotations here
+    are the quotations of that file that resolve in this file under the citations readers; a quotation
+    absent here is pinned to the extracted text there only.'
+claims:
+  oa-status:
+    quotes:
+    - exact: open access status (“Yes” = 81% [52], “Partially” = 12% [8]
+      section: Methods, Statistical analysis
+  n-64:
+    quotes:
+    - exact: A total of 64 articles were included in the final sample
+      section: Results

@@ -1,0 +1,14 @@
+source:
+  citation: skrivankova2021jama
+  local: sources/strobe_mr_jama2021.raw.txt
+  sha256: 2c851c74c027df381e65f1045aa3cfa42166c5538f3855147e925e6dc8154a1e
+  doi: 10.1001/jama.2021.18236
+  note: Publisher PDF via OpenAlex content endpoint (University of Groningen repository copy of the VoR),
+    pdftotext. Skrivankova VW, Richmond RC, Woolf BAR, Yarmolinsky J, Davies NM, Swanson SA, VanderWeele
+    TJ, Higgins JPT, Timpson NJ, Dimou N, Langenberg C, Golub RM, Loder EW, Gallo V, Tybjaerg-Hansen A,
+    Davey Smith G, Egger M, Richards JB. The STROBE-MR Statement. JAMA 2021;326(16):1614-1621. PMID 34698778.
+claims:
+  items:
+    quotes:
+    - exact: includes 20 main items and 30 subitems for reporting the results of MR studies
+      section: Key Points, Findings

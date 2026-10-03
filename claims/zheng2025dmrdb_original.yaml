@@ -1,0 +1,15 @@
+source:
+  citation: zheng2025dmrdb
+  local: sources/original/zheng2025dmrdb.xml
+  sha256: 8b9f8f10a830d51517d681132c48215740bed2932514f8de0a2a6f634661aeea
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11701675/fullTextXML
+  doi: 10.1093/nar/gkae853
+  note: 'Original file behind claims/zheng2025dmrdb.yaml: Europe PMC fullTextXML of PMC11701675, read
+    as plain text with its markup. The quotations here are the quotations of that file that resolve in
+    this file under the citations readers; a quotation absent here is pinned to the extracted text there
+    only.'
+claims:
+  literature:
+    quotes:
+    - exact: over 380 000 causal relationship pairs from 1223 literature sources relevant to MR analyses
+      section: Abstract

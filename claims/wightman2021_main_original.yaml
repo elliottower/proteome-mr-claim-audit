@@ -1,0 +1,15 @@
+source:
+  citation: wightman2021_main
+  local: sources/original/wightman2021_main.txt
+  sha256: 71ddaa4bd51b03a7cf85385340d6add6feba79453c467ffe9e7767c5d18c6b04
+  url: https://pmc-oa-opendata.s3.amazonaws.com/PMC10243600.1/PMC10243600.1.txt
+  doi: 10.1038/s41588-021-00921-z
+  note: 'Original file behind claims/wightman2021_main.yaml: PMC10243600.1.txt from the PMC open-data
+    bucket, without the one-line header the text pin adds. The quotations here are the quotations of that
+    file that resolve in this file under the citations readers; a quotation absent here is pinned to the
+    extracted text there only.'
+claims:
+  public_excludes_23andme:
+    quotes:
+    - exact: Summary statistics from the meta-analysis excluding 23andMe are available at https://ctg.cncr.nl/software/summary_statistics.
+      section: Data Availability Statement

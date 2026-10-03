@@ -1,0 +1,25 @@
+source:
+  citation: enroth2014nsphs
+  local: sources/enroth2014nsphs.txt
+  sha256: 387bffd307cc5b9d396fc491add9552a126720c64e030d0da1868011db837685
+  doi: 10.1038/ncomms5684
+  note: Full text from Europe PMC fullTextXML (PMC4143927), tags stripped, one title or paragraph per
+    line. Enroth S et al. 2014 Nat Commun (Strong effects of genetic and lifestyle factors on biomarker
+    variation and use of personalized cutoffs). PMID 25147954.
+claims:
+  platform-onc1:
+    quotes:
+    - exact: Protein levels in plasma were analysed using the Olink Proseek Multiplex Oncology I 96 ×
+        96 kit and quantified by real-time PCR using the Fluidigm BioMark HD real-time PCR platform as
+        described earlier10.
+      section: 'Methods: Multiplexed PEA'
+  proteins-92:
+    quotes:
+    - exact: The abundance of 92 proteins (Supplementary Data 1), representing a panel of established
+        and potential biomarkers for cancer and inflammation, were measured in blood plasma of 1,005 individuals
+        from the Northern Sweden Population Health Study (NSPHS), using PEA and qPCR.
+      section: 'Results: Biomarker measurements'
+  remained-77:
+    quotes:
+    - exact: After individual and protein quality control, 77 proteins measured in 970 individuals remained.
+      section: 'Methods: Multiplexed PEA'

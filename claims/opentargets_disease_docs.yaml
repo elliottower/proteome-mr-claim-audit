@@ -1,0 +1,13 @@
+source:
+  citation: opentargets_disease_docs
+  local: sources/opentargets_disease.txt
+  sha256: 342d50a97df9bb358148a3baca238c7fc10f597f4e2ef90dc27bbf7423f609a8
+  url: https://platform-docs.opentargets.org/disease-or-phenotype
+  note: Open Targets Platform documentation page "Disease or Phenotype", platform-docs.opentargets.org/disease-or-phenotype,
+    retrieved 2026-09-30, tags stripped.
+claims:
+  efo-scaffold:
+    quotes:
+    - exact: The EMBL-EBI Experimental Factor Ontology (EFO) is used as scaffold for the disease or phenotype
+        entity.
+      section: Overview

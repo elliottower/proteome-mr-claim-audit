@@ -1,0 +1,29 @@
+source:
+  citation: michailidou2017bcac_ref20_michailidou2015_main
+  local: sources/original/michailidou2017bcac_ref20_michailidou2015_main.xml
+  sha256: 64273cc8958402153768df5d1fa74b476212ceefe08f2c0f92831600fa8210e4
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC4549775/fullTextXML
+  doi: 10.1038/ng.3242
+  extractor: jats-text
+  note: 'Original file behind claims/michailidou2017bcac_ref20_michailidou2015_main.yaml: the XML pinned
+    in claims/michailidou2017bcac_ref20_michailidou2015_main_original.yaml, read by the citations extractor
+    jats-text. The quotations here are those of that file that resolve in this reading; a quotation absent
+    here stays pinned where it already was.'
+  extractor_version: 1
+  derived_sha256: 98fffeb0ae007871ffcafd5649b8a3e4dbad5fc15497faf074cc17c683e3dc8f
+claims:
+  icogs_41_studies:
+    quotes:
+    - exact: After quality control (QC) exclusions, the dataset comprised 15,748 breast cancer cases and
+        18,084 controls from GWAS, and 46,785 cases and 42,892 controls from 41 studies genotyped with
+        iCOGS (see Online Methods and Supplementary Tables 1a–1e ).
+      section: Results (Michailidou 2015)
+  eleven_gwas:
+    quotes:
+    - exact: Of the 11 GWAS, 8 (C-BCAC) plus a subset of the BPC3 GWAS (CGEMS) were used in the combined
+        GWAS analysis
+      section: Online Methods (Michailidou 2015)
+  european_only:
+    quotes:
+    - exact: All subjects were women of European ancestry.
+      section: Results (Michailidou 2015)

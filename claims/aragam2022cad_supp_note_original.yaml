@@ -1,0 +1,81 @@
+source:
+  citation: aragam2022cad_supp_note
+  local: sources/original/aragam2022cad_supp_note.pdf
+  sha256: 0f94047091eefd4c26dbc816c3bcf414f13a711f4def7440acb33716993a5e78
+  url: https://static-content.springer.com/esm/art%3A10.1038%2Fs41588-022-01233-6/MediaObjects/41588_2022_1233_MOESM1_ESM.pdf
+  doi: 10.1038/s41588-022-01233-6
+  note: 'Original file behind claims/aragam2022cad_supp_note.yaml: 41588_2022_1233_MOESM1_ESM.pdf from
+    static-content.springer.com. The quotations here are the quotations of that file that resolve in this
+    file under the citations readers; a quotation absent here is pinned to the extracted text there only.'
+claims:
+  prior-sumstats:
+    quotes:
+    - exact: we used summary statistics from either (a) a previous 1000 Genomes-imputed GWAS meta-analysis
+        of up to 60,801 CAD cases and 123,504 CAD-free controls;[2] (b) a meta-analysis of ~79,000 variants
+        in up to 88,192 CAD cases and 162,544 controls, predominantly based on the Illumina CardioMetabochip
+        array;[3] or (c) a meta-analysis ~184,000 variants in up to 42,335 CAD cases and 78,240 controls
+        based on the Illumina Exome array.[4, 5]
+      section: Genetic discovery meta-analysis
+  ref3-howson:
+    quotes:
+    - exact: Howson, J.M., et al., Fifteen new risk loci for coronary artery disease highlight arterial-
+        wall-specific mechanisms.
+      section: References
+  ref4-webb:
+    quotes:
+    - exact: Webb, T.R., et al., Systematic evaluation of pleiotropy identifies 6 further loci associated
+        with coronary artery disease.
+      section: References
+  ref5-exome:
+    quotes:
+    - exact: Myocardial Infarction Genetics and CARDIoGRAM Exome Consortia Investigators, Coding variation
+        in ANGPTL4, LPL, and SVEP1 and the risk of coronary disease.
+      section: References
+  epiccvd-removed:
+    quotes:
+    - exact: To avoid overlapping participants, EPIC-CVD was removed from the meta- analyses based on
+        the CardioMetabochip and Exome array.
+      section: Study descriptions, EPIC-CVD
+  decode-removed:
+    quotes:
+    - exact: To avoid overlapping participants, deCODE was removed from the meta-analysis based on the
+        CardioMetabochip array.
+      section: Study descriptions, deCODE
+  hunt-removed:
+    quotes:
+    - exact: To avoid overlapping participants, HUNT was removed from the meta-analysis based on the Exome
+        array.
+      section: Study descriptions, HUNT
+  ctrl-germifs5:
+    quotes:
+    - exact: Control samples were recruited as part of the Cooperative Health Research in the Augsburg
+        Region
+      section: Study descriptions, GerMIFS
+  ctrl-germifs7:
+    quotes:
+    - exact: Control samples were recruited as CAD-free individuals of the Heinz-Nixdorf-Recall Study
+      section: Study descriptions, GerMIFS
+  ctrl-gcc:
+    quotes:
+    - exact: 'Controls were drawn from the TEENs of Attica: Gene and Environment study (TEENAGE) (7) and
+        from the Non-alcoholic Fatty Liver Disease study (NAFLD) case-control study.'
+      section: Study descriptions, GCC
+  timi-trials:
+    quotes:
+    - exact: 'Three cardiovascular outcomes trials from the TIMI Study Group were included in the GWAS
+        analysis: PEGASUS-TIMI 54, ENGAGE AF-TIMI 48, and SAVOR-TIMI 53.'
+      section: Study descriptions, TIMI
+  mgb:
+    quotes:
+    - exact: We studied the first 13,667 genotyped participants from the Mass General Brigham Biobank
+        with relevant clinical data available.
+      section: Study descriptions, Mass General Brigham Biobank
+  epic-countries:
+    quotes:
+    - exact: recruited from the population at 23 centres across 10 European countries (Denmark, France,
+        Germany, Greece, Italy, The Netherlands, Norway, Spain, Sweden and the UK)
+      section: Study descriptions, EPIC-CVD
+  ukb:
+    quotes:
+    - exact: For GWAS we utilized version 3 of the UK Biobank genotype data
+      section: Study descriptions, UK Biobank

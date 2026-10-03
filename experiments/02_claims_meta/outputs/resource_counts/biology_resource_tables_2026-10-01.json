@@ -1,0 +1,429 @@
+{
+ "inputs": "resource files only; no claim, pair or registry record read",
+ "reference_sha256": {
+  "hgnc": "6f43d6ff43aa9fdfa5fb2f20a20a7cace66e6e02e2a0dcf19d9b726e2e248d20",
+  "uniprot": "620d646a96c07ab3c6c71306518bbf28ee61c0d5e91cab26e4c5417e91e19f83",
+  "mondo": "50c8367f9bd9978321eedf84d4e2e79cb757efbed514c81effb00b9ad2e49994",
+  "efo": "66e87fc65a6254c6d69281ed3d286784ee5f8265b1e57691efddd29b20570c46"
+ },
+ "ontology": {
+  "collision_table_sha256": "b858b4bd0fba33c1d2138e272b3c753c45f3d3f8b426e25b99a9d97c320fd0e0",
+  "files": {
+   "mondo": {
+    "release": "v2026-09-01",
+    "sha256": "50c8367f9bd9978321eedf84d4e2e79cb757efbed514c81effb00b9ad2e49994",
+    "live_outcome_terms": 36907,
+    "is_a_edges": 53488
+   },
+   "efo": {
+    "release": "v3.93.0",
+    "sha256": "66e87fc65a6254c6d69281ed3d286784ee5f8265b1e57691efddd29b20570c46",
+    "live_outcome_terms": 51817,
+    "is_a_edges": 69972
+   }
+  },
+  "live_outcome_terms": 71533,
+  "edges_before_canonical": 96736,
+  "edges": 96473,
+  "ontology_edges_sha256": "5b8f0b3fe17aab4c885c04ad337cec2c980d35c69acc847c8a754f14deff7261",
+  "anchors": [
+   {
+    "category": "cardiovascular",
+    "priority": 1,
+    "anchor_id": "MONDO:0004995",
+    "in_graph": true,
+    "descendants": 1802
+   },
+   {
+    "category": "neoplasm",
+    "priority": 2,
+    "anchor_id": "MONDO:0045024",
+    "in_graph": true,
+    "descendants": 5052
+   },
+   {
+    "category": "neurological",
+    "priority": 3,
+    "anchor_id": "MONDO:0005071",
+    "in_graph": true,
+    "descendants": 5837
+   },
+   {
+    "category": "psychiatric",
+    "priority": 4,
+    "anchor_id": "MONDO:0002025",
+    "in_graph": true,
+    "descendants": 477
+   },
+   {
+    "category": "endocrine/metabolic",
+    "priority": 5,
+    "anchor_id": "MONDO:0005151",
+    "in_graph": true,
+    "descendants": 1906
+   },
+   {
+    "category": "endocrine/metabolic",
+    "priority": 5,
+    "anchor_id": "MONDO:0005066",
+    "in_graph": true,
+    "descendants": 2349
+   },
+   {
+    "category": "immune/inflammatory",
+    "priority": 6,
+    "anchor_id": "MONDO:0005046",
+    "in_graph": true,
+    "descendants": 1679
+   },
+   {
+    "category": "immune/inflammatory",
+    "priority": 6,
+    "anchor_id": "MONDO:0021166",
+    "in_graph": true,
+    "descendants": 1277
+   },
+   {
+    "category": "respiratory",
+    "priority": 7,
+    "anchor_id": "MONDO:0005087",
+    "in_graph": true,
+    "descendants": 845
+   },
+   {
+    "category": "gastrointestinal/hepatic",
+    "priority": 8,
+    "anchor_id": "MONDO:0004335",
+    "in_graph": true,
+    "descendants": 1528
+   },
+   {
+    "category": "renal/urological",
+    "priority": 9,
+    "anchor_id": "MONDO:0002118",
+    "in_graph": true,
+    "descendants": 838
+   },
+   {
+    "category": "musculoskeletal",
+    "priority": 10,
+    "anchor_id": "MONDO:0002081",
+    "in_graph": true,
+    "descendants": 3657
+   },
+   {
+    "category": "musculoskeletal",
+    "priority": 10,
+    "anchor_id": "MONDO:0003900",
+    "in_graph": true,
+    "descendants": 980
+   },
+   {
+    "category": "dermatological",
+    "priority": 11,
+    "anchor_id": "MONDO:0002051",
+    "in_graph": true,
+    "descendants": 1825
+   },
+   {
+    "category": "infectious",
+    "priority": 12,
+    "anchor_id": "MONDO:0005550",
+    "in_graph": true,
+    "descendants": 1152
+   },
+   {
+    "category": "reproductive",
+    "priority": 13,
+    "anchor_id": "MONDO:0005039",
+    "in_graph": true,
+    "descendants": 1620
+   },
+   {
+    "category": "hematological",
+    "priority": 14,
+    "anchor_id": "MONDO:0005570",
+    "in_graph": true,
+    "descendants": 1393
+   },
+   {
+    "category": "ophthalmic",
+    "priority": 15,
+    "anchor_id": "MONDO:0024458",
+    "in_graph": true,
+    "descendants": 2082
+   },
+   {
+    "category": "biomarker",
+    "priority": 16,
+    "anchor_id": "EFO:0004747",
+    "in_graph": true,
+    "descendants": 20935
+   },
+   {
+    "category": "biomarker",
+    "priority": 16,
+    "anchor_id": "EFO:0004725",
+    "in_graph": true,
+    "descendants": 2215
+   },
+   {
+    "category": "biomarker",
+    "priority": 16,
+    "anchor_id": "EFO:0005105",
+    "in_graph": true,
+    "descendants": 908
+   },
+   {
+    "category": "clinical quantitative trait",
+    "priority": 17,
+    "anchor_id": "EFO:0001444",
+    "in_graph": true,
+    "descendants": 25404
+   }
+  ],
+  "categories_of_terms_under": {
+   "human_disease": {
+    "cardiovascular": 1803,
+    "dermatological": 801,
+    "endocrine/metabolic": 2339,
+    "gastrointestinal/hepatic": 293,
+    "hematological": 364,
+    "immune/inflammatory": 1702,
+    "infectious": 616,
+    "musculoskeletal": 1721,
+    "neoplasm": 4806,
+    "neurological": 4631,
+    "ophthalmic": 696,
+    "other/unmapped": 3928,
+    "psychiatric": 98,
+    "renal/urological": 388,
+    "reproductive": 352,
+    "respiratory": 416
+   },
+   "measurement": {
+    "biomarker": 23512,
+    "clinical quantitative trait": 1892
+   }
+  },
+  "terms_under": {
+   "human_disease": 24954,
+   "measurement": 25404
+  },
+  "share_other_unmapped_under": {
+   "human_disease": 0.15740963372605593,
+   "measurement": 0.0
+  }
+ },
+ "assay_lists_and_pathways": {
+  "reactome": {
+   "file_sha256": "e34fe56a5129d88d8cd67300c279d7e81fa1d3bf86fa0577cf91032c326eaecc",
+   "human_rows_distinct_accession_pathway": 50283,
+   "pathways": 2344,
+   "accessions": 12155,
+   "accessions_in_reviewed_uniprot": 11346
+  },
+  "assay_lists": {
+   "olink_explore_1536": {
+    "accessions": 1465,
+    "with_a_pathway": 1150
+   },
+   "olink_explore_3072": {
+    "accessions": 2926,
+    "with_a_pathway": 2156
+   },
+   "olink_target_96": {
+    "accessions": 1163,
+    "with_a_pathway": 918
+   },
+   "olink_target_96:CAM": {
+    "accessions": 92,
+    "with_a_pathway": 76
+   },
+   "olink_target_96:CRE": {
+    "accessions": 92,
+    "with_a_pathway": 64
+   },
+   "olink_target_96:CVD II": {
+    "accessions": 93,
+    "with_a_pathway": 84
+   },
+   "olink_target_96:CVD III": {
+    "accessions": 91,
+    "with_a_pathway": 84
+   },
+   "olink_target_96:DEV": {
+    "accessions": 93,
+    "with_a_pathway": 70
+   },
+   "olink_target_96:IMO": {
+    "accessions": 94,
+    "with_a_pathway": 86
+   },
+   "olink_target_96:INF": {
+    "accessions": 92,
+    "with_a_pathway": 82
+   },
+   "olink_target_96:IRE": {
+    "accessions": 92,
+    "with_a_pathway": 73
+   },
+   "olink_target_96:MET": {
+    "accessions": 91,
+    "with_a_pathway": 63
+   },
+   "olink_target_96:NEU": {
+    "accessions": 93,
+    "with_a_pathway": 76
+   },
+   "olink_target_96:NEX": {
+    "accessions": 92,
+    "with_a_pathway": 68
+   },
+   "olink_target_96:ODA": {
+    "accessions": 92,
+    "with_a_pathway": 72
+   },
+   "olink_target_96:ONC II": {
+    "accessions": 93,
+    "with_a_pathway": 76
+   },
+   "olink_target_96:ONC III": {
+    "accessions": 92,
+    "with_a_pathway": 62
+   },
+   "somascan_1.3k": {
+    "accessions": 1063,
+    "with_a_pathway": 940
+   },
+   "somascan_160410": {
+    "accessions": 3592,
+    "with_a_pathway": 2622
+   },
+   "somascan_v4": {
+    "accessions": 4717,
+    "with_a_pathway": 3447
+   },
+   "somascan_v4.1": {
+    "accessions": 6375,
+    "with_a_pathway": 4444
+   }
+  },
+  "attached_lists": {
+   "olink_explore_3072": {
+    "dictionary_rows": [
+     "Dhindsa 2023 UKB-PPP exome (rare variant)",
+     "Eldjarn 2023 UKB Olink (UKB-BI / UKB-SA / UKB-AF)",
+     "UKB-PPP ancestry-specific (non-European)",
+     "UKB-PPP discovery",
+     "UKB-PPP full cohort (combined)",
+     "UKB-PPP replication"
+    ],
+    "background": 2926,
+    "with_a_pathway": 2156,
+    "pathways_kept_10_to_500": 222
+   },
+   "olink_target_96:INF": {
+    "dictionary_rows": [
+     "SCALLOP Inflammation (Zhao 2023)"
+    ],
+    "background": 92,
+    "with_a_pathway": 82,
+    "pathways_kept_10_to_500": 5
+   },
+   "olink_target_96:NEU": {
+    "dictionary_rows": [
+     "Lothian Birth Cohort 1936 neurology panel (Hillary 2019)"
+    ],
+    "background": 93,
+    "with_a_pathway": 76,
+    "pathways_kept_10_to_500": 0
+   },
+   "somascan_160410": {
+    "dictionary_rows": [
+     "INTERVAL SomaScan (Sun 2018)"
+    ],
+    "background": 3592,
+    "with_a_pathway": 2622,
+    "pathways_kept_10_to_500": 456
+   },
+   "somascan_v4": {
+    "dictionary_rows": [
+     "ARIC African American (Zhang 2022)",
+     "ARIC European American (Zhang 2022)",
+     "Fenland SomaScan v4 (Pietzner 2021)",
+     "deCODE SomaScan v4 (Eldjarn 2023 update)",
+     "deCODE SomaScan v4 (Ferkingstad 2021)"
+    ],
+    "background": 4717,
+    "with_a_pathway": 3447,
+    "pathways_kept_10_to_500": 584
+   },
+   "pooled": {
+    "dictionary_rows": [],
+    "background": 5925,
+    "with_a_pathway": 4245,
+    "pathways_kept_10_to_500": 693
+   }
+  },
+  "dictionary_rows_without_a_list": [
+   "AGES Reykjavik (Emilsson 2018)",
+   "AGES Reykjavik (Gudjonsson 2022)",
+   "Fenland SomaScan v4 (Pietzner 2020, COVID-19 host proteins)",
+   "Framingham Heart Study (Yao 2018)",
+   "Guangzhou Nutrition and Health Study (Xu 2023)",
+   "IMPROVE (Folkersen 2017)",
+   "Jackson Heart Study (Katz 2022)",
+   "KORA (Suhre 2017)",
+   "MANOLIS (Gilly 2020)",
+   "MANOLIS and Pomak neurology (Png 2021)",
+   "NSPHS (Enroth 2014)",
+   "SCALLOP CVD-I (Folkersen 2020)",
+   "SCALLOP multi-cohort meta-analysis (Koprulu 2026)",
+   "Zheng 2020 proteome-wide MR instrument set"
+  ],
+  "platform_assay_lists_sha256": "c14b6727fbd5e3ec907383e7c1b7cb1262ac2e7aa305528e1ab2f41a11c090fb"
+ },
+ "epigraphdb": {
+  "exposures": 989,
+  "traits": 225,
+  "exposures_by_state": {
+   "mapped": 973,
+   "multiple_uniprot": 2,
+   "no_hgnc": 14
+  },
+  "exposures_mapped_by_tier": {
+   "tier_1": 952,
+   "tier_2": 2,
+   "tier_3": 19
+  },
+  "distinct_accessions": 973,
+  "traits_by_state": {
+   "ambiguous": 8,
+   "mapped": 73,
+   "unmapped": 144
+  },
+  "traits_mapped_by_tier": {
+   "tier_1": 6,
+   "tier_2": 65,
+   "tier_3": 2
+  },
+  "distinct_canonical_outcomes": 73,
+  "response_files_missing": 0,
+  "estimates": 179928,
+  "distinct_exposure_trait_pairs": 179928,
+  "estimates_by_sign_of_beta": {
+   "lowers": 88977,
+   "raises": 90951
+  },
+  "estimates_on_mapped_pairs": 48565,
+  "distinct_canonical_pairs": 48565,
+  "mrres_estimates_sha256": "9a5cd35eef39eb195cf75e335376911bd4722299518570c19f740b7cb1aa09dd",
+  "protein_mapping_sha256": "e809a3c1771ba142687bfcfd5ab22f17e5fcca9607fde84055de7bac0c6dcd7a",
+  "trait_mapping_sha256": "64a7892f3efb4a47cb3ee4c13a4a864a81a5b8e2d08df248b2cb58a9b8dfbb7e"
+ },
+ "derived_estimates": {
+  "volume_path": "/vol/02_claims_meta/derived/epigraphdb_mrres_estimates.jsonl",
+  "sha256": "9a5cd35eef39eb195cf75e335376911bd4722299518570c19f740b7cb1aa09dd"
+ }
+}

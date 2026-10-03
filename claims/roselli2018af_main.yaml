@@ -1,0 +1,23 @@
+source:
+  citation: roselli2018af_main
+  local: sources/roselli2018af_main.txt
+  sha256: a9d401f89a077dba773ced1942c64c6ee84d4e4436aa2d192146f2a5bb93b305
+  doi: 10.1038/s41588-018-0133-9
+  note: Roselli et al. 2018 Nat Genet 50:1225 (AF), author manuscript full text PMC6136836 from NCBI E-utilities
+    efetch (db=pmc), paragraphs extracted with lxml, one per line.
+claims:
+  n50:
+    quotes:
+    - exact: We conducted a large-scale analysis with over half a million participants, including 65,446
+        with AF, from more than 50 studies.
+      section: Main text
+  components:
+    quotes:
+    - exact: The majority of studies were part of the Atrial Fibrillation Genetics (AFGen) consortium
+        and the Broad AF Study (Broad AF). Additional summary level results from the UK Biobank (UKBB)
+        and the Biobank Japan (BBJ) were included (Figure 1).
+      section: Online Methods
+  release:
+    quotes:
+    - exact: The results of this study are available on the Cardiovascular Disease Knowledge Portal (http://www.broadcvdi.org/).
+      section: Data availability

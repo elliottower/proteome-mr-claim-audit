@@ -1,0 +1,289 @@
+{
+ "label": "smoke_pre2019_20261002",
+ "date_utc": "2026-10-02",
+ "smoke_window": [
+  "2018-06-01",
+  "2018-06-30"
+ ],
+ "search": {
+  "http_exchanges": {
+   "pubmed": 6,
+   "epmc": 4,
+   "openalex": 4
+  },
+  "funnel": {
+   "run": "outputs/raw/search_smoke/smoke_pre2019_20261002",
+   "source_records": {
+    "pubmed": 16,
+    "epmc": 8,
+    "openalex": 13
+   },
+   "pubmed_records_fetched_for_other_sources": 4,
+   "retrieved_records_by_stream": {
+    "epmc/Q1_smoke": 1,
+    "epmc/Q2_smoke": 1,
+    "epmc/Q3_smoke": 1,
+    "epmc/Q4_smoke": 7,
+    "openalex/Q1_smoke": 3,
+    "openalex/Q4_smoke": 10,
+    "pubmed/Q1_smoke": 2,
+    "pubmed/Q2_smoke": 1,
+    "pubmed/Q3_smoke": 1,
+    "pubmed/Q4_smoke": 10
+   },
+   "screening_records": 18,
+   "duplicates_removed": 19,
+   "screening_records_by_sources": {
+    "pubmed": 4,
+    "pubmed+epmc": 1,
+    "pubmed+openalex": 4,
+    "pubmed+epmc+openalex": 7,
+    "openalex": 2
+   },
+   "screening_records_by_kind": {
+    "journal": 17,
+    "other": 1
+   },
+   "screening_records_by_lead_source_type": {
+    "pubmed: Comparative Study; Journal Article; Multicenter Study; Observational Study; Research Support, Non-U.S. Gov't": 1,
+    "pubmed: Journal Article; Research Support, Non-U.S. Gov't": 5,
+    "pubmed: Letter; Research Support, N.I.H., Extramural": 1,
+    "pubmed: Journal Article": 5,
+    "pubmed: Journal Article; Research Support, N.I.H., Extramural; Research Support, Non-U.S. Gov't": 2,
+    "pubmed: Journal Article; Comment": 2,
+    "openalex: article": 1,
+    "openalex: conference-abstract": 1
+   },
+   "screening_records_without_abstract": 0,
+   "preprints_with_published_link": 0
+  },
+  "prefilter": {
+   "records": 18,
+   "marked": 0,
+   "no_genetic_term": 0,
+   "no_protein_term": 0,
+   "gated": false,
+   "records_sent_to_screening": 18,
+   "marked_records": 0,
+   "gate_sample_batch_1": 0,
+   "gate_sample_seed": null
+  }
+ },
+ "eligibility_search": {
+  "ineligible": 17,
+  "eligible_count_not_stated": 1
+ },
+ "chase_round_1": {
+  "http_exchanges": {
+   "openalex": 3,
+   "pubmed": 1
+  },
+  "counts": {
+   "round": 1,
+   "seeds_file": "outputs/parsed/sol_eligibility_smoke_pre2019_20261002_2811496ef424.decisions.eligible_records.jsonl",
+   "seeds_sha256": "3ef76603e5de7b75037984a001912d313243f301a183cf86e9c5fa7d679192b2",
+   "known_files": [
+    "outputs/screening_smoke/smoke_pre2019_20261002/screening_records.jsonl"
+   ],
+   "seeds": 1,
+   "seeds_without_doi_or_pmid": 0,
+   "seed_works_found": 1,
+   "published_from": null,
+   "backward_works_referenced": 72,
+   "backward_works_retrieved": 70,
+   "forward_works": 28,
+   "works_already_in_screening_sets": 0,
+   "new_works": 98,
+   "new_works_with_pmid": 80,
+   "new_screening_records": 98,
+   "new_screening_records_without_abstract": 2,
+   "smoke_records_first_public_after_2018_left_out": 1
+  },
+  "prefilter_gate": {
+   "records": 97,
+   "marked": 86,
+   "no_genetic_term": 76,
+   "no_protein_term": 70,
+   "gated": true,
+   "records_sent_to_screening": 11,
+   "marked_records": 86,
+   "gate_sample_batch_1": 86,
+   "gate_sample_seed": 20261001
+  },
+  "eligibility": {
+   "ineligible": 10,
+   "uncertain": 1
+  },
+  "gate_audit": "not judged: 86 eligibility calls needed for batch 1, above the cap of this run"
+ },
+ "extraction_claim_records": {
+  "smoke_pre2019_20261002": 0,
+  "smoke_pre2019_20261002_chase1": 3,
+  "smoke_pre2019_20261002_repeat": 0,
+  "smoke_pre2019_20261002_chase1_repeat": 3
+ },
+ "repeat_run": {
+  "smoke_pre2019_20261002": {
+   "sampled_abstracts": 1,
+   "run1_records": 0,
+   "run2_records": 0,
+   "paired_records": 0
+  },
+  "smoke_pre2019_20261002_chase1": {
+   "sampled_abstracts": 1,
+   "run1_records": 3,
+   "run2_records": 3,
+   "paired_records": 3
+  }
+ },
+ "spans": {
+  "smoke_pre2019_20261002": {
+   "n_claims": 0,
+   "both_pass": 0,
+   "citations_verify_exit": 2
+  },
+  "smoke_pre2019_20261002_chase1": {
+   "n_claims": 3,
+   "both_pass": 3,
+   "citations_verify_exit": 0
+  }
+ },
+ "claim_checks": {
+  "smoke_pre2019_20261002": {
+   "enters_registry": 0,
+   "enters_direction_results": 0
+  },
+  "smoke_pre2019_20261002_chase1": {
+   "enters_registry": 3,
+   "enters_direction_results": 0
+  }
+ },
+ "registry_assembly": {
+  "records": 114,
+  "records_other_document_type": 1,
+  "other_document_types_included": false,
+  "families": 112,
+  "eligible_families": 2,
+  "eligible_families_by_window": {
+   "outside": 2
+  },
+  "claim_records_of_other_records": 0,
+  "registry": {
+   "claim_records": 3,
+   "claims_with_a_pair": 3,
+   "left_out_by_reason": {},
+   "pair_ambiguous_by_reason": {},
+   "claims_with_a_manually_coded_dataset": 0
+  },
+  "dating": {
+   "claim_records": 0,
+   "claims_with_a_pair": 0,
+   "left_out_by_reason": {},
+   "pair_ambiguous_by_reason": {},
+   "claims_with_a_manually_coded_dataset": 0
+  }
+ },
+ "manual_coding_queue_rows": 0,
+ "record_metadata": {
+  "http_exchanges": {
+   "openalex": 1
+  },
+  "records": 2
+ },
+ "stage5": {
+  "primary_h2_verdict": "no_multi_family_pairs",
+  "primary_h2b_verdict": "no_multi_family_pairs",
+  "sensitivity_tables": 24,
+  "confirmatory_claim_records": 0,
+  "biology_result_files_confirmatory": 17,
+  "drug_result_files": 3
+ },
+ "fulltext_census": {
+  "outside": {
+   "no_open_access_full_text": 2
+  }
+ },
+ "sol": {
+  "runs": {
+   "sol_eligibility_smoke_pre2019_20261002_2811496ef424": {
+    "records": 18,
+    "ok": 18,
+    "failed": 0,
+    "requests": 18,
+    "models_returned": [
+     "gpt-6.1-sol"
+    ]
+   },
+   "sol_eligibility_smoke_pre2019_20261002_chase1_2811496ef424": {
+    "records": 11,
+    "ok": 11,
+    "failed": 0,
+    "requests": 11,
+    "models_returned": [
+     "gpt-6.1-sol"
+    ]
+   },
+   "sol_extraction_smoke_pre2019_20261002_0b97103cd7a4": {
+    "records": 1,
+    "ok": 1,
+    "failed": 0,
+    "requests": 1,
+    "models_returned": [
+     "gpt-6.1-sol"
+    ]
+   },
+   "sol_extraction_smoke_pre2019_20261002_chase1_0b97103cd7a4": {
+    "records": 1,
+    "ok": 1,
+    "failed": 0,
+    "requests": 1,
+    "models_returned": [
+     "gpt-6.1-sol"
+    ]
+   },
+   "sol_extraction_smoke_pre2019_20261002_repeat_0b97103cd7a4": {
+    "records": 1,
+    "ok": 1,
+    "failed": 0,
+    "requests": 1,
+    "models_returned": [
+     "gpt-6.1-sol"
+    ]
+   },
+   "sol_extraction_smoke_pre2019_20261002_chase1_repeat_0b97103cd7a4": {
+    "records": 1,
+    "ok": 1,
+    "failed": 0,
+    "requests": 1,
+    "models_returned": [
+     "gpt-6.1-sol"
+    ]
+   }
+  },
+  "requests_total": 33,
+  "input_tokens": 63619,
+  "cached_input_tokens": 44654,
+  "output_tokens": 7113,
+  "reasoning_tokens": 2455
+ },
+ "europe_pmc_requests_fulltext_census": 1,
+ "tests_on_modal": {
+  "file": "outputs/tests/pytest_all_modal_20261002T202200Z.txt",
+  "passed": 667,
+  "dry_runs_return_codes": [
+   0,
+   0,
+   0
+  ]
+ },
+ "mutation_check": {
+  "file": "docs/stage0_build/mutation_check_live_smoke.json",
+  "mutations": 16,
+  "killed": 16
+ },
+ "http_exchanges_total_by_source": {
+  "pubmed": 7,
+  "epmc": 5,
+  "openalex": 8
+ }
+}

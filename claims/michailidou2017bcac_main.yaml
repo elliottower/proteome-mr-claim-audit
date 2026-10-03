@@ -1,0 +1,44 @@
+source:
+  citation: michailidou2017bcac_main
+  local: sources/michailidou2017bcac_main.txt
+  sha256: 18cd5d52854b649d20e41461f313c940a426b04539cab9a5deaa13678b3b8484
+  doi: 10.1038/nature24284
+  note: Main text of Michailidou et al. 2017 Nature 551:92-94 (Association analysis identifies 65 new
+    breast cancer risk loci), Europe PMC fullTextXML PMC5798588, tags stripped, one paragraph per line
+claims:
+  design_three_components:
+    quotes:
+    - exact: We combined these results with results from the iCOGS project (46,785 cases and 42,892 controls)
+        2 and 11 other breast cancer GWAS (14,910 cases, 17,588 controls), using a fixed-effect meta-analysis.
+      section: Main text, first results paragraph
+  oncoarray_68_studies:
+    quotes:
+    - exact: Subjects came from 68 studies collaborating in the Breast Cancer Association Consortium (BCAC)
+        and Discovery, Biology and Risk of Inherited Variants in Breast Cancer Consortium (DRIVE) ( Supplementary
+        Table 1 ).
+      section: Main text
+  details_elsewhere:
+    quotes:
+    - exact: Details of the studies and genotype calling and quality control (QC) for the iCOGS and eleven
+        other GWAS are described elsewhere 2 , 20 .
+      section: 'Online Methods: Study participants'
+  oncoarray_78_studies:
+    quotes:
+    - exact: Seventy-eight studies participated in the breast cancer component of the OncoArray, of which
+        67 studies contributed European ancestry data and 12 contributed Asian ancestry data (one study,
+        NBCS, was excluded as there were no controls from Norway) ( Supplementary Table 1 ).
+      section: 'Online Methods: Study participants'
+  european_total:
+    quotes:
+    - exact: 122,977 cases and 105,974 controls of European ancestry and 14,068 cases and 13,104 controls
+        of East Asian ancestry
+      section: Main text
+  asian_analysis:
+    quotes:
+    - exact: We also assessed the association with breast cancer in Asians including 7,799 cases and 6,480
+        controls from the OncoArray project and 6,269 cases and 6,624 controls from iCOGS.
+      section: Main text
+  summary_results:
+    quotes:
+    - exact: Summary results for all variants are available at http://bcac.ccge.medschl.cam.ac.uk/ .
+      section: Data availability

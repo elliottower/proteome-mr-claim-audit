@@ -1,0 +1,120 @@
+{
+ "written_utc": "2026-10-02T20:44:33+00:00",
+ "what": "the absolute path of the repository on the author's machine was removed from stored tool outputs; paths under experiments/02_claims_meta are now relative to it, other paths relative to the repository root; no other byte changed",
+ "originals": "kept locally under experiments/02_claims_meta/outputs/superseded/home_paths_2026-10-02/ (not committed)",
+ "ledger": "files named by a ledger manifest were replaced with scripts/stage_record.py replace; their rows are in experiments/02_claims_meta/outputs/results_manifests/replaced_files.json",
+ "files": [
+  {
+   "path": "docs/stage0_build/probe_ontology_round6.log",
+   "sha256_before": "0c0b1614c3698ae11beadcbc9cdb28ad10ba08d53cf2ca328e118747bd9eff5f",
+   "sha256_after": "2d7ad813428d14717712c663c380934b7bb26aabd9d012b1e164a552cc09e270",
+   "lines_changed": 6,
+   "in_a_ledger_manifest": false
+  },
+  {
+   "path": "experiments/02_claims_meta/outputs/resource_counts/dataset_pairings_after_compositions_2026-09-30.json",
+   "sha256_before": "c0c620c0a6c1d1aca59d34fe26f7ba45781a4af14c93d48c4aa0250aeb579664",
+   "sha256_after": "8ba1165349aa36e96d69780fe5e4ffa348d16519387fb9b9b35708f7a9b96d09",
+   "lines_changed": 2,
+   "in_a_ledger_manifest": false
+  },
+  {
+   "path": "experiments/02_claims_meta/outputs/resource_counts/dataset_pairings_round5_after_iceland_split.json",
+   "sha256_before": "cdd7aad940fad6e4fe46d7b5af36c0b5643d4c870a6d8efe9b0510873dc9b6f0",
+   "sha256_after": "e1c48d32fe2892ffb06e23f1840b3b0197093e31c265438a53c49ac60924e242",
+   "lines_changed": 2,
+   "in_a_ledger_manifest": false
+  },
+  {
+   "path": "experiments/02_claims_meta/outputs/resource_counts/dataset_pairings_round5_after_name_mapping_fix.json",
+   "sha256_before": "352fe933690f5edc79fc55a3ccf146299c071dcde7829c2e42d5b6ec9b5b3df7",
+   "sha256_after": "4e72856d5b5aeb55368beba987cf17e19dfad56c5aeef7feaf44c0ef4bd88c45",
+   "lines_changed": 2,
+   "in_a_ledger_manifest": false
+  },
+  {
+   "path": "experiments/02_claims_meta/outputs/resource_counts/dataset_pairings_round5_before_iceland_split.json",
+   "sha256_before": "00720f3f1afb986575f11de4448eb6d0469c2cc965a8ad5f3a3a11fb34ad1412",
+   "sha256_after": "6fa4b738faaabd1858ee655e808aacd7cbc5c9da9f5add8c306021cfe71928d0",
+   "lines_changed": 2,
+   "in_a_ledger_manifest": false
+  },
+  {
+   "path": "experiments/02_claims_meta/outputs/resource_counts/dataset_pairings_round5_before_name_mapping_fix.json",
+   "sha256_before": "21d54e13538818f30663e4ea602bf77c69513f2331836ae969e44cf6cf6935b9",
+   "sha256_after": "63278ddd13fa6447642f3b2ad57eb68389e35a493357809a9e1aa28d35b60385",
+   "lines_changed": 2,
+   "in_a_ledger_manifest": false
+  },
+  {
+   "path": "experiments/02_claims_meta/outputs/tests/pytest_compositions_2026-09-30.txt",
+   "sha256_before": "424f097b7f333aff02e5ef6acb8967835bc0c1f3dbc1928d42add17f7dd1b061",
+   "sha256_after": "eb67ed1f73ae1fb91431429a592e51ab261786cf476da56c26df1aea5d87e788",
+   "lines_changed": 1,
+   "in_a_ledger_manifest": false
+  },
+  {
+   "path": "experiments/02_claims_meta/outputs/tests/pytest_round4_2026-09-30.txt",
+   "sha256_before": "916a9047237bd472f6ff9348f40aa27ecac9d20e298ed168796a66e3eef81c1e",
+   "sha256_after": "e5c5d0984c0c2344eb1ee82de148fd8fa608036ce9a85e57e92a7608b6178930",
+   "lines_changed": 1,
+   "in_a_ledger_manifest": false
+  },
+  {
+   "path": "experiments/02_claims_meta/outputs/tests/pytest_round5_fixes_2026-10-01.txt",
+   "sha256_before": "ffd37d0eb9ca7ee0326c2fb7daa82b007e82e02783ea4f4834862caf9c05a57b",
+   "sha256_after": "083db13ca46863f39d4809890d333017ba30e37521a9e677eb2586a852caa314",
+   "lines_changed": 1,
+   "in_a_ledger_manifest": false
+  },
+  {
+   "path": "experiments/02_claims_meta/outputs/tests/pytest_search_stage_2026-10-01.txt",
+   "sha256_before": "fdec2c6f781dafeb74069d222bf23b462c2df91862495e3cb551a9ec78be4348",
+   "sha256_after": "2e799a9c3b45d8155e2ac2257164e6685d3c0e04ed84070286882b1d8abac2a9",
+   "lines_changed": 1,
+   "in_a_ledger_manifest": false
+  },
+  {
+   "path": "experiments/02_claims_meta/outputs/verification/sol_extraction_r4_63c728dcdc37/citations_verify.txt",
+   "sha256_before": "1702f7d8729016ec94e28a68022895383639060910e2d5652ff5ef160b852064",
+   "sha256_after": "2727c440bab57408138e80983b26e760d14f7443fc0dbb55e3875beccd6eff06",
+   "lines_changed": 1,
+   "in_a_ledger_manifest": false
+  },
+  {
+   "path": "experiments/02_claims_meta/outputs/verification/sol_extraction_r8_0b97103cd7a4/citations_verify.txt",
+   "sha256_before": "ee13cc0a294f0bef45a30be04f7e779a85ca5fb2896668e79e89ff6de65996b7",
+   "sha256_after": "88a814d0d738679e2135c7928e86cedd1b0c730204813081a10670d4dc8db31a",
+   "lines_changed": 1,
+   "in_a_ledger_manifest": false
+  },
+  {
+   "path": "experiments/02_claims_meta/outputs/verification/sol_extraction_smoke_pre2019_20261002_0b97103cd7a4/citations_verify.txt",
+   "sha256_before": "88939c8c9b4a9f03cb635e972397bd839703a12f851e136b3263c0af464bd2ab",
+   "sha256_after": "199e4a6c7c3764136d466b37fc9d505d01575afe2803c331721b47b395aca9b1",
+   "lines_changed": 1,
+   "in_a_ledger_manifest": true
+  },
+  {
+   "path": "experiments/02_claims_meta/outputs/verification/sol_extraction_smoke_pre2019_20261002_chase1_0b97103cd7a4/citations_verify.txt",
+   "sha256_before": "990c05f9bfb469060c39e55110574eb0ebb22295a4115631614a1e638c83370a",
+   "sha256_after": "d5e9bf2ede86d3d92d9dbe8bb17c4260b99edb6ec94afed5360f4ebe99f01b85",
+   "lines_changed": 1,
+   "in_a_ledger_manifest": true
+  },
+  {
+   "path": "experiments/02_claims_meta/outputs/verification/sol_fulltext_extraction_ft1_5fb585754e99/citations_verify.txt",
+   "sha256_before": "23008e1e3eaa78bc663602f24afd0fbfed947ae774e9289eccf81085ec7b4111",
+   "sha256_after": "7a327412f71d09a496a3d861b460c2bac3903eac1de1833c4f787094df369457",
+   "lines_changed": 1,
+   "in_a_ledger_manifest": false
+  },
+  {
+   "path": "experiments/02_claims_meta/outputs/verification/sol_extraction_smoke_pre2019_20261002_chase1gate_0b97103cd7a4/citations_verify.txt",
+   "sha256_before": "a041268a421cbc7b9473de97ff2cebcc65318d486685f8f1495c7d354f088c5c",
+   "sha256_after": "a77e11dad80a86445d986edf2152eb8c51272074e0dc8ca8b27d163cb21adb3c",
+   "lines_changed": 1,
+   "in_a_ledger_manifest": true
+  }
+ ]
+}

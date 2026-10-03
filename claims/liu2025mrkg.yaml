@@ -1,0 +1,56 @@
+source:
+  citation: liu2025mrkg
+  local: sources/liu2025_mrkg.txt
+  sha256: bff7f28d1d5af1ca10eb4e3f53fb03bb6ffccc71174ca75b5b3169be027337a9
+  doi: 10.64898/2025.12.14.25342218
+  note: Liu Y, Burton J, Gatua W, Hemani G, Gaunt TR. MR-KG. medRxiv 2025. PDF, pdftotext.
+claims:
+  discordant:
+    quotes:
+    - exact: 20.2 percent (n=419) demonstrate discordant results
+      section: Results
+  pairs:
+    quotes:
+    - exact: 2,075 unique exposure
+      section: Results
+  unit:
+    quotes:
+    - exact: We analysed 2,075 unique exposure‑outcome trait pairs
+      section: Results
+  null_excluded:
+    quotes:
+    - exact: Pairs involving null directions are excluded from
+      section: Methods
+  sign_rule:
+    quotes:
+    - exact: we classify each harmonised effect as positive (β > 0),
+      section: Methods
+  sign_rule_null:
+    quotes:
+    - exact: negative (β < 0), or null (β = 0 or missing), and compute concordance across all matched
+        pairs
+      section: Methods
+  tiers:
+    quotes:
+    - exact: high (≥ 0.7), moderate (0.5‑0.69), low (0.0‑0.49), and discordant (less than 0.0)
+      section: Results
+  figure5_rule:
+    quotes:
+    - exact: +1 if both report same direction, ‑1 if opposite directions, 0 if either is null
+      section: Figure 5 legend
+  fuzzy:
+    quotes:
+    - exact: whilst fuzzy matches (different labels matched via embedding similarity exceeding 0.70
+      section: Results
+  per_model:
+    quotes:
+    - exact: For each pair of studies extracted using the same model, we first match
+      section: Methods
+  independent_studies:
+    quotes:
+    - exact: investigated by two or more independent studies
+      section: Results
+  direction_def:
+    quotes:
+    - exact: direction concordance, which measures agreement in effect direction (positive,
+      section: Results

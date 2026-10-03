@@ -1,0 +1,25 @@
+source:
+  citation: delange2017ibd_supp_table1
+  local: sources/delange2017ibd_supp_table1.txt
+  sha256: ae7c75acccff371ef498400b0063b321a0173a01805285b590582b0db999d6fd
+  doi: 10.1038/ng.3760
+  note: Supplementary Table 1 (sample and site counts per study) of de Lange KM et al. 2017 Nat Genet,
+    NIHMS70681-supplement-Supplementary_Table_1.xlsx from the Europe PMC supplementaryFiles zip for PMC5289481,
+    converted with pandas, one row per line.
+claims:
+  wgs-row:
+    quotes:
+    - exact: UK low coverage whole genome sequencing IBD study | Samples | 2697
+      section: Supplementary Table 1
+  humancoreexome-row:
+    quotes:
+    - exact: UK HumanCoreExome genotyped IBD study | Samples | 5695
+      section: Supplementary Table 1
+  iibdgc-ibd-row:
+    quotes:
+    - exact: IIBDGC genotyped IBD study (summary statistics) | Samples |
+      section: Supplementary Table 1
+  combined-total:
+    quotes:
+    - exact: '| 40266 | 45975 | 59957 |'
+      section: Supplementary Table 1

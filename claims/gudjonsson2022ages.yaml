@@ -1,0 +1,25 @@
+source:
+  citation: gudjonsson2022ages
+  local: sources/gudjonsson2022ages.txt
+  sha256: d4ba741fe577d196f1e790ab7fc1cdd3a4a6263efb566641c4e7fbbba3337490
+  doi: 10.1038/s41467-021-27850-z
+  note: Full text from Europe PMC fullTextXML (PMC8789779), tags stripped, one title or paragraph per
+    line. Gudjonsson A et al. 2022 Nat Commun (A genome-wide association study of serum proteins reveals
+    shared loci with common diseases). PMID 35078996.
+claims:
+  platform:
+    quotes:
+    - exact: Serum levels of 4135 human proteins, targeted by 4782 SOMAmers50, were determined at SomaLogic
+        Inc. (Boulder, US) in samples from 5457 AGES-Reykjavik participants as previously described8.
+      section: 'Methods: Protein measurements'
+  targets-4118:
+    quotes:
+    - exact: thus the 4782 SOMAmers are annotated to a total of 4118 unique targets (annotated as one
+        or more Entrez gene symbols)
+      section: 'Methods: Protein measurements'
+  gwas-4782:
+    quotes:
+    - exact: We performed a GWAS of 4782 serum proteins encoded by 4135 unique human genes in the population-based
+        AGES cohort of elderly Icelanders (n = 5368, Supplementary Data 1), measured by the slow-off rate
+        modified aptamer (SOMAmer) platform as previously described8,18.
+      section: Results

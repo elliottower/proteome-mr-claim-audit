@@ -1,0 +1,127 @@
+{
+ "inputs": "/vol/02_claims_meta/stage5/smoke_pre2019_20261002/biology_inputs",
+ "window": "update",
+ "claim_records": 0,
+ "resources": {
+  "ontology_edges": "/exp/verification/ontology_edges.csv",
+  "therapeutic_areas": "/exp/verification/therapeutic_areas.csv",
+  "therapeutic_area_names": "/exp/verification/therapeutic_area_names.csv",
+  "assay_lists": "/exp/verification/platform_assay_lists.csv",
+  "attachments": "/exp/verification/platform_assay_attachments.csv",
+  "reactome": "/exp/inputs/reactome/UniProt2Reactome.txt",
+  "snapshot_estimates": "/exp/derived/epigraphdb_mrres_estimates.jsonl",
+  "protein_mapping": "/exp/verification/epigraphdb_protein_mapping.csv",
+  "trait_mapping": "/exp/verification/epigraphdb_trait_mapping.csv",
+  "locus_list": "/exp/verification/pleiotropic_loci_eldjarn2023_ST36.csv"
+ },
+ "written_utc": "2026-10-02T20:17:16+00:00",
+ "papers_per_pair": {},
+ "participant_overlap_share": {
+  "multi_family_pairs": 0,
+  "known_overlapping": 0,
+  "known_not_overlapping": 0,
+  "unresolved": 0,
+  "lower": null,
+  "upper": null,
+  "complete_case": null,
+  "wilson_descriptive": {
+   "lower": null,
+   "upper": null
+  },
+  "pair_bootstrap": {
+   "lower": null,
+   "upper": null,
+   "replicates": 10000,
+   "seed": 20261001
+  },
+  "h2b_verdict": "no_multi_family_pairs",
+  "imprecise_under_20_pairs": true
+ },
+ "within_family_discordance": {
+  "mixed_family_pair_records": 0,
+  "scopes_differ": 0,
+  "scope_shared": 0
+ },
+ "contradiction_sources": {
+  "contradicting_pairs": 0,
+  "imprecise_under_20_pairs": true,
+  "pqtl": {
+   "share_differ": null,
+   "share_not_stated": null,
+   "wilson_descriptive_differ": null
+  },
+  "outcome": {
+   "share_differ": null,
+   "share_not_stated": null,
+   "wilson_descriptive_differ": null
+  },
+  "platform": {
+   "share_differ": null,
+   "share_not_stated": null,
+   "wilson_descriptive_differ": null
+  },
+  "ancestry": {
+   "share_differ": null,
+   "share_not_stated": null,
+   "wilson_descriptive_differ": null
+  },
+  "any": {
+   "share_differ": null,
+   "share_not_stated": null,
+   "wilson_descriptive_differ": null
+  }
+ },
+ "landscape": {
+  "eligible_families": 0,
+  "families_per_year": {},
+  "families_per_period": {
+   "2019-2022": 0,
+   "2023-2025": 0
+  },
+  "proteins": 0,
+  "most_claimed_proteins": [],
+  "pairs_per_therapeutic_area": {},
+  "claim_records_per_therapeutic_area": {},
+  "pairs_by_area_rule": {},
+  "claim_records_per_wording_class": {},
+  "area_names": {
+   "EFO:0000651": "phenotype",
+   "EFO:0001444": "measurement",
+   "EFO:0002571": "medical procedure",
+   "EFO:0010282": "gastrointestinal disease",
+   "GO:0008150": "biological_process",
+   "MONDO:0002025": "psychiatric disorder",
+   "MONDO:0002051": "integumentary system disorder",
+   "MONDO:0002118": "urinary system disorder",
+   "MONDO:0002515": "hepatobiliary disorder",
+   "MONDO:0004995": "cardiovascular disorder",
+   "MONDO:0005046": "immune system disorder",
+   "MONDO:0005071": "nervous system disorder",
+   "MONDO:0005151": "endocrine system disorder",
+   "MONDO:0005550": "infectious disease",
+   "MONDO:0005570": "hematologic disorder",
+   "MONDO:0005583": "non-human animal disease",
+   "MONDO:0021205": "disorder of ear",
+   "MONDO:0024458": "disorder of visual system",
+   "MONDO:0045024": "cancer or benign tumor",
+   "OTAR:0000006": "musculoskeletal or connective tissue disease",
+   "OTAR:0000009": "injury, poisoning or other complication",
+   "OTAR:0000010": "respiratory or thoracic disease",
+   "OTAR:0000014": "pregnancy or perinatal disease",
+   "OTAR:0000017": "reproductive system or breast disease",
+   "OTAR:0000018": "genetic, familial or congenital disease",
+   "OTAR:0000020": "nutritional or metabolic disease"
+  },
+  "outcome_area_assignments": {},
+  "outcomes_by_area_assignment": {},
+  "inherited_outcomes_by_ancestor_distance": {},
+  "inherited_outcomes_with_several_equally_near_ancestors": 0
+ },
+ "distinct_pair_bounds": {
+  "distinct_pairs": 0,
+  "extraction_failed_families": 0,
+  "median_pairs_per_extracted_eligible_family": null,
+  "distinct_pairs_lower": 0,
+  "distinct_pairs_upper": null
+ }
+}

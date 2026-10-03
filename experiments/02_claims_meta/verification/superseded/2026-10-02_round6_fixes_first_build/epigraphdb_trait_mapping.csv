@@ -1,0 +1,226 @@
+name,state,tier,name_rule,alias_relation,source_ids,canonical_ids,canonical_id
+2hr glucose,mapped,,alias_table,derived_measurement,EFO:0004307,EFO:0004307,EFO:0004307
+Age at menarche,mapped,1,as_written,,EFO:0004703,EFO:0004703,EFO:0004703
+Age at menopause,mapped,1,as_written,,EFO:0004704,EFO:0004704,EFO:0004704
+Alcohol intake frequency,mapped,,alias_table,broader_proxy,EFO:0004329,EFO:0004329,EFO:0004329
+Alzheimer's disease,mapped,1,as_written,,MONDO:0004975,MONDO:0004975,MONDO:0004975
+Amygdala volume,mapped,1,as_written,,OBA:2050034,OBA:2050034,OBA:2050034
+Amyotrophic lateral sclerosis,mapped,1,as_written,,HP:0007354|MONDO:0004976,MONDO:0004976,MONDO:0004976
+Anorexia nervosa,mapped,1,as_written,,MONDO:0005351,MONDO:0005351,MONDO:0005351
+Autism,mapped,1,as_written,,HP:0000717|MONDO:0005260,MONDO:0005260,MONDO:0005260
+Bipolar disorder,mapped,1,as_written,,MONDO:0004985,MONDO:0004985,MONDO:0004985
+Birth length,mapped,1,as_written,,EFO:0006784,EFO:0006784,EFO:0006784
+Birth weight,mapped,1,as_written,,EFO:0004344,EFO:0004344,EFO:0004344
+Body fat,mapped,,alias_table,normalized_equivalent,EFO:0007800,EFO:0007800,EFO:0007800
+Body mass index (BMI),mapped,0,as_written,,EFO:0004340,EFO:0004340,EFO:0004340
+Breast cancer (Combined Oncoarray; iCOGS; GWAS meta analysis),mapped,1,as_written,,MONDO:0007254,MONDO:0007254,MONDO:0007254
+Bulimia nervosa,mapped,1,as_written,,MONDO:0005452,MONDO:0005452,MONDO:0005452
+Cancer code  self-reported: basal cell carcinoma,mapped,1,after_last_colon,,MONDO:0020804,MONDO:0020804,MONDO:0020804
+Cancer code  self-reported: malignant melanoma,mapped,1,after_last_colon,,MONDO:0005105,MONDO:0005105,MONDO:0005105
+Cancer code  self-reported: prostate cancer,mapped,1,after_last_colon,,MONDO:0008315,MONDO:0008315,MONDO:0008315
+Cancer code  self-reported: small intestine or small bowel cancer,mapped,,alias_table,normalized_equivalent,MONDO:0000956,MONDO:0000956,MONDO:0000956
+Cardioembolic stroke,mapped,1,as_written,,EFO:1001976,EFO:1001976,EFO:1001976
+Caudate volume,mapped,,alias_table,normalized_equivalent,EFO:0004830,EFO:0004830,EFO:0004830
+Celiac disease,mapped,1,as_written,,MONDO:0005130,MONDO:0005130,MONDO:0005130
+Childhood intelligence,mapped,,alias_table,broader_proxy,EFO:0004337,EFO:0004337,EFO:0004337
+Chronic kidney disease,mapped,1,as_written,,MONDO:0005300,MONDO:0005300,MONDO:0005300
+Cigarettes smoked per day,mapped,,alias_table,normalized_equivalent,EFO:0006525,EFO:0006525,EFO:0006525
+Clear cell ovarian cancer,mapped,3,as_written,,MONDO:0021144,MONDO:0021144,MONDO:0021144
+Coronary heart disease,mapped,0,as_written,,MONDO:0005010,MONDO:0005010,MONDO:0005010
+Cough on most days,unmapped,,,,,,
+Creatinine (enzymatic) in urine,unmapped,,,,,,
+Crohn's disease,mapped,1,as_written,,MONDO:0005011,MONDO:0005011,MONDO:0005011
+Depressive symptoms,mapped,1,as_written,,EFO:0007006,EFO:0007006,EFO:0007006
+Diagnoses - main ICD10: B37 Candidiasis,mapped,,icd10_cross_reference,,ICD10:B37,MONDO:0002026,MONDO:0002026
+Diagnoses - main ICD10: C50 Malignant neoplasm of breast,mapped,,icd10_cross_reference,,ICD10:C50,MONDO:0007254,MONDO:0007254
+Diagnoses - main ICD10: C61 Malignant neoplasm of prostate,mapped,,icd10_cross_reference,,ICD10:C61,MONDO:0008315,MONDO:0008315
+Diagnoses - main ICD10: D12 Benign neoplasm of colon  rectum  anus and anal canal,unmapped,,,,,,
+Diagnoses - main ICD10: D25 Leiomyoma of uterus,mapped,,icd10_cross_reference,,ICD10:D25,MONDO:0007886,MONDO:0007886
+Diagnoses - main ICD10: G47 Sleep disorders,mapped,,icd10_cross_reference,,ICD10:G47,MONDO:0003406,MONDO:0003406
+Diagnoses - main ICD10: G56 Mononeuropathies of upper limb,unmapped,,,,,,
+Diagnoses - main ICD10: H25 Senile cataract,mapped,,icd10_cross_reference,,ICD10:H25,MONDO:0004847,MONDO:0004847
+Diagnoses - main ICD10: I30 Acute pericarditis,mapped,,alias_table,broader_proxy,MONDO:0005904,MONDO:0005904,MONDO:0005904
+Diagnoses - main ICD10: I48 Atrial fibrillation and flutter,unmapped,,,,,,
+Diagnoses - main ICD10: I80 Phlebitis and thrombophlebitis,unmapped,,,,,,
+Diagnoses - main ICD10: I83 Varicose veins of lower extremities,mapped,,alias_table,broader_proxy,MONDO:0008638,MONDO:0008638,MONDO:0008638
+Diagnoses - main ICD10: I84 Haemorrhoids,mapped,1,after_last_colon,,MONDO:0004872,MONDO:0004872,MONDO:0004872
+Diagnoses - main ICD10: J33 Nasal polyp,mapped,1,after_last_colon,,MONDO:0006314,MONDO:0006314,MONDO:0006314
+Diagnoses - main ICD10: K20 Oesophagitis,mapped,,icd10_cross_reference,,ICD10:K20,MONDO:0001409,MONDO:0001409
+Diagnoses - main ICD10: K29 Gastritis and duodenitis,unmapped,,,,,,
+Diagnoses - main ICD10: K35 Acute appendicitis,mapped,,alias_table,broader_proxy,MONDO:0005649,MONDO:0005649,MONDO:0005649
+Diagnoses - main ICD10: K40 Inguinal hernia,mapped,1,after_last_colon,,HP:0000023,HP:0000023,HP:0000023
+Diagnoses - main ICD10: K43 Ventral hernia,mapped,1,after_last_colon,,EFO:1001866|HP:0002933,EFO:1001866,EFO:1001866
+Diagnoses - main ICD10: K44 Diaphragmatic hernia,mapped,1,after_last_colon,,EFO:0008561,EFO:0008561,EFO:0008561
+Diagnoses - main ICD10: K57 Diverticular disease of intestine,mapped,,alias_table,normalized_equivalent,EFO:0009959,EFO:0009959,EFO:0009959
+Diagnoses - main ICD10: K60 Fissure and fistula of anal and rectal regions,unmapped,,,,,,
+Diagnoses - main ICD10: K80 Cholelithiasis,mapped,,icd10_cross_reference,,ICD10:K80,MONDO:0012672,MONDO:0012672
+Diagnoses - main ICD10: L03 Cellulitis,mapped,,icd10_cross_reference,,ICD10:L03,MONDO:0005230,MONDO:0005230
+Diagnoses - main ICD10: M16 Coxarthrosis [arthrosis of hip],mapped,,alias_table,normalized_equivalent,MONDO:0006629,MONDO:0006629,MONDO:0006629
+Diagnoses - main ICD10: M17 Gonarthrosis [arthrosis of knee],mapped,,alias_table,normalized_equivalent,MONDO:0005416,MONDO:0005416,MONDO:0005416
+Diagnoses - main ICD10: M23 Internal derangement of knee,unmapped,,,,,,
+Diagnoses - main ICD10: M54 Dorsalgia,mapped,,alias_table,normalized_equivalent,HP:0003418,HP:0003418,HP:0003418
+Diagnoses - main ICD10: M72 Fibroblastic disorders,mapped,1,after_last_colon,,EFO:0009432,EFO:0009432,EFO:0009432
+Diagnoses - main ICD10: N20 Calculus of kidney and ureter,mapped,1,after_last_colon,,MONDO:0008171,MONDO:0008171,MONDO:0008171
+Diagnoses - main ICD10: N40 Hyperplasia of prostate,mapped,,icd10_cross_reference,,ICD10:N40,MONDO:0010811,MONDO:0010811
+Diagnoses - main ICD10: N81 Female genital prolapse,mapped,,icd10_cross_reference,,ICD10:N81,MONDO:0001592,MONDO:0001592
+Diagnoses - main ICD10: N92 Excessive  frequent and irregular menstruation,unmapped,,,,,,
+Diagnoses - main ICD10: R04 Haemorrhage from respiratory passages,unmapped,,,,,,
+Diagnoses - main ICD10: R07 Pain in throat and chest,unmapped,,,,,,
+Diagnoses - main ICD10: R10 Abdominal and pelvic pain,unmapped,,,,,,
+Diagnoses - main ICD10: R11 Nausea and vomiting,mapped,1,after_last_colon,,HP:0002017,HP:0002017,HP:0002017
+Diagnoses - main ICD10: R14 Flatulence and related conditions,mapped,,alias_table,broader_proxy,EFO:0009669,EFO:0009669,EFO:0009669
+Diagnoses - main ICD10: R35 Polyuria,mapped,1,after_last_colon,,HP:0000103,HP:0000103,HP:0000103
+Diagnoses - main ICD10: R55 Syncope and collapse,mapped,,alias_table,broader_proxy,HP:0001279,HP:0001279,HP:0001279
+Diagnoses - main ICD10: S66 Injury of muscle and tendon at wrist and hand level,unmapped,,,,,,
+Diagnoses - main ICD10: S76 Injury of muscle and tendon at hip and thigh level,unmapped,,,,,,
+Diagnoses - main ICD10: Z09 Follow-up examination after treatment for conditions other than malignant neoplasms,unmapped,,,,,,
+Diastolic blood pressure  automated reading,mapped,,alias_table,normalized_equivalent,EFO:0006336,EFO:0006336,EFO:0006336
+ER-negative Breast cancer (Combined Oncoarray; iCOGS; GWAS meta analysis),mapped,,alias_table,normalized_equivalent,MONDO:0006513,MONDO:0006513,MONDO:0006513
+ER-positive Breast cancer (Combined Oncoarray; iCOGS; GWAS meta analysis),mapped,,alias_table,normalized_equivalent,MONDO:0006512,MONDO:0006512,MONDO:0006512
+Eczema,mapped,1,as_written,,HP:0000964|MONDO:0004980,MONDO:0004980,MONDO:0004980
+Endometrioid ovarian cancer,mapped,3,as_written,,MONDO:0006335,MONDO:0006335,MONDO:0006335
+Eye problems or disorders: Cataract,mapped,1,after_last_colon,,HP:0000518|MONDO:0005129,MONDO:0005129,MONDO:0005129
+Eye problems or disorders: Diabetes related eye disease,mapped,,alias_table,broader_proxy,MONDO:0005266,MONDO:0005266,MONDO:0005266
+Eye problems or disorders: Glaucoma,mapped,1,after_last_colon,,HP:0000501|MONDO:0005041,MONDO:0005041,MONDO:0005041
+Eye problems or disorders: Injury or trauma resulting in loss of vision,unmapped,,,,,,
+Fasting glucose,mapped,0,as_written,,OBA:VT0000188,OBA:VT0000188,OBA:VT0000188
+Fasting insulin,mapped,0,as_written,,OBA:VT0001560,OBA:VT0001560,OBA:VT0001560
+Fasting proinsulin,mapped,,alias_table,broader_proxy,EFO:0010814,EFO:0010814,EFO:0010814
+Femoral neck bone mineral density,mapped,1,as_written,,EFO:0007785,EFO:0007785,EFO:0007785
+Ferritin,mapped,1,as_written,,EFO:0004459,EFO:0004459,EFO:0004459
+Forced expiratory volume in 1-second (FEV1),mapped,1,as_written,,EFO:0004314,EFO:0004314,EFO:0004314
+Forced vital capacity (FVC),mapped,1,as_written,,EFO:0004312,EFO:0004312,EFO:0004312
+Forearm bone mineral density,unmapped,,,,,,
+Fracture resulting from simple fall,unmapped,,,,,,
+Fractured bone site(s): Ankle,mapped,,alias_table,normalized_equivalent,EFO:0009615,EFO:0009615,EFO:0009615
+Fractured bone site(s): Arm,unmapped,,,,,,
+Fractured bone site(s): Other bones,unmapped,,,,,,
+Fractured bone site(s): Wrist,mapped,,alias_table,normalized_equivalent,EFO:0009515,EFO:0009515,EFO:0009515
+Fractured or broken bones in last 5 years,mapped,,alias_table,broader_proxy,MONDO:0005315,MONDO:0005315,MONDO:0005315
+Gallbladder cancer,mapped,1,as_written,,MONDO:0005411,MONDO:0005411,MONDO:0005411
+Glioma,mapped,1,as_written,,MONDO:0021042,MONDO:0021042,MONDO:0021042
+HDL cholesterol,mapped,,alias_table,normalized_equivalent,EFO:0004612,EFO:0004612,EFO:0004612
+HOMA-B,mapped,1,as_written,,EFO:0004469,EFO:0004469,EFO:0004469
+HOMA-IR,mapped,1,as_written,,EFO:0004501,EFO:0004501,EFO:0004501
+Haemoglobin concentration,mapped,1,as_written,,EFO:0004509,EFO:0004509,EFO:0004509
+Happiness,unmapped,,,,,,
+HbA1C,mapped,1,as_written,,EFO:0004541,EFO:0004541,EFO:0004541
+Hearing difficulty or problems: Yes,unmapped,,,,,,
+Heel bone mineral density (BMD) T-score  automated,mapped,,alias_table,derived_measurement,EFO:0009270,EFO:0009270,EFO:0009270
+Height,mapped,,alias_table,normalized_equivalent,OBA:VT0001253,OBA:VT0001253,OBA:VT0001253
+High grade serous ovarian cancer,mapped,,alias_table,normalized_equivalent,EFO:1001958,EFO:1001958,EFO:1001958
+Hip osteoarthritis,mapped,1,as_written,,MONDO:0006629,MONDO:0006629,MONDO:0006629
+Hippocampus volume,mapped,,alias_table,exact_equivalent,EFO:0005035,EFO:0005035,EFO:0005035
+Hirschsprung's disease,mapped,1,as_written,,MONDO:0018309,MONDO:0018309,MONDO:0018309
+IgA nephropathy,mapped,1,as_written,,MONDO:0005342,MONDO:0005342,MONDO:0005342
+Inflammatory bowel disease,mapped,1,as_written,,MONDO:0005265,MONDO:0005265,MONDO:0005265
+Internalizing problems,unmapped,,,,,,
+Intracranial volume,mapped,1,as_written,,EFO:0004886,EFO:0004886,EFO:0004886
+Invasive mucinous ovarian cancer,mapped,,alias_table,normalized_equivalent,MONDO:0005601,MONDO:0005601,MONDO:0005601
+Iron,mapped,,alias_table,normalized_equivalent,OBA:2050055,OBA:2050055,OBA:2050055
+Ischemic stroke,mapped,1,as_written,,HP:0002140|MONDO:1060198,MONDO:1060198,MONDO:1060198
+Juvenile idiopathic arthritis,mapped,1,as_written,,MONDO:0011429,MONDO:0011429,MONDO:0011429
+Knee and hip osteoarthritis,unmapped,,,,,,
+Knee osteoarthritis,mapped,0,as_written,,MONDO:0005416,MONDO:0005416,MONDO:0005416
+LDL cholesterol,mapped,1,as_written,,EFO:0004195,EFO:0004195,EFO:0004195
+Large vessel disease,unmapped,,,,,,
+Low grade serous ovarian cancer,unmapped,,,,,,
+Lumbar spine bone mineral density,mapped,,alias_table,broader_proxy,EFO:0007701,EFO:0007701,EFO:0007701
+Lung adenocarcinoma,mapped,,alias_table,exact_equivalent,MONDO:0005061,MONDO:0005061,MONDO:0005061
+Lung cancer,mapped,1,as_written,,MONDO:0008903,MONDO:0008903,MONDO:0008903
+Major depressive disorder,mapped,1,as_written,,MONDO:0002009,MONDO:0002009,MONDO:0002009
+Mean cell haemoglobin,mapped,,alias_table,exact_equivalent,EFO:0004527,EFO:0004527,EFO:0004527
+Mean cell haemoglobin concentration,mapped,,alias_table,exact_equivalent,EFO:0004528,EFO:0004528,EFO:0004528
+Mean cell volume,mapped,,alias_table,normalized_equivalent,OBA:0003460,OBA:0003460,OBA:0003460
+Mean platelet volume,mapped,2,as_written,,OBA:0003277,OBA:0003277,OBA:0003277
+Melanoma,mapped,1,as_written,,MONDO:0005105,MONDO:0005105,MONDO:0005105
+Microalbuminuria,mapped,1,as_written,,HP:0012594,HP:0012594,HP:0012594
+Multiple sclerosis,mapped,1,as_written,,MONDO:0005301,MONDO:0005301,MONDO:0005301
+Myocardial infarction,mapped,1,as_written,,MONDO:0005068,MONDO:0005068,MONDO:0005068
+Neo-agreeableness,mapped,,alias_table,normalized_equivalent,EFO:0007915,EFO:0007915,EFO:0007915
+Neo-conscientiousness,mapped,,alias_table,normalized_equivalent,EFO:0007912,EFO:0007912,EFO:0007912
+Neo-extraversion,mapped,,alias_table,normalized_equivalent,EFO:0007913,EFO:0007913,EFO:0007913
+Neo-neuroticism,mapped,,alias_table,normalized_equivalent,EFO:0007660,EFO:0007660,EFO:0007660
+Neo-openness to experience,mapped,,alias_table,normalized_equivalent,EFO:0007914,EFO:0007914,EFO:0007914
+Neuroblastoma,mapped,1,as_written,,MONDO:0005072,MONDO:0005072,MONDO:0005072
+Neuroticism,mapped,1,as_written,,EFO:0007660,EFO:0007660,EFO:0007660
+Non-cancer illness code  self-reported: ankylosing spondylitis,mapped,1,after_last_colon,,MONDO:0005306,MONDO:0005306,MONDO:0005306
+Non-cancer illness code  self-reported: anxiety or panic attacks,unmapped,,,,,,
+Non-cancer illness code  self-reported: arthritis (nos),mapped,1,after_last_colon,,HP:0001369|MONDO:0005578,MONDO:0005578,MONDO:0005578
+Non-cancer illness code  self-reported: asthma,mapped,1,after_last_colon,,HP:0002099|MONDO:0004979,MONDO:0004979,MONDO:0004979
+Non-cancer illness code  self-reported: bladder problem (not cancer),unmapped,,,,,,
+Non-cancer illness code  self-reported: bone disorder,mapped,1,after_last_colon,,MONDO:0005381,MONDO:0005381,MONDO:0005381
+Non-cancer illness code  self-reported: chronic obstructive airways disease or copd,mapped,,alias_table,normalized_equivalent,MONDO:0005002,MONDO:0005002,MONDO:0005002
+Non-cancer illness code  self-reported: deep venous thrombosis (dvt),mapped,1,as_written,,EFO:0003907,EFO:0003907,EFO:0003907
+Non-cancer illness code  self-reported: depression,mapped,0,after_last_colon,,MONDO:0002050,MONDO:0002050,MONDO:0002050
+Non-cancer illness code  self-reported: diverticular disease or diverticulitis,mapped,,alias_table,normalized_equivalent,EFO:0009959,EFO:0009959,EFO:0009959
+Non-cancer illness code  self-reported: emphysema or chronic bronchitis,unmapped,,,,,,
+Non-cancer illness code  self-reported: enlarged prostate,mapped,,alias_table,normalized_equivalent,MONDO:0010811,MONDO:0010811,MONDO:0010811
+Non-cancer illness code  self-reported: gastro-oesophageal reflux (gord)  or  gastric reflux,mapped,,alias_table,normalized_equivalent,MONDO:0007186,MONDO:0007186,MONDO:0007186
+Non-cancer illness code  self-reported: gout,mapped,1,after_last_colon,,HP:0001997|MONDO:0005393,MONDO:0005393,MONDO:0005393
+Non-cancer illness code  self-reported: hayfever or allergic rhinitis,mapped,,alias_table,normalized_equivalent,MONDO:0011786,MONDO:0011786,MONDO:0011786
+Non-cancer illness code  self-reported: hiatus hernia,mapped,1,after_last_colon,,HP:0002036|MONDO:0007721,MONDO:0007721,MONDO:0007721
+Non-cancer illness code  self-reported: high cholesterol,mapped,,alias_table,normalized_equivalent,HP:0003124,HP:0003124,HP:0003124
+Non-cancer illness code  self-reported: hypertension,mapped,1,after_last_colon,,HP:0000822,MONDO:0005044,MONDO:0005044
+Non-cancer illness code  self-reported: hyperthyroidism or thyrotoxicosis,mapped,,alias_table,normalized_equivalent,MONDO:0004425,MONDO:0004425,MONDO:0004425
+Non-cancer illness code  self-reported: hypertrophic cardiomyopathy (hcm  or  hocm),mapped,1,after_last_colon,,MONDO:0005045,MONDO:0005045,MONDO:0005045
+Non-cancer illness code  self-reported: hypopituitarism,mapped,1,after_last_colon,,HP:0040075|MONDO:0005152,MONDO:0005152,MONDO:0005152
+Non-cancer illness code  self-reported: hypothyroidism or myxoedema,mapped,,alias_table,normalized_equivalent,MONDO:0005420,MONDO:0005420,MONDO:0005420
+Non-cancer illness code  self-reported: iron deficiency anaemia,mapped,1,after_last_colon,,HP:0001891|MONDO:0001356,MONDO:0001356,MONDO:0001356
+Non-cancer illness code  self-reported: joint disorder,mapped,1,after_last_colon,,MONDO:0006816,MONDO:0006816,MONDO:0006816
+Non-cancer illness code  self-reported: kidney stone or ureter stone or bladder stone,mapped,,alias_table,normalized_equivalent,MONDO:0024647,MONDO:0024647,MONDO:0024647
+Non-cancer illness code  self-reported: mania or bipolar disorder or manic depression,mapped,,alias_table,normalized_equivalent,MONDO:0004985,MONDO:0004985,MONDO:0004985
+Non-cancer illness code  self-reported: migraine,mapped,1,after_last_colon,,HP:0002076|MONDO:0005277,MONDO:0005277,MONDO:0005277
+Non-cancer illness code  self-reported: muscle or soft tissue injuries,unmapped,,,,,,
+Non-cancer illness code  self-reported: osteoarthritis,mapped,1,after_last_colon,,MONDO:0005178,MONDO:0005178,MONDO:0005178
+Non-cancer illness code  self-reported: osteoporosis,mapped,1,after_last_colon,,HP:0000939|MONDO:0005298,MONDO:0005298,MONDO:0005298
+Non-cancer illness code  self-reported: pernicious anaemia,mapped,,alias_table,exact_equivalent,MONDO:0008228,MONDO:0008228,MONDO:0008228
+Non-cancer illness code  self-reported: pneumothorax,mapped,1,after_last_colon,,HP:0002107|MONDO:0002076,MONDO:0002076,MONDO:0002076
+Non-cancer illness code  self-reported: polio  or  poliomyelitis,mapped,,alias_table,normalized_equivalent,MONDO:0017373,MONDO:0017373,MONDO:0017373
+Non-cancer illness code  self-reported: psoriasis,mapped,1,after_last_colon,,HP:0003765|MONDO:0005083,MONDO:0005083,MONDO:0005083
+Non-cancer illness code  self-reported: retinal detachment,mapped,1,after_last_colon,,MONDO:0008375,MONDO:0008375,MONDO:0008375
+Non-cancer illness code  self-reported: sleep apnoea,mapped,1,after_last_colon,,HP:0010535,MONDO:0005296,MONDO:0005296
+Non-cancer illness code  self-reported: uterine fibroids,mapped,,alias_table,normalized_equivalent,MONDO:0007886,MONDO:0007886,MONDO:0007886
+Non-cancer illness code  self-reported: vaginal prolapse or uterine prolapse,mapped,,alias_table,broader_proxy,MONDO:0000082,MONDO:0000082,MONDO:0000082
+Non-cancer illness code  self-reported: vitiligo,mapped,1,after_last_colon,,MONDO:0008661,MONDO:0008661,MONDO:0008661
+Non-cancer illness code self-reported: pulmonary embolism (with or without) dvt,mapped,,alias_table,normalized_equivalent,MONDO:0005279,MONDO:0005279,MONDO:0005279
+Nucleus accumbens volume,mapped,1,as_written,,OBA:2050020,OBA:2050020,OBA:2050020
+Ovarian cancer,mapped,1,as_written,,MONDO:0008170,MONDO:0008170,MONDO:0008170
+PGC cross-disorder traits,unmapped,,,,,,
+Packed cell volume,mapped,,alias_table,normalized_equivalent,EFO:0004348,EFO:0004348,EFO:0004348
+Paget's disease,mapped,1,as_written,,MONDO:0021165,MONDO:0021165,MONDO:0021165
+Pallidum volume,mapped,1,as_written,,OBA:2050027,OBA:2050027,OBA:2050027
+Pancreatic cancer,mapped,1,as_written,,MONDO:0009831,MONDO:0009831,MONDO:0009831
+Parkinson's disease,mapped,1,as_written,,MONDO:0005180,MONDO:0005180,MONDO:0005180
+Percent emphysema,mapped,,alias_table,broader_proxy,EFO:0007626,EFO:0007626,EFO:0007626
+Platelet count,mapped,1,as_written,,EFO:0004309,EFO:0004309,EFO:0004309
+Potassium in urine,mapped,,alias_table,normalized_equivalent,OBA:2050095,OBA:2050095,OBA:2050095
+Primary sclerosing cholangitis ,mapped,1,as_written,,MONDO:0013433,MONDO:0013433,MONDO:0013433
+Pulse rate,mapped,,alias_table,normalized_equivalent,OBA:1001087,OBA:1001087,OBA:1001087
+Putamen volume,mapped,1,as_written,,OBA:2050016,OBA:2050016,OBA:2050016
+Red blood cell count,mapped,1,as_written,,EFO:0004305,EFO:0004305,EFO:0004305
+Rheumatoid arthritis,mapped,1,as_written,,HP:0001370|MONDO:0008383,MONDO:0008383,MONDO:0008383
+Schizophrenia,mapped,1,as_written,,MONDO:0005090,MONDO:0005090,MONDO:0005090
+Serum creatinine (eGFRcrea),mapped,2,as_written,,OBA:2050096,OBA:2050096,OBA:2050096
+Serum cystatin C (eGFRcys),mapped,1,as_written,,EFO:0004617,EFO:0004617,EFO:0004617
+Sleep duration,mapped,2,as_written,,OBA:2040171,OBA:2040171,OBA:2040171
+Small vessel disease,unmapped,,,,,,
+Sodium in urine,mapped,1,as_written,,EFO:0021522,EFO:0021522,EFO:0021522
+Squamous cell lung cancer,mapped,1,as_written,,MONDO:0005097,MONDO:0005097,MONDO:0005097
+Subjective well being,mapped,,alias_table,normalized_equivalent,EFO:0007869,EFO:0007869,EFO:0007869
+Systemic lupus erythematosus,mapped,1,as_written,,HP:0002725|MONDO:0007915,MONDO:0007915,MONDO:0007915
+Systolic blood pressure  automated reading,mapped,,alias_table,normalized_equivalent,EFO:0006335,EFO:0006335,EFO:0006335
+Thalamus volume,mapped,1,as_written,,EFO:0006935,EFO:0006935,EFO:0006935
+Thyroid cancer,mapped,1,as_written,,MONDO:0002108,MONDO:0002108,MONDO:0002108
+Total cholesterol,mapped,1,as_written,,EFO:0004574,EFO:0004574,EFO:0004574
+Transferrin,mapped,1,as_written,,EFO:0006341,EFO:0006341,EFO:0006341
+Transferrin Saturation,mapped,1,as_written,,EFO:0006333,EFO:0006333,EFO:0006333
+Triglycerides,mapped,1,as_written,,EFO:0004530,EFO:0004530,EFO:0004530
+Type 2 diabetes,mapped,0,as_written,,MONDO:0005148,MONDO:0005148,MONDO:0005148
+Ulcerative colitis,mapped,1,as_written,,MONDO:0005101,MONDO:0005101,MONDO:0005101
+Underlying (primary) cause of death: ICD10: E85.4 Organ-limited amyloidosis,unmapped,,,,,,
+Urate,mapped,1,as_written,,EFO:0004531,EFO:0004531,EFO:0004531
+Urinary albumin-to-creatinine ratio,mapped,1,as_written,,EFO:0007778,EFO:0007778,EFO:0007778
+Vascular or heart problems diagnosed by doctor: Angina,mapped,1,after_last_colon,,EFO:0003913,EFO:0003913,EFO:0003913
+Weight,mapped,1,as_written,,EFO:0004338,EFO:0004338,EFO:0004338
+Years of schooling,mapped,,alias_table,normalized_equivalent,EFO:0011015,EFO:0011015,EFO:0011015

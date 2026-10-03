@@ -1,0 +1,99 @@
+{
+ "extraction": "outputs/parsed/sol_fulltext_extraction_ft1_5fb585754e99.jsonl",
+ "reference_releases": {
+  "hgnc": "2026-09-04",
+  "uniprot": "2026_03",
+  "mondo": "v2026-09-01",
+  "efo": "v3.93.0"
+ },
+ "reference_sha256": {
+  "hgnc": "6f43d6ff43aa9fdfa5fb2f20a20a7cace66e6e02e2a0dcf19d9b726e2e248d20",
+  "uniprot": "620d646a96c07ab3c6c71306518bbf28ee61c0d5e91cab26e4c5417e91e19f83",
+  "mondo": "50c8367f9bd9978321eedf84d4e2e79cb757efbed514c81effb00b9ad2e49994",
+  "efo": "66e87fc65a6254c6d69281ed3d286784ee5f8265b1e57691efddd29b20570c46"
+ },
+ "lexicon": "verification/direction_lexicon.json",
+ "dataset_dictionary": "dataset_dictionary.csv",
+ "dataset_dictionary_sha256": "ce40754027e8f2cdce030678519644c001a4d3f198ecce82cc19bfc7e410a03c",
+ "dataset_components_sha256": "a5bae93a3df0a06d7b98345d57341c97abb526ffda59234fa89fe1fb432da683",
+ "outcome_aliases_sha256": "6cb27ebca20d8dfb3eaf68c61c4831fc29ca89e4203ed169ef187d6a04a66c8b",
+ "lexicon_sha256": "bdd67b7aca7abd0ae5cc0e6cdc241e1d383b56ebf58f54f7d9cafd88d9b09f75",
+ "n_claims": 45,
+ "span_pass": 45,
+ "protein_check": {
+  "pass": 42,
+  "protein_unmapped": 3
+ },
+ "protein_ambiguous_multiple_hgnc": 0,
+ "outcome_check": {
+  "pass": 32,
+  "outcome_unmapped": 13
+ },
+ "direction_check": {
+  "not_applicable": 16,
+  "disagrees": 13,
+  "direction_unverified": 1,
+  "agrees": 15
+ },
+ "direction_check_among_directional_claims": {
+  "disagrees": 13,
+  "direction_unverified": 1,
+  "agrees": 15
+ },
+ "direction_method_among_directional_claims": {
+  "lexicon": 2,
+  "none": 1,
+  "estimate": 26
+ },
+ "evidence_type": {
+  "variant_association": 10,
+  "other": 3,
+  "mr_estimate": 6,
+  "observational": 26
+ },
+ "outcome_aliases": "verification/outcome_aliases.csv",
+ "dataset_names_by_state": {
+  "release_ambiguous": 38,
+  "not_stated": 26,
+  "unmatched": 26
+ },
+ "dataset_names_by_rule": {
+  "exact": 25,
+  "qualified": 13,
+  "none": 52
+ },
+ "dataset_mapping_state": {
+  "some_release_ambiguous": 19,
+  "some_unmatched": 26
+ },
+ "protein_mapping_state": {
+  "mapped": 42,
+  "unmapped": 3
+ },
+ "outcome_mapping_state": {
+  "mapped": 32,
+  "unmapped": 13
+ },
+ "direction_values": {
+  "not_stated": 16,
+  "lowers": 5,
+  "raises": 15,
+  "reported_nonsignificant_or_null": 9
+ },
+ "claim_scope": {
+  "overall": 19,
+  "subgroup_specific": 26
+ },
+ "dataset_attribution": {
+  "claim_specific": 36,
+  "whole_study": 9
+ },
+ "relation_ambiguous": {
+  "False": 45
+ },
+ "enters_registry": 6,
+ "enters_direction_results": 1,
+ "first_failure": {
+  "not_mr_estimate": 39
+ }
+}

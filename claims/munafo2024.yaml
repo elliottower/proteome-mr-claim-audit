@@ -1,0 +1,26 @@
+source:
+  citation: munafo2024
+  local: sources/munafo2024_flinders_raw.txt
+  sha256: e9f9e4847864e0622fa12756992084f22505bfe5ad553ab5d676694105419176
+  doi: 10.1136/tc-2024-058987
+  note: Publisher PDF (Tob Control 2024;33:559-560) retrieved from Flinders University repository, pdftotext
+    raw mode; two-column layout. Munafo MR, Brown J, Hefler M, Davey Smith G. Managing the exponential
+    growth of mendelian randomization studies. Co-published in Addiction (10.1111/add.16627) and Nicotine
+    Tob Res. PMID 39313311.
+claims:
+  low-priority:
+    quotes:
+    - exact: We therefore suggest that MR studies that simply use summary GWAS data to estimate the causal
+        effect of X on Y should be given a low priority for publication unless they genuinely advance
+        knowledge.
+      section: p. 560, col. 1 (no section headings; editorial)
+  negative-controls:
+    quotes:
+    - exact: incorporating negative controls and/or evidence from other study designs such as natural
+        experiments, and collaborating with biologists to advance plausible biological mechanisms.
+      section: p. 560, col. 1
+  copub:
+    quotes:
+    - exact: The articles are identical except for minor stylistic and spelling differences in keeping
+        with each journal’s style.
+      section: p. 560, licence box

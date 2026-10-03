@@ -1,0 +1,22 @@
+source:
+  citation: lambert2013_main
+  local: sources/original/lambert2013_main.txt
+  sha256: e452d7a0254a1e3beb9370567f4fe5f79398a12bf508766acce6f49322dd73e2
+  url: https://pmc-oa-opendata.s3.amazonaws.com/PMC3896259.1/PMC3896259.1.txt
+  doi: 10.1038/ng.2802
+  note: 'Original file behind claims/lambert2013_main.yaml: PMC3896259.1.txt from the PMC open-data bucket,
+    without the one-line header the text pin adds. The quotations here are the quotations of that file
+    that resolve in this file under the citations readers; a quotation absent here is pinned to the extracted
+    text there only.'
+claims:
+  stage1_four_consortia:
+    quotes:
+    - exact: 'In the stage 1 meta-analysis, we used data from four consortia: the Alzheimer’s Disease
+        Genetic Consortium (ADGC), the Cohorts for Heart and Aging Research in Genomic Epidemiology (CHARGE)
+        Consortium, the European Alzheimer’s Disease Initiative (EADI) and the Genetic and Environmental
+        Risk in Alzheimer’s Disease (GERAD) Consortium'
+      section: Results
+  stage2_replication:
+    quotes:
+    - exact: In stage 2, we selected for genotyping all stage 1 SNPs
+      section: Results

@@ -1,0 +1,50 @@
+[
+ {
+  "run_id": "smoke_pre2019_20261002_s4_registry",
+  "path": "outputs/verification/sol_extraction_smoke_pre2019_20261002_0b97103cd7a4/citations_verify.txt",
+  "recorded_sha256": "88939c8c9b4a9f03cb635e972397bd839703a12f851e136b3263c0af464bd2ab",
+  "replaced_sha256": "199e4a6c7c3764136d466b37fc9d505d01575afe2803c331721b47b395aca9b1",
+  "reason": "absolute path of the repository removed from the stored output of the citations CLI; no other byte changed",
+  "replaced_utc": "2026-10-02T20:44:33+00:00"
+ },
+ {
+  "run_id": "smoke_pre2019_20261002_s4_registry",
+  "path": "outputs/verification/sol_extraction_smoke_pre2019_20261002_chase1_0b97103cd7a4/citations_verify.txt",
+  "recorded_sha256": "990c05f9bfb469060c39e55110574eb0ebb22295a4115631614a1e638c83370a",
+  "replaced_sha256": "d5e9bf2ede86d3d92d9dbe8bb17c4260b99edb6ec94afed5360f4ebe99f01b85",
+  "reason": "absolute path of the repository removed from the stored output of the citations CLI; no other byte changed",
+  "replaced_utc": "2026-10-02T20:44:33+00:00"
+ },
+ {
+  "run_id": "smoke_pre2019_20261002_window_s4_registry",
+  "path": "outputs/verification/sol_extraction_smoke_pre2019_20261002_chase1gate_0b97103cd7a4/citations_verify.txt",
+  "recorded_sha256": "a041268a421cbc7b9473de97ff2cebcc65318d486685f8f1495c7d354f088c5c",
+  "replaced_sha256": "a77e11dad80a86445d986edf2152eb8c51272074e0dc8ca8b27d163cb21adb3c",
+  "reason": "absolute path of the repository removed from the stored output of the citations CLI; no other byte changed",
+  "replaced_utc": "2026-10-02T20:44:33+00:00"
+ },
+ {
+  "run_id": "smoke_pre2019_20261002_no_abstract_rule",
+  "path": "outputs/screening_smoke/smoke_pre2019_20261002_no_abstract_rule/funnel.json",
+  "recorded_sha256": "a4f8a34a5b953e95b28571f941cec32824732b05036197be7889357f08185981",
+  "replaced_sha256": "49709bccb99d9c92c3bd4a0e89c0f519e4fafcf57d9e96769bc59a1da944b22d",
+  "reason": "absolute repository path of the author's machine removed; paths are now relative to experiments/02_claims_meta; no other byte changed",
+  "replaced_utc": "2026-10-02T21:12:32+00:00"
+ },
+ {
+  "run_id": "smoke_pre2019_20261002_no_abstract_rule",
+  "path": "outputs/screening_smoke/smoke_pre2019_20261002_no_abstract_rule/chase_round_1/gate_audit_after_batch_01.json",
+  "recorded_sha256": "3f4c4eee8b8a3e2a3a3c733d290bd0c01e9fe49680b0143192e625baaff10213",
+  "replaced_sha256": "3fabd2c30b9d887db4fbb886705c83b8be4f944f0c8d60eb2e039d5a1f1113b4",
+  "reason": "absolute repository path of the author's machine removed; paths are now relative to experiments/02_claims_meta; no other byte changed",
+  "replaced_utc": "2026-10-02T21:12:33+00:00"
+ },
+ {
+  "run_id": "smoke_pre2019_20261002_no_abstract_rule",
+  "path": "outputs/funnel/smoke_pre2019_20261002_no_abstract_rule/funnel.json",
+  "recorded_sha256": "36693a1c0aaa345258b960c3a5e8de2aa10b366cc17a14939d78569c28ea4fcb",
+  "replaced_sha256": "2fe3e7da624952f70cb5d73750189890b95ce769d42e2635c3ba38afa16501fb",
+  "reason": "absolute repository path of the author's machine removed; paths are now relative to experiments/02_claims_meta; no other byte changed",
+  "replaced_utc": "2026-10-02T21:12:33+00:00"
+ }
+]

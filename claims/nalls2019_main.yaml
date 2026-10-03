@@ -1,0 +1,14 @@
+source:
+  citation: nalls2019_main
+  local: sources/nalls2019_main.txt
+  sha256: 425385e8b2650a4229c5056717500edc659d7412eb1dd952e63e9c23b1e2b7f6
+  doi: 10.1016/S1474-4422(19)30320-5
+  note: Author manuscript full text of Nalls et al. 2019 Lancet Neurol (PMC8422160), plain-text file PMC8422160.1.txt
+    from the PMC Cloud bucket pmc-oa-opendata, unmodified
+claims:
+  public_release_exclusions:
+    quotes:
+    - exact: An immediately accessible version of the summary statistics is available here excluding Nalls
+        et al. 2014, 23andMe post-Chang et al. 2017 and Web-Based Study of Parkinson’s Disease (PDWBS)
+        but including all analyzed SNPs.
+      section: Data sharing

@@ -1,0 +1,21 @@
+source:
+  citation: zhang2020bcac_supp_table4
+  local: sources/zhang2020bcac_supp_table4.txt
+  sha256: b20fcf73d338da8191b5a7567cfa8117c97514080093b428660a63194e8b2f83
+  doi: 10.1038/s41588-020-0609-2
+  note: Supplementary Table 4 (sample sizes compared with previous publications) of Zhang et al. 2020
+    Nat Genet, ESM 41588_2020_609_MOESM3_ESM.xlsx from static-content.springer.com, sheet 'S4 sample size
+    comparasion', converted with openpyxl, one row per line, cells separated by ' | '
+claims:
+  overall-row:
+    quotes:
+    - exact: Data in overall analysis2 | 37818 | 38349 | 58383 | 80125 | 14910 | 17588
+      section: Supplementary Table 4
+  subtype-row:
+    quotes:
+    - exact: Data in subtypes analysis3 | 37628 | 34783 | 56779 | 71708
+      section: Supplementary Table 4
+  tn-row:
+    quotes:
+    - exact: CIMBA-BCAC TN meta-analys4 | 37628 | 2057 | 56779 | 5121 |  |  | 1712 | 1630 | 7782 | 7784
+      section: Supplementary Table 4

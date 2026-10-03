@@ -1,0 +1,18 @@
+source:
+  citation: malik2018megastroke_main
+  local: sources/original/malik2018megastroke_main.xml
+  sha256: 137b487373e8ed0424e720580efef294df6459ef9959ee15c11e85be986c8836
+  url: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=PMC5968830
+  doi: 10.1038/s41588-018-0058-3
+  extractor: jats-text
+  note: 'Original file behind claims/malik2018megastroke_main.yaml: the XML pinned in claims/malik2018megastroke_main_original.yaml,
+    read by the citations extractor jats-text. The quotations here are those of that file that resolve
+    in this reading; a quotation absent here stays pinned where it already was.'
+  extractor_version: 1
+  derived_sha256: 358c6f43b97a486f20b8109d6ea4ba5e2a5622d5f9a9d8103f489678cfdba614
+claims:
+  data-availability:
+    quotes:
+    - exact: The datasets generated and/or analyzed during the current study are available from the corresponding
+        authors upon reasonable request.
+      section: Data availability

@@ -1,0 +1,24 @@
+{
+ "mutations": 23,
+ "killed": 21,
+ "not_killed": [
+  {
+   "file": "registry_secondaries.py",
+   "old": "    multi_edges = sum(len(edges(f)) for f in multi.values())",
+   "new": "    multi_edges = len(multi)",
+   "test": "test_registry_secondaries.py",
+   "state": "survived",
+   "tail": ""
+  },
+  {
+   "file": "registry_secondaries.py",
+   "old": "            clear = a.attribution_clear and b.attribution_clear\n",
+   "new": "            clear = True\n",
+   "test": "test_registry_secondaries.py",
+   "state": "survived",
+   "tail": ""
+  }
+ ],
+ "unmutated_suite_returncode": 0,
+ "unmutated_tail": " [ 30%]\n........................................................................ [ 40%]\n...........................s............................................ [ 50%]\n........................................................................ [ 60%]\n........................................................................ [ 70%]\n........................................................................ [ 80%]\n........................................................................ [ 90%]\n.....................................................................    [100%]\n716 passed, 1 skipped in 13.07s\n"
+}

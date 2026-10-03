@@ -1,0 +1,45 @@
+source:
+  citation: covidhgi2021_main
+  local: sources/original/covidhgi2021_main.xml
+  sha256: e9b7271be234377904fed35a82059f50eef69999387533e50a537bffc4437293
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8674144/fullTextXML
+  doi: 10.1038/s41586-021-03767-x
+  extractor: jats-text
+  note: 'Original file behind claims/covidhgi2021_main.yaml: the XML pinned in claims/covidhgi2021_main_original.yaml,
+    read by the citations extractor jats-text. The quotations here are those of that file that resolve
+    in this reading; a quotation absent here stays pinned where it already was.'
+  extractor_version: 1
+  derived_sha256: baa4367b3557464212d7c7a92995f04e711901d13bf0d9825da936b5a43e4875
+claims:
+  studies-46:
+    quotes:
+    - exact: Here, we report the latest results of meta-analyses of 46 studies from 19 countries
+      section: 'Main text: introduction'
+  n-cases-46:
+    quotes:
+    - exact: the COVID-19 HGI combined genetic data from 49,562 cases and 2 million controls across 46
+        distinct studies
+      section: 'Results: Meta-analyses of COVID-19'
+  release5:
+    quotes:
+    - exact: these regions are not excluded from the corresponding summary statistics in data release
+        5
+      section: Methods
+  ukb-genomicc-overlap:
+    quotes:
+    - exact: There was a small number of overlapping samples ( n = 8,380 European ancestry; n = 745 East
+        Asian ancestry) between controls from the genOMICC and the UK Biobank studies
+      section: Results
+  leave-ukbb-sensitivity:
+    quotes:
+    - exact: leaving out the UK Biobank (UKBB; cases, n = 5,870; controls, n = 1,155,203; total, n = 1,161,073)
+      section: Extended Data Fig. 5 legend
+  ldsc-23andme:
+    quotes:
+    - exact: all including the 23andMe cohort
+      section: 'Methods: Heritability'
+  data-freezes-web:
+    quotes:
+    - exact: Upon the completion of each data freeze, we post summary statistics, plots and sample size
+        breakdowns for each phenotype and contributing cohort
+      section: Methods

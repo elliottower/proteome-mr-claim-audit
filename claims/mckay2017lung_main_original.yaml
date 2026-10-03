@@ -1,0 +1,30 @@
+source:
+  citation: mckay2017lung_main
+  local: sources/original/mckay2017lung_main.xml
+  sha256: 38f7997b82e1ca7b4e8b11c825cc979cf244c9278ccaa8ac1c32a870c7dc0fb0
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5510465/fullTextXML
+  doi: 10.1038/ng.3892
+  note: 'Original file behind claims/mckay2017lung_main.yaml: Europe PMC fullTextXML of PMC5510465, read
+    as plain text with its markup. The quotations here are the quotations of that file that resolve in
+    this file under the citations readers; a quotation absent here is pinned to the extracted text there
+    only.'
+claims:
+  sample-size:
+    quotes:
+    - exact: combined with existing data for an aggregated GWAS analysis of lung cancer on 29,266 patients
+        and 56,450 controls
+      section: Abstract
+  prev-gwas-table1:
+    quotes:
+    - exact: Previous GWAS studies include IARC, MDACC, SLRI, ICR, Harvard, ATBC, CPSII, German and deCODE
+        studies.
+      section: Table 1 footnote a
+  UKB-smoking-only:
+    quotes:
+    - exact: 'the meta-analysis across 3 studies: ever-smoking controls with intensity information from
+        the Oncoarray studies (N=8,120), deCODE (N=40,882) and UK Biobank (N=42,044).'
+      section: 'Online Methods: Smoking behaviors'
+  european:
+    quotes:
+    - exact: allowing for analysis of 29,266 patients and 56,450 controls of European descent
+      section: Results

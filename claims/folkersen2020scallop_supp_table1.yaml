@@ -1,0 +1,22 @@
+source:
+  citation: folkersen2020scallop_supp_table1
+  local: sources/folkersen2020scallop_supp_table1.txt
+  sha256: cad81b190ceaf10404e139724a33fe450eb685156473e03edc3054f41f3d1975
+  doi: 10.1038/s42255-020-00287-2
+  note: Supplementary Table 1 (sheet '1 Protein_info', 'Information about all measured proteins') of Folkersen
+    L et al. 2020 Nat Metab, ESM xlsx 42255_2020_287_MOESM3_ESM.xlsx from static-content.springer.com,
+    converted with openpyxl, one row per line, cells joined by ' | '
+claims:
+  title:
+    quotes:
+    - exact: Information about all measured proteins
+      section: Supplementary Table 1
+  header:
+    quotes:
+    - exact: UniProt ID | Gene | Olink_assay | Short_annotation | Long name | CVDI | CVDII | CVDIII |
+        INFI | IMPROVE | STANLEY | EpiHealth
+      section: Supplementary Table 1
+  row-il8:
+    quotes:
+    - exact: P10145 | CXCL8 | 101_IL-8 | IL-8 | Interleukin-8 | Y |  |  | Y
+      section: Supplementary Table 1

@@ -1,0 +1,917 @@
+{
+ "inputs": "/vol/02_claims_meta/stage5/smoke_pre2019_20261002_window/biology_inputs",
+ "window": "confirmatory",
+ "claim_records": 3,
+ "resources": {
+  "ontology_edges": "/exp/verification/ontology_edges.csv",
+  "therapeutic_areas": "/exp/verification/therapeutic_areas.csv",
+  "therapeutic_area_names": "/exp/verification/therapeutic_area_names.csv",
+  "assay_lists": "/exp/verification/platform_assay_lists.csv",
+  "attachments": "/exp/verification/platform_assay_attachments.csv",
+  "reactome": "/exp/inputs/reactome/UniProt2Reactome.txt",
+  "snapshot_estimates": "/exp/derived/epigraphdb_mrres_estimates.jsonl",
+  "protein_mapping": "/exp/verification/epigraphdb_protein_mapping.csv",
+  "trait_mapping": "/exp/verification/epigraphdb_trait_mapping.csv",
+  "locus_list": "/exp/verification/pleiotropic_loci_eldjarn2023_ST36.csv"
+ },
+ "written_utc": "2026-10-02T20:38:34+00:00",
+ "bootstrap": {
+  "replicates": 10000,
+  "seed": 20261001,
+  "streams": {
+   "edge_relations": 10,
+   "h2_by_families_per_pair": 11,
+   "h2_directional_pairs": 12,
+   "direction_agreement_by_edge_class": 13,
+   "significance_discordance": 14,
+   "contradiction_source_comparison": 15,
+   "first_claim_concordance": 16,
+   "periods_early": 17,
+   "periods_late": 18,
+   "therapeutic_areas": 19,
+   "platform_pairing": 20
+  },
+  "percentile_method": "inverted_cdf"
+ },
+ "reporting_completeness": {
+  "families_with_a_registry_claim": 1,
+  "eligible_families_without_a_registry_claim": 4,
+  "imprecise_under_20": true,
+  "pqtl_dataset_named": {
+   "families": 0,
+   "share": 0.0,
+   "wilson_descriptive": [
+    0.0,
+    0.7934506856227626
+   ]
+  },
+  "outcome_dataset_named": {
+   "families": 1,
+   "share": 1.0,
+   "wilson_descriptive": [
+    0.20654931437723745,
+    1.0
+   ]
+  },
+  "pqtl_release_unique": {
+   "families": 0,
+   "share": 0.0,
+   "wilson_descriptive": [
+    0.0,
+    0.7934506856227626
+   ]
+  },
+  "outcome_release_unique": {
+   "families": 0,
+   "share": 0.0,
+   "wilson_descriptive": [
+    0.0,
+    0.7934506856227626
+   ]
+  },
+  "both_releases_unique": {
+   "families": 0,
+   "share": 0.0,
+   "wilson_descriptive": [
+    0.0,
+    0.7934506856227626
+   ]
+  },
+  "platform_stated": {
+   "families": 0,
+   "share": 0.0,
+   "wilson_descriptive": [
+    0.0,
+    0.7934506856227626
+   ]
+  },
+  "ancestry_stated": {
+   "families": 0,
+   "share": 0.0,
+   "wilson_descriptive": [
+    0.0,
+    0.7934506856227626
+   ]
+  }
+ },
+ "dataset_usage": {
+  "families": 1,
+  "families_per_pqtl_label": {
+   "not_stated": 1
+  },
+  "families_per_pqtl_component": {},
+  "families_per_outcome_label": {
+   "one of: UK Biobank + CARDIoGRAMplusC4D CAD (van der Harst 2018) / UK Biobank + ICBP blood pressure (Evangelou 2018) / UK Biobank + TAGC asthma (Han 2020) / UK Biobank SAIGE PheWeb (Zhou et al. 2018) / UK Biobank TOPMed-imputed PheWeb (Lee/Michigan)": 1
+  },
+  "families_per_outcome_component": {
+   "UKB": 1
+  },
+  "commonest_pqtl_outcome_combinations": [
+   {
+    "pqtl": "not_stated",
+    "outcome": "one of: UK Biobank + CARDIoGRAMplusC4D CAD (van der Harst 2018) / UK Biobank + ICBP blood pressure (Evangelou 2018) / UK Biobank + TAGC asthma (Han 2020) / UK Biobank SAIGE PheWeb (Zhou et al. 2018) / UK Biobank TOPMed-imputed PheWeb (Lee/Michigan)",
+    "families": 1
+   }
+  ]
+ },
+ "edge_relations": {
+  "multi_family_pairs": 0,
+  "edges": 0,
+  "imprecise_under_20_pairs": true,
+  "pqtl_side": {
+   "identical_release": {
+    "edges": 0,
+    "share": null,
+    "pair_bootstrap": null
+   },
+   "overlapping_participant_source": {
+    "edges": 0,
+    "share": null,
+    "pair_bootstrap": null
+   },
+   "disjoint": {
+    "edges": 0,
+    "share": null,
+    "pair_bootstrap": null
+   },
+   "unclear": {
+    "edges": 0,
+    "share": null,
+    "pair_bootstrap": null
+   }
+  },
+  "outcome_side": {
+   "identical_release": {
+    "edges": 0,
+    "share": null,
+    "pair_bootstrap": null
+   },
+   "overlapping_participant_source": {
+    "edges": 0,
+    "share": null,
+    "pair_bootstrap": null
+   },
+   "disjoint": {
+    "edges": 0,
+    "share": null,
+    "pair_bootstrap": null
+   },
+   "unclear": {
+    "edges": 0,
+    "share": null,
+    "pair_bootstrap": null
+   }
+  },
+  "edge_class": {
+   "identical_release": {
+    "edges": 0,
+    "share": null,
+    "pair_bootstrap": null
+   },
+   "overlapping": {
+    "edges": 0,
+    "share": null,
+    "pair_bootstrap": null
+   },
+   "unclear": {
+    "edges": 0,
+    "share": null,
+    "pair_bootstrap": null
+   },
+   "independent": {
+    "edges": 0,
+    "share": null,
+    "pair_bootstrap": null
+   }
+  }
+ },
+ "h2_by_families_per_pair": {
+  "2": {
+   "h2_identical_release": {
+    "pairs": 0,
+    "known_identical": 0,
+    "known_not_identical": 0,
+    "unresolved": 0,
+    "lower": null,
+    "upper": null,
+    "pair_bootstrap_lower": null,
+    "pair_bootstrap_upper": null,
+    "imprecise_under_20_pairs": true
+   },
+   "h2b_identical_or_overlapping": {
+    "pairs": 0,
+    "known_overlapping": 0,
+    "known_not_overlapping": 0,
+    "unresolved": 0,
+    "lower": null,
+    "upper": null,
+    "pair_bootstrap_lower": null,
+    "pair_bootstrap_upper": null,
+    "imprecise_under_20_pairs": true
+   },
+   "resolvable_pairs": 0
+  },
+  "3": {
+   "h2_identical_release": {
+    "pairs": 0,
+    "known_identical": 0,
+    "known_not_identical": 0,
+    "unresolved": 0,
+    "lower": null,
+    "upper": null,
+    "pair_bootstrap_lower": null,
+    "pair_bootstrap_upper": null,
+    "imprecise_under_20_pairs": true
+   },
+   "h2b_identical_or_overlapping": {
+    "pairs": 0,
+    "known_overlapping": 0,
+    "known_not_overlapping": 0,
+    "unresolved": 0,
+    "lower": null,
+    "upper": null,
+    "pair_bootstrap_lower": null,
+    "pair_bootstrap_upper": null,
+    "imprecise_under_20_pairs": true
+   },
+   "resolvable_pairs": 0
+  },
+  "4_or_more": {
+   "h2_identical_release": {
+    "pairs": 0,
+    "known_identical": 0,
+    "known_not_identical": 0,
+    "unresolved": 0,
+    "lower": null,
+    "upper": null,
+    "pair_bootstrap_lower": null,
+    "pair_bootstrap_upper": null,
+    "imprecise_under_20_pairs": true
+   },
+   "h2b_identical_or_overlapping": {
+    "pairs": 0,
+    "known_overlapping": 0,
+    "known_not_overlapping": 0,
+    "unresolved": 0,
+    "lower": null,
+    "upper": null,
+    "pair_bootstrap_lower": null,
+    "pair_bootstrap_upper": null,
+    "imprecise_under_20_pairs": true
+   },
+   "resolvable_pairs": 0
+  }
+ },
+ "h2_directional_pairs": {
+  "h2_identical_release": {
+   "pairs": 0,
+   "known_identical": 0,
+   "known_not_identical": 0,
+   "unresolved": 0,
+   "lower": null,
+   "upper": null,
+   "pair_bootstrap_lower": null,
+   "pair_bootstrap_upper": null,
+   "imprecise_under_20_pairs": true
+  },
+  "h2b_identical_or_overlapping": {
+   "pairs": 0,
+   "known_overlapping": 0,
+   "known_not_overlapping": 0,
+   "unresolved": 0,
+   "lower": null,
+   "upper": null,
+   "pair_bootstrap_lower": null,
+   "pair_bootstrap_upper": null,
+   "imprecise_under_20_pairs": true
+  },
+  "resolvable_pairs": 0
+ },
+ "direction_agreement_by_edge_class": {
+  "pairs_with_a_directional_edge": 0,
+  "identical_release": {
+   "edges": 0,
+   "edges_agreeing": 0,
+   "share_agreeing": null,
+   "pairs": 0,
+   "wilson_descriptive": null,
+   "pair_bootstrap": null,
+   "imprecise_under_20_pairs": true,
+   "role": "positive_control"
+  },
+  "overlapping": {
+   "edges": 0,
+   "edges_agreeing": 0,
+   "share_agreeing": null,
+   "pairs": 0,
+   "wilson_descriptive": null,
+   "pair_bootstrap": null,
+   "imprecise_under_20_pairs": true
+  },
+  "unclear": {
+   "edges": 0,
+   "edges_agreeing": 0,
+   "share_agreeing": null,
+   "pairs": 0,
+   "wilson_descriptive": null,
+   "pair_bootstrap": null,
+   "imprecise_under_20_pairs": true
+  },
+  "independent": {
+   "edges": 0,
+   "edges_agreeing": 0,
+   "share_agreeing": null,
+   "pairs": 0,
+   "wilson_descriptive": null,
+   "pair_bootstrap": null,
+   "imprecise_under_20_pairs": true
+  },
+  "independent_minus_overlapping": {
+   "difference": null,
+   "interval": null,
+   "undefined_replicates": 0
+  }
+ },
+ "significance_discordance": {
+  "multi_family_pairs": 0,
+  "significance_discordant_pairs": 0,
+  "share": null,
+  "wilson_descriptive": null,
+  "pair_bootstrap": null,
+  "edges_by_class": {
+   "identical_release": 0,
+   "overlapping": 0,
+   "unclear": 0,
+   "independent": 0
+  },
+  "imprecise_under_20_pairs": true
+ },
+ "contradiction_source_comparison": {
+  "pairs_with_a_directional_edge": 0,
+  "discordant_edges": 0,
+  "concordant_edges": 0,
+  "pqtl": {
+   "discordant_differ": 0,
+   "concordant_differ": 0,
+   "discordant_share_differ": null,
+   "concordant_share_differ": null,
+   "discordant_minus_concordant": {
+    "difference": null,
+    "interval": null,
+    "undefined_replicates": 0
+   }
+  },
+  "outcome": {
+   "discordant_differ": 0,
+   "concordant_differ": 0,
+   "discordant_share_differ": null,
+   "concordant_share_differ": null,
+   "discordant_minus_concordant": {
+    "difference": null,
+    "interval": null,
+    "undefined_replicates": 0
+   }
+  },
+  "platform": {
+   "discordant_differ": 0,
+   "concordant_differ": 0,
+   "discordant_share_differ": null,
+   "concordant_share_differ": null,
+   "discordant_minus_concordant": {
+    "difference": null,
+    "interval": null,
+    "undefined_replicates": 0
+   }
+  },
+  "ancestry": {
+   "discordant_differ": 0,
+   "concordant_differ": 0,
+   "discordant_share_differ": null,
+   "concordant_share_differ": null,
+   "discordant_minus_concordant": {
+    "difference": null,
+    "interval": null,
+    "undefined_replicates": 0
+   }
+  },
+  "any": {
+   "discordant_differ": 0,
+   "concordant_differ": 0,
+   "discordant_share_differ": null,
+   "concordant_share_differ": null,
+   "discordant_minus_concordant": {
+    "difference": null,
+    "interval": null,
+    "undefined_replicates": 0
+   }
+  },
+  "imprecise_under_20_pairs": true
+ },
+ "first_claim_concordance": {
+  "pairs_with_a_first_family": 0,
+  "pairs_tied_first": 0,
+  "later_families": 0,
+  "later_families_same_direction": 0,
+  "share": null,
+  "wilson_descriptive": null,
+  "pair_bootstrap": null,
+  "by_edge_class": {
+   "identical_release": {
+    "later_families": 0,
+    "same_direction": 0,
+    "share": null
+   },
+   "overlapping": {
+    "later_families": 0,
+    "same_direction": 0,
+    "share": null
+   },
+   "unclear": {
+    "later_families": 0,
+    "same_direction": 0,
+    "share": null
+   },
+   "independent": {
+    "later_families": 0,
+    "same_direction": 0,
+    "share": null
+   }
+  },
+  "imprecise_under_20_pairs": true
+ },
+ "periods": {
+  "2019-2022": {
+   "distinct_pairs": 0,
+   "multi_family_pairs": 0,
+   "h2_lower": {
+    "pairs": 0,
+    "share": null,
+    "pair_bootstrap": null,
+    "imprecise_under_20_pairs": true
+   },
+   "h2_upper": {
+    "pairs": 0,
+    "share": null,
+    "pair_bootstrap": null,
+    "imprecise_under_20_pairs": true
+   },
+   "h2b_lower": {
+    "pairs": 0,
+    "share": null,
+    "pair_bootstrap": null,
+    "imprecise_under_20_pairs": true
+   },
+   "h2b_upper": {
+    "pairs": 0,
+    "share": null,
+    "pair_bootstrap": null,
+    "imprecise_under_20_pairs": true
+   },
+   "resolvable_share": {
+    "pairs": 0,
+    "share": null,
+    "pair_bootstrap": null,
+    "imprecise_under_20_pairs": true
+   },
+   "significance_discordant_share": {
+    "pairs": 0,
+    "share": null,
+    "pair_bootstrap": null,
+    "imprecise_under_20_pairs": true
+   },
+   "contradicting_share": {
+    "pairs": 0,
+    "share": null,
+    "pair_bootstrap": null,
+    "imprecise_under_20_pairs": true
+   },
+   "h1_pair_concordance": {
+    "pairs": 0,
+    "share": null,
+    "pair_bootstrap": null,
+    "imprecise_under_20_pairs": true
+   }
+  },
+  "2023-2025": {
+   "distinct_pairs": 0,
+   "multi_family_pairs": 0,
+   "h2_lower": {
+    "pairs": 0,
+    "share": null,
+    "pair_bootstrap": null,
+    "imprecise_under_20_pairs": true
+   },
+   "h2_upper": {
+    "pairs": 0,
+    "share": null,
+    "pair_bootstrap": null,
+    "imprecise_under_20_pairs": true
+   },
+   "h2b_lower": {
+    "pairs": 0,
+    "share": null,
+    "pair_bootstrap": null,
+    "imprecise_under_20_pairs": true
+   },
+   "h2b_upper": {
+    "pairs": 0,
+    "share": null,
+    "pair_bootstrap": null,
+    "imprecise_under_20_pairs": true
+   },
+   "resolvable_share": {
+    "pairs": 0,
+    "share": null,
+    "pair_bootstrap": null,
+    "imprecise_under_20_pairs": true
+   },
+   "significance_discordant_share": {
+    "pairs": 0,
+    "share": null,
+    "pair_bootstrap": null,
+    "imprecise_under_20_pairs": true
+   },
+   "contradicting_share": {
+    "pairs": 0,
+    "share": null,
+    "pair_bootstrap": null,
+    "imprecise_under_20_pairs": true
+   },
+   "h1_pair_concordance": {
+    "pairs": 0,
+    "share": null,
+    "pair_bootstrap": null,
+    "imprecise_under_20_pairs": true
+   }
+  },
+  "later_minus_earlier": {
+   "h2_lower": {
+    "difference": null,
+    "interval": null
+   },
+   "h2_upper": {
+    "difference": null,
+    "interval": null
+   },
+   "h2b_lower": {
+    "difference": null,
+    "interval": null
+   },
+   "h2b_upper": {
+    "difference": null,
+    "interval": null
+   },
+   "resolvable_share": {
+    "difference": null,
+    "interval": null
+   },
+   "significance_discordant_share": {
+    "difference": null,
+    "interval": null
+   },
+   "contradicting_share": {
+    "difference": null,
+    "interval": null
+   },
+   "h1_pair_concordance": {
+    "difference": null,
+    "interval": null
+   }
+  }
+ },
+ "yearly_series": {
+  "2000": {
+   "families": 1,
+   "claim_records": 0,
+   "pairs_claimed": 0,
+   "new_pairs": 0,
+   "pairs_already_claimed_in_an_earlier_year": 0,
+   "share_already_claimed": null
+  },
+  "2005": {
+   "families": 1,
+   "claim_records": 0,
+   "pairs_claimed": 0,
+   "new_pairs": 0,
+   "pairs_already_claimed_in_an_earlier_year": 0,
+   "share_already_claimed": null
+  },
+  "2018": {
+   "families": 3,
+   "claim_records": 3,
+   "pairs_claimed": 3,
+   "new_pairs": 3,
+   "pairs_already_claimed_in_an_earlier_year": 0,
+   "share_already_claimed": 0.0
+  }
+ },
+ "therapeutic_areas": {
+  "EFO:0000651": {
+   "pairs": 3,
+   "multi_family_pairs": 0,
+   "multi_family_share": 0.0,
+   "h2_identical_release": {
+    "pairs": 0,
+    "known_identical": 0,
+    "known_not_identical": 0,
+    "unresolved": 0,
+    "lower": null,
+    "upper": null,
+    "pair_bootstrap_lower": null,
+    "pair_bootstrap_upper": null,
+    "imprecise_under_20_pairs": true
+   },
+   "h2b_identical_or_overlapping": {
+    "pairs": 0,
+    "known_overlapping": 0,
+    "known_not_overlapping": 0,
+    "unresolved": 0,
+    "lower": null,
+    "upper": null,
+    "pair_bootstrap_lower": null,
+    "pair_bootstrap_upper": null,
+    "imprecise_under_20_pairs": true
+   },
+   "resolvable_pairs": 0,
+   "pairs_with_two_directional_families": 0,
+   "contradicting_pairs": 0,
+   "contradicting_share": null,
+   "imprecise_under_20_pairs": true
+  }
+ },
+ "platform_pairing": {
+  "pairs_with_a_directional_edge": 0,
+  "same_platform": {
+   "edges": 0,
+   "edges_agreeing": 0,
+   "discordant_edges": 0,
+   "share_agreeing": null,
+   "wilson_descriptive": null,
+   "pair_bootstrap": null,
+   "imprecise_under_20_pairs": true
+  },
+  "cross_platform": {
+   "edges": 0,
+   "edges_agreeing": 0,
+   "discordant_edges": 0,
+   "share_agreeing": null,
+   "wilson_descriptive": null,
+   "pair_bootstrap": null,
+   "imprecise_under_20_pairs": true
+  },
+  "platform_unknown": {
+   "edges": 0,
+   "edges_agreeing": 0,
+   "discordant_edges": 0,
+   "share_agreeing": null,
+   "wilson_descriptive": null,
+   "pair_bootstrap": null,
+   "imprecise_under_20_pairs": true
+  },
+  "cross_minus_same": {
+   "difference": null,
+   "interval": null,
+   "undefined_replicates": 0
+  }
+ },
+ "claims_per_family": {
+  "eligible_families": 5,
+  "claim_records": 3,
+  "families_with_zero_claims": 4,
+  "min": 0,
+  "q25": 0.0,
+  "median": 0,
+  "q75": 0.0,
+  "q90": 3.0,
+  "max": 3,
+  "top_decile_families": 1,
+  "share_of_claim_records_from_top_decile": 1.0
+ },
+ "top_lists": {
+  "pairs": [
+   {
+    "protein_id": "P05121",
+    "outcome_id": "EFO:0003907",
+    "families": 1,
+    "claim_records": 1
+   },
+   {
+    "protein_id": "P46531",
+    "outcome_id": "EFO:0003907",
+    "families": 1,
+    "claim_records": 1
+   },
+   {
+    "protein_id": "P55103",
+    "outcome_id": "EFO:0003907",
+    "families": 1,
+    "claim_records": 1
+   }
+  ],
+  "proteins": [
+   {
+    "id": "P05121",
+    "families": 1,
+    "pairs": 1,
+    "claim_records": 1
+   },
+   {
+    "id": "P46531",
+    "families": 1,
+    "pairs": 1,
+    "claim_records": 1
+   },
+   {
+    "id": "P55103",
+    "families": 1,
+    "pairs": 1,
+    "claim_records": 1
+   }
+  ],
+  "outcomes": [
+   {
+    "id": "EFO:0003907",
+    "families": 1,
+    "pairs": 3,
+    "claim_records": 3
+   }
+  ]
+ },
+ "wording_by_repetition_and_year": {
+  "by_families_per_pair": {
+   "1": {
+    "claim_records": 3,
+    "association": {
+     "claim_records": 3,
+     "share": 1.0
+    },
+    "causal": {
+     "claim_records": 0,
+     "share": 0.0
+    },
+    "target": {
+     "claim_records": 0,
+     "share": 0.0
+    }
+   }
+  },
+  "by_year": {
+   "2018": {
+    "claim_records": 3,
+    "association": {
+     "claim_records": 3,
+     "share": 1.0
+    },
+    "causal": {
+     "claim_records": 0,
+     "share": 0.0
+    },
+    "target": {
+     "claim_records": 0,
+     "share": 0.0
+    }
+   }
+  },
+  "novelty_language_by_year": {
+   "2018": {
+    "claim_records": 3,
+    "novelty_language": 0,
+    "share": 0.0,
+    "wilson_descriptive": [
+     5.551115123125783e-17,
+     0.5614970317550454
+    ]
+   }
+  }
+ },
+ "citation_of_earlier_claim": {
+  "eligible_families": 5,
+  "eligible_families_with_a_reference_list": 5,
+  "share_with_a_reference_list": 1.0,
+  "later_families": {
+   "later_family_pair_records": 0,
+   "later_families": 0,
+   "without_a_reference_list": 0,
+   "with_a_reference_list": 0,
+   "citing_an_earlier_family_of_the_pair": 0,
+   "share": null,
+   "wilson_descriptive": null,
+   "imprecise_under_20": true
+  },
+  "later_families_with_novelty_language_and_an_earlier_registry_claim": {
+   "later_family_pair_records": 0,
+   "later_families": 0,
+   "without_a_reference_list": 0,
+   "with_a_reference_list": 0,
+   "citing_an_earlier_family_of_the_pair": 0,
+   "share": null,
+   "wilson_descriptive": null,
+   "imprecise_under_20": true
+  }
+ },
+ "source_overlap": {
+  "eligible_families": 5,
+  "by_search_sources": {
+   "pubmed+epmc": 1
+  },
+  "found_only_by_citation_chasing": 4,
+  "share_found_only_by_citation_chasing": 0.8,
+  "wilson_descriptive": [
+   0.37553462976252533,
+   0.9637758913675698
+  ],
+  "not_returned_by_any_query": {
+   "chase_round_1": 4
+  }
+ },
+ "document_class_and_journals": {
+  "eligible_families": 5,
+  "families_by_document_class": {
+   "journal": 4,
+   "preprint": 1
+  },
+  "preprint_only_share": 0.2,
+  "wilson_descriptive_preprint_only": [
+   0.03622410863243014,
+   0.6244653702374747
+  ],
+  "journals": 4,
+  "journals_with_most_families": [
+   {
+    "journal": "Lancet (London, England)",
+    "families": 1
+   },
+   {
+    "journal": "Molecules (Basel, Switzerland)",
+    "families": 1
+   },
+   {
+    "journal": "Nature",
+    "families": 1
+   },
+   {
+    "journal": "Time to knit",
+    "families": 1
+   }
+  ]
+ },
+ "accounting": [
+  {
+   "index": "registry claim records",
+   "unit": "claim record",
+   "denominator": "verified claim records of registry abstracts with a pair",
+   "n": 3,
+   "left": {}
+  },
+  {
+   "index": "distinct pairs; papers per pair",
+   "unit": "pair",
+   "denominator": "registry pairs",
+   "n": 3,
+   "left": {}
+  },
+  {
+   "index": "H2; H2b; resolvable share; significance discordance",
+   "unit": "pair",
+   "denominator": "pairs with at least two families, any direction value",
+   "n": 0,
+   "left": {
+    "pairs_with_one_family": 3
+   }
+  },
+  {
+   "index": "family\u2013pair direction counts",
+   "unit": "family\u2013pair record",
+   "denominator": "family\u2013pair records",
+   "n": 3,
+   "left": {}
+  },
+  {
+   "index": "contradicting pairs; Liu-analogue; first-claim concordance",
+   "unit": "pair",
+   "denominator": "pairs with at least two directional families",
+   "n": 0,
+   "left": {
+    "pairs_with_fewer_than_two_directional_families": 3
+   }
+  },
+  {
+   "index": "H1",
+   "unit": "pair",
+   "denominator": "pairs with at least one independent edge between directional families",
+   "n": 0,
+   "left": {
+    "pairs_with_two_directional_families_and_no_independent_edge": 0
+   }
+  },
+  {
+   "index": "direction-based results",
+   "unit": "family\u2013pair record",
+   "denominator": "directional family\u2013pair records",
+   "n": 0,
+   "left": {
+    "unresolved": 3
+   }
+  }
+ ]
+}

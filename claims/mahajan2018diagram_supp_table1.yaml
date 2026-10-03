@@ -1,0 +1,127 @@
+source:
+  citation: mahajan2018diagram_supp_table1
+  local: sources/mahajan2018diagram_supp_table1.txt
+  sha256: 9d7f3fe014e2acf84e4533d406663b8d3f4598e41bd2007c63fedf50e39c3918
+  doi: 10.1038/s41588-018-0241-6
+  note: Supplementary Table 1 (study characteristics, 32 studies) of Mahajan et al. 2018 Nat Genet, ESM
+    41588_2018_241_MOESM3_ESM.xlsx sheet 'ST 1' from static-content.springer.com, converted with openpyxl,
+    one row per line, cells separated by ' | '
+claims:
+  c_biome:
+    quotes:
+    - exact: BioME | BioMe™ BioBank Program
+      section: Supplementary Table 1 (study characteristics)
+  c_decode:
+    quotes:
+    - exact: deCODE | deCODE genetics
+      section: Supplementary Table 1 (study characteristics)
+  c_dgdg:
+    quotes:
+    - exact: DGDG | Diabetes Gene Discovery Group
+      section: Supplementary Table 1 (study characteristics)
+  c_dgi:
+    quotes:
+    - exact: DGI | Diabetes Genetics Initiative
+      section: Supplementary Table 1 (study characteristics)
+  c_estonian_biobank:
+    quotes:
+    - exact: EGCUT_ExomeCore | Estonian Genome Center, University of Tartu
+      section: Supplementary Table 1 (study characteristics)
+  c_fhs:
+    quotes:
+    - exact: FHS | Framingham Heart Study
+      section: Supplementary Table 1 (study characteristics)
+  c_fusion:
+    quotes:
+    - exact: FUSION | Finland-United States Investigation of NIDDM Genetics
+      section: Supplementary Table 1 (study characteristics)
+  c_gckd:
+    quotes:
+    - exact: GCKD | German Chronic Kidney Disease Study
+      section: Supplementary Table 1 (study characteristics)
+  c_genoa:
+    quotes:
+    - exact: GENOA | Genetic Epidemiology Network of Arteriosclerosis
+      section: Supplementary Table 1 (study characteristics)
+  c_gera:
+    quotes:
+    - exact: GERA | Resource for Genetic Epidemiology on Adult Health and Aging
+      section: Supplementary Table 1 (study characteristics)
+  c_godarts:
+    quotes:
+    - exact: GoDARTS | Genetics of Diabetes and Audit Research in Tayside Scotland
+      section: Supplementary Table 1 (study characteristics)
+  c_gomap_teenage:
+    quotes:
+    - exact: 'GOMAP-TEENAGE | GoMAP (Genetic Overlap between Metabolic and Psychiatric traits) & TEENAGE
+        (TEENs of Attica: Genes and Environment)'
+      section: Supplementary Table 1 (study characteristics)
+  c_hpfs:
+    quotes:
+    - exact: HPFS | Health Proffesional Follow-Up Study
+      section: Supplementary Table 1 (study characteristics)
+  c_epic_interact:
+    quotes:
+    - exact: INTERACT_coreexome | InterAct Consortium
+      section: Supplementary Table 1 (study characteristics)
+  c_kora:
+    quotes:
+    - exact: KORA | KORAgen Study Helmholtz zentrum München
+      section: Supplementary Table 1 (study characteristics)
+  c_mesa:
+    quotes:
+    - exact: MESA | Multi-Ethnic Study of Atherosclerosis study
+      section: Supplementary Table 1 (study characteristics)
+  c_metsim:
+    quotes:
+    - exact: METSIM | METabolic Syndrome in Men
+      section: Supplementary Table 1 (study characteristics)
+  c_mgi:
+    quotes:
+    - exact: MGI | Michigan Genomics Initiative
+      section: Supplementary Table 1 (study characteristics)
+  c_nhs:
+    quotes:
+    - exact: NHS | Nurses' Health Study
+      section: Supplementary Table 1 (study characteristics)
+  c_nugene:
+    quotes:
+    - exact: NUGENE | NUgene Project
+      section: Supplementary Table 1 (study characteristics)
+  c_pivus:
+    quotes:
+    - exact: PIVUS | Prospective Investigation of the Vasculature in Uppsala Seniors
+      section: Supplementary Table 1 (study characteristics)
+  c_prosper:
+    quotes:
+    - exact: PROSPER | PROspective Study of Pravastatin in the Elderly at Risk
+      section: Supplementary Table 1 (study characteristics)
+  c_rs:
+    quotes:
+    - exact: RS1 | Rotterdam Study
+      section: Supplementary Table 1 (study characteristics)
+  c_ukb:
+    quotes:
+    - exact: UK BioBank | -
+      section: Supplementary Table 1 (study characteristics)
+  c_ulsam:
+    quotes:
+    - exact: ULSAM | Uppsala Longitudinal Study of Adult Men
+      section: Supplementary Table 1 (study characteristics)
+  c_ucph:
+    quotes:
+    - exact: UPCH | Danish T2D case-control study
+      section: Supplementary Table 1 (study characteristics)
+  c_wtccc:
+    quotes:
+    - exact: WTCCC | Wellcome Trust Case-Control Consortium
+      section: Supplementary Table 1 (study characteristics)
+  godarts_controls:
+    quotes:
+    - exact: Population based non-diabetic controls from the WTCCC2 (NBS and 58C) were used
+      section: Supplementary Table 1 (study characteristics)
+  caption:
+    quotes:
+    - exact: Supplementary Table 1 | Study characteristics and analysis details of studies included in
+        the meta-analysis.
+      section: Supplementary Table 1 (study characteristics)

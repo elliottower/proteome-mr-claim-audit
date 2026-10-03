@@ -1,0 +1,23 @@
+source:
+  citation: locke2015giant_main
+  local: sources/locke2015giant_main.txt
+  sha256: fb3acd0fadd3b8ac22053e229f72665c9db35784d311d9ed55164d71cdde9c59
+  doi: 10.1038/nature14177
+  note: Main text (author manuscript) of Locke et al. 2015 Nature 518:197 (GIANT BMI), NCBI efetch db=pmc
+    id=4382211 XML, paragraphs and table rows extracted with lxml, one block per line
+claims:
+  n125:
+    quotes:
+    - exact: This BMI meta-analysis included association results for up to 339,224 individuals from 125
+        studies, 82 with GWAS results (n = 236,231) and 43 with results from Metabochip (n = 103,047;
+        Extended Data Table 1 and Supplementary Tables 1–3)
+      section: Results
+  eur_primary:
+    quotes:
+    - exact: Our primary meta-analysis of European-descent individuals from GWAS and Metabochip studies
+        (n = 322,154)
+      section: Results
+  non_eur:
+    quotes:
+    - exact: The inclusion of 17,072 non-European-descent individuals (total n = 339,224)
+      section: Results

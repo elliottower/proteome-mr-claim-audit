@@ -1,0 +1,20 @@
+source:
+  citation: jansen2019_main
+  local: sources/original/jansen2019_main.txt
+  sha256: 4d796381839851ef6449960a613f2cf683684f9107985d92ec6220383b8a0f3a
+  url: https://pmc-oa-opendata.s3.amazonaws.com/PMC6836675.1/PMC6836675.1.txt
+  doi: 10.1038/s41588-018-0311-9
+  note: 'Original file behind claims/jansen2019_main.yaml: PMC6836675.1.txt from the PMC open-data bucket,
+    without the one-line header the text pin adds. The quotations here are the quotations of that file
+    that resolve in this file under the citations readers; a quotation absent here is pinned to the extracted
+    text there only.'
+claims:
+  phase3_all_cohorts:
+    quotes:
+    - exact: phase 1) cohorts with case-control phenotypes (IGAP, ADSP and PGC-ALZ datasets), and phase
+        3) all cohorts, also including the UKB proxy phenotype
+      section: Methods
+  sumstats_ctg:
+    quotes:
+    - exact: Summary statistics will be made available for download upon publication (https://ctg.cncr.nl).
+      section: Data Availability

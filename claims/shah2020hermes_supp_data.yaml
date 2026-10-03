@@ -1,0 +1,133 @@
+source:
+  citation: shah2020hermes_supp_data
+  local: sources/shah2020hermes_supp_data.txt
+  sha256: 2211ba0efdd4d9c912316d17abb05e45d871c6e11e6c3f2759ae1273376c145f
+  doi: 10.1038/s41467-019-13690-5
+  note: Shah et al. 2020 Supplementary Data 12 (characteristics of participating studies) and Supplementary
+    Data 11 (study HF definitions), MOESM15/MOESM14 xlsx from the Europe PMC supplementaryFiles zip for
+    PMC6952380, converted with pandas, one row per line, cells separated by ' | '.
+claims:
+  caption-sd12:
+    quotes:
+    - exact: Supplementary Data 12. Characteristics of participating studies
+      section: Supplementary Data 12 caption
+  row-aric:
+    quotes:
+    - exact: ARIC | USA | HF | 1835
+      section: Supplementary Data 12
+  row-biostat:
+    quotes:
+    - exact: BIOSTAT-CHF (Validation) | Scotland | HF | 1561
+      section: Supplementary Data 12
+  row-chs:
+    quotes:
+    - exact: CHS | USA | HF | 1123
+      section: Supplementary Data 12
+  row-cogen:
+    quotes:
+    - exact: COGEN | Denmark | HF | 636
+      section: Supplementary Data 12
+  row-decode:
+    quotes:
+    - exact: deCODE | Iceland | HF | 13200
+      section: Supplementary Data 12
+  row-discovehr:
+    quotes:
+    - exact: DiscovEHR | USA | HF | 5656
+      section: Supplementary Data 12
+  row-ephesus:
+    quotes:
+    - exact: EPHESUS | Multi-nation | HF | 1094
+      section: Supplementary Data 12
+  row-epic-norfolk:
+    quotes:
+    - exact: EPIC-Norfolk | UK | HF | 1687
+      section: Supplementary Data 12
+  row-egcut370:
+    quotes:
+    - exact: EGCUT 370 | Estonia | HF | 243
+      section: Supplementary Data 12
+  row-egcut-exome:
+    quotes:
+    - exact: EGCUT Exome | Estonia | HF | 605
+      section: Supplementary Data 12
+  row-egcut-omni:
+    quotes:
+    - exact: EGCUT Omni | Estonia | HF | 1851
+      section: Supplementary Data 12
+  row-fhs:
+    quotes:
+    - exact: FHS | USA | HF | 476
+      section: Supplementary Data 12
+  row-finrisk:
+    quotes:
+    - exact: FINRISK | Finland | HF | 1967
+      section: Supplementary Data 12
+  row-godarts-affy:
+    quotes:
+    - exact: GoDARTS (Affymetrix) | Scotland | HF | 364
+      section: Supplementary Data 12
+  row-godarts-illu:
+    quotes:
+    - exact: GoDARTS (Illumina) | Scotland | HF | 204
+      section: Supplementary Data 12
+  row-grade:
+    quotes:
+    - exact: GRADE | USA | HF | 1060
+      section: Supplementary Data 12
+  row-luric:
+    quotes:
+    - exact: LURIC | Germany | HF | 1007
+      section: Supplementary Data 12
+  row-mdcs:
+    quotes:
+    - exact: MDCS | Sweden | HF | 755
+      section: Supplementary Data 12
+  row-phfs:
+    quotes:
+    - exact: PHFS | USA | HF | 2206
+      section: Supplementary Data 12
+  row-pivus:
+    quotes:
+    - exact: PIVUS | Sweden | HF | 116
+      section: Supplementary Data 12
+  row-prevend:
+    quotes:
+    - exact: PREVEND | Netherlands | HF | 163
+      section: Supplementary Data 12
+  row-prosper:
+    quotes:
+    - exact: PROSPER | Multi-nation | HF | 211
+      section: Supplementary Data 12
+  row-rs1:
+    quotes:
+    - exact: Rotterdam 1 | Netherlands | HF | 876
+      section: Supplementary Data 12
+  row-ship:
+    quotes:
+    - exact: SHIP | Germany | HF | 352
+      section: Supplementary Data 12
+  row-solid:
+    quotes:
+    - exact: SOLID | Multi-nation | HF | 186
+      section: Supplementary Data 12
+  row-twingene:
+    quotes:
+    - exact: TwinGene | Sweden | HF | 604
+      section: Supplementary Data 12
+  row-ukb:
+    quotes:
+    - exact: UK Biobank | UK | HF | 6504
+      section: Supplementary Data 12
+  row-ulsam:
+    quotes:
+    - exact: ULSAM | Sweden | HF | 288
+      section: Supplementary Data 12
+  row-wghs:
+    quotes:
+    - exact: WGHS | USA | HF | 479
+      section: Supplementary Data 12
+  discovehr-def:
+    quotes:
+    - exact: Regeneron/Geisinger | Population-based prospective cohort study
+      section: Supplementary Data 11

@@ -1,0 +1,16 @@
+source:
+  citation: gudjonsson2022ages
+  local: sources/original/gudjonsson2022ages.xml
+  sha256: 5115c939183f585f3ea39a12771c82808e335c1b098cef1807137aacf4b52ead
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8789779/fullTextXML
+  doi: 10.1038/s41467-021-27850-z
+  note: 'Original file behind claims/gudjonsson2022ages.yaml: Europe PMC fullTextXML of PMC8789779, read
+    as plain text with its markup. The quotations here are the quotations of that file that resolve in
+    this file under the citations readers; a quotation absent here is pinned to the extracted text there
+    only.'
+claims:
+  targets-4118:
+    quotes:
+    - exact: thus the 4782 SOMAmers are annotated to a total of 4118 unique targets (annotated as one
+        or more Entrez gene symbols)
+      section: 'Methods: Protein measurements'

@@ -1,0 +1,22 @@
+source:
+  citation: covidhgi2021_supp_note
+  local: sources/covidhgi2021_supp_note.txt
+  sha256: 7f95c955e62c4540f1b8589e6fa4eae4b9761103b4acdfae05787114af0ee63b
+  doi: 10.1038/s41586-021-03767-x
+  note: Supplementary Information (Supplementary Note) of COVID-19 HGI 2021 Nature, ESM 41586_2021_3767_MOESM1_ESM.pdf
+    from the Europe PMC supplementaryFiles zip for PMC8674144, converted with pdftotext -layout
+claims:
+  version5:
+    quotes:
+    - exact: The data released used in manuscript (version 5) includes studies that have previously published
+        their results
+      section: Supplementary Note
+  ukbb-removed-mr:
+    quotes:
+    - exact: the UK Biobank study had been removed
+      section: 'Supplementary Note: sensitivity analysis for MR'
+  genomicc-ukb-controls:
+    quotes:
+    - exact: there was sample overlap of n = 8,380 EUR and n = 745 EAS between controls from the genOMICC
+        and the UK Biobank studies
+      section: 'Supplementary Note: sensitivity analysis for overlapping samples'

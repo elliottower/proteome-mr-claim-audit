@@ -1,0 +1,37 @@
+{
+ "decisions": [
+  "outputs/parsed/sol_eligibility_smoke_pre2019_20261002_gate1b1_2811496ef424.decisions.jsonl"
+ ],
+ "seed": 20261001,
+ "batch_size": 600,
+ "maximum_sampled": 3000,
+ "tolerance": 0.005,
+ "marked_records": 86,
+ "batches_judged": 1,
+ "sampled": 86,
+ "eligibility_call_failed": 0,
+ "judged": 86,
+ "judged_eligible_or_uncertain": 3,
+ "positive_record_ids": [
+  "16325682",
+  "29966350",
+  "W4406537262"
+ ],
+ "share": 0.03488372093023256,
+ "upper_bound_one_sided_95": 0.0876939304487041,
+ "interval_two_sided_95_clopper_pearson": [
+  0.007252456428304814,
+  0.09857616398853247
+ ],
+ "marked_records_not_judged": 0,
+ "estimated_eligible_records_not_judged": 0.0,
+ "estimated_eligible_records_not_judged_upper_one_sided_95": 0.0,
+ "estimated_eligible_records_not_judged_interval_two_sided_95": [
+  0.0,
+  0.0
+ ],
+ "finished": true,
+ "stopping_reason": "every_marked_record_sampled",
+ "cap_reached_without_satisfying_tolerance": false,
+ "next_batch": null
+}

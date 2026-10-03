@@ -1,0 +1,52 @@
+source:
+  citation: wightman2021_supp_note
+  local: sources/wightman2021_supp_note.txt
+  sha256: d6f034a4f6a9dd88330aa7eedf277cb5feda46af7b549f252cb4572b6ac97c94
+  doi: 10.1038/s41588-021-00921-z
+  note: 'Supplementary Note of Wightman et al. 2021 Nat Genet (ESM 41588_2021_921_MOESM1_ESM.pdf from
+    static-content.springer.com), pdftotext -layout, ''Supplementary Methods: Datasets'' section, wrapped
+    lines joined into paragraphs'
+claims:
+  igap_stage1_kunkle:
+    quotes:
+    - exact: The stage 1 results were used in the meta-analysis.
+      section: 'Supplementary Note, Supplementary Methods: Datasets, IGAP'
+  igap_ng00075:
+    quotes:
+    - exact: were obtained from https://www.niagads.org/datasets/ng00075
+      section: 'Supplementary Note, Supplementary Methods: Datasets, IGAP'
+  hunt_demgene_overlap_removed:
+    quotes:
+    - exact: Participants overlapping with the DemGene study were removed.
+      section: 'Supplementary Note, Supplementary Methods: Datasets, HUNT'
+  demgene_origin_jansen:
+    quotes:
+    - exact: samples has been previously described in Jansen et al. (2019).
+      section: 'Supplementary Note, Supplementary Methods: Datasets, DemGene, TwinGene, STSA, Gothenburg,
+        and ANMerge'
+  gothenburg_sources:
+    quotes:
+    - exact: the Prospective Population Study of Women (PPSW) and the Gothenburg Birth Cohort Studies
+        (H70, H85 and 95+)
+      section: 'Supplementary Note, Supplementary Methods: Datasets, Gothenburg'
+  decode_controls:
+    quotes:
+    - exact: The controls were drawn from various research projects at deCODE Genetics.
+      section: 'Supplementary Note, Supplementary Methods: Datasets, deCODE'
+  ukb_from_jansen:
+    quotes:
+    - exact: summary statistics for 46,613 cases and 318,246 controls were obtained from Jansen et al.
+        (2019)
+      section: 'Supplementary Note, Supplementary Methods: Datasets, UK Biobank'
+  finngen_r3:
+    quotes:
+    - exact: The summary statistics for 1798 cases and 72206 controls from Finngen were obtained
+      section: 'Supplementary Note, Supplementary Methods: Datasets, Finngen'
+  grace_stage1:
+    quotes:
+    - exact: GrauS_31473137_GCST009020/GRACE_StageI.txt
+      section: 'Supplementary Note, Supplementary Methods: Datasets, GR@CE'
+  anmerge_batches:
+    quotes:
+    - exact: The ANMerge data (366 cases and 259 controls) consists of 3 batches.
+      section: 'Supplementary Note, Supplementary Methods: Datasets, ANMerge'

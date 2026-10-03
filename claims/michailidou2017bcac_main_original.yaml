@@ -1,0 +1,21 @@
+source:
+  citation: michailidou2017bcac_main
+  local: sources/original/michailidou2017bcac_main.xml
+  sha256: 7b30f8fabb0c4bf4db19dd108f5362654fe85f46bdbf18c80aa07e8e2ab15c56
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5798588/fullTextXML
+  doi: 10.1038/nature24284
+  note: 'Original file behind claims/michailidou2017bcac_main.yaml: Europe PMC fullTextXML of PMC5798588,
+    read as plain text with its markup. The quotations here are the quotations of that file that resolve
+    in this file under the citations readers; a quotation absent here is pinned to the extracted text
+    there only.'
+claims:
+  european_total:
+    quotes:
+    - exact: 122,977 cases and 105,974 controls of European ancestry and 14,068 cases and 13,104 controls
+        of East Asian ancestry
+      section: Main text
+  asian_analysis:
+    quotes:
+    - exact: We also assessed the association with breast cancer in Asians including 7,799 cases and 6,480
+        controls from the OncoArray project and 6,269 cases and 6,624 controls from iCOGS.
+      section: Main text

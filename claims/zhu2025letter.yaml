@@ -1,0 +1,18 @@
+source:
+  citation: zhu2025letter
+  local: sources/zhu2025_stroke_proteomic_mr_concerns.txt
+  sha256: 21e739bbbad980b57b4ec7ed922b441a9007d797eccf4c88dad043c10f1a6bd7
+  doi: 10.1097/MS9.0000000000002812
+  note: Zhu X, Liu R, Fu Y, et al. Insights and concerns on proteomic-based Mendelian randomization in
+    ischemic stroke. Ann Med Surg 2025;87:2510-2511. PMC11981414, Europe PMC fullTextXML, tags stripped.
+    Letter; same group as Chen J, Zhao J, Fu S 2025 (Eur Heart J).
+claims:
+  overlap:
+    quotes:
+    - exact: there appears to be a sample overlap between the plasma protein data (including 4775 proteins
+        from the Fenland study, center 3) and the outcome data
+      section: Letter, paragraph 2
+  target:
+    quotes:
+    - exact: We have carefully read the article by Zou et al
+      section: Letter, paragraph 1

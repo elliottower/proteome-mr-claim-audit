@@ -1,0 +1,23 @@
+source:
+  citation: chen2021magic_main
+  local: sources/chen2021magic_main.txt
+  sha256: 56702fea022231092d0c62c9eb86e476e533237643c9b11982602f7515cb5e5f
+  doi: 10.1038/s41588-021-00852-9
+  note: Main text (author manuscript) of Chen et al. 2021 Nat Genet 53:840 (MAGIC trans-ancestry glycemic
+    traits), Europe PMC fullTextXML PMC7610958, paragraphs and table rows extracted with lxml, one block
+    per line
+claims:
+  ncohorts:
+    quotes:
+    - exact: The total number of contributing cohorts ranged from 41 (2hGlu) to 131 (FG), and the maximum
+        sample size for each trait ranged from 85,916 (2hGlu) to 281,416 (FG) (Supplementary Table 1).
+      section: Methods
+  availability:
+    quotes:
+    - exact: Data Availability Ancestry-specific and overall meta-analysis summary level results are available
+        through the MAGIC website
+      section: Data availability
+  ukb_grs:
+    quotes:
+    - exact: tested the association of each cluster with T2D risk using samples from the UK Biobank
+      section: Methods

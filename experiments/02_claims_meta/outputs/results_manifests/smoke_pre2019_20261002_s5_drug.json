@@ -1,0 +1,89 @@
+{
+ "run_id": "smoke_pre2019_20261002_s5_drug",
+ "note": "pre-freeze smoke run on records first public before 2019: stage 5 drug-development joins on an empty confirmatory registry",
+ "written_utc": "2026-10-02T20:20:19+00:00",
+ "files": [
+  {
+   "path": "outputs/results_manifests/smoke_pre2019_20261002_s5.volume.json",
+   "bytes": 10111,
+   "sha256": "830159b97ec2bea204b84188652cd99904978ce7145abde8de9e5a3773dac576"
+  },
+  {
+   "path": "outputs/stage5_drug/smoke_pre2019_20261002/drug_claim_records.jsonl",
+   "bytes": 0,
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+   "path": "outputs/stage5_drug/smoke_pre2019_20261002/drug_pair_records.jsonl",
+   "bytes": 0,
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+   "path": "outputs/stage5_drug/smoke_pre2019_20261002/drug_tables.json",
+   "bytes": 14729,
+   "sha256": "1caccb33a34239cf99a45d225817e70f11020d0fd90cb53aa37f654d6d5d2e7a"
+  }
+ ],
+ "recorded_directly": [
+  "outputs/results_manifests/smoke_pre2019_20261002_s5.volume.json",
+  "outputs/stage5_drug/smoke_pre2019_20261002/drug_tables.json"
+ ],
+ "volume_checks": [
+  {
+   "volume_folder": "/02_claims_meta/stage5/smoke_pre2019_20261002",
+   "local_folder": "outputs/stage5_drug/smoke_pre2019_20261002",
+   "n_compared": 3,
+   "volume_only": [
+    "/02_claims_meta/stage5/smoke_pre2019_20261002/biology_confirmatory/hierarchy_relations.jsonl",
+    "/02_claims_meta/stage5/smoke_pre2019_20261002/biology_confirmatory/hierarchy_tables.json",
+    "/02_claims_meta/stage5/smoke_pre2019_20261002/biology_confirmatory/hub_proteins.json",
+    "/02_claims_meta/stage5/smoke_pre2019_20261002/biology_confirmatory/novelty_claims.jsonl",
+    "/02_claims_meta/stage5/smoke_pre2019_20261002/biology_confirmatory/novelty_index.json",
+    "/02_claims_meta/stage5/smoke_pre2019_20261002/biology_confirmatory/pathway_claim_density.jsonl",
+    "/02_claims_meta/stage5/smoke_pre2019_20261002/biology_confirmatory/pathway_enrichment.json",
+    "/02_claims_meta/stage5/smoke_pre2019_20261002/biology_confirmatory/pathway_enrichment_rows.jsonl",
+    "/02_claims_meta/stage5/smoke_pre2019_20261002/biology_confirmatory/pathway_enrichment_rows_alternative_assay_lists.jsonl",
+    "/02_claims_meta/stage5/smoke_pre2019_20261002/biology_confirmatory/pathway_enrichment_rows_any_candidate_row_attachment.jsonl",
+    "/02_claims_meta/stage5/smoke_pre2019_20261002/biology_confirmatory/pathway_enrichment_rows_null_result_claims_counted.jsonl",
+    "/02_claims_meta/stage5/smoke_pre2019_20261002/biology_confirmatory/pathway_enrichment_rows_whole_panel_backgrounds.jsonl",
+    "/02_claims_meta/stage5/smoke_pre2019_20261002/biology_confirmatory/reference_screen.json",
+    "/02_claims_meta/stage5/smoke_pre2019_20261002/biology_confirmatory/reference_screen_claims.jsonl",
+    "/02_claims_meta/stage5/smoke_pre2019_20261002/biology_confirmatory/reference_screen_pairs.json",
+    "/02_claims_meta/stage5/smoke_pre2019_20261002/biology_confirmatory/registry_indices.json",
+    "/02_claims_meta/stage5/smoke_pre2019_20261002/biology_confirmatory/registry_secondaries.json",
+    "/02_claims_meta/stage5/smoke_pre2019_20261002/biology_inputs/abstracts.jsonl",
+    "/02_claims_meta/stage5/smoke_pre2019_20261002/biology_inputs/claim_tags.jsonl",
+    "/02_claims_meta/stage5/smoke_pre2019_20261002/biology_inputs/dating_claims.jsonl",
+    "/02_claims_meta/stage5/smoke_pre2019_20261002/biology_inputs/dating_claims_update.jsonl",
+    "/02_claims_meta/stage5/smoke_pre2019_20261002/biology_inputs/families.json",
+    "/02_claims_meta/stage5/smoke_pre2019_20261002/biology_inputs/families_meta.json",
+    "/02_claims_meta/stage5/smoke_pre2019_20261002/biology_inputs/record_dates.json",
+    "/02_claims_meta/stage5/smoke_pre2019_20261002/biology_inputs/record_metadata.jsonl",
+    "/02_claims_meta/stage5/smoke_pre2019_20261002/biology_inputs/registry_assembly.json",
+    "/02_claims_meta/stage5/smoke_pre2019_20261002/biology_inputs/registry_claims.jsonl",
+    "/02_claims_meta/stage5/smoke_pre2019_20261002/biology_inputs/registry_claims_update.jsonl",
+    "/02_claims_meta/stage5/smoke_pre2019_20261002/biology_update/hierarchy_relations.jsonl",
+    "/02_claims_meta/stage5/smoke_pre2019_20261002/biology_update/hierarchy_tables.json",
+    "/02_claims_meta/stage5/smoke_pre2019_20261002/biology_update/hub_proteins.json",
+    "/02_claims_meta/stage5/smoke_pre2019_20261002/biology_update/novelty_claims.jsonl",
+    "/02_claims_meta/stage5/smoke_pre2019_20261002/biology_update/novelty_index.json",
+    "/02_claims_meta/stage5/smoke_pre2019_20261002/biology_update/pathway_claim_density.jsonl",
+    "/02_claims_meta/stage5/smoke_pre2019_20261002/biology_update/pathway_enrichment.json",
+    "/02_claims_meta/stage5/smoke_pre2019_20261002/biology_update/pathway_enrichment_rows.jsonl",
+    "/02_claims_meta/stage5/smoke_pre2019_20261002/biology_update/pathway_enrichment_rows_alternative_assay_lists.jsonl",
+    "/02_claims_meta/stage5/smoke_pre2019_20261002/biology_update/pathway_enrichment_rows_any_candidate_row_attachment.jsonl",
+    "/02_claims_meta/stage5/smoke_pre2019_20261002/biology_update/pathway_enrichment_rows_null_result_claims_counted.jsonl",
+    "/02_claims_meta/stage5/smoke_pre2019_20261002/biology_update/pathway_enrichment_rows_whole_panel_backgrounds.jsonl",
+    "/02_claims_meta/stage5/smoke_pre2019_20261002/biology_update/reference_screen.json",
+    "/02_claims_meta/stage5/smoke_pre2019_20261002/biology_update/reference_screen_claims.jsonl",
+    "/02_claims_meta/stage5/smoke_pre2019_20261002/biology_update/reference_screen_pairs.json",
+    "/02_claims_meta/stage5/smoke_pre2019_20261002/biology_update/registry_indices.json",
+    "/02_claims_meta/stage5/smoke_pre2019_20261002/biology_update/registry_secondaries.json",
+    "/02_claims_meta/stage5/smoke_pre2019_20261002/ontology_edges.csv",
+    "/02_claims_meta/stage5/smoke_pre2019_20261002/registry_claims.jsonl",
+    "/02_claims_meta/stage5/smoke_pre2019_20261002/sensitivity_tables.json",
+    "/02_claims_meta/stage5/smoke_pre2019_20261002/wording.jsonl"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,8 @@
+exit 2
+claims  outputs/citations/sol_extraction_smoke_pre2019_20261002_0b97103cd7a4/claims
+
+nothing to check.
+
+quotes live in a paper's claims/ directory. point at one:
+    citations verify --claims <path>
+

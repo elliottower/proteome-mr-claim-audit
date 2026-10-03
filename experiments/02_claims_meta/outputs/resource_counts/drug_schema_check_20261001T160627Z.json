@@ -1,0 +1,503 @@
+{
+ "checked_utc": "2026-10-01T16:06:27+00:00",
+ "inputs": "resource files only; no claim, pair or registry record read",
+ "chembl_tables": "/vol/chembl_37/tables",
+ "open_targets": {
+  "files": {
+   "clinical_report": {
+    "columns": {
+     "id": "large_string",
+     "clinicalStage": "large_string",
+     "origin": "large_string",
+     "type": "large_string",
+     "source": "large_string",
+     "provider": "large_string",
+     "drugs": "large_list<element: struct<drugFromSource: large_string, drugId: large_string>>",
+     "drugs.drugFromSource": "large_string",
+     "drugs.drugId": "large_string",
+     "countries": "large_list<element: large_string>",
+     "trialDescription": "large_string",
+     "phaseFromSource": "large_string",
+     "trialOfficialTitle": "large_string",
+     "trialSponsor": "struct<agencyClass: large_string, name: large_string>",
+     "trialSponsor.agencyClass": "large_string",
+     "trialSponsor.name": "large_string",
+     "diseases": "large_list<element: struct<diseaseFromSource: large_string, diseaseId: large_string>>",
+     "diseases.diseaseFromSource": "large_string",
+     "diseases.diseaseId": "large_string",
+     "trialLiterature": "large_list<element: struct<id: large_string, type: large_string>>",
+     "trialLiterature.id": "large_string",
+     "trialLiterature.type": "large_string",
+     "sideEffects": "large_list<element: struct<diseaseId: large_string, diseaseFromSource: large_string>>",
+     "sideEffects.diseaseId": "large_string",
+     "sideEffects.diseaseFromSource": "large_string",
+     "trialPhase": "large_string",
+     "trialWhyStopped": "large_string",
+     "trialStudyType": "large_string",
+     "qualityControls": "large_list<element: large_string>",
+     "trialPrimaryPurpose": "large_string",
+     "title": "large_string",
+     "trialNumberOfArms": "int32",
+     "trialOverallStatus": "large_string",
+     "year": "int32",
+     "trialStopReasonCategories": "large_list<element: large_string>",
+     "url": "large_string",
+     "trialStartDate": "date32[day]"
+    },
+    "required": [
+     "id",
+     "drugs.drugId",
+     "diseases.diseaseId",
+     "trialOverallStatus",
+     "trialStopReasonCategories",
+     "qualityControls",
+     "source",
+     "type"
+    ],
+    "missing": []
+   },
+   "disease": {
+    "columns": {
+     "id": "large_string",
+     "code": "large_string",
+     "name": "large_string",
+     "description": "large_string",
+     "dbXRefs": "large_list<element: large_string>",
+     "parents": "large_list<element: large_string>",
+     "exactSynonyms": "large_list<element: large_string>",
+     "relatedSynonyms": "large_list<element: large_string>",
+     "narrowSynonyms": "large_list<element: large_string>",
+     "broadSynonyms": "large_list<element: large_string>",
+     "obsoleteTerms": "large_list<element: large_string>",
+     "obsoleteXRefs": "large_list<element: large_string>",
+     "children": "large_list<element: large_string>",
+     "ancestors": "large_list<element: large_string>",
+     "therapeuticAreas": "large_list<element: large_string>",
+     "descendants": "large_list<element: large_string>",
+     "ontology": "struct<isTherapeuticArea: bool, leaf: bool, sources: struct<url: large_string, name: large_string>>",
+     "ontology.isTherapeuticArea": "bool",
+     "ontology.leaf": "bool",
+     "ontology.sources": "struct<url: large_string, name: large_string>",
+     "synonyms": "struct<hasExactSynonym: large_list<element: large_string>, hasRelatedSynonym: large_list<element: large_string>, hasNarrowSynonym: large_list<element: large_string>, hasBroadSynonym: large_list<element: large_string>>",
+     "synonyms.hasExactSynonym": "large_list<element: large_string>",
+     "synonyms.hasRelatedSynonym": "large_list<element: large_string>",
+     "synonyms.hasNarrowSynonym": "large_list<element: large_string>",
+     "synonyms.hasBroadSynonym": "large_list<element: large_string>"
+    },
+    "required": [
+     "id"
+    ],
+    "missing": []
+   }
+  },
+  "values": {
+   "clinical_report.rows": 289954,
+   "clinical_report.duplicate_ids": 0,
+   "clinical_report.trialOverallStatus": {
+    "": 58965,
+    "ACTIVE_NOT_RECRUITING": 9254,
+    "APPROVED_FOR_MARKETING": 208,
+    "AVAILABLE": 210,
+    "COMPLETED": 132208,
+    "ENROLLING_BY_INVITATION": 870,
+    "NOT_YET_RECRUITING": 7155,
+    "NO_LONGER_AVAILABLE": 480,
+    "RECRUITING": 21288,
+    "SUSPENDED": 734,
+    "TEMPORARILY_NOT_AVAILABLE": 22,
+    "TERMINATED": 20458,
+    "UNKNOWN": 29809,
+    "WITHDRAWN": 8293
+   },
+   "clinical_report.trialStopReasonCategories": {
+    "Another_Study": 1026,
+    "Business_Administrative": 7905,
+    "Covid19": 812,
+    "Insufficient_Enrollment": 8047,
+    "Invalid_Reason": 1309,
+    "Logistics_Resources": 1614,
+    "Negative": 2456,
+    "No_Context": 241,
+    "Regulatory": 611,
+    "Safety_Sideeffects": 935,
+    "Study_Design": 1672,
+    "Study_Staff_Moved": 847,
+    "Uncategorised": 540
+   },
+   "clinical_report.status_by_stop_label": {
+    "SUSPENDED|Another_Study": 25,
+    "SUSPENDED|Business_Administrative": 199,
+    "SUSPENDED|Covid19": 32,
+    "SUSPENDED|Insufficient_Enrollment": 95,
+    "SUSPENDED|Invalid_Reason": 45,
+    "SUSPENDED|Logistics_Resources": 65,
+    "SUSPENDED|Negative": 23,
+    "SUSPENDED|No_Context": 5,
+    "SUSPENDED|Regulatory": 47,
+    "SUSPENDED|Safety_Sideeffects": 19,
+    "SUSPENDED|Study_Design": 86,
+    "SUSPENDED|Study_Staff_Moved": 17,
+    "SUSPENDED|Uncategorised": 40,
+    "TERMINATED|Another_Study": 714,
+    "TERMINATED|Business_Administrative": 4980,
+    "TERMINATED|Covid19": 572,
+    "TERMINATED|Insufficient_Enrollment": 6381,
+    "TERMINATED|Invalid_Reason": 604,
+    "TERMINATED|Logistics_Resources": 951,
+    "TERMINATED|Negative": 2342,
+    "TERMINATED|No_Context": 226,
+    "TERMINATED|Regulatory": 290,
+    "TERMINATED|Safety_Sideeffects": 854,
+    "TERMINATED|Study_Design": 993,
+    "TERMINATED|Study_Staff_Moved": 462,
+    "TERMINATED|Uncategorised": 353,
+    "WITHDRAWN|Another_Study": 287,
+    "WITHDRAWN|Business_Administrative": 2726,
+    "WITHDRAWN|Covid19": 208,
+    "WITHDRAWN|Insufficient_Enrollment": 1571,
+    "WITHDRAWN|Invalid_Reason": 660,
+    "WITHDRAWN|Logistics_Resources": 598,
+    "WITHDRAWN|Negative": 91,
+    "WITHDRAWN|No_Context": 10,
+    "WITHDRAWN|Regulatory": 274,
+    "WITHDRAWN|Safety_Sideeffects": 62,
+    "WITHDRAWN|Study_Design": 593,
+    "WITHDRAWN|Study_Staff_Moved": 368,
+    "WITHDRAWN|Uncategorised": 147
+   },
+   "clinical_report.drugs_per_report_capped_at_3": {
+    "1": 194124,
+    "2": 60011,
+    "3": 35819
+   },
+   "clinical_report.diseases_per_report_capped_at_3": {
+    "0": 21983,
+    "1": 205987,
+    "2": 45513,
+    "3": 16471
+   },
+   "clinical_report.drugId_prefix": {
+    "": 78746,
+    "CHEMBL": 380725
+   },
+   "clinical_report.diseaseId_prefix": {
+    "": 79872,
+    "EFO": 22812,
+    "GO": 375,
+    "HP": 21155,
+    "MONDO": 234398,
+    "MP": 1213,
+    "NCIT": 5,
+    "OBA": 63,
+    "OTAR": 1,
+    "Orphanet": 152
+   },
+   "clinical_report.qualityControls": {
+    "flagged": 104698,
+    "none": 185256
+   },
+   "clinical_report.qualityControls_values": {
+    "INDIRECT_PRIMARY_PURPOSE": 54693,
+    "NO_DISEASE": 21983,
+    "PHASE_IV_NOT_APPROVED": 13793,
+    "SAFETY_REPORT": 2744,
+    "UNVALIDATED_INDICATION": 45315
+   },
+   "clinical_report.type_by_source_kind_by_status": {
+    "INDICATION|ClinicalTrials.gov|ACTIVE_NOT_RECRUITING": 9254,
+    "INDICATION|ClinicalTrials.gov|APPROVED_FOR_MARKETING": 208,
+    "INDICATION|ClinicalTrials.gov|AVAILABLE": 210,
+    "INDICATION|ClinicalTrials.gov|COMPLETED": 132208,
+    "INDICATION|ClinicalTrials.gov|ENROLLING_BY_INVITATION": 870,
+    "INDICATION|ClinicalTrials.gov|NOT_YET_RECRUITING": 7155,
+    "INDICATION|ClinicalTrials.gov|NO_LONGER_AVAILABLE": 480,
+    "INDICATION|ClinicalTrials.gov|RECRUITING": 21288,
+    "INDICATION|ClinicalTrials.gov|SUSPENDED": 734,
+    "INDICATION|ClinicalTrials.gov|TEMPORARILY_NOT_AVAILABLE": 22,
+    "INDICATION|ClinicalTrials.gov|TERMINATED": 20458,
+    "INDICATION|ClinicalTrials.gov|UNKNOWN": 29809,
+    "INDICATION|ClinicalTrials.gov|WITHDRAWN": 8293,
+    "INDICATION|other_source|None": 56221,
+    "SAFETY|other_source|None": 2744
+   },
+   "clinical_report.source": {
+    "ATC": 3083,
+    "ClinicalTrials.gov": 230989,
+    "DOI": 112,
+    "DailyMed": 17309,
+    "EMA": 38,
+    "EMA Human Drugs": 2313,
+    "FDA": 1463,
+    "HIS": 1,
+    "HPRA": 5,
+    "Health Canada": 17,
+    "INN": 656,
+    "MEDSAFE": 7,
+    "MHRA": 8,
+    "NICE": 1,
+    "NTP": 1,
+    "Other": 3,
+    "PMDA": 1952,
+    "PubMed": 48,
+    "TGA": 7,
+    "TTD": 30310,
+    "USAN": 1332,
+    "USGPO": 77,
+    "WHO": 222
+   },
+   "clinical_report.type": {
+    "INDICATION": 287210,
+    "SAFETY": 2744
+   },
+   "disease.rows": 45896
+  }
+ },
+ "ok": true,
+ "missing_required_columns": {},
+ "registered_value_checks": {
+  "stop_labels_equal_registered_13": {
+   "ok": true,
+   "in_file_not_registered": [],
+   "registered_not_in_file": []
+  },
+  "active_and_suspended_statuses_present": {
+   "ok": true,
+   "missing": []
+  },
+  "target_types_present": {
+   "ok": true,
+   "missing": []
+  },
+  "primary_rule_rows_equal_registered_4477": {
+   "ok": true,
+   "found": 4477
+  },
+  "component_level_rows_equal_registered_1248": {
+   "ok": true,
+   "found": 1248
+  },
+  "report_ids_unique": {
+   "ok": true
+  },
+  "statuses_carrying_stop_labels": [
+   "SUSPENDED",
+   "TERMINATED",
+   "WITHDRAWN"
+  ]
+ },
+ "chembl": {
+  "files": {
+   "drug_mechanism": {
+    "columns": [
+     "mec_id",
+     "record_id",
+     "molregno",
+     "mechanism_of_action",
+     "tid",
+     "site_id",
+     "action_type",
+     "direct_interaction",
+     "molecular_mechanism",
+     "disease_efficacy",
+     "mechanism_comment",
+     "selectivity_comment",
+     "binding_site_comment",
+     "variant_id"
+    ],
+    "required": [
+     "mec_id",
+     "molregno",
+     "tid",
+     "action_type",
+     "direct_interaction",
+     "molecular_mechanism"
+    ],
+    "missing": []
+   },
+   "target_dictionary": {
+    "columns": [
+     "tid",
+     "target_type",
+     "pref_name",
+     "tax_id",
+     "organism",
+     "chembl_id",
+     "species_group_flag"
+    ],
+    "required": [
+     "tid",
+     "target_type",
+     "organism"
+    ],
+    "missing": []
+   },
+   "target_components": {
+    "columns": [
+     "tid",
+     "component_id",
+     "targcomp_id",
+     "homologue"
+    ],
+    "required": [
+     "tid",
+     "component_id",
+     "homologue"
+    ],
+    "missing": []
+   },
+   "component_sequences": {
+    "columns": [
+     "component_id",
+     "component_type",
+     "accession",
+     "sequence_md5sum",
+     "description",
+     "tax_id",
+     "organism",
+     "db_source",
+     "db_version"
+    ],
+    "required": [
+     "component_id",
+     "accession"
+    ],
+    "missing": []
+   },
+   "molecule_hierarchy": {
+    "columns": [
+     "molregno",
+     "parent_molregno",
+     "active_molregno"
+    ],
+    "required": [
+     "molregno",
+     "parent_molregno"
+    ],
+    "missing": []
+   },
+   "molecule_dictionary": {
+    "columns": [
+     "molregno",
+     "chembl_id",
+     "pref_name",
+     "max_phase",
+     "molecule_type"
+    ],
+    "required": [
+     "molregno",
+     "chembl_id"
+    ],
+    "missing": []
+   },
+   "drug_indication": {
+    "columns": [
+     "drugind_id",
+     "record_id",
+     "molregno",
+     "max_phase_for_ind",
+     "mesh_id",
+     "mesh_heading",
+     "efo_id",
+     "efo_term"
+    ],
+    "required": [
+     "molregno",
+     "max_phase_for_ind",
+     "efo_id"
+    ],
+    "missing": []
+   }
+  },
+  "values": {
+   "drug_mechanism.rows": 7561,
+   "drug_mechanism.human_rows_by_target_type": {
+    "CELL-LINE": 1,
+    "CHIMERIC PROTEIN": 23,
+    "LIPID": 9,
+    "MACROMOLECULE": 21,
+    "NUCLEIC-ACID": 191,
+    "OLIGOSACCHARIDE": 38,
+    "PROTEIN COMPLEX": 266,
+    "PROTEIN COMPLEX GROUP": 282,
+    "PROTEIN FAMILY": 656,
+    "PROTEIN NUCLEIC-ACID COMPLEX": 9,
+    "PROTEIN-PROTEIN INTERACTION": 9,
+    "SELECTIVITY GROUP": 12,
+    "SINGLE PROTEIN": 4479,
+    "SMALL MOLECULE": 61,
+    "SUBCELLULAR": 6,
+    "UNKNOWN": 2
+   },
+   "drug_mechanism.primary_rule_rows": 4477,
+   "drug_mechanism.component_level_rows": 1248,
+   "drug_mechanism.component_level_rows_by_flags": {
+    "direct_interaction=1,molecular_mechanism=1": 1248
+   },
+   "drug_mechanism.empty_molregno": 0,
+   "drug_mechanism.action_type_primary_and_component": {
+    "ACTIVATOR": 72,
+    "AGONIST": 939,
+    "ALLOSTERIC ANTAGONIST": 1,
+    "ANTAGONIST": 974,
+    "BINDING AGENT": 241,
+    "BLOCKER": 173,
+    "CROSS-LINKING AGENT": 26,
+    "DEGRADER": 8,
+    "DISRUPTING AGENT": 7,
+    "EXOGENOUS GENE": 10,
+    "EXOGENOUS PROTEIN": 50,
+    "GENE EDITING NEGATIVE MODULATOR": 1,
+    "HYDROLYTIC ENZYME": 10,
+    "INHIBITOR": 2754,
+    "INVERSE AGONIST": 16,
+    "MODULATOR": 105,
+    "NEGATIVE ALLOSTERIC MODULATOR": 20,
+    "NEGATIVE MODULATOR": 4,
+    "OPENER": 39,
+    "OTHER": 30,
+    "PARTIAL AGONIST": 63,
+    "POSITIVE ALLOSTERIC MODULATOR": 82,
+    "POSITIVE MODULATOR": 25,
+    "PROTEOLYTIC ENZYME": 3,
+    "RELEASING AGENT": 29,
+    "STABILISER": 24,
+    "SUBSTRATE": 7,
+    "VACCINE ANTIGEN": 12
+   },
+   "target_components.homologue_on_used_targets": {
+    "0": 1885
+   },
+   "component_sequences.type_and_source_on_used_targets": {
+    "PROTEIN|SWISS-PROT": 1884,
+    "PROTEIN|TREMBL": 1
+   },
+   "drug_indication.rows": 60055,
+   "drug_indication.max_phase_for_ind": {
+    "-1": 124,
+    "0.5": 1090,
+    "1": 13034,
+    "2": 22345,
+    "3": 14779,
+    "4": 8683
+   },
+   "drug_indication.efo_id_prefix": {
+    "": 168,
+    "CHEBI": 34,
+    "DOID": 50,
+    "EFO": 39926,
+    "GO": 73,
+    "HP": 3501,
+    "MONDO": 15624,
+    "MP": 333,
+    "NCBITaxon": 1,
+    "Orphanet": 344,
+    "UBERON": 1
+   },
+   "drug_indication.empty_molregno": 0,
+   "molecule_hierarchy.rows": 2828129,
+   "molecule_hierarchy.self_parent_rows": 2705659,
+   "molecule_hierarchy.mechanism_or_indication_molregnos_without_row": 0
+  }
+ },
+ "volume_path": "/vol/02_claims_meta/prefreeze_checks/drug_schema_check_20261001T160627Z.json"
+}

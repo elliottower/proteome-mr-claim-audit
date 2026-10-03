@@ -1,0 +1,198 @@
+source:
+  citation: wray2018mdd_supp_tables
+  local: sources/wray2018mdd_supp_tables.txt
+  sha256: 4a09eac0e9a971d86740338901779c6271db32950fe6351a10ef5371079c0f56
+  doi: 10.1038/s41588-018-0090-3
+  note: Supplementary Tables 1, 2, 3 and 15 (sheets 'Table 1', 'Table 2', 'Table 3', 'Table 15') of Wray
+    NR et al. 2018 Nat Genet, file NIHMS943355-supplement-3.xlsx from the NCBI PMC open-data bucket (PMC5934326.1),
+    converted with pandas, one row per line, non-empty cells joined by ' | ', whitespace collapsed.
+claims:
+  caption-st1:
+    quotes:
+    - exact: 'Supplementary Table 1: Description of PGC29 samples'
+      section: Supplementary Table 1
+  caption-st2:
+    quotes:
+    - exact: 'Supplementary Table 2: Description of six additional cohorts'
+      section: Supplementary Table 2
+  caption-st3:
+    quotes:
+    - exact: 'Supplementary Table 3: Summary of PGC29 and the six additional cohorts'
+      section: Supplementary Table 3
+  pgc29-total:
+    quotes:
+    - exact: Summary PGC29 samples | 16823 | 25632
+      section: Supplementary Table 3a
+  totals:
+    quotes:
+    - exact: TOTALS | 135458 | 344901
+      section: Supplementary Table 3a
+  fmex23:
+    quotes:
+    - exact: Full meta-analysis excluding 23andMe | FMex23 | 59851 | 113154
+      section: Supplementary Table 3a
+  boma:
+    quotes:
+    - exact: BOMA 1-3 | boma | Germany | Consecutive inpatients; SCID or SADS interview; medical records
+        | POPGEN & KORA population-based
+      section: Supplementary Table 1
+  cofams:
+    quotes:
+    - exact: CoFaMS 4 | cof3 | Australia | Opportunistic; inpatient & outpatient; SCID or MINI | Opportunistic;
+        same community; SCID and MINI
+      section: Supplementary Table 1
+  psycolaus:
+    quotes:
+    - exact: PsyCoLaus 5 | col3 | Switzerland | Random population sample; DIGS | From same population
+        sample; DIGS
+      section: Supplementary Table 1
+  edinburgh:
+    quotes:
+    - exact: Edinburgh 6 | edi2 | Scotland | Opportunistic; inpatient & outpatient; SADS-L, medical records
+        | Blood donors; psychiatrically unscreened
+      section: Supplementary Table 1
+  genred1:
+    quotes:
+    - exact: GenRED1 7,8 | gens | USA | Opportunistic; DIGS3; medical records or informant (subset) |
+        Survey research panel; online CIDI-SF
+      section: Supplementary Table 1
+  genpod:
+    quotes:
+    - exact: NEWMEDS-GENPOD 9,10 | gep3 | Europe | Primary care outpatients enrolled in AD trial; CIS-R.
+        | Wellcome Trust Case-Control Consortium
+      section: Supplementary Table 1
+  dgn:
+    quotes:
+    - exact: DGN 11 | grdg | USA | Survey research panel; SCID | Survey research panel; SCID
+      section: Supplementary Table 1
+  genred2:
+    quotes:
+    - exact: GenRED2 7 | grnd | USA | Opportunistic; DIGS; medical records or informant (subset) | Genomic
+        Psychiatry Cohort (opportunistic) or Mayo Clinic Biobank (HMO)
+      section: Supplementary Table 1
+  gsk-mpip:
+    quotes:
+    - exact: GSK/MPIP 12 | gsk2 | Germany | In- and outpatients; SCAN | Population, Composite International
+        Diagnostic Screener (CID-S)
+      section: Supplementary Table 1
+  i2b2:
+    quotes:
+    - exact: i2b2-TRD 13 | i2b3 | USA | Natural language processing of EMR; psychiatrist review | Controls
+        from neuroimaging studies; self-report psychiatric history
+      section: Supplementary Table 1
+  janssen:
+    quotes:
+    - exact: Janssen 14,15 | jjp2 | USA | AD trials inpatients & outpatients. Clinical interview, MINI,
+        & rater (SAFER & ATRQ) | Parkinson's disease GWA controls
+      section: Supplementary Table 1
+  mars:
+    quotes:
+    - exact: 'MARS 16-18 | mmi2, mmo4 | Germany | Inpatients; diagnosis by psychiatrist | Munich: population;
+        CIDI. Dortmund: population (CESD<10, no report MDD)'
+      section: Supplementary Table 1
+  nesda:
+    quotes:
+    - exact: 'NESDA/NTR: NESDA 19,20 | nes1 | NL | Psych outpatients, primary care, & population; CIDI
+        | Primary care; CIDI'
+      section: Supplementary Table 1
+  ntr:
+    quotes:
+    - exact: 'NESDA/NTR: NTR 19,20 | nes1 | NL | Twin registry; longitudinal MDD sx; CIDI (subset) | Twin
+        registry; longitudinal MDD sx; CIDI (subset)'
+      section: Supplementary Table 1
+  pfizer:
+    quotes:
+    - exact: Pfizer 9 | pfm2 | USA | Participants in AD trials. SCID or MINI; HRSD >21 | Melanoma GWA
+        control
+      section: Supplementary Table 1
+  qimr:
+    quotes:
+    - exact: QIMR 13,21 | qi3c qi6c qio2 | Australia | Australian Twin Registry (proband most severe,
+        sx, or earlier onset); SSAGA | From same cohort; SSAGA
+      section: Supplementary Table 1
+  radiant-uk:
+    quotes:
+    - exact: RADIANT-UK 22 | rad3 | UK | UK outpatients from DeNT, DeCC, GENDEP; SCAN | Primary care or
+        staff or students at King's College London; PHS
+      section: Supplementary Table 1
+  radiant-ger:
+    quotes:
+    - exact: RADIANT-GER 22 | rage | Germany | German outpatients from DeNT, DeCC, GENDEP; SCAN | KORA
+        population-based
+      section: Supplementary Table 1
+  radiant-irish:
+    quotes:
+    - exact: RADIANT-IRISH 22,23 | rai2 | Ireland | Irish outpatients from DeNT, DeCC, GENDEP; SCAN |
+        ALS GWA controls & opportunistic controls
+      section: Supplementary Table 1
+  radiant-us:
+    quotes:
+    - exact: RADIANT-US 22,24 | rau2 | USA | US outpatients from DeNT, DeCC, GENDEP; SCAN | NIMH controls;
+        SCID
+      section: Supplementary Table 1
+  radiant-den:
+    quotes:
+    - exact: RADIANT-DEN 22 | rde4 | Denmark | Danish outpatients from DeNT, DeCC, GENDEP; SCAN | IBP-SGENE
+        Copenhagen (blood bank screening only)
+      section: Supplementary Table 1
+  roche:
+    quotes:
+    - exact: Roche † | roc3 | USA | AD clinical trials. SCID or MINI; HRSD >21; previous AD treatment
+        | Opportunistic, matched to cases (ancestry, education, age, sex). SCID
+      section: Supplementary Table 1
+  rotterdam:
+    quotes:
+    - exact: Rotterdam 25 | rot4 | NL | Rotterdam Study; CESD, SCAN | Rotterdam Study; CESD
+      section: Supplementary Table 1
+  ship0:
+    quotes:
+    - exact: SHIP 0 26 | shp0 | Germany | Study of Health in Pomerania; CIDI | Study of Health in Pomerania;
+        CIDI
+      section: Supplementary Table 1
+  ship-trend:
+    quotes:
+    - exact: SHIP-TREND 26 | shpt | Germany | Study of Health in Pomerania; CIDI | Study of Health in
+        Pomerania; CIDI
+      section: Supplementary Table 1
+  stard:
+    quotes:
+    - exact: STAR*D 27 | stm2 | USA | Outpatients in clinical trial; clinical interviews | Myocardial
+        infarction GWA
+      section: Supplementary Table 1
+  twingene:
+    quotes:
+    - exact: TwinGene 28,29 | twg2 | Sweden | Swedish Twin Registry; CIDI-SF & national registers | Swedish
+        Twin Registry; CIDI-SF & national registers
+      section: Supplementary Table 1
+  cofams-st15-note:
+    quotes:
+    - exact: mdd_cof3_eur | CoFams | Australia | Yes | NIMH repository | NIMH repository | MIGEN controls
+      section: Supplementary Table 15
+  decode:
+    quotes:
+    - exact: deCODE 1 | Iceland | Inpatient records, random sample using SSQ & HADS; CIDI | Multiple studies,
+        matched by sex, birth year, county of birth
+      section: Supplementary Table 2
+  genscot:
+    quotes:
+    - exact: GenScotland 2,3 | UK | Random sample of patients in general practice; SCID | Drawn from same
+        cohort. SCID
+      section: Supplementary Table 2
+  gera:
+    quotes:
+    - exact: GERA 4 | USA | Kaiser Permanente Northern California (1995-2013); EMR
+      section: Supplementary Table 2
+  ipsych:
+    quotes:
+    - exact: iPSYCH 5 | Denmark | All births 1981–2005, diagnoses from national psychiatric treatment
+        register | Randomly selected from same birth cohort
+      section: Supplementary Table 2
+  ukb:
+    quotes:
+    - exact: UK Biobank 6,7 | UK | National Health Service registers; self-report & inpatient records
+        | Same as cases
+      section: Supplementary Table 2
+  23andme:
+    quotes:
+    - exact: 23andMe 8 | USA | Commercial direct-to-consumer genomics company, consent for research; self-report
+      section: Supplementary Table 2

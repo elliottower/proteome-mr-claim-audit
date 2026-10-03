@@ -1,0 +1,250 @@
+{
+ "written_utc": "2026-10-02T20:37:45+00:00",
+ "inputs": {
+  "screening_dirs": [
+   "outputs/screening_smoke/smoke_pre2019_20261002",
+   "outputs/screening_smoke/smoke_pre2019_20261002/chase_round_1"
+  ],
+  "decisions": [
+   "outputs/parsed/sol_eligibility_smoke_pre2019_20261002_2811496ef424.decisions.jsonl",
+   "outputs/parsed/sol_eligibility_smoke_pre2019_20261002_chase1_2811496ef424.decisions.jsonl",
+   "outputs/parsed/sol_eligibility_smoke_pre2019_20261002_gate1b1_2811496ef424.decisions.jsonl"
+  ],
+  "extraction": [
+   "outputs/parsed/sol_extraction_smoke_pre2019_20261002_0b97103cd7a4.jsonl",
+   "outputs/parsed/sol_extraction_smoke_pre2019_20261002_chase1gate_0b97103cd7a4.jsonl"
+  ],
+  "spans": [
+   "outputs/verification/sol_extraction_smoke_pre2019_20261002_0b97103cd7a4/spans.jsonl",
+   "outputs/verification/sol_extraction_smoke_pre2019_20261002_chase1gate_0b97103cd7a4/spans.jsonl"
+  ],
+  "checks": [
+   "outputs/verification/sol_extraction_smoke_pre2019_20261002_0b97103cd7a4/claim_checks.jsonl",
+   "outputs/verification/sol_extraction_smoke_pre2019_20261002_chase1gate_0b97103cd7a4/claim_checks.jsonl"
+  ],
+  "assembly": "outputs/registry/smoke_pre2019_20261002_window_coded"
+ },
+ "search": {
+  "smoke_pre2019_20261002": {
+   "run": "outputs/raw/search_smoke/smoke_pre2019_20261002",
+   "source_records": {
+    "pubmed": 16,
+    "epmc": 8,
+    "openalex": 13
+   },
+   "pubmed_records_fetched_for_other_sources": 4,
+   "retrieved_records_by_stream": {
+    "epmc/Q1_smoke": 1,
+    "epmc/Q2_smoke": 1,
+    "epmc/Q3_smoke": 1,
+    "epmc/Q4_smoke": 7,
+    "openalex/Q1_smoke": 3,
+    "openalex/Q4_smoke": 10,
+    "pubmed/Q1_smoke": 2,
+    "pubmed/Q2_smoke": 1,
+    "pubmed/Q3_smoke": 1,
+    "pubmed/Q4_smoke": 10
+   },
+   "screening_records": 18,
+   "duplicates_removed": 19,
+   "screening_records_by_sources": {
+    "pubmed": 4,
+    "pubmed+epmc": 1,
+    "pubmed+openalex": 4,
+    "pubmed+epmc+openalex": 7,
+    "openalex": 2
+   },
+   "screening_records_by_kind": {
+    "journal": 17,
+    "other": 1
+   },
+   "screening_records_by_lead_source_type": {
+    "pubmed: Comparative Study; Journal Article; Multicenter Study; Observational Study; Research Support, Non-U.S. Gov't": 1,
+    "pubmed: Journal Article; Research Support, Non-U.S. Gov't": 5,
+    "pubmed: Letter; Research Support, N.I.H., Extramural": 1,
+    "pubmed: Journal Article": 5,
+    "pubmed: Journal Article; Research Support, N.I.H., Extramural; Research Support, Non-U.S. Gov't": 2,
+    "pubmed: Journal Article; Comment": 2,
+    "openalex: article": 1,
+    "openalex: conference-abstract": 1
+   },
+   "screening_records_without_abstract": 0,
+   "preprints_with_published_link": 0
+  }
+ },
+ "citation_chasing": {
+  "round_1": {
+   "round": 1,
+   "seeds_file": "outputs/parsed/sol_eligibility_smoke_pre2019_20261002_2811496ef424.decisions.eligible_records.jsonl",
+   "seeds_sha256": "3ef76603e5de7b75037984a001912d313243f301a183cf86e9c5fa7d679192b2",
+   "known_files": [
+    "outputs/screening_smoke/smoke_pre2019_20261002/screening_records.jsonl"
+   ],
+   "seeds": 1,
+   "seeds_without_doi_or_pmid": 0,
+   "seed_works_found": 1,
+   "published_from": null,
+   "backward_works_referenced": 72,
+   "backward_works_retrieved": 70,
+   "forward_works": 28,
+   "works_already_in_screening_sets": 0,
+   "new_works": 98,
+   "new_works_with_pmid": 80,
+   "new_screening_records": 98,
+   "new_screening_records_without_abstract": 2,
+   "smoke_records_first_public_after_2018_left_out": 1
+  }
+ },
+ "screening": {
+  "records": 115,
+  "records_from_citation_chasing": 97,
+  "by_document_class": {
+   "journal": 98,
+   "other": 1,
+   "preprint": 16
+  }
+ },
+ "prefilter": {
+  "smoke_pre2019_20261002": {
+   "records": 18,
+   "marked": 0,
+   "no_genetic_term": 0,
+   "no_protein_term": 0,
+   "marked_records_sampled_by_the_gate_audit": 0,
+   "marked_records_not_screened": 0,
+   "sent_to_screening": 18
+  },
+  "chase_round_1": {
+   "records": 97,
+   "marked": 86,
+   "no_genetic_term": 76,
+   "no_protein_term": 70,
+   "marked_records_sampled_by_the_gate_audit": 86,
+   "marked_records_not_screened": 0,
+   "sent_to_screening": 97
+  }
+ },
+ "eligibility": {
+  "records_sent_to_screening": 115,
+  "decisions": {
+   "eligible_count_not_stated": 1,
+   "ineligible": 110,
+   "uncertain": 4
+  },
+  "to_extraction": 5,
+  "eligibility_uncertain": 4,
+  "also_tissue_or_csf": 0,
+  "ineligible_by_reason": {
+   "excluded_non_human": 7,
+   "excluded_protocol": 1,
+   "excluded_review": 11,
+   "excluded_tissue_or_csf_proteomics": 15,
+   "fewer_than_100_proteins": 7,
+   "no_circulating_protein_instruments": 105,
+   "no_protein_outcome_result": 76,
+   "not_proteome_or_panel_wide": 81
+  }
+ },
+ "extraction": {
+  "records": 5,
+  "ok": 5,
+  "extraction_failed": 0,
+  "needed_retry": 0,
+  "claim_records": 3
+ },
+ "quotation_check": {
+  "spans": 3,
+  "pass": 3,
+  "fail": 0
+ },
+ "verification": {
+  "claim_records": 3,
+  "enters_registry": 3,
+  "left_out_by_first_failure": {},
+  "direction_verification_state": {
+   "not_applicable": 3
+  }
+ },
+ "families": {
+  "links_by_rule": {
+   "fuzzy_title_author": 2
+  },
+  "eligible_families": 5,
+  "eligible_families_by_window": {
+   "confirmatory": 5
+  },
+  "eligible_families_extraction_failed": 0,
+  "eligible_no_named_claims": 4,
+  "eligible_no_named_claims_families": [
+   "16325682",
+   "29875488",
+   "29966350",
+   "W4406537262"
+  ]
+ },
+ "registry_assembly": {
+  "written_utc": "2026-10-02T20:37:30+00:00",
+  "smoke_label": "smoke_pre2019_20261002",
+  "smoke_window": true,
+  "records": 114,
+  "records_other_document_type": 1,
+  "other_document_types_included": false,
+  "families": 112,
+  "eligible_families": 5,
+  "eligible_families_by_window": {
+   "confirmatory": 5
+  },
+  "claim_records_of_other_records": 0,
+  "registry": {
+   "claim_records": 3,
+   "claims_with_a_pair": 3,
+   "left_out_by_reason": {},
+   "pair_ambiguous_by_reason": {},
+   "claims_with_a_manually_coded_dataset": 0
+  },
+  "dating": {
+   "claim_records": 0,
+   "claims_with_a_pair": 0,
+   "left_out_by_reason": {},
+   "pair_ambiguous_by_reason": {},
+   "claims_with_a_manually_coded_dataset": 0
+  }
+ },
+ "prefiltered_citation_chasing_gate_audit": {
+  "chase_round_1": {
+   "seed": 20261001,
+   "batch_size": 600,
+   "maximum_sampled": 3000,
+   "tolerance": 0.005,
+   "marked_records": 86,
+   "batches_judged": 1,
+   "sampled": 86,
+   "eligibility_call_failed": 0,
+   "judged": 86,
+   "judged_eligible_or_uncertain": 3,
+   "positive_record_ids": [
+    "16325682",
+    "29966350",
+    "W4406537262"
+   ],
+   "share": 0.03488372093023256,
+   "upper_bound_one_sided_95": 0.0876939304487041,
+   "interval_two_sided_95_clopper_pearson": [
+    0.007252456428304814,
+    0.09857616398853247
+   ],
+   "marked_records_not_judged": 0,
+   "estimated_eligible_records_not_judged": 0.0,
+   "estimated_eligible_records_not_judged_upper_one_sided_95": 0.0,
+   "estimated_eligible_records_not_judged_interval_two_sided_95": [
+    0.0,
+    0.0
+   ],
+   "finished": true,
+   "stopping_reason": "every_marked_record_sampled",
+   "cap_reached_without_satisfying_tolerance": false,
+   "next_batch": null
+  }
+ },
+ "gate_audit_rounds_cap_reached_without_satisfying_tolerance": []
+}

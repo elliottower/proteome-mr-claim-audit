@@ -1,0 +1,22 @@
+source:
+  citation: bellenguez2022_main
+  local: sources/original/bellenguez2022_main.xml
+  sha256: fd2d5a2be6ddb5a60c153ee63dd7d5f0645808b8a60a56a3ebddf3747200bdc0
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9005347/fullTextXML
+  doi: 10.1038/s41588-022-01024-z
+  extractor: jats-text
+  note: 'Original file behind claims/bellenguez2022_main.yaml: the XML pinned in claims/bellenguez2022_main_original.yaml,
+    read by the citations extractor jats-text. The quotations here are those of that file that resolve
+    in this reading; a quotation absent here stays pinned where it already was.'
+  extractor_version: 1
+  derived_sha256: 9a612b76ca0c332cc9b82ba03ff84914663611b5bc05ae7ea3758bf02c49381c
+claims:
+  stage1_datasets:
+    quotes:
+    - exact: 'All of our stage I meta-analysis samples came from the following consortia/datasets: EADB,
+        GR@ACE, EADI, GERAD/PERADES, DemGene, Bonn, the Rotterdam study, the CCHS study, NxC and the UKBB.'
+      section: Methods, Samples
+  stage2_datasets:
+    quotes:
+    - exact: Stage II samples are from the ADGC, CHARGE and FinnGen consortia
+      section: Methods, Samples

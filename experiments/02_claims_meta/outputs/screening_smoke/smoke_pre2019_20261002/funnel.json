@@ -1,0 +1,46 @@
+{
+ "run": "outputs/raw/search_smoke/smoke_pre2019_20261002",
+ "source_records": {
+  "pubmed": 16,
+  "epmc": 8,
+  "openalex": 13
+ },
+ "pubmed_records_fetched_for_other_sources": 4,
+ "retrieved_records_by_stream": {
+  "epmc/Q1_smoke": 1,
+  "epmc/Q2_smoke": 1,
+  "epmc/Q3_smoke": 1,
+  "epmc/Q4_smoke": 7,
+  "openalex/Q1_smoke": 3,
+  "openalex/Q4_smoke": 10,
+  "pubmed/Q1_smoke": 2,
+  "pubmed/Q2_smoke": 1,
+  "pubmed/Q3_smoke": 1,
+  "pubmed/Q4_smoke": 10
+ },
+ "screening_records": 18,
+ "duplicates_removed": 19,
+ "screening_records_by_sources": {
+  "pubmed": 4,
+  "pubmed+epmc": 1,
+  "pubmed+openalex": 4,
+  "pubmed+epmc+openalex": 7,
+  "openalex": 2
+ },
+ "screening_records_by_kind": {
+  "journal": 17,
+  "other": 1
+ },
+ "screening_records_by_lead_source_type": {
+  "pubmed: Comparative Study; Journal Article; Multicenter Study; Observational Study; Research Support, Non-U.S. Gov't": 1,
+  "pubmed: Journal Article; Research Support, Non-U.S. Gov't": 5,
+  "pubmed: Letter; Research Support, N.I.H., Extramural": 1,
+  "pubmed: Journal Article": 5,
+  "pubmed: Journal Article; Research Support, N.I.H., Extramural; Research Support, Non-U.S. Gov't": 2,
+  "pubmed: Journal Article; Comment": 2,
+  "openalex: article": 1,
+  "openalex: conference-abstract": 1
+ },
+ "screening_records_without_abstract": 0,
+ "preprints_with_published_link": 0
+}

@@ -1,0 +1,165 @@
+{
+ "label": "r4",
+ "written_utc": "2026-09-30T19:28:41+00:00",
+ "eligibility_file": "outputs/parsed/sol_eligibility_r4_2bc87f34898a.jsonl",
+ "extraction_file": "outputs/parsed/sol_extraction_r4_63c728dcdc37.jsonl",
+ "revisions": {
+  "eligibility": "2bc87f34898a",
+  "extraction": "63c728dcdc37"
+ },
+ "n_abstracts": 30,
+ "schema_validity": {
+  "eligibility_ok": 30,
+  "eligibility_needed_retry": 0,
+  "eligibility_failed": 0,
+  "extraction_ok": 30,
+  "extraction_needed_retry": 0,
+  "extraction_failed": 0
+ },
+ "eligibility_by_role": {
+  "near_miss_eqtl_mr": {
+   "ineligible": 2
+  },
+  "near_miss_gene_score_mr": {
+   "ineligible": 1
+  },
+  "near_miss_pqtl_discovery": {
+   "ineligible": 3
+  },
+  "near_miss_review": {
+   "ineligible": 3
+  },
+  "pqtl_mr_panel": {
+   "ineligible": 7
+  },
+  "single_protein_mr": {
+   "ineligible": 14
+  }
+ },
+ "eligibility_reasons": {
+  "no_protein_outcome_result": 14,
+  "no_circulating_protein_instruments": 15,
+  "fewer_than_100_proteins": 3,
+  "not_proteome_or_panel_wide": 21,
+  "excluded_review": 3
+ },
+ "claims_per_abstract_by_role": {
+  "near_miss_eqtl_mr": 0,
+  "near_miss_gene_score_mr": 4,
+  "near_miss_pqtl_discovery": 0,
+  "near_miss_review": 0,
+  "pqtl_mr_panel": 3,
+  "single_protein_mr": 69
+ },
+ "direction_values": {
+  "not_stated": 17,
+  "raises": 22,
+  "lowers": 12,
+  "null": 25
+ },
+ "spans": {
+  "extraction": "outputs/parsed/sol_extraction_r4_63c728dcdc37.jsonl",
+  "n_claims": 76,
+  "registered_check_pass": 75,
+  "citations_pin_found": 75,
+  "citations_found_only_after_punctuation_folding": 0,
+  "citations_normalized_warning": 0,
+  "both_pass": 75,
+  "span_verification_rate": 0.9868421052631579,
+  "spans_over_two_sentences": 0,
+  "citations_verify_exit": 0
+ },
+ "claim_checks": {
+  "extraction": "outputs/parsed/sol_extraction_r4_63c728dcdc37.jsonl",
+  "reference_releases": {
+   "hgnc": "2026-09-04",
+   "uniprot": "2026_03",
+   "mondo": "v2026-09-01",
+   "efo": "v3.94.0"
+  },
+  "reference_sha256": {
+   "hgnc": "6f43d6ff43aa9fdfa5fb2f20a20a7cace66e6e02e2a0dcf19d9b726e2e248d20",
+   "uniprot": "8a9fda6847b0e8995f9f47626e6f829bf8640aabcd8ff746b95da1951130f29a",
+   "mondo": "50c8367f9bd9978321eedf84d4e2e79cb757efbed514c81effb00b9ad2e49994",
+   "efo": "1f7bdc48b91c17cd98742d8c0fca77d576d4d74998efd643e51b1b49602ca49c"
+  },
+  "lexicon": "verification/direction_lexicon.json",
+  "dataset_dictionary": null,
+  "n_claims": 76,
+  "span_pass": 75,
+  "protein_check": {
+   "pass": 72,
+   "protein_unmapped": 4
+  },
+  "protein_ambiguous_multiple_hgnc": 3,
+  "outcome_check": {
+   "pass": 70,
+   "outcome_unmapped": 5,
+   "outcome_not_in_span": 1
+  },
+  "direction_check": {
+   "not_applicable": 17,
+   "agrees": 52,
+   "disagrees": 2,
+   "direction_unverified": 5
+  },
+  "direction_check_among_directional_claims": {
+   "agrees": 52,
+   "disagrees": 2,
+   "direction_unverified": 5
+  },
+  "direction_method_among_directional_claims": {
+   "lexicon": 7,
+   "estimate": 47,
+   "none": 5
+  },
+  "evidence_type": {
+   "other": 3,
+   "experimental": 2,
+   "variant_association": 19,
+   "mr_estimate": 43,
+   "observational": 9
+  },
+  "outcome_aliases": "verification/outcome_aliases.csv",
+  "dataset_names": {
+   "no_dictionary": 23
+  },
+  "enters_registry": 37,
+  "enters_direction_results": 33,
+  "first_failure": {
+   "not_mr_estimate": 33,
+   "span_not_verified": 1,
+   "outcome_unmapped": 4,
+   "outcome_not_in_span": 1
+  }
+ },
+ "usage": {
+  "eligibility": {
+   "exchanges": 32,
+   "input_tokens": 35355,
+   "cached_input_tokens": 3688,
+   "output_tokens": 3677,
+   "reasoning_tokens": 1214,
+   "http_errors": 2,
+   "models_returned": [
+    "gpt-6.1-sol"
+   ],
+   "cost_usd_upper": 0.10748
+  },
+  "extraction": {
+   "exchanges": 30,
+   "input_tokens": 63435,
+   "cached_input_tokens": 46536,
+   "output_tokens": 23929,
+   "reasoning_tokens": 4977,
+   "models_returned": [
+    "gpt-6.1-sol"
+   ],
+   "cost_usd_upper": 0.36616
+  }
+ },
+ "prices_usd_per_mtok": {
+  "input": 2.0,
+  "output": 10.0
+ }
+}

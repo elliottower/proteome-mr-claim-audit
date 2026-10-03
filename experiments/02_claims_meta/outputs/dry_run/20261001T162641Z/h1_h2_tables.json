@@ -1,0 +1,118 @@
+{
+ "synthetic": true,
+ "written_utc": "20261001T162641Z",
+ "dropped_before_registry": {
+  "not_mr_estimate": 1,
+  "span_not_verified": 1,
+  "pair_ambiguous": 1,
+  "relation_ambiguous": 1,
+  "protein_no_uniprot": 1
+ },
+ "pair_ambiguous_reasons": {
+  "protein_multiple_uniprot": 1
+ },
+ "denominators": {
+  "family_pair_records": 11,
+  "by_direction": {
+   "raises": 8,
+   "lowers": 1,
+   "mixed": 1,
+   "unresolved": 1
+  },
+  "context_unclear": 0,
+  "pairs": 5,
+  "multi_family_pairs": 5,
+  "contradicting_pairs": 1
+ },
+ "estimates": {
+  "h1_pairs": 2,
+  "h1_pairs_agreeing": 1,
+  "h1_pair_concordance": 0.5,
+  "h1_independent_edges": 2,
+  "h1_independent_edges_agreeing": 1,
+  "h1_edge_concordance": 0.5,
+  "liu_analogue_pairs": 4,
+  "liu_analogue_tiers": {
+   "high": 3,
+   "discordant": 1
+  },
+  "liu_analogue_share_not_discordant": 0.75,
+  "h2_multi_family_pairs": 5,
+  "h2_known_identical": 1,
+  "h2_known_not_identical": 3,
+  "h2_unresolved": 1,
+  "h2_lower": 0.2,
+  "h2_upper": 0.4,
+  "h2_complete_case": 0.25
+ },
+ "wilson_descriptive": {
+  "h1_pair_concordance": [
+   0.09453120573423074,
+   0.9054687942657693
+  ],
+  "h2_lower": [
+   0.03622410863243014,
+   0.6244653702374747
+  ],
+  "h2_upper": [
+   0.11762077423264783,
+   0.769275718723987
+  ]
+ },
+ "pair_bootstrap": {
+  "replicates": 10000,
+  "seed": 20261001,
+  "percentile_method": "inverted_cdf",
+  "h1_pair_concordance": [
+   0.0,
+   1.0
+  ],
+  "h1_edge_concordance": [
+   0.0,
+   1.0
+  ],
+  "h2_lower": [
+   0.0,
+   0.6
+  ],
+  "h2_upper": [
+   0.0,
+   0.8
+  ]
+ },
+ "h2_verdict": "unresolved",
+ "family_jackknife": {
+  "h1_pair_concordance": {
+   "min": 0.0,
+   "min_when_dropping": "J2",
+   "max": 1.0,
+   "max_when_dropping": "J3",
+   "n_deletions": 4
+  },
+  "h1_edge_concordance": {
+   "min": 0.0,
+   "min_when_dropping": "J2",
+   "max": 1.0,
+   "max_when_dropping": "J3",
+   "n_deletions": 4
+  },
+  "h2_lower": {
+   "min": 0.0,
+   "min_when_dropping": "J1",
+   "max": 0.3333333333333333,
+   "max_when_dropping": "J3",
+   "n_deletions": 5
+  },
+  "h2_upper": {
+   "min": 0.25,
+   "min_when_dropping": "J4",
+   "max": 0.5,
+   "max_when_dropping": "J1",
+   "n_deletions": 5
+  }
+ },
+ "imprecise_under_20_pairs": {
+  "h1": true,
+  "h2": true
+ }
+}

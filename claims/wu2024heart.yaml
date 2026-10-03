@@ -1,0 +1,56 @@
+source:
+  citation: wu2024heart
+  local: sources/wu2024_heart_plain.txt
+  sha256: 02f53234f4c82a40e4c379224f3cc2c0dd4a81d228006a03797ba9140edf5fef
+  doi: 10.1136/heartjnl-2024-324050
+  note: 'Wu T, Ke Y, Li Y, et al. Associations between circulating proteins and cardiometabolic diseases:
+    a systematic review and meta-analysis of observational and Mendelian randomisation studies. Heart
+    2024;110:1208-1215. PMID 39084708. Publisher PDF via OpenAlex content endpoint, pdftotext (no -layout).'
+claims:
+  largest-cohort:
+    quotes:
+    - exact: When two or more studies reported data from the same cohort or consortium, only the study
+        with the largest number of participants was included.
+      section: Methods, Literature search
+  i2:
+    quotes:
+    - exact: Moderate heterogeneity was observed for MR pooled results, and 14.2% pairs had I2≥80%.
+      section: Results, Genetic associations between proteins and CMD
+  searched:
+    quotes:
+    - exact: We searched PubMed, Web of Science and Embase from database inception to July 2023
+      section: Key messages, What is already known
+  numbers:
+    quotes:
+    - exact: Results 50 observational, 25 MR and 10 studies performing both analyses were included
+      section: Abstract
+  two-reports:
+    quotes:
+    - exact: Protein-­disease pairs with ≥2 non-­overlapping reports were included.
+      section: Methods, Statistical analysis
+  drug-dev:
+    quotes:
+    - exact: Of the 245 potentially causal proteins (291 protein-­disease pairs), 3 pairs were validated
+        by evidence of drug development from existing drug databases, 288 pairs lacked evidence of drug
+        development and 66 proteins were drug targets approved for other indications.
+      section: Abstract, Results
+  mr-obs:
+    quotes:
+    - exact: Of 1731 protein-­disease pairs investigated in both of observational and MR pooled analyses,
+        only 22 pairs showed directionally consistent associations
+      section: Results, Genetic associations between proteins and CMD
+  pleio:
+    quotes:
+    - exact: we identified 23 tier 1 and 2 proteins associated with risk of two or more CMDs, referred
+        to as ‘pleiotropic protein’
+      section: Results
+  cis:
+    quotes:
+    - exact: 29 studies (82.9%) restricted instrumental variables to cis-­pQTLs
+      section: Results, Quality assessment
+  mr-pairs:
+    quotes:
+    - exact: The evaluation of MR evidence included 35 studies assessing circulating proteins as possible
+        causal biomarkers for CMDs, with 10 531 protein-­disease pairs reported and 1614 pairs eligible
+        for meta-­analysis.
+      section: Results, Genetic associations between proteins and CMD

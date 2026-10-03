@@ -1,0 +1,16 @@
+source:
+  citation: malik2018megastroke_main
+  local: sources/original/malik2018megastroke_main.xml
+  sha256: 137b487373e8ed0424e720580efef294df6459ef9959ee15c11e85be986c8836
+  url: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=PMC5968830
+  doi: 10.1038/s41588-018-0058-3
+  note: 'Original file behind claims/malik2018megastroke_main.yaml: NCBI E-utilities efetch (db=pmc) XML
+    of PMC5968830, read as plain text with its markup. The quotations here are the quotations of that
+    file that resolve in this file under the citations readers; a quotation absent here is pinned to the
+    extracted text there only.'
+claims:
+  data-availability:
+    quotes:
+    - exact: The datasets generated and/or analyzed during the current study are available from the corresponding
+        authors upon reasonable request.
+      section: Data availability

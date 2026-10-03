@@ -1,0 +1,368 @@
+{
+ "seed": 20261002,
+ "n_short_quotes": 1541,
+ "n_sampled": 60,
+ "allocation": "proportional to each claims file's number of short quotes (largest remainder), random.Random(seed).sample within a file over claim ids sorted",
+ "sample": [
+  {
+   "claims_file": "bellenguez2022_supp_note",
+   "claim_id": "eadb_amsterdam_dementia_cohort",
+   "quote": "2) The Amsterdam Dementia Cohort (ADC)",
+   "section": "Supplementary Note 1.1 Stage I samples"
+  },
+  {
+   "claims_file": "bellenguez2022_supp_table1",
+   "claim_id": "row_gr_ace_degesco",
+   "quote": "GR@ACE/DEGESCO | 6497 | 64.1",
+   "section": "Supplementary Table 1"
+  },
+  {
+   "claims_file": "chen2021magic_supp_table1",
+   "claim_id": "c_french_adult_control",
+   "quote": "| French Adult Control",
+   "section": "Supplementary Table 1 (contributing cohorts)"
+  },
+  {
+   "claims_file": "chen2021magic_supp_table1",
+   "claim_id": "c_sardinia",
+   "quote": "| SardiNIA | European",
+   "section": "Supplementary Table 1 (contributing cohorts)"
+  },
+  {
+   "claims_file": "chen2021magic_supp_table1",
+   "claim_id": "c_sindi",
+   "quote": "| Singapore Indian Eye Study (SINDI)",
+   "section": "Supplementary Table 1 (contributing cohorts)"
+  },
+  {
+   "claims_file": "christophersen2017af_supp_table1",
+   "claim_id": "row-mgh-camp",
+   "quote": "MGH CAMP | Cases | 665",
+   "section": "Supplementary Table 1"
+  },
+  {
+   "claims_file": "deloukas2013cad_supp",
+   "claim_id": "row-dilgom",
+   "quote": "DILGOM CAD/MI 3991",
+   "section": "Supplementary Table 1a"
+  },
+  {
+   "claims_file": "deloukas2013cad_supp",
+   "claim_id": "row-scarf-sheep",
+   "quote": "SCARF- CAD/MI 3417",
+   "section": "Supplementary Table 1a"
+  },
+  {
+   "claims_file": "demenais2018tagc_supp_table1",
+   "claim_id": "gabriela",
+   "quote": "| GABRIELA-AS |",
+   "section": "Supplementary Table 1"
+  },
+  {
+   "claims_file": "demenais2018tagc_supp_table1",
+   "claim_id": "egea-ch",
+   "quote": "| EGEA-ch |",
+   "section": "Supplementary Table 1"
+  },
+  {
+   "claims_file": "demontis2019adhd_supp_table1",
+   "claim_id": "image2",
+   "quote": "IMAGE-II | 624",
+   "section": "Supplementary Table 1"
+  },
+  {
+   "claims_file": "demontis2023adhd_supp_table1",
+   "claim_id": "ipsych2",
+   "quote": "iPSYCH2 | 8876",
+   "section": "Supplementary Table 1"
+  },
+  {
+   "claims_file": "evangelou2018bp_supp_tables",
+   "claim_id": "st1b-h2000-all",
+   "quote": "H2000 ALL | 1078",
+   "section": "Supplementary Table 1b"
+  },
+  {
+   "claims_file": "evangelou2018bp_supp_tables",
+   "claim_id": "st1b-3c-dijon",
+   "quote": "3C-DIJON | 4061",
+   "section": "Supplementary Table 1b"
+  },
+  {
+   "claims_file": "evangelou2018bp_supp_tables",
+   "claim_id": "st1b-ntr",
+   "quote": "NTR | 1490",
+   "section": "Supplementary Table 1b"
+  },
+  {
+   "claims_file": "graham2021glgc_supp_table1",
+   "claim_id": "st1-health2010-eur",
+   "quote": "Health2010 | Health2010 | Denmark | EUR",
+   "section": "Supplementary Table 1"
+  },
+  {
+   "claims_file": "jostins2012ibd_supp_table1",
+   "claim_id": "germany-uc",
+   "quote": "GERMANY | Germany | AFFX6",
+   "section": "Supplementary Table 1, tab GWAS Samples"
+  },
+  {
+   "claims_file": "kunkle2019_supp_tables",
+   "claim_id": "st2_mtc",
+   "quote": "MTC | 256 | 57",
+   "section": "Supplementary Table 2"
+  },
+  {
+   "claims_file": "kunkle2019_supp_tables",
+   "claim_id": "st2_tgen2",
+   "quote": "TGEN2 | 668 | 64.8",
+   "section": "Supplementary Table 2"
+  },
+  {
+   "claims_file": "lambert2013_supp",
+   "claim_id": "st1_ages",
+   "quote": "AGES | 78 | 50.0",
+   "section": "Supplementary Table 1"
+  },
+  {
+   "claims_file": "locke2015giant_supp_table1",
+   "claim_id": "c_spanish_town",
+   "quote": "SPT | Spanish Town",
+   "section": "Supplementary Table 1 (study design and sample QC, GWAS and Metabochip)"
+  },
+  {
+   "claims_file": "locke2015giant_supp_table1",
+   "claim_id": "c_dps",
+   "quote": "DPS | Diabetes Prevention Study",
+   "section": "Supplementary Table 1 (study design and sample QC, GWAS and Metabochip)"
+  },
+  {
+   "claims_file": "mahajan2018diagram_supp_table1",
+   "claim_id": "c_biome",
+   "quote": "BioME | BioMe™ BioBank Program",
+   "section": "Supplementary Table 1 (study characteristics)"
+  },
+  {
+   "claims_file": "mahajan2022diamante_supp_tables1_3",
+   "claim_id": "c_twt2d",
+   "quote": "TWT2D | Taiwan Type 2 Diabetes",
+   "section": "Supplementary Table 1 (T2D case and control ascertainment, study list)"
+  },
+  {
+   "claims_file": "mahajan2022diamante_supp_tables1_3",
+   "claim_id": "c_dgdg",
+   "quote": "DGDG | Diabetes Gene Discovery Group",
+   "section": "Supplementary Table 1 (T2D case and control ascertainment, study list)"
+  },
+  {
+   "claims_file": "mahajan2022diamante_supp_tables1_3",
+   "claim_id": "c_gckd",
+   "quote": "GCKD | German Chronic Kidney Disease",
+   "section": "Supplementary Table 1 (T2D case and control ascertainment, study list)"
+  },
+  {
+   "claims_file": "mahajan2022diamante_supp_tables1_3",
+   "claim_id": "eur_epic_interact",
+   "quote": "European | EPIC-INTERACT (1)",
+   "section": "Supplementary Table 2 (sample characteristics by ancestry group)"
+  },
+  {
+   "claims_file": "mahajan2022diamante_supp_tables1_3",
+   "claim_id": "c_aasc",
+   "quote": "AASC | Anti-aging Study Cohort",
+   "section": "Supplementary Table 1 (T2D case and control ascertainment, study list)"
+  },
+  {
+   "claims_file": "malik2018megastroke_supp_info",
+   "claim_id": "st1-cadisp",
+   "quote": "CADISP 555 555 67 211 31 9,259",
+   "section": "Supplementary Table 1 (Overview of studies included in MEGASTROKE)"
+  },
+  {
+   "claims_file": "mckay2017lung_supp",
+   "claim_id": "EAGLE",
+   "quote": "EAGLE Environment and Genetics in NCI",
+   "section": "Supplementary Table 1 (Characteristics of OncoArray Studies)"
+  },
+  {
+   "claims_file": "michailidou2017bcac_ref20_michailidou2015_supp_table1",
+   "claim_id": "tnbcc_sbcs",
+   "quote": "SBCS | UK | 42 | 0",
+   "section": "Supplementary Table 1d (Michailidou 2015)"
+  },
+  {
+   "claims_file": "michailidou2017bcac_ref20_michailidou2015_supp_table1",
+   "claim_id": "icogs_pkarma",
+   "quote": "pKARMA | Sweden | 5429",
+   "section": "Supplementary Table 1e (Michailidou 2015)"
+  },
+  {
+   "claims_file": "michailidou2017bcac_ref20_michailidou2015_supp_table1",
+   "claim_id": "icogs_ofbcr",
+   "quote": "OFBCR | Canada | 1175",
+   "section": "Supplementary Table 1e (Michailidou 2015)"
+  },
+  {
+   "claims_file": "michailidou2017bcac_supp_table1",
+   "claim_id": "onco_mec",
+   "quote": "MEC | Multi-ethnic Cohort133",
+   "section": "Supplementary Table 1"
+  },
+  {
+   "claims_file": "mishra2022gigastroke_supp_table1",
+   "claim_id": "st1-hunt",
+   "quote": "HUNT** | 4404",
+   "section": "Supplementary Table 1 (Description of the study samples contributing to GIGASTROKE)"
+  },
+  {
+   "claims_file": "mishra2022gigastroke_supp_table1",
+   "claim_id": "st1-rs2-ea",
+   "quote": "RS2_EA* | 161",
+   "section": "Supplementary Table 1 (Description of the study samples contributing to GIGASTROKE)"
+  },
+  {
+   "claims_file": "mishra2022gigastroke_supp_table1",
+   "claim_id": "st1-wghs-ea",
+   "quote": "WGHS_EA* | 712",
+   "section": "Supplementary Table 1 (Description of the study samples contributing to GIGASTROKE)"
+  },
+  {
+   "claims_file": "nievergelt2019ptsd_supp_data1",
+   "claim_id": "va_boston_ncptsd-sd1-31",
+   "quote": "31 | NCPT* | 339 | 194",
+   "section": "Supplementary Data 1 (Demographics of PGC-PTSD Freeze 2 cohorts)"
+  },
+  {
+   "claims_file": "nievergelt2019ptsd_supp_data1",
+   "claim_id": "ea_crash-sd1-42",
+   "quote": "42 | EACR | 74 | 249",
+   "section": "Supplementary Data 1 (Demographics of PGC-PTSD Freeze 2 cohorts)"
+  },
+  {
+   "claims_file": "roselli2018af_supp_table17",
+   "claim_id": "row-sign7",
+   "quote": "SiGN Group7 | Cases | 368",
+   "section": "Supplementary Table 17"
+  },
+  {
+   "claims_file": "roselli2018af_supp_table17",
+   "claim_id": "row-prevend",
+   "quote": "PREVEND | prev+inc | 3554",
+   "section": "Supplementary Table 17"
+  },
+  {
+   "claims_file": "roselli2018af_supp_table17",
+   "claim_id": "row-broad-mgh-af",
+   "quote": "MGH AF | Case | 1112",
+   "section": "Supplementary Table 17"
+  },
+  {
+   "claims_file": "schumacher2018practical_supp",
+   "claim_id": "st1-husk",
+   "quote": "theHordaland Health Study",
+   "section": "Supplementary Table 1 (case source / control source columns)"
+  },
+  {
+   "claims_file": "schunkert2011cardiogram_supp",
+   "claim_id": "row-ohgs1",
+   "quote": "OHGS1 Ottawa Heart Genomics 1542/",
+   "section": "Supplementary Table 1a"
+  },
+  {
+   "claims_file": "shah2020hermes_supp_data",
+   "claim_id": "row-egcut-omni",
+   "quote": "EGCUT Omni | Estonia | HF | 1851",
+   "section": "Supplementary Data 12"
+  },
+  {
+   "claims_file": "vanrheenen2021_supp_table1",
+   "claim_id": "row_c107",
+   "quote": "c107 | cAUS1 | IlluminaCoreExome | 1810",
+   "section": "Supplementary Table 1 (GWAS Cohorts)"
+  },
+  {
+   "claims_file": "vanrheenen2021_supp_table1",
+   "claim_id": "row_c61",
+   "quote": "c61 | phs000869_1M | Illumina1M | 1864",
+   "section": "Supplementary Table 1 (GWAS Cohorts)"
+  },
+  {
+   "claims_file": "wightman2021_supp_table1",
+   "claim_id": "row_stsa",
+   "quote": "STSA | Sweden | 320 | 750",
+   "section": "Supplementary Table 1"
+  },
+  {
+   "claims_file": "willer2013glgc_ref48_teslovich2010_supp",
+   "claim_id": "st1-sardinia-l2010",
+   "quote": "SardiNIA SardiNIA Study of Aging 4,184",
+   "section": "Teslovich 2010 Supplementary Table 1"
+  },
+  {
+   "claims_file": "willer2013glgc_supp",
+   "claim_id": "metabochip-eur-fenland",
+   "quote": "15. Fenland",
+   "section": "Supplementary Note, European Metabochip Cohorts"
+  },
+  {
+   "claims_file": "wood2014giant_ref6_langoallen2010_supp_info",
+   "claim_id": "c_ukbs",
+   "quote": "NBS-WTCCC WTCCC National",
+   "section": "Supplementary Methods Table 1, Stage 1 (GWA studies)"
+  },
+  {
+   "claims_file": "wuttke2019ckdgen_supp_table1",
+   "claim_id": "st1-ingi-vbi",
+   "quote": "INGI-VBI | INGI - Val Borbera",
+   "section": "Supplementary Table 1"
+  },
+  {
+   "claims_file": "wuttke2019ckdgen_supp_table1",
+   "claim_id": "st1-amish",
+   "quote": "Amish | Amish Studies",
+   "section": "Supplementary Table 1"
+  },
+  {
+   "claims_file": "yengo2022giant_supp_table1",
+   "claim_id": "eur_whi",
+   "quote": "WHI | Women's Health Initiative(GARNET)",
+   "section": "Supplementary Table 1 (study descriptives and sample QC)"
+  },
+  {
+   "claims_file": "yengo2022giant_supp_table1",
+   "claim_id": "c_nescog",
+   "quote": "NESCOG_EUR | NESCOG",
+   "section": "Supplementary Table 1 (study descriptives and sample QC)"
+  },
+  {
+   "claims_file": "yengo2022giant_supp_table1",
+   "claim_id": "c_health2008",
+   "quote": "Health2008 | Health2008",
+   "section": "Supplementary Table 1 (study descriptives and sample QC)"
+  },
+  {
+   "claims_file": "yengo2022giant_supp_table1",
+   "claim_id": "eur_colaus",
+   "quote": "CoLaus | CoLaus",
+   "section": "Supplementary Table 1 (study descriptives and sample QC)"
+  },
+  {
+   "claims_file": "yengo2022giant_supp_table1",
+   "claim_id": "c_colaus",
+   "quote": "CoLaus | CoLaus",
+   "section": "Supplementary Table 1 (study descriptives and sample QC)"
+  },
+  {
+   "claims_file": "yengo2022giant_supp_table1",
+   "claim_id": "c_twt2d",
+   "quote": "TWT2D | Taiwan Type 2 Diabetes Study",
+   "section": "Supplementary Table 1 (study descriptives and sample QC)"
+  },
+  {
+   "claims_file": "yengo2022giant_supp_table1",
+   "claim_id": "eur_mhib",
+   "quote": "MHIB | Montreal Heart Institute Biobank",
+   "section": "Supplementary Table 1 (study descriptives and sample QC)"
+  }
+ ]
+}

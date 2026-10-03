@@ -1,0 +1,39 @@
+{
+ "seed": 20261001,
+ "per_stratum": 10,
+ "date_limit": "\"2014/01/01\"[dp] : \"2018/12/31\"[dp]",
+ "retrieved_utc": "2026-09-30T23:51:45+00:00",
+ "excluded_pmids": 55,
+ "strata": {
+  "non_protein_mr": {
+   "query": "(\"Mendelian randomization\"[tiab] AND (\"body mass index\"[tiab] OR alcohol[tiab] OR smoking[tiab] OR education[tiab]) NOT (protein*[tiab] OR proteom*[tiab] OR pQTL*[tiab]) NOT Review[pt]) AND \"2014/01/01\"[dp] : \"2018/12/31\"[dp]",
+   "count": 176,
+   "ids_returned": 176,
+   "eligible_for_draw": 176
+  },
+  "observational_proteomics": {
+   "query": "((proteomic*[tiab] OR \"plasma proteom*\"[tiab]) AND (plasma[tiab] OR serum[tiab]) AND (cohort[tiab] OR \"case-control\"[tiab]) NOT (Mendelian[tiab] OR genetic*[tiab] OR QTL*[tiab] OR GWAS[tiab] OR variant*[tiab]) NOT Review[pt]) AND \"2014/01/01\"[dp] : \"2018/12/31\"[dp]",
+   "count": 263,
+   "ids_returned": 263,
+   "eligible_for_draw": 263
+  },
+  "mr_review": {
+   "query": "(\"Mendelian randomization\"[tiab] AND Review[pt]) AND \"2014/01/01\"[dp] : \"2018/12/31\"[dp]",
+   "count": 254,
+   "ids_returned": 254,
+   "eligible_for_draw": 251
+  },
+  "pqtl_without_mr": {
+   "query": "((pQTL*[tiab] OR \"protein quantitative trait\"[tiab]) NOT (Mendelian[tiab] OR causal*[tiab] OR SMR[tiab]) NOT Review[pt]) AND \"2014/01/01\"[dp] : \"2018/12/31\"[dp]",
+   "count": 31,
+   "ids_returned": 31,
+   "eligible_for_draw": 30
+  },
+  "non_human_pqtl": {
+   "query": "((proteom*[tiab] OR \"protein level*\"[tiab] OR pQTL*[tiab]) AND (QTL*[tiab] OR \"quantitative trait\"[tiab]) AND (mice[tiab] OR mouse[tiab] OR rat[tiab] OR cattle[tiab] OR pig*[tiab] OR maize[tiab] OR Arabidopsis[tiab] OR wheat[tiab] OR rice[tiab]) NOT humans[mh]) AND \"2014/01/01\"[dp] : \"2018/12/31\"[dp]",
+   "count": 39,
+   "ids_returned": 39,
+   "eligible_for_draw": 39
+  }
+ }
+}

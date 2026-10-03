@@ -1,0 +1,38 @@
+source:
+  citation: okada2014ra_main
+  local: sources/okada2014ra_main.txt
+  sha256: a4e5723fe5f16ef0b1b41e3804e8ebfdbaad866f60f1f837431b1e168cc8580a
+  doi: 10.1038/nature12873
+  note: Main text of Okada Y et al. 2014 Nature 506:376-381 (PMC3944098, author manuscript), Europe PMC
+    fullTextXML with tags stripped by a local script, one paragraph per line.
+claims:
+  stage1-22:
+    quotes:
+    - exact: The 19,234 RA cases and 61,565 controls enrolled in the Stage I trans-ethnic GWAS meta-analysis
+        were obtained from 22 studies from European and Asian ancestries
+      section: 'Methods: Subjects'
+  stage1-list:
+    quotes:
+    - exact: 'BRASS2, CANADA2, EIRA2, NARAC12, NARAC22, WTCCC2, Rheumatoid Arthritis Consortium International
+        for Immunochip (RACI)-UK4, RACI-US4, RACI-SE-E4, RACI-SE-U4, RACI-NL4, RACI-ES4, RACI-i2b2, ReAct,
+        Dutch (including AMC, BeSt, LUMC, and DREAM), anti-TNF response to therapy collection (ACR-REF:
+        BRAGGSS, BRAGGSS2, ERA, KI, and TEAR), CORRONA, Vanderbilt, 3 studies from the GARNET consortium
+        (BioBank Japan Project3, Kyoto University3, and IORRA3), and Korea.'
+      section: 'Methods: Subjects'
+  stage2:
+    quotes:
+    - exact: The 3,708 RA cases and 5,535 controls enrolled in the Stage II in silico replication study
+        were obtained from 2 studies from Europeans (2,780 RA cases and 4,700 controls from Genentech
+        and SLEGEN) and Asians (928 RA cases and 835 controls from China)
+      section: 'Methods: Subjects'
+  stage3:
+    quotes:
+    - exact: The 6,938 RA cases and 6,658 controls enrolled in the Stage III de novo replication study
+        were obtained from 2 studies from Europeans (995 RA cases and 1,101 controls from CANADAII2) and
+        Asians (5,943 RA cases and 5,557 controls from BioBank Japan Project, Kyoto University, and IORRA3).
+      section: 'Methods: Subjects'
+  sumstats-release:
+    quotes:
+    - exact: Summary statistics from the GWAS meta-analysis, source codes, and data sources used in this
+        study are available at http://plaza.umin.ac.jp/~yokada/datasource/software.htm
+      section: Supplementary information / data availability

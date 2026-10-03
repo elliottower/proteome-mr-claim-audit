@@ -1,0 +1,24 @@
+source:
+  citation: covidhgi2021_supp_note
+  local: sources/original/covidhgi2021_supp_note.pdf
+  sha256: 8ed242b3d1497e54b0e6c12c07dac404a63012e1cd183fa49d7553b165c7e3fb
+  url: https://static-content.springer.com/esm/art%3A10.1038%2Fs41586-021-03767-x/MediaObjects/41586_2021_3767_MOESM1_ESM.pdf
+  doi: 10.1038/s41586-021-03767-x
+  note: 'Original file behind claims/covidhgi2021_supp_note.yaml: 41586_2021_3767_MOESM1_ESM.pdf from
+    static-content.springer.com. The quotations here are the quotations of that file that resolve in this
+    file under the citations readers; a quotation absent here is pinned to the extracted text there only.'
+claims:
+  version5:
+    quotes:
+    - exact: The data released used in manuscript (version 5) includes studies that have previously published
+        their results
+      section: Supplementary Note
+  ukbb-removed-mr:
+    quotes:
+    - exact: the UK Biobank study had been removed
+      section: 'Supplementary Note: sensitivity analysis for MR'
+  genomicc-ukb-controls:
+    quotes:
+    - exact: there was sample overlap of n = 8,380 EUR and n = 745 EAS between controls from the genOMICC
+        and the UK Biobank studies
+      section: 'Supplementary Note: sensitivity analysis for overlapping samples'

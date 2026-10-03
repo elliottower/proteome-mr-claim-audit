@@ -1,0 +1,17 @@
+source:
+  citation: sobczyk2023
+  local: sources/original/sobczyk2023.xml
+  sha256: 835c92c0404520ade61dfef3799e2cfb0dce14f451c0be7b693da73973d3db20
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10533809/fullTextXML
+  doi: 10.1136/bmjopen-2023-072087
+  extractor: jats-text
+  note: 'Original file behind claims/sobczyk2023.yaml: the XML pinned in claims/sobczyk2023_original.yaml,
+    read by the citations extractor jats-text. The quotations here are those of that file that resolve
+    in this reading; a quotation absent here stays pinned where it already was.'
+  extractor_version: 1
+  derived_sha256: 55bb85ab08cb9d8e6b908d3a49441874346d8707de6d86413430ff58f6370a54
+claims:
+  comparisons:
+    quotes:
+    - exact: a series of 26 manual literature comparisons among 54 MR and 77 RCT publications
+      section: Abstract/Results

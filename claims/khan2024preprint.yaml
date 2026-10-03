@@ -1,0 +1,23 @@
+source:
+  citation: khan2024preprint
+  local: sources/khan2024_medrxiv_PMC11469465.txt
+  sha256: 416b94e0b0d5adfd03c2d0665aab576a46ed2b0216009d466c6ba600bbb95827
+  doi: 10.1101/2024.09.20.24314108
+  note: 'medRxiv preprint full text from Europe PMC fullTextXML (PMC11469465), tags stripped. Khan MA,
+    Ayub U, Naqvi SAA, et al. Collaborative large language models for automated data extraction in living
+    systematic reviews. Published version: JAMIA 2025, doi 10.1093/jamia/ocae325 (not open in Europe PMC;
+    not read).'
+claims:
+  two-reviewer:
+    quotes:
+    - exact: mimics the real-world two-reviewer process
+      section: Abstract, Objective
+  concordant-094:
+    quotes:
+    - exact: In the test set, 342 (87%) responses were concordant. The accuracy of the concordant responses
+        was 0.94.
+      section: Abstract, Results
+  discordant:
+    quotes:
+    - exact: The accuracy of the discordant responses was 0.41 for GPT-4-turbo and 0.50 for Claude-3-Opus.
+      section: Abstract, Results

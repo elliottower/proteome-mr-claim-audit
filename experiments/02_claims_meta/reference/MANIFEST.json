@@ -1,0 +1,40 @@
+{
+ "hgnc": {
+  "file": "inputs/hgnc/hgnc_complete_set_2026-09-04.tsv",
+  "url": "https://storage.googleapis.com/public-download-files/hgnc/archive/archive/monthly/tsv/hgnc_complete_set_2026-09-04.tsv",
+  "release": "2026-09-04",
+  "registered_in": "RELEASES.md",
+  "bytes": 16903161,
+  "sha256": "6f43d6ff43aa9fdfa5fb2f20a20a7cace66e6e02e2a0dcf19d9b726e2e248d20",
+  "modal_volume_path": "/02_claims_meta/inputs/hgnc/hgnc_complete_set_2026-09-04.tsv"
+ },
+ "uniprot": {
+  "file": "inputs/uniprot/uniprot_human_reviewed.tsv",
+  "url": "https://rest.uniprot.org/uniprotkb/stream?query=(organism_id:9606) AND (reviewed:true)&format=tsv&fields=accession,id,gene_primary,gene_synonym,xref_hgnc,protein_name",
+  "release": "2026_03",
+  "release_header": "2026_03",
+  "response_headers_file": "inputs/uniprot/hdr.txt",
+  "registered_in": "RELEASES.md",
+  "bytes": 3045571,
+  "sha256": "620d646a96c07ab3c6c71306518bbf28ee61c0d5e91cab26e4c5417e91e19f83",
+  "modal_volume_path": "/02_claims_meta/inputs/uniprot/uniprot_human_reviewed.tsv"
+ },
+ "mondo": {
+  "file": "inputs/mondo_v2026-09-01/mondo.obo",
+  "url": "https://github.com/monarch-initiative/mondo/releases/download/v2026-09-01/mondo.obo",
+  "release": "v2026-09-01",
+  "registered_in": "RELEASES.md",
+  "bytes": 53134854,
+  "sha256": "50c8367f9bd9978321eedf84d4e2e79cb757efbed514c81effb00b9ad2e49994",
+  "modal_volume_path": "/02_claims_meta/inputs/mondo_v2026-09-01/mondo.obo"
+ },
+ "efo": {
+  "file": "inputs/efo_v3.93.0/efo.obo",
+  "url": "https://github.com/EBISPOT/efo/releases/download/v3.93.0/efo.obo",
+  "release": "v3.93.0",
+  "registered_in": "RELEASES.md",
+  "bytes": 88382139,
+  "sha256": "66e87fc65a6254c6d69281ed3d286784ee5f8265b1e57691efddd29b20570c46",
+  "modal_volume_path": "/02_claims_meta/inputs/efo_v3.93.0/efo.obo"
+ }
+}

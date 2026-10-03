@@ -1,0 +1,32 @@
+source:
+  citation: zhou2022gbmi_main
+  local: sources/zhou2022gbmi_main.txt
+  sha256: c3e02eceafe8641c3bb5cc1b7ad0a87287d57f3cde8166cb1a5ae43170ce910f
+  doi: 10.1016/j.xgen.2022.100192
+  note: Main text of Zhou W et al. 2022 Cell Genomics 2:100192, Global Biobank Meta-analysis Initiative
+    (PMC9903716), Europe PMC fullTextXML with tags stripped by a local script, one paragraph per line.
+claims:
+  pilot-18:
+    quotes:
+    - exact: we meta-analyzed GWAS results for 14 endpoints of common interest of 18 biobanks and then
+        meta-analyzed GWAS results of 5 more biobanks for replication
+      section: Results
+  meta-types:
+    quotes:
+    - exact: Fixed-effect meta-analyses based on inverse-variance weighting were performed for all endpoints
+        with 1. all biobanks across all ancestries, 2. leave-one-biobank out (LOBO)
+      section: STAR Methods
+  public-release:
+    quotes:
+    - exact: The all-biobank meta-analysis results and plots for the 14 endpoints (including both ancestry-specific
+        and cross-ancestry meta-analyses and sex-stratified meta-analyses) are available for downloading
+        at https://www.globalbiobankmeta.org/resources
+      section: Data and code availability
+  leave-ukbb-prs:
+    quotes:
+    - exact: leave-UKBB-out multi-ancestry meta-analyses have been deposited within the PGS Catalog
+      section: Data and code availability
+  asthma-n:
+    quotes:
+    - exact: 'asthma (153,763 cases [sample prevalence: 8.54%])'
+      section: Results

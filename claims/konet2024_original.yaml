@@ -1,0 +1,25 @@
+source:
+  citation: konet2024
+  local: sources/original/konet2024.pdf
+  sha256: 3cfe177f16742efa15db0af4809550691b9d9389fd67a64c67e6e97fb5621aeb
+  doi: 10.1002/jrsm.1732
+  note: 'Original file behind claims/konet2024.yaml: publisher PDF obtained through the OpenAlex content
+    endpoint. The quotations here are the quotations of that file that resolve in this file under the
+    citations readers; a quotation absent here is pinned to the extracted text there only.'
+claims:
+  plugin:
+    quotes:
+    - exact: most of the errors were due to the plug-in
+      section: Abstract
+  text-only:
+    quotes:
+    - exact: Claude 2 and GPT-4 accurately extracted 98.7% and 100%
+      section: Abstract
+  claude-963-gpt4-688:
+    quotes:
+    - exact: (96.3%). The accuracy of GPT-4 with the plug-in was lower (68.8%)
+      section: Abstract
+  human-validate:
+    quotes:
+    - exact: For now, it remains essential for a human investigator to validate LLM extractions
+      section: Abstract

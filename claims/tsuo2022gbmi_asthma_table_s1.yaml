@@ -1,0 +1,105 @@
+source:
+  citation: tsuo2022gbmi_asthma_table_s1
+  local: sources/tsuo2022gbmi_asthma_table_s1.txt
+  sha256: 0412ccaa3623041afe16e76552c2837b93e6231b4f2966d4ec56c0b7e355ab11
+  doi: 10.1016/j.xgen.2022.100212
+  note: Table S1 (Description of 22 biobanks in GBMI) of Tsuo K et al. 2022 Cell Genomics, mmc2.xlsx from
+    the Europe PMC supplementaryFiles zip for PMC9903683, converted with pandas, one row per line.
+claims:
+  caption:
+    quotes:
+    - exact: Characteristics of 22 biobanks that contributed summary statistics for asthma meta-analysis.
+      section: Table S1
+  bbj:
+    quotes:
+    - exact: Discovery | Biobank Japan (BBJ) | Japan
+      section: Table S1
+  biome:
+    quotes:
+    - exact: '| BioMe | USA |'
+      section: Table S1
+  biovu:
+    quotes:
+    - exact: '| BioVU | USA | Vanderbilt University'
+      section: Table S1
+  ccpm:
+    quotes:
+    - exact: '| Colorado Center for Personalized Medicine (CCPM) | USA'
+      section: Table S1
+  ckb:
+    quotes:
+    - exact: '| China Kadoorie Biobank (CKB) | China'
+      section: Table S1
+  decode:
+    quotes:
+    - exact: '| deCODE Genetics (DECODE) | Iceland | deCODE Genetics | 48 | 25 | EUR | 16767 | 351253'
+      section: Table S1
+  estbb:
+    quotes:
+    - exact: '| Estonian Biobank (ESTBB) | Estonia | University of Tartu'
+      section: Table S1
+  finngen:
+    quotes:
+    - exact: '| FinnGen | Finland | Institute for Molecular Medicine Finland | 59.8 | 17.6 | EUR | 20629
+        | 135449'
+      section: Table S1
+  gnh:
+    quotes:
+    - exact: '| Genes & Health (GNH) | UK'
+      section: Table S1
+  gs:
+    quotes:
+    - exact: '| Generation Scotland (GS) | Scotland'
+      section: Table S1
+  hunt:
+    quotes:
+    - exact: '| Trøndelag Health Study (HUNT) | Norway'
+      section: Table S1
+  lifelines:
+    quotes:
+    - exact: '| Lifelines Biobank (Lifelines) | Netherlands'
+      section: Table S1
+  mgb:
+    quotes:
+    - exact: '| Mass General Brigham Biobank (MGB) | USA'
+      section: Table S1
+  mgi:
+    quotes:
+    - exact: '| Michigan Genomics Initiative (MGI) | USA'
+      section: Table S1
+  qskin:
+    quotes:
+    - exact: '| The QSkin Sun and Health Study (QSKIN) | Australia'
+      section: Table S1
+  twb:
+    quotes:
+    - exact: '| Taiwan Biobank (TWB) | Taiwan'
+      section: Table S1
+  ucla:
+    quotes:
+    - exact: '| UCLA ATLAS Community Health Initiative (UCLA) | USA'
+      section: Table S1
+  ukbb:
+    quotes:
+    - exact: '| UK Biobank (UKBB) | UK | Medical Research Council and Wellcome Trust'
+      section: Table S1
+  ukbb-eur:
+    quotes:
+    - exact: '|  |  |  |  |  | EUR | 31169 | 379656 |'
+      section: Table S1
+  canpath:
+    quotes:
+    - exact: Replication | Canadian Partnership for Tomorrow’s Health (CanPath)
+      section: Table S1
+  qbb:
+    quotes:
+    - exact: '| Qatar Biobank (QBB) | Qatar'
+      section: Table S1
+  bbofa:
+    quotes:
+    - exact: '| Biobank of the Americas (BBofA) | USA'
+      section: Table S1
+  pmbb:
+    quotes:
+    - exact: '| Penn Medicine BioBank (PMBB) | USA'
+      section: Table S1

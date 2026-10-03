@@ -1,0 +1,29 @@
+source:
+  citation: huyghe2019crc_main
+  local: sources/huyghe2019crc_main.txt
+  sha256: fd41205a0bcbee87e0f07ddb6786ea6177aaaba696c6b705db1cec08e3ee73cc
+  doi: 10.1038/s41588-018-0286-6
+  note: Main text (incl. Online Methods and Data availability) of Huyghe et al. 2019 Nat Genet, PMC6358437
+    via NCBI eutils efetch db=pmc, XML tags stripped and whitespace collapsed. PMID 30510241
+claims:
+  combined-45-studies:
+    quotes:
+    - exact: and 67,347 controls from 45 studies from GECCO, CORECT, and CCFR
+      section: Results
+  stage1-counts:
+    quotes:
+    - exact: r QC, the Stage 1 meta-analysis included 34,869 cases and 29,051 controls
+      section: Online Methods
+  stage2-counts:
+    quotes:
+    - exact: the Stage 2 meta-analysis included 23,262 cases and 38,296 controls, all of European ancestry
+      section: Online Methods
+  ukb-methods:
+    quotes:
+    - exact: ined from UK Biobank and QC and imputation are described elsewhere
+      section: Online Methods
+  data-availability:
+    quotes:
+    - exact: Genotype data for the studies included in the Stage 1 meta-analysis have been deposited at
+        dbGaP under accession number phs001078.v1.p1.
+      section: Data availability

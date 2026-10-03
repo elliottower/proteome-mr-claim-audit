@@ -1,0 +1,55 @@
+source:
+  citation: howson2017cad_main
+  local: sources/original/howson2017cad_main.xml
+  sha256: 9067998e5390335ff32880c024afd47580a8dbe45313b436a2ef0f8826d49613
+  url: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=PMC5555387
+  doi: 10.1038/ng.3874
+  extractor: jats-text
+  note: 'Original file behind claims/howson2017cad_main.yaml: the XML pinned in claims/howson2017cad_main_original.yaml,
+    read by the citations extractor jats-text. The quotations here are those of that file that resolve
+    in this reading; a quotation absent here stays pinned where it already was.'
+  extractor_version: 1
+  derived_sha256: 8db7c572d09e3f740dc2fd9fd459fca97af87d7a1d6dcba51fb97c01b8efa25a
+claims:
+  design:
+    quotes:
+    - exact: we genotyped 56,309 participants using a targeted gene array derived from earlier GWAS results
+        and meta-analysed results with 194,427 participants previously genotyped to give a total of 88,192
+        CAD cases and 162,544 controls
+      section: Abstract
+  denovo-studies:
+    quotes:
+    - exact: the European (EUR) studies comprised 16,093 CAD cases and 16,616 controls from EPIC-CVD (a
+        case-cohort study embedded in the pan-European EPIC prospective study), the Copenhagen City Heart
+        Study (CCHS), the Copenhagen Ischemic Heart Disease Study (CIHDS) and the Copenhagen General Population
+        Study (CGPS) all recruited within Copenhagen, Denmark.
+      section: Online Methods
+  denovo-sas:
+    quotes:
+    - exact: The South Asian (SAS) studies comprised up to 7,654 CAD cases and 7,014 controls from the
+        Pakistan Risk of Myocardial Infarction Study (PROMIS) a case-control study that recruited samples
+        from 9 sites in Pakistan, and the Bangladesh Risk of Acute Vascular Events (BRAVE) study based
+        in Dhaka, Bangladesh.
+      section: Online Methods
+  denovo-eas:
+    quotes:
+    - exact: The East Asian (EA) studies comprised 4,129 CAD cases and 6,369 controls recruited from 7
+        studies across Taiwan that collectively comprise the TAIwan metaboCHIp (TAICHI) Consortium.
+      section: Online Methods
+  denovo-aa:
+    quotes:
+    - exact: The African American (AA) studies comprised 2,100 CAD cases and 5,746 controls from the Atherosclerosis
+        Risk in Communities Study (ARIC), Women’s Health Initiative (WHI) and six studies from the Myocardial
+        Infarctio
+      section: Online Methods
+  overlap-removed:
+    quotes:
+    - exact: Note, samples with de novo genotyping that were also in the CARDIoGRAMplusC4D study were
+        removed prior to meta-analysis.
+      section: Figure 1 legend
+  denovo-aa-full:
+    quotes:
+    - exact: The African American (AA) studies comprised 2,100 CAD cases and 5,746 controls from the Atherosclerosis
+        Risk in Communities Study (ARIC), Women’s Health Initiative (WHI) and six studies from the Myocardial
+        Infarction Genetics Consortium (MIGen).
+      section: Online Methods

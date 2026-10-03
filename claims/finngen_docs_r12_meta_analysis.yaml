@@ -1,0 +1,48 @@
+source:
+  citation: finngen_docs_r12_meta_analysis
+  local: sources/finngen_docs_r12_meta_analysis.txt
+  sha256: c0e4c10835fd1c9617e0bfac6989d781b98e0b357c51d4eee4a86567d337bc8d
+  url: https://finngen.gitbook.io/documentation/r12/methods/meta-analysis.md
+  note: FinnGen public documentation, R12 Methods > Meta-analysis page, markdown from https://finngen.gitbook.io/documentation/r12/methods/meta-analysis.md,
+    retrieved 2026-09-30, unmodified.
+claims:
+  fg-ukbb:
+    quotes:
+    - exact: Endpoints from [pan-UKBB study](https://pan.ukbb.broadinstitute.org/) were matched to FinnGen
+        endpoints based on ICD-10 code overlap and meta-analysed together.
+      section: FinnGen-UKBB meta-analysis
+  eur-subset:
+    quotes:
+    - exact: The European subset of the pan-UKBB study is used.
+      section: FinnGen-UKBB meta-analysis
+  r12-867:
+    quotes:
+    - exact: 'Release 12 contains in total **867** meta-analyzed phenotypes:'
+      section: FinnGen-UKBB meta-analysis
+  fg-ukbb-browser:
+    quotes:
+    - exact: Pheweb browser available at <https://public-metaresults-fg-ukbb.finngen.fi/>
+      section: FinnGen-UKBB meta-analysis
+  mvp:
+    quotes:
+    - exact: Endpoints from the [VA Million Veteran Program (MVP)](https://www.science.org/doi/10.1126/science.adj1182)
+        were to matched to FinnGen based on ICD-10 code overlap and meta-analysed together.
+      section: FinnGen-MVP-UKBB meta-analysis
+  mvp-ukbb:
+    quotes:
+    - exact: For the matching FinnGen-MVP endpoint pairs we also included the corresponding UKBB endpoint
+        in the meta-analysis if available.
+      section: FinnGen-MVP-UKBB meta-analysis
+  mvp-pops:
+    quotes:
+    - exact: From MVP we included all summary statistics from the African, Admixed American, and European
+        populations, if available.
+      section: FinnGen-MVP-UKBB meta-analysis
+  mvp-330:
+    quotes:
+    - exact: Release 12 contains in total **330** meta-analysed binary phenotypes.
+      section: FinnGen-MVP-UKBB meta-analysis
+  leave-one-out:
+    quotes:
+    - exact: also leave-one-out meta-analysis statistics
+      section: Overview

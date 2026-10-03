@@ -1,0 +1,25 @@
+source:
+  citation: wood2014giant_main
+  local: sources/original/wood2014giant_main.xml
+  sha256: 554b5fe49a2ed5c7ffbc608ebad0c9e954e3aebe0fd5b193b5b66f9120c08736
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC4250049/fullTextXML
+  doi: 10.1038/ng.3097
+  extractor: jats-text
+  note: 'Original file behind claims/wood2014giant_main.yaml: the XML pinned in claims/wood2014giant_main_original.yaml,
+    read by the citations extractor jats-text. The quotations here are those of that file that resolve
+    in this reading; a quotation absent here stays pinned where it already was.'
+  extractor_version: 1
+  derived_sha256: 5dc8980e91af5274db6500be4bb1e99cd394731e00322ed592e31ec6ebbdffad
+claims:
+  n79:
+    quotes:
+    - exact: We combined height summary association statistics from 79 genome-wide association (GWA) studies
+        in a meta-analysis of 253,288 individuals using the same methods and studies as previously described6
+        and additional studies as described in Supplementary Tables 17-19.
+      section: Online Methods
+  metabochip_replication:
+    quotes:
+    - exact: Using data from 80,067 individuals genotyped on the Metabochip array from 37 independent
+        studies, we observed very strong evidence of concordance of effect sizes between the Metabochip
+        and GWAS samples
+      section: Results

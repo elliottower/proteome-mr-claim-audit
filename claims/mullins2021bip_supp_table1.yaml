@@ -1,0 +1,270 @@
+source:
+  citation: mullins2021bip_supp_table1
+  local: sources/mullins2021bip_supp_table1.txt
+  sha256: 35509fced4fe5233715fb6ec953c13f9e97ef27e3ec6a412ec39e98855c320e2
+  doi: 10.1038/s41588-021-00857-4
+  note: Supplementary Table 1 (Summary of 57 samples included in the PGC3 bipolar disorder meta-analysis)
+    of Mullins et al. 2021 Nat Genet, sheet 'Table S1' of NIHMS1687813-supplement-Supplementary_Tables.xlsx
+    from the NCBI PMC open-data bucket (PMC8192451.1), converted with pandas, one row per line, cells
+    separated by ' | ', empty cells dropped
+claims:
+  s1-bmau:
+    quotes:
+    - exact: bmau | Fullerton JM, Mitchell PB, Schofield PR, Martin NG | BOMA-Australia | Australia
+      section: Supplementary Table 1
+  s1-bmg2:
+    quotes:
+    - exact: bmg2 | Rietschel M, Nöthen MM, Schulze TG, Forstner AJ | BOMA-Germany II | Germany
+      section: Supplementary Table 1
+  s1-bmg3:
+    quotes:
+    - exact: bmg3 | Rietschel M, Nöthen MM, Schulze TG, Forstner AJ | BOMA-Germany III | Germany
+      section: Supplementary Table 1
+  s1-bmpo:
+    quotes:
+    - exact: bmpo | Hauser J, Lissowska J, Forstner AJ | BOMA-Poland | Poland
+      section: Supplementary Table 1
+  s1-bmsp:
+    quotes:
+    - exact: bmsp | Rietschel M, Nöthen MM, Mayoral F | BOMA-Spain | Spain
+      section: Supplementary Table 1
+  s1-bonn:
+    quotes:
+    - exact: bonn | Rietschel M, Nöthen MM, Cichon S | BOMA-Germany I | Germany
+      section: Supplementary Table 1
+  s1-dub1:
+    quotes:
+    - exact: dub1 | Corvin A | Trinity College Dublin | Ireland
+      section: Supplementary Table 1
+  s1-edi1:
+    quotes:
+    - exact: edi1 | Blackwood D | University of Edinburgh | Scotland
+      section: Supplementary Table 1
+  s1-fat2:
+    quotes:
+    - exact: fat2 | Sklar P, Smoller J (FaST); Kelsoe J (TGEN) | FaST, TGEN1,2 | USA
+      section: Supplementary Table 1
+  s1-fran:
+    quotes:
+    - exact: fran | Leboyer M | French | France
+      section: Supplementary Table 1
+  s1-gain:
+    quotes:
+    - exact: 'gain | Kelsoe J | BiGs: Genetic Association Information Network (GAIN) | USA'
+      section: Supplementary Table 1
+  s1-gsk1:
+    quotes:
+    - exact: gsk1 | Vincent J | BACCS | USA
+      section: Supplementary Table 1
+  s1-hal2:
+    quotes:
+    - exact: hal2 | Alda M (Nova Scotia); Perlis R, Smoller J (shared controls) | Nova Scotia, MGH i2b2
+        controls | Canada/USA
+      section: Supplementary Table 1
+  s1-icuk:
+    quotes:
+    - exact: icuk | O'Donovan M, Di Florio A, Craddock N, Jones L, Jones I | International Cohort Collection
+        for Bipolar Disorder (ICCBD) Bipolar Disorder Research Network (BDRN) | UK
+      section: Supplementary Table 1
+  s1-jst5:
+    quotes:
+    - exact: jst5 | Li Q (Janssen); Ripke S (shared controls) | Janssen, SAGE controls | USA
+      section: Supplementary Table 1
+  s1-may1:
+    quotes:
+    - exact: may1 | Biernacka J, Frye M, McElroy S | Mayo Clinic | USA
+      section: Supplementary Table 1
+  s1-mich:
+    quotes:
+    - exact: mich | Boehnke M, Myers RM, Scott LJ | Pritzker Neuropsychiatric Disorders Research Consortium
+        (U Michigan) | USA
+      section: Supplementary Table 1
+  s1-pf1e:
+    quotes:
+    - exact: pf1e | Paciga S | Pfizer | USA | 375 | 346
+      section: Supplementary Table 1
+  s1-rom3:
+    quotes:
+    - exact: rom3 | Grigoroiu-Serbanescu M, Nöthen MM | BOMA-Romania | Romania
+      section: Supplementary Table 1
+  s1-stp1:
+    quotes:
+    - exact: stp1 | Sklar P, Smoller J | Systematic Treatment Enhancement Program for Bipolar Disorder
+        (STEP1) | USA
+      section: Supplementary Table 1
+  s1-st2c:
+    quotes:
+    - exact: st2c | Sklar P, Smoller J; Stahl E (shared controls) | Systematic Treatment Enhancement Program
+        for Bipolar Disorder (STEP2), MIGEN controls | USA
+      section: Supplementary Table 1
+  s1-swa2:
+    quotes:
+    - exact: swa2 | Landén M | Swedish Bipolar Collection I (SWEBIC I) Affy | Sweden
+      section: Supplementary Table 1
+  s1-top7:
+    quotes:
+    - exact: top7 | Andreassen O | Thematically Organized Psychosis (TOP) | Norway
+      section: Supplementary Table 1
+  s1-ucl2:
+    quotes:
+    - exact: ucl2 | Ophoff R | Dutch-UCLA | Holland
+      section: Supplementary Table 1
+  s1-uclo:
+    quotes:
+    - exact: uclo | McQuillin A | University College London | UK
+      section: Supplementary Table 1
+  s1-ume4:
+    quotes:
+    - exact: ume4 | Adolfsson R | UMEA | Sweden
+      section: Supplementary Table 1
+  s1-usc2:
+    quotes:
+    - exact: usc2 | Pato C | ICCBD USC | USA
+      section: Supplementary Table 1
+  s1-wtcc:
+    quotes:
+    - exact: wtcc | O'Donovan M, Di Florio A, Craddock N, Jones L, Jones I | Wellcome Trust Case-Control
+        Consortium (WTCCC) | UK
+      section: Supplementary Table 1
+  s1-butr:
+    quotes:
+    - exact: butr* | Kirov G | Bulgarian trios* | Bulgaria
+      section: Supplementary Table 1
+  s1-uktr:
+    quotes:
+    - exact: uktr* | Kirov G | UK trios* | UK
+      section: Supplementary Table 1
+  s1-jea2:
+    quotes:
+    - exact: jea2 | Li Q (Janssen); Esko T (shared controls) | Janssen | East. Europe
+      section: Supplementary Table 1
+  s1-estbb:
+    quotes:
+    - exact: Estonian_Biobank | Milani L | Estonian Biobank | Estonia | 407 | 17209
+      section: Supplementary Table 1
+  s1-kfo4:
+    quotes:
+    - exact: kfo4 | Schulze TG | PsyCourse | Germany
+      section: Supplementary Table 1
+  s1-tgco2:
+    quotes:
+    - exact: tgco2 | Kelsoe J | BIGs/TGEN | USA
+      section: Supplementary Table 1
+  s1-bdtrs:
+    quotes:
+    - exact: bdtrs | Baune, BT; Dannlowski, U | Bipolar Depression Treatment Response Study | Germany
+      section: Supplementary Table 1
+  s1-gawli:
+    quotes:
+    - exact: gawli | Gawlik M | Germany | 268 | 502
+      section: Supplementary Table 1
+  s1-germ1:
+    quotes:
+    - exact: germ1 | Reif, A | GUF-Bipolar | Germany
+      section: Supplementary Table 1
+  s1-neuc1:
+    quotes:
+    - exact: neuc1 | Fullerton J, Mitchell PB, Schofield PR, Green MJ, Weickert CS, Weickert TW, The Australian
+        Schizophrenia Research Bank | NeuRA-psych (including controls from The Australian Schizophrenia
+        Research Bank) | Australia
+      section: Supplementary Table 1
+  s1-spsp3:
+    quotes:
+    - exact: spsp3 | Serretti, A ; Ribases M (shared controls) | Spain | 153 | 2337
+      section: Supplementary Table 1
+  s1-swed1:
+    quotes:
+    - exact: swed1 | Landén M; Hillert J, Alfredsson L (shared controls) | GEMS  and EIMS | Sweden
+      section: Supplementary Table 1
+  s1-ukwa1:
+    quotes:
+    - exact: ukwa1 | Craddock N, Di Florio A, McQuillin A, McIntosh A; Breen G (shared controls) | UK
+        | 2789 | 2372
+      section: Supplementary Table 1
+  s1-usaw4:
+    quotes:
+    - exact: usaw4 | Perlis, R; Sklar, P; Smoller, J Goes, FS; Matthews C, Waldman I (shared controls)
+        | USA | 2956 | 2930
+      section: Supplementary Table 1
+  s1-usaw5:
+    quotes:
+    - exact: usaw5 | Perlis, R; Sklar, P; Smoller, J, Kelsoe J, Nievergelt C | Canada/USA | 1107 | 1316
+      section: Supplementary Table 1
+  s1-ipsych:
+    quotes:
+    - exact: iPSYCH | Borglum A | iPSYCH | Denmark | 1758 | 5937
+      section: Supplementary Table 1
+  s1-decode:
+    quotes:
+    - exact: deCODE | Stefansson H, Stefansson K | deCODE | Iceland | 1972 | 192602
+      section: Supplementary Table 1
+  s1-hunt:
+    quotes:
+    - exact: HUNT | Zwart JA | Nord-Trøndelag Health Study | Norway | 905 | 41914
+      section: Supplementary Table 1
+  s1-ukb:
+    quotes:
+    - exact: UK_Biobank | Breen G | UK Biobank | UK | 1454 | 58113
+      section: Supplementary Table 1
+  s1-bmrus:
+    quotes:
+    - exact: bmrus | Rietschel M, Nöthen MM, Forstner AJ, Streit F, Babadjanova G | BOMA-Russia | Russia
+      section: Supplementary Table 1
+  s1-greek:
+    quotes:
+    - exact: greek | Ferentinos P, Dikeos D, Patrinos G | ATLADIS (AThens Longitudinal Affective DIsorders
+        Study) | Greece
+      section: Supplementary Table 1
+  s1-graza:
+    quotes:
+    - exact: graza | Reininghaus E, Bengesser S | BIPGEN | Austria
+      section: Supplementary Table 1
+  s1-caption:
+    quotes:
+    - exact: 'Supplementary Table 1: Summary of 57 samples included in the PGC3 bipolar disorder meta-analysis'
+      section: Supplementary Table 1 caption
+  s1-total:
+    quotes:
+    - exact: TOTAL | 41917 | 371549
+      section: Supplementary Table 1 total row
+  s1-swei:
+    quotes:
+    - exact: swei | Landén M | Swedish Bipolar Collection I (SWEBIC I) Illumina | Sweden
+      section: Supplementary Table 1
+  s1-top8:
+    quotes:
+    - exact: top8 | Andreassen O | Thematically Organized Psychosis (TOP), addtional samples on new platform
+        | Norway | 148
+      section: Supplementary Table 1
+  s1-norgs:
+    quotes:
+    - exact: norgs | Andreassen O | Thematically Organized Psychosis (TOP), addtional samples on new platform
+        | Norway | 101
+      section: Supplementary Table 1
+  s1-noroe:
+    quotes:
+    - exact: noroe | Andreassen O | Thematically Organized Psychosis (TOP), addtional samples on new platform
+        | Norway | 313
+      section: Supplementary Table 1
+  s1-dutch:
+    quotes:
+    - exact: dutch | Ophoff R; Posthuma D, Lochner C, Franke B (shared controls) | Holland | 831 | 953
+      section: Supplementary Table 1
+  s1-gpcw1:
+    quotes:
+    - exact: gpcw1 | Pato, C | Genomic Psychiatry Consortium (GPC) | USA
+      section: Supplementary Table 1
+  s1-bmrom:
+    quotes:
+    - exact: bmrom | Grigoroiu-Serbanescu M, Nöthen MM | BOMA-Romania II | Romania
+      section: Supplementary Table 1
+  s1-wtcc-controls:
+    quotes:
+    - exact: 'Controls: South East multicentre research ethics committee (1958 birth cohort), 05/Q0106/74
+        (UK Blood Services Controls)'
+      section: Supplementary Table 1 (wtcc ethics column)
+  st1-footnote-trios:
+    quotes:
+    - exact: '* Trio datasets. Neff half = half of the effective sample size 2*Ncases*Ncontrols/(Ncases
+        + Ncontrols)'
+      section: Supplementary Table 1 footnote

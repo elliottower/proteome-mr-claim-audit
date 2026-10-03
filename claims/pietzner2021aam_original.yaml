@@ -1,0 +1,22 @@
+source:
+  citation: pietzner2021aam
+  local: sources/original/pietzner2021aam.pdf
+  sha256: 7702faa4ec4f8c58712f084ff3d22e9868547594f8ebd2dd231f552097e828b3
+  url: https://push-zb.helmholtz-munich.de/deliver.php?id=34412
+  doi: 10.1126/science.abj1541
+  note: 'Original file behind claims/pietzner2021aam.yaml: accepted manuscript PDF from the Helmholtz
+    Munich repository. The quotations here are the quotations of that file that resolve in this file under
+    the citations readers; a quotation absent here is pinned to the extracted text there only.'
+claims:
+  olink-subset-485:
+    quotes:
+    - exact: Extension Assays provided by Olink in a subset of 485 individuals of the Fenland study
+      section: 'Methods: Replication using the Olink PEA technology'
+  olink-797:
+    quotes:
+    - exact: We identified 797 pQTLs that a)
+      section: 'Methods: Replication using the Olink PEA technology'
+  olink-1069:
+    quotes:
+    - exact: we used in-house GWAS results for 1,069 proteins measured using Proximity
+      section: 'Methods: Replication using the Olink PEA technology'

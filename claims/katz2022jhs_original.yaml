@@ -1,0 +1,17 @@
+source:
+  citation: katz2022jhs
+  local: sources/original/katz2022jhs.xml
+  sha256: 1bc5095aa229a76f553a728e65f0f79cbe0f9e9c2e1894acd42c425c391804e1
+  url: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=PMC9158509
+  doi: 10.1161/CIRCULATIONAHA.121.055117
+  note: 'Original file behind claims/katz2022jhs.yaml: NCBI E-utilities efetch (db=pmc) XML of PMC9158509,
+    read as plain text with its markup. The quotations here are the quotations of that file that resolve
+    in this file under the citations readers; a quotation absent here is pinned to the extracted text
+    there only.'
+claims:
+  measures-1301:
+    quotes:
+    - exact: We performed whole genome association analysis between 28.1 million variants with an allele
+        count in JHS of at least 5 and 1,301 plasma protein measures in 1852 self-identified Black individuals
+        (61% women).
+      section: 'Results: Whole genome association analysis of proteomic profiling'

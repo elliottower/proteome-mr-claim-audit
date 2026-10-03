@@ -1,0 +1,101 @@
+source:
+  citation: nalls2019_supp
+  local: sources/original/nalls2019_supp.pdf
+  sha256: e9c27c3038b267daf728126092e675e7a27d91fd0f1cd0d96d2a58ea6afd1f26
+  url: https://ars.els-cdn.com/content/image/1-s2.0-S1474442219303205-mmc1.pdf
+  doi: 10.1016/S1474-4422(19)30320-5
+  note: 'Original file behind claims/nalls2019_supp.yaml: supplementary appendix mmc1.pdf from ars.els-cdn.com.
+    The quotations here are the quotations of that file that resolve in this file under the citations
+    readers; a quotation absent here is pinned to the extracted text there only.'
+claims:
+  three_sources:
+    quotes:
+    - exact: Three primary sources of data were used for discovery analyses, these include three previously
+        published studies, 13 new datasets, and proxy-case data from the UK BioBank (UKB).
+      section: Supplementary appendix, Methods supplement
+  previous_studies:
+    quotes:
+    - exact: Previous studies include summary statistics from the meta-analyses of GWAS published in Nalls
+        et al. 2014, GWAS summary statistics from the 23andMe Web-Based Study of Parkinson's Disease (PDWBS)
+        cohort described in Chang et al. 2017, and the publicly available NeuroX dataset
+      section: Supplementary appendix, Methods supplement
+  seventeen_sets:
+    quotes:
+    - exact: variants seen in at least five of the 17 sets of summary statistics
+      section: Supplementary appendix, Methods supplement
+  table_s1_caption:
+    quotes:
+    - exact: 'Table S1: Descriptive statistics and quality control summaries for meta-analyzed genome-wide
+        association studies.'
+      section: Supplementary appendix, Table S1 caption
+  post_chang_23andme:
+    quotes:
+    - exact: In the most recent dataset from 23andMe (post-Chang et al.) cases were ascertained via the
+        criteria of self-report of diagnosis
+      section: Supplementary appendix, Methods supplement
+  sgpd:
+    quotes:
+    - exact: the System Genomics of Parkinson's Disease (SGPD) which utilized mixed modeling
+      section: Supplementary appendix, Methods supplement
+  ukb_proxy:
+    quotes:
+    - exact: UKB proxy-cases were defined as the report of a first degree relative with PD
+      section: Supplementary appendix, Methods supplement
+  myers_faroud:
+    quotes:
+    - exact: plus the NeuroX-dbGaP and Myers-Faroud datasets from dbGaP
+      section: Supplementary appendix, Methods supplement
+  nia_baylor_umd_pd:
+    quotes:
+    - exact: Baylor College of Medicine / University of Maryland
+      section: Supplementary appendix, Methods supplement (studies screened for relatedness at the NIA
+        site)
+  nia_mcgill_pd:
+    quotes:
+    - exact: McGill Parkinson's
+      section: Supplementary appendix, Methods supplement (studies screened for relatedness at the NIA
+        site)
+  nia_pdbp:
+    quotes:
+    - exact: Parkinson's Disease Biomarker's Program (PDBP)
+      section: Supplementary appendix, Methods supplement (studies screened for relatedness at the NIA
+        site)
+  nia_spanish_pd_ipdgc:
+    quotes:
+    - exact: Spanish Parkinson's (from IPDGC)
+      section: Supplementary appendix, Methods supplement (studies screened for relatedness at the NIA
+        site)
+  nia_tubingen_pd:
+    quotes:
+    - exact: Tubingen Parkinson's Disease cohort (CouragePD)
+      section: Supplementary appendix, Methods supplement (studies screened for relatedness at the NIA
+        site)
+  nia_vance_pd:
+    quotes:
+    - exact: Vance (dbGap phs000394)
+      section: Supplementary appendix, Methods supplement (studies screened for relatedness at the NIA
+        site)
+  nia_uk_pdmed:
+    quotes:
+    - exact: UK PDMED (CouragePD)
+      section: Supplementary appendix, Methods supplement (studies screened for relatedness at the NIA
+        site)
+  nia_neurox_dbgap:
+    quotes:
+    - exact: NeuroX - dbGaP (phs000918.v1.p1)
+      section: Supplementary appendix, Methods supplement (studies screened for relatedness at the NIA
+        site)
+  nia_ipdgc_nalls2014:
+    quotes:
+    - exact: IPDGC (Nalls et al. 2014 discovery phase)
+      section: Supplementary appendix, Methods supplement
+  nia_finnish_pd:
+    quotes:
+    - exact: Finnish Parkinson's, Harvard Biomarker Study (HBS)
+      section: Supplementary appendix, Methods supplement (studies screened for relatedness at the NIA
+        site)
+  nia_oslo_pd:
+    quotes:
+    - exact: Oslo Parkinson's Disease Study, Parkinson's Disease Biomarker's Program (PDBP)
+      section: Supplementary appendix, Methods supplement (studies screened for relatedness at the NIA
+        site)

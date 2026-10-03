@@ -1,0 +1,40 @@
+source:
+  citation: kunkle2019_supp_note
+  local: sources/original/kunkle2019_supp_note.pdf
+  sha256: 8337ffc9f17b1e1b2a59a6fedafc6298647f87e56e99109ff3051c4a7e5ea2a8
+  url: https://static-content.springer.com/esm/art%3A10.1038%2Fs41588-019-0358-2/MediaObjects/41588_2019_358_MOESM1_ESM.pdf
+  doi: 10.1038/s41588-019-0358-2
+  note: 'Original file behind claims/kunkle2019_supp_note.yaml: 41588_2019_358_MOESM1_ESM.pdf from static-content.springer.com.
+    The quotations here are the quotations of that file that resolve in this file under the citations
+    readers; a quotation absent here is pinned to the extracted text there only.'
+claims:
+  charge_aric_excluded:
+    quotes:
+    - exact: Of the six studies, one, the Atherosclerosis Risk in Communities (ARIC) study, was excluded
+        from these analyses
+      section: Supplementary Note, CHARGE
+  eadi_controls_3c:
+    quotes:
+    - exact: Controls were selected from the 3C Study88
+      section: Supplementary Note, EADI
+  eadi_3c_cases:
+    quotes:
+    - exact: These Alzheimer’s disease cases were included as cases in the EADI discovery dataset. We
+        retained the other individuals as controls (n=6,631).
+      section: Supplementary Note, EADI
+  eadi_cases:
+    quotes:
+    - exact: All the 2,240 Alzheimer’s disease cases were ascertained by neurologists from Bordeaux, Dijon,
+        Lille, Montpellier, Paris, Rouen
+      section: Supplementary Note, EADI
+  gerad_population_controls:
+    quotes:
+    - exact: 6129 population controls were drawn from large existing cohorts with available GWAS data,
+        including the 1958 British Birth Cohort (1958BC) (http://www.b58cgene.sgul.ac.uk), the KORA F4
+        Study and the Heinz Nixdorf Recall Study
+      section: Supplementary Note, GERAD/PERADES
+  mtc_sources:
+    quotes:
+    - exact: The MTC sample included 256 cases and 189 controls from the University of Miami, the Texas
+        Alzheimer’s Research Care Consortium, and Case Western Reserve University
+      section: Supplementary Note, ADGC

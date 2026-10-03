@@ -1,0 +1,26 @@
+{
+ "round": 1,
+ "seeds_file": "outputs/screening_smoke/smoke_pre2019_20261002_no_abstract_rule/decisions/sol_eligibility_smoke_pre2019_20261002_no_abstract_rule_2811496ef424.decisions.eligible_records.jsonl",
+ "rerun_of": "outputs/screening_smoke/smoke_pre2019_20261002/chase_round_1",
+ "seeds": 1,
+ "seeds_without_doi_or_pmid": 0,
+ "seed_works_found": 1,
+ "published_from": null,
+ "backward_works_referenced": 72,
+ "backward_works_retrieved": 70,
+ "forward_works": 28,
+ "works_already_in_screening_sets": 0,
+ "new_works": 98,
+ "new_works_with_pmid": 80,
+ "new_screening_records": 97,
+ "new_screening_records_no_abstract": {
+  "records": 3,
+  "empty": 2,
+  "stub_below_floor": 1,
+  "by_document_class": {
+   "journal": 3
+  },
+  "floor_characters": 200
+ },
+ "smoke_records_first_public_after_2018_left_out": 1
+}

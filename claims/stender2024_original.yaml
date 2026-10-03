@@ -1,0 +1,23 @@
+source:
+  citation: stender2024
+  local: sources/original/stender2024.xml
+  sha256: 753cc0946033a85a98f76163c32425a2d860fb79a8c4bcd04c91c49fcb3f42f5
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11380209/fullTextXML
+  doi: 10.1186/s12944-024-02284-w
+  note: 'Original file behind claims/stender2024.yaml: Europe PMC fullTextXML of PMC11380209, read as
+    plain text with its markup. The quotations here are the quotations of that file that resolve in this
+    file under the citations readers; a quotation absent here is pinned to the extracted text there only.'
+claims:
+  minimal-value:
+    quotes:
+    - exact: These studies add minimal – if any – value and overwhelm reviewers and journals.
+      section: Abstract
+  off-rails:
+    quotes:
+    - exact: Sadly, MR has run off the rails.
+      section: Final paragraph
+  fig1-search:
+    quotes:
+    - exact: Number of papers identified using the search term ‘Mendelian randomization’ in PubMed, stratified
+        by year.
+      section: Fig. 1 caption

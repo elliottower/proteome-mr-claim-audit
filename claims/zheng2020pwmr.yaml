@@ -1,0 +1,26 @@
+source:
+  citation: zheng2020pwmr
+  local: sources/zheng2020pwmr.txt
+  sha256: 879a5dd68ab28981dc3f1b5c49d92a0498fa2f80c7c5ed0b90fb0f4c7550f8ae
+  doi: 10.1038/s41588-020-0682-6
+  note: Full text from Europe PMC fullTextXML (PMC7610464), tags stripped, one title or paragraph per
+    line. Zheng J et al. 2020 Nat Genet (Phenome-wide Mendelian randomization mapping the influence of
+    the plasma proteome on complex diseases), author manuscript. PMID 32895551.
+claims:
+  five-gwas:
+    quotes:
+    - exact: pQTLs from five GWAS9,13-16 were used for the instrument selection (Fig. 1).
+      section: 'Online Methods: Instrument selection'
+  curated-2656:
+    quotes:
+    - exact: Briefly, we curated 3,606 pQTLs associated with 2,656 proteins from five GWAS9,13,14,15,16.
+      section: 'Results: Characterizing genetic instruments for proteins'
+  instruments-1699:
+    quotes:
+    - exact: we retained 2,113 pQTLs for 1,699 proteins as instruments for the MR analysis (Supplementary
+        Table 1)
+      section: 'Results: Characterizing genetic instruments for proteins'
+  valid-1002:
+    quotes:
+    - exact: Of 1,002 proteins with a valid instrument, 765 had only a single cis or trans instrument
+      section: 'Results: Characterizing genetic instruments for proteins'

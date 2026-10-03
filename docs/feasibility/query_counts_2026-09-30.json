@@ -1,0 +1,24 @@
+{
+  "date": "2026-09-30",
+  "window": "2020-01-01..2025-12-31",
+  "note": "counts only; no record content read",
+  "pubmed": {
+    "Q1": {
+      "query": "(\"Mendelian Randomization Analysis\"[Mesh] OR \"Mendelian randomization\"[tiab] OR \"Mendelian randomisation\"[tiab]) AND (proteome-wide[tiab] OR \"proteome wide\"[tiab] OR protein-wide[tiab] OR proteomic*[tiab] OR \"plasma proteom*\"[tiab] OR \"circulating proteom*\"[tiab] OR \"plasma protein*\"[tiab] OR \"serum protein*\"[tiab] OR \"circulating protein*\"[tiab] OR pQTL[tiab] OR pQTLs[tiab] OR \"protein quantitative trait*\"[tiab] OR \"protein QTL*\"[tiab] OR \"genetically proxied protein*\"[tiab] OR \"genetically predicted protein*\"[tiab] OR \"genetically predicted plasma protein*\"[tiab]) AND (\"2020/01/01\"[dp] : \"2025/12/31\"[dp])",
+      "count": 1309
+    },
+    "Q2": {
+      "query": "(\"Mendelian Randomization Analysis\"[Mesh] OR \"Mendelian randomization\"[tiab] OR \"Mendelian randomisation\"[tiab]) AND (SomaScan[tiab] OR SomaLogic[tiab] OR Olink[tiab] OR Fenland[tiab] OR \"UKB-PPP\"[tiab] OR \"UK Biobank Pharma Proteomics\"[tiab] OR deCODE[tiab] OR SCALLOP[tiab] OR \"INTERVAL study\"[tiab] OR ARIC[tiab]) AND (\"2020/01/01\"[dp] : \"2025/12/31\"[dp])",
+      "count": 332
+    },
+    "Q3": {
+      "query": "(\"drug target*\"[tiab] OR \"therapeutic target*\"[tiab] OR druggable[tiab] OR repurpos*[tiab] OR \"target prioriti*\"[tiab] OR \"therapeutic prioriti*\"[tiab] OR \"drug-target MR\"[tiab]) AND (pQTL[tiab] OR pQTLs[tiab] OR \"protein quantitative trait*\"[tiab] OR \"protein QTL*\"[tiab] OR \"plasma protein*\"[tiab] OR proteom*[tiab]) AND (\"2020/01/01\"[dp] : \"2025/12/31\"[dp])",
+      "count": 6590
+    },
+    "Q4": {
+      "query": "(\"summary-data-based Mendelian randomization\"[tiab] OR SMR[tiab] OR colocali*[tiab] OR \"cis-MR\"[tiab] OR \"cis Mendelian randomization\"[tiab]) AND (pQTL[tiab] OR pQTLs[tiab] OR \"protein quantitative trait*\"[tiab] OR \"protein QTL*\"[tiab] OR \"plasma protein*\"[tiab] OR proteom*[tiab]) AND (\"2020/01/01\"[dp] : \"2025/12/31\"[dp])",
+      "count": 1268
+    },
+    "union_unique_pmids": 7798
+  }
+}

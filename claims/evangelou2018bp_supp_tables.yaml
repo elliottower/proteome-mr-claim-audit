@@ -1,0 +1,343 @@
+source:
+  citation: evangelou2018bp_supp_tables
+  local: sources/evangelou2018bp_supp_tables.txt
+  sha256: f9ca474d05e3126c21b042f1330ff9a2fa7f5caafaeef71c24d6bbb1616d442c
+  doi: 10.1038/s41588-018-0205-x
+  note: Supplementary Tables 1a, 1b, 1c and 20a (UK Biobank sample, ICBP study list, replication cohorts,
+    ICBP study design) of Evangelou et al. 2018 Nat Genet (Genetic analysis of over 1 million people identifies
+    535 new loci associated with blood pressure traits), ESM xlsx 41588_2018_205_MOESM3_ESM.xlsx from
+    static-content.springer.com, converted with openpyxl (cached cell values), one table row per line,
+    cells separated by ' | '
+claims:
+  st1b-caption:
+    quotes:
+    - exact: 'Supplementary Table 1b: Summary of blood pressure phenotypes and covariates for all studies
+        contributing to ICBP meta-analysis.'
+      section: Supplementary Table 1b
+  st20a-caption:
+    quotes:
+    - exact: 'Supplementary Table 20a: Study design summary information for each of the studies contributing
+        to ICBP meta-analysis.'
+      section: Supplementary Table 20a
+  st20a-migen:
+    quotes:
+    - exact: MIGen | Myocardial Infarction Genetics Consortium | case-control | only controls were included
+      section: Supplementary Table 20a
+  st20a-epic:
+    quotes:
+    - exact: EPIC | European Prospective Investigation in Cancer and Nutrition | Population-based | Subcohort
+        samples are representative of the EPIC-Norfolk study
+      section: Supplementary Table 20a
+  st1b-ages:
+    quotes:
+    - exact: AGES | 3215
+      section: Supplementary Table 1b
+  st1b-aric:
+    quotes:
+    - exact: ARIC | 9402
+      section: Supplementary Table 1b
+  st1b-asps:
+    quotes:
+    - exact: ASPS | 828
+      section: Supplementary Table 1b
+  st1b-b58c:
+    quotes:
+    - exact: B58C | 6458
+      section: Supplementary Table 1b
+  st1b-bhs:
+    quotes:
+    - exact: BHS | 4492
+      section: Supplementary Table 1b
+  st1b-chs:
+    quotes:
+    - exact: CHS | 3254
+      section: Supplementary Table 1b
+  st1b-colaus:
+    quotes:
+    - exact: COLAUS | 5404
+      section: Supplementary Table 1b
+  st1b-coro-all:
+    quotes:
+    - exact: CORO ALL | 1881
+      section: Supplementary Table 1b
+  st1b-croatia-korcula:
+    quotes:
+    - exact: CROATIA-Korcula | 866
+      section: Supplementary Table 1b
+  st1b-croatia-split:
+    quotes:
+    - exact: CROATIA-Split | 494
+      section: Supplementary Table 1b
+  st1b-croatia-vis:
+    quotes:
+    - exact: CROATIA-Vis | 945
+      section: Supplementary Table 1b
+  st1b-egcut:
+    quotes:
+    - exact: EGCUT | 7246
+      section: Supplementary Table 1b
+  st1b-egcut2:
+    quotes:
+    - exact: EGCUT2 | 2654
+      section: Supplementary Table 1b
+  st1b-epic:
+    quotes:
+    - exact: EPIC | 2100
+      section: Supplementary Table 1b
+  st1b-erf:
+    quotes:
+    - exact: ERF | 2616
+      section: Supplementary Table 1b
+  st1b-fenland:
+    quotes:
+    - exact: Fenland | 1357
+      section: Supplementary Table 1b
+  st1b-fhs:
+    quotes:
+    - exact: FHS | 8096
+      section: Supplementary Table 1b
+  st1b-finnrisk-case-all:
+    quotes:
+    - exact: FINNRISK CASE ALL | 839
+      section: Supplementary Table 1b
+  st1b-finrisk-ctrl-all:
+    quotes:
+    - exact: FINRISK CTRL ALL | 861
+      section: Supplementary Table 1b
+  st1b-fusion:
+    quotes:
+    - exact: FUSION | 1045
+      section: Supplementary Table 1b
+  st1b-graphic:
+    quotes:
+    - exact: GRAPHIC | 1010
+      section: Supplementary Table 1b
+  st1b-h2000-all:
+    quotes:
+    - exact: H2000 ALL | 1078
+      section: Supplementary Table 1b
+  st1b-health-abc:
+    quotes:
+    - exact: Health ABC | 1661
+      section: Supplementary Table 1b
+  st1b-hto:
+    quotes:
+    - exact: HTO | 1000
+      section: Supplementary Table 1b
+  st1b-ingi-vb:
+    quotes:
+    - exact: INGI_VB | 1775 (related indivs)
+      section: Supplementary Table 1b
+  st1b-ingi-carl:
+    quotes:
+    - exact: INGI-CARL | 456
+      section: Supplementary Table 1b
+  st1b-cilento-study:
+    quotes:
+    - exact: Cilento study | 999
+      section: Supplementary Table 1b
+  st1b-ingi-fvg:
+    quotes:
+    - exact: INGI-FVG | 746
+      section: Supplementary Table 1b
+  st1b-ipm:
+    quotes:
+    - exact: IPM | 300
+      section: Supplementary Table 1b
+  st1b-koras3:
+    quotes:
+    - exact: KORAS3 | 1590
+      section: Supplementary Table 1b
+  st1b-koras4:
+    quotes:
+    - exact: KORAS4 | 3748
+      section: Supplementary Table 1b
+  st1b-lbc1921:
+    quotes:
+    - exact: LBC1921 | 376
+      section: Supplementary Table 1b
+  st1b-lbc1936:
+    quotes:
+    - exact: LBC1936 | 800
+      section: Supplementary Table 1b
+  st1b-lolipop-ew610:
+    quotes:
+    - exact: LOLIPOP_EW610 | 927
+      section: Supplementary Table 1b
+  st1b-mesa:
+    quotes:
+    - exact: MESA | 2841
+      section: Supplementary Table 1b
+  st1b-micros:
+    quotes:
+    - exact: MICROS | 1218
+      section: Supplementary Table 1b
+  st1b-migen:
+    quotes:
+    - exact: MIGen | 1178
+      section: Supplementary Table 1b
+  st1b-nesda:
+    quotes:
+    - exact: NESDA | 2336
+      section: Supplementary Table 1b
+  st1b-nsphs:
+    quotes:
+    - exact: NSPHS | 1005
+      section: Supplementary Table 1b
+  st1b-ntr:
+    quotes:
+    - exact: NTR | 1490
+      section: Supplementary Table 1b
+  st1b-orcades:
+    quotes:
+    - exact: ORCADES | 1926
+      section: Supplementary Table 1b
+  st1b-prosper:
+    quotes:
+    - exact: PROSPER | 4535
+      section: Supplementary Table 1b
+  st1b-pivus:
+    quotes:
+    - exact: PIVUS | 945
+      section: Supplementary Table 1b
+  st1b-procardis:
+    quotes:
+    - exact: PROCARDIS | 1665
+      section: Supplementary Table 1b
+  st1b-rsi:
+    quotes:
+    - exact: RSI | 5644
+      section: Supplementary Table 1b
+  st1b-rsii:
+    quotes:
+    - exact: RSII | 2152
+      section: Supplementary Table 1b
+  st1b-rsiii:
+    quotes:
+    - exact: RSIII | 3018
+      section: Supplementary Table 1b
+  st1b-ship:
+    quotes:
+    - exact: SHIP | 4068
+      section: Supplementary Table 1b
+  st1b-str:
+    quotes:
+    - exact: STR | 10114
+      section: Supplementary Table 1b
+  st1b-trails:
+    quotes:
+    - exact: TRAILS | 1280
+      section: Supplementary Table 1b
+  st1b-trails-cc:
+    quotes:
+    - exact: TRAILS-CC | 282
+      section: Supplementary Table 1b
+  st1b-ulsam:
+    quotes:
+    - exact: ULSAM | 1114
+      section: Supplementary Table 1b
+  st1b-wghs:
+    quotes:
+    - exact: WGHS | 23049 (SBP), 23040 (DBP)
+      section: Supplementary Table 1b
+  st1b-yfs:
+    quotes:
+    - exact: YFS | 1987
+      section: Supplementary Table 1b
+  st1b-ascot-sc:
+    quotes:
+    - exact: ASCOT-SC | 3803
+      section: Supplementary Table 1b
+  st1b-ascot-uk:
+    quotes:
+    - exact: ASCOT-UK | 2462
+      section: Supplementary Table 1b
+  st1b-bright:
+    quotes:
+    - exact: BRIGHT | 1791
+      section: Supplementary Table 1b
+  st1b-3c-dijon:
+    quotes:
+    - exact: 3C-DIJON | 4061
+      section: Supplementary Table 1b
+  st1b-epic-cvd:
+    quotes:
+    - exact: EPIC-CVD | 8375
+      section: Supplementary Table 1b
+  st1b-gwas-fenland:
+    quotes:
+    - exact: GWAS-Fenland | 1358
+      section: Supplementary Table 1b
+  st1b-omics-fenland:
+    quotes:
+    - exact: OMICS-Fenland | 8526
+      section: Supplementary Table 1b
+  st1b-epic-interact:
+    quotes:
+    - exact: EPIC-InterAct | 6675
+      section: Supplementary Table 1b
+  st1b-epic-norfolk:
+    quotes:
+    - exact: EPIC-Norfolk | 17850
+      section: Supplementary Table 1b
+  st1b-gapp:
+    quotes:
+    - exact: GAPP | 1685
+      section: Supplementary Table 1b
+  st1b-godarts:
+    quotes:
+    - exact: GoDARTS | 7413
+      section: Supplementary Table 1b
+  st1b-gs-sfhs:
+    quotes:
+    - exact: GS:SFHS | 20032
+      section: Supplementary Table 1b
+  st1b-hcs:
+    quotes:
+    - exact: HCS | 2122
+      section: Supplementary Table 1b
+  st1b-jupiter:
+    quotes:
+    - exact: JUPITER | 8719
+      section: Supplementary Table 1b
+  st1b-lifelines:
+    quotes:
+    - exact: Lifelines | 13292
+      section: Supplementary Table 1b
+  st1b-mdc:
+    quotes:
+    - exact: MDC | 5271
+      section: Supplementary Table 1b
+  st1b-metsim:
+    quotes:
+    - exact: METSIM | 8262
+      section: Supplementary Table 1b
+  st1b-neo:
+    quotes:
+    - exact: NEO | 5731
+      section: Supplementary Table 1b
+  st1b-prevend:
+    quotes:
+    - exact: PREVEND | 3619
+      section: Supplementary Table 1b
+  st1b-sardinia:
+    quotes:
+    - exact: SardiNIA | 6121
+      section: Supplementary Table 1b
+  st1b-twinsuk:
+    quotes:
+    - exact: TWINSUK | 4973
+      section: Supplementary Table 1b
+  st1b-ukhls:
+    quotes:
+    - exact: UKHLS | 7462
+      section: Supplementary Table 1b
+  st1a-caption:
+    quotes:
+    - exact: 'Supplementary Table 1a: Descriptive summary statistics of included participants and total
+        sample size, UK Biobank and UK BiLEVE. Table (i) shows mean (SD) for age and body mass index'
+      section: Supplementary Table 1a
+  st1a-ukb-bileve:
+    quotes:
+    - exact: (i) | Overall | UK Biobank | UK BiLEVE
+      section: Supplementary Table 1a

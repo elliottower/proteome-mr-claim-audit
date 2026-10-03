@@ -1,0 +1,51 @@
+source:
+  citation: zhang2020bcac_main
+  local: sources/original/zhang2020bcac_main.xml
+  sha256: 947e7a1414ee881a45357715f7792bf448c07b39efad80d5707aecb86f922a27
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7808397/fullTextXML
+  doi: 10.1038/s41588-020-0609-2
+  note: 'Original file behind claims/zhang2020bcac_main.yaml: Europe PMC fullTextXML of PMC7808397, read
+    as plain text with its markup. The quotations here are the quotations of that file that resolve in
+    this file under the citations readers; a quotation absent here is pinned to the extracted text there
+    only.'
+claims:
+  other-gwas-11:
+    quotes:
+    - exact: In analyses of overall breast cancer, we also included summary level data from 11 other breast
+        cancer GWAS (14,910 cases and 17,588 controls) without subtype information.
+      section: Main text, first Results paragraph
+  lmbc-icogs-excluded:
+    quotes:
+    - exact: One study (LMBC) contributing to the iCOGS dataset was excluded due to inflation of the test
+        statistics
+      section: 'Online Methods: Study populations'
+  norway-excluded:
+    quotes:
+    - exact: We also excluded OncoArray data from Norway (the Norwegian Breast Cancer Study) because there
+        were no controls available from Norway with OncoArray data.
+      section: 'Online Methods: Study populations'
+  overall-total:
+    quotes:
+    - exact: The total sample size for this analysis, including iCOGS, OncoArray and other GWAS data,
+        comprised 133,384 cases and 113,789 controls.
+      section: 'Online Methods: Study populations'
+  subtype-81:
+    quotes:
+    - exact: In the GWAS analyses accounting for underlying heterogeneity according to ER, PR, HER2 and
+        grade, we included genotyping data from 81 BCAC studies.
+      section: 'Online Methods: Study populations'
+  subtype-no-gwas:
+    quotes:
+    - exact: We did not include the summary results from the 14,910 cases and 17,588 controls from the
+        11 other GWAS in subtype analyses because these studies did not provide data on tumor characteristics.
+      section: 'Online Methods: Study populations'
+  subtype-total:
+    quotes:
+    - exact: In total, the final sample for the two-stage polytomous logistic regression comprised 106,278
+        invasive cases and 91,477 controls.
+      section: 'Online Methods: Study populations'
+  gwas-overlap-approx:
+    quotes:
+    - exact: Since individual level genotyping data were not available for some previous GWAS, we conservatively
+        approximated the potential overlap between the GWAS and iCOGS and OncoArray datasets
+      section: 'Online Methods: Statistical analysis'

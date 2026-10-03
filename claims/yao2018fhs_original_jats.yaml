@@ -1,0 +1,28 @@
+source:
+  citation: yao2018fhs
+  local: sources/original/yao2018fhs.xml
+  sha256: 85bfa624b36d353104fb0e213c16f8d1ed0ccd1f92563a8a7c87f6f2bf3fe05c
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6093935/fullTextXML
+  doi: 10.1038/s41467-018-05512-x
+  extractor: jats-text
+  note: 'Original file behind claims/yao2018fhs.yaml: the XML pinned in claims/yao2018fhs_original.yaml,
+    read by the citations extractor jats-text. The quotations here are those of that file that resolve
+    in this reading; a quotation absent here stays pinned where it already was.'
+  extractor_version: 1
+  derived_sha256: 90704c7a32e4de2108c55da3ce56f47caadf7ff2fbb79e1df71b8fc179cbd32d
+claims:
+  platform-luminex:
+    quotes:
+    - exact: A total of 85 plasma protein biomarkers were assayed using a modified enzyme-linked immunosorbent
+        assay sandwich method, multiplexed on a Luminex xMAP platform (Luminex, Inc., Austin, TX).
+      section: 'Methods: Protein quantification'
+  list-71:
+    quotes:
+    - exact: A list of the 71 proteins and their coefficients of variation and selection criteria were
+        shown in Supplementary Data 1.
+      section: 'Methods: Protein quantification'
+  excluded-14:
+    quotes:
+    - exact: A total of 14 proteins had low call-rate (<90%) mainly due to values falling below the lower
+        detection limit that were excluded for the current study.
+      section: 'Methods: Protein quantification'

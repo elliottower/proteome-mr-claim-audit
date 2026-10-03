@@ -1,0 +1,43 @@
+{
+ "run_id": "prefreeze_ledger_proof_20261002",
+ "note": "pre-freeze wiring check of the ledger wrapper: stage-5 drug joins run on Modal on synthetic claims; no in-window record, claim or pair read",
+ "written_utc": "2026-10-02T15:59:30+00:00",
+ "files": [
+  {
+   "path": "outputs/dry_run_drug/modal_wiring_ledger_proof_20261002/drug_claim_records.jsonl",
+   "bytes": 0,
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+   "path": "outputs/dry_run_drug/modal_wiring_ledger_proof_20261002/drug_pair_records.jsonl",
+   "bytes": 30961,
+   "sha256": "e1d3913ee098bf1dd331412dd6ba4d582e5a7ca4aa89ef4e5c28f3482ac8accb"
+  },
+  {
+   "path": "outputs/dry_run_drug/modal_wiring_ledger_proof_20261002/drug_tables.json",
+   "bytes": 12260,
+   "sha256": "ded2c4d271c0c5888b11d6ff9206566727094d6bbdbbc088a9912c3888de0081"
+  },
+  {
+   "path": "outputs/results_manifests/ledger_proof_20261002.volume.json",
+   "bytes": 1134,
+   "sha256": "c30b03948440eb800b2c7b5ecf95d63dcd59bf1e9fdf70e12eabb2326d727bd1"
+  }
+ ],
+ "recorded_directly": [
+  "outputs/dry_run_drug/modal_wiring_ledger_proof_20261002/drug_tables.json",
+  "outputs/results_manifests/ledger_proof_20261002.volume.json"
+ ],
+ "volume_checks": [
+  {
+   "volume_folder": "/02_claims_meta/prefreeze_checks/wiring/ledger_proof_20261002",
+   "local_folder": "outputs/dry_run_drug/modal_wiring_ledger_proof_20261002",
+   "n_compared": 3,
+   "volume_only": [
+    "/02_claims_meta/prefreeze_checks/wiring/ledger_proof_20261002/ontology_edges.csv",
+    "/02_claims_meta/prefreeze_checks/wiring/ledger_proof_20261002/registry_claims.jsonl",
+    "/02_claims_meta/prefreeze_checks/wiring/ledger_proof_20261002/wording.jsonl"
+   ]
+  }
+ ]
+}

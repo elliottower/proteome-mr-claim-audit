@@ -1,0 +1,212 @@
+citations fetch --claims claims/, run 2026-10-02 on a copy of claims/ in an empty folder (no source present),
+with the citations build of reproducible-science main at b078cb2. Nothing was written into the repository's sources/.
+
+  differs     aragam2022cad_main                      pinned aa782a2a8c0a; europepmc gave 80cf1d7cdf0e, openalex gave 80cf1d7cdf0e, openalex gave 2935c8224488
+  differs     aragam2022cad_supp_note                 pinned 8f8ff07073d3; europepmc gave 80cf1d7cdf0e, openalex gave 80cf1d7cdf0e
+  differs     aragam2022cad_supp_table1               pinned 79107e11c07c; europepmc gave 80cf1d7cdf0e, openalex gave 80cf1d7cdf0e
+  differs     bellenguez2022_data_availability        pinned 8c48b486b8cd; openalex gave cae0453eb2f7, openalex gave c3edd33a077c, openalex gave c3edd33a077c, openalex gave c3edd33a077c, openalex gave c3edd33a077c, openalex gave c3edd33a077c, openalex gave 1167aea8eb88, openalex gave c3edd33a077c
+  differs     bellenguez2022_main                     pinned 49831ec859f7; openalex gave 7bf1a2357971, openalex gave c3edd33a077c, openalex gave c3edd33a077c, openalex gave c3edd33a077c, openalex gave c3edd33a077c, openalex gave c3edd33a077c, openalex gave b4b15db2ac80, openalex gave c3edd33a077c
+  differs     bellenguez2022_supp_note                pinned 192aaad027c6; openalex gave bd31eef982d8, openalex gave c3edd33a077c, openalex gave c3edd33a077c, openalex gave c3edd33a077c, openalex gave c3edd33a077c, openalex gave c3edd33a077c, openalex gave 2a2234afec40, openalex gave c3edd33a077c
+  differs     bellenguez2022_supp_table1              pinned 62036dcb4bc0; openalex gave 5efe3c745a73, openalex gave c3edd33a077c, openalex gave c3edd33a077c, openalex gave c3edd33a077c, openalex gave c3edd33a077c, openalex gave c3edd33a077c, openalex gave ff29c72e47bb, openalex gave c3edd33a077c
+  unavailable bentham2015sle_main                     3 location(s) asked
+  unavailable bentham2015sle_supp_text                3 location(s) asked
+  unavailable burgess2016                             2 location(s) asked
+  differs     chen2021magic_main                      pinned 56702fea0222; europepmc gave ab51bf48b337, openalex gave 913397a0ffc7, openalex gave da59e43a1d64, openalex gave 455134ddab9c
+  differs     chen2021magic_supp_table1               pinned 9d7327d269be; europepmc gave 624460bf4079, openalex gave 913397a0ffc7, openalex gave da59e43a1d64, openalex gave 17591585021d
+  differs     chen2022stroke                          pinned 1e32a55285c1; europepmc gave ef35c11beb03
+  differs     chen2025lung                            pinned cdf48213f69d; openalex gave e97ff9fed366
+  differs     chen2026llmreview                       pinned 9cc6c7c32a7a; openalex gave 78277a65c493
+  differs     christophersen2017af_main               pinned 109ecac4b851; openalex gave cda5b2228bc4
+  differs     christophersen2017af_supp_note          pinned 0cd582a5ff0e; openalex gave fd99defb5189
+  differs     christophersen2017af_supp_table1        pinned bc39b81aa291; openalex gave 396cf6d4cca7
+  differs     clark2025                               pinned 63c4613af180; openalex gave 2635422a2407
+  differs     cochrane2025ch4                         pinned 3631ee9b0d7e; the claims file gave 5b2b168b5c3e
+  differs     covidhgi2021_main                       pinned cb4384980601; openalex gave b913470af0b1, openalex gave a29c5521af80, openalex gave be8dfcab992d, openalex gave a29c5521af80, openalex gave 91f2e4b1e31b, openalex gave 6913d389b4c5, openalex gave a29c5521af80, openalex gave bef2a0f41396, openalex gave a29c5521af80, openalex gave a29c5521af80, openalex gave c9840c68d160, openalex gave 3c2b005d064a, openalex gave 33702e2a830e
+  differs     covidhgi2021_supp_note                  pinned 7f95c955e62c; openalex gave b913470af0b1, openalex gave a29c5521af80, openalex gave be8dfcab992d, openalex gave a29c5521af80, openalex gave 928ef62ce401, openalex gave 6913d389b4c5, openalex gave a29c5521af80, openalex gave bef2a0f41396, openalex gave a29c5521af80, openalex gave a29c5521af80, openalex gave c9840c68d160, openalex gave d78033395a9d, openalex gave 4aefc487a496
+  differs     covidhgi2021_supp_table1                pinned a1029a6fade1; openalex gave b913470af0b1, openalex gave a29c5521af80, openalex gave be8dfcab992d, openalex gave a29c5521af80, openalex gave 626caa5c124e, openalex gave 6913d389b4c5, openalex gave a29c5521af80, openalex gave bef2a0f41396, openalex gave a29c5521af80, openalex gave a29c5521af80, openalex gave c9840c68d160, openalex gave 6bd050d8d481, openalex gave 102ba3ef3cc1
+  differs     covidhgi2023r7_main                     pinned f9c03770fafc; openalex gave 76415562afd0, openalex gave 76415562afd0, openalex gave 76415562afd0, openalex gave 76415562afd0, openalex gave 76415562afd0, openalex gave 76415562afd0, openalex gave 76415562afd0, openalex gave 76415562afd0, openalex gave 76415562afd0, openalex gave 76415562afd0, openalex gave 76415562afd0, openalex gave 76415562afd0, openalex gave 76415562afd0, openalex gave 76415562afd0, openalex gave 7b19d7cb44e5, openalex gave f5276435dc7f, openalex gave 3c29e9b522a6
+  differs     covidhgi2023r7_supp_table1              pinned 115a543878d1; openalex gave 76415562afd0, openalex gave 76415562afd0, openalex gave 76415562afd0, openalex gave 76415562afd0, openalex gave 76415562afd0, openalex gave 76415562afd0, openalex gave 76415562afd0, openalex gave 76415562afd0, openalex gave 76415562afd0, openalex gave 76415562afd0, openalex gave 76415562afd0, openalex gave 76415562afd0, openalex gave 76415562afd0, openalex gave 7a4fcddbddde, openalex gave f5276435dc7f, openalex gave 3c29e9b522a6
+  differs     delange2017ibd_main                     pinned d3e2fcc554e8; europepmc gave bc60ca5a32d3
+  differs     delange2017ibd_supp_table1              pinned ae7c75acccff; europepmc gave 605ae6753a95
+  differs     deloukas2013cad_supp                    pinned b38137b11e00; openalex gave a96cae4e905f, openalex gave 59c1d512272a
+  differs     demenais2018tagc_supp_table1            pinned 4ea65ce982d7; europepmc gave d230ebda6d19, openalex gave e6636f05ae3f, openalex gave 7e748f08de8a, openalex gave 5432eec57967, openalex gave 098c59a008d8
+  differs     demontis2019adhd_main                   pinned acf28503f7e8; openalex gave cbaeb85ca41b, openalex gave 20dc0a2e4b7f
+  differs     demontis2019adhd_supp_info              pinned a92a8773579c; openalex gave cbaeb85ca41b, openalex gave dd5b55c22435
+  differs     demontis2019adhd_supp_table1            pinned b893f58e069e; openalex gave cbaeb85ca41b, openalex gave a80f4f388b27
+  differs     demontis2023adhd_main                   pinned 32d0b7e3d4a8; openalex gave 3638d6dcba2e, openalex gave 3ccadaf724d0, openalex gave dcbd25da71ca, openalex gave bb93b9ba3084
+  differs     demontis2023adhd_supp_table1            pinned 8ed04a029212; openalex gave 2e690286da92, openalex gave 7999a86ed934, openalex gave 4a8949358fdd, openalex gave cc287b5baec2
+  unavailable eldjarn2022preprint                     1 location(s) asked
+  unavailable eldjarn2022withdrawal                   1 location(s) asked
+  differs     eldjarn2023                             pinned a5ebcb9d2e9b; europepmc gave 1373226ca075
+  unavailable emilsson2018ages                        1 location(s) asked
+  differs     enroth2014nsphs                         pinned 387bffd307cc; europepmc gave 835982103417
+  differs     evangelou2018bp_main                    pinned c81c82de15ce; openalex gave 5684f75571bd, openalex gave 2c76c57706fc
+  differs     evangelou2018bp_supp_tables             pinned f9ca474d05e3; openalex gave 5684f75571bd, openalex gave 1d31c5e2e9ea
+  differs     fernandezrozadilla2023crc_main          pinned 8283d466a527; openalex gave f864b709c188, openalex gave 8920d5c36a1f, openalex gave 104fa543fc71, openalex gave 5b7e965a18d7
+  differs     fernandezrozadilla2023crc_supp_info     pinned 58bea2f56bdd; openalex gave f864b709c188, openalex gave 1c7b313a2987, openalex gave ebb256daa069, openalex gave 46882dc83978
+  differs     fernandezrozadilla2023crc_supp_table1   pinned 4209b1bac741; openalex gave f864b709c188, openalex gave 1c8eef2e9b1f, openalex gave fb7e11c53401, openalex gave 75fa0855d3c1
+  fetched     finngen_docs_r12_cohort_description     the claims file: https://finngen.gitbook.io/documentation/r12/methods/cohort-description.md
+  fetched     finngen_docs_r12_meta_analysis          the claims file: https://finngen.gitbook.io/documentation/r12/methods/meta-analysis.md
+  differs     folkersen2017improve                    pinned a905e58c6128; openalex gave 7d5aeba36c75, openalex gave 7d5aeba36c75, openalex gave 7d5aeba36c75
+  differs     folkersen2020scallop                    pinned 9394d67601bc; europepmc gave 0885e3e63a01, openalex gave ad0440cd1161
+  differs     folkersen2020scallop_supp_table1        pinned cad81b190cea; europepmc gave 860d58489605, openalex gave 15e9d351192e
+  differs     gartlehner2025swar                      pinned 71008079a860; openalex gave 86f1bf46a9af
+  differs     gibson2022preprint                      pinned 60d64f1727e5; europepmc gave 4150229e6f61
+  differs     gibson2023                              pinned f0bbfd48f387; openalex gave 522d41d7b637
+  differs     gilly2020manolis                        pinned 98b71ac2a05b; europepmc gave 96ed79e6d1db
+  differs     graham2021glgc_main                     pinned 33a6d0419b43; openalex gave a92b90b4bc2d, openalex gave f94433a5d40d, openalex gave 8e26b4302fba
+  differs     graham2021glgc_supp_table1              pinned 6bbd19ad1c9e; openalex gave 2c72d08fab1a, openalex gave 589b953f8b24, openalex gave 8e26b4302fba
+  differs     grove2019asd_main                       pinned 8047ffa1f5a7; openalex gave 78d9ce976e6a
+  differs     grove2019asd_supp_info                  pinned debf13ee7b53; openalex gave 78d9ce976e6a
+  differs     gudjonsson2022ages                      pinned d4ba741fe577; openalex gave 3721518fe0c9
+  differs     han2020asthma_main                      pinned 6f534a2a65c6; europepmc gave 2c99b0ee8189
+  unavailable howard2019dep_main                      2 location(s) asked
+  differs     howson2017cad_main                      pinned 56e8a8e5138d; openalex gave cb9e3ba680f0
+  differs     howson2017cad_supp                      pinned 751a7a47ffbb; openalex gave 3916d38470f3
+  differs     huyghe2019crc_main                      pinned fd41205a0bcb; openalex gave 3571fb3a18a1, openalex gave 674911bc78ad, openalex gave 4b27c868e94e, openalex gave ef569b6edf68
+  differs     huyghe2019crc_supp_note                 pinned 4ef74942f3fb; openalex gave 3571fb3a18a1, openalex gave 674911bc78ad, openalex gave 4b27c868e94e, openalex gave 923e85643f18
+  differs     huyghe2019crc_supp_table1               pinned eb8de1fbefe3; openalex gave 3571fb3a18a1, openalex gave 674911bc78ad, openalex gave 4b27c868e94e, openalex gave 88e47efcd1db
+  differs     imsgc2019_main                          pinned c4b5292767ad; openalex gave 27b6f26fb519, openalex gave ae321f49d4f1
+  differs     jansen2019_main                         pinned 02e98197de75; openalex gave 004f93966477
+  differs     jansen2019_supp_note                    pinned 4b50c89d5667; openalex gave ee47a51e131e
+  differs     jansen2019_supp_table1                  pinned afd5766bca65; openalex gave 591ecb04dba2
+  differs     jostins2012ibd_supp_table1              pinned 5f3ee59288ea; openalex gave 2f2ac8d8bf83, openalex gave 1ba89db872d5
+  unavailable kathiresan2009migen_main                1 location(s) asked
+  unavailable katz2022                                2 location(s) asked
+  unavailable katz2022jhs                             2 location(s) asked
+  differs     khan2024preprint                        pinned 416b94e0b0d5; openalex gave 87be593adfbb, openalex gave b034adbb795f
+  unavailable konet2024                               1 location(s) asked
+  differs     koprulu2026scallop_fulltext             pinned a2415c08b3bb; europepmc gave 81959545e178, openalex gave b2630e5c5f7c
+  differs     koprulu2026scallop_table_s1             pinned 5bada5afa06f; openalex gave b2630e5c5f7c
+  unavailable kunkle2019_main                         2 location(s) asked
+  unavailable kunkle2019_supp_note                    2 location(s) asked
+  unavailable kunkle2019_supp_tables                  2 location(s) asked
+  differs     kurki2023finngen_main                   pinned 1cacabe5e482; europepmc gave 8b4592041559, openalex gave b8cca2cf2179
+  differs     kurki2023finngen_supp_methods           pinned 50f1c3ac0ba6; europepmc gave 8b4592041559, openalex gave b8cca2cf2179
+  differs     kurki2023finngen_supp_table2            pinned 3eda6912226a; europepmc gave 8b4592041559, openalex gave b8cca2cf2179
+  differs     lambert2013_main                        pinned 294ff64bb024; openalex gave 9f721effac21
+  differs     lambert2013_supp                        pinned ff35bc857ffd; openalex gave 08783d850fe9
+  differs     liu2015ibd_main                         pinned a25c3a097c53; europepmc gave d7eb27b30dfb, europepmc gave 479a4a5b0d5c
+  differs     liu2025mrkg                             pinned bff7f28d1d5a; openalex gave 1e234110f331
+  differs     locke2015giant_main                     pinned fb3acd0fadd3; openalex gave cdf30d2b51bb, openalex gave 0abaec6e9815, openalex gave a098e347caf1, openalex gave 68750851979a, openalex gave 7aab9c7f9f37
+  differs     locke2015giant_supp_table1              pinned 8a4b14fa1550; openalex gave 36bb27e7adaa, openalex gave 0abaec6e9815, openalex gave a098e347caf1, openalex gave 68750851979a, openalex gave 7aab9c7f9f37
+  differs     mahajan2018diagram_main                 pinned 099932a0e9dd; openalex gave 4616267c03ac, openalex gave 0e46ff6f9baa
+  differs     mahajan2018diagram_supp_table1          pinned 9d7f3fe014e2; openalex gave fa6b280dde1f, openalex gave 0bbef2becf93
+  differs     mahajan2022diamante_main                pinned c23aef37dddd; openalex gave 747b2bc338b2, openalex gave 15613af9c923, openalex gave 5f801162de89, openalex gave 98abce0fea7b
+  differs     mahajan2022diamante_supp_tables1_3      pinned 6f52d512ed30; openalex gave 747b2bc338b2, openalex gave 4c895309f5df, openalex gave 5f801162de89, openalex gave 7b4b78c75268
+  differs     malik2018megastroke_main                pinned fdbe837cc018; openalex gave d3cb30991c68
+  differs     malik2018megastroke_supp_info           pinned 98747424d984; openalex gave 3c14dbcb56ae
+  differs     malik2018megastroke_supp_table2         pinned 0c9394df6e8e; openalex gave 4dc1d544e65c
+  unavailable mcgowan2016                             1 location(s) asked
+  differs     mckay2017lung_main                      pinned d1ddd554a2cb; openalex gave 6afd4ac382db, openalex gave b3833c60f1bd
+  differs     mckay2017lung_supp                      pinned 96f83399fa85; openalex gave 6afd4ac382db, openalex gave 47c45caa9d05
+  unavailable mckay2017lung_timofeeva2012_main        3 location(s) asked
+  unavailable mckay2017lung_wang2014_main             1 location(s) asked
+  unavailable mckay2017lung_wang2014_supp             1 location(s) asked
+  differs     michailidou2017bcac_main                pinned 18cd5d52854b; openalex gave b14f2c540778, openalex gave e9b303442782, openalex gave 5a8ac9e448c0, openalex gave b387f523a5b4
+  differs     michailidou2017bcac_ref20_michailidou2  pinned 5bbd70c16738; europepmc gave aff3e3c58a27, openalex gave e5638606abef, openalex gave b8cacc9d57c3, openalex gave 68b032073a35
+  differs     michailidou2017bcac_ref20_michailidou2  pinned 033b1505834c; europepmc gave 3c6dcb4264c8, openalex gave e5638606abef, openalex gave b8cacc9d57c3, openalex gave 68b032073a35
+  unavailable michailidou2017bcac_ref2_michailidou20  1 location(s) asked
+  differs     michailidou2017bcac_supp_table1         pinned e4ff398c73be; openalex gave 931a69951abd, openalex gave e9b303442782, openalex gave 5a8ac9e448c0, openalex gave b387f523a5b4
+  differs     mishra2022gigastroke_main               pinned b3ffcabadf56; openalex gave 1114b9369836, openalex gave ac959882ccc1
+  differs     mishra2022gigastroke_supp_info          pinned 259f23efc588; openalex gave 1114b9369836, openalex gave ac959882ccc1
+  differs     mishra2022gigastroke_supp_table1        pinned 79b6d8c0f90a; openalex gave 1114b9369836, openalex gave ac959882ccc1
+  differs     mondo_about_docs                        pinned 4a96c05d20cf; the claims file gave 861eec2fa99f
+  differs     mullins2021bip_main                     pinned 81f7d4fc42ef; openalex gave 43976025cda2, openalex gave fd06ee58b2f1, openalex gave 99808c7baf6f, openalex gave 431a479aa0e3, openalex gave a407c952cd03, openalex gave df1335c43648
+  differs     mullins2021bip_supp_note                pinned e57b3e3bee7c; openalex gave ccb841933fa8, openalex gave fd06ee58b2f1, openalex gave ced1cb5d1d09, openalex gave 431a479aa0e3, openalex gave 8e89e212d7c8, openalex gave df1335c43648
+  differs     mullins2021bip_supp_table1              pinned 35509fced4fe; openalex gave 58192ac3fdde, openalex gave fd06ee58b2f1, openalex gave eb4f5f5519f9, openalex gave 431a479aa0e3, openalex gave 317ff4a13c94, openalex gave df1335c43648
+  unavailable munafo2024                              1 location(s) asked
+  unavailable nalls2019_main                          1 location(s) asked
+  unavailable nalls2019_supp                          1 location(s) asked
+  unavailable nguyen2025                              3 location(s) asked
+  unavailable nibali2026                              1 location(s) asked
+  unavailable nielsen2018af_main                      2 location(s) asked
+  unavailable nielsen2018af_supp_table1               2 location(s) asked
+  differs     nievergelt2019ptsd_main                 pinned f3603af5c4da; openalex gave b6e415a09ba2, openalex gave c84970d5c26e, openalex gave eaf7b11916a9, openalex gave 5e4196f84632, openalex gave 25951be9191d, openalex gave cad0b7cc0b6f
+  differs     nievergelt2019ptsd_supp_data1           pinned 66cf748b66a0; openalex gave b6e415a09ba2, openalex gave 6ba089749c0a, openalex gave 5e4196f84632, openalex gave 25951be9191d, openalex gave cad0b7cc0b6f
+  differs     nievergelt2019ptsd_supp_info            pinned 0fda580a1e28; openalex gave b6e415a09ba2, openalex gave 0973a133d227, openalex gave 5e4196f84632, openalex gave 25951be9191d, openalex gave cad0b7cc0b6f
+  differs     nikpay2015cad_main                      pinned ba437ad6c51b; openalex gave 34de1acc5640
+  differs     nikpay2015cad_supp_note                 pinned b1fa74879d42; openalex gave 49f25fb1bfd3
+  differs     nikpay2015cad_supp_tables               pinned b1783e4478fe; openalex gave 2d7672e46ac5
+  unavailable oami2026                                1 location(s) asked
+  differs     okada2014ra_main                        pinned a4e5723fe5f1; openalex gave ae0abb9af6b0, openalex gave ddb343034150
+  differs     opentargets_disease_docs                pinned 342d50a97df9; the claims file gave b22e37434915
+  differs     pietzner2020covid                       pinned a687970e1963; openalex gave 57f0322896cb
+  unavailable pietzner2021                            1 location(s) asked
+  unavailable pietzner2021aam                         1 location(s) asked
+  differs     png2021helic                            pinned 187f0a326c76; europepmc gave b2b7be031d92, openalex gave b2b7be031d92, openalex gave 194e54029810
+  differs     ripke2014scz2_main                      pinned d7ff8ecef5ba; openalex gave 7a1964c8d062, openalex gave ed46ed15ae73, openalex gave fd026d9eeeb3, openalex gave cb8d9a3d779b
+  differs     ripke2014scz2_supp_info                 pinned d5dfb6b6e4bf; openalex gave 7a1964c8d062, openalex gave ed46ed15ae73, openalex gave 9706cdefbc57, openalex gave cb8d9a3d779b
+  differs     roselli2018af_main                      pinned a9d401f89a07; europepmc gave ff258efdd9d7, openalex gave 97436d1a1ab0, openalex gave 833ac1c78fa7
+  differs     roselli2018af_supp_note                 pinned c69dd856005b; europepmc gave f48cd3337b94, openalex gave 97436d1a1ab0, openalex gave c58969c44f61
+  differs     roselli2018af_supp_table17              pinned 2d22ab629617; europepmc gave 6234c796f069, openalex gave 97436d1a1ab0, openalex gave 402a7607f52e
+  unavailable sakaue2021_main                         1 location(s) asked
+  differs     schroeder2025v1                         pinned 2d78626f98db; arxiv gave 0d00aa0bfc5c
+  differs     schumacher2018practical_main            pinned 287c1fd3906d; openalex gave 344908989772, openalex gave 546f633d5165
+  differs     schumacher2018practical_supp            pinned 19bd806c6621; openalex gave 8ec1ec811511, openalex gave 44ed8035d90e
+  unavailable schunkert2011cardiogram_supp            1 location(s) asked
+  differs     shah2020hermes_main                     pinned 913194e35788; europepmc gave 0f3bae7ddbd0, openalex gave 0f3bae7ddbd0, openalex gave 1708fca402cc, openalex gave 0f3bae7ddbd0, openalex gave e7b2ddeaa2ed, openalex gave 0f3bae7ddbd0
+  differs     shah2020hermes_supp_data                pinned 2211ba0efdd4; openalex gave 0f3bae7ddbd0, openalex gave 1708fca402cc, openalex gave 0f3bae7ddbd0, openalex gave e7b2ddeaa2ed, openalex gave 0f3bae7ddbd0
+  differs     shah2020hermes_supp_info                pinned d3e137a0b9da; openalex gave 0f3bae7ddbd0, openalex gave 1708fca402cc, openalex gave 0f3bae7ddbd0, openalex gave e7b2ddeaa2ed, openalex gave 0f3bae7ddbd0
+  differs     shi2025triangulator                     pinned f483354b87f4; openalex gave 571d243e89e1
+  unavailable skrivankova2021bmj                      2 location(s) asked
+  unavailable skrivankova2021jama                     1 location(s) asked
+  differs     sobczyk2023                             pinned 7bdbe89c15e4; openalex gave fcd0c3a7b8a6
+  differs     stender2024                             pinned ff073a9b7ecc; openalex gave 9361cfeb0bae, openalex gave a071ac17a6a4
+  differs     suhre2017kora                           pinned 7ca15ff67409; europepmc gave b3aa61cbe3c0
+  differs     sun2023                                 pinned 6a7e00988791; europepmc gave 2b71099b9462
+  differs     trubetskoy2022scz3_main                 pinned 8d77300f6cb8; openalex gave 50b7366aca73, openalex gave d8837ebe8495, openalex gave 30b14e7a92cd
+  differs     trubetskoy2022scz3_peer_review          pinned a7edc627b7a4; openalex gave 50b7366aca73, openalex gave 992edc6a36dc, openalex gave 30b14e7a92cd
+  differs     trubetskoy2022scz3_supp_cohorts         pinned e95822f8276d; openalex gave 50b7366aca73, openalex gave ccdbcfa6fbb3, openalex gave 30b14e7a92cd
+  unavailable tsuo2022gbmi_asthma_main                1 location(s) asked
+  unavailable tsuo2022gbmi_asthma_table_s1            1 location(s) asked
+  unavailable vanderharst2018cad_main                 1 location(s) asked
+  unavailable vanderharst2018cad_refs                 1 location(s) asked
+  unavailable vanderharst2018cad_supp                 1 location(s) asked
+  differs     vanrheenen2021_data_availability        pinned db28b72cc80d; openalex gave f2f8df93e45d, openalex gave fb2b548d6bd9, openalex gave 8f983388f546, openalex gave 334ccbf14f30, openalex gave aa44a2646c58
+  differs     vanrheenen2021_main                     pinned d72fcaa06905; openalex gave f2f8df93e45d, openalex gave fb2b548d6bd9, openalex gave 8f983388f546, openalex gave d439e1eca378, openalex gave 334ccbf14f30, openalex gave 595dd356169e
+  differs     vanrheenen2021_peer_review              pinned 19ed166e4f08; openalex gave f2f8df93e45d, openalex gave fb2b548d6bd9, openalex gave 8f983388f546, openalex gave d439e1eca378, openalex gave 334ccbf14f30, openalex gave e46d09e28910
+  differs     vanrheenen2021_supp_note                pinned 1ce77b02eb80; openalex gave f2f8df93e45d, openalex gave fb2b548d6bd9, openalex gave 8f983388f546, openalex gave d439e1eca378, openalex gave 334ccbf14f30, openalex gave 2f2207e0c026
+  differs     vanrheenen2021_supp_table1              pinned 0fd703e11413; openalex gave f2f8df93e45d, openalex gave fb2b548d6bd9, openalex gave 8f983388f546, openalex gave d439e1eca378, openalex gave 334ccbf14f30, openalex gave 90b0887b647d
+  differs     webb2017cad_supp                        pinned 751d05a64dfd; openalex gave 0bc9e27ec31c, openalex gave f443ed35f1ac, openalex gave 3dccac5b34cb
+  differs     wightman2021_main                       pinned 12305c28da3c; openalex gave 3c0703c5906c, openalex gave 0e2111cf9f57
+  differs     wightman2021_supp_note                  pinned d6f034a4f6a9; openalex gave 8aeb968409fe, openalex gave ca820a8e5f69
+  differs     wightman2021_supp_table1                pinned 983b38859e45; openalex gave 59dd89ddd497, openalex gave cc31f3eac66f
+  differs     willer2013glgc_main                     pinned 7eed02abf9dd; openalex gave e4c7105b0dfc
+  differs     willer2013glgc_ref48_teslovich2010_sup  pinned b2b88ff15961; openalex gave da29b7fccadd
+  differs     willer2013glgc_supp                     pinned bb39b1076a55; openalex gave e4c7105b0dfc
+  differs     wood2014giant_main                      pinned fe3806d521af; openalex gave 831a0cfc9247, openalex gave 831a0cfc9247, openalex gave 021c44ddea66, openalex gave 607e696a55d2
+  differs     wood2014giant_ref6_langoallen2010_supp  pinned b4da7eb796f6; openalex gave 7d69555d925a, openalex gave 020093bc4f07, openalex gave 020093bc4f07
+  differs     wood2014giant_supp_note                 pinned de294bf6427f; openalex gave 831a0cfc9247, openalex gave 831a0cfc9247, openalex gave 021c44ddea66, openalex gave 607e696a55d2
+  unavailable woolf2022                               2 location(s) asked
+  differs     wray2018mdd_main                        pinned a889cf7909d9; openalex gave a19908091747, openalex gave 27dc270f784d, openalex gave 82487660b58a, openalex gave dcdf1d56782f, openalex gave e1037979c11f
+  differs     wray2018mdd_supp_tables                 pinned 4a09eac0e9a9; openalex gave 69a37afdefc0, openalex gave 27dc270f784d, openalex gave 82487660b58a, openalex gave dcdf1d56782f, openalex gave 08ceb359345e
+  differs     wu2024heart                             pinned 02f53234f4c8; openalex gave ada477f486f6
+  differs     wuttke2019ckdgen_main                   pinned e3cfc75c8958; europepmc gave 79f5eefdf807, openalex gave 9d9373a223df, openalex gave c794759cd278, openalex gave 723bbca878fa
+  differs     wuttke2019ckdgen_supp_table1            pinned 9e35ca558f5c; europepmc gave 7001acd5656a, openalex gave 9d9373a223df, openalex gave c794759cd278, openalex gave dd134c8bbc0c
+  differs     xu2023gnhs                              pinned b8db9517291a; europepmc gave 7e509f8f2117, openalex gave 95622d445a1b, openalex gave dad6032be829, openalex gave 7e509f8f2117, openalex gave 7e509f8f2117
+  differs     yang2025stroke                          pinned 3985767278de; openalex gave 436d2c67181d
+  differs     yao2018fhs                              pinned e24d021e8345; europepmc gave 2e086debfd1d, europepmc gave 2e086debfd1d
+  unavailable yengo2018giant_abstract                 1 location(s) asked
+  differs     yengo2022giant_main                     pinned 3ffc28fa079c; openalex gave 91d71ae367d6, openalex gave 91d71ae367d6, openalex gave f9c283504553, openalex gave 91d71ae367d6
+  differs     yengo2022giant_supp_table1              pinned 96f7bffb9af9; openalex gave 91d71ae367d6, openalex gave 91d71ae367d6, openalex gave f9c283504553, openalex gave 91d71ae367d6
+  differs     yoshikawa2024                           pinned 0ed5a4e8ccd4; openalex gave 87e701648905, openalex gave ebad818ea255
+  differs     zhang2020bcac_main                      pinned 9d314aeecdbb; europepmc gave e7c0ef6f9b62, openalex gave 42f3a54ebdbc, openalex gave 35e2bce9f8e8
+  differs     zhang2020bcac_supp_table1               pinned 0a9a564f70e1; europepmc gave f31050f0735f, openalex gave 4ae9bf2d4776, openalex gave a4b1bf68c378
+  differs     zhang2020bcac_supp_table2               pinned 9585eeac6de1; europepmc gave d234152d6044, openalex gave 2bc4385b9f93, openalex gave 4b2866bd3297
+  differs     zhang2020bcac_supp_table3               pinned c632ac95e32a; europepmc gave 9e80dc78832b, openalex gave 40b845685eb6, openalex gave 7e403cff7d16
+  differs     zhang2020bcac_supp_table4               pinned b20fcf73d338; europepmc gave 9587fec849ee, openalex gave 45da79ed2e32, openalex gave 26c6d781f681
+  differs     zheng2020pwmr                           pinned 879a5dd68ab2; europepmc gave e1c82c66b6ee, openalex gave da784d32507c
+  differs     zheng2025dmrdb                          pinned eae8d2d6c599; openalex gave f16296488ea8
+  unavailable zhou2022gbmi_main                       3 location(s) asked
+  differs     zhu2025letter                           pinned 21e739bbbad9; openalex gave 74eaeba0bf72
+
+claims  <scratch copy of claims/>
+
+199 sources
+
+  fetched           2
+  differs         156
+  unavailable      41
+
+197 pinned source(s) are still not readable here. A copy obtained another way can be placed at the path its claims file names; `verify` checks it against the pin.

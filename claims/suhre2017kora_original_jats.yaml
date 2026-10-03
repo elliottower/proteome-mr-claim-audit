@@ -1,0 +1,27 @@
+source:
+  citation: suhre2017kora
+  local: sources/original/suhre2017kora.xml
+  sha256: f58e69b9bfc65f07000f425b1958dd20faae30fad45661ae519cdad84caa2624
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5333359/fullTextXML
+  doi: 10.1038/ncomms14357
+  extractor: jats-text
+  note: 'Original file behind claims/suhre2017kora.yaml: the XML pinned in claims/suhre2017kora_original.yaml,
+    read by the citations extractor jats-text. The quotations here are those of that file that resolve
+    in this reading; a quotation absent here stays pinned where it already was.'
+  extractor_version: 1
+  derived_sha256: 12a6a9eaa2506d080142ceb811b6f817737310f7029c87290e264b88326a4a36
+claims:
+  platform-v3-2:
+    quotes:
+    - exact: Data for 1,129 SOMAmer probes (SOMAscan assay V3.2) was obtained for these samples.
+      section: 'Methods: Proteomics measurements'
+  probes-1124:
+    quotes:
+    - exact: Five of the probes failed SOMAscan QC, leaving a total of 1,124 probes for analysis (Supplementary
+        Table 1).
+      section: 'Methods: Proteomics measurements'
+  kora-f4:
+    quotes:
+    - exact: For this study, 1,000 individuals were randomly selected from a subset of 1,800 already deeply
+        phenotyped KORA F4 study participants
+      section: 'Methods: Study population'

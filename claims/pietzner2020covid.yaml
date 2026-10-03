@@ -1,0 +1,31 @@
+source:
+  citation: pietzner2020covid
+  local: sources/pietzner2020covid.txt
+  sha256: a687970e1963c97908ba8cb587abd3f6f30616207620e8898fd22394f344071d
+  doi: 10.1038/s41467-020-19996-z
+  note: Full text from Europe PMC fullTextXML (PMC7744536), tags stripped, one title or paragraph per
+    line. Pietzner M et al. 2020 Nat Commun (Genetic architecture of host proteins involved in SARS-CoV-2
+    infection). PMID 33328453.
+claims:
+  platform-v4:
+    quotes:
+    - exact: Relative protein abundances of 4775 human protein targets were evaluated by 4979 aptamers
+        (SomaLogic V4), and a detailed description can be found elsehwere43.
+      section: 'Methods: Proteomic profiling'
+  subset-179:
+    quotes:
+    - exact: Of the 409 proteins prioritized, 179 were detectable by the currently most-comprehensive
+        proteomic assay using an aptamer-based technology (SomaScan©), including 28 recognized by more
+        than one aptamer (i.e., 179 proteins recognized by 190 aptamers).
+      section: 'Results: Coverage of COVID-19-relevant proteins'
+  olink-subset:
+    quotes:
+    - exact: We further included complementary data from proximity extensions assays (Olink©) for 32 out
+        of the 179 candidate proteins in a subset of 485 Fenland study individuals (Supplementary Data
+        1).
+      section: 'Results: Coverage of COVID-19-relevant proteins'
+  olink-12-panels:
+    quotes:
+    - exact: Plasma samples for a subset of 500 Fenland participants were additionally measured using
+        12 Olink 92-protein panels using proximity extension assays44.
+      section: 'Methods: Proteomic profiling'

@@ -1,0 +1,31 @@
+source:
+  citation: willer2013glgc_main
+  local: sources/willer2013glgc_main.txt
+  sha256: 7eed02abf9dd3b1725e7791788ccf0e034e562772b913787288235035e736f3b
+  doi: 10.1038/ng.2797
+  note: Full text of Willer et al. 2013 Nat Genet (Discovery and refinement of loci associated with lipid
+    levels; PMC3838666, author manuscript) from NCBI E-utilities efetch db=pmc XML, text of p/title/td/th/caption/label
+    elements, one element per line
+claims:
+  design-23-gwas-37-metabochip:
+    quotes:
+    - exact: We examined subjects of European ancestry, including 94,595 individuals from 23 studies genotyped
+        with GWAS arrays4 and 93,982 individuals from 37 studies genotyped with the Metabochip array8
+      section: Results
+  non-european-8:
+    quotes:
+    - exact: Another 8 studies consisted primarily of individuals with non-European ancestry
+      section: Online Methods
+  single-ancestry-meta:
+    quotes:
+    - exact: All meta-analyses were limited to a single ancestral group (e.g. European only).
+      section: Online Methods
+  metabochip-preferred:
+    quotes:
+    - exact: In cases where Metabochip and GWAS array data were available for the same individuals, we
+        used Metabochip data to ensure key variants were directly genotyped, rather than imputed.
+      section: Results
+  summary-results:
+    quotes:
+    - exact: Summary results for our studies are available.
+      section: URLs / data

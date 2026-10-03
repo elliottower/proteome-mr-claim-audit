@@ -1,0 +1,25 @@
+{
+ "extraction": "outputs/parsed/sol_extraction_r4_63c728dcdc37.jsonl",
+ "n_claims": 76,
+ "registered_check_pass": 75,
+ "citations_pin_found": 75,
+ "citations_found_only_after_punctuation_folding": 0,
+ "citations_normalized_warning": 0,
+ "both_pass": 75,
+ "span_verification_rate": 0.9868421052631579,
+ "spans_over_two_sentences": 0,
+ "citations_verify_exit": 0,
+ "failing": [
+  {
+   "pmid": "19509380",
+   "claim_index": 0,
+   "claim_id": "c000",
+   "evidence_span": "Genetically elevated lipoprotein(a) was associated with an HR of 1.22 (95% CI, 1.09-1.37) per doubling of lipoprotein(a) level on instrumental variable analysis, while the corresponding value for plasma lipoprotein(a) levels on Cox regression was 1.08 (95% CI, 1.03-1.12). These data are consistent with a causal association between elevated lipoprotein(a) levels and increased risk of MI.",
+   "registered_check": false,
+   "citations_pin": "not found",
+   "citations_warnings": [],
+   "n_sentences": 2,
+   "passes": false
+  }
+ ]
+}

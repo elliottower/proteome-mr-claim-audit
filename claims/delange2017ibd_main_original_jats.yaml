@@ -1,0 +1,52 @@
+source:
+  citation: delange2017ibd_main
+  local: sources/original/delange2017ibd_main.xml
+  sha256: c181aff4841207885601668ebcdf0052528134b4ee00199c9232c17599ce5543
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5289481/fullTextXML
+  doi: 10.1038/ng.3760
+  extractor: jats-text
+  note: 'Original file behind claims/delange2017ibd_main.yaml: the XML pinned in claims/delange2017ibd_main_original.yaml,
+    read by the citations extractor jats-text. The quotations here are those of that file that resolve
+    in this reading; a quotation absent here stays pinned where it already was.'
+  extractor_version: 1
+  derived_sha256: ed5e1a5fbcab3ab4a27dbaf54416b696b4d65f5e9afa6f676aea1745dbd39c16
+claims:
+  new-gwas:
+    quotes:
+    - exact: we carried out a GWAS of 12,160 IBD cases and 13,145 population controls of European ancestry
+        that had not been included in any genome-wide meta-analysis of IBD to date
+      section: Results
+  meta-with-iibdgc:
+    quotes:
+    - exact: We meta-analyzed our new GWAS data with previously published summary statistics from 12,882
+        IBD cases and 21,770 population controls imputed using the 1000 Genomes Project reference panel1
+      section: Results
+  ref1-liu2015:
+    quotes:
+    - exact: 1LiuJZAssociation analyses identify 38 susceptibility loci for inflammatory bowel disease
+      section: References
+  uk-cases-humancoreexome:
+    quotes:
+    - exact: 11,768 British IBD cases, diagnosed using accepted endoscopic, histopathological and radiological
+        criteria, were consented into the study and genotyped on the Human Core Exome v12.1
+      section: 'Online Methods: GWAS'
+  controls-understanding-society:
+    quotes:
+    - exact: 10,484 population control samples genotyped on the Human Core Exome v12.0 were obtained from
+        the Understanding Society Project
+      section: 'Online Methods: GWAS'
+  wgs-ukibdgc-uk10k:
+    quotes:
+    - exact: We generated low-coverage whole genome sequences for 4,686 IBD cases and 3,781 population
+        controls from the UK IBD Genetics Consortium (UKIBDGC) and UK10K Consortium, respectively
+      section: 'Online Methods: sequencing'
+  metal-iibdgc:
+    quotes:
+    - exact: meta-analysis of our sequencing and GWAS cohorts with the publicly available International
+        Inflammatory Bowel Disease Genetics Consortium (IIBDGC) meta-analysis summary statistics1
+      section: 'Online Methods: meta-analysis'
+  ukhls-ack:
+    quotes:
+    - exact: The UK Household Longitudinal Study is led by the Institute for Social and Economic Research
+        at the University of Essex
+      section: Acknowledgements

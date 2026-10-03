@@ -1,0 +1,46 @@
+source:
+  citation: demontis2019adhd_main
+  local: sources/demontis2019adhd_main.txt
+  sha256: acf28503f7e8d19453b28112b1da0da2bb0a1eb0c368ef9a5f4638ef5cbd4fca
+  url: https://pmc-oa-opendata.s3.amazonaws.com/PMC6481311.1/PMC6481311.1.txt
+  doi: 10.1038/s41588-018-0269-7
+  note: Main text of Demontis D et al. 2019 Nat Genet 51:63-75 (author manuscript PMC6481311), plain text
+    file PMC6481311.1.txt from the NCBI PMC open-data bucket (pmc-oa-opendata.s3.amazonaws.com), unedited
+claims:
+  stage-12-cohorts:
+    quotes:
+    - exact: Genotype array data for 20,183 ADHD cases and 35,191 controls were collected from 12 cohorts
+        (Supplementary Table 1).
+      section: Results
+  ipsych:
+    quotes:
+    - exact: These samples included a population-based cohort of 14,584 cases and 22,492 controls from
+        Denmark collected by the Lundbeck Foundation Initiative for Integrative Psychiatric Research (iPSYCH;
+        Supplementary Figure 1), and 11 European, North American and Chinese cohorts aggregated by the
+        Psychiatric Genomics Consortium (PGC).
+      section: Results
+  decode-replication:
+    quotes:
+    - exact: replication of top loci in an Icelandic cohort with ADHD status derived from medical records
+        of ICD codes and medication history by deCODE (5,085 cases, 131,122 controls)
+      section: Results (replication)
+  replication-23andme-eagle:
+    quotes:
+    - exact: a GWAS of self-reported ADHD status among 23andMe research participants (5,857 cases, 70,393
+        controls) and a meta-analysis of GWAS of childhood rating scales of ADHD symptoms performed by
+        the EAGLE consortium (17,666 children < 13 years of age)30 and QIMR92 (2,798 adolescents)
+      section: Results (replication)
+  meta-11pgc-23waves:
+    quotes:
+    - exact: Genome-wide association analyses for the 11 PGC samples and the 23 waves in iPSYCH were performed
+        using logistic regression model with the imputed marker dosages in PLINK v1.9
+      section: Online Methods
+  release:
+    quotes:
+    - exact: Summary statistics with the results from the ADHD GWAs meta-analysis of iPSYCH and the PGC
+        samples are available on the PGC website
+      section: Data availability
+  ukb-only-rg:
+    quotes:
+    - exact: four phenotypes related to education and cognition analyzed in samples from the UK_Biobank49
+      section: Online Methods (genetic correlation)

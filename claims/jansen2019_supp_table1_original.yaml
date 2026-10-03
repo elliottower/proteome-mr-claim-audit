@@ -1,0 +1,29 @@
+source:
+  citation: jansen2019_supp_table1
+  local: sources/original/jansen2019_supp_table1.xlsx
+  sha256: bab5fc3a2fddbc4d29814f0d3fc3ff63dc5cbf66ec2a32124f5ca527857e3d71
+  url: https://static-content.springer.com/esm/art%3A10.1038%2Fs41588-018-0311-9/MediaObjects/41588_2018_311_MOESM3_ESM.xlsx
+  doi: 10.1038/s41588-018-0311-9
+  extractor: sheet-rows
+  note: 'Original file behind claims/jansen2019_supp_table1.yaml: 41588_2018_311_MOESM3_ESM.xlsx from
+    static-content.springer.com, read by the citations extractor sheet-rows. The quotations here are those
+    of that file that resolve in this reading; a quotation absent here stays pinned where it already was.'
+  extractor_version: 1
+  derived_sha256: 9d9acfb2a5f9905d732219a7184cdc26c8d153a7355edcccf11533b5c58d8b19
+claims:
+  caption:
+    quotes:
+    - exact: Supplementary Table 1. Overview of cohorts for meta-analysis
+      section: Supplementary Table 1
+  row_demgene:
+    quotes:
+    - exact: 1. PGC-ALZ* | a. DemGene | Norway | 9703 | 2066
+      section: Supplementary Table 1
+  row_twingene:
+    quotes:
+    - exact: b. TwinGene | Sweden | 6647 | 322
+      section: Supplementary Table 1
+  row_stsa:
+    quotes:
+    - exact: c. STSA | Sweden | 1127 | 348
+      section: Supplementary Table 1

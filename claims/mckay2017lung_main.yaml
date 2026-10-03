@@ -1,0 +1,38 @@
+source:
+  citation: mckay2017lung_main
+  local: sources/mckay2017lung_main.txt
+  sha256: d1ddd554a2cbbfd0b132398722022b82e73217cc426727657221b180e9bd4849
+  doi: 10.1038/ng.3892
+  note: Full text (author manuscript) of McKay et al. 2017 Nat Genet from Europe PMC fullTextXML PMC5510465,
+    tags stripped, one sentence per line
+claims:
+  sample-size:
+    quotes:
+    - exact: combined with existing data for an aggregated GWAS analysis of lung cancer on 29,266 patients
+        and 56,450 controls
+      section: Abstract
+  prev-gwas-list:
+    quotes:
+    - exact: with 14,436 cases and 44,188 controls samples undertaken by the previous lung cancer GWAS
+        3 , 4 , 6 , including studies of IARC, MDACC, SLRI, ICR, Harvard, NCI, Germany and deCODE as described
+        previously
+      section: 'Online Methods: Meta-analysis of lung cancer GWAS'
+  prev-gwas-table1:
+    quotes:
+    - exact: Previous GWAS studies include IARC, MDACC, SLRI, ICR, Harvard, ATBC, CPSII, German and deCODE
+        studies.
+      section: Table 1 footnote a
+  table1-totals:
+    quotes:
+    - exact: OncoArray studies- passed QC 14803 (51) 12262 (22) Published GWAS studies a 14463 (49) 44188
+        (78) Total 29266 56450
+      section: Table 1
+  UKB-smoking-only:
+    quotes:
+    - exact: 'the meta-analysis across 3 studies: ever-smoking controls with intensity information from
+        the Oncoarray studies (N=8,120), deCODE (N=40,882) and UK Biobank (N=42,044).'
+      section: 'Online Methods: Smoking behaviors'
+  european:
+    quotes:
+    - exact: allowing for analysis of 29,266 patients and 56,450 controls of European descent
+      section: Results

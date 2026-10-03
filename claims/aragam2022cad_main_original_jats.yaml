@@ -1,0 +1,42 @@
+source:
+  citation: aragam2022cad_main
+  local: sources/original/aragam2022cad_main.xml
+  sha256: 67b694e3c9e3d7400e08d5efca955b35a026cf416f8bf1db548c2cbe8356288c
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9729111/fullTextXML
+  doi: 10.1038/s41588-022-01233-6
+  extractor: jats-text
+  note: 'Original file behind claims/aragam2022cad_main.yaml: the XML pinned in claims/aragam2022cad_main_original.yaml,
+    read by the citations extractor jats-text. The quotations here are those of that file that resolve
+    in this reading; a quotation absent here stays pinned where it already was.'
+  extractor_version: 1
+  derived_sha256: 7d8fd4c43b622c6c89a6fafab21d7091ee8f5f1c4af2f2642b553322f110637d
+claims:
+  design:
+    quotes:
+    - exact: we analyzed imputed data from nine studies not previously included in genome-wide association
+        study (GWAS) meta-analyses (86,847 cases and 417,789 controls) and combined results with data
+        from UK Biobank, the CARDIoGRAMplusC4D Consortium and Biobank Japan, achieving a total sample
+        of 210,842 CAD cases among 1,378,170 participants
+      section: Introduction
+  ancestry:
+    quotes:
+    - exact: Participants were largely (>95%) of European ancestry and 46% were female (Supplementary
+        Table 1).
+      section: Results
+  bbj-meta:
+    quotes:
+    - exact: we meta-analyzed the Biobank Japan summary statistics with the current analysis, yielding
+        38 additional new loci at genome-wide significance
+      section: Results
+  bbj-n:
+    quotes:
+    - exact: we used summary statistics from a recent GWAS of 29,319 CAD cases and 183,134 controls from
+        Biobank Japan3
+      section: Online Methods
+  release:
+    quotes:
+    - exact: 'Summary statistics are available upon publication through the CARDIoGRAMplusC4D website
+        (http://www.cardiogramplusc4d.org/) and the NHGRI-EBI GWAS catalog (https://www.ebi.ac.uk/gwas/,
+        accession codes: GCST90132314 (https://www.ebi.ac.uk/gwas/studies/GCST90132314) and GCST90132315
+        (https://www.ebi.ac.uk/gwas/studies/GCST90132315)).'
+      section: Data availability

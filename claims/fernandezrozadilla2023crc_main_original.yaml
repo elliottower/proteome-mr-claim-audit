@@ -1,0 +1,20 @@
+source:
+  citation: fernandezrozadilla2023crc_main
+  local: sources/original/fernandezrozadilla2023crc_main.xml
+  sha256: 41a45da3c4e770c4f56ebd5e27df3641fe7b1cac9e399a9c6c301c09ed4b2641
+  url: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=PMC10094749
+  doi: 10.1038/s41588-022-01222-9
+  note: 'Original file behind claims/fernandezrozadilla2023crc_main.yaml: NCBI E-utilities efetch (db=pmc)
+    XML of PMC10094749, read as plain text with its markup. The quotations here are the quotations of
+    that file that resolve in this file under the citations readers; a quotation absent here is pinned
+    to the extracted text there only.'
+claims:
+  release:
+    quotes:
+    - exact: Summary level data for the full set of Asian and European GWAS are available through GWAS
+        catalog (accession number GCST90129505).
+      section: Data availability
+  ancestry_split:
+    quotes:
+    - exact: comprising 100,204 CRC cases and 154,587 controls (73% European and 27% East Asian ancestry)
+      section: Results

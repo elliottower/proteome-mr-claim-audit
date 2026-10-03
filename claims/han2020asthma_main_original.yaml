@@ -1,0 +1,23 @@
+source:
+  citation: han2020asthma_main
+  local: sources/original/han2020asthma_main.xml
+  sha256: 595f5a7903f8359bcd5c6ff2b69f61f35afb2c95aa23f8d279a494b605402a80
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7160128/fullTextXML
+  doi: 10.1038/s41467-020-15649-3
+  note: 'Original file behind claims/han2020asthma_main.yaml: Europe PMC fullTextXML of PMC7160128, read
+    as plain text with its markup. The quotations here are the quotations of that file that resolve in
+    this file under the citations readers; a quotation absent here is pinned to the extracted text there
+    only.'
+claims:
+  meta-n:
+    quotes:
+    - exact: The Z-score meta-analysis included a total of 88,486 cases and 447,859 controls from the
+        UK Biobank (64,538 asthma cases and 329,321 controls) and TAGC (23,948 asthma cases and 118,538
+        controls)
+      section: Figure 1 legend
+  sensitivity-eur:
+    quotes:
+    - exact: we also imputed GWAS summary statistics in the TAGC using only subjects of European ancestry
+        (19,954 asthma cases, 107,715 controls), which were then meta-analyzed with the GWAS results from
+        the UK Biobank
+      section: Results

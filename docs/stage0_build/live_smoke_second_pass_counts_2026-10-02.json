@@ -1,0 +1,83 @@
+{
+ "label": "smoke_pre2019_20261002",
+ "pass": 2,
+ "smoke_registry": "smoke_pre2019_20261002_window",
+ "gate_audit_round_1": {
+  "marked": 86,
+  "sampled": 86,
+  "judged": 86,
+  "ineligible": 83,
+  "uncertain": 3,
+  "positive_record_ids": [
+   "16325682",
+   "29966350",
+   "W4406537262"
+  ],
+  "positive_abstract_characters": [
+   0,
+   3,
+   0
+  ],
+  "share": 0.03488372093023256,
+  "upper_bound_one_sided_95": 0.0876939304487041,
+  "stopping_reason": "every_marked_record_sampled"
+ },
+ "round_selection": {
+  "eligible_or_uncertain": 4
+ },
+ "extraction": {
+  "records": 4,
+  "new_requests": 3,
+  "claim_records": 3
+ },
+ "registry": {
+  "records": 114,
+  "families": 112,
+  "eligible_families": 5,
+  "claims_with_a_pair": 3,
+  "eligible_no_named_claims": 4
+ },
+ "manual_coding": {
+  "queue_rows": 1,
+  "rows_coded": 0
+ },
+ "record_metadata": {
+  "records": 5,
+  "openalex_requests": 1
+ },
+ "stage5": {
+  "biology_claim_records": 3,
+  "sensitivity_entries": 28,
+  "h2_verdict": "no_multi_family_pairs",
+  "h2b_verdict": "no_multi_family_pairs",
+  "drug_pairs": 3,
+  "drug_pairs_matched": 3,
+  "drug_pairs_with_any_drug": 2
+ },
+ "fulltext_census": {
+  "families": 5,
+  "no_open_access_full_text": 3,
+  "version_unmatched": 2
+ },
+ "requests": {
+  "sol": {
+   "eligibility": 86,
+   "extraction": 3,
+   "input_tokens": 146044,
+   "output_tokens": 10571
+  },
+  "openalex": 1
+ },
+ "requests_both_passes": {
+  "sol": 122,
+  "records_sent_to_sol": 115
+ },
+ "ledger_runs": [
+  "smoke_pre2019_20261002_s1b_gate_audit_1",
+  "smoke_pre2019_20261002_s3_extraction_chase1gate_0b97103cd7a4",
+  "smoke_pre2019_20261002_window_s4_registry",
+  "smoke_pre2019_20261002_window_s5_biology",
+  "smoke_pre2019_20261002_window_s5_drug",
+  "smoke_pre2019_20261002_window_s6_fulltext"
+ ]
+}

@@ -1,0 +1,19 @@
+source:
+  citation: folkersen2017improve
+  local: sources/folkersen2017improve.txt
+  sha256: a905e58c61284943f3b22b2002efbe3219b2e1d652cf877ff12f4cd29c1d8556
+  doi: 10.1371/journal.pgen.1006706
+  note: Full text from Europe PMC fullTextXML (PMC5393901), tags stripped, one title or paragraph per
+    line. Folkersen L et al. 2017 PLoS Genet (Mapping of 79 loci for 83 plasma protein biomarkers in cardiovascular
+    disease). PMID 28369058.
+claims:
+  platform-cvd1:
+    quotes:
+    - exact: Plasma concentrations were measured in baseline EDTA plasma samples using the ProSeek CVD
+        array I (Olink Biosciences, Uppsala, Sweden), according to the standard protocol.
+      section: 'Materials and methods: Plasma protein determinations and quality control'
+  proteins-83-of-92:
+    quotes:
+    - exact: After QC, a total number of 83 proteins out of the 92 remained for analysis (full overview
+        in supplementary S3 Table).
+      section: 'Materials and methods: Plasma protein determinations and quality control'

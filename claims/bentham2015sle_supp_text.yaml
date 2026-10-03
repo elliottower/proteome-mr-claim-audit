@@ -1,0 +1,65 @@
+source:
+  citation: bentham2015sle_supp_text
+  local: sources/bentham2015sle_supp_text.txt
+  sha256: d37288c49d3ee79c8c8e04d7b73d491974e006ec3ce0ceb8e92d7400c8d79f62
+  doi: 10.1038/ng.3434
+  note: 'Supplementary Text, Figures legends and Tables of Bentham J et al. 2015 Nat Genet (NIHMS65418-supplement-1.docx
+    from the Europe PMC supplementaryFiles zip for PMC4668589), converted with python-docx: paragraphs,
+    then each table one row per line with cells separated by " | ".'
+claims:
+  st9-header:
+    quotes:
+    - exact: Group number | Description | Number of cases | Number of controls | Total samples
+      section: Supplementary Table 9 (origins of subjects genotyped in the main GWAS)
+  g1:
+    quotes:
+    - exact: 1 | Canadian samples | 823 | 0 | 823
+      section: Supplementary Table 9 (origins of subjects genotyped in the main GWAS)
+  g2:
+    quotes:
+    - exact: 2 | Spanish samples, coordinated by a center in Barcelona
+      section: Supplementary Table 9 (origins of subjects genotyped in the main GWAS)
+  g3:
+    quotes:
+    - exact: 3 | Dutch and Polish samples, coordinated by a center in the Netherlands
+      section: Supplementary Table 9 (origins of subjects genotyped in the main GWAS)
+  g4:
+    quotes:
+    - exact: 4 | Spanish samples, coordinated by a center in Granada
+      section: Supplementary Table 9 (origins of subjects genotyped in the main GWAS)
+  g5:
+    quotes:
+    - exact: 5 | German samples | 194
+      section: Supplementary Table 9 (origins of subjects genotyped in the main GWAS)
+  g6:
+    quotes:
+    - exact: 6 | Turkish samples | 77
+      section: Supplementary Table 9 (origins of subjects genotyped in the main GWAS)
+  g7:
+    quotes:
+    - exact: 7 | American samples | 188
+      section: Supplementary Table 9 (origins of subjects genotyped in the main GWAS)
+  g8:
+    quotes:
+    - exact: 8 | UK samples, provided by the MRC and 1958 British Birth Cohort
+      section: Supplementary Table 9 (origins of subjects genotyped in the main GWAS)
+  g9:
+    quotes:
+    - exact: 9 | Samples provided by the BIOLUPUS network (northern European)
+      section: Supplementary Table 9 (origins of subjects genotyped in the main GWAS)
+  g10:
+    quotes:
+    - exact: 10 | Samples provided by the BIOLUPUS and GENLES networks (southern European)
+      section: Supplementary Table 9 (origins of subjects genotyped in the main GWAS)
+  g11:
+    quotes:
+    - exact: 11 | UK samples | 1,266
+      section: Supplementary Table 9 (origins of subjects genotyped in the main GWAS)
+  total:
+    quotes:
+    - exact: Total |  | 4,946 | 1,286 | 6,232
+      section: Supplementary Table 9 (origins of subjects genotyped in the main GWAS)
+  st9-pointer:
+    quotes:
+    - exact: The origins of the subjects genotyped in the main GWAS are shown in Supplementary Table 9.
+      section: Supplementary Text 2.1

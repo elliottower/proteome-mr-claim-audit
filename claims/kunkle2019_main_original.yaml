@@ -1,0 +1,22 @@
+source:
+  citation: kunkle2019_main
+  local: sources/original/kunkle2019_main.txt
+  sha256: 5294c5950ea68907b27040bd3ac37d43c0083d57dcefa48eca854e94b2901cdd
+  url: https://pmc-oa-opendata.s3.amazonaws.com/PMC6463297.1/PMC6463297.1.txt
+  doi: 10.1038/s41588-019-0358-2
+  note: 'Original file behind claims/kunkle2019_main.yaml: PMC6463297.1.txt from the PMC open-data bucket,
+    without the one-line header the text pin adds. The quotations here are the quotations of that file
+    that resolve in this file under the citations readers; a quotation absent here is pinned to the extracted
+    text there only.'
+claims:
+  stage1_46_studies:
+    quotes:
+    - exact: 'All Stage 1 meta-analysis samples are from four consortia: ADGC, CHARGE, EADI, and GERAD/PERADES.
+        Summary demographics of all 46 case-control studies from the four consortia are described in Supplementary
+        Tables 1 and 2.'
+      section: Methods
+  stage1_sumstats_niagads:
+    quotes:
+    - exact: Genome-wide summary statistics for the Stage 1 discovery have been deposited in The National
+        Institute on Aging Genetics of Alzheimer’s Disease Data Storage Site (NIAGADS)
+      section: Data availability

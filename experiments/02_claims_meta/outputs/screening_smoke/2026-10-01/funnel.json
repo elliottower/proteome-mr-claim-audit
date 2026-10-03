@@ -1,0 +1,46 @@
+{
+ "run": "outputs/raw/search_smoke/2026-10-01",
+ "source_records": {
+  "pubmed": 14,
+  "epmc": 10,
+  "openalex": 19
+ },
+ "pubmed_records_fetched_for_other_sources": 4,
+ "retrieved_records_by_stream": {
+  "epmc/Q1_smoke": 2,
+  "epmc/Q4_smoke": 8,
+  "openalex/Q1_smoke": 5,
+  "openalex/Q4_smoke": 14,
+  "pubmed/Q1_smoke": 2,
+  "pubmed/Q4_smoke": 8
+ },
+ "screening_records": 23,
+ "duplicates_removed": 20,
+ "screening_records_by_sources": {
+  "pubmed+epmc": 3,
+  "pubmed+epmc+openalex": 6,
+  "pubmed+openalex": 4,
+  "pubmed": 1,
+  "epmc+openalex": 1,
+  "openalex": 8
+ },
+ "screening_records_by_kind": {
+  "journal": 22,
+  "preprint": 1
+ },
+ "screening_records_by_lead_source_type": {
+  "pubmed: Journal Article; Research Support, Non-U.S. Gov't": 5,
+  "pubmed: Journal Article": 4,
+  "pubmed: Journal Article; Research Support, N.I.H., Extramural; Research Support, Non-U.S. Gov't": 2,
+  "pubmed: Editorial; Comment": 1,
+  "pubmed: Journal Article; Research Support, Non-U.S. Gov't; Review": 1,
+  "pubmed: Journal Article; Review": 1,
+  "epmc: PPR: Preprint": 1,
+  "openalex: conference-abstract": 4,
+  "openalex: dissertation": 2,
+  "openalex: peer-review": 1,
+  "openalex: dataset": 1
+ },
+ "screening_records_without_abstract": 1,
+ "preprints_with_published_link": 1
+}

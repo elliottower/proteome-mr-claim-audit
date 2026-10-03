@@ -1,0 +1,17 @@
+source:
+  citation: skrivankova2021bmj
+  local: sources/original/skrivankova2021bmj.xml
+  sha256: 78af73ab0943a8e1223370873da0b0f08dda2bbad53da3cf8e90824da7b99a78
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8546498/fullTextXML
+  doi: 10.1136/bmj.n2233
+  extractor: jats-text
+  note: 'Original file behind claims/skrivankova2021bmj.yaml: the XML pinned in claims/skrivankova2021bmj_original.yaml,
+    read by the citations extractor jats-text. The quotations here are those of that file that resolve
+    in this reading; a quotation absent here stays pinned where it already was.'
+  extractor_version: 1
+  derived_sha256: 8085893fc6d235a4f89a5b198c5c6d541c11cc46eb36f69437788a31dd759d63
+claims:
+  explains:
+    quotes:
+    - exact: This article explains the 20 items of the STROBE-MR checklist
+      section: Abstract

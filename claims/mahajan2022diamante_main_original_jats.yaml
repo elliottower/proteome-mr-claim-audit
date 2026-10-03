@@ -1,0 +1,18 @@
+source:
+  citation: mahajan2022diamante_main
+  local: sources/original/mahajan2022diamante_main.xml
+  sha256: 8183d7bebbfd720f5adc53a8fa3cd6e886667b1d0fcd8e78a6bd9fcbc4a6d654
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9179018/fullTextXML
+  doi: 10.1038/s41588-022-01058-3
+  extractor: jats-text
+  note: 'Original file behind claims/mahajan2022diamante_main.yaml: the XML pinned in claims/mahajan2022diamante_main_original.yaml,
+    read by the citations extractor jats-text. The quotations here are those of that file that resolve
+    in this reading; a quotation absent here stays pinned where it already was.'
+  extractor_version: 1
+  derived_sha256: 9d8045e2ca4f2a70e101327bd9e2c1582d440ed63607e3f4de18b6d4f0548c12
+claims:
+  availability:
+    quotes:
+    - exact: Association summary statistics from the multi-ancestry meta-analysis and annotation-informed
+        fine-mapping are available through the AMP-T2D Knowledge Portal
+      section: Data availability

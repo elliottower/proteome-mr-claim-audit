@@ -1,0 +1,34 @@
+source:
+  citation: nielsen2018af_main
+  local: sources/original/nielsen2018af_main.xml
+  sha256: 8d3e7e7a9fef829918cc82c2e37cbb0f6a48d29c7869e489c8a9262670fac80c
+  url: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=PMC6530775
+  doi: 10.1038/s41588-018-0171-3
+  extractor: jats-text
+  note: 'Original file behind claims/nielsen2018af_main.yaml: the XML pinned in claims/nielsen2018af_main_original.yaml,
+    read by the citations extractor jats-text. The quotations here are those of that file that resolve
+    in this reading; a quotation absent here stays pinned where it already was.'
+  extractor_version: 1
+  derived_sha256: 6544055566d175cdab007b903eff02cc8f00a142a17a9b326e07fba04b579a5a
+claims:
+  six-studies:
+    quotes:
+    - exact: comparing a total of 60,620 cases and 970,216 controls of European ancestry from six contributing
+        studies (The Nord-Trøndelag Health Study (HUNT), deCODE, the Michigan Genomics Initiative (MGI),
+        DiscovEHR, UK Biobank, and the AFGen Consortium) (Supplementary Table 1)
+      section: Main text
+  afgen:
+    quotes:
+    - exact: Published atrial fibrillation association summary statistics from 31 cohorts representing
+        17,931 atrial fibrillation cases and 115,142 controls were obtained from the authors6.
+      section: Online Methods, AFGen Consortium
+  ctrl-decode:
+    quotes:
+    - exact: Controls were 358,161 Icelanders recruited through different genetic research projects at
+        deCODE genetics, excluding those in the atrial fibrillation cohort.
+      section: Online Methods, deCODE
+  release:
+    quotes:
+    - exact: The meta-analysis summary association statistics that support the findings of this study
+        are available for download at http://csg.sph.umich.edu/willer/public/afib2018.
+      section: Data availability

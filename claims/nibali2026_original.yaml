@@ -1,0 +1,26 @@
+source:
+  citation: nibali2026
+  local: sources/original/nibali2026.pdf
+  sha256: 2392dee387e4d9c544bedef27642ab7e6af176f734b5682cee0a7172962b69e6
+  doi: 10.1111/jre.70168
+  note: 'Original file behind claims/nibali2026.yaml: publisher PDF obtained through the OpenAlex content
+    endpoint. The quotations here are the quotations of that file that resolve in this file under the
+    citations readers; a quotation absent here is pinned to the extracted text there only.'
+claims:
+  n-15:
+    quotes:
+    - exact: Fifteen MR studies published between 2023 and 2026 were included.
+      section: Abstract, Results
+  q3-three:
+    quotes:
+    - exact: Exclusion restriction (Q3) was rated Low in only three studies
+      section: Results, risk of bias
+  search-terms:
+    quotes:
+    - exact: The search combined terms related to periodontitis, Mendelian randomisation methodology,
+        and drug-­target prioritisation
+      section: 2.3 Search Methods
+  designs-iii:
+    quotes:
+    - exact: explicitly designed to identify potential therapeutic targets
+      section: 2.2 Eligibility Criteria, design (iii) proteome-wide cis-pQTL analyses

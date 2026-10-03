@@ -1,0 +1,32 @@
+source:
+  citation: woolf2022
+  local: sources/woolf2022_mrbase_PMC9749715.txt
+  sha256: 37ab9abe172e2edc031bbd098948c679a6ea2bd51fab2c9fa274de66808a3d93
+  doi: 10.1093/ije/dyac074
+  note: Full text from Europe PMC fullTextXML (PMC9749715), tags stripped. Woolf B, Di Cara N, Moreno-Stokoe
+    C, Skrivankova V, Drax K, Higgins JPT, Hemani G, Munafo MR, Davey Smith G, Yarmolinsky J, Richmond
+    RC. Investigating the transparency of reporting in two-sample summary data Mendelian randomization
+    studies using the MR-Base platform. Int J Epidemiol 2022;51(6):1943-1956.
+claims:
+  n-87:
+    quotes:
+    - exact: In the primary analysis, 87 studies were included.
+      section: Abstract, Results
+  overlap:
+    quotes:
+    - exact: Neither question in the ‘2SMR specific assumption’ domain (on sample overlap and consistency
+        of populations) was answered adequately, both being reported in fewer than 40% of studies.
+      section: Results
+  code:
+    quotes:
+    - exact: fewer than 10% provided the analysis code
+      section: Results
+  multiple-testing:
+    quotes:
+    - exact: just under 50% of studies that tested more than one hypothesis described the use of a multiple
+        testing correction
+      section: Results
+  prereg:
+    quotes:
+    - exact: was pre-registered on the Open Science Framework
+      section: Methods

@@ -1,0 +1,99 @@
+{
+ "run_id": "smoke_pre2019_20261002_s3_extraction_0b97103cd7a4",
+ "note": "pre-freeze smoke run on records first public before 2019: extraction, repeat run and agreement for the search and chase round 1",
+ "written_utc": "2026-10-02T20:20:04+00:00",
+ "files": [
+  {
+   "path": "outputs/parsed/sol_extraction_smoke_pre2019_20261002_0b97103cd7a4.jsonl",
+   "bytes": 175,
+   "sha256": "232d2cf8b9b3e18f846d1c256e8488b43ac47fd642092f14d3272d4e44726585"
+  },
+  {
+   "path": "outputs/parsed/sol_extraction_smoke_pre2019_20261002_0b97103cd7a4.meta.json",
+   "bytes": 707,
+   "sha256": "7ea4ef299d0a7b16167822f3de4613367729d72e1b632a3facb5f7b2eaada86f"
+  },
+  {
+   "path": "outputs/parsed/sol_extraction_smoke_pre2019_20261002_chase1_0b97103cd7a4.jsonl",
+   "bytes": 2289,
+   "sha256": "150d77e031a5f0443b3fe1e81df4d5efc0020c83f5e234ff73369bc42adb3d2a"
+  },
+  {
+   "path": "outputs/parsed/sol_extraction_smoke_pre2019_20261002_chase1_0b97103cd7a4.meta.json",
+   "bytes": 727,
+   "sha256": "1aae8107a294adcaaabc202ed89123dc3eab7b4c509e26b8168b663dd149b15d"
+  },
+  {
+   "path": "outputs/parsed/sol_extraction_smoke_pre2019_20261002_chase1_repeat_0b97103cd7a4.jsonl",
+   "bytes": 2355,
+   "sha256": "03db312fa819e33b98b6a8094562fc905d8d5b229cb31809cebd09d93732b67f"
+  },
+  {
+   "path": "outputs/parsed/sol_extraction_smoke_pre2019_20261002_chase1_repeat_0b97103cd7a4.meta.json",
+   "bytes": 729,
+   "sha256": "cbc2490ece62443cddcc531a19e5396a96672e0c207c00a30790b6a7027822c5"
+  },
+  {
+   "path": "outputs/parsed/sol_extraction_smoke_pre2019_20261002_repeat_0b97103cd7a4.jsonl",
+   "bytes": 175,
+   "sha256": "232d2cf8b9b3e18f846d1c256e8488b43ac47fd642092f14d3272d4e44726585"
+  },
+  {
+   "path": "outputs/parsed/sol_extraction_smoke_pre2019_20261002_repeat_0b97103cd7a4.meta.json",
+   "bytes": 712,
+   "sha256": "c68ac1cf7b0d2f1667cf502b66b976556b588367a535502a3ef4333ff56a6585"
+  },
+  {
+   "path": "outputs/raw/sol_smoke_pre2019_20261002/extraction/0b97103cd7a4/29875488_attempt1.json",
+   "bytes": 30128,
+   "sha256": "1d94ca6f82e4ba1ca20174f5bbd2e1cecbc70e1cd7deb63aa26e183a5164f252"
+  },
+  {
+   "path": "outputs/raw/sol_smoke_pre2019_20261002/extraction/0b97103cd7a4/W2901567682_attempt1.json",
+   "bytes": 35869,
+   "sha256": "0805a554a93cedc06783f8f03d180dd54354311865712554097da9d077daa68a"
+  },
+  {
+   "path": "outputs/raw/sol_smoke_pre2019_20261002/extraction/0b97103cd7a4/prompt.md",
+   "bytes": 9497,
+   "sha256": "2a2bef3852f822eb64a19cdc6b880f8ba4f4cac7d262976f0016e517177a6049"
+  },
+  {
+   "path": "outputs/raw/sol_smoke_pre2019_20261002/extraction/0b97103cd7a4/schema.json",
+   "bytes": 2126,
+   "sha256": "334a58f4b0a380300fac1116d35eb120ab58dc5d35a9f5f7e1e71a2077dcb351"
+  },
+  {
+   "path": "outputs/raw/sol_smoke_pre2019_20261002_repeat/extraction/0b97103cd7a4/29875488_attempt1.json",
+   "bytes": 30128,
+   "sha256": "ee6f7e67707d2febc5e3ec5092acbd7b0372d5fedcb697ef2c9c6b3d03d07d15"
+  },
+  {
+   "path": "outputs/raw/sol_smoke_pre2019_20261002_repeat/extraction/0b97103cd7a4/W2901567682_attempt1.json",
+   "bytes": 36041,
+   "sha256": "8d2985f72c9a575664a31f6339d62b5fa5ab72ccb03a298fcd276d367f308414"
+  },
+  {
+   "path": "outputs/raw/sol_smoke_pre2019_20261002_repeat/extraction/0b97103cd7a4/prompt.md",
+   "bytes": 9497,
+   "sha256": "2a2bef3852f822eb64a19cdc6b880f8ba4f4cac7d262976f0016e517177a6049"
+  },
+  {
+   "path": "outputs/raw/sol_smoke_pre2019_20261002_repeat/extraction/0b97103cd7a4/schema.json",
+   "bytes": 2126,
+   "sha256": "334a58f4b0a380300fac1116d35eb120ab58dc5d35a9f5f7e1e71a2077dcb351"
+  },
+  {
+   "path": "outputs/repeat_run/smoke_pre2019_20261002/repeat_run_agreement.json",
+   "bytes": 1995,
+   "sha256": "5eaf68d968ff637ae8799f57798d8e75eb6faaf46216a5b2fceeb4cbea0ace01"
+  },
+  {
+   "path": "outputs/repeat_run/smoke_pre2019_20261002_chase1/repeat_run_agreement.json",
+   "bytes": 2003,
+   "sha256": "9f2053bb1c35fa0d939e578547678a67fe459753c37f58198195791c57fc0a94"
+  }
+ ],
+ "recorded_directly": [],
+ "volume_checks": []
+}

@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/exp/scripts/dry_run_biology_synthetic.py", line 446, in <module>
+    main()
+  File "/exp/scripts/dry_run_biology_synthetic.py", line 363, in main
+    expect("reference pairs, names as written",
+  File "/exp/scripts/dry_run_biology_synthetic.py", line 307, in expect
+    raise AssertionError(f"dry run: {name} is {got!r}, expected {want!r}")
+AssertionError: dry run: reference pairs, names as written is {'present_same': 0, 'present_opposite': 0, 'present_nondirectional_or_ambiguous': 0, 'no_returned_record': 0, 'mapping_failed': 8}, expected {'present_same': 0, 'present_opposite': 0, 'present_nondirectional_or_ambiguous': 1, 'no_returned_record': 2, 'mapping_failed': 5}

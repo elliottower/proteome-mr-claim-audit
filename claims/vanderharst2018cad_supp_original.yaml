@@ -1,0 +1,29 @@
+source:
+  citation: vanderharst2018cad_supp
+  local: sources/original/vanderharst2018cad_supp.pdf
+  sha256: d02c58356f9b0f7250846cf6e85802cd041104a3961566e3bca02582b3e93463
+  url: https://pmc-oa-opendata.s3.amazonaws.com/PMC5805277.1/res-122-433-s001.pdf
+  doi: 10.1161/CIRCRESAHA.117.312086
+  note: 'Original file behind claims/vanderharst2018cad_supp.yaml: res-122-433-s001.pdf from the PMC open-data
+    bucket. The quotations here are the quotations of that file that resolve in this file under the citations
+    readers; a quotation absent here is pinned to the extracted text there only.'
+claims:
+  meta-howson:
+    quotes:
+    - exact: Finally, we performed a meta-analysis of the GWAS of UK Biobank and the 1000Genomes4+ study6
+      section: Online Data Supplement, Methods
+  ref4-nikpay:
+    quotes:
+    - exact: Nikpay M, Goel A, Won H-H, et al. A comprehensive 1,000 Genomes-based genome-wide association
+        meta-analysis of coronary artery disease.
+      section: References
+  ref5-deloukas:
+    quotes:
+    - exact: CARDIoGRAMplusC4D Consortium P, Deloukas P, Kanoni S, et al. Large-scale association analysis
+        identifies new risk loci for coronary artery disease.
+      section: References
+  ref6-howson:
+    quotes:
+    - exact: Howson JMM, Zhao W, Barnes DR, et al. Fifteen new risk loci for coronary artery disease highlight
+        arterial-wall-specific mechanisms.
+      section: References

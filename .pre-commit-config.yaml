@@ -1,0 +1,6 @@
+# Fails a commit when a number declared in repro.yaml no longer matches the file it was read from.
+repos:
+  - repo: https://github.com/elliottower/reproducible-science
+    rev: v0.4.2
+    hooks:
+      - id: repro-verify

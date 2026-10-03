@@ -1,0 +1,37 @@
+source:
+  citation: evangelou2018bp_main
+  local: sources/original/evangelou2018bp_main.xml
+  sha256: 0e45b439bd95b1316649eafaad2450520813401889c5cf20f9880a0752296fe6
+  url: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=PMC6284793
+  doi: 10.1038/s41588-018-0205-x
+  extractor: jats-text
+  note: 'Original file behind claims/evangelou2018bp_main.yaml: the XML pinned in claims/evangelou2018bp_main_original.yaml,
+    read by the citations extractor jats-text. The quotations here are those of that file that resolve
+    in this reading; a quotation absent here stays pinned where it already was.'
+  extractor_version: 1
+  derived_sha256: 7e620ab4cfcf34617e6f9e6b35a1f130f4220234b547d5ac8349b39f3311ea93
+claims:
+  icbp-77-cohorts:
+    quotes:
+    - exact: The final enlarged ICBP GWAS dataset included 77 cohorts (N=299,024).
+      section: Online Methods
+  discovery-757601:
+    quotes:
+    - exact: We then combined the UKB and ICBP GWAS results using inverse-variance weighted fixed effects
+        meta-analysis (Online Methods), giving a total discovery sample of up to 757,601 individuals
+      section: Results
+  replication-mvp-egcut:
+    quotes:
+    - exact: We considered SNPs with MAF ≥ 1% for an independent replication in MVP (max N=220,520)14
+        and in EGCUT Biobank (N=28,742)15
+      section: Online Methods
+  icbp-23-new-studies:
+    quotes:
+    - exact: 'The 23 studies providing new data were: ASCOT-SC, ASCOT-UK, BRIGHT, Dijon 3C, EPIC-CVD,
+        GAPP, HCS, GS:SFHS, Lifelines, JUPITER, PREVEND, TWINSUK, GWAS-Fenland, InterAct-GWAS, OMICS-EPIC,
+        OMICS-Fenland, UKHLS, GoDARTS-Illumina and GoDarts-Affymetrix, NEO, MDC, SardiNIA, METSIM.'
+      section: Online Methods
+  data-availability:
+    quotes:
+    - exact: ICBP summary data can be assessed through request to ICBP steering committee.
+      section: Data availability statement

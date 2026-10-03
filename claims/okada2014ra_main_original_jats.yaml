@@ -1,0 +1,43 @@
+source:
+  citation: okada2014ra_main
+  local: sources/original/okada2014ra_main.xml
+  sha256: af9b93cea488d3af9b199198b6e54a09d60a5fe160580b26ffec8eed4c4b0429
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC3944098/fullTextXML
+  doi: 10.1038/nature12873
+  extractor: jats-text
+  note: 'Original file behind claims/okada2014ra_main.yaml: the XML pinned in claims/okada2014ra_main_original.yaml,
+    read by the citations extractor jats-text. The quotations here are those of that file that resolve
+    in this reading; a quotation absent here stays pinned where it already was.'
+  extractor_version: 1
+  derived_sha256: c05f6dbeeafe7a9f84fee95e88fe4275dbb6406ddbbfd3f6eb3661e4abe987ac
+claims:
+  stage1-22:
+    quotes:
+    - exact: The 19,234 RA cases and 61,565 controls enrolled in the Stage I trans-ethnic GWAS meta-analysis
+        were obtained from 22 studies from European and Asian ancestries
+      section: 'Methods: Subjects'
+  stage1-list:
+    quotes:
+    - exact: 'BRASS2, CANADA2, EIRA2, NARAC12, NARAC22, WTCCC2, Rheumatoid Arthritis Consortium International
+        for Immunochip (RACI)-UK4, RACI-US4, RACI-SE-E4, RACI-SE-U4, RACI-NL4, RACI-ES4, RACI-i2b2, ReAct,
+        Dutch (including AMC, BeSt, LUMC, and DREAM), anti-TNF response to therapy collection (ACR-REF:
+        BRAGGSS, BRAGGSS2, ERA, KI, and TEAR), CORRONA, Vanderbilt, 3 studies from the GARNET consortium
+        (BioBank Japan Project3, Kyoto University3, and IORRA3), and Korea.'
+      section: 'Methods: Subjects'
+  stage2:
+    quotes:
+    - exact: The 3,708 RA cases and 5,535 controls enrolled in the Stage II in silico replication study
+        were obtained from 2 studies from Europeans (2,780 RA cases and 4,700 controls from Genentech
+        and SLEGEN) and Asians (928 RA cases and 835 controls from China)
+      section: 'Methods: Subjects'
+  stage3:
+    quotes:
+    - exact: The 6,938 RA cases and 6,658 controls enrolled in the Stage III de novo replication study
+        were obtained from 2 studies from Europeans (995 RA cases and 1,101 controls from CANADAII2) and
+        Asians (5,943 RA cases and 5,557 controls from BioBank Japan Project, Kyoto University, and IORRA3).
+      section: 'Methods: Subjects'
+  sumstats-release:
+    quotes:
+    - exact: Summary statistics from the GWAS meta-analysis, source codes, and data sources used in this
+        study are available at http://plaza.umin.ac.jp/~yokada/datasource/software.htm
+      section: Supplementary information / data availability

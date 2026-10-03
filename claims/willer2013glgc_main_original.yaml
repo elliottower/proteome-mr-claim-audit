@@ -1,0 +1,28 @@
+source:
+  citation: willer2013glgc_main
+  local: sources/original/willer2013glgc_main.xml
+  sha256: 7a6fd9832653b8d30ba93765947d2a0abec9e74132905d0aee148af0a439b5b8
+  url: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=PMC3838666
+  doi: 10.1038/ng.2797
+  note: 'Original file behind claims/willer2013glgc_main.yaml: NCBI E-utilities efetch (db=pmc) XML of
+    PMC3838666, read as plain text with its markup. The quotations here are the quotations of that file
+    that resolve in this file under the citations readers; a quotation absent here is pinned to the extracted
+    text there only.'
+claims:
+  non-european-8:
+    quotes:
+    - exact: Another 8 studies consisted primarily of individuals with non-European ancestry
+      section: Online Methods
+  single-ancestry-meta:
+    quotes:
+    - exact: All meta-analyses were limited to a single ancestral group (e.g. European only).
+      section: Online Methods
+  metabochip-preferred:
+    quotes:
+    - exact: In cases where Metabochip and GWAS array data were available for the same individuals, we
+        used Metabochip data to ensure key variants were directly genotyped, rather than imputed.
+      section: Results
+  summary-results:
+    quotes:
+    - exact: Summary results for our studies are available.
+      section: URLs / data

@@ -1,0 +1,745 @@
+source:
+  citation: mahajan2022diamante_supp_tables1_3
+  local: sources/mahajan2022diamante_supp_tables1_3.txt
+  sha256: 6f52d512ed309441c71669fd2b7d6c7d91ff7ee5def3c97fef266585c8ceb87f
+  doi: 10.1038/s41588-022-01058-3
+  note: Supplementary Tables 1-3 (study list, per-ancestry GWAS sample characteristics, ancestry sample
+    sizes) of Mahajan et al. 2022 Nat Genet, ESM 41588_2022_1058_MOESM3_ESM.xlsx sheets ST1, ST2, ST3
+    from static-content.springer.com, converted with openpyxl, one row per line, cells separated by '
+    | ', sheets separated by '== Sheet' lines
+claims:
+  c_aasc:
+    quotes:
+    - exact: AASC | Anti-aging Study Cohort
+      section: Supplementary Table 1 (T2D case and control ascertainment, study list)
+  c_aric:
+    quotes:
+    - exact: ARIC | Atherosclerosis Risk in Communities Study
+      section: Supplementary Table 1 (T2D case and control ascertainment, study list)
+  c_bbj:
+    quotes:
+    - exact: BBJ | Biobank Japan
+      section: Supplementary Table 1 (T2D case and control ascertainment, study list)
+  c_bes:
+    quotes:
+    - exact: BES | Beijing Eye Study
+      section: Supplementary Table 1 (T2D case and control ascertainment, study list)
+  c_biome:
+    quotes:
+    - exact: BIOME | BioMe Biobank
+      section: Supplementary Table 1 (T2D case and control ascertainment, study list)
+  c_bpc:
+    quotes:
+    - exact: BPC | Bangladesh Population Cohort
+      section: Supplementary Table 1 (T2D case and control ascertainment, study list)
+  c_cage_amagasaki:
+    quotes:
+    - exact: CAGE-AMAGASKI | Cardiometabolic Genome Epidemiology
+      section: Supplementary Table 1 (T2D case and control ascertainment, study list)
+  c_cage_gwas:
+    quotes:
+    - exact: CAGE-GWAS | Cardiometabolic Genome Epidemiology
+      section: Supplementary Table 1 (T2D case and control ascertainment, study list)
+  c_cage_king:
+    quotes:
+    - exact: CAGE-KING | Cardiometabolic Genome Epidemiology Kita-Nagoya Genomic Epidemiology
+      section: Supplementary Table 1 (T2D case and control ascertainment, study list)
+  c_cardia:
+    quotes:
+    - exact: CARDIA | Coronary Artery Risk Development in Young Adults
+      section: Supplementary Table 1 (T2D case and control ascertainment, study list)
+  c_cfs:
+    quotes:
+    - exact: CFS | Cleveland Family Study
+      section: Supplementary Table 1 (T2D case and control ascertainment, study list)
+  c_chns:
+    quotes:
+    - exact: CHNS | China Health and Nutrition Survey
+      section: Supplementary Table 1 (T2D case and control ascertainment, study list)
+  c_chs:
+    quotes:
+    - exact: CHS | Cardiovascular Health Study
+      section: Supplementary Table 1 (T2D case and control ascertainment, study list)
+  c_ckb:
+    quotes:
+    - exact: CKB | China Kadoorie Biobank
+      section: Supplementary Table 1 (T2D case and control ascertainment, study list)
+  c_clhns:
+    quotes:
+    - exact: CLHNS | Cebu Longitudinal Health and Nutrition Survey
+      section: Supplementary Table 1 (T2D case and control ascertainment, study list)
+  c_dc_sp2:
+    quotes:
+    - exact: DC/SP2 | Diabetic Cohort and Singapore Prospective Study Program
+      section: Supplementary Table 1 (T2D case and control ascertainment, study list)
+  c_dds_dcc:
+    quotes:
+    - exact: DDS/DCC | Durban Diabetes Study and Durban Diabetes Case Control
+      section: Supplementary Table 1 (T2D case and control ascertainment, study list)
+  c_decode:
+    quotes:
+    - exact: DECODE | deCODE Genetics
+      section: Supplementary Table 1 (T2D case and control ascertainment, study list)
+  c_dgdg:
+    quotes:
+    - exact: DGDG | Diabetes Gene Discovery Group
+      section: Supplementary Table 1 (T2D case and control ascertainment, study list)
+  c_dgi:
+    quotes:
+    - exact: DGI | Diabetes Genetics Initiative
+      section: Supplementary Table 1 (T2D case and control ascertainment, study list)
+  c_estonian_biobank:
+    quotes:
+    - exact: EGCUT | Estonian Genome Center of the University of Tartu
+      section: Supplementary Table 1 (T2D case and control ascertainment, study list)
+  c_emerge:
+    quotes:
+    - exact: EMERGE | Electronic Medical Records and Genomics Network
+      section: Supplementary Table 1 (T2D case and control ascertainment, study list)
+  c_epic_interact:
+    quotes:
+    - exact: EPIC-INTERACT | European Prospective Investigation into Cancer and Nutrition
+      section: Supplementary Table 1 (T2D case and control ascertainment, study list)
+  c_epidream:
+    quotes:
+    - exact: EPIDREAM | Epidemiologic study of the Screenees for DREAM (Diabetes Reduction Assessment
+        with Ramipril and Rosiglitazone Medication)
+      section: Supplementary Table 1 (T2D case and control ascertainment, study list)
+  c_famhs:
+    quotes:
+    - exact: FAMHS | Family Heart Study
+      section: Supplementary Table 1 (T2D case and control ascertainment, study list)
+  c_fhs:
+    quotes:
+    - exact: FHS | Framingham Heart Study
+      section: Supplementary Table 1 (T2D case and control ascertainment, study list)
+  c_fusion:
+    quotes:
+    - exact: FUSION | Finland-United States Investigation of NIDDM Genetics
+      section: Supplementary Table 1 (T2D case and control ascertainment, study list)
+  c_gckd:
+    quotes:
+    - exact: GCKD | German Chronic Kidney Disease
+      section: Supplementary Table 1 (T2D case and control ascertainment, study list)
+  c_genestar:
+    quotes:
+    - exact: GENESTAR | Genetic Study of Atherosclerosis Risk
+      section: Supplementary Table 1 (T2D case and control ascertainment, study list)
+  c_genoa:
+    quotes:
+    - exact: GENOA | Genetic Epidemiology Network of Arteriosclerosis
+      section: Supplementary Table 1 (T2D case and control ascertainment, study list)
+  c_gera:
+    quotes:
+    - exact: GERA | Resource for Genetic Epidemiology on Adult Health and Aging
+      section: Supplementary Table 1 (T2D case and control ascertainment, study list)
+  c_godarts:
+    quotes:
+    - exact: GODARTS | Genetics of Diabetes and Audit Research in Tayside Scotland
+      section: Supplementary Table 1 (T2D case and control ascertainment, study list)
+  c_goldr:
+    quotes:
+    - exact: GOLDR | Genetics of Latinos Diabetic Retinopathy
+      section: Supplementary Table 1 (T2D case and control ascertainment, study list)
+  c_gomap_teenage:
+    quotes:
+    - exact: 'GOMAP-TEENAGE | Genetic Overlap between Metabolic and Psychiatric traits & TEENs of Attica:
+        Genes and Environment'
+      section: Supplementary Table 1 (T2D case and control ascertainment, study list)
+  c_grccds:
+    quotes:
+    - exact: GRCCDS | Genomic Research Cohort for CCMB Diabetes Study
+      section: Supplementary Table 1 (T2D case and control ascertainment, study list)
+  c_habc:
+    quotes:
+    - exact: HABC | Health, Aging, and Body Composition Study
+      section: Supplementary Table 1 (T2D case and control ascertainment, study list)
+  c_handls:
+    quotes:
+    - exact: HANDLS | Healthy Aging in Neighborhoods of Diversity across the Life Span Study
+      section: Supplementary Table 1 (T2D case and control ascertainment, study list)
+  c_hchs_sol:
+    quotes:
+    - exact: HCHS/SOL | Hispanic Community Health Study/Study of Latinos
+      section: Supplementary Table 1 (T2D case and control ascertainment, study list)
+  c_hkdr:
+    quotes:
+    - exact: HKDR | Hong Kong Diabetes Registry
+      section: Supplementary Table 1 (T2D case and control ascertainment, study list)
+  c_hpfs:
+    quotes:
+    - exact: HPFS | Health Professionals’ Follow-Up Study
+      section: Supplementary Table 1 (T2D case and control ascertainment, study list)
+  c_htnir:
+    quotes:
+    - exact: HTNIR | Mexican American Hypertension and Insulin Resistance
+      section: Supplementary Table 1 (T2D case and control ascertainment, study list)
+  c_hufs:
+    quotes:
+    - exact: HUFS | Howard University Family Study
+      section: Supplementary Table 1 (T2D case and control ascertainment, study list)
+  c_indico:
+    quotes:
+    - exact: INDICO | Indian Diabetes Consortium
+      section: Supplementary Table 1 (T2D case and control ascertainment, study list)
+  c_interheart:
+    quotes:
+    - exact: INTERHEART | N/A
+      section: Supplementary Table 1 (T2D case and control ascertainment, study list)
+  c_jhs:
+    quotes:
+    - exact: JHS | Jackson Heart Study
+      section: Supplementary Table 1 (T2D case and control ascertainment, study list)
+  c_kare:
+    quotes:
+    - exact: KARE | Korean Association Resource
+      section: Supplementary Table 1 (T2D case and control ascertainment, study list)
+  c_kba:
+    quotes:
+    - exact: KBA | Korean Biobank Array from the Korean Genome and Epidemiology Study (KoGES) Consortium
+      section: Supplementary Table 1 (T2D case and control ascertainment, study list)
+  c_kora:
+    quotes:
+    - exact: KORA | Collaborative Health Research in the Region of Augsburg
+      section: Supplementary Table 1 (T2D case and control ascertainment, study list)
+  c_lales:
+    quotes:
+    - exact: LALES | Los Angeles Latino Eye Study
+      section: Supplementary Table 1 (T2D case and control ascertainment, study list)
+  c_lolipop:
+    quotes:
+    - exact: LOLIPOP | London Life Sciences Prospective Population
+      section: Supplementary Table 1 (T2D case and control ascertainment, study list)
+  c_macad:
+    quotes:
+    - exact: MACAD | Mexican American Study of Coronary Artery Disease
+      section: Supplementary Table 1 (T2D case and control ascertainment, study list)
+  c_mc:
+    quotes:
+    - exact: MC | Mexico City
+      section: Supplementary Table 1 (T2D case and control ascertainment, study list)
+  c_mesa:
+    quotes:
+    - exact: MESA | Multi-Ethnic Study of Atherosclerosis
+      section: Supplementary Table 1 (T2D case and control ascertainment, study list)
+  c_metsim:
+    quotes:
+    - exact: METSIM | Metabolic Syndrome in Men
+      section: Supplementary Table 1 (T2D case and control ascertainment, study list)
+  c_mgb:
+    quotes:
+    - exact: MGB | Mass General Brigham Biobank
+      section: Supplementary Table 1 (T2D case and control ascertainment, study list)
+  c_mgi:
+    quotes:
+    - exact: MGI | Michigan Genomics Initiative
+      section: Supplementary Table 1 (T2D case and control ascertainment, study list)
+  c_nagahama:
+    quotes:
+    - exact: NAGAHAMA | Nagahama Study
+      section: Supplementary Table 1 (T2D case and control ascertainment, study list)
+  c_neo:
+    quotes:
+    - exact: NEO | Netherlands Epidemiology of Obesity
+      section: Supplementary Table 1 (T2D case and control ascertainment, study list)
+  c_nhs:
+    quotes:
+    - exact: NHS | Nurses’ Health Study
+      section: Supplementary Table 1 (T2D case and control ascertainment, study list)
+  c_niddm:
+    quotes:
+    - exact: 'NIDDM | NIDDM-Atherosclerosis Study: Hispanic Cohorts'
+      section: Supplementary Table 1 (T2D case and control ascertainment, study list)
+  c_nugene:
+    quotes:
+    - exact: NUGENE | Northwestern University Genetics
+      section: Supplementary Table 1 (T2D case and control ascertainment, study list)
+  c_pivus:
+    quotes:
+    - exact: PIVUS | Prospective Investigation of the Vasculature in Uppsala Seniors
+      section: Supplementary Table 1 (T2D case and control ascertainment, study list)
+  c_promis:
+    quotes:
+    - exact: PROMIS | Pakistan Risk of Myocardial Infarction Study
+      section: Supplementary Table 1 (T2D case and control ascertainment, study list)
+  c_prosper:
+    quotes:
+    - exact: PROSPER | PROspective Study of Pravastatin in the Elderly at Risk
+      section: Supplementary Table 1 (T2D case and control ascertainment, study list)
+  c_regards:
+    quotes:
+    - exact: 'REGARDS | Sea Islands Genetic Network: Reasons for Geographic And Racial Differences in
+        Stroke'
+      section: Supplementary Table 1 (T2D case and control ascertainment, study list)
+  c_rhs:
+    quotes:
+    - exact: RHS | Ragama Health Study
+      section: Supplementary Table 1 (T2D case and control ascertainment, study list)
+  c_rs:
+    quotes:
+    - exact: RS | Rotterdam Study
+      section: Supplementary Table 1 (T2D case and control ascertainment, study list)
+  c_sbcs_swhs:
+    quotes:
+    - exact: SBCS/SWHS | Shanghai Breast Cancer Study and Shanghai Women’s Health Study
+      section: Supplementary Table 1 (T2D case and control ascertainment, study list)
+  c_sces:
+    quotes:
+    - exact: SCES | Singapore Chinese Eye Study
+      section: Supplementary Table 1 (T2D case and control ascertainment, study list)
+  c_sch:
+    quotes:
+    - exact: SCH | Starr County Health
+      section: Supplementary Table 1 (T2D case and control ascertainment, study list)
+  c_schs:
+    quotes:
+    - exact: SCHS | Singapore Chinese Health Study
+      section: Supplementary Table 1 (T2D case and control ascertainment, study list)
+  c_sigma:
+    quotes:
+    - exact: SIGMA | Slim Initiative in Genomic Medicine in the Americas
+      section: Supplementary Table 1 (T2D case and control ascertainment, study list)
+  c_simes:
+    quotes:
+    - exact: SIMES | Singapore Malay Eye Study
+      section: Supplementary Table 1 (T2D case and control ascertainment, study list)
+  c_sindi:
+    quotes:
+    - exact: SINDI | Singapore Indian Eye Study
+      section: Supplementary Table 1 (T2D case and control ascertainment, study list)
+  c_smc:
+    quotes:
+    - exact: SMC | Samsung Medical Center
+      section: Supplementary Table 1 (T2D case and control ascertainment, study list)
+  c_snuh:
+    quotes:
+    - exact: SNUH | Seoul National University Hospital
+      section: Supplementary Table 1 (T2D case and control ascertainment, study list)
+  c_taichi:
+    quotes:
+    - exact: TAICHI-G | Taiwan Metabochip Consortium - Zhonghua
+      section: Supplementary Table 1 (T2D case and control ascertainment, study list)
+  c_twt2d:
+    quotes:
+    - exact: TWT2D | Taiwan Type 2 Diabetes
+      section: Supplementary Table 1 (T2D case and control ascertainment, study list)
+  c_ucph:
+    quotes:
+    - exact: UCPH | Danish T2D case-control study
+      section: Supplementary Table 1 (T2D case and control ascertainment, study list)
+  c_ukb:
+    quotes:
+    - exact: UKBB | UK Biobank
+      section: Supplementary Table 1 (T2D case and control ascertainment, study list)
+  c_ulsam:
+    quotes:
+    - exact: ULSAM | Uppsala Longitudinal Study of Adult Men
+      section: Supplementary Table 1 (T2D case and control ascertainment, study list)
+  c_wfsm:
+    quotes:
+    - exact: WFSM | Wake Forest School of Medicine
+      section: Supplementary Table 1 (T2D case and control ascertainment, study list)
+  c_whi:
+    quotes:
+    - exact: WHI | Women’s Health Initiative
+      section: Supplementary Table 1 (T2D case and control ascertainment, study list)
+  c_wtccc:
+    quotes:
+    - exact: WTCCC | Wellcome Trust Case Control Consortium
+      section: Supplementary Table 1 (T2D case and control ascertainment, study list)
+  afr_aric:
+    quotes:
+    - exact: African | ARIC
+      section: Supplementary Table 2 (sample characteristics by ancestry group)
+  afr_biome:
+    quotes:
+    - exact: African | BIOME (AFR 1)
+      section: Supplementary Table 2 (sample characteristics by ancestry group)
+  afr_cardia:
+    quotes:
+    - exact: African | CARDIA
+      section: Supplementary Table 2 (sample characteristics by ancestry group)
+  afr_cfs:
+    quotes:
+    - exact: African | CFS
+      section: Supplementary Table 2 (sample characteristics by ancestry group)
+  afr_chs:
+    quotes:
+    - exact: African | CHS
+      section: Supplementary Table 2 (sample characteristics by ancestry group)
+  afr_dds_dcc:
+    quotes:
+    - exact: African | DDS/DCC
+      section: Supplementary Table 2 (sample characteristics by ancestry group)
+  afr_emerge:
+    quotes:
+    - exact: African | EMERGE
+      section: Supplementary Table 2 (sample characteristics by ancestry group)
+  afr_famhs:
+    quotes:
+    - exact: African | FAMHS
+      section: Supplementary Table 2 (sample characteristics by ancestry group)
+  afr_genestar:
+    quotes:
+    - exact: African | GENESTAR
+      section: Supplementary Table 2 (sample characteristics by ancestry group)
+  afr_genoa:
+    quotes:
+    - exact: African | GENOA (AFR)
+      section: Supplementary Table 2 (sample characteristics by ancestry group)
+  afr_gera:
+    quotes:
+    - exact: African | GERA (AFR)
+      section: Supplementary Table 2 (sample characteristics by ancestry group)
+  afr_habc:
+    quotes:
+    - exact: African | HABC
+      section: Supplementary Table 2 (sample characteristics by ancestry group)
+  afr_handls:
+    quotes:
+    - exact: African | HANDLS
+      section: Supplementary Table 2 (sample characteristics by ancestry group)
+  afr_hufs:
+    quotes:
+    - exact: African | HUFS
+      section: Supplementary Table 2 (sample characteristics by ancestry group)
+  afr_jhs:
+    quotes:
+    - exact: African | JHS
+      section: Supplementary Table 2 (sample characteristics by ancestry group)
+  afr_mesa:
+    quotes:
+    - exact: African | MESA (AFR)
+      section: Supplementary Table 2 (sample characteristics by ancestry group)
+  afr_regards:
+    quotes:
+    - exact: African | REGARDS
+      section: Supplementary Table 2 (sample characteristics by ancestry group)
+  afr_wfsm:
+    quotes:
+    - exact: African | WFSM (1)
+      section: Supplementary Table 2 (sample characteristics by ancestry group)
+  afr_whi:
+    quotes:
+    - exact: African | WHI (AFR)
+      section: Supplementary Table 2 (sample characteristics by ancestry group)
+  eas_aasc:
+    quotes:
+    - exact: East Asian | AASC
+      section: Supplementary Table 2 (sample characteristics by ancestry group)
+  eas_bbj:
+    quotes:
+    - exact: East Asian | BBJ (1)
+      section: Supplementary Table 2 (sample characteristics by ancestry group)
+  eas_bes:
+    quotes:
+    - exact: East Asian | BES (1)
+      section: Supplementary Table 2 (sample characteristics by ancestry group)
+  eas_cage_amagasaki:
+    quotes:
+    - exact: East Asian | CAGE-AMAGASKI
+      section: Supplementary Table 2 (sample characteristics by ancestry group)
+  eas_cage_gwas:
+    quotes:
+    - exact: East Asian | CAGE-GWAS
+      section: Supplementary Table 2 (sample characteristics by ancestry group)
+  eas_cage_king:
+    quotes:
+    - exact: East Asian | CAGE-KING (1)
+      section: Supplementary Table 2 (sample characteristics by ancestry group)
+  eas_chns:
+    quotes:
+    - exact: East Asian | CHNS
+      section: Supplementary Table 2 (sample characteristics by ancestry group)
+  eas_ckb:
+    quotes:
+    - exact: East Asian | CKB-12
+      section: Supplementary Table 2 (sample characteristics by ancestry group)
+  eas_clhns:
+    quotes:
+    - exact: East Asian | CLHNS
+      section: Supplementary Table 2 (sample characteristics by ancestry group)
+  eas_dc_sp2:
+    quotes:
+    - exact: East Asian | DC/SP2 (1)
+      section: Supplementary Table 2 (sample characteristics by ancestry group)
+  eas_hkdr:
+    quotes:
+    - exact: East Asian | HKDR
+      section: Supplementary Table 2 (sample characteristics by ancestry group)
+  eas_kare:
+    quotes:
+    - exact: East Asian | KARE
+      section: Supplementary Table 2 (sample characteristics by ancestry group)
+  eas_kba:
+    quotes:
+    - exact: East Asian | KBA (1)
+      section: Supplementary Table 2 (sample characteristics by ancestry group)
+  eas_mesa:
+    quotes:
+    - exact: East Asian | MESA (EAS)
+      section: Supplementary Table 2 (sample characteristics by ancestry group)
+  eas_nagahama:
+    quotes:
+    - exact: East Asian | NAGAHAMA
+      section: Supplementary Table 2 (sample characteristics by ancestry group)
+  eas_sbcs_swhs:
+    quotes:
+    - exact: East Asian | SBCS/SWHS
+      section: Supplementary Table 2 (sample characteristics by ancestry group)
+  eas_sces:
+    quotes:
+    - exact: East Asian | SCES (1)
+      section: Supplementary Table 2 (sample characteristics by ancestry group)
+  eas_schs:
+    quotes:
+    - exact: East Asian | SCHS
+      section: Supplementary Table 2 (sample characteristics by ancestry group)
+  eas_simes:
+    quotes:
+    - exact: East Asian | SIMES
+      section: Supplementary Table 2 (sample characteristics by ancestry group)
+  eas_smc:
+    quotes:
+    - exact: East Asian | SMC
+      section: Supplementary Table 2 (sample characteristics by ancestry group)
+  eas_snuh:
+    quotes:
+    - exact: East Asian | SNUH
+      section: Supplementary Table 2 (sample characteristics by ancestry group)
+  eas_taichi:
+    quotes:
+    - exact: East Asian | TAICHI-G
+      section: Supplementary Table 2 (sample characteristics by ancestry group)
+  eas_twt2d:
+    quotes:
+    - exact: East Asian | TWT2D
+      section: Supplementary Table 2 (sample characteristics by ancestry group)
+  eur_biome:
+    quotes:
+    - exact: European | BIOME (EUR)
+      section: Supplementary Table 2 (sample characteristics by ancestry group)
+  eur_decode:
+    quotes:
+    - exact: European | DECODE
+      section: Supplementary Table 2 (sample characteristics by ancestry group)
+  eur_dgdg:
+    quotes:
+    - exact: European | DGDG
+      section: Supplementary Table 2 (sample characteristics by ancestry group)
+  eur_dgi:
+    quotes:
+    - exact: European | DGI
+      section: Supplementary Table 2 (sample characteristics by ancestry group)
+  eur_estonian_biobank:
+    quotes:
+    - exact: European | EGCUT
+      section: Supplementary Table 2 (sample characteristics by ancestry group)
+  eur_epic_interact:
+    quotes:
+    - exact: European | EPIC-INTERACT (1)
+      section: Supplementary Table 2 (sample characteristics by ancestry group)
+  eur_fhs:
+    quotes:
+    - exact: European | FHS
+      section: Supplementary Table 2 (sample characteristics by ancestry group)
+  eur_fusion:
+    quotes:
+    - exact: European | FUSION
+      section: Supplementary Table 2 (sample characteristics by ancestry group)
+  eur_gckd:
+    quotes:
+    - exact: European | GCKD
+      section: Supplementary Table 2 (sample characteristics by ancestry group)
+  eur_genoa:
+    quotes:
+    - exact: European | GENOA (EUR)
+      section: Supplementary Table 2 (sample characteristics by ancestry group)
+  eur_gera:
+    quotes:
+    - exact: European | GERA (EUR)
+      section: Supplementary Table 2 (sample characteristics by ancestry group)
+  eur_godarts:
+    quotes:
+    - exact: European | GODARTS
+      section: Supplementary Table 2 (sample characteristics by ancestry group)
+  eur_gomap_teenage:
+    quotes:
+    - exact: European | GOMAP-TEENAGE
+      section: Supplementary Table 2 (sample characteristics by ancestry group)
+  eur_hpfs:
+    quotes:
+    - exact: European | HPFS
+      section: Supplementary Table 2 (sample characteristics by ancestry group)
+  eur_kora:
+    quotes:
+    - exact: European | KORA
+      section: Supplementary Table 2 (sample characteristics by ancestry group)
+  eur_mesa:
+    quotes:
+    - exact: European | MESA (EUR)
+      section: Supplementary Table 2 (sample characteristics by ancestry group)
+  eur_metsim:
+    quotes:
+    - exact: European | METSIM
+      section: Supplementary Table 2 (sample characteristics by ancestry group)
+  eur_mgb:
+    quotes:
+    - exact: European | MGB
+      section: Supplementary Table 2 (sample characteristics by ancestry group)
+  eur_mgi:
+    quotes:
+    - exact: European | MGI
+      section: Supplementary Table 2 (sample characteristics by ancestry group)
+  eur_neo:
+    quotes:
+    - exact: European | NEO
+      section: Supplementary Table 2 (sample characteristics by ancestry group)
+  eur_nhs:
+    quotes:
+    - exact: European | NHS
+      section: Supplementary Table 2 (sample characteristics by ancestry group)
+  eur_nugene:
+    quotes:
+    - exact: European | NUGENE
+      section: Supplementary Table 2 (sample characteristics by ancestry group)
+  eur_pivus:
+    quotes:
+    - exact: European | PIVUS
+      section: Supplementary Table 2 (sample characteristics by ancestry group)
+  eur_prosper:
+    quotes:
+    - exact: European | PROSPER
+      section: Supplementary Table 2 (sample characteristics by ancestry group)
+  eur_rs:
+    quotes:
+    - exact: European | RS (1)
+      section: Supplementary Table 2 (sample characteristics by ancestry group)
+  eur_ucph:
+    quotes:
+    - exact: European | UCPH
+      section: Supplementary Table 2 (sample characteristics by ancestry group)
+  eur_ukb:
+    quotes:
+    - exact: European | UKBB (EUR)
+      section: Supplementary Table 2 (sample characteristics by ancestry group)
+  eur_ulsam:
+    quotes:
+    - exact: European | ULSAM
+      section: Supplementary Table 2 (sample characteristics by ancestry group)
+  eur_wtccc:
+    quotes:
+    - exact: European | WTCCC
+      section: Supplementary Table 2 (sample characteristics by ancestry group)
+  his_biome:
+    quotes:
+    - exact: Hispanic | BIOME (HIS)
+      section: Supplementary Table 2 (sample characteristics by ancestry group)
+  his_goldr:
+    quotes:
+    - exact: Hispanic | GOLDR
+      section: Supplementary Table 2 (sample characteristics by ancestry group)
+  his_hchs_sol:
+    quotes:
+    - exact: Hispanic | HCHS/SOL
+      section: Supplementary Table 2 (sample characteristics by ancestry group)
+  his_htnir:
+    quotes:
+    - exact: Hispanic | HTNIR
+      section: Supplementary Table 2 (sample characteristics by ancestry group)
+  his_lales:
+    quotes:
+    - exact: Hispanic | LALES
+      section: Supplementary Table 2 (sample characteristics by ancestry group)
+  his_macad:
+    quotes:
+    - exact: Hispanic | MACAD
+      section: Supplementary Table 2 (sample characteristics by ancestry group)
+  his_mc:
+    quotes:
+    - exact: Hispanic | MC (1)
+      section: Supplementary Table 2 (sample characteristics by ancestry group)
+  his_mesa:
+    quotes:
+    - exact: Hispanic | MESA (HIS)
+      section: Supplementary Table 2 (sample characteristics by ancestry group)
+  his_niddm:
+    quotes:
+    - exact: Hispanic | NIDDM
+      section: Supplementary Table 2 (sample characteristics by ancestry group)
+  his_sch:
+    quotes:
+    - exact: Hispanic | SCH
+      section: Supplementary Table 2 (sample characteristics by ancestry group)
+  his_sigma:
+    quotes:
+    - exact: Hispanic | SIGMA (1)
+      section: Supplementary Table 2 (sample characteristics by ancestry group)
+  his_whi:
+    quotes:
+    - exact: Hispanic | WHI (HIS)
+      section: Supplementary Table 2 (sample characteristics by ancestry group)
+  sas_bpc:
+    quotes:
+    - exact: South Asian | BPC
+      section: Supplementary Table 2 (sample characteristics by ancestry group)
+  sas_epidream:
+    quotes:
+    - exact: South Asian | EPIDREAM
+      section: Supplementary Table 2 (sample characteristics by ancestry group)
+  sas_grccds:
+    quotes:
+    - exact: South Asian | GRCCDS
+      section: Supplementary Table 2 (sample characteristics by ancestry group)
+  sas_indico:
+    quotes:
+    - exact: South Asian | INDICO
+      section: Supplementary Table 2 (sample characteristics by ancestry group)
+  sas_interheart:
+    quotes:
+    - exact: South Asian | INTERHEART (1)
+      section: Supplementary Table 2 (sample characteristics by ancestry group)
+  sas_lolipop:
+    quotes:
+    - exact: South Asian | LOLIPOP (1)
+      section: Supplementary Table 2 (sample characteristics by ancestry group)
+  sas_promis:
+    quotes:
+    - exact: South Asian | PROMIS (1)
+      section: Supplementary Table 2 (sample characteristics by ancestry group)
+  sas_rhs:
+    quotes:
+    - exact: South Asian | RHS
+      section: Supplementary Table 2 (sample characteristics by ancestry group)
+  sas_sindi:
+    quotes:
+    - exact: South Asian | SINDI
+      section: Supplementary Table 2 (sample characteristics by ancestry group)
+  sas_ukb:
+    quotes:
+    - exact: South Asian | UKBB (SAS)
+      section: Supplementary Table 2 (sample characteristics by ancestry group)
+  st3_total:
+    quotes:
+    - exact: Total | 122 | 180834 | 1159055
+      section: Supplementary Table 3
+  st3_african:
+    quotes:
+    - exact: African | 22 | 15487 | 23709 | 32593.14 | 6.62
+      section: Supplementary Table 3
+  st3_east_asian:
+    quotes:
+    - exact: East Asian | 39 | 56268 | 227155 | 139704.61 | 28.38
+      section: Supplementary Table 3
+  st3_european:
+    quotes:
+    - exact: European | 32 | 80154 | 853816 | 251739.5 | 51.15
+      section: Supplementary Table 3
+  st3_hispanic:
+    quotes:
+    - exact: Hispanic | 14 | 12385 | 21423 | 27417.05 | 5.57
+      section: Supplementary Table 3
+  st3_south_asian:
+    quotes:
+    - exact: South Asian | 15 | 16540 | 32952 | 40737.11 | 8.28
+      section: Supplementary Table 3

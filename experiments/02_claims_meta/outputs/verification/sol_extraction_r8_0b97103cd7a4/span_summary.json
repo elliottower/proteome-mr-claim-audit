@@ -1,0 +1,146 @@
+{
+ "extraction": "outputs/parsed/sol_extraction_r8_0b97103cd7a4.jsonl",
+ "n_claims": 141,
+ "registered_check_pass": 129,
+ "citations_pin_found": 129,
+ "citations_found_only_after_punctuation_folding": 0,
+ "citations_normalized_warning": 0,
+ "both_pass": 129,
+ "span_verification_rate": 0.9148936170212766,
+ "spans_over_two_sentences": 0,
+ "citations_verify_exit": 0,
+ "failing": [
+  {
+   "pmid": "19509380",
+   "claim_index": 4,
+   "claim_id": "c004",
+   "evidence_span": "Genetically elevated lipoprotein(a) was associated with an HR of 1.22 (95% CI, 1.09-1.37) per doubling of lipoprotein(a) level on instrumental variable analysis, while the corresponding value for plasma lipoprotein(a) levels on Cox regression was 1.08 (95% CI, 1.03-1.12). These data are consistent with a causal association between elevated lipoprotein(a) levels and increased risk of MI.",
+   "registered_check": false,
+   "citations_pin": "not found",
+   "citations_warnings": [],
+   "n_sentences": 2,
+   "passes": false
+  },
+  {
+   "pmid": "19509380",
+   "claim_index": 5,
+   "claim_id": "c005",
+   "evidence_span": "Genetically elevated lipoprotein(a) was associated with an HR of 1.22 (95% CI, 1.09-1.37) per doubling of lipoprotein(a) level on instrumental variable analysis, while the corresponding value for plasma lipoprotein(a) levels on Cox regression was 1.08 (95% CI, 1.03-1.12). These data are consistent with a causal association between elevated lipoprotein(a) levels and increased risk of MI.",
+   "registered_check": false,
+   "citations_pin": "not found",
+   "citations_warnings": [],
+   "n_sentences": 2,
+   "passes": false
+  },
+  {
+   "pmid": "25938632",
+   "claim_index": 9,
+   "claim_id": "c009",
+   "evidence_span": "Observational hazard ratios for aortic valve stenosis and MI were similar after further adjustment for CRP levels. Elevated levels of lipoprotein(a) were not causally associated with increased low-grade inflammation as measured through CRP despite a causal association with increased risk of aortic valve stenosis and MI.",
+   "registered_check": false,
+   "citations_pin": "not found",
+   "citations_warnings": [],
+   "n_sentences": 2,
+   "passes": false
+  },
+  {
+   "pmid": "25938632",
+   "claim_index": 10,
+   "claim_id": "c010",
+   "evidence_span": "Observational hazard ratios for aortic valve stenosis and MI were similar after further adjustment for CRP levels. Elevated levels of lipoprotein(a) were not causally associated with increased low-grade inflammation as measured through CRP despite a causal association with increased risk of aortic valve stenosis and MI.",
+   "registered_check": false,
+   "citations_pin": "not found",
+   "citations_warnings": [],
+   "n_sentences": 2,
+   "passes": false
+  },
+  {
+   "pmid": "24246360",
+   "claim_index": 4,
+   "claim_id": "c004",
+   "evidence_span": "These results were similar to those for risk of cancer (p = .002), ischemic heart disease (p = 4 × 10(-99)), chronic obstructive pulmonary disease (p = 6 × 10(-86)), and all-cause mortality (p = .001) examined in the same individuals. Elevated CRP was associated with increased risk of depression in individuals in the general population, but genetically elevated CRP was not.",
+   "registered_check": false,
+   "citations_pin": "not found",
+   "citations_warnings": [],
+   "n_sentences": 2,
+   "passes": false
+  },
+  {
+   "pmid": "24246360",
+   "claim_index": 5,
+   "claim_id": "c005",
+   "evidence_span": "These results were similar to those for risk of cancer (p = .002), ischemic heart disease (p = 4 × 10(-99)), chronic obstructive pulmonary disease (p = 6 × 10(-86)), and all-cause mortality (p = .001) examined in the same individuals. Elevated CRP was associated with increased risk of depression in individuals in the general population, but genetically elevated CRP was not.",
+   "registered_check": false,
+   "citations_pin": "not found",
+   "citations_warnings": [],
+   "n_sentences": 2,
+   "passes": false
+  },
+  {
+   "pmid": "24246360",
+   "claim_index": 6,
+   "claim_id": "c006",
+   "evidence_span": "These results were similar to those for risk of cancer (p = .002), ischemic heart disease (p = 4 × 10(-99)), chronic obstructive pulmonary disease (p = 6 × 10(-86)), and all-cause mortality (p = .001) examined in the same individuals. Elevated CRP was associated with increased risk of depression in individuals in the general population, but genetically elevated CRP was not.",
+   "registered_check": false,
+   "citations_pin": "not found",
+   "citations_warnings": [],
+   "n_sentences": 2,
+   "passes": false
+  },
+  {
+   "pmid": "24246360",
+   "claim_index": 7,
+   "claim_id": "c007",
+   "evidence_span": "These results were similar to those for risk of cancer (p = .002), ischemic heart disease (p = 4 × 10(-99)), chronic obstructive pulmonary disease (p = 6 × 10(-86)), and all-cause mortality (p = .001) examined in the same individuals. Elevated CRP was associated with increased risk of depression in individuals in the general population, but genetically elevated CRP was not.",
+   "registered_check": false,
+   "citations_pin": "not found",
+   "citations_warnings": [],
+   "n_sentences": 2,
+   "passes": false
+  },
+  {
+   "pmid": "24246360",
+   "claim_index": 8,
+   "claim_id": "c008",
+   "evidence_span": "These results were similar to those for risk of cancer (p = .002), ischemic heart disease (p = 4 × 10(-99)), chronic obstructive pulmonary disease (p = 6 × 10(-86)), and all-cause mortality (p = .001) examined in the same individuals. Elevated CRP was associated with increased risk of depression in individuals in the general population, but genetically elevated CRP was not.",
+   "registered_check": false,
+   "citations_pin": "not found",
+   "citations_warnings": [],
+   "n_sentences": 2,
+   "passes": false
+  },
+  {
+   "pmid": "24246360",
+   "claim_index": 9,
+   "claim_id": "c009",
+   "evidence_span": "These results were similar to those for risk of cancer (p = .002), ischemic heart disease (p = 4 × 10(-99)), chronic obstructive pulmonary disease (p = 6 × 10(-86)), and all-cause mortality (p = .001) examined in the same individuals. Elevated CRP was associated with increased risk of depression in individuals in the general population, but genetically elevated CRP was not.",
+   "registered_check": false,
+   "citations_pin": "not found",
+   "citations_warnings": [],
+   "n_sentences": 2,
+   "passes": false
+  },
+  {
+   "pmid": "24246360",
+   "claim_index": 10,
+   "claim_id": "c010",
+   "evidence_span": "These results were similar to those for risk of cancer (p = .002), ischemic heart disease (p = 4 × 10(-99)), chronic obstructive pulmonary disease (p = 6 × 10(-86)), and all-cause mortality (p = .001) examined in the same individuals. Elevated CRP was associated with increased risk of depression in individuals in the general population, but genetically elevated CRP was not.",
+   "registered_check": false,
+   "citations_pin": "not found",
+   "citations_warnings": [],
+   "n_sentences": 2,
+   "passes": false
+  },
+  {
+   "pmid": "24246360",
+   "claim_index": 11,
+   "claim_id": "c011",
+   "evidence_span": "These results were similar to those for risk of cancer (p = .002), ischemic heart disease (p = 4 × 10(-99)), chronic obstructive pulmonary disease (p = 6 × 10(-86)), and all-cause mortality (p = .001) examined in the same individuals. Elevated CRP was associated with increased risk of depression in individuals in the general population, but genetically elevated CRP was not.",
+   "registered_check": false,
+   "citations_pin": "not found",
+   "citations_warnings": [],
+   "n_sentences": 2,
+   "passes": false
+  }
+ ]
+}

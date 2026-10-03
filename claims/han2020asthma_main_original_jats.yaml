@@ -1,0 +1,41 @@
+source:
+  citation: han2020asthma_main
+  local: sources/original/han2020asthma_main.xml
+  sha256: 595f5a7903f8359bcd5c6ff2b69f61f35afb2c95aa23f8d279a494b605402a80
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7160128/fullTextXML
+  doi: 10.1038/s41467-020-15649-3
+  extractor: jats-text
+  note: 'Original file behind claims/han2020asthma_main.yaml: the XML pinned in claims/han2020asthma_main_original.yaml,
+    read by the citations extractor jats-text. The quotations here are those of that file that resolve
+    in this reading; a quotation absent here stays pinned where it already was.'
+  extractor_version: 1
+  derived_sha256: 085fe70185e1fd8f9199296a0ca4823a6176f4298822214348c810275331e95f
+claims:
+  design:
+    quotes:
+    - exact: we carry out a GWAS analysis for asthma in the UK Biobank, followed by a meta-analysis with
+        GWAS results from the Trans-National Asthma Genetic Consortium (TAGC)18
+      section: Introduction
+  meta-n:
+    quotes:
+    - exact: The Z-score meta-analysis included a total of 88,486 cases and 447,859 controls from the
+        UK Biobank (64,538 asthma cases and 329,321 controls) and TAGC (23,948 asthma cases and 118,538
+        controls)
+      section: Figure 1 legend
+  tagc-cohorts:
+    quotes:
+    - exact: Participating cohorts in the Trans-National Asthma Genetic Consortium (TAGC)18 are summarized
+        in Supplementary Data 1 and included 56 studies of European ancestry subjects (19,954 asthma cases,
+        107,715 controls)
+      section: Methods
+  tagc-public:
+    quotes:
+    - exact: Publicly available GWAS summary statistics for asthma with 2,001,281 SNPs in multi-ancestry
+        populations and in only subjects of European-ancestry from the TAGC18 were imputed
+      section: 'Methods: Imputation in the TAGC'
+  sensitivity-eur:
+    quotes:
+    - exact: we also imputed GWAS summary statistics in the TAGC using only subjects of European ancestry
+        (19,954 asthma cases, 107,715 controls), which were then meta-analyzed with the GWAS results from
+        the UK Biobank
+      section: Results

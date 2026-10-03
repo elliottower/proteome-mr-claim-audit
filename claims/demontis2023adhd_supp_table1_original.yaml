@@ -1,0 +1,75 @@
+source:
+  citation: demontis2023adhd_supp_table1
+  local: sources/original/demontis2023adhd_supp_table1.xlsx
+  sha256: ba657650d94c95da547513d3402658e9ab2f33a0ed2d454f7dd04bf15aa51cf7
+  url: https://static-content.springer.com/esm/art%3A10.1038%2Fs41588-022-01285-8/MediaObjects/41588_2022_1285_MOESM6_ESM.xlsx
+  doi: 10.1038/s41588-022-01285-8
+  extractor: sheet-rows
+  note: 'Original file behind claims/demontis2023adhd_supp_table1.yaml: 41588_2022_1285_MOESM6_ESM.xlsx
+    from static-content.springer.com, read by the citations extractor sheet-rows. The quotations here
+    are those of that file that resolve in this reading; a quotation absent here stays pinned where it
+    already was.'
+  extractor_version: 1
+  derived_sha256: 9598bf86e1affbdd4050348e5438aceccc4eff178478fc656eab41d51c69e389
+claims:
+  caption:
+    quotes:
+    - exact: Supplementary Table 1. Cohorts included in the GWAS meta-analysis of ADHD.
+      section: Supplementary Table 1
+  caption-pgc-ref:
+    quotes:
+    - exact: Detailed description of the PGC cohorts can be found in Demontis&Walters, Nature Genetics,
+        51, pages 63–75 (2019)
+      section: Supplementary Table 1
+  ipsych1:
+    quotes:
+    - exact: iPSYCH1 | 17019
+      section: Supplementary Table 1
+  ipsych2:
+    quotes:
+    - exact: iPSYCH2 | 8876
+      section: Supplementary Table 1
+  decode:
+    quotes:
+    - exact: deCODE | 8281 | 0.4704 | 137993
+      section: Supplementary Table 1
+  barcelona:
+    quotes:
+    - exact: Barcelona, Spain | 572
+      section: Supplementary Table 1
+  bergen:
+    quotes:
+    - exact: Bergen, Norway | 295
+      section: Supplementary Table 1
+  cardiff:
+    quotes:
+    - exact: Cardiff, UK | 721
+      section: Supplementary Table 1
+  chop:
+    quotes:
+    - exact: CHOP, USA | 262
+      section: Supplementary Table 1
+  germany:
+    quotes:
+    - exact: Germany | 487
+      section: Supplementary Table 1
+  image1:
+    quotes:
+    - exact: IMAGE-I | 700
+      section: Supplementary Table 1
+  image2:
+    quotes:
+    - exact: IMAGE-II | 624
+      section: Supplementary Table 1
+  puwma:
+    quotes:
+    - exact: PUWMa | 563
+      section: Supplementary Table 1
+  toronto:
+    quotes:
+    - exact: Toronto, Canada | 109
+      section: Supplementary Table 1
+  yalepenn:
+    quotes:
+    - exact: Yale-Penn | 182
+      section: Supplementary Table 1

@@ -1,0 +1,25 @@
+source:
+  citation: nielsen2018af_supp_table1
+  local: sources/original/nielsen2018af_supp_table1.xlsx
+  sha256: cc5cd526a73539196e2a8ffb6a40cb44700b69a8c74e305f97b74ce754b01892
+  url: https://static-content.springer.com/esm/art%3A10.1038%2Fs41588-018-0171-3/MediaObjects/41588_2018_171_MOESM3_ESM.xlsx
+  doi: 10.1038/s41588-018-0171-3
+  extractor: sheet-rows
+  note: 'Original file behind claims/nielsen2018af_supp_table1.yaml: 41588_2018_171_MOESM3_ESM.xlsx from
+    static-content.springer.com, read by the citations extractor sheet-rows. The quotations here are those
+    of that file that resolve in this reading; a quotation absent here stays pinned where it already was.'
+  extractor_version: 1
+  derived_sha256: 9f99e0fa958a691abd579e8469c3c60b13b68553a450c706d7dc516a0ba4bf16
+claims:
+  header:
+    quotes:
+    - exact: Characteristics | HUNT | deCODE* | MGI | DiscoverEHR | UKB | AFGen**
+      section: Supplementary Table 1
+  cases:
+    quotes:
+    - exact: Cases, N | 6493 | 13471 | 1226 | 6679 | 14820 | 17931
+      section: Supplementary Table 1
+  afgen-ref:
+    quotes:
+    - exact: '**Please see Christophersen et al, NG 2017 (PMID: 28416818) for details.'
+      section: Supplementary Table 1 footnote

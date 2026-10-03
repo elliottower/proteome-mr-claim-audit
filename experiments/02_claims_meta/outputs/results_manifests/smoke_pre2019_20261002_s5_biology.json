@@ -1,0 +1,211 @@
+{
+ "run_id": "smoke_pre2019_20261002_s5_biology",
+ "note": "pre-freeze smoke run on records first public before 2019: stage 5 biology joins and sensitivity tables; both eligible families lie outside the registered windows, so every table is empty",
+ "written_utc": "2026-10-02T20:20:18+00:00",
+ "files": [
+  {
+   "path": "outputs/results_manifests/smoke_pre2019_20261002_s5.volume.json",
+   "bytes": 10111,
+   "sha256": "830159b97ec2bea204b84188652cd99904978ce7145abde8de9e5a3773dac576"
+  },
+  {
+   "path": "outputs/stage5_biology/smoke_pre2019_20261002/confirmatory/hierarchy_relations.jsonl",
+   "bytes": 0,
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+   "path": "outputs/stage5_biology/smoke_pre2019_20261002/confirmatory/hierarchy_tables.json",
+   "bytes": 3144,
+   "sha256": "b7dc4276feae133f5240796097945f9317d5adae4c5ddef9d20640ad93692df2"
+  },
+  {
+   "path": "outputs/stage5_biology/smoke_pre2019_20261002/confirmatory/hub_proteins.json",
+   "bytes": 3134,
+   "sha256": "94137eb7a54a974d30b4c8e1ca80e50a64a3956f51af020e8109d2eca36f867d"
+  },
+  {
+   "path": "outputs/stage5_biology/smoke_pre2019_20261002/confirmatory/novelty_claims.jsonl",
+   "bytes": 0,
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+   "path": "outputs/stage5_biology/smoke_pre2019_20261002/confirmatory/novelty_index.json",
+   "bytes": 1728,
+   "sha256": "bb9c4c55fbbb826dc05b085c498b60620174fd3788396573f7a737b584179ec8"
+  },
+  {
+   "path": "outputs/stage5_biology/smoke_pre2019_20261002/confirmatory/pathway_claim_density.jsonl",
+   "bytes": 0,
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+   "path": "outputs/stage5_biology/smoke_pre2019_20261002/confirmatory/pathway_enrichment.json",
+   "bytes": 24283,
+   "sha256": "c72c44b23c687d2f4f4a3628d4669bd549c4f814d8b3c4e363f62099b887cab7"
+  },
+  {
+   "path": "outputs/stage5_biology/smoke_pre2019_20261002/confirmatory/pathway_enrichment_rows.jsonl",
+   "bytes": 839628,
+   "sha256": "cd052faa7340224bf19eb2eb78df005e8c42bcddb33c64d167be53f28c17a5f3"
+  },
+  {
+   "path": "outputs/stage5_biology/smoke_pre2019_20261002/confirmatory/pathway_enrichment_rows_alternative_assay_lists.jsonl",
+   "bytes": 984933,
+   "sha256": "e55be02adbda9571a56b8ddf4c0e630d71803685428a7dcc45243dffc1d45982"
+  },
+  {
+   "path": "outputs/stage5_biology/smoke_pre2019_20261002/confirmatory/pathway_enrichment_rows_any_candidate_row_attachment.jsonl",
+   "bytes": 839628,
+   "sha256": "cd052faa7340224bf19eb2eb78df005e8c42bcddb33c64d167be53f28c17a5f3"
+  },
+  {
+   "path": "outputs/stage5_biology/smoke_pre2019_20261002/confirmatory/pathway_enrichment_rows_null_result_claims_counted.jsonl",
+   "bytes": 839628,
+   "sha256": "cd052faa7340224bf19eb2eb78df005e8c42bcddb33c64d167be53f28c17a5f3"
+  },
+  {
+   "path": "outputs/stage5_biology/smoke_pre2019_20261002/confirmatory/pathway_enrichment_rows_whole_panel_backgrounds.jsonl",
+   "bytes": 823729,
+   "sha256": "7598c2143fbf2d75773e70004f67748a71a648dbab898e49bbc16c6cf12eea9a"
+  },
+  {
+   "path": "outputs/stage5_biology/smoke_pre2019_20261002/confirmatory/reference_screen.json",
+   "bytes": 4653,
+   "sha256": "77e6067dc8253e1fda4e7bb475412df6cea5d5e42bcef555bdb9744c2e730903"
+  },
+  {
+   "path": "outputs/stage5_biology/smoke_pre2019_20261002/confirmatory/reference_screen_claims.jsonl",
+   "bytes": 0,
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+   "path": "outputs/stage5_biology/smoke_pre2019_20261002/confirmatory/reference_screen_pairs.json",
+   "bytes": 2,
+   "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+  },
+  {
+   "path": "outputs/stage5_biology/smoke_pre2019_20261002/confirmatory/registry_indices.json",
+   "bytes": 4098,
+   "sha256": "607b9bf236fd771c4b7461fd089066d8c130db5c4f7bd3b0c6f4d63f8ff1a32f"
+  },
+  {
+   "path": "outputs/stage5_biology/smoke_pre2019_20261002/confirmatory/registry_secondaries.json",
+   "bytes": 16122,
+   "sha256": "24bb04ad3431c3f01ee8a9f21e8960ad13152642afdcf9c154c2b59367532696"
+  },
+  {
+   "path": "outputs/stage5_biology/smoke_pre2019_20261002/sensitivity_tables.json",
+   "bytes": 44075,
+   "sha256": "17e0d52b3ea5da2af8b20fdb07768e9aa58325a180d733276bce11a641bdf810"
+  },
+  {
+   "path": "outputs/stage5_biology/smoke_pre2019_20261002/update/hierarchy_relations.jsonl",
+   "bytes": 0,
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+   "path": "outputs/stage5_biology/smoke_pre2019_20261002/update/hierarchy_tables.json",
+   "bytes": 3138,
+   "sha256": "160c6677eb323e8f4c7b58bafdf2a27e8ab04ba13e80acfff84aa9035d14ca36"
+  },
+  {
+   "path": "outputs/stage5_biology/smoke_pre2019_20261002/update/hub_proteins.json",
+   "bytes": 3128,
+   "sha256": "6393dbf0b9ca3f77cd8b5216969c9a506ff3ef4b8a86e3b3243499ed336e07ca"
+  },
+  {
+   "path": "outputs/stage5_biology/smoke_pre2019_20261002/update/novelty_claims.jsonl",
+   "bytes": 0,
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+   "path": "outputs/stage5_biology/smoke_pre2019_20261002/update/novelty_index.json",
+   "bytes": 1722,
+   "sha256": "5bd05bcf4566293def76f3ad2a7744179fbf72e7b8bb77d86ea0601a548aede0"
+  },
+  {
+   "path": "outputs/stage5_biology/smoke_pre2019_20261002/update/pathway_claim_density.jsonl",
+   "bytes": 0,
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+   "path": "outputs/stage5_biology/smoke_pre2019_20261002/update/pathway_enrichment.json",
+   "bytes": 24277,
+   "sha256": "61a0cac618b938509a48e6a21be0b02ea518c82e7857a229f93daf8bf7547e39"
+  },
+  {
+   "path": "outputs/stage5_biology/smoke_pre2019_20261002/update/pathway_enrichment_rows.jsonl",
+   "bytes": 839628,
+   "sha256": "cd052faa7340224bf19eb2eb78df005e8c42bcddb33c64d167be53f28c17a5f3"
+  },
+  {
+   "path": "outputs/stage5_biology/smoke_pre2019_20261002/update/pathway_enrichment_rows_alternative_assay_lists.jsonl",
+   "bytes": 984933,
+   "sha256": "e55be02adbda9571a56b8ddf4c0e630d71803685428a7dcc45243dffc1d45982"
+  },
+  {
+   "path": "outputs/stage5_biology/smoke_pre2019_20261002/update/pathway_enrichment_rows_any_candidate_row_attachment.jsonl",
+   "bytes": 839628,
+   "sha256": "cd052faa7340224bf19eb2eb78df005e8c42bcddb33c64d167be53f28c17a5f3"
+  },
+  {
+   "path": "outputs/stage5_biology/smoke_pre2019_20261002/update/pathway_enrichment_rows_null_result_claims_counted.jsonl",
+   "bytes": 839628,
+   "sha256": "cd052faa7340224bf19eb2eb78df005e8c42bcddb33c64d167be53f28c17a5f3"
+  },
+  {
+   "path": "outputs/stage5_biology/smoke_pre2019_20261002/update/pathway_enrichment_rows_whole_panel_backgrounds.jsonl",
+   "bytes": 823729,
+   "sha256": "7598c2143fbf2d75773e70004f67748a71a648dbab898e49bbc16c6cf12eea9a"
+  },
+  {
+   "path": "outputs/stage5_biology/smoke_pre2019_20261002/update/reference_screen.json",
+   "bytes": 4647,
+   "sha256": "1ddca3fa0ecedbd944d799b198d42b1f0eb4cf391770cf5ca7ba04311fd17a6e"
+  },
+  {
+   "path": "outputs/stage5_biology/smoke_pre2019_20261002/update/reference_screen_claims.jsonl",
+   "bytes": 0,
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+   "path": "outputs/stage5_biology/smoke_pre2019_20261002/update/reference_screen_pairs.json",
+   "bytes": 2,
+   "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+  },
+  {
+   "path": "outputs/stage5_biology/smoke_pre2019_20261002/update/registry_indices.json",
+   "bytes": 4092,
+   "sha256": "dde6b29d111f0ba091f7c52a24c72bd41d39346c2abb032dd07f7f43a71d51bb"
+  },
+  {
+   "path": "outputs/stage5_biology/smoke_pre2019_20261002/update/registry_secondaries.json",
+   "bytes": 16116,
+   "sha256": "ed5ba5dbd2a7e78104ca86262cfecf6ab8fb9ae919098762fd49f4d2b55decc3"
+  }
+ ],
+ "recorded_directly": [
+  "outputs/results_manifests/smoke_pre2019_20261002_s5.volume.json",
+  "outputs/stage5_biology/smoke_pre2019_20261002/sensitivity_tables.json"
+ ],
+ "volume_checks": [
+  {
+   "volume_folder": "/02_claims_meta/stage5/smoke_pre2019_20261002/biology_confirmatory",
+   "local_folder": "outputs/stage5_biology/smoke_pre2019_20261002/confirmatory",
+   "n_compared": 17,
+   "volume_only": []
+  },
+  {
+   "volume_folder": "/02_claims_meta/stage5/smoke_pre2019_20261002/biology_update",
+   "local_folder": "outputs/stage5_biology/smoke_pre2019_20261002/update",
+   "n_compared": 17,
+   "volume_only": []
+  },
+  {
+   "volume_folder": "/02_claims_meta/stage5/smoke_pre2019_20261002/sensitivity_tables.json",
+   "local_folder": "outputs/stage5_biology/smoke_pre2019_20261002/sensitivity_tables.json",
+   "n_compared": 1,
+   "volume_only": []
+  }
+ ]
+}

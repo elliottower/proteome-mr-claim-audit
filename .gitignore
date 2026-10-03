@@ -1,0 +1,23 @@
+# Working plans, reviews and source reports: never tracked
+planning/
+.DS_Store
+.env*
+
+# Pinned external releases (large downloads)
+experiments/02_claims_meta/inputs/
+
+# Python bytecode and tool caches
+__pycache__/
+*.pyc
+.pytest_cache/
+*.provenance-lock
+.venv/
+
+# Citation-chasing response bodies live on the Modal volume; their manifest.jsonl is tracked
+experiments/02_claims_meta/outputs/raw/citation_chase/**/*.gz
+
+# Pinned source texts (full texts of papers and supplements): fetched, never committed
+/sources/
+
+# Originals of stored outputs whose absolute home path was stripped (docs/stage0_build/HOME_PATHS_STRIPPED_2026-10-02.json)
+experiments/02_claims_meta/outputs/superseded/home_paths_2026-10-02/

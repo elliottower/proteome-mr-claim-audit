@@ -1,0 +1,18 @@
+source:
+  citation: gibson2022preprint
+  local: sources/gibson2022_medrxiv_v1.raw.txt
+  sha256: 60d64f1727e56fd8277b445f1722e7a5d7414a8cd7f2be6e400a8ceb62fb329a
+  doi: 10.1101/2022.04.25.22274252
+  note: 'medRxiv v1 PDF (posted 26 Apr 2022), pdftotext. Gibson MJ, Spiga F, Campbell A, Khouja JN, Richmond
+    RC, Munafo MR. A systematic review of the reporting and methodological quality of studies that use
+    Mendelian randomisation in UK Biobank. Published version: BMJ Evid Based Med 2023;28(2):103-110 (N
+    = 116).'
+claims:
+  oa-status:
+    quotes:
+    - exact: open access status (“Yes” = 81% [52], “Partially” = 12% [8]
+      section: Methods, Statistical analysis
+  n-64:
+    quotes:
+    - exact: A total of 64 articles were included in the final sample
+      section: Results

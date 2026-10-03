@@ -1,0 +1,23 @@
+source:
+  citation: gartlehner2025swar
+  local: sources/gartlehner2025_swar_medrxiv.txt
+  sha256: 71008079a8607355552bb89208822fa7625bb765e30e9e6121a2588a4c10f3c1
+  doi: 10.1101/2025.03.20.25324350
+  note: 'medRxiv v1 PDF (posted 21 Mar 2025), pdftotext. Gartlehner G, Kugley S, Crotty K, Viswanathan
+    M, Dobrescu A, Nussbaumer-Streit B, et al. AI-Assisted Data Extraction with a Large Language Model:
+    A Study Within Reviews.'
+claims:
+  design:
+    quotes:
+    - exact: Initial data extraction using an LLM (Claude versions 2.1, 3.0 Opus, and 3.5 Sonnet) verified
+        by a human reviewer.
+      section: Abstract, Intervention
+  concordance:
+    quotes:
+    - exact: Concordance between the two methods was 77.2%.
+      section: Abstract, Results
+  accuracy:
+    quotes:
+    - exact: The accuracy of the AI-assisted approach compared with enhanced human data extraction was
+        91.0%
+      section: Abstract, Results

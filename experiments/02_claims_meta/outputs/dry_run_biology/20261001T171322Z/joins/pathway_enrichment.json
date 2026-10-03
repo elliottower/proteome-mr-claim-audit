@@ -1,0 +1,128 @@
+{
+ "inputs": "/tmp/dry_run_biology/inputs",
+ "window": "confirmatory",
+ "claim_records": 13,
+ "resources": {
+  "ontology_edges": "/tmp/dry_run_biology/resources/ontology_edges.csv",
+  "category_anchors": "/tmp/dry_run_biology/resources/anchors.csv",
+  "assay_lists": "/tmp/dry_run_biology/resources/assay_lists.csv",
+  "attachments": "/tmp/dry_run_biology/resources/attachments.csv",
+  "reactome": "/tmp/dry_run_biology/resources/UniProt2Reactome.txt",
+  "snapshot_estimates": "/tmp/dry_run_biology/resources/mrres_estimates.jsonl",
+  "protein_mapping": "/tmp/dry_run_biology/resources/protein_mapping.csv",
+  "trait_mapping": "/tmp/dry_run_biology/resources/trait_mapping.csv",
+  "locus_list": "/tmp/dry_run_biology/resources/loci.csv"
+ },
+ "written_utc": "2026-10-01T17:13:29+00:00",
+ "claims": 13,
+ "claims_by_enrichment_state": {
+  "enters_enrichment": 6,
+  "not_causal_or_target": 4,
+  "platform_not_stated": 1,
+  "no_pinned_assay_list": 2
+ },
+ "registry_proteins": 5,
+ "registry_proteins_with_a_pathway": 5,
+ "primary": {
+  "syn_olink": {
+   "background": 20,
+   "claimed": 2,
+   "claimed_outside_background": 0,
+   "background_with_a_pathway": 20,
+   "pathways_tested": 2,
+   "pathways_dropped_by_size": 0
+  },
+  "syn_soma": {
+   "background": 20,
+   "claimed": 2,
+   "claimed_outside_background": 0,
+   "background_with_a_pathway": 19,
+   "pathways_tested": 1,
+   "pathways_dropped_by_size": 1
+  }
+ },
+ "secondary_pooled_open_to_platform_composition_confounding": {
+  "background": 22,
+  "claimed": 3,
+  "claimed_outside_background": 0,
+  "background_with_a_pathway": 21,
+  "pathways_tested": 2,
+  "pathways_dropped_by_size": 0
+ },
+ "density_cells": 8,
+ "sensitivity_permissive_platform_attachment": {
+  "claims": 13,
+  "claims_by_enrichment_state": {
+   "enters_enrichment": 7,
+   "not_causal_or_target": 4,
+   "no_pinned_assay_list": 2
+  },
+  "registry_proteins": 5,
+  "registry_proteins_with_a_pathway": 5,
+  "primary": {
+   "syn_olink": {
+    "background": 20,
+    "claimed": 2,
+    "claimed_outside_background": 0,
+    "background_with_a_pathway": 20,
+    "pathways_tested": 2,
+    "pathways_dropped_by_size": 0
+   },
+   "syn_soma": {
+    "background": 20,
+    "claimed": 3,
+    "claimed_outside_background": 0,
+    "background_with_a_pathway": 19,
+    "pathways_tested": 1,
+    "pathways_dropped_by_size": 1
+   }
+  },
+  "secondary_pooled_open_to_platform_composition_confounding": {
+   "background": 22,
+   "claimed": 4,
+   "claimed_outside_background": 0,
+   "background_with_a_pathway": 21,
+   "pathways_tested": 2,
+   "pathways_dropped_by_size": 0
+  },
+  "density_cells": 8
+ },
+ "sensitivity_null_result_claims_counted": {
+  "claims": 13,
+  "claims_by_enrichment_state": {
+   "enters_enrichment": 6,
+   "not_causal_or_target": 4,
+   "platform_not_stated": 1,
+   "no_pinned_assay_list": 2
+  },
+  "registry_proteins": 5,
+  "registry_proteins_with_a_pathway": 5,
+  "primary": {
+   "syn_olink": {
+    "background": 20,
+    "claimed": 2,
+    "claimed_outside_background": 0,
+    "background_with_a_pathway": 20,
+    "pathways_tested": 2,
+    "pathways_dropped_by_size": 0
+   },
+   "syn_soma": {
+    "background": 20,
+    "claimed": 2,
+    "claimed_outside_background": 0,
+    "background_with_a_pathway": 19,
+    "pathways_tested": 1,
+    "pathways_dropped_by_size": 1
+   }
+  },
+  "secondary_pooled_open_to_platform_composition_confounding": {
+   "background": 22,
+   "claimed": 3,
+   "claimed_outside_background": 0,
+   "background_with_a_pathway": 21,
+   "pathways_tested": 2,
+   "pathways_dropped_by_size": 0
+  },
+  "density_cells": 8
+ }
+}

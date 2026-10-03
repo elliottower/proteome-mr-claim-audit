@@ -1,0 +1,220 @@
+source:
+  citation: vanrheenen2021_data_availability
+  local: sources/vanrheenen2021_data_availability.txt
+  sha256: db28b72cc80d6eaad1a2c6c563a538db579847b3cd6a0d38e08a45cae76ba8d0
+  doi: 10.1038/s41588-021-00973-1
+  note: 'Data availability section of van Rheenen et al. 2021 Nat Genet: heading and paragraph copied
+    verbatim from lines 407-408 of sources/vanrheenen2021_main.txt (Europe PMC fullTextXML PMC8648564).
+    Separate file because the XML repeats the paragraph as ''Data Availability Statement'', which makes
+    quotes from it ambiguous in the full-text file.'
+claims:
+  gwas_catalog_releases:
+    quotes:
+    - exact: accession IDs GCST90027163 and GCST90027164 for cross-ancestry and European ancestry meta-analyses,
+        respectively
+      section: Data availability
+  wtccc:
+    quotes:
+    - exact: the Wellcome Trust Case Control Consortium ( https://www.wtccc.org.uk/ )
+      section: Data availability
+  dbgap_phs000101:
+    quotes:
+    - exact: phs000101.v3.p1 , NIH Genome-Wide Association Studies of Amyotrophic Lateral Sclerosis
+      section: Data availability (publicly available datasets)
+  dbgap_phs000126:
+    quotes:
+    - exact: 'phs000126.v1.p1 , CIDR: Genome Wide Association Study in Familial Parkinson Disease (PD'
+      section: Data availability (publicly available datasets)
+  dbgap_phs000196:
+    quotes:
+    - exact: 'phs000196.v1.p1 , Genome-Wide Association Study of Parkinson Disease: Genes and Environment'
+      section: Data availability (publicly available datasets)
+  dbgap_phs000344:
+    quotes:
+    - exact: phs000344.v1.p1 , Genome-Wide Association Study of Amyotrophic Lateral Sclerosis in Finland
+      section: Data availability (publicly available datasets)
+  dbgap_phs000336:
+    quotes:
+    - exact: phs000336 , a Genome-Wide Association Study of Lung Cancer Risk
+      section: Data availability (publicly available datasets)
+  dbgap_phs000346:
+    quotes:
+    - exact: phs000346 , Genome-Wide Association Study for Bladder Cancer Risk
+      section: Data availability (publicly available datasets)
+  dbgap_phs000789:
+    quotes:
+    - exact: phs000789 , Collaborative Study of Genes, Nutrients and Metabolites (CSGNM
+      section: Data availability (publicly available datasets)
+  dbgap_phs000206:
+    quotes:
+    - exact: phs000206 , Whole Genome Scan for Pancreatic Cancer Risk in the Pancreatic Cancer Cohort
+        Consortium and Pancreatic Cancer Case–Control Consortium (PanScan
+      section: Data availability (publicly available datasets)
+  dbgap_phs000297:
+    quotes:
+    - exact: phs000297 , eMERGE Network Study of the Genetic Determinants of Resistant Hypertension
+      section: Data availability (publicly available datasets)
+  dbgap_phs000652:
+    quotes:
+    - exact: phs000652 , Cohort-Based Genome-Wide Association Study of Glioma (GliomaScan
+      section: Data availability (publicly available datasets)
+  dbgap_phs000869:
+    quotes:
+    - exact: phs000869 , Barrett’s and Esophageal Adenocarcinoma Genetic Susceptibility Study (BEAGESS
+      section: Data availability (publicly available datasets)
+  dbgap_phs000812:
+    quotes:
+    - exact: phs000812 , the Breast and Prostate Cancer Cohort Consortium (BPC3
+      section: Data availability (publicly available datasets)
+  dbgap_phs000428:
+    quotes:
+    - exact: phs000428 , Genetics Resource with the HRS
+      section: Data availability (publicly available datasets)
+  dbgap_phs000360:
+    quotes:
+    - exact: phs000360.v3 , eMERGE Network Genome-Wide Association Study of Red Cell Indices, White Blood
+        Count (WBC
+      section: Data availability (publicly available datasets)
+  dbgap_phs000893:
+    quotes:
+    - exact: phs000893.v1 , Genome-Wide Association Study of Endometrial Cancer in the Epidemiology of
+        Endometrial Cancer Consortium (E2C2
+      section: Data availability (publicly available datasets)
+  dbgap_phs000168:
+    quotes:
+    - exact: 'phs000168.v2 , National Institute on Aging—Late Onset Alzheimer’s Disease Family Study:
+        Genome-Wide Association Study for Susceptibility Loci'
+      section: Data availability (publicly available datasets)
+  dbgap_phs000092:
+    quotes:
+    - exact: 'phs000092.v1 , Study of Addiction: Genetics and Environment (SAGE'
+      section: Data availability (publicly available datasets)
+  dbgap_phs000864:
+    quotes:
+    - exact: phs000864.v1 , Genomic Predictors of Combat Stress Vulnerability and Resilience
+      section: Data availability (publicly available datasets)
+  dbgap_phs000170:
+    quotes:
+    - exact: phs000170.v2 , a Genome-Wide Association Study on Cataract and HDL in the Personalized Medicine
+        Research Project Cohort
+      section: Data availability (publicly available datasets)
+  dbgap_phs000431:
+    quotes:
+    - exact: phs000431.v2 , IgA Nephropathy GWAS on Individuals of European Ancestry (IGANGWAS2
+      section: Data availability (publicly available datasets)
+  dbgap_phs000237:
+    quotes:
+    - exact: 'phs000237.v1 , Northwestern NUgene Project: Type 2 Diabetes'
+      section: Data availability (publicly available datasets)
+  dbgap_phs000169:
+    quotes:
+    - exact: phs000169.v1 , Whole Genome Association Study of Visceral Adiposity in the Health Aging and
+        Body Composition (Health ABC
+      section: Data availability (publicly available datasets)
+  dbgap_phs000982:
+    quotes:
+    - exact: 'phs000982.v1 , Genetic Analysis of Psoriasis and Psoriatic Arthritis: GWAS of Psoriatic
+        Arthritis'
+      section: Data availability (publicly available datasets)
+  dbgap_phs000289:
+    quotes:
+    - exact: phs000289.v2 , National Human Genome Research Institute (NHGRI
+      section: Data availability (publicly available datasets)
+  dbgap_phs000634:
+    quotes:
+    - exact: phs000634.v1 , National Cancer Institute (NCI
+      section: Data availability (publicly available datasets)
+  dbgap_phs000274:
+    quotes:
+    - exact: phs000274.v1 , Genome-Wide Association Study of Celiac Disease
+      section: Data availability (publicly available datasets)
+  dbgap_phs001172:
+    quotes:
+    - exact: phs001172.v1 , National Institute of Neurological Disorders and Stroke (NINDS
+      section: Data availability (publicly available datasets)
+  dbgap_phs000389:
+    quotes:
+    - exact: phs000389.v1 , GEnetics of Nephropathy—an International Effort (GENIE
+      section: Data availability (publicly available datasets)
+  dbgap_phs000460:
+    quotes:
+    - exact: phs000460.v1 , Genetics of 24 Hour Urine Composition
+      section: Data availability (publicly available datasets)
+  dbgap_phs000138:
+    quotes:
+    - exact: phs000138.v2 , GWAS for Genetic Determinants of Bone Fragility in European–American Premenopausal
+        Women
+      section: Data availability (publicly available datasets)
+  dbgap_phs000394:
+    quotes:
+    - exact: phs000394.v1 , Autopsy-Confirmed Parkinson Disease GWAS Consortium (APDGC
+      section: Data availability (publicly available datasets)
+  dbgap_phs000948:
+    quotes:
+    - exact: 'phs000948.v1 , Genetic Discovery and Application in a Clinical Setting: Continuing a Partnership
+        (eMERGE Phase II'
+      section: Data availability (publicly available datasets)
+  dbgap_phs000630:
+    quotes:
+    - exact: phs000630.v1 , Exome Chip Study of NIMH Controls
+      section: Data availability (publicly available datasets)
+  dbgap_phs000678:
+    quotes:
+    - exact: phs000678.v1 , a Family-Based Study of Genes and Environment in Young-Onset Breast Cancer
+      section: Data availability (publicly available datasets)
+  dbgap_phs000351:
+    quotes:
+    - exact: phs000351.v1 , National Cancer Institute Genome-Wide Association Study of Renal Cell Carcinoma
+      section: Data availability (publicly available datasets)
+  dbgap_phs000314:
+    quotes:
+    - exact: phs000314.v1 , Genetic Associations in Idiopathic Talipes Equinovarus (Clubfoot
+      section: Data availability (publicly available datasets)
+  dbgap_phs000147:
+    quotes:
+    - exact: phs000147.v3 , Cancer Genetic Markers of Susceptibility (CGEMS
+      section: Data availability (publicly available datasets)
+  dbgap_phs000882:
+    quotes:
+    - exact: phs000882.v1 , National Cancer Institute (NCI
+      section: Data availability (publicly available datasets)
+  dbgap_phs000238:
+    quotes:
+    - exact: phs000238.v1 , National Eye Institute Glaucoma Human Genetics Collaboration (NEIGHBOR
+      section: Data availability (publicly available datasets)
+  dbgap_phs000397:
+    quotes:
+    - exact: phs000397.v1 , National Institute on Aging (NIA
+      section: Data availability (publicly available datasets)
+  dbgap_phs000421:
+    quotes:
+    - exact: phs000421.v1 , a Genome-Wide Association Study of Fuchs’ Endothelial Corneal Dystrophy (FECD
+      section: Data availability (publicly available datasets)
+  dbgap_phs000142:
+    quotes:
+    - exact: phs000142.v1 , a Whole Genome Association Scan for Myopia and Glaucoma Endophenotypes using
+        Twin Studies
+      section: Data availability (publicly available datasets)
+  dbgap_phs000303:
+    quotes:
+    - exact: phs000303.v1 , Genetic Epidemiology of Refractive Error in the KORA (Kooperative Gesundheitsforschung
+        in der Region Augsburg
+      section: Data availability (publicly available datasets)
+  dbgap_phs000125:
+    quotes:
+    - exact: 'phs000125.v1 , CIDR: Collaborative Study on the Genetics of Alcoholism Case Control Study'
+      section: Data availability (publicly available datasets)
+  dbgap_phs001039:
+    quotes:
+    - exact: phs001039.v1 , International Age-Related Macular Degeneration Genomics Consortium—Exome Chip
+        Experiment
+      section: Data availability (publicly available datasets)
+  dbgap_phs000187:
+    quotes:
+    - exact: 'phs000187.v1 , High Density SNP Association Analysis of Melanoma: Case–Control and Outcomes
+        Investigation'
+      section: Data availability (publicly available datasets)
+  dbgap_phs002068:
+    quotes:
+    - exact: phs002068.v1.p1 , Sporadic ALS Australia Systems Genomics Consortium (SALSA-SGC
+      section: Data availability (publicly available datasets)

@@ -1,0 +1,47 @@
+source:
+  citation: howard2019dep_main
+  local: sources/howard2019dep_main.txt
+  sha256: 52ccbb0a867e0b12efc1fff5cfb960651e9da8b5e4d53970459395b271494e43
+  url: https://pmc-oa-opendata.s3.amazonaws.com/PMC6522363.1/PMC6522363.1.txt
+  doi: 10.1038/s41593-018-0326-7
+  note: Full text (author manuscript EMS80873) of Howard DM et al. 2019 Nat Neurosci 22:343-352, PMC6522363,
+    plain-text rendering (PMC6522363.1.txt) from the NCBI PMC open-data bucket pmc-oa-opendata, unedited.
+claims:
+  three-studies:
+    quotes:
+    - exact: from the three largest studies noted above 5, 8, 9. From the Hyde, et al. 8 analysis, our
+        meta-analysis included only the 23andMe discovery cohort (termed “23andMe_307k”; 75,607 cases
+        and 231,747 controls).
+      section: Introduction
+  ukb:
+    quotes:
+    - exact: The population-based UK Biobank cohort 51 consists of 501,726 individuals
+      section: Online Methods, UK Biobank
+  pgc139k:
+    quotes:
+    - exact: Their meta-analysis included the 23andMe_307k discovery cohort 8 and a previous release of
+        the UK Biobank data 55. We therefore obtained the summary statistics from their meta-analysis
+        of major depression with the 23andMe_307k and the previous UK Biobank cohorts removed (PGC_139k).
+        This provided a total of 12,149,399 variant calls for 43,204 cases and 95,680 controls
+      section: Online Methods, PGC
+  23andme:
+    quotes:
+    - exact: We obtained the genome-wide association study results from the discovery 23andMe subset (23andMe_307k)
+        from the Hyde, et al. 8 analysis.
+      section: Online Methods, 23andMe
+  public-release:
+    quotes:
+    - exact: 'the summary statistics for all assessed genetic variants for the meta-analysis of depression
+        in UK Biobank and PGC_139k are available from: http://dx.doi.org/10.7488/ds/2458.'
+      section: Data availability
+  23andme-dta:
+    quotes:
+    - exact: To access the summary statistics for all assessed genetic variants for the meta-analysis
+        of depression in 23andMe_307k, UK Biobank, and PGC_139k a data transfer agreement is required
+        from 23andMe
+      section: Data availability
+  total:
+    quotes:
+    - exact: we meta-analysed data on 807,553 individuals (246,363 cases and 561,190 controls) from the
+        three largest genome-wide association studies of depression
+      section: Abstract

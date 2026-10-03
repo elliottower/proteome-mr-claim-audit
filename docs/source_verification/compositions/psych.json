@@ -1,0 +1,4295 @@
+[
+ {
+  "row_name": "PGC SCZ2 (2014)",
+  "new_row": false,
+  "side": "outcome",
+  "aliases_proposed": "",
+  "release": "Primary PGC GWAS dataset (genome-wide meta-analysis of 52 samples: 49 case-control + 3 trio; the results the paper points to at pgc.unc.edu). The deCODE-combined analysis (36,989 cases; 113,075 controls) covers only SNPs with P<1e-6 and is not a genome-wide release.",
+  "source_citation": "Schizophrenia Working Group of the Psychiatric Genomics Consortium 2014. Biological insights from 108 schizophrenia-associated genetic loci. Nature 511:421-427",
+  "source_identifier": "doi:10.1038/nature13595; PMID:25056061; PMC4112379",
+  "components": [
+   {
+    "id": "UMEA_SCZ",
+    "as_written": "Adolfsson, R | NP | Umeå, Sweden (scz_umeb_eur, scz_umes_eur)",
+    "role": "case-control",
+    "quote_id": "claims/ripke2014scz2_supp_info.yaml#row-scz-umeb-eur"
+   },
+   {
+    "id": "BETULA",
+    "as_written": "Controls were recruited from the Betula study",
+    "role": "controls_only",
+    "quote_id": "claims/ripke2014scz2_supp_info.yaml#ctrl-betula"
+   },
+   {
+    "id": "TOP",
+    "as_written": "Norway (TOP) | scz_top8_eur",
+    "role": "case-control",
+    "quote_id": "claims/ripke2014scz2_supp_info.yaml#row-scz-top8-eur"
+   },
+   {
+    "id": "EDINBURGH_SCZ",
+    "as_written": "Edinburgh, UK | scz_edin_eur",
+    "role": "case-control",
+    "quote_id": "claims/ripke2014scz2_supp_info.yaml#row-scz-edin-eur"
+   },
+   {
+    "id": "DANISH_NEWBORN_SCREENING_BIOBANK",
+    "as_written": "Danish Newborn Screening Biobank (Børglum, scz_aarh_eur)",
+    "role": "case-control",
+    "quote_id": "claims/ripke2014scz2_supp_info.yaml#ctrl-dnsb"
+   },
+   {
+    "id": "PEIC",
+    "as_written": "Psychosis Endophenotypes International Consortium (PEIC), WTCCC2 (scz_pewb_eur, scz_pews_eur)",
+    "role": "case-control",
+    "quote_id": "claims/ripke2014scz2_supp_info.yaml#row-scz-pewb-eur"
+   },
+   {
+    "id": "MOUNT_SINAI_SCZ",
+    "as_written": "New York, US & Israel | scz_msaf_eur",
+    "role": "case-control",
+    "quote_id": "claims/ripke2014scz2_supp_info.yaml#row-scz-msaf-eur"
+   },
+   {
+    "id": "DUBLIN_SCZ",
+    "as_written": "Ireland | scz_dubl_eur (cases, Dublin area)",
+    "role": "case-control",
+    "quote_id": "claims/ripke2014scz2_supp_info.yaml#row-scz-dubl-eur"
+   },
+   {
+    "id": "IRISH_WTCCC2_SCZ",
+    "as_written": "Ireland (WTCCC2) | scz_irwt_eur (cases)",
+    "role": "case-control",
+    "quote_id": "claims/ripke2014scz2_supp_info.yaml#row-scz-irwt-eur"
+   },
+   {
+    "id": "IBTS",
+    "as_written": "Irish Blood Transfusion Service(s) (controls for scz_dubl_eur and scz_irwt_eur)",
+    "role": "controls_only",
+    "quote_id": "claims/ripke2014scz2_supp_info.yaml#ctrl-ibts-irwt"
+   },
+   {
+    "id": "GRAS",
+    "as_written": "Gottingen Research Association for Schizophrenia (GRAS); controls unscreened blood donors at Georg-August-University",
+    "role": "case-control",
+    "quote_id": "claims/ripke2014scz2_supp_info.yaml#row-scz-gras"
+   },
+   {
+    "id": "ESTONIAN_BIOBANK",
+    "as_written": "Estonian Genome Project of University of Tartu (EGCUT); also controls for scz_jr3a/jr3b/jri6/jrsa",
+    "role": "case-control",
+    "quote_id": "claims/ripke2014scz2_supp_info.yaml#row-scz-egcu-eur"
+   },
+   {
+    "id": "JNJ_ROCHE_SCZ",
+    "as_written": "J&J and Roche cases (scz_jr3a_eur, scz_jr3b_eur, scz_jri6_eur, scz_jrsa_eur)",
+    "role": "case-control",
+    "quote_id": "claims/ripke2014scz2_supp_info.yaml#cases-jnj-roche"
+   },
+   {
+    "id": "MGS",
+    "as_written": "Molecular Genetics of Schizophrenia (MGS), US, Australia; controls collected by Knowledge Networks under MGS guidance; also controls for CATIE",
+    "role": "case-control",
+    "quote_id": "claims/ripke2014scz2_supp_info.yaml#row-scz-mgs2-eur"
+   },
+   {
+    "id": "UCL_SCZ",
+    "as_written": "London, UK | scz_uclo_eur",
+    "role": "case-control",
+    "quote_id": "claims/ripke2014scz2_supp_info.yaml#row-scz-uclo-eur"
+   },
+   {
+    "id": "HUBIN",
+    "as_written": "Sweden (Hubin) | scz_ersw_eur",
+    "role": "case-control",
+    "quote_id": "claims/ripke2014scz2_supp_info.yaml#row-scz-ersw-eur"
+   },
+   {
+    "id": "BULGARIA_SCZ",
+    "as_written": "Bulgaria | scz_buls_eur",
+    "role": "case-control",
+    "quote_id": "claims/ripke2014scz2_supp_info.yaml#row-scz-buls-eur"
+   },
+   {
+    "id": "TORONTO_LILLY_SCZ",
+    "as_written": "Canada (Toronto) -US(Lilly) cases | scz_lktu_eur",
+    "role": "case-control",
+    "quote_id": "claims/ripke2014scz2_supp_info.yaml#row-scz-lktu-eur"
+   },
+   {
+    "id": "MIGEN",
+    "as_written": "Myocardial Infarction Genetics Consortium (MIGen, dbGaP ID phs000294.v1.p1)",
+    "role": "controls_only",
+    "quote_id": "claims/ripke2014scz2_supp_info.yaml#ctrl-migen"
+   },
+   {
+    "id": "HUGR",
+    "as_written": "Hebrew University Genetic Resource (Ashkenazi Jewish repository); controls sampled through the Israeli Blood Bank (scz_ajsz_eur)",
+    "role": "case-control",
+    "quote_id": "claims/ripke2014scz2_supp_info.yaml#ctrl-hugr"
+   },
+   {
+    "id": "LEVINSON_PEDIGREE_STUDY",
+    "as_written": "Levinson, D | Six countries (scz_lacw_eur cases; ms.scz_lemu_eur trios)",
+    "role": "case-control",
+    "quote_id": "claims/ripke2014scz2_supp_info.yaml#row-scz-lacw-eur"
+   },
+   {
+    "id": "WTCCC",
+    "as_written": "independent controls ... from the Wellcome Trust Case Control Consortium (scz_lacw_eur; constituent cohorts not stated)",
+    "role": "controls_only",
+    "quote_id": "claims/ripke2014scz2_supp_info.yaml#ctrl-wtccc-lacw"
+   },
+   {
+    "id": "ZUCKER_HILLSIDE_SCZ",
+    "as_written": "Malhotra, A | New York, US | scz_zhh1_eur",
+    "role": "case-control",
+    "quote_id": "claims/ripke2014scz2_supp_info.yaml#row-scz-zhh1-eur"
+   },
+   {
+    "id": "ASRB",
+    "as_written": "Australian Schizophrenia Research Bank (scz_asrb_eur)",
+    "role": "case-control",
+    "quote_id": "claims/ripke2014scz2_supp_info.yaml#ctrl-asrb"
+   },
+   {
+    "id": "CARDIFF_SCZ",
+    "as_written": "Cardiff, UK | scz_caws_eur (cases)",
+    "role": "case-control",
+    "quote_id": "claims/ripke2014scz2_supp_info.yaml#row-scz-caws-eur"
+   },
+   {
+    "id": "B58C",
+    "as_written": "1958 British Birth Cohort (controls for scz_caws_eur, scz_clm2_eur, scz_clo3_eur)",
+    "role": "controls_only",
+    "quote_id": "claims/ripke2014scz2_supp_info.yaml#ctrl-clozuk-wtccc2"
+   },
+   {
+    "id": "UKBS",
+    "as_written": "UK Blood Service (Control Group) (controls for scz_caws_eur, scz_clm2_eur, scz_clo3_eur)",
+    "role": "controls_only",
+    "quote_id": "claims/ripke2014scz2_supp_info.yaml#ctrl-clozuk-wtccc2"
+   },
+   {
+    "id": "CLOZUK",
+    "as_written": "UK (CLOZUK) | scz_clm2_eur, scz_clo3_eur (cases)",
+    "role": "case-control",
+    "quote_id": "claims/ripke2014scz2_supp_info.yaml#row-scz-clm2-eur"
+   },
+   {
+    "id": "NBS",
+    "as_written": "UK National Blood Transfusion Service (900 controls held by Cardiff University, CLOZUK)",
+    "role": "controls_only",
+    "quote_id": "claims/ripke2014scz2_supp_info.yaml#ctrl-clozuk-nbs"
+   },
+   {
+    "id": "UTRECHT_SCZ",
+    "as_written": "Netherlands | scz_ucla_eur; controls from University Medical Centre Utrecht",
+    "role": "case-control",
+    "quote_id": "claims/ripke2014scz2_supp_info.yaml#ctrl-utrecht"
+   },
+   {
+    "id": "FINNISH_SCZ_FAMILIES",
+    "as_written": "Finland | scz_fi3m_eur; Finnish | scz_fii6_eur (cases from nationwide family collection)",
+    "role": "case-control",
+    "quote_id": "claims/ripke2014scz2_supp_info.yaml#cases-finnish-families"
+   },
+   {
+    "id": "HEALTH2000",
+    "as_written": "Finnish Health 2000 survey (controls for scz_fi3m_eur, scz_fii6_eur)",
+    "role": "controls_only",
+    "quote_id": "claims/ripke2014scz2_supp_info.yaml#ctrl-health2000"
+   },
+   {
+    "id": "PORTUGAL_SCZ",
+    "as_written": "Portugal | scz_port_eur",
+    "role": "case-control",
+    "quote_id": "claims/ripke2014scz2_supp_info.yaml#row-scz-port-eur"
+   },
+   {
+    "id": "CIDAR",
+    "as_written": "Boston, US (CIDAR) | scz_cims_eur",
+    "role": "case-control",
+    "quote_id": "claims/ripke2014scz2_supp_info.yaml#row-scz-cims-eur"
+   },
+   {
+    "id": "PFIZER_SCZ_TRIALS",
+    "as_written": "Pfizer case trials (scz_pfla_eur)",
+    "role": "case-control",
+    "quote_id": "claims/ripke2014scz2_supp_info.yaml#cases-pfizer"
+   },
+   {
+    "id": "PFIZER_A9011027",
+    "as_written": "The controls (A9011027) ... non-treatment prospective trial (US elderly)",
+    "role": "controls_only",
+    "quote_id": "claims/ripke2014scz2_supp_info.yaml#ctrl-pfizer"
+   },
+   {
+    "id": "BONN_MANNHEIM_SCZ",
+    "as_written": "Rietschel/Rujescu/Nöthen | Bonn/Mannheim, Germany | scz_boco_eur (MooDS cases)",
+    "role": "case-control",
+    "quote_id": "claims/ripke2014scz2_supp_info.yaml#row-scz-boco-eur"
+   },
+   {
+    "id": "POPGEN",
+    "as_written": "three population-based epidemiological studies (PopGen) (controls for scz_boco_eur)",
+    "role": "controls_only",
+    "quote_id": "claims/ripke2014scz2_supp_info.yaml#ctrl-boco-popgen-kora-hnr"
+   },
+   {
+    "id": "KORA",
+    "as_written": "the Cooperative Health Research in the Region of Augsburg (KORA) study (controls for scz_boco_eur)",
+    "role": "controls_only",
+    "quote_id": "claims/ripke2014scz2_supp_info.yaml#ctrl-boco-popgen-kora-hnr"
+   },
+   {
+    "id": "HNR",
+    "as_written": "the Heinz Nixdorf Recall (HNR) study (controls for scz_boco_eur)",
+    "role": "controls_only",
+    "quote_id": "claims/ripke2014scz2_supp_info.yaml#ctrl-boco-popgen-kora-hnr"
+   },
+   {
+    "id": "MUNICH_COMMUNITY_CONTROLS",
+    "as_written": "Additional controls were randomly selected from a Munich-based community sample (scz_boco_eur)",
+    "role": "controls_only",
+    "quote_id": "claims/ripke2014scz2_supp_info.yaml#ctrl-boco-munich-community"
+   },
+   {
+    "id": "MUNICH_SCZ",
+    "as_written": "Munich, Germany | scz_munc_eur",
+    "role": "case-control",
+    "quote_id": "claims/ripke2014scz2_supp_info.yaml#row-scz-munc-eur"
+   },
+   {
+    "id": "ABERDEEN_SCZ",
+    "as_written": "Aberdeen, UK | scz_aber_eur",
+    "role": "case-control",
+    "quote_id": "claims/ripke2014scz2_supp_info.yaml#row-scz-aber-eur"
+   },
+   {
+    "id": "CATIE",
+    "as_written": "Clinical Antipsychotics Trials of Intervention Effectiveness (CATIE) (scz_cati_eur cases; controls from MGS)",
+    "role": "case-control",
+    "quote_id": "claims/ripke2014scz2_supp_info.yaml#cases-catie"
+   },
+   {
+    "id": "SWEDISH_SCZ_STUDY",
+    "as_written": "Swedish Schizophrenia Study (sw1, sw234, sw5, sw6); controls from Swedish population registers",
+    "role": "case-control",
+    "quote_id": "claims/ripke2014scz2_supp_info.yaml#row-scz-swe1-eur"
+   },
+   {
+    "id": "COGUK",
+    "as_written": "Cardiff, UK (CogUK) | scz_cou3_eur",
+    "role": "case-control",
+    "quote_id": "claims/ripke2014scz2_supp_info.yaml#row-scz-cou3-eur"
+   },
+   {
+    "id": "NIMH_CBDB",
+    "as_written": "NIMH CBDB (Clinical Brain Disorders Branch 'Sibling Study') | scz_lie2_eur, scz_lie5_eur",
+    "role": "case-control",
+    "quote_id": "claims/ripke2014scz2_supp_info.yaml#ctrl-nimh-cbdb"
+   },
+   {
+    "id": "DANISH_SCZ_WERGE",
+    "as_written": "Werge, T | Denmark | scz_denm_eur; controls collected at the University of Aarhus",
+    "role": "case-control",
+    "quote_id": "claims/ripke2014scz2_supp_info.yaml#row-scz-denm-eur"
+   },
+   {
+    "id": "BULGARIA_TRIOS",
+    "as_written": "Trios | Kirov, G/Owen M | Bulgaria | ms.scz_butr_eur",
+    "role": "trio",
+    "quote_id": "claims/ripke2014scz2_supp_info.yaml#row-ms-scz-butr-eur"
+   },
+   {
+    "id": "UK_TRIOS",
+    "as_written": "Trios | Kirov, G/Owen M | NP | ms.scz_uktr_eur (cases and parents recruited from UK)",
+    "role": "trio",
+    "quote_id": "claims/ripke2014scz2_supp_info.yaml#trio-uk"
+   },
+   {
+    "id": "JAPAN_TOKAI_SCZ",
+    "as_written": "Iwata, N | Japan | scz_jpn1_asn",
+    "role": "case-control",
+    "quote_id": "claims/ripke2014scz2_supp_info.yaml#row-scz-jpn1-asn"
+   },
+   {
+    "id": "STCRP",
+    "as_written": "Singapore Translational and Clinical Research in Psychosis (STCRP) | scz_tcr1_asn",
+    "role": "case-control",
+    "quote_id": "claims/ripke2014scz2_supp_info.yaml#row-scz-tcr1-asn"
+   },
+   {
+    "id": "SP2",
+    "as_written": "Singapore Prospective Study Program (controls for scz_tcr1_asn)",
+    "role": "controls_only",
+    "quote_id": "claims/ripke2014scz2_supp_info.yaml#ctrl-sp2"
+   },
+   {
+    "id": "HK_SICHUAN_SCZ",
+    "as_written": "Sham, P | China | scz_hok2_asn (cases from Hong Kong and Sichuan)",
+    "role": "case-control",
+    "quote_id": "claims/ripke2014scz2_supp_info.yaml#row-scz-hok2-asn"
+   },
+   {
+    "id": "HK_CONVENIENCE_CONTROLS",
+    "as_written": "convenience sample ... GWAS on bone mineral density, ... hypertension, ... liver cancer, and healthy control subjects recruited from Sichuan and Taiwan (scz_hok2_asn)",
+    "role": "controls_only",
+    "quote_id": "claims/ripke2014scz2_supp_info.yaml#ctrl-hk-convenience"
+   }
+  ],
+  "replication_only": [
+   "DECODE (Iceland (SGENE+, deCODE): 628 cases, 65,312 controls)",
+   "DECODE_NON_ICELANDIC (Non-Icelandic (SGENE+, deCODE): cases and controls from Italy, Georgia, Macedonia, Russia and Serbia; 885 cases, 924 controls)"
+  ],
+  "components_complete": "no",
+  "complete_reason": "All 52 samples of Supplementary Table 1 (46 EUR case-control, 3 EUR trio, 3 East Asian case-control; caption 'Description of samples', 'Total Discovery') were read with their per-sample ascertainment text, and every stated case and control source is listed. Not complete because (1) scz_lktu_eur controls come from the Myocardial Infarction Genetics Consortium (MIGen, dbGaP phs000294.v1.p1), a multi-study resource whose member cohorts are not named in this paper; (2) scz_lacw_eur controls are 'from the Wellcome Trust Case Control Consortium' without naming B58C/UKBS; (3) scz_hok2_asn controls are a convenience sample from unnamed GWAS of bone mineral density, hypertension and liver cancer; (4) the control source is not described for scz_cou3_eur (CogUK, 678 controls) or scz_msaf_eur (Mount Sinai, 139 controls).",
+  "includes_ukb": "unknown",
+  "includes_iceland": "unknown",
+  "pqtl_cohort_flags": {
+   "INTERVAL": "unknown",
+   "FENLAND": "unknown",
+   "ARIC": "unknown",
+   "AGES": "unknown",
+   "IMPROVE": "unknown",
+   "DECODE": "unknown",
+   "UKB": "unknown",
+   "FHS": "unknown",
+   "KORA": "yes"
+  },
+  "ancestry": "European (46 case-control + 3 trio samples) and East Asian (3 case-control samples)",
+  "sample_size": "34,241 cases, 45,604 controls and 1,235 parent-affected offspring trios (primary GWAS); 36,989 cases and 113,075 controls with deCODE for top SNPs only",
+  "source_read": "https://pmc-oa-opendata.s3.amazonaws.com/PMC4112379.1/PMC4112379.1.txt (main text, Results '128 Independent Associated Loci', URLs); https://pmc-oa-opendata.s3.amazonaws.com/PMC4112379.1/NIHMS59304-supplement-Supplementary_Information.docx (Supplementary Text: Sample size summary, Details of individual participating studies, QC/Imputation/Association Analysis; Supplementary Table 1 'Description of samples' in full)",
+  "claims_files": [
+   "claims/ripke2014scz2_supp_info.yaml",
+   "claims/ripke2014scz2_main.yaml"
+  ],
+  "notes": "UK Biobank is not named anywhere in the main text or Supplementary Information; no sentence states its absence, so includes_ukb stays unknown under the guide (every one of the 52 named samples is a pre-2014 study collection; only the MIGen, WTCCC and Hong Kong convenience controls are not resolved to named cohorts). Iceland: the Icelandic deCODE sample is replication-only (top SNPs P<1e-6, row 'Replication | Stefánsson, H | ... | Iceland (SGENE+, deCODE)'); includes_iceland is unknown only because the MIGen/HK control sources are unresolved, not because any Icelandic sample is in the primary GWAS. KORA = yes (scz_boco_eur controls). FINRISK and MDC: not named; unknown via MIGen. Control-source cohorts recorded as components: BETULA, IBTS, MIGEN, WTCCC, B58C, UKBS, NBS, HEALTH2000 (Finnish Health 2000, distinct from FINRISK), PFIZER_A9011027, POPGEN, KORA, HNR, MUNICH_COMMUNITY_CONTROLS, SP2, HK_CONVENIENCE_CONTROLS; MGS controls also serve CATIE; ESTONIAN_BIOBANK controls also serve the J&J/Roche samples. DANISH_NEWBORN_SCREENING_BIOBANK (scz_aarh_eur) draws on the same biobank as iPSYCH; overlap with IPSYCH rows is possible but not stated. The Levinson pedigree study contributes both scz_lacw_eur (case-control) and ms.scz_lemu_eur (trios) under one ID. Sample-level rows pinned individually as row-<tag> in claims/ripke2014scz2_supp_info.yaml. Discrepancy in source: table 'Total Discovery' row reads 35,476 cases / 46,839 controls while the main text gives 34,241 / 45,604 (+1,235 trios); not resolved here."
+ },
+ {
+  "row_name": "PGC SCZ3 (Trubetskoy 2022)",
+  "new_row": false,
+  "side": "outcome",
+  "aliases_proposed": "PGC3 SCZ primary|SCZ3 primary GWAS",
+  "release": "Primary GWAS (wave 3): 90 core PGC cohorts (EUR, ASN; individual-level) + 9 African-American/Latino cohorts (summary level). The public \"Core\" file is the 90 PGC cohorts without the AA/LAT cohorts.",
+  "source_citation": "Trubetskoy V et al. 2022. Mapping genomic loci implicates genes and synaptic biology in schizophrenia. Nature 604:502-508",
+  "source_identifier": "doi:10.1038/s41586-022-04434-5; PMID:35396580; PMC9392466",
+  "components": [
+   {
+    "id": "B58C",
+    "as_written": "1958 British Birth Cohort (WTCCC controls for scz_xcaws; WTCCC2 controls for CLOZUK scz_xclm2/xclo3)",
+    "role": "controls_only",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#ctl-b58c-ukbs-xcaws; claims/trubetskoy2022scz3_supp_cohorts.yaml#ctl-clozuk-wtccc2; claims/trubetskoy2022scz3_supp_cohorts.yaml#ctl-wtccc2"
+   },
+   {
+    "id": "BETULA",
+    "as_written": "Betula study (controls for scz_xume2)",
+    "role": "controls_only",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#ctl-betula"
+   },
+   {
+    "id": "COGS",
+    "as_written": "scz_cogs1_eur_sr-qc (EUR; 428 cases, 476 controls) / COGS via NIMH Repository (African-American and Latino cohorts)",
+    "role": "case-control",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#row-scz_cogs1_eur_sr-qc; claims/trubetskoy2022scz3_supp_cohorts.yaml#aalat-nimh"
+   },
+   {
+    "id": "DBGAP_PHS000021",
+    "as_written": "dbGaP control genotypes phs000021.v3.p2 (sample it serves not stated)",
+    "role": "controls_only",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#ctl-dbgap"
+   },
+   {
+    "id": "DNSB",
+    "as_written": "scz_xaarh_eur_sr-qc (EUR; 883 cases, 873 controls) / Danish Newborn Screening Biobank (cases and controls, scz_xaarh)",
+    "role": "case-control",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#row-scz_xaarh_eur_sr-qc; claims/trubetskoy2022scz3_supp_cohorts.yaml#ctl-dnsb"
+   },
+   {
+    "id": "ECACC_HRC",
+    "as_written": "480 ECACC Human Random Control (HRC) samples from Public Health England (scz_mcqul)",
+    "role": "controls_only",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#ctl-ecacc"
+   },
+   {
+    "id": "ESTONIAN_BIOBANK",
+    "as_written": "scz_xegcu_eur_sr-qc (EUR; 239 cases, 1177 controls) / Estonian Biobank project (EGCUT) controls for J&J and Roche cases (scz_xjr3a, xjr3b, xjri6, xjrsa)",
+    "role": "case-control",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#row-scz_xegcu_eur_sr-qc; claims/trubetskoy2022scz3_supp_cohorts.yaml#ctl-egcut; claims/trubetskoy2022scz3_supp_cohorts.yaml#ctl-egcut-jr; claims/trubetskoy2022scz3_supp_cohorts.yaml#ctl-egcut-jr2"
+   },
+   {
+    "id": "FINRISK",
+    "as_written": "National FINRISK Study (controls for scz_xfi3m, scz_xfii6)",
+    "role": "controls_only",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#ctl-finnish"
+   },
+   {
+    "id": "GENERATION_SCOTLAND",
+    "as_written": "Generation Scotland Scottish Family Health Study (listed under Control cohorts descriptions; sample it serves not stated)",
+    "role": "controls_only",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#ctl-genscot"
+   },
+   {
+    "id": "GPC",
+    "as_written": "scz_gpc2a_eur_sr-qc (EUR; 1957 cases, 2062 controls) / Genomic Psychiatry Cohort (African-American and Latino summary-level cohorts)",
+    "role": "case-control",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#row-scz_gpc2a_eur_sr-qc; claims/trubetskoy2022scz3_supp_cohorts.yaml#aalat-gpc"
+   },
+   {
+    "id": "HBCS",
+    "as_written": "Helsinki Birth Cohort Study (HBCS) (controls for scz_xfi3m, scz_xfii6)",
+    "role": "controls_only",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#ctl-finnish2"
+   },
+   {
+    "id": "HEALTH2000",
+    "as_written": "Finnish Health 2000 survey (controls for scz_xfi3m, scz_xfii6)",
+    "role": "controls_only",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#ctl-finnish"
+   },
+   {
+    "id": "HNR",
+    "as_written": "Heinz Nixdorf Recall (HNR) study (controls for scz_xboco)",
+    "role": "controls_only",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#ctl-kora-hnr"
+   },
+   {
+    "id": "IBTS",
+    "as_written": "Irish Blood Transfusion Service(s) (controls for scz_xdubl, scz_xirwt)",
+    "role": "controls_only",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#ctl-ibts-dublin; claims/trubetskoy2022scz3_supp_cohorts.yaml#ctl-ibts-wtccc2"
+   },
+   {
+    "id": "KORA",
+    "as_written": "Cooperative Health Research in the Region of Augsburg (KORA) study (controls for scz_xboco)",
+    "role": "controls_only",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#ctl-kora-hnr"
+   },
+   {
+    "id": "MGS",
+    "as_written": "scz_xmgs2_eur_sr-qc (EUR; 2681 cases, 2653 controls) / MGS control sample (Knowledge Networks; controls for scz_xmgs2 and scz_xcati) / Molecular Genetics of Schizophrenia via NIMH Repository (African-American and Latino cohorts)",
+    "role": "case-control",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#row-scz_xmgs2_eur_sr-qc; claims/trubetskoy2022scz3_supp_cohorts.yaml#ctl-mgs; claims/trubetskoy2022scz3_supp_cohorts.yaml#ctl-catie-mgs; claims/trubetskoy2022scz3_supp_cohorts.yaml#aalat-nimh"
+   },
+   {
+    "id": "MIGEN",
+    "as_written": "Myocardial Infarction Genetics Consortium (MIGen, dbGaP phs000294.v1.p1) controls for scz_xlktu",
+    "role": "controls_only",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#ctl-migen"
+   },
+   {
+    "id": "MUNICH_COMMUNITY",
+    "as_written": "Munich-based community sample (additional controls for scz_xboco)",
+    "role": "controls_only",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#ctl-munich"
+   },
+   {
+    "id": "NFBC",
+    "as_written": "Northern Finland Birth Cohort (NFBC) (controls for scz_xfi3m, scz_xfii6)",
+    "role": "controls_only",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#ctl-finnish2"
+   },
+   {
+    "id": "PAARTNERS",
+    "as_written": "PAARTNERS via NIMH Repository (African-American and Latino cohorts)",
+    "role": "case-control",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#aalat-nimh"
+   },
+   {
+    "id": "PFIZER_A9011027",
+    "as_written": "Pfizer control study A9011027 (scz_xpfla)",
+    "role": "controls_only",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#ctl-pfizer"
+   },
+   {
+    "id": "PISMA",
+    "as_written": "PISMA study (controls for scz_sanch)",
+    "role": "controls_only",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#ctl-pisma"
+   },
+   {
+    "id": "POPGEN",
+    "as_written": "PopGen (controls for scz_xboco)",
+    "role": "controls_only",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#ctl-popgen"
+   },
+   {
+    "id": "SCZ_ASN_BIX1",
+    "as_written": "bix1 (ASN; 1047 cases, 2301 controls)",
+    "role": "case-control",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#row-bix1"
+   },
+   {
+    "id": "SCZ_ASN_BIX2",
+    "as_written": "bix2 (ASN; 1021 cases, 1001 controls)",
+    "role": "case-control",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#row-bix2"
+   },
+   {
+    "id": "SCZ_ASN_BIX3",
+    "as_written": "bix3 (ASN; 492 cases, 679 controls)",
+    "role": "case-control",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#row-bix3"
+   },
+   {
+    "id": "SCZ_ASN_CNO1",
+    "as_written": "cno1[bjm1] (ASN; 1332 cases, 2036 controls)",
+    "role": "case-control",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#row-cno1-bjm1"
+   },
+   {
+    "id": "SCZ_ASN_HKU1",
+    "as_written": "hku1 (ASN; 476 cases, 2018 controls)",
+    "role": "case-control",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#row-hku1"
+   },
+   {
+    "id": "SCZ_ASN_IMH1",
+    "as_written": "imh1 (ASN; 898 cases, 996 controls)",
+    "role": "case-control",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#row-imh1"
+   },
+   {
+    "id": "SCZ_ASN_IMH2",
+    "as_written": "imh2 (ASN; 821 cases, 956 controls)",
+    "role": "case-control",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#row-imh2"
+   },
+   {
+    "id": "SCZ_ASN_JPN1",
+    "as_written": "jpn1 (ASN; 547 cases, 540 controls)",
+    "role": "case-control",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#row-jpn1"
+   },
+   {
+    "id": "SCZ_ASN_KOR1",
+    "as_written": "kor1 (ASN; 688 cases, 492 controls)",
+    "role": "case-control",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#row-kor1"
+   },
+   {
+    "id": "SCZ_ASN_TAI1",
+    "as_written": "tai1 (ASN; 1123 cases, 2243 controls)",
+    "role": "case-control",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#row-tai1"
+   },
+   {
+    "id": "SCZ_ASN_TAI2",
+    "as_written": "tai2 (ASN; 593 cases, 1190 controls)",
+    "role": "case-control",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#row-tai2"
+   },
+   {
+    "id": "SCZ_ASN_UMC1",
+    "as_written": "umc1 (ASN; 2328 cases, 2380 controls)",
+    "role": "case-control",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#row-umc1"
+   },
+   {
+    "id": "SCZ_ASN_UWA1",
+    "as_written": "uwa1 (ASN; 996 cases, 1047 controls)",
+    "role": "case-control",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#row-uwa1"
+   },
+   {
+    "id": "SCZ_ASN_XJU1",
+    "as_written": "xju1 (ASN; 1902 cases, 1009 controls)",
+    "role": "case-control",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#row-xju1"
+   },
+   {
+    "id": "SCZ_BEP1B",
+    "as_written": "scz_bep1b (EUR; 294 cases, 573 controls)",
+    "role": "case-control",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#row-scz_bep1b"
+   },
+   {
+    "id": "SCZ_BRAZ2",
+    "as_written": "scz_braz2_eur_sr-qc (EUR; 110 cases, 334 controls)",
+    "role": "case-control",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#row-scz_braz2_eur_sr-qc"
+   },
+   {
+    "id": "SCZ_CELSO",
+    "as_written": "scz_celso_eur_sr-qc (EUR; 2030 cases, 1517 controls)",
+    "role": "case-control",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#row-scz_celso_eur_sr-qc"
+   },
+   {
+    "id": "SCZ_CGS1C",
+    "as_written": "scz_cgs1c_eur_sr-qc (EUR; 524 cases, 3115 controls)",
+    "role": "case-control",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#row-scz_cgs1c_eur_sr-qc"
+   },
+   {
+    "id": "SCZ_CLZ2A",
+    "as_written": "scz_clz2a_eur_sr-qc (EUR; 5370 cases, 6940 controls)",
+    "role": "case-control",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#row-scz_clz2a_eur_sr-qc"
+   },
+   {
+    "id": "SCZ_DU2AA",
+    "as_written": "scz_du2aa_eur_sr-qc (EUR; 345 cases, 245 controls)",
+    "role": "case-control",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#row-scz_du2aa_eur_sr-qc"
+   },
+   {
+    "id": "SCZ_ENRIC",
+    "as_written": "scz_enric_eur_sr-qc (EUR; 700 cases, 574 controls)",
+    "role": "case-control",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#row-scz_enric_eur_sr-qc"
+   },
+   {
+    "id": "SCZ_EU5ME",
+    "as_written": "scz_eu5me_eur_sa-qc (EUR; 615 cases, 182 controls)",
+    "role": "case-control",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#row-scz_eu5me_eur_sa-qc"
+   },
+   {
+    "id": "SCZ_EUSP2",
+    "as_written": "scz_eusp2_eur_sr-qc (EUR; 338 cases, 490 controls)",
+    "role": "case-control",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#row-scz_eusp2_eur_sr-qc"
+   },
+   {
+    "id": "SCZ_EUTU2",
+    "as_written": "scz_eutu2_eur_sr-qc (EUR; 393 cases, 690 controls)",
+    "role": "case-control",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#row-scz_eutu2_eur_sr-qc"
+   },
+   {
+    "id": "SCZ_GAP1A",
+    "as_written": "scz_gap1a_eur_sr-qc (EUR; 152 cases, 164 controls)",
+    "role": "case-control",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#row-scz_gap1a_eur_sr-qc"
+   },
+   {
+    "id": "SCZ_GAWLI",
+    "as_written": "scz_gawli_eur_sr-qc (EUR; 1255 cases, 1555 controls)",
+    "role": "case-control",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#row-scz_gawli_eur_sr-qc"
+   },
+   {
+    "id": "SCZ_GEBA1",
+    "as_written": "scz_geba1_eur_sr-qc (EUR; 397 cases, 703 controls)",
+    "role": "case-control",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#row-scz_geba1_eur_sr-qc"
+   },
+   {
+    "id": "SCZ_GRO2A",
+    "as_written": "scz_gro2a_eur_sr-qc (EUR; 329 cases, 277 controls)",
+    "role": "case-control",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#row-scz_gro2a_eur_sr-qc"
+   },
+   {
+    "id": "SCZ_GRTR1",
+    "as_written": "ms.scz_grtr1_eur_sr-qc (EUR; 145 cases, 290 controls; trio sample)",
+    "role": "case-control",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#row-msscz_grtr1_eur_sr-qc"
+   },
+   {
+    "id": "SCZ_MCQUL",
+    "as_written": "scz_mcqul_eur_sr-qc (EUR; 1351 cases, 1310 controls)",
+    "role": "case-control",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#row-scz_mcqul_eur_sr-qc"
+   },
+   {
+    "id": "SCZ_MOSC2",
+    "as_written": "scz_mosc2_eur_sr-qc (EUR; 410 cases, 433 controls)",
+    "role": "case-control",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#row-scz_mosc2_eur_sr-qc"
+   },
+   {
+    "id": "SCZ_PARIS",
+    "as_written": "scz_paris_eur_sr-qc (EUR; 316 cases, 390 controls)",
+    "role": "case-control",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#row-scz_paris_eur_sr-qc"
+   },
+   {
+    "id": "SCZ_PRICE",
+    "as_written": "scz_price_eur_sr-qc (EUR; 841 cases, 727 controls)",
+    "role": "case-control",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#row-scz_price_eur_sr-qc"
+   },
+   {
+    "id": "SCZ_ROUIN",
+    "as_written": "scz_rouin_eur_sr-qc (EUR; 204 cases, 185 controls)",
+    "role": "case-control",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#row-scz_rouin_eur_sr-qc"
+   },
+   {
+    "id": "SCZ_SANCH",
+    "as_written": "scz_sanch_eur_sr-qc (EUR; 335 cases, 1209 controls)",
+    "role": "case-control",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#row-scz_sanch_eur_sr-qc"
+   },
+   {
+    "id": "SCZ_SB2AA",
+    "as_written": "scz_sb2aa_eur_sr-qc (EUR; 250 cases, 237 controls)",
+    "role": "case-control",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#row-scz_sb2aa_eur_sr-qc"
+   },
+   {
+    "id": "SCZ_SERRI",
+    "as_written": "scz_serri_eur_sr-qc (EUR; 217 cases, 238 controls)",
+    "role": "case-control",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#row-scz_serri_eur_sr-qc"
+   },
+   {
+    "id": "SCZ_TO10C",
+    "as_written": "scz_to10c_eur_sr-qc (EUR; 970 cases, 5040 controls)",
+    "role": "case-control",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#row-scz_to10c_eur_sr-qc"
+   },
+   {
+    "id": "SCZ_VIYO1",
+    "as_written": "scz_viyo1_eur_sr-qc (EUR; 356 cases, 131 controls)",
+    "role": "case-control",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#row-scz_viyo1_eur_sr-qc"
+   },
+   {
+    "id": "SCZ_XABER",
+    "as_written": "scz_xaber_eur_sr-qc (EUR; 720 cases, 699 controls)",
+    "role": "case-control",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#row-scz_xaber_eur_sr-qc"
+   },
+   {
+    "id": "SCZ_XAJSZ",
+    "as_written": "scz_xajsz_eur_sr-qc (EUR; 896 cases, 1595 controls)",
+    "role": "case-control",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#row-scz_xajsz_eur_sr-qc"
+   },
+   {
+    "id": "SCZ_XASRB",
+    "as_written": "scz_xasrb_eur_sr-qc (EUR; 509 cases, 310 controls)",
+    "role": "case-control",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#row-scz_xasrb_eur_sr-qc"
+   },
+   {
+    "id": "SCZ_XBOCO",
+    "as_written": "scz_xboco_eur_sr-qc (EUR; 1847 cases, 2170 controls)",
+    "role": "case-control",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#row-scz_xboco_eur_sr-qc"
+   },
+   {
+    "id": "SCZ_XBULS",
+    "as_written": "scz_xbuls_eur_sr-qc (EUR; 195 cases, 608 controls)",
+    "role": "case-control",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#row-scz_xbuls_eur_sr-qc"
+   },
+   {
+    "id": "SCZ_XBUTR",
+    "as_written": "ms.scz_xbutr_eur_sr-qc (EUR; 741 cases, 1156 controls; trio sample)",
+    "role": "case-control",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#row-msscz_xbutr_eur_sr-qc"
+   },
+   {
+    "id": "SCZ_XCATI",
+    "as_written": "scz_xcati_eur_sr-qc (EUR; 409 cases, 392 controls)",
+    "role": "case-control",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#row-scz_xcati_eur_sr-qc"
+   },
+   {
+    "id": "SCZ_XCAWS",
+    "as_written": "scz_xcaws_eur_sr-qc (EUR; 424 cases, 306 controls)",
+    "role": "case-control",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#row-scz_xcaws_eur_sr-qc"
+   },
+   {
+    "id": "SCZ_XCIMS",
+    "as_written": "scz_xcims_eur_sr-qc (EUR; 71 cases, 69 controls)",
+    "role": "case-control",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#row-scz_xcims_eur_sr-qc"
+   },
+   {
+    "id": "SCZ_XCLM2",
+    "as_written": "scz_xclm2_eur_sr-qc (EUR; 3466 cases, 4297 controls)",
+    "role": "case-control",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#row-scz_xclm2_eur_sr-qc"
+   },
+   {
+    "id": "SCZ_XCLO3",
+    "as_written": "scz_xclo3_eur_sr-qc (EUR; 2150 cases, 2083 controls)",
+    "role": "case-control",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#row-scz_xclo3_eur_sr-qc"
+   },
+   {
+    "id": "SCZ_XCOU3",
+    "as_written": "scz_xcou3_eur_sr-qc (EUR; 540 cases, 693 controls)",
+    "role": "case-control",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#row-scz_xcou3_eur_sr-qc"
+   },
+   {
+    "id": "SCZ_XDENM",
+    "as_written": "scz_xdenm_eur_sr-qc (EUR; 492 cases, 458 controls)",
+    "role": "case-control",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#row-scz_xdenm_eur_sr-qc"
+   },
+   {
+    "id": "SCZ_XDUBL",
+    "as_written": "scz_xdubl_eur_sr-qc (EUR; 272 cases, 860 controls)",
+    "role": "case-control",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#row-scz_xdubl_eur_sr-qc"
+   },
+   {
+    "id": "SCZ_XEDIN",
+    "as_written": "scz_xedin_eur_sr-qc (EUR; 368 cases, 284 controls)",
+    "role": "case-control",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#row-scz_xedin_eur_sr-qc"
+   },
+   {
+    "id": "SCZ_XERSW",
+    "as_written": "scz_xersw_eur_sr-qc (EUR; 322 cases, 332 controls)",
+    "role": "case-control",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#row-scz_xersw_eur_sr-qc"
+   },
+   {
+    "id": "SCZ_XFI3M",
+    "as_written": "scz_xfi3m_eur_sr-qc (EUR; 186 cases, 930 controls)",
+    "role": "case-control",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#row-scz_xfi3m_eur_sr-qc"
+   },
+   {
+    "id": "SCZ_XFII6",
+    "as_written": "scz_xfii6_eur_sr-qc (EUR; 361 cases, 1082 controls)",
+    "role": "case-control",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#row-scz_xfii6_eur_sr-qc"
+   },
+   {
+    "id": "SCZ_XGRAS",
+    "as_written": "scz_xgras_eur_sr-qc (EUR; 1086 cases, 1232 controls)",
+    "role": "case-control",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#row-scz_xgras_eur_sr-qc"
+   },
+   {
+    "id": "SCZ_XIRWT",
+    "as_written": "scz_xirwt_eur_sr-qc (EUR; 1309 cases, 1022 controls)",
+    "role": "case-control",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#row-scz_xirwt_eur_sr-qc"
+   },
+   {
+    "id": "SCZ_XJR3A",
+    "as_written": "scz_xjr3a_eur_sr-qc (EUR; 362 cases, 325 controls)",
+    "role": "case-control",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#row-scz_xjr3a_eur_sr-qc"
+   },
+   {
+    "id": "SCZ_XJR3B",
+    "as_written": "scz_xjr3b_eur_sr-qc (EUR; 647 cases, 639 controls)",
+    "role": "case-control",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#row-scz_xjr3b_eur_sr-qc"
+   },
+   {
+    "id": "SCZ_XJRI6",
+    "as_written": "scz_xjri6_eur_sr-qc (EUR; 260 cases, 130 controls)",
+    "role": "case-control",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#row-scz_xjri6_eur_sr-qc"
+   },
+   {
+    "id": "SCZ_XJRSA",
+    "as_written": "scz_xjrsa_eur_sr-qc (EUR; 1181 cases, 2313 controls)",
+    "role": "case-control",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#row-scz_xjrsa_eur_sr-qc"
+   },
+   {
+    "id": "SCZ_XLACW",
+    "as_written": "scz_xlacw_eur_sr-qc (EUR; 157 cases, 466 controls)",
+    "role": "case-control",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#row-scz_xlacw_eur_sr-qc"
+   },
+   {
+    "id": "SCZ_XLEMU",
+    "as_written": "ms.scz_xlemu_eur_sr-qc (EUR; 585 cases, 0 controls; trio sample)",
+    "role": "case-control",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#row-msscz_xlemu_eur_sr-qc"
+   },
+   {
+    "id": "SCZ_XLIE2",
+    "as_written": "scz_xlie2_eur_sr-qc (EUR; 137 cases, 269 controls)",
+    "role": "case-control",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#row-scz_xlie2_eur_sr-qc"
+   },
+   {
+    "id": "SCZ_XLIE5",
+    "as_written": "scz_xlie5_eur_sr-qc (EUR; 509 cases, 389 controls)",
+    "role": "case-control",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#row-scz_xlie5_eur_sr-qc"
+   },
+   {
+    "id": "SCZ_XLKTU",
+    "as_written": "scz_xlktu_eur_sr-qc (EUR; 322 cases, 332 controls)",
+    "role": "case-control",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#row-scz_xlktu_eur_sr-qc"
+   },
+   {
+    "id": "SCZ_XMSAF",
+    "as_written": "scz_xmsaf_eur_sr-qc (EUR; 327 cases, 139 controls)",
+    "role": "case-control",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#row-scz_xmsaf_eur_sr-qc"
+   },
+   {
+    "id": "SCZ_XMUNC",
+    "as_written": "scz_xmunc_eur_sr-qc (EUR; 437 cases, 351 controls)",
+    "role": "case-control",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#row-scz_xmunc_eur_sr-qc"
+   },
+   {
+    "id": "SCZ_XPEWB",
+    "as_written": "scz_xpewb_eur_sr-qc (EUR; 641 cases, 1892 controls)",
+    "role": "case-control",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#row-scz_xpewb_eur_sr-qc"
+   },
+   {
+    "id": "SCZ_XPEWS",
+    "as_written": "scz_xpews_eur_sr-qc (EUR; 150 cases, 236 controls)",
+    "role": "case-control",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#row-scz_xpews_eur_sr-qc"
+   },
+   {
+    "id": "SCZ_XPFLA",
+    "as_written": "scz_xpfla_eur_sr-qc (EUR; 681 cases, 1174 controls)",
+    "role": "case-control",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#row-scz_xpfla_eur_sr-qc"
+   },
+   {
+    "id": "SCZ_XPORT",
+    "as_written": "scz_xport_eur_sr-qc (EUR; 346 cases, 216 controls)",
+    "role": "case-control",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#row-scz_xport_eur_sr-qc"
+   },
+   {
+    "id": "SCZ_XS234",
+    "as_written": "scz_xs234_eur_sr-qc (EUR; 2077 cases, 2341 controls)",
+    "role": "case-control",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#row-scz_xs234_eur_sr-qc"
+   },
+   {
+    "id": "SCZ_XSWE1",
+    "as_written": "scz_xswe1_eur_sr-qc (EUR; 221 cases, 214 controls)",
+    "role": "case-control",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#row-scz_xswe1_eur_sr-qc"
+   },
+   {
+    "id": "SCZ_XSWE5",
+    "as_written": "scz_xswe5_eur_sr-qc (EUR; 1801 cases, 2617 controls)",
+    "role": "case-control",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#row-scz_xswe5_eur_sr-qc"
+   },
+   {
+    "id": "SCZ_XSWE6",
+    "as_written": "scz_xswe6_eur_sr-qc (EUR; 1094 cases, 1219 controls)",
+    "role": "case-control",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#row-scz_xswe6_eur_sr-qc"
+   },
+   {
+    "id": "SCZ_XTOP8",
+    "as_written": "scz_xtop8_eur_sr-qc (EUR; 377 cases, 403 controls)",
+    "role": "case-control",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#row-scz_xtop8_eur_sr-qc"
+   },
+   {
+    "id": "SCZ_XUCLA",
+    "as_written": "scz_xucla_eur_sr-qc (EUR; 705 cases, 637 controls)",
+    "role": "case-control",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#row-scz_xucla_eur_sr-qc"
+   },
+   {
+    "id": "SCZ_XUCLO",
+    "as_written": "scz_xuclo_eur_sr-qc (EUR; 521 cases, 494 controls)",
+    "role": "case-control",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#row-scz_xuclo_eur_sr-qc"
+   },
+   {
+    "id": "SCZ_XUKTR",
+    "as_written": "ms.scz_xuktr_eur_sr-qc (EUR; 70 cases, 140 controls; trio sample)",
+    "role": "case-control",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#row-msscz_xuktr_eur_sr-qc"
+   },
+   {
+    "id": "SCZ_XUME2",
+    "as_written": "scz_xume2_eur_sr-qc (EUR; 595 cases, 1638 controls)",
+    "role": "case-control",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#row-scz_xume2_eur_sr-qc"
+   },
+   {
+    "id": "SCZ_XZHH1",
+    "as_written": "scz_xzhh1_eur_sr-qc (EUR; 191 cases, 190 controls)",
+    "role": "case-control",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#row-scz_xzhh1_eur_sr-qc"
+   },
+   {
+    "id": "UKBS",
+    "as_written": "UK Blood Service (WTCCC controls for scz_xcaws; WTCCC2 controls for CLOZUK)",
+    "role": "controls_only",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#ctl-b58c-ukbs-xcaws; claims/trubetskoy2022scz3_supp_cohorts.yaml#ctl-clozuk-ukbs; claims/trubetskoy2022scz3_supp_cohorts.yaml#ctl-wtccc2"
+   },
+   {
+    "id": "UK_NBTS",
+    "as_written": "UK National Blood Transfusion Service, 900 controls held by Cardiff University (CLOZUK)",
+    "role": "controls_only",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#ctl-clozuk-nbts"
+   },
+   {
+    "id": "WTCCC",
+    "as_written": "WTCCC controls (scz_xlacw: \"Six countries, WTCCC controls\"; PEIC samples scz_xpews/xpewb part of WTCCC2, control source not further specified)",
+    "role": "controls_only",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#ctl-wtccc-xlacw; claims/trubetskoy2022scz3_supp_cohorts.yaml#peic-wtccc2; claims/trubetskoy2022scz3_supp_cohorts.yaml#ctl-wtccc2"
+   }
+  ],
+  "replication_only": [
+   "DECODE (Icelandic sample, extended GWAS only)",
+   "SGENE_PLUS_NON_ICELANDIC (deCODE non-Icelandic sample, extended GWAS only)"
+  ],
+  "components_complete": "no",
+  "complete_reason": "(1) Methods state 90 core cohorts; the Sample Description Table lists 89 (75 EUR, 14 ASN), so one cohort is not identifiable; (2) the 14 East Asian samples (bix1-3, cno1[bjm1], hku1, imh1-2, jpn1, kor1, tai1-2, umc1, uwa1, xju1) are named only by code and cited to earlier publications, with no recruitment or control source stated (kor1 platform reads \"Korean BioBank chip\"); (3) the 9 African-American and Latino summary-level cohorts are described in aggregate (GPC plus NIMH Repository MGS, COGS, PAARTNERS), not listed; (4) control sources are generic for several samples (scz_xlacw \"WTCCC controls\"; PEIC scz_xpews/xpewb within WTCCC2 without control source), and Generation Scotland and dbGaP phs000021.v3.p2 controls are listed without the sample they serve.",
+  "includes_ukb": "unknown",
+  "includes_iceland": "unknown",
+  "pqtl_cohort_flags": {
+   "INTERVAL": "unknown",
+   "FENLAND": "unknown",
+   "ARIC": "unknown",
+   "AGES": "unknown",
+   "FHS": "unknown",
+   "IMPROVE": "unknown",
+   "DECODE": "unknown",
+   "UKB": "unknown",
+   "KORA": "yes"
+  },
+  "ancestry": "European, East Asian, African American, Latino (74.3% EUR, 17.5% ASN, 5.7% AA, 2.5% LAT)",
+  "sample_size": "Primary GWAS 74,776 cases; 101,023 controls (core PGC 67,390 cases, 94,015 controls; AA/LAT 7,386 cases, 7,008 controls)",
+  "source_read": "https://pmc-oa-opendata.s3.amazonaws.com/PMC9392466.1/PMC9392466.1.txt (NCBI PMC author manuscript; Results, Methods Samples, Data availability); https://static-content.springer.com/esm/art%3A10.1038%2Fs41586-022-04434-5/MediaObjects/41586_2022_4434_MOESM1_ESM.pdf (Supplementary Information: Case-control sample descriptions, Asian samples, African-American and Latino samples, Control cohorts descriptions, Sample Description Table, read in full); .../41586_2022_4434_MOESM3_ESM.pdf (Peer Review File, author rebuttal on UK Biobank)",
+  "claims_files": [
+   "claims/trubetskoy2022scz3_supp_cohorts.yaml",
+   "claims/trubetskoy2022scz3_main.yaml",
+   "claims/trubetskoy2022scz3_peer_review.yaml"
+  ],
+  "notes": "KORA is a stated control source (scz_xboco, with PopGen and HNR) -> overlaps KORA pQTL sources. FINRISK and Estonian Biobank are control sources. UKB: no UK Biobank sample appears in the 89-row table, and the authors' rebuttal says UK Biobank was considered as a source of controls and not used (claims/trubetskoy2022scz3_peer_review.yaml#ukb-considered, #ukb-not-used); flag left unknown because the list is incomplete. Iceland/DECODE: deCODE entered only the Extended GWAS for 1,249 SNPs with P<1e-5 (claims/trubetskoy2022scz3_main.yaml#decode-extended); left unknown for the primary because the list is incomplete. DNSB (scz_xaarh) is the Danish Newborn Screening Biobank, the same biobank iPSYCH samples from; overlap with IPSYCH is possible but not stated. Dictionary sample_size \"up to 76,755 cases; 243,649 controls\" is the Extended GWAS, not the primary. Table oddities: scz_xlktu row repeats scz_xersw values exactly (322/332/654/.../728357); table case/control sums (69,457/93,020) differ from the Methods totals (67,390/94,015). Component IDs SCZ_<code> / SCZ_ASN_<code> are per PGC sample (case collection with its own controls unless a control source is listed). Completeness quotes: claims/trubetskoy2022scz3_main.yaml#core-90, claims/trubetskoy2022scz3_main.yaml#primary-composition, claims/trubetskoy2022scz3_main.yaml#details-in-supp, claims/trubetskoy2022scz3_supp_cohorts.yaml#table-caption, claims/trubetskoy2022scz3_supp_cohorts.yaml#asian-samples; release: claims/trubetskoy2022scz3_main.yaml#release."
+ },
+ {
+  "row_name": "PGC SCZ3 extended (Trubetskoy 2022)",
+  "new_row": true,
+  "side": "outcome",
+  "aliases_proposed": "PGC3 SCZ extended|Trubetskoy 2022 extended|SCZ3 extended GWAS",
+  "release": "Extended GWAS public file: primary GWAS plus deCODE (1,979 cases, 142,626 controls, European ancestry) for 1,249 LD-independent variants with P<1e-5",
+  "source_citation": "Trubetskoy V et al. 2022. Mapping genomic loci implicates genes and synaptic biology in schizophrenia. Nature 604:502-508",
+  "source_identifier": "doi:10.1038/s41586-022-04434-5; PMID:35396580; PMC9392466",
+  "components": [
+   {
+    "id": "B58C",
+    "as_written": "1958 British Birth Cohort (WTCCC controls for scz_xcaws; WTCCC2 controls for CLOZUK scz_xclm2/xclo3)",
+    "role": "controls_only",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#ctl-b58c-ukbs-xcaws; claims/trubetskoy2022scz3_supp_cohorts.yaml#ctl-clozuk-wtccc2; claims/trubetskoy2022scz3_supp_cohorts.yaml#ctl-wtccc2"
+   },
+   {
+    "id": "BETULA",
+    "as_written": "Betula study (controls for scz_xume2)",
+    "role": "controls_only",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#ctl-betula"
+   },
+   {
+    "id": "COGS",
+    "as_written": "scz_cogs1_eur_sr-qc (EUR; 428 cases, 476 controls) / COGS via NIMH Repository (African-American and Latino cohorts)",
+    "role": "case-control",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#row-scz_cogs1_eur_sr-qc; claims/trubetskoy2022scz3_supp_cohorts.yaml#aalat-nimh"
+   },
+   {
+    "id": "DBGAP_PHS000021",
+    "as_written": "dbGaP control genotypes phs000021.v3.p2 (sample it serves not stated)",
+    "role": "controls_only",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#ctl-dbgap"
+   },
+   {
+    "id": "DECODE",
+    "as_written": "Stefánsson, K | Iceland (SGENE+, deCODE)",
+    "role": "case-control",
+    "quote_id": "claims/trubetskoy2022scz3_main.yaml#decode-extended; claims/trubetskoy2022scz3_supp_cohorts.yaml#decode-sample"
+   },
+   {
+    "id": "DNSB",
+    "as_written": "scz_xaarh_eur_sr-qc (EUR; 883 cases, 873 controls) / Danish Newborn Screening Biobank (cases and controls, scz_xaarh)",
+    "role": "case-control",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#row-scz_xaarh_eur_sr-qc; claims/trubetskoy2022scz3_supp_cohorts.yaml#ctl-dnsb"
+   },
+   {
+    "id": "ECACC_HRC",
+    "as_written": "480 ECACC Human Random Control (HRC) samples from Public Health England (scz_mcqul)",
+    "role": "controls_only",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#ctl-ecacc"
+   },
+   {
+    "id": "ESTONIAN_BIOBANK",
+    "as_written": "scz_xegcu_eur_sr-qc (EUR; 239 cases, 1177 controls) / Estonian Biobank project (EGCUT) controls for J&J and Roche cases (scz_xjr3a, xjr3b, xjri6, xjrsa)",
+    "role": "case-control",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#row-scz_xegcu_eur_sr-qc; claims/trubetskoy2022scz3_supp_cohorts.yaml#ctl-egcut; claims/trubetskoy2022scz3_supp_cohorts.yaml#ctl-egcut-jr; claims/trubetskoy2022scz3_supp_cohorts.yaml#ctl-egcut-jr2"
+   },
+   {
+    "id": "FINRISK",
+    "as_written": "National FINRISK Study (controls for scz_xfi3m, scz_xfii6)",
+    "role": "controls_only",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#ctl-finnish"
+   },
+   {
+    "id": "GENERATION_SCOTLAND",
+    "as_written": "Generation Scotland Scottish Family Health Study (listed under Control cohorts descriptions; sample it serves not stated)",
+    "role": "controls_only",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#ctl-genscot"
+   },
+   {
+    "id": "GPC",
+    "as_written": "scz_gpc2a_eur_sr-qc (EUR; 1957 cases, 2062 controls) / Genomic Psychiatry Cohort (African-American and Latino summary-level cohorts)",
+    "role": "case-control",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#row-scz_gpc2a_eur_sr-qc; claims/trubetskoy2022scz3_supp_cohorts.yaml#aalat-gpc"
+   },
+   {
+    "id": "HBCS",
+    "as_written": "Helsinki Birth Cohort Study (HBCS) (controls for scz_xfi3m, scz_xfii6)",
+    "role": "controls_only",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#ctl-finnish2"
+   },
+   {
+    "id": "HEALTH2000",
+    "as_written": "Finnish Health 2000 survey (controls for scz_xfi3m, scz_xfii6)",
+    "role": "controls_only",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#ctl-finnish"
+   },
+   {
+    "id": "HNR",
+    "as_written": "Heinz Nixdorf Recall (HNR) study (controls for scz_xboco)",
+    "role": "controls_only",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#ctl-kora-hnr"
+   },
+   {
+    "id": "IBTS",
+    "as_written": "Irish Blood Transfusion Service(s) (controls for scz_xdubl, scz_xirwt)",
+    "role": "controls_only",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#ctl-ibts-dublin; claims/trubetskoy2022scz3_supp_cohorts.yaml#ctl-ibts-wtccc2"
+   },
+   {
+    "id": "KORA",
+    "as_written": "Cooperative Health Research in the Region of Augsburg (KORA) study (controls for scz_xboco)",
+    "role": "controls_only",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#ctl-kora-hnr"
+   },
+   {
+    "id": "MGS",
+    "as_written": "scz_xmgs2_eur_sr-qc (EUR; 2681 cases, 2653 controls) / MGS control sample (Knowledge Networks; controls for scz_xmgs2 and scz_xcati) / Molecular Genetics of Schizophrenia via NIMH Repository (African-American and Latino cohorts)",
+    "role": "case-control",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#row-scz_xmgs2_eur_sr-qc; claims/trubetskoy2022scz3_supp_cohorts.yaml#ctl-mgs; claims/trubetskoy2022scz3_supp_cohorts.yaml#ctl-catie-mgs; claims/trubetskoy2022scz3_supp_cohorts.yaml#aalat-nimh"
+   },
+   {
+    "id": "MIGEN",
+    "as_written": "Myocardial Infarction Genetics Consortium (MIGen, dbGaP phs000294.v1.p1) controls for scz_xlktu",
+    "role": "controls_only",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#ctl-migen"
+   },
+   {
+    "id": "MUNICH_COMMUNITY",
+    "as_written": "Munich-based community sample (additional controls for scz_xboco)",
+    "role": "controls_only",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#ctl-munich"
+   },
+   {
+    "id": "NFBC",
+    "as_written": "Northern Finland Birth Cohort (NFBC) (controls for scz_xfi3m, scz_xfii6)",
+    "role": "controls_only",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#ctl-finnish2"
+   },
+   {
+    "id": "PAARTNERS",
+    "as_written": "PAARTNERS via NIMH Repository (African-American and Latino cohorts)",
+    "role": "case-control",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#aalat-nimh"
+   },
+   {
+    "id": "PFIZER_A9011027",
+    "as_written": "Pfizer control study A9011027 (scz_xpfla)",
+    "role": "controls_only",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#ctl-pfizer"
+   },
+   {
+    "id": "PISMA",
+    "as_written": "PISMA study (controls for scz_sanch)",
+    "role": "controls_only",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#ctl-pisma"
+   },
+   {
+    "id": "POPGEN",
+    "as_written": "PopGen (controls for scz_xboco)",
+    "role": "controls_only",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#ctl-popgen"
+   },
+   {
+    "id": "SCZ_ASN_BIX1",
+    "as_written": "bix1 (ASN; 1047 cases, 2301 controls)",
+    "role": "case-control",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#row-bix1"
+   },
+   {
+    "id": "SCZ_ASN_BIX2",
+    "as_written": "bix2 (ASN; 1021 cases, 1001 controls)",
+    "role": "case-control",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#row-bix2"
+   },
+   {
+    "id": "SCZ_ASN_BIX3",
+    "as_written": "bix3 (ASN; 492 cases, 679 controls)",
+    "role": "case-control",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#row-bix3"
+   },
+   {
+    "id": "SCZ_ASN_CNO1",
+    "as_written": "cno1[bjm1] (ASN; 1332 cases, 2036 controls)",
+    "role": "case-control",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#row-cno1-bjm1"
+   },
+   {
+    "id": "SCZ_ASN_HKU1",
+    "as_written": "hku1 (ASN; 476 cases, 2018 controls)",
+    "role": "case-control",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#row-hku1"
+   },
+   {
+    "id": "SCZ_ASN_IMH1",
+    "as_written": "imh1 (ASN; 898 cases, 996 controls)",
+    "role": "case-control",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#row-imh1"
+   },
+   {
+    "id": "SCZ_ASN_IMH2",
+    "as_written": "imh2 (ASN; 821 cases, 956 controls)",
+    "role": "case-control",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#row-imh2"
+   },
+   {
+    "id": "SCZ_ASN_JPN1",
+    "as_written": "jpn1 (ASN; 547 cases, 540 controls)",
+    "role": "case-control",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#row-jpn1"
+   },
+   {
+    "id": "SCZ_ASN_KOR1",
+    "as_written": "kor1 (ASN; 688 cases, 492 controls)",
+    "role": "case-control",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#row-kor1"
+   },
+   {
+    "id": "SCZ_ASN_TAI1",
+    "as_written": "tai1 (ASN; 1123 cases, 2243 controls)",
+    "role": "case-control",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#row-tai1"
+   },
+   {
+    "id": "SCZ_ASN_TAI2",
+    "as_written": "tai2 (ASN; 593 cases, 1190 controls)",
+    "role": "case-control",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#row-tai2"
+   },
+   {
+    "id": "SCZ_ASN_UMC1",
+    "as_written": "umc1 (ASN; 2328 cases, 2380 controls)",
+    "role": "case-control",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#row-umc1"
+   },
+   {
+    "id": "SCZ_ASN_UWA1",
+    "as_written": "uwa1 (ASN; 996 cases, 1047 controls)",
+    "role": "case-control",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#row-uwa1"
+   },
+   {
+    "id": "SCZ_ASN_XJU1",
+    "as_written": "xju1 (ASN; 1902 cases, 1009 controls)",
+    "role": "case-control",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#row-xju1"
+   },
+   {
+    "id": "SCZ_BEP1B",
+    "as_written": "scz_bep1b (EUR; 294 cases, 573 controls)",
+    "role": "case-control",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#row-scz_bep1b"
+   },
+   {
+    "id": "SCZ_BRAZ2",
+    "as_written": "scz_braz2_eur_sr-qc (EUR; 110 cases, 334 controls)",
+    "role": "case-control",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#row-scz_braz2_eur_sr-qc"
+   },
+   {
+    "id": "SCZ_CELSO",
+    "as_written": "scz_celso_eur_sr-qc (EUR; 2030 cases, 1517 controls)",
+    "role": "case-control",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#row-scz_celso_eur_sr-qc"
+   },
+   {
+    "id": "SCZ_CGS1C",
+    "as_written": "scz_cgs1c_eur_sr-qc (EUR; 524 cases, 3115 controls)",
+    "role": "case-control",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#row-scz_cgs1c_eur_sr-qc"
+   },
+   {
+    "id": "SCZ_CLZ2A",
+    "as_written": "scz_clz2a_eur_sr-qc (EUR; 5370 cases, 6940 controls)",
+    "role": "case-control",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#row-scz_clz2a_eur_sr-qc"
+   },
+   {
+    "id": "SCZ_DU2AA",
+    "as_written": "scz_du2aa_eur_sr-qc (EUR; 345 cases, 245 controls)",
+    "role": "case-control",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#row-scz_du2aa_eur_sr-qc"
+   },
+   {
+    "id": "SCZ_ENRIC",
+    "as_written": "scz_enric_eur_sr-qc (EUR; 700 cases, 574 controls)",
+    "role": "case-control",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#row-scz_enric_eur_sr-qc"
+   },
+   {
+    "id": "SCZ_EU5ME",
+    "as_written": "scz_eu5me_eur_sa-qc (EUR; 615 cases, 182 controls)",
+    "role": "case-control",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#row-scz_eu5me_eur_sa-qc"
+   },
+   {
+    "id": "SCZ_EUSP2",
+    "as_written": "scz_eusp2_eur_sr-qc (EUR; 338 cases, 490 controls)",
+    "role": "case-control",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#row-scz_eusp2_eur_sr-qc"
+   },
+   {
+    "id": "SCZ_EUTU2",
+    "as_written": "scz_eutu2_eur_sr-qc (EUR; 393 cases, 690 controls)",
+    "role": "case-control",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#row-scz_eutu2_eur_sr-qc"
+   },
+   {
+    "id": "SCZ_GAP1A",
+    "as_written": "scz_gap1a_eur_sr-qc (EUR; 152 cases, 164 controls)",
+    "role": "case-control",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#row-scz_gap1a_eur_sr-qc"
+   },
+   {
+    "id": "SCZ_GAWLI",
+    "as_written": "scz_gawli_eur_sr-qc (EUR; 1255 cases, 1555 controls)",
+    "role": "case-control",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#row-scz_gawli_eur_sr-qc"
+   },
+   {
+    "id": "SCZ_GEBA1",
+    "as_written": "scz_geba1_eur_sr-qc (EUR; 397 cases, 703 controls)",
+    "role": "case-control",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#row-scz_geba1_eur_sr-qc"
+   },
+   {
+    "id": "SCZ_GRO2A",
+    "as_written": "scz_gro2a_eur_sr-qc (EUR; 329 cases, 277 controls)",
+    "role": "case-control",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#row-scz_gro2a_eur_sr-qc"
+   },
+   {
+    "id": "SCZ_GRTR1",
+    "as_written": "ms.scz_grtr1_eur_sr-qc (EUR; 145 cases, 290 controls; trio sample)",
+    "role": "case-control",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#row-msscz_grtr1_eur_sr-qc"
+   },
+   {
+    "id": "SCZ_MCQUL",
+    "as_written": "scz_mcqul_eur_sr-qc (EUR; 1351 cases, 1310 controls)",
+    "role": "case-control",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#row-scz_mcqul_eur_sr-qc"
+   },
+   {
+    "id": "SCZ_MOSC2",
+    "as_written": "scz_mosc2_eur_sr-qc (EUR; 410 cases, 433 controls)",
+    "role": "case-control",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#row-scz_mosc2_eur_sr-qc"
+   },
+   {
+    "id": "SCZ_PARIS",
+    "as_written": "scz_paris_eur_sr-qc (EUR; 316 cases, 390 controls)",
+    "role": "case-control",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#row-scz_paris_eur_sr-qc"
+   },
+   {
+    "id": "SCZ_PRICE",
+    "as_written": "scz_price_eur_sr-qc (EUR; 841 cases, 727 controls)",
+    "role": "case-control",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#row-scz_price_eur_sr-qc"
+   },
+   {
+    "id": "SCZ_ROUIN",
+    "as_written": "scz_rouin_eur_sr-qc (EUR; 204 cases, 185 controls)",
+    "role": "case-control",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#row-scz_rouin_eur_sr-qc"
+   },
+   {
+    "id": "SCZ_SANCH",
+    "as_written": "scz_sanch_eur_sr-qc (EUR; 335 cases, 1209 controls)",
+    "role": "case-control",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#row-scz_sanch_eur_sr-qc"
+   },
+   {
+    "id": "SCZ_SB2AA",
+    "as_written": "scz_sb2aa_eur_sr-qc (EUR; 250 cases, 237 controls)",
+    "role": "case-control",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#row-scz_sb2aa_eur_sr-qc"
+   },
+   {
+    "id": "SCZ_SERRI",
+    "as_written": "scz_serri_eur_sr-qc (EUR; 217 cases, 238 controls)",
+    "role": "case-control",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#row-scz_serri_eur_sr-qc"
+   },
+   {
+    "id": "SCZ_TO10C",
+    "as_written": "scz_to10c_eur_sr-qc (EUR; 970 cases, 5040 controls)",
+    "role": "case-control",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#row-scz_to10c_eur_sr-qc"
+   },
+   {
+    "id": "SCZ_VIYO1",
+    "as_written": "scz_viyo1_eur_sr-qc (EUR; 356 cases, 131 controls)",
+    "role": "case-control",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#row-scz_viyo1_eur_sr-qc"
+   },
+   {
+    "id": "SCZ_XABER",
+    "as_written": "scz_xaber_eur_sr-qc (EUR; 720 cases, 699 controls)",
+    "role": "case-control",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#row-scz_xaber_eur_sr-qc"
+   },
+   {
+    "id": "SCZ_XAJSZ",
+    "as_written": "scz_xajsz_eur_sr-qc (EUR; 896 cases, 1595 controls)",
+    "role": "case-control",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#row-scz_xajsz_eur_sr-qc"
+   },
+   {
+    "id": "SCZ_XASRB",
+    "as_written": "scz_xasrb_eur_sr-qc (EUR; 509 cases, 310 controls)",
+    "role": "case-control",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#row-scz_xasrb_eur_sr-qc"
+   },
+   {
+    "id": "SCZ_XBOCO",
+    "as_written": "scz_xboco_eur_sr-qc (EUR; 1847 cases, 2170 controls)",
+    "role": "case-control",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#row-scz_xboco_eur_sr-qc"
+   },
+   {
+    "id": "SCZ_XBULS",
+    "as_written": "scz_xbuls_eur_sr-qc (EUR; 195 cases, 608 controls)",
+    "role": "case-control",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#row-scz_xbuls_eur_sr-qc"
+   },
+   {
+    "id": "SCZ_XBUTR",
+    "as_written": "ms.scz_xbutr_eur_sr-qc (EUR; 741 cases, 1156 controls; trio sample)",
+    "role": "case-control",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#row-msscz_xbutr_eur_sr-qc"
+   },
+   {
+    "id": "SCZ_XCATI",
+    "as_written": "scz_xcati_eur_sr-qc (EUR; 409 cases, 392 controls)",
+    "role": "case-control",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#row-scz_xcati_eur_sr-qc"
+   },
+   {
+    "id": "SCZ_XCAWS",
+    "as_written": "scz_xcaws_eur_sr-qc (EUR; 424 cases, 306 controls)",
+    "role": "case-control",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#row-scz_xcaws_eur_sr-qc"
+   },
+   {
+    "id": "SCZ_XCIMS",
+    "as_written": "scz_xcims_eur_sr-qc (EUR; 71 cases, 69 controls)",
+    "role": "case-control",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#row-scz_xcims_eur_sr-qc"
+   },
+   {
+    "id": "SCZ_XCLM2",
+    "as_written": "scz_xclm2_eur_sr-qc (EUR; 3466 cases, 4297 controls)",
+    "role": "case-control",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#row-scz_xclm2_eur_sr-qc"
+   },
+   {
+    "id": "SCZ_XCLO3",
+    "as_written": "scz_xclo3_eur_sr-qc (EUR; 2150 cases, 2083 controls)",
+    "role": "case-control",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#row-scz_xclo3_eur_sr-qc"
+   },
+   {
+    "id": "SCZ_XCOU3",
+    "as_written": "scz_xcou3_eur_sr-qc (EUR; 540 cases, 693 controls)",
+    "role": "case-control",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#row-scz_xcou3_eur_sr-qc"
+   },
+   {
+    "id": "SCZ_XDENM",
+    "as_written": "scz_xdenm_eur_sr-qc (EUR; 492 cases, 458 controls)",
+    "role": "case-control",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#row-scz_xdenm_eur_sr-qc"
+   },
+   {
+    "id": "SCZ_XDUBL",
+    "as_written": "scz_xdubl_eur_sr-qc (EUR; 272 cases, 860 controls)",
+    "role": "case-control",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#row-scz_xdubl_eur_sr-qc"
+   },
+   {
+    "id": "SCZ_XEDIN",
+    "as_written": "scz_xedin_eur_sr-qc (EUR; 368 cases, 284 controls)",
+    "role": "case-control",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#row-scz_xedin_eur_sr-qc"
+   },
+   {
+    "id": "SCZ_XERSW",
+    "as_written": "scz_xersw_eur_sr-qc (EUR; 322 cases, 332 controls)",
+    "role": "case-control",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#row-scz_xersw_eur_sr-qc"
+   },
+   {
+    "id": "SCZ_XFI3M",
+    "as_written": "scz_xfi3m_eur_sr-qc (EUR; 186 cases, 930 controls)",
+    "role": "case-control",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#row-scz_xfi3m_eur_sr-qc"
+   },
+   {
+    "id": "SCZ_XFII6",
+    "as_written": "scz_xfii6_eur_sr-qc (EUR; 361 cases, 1082 controls)",
+    "role": "case-control",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#row-scz_xfii6_eur_sr-qc"
+   },
+   {
+    "id": "SCZ_XGRAS",
+    "as_written": "scz_xgras_eur_sr-qc (EUR; 1086 cases, 1232 controls)",
+    "role": "case-control",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#row-scz_xgras_eur_sr-qc"
+   },
+   {
+    "id": "SCZ_XIRWT",
+    "as_written": "scz_xirwt_eur_sr-qc (EUR; 1309 cases, 1022 controls)",
+    "role": "case-control",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#row-scz_xirwt_eur_sr-qc"
+   },
+   {
+    "id": "SCZ_XJR3A",
+    "as_written": "scz_xjr3a_eur_sr-qc (EUR; 362 cases, 325 controls)",
+    "role": "case-control",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#row-scz_xjr3a_eur_sr-qc"
+   },
+   {
+    "id": "SCZ_XJR3B",
+    "as_written": "scz_xjr3b_eur_sr-qc (EUR; 647 cases, 639 controls)",
+    "role": "case-control",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#row-scz_xjr3b_eur_sr-qc"
+   },
+   {
+    "id": "SCZ_XJRI6",
+    "as_written": "scz_xjri6_eur_sr-qc (EUR; 260 cases, 130 controls)",
+    "role": "case-control",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#row-scz_xjri6_eur_sr-qc"
+   },
+   {
+    "id": "SCZ_XJRSA",
+    "as_written": "scz_xjrsa_eur_sr-qc (EUR; 1181 cases, 2313 controls)",
+    "role": "case-control",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#row-scz_xjrsa_eur_sr-qc"
+   },
+   {
+    "id": "SCZ_XLACW",
+    "as_written": "scz_xlacw_eur_sr-qc (EUR; 157 cases, 466 controls)",
+    "role": "case-control",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#row-scz_xlacw_eur_sr-qc"
+   },
+   {
+    "id": "SCZ_XLEMU",
+    "as_written": "ms.scz_xlemu_eur_sr-qc (EUR; 585 cases, 0 controls; trio sample)",
+    "role": "case-control",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#row-msscz_xlemu_eur_sr-qc"
+   },
+   {
+    "id": "SCZ_XLIE2",
+    "as_written": "scz_xlie2_eur_sr-qc (EUR; 137 cases, 269 controls)",
+    "role": "case-control",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#row-scz_xlie2_eur_sr-qc"
+   },
+   {
+    "id": "SCZ_XLIE5",
+    "as_written": "scz_xlie5_eur_sr-qc (EUR; 509 cases, 389 controls)",
+    "role": "case-control",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#row-scz_xlie5_eur_sr-qc"
+   },
+   {
+    "id": "SCZ_XLKTU",
+    "as_written": "scz_xlktu_eur_sr-qc (EUR; 322 cases, 332 controls)",
+    "role": "case-control",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#row-scz_xlktu_eur_sr-qc"
+   },
+   {
+    "id": "SCZ_XMSAF",
+    "as_written": "scz_xmsaf_eur_sr-qc (EUR; 327 cases, 139 controls)",
+    "role": "case-control",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#row-scz_xmsaf_eur_sr-qc"
+   },
+   {
+    "id": "SCZ_XMUNC",
+    "as_written": "scz_xmunc_eur_sr-qc (EUR; 437 cases, 351 controls)",
+    "role": "case-control",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#row-scz_xmunc_eur_sr-qc"
+   },
+   {
+    "id": "SCZ_XPEWB",
+    "as_written": "scz_xpewb_eur_sr-qc (EUR; 641 cases, 1892 controls)",
+    "role": "case-control",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#row-scz_xpewb_eur_sr-qc"
+   },
+   {
+    "id": "SCZ_XPEWS",
+    "as_written": "scz_xpews_eur_sr-qc (EUR; 150 cases, 236 controls)",
+    "role": "case-control",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#row-scz_xpews_eur_sr-qc"
+   },
+   {
+    "id": "SCZ_XPFLA",
+    "as_written": "scz_xpfla_eur_sr-qc (EUR; 681 cases, 1174 controls)",
+    "role": "case-control",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#row-scz_xpfla_eur_sr-qc"
+   },
+   {
+    "id": "SCZ_XPORT",
+    "as_written": "scz_xport_eur_sr-qc (EUR; 346 cases, 216 controls)",
+    "role": "case-control",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#row-scz_xport_eur_sr-qc"
+   },
+   {
+    "id": "SCZ_XS234",
+    "as_written": "scz_xs234_eur_sr-qc (EUR; 2077 cases, 2341 controls)",
+    "role": "case-control",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#row-scz_xs234_eur_sr-qc"
+   },
+   {
+    "id": "SCZ_XSWE1",
+    "as_written": "scz_xswe1_eur_sr-qc (EUR; 221 cases, 214 controls)",
+    "role": "case-control",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#row-scz_xswe1_eur_sr-qc"
+   },
+   {
+    "id": "SCZ_XSWE5",
+    "as_written": "scz_xswe5_eur_sr-qc (EUR; 1801 cases, 2617 controls)",
+    "role": "case-control",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#row-scz_xswe5_eur_sr-qc"
+   },
+   {
+    "id": "SCZ_XSWE6",
+    "as_written": "scz_xswe6_eur_sr-qc (EUR; 1094 cases, 1219 controls)",
+    "role": "case-control",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#row-scz_xswe6_eur_sr-qc"
+   },
+   {
+    "id": "SCZ_XTOP8",
+    "as_written": "scz_xtop8_eur_sr-qc (EUR; 377 cases, 403 controls)",
+    "role": "case-control",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#row-scz_xtop8_eur_sr-qc"
+   },
+   {
+    "id": "SCZ_XUCLA",
+    "as_written": "scz_xucla_eur_sr-qc (EUR; 705 cases, 637 controls)",
+    "role": "case-control",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#row-scz_xucla_eur_sr-qc"
+   },
+   {
+    "id": "SCZ_XUCLO",
+    "as_written": "scz_xuclo_eur_sr-qc (EUR; 521 cases, 494 controls)",
+    "role": "case-control",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#row-scz_xuclo_eur_sr-qc"
+   },
+   {
+    "id": "SCZ_XUKTR",
+    "as_written": "ms.scz_xuktr_eur_sr-qc (EUR; 70 cases, 140 controls; trio sample)",
+    "role": "case-control",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#row-msscz_xuktr_eur_sr-qc"
+   },
+   {
+    "id": "SCZ_XUME2",
+    "as_written": "scz_xume2_eur_sr-qc (EUR; 595 cases, 1638 controls)",
+    "role": "case-control",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#row-scz_xume2_eur_sr-qc"
+   },
+   {
+    "id": "SCZ_XZHH1",
+    "as_written": "scz_xzhh1_eur_sr-qc (EUR; 191 cases, 190 controls)",
+    "role": "case-control",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#row-scz_xzhh1_eur_sr-qc"
+   },
+   {
+    "id": "SGENE_PLUS_NON_ICELANDIC",
+    "as_written": "Stefánsson, K | Non-Icelandic (SGENE+, deCODE) (Hungary, Italy, Georgia, Macedonia, Russia, Serbia)",
+    "role": "case-control",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#decode-nonicelandic; claims/trubetskoy2022scz3_supp_cohorts.yaml#decode-nonicelandic-countries"
+   },
+   {
+    "id": "UKBS",
+    "as_written": "UK Blood Service (WTCCC controls for scz_xcaws; WTCCC2 controls for CLOZUK)",
+    "role": "controls_only",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#ctl-b58c-ukbs-xcaws; claims/trubetskoy2022scz3_supp_cohorts.yaml#ctl-clozuk-ukbs; claims/trubetskoy2022scz3_supp_cohorts.yaml#ctl-wtccc2"
+   },
+   {
+    "id": "UK_NBTS",
+    "as_written": "UK National Blood Transfusion Service, 900 controls held by Cardiff University (CLOZUK)",
+    "role": "controls_only",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#ctl-clozuk-nbts"
+   },
+   {
+    "id": "WTCCC",
+    "as_written": "WTCCC controls (scz_xlacw: \"Six countries, WTCCC controls\"; PEIC samples scz_xpews/xpewb part of WTCCC2, control source not further specified)",
+    "role": "controls_only",
+    "quote_id": "claims/trubetskoy2022scz3_supp_cohorts.yaml#ctl-wtccc-xlacw; claims/trubetskoy2022scz3_supp_cohorts.yaml#peic-wtccc2; claims/trubetskoy2022scz3_supp_cohorts.yaml#ctl-wtccc2"
+   }
+  ],
+  "replication_only": [],
+  "components_complete": "no",
+  "complete_reason": "(1) Methods state 90 core cohorts; the Sample Description Table lists 89 (75 EUR, 14 ASN), so one cohort is not identifiable; (2) the 14 East Asian samples (bix1-3, cno1[bjm1], hku1, imh1-2, jpn1, kor1, tai1-2, umc1, uwa1, xju1) are named only by code and cited to earlier publications, with no recruitment or control source stated (kor1 platform reads \"Korean BioBank chip\"); (3) the 9 African-American and Latino summary-level cohorts are described in aggregate (GPC plus NIMH Repository MGS, COGS, PAARTNERS), not listed; (4) control sources are generic for several samples (scz_xlacw \"WTCCC controls\"; PEIC scz_xpews/xpewb within WTCCC2 without control source), and Generation Scotland and dbGaP phs000021.v3.p2 controls are listed without the sample they serve. Also: the Methods do not say whether the deCODE dataset is the Icelandic sample, the non-Icelandic sample, or both; both are listed.",
+  "includes_ukb": "unknown",
+  "includes_iceland": "yes",
+  "pqtl_cohort_flags": {
+   "INTERVAL": "unknown",
+   "FENLAND": "unknown",
+   "ARIC": "unknown",
+   "AGES": "unknown",
+   "FHS": "unknown",
+   "IMPROVE": "unknown",
+   "DECODE": "yes",
+   "UKB": "unknown",
+   "KORA": "yes"
+  },
+  "ancestry": "European, East Asian, African American, Latino (74.3% EUR, 17.5% ASN, 5.7% AA, 2.5% LAT)",
+  "sample_size": "Up to 76,755 cases; 243,649 controls (deCODE only at 1,249 variants)",
+  "source_read": "https://pmc-oa-opendata.s3.amazonaws.com/PMC9392466.1/PMC9392466.1.txt (NCBI PMC author manuscript; Results, Methods Samples, Data availability); https://static-content.springer.com/esm/art%3A10.1038%2Fs41586-022-04434-5/MediaObjects/41586_2022_4434_MOESM1_ESM.pdf (Supplementary Information: Case-control sample descriptions, Asian samples, African-American and Latino samples, Control cohorts descriptions, Sample Description Table, read in full); .../41586_2022_4434_MOESM3_ESM.pdf (Peer Review File, author rebuttal on UK Biobank)",
+  "claims_files": [
+   "claims/trubetskoy2022scz3_supp_cohorts.yaml",
+   "claims/trubetskoy2022scz3_main.yaml",
+   "claims/trubetskoy2022scz3_peer_review.yaml"
+  ],
+  "notes": "Separate row because the Data Availability statement releases an \"Extended\" file that adds deCODE at the top variants; an MR study using its instruments draws on DECODE. KORA is a stated control source (scz_xboco, with PopGen and HNR) -> overlaps KORA pQTL sources. FINRISK and Estonian Biobank are control sources. UKB: no UK Biobank sample appears in the 89-row table, and the authors' rebuttal says UK Biobank was considered as a source of controls and not used (claims/trubetskoy2022scz3_peer_review.yaml#ukb-considered, #ukb-not-used); flag left unknown because the list is incomplete. Iceland/DECODE: deCODE entered only the Extended GWAS for 1,249 SNPs with P<1e-5 (claims/trubetskoy2022scz3_main.yaml#decode-extended); left unknown for the primary because the list is incomplete. DNSB (scz_xaarh) is the Danish Newborn Screening Biobank, the same biobank iPSYCH samples from; overlap with IPSYCH is possible but not stated. Dictionary sample_size \"up to 76,755 cases; 243,649 controls\" is the Extended GWAS, not the primary. Table oddities: scz_xlktu row repeats scz_xersw values exactly (322/332/654/.../728357); table case/control sums (69,457/93,020) differ from the Methods totals (67,390/94,015). Component IDs SCZ_<code> / SCZ_ASN_<code> are per PGC sample (case collection with its own controls unless a control source is listed). Completeness quotes: claims/trubetskoy2022scz3_main.yaml#core-90, claims/trubetskoy2022scz3_main.yaml#primary-composition, claims/trubetskoy2022scz3_main.yaml#details-in-supp, claims/trubetskoy2022scz3_supp_cohorts.yaml#table-caption, claims/trubetskoy2022scz3_supp_cohorts.yaml#asian-samples; release: claims/trubetskoy2022scz3_main.yaml#release."
+ },
+ {
+  "row_name": "PGC MDD (Wray 2018)",
+  "new_row": false,
+  "side": "outcome",
+  "aliases_proposed": "",
+  "release": "2018 full meta-analysis of seven cohorts (PGC29 + deCODE, Generation Scotland, GERA, iPSYCH, UK Biobank, 23andMe); summary statistics with 23andMe obtainable only via 23andMe (10,000 SNPs public)",
+  "source_citation": "Wray NR et al. 2018. Genome-wide association analyses identify 44 risk variants and refine the genetic architecture of major depression. Nat Genet 50:668-681",
+  "source_identifier": "doi:10.1038/s41588-018-0090-3; PMID:29700475; PMC5934326",
+  "components": [
+   {
+    "id": "BOMA",
+    "as_written": "BOMA (Bonn-Mannheim MDD study)",
+    "role": "case-control",
+    "quote_id": "claims/wray2018mdd_supp_tables.yaml#boma"
+   },
+   {
+    "id": "POPGEN",
+    "as_written": "POPGEN (BOMA controls: POPGEN & KORA population-based)",
+    "role": "controls_only",
+    "quote_id": "claims/wray2018mdd_supp_tables.yaml#boma"
+   },
+   {
+    "id": "KORA",
+    "as_written": "KORA (BOMA controls: POPGEN & KORA population-based; RADIANT-GER controls: KORA population-based)",
+    "role": "controls_only",
+    "quote_id": "claims/wray2018mdd_supp_tables.yaml#boma",
+    "quote_ids_also": [
+     "claims/wray2018mdd_supp_tables.yaml#radiant-ger"
+    ]
+   },
+   {
+    "id": "COFAMS",
+    "as_written": "CoFaMS (controls: Opportunistic; same community)",
+    "role": "case-control",
+    "quote_id": "claims/wray2018mdd_supp_tables.yaml#cofams"
+   },
+   {
+    "id": "PSYCOLAUS",
+    "as_written": "PsyCoLaus (controls from same population sample)",
+    "role": "case-control",
+    "quote_id": "claims/wray2018mdd_supp_tables.yaml#psycolaus"
+   },
+   {
+    "id": "EDINBURGH_MDD",
+    "as_written": "Edinburgh (cases)",
+    "role": "case-control",
+    "quote_id": "claims/wray2018mdd_supp_tables.yaml#edinburgh"
+   },
+   {
+    "id": "EDINBURGH_BLOOD_DONOR_CONTROLS",
+    "as_written": "Blood donors; psychiatrically unscreened (Edinburgh controls)",
+    "role": "controls_only",
+    "quote_id": "claims/wray2018mdd_supp_tables.yaml#edinburgh"
+   },
+   {
+    "id": "GENRED1",
+    "as_written": "GenRED1 (controls: Survey research panel; online CIDI-SF)",
+    "role": "case-control",
+    "quote_id": "claims/wray2018mdd_supp_tables.yaml#genred1"
+   },
+   {
+    "id": "NEWMEDS_GENPOD",
+    "as_written": "NEWMEDS-GENPOD (cases)",
+    "role": "case-control",
+    "quote_id": "claims/wray2018mdd_supp_tables.yaml#genpod"
+   },
+   {
+    "id": "WTCCC",
+    "as_written": "Wellcome Trust Case-Control Consortium (NEWMEDS-GENPOD controls)",
+    "role": "controls_only",
+    "quote_id": "claims/wray2018mdd_supp_tables.yaml#genpod"
+   },
+   {
+    "id": "DGN",
+    "as_written": "DGN (Depression Genes and Networks; cases and controls from survey research panel)",
+    "role": "case-control",
+    "quote_id": "claims/wray2018mdd_supp_tables.yaml#dgn"
+   },
+   {
+    "id": "GENRED2",
+    "as_written": "GenRED2 (cases)",
+    "role": "case-control",
+    "quote_id": "claims/wray2018mdd_supp_tables.yaml#genred2"
+   },
+   {
+    "id": "GENOMIC_PSYCHIATRY_COHORT",
+    "as_written": "Genomic Psychiatry Cohort (GenRED2 controls)",
+    "role": "controls_only",
+    "quote_id": "claims/wray2018mdd_supp_tables.yaml#genred2"
+   },
+   {
+    "id": "MAYO_CLINIC_BIOBANK",
+    "as_written": "Mayo Clinic Biobank (GenRED2 controls)",
+    "role": "controls_only",
+    "quote_id": "claims/wray2018mdd_supp_tables.yaml#genred2"
+   },
+   {
+    "id": "GSK_MPIP",
+    "as_written": "GSK/MPIP (controls: Population, Composite International Diagnostic Screener)",
+    "role": "case-control",
+    "quote_id": "claims/wray2018mdd_supp_tables.yaml#gsk-mpip"
+   },
+   {
+    "id": "I2B2_TRD",
+    "as_written": "i2b2-TRD (controls from neuroimaging studies)",
+    "role": "case-control",
+    "quote_id": "claims/wray2018mdd_supp_tables.yaml#i2b2"
+   },
+   {
+    "id": "JANSSEN_MDD",
+    "as_written": "Janssen (cases)",
+    "role": "case-control",
+    "quote_id": "claims/wray2018mdd_supp_tables.yaml#janssen"
+   },
+   {
+    "id": "PARKINSONS_GWA_CONTROLS",
+    "as_written": "Parkinson's disease GWA controls (Janssen controls)",
+    "role": "controls_only",
+    "quote_id": "claims/wray2018mdd_supp_tables.yaml#janssen"
+   },
+   {
+    "id": "MARS",
+    "as_written": "MARS (mmi2, mmo4; controls Munich population and Dortmund population)",
+    "role": "case-control",
+    "quote_id": "claims/wray2018mdd_supp_tables.yaml#mars"
+   },
+   {
+    "id": "NESDA",
+    "as_written": "NESDA/NTR: NESDA",
+    "role": "case-control",
+    "quote_id": "claims/wray2018mdd_supp_tables.yaml#nesda"
+   },
+   {
+    "id": "NTR",
+    "as_written": "NESDA/NTR: NTR",
+    "role": "case-control",
+    "quote_id": "claims/wray2018mdd_supp_tables.yaml#ntr"
+   },
+   {
+    "id": "PFIZER_MDD",
+    "as_written": "Pfizer (cases)",
+    "role": "case-control",
+    "quote_id": "claims/wray2018mdd_supp_tables.yaml#pfizer"
+   },
+   {
+    "id": "MELANOMA_GWA_CONTROLS",
+    "as_written": "Melanoma GWA control (Pfizer controls)",
+    "role": "controls_only",
+    "quote_id": "claims/wray2018mdd_supp_tables.yaml#pfizer"
+   },
+   {
+    "id": "QIMR",
+    "as_written": "QIMR (Australian Twin Registry; qi3c qi6c qio2)",
+    "role": "case-control",
+    "quote_id": "claims/wray2018mdd_supp_tables.yaml#qimr"
+   },
+   {
+    "id": "RADIANT_UK",
+    "as_written": "RADIANT-UK (controls: primary care or staff or students at King's College London)",
+    "role": "case-control",
+    "quote_id": "claims/wray2018mdd_supp_tables.yaml#radiant-uk"
+   },
+   {
+    "id": "RADIANT_GER",
+    "as_written": "RADIANT-GER (cases; controls KORA population-based)",
+    "role": "case-control",
+    "quote_id": "claims/wray2018mdd_supp_tables.yaml#radiant-ger"
+   },
+   {
+    "id": "RADIANT_IRISH",
+    "as_written": "RADIANT-IRISH (cases; plus opportunistic controls)",
+    "role": "case-control",
+    "quote_id": "claims/wray2018mdd_supp_tables.yaml#radiant-irish"
+   },
+   {
+    "id": "ALS_GWA_CONTROLS_IRELAND",
+    "as_written": "ALS GWA controls (RADIANT-IRISH controls)",
+    "role": "controls_only",
+    "quote_id": "claims/wray2018mdd_supp_tables.yaml#radiant-irish"
+   },
+   {
+    "id": "RADIANT_US",
+    "as_written": "RADIANT-US (cases)",
+    "role": "case-control",
+    "quote_id": "claims/wray2018mdd_supp_tables.yaml#radiant-us"
+   },
+   {
+    "id": "NIMH_CONTROLS",
+    "as_written": "NIMH controls (RADIANT-US controls)",
+    "role": "controls_only",
+    "quote_id": "claims/wray2018mdd_supp_tables.yaml#radiant-us"
+   },
+   {
+    "id": "RADIANT_DEN",
+    "as_written": "RADIANT-DEN (cases)",
+    "role": "case-control",
+    "quote_id": "claims/wray2018mdd_supp_tables.yaml#radiant-den"
+   },
+   {
+    "id": "IBP_SGENE_COPENHAGEN",
+    "as_written": "IBP-SGENE Copenhagen (blood bank screening only) (RADIANT-DEN controls)",
+    "role": "controls_only",
+    "quote_id": "claims/wray2018mdd_supp_tables.yaml#radiant-den"
+   },
+   {
+    "id": "ROCHE_MDD",
+    "as_written": "Roche (controls opportunistic, matched to cases)",
+    "role": "case-control",
+    "quote_id": "claims/wray2018mdd_supp_tables.yaml#roche"
+   },
+   {
+    "id": "RS",
+    "as_written": "Rotterdam Study",
+    "role": "case-control",
+    "quote_id": "claims/wray2018mdd_supp_tables.yaml#rotterdam"
+   },
+   {
+    "id": "SHIP",
+    "as_written": "Study of Health in Pomerania (SHIP 0 and SHIP-TREND)",
+    "role": "case-control",
+    "quote_id": "claims/wray2018mdd_supp_tables.yaml#ship0",
+    "quote_ids_also": [
+     "claims/wray2018mdd_supp_tables.yaml#ship-trend"
+    ]
+   },
+   {
+    "id": "STARD",
+    "as_written": "STAR*D (cases)",
+    "role": "case-control",
+    "quote_id": "claims/wray2018mdd_supp_tables.yaml#stard"
+   },
+   {
+    "id": "MI_GWA_CONTROLS",
+    "as_written": "Myocardial infarction GWA (STAR*D controls)",
+    "role": "controls_only",
+    "quote_id": "claims/wray2018mdd_supp_tables.yaml#stard"
+   },
+   {
+    "id": "TWINGENE",
+    "as_written": "TwinGene (Swedish Twin Registry)",
+    "role": "case-control",
+    "quote_id": "claims/wray2018mdd_supp_tables.yaml#twingene"
+   },
+   {
+    "id": "DECODE",
+    "as_written": "deCODE (Iceland)",
+    "role": "case-control",
+    "quote_id": "claims/wray2018mdd_supp_tables.yaml#decode"
+   },
+   {
+    "id": "GENERATION_SCOTLAND",
+    "as_written": "GenScotland",
+    "role": "case-control",
+    "quote_id": "claims/wray2018mdd_supp_tables.yaml#genscot"
+   },
+   {
+    "id": "GERA",
+    "as_written": "GERA (Kaiser Permanente Northern California)",
+    "role": "case-control",
+    "quote_id": "claims/wray2018mdd_supp_tables.yaml#gera"
+   },
+   {
+    "id": "IPSYCH",
+    "as_written": "iPSYCH",
+    "role": "case-control",
+    "quote_id": "claims/wray2018mdd_supp_tables.yaml#ipsych"
+   },
+   {
+    "id": "UKB",
+    "as_written": "UK Biobank",
+    "role": "case-control",
+    "quote_id": "claims/wray2018mdd_supp_tables.yaml#ukb"
+   },
+   {
+    "id": "23ANDME",
+    "as_written": "23andMe (Hyde et al. discovery sample)",
+    "role": "case-control",
+    "quote_id": "claims/wray2018mdd_supp_tables.yaml#23andme"
+   }
+  ],
+  "replication_only": [],
+  "components_complete": "yes",
+  "complete_reason": "Supplementary Table 1 ('Description of PGC29 samples') lists every one of the 29 PGC samples (28 sample labels in 26 rows, matching the 29 rows of Supplementary Table 3a summing to 16,823/25,632) with its control source; Supplementary Table 2 ('Description of six additional cohorts') lists the other six cohorts; Results states seven cohorts in total. Named external control sources are listed as controls_only components. Caveat: several samples describe controls only generically, without naming a cohort (GSK/MPIP 'Population, CID-S'; MARS 'Munich: population ... Dortmund: population'; i2b2 'Controls from neuroimaging studies'; RADIANT-UK primary care/KCL; GenRED1 and DGN 'Survey research panel'; Roche and RADIANT-IRISH 'opportunistic'; Edinburgh 'Blood donors'); these are carried under the sample's own ID or a generic controls ID, and the table cannot exclude that an unnamed population control set coincides with a named cohort. deCODE controls are 'Multiple studies' within deCODE (Iceland).",
+  "includes_ukb": "yes",
+  "includes_iceland": "yes",
+  "pqtl_cohort_flags": {
+   "INTERVAL": "no",
+   "FENLAND": "no",
+   "ARIC": "no",
+   "AGES": "no",
+   "KORA": "yes",
+   "FHS": "no",
+   "IMPROVE": "no",
+   "DECODE": "yes",
+   "UKB": "yes"
+  },
+  "ancestry": "European",
+  "sample_size": "135,458 cases; 344,901 controls",
+  "source_read": "https://pmc-oa-opendata.s3.amazonaws.com/PMC5934326.1/PMC5934326.1.txt (full author manuscript: Results, Methods (PGC29 cohort; additional cohorts), Data availability, Table 1); https://pmc-oa-opendata.s3.amazonaws.com/PMC5934326.1/NIHMS943355-supplement-3.xlsx (Supplementary Tables 1, 2, 3 and 15, read in full)",
+  "claims_files": [
+   "claims/wray2018mdd_supp_tables.yaml",
+   "claims/wray2018mdd_main.yaml"
+  ],
+  "notes": "Supplementary Table 15 attaches the note 'MIGEN controls' to the CoFams (cof3) row, which conflicts with Supplementary Table 1 ('Opportunistic; same community'); recorded here, MIGEN not added as a component. STAR*D controls 'Myocardial infarction GWA' are unnamed beyond that (MI_GWA_CONTROLS). Sub-samples collapsed: SHIP 0 + SHIP-TREND -> SHIP; MARS old/new -> MARS; QIMR qi3c/qi6c/qio2 -> QIMR. Rotterdam -> RS. UK Biobank here is the pilot data release (14,260 cases, 15,480 controls). Iceland = yes via deCODE (1,980 cases, 9,536 controls)."
+ },
+ {
+  "row_name": "PGC MDD (Wray 2018) excluding 23andMe",
+  "new_row": true,
+  "side": "outcome",
+  "aliases_proposed": "PGC MDD 2018 public|Wray 2018 without 23andMe|MDD2 excluding 23andMe|FMex23",
+  "release": "Public PGC download: PGC29 + deCODE, Generation Scotland, GERA, iPSYCH, UK Biobank (FMex23)",
+  "source_citation": "Wray NR et al. 2018. Genome-wide association analyses identify 44 risk variants and refine the genetic architecture of major depression. Nat Genet 50:668-681",
+  "source_identifier": "doi:10.1038/s41588-018-0090-3; PMID:29700475; PMC5934326",
+  "components": [
+   {
+    "id": "BOMA",
+    "as_written": "BOMA (Bonn-Mannheim MDD study)",
+    "role": "case-control",
+    "quote_id": "claims/wray2018mdd_supp_tables.yaml#boma"
+   },
+   {
+    "id": "POPGEN",
+    "as_written": "POPGEN (BOMA controls: POPGEN & KORA population-based)",
+    "role": "controls_only",
+    "quote_id": "claims/wray2018mdd_supp_tables.yaml#boma"
+   },
+   {
+    "id": "KORA",
+    "as_written": "KORA (BOMA controls: POPGEN & KORA population-based; RADIANT-GER controls: KORA population-based)",
+    "role": "controls_only",
+    "quote_id": "claims/wray2018mdd_supp_tables.yaml#boma",
+    "quote_ids_also": [
+     "claims/wray2018mdd_supp_tables.yaml#radiant-ger"
+    ]
+   },
+   {
+    "id": "COFAMS",
+    "as_written": "CoFaMS (controls: Opportunistic; same community)",
+    "role": "case-control",
+    "quote_id": "claims/wray2018mdd_supp_tables.yaml#cofams"
+   },
+   {
+    "id": "PSYCOLAUS",
+    "as_written": "PsyCoLaus (controls from same population sample)",
+    "role": "case-control",
+    "quote_id": "claims/wray2018mdd_supp_tables.yaml#psycolaus"
+   },
+   {
+    "id": "EDINBURGH_MDD",
+    "as_written": "Edinburgh (cases)",
+    "role": "case-control",
+    "quote_id": "claims/wray2018mdd_supp_tables.yaml#edinburgh"
+   },
+   {
+    "id": "EDINBURGH_BLOOD_DONOR_CONTROLS",
+    "as_written": "Blood donors; psychiatrically unscreened (Edinburgh controls)",
+    "role": "controls_only",
+    "quote_id": "claims/wray2018mdd_supp_tables.yaml#edinburgh"
+   },
+   {
+    "id": "GENRED1",
+    "as_written": "GenRED1 (controls: Survey research panel; online CIDI-SF)",
+    "role": "case-control",
+    "quote_id": "claims/wray2018mdd_supp_tables.yaml#genred1"
+   },
+   {
+    "id": "NEWMEDS_GENPOD",
+    "as_written": "NEWMEDS-GENPOD (cases)",
+    "role": "case-control",
+    "quote_id": "claims/wray2018mdd_supp_tables.yaml#genpod"
+   },
+   {
+    "id": "WTCCC",
+    "as_written": "Wellcome Trust Case-Control Consortium (NEWMEDS-GENPOD controls)",
+    "role": "controls_only",
+    "quote_id": "claims/wray2018mdd_supp_tables.yaml#genpod"
+   },
+   {
+    "id": "DGN",
+    "as_written": "DGN (Depression Genes and Networks; cases and controls from survey research panel)",
+    "role": "case-control",
+    "quote_id": "claims/wray2018mdd_supp_tables.yaml#dgn"
+   },
+   {
+    "id": "GENRED2",
+    "as_written": "GenRED2 (cases)",
+    "role": "case-control",
+    "quote_id": "claims/wray2018mdd_supp_tables.yaml#genred2"
+   },
+   {
+    "id": "GENOMIC_PSYCHIATRY_COHORT",
+    "as_written": "Genomic Psychiatry Cohort (GenRED2 controls)",
+    "role": "controls_only",
+    "quote_id": "claims/wray2018mdd_supp_tables.yaml#genred2"
+   },
+   {
+    "id": "MAYO_CLINIC_BIOBANK",
+    "as_written": "Mayo Clinic Biobank (GenRED2 controls)",
+    "role": "controls_only",
+    "quote_id": "claims/wray2018mdd_supp_tables.yaml#genred2"
+   },
+   {
+    "id": "GSK_MPIP",
+    "as_written": "GSK/MPIP (controls: Population, Composite International Diagnostic Screener)",
+    "role": "case-control",
+    "quote_id": "claims/wray2018mdd_supp_tables.yaml#gsk-mpip"
+   },
+   {
+    "id": "I2B2_TRD",
+    "as_written": "i2b2-TRD (controls from neuroimaging studies)",
+    "role": "case-control",
+    "quote_id": "claims/wray2018mdd_supp_tables.yaml#i2b2"
+   },
+   {
+    "id": "JANSSEN_MDD",
+    "as_written": "Janssen (cases)",
+    "role": "case-control",
+    "quote_id": "claims/wray2018mdd_supp_tables.yaml#janssen"
+   },
+   {
+    "id": "PARKINSONS_GWA_CONTROLS",
+    "as_written": "Parkinson's disease GWA controls (Janssen controls)",
+    "role": "controls_only",
+    "quote_id": "claims/wray2018mdd_supp_tables.yaml#janssen"
+   },
+   {
+    "id": "MARS",
+    "as_written": "MARS (mmi2, mmo4; controls Munich population and Dortmund population)",
+    "role": "case-control",
+    "quote_id": "claims/wray2018mdd_supp_tables.yaml#mars"
+   },
+   {
+    "id": "NESDA",
+    "as_written": "NESDA/NTR: NESDA",
+    "role": "case-control",
+    "quote_id": "claims/wray2018mdd_supp_tables.yaml#nesda"
+   },
+   {
+    "id": "NTR",
+    "as_written": "NESDA/NTR: NTR",
+    "role": "case-control",
+    "quote_id": "claims/wray2018mdd_supp_tables.yaml#ntr"
+   },
+   {
+    "id": "PFIZER_MDD",
+    "as_written": "Pfizer (cases)",
+    "role": "case-control",
+    "quote_id": "claims/wray2018mdd_supp_tables.yaml#pfizer"
+   },
+   {
+    "id": "MELANOMA_GWA_CONTROLS",
+    "as_written": "Melanoma GWA control (Pfizer controls)",
+    "role": "controls_only",
+    "quote_id": "claims/wray2018mdd_supp_tables.yaml#pfizer"
+   },
+   {
+    "id": "QIMR",
+    "as_written": "QIMR (Australian Twin Registry; qi3c qi6c qio2)",
+    "role": "case-control",
+    "quote_id": "claims/wray2018mdd_supp_tables.yaml#qimr"
+   },
+   {
+    "id": "RADIANT_UK",
+    "as_written": "RADIANT-UK (controls: primary care or staff or students at King's College London)",
+    "role": "case-control",
+    "quote_id": "claims/wray2018mdd_supp_tables.yaml#radiant-uk"
+   },
+   {
+    "id": "RADIANT_GER",
+    "as_written": "RADIANT-GER (cases; controls KORA population-based)",
+    "role": "case-control",
+    "quote_id": "claims/wray2018mdd_supp_tables.yaml#radiant-ger"
+   },
+   {
+    "id": "RADIANT_IRISH",
+    "as_written": "RADIANT-IRISH (cases; plus opportunistic controls)",
+    "role": "case-control",
+    "quote_id": "claims/wray2018mdd_supp_tables.yaml#radiant-irish"
+   },
+   {
+    "id": "ALS_GWA_CONTROLS_IRELAND",
+    "as_written": "ALS GWA controls (RADIANT-IRISH controls)",
+    "role": "controls_only",
+    "quote_id": "claims/wray2018mdd_supp_tables.yaml#radiant-irish"
+   },
+   {
+    "id": "RADIANT_US",
+    "as_written": "RADIANT-US (cases)",
+    "role": "case-control",
+    "quote_id": "claims/wray2018mdd_supp_tables.yaml#radiant-us"
+   },
+   {
+    "id": "NIMH_CONTROLS",
+    "as_written": "NIMH controls (RADIANT-US controls)",
+    "role": "controls_only",
+    "quote_id": "claims/wray2018mdd_supp_tables.yaml#radiant-us"
+   },
+   {
+    "id": "RADIANT_DEN",
+    "as_written": "RADIANT-DEN (cases)",
+    "role": "case-control",
+    "quote_id": "claims/wray2018mdd_supp_tables.yaml#radiant-den"
+   },
+   {
+    "id": "IBP_SGENE_COPENHAGEN",
+    "as_written": "IBP-SGENE Copenhagen (blood bank screening only) (RADIANT-DEN controls)",
+    "role": "controls_only",
+    "quote_id": "claims/wray2018mdd_supp_tables.yaml#radiant-den"
+   },
+   {
+    "id": "ROCHE_MDD",
+    "as_written": "Roche (controls opportunistic, matched to cases)",
+    "role": "case-control",
+    "quote_id": "claims/wray2018mdd_supp_tables.yaml#roche"
+   },
+   {
+    "id": "RS",
+    "as_written": "Rotterdam Study",
+    "role": "case-control",
+    "quote_id": "claims/wray2018mdd_supp_tables.yaml#rotterdam"
+   },
+   {
+    "id": "SHIP",
+    "as_written": "Study of Health in Pomerania (SHIP 0 and SHIP-TREND)",
+    "role": "case-control",
+    "quote_id": "claims/wray2018mdd_supp_tables.yaml#ship0",
+    "quote_ids_also": [
+     "claims/wray2018mdd_supp_tables.yaml#ship-trend"
+    ]
+   },
+   {
+    "id": "STARD",
+    "as_written": "STAR*D (cases)",
+    "role": "case-control",
+    "quote_id": "claims/wray2018mdd_supp_tables.yaml#stard"
+   },
+   {
+    "id": "MI_GWA_CONTROLS",
+    "as_written": "Myocardial infarction GWA (STAR*D controls)",
+    "role": "controls_only",
+    "quote_id": "claims/wray2018mdd_supp_tables.yaml#stard"
+   },
+   {
+    "id": "TWINGENE",
+    "as_written": "TwinGene (Swedish Twin Registry)",
+    "role": "case-control",
+    "quote_id": "claims/wray2018mdd_supp_tables.yaml#twingene"
+   },
+   {
+    "id": "DECODE",
+    "as_written": "deCODE (Iceland)",
+    "role": "case-control",
+    "quote_id": "claims/wray2018mdd_supp_tables.yaml#decode"
+   },
+   {
+    "id": "GENERATION_SCOTLAND",
+    "as_written": "GenScotland",
+    "role": "case-control",
+    "quote_id": "claims/wray2018mdd_supp_tables.yaml#genscot"
+   },
+   {
+    "id": "GERA",
+    "as_written": "GERA (Kaiser Permanente Northern California)",
+    "role": "case-control",
+    "quote_id": "claims/wray2018mdd_supp_tables.yaml#gera"
+   },
+   {
+    "id": "IPSYCH",
+    "as_written": "iPSYCH",
+    "role": "case-control",
+    "quote_id": "claims/wray2018mdd_supp_tables.yaml#ipsych"
+   },
+   {
+    "id": "UKB",
+    "as_written": "UK Biobank",
+    "role": "case-control",
+    "quote_id": "claims/wray2018mdd_supp_tables.yaml#ukb"
+   }
+  ],
+  "replication_only": [],
+  "components_complete": "yes",
+  "complete_reason": "Supplementary Table 1 ('Description of PGC29 samples') lists every one of the 29 PGC samples (28 sample labels in 26 rows, matching the 29 rows of Supplementary Table 3a summing to 16,823/25,632) with its control source; Supplementary Table 2 ('Description of six additional cohorts') lists the other six cohorts; Results states seven cohorts in total. Named external control sources are listed as controls_only components. Caveat: several samples describe controls only generically, without naming a cohort (GSK/MPIP 'Population, CID-S'; MARS 'Munich: population ... Dortmund: population'; i2b2 'Controls from neuroimaging studies'; RADIANT-UK primary care/KCL; GenRED1 and DGN 'Survey research panel'; Roche and RADIANT-IRISH 'opportunistic'; Edinburgh 'Blood donors'); these are carried under the sample's own ID or a generic controls ID, and the table cannot exclude that an unnamed population control set coincides with a named cohort. deCODE controls are 'Multiple studies' within deCODE (Iceland). Data availability ('PGC29 with five of the six expanded samples (deCODE, Generation Scotland, GERA, iPSYCH, and UK Biobank)') fixes the public release; quote_id wray2018mdd_main#public-release.",
+  "includes_ukb": "yes",
+  "includes_iceland": "yes",
+  "pqtl_cohort_flags": {
+   "INTERVAL": "no",
+   "FENLAND": "no",
+   "ARIC": "no",
+   "AGES": "no",
+   "KORA": "yes",
+   "FHS": "no",
+   "IMPROVE": "no",
+   "DECODE": "yes",
+   "UKB": "yes"
+  },
+  "ancestry": "European",
+  "sample_size": "59,851 cases; 113,154 controls (Supplementary Table 3a, FMex23)",
+  "source_read": "https://pmc-oa-opendata.s3.amazonaws.com/PMC5934326.1/PMC5934326.1.txt (full author manuscript: Results, Methods (PGC29 cohort; additional cohorts), Data availability, Table 1); https://pmc-oa-opendata.s3.amazonaws.com/PMC5934326.1/NIHMS943355-supplement-3.xlsx (Supplementary Tables 1, 2, 3 and 15, read in full)",
+  "claims_files": [
+   "claims/wray2018mdd_supp_tables.yaml",
+   "claims/wray2018mdd_main.yaml"
+  ],
+  "notes": "Supplementary Table 15 attaches the note 'MIGEN controls' to the CoFams (cof3) row, which conflicts with Supplementary Table 1 ('Opportunistic; same community'); recorded here, MIGEN not added as a component. STAR*D controls 'Myocardial infarction GWA' are unnamed beyond that (MI_GWA_CONTROLS). Sub-samples collapsed: SHIP 0 + SHIP-TREND -> SHIP; MARS old/new -> MARS; QIMR qi3c/qi6c/qio2 -> QIMR. Rotterdam -> RS. UK Biobank here is the pilot data release (14,260 cases, 15,480 controls). Iceland = yes via deCODE (1,980 cases, 9,536 controls). Release statement pinned at claims/wray2018mdd_main.yaml#public-release and #23andme-separate; size at claims/wray2018mdd_supp_tables.yaml#fmex23."
+ },
+ {
+  "row_name": "Depression (Howard 2019)",
+  "new_row": false,
+  "side": "outcome",
+  "aliases_proposed": "",
+  "release": "2019 meta-analysis of 23andMe_307k, UK Biobank (broad depression) and PGC_139k; full summary statistics require a 23andMe data transfer agreement",
+  "source_citation": "Howard DM et al. 2019. Genome-wide meta-analysis of depression identifies 102 independent variants and highlights the importance of the prefrontal brain regions. Nat Neurosci 22:343-352",
+  "source_identifier": "doi:10.1038/s41593-018-0326-7; PMID:30718901; PMC6522363",
+  "components": [
+   {
+    "id": "UKB",
+    "as_written": "UK Biobank (broad depression; 127,552 cases, 233,763 controls)",
+    "role": "case-control",
+    "quote_id": "claims/howard2019dep_main.yaml#ukb"
+   },
+   {
+    "id": "BOMA",
+    "as_written": "BOMA (Bonn-Mannheim MDD study)",
+    "role": "case-control",
+    "quote_id": "claims/wray2018mdd_supp_tables.yaml#boma",
+    "via": "PGC_139k (Wray 2018 minus 23andMe_307k and the earlier UK Biobank release; derivation pinned at claims/howard2019dep_main.yaml#pgc139k)"
+   },
+   {
+    "id": "POPGEN",
+    "as_written": "POPGEN (BOMA controls: POPGEN & KORA population-based)",
+    "role": "controls_only",
+    "quote_id": "claims/wray2018mdd_supp_tables.yaml#boma",
+    "via": "PGC_139k (Wray 2018 minus 23andMe_307k and the earlier UK Biobank release; derivation pinned at claims/howard2019dep_main.yaml#pgc139k)"
+   },
+   {
+    "id": "KORA",
+    "as_written": "KORA (BOMA controls: POPGEN & KORA population-based; RADIANT-GER controls: KORA population-based)",
+    "role": "controls_only",
+    "quote_id": "claims/wray2018mdd_supp_tables.yaml#boma",
+    "quote_ids_also": [
+     "claims/wray2018mdd_supp_tables.yaml#radiant-ger"
+    ],
+    "via": "PGC_139k (Wray 2018 minus 23andMe_307k and the earlier UK Biobank release; derivation pinned at claims/howard2019dep_main.yaml#pgc139k)"
+   },
+   {
+    "id": "COFAMS",
+    "as_written": "CoFaMS (controls: Opportunistic; same community)",
+    "role": "case-control",
+    "quote_id": "claims/wray2018mdd_supp_tables.yaml#cofams",
+    "via": "PGC_139k (Wray 2018 minus 23andMe_307k and the earlier UK Biobank release; derivation pinned at claims/howard2019dep_main.yaml#pgc139k)"
+   },
+   {
+    "id": "PSYCOLAUS",
+    "as_written": "PsyCoLaus (controls from same population sample)",
+    "role": "case-control",
+    "quote_id": "claims/wray2018mdd_supp_tables.yaml#psycolaus",
+    "via": "PGC_139k (Wray 2018 minus 23andMe_307k and the earlier UK Biobank release; derivation pinned at claims/howard2019dep_main.yaml#pgc139k)"
+   },
+   {
+    "id": "EDINBURGH_MDD",
+    "as_written": "Edinburgh (cases)",
+    "role": "case-control",
+    "quote_id": "claims/wray2018mdd_supp_tables.yaml#edinburgh",
+    "via": "PGC_139k (Wray 2018 minus 23andMe_307k and the earlier UK Biobank release; derivation pinned at claims/howard2019dep_main.yaml#pgc139k)"
+   },
+   {
+    "id": "EDINBURGH_BLOOD_DONOR_CONTROLS",
+    "as_written": "Blood donors; psychiatrically unscreened (Edinburgh controls)",
+    "role": "controls_only",
+    "quote_id": "claims/wray2018mdd_supp_tables.yaml#edinburgh",
+    "via": "PGC_139k (Wray 2018 minus 23andMe_307k and the earlier UK Biobank release; derivation pinned at claims/howard2019dep_main.yaml#pgc139k)"
+   },
+   {
+    "id": "GENRED1",
+    "as_written": "GenRED1 (controls: Survey research panel; online CIDI-SF)",
+    "role": "case-control",
+    "quote_id": "claims/wray2018mdd_supp_tables.yaml#genred1",
+    "via": "PGC_139k (Wray 2018 minus 23andMe_307k and the earlier UK Biobank release; derivation pinned at claims/howard2019dep_main.yaml#pgc139k)"
+   },
+   {
+    "id": "NEWMEDS_GENPOD",
+    "as_written": "NEWMEDS-GENPOD (cases)",
+    "role": "case-control",
+    "quote_id": "claims/wray2018mdd_supp_tables.yaml#genpod",
+    "via": "PGC_139k (Wray 2018 minus 23andMe_307k and the earlier UK Biobank release; derivation pinned at claims/howard2019dep_main.yaml#pgc139k)"
+   },
+   {
+    "id": "WTCCC",
+    "as_written": "Wellcome Trust Case-Control Consortium (NEWMEDS-GENPOD controls)",
+    "role": "controls_only",
+    "quote_id": "claims/wray2018mdd_supp_tables.yaml#genpod",
+    "via": "PGC_139k (Wray 2018 minus 23andMe_307k and the earlier UK Biobank release; derivation pinned at claims/howard2019dep_main.yaml#pgc139k)"
+   },
+   {
+    "id": "DGN",
+    "as_written": "DGN (Depression Genes and Networks; cases and controls from survey research panel)",
+    "role": "case-control",
+    "quote_id": "claims/wray2018mdd_supp_tables.yaml#dgn",
+    "via": "PGC_139k (Wray 2018 minus 23andMe_307k and the earlier UK Biobank release; derivation pinned at claims/howard2019dep_main.yaml#pgc139k)"
+   },
+   {
+    "id": "GENRED2",
+    "as_written": "GenRED2 (cases)",
+    "role": "case-control",
+    "quote_id": "claims/wray2018mdd_supp_tables.yaml#genred2",
+    "via": "PGC_139k (Wray 2018 minus 23andMe_307k and the earlier UK Biobank release; derivation pinned at claims/howard2019dep_main.yaml#pgc139k)"
+   },
+   {
+    "id": "GENOMIC_PSYCHIATRY_COHORT",
+    "as_written": "Genomic Psychiatry Cohort (GenRED2 controls)",
+    "role": "controls_only",
+    "quote_id": "claims/wray2018mdd_supp_tables.yaml#genred2",
+    "via": "PGC_139k (Wray 2018 minus 23andMe_307k and the earlier UK Biobank release; derivation pinned at claims/howard2019dep_main.yaml#pgc139k)"
+   },
+   {
+    "id": "MAYO_CLINIC_BIOBANK",
+    "as_written": "Mayo Clinic Biobank (GenRED2 controls)",
+    "role": "controls_only",
+    "quote_id": "claims/wray2018mdd_supp_tables.yaml#genred2",
+    "via": "PGC_139k (Wray 2018 minus 23andMe_307k and the earlier UK Biobank release; derivation pinned at claims/howard2019dep_main.yaml#pgc139k)"
+   },
+   {
+    "id": "GSK_MPIP",
+    "as_written": "GSK/MPIP (controls: Population, Composite International Diagnostic Screener)",
+    "role": "case-control",
+    "quote_id": "claims/wray2018mdd_supp_tables.yaml#gsk-mpip",
+    "via": "PGC_139k (Wray 2018 minus 23andMe_307k and the earlier UK Biobank release; derivation pinned at claims/howard2019dep_main.yaml#pgc139k)"
+   },
+   {
+    "id": "I2B2_TRD",
+    "as_written": "i2b2-TRD (controls from neuroimaging studies)",
+    "role": "case-control",
+    "quote_id": "claims/wray2018mdd_supp_tables.yaml#i2b2",
+    "via": "PGC_139k (Wray 2018 minus 23andMe_307k and the earlier UK Biobank release; derivation pinned at claims/howard2019dep_main.yaml#pgc139k)"
+   },
+   {
+    "id": "JANSSEN_MDD",
+    "as_written": "Janssen (cases)",
+    "role": "case-control",
+    "quote_id": "claims/wray2018mdd_supp_tables.yaml#janssen",
+    "via": "PGC_139k (Wray 2018 minus 23andMe_307k and the earlier UK Biobank release; derivation pinned at claims/howard2019dep_main.yaml#pgc139k)"
+   },
+   {
+    "id": "PARKINSONS_GWA_CONTROLS",
+    "as_written": "Parkinson's disease GWA controls (Janssen controls)",
+    "role": "controls_only",
+    "quote_id": "claims/wray2018mdd_supp_tables.yaml#janssen",
+    "via": "PGC_139k (Wray 2018 minus 23andMe_307k and the earlier UK Biobank release; derivation pinned at claims/howard2019dep_main.yaml#pgc139k)"
+   },
+   {
+    "id": "MARS",
+    "as_written": "MARS (mmi2, mmo4; controls Munich population and Dortmund population)",
+    "role": "case-control",
+    "quote_id": "claims/wray2018mdd_supp_tables.yaml#mars",
+    "via": "PGC_139k (Wray 2018 minus 23andMe_307k and the earlier UK Biobank release; derivation pinned at claims/howard2019dep_main.yaml#pgc139k)"
+   },
+   {
+    "id": "NESDA",
+    "as_written": "NESDA/NTR: NESDA",
+    "role": "case-control",
+    "quote_id": "claims/wray2018mdd_supp_tables.yaml#nesda",
+    "via": "PGC_139k (Wray 2018 minus 23andMe_307k and the earlier UK Biobank release; derivation pinned at claims/howard2019dep_main.yaml#pgc139k)"
+   },
+   {
+    "id": "NTR",
+    "as_written": "NESDA/NTR: NTR",
+    "role": "case-control",
+    "quote_id": "claims/wray2018mdd_supp_tables.yaml#ntr",
+    "via": "PGC_139k (Wray 2018 minus 23andMe_307k and the earlier UK Biobank release; derivation pinned at claims/howard2019dep_main.yaml#pgc139k)"
+   },
+   {
+    "id": "PFIZER_MDD",
+    "as_written": "Pfizer (cases)",
+    "role": "case-control",
+    "quote_id": "claims/wray2018mdd_supp_tables.yaml#pfizer",
+    "via": "PGC_139k (Wray 2018 minus 23andMe_307k and the earlier UK Biobank release; derivation pinned at claims/howard2019dep_main.yaml#pgc139k)"
+   },
+   {
+    "id": "MELANOMA_GWA_CONTROLS",
+    "as_written": "Melanoma GWA control (Pfizer controls)",
+    "role": "controls_only",
+    "quote_id": "claims/wray2018mdd_supp_tables.yaml#pfizer",
+    "via": "PGC_139k (Wray 2018 minus 23andMe_307k and the earlier UK Biobank release; derivation pinned at claims/howard2019dep_main.yaml#pgc139k)"
+   },
+   {
+    "id": "QIMR",
+    "as_written": "QIMR (Australian Twin Registry; qi3c qi6c qio2)",
+    "role": "case-control",
+    "quote_id": "claims/wray2018mdd_supp_tables.yaml#qimr",
+    "via": "PGC_139k (Wray 2018 minus 23andMe_307k and the earlier UK Biobank release; derivation pinned at claims/howard2019dep_main.yaml#pgc139k)"
+   },
+   {
+    "id": "RADIANT_UK",
+    "as_written": "RADIANT-UK (controls: primary care or staff or students at King's College London)",
+    "role": "case-control",
+    "quote_id": "claims/wray2018mdd_supp_tables.yaml#radiant-uk",
+    "via": "PGC_139k (Wray 2018 minus 23andMe_307k and the earlier UK Biobank release; derivation pinned at claims/howard2019dep_main.yaml#pgc139k)"
+   },
+   {
+    "id": "RADIANT_GER",
+    "as_written": "RADIANT-GER (cases; controls KORA population-based)",
+    "role": "case-control",
+    "quote_id": "claims/wray2018mdd_supp_tables.yaml#radiant-ger",
+    "via": "PGC_139k (Wray 2018 minus 23andMe_307k and the earlier UK Biobank release; derivation pinned at claims/howard2019dep_main.yaml#pgc139k)"
+   },
+   {
+    "id": "RADIANT_IRISH",
+    "as_written": "RADIANT-IRISH (cases; plus opportunistic controls)",
+    "role": "case-control",
+    "quote_id": "claims/wray2018mdd_supp_tables.yaml#radiant-irish",
+    "via": "PGC_139k (Wray 2018 minus 23andMe_307k and the earlier UK Biobank release; derivation pinned at claims/howard2019dep_main.yaml#pgc139k)"
+   },
+   {
+    "id": "ALS_GWA_CONTROLS_IRELAND",
+    "as_written": "ALS GWA controls (RADIANT-IRISH controls)",
+    "role": "controls_only",
+    "quote_id": "claims/wray2018mdd_supp_tables.yaml#radiant-irish",
+    "via": "PGC_139k (Wray 2018 minus 23andMe_307k and the earlier UK Biobank release; derivation pinned at claims/howard2019dep_main.yaml#pgc139k)"
+   },
+   {
+    "id": "RADIANT_US",
+    "as_written": "RADIANT-US (cases)",
+    "role": "case-control",
+    "quote_id": "claims/wray2018mdd_supp_tables.yaml#radiant-us",
+    "via": "PGC_139k (Wray 2018 minus 23andMe_307k and the earlier UK Biobank release; derivation pinned at claims/howard2019dep_main.yaml#pgc139k)"
+   },
+   {
+    "id": "NIMH_CONTROLS",
+    "as_written": "NIMH controls (RADIANT-US controls)",
+    "role": "controls_only",
+    "quote_id": "claims/wray2018mdd_supp_tables.yaml#radiant-us",
+    "via": "PGC_139k (Wray 2018 minus 23andMe_307k and the earlier UK Biobank release; derivation pinned at claims/howard2019dep_main.yaml#pgc139k)"
+   },
+   {
+    "id": "RADIANT_DEN",
+    "as_written": "RADIANT-DEN (cases)",
+    "role": "case-control",
+    "quote_id": "claims/wray2018mdd_supp_tables.yaml#radiant-den",
+    "via": "PGC_139k (Wray 2018 minus 23andMe_307k and the earlier UK Biobank release; derivation pinned at claims/howard2019dep_main.yaml#pgc139k)"
+   },
+   {
+    "id": "IBP_SGENE_COPENHAGEN",
+    "as_written": "IBP-SGENE Copenhagen (blood bank screening only) (RADIANT-DEN controls)",
+    "role": "controls_only",
+    "quote_id": "claims/wray2018mdd_supp_tables.yaml#radiant-den",
+    "via": "PGC_139k (Wray 2018 minus 23andMe_307k and the earlier UK Biobank release; derivation pinned at claims/howard2019dep_main.yaml#pgc139k)"
+   },
+   {
+    "id": "ROCHE_MDD",
+    "as_written": "Roche (controls opportunistic, matched to cases)",
+    "role": "case-control",
+    "quote_id": "claims/wray2018mdd_supp_tables.yaml#roche",
+    "via": "PGC_139k (Wray 2018 minus 23andMe_307k and the earlier UK Biobank release; derivation pinned at claims/howard2019dep_main.yaml#pgc139k)"
+   },
+   {
+    "id": "RS",
+    "as_written": "Rotterdam Study",
+    "role": "case-control",
+    "quote_id": "claims/wray2018mdd_supp_tables.yaml#rotterdam",
+    "via": "PGC_139k (Wray 2018 minus 23andMe_307k and the earlier UK Biobank release; derivation pinned at claims/howard2019dep_main.yaml#pgc139k)"
+   },
+   {
+    "id": "SHIP",
+    "as_written": "Study of Health in Pomerania (SHIP 0 and SHIP-TREND)",
+    "role": "case-control",
+    "quote_id": "claims/wray2018mdd_supp_tables.yaml#ship0",
+    "quote_ids_also": [
+     "claims/wray2018mdd_supp_tables.yaml#ship-trend"
+    ],
+    "via": "PGC_139k (Wray 2018 minus 23andMe_307k and the earlier UK Biobank release; derivation pinned at claims/howard2019dep_main.yaml#pgc139k)"
+   },
+   {
+    "id": "STARD",
+    "as_written": "STAR*D (cases)",
+    "role": "case-control",
+    "quote_id": "claims/wray2018mdd_supp_tables.yaml#stard",
+    "via": "PGC_139k (Wray 2018 minus 23andMe_307k and the earlier UK Biobank release; derivation pinned at claims/howard2019dep_main.yaml#pgc139k)"
+   },
+   {
+    "id": "MI_GWA_CONTROLS",
+    "as_written": "Myocardial infarction GWA (STAR*D controls)",
+    "role": "controls_only",
+    "quote_id": "claims/wray2018mdd_supp_tables.yaml#stard",
+    "via": "PGC_139k (Wray 2018 minus 23andMe_307k and the earlier UK Biobank release; derivation pinned at claims/howard2019dep_main.yaml#pgc139k)"
+   },
+   {
+    "id": "TWINGENE",
+    "as_written": "TwinGene (Swedish Twin Registry)",
+    "role": "case-control",
+    "quote_id": "claims/wray2018mdd_supp_tables.yaml#twingene",
+    "via": "PGC_139k (Wray 2018 minus 23andMe_307k and the earlier UK Biobank release; derivation pinned at claims/howard2019dep_main.yaml#pgc139k)"
+   },
+   {
+    "id": "DECODE",
+    "as_written": "deCODE (Iceland)",
+    "role": "case-control",
+    "quote_id": "claims/wray2018mdd_supp_tables.yaml#decode",
+    "via": "PGC_139k (Wray 2018 minus 23andMe_307k and the earlier UK Biobank release; derivation pinned at claims/howard2019dep_main.yaml#pgc139k)"
+   },
+   {
+    "id": "GENERATION_SCOTLAND",
+    "as_written": "GenScotland",
+    "role": "case-control",
+    "quote_id": "claims/wray2018mdd_supp_tables.yaml#genscot",
+    "via": "PGC_139k (Wray 2018 minus 23andMe_307k and the earlier UK Biobank release; derivation pinned at claims/howard2019dep_main.yaml#pgc139k)"
+   },
+   {
+    "id": "GERA",
+    "as_written": "GERA (Kaiser Permanente Northern California)",
+    "role": "case-control",
+    "quote_id": "claims/wray2018mdd_supp_tables.yaml#gera",
+    "via": "PGC_139k (Wray 2018 minus 23andMe_307k and the earlier UK Biobank release; derivation pinned at claims/howard2019dep_main.yaml#pgc139k)"
+   },
+   {
+    "id": "IPSYCH",
+    "as_written": "iPSYCH",
+    "role": "case-control",
+    "quote_id": "claims/wray2018mdd_supp_tables.yaml#ipsych",
+    "via": "PGC_139k (Wray 2018 minus 23andMe_307k and the earlier UK Biobank release; derivation pinned at claims/howard2019dep_main.yaml#pgc139k)"
+   },
+   {
+    "id": "23ANDME",
+    "as_written": "23andMe_307k (Hyde et al. discovery cohort)",
+    "role": "case-control",
+    "quote_id": "claims/howard2019dep_main.yaml#23andme"
+   }
+  ],
+  "replication_only": [
+   "23ANDME (independent replication sample, 1,306,354 individuals)"
+  ],
+  "components_complete": "yes",
+  "complete_reason": "Howard states three contributing datasets (23andMe_307k, UK Biobank, PGC_139k) and that PGC_139k is the Wray 2018 meta-analysis with 23andMe_307k and the earlier UK Biobank release removed; PGC_139k members are therefore Wray's PGC29 samples plus deCODE, Generation Scotland, GERA and iPSYCH, each pinned in the Wray supplementary tables. Caveat: the PGC_139k counts (43,204 cases, 95,680 controls) do not equal Wray totals minus 23andMe and UKB-pilot (45,591 cases, 97,674 controls); Howard does not state what accounts for the 2,387 cases and 1,994 controls, so a cohort-level removal cannot be excluded (the listed set is then a superset). Same generic-control caveat as the Wray row.",
+  "includes_ukb": "yes",
+  "includes_iceland": "yes",
+  "pqtl_cohort_flags": {
+   "INTERVAL": "no",
+   "FENLAND": "no",
+   "ARIC": "no",
+   "AGES": "no",
+   "KORA": "yes",
+   "FHS": "no",
+   "IMPROVE": "no",
+   "DECODE": "yes",
+   "UKB": "yes"
+  },
+  "ancestry": "European",
+  "sample_size": "246,363 cases; 561,190 controls (807,553)",
+  "source_read": "https://pmc-oa-opendata.s3.amazonaws.com/PMC6522363.1/PMC6522363.1.txt (full author manuscript: Introduction, Results, Online Methods (UK Biobank; 23andMe; PGC), Table 1, Data availability); static-content.springer.com ESM 41593_2018_326_MOESM1_ESM.pdf (Supplementary information, searched for cohort statements; no cohort table). Wray 2018 Supplementary Tables 1-3 read for the PGC_139k members.",
+  "claims_files": [
+   "claims/howard2019dep_main.yaml",
+   "claims/wray2018mdd_supp_tables.yaml",
+   "claims/wray2018mdd_main.yaml"
+  ],
+  "notes": "Replication sample (23andMe, 414,055 cases, 892,299 controls, independent of 23andMe_307k) is not part of the summary statistics. Iceland = yes via deCODE inside PGC_139k (inferred from Howard's derivation statement plus Wray's Supplementary Table 2). Pinned: howard2019dep_main#total, #three-studies, #23andme-dta."
+ },
+ {
+  "row_name": "Depression (Howard 2019) excluding 23andMe",
+  "new_row": true,
+  "side": "outcome",
+  "aliases_proposed": "Howard 2019 UK Biobank and PGC_139k|Howard 2019 public|depression excluding 23andMe 2019|ds/2458",
+  "release": "Public Edinburgh DataShare release (doi:10.7488/ds/2458): meta-analysis of UK Biobank and PGC_139k, all variants",
+  "source_citation": "Howard DM et al. 2019. Genome-wide meta-analysis of depression identifies 102 independent variants and highlights the importance of the prefrontal brain regions. Nat Neurosci 22:343-352",
+  "source_identifier": "doi:10.1038/s41593-018-0326-7; PMID:30718901; PMC6522363",
+  "components": [
+   {
+    "id": "UKB",
+    "as_written": "UK Biobank (broad depression; 127,552 cases, 233,763 controls)",
+    "role": "case-control",
+    "quote_id": "claims/howard2019dep_main.yaml#ukb"
+   },
+   {
+    "id": "BOMA",
+    "as_written": "BOMA (Bonn-Mannheim MDD study)",
+    "role": "case-control",
+    "quote_id": "claims/wray2018mdd_supp_tables.yaml#boma",
+    "via": "PGC_139k (Wray 2018 minus 23andMe_307k and the earlier UK Biobank release; derivation pinned at claims/howard2019dep_main.yaml#pgc139k)"
+   },
+   {
+    "id": "POPGEN",
+    "as_written": "POPGEN (BOMA controls: POPGEN & KORA population-based)",
+    "role": "controls_only",
+    "quote_id": "claims/wray2018mdd_supp_tables.yaml#boma",
+    "via": "PGC_139k (Wray 2018 minus 23andMe_307k and the earlier UK Biobank release; derivation pinned at claims/howard2019dep_main.yaml#pgc139k)"
+   },
+   {
+    "id": "KORA",
+    "as_written": "KORA (BOMA controls: POPGEN & KORA population-based; RADIANT-GER controls: KORA population-based)",
+    "role": "controls_only",
+    "quote_id": "claims/wray2018mdd_supp_tables.yaml#boma",
+    "quote_ids_also": [
+     "claims/wray2018mdd_supp_tables.yaml#radiant-ger"
+    ],
+    "via": "PGC_139k (Wray 2018 minus 23andMe_307k and the earlier UK Biobank release; derivation pinned at claims/howard2019dep_main.yaml#pgc139k)"
+   },
+   {
+    "id": "COFAMS",
+    "as_written": "CoFaMS (controls: Opportunistic; same community)",
+    "role": "case-control",
+    "quote_id": "claims/wray2018mdd_supp_tables.yaml#cofams",
+    "via": "PGC_139k (Wray 2018 minus 23andMe_307k and the earlier UK Biobank release; derivation pinned at claims/howard2019dep_main.yaml#pgc139k)"
+   },
+   {
+    "id": "PSYCOLAUS",
+    "as_written": "PsyCoLaus (controls from same population sample)",
+    "role": "case-control",
+    "quote_id": "claims/wray2018mdd_supp_tables.yaml#psycolaus",
+    "via": "PGC_139k (Wray 2018 minus 23andMe_307k and the earlier UK Biobank release; derivation pinned at claims/howard2019dep_main.yaml#pgc139k)"
+   },
+   {
+    "id": "EDINBURGH_MDD",
+    "as_written": "Edinburgh (cases)",
+    "role": "case-control",
+    "quote_id": "claims/wray2018mdd_supp_tables.yaml#edinburgh",
+    "via": "PGC_139k (Wray 2018 minus 23andMe_307k and the earlier UK Biobank release; derivation pinned at claims/howard2019dep_main.yaml#pgc139k)"
+   },
+   {
+    "id": "EDINBURGH_BLOOD_DONOR_CONTROLS",
+    "as_written": "Blood donors; psychiatrically unscreened (Edinburgh controls)",
+    "role": "controls_only",
+    "quote_id": "claims/wray2018mdd_supp_tables.yaml#edinburgh",
+    "via": "PGC_139k (Wray 2018 minus 23andMe_307k and the earlier UK Biobank release; derivation pinned at claims/howard2019dep_main.yaml#pgc139k)"
+   },
+   {
+    "id": "GENRED1",
+    "as_written": "GenRED1 (controls: Survey research panel; online CIDI-SF)",
+    "role": "case-control",
+    "quote_id": "claims/wray2018mdd_supp_tables.yaml#genred1",
+    "via": "PGC_139k (Wray 2018 minus 23andMe_307k and the earlier UK Biobank release; derivation pinned at claims/howard2019dep_main.yaml#pgc139k)"
+   },
+   {
+    "id": "NEWMEDS_GENPOD",
+    "as_written": "NEWMEDS-GENPOD (cases)",
+    "role": "case-control",
+    "quote_id": "claims/wray2018mdd_supp_tables.yaml#genpod",
+    "via": "PGC_139k (Wray 2018 minus 23andMe_307k and the earlier UK Biobank release; derivation pinned at claims/howard2019dep_main.yaml#pgc139k)"
+   },
+   {
+    "id": "WTCCC",
+    "as_written": "Wellcome Trust Case-Control Consortium (NEWMEDS-GENPOD controls)",
+    "role": "controls_only",
+    "quote_id": "claims/wray2018mdd_supp_tables.yaml#genpod",
+    "via": "PGC_139k (Wray 2018 minus 23andMe_307k and the earlier UK Biobank release; derivation pinned at claims/howard2019dep_main.yaml#pgc139k)"
+   },
+   {
+    "id": "DGN",
+    "as_written": "DGN (Depression Genes and Networks; cases and controls from survey research panel)",
+    "role": "case-control",
+    "quote_id": "claims/wray2018mdd_supp_tables.yaml#dgn",
+    "via": "PGC_139k (Wray 2018 minus 23andMe_307k and the earlier UK Biobank release; derivation pinned at claims/howard2019dep_main.yaml#pgc139k)"
+   },
+   {
+    "id": "GENRED2",
+    "as_written": "GenRED2 (cases)",
+    "role": "case-control",
+    "quote_id": "claims/wray2018mdd_supp_tables.yaml#genred2",
+    "via": "PGC_139k (Wray 2018 minus 23andMe_307k and the earlier UK Biobank release; derivation pinned at claims/howard2019dep_main.yaml#pgc139k)"
+   },
+   {
+    "id": "GENOMIC_PSYCHIATRY_COHORT",
+    "as_written": "Genomic Psychiatry Cohort (GenRED2 controls)",
+    "role": "controls_only",
+    "quote_id": "claims/wray2018mdd_supp_tables.yaml#genred2",
+    "via": "PGC_139k (Wray 2018 minus 23andMe_307k and the earlier UK Biobank release; derivation pinned at claims/howard2019dep_main.yaml#pgc139k)"
+   },
+   {
+    "id": "MAYO_CLINIC_BIOBANK",
+    "as_written": "Mayo Clinic Biobank (GenRED2 controls)",
+    "role": "controls_only",
+    "quote_id": "claims/wray2018mdd_supp_tables.yaml#genred2",
+    "via": "PGC_139k (Wray 2018 minus 23andMe_307k and the earlier UK Biobank release; derivation pinned at claims/howard2019dep_main.yaml#pgc139k)"
+   },
+   {
+    "id": "GSK_MPIP",
+    "as_written": "GSK/MPIP (controls: Population, Composite International Diagnostic Screener)",
+    "role": "case-control",
+    "quote_id": "claims/wray2018mdd_supp_tables.yaml#gsk-mpip",
+    "via": "PGC_139k (Wray 2018 minus 23andMe_307k and the earlier UK Biobank release; derivation pinned at claims/howard2019dep_main.yaml#pgc139k)"
+   },
+   {
+    "id": "I2B2_TRD",
+    "as_written": "i2b2-TRD (controls from neuroimaging studies)",
+    "role": "case-control",
+    "quote_id": "claims/wray2018mdd_supp_tables.yaml#i2b2",
+    "via": "PGC_139k (Wray 2018 minus 23andMe_307k and the earlier UK Biobank release; derivation pinned at claims/howard2019dep_main.yaml#pgc139k)"
+   },
+   {
+    "id": "JANSSEN_MDD",
+    "as_written": "Janssen (cases)",
+    "role": "case-control",
+    "quote_id": "claims/wray2018mdd_supp_tables.yaml#janssen",
+    "via": "PGC_139k (Wray 2018 minus 23andMe_307k and the earlier UK Biobank release; derivation pinned at claims/howard2019dep_main.yaml#pgc139k)"
+   },
+   {
+    "id": "PARKINSONS_GWA_CONTROLS",
+    "as_written": "Parkinson's disease GWA controls (Janssen controls)",
+    "role": "controls_only",
+    "quote_id": "claims/wray2018mdd_supp_tables.yaml#janssen",
+    "via": "PGC_139k (Wray 2018 minus 23andMe_307k and the earlier UK Biobank release; derivation pinned at claims/howard2019dep_main.yaml#pgc139k)"
+   },
+   {
+    "id": "MARS",
+    "as_written": "MARS (mmi2, mmo4; controls Munich population and Dortmund population)",
+    "role": "case-control",
+    "quote_id": "claims/wray2018mdd_supp_tables.yaml#mars",
+    "via": "PGC_139k (Wray 2018 minus 23andMe_307k and the earlier UK Biobank release; derivation pinned at claims/howard2019dep_main.yaml#pgc139k)"
+   },
+   {
+    "id": "NESDA",
+    "as_written": "NESDA/NTR: NESDA",
+    "role": "case-control",
+    "quote_id": "claims/wray2018mdd_supp_tables.yaml#nesda",
+    "via": "PGC_139k (Wray 2018 minus 23andMe_307k and the earlier UK Biobank release; derivation pinned at claims/howard2019dep_main.yaml#pgc139k)"
+   },
+   {
+    "id": "NTR",
+    "as_written": "NESDA/NTR: NTR",
+    "role": "case-control",
+    "quote_id": "claims/wray2018mdd_supp_tables.yaml#ntr",
+    "via": "PGC_139k (Wray 2018 minus 23andMe_307k and the earlier UK Biobank release; derivation pinned at claims/howard2019dep_main.yaml#pgc139k)"
+   },
+   {
+    "id": "PFIZER_MDD",
+    "as_written": "Pfizer (cases)",
+    "role": "case-control",
+    "quote_id": "claims/wray2018mdd_supp_tables.yaml#pfizer",
+    "via": "PGC_139k (Wray 2018 minus 23andMe_307k and the earlier UK Biobank release; derivation pinned at claims/howard2019dep_main.yaml#pgc139k)"
+   },
+   {
+    "id": "MELANOMA_GWA_CONTROLS",
+    "as_written": "Melanoma GWA control (Pfizer controls)",
+    "role": "controls_only",
+    "quote_id": "claims/wray2018mdd_supp_tables.yaml#pfizer",
+    "via": "PGC_139k (Wray 2018 minus 23andMe_307k and the earlier UK Biobank release; derivation pinned at claims/howard2019dep_main.yaml#pgc139k)"
+   },
+   {
+    "id": "QIMR",
+    "as_written": "QIMR (Australian Twin Registry; qi3c qi6c qio2)",
+    "role": "case-control",
+    "quote_id": "claims/wray2018mdd_supp_tables.yaml#qimr",
+    "via": "PGC_139k (Wray 2018 minus 23andMe_307k and the earlier UK Biobank release; derivation pinned at claims/howard2019dep_main.yaml#pgc139k)"
+   },
+   {
+    "id": "RADIANT_UK",
+    "as_written": "RADIANT-UK (controls: primary care or staff or students at King's College London)",
+    "role": "case-control",
+    "quote_id": "claims/wray2018mdd_supp_tables.yaml#radiant-uk",
+    "via": "PGC_139k (Wray 2018 minus 23andMe_307k and the earlier UK Biobank release; derivation pinned at claims/howard2019dep_main.yaml#pgc139k)"
+   },
+   {
+    "id": "RADIANT_GER",
+    "as_written": "RADIANT-GER (cases; controls KORA population-based)",
+    "role": "case-control",
+    "quote_id": "claims/wray2018mdd_supp_tables.yaml#radiant-ger",
+    "via": "PGC_139k (Wray 2018 minus 23andMe_307k and the earlier UK Biobank release; derivation pinned at claims/howard2019dep_main.yaml#pgc139k)"
+   },
+   {
+    "id": "RADIANT_IRISH",
+    "as_written": "RADIANT-IRISH (cases; plus opportunistic controls)",
+    "role": "case-control",
+    "quote_id": "claims/wray2018mdd_supp_tables.yaml#radiant-irish",
+    "via": "PGC_139k (Wray 2018 minus 23andMe_307k and the earlier UK Biobank release; derivation pinned at claims/howard2019dep_main.yaml#pgc139k)"
+   },
+   {
+    "id": "ALS_GWA_CONTROLS_IRELAND",
+    "as_written": "ALS GWA controls (RADIANT-IRISH controls)",
+    "role": "controls_only",
+    "quote_id": "claims/wray2018mdd_supp_tables.yaml#radiant-irish",
+    "via": "PGC_139k (Wray 2018 minus 23andMe_307k and the earlier UK Biobank release; derivation pinned at claims/howard2019dep_main.yaml#pgc139k)"
+   },
+   {
+    "id": "RADIANT_US",
+    "as_written": "RADIANT-US (cases)",
+    "role": "case-control",
+    "quote_id": "claims/wray2018mdd_supp_tables.yaml#radiant-us",
+    "via": "PGC_139k (Wray 2018 minus 23andMe_307k and the earlier UK Biobank release; derivation pinned at claims/howard2019dep_main.yaml#pgc139k)"
+   },
+   {
+    "id": "NIMH_CONTROLS",
+    "as_written": "NIMH controls (RADIANT-US controls)",
+    "role": "controls_only",
+    "quote_id": "claims/wray2018mdd_supp_tables.yaml#radiant-us",
+    "via": "PGC_139k (Wray 2018 minus 23andMe_307k and the earlier UK Biobank release; derivation pinned at claims/howard2019dep_main.yaml#pgc139k)"
+   },
+   {
+    "id": "RADIANT_DEN",
+    "as_written": "RADIANT-DEN (cases)",
+    "role": "case-control",
+    "quote_id": "claims/wray2018mdd_supp_tables.yaml#radiant-den",
+    "via": "PGC_139k (Wray 2018 minus 23andMe_307k and the earlier UK Biobank release; derivation pinned at claims/howard2019dep_main.yaml#pgc139k)"
+   },
+   {
+    "id": "IBP_SGENE_COPENHAGEN",
+    "as_written": "IBP-SGENE Copenhagen (blood bank screening only) (RADIANT-DEN controls)",
+    "role": "controls_only",
+    "quote_id": "claims/wray2018mdd_supp_tables.yaml#radiant-den",
+    "via": "PGC_139k (Wray 2018 minus 23andMe_307k and the earlier UK Biobank release; derivation pinned at claims/howard2019dep_main.yaml#pgc139k)"
+   },
+   {
+    "id": "ROCHE_MDD",
+    "as_written": "Roche (controls opportunistic, matched to cases)",
+    "role": "case-control",
+    "quote_id": "claims/wray2018mdd_supp_tables.yaml#roche",
+    "via": "PGC_139k (Wray 2018 minus 23andMe_307k and the earlier UK Biobank release; derivation pinned at claims/howard2019dep_main.yaml#pgc139k)"
+   },
+   {
+    "id": "RS",
+    "as_written": "Rotterdam Study",
+    "role": "case-control",
+    "quote_id": "claims/wray2018mdd_supp_tables.yaml#rotterdam",
+    "via": "PGC_139k (Wray 2018 minus 23andMe_307k and the earlier UK Biobank release; derivation pinned at claims/howard2019dep_main.yaml#pgc139k)"
+   },
+   {
+    "id": "SHIP",
+    "as_written": "Study of Health in Pomerania (SHIP 0 and SHIP-TREND)",
+    "role": "case-control",
+    "quote_id": "claims/wray2018mdd_supp_tables.yaml#ship0",
+    "quote_ids_also": [
+     "claims/wray2018mdd_supp_tables.yaml#ship-trend"
+    ],
+    "via": "PGC_139k (Wray 2018 minus 23andMe_307k and the earlier UK Biobank release; derivation pinned at claims/howard2019dep_main.yaml#pgc139k)"
+   },
+   {
+    "id": "STARD",
+    "as_written": "STAR*D (cases)",
+    "role": "case-control",
+    "quote_id": "claims/wray2018mdd_supp_tables.yaml#stard",
+    "via": "PGC_139k (Wray 2018 minus 23andMe_307k and the earlier UK Biobank release; derivation pinned at claims/howard2019dep_main.yaml#pgc139k)"
+   },
+   {
+    "id": "MI_GWA_CONTROLS",
+    "as_written": "Myocardial infarction GWA (STAR*D controls)",
+    "role": "controls_only",
+    "quote_id": "claims/wray2018mdd_supp_tables.yaml#stard",
+    "via": "PGC_139k (Wray 2018 minus 23andMe_307k and the earlier UK Biobank release; derivation pinned at claims/howard2019dep_main.yaml#pgc139k)"
+   },
+   {
+    "id": "TWINGENE",
+    "as_written": "TwinGene (Swedish Twin Registry)",
+    "role": "case-control",
+    "quote_id": "claims/wray2018mdd_supp_tables.yaml#twingene",
+    "via": "PGC_139k (Wray 2018 minus 23andMe_307k and the earlier UK Biobank release; derivation pinned at claims/howard2019dep_main.yaml#pgc139k)"
+   },
+   {
+    "id": "DECODE",
+    "as_written": "deCODE (Iceland)",
+    "role": "case-control",
+    "quote_id": "claims/wray2018mdd_supp_tables.yaml#decode",
+    "via": "PGC_139k (Wray 2018 minus 23andMe_307k and the earlier UK Biobank release; derivation pinned at claims/howard2019dep_main.yaml#pgc139k)"
+   },
+   {
+    "id": "GENERATION_SCOTLAND",
+    "as_written": "GenScotland",
+    "role": "case-control",
+    "quote_id": "claims/wray2018mdd_supp_tables.yaml#genscot",
+    "via": "PGC_139k (Wray 2018 minus 23andMe_307k and the earlier UK Biobank release; derivation pinned at claims/howard2019dep_main.yaml#pgc139k)"
+   },
+   {
+    "id": "GERA",
+    "as_written": "GERA (Kaiser Permanente Northern California)",
+    "role": "case-control",
+    "quote_id": "claims/wray2018mdd_supp_tables.yaml#gera",
+    "via": "PGC_139k (Wray 2018 minus 23andMe_307k and the earlier UK Biobank release; derivation pinned at claims/howard2019dep_main.yaml#pgc139k)"
+   },
+   {
+    "id": "IPSYCH",
+    "as_written": "iPSYCH",
+    "role": "case-control",
+    "quote_id": "claims/wray2018mdd_supp_tables.yaml#ipsych",
+    "via": "PGC_139k (Wray 2018 minus 23andMe_307k and the earlier UK Biobank release; derivation pinned at claims/howard2019dep_main.yaml#pgc139k)"
+   }
+  ],
+  "replication_only": [],
+  "components_complete": "yes",
+  "complete_reason": "Howard states three contributing datasets (23andMe_307k, UK Biobank, PGC_139k) and that PGC_139k is the Wray 2018 meta-analysis with 23andMe_307k and the earlier UK Biobank release removed; PGC_139k members are therefore Wray's PGC29 samples plus deCODE, Generation Scotland, GERA and iPSYCH, each pinned in the Wray supplementary tables. Caveat: the PGC_139k counts (43,204 cases, 95,680 controls) do not equal Wray totals minus 23andMe and UKB-pilot (45,591 cases, 97,674 controls); Howard does not state what accounts for the 2,387 cases and 1,994 controls, so a cohort-level removal cannot be excluded (the listed set is then a superset). Same generic-control caveat as the Wray row. Release fixed by Data availability, pinned at howard2019dep_main#public-release.",
+  "includes_ukb": "yes",
+  "includes_iceland": "yes",
+  "pqtl_cohort_flags": {
+   "INTERVAL": "no",
+   "FENLAND": "no",
+   "ARIC": "no",
+   "AGES": "no",
+   "KORA": "yes",
+   "FHS": "no",
+   "IMPROVE": "no",
+   "DECODE": "yes",
+   "UKB": "yes"
+  },
+  "ancestry": "European",
+  "sample_size": "not stated for this release; by Table 1 it is UK Biobank 127,552 cases/233,763 controls plus PGC_139k 43,204 cases/95,680 controls",
+  "source_read": "https://pmc-oa-opendata.s3.amazonaws.com/PMC6522363.1/PMC6522363.1.txt (full author manuscript: Introduction, Results, Online Methods (UK Biobank; 23andMe; PGC), Table 1, Data availability); static-content.springer.com ESM 41593_2018_326_MOESM1_ESM.pdf (Supplementary information, searched for cohort statements; no cohort table). Wray 2018 Supplementary Tables 1-3 read for the PGC_139k members.",
+  "claims_files": [
+   "claims/howard2019dep_main.yaml",
+   "claims/wray2018mdd_supp_tables.yaml",
+   "claims/wray2018mdd_main.yaml"
+  ],
+  "notes": "Replication sample (23andMe, 414,055 cases, 892,299 controls, independent of 23andMe_307k) is not part of the summary statistics. Iceland = yes via deCODE inside PGC_139k (inferred from Howard's derivation statement plus Wray's Supplementary Table 2)."
+ },
+ {
+  "row_name": "PGC BIP (Mullins 2021)",
+  "new_row": false,
+  "side": "outcome",
+  "aliases_proposed": "",
+  "release": "2021 (PGC3) full European meta-analysis, 57 cohorts incl. 5 external (iPSYCH, deCODE, Estonian Biobank, HUNT, UK Biobank); the paper states a single public release on the PGC website and describes no reduced public version",
+  "source_citation": "Mullins N et al. 2021. Genome-wide association study of more than 40,000 bipolar disorder cases provides new insights into the underlying biology. Nat Genet 53:817-829",
+  "source_identifier": "doi:10.1038/s41588-021-00857-4; PMID:34002096; PMC8192451",
+  "components": [
+   {
+    "id": "BOMA_AUSTRALIA",
+    "as_written": "BOMA-Australia (bmau)",
+    "role": "case-control",
+    "quote_id": "claims/mullins2021bip_supp_table1.yaml#s1-bmau"
+   },
+   {
+    "id": "BLTS",
+    "as_written": "Brisbane Longitudinal Twin Study (parents of twins; bmau controls)",
+    "role": "controls_only",
+    "quote_id": "claims/mullins2021bip_supp_note.yaml#ctrl-blts"
+   },
+   {
+    "id": "BOMA_GERMANY_II",
+    "as_written": "BOMA-Germany II (bmg2)",
+    "role": "case-control",
+    "quote_id": "claims/mullins2021bip_supp_table1.yaml#s1-bmg2"
+   },
+   {
+    "id": "HNR",
+    "as_written": "Heinz Nixdorf Recall (HNR) Study",
+    "role": "controls_only",
+    "quote_id": "claims/mullins2021bip_supp_note.yaml#ctrl-hnr-bmg2"
+   },
+   {
+    "id": "BOMA_GERMANY_III",
+    "as_written": "BOMA-Germany III (bmg3)",
+    "role": "case-control",
+    "quote_id": "claims/mullins2021bip_supp_table1.yaml#s1-bmg3"
+   },
+   {
+    "id": "BOMA_POLAND",
+    "as_written": "BOMA-Poland (bmpo)",
+    "role": "case-control",
+    "quote_id": "claims/mullins2021bip_supp_table1.yaml#s1-bmpo"
+   },
+   {
+    "id": "IARC_CNG_POLAND_CONTROLS",
+    "as_written": "Polish controls produced by IARC and CNG GWAS Initiative (upper aerodigestive tract cancer study; Cancer-Center Warsaw, Nofer Institute Lodz)",
+    "role": "controls_only",
+    "quote_id": "claims/mullins2021bip_supp_note.yaml#ctrl-iarc-poland"
+   },
+   {
+    "id": "BOMA_SPAIN",
+    "as_written": "BOMA-Spain (bmsp)",
+    "role": "case-control",
+    "quote_id": "claims/mullins2021bip_supp_table1.yaml#s1-bmsp"
+   },
+   {
+    "id": "ECRHS",
+    "as_written": "European Community Respiratory Health Survey (ECRHS), Spanish subjects",
+    "role": "controls_only",
+    "quote_id": "claims/mullins2021bip_supp_note.yaml#ctrl-ecrhs"
+   },
+   {
+    "id": "BOMA_GERMANY_I",
+    "as_written": "BOMA-Germany I (bonn)",
+    "role": "case-control",
+    "quote_id": "claims/mullins2021bip_supp_table1.yaml#s1-bonn"
+   },
+   {
+    "id": "POPGEN",
+    "as_written": "PopGen",
+    "role": "controls_only",
+    "quote_id": "claims/mullins2021bip_supp_note.yaml#ctrl-bonn-popgen-kora-hnr"
+   },
+   {
+    "id": "KORA",
+    "as_written": "KORA",
+    "role": "controls_only",
+    "quote_id": "claims/mullins2021bip_supp_note.yaml#ctrl-bonn-popgen-kora-hnr"
+   },
+   {
+    "id": "TCD_DUBLIN",
+    "as_written": "Trinity College Dublin (dub1)",
+    "role": "case-control",
+    "quote_id": "claims/mullins2021bip_supp_table1.yaml#s1-dub1"
+   },
+   {
+    "id": "IRISH_GENEBANK",
+    "as_written": "Irish GeneBank (blood donors)",
+    "role": "controls_only",
+    "quote_id": "claims/mullins2021bip_supp_note.yaml#ctrl-irish-genebank"
+   },
+   {
+    "id": "EDINBURGH_BD",
+    "as_written": "University of Edinburgh (edi1)",
+    "role": "case-control",
+    "quote_id": "claims/mullins2021bip_supp_table1.yaml#s1-edi1"
+   },
+   {
+    "id": "SSBTS",
+    "as_written": "South of Scotland Blood Transfusion Service",
+    "role": "controls_only",
+    "quote_id": "claims/mullins2021bip_supp_note.yaml#ctrl-ssbts"
+   },
+   {
+    "id": "FAST_TGEN",
+    "as_written": "FaST, TGEN1,2 (fat2)",
+    "role": "case-control",
+    "quote_id": "claims/mullins2021bip_supp_table1.yaml#s1-fat2"
+   },
+   {
+    "id": "NIMH_GI_CONTROLS",
+    "as_written": "NIMH Genetic Repository controls (Knowledge Networks)",
+    "role": "controls_only",
+    "quote_id": "claims/mullins2021bip_supp_note.yaml#ctrl-nimh-gain"
+   },
+   {
+    "id": "FRENCH_BD",
+    "as_written": "French (fran)",
+    "role": "case-control",
+    "quote_id": "claims/mullins2021bip_supp_table1.yaml#s1-fran"
+   },
+   {
+    "id": "GAIN_BIGS",
+    "as_written": "BiGs: Genetic Association Information Network (GAIN) (gain)",
+    "role": "case-control",
+    "quote_id": "claims/mullins2021bip_supp_table1.yaml#s1-gain"
+   },
+   {
+    "id": "BACCS",
+    "as_written": "BACCS (gsk1; Toronto CAMH and London KCL)",
+    "role": "case-control",
+    "quote_id": "claims/mullins2021bip_supp_table1.yaml#s1-gsk1"
+   },
+   {
+    "id": "NOVA_SCOTIA_BD",
+    "as_written": "Nova Scotia (hal2)",
+    "role": "case-control",
+    "quote_id": "claims/mullins2021bip_supp_table1.yaml#s1-hal2"
+   },
+   {
+    "id": "I2B2_MGH",
+    "as_written": "I2B2 (Informatics for Integrating Biology and the Bedside) controls, Boston",
+    "role": "controls_only",
+    "quote_id": "claims/mullins2021bip_supp_note.yaml#ctrl-i2b2"
+   },
+   {
+    "id": "ICCBD_BDRN",
+    "as_written": "ICCBD Bipolar Disorder Research Network (icuk)",
+    "role": "case-control",
+    "quote_id": "claims/mullins2021bip_supp_table1.yaml#s1-icuk"
+   },
+   {
+    "id": "B58C",
+    "as_written": "1958 British Birth Cohort (WTCCC common controls; icuk and wtcc)",
+    "role": "controls_only",
+    "quote_id": "claims/mullins2021bip_supp_note.yaml#ctrl-icuk-wtccc"
+   },
+   {
+    "id": "UKBS",
+    "as_written": "UK Blood Service (WTCCC common controls; icuk and wtcc)",
+    "role": "controls_only",
+    "quote_id": "claims/mullins2021bip_supp_note.yaml#ctrl-icuk-wtccc"
+   },
+   {
+    "id": "JANSSEN_US",
+    "as_written": "Janssen (jst5)",
+    "role": "case-control",
+    "quote_id": "claims/mullins2021bip_supp_table1.yaml#s1-jst5"
+   },
+   {
+    "id": "SAGE",
+    "as_written": "Study of Addiction: Genetics and Environment (SAGE), dbGaP phs000092.v1.p1",
+    "role": "controls_only",
+    "quote_id": "claims/mullins2021bip_supp_note.yaml#ctrl-sage"
+   },
+   {
+    "id": "MAYO_BD",
+    "as_written": "Mayo Clinic (may1; cases from Mayo Clinic Bipolar Biobank)",
+    "role": "case-control",
+    "quote_id": "claims/mullins2021bip_supp_table1.yaml#s1-may1"
+   },
+   {
+    "id": "MAYO_CLINIC_BIOBANK",
+    "as_written": "Mayo Clinic Biobank",
+    "role": "controls_only",
+    "quote_id": "claims/mullins2021bip_supp_note.yaml#ctrl-mayo-biobank"
+   },
+   {
+    "id": "PRITZKER_NIMH",
+    "as_written": "Pritzker Neuropsychiatric Disorders Research Consortium (U Michigan) (mich); cases and controls from the NIMH Genetics Initiative Repository",
+    "role": "case-control",
+    "quote_id": "claims/mullins2021bip_supp_table1.yaml#s1-mich"
+   },
+   {
+    "id": "PFIZER_BD",
+    "as_written": "Pfizer (pf1e)",
+    "role": "case-control",
+    "quote_id": "claims/mullins2021bip_supp_table1.yaml#s1-pf1e"
+   },
+   {
+    "id": "BOMA_ROMANIA",
+    "as_written": "BOMA-Romania (rom3) and BOMA-Romania II (bmrom)",
+    "role": "case-control",
+    "quote_id": "claims/mullins2021bip_supp_table1.yaml#s1-rom3"
+   },
+   {
+    "id": "STEP_BD",
+    "as_written": "Systematic Treatment Enhancement Program for Bipolar Disorder (STEP1 stp1, STEP2 st2c)",
+    "role": "case-control",
+    "quote_id": "claims/mullins2021bip_supp_table1.yaml#s1-stp1"
+   },
+   {
+    "id": "MIGEN",
+    "as_written": "MIGEN controls (dbGaP phs000294.v1.p1)",
+    "role": "controls_only",
+    "quote_id": "claims/mullins2021bip_supp_table1.yaml#s1-st2c"
+   },
+   {
+    "id": "SWEBIC",
+    "as_written": "Swedish Bipolar Collection I (SWEBIC I) Affy (swa2) and Illumina (swei)",
+    "role": "case-control",
+    "quote_id": "claims/mullins2021bip_supp_table1.yaml#s1-swa2"
+   },
+   {
+    "id": "TOP",
+    "as_written": "Thematically Organized Psychosis (TOP) (top7, top8, norgs, noroe)",
+    "role": "case-control",
+    "quote_id": "claims/mullins2021bip_supp_table1.yaml#s1-top7"
+   },
+   {
+    "id": "DUTCH_UCLA",
+    "as_written": "Dutch-UCLA (ucl2) and PsychChip 'dutch' sample",
+    "role": "case-control",
+    "quote_id": "claims/mullins2021bip_supp_table1.yaml#s1-ucl2"
+   },
+   {
+    "id": "UCL_LONDON",
+    "as_written": "University College London (uclo)",
+    "role": "case-control",
+    "quote_id": "claims/mullins2021bip_supp_table1.yaml#s1-uclo"
+   },
+   {
+    "id": "NBS",
+    "as_written": "London branches of the National Blood Service (uclo controls)",
+    "role": "controls_only",
+    "quote_id": "claims/mullins2021bip_supp_note.yaml#ctrl-ucl-nbs"
+   },
+   {
+    "id": "UMEA_BD",
+    "as_written": "UMEA (ume4)",
+    "role": "case-control",
+    "quote_id": "claims/mullins2021bip_supp_table1.yaml#s1-ume4"
+   },
+   {
+    "id": "BETULA",
+    "as_written": "Betula study (ume4 controls)",
+    "role": "controls_only",
+    "quote_id": "claims/mullins2021bip_supp_note.yaml#ctrl-betula"
+   },
+   {
+    "id": "GPC_USC",
+    "as_written": "ICCBD USC (usc2) and Genomic Psychiatry Consortium (gpcw1)",
+    "role": "case-control",
+    "quote_id": "claims/mullins2021bip_supp_table1.yaml#s1-usc2"
+   },
+   {
+    "id": "WTCCC_BD",
+    "as_written": "Wellcome Trust Case-Control Consortium (WTCCC) bipolar cases (wtcc)",
+    "role": "case-control",
+    "quote_id": "claims/mullins2021bip_supp_table1.yaml#s1-wtcc"
+   },
+   {
+    "id": "BULGARIAN_TRIOS",
+    "as_written": "Bulgarian trios (butr)",
+    "role": "case-control",
+    "quote_id": "claims/mullins2021bip_supp_table1.yaml#s1-butr"
+   },
+   {
+    "id": "UK_TRIOS",
+    "as_written": "UK trios (uktr)",
+    "role": "case-control",
+    "quote_id": "claims/mullins2021bip_supp_table1.yaml#s1-uktr"
+   },
+   {
+    "id": "JANSSEN_EAST_EUROPE",
+    "as_written": "Janssen, Eastern Europe (jea2)",
+    "role": "case-control",
+    "quote_id": "claims/mullins2021bip_supp_table1.yaml#s1-jea2"
+   },
+   {
+    "id": "ESTONIAN_BIOBANK",
+    "as_written": "Estonian Biobank (external study; also most jea2 controls from the Estonian Biobank project (EGCUT))",
+    "role": "cohort",
+    "quote_id": "claims/mullins2021bip_supp_table1.yaml#s1-estbb"
+   },
+   {
+    "id": "PSYCOURSE_KFO",
+    "as_written": "PsyCourse (kfo4; KFO241/PsyCourse)",
+    "role": "case-control",
+    "quote_id": "claims/mullins2021bip_supp_table1.yaml#s1-kfo4"
+   },
+   {
+    "id": "GERMAN_RED_CROSS_MANNHEIM",
+    "as_written": "German Red Cross blood donor controls collected by CIMH Mannheim (kfo4 controls)",
+    "role": "controls_only",
+    "quote_id": "claims/mullins2021bip_supp_note.yaml#ctrl-red-cross"
+   },
+   {
+    "id": "BIGS_TGEN",
+    "as_written": "BIGs/TGEN (tgco2)",
+    "role": "case-control",
+    "quote_id": "claims/mullins2021bip_supp_table1.yaml#s1-tgco2"
+   },
+   {
+    "id": "BDTRS",
+    "as_written": "Bipolar Depression Treatment Response Study (bdtrs)",
+    "role": "case-control",
+    "quote_id": "claims/mullins2021bip_supp_table1.yaml#s1-bdtrs"
+   },
+   {
+    "id": "GAWLIK_WURZBURG",
+    "as_written": "gawli (Gawlik M, Würzburg)",
+    "role": "case-control",
+    "quote_id": "claims/mullins2021bip_supp_table1.yaml#s1-gawli"
+   },
+   {
+    "id": "GUF_BIPOLAR",
+    "as_written": "GUF-Bipolar (germ1)",
+    "role": "case-control",
+    "quote_id": "claims/mullins2021bip_supp_table1.yaml#s1-germ1"
+   },
+   {
+    "id": "NEURA_PSYCH",
+    "as_written": "NeuRA-psych (neuc1), including controls from the Australian Schizophrenia Research Bank",
+    "role": "case-control",
+    "quote_id": "claims/mullins2021bip_supp_table1.yaml#s1-neuc1"
+   },
+   {
+    "id": "ASRB",
+    "as_written": "Australian Schizophrenia Research Bank (neuc1 controls)",
+    "role": "controls_only",
+    "quote_id": "claims/mullins2021bip_supp_table1.yaml#s1-neuc1"
+   },
+   {
+    "id": "CASSI",
+    "as_written": "Cognitive and Affective Symptoms of Schizophrenia Intervention (CASSI) trial (neuc1 controls)",
+    "role": "controls_only",
+    "quote_id": "claims/mullins2021bip_supp_note.yaml#ctrl-cassi"
+   },
+   {
+    "id": "SERRETTI_SPAIN_ITALY",
+    "as_written": "spsp3 (Barcelona and Bologna cases)",
+    "role": "case-control",
+    "quote_id": "claims/mullins2021bip_supp_table1.yaml#s1-spsp3"
+   },
+   {
+    "id": "MENTAL_CAT",
+    "as_written": "Mental-Cat cohort (Vall d'Hebron blood donors; spsp3 controls)",
+    "role": "controls_only",
+    "quote_id": "claims/mullins2021bip_supp_note.yaml#ctrl-mentalcat-inschool"
+   },
+   {
+    "id": "INSCHOOL",
+    "as_written": "INSchool population-based cohort (spsp3 controls)",
+    "role": "controls_only",
+    "quote_id": "claims/mullins2021bip_supp_note.yaml#ctrl-mentalcat-inschool"
+   },
+   {
+    "id": "SWED1_PSYCHCHIP",
+    "as_written": "swed1 (Landén M; table sample name 'GEMS and EIMS'; cases ascertained as for bip_swa2_eur)",
+    "role": "case-control",
+    "quote_id": "claims/mullins2021bip_supp_table1.yaml#s1-swed1"
+   },
+   {
+    "id": "GEMS",
+    "as_written": "GEMS (Genes and Environment in Multiple Sclerosis) controls",
+    "role": "controls_only",
+    "quote_id": "claims/mullins2021bip_supp_note.yaml#ctrl-gems-eims"
+   },
+   {
+    "id": "EIMS",
+    "as_written": "EIMS (Epidemiological Investigation of Multiple Sclerosis) controls",
+    "role": "controls_only",
+    "quote_id": "claims/mullins2021bip_supp_note.yaml#ctrl-gems-eims"
+   },
+   {
+    "id": "UKWA1_PSYCHCHIP",
+    "as_written": "ukwa1 (UK PsychChip: UCL, BDRN, Edinburgh/central Scotland cases)",
+    "role": "case-control",
+    "quote_id": "claims/mullins2021bip_supp_table1.yaml#s1-ukwa1"
+   },
+   {
+    "id": "ECACC_UK_BLOOD_DONORS",
+    "as_written": "ECACC DNA Panels, random UK blood donors (ukwa1 controls)",
+    "role": "controls_only",
+    "quote_id": "claims/mullins2021bip_supp_note.yaml#ctrl-ecacc"
+   },
+   {
+    "id": "UK_MND_DNA_BIOBANK",
+    "as_written": "UK Motor Neuron Disease Association DNA Biobank blood donors (ukwa1 controls)",
+    "role": "controls_only",
+    "quote_id": "claims/mullins2021bip_supp_note.yaml#ctrl-mnd"
+   },
+   {
+    "id": "USAW4_PSYCHCHIP",
+    "as_written": "usaw4 (Partners EHR cases; Johns Hopkins family probands)",
+    "role": "case-control",
+    "quote_id": "claims/mullins2021bip_supp_table1.yaml#s1-usaw4"
+   },
+   {
+    "id": "UF_HOARDING_OCD_TIC_CONTROLS",
+    "as_written": "Mathews CA controls: genetic studies of hoarding, OCD and tic disorders, University of Florida (usaw4)",
+    "role": "controls_only",
+    "quote_id": "claims/mullins2021bip_supp_note.yaml#ctrl-mathews"
+   },
+   {
+    "id": "EMORY_ADHD_CONTROLS",
+    "as_written": "Waldman I controls: genetic study of ADHD and externalizing disorders, Emory/Arizona (usaw4)",
+    "role": "controls_only",
+    "quote_id": "claims/mullins2021bip_supp_note.yaml#ctrl-waldman"
+   },
+   {
+    "id": "USAW5_PSYCHCHIP",
+    "as_written": "usaw5 (PGBD lithium study; Partners Healthcare EHR)",
+    "role": "case-control",
+    "quote_id": "claims/mullins2021bip_supp_table1.yaml#s1-usaw5"
+   },
+   {
+    "id": "IMAGE",
+    "as_written": "Dutch part of the International Multicenter ADHD Genetics (IMAGE) project (dutch controls)",
+    "role": "controls_only",
+    "quote_id": "claims/mullins2021bip_supp_note.yaml#ctrl-image"
+   },
+   {
+    "id": "NESCOG",
+    "as_written": "Netherlands Study of Cognition, Environment and Genes (NESCOG) (dutch controls)",
+    "role": "controls_only",
+    "quote_id": "claims/mullins2021bip_supp_note.yaml#ctrl-nescog"
+   },
+   {
+    "id": "LOCHNER_SA_CONTROLS",
+    "as_written": "Lochner C controls: blood-bank and campus/newspaper-recruited controls (dutch; Stellenbosch ethics)",
+    "role": "controls_only",
+    "quote_id": "claims/mullins2021bip_supp_note.yaml#ctrl-lochner"
+   },
+   {
+    "id": "IPSYCH",
+    "as_written": "iPSYCH",
+    "role": "cohort",
+    "quote_id": "claims/mullins2021bip_supp_table1.yaml#s1-ipsych"
+   },
+   {
+    "id": "DECODE",
+    "as_written": "deCODE (Iceland)",
+    "role": "cohort",
+    "quote_id": "claims/mullins2021bip_supp_table1.yaml#s1-decode"
+   },
+   {
+    "id": "HUNT",
+    "as_written": "Nord-Trøndelag Health Study",
+    "role": "cohort",
+    "quote_id": "claims/mullins2021bip_supp_table1.yaml#s1-hunt"
+   },
+   {
+    "id": "UKB",
+    "as_written": "UK Biobank",
+    "role": "cohort",
+    "quote_id": "claims/mullins2021bip_supp_table1.yaml#s1-ukb"
+   },
+   {
+    "id": "BOMA_RUSSIA",
+    "as_written": "BOMA-Russia (bmrus)",
+    "role": "case-control",
+    "quote_id": "claims/mullins2021bip_supp_table1.yaml#s1-bmrus"
+   },
+   {
+    "id": "ATLADIS",
+    "as_written": "ATLADIS (AThens Longitudinal Affective DIsorders Study) (greek)",
+    "role": "case-control",
+    "quote_id": "claims/mullins2021bip_supp_table1.yaml#s1-greek"
+   },
+   {
+    "id": "BIPGEN_GRAZ",
+    "as_written": "BIPGEN (graza)",
+    "role": "case-control",
+    "quote_id": "claims/mullins2021bip_supp_table1.yaml#s1-graza"
+   }
+  ],
+  "replication_only": [
+   "Japan (East Asian BD case-control cohort)",
+   "Korea (East Asian BD case-control cohort)",
+   "two admixed African American BD cohorts"
+  ],
+  "components_complete": "no",
+  "complete_reason": "All 57 samples of Supplementary Table 1 (caption: 'Summary of 57 samples included in the PGC3 bipolar disorder meta-analysis'; totals 41917 cases / 371549 controls match the main text) are listed, and every control source the Supplementary Note names is a component. Missing: the control source of swa2 and swei (SWEBIC; Note says only 'The control subjects used were the same as for the SCZ analyses described above', and no SCZ description is in this document); the controls of pf1e (Pfizer, 346 controls) and gawli (502 controls), which the Note does not describe; fran, bmg3, bmrus, greek, graza, bdtrs, germ1, top*, ucl2, gsk1, usc2/gpcw1 controls are described as collected within the study (no external cohort named). Unnamed Swedish controls leave Swedish pQTL cohorts (IMPROVE, ULSAM, PIVUS, TWINGENE, STSA) unresolvable.",
+  "includes_ukb": "yes",
+  "includes_iceland": "yes",
+  "pqtl_cohort_flags": {
+   "INTERVAL": "unknown",
+   "FENLAND": "unknown",
+   "ARIC": "unknown",
+   "AGES": "unknown",
+   "KORA": "yes",
+   "FHS": "unknown",
+   "IMPROVE": "unknown",
+   "DECODE": "yes",
+   "UKB": "yes"
+  },
+  "ancestry": "European",
+  "sample_size": "41,917 cases; 371,549 controls (57 cohorts; effective n 101,962)",
+  "source_read": "PMC8192451 full text (pmc-oa-opendata.s3.amazonaws.com/PMC8192451.1/PMC8192451.1.txt): Results, Online Methods (sample), Data availability; Supplementary Tables xlsx (NIHMS1687813-supplement-Supplementary_Tables.xlsx, same bucket) sheet Table S1 in full; Supplementary Note pdf (same bucket) section 'Sample descriptions' (all PGC1, PGC2, PGC2 follow-up, External, PsychChip, PGC3 sample entries) read in full",
+  "claims_files": [
+   "claims/mullins2021bip_main.yaml",
+   "claims/mullins2021bip_supp_table1.yaml",
+   "claims/mullins2021bip_supp_note.yaml"
+  ],
+  "notes": "Iceland via deCODE (1,972 cases / 192,602 controls in the discovery meta-analysis, Supplementary Table 1). KORA, PopGen and HNR are controls for bonn (BOMA-Germany I); HNR also for bmg2. WTCCC common controls (B58C, UKBS) serve both wtcc and icuk. Most jea2 controls come from the Estonian Biobank (EGCUT). STEP1/STEP2 controls: Table S1 names MIGEN controls (dbGaP phs000294), the Note says NIMH repository controls; MIGEN recorded. NBS here is London branches of the National Blood Service (uclo controls), distinct from the WTCCC UK Blood Service set (UKBS). Sub-samples collapsed: TOP = top7/top8/norgs/noroe; SWEBIC = swa2/swei; BOMA_ROMANIA = rom3/bmrom; STEP_BD = stp1/st2c; GPC_USC = usc2/gpcw1; DUTCH_UCLA = ucl2/dutch cases. No 23andMe sample in the meta-analysis (not named in the main text). The paper does not state whether the PGC download file differs from the 57-cohort meta-analysis (e.g. a version without UK Biobank); not verified from source, so no separate release row is proposed. INTERVAL, Fenland, ARIC, AGES, FHS and IMPROVE are not named anywhere in the read text; they stay unknown only because the swa2/swei, pf1e and gawli control sources are unnamed."
+ },
+ {
+  "row_name": "PGC/iPSYCH ADHD (Demontis 2019)",
+  "new_row": false,
+  "side": "outcome",
+  "aliases_proposed": "",
+  "release": "2019 (ADHD2019); paper meta-analysis of iPSYCH (23 waves) and 11 PGC samples, all ancestries",
+  "source_citation": "Demontis D et al. 2019. Discovery of the first genome-wide significant risk loci for attention deficit/hyperactivity disorder. Nat Genet 51:63-75",
+  "source_identifier": "doi:10.1038/s41588-018-0269-7; PMID:30478444; PMC6481311",
+  "components": [
+   {
+    "id": "IPSYCH",
+    "as_written": "iPSYCH-ADHD, Denmark (Lundbeck Foundation Initiative for Integrative Psychiatric Research; controls randomly selected from the same nationwide birth cohort)",
+    "role": "case-control",
+    "quote_id": "claims/demontis2019adhd_supp_table1.yaml#ipsych"
+   },
+   {
+    "id": "ADHD_BEIJING",
+    "as_written": "Beijing, China* (Han Chinese; controls: local school students, blood donors of the First Hospital, Peking University, and volunteers); excluded from the European meta-analysis",
+    "role": "case-control",
+    "quote_id": "claims/demontis2019adhd_supp_table1.yaml#beijing"
+   },
+   {
+    "id": "ADHD_BARCELONA",
+    "as_written": "Barcelona, Spain (cases from Hospital Universitari Vall d'Hebron; controls: 584 unrelated blood donors)",
+    "role": "case-control",
+    "quote_id": "claims/demontis2019adhd_supp_table1.yaml#barcelona"
+   },
+   {
+    "id": "ADHD_BERGEN",
+    "as_written": "Bergen, Norway (controls recruited through the Medical Birth Registry of Norway)",
+    "role": "case-control",
+    "quote_id": "claims/demontis2019adhd_supp_table1.yaml#bergen"
+   },
+   {
+    "id": "ADHD_CARDIFF",
+    "as_written": "Cardiff, UK (cases from Cardiff, St. Andrews and Dublin)",
+    "role": "case-control",
+    "quote_id": "claims/demontis2019adhd_supp_table1.yaml#cardiff"
+   },
+   {
+    "id": "B58C",
+    "as_written": "the 1958 British Birth Cohort (Wellcome Trust Case Control Consortium-Phase 2 controls for Cardiff, UK)",
+    "role": "controls_only",
+    "quote_id": "claims/demontis2019adhd_supp_info.yaml#cardiff-controls"
+   },
+   {
+    "id": "UKBS",
+    "as_written": "U.K. Blood Services collection (Wellcome Trust Case Control Consortium-Phase 2 controls for Cardiff, UK)",
+    "role": "controls_only",
+    "quote_id": "claims/demontis2019adhd_supp_info.yaml#cardiff-controls"
+   },
+   {
+    "id": "ADHD_CHOP",
+    "as_written": "CHOP, USA (Children's Hospital of Philadelphia ADHD trios)",
+    "role": "case-control",
+    "quote_id": "claims/demontis2019adhd_supp_table1.yaml#chop"
+   },
+   {
+    "id": "ADHD_GERMANY",
+    "as_written": "Germany (cases from six child and adolescent psychiatric outpatient units)",
+    "role": "case-control",
+    "quote_id": "claims/demontis2019adhd_supp_table1.yaml#germany"
+   },
+   {
+    "id": "HNR",
+    "as_written": "the Heinz Nixdorf Recall (Risk Factors, Evaluation of Coronary Calcification, and Lifestyle) study (controls for Germany)",
+    "role": "controls_only",
+    "quote_id": "claims/demontis2019adhd_supp_info.yaml#germany-controls"
+   },
+   {
+    "id": "POPGEN",
+    "as_written": "PopGen (controls for Germany)",
+    "role": "controls_only",
+    "quote_id": "claims/demontis2019adhd_supp_info.yaml#germany-controls"
+   },
+   {
+    "id": "KORA",
+    "as_written": "KORA (Cooperative Health Research in the Region of Augsburg) (controls for Germany)",
+    "role": "controls_only",
+    "quote_id": "claims/demontis2019adhd_supp_info.yaml#germany-controls"
+   },
+   {
+    "id": "IMAGE_I",
+    "as_written": "IMAGE-I (International Multisite ADHD Genetics Project trios)",
+    "role": "case-control",
+    "quote_id": "claims/demontis2019adhd_supp_table1.yaml#image1"
+   },
+   {
+    "id": "IMAGE_II",
+    "as_written": "IMAGE-II (cases from IMAGE sites, Cardiff, St. Andrews, Dublin, MGH, Germany, the Netherlands)",
+    "role": "case-control",
+    "quote_id": "claims/demontis2019adhd_supp_table1.yaml#image2"
+   },
+   {
+    "id": "MIGEN_CONTROLS",
+    "as_written": "1,755 population controls of European ancestry assembled from an IRB approved GWAS of myocardial infarction (Myocardial Infarction Genetics Consortium); sites including Seattle, Washington; Boston, Massachusetts; Gerona, Spain; Malmo, Sweden; and the United Kingdom (controls for IMAGE-II)",
+    "role": "controls_only",
+    "quote_id": "claims/demontis2019adhd_supp_info.yaml#image2-controls"
+   },
+   {
+    "id": "PUWMA",
+    "as_written": "PUWMa (Pfizer-funded UCLA, Washington University, MGH trios)",
+    "role": "case-control",
+    "quote_id": "claims/demontis2019adhd_supp_table1.yaml#puwma"
+   },
+   {
+    "id": "ADHD_TORONTO",
+    "as_written": "Toronto, Canada (trios)",
+    "role": "case-control",
+    "quote_id": "claims/demontis2019adhd_supp_table1.yaml#toronto"
+   },
+   {
+    "id": "YALE_PENN",
+    "as_written": "Yale-Penn (182 ADHD cases, 1,315 unrelated controls)",
+    "role": "case-control",
+    "quote_id": "claims/demontis2019adhd_supp_table1.yaml#yalepenn"
+   }
+  ],
+  "replication_only": [
+   "DECODE (Icelandic ADHD cohort, 5,085 cases, 131,122 controls; top loci only)",
+   "23ANDME (self-reported ADHD, 5,857 cases, 70,393 controls)",
+   "EAGLE consortium ADHD symptom cohorts (17,666 children)",
+   "QIMR (2,798 adolescents)"
+  ],
+  "components_complete": "no",
+  "complete_reason": "Supplementary Table 1 lists all 12 samples (iPSYCH + 11 PGC) of the 20,183/35,191 meta-analysis and the Supplementary Information names each sample's controls. Missing: IMAGE-II controls (1,755) are described only as drawn from the Myocardial Infarction Genetics Consortium early-onset MI GWAS at sites 'including' Seattle, Boston, Gerona, Malmo and the United Kingdom; the participating cohorts behind those sites are not named, so the control source is consortium-level (MIGEN_CONTROLS). Every other sample and its control source is identified.",
+  "includes_ukb": "unknown",
+  "includes_iceland": "unknown",
+  "pqtl_cohort_flags": {
+   "INTERVAL": "unknown",
+   "FENLAND": "unknown",
+   "ARIC": "unknown",
+   "AGES": "unknown",
+   "KORA": "yes",
+   "FHS": "unknown",
+   "IMPROVE": "unknown",
+   "DECODE": "unknown",
+   "UKB": "unknown"
+  },
+  "ancestry": "European (iPSYCH and 9 PGC samples), Han Chinese (Beijing), diverse US (PUWMa, full); European-only meta-analysis drops Beijing and uses PUWMa (strict)",
+  "sample_size": "20,183 cases; 35,191 controls (European meta-analysis 19,099 cases; 34,194 controls)",
+  "source_read": "PMC6481311 main text (pmc-oa-opendata PMC6481311.1.txt: Results, Online Methods, Data availability); Supplementary Information https://static-content.springer.com/esm/art%3A10.1038%2Fs41588-018-0269-7/MediaObjects/41588_2018_269_MOESM1_ESM.pdf (Detailed description of individual samples; Replication samples; GWAS and meta-analysis; Supplementary Table 1; reference 20)",
+  "claims_files": [
+   "claims/demontis2019adhd_main.yaml",
+   "claims/demontis2019adhd_supp_info.yaml",
+   "claims/demontis2019adhd_supp_table1.yaml"
+  ],
+  "notes": "UK Biobank appears only in genetic-correlation analyses (claims/demontis2019adhd_main.yaml#ukb-only-rg); deCODE is replication-only (#decode-replication). UKB/Iceland/pQTL flags other than KORA are 'unknown' only because of the unnamed IMAGE-II MI-GWAS controls; resolving the cohorts in the Myocardial Infarction Genetics Consortium 2009 Nat Genet control set (Malmo site is a possible MDC/MPP source) would settle them. KORA = yes via the Germany controls. The paper states the iPSYCH+PGC meta-analysis summary statistics are on the PGC website without distinguishing an all-ancestry and a European-only file; if the European-only file is the one downloaded, ADHD_BEIJING drops out and PUWMA is the strict European subset. Barcelona, Beijing, Bergen and Yale-Penn controls are collected within the sample and are folded into the sample component. IMAGE-II controls had WTCCC participants overlapping Cardiff removed (#image2-wtccc-removed)."
+ },
+ {
+  "row_name": "PGC/iPSYCH/deCODE ADHD (Demontis 2023)",
+  "new_row": false,
+  "side": "outcome",
+  "aliases_proposed": "",
+  "release": "2023 (ADHD2022); meta-analysis of iPSYCH1+iPSYCH2, deCODE and 10 European PGC cohorts",
+  "source_citation": "Demontis D et al. 2023. Genome-wide analyses of ADHD identify 27 risk loci, refine the genetic architecture and implicate several cognitive domains. Nat Genet 55:198-208",
+  "source_identifier": "doi:10.1038/s41588-022-01285-8; PMID:36702997; PMC10914347",
+  "components": [
+   {
+    "id": "IPSYCH",
+    "as_written": "iPSYCH1 and iPSYCH2",
+    "role": "case-control",
+    "quote_id": "claims/demontis2023adhd_supp_table1.yaml#ipsych1"
+   },
+   {
+    "id": "DECODE",
+    "as_written": "deCODE (8,281 cases; 137,993 controls)",
+    "role": "case-control",
+    "quote_id": "claims/demontis2023adhd_supp_table1.yaml#decode"
+   },
+   {
+    "id": "ADHD_BARCELONA",
+    "as_written": "Barcelona, Spain (cases from Hospital Universitari Vall d'Hebron; controls: 584 unrelated blood donors)",
+    "role": "case-control",
+    "quote_id": "claims/demontis2023adhd_supp_table1.yaml#barcelona"
+   },
+   {
+    "id": "ADHD_BERGEN",
+    "as_written": "Bergen, Norway (controls recruited through the Medical Birth Registry of Norway)",
+    "role": "case-control",
+    "quote_id": "claims/demontis2023adhd_supp_table1.yaml#bergen"
+   },
+   {
+    "id": "ADHD_CARDIFF",
+    "as_written": "Cardiff, UK (cases from Cardiff, St. Andrews and Dublin)",
+    "role": "case-control",
+    "quote_id": "claims/demontis2023adhd_supp_table1.yaml#cardiff"
+   },
+   {
+    "id": "B58C",
+    "as_written": "the 1958 British Birth Cohort (Wellcome Trust Case Control Consortium-Phase 2 controls for Cardiff, UK)",
+    "role": "controls_only",
+    "quote_id": "claims/demontis2019adhd_supp_info.yaml#cardiff-controls"
+   },
+   {
+    "id": "UKBS",
+    "as_written": "U.K. Blood Services collection (Wellcome Trust Case Control Consortium-Phase 2 controls for Cardiff, UK)",
+    "role": "controls_only",
+    "quote_id": "claims/demontis2019adhd_supp_info.yaml#cardiff-controls"
+   },
+   {
+    "id": "ADHD_CHOP",
+    "as_written": "CHOP, USA (Children's Hospital of Philadelphia ADHD trios)",
+    "role": "case-control",
+    "quote_id": "claims/demontis2023adhd_supp_table1.yaml#chop"
+   },
+   {
+    "id": "ADHD_GERMANY",
+    "as_written": "Germany (cases from six child and adolescent psychiatric outpatient units)",
+    "role": "case-control",
+    "quote_id": "claims/demontis2023adhd_supp_table1.yaml#germany"
+   },
+   {
+    "id": "HNR",
+    "as_written": "the Heinz Nixdorf Recall (Risk Factors, Evaluation of Coronary Calcification, and Lifestyle) study (controls for Germany)",
+    "role": "controls_only",
+    "quote_id": "claims/demontis2019adhd_supp_info.yaml#germany-controls"
+   },
+   {
+    "id": "POPGEN",
+    "as_written": "PopGen (controls for Germany)",
+    "role": "controls_only",
+    "quote_id": "claims/demontis2019adhd_supp_info.yaml#germany-controls"
+   },
+   {
+    "id": "KORA",
+    "as_written": "KORA (Cooperative Health Research in the Region of Augsburg) (controls for Germany)",
+    "role": "controls_only",
+    "quote_id": "claims/demontis2019adhd_supp_info.yaml#germany-controls"
+   },
+   {
+    "id": "IMAGE_I",
+    "as_written": "IMAGE-I (International Multisite ADHD Genetics Project trios)",
+    "role": "case-control",
+    "quote_id": "claims/demontis2023adhd_supp_table1.yaml#image1"
+   },
+   {
+    "id": "IMAGE_II",
+    "as_written": "IMAGE-II (cases from IMAGE sites, Cardiff, St. Andrews, Dublin, MGH, Germany, the Netherlands)",
+    "role": "case-control",
+    "quote_id": "claims/demontis2023adhd_supp_table1.yaml#image2"
+   },
+   {
+    "id": "MIGEN_CONTROLS",
+    "as_written": "1,755 population controls of European ancestry assembled from an IRB approved GWAS of myocardial infarction (Myocardial Infarction Genetics Consortium); sites including Seattle, Washington; Boston, Massachusetts; Gerona, Spain; Malmo, Sweden; and the United Kingdom (controls for IMAGE-II)",
+    "role": "controls_only",
+    "quote_id": "claims/demontis2019adhd_supp_info.yaml#image2-controls"
+   },
+   {
+    "id": "PUWMA",
+    "as_written": "PUWMa (Pfizer-funded UCLA, Washington University, MGH trios)",
+    "role": "case-control",
+    "quote_id": "claims/demontis2023adhd_supp_table1.yaml#puwma"
+   },
+   {
+    "id": "ADHD_TORONTO",
+    "as_written": "Toronto, Canada (trios)",
+    "role": "case-control",
+    "quote_id": "claims/demontis2023adhd_supp_table1.yaml#toronto"
+   },
+   {
+    "id": "YALE_PENN",
+    "as_written": "Yale-Penn (182 ADHD cases, 1,315 unrelated controls)",
+    "role": "case-control",
+    "quote_id": "claims/demontis2023adhd_supp_table1.yaml#yalepenn"
+   }
+  ],
+  "replication_only": [],
+  "components_complete": "no",
+  "complete_reason": "Supplementary Table 1 (Cohorts included in the GWAS meta-analysis) lists iPSYCH1, iPSYCH2, deCODE and the 10 PGC cohorts; it refers to Demontis & Walters 2019 for PGC cohort descriptions, whose Supplementary Information names the control sources (same 10 cohorts, same case/control counts; Beijing absent). Missing: IMAGE-II controls (1,755) are described only as drawn from the Myocardial Infarction Genetics Consortium early-onset MI GWAS at sites 'including' Seattle, Boston, Gerona, Malmo and the United Kingdom; the participating cohorts behind those sites are not named, so the control source is consortium-level (MIGEN_CONTROLS). Every other sample and its control source is identified.",
+  "includes_ukb": "unknown",
+  "includes_iceland": "yes",
+  "pqtl_cohort_flags": {
+   "INTERVAL": "unknown",
+   "FENLAND": "unknown",
+   "ARIC": "unknown",
+   "AGES": "unknown",
+   "KORA": "yes",
+   "FHS": "unknown",
+   "IMPROVE": "unknown",
+   "DECODE": "yes",
+   "UKB": "unknown"
+  },
+  "ancestry": "European",
+  "sample_size": "38,691 cases; 186,843 controls",
+  "source_read": "PMC10914347 main text (pmc-oa-opendata PMC10914347.1.txt: Results, Methods, Data availability); Supplementary Tables https://static-content.springer.com/esm/art%3A10.1038%2Fs41588-022-01285-8/MediaObjects/41588_2022_1285_MOESM6_ESM.xlsx (sheet 1.Cohorts included); Supplementary Information MOESM1 (deCODE and iPSYCH genotyping sections); control-source descriptions from the 2019 Supplementary Information (claims/demontis2019adhd_supp_info.yaml)",
+  "claims_files": [
+   "claims/demontis2023adhd_main.yaml",
+   "claims/demontis2023adhd_supp_table1.yaml",
+   "claims/demontis2019adhd_supp_info.yaml"
+  ],
+  "notes": "Control-source quote_ids (B58C, UKBS, HNR, POPGEN, KORA, MIGEN_CONTROLS) point to the 2019 Supplementary Information, which the 2023 Supplementary Table 1 caption cites for PGC cohort descriptions (claims/demontis2023adhd_supp_table1.yaml#caption-pgc-ref). PUWMa here has 563 cases = PUWMa (strict) of 2019. UK Biobank appears only in LDhub genetic correlations (claims/demontis2023adhd_main.yaml#ukb-only-rg). UKB and non-KORA/non-DECODE flags are 'unknown' only because of the unnamed IMAGE-II MI-GWAS controls. No public file excluding deCODE is stated in the paper."
+ },
+ {
+  "row_name": "iPSYCH-PGC ASD (Grove 2019)",
+  "new_row": false,
+  "side": "outcome",
+  "aliases_proposed": "",
+  "release": "iPSYCH-PGC ASD meta-analysis (18,381 cases, 27,969 controls); summary statistics on the iPSYCH and PGC download sites",
+  "source_citation": "Grove J et al. 2019. Identification of common genetic risk variants for autism spectrum disorder. Nat Genet 51:431-444",
+  "source_identifier": "doi:10.1038/s41588-019-0344-8; PMID:30804558; PMC6454898",
+  "components": [
+   {
+    "id": "IPSYCH",
+    "as_written": "iPSYCH ASD sample (Danish nation-wide population-based case-cohort; controls randomly selected from the same birth cohorts)",
+    "role": "case-control",
+    "quote_id": "claims/grove2019asd_main.yaml#ipsych"
+   },
+   {
+    "id": "ACE_AUTISM",
+    "as_written": "The Geschwind Autism Center of Excellence (ACE; N = 391)",
+    "role": "case-control",
+    "quote_id": "claims/grove2019asd_main.yaml#ace"
+   },
+   {
+    "id": "AGP",
+    "as_written": "the Autism Genome Project (AGP; N = 2,272)",
+    "role": "case-control",
+    "quote_id": "claims/grove2019asd_main.yaml#agp"
+   },
+   {
+    "id": "AGRE",
+    "as_written": "the Autism Genetic Resource Exchange (AGRE; N = 974)",
+    "role": "case-control",
+    "quote_id": "claims/grove2019asd_main.yaml#agre"
+   },
+   {
+    "id": "MONBOS",
+    "as_written": "the NIMH Repository, the Montreal/Boston Collection (MONBOS; N = 1,396",
+    "role": "case-control",
+    "quote_id": "claims/grove2019asd_main.yaml#monbos"
+   },
+   {
+    "id": "SSC",
+    "as_written": "the Simons Simplex Collection (SSC; N = 2,231)",
+    "role": "case-control",
+    "quote_id": "claims/grove2019asd_main.yaml#ssc"
+   }
+  ],
+  "replication_only": [
+   "BUPGEN (Norway: 164 cases, 656 controls)",
+   "PAGES (Sweden: 926 cases, 3,841 controls)",
+   "Finnish autism case-control study (159 cases, 526 controls)",
+   "DECODE (Iceland: 574 cases, 136,968 controls)",
+   "DECODE_EASTERN_EUROPE (296 cases, 388 controls)"
+  ],
+  "components_complete": "yes",
+  "complete_reason": "The discovery meta-analysis is the iPSYCH case-cohort sample plus the PGC ASD sample, which the Methods state is exactly five cohorts ('five cohorts provided genotypes to the sample'), each named with its trio count. PGC samples are trios analysed as cases and pseudo-controls, so they bring no external control source; iPSYCH controls are a random sample of the same Danish birth cohorts. No other cohort enters the 18,381/27,969 meta-analysis; deCODE and the other Nordic/Eastern European samples are look-up follow-up only.",
+  "includes_ukb": "no",
+  "includes_iceland": "no",
+  "pqtl_cohort_flags": {
+   "INTERVAL": "no",
+   "FENLAND": "no",
+   "ARIC": "no",
+   "AGES": "no",
+   "KORA": "no",
+   "FHS": "no",
+   "IMPROVE": "no",
+   "DECODE": "no",
+   "UKB": "no"
+  },
+  "ancestry": "European",
+  "sample_size": "18,381 cases; 27,969 controls (46,350)",
+  "source_read": "https://pmc-oa-opendata.s3.amazonaws.com/PMC6454898.1/PMC6454898.1.txt (main text: Results; Methods 'iPSYCH sample', 'Psychiatric Genomic Consortium (PGC) samples', 'Follow-up samples'; 'Availability of summary statistics'); https://static-content.springer.com/esm/art%3A10.1038%2Fs41588-019-0344-8/MediaObjects/41588_2019_344_MOESM1_ESM.pdf (Supplementary Note 1.2 'The PGC ASD sample'; Supplementary Tables 1-2)",
+  "claims_files": [
+   "claims/grove2019asd_main.yaml",
+   "claims/grove2019asd_supp_info.yaml"
+  ],
+  "notes": "Trios (PGC) contribute cases and pseudo-controls from the same families; role recorded as case-control. 'The NIMH Repository' precedes MONBOS in the list without its own N; the stated count of five cohorts (ACE, AGP, AGRE, MONBOS, SSC) reads it as the repository holding MONBOS. UK Biobank and 23andMe enter only the MTAG secondary analyses (paired summary statistics for MDD incl. 23andMe, schizophrenia, educational attainment), not the ASD GWAS release. The main GWAS release has no Iceland: deCODE Iceland is follow-up only (Supplementary Table 2)."
+ },
+ {
+  "row_name": "PGC-PTSD freeze 2 (Nievergelt 2019)",
+  "new_row": false,
+  "side": "outcome",
+  "aliases_proposed": "",
+  "release": "PGC-PTSD Freeze 2 (PGC2) meta-analyses = PGC1.5 (59 studies combined into 56 sample rows) + UK Biobank; full meta-analysis summary statistics on the PGC download site (trans-ancestry and per-ancestry files: EUA, AFA, AMA)",
+  "source_citation": "Nievergelt CM et al. 2019. International meta-analysis of PTSD genome-wide association studies identifies sex- and ancestry-specific genetic risk loci. Nat Commun 10:4558",
+  "source_identifier": "doi:10.1038/s41467-019-12576-w; PMID:31594949; PMC6783435",
+  "components": [
+   {
+    "id": "ARMY_STARRS",
+    "as_written": "Army Study to Assess Risk and Resilience in Servicemembers (NSS1, NSS2, PPDS; Supplementary Data 1 #14-16)",
+    "role": "cohort",
+    "quote_id": "claims/nievergelt2019ptsd_supp_info.yaml#army_starrs-desc"
+   },
+   {
+    "id": "ASH_WEDNESDAY_IVS",
+    "as_written": "Ash Wednesday (BRYA; Supplementary Data 1 #10)",
+    "role": "case-control",
+    "quote_id": "claims/nievergelt2019ptsd_supp_info.yaml#ash_wednesday_ivs-desc1"
+   },
+   {
+    "id": "BETR",
+    "as_written": "Biological Effects of Traumatic Experiences, Treatment and Recovery (BETR; Supplementary Data 1 #48)",
+    "role": "case-control",
+    "quote_id": "claims/nievergelt2019ptsd_supp_info.yaml#betr-desc"
+   },
+   {
+    "id": "BOUNCE_BACK_NOW",
+    "as_written": "Bounce Back Now (BOBA; Supplementary Data 1 #18)",
+    "role": "case-control",
+    "quote_id": "claims/nievergelt2019ptsd_supp_info.yaml#bounce_back_now-desc"
+   },
+   {
+    "id": "QIMR_CHILDHOOD_TRAUMA",
+    "as_written": "Childhood Trauma Study (QIMR; Supplementary Data 1 #30)",
+    "role": "cohort",
+    "quote_id": "claims/nievergelt2019ptsd_supp_info.yaml#qimr_childhood_trauma-desc"
+   },
+   {
+    "id": "KMCT",
+    "as_written": "Child Trauma and Neural Systems Underlying Emotion Regulation (KMCT; Supplementary Data 1 #19)",
+    "role": "case-control",
+    "quote_id": "claims/nievergelt2019ptsd_supp_info.yaml#kmct-desc"
+   },
+   {
+    "id": "FEEN_CHOICE_OPT",
+    "as_written": "CHOICE (FEEN; Supplementary Data 1 #37)",
+    "role": "case-control",
+    "quote_id": "claims/nievergelt2019ptsd_supp_info.yaml#feen_choice_opt-desc1"
+   },
+   {
+    "id": "COHEN_VETERANS_CENTER",
+    "as_written": "Cohen Veterans Center Study (COM1; Supplementary Data 1 #50)",
+    "role": "case-control",
+    "quote_id": "claims/nievergelt2019ptsd_supp_info.yaml#cohen_veterans_center-desc"
+   },
+   {
+    "id": "WANG_CORTICAL_EXCITABILITY",
+    "as_written": "Cortical Excitability: Biomarker and Endophenotype in Combat Related PTSD (WANG; Supplementary Data 1 #59)",
+    "role": "case-control",
+    "quote_id": "claims/nievergelt2019ptsd_supp_info.yaml#wang_cortical_excitability-desc"
+   },
+   {
+    "id": "DANISH_MILITARY",
+    "as_written": "Danish military study (DAMI; Supplementary Data 1 #28)",
+    "role": "cohort",
+    "quote_id": "claims/nievergelt2019ptsd_supp_info.yaml#danish_military-desc"
+   },
+   {
+    "id": "IPSYCH",
+    "as_written": "Danish iPSYCH PTSD samples (DAIP; Supplementary Data 1 #29)",
+    "role": "case-control",
+    "quote_id": "claims/nievergelt2019ptsd_supp_info.yaml#ipsych-desc"
+   },
+   {
+    "id": "DCS_ROTHBAUM",
+    "as_written": "DCS Rothbaum Study (DCSR; Supplementary Data 1 #38)",
+    "role": "case-control",
+    "quote_id": "claims/nievergelt2019ptsd_supp_info.yaml#dcs_rothbaum-desc"
+   },
+   {
+    "id": "DEFE",
+    "as_written": "Defining Essential Features of Neural Damage (DEFE; Supplementary Data 1 #12)",
+    "role": "case-control",
+    "quote_id": "claims/nievergelt2019ptsd_supp_info.yaml#defe-desc"
+   },
+   {
+    "id": "DNHS",
+    "as_written": "Detroit Neighborhood Health Study (DNHS, ADNH; Supplementary Data 1 #4 and #45)",
+    "role": "cohort",
+    "quote_id": "claims/nievergelt2019ptsd_supp_info.yaml#dnhs-desc"
+   },
+   {
+    "id": "DRAKENSTEIN",
+    "as_written": "Drakenstein Child Health Study - South African sample (SAFR; Supplementary Data 1 #3)",
+    "role": "cohort",
+    "quote_id": "claims/nievergelt2019ptsd_supp_info.yaml#drakenstein-desc"
+   },
+   {
+    "id": "EA_CRASH",
+    "as_written": "EA CRASH (EACR; Supplementary Data 1 #42)",
+    "role": "cohort",
+    "quote_id": "claims/nievergelt2019ptsd_supp_info.yaml#ea_crash-desc"
+   },
+   {
+    "id": "FSCD",
+    "as_written": "Family Study of Cocaine Dependence and Collaborative Genetic Study of Nicotine Dependence (FSCD, COGA, COGB; Supplementary Data 1 #7-9)",
+    "role": "case-control",
+    "quote_id": "claims/nievergelt2019ptsd_supp_info.yaml#fscd-desc"
+   },
+   {
+    "id": "COGEND",
+    "as_written": "Family Study of Cocaine Dependence and Collaborative Genetic Study of Nicotine Dependence (FSCD, COGA, COGB; Supplementary Data 1 #7-9)",
+    "role": "case-control",
+    "quote_id": "claims/nievergelt2019ptsd_supp_info.yaml#cogend-desc"
+   },
+   {
+    "id": "FORT_CAMPBELL",
+    "as_written": "Fort Campbell study (FTCB; Supplementary Data 1 #52)",
+    "role": "cohort",
+    "quote_id": "claims/nievergelt2019ptsd_supp_info.yaml#fort_campbell-desc"
+   },
+   {
+    "id": "STRONG_STAR",
+    "as_written": "Genetic and Environmental Predictors of Combat-Related PTSD (STRO; Supplementary Data 1 #35)",
+    "role": "cohort",
+    "quote_id": "claims/nievergelt2019ptsd_supp_info.yaml#strong_star-desc"
+   },
+   {
+    "id": "YEHUDA_GENETIC_RISK_PTSD",
+    "as_written": "Genetic Risk for PTSD (YEHU; Supplementary Data 1 #56)",
+    "role": "case-control",
+    "quote_id": "claims/nievergelt2019ptsd_supp_info.yaml#yehuda_genetic_risk_ptsd-desc"
+   },
+   {
+    "id": "KSUD",
+    "as_written": "Genetics of Posttraumatic Stress Disorder/Substance Use Disorder Comorbidity (KSUD; Supplementary Data 1 #17)",
+    "role": "case-control",
+    "quote_id": "claims/nievergelt2019ptsd_supp_info.yaml#ksud-desc"
+   },
+   {
+    "id": "GMRF_QUT",
+    "as_written": "GMRF-QUT (GMFR; Supplementary Data 1 #55)",
+    "role": "case-control",
+    "quote_id": "claims/nievergelt2019ptsd_supp_info.yaml#gmrf_qut-desc"
+   },
+   {
+    "id": "GRAC",
+    "as_written": "Genetics Research and the Childbearing Year (GRAC; Supplementary Data 1 #54)",
+    "role": "case-control",
+    "quote_id": "claims/nievergelt2019ptsd_supp_info.yaml#grac-desc"
+   },
+   {
+    "id": "GRADY_TRAUMA_PROJECT",
+    "as_written": "Grady Trauma Project (EGHS, GTPC; Supplementary Data 1 #44 and #47)",
+    "role": "cohort",
+    "quote_id": "claims/nievergelt2019ptsd_supp_info.yaml#grady_trauma_project-desc"
+   },
+   {
+    "id": "GUTS",
+    "as_written": "Growing Up Today Study (GUTS; Supplementary Data 1 #21)",
+    "role": "cohort",
+    "quote_id": "claims/nievergelt2019ptsd_supp_info.yaml#guts-desc"
+   },
+   {
+    "id": "INTRUST",
+    "as_written": "Injury and Traumatic Stress Consortium (INTR; Supplementary Data 1 #27)",
+    "role": "case-control",
+    "quote_id": "claims/nievergelt2019ptsd_supp_info.yaml#intrust-desc"
+   },
+   {
+    "id": "MARINE_RESILIENCY_STUDY",
+    "as_written": "Marine Resiliency Study (MRSC, BAKE; Supplementary Data 1 #1 and #57)",
+    "role": "cohort",
+    "quote_id": "claims/nievergelt2019ptsd_supp_info.yaml#marine_resiliency_study-desc"
+   },
+   {
+    "id": "MCLEAN_TRAUMA",
+    "as_written": "McLean Trauma Sample (TEIC; Supplementary Data 1 #39)",
+    "role": "case-control",
+    "quote_id": "claims/nievergelt2019ptsd_supp_info.yaml#mclean_trauma-desc"
+   },
+   {
+    "id": "MIRECC_POST_DEPLOYMENT",
+    "as_written": "Post-Deployment Mental Health Study (MIRE; Supplementary Data 1 #26)",
+    "role": "case-control",
+    "quote_id": "claims/nievergelt2019ptsd_supp_info.yaml#mirecc_post_deployment-desc"
+   },
+   {
+    "id": "NCMH",
+    "as_written": "National Centre for Mental Health (NCMH; Supplementary Data 1 #41)",
+    "role": "case-control",
+    "quote_id": "claims/nievergelt2019ptsd_supp_info.yaml#ncmh-desc"
+   },
+   {
+    "id": "NHRVS",
+    "as_written": "National Health and Resilience in Veterans Study (NHRV; Supplementary Data 1 #13)",
+    "role": "cohort",
+    "quote_id": "claims/nievergelt2019ptsd_supp_info.yaml#nhrvs-desc"
+   },
+   {
+    "id": "NIU_TRAUMA",
+    "as_written": "NIU Trauma Study (NIUT; Supplementary Data 1 #40)",
+    "role": "case-control",
+    "quote_id": "claims/nievergelt2019ptsd_supp_info.yaml#niu_trauma-desc"
+   },
+   {
+    "id": "NHS2",
+    "as_written": "Nurses Health Study II (NHS2; Supplementary Data 1 #5)",
+    "role": "cohort",
+    "quote_id": "claims/nievergelt2019ptsd_supp_info.yaml#nhs2-desc1"
+   },
+   {
+    "id": "OHIO_NATIONAL_GUARD",
+    "as_written": "Ohio National Guard (ONGA; Supplementary Data 1 #2)",
+    "role": "cohort",
+    "quote_id": "claims/nievergelt2019ptsd_supp_info.yaml#ohio_national_guard-desc"
+   },
+   {
+    "id": "PORTUGAL_PTSD",
+    "as_written": "Portugal (PORT; Supplementary Data 1 #20)",
+    "role": "case-control",
+    "quote_id": "claims/nievergelt2019ptsd_supp_info.yaml#portugal_ptsd-desc"
+   },
+   {
+    "id": "PRISMO",
+    "as_written": "PRISMO (PRIS; Supplementary Data 1 #25)",
+    "role": "cohort",
+    "quote_id": "claims/nievergelt2019ptsd_supp_info.yaml#prismo-desc"
+   },
+   {
+    "id": "PREGNANCY_OUTCOMES_MIS",
+    "as_written": "Pregnancy Outcomes, Maternal and Infant Study Cohort (PROM; Supplementary Data 1 #23)",
+    "role": "cohort",
+    "quote_id": "claims/nievergelt2019ptsd_supp_info.yaml#pregnancy_outcomes_mis-desc"
+   },
+   {
+    "id": "RING",
+    "as_written": "Readiness and Resilience in National Guard Soldiers (RING; Supplementary Data 1 #33)",
+    "role": "cohort",
+    "quote_id": "claims/nievergelt2019ptsd_supp_info.yaml#ring-desc"
+   },
+   {
+    "id": "VRIS",
+    "as_written": "Risbrough/Norman randomized controlled psychotherapy trial (VRIS; Supplementary Data 1 #58)",
+    "role": "case-control",
+    "quote_id": "claims/nievergelt2019ptsd_supp_info.yaml#vris-desc"
+   },
+   {
+    "id": "SHARED_ROOTS",
+    "as_written": "Shared Roots (SHRS; Supplementary Data 1 #46)",
+    "role": "case-control",
+    "quote_id": "claims/nievergelt2019ptsd_supp_info.yaml#shared_roots-desc"
+   },
+   {
+    "id": "SEEP",
+    "as_written": "Southeastern Europe PTSD (SEEP; Supplementary Data 1 #49)",
+    "role": "case-control",
+    "quote_id": "claims/nievergelt2019ptsd_supp_info.yaml#seep-desc"
+   },
+   {
+    "id": "SATURN",
+    "as_written": "Study of Aftereffects of Trauma: Understanding Response in National Guard (SATU; Supplementary Data 1 #11)",
+    "role": "cohort",
+    "quote_id": "claims/nievergelt2019ptsd_supp_info.yaml#saturn-desc"
+   },
+   {
+    "id": "SYDNEY_NEUROIMAGING",
+    "as_written": "Sydney Neuroimaging (BRY2; Supplementary Data 1 #36)",
+    "role": "case-control",
+    "quote_id": "claims/nievergelt2019ptsd_supp_info.yaml#sydney_neuroimaging-desc"
+   },
+   {
+    "id": "VA_BOSTON_NCPTSD",
+    "as_written": "VA Boston-National Center for PTSD Study (NCPT, TRAC; Supplementary Data 1 #31, Supplementary Data 1 #32)",
+    "role": "case-control",
+    "quote_id": "claims/nievergelt2019ptsd_supp_info.yaml#va_boston_ncptsd-desc"
+   },
+   {
+    "id": "UKB",
+    "as_written": "UK Biobank Cohort Description for PGC-PTSD (UKBB; Supplementary Data 1 #60)",
+    "role": "cohort",
+    "quote_id": "claims/nievergelt2019ptsd_supp_info.yaml#ukb-desc"
+   },
+   {
+    "id": "VETSA",
+    "as_written": "Vietnam Era Twin Study of Aging (VETS; Supplementary Data 1 #24)",
+    "role": "cohort",
+    "quote_id": "claims/nievergelt2019ptsd_supp_info.yaml#vetsa-desc"
+   },
+   {
+    "id": "WACH",
+    "as_written": "The Women and Children’s Health Study (WACH; Supplementary Data 1 #43)",
+    "role": "cohort",
+    "quote_id": "claims/nievergelt2019ptsd_supp_info.yaml#wach-desc"
+   },
+   {
+    "id": "YALE_PENN",
+    "as_written": "Yale-Penn Study (GSDC; Supplementary Data 1 #6)",
+    "role": "case-control",
+    "quote_id": "claims/nievergelt2019ptsd_supp_info.yaml#yale_penn-desc"
+   }
+  ],
+  "replication_only": [
+   "MVP (Million Veteran Program; re-experiencing symptoms, 146,660 EUA, 19,983 AFA)"
+  ],
+  "components_complete": "yes",
+  "complete_reason": "Supplementary Data 1 'Demographics of PGC-PTSD Freeze 2 cohorts' lists 57 study rows (#1-60, numbers 34, 51 and 53 unused), which matches Supplementary Note 1: '9 studies already reported in Freeze 1, 50 (combined into 47) new studies ... and the large European ancestry UK Biobank study'. Every row was read and each is matched to its Supplementary Methods 'Participating studies' entry (official name + abbreviation + Supplementary Data 1 number). Study rows sharing one participant source collapse to it (NSS1/NSS2/PPDS -> ARMY_STARRS; DNHS/ADNH -> DNHS; EGHS/GTPC -> GRADY_TRAUMA_PROJECT; MRSC/BAKE -> MARINE_RESILIENCY_STUDY; NHS2/NHSY -> NHS2; NCPT/TRAC -> VA_BOSTON_NCPTSD; COGA/COGB -> COGEND), giving 49 components. Controls in every study are drawn from the study itself (trauma-exposed or unaffected participants); no external control cohort is named.",
+  "includes_ukb": "yes",
+  "includes_iceland": "no",
+  "pqtl_cohort_flags": {
+   "INTERVAL": "no",
+   "FENLAND": "no",
+   "ARIC": "no",
+   "AGES": "no",
+   "KORA": "no",
+   "FHS": "no",
+   "IMPROVE": "no",
+   "DECODE": "no",
+   "UKB": "yes"
+  },
+  "ancestry": "Multi-ethnic: European (EUA), African (AFA), Latino/Native American (AMA)",
+  "sample_size": "206,655 participants (32,428 cases; 174,227 controls); after ancestry QC 29,556 cases, 166,145 controls; EUA incl. UKB 23,212 cases, 151,447 controls",
+  "source_read": "https://pmc-oa-opendata.s3.amazonaws.com/PMC6783435.1/PMC6783435.1.txt (main text: Results, Discussion, Methods, Data availability); .../41467_2019_12576_MOESM2_ESM.xlsx (Supplementary Data 1, all rows); .../41467_2019_12576_MOESM1_ESM.pdf (Supplementary Methods 'Participating studies' headings for every study, UK Biobank cohort description, Supplementary Note 1)",
+  "claims_files": [
+   "claims/nievergelt2019ptsd_supp_data1.yaml",
+   "claims/nievergelt2019ptsd_supp_info.yaml",
+   "claims/nievergelt2019ptsd_main.yaml"
+  ],
+  "notes": "Each component quote_id points to its Supplementary Methods heading; the matching Supplementary Data 1 row is pinned in claims/nievergelt2019ptsd_supp_data1.yaml as <id>-sd1-<study number>. IPSYCH enters via DAIP (Danish iPSYCH PTSD samples, #29). NHS2 and GUTS are Nurses' Health Study II and its offspring cohort (Growing Up Today Study), kept as separate components. No Icelandic or pQTL cohort (INTERVAL, FENLAND, ARIC, AGES, KORA, FHS, IMPROVE, deCODE) appears among the 57 rows. A PGC1.5 version without UK Biobank is analysed in the paper (heritability, PRS target) but the data availability statement names only 'the full meta-analyses summary statistics'; no separate release row proposed. The Discussion says '60 multi-ethnic cohorts (PGC1.5)'; Supplementary Data 1 numbers studies 1-60 with UKBB as #60 and numbers 34, 51 and 53 unused. The row-level count of Supplementary Note 1 (9 Freeze 1 + 47 new + UKBB = 57 rows) matches the table and is used here."
+ }
+]

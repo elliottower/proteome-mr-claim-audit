@@ -1,0 +1,258 @@
+source:
+  citation: deloukas2013cad_supp
+  local: sources/deloukas2013cad_supp.txt
+  sha256: b38137b11e006534a8ceb9a9f614646cb88d3233bb2ce260aa2bfcf4d315ac1b
+  doi: 10.1038/ng.2480
+  note: Deloukas et al. 2013 Nat Genet 45:25 (CARDIoGRAMplusC4D Metabochip) Supplementary Information
+    PDF 41588_2013_BFng2480_MOESM9_ESM.pdf from static-content.springer.com, converted with pdftotext
+    -layout; Supplementary Tables 1a/1b/2a/2b and study descriptions.
+claims:
+  stage1-cardiogram:
+    quotes:
+    - exact: Descriptions of all studies in stage 1 (CARDIoGRAM discovery) are given in ref 11.
+      section: Study characteristics
+  caption-1a:
+    quotes:
+    - exact: 'Supplementary Table 1a: Description of studies in Stage2'
+      section: Supplementary Table 1a caption
+  caption-1b:
+    quotes:
+    - exact: 'Supplementary Table 1b: Description of studies in Stage3'
+      section: Supplementary Table 1b caption
+  snps-stage12:
+    quotes:
+    - exact: Blue arrows mark the path of analysing the 79,138 SNPs with data in both Stage 1 and 2 studies
+      section: Supplementary Figure 1 legend
+  row-advance:
+    quotes:
+    - exact: ADVANCE CAD/Mi 1568
+      section: Supplementary Table 1a
+  row-amc-pas:
+    quotes:
+    - exact: AMC-PAS CAD/MI 1608
+      section: Supplementary Table 1a
+  row-angio-lueb-kora:
+    quotes:
+    - exact: Angio-Lueb CAD 2658
+      section: Supplementary Table 1a
+  row-cardiogenics:
+    quotes:
+    - exact: Cardiogenics CAD/MI 776
+      section: Supplementary Table 1a
+  row-dilgom:
+    quotes:
+    - exact: DILGOM CAD/MI 3991
+      section: Supplementary Table 1a
+  row-duke:
+    quotes:
+    - exact: DUKE CAD/MI 1848
+      section: Supplementary Table 1a
+  row-egcut-gwas:
+    quotes:
+    - exact: EGCUT CAD/MI 2826
+      section: Supplementary Table 1a
+  row-egcut-metabochip:
+    quotes:
+    - exact: EGCUT CAD/MI 2626
+      section: Supplementary Table 1a
+  row-epic:
+    quotes:
+    - exact: EPIC CAD/MI 3935
+      section: Supplementary Table 1a
+  row-fgentcard:
+    quotes:
+    - exact: FGENTCAR CAD/MI 1988
+      section: Supplementary Table 1a
+  row-friscii-glacier:
+    quotes:
+    - exact: FRISCII- CAD/MI 9247
+      section: Supplementary Table 1a
+  row-glacier:
+    quotes:
+    - exact: GLACIER** Control 5875
+      section: Supplementary Table 1a
+  row-godarts:
+    quotes:
+    - exact: GoDARTS CAD/MI 2765
+      section: Supplementary Table 1a
+  row-hps:
+    quotes:
+    - exact: HPS CAD/MI 5457
+      section: Supplementary Table 1a
+  row-ith:
+    quotes:
+    - exact: ITH CAD/MI 815
+      section: Supplementary Table 1a
+  row-lolipop:
+    quotes:
+    - exact: LOLIPOP CAD/MI 6557
+      section: Supplementary Table 1a
+  row-luric-emil:
+    quotes:
+    - exact: LURIC- CAD/MI 4560
+      section: Supplementary Table 1a
+  row-metsim:
+    quotes:
+    - exact: METSIM CAD/MI 2119
+      section: Supplementary Table 1a
+  row-morgam-fin:
+    quotes:
+    - exact: MORGAM- CAD 2484
+      section: Supplementary Table 1a
+  row-morgam-fra:
+    quotes:
+    - exact: MORGAM- CAD/MI 366
+      section: Supplementary Table 1a
+  row-morgam-ger:
+    quotes:
+    - exact: MORGAM- CAD/MI 430
+      section: Supplementary Table 1a
+  row-morgam-ita:
+    quotes:
+    - exact: MORGAM- CAD/MI 302
+      section: Supplementary Table 1a
+  row-morgam-unk:
+    quotes:
+    - exact: MORGAM- CAD/MI 328
+      section: Supplementary Table 1a
+  row-ohgs:
+    quotes:
+    - exact: OHGS CAD/MI 3419
+      section: Supplementary Table 1a
+  row-pivus:
+    quotes:
+    - exact: PIVUS CAD 978
+      section: Supplementary Table 1a
+  row-pmb:
+    quotes:
+    - exact: PMB CAD/MI 5381
+      section: Supplementary Table 1a
+  row-popgen:
+    quotes:
+    - exact: PopGEN CAD 1836
+      section: Supplementary Table 1a
+  row-procardis:
+    quotes:
+    - exact: PRO- CAD/MI 12237
+      section: Supplementary Table 1a
+  row-promis-gwas:
+    quotes:
+    - exact: PROMIS CAD/MI 7353
+      section: Supplementary Table 1a
+  row-promis-metabochip:
+    quotes:
+    - exact: PROMIS CAD/MI 3625
+      section: Supplementary Table 1a
+  row-scarf-sheep:
+    quotes:
+    - exact: SCARF- CAD/MI 3417
+      section: Supplementary Table 1a
+  row-str:
+    quotes:
+    - exact: STR CAD 1719
+      section: Supplementary Table 1a
+  row-thiseas:
+    quotes:
+    - exact: THISEAS CAD/MI 1506
+      section: Supplementary Table 1a
+  row-ulsam:
+    quotes:
+    - exact: ULSAM CAD 1175
+      section: Supplementary Table 1a
+  row-wtccc-cad2:
+    quotes:
+    - exact: WTCCC CAD/MI 5429
+      section: Supplementary Table 1a
+  stage3-corogene:
+    quotes:
+    - exact: COROGENE CAD 3208
+      section: Supplementary Table 1b (stage 3, replication)
+  stage3-fincavas:
+    quotes:
+    - exact: FINCAVAS CAD/MI 1489
+      section: Supplementary Table 1b (stage 3, replication)
+  stage3-genric:
+    quotes:
+    - exact: GenRIC CAD/MI 4789
+      section: Supplementary Table 1b (stage 3, replication)
+  pmb-name:
+    quotes:
+    - exact: PMB Pfizer-MGH-Broad European Finland,
+      section: Supplementary Table 2a
+  ctrl-amc-pas:
+    quotes:
+    - exact: Controls were blood donors from the north‐west region of the Netherlands; recruited at routine
+        Sanquin Blood Bank donation sessions.
+      section: Study descriptions, AMC-PAS/SANGUIN
+  angio-lueb-kora:
+    quotes:
+    - exact: The KORA survey contains representative samples from the general population living in or
+        near Augsburg, Germany
+      section: Study descriptions, Angio-Lueb/KORA F3
+  ctrl-cardiogenics:
+    quotes:
+    - exact: Controls comprised healthy individuals (aged 32 to 65 years) recruited in the UK(Cambridge)
+        who were blood donors recruited as part of the Cambridge Bioresource
+      section: Study descriptions, Cardiogenics
+  epic-uk:
+    quotes:
+    - exact: The EPIC (European Prospective Study into Cancer and Nutrition) study sub‐cohorts from the
+        UK were used, subjects were collected in collaboration with general practicioners, mainly in Cambridgeshire
+        and Norfolk.
+      section: Study descriptions, EPIC
+  glacier-vip:
+    quotes:
+    - exact: GLACIER is a subset of the Västerbottens Intervention Project, a population‐based cohort
+        from northern Sweden.
+      section: Study descriptions, FRISCII/GLACIER
+  ctrl-hps:
+    quotes:
+    - exact: HPS CAD cases were compared with population controls from the UK Twins Study and the WTCCC2
+        National Blood Service Collections
+      section: Study descriptions, HPS
+  ctrl-luric-emil:
+    quotes:
+    - exact: The EMIL (Echinococcus Multilocularis and Internal Diseases in Leutkirch study) study is
+        a GerBS control series that consists of healthy, unrelated blood donors
+      section: Study descriptions, LURIC/EMIL
+  morgam-regions:
+    quotes:
+    - exact: 'Finland (FIN): Southern Finland, North Karelia, Kuopio Province, Oulu Province, Turku/Loimaa,
+        Helsinki, France (FRA): Lille, Strasbourg, Toulouse, Germany(GER): Augsburg, Italy(ITA): Brianza
+        and the United Kingdom (UNK): Belfast.'
+      section: Study descriptions, MORGAM
+  ctrl-procardis:
+    quotes:
+    - exact: PoBI and UK Twin study are population‐based controls that were not screened for CAD
+      section: Study descriptions, PROCARDIS
+  str:
+    quotes:
+    - exact: The STR (Swedish Twin Registry) registry includes nearly 25,000 pairs of twins of the same
+        sex born in Sweden between 1886 and 1958.
+      section: Study descriptions, STR
+  wtccc-cad2-cases:
+    quotes:
+    - exact: 'WTCCC‐CAD2 cases comprise patients from four studies:'
+      section: Study descriptions, WTCCC-CAD2
+  ctrl-wtccc-cad2:
+    quotes:
+    - exact: Controls comprised subjects from the United Kingdom 1958 Birth Cohort
+      section: Study descriptions, WTCCC-CAD2
+  popgen:
+    quotes:
+    - exact: The PopGen Population‐based northern German cross‐sectional study comprises unrelated CAD
+        patients recruited in Schleswig‐Holstein, through the population‐based PopGen biobank.
+      section: Study descriptions, PopGen
+  st1-footnote-descriptives-some:
+    quotes:
+    - exact: '* Descriptive information only available for some individuals within the cohort'
+      section: Supplementary Table 1 footnotes
+  st1-footnote-descriptives-cases:
+    quotes:
+    - exact: '** Descriptive information only available for the cases within the cohort'
+      section: Supplementary Table 1 footnotes
+  st1-footnote-glacier:
+    quotes:
+    - exact: '***Results for the control cohort GLACIER presented separately, Total and Male/Female data
+        descriptives.'
+      section: Supplementary Table 1 footnotes

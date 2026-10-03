@@ -1,0 +1,23 @@
+source:
+  citation: shi2025triangulator
+  local: sources/original/shi2025triangulator.xml
+  sha256: 841eb94e4fc201b3eed53d3b5032b4938b49f27aa36d3de402983bee6cc72307
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12335490/fullTextXML
+  doi: 10.1038/s41467-025-62783-x
+  extractor: jats-text
+  note: 'Original file behind claims/shi2025triangulator.yaml: the XML pinned in claims/shi2025triangulator_original.yaml,
+    read by the citations extractor jats-text. The quotations here are those of that file that resolve
+    in this reading; a quotation absent here stays pinned where it already was.'
+  extractor_version: 1
+  derived_sha256: fef26ddb176bc274de1ecefc6101ef93b73145120da15cb1573df6190b201ebf
+claims:
+  direction-f1:
+    quotes:
+    - exact: particularly in identifying the direction of effect (F1 = 0.86) and statistical significance
+        (F1 = 0.96)
+      section: Abstract
+  abstracts:
+    quotes:
+    - exact: our LLM pipeline—despite relying solely on results reported in abstracts—closely aligns with
+        established systematic review processes
+      section: Results, Case 1

@@ -1,0 +1,16 @@
+{
+  "run_date": "2026-09-30",
+  "note": "counts only; candidate Q1 additions for recall failure 36864689; not applied",
+  "options": {
+    "A_proximity": {
+      "addition": "(\"plasma proteins\"[tiab:~3] OR \"circulating proteins\"[tiab:~3] OR \"blood proteins\"[tiab:~3] OR \"serum proteins\"[tiab:~3])",
+      "retrieves_36864689_with_MR": 1,
+      "records_added_to_Q1_2019_2025_not_already_in_Q1": 172
+    },
+    "B_and": {
+      "addition": "(plasma[tiab] AND protein*[tiab])",
+      "retrieves_36864689_with_MR": 1,
+      "records_added_to_Q1_2019_2025_not_already_in_Q1": 163
+    }
+  }
+}

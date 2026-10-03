@@ -1,0 +1,59 @@
+surface,target_label,alias_relation,source,rationale
+CAD,coronary artery disorder,normalized_equivalent,clinical_abbreviation,standard clinical abbreviation of the term
+CHD,coronary artery disorder,normalized_equivalent,clinical_abbreviation,coronary heart disease; Mondo has no separate term
+coronary heart disease,coronary artery disorder,normalized_equivalent,clinical_abbreviation,Mondo has no separate term; coronary artery disorder carries the concept
+coronary artery disease,coronary artery disorder,normalized_equivalent,clinical_abbreviation,the EFO term of this label is obsolete and the Mondo label differs
+MI,myocardial infarction,normalized_equivalent,clinical_abbreviation,standard clinical abbreviation of the term
+T2D,type 2 diabetes mellitus,normalized_equivalent,clinical_abbreviation,standard clinical abbreviation of the term
+T2DM,type 2 diabetes mellitus,normalized_equivalent,clinical_abbreviation,standard clinical abbreviation of the term
+type 2 diabetes,type 2 diabetes mellitus,normalized_equivalent,clinical_abbreviation,the term's label without `mellitus`
+T1D,type 1 diabetes mellitus,normalized_equivalent,clinical_abbreviation,standard clinical abbreviation of the term
+type 1 diabetes,type 1 diabetes mellitus,normalized_equivalent,clinical_abbreviation,the term's label without `mellitus`
+AD,Alzheimer disease,normalized_equivalent,clinical_abbreviation,standard clinical abbreviation of the term
+IBD,inflammatory bowel disease,normalized_equivalent,clinical_abbreviation,standard clinical abbreviation of the term
+UC,ulcerative colitis,normalized_equivalent,clinical_abbreviation,standard clinical abbreviation of the term
+RA,rheumatoid arthritis,normalized_equivalent,clinical_abbreviation,standard clinical abbreviation of the term
+SLE,systemic lupus erythematosus,normalized_equivalent,clinical_abbreviation,standard clinical abbreviation of the term
+COPD,chronic obstructive pulmonary disease,normalized_equivalent,clinical_abbreviation,standard clinical abbreviation of the term
+CKD,chronic kidney disease,normalized_equivalent,clinical_abbreviation,standard clinical abbreviation of the term
+AF,atrial fibrillation,normalized_equivalent,clinical_abbreviation,standard clinical abbreviation of the term
+HF,heart failure,normalized_equivalent,clinical_abbreviation,standard clinical abbreviation of the term
+MS,multiple sclerosis,normalized_equivalent,clinical_abbreviation,standard clinical abbreviation of the term
+PD,Parkinson disease,normalized_equivalent,clinical_abbreviation,standard clinical abbreviation of the term
+ALS,amyotrophic lateral sclerosis,normalized_equivalent,clinical_abbreviation,standard clinical abbreviation of the term
+AAA,abdominal aortic aneurysm,normalized_equivalent,clinical_abbreviation,standard clinical abbreviation of the term
+VTE,venous thromboembolism,normalized_equivalent,clinical_abbreviation,standard clinical abbreviation of the term
+NAFLD,obsolete_non-alcoholic fatty liver disease,normalized_equivalent,clinical_abbreviation,"abbreviation; the label is that of an obsolete term, resolved through its replacement"
+OA,osteoarthritis,normalized_equivalent,clinical_abbreviation,standard clinical abbreviation of the term
+BMI,body mass index,normalized_equivalent,clinical_abbreviation,standard clinical abbreviation of the term
+SBP,systolic blood pressure,normalized_equivalent,clinical_abbreviation,standard clinical abbreviation of the term
+DBP,diastolic blood pressure,normalized_equivalent,clinical_abbreviation,standard clinical abbreviation of the term
+eGFR,glomerular filtration rate,derived_measurement,clinical_abbreviation,the estimate of the glomerular filtration rate; the EFO term is obsolete and replaced by the OBA term
+estimated glomerular filtration rate,glomerular filtration rate,derived_measurement,clinical_abbreviation,the estimate of the glomerular filtration rate
+CRP,C-reactive protein measurement,normalized_equivalent,clinical_abbreviation,"abbreviation; as an outcome, the measured level of the protein"
+C-reactive protein,C-reactive protein measurement,normalized_equivalent,clinical_abbreviation,"as an outcome, the measured level of the protein"
+IL-6,amount of interleukin-6 (human) in blood,normalized_equivalent,clinical_abbreviation,an outcome that is itself a protein: its measured level
+interleukin 6,amount of interleukin-6 (human) in blood,normalized_equivalent,dev_set_miss,an outcome that is itself a protein: its measured level
+interleukin-6,amount of interleukin-6 (human) in blood,normalized_equivalent,dev_set_miss,an outcome that is itself a protein: its measured level
+log interleukin-6,amount of interleukin-6 (human) in blood,normalized_equivalent,dev_set_miss,PMID 22421340; the log transform does not change the trait
+fibrinogen,circulating fibrinogen levels,normalized_equivalent,dev_set_miss,PMID 22421340; the EFO fibrinogen measurement term is obsolete
+stem cell factor,amount of kit ligand (human) in blood,normalized_equivalent,dev_set_miss,PMID 28369058; stem cell factor is kit ligand
+apolipoprotein E,level of apolipoprotein E in blood serum,normalized_equivalent,dev_set_miss,"PMID 29258991; as an outcome, the measured level of the protein"
+apolipoprotein E protein,level of apolipoprotein E in blood serum,normalized_equivalent,dev_set_miss,"PMID 29258991; as an outcome, the measured level of the protein"
+fasting glucose,blood glucose amount,broader_proxy,dev_set_miss,"PMID 25350643; the EFO fasting blood glucose measurement term is obsolete, and the live term does not carry the fasting state"
+fasting insulin,blood insulin amount,broader_proxy,dev_set_miss,"PMID 25350643; the EFO fasting blood insulin measurement term is obsolete, and the live term does not carry the fasting state"
+bone mineral density,bone tissue density,normalized_equivalent,dev_set_miss,PMID 25350643; the EFO bone density term is obsolete
+25OHD,vitamin D level,normalized_equivalent,dev_set_miss,"PMID 25350643; 25-hydroxyvitamin D, the measured form of vitamin D"
+serum albumin,serum albumin amount,normalized_equivalent,dev_set_miss,PMID 27327646; the term's label without `amount`
+serum protein,total blood protein measurement,normalized_equivalent,dev_set_miss,PMID 27327646; total protein in blood
+estimated glomerular filtration rate from serum creatinine,glomerular filtration rate,derived_measurement,dev_set_miss,PMID 27327646; the creatinine-based estimate of the glomerular filtration rate
+knee osteoarthritis,"osteoarthritis, knee",exact_equivalent,dev_set_miss,PMID 27327646; the term's label in another word order
+lung function,forced expiratory volume,broader_proxy,dev_set_miss,"PMID 29191953; related, not exact: the term is one measure of lung function"
+intestinal type gastric cancer,gastric intestinal type adenocarcinoma,normalized_equivalent,dev_set_miss,PMID 26886630; common name of the histological type
+hospitalization or death with depression,depressive disorder,broader_proxy,dev_set_miss,PMID 24246360; the term drops the event definition
+depression,depressive disorder,normalized_equivalent,dev_set_miss,PMID 24246360; common name of depressive disorder
+prescription antidepressant medication use,Antidepressant use measurement,normalized_equivalent,dev_set_miss,PMID 24246360; data-field wording of antidepressant use
+antidepressant medication use,Antidepressant use measurement,normalized_equivalent,dev_set_miss,data-field wording of antidepressant use
+CAD/MI,coronary artery disorder,broader_proxy,dev_set_miss,PMID 27882376; a composite mapped to the broader term
+Gleason grade,Gleason score measurement,normalized_equivalent,dev_set_miss,PMID 27225428; the Gleason score
+high (vs. low) Gleason grade,Gleason score measurement,derived_measurement,dev_set_miss,PMID 27225428; a dichotomy of the Gleason score

@@ -1,0 +1,23 @@
+source:
+  citation: folkersen2020scallop_supp_table1
+  local: sources/original/folkersen2020scallop_supp_table1.xlsx
+  sha256: 928e2526e972469f52cfea931e1bcec1be9d699f3305db4a197aad0ffeb64d4d
+  url: https://static-content.springer.com/esm/art%3A10.1038%2Fs42255-020-00287-2/MediaObjects/42255_2020_287_MOESM3_ESM.xlsx
+  doi: 10.1038/s42255-020-00287-2
+  extractor: sheet-rows
+  note: 'Original file behind claims/folkersen2020scallop_supp_table1.yaml: 42255_2020_287_MOESM3_ESM.xlsx
+    from static-content.springer.com, read by the citations extractor sheet-rows. The quotations here
+    are those of that file that resolve in this reading; a quotation absent here stays pinned where it
+    already was.'
+  extractor_version: 1
+  derived_sha256: 055472cb763685fbc7819cdbf58adf7443d37761288ff91d2c43aa007a7fbb34
+claims:
+  title:
+    quotes:
+    - exact: Information about all measured proteins
+      section: Supplementary Table 1
+  header:
+    quotes:
+    - exact: UniProt ID | Gene | Olink_assay | Short_annotation | Long name | CVDI | CVDII | CVDIII |
+        INFI | IMPROVE | STANLEY | EpiHealth
+      section: Supplementary Table 1

@@ -1,0 +1,33 @@
+source:
+  citation: wuttke2019ckdgen_main
+  local: sources/wuttke2019ckdgen_main.txt
+  sha256: e3cfc75c8958d774d921871ff23c75a29259e6c0f06558a66ae97e12058c2d5a
+  doi: 10.1038/s41588-019-0407-x
+  note: Full text of Wuttke et al. 2019 Nat Genet (PMC6698888, author manuscript) from NCBI E-utilities
+    efetch db=pmc XML, text of p/title/td/th/caption/label elements, one element per line
+claims:
+  121-gwas:
+    quotes:
+    - exact: We performed 121 GWAS encompassing 765,348 individuals of European (n = 567,460), East Asian
+        (n = 165,726), African-American (n = 13,842), South Asian (n = 13,359) and Hispanic (n = 4,961)
+        ancestry
+      section: Results
+  121-files:
+    quotes:
+    - exact: Studies contributed 121 GWAS summary statistics files for eGFR (total post-quality-control
+        n = 765,348)
+      section: Methods
+  mvp-replication:
+    quotes:
+    - exact: We assessed replication in an independent trans-ancestry GWAS meta-analysis of eGFR performed
+        among 280,722 MVP participants
+      section: Results
+  ukb-grs-only:
+    quotes:
+    - exact: Genetic association results with diseases were obtained for 452,264 UK Biobank participants
+        available in the GeneAtlas75 database
+      section: Methods
+  data-availability:
+    quotes:
+    - exact: Genome-wide summary statistics for this study have been made publicly available at http://ckdgen.imbi.uni-freiburg.de.
+      section: Data availability

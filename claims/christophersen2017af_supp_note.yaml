@@ -1,0 +1,32 @@
+source:
+  citation: christophersen2017af_supp_note
+  local: sources/christophersen2017af_supp_note.txt
+  sha256: 0cd582a5ff0e8fdf19aaf1271f51b72f93e92224d8dd66942e87300cabd85885
+  doi: 10.1038/ng.3843
+  note: Christophersen et al. 2017 Supplementary Information PDF 41588_2017_BFng3843_MOESM307_ESM.pdf
+    (static-content.springer.com), converted with pdftotext -layout; Supplementary Note study descriptions.
+claims:
+  aflmu-kora:
+    quotes:
+    - exact: the Atrial Fibrillation Biobank LMU (AFLMU) in the context of the Arrhythmia-Biobank-LMU
+        (formerly known as AFNET) and the Cooperative Health Research in the Region of Augsburg (KORA)169
+      section: Supplementary Note, participating studies
+  ctrl-beat-af:
+    quotes:
+    - exact: Referents were enrolled from the ‘genetic and phenotypic determinants of blood pressure and
+        other cardiovascular risk factors’ (GAPP) study
+      section: Supplementary Note, BEAT-AF
+  gs-sfhs:
+    quotes:
+    - exact: 'GS:SFHS: Generation Scotland: Scottish Family Health Study (GS:SFHS) is a family-based genetic
+        epidemiology study'
+      section: Supplementary Note, GS:SFHS
+  ctrl-wtccc2-munich:
+    quotes:
+    - exact: For the German samples controls were Caucasians of German origin participating into the population
+        KORAgen study
+      section: Supplementary Note, WTCCC2-Munich
+  eur-n:
+    quotes:
+    - exact: 15,979 cases, 102,776 referents
+      section: Supplementary Table 6 (European ancestry GWAS)

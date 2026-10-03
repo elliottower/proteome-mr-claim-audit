@@ -1,0 +1,15 @@
+source:
+  citation: yao2018fhs
+  local: sources/original/yao2018fhs.xml
+  sha256: 85bfa624b36d353104fb0e213c16f8d1ed0ccd1f92563a8a7c87f6f2bf3fe05c
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6093935/fullTextXML
+  doi: 10.1038/s41467-018-05512-x
+  note: 'Original file behind claims/yao2018fhs.yaml: Europe PMC fullTextXML of PMC6093935, read as plain
+    text with its markup. The quotations here are the quotations of that file that resolve in this file
+    under the citations readers; a quotation absent here is pinned to the extracted text there only.'
+claims:
+  platform-luminex:
+    quotes:
+    - exact: A total of 85 plasma protein biomarkers were assayed using a modified enzyme-linked immunosorbent
+        assay sandwich method, multiplexed on a Luminex xMAP platform (Luminex, Inc., Austin, TX).
+      section: 'Methods: Protein quantification'

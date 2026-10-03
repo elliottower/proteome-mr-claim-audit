@@ -1,0 +1,59 @@
+source:
+  citation: liu2015ibd_main
+  local: sources/original/liu2015ibd_main.xml
+  sha256: 0301704c6a72db2fbf2d9a74c3bf3adab581f753003d9c4e81eb09021081f051
+  url: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=PMC4881818
+  doi: 10.1038/ng.3359
+  extractor: jats-text
+  note: 'Original file behind claims/liu2015ibd_main.yaml: the XML pinned in claims/liu2015ibd_main_original.yaml,
+    read by the citations extractor jats-text. The quotations here are those of that file that resolve
+    in this reading; a quotation absent here stays pinned where it already was.'
+  extractor_version: 1
+  derived_sha256: d3231b50a86e5851de29fcf41ef53855e62367cc6e5c3834b0a6eeadb828938a
+claims:
+  gwas-n:
+    quotes:
+    - exact: 5,956 Crohn’s disease cases, 6,968 ulcerative colitis cases and 21,770 population controls
+        of European descent were used to perform genome-wide association studies
+      section: 'Results: Study design'
+  gwas-cohorts-jostins:
+    quotes:
+    - exact: The GWAS cohorts and QC are described in detail in Jostins & Ripke et al. (2012). Briefly,
+        seven Crohn’s disease and eight ulcerative colitis collections with genome-wide SNP data were
+        combined.
+      section: 'Online Methods: GWAS cohort'
+  immunochip-15-countries:
+    quotes:
+    - exact: Recruitment of patients and matched controls genotyped with the Immunochip was performed
+        in 15 countries in Europe, North America and Oceania (Table 1).
+      section: 'Online Methods: European ancestry cohorts'
+  non-european-sources:
+    quotes:
+    - exact: Japan (Institute of Medical Science, University of Tokyo, RIKEN Yokohama Institute and Japan
+        Biobank), Korea (Yonsei University College of Medicine and Asan Medical Centre, Seoul), Hong Kong
+        (Chinese University of Hong Kong)
+      section: 'Online Methods: East Asian, Indian and Iranian ancestry cohorts'
+  indian-iranian:
+    quotes:
+    - exact: Indian IBD cases and controls were recruited from Dayanand Medical College and Hospital,
+        Ludhiana and University of Delhi South Campus. Iranian cases and controls were recruited from
+        the Tehran University of Medical Sciences.
+      section: Online Methods
+  table1-gwas:
+    quotes:
+    - exact: European GWAS | 5956 | 14927 | 6968 | 20464 | 12882 | 21770
+      section: Table 1
+  table1-immunochip:
+    quotes:
+    - exact: European Immunochip | 14594 | 26715 | 10679 | 26715 | 25273 | 26715
+      section: Table 1
+  table1-noneur:
+    quotes:
+    - exact: Non-European Immunochip | 2025 | 5051 | 2770 | 5051 | 4795 | 5051
+      section: Table 1
+  overlap-excluded:
+    quotes:
+    - exact: For the trans-ethnic meta-analysis, the 6,392 cases and 7,262 population controls of European
+        ancestry that were present in both the GWAS and replication cohorts were excluded from the Immunochip
+        replication study
+      section: Results

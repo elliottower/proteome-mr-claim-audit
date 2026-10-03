@@ -1,0 +1,58 @@
+source:
+  citation: fernandezrozadilla2023crc_supp_info
+  local: sources/fernandezrozadilla2023crc_supp_info.txt
+  sha256: 58bea2f56bdd6fb19fd4bef40d883336d7f1d2ff451ddbb28064972adb923bf9
+  doi: 10.1038/s41588-022-01222-9
+  note: Supplementary Information (Methods, Acknowledgements) of Fernandez-Rozadilla et al. 2023 Nat Genet,
+    ESM pdf 41588_2022_1222_MOESM1_ESM.pdf from static-content.springer.com, pdftotext -layout
+claims:
+  analyzed_once:
+    quotes:
+    - exact: Studies that contributed to more than one prior GWAS were analyzed only once in the current
+        analysis.
+      section: GWAS patient and data sets
+  gera_not_discovery:
+    quotes:
+    - exact: 'independent studies not included in the discovery: the Genetic Epidemiology Research on
+        Adult Health and Aging (GERA) cohort'
+      section: GWAS patient and data sets
+  finnish_twin_ack:
+    quotes:
+    - exact: Sample collection and genotyping in the Finnish Twin Cohort has been supported by the Wellcome
+        Trust Sanger Institute
+      section: Acknowledgements (Finland)
+  epic_norfolk_ack:
+    quotes:
+    - exact: The genetics work in the EPIC-Norfolk study was funded by the Medical Research Council
+      section: Acknowledgements (EPIC)
+  dalmatians_ack:
+    quotes:
+    - exact: The Croatian study was supported through the 10,001 Dalmatians Project
+      section: Acknowledgements (Croatia)
+  swhs:
+    quotes:
+    - exact: R01 CA188214 from US National Institutes of Health. Studies (listed with grant support) participating
+        in the Asia Colorectal Cancer Consortium include the Shanghai Women's Health Study (US NIH, R37CA070867,
+        UM1CA182910)
+      section: Acknowledgements (Asia Colorectal Cancer Consortium)
+  smhs:
+    quotes:
+    - exact: UM1CA182910), the Shanghai Men's Health Study (US NIH, R01CA082729, UM1CA173640), the Shanghai
+        Breast and Endometrial Cancer Studies (US NIH, R01CA064277 and R01CA092585; contributing only
+        controls), the Shanghai Colorectal Cancer Study 3 (US NIH, R37CA070867,R01CA188214
+      section: Acknowledgements (Asia Colorectal Cancer Consortium)
+  sbcs:
+    quotes:
+    - exact: the Shanghai Breast and Endometrial Cancer Studies (US NIH, R01CA064277 and R01CA092585;
+        contributing only controls), the Shanghai Colorectal Cancer Study 3 (US NIH, R37CA070867,R01CA188214
+      section: Acknowledgements (Asia Colorectal Cancer Consortium)
+  total_units:
+    quotes:
+    - exact: In total, there were 31 analytical units (17 from European descent populations and 14 from
+        Asian descent populations), totaling 100,204 CRC cases and 154,587 controls.
+      section: GWAS patient and data sets
+  ukb_ack:
+    quotes:
+    - exact: 'UK Biobank: This research has been conducted using the UK Biobank Resource under Application
+        Number 8614 and 7441.'
+      section: Acknowledgements

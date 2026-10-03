@@ -1,0 +1,24 @@
+source:
+  citation: chen2022stroke
+  local: sources/PMC9576777.txt
+  sha256: 1e32a55285c1991ace8373050ff6d6071b686744f9758cc79ff09929fb139330
+  doi: 10.1038/s41467-022-33675-1
+  note: Full text from Europe PMC fullTextXML (PMC9576777), tags stripped. Chen L, Peters JE, Prins B,
+    Persyn E, Traylor M, Surendran P, Karthikeyan S, Yonova-Doing E, Di Angelantonio E, Roberts DJ, Watkins
+    NA, Ouwehand WH, Danesh J, Lewis CM, Bronson PG, Markus HS, Burgess S, Butterworth AS, Howson JMM.
+    Systematic Mendelian randomization using the human plasma proteome to discover potential therapeutic
+    targets for stroke. Nat Commun 2022;13:6143. PMID 36253349.
+claims:
+  mr-308:
+    quotes:
+    - exact: resulting in 308 proteins for MR analyses
+      section: Methods, Proteome GWAS
+  gwas-354:
+    quotes:
+    - exact: About 354 proteins (of 363) that passed quality control were taken forward for the GWAS.
+      section: Methods, Proteome GWAS
+  olink-4994:
+    quotes:
+    - exact: we derived genetic instrumental variables (IV) of 308 circulating plasma proteins from 4994
+        participants
+      section: Introduction

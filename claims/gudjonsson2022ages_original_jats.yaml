@@ -1,0 +1,29 @@
+source:
+  citation: gudjonsson2022ages
+  local: sources/original/gudjonsson2022ages.xml
+  sha256: 5115c939183f585f3ea39a12771c82808e335c1b098cef1807137aacf4b52ead
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8789779/fullTextXML
+  doi: 10.1038/s41467-021-27850-z
+  extractor: jats-text
+  note: 'Original file behind claims/gudjonsson2022ages.yaml: the XML pinned in claims/gudjonsson2022ages_original.yaml,
+    read by the citations extractor jats-text. The quotations here are those of that file that resolve
+    in this reading; a quotation absent here stays pinned where it already was.'
+  extractor_version: 1
+  derived_sha256: 1721e697b76be8a90083380c077e06c34f406a6fecbd1301d2a8940da7f6c45a
+claims:
+  platform:
+    quotes:
+    - exact: Serum levels of 4135 human proteins, targeted by 4782 SOMAmers50, were determined at SomaLogic
+        Inc. (Boulder, US) in samples from 5457 AGES-Reykjavik participants as previously described8.
+      section: 'Methods: Protein measurements'
+  targets-4118:
+    quotes:
+    - exact: thus the 4782 SOMAmers are annotated to a total of 4118 unique targets (annotated as one
+        or more Entrez gene symbols)
+      section: 'Methods: Protein measurements'
+  gwas-4782:
+    quotes:
+    - exact: We performed a GWAS of 4782 serum proteins encoded by 4135 unique human genes in the population-based
+        AGES cohort of elderly Icelanders (n = 5368, Supplementary Data 1), measured by the slow-off rate
+        modified aptamer (SOMAmer) platform as previously described8,18.
+      section: Results

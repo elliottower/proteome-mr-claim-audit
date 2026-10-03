@@ -1,0 +1,24 @@
+source:
+  citation: aragam2022cad_supp_table1
+  local: sources/aragam2022cad_supp_table1.txt
+  sha256: 79107e11c07c0fa38dab83e48facddd20dc8f951b85a6878b37835e1bbe1f462
+  doi: 10.1038/s41588-022-01233-6
+  note: Aragam et al. 2022 Supplementary Tables workbook 41588_2022_1233_MOESM4_ESM.xlsx (Europe PMC supplementaryFiles
+    zip for PMC9729111), sheets Contents and ST1 converted with pandas, one row per line, cells separated
+    by ' | '.
+claims:
+  caption:
+    quotes:
+    - exact: Summary of participant characteristics, genotyping and imputation methods and genetic QC
+        for the ten studies included in the primary CAD GWAS.
+      section: Supplementary Table 1 caption
+  studies:
+    quotes:
+    - exact: Study | deCODE | EPIC-CVD | GerMIFS5 | GerMIFS6 | GerMIFS7 | Greek Coronary Disease cohort
+        | HUNT | Mass General Brigham Biobank | TIMI | UK Biobank
+      section: Supplementary Table 1 header row
+  ctrl-germifs6:
+    quotes:
+    - exact: Non-CAD cases from cohort | Non-CAD cases from cohort | Population-based controls | Non-CAD
+        cases from cohort | Population-based controls
+      section: Supplementary Table 1, Controls row

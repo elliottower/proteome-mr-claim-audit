@@ -1,0 +1,100 @@
+{
+ "synthetic": true,
+ "written_utc": "2026-10-01T16:06:00+00:00",
+ "levels": {
+  "primary": {
+   "pairs": 5,
+   "pairs_matched": 4,
+   "pairs_outcome_not_in_resource": 1,
+   "pairs_by_highest_status": {
+    "approved": 1,
+    "in_clinical_trials": 1,
+    "stopped_negative_or_safety": 0,
+    "stopped_other": 0,
+    "suspended": 0,
+    "completed_no_later_record": 0,
+    "no_matching_trial_or_indication_record": 2,
+    "record_outside_registered_classes": 0
+   },
+   "pairs_with_any_drug": 3,
+   "stopped_trial_events": 1,
+   "stopped_trial_events_by_label": {
+    "Negative": 1
+   },
+   "pairs_with_stopped_trial_event": 1,
+   "suspended_trials": 1,
+   "suspended_trials_by_label": {
+    "Safety_Sideeffects": 1
+   },
+   "target_drugged_elsewhere": 1,
+   "related_indication_records": {
+    "chembl_indication:indication_broader": 1
+   },
+   "pairs_with_related_indication": 1,
+   "claims": 13,
+   "claims_on_matched_pairs": 9,
+   "claims_causal_or_target_with_stopped_trial_event": 3,
+   "claims_with_directionally_relevant_stopped_trial": 3,
+   "claims_without_verified_direction": 0,
+   "alignment_matching_indication": {
+    "concordant": 4,
+    "discordant": 1,
+    "no_drug": 4
+   },
+   "alignment_any_indication": {
+    "ambiguous_only": 2,
+    "concordant": 4,
+    "discordant": 1,
+    "no_drug": 2
+   },
+   "ambiguous_identifier_records": 0
+  },
+  "with_component_level": {
+   "pairs": 5,
+   "pairs_matched": 4,
+   "pairs_outcome_not_in_resource": 1,
+   "pairs_by_highest_status": {
+    "approved": 1,
+    "in_clinical_trials": 1,
+    "stopped_negative_or_safety": 0,
+    "stopped_other": 1,
+    "suspended": 0,
+    "completed_no_later_record": 0,
+    "no_matching_trial_or_indication_record": 1,
+    "record_outside_registered_classes": 0
+   },
+   "pairs_with_any_drug": 4,
+   "stopped_trial_events": 2,
+   "stopped_trial_events_by_label": {
+    "Business_Administrative": 1,
+    "Negative": 1
+   },
+   "pairs_with_stopped_trial_event": 2,
+   "suspended_trials": 1,
+   "suspended_trials_by_label": {
+    "Safety_Sideeffects": 1
+   },
+   "target_drugged_elsewhere": 1,
+   "related_indication_records": {
+    "chembl_indication:indication_broader": 1
+   },
+   "pairs_with_related_indication": 1,
+   "claims": 13,
+   "claims_on_matched_pairs": 9,
+   "claims_causal_or_target_with_stopped_trial_event": 5,
+   "claims_with_directionally_relevant_stopped_trial": 3,
+   "claims_without_verified_direction": 0,
+   "alignment_matching_indication": {
+    "concordant": 6,
+    "discordant": 1,
+    "no_drug": 2
+   },
+   "alignment_any_indication": {
+    "ambiguous_only": 2,
+    "concordant": 6,
+    "discordant": 1
+   },
+   "ambiguous_identifier_records": 0
+  }
+ }
+}

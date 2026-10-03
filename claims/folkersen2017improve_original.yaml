@@ -1,0 +1,16 @@
+source:
+  citation: folkersen2017improve
+  local: sources/original/folkersen2017improve.xml
+  sha256: f215d73025add62bd1205ae6ba5923822ead72d81ce7f18c39ab4c08566f2936
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5393901/fullTextXML
+  doi: 10.1371/journal.pgen.1006706
+  note: 'Original file behind claims/folkersen2017improve.yaml: Europe PMC fullTextXML of PMC5393901,
+    read as plain text with its markup. The quotations here are the quotations of that file that resolve
+    in this file under the citations readers; a quotation absent here is pinned to the extracted text
+    there only.'
+claims:
+  platform-cvd1:
+    quotes:
+    - exact: Plasma concentrations were measured in baseline EDTA plasma samples using the ProSeek CVD
+        array I (Olink Biosciences, Uppsala, Sweden), according to the standard protocol.
+      section: 'Materials and methods: Plasma protein determinations and quality control'

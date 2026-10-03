@@ -1,0 +1,23 @@
+source:
+  citation: cochrane2025ch4
+  local: sources/cochrane_ch4.txt
+  sha256: 3631ee9b0d7e8b4a80e15e24a1bef7445716cec5135369f1f5016a54cca4f500
+  url: https://www.cochrane.org/authors/handbooks-and-manuals/handbook/current/chapter-04
+  note: 'cochrane.org handbook current Chapter 4 HTML, tags stripped. Lefebvre C, Glanville J, Briscoe
+    S, et al. Chapter 4: Searching for and selecting studies [last updated March 2025]. Cochrane Handbook
+    for Systematic Reviews of Interventions version 6.5.1, 2025.'
+claims:
+  thorough:
+    quotes:
+    - exact: Systematic reviews require a thorough, objective and reproducible search of a range of sources
+        to identify as many eligible studies as possible (within resource limits).
+      section: 4.2.2 Minimizing bias
+  medline-alone:
+    quotes:
+    - exact: A search of MEDLINE alone is not considered adequate.
+      section: 4.2.2 Minimizing bias
+  unrepresentative:
+    quotes:
+    - exact: Relying exclusively on a MEDLINE search may retrieve a set of reports unrepresentative of
+        all reports
+      section: 4.2.2 Minimizing bias

@@ -1,0 +1,21 @@
+source:
+  citation: nielsen2018af_supp_table1
+  local: sources/nielsen2018af_supp_table1.txt
+  sha256: be171333ad2e6834e2875bb9456ed289aede9c71fc1453bd0d916f6485b5c9ab
+  doi: 10.1038/s41588-018-0171-3
+  note: Nielsen et al. 2018 Supplementary Tables workbook 41588_2018_171_MOESM3_ESM.xlsx from static-content.springer.com,
+    sheets ST1-cohort-summary and ST16 converted with pandas, one row per line, cells separated by ' |
+    '.
+claims:
+  header:
+    quotes:
+    - exact: Characteristics | HUNT | deCODE* | MGI | DiscoverEHR | UKB | AFGen**
+      section: Supplementary Table 1
+  cases:
+    quotes:
+    - exact: Cases, N | 6493 | 13471 | 1226 | 6679 | 14820 | 17931
+      section: Supplementary Table 1
+  afgen-ref:
+    quotes:
+    - exact: '**Please see Christophersen et al, NG 2017 (PMID: 28416818) for details.'
+      section: Supplementary Table 1 footnote

@@ -1,0 +1,27 @@
+source:
+  citation: chen2021magic_main
+  local: sources/original/chen2021magic_main.xml
+  sha256: 1e62c048a80eb0f3b83b76c481bb8fb6f934b46e02319c235f6e12a63c16da6f
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7610958/fullTextXML
+  doi: 10.1038/s41588-021-00852-9
+  extractor: jats-text
+  note: 'Original file behind claims/chen2021magic_main.yaml: the XML pinned in claims/chen2021magic_main_original.yaml,
+    read by the citations extractor jats-text. The quotations here are those of that file that resolve
+    in this reading; a quotation absent here stays pinned where it already was.'
+  extractor_version: 1
+  derived_sha256: 80e046a0604c306677dfcd05a2fe143b8732326f855cadc3c746567cd9c2ffcf
+claims:
+  ncohorts:
+    quotes:
+    - exact: The total number of contributing cohorts ranged from 41 (2hGlu) to 131 (FG), and the maximum
+        sample size for each trait ranged from 85,916 (2hGlu) to 281,416 (FG) (Supplementary Table 1).
+      section: Methods
+  availability:
+    quotes:
+    - exact: Data Availability Ancestry-specific and overall meta-analysis summary level results are available
+        through the MAGIC website
+      section: Data availability
+  ukb_grs:
+    quotes:
+    - exact: tested the association of each cluster with T2D risk using samples from the UK Biobank
+      section: Methods

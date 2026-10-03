@@ -1,0 +1,29 @@
+source:
+  citation: enroth2014nsphs
+  local: sources/original/enroth2014nsphs.xml
+  sha256: d926ccabd38c17d5283124363f58f8ac7432ecbad7b42b0d5ff1cdece1d2cb99
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC4143927/fullTextXML
+  doi: 10.1038/ncomms5684
+  extractor: jats-text
+  note: 'Original file behind claims/enroth2014nsphs.yaml: the XML pinned in claims/enroth2014nsphs_original.yaml,
+    read by the citations extractor jats-text. The quotations here are those of that file that resolve
+    in this reading; a quotation absent here stays pinned where it already was.'
+  extractor_version: 1
+  derived_sha256: c7ab260310d8ce5eb43b0db7a7f1541b02c34337a40037f597ef9f44e310d06a
+claims:
+  platform-onc1:
+    quotes:
+    - exact: Protein levels in plasma were analysed using the Olink Proseek Multiplex Oncology I 96 ×
+        96 kit and quantified by real-time PCR using the Fluidigm BioMark HD real-time PCR platform as
+        described earlier10.
+      section: 'Methods: Multiplexed PEA'
+  proteins-92:
+    quotes:
+    - exact: The abundance of 92 proteins (Supplementary Data 1), representing a panel of established
+        and potential biomarkers for cancer and inflammation, were measured in blood plasma of 1,005 individuals
+        from the Northern Sweden Population Health Study (NSPHS), using PEA and qPCR.
+      section: 'Results: Biomarker measurements'
+  remained-77:
+    quotes:
+    - exact: After individual and protein quality control, 77 proteins measured in 970 individuals remained.
+      section: 'Methods: Multiplexed PEA'

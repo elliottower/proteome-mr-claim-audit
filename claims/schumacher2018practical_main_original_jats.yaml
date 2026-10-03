@@ -1,0 +1,53 @@
+source:
+  citation: schumacher2018practical_main
+  local: sources/original/schumacher2018practical_main.xml
+  sha256: dfe6dda605caf8fc4d948c4b6fad957d1d581445338651e57fa57b95e28f21b4
+  url: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=PMC6568012
+  doi: 10.1038/s41588-018-0142-8
+  extractor: jats-text
+  note: 'Original file behind claims/schumacher2018practical_main.yaml: the XML pinned in claims/schumacher2018practical_main_original.yaml,
+    read by the citations extractor jats-text. The quotations here are those of that file that resolve
+    in this reading; a quotation absent here stays pinned where it already was.'
+  extractor_version: 1
+  derived_sha256: 2698c523d6d2c7e5807f717389c8637b22e0cd58c54c8db3a294de2d448b39cf
+claims:
+  52-studies:
+    quotes:
+    - exact: We assembled a new PrCa sample series from 52 studies to genotype with the OncoArray (Supplementary
+        Tables 1 and 2).
+      section: Results
+  seven-previous:
+    quotes:
+    - exact: We performed a fixed-effects meta-analysis combining the summary statistics from our OncoArray
+        analysis and seven previous PrCa GWAS or high-density SNP panels of European ancestry imputed
+        to the 1KGP
+      section: Results
+  final-n:
+    quotes:
+    - exact: The final meta-analysis included 79,194 PrCa cases and 61,112 controls without a known diagnosis
+        of PrCa
+      section: Results
+  previous-gwas-n:
+    quotes:
+    - exact: Previous GWAS contributed an additional 32,255 PrCa cases and 33,202 disease-free controls
+        of European ancestry to the overall meta-analysis12.
+      section: 'Online Methods: Study subjects'
+  previous-described-elsewhere:
+    quotes:
+    - exact: Details of the genotype calling and QC for the iCOGS and GWAS have been described elsewhere11–28.
+      section: 'Online Methods: Genotype calling and quality control'
+  overlap-removal:
+    quotes:
+    - exact: We excluded duplicated samples as well as first-degree relatives across the GWAS studies
+        CAPS1, CAPS2, UK Stage 1, UK Stage 2, and iCOGS.
+      section: 'Online Methods: Genotype calling and quality control'
+  public-release:
+    quotes:
+    - exact: The complete meta-analysis summary associations statistics are publicly available at the
+        PRACTICAL website (http://practical.icr.ac.uk/blog/).
+      section: Data availability
+  dbgap-previous:
+    quotes:
+    - exact: The previous meta-analysis summary results and genotype data12 are available in dbGaP under
+        accession code phs001081.v1.p1.
+      section: Data availability

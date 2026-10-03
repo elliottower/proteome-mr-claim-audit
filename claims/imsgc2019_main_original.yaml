@@ -1,0 +1,48 @@
+source:
+  citation: imsgc2019_main
+  local: sources/original/imsgc2019_main.txt
+  sha256: 390ad5d35333fcb0a7123cfe15334075cd4f9952f00f56794f7d06e7efd1e49a
+  url: https://pmc-oa-opendata.s3.amazonaws.com/PMC7241648.1/PMC7241648.1.txt
+  doi: 10.1126/science.aav7188
+  note: 'Original file behind claims/imsgc2019_main.yaml: PMC7241648.1.txt from the PMC open-data bucket,
+    without the one-line header the text pin adds. The quotations here are the quotations of that file
+    that resolve in this file under the citations readers; a quotation absent here is pinned to the extracted
+    text there only.'
+claims:
+  discovery_15_datasets:
+    quotes:
+    - exact: We organized available (1, 2, 4, 5) and newly genotyped genome-wide data in 15 data sets,
+        totaling 14,802 subjects with MS and 26,703 controls for our discovery study (9) (Tables S1–S3).
+      section: Discovery and replication of genetic associations
+  joint_totals:
+    quotes:
+    - exact: Overall, we jointly analyzed data from 47,429 MS cases and 68,374 control subjects
+      section: Discovery and replication of genetic associations
+  discovery_repositories:
+    quotes:
+    - exact: 'The genome wide associations studies used in the discovery phase are available in the following
+        repositories: i) dbGAP: phs000275.v1.p1, phs000139.v1.p1, phs000294.v1.p1, and phs000171.v1.p1,
+        and ii) European Genome-phenome Archive database: EGAD00000000120, EGAD00000000022, and EGAD00000000021.'
+      section: Data availability
+  anzgene:
+    quotes:
+    - exact: The ANZGENE GWAS data is available via request to the ANZGENE Consortium
+      section: Data availability
+  rotterdam_ms:
+    quotes:
+    - exact: The Rotterdam MS data can be requested via e-mailing
+      section: Data availability
+  rotterdam_study_controls:
+    quotes:
+    - exact: Rotterdam Study control data can be made available to interested researchers upon request.
+      section: Data availability
+  kaiser_berkeley:
+    quotes:
+    - exact: The genetic data from multiple sclerosis (MS) case and controls recruited through Kaiser
+        Permanente Division of Research and UC Berkeley
+      section: Data availability
+  replication_chips:
+    quotes:
+    - exact: 'The MS Chip and ImmunoChip data are available in the respective EGA accession codes: EGAS00001003216
+        and EGAS00001003219.'
+      section: Data availability

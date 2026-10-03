@@ -1,0 +1,23 @@
+source:
+  citation: emilsson2018ages
+  local: sources/original/emilsson2018ages.xml
+  sha256: c8ac6175cae94dfeb3e012f4a9279ac8fc5fe72c91e2226ad0df439d21b368fd
+  url: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=PMC6190714
+  doi: 10.1126/science.aaq1327
+  extractor: jats-text
+  note: 'Original file behind claims/emilsson2018ages.yaml: the XML pinned in claims/emilsson2018ages_original.yaml,
+    read by the citations extractor jats-text. The quotations here are those of that file that resolve
+    in this reading; a quotation absent here stays pinned where it already was.'
+  extractor_version: 1
+  derived_sha256: 74bcb4f860b37b6c89be680503668a0de9c9b39146697aa7195855388fd3df62
+claims:
+  platform-custom:
+    quotes:
+    - exact: We designed an expanded custom version of this platform to include proteins known or predicted
+        to be found in the extracellular milieu
+      section: A custom-designed aptamer-based multiplex proteomic platform
+  somamers-5034:
+    quotes:
+    - exact: This resulted in an updated array of 5034 SOMAmers, 4783 of which recognize 4137 individual
+        human proteins (table S1)
+      section: A custom-designed aptamer-based multiplex proteomic platform

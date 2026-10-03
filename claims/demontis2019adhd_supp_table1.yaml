@@ -1,0 +1,71 @@
+source:
+  citation: demontis2019adhd_supp_table1
+  local: sources/demontis2019adhd_supp_table1.txt
+  sha256: b893f58e069eb1061be53adfbe2704bf76785abeacb234cf060bd902f2b9886d
+  doi: 10.1038/s41588-018-0269-7
+  note: Supplementary Table 1 (samples included in the GWAS meta-analyses) of Demontis D et al. 2019 Nat
+    Genet, from ESM 41588_2018_269_MOESM1_ESM.pdf (static-content.springer.com) page 66-67; transcribed
+    from pdftotext -layout output, one row per line, cells separated by ' | ', curly quotes in caption
+    written as straight quotes, wrapped cells joined
+claims:
+  caption:
+    quotes:
+    - exact: Supplementary Table 1. Samples included in the GWAS meta-analyses of diagnosed ADHD
+      section: Supplementary Table 1
+  caption-eur:
+    quotes:
+    - exact: The European GWAS meta-analysis excludes samples marked with "*" and PUWMa (strict) is used
+        in place of PUWMa.
+      section: Supplementary Table 1
+  ipsych:
+    quotes:
+    - exact: iPSYCH-ADHD, Denmark | 14584
+      section: Supplementary Table 1
+  barcelona:
+    quotes:
+    - exact: Barcelona, Spain | 572
+      section: Supplementary Table 1
+  beijing:
+    quotes:
+    - exact: Beijing, China* | 1012
+      section: Supplementary Table 1
+  bergen:
+    quotes:
+    - exact: Bergen, Norway | 295
+      section: Supplementary Table 1
+  cardiff:
+    quotes:
+    - exact: Cardiff, UK | 721
+      section: Supplementary Table 1
+  chop:
+    quotes:
+    - exact: CHOP, USA | 262
+      section: Supplementary Table 1
+  germany:
+    quotes:
+    - exact: Germany | 487
+      section: Supplementary Table 1
+  image1:
+    quotes:
+    - exact: IMAGE-I | 700
+      section: Supplementary Table 1
+  image2:
+    quotes:
+    - exact: IMAGE-II | 624
+      section: Supplementary Table 1
+  puwma:
+    quotes:
+    - exact: PUWMa* | 635
+      section: Supplementary Table 1
+  puwma-strict:
+    quotes:
+    - exact: PUWMa (strict) | 563
+      section: Supplementary Table 1
+  toronto:
+    quotes:
+    - exact: Toronto, Canada | 109
+      section: Supplementary Table 1
+  yalepenn:
+    quotes:
+    - exact: Yale-Penn | 182
+      section: Supplementary Table 1

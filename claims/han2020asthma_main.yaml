@@ -1,0 +1,36 @@
+source:
+  citation: han2020asthma_main
+  local: sources/han2020asthma_main.txt
+  sha256: 6f534a2a65c63bfa2ee5fc9702b55f51437d813634cd52e901d2cdbffd8c8db1
+  doi: 10.1038/s41467-020-15649-3
+  note: Main text of Han Y et al. 2020 Nat Commun 11:1776 (PMC7160128), Europe PMC fullTextXML with tags
+    stripped by a local script, one paragraph per line.
+claims:
+  design:
+    quotes:
+    - exact: we carry out a GWAS analysis for asthma in the UK Biobank, followed by a meta-analysis with
+        GWAS results from the Trans-National Asthma Genetic Consortium (TAGC)18
+      section: Introduction
+  meta-n:
+    quotes:
+    - exact: The Z-score meta-analysis included a total of 88,486 cases and 447,859 controls from the
+        UK Biobank (64,538 asthma cases and 329,321 controls) and TAGC (23,948 asthma cases and 118,538
+        controls)
+      section: Figure 1 legend
+  tagc-cohorts:
+    quotes:
+    - exact: Participating cohorts in the Trans-National Asthma Genetic Consortium (TAGC)18 are summarized
+        in Supplementary Data 1 and included 56 studies of European ancestry subjects (19,954 asthma cases,
+        107,715 controls)
+      section: Methods
+  tagc-public:
+    quotes:
+    - exact: Publicly available GWAS summary statistics for asthma with 2,001,281 SNPs in multi-ancestry
+        populations and in only subjects of European-ancestry from the TAGC18 were imputed
+      section: 'Methods: Imputation in the TAGC'
+  sensitivity-eur:
+    quotes:
+    - exact: we also imputed GWAS summary statistics in the TAGC using only subjects of European ancestry
+        (19,954 asthma cases, 107,715 controls), which were then meta-analyzed with the GWAS results from
+        the UK Biobank
+      section: Results

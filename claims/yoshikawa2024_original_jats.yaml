@@ -1,0 +1,22 @@
+source:
+  citation: yoshikawa2024
+  local: sources/original/yoshikawa2024.xml
+  sha256: c7cb7209d485cf6714bc38dfb60242258698b219d5bd74e3eba6b77c80372998
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11659389/fullTextXML
+  doi: 10.1038/s42003-024-07403-y
+  extractor: jats-text
+  note: 'Original file behind claims/yoshikawa2024.yaml: the XML pinned in claims/yoshikawa2024_original.yaml,
+    read by the citations extractor jats-text. The quotations here are those of that file that resolve
+    in this reading; a quotation absent here stays pinned where it already was.'
+  extractor_version: 1
+  derived_sha256: fe93be36abb546af11e7e187f8731082ad72d85bcab37488af836bd6e2f66469
+claims:
+  zheng-source:
+    quotes:
+    - exact: They selected 1064 pQTLs of 955 plasma proteins from five studies
+      section: Methods, Study design and datasets
+  cis-738:
+    quotes:
+    - exact: we utilized only 738 cis-pQTLs of 735 proteins in the present study (Supplementary Table
+        2) to reduce bias
+      section: Results, Primary proteome-wide MR

@@ -1,0 +1,13 @@
+source:
+  citation: mahajan2022diamante_main
+  local: sources/mahajan2022diamante_main.txt
+  sha256: c23aef37dddde0db8582cca0cb56b741bbda556278acce0d8f47886d43ee6445
+  doi: 10.1038/s41588-022-01058-3
+  note: Main text of Mahajan et al. 2022 Nat Genet 54:560 (DIAMANTE multi-ancestry T2D), Europe PMC fullTextXML
+    PMC9179018, paragraphs and table rows extracted with lxml, one block per line
+claims:
+  availability:
+    quotes:
+    - exact: Association summary statistics from the multi-ancestry meta-analysis and annotation-informed
+        fine-mapping are available through the AMP-T2D Knowledge Portal
+      section: Data availability

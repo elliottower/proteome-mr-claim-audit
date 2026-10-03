@@ -1,0 +1,22 @@
+source:
+  citation: katz2022
+  local: sources/original/katz2022.xml
+  sha256: 5df79e228b628d988684f5e089d7116c4b6b374df9c5ccc002f3de47913e8c38
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9390994/fullTextXML
+  doi: 10.1126/sciadv.abm5164
+  note: 'Original file behind claims/katz2022.yaml: Europe PMC fullTextXML of PMC9390994, read as plain
+    text with its markup. The quotations here are the quotations of that file that resolve in this file
+    under the citations readers; a quotation absent here is pinned to the extracted text there only.'
+claims:
+  overlap-591:
+    quotes:
+    - exact: revealing 591 overlapping proteins mapping to 602 Soma1.3K aptamers and 597 Olink probes
+      section: Results
+  pairs-164:
+    quotes:
+    - exact: At this threshold, 164 of the reagent pairs show a cis pQTL for both reagents.
+      section: 'Results: Accuracy: Platform correlation and cis pQTLs'
+  pairs-98:
+    quotes:
+    - exact: At this threshold, 98 reagent pairs have cis pQTLs for both reagents.
+      section: 'Results: Accuracy: Platform correlation and cis pQTLs'

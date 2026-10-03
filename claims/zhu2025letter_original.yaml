@@ -1,0 +1,15 @@
+source:
+  citation: zhu2025letter
+  local: sources/original/zhu2025letter.xml
+  sha256: 60a1f3bb41c4096c131d1a73e69ae5dee4a77a6c247372c0ebb95bb798dca56e
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11981414/fullTextXML
+  doi: 10.1097/MS9.0000000000002812
+  note: 'Original file behind claims/zhu2025letter.yaml: Europe PMC fullTextXML of PMC11981414, read as
+    plain text with its markup. The quotations here are the quotations of that file that resolve in this
+    file under the citations readers; a quotation absent here is pinned to the extracted text there only.'
+claims:
+  overlap:
+    quotes:
+    - exact: there appears to be a sample overlap between the plasma protein data (including 4775 proteins
+        from the Fenland study, center 3) and the outcome data
+      section: Letter, paragraph 2

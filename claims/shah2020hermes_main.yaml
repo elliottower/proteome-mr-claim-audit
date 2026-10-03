@@ -1,0 +1,24 @@
+source:
+  citation: shah2020hermes_main
+  local: sources/shah2020hermes_main.txt
+  sha256: 913194e357882b6ec44f3dc6d0941868cdb3be028b6ab6d9251beb1649fa46a6
+  doi: 10.1038/s41467-019-13690-5
+  note: Shah et al. 2020 Nat Commun 11:163 (HERMES heart failure), full text from Europe PMC fullTextXML
+    PMC6952380, paragraphs extracted with lxml, one per line.
+claims:
+  n26:
+    quotes:
+    - exact: We conducted a GWAS comprising 47,309 cases and 930,014 controls of European ancestry across
+        26 studies from the Heart Failure Molecular Epidemiology for Therapeutic Targets (HERMES) Consortium.
+      section: Results
+  n29datasets:
+    quotes:
+    - exact: Participants of European ancestry from 26 cohorts (with a total of 29 distinct datasets)
+        with either a case-control or population-based study design were included in the meta-analysis,
+        as part of the HERMES Consortium.
+      section: Methods
+  release:
+    quotes:
+    - exact: The summary GWAS estimates for this analysis are available on the Cardiovascular Disease
+        Knowledge Portal (http://www.broadcvdi.org/).
+      section: Data availability

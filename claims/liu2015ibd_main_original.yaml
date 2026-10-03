@@ -1,0 +1,34 @@
+source:
+  citation: liu2015ibd_main
+  local: sources/original/liu2015ibd_main.xml
+  sha256: 0301704c6a72db2fbf2d9a74c3bf3adab581f753003d9c4e81eb09021081f051
+  url: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=PMC4881818
+  doi: 10.1038/ng.3359
+  note: 'Original file behind claims/liu2015ibd_main.yaml: NCBI E-utilities efetch (db=pmc) XML of PMC4881818,
+    read as plain text with its markup. The quotations here are the quotations of that file that resolve
+    in this file under the citations readers; a quotation absent here is pinned to the extracted text
+    there only.'
+claims:
+  gwas-n:
+    quotes:
+    - exact: 5,956 Crohn’s disease cases, 6,968 ulcerative colitis cases and 21,770 population controls
+        of European descent were used to perform genome-wide association studies
+      section: 'Results: Study design'
+  non-european-sources:
+    quotes:
+    - exact: Japan (Institute of Medical Science, University of Tokyo, RIKEN Yokohama Institute and Japan
+        Biobank), Korea (Yonsei University College of Medicine and Asan Medical Centre, Seoul), Hong Kong
+        (Chinese University of Hong Kong)
+      section: 'Online Methods: East Asian, Indian and Iranian ancestry cohorts'
+  indian-iranian:
+    quotes:
+    - exact: Indian IBD cases and controls were recruited from Dayanand Medical College and Hospital,
+        Ludhiana and University of Delhi South Campus. Iranian cases and controls were recruited from
+        the Tehran University of Medical Sciences.
+      section: Online Methods
+  overlap-excluded:
+    quotes:
+    - exact: For the trans-ethnic meta-analysis, the 6,392 cases and 7,262 population controls of European
+        ancestry that were present in both the GWAS and replication cohorts were excluded from the Immunochip
+        replication study
+      section: Results

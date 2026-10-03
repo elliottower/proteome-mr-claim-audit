@@ -1,0 +1,164 @@
+source:
+  citation: mckay2017lung_supp
+  local: sources/mckay2017lung_supp.txt
+  sha256: 96f83399fa85059a714ce8707641c4d33e2205f6a2f76357af93242f72694405
+  doi: 10.1038/ng.3892
+  note: Supplementary Information PDF (Supplementary Note incl. Study Populations, and Supplementary Tables,
+    incl. Supplementary Table 1 Characteristics of OncoArray Studies) of McKay et al. 2017 Nat Genet,
+    ESM 41588_2017_BFng3892_MOESM1_ESM.pdf from static-content.springer.com, converted with pdftotext
+    -layout (table rows as laid out, not pipe-separated)
+claims:
+  st1-caption:
+    quotes:
+    - exact: Supplementary Table 1 Characteristics of OncoArray Studies sorted by geographical regions,
+        study design and recruitment period.
+      section: Supplementary Table 1 (Characteristics of OncoArray Studies)
+  st1-total:
+    quotes:
+    - exact: TOTAL 23878 19520 43398
+      section: Supplementary Table 1 (Characteristics of OncoArray Studies)
+  qc-total:
+    quotes:
+    - exact: This included 44,591 samples (43,398 individuals and 1,193 QC duplicate samples) associated
+        with this study of lung cancer
+      section: 'Supplementary Note: Genotype Quality Control'
+  qc-prev-overlap:
+    quotes:
+    - exact: 7,633 individuals were excluded as they were already included in the previous GWAS studies
+        as part of the final meta-analysis
+      section: 'Supplementary Note: Genotype quality control'
+  CARET:
+    quotes:
+    - exact: CARET The Carotene and Retinol Efficacy FHCRC
+      section: Supplementary Table 1 (Characteristics of OncoArray Studies)
+  PLCO:
+    quotes:
+    - exact: PLCO The Prostate, Lung, Colorectal NCI
+      section: Supplementary Table 1 (Characteristics of OncoArray Studies)
+  MEC:
+    quotes:
+    - exact: MEC Multiethnic Cohort Study U of Hawaii, USC
+      section: Supplementary Table 1 (Characteristics of OncoArray Studies)
+  NELCS:
+    quotes:
+    - exact: NELCS New England Lung Cancer Study Dartmouth College
+      section: Supplementary Table 1 (Characteristics of OncoArray Studies)
+  HLCS:
+    quotes:
+    - exact: HLCS Harvard Lung Cancer Study Harvard/Mass
+      section: Supplementary Table 1 (Characteristics of OncoArray Studies)
+  MDACC:
+    quotes:
+    - exact: MDACC MD Anderson Cancer Center MDACC
+      section: Supplementary Table 1 (Characteristics of OncoArray Studies)
+  TAMPA:
+    quotes:
+    - exact: Tampa Tampa Lung Cancer Study WSU
+      section: Supplementary Table 1 (Characteristics of OncoArray Studies)
+  BIOVU:
+    quotes:
+    - exact: BioVU Vanderbilt 2 Vanderbilt
+      section: Supplementary Table 1 (Characteristics of OncoArray Studies)
+  LCRI_DOD:
+    quotes:
+    - exact: LCRI-DOD LCRI-DOD Markey Cancer
+      section: Supplementary Table 1 (Characteristics of OncoArray Studies)
+  TLC:
+    quotes:
+    - exact: 'TLC Total Lung Cancer: Molecular Moffitt Cancer'
+      section: Supplementary Table 1 (Characteristics of OncoArray Studies)
+  CANADA_SCREENING:
+    quotes:
+    - exact: Canada Canadian screening study UHN, BCCA
+      section: Supplementary Table 1 (Characteristics of OncoArray Studies)
+  MSH_PMH:
+    quotes:
+    - exact: MSH-PMH Mount Sinai Hospital-Princess MSH, PMH
+      section: Supplementary Table 1 (Characteristics of OncoArray Studies)
+  CAPUA:
+    quotes:
+    - exact: CAPUA Cancer de Pulmon en Asturias U. Oviedo
+      section: Supplementary Table 1 (Characteristics of OncoArray Studies)
+  ATBC:
+    quotes:
+    - exact: ATBC The Alpha-Tocopherol, Beta- NCI
+      section: Supplementary Table 1 (Characteristics of OncoArray Studies)
+  NSHDS:
+    quotes:
+    - exact: NSHDS Northern Sweden Health and Umeå University
+      section: Supplementary Table 1 (Characteristics of OncoArray Studies)
+  MDC:
+    quotes:
+    - exact: MDCS The Malmö Diet and Cancer Lund University
+      section: Supplementary Table 1 (Characteristics of OncoArray Studies)
+  EPIC:
+    quotes:
+    - exact: EPIC European Prospective IARC
+      section: Supplementary Table 1 (Characteristics of OncoArray Studies)
+  EPIC-countries:
+    quotes:
+    - exact: The current study involved EPIC participants from 7 countries (Greece, Netherlands, UK, France,
+        Germany, Spain, and Italy), including 1223 incident lung cancer cases and 1249 smoking matched
+        controls.
+      section: 'Supplementary Note: Study Populations (EPIC)'
+  LLP:
+    quotes:
+    - exact: LLP Liverpool Lung Cancer Project U. Liverpool
+      section: Supplementary Table 1 (Characteristics of OncoArray Studies)
+  NORWAY_NIOH:
+    quotes:
+    - exact: Norway Norway Lung Cancer Study NIOH
+      section: Supplementary Table 1 (Characteristics of OncoArray Studies)
+  EAGLE:
+    quotes:
+    - exact: EAGLE Environment and Genetics in NCI
+      section: Supplementary Table 1 (Characteristics of OncoArray Studies)
+  NIJMEGEN:
+    quotes:
+    - exact: Nijmegen The Nijmegen Lung Cancer Study Radboud University
+      section: Supplementary Table 1 (Characteristics of OncoArray Studies)
+  NIJMEGEN_BIOMEDICAL_STUDY:
+    quotes:
+    - exact: The cancer-free controls (46% males) were selected from participants of the “Nijmegen Biomedical
+        Study”
+      section: 'Supplementary Note: Study Populations (Nijmegen)'
+  NICCC_LCA:
+    quotes:
+    - exact: NICCC-LCA Clalit National Israeli Cancer Carmel Medical
+      section: Supplementary Table 1 (Characteristics of OncoArray Studies)
+  IARC_L2:
+    quotes:
+    - exact: L2 The IARC L2 Study IARC
+      section: Supplementary Table 1 (Characteristics of OncoArray Studies)
+  COPENHAGEN_LUNG:
+    quotes:
+    - exact: Copenhagen Copenhagen lung cancer study Copenhagen
+      section: Supplementary Table 1 (Characteristics of OncoArray Studies)
+  CGPS:
+    quotes:
+    - exact: Controls were participants of the Copenhagen General Population Study without lung cancer.
+      section: 'Supplementary Note: Study Populations (Copenhagen)'
+  GERMANY_LUNG:
+    quotes:
+    - exact: Germany German lung cancer study HMGU, DKFZ
+      section: Supplementary Table 1 (Characteristics of OncoArray Studies)
+  GERMANY-oncoarray-cases:
+    quotes:
+    - exact: 'After quality control 1041 cases (LUCY-study: n=806, Heidelberg lung cancer case-control
+        study: n=235) entered the data analysis for OncoArray.'
+      section: 'Supplementary Note: Study Populations (German Lung Cancer Study)'
+  KORA-lucy:
+    quotes:
+    - exact: The LUCY-study provides access to a nationwide, population based family and a case-control
+        sample (control population KORA, described below) of lung cancer patients aged 50 years or younger
+        at diagnosis.
+      section: 'Supplementary Note: Study Populations (LUCY-study)'
+  RESOLUCENT:
+    quotes:
+    - exact: ReSoLucent ReSoLucent U. Sheffield,
+      section: Supplementary Table 1 (Characteristics of OncoArray Studies)
+  UKB-smoking-only:
+    quotes:
+    - exact: The UK Biobank28 is a prospective cohort that recruited more than 500,000 men and women aged
+        40-96 years
+      section: 'Supplementary Note: UK Biobank: CPD'

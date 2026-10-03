@@ -1,0 +1,25 @@
+{
+ "task": "extraction",
+ "label": "r2",
+ "revision": "826f3bd1ebb9",
+ "model_requested": "gpt-6.1-sol",
+ "models_returned": [
+  "gpt-6.1-sol"
+ ],
+ "reasoning_effort": "medium",
+ "endpoint": "https://api.openai.com/v1/responses",
+ "abstracts": "prompts/dev_abstracts.jsonl",
+ "n_records": 30,
+ "n_ok": 30,
+ "n_extraction_failed": 0,
+ "n_needed_retry": 0,
+ "usage_new_requests_this_invocation": {
+  "requests": 30,
+  "input_tokens": 51075,
+  "cached_input_tokens": 36250,
+  "output_tokens": 20774,
+  "reasoning_tokens": 4370
+ },
+ "started_utc": "2026-09-30T19:06:12.711+00:00",
+ "finished_utc": "2026-09-30T19:07:54.028+00:00"
+}

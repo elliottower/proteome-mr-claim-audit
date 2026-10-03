@@ -1,0 +1,16 @@
+source:
+  citation: wuttke2019ckdgen_main
+  local: sources/original/wuttke2019ckdgen_main.xml
+  sha256: 0da61fda29da4877503f33664e4d4904cb6f143edee9c2985257561e0c790b44
+  url: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=PMC6698888
+  doi: 10.1038/s41588-019-0407-x
+  note: 'Original file behind claims/wuttke2019ckdgen_main.yaml: NCBI E-utilities efetch (db=pmc) XML
+    of PMC6698888, read as plain text with its markup. The quotations here are the quotations of that
+    file that resolve in this file under the citations readers; a quotation absent here is pinned to the
+    extracted text there only.'
+claims:
+  mvp-replication:
+    quotes:
+    - exact: We assessed replication in an independent trans-ancestry GWAS meta-analysis of eGFR performed
+        among 280,722 MVP participants
+      section: Results

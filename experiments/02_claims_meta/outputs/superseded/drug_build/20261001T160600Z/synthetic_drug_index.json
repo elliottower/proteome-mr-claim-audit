@@ -1,0 +1,148 @@
+{
+ "mechanisms": [
+  {
+   "mec_id": 100,
+   "molregno": 100,
+   "parent_molregno": 100,
+   "accession": "P00001",
+   "tid": 100,
+   "target_type": "SINGLE PROTEIN",
+   "level": "single_protein",
+   "action_type": "INHIBITOR",
+   "direct_interaction": 1,
+   "molecular_mechanism": 1,
+   "homologue": 0
+  },
+  {
+   "mec_id": 200,
+   "molregno": 200,
+   "parent_molregno": 200,
+   "accession": "P00002",
+   "tid": 200,
+   "target_type": "SINGLE PROTEIN",
+   "level": "single_protein",
+   "action_type": "AGONIST",
+   "direct_interaction": 1,
+   "molecular_mechanism": 1,
+   "homologue": 0
+  },
+  {
+   "mec_id": 300,
+   "molregno": 300,
+   "parent_molregno": 300,
+   "accession": "P00003",
+   "tid": 300,
+   "target_type": "PROTEIN COMPLEX",
+   "level": "component_level_mapping",
+   "action_type": "BLOCKER",
+   "direct_interaction": 1,
+   "molecular_mechanism": 1,
+   "homologue": 0
+  },
+  {
+   "mec_id": 400,
+   "molregno": 400,
+   "parent_molregno": 400,
+   "accession": "P00004",
+   "tid": 400,
+   "target_type": "SINGLE PROTEIN",
+   "level": "single_protein",
+   "action_type": "BINDING AGENT",
+   "direct_interaction": 1,
+   "molecular_mechanism": 1,
+   "homologue": 0
+  }
+ ],
+ "indications": [
+  {
+   "parent_molregno": 100,
+   "indication_id": "EFO:1",
+   "max_phase": 4.0
+  },
+  {
+   "parent_molregno": 200,
+   "indication_id": "MONDO:20",
+   "max_phase": 4.0
+  },
+  {
+   "parent_molregno": 400,
+   "indication_id": "MONDO:40",
+   "max_phase": 2.0
+  }
+ ],
+ "trials": [
+  {
+   "report_id": "T1",
+   "parent_molregnos": [
+    100
+   ],
+   "disease_ids": [
+    "MONDO:1"
+   ],
+   "status": "TERMINATED",
+   "stop_labels": [
+    "Negative"
+   ],
+   "quality_flagged": false,
+   "source": "synthetic",
+   "report_type": "INDICATION"
+  },
+  {
+   "report_id": "T2",
+   "parent_molregnos": [
+    200
+   ],
+   "disease_ids": [
+    "MONDO:2"
+   ],
+   "status": "RECRUITING",
+   "stop_labels": [],
+   "quality_flagged": false,
+   "source": "synthetic",
+   "report_type": "INDICATION"
+  },
+  {
+   "report_id": "T3",
+   "parent_molregnos": [
+    200
+   ],
+   "disease_ids": [
+    "MONDO:2"
+   ],
+   "status": "SUSPENDED",
+   "stop_labels": [
+    "Safety_Sideeffects"
+   ],
+   "quality_flagged": false,
+   "source": "synthetic",
+   "report_type": "INDICATION"
+  },
+  {
+   "report_id": "T4",
+   "parent_molregnos": [
+    300
+   ],
+   "disease_ids": [
+    "MONDO:3"
+   ],
+   "status": "WITHDRAWN",
+   "stop_labels": [
+    "Business_Administrative"
+   ],
+   "quality_flagged": false,
+   "source": "synthetic",
+   "report_type": "INDICATION"
+  }
+ ],
+ "resource_disease_ids": [
+  "EFO:1",
+  "MONDO:2",
+  "MONDO:20",
+  "MONDO:3",
+  "MONDO:4",
+  "MONDO:40"
+ ],
+ "provenance": {
+  "synthetic": true
+ }
+}

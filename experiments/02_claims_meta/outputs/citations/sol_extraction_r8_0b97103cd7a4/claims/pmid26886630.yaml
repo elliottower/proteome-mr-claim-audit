@@ -1,0 +1,25 @@
+source:
+  citation: pmid26886630
+  local: sources/pmid26886630.txt
+  sha256: aa2ed4e76321d1e0f3bcc5d99feda78eb96a7b66664db3736cba490ab395d594
+  url: https://pubmed.ncbi.nlm.nih.gov/26886630/
+  note: PubMed abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: 'By ethnicity, risk estimate for -1082G allele carriers was increased by 21% for digestive
+        cancers in East Asians (95%CI: 1.05-1.40; P = 0.009). As for the genotype-phenotype association,
+        carriers of -1082G allele had an overall 20.21 pg/mL higher IL-10 level than those with -1082AA
+        genotype (P = 0.023).'
+  c001:
+    quotes:
+    - exact: 'In further Mendelian randomization analysis, the predicted OR for 10 pg/mL increment in
+        IL-10 was 1.14 (95%CI: 1.01-16.99) in gastric cancer.'
+  c002:
+    quotes:
+    - exact: Our findings provided evidence for a causal role of genetically elevated IL-10 in the development
+        of gastric cancer, especially in East Asians and for intestinal type gastric cancer.
+  c003:
+    quotes:
+    - exact: Our findings provided evidence for a causal role of genetically elevated IL-10 in the development
+        of gastric cancer, especially in East Asians and for intestinal type gastric cancer.

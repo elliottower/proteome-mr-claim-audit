@@ -1,0 +1,67 @@
+source:
+  citation: grove2019asd_main
+  local: sources/grove2019asd_main.txt
+  sha256: 8047ffa1f5a7173556975ef850d5f9c53cf188e23b7d659a6d17674d0130e4ae
+  url: https://pmc-oa-opendata.s3.amazonaws.com/PMC6454898.1/PMC6454898.1.txt
+  doi: 10.1038/s41588-019-0344-8
+  note: Main text of Grove et al. 2019 Nat Genet 51:431-444 (PMC6454898 author manuscript), plain-text
+    file PMC6454898.1.txt from the PMC AWS open-data bucket (pmc-oa-opendata)
+claims:
+  ipsych:
+    quotes:
+    - exact: As part of the iPSYCH project10, we collected and genotyped a Danish nation-wide population-based
+        case-cohort sample including nearly all individuals born in Denmark between 1981 and 2005 and
+        diagnosed with ASD (according to ICD-10) before 2014. We randomly selected controls from the same
+        birth cohorts
+      section: Results
+  ipsych-controls:
+    quotes:
+    - exact: As controls we selected a random sample from the set of eligible children excluding those
+        with an ASD diagnosis by 2013.
+      section: Methods, iPSYCH sample
+  pgc-five-cohorts:
+    quotes:
+    - exact: In brief, five cohorts provided genotypes to the sample (N denoting the number of trios for
+        which genotypes were available)
+      section: Methods, PGC samples
+  ace:
+    quotes:
+    - exact: The Geschwind Autism Center of Excellence (ACE; N = 391)
+      section: Methods, PGC samples
+  agp:
+    quotes:
+    - exact: the Autism Genome Project62 (AGP; N = 2,272)
+      section: Methods, PGC samples
+  agre:
+    quotes:
+    - exact: the Autism Genetic Resource Exchange101,102 (AGRE; N = 974)
+      section: Methods, PGC samples
+  monbos:
+    quotes:
+    - exact: the NIMH Repository, the Montreal103/Boston Collection (MONBOS; N = 1,396
+      section: Methods, PGC samples
+  ssc:
+    quotes:
+    - exact: the Simons Simplex Collection104,105(SSC; N = 2,231)
+      section: Methods, PGC samples
+  trios-pseudo:
+    quotes:
+    - exact: The trios were analyzed as cases and pseudo controls.
+      section: Methods, PGC samples
+  main-n:
+    quotes:
+    - exact: The main GWAS meta-analysis totaled 18,381 ASD cases and 27,969 controls
+      section: Results
+  followup:
+    quotes:
+    - exact: 'As follow-up for the loci with p-values less than 10−6 we asked for look up in five samples
+        of Nordic and Eastern European origin with altogether 2,119 cases and 142,379 controls: BUPGEN
+        (Norway: 164 cases and 656 controls), PAGES (Sweden: 926 cases and 3,841 controls not part of
+        the PGC sample above), the Finnish autism case-control study (Finland: 159 cases and 526 controls),
+        deCODE (Iceland 574 cases and 136,968 controls; Eastern Europe: 296 cases and 388 controls).'
+      section: Methods, Follow-up samples
+  sumstats:
+    quotes:
+    - exact: The summary statistics are available for download the iPSYCH and at the PGC download sites
+        (see the URL section).
+      section: Availability of summary statistics

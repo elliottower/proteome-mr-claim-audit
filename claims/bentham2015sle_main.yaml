@@ -1,0 +1,51 @@
+source:
+  citation: bentham2015sle_main
+  local: sources/bentham2015sle_main.txt
+  sha256: d1fa27330bb21137453eaba6e5989cf7f537bfa205a73d7a88dcf1d53f4e5b81
+  doi: 10.1038/ng.3434
+  note: Main text of Bentham J et al. 2015 Nat Genet 47:1457-1464 (PMC4668589, author manuscript), Europe
+    PMC fullTextXML with tags stripped by a local script, one paragraph per line.
+claims:
+  design:
+    quotes:
+    - exact: 'Our study comprised 7,219 cases and 15,991 controls of European ancestry: a new GWAS, meta-analysis
+        with a published GWAS and a replication study.'
+      section: Abstract
+  gwas-hrs:
+    quotes:
+    - exact: These data were combined with the genotypes of 5,727 healthy controls taken from the University
+        of Michigan Health and Retirement Study (HRS)
+      section: Results
+  gwas-n:
+    quotes:
+    - exact: our data comprised 4,036 SLE cases and 6,959 controls (1,260 controls mainly from southern
+        Europe genotyped using the Omni1-Quad chip and 5,699 controls from the HRS cohort)
+      section: Results
+  hom-meta:
+    quotes:
+    - exact: we carried out a meta-analysis of our GWAS results and those from an independent European
+        SLE GWAS comprising 1,165 cases and 2,107 controls (the Hom et al.4 study)
+      section: Results
+  hom-cgems:
+    quotes:
+    - exact: We used a further 2,107 previously genotyped controls from the NIH CGEMS study
+      section: 'Online Methods: Data: Hom et al. study'
+  replication-controls:
+    quotes:
+    - exact: The control data for the replication study comprised 3,672 subjects from the HRS cohort (independent
+        of those used in the GWAS), 3,102 subjects from a study of melanoma and 1,202 subjects from a
+        study of blood clotting.
+      section: 'Online Methods: Data: replication study'
+  biolupus-iceland:
+    quotes:
+    - exact: 'Iceland: Kristján Steinsson (Landspitali National University Hospital)'
+      section: Acknowledgements
+  biolupus-network:
+    quotes:
+    - exact: The following samples were obtained via the BIOLUPUS network coordinated by MEAR
+      section: Acknowledgements
+  data-release:
+    quotes:
+    - exact: Summary statistics from the GWAS will be released by deposition in ImmunoBase. All 1KG imputed
+        summary statistics will also be available at http://insidegen.com/insidegen-LUPUS-data.html
+      section: Data access

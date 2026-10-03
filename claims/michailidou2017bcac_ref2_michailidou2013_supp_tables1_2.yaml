@@ -1,0 +1,52 @@
+source:
+  citation: michailidou2017bcac_ref2_michailidou2013_supp_tables1_2
+  local: sources/michailidou2017bcac_ref2_michailidou2013_supp_tables1_2.txt
+  sha256: afe1e40e3b248d2fcd5a36bde66aa943a2e40b1f4c93b2aee8e8a17902c41ead
+  doi: 10.1038/ng.2563
+  note: Supplementary Tables 1 (GWAS with case and control ascertainment) and 2 (iCOGS/COGS studies with
+    recruitment base of cases and controls) of Michailidou et al. 2013 Nat Genet 45:353-361 (ref 2 of
+    Michailidou 2017), ESM PDF 41588_2013_BFng2563_MOESM7_ESM.pdf from static-content.springer.com, pdftotext
+    -layout pages 79-93 verbatim; multi-column layout, so cell text wraps across lines
+claims:
+  bbcs_wtccc2_1958:
+    quotes:
+    - exact: 'WTCCC2: 1958      Illumina 370k'
+      section: Supplementary Table 1 (Michailidou 2013), BBCS control ascertainment
+  uk2_blood_service:
+    quotes:
+    - exact: 'UK                   UK cancer            WTCCC2: 1958'
+      section: Supplementary Table 1 (Michailidou 2013), UK2 control ascertainment
+  hebcs_nordicdb:
+    quotes:
+    - exact: NordicDB, a      (controls)
+      section: Supplementary Table 1 (Michailidou 2013), HEBCS control ascertainment
+  cgems_nhs_controls:
+    quotes:
+    - exact: Nurses Health        controls from
+      section: Supplementary Table 1 (Michailidou 2013), CGEMS control ascertainment
+  search_epic_norfolk:
+    quotes:
+    - exact: EPIC-Norfolk cohort study
+      section: Supplementary Table 2 (Michailidou 2013), SEARCH control recruitment base
+  skkdkfz_gchboc:
+    quotes:
+    - exact: Controls selected from GC-HBOC
+      section: Supplementary Table 2 (Michailidou 2013), SKKDKFZ control recruitment base
+  abcs_sanquin:
+    quotes:
+    - exact: recruited through the Sanquin blood
+      section: Supplementary Table 2 (Michailidou 2013), ABCS control recruitment base
+  st2_caption:
+    quotes:
+    - exact: Supplementary Table 2. Participating studies in BCAC contributing to the COGS replication
+        phase.
+      section: Supplementary Table 2 caption (Michailidou 2013)
+  bbcs_blood_service:
+    quotes:
+    - exact: clinics in the UK,   Blood Service
+      section: 'Supplementary Table 1 (Michailidou 2013), BBCS control ascertainment (WTCCC2: 1958 Birth
+        Cohort + UK National Blood Service)'
+  uk2_uk_national:
+    quotes:
+    - exact: oncology clinicas    UK National
+      section: Supplementary Table 1 (Michailidou 2013), UK2 control ascertainment

@@ -1,0 +1,173 @@
+source:
+  citation: lambert2013_supp
+  local: sources/lambert2013_supp.txt
+  sha256: ff35bc857ffd1fc403ab6dc410d8033a646e4602f4938200b1b8daa9c19e35a7
+  doi: 10.1038/ng.2802
+  note: 'Supplementary Information PDF (ESM 41588_2013_BFng2802_MOESM27_ESM.pdf from static-content.springer.com)
+    of Lambert et al. 2013 Nat Genet, pdftotext -layout; extracts: Supplementary Table 1 and Supplementary
+    Table 7 (one row per line, cells '' | ''), Supplementary Note ''Full I-GAP datasets description''
+    up to the stage 2 section (wrapped lines joined into paragraphs)'
+claims:
+  st1_caption:
+    quotes:
+    - exact: Full description of the different datasets from each consortium
+      section: Supplementary Table 1
+  st7_caption:
+    quotes:
+    - exact: Full description of the GERAD stage 1 datasets
+      section: Supplementary Table 7
+  charge_aric_asps_excluded:
+    quotes:
+    - exact: Of the six studies, two, the Atherosclerosis Risk in Communities (ARIC) study and the Aus-
+        trian Study of Stroke Prevention (ASPS) study were excluded from these analyses
+      section: Supplementary Note, CHARGE
+  mayo_counted_in_adgc_only:
+    quotes:
+    - exact: MAYO study is part of both ADGC and GERAD consortia, for the purposes of the mega-meta analysis,
+        MAYO was removed from the GERAD
+      section: Supplementary Table 7 footnote
+  gerad_wtccc2_controls:
+    quotes:
+    - exact: Genotypes for the remaining 2,660 population controls were obtained from WTCCC2
+      section: Supplementary Note, GERAD
+  gerad_population_controls:
+    quotes:
+    - exact: trols were drawn from large existing cohorts with available GWAS data, including the 1958
+        British Birth Cohort (1958BC) (http://www.b58cgene.sgul.ac.uk), the KORA F4 Study and the Heinz
+        Nixdorf Recall Study
+      section: Supplementary Note, GERAD
+  eadi_controls_3c:
+    quotes:
+    - exact: Controls were selected from the 3C Study [50]
+      section: Supplementary Note, EADI
+  eadi_3c_cases:
+    quotes:
+    - exact: These AD cases were included as cases in the EADI stage 1 dataset. We retained the other
+        individuals as controls (n=6,017).
+      section: Supplementary Note, EADI
+  eadi_cases:
+    quotes:
+    - exact: All the 2,243 AD cases were ascertained by neurologists from Bordeaux, Dijon, Lille, Montpellier,
+        Paris, Rouen
+      section: Supplementary Note, EADI
+  genada_is_gsk:
+    quotes:
+    - exact: 'The GenADA Study: Data from the GenADA cohort that were analyzed included 669 AD cases and
+        713 CNEs'
+      section: Supplementary Note, ADGC
+  st1_act:
+    quotes:
+    - exact: ACT | 566 | 63.1
+      section: Supplementary Table 1
+  st1_nacc_adc:
+    quotes:
+    - exact: ADC1 | 1,411 | 53.9
+      section: Supplementary Table 1
+  st1_adni:
+    quotes:
+    - exact: ADNI | 268 | 42.2
+      section: Supplementary Table 1
+  st1_genada:
+    quotes:
+    - exact: GSK | 669 | 56.8
+      section: Supplementary Table 1
+  st1_nia_load:
+    quotes:
+    - exact: LOAD | 1,811 | 64.9
+      section: Supplementary Table 1
+  st1_mayo:
+    quotes:
+    - exact: MAYO | 728 | 57.6
+      section: Supplementary Table 1
+  st1_mirage:
+    quotes:
+    - exact: MIRAGE | 509 | 63.7
+      section: Supplementary Table 1
+  st1_ohsu:
+    quotes:
+    - exact: OHSU | 131 | 61.8
+      section: Supplementary Table 1
+  st1_rosmap:
+    quotes:
+    - exact: ROSMAP | 291 | 70.5
+      section: Supplementary Table 1
+  st1_tgen2:
+    quotes:
+    - exact: TGEN2 | 129 | 46.6
+      section: Supplementary Table 1
+  st1_um_vu_mssm:
+    quotes:
+    - exact: UMVUMSS | 1,070 | 63.7
+      section: Supplementary Table 1
+  st1_upitt:
+    quotes:
+    - exact: UPITT | 1,271 | 63.1
+      section: Supplementary Table 1
+  st1_washu:
+    quotes:
+    - exact: WASHU | 318 | 55.7
+      section: Supplementary Table 1
+  st1_ages:
+    quotes:
+    - exact: AGES | 78 | 50.0
+      section: Supplementary Table 1
+  st1_chs:
+    quotes:
+    - exact: CHS.inc | 353 | 68.9
+      section: Supplementary Table 1
+  st1_fhs:
+    quotes:
+    - exact: FHS.inc | 117 | 59.0
+      section: Supplementary Table 1
+  st1_rs:
+    quotes:
+    - exact: RS.inc | 462 | 59.0
+      section: Supplementary Table 1
+  st1_eadi:
+    quotes:
+    - exact: EADI | 2,243 | 64.9
+      section: Supplementary Table 1
+  st1_gerad:
+    quotes:
+    - exact: GERAD | 3,177 | 64.0
+      section: Supplementary Table 1
+  st7_mrc_genetic_resource_ad:
+    quotes:
+    - exact: MRC | 1008 | 70.3
+      section: Supplementary Table 7
+  st7_aruk:
+    quotes:
+    - exact: ARUK | 939 | 61.0
+      section: Supplementary Table 7
+  st7_bonn:
+    quotes:
+    - exact: BONN | 551 | 63.7
+      section: Supplementary Table 7
+  st7_nimh_ad_genetics_initiative:
+    quotes:
+    - exact: NIMH | 127 | 63.0
+      section: Supplementary Table 7
+  st7_ucl_prion:
+    quotes:
+    - exact: UCL:PRION | 82 | 59.8
+      section: Supplementary Table 7
+  st7_ucl_laser_ad:
+    quotes:
+    - exact: UCL:LASER | 47 | 74.5
+      section: Supplementary Table 7
+  st7_b58c:
+    quotes:
+    - exact: 1958BC | - | - | - | 5342
+      section: Supplementary Table 7
+  st7_kora:
+    quotes:
+    - exact: KORA | - | - | - | 434
+      section: Supplementary Table 7
+  st7_hnr:
+    quotes:
+    - exact: HNR | - | - | - | 353
+      section: Supplementary Table 7
+  st7_washu:
+    quotes:
+    - exact: WASHU | 423 | 56.0
+      section: Supplementary Table 7

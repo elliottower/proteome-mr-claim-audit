@@ -1,0 +1,31 @@
+source:
+  citation: kurki2023finngen_supp_methods
+  local: sources/original/kurki2023finngen_supp_methods.docx
+  sha256: 190e67a7147b0b034371bfa1780531a1261fd137c27961b52b63b59c6664694c
+  url: https://static-content.springer.com/esm/art%3A10.1038%2Fs41586-022-05473-8/MediaObjects/41586_2022_5473_MOESM5_ESM.docx
+  doi: 10.1038/s41586-022-05473-8
+  extractor: docx-text
+  note: 'Original file behind claims/kurki2023finngen_supp_methods.yaml: 41586_2022_5473_MOESM5_ESM.docx
+    from static-content.springer.com, read by the citations extractor docx-text. The quotations here are
+    those of that file that resolve in this reading; a quotation absent here stays pinned where it already
+    was.'
+  extractor_version: 1
+  derived_sha256: 5b5b3062c3327084d28310dd26b6fab0bb522a3d2d2df65e154a2dd73568478e
+claims:
+  legacy-def:
+    quotes:
+    - exact: The FinnGen cohort consists of (a) legacy samples recruited by specific research projects,
+        collected based on study-specific consents (Supplementary Table 2) and later transferred to a
+        biobank according to the Finnish Biobank Act 13 § (mainly from the Biobank of the Finnish Institute
+        for Health and Welfare (THL))
+      section: Section 2
+  r5-biobanks:
+    quotes:
+    - exact: 'from the following biobanks: Auria Biobank, Helsinki Biobank, Biobank of Eastern Finland,
+        Central Finland Biobank, Northern Finland Biobank Borealis, Finnish Clinical Biobank Tampere,
+        THL Biobank, Blood Service Biobank, and Terveystalo Biobank.'
+      section: Section 2
+  legacy-chips:
+    quotes:
+    - exact: 70,023 individuals from legacy collections genotyped with non-custom genotyping arrays
+      section: Section 3

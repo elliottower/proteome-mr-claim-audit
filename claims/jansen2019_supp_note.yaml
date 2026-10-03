@@ -1,0 +1,68 @@
+source:
+  citation: jansen2019_supp_note
+  local: sources/jansen2019_supp_note.txt
+  sha256: 4b50c89d56679c5429c316d411320554690d2b5290db47f599e31380f6319bee
+  doi: 10.1038/s41588-018-0311-9
+  note: Supplementary Note of Jansen et al. 2019 Nat Genet (ESM 41588_2018_311_MOESM1_ESM.pdf from static-content.springer.com),
+    pdftotext -layout; section A 'Study Cohorts' and the ADSP acknowledgement paragraph, wrapped lines
+    joined into paragraphs
+claims:
+  decode_replication_only:
+    quotes:
+    - exact: For a separate replication sample, data from the deCODE study included 6,593 Alzheimer's
+        disease cases
+      section: Supplementary Note, Study Cohorts v
+  igap_stage1_only:
+    quotes:
+    - exact: We limited the inclusion of the summary statistics for our own analyses to stage 1
+      section: Supplementary Note, Study Cohorts ii
+  pgc_alz_three_datasets:
+    quotes:
+    - exact: Three non-public datasets (the Norwegian DemGene network, The Swedish Twin Studies of Aging,
+        and TwinGene) were meta-analyzed
+      section: Supplementary Note, Study Cohorts i
+  demgene_case_studies:
+    quotes:
+    - exact: 'We diagnosed 2,224 AD cases from 7 studies: the Norwegian Register of persons with Cognitive
+        Symptoms (NorCog), the Progression of Alzheimer’s Disease and Resource use (PADR), the Dementia
+        Study of Western Norway (DemVest), the AHUS study, the Dementia Study in Rural Northern Norway
+        (NordNorge), the HUNT Dementia Stud, the Nursing Home study, and the TrønderBrain study.'
+      section: Supplementary Note, Study Cohorts i
+  demgene_controls:
+    quotes:
+    - exact: The controls from Norway were obtained through the AHUS, NordNorge, HUNT and TrønderBrain
+        studies.
+      section: Supplementary Note, Study Cohorts i
+  demgene_extra_controls:
+    quotes:
+    - exact: from Norwegian blood donor samples (Oslo University Hospital, Ullevål Hospital, Oslo) and
+        controls from Thematically Organized Psychosis (TOP) Research Study
+      section: Supplementary Note, Study Cohorts i
+  stsa:
+    quotes:
+    - exact: The Swedish Twin Studies of Aging (STSA) (n cases = 398, n controls = 1,079) includes three
+        sub-studies of aging within the Swedish Twin Registry
+      section: Supplementary Note, Study Cohorts i
+  twingene:
+    quotes:
+    - exact: is a population-based study of older twins drawn from the Swedish Twin Registry
+      section: Supplementary Note, Study Cohorts i
+  adsp_wes:
+    quotes:
+    - exact: We have obtained access to 10,907 individuals (5,771 cases, 5,136 controls)
+      section: Supplementary Note, Study Cohorts iii
+  adsp_overlap_with_igap:
+    quotes:
+    - exact: A substantial proportion of the ADSP individuals were previously also included in IGAP.
+      section: Supplementary Note, Study Cohorts iii
+  adsp_charge_cohorts_ack:
+    quotes:
+    - exact: 'The CHARGE cohorts participating in the ADSP include the following: Austrian Stroke Prevention
+        Study (ASPS), ASPS-Family study, and the Prospective Dementia Registry-Austria (ASPS/PRODEM-Aus),
+        the Atherosclerosis Risk in Communities (ARIC) Study, the Cardiovascular Health Study (CHS), the
+        Erasmus Rucphen'
+      section: Supplementary Note, Acknowledgements
+  ukb:
+    quotes:
+    - exact: The current study used data from the UK Biobank8
+      section: Supplementary Note, Study Cohorts iv

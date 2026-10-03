@@ -1,0 +1,42 @@
+source:
+  citation: tsuo2022gbmi_asthma_main
+  local: sources/original/tsuo2022gbmi_asthma_main.xml
+  sha256: 39d5a722da640bd9209f595e3aa50cc8b565d82cc37047a920feb1351b7c9394
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9903683/fullTextXML
+  doi: 10.1016/j.xgen.2022.100212
+  extractor: jats-text
+  note: 'Original file behind claims/tsuo2022gbmi_asthma_main.yaml: the XML pinned in claims/tsuo2022gbmi_asthma_main_original.yaml,
+    read by the citations extractor jats-text. The quotations here are those of that file that resolve
+    in this reading; a quotation absent here stays pinned where it already was.'
+  extractor_version: 1
+  derived_sha256: ddf01337697c7b5944f32d669c1e34020e8e413749c7710c17633ccaca917673
+claims:
+  discovery-18:
+    quotes:
+    - exact: 'We performed fixed-effects meta-analysis with inverse variance weighting for 18 biobanks
+        in GBMI: China Kadoorie Biobank (CKB), Generation Scotland (GS), Lifelines, QSKIN, East London
+        Genes & Health (GNH), HUNT, UCLA Precision Health Biobank (UCLA), Colorado Center for Personalized
+        Medicine (CCPM), Mass General Brigham (MGB), BioVU, BioMe, Michigan Genomics Initiative (MGI),
+        BioBank Japan (BBJ), Estonian Biobank (ESTBB), deCODE Genetics (DECODE), FinnGen, Taiwan Biobank
+        (TWB), and UK Biobank (UKBB).'
+      section: 'STAR Methods: Meta-analysis'
+  discovery-n:
+    quotes:
+    - exact: Altogether, these cohorts had a total sample size of 153,763 cases and 1,647,022 controls
+        (Table S1).
+      section: 'STAR Methods: Meta-analysis'
+  replication-4:
+    quotes:
+    - exact: 'We also performed fixed-effects meta-analysis with inverse variance weighting for 4 additional
+        biobanks that served as independent replication studies: Canadian Partnership for Tomorrow’s Health
+        (CanPath), Qatar Biobank (QBB), Biobank of the Americas (BBofA), and Penn Medicine Biobank (PMBB).'
+      section: STAR Methods
+  sumstats-source:
+    quotes:
+    - exact: GBMI summary statistics | Zhou et al.33 | https://www.globalbiobankmeta.org/resources
+      section: Key resources table
+  leave-bbj-out:
+    quotes:
+    - exact: we computed genetic correlation estimates between the GBMI leave-BBJ-out meta-analysis of
+        asthma
+      section: Results

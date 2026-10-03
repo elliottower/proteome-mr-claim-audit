@@ -1,0 +1,14 @@
+source:
+  citation: sobczyk2023
+  local: sources/original/sobczyk2023.xml
+  sha256: 835c92c0404520ade61dfef3799e2cfb0dce14f451c0be7b693da73973d3db20
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10533809/fullTextXML
+  doi: 10.1136/bmjopen-2023-072087
+  note: 'Original file behind claims/sobczyk2023.yaml: Europe PMC fullTextXML of PMC10533809, read as
+    plain text with its markup. The quotations here are the quotations of that file that resolve in this
+    file under the citations readers; a quotation absent here is pinned to the extracted text there only.'
+claims:
+  comparisons:
+    quotes:
+    - exact: a series of 26 manual literature comparisons among 54 MR and 77 RCT publications
+      section: Abstract/Results

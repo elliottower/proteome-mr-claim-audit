@@ -1,0 +1,37 @@
+source:
+  citation: yengo2022giant_main
+  local: sources/original/yengo2022giant_main.xml
+  sha256: 735dd54d939eb6f5c5b5df644d33b3a2190352a46038c3a63736ad3fd4c19944
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9605867/fullTextXML
+  doi: 10.1038/s41586-022-05275-y
+  extractor: jats-text
+  note: 'Original file behind claims/yengo2022giant_main.yaml: the XML pinned in claims/yengo2022giant_main_original.yaml,
+    read by the citations extractor jats-text. The quotations here are those of that file that resolve
+    in this reading; a quotation absent here stays pinned where it already was.'
+  extractor_version: 1
+  derived_sha256: 0f1d58c654c0bd3eebaf056ffcd56fa38d2acb748764423726a0b8fea3cf70f4
+claims:
+  n281:
+    quotes:
+    - exact: We performed genetic analysis of up to 5,380,080 individuals from 281 studies from the GIANT
+        consortium and 23andMe.
+      section: Results
+  anc_counts:
+    quotes:
+    - exact: We first performed ancestry-group-specific GWAS meta-analyses of 173 studies of EUR, 56 studies
+        of EAS, 29 studies of AFR, 11 studies of HIS and 12 studies of SAS.
+      section: Methods
+  availability:
+    quotes:
+    - exact: Data availability Summary statistics for ancestry-specific and multi-ancestry GWASs (excluding
+        data from 23andMe) as well as SNP weights for polygenic scores derived in this study are made
+        publicly available on the GIANT consortium website
+      section: Data availability
+  holdout:
+    quotes:
+    - exact: We excluded 56,477 UK Biobank (UKB) participants from our discovery GWAS
+      section: Methods
+  eur_no23andme:
+    quotes:
+    - exact: GIANT-EUR (no 23andMe) | 1,632,839 (1,502,499)
+      section: Table 2

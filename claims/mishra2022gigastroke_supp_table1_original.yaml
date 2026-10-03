@@ -1,0 +1,366 @@
+source:
+  citation: mishra2022gigastroke_supp_table1
+  local: sources/original/mishra2022gigastroke_supp_table1.xlsx
+  sha256: 7c688f864c73ec2e9624bde9f53ac48a9880a6a08e59f5e1266690e243618ba4
+  url: https://static-content.springer.com/esm/art%3A10.1038%2Fs41586-022-05165-3/MediaObjects/41586_2022_5165_MOESM4_ESM.xlsx
+  doi: 10.1038/s41586-022-05165-3
+  extractor: sheet-rows
+  note: 'Original file behind claims/mishra2022gigastroke_supp_table1.yaml: 41586_2022_5165_MOESM4_ESM.xlsx
+    from static-content.springer.com, read by the citations extractor sheet-rows. The quotations here
+    are those of that file that resolve in this reading; a quotation absent here stays pinned where it
+    already was.'
+  extractor_version: 1
+  derived_sha256: f25072fdc42889c05f06c9e969fe0b5340b2dfc0e8ac0db047714a2790c55710
+claims:
+  st1-total-discovery:
+    quotes:
+    - exact: Total ALL discovery | 32903 | 16863 | 2628 | 1041 | 634 | 2255 | 701425 | 110182
+      section: Supplementary Table 1 (Description of the study samples contributing to GIGASTROKE)
+  st1-footnote-unchanged:
+    quotes:
+    - exact: '*upgraded dataset; **new dataset; all other studies are unchanged compared with MEGASTROKE
+        (European ancestry GWAS meta-analysis publicly available)'
+      section: Supplementary Table 1 (Description of the study samples contributing to GIGASTROKE)
+  st1-total-followup:
+    quotes:
+    - exact: Total ALL follow-up | 89084 | 85546 | 1013843
+      section: Supplementary Table 1 (Description of the study samples contributing to GIGASTROKE)
+  st1-eur-aric-ea:
+    quotes:
+    - exact: EUR | ARIC_EA* | 591
+      section: Supplementary Table 1 (Description of the study samples contributing to GIGASTROKE)
+  st1-chs-ea:
+    quotes:
+    - exact: CHS_EA* | 653
+      section: Supplementary Table 1 (Description of the study samples contributing to GIGASTROKE)
+  st1-fhs-ea:
+    quotes:
+    - exact: FHS_EA* | 264
+      section: Supplementary Table 1 (Description of the study samples contributing to GIGASTROKE)
+  st1-epoz-ea:
+    quotes:
+    - exact: EPOZ_EA* | 22
+      section: Supplementary Table 1 (Description of the study samples contributing to GIGASTROKE)
+  st1-rs1-ea:
+    quotes:
+    - exact: RS1_EA* | 999
+      section: Supplementary Table 1 (Description of the study samples contributing to GIGASTROKE)
+  st1-rs2-ea:
+    quotes:
+    - exact: RS2_EA* | 161
+      section: Supplementary Table 1 (Description of the study samples contributing to GIGASTROKE)
+  st1-rs3-ea:
+    quotes:
+    - exact: RS3_EA** | 60
+      section: Supplementary Table 1 (Description of the study samples contributing to GIGASTROKE)
+  st1-threecities-ea:
+    quotes:
+    - exact: threeCities_EA* | 278
+      section: Supplementary Table 1 (Description of the study samples contributing to GIGASTROKE)
+  st1-wghs-ea:
+    quotes:
+    - exact: WGHS_EA* | 712
+      section: Supplementary Table 1 (Description of the study samples contributing to GIGASTROKE)
+  st1-prosperlogistic-ea:
+    quotes:
+    - exact: PROSPERlogistic_EA* | 193
+      section: Supplementary Table 1 (Description of the study samples contributing to GIGASTROKE)
+  st1-ukbiobank:
+    quotes:
+    - exact: UKBiobank | 2932
+      section: Supplementary Table 1 (Description of the study samples contributing to GIGASTROKE)
+  st1-ship:
+    quotes:
+    - exact: SHIP* | 102
+      section: Supplementary Table 1 (Description of the study samples contributing to GIGASTROKE)
+  st1-mesa:
+    quotes:
+    - exact: MESA* | 92
+      section: Supplementary Table 1 (Description of the study samples contributing to GIGASTROKE)
+  st1-epiccvd:
+    quotes:
+    - exact: EPICCVD* | 4795
+      section: Supplementary Table 1 (Description of the study samples contributing to GIGASTROKE)
+  st1-habc:
+    quotes:
+    - exact: HABC* | 180
+      section: Supplementary Table 1 (Description of the study samples contributing to GIGASTROKE)
+  st1-sign-whi:
+    quotes:
+    - exact: SiGN (WHI)** | 974
+      section: Supplementary Table 1 (Description of the study samples contributing to GIGASTROKE)
+  st1-hunt:
+    quotes:
+    - exact: HUNT** | 4404
+      section: Supplementary Table 1 (Description of the study samples contributing to GIGASTROKE)
+  st1-estbb:
+    quotes:
+    - exact: EstBB** | 1642
+      section: Supplementary Table 1 (Description of the study samples contributing to GIGASTROKE)
+  st1-ages:
+    quotes:
+    - exact: AGES | 114
+      section: Supplementary Table 1 (Description of the study samples contributing to GIGASTROKE)
+  st1-geisinger:
+    quotes:
+    - exact: GEISINGER** | 1184
+      section: Supplementary Table 1 (Description of the study samples contributing to GIGASTROKE)
+  st1-cchs-dk:
+    quotes:
+    - exact: CCHS (DK)** | 1508
+      section: Supplementary Table 1 (Description of the study samples contributing to GIGASTROKE)
+  st1-danish-tr:
+    quotes:
+    - exact: DANISH_TR** | 85
+      section: Supplementary Table 1 (Description of the study samples contributing to GIGASTROKE)
+  st1-finrisk:
+    quotes:
+    - exact: FINRISK** | 1193
+      section: Supplementary Table 1 (Description of the study samples contributing to GIGASTROKE)
+  st1-smart:
+    quotes:
+    - exact: SMART* | 224
+      section: Supplementary Table 1 (Description of the study samples contributing to GIGASTROKE)
+  st1-aspree:
+    quotes:
+    - exact: ASPREE** | 246
+      section: Supplementary Table 1 (Description of the study samples contributing to GIGASTROKE)
+  st1-metastroke:
+    quotes:
+    - exact: METASTROKE | 10307
+      section: Supplementary Table 1 (Description of the study samples contributing to GIGASTROKE)
+  st1-sign:
+    quotes:
+    - exact: SIGN | 7743
+      section: Supplementary Table 1 (Description of the study samples contributing to GIGASTROKE)
+  st1-decode:
+    quotes:
+    - exact: DECODE | 5520
+      section: Supplementary Table 1 (Description of the study samples contributing to GIGASTROKE)
+  st1-young-lacunar-dna:
+    quotes:
+    - exact: Young Lacunar DNA | 1403
+      section: Supplementary Table 1 (Description of the study samples contributing to GIGASTROKE)
+  st1-sifap:
+    quotes:
+    - exact: SIFAP | 981
+      section: Supplementary Table 1 (Description of the study samples contributing to GIGASTROKE)
+  st1-interstroke-eur:
+    quotes:
+    - exact: INTERSTROKE EUR | 911
+      section: Supplementary Table 1 (Description of the study samples contributing to GIGASTROKE)
+  st1-hvh1:
+    quotes:
+    - exact: HVH1 | 681
+      section: Supplementary Table 1 (Description of the study samples contributing to GIGASTROKE)
+  st1-hvh2:
+    quotes:
+    - exact: HVH2 | 124
+      section: Supplementary Table 1 (Description of the study samples contributing to GIGASTROKE)
+  st1-glasgow:
+    quotes:
+    - exact: Glasgow | 599
+      section: Supplementary Table 1 (Description of the study samples contributing to GIGASTROKE)
+  st1-cadisp:
+    quotes:
+    - exact: CADISP | 555
+      section: Supplementary Table 1 (Description of the study samples contributing to GIGASTROKE)
+  st1-sahlsis:
+    quotes:
+    - exact: SAHLSIS | 298
+      section: Supplementary Table 1 (Description of the study samples contributing to GIGASTROKE)
+  st1-mdc:
+    quotes:
+    - exact: MDC | 202
+      section: Supplementary Table 1 (Description of the study samples contributing to GIGASTROKE)
+  st1-ich:
+    quotes:
+    - exact: ICH | 1545
+      section: Supplementary Table 1 (Description of the study samples contributing to GIGASTROKE)
+  st1-generacion:
+    quotes:
+    - exact: Generacion** | 3279
+      section: Supplementary Table 1 (Description of the study samples contributing to GIGASTROKE)
+  st1-german-ber-mun-wur:
+    quotes:
+    - exact: German_Ber_Mun_Wur** | 4557
+      section: Supplementary Table 1 (Description of the study samples contributing to GIGASTROKE)
+  st1-nl-ea-future-psi-odyssey:
+    quotes:
+    - exact: NL_EA(Future&PSI&Odyssey§)** | 2170
+      section: Supplementary Table 1 (Description of the study samples contributing to GIGASTROKE)
+  st1-finngen-hospital:
+    quotes:
+    - exact: FINNGEN_HOSPITAL** | 8979
+      section: Supplementary Table 1 (Description of the study samples contributing to GIGASTROKE)
+  st1-finngen-population:
+    quotes:
+    - exact: FINNGEN_Population** | 824
+      section: Supplementary Table 1 (Description of the study samples contributing to GIGASTROKE)
+  st1-utartu-estbb:
+    quotes:
+    - exact: UTARTU-EstBB** | 340
+      section: Supplementary Table 1 (Description of the study samples contributing to GIGASTROKE)
+  st1-eas-ckbb-asn-rc12:
+    quotes:
+    - exact: EAS | CKBB_ASN (RC12)** | 426
+      section: Supplementary Table 1 (Description of the study samples contributing to GIGASTROKE)
+  st1-hisayama-asn-incident-analysis-only:
+    quotes:
+    - exact: HISAYAMA_ASN (incident analysis only) | 74
+      section: Supplementary Table 1 (Description of the study samples contributing to GIGASTROKE)
+  st1-kcps2-asn:
+    quotes:
+    - exact: KCPS2_ASN** | 1489
+      section: Supplementary Table 1 (Description of the study samples contributing to GIGASTROKE)
+  st1-biobank-japan:
+    quotes:
+    - exact: BIOBANK_JAPAN* | 17651
+      section: Supplementary Table 1 (Description of the study samples contributing to GIGASTROKE)
+  st1-hisayama-fsr:
+    quotes:
+    - exact: HISAYAMA_FSR | 1113
+      section: Supplementary Table 1 (Description of the study samples contributing to GIGASTROKE)
+  st1-interstroke-asn:
+    quotes:
+    - exact: INTERSTROKE_ASN | 365
+      section: Supplementary Table 1 (Description of the study samples contributing to GIGASTROKE)
+  st1-afr-aric-aa:
+    quotes:
+    - exact: AFR | ARIC_AA** | 298
+      section: Supplementary Table 1 (Description of the study samples contributing to GIGASTROKE)
+  st1-chs-aa:
+    quotes:
+    - exact: CHS_AA** | 153
+      section: Supplementary Table 1 (Description of the study samples contributing to GIGASTROKE)
+  st1-regards-signet-aa-incident-analysis-only:
+    quotes:
+    - exact: REGARDS_SIGNET_AA (incident analysis only)** | 76
+      section: Supplementary Table 1 (Description of the study samples contributing to GIGASTROKE)
+  st1-mesa-aa:
+    quotes:
+    - exact: MESA_AA** | 67
+      section: Supplementary Table 1 (Description of the study samples contributing to GIGASTROKE)
+  st1-habc-aa:
+    quotes:
+    - exact: HABC_AA** | 160
+      section: Supplementary Table 1 (Description of the study samples contributing to GIGASTROKE)
+  st1-jhs-aa-incident-analysis-only:
+    quotes:
+    - exact: JHS_AA (incident analysis only)** | 29
+      section: Supplementary Table 1 (Description of the study samples contributing to GIGASTROKE)
+  st1-compass:
+    quotes:
+    - exact: COMPASS | 3734
+      section: Supplementary Table 1 (Description of the study samples contributing to GIGASTROKE)
+  st1-his-mesa-ha:
+    quotes:
+    - exact: HIS | MESA_HA** | 65
+      section: Supplementary Table 1 (Description of the study samples contributing to GIGASTROKE)
+  st1-nomas-ha:
+    quotes:
+    - exact: NOMAS_HA** | 89
+      section: Supplementary Table 1 (Description of the study samples contributing to GIGASTROKE)
+  st1-interstroke-ha:
+    quotes:
+    - exact: INTERSTROKE_HA | 865
+      section: Supplementary Table 1 (Description of the study samples contributing to GIGASTROKE)
+  st1-jsb-brazil:
+    quotes:
+    - exact: JSB_BRAZIL** | 497
+      section: Supplementary Table 1 (Description of the study samples contributing to GIGASTROKE)
+  st1-sas-race1:
+    quotes:
+    - exact: SAS | RACE1 | 1218
+      section: Supplementary Table 1 (Description of the study samples contributing to GIGASTROKE)
+  st1-race2:
+    quotes:
+    - exact: RACE2 | 1167
+      section: Supplementary Table 1 (Description of the study samples contributing to GIGASTROKE)
+  st1-aiims-delhi:
+    quotes:
+    - exact: AIIMS_DELHI** | 1255
+      section: Supplementary Table 1 (Description of the study samples contributing to GIGASTROKE)
+  followup-eur-mvp:
+    quotes:
+    - exact: EUR | MVP | 39165
+      section: Supplementary Table 1 (Description of the study samples contributing to GIGASTROKE), follow-up
+  followup-finngen-9027:
+    quotes:
+    - exact: FinnGen | 9027 | 8140
+      section: Supplementary Table 1 (Description of the study samples contributing to GIGASTROKE), follow-up
+  followup-finnhosp:
+    quotes:
+    - exact: FinnHosp | 1666 | 1666
+      section: Supplementary Table 1 (Description of the study samples contributing to GIGASTROKE), follow-up
+  followup-interstroke-1312:
+    quotes:
+    - exact: Interstroke | 1312 | 1223
+      section: Supplementary Table 1 (Description of the study samples contributing to GIGASTROKE), follow-up
+  followup-mgb-3745:
+    quotes:
+    - exact: MGB | 3745 | 3745
+      section: Supplementary Table 1 (Description of the study samples contributing to GIGASTROKE), follow-up
+  followup-biovu-4686:
+    quotes:
+    - exact: BioVU | 4686 | 3582
+      section: Supplementary Table 1 (Description of the study samples contributing to GIGASTROKE), follow-up
+  followup-estbb-1571:
+    quotes:
+    - exact: EstBB | 1571 | 1372
+      section: Supplementary Table 1 (Description of the study samples contributing to GIGASTROKE), follow-up
+  followup-pmbb-1223:
+    quotes:
+    - exact: PMBB | 1223 | 1018
+      section: Supplementary Table 1 (Description of the study samples contributing to GIGASTROKE), follow-up
+  followup-siren:
+    quotes:
+    - exact: SIREN | 1691 | 1691
+      section: Supplementary Table 1 (Description of the study samples contributing to GIGASTROKE), follow-up
+  followup-tbb:
+    quotes:
+    - exact: TBB | 2064 | 1399
+      section: Supplementary Table 1 (Description of the study samples contributing to GIGASTROKE), follow-up
+  followup-ckbb-5692:
+    quotes:
+    - exact: CKBB | 5692 | 5692
+      section: Supplementary Table 1 (Description of the study samples contributing to GIGASTROKE), follow-up
+  followup-crcs-k-and-kba-gwas:
+    quotes:
+    - exact: CRCS-K and KBA GWAS | 1120 | 1116
+      section: Supplementary Table 1 (Description of the study samples contributing to GIGASTROKE), follow-up
+  st1-sign-whi-row:
+    quotes:
+    - exact: SiGN (WHI)** | 974 | 974 | 229 | 206 | 152 | NA | 8313 | Population-based, incident (only,
+        not included in global meta-analysis)
+      section: Supplementary Table 1 (Description of the study samples contributing to GIGASTROKE)
+  st1-afr-aric-aa-row:
+    quotes:
+    - exact: AFR | ARIC_AA** | 298 | 298 | NA | NA | NA | 44 | 2430 | 298 | NA | NA | NA | 44 | Population-based,
+        incident (not included for prevalent AS, as in COMPASS)
+      section: Supplementary Table 1 (Description of the study samples contributing to GIGASTROKE)
+  st1-chs-aa-row:
+    quotes:
+    - exact: CHS_AA** | 153 | 114 | NA | NA | NA | NA | 610 | 114 | NA | NA | NA | NA | Population-based,
+        incident (not included for prevalent AS, as in COMPASS)
+      section: Supplementary Table 1 (Description of the study samples contributing to GIGASTROKE)
+  st1-regards-signet-aa-row:
+    quotes:
+    - exact: REGARDS_SIGNET_AA (incident analysis only)** | 76 | NA | NA | NA | NA | NA | 2064 | Population-based,
+        incident (not included for prevalent AS, as in COMPASS)
+      section: Supplementary Table 1 (Description of the study samples contributing to GIGASTROKE)
+  st1-jhs-aa-row:
+    quotes:
+    - exact: JHS_AA (incident analysis only)** | 29 | NA | NA | NA | NA | NA | 1716 | Population-based,
+        incident (not included for prevalent AS, as in COMPASS)
+      section: Supplementary Table 1 (Description of the study samples contributing to GIGASTROKE)
+  st1-interstroke-aa-row:
+    quotes:
+    - exact: INTERSTROKE_AA | NA | 122 | 46 | 44 | 32 | NA | Population-based, incident (not included
+        for prevalent AS, as in COMPASS)
+      section: Supplementary Table 1 (Description of the study samples contributing to GIGASTROKE)
+  st1-hisayama-asn-row:
+    quotes:
+    - exact: HISAYAMA_ASN (incident analysis only) | 74 | 46 | NA | NA | NA | NA | 1880 | Population-based,
+        incident (only, not included in global meta-analysis)
+      section: Supplementary Table 1 (Description of the study samples contributing to GIGASTROKE)

@@ -1,0 +1,33 @@
+source:
+  citation: kurki2023finngen_main
+  local: sources/original/kurki2023finngen_main.xml
+  sha256: e2d20baafc775ff81e003147346cba0d2d52c75577b02e4c601b2a7135aa2495
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9849126/fullTextXML
+  doi: 10.1038/s41586-022-05473-8
+  extractor: jats-text
+  note: 'Original file behind claims/kurki2023finngen_main.yaml: the XML pinned in claims/kurki2023finngen_main_original.yaml,
+    read by the citations extractor jats-text. The quotations here are those of that file that resolve
+    in this reading; a quotation absent here stays pinned where it already was.'
+  extractor_version: 1
+  derived_sha256: 9e8a3ce1b9b039d2f4b1945c851ec5af66e73463a9e47ba42b1ef8e6a5d9a1bc
+claims:
+  legacy-and-new:
+    quotes:
+    - exact: FinnGen is a public–private partnership research project that combines imputed genotype data
+        generated from newly collected and legacy samples from Finnish biobanks
+      section: Introduction
+  legacy-70023:
+    quotes:
+    - exact: Data on 70,023 additional individuals were derived from legacy collections (Supplementary
+        Table 2)
+      section: Results
+  legacy-prospected:
+    quotes:
+    - exact: Samples in the FinnGen study include legacy samples (prospected number 200,000) from previous
+        research cohorts (often disease-specific) that have been transferred to the Finnish biobanks
+      section: 'Methods: Biobank samples'
+  thl-nonregional:
+    quotes:
+    - exact: The Finnish Institute for Health and Welfare (THL), the Blood Service and the Terveystalo
+        biobanks are not regional.
+      section: Figure 1 legend

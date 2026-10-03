@@ -1,0 +1,34 @@
+source:
+  citation: covidhgi2021_main
+  local: sources/original/covidhgi2021_main.xml
+  sha256: e9b7271be234377904fed35a82059f50eef69999387533e50a537bffc4437293
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8674144/fullTextXML
+  doi: 10.1038/s41586-021-03767-x
+  note: 'Original file behind claims/covidhgi2021_main.yaml: Europe PMC fullTextXML of PMC8674144, read
+    as plain text with its markup. The quotations here are the quotations of that file that resolve in
+    this file under the citations readers; a quotation absent here is pinned to the extracted text there
+    only.'
+claims:
+  studies-46:
+    quotes:
+    - exact: Here, we report the latest results of meta-analyses of 46 studies from 19 countries
+      section: 'Main text: introduction'
+  n-cases-46:
+    quotes:
+    - exact: the COVID-19 HGI combined genetic data from 49,562 cases and 2 million controls across 46
+        distinct studies
+      section: 'Results: Meta-analyses of COVID-19'
+  release5:
+    quotes:
+    - exact: these regions are not excluded from the corresponding summary statistics in data release
+        5
+      section: Methods
+  ldsc-23andme:
+    quotes:
+    - exact: all including the 23andMe cohort
+      section: 'Methods: Heritability'
+  data-freezes-web:
+    quotes:
+    - exact: Upon the completion of each data freeze, we post summary statistics, plots and sample size
+        breakdowns for each phenotype and contributing cohort
+      section: Methods

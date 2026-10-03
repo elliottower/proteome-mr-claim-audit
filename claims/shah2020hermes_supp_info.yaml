@@ -1,0 +1,54 @@
+source:
+  citation: shah2020hermes_supp_info
+  local: sources/shah2020hermes_supp_info.txt
+  sha256: d3e137a0b9da8a69f850328eb5b27bac036490cd51ba28dd15564a41160adfb8
+  doi: 10.1038/s41467-019-13690-5
+  note: Shah et al. 2020 Supplementary Information PDF 41467_2019_13690_MOESM1_ESM.pdf (Europe PMC supplementaryFiles
+    zip for PMC6952380), converted with pdftotext -layout; Supplementary Note 2 describes participating
+    studies.
+claims:
+  ctrl-decode:
+    quotes:
+    - exact: The controls included population controls from the Icelandic genealogical database and individuals
+        recruited through different genetic studies at deCODE genetics.
+      section: Supplementary Note 2, deCODE
+  discovehr:
+    quotes:
+    - exact: DiscovEHR is a collaboration between Regeneron Genetics Center and Geisinger Health System.
+      section: Supplementary Note 2, DiscovEHR
+  ctrl-ephesus:
+    quotes:
+    - exact: The controls (A9011027) were recruited in a multi-site, cross-sectional, non-treatment prospective
+        trial to collect data, including DNA, from elderly subjects in the US who were cognitively normal
+        and free of psychiatric diseases or clinically significant cardiovascular disease.
+      section: Supplementary Note 2, EPHESUS
+  ctrl-grade:
+    quotes:
+    - exact: Controls were drawn from the Broad AF study, a large case-control cohort study for atrial
+        fibrillation73.
+      section: Supplementary Note 2, GRADE
+  biostat:
+    quotes:
+    - exact: validation cohort consisted of 1,738 patients recruited from 6 hospitals in Scotland from
+        2010-2014.
+      section: Supplementary Note 2, BIOSTAT-CHF
+  cogen:
+    quotes:
+    - exact: The Copenhagen Cardiovascular Genetic study (COGEN) is a biobank that has collected superfluous
+        whole blood from patients admitted to six cardiology departments in the Capital region of Copenhagen
+        from 2010-2017.
+      section: Supplementary Note 2, COGEN
+  phfs:
+    quotes:
+    - exact: A case-control genome-wide association study comparing patients with prevalent heart failure
+        referred for evaluation and treatment at a heart failure specialty centre.
+      section: Supplementary Note 2, PHFS
+  solid:
+    quotes:
+    - exact: The SOLID-TIMI 52 was a multinational, double-blind trial that enrolled 13,026 participants
+      section: Supplementary Note 2, SOLID
+  rs1:
+    quotes:
+    - exact: In 1989 all residents of Ommoord, a suburb of Rotterdam, aged 55 years and over were invited
+        to participate.
+      section: Supplementary Note 2, Rotterdam Study 1

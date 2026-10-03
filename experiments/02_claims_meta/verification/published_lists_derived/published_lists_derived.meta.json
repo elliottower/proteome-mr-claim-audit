@@ -1,0 +1,86 @@
+{
+ "inputs": "published supplementary files and the pinned UKB-PPP 1.5k protein map; no claim, pair or registry record read",
+ "expected_counts_from_the_source_papers": {
+  "improve": {
+   "rows": 92,
+   "included": 83
+  },
+  "nsphs": {
+   "analytes": 92,
+   "analysed": 77
+  },
+  "scallop": {
+   "targets": 1161
+  },
+  "jhs": {
+   "reagents": 1301,
+   "uniprot_cells": 1297
+  }
+ },
+ "tables": {
+  "improve_folkersen2017_S3.csv": {
+   "rows": 92,
+   "sha256": "808da6fada52f3dea578b974bd4954c9dd30ed2b24de181d4351794c53e1fed3",
+   "source_files": {
+    "folkersen2017_S3.pdf": "9fe8bed8ca5acbba1ea828611fa0d3ee33eafe55d5aac586a8f7c2252c88451a"
+   }
+  },
+  "nsphs_enroth2014_analysed.csv": {
+   "rows": 92,
+   "sha256": "67d35accfb7900082965b493b3267d8d0ea9b36d8061a3168b3cf3d119e15ebb",
+   "source_files": {
+    "enroth2014_SD1.xlsx": "25a61c2f2fb24d7471404900c26ed8df0da6af1d37a6d5c4b589474b748e6e30",
+    "enroth2014_SD2.xlsx": "7ae9d42fc270e785bfe4de9cb2ec6c36725d19460004256e8c202dc01f7a20d9"
+   }
+  },
+  "scallop_koprulu2026_S5_targets.csv": {
+   "rows": 1161,
+   "sha256": "35addfef914fa8636e64320c22c6c2df74376b2be86a705fed4bb63ae1e3f993",
+   "source_files": {
+    "koprulu2026_S5.xlsx": "b8c18cb41d7680b19f0461bd621b94b3ce5dfe9ea3ed3e128d465c671f1c9eed"
+   }
+  },
+  "jhs_katz2022_soma13k_reagents.csv": {
+   "rows": 1360,
+   "sha256": "b339784a8fe6b2f50109dc499a2eae130d439911cd3757e89f4f332f8458565a",
+   "source_files": {
+    "katz2022sciadv_tables_S1_S6.xlsx": "bd8ba000d37fb2d56bcb68a6eb19e68c71caeee726c40251e2d9976efdca34d6"
+   }
+  }
+ },
+ "improve_not_included": [
+  "CASP8",
+  "IL1RN",
+  "IL4",
+  "ITGB1BP2",
+  "PTX3",
+  "S100A12",
+  "SELPLG",
+  "SIRT2",
+  "TNFRSF1A"
+ ],
+ "nsphs_not_analysed": [
+  "BTC",
+  "CA242",
+  "CEA",
+  "EPR",
+  "ER",
+  "GM-CSF",
+  "IFN-gamma",
+  "IL-2",
+  "IL-4",
+  "IL-7",
+  "MUC-16",
+  "MYD88",
+  "REG-4",
+  "SL-1",
+  "TNF"
+ ],
+ "scallop_distinct_uniprot_cells": 1032,
+ "scallop_targets_sharing_a_uniprot_cell": 129,
+ "ukb_protein_map_sha256": "431187e35d15c39b3861b75e6c10ab634b1506fe3e02f90f6c753c8d78fe91d6",
+ "jhs_reagents": 1301,
+ "jhs_uniprot_cells": 1297,
+ "jhs_reagents_with_several_uniprot_cells": 46,
+ "jhs_uniprot_cells_with_several_reagents": 49
+}

@@ -1,0 +1,12 @@
+{
+ "description": "Keyword lists for scripts/tag_wording.py (PREREG.md, Wording class; Novelty and prior claims). wording_class: classes are tried in the order given and the first with a matching keyword wins; otherwise the default. A wording-class keyword matches without regard to case from the start of a word and may be followed by further letters (repurpos matches repurposing; cause does not match because). novelty_language: a term matches without regard to case as a whole word or phrase.",
+ "wording_class": {
+  "order": ["target", "causal"],
+  "default": "association",
+  "keywords": {
+   "target": ["target", "druggable", "therapeutic", "drug", "repurpos", "treatment", "intervention"],
+   "causal": ["causal", "causally", "cause", "effect of"]
+  }
+ },
+ "novelty_language": ["novel", "newly", "previously unreported", "not previously", "for the first time", "first evidence"]
+}

@@ -1,0 +1,24 @@
+source:
+  citation: nguyen2025
+  local: sources/original/nguyen2025.xml
+  sha256: 42c3872701fafc64d9d8b164865675ca79133e722b221687e938b8788a89a69c
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12582192/fullTextXML
+  doi: 10.1167/iovs.66.13.57
+  note: 'Original file behind claims/nguyen2025.yaml: Europe PMC fullTextXML of PMC12582192, read as plain
+    text with its markup. The quotations here are the quotations of that file that resolve in this file
+    under the citations readers; a quotation absent here is pinned to the extracted text there only.'
+claims:
+  design:
+    quotes:
+    - exact: we re-analyzed selected published MR studies using our newly derived myopia GWAS summary
+        statistics
+      section: Methods, Part 2
+  plan:
+    quotes:
+    - exact: we adhered to the analysis plan outlined in the original articles
+      section: Methods, Part 2
+  result:
+    quotes:
+    - exact: Only one out of eight re-analyses generated findings that were consistent with the original
+        study.
+      section: Discussion

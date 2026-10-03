@@ -1,0 +1,27 @@
+source:
+  citation: oami2026
+  local: sources/PMC13168097.txt
+  sha256: 90729ff3db8f773c98908291d76f75cdc3bc2bd9c54fb208689f62ebe887dfcd
+  doi: 10.3389/fdgth.2026.1799623
+  note: Full text from Europe PMC fullTextXML (PMC13168097), tags stripped. Oami T, Okada Y, Maeda K,
+    Nakada TA. Performance of large language models and prompt engineering strategies for data extraction
+    in systematic reviews. Front Digit Health 2026. PMID 42137114.
+claims:
+  outcome-challenging:
+    quotes:
+    - exact: outcome data extraction remains challenging, emphasizing the continued need for human oversight
+      section: Abstract, Conclusions
+  outcome-range:
+    quotes:
+    - exact: For outcome data extraction, mean no-error proportions ranged from 27.8% (Gemini 1.5 Pro)
+        to 80.7% (Claude 3 Sonnet).
+      section: Abstract, Results
+  background-range:
+    quotes:
+    - exact: For background data extraction, mean no-error proportions ranged from 81.6% (ChatGPT-4o)
+        to 92.4% (Claude 3 Sonnet) across models.
+      section: Abstract, Results
+  session-consistency:
+    quotes:
+    - exact: from 44.8% (ChatGPT-4o) to 65.6% (Claude 3 Sonnet) for outcome data extraction
+      section: Abstract, Results

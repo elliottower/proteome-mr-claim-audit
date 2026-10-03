@@ -1,0 +1,42 @@
+{
+ "hgnc": {
+  "file": "reference/raw/hgnc_complete_set_2026-09-04.txt",
+  "url": "https://storage.googleapis.com/public-download-files/hgnc/archive/archive/monthly/tsv/hgnc_complete_set_2026-09-04.txt",
+  "release": "2026-09-04",
+  "release_header": null,
+  "last_modified": "Fri, 04 Sep 2026 15:22:17 GMT",
+  "downloaded_utc": "2026-09-30T19:03:46+00:00",
+  "bytes": 16903161,
+  "sha256": "6f43d6ff43aa9fdfa5fb2f20a20a7cace66e6e02e2a0dcf19d9b726e2e248d20"
+ },
+ "uniprot": {
+  "file": "reference/raw/uniprot_human_reviewed_2026_03.tsv",
+  "url": "https://rest.uniprot.org/uniprotkb/stream?query=%28organism_id%3A9606%29%20AND%20%28reviewed%3Atrue%29&fields=accession%2Cgene_names%2Cprotein_name&format=tsv",
+  "release": "2026_03",
+  "release_header": "2026_03",
+  "last_modified": null,
+  "downloaded_utc": "2026-09-30T19:09:34+00:00",
+  "bytes": 2589067,
+  "sha256": "8a9fda6847b0e8995f9f47626e6f829bf8640aabcd8ff746b95da1951130f29a"
+ },
+ "mondo": {
+  "file": "reference/raw/mondo_v2026-09-01.obo",
+  "url": "https://github.com/monarch-initiative/mondo/releases/download/v2026-09-01/mondo.obo",
+  "release": "v2026-09-01",
+  "release_header": null,
+  "last_modified": "Tue, 01 Sep 2026 17:32:21 GMT",
+  "downloaded_utc": "2026-09-30T19:09:36+00:00",
+  "bytes": 53134854,
+  "sha256": "50c8367f9bd9978321eedf84d4e2e79cb757efbed514c81effb00b9ad2e49994"
+ },
+ "efo": {
+  "file": "reference/raw/efo_v3.94.0.obo",
+  "url": "https://github.com/EBISPOT/efo/releases/download/v3.94.0/efo.obo",
+  "release": "v3.94.0",
+  "release_header": null,
+  "last_modified": "Tue, 15 Sep 2026 17:32:09 GMT",
+  "downloaded_utc": "2026-09-30T19:09:37+00:00",
+  "bytes": 88303602,
+  "sha256": "1f7bdc48b91c17cd98742d8c0fca77d576d4d74998efd643e51b1b49602ca49c"
+ }
+}

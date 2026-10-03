@@ -1,0 +1,69 @@
+source:
+  citation: bellenguez2022_supp_table1
+  local: sources/bellenguez2022_supp_table1.txt
+  sha256: 62036dcb4bc0c0e6f138985a7195042d1bf41dd80e9cf80d5248c02409d75cc4
+  doi: 10.1038/s41588-022-01024-z
+  note: Supplementary Table 1 (demographics per meta-analysed GWAS) of Bellenguez et al. 2022 Nat Genet,
+    ESM 41588_2022_1024_MOESM4_ESM.xlsx from the Europe PMC supplementaryFiles zip for PMC9005347, converted
+    with pandas, one row per line, cells ' | '
+claims:
+  row_eadb_topmed:
+    quotes:
+    - exact: EADB-TOPMed | 20301 | 61.7
+      section: Supplementary Table 1
+  row_bulgaria:
+    quotes:
+    - exact: Bulgaria | 164 | 54.9
+      section: Supplementary Table 1
+  row_eadb_hrc:
+    quotes:
+    - exact: EADB-HRC | 163 | 54
+      section: Supplementary Table 1
+  row_eadi:
+    quotes:
+    - exact: EADI | 2400 | 65.6
+      section: Supplementary Table 1
+  row_gerad:
+    quotes:
+    - exact: GERAD | 3030 | 63.2
+      section: Supplementary Table 1
+  row_bonn:
+    quotes:
+    - exact: Bonn | 635 | 65.5
+      section: Supplementary Table 1
+  row_rs1:
+    quotes:
+    - exact: RS1 | 1165 | 72.9
+      section: Supplementary Table 1
+  row_rs2:
+    quotes:
+    - exact: RS2 | 141 | 59.6
+      section: Supplementary Table 1
+  row_gr_ace_degesco:
+    quotes:
+    - exact: GR@ACE/DEGESCO | 6497 | 64.1
+      section: Supplementary Table 1
+  row_demgene:
+    quotes:
+    - exact: DemGene | 1693 | 65.5
+      section: Supplementary Table 1
+  row_cchs:
+    quotes:
+    - exact: CCHS | 365 | 68.5
+      section: Supplementary Table 1
+  row_nxc:
+    quotes:
+    - exact: NxC | 269 | 72.4
+      section: Supplementary Table 1
+  row_ukbb_p:
+    quotes:
+    - exact: UKBB-P | 49275 | 57.3
+      section: Supplementary Table 1
+  row_adgc_replication:
+    quotes:
+    - exact: ADGC | 17141 | 57.3
+      section: Supplementary Table 1
+  row_finngen_replication:
+    quotes:
+    - exact: FinnGen | 7329 | 48.8
+      section: Supplementary Table 1

@@ -1,0 +1,19 @@
+source:
+  citation: schroeder2025v1
+  local: sources/schroeder2025_arxiv_v1.raw.txt
+  sha256: 2d78626f98dbda6479ee19d95740154a6c11940f38d0204d191e81bf53d39ac6
+  doi: 10.48550/arXiv.2501.11840
+  note: arXiv 2501.11840v1 PDF, pdftotext. Schroeder NL, Jaldi CD, Zhang S. Large Language Models with
+    Human-In-The-Loop Validation for Systematic Review Data Extraction. The current arXiv version is retitled
+    "AI-Assisted Data Extraction for Systematic Reviews in Education", adds Yamoah K, and reports 62.28%
+    for Mistral Large 2.
+claims:
+  hil:
+    quotes:
+    - exact: these results highlight the dire need for a human-in-the-loop (HIL) process for AI-assisted
+        data extraction
+      section: Abstract
+  agreement:
+    quotes:
+    - exact: 71.17%, 72.14%, and 62.43% of data extracted being consistent with human coding
+      section: Abstract

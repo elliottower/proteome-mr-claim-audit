@@ -1,0 +1,40 @@
+source:
+  citation: covidhgi2021_main
+  local: sources/covidhgi2021_main.txt
+  sha256: cb438498060106d731b9f00d1d1fee940909b38e17db661db8c79a1fec4f18ad
+  doi: 10.1038/s41586-021-03767-x
+  note: Main text of COVID-19 Host Genetics Initiative 2021 Nature 600:472-477 (Mapping the human genetic
+    architecture of COVID-19), Europe PMC fullTextXML PMC8674144, tags stripped, one sentence per line
+claims:
+  studies-46:
+    quotes:
+    - exact: Here, we report the latest results of meta-analyses of 46 studies from 19 countries
+      section: 'Main text: introduction'
+  n-cases-46:
+    quotes:
+    - exact: the COVID-19 HGI combined genetic data from 49,562 cases and 2 million controls across 46
+        distinct studies
+      section: 'Results: Meta-analyses of COVID-19'
+  release5:
+    quotes:
+    - exact: these regions are not excluded from the corresponding summary statistics in data release
+        5
+      section: Methods
+  ukb-genomicc-overlap:
+    quotes:
+    - exact: There was a small number of overlapping samples ( n = 8,380 European ancestry; n = 745 East
+        Asian ancestry) between controls from the genOMICC and the UK Biobank studies
+      section: Results
+  leave-ukbb-sensitivity:
+    quotes:
+    - exact: leaving out the UK Biobank (UKBB; cases, n = 5,870; controls, n = 1,155,203; total, n = 1,161,073)
+      section: Extended Data Fig. 5 legend
+  ldsc-23andme:
+    quotes:
+    - exact: all including the 23andMe cohort
+      section: 'Methods: Heritability'
+  data-freezes-web:
+    quotes:
+    - exact: Upon the completion of each data freeze, we post summary statistics, plots and sample size
+        breakdowns for each phenotype and contributing cohort
+      section: Methods

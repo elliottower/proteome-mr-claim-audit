@@ -1,0 +1,110 @@
+source:
+  citation: malik2018megastroke_supp_table2
+  local: sources/malik2018megastroke_supp_table2.txt
+  sha256: 0c9394df6e8e5077c16a2ba253597465cc919916244358d685ca47618ceda7c6
+  doi: 10.1038/s41588-018-0058-3
+  note: 'Supplementary Table 2 (sheets ''Summary'' and ''Genetic information'': genotyping per member
+    study, grouped by main study) of Malik et al. 2018 Nat Genet, ESM xlsx 41588_2018_58_MOESM3_ESM.xlsx
+    from static-content.springer.com, converted with openpyxl (cached cell values), one table row per
+    line, cells separated by '' | '''
+claims:
+  charge-ages:
+    quotes:
+    - exact: CHARGE | AGES | Illumina HumanCNV370 Duo BeadChip
+      section: Supplementary Table 2, sheet 'Genetic information'
+  charge-aric:
+    quotes:
+    - exact: CHARGE | ARIC | Affymetrix GeneChip SNP Array 6.0
+      section: Supplementary Table 2, sheet 'Genetic information'
+  charge-chs:
+    quotes:
+    - exact: CHARGE | CHS | Illumina HumanCNV370 Duo BeadChip
+      section: Supplementary Table 2, sheet 'Genetic information'
+  charge-fhs:
+    quotes:
+    - exact: CHARGE | FHS | Affymetrix GeneChip Human Mapping 500K Array
+      section: Supplementary Table 2, sheet 'Genetic information'
+  charge-finrisk:
+    quotes:
+    - exact: CHARGE | FINRISK CoreExome | Illumina HumanCoreExome
+      section: Supplementary Table 2, sheet 'Genetic information'
+  charge-habc:
+    quotes:
+    - exact: CHARGE | Health-ABC | Illumina Human 1M-duo
+      section: Supplementary Table 2, sheet 'Genetic information'
+  charge-mesa:
+    quotes:
+    - exact: CHARGE | MESA | Affymetrix GeneChip SNP Array 6.0
+      section: Supplementary Table 2, sheet 'Genetic information'
+  charge-prosper:
+    quotes:
+    - exact: CHARGE | PROSPER | Illumina 660K BeadChip
+      section: Supplementary Table 2, sheet 'Genetic information'
+  charge-rs:
+    quotes:
+    - exact: CHARGE | Rotterdam Study I | Illumina HumanHap550-Duo BeadChip
+      section: Supplementary Table 2, sheet 'Genetic information'
+  charge-ship:
+    quotes:
+    - exact: CHARGE | SHIP | Affymetrix GeneChip SNP Array 6.0
+      section: Supplementary Table 2, sheet 'Genetic information'
+  charge-twingene:
+    quotes:
+    - exact: CHARGE | TWINGENE | Illumina HumanOmniExpress
+      section: Supplementary Table 2, sheet 'Genetic information'
+  charge-ulsam:
+    quotes:
+    - exact: CHARGE | ULSAM | Illumina HumanOmni2.5 + Metabochip
+      section: Supplementary Table 2, sheet 'Genetic information'
+  charge-wghs:
+    quotes:
+    - exact: CHARGE | WGHS | HumanHap300 Duo
+      section: Supplementary Table 2, sheet 'Genetic information'
+  charge-3c:
+    quotes:
+    - exact: CHARGE | 3C-Dijon | Illumina Human 610-Quad BeadChip
+      section: Supplementary Table 2, sheet 'Genetic information'
+  sign-ess:
+    quotes:
+    - exact: NINDS-SIGN | ESS | Illumina660
+      section: Supplementary Table 2, sheet 'Genetic information'
+  sign-munich:
+    quotes:
+    - exact: NINDS-SIGN | MUNICH | Illumina660
+      section: Supplementary Table 2, sheet 'Genetic information'
+  sign-oxvasc:
+    quotes:
+    - exact: NINDS-SIGN | OXVASC | Illumina660
+      section: Supplementary Table 2, sheet 'Genetic information'
+  sign-stgeorge:
+    quotes:
+    - exact: NINDS-SIGN | STGEORGE | Illumina660
+      section: Supplementary Table 2, sheet 'Genetic information'
+  sign-wtccc:
+    quotes:
+    - exact: NINDS-SIGN | WTCCC | Illumina 660
+      section: Supplementary Table 2, sheet 'Genetic information'
+  sign-sahlsis:
+    quotes:
+    - exact: NINDS-SIGN | SAHLSIS | Illumina 5M
+      section: Supplementary Table 2, sheet 'Genetic information'
+  sign-mdc:
+    quotes:
+    - exact: NINDS-SIGN | MDC | Illumina 750K express/exome
+      section: Supplementary Table 2, sheet 'Genetic information'
+  compass-aric:
+    quotes:
+    - exact: COMPASS | ARIC | Affymetrix 6.0
+      section: Supplementary Table 2, sheet 'Genetic information'
+  compass-handls:
+    quotes:
+    - exact: COMPASS | HANDLS | Illumina 1M and 1M duo
+      section: Supplementary Table 2, sheet 'Genetic information'
+  compass-signet:
+    quotes:
+    - exact: COMPASS | SIGNET | Affymetrix Genome-Wide Human SNP Array 6.0.
+      section: Supplementary Table 2, sheet 'Genetic information'
+  compass-chs:
+    quotes:
+    - exact: COMPASS | CHS | Illumina 370CNV Duo®BeadChip
+      section: Supplementary Table 2, sheet 'Genetic information'

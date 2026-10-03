@@ -1,0 +1,18 @@
+source:
+  citation: yoshikawa2024
+  local: sources/PMC11659389.txt
+  sha256: 0ed5a4e8ccd483fdb40618e48c761ecfc148ac3d4d71d948ed764542502a9b4b
+  doi: 10.1038/s42003-024-07403-y
+  note: Full text from Europe PMC fullTextXML (PMC11659389), tags stripped. Yoshikawa M, Nakayama T, Asaba
+    K. Systematic proteome-wide Mendelian randomization to prioritize causal plasma proteins for skin
+    cancers. Commun Biol 2024. PMID 39702585.
+claims:
+  zheng-source:
+    quotes:
+    - exact: They selected 1064 pQTLs of 955 plasma proteins from five studies
+      section: Methods, Study design and datasets
+  cis-738:
+    quotes:
+    - exact: we utilized only 738 cis-pQTLs of 735 proteins in the present study (Supplementary Table
+        2) to reduce bias
+      section: Results, Primary proteome-wide MR

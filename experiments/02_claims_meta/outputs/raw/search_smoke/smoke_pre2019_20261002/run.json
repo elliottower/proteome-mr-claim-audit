@@ -1,0 +1,15 @@
+{
+ "search_date_utc": "2026-10-02",
+ "started_utc": "2026-10-02T20:07:31.068+00:00",
+ "smoke": true,
+ "smoke_window": [
+  "2018-06-01",
+  "2018-06-30"
+ ],
+ "openalex_select": "id,doi,ids,display_name,publication_date,publication_year,type,language,authorships,primary_location,abstract_inverted_index",
+ "openalex_key_sent": true,
+ "scripts_sha256": {
+  "run_search.py": "a3ef0bcdb9ab31b303631751e3089b6fba2dae49e3e2a1cef7b75067e32684e3",
+  "search_queries.py": "d34360d56752205474da12136ce78b5db2508060ed0f67ada8520269710aa167"
+ }
+}

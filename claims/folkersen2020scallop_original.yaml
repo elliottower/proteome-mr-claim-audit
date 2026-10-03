@@ -1,0 +1,21 @@
+source:
+  citation: folkersen2020scallop
+  local: sources/original/folkersen2020scallop.xml
+  sha256: 909a7ab92770ae678578909a5fd7f3e48245ad184ea0e4059ff0521fead13688
+  url: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=PMC7611474
+  doi: 10.1038/s42255-020-00287-2
+  note: 'Original file behind claims/folkersen2020scallop.yaml: NCBI E-utilities efetch (db=pmc) XML of
+    PMC7611474, read as plain text with its markup. The quotations here are the quotations of that file
+    that resolve in this file under the citations readers; a quotation absent here is pinned to the extracted
+    text there only.'
+claims:
+  platform-cvd1:
+    quotes:
+    - exact: Summary statistics from GWAS of Olink CVD-I proteins were obtained from 13 cohorts of European
+        ancestry.
+      section: 'Online Methods: Cohorts and data collection'
+  panel-selection:
+    quotes:
+    - exact: Proteins for the Olink PEA CVD-I panel were selected by mining the literature for protein
+        biomarkers associated with cardiovascular risk or prognosis
+      section: 'Online Methods: Selection of proteins'

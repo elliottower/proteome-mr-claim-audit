@@ -1,0 +1,22 @@
+== prereg check
+not frozen   experiments/02_claims_meta/PREREG.md
+
+Nothing to check against yet. `prereg freeze` records the hash.
+== results verify --files
+  ok         experiments/02_claims_meta/outputs/stage5_drug/smoke_pre2019_20261002/drug_tables.json
+  ok         experiments/02_claims_meta/outputs/stage5_drug/smoke_pre2019_20261002_window/drug_tables.json
+
+all checks passed.
+== citations verify
+  found           7,783
+  not found           0
+all found.
+== repro check
+  prereg       FAILED (exit 1)
+      not frozen   experiments/02_claims_meta/PREREG.md
+      
+      1 plans: 0 unchanged, 0 changed, 1 not frozen
+  citations    ok
+  results      ok
+
+1 of 3 failed.

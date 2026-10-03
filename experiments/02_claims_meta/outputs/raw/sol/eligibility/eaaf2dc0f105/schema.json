@@ -1,0 +1,47 @@
+{
+ "type": "object",
+ "additionalProperties": false,
+ "required": [
+  "genetic_instruments_for_circulating_proteins",
+  "states_protein_outcome_result",
+  "proteome_or_panel_wide_screen",
+  "n_proteins_tested",
+  "n_proteins_tested_span",
+  "exclusion"
+ ],
+ "properties": {
+  "genetic_instruments_for_circulating_proteins": {
+   "type": "boolean"
+  },
+  "states_protein_outcome_result": {
+   "type": "boolean"
+  },
+  "proteome_or_panel_wide_screen": {
+   "type": "boolean"
+  },
+  "n_proteins_tested": {
+   "type": [
+    "integer",
+    "null"
+   ]
+  },
+  "n_proteins_tested_span": {
+   "type": [
+    "string",
+    "null"
+   ]
+  },
+  "exclusion": {
+   "type": "array",
+   "items": {
+    "type": "string",
+    "enum": [
+     "review",
+     "protocol",
+     "non_human",
+     "tissue_or_csf_proteomics"
+    ]
+   }
+  }
+ }
+}

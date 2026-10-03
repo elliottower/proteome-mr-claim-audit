@@ -1,0 +1,35 @@
+source:
+  citation: christophersen2017af_supp_note
+  local: sources/original/christophersen2017af_supp_note.pdf
+  sha256: 6af1e4652a8920ff92d31394440466569889b9b27117918b782966098eab9f97
+  url: https://static-content.springer.com/esm/art%3A10.1038%2Fng.3843/MediaObjects/41588_2017_BFng3843_MOESM307_ESM.pdf
+  doi: 10.1038/ng.3843
+  note: 'Original file behind claims/christophersen2017af_supp_note.yaml: 41588_2017_BFng3843_MOESM307_ESM.pdf
+    from static-content.springer.com. The quotations here are the quotations of that file that resolve
+    in this file under the citations readers; a quotation absent here is pinned to the extracted text
+    there only.'
+claims:
+  aflmu-kora:
+    quotes:
+    - exact: the Atrial Fibrillation Biobank LMU (AFLMU) in the context of the Arrhythmia-Biobank-LMU
+        (formerly known as AFNET) and the Cooperative Health Research in the Region of Augsburg (KORA)169
+      section: Supplementary Note, participating studies
+  ctrl-beat-af:
+    quotes:
+    - exact: Referents were enrolled from the ‘genetic and phenotypic determinants of blood pressure and
+        other cardiovascular risk factors’ (GAPP) study
+      section: Supplementary Note, BEAT-AF
+  gs-sfhs:
+    quotes:
+    - exact: 'GS:SFHS: Generation Scotland: Scottish Family Health Study (GS:SFHS) is a family-based genetic
+        epidemiology study'
+      section: Supplementary Note, GS:SFHS
+  ctrl-wtccc2-munich:
+    quotes:
+    - exact: For the German samples controls were Caucasians of German origin participating into the population
+        KORAgen study
+      section: Supplementary Note, WTCCC2-Munich
+  eur-n:
+    quotes:
+    - exact: 15,979 cases, 102,776 referents
+      section: Supplementary Table 6 (European ancestry GWAS)

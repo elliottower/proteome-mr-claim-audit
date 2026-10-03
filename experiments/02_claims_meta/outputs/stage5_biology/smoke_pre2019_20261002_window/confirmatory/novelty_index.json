@@ -1,0 +1,45 @@
+{
+ "inputs": "/vol/02_claims_meta/stage5/smoke_pre2019_20261002_window/biology_inputs",
+ "window": "confirmatory",
+ "claim_records": 3,
+ "resources": {
+  "ontology_edges": "/exp/verification/ontology_edges.csv",
+  "therapeutic_areas": "/exp/verification/therapeutic_areas.csv",
+  "therapeutic_area_names": "/exp/verification/therapeutic_area_names.csv",
+  "assay_lists": "/exp/verification/platform_assay_lists.csv",
+  "attachments": "/exp/verification/platform_assay_attachments.csv",
+  "reactome": "/exp/inputs/reactome/UniProt2Reactome.txt",
+  "snapshot_estimates": "/exp/derived/epigraphdb_mrres_estimates.jsonl",
+  "protein_mapping": "/exp/verification/epigraphdb_protein_mapping.csv",
+  "trait_mapping": "/exp/verification/epigraphdb_trait_mapping.csv",
+  "locus_list": "/exp/verification/pleiotropic_loci_eldjarn2023_ST36.csv"
+ },
+ "written_utc": "2026-10-02T20:38:14+00:00",
+ "claim_records_by_class": {
+  "no_earlier_in_registry": 3
+ },
+ "novelty_language_claims": 0,
+ "novelty_language_by_class": {},
+ "novelty_language_earlier_in_registry": 0,
+ "novelty_language_earlier_in_registry_share": null,
+ "wilson_descriptive": null,
+ "novelty_language_tied_or_unknown_order": 0,
+ "novelty_language_related_prior_claim": 0,
+ "related_prior_claim_all_claims": 0,
+ "imprecise_under_20": true,
+ "sensitivity_claim_dates_from_registry_abstracts_only": {
+  "claim_records": 3,
+  "claim_records_by_class": {
+   "no_earlier_in_registry": 3
+  },
+  "novelty_language_claims": 0,
+  "novelty_language_by_class": {},
+  "novelty_language_earlier_in_registry": 0,
+  "novelty_language_earlier_in_registry_share": null,
+  "wilson_descriptive": null,
+  "novelty_language_tied_or_unknown_order": 0,
+  "novelty_language_related_prior_claim": 0,
+  "related_prior_claim_all_claims": 0,
+  "imprecise_under_20": true
+ }
+}

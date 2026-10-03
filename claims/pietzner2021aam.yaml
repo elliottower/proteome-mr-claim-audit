@@ -1,0 +1,20 @@
+source:
+  citation: pietzner2021aam
+  local: sources/pietzner2021_birmingham_aam.txt
+  sha256: 6cc4f89bb32cb10d2cda0f9ece804a6ad7863f0645495a085cbf53e820265276
+  doi: 10.1126/science.abj1541
+  note: Accepted manuscript incl. Methods, University of Birmingham repository PDF via Helmholtz push-zb
+    deliver.php?id=34412, pdftotext; manuscript line numbers interleaved.
+claims:
+  olink-subset-485:
+    quotes:
+    - exact: Extension Assays provided by Olink in a subset of 485 individuals of the Fenland study
+      section: 'Methods: Replication using the Olink PEA technology'
+  olink-797:
+    quotes:
+    - exact: We identified 797 pQTLs that a)
+      section: 'Methods: Replication using the Olink PEA technology'
+  olink-1069:
+    quotes:
+    - exact: we used in-house GWAS results for 1,069 proteins measured using Proximity
+      section: 'Methods: Replication using the Olink PEA technology'

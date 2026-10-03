@@ -1,0 +1,35 @@
+source:
+  citation: woolf2022
+  local: sources/original/woolf2022.xml
+  sha256: 0f46f31debb919a06990af9aede244e0eaa6639c58e1af1c51a746d5c086518c
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9749715/fullTextXML
+  doi: 10.1093/ije/dyac074
+  extractor: jats-text
+  note: 'Original file behind claims/woolf2022.yaml: the XML pinned in claims/woolf2022_original.yaml,
+    read by the citations extractor jats-text. The quotations here are those of that file that resolve
+    in this reading; a quotation absent here stays pinned where it already was.'
+  extractor_version: 1
+  derived_sha256: 8af47cc2736f00802f754764a29e5ad27eda3b9f370c6623298d68a59ae7da38
+claims:
+  n-87:
+    quotes:
+    - exact: In the primary analysis, 87 studies were included.
+      section: Abstract, Results
+  overlap:
+    quotes:
+    - exact: Neither question in the ‘2SMR specific assumption’ domain (on sample overlap and consistency
+        of populations) was answered adequately, both being reported in fewer than 40% of studies.
+      section: Results
+  code:
+    quotes:
+    - exact: fewer than 10% provided the analysis code
+      section: Results
+  multiple-testing:
+    quotes:
+    - exact: just under 50% of studies that tested more than one hypothesis described the use of a multiple
+        testing correction
+      section: Results
+  prereg:
+    quotes:
+    - exact: was pre-registered on the Open Science Framework
+      section: Methods

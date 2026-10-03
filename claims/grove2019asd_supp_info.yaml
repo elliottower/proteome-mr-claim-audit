@@ -1,0 +1,23 @@
+source:
+  citation: grove2019asd_supp_info
+  local: sources/grove2019asd_supp_info.txt
+  sha256: debf13ee7b53307d4106606f12b92199182fc0f70c1ca718e0b52b644120fd72
+  doi: 10.1038/s41588-019-0344-8
+  note: Supplementary Information PDF (Supplementary Note and Tables) of Grove et al. 2019 Nat Genet,
+    ESM file 41588_2019_344_MOESM1_ESM.pdf from static-content.springer.com, converted with pdftotext
+    -layout
+claims:
+  supp-table2:
+    quotes:
+    - exact: iPSYCH+PGC           BUPGEN        PAGES         Finland        deCODE Iceland          deCODE
+        East Eur             In All Reps
+      section: Supplementary Table 2
+  supp-pgc-sample:
+    quotes:
+    - exact: A detailed description of the sample is available on the PGC web site
+      section: Supplementary Note 1.2 The PGC ASD sample
+  supp-table1-caption:
+    quotes:
+    - exact: 'Supplementary Table 1: Descriptive statistics of key characteristics for the iPSYCH ASD
+        GWAS sample.'
+      section: Supplementary Table 1

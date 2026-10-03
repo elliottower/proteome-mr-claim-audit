@@ -1,0 +1,88 @@
+........................................................................ [ 12%]
+........................................................................ [ 25%]
+........................................................................ [ 38%]
+................................F....................................... [ 51%]
+..........................................F......F...................... [ 63%]
+........................................................................ [ 76%]
+........................................................................ [ 89%]
+............................................................             [100%]
+=================================== FAILURES ===================================
+_________ test_registered_numbers_are_the_ones_in_the_preregistration __________
+
+    def test_registered_numbers_are_the_ones_in_the_preregistration():
+        text = " ".join(PREREG.split())
+        m = re.search(r"batches of (\d+) .*?`random\.Random\((\d+)\)`.*?is below ([\d.]+)% "
+                      r".*?or ([\d,]+) records have been sampled", text)
+>       assert (int(m.group(1)), int(m.group(2))) == (ga.BATCH, ga.SEED)
+                    ^^^^^^^
+E       AttributeError: 'NoneType' object has no attribute 'group'
+
+test_gate_audit.py:209: AttributeError
+_ test_a_dataset_name_gives_a_list_only_when_all_its_dictionary_rows_share_it __
+
+rows = [Row(side='pqtl', name='UKB-PPP discovery', name_key=('ukb', 'ppp', 'discovery'), keys=(('sun', '2023'), ('sun', 'et',...sa', 'ukb', 'af'), ('eldjarn', 'et', 'al', '2023'), ('ukb', 'bi')), components=frozenset({'UKB'}), complete=True), ...]
+attachments = {'AGES Reykjavik (Emilsson 2018)': 'somascan_ages_custom', 'AGES Reykjavik (Gudjonsson 2022)': 'somascan_ages_custom', 'ARIC African American (Zhang 2022)': 'somascan_v4', 'ARIC European American (Zhang 2022)': 'somascan_v4', ...}
+
+    def test_a_dataset_name_gives_a_list_only_when_all_its_dictionary_rows_share_it(rows, attachments):
+        def lists(*names):
+            return lists_of_names([map_name(n, "pqtl", rows) for n in names], attachments)
+    
+        assert lists("UKB-PPP discovery") == {"olink_explore_3072"}
+        assert lists("UKB-PPP") == {"olink_explore_3072"}
+        assert lists("deCODE") == {"somascan_v4"}
+        assert lists("INTERVAL") == {"somascan_160410"}
+        assert lists("SCALLOP") == frozenset()
+        assert lists("Fenland") == frozenset()
+        assert lists("not_stated") == frozenset()
+        assert lists("UKB-PPP", "deCODE 2023", "SCALLOP") == {"olink_explore_3072", "somascan_v4"}
+        # Rows read from the dataset's source paper: a custom array, a discontinued panel, a union.
+        assert lists("AGES") == {"somascan_ages_custom"}
+        assert lists("KORA") == {"somascan_v3.2_kora"}
+        assert lists("SCALLOP CVD-I (Folkersen 2020)") == {"olink_target_96:CVD I"}
+>       assert lists("MANOLIS (Gilly 2020)") == {
+            "olink_target_96:CVD II|olink_target_96:CVD III|olink_target_96:MET"}
+E       AssertionError: assert frozenset({'o...20_analysed'}) == {'olink_targe...arget_96:MET'}
+E         
+E         Extra items in the left set:
+E         'olink_manolis_gilly2020_analysed'
+E         Extra items in the right set:
+E         'olink_target_96:CVD II|olink_target_96:CVD III|olink_target_96:MET'
+E         Use -v to get more diff
+
+test_pathway_enrichment.py:94: AssertionError
+_______________ test_attachment_table_must_match_the_dictionary ________________
+
+tmp_path = PosixPath('/tmp/pytest-of-root/pytest-0/test_attachment_table_must_mat0')
+attachments = {'AGES Reykjavik (Emilsson 2018)': 'somascan_ages_custom', 'AGES Reykjavik (Gudjonsson 2022)': 'somascan_ages_custom', 'ARIC African American (Zhang 2022)': 'somascan_v4', 'ARIC European American (Zhang 2022)': 'somascan_v4', ...}
+
+    def test_attachment_table_must_match_the_dictionary(tmp_path, attachments):
+        assert attachments["UKB-PPP discovery"] == "olink_explore_3072"
+        assert attachments["SCALLOP CVD-I (Folkersen 2020)"] == "olink_target_96:CVD I"
+        bad = tmp_path / "attachments.csv"
+        bad.write_text("dictionary_row,platform_string,assay_list,status,basis\n"
+                       "UKB-PPP replication,Olink Explore 3072,olink_explore_3072,proposed,x\n")
+        with pytest.raises(PathwayInputError):
+>           load_attachments(bad, load_lists(ASSAY_LISTS))
+
+test_pathway_enrichment.py:191: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+../scripts/pathway_enrichment.py:163: in load_attachments
+    for r in attachment_records(path):
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+path = PosixPath('/tmp/pytest-of-root/pytest-0/test_attachment_table_must_mat0/attachments.csv')
+
+    def attachment_records(path: pathlib.Path) -> list[dict]:
+        """The rows of the attachment table, with the three counts the source states as integers
+        (None when it states none)."""
+        with path.open(newline="") as f:
+            rows = list(csv.DictReader(f))
+        for r in rows:
+>           if r["background_level"] not in BACKGROUND_LEVELS:
+               ^^^^^^^^^^^^^^^^^^^^^
+E           KeyError: 'background_level'
+
+../scripts/pathway_enrichment.py:138: KeyError
+- generated xml file: /vol/02_claims_meta/prefreeze_checks/all_tests_20261002T143102Z/pytest.xml -
+3 failed, 561 passed in 5.93s

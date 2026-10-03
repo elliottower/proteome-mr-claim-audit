@@ -1,0 +1,25 @@
+source:
+  citation: xu2023gnhs
+  local: sources/xu2023gnhs.txt
+  sha256: b8db9517291a799e2312937ffae9386024a5804be817bff906e4449b03859ea6
+  doi: 10.1038/s41467-023-36491-3
+  note: Full text from Europe PMC fullTextXML (PMC9935862), tags stripped, one title or paragraph per
+    line. Xu F et al. 2023 Nat Commun (Genome-wide genotype-serum proteome mapping provides insights into
+    the cross-ancestry differences in cardiometabolic disease susceptibility). PMID 36797296.
+claims:
+  platform-swath:
+    quotes:
+    - exact: Peptide samples were then analyzed by SWATH-MS over a 20 min linear LC gradient on a TripleTOF
+        5600 system (SCIEX, CA, USA) coupled to Eksigent NanoLC 400 System (Eksigent, Dublin, CA, USA).
+      section: 'Methods: Circulating proteomics profiling'
+  library-536:
+    quotes:
+    - exact: After SWATH acquisition, the wiff files were analyzed using DIA-NN (1.7.12)59 against a serum
+        spectral library containing 3474 peptide precursors and 536 unique proteins from Swiss-Prot database
+        of Homo Sapiens60.
+      section: 'Methods: Circulating proteomics profiling'
+  proteins-304:
+    quotes:
+    - exact: We employed a mixed linear model-based genome-wide association analysis (GCTA-MLMA) of approximately
+        5 million autosomal variants against levels of 304 proteins in four sub-cohorts of GNHS independently16,17
+      section: 'Results: Associations of the genetic variants with proteins'

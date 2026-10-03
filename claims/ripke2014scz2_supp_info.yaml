@@ -1,0 +1,505 @@
+source:
+  citation: ripke2014scz2_supp_info
+  local: sources/ripke2014scz2_supp_info.txt
+  sha256: d5dfb6b6e4bf3d4d82d6b43503a29d41aca9e7a7ce8b821ef941c8ee517c717e
+  doi: 10.1038/nature13595
+  note: Supplementary Information (Supplementary Text with per-sample ascertainment descriptions, and
+    Supplementary Table 1 'Description of samples') of Schizophrenia Working Group of the PGC 2014 Nature
+    511:421-427 (PMC4112379, author manuscript NIHMS59304). File NIHMS59304-supplement-Supplementary_Information.docx
+    from the PMC open-data bucket (pmc-oa-opendata.s3.amazonaws.com/PMC4112379.1/), converted with python-docx;
+    paragraphs one per line, table rows one per line with cells separated by ' | ' (adjacent duplicate
+    merged cells collapsed).
+claims:
+  row-scz-umeb-eur:
+    quotes:
+    - exact: New CC | Adolfsson, R | NP | Umeå, Sweden | 9 | omni | 341 | 577 | 0.503 | scz_umeb_eur
+      section: 'Supplementary Table 1: Description of samples'
+  row-scz-umes-eur:
+    quotes:
+    - exact: New CC | Adolfsson, R | NP | Umeå, Sweden | 9 | omni | 193 | 704 | 0.475 | scz_umes_eur
+      section: 'Supplementary Table 1: Description of samples'
+  row-scz-top8-eur:
+    quotes:
+    - exact: PGC1+new | Andreassen, O | 19571808 | Norway (TOP) | 9 | A6.0 | 377 | 403 | 0.533 | scz_top8_eur
+      section: 'Supplementary Table 1: Description of samples'
+  row-scz-edin-eur:
+    quotes:
+    - exact: PGC1 | Blackwood, D | 19571811 | Edinburgh, UK | 8 | A6.0 | 367 | 284 | 0.633 | scz_edin_eur
+      section: 'Supplementary Table 1: Description of samples'
+  row-scz-aarh-eur:
+    quotes:
+    - exact: New CC | Børglum, A | 19571808 | Denmark | 3 | I650 | 876 | 871 | 0.545 | scz_aarh_eur
+      section: 'Supplementary Table 1: Description of samples'
+  row-scz-pewb-eur:
+    quotes:
+    - exact: New CC | Bramon | 23871474 | Seven countries (PEIC, WTCCC2) | 6 | I1M | 574 | 1812 | 0.557
+        | scz_pewb_eur
+      section: 'Supplementary Table 1: Description of samples'
+  row-scz-pews-eur:
+    quotes:
+    - exact: New CC | Bramon | 23871474 | Spain (PEIC, WTCCC2) | 6 | I1M | 150 | 236 | 0.585 | scz_pews_eur
+      section: 'Supplementary Table 1: Description of samples'
+  row-scz-msaf-eur:
+    quotes:
+    - exact: New CC | Buxbaum, J | 20489179 | New York, US & Israel | 7 | A6.0 | 325 | 139 | 0.614 | scz_msaf_eur
+      section: 'Supplementary Table 1: Description of samples'
+  row-scz-dubl-eur:
+    quotes:
+    - exact: PGC1 | Corvin, A | 19571811 | Ireland | 9 | A6.0 | 264 | 839 | 0.394 | scz_dubl_eur
+      section: 'Supplementary Table 1: Description of samples'
+  row-scz-irwt-eur:
+    quotes:
+    - exact: New CC | Corvin, A; Riley, B | 22883433 | Ireland (WTCCC2) | 9 | A6.0 | 1291 | 1006 | 0.617
+        | scz_irwt_eur
+      section: 'Supplementary Table 1: Description of samples'
+  row-scz-gras:
+    quotes:
+    - exact: New CC | Ehrenreich, H | 20819981 | Germany (GRAS) | 9 | AXI | 1067 | 1169 | 0.642 | scz_gras
+      section: 'Supplementary Table 1: Description of samples'
+  row-scz-egcu-eur:
+    quotes:
+    - exact: New CC | Esko, T | 15133739 | Estonia (EGCUT) | 2 | omni | 234 | 1152 | 0.268 | scz_egcu_eur
+      section: 'Supplementary Table 1: Description of samples'
+  row-scz-jr3a-eur:
+    quotes:
+    - exact: New CC | Domenici E Esko, T; Li, Q | 15133739, 4166486 | J&J, Roche cases, EGCUT controls
+        | 2 | I317 | 347 | 310 | 0.579 | scz_jr3a_eur
+      section: 'Supplementary Table 1: Description of samples'
+  row-scz-jr3b-eur:
+    quotes:
+    - exact: New CC | Domenici E Esko, T; Li, Q | 15133739,24166486 | J&J, Roche cases, EGCUT controls
+        | 2 | I317 | 636 | 0.621 | scz_jr3b_eur
+      section: 'Supplementary Table 1: Description of samples'
+  row-scz-jri6-eur:
+    quotes:
+    - exact: New CC | Domenici E Esko, T; Li, Q | 15133739,24166486 | J&J, Roche cases, EGCUT controls
+        | 2 | I610 | 256 | 130 | 0.461 | scz_jri6_eur
+      section: 'Supplementary Table 1: Description of samples'
+  row-scz-jrsa-eur:
+    quotes:
+    - exact: New CC | Domenici E Esko, T; Li, Q | 15133739,24166486 | J&J, Roche cases, EGCUT controls
+        | 2 | I1M | 1154 | 2310 | 0.505 | scz_jrsa_eur
+      section: 'Supplementary Table 1: Description of samples'
+  row-scz-mgs2-eur:
+    quotes:
+    - exact: PGC1 | Gejman, P | 19571809 | US, Australia (MGS) | 9 | A6.0 | 2638 | 2482 | 0.588 | scz_mgs2_eur
+      section: 'Supplementary Table 1: Description of samples'
+  row-scz-uclo-eur:
+    quotes:
+    - exact: PGC1 | Gurling, H | 19571811 | London, UK | 8 | A6.0 | 509 | 485 | 0.572 | scz_uclo_eur
+      section: 'Supplementary Table 1: Description of samples'
+  row-scz-ersw-eur:
+    quotes:
+    - exact: New CC | Jönsson, E | 19571808 | Sweden (Hubin) | 3 | omni | 265 | 319 | 0.618 | scz_ersw_eur
+      section: 'Supplementary Table 1: Description of samples'
+  row-scz-buls-eur:
+    quotes:
+    - exact: New CC | Kirov, G | NP | Bulgaria | 8 | A6.0 | 195 | 608 | 0.474 | scz_buls_eur
+      section: 'Supplementary Table 1: Description of samples'
+  row-scz-lktu-eur:
+    quotes:
+    - exact: New CC | Knight, J/Collier D/ Nisenbaum L | NP | Canada (Toronto) -US(Lilly)-US (MIGen) |
+        5 | A6.0 | 526 | 1644 | 0.593 | scz_lktu_eur
+      section: 'Supplementary Table 1: Description of samples'
+  row-scz-ajsz-eur:
+    quotes:
+    - exact: New CC | Lencz, T/Darvasi A | 24253340 | Israel | 8 | I1M | 894 | 1594 | 0.701 | scz_ajsz_eur
+      section: 'Supplementary Table 1: Description of samples'
+  row-scz-lacw-eur:
+    quotes:
+    - exact: New CC | Levinson, D | 22885689 | Six countries, WTCCC controls | 4 | I550 | 157 | 245 |
+        0.918 | scz_lacw_eur
+      section: 'Supplementary Table 1: Description of samples'
+  row-scz-zhh1-eur:
+    quotes:
+    - exact: PGC1 | Malhotra, A | 17522711 | New York, US | 8 | A500 | 190 | 0.577 | scz_zhh1_eur
+      section: 'Supplementary Table 1: Description of samples'
+  row-scz-asrb-eur:
+    quotes:
+    - exact: PGC1 | Mowry, B | 21034186 | Australia | 9 | I650 | 456 | 287 | 0.601 | scz_asrb_eur
+      section: 'Supplementary Table 1: Description of samples'
+  row-scz-caws-eur:
+    quotes:
+    - exact: PGC1 | O’Donovan M/Owen M | 19571811 | Cardiff, UK | 9 | A500 | 396 | 284 | 0.589 | scz_caws_eur
+      section: 'Supplementary Table 1: Description of samples'
+  row-scz-clm2-eur:
+    quotes:
+    - exact: New CC | O’Donovan M/Owen M/Walters J | 22614287 | UK (CLOZUK) | 0 | I1M | 3426 | 4085 |
+        0.880 | scz_clm2_eur
+      section: 'Supplementary Table 1: Description of samples'
+  row-scz-clo3-eur:
+    quotes:
+    - exact: New CC | O’Donovan M/Owen M/Walters J | 22614287 | UK (CLOZUK) | 0 | omni | 2105 | 1975 |
+        0.629 | scz_clo3_eur
+      section: 'Supplementary Table 1: Description of samples'
+  row-scz-ucla-eur:
+    quotes:
+    - exact: PGC1 | Ophoff, R | 19571808 | Netherlands | 7 | I550 | 700 | 607 | 0.628 | scz_ucla_eur
+      section: 'Supplementary Table 1: Description of samples'
+  row-scz-fi3m-eur:
+    quotes:
+    - exact: PGC1 | Palotie, A | 19571808 | Finland | 9 | I317 | 186 | 929 | 0.514 | scz_fi3m_eur
+      section: 'Supplementary Table 1: Description of samples'
+  row-scz-fii6-eur:
+    quotes:
+    - exact: New CC | Palotie, A | NP | Finnish | 9 | I550 | 360 | 1082 | 0.463 | scz_fii6_eur
+      section: 'Supplementary Table 1: Description of samples'
+  row-scz-port-eur:
+    quotes:
+    - exact: PGC1 | Pato, C | 19571811 | Portugal | 9 | A6.0 | 346 | 215 | 0.521 | scz_port_eur
+      section: 'Supplementary Table 1: Description of samples'
+  row-scz-cims-eur:
+    quotes:
+    - exact: New CC | Petryshen, T | 24424392 | Boston, US (CIDAR) | 9 | omni | 67 | 65 | 0.757 | scz_cims_eur
+      section: 'Supplementary Table 1: Description of samples'
+  row-scz-pfla-eur:
+    quotes:
+    - exact: New CC | Wendland J/ Schubert CR | NP | Pfizer | 0 | I550 | 662 | 1172 | 0.539 | scz_pfla_eur
+      section: 'Supplementary Table 1: Description of samples'
+  row-scz-boco-eur:
+    quotes:
+    - exact: PGC1+new CC | Rietschel/Rujescu/Nöthen | 19571808 | Bonn/Mannheim, Germany | 9 | ILMN* |
+        1773 | 2161 | 0.490 | scz_boco_eur
+      section: 'Supplementary Table 1: Description of samples'
+  row-scz-munc-eur:
+    quotes:
+    - exact: PGC1 | Rujescu, D | 19571808 | Munich, Germany | 8 | I317 | 421 | 312 | 0.569 | scz_munc_eur
+      section: 'Supplementary Table 1: Description of samples'
+  row-scz-aber-eur:
+    quotes:
+    - exact: PGC1 | St Clair, D | 19571811 | Aberdeen, UK | 9 | A6.0 | 719 | 697 | 0.693 | scz_aber_eur
+      section: 'Supplementary Table 1: Description of samples'
+  row-scz-cati-eur:
+    quotes:
+    - exact: PGC1 | Sullivan, PF | 18347602 | US (CATIE) | 7 | A500 | 397 | 203 | 0.767 | scz_cati_eur
+      section: 'Supplementary Table 1: Description of samples'
+  row-scz-swe1-eur:
+    quotes:
+    - exact: PGC1 | Sullivan, PF/Sklar P/Hultman C | 23974872 | Sweden (sw1) | 3 | A5.0 | 215 | 210 |
+        0.527 | scz_swe1_eur
+      section: 'Supplementary Table 1: Description of samples'
+  row-scz-s234-eur:
+    quotes:
+    - exact: PGC1/New CC | Sullivan, PF/Sklar P/Hultman C | 23974872 | Sweden (sw234) | 3 | A6.0 | 1980
+        | 2274 |  | scz_s234_eur
+      section: 'Supplementary Table 1: Description of samples'
+  row-scz-swe5-eur:
+    quotes:
+    - exact: New CC | Sullivan, PF/Sklar P/Hultman C | 23974872 | Sweden (sw5) | 3 | omni | 1764 | 2581
+        | 0.553 | scz_swe5_eur
+      section: 'Supplementary Table 1: Description of samples'
+  row-scz-swe6-eur:
+    quotes:
+    - exact: New CC | Sullivan, PF/Sklar P/Hultman C | 23974872 | Sweden (sw6) | 3 | omni | 975 | 1145
+        | 0.543 | scz_swe6_eur
+      section: 'Supplementary Table 1: Description of samples'
+  row-scz-cou3-eur:
+    quotes:
+    - exact: New CC | Walters, J | 21850710 | Cardiff, UK (CogUK) | 9 | omni | 530 | 678 | 0.554 | scz_cou3_eur
+      section: 'Supplementary Table 1: Description of samples'
+  row-scz-lie2-eur:
+    quotes:
+    - exact: New CC | Weinberger, D | 11381111 | NIMH CBDB | 5 | O25 | 133 | 269 | 0.547 | scz_lie2_eur
+      section: 'Supplementary Table 1: Description of samples'
+  row-scz-lie5-eur:
+    quotes:
+    - exact: New CC | Weinberger, D | 11381111 | NIMH CBDB | 5 | I550 | 497 | 389 | 0.627 | scz_lie5_eur
+      section: 'Supplementary Table 1: Description of samples'
+  row-scz-denm-eur:
+    quotes:
+    - exact: PGC1 | Werge, T | 19571808 | Denmark | 8 | I650 | 471 | 456 | 0.583 | scz_denm_eur
+      section: 'Supplementary Table 1: Description of samples'
+  row-ms-scz-butr-eur:
+    quotes:
+    - exact: Trios | Kirov, G/Owen M | 22083728 | Bulgaria | 8 | A6.0 | 649 | 0.502 | ms.scz_butr_eur
+      section: 'Supplementary Table 1: Description of samples'
+  row-ms-scz-lemu-eur:
+    quotes:
+    - exact: Trios | Levinson, D | 22885689 | Six countries | 4 | I650 | 516 | 0.556 | ms.scz_lemu_eur
+      section: 'Supplementary Table 1: Description of samples'
+  row-ms-scz-uktr-eur:
+    quotes:
+    - exact: Trios | Kirov, G/Owen M | NP | Bulgaria | 8 | omni | 70 | 0.595 | ms.scz_uktr_eur
+      section: 'Supplementary Table 1: Description of samples'
+  row-scz-jpn1-asn:
+    quotes:
+    - exact: East Asia | Iwata, N | 20832056 | Japan | 3 | A5.0 | 492 | 427 | 0.507 | scz_jpn1_asn
+      section: 'Supplementary Table 1: Description of samples'
+  row-scz-tcr1-asn:
+    quotes:
+    - exact: East Asia | Liu, J | NP | Singapore (STCRP) | 8 | I1M | 868 | 938 |  | scz_tcr1_asn
+      section: 'Supplementary Table 1: Description of samples'
+  row-scz-hok2-asn:
+    quotes:
+    - exact: East Asia | Sham, P | 24043878 | China | 6 | I550 | 476 | 2018 | 0.398 | scz_hok2_asn
+      section: 'Supplementary Table 1: Description of samples'
+  row-replication-iceland:
+    quotes:
+    - exact: Replication | Stefánsson, H | 19571808 | Iceland (SGENE+, deCODE) |  | ILMN* | 628 | 65,312
+        |  | N/A
+      section: 'Supplementary Table 1: Description of samples'
+  row-replication-non-iceland:
+    quotes:
+    - exact: Replication | Stefánsson, H | 23164818 | Non-Icelandic (SGENE+, deCODE) |  | ILMN* | 885
+        | 924 |  | N/A
+      section: 'Supplementary Table 1: Description of samples'
+  caption-table1:
+    quotes:
+    - exact: 'Supplementary Table 1: Description of samples'
+      section: 'Supplementary Table 1: Description of samples'
+  total-discovery:
+    quotes:
+    - exact: Total Discovery |  | 35,476 | 46,839 |
+      section: 'Supplementary Table 1: Description of samples'
+  tag-defn:
+    quotes:
+    - exact: The Tag column refers to the identifier for this sample in the PGC databases.
+      section: 'Supplementary Table 1: Description of samples'
+  all-52-meta:
+    quotes:
+    - exact: We tested all 52 GWAS datasets separately for association under an additive logistic regression
+        model using PLINK and the derived principal components as covariates51, and then conducted a meta-analysis
+        of the 52 sets of results using an inverse-weighted fixed effects model.
+      section: 'Supplementary Text: Quality Control, Imputation and Association Analysis'
+  decode-top-snps:
+    quotes:
+    - exact: We obtained summary association results for SNPs surpassing P < 1x10-6 in the discovery meta-analysis
+        from deCODE
+      section: 'Supplementary Text: Quality Control, Imputation and Association Analysis'
+  ctrl-betula:
+    quotes:
+    - exact: Controls were recruited from the Betula study, an on-going longitudinal, prospective, population-based
+        study from the same geographic area (North Sweden)
+      section: 'Supplementary Text: Details of individual participating studies'
+  ctrl-top:
+    quotes:
+    - exact: Healthy control subjects were randomly selected from statistical records of persons from
+        the same catchment area as the patient groups.
+      section: 'Supplementary Text: Details of individual participating studies'
+  ctrl-edin:
+    quotes:
+    - exact: Cases and controls were recruited from the southeast of Scotland
+      section: 'Supplementary Text: Details of individual participating studies'
+  ctrl-dnsb:
+    quotes:
+    - exact: DNA samples for all subjects were collected from blood spots systematically collected by
+        the Danish Newborn Screening Biobank)
+      section: 'Supplementary Text: Details of individual participating studies'
+  ctrl-peic:
+    quotes:
+    - exact: all participants (including controls and unaffected family members) underwent a structured
+        clinical interview
+      section: 'Supplementary Text: Details of individual participating studies'
+  ctrl-msaf:
+    quotes:
+    - exact: Samples contributed by Mount Sinai were derived from three cohorts.
+      section: 'Supplementary Text: Details of individual participating studies'
+  ctrl-ibts-dubl:
+    quotes:
+    - exact: The controls were recruited, from the same region through the Irish Blood Transfusion Services.
+      section: 'Supplementary Text: Details of individual participating studies'
+  ctrl-ibts-irwt:
+    quotes:
+    - exact: Controls were blood donors from the Irish Blood Transfusion Service
+      section: 'Supplementary Text: Details of individual participating studies'
+  ctrl-gras:
+    quotes:
+    - exact: Controls were unscreened blood donors recruited at the Georg-August-University according
+        to national blood donation guidelines.
+      section: 'Supplementary Text: Details of individual participating studies'
+  ctrl-egcut:
+    quotes:
+    - exact: Controls were drawn from a larger pool of genotyped biobank samples by matching on gender,
+        age and genetic ancestry.
+      section: 'Supplementary Text: Details of individual participating studies'
+  ctrl-egcut-jr:
+    quotes:
+    - exact: Most of the Eastern European controls were from the Estonian Biobank project (EGCUT)
+      section: 'Supplementary Text: Details of individual participating studies'
+  cases-jnj-roche:
+    quotes:
+    - exact: Cases were collected by Johnson and Johnson (J&J) and Roche as part of clinical collaborations
+        with hospitals and outpatient centers.
+      section: 'Supplementary Text: Details of individual participating studies'
+  ctrl-mgs:
+    quotes:
+    - exact: A survey company (Knowledge Networks, under MGS guidance) collected the European ancestry
+        control sample
+      section: 'Supplementary Text: Details of individual participating studies'
+  ctrl-ucl:
+    quotes:
+    - exact: All cases and controls were collected by University College London
+      section: 'Supplementary Text: Details of individual participating studies'
+  ctrl-hubin:
+    quotes:
+    - exact: Controls were recruited either among subjects previously participating in biological research
+        at the Karolinska Institute or drawn from a representative register of the population of Stockholm
+        County.
+      section: 'Supplementary Text: Details of individual participating studies'
+  ctrl-bulgaria:
+    quotes:
+    - exact: Controls were recruited from the two largest cities in Bulgaria as previously described.
+      section: 'Supplementary Text: Details of individual participating studies'
+  ctrl-migen:
+    quotes:
+    - exact: ancestrally-matched controls were chosen from the Myocardial Infarction Genetics Consortium
+        (MIGen, dbGaP ID phs000294.v1.p1)
+      section: 'Supplementary Text: Details of individual participating studies'
+  ctrl-hugr:
+    quotes:
+    - exact: Cases and controls were sampled from an Ashkenazi Jewish repository (Hebrew University Genetic
+        Resource, http://hugr.huji.ac.il).
+      section: 'Supplementary Text: Details of individual participating studies'
+  ctrl-israeli-blood-bank:
+    quotes:
+    - exact: Controls were sampled through the Israeli Blood Bank
+      section: 'Supplementary Text: Details of individual participating studies'
+  ctrl-wtccc-lacw:
+    quotes:
+    - exact: using independent controls, matched by ancestry and genotyping array, from the Wellcome Trust
+        Case Control Consortium.
+      section: 'Supplementary Text: Details of individual participating studies'
+  ctrl-zhh:
+    quotes:
+    - exact: The case and control subjects were recruited in the New York metropolitan area
+      section: 'Supplementary Text: Details of individual participating studies'
+  ctrl-asrb:
+    quotes:
+    - exact: These subjects were part of the Australian Schizophrenia Research Bank.
+      section: 'Supplementary Text: Details of individual participating studies'
+  ctrl-caws-b58c-ukbs:
+    quotes:
+    - exact: but included similar numbers of individuals from the 1958 British Birth Cohort and a panel
+        of consenting blood donors (UK Blood Service)
+      section: 'Supplementary Text: Details of individual participating studies'
+  ctrl-clozuk-wtccc2:
+    quotes:
+    - exact: The controls were drawn from the WTCCC2 control samples (~3,000 from the 1958 British Birth
+        Cohort and ~3,000 samples from the UK Blood Service Control Group).
+      section: 'Supplementary Text: Details of individual participating studies'
+  ctrl-clozuk-nbs:
+    quotes:
+    - exact: An additional 900 controls, held by Cardiff University, were recruited from the UK National
+        Blood Transfusion Service.
+      section: 'Supplementary Text: Details of individual participating studies'
+  ctrl-utrecht:
+    quotes:
+    - exact: Controls came from the University Medical Centre Utrecht and were volunteers with no psychiatric
+        history.
+      section: 'Supplementary Text: Details of individual participating studies'
+  ctrl-health2000:
+    quotes:
+    - exact: The control sample was derived from the Finnish Health 2000 survey.
+      section: 'Supplementary Text: Details of individual participating studies'
+  cases-finnish-families:
+    quotes:
+    - exact: Finnish cases were drawn from a nationwide collection of families with schizophrenia spectrum
+        disorders.
+      section: 'Supplementary Text: Details of individual participating studies'
+  ctrl-portugal:
+    quotes:
+    - exact: Cases and controls lived in Portugal, the Azorean and Madeiran islands
+      section: 'Supplementary Text: Details of individual participating studies'
+  ctrl-cidar:
+    quotes:
+    - exact: Controls were ascertained through local advertisements from the same geographical area.
+      section: 'Supplementary Text: Details of individual participating studies'
+  ctrl-boco-popgen-kora-hnr:
+    quotes:
+    - exact: Controls were drawn from three population-based epidemiological studies (PopGen), 27 the
+        Cooperative Health Research in the Region of Augsburg (KORA) study, 28 and the Heinz Nixdorf Recall
+        (HNR) study.
+      section: 'Supplementary Text: Details of individual participating studies'
+  ctrl-boco-munich-community:
+    quotes:
+    - exact: Additional controls were randomly selected from a Munich-based community sample
+      section: 'Supplementary Text: Details of individual participating studies'
+  ctrl-munich:
+    quotes:
+    - exact: The controls were unrelated volunteers randomly selected from the general population of Munich.
+      section: 'Supplementary Text: Details of individual participating studies'
+  ctrl-aberdeen:
+    quotes:
+    - exact: Ascertainment and inclusion/exclusion criteria for cases and controls have been previously
+        described.
+      section: 'Supplementary Text: Details of individual participating studies'
+  ctrl-catie-mgs:
+    quotes:
+    - exact: The control subjects were collected by MGS (described above)
+      section: 'Supplementary Text: Details of individual participating studies'
+  cases-catie:
+    quotes:
+    - exact: Cases were collected as part of the Clinical Antipsychotics Trials of Intervention Effectiveness
+        (CATIE) project
+      section: 'Supplementary Text: Details of individual participating studies'
+  ctrl-sweden:
+    quotes:
+    - exact: Controls were selected at random from Swedish population registers
+      section: 'Supplementary Text: Details of individual participating studies'
+  cases-coguk:
+    quotes:
+    - exact: Cases were recruited from community mental health teams in Wales and England
+      section: 'Supplementary Text: Details of individual participating studies'
+  ctrl-nimh-cbdb:
+    quotes:
+    - exact: Subjects were recruited from the Clinical Brain Disorders Branch of the NIMH ‘Sibling Study’
+        as previously described.
+      section: 'Supplementary Text: Details of individual participating studies'
+  ctrl-pfizer:
+    quotes:
+    - exact: The controls (A9011027) were recruited in a multi-site, cross-sectional, non-treatment prospective
+        trial
+      section: 'Supplementary Text: Details of individual participating studies'
+  cases-pfizer:
+    quotes:
+    - exact: Pfizer contributed anonymized individual genotypes for cases from seven multi-center randomized,
+        double-blind efficacy and safety clinical trials
+      section: 'Supplementary Text: Details of individual participating studies'
+  ctrl-denmark-aarhus:
+    quotes:
+    - exact: The controls were collected at the University of Aarhus, and included 500 medical students
+      section: 'Supplementary Text: Details of individual participating studies'
+  trio-bulgaria:
+    quotes:
+    - exact: Families from Bulgaria were recruited if a proband had schizophrenia or schizoaffective disorder,
+        both parents were available
+      section: 'Supplementary Text: Details of individual participating studies'
+  trio-levinson:
+    quotes:
+    - exact: Schizophrenia cases were included from the family sample of European-ancestry pedigrees described
+        by Levinson et al.
+      section: 'Supplementary Text: Details of individual participating studies'
+  trio-uk:
+    quotes:
+    - exact: All cases and parents were recruited from UK and had a history of hospitalization for treatment
+        of schizophrenia.
+      section: 'Supplementary Text: Details of individual participating studies'
+  asn-japan:
+    quotes:
+    - exact: Case and control participants were recruited from the Tokai area of mainland Japan and self-identified
+        as Japanese.
+      section: 'Supplementary Text: Details of individual participating studies'
+  ctrl-sp2:
+    quotes:
+    - exact: The controls were from the Singapore Prospective Study Program 11
+      section: 'Supplementary Text: Details of individual participating studies'
+  ctrl-hk-convenience:
+    quotes:
+    - exact: The control group was a convenience sample gathered from several sources - subjects from
+        a GWAS on bone mineral density, 43 the control subjects from a GWAS on hypertension, 44 and on
+        liver cancer. 45, and healthy control subjects recruited from Sichuan and Taiwan.
+      section: 'Supplementary Text: Details of individual participating studies'
+  cases-hk-sichuan:
+    quotes:
+    - exact: The case sample include patients with DSM-IV schizophrenia recruited in Hong Kong and Sichuan
+        China described previously.
+      section: 'Supplementary Text: Details of individual participating studies'
+  decode-replication-iceland:
+    quotes:
+    - exact: The Icelandic sample consisted of cases and controls who were recruited and diagnosed in
+        Iceland as previously described.
+      section: 'Supplementary Text: Replication, European ancestry, case-control design'
+  sample-size-summary:
+    quotes:
+    - exact: Replication samples (European ancestry, case-control), 1,513 cases and 66,236 controls
+      section: 'Supplementary Text: Sample size summary'

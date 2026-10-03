@@ -1,0 +1,36 @@
+source:
+  citation: wray2018mdd_main
+  local: sources/wray2018mdd_main.txt
+  sha256: a889cf7909d91e96771c1fcbb2f9dbab869918c42b807e7de4c84851fd51a1a7
+  url: https://pmc-oa-opendata.s3.amazonaws.com/PMC5934326.1/PMC5934326.1.txt
+  doi: 10.1038/s41588-018-0090-3
+  note: Full text (author manuscript NIHMS943355) of Wray NR et al. 2018 Nat Genet 50:668-681, PMC5934326,
+    plain-text rendering (PMC5934326.1.txt) from the NCBI PMC open-data bucket pmc-oa-opendata, unedited.
+claims:
+  seven-cohorts:
+    quotes:
+    - exact: We identified seven cohorts that used a range of methods to ascertain cases with major depression
+        (described in detail in Table 1, Supplementary Tables 1–3).
+      section: Results
+  pgc29-29samples:
+    quotes:
+    - exact: Our analysis was anchored in a GWA mega-analysis of 29 samples of European-ancestry (16,823
+        MDD cases and 25,632 controls). Supplementary Table 1 summarizes the source and inclusion/exclusion
+        criteria for cases and controls for each sample.
+      section: Methods, PGC29 cohort
+  six-additional:
+    quotes:
+    - exact: We critically evaluated six independent, European-ancestry cohorts (118,635 cases and 319,269
+        controls). Supplementary Table 2 summarizes the source and inclusion/exclusion criteria for cases
+        and controls for each cohort.
+      section: Methods, Additional cohorts
+  public-release:
+    quotes:
+    - exact: Summary statistics for a combined meta-analysis of PGC29 with five of the six expanded samples
+        (deCODE, Generation Scotland, GERA, iPSYCH, and UK Biobank) are available on the PGC web site
+        (URLs).
+      section: Data availability
+  23andme-separate:
+    quotes:
+    - exact: GWA summary statistics for the Hyde et al. cohort (23andMe, Inc.) must be obtained separately.
+      section: Data availability

@@ -1,0 +1,67 @@
+{
+ "type": "object",
+ "additionalProperties": false,
+ "required": [
+  "claims"
+ ],
+ "properties": {
+  "claims": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+     "protein_as_written",
+     "outcome_as_written",
+     "direction",
+     "pqtl_datasets",
+     "outcome_datasets",
+     "platform",
+     "ancestry",
+     "evidence_span"
+    ],
+    "properties": {
+     "protein_as_written": {
+      "type": "string"
+     },
+     "outcome_as_written": {
+      "type": "string"
+     },
+     "direction": {
+      "type": "string",
+      "enum": [
+       "raises",
+       "lowers",
+       "null",
+       "not_stated"
+      ]
+     },
+     "pqtl_datasets": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "outcome_datasets": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "platform": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ancestry": {
+      "type": "string"
+     },
+     "evidence_span": {
+      "type": "string"
+     }
+    }
+   }
+  }
+ }
+}

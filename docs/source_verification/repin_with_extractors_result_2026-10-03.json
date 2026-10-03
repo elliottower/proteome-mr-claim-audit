@@ -1,0 +1,2760 @@
+[
+ {
+  "stem": "aragam2022cad_supp_table1",
+  "target": "claims/aragam2022cad_supp_table1_original.yaml",
+  "original": "sources/original/aragam2022cad_supp_table1.xlsx",
+  "sha256": "98b8f915e9b7ddbc45f1d4d470dd382cdc245ea92d60dc33a2dc691551212c48",
+  "extractor": "sheet-rows",
+  "quotes": 3,
+  "pinned": 3,
+  "already_present": 0,
+  "refused": []
+ },
+ {
+  "stem": "bellenguez2022_supp_table1",
+  "target": "claims/bellenguez2022_supp_table1_original.yaml",
+  "original": "sources/original/bellenguez2022_supp_table1.xlsx",
+  "sha256": "6fdf437222b307fdfb7a5d1a6fbf7cfd725f92daabb2a5a9106553a01b74f83b",
+  "extractor": "sheet-rows",
+  "quotes": 15,
+  "pinned": 0,
+  "already_present": 15,
+  "refused": []
+ },
+ {
+  "stem": "christophersen2017af_supp_table1",
+  "target": "claims/christophersen2017af_supp_table1_original.yaml",
+  "original": "sources/original/christophersen2017af_supp_table1.xlsx",
+  "sha256": "a7d7e1f1c3b38746cdcca32e230ce7d5f08903abb80a060500db01b147ef39ca",
+  "extractor": "sheet-rows",
+  "quotes": 36,
+  "pinned": 35,
+  "already_present": 0,
+  "refused": [
+   {
+    "claim_id": "row-gs-sfhs",
+    "quote": "GS_SFHS | Cases | 203",
+    "said": "ambiguous  GS_SFHS | Cases | 203\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   }
+  ]
+ },
+ {
+  "stem": "covidhgi2021_supp_table1",
+  "target": "claims/covidhgi2021_supp_table1_original.yaml",
+  "original": "sources/original/covidhgi2021_supp_table1.xlsx",
+  "sha256": "072031db9d224c4dfe131cd35395c8e9d75c77c774168a8bbc783431eda6553a",
+  "extractor": "sheet-rows",
+  "quotes": 58,
+  "pinned": 53,
+  "already_present": 0,
+  "refused": [
+   {
+    "claim_id": "23andme_afr",
+    "quote": "23andMe | United States | 23ANDME | AFR |  |  |  |  | 506 | 3110",
+    "said": "not found  23andMe | United States | 23ANDME | AFR |  |  |  |  | 506 | \n  the first 42 characters are in the source and the rest is not\n      quoted: ...ed states | 23andme | afr | | | | | 506 | 3110\n      source: ...ed states | 23andme | afr | 506 | 3110 | cases & controls 51 y\n      one character missing from the source's text layer -- a minus sign, an en dash, a hyphen on a line break -- is the usual cause, and is a defect in the extraction rather than in the quotation. Split the quotation into adjacent fragments either side of it; do not truncate it to the part that matches\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "account_afr",
+    "quote": "ACCOuNT | United States | ACCOuNT | AFR |  |  |  |  | 57 | 799",
+    "said": "not found  ACCOuNT | United States | ACCOuNT | AFR |  |  |  |  | 57 | 7\n  the first 42 characters are in the source and the rest is not\n      quoted: ...ed states | account | afr | | | | | 57 | 799\n      source: ...ed states | account | afr | 57 | 799 | cases 55.02 years contr\n      one character missing from the source's text layer -- a minus sign, an en dash, a hyphen on a line break -- is the usual cause, and is a defect in the extraction rather than in the quotation. Split the quotation into adjacent fragments either side of it; do not truncate it to the part that matches\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "ancestrydna_eur",
+    "quote": "AncestryDNA COVID-19 Research Study | United States | Ancestry | EUR |  |  | 250 | 1967 | 2417 | 14933",
+    "said": "not found  AncestryDNA COVID-19 Research Study | United States | Ancest\n  the first 71 characters are in the source and the rest is not\n      quoted: ...d states | ancestry | eur | | | 250 | 1967 | 2417 | 14933\n      source: ...d states | ancestry | eur | 250 | 1967 | 2417 | 14933 | cases \n      one character missing from the source's text layer -- a minus sign, an en dash, a hyphen on a line break -- is the usual cause, and is a defect in the extraction rather than in the quotation. Split the quotation into adjacent fragments either side of it; do not truncate it to the part that matches\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "ccpm_eur",
+    "quote": "Colorado Center for Personalized Medicine - CCPM | United States | CCPM | EUR |  |  |  |  | 332 | 32375",
+    "said": "not found  Colorado Center for Personalized Medicine - CCPM | United St\n  the first 80 characters are in the source and the rest is not\n      quoted: ...nited states | ccpm | eur | | | | | 332 | 32375\n      source: ...nited states | ccpm | eur | 332 | 32375 | cases & controls 53 \n      one character missing from the source's text layer -- a minus sign, an en dash, a hyphen on a line break -- is the usual cause, and is a defect in the extraction rather than in the quotation. Split the quotation into adjacent fragments either side of it; do not truncate it to the part that matches\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "caption",
+    "quote": "All independent studies that contributed data to at least one of the three main all-ancestries meta-analyses are listed",
+    "said": "ambiguous  All independent studies that contributed data to at least on\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   }
+  ]
+ },
+ {
+  "stem": "covidhgi2023r7_supp_table1",
+  "target": "claims/covidhgi2023r7_supp_table1_original.yaml",
+  "original": "sources/original/covidhgi2023r7_supp_table1.xlsx",
+  "sha256": "936046e4a882a811c0de7e3f69f9d1734dc0782300817267d6c91b12a848946e",
+  "extractor": "sheet-rows",
+  "quotes": 112,
+  "pinned": 109,
+  "already_present": 0,
+  "refused": [
+   {
+    "claim_id": "mass_general_brigham_biobank_eur",
+    "quote": "Mass General Brigham - Host Vulnerability to COVID-19 | United States | PHBB | EUR |  |  | 318 | 31558 | 1059 | 31558",
+    "said": "not found  Mass General Brigham - Host Vulnerability to COVID-19 | Unit\n  the first 85 characters are in the source and the rest is not\n      quoted: ...nited states | phbb | eur | | | 318 | 31558 | 1059 | 31558\n      source: ...nited states | phbb | eur | 318 | 31558 | 1059 | 31558 | cases\n      one character missing from the source's text layer -- a minus sign, an en dash, a hyphen on a line break -- is the usual cause, and is a defect in the extraction rather than in the quotation. Split the quotation into adjacent fragments either side of it; do not truncate it to the part that matches\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "penn_medicine_biobank_eur",
+    "quote": "Penn Medicine Biobank | United States | PMBB | EUR | - | - |  |  | 60 | 9702",
+    "said": "not found  Penn Medicine Biobank | United States | PMBB | EUR | - | - |\n  the first 61 characters are in the source and the rest is not\n      quoted: ...ates | pmbb | eur | - | - | | | 60 | 9702\n      source: ...ates | pmbb | eur | - | - | 60 | 9702 | cases 49.5 years contr\n      one character missing from the source's text layer -- a minus sign, an en dash, a hyphen on a line break -- is the usual cause, and is a defect in the extraction rather than in the quotation. Split the quotation into adjacent fragments either side of it; do not truncate it to the part that matches\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "account_afr",
+    "quote": "ACCOuNT | United States | ACCOuNT | AFR |  |  |  |  | 57 | 799",
+    "said": "not found  ACCOuNT | United States | ACCOuNT | AFR |  |  |  |  | 57 | 7\n  the first 42 characters are in the source and the rest is not\n      quoted: ...ed states | account | afr | | | | | 57 | 799\n      source: ...ed states | account | afr | 57 | 799 | cases 55.02 years contr\n      one character missing from the source's text layer -- a minus sign, an en dash, a hyphen on a line break -- is the usual cause, and is a defect in the extraction rather than in the quotation. Split the quotation into adjacent fragments either side of it; do not truncate it to the part that matches\nnothing written. read the source before recording the passage."
+   }
+  ]
+ },
+ {
+  "stem": "demenais2018tagc_supp_table1",
+  "target": "claims/demenais2018tagc_supp_table1_original.yaml",
+  "original": "sources/original/demenais2018tagc_supp_table1.xlsx",
+  "sha256": "73924fc2912e09bdb3150623ee63c3810bf3362ab7e1e9ae2a8696dc19eaf5ff",
+  "extractor": "sheet-rows",
+  "quotes": 67,
+  "pinned": 67,
+  "already_present": 0,
+  "refused": []
+ },
+ {
+  "stem": "demontis2023adhd_supp_table1",
+  "target": "claims/demontis2023adhd_supp_table1_original.yaml",
+  "original": "sources/original/demontis2023adhd_supp_table1.xlsx",
+  "sha256": "ba657650d94c95da547513d3402658e9ab2f33a0ed2d454f7dd04bf15aa51cf7",
+  "extractor": "sheet-rows",
+  "quotes": 15,
+  "pinned": 15,
+  "already_present": 0,
+  "refused": []
+ },
+ {
+  "stem": "evangelou2018bp_supp_tables",
+  "target": "claims/evangelou2018bp_supp_tables_original.yaml",
+  "original": "sources/original/evangelou2018bp_supp_tables.xlsx",
+  "sha256": "a24bdb447da0ac13c3de0b62250147c640502370b6bbc877e48c5ff84f8beda4",
+  "extractor": "sheet-rows",
+  "quotes": 82,
+  "pinned": 82,
+  "already_present": 0,
+  "refused": []
+ },
+ {
+  "stem": "fernandezrozadilla2023crc_supp_table1",
+  "target": "claims/fernandezrozadilla2023crc_supp_table1_original.yaml",
+  "original": "sources/original/fernandezrozadilla2023crc_supp_table1.xlsx",
+  "sha256": "8c01f6ace7542e30debbe37a69830a088c4d10e86bb18b06f2fd5cbaf37e8558",
+  "extractor": "sheet-rows",
+  "quotes": 67,
+  "pinned": 67,
+  "already_present": 0,
+  "refused": []
+ },
+ {
+  "stem": "folkersen2020scallop_supp_table1",
+  "target": "claims/folkersen2020scallop_supp_table1_original.yaml",
+  "original": "sources/original/folkersen2020scallop_supp_table1.xlsx",
+  "sha256": "928e2526e972469f52cfea931e1bcec1be9d699f3305db4a197aad0ffeb64d4d",
+  "extractor": "sheet-rows",
+  "quotes": 3,
+  "pinned": 2,
+  "already_present": 0,
+  "refused": [
+   {
+    "claim_id": "row-il8",
+    "quote": "P10145 | CXCL8 | 101_IL-8 | IL-8 | Interleukin-8 | Y |  |  | Y",
+    "said": "not found  P10145 | CXCL8 | 101_IL-8 | IL-8 | Interleukin-8 | Y |  |  |\n  the first 55 characters are in the source and the rest is not\n      quoted: ... il-8 | interleukin-8 | y | | | y\n      source: ... il-8 | interleukin-8 | y | y | 0.0004 | 0.00095 | na | 0 | 0.\n      one character missing from the source's text layer -- a minus sign, an en dash, a hyphen on a line break -- is the usual cause, and is a defect in the extraction rather than in the quotation. Split the quotation into adjacent fragments either side of it; do not truncate it to the part that matches\nnothing written. read the source before recording the passage."
+   }
+  ]
+ },
+ {
+  "stem": "graham2021glgc_supp_table1",
+  "target": "claims/graham2021glgc_supp_table1_original.yaml",
+  "original": "sources/original/graham2021glgc_supp_table1.xlsx",
+  "sha256": "79fe076f0ea656a7825b0c9db130ccf9008af51008d7a5ac660a10ae9efdd2fc",
+  "extractor": "sheet-rows",
+  "quotes": 281,
+  "pinned": 280,
+  "already_present": 0,
+  "refused": [
+   {
+    "claim_id": "st1-caption",
+    "quote": "Supplementary Table 1: Characteristics of contributing cohorts (as provided by each participating cohort)",
+    "said": "ambiguous  Supplementary Table 1: Characteristics of contributing cohor\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   }
+  ]
+ },
+ {
+  "stem": "huyghe2019crc_supp_table1",
+  "target": "claims/huyghe2019crc_supp_table1_original.yaml",
+  "original": "sources/original/huyghe2019crc_supp_table1.xlsx",
+  "sha256": "d280fdc19af04f844d96185665c54ca69ea58d30ae9ca40352126a9f482fc537",
+  "extractor": "sheet-rows",
+  "quotes": 71,
+  "pinned": 71,
+  "already_present": 0,
+  "refused": []
+ },
+ {
+  "stem": "jansen2019_supp_table1",
+  "target": "claims/jansen2019_supp_table1_original.yaml",
+  "original": "sources/original/jansen2019_supp_table1.xlsx",
+  "sha256": "bab5fc3a2fddbc4d29814f0d3fc3ff63dc5cbf66ec2a32124f5ca527857e3d71",
+  "extractor": "sheet-rows",
+  "quotes": 7,
+  "pinned": 4,
+  "already_present": 0,
+  "refused": [
+   {
+    "claim_id": "row_igap",
+    "quote": "2. IGAP |  | Europe/US | 54162 | 17008",
+    "said": "not found  2. IGAP |  | Europe/US | 54162 | 17008\n  read the source: a broken extraction reads the same as a passage that was never there\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "row_adsp",
+    "quote": "3. ADSP |  | Europe/US | 7506 | 4343",
+    "said": "not found  3. ADSP |  | Europe/US | 7506 | 4343\n  read the source: a broken extraction reads the same as a passage that was never there\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "row_ukb",
+    "quote": "4. UKB |  | UK | 376113 | 47793",
+    "said": "not found  4. UKB |  | UK | 376113 | 47793\n  read the source: a broken extraction reads the same as a passage that was never there\nnothing written. read the source before recording the passage."
+   }
+  ]
+ },
+ {
+  "stem": "kunkle2019_supp_tables",
+  "target": "claims/kunkle2019_supp_tables_original.yaml",
+  "original": "sources/original/kunkle2019_supp_tables.xlsx",
+  "sha256": "a0c7dfd3e56fcec7f38927e948ee015153c6fc2852f7ef14a2fe9d873b92b79c",
+  "extractor": "sheet-rows",
+  "quotes": 41,
+  "pinned": 35,
+  "already_present": 0,
+  "refused": [
+   {
+    "claim_id": "st2_caption",
+    "quote": "Supplementary Table 2. Demographic description of datasets within each consortium.",
+    "said": "ambiguous  Supplementary Table 2. Demographic description of datasets w\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "st1_totals",
+    "quote": "TOTALS |  | 21982 |  |  | 41944",
+    "said": "not found  TOTALS |  | 21982 |  |  | 41944\n  read the source: a broken extraction reads the same as a passage that was never there\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "st2_biocard",
+    "quote": "BIOCARD | 6 | 33.3",
+    "said": "ambiguous  BIOCARD | 6 | 33.3\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "st2_chap",
+    "quote": "CHAP | 27 | 63",
+    "said": "ambiguous  CHAP | 27 | 63\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "st2_einstein_aging_study",
+    "quote": "EAS | 9 | 44.4",
+    "said": "ambiguous  EAS | 9 | 44.4\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "st2_eadi",
+    "quote": "EADI |  | 2240 | 65",
+    "said": "not found  EADI |  | 2240 | 65\n  read the source: a broken extraction reads the same as a passage that was never there\nnothing written. read the source before recording the passage."
+   }
+  ]
+ },
+ {
+  "stem": "kurki2023finngen_supp_methods",
+  "target": "claims/kurki2023finngen_supp_methods_original.yaml",
+  "original": "sources/original/kurki2023finngen_supp_methods.docx",
+  "sha256": "190e67a7147b0b034371bfa1780531a1261fd137c27961b52b63b59c6664694c",
+  "extractor": "docx-text",
+  "quotes": 3,
+  "pinned": 3,
+  "already_present": 0,
+  "refused": []
+ },
+ {
+  "stem": "kurki2023finngen_supp_table2",
+  "target": "claims/kurki2023finngen_supp_table2_original.yaml",
+  "original": "sources/original/kurki2023finngen_supp_table2.xlsx",
+  "sha256": "cb529feb92c75c6d4bf83134fea6e8d95df49115185c2ef24fe655e6d1936ddf",
+  "extractor": "sheet-rows",
+  "quotes": 18,
+  "pinned": 17,
+  "already_present": 0,
+  "refused": [
+   {
+    "claim_id": "total",
+    "quote": "Total |  |  |  | 106 806",
+    "said": "not found  Total |  |  |  | 106 806\n  read the source: a broken extraction reads the same as a passage that was never there\nnothing written. read the source before recording the passage."
+   }
+  ]
+ },
+ {
+  "stem": "locke2015giant_supp_table1",
+  "target": "claims/locke2015giant_supp_table1_original.yaml",
+  "original": "sources/original/locke2015giant_supp_table1.xlsx",
+  "sha256": "a004f20c6ed903e25a6e9b15338c2002c1ea8411f54c8f039c3948200bc59a05",
+  "extractor": "sheet-rows",
+  "quotes": 110,
+  "pinned": 110,
+  "already_present": 0,
+  "refused": []
+ },
+ {
+  "stem": "mahajan2018diagram_supp_table1",
+  "target": "claims/mahajan2018diagram_supp_table1_original.yaml",
+  "original": "sources/original/mahajan2018diagram_supp_table1.xlsx",
+  "sha256": "522c294430fead2b0d6ea01ba73200274fdac81368bc5f4f9454f5583f56f9b6",
+  "extractor": "sheet-rows",
+  "quotes": 29,
+  "pinned": 29,
+  "already_present": 0,
+  "refused": []
+ },
+ {
+  "stem": "mahajan2022diamante_supp_tables1_3",
+  "target": "claims/mahajan2022diamante_supp_tables1_3_original.yaml",
+  "original": "sources/original/mahajan2022diamante_supp_tables1_3.xlsx",
+  "sha256": "936083d7fe3694cda66a484aa44f56a2b5e9f084bad195a408c4df31b283ec38",
+  "extractor": "sheet-rows",
+  "quotes": 183,
+  "pinned": 90,
+  "already_present": 0,
+  "refused": [
+   {
+    "claim_id": "afr_aric",
+    "quote": "African | ARIC",
+    "said": "ambiguous  African | ARIC\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "afr_biome",
+    "quote": "African | BIOME (AFR 1)",
+    "said": "ambiguous  African | BIOME (AFR 1)\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "afr_cardia",
+    "quote": "African | CARDIA",
+    "said": "ambiguous  African | CARDIA\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "afr_cfs",
+    "quote": "African | CFS",
+    "said": "ambiguous  African | CFS\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "afr_chs",
+    "quote": "African | CHS",
+    "said": "ambiguous  African | CHS\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "afr_dds_dcc",
+    "quote": "African | DDS/DCC",
+    "said": "ambiguous  African | DDS/DCC\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "afr_emerge",
+    "quote": "African | EMERGE",
+    "said": "ambiguous  African | EMERGE\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "afr_famhs",
+    "quote": "African | FAMHS",
+    "said": "ambiguous  African | FAMHS\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "afr_genestar",
+    "quote": "African | GENESTAR",
+    "said": "ambiguous  African | GENESTAR\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "afr_genoa",
+    "quote": "African | GENOA (AFR)",
+    "said": "ambiguous  African | GENOA (AFR)\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "afr_gera",
+    "quote": "African | GERA (AFR)",
+    "said": "ambiguous  African | GERA (AFR)\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "afr_habc",
+    "quote": "African | HABC",
+    "said": "ambiguous  African | HABC\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "afr_handls",
+    "quote": "African | HANDLS",
+    "said": "ambiguous  African | HANDLS\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "afr_hufs",
+    "quote": "African | HUFS",
+    "said": "ambiguous  African | HUFS\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "afr_jhs",
+    "quote": "African | JHS",
+    "said": "ambiguous  African | JHS\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "afr_mesa",
+    "quote": "African | MESA (AFR)",
+    "said": "ambiguous  African | MESA (AFR)\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "afr_regards",
+    "quote": "African | REGARDS",
+    "said": "ambiguous  African | REGARDS\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "afr_wfsm",
+    "quote": "African | WFSM (1)",
+    "said": "ambiguous  African | WFSM (1)\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "afr_whi",
+    "quote": "African | WHI (AFR)",
+    "said": "ambiguous  African | WHI (AFR)\n  the passage occurs 8 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "eas_aasc",
+    "quote": "East Asian | AASC",
+    "said": "ambiguous  East Asian | AASC\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "eas_bbj",
+    "quote": "East Asian | BBJ (1)",
+    "said": "ambiguous  East Asian | BBJ (1)\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "eas_bes",
+    "quote": "East Asian | BES (1)",
+    "said": "ambiguous  East Asian | BES (1)\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "eas_cage_amagasaki",
+    "quote": "East Asian | CAGE-AMAGASKI",
+    "said": "ambiguous  East Asian | CAGE-AMAGASKI\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "eas_cage_gwas",
+    "quote": "East Asian | CAGE-GWAS",
+    "said": "ambiguous  East Asian | CAGE-GWAS\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "eas_cage_king",
+    "quote": "East Asian | CAGE-KING (1)",
+    "said": "ambiguous  East Asian | CAGE-KING (1)\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "eas_chns",
+    "quote": "East Asian | CHNS",
+    "said": "ambiguous  East Asian | CHNS\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "eas_ckb",
+    "quote": "East Asian | CKB-12",
+    "said": "ambiguous  East Asian | CKB-12\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "eas_clhns",
+    "quote": "East Asian | CLHNS",
+    "said": "ambiguous  East Asian | CLHNS\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "eas_dc_sp2",
+    "quote": "East Asian | DC/SP2 (1)",
+    "said": "ambiguous  East Asian | DC/SP2 (1)\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "eas_hkdr",
+    "quote": "East Asian | HKDR",
+    "said": "ambiguous  East Asian | HKDR\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "eas_kare",
+    "quote": "East Asian | KARE",
+    "said": "ambiguous  East Asian | KARE\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "eas_kba",
+    "quote": "East Asian | KBA (1)",
+    "said": "ambiguous  East Asian | KBA (1)\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "eas_mesa",
+    "quote": "East Asian | MESA (EAS)",
+    "said": "ambiguous  East Asian | MESA (EAS)\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "eas_nagahama",
+    "quote": "East Asian | NAGAHAMA",
+    "said": "ambiguous  East Asian | NAGAHAMA\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "eas_sbcs_swhs",
+    "quote": "East Asian | SBCS/SWHS",
+    "said": "ambiguous  East Asian | SBCS/SWHS\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "eas_sces",
+    "quote": "East Asian | SCES (1)",
+    "said": "ambiguous  East Asian | SCES (1)\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "eas_schs",
+    "quote": "East Asian | SCHS",
+    "said": "ambiguous  East Asian | SCHS\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "eas_simes",
+    "quote": "East Asian | SIMES",
+    "said": "ambiguous  East Asian | SIMES\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "eas_smc",
+    "quote": "East Asian | SMC",
+    "said": "ambiguous  East Asian | SMC\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "eas_snuh",
+    "quote": "East Asian | SNUH",
+    "said": "ambiguous  East Asian | SNUH\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "eas_taichi",
+    "quote": "East Asian | TAICHI-G",
+    "said": "ambiguous  East Asian | TAICHI-G\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "eas_twt2d",
+    "quote": "East Asian | TWT2D",
+    "said": "ambiguous  East Asian | TWT2D\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "eur_biome",
+    "quote": "European | BIOME (EUR)",
+    "said": "ambiguous  European | BIOME (EUR)\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "eur_decode",
+    "quote": "European | DECODE",
+    "said": "ambiguous  European | DECODE\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "eur_dgdg",
+    "quote": "European | DGDG",
+    "said": "ambiguous  European | DGDG\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "eur_dgi",
+    "quote": "European | DGI",
+    "said": "ambiguous  European | DGI\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "eur_estonian_biobank",
+    "quote": "European | EGCUT",
+    "said": "ambiguous  European | EGCUT\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "eur_epic_interact",
+    "quote": "European | EPIC-INTERACT (1)",
+    "said": "ambiguous  European | EPIC-INTERACT (1)\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "eur_fhs",
+    "quote": "European | FHS",
+    "said": "ambiguous  European | FHS\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "eur_fusion",
+    "quote": "European | FUSION",
+    "said": "ambiguous  European | FUSION\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "eur_gckd",
+    "quote": "European | GCKD",
+    "said": "ambiguous  European | GCKD\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "eur_genoa",
+    "quote": "European | GENOA (EUR)",
+    "said": "ambiguous  European | GENOA (EUR)\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "eur_gera",
+    "quote": "European | GERA (EUR)",
+    "said": "ambiguous  European | GERA (EUR)\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "eur_godarts",
+    "quote": "European | GODARTS",
+    "said": "ambiguous  European | GODARTS\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "eur_gomap_teenage",
+    "quote": "European | GOMAP-TEENAGE",
+    "said": "ambiguous  European | GOMAP-TEENAGE\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "eur_hpfs",
+    "quote": "European | HPFS",
+    "said": "ambiguous  European | HPFS\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "eur_kora",
+    "quote": "European | KORA",
+    "said": "ambiguous  European | KORA\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "eur_mesa",
+    "quote": "European | MESA (EUR)",
+    "said": "ambiguous  European | MESA (EUR)\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "eur_metsim",
+    "quote": "European | METSIM",
+    "said": "ambiguous  European | METSIM\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "eur_mgb",
+    "quote": "European | MGB",
+    "said": "ambiguous  European | MGB\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "eur_mgi",
+    "quote": "European | MGI",
+    "said": "ambiguous  European | MGI\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "eur_neo",
+    "quote": "European | NEO",
+    "said": "ambiguous  European | NEO\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "eur_nhs",
+    "quote": "European | NHS",
+    "said": "ambiguous  European | NHS\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "eur_nugene",
+    "quote": "European | NUGENE",
+    "said": "ambiguous  European | NUGENE\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "eur_pivus",
+    "quote": "European | PIVUS",
+    "said": "ambiguous  European | PIVUS\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "eur_prosper",
+    "quote": "European | PROSPER",
+    "said": "ambiguous  European | PROSPER\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "eur_rs",
+    "quote": "European | RS (1)",
+    "said": "ambiguous  European | RS (1)\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "eur_ucph",
+    "quote": "European | UCPH",
+    "said": "ambiguous  European | UCPH\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "eur_ukb",
+    "quote": "European | UKBB (EUR)",
+    "said": "ambiguous  European | UKBB (EUR)\n  the passage occurs 8 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "eur_ulsam",
+    "quote": "European | ULSAM",
+    "said": "ambiguous  European | ULSAM\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "eur_wtccc",
+    "quote": "European | WTCCC",
+    "said": "ambiguous  European | WTCCC\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "his_biome",
+    "quote": "Hispanic | BIOME (HIS)",
+    "said": "ambiguous  Hispanic | BIOME (HIS)\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "his_goldr",
+    "quote": "Hispanic | GOLDR",
+    "said": "ambiguous  Hispanic | GOLDR\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "his_hchs_sol",
+    "quote": "Hispanic | HCHS/SOL",
+    "said": "ambiguous  Hispanic | HCHS/SOL\n  the passage occurs 8 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "his_htnir",
+    "quote": "Hispanic | HTNIR",
+    "said": "ambiguous  Hispanic | HTNIR\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "his_lales",
+    "quote": "Hispanic | LALES",
+    "said": "ambiguous  Hispanic | LALES\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "his_macad",
+    "quote": "Hispanic | MACAD",
+    "said": "ambiguous  Hispanic | MACAD\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "his_mc",
+    "quote": "Hispanic | MC (1)",
+    "said": "ambiguous  Hispanic | MC (1)\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "his_mesa",
+    "quote": "Hispanic | MESA (HIS)",
+    "said": "ambiguous  Hispanic | MESA (HIS)\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "his_niddm",
+    "quote": "Hispanic | NIDDM",
+    "said": "ambiguous  Hispanic | NIDDM\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "his_sch",
+    "quote": "Hispanic | SCH",
+    "said": "ambiguous  Hispanic | SCH\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "his_sigma",
+    "quote": "Hispanic | SIGMA (1)",
+    "said": "ambiguous  Hispanic | SIGMA (1)\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "his_whi",
+    "quote": "Hispanic | WHI (HIS)",
+    "said": "ambiguous  Hispanic | WHI (HIS)\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "sas_bpc",
+    "quote": "South Asian | BPC",
+    "said": "ambiguous  South Asian | BPC\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "sas_epidream",
+    "quote": "South Asian | EPIDREAM",
+    "said": "ambiguous  South Asian | EPIDREAM\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "sas_grccds",
+    "quote": "South Asian | GRCCDS",
+    "said": "ambiguous  South Asian | GRCCDS\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "sas_indico",
+    "quote": "South Asian | INDICO",
+    "said": "ambiguous  South Asian | INDICO\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "sas_interheart",
+    "quote": "South Asian | INTERHEART (1)",
+    "said": "ambiguous  South Asian | INTERHEART (1)\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "sas_lolipop",
+    "quote": "South Asian | LOLIPOP (1)",
+    "said": "ambiguous  South Asian | LOLIPOP (1)\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "sas_promis",
+    "quote": "South Asian | PROMIS (1)",
+    "said": "ambiguous  South Asian | PROMIS (1)\n  the passage occurs 8 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "sas_rhs",
+    "quote": "South Asian | RHS",
+    "said": "ambiguous  South Asian | RHS\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "sas_sindi",
+    "quote": "South Asian | SINDI",
+    "said": "ambiguous  South Asian | SINDI\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "sas_ukb",
+    "quote": "South Asian | UKBB (SAS)",
+    "said": "ambiguous  South Asian | UKBB (SAS)\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   }
+  ]
+ },
+ {
+  "stem": "malik2018megastroke_supp_table2",
+  "target": "claims/malik2018megastroke_supp_table2_original.yaml",
+  "original": "sources/original/malik2018megastroke_supp_table2.xlsx",
+  "sha256": "e27802ee4a27b88b9921b9c56206eae8979094d26806a9a8b04a9abadfbb316e",
+  "extractor": "sheet-rows",
+  "quotes": 25,
+  "pinned": 25,
+  "already_present": 0,
+  "refused": []
+ },
+ {
+  "stem": "mishra2022gigastroke_supp_info",
+  "target": "claims/mishra2022gigastroke_supp_info_original.yaml",
+  "original": "sources/original/mishra2022gigastroke_supp_info.docx",
+  "sha256": "ca2f67323c6ac54c40c150d9027aedeaddd99b35528d98c95cd3b9c98196ad66",
+  "extractor": "docx-text",
+  "quotes": 29,
+  "pinned": 0,
+  "already_present": 29,
+  "refused": []
+ },
+ {
+  "stem": "mishra2022gigastroke_supp_table1",
+  "target": "claims/mishra2022gigastroke_supp_table1_original.yaml",
+  "original": "sources/original/mishra2022gigastroke_supp_table1.xlsx",
+  "sha256": "7c688f864c73ec2e9624bde9f53ac48a9880a6a08e59f5e1266690e243618ba4",
+  "extractor": "sheet-rows",
+  "quotes": 90,
+  "pinned": 86,
+  "already_present": 0,
+  "refused": [
+   {
+    "claim_id": "st1-caption",
+    "quote": "Supplementary Table 1: Description of the study samples contributing to GIGASTROKE",
+    "said": "ambiguous  Supplementary Table 1: Description of the study samples cont\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "st1-interstroke-aa",
+    "quote": "INTERSTROKE_AA | NA",
+    "said": "ambiguous  INTERSTROKE_AA | NA\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "st1-sign-4",
+    "quote": "SIGN_4 | NA",
+    "said": "ambiguous  SIGN_4 | NA\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "st1-sign-3",
+    "quote": "SIGN_3 | NA",
+    "said": "ambiguous  SIGN_3 | NA\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   }
+  ]
+ },
+ {
+  "stem": "nielsen2018af_supp_table1",
+  "target": "claims/nielsen2018af_supp_table1_original.yaml",
+  "original": "sources/original/nielsen2018af_supp_table1.xlsx",
+  "sha256": "cc5cd526a73539196e2a8ffb6a40cb44700b69a8c74e305f97b74ce754b01892",
+  "extractor": "sheet-rows",
+  "quotes": 3,
+  "pinned": 3,
+  "already_present": 0,
+  "refused": []
+ },
+ {
+  "stem": "nievergelt2019ptsd_supp_data1",
+  "target": "claims/nievergelt2019ptsd_supp_data1_original.yaml",
+  "original": "sources/original/nievergelt2019ptsd_supp_data1.xlsx",
+  "sha256": "8c56ee589df75431807bca7677247e4d9e6d3b084e84cb5efae01d353815c010",
+  "extractor": "sheet-rows",
+  "quotes": 60,
+  "pinned": 60,
+  "already_present": 0,
+  "refused": []
+ },
+ {
+  "stem": "roselli2018af_supp_table17",
+  "target": "claims/roselli2018af_supp_table17_original.yaml",
+  "original": "sources/original/roselli2018af_supp_table17.xlsx",
+  "sha256": "b577bc6cc3410f98b6b07ff71b291b339a97df9bc24ce96d98acfa6467a345c9",
+  "extractor": "sheet-rows",
+  "quotes": 77,
+  "pinned": 77,
+  "already_present": 0,
+  "refused": []
+ },
+ {
+  "stem": "vanrheenen2021_supp_table1",
+  "target": "claims/vanrheenen2021_supp_table1_original.yaml",
+  "original": "sources/original/vanrheenen2021_supp_table1.xlsx",
+  "sha256": "72b44d706ed18616a8373d31047a62b81b653ad5606f841a5d0bbf0215af228e",
+  "extractor": "sheet-rows",
+  "quotes": 117,
+  "pinned": 117,
+  "already_present": 0,
+  "refused": []
+ },
+ {
+  "stem": "wightman2021_supp_table1",
+  "target": "claims/wightman2021_supp_table1_original.yaml",
+  "original": "sources/original/wightman2021_supp_table1.xlsx",
+  "sha256": "917eac5ffaa8404088ecdfef0e2f3289d23b1b7d81767bc5866f65f54e38e11b",
+  "extractor": "sheet-rows",
+  "quotes": 16,
+  "pinned": 16,
+  "already_present": 0,
+  "refused": []
+ },
+ {
+  "stem": "wuttke2019ckdgen_supp_table1",
+  "target": "claims/wuttke2019ckdgen_supp_table1_original.yaml",
+  "original": "sources/original/wuttke2019ckdgen_supp_table1.xlsx",
+  "sha256": "eca8a96a951b13e5e668474dd23c88392ae2155d73b19e33e5596292caf5b4b0",
+  "extractor": "sheet-rows",
+  "quotes": 87,
+  "pinned": 86,
+  "already_present": 0,
+  "refused": [
+   {
+    "claim_id": "st1-caption",
+    "quote": "Supplementary Table 1 | Description of participating studies: study design and phenotype distribution",
+    "said": "ambiguous  Supplementary Table 1 | Description of participating studies\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   }
+  ]
+ },
+ {
+  "stem": "yengo2022giant_supp_table1",
+  "target": "claims/yengo2022giant_supp_table1_original.yaml",
+  "original": "sources/original/yengo2022giant_supp_table1.xlsx",
+  "sha256": "76dd039525f4bfde6f8f3b12112c1582c7736a1be5074950d571d4393747e2b5",
+  "extractor": "sheet-rows",
+  "quotes": 373,
+  "pinned": 348,
+  "already_present": 0,
+  "refused": [
+   {
+    "claim_id": "c_biovu",
+    "quote": "Broad_Bayer_BioVU | Vanderbilt BioVU | | | | | | 583",
+    "said": "not found  Broad_Bayer_BioVU | Vanderbilt BioVU | | | | | | 583\n  the first 39 characters are in the source and the rest is not\n      quoted: ..._biovu | vanderbilt biovu | | | | | | 583\n      source: ..._biovu | vanderbilt biovu | 583 | pmid: 29892015 | original op\n      one character missing from the source's text layer -- a minus sign, an en dash, a hyphen on a line break -- is the usual cause, and is a defect in the extraction rather than in the quotation. Split the quotation into adjacent fragments either side of it; do not truncate it to the part that matches\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "c_cathgen",
+    "quote": "Broad_Bayer_CATHGEN | The Duke CATHeterization GENetics Study | | | | | | 111",
+    "said": "not found  Broad_Bayer_CATHGEN | The Duke CATHeterization GENetics Stud\n  the first 64 characters are in the source and the rest is not\n      quoted: ...terization genetics study | | | | | | 111\n      source: ...terization genetics study | 111 | pmid: 29892015 | duke univer\n      one character missing from the source's text layer -- a minus sign, an en dash, a hyphen on a line break -- is the usual cause, and is a defect in the extraction rather than in the quotation. Split the quotation into adjacent fragments either side of it; do not truncate it to the part that matches\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "c_ggaf",
+    "quote": "Broad_Bayer_GGAF | Groningen Genetics of Atrial Fibrillation Study | | | | | | 13",
+    "said": "not found  Broad_Bayer_GGAF | Groningen Genetics of Atrial Fibrillation\n  the first 69 characters are in the source and the rest is not\n      quoted: ...atrial fibrillation study | | | | | | 13\n      source: ...atrial fibrillation study | 13 | pmid: 29892015 | medical ethi\n      one character missing from the source's text layer -- a minus sign, an en dash, a hyphen on a line break -- is the usual cause, and is a defect in the extraction rather than in the quotation. Split the quotation into adjacent fragments either side of it; do not truncate it to the part that matches\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "c_grade",
+    "quote": "Broad_Bayer_GRADE | Genetic Risk Assessment of Defibrillator Events | | | | | | 2",
+    "said": "not found  Broad_Bayer_GRADE | Genetic Risk Assessment of Defibrillator\n  the first 70 characters are in the source and the rest is not\n      quoted: ...t of defibrillator events | | | | | | 2\n      source: ...t of defibrillator events | 2 | pmid: 29892015 broad_bayer_ins\n      one character missing from the source's text layer -- a minus sign, an en dash, a hyphen on a line break -- is the usual cause, and is a defect in the extraction rather than in the quotation. Split the quotation into adjacent fragments either side of it; do not truncate it to the part that matches\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "c_inspire_af",
+    "quote": "Broad_Bayer_INSPIRE_AF | Intermountain Heart Study | | | | | | 5",
+    "said": "not found  Broad_Bayer_INSPIRE_AF | Intermountain Heart Study | | | | |\n  the first 53 characters are in the source and the rest is not\n      quoted: ...intermountain heart study | | | | | | 5\n      source: ...intermountain heart study | 5 | pmid: 29892015 broad_bayer_jhu\n      one character missing from the source's text layer -- a minus sign, an en dash, a hyphen on a line break -- is the usual cause, and is a defect in the extraction rather than in the quotation. Split the quotation into adjacent fragments either side of it; do not truncate it to the part that matches\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "c_jhu_af",
+    "quote": "Broad_Bayer_JHU_AF | The Johns Hopkins University School of Medicine Atrial Fibrillation Genetics Study | | | | | | 15",
+    "said": "not found  Broad_Bayer_JHU_AF | The Johns Hopkins University School of \n  the first 106 characters are in the source and the rest is not\n      quoted: ...brillation genetics study | | | | | | 15\n      source: ...brillation genetics study | 15 | pmid: 24460807 broad_bayer_mg\n      one character missing from the source's text layer -- a minus sign, an en dash, a hyphen on a line break -- is the usual cause, and is a defect in the extraction rather than in the quotation. Split the quotation into adjacent fragments either side of it; do not truncate it to the part that matches\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "c_mgh_stroke",
+    "quote": "Broad_Bayer_MGH Stroke | Massachusetts General Hospital Stroke Study | | | | | | 9",
+    "said": "not found  Broad_Bayer_MGH Stroke | Massachusetts General Hospital Stro\n  the first 71 characters are in the source and the rest is not\n      quoted: ...ral hospital stroke study | | | | | | 9\n      source: ...ral hospital stroke study | 9 | pmid: 29892015 | massgeneral b\n      one character missing from the source's text layer -- a minus sign, an en dash, a hyphen on a line break -- is the usual cause, and is a defect in the extraction rather than in the quotation. Split the quotation into adjacent fragments either side of it; do not truncate it to the part that matches\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "c_mgh_af",
+    "quote": "Broad_Bayer_MGH_AF | Massachusetts General Hospital Atrial Fibrillation Study | | | | | | 12",
+    "said": "not found  Broad_Bayer_MGH_AF | Massachusetts General Hospital Atrial F\n  the first 80 characters are in the source and the rest is not\n      quoted: ...atrial fibrillation study | | | | | | 12\n      source: ...atrial fibrillation study | 12 | pmid: 29892015 | massgeneral \n      one character missing from the source's text layer -- a minus sign, an en dash, a hyphen on a line break -- is the usual cause, and is a defect in the extraction rather than in the quotation. Split the quotation into adjacent fragments either side of it; do not truncate it to the part that matches\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "c_mgh_cnc",
+    "quote": "Broad_Bayer_MGH_CNC | NA | | | | | | 2",
+    "said": "not found  Broad_Bayer_MGH_CNC | NA | | | | | | 2\n  the first 27 characters are in the source and the rest is not\n      quoted: ...broad_bayer_mgh_cnc | na | | | | | | 2\n      source: ... broad_bayer_mgh_cnc | na | 2 | pmid: 29892015 | massgeneral b\n      one character missing from the source's text layer -- a minus sign, an en dash, a hyphen on a line break -- is the usual cause, and is a defect in the extraction rather than in the quotation. Split the quotation into adjacent fragments either side of it; do not truncate it to the part that matches\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "c_mpp",
+    "quote": "Broad_Bayer_MPP-AF | The Malmö Preventive Project atrial fibillation study | | | | | | 1",
+    "said": "not found  Broad_Bayer_MPP-AF | The Malmö Preventive Project atrial fi\n  the first 77 characters are in the source and the rest is not\n      quoted: ... atrial fibillation study | | | | | | 1\n      source: ... atrial fibillation study | 1 | pmid: 29892015 | ethics commit\n      one character missing from the source's text layer -- a minus sign, an en dash, a hyphen on a line break -- is the usual cause, and is a defect in the extraction rather than in the quotation. Split the quotation into adjacent fragments either side of it; do not truncate it to the part that matches\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "c_ucsf_af",
+    "quote": "Broad_Bayer_UCSF_AF | The University of California San Francisco Atrial Fibrillation Study | | | | | | 1 |",
+    "said": "not found  Broad_Bayer_UCSF_AF | The University of California San Franc\n  the first 93 characters are in the source and the rest is not\n      quoted: ...atrial fibrillation study | | | | | | 1 |\n      source: ...atrial fibrillation study | 1 | pmid: 29892015 | university of\n      one character missing from the source's text layer -- a minus sign, an en dash, a hyphen on a line break -- is the usual cause, and is a defect in the extraction rather than in the quotation. Split the quotation into adjacent fragments either side of it; do not truncate it to the part that matches\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "c_munich_controls",
+    "quote": "Broad_Bayer_munich_controls | NA | | | | | | 8",
+    "said": "not found  Broad_Bayer_munich_controls | NA | | | | | | 8\n  the first 35 characters are in the source and the rest is not\n      quoted: ...ayer_munich_controls | na | | | | | | 8\n      source: ...ayer_munich_controls | na | 8 | pmid: 29892015 | technical uni\n      one character missing from the source's text layer -- a minus sign, an en dash, a hyphen on a line break -- is the usual cause, and is a defect in the extraction rather than in the quotation. Split the quotation into adjacent fragments either side of it; do not truncate it to the part that matches\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "eur_afnet",
+    "quote": "Broad_Bayer_AFNET | German AF Network | |",
+    "said": "not found  Broad_Bayer_AFNET | German AF Network | |\n  the first 40 characters are in the source and the rest is not\n      quoted: ...afnet | german af network | |\n      source: ...afnet | german af network | case-control | african-ancestry | \n      one character missing from the source's text layer -- a minus sign, an en dash, a hyphen on a line break -- is the usual cause, and is a defect in the extraction rather than in the quotation. Split the quotation into adjacent fragments either side of it; do not truncate it to the part that matches\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "eur_biovu",
+    "quote": "Broad_Bayer_BioVU | Vanderbilt BioVU | | | | | | 6398",
+    "said": "not found  Broad_Bayer_BioVU | Vanderbilt BioVU | | | | | | 6398\n  the first 39 characters are in the source and the rest is not\n      quoted: ..._biovu | vanderbilt biovu | | | | | | 6398\n      source: ..._biovu | vanderbilt biovu | 583 | pmid: 29892015 | original op\n      one character missing from the source's text layer -- a minus sign, an en dash, a hyphen on a line break -- is the usual cause, and is a defect in the extraction rather than in the quotation. Split the quotation into adjacent fragments either side of it; do not truncate it to the part that matches\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "eur_cathgen",
+    "quote": "Broad_Bayer_CATHGEN | The Duke CATHeterization GENetics Study | | | | | | 361",
+    "said": "not found  Broad_Bayer_CATHGEN | The Duke CATHeterization GENetics Stud\n  the first 64 characters are in the source and the rest is not\n      quoted: ...terization genetics study | | | | | | 361\n      source: ...terization genetics study | 111 | pmid: 29892015 | duke univer\n      one character missing from the source's text layer -- a minus sign, an en dash, a hyphen on a line break -- is the usual cause, and is a defect in the extraction rather than in the quotation. Split the quotation into adjacent fragments either side of it; do not truncate it to the part that matches\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "eur_ggaf",
+    "quote": "Broad_Bayer_GGAF | Groningen Genetics of Atrial Fibrillation Study | | | | | | 1484",
+    "said": "not found  Broad_Bayer_GGAF | Groningen Genetics of Atrial Fibrillation\n  the first 69 characters are in the source and the rest is not\n      quoted: ...atrial fibrillation study | | | | | | 1484\n      source: ...atrial fibrillation study | 13 | pmid: 29892015 | medical ethi\n      one character missing from the source's text layer -- a minus sign, an en dash, a hyphen on a line break -- is the usual cause, and is a defect in the extraction rather than in the quotation. Split the quotation into adjacent fragments either side of it; do not truncate it to the part that matches\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "eur_grade",
+    "quote": "Broad_Bayer_GRADE | Genetic Risk Assessment of Defibrillator Events | | | | | | 592",
+    "said": "not found  Broad_Bayer_GRADE | Genetic Risk Assessment of Defibrillator\n  the first 70 characters are in the source and the rest is not\n      quoted: ...t of defibrillator events | | | | | | 592\n      source: ...t of defibrillator events | 2 | pmid: 29892015 broad_bayer_ins\n      one character missing from the source's text layer -- a minus sign, an en dash, a hyphen on a line break -- is the usual cause, and is a defect in the extraction rather than in the quotation. Split the quotation into adjacent fragments either side of it; do not truncate it to the part that matches\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "eur_inspire_af",
+    "quote": "Broad_Bayer_INSPIRE_AF | Intermountain Heart Study | | | | | | 1154",
+    "said": "not found  Broad_Bayer_INSPIRE_AF | Intermountain Heart Study | | | | |\n  the first 53 characters are in the source and the rest is not\n      quoted: ...intermountain heart study | | | | | | 1154\n      source: ...intermountain heart study | 5 | pmid: 29892015 broad_bayer_jhu\n      one character missing from the source's text layer -- a minus sign, an en dash, a hyphen on a line break -- is the usual cause, and is a defect in the extraction rather than in the quotation. Split the quotation into adjacent fragments either side of it; do not truncate it to the part that matches\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "eur_jhu_af",
+    "quote": "Broad_Bayer_JHU_AF | The Johns Hopkins University School of Medicine Atrial Fibrillation Genetics Study | | | | | | 442",
+    "said": "not found  Broad_Bayer_JHU_AF | The Johns Hopkins University School of \n  the first 106 characters are in the source and the rest is not\n      quoted: ...brillation genetics study | | | | | | 442\n      source: ...brillation genetics study | 15 | pmid: 24460807 broad_bayer_mg\n      one character missing from the source's text layer -- a minus sign, an en dash, a hyphen on a line break -- is the usual cause, and is a defect in the extraction rather than in the quotation. Split the quotation into adjacent fragments either side of it; do not truncate it to the part that matches\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "eur_mgh_stroke",
+    "quote": "Broad_Bayer_MGH Stroke | Massachusetts General Hospital Stroke Study | | | | | | 403",
+    "said": "not found  Broad_Bayer_MGH Stroke | Massachusetts General Hospital Stro\n  the first 71 characters are in the source and the rest is not\n      quoted: ...ral hospital stroke study | | | | | | 403\n      source: ...ral hospital stroke study | 9 | pmid: 29892015 | massgeneral b\n      one character missing from the source's text layer -- a minus sign, an en dash, a hyphen on a line break -- is the usual cause, and is a defect in the extraction rather than in the quotation. Split the quotation into adjacent fragments either side of it; do not truncate it to the part that matches\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "eur_mgh_af",
+    "quote": "Broad_Bayer_MGH_AF | Massachusetts General Hospital Atrial Fibrillation Study | | | | | | 483",
+    "said": "not found  Broad_Bayer_MGH_AF | Massachusetts General Hospital Atrial F\n  the first 80 characters are in the source and the rest is not\n      quoted: ...atrial fibrillation study | | | | | | 483\n      source: ...atrial fibrillation study | 12 | pmid: 29892015 | massgeneral \n      one character missing from the source's text layer -- a minus sign, an en dash, a hyphen on a line break -- is the usual cause, and is a defect in the extraction rather than in the quotation. Split the quotation into adjacent fragments either side of it; do not truncate it to the part that matches\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "eur_mgh_cnc",
+    "quote": "Broad_Bayer_MGH_CNC | NA | | | | | | 59",
+    "said": "not found  Broad_Bayer_MGH_CNC | NA | | | | | | 59\n  the first 27 characters are in the source and the rest is not\n      quoted: ...broad_bayer_mgh_cnc | na | | | | | | 59\n      source: ... broad_bayer_mgh_cnc | na | 2 | pmid: 29892015 | massgeneral b\n      one character missing from the source's text layer -- a minus sign, an en dash, a hyphen on a line break -- is the usual cause, and is a defect in the extraction rather than in the quotation. Split the quotation into adjacent fragments either side of it; do not truncate it to the part that matches\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "eur_mpp",
+    "quote": "Broad_Bayer_MPP-AF | The Malmö Preventive Project atrial fibillation study | | | | | | 659",
+    "said": "not found  Broad_Bayer_MPP-AF | The Malmö Preventive Project atrial fi\n  the first 77 characters are in the source and the rest is not\n      quoted: ... atrial fibillation study | | | | | | 659\n      source: ... atrial fibillation study | 1 | pmid: 29892015 | ethics commit\n      one character missing from the source's text layer -- a minus sign, an en dash, a hyphen on a line break -- is the usual cause, and is a defect in the extraction rather than in the quotation. Split the quotation into adjacent fragments either side of it; do not truncate it to the part that matches\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "eur_ucsf_af",
+    "quote": "Broad_Bayer_UCSF_AF | The University of California San Francisco Atrial Fibrillation Study | | | | | | 16",
+    "said": "not found  Broad_Bayer_UCSF_AF | The University of California San Franc\n  the first 93 characters are in the source and the rest is not\n      quoted: ...atrial fibrillation study | | | | | | 16\n      source: ...atrial fibrillation study | 1 | pmid: 29892015 | university of\n      one character missing from the source's text layer -- a minus sign, an en dash, a hyphen on a line break -- is the usual cause, and is a defect in the extraction rather than in the quotation. Split the quotation into adjacent fragments either side of it; do not truncate it to the part that matches\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "eur_munich_controls",
+    "quote": "Broad_Bayer_munich_controls | NA | | | | | | 1105",
+    "said": "not found  Broad_Bayer_munich_controls | NA | | | | | | 1105\n  the first 35 characters are in the source and the rest is not\n      quoted: ...ayer_munich_controls | na | | | | | | 1105\n      source: ...ayer_munich_controls | na | 8 | pmid: 29892015 | technical uni\n      one character missing from the source's text layer -- a minus sign, an en dash, a hyphen on a line break -- is the usual cause, and is a defect in the extraction rather than in the quotation. Split the quotation into adjacent fragments either side of it; do not truncate it to the part that matches\nnothing written. read the source before recording the passage."
+   }
+  ]
+ },
+ {
+  "stem": "zhang2020bcac_supp_table1",
+  "target": "claims/zhang2020bcac_supp_table1_original.yaml",
+  "original": "sources/original/zhang2020bcac_supp_table1.xlsx",
+  "sha256": "277b381fc31a9d5cb38d7558a6cc9271b7acf680b9ac530d88ae951f2f8ede9e",
+  "extractor": "sheet-rows",
+  "quotes": 89,
+  "pinned": 8,
+  "already_present": 0,
+  "refused": [
+   {
+    "claim_id": "s1-epic",
+    "quote": "EPIC | European Prospective Investigation Into Cancer and Nutrition | International (Europe) | Prospective cohort: nested case-control study",
+    "said": "ambiguous  EPIC | European Prospective Investigation Into Cancer and Nu\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "s1-two-sister",
+    "quote": "2SISTER | The Two Sister Study | USA | Case-only study",
+    "said": "ambiguous  2SISTER | The Two Sister Study | USA | Case-only study\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "s1-abcfs",
+    "quote": "ABCFS | Australian Breast Cancer Family Study | Australia | Case-control study",
+    "said": "ambiguous  ABCFS | Australian Breast Cancer Family Study | Australia | \n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "s1-abcs",
+    "quote": "ABCS | Amsterdam Breast Cancer Study | Netherlands | Case-control study",
+    "said": "ambiguous  ABCS | Amsterdam Breast Cancer Study | Netherlands | Case-co\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "s1-abcs-f",
+    "quote": "ABCS-F | Amsterdam Breast Cancer Study – Familial | Netherlands | Case-only study",
+    "said": "ambiguous  ABCS-F | Amsterdam Breast Cancer Study – Familial | Netherla\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "s1-abctb",
+    "quote": "ABCTB | Australian Breast Cancer Tissue Bank | Australia | Case-control study",
+    "said": "ambiguous  ABCTB | Australian Breast Cancer Tissue Bank | Australia | C\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "s1-bbcc",
+    "quote": "BBCC | Bavarian Breast Cancer Cases and Controls | Germany | Case-control study",
+    "said": "ambiguous  BBCC | Bavarian Breast Cancer Cases and Controls | Germany |\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "s1-bbcs",
+    "quote": "BBCS | British Breast Cancer Study | UK | Case-control study",
+    "said": "ambiguous  BBCS | British Breast Cancer Study | UK | Case-control study\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "s1-bcees",
+    "quote": "BCEES | Breast Cancer Employment and Environment Study | Australia | Case-control study",
+    "said": "ambiguous  BCEES | Breast Cancer Employment and Environment Study | Aus\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "s1-bcfr-ny",
+    "quote": "BCFR-NY | New York site of the Breast Cancer Family Registry | USA | Case-control study",
+    "said": "ambiguous  BCFR-NY | New York site of the Breast Cancer Family Registry\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "s1-bcfr-pa",
+    "quote": "BCFR-PA | Philadelphia site of the Breast Cancer Family Registry | USA | Case-control study",
+    "said": "ambiguous  BCFR-PA | Philadelphia site of the Breast Cancer Family Regi\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "s1-bcfr-utah",
+    "quote": "BCFR-UTAH | Utah site of the Breast Cancer Family Registry | USA | Case-control study",
+    "said": "ambiguous  BCFR-UTAH | Utah site of the Breast Cancer Family Registry |\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "s1-bcinis",
+    "quote": "BCINIS | Breast Cancer in Northern Israel Study | Israel | Case-control study",
+    "said": "ambiguous  BCINIS | Breast Cancer in Northern Israel Study | Israel | C\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "s1-biggs",
+    "quote": "BIGGS | Breast Cancer in Galway Genetic Study | Ireland | Case-control study",
+    "said": "ambiguous  BIGGS | Breast Cancer in Galway Genetic Study | Ireland | Ca\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "s1-breogan",
+    "quote": "BREOGAN | Breast Oncology Galicia Network | Spain | Case-control study",
+    "said": "ambiguous  BREOGAN | Breast Oncology Galicia Network | Spain | Case-con\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "s1-bsuch",
+    "quote": "BSUCH | Breast Cancer Study of the University of Heidelberg | Germany | Case-control study",
+    "said": "ambiguous  BSUCH | Breast Cancer Study of the University of Heidelberg \n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "s1-cbcs",
+    "quote": "CBCS | Canadian Breast Cancer Study | Canada | Case-control study",
+    "said": "ambiguous  CBCS | Canadian Breast Cancer Study | Canada | Case-control \n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "s1-ccgp",
+    "quote": "CCGP | Crete Cancer Genetics Program | Greece | Case-control study",
+    "said": "ambiguous  CCGP | Crete Cancer Genetics Program | Greece | Case-control\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "s1-cecile",
+    "quote": "CECILE | CECILE Breast Cancer Study | France | Case-control study",
+    "said": "ambiguous  CECILE | CECILE Breast Cancer Study | France | Case-control \n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "s1-cgps",
+    "quote": "CGPS | Copenhagen General Population Study | Denmark | Case-control study",
+    "said": "ambiguous  CGPS | Copenhagen General Population Study | Denmark | Case-\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "s1-cnio-bcs",
+    "quote": "CNIO-BCS | Spanish National Cancer Centre Breast Cancer Study | Spain | Case-control study",
+    "said": "ambiguous  CNIO-BCS | Spanish National Cancer Centre Breast Cancer Stud\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "s1-cpsii",
+    "quote": "CPSII | Cancer Prevention Study-II Nutrition Cohort | USA | Prospective cohort: nested case-control study",
+    "said": "ambiguous  CPSII | Cancer Prevention Study-II Nutrition Cohort | USA | \n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "s1-cts",
+    "quote": "CTS | California Teachers Study | USA | Prospective cohort: nested case-control study",
+    "said": "ambiguous  CTS | California Teachers Study | USA | Prospective cohort: \n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "s1-dietcomplyf",
+    "quote": "DIETCOMPLYF | DietCompLyf Breast Cancer Survival Study | UK | Prospective cohort: nested case-control study",
+    "said": "ambiguous  DIETCOMPLYF | DietCompLyf Breast Cancer Survival Study | UK \n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "s1-esther",
+    "quote": "ESTHER | ESTHER Breast Cancer Study | Germany | Case-control study",
+    "said": "ambiguous  ESTHER | ESTHER Breast Cancer Study | Germany | Case-control\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "s1-fhrisk",
+    "quote": "FHRISK | Family History Risk Study | UK | Case-control study",
+    "said": "ambiguous  FHRISK | Family History Risk Study | UK | Case-control study\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "s1-gc-hboc",
+    "quote": "GC-HBOC | German Consortium for Hereditary Breast & Ovarian Cancer | Germany | Case-control study",
+    "said": "ambiguous  GC-HBOC | German Consortium for Hereditary Breast & Ovarian \n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "s1-genica",
+    "quote": "GENICA | Gene Environment Interaction and Breast Cancer in Germany | Germany | Case-control study",
+    "said": "ambiguous  GENICA | Gene Environment Interaction and Breast Cancer in G\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "s1-geparsixto",
+    "quote": "GEPARSIXTO | Randomized phase II trial | Germany | Case-only study",
+    "said": "ambiguous  GEPARSIXTO | Randomized phase II trial | Germany | Case-only\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "s1-gesbc",
+    "quote": "GESBC | Genetic Epidemiology Study of Breast Cancer by Age 50 | Germany | Case-control study",
+    "said": "ambiguous  GESBC | Genetic Epidemiology Study of Breast Cancer by Age 5\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "s1-habcs",
+    "quote": "HABCS | Hannover Breast Cancer Study | Germany | Case-control study",
+    "said": "ambiguous  HABCS | Hannover Breast Cancer Study | Germany | Case-contro\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "s1-hcsc",
+    "quote": "HCSC | Hospital Clinico San Carlos | Spain | Case-control study",
+    "said": "ambiguous  HCSC | Hospital Clinico San Carlos | Spain | Case-control st\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "s1-hebcs",
+    "quote": "HEBCS | Helsinki Breast Cancer Study | Finland | Case-control study",
+    "said": "ambiguous  HEBCS | Helsinki Breast Cancer Study | Finland | Case-contro\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "s1-hubcs",
+    "quote": "HUBCS | Hannover-Ufa Breast Cancer Study | Russia | Case-control study",
+    "said": "ambiguous  HUBCS | Hannover-Ufa Breast Cancer Study | Russia | Case-con\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "s1-karbac",
+    "quote": "KARBAC | Karolinska Breast Cancer Study | Sweden | Case-control study",
+    "said": "ambiguous  KARBAC | Karolinska Breast Cancer Study | Sweden | Case-cont\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "s1-karma",
+    "quote": "KARMA | Karolinska Mammography Project for Risk Prediction of Breast Cancer – Cohort Study | Sweden | Case-control study",
+    "said": "ambiguous  KARMA | Karolinska Mammography Project for Risk Prediction o\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "s1-kbcp",
+    "quote": "KBCP | Kuopio Breast Cancer Project | Finland | Case-control study",
+    "said": "ambiguous  KBCP | Kuopio Breast Cancer Project | Finland | Case-control\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "s1-kconfab-aocs",
+    "quote": "KCONFAB/AOCS | Kathleen Cuningham Foundation Consortium for research into Familial Breast Cancer/Australian Ovarian Cancer Study | Australia and New Zeland | Case-control study",
+    "said": "ambiguous  KCONFAB/AOCS | Kathleen Cuningham Foundation Consortium for \n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "s1-lmbc",
+    "quote": "LMBC | Leuven Multidisciplinary Breast Centre | Belgium | Case-control study",
+    "said": "ambiguous  LMBC | Leuven Multidisciplinary Breast Centre | Belgium | Ca\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "s1-mabcs",
+    "quote": "MABCS | Macedonian Breast Cancer Study | Macedonia | Case-control study",
+    "said": "ambiguous  MABCS | Macedonian Breast Cancer Study | Macedonia | Case-co\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "s1-marie",
+    "quote": "MARIE | Mammary Carcinoma Risk Factor Investigation | Germany | Case-control study",
+    "said": "ambiguous  MARIE | Mammary Carcinoma Risk Factor Investigation | German\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "s1-mbcsg",
+    "quote": "MBCSG | Milan Breast Cancer Study Group | Italy | Case-control study",
+    "said": "ambiguous  MBCSG | Milan Breast Cancer Study Group | Italy | Case-contr\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "s1-mcbcs",
+    "quote": "MCBCS | Mayo Clinic Breast Cancer Study | USA | Case-control study",
+    "said": "ambiguous  MCBCS | Mayo Clinic Breast Cancer Study | USA | Case-control\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "s1-mccs",
+    "quote": "MCCS | Melbourne Collaborative Cohort Study | Australia | Prospective cohort: nested case-control study",
+    "said": "ambiguous  MCCS | Melbourne Collaborative Cohort Study | Australia | Pr\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "s1-mec",
+    "quote": "MEC | Multiethnic Cohort | USA | Prospective cohort: nested case-control study",
+    "said": "ambiguous  MEC | Multiethnic Cohort | USA | Prospective cohort: nested \n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "s1-miss",
+    "quote": "MISS | Melanoma Inquiry of Southern Sweden | Sweden | Prospective cohort: nested case-control study",
+    "said": "ambiguous  MISS | Melanoma Inquiry of Southern Sweden | Sweden | Prospe\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "s1-mmhs",
+    "quote": "MMHS | Mayo Mammography Health Study | USA | Prospective cohort: nested case-control study",
+    "said": "ambiguous  MMHS | Mayo Mammography Health Study | USA | Prospective coh\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "s1-mskcc",
+    "quote": "MSKCC | Memorial Sloan-Kettering Cancer Center Study | USA | Case-control study",
+    "said": "ambiguous  MSKCC | Memorial Sloan-Kettering Cancer Center Study | USA |\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "s1-mtlgebcs",
+    "quote": "MTLGEBCS | Montreal Gene-Environment Breast Cancer Study | Canada | Case-control study",
+    "said": "ambiguous  MTLGEBCS | Montreal Gene-Environment Breast Cancer Study | C\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "s1-nbcs",
+    "quote": "NBCS | Norwegian Breast Cancer Study | Norway | Case-control study",
+    "said": "ambiguous  NBCS | Norwegian Breast Cancer Study | Norway | Case-control\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "s1-nbhs",
+    "quote": "NBHS | Nashville Breast Health Study | USA | Case-control study",
+    "said": "ambiguous  NBHS | Nashville Breast Health Study | USA | Case-control st\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "s1-nc-bcfr",
+    "quote": "NC-BCFR | Northern California Breast Cancer Family Registry | USA | Case-control study",
+    "said": "ambiguous  NC-BCFR | Northern California Breast Cancer Family Registry \n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "s1-ncbcs",
+    "quote": "NCBCS | North Carolina Breast Cancer study | USA | Case-control study",
+    "said": "ambiguous  NCBCS | North Carolina Breast Cancer study | USA | Case-cont\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "s1-nhs",
+    "quote": "NHS | Nurses Health Study | USA | Prospective cohort: nested case-control study",
+    "said": "ambiguous  NHS | Nurses Health Study | USA | Prospective cohort: nested\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "s1-nhs2",
+    "quote": "NHS2 | Nurses Health Study 2 | USA | Prospective cohort: nested case-control study",
+    "said": "ambiguous  NHS2 | Nurses Health Study 2 | USA | Prospective cohort: nes\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "s1-obcs",
+    "quote": "OBCS | Oulu Breast Cancer Study | Finland | Case-control study",
+    "said": "ambiguous  OBCS | Oulu Breast Cancer Study | Finland | Case-control stu\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "s1-ofbcr",
+    "quote": "OFBCR | Ontario Familial Breast Cancer Registry | Canada | Case-control study",
+    "said": "ambiguous  OFBCR | Ontario Familial Breast Cancer Registry | Canada | C\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "s1-origo",
+    "quote": "ORIGO | Leiden University Medical Centre Breast Cancer Study | Netherlands | Prospective cohort: nested case-control study",
+    "said": "ambiguous  ORIGO | Leiden University Medical Centre Breast Cancer Study\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "s1-pbcs",
+    "quote": "PBCS | NCI Polish Breast Cancer Study | Poland | Case-control study",
+    "said": "ambiguous  PBCS | NCI Polish Breast Cancer Study | Poland | Case-contro\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "s1-pkarma",
+    "quote": "PKARMA | Karolinska Mammography Project for Risk Prediction of Breast Cancer - Case-Control Study | Sweden | Case-control study",
+    "said": "ambiguous  PKARMA | Karolinska Mammography Project for Risk Prediction \n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "s1-plco",
+    "quote": "PLCO | The Prostate, Lung, Colorectal and Ovarian (PLCO) Cancer Screening Trial | USA | Prospective cohort: nested case-control study",
+    "said": "ambiguous  PLCO | The Prostate, Lung, Colorectal and Ovarian (PLCO) Can\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "s1-posh",
+    "quote": "POSH | Prospective Study of Outcomes in Sporadic Versus Hereditary Breast Cancer | UK | Case-only study",
+    "said": "ambiguous  POSH | Prospective Study of Outcomes in Sporadic Versus Here\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "s1-preface",
+    "quote": "PREFACE | Evaluation of Predictive Factors regarding the Effectivity of Aromatase Inhibitor Therapy | Germany | Case-only study",
+    "said": "ambiguous  PREFACE | Evaluation of Predictive Factors regarding the Eff\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "s1-procas",
+    "quote": "PROCAS | Predicting the Risk Of Cancer At Screening Study | UK | Prospective cohort: nested case-control study",
+    "said": "ambiguous  PROCAS | Predicting the Risk Of Cancer At Screening Study | \n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "s1-rbcs",
+    "quote": "RBCS | Rotterdam Breast Cancer Study | Netherlands | Case-control study",
+    "said": "ambiguous  RBCS | Rotterdam Breast Cancer Study | Netherlands | Case-co\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "s1-sasbac",
+    "quote": "SASBAC | Singapore and Sweden Breast Cancer Study | Sweden | Case-control study",
+    "said": "ambiguous  SASBAC | Singapore and Sweden Breast Cancer Study | Sweden |\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "s1-sbcs",
+    "quote": "SBCS | Sheffield Breast Cancer Study | UK | Case-control study",
+    "said": "ambiguous  SBCS | Sheffield Breast Cancer Study | UK | Case-control stu\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "s1-search",
+    "quote": "SEARCH | Study of Epidemiology and Risk factors in Cancer Heredity | UK | Case-control study",
+    "said": "ambiguous  SEARCH | Study of Epidemiology and Risk factors in Cancer He\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "s1-sister",
+    "quote": "SISTER | The Sister Study | USA | Prospective cohort: nested case-control study",
+    "said": "ambiguous  SISTER | The Sister Study | USA | Prospective cohort: nested\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "s1-skkdkfzs",
+    "quote": "SKKDKFZS | Städtisches Klinikum Karlsruhe Deutsches Krebsforschungszentrum Study | Germany | Case-only study",
+    "said": "ambiguous  SKKDKFZS | Städtisches Klinikum Karlsruhe Deutsches Krebsfor\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "s1-smc",
+    "quote": "SMC | Swedish Mammography Cohort | Sweden | Prospective cohort: nested case-control study",
+    "said": "ambiguous  SMC | Swedish Mammography Cohort | Sweden | Prospective coho\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "s1-successb",
+    "quote": "SUCCESSB | Simultaneous Study of Gemcitabine-Docetaxel Combination adjuvant treatment | Germany | Case-only study",
+    "said": "ambiguous  SUCCESSB | Simultaneous Study of Gemcitabine-Docetaxel Combi\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "s1-successc",
+    "quote": "SUCCESSC | Simultaneous Study of Docetaxel Based Anthracycline Free Adjuvant Treatment Evaluation | Germany | Case-only study",
+    "said": "ambiguous  SUCCESSC | Simultaneous Study of Docetaxel Based Anthracycli\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "s1-szbcs",
+    "quote": "SZBCS | IHCC-Szczecin Breast Cancer Study | Poland | Case-control study",
+    "said": "ambiguous  SZBCS | IHCC-Szczecin Breast Cancer Study | Poland | Case-co\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "s1-tnbcc",
+    "quote": "TNBCC | Triple-Negative Breast Cancer Consortium | International | Case-control studies",
+    "said": "ambiguous  TNBCC | Triple-Negative Breast Cancer Consortium | Internati\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "s1-ucibcs",
+    "quote": "UCIBCS | UCI Breast Cancer Study | USA | Case-control study",
+    "said": "ambiguous  UCIBCS | UCI Breast Cancer Study | USA | Case-control study\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "s1-ukbgs",
+    "quote": "UKBGS | UK Breakthrough Generations Study | UK | Prospective cohort: nested case-control study",
+    "said": "ambiguous  UKBGS | UK Breakthrough Generations Study | UK | Prospective\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "s1-ukops",
+    "quote": "UKOPS | UK Ovarian Cancer Population Study | UK | Case-control study",
+    "said": "ambiguous  UKOPS | UK Ovarian Cancer Population Study | UK | Case-contr\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "s1-usrt",
+    "quote": "USRT | US Radiologic Technologists Study | USA | Case-control study",
+    "said": "ambiguous  USRT | US Radiologic Technologists Study | USA | Case-contro\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "s1-vumc",
+    "quote": "VUMC |  |  |  |  |  |  |  |  |  |  |  | 3255 | 464",
+    "said": "not found  VUMC |  |  |  |  |  |  |  |  |  |  |  | 3255 | 464\n  read the source: a broken extraction reads the same as a passage that was never there\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "s1-whi",
+    "quote": "WHI | Women's Health Initiative | USA | Prospective cohort: nested case-control study",
+    "said": "ambiguous  WHI | Women's Health Initiative | USA | Prospective cohort: \n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   }
+  ]
+ },
+ {
+  "stem": "zhang2020bcac_supp_table2",
+  "target": "claims/zhang2020bcac_supp_table2_original.yaml",
+  "original": "sources/original/zhang2020bcac_supp_table2.xlsx",
+  "sha256": "277b381fc31a9d5cb38d7558a6cc9271b7acf680b9ac530d88ae951f2f8ede9e",
+  "extractor": "sheet-rows",
+  "quotes": 83,
+  "pinned": 3,
+  "already_present": 0,
+  "refused": [
+   {
+    "claim_id": "s2-two-sister",
+    "quote": "2SISTER | The Two Sister Study | USA | Case-only study",
+    "said": "ambiguous  2SISTER | The Two Sister Study | USA | Case-only study\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "s2-abcfs",
+    "quote": "ABCFS | Australian Breast Cancer Family Study | Australia | Case-control study",
+    "said": "ambiguous  ABCFS | Australian Breast Cancer Family Study | Australia | \n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "s2-abcs",
+    "quote": "ABCS | Amsterdam Breast Cancer Study | Netherlands | Case-control study",
+    "said": "ambiguous  ABCS | Amsterdam Breast Cancer Study | Netherlands | Case-co\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "s2-abcs-f",
+    "quote": "ABCS-F | Amsterdam Breast Cancer Study – Familial | Netherlands | Case-only study",
+    "said": "ambiguous  ABCS-F | Amsterdam Breast Cancer Study – Familial | Netherla\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "s2-abctb",
+    "quote": "ABCTB | Australian Breast Cancer Tissue Bank | Australia | Case-control study",
+    "said": "ambiguous  ABCTB | Australian Breast Cancer Tissue Bank | Australia | C\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "s2-bbcc",
+    "quote": "BBCC | Bavarian Breast Cancer Cases and Controls | Germany | Case-control study",
+    "said": "ambiguous  BBCC | Bavarian Breast Cancer Cases and Controls | Germany |\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "s2-bbcs",
+    "quote": "BBCS | British Breast Cancer Study | UK | Case-control study",
+    "said": "ambiguous  BBCS | British Breast Cancer Study | UK | Case-control study\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "s2-bcees",
+    "quote": "BCEES | Breast Cancer Employment and Environment Study | Australia | Case-control study",
+    "said": "ambiguous  BCEES | Breast Cancer Employment and Environment Study | Aus\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "s2-bcfr-ny",
+    "quote": "BCFR-NY | New York site of the Breast Cancer Family Registry | USA | Case-control study",
+    "said": "ambiguous  BCFR-NY | New York site of the Breast Cancer Family Registry\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "s2-bcfr-pa",
+    "quote": "BCFR-PA | Philadelphia site of the Breast Cancer Family Registry | USA | Case-control study",
+    "said": "ambiguous  BCFR-PA | Philadelphia site of the Breast Cancer Family Regi\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "s2-bcfr-utah",
+    "quote": "BCFR-UTAH | Utah site of the Breast Cancer Family Registry | USA | Case-control study",
+    "said": "ambiguous  BCFR-UTAH | Utah site of the Breast Cancer Family Registry |\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "s2-bcinis",
+    "quote": "BCINIS | Breast Cancer in Northern Israel Study | Israel | Case-control study",
+    "said": "ambiguous  BCINIS | Breast Cancer in Northern Israel Study | Israel | C\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "s2-biggs",
+    "quote": "BIGGS | Breast Cancer in Galway Genetic Study | Ireland | Case-control study",
+    "said": "ambiguous  BIGGS | Breast Cancer in Galway Genetic Study | Ireland | Ca\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "s2-breogan",
+    "quote": "BREOGAN | Breast Oncology Galicia Network | Spain | Case-control study",
+    "said": "ambiguous  BREOGAN | Breast Oncology Galicia Network | Spain | Case-con\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "s2-bsuch",
+    "quote": "BSUCH | Breast Cancer Study of the University of Heidelberg | Germany | Case-control study",
+    "said": "ambiguous  BSUCH | Breast Cancer Study of the University of Heidelberg \n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "s2-cbcs",
+    "quote": "CBCS | Canadian Breast Cancer Study | Canada | Case-control study",
+    "said": "ambiguous  CBCS | Canadian Breast Cancer Study | Canada | Case-control \n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "s2-ccgp",
+    "quote": "CCGP | Crete Cancer Genetics Program | Greece | Case-control study",
+    "said": "ambiguous  CCGP | Crete Cancer Genetics Program | Greece | Case-control\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "s2-cecile",
+    "quote": "CECILE | CECILE Breast Cancer Study | France | Case-control study",
+    "said": "ambiguous  CECILE | CECILE Breast Cancer Study | France | Case-control \n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "s2-cgps",
+    "quote": "CGPS | Copenhagen General Population Study | Denmark | Case-control study",
+    "said": "ambiguous  CGPS | Copenhagen General Population Study | Denmark | Case-\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "s2-cnio-bcs",
+    "quote": "CNIO-BCS | Spanish National Cancer Centre Breast Cancer Study | Spain | Case-control study",
+    "said": "ambiguous  CNIO-BCS | Spanish National Cancer Centre Breast Cancer Stud\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "s2-cpsii",
+    "quote": "CPSII | Cancer Prevention Study-II Nutrition Cohort | USA | Prospective cohort: nested case-control study",
+    "said": "ambiguous  CPSII | Cancer Prevention Study-II Nutrition Cohort | USA | \n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "s2-cts",
+    "quote": "CTS | California Teachers Study | USA | Prospective cohort: nested case-control study",
+    "said": "ambiguous  CTS | California Teachers Study | USA | Prospective cohort: \n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "s2-dietcomplyf",
+    "quote": "DIETCOMPLYF | DietCompLyf Breast Cancer Survival Study | UK | Prospective cohort: nested case-control study",
+    "said": "ambiguous  DIETCOMPLYF | DietCompLyf Breast Cancer Survival Study | UK \n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "s2-epic",
+    "quote": "EPIC | European Prospective Investigation Into Cancer and Nutrition | International (Europe) | Prospective cohort: nested case-control study",
+    "said": "ambiguous  EPIC | European Prospective Investigation Into Cancer and Nu\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "s2-esther",
+    "quote": "ESTHER | ESTHER Breast Cancer Study | Germany | Case-control study",
+    "said": "ambiguous  ESTHER | ESTHER Breast Cancer Study | Germany | Case-control\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "s2-fhrisk",
+    "quote": "FHRISK | Family History Risk Study | UK | Case-control study",
+    "said": "ambiguous  FHRISK | Family History Risk Study | UK | Case-control study\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "s2-gc-hboc",
+    "quote": "GC-HBOC | German Consortium for Hereditary Breast & Ovarian Cancer | Germany | Case-control study",
+    "said": "ambiguous  GC-HBOC | German Consortium for Hereditary Breast & Ovarian \n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "s2-genica",
+    "quote": "GENICA | Gene Environment Interaction and Breast Cancer in Germany | Germany | Case-control study",
+    "said": "ambiguous  GENICA | Gene Environment Interaction and Breast Cancer in G\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "s2-geparsixto",
+    "quote": "GEPARSIXTO | Randomized phase II trial | Germany | Case-only study",
+    "said": "ambiguous  GEPARSIXTO | Randomized phase II trial | Germany | Case-only\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "s2-gesbc",
+    "quote": "GESBC | Genetic Epidemiology Study of Breast Cancer by Age 50 | Germany | Case-control study",
+    "said": "ambiguous  GESBC | Genetic Epidemiology Study of Breast Cancer by Age 5\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "s2-habcs",
+    "quote": "HABCS | Hannover Breast Cancer Study | Germany | Case-control study",
+    "said": "ambiguous  HABCS | Hannover Breast Cancer Study | Germany | Case-contro\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "s2-hcsc",
+    "quote": "HCSC | Hospital Clinico San Carlos | Spain | Case-control study",
+    "said": "ambiguous  HCSC | Hospital Clinico San Carlos | Spain | Case-control st\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "s2-hebcs",
+    "quote": "HEBCS | Helsinki Breast Cancer Study | Finland | Case-control study",
+    "said": "ambiguous  HEBCS | Helsinki Breast Cancer Study | Finland | Case-contro\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "s2-hubcs",
+    "quote": "HUBCS | Hannover-Ufa Breast Cancer Study | Russia | Case-control study",
+    "said": "ambiguous  HUBCS | Hannover-Ufa Breast Cancer Study | Russia | Case-con\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "s2-karbac",
+    "quote": "KARBAC | Karolinska Breast Cancer Study | Sweden | Case-control study",
+    "said": "ambiguous  KARBAC | Karolinska Breast Cancer Study | Sweden | Case-cont\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "s2-karma",
+    "quote": "KARMA | Karolinska Mammography Project for Risk Prediction of Breast Cancer – Cohort Study | Sweden | Case-control study",
+    "said": "ambiguous  KARMA | Karolinska Mammography Project for Risk Prediction o\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "s2-kbcp",
+    "quote": "KBCP | Kuopio Breast Cancer Project | Finland | Case-control study",
+    "said": "ambiguous  KBCP | Kuopio Breast Cancer Project | Finland | Case-control\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "s2-kconfab-aocs",
+    "quote": "KCONFAB/AOCS | Kathleen Cuningham Foundation Consortium for research into Familial Breast Cancer/Australian Ovarian Cancer Study | Australia and New Zeland | Case-control study",
+    "said": "ambiguous  KCONFAB/AOCS | Kathleen Cuningham Foundation Consortium for \n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "s2-lmbc",
+    "quote": "LMBC | Leuven Multidisciplinary Breast Centre | Belgium | Case-control study",
+    "said": "ambiguous  LMBC | Leuven Multidisciplinary Breast Centre | Belgium | Ca\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "s2-mabcs",
+    "quote": "MABCS | Macedonian Breast Cancer Study | Macedonia | Case-control study",
+    "said": "ambiguous  MABCS | Macedonian Breast Cancer Study | Macedonia | Case-co\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "s2-marie",
+    "quote": "MARIE | Mammary Carcinoma Risk Factor Investigation | Germany | Case-control study",
+    "said": "ambiguous  MARIE | Mammary Carcinoma Risk Factor Investigation | German\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "s2-mbcsg",
+    "quote": "MBCSG | Milan Breast Cancer Study Group | Italy | Case-control study",
+    "said": "ambiguous  MBCSG | Milan Breast Cancer Study Group | Italy | Case-contr\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "s2-mcbcs",
+    "quote": "MCBCS | Mayo Clinic Breast Cancer Study | USA | Case-control study",
+    "said": "ambiguous  MCBCS | Mayo Clinic Breast Cancer Study | USA | Case-control\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "s2-mccs",
+    "quote": "MCCS | Melbourne Collaborative Cohort Study | Australia | Prospective cohort: nested case-control study",
+    "said": "ambiguous  MCCS | Melbourne Collaborative Cohort Study | Australia | Pr\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "s2-mec",
+    "quote": "MEC | Multiethnic Cohort | USA | Prospective cohort: nested case-control study",
+    "said": "ambiguous  MEC | Multiethnic Cohort | USA | Prospective cohort: nested \n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "s2-miss",
+    "quote": "MISS | Melanoma Inquiry of Southern Sweden | Sweden | Prospective cohort: nested case-control study",
+    "said": "ambiguous  MISS | Melanoma Inquiry of Southern Sweden | Sweden | Prospe\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "s2-mmhs",
+    "quote": "MMHS | Mayo Mammography Health Study | USA | Prospective cohort: nested case-control study",
+    "said": "ambiguous  MMHS | Mayo Mammography Health Study | USA | Prospective coh\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "s2-mskcc",
+    "quote": "MSKCC | Memorial Sloan-Kettering Cancer Center Study | USA | Case-control study",
+    "said": "ambiguous  MSKCC | Memorial Sloan-Kettering Cancer Center Study | USA |\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "s2-mtlgebcs",
+    "quote": "MTLGEBCS | Montreal Gene-Environment Breast Cancer Study | Canada | Case-control study",
+    "said": "ambiguous  MTLGEBCS | Montreal Gene-Environment Breast Cancer Study | C\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "s2-nbcs",
+    "quote": "NBCS | Norwegian Breast Cancer Study | Norway | Case-control study",
+    "said": "ambiguous  NBCS | Norwegian Breast Cancer Study | Norway | Case-control\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "s2-nbhs",
+    "quote": "NBHS | Nashville Breast Health Study | USA | Case-control study",
+    "said": "ambiguous  NBHS | Nashville Breast Health Study | USA | Case-control st\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "s2-nc-bcfr",
+    "quote": "NC-BCFR | Northern California Breast Cancer Family Registry | USA | Case-control study",
+    "said": "ambiguous  NC-BCFR | Northern California Breast Cancer Family Registry \n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "s2-ncbcs",
+    "quote": "NCBCS | North Carolina Breast Cancer study | USA | Case-control study",
+    "said": "ambiguous  NCBCS | North Carolina Breast Cancer study | USA | Case-cont\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "s2-nhs",
+    "quote": "NHS | Nurses Health Study | USA | Prospective cohort: nested case-control study",
+    "said": "ambiguous  NHS | Nurses Health Study | USA | Prospective cohort: nested\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "s2-nhs2",
+    "quote": "NHS2 | Nurses Health Study 2 | USA | Prospective cohort: nested case-control study",
+    "said": "ambiguous  NHS2 | Nurses Health Study 2 | USA | Prospective cohort: nes\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "s2-obcs",
+    "quote": "OBCS | Oulu Breast Cancer Study | Finland | Case-control study",
+    "said": "ambiguous  OBCS | Oulu Breast Cancer Study | Finland | Case-control stu\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "s2-ofbcr",
+    "quote": "OFBCR | Ontario Familial Breast Cancer Registry | Canada | Case-control study",
+    "said": "ambiguous  OFBCR | Ontario Familial Breast Cancer Registry | Canada | C\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "s2-origo",
+    "quote": "ORIGO | Leiden University Medical Centre Breast Cancer Study | Netherlands | Prospective cohort: nested case-control study",
+    "said": "ambiguous  ORIGO | Leiden University Medical Centre Breast Cancer Study\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "s2-pbcs",
+    "quote": "PBCS | NCI Polish Breast Cancer Study | Poland | Case-control study",
+    "said": "ambiguous  PBCS | NCI Polish Breast Cancer Study | Poland | Case-contro\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "s2-pkarma",
+    "quote": "PKARMA | Karolinska Mammography Project for Risk Prediction of Breast Cancer - Case-Control Study | Sweden | Case-control study",
+    "said": "ambiguous  PKARMA | Karolinska Mammography Project for Risk Prediction \n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "s2-plco",
+    "quote": "PLCO | The Prostate, Lung, Colorectal and Ovarian (PLCO) Cancer Screening Trial | USA | Prospective cohort: nested case-control study",
+    "said": "ambiguous  PLCO | The Prostate, Lung, Colorectal and Ovarian (PLCO) Can\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "s2-posh",
+    "quote": "POSH | Prospective Study of Outcomes in Sporadic Versus Hereditary Breast Cancer | UK | Case-only study",
+    "said": "ambiguous  POSH | Prospective Study of Outcomes in Sporadic Versus Here\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "s2-preface",
+    "quote": "PREFACE | Evaluation of Predictive Factors regarding the Effectivity of Aromatase Inhibitor Therapy | Germany | Case-only study",
+    "said": "ambiguous  PREFACE | Evaluation of Predictive Factors regarding the Eff\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "s2-procas",
+    "quote": "PROCAS | Predicting the Risk Of Cancer At Screening Study | UK | Prospective cohort: nested case-control study",
+    "said": "ambiguous  PROCAS | Predicting the Risk Of Cancer At Screening Study | \n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "s2-rbcs",
+    "quote": "RBCS | Rotterdam Breast Cancer Study | Netherlands | Case-control study",
+    "said": "ambiguous  RBCS | Rotterdam Breast Cancer Study | Netherlands | Case-co\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "s2-sasbac",
+    "quote": "SASBAC | Singapore and Sweden Breast Cancer Study | Sweden | Case-control study",
+    "said": "ambiguous  SASBAC | Singapore and Sweden Breast Cancer Study | Sweden |\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "s2-sbcs",
+    "quote": "SBCS | Sheffield Breast Cancer Study | UK | Case-control study",
+    "said": "ambiguous  SBCS | Sheffield Breast Cancer Study | UK | Case-control stu\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "s2-search",
+    "quote": "SEARCH | Study of Epidemiology and Risk factors in Cancer Heredity | UK | Case-control study",
+    "said": "ambiguous  SEARCH | Study of Epidemiology and Risk factors in Cancer He\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "s2-sister",
+    "quote": "SISTER | The Sister Study | USA | Prospective cohort: nested case-control study",
+    "said": "ambiguous  SISTER | The Sister Study | USA | Prospective cohort: nested\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "s2-skkdkfzs",
+    "quote": "SKKDKFZS | Städtisches Klinikum Karlsruhe Deutsches Krebsforschungszentrum Study | Germany | Case-only study",
+    "said": "ambiguous  SKKDKFZS | Städtisches Klinikum Karlsruhe Deutsches Krebsfor\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "s2-smc",
+    "quote": "SMC | Swedish Mammography Cohort | Sweden | Prospective cohort: nested case-control study",
+    "said": "ambiguous  SMC | Swedish Mammography Cohort | Sweden | Prospective coho\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "s2-successb",
+    "quote": "SUCCESSB | Simultaneous Study of Gemcitabine-Docetaxel Combination adjuvant treatment | Germany | Case-only study",
+    "said": "ambiguous  SUCCESSB | Simultaneous Study of Gemcitabine-Docetaxel Combi\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "s2-successc",
+    "quote": "SUCCESSC | Simultaneous Study of Docetaxel Based Anthracycline Free Adjuvant Treatment Evaluation | Germany | Case-only study",
+    "said": "ambiguous  SUCCESSC | Simultaneous Study of Docetaxel Based Anthracycli\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "s2-szbcs",
+    "quote": "SZBCS | IHCC-Szczecin Breast Cancer Study | Poland | Case-control study",
+    "said": "ambiguous  SZBCS | IHCC-Szczecin Breast Cancer Study | Poland | Case-co\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "s2-tnbcc",
+    "quote": "TNBCC | Triple-Negative Breast Cancer Consortium | International | Case-control studies",
+    "said": "ambiguous  TNBCC | Triple-Negative Breast Cancer Consortium | Internati\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "s2-ucibcs",
+    "quote": "UCIBCS | UCI Breast Cancer Study | USA | Case-control study",
+    "said": "ambiguous  UCIBCS | UCI Breast Cancer Study | USA | Case-control study\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "s2-ukbgs",
+    "quote": "UKBGS | UK Breakthrough Generations Study | UK | Prospective cohort: nested case-control study",
+    "said": "ambiguous  UKBGS | UK Breakthrough Generations Study | UK | Prospective\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "s2-ukops",
+    "quote": "UKOPS | UK Ovarian Cancer Population Study | UK | Case-control study",
+    "said": "ambiguous  UKOPS | UK Ovarian Cancer Population Study | UK | Case-contr\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "s2-usrt",
+    "quote": "USRT | US Radiologic Technologists Study | USA | Case-control study",
+    "said": "ambiguous  USRT | US Radiologic Technologists Study | USA | Case-contro\n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "s2-whi",
+    "quote": "WHI | Women's Health Initiative | USA | Prospective cohort: nested case-control study",
+    "said": "ambiguous  WHI | Women's Health Initiative | USA | Prospective cohort: \n  the passage occurs 2 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   }
+  ]
+ },
+ {
+  "stem": "zhang2020bcac_supp_table3",
+  "target": "claims/zhang2020bcac_supp_table3_original.yaml",
+  "original": "sources/original/zhang2020bcac_supp_table3.xlsx",
+  "sha256": "277b381fc31a9d5cb38d7558a6cc9271b7acf680b9ac530d88ae951f2f8ede9e",
+  "extractor": "sheet-rows",
+  "quotes": 62,
+  "pinned": 57,
+  "already_present": 0,
+  "refused": [
+   {
+    "claim_id": "s3-bcfr-ny",
+    "quote": "BCFR-NY | New York site of the Breast Cancer Family Registry | USA",
+    "said": "ambiguous  BCFR-NY | New York site of the Breast Cancer Family Registry\n  the passage occurs 3 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "s3-bcfr-pa",
+    "quote": "BCFR-PA | Philadelphia site of the Breast Cancer Family Registry | USA",
+    "said": "ambiguous  BCFR-PA | Philadelphia site of the Breast Cancer Family Regi\n  the passage occurs 3 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "s3-hcsc",
+    "quote": "HCSC | Hospital Clinico San Carlos | SPAIN",
+    "said": "ambiguous  HCSC | Hospital Clinico San Carlos | SPAIN\n  the passage occurs 3 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "s3-hebcs",
+    "quote": "HEBCS | Helsinki Breast Cancer Study | FINLAND",
+    "said": "ambiguous  HEBCS | Helsinki Breast Cancer Study | FINLAND\n  the passage occurs 3 times in the source, so the record does not say which of them it means; add `prefix`/`suffix` naming the text on either side\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "s3-totals",
+    "quote": " |  |  | 7782 | 7784 |  | 1712 | 1630",
+    "said": "not found   |  |  | 7782 | 7784 |  | 1712 | 1630\n  read the source: a broken extraction reads the same as a passage that was never there\nnothing written. read the source before recording the passage."
+   }
+  ]
+ },
+ {
+  "stem": "zhang2020bcac_supp_table4",
+  "target": "claims/zhang2020bcac_supp_table4_original.yaml",
+  "original": "sources/original/zhang2020bcac_supp_table4.xlsx",
+  "sha256": "277b381fc31a9d5cb38d7558a6cc9271b7acf680b9ac530d88ae951f2f8ede9e",
+  "extractor": "sheet-rows",
+  "quotes": 3,
+  "pinned": 2,
+  "already_present": 0,
+  "refused": [
+   {
+    "claim_id": "tn-row",
+    "quote": "CIMBA-BCAC TN meta-analys4 | 37628 | 2057 | 56779 | 5121 |  |  | 1712 | 1630 | 7782 | 7784",
+    "said": "not found  CIMBA-BCAC TN meta-analys4 | 37628 | 2057 | 56779 | 5121 |  \n  the first 59 characters are in the source and the rest is not\n      quoted: ...628 | 2057 | 56779 | 5121 | | | 1712 | 1630 | 7782 | 7784\n      source: ...628 | 2057 | 56779 | 5121 | 1712 | 1630 | 7782 | 7784 1 milne \n      one character missing from the source's text layer -- a minus sign, an en dash, a hyphen on a line break -- is the usual cause, and is a defect in the extraction rather than in the quotation. Split the quotation into adjacent fragments either side of it; do not truncate it to the part that matches\nnothing written. read the source before recording the passage."
+   }
+  ]
+ },
+ {
+  "stem": "aragam2022cad_main",
+  "target": "claims/aragam2022cad_main_original_jats.yaml",
+  "original": "sources/original/aragam2022cad_main.xml",
+  "sha256": "67b694e3c9e3d7400e08d5efca955b35a026cf416f8bf1db548c2cbe8356288c",
+  "extractor": "jats-text",
+  "quotes": 5,
+  "pinned": 0,
+  "already_present": 5,
+  "refused": []
+ },
+ {
+  "stem": "bellenguez2022_main",
+  "target": "claims/bellenguez2022_main_original_jats.yaml",
+  "original": "sources/original/bellenguez2022_main.xml",
+  "sha256": "fd2d5a2be6ddb5a60c153ee63dd7d5f0645808b8a60a56a3ebddf3747200bdc0",
+  "extractor": "jats-text",
+  "quotes": 2,
+  "pinned": 2,
+  "already_present": 0,
+  "refused": []
+ },
+ {
+  "stem": "bentham2015sle_main",
+  "target": "claims/bentham2015sle_main_original_jats.yaml",
+  "original": "sources/original/bentham2015sle_main.xml",
+  "sha256": "3c347d5f729a1f563b3d3033a466f18249dc7f2ee7c419d23a3cfa49abf963ec",
+  "extractor": "jats-text",
+  "quotes": 9,
+  "pinned": 9,
+  "already_present": 0,
+  "refused": []
+ },
+ {
+  "stem": "burgess2016",
+  "target": "claims/burgess2016_original_jats.yaml",
+  "original": "sources/original/burgess2016.xml",
+  "sha256": "5015a7a83b166c279b67f9b5fa2fab4e423dccc94af0b41485ee88b653c0de75",
+  "extractor": "jats-text",
+  "quotes": 5,
+  "pinned": 5,
+  "already_present": 0,
+  "refused": []
+ },
+ {
+  "stem": "chen2021magic_main",
+  "target": "claims/chen2021magic_main_original_jats.yaml",
+  "original": "sources/original/chen2021magic_main.xml",
+  "sha256": "1e62c048a80eb0f3b83b76c481bb8fb6f934b46e02319c235f6e12a63c16da6f",
+  "extractor": "jats-text",
+  "quotes": 3,
+  "pinned": 3,
+  "already_present": 0,
+  "refused": []
+ },
+ {
+  "stem": "chen2022stroke",
+  "target": "claims/chen2022stroke_original_jats.yaml",
+  "original": "sources/original/chen2022stroke.xml",
+  "sha256": "a2a57ab9b1d00d4a3d4971e38b7617b059b1b75ab8aace56d6b0e6f8ffd8e27b",
+  "extractor": "jats-text",
+  "quotes": 3,
+  "pinned": 3,
+  "already_present": 0,
+  "refused": []
+ },
+ {
+  "stem": "chen2026llmreview",
+  "target": "claims/chen2026llmreview_original_jats.yaml",
+  "original": "sources/original/chen2026llmreview.xml",
+  "sha256": "a0f060c723b481bd18ba9dbbb7f608fdc1cbc9970ee3da8564771b8323d3f6b2",
+  "extractor": "jats-text",
+  "quotes": 3,
+  "pinned": 3,
+  "already_present": 0,
+  "refused": []
+ },
+ {
+  "stem": "christophersen2017af_main",
+  "target": "claims/christophersen2017af_main_original_jats.yaml",
+  "original": "sources/original/christophersen2017af_main.xml",
+  "sha256": "de9d160eb5c2ee82c04e4c7dec6d138b9a087a11f13524c80aa6e002a99907ad",
+  "extractor": "jats-text",
+  "quotes": 2,
+  "pinned": 2,
+  "already_present": 0,
+  "refused": []
+ },
+ {
+  "stem": "clark2025",
+  "target": "claims/clark2025_original_jats.yaml",
+  "original": "sources/original/clark2025.xml",
+  "sha256": "afbea7b21f994c27878cae17427b02e25886090fe0d15994d737206112bf2a43",
+  "extractor": "jats-text",
+  "quotes": 3,
+  "pinned": 3,
+  "already_present": 0,
+  "refused": []
+ },
+ {
+  "stem": "covidhgi2021_main",
+  "target": "claims/covidhgi2021_main_original_jats.yaml",
+  "original": "sources/original/covidhgi2021_main.xml",
+  "sha256": "e9b7271be234377904fed35a82059f50eef69999387533e50a537bffc4437293",
+  "extractor": "jats-text",
+  "quotes": 7,
+  "pinned": 7,
+  "already_present": 0,
+  "refused": []
+ },
+ {
+  "stem": "covidhgi2023r7_main",
+  "target": "claims/covidhgi2023r7_main_original_jats.yaml",
+  "original": "sources/original/covidhgi2023r7_main.xml",
+  "sha256": "50b986b5ed5ff739ae3e3b663fa166db2190cf961fa112ebb19e79c25e37debc",
+  "extractor": "jats-text",
+  "quotes": 4,
+  "pinned": 4,
+  "already_present": 0,
+  "refused": []
+ },
+ {
+  "stem": "delange2017ibd_main",
+  "target": "claims/delange2017ibd_main_original_jats.yaml",
+  "original": "sources/original/delange2017ibd_main.xml",
+  "sha256": "c181aff4841207885601668ebcdf0052528134b4ee00199c9232c17599ce5543",
+  "extractor": "jats-text",
+  "quotes": 8,
+  "pinned": 8,
+  "already_present": 0,
+  "refused": []
+ },
+ {
+  "stem": "eldjarn2023",
+  "target": "claims/eldjarn2023_original_jats.yaml",
+  "original": "sources/original/eldjarn2023.xml",
+  "sha256": "67fc6bd0b5ef4d9a382206842e1e9724c837fd4bf5d65bfc5d077ac22438b14f",
+  "extractor": "jats-text",
+  "quotes": 7,
+  "pinned": 7,
+  "already_present": 0,
+  "refused": []
+ },
+ {
+  "stem": "emilsson2018ages",
+  "target": "claims/emilsson2018ages_original_jats.yaml",
+  "original": "sources/original/emilsson2018ages.xml",
+  "sha256": "c8ac6175cae94dfeb3e012f4a9279ac8fc5fe72c91e2226ad0df439d21b368fd",
+  "extractor": "jats-text",
+  "quotes": 2,
+  "pinned": 2,
+  "already_present": 0,
+  "refused": []
+ },
+ {
+  "stem": "enroth2014nsphs",
+  "target": "claims/enroth2014nsphs_original_jats.yaml",
+  "original": "sources/original/enroth2014nsphs.xml",
+  "sha256": "d926ccabd38c17d5283124363f58f8ac7432ecbad7b42b0d5ff1cdece1d2cb99",
+  "extractor": "jats-text",
+  "quotes": 3,
+  "pinned": 3,
+  "already_present": 0,
+  "refused": []
+ },
+ {
+  "stem": "evangelou2018bp_main",
+  "target": "claims/evangelou2018bp_main_original_jats.yaml",
+  "original": "sources/original/evangelou2018bp_main.xml",
+  "sha256": "0e45b439bd95b1316649eafaad2450520813401889c5cf20f9880a0752296fe6",
+  "extractor": "jats-text",
+  "quotes": 5,
+  "pinned": 5,
+  "already_present": 0,
+  "refused": []
+ },
+ {
+  "stem": "fernandezrozadilla2023crc_main",
+  "target": "claims/fernandezrozadilla2023crc_main_original_jats.yaml",
+  "original": "sources/original/fernandezrozadilla2023crc_main.xml",
+  "sha256": "41a45da3c4e770c4f56ebd5e27df3641fe7b1cac9e399a9c6c301c09ed4b2641",
+  "extractor": "jats-text",
+  "quotes": 2,
+  "pinned": 2,
+  "already_present": 0,
+  "refused": []
+ },
+ {
+  "stem": "folkersen2017improve",
+  "target": "claims/folkersen2017improve_original_jats.yaml",
+  "original": "sources/original/folkersen2017improve.xml",
+  "sha256": "f215d73025add62bd1205ae6ba5923822ead72d81ce7f18c39ab4c08566f2936",
+  "extractor": "jats-text",
+  "quotes": 2,
+  "pinned": 2,
+  "already_present": 0,
+  "refused": []
+ },
+ {
+  "stem": "folkersen2020scallop",
+  "target": "claims/folkersen2020scallop_original_jats.yaml",
+  "original": "sources/original/folkersen2020scallop.xml",
+  "sha256": "909a7ab92770ae678578909a5fd7f3e48245ad184ea0e4059ff0521fead13688",
+  "extractor": "jats-text",
+  "quotes": 3,
+  "pinned": 3,
+  "already_present": 0,
+  "refused": []
+ },
+ {
+  "stem": "gibson2023",
+  "target": "claims/gibson2023_original_jats.yaml",
+  "original": "sources/original/gibson2023.xml",
+  "sha256": "f3ae8e9a2c64aefe623987b6392a2a79b467dd486331018b0474ecc46fba46aa",
+  "extractor": "jats-text",
+  "quotes": 6,
+  "pinned": 6,
+  "already_present": 0,
+  "refused": []
+ },
+ {
+  "stem": "graham2021glgc_main",
+  "target": "claims/graham2021glgc_main_original_jats.yaml",
+  "original": "sources/original/graham2021glgc_main.xml",
+  "sha256": "8d46ed5ca3ad56378fd028b5ec971f1f1933aaded38d500a8c8c66c370c1fdff",
+  "extractor": "jats-text",
+  "quotes": 2,
+  "pinned": 2,
+  "already_present": 0,
+  "refused": []
+ },
+ {
+  "stem": "gudjonsson2022ages",
+  "target": "claims/gudjonsson2022ages_original_jats.yaml",
+  "original": "sources/original/gudjonsson2022ages.xml",
+  "sha256": "5115c939183f585f3ea39a12771c82808e335c1b098cef1807137aacf4b52ead",
+  "extractor": "jats-text",
+  "quotes": 3,
+  "pinned": 3,
+  "already_present": 0,
+  "refused": []
+ },
+ {
+  "stem": "han2020asthma_main",
+  "target": "claims/han2020asthma_main_original_jats.yaml",
+  "original": "sources/original/han2020asthma_main.xml",
+  "sha256": "595f5a7903f8359bcd5c6ff2b69f61f35afb2c95aa23f8d279a494b605402a80",
+  "extractor": "jats-text",
+  "quotes": 5,
+  "pinned": 5,
+  "already_present": 0,
+  "refused": []
+ },
+ {
+  "stem": "howson2017cad_main",
+  "target": "claims/howson2017cad_main_original_jats.yaml",
+  "original": "sources/original/howson2017cad_main.xml",
+  "sha256": "9067998e5390335ff32880c024afd47580a8dbe45313b436a2ef0f8826d49613",
+  "extractor": "jats-text",
+  "quotes": 7,
+  "pinned": 7,
+  "already_present": 0,
+  "refused": []
+ },
+ {
+  "stem": "huyghe2019crc_main",
+  "target": "claims/huyghe2019crc_main_original_jats.yaml",
+  "original": "sources/original/huyghe2019crc_main.xml",
+  "sha256": "d31e6a6deca32edda7133254a4ef0b389935c163647e9e6c022a43ef02c8f50d",
+  "extractor": "jats-text",
+  "quotes": 5,
+  "pinned": 5,
+  "already_present": 0,
+  "refused": []
+ },
+ {
+  "stem": "katz2022",
+  "target": "claims/katz2022_original_jats.yaml",
+  "original": "sources/original/katz2022.xml",
+  "sha256": "5df79e228b628d988684f5e089d7116c4b6b374df9c5ccc002f3de47913e8c38",
+  "extractor": "jats-text",
+  "quotes": 7,
+  "pinned": 7,
+  "already_present": 0,
+  "refused": []
+ },
+ {
+  "stem": "katz2022jhs",
+  "target": "claims/katz2022jhs_original_jats.yaml",
+  "original": "sources/original/katz2022jhs.xml",
+  "sha256": "1bc5095aa229a76f553a728e65f0f79cbe0f9e9c2e1894acd42c425c391804e1",
+  "extractor": "jats-text",
+  "quotes": 2,
+  "pinned": 2,
+  "already_present": 0,
+  "refused": []
+ },
+ {
+  "stem": "khan2024preprint",
+  "target": "claims/khan2024preprint_original_jats.yaml",
+  "original": "sources/original/khan2024preprint.xml",
+  "sha256": "266a5c11c7ed51c4190e244516821dcf4263305a62f26fc8a6c2ab54cc86e82e",
+  "extractor": "jats-text",
+  "quotes": 3,
+  "pinned": 3,
+  "already_present": 0,
+  "refused": []
+ },
+ {
+  "stem": "koprulu2026scallop_fulltext",
+  "target": "claims/koprulu2026scallop_fulltext_original_jats.yaml",
+  "original": "sources/original/koprulu2026scallop_fulltext.xml",
+  "sha256": "eb693b89f105c4bd7b64db5b686826cee08b969330557b854fd40a0d013c5f06",
+  "extractor": "jats-text",
+  "quotes": 12,
+  "pinned": 12,
+  "already_present": 0,
+  "refused": []
+ },
+ {
+  "stem": "kurki2023finngen_main",
+  "target": "claims/kurki2023finngen_main_original_jats.yaml",
+  "original": "sources/original/kurki2023finngen_main.xml",
+  "sha256": "e2d20baafc775ff81e003147346cba0d2d52c75577b02e4c601b2a7135aa2495",
+  "extractor": "jats-text",
+  "quotes": 4,
+  "pinned": 4,
+  "already_present": 0,
+  "refused": []
+ },
+ {
+  "stem": "liu2015ibd_main",
+  "target": "claims/liu2015ibd_main_original_jats.yaml",
+  "original": "sources/original/liu2015ibd_main.xml",
+  "sha256": "0301704c6a72db2fbf2d9a74c3bf3adab581f753003d9c4e81eb09021081f051",
+  "extractor": "jats-text",
+  "quotes": 9,
+  "pinned": 9,
+  "already_present": 0,
+  "refused": []
+ },
+ {
+  "stem": "mahajan2018diagram_main",
+  "target": "claims/mahajan2018diagram_main_original_jats.yaml",
+  "original": "sources/original/mahajan2018diagram_main.xml",
+  "sha256": "790cbd74d2873fd5159d252c29b8d395b4bf5e5805da27db1caeb016e911ce09",
+  "extractor": "jats-text",
+  "quotes": 3,
+  "pinned": 3,
+  "already_present": 0,
+  "refused": []
+ },
+ {
+  "stem": "mahajan2022diamante_main",
+  "target": "claims/mahajan2022diamante_main_original_jats.yaml",
+  "original": "sources/original/mahajan2022diamante_main.xml",
+  "sha256": "8183d7bebbfd720f5adc53a8fa3cd6e886667b1d0fcd8e78a6bd9fcbc4a6d654",
+  "extractor": "jats-text",
+  "quotes": 1,
+  "pinned": 1,
+  "already_present": 0,
+  "refused": []
+ },
+ {
+  "stem": "malik2018megastroke_main",
+  "target": "claims/malik2018megastroke_main_original_jats.yaml",
+  "original": "sources/original/malik2018megastroke_main.xml",
+  "sha256": "137b487373e8ed0424e720580efef294df6459ef9959ee15c11e85be986c8836",
+  "extractor": "jats-text",
+  "quotes": 1,
+  "pinned": 1,
+  "already_present": 0,
+  "refused": []
+ },
+ {
+  "stem": "mckay2017lung_main",
+  "target": "claims/mckay2017lung_main_original_jats.yaml",
+  "original": "sources/original/mckay2017lung_main.xml",
+  "sha256": "38f7997b82e1ca7b4e8b11c825cc979cf244c9278ccaa8ac1c32a870c7dc0fb0",
+  "extractor": "jats-text",
+  "quotes": 6,
+  "pinned": 5,
+  "already_present": 0,
+  "refused": [
+   {
+    "claim_id": "table1-totals",
+    "quote": "OncoArray studies- passed QC 14803 (51) 12262 (22) Published GWAS studies a 14463 (49) 44188 (78) Total 29266 56450",
+    "said": "not found  OncoArray studies- passed QC 14803 (51) 12262 (22) Published\n  read the source: a broken extraction reads the same as a passage that was never there\nnothing written. read the source before recording the passage."
+   }
+  ]
+ },
+ {
+  "stem": "mckay2017lung_timofeeva2012_main",
+  "target": "claims/mckay2017lung_timofeeva2012_main_original_jats.yaml",
+  "original": "sources/original/mckay2017lung_timofeeva2012_main.xml",
+  "sha256": "bb41c0a580447b9cada2bd1adf785b77fbef5b90de648cc8f1dad09742c773c1",
+  "extractor": "jats-text",
+  "quotes": 8,
+  "pinned": 3,
+  "already_present": 0,
+  "refused": [
+   {
+    "claim_id": "SLRI_TORONTO",
+    "quote": "SLRI c /Toronto 331 499 Toronto, Canada Hospital-based case–control",
+    "said": "not found  SLRI c /Toronto 331 499 Toronto, Canada Hospital-based case–\n  read the source: a broken extraction reads the same as a passage that was never there\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "HGF_GERMANY",
+    "quote": "HGF Germany g 487 480 Germany Population-based case–control (<50 years)",
+    "said": "not found  HGF Germany g 487 480 Germany Population-based case–control \n  read the source: a broken extraction reads the same as a passage that was never there\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "HUNT_TROMSO",
+    "quote": "HUNT2/Tromso f 394 393 Norway Population-based case–control",
+    "said": "not found  HUNT2/Tromso f 394 393 Norway Population-based case–control\n  read the source: a broken extraction reads the same as a passage that was never there\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "ESTONIA",
+    "quote": "Estonia 109 851 Estonia Hospital-based case–control",
+    "said": "not found  Estonia 109 851 Estonia Hospital-based case–control\n  read the source: a broken extraction reads the same as a passage that was never there\nnothing written. read the source before recording the passage."
+   },
+   {
+    "claim_id": "DECODE",
+    "quote": "DeCODE Genetics 830 11 228 Iceland Population-based case–control",
+    "said": "not found  DeCODE Genetics 830 11 228 Iceland Population-based case–con\n  read the source: a broken extraction reads the same as a passage that was never there\nnothing written. read the source before recording the passage."
+   }
+  ]
+ },
+ {
+  "stem": "mckay2017lung_wang2014_main",
+  "target": "claims/mckay2017lung_wang2014_main_original_jats.yaml",
+  "original": "sources/original/mckay2017lung_wang2014_main.xml",
+  "sha256": "50c35fcfc4dd8d58238fcb4621ac08dfa3a5cd2ad265b695dd394c032ae69b9f",
+  "extractor": "jats-text",
+  "quotes": 10,
+  "pinned": 10,
+  "already_present": 0,
+  "refused": []
+ },
+ {
+  "stem": "michailidou2017bcac_main",
+  "target": "claims/michailidou2017bcac_main_original_jats.yaml",
+  "original": "sources/original/michailidou2017bcac_main.xml",
+  "sha256": "7b30f8fabb0c4bf4db19dd108f5362654fe85f46bdbf18c80aa07e8e2ab15c56",
+  "extractor": "jats-text",
+  "quotes": 7,
+  "pinned": 7,
+  "already_present": 0,
+  "refused": []
+ },
+ {
+  "stem": "michailidou2017bcac_ref20_michailidou2015_main",
+  "target": "claims/michailidou2017bcac_ref20_michailidou2015_main_original_jats.yaml",
+  "original": "sources/original/michailidou2017bcac_ref20_michailidou2015_main.xml",
+  "sha256": "64273cc8958402153768df5d1fa74b476212ceefe08f2c0f92831600fa8210e4",
+  "extractor": "jats-text",
+  "quotes": 3,
+  "pinned": 3,
+  "already_present": 0,
+  "refused": []
+ },
+ {
+  "stem": "nguyen2025",
+  "target": "claims/nguyen2025_original_jats.yaml",
+  "original": "sources/original/nguyen2025.xml",
+  "sha256": "42c3872701fafc64d9d8b164865675ca79133e722b221687e938b8788a89a69c",
+  "extractor": "jats-text",
+  "quotes": 4,
+  "pinned": 4,
+  "already_present": 0,
+  "refused": []
+ },
+ {
+  "stem": "nielsen2018af_main",
+  "target": "claims/nielsen2018af_main_original_jats.yaml",
+  "original": "sources/original/nielsen2018af_main.xml",
+  "sha256": "8d3e7e7a9fef829918cc82c2e37cbb0f6a48d29c7869e489c8a9262670fac80c",
+  "extractor": "jats-text",
+  "quotes": 4,
+  "pinned": 4,
+  "already_present": 0,
+  "refused": []
+ },
+ {
+  "stem": "nikpay2015cad_main",
+  "target": "claims/nikpay2015cad_main_original_jats.yaml",
+  "original": "sources/original/nikpay2015cad_main.xml",
+  "sha256": "e80295302a6fc59843664e9f0f233c7d99f69983fea8d68f72ca182f787ff349",
+  "extractor": "jats-text",
+  "quotes": 2,
+  "pinned": 2,
+  "already_present": 0,
+  "refused": []
+ },
+ {
+  "stem": "oami2026",
+  "target": "claims/oami2026_original_jats.yaml",
+  "original": "sources/original/oami2026.xml",
+  "sha256": "1a23640413d1b047269d6cb738c67622ed406552535cae9a60e1445ec9975d83",
+  "extractor": "jats-text",
+  "quotes": 4,
+  "pinned": 4,
+  "already_present": 0,
+  "refused": []
+ },
+ {
+  "stem": "okada2014ra_main",
+  "target": "claims/okada2014ra_main_original_jats.yaml",
+  "original": "sources/original/okada2014ra_main.xml",
+  "sha256": "af9b93cea488d3af9b199198b6e54a09d60a5fe160580b26ffec8eed4c4b0429",
+  "extractor": "jats-text",
+  "quotes": 5,
+  "pinned": 5,
+  "already_present": 0,
+  "refused": []
+ },
+ {
+  "stem": "png2021helic",
+  "target": "claims/png2021helic_original_jats.yaml",
+  "original": "sources/original/png2021helic.xml",
+  "sha256": "12e87522ede67c3abb6c79bb183687088bebb7311ce0ed076042192691a210fc",
+  "extractor": "jats-text",
+  "quotes": 3,
+  "pinned": 3,
+  "already_present": 0,
+  "refused": []
+ },
+ {
+  "stem": "roselli2018af_main",
+  "target": "claims/roselli2018af_main_original_jats.yaml",
+  "original": "sources/original/roselli2018af_main.xml",
+  "sha256": "ca06e84df5cb546a17595eec53656bafcb633b80570e274aa68d1564c16abd59",
+  "extractor": "jats-text",
+  "quotes": 3,
+  "pinned": 3,
+  "already_present": 0,
+  "refused": []
+ },
+ {
+  "stem": "sakaue2021_main",
+  "target": "claims/sakaue2021_main_original_jats.yaml",
+  "original": "sources/original/sakaue2021_main.xml",
+  "sha256": "8781bcd448659302ec07b2e39a3ae717871d2c999518c0f9db0321220bb9fff8",
+  "extractor": "jats-text",
+  "quotes": 10,
+  "pinned": 10,
+  "already_present": 0,
+  "refused": []
+ },
+ {
+  "stem": "schumacher2018practical_main",
+  "target": "claims/schumacher2018practical_main_original_jats.yaml",
+  "original": "sources/original/schumacher2018practical_main.xml",
+  "sha256": "dfe6dda605caf8fc4d948c4b6fad957d1d581445338651e57fa57b95e28f21b4",
+  "extractor": "jats-text",
+  "quotes": 8,
+  "pinned": 8,
+  "already_present": 0,
+  "refused": []
+ },
+ {
+  "stem": "shah2020hermes_main",
+  "target": "claims/shah2020hermes_main_original_jats.yaml",
+  "original": "sources/original/shah2020hermes_main.xml",
+  "sha256": "92bbe2d6a0c9f975156effc7641f5b1910655f4c1dd5aebb83312df6ce987497",
+  "extractor": "jats-text",
+  "quotes": 3,
+  "pinned": 3,
+  "already_present": 0,
+  "refused": []
+ },
+ {
+  "stem": "shi2025triangulator",
+  "target": "claims/shi2025triangulator_original_jats.yaml",
+  "original": "sources/original/shi2025triangulator.xml",
+  "sha256": "841eb94e4fc201b3eed53d3b5032b4938b49f27aa36d3de402983bee6cc72307",
+  "extractor": "jats-text",
+  "quotes": 2,
+  "pinned": 2,
+  "already_present": 0,
+  "refused": []
+ },
+ {
+  "stem": "skrivankova2021bmj",
+  "target": "claims/skrivankova2021bmj_original_jats.yaml",
+  "original": "sources/original/skrivankova2021bmj.xml",
+  "sha256": "78af73ab0943a8e1223370873da0b0f08dda2bbad53da3cf8e90824da7b99a78",
+  "extractor": "jats-text",
+  "quotes": 1,
+  "pinned": 1,
+  "already_present": 0,
+  "refused": []
+ },
+ {
+  "stem": "sobczyk2023",
+  "target": "claims/sobczyk2023_original_jats.yaml",
+  "original": "sources/original/sobczyk2023.xml",
+  "sha256": "835c92c0404520ade61dfef3799e2cfb0dce14f451c0be7b693da73973d3db20",
+  "extractor": "jats-text",
+  "quotes": 1,
+  "pinned": 1,
+  "already_present": 0,
+  "refused": []
+ },
+ {
+  "stem": "stender2024",
+  "target": "claims/stender2024_original_jats.yaml",
+  "original": "sources/original/stender2024.xml",
+  "sha256": "753cc0946033a85a98f76163c32425a2d860fb79a8c4bcd04c91c49fcb3f42f5",
+  "extractor": "jats-text",
+  "quotes": 4,
+  "pinned": 4,
+  "already_present": 0,
+  "refused": []
+ },
+ {
+  "stem": "suhre2017kora",
+  "target": "claims/suhre2017kora_original_jats.yaml",
+  "original": "sources/original/suhre2017kora.xml",
+  "sha256": "f58e69b9bfc65f07000f425b1958dd20faae30fad45661ae519cdad84caa2624",
+  "extractor": "jats-text",
+  "quotes": 3,
+  "pinned": 3,
+  "already_present": 0,
+  "refused": []
+ },
+ {
+  "stem": "sun2023",
+  "target": "claims/sun2023_original_jats.yaml",
+  "original": "sources/original/sun2023.xml",
+  "sha256": "f352084df35360aafba530a0bf8e8dfb8e6c0a3cceff69e8ab322d932e5202e0",
+  "extractor": "jats-text",
+  "quotes": 4,
+  "pinned": 4,
+  "already_present": 0,
+  "refused": []
+ },
+ {
+  "stem": "tsuo2022gbmi_asthma_main",
+  "target": "claims/tsuo2022gbmi_asthma_main_original_jats.yaml",
+  "original": "sources/original/tsuo2022gbmi_asthma_main.xml",
+  "sha256": "39d5a722da640bd9209f595e3aa50cc8b565d82cc37047a920feb1351b7c9394",
+  "extractor": "jats-text",
+  "quotes": 5,
+  "pinned": 5,
+  "already_present": 0,
+  "refused": []
+ },
+ {
+  "stem": "vanderharst2018cad_main",
+  "target": "claims/vanderharst2018cad_main_original_jats.yaml",
+  "original": "sources/original/vanderharst2018cad_main.xml",
+  "sha256": "4ef911dc8c172c00324b9186a29aab2b4ea9a7d82d8d28def7284c2c56302fbf",
+  "extractor": "jats-text",
+  "quotes": 4,
+  "pinned": 4,
+  "already_present": 0,
+  "refused": []
+ },
+ {
+  "stem": "vanrheenen2021_main",
+  "target": "claims/vanrheenen2021_main_original_jats.yaml",
+  "original": "sources/original/vanrheenen2021_main.xml",
+  "sha256": "9ed29bcadb578418e21c5facaf9bf9d0642cac03fceccc4675f3a0445c5aaef2",
+  "extractor": "jats-text",
+  "quotes": 4,
+  "pinned": 4,
+  "already_present": 0,
+  "refused": []
+ },
+ {
+  "stem": "willer2013glgc_main",
+  "target": "claims/willer2013glgc_main_original_jats.yaml",
+  "original": "sources/original/willer2013glgc_main.xml",
+  "sha256": "7a6fd9832653b8d30ba93765947d2a0abec9e74132905d0aee148af0a439b5b8",
+  "extractor": "jats-text",
+  "quotes": 5,
+  "pinned": 5,
+  "already_present": 0,
+  "refused": []
+ },
+ {
+  "stem": "wood2014giant_main",
+  "target": "claims/wood2014giant_main_original_jats.yaml",
+  "original": "sources/original/wood2014giant_main.xml",
+  "sha256": "554b5fe49a2ed5c7ffbc608ebad0c9e954e3aebe0fd5b193b5b66f9120c08736",
+  "extractor": "jats-text",
+  "quotes": 2,
+  "pinned": 2,
+  "already_present": 0,
+  "refused": []
+ },
+ {
+  "stem": "woolf2022",
+  "target": "claims/woolf2022_original_jats.yaml",
+  "original": "sources/original/woolf2022.xml",
+  "sha256": "0f46f31debb919a06990af9aede244e0eaa6639c58e1af1c51a746d5c086518c",
+  "extractor": "jats-text",
+  "quotes": 5,
+  "pinned": 5,
+  "already_present": 0,
+  "refused": []
+ },
+ {
+  "stem": "wuttke2019ckdgen_main",
+  "target": "claims/wuttke2019ckdgen_main_original_jats.yaml",
+  "original": "sources/original/wuttke2019ckdgen_main.xml",
+  "sha256": "0da61fda29da4877503f33664e4d4904cb6f143edee9c2985257561e0c790b44",
+  "extractor": "jats-text",
+  "quotes": 5,
+  "pinned": 5,
+  "already_present": 0,
+  "refused": []
+ },
+ {
+  "stem": "xu2023gnhs",
+  "target": "claims/xu2023gnhs_original_jats.yaml",
+  "original": "sources/original/xu2023gnhs.xml",
+  "sha256": "db73f198be83fe14910eadc36f17242f26d4721f167f1f3ce0b74536b2d65394",
+  "extractor": "jats-text",
+  "quotes": 3,
+  "pinned": 3,
+  "already_present": 0,
+  "refused": []
+ },
+ {
+  "stem": "yao2018fhs",
+  "target": "claims/yao2018fhs_original_jats.yaml",
+  "original": "sources/original/yao2018fhs.xml",
+  "sha256": "85bfa624b36d353104fb0e213c16f8d1ed0ccd1f92563a8a7c87f6f2bf3fe05c",
+  "extractor": "jats-text",
+  "quotes": 3,
+  "pinned": 3,
+  "already_present": 0,
+  "refused": []
+ },
+ {
+  "stem": "yengo2018giant_abstract",
+  "target": "claims/yengo2018giant_abstract_original_jats.yaml",
+  "original": "sources/original/yengo2018giant_abstract.xml",
+  "sha256": "bf8d5c592802fa3142a694dfff180d440d566c5a856f4cdf3a2d59375e74f2ba",
+  "extractor": "jats-text",
+  "quotes": 2,
+  "pinned": 2,
+  "already_present": 0,
+  "refused": []
+ },
+ {
+  "stem": "yengo2022giant_main",
+  "target": "claims/yengo2022giant_main_original_jats.yaml",
+  "original": "sources/original/yengo2022giant_main.xml",
+  "sha256": "735dd54d939eb6f5c5b5df644d33b3a2190352a46038c3a63736ad3fd4c19944",
+  "extractor": "jats-text",
+  "quotes": 5,
+  "pinned": 5,
+  "already_present": 0,
+  "refused": []
+ },
+ {
+  "stem": "yoshikawa2024",
+  "target": "claims/yoshikawa2024_original_jats.yaml",
+  "original": "sources/original/yoshikawa2024.xml",
+  "sha256": "c7cb7209d485cf6714bc38dfb60242258698b219d5bd74e3eba6b77c80372998",
+  "extractor": "jats-text",
+  "quotes": 2,
+  "pinned": 2,
+  "already_present": 0,
+  "refused": []
+ },
+ {
+  "stem": "zhang2020bcac_main",
+  "target": "claims/zhang2020bcac_main_original_jats.yaml",
+  "original": "sources/original/zhang2020bcac_main.xml",
+  "sha256": "947e7a1414ee881a45357715f7792bf448c07b39efad80d5707aecb86f922a27",
+  "extractor": "jats-text",
+  "quotes": 13,
+  "pinned": 13,
+  "already_present": 0,
+  "refused": []
+ },
+ {
+  "stem": "zheng2020pwmr",
+  "target": "claims/zheng2020pwmr_original_jats.yaml",
+  "original": "sources/original/zheng2020pwmr.xml",
+  "sha256": "6a14fee84a1e133db61dc8bcd9d08b199d6a51c1e0665e8b4759a238297ae6bf",
+  "extractor": "jats-text",
+  "quotes": 4,
+  "pinned": 4,
+  "already_present": 0,
+  "refused": []
+ },
+ {
+  "stem": "zheng2025dmrdb",
+  "target": "claims/zheng2025dmrdb_original_jats.yaml",
+  "original": "sources/original/zheng2025dmrdb.xml",
+  "sha256": "8b9f8f10a830d51517d681132c48215740bed2932514f8de0a2a6f634661aeea",
+  "extractor": "jats-text",
+  "quotes": 2,
+  "pinned": 2,
+  "already_present": 0,
+  "refused": []
+ },
+ {
+  "stem": "zhou2022gbmi_main",
+  "target": "claims/zhou2022gbmi_main_original_jats.yaml",
+  "original": "sources/original/zhou2022gbmi_main.xml",
+  "sha256": "61c667b30896191e17103a846e3389dec2c382b94aef2ea4eab89ea9307f4f14",
+  "extractor": "jats-text",
+  "quotes": 5,
+  "pinned": 5,
+  "already_present": 0,
+  "refused": []
+ },
+ {
+  "stem": "zhu2025letter",
+  "target": "claims/zhu2025letter_original_jats.yaml",
+  "original": "sources/original/zhu2025letter.xml",
+  "sha256": "60a1f3bb41c4096c131d1a73e69ae5dee4a77a6c247372c0ebb95bb798dca56e",
+  "extractor": "jats-text",
+  "quotes": 2,
+  "pinned": 2,
+  "already_present": 0,
+  "refused": []
+ }
+]

@@ -1,0 +1,32 @@
+source:
+  citation: huyghe2019crc_main
+  local: sources/original/huyghe2019crc_main.xml
+  sha256: d31e6a6deca32edda7133254a4ef0b389935c163647e9e6c022a43ef02c8f50d
+  url: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=PMC6358437
+  doi: 10.1038/s41588-018-0286-6
+  note: 'Original file behind claims/huyghe2019crc_main.yaml: NCBI E-utilities efetch (db=pmc) XML of
+    PMC6358437, read as plain text with its markup. The quotations here are the quotations of that file
+    that resolve in this file under the citations readers; a quotation absent here is pinned to the extracted
+    text there only.'
+claims:
+  combined-45-studies:
+    quotes:
+    - exact: and 67,347 controls from 45 studies from GECCO, CORECT, and CCFR
+      section: Results
+  stage1-counts:
+    quotes:
+    - exact: r QC, the Stage 1 meta-analysis included 34,869 cases and 29,051 controls
+      section: Online Methods
+  stage2-counts:
+    quotes:
+    - exact: the Stage 2 meta-analysis included 23,262 cases and 38,296 controls, all of European ancestry
+      section: Online Methods
+  ukb-methods:
+    quotes:
+    - exact: ined from UK Biobank and QC and imputation are described elsewhere
+      section: Online Methods
+  data-availability:
+    quotes:
+    - exact: Genotype data for the studies included in the Stage 1 meta-analysis have been deposited at
+        dbGaP under accession number phs001078.v1.p1.
+      section: Data availability

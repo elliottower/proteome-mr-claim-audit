@@ -1,0 +1,93 @@
+{
+ "run_id": "smoke_pre2019_20261002_s1b_chase_1",
+ "note": "pre-freeze smoke run on records first public before 2019: citation chasing round 1, responses, screening set and keyword gate; the gate audit was not judged",
+ "written_utc": "2026-10-02T20:20:04+00:00",
+ "files": [
+  {
+   "path": "outputs/raw/citation_chase_smoke/smoke_pre2019_20261002/chase_round_1/manifest.jsonl",
+   "bytes": 4267,
+   "sha256": "8b106b28cdd61c6026dc2d38da0f66a701b8b549c55be4a459f5dfa373c789f6"
+  },
+  {
+   "path": "outputs/raw/citation_chase_smoke/smoke_pre2019_20261002/chase_round_1/openalex/backward_0001/page_0001.json.gz",
+   "bytes": 261368,
+   "sha256": "06db2fc0e8a2fdc0a7fc21ea1daf155a3a54abe1f0d2b50d7a0f43d8fc89db08"
+  },
+  {
+   "path": "outputs/raw/citation_chase_smoke/smoke_pre2019_20261002/chase_round_1/openalex/forward_0001/page_0001.json.gz",
+   "bytes": 86507,
+   "sha256": "ffeaa3f74a49f4b60cfc4ca56159fd24c0e7dfae3181ba4c6bd18d44ff578e71"
+  },
+  {
+   "path": "outputs/raw/citation_chase_smoke/smoke_pre2019_20261002/chase_round_1/openalex/seeds_doi_0001/page_0001.json.gz",
+   "bytes": 859,
+   "sha256": "b5ffb65c7287e70c5800039da19aee363a0bfb201995d30b4a4a0190c5cfc82c"
+  },
+  {
+   "path": "outputs/raw/citation_chase_smoke/smoke_pre2019_20261002/chase_round_1/pubmed/efetch/page_0001.xml.gz",
+   "bytes": 511602,
+   "sha256": "7ad62e9bd9d7716554e97e1ffd1e9ba1e68ae2371e4c7bcb20638a4f1da89554"
+  },
+  {
+   "path": "outputs/results_manifests/smoke_pre2019_20261002_s1b_chase_1.volume.json",
+   "bytes": 1096,
+   "sha256": "4c491f55f658a687a45bbebb2fc41a0d820bc5f4b2d660be8f1bdc187392c7fb"
+  },
+  {
+   "path": "outputs/screening_smoke/smoke_pre2019_20261002/chase_round_1/chase_counts.json",
+   "bytes": 714,
+   "sha256": "e671ceacef9afe529a5cba40c2f1c363da8ae8a83f4dd9a4aa723a09f3102ec1"
+  },
+  {
+   "path": "outputs/screening_smoke/smoke_pre2019_20261002/chase_round_1/gate_sample_batch_01.jsonl",
+   "bytes": 128799,
+   "sha256": "a887e352a136b008a0a34ee3783affa7e01a932936c96af4f020935a68014894"
+  },
+  {
+   "path": "outputs/screening_smoke/smoke_pre2019_20261002/chase_round_1/gated_out.jsonl",
+   "bytes": 128799,
+   "sha256": "a887e352a136b008a0a34ee3783affa7e01a932936c96af4f020935a68014894"
+  },
+  {
+   "path": "outputs/screening_smoke/smoke_pre2019_20261002/chase_round_1/prefilter_counts.json",
+   "bytes": 213,
+   "sha256": "432bcdf0b3e236e36d5830b354e0e562065670db50f3d5b9c3c177a09df8f1a2"
+  },
+  {
+   "path": "outputs/screening_smoke/smoke_pre2019_20261002/chase_round_1/prefilter_marks.jsonl",
+   "bytes": 8650,
+   "sha256": "b422af84cf174f47504c7386a58c05bc914d31638b8ff3c351e2f112b36d17d4"
+  },
+  {
+   "path": "outputs/screening_smoke/smoke_pre2019_20261002/chase_round_1/screening_queue.jsonl",
+   "bytes": 18137,
+   "sha256": "d5c5b489f70a5d51eef9856583892c20db3abbdc8d1446ad363c2ff81ec74e94"
+  },
+  {
+   "path": "outputs/screening_smoke/smoke_pre2019_20261002/chase_round_1/screening_records.jsonl",
+   "bytes": 193100,
+   "sha256": "58a99c71c491ed3f14e544dd6c79c1b56320175fecbbf8107870d75506dd33db"
+  },
+  {
+   "path": "outputs/screening_smoke/smoke_pre2019_20261002/chase_round_1/screening_set.jsonl",
+   "bytes": 146936,
+   "sha256": "163f1b331b33cb209b5c5157f94fa673669fcb134a1811c786c66707d2cc1f47"
+  },
+  {
+   "path": "outputs/screening_smoke/smoke_pre2019_20261002/chase_round_1/search_records.jsonl",
+   "bytes": 31610,
+   "sha256": "57015c2562e0eb052b9f76a105e041a6cdb1ad490e3b2ba29e51068006893033"
+  }
+ ],
+ "recorded_directly": [
+  "outputs/results_manifests/smoke_pre2019_20261002_s1b_chase_1.volume.json"
+ ],
+ "volume_checks": [
+  {
+   "volume_folder": "/02_claims_meta/raw/citation_chase_smoke/smoke_pre2019_20261002/chase_round_1",
+   "local_folder": "outputs/raw/citation_chase_smoke/smoke_pre2019_20261002/chase_round_1",
+   "n_compared": 5,
+   "volume_only": []
+  }
+ ]
+}

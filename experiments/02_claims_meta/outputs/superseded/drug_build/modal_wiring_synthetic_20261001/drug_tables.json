@@ -1,0 +1,101 @@
+{
+ "run_name": "synthetic_20261001",
+ "synthetic": true,
+ "written_utc": "20261001T160905Z",
+ "index_file": "/vol/02_claims_meta/prefreeze_checks/wiring/drug_index_2f20a2d5b1e8.json",
+ "index_provenance": {
+  "built_utc": "20261001T160836Z",
+  "chembl_tables": "/vol/chembl_37/tables",
+  "chembl_tables_sha256sums": "b805791159791f48a6ea5ddbb6a633f1c0a56b50be13897eafbeb51e9d1bd624  action_type.csv\n636d52fb0958f03374cb4d6d1e3d33ccc3db7fccb41e13d7ceaed87321dece07  component_sequences.csv\n0dafab0af7587c7eb1cba8b7043170643a7c7563fb239eb08a1e5fe1b992cb13  compound_records.csv\n994b1650fdc300005a7989f11c7a08cb55e63c8d1f5e1bea32d2cba7240b68c5  docs.csv\n95838754c10fe7a0f0e71dcc55f363554870782172d15fb6dc11e1457b899097  drug_indication.csv\n6ac645e99656c332e971d8e9be69000656d2dd21cce9469595634ec934278d3e  drug_mechanism.csv\nd83cbb0fd0d5dc5537638054c4a970e7555b9ae1beb866f2f9c3d0a66b3a44e8  molecule_dictionary.csv\n2cc876c6e4fd94344d51787314e7ff5c2dcf8ec63ca3c63f03a30fbb56720ccc  molecule_hierarchy.csv\nefc71b567ad6b030db3ac60d84e026a9cfe979cebe0c52e48ad327fdb351d2e8  target_components.csv\nb8acb67f76221eff0b1a69350b84dda0c41617789da1c97da5a4ed02dc021eea  target_dictionary.csv\n",
+  "open_targets": "/vol/02_claims_meta/inputs/opentargets_26.09",
+  "mechanisms": {
+   "drug_mechanism_rows": 7561,
+   "rows_single_protein": 4477,
+   "rows_not_on_a_used_human_target": 1834,
+   "rows_component_level_mapping": 1248,
+   "single_protein_rows_failing_direct_or_molecular": 2
+  },
+  "indications": {
+   "drug_indication_rows": 60055,
+   "rows_of_index_drugs": 38586,
+   "rows_of_index_drugs_without_efo_id": 83
+  },
+  "trials": {
+   "clinical_report_rows": 289954,
+   "report_drug_ids_not_in_molecule_dictionary": 0,
+   "reports_kept": 173850,
+   "reports_not_type_indication": 2744
+  },
+  "hierarchy_rows_with_empty_parent": 0,
+  "molecules_without_hierarchy_row": 28,
+  "index_parent_drugs": 4107,
+  "index_accessions": 1457
+ },
+ "n_claims": 13,
+ "levels": {
+  "primary": {
+   "pairs": 5,
+   "pairs_matched": 0,
+   "pairs_outcome_not_in_resource": 5,
+   "pairs_by_highest_status": {
+    "approved": 0,
+    "in_clinical_trials": 0,
+    "stopped_negative_or_safety": 0,
+    "stopped_other": 0,
+    "suspended": 0,
+    "completed_no_later_record": 0,
+    "no_matching_trial_or_indication_record": 0,
+    "record_outside_registered_classes": 0
+   },
+   "pairs_with_any_drug": 0,
+   "stopped_trial_events": 0,
+   "stopped_trial_events_by_label": {},
+   "pairs_with_stopped_trial_event": 0,
+   "suspended_trials": 0,
+   "suspended_trials_by_label": {},
+   "target_drugged_elsewhere": 0,
+   "related_indication_records": {},
+   "pairs_with_related_indication": 0,
+   "claims": 13,
+   "claims_on_matched_pairs": 0,
+   "claims_causal_or_target_with_stopped_trial_event": 0,
+   "claims_with_directionally_relevant_stopped_trial": 0,
+   "claims_without_verified_direction": 0,
+   "alignment_matching_indication": {},
+   "alignment_any_indication": {},
+   "ambiguous_identifier_records": 0
+  },
+  "with_component_level": {
+   "pairs": 5,
+   "pairs_matched": 0,
+   "pairs_outcome_not_in_resource": 5,
+   "pairs_by_highest_status": {
+    "approved": 0,
+    "in_clinical_trials": 0,
+    "stopped_negative_or_safety": 0,
+    "stopped_other": 0,
+    "suspended": 0,
+    "completed_no_later_record": 0,
+    "no_matching_trial_or_indication_record": 0,
+    "record_outside_registered_classes": 0
+   },
+   "pairs_with_any_drug": 0,
+   "stopped_trial_events": 0,
+   "stopped_trial_events_by_label": {},
+   "pairs_with_stopped_trial_event": 0,
+   "suspended_trials": 0,
+   "suspended_trials_by_label": {},
+   "target_drugged_elsewhere": 0,
+   "related_indication_records": {},
+   "pairs_with_related_indication": 0,
+   "claims": 13,
+   "claims_on_matched_pairs": 0,
+   "claims_causal_or_target_with_stopped_trial_event": 0,
+   "claims_with_directionally_relevant_stopped_trial": 0,
+   "claims_without_verified_direction": 0,
+   "alignment_matching_indication": {},
+   "alignment_any_indication": {},
+   "ambiguous_identifier_records": 0
+  }
+ }
+}
