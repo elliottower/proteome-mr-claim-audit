@@ -1,0 +1,25 @@
+{
+ "task": "eligibility",
+ "label": "gate1b1",
+ "revision": "2811496ef424",
+ "model_requested": "gpt-6.1-sol",
+ "models_returned": [
+  "gpt-6.1-sol"
+ ],
+ "reasoning_effort": "medium",
+ "endpoint": "https://api.openai.com/v1/responses",
+ "abstracts": "outputs/screening/chase_round_1/gate_sample_batch_01.jsonl",
+ "n_records": 600,
+ "n_ok": 600,
+ "n_extraction_failed": 0,
+ "n_needed_retry": 0,
+ "usage_new_requests_this_invocation": {
+  "requests": 600,
+  "input_tokens": 1008308,
+  "cached_input_tokens": 789600,
+  "output_tokens": 80698,
+  "reasoning_tokens": 21096
+ },
+ "started_utc": "2026-10-06T22:27:33.400+00:00",
+ "finished_utc": "2026-10-06T22:33:37.907+00:00"
+}

@@ -1,0 +1,49 @@
+{
+ "decisions": [
+  "outputs/parsed/sol_eligibility_gate1b1_2811496ef424.decisions.jsonl",
+  "outputs/parsed/sol_eligibility_gate1b2_2811496ef424.decisions.jsonl",
+  "outputs/parsed/sol_eligibility_gate1b3_2811496ef424.decisions.jsonl",
+  "outputs/parsed/sol_eligibility_gate1b4_2811496ef424.decisions.jsonl"
+ ],
+ "seed": 20261001,
+ "batch_size": 600,
+ "maximum_sampled": 3000,
+ "tolerance": 0.005,
+ "marked_records": 31612,
+ "batches_judged": 4,
+ "sampled": 2400,
+ "eligibility_call_failed": 0,
+ "judged": 2400,
+ "judged_eligible_or_uncertain": 11,
+ "positive_record_ids": [
+  "34315903",
+  "35255492",
+  "36737740",
+  "38054001",
+  "39304950",
+  "40388724",
+  "40565149",
+  "41249132",
+  "42443636",
+  "42461796",
+  "W7128502050"
+ ],
+ "share": 0.004583333333333333,
+ "upper_bound_one_sided_95": 0.007575072243146665,
+ "interval_two_sided_95_clopper_pearson": [
+  0.002290136609487987,
+  0.00818601820771209
+ ],
+ "marked_records_not_judged": 29212,
+ "estimated_eligible_records_not_judged": 133.88833333333332,
+ "estimated_eligible_records_not_judged_upper_one_sided_95": 221.28301036680037,
+ "estimated_eligible_records_not_judged_interval_two_sided_95": [
+  66.89947063636308,
+  239.12996388368558
+ ],
+ "finished": false,
+ "stopping_reason": null,
+ "cap_reached_without_satisfying_tolerance": false,
+ "next_batch": 5,
+ "no_abstract_records_of_the_round": 1121
+}

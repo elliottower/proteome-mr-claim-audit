@@ -1,0 +1,30 @@
+{
+ "round": 1,
+ "seeds_file": "outputs/parsed/sol_eligibility_search_complete_2811496ef424.decisions.eligible_records.jsonl",
+ "seeds_sha256": "867085cc47134715579854071b5cb69839ae47de4a89042be7a0707802d7f3e3",
+ "known_files": [
+  "outputs/screening/2026-10-03/screening_records.jsonl"
+ ],
+ "seeds": 2093,
+ "seeds_without_doi_or_pmid": 29,
+ "seed_works_found": 2057,
+ "published_from": "2019-01-01",
+ "backward_works_referenced": 49605,
+ "backward_works_retrieved": 25282,
+ "forward_works": 9350,
+ "works_already_in_screening_sets": 621,
+ "new_works": 32874,
+ "new_works_with_pmid": 30636,
+ "new_screening_records": 32853,
+ "new_screening_records_no_abstract": {
+  "records": 1121,
+  "empty": 948,
+  "stub_below_floor": 173,
+  "by_document_class": {
+   "journal": 763,
+   "other": 161,
+   "preprint": 197
+  },
+  "floor_characters": 200
+ }
+}

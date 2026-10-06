@@ -1,0 +1,39 @@
+{
+ "decisions": [
+  "outputs/parsed/sol_eligibility_gate1b1_2811496ef424.decisions.jsonl",
+  "outputs/parsed/sol_eligibility_gate1b2_2811496ef424.decisions.jsonl"
+ ],
+ "seed": 20261001,
+ "batch_size": 600,
+ "maximum_sampled": 3000,
+ "tolerance": 0.005,
+ "marked_records": 31612,
+ "batches_judged": 2,
+ "sampled": 1200,
+ "eligibility_call_failed": 0,
+ "judged": 1200,
+ "judged_eligible_or_uncertain": 3,
+ "positive_record_ids": [
+  "34315903",
+  "40388724",
+  "40565149"
+ ],
+ "share": 0.0025,
+ "upper_bound_one_sided_95": 0.006448592460510659,
+ "interval_two_sided_95_clopper_pearson": [
+  0.0005158571322376947,
+  0.007288522609490505
+ ],
+ "marked_records_not_judged": 30412,
+ "estimated_eligible_records_not_judged": 76.03,
+ "estimated_eligible_records_not_judged_upper_one_sided_95": 196.11459390905014,
+ "estimated_eligible_records_not_judged_interval_two_sided_95": [
+  15.688247105612772,
+  221.65854959982525
+ ],
+ "finished": false,
+ "stopping_reason": null,
+ "cap_reached_without_satisfying_tolerance": false,
+ "next_batch": 3,
+ "no_abstract_records_of_the_round": 1121
+}
