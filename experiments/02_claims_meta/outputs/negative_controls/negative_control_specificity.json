@@ -1,0 +1,147 @@
+{
+ "controls": "search/negative_controls.jsonl",
+ "controls_sha256": "6f664f53f41bd4ce383ff69695715fa40ca6d04ce9a843401c8340c56e784de7",
+ "decisions": "outputs/parsed/sol_eligibility_controls_2811496ef424.decisions.jsonl",
+ "decisions_sha256": "3fe03ab6d9fd2d110fdb7f38ed7f0442cf028b1aadee9e9e71ca1c43d5e116f7",
+ "written_utc": "2026-10-06T21:44:40+00:00",
+ "no_abstract": "outputs/negative_controls/negative_control_no_abstract.jsonl",
+ "per_stratum": {
+  "mr_review": {
+   "records": 10,
+   "no_abstract": 0,
+   "extraction_failed": 0,
+   "judged": 10,
+   "not_eligible": 10,
+   "specificity": 1.0,
+   "wilson_descriptive": [
+    0.7224672001371107,
+    0.9999999999999999
+   ],
+   "decisions": {
+    "ineligible": 10
+   },
+   "ineligibility_reasons": {
+    "excluded_review": 6,
+    "no_circulating_protein_instruments": 9,
+    "no_protein_outcome_result": 9,
+    "not_proteome_or_panel_wide": 10
+   },
+   "judged_eligible": []
+  },
+  "non_human_pqtl": {
+   "records": 10,
+   "no_abstract": 0,
+   "extraction_failed": 0,
+   "judged": 10,
+   "not_eligible": 10,
+   "specificity": 1.0,
+   "wilson_descriptive": [
+    0.7224672001371107,
+    0.9999999999999999
+   ],
+   "decisions": {
+    "ineligible": 10
+   },
+   "ineligibility_reasons": {
+    "excluded_non_human": 10,
+    "excluded_review": 2,
+    "excluded_tissue_or_csf_proteomics": 7,
+    "no_circulating_protein_instruments": 10,
+    "no_protein_outcome_result": 4,
+    "not_proteome_or_panel_wide": 3
+   },
+   "judged_eligible": []
+  },
+  "non_protein_mr": {
+   "records": 10,
+   "no_abstract": 0,
+   "extraction_failed": 0,
+   "judged": 10,
+   "not_eligible": 10,
+   "specificity": 1.0,
+   "wilson_descriptive": [
+    0.7224672001371107,
+    0.9999999999999999
+   ],
+   "decisions": {
+    "ineligible": 10
+   },
+   "ineligibility_reasons": {
+    "excluded_review": 1,
+    "no_circulating_protein_instruments": 10,
+    "no_protein_outcome_result": 9,
+    "not_proteome_or_panel_wide": 10
+   },
+   "judged_eligible": []
+  },
+  "observational_proteomics": {
+   "records": 10,
+   "no_abstract": 0,
+   "extraction_failed": 0,
+   "judged": 10,
+   "not_eligible": 10,
+   "specificity": 1.0,
+   "wilson_descriptive": [
+    0.7224672001371107,
+    0.9999999999999999
+   ],
+   "decisions": {
+    "ineligible": 10
+   },
+   "ineligibility_reasons": {
+    "no_circulating_protein_instruments": 10,
+    "not_proteome_or_panel_wide": 1
+   },
+   "judged_eligible": []
+  },
+  "pqtl_without_mr": {
+   "records": 10,
+   "no_abstract": 0,
+   "extraction_failed": 0,
+   "judged": 10,
+   "not_eligible": 10,
+   "specificity": 1.0,
+   "wilson_descriptive": [
+    0.7224672001371107,
+    0.9999999999999999
+   ],
+   "decisions": {
+    "ineligible": 10
+   },
+   "ineligibility_reasons": {
+    "excluded_non_human": 5,
+    "excluded_tissue_or_csf_proteomics": 4,
+    "fewer_than_100_proteins": 1,
+    "no_circulating_protein_instruments": 10,
+    "no_protein_outcome_result": 8,
+    "not_proteome_or_panel_wide": 5
+   },
+   "judged_eligible": []
+  }
+ },
+ "overall": {
+  "records": 50,
+  "no_abstract": 0,
+  "extraction_failed": 0,
+  "judged": 50,
+  "not_eligible": 50,
+  "specificity": 1.0,
+  "wilson_descriptive": [
+   0.9286524008666414,
+   1.0
+  ],
+  "decisions": {
+   "ineligible": 50
+  },
+  "ineligibility_reasons": {
+   "excluded_non_human": 15,
+   "excluded_review": 9,
+   "excluded_tissue_or_csf_proteomics": 11,
+   "fewer_than_100_proteins": 1,
+   "no_circulating_protein_instruments": 49,
+   "no_protein_outcome_result": 30,
+   "not_proteome_or_panel_wide": 29
+  },
+  "judged_eligible": []
+ }
+}

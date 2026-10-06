@@ -1,0 +1,26 @@
+{
+ "run_id": "controls_2811496ef424",
+ "note": "negative controls, run once: abstracts, eligibility decisions, specificity per stratum",
+ "written_utc": "2026-10-06T21:45:36+00:00",
+ "files": [
+  {
+   "path": "outputs/negative_controls/negative_control_abstracts.jsonl",
+   "bytes": 96095,
+   "sha256": "d3bf6cf2f42216a661a5f98ef360973836adf7625186ba34b24205e0919d5cab"
+  },
+  {
+   "path": "outputs/negative_controls/negative_control_no_abstract.jsonl",
+   "bytes": 0,
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+   "path": "outputs/negative_controls/negative_control_specificity.json",
+   "bytes": 3538,
+   "sha256": "c8832e8e02e0f742ef619e2c0416717be0e327899c1ba38b9ec558699e75b47d"
+  }
+ ],
+ "recorded_directly": [
+  "outputs/negative_controls/negative_control_specificity.json"
+ ],
+ "volume_checks": []
+}
