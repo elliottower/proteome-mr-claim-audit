@@ -1,0 +1,105 @@
+{
+ "v0_frozen": {
+  "27959767": {
+   "sol_records": 10,
+   "luna_records": 4,
+   "matched_records": 4,
+   "sol_only": 6,
+   "luna_only": 0,
+   "luna_contexts": [
+    "not_stated"
+   ],
+   "luna_evidence_types": {
+    "variant_association": 4
+   }
+  }
+ },
+ "v1_enumerate": {
+  "27959767": {
+   "sol_records": 10,
+   "luna_records": 10,
+   "matched_records": 10,
+   "sol_only": 0,
+   "luna_only": 0,
+   "luna_contexts": [
+    "The increased risk of diabetes was limited to persons with impaired fasting glucose levels",
+    "When present together",
+    "not_stated"
+   ],
+   "luna_evidence_types": {
+    "mr_estimate": 10
+   }
+  }
+ },
+ "v2_no_merge": {
+  "27959767": {
+   "sol_records": 10,
+   "luna_records": 10,
+   "matched_records": 10,
+   "sol_only": 0,
+   "luna_only": 0,
+   "luna_contexts": [
+    "When present together",
+    "for each 10 mg per deciliter decrease in LDL cholesterol",
+    "not_stated",
+    "per decrease of 10 mg per deciliter (0.26 mmol per liter) in the LDL cholesterol level"
+   ],
+   "luna_evidence_types": {
+    "variant_association": 10
+   }
+  }
+ },
+ "v3_example": {
+  "27959767": {
+   "sol_records": 10,
+   "luna_records": 10,
+   "matched_records": 10,
+   "sol_only": 0,
+   "luna_only": 0,
+   "luna_contexts": [
+    "The increased risk of diabetes was limited to persons with impaired fasting glucose levels for both scores",
+    "When present together",
+    "for each 10 mg per deciliter decrease in LDL cholesterol",
+    "per decrease of 10 mg per deciliter (0.26 mmol per liter) in the LDL cholesterol level"
+   ],
+   "luna_evidence_types": {
+    "variant_association": 10
+   }
+  }
+ },
+ "v4_no_merge_high": {
+  "27959767": {
+   "sol_records": 10,
+   "luna_records": 10,
+   "matched_records": 10,
+   "sol_only": 0,
+   "luna_only": 0,
+   "luna_contexts": [
+    "When present together",
+    "for each 10 mg per deciliter decrease in LDL cholesterol",
+    "limited to persons with impaired fasting glucose levels",
+    "per decrease of 10 mg per deciliter (0.26 mmol per liter) in the LDL cholesterol level"
+   ],
+   "luna_evidence_types": {
+    "variant_association": 10
+   }
+  }
+ },
+ "v5_sentence_check": {
+  "27959767": {
+   "sol_records": 10,
+   "luna_records": 10,
+   "matched_records": 10,
+   "sol_only": 0,
+   "luna_only": 0,
+   "luna_contexts": [
+    "When present together",
+    "for both scores",
+    "not_stated"
+   ],
+   "luna_evidence_types": {
+    "mr_estimate": 10
+   }
+  }
+ }
+}

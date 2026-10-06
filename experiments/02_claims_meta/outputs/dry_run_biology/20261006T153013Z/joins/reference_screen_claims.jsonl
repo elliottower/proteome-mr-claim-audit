@@ -1,0 +1,13 @@
+{"claim_record_id":"A:000","protein_id":"Q00001","outcome_id":"MONDO:cad","direction_compared":"raises","reference_class":"present_same"}
+{"claim_record_id":"A:001","protein_id":"Q00001","outcome_id":"MONDO:lungca","direction_compared":"raises","reference_class":"mapping_failed"}
+{"claim_record_id":"A:002","protein_id":"Q00001","outcome_id":"MONDO:asthma","direction_compared":"raises","reference_class":"no_returned_record"}
+{"claim_record_id":"A:003","protein_id":"Q00002","outcome_id":"MONDO:cad","direction_compared":"raises","reference_class":"no_returned_record"}
+{"claim_record_id":"A:004","protein_id":"Q00003","outcome_id":"EFO:crp","direction_compared":"raises","reference_class":"mapping_failed"}
+{"claim_record_id":"B:000","protein_id":"Q00001","outcome_id":"MONDO:cad","direction_compared":"lowers","reference_class":"present_opposite"}
+{"claim_record_id":"B:001","protein_id":"Q00002","outcome_id":"MONDO:heart","direction_compared":"raises","reference_class":"mapping_failed"}
+{"claim_record_id":"B:002","protein_id":"Q00004","outcome_id":"EFO:bmi","direction_compared":"raises","reference_class":"mapping_failed"}
+{"claim_record_id":"B:003","protein_id":"Q00001","outcome_id":"MONDO:cad","direction_compared":null,"reference_class":"present_nondirectional_or_ambiguous"}
+{"claim_record_id":"C:000","protein_id":"Q00001","outcome_id":"MONDO:cad","direction_compared":"raises","reference_class":"present_same"}
+{"claim_record_id":"C:001","protein_id":"Q00005","outcome_id":"MONDO:asthma","direction_compared":null,"reference_class":"mapping_failed"}
+{"claim_record_id":"C:002","protein_id":"Q00005","outcome_id":"MONDO:asthma","direction_compared":"raises","reference_class":"mapping_failed"}
+{"claim_record_id":"D:000","protein_id":"Q00002","outcome_id":"MONDO:cad","direction_compared":"raises","reference_class":"no_returned_record"}

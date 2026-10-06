@@ -1,0 +1,96 @@
+{
+ "folders": [
+  "/tmp/dry_run_model_comparison/raw_sol"
+ ],
+ "written_utc": "2026-10-06T15:32:30+00:00",
+ "model": "gpt-6.1-sol",
+ "prices_usd_per_million": {
+  "input": 2.0,
+  "cached_input": 0.1,
+  "cache_write": 2.5,
+  "output": 10.0
+ },
+ "requests": 2,
+ "abstracts": 2,
+ "tokens": {
+  "input_tokens": 2000,
+  "cached_input_tokens": 1200,
+  "cache_write_tokens": 600,
+  "output_tokens": 400,
+  "reasoning_tokens": 0
+ },
+ "uncached_input_tokens": 200,
+ "usd_parts": {
+  "input": 0.0004,
+  "cached_input": 0.00012,
+  "cache_write": 0.0015,
+  "output": 0.004
+ },
+ "usd": 0.00602,
+ "usd_per_abstract": 0.00301
+}
+{
+ "folders": [
+  "/tmp/dry_run_model_comparison/raw_luna/run1"
+ ],
+ "written_utc": "2026-10-06T15:32:30+00:00",
+ "model": "gpt-6-luna",
+ "prices_usd_per_million": {
+  "input": 0.1,
+  "cached_input": 0.01,
+  "cache_write": 0.125,
+  "output": 0.5
+ },
+ "requests": 3,
+ "abstracts": 2,
+ "tokens": {
+  "input_tokens": 3000,
+  "cached_input_tokens": 1800,
+  "cache_write_tokens": 900,
+  "output_tokens": 1000,
+  "reasoning_tokens": 0
+ },
+ "uncached_input_tokens": 300,
+ "usd_parts": {
+  "input": 3e-05,
+  "cached_input": 1.8e-05,
+  "cache_write": 0.0001125,
+  "output": 0.0005
+ },
+ "usd": 0.0006605000000000001,
+ "usd_per_abstract": 0.00033025000000000003
+}
+{
+ "out": "/tmp/dry_run_model_comparison",
+ "family_pair_records": {
+  "sol": 8,
+  "luna_run1": 7,
+  "luna_run2": 7,
+  "luna_union": 8
+ },
+ "shares": {
+  "sol_vs_luna_run1": {
+   "a_in_b": 0.75,
+   "b_in_a": 0.8571428571428571
+  },
+  "sol_vs_luna_union": {
+   "a_in_b": 0.875,
+   "b_in_a": 0.875
+  },
+  "luna_run1_vs_luna_run2": {
+   "a_in_b": 0.8571428571428571,
+   "b_in_a": 0.8571428571428571
+  }
+ }
+}
+{
+ "out": "/tmp/dry_run_model_comparison",
+ "synthetic": true,
+ "family_pair_records": {
+  "sol": 8,
+  "luna_run1": 7,
+  "luna_run2": 7,
+  "luna_union": 8
+ },
+ "checked": "every quantity equals its hand-worked value"
+}

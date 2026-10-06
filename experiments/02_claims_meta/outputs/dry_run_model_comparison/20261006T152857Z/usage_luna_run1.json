@@ -1,0 +1,31 @@
+{
+ "folders": [
+  "/tmp/dry_run_model_comparison/raw_luna/run1"
+ ],
+ "written_utc": "2026-10-06T15:28:59+00:00",
+ "model": "gpt-6-luna",
+ "prices_usd_per_million": {
+  "input": 0.1,
+  "cached_input": 0.01,
+  "cache_write": 0.125,
+  "output": 0.5
+ },
+ "requests": 3,
+ "abstracts": 2,
+ "tokens": {
+  "input_tokens": 3000,
+  "cached_input_tokens": 1800,
+  "cache_write_tokens": 900,
+  "output_tokens": 1000,
+  "reasoning_tokens": 0
+ },
+ "uncached_input_tokens": 300,
+ "usd_parts": {
+  "input": 3e-05,
+  "cached_input": 1.8e-05,
+  "cache_write": 0.0001125,
+  "output": 0.0005
+ },
+ "usd": 0.0006605000000000001,
+ "usd_per_abstract": 0.00033025000000000003
+}

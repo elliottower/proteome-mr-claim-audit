@@ -1,0 +1,406 @@
+{
+ "v0_frozen": {
+  "22421339": {
+   "sol_records": 12,
+   "luna_records": 1,
+   "matched_records": 1,
+   "sol_only": 11,
+   "luna_only": 0,
+   "luna_contexts": [
+    "not_stated"
+   ],
+   "luna_evidence_types": {
+    "other": 1
+   }
+  },
+  "21325005": {
+   "sol_records": 6,
+   "luna_records": 3,
+   "matched_records": 3,
+   "sol_only": 3,
+   "luna_only": 0,
+   "luna_contexts": [
+    "In a combined analysis",
+    "in prospective studies",
+    "per additional copy of an allele associated with raised C reactive protein"
+   ],
+   "luna_evidence_types": {
+    "variant_association": 1,
+    "mr_estimate": 1,
+    "observational": 1
+   }
+  },
+  "19509380": {
+   "sol_records": 6,
+   "luna_records": 3,
+   "matched_records": 3,
+   "sol_only": 3,
+   "luna_only": 0,
+   "luna_contexts": [
+    "In the CCHS",
+    "on Cox regression",
+    "on instrumental variable analysis"
+   ],
+   "luna_evidence_types": {
+    "observational": 2,
+    "mr_estimate": 1
+   }
+  },
+  "25938632": {
+   "sol_records": 11,
+   "luna_records": 9,
+   "matched_records": 9,
+   "sol_only": 2,
+   "luna_only": 0,
+   "luna_contexts": [
+    "Observationally",
+    "associated observationally",
+    "based on LPA KIV-2 genotype",
+    "based on LPA SNPs",
+    "causally, respectively",
+    "observationally",
+    "the kringle IV type 2 (KIV-2) genotype",
+    "two LPA single nucleotide polymorphisms (SNPs)"
+   ],
+   "luna_evidence_types": {
+    "observational": 3,
+    "mr_estimate": 6
+   }
+  },
+  "27882376": {
+   "sol_records": 9,
+   "luna_records": 5,
+   "matched_records": 5,
+   "sol_only": 4,
+   "luna_only": 0,
+   "luna_contexts": [
+    "Separate sample instrumental variable analysis with genetic instruments (Mendelian randomisation)",
+    "for the SNP rs867186 functionally relevant to protein C",
+    "including additional potentially pleiotropic SNPs (rs1260326 (GCKR), rs17145713 (BAZ1B) and rs4321325 (CYP27C1))"
+   ],
+   "luna_evidence_types": {
+    "mr_estimate": 5
+   }
+  },
+  "24246360": {
+   "sol_records": 12,
+   "luna_records": 4,
+   "matched_records": 4,
+   "sol_only": 8,
+   "luna_only": 0,
+   "luna_contexts": [
+    "genetically elevated CRP, the causal OR",
+    "observed",
+    "observed odds ratio (OR)"
+   ],
+   "luna_evidence_types": {
+    "observational": 2,
+    "mr_estimate": 2
+   }
+  }
+ },
+ "v1_enumerate": {
+  "22421339": {
+   "sol_records": 12,
+   "luna_records": 1,
+   "matched_records": 1,
+   "sol_only": 11,
+   "luna_only": 0,
+   "luna_contexts": [
+    "not_stated"
+   ],
+   "luna_evidence_types": {
+    "variant_association": 1
+   }
+  },
+  "21325005": {
+   "sol_records": 6,
+   "luna_records": 6,
+   "matched_records": 6,
+   "sol_only": 0,
+   "luna_only": 0,
+   "luna_contexts": [
+    "In a combined analysis",
+    "for rs1130864",
+    "for rs1205",
+    "for rs1800947",
+    "for rs3093077",
+    "in prospective studies"
+   ],
+   "luna_evidence_types": {
+    "variant_association": 4,
+    "mr_estimate": 1,
+    "observational": 1
+   }
+  },
+  "19509380": {
+   "sol_records": 6,
+   "luna_records": 3,
+   "matched_records": 3,
+   "sol_only": 3,
+   "luna_only": 0,
+   "luna_contexts": [
+    "In the CCHS",
+    "on Cox regression",
+    "on instrumental variable analysis"
+   ],
+   "luna_evidence_types": {
+    "observational": 2,
+    "mr_estimate": 1
+   }
+  },
+  "25938632": {
+   "sol_records": 11,
+   "luna_records": 9,
+   "matched_records": 9,
+   "sol_only": 2,
+   "luna_only": 0,
+   "luna_contexts": [
+    "Observationally",
+    "based on LPA KIV-2 genotype",
+    "based on LPA SNPs",
+    "observationally",
+    "the kringle IV type 2 (KIV-2) genotype",
+    "two LPA single nucleotide polymorphisms (SNPs)"
+   ],
+   "luna_evidence_types": {
+    "observational": 3,
+    "mr_estimate": 6
+   }
+  },
+  "27882376": {
+   "sol_records": 9,
+   "luna_records": 5,
+   "matched_records": 5,
+   "sol_only": 4,
+   "luna_only": 0,
+   "luna_contexts": [
+    "for the SNP rs867186 functionally relevant to protein C",
+    "including additional potentially pleiotropic SNPs (rs1260326 (GCKR), rs17145713 (BAZ1B) and rs4321325 (CYP27C1))",
+    "not_stated"
+   ],
+   "luna_evidence_types": {
+    "mr_estimate": 5
+   }
+  },
+  "24246360": {
+   "sol_records": 12,
+   "luna_records": 4,
+   "matched_records": 2,
+   "sol_only": 10,
+   "luna_only": 2,
+   "luna_contexts": [
+    "instrumental variable analyses",
+    "prospective"
+   ],
+   "luna_evidence_types": {
+    "observational": 2,
+    "mr_estimate": 2
+   }
+  }
+ },
+ "v2_no_merge": {
+  "22421339": {
+   "sol_records": 12,
+   "luna_records": 7,
+   "matched_records": 2,
+   "sol_only": 10,
+   "luna_only": 5,
+   "luna_contexts": [
+    "not_stated"
+   ],
+   "luna_evidence_types": {
+    "variant_association": 7
+   }
+  },
+  "21325005": {
+   "sol_records": 6,
+   "luna_records": 6,
+   "matched_records": 6,
+   "sol_only": 0,
+   "luna_only": 0,
+   "luna_contexts": [
+    "In a combined analysis",
+    "for rs1130864",
+    "for rs1205",
+    "for rs1800947",
+    "for rs3093077",
+    "in prospective studies"
+   ],
+   "luna_evidence_types": {
+    "variant_association": 4,
+    "mr_estimate": 1,
+    "observational": 1
+   }
+  },
+  "19509380": {
+   "sol_records": 6,
+   "luna_records": 3,
+   "matched_records": 3,
+   "sol_only": 3,
+   "luna_only": 0,
+   "luna_contexts": [
+    "In the CCHS",
+    "on Cox regression",
+    "on instrumental variable analysis"
+   ],
+   "luna_evidence_types": {
+    "observational": 2,
+    "mr_estimate": 1
+   }
+  },
+  "25938632": {
+   "sol_records": 11,
+   "luna_records": 9,
+   "matched_records": 9,
+   "sol_only": 2,
+   "luna_only": 0,
+   "luna_contexts": [
+    "Observationally",
+    "associated observationally",
+    "based on LPA KIV-2 genotype",
+    "based on LPA SNPs",
+    "observationally",
+    "the kringle IV type 2 (KIV-2) genotype",
+    "two LPA single nucleotide polymorphisms (SNPs)"
+   ],
+   "luna_evidence_types": {
+    "observational": 3,
+    "mr_estimate": 6
+   }
+  },
+  "27882376": {
+   "sol_records": 9,
+   "luna_records": 5,
+   "matched_records": 5,
+   "sol_only": 4,
+   "luna_only": 0,
+   "luna_contexts": [
+    "for the SNP rs867186 functionally relevant to protein C",
+    "including additional potentially pleiotropic SNPs (rs1260326 (GCKR), rs17145713 (BAZ1B) and rs4321325 (CYP27C1))",
+    "not_stated"
+   ],
+   "luna_evidence_types": {
+    "mr_estimate": 5
+   }
+  },
+  "24246360": {
+   "sol_records": 12,
+   "luna_records": 4,
+   "matched_records": 4,
+   "sol_only": 8,
+   "luna_only": 0,
+   "luna_contexts": [
+    "causal",
+    "for genetically elevated CRP",
+    "observed",
+    "observed odds ratio"
+   ],
+   "luna_evidence_types": {
+    "observational": 2,
+    "mr_estimate": 2
+   }
+  }
+ },
+ "v5_sentence_check": {
+  "22421339": {
+   "sol_records": 12,
+   "luna_records": 1,
+   "matched_records": 1,
+   "sol_only": 11,
+   "luna_only": 0,
+   "luna_contexts": [
+    "Asp358Ala"
+   ],
+   "luna_evidence_types": {
+    "variant_association": 1
+   }
+  },
+  "21325005": {
+   "sol_records": 6,
+   "luna_records": 3,
+   "matched_records": 3,
+   "sol_only": 3,
+   "luna_only": 0,
+   "luna_contexts": [
+    "In a combined analysis",
+    "in prospective studies",
+    "per additional copy of an allele associated with raised C reactive protein"
+   ],
+   "luna_evidence_types": {
+    "variant_association": 1,
+    "mr_estimate": 1,
+    "observational": 1
+   }
+  },
+  "19509380": {
+   "sol_records": 6,
+   "luna_records": 7,
+   "matched_records": 6,
+   "sol_only": 0,
+   "luna_only": 1,
+   "luna_contexts": [
+    "In the CCHS, multivariable-adjusted HRs for MI",
+    "In the CCHS, multivariable-adjusted hazard ratios (HRs) for MI for elevated lipoprotein(a) levels",
+    "for levels greater than the 95th percentile",
+    "for the 67th to 89th percentile",
+    "for the 90th to 95th percentile",
+    "on Cox regression",
+    "on instrumental variable analysis"
+   ],
+   "luna_evidence_types": {
+    "observational": 5,
+    "variant_association": 1,
+    "mr_estimate": 1
+   }
+  },
+  "25938632": {
+   "sol_records": 11,
+   "luna_records": 8,
+   "matched_records": 8,
+   "sol_only": 3,
+   "luna_only": 0,
+   "luna_contexts": [
+    "Observationally",
+    "based on LPA KIV-2 genotype",
+    "based on LPA SNPs",
+    "observationally",
+    "two LPA single nucleotide polymorphisms (SNPs) and the kringle IV type 2 (KIV-2) genotype"
+   ],
+   "luna_evidence_types": {
+    "observational": 3,
+    "mr_estimate": 5
+   }
+  },
+  "27882376": {
+   "sol_records": 9,
+   "luna_records": 4,
+   "matched_records": 4,
+   "sol_only": 5,
+   "luna_only": 0,
+   "luna_contexts": [
+    "Separate sample instrumental variable analysis with genetic instruments (Mendelian randomisation)",
+    "for the SNP rs867186 functionally relevant to protein C, and including additional potentially pleiotropic SNPs (rs1260326 (GCKR), rs17145713 (BAZ1B) and rs4321325 (CYP27C1))"
+   ],
+   "luna_evidence_types": {
+    "mr_estimate": 4
+   }
+  },
+  "24246360": {
+   "sol_records": 12,
+   "luna_records": 4,
+   "matched_records": 4,
+   "sol_only": 8,
+   "luna_only": 0,
+   "luna_contexts": [
+    "A doubling in plasma CRP",
+    "For prescription antidepressant medication use, corresponding ORs",
+    "for genetically elevated CRP"
+   ],
+   "luna_evidence_types": {
+    "observational": 2,
+    "mr_estimate": 2
+   }
+  }
+ }
+}

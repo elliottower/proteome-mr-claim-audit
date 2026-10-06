@@ -1,0 +1,19 @@
+.............F....................                                       [100%]
+=================================== FAILURES ===================================
+___________ test_share_interval_is_the_pair_bootstrap_of_its_stream ____________
+
+    def test_share_interval_is_the_pair_bootstrap_of_its_stream():
+        units = [(("P1", "O1"), True), (("P1", "O1"), False), (("P2", "O2"), True),
+                 (("P3", "O3"), False), (("P3", "O3"), False), (("P3", "O3"), True)]
+        block = mc.measure(units, 123, 2000, SEED)
+        assert counts(block) == (3, 6)
+        assert block["canonical_pairs"] == 3
+        assert block["pair_bootstrap"] == boot_ratio([1.0, 1.0, 1.0], [2.0, 1.0, 3.0], 2000, SEED,
+                                                     123)
+>       assert block["pair_bootstrap"] != boot_ratio([1.0, 1.0, 1.0], [2.0, 1.0, 3.0], 2000, SEED,
+                                                     124)
+E       AssertionError: assert {'interval': [0.3333333333333333, 1.0], 'undefined_replicates': 0} != {'interval': [0.3333333333333333, 1.0], 'undefined_replicates': 0}
+E        +  where {'interval': [0.3333333333333333, 1.0], 'undefined_replicates': 0} = boot_ratio([1.0, 1.0, 1.0], [2.0, 1.0, 3.0], 2000, 20261001, 124)
+
+test_model_comparison.py:181: AssertionError
+1 failed, 33 passed in 1.06s

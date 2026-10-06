@@ -1,0 +1,187 @@
+{
+ "written_utc": "2026-10-06T15:29:42+00:00",
+ "tests": [
+  "test_model_comparison.py",
+  "test_run_extraction_luna.py"
+ ],
+ "unmutated_tests_pass": true,
+ "mutations": 35,
+ "killed": 35,
+ "results": [
+  {
+   "mutation": "null flag never set",
+   "file": "model_comparison.py",
+   "killed": true
+  },
+  {
+   "mutation": "A-in-B counts every record of A",
+   "file": "model_comparison.py",
+   "killed": true
+  },
+  {
+   "mutation": "B-in-A counts every record of B",
+   "file": "model_comparison.py",
+   "killed": true
+  },
+  {
+   "mutation": "direction class read as direction",
+   "file": "model_comparison.py",
+   "killed": true
+  },
+  {
+   "mutation": "same direction requires the same class",
+   "file": "model_comparison.py",
+   "killed": true
+  },
+  {
+   "mutation": "directional in either source",
+   "file": "model_comparison.py",
+   "killed": true
+  },
+  {
+   "mutation": "opposite direction counts agreements",
+   "file": "model_comparison.py",
+   "killed": true
+  },
+  {
+   "mutation": "null flag agreement inverted",
+   "file": "model_comparison.py",
+   "killed": true
+  },
+  {
+   "mutation": "union pools the two runs",
+   "file": "model_comparison.py",
+   "killed": true
+  },
+  {
+   "mutation": "restriction keeps the unsampled abstracts",
+   "file": "model_comparison.py",
+   "killed": true
+  },
+  {
+   "mutation": "second Sol run outside the sample accepted",
+   "file": "model_comparison.py",
+   "killed": true
+  },
+  {
+   "mutation": "second Sol run without a sample accepted",
+   "file": "model_comparison.py",
+   "killed": true
+  },
+  {
+   "mutation": "repeat-sample comparisons on every abstract",
+   "file": "model_comparison.py",
+   "killed": true
+  },
+  {
+   "mutation": "Sol table never checked against the primary",
+   "file": "model_comparison.py",
+   "killed": true
+  },
+  {
+   "mutation": "failed HTTP tries priced",
+   "file": "model_comparison.py",
+   "killed": true
+  },
+  {
+   "mutation": "an abstract counted once per attempt",
+   "file": "model_comparison.py",
+   "killed": true
+  },
+  {
+   "mutation": "cache writes priced twice",
+   "file": "model_comparison.py",
+   "killed": true
+  },
+  {
+   "mutation": "cache writes at the input price",
+   "file": "model_comparison.py",
+   "killed": true
+  },
+  {
+   "mutation": "every unit counted as a hit",
+   "file": "model_comparison.py",
+   "killed": true
+  },
+  {
+   "mutation": "one stream for every share",
+   "file": "model_comparison.py",
+   "killed": true
+  },
+  {
+   "mutation": "streams of two comparisons overlap",
+   "file": "model_comparison.py",
+   "killed": true
+  },
+  {
+   "mutation": "Luna output price",
+   "file": "model_comparison.py",
+   "killed": true
+  },
+  {
+   "mutation": "union tables from the pooled runs",
+   "file": "model_comparison.py",
+   "killed": true
+  },
+  {
+   "mutation": "outputs overwritten",
+   "file": "model_comparison.py",
+   "killed": true
+  },
+  {
+   "mutation": "frozen prompt anywhere in the Luna prompt",
+   "file": "run_extraction_luna.py",
+   "killed": true
+  },
+  {
+   "mutation": "no addendum required",
+   "file": "run_extraction_luna.py",
+   "killed": true
+  },
+  {
+   "mutation": "digests read above the log",
+   "file": "run_extraction_luna.py",
+   "killed": true
+  },
+  {
+   "mutation": "gate never refuses",
+   "file": "run_extraction_luna.py",
+   "killed": true
+  },
+  {
+   "mutation": "records missing from the Luna run accepted",
+   "file": "run_extraction_luna.py",
+   "killed": true
+  },
+  {
+   "mutation": "request sent to Sol",
+   "file": "run_extraction_luna.py",
+   "killed": true
+  },
+  {
+   "mutation": "the two runs share a raw folder",
+   "file": "run_extraction_luna.py",
+   "killed": true
+  },
+  {
+   "mutation": "no second attempt after a schema failure",
+   "file": "run_extraction_luna.py",
+   "killed": true
+  },
+  {
+   "mutation": "cache writes not recorded",
+   "file": "run_extraction_luna.py",
+   "killed": true
+  },
+  {
+   "mutation": "revision id of the Sol model",
+   "file": "run_extraction_luna.py",
+   "killed": true
+  },
+  {
+   "mutation": "the two runs share a parsed file",
+   "file": "run_extraction_luna.py",
+   "killed": true
+  }
+ ]
+}

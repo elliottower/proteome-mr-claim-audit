@@ -1,0 +1,1440 @@
+{
+ "amendment": "AMENDMENT_01_model_comparison.md",
+ "written_utc": "2026-10-06T15:32:31+00:00",
+ "inputs": {
+  "sol": {
+   "path": "/tmp/dry_run_model_comparison/sol_registry_claims.jsonl",
+   "sha256": "6dd5e12b71d72c8e851cc24133c792cbf1357fe507cdceddabc4ca9b7acd26cf",
+   "claim_records": 9
+  },
+  "luna_run1": {
+   "path": "/tmp/dry_run_model_comparison/luna_run1_registry_claims.jsonl",
+   "sha256": "ef6d9fe75b597e7b45083503230ac471f63c0576ddec0b40c3ee5692b46397ef",
+   "claim_records": 7
+  },
+  "luna_run2": {
+   "path": "/tmp/dry_run_model_comparison/luna_run2_registry_claims.jsonl",
+   "sha256": "ba126a90c48086c219d3cfc1f0d3d63e7b6df0e14e5ee7c9bd5297320783accd",
+   "claim_records": 8
+  },
+  "sol_repeat": {
+   "path": "/tmp/dry_run_model_comparison/sol_repeat_registry_claims.jsonl",
+   "sha256": "d950aefd67b7d4ea1b1ffade79ca0a1c50f5085a1337e84d2bc8e3e730f7fa78",
+   "claim_records": 4
+  }
+ },
+ "sol_table_checked_against_registered_primary": true,
+ "unit": "family–pair record: study family × UniProt accession × canonical outcome identifier",
+ "union_rule": "run 1, completed by run 2's claim records on the family–pair records run 1 lacks",
+ "replicates": 10000,
+ "seed": 20261001,
+ "family_pair_records": {
+  "sol": 8,
+  "luna_run1": 7,
+  "luna_run2": 7,
+  "luna_union": 8
+ },
+ "comparisons": {
+  "sol_vs_luna_run1": {
+   "a_records": 8,
+   "b_records": 7,
+   "shared_records": 6,
+   "a_in_b": {
+    "count": 6,
+    "of": 8,
+    "share": 0.75,
+    "wilson": [
+     0.40927543031016883,
+     0.9285207872478909
+    ],
+    "pair_bootstrap": {
+     "interval": [
+      0.42857142857142855,
+      1.0
+     ],
+     "undefined_replicates": 0
+    },
+    "canonical_pairs": 5,
+    "stream": 100,
+    "imprecise_under_20": true
+   },
+   "b_in_a": {
+    "count": 6,
+    "of": 7,
+    "share": 0.8571428571428571,
+    "wilson": [
+     0.4868721707256811,
+     0.9743203756552565
+    ],
+    "pair_bootstrap": {
+     "interval": [
+      0.5,
+      1.0
+     ],
+     "undefined_replicates": 0
+    },
+    "canonical_pairs": 5,
+    "stream": 101,
+    "imprecise_under_20": true
+   },
+   "among_shared": {
+    "direction_class_equal": {
+     "count": 4,
+     "of": 6,
+     "share": 0.6666666666666666,
+     "wilson": [
+      0.299993315138392,
+      0.9032285888942195
+     ],
+     "pair_bootstrap": {
+      "interval": [
+       0.5,
+       1.0
+      ],
+      "undefined_replicates": 0
+     },
+     "canonical_pairs": 4,
+     "stream": 102,
+     "imprecise_under_20": true
+    },
+    "direction_classes_a_then_b": {
+     "lowers|raises": 1,
+     "raises_with_nonsignificant|raises": 1,
+     "raises|raises": 4
+    },
+    "both_directional": 6,
+    "same_direction": {
+     "count": 5,
+     "of": 6,
+     "share": 0.8333333333333334,
+     "wilson": [
+      0.43649717781352987,
+      0.9699466302516935
+     ],
+     "pair_bootstrap": {
+      "interval": [
+       0.5714285714285714,
+       1.0
+      ],
+      "undefined_replicates": 0
+     },
+     "canonical_pairs": 4,
+     "stream": 103,
+     "imprecise_under_20": true
+    },
+    "opposite_direction": 1,
+    "null_flag_equal": {
+     "count": 5,
+     "of": 6,
+     "share": 0.8333333333333334,
+     "wilson": [
+      0.43649717781352987,
+      0.9699466302516935
+     ],
+     "pair_bootstrap": {
+      "interval": [
+       0.5714285714285714,
+       1.0
+      ],
+      "undefined_replicates": 0
+     },
+     "canonical_pairs": 4,
+     "stream": 104,
+     "imprecise_under_20": true
+    },
+    "release_identity": {
+     "pqtl": {
+      "identical": 5,
+      "undetermined": 1
+     },
+     "outcome": {
+      "identical": 6
+     }
+    }
+   }
+  },
+  "sol_vs_luna_union": {
+   "a_records": 8,
+   "b_records": 8,
+   "shared_records": 7,
+   "a_in_b": {
+    "count": 7,
+    "of": 8,
+    "share": 0.875,
+    "wilson": [
+     0.5291118177871464,
+     0.9775825085499433
+    ],
+    "pair_bootstrap": {
+     "interval": [
+      0.5,
+      1.0
+     ],
+     "undefined_replicates": 0
+    },
+    "canonical_pairs": 5,
+    "stream": 110,
+    "imprecise_under_20": true
+   },
+   "b_in_a": {
+    "count": 7,
+    "of": 8,
+    "share": 0.875,
+    "wilson": [
+     0.5291118177871464,
+     0.9775825085499433
+    ],
+    "pair_bootstrap": {
+     "interval": [
+      0.5,
+      1.0
+     ],
+     "undefined_replicates": 0
+    },
+    "canonical_pairs": 5,
+    "stream": 111,
+    "imprecise_under_20": true
+   },
+   "among_shared": {
+    "direction_class_equal": {
+     "count": 5,
+     "of": 7,
+     "share": 0.7142857142857143,
+     "wilson": [
+      0.35893445183261935,
+      0.9177810759959433
+     ],
+     "pair_bootstrap": {
+      "interval": [
+       0.5,
+       1.0
+      ],
+      "undefined_replicates": 0
+     },
+     "canonical_pairs": 4,
+     "stream": 112,
+     "imprecise_under_20": true
+    },
+    "direction_classes_a_then_b": {
+     "lowers|raises": 1,
+     "raises_with_nonsignificant|raises": 1,
+     "raises|raises": 5
+    },
+    "both_directional": 7,
+    "same_direction": {
+     "count": 6,
+     "of": 7,
+     "share": 0.8571428571428571,
+     "wilson": [
+      0.4868721707256811,
+      0.9743203756552565
+     ],
+     "pair_bootstrap": {
+      "interval": [
+       0.625,
+       1.0
+      ],
+      "undefined_replicates": 0
+     },
+     "canonical_pairs": 4,
+     "stream": 113,
+     "imprecise_under_20": true
+    },
+    "opposite_direction": 1,
+    "null_flag_equal": {
+     "count": 6,
+     "of": 7,
+     "share": 0.8571428571428571,
+     "wilson": [
+      0.4868721707256811,
+      0.9743203756552565
+     ],
+     "pair_bootstrap": {
+      "interval": [
+       0.625,
+       1.0
+      ],
+      "undefined_replicates": 0
+     },
+     "canonical_pairs": 4,
+     "stream": 114,
+     "imprecise_under_20": true
+    },
+    "release_identity": {
+     "pqtl": {
+      "identical": 6,
+      "undetermined": 1
+     },
+     "outcome": {
+      "identical": 7
+     }
+    }
+   }
+  },
+  "luna_run1_vs_luna_run2": {
+   "a_records": 7,
+   "b_records": 7,
+   "shared_records": 6,
+   "a_in_b": {
+    "count": 6,
+    "of": 7,
+    "share": 0.8571428571428571,
+    "wilson": [
+     0.4868721707256811,
+     0.9743203756552565
+    ],
+    "pair_bootstrap": {
+     "interval": [
+      0.5,
+      1.0
+     ],
+     "undefined_replicates": 0
+    },
+    "canonical_pairs": 5,
+    "stream": 120,
+    "imprecise_under_20": true
+   },
+   "b_in_a": {
+    "count": 6,
+    "of": 7,
+    "share": 0.8571428571428571,
+    "wilson": [
+     0.4868721707256811,
+     0.9743203756552565
+    ],
+    "pair_bootstrap": {
+     "interval": [
+      0.625,
+      1.0
+     ],
+     "undefined_replicates": 0
+    },
+    "canonical_pairs": 4,
+    "stream": 121,
+    "imprecise_under_20": true
+   },
+   "among_shared": {
+    "direction_class_equal": {
+     "count": 4,
+     "of": 6,
+     "share": 0.6666666666666666,
+     "wilson": [
+      0.299993315138392,
+      0.9032285888942195
+     ],
+     "pair_bootstrap": {
+      "interval": [
+       0.5,
+       1.0
+      ],
+      "undefined_replicates": 0
+     },
+     "canonical_pairs": 4,
+     "stream": 122,
+     "imprecise_under_20": true
+    },
+    "direction_classes_a_then_b": {
+     "raises|lowers": 1,
+     "raises|raises": 4,
+     "raises|raises_with_nonsignificant": 1
+    },
+    "both_directional": 6,
+    "same_direction": {
+     "count": 5,
+     "of": 6,
+     "share": 0.8333333333333334,
+     "wilson": [
+      0.43649717781352987,
+      0.9699466302516935
+     ],
+     "pair_bootstrap": {
+      "interval": [
+       0.5714285714285714,
+       1.0
+      ],
+      "undefined_replicates": 0
+     },
+     "canonical_pairs": 4,
+     "stream": 123,
+     "imprecise_under_20": true
+    },
+    "opposite_direction": 1,
+    "null_flag_equal": {
+     "count": 5,
+     "of": 6,
+     "share": 0.8333333333333334,
+     "wilson": [
+      0.43649717781352987,
+      0.9699466302516935
+     ],
+     "pair_bootstrap": {
+      "interval": [
+       0.5714285714285714,
+       1.0
+      ],
+      "undefined_replicates": 0
+     },
+     "canonical_pairs": 4,
+     "stream": 124,
+     "imprecise_under_20": true
+    },
+    "release_identity": {
+     "pqtl": {
+      "identical": 5,
+      "undetermined": 1
+     },
+     "outcome": {
+      "identical": 6
+     }
+    }
+   }
+  }
+ },
+ "repeat_sample": {
+  "sampled_abstracts": 2,
+  "family_pair_records": {
+   "sol": 5,
+   "luna_run1": 5,
+   "luna_run2": 5,
+   "sol_repeat": 4
+  },
+  "sol_vs_sol_repeat": {
+   "a_records": 5,
+   "b_records": 4,
+   "shared_records": 4,
+   "a_in_b": {
+    "count": 4,
+    "of": 5,
+    "share": 0.8,
+    "wilson": [
+     0.37553462976252533,
+     0.9637758913675698
+    ],
+    "pair_bootstrap": {
+     "interval": [
+      0.25,
+      1.0
+     ],
+     "undefined_replicates": 0
+    },
+    "canonical_pairs": 4,
+    "stream": 130,
+    "imprecise_under_20": true
+   },
+   "b_in_a": {
+    "count": 4,
+    "of": 4,
+    "share": 1.0,
+    "wilson": [
+     0.5101091635454027,
+     1.0
+    ],
+    "pair_bootstrap": {
+     "interval": [
+      1.0,
+      1.0
+     ],
+     "undefined_replicates": 0
+    },
+    "canonical_pairs": 3,
+    "stream": 131,
+    "imprecise_under_20": true
+   },
+   "among_shared": {
+    "direction_class_equal": {
+     "count": 3,
+     "of": 4,
+     "share": 0.75,
+     "wilson": [
+      0.30064184258240184,
+      0.9544127391902995
+     ],
+     "pair_bootstrap": {
+      "interval": [
+       0.0,
+       1.0
+      ],
+      "undefined_replicates": 0
+     },
+     "canonical_pairs": 3,
+     "stream": 132,
+     "imprecise_under_20": true
+    },
+    "direction_classes_a_then_b": {
+     "lowers|lowers": 1,
+     "raises_with_nonsignificant|raises": 1,
+     "raises|raises": 2
+    },
+    "both_directional": 4,
+    "same_direction": {
+     "count": 4,
+     "of": 4,
+     "share": 1.0,
+     "wilson": [
+      0.5101091635454027,
+      1.0
+     ],
+     "pair_bootstrap": {
+      "interval": [
+       1.0,
+       1.0
+      ],
+      "undefined_replicates": 0
+     },
+     "canonical_pairs": 3,
+     "stream": 133,
+     "imprecise_under_20": true
+    },
+    "opposite_direction": 0,
+    "null_flag_equal": {
+     "count": 3,
+     "of": 4,
+     "share": 0.75,
+     "wilson": [
+      0.30064184258240184,
+      0.9544127391902995
+     ],
+     "pair_bootstrap": {
+      "interval": [
+       0.0,
+       1.0
+      ],
+      "undefined_replicates": 0
+     },
+     "canonical_pairs": 3,
+     "stream": 134,
+     "imprecise_under_20": true
+    },
+    "release_identity": {
+     "pqtl": {
+      "identical": 4
+     },
+     "outcome": {
+      "identical": 4
+     }
+    }
+   }
+  },
+  "sol_vs_luna_run1": {
+   "a_records": 5,
+   "b_records": 5,
+   "shared_records": 5,
+   "a_in_b": {
+    "count": 5,
+    "of": 5,
+    "share": 1.0,
+    "wilson": [
+     0.5655175352168251,
+     1.0
+    ],
+    "pair_bootstrap": {
+     "interval": [
+      1.0,
+      1.0
+     ],
+     "undefined_replicates": 0
+    },
+    "canonical_pairs": 4,
+    "stream": 140,
+    "imprecise_under_20": true
+   },
+   "b_in_a": {
+    "count": 5,
+    "of": 5,
+    "share": 1.0,
+    "wilson": [
+     0.5655175352168251,
+     1.0
+    ],
+    "pair_bootstrap": {
+     "interval": [
+      1.0,
+      1.0
+     ],
+     "undefined_replicates": 0
+    },
+    "canonical_pairs": 4,
+    "stream": 141,
+    "imprecise_under_20": true
+   },
+   "among_shared": {
+    "direction_class_equal": {
+     "count": 3,
+     "of": 5,
+     "share": 0.6,
+     "wilson": [
+      0.2307242812760128,
+      0.882379225767352
+     ],
+     "pair_bootstrap": {
+      "interval": [
+       0.25,
+       1.0
+      ],
+      "undefined_replicates": 0
+     },
+     "canonical_pairs": 4,
+     "stream": 142,
+     "imprecise_under_20": true
+    },
+    "direction_classes_a_then_b": {
+     "lowers|raises": 1,
+     "raises_with_nonsignificant|raises": 1,
+     "raises|raises": 3
+    },
+    "both_directional": 5,
+    "same_direction": {
+     "count": 4,
+     "of": 5,
+     "share": 0.8,
+     "wilson": [
+      0.37553462976252533,
+      0.9637758913675698
+     ],
+     "pair_bootstrap": {
+      "interval": [
+       0.5714285714285714,
+       1.0
+      ],
+      "undefined_replicates": 0
+     },
+     "canonical_pairs": 4,
+     "stream": 143,
+     "imprecise_under_20": true
+    },
+    "opposite_direction": 1,
+    "null_flag_equal": {
+     "count": 4,
+     "of": 5,
+     "share": 0.8,
+     "wilson": [
+      0.37553462976252533,
+      0.9637758913675698
+     ],
+     "pair_bootstrap": {
+      "interval": [
+       0.25,
+       1.0
+      ],
+      "undefined_replicates": 0
+     },
+     "canonical_pairs": 4,
+     "stream": 144,
+     "imprecise_under_20": true
+    },
+    "release_identity": {
+     "pqtl": {
+      "identical": 5
+     },
+     "outcome": {
+      "identical": 5
+     }
+    }
+   }
+  },
+  "luna_run1_vs_luna_run2": {
+   "a_records": 5,
+   "b_records": 5,
+   "shared_records": 5,
+   "a_in_b": {
+    "count": 5,
+    "of": 5,
+    "share": 1.0,
+    "wilson": [
+     0.5655175352168251,
+     1.0
+    ],
+    "pair_bootstrap": {
+     "interval": [
+      1.0,
+      1.0
+     ],
+     "undefined_replicates": 0
+    },
+    "canonical_pairs": 4,
+    "stream": 150,
+    "imprecise_under_20": true
+   },
+   "b_in_a": {
+    "count": 5,
+    "of": 5,
+    "share": 1.0,
+    "wilson": [
+     0.5655175352168251,
+     1.0
+    ],
+    "pair_bootstrap": {
+     "interval": [
+      1.0,
+      1.0
+     ],
+     "undefined_replicates": 0
+    },
+    "canonical_pairs": 4,
+    "stream": 151,
+    "imprecise_under_20": true
+   },
+   "among_shared": {
+    "direction_class_equal": {
+     "count": 3,
+     "of": 5,
+     "share": 0.6,
+     "wilson": [
+      0.2307242812760128,
+      0.882379225767352
+     ],
+     "pair_bootstrap": {
+      "interval": [
+       0.25,
+       1.0
+      ],
+      "undefined_replicates": 0
+     },
+     "canonical_pairs": 4,
+     "stream": 152,
+     "imprecise_under_20": true
+    },
+    "direction_classes_a_then_b": {
+     "raises|lowers": 1,
+     "raises|raises": 3,
+     "raises|raises_with_nonsignificant": 1
+    },
+    "both_directional": 5,
+    "same_direction": {
+     "count": 4,
+     "of": 5,
+     "share": 0.8,
+     "wilson": [
+      0.37553462976252533,
+      0.9637758913675698
+     ],
+     "pair_bootstrap": {
+      "interval": [
+       0.5714285714285714,
+       1.0
+      ],
+      "undefined_replicates": 0
+     },
+     "canonical_pairs": 4,
+     "stream": 153,
+     "imprecise_under_20": true
+    },
+    "opposite_direction": 1,
+    "null_flag_equal": {
+     "count": 4,
+     "of": 5,
+     "share": 0.8,
+     "wilson": [
+      0.37553462976252533,
+      0.9637758913675698
+     ],
+     "pair_bootstrap": {
+      "interval": [
+       0.25,
+       1.0
+      ],
+      "undefined_replicates": 0
+     },
+     "canonical_pairs": 4,
+     "stream": 154,
+     "imprecise_under_20": true
+    },
+    "release_identity": {
+     "pqtl": {
+      "identical": 5
+     },
+     "outcome": {
+      "identical": 5
+     }
+    }
+   }
+  }
+ },
+ "h1_h2": {
+  "sol": {
+   "claim_records": 9,
+   "denominators": {
+    "family_pair_records": 8,
+    "by_direction": {
+     "raises": 5,
+     "lowers": 1,
+     "raises_with_nonsignificant": 1,
+     "nonsignificant_only": 1
+    },
+    "context_unclear": 0,
+    "pairs": 5,
+    "multi_family_pairs": 3,
+    "contradicting_pairs": 1,
+    "family_pair_records_with_a_manually_coded_dataset": 0,
+    "multi_family_pairs_with_a_manually_coded_dataset": 0,
+    "h1_pairs_with_a_manually_coded_dataset": 0
+   },
+   "estimates": {
+    "h1_pairs": 2,
+    "h1_pairs_agreeing": 1,
+    "h1_pair_concordance": 0.5,
+    "h1_independent_edges": 2,
+    "h1_independent_edges_agreeing": 1,
+    "h1_edge_concordance": 0.5,
+    "liu_analogue_pairs": 3,
+    "liu_analogue_tiers": {
+     "high": 2,
+     "discordant": 1
+    },
+    "liu_analogue_share_not_discordant": 0.6666666666666666,
+    "h2_multi_family_pairs": 3,
+    "h2_known_identical": 1,
+    "h2_known_not_identical": 2,
+    "h2_unresolved": 0,
+    "h2_lower": 0.3333333333333333,
+    "h2_upper": 0.3333333333333333,
+    "h2_complete_case": 0.3333333333333333,
+    "h2_resolvable_pairs": 3,
+    "h2_resolvable_share": 1.0,
+    "h2b_known_overlapping": 1,
+    "h2b_known_not_overlapping": 2,
+    "h2b_unresolved": 0,
+    "h2b_lower": 0.3333333333333333,
+    "h2b_upper": 0.3333333333333333,
+    "h2b_complete_case": 0.3333333333333333,
+    "h2_h2b_pairs_not_nested": 0
+   },
+   "wilson_descriptive": {
+    "h1_pair_concordance": [
+     0.09453120573423074,
+     0.9054687942657693
+    ],
+    "h2_lower": [
+     0.06149194472039621,
+     0.7923403991979522
+    ],
+    "h2_upper": [
+     0.06149194472039621,
+     0.7923403991979522
+    ],
+    "h2b_lower": [
+     0.06149194472039621,
+     0.7923403991979522
+    ],
+    "h2b_upper": [
+     0.06149194472039621,
+     0.7923403991979522
+    ],
+    "h2_resolvable_share": [
+     0.4385029682449546,
+     1.0
+    ]
+   },
+   "verdict_rule": "finite_corpus_bounds",
+   "h2_verdict": "contradicted",
+   "h2b_verdict": "contradicted",
+   "two_verdict_reading": "at_most_half_on_identical_or_overlapping_sources",
+   "h2_supported_attainable": true,
+   "resampling_stability": [
+    "pair_bootstrap",
+    "protein_cluster_bootstrap",
+    "family_jackknife"
+   ],
+   "pair_bootstrap": {
+    "replicates": 10000,
+    "seed": 20261001,
+    "percentile_method": "inverted_cdf",
+    "h1_pair_concordance": [
+     0.0,
+     1.0
+    ],
+    "h1_edge_concordance": [
+     0.0,
+     1.0
+    ],
+    "h2_lower": [
+     0.0,
+     1.0
+    ],
+    "h2_upper": [
+     0.0,
+     1.0
+    ],
+    "h2b_lower": [
+     0.0,
+     1.0
+    ],
+    "h2b_upper": [
+     0.0,
+     1.0
+    ],
+    "h2_resolvable_share": [
+     1.0,
+     1.0
+    ]
+   },
+   "protein_cluster_bootstrap": {
+    "replicates": 10000,
+    "seed": [
+     20261001,
+     1
+    ],
+    "unit": "protein",
+    "percentile_method": "inverted_cdf",
+    "h1_proteins": 2,
+    "h1_pair_concordance": [
+     0.0,
+     1.0
+    ],
+    "h1_edge_concordance": [
+     0.0,
+     1.0
+    ],
+    "h2_proteins": 3,
+    "h2_lower": [
+     0.0,
+     1.0
+    ],
+    "h2_upper": [
+     0.0,
+     1.0
+    ],
+    "h2b_lower": [
+     0.0,
+     1.0
+    ],
+    "h2b_upper": [
+     0.0,
+     1.0
+    ]
+   },
+   "family_jackknife": {
+    "h1_pair_concordance": {
+     "min": 0.0,
+     "min_when_dropping": "F2",
+     "max": 1.0,
+     "max_when_dropping": "F3",
+     "n_deletions": 3
+    },
+    "h1_edge_concordance": {
+     "min": 0.0,
+     "min_when_dropping": "F2",
+     "max": 1.0,
+     "max_when_dropping": "F3",
+     "n_deletions": 3
+    },
+    "h2_lower": {
+     "min": 0.0,
+     "min_when_dropping": "F4",
+     "max": 0.5,
+     "max_when_dropping": "F3",
+     "n_deletions": 3
+    },
+    "h2_upper": {
+     "min": 0.0,
+     "min_when_dropping": "F4",
+     "max": 0.5,
+     "max_when_dropping": "F3",
+     "n_deletions": 3
+    },
+    "h2b_lower": {
+     "min": 0.0,
+     "min_when_dropping": "F4",
+     "max": 0.5,
+     "max_when_dropping": "F3",
+     "n_deletions": 3
+    },
+    "h2b_upper": {
+     "min": 0.0,
+     "min_when_dropping": "F4",
+     "max": 0.5,
+     "max_when_dropping": "F3",
+     "n_deletions": 3
+    },
+    "h2_resolvable_share": {
+     "min": 1.0,
+     "min_when_dropping": "F2",
+     "max": 1.0,
+     "max_when_dropping": "F4",
+     "n_deletions": 3
+    }
+   },
+   "imprecise_under_20_pairs": {
+    "h1": true,
+    "h2": true
+   }
+  },
+  "luna_run1": {
+   "claim_records": 7,
+   "denominators": {
+    "family_pair_records": 7,
+    "by_direction": {
+     "raises": 7
+    },
+    "context_unclear": 0,
+    "pairs": 5,
+    "multi_family_pairs": 2,
+    "contradicting_pairs": 0,
+    "family_pair_records_with_a_manually_coded_dataset": 0,
+    "multi_family_pairs_with_a_manually_coded_dataset": 0,
+    "h1_pairs_with_a_manually_coded_dataset": 0
+   },
+   "estimates": {
+    "h1_pairs": 1,
+    "h1_pairs_agreeing": 1,
+    "h1_pair_concordance": 1.0,
+    "h1_independent_edges": 1,
+    "h1_independent_edges_agreeing": 1,
+    "h1_edge_concordance": 1.0,
+    "liu_analogue_pairs": 2,
+    "liu_analogue_tiers": {
+     "high": 2
+    },
+    "liu_analogue_share_not_discordant": 1.0,
+    "h2_multi_family_pairs": 2,
+    "h2_known_identical": 0,
+    "h2_known_not_identical": 1,
+    "h2_unresolved": 1,
+    "h2_lower": 0.0,
+    "h2_upper": 0.5,
+    "h2_complete_case": 0.0,
+    "h2_resolvable_pairs": 1,
+    "h2_resolvable_share": 0.5,
+    "h2b_known_overlapping": 0,
+    "h2b_known_not_overlapping": 1,
+    "h2b_unresolved": 1,
+    "h2b_lower": 0.0,
+    "h2b_upper": 0.5,
+    "h2b_complete_case": 0.0,
+    "h2_h2b_pairs_not_nested": 0
+   },
+   "wilson_descriptive": {
+    "h1_pair_concordance": [
+     0.20654931437723745,
+     1.0
+    ],
+    "h2_lower": [
+     0.0,
+     0.6576197724933469
+    ],
+    "h2_upper": [
+     0.09453120573423074,
+     0.9054687942657693
+    ],
+    "h2b_lower": [
+     0.0,
+     0.6576197724933469
+    ],
+    "h2b_upper": [
+     0.09453120573423074,
+     0.9054687942657693
+    ],
+    "h2_resolvable_share": [
+     0.09453120573423074,
+     0.9054687942657693
+    ]
+   },
+   "verdict_rule": "finite_corpus_bounds",
+   "h2_verdict": "contradicted",
+   "h2b_verdict": "contradicted",
+   "two_verdict_reading": "at_most_half_on_identical_or_overlapping_sources",
+   "h2_supported_attainable": false,
+   "resampling_stability": [
+    "pair_bootstrap",
+    "protein_cluster_bootstrap",
+    "family_jackknife"
+   ],
+   "pair_bootstrap": {
+    "replicates": 10000,
+    "seed": 20261001,
+    "percentile_method": "inverted_cdf",
+    "h1_pair_concordance": [
+     1.0,
+     1.0
+    ],
+    "h1_edge_concordance": [
+     1.0,
+     1.0
+    ],
+    "h2_lower": [
+     0.0,
+     0.0
+    ],
+    "h2_upper": [
+     0.0,
+     1.0
+    ],
+    "h2b_lower": [
+     0.0,
+     0.0
+    ],
+    "h2b_upper": [
+     0.0,
+     1.0
+    ],
+    "h2_resolvable_share": [
+     0.0,
+     1.0
+    ]
+   },
+   "protein_cluster_bootstrap": {
+    "replicates": 10000,
+    "seed": [
+     20261001,
+     1
+    ],
+    "unit": "protein",
+    "percentile_method": "inverted_cdf",
+    "h1_proteins": 1,
+    "h1_pair_concordance": [
+     1.0,
+     1.0
+    ],
+    "h1_edge_concordance": [
+     1.0,
+     1.0
+    ],
+    "h2_proteins": 2,
+    "h2_lower": [
+     0.0,
+     0.0
+    ],
+    "h2_upper": [
+     0.0,
+     1.0
+    ],
+    "h2b_lower": [
+     0.0,
+     0.0
+    ],
+    "h2b_upper": [
+     0.0,
+     1.0
+    ]
+   },
+   "family_jackknife": {
+    "h1_pair_concordance": {
+     "min": 1.0,
+     "min_when_dropping": "F4",
+     "max": 1.0,
+     "max_when_dropping": "F4",
+     "n_deletions": 1
+    },
+    "h1_edge_concordance": {
+     "min": 1.0,
+     "min_when_dropping": "F4",
+     "max": 1.0,
+     "max_when_dropping": "F4",
+     "n_deletions": 1
+    },
+    "h2_lower": {
+     "min": 0.0,
+     "min_when_dropping": "F3",
+     "max": 0.0,
+     "max_when_dropping": "F4",
+     "n_deletions": 2
+    },
+    "h2_upper": {
+     "min": 0.0,
+     "min_when_dropping": "F4",
+     "max": 1.0,
+     "max_when_dropping": "F3",
+     "n_deletions": 2
+    },
+    "h2b_lower": {
+     "min": 0.0,
+     "min_when_dropping": "F3",
+     "max": 0.0,
+     "max_when_dropping": "F4",
+     "n_deletions": 2
+    },
+    "h2b_upper": {
+     "min": 0.0,
+     "min_when_dropping": "F4",
+     "max": 1.0,
+     "max_when_dropping": "F3",
+     "n_deletions": 2
+    },
+    "h2_resolvable_share": {
+     "min": 0.0,
+     "min_when_dropping": "F3",
+     "max": 1.0,
+     "max_when_dropping": "F4",
+     "n_deletions": 2
+    }
+   },
+   "imprecise_under_20_pairs": {
+    "h1": true,
+    "h2": true
+   }
+  },
+  "luna_union": {
+   "claim_records": 8,
+   "denominators": {
+    "family_pair_records": 8,
+    "by_direction": {
+     "raises": 8
+    },
+    "context_unclear": 0,
+    "pairs": 5,
+    "multi_family_pairs": 3,
+    "contradicting_pairs": 0,
+    "family_pair_records_with_a_manually_coded_dataset": 0,
+    "multi_family_pairs_with_a_manually_coded_dataset": 0,
+    "h1_pairs_with_a_manually_coded_dataset": 0
+   },
+   "estimates": {
+    "h1_pairs": 2,
+    "h1_pairs_agreeing": 2,
+    "h1_pair_concordance": 1.0,
+    "h1_independent_edges": 2,
+    "h1_independent_edges_agreeing": 2,
+    "h1_edge_concordance": 1.0,
+    "liu_analogue_pairs": 3,
+    "liu_analogue_tiers": {
+     "high": 3
+    },
+    "liu_analogue_share_not_discordant": 1.0,
+    "h2_multi_family_pairs": 3,
+    "h2_known_identical": 0,
+    "h2_known_not_identical": 2,
+    "h2_unresolved": 1,
+    "h2_lower": 0.0,
+    "h2_upper": 0.3333333333333333,
+    "h2_complete_case": 0.0,
+    "h2_resolvable_pairs": 2,
+    "h2_resolvable_share": 0.6666666666666666,
+    "h2b_known_overlapping": 0,
+    "h2b_known_not_overlapping": 2,
+    "h2b_unresolved": 1,
+    "h2b_lower": 0.0,
+    "h2b_upper": 0.3333333333333333,
+    "h2b_complete_case": 0.0,
+    "h2_h2b_pairs_not_nested": 0
+   },
+   "wilson_descriptive": {
+    "h1_pair_concordance": [
+     0.34238022750665303,
+     1.0
+    ],
+    "h2_lower": [
+     5.551115123125783e-17,
+     0.5614970317550454
+    ],
+    "h2_upper": [
+     0.06149194472039621,
+     0.7923403991979522
+    ],
+    "h2b_lower": [
+     5.551115123125783e-17,
+     0.5614970317550454
+    ],
+    "h2b_upper": [
+     0.06149194472039621,
+     0.7923403991979522
+    ],
+    "h2_resolvable_share": [
+     0.2076596008020477,
+     0.9385080552796037
+    ]
+   },
+   "verdict_rule": "finite_corpus_bounds",
+   "h2_verdict": "contradicted",
+   "h2b_verdict": "contradicted",
+   "two_verdict_reading": "at_most_half_on_identical_or_overlapping_sources",
+   "h2_supported_attainable": true,
+   "resampling_stability": [
+    "pair_bootstrap",
+    "protein_cluster_bootstrap",
+    "family_jackknife"
+   ],
+   "pair_bootstrap": {
+    "replicates": 10000,
+    "seed": 20261001,
+    "percentile_method": "inverted_cdf",
+    "h1_pair_concordance": [
+     1.0,
+     1.0
+    ],
+    "h1_edge_concordance": [
+     1.0,
+     1.0
+    ],
+    "h2_lower": [
+     0.0,
+     0.0
+    ],
+    "h2_upper": [
+     0.0,
+     1.0
+    ],
+    "h2b_lower": [
+     0.0,
+     0.0
+    ],
+    "h2b_upper": [
+     0.0,
+     1.0
+    ],
+    "h2_resolvable_share": [
+     0.0,
+     1.0
+    ]
+   },
+   "protein_cluster_bootstrap": {
+    "replicates": 10000,
+    "seed": [
+     20261001,
+     1
+    ],
+    "unit": "protein",
+    "percentile_method": "inverted_cdf",
+    "h1_proteins": 2,
+    "h1_pair_concordance": [
+     1.0,
+     1.0
+    ],
+    "h1_edge_concordance": [
+     1.0,
+     1.0
+    ],
+    "h2_proteins": 3,
+    "h2_lower": [
+     0.0,
+     0.0
+    ],
+    "h2_upper": [
+     0.0,
+     1.0
+    ],
+    "h2b_lower": [
+     0.0,
+     0.0
+    ],
+    "h2b_upper": [
+     0.0,
+     1.0
+    ]
+   },
+   "family_jackknife": {
+    "h1_pair_concordance": {
+     "min": 1.0,
+     "min_when_dropping": "F2",
+     "max": 1.0,
+     "max_when_dropping": "F4",
+     "n_deletions": 3
+    },
+    "h1_edge_concordance": {
+     "min": 1.0,
+     "min_when_dropping": "F2",
+     "max": 1.0,
+     "max_when_dropping": "F4",
+     "n_deletions": 3
+    },
+    "h2_lower": {
+     "min": 0.0,
+     "min_when_dropping": "F2",
+     "max": 0.0,
+     "max_when_dropping": "F4",
+     "n_deletions": 3
+    },
+    "h2_upper": {
+     "min": 0.0,
+     "min_when_dropping": "F4",
+     "max": 0.5,
+     "max_when_dropping": "F3",
+     "n_deletions": 3
+    },
+    "h2b_lower": {
+     "min": 0.0,
+     "min_when_dropping": "F2",
+     "max": 0.0,
+     "max_when_dropping": "F4",
+     "n_deletions": 3
+    },
+    "h2b_upper": {
+     "min": 0.0,
+     "min_when_dropping": "F4",
+     "max": 0.5,
+     "max_when_dropping": "F3",
+     "n_deletions": 3
+    },
+    "h2_resolvable_share": {
+     "min": 0.5,
+     "min_when_dropping": "F2",
+     "max": 1.0,
+     "max_when_dropping": "F4",
+     "n_deletions": 3
+    }
+   },
+   "imprecise_under_20_pairs": {
+    "h1": true,
+    "h2": true
+   }
+  }
+ },
+ "cost": {
+  "usage": {
+   "usage_sol": {
+    "folders": [
+     "/tmp/dry_run_model_comparison/raw_sol"
+    ],
+    "written_utc": "2026-10-06T15:32:30+00:00",
+    "model": "gpt-6.1-sol",
+    "prices_usd_per_million": {
+     "input": 2.0,
+     "cached_input": 0.1,
+     "cache_write": 2.5,
+     "output": 10.0
+    },
+    "requests": 2,
+    "abstracts": 2,
+    "tokens": {
+     "input_tokens": 2000,
+     "cached_input_tokens": 1200,
+     "cache_write_tokens": 600,
+     "output_tokens": 400,
+     "reasoning_tokens": 0
+    },
+    "uncached_input_tokens": 200,
+    "usd_parts": {
+     "input": 0.0004,
+     "cached_input": 0.00012,
+     "cache_write": 0.0015,
+     "output": 0.004
+    },
+    "usd": 0.00602,
+    "usd_per_abstract": 0.00301
+   },
+   "usage_luna_run1": {
+    "folders": [
+     "/tmp/dry_run_model_comparison/raw_luna/run1"
+    ],
+    "written_utc": "2026-10-06T15:32:30+00:00",
+    "model": "gpt-6-luna",
+    "prices_usd_per_million": {
+     "input": 0.1,
+     "cached_input": 0.01,
+     "cache_write": 0.125,
+     "output": 0.5
+    },
+    "requests": 3,
+    "abstracts": 2,
+    "tokens": {
+     "input_tokens": 3000,
+     "cached_input_tokens": 1800,
+     "cache_write_tokens": 900,
+     "output_tokens": 1000,
+     "reasoning_tokens": 0
+    },
+    "uncached_input_tokens": 300,
+    "usd_parts": {
+     "input": 3e-05,
+     "cached_input": 1.8e-05,
+     "cache_write": 0.0001125,
+     "output": 0.0005
+    },
+    "usd": 0.0006605000000000001,
+    "usd_per_abstract": 0.00033025000000000003
+   }
+  },
+  "sol_cost_per_abstract_over_luna": {
+   "usage_luna_run1": 9.114307342922029
+  }
+ }
+}

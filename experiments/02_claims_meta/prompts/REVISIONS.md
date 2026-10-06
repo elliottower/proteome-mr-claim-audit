@@ -299,3 +299,7 @@ type observational 26, variant 10, MR 6, other 3; 6 records enter the registry. 
 records: 27 agree, 1 unverified, 1 disagrees (an MR sentence, "lower BCHE to be causal for CHD",
 where the lexicon reads the cue words the other way). No record reports colocalization or
 replication. Cost 17,071 input and 13,559 output tokens, at most USD 0.17.
+
+## Luna extraction prompt (Amendment 1, logged 2026-10-06)
+
+`luna_extraction_prompt.md`: the frozen `extraction_prompt.md` with a completeness addendum, used only by the extraction-system comparison of Amendment 1. sha256 `bf02041d287666f6104db8d756cbef3300ab50c8a9640c795b5cac39709b2f40`, revision `e4e4ee731887`. The registered extraction prompt is unchanged.

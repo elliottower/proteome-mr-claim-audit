@@ -1,0 +1,5925 @@
+{
+ "what": "Side check, not part of the registered study: gpt-6-luna against gpt-6.1-sol on the 30 pre-2019 development abstracts, same prompts, schema and request body.",
+ "inputs": {
+  "abstracts": "experiments/02_claims_meta/prompts/dev_abstracts.jsonl",
+  "n_abstracts": 30,
+  "pmids": [
+   "29875488",
+   "28240269",
+   "28369058",
+   "30072576",
+   "30111768",
+   "29258991",
+   "27989323",
+   "22421340",
+   "22421339",
+   "21325005",
+   "25726324",
+   "19509380",
+   "25938632",
+   "29728394",
+   "29191953",
+   "27882376",
+   "27327646",
+   "27225428",
+   "26886630",
+   "25350643",
+   "24246360",
+   "27019110",
+   "27506385",
+   "18464913",
+   "23487758",
+   "22595970",
+   "29226067",
+   "29040597",
+   "28569269",
+   "27959767"
+  ],
+  "first_public_date_max": "2018-08-15",
+  "seed": null
+ },
+ "models": {
+  "sol": "gpt-6.1-sol",
+  "luna": "gpt-6-luna"
+ },
+ "models_returned": {
+  "eligibility": {
+   "sol": [
+    "gpt-6.1-sol"
+   ],
+   "luna": [
+    "gpt-6-luna"
+   ]
+  },
+  "extraction": {
+   "sol": [
+    "gpt-6.1-sol"
+   ],
+   "luna": [
+    "gpt-6-luna"
+   ]
+  }
+ },
+ "prompt_revisions": {
+  "eligibility": {
+   "sol": "2811496ef424",
+   "luna": "same prompt and schema as Sol 2811496ef424 (the id itself hashes the Sol model name)"
+  },
+  "extraction": {
+   "sol": "0b97103cd7a4",
+   "luna": "same prompt and schema as Sol 0b97103cd7a4 (the id itself hashes the Sol model name)"
+  }
+ },
+ "sol_runs": {
+  "eligibility": "label r7 (r8 re-read the same cached exchanges), 2026-09-30",
+  "extraction": "label r8, 2026-09-30"
+ },
+ "consistency_checks": {
+  "eligibility": {
+   "current_prompt_equals_prompt_stored_with_sol_raw": true,
+   "sol_raw_equals_sol_parsed_file": true,
+   "sol_parsed_file": "sol_eligibility_r7_2811496ef424.jsonl",
+   "luna_request_equals_sol_request_except_model": true,
+   "request_models": {
+    "sol": [
+     "gpt-6.1-sol"
+    ],
+    "luna": [
+     "gpt-6-luna"
+    ]
+   }
+  },
+  "extraction": {
+   "current_prompt_equals_prompt_stored_with_sol_raw": true,
+   "sol_raw_equals_sol_parsed_file": true,
+   "sol_parsed_file": "sol_extraction_r8_0b97103cd7a4.jsonl",
+   "luna_request_equals_sol_request_except_model": true,
+   "request_models": {
+    "sol": [
+     "gpt-6.1-sol"
+    ],
+    "luna": [
+     "gpt-6-luna"
+    ]
+   }
+  }
+ },
+ "eligibility": {
+  "decision_counts": {
+   "sol": {
+    "eligible_count_not_stated": 1,
+    "ineligible": 29
+   },
+   "luna": {
+    "eligible_count_not_stated": 1,
+    "ineligible": 29
+   }
+  },
+  "fields": {
+   "decision": {
+    "agree": 30,
+    "of": 30,
+    "disagreements": []
+   },
+   "genetic_instruments_for_circulating_proteins": {
+    "agree": 30,
+    "of": 30,
+    "disagreements": []
+   },
+   "states_protein_outcome_result": {
+    "agree": 27,
+    "of": 30,
+    "disagreements": [
+     {
+      "pmid": "29258991",
+      "sol": "yes",
+      "luna": "no"
+     },
+     {
+      "pmid": "22421340",
+      "sol": "yes",
+      "luna": "no"
+     },
+     {
+      "pmid": "22421339",
+      "sol": "yes",
+      "luna": "no"
+     }
+    ]
+   },
+   "proteome_or_panel_wide_screen": {
+    "agree": 29,
+    "of": 30,
+    "disagreements": [
+     {
+      "pmid": "27989323",
+      "sol": "uncertain",
+      "luna": "yes"
+     }
+    ]
+   },
+   "n_proteins_tested": {
+    "agree": 27,
+    "of": 30,
+    "disagreements": [
+     {
+      "pmid": "29191953",
+      "sol": null,
+      "luna": 1
+     },
+     {
+      "pmid": "25350643",
+      "sol": null,
+      "luna": 1
+     },
+     {
+      "pmid": "24246360",
+      "sol": null,
+      "luna": 1
+     }
+    ]
+   },
+   "count_other": {
+    "agree": 27,
+    "of": 30,
+    "disagreements": [
+     {
+      "pmid": "25726324",
+      "sol": null,
+      "luna": 1
+     },
+     {
+      "pmid": "29728394",
+      "sol": null,
+      "luna": 1
+     },
+     {
+      "pmid": "27225428",
+      "sol": null,
+      "luna": 4
+     }
+    ]
+   },
+   "exclusion": {
+    "agree": 30,
+    "of": 30,
+    "disagreements": []
+   },
+   "also_tissue_or_csf": {
+    "agree": 28,
+    "of": 30,
+    "disagreements": [
+     {
+      "pmid": "29258991",
+      "sol": true,
+      "luna": false
+     },
+     {
+      "pmid": "22421339",
+      "sol": true,
+      "luna": false
+     }
+    ]
+   },
+   "reasons": {
+    "agree": 21,
+    "of": 30,
+    "disagreements": [
+     {
+      "pmid": "29258991",
+      "sol": [
+       "no_circulating_protein_instruments"
+      ],
+      "luna": [
+       "no_circulating_protein_instruments",
+       "no_protein_outcome_result"
+      ]
+     },
+     {
+      "pmid": "22421340",
+      "sol": [
+       "no_circulating_protein_instruments",
+       "not_proteome_or_panel_wide"
+      ],
+      "luna": [
+       "no_circulating_protein_instruments",
+       "no_protein_outcome_result",
+       "not_proteome_or_panel_wide"
+      ]
+     },
+     {
+      "pmid": "22421339",
+      "sol": [
+       "no_circulating_protein_instruments",
+       "not_proteome_or_panel_wide"
+      ],
+      "luna": [
+       "no_circulating_protein_instruments",
+       "no_protein_outcome_result",
+       "not_proteome_or_panel_wide"
+      ]
+     },
+     {
+      "pmid": "25726324",
+      "sol": [
+       "not_proteome_or_panel_wide"
+      ],
+      "luna": [
+       "fewer_than_100_proteins",
+       "not_proteome_or_panel_wide"
+      ]
+     },
+     {
+      "pmid": "29728394",
+      "sol": [
+       "not_proteome_or_panel_wide"
+      ],
+      "luna": [
+       "fewer_than_100_proteins",
+       "not_proteome_or_panel_wide"
+      ]
+     },
+     {
+      "pmid": "29191953",
+      "sol": [
+       "not_proteome_or_panel_wide"
+      ],
+      "luna": [
+       "fewer_than_100_proteins",
+       "not_proteome_or_panel_wide"
+      ]
+     },
+     {
+      "pmid": "27225428",
+      "sol": [
+       "not_proteome_or_panel_wide"
+      ],
+      "luna": [
+       "fewer_than_100_proteins",
+       "not_proteome_or_panel_wide"
+      ]
+     },
+     {
+      "pmid": "25350643",
+      "sol": [
+       "not_proteome_or_panel_wide"
+      ],
+      "luna": [
+       "fewer_than_100_proteins",
+       "not_proteome_or_panel_wide"
+      ]
+     },
+     {
+      "pmid": "24246360",
+      "sol": [
+       "not_proteome_or_panel_wide"
+      ],
+      "luna": [
+       "fewer_than_100_proteins",
+       "not_proteome_or_panel_wide"
+      ]
+     }
+    ]
+   },
+   "flags": {
+    "agree": 27,
+    "of": 30,
+    "disagreements": [
+     {
+      "pmid": "29258991",
+      "sol": [
+       "also_tissue_or_csf"
+      ],
+      "luna": []
+     },
+     {
+      "pmid": "27989323",
+      "sol": [
+       "uncertain_proteome_or_panel_wide_screen"
+      ],
+      "luna": []
+     },
+     {
+      "pmid": "22421339",
+      "sol": [
+       "also_tissue_or_csf"
+      ],
+      "luna": []
+     }
+    ]
+   }
+  },
+  "per_abstract": {
+   "29875488": {
+    "sol": {
+     "genetic_instruments_for_circulating_proteins": "yes",
+     "states_protein_outcome_result": "yes",
+     "proteome_or_panel_wide_screen": "yes",
+     "n_proteins_tested": null,
+     "count_other": 1478,
+     "exclusion": [],
+     "also_tissue_or_csf": false,
+     "decision": "eligible_count_not_stated",
+     "reasons": [],
+     "flags": []
+    },
+    "luna": {
+     "genetic_instruments_for_circulating_proteins": "yes",
+     "states_protein_outcome_result": "yes",
+     "proteome_or_panel_wide_screen": "yes",
+     "n_proteins_tested": null,
+     "count_other": 1478,
+     "exclusion": [],
+     "also_tissue_or_csf": false,
+     "decision": "eligible_count_not_stated",
+     "reasons": [],
+     "flags": []
+    }
+   },
+   "28240269": {
+    "sol": {
+     "genetic_instruments_for_circulating_proteins": "no",
+     "states_protein_outcome_result": "no",
+     "proteome_or_panel_wide_screen": "yes",
+     "n_proteins_tested": null,
+     "count_other": null,
+     "exclusion": [],
+     "also_tissue_or_csf": false,
+     "decision": "ineligible",
+     "reasons": [
+      "no_circulating_protein_instruments",
+      "no_protein_outcome_result"
+     ],
+     "flags": []
+    },
+    "luna": {
+     "genetic_instruments_for_circulating_proteins": "no",
+     "states_protein_outcome_result": "no",
+     "proteome_or_panel_wide_screen": "yes",
+     "n_proteins_tested": null,
+     "count_other": null,
+     "exclusion": [],
+     "also_tissue_or_csf": false,
+     "decision": "ineligible",
+     "reasons": [
+      "no_circulating_protein_instruments",
+      "no_protein_outcome_result"
+     ],
+     "flags": []
+    }
+   },
+   "28369058": {
+    "sol": {
+     "genetic_instruments_for_circulating_proteins": "yes",
+     "states_protein_outcome_result": "yes",
+     "proteome_or_panel_wide_screen": "yes",
+     "n_proteins_tested": null,
+     "count_other": 83,
+     "exclusion": [],
+     "also_tissue_or_csf": false,
+     "decision": "ineligible",
+     "reasons": [
+      "fewer_than_100_proteins"
+     ],
+     "flags": []
+    },
+    "luna": {
+     "genetic_instruments_for_circulating_proteins": "yes",
+     "states_protein_outcome_result": "yes",
+     "proteome_or_panel_wide_screen": "yes",
+     "n_proteins_tested": null,
+     "count_other": 83,
+     "exclusion": [],
+     "also_tissue_or_csf": false,
+     "decision": "ineligible",
+     "reasons": [
+      "fewer_than_100_proteins"
+     ],
+     "flags": []
+    }
+   },
+   "30072576": {
+    "sol": {
+     "genetic_instruments_for_circulating_proteins": "no",
+     "states_protein_outcome_result": "yes",
+     "proteome_or_panel_wide_screen": "yes",
+     "n_proteins_tested": null,
+     "count_other": 4137,
+     "exclusion": [],
+     "also_tissue_or_csf": false,
+     "decision": "ineligible",
+     "reasons": [
+      "no_circulating_protein_instruments"
+     ],
+     "flags": []
+    },
+    "luna": {
+     "genetic_instruments_for_circulating_proteins": "no",
+     "states_protein_outcome_result": "yes",
+     "proteome_or_panel_wide_screen": "yes",
+     "n_proteins_tested": null,
+     "count_other": 4137,
+     "exclusion": [],
+     "also_tissue_or_csf": false,
+     "decision": "ineligible",
+     "reasons": [
+      "no_circulating_protein_instruments"
+     ],
+     "flags": []
+    }
+   },
+   "30111768": {
+    "sol": {
+     "genetic_instruments_for_circulating_proteins": "yes",
+     "states_protein_outcome_result": "yes",
+     "proteome_or_panel_wide_screen": "yes",
+     "n_proteins_tested": null,
+     "count_other": 71,
+     "exclusion": [],
+     "also_tissue_or_csf": false,
+     "decision": "ineligible",
+     "reasons": [
+      "fewer_than_100_proteins"
+     ],
+     "flags": []
+    },
+    "luna": {
+     "genetic_instruments_for_circulating_proteins": "yes",
+     "states_protein_outcome_result": "yes",
+     "proteome_or_panel_wide_screen": "yes",
+     "n_proteins_tested": null,
+     "count_other": 71,
+     "exclusion": [],
+     "also_tissue_or_csf": false,
+     "decision": "ineligible",
+     "reasons": [
+      "fewer_than_100_proteins"
+     ],
+     "flags": []
+    }
+   },
+   "29258991": {
+    "sol": {
+     "genetic_instruments_for_circulating_proteins": "no",
+     "states_protein_outcome_result": "yes",
+     "proteome_or_panel_wide_screen": "yes",
+     "n_proteins_tested": null,
+     "count_other": 156,
+     "exclusion": [],
+     "also_tissue_or_csf": true,
+     "decision": "ineligible",
+     "reasons": [
+      "no_circulating_protein_instruments"
+     ],
+     "flags": [
+      "also_tissue_or_csf"
+     ]
+    },
+    "luna": {
+     "genetic_instruments_for_circulating_proteins": "no",
+     "states_protein_outcome_result": "no",
+     "proteome_or_panel_wide_screen": "yes",
+     "n_proteins_tested": null,
+     "count_other": 156,
+     "exclusion": [],
+     "also_tissue_or_csf": false,
+     "decision": "ineligible",
+     "reasons": [
+      "no_circulating_protein_instruments",
+      "no_protein_outcome_result"
+     ],
+     "flags": []
+    }
+   },
+   "27989323": {
+    "sol": {
+     "genetic_instruments_for_circulating_proteins": "no",
+     "states_protein_outcome_result": "no",
+     "proteome_or_panel_wide_screen": "uncertain",
+     "n_proteins_tested": null,
+     "count_other": null,
+     "exclusion": [],
+     "also_tissue_or_csf": false,
+     "decision": "ineligible",
+     "reasons": [
+      "no_circulating_protein_instruments",
+      "no_protein_outcome_result"
+     ],
+     "flags": [
+      "uncertain_proteome_or_panel_wide_screen"
+     ]
+    },
+    "luna": {
+     "genetic_instruments_for_circulating_proteins": "no",
+     "states_protein_outcome_result": "no",
+     "proteome_or_panel_wide_screen": "yes",
+     "n_proteins_tested": null,
+     "count_other": null,
+     "exclusion": [],
+     "also_tissue_or_csf": false,
+     "decision": "ineligible",
+     "reasons": [
+      "no_circulating_protein_instruments",
+      "no_protein_outcome_result"
+     ],
+     "flags": []
+    }
+   },
+   "22421340": {
+    "sol": {
+     "genetic_instruments_for_circulating_proteins": "no",
+     "states_protein_outcome_result": "yes",
+     "proteome_or_panel_wide_screen": "no",
+     "n_proteins_tested": null,
+     "count_other": null,
+     "exclusion": [],
+     "also_tissue_or_csf": false,
+     "decision": "ineligible",
+     "reasons": [
+      "no_circulating_protein_instruments",
+      "not_proteome_or_panel_wide"
+     ],
+     "flags": []
+    },
+    "luna": {
+     "genetic_instruments_for_circulating_proteins": "no",
+     "states_protein_outcome_result": "no",
+     "proteome_or_panel_wide_screen": "no",
+     "n_proteins_tested": null,
+     "count_other": null,
+     "exclusion": [],
+     "also_tissue_or_csf": false,
+     "decision": "ineligible",
+     "reasons": [
+      "no_circulating_protein_instruments",
+      "no_protein_outcome_result",
+      "not_proteome_or_panel_wide"
+     ],
+     "flags": []
+    }
+   },
+   "22421339": {
+    "sol": {
+     "genetic_instruments_for_circulating_proteins": "no",
+     "states_protein_outcome_result": "yes",
+     "proteome_or_panel_wide_screen": "no",
+     "n_proteins_tested": null,
+     "count_other": null,
+     "exclusion": [],
+     "also_tissue_or_csf": true,
+     "decision": "ineligible",
+     "reasons": [
+      "no_circulating_protein_instruments",
+      "not_proteome_or_panel_wide"
+     ],
+     "flags": [
+      "also_tissue_or_csf"
+     ]
+    },
+    "luna": {
+     "genetic_instruments_for_circulating_proteins": "no",
+     "states_protein_outcome_result": "no",
+     "proteome_or_panel_wide_screen": "no",
+     "n_proteins_tested": null,
+     "count_other": null,
+     "exclusion": [],
+     "also_tissue_or_csf": false,
+     "decision": "ineligible",
+     "reasons": [
+      "no_circulating_protein_instruments",
+      "no_protein_outcome_result",
+      "not_proteome_or_panel_wide"
+     ],
+     "flags": []
+    }
+   },
+   "21325005": {
+    "sol": {
+     "genetic_instruments_for_circulating_proteins": "yes",
+     "states_protein_outcome_result": "yes",
+     "proteome_or_panel_wide_screen": "no",
+     "n_proteins_tested": null,
+     "count_other": null,
+     "exclusion": [],
+     "also_tissue_or_csf": false,
+     "decision": "ineligible",
+     "reasons": [
+      "not_proteome_or_panel_wide"
+     ],
+     "flags": []
+    },
+    "luna": {
+     "genetic_instruments_for_circulating_proteins": "yes",
+     "states_protein_outcome_result": "yes",
+     "proteome_or_panel_wide_screen": "no",
+     "n_proteins_tested": null,
+     "count_other": null,
+     "exclusion": [],
+     "also_tissue_or_csf": false,
+     "decision": "ineligible",
+     "reasons": [
+      "not_proteome_or_panel_wide"
+     ],
+     "flags": []
+    }
+   },
+   "25726324": {
+    "sol": {
+     "genetic_instruments_for_circulating_proteins": "yes",
+     "states_protein_outcome_result": "yes",
+     "proteome_or_panel_wide_screen": "no",
+     "n_proteins_tested": null,
+     "count_other": null,
+     "exclusion": [],
+     "also_tissue_or_csf": false,
+     "decision": "ineligible",
+     "reasons": [
+      "not_proteome_or_panel_wide"
+     ],
+     "flags": []
+    },
+    "luna": {
+     "genetic_instruments_for_circulating_proteins": "yes",
+     "states_protein_outcome_result": "yes",
+     "proteome_or_panel_wide_screen": "no",
+     "n_proteins_tested": null,
+     "count_other": 1,
+     "exclusion": [],
+     "also_tissue_or_csf": false,
+     "decision": "ineligible",
+     "reasons": [
+      "fewer_than_100_proteins",
+      "not_proteome_or_panel_wide"
+     ],
+     "flags": []
+    }
+   },
+   "19509380": {
+    "sol": {
+     "genetic_instruments_for_circulating_proteins": "yes",
+     "states_protein_outcome_result": "yes",
+     "proteome_or_panel_wide_screen": "no",
+     "n_proteins_tested": null,
+     "count_other": null,
+     "exclusion": [],
+     "also_tissue_or_csf": false,
+     "decision": "ineligible",
+     "reasons": [
+      "not_proteome_or_panel_wide"
+     ],
+     "flags": []
+    },
+    "luna": {
+     "genetic_instruments_for_circulating_proteins": "yes",
+     "states_protein_outcome_result": "yes",
+     "proteome_or_panel_wide_screen": "no",
+     "n_proteins_tested": null,
+     "count_other": null,
+     "exclusion": [],
+     "also_tissue_or_csf": false,
+     "decision": "ineligible",
+     "reasons": [
+      "not_proteome_or_panel_wide"
+     ],
+     "flags": []
+    }
+   },
+   "25938632": {
+    "sol": {
+     "genetic_instruments_for_circulating_proteins": "yes",
+     "states_protein_outcome_result": "yes",
+     "proteome_or_panel_wide_screen": "no",
+     "n_proteins_tested": null,
+     "count_other": null,
+     "exclusion": [],
+     "also_tissue_or_csf": false,
+     "decision": "ineligible",
+     "reasons": [
+      "not_proteome_or_panel_wide"
+     ],
+     "flags": []
+    },
+    "luna": {
+     "genetic_instruments_for_circulating_proteins": "yes",
+     "states_protein_outcome_result": "yes",
+     "proteome_or_panel_wide_screen": "no",
+     "n_proteins_tested": null,
+     "count_other": null,
+     "exclusion": [],
+     "also_tissue_or_csf": false,
+     "decision": "ineligible",
+     "reasons": [
+      "not_proteome_or_panel_wide"
+     ],
+     "flags": []
+    }
+   },
+   "29728394": {
+    "sol": {
+     "genetic_instruments_for_circulating_proteins": "yes",
+     "states_protein_outcome_result": "yes",
+     "proteome_or_panel_wide_screen": "no",
+     "n_proteins_tested": null,
+     "count_other": null,
+     "exclusion": [],
+     "also_tissue_or_csf": false,
+     "decision": "ineligible",
+     "reasons": [
+      "not_proteome_or_panel_wide"
+     ],
+     "flags": []
+    },
+    "luna": {
+     "genetic_instruments_for_circulating_proteins": "yes",
+     "states_protein_outcome_result": "yes",
+     "proteome_or_panel_wide_screen": "no",
+     "n_proteins_tested": null,
+     "count_other": 1,
+     "exclusion": [],
+     "also_tissue_or_csf": false,
+     "decision": "ineligible",
+     "reasons": [
+      "fewer_than_100_proteins",
+      "not_proteome_or_panel_wide"
+     ],
+     "flags": []
+    }
+   },
+   "29191953": {
+    "sol": {
+     "genetic_instruments_for_circulating_proteins": "yes",
+     "states_protein_outcome_result": "yes",
+     "proteome_or_panel_wide_screen": "no",
+     "n_proteins_tested": null,
+     "count_other": null,
+     "exclusion": [],
+     "also_tissue_or_csf": false,
+     "decision": "ineligible",
+     "reasons": [
+      "not_proteome_or_panel_wide"
+     ],
+     "flags": []
+    },
+    "luna": {
+     "genetic_instruments_for_circulating_proteins": "yes",
+     "states_protein_outcome_result": "yes",
+     "proteome_or_panel_wide_screen": "no",
+     "n_proteins_tested": 1,
+     "count_other": null,
+     "exclusion": [],
+     "also_tissue_or_csf": false,
+     "decision": "ineligible",
+     "reasons": [
+      "fewer_than_100_proteins",
+      "not_proteome_or_panel_wide"
+     ],
+     "flags": []
+    }
+   },
+   "27882376": {
+    "sol": {
+     "genetic_instruments_for_circulating_proteins": "yes",
+     "states_protein_outcome_result": "yes",
+     "proteome_or_panel_wide_screen": "no",
+     "n_proteins_tested": null,
+     "count_other": null,
+     "exclusion": [],
+     "also_tissue_or_csf": false,
+     "decision": "ineligible",
+     "reasons": [
+      "not_proteome_or_panel_wide"
+     ],
+     "flags": []
+    },
+    "luna": {
+     "genetic_instruments_for_circulating_proteins": "yes",
+     "states_protein_outcome_result": "yes",
+     "proteome_or_panel_wide_screen": "no",
+     "n_proteins_tested": null,
+     "count_other": null,
+     "exclusion": [],
+     "also_tissue_or_csf": false,
+     "decision": "ineligible",
+     "reasons": [
+      "not_proteome_or_panel_wide"
+     ],
+     "flags": []
+    }
+   },
+   "27327646": {
+    "sol": {
+     "genetic_instruments_for_circulating_proteins": "yes",
+     "states_protein_outcome_result": "yes",
+     "proteome_or_panel_wide_screen": "no",
+     "n_proteins_tested": null,
+     "count_other": null,
+     "exclusion": [],
+     "also_tissue_or_csf": false,
+     "decision": "ineligible",
+     "reasons": [
+      "not_proteome_or_panel_wide"
+     ],
+     "flags": []
+    },
+    "luna": {
+     "genetic_instruments_for_circulating_proteins": "yes",
+     "states_protein_outcome_result": "yes",
+     "proteome_or_panel_wide_screen": "no",
+     "n_proteins_tested": null,
+     "count_other": null,
+     "exclusion": [],
+     "also_tissue_or_csf": false,
+     "decision": "ineligible",
+     "reasons": [
+      "not_proteome_or_panel_wide"
+     ],
+     "flags": []
+    }
+   },
+   "27225428": {
+    "sol": {
+     "genetic_instruments_for_circulating_proteins": "yes",
+     "states_protein_outcome_result": "yes",
+     "proteome_or_panel_wide_screen": "no",
+     "n_proteins_tested": null,
+     "count_other": null,
+     "exclusion": [],
+     "also_tissue_or_csf": false,
+     "decision": "ineligible",
+     "reasons": [
+      "not_proteome_or_panel_wide"
+     ],
+     "flags": []
+    },
+    "luna": {
+     "genetic_instruments_for_circulating_proteins": "yes",
+     "states_protein_outcome_result": "yes",
+     "proteome_or_panel_wide_screen": "no",
+     "n_proteins_tested": null,
+     "count_other": 4,
+     "exclusion": [],
+     "also_tissue_or_csf": false,
+     "decision": "ineligible",
+     "reasons": [
+      "fewer_than_100_proteins",
+      "not_proteome_or_panel_wide"
+     ],
+     "flags": []
+    }
+   },
+   "26886630": {
+    "sol": {
+     "genetic_instruments_for_circulating_proteins": "yes",
+     "states_protein_outcome_result": "yes",
+     "proteome_or_panel_wide_screen": "no",
+     "n_proteins_tested": null,
+     "count_other": null,
+     "exclusion": [],
+     "also_tissue_or_csf": false,
+     "decision": "ineligible",
+     "reasons": [
+      "not_proteome_or_panel_wide"
+     ],
+     "flags": []
+    },
+    "luna": {
+     "genetic_instruments_for_circulating_proteins": "yes",
+     "states_protein_outcome_result": "yes",
+     "proteome_or_panel_wide_screen": "no",
+     "n_proteins_tested": null,
+     "count_other": null,
+     "exclusion": [],
+     "also_tissue_or_csf": false,
+     "decision": "ineligible",
+     "reasons": [
+      "not_proteome_or_panel_wide"
+     ],
+     "flags": []
+    }
+   },
+   "25350643": {
+    "sol": {
+     "genetic_instruments_for_circulating_proteins": "yes",
+     "states_protein_outcome_result": "yes",
+     "proteome_or_panel_wide_screen": "no",
+     "n_proteins_tested": null,
+     "count_other": null,
+     "exclusion": [],
+     "also_tissue_or_csf": false,
+     "decision": "ineligible",
+     "reasons": [
+      "not_proteome_or_panel_wide"
+     ],
+     "flags": []
+    },
+    "luna": {
+     "genetic_instruments_for_circulating_proteins": "yes",
+     "states_protein_outcome_result": "yes",
+     "proteome_or_panel_wide_screen": "no",
+     "n_proteins_tested": 1,
+     "count_other": null,
+     "exclusion": [],
+     "also_tissue_or_csf": false,
+     "decision": "ineligible",
+     "reasons": [
+      "fewer_than_100_proteins",
+      "not_proteome_or_panel_wide"
+     ],
+     "flags": []
+    }
+   },
+   "24246360": {
+    "sol": {
+     "genetic_instruments_for_circulating_proteins": "yes",
+     "states_protein_outcome_result": "yes",
+     "proteome_or_panel_wide_screen": "no",
+     "n_proteins_tested": null,
+     "count_other": null,
+     "exclusion": [],
+     "also_tissue_or_csf": false,
+     "decision": "ineligible",
+     "reasons": [
+      "not_proteome_or_panel_wide"
+     ],
+     "flags": []
+    },
+    "luna": {
+     "genetic_instruments_for_circulating_proteins": "yes",
+     "states_protein_outcome_result": "yes",
+     "proteome_or_panel_wide_screen": "no",
+     "n_proteins_tested": 1,
+     "count_other": null,
+     "exclusion": [],
+     "also_tissue_or_csf": false,
+     "decision": "ineligible",
+     "reasons": [
+      "fewer_than_100_proteins",
+      "not_proteome_or_panel_wide"
+     ],
+     "flags": []
+    }
+   },
+   "27019110": {
+    "sol": {
+     "genetic_instruments_for_circulating_proteins": "no",
+     "states_protein_outcome_result": "no",
+     "proteome_or_panel_wide_screen": "no",
+     "n_proteins_tested": null,
+     "count_other": null,
+     "exclusion": [],
+     "also_tissue_or_csf": false,
+     "decision": "ineligible",
+     "reasons": [
+      "no_circulating_protein_instruments",
+      "no_protein_outcome_result",
+      "not_proteome_or_panel_wide"
+     ],
+     "flags": []
+    },
+    "luna": {
+     "genetic_instruments_for_circulating_proteins": "no",
+     "states_protein_outcome_result": "no",
+     "proteome_or_panel_wide_screen": "no",
+     "n_proteins_tested": null,
+     "count_other": null,
+     "exclusion": [],
+     "also_tissue_or_csf": false,
+     "decision": "ineligible",
+     "reasons": [
+      "no_circulating_protein_instruments",
+      "no_protein_outcome_result",
+      "not_proteome_or_panel_wide"
+     ],
+     "flags": []
+    }
+   },
+   "27506385": {
+    "sol": {
+     "genetic_instruments_for_circulating_proteins": "no",
+     "states_protein_outcome_result": "no",
+     "proteome_or_panel_wide_screen": "no",
+     "n_proteins_tested": null,
+     "count_other": null,
+     "exclusion": [],
+     "also_tissue_or_csf": false,
+     "decision": "ineligible",
+     "reasons": [
+      "no_circulating_protein_instruments",
+      "no_protein_outcome_result",
+      "not_proteome_or_panel_wide"
+     ],
+     "flags": []
+    },
+    "luna": {
+     "genetic_instruments_for_circulating_proteins": "no",
+     "states_protein_outcome_result": "no",
+     "proteome_or_panel_wide_screen": "no",
+     "n_proteins_tested": null,
+     "count_other": null,
+     "exclusion": [],
+     "also_tissue_or_csf": false,
+     "decision": "ineligible",
+     "reasons": [
+      "no_circulating_protein_instruments",
+      "no_protein_outcome_result",
+      "not_proteome_or_panel_wide"
+     ],
+     "flags": []
+    }
+   },
+   "18464913": {
+    "sol": {
+     "genetic_instruments_for_circulating_proteins": "no",
+     "states_protein_outcome_result": "no",
+     "proteome_or_panel_wide_screen": "yes",
+     "n_proteins_tested": null,
+     "count_other": 42,
+     "exclusion": [],
+     "also_tissue_or_csf": false,
+     "decision": "ineligible",
+     "reasons": [
+      "fewer_than_100_proteins",
+      "no_circulating_protein_instruments",
+      "no_protein_outcome_result"
+     ],
+     "flags": []
+    },
+    "luna": {
+     "genetic_instruments_for_circulating_proteins": "no",
+     "states_protein_outcome_result": "no",
+     "proteome_or_panel_wide_screen": "yes",
+     "n_proteins_tested": null,
+     "count_other": 42,
+     "exclusion": [],
+     "also_tissue_or_csf": false,
+     "decision": "ineligible",
+     "reasons": [
+      "fewer_than_100_proteins",
+      "no_circulating_protein_instruments",
+      "no_protein_outcome_result"
+     ],
+     "flags": []
+    }
+   },
+   "23487758": {
+    "sol": {
+     "genetic_instruments_for_circulating_proteins": "no",
+     "states_protein_outcome_result": "no",
+     "proteome_or_panel_wide_screen": "yes",
+     "n_proteins_tested": null,
+     "count_other": 163,
+     "exclusion": [],
+     "also_tissue_or_csf": false,
+     "decision": "ineligible",
+     "reasons": [
+      "no_circulating_protein_instruments",
+      "no_protein_outcome_result"
+     ],
+     "flags": []
+    },
+    "luna": {
+     "genetic_instruments_for_circulating_proteins": "no",
+     "states_protein_outcome_result": "no",
+     "proteome_or_panel_wide_screen": "yes",
+     "n_proteins_tested": null,
+     "count_other": 163,
+     "exclusion": [],
+     "also_tissue_or_csf": false,
+     "decision": "ineligible",
+     "reasons": [
+      "no_circulating_protein_instruments",
+      "no_protein_outcome_result"
+     ],
+     "flags": []
+    }
+   },
+   "22595970": {
+    "sol": {
+     "genetic_instruments_for_circulating_proteins": "no",
+     "states_protein_outcome_result": "no",
+     "proteome_or_panel_wide_screen": "yes",
+     "n_proteins_tested": null,
+     "count_other": null,
+     "exclusion": [],
+     "also_tissue_or_csf": false,
+     "decision": "ineligible",
+     "reasons": [
+      "no_circulating_protein_instruments",
+      "no_protein_outcome_result"
+     ],
+     "flags": []
+    },
+    "luna": {
+     "genetic_instruments_for_circulating_proteins": "no",
+     "states_protein_outcome_result": "no",
+     "proteome_or_panel_wide_screen": "yes",
+     "n_proteins_tested": null,
+     "count_other": null,
+     "exclusion": [],
+     "also_tissue_or_csf": false,
+     "decision": "ineligible",
+     "reasons": [
+      "no_circulating_protein_instruments",
+      "no_protein_outcome_result"
+     ],
+     "flags": []
+    }
+   },
+   "29226067": {
+    "sol": {
+     "genetic_instruments_for_circulating_proteins": "no",
+     "states_protein_outcome_result": "no",
+     "proteome_or_panel_wide_screen": "no",
+     "n_proteins_tested": null,
+     "count_other": null,
+     "exclusion": [
+      "review"
+     ],
+     "also_tissue_or_csf": false,
+     "decision": "ineligible",
+     "reasons": [
+      "excluded_review",
+      "no_circulating_protein_instruments",
+      "no_protein_outcome_result",
+      "not_proteome_or_panel_wide"
+     ],
+     "flags": []
+    },
+    "luna": {
+     "genetic_instruments_for_circulating_proteins": "no",
+     "states_protein_outcome_result": "no",
+     "proteome_or_panel_wide_screen": "no",
+     "n_proteins_tested": null,
+     "count_other": null,
+     "exclusion": [
+      "review"
+     ],
+     "also_tissue_or_csf": false,
+     "decision": "ineligible",
+     "reasons": [
+      "excluded_review",
+      "no_circulating_protein_instruments",
+      "no_protein_outcome_result",
+      "not_proteome_or_panel_wide"
+     ],
+     "flags": []
+    }
+   },
+   "29040597": {
+    "sol": {
+     "genetic_instruments_for_circulating_proteins": "no",
+     "states_protein_outcome_result": "no",
+     "proteome_or_panel_wide_screen": "no",
+     "n_proteins_tested": null,
+     "count_other": null,
+     "exclusion": [
+      "review"
+     ],
+     "also_tissue_or_csf": false,
+     "decision": "ineligible",
+     "reasons": [
+      "excluded_review",
+      "no_circulating_protein_instruments",
+      "no_protein_outcome_result",
+      "not_proteome_or_panel_wide"
+     ],
+     "flags": []
+    },
+    "luna": {
+     "genetic_instruments_for_circulating_proteins": "no",
+     "states_protein_outcome_result": "no",
+     "proteome_or_panel_wide_screen": "no",
+     "n_proteins_tested": null,
+     "count_other": null,
+     "exclusion": [
+      "review"
+     ],
+     "also_tissue_or_csf": false,
+     "decision": "ineligible",
+     "reasons": [
+      "excluded_review",
+      "no_circulating_protein_instruments",
+      "no_protein_outcome_result",
+      "not_proteome_or_panel_wide"
+     ],
+     "flags": []
+    }
+   },
+   "28569269": {
+    "sol": {
+     "genetic_instruments_for_circulating_proteins": "no",
+     "states_protein_outcome_result": "no",
+     "proteome_or_panel_wide_screen": "no",
+     "n_proteins_tested": null,
+     "count_other": null,
+     "exclusion": [
+      "review"
+     ],
+     "also_tissue_or_csf": false,
+     "decision": "ineligible",
+     "reasons": [
+      "excluded_review",
+      "no_circulating_protein_instruments",
+      "no_protein_outcome_result",
+      "not_proteome_or_panel_wide"
+     ],
+     "flags": []
+    },
+    "luna": {
+     "genetic_instruments_for_circulating_proteins": "no",
+     "states_protein_outcome_result": "no",
+     "proteome_or_panel_wide_screen": "no",
+     "n_proteins_tested": null,
+     "count_other": null,
+     "exclusion": [
+      "review"
+     ],
+     "also_tissue_or_csf": false,
+     "decision": "ineligible",
+     "reasons": [
+      "excluded_review",
+      "no_circulating_protein_instruments",
+      "no_protein_outcome_result",
+      "not_proteome_or_panel_wide"
+     ],
+     "flags": []
+    }
+   },
+   "27959767": {
+    "sol": {
+     "genetic_instruments_for_circulating_proteins": "no",
+     "states_protein_outcome_result": "no",
+     "proteome_or_panel_wide_screen": "no",
+     "n_proteins_tested": null,
+     "count_other": null,
+     "exclusion": [],
+     "also_tissue_or_csf": false,
+     "decision": "ineligible",
+     "reasons": [
+      "no_circulating_protein_instruments",
+      "no_protein_outcome_result",
+      "not_proteome_or_panel_wide"
+     ],
+     "flags": []
+    },
+    "luna": {
+     "genetic_instruments_for_circulating_proteins": "no",
+     "states_protein_outcome_result": "no",
+     "proteome_or_panel_wide_screen": "no",
+     "n_proteins_tested": null,
+     "count_other": null,
+     "exclusion": [],
+     "also_tissue_or_csf": false,
+     "decision": "ineligible",
+     "reasons": [
+      "no_circulating_protein_instruments",
+      "no_protein_outcome_result",
+      "not_proteome_or_panel_wide"
+     ],
+     "flags": []
+    }
+   }
+  }
+ },
+ "extraction": {
+  "matching_rule": "protein_as_written and outcome_as_written, lowercased, whitespace collapsed; a field agrees when the sets of values over the key's records are equal",
+  "all_30_abstracts": {
+   "n_abstracts": 30,
+   "pmids": [
+    "29875488",
+    "28240269",
+    "28369058",
+    "30072576",
+    "30111768",
+    "29258991",
+    "27989323",
+    "22421340",
+    "22421339",
+    "21325005",
+    "25726324",
+    "19509380",
+    "25938632",
+    "29728394",
+    "29191953",
+    "27882376",
+    "27327646",
+    "27225428",
+    "26886630",
+    "25350643",
+    "24246360",
+    "27019110",
+    "27506385",
+    "18464913",
+    "23487758",
+    "22595970",
+    "29226067",
+    "29040597",
+    "28569269",
+    "27959767"
+   ],
+   "sol_records": 141,
+   "luna_records": 109,
+   "sol_keys": 84,
+   "luna_keys": 71,
+   "matched_keys": 61,
+   "sol_only_records": 25,
+   "luna_only_records": 13,
+   "agreement_all_matched_keys": {
+    "direction": {
+     "agree": 56,
+     "of": 61,
+     "disagreements": [
+      {
+       "pmid": "19509380",
+       "protein": "lipoprotein(a)",
+       "outcome": "mi",
+       "sol": [
+        "raises",
+        "reported_nonsignificant_or_null"
+       ],
+       "luna": [
+        "raises"
+       ]
+      },
+      {
+       "pmid": "24246360",
+       "protein": "crp",
+       "outcome": "all-cause mortality",
+       "sol": [
+        "raises",
+        "reported_nonsignificant_or_null"
+       ],
+       "luna": [
+        "not_stated"
+       ]
+      },
+      {
+       "pmid": "24246360",
+       "protein": "crp",
+       "outcome": "cancer",
+       "sol": [
+        "raises",
+        "reported_nonsignificant_or_null"
+       ],
+       "luna": [
+        "not_stated"
+       ]
+      },
+      {
+       "pmid": "24246360",
+       "protein": "crp",
+       "outcome": "chronic obstructive pulmonary disease",
+       "sol": [
+        "raises",
+        "reported_nonsignificant_or_null"
+       ],
+       "luna": [
+        "not_stated"
+       ]
+      },
+      {
+       "pmid": "24246360",
+       "protein": "crp",
+       "outcome": "ischemic heart disease",
+       "sol": [
+        "raises",
+        "reported_nonsignificant_or_null"
+       ],
+       "luna": [
+        "not_stated"
+       ]
+      }
+     ]
+    },
+    "null_flag": {
+     "agree": 56,
+     "of": 61,
+     "disagreements": [
+      {
+       "pmid": "19509380",
+       "protein": "lipoprotein(a)",
+       "outcome": "mi",
+       "sol": [
+        false,
+        true
+       ],
+       "luna": [
+        false
+       ]
+      },
+      {
+       "pmid": "24246360",
+       "protein": "crp",
+       "outcome": "all-cause mortality",
+       "sol": [
+        false,
+        true
+       ],
+       "luna": [
+        false
+       ]
+      },
+      {
+       "pmid": "24246360",
+       "protein": "crp",
+       "outcome": "cancer",
+       "sol": [
+        false,
+        true
+       ],
+       "luna": [
+        false
+       ]
+      },
+      {
+       "pmid": "24246360",
+       "protein": "crp",
+       "outcome": "chronic obstructive pulmonary disease",
+       "sol": [
+        false,
+        true
+       ],
+       "luna": [
+        false
+       ]
+      },
+      {
+       "pmid": "24246360",
+       "protein": "crp",
+       "outcome": "ischemic heart disease",
+       "sol": [
+        false,
+        true
+       ],
+       "luna": [
+        false
+       ]
+      }
+     ]
+    },
+    "pqtl_datasets": {
+     "agree": 52,
+     "of": 61,
+     "disagreements": [
+      {
+       "pmid": "25350643",
+       "protein": "dbp",
+       "outcome": "25ohd levels",
+       "sol": [
+        "canadian multicentre osteoporosis study (camos)"
+       ],
+       "luna": [
+        "not_stated"
+       ]
+      },
+      {
+       "pmid": "25350643",
+       "protein": "dbp",
+       "outcome": "bmi",
+       "sol": [
+        "canadian multicentre osteoporosis study (camos)"
+       ],
+       "luna": [
+        "not_stated"
+       ]
+      },
+      {
+       "pmid": "25350643",
+       "protein": "dbp",
+       "outcome": "bone mineral density",
+       "sol": [
+        "canadian multicentre osteoporosis study (camos)"
+       ],
+       "luna": [
+        "not_stated"
+       ]
+      },
+      {
+       "pmid": "25350643",
+       "protein": "dbp",
+       "outcome": "coronary artery disease",
+       "sol": [
+        "canadian multicentre osteoporosis study (camos)"
+       ],
+       "luna": [
+        "not_stated"
+       ]
+      },
+      {
+       "pmid": "25350643",
+       "protein": "dbp",
+       "outcome": "fasting glucose",
+       "sol": [
+        "canadian multicentre osteoporosis study (camos)"
+       ],
+       "luna": [
+        "not_stated"
+       ]
+      },
+      {
+       "pmid": "25350643",
+       "protein": "dbp",
+       "outcome": "fasting insulin",
+       "sol": [
+        "canadian multicentre osteoporosis study (camos)"
+       ],
+       "luna": [
+        "not_stated"
+       ]
+      },
+      {
+       "pmid": "25350643",
+       "protein": "dbp",
+       "outcome": "ischemic stroke",
+       "sol": [
+        "canadian multicentre osteoporosis study (camos)"
+       ],
+       "luna": [
+        "not_stated"
+       ]
+      },
+      {
+       "pmid": "25350643",
+       "protein": "dbp",
+       "outcome": "mean arterial pressure",
+       "sol": [
+        "canadian multicentre osteoporosis study (camos)"
+       ],
+       "luna": [
+        "not_stated"
+       ]
+      },
+      {
+       "pmid": "25350643",
+       "protein": "dbp",
+       "outcome": "type 2 diabetes",
+       "sol": [
+        "canadian multicentre osteoporosis study (camos)"
+       ],
+       "luna": [
+        "not_stated"
+       ]
+      }
+     ]
+    },
+    "outcome_datasets": {
+     "agree": 60,
+     "of": 61,
+     "disagreements": [
+      {
+       "pmid": "25350643",
+       "protein": "dbp",
+       "outcome": "25ohd levels",
+       "sol": [
+        "canadian multicentre osteoporosis study (camos)"
+       ],
+       "luna": [
+        "camos"
+       ]
+      }
+     ]
+    },
+    "evidence_type": {
+     "agree": 56,
+     "of": 61,
+     "disagreements": [
+      {
+       "pmid": "22421339",
+       "protein": "il6r",
+       "outcome": "coronary heart disease",
+       "sol": [
+        "variant_association"
+       ],
+       "luna": [
+        "other"
+       ]
+      },
+      {
+       "pmid": "24246360",
+       "protein": "crp",
+       "outcome": "all-cause mortality",
+       "sol": [
+        "mr_estimate",
+        "observational"
+       ],
+       "luna": [
+        "other"
+       ]
+      },
+      {
+       "pmid": "24246360",
+       "protein": "crp",
+       "outcome": "cancer",
+       "sol": [
+        "mr_estimate",
+        "observational"
+       ],
+       "luna": [
+        "other"
+       ]
+      },
+      {
+       "pmid": "24246360",
+       "protein": "crp",
+       "outcome": "chronic obstructive pulmonary disease",
+       "sol": [
+        "mr_estimate",
+        "observational"
+       ],
+       "luna": [
+        "other"
+       ]
+      },
+      {
+       "pmid": "24246360",
+       "protein": "crp",
+       "outcome": "ischemic heart disease",
+       "sol": [
+        "mr_estimate",
+        "observational"
+       ],
+       "luna": [
+        "other"
+       ]
+      }
+     ]
+    }
+   }
+  },
+  "abstracts_not_ineligible_in_sol_run": {
+   "n_abstracts": 1,
+   "pmids": [
+    "29875488"
+   ],
+   "sol_records": 0,
+   "luna_records": 0,
+   "sol_keys": 0,
+   "luna_keys": 0,
+   "matched_keys": 0,
+   "sol_only_records": 0,
+   "luna_only_records": 0,
+   "agreement_all_matched_keys": {
+    "direction": {
+     "agree": 0,
+     "of": 0,
+     "disagreements": []
+    },
+    "null_flag": {
+     "agree": 0,
+     "of": 0,
+     "disagreements": []
+    },
+    "pqtl_datasets": {
+     "agree": 0,
+     "of": 0,
+     "disagreements": []
+    },
+    "outcome_datasets": {
+     "agree": 0,
+     "of": 0,
+     "disagreements": []
+    },
+    "evidence_type": {
+     "agree": 0,
+     "of": 0,
+     "disagreements": []
+    }
+   }
+  },
+  "agreement_keys_with_one_record_per_model": {
+   "n_keys": 29,
+   "direction": {
+    "agree": 29,
+    "of": 29,
+    "disagreements": []
+   },
+   "null_flag": {
+    "agree": 29,
+    "of": 29,
+    "disagreements": []
+   },
+   "pqtl_datasets": {
+    "agree": 21,
+    "of": 29,
+    "disagreements": [
+     {
+      "pmid": "25350643",
+      "protein": "dbp",
+      "outcome": "bmi",
+      "sol": [
+       "canadian multicentre osteoporosis study (camos)"
+      ],
+      "luna": [
+       "not_stated"
+      ]
+     },
+     {
+      "pmid": "25350643",
+      "protein": "dbp",
+      "outcome": "bone mineral density",
+      "sol": [
+       "canadian multicentre osteoporosis study (camos)"
+      ],
+      "luna": [
+       "not_stated"
+      ]
+     },
+     {
+      "pmid": "25350643",
+      "protein": "dbp",
+      "outcome": "coronary artery disease",
+      "sol": [
+       "canadian multicentre osteoporosis study (camos)"
+      ],
+      "luna": [
+       "not_stated"
+      ]
+     },
+     {
+      "pmid": "25350643",
+      "protein": "dbp",
+      "outcome": "fasting glucose",
+      "sol": [
+       "canadian multicentre osteoporosis study (camos)"
+      ],
+      "luna": [
+       "not_stated"
+      ]
+     },
+     {
+      "pmid": "25350643",
+      "protein": "dbp",
+      "outcome": "fasting insulin",
+      "sol": [
+       "canadian multicentre osteoporosis study (camos)"
+      ],
+      "luna": [
+       "not_stated"
+      ]
+     },
+     {
+      "pmid": "25350643",
+      "protein": "dbp",
+      "outcome": "ischemic stroke",
+      "sol": [
+       "canadian multicentre osteoporosis study (camos)"
+      ],
+      "luna": [
+       "not_stated"
+      ]
+     },
+     {
+      "pmid": "25350643",
+      "protein": "dbp",
+      "outcome": "mean arterial pressure",
+      "sol": [
+       "canadian multicentre osteoporosis study (camos)"
+      ],
+      "luna": [
+       "not_stated"
+      ]
+     },
+     {
+      "pmid": "25350643",
+      "protein": "dbp",
+      "outcome": "type 2 diabetes",
+      "sol": [
+       "canadian multicentre osteoporosis study (camos)"
+      ],
+      "luna": [
+       "not_stated"
+      ]
+     }
+    ]
+   },
+   "outcome_datasets": {
+    "agree": 29,
+    "of": 29,
+    "disagreements": []
+   },
+   "evidence_type": {
+    "agree": 28,
+    "of": 29,
+    "disagreements": [
+     {
+      "pmid": "22421339",
+      "protein": "il6r",
+      "outcome": "coronary heart disease",
+      "sol": [
+       "variant_association"
+      ],
+      "luna": [
+       "other"
+      ]
+     }
+    ]
+   }
+  },
+  "evidence_type_counts": {
+   "sol": {
+    "other": 1,
+    "experimental": 2,
+    "variant_association": 41,
+    "mr_estimate": 77,
+    "observational": 20
+   },
+   "luna": {
+    "experimental": 1,
+    "variant_association": 24,
+    "other": 5,
+    "mr_estimate": 68,
+    "observational": 11
+   }
+  },
+  "per_abstract": {
+   "29875488": {
+    "sol_eligibility_decision": "eligible_count_not_stated",
+    "luna_eligibility_decision": "eligible_count_not_stated",
+    "sol_records": 0,
+    "luna_records": 0,
+    "sol_keys": 0,
+    "luna_keys": 0,
+    "matched_keys": 0
+   },
+   "28240269": {
+    "sol_eligibility_decision": "ineligible",
+    "luna_eligibility_decision": "ineligible",
+    "sol_records": 0,
+    "luna_records": 0,
+    "sol_keys": 0,
+    "luna_keys": 0,
+    "matched_keys": 0
+   },
+   "28369058": {
+    "sol_eligibility_decision": "ineligible",
+    "luna_eligibility_decision": "ineligible",
+    "sol_records": 1,
+    "luna_records": 0,
+    "sol_keys": 1,
+    "luna_keys": 0,
+    "matched_keys": 0
+   },
+   "30072576": {
+    "sol_eligibility_decision": "ineligible",
+    "luna_eligibility_decision": "ineligible",
+    "sol_records": 0,
+    "luna_records": 0,
+    "sol_keys": 0,
+    "luna_keys": 0,
+    "matched_keys": 0
+   },
+   "30111768": {
+    "sol_eligibility_decision": "ineligible",
+    "luna_eligibility_decision": "ineligible",
+    "sol_records": 0,
+    "luna_records": 0,
+    "sol_keys": 0,
+    "luna_keys": 0,
+    "matched_keys": 0
+   },
+   "29258991": {
+    "sol_eligibility_decision": "ineligible",
+    "luna_eligibility_decision": "ineligible",
+    "sol_records": 2,
+    "luna_records": 1,
+    "sol_keys": 2,
+    "luna_keys": 1,
+    "matched_keys": 1
+   },
+   "27989323": {
+    "sol_eligibility_decision": "ineligible",
+    "luna_eligibility_decision": "ineligible",
+    "sol_records": 0,
+    "luna_records": 0,
+    "sol_keys": 0,
+    "luna_keys": 0,
+    "matched_keys": 0
+   },
+   "22421340": {
+    "sol_eligibility_decision": "ineligible",
+    "luna_eligibility_decision": "ineligible",
+    "sol_records": 4,
+    "luna_records": 4,
+    "sol_keys": 4,
+    "luna_keys": 4,
+    "matched_keys": 3
+   },
+   "22421339": {
+    "sol_eligibility_decision": "ineligible",
+    "luna_eligibility_decision": "ineligible",
+    "sol_records": 12,
+    "luna_records": 1,
+    "sol_keys": 12,
+    "luna_keys": 1,
+    "matched_keys": 1
+   },
+   "21325005": {
+    "sol_eligibility_decision": "ineligible",
+    "luna_eligibility_decision": "ineligible",
+    "sol_records": 6,
+    "luna_records": 3,
+    "sol_keys": 1,
+    "luna_keys": 1,
+    "matched_keys": 1
+   },
+   "25726324": {
+    "sol_eligibility_decision": "ineligible",
+    "luna_eligibility_decision": "ineligible",
+    "sol_records": 9,
+    "luna_records": 10,
+    "sol_keys": 9,
+    "luna_keys": 10,
+    "matched_keys": 7
+   },
+   "19509380": {
+    "sol_eligibility_decision": "ineligible",
+    "luna_eligibility_decision": "ineligible",
+    "sol_records": 6,
+    "luna_records": 3,
+    "sol_keys": 1,
+    "luna_keys": 1,
+    "matched_keys": 1
+   },
+   "25938632": {
+    "sol_eligibility_decision": "ineligible",
+    "luna_eligibility_decision": "ineligible",
+    "sol_records": 11,
+    "luna_records": 8,
+    "sol_keys": 4,
+    "luna_keys": 3,
+    "matched_keys": 3
+   },
+   "29728394": {
+    "sol_eligibility_decision": "ineligible",
+    "luna_eligibility_decision": "ineligible",
+    "sol_records": 3,
+    "luna_records": 3,
+    "sol_keys": 3,
+    "luna_keys": 3,
+    "matched_keys": 0
+   },
+   "29191953": {
+    "sol_eligibility_decision": "ineligible",
+    "luna_eligibility_decision": "ineligible",
+    "sol_records": 2,
+    "luna_records": 2,
+    "sol_keys": 2,
+    "luna_keys": 2,
+    "matched_keys": 2
+   },
+   "27882376": {
+    "sol_eligibility_decision": "ineligible",
+    "luna_eligibility_decision": "ineligible",
+    "sol_records": 9,
+    "luna_records": 5,
+    "sol_keys": 3,
+    "luna_keys": 3,
+    "matched_keys": 3
+   },
+   "27327646": {
+    "sol_eligibility_decision": "ineligible",
+    "luna_eligibility_decision": "ineligible",
+    "sol_records": 33,
+    "luna_records": 33,
+    "sol_keys": 15,
+    "luna_keys": 15,
+    "matched_keys": 15
+   },
+   "27225428": {
+    "sol_eligibility_decision": "ineligible",
+    "luna_eligibility_decision": "ineligible",
+    "sol_records": 3,
+    "luna_records": 3,
+    "sol_keys": 3,
+    "luna_keys": 3,
+    "matched_keys": 3
+   },
+   "26886630": {
+    "sol_eligibility_decision": "ineligible",
+    "luna_eligibility_decision": "ineligible",
+    "sol_records": 4,
+    "luna_records": 3,
+    "sol_keys": 3,
+    "luna_keys": 2,
+    "matched_keys": 2
+   },
+   "25350643": {
+    "sol_eligibility_decision": "ineligible",
+    "luna_eligibility_decision": "ineligible",
+    "sol_records": 14,
+    "luna_records": 13,
+    "sol_keys": 11,
+    "luna_keys": 11,
+    "matched_keys": 9
+   },
+   "24246360": {
+    "sol_eligibility_decision": "ineligible",
+    "luna_eligibility_decision": "ineligible",
+    "sol_records": 12,
+    "luna_records": 8,
+    "sol_keys": 6,
+    "luna_keys": 6,
+    "matched_keys": 6
+   },
+   "27019110": {
+    "sol_eligibility_decision": "ineligible",
+    "luna_eligibility_decision": "ineligible",
+    "sol_records": 0,
+    "luna_records": 0,
+    "sol_keys": 0,
+    "luna_keys": 0,
+    "matched_keys": 0
+   },
+   "27506385": {
+    "sol_eligibility_decision": "ineligible",
+    "luna_eligibility_decision": "ineligible",
+    "sol_records": 0,
+    "luna_records": 0,
+    "sol_keys": 0,
+    "luna_keys": 0,
+    "matched_keys": 0
+   },
+   "18464913": {
+    "sol_eligibility_decision": "ineligible",
+    "luna_eligibility_decision": "ineligible",
+    "sol_records": 0,
+    "luna_records": 3,
+    "sol_keys": 0,
+    "luna_keys": 1,
+    "matched_keys": 0
+   },
+   "23487758": {
+    "sol_eligibility_decision": "ineligible",
+    "luna_eligibility_decision": "ineligible",
+    "sol_records": 0,
+    "luna_records": 0,
+    "sol_keys": 0,
+    "luna_keys": 0,
+    "matched_keys": 0
+   },
+   "22595970": {
+    "sol_eligibility_decision": "ineligible",
+    "luna_eligibility_decision": "ineligible",
+    "sol_records": 0,
+    "luna_records": 0,
+    "sol_keys": 0,
+    "luna_keys": 0,
+    "matched_keys": 0
+   },
+   "29226067": {
+    "sol_eligibility_decision": "ineligible",
+    "luna_eligibility_decision": "ineligible",
+    "sol_records": 0,
+    "luna_records": 0,
+    "sol_keys": 0,
+    "luna_keys": 0,
+    "matched_keys": 0
+   },
+   "29040597": {
+    "sol_eligibility_decision": "ineligible",
+    "luna_eligibility_decision": "ineligible",
+    "sol_records": 0,
+    "luna_records": 0,
+    "sol_keys": 0,
+    "luna_keys": 0,
+    "matched_keys": 0
+   },
+   "28569269": {
+    "sol_eligibility_decision": "ineligible",
+    "luna_eligibility_decision": "ineligible",
+    "sol_records": 0,
+    "luna_records": 0,
+    "sol_keys": 0,
+    "luna_keys": 0,
+    "matched_keys": 0
+   },
+   "27959767": {
+    "sol_eligibility_decision": "ineligible",
+    "luna_eligibility_decision": "ineligible",
+    "sol_records": 10,
+    "luna_records": 6,
+    "sol_keys": 4,
+    "luna_keys": 4,
+    "matched_keys": 4
+   }
+  },
+  "matched_keys": [
+   {
+    "pmid": "29258991",
+    "protein": "phosphatase 1g",
+    "outcome": "apolipoprotein e protein levels",
+    "sol": {
+     "n_records": 1,
+     "direction": [
+      "raises"
+     ],
+     "null_flag": [
+      false
+     ],
+     "pqtl_datasets": [
+      "not_stated"
+     ],
+     "outcome_datasets": [
+      "not_stated"
+     ],
+     "evidence_type": [
+      "experimental"
+     ]
+    },
+    "luna": {
+     "n_records": 1,
+     "direction": [
+      "raises"
+     ],
+     "null_flag": [
+      false
+     ],
+     "pqtl_datasets": [
+      "not_stated"
+     ],
+     "outcome_datasets": [
+      "not_stated"
+     ],
+     "evidence_type": [
+      "experimental"
+     ]
+    },
+    "agree": {
+     "direction": true,
+     "null_flag": true,
+     "pqtl_datasets": true,
+     "outcome_datasets": true,
+     "evidence_type": true
+    }
+   },
+   {
+    "pmid": "22421340",
+    "protein": "il6r",
+    "outcome": "c-reactive protein",
+    "sol": {
+     "n_records": 1,
+     "direction": [
+      "not_stated"
+     ],
+     "null_flag": [
+      false
+     ],
+     "pqtl_datasets": [
+      "not_stated"
+     ],
+     "outcome_datasets": [
+      "not_stated"
+     ],
+     "evidence_type": [
+      "variant_association"
+     ]
+    },
+    "luna": {
+     "n_records": 1,
+     "direction": [
+      "not_stated"
+     ],
+     "null_flag": [
+      false
+     ],
+     "pqtl_datasets": [
+      "not_stated"
+     ],
+     "outcome_datasets": [
+      "not_stated"
+     ],
+     "evidence_type": [
+      "variant_association"
+     ]
+    },
+    "agree": {
+     "direction": true,
+     "null_flag": true,
+     "pqtl_datasets": true,
+     "outcome_datasets": true,
+     "evidence_type": true
+    }
+   },
+   {
+    "pmid": "22421340",
+    "protein": "il6r",
+    "outcome": "coronary heart disease events",
+    "sol": {
+     "n_records": 1,
+     "direction": [
+      "not_stated"
+     ],
+     "null_flag": [
+      false
+     ],
+     "pqtl_datasets": [
+      "not_stated"
+     ],
+     "outcome_datasets": [
+      "not_stated"
+     ],
+     "evidence_type": [
+      "variant_association"
+     ]
+    },
+    "luna": {
+     "n_records": 1,
+     "direction": [
+      "not_stated"
+     ],
+     "null_flag": [
+      false
+     ],
+     "pqtl_datasets": [
+      "not_stated"
+     ],
+     "outcome_datasets": [
+      "not_stated"
+     ],
+     "evidence_type": [
+      "variant_association"
+     ]
+    },
+    "agree": {
+     "direction": true,
+     "null_flag": true,
+     "pqtl_datasets": true,
+     "outcome_datasets": true,
+     "evidence_type": true
+    }
+   },
+   {
+    "pmid": "22421340",
+    "protein": "il6r",
+    "outcome": "fibrinogen concentrations",
+    "sol": {
+     "n_records": 1,
+     "direction": [
+      "not_stated"
+     ],
+     "null_flag": [
+      false
+     ],
+     "pqtl_datasets": [
+      "not_stated"
+     ],
+     "outcome_datasets": [
+      "not_stated"
+     ],
+     "evidence_type": [
+      "variant_association"
+     ]
+    },
+    "luna": {
+     "n_records": 1,
+     "direction": [
+      "not_stated"
+     ],
+     "null_flag": [
+      false
+     ],
+     "pqtl_datasets": [
+      "not_stated"
+     ],
+     "outcome_datasets": [
+      "not_stated"
+     ],
+     "evidence_type": [
+      "variant_association"
+     ]
+    },
+    "agree": {
+     "direction": true,
+     "null_flag": true,
+     "pqtl_datasets": true,
+     "outcome_datasets": true,
+     "evidence_type": true
+    }
+   },
+   {
+    "pmid": "22421339",
+    "protein": "il6r",
+    "outcome": "coronary heart disease",
+    "sol": {
+     "n_records": 1,
+     "direction": [
+      "not_stated"
+     ],
+     "null_flag": [
+      false
+     ],
+     "pqtl_datasets": [
+      "not_stated"
+     ],
+     "outcome_datasets": [
+      "not_stated"
+     ],
+     "evidence_type": [
+      "variant_association"
+     ]
+    },
+    "luna": {
+     "n_records": 1,
+     "direction": [
+      "not_stated"
+     ],
+     "null_flag": [
+      false
+     ],
+     "pqtl_datasets": [
+      "not_stated"
+     ],
+     "outcome_datasets": [
+      "not_stated"
+     ],
+     "evidence_type": [
+      "other"
+     ]
+    },
+    "agree": {
+     "direction": true,
+     "null_flag": true,
+     "pqtl_datasets": true,
+     "outcome_datasets": true,
+     "evidence_type": false
+    }
+   },
+   {
+    "pmid": "21325005",
+    "protein": "c reactive protein",
+    "outcome": "coronary heart disease",
+    "sol": {
+     "n_records": 6,
+     "direction": [
+      "raises",
+      "reported_nonsignificant_or_null"
+     ],
+     "null_flag": [
+      false,
+      true
+     ],
+     "pqtl_datasets": [
+      "not_stated"
+     ],
+     "outcome_datasets": [
+      "not_stated"
+     ],
+     "evidence_type": [
+      "mr_estimate",
+      "observational",
+      "variant_association"
+     ]
+    },
+    "luna": {
+     "n_records": 3,
+     "direction": [
+      "raises",
+      "reported_nonsignificant_or_null"
+     ],
+     "null_flag": [
+      false,
+      true
+     ],
+     "pqtl_datasets": [
+      "not_stated"
+     ],
+     "outcome_datasets": [
+      "not_stated"
+     ],
+     "evidence_type": [
+      "mr_estimate",
+      "observational",
+      "variant_association"
+     ]
+    },
+    "agree": {
+     "direction": true,
+     "null_flag": true,
+     "pqtl_datasets": true,
+     "outcome_datasets": true,
+     "evidence_type": true
+    }
+   },
+   {
+    "pmid": "25726324",
+    "protein": "il-1ra",
+    "outcome": "abdominal aortic aneurysm",
+    "sol": {
+     "n_records": 1,
+     "direction": [
+      "raises"
+     ],
+     "null_flag": [
+      false
+     ],
+     "pqtl_datasets": [
+      "not_stated"
+     ],
+     "outcome_datasets": [
+      "not_stated"
+     ],
+     "evidence_type": [
+      "mr_estimate"
+     ]
+    },
+    "luna": {
+     "n_records": 1,
+     "direction": [
+      "raises"
+     ],
+     "null_flag": [
+      false
+     ],
+     "pqtl_datasets": [
+      "not_stated"
+     ],
+     "outcome_datasets": [
+      "not_stated"
+     ],
+     "evidence_type": [
+      "mr_estimate"
+     ]
+    },
+    "agree": {
+     "direction": true,
+     "null_flag": true,
+     "pqtl_datasets": true,
+     "outcome_datasets": true,
+     "evidence_type": true
+    }
+   },
+   {
+    "pmid": "25726324",
+    "protein": "il-1ra",
+    "outcome": "c-reactive protein",
+    "sol": {
+     "n_records": 1,
+     "direction": [
+      "lowers"
+     ],
+     "null_flag": [
+      false
+     ],
+     "pqtl_datasets": [
+      "not_stated"
+     ],
+     "outcome_datasets": [
+      "not_stated"
+     ],
+     "evidence_type": [
+      "mr_estimate"
+     ]
+    },
+    "luna": {
+     "n_records": 1,
+     "direction": [
+      "lowers"
+     ],
+     "null_flag": [
+      false
+     ],
+     "pqtl_datasets": [
+      "not_stated"
+     ],
+     "outcome_datasets": [
+      "not_stated"
+     ],
+     "evidence_type": [
+      "mr_estimate"
+     ]
+    },
+    "agree": {
+     "direction": true,
+     "null_flag": true,
+     "pqtl_datasets": true,
+     "outcome_datasets": true,
+     "evidence_type": true
+    }
+   },
+   {
+    "pmid": "25726324",
+    "protein": "il-1ra",
+    "outcome": "coronary heart disease",
+    "sol": {
+     "n_records": 1,
+     "direction": [
+      "raises"
+     ],
+     "null_flag": [
+      false
+     ],
+     "pqtl_datasets": [
+      "not_stated"
+     ],
+     "outcome_datasets": [
+      "not_stated"
+     ],
+     "evidence_type": [
+      "mr_estimate"
+     ]
+    },
+    "luna": {
+     "n_records": 1,
+     "direction": [
+      "raises"
+     ],
+     "null_flag": [
+      false
+     ],
+     "pqtl_datasets": [
+      "not_stated"
+     ],
+     "outcome_datasets": [
+      "not_stated"
+     ],
+     "evidence_type": [
+      "mr_estimate"
+     ]
+    },
+    "agree": {
+     "direction": true,
+     "null_flag": true,
+     "pqtl_datasets": true,
+     "outcome_datasets": true,
+     "evidence_type": true
+    }
+   },
+   {
+    "pmid": "25726324",
+    "protein": "il-1ra",
+    "outcome": "interleukin 6",
+    "sol": {
+     "n_records": 1,
+     "direction": [
+      "lowers"
+     ],
+     "null_flag": [
+      false
+     ],
+     "pqtl_datasets": [
+      "not_stated"
+     ],
+     "outcome_datasets": [
+      "not_stated"
+     ],
+     "evidence_type": [
+      "mr_estimate"
+     ]
+    },
+    "luna": {
+     "n_records": 1,
+     "direction": [
+      "lowers"
+     ],
+     "null_flag": [
+      false
+     ],
+     "pqtl_datasets": [
+      "not_stated"
+     ],
+     "outcome_datasets": [
+      "not_stated"
+     ],
+     "evidence_type": [
+      "mr_estimate"
+     ]
+    },
+    "agree": {
+     "direction": true,
+     "null_flag": true,
+     "pqtl_datasets": true,
+     "outcome_datasets": true,
+     "evidence_type": true
+    }
+   },
+   {
+    "pmid": "25726324",
+    "protein": "il-1ra",
+    "outcome": "ischaemic stroke",
+    "sol": {
+     "n_records": 1,
+     "direction": [
+      "reported_nonsignificant_or_null"
+     ],
+     "null_flag": [
+      true
+     ],
+     "pqtl_datasets": [
+      "not_stated"
+     ],
+     "outcome_datasets": [
+      "not_stated"
+     ],
+     "evidence_type": [
+      "mr_estimate"
+     ]
+    },
+    "luna": {
+     "n_records": 1,
+     "direction": [
+      "reported_nonsignificant_or_null"
+     ],
+     "null_flag": [
+      true
+     ],
+     "pqtl_datasets": [
+      "not_stated"
+     ],
+     "outcome_datasets": [
+      "not_stated"
+     ],
+     "evidence_type": [
+      "mr_estimate"
+     ]
+    },
+    "agree": {
+     "direction": true,
+     "null_flag": true,
+     "pqtl_datasets": true,
+     "outcome_datasets": true,
+     "evidence_type": true
+    }
+   },
+   {
+    "pmid": "25726324",
+    "protein": "il-1ra",
+    "outcome": "rheumatoid arthritis",
+    "sol": {
+     "n_records": 1,
+     "direction": [
+      "lowers"
+     ],
+     "null_flag": [
+      false
+     ],
+     "pqtl_datasets": [
+      "not_stated"
+     ],
+     "outcome_datasets": [
+      "not_stated"
+     ],
+     "evidence_type": [
+      "mr_estimate"
+     ]
+    },
+    "luna": {
+     "n_records": 1,
+     "direction": [
+      "lowers"
+     ],
+     "null_flag": [
+      false
+     ],
+     "pqtl_datasets": [
+      "not_stated"
+     ],
+     "outcome_datasets": [
+      "not_stated"
+     ],
+     "evidence_type": [
+      "mr_estimate"
+     ]
+    },
+    "agree": {
+     "direction": true,
+     "null_flag": true,
+     "pqtl_datasets": true,
+     "outcome_datasets": true,
+     "evidence_type": true
+    }
+   },
+   {
+    "pmid": "25726324",
+    "protein": "il-1ra",
+    "outcome": "type 2 diabetes",
+    "sol": {
+     "n_records": 1,
+     "direction": [
+      "reported_nonsignificant_or_null"
+     ],
+     "null_flag": [
+      true
+     ],
+     "pqtl_datasets": [
+      "not_stated"
+     ],
+     "outcome_datasets": [
+      "not_stated"
+     ],
+     "evidence_type": [
+      "mr_estimate"
+     ]
+    },
+    "luna": {
+     "n_records": 1,
+     "direction": [
+      "reported_nonsignificant_or_null"
+     ],
+     "null_flag": [
+      true
+     ],
+     "pqtl_datasets": [
+      "not_stated"
+     ],
+     "outcome_datasets": [
+      "not_stated"
+     ],
+     "evidence_type": [
+      "mr_estimate"
+     ]
+    },
+    "agree": {
+     "direction": true,
+     "null_flag": true,
+     "pqtl_datasets": true,
+     "outcome_datasets": true,
+     "evidence_type": true
+    }
+   },
+   {
+    "pmid": "19509380",
+    "protein": "lipoprotein(a)",
+    "outcome": "mi",
+    "sol": {
+     "n_records": 6,
+     "direction": [
+      "raises",
+      "reported_nonsignificant_or_null"
+     ],
+     "null_flag": [
+      false,
+      true
+     ],
+     "pqtl_datasets": [
+      "cchs",
+      "cgps",
+      "not_stated"
+     ],
+     "outcome_datasets": [
+      "cchs",
+      "cgps",
+      "cihds"
+     ],
+     "evidence_type": [
+      "mr_estimate",
+      "observational"
+     ]
+    },
+    "luna": {
+     "n_records": 3,
+     "direction": [
+      "raises"
+     ],
+     "null_flag": [
+      false
+     ],
+     "pqtl_datasets": [
+      "cchs",
+      "cgps",
+      "not_stated"
+     ],
+     "outcome_datasets": [
+      "cchs",
+      "cgps",
+      "cihds"
+     ],
+     "evidence_type": [
+      "mr_estimate",
+      "observational"
+     ]
+    },
+    "agree": {
+     "direction": false,
+     "null_flag": false,
+     "pqtl_datasets": true,
+     "outcome_datasets": true,
+     "evidence_type": true
+    }
+   },
+   {
+    "pmid": "25938632",
+    "protein": "lipoprotein(a)",
+    "outcome": "aortic valve stenosis",
+    "sol": {
+     "n_records": 4,
+     "direction": [
+      "raises"
+     ],
+     "null_flag": [
+      false
+     ],
+     "pqtl_datasets": [
+      "not_stated"
+     ],
+     "outcome_datasets": [
+      "not_stated"
+     ],
+     "evidence_type": [
+      "mr_estimate",
+      "observational"
+     ]
+    },
+    "luna": {
+     "n_records": 3,
+     "direction": [
+      "raises"
+     ],
+     "null_flag": [
+      false
+     ],
+     "pqtl_datasets": [
+      "not_stated"
+     ],
+     "outcome_datasets": [
+      "not_stated"
+     ],
+     "evidence_type": [
+      "mr_estimate",
+      "observational"
+     ]
+    },
+    "agree": {
+     "direction": true,
+     "null_flag": true,
+     "pqtl_datasets": true,
+     "outcome_datasets": true,
+     "evidence_type": true
+    }
+   },
+   {
+    "pmid": "25938632",
+    "protein": "lipoprotein(a)",
+    "outcome": "crp",
+    "sol": {
+     "n_records": 3,
+     "direction": [
+      "raises",
+      "reported_nonsignificant_or_null"
+     ],
+     "null_flag": [
+      false,
+      true
+     ],
+     "pqtl_datasets": [
+      "not_stated"
+     ],
+     "outcome_datasets": [
+      "not_stated"
+     ],
+     "evidence_type": [
+      "mr_estimate",
+      "observational"
+     ]
+    },
+    "luna": {
+     "n_records": 2,
+     "direction": [
+      "raises",
+      "reported_nonsignificant_or_null"
+     ],
+     "null_flag": [
+      false,
+      true
+     ],
+     "pqtl_datasets": [
+      "not_stated"
+     ],
+     "outcome_datasets": [
+      "not_stated"
+     ],
+     "evidence_type": [
+      "mr_estimate",
+      "observational"
+     ]
+    },
+    "agree": {
+     "direction": true,
+     "null_flag": true,
+     "pqtl_datasets": true,
+     "outcome_datasets": true,
+     "evidence_type": true
+    }
+   },
+   {
+    "pmid": "25938632",
+    "protein": "lipoprotein(a)",
+    "outcome": "myocardial infarction",
+    "sol": {
+     "n_records": 3,
+     "direction": [
+      "raises"
+     ],
+     "null_flag": [
+      false
+     ],
+     "pqtl_datasets": [
+      "not_stated"
+     ],
+     "outcome_datasets": [
+      "not_stated"
+     ],
+     "evidence_type": [
+      "mr_estimate",
+      "observational"
+     ]
+    },
+    "luna": {
+     "n_records": 3,
+     "direction": [
+      "raises"
+     ],
+     "null_flag": [
+      false
+     ],
+     "pqtl_datasets": [
+      "not_stated"
+     ],
+     "outcome_datasets": [
+      "not_stated"
+     ],
+     "evidence_type": [
+      "mr_estimate",
+      "observational"
+     ]
+    },
+    "agree": {
+     "direction": true,
+     "null_flag": true,
+     "pqtl_datasets": true,
+     "outcome_datasets": true,
+     "evidence_type": true
+    }
+   },
+   {
+    "pmid": "29191953",
+    "protein": "sp-d",
+    "outcome": "copd",
+    "sol": {
+     "n_records": 1,
+     "direction": [
+      "lowers"
+     ],
+     "null_flag": [
+      false
+     ],
+     "pqtl_datasets": [
+      "not_stated"
+     ],
+     "outcome_datasets": [
+      "not_stated"
+     ],
+     "evidence_type": [
+      "mr_estimate"
+     ]
+    },
+    "luna": {
+     "n_records": 1,
+     "direction": [
+      "lowers"
+     ],
+     "null_flag": [
+      false
+     ],
+     "pqtl_datasets": [
+      "not_stated"
+     ],
+     "outcome_datasets": [
+      "not_stated"
+     ],
+     "evidence_type": [
+      "mr_estimate"
+     ]
+    },
+    "agree": {
+     "direction": true,
+     "null_flag": true,
+     "pqtl_datasets": true,
+     "outcome_datasets": true,
+     "evidence_type": true
+    }
+   },
+   {
+    "pmid": "29191953",
+    "protein": "sp-d",
+    "outcome": "lung function decline",
+    "sol": {
+     "n_records": 1,
+     "direction": [
+      "lowers"
+     ],
+     "null_flag": [
+      false
+     ],
+     "pqtl_datasets": [
+      "not_stated"
+     ],
+     "outcome_datasets": [
+      "not_stated"
+     ],
+     "evidence_type": [
+      "mr_estimate"
+     ]
+    },
+    "luna": {
+     "n_records": 1,
+     "direction": [
+      "lowers"
+     ],
+     "null_flag": [
+      false
+     ],
+     "pqtl_datasets": [
+      "not_stated"
+     ],
+     "outcome_datasets": [
+      "not_stated"
+     ],
+     "evidence_type": [
+      "mr_estimate"
+     ]
+    },
+    "agree": {
+     "direction": true,
+     "null_flag": true,
+     "pqtl_datasets": true,
+     "outcome_datasets": true,
+     "evidence_type": true
+    }
+   },
+   {
+    "pmid": "27882376",
+    "protein": "protein c",
+    "outcome": "cad/mi",
+    "sol": {
+     "n_records": 3,
+     "direction": [
+      "lowers"
+     ],
+     "null_flag": [
+      false
+     ],
+     "pqtl_datasets": [
+      "not_stated"
+     ],
+     "outcome_datasets": [
+      "cardiogramplusc4d"
+     ],
+     "evidence_type": [
+      "mr_estimate"
+     ]
+    },
+    "luna": {
+     "n_records": 3,
+     "direction": [
+      "lowers"
+     ],
+     "null_flag": [
+      false
+     ],
+     "pqtl_datasets": [
+      "not_stated"
+     ],
+     "outcome_datasets": [
+      "cardiogramplusc4d"
+     ],
+     "evidence_type": [
+      "mr_estimate"
+     ]
+    },
+    "agree": {
+     "direction": true,
+     "null_flag": true,
+     "pqtl_datasets": true,
+     "outcome_datasets": true,
+     "evidence_type": true
+    }
+   },
+   {
+    "pmid": "27882376",
+    "protein": "protein c",
+    "outcome": "diabetes",
+    "sol": {
+     "n_records": 3,
+     "direction": [
+      "reported_nonsignificant_or_null"
+     ],
+     "null_flag": [
+      true
+     ],
+     "pqtl_datasets": [
+      "not_stated"
+     ],
+     "outcome_datasets": [
+      "diabetes genetics replication and meta-analysis"
+     ],
+     "evidence_type": [
+      "mr_estimate"
+     ]
+    },
+    "luna": {
+     "n_records": 1,
+     "direction": [
+      "reported_nonsignificant_or_null"
+     ],
+     "null_flag": [
+      true
+     ],
+     "pqtl_datasets": [
+      "not_stated"
+     ],
+     "outcome_datasets": [
+      "diabetes genetics replication and meta-analysis"
+     ],
+     "evidence_type": [
+      "mr_estimate"
+     ]
+    },
+    "agree": {
+     "direction": true,
+     "null_flag": true,
+     "pqtl_datasets": true,
+     "outcome_datasets": true,
+     "evidence_type": true
+    }
+   },
+   {
+    "pmid": "27882376",
+    "protein": "protein c",
+    "outcome": "lipids",
+    "sol": {
+     "n_records": 3,
+     "direction": [
+      "reported_nonsignificant_or_null"
+     ],
+     "null_flag": [
+      true
+     ],
+     "pqtl_datasets": [
+      "not_stated"
+     ],
+     "outcome_datasets": [
+      "global lipids genetics consortium results"
+     ],
+     "evidence_type": [
+      "mr_estimate"
+     ]
+    },
+    "luna": {
+     "n_records": 1,
+     "direction": [
+      "reported_nonsignificant_or_null"
+     ],
+     "null_flag": [
+      true
+     ],
+     "pqtl_datasets": [
+      "not_stated"
+     ],
+     "outcome_datasets": [
+      "global lipids genetics consortium results"
+     ],
+     "evidence_type": [
+      "mr_estimate"
+     ]
+    },
+    "agree": {
+     "direction": true,
+     "null_flag": true,
+     "pqtl_datasets": true,
+     "outcome_datasets": true,
+     "evidence_type": true
+    }
+   },
+   {
+    "pmid": "27327646",
+    "protein": "crp",
+    "outcome": "bipolar disorder",
+    "sol": {
+     "n_records": 3,
+     "direction": [
+      "not_stated",
+      "raises",
+      "reported_nonsignificant_or_null"
+     ],
+     "null_flag": [
+      false,
+      true
+     ],
+     "pqtl_datasets": [
+      "not_stated"
+     ],
+     "outcome_datasets": [
+      "not_stated"
+     ],
+     "evidence_type": [
+      "mr_estimate"
+     ]
+    },
+    "luna": {
+     "n_records": 3,
+     "direction": [
+      "not_stated",
+      "raises",
+      "reported_nonsignificant_or_null"
+     ],
+     "null_flag": [
+      false,
+      true
+     ],
+     "pqtl_datasets": [
+      "not_stated"
+     ],
+     "outcome_datasets": [
+      "not_stated"
+     ],
+     "evidence_type": [
+      "mr_estimate"
+     ]
+    },
+    "agree": {
+     "direction": true,
+     "null_flag": true,
+     "pqtl_datasets": true,
+     "outcome_datasets": true,
+     "evidence_type": true
+    }
+   },
+   {
+    "pmid": "27327646",
+    "protein": "crp",
+    "outcome": "coronary artery disease",
+    "sol": {
+     "n_records": 2,
+     "direction": [
+      "lowers",
+      "reported_nonsignificant_or_null"
+     ],
+     "null_flag": [
+      false,
+      true
+     ],
+     "pqtl_datasets": [
+      "not_stated"
+     ],
+     "outcome_datasets": [
+      "not_stated"
+     ],
+     "evidence_type": [
+      "mr_estimate"
+     ]
+    },
+    "luna": {
+     "n_records": 2,
+     "direction": [
+      "lowers",
+      "reported_nonsignificant_or_null"
+     ],
+     "null_flag": [
+      false,
+      true
+     ],
+     "pqtl_datasets": [
+      "not_stated"
+     ],
+     "outcome_datasets": [
+      "not_stated"
+     ],
+     "evidence_type": [
+      "mr_estimate"
+     ]
+    },
+    "agree": {
+     "direction": true,
+     "null_flag": true,
+     "pqtl_datasets": true,
+     "outcome_datasets": true,
+     "evidence_type": true
+    }
+   },
+   {
+    "pmid": "27327646",
+    "protein": "crp",
+    "outcome": "crohn disease",
+    "sol": {
+     "n_records": 2,
+     "direction": [
+      "lowers",
+      "reported_nonsignificant_or_null"
+     ],
+     "null_flag": [
+      false,
+      true
+     ],
+     "pqtl_datasets": [
+      "not_stated"
+     ],
+     "outcome_datasets": [
+      "not_stated"
+     ],
+     "evidence_type": [
+      "mr_estimate"
+     ]
+    },
+    "luna": {
+     "n_records": 2,
+     "direction": [
+      "lowers",
+      "reported_nonsignificant_or_null"
+     ],
+     "null_flag": [
+      false,
+      true
+     ],
+     "pqtl_datasets": [
+      "not_stated"
+     ],
+     "outcome_datasets": [
+      "not_stated"
+     ],
+     "evidence_type": [
+      "mr_estimate"
+     ]
+    },
+    "agree": {
+     "direction": true,
+     "null_flag": true,
+     "pqtl_datasets": true,
+     "outcome_datasets": true,
+     "evidence_type": true
+    }
+   },
+   {
+    "pmid": "27327646",
+    "protein": "crp",
+    "outcome": "diastolic blood pressure",
+    "sol": {
+     "n_records": 3,
+     "direction": [
+      "not_stated",
+      "raises",
+      "reported_nonsignificant_or_null"
+     ],
+     "null_flag": [
+      false,
+      true
+     ],
+     "pqtl_datasets": [
+      "not_stated"
+     ],
+     "outcome_datasets": [
+      "not_stated"
+     ],
+     "evidence_type": [
+      "mr_estimate"
+     ]
+    },
+    "luna": {
+     "n_records": 3,
+     "direction": [
+      "not_stated",
+      "raises",
+      "reported_nonsignificant_or_null"
+     ],
+     "null_flag": [
+      false,
+      true
+     ],
+     "pqtl_datasets": [
+      "not_stated"
+     ],
+     "outcome_datasets": [
+      "not_stated"
+     ],
+     "evidence_type": [
+      "mr_estimate"
+     ]
+    },
+    "agree": {
+     "direction": true,
+     "null_flag": true,
+     "pqtl_datasets": true,
+     "outcome_datasets": true,
+     "evidence_type": true
+    }
+   },
+   {
+    "pmid": "27327646",
+    "protein": "crp",
+    "outcome": "estimated glomerular filtration rate from serum creatinine",
+    "sol": {
+     "n_records": 2,
+     "direction": [
+      "raises",
+      "reported_nonsignificant_or_null"
+     ],
+     "null_flag": [
+      false,
+      true
+     ],
+     "pqtl_datasets": [
+      "not_stated"
+     ],
+     "outcome_datasets": [
+      "not_stated"
+     ],
+     "evidence_type": [
+      "mr_estimate"
+     ]
+    },
+    "luna": {
+     "n_records": 2,
+     "direction": [
+      "raises",
+      "reported_nonsignificant_or_null"
+     ],
+     "null_flag": [
+      false,
+      true
+     ],
+     "pqtl_datasets": [
+      "not_stated"
+     ],
+     "outcome_datasets": [
+      "not_stated"
+     ],
+     "evidence_type": [
+      "mr_estimate"
+     ]
+    },
+    "agree": {
+     "direction": true,
+     "null_flag": true,
+     "pqtl_datasets": true,
+     "outcome_datasets": true,
+     "evidence_type": true
+    }
+   },
+   {
+    "pmid": "27327646",
+    "protein": "crp",
+    "outcome": "inflammatory bowel disease",
+    "sol": {
+     "n_records": 2,
+     "direction": [
+      "lowers",
+      "reported_nonsignificant_or_null"
+     ],
+     "null_flag": [
+      false,
+      true
+     ],
+     "pqtl_datasets": [
+      "not_stated"
+     ],
+     "outcome_datasets": [
+      "not_stated"
+     ],
+     "evidence_type": [
+      "mr_estimate"
+     ]
+    },
+    "luna": {
+     "n_records": 2,
+     "direction": [
+      "lowers",
+      "reported_nonsignificant_or_null"
+     ],
+     "null_flag": [
+      false,
+      true
+     ],
+     "pqtl_datasets": [
+      "not_stated"
+     ],
+     "outcome_datasets": [
+      "not_stated"
+     ],
+     "evidence_type": [
+      "mr_estimate"
+     ]
+    },
+    "agree": {
+     "direction": true,
+     "null_flag": true,
+     "pqtl_datasets": true,
+     "outcome_datasets": true,
+     "evidence_type": true
+    }
+   },
+   {
+    "pmid": "27327646",
+    "protein": "crp",
+    "outcome": "knee osteoarthritis",
+    "sol": {
+     "n_records": 3,
+     "direction": [
+      "not_stated",
+      "raises",
+      "reported_nonsignificant_or_null"
+     ],
+     "null_flag": [
+      false,
+      true
+     ],
+     "pqtl_datasets": [
+      "not_stated"
+     ],
+     "outcome_datasets": [
+      "not_stated"
+     ],
+     "evidence_type": [
+      "mr_estimate"
+     ]
+    },
+    "luna": {
+     "n_records": 3,
+     "direction": [
+      "not_stated",
+      "raises",
+      "reported_nonsignificant_or_null"
+     ],
+     "null_flag": [
+      false,
+      true
+     ],
+     "pqtl_datasets": [
+      "not_stated"
+     ],
+     "outcome_datasets": [
+      "not_stated"
+     ],
+     "evidence_type": [
+      "mr_estimate"
+     ]
+    },
+    "agree": {
+     "direction": true,
+     "null_flag": true,
+     "pqtl_datasets": true,
+     "outcome_datasets": true,
+     "evidence_type": true
+    }
+   },
+   {
+    "pmid": "27327646",
+    "protein": "crp",
+    "outcome": "psoriatic arthritis",
+    "sol": {
+     "n_records": 2,
+     "direction": [
+      "reported_nonsignificant_or_null"
+     ],
+     "null_flag": [
+      true
+     ],
+     "pqtl_datasets": [
+      "not_stated"
+     ],
+     "outcome_datasets": [
+      "not_stated"
+     ],
+     "evidence_type": [
+      "mr_estimate"
+     ]
+    },
+    "luna": {
+     "n_records": 2,
+     "direction": [
+      "reported_nonsignificant_or_null"
+     ],
+     "null_flag": [
+      true
+     ],
+     "pqtl_datasets": [
+      "not_stated"
+     ],
+     "outcome_datasets": [
+      "not_stated"
+     ],
+     "evidence_type": [
+      "mr_estimate"
+     ]
+    },
+    "agree": {
+     "direction": true,
+     "null_flag": true,
+     "pqtl_datasets": true,
+     "outcome_datasets": true,
+     "evidence_type": true
+    }
+   },
+   {
+    "pmid": "27327646",
+    "protein": "crp",
+    "outcome": "psoriatic osteoarthritis",
+    "sol": {
+     "n_records": 1,
+     "direction": [
+      "not_stated"
+     ],
+     "null_flag": [
+      false
+     ],
+     "pqtl_datasets": [
+      "not_stated"
+     ],
+     "outcome_datasets": [
+      "not_stated"
+     ],
+     "evidence_type": [
+      "mr_estimate"
+     ]
+    },
+    "luna": {
+     "n_records": 1,
+     "direction": [
+      "not_stated"
+     ],
+     "null_flag": [
+      false
+     ],
+     "pqtl_datasets": [
+      "not_stated"
+     ],
+     "outcome_datasets": [
+      "not_stated"
+     ],
+     "evidence_type": [
+      "mr_estimate"
+     ]
+    },
+    "agree": {
+     "direction": true,
+     "null_flag": true,
+     "pqtl_datasets": true,
+     "outcome_datasets": true,
+     "evidence_type": true
+    }
+   },
+   {
+    "pmid": "27327646",
+    "protein": "crp",
+    "outcome": "rheumatoid arthritis",
+    "sol": {
+     "n_records": 1,
+     "direction": [
+      "not_stated"
+     ],
+     "null_flag": [
+      false
+     ],
+     "pqtl_datasets": [
+      "not_stated"
+     ],
+     "outcome_datasets": [
+      "not_stated"
+     ],
+     "evidence_type": [
+      "mr_estimate"
+     ]
+    },
+    "luna": {
+     "n_records": 1,
+     "direction": [
+      "not_stated"
+     ],
+     "null_flag": [
+      false
+     ],
+     "pqtl_datasets": [
+      "not_stated"
+     ],
+     "outcome_datasets": [
+      "not_stated"
+     ],
+     "evidence_type": [
+      "mr_estimate"
+     ]
+    },
+    "agree": {
+     "direction": true,
+     "null_flag": true,
+     "pqtl_datasets": true,
+     "outcome_datasets": true,
+     "evidence_type": true
+    }
+   },
+   {
+    "pmid": "27327646",
+    "protein": "crp",
+    "outcome": "schizophrenia",
+    "sol": {
+     "n_records": 4,
+     "direction": [
+      "lowers"
+     ],
+     "null_flag": [
+      false
+     ],
+     "pqtl_datasets": [
+      "not_stated"
+     ],
+     "outcome_datasets": [
+      "not_stated"
+     ],
+     "evidence_type": [
+      "mr_estimate"
+     ]
+    },
+    "luna": {
+     "n_records": 4,
+     "direction": [
+      "lowers"
+     ],
+     "null_flag": [
+      false
+     ],
+     "pqtl_datasets": [
+      "not_stated"
+     ],
+     "outcome_datasets": [
+      "not_stated"
+     ],
+     "evidence_type": [
+      "mr_estimate"
+     ]
+    },
+    "agree": {
+     "direction": true,
+     "null_flag": true,
+     "pqtl_datasets": true,
+     "outcome_datasets": true,
+     "evidence_type": true
+    }
+   },
+   {
+    "pmid": "27327646",
+    "protein": "crp",
+    "outcome": "serum albumin",
+    "sol": {
+     "n_records": 1,
+     "direction": [
+      "not_stated"
+     ],
+     "null_flag": [
+      false
+     ],
+     "pqtl_datasets": [
+      "not_stated"
+     ],
+     "outcome_datasets": [
+      "not_stated"
+     ],
+     "evidence_type": [
+      "mr_estimate"
+     ]
+    },
+    "luna": {
+     "n_records": 1,
+     "direction": [
+      "not_stated"
+     ],
+     "null_flag": [
+      false
+     ],
+     "pqtl_datasets": [
+      "not_stated"
+     ],
+     "outcome_datasets": [
+      "not_stated"
+     ],
+     "evidence_type": [
+      "mr_estimate"
+     ]
+    },
+    "agree": {
+     "direction": true,
+     "null_flag": true,
+     "pqtl_datasets": true,
+     "outcome_datasets": true,
+     "evidence_type": true
+    }
+   },
+   {
+    "pmid": "27327646",
+    "protein": "crp",
+    "outcome": "serum albumin level",
+    "sol": {
+     "n_records": 2,
+     "direction": [
+      "raises",
+      "reported_nonsignificant_or_null"
+     ],
+     "null_flag": [
+      false,
+      true
+     ],
+     "pqtl_datasets": [
+      "not_stated"
+     ],
+     "outcome_datasets": [
+      "not_stated"
+     ],
+     "evidence_type": [
+      "mr_estimate"
+     ]
+    },
+    "luna": {
+     "n_records": 2,
+     "direction": [
+      "raises",
+      "reported_nonsignificant_or_null"
+     ],
+     "null_flag": [
+      false,
+      true
+     ],
+     "pqtl_datasets": [
+      "not_stated"
+     ],
+     "outcome_datasets": [
+      "not_stated"
+     ],
+     "evidence_type": [
+      "mr_estimate"
+     ]
+    },
+    "agree": {
+     "direction": true,
+     "null_flag": true,
+     "pqtl_datasets": true,
+     "outcome_datasets": true,
+     "evidence_type": true
+    }
+   },
+   {
+    "pmid": "27327646",
+    "protein": "crp",
+    "outcome": "serum protein level",
+    "sol": {
+     "n_records": 2,
+     "direction": [
+      "raises",
+      "reported_nonsignificant_or_null"
+     ],
+     "null_flag": [
+      false,
+      true
+     ],
+     "pqtl_datasets": [
+      "not_stated"
+     ],
+     "outcome_datasets": [
+      "not_stated"
+     ],
+     "evidence_type": [
+      "mr_estimate"
+     ]
+    },
+    "luna": {
+     "n_records": 2,
+     "direction": [
+      "raises",
+      "reported_nonsignificant_or_null"
+     ],
+     "null_flag": [
+      false,
+      true
+     ],
+     "pqtl_datasets": [
+      "not_stated"
+     ],
+     "outcome_datasets": [
+      "not_stated"
+     ],
+     "evidence_type": [
+      "mr_estimate"
+     ]
+    },
+    "agree": {
+     "direction": true,
+     "null_flag": true,
+     "pqtl_datasets": true,
+     "outcome_datasets": true,
+     "evidence_type": true
+    }
+   },
+   {
+    "pmid": "27327646",
+    "protein": "crp",
+    "outcome": "systolic blood pressure",
+    "sol": {
+     "n_records": 3,
+     "direction": [
+      "not_stated",
+      "raises",
+      "reported_nonsignificant_or_null"
+     ],
+     "null_flag": [
+      false,
+      true
+     ],
+     "pqtl_datasets": [
+      "not_stated"
+     ],
+     "outcome_datasets": [
+      "not_stated"
+     ],
+     "evidence_type": [
+      "mr_estimate"
+     ]
+    },
+    "luna": {
+     "n_records": 3,
+     "direction": [
+      "not_stated",
+      "raises",
+      "reported_nonsignificant_or_null"
+     ],
+     "null_flag": [
+      false,
+      true
+     ],
+     "pqtl_datasets": [
+      "not_stated"
+     ],
+     "outcome_datasets": [
+      "not_stated"
+     ],
+     "evidence_type": [
+      "mr_estimate"
+     ]
+    },
+    "agree": {
+     "direction": true,
+     "null_flag": true,
+     "pqtl_datasets": true,
+     "outcome_datasets": true,
+     "evidence_type": true
+    }
+   },
+   {
+    "pmid": "27225428",
+    "protein": "igf-ii",
+    "outcome": "high (vs. low) gleason grade",
+    "sol": {
+     "n_records": 1,
+     "direction": [
+      "reported_nonsignificant_or_null"
+     ],
+     "null_flag": [
+      true
+     ],
+     "pqtl_datasets": [
+      "not_stated"
+     ],
+     "outcome_datasets": [
+      "not_stated"
+     ],
+     "evidence_type": [
+      "variant_association"
+     ]
+    },
+    "luna": {
+     "n_records": 1,
+     "direction": [
+      "reported_nonsignificant_or_null"
+     ],
+     "null_flag": [
+      true
+     ],
+     "pqtl_datasets": [
+      "not_stated"
+     ],
+     "outcome_datasets": [
+      "not_stated"
+     ],
+     "evidence_type": [
+      "variant_association"
+     ]
+    },
+    "agree": {
+     "direction": true,
+     "null_flag": true,
+     "pqtl_datasets": true,
+     "outcome_datasets": true,
+     "evidence_type": true
+    }
+   },
+   {
+    "pmid": "27225428",
+    "protein": "igf-ii",
+    "outcome": "high vs. low grade disease",
+    "sol": {
+     "n_records": 1,
+     "direction": [
+      "reported_nonsignificant_or_null"
+     ],
+     "null_flag": [
+      true
+     ],
+     "pqtl_datasets": [
+      "not_stated"
+     ],
+     "outcome_datasets": [
+      "not_stated"
+     ],
+     "evidence_type": [
+      "mr_estimate"
+     ]
+    },
+    "luna": {
+     "n_records": 1,
+     "direction": [
+      "reported_nonsignificant_or_null"
+     ],
+     "null_flag": [
+      true
+     ],
+     "pqtl_datasets": [
+      "not_stated"
+     ],
+     "outcome_datasets": [
+      "not_stated"
+     ],
+     "evidence_type": [
+      "mr_estimate"
+     ]
+    },
+    "agree": {
+     "direction": true,
+     "null_flag": true,
+     "pqtl_datasets": true,
+     "outcome_datasets": true,
+     "evidence_type": true
+    }
+   },
+   {
+    "pmid": "27225428",
+    "protein": "igfbp-3",
+    "outcome": "high (vs. low) gleason grade",
+    "sol": {
+     "n_records": 1,
+     "direction": [
+      "reported_nonsignificant_or_null"
+     ],
+     "null_flag": [
+      true
+     ],
+     "pqtl_datasets": [
+      "not_stated"
+     ],
+     "outcome_datasets": [
+      "not_stated"
+     ],
+     "evidence_type": [
+      "variant_association"
+     ]
+    },
+    "luna": {
+     "n_records": 1,
+     "direction": [
+      "reported_nonsignificant_or_null"
+     ],
+     "null_flag": [
+      true
+     ],
+     "pqtl_datasets": [
+      "not_stated"
+     ],
+     "outcome_datasets": [
+      "not_stated"
+     ],
+     "evidence_type": [
+      "variant_association"
+     ]
+    },
+    "agree": {
+     "direction": true,
+     "null_flag": true,
+     "pqtl_datasets": true,
+     "outcome_datasets": true,
+     "evidence_type": true
+    }
+   },
+   {
+    "pmid": "26886630",
+    "protein": "il-10",
+    "outcome": "gastric cancer",
+    "sol": {
+     "n_records": 2,
+     "direction": [
+      "raises"
+     ],
+     "null_flag": [
+      false
+     ],
+     "pqtl_datasets": [
+      "not_stated"
+     ],
+     "outcome_datasets": [
+      "not_stated"
+     ],
+     "evidence_type": [
+      "mr_estimate"
+     ]
+    },
+    "luna": {
+     "n_records": 2,
+     "direction": [
+      "raises"
+     ],
+     "null_flag": [
+      false
+     ],
+     "pqtl_datasets": [
+      "not_stated"
+     ],
+     "outcome_datasets": [
+      "not_stated"
+     ],
+     "evidence_type": [
+      "mr_estimate"
+     ]
+    },
+    "agree": {
+     "direction": true,
+     "null_flag": true,
+     "pqtl_datasets": true,
+     "outcome_datasets": true,
+     "evidence_type": true
+    }
+   },
+   {
+    "pmid": "26886630",
+    "protein": "il-10",
+    "outcome": "intestinal type gastric cancer",
+    "sol": {
+     "n_records": 1,
+     "direction": [
+      "raises"
+     ],
+     "null_flag": [
+      false
+     ],
+     "pqtl_datasets": [
+      "not_stated"
+     ],
+     "outcome_datasets": [
+      "not_stated"
+     ],
+     "evidence_type": [
+      "mr_estimate"
+     ]
+    },
+    "luna": {
+     "n_records": 1,
+     "direction": [
+      "raises"
+     ],
+     "null_flag": [
+      false
+     ],
+     "pqtl_datasets": [
+      "not_stated"
+     ],
+     "outcome_datasets": [
+      "not_stated"
+     ],
+     "evidence_type": [
+      "mr_estimate"
+     ]
+    },
+    "agree": {
+     "direction": true,
+     "null_flag": true,
+     "pqtl_datasets": true,
+     "outcome_datasets": true,
+     "evidence_type": true
+    }
+   },
+   {
+    "pmid": "25350643",
+    "protein": "dbp",
+    "outcome": "25ohd levels",
+    "sol": {
+     "n_records": 2,
+     "direction": [
+      "not_stated"
+     ],
+     "null_flag": [
+      false
+     ],
+     "pqtl_datasets": [
+      "canadian multicentre osteoporosis study (camos)"
+     ],
+     "outcome_datasets": [
+      "canadian multicentre osteoporosis study (camos)"
+     ],
+     "evidence_type": [
+      "mr_estimate",
+      "observational"
+     ]
+    },
+    "luna": {
+     "n_records": 2,
+     "direction": [
+      "not_stated"
+     ],
+     "null_flag": [
+      false
+     ],
+     "pqtl_datasets": [
+      "not_stated"
+     ],
+     "outcome_datasets": [
+      "camos"
+     ],
+     "evidence_type": [
+      "mr_estimate",
+      "observational"
+     ]
+    },
+    "agree": {
+     "direction": true,
+     "null_flag": true,
+     "pqtl_datasets": false,
+     "outcome_datasets": false,
+     "evidence_type": true
+    }
+   },
+   {
+    "pmid": "25350643",
+    "protein": "dbp",
+    "outcome": "bmi",
+    "sol": {
+     "n_records": 1,
+     "direction": [
+      "reported_nonsignificant_or_null"
+     ],
+     "null_flag": [
+      true
+     ],
+     "pqtl_datasets": [
+      "canadian multicentre osteoporosis study (camos)"
+     ],
+     "outcome_datasets": [
+      "not_stated"
+     ],
+     "evidence_type": [
+      "variant_association"
+     ]
+    },
+    "luna": {
+     "n_records": 1,
+     "direction": [
+      "reported_nonsignificant_or_null"
+     ],
+     "null_flag": [
+      true
+     ],
+     "pqtl_datasets": [
+      "not_stated"
+     ],
+     "outcome_datasets": [
+      "not_stated"
+     ],
+     "evidence_type": [
+      "variant_association"
+     ]
+    },
+    "agree": {
+     "direction": true,
+     "null_flag": true,
+     "pqtl_datasets": false,
+     "outcome_datasets": true,
+     "evidence_type": true
+    }
+   },
+   {
+    "pmid": "25350643",
+    "protein": "dbp",
+    "outcome": "bone mineral density",
+    "sol": {
+     "n_records": 1,
+     "direction": [
+      "reported_nonsignificant_or_null"
+     ],
+     "null_flag": [
+      true
+     ],
+     "pqtl_datasets": [
+      "canadian multicentre osteoporosis study (camos)"
+     ],
+     "outcome_datasets": [
+      "not_stated"
+     ],
+     "evidence_type": [
+      "variant_association"
+     ]
+    },
+    "luna": {
+     "n_records": 1,
+     "direction": [
+      "reported_nonsignificant_or_null"
+     ],
+     "null_flag": [
+      true
+     ],
+     "pqtl_datasets": [
+      "not_stated"
+     ],
+     "outcome_datasets": [
+      "not_stated"
+     ],
+     "evidence_type": [
+      "variant_association"
+     ]
+    },
+    "agree": {
+     "direction": true,
+     "null_flag": true,
+     "pqtl_datasets": false,
+     "outcome_datasets": true,
+     "evidence_type": true
+    }
+   },
+   {
+    "pmid": "25350643",
+    "protein": "dbp",
+    "outcome": "coronary artery disease",
+    "sol": {
+     "n_records": 1,
+     "direction": [
+      "reported_nonsignificant_or_null"
+     ],
+     "null_flag": [
+      true
+     ],
+     "pqtl_datasets": [
+      "canadian multicentre osteoporosis study (camos)"
+     ],
+     "outcome_datasets": [
+      "not_stated"
+     ],
+     "evidence_type": [
+      "variant_association"
+     ]
+    },
+    "luna": {
+     "n_records": 1,
+     "direction": [
+      "reported_nonsignificant_or_null"
+     ],
+     "null_flag": [
+      true
+     ],
+     "pqtl_datasets": [
+      "not_stated"
+     ],
+     "outcome_datasets": [
+      "not_stated"
+     ],
+     "evidence_type": [
+      "variant_association"
+     ]
+    },
+    "agree": {
+     "direction": true,
+     "null_flag": true,
+     "pqtl_datasets": false,
+     "outcome_datasets": true,
+     "evidence_type": true
+    }
+   },
+   {
+    "pmid": "25350643",
+    "protein": "dbp",
+    "outcome": "fasting glucose",
+    "sol": {
+     "n_records": 1,
+     "direction": [
+      "reported_nonsignificant_or_null"
+     ],
+     "null_flag": [
+      true
+     ],
+     "pqtl_datasets": [
+      "canadian multicentre osteoporosis study (camos)"
+     ],
+     "outcome_datasets": [
+      "not_stated"
+     ],
+     "evidence_type": [
+      "variant_association"
+     ]
+    },
+    "luna": {
+     "n_records": 1,
+     "direction": [
+      "reported_nonsignificant_or_null"
+     ],
+     "null_flag": [
+      true
+     ],
+     "pqtl_datasets": [
+      "not_stated"
+     ],
+     "outcome_datasets": [
+      "not_stated"
+     ],
+     "evidence_type": [
+      "variant_association"
+     ]
+    },
+    "agree": {
+     "direction": true,
+     "null_flag": true,
+     "pqtl_datasets": false,
+     "outcome_datasets": true,
+     "evidence_type": true
+    }
+   },
+   {
+    "pmid": "25350643",
+    "protein": "dbp",
+    "outcome": "fasting insulin",
+    "sol": {
+     "n_records": 1,
+     "direction": [
+      "reported_nonsignificant_or_null"
+     ],
+     "null_flag": [
+      true
+     ],
+     "pqtl_datasets": [
+      "canadian multicentre osteoporosis study (camos)"
+     ],
+     "outcome_datasets": [
+      "not_stated"
+     ],
+     "evidence_type": [
+      "variant_association"
+     ]
+    },
+    "luna": {
+     "n_records": 1,
+     "direction": [
+      "reported_nonsignificant_or_null"
+     ],
+     "null_flag": [
+      true
+     ],
+     "pqtl_datasets": [
+      "not_stated"
+     ],
+     "outcome_datasets": [
+      "not_stated"
+     ],
+     "evidence_type": [
+      "variant_association"
+     ]
+    },
+    "agree": {
+     "direction": true,
+     "null_flag": true,
+     "pqtl_datasets": false,
+     "outcome_datasets": true,
+     "evidence_type": true
+    }
+   },
+   {
+    "pmid": "25350643",
+    "protein": "dbp",
+    "outcome": "ischemic stroke",
+    "sol": {
+     "n_records": 1,
+     "direction": [
+      "reported_nonsignificant_or_null"
+     ],
+     "null_flag": [
+      true
+     ],
+     "pqtl_datasets": [
+      "canadian multicentre osteoporosis study (camos)"
+     ],
+     "outcome_datasets": [
+      "not_stated"
+     ],
+     "evidence_type": [
+      "variant_association"
+     ]
+    },
+    "luna": {
+     "n_records": 1,
+     "direction": [
+      "reported_nonsignificant_or_null"
+     ],
+     "null_flag": [
+      true
+     ],
+     "pqtl_datasets": [
+      "not_stated"
+     ],
+     "outcome_datasets": [
+      "not_stated"
+     ],
+     "evidence_type": [
+      "variant_association"
+     ]
+    },
+    "agree": {
+     "direction": true,
+     "null_flag": true,
+     "pqtl_datasets": false,
+     "outcome_datasets": true,
+     "evidence_type": true
+    }
+   },
+   {
+    "pmid": "25350643",
+    "protein": "dbp",
+    "outcome": "mean arterial pressure",
+    "sol": {
+     "n_records": 1,
+     "direction": [
+      "reported_nonsignificant_or_null"
+     ],
+     "null_flag": [
+      true
+     ],
+     "pqtl_datasets": [
+      "canadian multicentre osteoporosis study (camos)"
+     ],
+     "outcome_datasets": [
+      "not_stated"
+     ],
+     "evidence_type": [
+      "variant_association"
+     ]
+    },
+    "luna": {
+     "n_records": 1,
+     "direction": [
+      "reported_nonsignificant_or_null"
+     ],
+     "null_flag": [
+      true
+     ],
+     "pqtl_datasets": [
+      "not_stated"
+     ],
+     "outcome_datasets": [
+      "not_stated"
+     ],
+     "evidence_type": [
+      "variant_association"
+     ]
+    },
+    "agree": {
+     "direction": true,
+     "null_flag": true,
+     "pqtl_datasets": false,
+     "outcome_datasets": true,
+     "evidence_type": true
+    }
+   },
+   {
+    "pmid": "25350643",
+    "protein": "dbp",
+    "outcome": "type 2 diabetes",
+    "sol": {
+     "n_records": 1,
+     "direction": [
+      "reported_nonsignificant_or_null"
+     ],
+     "null_flag": [
+      true
+     ],
+     "pqtl_datasets": [
+      "canadian multicentre osteoporosis study (camos)"
+     ],
+     "outcome_datasets": [
+      "not_stated"
+     ],
+     "evidence_type": [
+      "variant_association"
+     ]
+    },
+    "luna": {
+     "n_records": 1,
+     "direction": [
+      "reported_nonsignificant_or_null"
+     ],
+     "null_flag": [
+      true
+     ],
+     "pqtl_datasets": [
+      "not_stated"
+     ],
+     "outcome_datasets": [
+      "not_stated"
+     ],
+     "evidence_type": [
+      "variant_association"
+     ]
+    },
+    "agree": {
+     "direction": true,
+     "null_flag": true,
+     "pqtl_datasets": false,
+     "outcome_datasets": true,
+     "evidence_type": true
+    }
+   },
+   {
+    "pmid": "24246360",
+    "protein": "crp",
+    "outcome": "all-cause mortality",
+    "sol": {
+     "n_records": 2,
+     "direction": [
+      "raises",
+      "reported_nonsignificant_or_null"
+     ],
+     "null_flag": [
+      false,
+      true
+     ],
+     "pqtl_datasets": [
+      "not_stated"
+     ],
+     "outcome_datasets": [
+      "not_stated"
+     ],
+     "evidence_type": [
+      "mr_estimate",
+      "observational"
+     ]
+    },
+    "luna": {
+     "n_records": 1,
+     "direction": [
+      "not_stated"
+     ],
+     "null_flag": [
+      false
+     ],
+     "pqtl_datasets": [
+      "not_stated"
+     ],
+     "outcome_datasets": [
+      "not_stated"
+     ],
+     "evidence_type": [
+      "other"
+     ]
+    },
+    "agree": {
+     "direction": false,
+     "null_flag": false,
+     "pqtl_datasets": true,
+     "outcome_datasets": true,
+     "evidence_type": false
+    }
+   },
+   {
+    "pmid": "24246360",
+    "protein": "crp",
+    "outcome": "cancer",
+    "sol": {
+     "n_records": 2,
+     "direction": [
+      "raises",
+      "reported_nonsignificant_or_null"
+     ],
+     "null_flag": [
+      false,
+      true
+     ],
+     "pqtl_datasets": [
+      "not_stated"
+     ],
+     "outcome_datasets": [
+      "not_stated"
+     ],
+     "evidence_type": [
+      "mr_estimate",
+      "observational"
+     ]
+    },
+    "luna": {
+     "n_records": 1,
+     "direction": [
+      "not_stated"
+     ],
+     "null_flag": [
+      false
+     ],
+     "pqtl_datasets": [
+      "not_stated"
+     ],
+     "outcome_datasets": [
+      "not_stated"
+     ],
+     "evidence_type": [
+      "other"
+     ]
+    },
+    "agree": {
+     "direction": false,
+     "null_flag": false,
+     "pqtl_datasets": true,
+     "outcome_datasets": true,
+     "evidence_type": false
+    }
+   },
+   {
+    "pmid": "24246360",
+    "protein": "crp",
+    "outcome": "chronic obstructive pulmonary disease",
+    "sol": {
+     "n_records": 2,
+     "direction": [
+      "raises",
+      "reported_nonsignificant_or_null"
+     ],
+     "null_flag": [
+      false,
+      true
+     ],
+     "pqtl_datasets": [
+      "not_stated"
+     ],
+     "outcome_datasets": [
+      "not_stated"
+     ],
+     "evidence_type": [
+      "mr_estimate",
+      "observational"
+     ]
+    },
+    "luna": {
+     "n_records": 1,
+     "direction": [
+      "not_stated"
+     ],
+     "null_flag": [
+      false
+     ],
+     "pqtl_datasets": [
+      "not_stated"
+     ],
+     "outcome_datasets": [
+      "not_stated"
+     ],
+     "evidence_type": [
+      "other"
+     ]
+    },
+    "agree": {
+     "direction": false,
+     "null_flag": false,
+     "pqtl_datasets": true,
+     "outcome_datasets": true,
+     "evidence_type": false
+    }
+   },
+   {
+    "pmid": "24246360",
+    "protein": "crp",
+    "outcome": "hospitalization or death with depression",
+    "sol": {
+     "n_records": 2,
+     "direction": [
+      "raises",
+      "reported_nonsignificant_or_null"
+     ],
+     "null_flag": [
+      false,
+      true
+     ],
+     "pqtl_datasets": [
+      "not_stated"
+     ],
+     "outcome_datasets": [
+      "not_stated"
+     ],
+     "evidence_type": [
+      "mr_estimate",
+      "observational"
+     ]
+    },
+    "luna": {
+     "n_records": 2,
+     "direction": [
+      "raises",
+      "reported_nonsignificant_or_null"
+     ],
+     "null_flag": [
+      false,
+      true
+     ],
+     "pqtl_datasets": [
+      "not_stated"
+     ],
+     "outcome_datasets": [
+      "not_stated"
+     ],
+     "evidence_type": [
+      "mr_estimate",
+      "observational"
+     ]
+    },
+    "agree": {
+     "direction": true,
+     "null_flag": true,
+     "pqtl_datasets": true,
+     "outcome_datasets": true,
+     "evidence_type": true
+    }
+   },
+   {
+    "pmid": "24246360",
+    "protein": "crp",
+    "outcome": "ischemic heart disease",
+    "sol": {
+     "n_records": 2,
+     "direction": [
+      "raises",
+      "reported_nonsignificant_or_null"
+     ],
+     "null_flag": [
+      false,
+      true
+     ],
+     "pqtl_datasets": [
+      "not_stated"
+     ],
+     "outcome_datasets": [
+      "not_stated"
+     ],
+     "evidence_type": [
+      "mr_estimate",
+      "observational"
+     ]
+    },
+    "luna": {
+     "n_records": 1,
+     "direction": [
+      "not_stated"
+     ],
+     "null_flag": [
+      false
+     ],
+     "pqtl_datasets": [
+      "not_stated"
+     ],
+     "outcome_datasets": [
+      "not_stated"
+     ],
+     "evidence_type": [
+      "other"
+     ]
+    },
+    "agree": {
+     "direction": false,
+     "null_flag": false,
+     "pqtl_datasets": true,
+     "outcome_datasets": true,
+     "evidence_type": false
+    }
+   },
+   {
+    "pmid": "24246360",
+    "protein": "crp",
+    "outcome": "prescription antidepressant medication use",
+    "sol": {
+     "n_records": 2,
+     "direction": [
+      "raises",
+      "reported_nonsignificant_or_null"
+     ],
+     "null_flag": [
+      false,
+      true
+     ],
+     "pqtl_datasets": [
+      "not_stated"
+     ],
+     "outcome_datasets": [
+      "not_stated"
+     ],
+     "evidence_type": [
+      "mr_estimate",
+      "observational"
+     ]
+    },
+    "luna": {
+     "n_records": 2,
+     "direction": [
+      "raises",
+      "reported_nonsignificant_or_null"
+     ],
+     "null_flag": [
+      false,
+      true
+     ],
+     "pqtl_datasets": [
+      "not_stated"
+     ],
+     "outcome_datasets": [
+      "not_stated"
+     ],
+     "evidence_type": [
+      "mr_estimate",
+      "observational"
+     ]
+    },
+    "agree": {
+     "direction": true,
+     "null_flag": true,
+     "pqtl_datasets": true,
+     "outcome_datasets": true,
+     "evidence_type": true
+    }
+   },
+   {
+    "pmid": "27959767",
+    "protein": "hmgcr",
+    "outcome": "cardiovascular events",
+    "sol": {
+     "n_records": 2,
+     "direction": [
+      "not_stated"
+     ],
+     "null_flag": [
+      false
+     ],
+     "pqtl_datasets": [
+      "not_stated"
+     ],
+     "outcome_datasets": [
+      "not_stated"
+     ],
+     "evidence_type": [
+      "variant_association"
+     ]
+    },
+    "luna": {
+     "n_records": 1,
+     "direction": [
+      "not_stated"
+     ],
+     "null_flag": [
+      false
+     ],
+     "pqtl_datasets": [
+      "not_stated"
+     ],
+     "outcome_datasets": [
+      "not_stated"
+     ],
+     "evidence_type": [
+      "variant_association"
+     ]
+    },
+    "agree": {
+     "direction": true,
+     "null_flag": true,
+     "pqtl_datasets": true,
+     "outcome_datasets": true,
+     "evidence_type": true
+    }
+   },
+   {
+    "pmid": "27959767",
+    "protein": "hmgcr",
+    "outcome": "diabetes",
+    "sol": {
+     "n_records": 3,
+     "direction": [
+      "not_stated"
+     ],
+     "null_flag": [
+      false
+     ],
+     "pqtl_datasets": [
+      "not_stated"
+     ],
+     "outcome_datasets": [
+      "not_stated"
+     ],
+     "evidence_type": [
+      "variant_association"
+     ]
+    },
+    "luna": {
+     "n_records": 2,
+     "direction": [
+      "not_stated"
+     ],
+     "null_flag": [
+      false
+     ],
+     "pqtl_datasets": [
+      "not_stated"
+     ],
+     "outcome_datasets": [
+      "not_stated"
+     ],
+     "evidence_type": [
+      "variant_association"
+     ]
+    },
+    "agree": {
+     "direction": true,
+     "null_flag": true,
+     "pqtl_datasets": true,
+     "outcome_datasets": true,
+     "evidence_type": true
+    }
+   },
+   {
+    "pmid": "27959767",
+    "protein": "pcsk9",
+    "outcome": "cardiovascular events",
+    "sol": {
+     "n_records": 2,
+     "direction": [
+      "not_stated"
+     ],
+     "null_flag": [
+      false
+     ],
+     "pqtl_datasets": [
+      "not_stated"
+     ],
+     "outcome_datasets": [
+      "not_stated"
+     ],
+     "evidence_type": [
+      "variant_association"
+     ]
+    },
+    "luna": {
+     "n_records": 1,
+     "direction": [
+      "not_stated"
+     ],
+     "null_flag": [
+      false
+     ],
+     "pqtl_datasets": [
+      "not_stated"
+     ],
+     "outcome_datasets": [
+      "not_stated"
+     ],
+     "evidence_type": [
+      "variant_association"
+     ]
+    },
+    "agree": {
+     "direction": true,
+     "null_flag": true,
+     "pqtl_datasets": true,
+     "outcome_datasets": true,
+     "evidence_type": true
+    }
+   },
+   {
+    "pmid": "27959767",
+    "protein": "pcsk9",
+    "outcome": "diabetes",
+    "sol": {
+     "n_records": 3,
+     "direction": [
+      "not_stated"
+     ],
+     "null_flag": [
+      false
+     ],
+     "pqtl_datasets": [
+      "not_stated"
+     ],
+     "outcome_datasets": [
+      "not_stated"
+     ],
+     "evidence_type": [
+      "variant_association"
+     ]
+    },
+    "luna": {
+     "n_records": 2,
+     "direction": [
+      "not_stated"
+     ],
+     "null_flag": [
+      false
+     ],
+     "pqtl_datasets": [
+      "not_stated"
+     ],
+     "outcome_datasets": [
+      "not_stated"
+     ],
+     "evidence_type": [
+      "variant_association"
+     ]
+    },
+    "agree": {
+     "direction": true,
+     "null_flag": true,
+     "pqtl_datasets": true,
+     "outcome_datasets": true,
+     "evidence_type": true
+    }
+   }
+  ],
+  "sol_only_records": [
+   {
+    "pmid": "28369058",
+    "protein_as_written": "matrix metalloproteinase 9",
+    "outcome_as_written": "stem cell factor",
+    "direction": "not_stated",
+    "evidence_type": "other",
+    "claim_scope": "overall",
+    "pqtl_datasets": [
+     "not_stated"
+    ],
+    "outcome_datasets": [
+     "not_stated"
+    ],
+    "evidence_span": "Using automated text mining, manual curation, and network-based methods incorporating information on expression quantitative trait loci (eQTL), we propose plausible causal mechanisms for 25 trans-acting loci, including a potential post-translational regulation of stem cell factor by matrix metalloproteinase 9 and receptor-ligand pairs such as RANK-RANK ligand."
+   },
+   {
+    "pmid": "29258991",
+    "protein_as_written": "phosphatase 1G",
+    "outcome_as_written": "apolipoprotein E transcription",
+    "direction": "raises",
+    "evidence_type": "experimental",
+    "claim_scope": "overall",
+    "pqtl_datasets": [
+     "not_stated"
+    ],
+    "outcome_datasets": [
+     "not_stated"
+    ],
+    "evidence_span": "Knockdown of phosphatase 1G in a human liver cell model resulted in decreased apolipoprotein E transcription and apolipoprotein E protein levels in cultured supernatants."
+   },
+   {
+    "pmid": "22421340",
+    "protein_as_written": "IL6R",
+    "outcome_as_written": "circulating log interleukin-6 concentration",
+    "direction": "not_stated",
+    "evidence_type": "variant_association",
+    "claim_scope": "overall",
+    "pqtl_datasets": [
+     "not_stated"
+    ],
+    "outcome_datasets": [
+     "not_stated"
+    ],
+    "evidence_span": "In 40 studies including up to 133,449 individuals, an IL6R SNP (rs7529229) marking a non-synonymous IL6R variant (rs8192284; p.Asp358Ala) was associated with increased circulating log interleukin-6 concentration (increase per allele 9·45%, 95% CI 8·34-10·57) as well as reduced C-reactive protein (decrease per allele 8·35%, 95% CI 7·31-9·38) and fibrinogen concentrations (decrease per allele 0·85%, 95% CI 0·60-1·10)."
+   },
+   {
+    "pmid": "22421339",
+    "protein_as_written": "IL6R",
+    "outcome_as_written": "adiposity",
+    "direction": "reported_nonsignificant_or_null",
+    "evidence_type": "variant_association",
+    "claim_scope": "overall",
+    "pqtl_datasets": [
+     "not_stated"
+    ],
+    "outcome_datasets": [
+     "not_stated"
+    ],
+    "evidence_span": "Asp358Ala was not associated with lipid concentrations, blood pressure, adiposity, dysglycaemia, or smoking (p value for association per minor allele ≥0·04 for each). By contrast, for every copy of 358Ala inherited, mean concentration of IL6R increased by 34·3% (95% CI 30·4-38·2) and of interleukin 6 by 14·6% (10·7-18·4), and mean concentration of C-reactive protein was reduced by 7·5% (5·9-9·1) and of fibrinogen by 1·0% (0·7-1·3)."
+   },
+   {
+    "pmid": "22421339",
+    "protein_as_written": "IL6R",
+    "outcome_as_written": "blood pressure",
+    "direction": "reported_nonsignificant_or_null",
+    "evidence_type": "variant_association",
+    "claim_scope": "overall",
+    "pqtl_datasets": [
+     "not_stated"
+    ],
+    "outcome_datasets": [
+     "not_stated"
+    ],
+    "evidence_span": "Asp358Ala was not associated with lipid concentrations, blood pressure, adiposity, dysglycaemia, or smoking (p value for association per minor allele ≥0·04 for each). By contrast, for every copy of 358Ala inherited, mean concentration of IL6R increased by 34·3% (95% CI 30·4-38·2) and of interleukin 6 by 14·6% (10·7-18·4), and mean concentration of C-reactive protein was reduced by 7·5% (5·9-9·1) and of fibrinogen by 1·0% (0·7-1·3)."
+   },
+   {
+    "pmid": "22421339",
+    "protein_as_written": "IL6R",
+    "outcome_as_written": "C-reactive protein",
+    "direction": "not_stated",
+    "evidence_type": "variant_association",
+    "claim_scope": "overall",
+    "pqtl_datasets": [
+     "not_stated"
+    ],
+    "outcome_datasets": [
+     "not_stated"
+    ],
+    "evidence_span": "By contrast, for every copy of 358Ala inherited, mean concentration of IL6R increased by 34·3% (95% CI 30·4-38·2) and of interleukin 6 by 14·6% (10·7-18·4), and mean concentration of C-reactive protein was reduced by 7·5% (5·9-9·1) and of fibrinogen by 1·0% (0·7-1·3)."
+   },
+   {
+    "pmid": "22421339",
+    "protein_as_written": "IL6R",
+    "outcome_as_written": "dysglycaemia",
+    "direction": "reported_nonsignificant_or_null",
+    "evidence_type": "variant_association",
+    "claim_scope": "overall",
+    "pqtl_datasets": [
+     "not_stated"
+    ],
+    "outcome_datasets": [
+     "not_stated"
+    ],
+    "evidence_span": "Asp358Ala was not associated with lipid concentrations, blood pressure, adiposity, dysglycaemia, or smoking (p value for association per minor allele ≥0·04 for each). By contrast, for every copy of 358Ala inherited, mean concentration of IL6R increased by 34·3% (95% CI 30·4-38·2) and of interleukin 6 by 14·6% (10·7-18·4), and mean concentration of C-reactive protein was reduced by 7·5% (5·9-9·1) and of fibrinogen by 1·0% (0·7-1·3)."
+   },
+   {
+    "pmid": "22421339",
+    "protein_as_written": "IL6R",
+    "outcome_as_written": "fibrinogen",
+    "direction": "not_stated",
+    "evidence_type": "variant_association",
+    "claim_scope": "overall",
+    "pqtl_datasets": [
+     "not_stated"
+    ],
+    "outcome_datasets": [
+     "not_stated"
+    ],
+    "evidence_span": "By contrast, for every copy of 358Ala inherited, mean concentration of IL6R increased by 34·3% (95% CI 30·4-38·2) and of interleukin 6 by 14·6% (10·7-18·4), and mean concentration of C-reactive protein was reduced by 7·5% (5·9-9·1) and of fibrinogen by 1·0% (0·7-1·3)."
+   },
+   {
+    "pmid": "22421339",
+    "protein_as_written": "IL6R",
+    "outcome_as_written": "IL6R",
+    "direction": "not_stated",
+    "evidence_type": "variant_association",
+    "claim_scope": "overall",
+    "pqtl_datasets": [
+     "not_stated"
+    ],
+    "outcome_datasets": [
+     "not_stated"
+    ],
+    "evidence_span": "By contrast, for every copy of 358Ala inherited, mean concentration of IL6R increased by 34·3% (95% CI 30·4-38·2) and of interleukin 6 by 14·6% (10·7-18·4), and mean concentration of C-reactive protein was reduced by 7·5% (5·9-9·1) and of fibrinogen by 1·0% (0·7-1·3)."
+   },
+   {
+    "pmid": "22421339",
+    "protein_as_written": "IL6R",
+    "outcome_as_written": "IL6R mRNA levels",
+    "direction": "reported_nonsignificant_or_null",
+    "evidence_type": "variant_association",
+    "claim_scope": "overall",
+    "pqtl_datasets": [
+     "not_stated"
+    ],
+    "outcome_datasets": [
+     "not_stated"
+    ],
+    "evidence_span": "Asp358Ala was not related to IL6R mRNA levels or interleukin-6 production in monocytes."
+   },
+   {
+    "pmid": "22421339",
+    "protein_as_written": "IL6R",
+    "outcome_as_written": "interleukin 6",
+    "direction": "not_stated",
+    "evidence_type": "variant_association",
+    "claim_scope": "overall",
+    "pqtl_datasets": [
+     "not_stated"
+    ],
+    "outcome_datasets": [
+     "not_stated"
+    ],
+    "evidence_span": "By contrast, for every copy of 358Ala inherited, mean concentration of IL6R increased by 34·3% (95% CI 30·4-38·2) and of interleukin 6 by 14·6% (10·7-18·4), and mean concentration of C-reactive protein was reduced by 7·5% (5·9-9·1) and of fibrinogen by 1·0% (0·7-1·3)."
+   },
+   {
+    "pmid": "22421339",
+    "protein_as_written": "IL6R",
+    "outcome_as_written": "interleukin-6 production",
+    "direction": "reported_nonsignificant_or_null",
+    "evidence_type": "variant_association",
+    "claim_scope": "overall",
+    "pqtl_datasets": [
+     "not_stated"
+    ],
+    "outcome_datasets": [
+     "not_stated"
+    ],
+    "evidence_span": "Asp358Ala was not related to IL6R mRNA levels or interleukin-6 production in monocytes."
+   },
+   {
+    "pmid": "22421339",
+    "protein_as_written": "IL6R",
+    "outcome_as_written": "lipid concentrations",
+    "direction": "reported_nonsignificant_or_null",
+    "evidence_type": "variant_association",
+    "claim_scope": "overall",
+    "pqtl_datasets": [
+     "not_stated"
+    ],
+    "outcome_datasets": [
+     "not_stated"
+    ],
+    "evidence_span": "Asp358Ala was not associated with lipid concentrations, blood pressure, adiposity, dysglycaemia, or smoking (p value for association per minor allele ≥0·04 for each). By contrast, for every copy of 358Ala inherited, mean concentration of IL6R increased by 34·3% (95% CI 30·4-38·2) and of interleukin 6 by 14·6% (10·7-18·4), and mean concentration of C-reactive protein was reduced by 7·5% (5·9-9·1) and of fibrinogen by 1·0% (0·7-1·3)."
+   },
+   {
+    "pmid": "22421339",
+    "protein_as_written": "IL6R",
+    "outcome_as_written": "smoking",
+    "direction": "reported_nonsignificant_or_null",
+    "evidence_type": "variant_association",
+    "claim_scope": "overall",
+    "pqtl_datasets": [
+     "not_stated"
+    ],
+    "outcome_datasets": [
+     "not_stated"
+    ],
+    "evidence_span": "Asp358Ala was not associated with lipid concentrations, blood pressure, adiposity, dysglycaemia, or smoking (p value for association per minor allele ≥0·04 for each). By contrast, for every copy of 358Ala inherited, mean concentration of IL6R increased by 34·3% (95% CI 30·4-38·2) and of interleukin 6 by 14·6% (10·7-18·4), and mean concentration of C-reactive protein was reduced by 7·5% (5·9-9·1) and of fibrinogen by 1·0% (0·7-1·3)."
+   },
+   {
+    "pmid": "25726324",
+    "protein_as_written": "IL-1α/β",
+    "outcome_as_written": "cardiovascular risk",
+    "direction": "not_stated",
+    "evidence_type": "mr_estimate",
+    "claim_scope": "overall",
+    "pqtl_datasets": [
+     "not_stated"
+    ],
+    "outcome_datasets": [
+     "not_stated"
+    ],
+    "evidence_span": "Human genetic data suggest that long-term dual IL-1α/β inhibition could increase cardiovascular risk and, conversely, reduce the risk of development of rheumatoid arthritis."
+   },
+   {
+    "pmid": "25726324",
+    "protein_as_written": "IL-1α/β",
+    "outcome_as_written": "rheumatoid arthritis",
+    "direction": "not_stated",
+    "evidence_type": "mr_estimate",
+    "claim_scope": "overall",
+    "pqtl_datasets": [
+     "not_stated"
+    ],
+    "outcome_datasets": [
+     "not_stated"
+    ],
+    "evidence_span": "Human genetic data suggest that long-term dual IL-1α/β inhibition could increase cardiovascular risk and, conversely, reduce the risk of development of rheumatoid arthritis."
+   },
+   {
+    "pmid": "25938632",
+    "protein_as_written": "lipoprotein(a)",
+    "outcome_as_written": "MI",
+    "direction": "raises",
+    "evidence_type": "observational",
+    "claim_scope": "sensitivity",
+    "pqtl_datasets": [
+     "not_stated"
+    ],
+    "outcome_datasets": [
+     "not_stated"
+    ],
+    "evidence_span": "Observational hazard ratios for aortic valve stenosis and MI were similar after further adjustment for CRP levels. Elevated levels of lipoprotein(a) were not causally associated with increased low-grade inflammation as measured through CRP despite a causal association with increased risk of aortic valve stenosis and MI."
+   },
+   {
+    "pmid": "29728394",
+    "protein_as_written": "CETP",
+    "outcome_as_written": "CAD",
+    "direction": "reported_nonsignificant_or_null",
+    "evidence_type": "mr_estimate",
+    "claim_scope": "overall",
+    "pqtl_datasets": [
+     "NEO study"
+    ],
+    "outcome_datasets": [
+     "CARDIoGRAMplusC4D consortium"
+    ],
+    "evidence_span": "One microgram per milliliter increase in genetically determined CETP concentration strongly decreased high-density lipoprotein cholesterol (-0.23 mmol/L; 95% confidence interval, -0.26 to -0.20), moderately increased low-density lipoprotein cholesterol (0.08 mmol/L; 95% confidence interval, 0.00-0.16), and was associated with an odds ratio of 1.08 (95% confidence interval, 0.94-1.23) for CAD risk."
+   },
+   {
+    "pmid": "29728394",
+    "protein_as_written": "CETP",
+    "outcome_as_written": "high-density lipoprotein cholesterol",
+    "direction": "lowers",
+    "evidence_type": "mr_estimate",
+    "claim_scope": "overall",
+    "pqtl_datasets": [
+     "NEO study"
+    ],
+    "outcome_datasets": [
+     "NEO study"
+    ],
+    "evidence_span": "One microgram per milliliter increase in genetically determined CETP concentration strongly decreased high-density lipoprotein cholesterol (-0.23 mmol/L; 95% confidence interval, -0.26 to -0.20), moderately increased low-density lipoprotein cholesterol (0.08 mmol/L; 95% confidence interval, 0.00-0.16), and was associated with an odds ratio of 1.08 (95% confidence interval, 0.94-1.23) for CAD risk."
+   },
+   {
+    "pmid": "29728394",
+    "protein_as_written": "CETP",
+    "outcome_as_written": "low-density lipoprotein cholesterol",
+    "direction": "reported_nonsignificant_or_null",
+    "evidence_type": "mr_estimate",
+    "claim_scope": "overall",
+    "pqtl_datasets": [
+     "NEO study"
+    ],
+    "outcome_datasets": [
+     "NEO study"
+    ],
+    "evidence_span": "One microgram per milliliter increase in genetically determined CETP concentration strongly decreased high-density lipoprotein cholesterol (-0.23 mmol/L; 95% confidence interval, -0.26 to -0.20), moderately increased low-density lipoprotein cholesterol (0.08 mmol/L; 95% confidence interval, 0.00-0.16), and was associated with an odds ratio of 1.08 (95% confidence interval, 0.94-1.23) for CAD risk."
+   },
+   {
+    "pmid": "26886630",
+    "protein_as_written": "IL-10",
+    "outcome_as_written": "digestive cancers",
+    "direction": "not_stated",
+    "evidence_type": "variant_association",
+    "claim_scope": "ancestry_specific",
+    "pqtl_datasets": [
+     "not_stated"
+    ],
+    "outcome_datasets": [
+     "not_stated"
+    ],
+    "evidence_span": "By ethnicity, risk estimate for -1082G allele carriers was increased by 21% for digestive cancers in East Asians (95%CI: 1.05-1.40; P = 0.009). As for the genotype-phenotype association, carriers of -1082G allele had an overall 20.21 pg/mL higher IL-10 level than those with -1082AA genotype (P = 0.023)."
+   },
+   {
+    "pmid": "25350643",
+    "protein_as_written": "DBP",
+    "outcome_as_written": "body mass index (BMI)",
+    "direction": "not_stated",
+    "evidence_type": "observational",
+    "claim_scope": "overall",
+    "pqtl_datasets": [
+     "Canadian Multicentre Osteoporosis Study (CaMos)"
+    ],
+    "outcome_datasets": [
+     "Canadian Multicentre Osteoporosis Study (CaMos)"
+    ],
+    "evidence_span": "While DBP levels were observationally associated with calcium and body mass index (BMI), these associations were not supported by causal analyses."
+   },
+   {
+    "pmid": "25350643",
+    "protein_as_written": "DBP",
+    "outcome_as_written": "body mass index (BMI)",
+    "direction": "reported_nonsignificant_or_null",
+    "evidence_type": "mr_estimate",
+    "claim_scope": "overall",
+    "pqtl_datasets": [
+     "Canadian Multicentre Osteoporosis Study (CaMos)"
+    ],
+    "outcome_datasets": [
+     "Canadian Multicentre Osteoporosis Study (CaMos)"
+    ],
+    "evidence_span": "While DBP levels were observationally associated with calcium and body mass index (BMI), these associations were not supported by causal analyses."
+   },
+   {
+    "pmid": "25350643",
+    "protein_as_written": "DBP",
+    "outcome_as_written": "calcium",
+    "direction": "not_stated",
+    "evidence_type": "observational",
+    "claim_scope": "overall",
+    "pqtl_datasets": [
+     "Canadian Multicentre Osteoporosis Study (CaMos)"
+    ],
+    "outcome_datasets": [
+     "Canadian Multicentre Osteoporosis Study (CaMos)"
+    ],
+    "evidence_span": "While DBP levels were observationally associated with calcium and body mass index (BMI), these associations were not supported by causal analyses."
+   },
+   {
+    "pmid": "25350643",
+    "protein_as_written": "DBP",
+    "outcome_as_written": "calcium",
+    "direction": "reported_nonsignificant_or_null",
+    "evidence_type": "mr_estimate",
+    "claim_scope": "overall",
+    "pqtl_datasets": [
+     "Canadian Multicentre Osteoporosis Study (CaMos)"
+    ],
+    "outcome_datasets": [
+     "Canadian Multicentre Osteoporosis Study (CaMos)"
+    ],
+    "evidence_span": "While DBP levels were observationally associated with calcium and body mass index (BMI), these associations were not supported by causal analyses."
+   }
+  ],
+  "luna_only_records": [
+   {
+    "pmid": "22421340",
+    "protein_as_written": "IL6R",
+    "outcome_as_written": "log interleukin-6 concentration",
+    "direction": "not_stated",
+    "evidence_type": "variant_association",
+    "claim_scope": "overall",
+    "pqtl_datasets": [
+     "not_stated"
+    ],
+    "outcome_datasets": [
+     "not_stated"
+    ],
+    "evidence_span": "In 40 studies including up to 133,449 individuals, an IL6R SNP (rs7529229) marking a non-synonymous IL6R variant (rs8192284; p.Asp358Ala) was associated with increased circulating log interleukin-6 concentration (increase per allele 9·45%, 95% CI 8·34-10·57) as well as reduced C-reactive protein (decrease per allele 8·35%, 95% CI 7·31-9·38) and fibrinogen concentrations (decrease per allele 0·85%, 95% CI 0·60-1·10)."
+   },
+   {
+    "pmid": "25726324",
+    "protein_as_written": "IL-1Ra",
+    "outcome_as_written": "blood pressure",
+    "direction": "reported_nonsignificant_or_null",
+    "evidence_type": "mr_estimate",
+    "claim_scope": "sensitivity",
+    "pqtl_datasets": [
+     "not_stated"
+    ],
+    "outcome_datasets": [
+     "not_stated"
+    ],
+    "evidence_span": "Per-allele odds ratios were 0.97 (0.95-0.99; p = 9.9 × 10(-4)) for rheumatoid arthritis, 0.99 (0.97-1.01; p = 0.47) for type 2 diabetes, 1.00 (0.98-1.02; p = 0.92) for ischaemic stroke, and 1.08 (1.04-1.12; p = 1.8 × 10(-5)) for abdominal aortic aneurysm. In exploratory analyses, we observed per-allele increases in concentrations of proatherogenic lipids, including LDL-cholesterol, but no clear evidence of association for blood pressure, glycaemic traits, or any of the 24 other disorders studied."
+   },
+   {
+    "pmid": "25726324",
+    "protein_as_written": "IL-1Ra",
+    "outcome_as_written": "glycaemic traits",
+    "direction": "reported_nonsignificant_or_null",
+    "evidence_type": "mr_estimate",
+    "claim_scope": "sensitivity",
+    "pqtl_datasets": [
+     "not_stated"
+    ],
+    "outcome_datasets": [
+     "not_stated"
+    ],
+    "evidence_span": "Per-allele odds ratios were 0.97 (0.95-0.99; p = 9.9 × 10(-4)) for rheumatoid arthritis, 0.99 (0.97-1.01; p = 0.47) for type 2 diabetes, 1.00 (0.98-1.02; p = 0.92) for ischaemic stroke, and 1.08 (1.04-1.12; p = 1.8 × 10(-5)) for abdominal aortic aneurysm. In exploratory analyses, we observed per-allele increases in concentrations of proatherogenic lipids, including LDL-cholesterol, but no clear evidence of association for blood pressure, glycaemic traits, or any of the 24 other disorders studied."
+   },
+   {
+    "pmid": "25726324",
+    "protein_as_written": "IL-1Ra",
+    "outcome_as_written": "LDL-cholesterol",
+    "direction": "raises",
+    "evidence_type": "mr_estimate",
+    "claim_scope": "sensitivity",
+    "pqtl_datasets": [
+     "not_stated"
+    ],
+    "outcome_datasets": [
+     "not_stated"
+    ],
+    "evidence_span": "Per-allele odds ratios were 0.97 (0.95-0.99; p = 9.9 × 10(-4)) for rheumatoid arthritis, 0.99 (0.97-1.01; p = 0.47) for type 2 diabetes, 1.00 (0.98-1.02; p = 0.92) for ischaemic stroke, and 1.08 (1.04-1.12; p = 1.8 × 10(-5)) for abdominal aortic aneurysm. In exploratory analyses, we observed per-allele increases in concentrations of proatherogenic lipids, including LDL-cholesterol, but no clear evidence of association for blood pressure, glycaemic traits, or any of the 24 other disorders studied."
+   },
+   {
+    "pmid": "29728394",
+    "protein_as_written": "CETP concentration",
+    "outcome_as_written": "CAD",
+    "direction": "reported_nonsignificant_or_null",
+    "evidence_type": "mr_estimate",
+    "claim_scope": "overall",
+    "pqtl_datasets": [
+     "NEO study"
+    ],
+    "outcome_datasets": [
+     "CARDIoGRAMplusC4D consortium"
+    ],
+    "evidence_span": "One microgram per milliliter increase in genetically determined CETP concentration strongly decreased high-density lipoprotein cholesterol (-0.23 mmol/L; 95% confidence interval, -0.26 to -0.20), moderately increased low-density lipoprotein cholesterol (0.08 mmol/L; 95% confidence interval, 0.00-0.16), and was associated with an odds ratio of 1.08 (95% confidence interval, 0.94-1.23) for CAD risk."
+   },
+   {
+    "pmid": "29728394",
+    "protein_as_written": "CETP concentration",
+    "outcome_as_written": "high-density lipoprotein cholesterol",
+    "direction": "lowers",
+    "evidence_type": "mr_estimate",
+    "claim_scope": "overall",
+    "pqtl_datasets": [
+     "NEO study"
+    ],
+    "outcome_datasets": [
+     "NEO study"
+    ],
+    "evidence_span": "One microgram per milliliter increase in genetically determined CETP concentration strongly decreased high-density lipoprotein cholesterol (-0.23 mmol/L; 95% confidence interval, -0.26 to -0.20), moderately increased low-density lipoprotein cholesterol (0.08 mmol/L; 95% confidence interval, 0.00-0.16), and was associated with an odds ratio of 1.08 (95% confidence interval, 0.94-1.23) for CAD risk."
+   },
+   {
+    "pmid": "29728394",
+    "protein_as_written": "CETP concentration",
+    "outcome_as_written": "low-density lipoprotein cholesterol",
+    "direction": "reported_nonsignificant_or_null",
+    "evidence_type": "mr_estimate",
+    "claim_scope": "overall",
+    "pqtl_datasets": [
+     "NEO study"
+    ],
+    "outcome_datasets": [
+     "NEO study"
+    ],
+    "evidence_span": "One microgram per milliliter increase in genetically determined CETP concentration strongly decreased high-density lipoprotein cholesterol (-0.23 mmol/L; 95% confidence interval, -0.26 to -0.20), moderately increased low-density lipoprotein cholesterol (0.08 mmol/L; 95% confidence interval, 0.00-0.16), and was associated with an odds ratio of 1.08 (95% confidence interval, 0.94-1.23) for CAD risk."
+   },
+   {
+    "pmid": "25350643",
+    "protein_as_written": "DBP levels",
+    "outcome_as_written": "body mass index (BMI)",
+    "direction": "not_stated",
+    "evidence_type": "observational",
+    "claim_scope": "overall",
+    "pqtl_datasets": [
+     "not_stated"
+    ],
+    "outcome_datasets": [
+     "not_stated"
+    ],
+    "evidence_span": "While DBP levels were observationally associated with calcium and body mass index (BMI), these associations were not supported by causal analyses."
+   },
+   {
+    "pmid": "25350643",
+    "protein_as_written": "DBP levels",
+    "outcome_as_written": "calcium",
+    "direction": "not_stated",
+    "evidence_type": "observational",
+    "claim_scope": "overall",
+    "pqtl_datasets": [
+     "not_stated"
+    ],
+    "outcome_datasets": [
+     "not_stated"
+    ],
+    "evidence_span": "While DBP levels were observationally associated with calcium and body mass index (BMI), these associations were not supported by causal analyses."
+   },
+   {
+    "pmid": "25350643",
+    "protein_as_written": "DBP levels",
+    "outcome_as_written": "calcium",
+    "direction": "reported_nonsignificant_or_null",
+    "evidence_type": "mr_estimate",
+    "claim_scope": "overall",
+    "pqtl_datasets": [
+     "not_stated"
+    ],
+    "outcome_datasets": [
+     "not_stated"
+    ],
+    "evidence_span": "While DBP levels were observationally associated with calcium and body mass index (BMI), these associations were not supported by causal analyses."
+   },
+   {
+    "pmid": "18464913",
+    "protein_as_written": "TNF-alpha",
+    "outcome_as_written": "TNF-alpha levels",
+    "direction": "not_stated",
+    "evidence_type": "variant_association",
+    "claim_scope": "overall",
+    "pqtl_datasets": [
+     "InCHIANTI"
+    ],
+    "outcome_datasets": [
+     "not_stated"
+    ],
+    "evidence_span": "We identified one novel trans effect that was an association between ABO blood group and tumour necrosis factor alpha (TNF-alpha) levels (p = 6.8x10(-40)), but this finding was not present when TNF-alpha was measured using a different assay , or in a second study, suggesting an assay-specific association."
+   },
+   {
+    "pmid": "18464913",
+    "protein_as_written": "TNF-alpha",
+    "outcome_as_written": "TNF-alpha levels",
+    "direction": "reported_nonsignificant_or_null",
+    "evidence_type": "variant_association",
+    "claim_scope": "sensitivity",
+    "pqtl_datasets": [
+     "InCHIANTI"
+    ],
+    "outcome_datasets": [
+     "not_stated"
+    ],
+    "evidence_span": "We identified one novel trans effect that was an association between ABO blood group and tumour necrosis factor alpha (TNF-alpha) levels (p = 6.8x10(-40)), but this finding was not present when TNF-alpha was measured using a different assay , or in a second study, suggesting an assay-specific association."
+   },
+   {
+    "pmid": "18464913",
+    "protein_as_written": "TNF-alpha",
+    "outcome_as_written": "TNF-alpha levels",
+    "direction": "reported_nonsignificant_or_null",
+    "evidence_type": "variant_association",
+    "claim_scope": "dataset_specific",
+    "pqtl_datasets": [
+     "not_stated"
+    ],
+    "outcome_datasets": [
+     "not_stated"
+    ],
+    "evidence_span": "We identified one novel trans effect that was an association between ABO blood group and tumour necrosis factor alpha (TNF-alpha) levels (p = 6.8x10(-40)), but this finding was not present when TNF-alpha was measured using a different assay , or in a second study, suggesting an assay-specific association."
+   }
+  ]
+ },
+ "validity": {
+  "eligibility": {
+   "sol": {
+    "n_records": 30,
+    "schema_valid_first_attempt": 30,
+    "needed_retry": 0,
+    "failed_schema_or_parse": 0,
+    "failed": [],
+    "non_200_exchanges_on_disk": 0
+   },
+   "luna": {
+    "n_records": 30,
+    "schema_valid_first_attempt": 30,
+    "needed_retry": 0,
+    "failed_schema_or_parse": 0,
+    "failed": [],
+    "non_200_exchanges_on_disk": 0
+   }
+  },
+  "extraction": {
+   "sol": {
+    "n_records": 30,
+    "schema_valid_first_attempt": 30,
+    "needed_retry": 0,
+    "failed_schema_or_parse": 0,
+    "failed": [],
+    "non_200_exchanges_on_disk": 0
+   },
+   "luna": {
+    "n_records": 30,
+    "schema_valid_first_attempt": 30,
+    "needed_retry": 0,
+    "failed_schema_or_parse": 0,
+    "failed": [],
+    "non_200_exchanges_on_disk": 0
+   }
+  }
+ },
+ "cost": {
+  "sol": {
+   "prices_usd_per_million": {
+    "input": 2.0,
+    "cached_input": 0.1,
+    "cache_write": 2.5,
+    "output": 10.0
+   },
+   "eligibility": {
+    "tokens": {
+     "requests": 30,
+     "input_tokens": 53055,
+     "cached_input_tokens": 39480,
+     "cache_write_tokens": 13485,
+     "output_tokens": 4562,
+     "reasoning_tokens": 1310
+    },
+    "uncached_input_tokens": 90,
+    "usd_parts": {
+     "uncached_input": 0.00018,
+     "cached_input": 0.003948,
+     "cache_write": 0.0337125,
+     "output": 0.04562
+    },
+    "usd": 0.0834605
+   },
+   "extraction": {
+    "tokens": {
+     "requests": 30,
+     "input_tokens": 85545,
+     "cached_input_tokens": 69571,
+     "cache_write_tokens": 15884,
+     "output_tokens": 48474,
+     "reasoning_tokens": 7552
+    },
+    "uncached_input_tokens": 90,
+    "usd_parts": {
+     "uncached_input": 0.00018,
+     "cached_input": 0.006957100000000001,
+     "cache_write": 0.03971,
+     "output": 0.48474
+    },
+    "usd": 0.5315871
+   },
+   "both_tasks": {
+    "tokens": {
+     "requests": 60,
+     "input_tokens": 138600,
+     "cached_input_tokens": 109051,
+     "cache_write_tokens": 29369,
+     "output_tokens": 53036,
+     "reasoning_tokens": 8862
+    },
+    "uncached_input_tokens": 180,
+    "usd_parts": {
+     "uncached_input": 0.00036,
+     "cached_input": 0.010905100000000001,
+     "cache_write": 0.0734225,
+     "output": 0.53036
+    },
+    "usd": 0.6150476
+   }
+  },
+  "luna": {
+   "prices_usd_per_million": {
+    "input": 0.1,
+    "cached_input": 0.01,
+    "cache_write": 0.125,
+    "output": 0.5
+   },
+   "eligibility": {
+    "tokens": {
+     "requests": 30,
+     "input_tokens": 53055,
+     "cached_input_tokens": 38164,
+     "cache_write_tokens": 14801,
+     "output_tokens": 11622,
+     "reasoning_tokens": 8293
+    },
+    "uncached_input_tokens": 90,
+    "usd_parts": {
+     "uncached_input": 9e-06,
+     "cached_input": 0.00038164,
+     "cache_write": 0.001850125,
+     "output": 0.005811
+    },
+    "usd": 0.008051765
+   },
+   "extraction": {
+    "tokens": {
+     "requests": 30,
+     "input_tokens": 85545,
+     "cached_input_tokens": 69571,
+     "cache_write_tokens": 15884,
+     "output_tokens": 60616,
+     "reasoning_tokens": 31394
+    },
+    "uncached_input_tokens": 90,
+    "usd_parts": {
+     "uncached_input": 9e-06,
+     "cached_input": 0.00069571,
+     "cache_write": 0.0019855,
+     "output": 0.030308
+    },
+    "usd": 0.03299821
+   },
+   "both_tasks": {
+    "tokens": {
+     "requests": 60,
+     "input_tokens": 138600,
+     "cached_input_tokens": 107735,
+     "cache_write_tokens": 30685,
+     "output_tokens": 72238,
+     "reasoning_tokens": 39687
+    },
+    "uncached_input_tokens": 180,
+    "usd_parts": {
+     "uncached_input": 1.8e-05,
+     "cached_input": 0.00107735,
+     "cache_write": 0.003835625,
+     "output": 0.036119
+    },
+    "usd": 0.041049974999999995
+   }
+  },
+  "sol_over_luna_usd_ratio": {
+   "eligibility": 10.36549129290286,
+   "extraction": 16.109573822337634,
+   "both_tasks": 14.982898284347312
+  },
+  "note": "input_tokens includes cached_tokens and cache_write_tokens; the remainder is charged at the input price. Usage is summed over every stored 200 exchange of each run; caching state differed between the runs."
+ }
+}

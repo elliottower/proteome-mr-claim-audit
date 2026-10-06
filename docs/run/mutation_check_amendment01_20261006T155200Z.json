@@ -1,0 +1,242 @@
+{
+ "written_utc": "2026-10-06T15:52:56+00:00",
+ "tests": [
+  "test_extraction_system_comparison.py",
+  "test_run_extraction_luna.py"
+ ],
+ "unmutated_tests_pass": true,
+ "mutations": 46,
+ "killed": 46,
+ "results": [
+  {
+   "mutation": "null flag never set",
+   "file": "extraction_system_comparison.py",
+   "killed": true
+  },
+  {
+   "mutation": "A-in-B counts every record of A",
+   "file": "extraction_system_comparison.py",
+   "killed": true
+  },
+  {
+   "mutation": "B-in-A counts every record of B",
+   "file": "extraction_system_comparison.py",
+   "killed": true
+  },
+  {
+   "mutation": "direction class read as direction",
+   "file": "extraction_system_comparison.py",
+   "killed": true
+  },
+  {
+   "mutation": "same direction requires the same class",
+   "file": "extraction_system_comparison.py",
+   "killed": true
+  },
+  {
+   "mutation": "directional in either source",
+   "file": "extraction_system_comparison.py",
+   "killed": true
+  },
+  {
+   "mutation": "opposite direction counts agreements",
+   "file": "extraction_system_comparison.py",
+   "killed": true
+  },
+  {
+   "mutation": "null flag agreement inverted",
+   "file": "extraction_system_comparison.py",
+   "killed": true
+  },
+  {
+   "mutation": "run-1-first completion pools the two runs",
+   "file": "extraction_system_comparison.py",
+   "killed": true
+  },
+  {
+   "mutation": "restriction keeps the unsampled abstracts",
+   "file": "extraction_system_comparison.py",
+   "killed": true
+  },
+  {
+   "mutation": "second Sol run outside the sample accepted",
+   "file": "extraction_system_comparison.py",
+   "killed": true
+  },
+  {
+   "mutation": "second Sol run without a sample accepted",
+   "file": "extraction_system_comparison.py",
+   "killed": true
+  },
+  {
+   "mutation": "repeat-sample comparisons on every abstract",
+   "file": "extraction_system_comparison.py",
+   "killed": true
+  },
+  {
+   "mutation": "Sol table never checked against the primary",
+   "file": "extraction_system_comparison.py",
+   "killed": true
+  },
+  {
+   "mutation": "failed HTTP tries priced",
+   "file": "extraction_system_comparison.py",
+   "killed": true
+  },
+  {
+   "mutation": "no exchange matched to its abstract",
+   "file": "extraction_system_comparison.py",
+   "killed": true
+  },
+  {
+   "mutation": "exchanges of records outside the parsed files priced",
+   "file": "extraction_system_comparison.py",
+   "killed": true
+  },
+  {
+   "mutation": "cost divided by the abstracts with a successful response",
+   "file": "extraction_system_comparison.py",
+   "killed": true
+  },
+  {
+   "mutation": "attempted abstracts counted from successful exchanges",
+   "file": "extraction_system_comparison.py",
+   "killed": true
+  },
+  {
+   "mutation": "abstracts without a response not counted",
+   "file": "extraction_system_comparison.py",
+   "killed": true
+  },
+  {
+   "mutation": "extraction failures read from the successful rows",
+   "file": "extraction_system_comparison.py",
+   "killed": true
+  },
+  {
+   "mutation": "a subset of the three usage files accepted",
+   "file": "extraction_system_comparison.py",
+   "killed": true
+  },
+  {
+   "mutation": "a usage file of another run accepted",
+   "file": "extraction_system_comparison.py",
+   "killed": true
+  },
+  {
+   "mutation": "usage over different abstracts accepted",
+   "file": "extraction_system_comparison.py",
+   "killed": true
+  },
+  {
+   "mutation": "Luna tables reported with their threshold classifications",
+   "file": "extraction_system_comparison.py",
+   "killed": true
+  },
+  {
+   "mutation": "difference from Sol with the wrong sign",
+   "file": "extraction_system_comparison.py",
+   "killed": true
+  },
+  {
+   "mutation": "Luna run 1 table reported in full",
+   "file": "extraction_system_comparison.py",
+   "killed": true
+  },
+  {
+   "mutation": "cache writes priced twice",
+   "file": "extraction_system_comparison.py",
+   "killed": true
+  },
+  {
+   "mutation": "cache writes at the input price",
+   "file": "extraction_system_comparison.py",
+   "killed": true
+  },
+  {
+   "mutation": "every unit counted as a hit",
+   "file": "extraction_system_comparison.py",
+   "killed": true
+  },
+  {
+   "mutation": "one stream for every share",
+   "file": "extraction_system_comparison.py",
+   "killed": true
+  },
+  {
+   "mutation": "streams of two comparisons overlap",
+   "file": "extraction_system_comparison.py",
+   "killed": true
+  },
+  {
+   "mutation": "Luna output price",
+   "file": "extraction_system_comparison.py",
+   "killed": true
+  },
+  {
+   "mutation": "completion tables from the pooled runs",
+   "file": "extraction_system_comparison.py",
+   "killed": true
+  },
+  {
+   "mutation": "outputs overwritten",
+   "file": "extraction_system_comparison.py",
+   "killed": true
+  },
+  {
+   "mutation": "frozen prompt anywhere in the Luna prompt",
+   "file": "run_extraction_luna.py",
+   "killed": true
+  },
+  {
+   "mutation": "no addendum required",
+   "file": "run_extraction_luna.py",
+   "killed": true
+  },
+  {
+   "mutation": "digests read above the log",
+   "file": "run_extraction_luna.py",
+   "killed": true
+  },
+  {
+   "mutation": "gate never refuses",
+   "file": "run_extraction_luna.py",
+   "killed": true
+  },
+  {
+   "mutation": "records missing from the Luna run accepted",
+   "file": "run_extraction_luna.py",
+   "killed": true
+  },
+  {
+   "mutation": "request sent to Sol",
+   "file": "run_extraction_luna.py",
+   "killed": true
+  },
+  {
+   "mutation": "the two runs share a raw folder",
+   "file": "run_extraction_luna.py",
+   "killed": true
+  },
+  {
+   "mutation": "no second attempt after a schema failure",
+   "file": "run_extraction_luna.py",
+   "killed": true
+  },
+  {
+   "mutation": "cache writes not recorded",
+   "file": "run_extraction_luna.py",
+   "killed": true
+  },
+  {
+   "mutation": "revision id of the Sol model",
+   "file": "run_extraction_luna.py",
+   "killed": true
+  },
+  {
+   "mutation": "the two runs share a parsed file",
+   "file": "run_extraction_luna.py",
+   "killed": true
+  }
+ ]
+}
