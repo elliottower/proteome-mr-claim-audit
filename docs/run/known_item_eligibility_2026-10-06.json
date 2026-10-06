@@ -1,0 +1,188 @@
+{
+ "known_items": 24,
+ "decisions": {
+  "eligible": 13,
+  "eligible_count_not_stated": 10,
+  "uncertain": 1
+ },
+ "not_eligible_or_missing": [],
+ "rows": [
+  {
+   "known_item": "32895551",
+   "record_id": "32895551",
+   "decision": "eligible",
+   "reasons": [],
+   "flags": []
+  },
+  {
+   "known_item": "36253349",
+   "record_id": "36253349",
+   "decision": "eligible",
+   "reasons": [],
+   "flags": []
+  },
+  {
+   "known_item": "39702585",
+   "record_id": "39702585",
+   "decision": "eligible_count_not_stated",
+   "reasons": [],
+   "flags": []
+  },
+  {
+   "known_item": "31208196",
+   "record_id": "31208196",
+   "decision": "eligible",
+   "reasons": [],
+   "flags": []
+  },
+  {
+   "known_item": "36864689",
+   "record_id": "36864689",
+   "decision": "eligible_count_not_stated",
+   "reasons": [],
+   "flags": [
+    "also_tissue_or_csf"
+   ]
+  },
+  {
+   "known_item": "38576019",
+   "record_id": "38576019",
+   "decision": "eligible_count_not_stated",
+   "reasons": [],
+   "flags": []
+  },
+  {
+   "known_item": "38049731",
+   "record_id": "38049731",
+   "decision": "eligible",
+   "reasons": [],
+   "flags": []
+  },
+  {
+   "known_item": "36388766",
+   "record_id": "36388766",
+   "decision": "eligible",
+   "reasons": [],
+   "flags": []
+  },
+  {
+   "known_item": "36510323",
+   "record_id": "36510323",
+   "decision": "eligible_count_not_stated",
+   "reasons": [],
+   "flags": [
+    "also_tissue_or_csf"
+   ]
+  },
+  {
+   "known_item": "36736436",
+   "record_id": "36736436",
+   "decision": "eligible",
+   "reasons": [],
+   "flags": []
+  },
+  {
+   "known_item": "37652020",
+   "record_id": "37652020",
+   "decision": "eligible",
+   "reasons": [],
+   "flags": []
+  },
+  {
+   "known_item": "37726845",
+   "record_id": "37726845",
+   "decision": "eligible_count_not_stated",
+   "reasons": [],
+   "flags": []
+  },
+  {
+   "known_item": "37429843",
+   "record_id": "37429843",
+   "decision": "eligible_count_not_stated",
+   "reasons": [],
+   "flags": []
+  },
+  {
+   "known_item": "39068416",
+   "record_id": "39068416",
+   "decision": "eligible",
+   "reasons": [],
+   "flags": []
+  },
+  {
+   "known_item": "41247789",
+   "record_id": "41247789",
+   "decision": "eligible",
+   "reasons": [],
+   "flags": []
+  },
+  {
+   "known_item": "41286868",
+   "record_id": "41286868",
+   "decision": "eligible_count_not_stated",
+   "reasons": [],
+   "flags": []
+  },
+  {
+   "known_item": "37996402",
+   "record_id": "37996402",
+   "decision": "eligible",
+   "reasons": [],
+   "flags": []
+  },
+  {
+   "known_item": "36280454",
+   "record_id": "36280454",
+   "decision": "eligible",
+   "reasons": [],
+   "flags": []
+  },
+  {
+   "known_item": "34758976",
+   "record_id": "34758976",
+   "decision": "eligible",
+   "reasons": [],
+   "flags": []
+  },
+  {
+   "known_item": "38184718",
+   "record_id": "38184718",
+   "decision": "eligible",
+   "reasons": [],
+   "flags": []
+  },
+  {
+   "known_item": "40037332",
+   "record_id": "40037332",
+   "decision": "eligible_count_not_stated",
+   "reasons": [],
+   "flags": []
+  },
+  {
+   "known_item": "39806440",
+   "record_id": "39806440",
+   "decision": "eligible_count_not_stated",
+   "reasons": [],
+   "flags": [
+    "also_tissue_or_csf"
+   ]
+  },
+  {
+   "known_item": "39541108",
+   "record_id": "39541108",
+   "decision": "eligible_count_not_stated",
+   "reasons": [],
+   "flags": []
+  },
+  {
+   "known_item": "38762700",
+   "record_id": "38762700",
+   "decision": "uncertain",
+   "reasons": [],
+   "flags": [
+    "uncertain_proteome_or_panel_wide_screen"
+   ]
+  }
+ ],
+ "decisions_file": "outputs/parsed/sol_eligibility_search_complete_2811496ef424.decisions.jsonl"
+}
