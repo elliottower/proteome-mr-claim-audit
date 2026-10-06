@@ -57,3 +57,10 @@ GPT-6.1 Sol eligibility, 3,120 requests, 0 failed: 5,268,665 input tokens (4,105
 Response bodies (349 MB) on the Modal volume, 991 files compared by hash; ledger runs
 `s1b_chase_1` and `s2_eligibility_chase1_2811496ef424`; `results access` at `structure seen`;
 one `prereg log` line at `results not opened`.
+
+## Parallelism
+
+Every GPT-6.1 Sol call of stage 2 and of this round ran with 6 workers, the constant `WORKERS`
+of `scripts/run_extraction.py` (line 59), a sealed script with no command-line or environment
+setting for it. A request for more workers arrived after the last batch of this round had
+finished, so no batch ran with another count.
