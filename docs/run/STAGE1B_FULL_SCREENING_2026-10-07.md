@@ -87,3 +87,56 @@ so the laptop and not the API set the pace. Round 3 writes to a fresh folder for
 
 Ledger runs `s1b_chase_2` (response bodies on the Modal volume, compared by hash) and
 `s2_eligibility_chase2_2811496ef424`.
+
+## Round 3 (2026-10-07, 05:08 to 05:14 UTC)
+
+`citation_chase.py --round 3`, seeds the 69 records of round 2 (69 found in OpenAlex), known
+records the search and the screening sets of rounds 1 and 2.
+
+| count | value |
+|---|---|
+| works referenced by the seeds | 3,237 |
+| referenced works retrieved (published 2019 or later) | 1,757 |
+| works citing the seeds | 303 |
+| works already in the screening sets | 622 |
+| new screening records | 1,433 |
+| `no_abstract` (empty 28, stub 8) | 36 |
+| records with an abstract, all screened | 1,397 |
+| left unmarked by the gate | 0 |
+| marked by the gate | 1,397 |
+| of the 1,397: eligible / count not stated / uncertain / ineligible | 1 / 2 / 11 / 1,383 |
+
+No sample audit ran: every record was screened. Records to extraction: 14. Chasing ends here;
+three rounds is the registered maximum.
+
+The raw exchanges of this round are in a new folder, `outputs/raw/sol_chase_round3`, not in
+`outputs/raw/sol_chase_full`: the runner lists the response folder twice per record, and with
+the 33,000 files of rounds 1 and 2 in it each listing took seconds. In the new folder the 1,397
+requests finished in two minutes with the same 48 workers. Nothing else differs.
+
+GPT-6.1 Sol, 1,397 requests, 0 failed: 2,374,404 input tokens (1,838,452 cached, 531,761 cache
+writes), 184,919 output. Cost at list prices USD 3.37
+(`usage_s1b_chase3_eligibility_2026-10-07.json`).
+
+Ledger runs `s1b_chase_3` and `s2_eligibility_chase3_2811496ef424`.
+
+## Records going to extraction (Stage 3 has not started)
+
+| source | records |
+|---|---|
+| search | 2,093 |
+| chase round 1 | 187 |
+| chase round 2 | 69 |
+| chase round 3 | 14 |
+| all | 2,363 |
+
+## Cost of this step and so far (GPT-6.1 Sol, list prices)
+
+| part | requests | USD |
+|---|---|---|
+| search eligibility, with the second request of 66 | 5,587 | 18.62 |
+| round 1: gated-in queue and five audit batches | 3,120 | 7.51 |
+| round 1: the other 28,612 marked records | 28,612 | 68.67 |
+| round 2: every record | 4,746 | 11.55 |
+| round 3: every record | 1,397 | 3.37 |
+| all eligibility screening | 43,462 | 109.72 |

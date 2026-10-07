@@ -1,0 +1,22 @@
+{
+ "records": 1397,
+ "records_without_a_200_exchange": 0,
+ "requests": 1397,
+ "input": 2374404,
+ "cached": 1838452,
+ "cache_write": 531761,
+ "output": 184919,
+ "reasoning": 46385,
+ "failed_exchanges": 0,
+ "usd": 3.3708,
+ "prices_usd_per_million": {
+  "input": 2.0,
+  "cached_input": 0.1,
+  "cache_write": 2.5,
+  "output": 10.0
+ },
+ "raw_dir": "outputs/raw/sol_chase_round3/eligibility/2811496ef424",
+ "records_files": [
+  "outputs/screening/chase_round_3/gated_out.jsonl"
+ ]
+}

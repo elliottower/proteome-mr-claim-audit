@@ -1,0 +1,32 @@
+{
+ "round": 3,
+ "seeds_file": "outputs/parsed/sol_eligibility_chase2_2811496ef424.decisions.eligible_records.jsonl",
+ "seeds_sha256": "b02829456b7982d4e344c74c9962ab403e07a12ae7b37549776c581f68250a19",
+ "known_files": [
+  "outputs/screening/2026-10-03/screening_records.jsonl",
+  "outputs/screening/chase_round_1/screening_records.jsonl",
+  "outputs/screening/chase_round_2/screening_records.jsonl"
+ ],
+ "seeds": 69,
+ "seeds_without_doi_or_pmid": 0,
+ "seed_works_found": 69,
+ "published_from": "2019-01-01",
+ "backward_works_referenced": 3237,
+ "backward_works_retrieved": 1757,
+ "forward_works": 303,
+ "works_already_in_screening_sets": 622,
+ "new_works": 1433,
+ "new_works_with_pmid": 1374,
+ "new_screening_records": 1433,
+ "new_screening_records_no_abstract": {
+  "records": 36,
+  "empty": 28,
+  "stub_below_floor": 8,
+  "by_document_class": {
+   "journal": 21,
+   "other": 8,
+   "preprint": 7
+  },
+  "floor_characters": 200
+ }
+}
