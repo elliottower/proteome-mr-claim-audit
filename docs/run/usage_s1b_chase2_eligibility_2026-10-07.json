@@ -1,0 +1,23 @@
+{
+ "records": 4746,
+ "records_without_a_200_exchange": 0,
+ "requests": 4746,
+ "input": 8076098,
+ "cached": 6244845,
+ "cache_write": 1817015,
+ "output": 635531,
+ "reasoning": 163681,
+ "failed_exchanges": 0,
+ "usd": 11.5508,
+ "prices_usd_per_million": {
+  "input": 2.0,
+  "cached_input": 0.1,
+  "cache_write": 2.5,
+  "output": 10.0
+ },
+ "raw_dir": "../../planning/usage_links/chase2",
+ "records_files": [
+  "outputs/screening/chase_round_2/screening_queue.jsonl",
+  "outputs/screening/chase_round_2/gated_out.jsonl"
+ ]
+}

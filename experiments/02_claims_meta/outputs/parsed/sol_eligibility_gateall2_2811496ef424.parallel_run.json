@@ -1,0 +1,23 @@
+{
+ "task": "eligibility",
+ "revision": "2811496ef424",
+ "raw_dir": "outputs/raw/sol_chase_full/eligibility/2811496ef424",
+ "records": 4731,
+ "answered_before_this_invocation": 0,
+ "answered": 4731,
+ "unanswered": 0,
+ "workers_requested": 48,
+ "worker_limit_history": [
+  48
+ ],
+ "passes": 1,
+ "new_requests_with_200": {
+  "requests": 4731,
+  "input_tokens": 8050266,
+  "cached_input_tokens": 6227737,
+  "output_tokens": 632511,
+  "reasoning_tokens": 162465
+ },
+ "started_utc": "2026-10-07T03:33:24.022+00:00",
+ "finished_utc": "2026-10-07T05:03:45.075+00:00"
+}

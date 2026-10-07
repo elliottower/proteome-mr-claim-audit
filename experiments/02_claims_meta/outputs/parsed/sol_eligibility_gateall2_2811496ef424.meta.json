@@ -1,0 +1,25 @@
+{
+ "task": "eligibility",
+ "label": "gateall2",
+ "revision": "2811496ef424",
+ "model_requested": "gpt-6.1-sol",
+ "models_returned": [
+  "gpt-6.1-sol"
+ ],
+ "reasoning_effort": "medium",
+ "endpoint": "https://api.openai.com/v1/responses",
+ "abstracts": "outputs/screening/chase_round_2/gated_out.jsonl",
+ "n_records": 4731,
+ "n_ok": 4731,
+ "n_extraction_failed": 0,
+ "n_needed_retry": 0,
+ "usage_new_requests_this_invocation": {
+  "requests": 0,
+  "input_tokens": 0,
+  "cached_input_tokens": 0,
+  "output_tokens": 0,
+  "reasoning_tokens": 0
+ },
+ "started_utc": "2026-10-07T05:03:45.367+00:00",
+ "finished_utc": "2026-10-07T05:03:47.909+00:00"
+}

@@ -56,3 +56,34 @@ Ledger run `s2_eligibility_gateall1_2811496ef424` (28,622 files); `results acces
 `structure seen`; raw exchanges in `outputs/raw/sol_chase_full` (608 MB, 28,612 files of about
 21 KB). Modal suite with the three new scripts: 797 pass, 1 skipped as before, the three dry
 runs return 0 (`outputs/tests/pytest_all_modal_20261006T232255Z.txt`).
+
+## Round 2 (2026-10-07, 03:29 to 05:03 UTC)
+
+`citation_chase.py --round 2`, seeds the 187 records of round 1 (187 found in OpenAlex), known
+records the search and round 1 screening sets. OpenAlex credits used: 144 of the day's 10,000.
+
+| count | value |
+|---|---|
+| works referenced by the seeds | 8,086 |
+| referenced works retrieved (published 2019 or later) | 4,129 |
+| works citing the seeds | 3,955 |
+| works already in the screening sets | 3,024 |
+| new screening records | 4,991 |
+| `no_abstract` (empty 214, stub 31) | 245 |
+| records with an abstract, all screened | 4,746 |
+| left unmarked by the gate | 15 |
+| of the 15: eligible / count not stated / uncertain / ineligible | 0 / 1 / 1 / 13 |
+| marked by the gate | 4,731 |
+| of the 4,731: eligible / count not stated / uncertain / ineligible | 5 / 15 / 47 / 4,664 |
+
+No sample audit ran: every record was screened. Records to extraction and seeds of round 3: 69
+(2 unmarked, 67 marked).
+
+GPT-6.1 Sol, 4,746 requests, 0 failed, 48 workers: 8,076,098 input tokens (6,244,845 cached,
+1,817,015 cache writes), 635,531 output. Cost at list prices USD 11.55
+(`usage_s1b_chase2_eligibility_2026-10-07.json`). The run took 90 minutes: the runner lists
+the response folder twice per record, and that folder already held the 28,612 files of round 1,
+so the laptop and not the API set the pace. Round 3 writes to a fresh folder for that reason.
+
+Ledger runs `s1b_chase_2` (response bodies on the Modal volume, compared by hash) and
+`s2_eligibility_chase2_2811496ef424`.
