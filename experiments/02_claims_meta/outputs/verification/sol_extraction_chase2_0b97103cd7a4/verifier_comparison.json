@@ -1,0 +1,97 @@
+{
+ "written_utc": "20261007T160403Z",
+ "extraction_file": "sol_extraction_chase2_0b97103cd7a4.jsonl",
+ "extraction": {
+  "bytes": 260397,
+  "sha256": "aaef43b06756a76e035495988e3f06580f56d52a71cd2b7e7536b513758d6653"
+ },
+ "registered": {
+  "script": "scripts/verify_claims.py",
+  "inputs": {
+   "citations_verify.txt": {
+    "bytes": 174,
+    "sha256": "20095c1adc646d29a3ddb41dcf00e33c7bbe2d80a100190ce41e3fc3bb95c310"
+   },
+   "span_summary.json": {
+    "bytes": 372,
+    "sha256": "2a578f2a4a553b0aa2393c269e43a9341382becbe0febd412e2c0c316420c2d2"
+   },
+   "spans.jsonl": {
+    "bytes": 151242,
+    "sha256": "c6f79ac759d10ce8b0d80adc7ef3824683d497f217db6701e1d847748c63d6fc"
+   }
+  },
+  "outputs": {
+   "claim_checks.jsonl": {
+    "bytes": 453531,
+    "sha256": "a5b527aa290e2a23be6a35767bc6cb06db4588e08a765d70f448243d477d7590"
+   },
+   "claim_summary.json": {
+    "bytes": 3118,
+    "sha256": "c15a4184361ea73b30530638dc528c8f4fa6a8e73f67f9c4e98780c0ada83122"
+   }
+  },
+  "volume_folder": "/vol/02_claims_meta/stage4/sol_extraction_chase2_0b97103cd7a4"
+ },
+ "corrected": {
+  "script": "scripts/verify_claims_whitespace.py",
+  "command": [
+   "python",
+   "scripts/verify_claims_whitespace.py",
+   "--extraction",
+   "outputs/parsed/sol_extraction_chase2_0b97103cd7a4.jsonl"
+  ],
+  "inputs": {
+   "citations_verify.txt": {
+    "bytes": 174,
+    "sha256": "20095c1adc646d29a3ddb41dcf00e33c7bbe2d80a100190ce41e3fc3bb95c310"
+   },
+   "span_summary.json": {
+    "bytes": 372,
+    "sha256": "2a578f2a4a553b0aa2393c269e43a9341382becbe0febd412e2c0c316420c2d2"
+   },
+   "spans.jsonl": {
+    "bytes": 151242,
+    "sha256": "c6f79ac759d10ce8b0d80adc7ef3824683d497f217db6701e1d847748c63d6fc"
+   }
+  },
+  "outputs": {
+   "claim_checks.jsonl": {
+    "bytes": 453531,
+    "sha256": "a5b527aa290e2a23be6a35767bc6cb06db4588e08a765d70f448243d477d7590"
+   },
+   "claim_summary.json": {
+    "bytes": 3118,
+    "sha256": "c15a4184361ea73b30530638dc528c8f4fa6a8e73f67f9c4e98780c0ada83122"
+   }
+  },
+  "volume_folder": "/vol/02_claims_meta/stage4_whitespace/sol_extraction_chase2_0b97103cd7a4"
+ },
+ "inputs_identical": true,
+ "byte_identical": {
+  "claim_checks.jsonl": true,
+  "claim_summary.json": true
+ },
+ "all_identical": true,
+ "environment": {
+  "python": "3.12.10",
+  "platform": "Linux-4.19.0-gvisor-x86_64-with-glibc2.36",
+  "image": "modal debian_slim, python 3.12",
+  "packages": {
+   "httpx": "0.28.1",
+   "numpy": "2.5.3",
+   "openpyxl": "3.1.5",
+   "pyarrow": "21.0.0",
+   "pydantic": "2.13.5",
+   "pypdf": "5.9.0",
+   "pytest": "8.4.2",
+   "rapidfuzz": "3.14.6",
+   "modal": "1.4.3"
+  },
+  "scripts_sha256": {
+   "scripts/verify_claims.py": "5f29a69515a3be5ed65f11964f78b8d9c8147a45acd3979cb9d19aea26cf3ff8",
+   "scripts/verify_claims_whitespace.py": "b217f93059d0dd7cb327de0c7df8a0ecc77b5ff6e514e4c1b89659a5f8157c7d"
+  },
+  "reference_manifest_sha256": "41def217e24c028a4efe6a6c457f6a03ea887a3556fba6a270762ba99f786347"
+ }
+}
