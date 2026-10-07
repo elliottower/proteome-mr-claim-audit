@@ -1,0 +1,32 @@
+{
+ "stamp": "20261007T160040Z",
+ "environment": {
+  "python": "3.12.10",
+  "platform": "Linux-4.19.0-gvisor-x86_64-with-glibc2.36",
+  "image": "modal debian_slim, python 3.12",
+  "packages": {
+   "httpx": "0.28.1",
+   "numpy": "2.5.3",
+   "openpyxl": "3.1.5",
+   "pyarrow": "21.0.0",
+   "pydantic": "2.13.5",
+   "pypdf": "5.9.0",
+   "pytest": "8.4.2",
+   "rapidfuzz": "3.14.6",
+   "modal": "1.4.3"
+  },
+  "scripts_sha256": {
+   "scripts/verify_claims.py": "5f29a69515a3be5ed65f11964f78b8d9c8147a45acd3979cb9d19aea26cf3ff8",
+   "scripts/verify_claims_whitespace.py": "b217f93059d0dd7cb327de0c7df8a0ecc77b5ff6e514e4c1b89659a5f8157c7d"
+  },
+  "reference_manifest_sha256": "41def217e24c028a4efe6a6c457f6a03ea887a3556fba6a270762ba99f786347"
+ },
+ "registered_raises_on_thin_space": true,
+ "corrected_completes_on_thin_space": true,
+ "corrected_reads_the_estimate_on_thin_space": true,
+ "both_complete_on_ordinary_space": true,
+ "comparison_reports_identical_bytes": true,
+ "comparison_reports_a_differing_byte": true,
+ "same_command_but_for_the_script": true,
+ "passed": true
+}
