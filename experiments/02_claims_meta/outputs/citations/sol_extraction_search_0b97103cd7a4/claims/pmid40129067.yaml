@@ -1,0 +1,15 @@
+source:
+  citation: pmid40129067
+  local: sources/pmid40129067.txt
+  sha256: 5e001ff335a54bf2743b360dbac3186f22f595d2bfa08338193611adbd21e89d
+  url: https://pubmed.ncbi.nlm.nih.gov/40129067/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: Combined with the multi-omics MR Analysis results, six CpG sites were identified with the
+        RCC2 gene associated with BCC risk.
+  c001:
+    quotes:
+    - exact: Moreover, the proliferation of A431 cells was significantly inhibited after RCC2 was knocked
+        down.

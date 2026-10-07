@@ -1,0 +1,24 @@
+source:
+  citation: pmid40754897
+  local: sources/pmid40754897.txt
+  sha256: ba5b4b54f06659caa3d0486688a272af3e3156035be61724866a831470d30b0f
+  url: https://pubmed.ncbi.nlm.nih.gov/40754897/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: 'At the circulating protein level, SCP2 (OR=2.10, 95%CI: 1.34-3.29) showed a consistent pathogenic
+        trend. In addition, GSTP1 (OR=1.16, 95%CI: 1.07-1.25) and LPO (OR=1.12, 95%CI: 1.05-1.19) were
+        significantly associated with increased PCa risk.'
+  c001:
+    quotes:
+    - exact: 'In addition, GSTP1 (OR=1.16, 95%CI: 1.07-1.25) and LPO (OR=1.12, 95%CI: 1.05-1.19) were
+        significantly associated with increased PCa risk.'
+  c002:
+    quotes:
+    - exact: 'In addition, GSTP1 (OR=1.16, 95%CI: 1.07-1.25) and LPO (OR=1.12, 95%CI: 1.05-1.19) were
+        significantly associated with increased PCa risk.'
+  c003:
+    quotes:
+    - exact: Further functional assays demonstrated that knockdown of SCP2 significantly reduced the oncogenic
+        phenotype of prostate cancer cells.

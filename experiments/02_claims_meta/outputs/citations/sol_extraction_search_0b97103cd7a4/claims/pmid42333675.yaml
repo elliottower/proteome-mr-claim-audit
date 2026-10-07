@@ -1,0 +1,35 @@
+source:
+  citation: pmid42333675
+  local: sources/pmid42333675.txt
+  sha256: b185ef78aa3d915998dc8373f9e17c4e45f827ef41ba7735ba1546dd8bb1175f
+  url: https://pubmed.ncbi.nlm.nih.gov/42333675/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: The genetic screen identified SPON1 as a potential target for AF, supported by colocalization
+        evidence across the plasma proteome (posterior probability of hypothesis 4=0.87) and atrial transcriptome
+        (posterior probability of hypothesis 4=0.86).
+  c001:
+    quotes:
+    - exact: In the UK Biobank cohort (N=39 372), elevated plasma SPON1 levels were independently associated
+        with an increased risk of incident AF (hazard ratio [HR], 1.17; P<0.001).
+  c002:
+    quotes:
+    - exact: Furthermore, high SPON1 levels were associated with increased left atrial volumes (P<0.05)
+        and stratified the risk of heart failure and death (HR, 1.51; P<0.001) in patients with established
+        AF.
+  c003:
+    quotes:
+    - exact: Furthermore, high SPON1 levels were associated with increased left atrial volumes (P<0.05)
+        and stratified the risk of heart failure and death (HR, 1.51; P<0.001) in patients with established
+        AF.
+  c004:
+    quotes:
+    - exact: Furthermore, high SPON1 levels were associated with increased left atrial volumes (P<0.05)
+        and stratified the risk of heart failure and death (HR, 1.51; P<0.001) in patients with established
+        AF.
+  c005:
+    quotes:
+    - exact: Experimental validation showed that recombinant SPON1 can induce a profibrotic phenotype
+        in fibroblasts.

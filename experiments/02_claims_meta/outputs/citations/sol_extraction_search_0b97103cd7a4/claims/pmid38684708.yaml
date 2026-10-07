@@ -1,0 +1,17 @@
+source:
+  citation: pmid38684708
+  local: sources/pmid38684708.txt
+  sha256: d3905c2f8b36f5d95d3817c9ba02595397f7248de92da6d660b838e5c3ca512d
+  url: https://pubmed.ncbi.nlm.nih.gov/38684708/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: 'Here we find 40 proteins associated with common cancers, such as PLAUR and risk of breast
+        cancer [odds ratio per standard deviation increment: 2.27, 1.88-2.74], and with high-mortality
+        cancers, such as CTRB1 and pancreatic cancer [0.79, 0.73-0.85].'
+  c001:
+    quotes:
+    - exact: 'Here we find 40 proteins associated with common cancers, such as PLAUR and risk of breast
+        cancer [odds ratio per standard deviation increment: 2.27, 1.88-2.74], and with high-mortality
+        cancers, such as CTRB1 and pancreatic cancer [0.79, 0.73-0.85].'

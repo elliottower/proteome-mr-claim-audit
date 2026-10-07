@@ -1,0 +1,16 @@
+source:
+  citation: pmid38482004
+  local: sources/pmid38482004.txt
+  sha256: dee80edf8eb6c089f1b4be54f44ffac0baa58edd6bac037789ccf87ef9511e9a
+  url: https://pubmed.ncbi.nlm.nih.gov/38482004/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: 'After Bonferroni correction, MR analysis revealed that the Interleukin-5 (IL-5) cycle level
+        was associated with a reduced risk of SSc [odds ratio (OR)=0.48,95% confidence interval (CI):
+        0.27-0.84, P=0.01].'
+  c001:
+    quotes:
+    - exact: 'It also indicated that the Stem cell growth factor beta (SCGF-β) cycling level might elevate
+        the risk of SSc (OR = 1.36, 95% CI: 1.01-1.83, P = 0.04).'

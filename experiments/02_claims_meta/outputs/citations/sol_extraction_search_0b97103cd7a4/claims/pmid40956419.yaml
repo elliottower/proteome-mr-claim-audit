@@ -1,0 +1,13 @@
+source:
+  citation: pmid40956419
+  local: sources/pmid40956419.txt
+  sha256: baa44a321e4d84b1f2a6a3e07d9a0eac66377c29727de6e17d8fdfb0d7c78e12
+  url: https://pubmed.ncbi.nlm.nih.gov/40956419/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: 'We found that the protein level ratio of ANXA11/ANXA3 was significantly positively associated
+        with the positive effects of antidepressant treatment(IVW method(FEM): OR = 1.537, 95%CI = 1.263-1.869,
+        p = 1.730E-05, pFDR = 0.049), suggesting its potential as a biomarker for predicting antidepressant
+        efficacy.'

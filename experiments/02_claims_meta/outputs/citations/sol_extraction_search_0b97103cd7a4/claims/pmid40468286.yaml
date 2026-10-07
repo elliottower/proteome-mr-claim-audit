@@ -1,0 +1,22 @@
+source:
+  citation: pmid40468286
+  local: sources/pmid40468286.txt
+  sha256: d37bca0f3cc6369e02d2899fc164c0e8fac1ba2e8624f5cf890d137c82cd44c8
+  url: https://pubmed.ncbi.nlm.nih.gov/40468286/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: 'Through the preliminary and external validation stages, ICAM5 (OR = 0.92, 95%CI: 0.89-0.95,
+        P = 2.31 × 10-6), PCYOX1 (OR = 0.89, 95%CI: 0.85-0.93, P = 5.31 × 10-8), and TYMP (OR = 0.76,
+        95%CI: 0.66-0.87, P = 5.79 × 10-5) are negatively correlated with lung adenocarcinoma.'
+  c001:
+    quotes:
+    - exact: 'Through the preliminary and external validation stages, ICAM5 (OR = 0.92, 95%CI: 0.89-0.95,
+        P = 2.31 × 10-6), PCYOX1 (OR = 0.89, 95%CI: 0.85-0.93, P = 5.31 × 10-8), and TYMP (OR = 0.76,
+        95%CI: 0.66-0.87, P = 5.79 × 10-5) are negatively correlated with lung adenocarcinoma.'
+  c002:
+    quotes:
+    - exact: 'Through the preliminary and external validation stages, ICAM5 (OR = 0.92, 95%CI: 0.89-0.95,
+        P = 2.31 × 10-6), PCYOX1 (OR = 0.89, 95%CI: 0.85-0.93, P = 5.31 × 10-8), and TYMP (OR = 0.76,
+        95%CI: 0.66-0.87, P = 5.79 × 10-5) are negatively correlated with lung adenocarcinoma.'

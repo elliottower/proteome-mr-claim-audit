@@ -1,0 +1,21 @@
+source:
+  citation: pmid42650080
+  local: sources/pmid42650080.txt
+  sha256: 5d11aa129f914481262f586b4db5974d63a19e380c4064507c45d8090c440bbb
+  url: https://pubmed.ncbi.nlm.nih.gov/42650080/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: PSCA emerged as the principal novel cystitis-specific candidate (OR 0.977, 95% CI 0.967-0.987),
+        with strong colocalization and high Finnish reference-panel linkage disequilibrium between the
+        MR instrument and the top colocalization single-nucleotide polymorphism (SNP) (r2 = 0.980).
+  c001:
+    quotes:
+    - exact: APOE showed strong evidence for the registry-derived implicit sepsis endpoint but was interpreted
+        as a pleiotropy-prone broad host-response or severity-associated locus.
+  c002:
+    quotes:
+    - exact: TNFSF8 retained a robust pneumonia MR signal, but colocalization was moderate (PP.H4 = 0.544)
+        and became weak under stringent priors (PP.H4 = 0.107), despite high-LD deCODE proxy-instrument
+        follow-up.

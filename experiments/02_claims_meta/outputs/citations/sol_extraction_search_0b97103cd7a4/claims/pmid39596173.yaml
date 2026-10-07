@@ -1,0 +1,19 @@
+source:
+  citation: pmid39596173
+  local: sources/pmid39596173.txt
+  sha256: 84cd313b93de86aaac9f5ef891ddc2743614c0895f4a9dfa0088165a744372f4
+  url: https://pubmed.ncbi.nlm.nih.gov/39596173/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: 'Additionally, glucosamine 6-phosphate N-acetyltransferase was identified as a protective
+        factor against hypertension, OR (95% CI): 0.995 (0.992-0.998), shedding light on the potential
+        protective mechanism of glucosamine.'
+  c001:
+    quotes:
+    - exact: 'Additionally, glucosamine 6-phosphate N-acetyltransferase was identified as a protective
+        factor against hypertension, OR (95% CI): 0.995 (0.992-0.998), shedding light on the potential
+        protective mechanism of glucosamine. Mediation Mendelian randomization indicated that the protective
+        effect of glucosamine metabolism was mediated by glutaminyl-peptide cyclotransferase, with a mediation
+        proportion of 12.1% (5.9-18.2%), p < 0.05.'

@@ -1,0 +1,22 @@
+source:
+  citation: pmid41740536
+  local: sources/pmid41740536.txt
+  sha256: 8476a47481d0cdf667fedfc6284c23e2af36aab0b565f02fab12390c623cfc8f
+  url: https://pubmed.ncbi.nlm.nih.gov/41740536/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: A high level of fibroblast growth factor receptor 1 (FGFR1) significantly increased the risk
+        of HS according to transcriptome-wide (P = 0.011) and proteome-wide MR (P = 0.002) analyses.
+  c001:
+    quotes:
+    - exact: A high level of fibroblast growth factor receptor 1 (FGFR1) significantly increased the risk
+        of HS according to transcriptome-wide (P = 0.011) and proteome-wide MR (P = 0.002) analyses.
+  c002:
+    quotes:
+    - exact: RNA-seq further validated the high expression of FGFR1 in HS.
+  c003:
+    quotes:
+    - exact: Gene-gene interaction network and enrichment analysis identified FGFR1 as the core gene driving
+        the progression of HS, highlighting multiple biosynthetic processes.

@@ -1,0 +1,16 @@
+source:
+  citation: pmid39417126
+  local: sources/pmid39417126.txt
+  sha256: 72dd336c3d50bf0038a5a4e7e2da8c71ffeb457d00faa77d1c77279f6bfeb699
+  url: https://pubmed.ncbi.nlm.nih.gov/39417126/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: Mendelian randomization analysis of available circulating plasma proteins in the UK Biobank
+        Pharma Proteomics Project (UKBPPP) identified LRRFIP1, a protein that binds with PRC2 multi-protein
+        complex, as potentially causally linked to tau pathology.
+  c001:
+    quotes:
+    - exact: We identified a novel potential therapeutic target, JARID2 in the PRC2 multi-protein complex,
+        for tau pathology.

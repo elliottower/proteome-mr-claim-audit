@@ -1,0 +1,15 @@
+source:
+  citation: pmid41154186
+  local: sources/pmid41154186.txt
+  sha256: dcc05c8d07596c273d5d9a980629d80aab6a0a5cc4e21f9aaa3168484e12dd74
+  url: https://pubmed.ncbi.nlm.nih.gov/41154186/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: 'Molecular docking revealed potential binding between PBDE-47 and F2R (binding energy: -5.516
+        kcal/mol), and SMR-HEIDI testing supported F2R as a potential causal risk factor for IA.'
+  c001:
+    quotes:
+    - exact: Mediation analysis suggested that F2R may influence IA risk through eight plasma metabolites,
+        and miR-130b-3p may indirectly promote IA development by upregulating F2R.

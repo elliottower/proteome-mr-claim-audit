@@ -1,0 +1,19 @@
+source:
+  citation: pmidPPR1016927
+  local: sources/pmidPPR1016927.txt
+  sha256: 83ae58b1ece47bc77ff3d88a77282f964a780fabc5e67e8170a9ffba5cd857f4
+  url: https://europepmc.org/article/PPR/PPR1016927
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: Higher levels of Cardiotrophin-1 (CTF1) (OR = 0.68, CI 0.53–0.87, P = 2.54×<sup>10−3</sup>)
+        were associated with a reduced risk of female infertility, whereas higher levels of Insulin-like
+        growth factor-binding protein 5 (IGFBP5) (OR = 1.35, CI 1.09–1.66, P = 5.54×<sup>10−3</sup>) were
+        associated with an increased risk of female infertility.
+  c001:
+    quotes:
+    - exact: Higher levels of Cardiotrophin-1 (CTF1) (OR = 0.68, CI 0.53–0.87, P = 2.54×<sup>10−3</sup>)
+        were associated with a reduced risk of female infertility, whereas higher levels of Insulin-like
+        growth factor-binding protein 5 (IGFBP5) (OR = 1.35, CI 1.09–1.66, P = 5.54×<sup>10−3</sup>) were
+        associated with an increased risk of female infertility.

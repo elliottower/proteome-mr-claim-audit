@@ -1,0 +1,29 @@
+source:
+  citation: pmid37498601
+  local: sources/pmid37498601.txt
+  sha256: b0040050e01ace4b39749669da50202de2f892d05cc559921636d2c0c1463967
+  url: https://pubmed.ncbi.nlm.nih.gov/37498601/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: Among 235 biomarkers tested in samples totaling 22 101 individuals, MR analysis showed that
+        higher kidney injury molecule-1 (KIM-1) levels reduced the likelihood of COVID-19 hospitalization
+        (odds ratio [OR] per SD increase in KIM-1 levels, 0.86 [95% CI, 0.79-0.93]).
+  c001:
+    quotes:
+    - exact: Among 235 biomarkers tested in samples totaling 22 101 individuals, MR analysis showed that
+        higher kidney injury molecule-1 (KIM-1) levels reduced the likelihood of COVID-19 hospitalization
+        (odds ratio [OR] per SD increase in KIM-1 levels, 0.86 [95% CI, 0.79-0.93]). A meta-analysis validated
+        the protective association with no observed directional pleiotropy (OR per SD increase in KIM-1
+        levels, 0.91 [95% CI, 0.88-0.95]).
+  c002:
+    quotes:
+    - exact: Of the cardiometabolic risk factors studied, only BMI was associated with KIM-1 levels (0.17
+        SD increase in biomarker level per 1 kg/m2 [95% CI, 0.08-0.26]) and COVID-19 hospitalization (OR
+        per 1-SD biomarker level, 1.33 [95% CI, 1.18-1.50]).
+  c003:
+    quotes:
+    - exact: Multivariable MR analysis also revealed that KIM-1 partially mitigated the association of
+        BMI with COVID-19 hospitalization, reducing it by 10 percentage points (OR adjusted for KIM-1
+        level per 1 kg/m2, 1.23 [95% CI, 1.06-1.43]).

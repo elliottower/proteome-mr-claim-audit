@@ -1,0 +1,16 @@
+source:
+  citation: pmid39933430
+  local: sources/pmid39933430.txt
+  sha256: d99b3884a15f3e8eb12993b8ce7c7da08c44b5132e0e6f865d81552695ec6cb2
+  url: https://pubmed.ncbi.nlm.nih.gov/39933430/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: After integrating the multi-omics data between methylation quantitative trait loci- expression
+        quantitative trait loci and expression quantitative trait loci-protein quantitative trait loci,
+        we identified FIS1 as having tier 1 evidence for its association with sepsis.
+  c001:
+    quotes:
+    - exact: Both gene expression and protein abundance levels of NUDT2 were observed to be associated
+        with an increased risk of sepsis.

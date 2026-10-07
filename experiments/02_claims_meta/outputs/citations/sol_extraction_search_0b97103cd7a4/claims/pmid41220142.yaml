@@ -1,0 +1,21 @@
+source:
+  citation: pmid41220142
+  local: sources/pmid41220142.txt
+  sha256: 9ab23f5a45e5a5939f493dc7867f5479182ae6fc0cc47ac3fcfda5fce2d0c5e4
+  url: https://pubmed.ncbi.nlm.nih.gov/41220142/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: Our study found a significant positive correlation between high expression of the FURIN gene
+        and a reduced risk of RLS.
+  c001:
+    quotes:
+    - exact: Mediator effect analysis showed that TLR1 indirectly reduces the occurrence of RLS by regulating
+        the expression of the FURIN gene, with the mediator effect of FURIN gene expression accounting
+        for 17.9% of the total effect.
+  c002:
+    quotes:
+    - exact: Mediator effect analysis showed that TLR1 indirectly reduces the occurrence of RLS by regulating
+        the expression of the FURIN gene, with the mediator effect of FURIN gene expression accounting
+        for 17.9% of the total effect.

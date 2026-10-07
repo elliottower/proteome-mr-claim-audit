@@ -1,0 +1,24 @@
+source:
+  citation: pmidW4415791766
+  local: sources/pmidW4415791766.txt
+  sha256: 9d450630486355ff2eabbbf9287654583f65483b69c2abf1b2f3ea7670bf6ab4
+  url: https://openalex.org/W4415791766
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: Serial profiling identified 236 proteins with time-varying associations with SBP, including
+        proteins with known roles in vascular remodeling such as VEGF-D (LMM β=1.9, p=3E-12) and novel
+        circulating markers such as NADK (LMM β=2.7, p=5.8E-25), a protein with key roles in nitric oxide
+        production and reactive oxygen species formation.
+  c001:
+    quotes:
+    - exact: Serial profiling identified 236 proteins with time-varying associations with SBP, including
+        proteins with known roles in vascular remodeling such as VEGF-D (LMM β=1.9, p=3E-12) and novel
+        circulating markers such as NADK (LMM β=2.7, p=5.8E-25), a protein with key roles in nitric oxide
+        production and reactive oxygen species formation.
+  c002:
+    quotes:
+    - exact: cis-MR using the inverse variance weighted method supported potential causal roles for 10
+        of these proteins in BP regulation (Table 1). These included ASPN (IVW β=0.61, p=2.3E-12), a negative
+        regulator of the TGF-B signaling pathway and previously associated with arterial stiffness.

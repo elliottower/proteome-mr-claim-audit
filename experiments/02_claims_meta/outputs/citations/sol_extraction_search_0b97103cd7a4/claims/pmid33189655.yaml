@@ -1,0 +1,24 @@
+source:
+  citation: pmid33189655
+  local: sources/pmid33189655.txt
+  sha256: 01507315c47d3b826c803b03156e205025ee75a2186d21546ed2d30540d0075e
+  url: https://pubmed.ncbi.nlm.nih.gov/33189655/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: Plasma insulin-like growth factor binding protein 7 (IGFBP7) moderately increased ARDS 28-day
+        mortality (OR, 1.11; 95% CI, 1.04-1.19; P = .002) per log2 increase.
+  c001:
+    quotes:
+    - exact: GSMR analysis coupled with four other Mendelian randomization methods revealed IGFBP7 as
+        a causal biomarker for ARDS 28-day mortality (OR, 2.61; 95% CI, 1.33-5.13; P = .005).
+  c002:
+    quotes:
+    - exact: Causal mediation analysis indicated that the association between IGFBP7 and ARDS 28-day mortality
+        is mediated by platelet count (OR, 1.03; 95% CI, 1.02-1.04; P = .01).
+  c003:
+    quotes:
+    - exact: We identified plasma IGFBP7 as a novel causal protein involved in the pathogenesis of ARDS
+        28-day mortality and platelet function in ARDS, a topic for further experimental and clinical
+        investigation.

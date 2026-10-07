@@ -1,0 +1,215 @@
+{
+ "queue": "outputs/manual_coding/2026-10-03/manual_coding_queue.csv",
+ "queue_rows": 872,
+ "distinct_papers": 434,
+ "distinct_paper_name_pairs": 824,
+ "distinct_names": 293,
+ "claim_records_summed_over_rows": 3882,
+ "rows_by_state": {
+  "release_ambiguous": 528,
+  "unmatched": 344
+ },
+ "rows_by_side": {
+  "outcome": 496,
+  "pqtl": 376
+ },
+ "rows_by_state_and_side": {
+  "release_ambiguous|outcome": 255,
+  "release_ambiguous|pqtl": 273,
+  "unmatched|outcome": 241,
+  "unmatched|pqtl": 103
+ },
+ "papers_by_state": {
+  "release_ambiguous": 333,
+  "unmatched": 233
+ },
+ "papers_by_side": {
+  "pqtl": 255,
+  "outcome": 329
+ },
+ "distinct_names_by_state": {
+  "release_ambiguous": 76,
+  "unmatched": 224
+ },
+ "distinct_names_by_side": {
+  "pqtl": 134,
+  "outcome": 194
+ },
+ "papers_by_full_text": {
+  "abstract_only_0_europe_pmc_records": 1,
+  "abstract_only_no_open_access_flag": 113,
+  "abstract_only_not_a_journal_record_with_pmid": 78,
+  "open_access_full_text_flagged": 242
+ },
+ "rows_by_full_text": {
+  "abstract_only_0_europe_pmc_records": 1,
+  "abstract_only_no_open_access_flag": 227,
+  "abstract_only_not_a_journal_record_with_pmid": 148,
+  "open_access_full_text_flagged": 496
+ },
+ "full_text_rule": "journal record with a PMID whose Europe PMC record has isOpenAccess Y and a PMCID; the XML is not fetched",
+ "most_frequent_names": [
+  {
+   "name_as_written": "UK Biobank",
+   "queue_rows": 155,
+   "sides": [
+    "outcome",
+    "pqtl"
+   ],
+   "states": [
+    "release_ambiguous"
+   ]
+  },
+  {
+   "name_as_written": "FinnGen",
+   "queue_rows": 100,
+   "sides": [
+    "outcome",
+    "pqtl"
+   ],
+   "states": [
+    "release_ambiguous",
+    "unmatched"
+   ]
+  },
+  {
+   "name_as_written": "deCODE",
+   "queue_rows": 57,
+   "sides": [
+    "outcome",
+    "pqtl"
+   ],
+   "states": [
+    "release_ambiguous"
+   ]
+  },
+  {
+   "name_as_written": "UKB-PPP",
+   "queue_rows": 32,
+   "sides": [
+    "outcome",
+    "pqtl"
+   ],
+   "states": [
+    "release_ambiguous",
+    "unmatched"
+   ]
+  },
+  {
+   "name_as_written": "UK Biobank Pharma Proteomics Project",
+   "queue_rows": 29,
+   "sides": [
+    "outcome",
+    "pqtl"
+   ],
+   "states": [
+    "release_ambiguous",
+    "unmatched"
+   ]
+  },
+  {
+   "name_as_written": "FinnGen study",
+   "queue_rows": 15,
+   "sides": [
+    "outcome",
+    "pqtl"
+   ],
+   "states": [
+    "unmatched"
+   ]
+  },
+  {
+   "name_as_written": "UK Biobank Pharma Proteomics Project (UKB-PPP)",
+   "queue_rows": 14,
+   "sides": [
+    "pqtl"
+   ],
+   "states": [
+    "release_ambiguous"
+   ]
+  },
+  {
+   "name_as_written": "FinnGen consortium",
+   "queue_rows": 11,
+   "sides": [
+    "outcome"
+   ],
+   "states": [
+    "unmatched"
+   ]
+  },
+  {
+   "name_as_written": "deCODE Genetics",
+   "queue_rows": 11,
+   "sides": [
+    "pqtl"
+   ],
+   "states": [
+    "release_ambiguous"
+   ]
+  },
+  {
+   "name_as_written": "INTERVAL",
+   "queue_rows": 9,
+   "sides": [
+    "outcome",
+    "pqtl"
+   ],
+   "states": [
+    "release_ambiguous",
+    "unmatched"
+   ]
+  },
+  {
+   "name_as_written": "Million Veteran Program",
+   "queue_rows": 9,
+   "sides": [
+    "outcome"
+   ],
+   "states": [
+    "unmatched"
+   ]
+  },
+  {
+   "name_as_written": "deCODE genetics",
+   "queue_rows": 9,
+   "sides": [
+    "pqtl"
+   ],
+   "states": [
+    "release_ambiguous"
+   ]
+  },
+  {
+   "name_as_written": "Decode",
+   "queue_rows": 8,
+   "sides": [
+    "outcome",
+    "pqtl"
+   ],
+   "states": [
+    "release_ambiguous"
+   ]
+  },
+  {
+   "name_as_written": "Fenland",
+   "queue_rows": 8,
+   "sides": [
+    "pqtl"
+   ],
+   "states": [
+    "release_ambiguous"
+   ]
+  },
+  {
+   "name_as_written": "FinnGen cohort",
+   "queue_rows": 7,
+   "sides": [
+    "outcome"
+   ],
+   "states": [
+    "unmatched"
+   ]
+  }
+ ]
+}

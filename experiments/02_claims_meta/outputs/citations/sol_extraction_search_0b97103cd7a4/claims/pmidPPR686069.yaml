@@ -1,0 +1,23 @@
+source:
+  citation: pmidPPR686069
+  local: sources/pmidPPR686069.txt
+  sha256: e555871fc1be7e21154f80e573ba39b386768a482f728c2f8de70d67b73e3182
+  url: https://europepmc.org/article/PPR/PPR686069
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: These high confidence target-trait pairs assisted with causal gene identification and helped
+        uncover translationally informative novel biology, especially from trans-colocalizing signals,
+        such as the association of lower intestinal alkaline phosphatase with a higher risk of inflammatory
+        bowel disease in FUT2 non-secretors.
+  c001:
+    quotes:
+    - exact: For example, we found that most genetically predicted therapeutic targets for inflammatory
+        bowel disease could potentially worsen allergic disease phenotypes, except for TNFRSF6B where
+        we observed directionally consistent associations for both phenotypes.
+  c002:
+    quotes:
+    - exact: For example, we found that most genetically predicted therapeutic targets for inflammatory
+        bowel disease could potentially worsen allergic disease phenotypes, except for TNFRSF6B where
+        we observed directionally consistent associations for both phenotypes.

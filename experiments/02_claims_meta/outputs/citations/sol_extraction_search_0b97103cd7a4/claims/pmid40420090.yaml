@@ -1,0 +1,17 @@
+source:
+  citation: pmid40420090
+  local: sources/pmid40420090.txt
+  sha256: 338d79f52e72afb9730f73ad035103c854b48e13b4f12add15a7901885c11075
+  url: https://pubmed.ncbi.nlm.nih.gov/40420090/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: 'Eight proteins showed significant associations with VTE risk after Bonferroni correction
+        (p < 3.19 × 10-5). Odds ratios ranged from 0.98 (95% CI: 0.98-0.99) for PLEK to 1.03 (95% CI:
+        1.02-1.04) for LRP12.'
+  c001:
+    quotes:
+    - exact: 'Eight proteins showed significant associations with VTE risk after Bonferroni correction
+        (p < 3.19 × 10-5). Odds ratios ranged from 0.98 (95% CI: 0.98-0.99) for PLEK to 1.03 (95% CI:
+        1.02-1.04) for LRP12.'

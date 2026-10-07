@@ -1,0 +1,21 @@
+source:
+  citation: pmid40629581
+  local: sources/pmid40629581.txt
+  sha256: 11d0ff208d14c27eb2ca743495b4dded7ac82c4054f6dd9d595a7ab6d896af7e
+  url: https://pubmed.ncbi.nlm.nih.gov/40629581/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: This study identified a total of 23 circulating proteins associated with the diseases, among
+        which defensin beta 135 (DEFB135, PIVW < .001, PFDR = .017) emerged as a shared protective protein
+        against both diseases.
+  c001:
+    quotes:
+    - exact: This study identified a total of 23 circulating proteins associated with the diseases, among
+        which defensin beta 135 (DEFB135, PIVW < .001, PFDR = .017) emerged as a shared protective protein
+        against both diseases. Conversely, reverse MR analysis revealed no statistically significant impact
+        of the diseases on these circulating proteins.
+  c002:
+    quotes:
+    - exact: Mediation MR analysis identified AF as the mediator between DEFB135 and HF.

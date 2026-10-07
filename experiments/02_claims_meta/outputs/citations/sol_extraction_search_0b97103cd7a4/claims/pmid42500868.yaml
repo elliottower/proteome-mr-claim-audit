@@ -1,0 +1,19 @@
+source:
+  citation: pmid42500868
+  local: sources/pmid42500868.txt
+  sha256: b0c634321513855da9cd034559f1603fd92a38353efa9345815a1840c0fb36bb
+  url: https://pubmed.ncbi.nlm.nih.gov/42500868/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: Mendelian randomization results suggest that LTBP4 (latent transforming growth factor β-binding
+        protein 4) is significantly associated with the risk of TAA.
+  c001:
+    quotes:
+    - exact: Plasma transcriptomics showed significantly increased LTBP4 expression in patients with TAA
+        (log fold change=0.69, adjusted P=7.04×10-4), with an area under the curve of 0.76.
+  c002:
+    quotes:
+    - exact: In vitro experiments demonstrate that the expression of LTBP4 protein is significantly increased
+        in TAA tissue.

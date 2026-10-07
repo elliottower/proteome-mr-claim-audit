@@ -1,0 +1,19 @@
+source:
+  citation: pmid36793899
+  local: sources/pmid36793899.txt
+  sha256: c8e61c39468b130aca6f347508820385b16395411995fded61db442119254a2d
+  url: https://pubmed.ncbi.nlm.nih.gov/36793899/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: The IVW method indicated that interleukin 9 (IL9) had a positive causal relationship with
+        periodontitis [odds ratio (OR) = 1.199, 95% confidence interval (CI) = 1.049-1.372, p = 0.008],
+        and interleukin 17 (IL17) had a negative causal relationship with periodontitis (OR = 0.847, 95%
+        CI = 0.735-0.976, p = 0.022).
+  c001:
+    quotes:
+    - exact: The IVW method indicated that interleukin 9 (IL9) had a positive causal relationship with
+        periodontitis [odds ratio (OR) = 1.199, 95% confidence interval (CI) = 1.049-1.372, p = 0.008],
+        and interleukin 17 (IL17) had a negative causal relationship with periodontitis (OR = 0.847, 95%
+        CI = 0.735-0.976, p = 0.022).

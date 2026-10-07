@@ -1,0 +1,27 @@
+source:
+  citation: pmid41091791
+  local: sources/pmid41091791.txt
+  sha256: f89954147a2c3bc409d97a8556594ac172444ae7e1f12d3bd50871700de6dfbf
+  url: https://pubmed.ncbi.nlm.nih.gov/41091791/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: 'Elevated levels of LTBP2 (odds ratio (OR): 0.53, 95% CI: 0.39-0.70) were associated with
+        reduced risk of severe COVID-19, while ABO (OR: 1.09, 95% CI: 1.06-1.11) were associated with
+        increased risk of severe COVID-19.'
+  c001:
+    quotes:
+    - exact: 'Elevated levels of LTBP2 (odds ratio (OR): 0.53, 95% CI: 0.39-0.70) were associated with
+        reduced risk of severe COVID-19, while ABO (OR: 1.09, 95% CI: 1.06-1.11) were associated with
+        increased risk of severe COVID-19.'
+  c002:
+    quotes:
+    - exact: 'These effects were consistent with the expression of LTBP2 (OR: 0.58, 95% CI: 0.45-0.75)
+        and the methylation of ABO (cg07241568: OR: 1.20, 95% CI: 1.14-1.26; cg24267699: OR: 1.11, 95%
+        CI: 1.08-1.15) regarding the risk of severe COVID-19.'
+  c003:
+    quotes:
+    - exact: 'These effects were consistent with the expression of LTBP2 (OR: 0.58, 95% CI: 0.45-0.75)
+        and the methylation of ABO (cg07241568: OR: 1.20, 95% CI: 1.14-1.26; cg24267699: OR: 1.11, 95%
+        CI: 1.08-1.15) regarding the risk of severe COVID-19.'

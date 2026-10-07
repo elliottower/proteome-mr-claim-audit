@@ -1,0 +1,17 @@
+source:
+  citation: pmid40877637
+  local: sources/pmid40877637.txt
+  sha256: 1ed81b04377823a54fc4581b6da0ea33b38b9bcb2b01168f5e2ec85627b9796e
+  url: https://pubmed.ncbi.nlm.nih.gov/40877637/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: Robust evidence linked follitropin subunit beta (FSHB) with endometrioid OC (per SD higher,
+        OR 2.41, 95% CI 1.56, 3.71).
+  c001:
+    quotes:
+    - exact: We identified 12 suggestive associations with OC or its subtypes at nominal threshold (p
+        < 0.05), involving 11 plasma proteins, with no evidence of pleiotropy from leave-one-out and MR-Egger
+        intercept tests (Pintercept > 0.17). Potential drug targets were identified for follitropin receptor
+        and eight other proteins.
