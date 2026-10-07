@@ -1,0 +1,31 @@
+{
+ "run_id": "a1_luna_extraction_chase1_e4e4ee731887",
+ "note": "stage 3L Luna extraction, chase round 1, runs 1 and 2: parsed files; raw exchanges are in the folder recorded with a1_luna_extraction_search_e4e4ee731887",
+ "written_utc": "2026-10-07T12:19:18+00:00",
+ "files": [
+  {
+   "path": "outputs/parsed/luna_extraction_chase1_run1_e4e4ee731887.jsonl",
+   "bytes": 744730,
+   "sha256": "27c023c88c1a48aecc16c8c3e51c9bb56ddef9246819845a8ddb0529453f728c"
+  },
+  {
+   "path": "outputs/parsed/luna_extraction_chase1_run1_e4e4ee731887.meta.json",
+   "bytes": 978,
+   "sha256": "2ae30f60833c58df5ad0d245f6b1acbea34352667344bc01bc1f01ba032e3ce5"
+  },
+  {
+   "path": "outputs/parsed/luna_extraction_chase1_run2_e4e4ee731887.jsonl",
+   "bytes": 717860,
+   "sha256": "8cd61b1adaa28298f8b9d0b3ff667877006dc6d7b1008c0a8ecb14828325d6d7"
+  },
+  {
+   "path": "outputs/parsed/luna_extraction_chase1_run2_e4e4ee731887.meta.json",
+   "bytes": 974,
+   "sha256": "198111f82e447df71cf87fad9b3a564979200ed73ce5ed8253c53ab7d6c476ce"
+  }
+ ],
+ "recorded_directly": [
+  "outputs/parsed/luna_extraction_chase1_run1_e4e4ee731887.jsonl"
+ ],
+ "volume_checks": []
+}

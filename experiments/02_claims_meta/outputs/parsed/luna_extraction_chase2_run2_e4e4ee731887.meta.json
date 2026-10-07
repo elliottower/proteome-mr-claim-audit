@@ -1,0 +1,31 @@
+{
+ "task": "extraction",
+ "label": "chase2",
+ "run": 2,
+ "revision": "e4e4ee731887",
+ "model_requested": "gpt-6-luna",
+ "models_returned": [
+  "gpt-6-luna"
+ ],
+ "reasoning_effort": "medium",
+ "endpoint": "https://api.openai.com/v1/responses",
+ "prompt": "prompts/luna_extraction_prompt.md",
+ "prompt_sha256": "bf02041d287666f6104db8d756cbef3300ab50c8a9640c795b5cac39709b2f40",
+ "abstracts": "outputs/parsed/sol_eligibility_chase2_2811496ef424.decisions.eligible_abstracts.jsonl",
+ "sol_extraction": "outputs/parsed/sol_extraction_chase2_0b97103cd7a4.jsonl",
+ "development_run": false,
+ "n_records": 69,
+ "n_ok": 69,
+ "n_extraction_failed": 0,
+ "n_needed_retry": 0,
+ "usage_new_requests_this_invocation": {
+  "requests": 69,
+  "input_tokens": 220524,
+  "cached_input_tokens": 220317,
+  "cache_write_tokens": 0,
+  "output_tokens": 132372,
+  "reasoning_tokens": 59974
+ },
+ "started_utc": "2026-10-07T12:16:00.030+00:00",
+ "finished_utc": "2026-10-07T12:17:06.854+00:00"
+}

@@ -1,0 +1,35 @@
+{
+ "luna_run1": {
+  "records": 2363,
+  "records_without_a_200_exchange": 0,
+  "requests": 2363,
+  "input": 7526795,
+  "cached": 6494083,
+  "cache_write": 1025623,
+  "output": 4954931,
+  "reasoning": 2509011,
+  "failed_exchanges_in_folder": 1,
+  "usd": 2.6713,
+  "raw_dir": "outputs/raw/luna/extraction/e4e4ee731887/run1"
+ },
+ "luna_run2": {
+  "records": 2363,
+  "records_without_a_200_exchange": 0,
+  "requests": 2363,
+  "input": 7526795,
+  "cached": 6612776,
+  "cache_write": 906930,
+  "output": 4909631,
+  "reasoning": 2465646,
+  "failed_exchanges_in_folder": 0,
+  "usd": 2.635,
+  "raw_dir": "outputs/raw/luna/extraction/e4e4ee731887/run2"
+ },
+ "prices_usd_per_million": {
+  "input": 0.1,
+  "cached_input": 0.01,
+  "cache_write": 0.125,
+  "output": 0.5
+ },
+ "note": "operational cost note for the run log; the registered cost table of Amendment 1 is written at stage 5L by extraction_system_comparison.py usage"
+}
