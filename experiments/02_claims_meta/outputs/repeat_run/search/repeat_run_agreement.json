@@ -1,0 +1,1766 @@
+{
+ "run1": "outputs/parsed/sol_extraction_search_0b97103cd7a4.jsonl",
+ "run1_sha256": "ae0ecb5cb9be1e1441aa8c9779ddbbc4d0db6a0be52f07bcd38b0b822d07bf88",
+ "run2": "outputs/parsed/sol_extraction_search_repeat_0b97103cd7a4.jsonl",
+ "run2_sha256": "557ee622771562ac3717130c8ff311f94ee5959bfc4efa2c37383cb1ee2d28c6",
+ "sample": "outputs/parsed/sol_eligibility_search_complete_2811496ef424.decisions.repeat_sample.json",
+ "seed": 20261001,
+ "fraction": 0.1,
+ "n_eligible": 2093,
+ "written_utc": "2026-10-07T11:23:40+00:00",
+ "revision": "0b97103cd7a4",
+ "sampled_abstracts": 210,
+ "abstracts_compared": 210,
+ "abstracts_extraction_failed_in_run1": 0,
+ "abstracts_extraction_failed_in_run2": 0,
+ "abstracts_with_equal_record_count": 179,
+ "run1_records": 1395,
+ "run2_records": 1381,
+ "paired_records": 1304,
+ "paired_by_pass": {
+  "full_key": 1047,
+  "protein_and_outcome_only": 257
+ },
+ "run1_share_paired": 0.9347670250896057,
+ "run2_share_paired": 0.944243301955105,
+ "field_agreement_among_paired": {
+  "protein_as_written": {
+   "agree": 1304,
+   "share": 1.0
+  },
+  "outcome_as_written": {
+   "agree": 1304,
+   "share": 1.0
+  },
+  "direction": {
+   "agree": 1296,
+   "share": 0.9938650306748467
+  },
+  "evidence_type": {
+   "agree": 1265,
+   "share": 0.9700920245398773
+  },
+  "claim_scope": {
+   "agree": 1183,
+   "share": 0.9072085889570553
+  },
+  "analysis_context_as_written": {
+   "agree": 1104,
+   "share": 0.8466257668711656
+  },
+  "subgroup_as_written": {
+   "agree": 1241,
+   "share": 0.9516871165644172
+  },
+  "pqtl_datasets": {
+   "agree": 1269,
+   "share": 0.973159509202454
+  },
+  "outcome_datasets": {
+   "agree": 1255,
+   "share": 0.9624233128834356
+  },
+  "dataset_attribution": {
+   "agree": 1281,
+   "share": 0.9823619631901841
+  },
+  "platform": {
+   "agree": 1281,
+   "share": 0.9823619631901841
+  },
+  "ancestry": {
+   "agree": 1289,
+   "share": 0.9884969325153374
+  },
+  "relation_ambiguous": {
+   "agree": 1286,
+   "share": 0.9861963190184049
+  },
+  "evidence_span": {
+   "agree": 1289,
+   "share": 0.9884969325153374
+  }
+ },
+ "per_abstract": [
+  {
+   "record_id": "33004804",
+   "run1_records": 0,
+   "run2_records": 0,
+   "pairs": 0,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "34402426",
+   "run1_records": 5,
+   "run2_records": 7,
+   "pairs": 5,
+   "unpaired_run1": 0,
+   "unpaired_run2": 2
+  },
+  {
+   "record_id": "35186940",
+   "run1_records": 5,
+   "run2_records": 5,
+   "pairs": 5,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "36510323",
+   "run1_records": 0,
+   "run2_records": 0,
+   "pairs": 0,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "36576504",
+   "run1_records": 0,
+   "run2_records": 0,
+   "pairs": 0,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "36790009",
+   "run1_records": 2,
+   "run2_records": 2,
+   "pairs": 2,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "36805566",
+   "run1_records": 1,
+   "run2_records": 1,
+   "pairs": 1,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "37404740",
+   "run1_records": 15,
+   "run2_records": 15,
+   "pairs": 15,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "37429843",
+   "run1_records": 7,
+   "run2_records": 7,
+   "pairs": 7,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "37537391",
+   "run1_records": 20,
+   "run2_records": 20,
+   "pairs": 20,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "38076879",
+   "run1_records": 16,
+   "run2_records": 16,
+   "pairs": 16,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "38184718",
+   "run1_records": 20,
+   "run2_records": 20,
+   "pairs": 20,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "38521921",
+   "run1_records": 4,
+   "run2_records": 4,
+   "pairs": 0,
+   "unpaired_run1": 4,
+   "unpaired_run2": 4
+  },
+  {
+   "record_id": "38608280",
+   "run1_records": 6,
+   "run2_records": 6,
+   "pairs": 6,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "38644354",
+   "run1_records": 26,
+   "run2_records": 26,
+   "pairs": 26,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "38720515",
+   "run1_records": 25,
+   "run2_records": 26,
+   "pairs": 25,
+   "unpaired_run1": 0,
+   "unpaired_run2": 1
+  },
+  {
+   "record_id": "38725646",
+   "run1_records": 7,
+   "run2_records": 7,
+   "pairs": 7,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "38775562",
+   "run1_records": 13,
+   "run2_records": 13,
+   "pairs": 13,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "38778174",
+   "run1_records": 11,
+   "run2_records": 8,
+   "pairs": 8,
+   "unpaired_run1": 3,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "38795402",
+   "run1_records": 5,
+   "run2_records": 5,
+   "pairs": 5,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "38827362",
+   "run1_records": 3,
+   "run2_records": 3,
+   "pairs": 3,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "39027515",
+   "run1_records": 4,
+   "run2_records": 4,
+   "pairs": 4,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "39051921",
+   "run1_records": 14,
+   "run2_records": 14,
+   "pairs": 14,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "39245738",
+   "run1_records": 14,
+   "run2_records": 14,
+   "pairs": 14,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "39287922",
+   "run1_records": 5,
+   "run2_records": 5,
+   "pairs": 5,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "39406990",
+   "run1_records": 28,
+   "run2_records": 28,
+   "pairs": 28,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "39495227",
+   "run1_records": 37,
+   "run2_records": 37,
+   "pairs": 37,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "39554251",
+   "run1_records": 7,
+   "run2_records": 7,
+   "pairs": 7,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "39615872",
+   "run1_records": 4,
+   "run2_records": 4,
+   "pairs": 4,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "39721116",
+   "run1_records": 6,
+   "run2_records": 6,
+   "pairs": 6,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "39754686",
+   "run1_records": 4,
+   "run2_records": 4,
+   "pairs": 4,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "39790564",
+   "run1_records": 7,
+   "run2_records": 7,
+   "pairs": 7,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "39824903",
+   "run1_records": 3,
+   "run2_records": 3,
+   "pairs": 3,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "39857814",
+   "run1_records": 4,
+   "run2_records": 4,
+   "pairs": 4,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "39892755",
+   "run1_records": 6,
+   "run2_records": 6,
+   "pairs": 6,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "39901160",
+   "run1_records": 0,
+   "run2_records": 0,
+   "pairs": 0,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "39915329",
+   "run1_records": 4,
+   "run2_records": 4,
+   "pairs": 4,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "39994458",
+   "run1_records": 1,
+   "run2_records": 1,
+   "pairs": 1,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "40017018",
+   "run1_records": 3,
+   "run2_records": 3,
+   "pairs": 3,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "40059241",
+   "run1_records": 6,
+   "run2_records": 6,
+   "pairs": 6,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "40064973",
+   "run1_records": 2,
+   "run2_records": 2,
+   "pairs": 2,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "40128726",
+   "run1_records": 0,
+   "run2_records": 0,
+   "pairs": 0,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "40148878",
+   "run1_records": 12,
+   "run2_records": 6,
+   "pairs": 6,
+   "unpaired_run1": 6,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "40210889",
+   "run1_records": 4,
+   "run2_records": 4,
+   "pairs": 4,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "40280189",
+   "run1_records": 0,
+   "run2_records": 0,
+   "pairs": 0,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "40286918",
+   "run1_records": 0,
+   "run2_records": 0,
+   "pairs": 0,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "40287778",
+   "run1_records": 7,
+   "run2_records": 7,
+   "pairs": 7,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "40294794",
+   "run1_records": 7,
+   "run2_records": 7,
+   "pairs": 7,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "40342965",
+   "run1_records": 2,
+   "run2_records": 2,
+   "pairs": 2,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "40369022",
+   "run1_records": 2,
+   "run2_records": 2,
+   "pairs": 2,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "40381082",
+   "run1_records": 5,
+   "run2_records": 5,
+   "pairs": 5,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "40393368",
+   "run1_records": 4,
+   "run2_records": 4,
+   "pairs": 4,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "40399559",
+   "run1_records": 3,
+   "run2_records": 3,
+   "pairs": 3,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "40409638",
+   "run1_records": 4,
+   "run2_records": 4,
+   "pairs": 3,
+   "unpaired_run1": 1,
+   "unpaired_run2": 1
+  },
+  {
+   "record_id": "40421300",
+   "run1_records": 12,
+   "run2_records": 12,
+   "pairs": 12,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "40451486",
+   "run1_records": 6,
+   "run2_records": 6,
+   "pairs": 6,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "40480837",
+   "run1_records": 4,
+   "run2_records": 4,
+   "pairs": 4,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "40533852",
+   "run1_records": 0,
+   "run2_records": 0,
+   "pairs": 0,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "40542847",
+   "run1_records": 2,
+   "run2_records": 0,
+   "pairs": 0,
+   "unpaired_run1": 2,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "40557537",
+   "run1_records": 10,
+   "run2_records": 10,
+   "pairs": 10,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "40577066",
+   "run1_records": 12,
+   "run2_records": 12,
+   "pairs": 12,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "40627109",
+   "run1_records": 11,
+   "run2_records": 8,
+   "pairs": 8,
+   "unpaired_run1": 3,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "40788656",
+   "run1_records": 6,
+   "run2_records": 6,
+   "pairs": 6,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "40820167",
+   "run1_records": 6,
+   "run2_records": 6,
+   "pairs": 6,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "40833086",
+   "run1_records": 0,
+   "run2_records": 0,
+   "pairs": 0,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "40847077",
+   "run1_records": 9,
+   "run2_records": 9,
+   "pairs": 9,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "40855282",
+   "run1_records": 8,
+   "run2_records": 8,
+   "pairs": 8,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "40859561",
+   "run1_records": 4,
+   "run2_records": 4,
+   "pairs": 4,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "40865676",
+   "run1_records": 0,
+   "run2_records": 0,
+   "pairs": 0,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "40868097",
+   "run1_records": 0,
+   "run2_records": 0,
+   "pairs": 0,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "40873177",
+   "run1_records": 16,
+   "run2_records": 16,
+   "pairs": 16,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "40888559",
+   "run1_records": 2,
+   "run2_records": 2,
+   "pairs": 2,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "40898345",
+   "run1_records": 6,
+   "run2_records": 5,
+   "pairs": 5,
+   "unpaired_run1": 1,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "40898824",
+   "run1_records": 4,
+   "run2_records": 4,
+   "pairs": 3,
+   "unpaired_run1": 1,
+   "unpaired_run2": 1
+  },
+  {
+   "record_id": "40913361",
+   "run1_records": 3,
+   "run2_records": 3,
+   "pairs": 3,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "40919881",
+   "run1_records": 18,
+   "run2_records": 18,
+   "pairs": 18,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "40956419",
+   "run1_records": 1,
+   "run2_records": 1,
+   "pairs": 1,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "41036470",
+   "run1_records": 4,
+   "run2_records": 4,
+   "pairs": 4,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "41057938",
+   "run1_records": 4,
+   "run2_records": 16,
+   "pairs": 4,
+   "unpaired_run1": 0,
+   "unpaired_run2": 12
+  },
+  {
+   "record_id": "41085868",
+   "run1_records": 1,
+   "run2_records": 1,
+   "pairs": 1,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "41088644",
+   "run1_records": 18,
+   "run2_records": 22,
+   "pairs": 18,
+   "unpaired_run1": 0,
+   "unpaired_run2": 4
+  },
+  {
+   "record_id": "41101252",
+   "run1_records": 3,
+   "run2_records": 3,
+   "pairs": 3,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "41137216",
+   "run1_records": 9,
+   "run2_records": 9,
+   "pairs": 9,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "41146943",
+   "run1_records": 2,
+   "run2_records": 2,
+   "pairs": 2,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "41161126",
+   "run1_records": 17,
+   "run2_records": 17,
+   "pairs": 17,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "41213089",
+   "run1_records": 7,
+   "run2_records": 7,
+   "pairs": 7,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "41239078",
+   "run1_records": 5,
+   "run2_records": 5,
+   "pairs": 5,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "41239582",
+   "run1_records": 1,
+   "run2_records": 1,
+   "pairs": 1,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "41261695",
+   "run1_records": 3,
+   "run2_records": 3,
+   "pairs": 3,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "41261704",
+   "run1_records": 2,
+   "run2_records": 2,
+   "pairs": 2,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "41286463",
+   "run1_records": 0,
+   "run2_records": 0,
+   "pairs": 0,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "41286868",
+   "run1_records": 23,
+   "run2_records": 23,
+   "pairs": 23,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "41289788",
+   "run1_records": 7,
+   "run2_records": 0,
+   "pairs": 0,
+   "unpaired_run1": 7,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "41333034",
+   "run1_records": 26,
+   "run2_records": 26,
+   "pairs": 26,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "41351645",
+   "run1_records": 4,
+   "run2_records": 5,
+   "pairs": 4,
+   "unpaired_run1": 0,
+   "unpaired_run2": 1
+  },
+  {
+   "record_id": "41387240",
+   "run1_records": 24,
+   "run2_records": 24,
+   "pairs": 24,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "41404280",
+   "run1_records": 0,
+   "run2_records": 0,
+   "pairs": 0,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "41456820",
+   "run1_records": 4,
+   "run2_records": 4,
+   "pairs": 4,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "41503897",
+   "run1_records": 3,
+   "run2_records": 2,
+   "pairs": 2,
+   "unpaired_run1": 1,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "41520077",
+   "run1_records": 7,
+   "run2_records": 7,
+   "pairs": 7,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "41548865",
+   "run1_records": 1,
+   "run2_records": 1,
+   "pairs": 1,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "41578456",
+   "run1_records": 0,
+   "run2_records": 0,
+   "pairs": 0,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "41582318",
+   "run1_records": 47,
+   "run2_records": 47,
+   "pairs": 47,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "41582592",
+   "run1_records": 14,
+   "run2_records": 12,
+   "pairs": 12,
+   "unpaired_run1": 2,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "41636061",
+   "run1_records": 21,
+   "run2_records": 21,
+   "pairs": 21,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "41650078",
+   "run1_records": 4,
+   "run2_records": 4,
+   "pairs": 0,
+   "unpaired_run1": 4,
+   "unpaired_run2": 4
+  },
+  {
+   "record_id": "41657222",
+   "run1_records": 8,
+   "run2_records": 8,
+   "pairs": 8,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "41664179",
+   "run1_records": 11,
+   "run2_records": 11,
+   "pairs": 11,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "41789253",
+   "run1_records": 3,
+   "run2_records": 3,
+   "pairs": 3,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "41811388",
+   "run1_records": 14,
+   "run2_records": 14,
+   "pairs": 14,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "41816332",
+   "run1_records": 2,
+   "run2_records": 2,
+   "pairs": 2,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "41840960",
+   "run1_records": 3,
+   "run2_records": 3,
+   "pairs": 3,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "41867216",
+   "run1_records": 0,
+   "run2_records": 0,
+   "pairs": 0,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "41889163",
+   "run1_records": 5,
+   "run2_records": 5,
+   "pairs": 5,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "41972152",
+   "run1_records": 1,
+   "run2_records": 1,
+   "pairs": 1,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "41990104",
+   "run1_records": 6,
+   "run2_records": 6,
+   "pairs": 6,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "42040572",
+   "run1_records": 10,
+   "run2_records": 10,
+   "pairs": 10,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "42061907",
+   "run1_records": 7,
+   "run2_records": 7,
+   "pairs": 7,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "42157922",
+   "run1_records": 12,
+   "run2_records": 10,
+   "pairs": 9,
+   "unpaired_run1": 3,
+   "unpaired_run2": 1
+  },
+  {
+   "record_id": "42219961",
+   "run1_records": 1,
+   "run2_records": 1,
+   "pairs": 0,
+   "unpaired_run1": 1,
+   "unpaired_run2": 1
+  },
+  {
+   "record_id": "42231304",
+   "run1_records": 6,
+   "run2_records": 6,
+   "pairs": 6,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "42260332",
+   "run1_records": 0,
+   "run2_records": 0,
+   "pairs": 0,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "42361942",
+   "run1_records": 9,
+   "run2_records": 6,
+   "pairs": 6,
+   "unpaired_run1": 3,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "42404994",
+   "run1_records": 1,
+   "run2_records": 1,
+   "pairs": 1,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "42409166",
+   "run1_records": 7,
+   "run2_records": 7,
+   "pairs": 6,
+   "unpaired_run1": 1,
+   "unpaired_run2": 1
+  },
+  {
+   "record_id": "42410793",
+   "run1_records": 2,
+   "run2_records": 2,
+   "pairs": 2,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "42428459",
+   "run1_records": 2,
+   "run2_records": 2,
+   "pairs": 2,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "42434318",
+   "run1_records": 2,
+   "run2_records": 2,
+   "pairs": 2,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "42465927",
+   "run1_records": 1,
+   "run2_records": 8,
+   "pairs": 1,
+   "unpaired_run1": 0,
+   "unpaired_run2": 7
+  },
+  {
+   "record_id": "42500061",
+   "run1_records": 5,
+   "run2_records": 5,
+   "pairs": 5,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "42523746",
+   "run1_records": 2,
+   "run2_records": 2,
+   "pairs": 2,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "42548293",
+   "run1_records": 7,
+   "run2_records": 6,
+   "pairs": 6,
+   "unpaired_run1": 1,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "42570691",
+   "run1_records": 7,
+   "run2_records": 8,
+   "pairs": 7,
+   "unpaired_run1": 0,
+   "unpaired_run2": 1
+  },
+  {
+   "record_id": "42614597",
+   "run1_records": 6,
+   "run2_records": 8,
+   "pairs": 5,
+   "unpaired_run1": 1,
+   "unpaired_run2": 3
+  },
+  {
+   "record_id": "42627905",
+   "run1_records": 1,
+   "run2_records": 1,
+   "pairs": 1,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "42682829",
+   "run1_records": 9,
+   "run2_records": 9,
+   "pairs": 9,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "42683229",
+   "run1_records": 3,
+   "run2_records": 3,
+   "pairs": 3,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "42756691",
+   "run1_records": 4,
+   "run2_records": 4,
+   "pairs": 4,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "42771993",
+   "run1_records": 4,
+   "run2_records": 4,
+   "pairs": 4,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "PPR1000202",
+   "run1_records": 8,
+   "run2_records": 8,
+   "pairs": 8,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "PPR1019736",
+   "run1_records": 2,
+   "run2_records": 2,
+   "pairs": 2,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "PPR1033808",
+   "run1_records": 0,
+   "run2_records": 7,
+   "pairs": 0,
+   "unpaired_run1": 0,
+   "unpaired_run2": 7
+  },
+  {
+   "record_id": "PPR1036280",
+   "run1_records": 2,
+   "run2_records": 2,
+   "pairs": 2,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "PPR1093975",
+   "run1_records": 0,
+   "run2_records": 0,
+   "pairs": 0,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "PPR1119171",
+   "run1_records": 20,
+   "run2_records": 20,
+   "pairs": 20,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "PPR1147394",
+   "run1_records": 8,
+   "run2_records": 8,
+   "pairs": 8,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "PPR1150111",
+   "run1_records": 0,
+   "run2_records": 2,
+   "pairs": 0,
+   "unpaired_run1": 0,
+   "unpaired_run2": 2
+  },
+  {
+   "record_id": "PPR1238416",
+   "run1_records": 8,
+   "run2_records": 9,
+   "pairs": 8,
+   "unpaired_run1": 0,
+   "unpaired_run2": 1
+  },
+  {
+   "record_id": "PPR1248806",
+   "run1_records": 17,
+   "run2_records": 17,
+   "pairs": 17,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "PPR1272022",
+   "run1_records": 22,
+   "run2_records": 22,
+   "pairs": 17,
+   "unpaired_run1": 5,
+   "unpaired_run2": 5
+  },
+  {
+   "record_id": "PPR1288686",
+   "run1_records": 0,
+   "run2_records": 0,
+   "pairs": 0,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "PPR1296374",
+   "run1_records": 4,
+   "run2_records": 4,
+   "pairs": 4,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "PPR211912",
+   "run1_records": 0,
+   "run2_records": 0,
+   "pairs": 0,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "PPR273365",
+   "run1_records": 2,
+   "run2_records": 2,
+   "pairs": 2,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "PPR402673",
+   "run1_records": 1,
+   "run2_records": 0,
+   "pairs": 0,
+   "unpaired_run1": 1,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "PPR508031",
+   "run1_records": 2,
+   "run2_records": 2,
+   "pairs": 2,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "PPR632902",
+   "run1_records": 0,
+   "run2_records": 0,
+   "pairs": 0,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "PPR746286",
+   "run1_records": 19,
+   "run2_records": 20,
+   "pairs": 19,
+   "unpaired_run1": 0,
+   "unpaired_run2": 1
+  },
+  {
+   "record_id": "PPR763185",
+   "run1_records": 14,
+   "run2_records": 14,
+   "pairs": 14,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "PPR776562",
+   "run1_records": 8,
+   "run2_records": 8,
+   "pairs": 8,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "PPR790362",
+   "run1_records": 3,
+   "run2_records": 3,
+   "pairs": 3,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "PPR830718",
+   "run1_records": 3,
+   "run2_records": 3,
+   "pairs": 3,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "PPR885087",
+   "run1_records": 7,
+   "run2_records": 7,
+   "pairs": 7,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "PPR885787",
+   "run1_records": 9,
+   "run2_records": 9,
+   "pairs": 9,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "PPR888008",
+   "run1_records": 4,
+   "run2_records": 4,
+   "pairs": 4,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "PPR888327",
+   "run1_records": 0,
+   "run2_records": 0,
+   "pairs": 0,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "PPR893960",
+   "run1_records": 0,
+   "run2_records": 0,
+   "pairs": 0,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "PPR928164",
+   "run1_records": 1,
+   "run2_records": 1,
+   "pairs": 1,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "PPR976891",
+   "run1_records": 9,
+   "run2_records": 9,
+   "pairs": 9,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "W3111331057",
+   "run1_records": 1,
+   "run2_records": 1,
+   "pairs": 1,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "W4382989471",
+   "run1_records": 9,
+   "run2_records": 7,
+   "pairs": 1,
+   "unpaired_run1": 8,
+   "unpaired_run2": 6
+  },
+  {
+   "record_id": "W4388449169",
+   "run1_records": 7,
+   "run2_records": 7,
+   "pairs": 7,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "W4404363618",
+   "run1_records": 2,
+   "run2_records": 2,
+   "pairs": 2,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "W4404363697",
+   "run1_records": 9,
+   "run2_records": 9,
+   "pairs": 8,
+   "unpaired_run1": 1,
+   "unpaired_run2": 1
+  },
+  {
+   "record_id": "W4406094122",
+   "run1_records": 8,
+   "run2_records": 8,
+   "pairs": 8,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "W4406094519",
+   "run1_records": 8,
+   "run2_records": 8,
+   "pairs": 8,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "W4406893521",
+   "run1_records": 17,
+   "run2_records": 17,
+   "pairs": 17,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "W4406962755",
+   "run1_records": 12,
+   "run2_records": 12,
+   "pairs": 12,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "W4408287945",
+   "run1_records": 2,
+   "run2_records": 2,
+   "pairs": 2,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "W4408372838",
+   "run1_records": 0,
+   "run2_records": 0,
+   "pairs": 0,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "W4409944607",
+   "run1_records": 0,
+   "run2_records": 0,
+   "pairs": 0,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "W4410300001",
+   "run1_records": 5,
+   "run2_records": 5,
+   "pairs": 5,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "W4411291538",
+   "run1_records": 13,
+   "run2_records": 9,
+   "pairs": 9,
+   "unpaired_run1": 4,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "W4411414144",
+   "run1_records": 26,
+   "run2_records": 26,
+   "pairs": 26,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "W4411450415",
+   "run1_records": 6,
+   "run2_records": 6,
+   "pairs": 6,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "W4413357814",
+   "run1_records": 16,
+   "run2_records": 16,
+   "pairs": 15,
+   "unpaired_run1": 1,
+   "unpaired_run2": 1
+  },
+  {
+   "record_id": "W4414585720",
+   "run1_records": 31,
+   "run2_records": 14,
+   "pairs": 14,
+   "unpaired_run1": 17,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "W4415765351",
+   "run1_records": 13,
+   "run2_records": 13,
+   "pairs": 13,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "W4416081484",
+   "run1_records": 2,
+   "run2_records": 2,
+   "pairs": 2,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "W7104114135",
+   "run1_records": 10,
+   "run2_records": 10,
+   "pairs": 9,
+   "unpaired_run1": 1,
+   "unpaired_run2": 1
+  },
+  {
+   "record_id": "W7114901264",
+   "run1_records": 9,
+   "run2_records": 9,
+   "pairs": 9,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "W7116282664",
+   "run1_records": 6,
+   "run2_records": 6,
+   "pairs": 6,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "W7119747064",
+   "run1_records": 1,
+   "run2_records": 1,
+   "pairs": 1,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "W7125916243",
+   "run1_records": 3,
+   "run2_records": 3,
+   "pairs": 3,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "W7127588379",
+   "run1_records": 2,
+   "run2_records": 2,
+   "pairs": 2,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "W7134071986",
+   "run1_records": 0,
+   "run2_records": 0,
+   "pairs": 0,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "W7134931630",
+   "run1_records": 3,
+   "run2_records": 3,
+   "pairs": 3,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "W7148915717",
+   "run1_records": 2,
+   "run2_records": 8,
+   "pairs": 2,
+   "unpaired_run1": 0,
+   "unpaired_run2": 6
+  },
+  {
+   "record_id": "W7160707586",
+   "run1_records": 5,
+   "run2_records": 5,
+   "pairs": 5,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "W7164915214",
+   "run1_records": 6,
+   "run2_records": 6,
+   "pairs": 6,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "W7166198638",
+   "run1_records": 1,
+   "run2_records": 1,
+   "pairs": 1,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "W7171432855",
+   "run1_records": 1,
+   "run2_records": 2,
+   "pairs": 1,
+   "unpaired_run1": 0,
+   "unpaired_run2": 1
+  },
+  {
+   "record_id": "W7172030073",
+   "run1_records": 4,
+   "run2_records": 4,
+   "pairs": 4,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "W7172527802",
+   "run1_records": 3,
+   "run2_records": 3,
+   "pairs": 3,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "W7204548938",
+   "run1_records": 1,
+   "run2_records": 1,
+   "pairs": 1,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "W7213318164",
+   "run1_records": 8,
+   "run2_records": 0,
+   "pairs": 0,
+   "unpaired_run1": 8,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "W7214273603",
+   "run1_records": 0,
+   "run2_records": 0,
+   "pairs": 0,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "W7214308300",
+   "run1_records": 0,
+   "run2_records": 0,
+   "pairs": 0,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "W7214334354",
+   "run1_records": 6,
+   "run2_records": 6,
+   "pairs": 6,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "W7215407788",
+   "run1_records": 2,
+   "run2_records": 3,
+   "pairs": 2,
+   "unpaired_run1": 0,
+   "unpaired_run2": 1
+  }
+ ]
+}

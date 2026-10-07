@@ -1,0 +1,25 @@
+{
+ "task": "extraction",
+ "label": "chase2_repeat",
+ "revision": "0b97103cd7a4",
+ "model_requested": "gpt-6.1-sol",
+ "models_returned": [
+  "gpt-6.1-sol"
+ ],
+ "reasoning_effort": "medium",
+ "endpoint": "https://api.openai.com/v1/responses",
+ "abstracts": "outputs/parsed/sol_eligibility_round2_all_2811496ef424.decisions.repeat_sample.jsonl",
+ "n_records": 7,
+ "n_ok": 7,
+ "n_extraction_failed": 0,
+ "n_needed_retry": 0,
+ "usage_new_requests_this_invocation": {
+  "requests": 0,
+  "input_tokens": 0,
+  "cached_input_tokens": 0,
+  "output_tokens": 0,
+  "reasoning_tokens": 0
+ },
+ "started_utc": "2026-10-07T11:22:53.109+00:00",
+ "finished_utc": "2026-10-07T11:22:53.130+00:00"
+}

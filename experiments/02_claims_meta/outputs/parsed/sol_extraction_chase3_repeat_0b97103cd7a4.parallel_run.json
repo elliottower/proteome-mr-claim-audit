@@ -1,0 +1,23 @@
+{
+ "task": "extraction",
+ "revision": "0b97103cd7a4",
+ "raw_dir": "outputs/raw/sol_repeat/extraction/0b97103cd7a4",
+ "records": 2,
+ "answered_before_this_invocation": 0,
+ "answered": 2,
+ "unanswered": 0,
+ "workers_requested": 48,
+ "worker_limit_history": [
+  48
+ ],
+ "passes": 1,
+ "new_requests_with_200": {
+  "requests": 2,
+  "input_tokens": 5682,
+  "cached_input_tokens": 5676,
+  "output_tokens": 2213,
+  "reasoning_tokens": 464
+ },
+ "started_utc": "2026-10-07T11:22:53.822+00:00",
+ "finished_utc": "2026-10-07T11:23:14.702+00:00"
+}

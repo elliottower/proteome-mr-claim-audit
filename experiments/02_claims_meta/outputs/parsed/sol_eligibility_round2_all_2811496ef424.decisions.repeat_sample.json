@@ -1,0 +1,20 @@
+{
+ "seed": 20261001,
+ "fraction": 0.1,
+ "rounding": "ceil",
+ "n_eligible": 69,
+ "n_sampled": 7,
+ "sampled_ids": [
+  "38340139",
+  "38482004",
+  "38993524",
+  "39747981",
+  "40604874",
+  "40779076",
+  "41163121"
+ ],
+ "decisions": "outputs/parsed/sol_eligibility_round2_all_2811496ef424.decisions.jsonl",
+ "decisions_sha256": "178da572a34b59ae9db27ae58dc7497aa1dd7c41914fa9c94c1b5f4c2de21a1d",
+ "abstracts": "outputs/screening/chase_round_2/screening_set.jsonl",
+ "abstracts_sha256": "3356463092eea188365191d5d74330dae862d26e3aef9fdbe197669ef4e0e152"
+}

@@ -1,0 +1,61 @@
+{
+ "run_id": "s3_extraction_chase1_0b97103cd7a4",
+ "note": "stage 3 extraction, chase round 1: parsed files, the round's concatenated decisions file, its repeat sample and agreement file; raw exchanges are in the folders recorded with s3_extraction_search_0b97103cd7a4",
+ "written_utc": "2026-10-07T11:24:34+00:00",
+ "files": [
+  {
+   "path": "outputs/parsed/sol_eligibility_round1_all_2811496ef424.decisions.jsonl",
+   "bytes": 7005981,
+   "sha256": "82fb2d6d0a905eceeed41abb2f09dfd26bf35a8c6b6f3f38d436faa5b0f8975c"
+  },
+  {
+   "path": "outputs/parsed/sol_eligibility_round1_all_2811496ef424.decisions.repeat_sample.json",
+   "bytes": 726,
+   "sha256": "e4feed23267328cf463be5ccd1b11421449ab3de2c3d8bd574fe3b2acc08c26c"
+  },
+  {
+   "path": "outputs/parsed/sol_eligibility_round1_all_2811496ef424.decisions.repeat_sample.jsonl",
+   "bytes": 36252,
+   "sha256": "f41441bfaf7a47a8e9102b080d0b831ca6033eab3b396009f17359d758a591c4"
+  },
+  {
+   "path": "outputs/parsed/sol_extraction_chase1_0b97103cd7a4.jsonl",
+   "bytes": 743990,
+   "sha256": "9abdf3d7aa20c1e45c5286444ef7c3e3dec139cb903c6bd42da9042c9b805c45"
+  },
+  {
+   "path": "outputs/parsed/sol_extraction_chase1_0b97103cd7a4.meta.json",
+   "bytes": 677,
+   "sha256": "f90ce525064182d924097b11bb9f809656216ec0f9184d898a9b6abfb709820e"
+  },
+  {
+   "path": "outputs/parsed/sol_extraction_chase1_0b97103cd7a4.parallel_run.json",
+   "bytes": 628,
+   "sha256": "1415ab5af888c81e09a2d0ee1518dabec641934fea3098132866d3b929db467b"
+  },
+  {
+   "path": "outputs/parsed/sol_extraction_chase1_repeat_0b97103cd7a4.jsonl",
+   "bytes": 96667,
+   "sha256": "a18bf31772550088bb031bcffe5f07f595730f289e2aa76f07100708fa648e6d"
+  },
+  {
+   "path": "outputs/parsed/sol_extraction_chase1_repeat_0b97103cd7a4.meta.json",
+   "bytes": 679,
+   "sha256": "0bfb9c9ac11f3556955633f50434777f6b297fd322bd78fafde5bbc20544df25"
+  },
+  {
+   "path": "outputs/parsed/sol_extraction_chase1_repeat_0b97103cd7a4.parallel_run.json",
+   "bytes": 541,
+   "sha256": "537d6084b4f00bb81ae36f683aa65aa0d9a4803981a5cc665ab398992369f311"
+  },
+  {
+   "path": "outputs/repeat_run/chase1/repeat_run_agreement.json",
+   "bytes": 4586,
+   "sha256": "6728fd922ea2ffec080d0d50361aebf448b24e020de2ecb047de7465e3da4a77"
+  }
+ ],
+ "recorded_directly": [
+  "outputs/parsed/sol_extraction_chase1_0b97103cd7a4.jsonl"
+ ],
+ "volume_checks": []
+}

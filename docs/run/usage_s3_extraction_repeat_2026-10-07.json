@@ -1,0 +1,25 @@
+{
+ "records": 238,
+ "records_without_a_200_exchange": 0,
+ "requests": 238,
+ "input": 678414,
+ "cached": 677700,
+ "cache_write": 0,
+ "output": 410441,
+ "reasoning": 65362,
+ "failed_exchanges": 0,
+ "usd": 4.1736,
+ "prices_usd_per_million": {
+  "input": 2.0,
+  "cached_input": 0.1,
+  "cache_write": 2.5,
+  "output": 10.0
+ },
+ "raw_dir": "outputs/raw/sol_repeat/extraction/0b97103cd7a4",
+ "records_files": [
+  "outputs/parsed/sol_extraction_search_repeat_0b97103cd7a4.jsonl",
+  "outputs/parsed/sol_extraction_chase1_repeat_0b97103cd7a4.jsonl",
+  "outputs/parsed/sol_extraction_chase2_repeat_0b97103cd7a4.jsonl",
+  "outputs/parsed/sol_extraction_chase3_repeat_0b97103cd7a4.jsonl"
+ ]
+}

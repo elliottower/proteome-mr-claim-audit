@@ -1,0 +1,238 @@
+{
+ "run1": "outputs/parsed/sol_extraction_chase1_0b97103cd7a4.jsonl",
+ "run1_sha256": "9abdf3d7aa20c1e45c5286444ef7c3e3dec139cb903c6bd42da9042c9b805c45",
+ "run2": "outputs/parsed/sol_extraction_chase1_repeat_0b97103cd7a4.jsonl",
+ "run2_sha256": "a18bf31772550088bb031bcffe5f07f595730f289e2aa76f07100708fa648e6d",
+ "sample": "outputs/parsed/sol_eligibility_round1_all_2811496ef424.decisions.repeat_sample.json",
+ "seed": 20261001,
+ "fraction": 0.1,
+ "n_eligible": 187,
+ "written_utc": "2026-10-07T11:23:41+00:00",
+ "revision": "0b97103cd7a4",
+ "sampled_abstracts": 19,
+ "abstracts_compared": 19,
+ "abstracts_extraction_failed_in_run1": 0,
+ "abstracts_extraction_failed_in_run2": 0,
+ "abstracts_with_equal_record_count": 17,
+ "run1_records": 105,
+ "run2_records": 108,
+ "paired_records": 103,
+ "paired_by_pass": {
+  "full_key": 100,
+  "protein_and_outcome_only": 3
+ },
+ "run1_share_paired": 0.9809523809523809,
+ "run2_share_paired": 0.9537037037037037,
+ "field_agreement_among_paired": {
+  "protein_as_written": {
+   "agree": 103,
+   "share": 1.0
+  },
+  "outcome_as_written": {
+   "agree": 103,
+   "share": 1.0
+  },
+  "direction": {
+   "agree": 103,
+   "share": 1.0
+  },
+  "evidence_type": {
+   "agree": 103,
+   "share": 1.0
+  },
+  "claim_scope": {
+   "agree": 103,
+   "share": 1.0
+  },
+  "analysis_context_as_written": {
+   "agree": 100,
+   "share": 0.970873786407767
+  },
+  "subgroup_as_written": {
+   "agree": 103,
+   "share": 1.0
+  },
+  "pqtl_datasets": {
+   "agree": 103,
+   "share": 1.0
+  },
+  "outcome_datasets": {
+   "agree": 103,
+   "share": 1.0
+  },
+  "dataset_attribution": {
+   "agree": 103,
+   "share": 1.0
+  },
+  "platform": {
+   "agree": 103,
+   "share": 1.0
+  },
+  "ancestry": {
+   "agree": 94,
+   "share": 0.912621359223301
+  },
+  "relation_ambiguous": {
+   "agree": 103,
+   "share": 1.0
+  },
+  "evidence_span": {
+   "agree": 103,
+   "share": 1.0
+  }
+ },
+ "per_abstract": [
+  {
+   "record_id": "33925895",
+   "run1_records": 9,
+   "run2_records": 9,
+   "pairs": 9,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "36349687",
+   "run1_records": 1,
+   "run2_records": 1,
+   "pairs": 1,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "37910257",
+   "run1_records": 5,
+   "run2_records": 5,
+   "pairs": 5,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "38075694",
+   "run1_records": 29,
+   "run2_records": 29,
+   "pairs": 29,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "38450985",
+   "run1_records": 14,
+   "run2_records": 14,
+   "pairs": 14,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "38720162",
+   "run1_records": 4,
+   "run2_records": 8,
+   "pairs": 4,
+   "unpaired_run1": 0,
+   "unpaired_run2": 4
+  },
+  {
+   "record_id": "38737586",
+   "run1_records": 4,
+   "run2_records": 3,
+   "pairs": 3,
+   "unpaired_run1": 1,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "39103364",
+   "run1_records": 2,
+   "run2_records": 2,
+   "pairs": 2,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "39689714",
+   "run1_records": 0,
+   "run2_records": 0,
+   "pairs": 0,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "40088986",
+   "run1_records": 10,
+   "run2_records": 10,
+   "pairs": 10,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "40290076",
+   "run1_records": 1,
+   "run2_records": 1,
+   "pairs": 1,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "40349847",
+   "run1_records": 9,
+   "run2_records": 9,
+   "pairs": 9,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "40715126",
+   "run1_records": 0,
+   "run2_records": 0,
+   "pairs": 0,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "41413375",
+   "run1_records": 0,
+   "run2_records": 0,
+   "pairs": 0,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "41861166",
+   "run1_records": 4,
+   "run2_records": 4,
+   "pairs": 4,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "42130808",
+   "run1_records": 3,
+   "run2_records": 3,
+   "pairs": 3,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "42466619",
+   "run1_records": 5,
+   "run2_records": 5,
+   "pairs": 5,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "W4399530519",
+   "run1_records": 1,
+   "run2_records": 1,
+   "pairs": 1,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "W7213607455",
+   "run1_records": 4,
+   "run2_records": 4,
+   "pairs": 3,
+   "unpaired_run1": 1,
+   "unpaired_run2": 1
+  }
+ ]
+}

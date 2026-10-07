@@ -1,0 +1,142 @@
+{
+ "run1": "outputs/parsed/sol_extraction_chase2_0b97103cd7a4.jsonl",
+ "run1_sha256": "aaef43b06756a76e035495988e3f06580f56d52a71cd2b7e7536b513758d6653",
+ "run2": "outputs/parsed/sol_extraction_chase2_repeat_0b97103cd7a4.jsonl",
+ "run2_sha256": "8ae66052b55951474ed31a48abad1126f818dc05ce4aab6f814fd3dd22c7fa93",
+ "sample": "outputs/parsed/sol_eligibility_round2_all_2811496ef424.decisions.repeat_sample.json",
+ "seed": 20261001,
+ "fraction": 0.1,
+ "n_eligible": 69,
+ "written_utc": "2026-10-07T11:23:41+00:00",
+ "revision": "0b97103cd7a4",
+ "sampled_abstracts": 7,
+ "abstracts_compared": 7,
+ "abstracts_extraction_failed_in_run1": 0,
+ "abstracts_extraction_failed_in_run2": 0,
+ "abstracts_with_equal_record_count": 7,
+ "run1_records": 40,
+ "run2_records": 40,
+ "paired_records": 40,
+ "paired_by_pass": {
+  "full_key": 28,
+  "protein_and_outcome_only": 12
+ },
+ "run1_share_paired": 1.0,
+ "run2_share_paired": 1.0,
+ "field_agreement_among_paired": {
+  "protein_as_written": {
+   "agree": 40,
+   "share": 1.0
+  },
+  "outcome_as_written": {
+   "agree": 40,
+   "share": 1.0
+  },
+  "direction": {
+   "agree": 39,
+   "share": 0.975
+  },
+  "evidence_type": {
+   "agree": 40,
+   "share": 1.0
+  },
+  "claim_scope": {
+   "agree": 38,
+   "share": 0.95
+  },
+  "analysis_context_as_written": {
+   "agree": 28,
+   "share": 0.7
+  },
+  "subgroup_as_written": {
+   "agree": 40,
+   "share": 1.0
+  },
+  "pqtl_datasets": {
+   "agree": 40,
+   "share": 1.0
+  },
+  "outcome_datasets": {
+   "agree": 40,
+   "share": 1.0
+  },
+  "dataset_attribution": {
+   "agree": 40,
+   "share": 1.0
+  },
+  "platform": {
+   "agree": 40,
+   "share": 1.0
+  },
+  "ancestry": {
+   "agree": 40,
+   "share": 1.0
+  },
+  "relation_ambiguous": {
+   "agree": 40,
+   "share": 1.0
+  },
+  "evidence_span": {
+   "agree": 40,
+   "share": 1.0
+  }
+ },
+ "per_abstract": [
+  {
+   "record_id": "38340139",
+   "run1_records": 12,
+   "run2_records": 12,
+   "pairs": 12,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "38482004",
+   "run1_records": 2,
+   "run2_records": 2,
+   "pairs": 2,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "38993524",
+   "run1_records": 6,
+   "run2_records": 6,
+   "pairs": 6,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "39747981",
+   "run1_records": 10,
+   "run2_records": 10,
+   "pairs": 10,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "40604874",
+   "run1_records": 1,
+   "run2_records": 1,
+   "pairs": 1,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "40779076",
+   "run1_records": 8,
+   "run2_records": 8,
+   "pairs": 8,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  },
+  {
+   "record_id": "41163121",
+   "run1_records": 1,
+   "run2_records": 1,
+   "pairs": 1,
+   "unpaired_run1": 0,
+   "unpaired_run2": 0
+  }
+ ]
+}
