@@ -11,10 +11,12 @@ against the source data is a separate registration.
 
 ## Status
 
-The plan is not yet frozen. `prereg check` reports `not frozen` until it is; after the freeze it
-reports whether the plan still says what it said. No registered search has been run, and no
-claim has been extracted from any abstract in the 2019–2025 window. What had been read before
-the freeze is listed in PREREG.md, §Explanation of foreknowledge.
+The plan was frozen on 3 October 2026 and registered at https://osf.io/zae8c. `prereg check`
+reports whether the plan still says what it said; every later change is in the `## Log` of
+`PREREG.md` and in the two amendment files beside it. As of 8 October 2026 the search,
+screening, extraction, span and claim checks and the manual dataset coding have run, and the
+registered joins (stage 5) have not. What had been read before the freeze is listed in
+PREREG.md, §Explanation of foreknowledge.
 
 ## How the record is kept
 
@@ -68,6 +70,11 @@ prereg check                                # has the plan changed since the fre
 uv run scripts/stage_record.py verify       # every file each stage manifest names
 ```
 
+The abstracts and full texts the study reads, and the model requests that embed them, are not
+redistributed. `docs/history_rewrite/WITHHELD_FILES.tsv` lists each such file with its sha256,
+and `docs/history_rewrite/README.md` says which checks need them and how the commit hashes in
+the records map to the hashes in this repository.
+
 The pinned sources are full texts of papers and supplements and are not redistributed.
 `citations fetch` downloads each one where it is openly available and installs it only when its
 sha256 matches the pin; a source that is paywalled or refuses a script stays `unchecked`, which
@@ -87,9 +94,9 @@ EpiGraphDB snapshot) are pinned by sha256 in `experiments/02_claims_meta/RELEASE
 | `experiments/02_claims_meta/` | the plan, prompts, scripts, tests, verification tables, search files and outputs |
 | `experiments/01_census/` | an earlier reporting-quality census, not frozen and not run |
 | `claims/` | the pinned quotations behind the dataset, cohort and platform decisions |
-| `docs/` | the checks made before the freeze, and the records the plan cites |
+| `docs/` | the checks made before the freeze, the records the plan cites, run notes, and `history_rewrite/` |
 | `.results/` | the results ledger |
 
 ## Licence and citation
 
-Code is MIT-licensed. Cite the registration on OSF once it is public.
+Code is MIT-licensed (`LICENSE`). Cite the registration: https://osf.io/zae8c.

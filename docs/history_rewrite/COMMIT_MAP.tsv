@@ -1,0 +1,86 @@
+original_commit	rewritten_commit	author_date	subject
+762342b5f592258b0f010fa88dc373b68cf7659b	90084907fa4ee80d856b656075c66c464929705f	2026-10-03T16:25:55-04:00	Preregistration, scripts and pre-freeze checks for the claims census
+02bb006f3e5514d192501907aa62cf7cb09c991f	82fb024ef0acab219a15854dac1ba1844d379a60	2026-10-03T16:27:14-04:00	Preregistration plan for the claims census
+c009e46f6257b4aed1de3fb37846ddc2dc68d447	04c7bec1c700c54f663d33ea0390fc39f5502429	2026-10-03T16:32:23-04:00	Freeze the plan
+5a2504edb5f26b6a624794ad5a5e56f458f161b4	2de206d95e65f542080842b428453845625fe71b	2026-10-03T16:32:45-04:00	Record the freeze and seal the inputs
+357d6f58f50b2b303d31d284ec104356d95403c4	d6db33d860d8576f7b3135a59318fa18b92401cf	2026-10-03T16:43:31-04:00	Timestamp the freeze and the ledger head with OpenTimestamps
+cdc24717879beb0a8957186302a81534da9b7542	d5d9cebe7b818f0500f4aa8ffa234905e9db7fb1	2026-10-03T17:05:29-04:00	Log the OSF registration
+60516ce71f7f9d05fea175f7cb57aea219cf29f7	8e5f31f7b3915add82fedbd0fa39235a01678d95	2026-10-03T17:32:30-04:00	Log that the OSF registration is public
+bdb2d76af07873490c84475d278def57b28ef60b	3abbfd9e477b966f7c02d2c1ba46c851a4997220	2026-10-03T17:42:38-04:00	Search responses of 2026-10-03
+56a33bbbeefcdc2c5e9d119e8bb3731015a5b518	f05ad729de0ec2503afdd260526a3525fc99bb59	2026-10-03T17:48:53-04:00	Second request of two OpenAlex streams on the search date
+c27c1c88fefee5f723faa8191e51c9d1a9e4d968	23e65815bb7b658a6d69dd2a84305ab094ed587b	2026-10-03T17:49:30-04:00	Log the decision to use both requests of the two OpenAlex streams
+6eae6bb55ea41450ecee41164ffbec1ad4a1954a	491a5d829616df2d2269be70ed52f1c641df0216	2026-10-06T12:24:08-04:00	Log amendment 1: extraction-system comparison with a tuned Luna extraction
+16316761b7a8bea80072b6a79d144c6c6264d56f	bf3298c2133c1f36812e5f111bddfe8d0067bc24	2026-10-06T12:25:03-04:00	Complete the Bitcoin timestamps of the freeze and stamp the ledger after amendment 1
+1eb56869895b6b9f504143c5b6d9de709f05c2ed	49b1dcc000ca44901d168184ce45ac8fe28fd25d	2026-10-06T12:42:19-04:00	Log the OSF update for amendment 1
+84f2b73eebb9da7fa406808ce1c884c916d02fa7	5e154486fd7260ec377d54b0c22ebe9ee836b590	2026-10-06T12:52:04-04:00	Screening set of the search of 2026-10-03, from the union of the two requests
+75bdc99b6f7309dc3229bc02bbbfe96cc4122019	87994b5150d4e20baf798968f474f05311c0557d	2026-10-06T17:46:26-04:00	Stage 2 eligibility responses for the search, negative controls, and a rehearsal of the Luna runner
+d24f4cfd759ffdb6e35e0dc379e4ca9b264a8c94	416d6f3886262122d26009c21b5a7f30ac403d74	2026-10-06T17:58:43-04:00	Stage 2 eligibility decisions of the search, with the second request of 66 unanswered records
+20da4ff3c594d92cdfa3e8aca134944fc2c08ecb	6d497dd44875bfd69e75b08d82edab458c111c26	2026-10-06T19:06:23-04:00	Citation chasing round 1 with its eligibility decisions and gate audit
+ecf42fa5e47f37cf9c744bce3d13f88ab20ce738	db5a10ce18e801ebbcfc3e6787a350e887f10750	2026-10-06T19:10:49-04:00	Note the worker count of the Sol calls in the round 1 run note
+0aa4fbd49ce7d14f9f07d816865b42ccb6f3c74d	afaa8efd42fe06fc680c1d184280efd204d8fe86	2026-10-06T23:19:02-04:00	Eligibility of every gate-marked record of chase round 1, with the parallel runner
+a5013150c8a819ae2fcca8caa8c00d51f0ca1d38	014915257dbe9c0d5cb4a166250be742f3bccaea	2026-10-07T01:10:10-04:00	Citation chasing round 2 with the eligibility of every record
+056c39ecd29fd740af31b232728adb0bf13c62fa	1018422a709aa2775325f79c757645394d9b28c1	2026-10-07T01:16:15-04:00	Citation chasing round 3 with the eligibility of every record
+a4ea5386e546727af0a6fbec8c7bd9c6233cf64c	798ed0607a87e811b8268dec9df3d783547b11dc	2026-10-07T07:25:58-04:00	Stage 3 extraction with the repeat runs
+68fcbf3aec86def5e35959688df3beacc529e893	00e76c3b590b700c4cc57a31cb74734103ba0b58	2026-10-07T08:20:38-04:00	Stage 3L: two Luna extraction runs of amendment 1
+f7cd902e41be2c138f797624491a42ca4870decd	470f563cc832e6fa406fbe174f091d78fbf22ac2	2026-10-07T11:44:37-04:00	Log the stop in stage 4 at the claim verifier
+c196457bfe0fec940c8a7dfee391761614af68c9	7251beea3383e5815d27b8c695ebc39b86a57382	2026-10-07T12:03:25-04:00	Log and seal the corrected copy of the claim verifier
+5be400a782027e4bf58acb9f00a8cf87aa54aa8c	407334b48c2c9334899e7b724fe7927aaeb60e97	2026-10-07T12:04:17-04:00	Compare the corrected claim verifier with the registered one on the chase files
+737e0ecf8321457ded5bf162af76861922cece9c	7eff8a9bb8ec300f9156480678edb0ceecfdce85	2026-10-07T12:19:16-04:00	Stage 4 up to the manual-coding queue
+145ad8f79f93e8702d4151ecd63ae1d2b6a18665	15f36734dbaaec1b83aa89ab40260803e77c396a	2026-10-07T13:04:09-04:00	Log and seal the manual-coding passage rule, coders, gates and second unresolved value
+55e69d92d41a2b5d9ed95174439d1e620d930758	a8f8fb308f1e5505fb876e27c390820c6886bf69	2026-10-07T13:07:23-04:00	Log and seal the corrected copy of the passage generator
+73f2e67901c5419f825b6f4c293b743da63e8864	afd394fccb5926dd57ebc5165e14832426c7a19c	2026-10-07T13:53:17-04:00	Log and seal the round 15 changes to the manual-coding machinery
+fdb6b1b6c0923623fddf765d6fbbfbbe518b95c1	d69378a8cb5b599dab81aa8125f98530df8113d5	2026-10-07T13:55:01-04:00	Run note of the manual-coding set-up
+dc8646a3ed25459f7a8c838cdeb29075c84f3dc2	5751eca7940ac1022674757ffdf8853364dcb832	2026-10-07T13:59:19-04:00	Log and seal the generator that reads reference identifiers from links and entry text
+30bb98c8d645697c9375455a40ebbc284f47bf04	6a1c08e6aa809257d17d7c83b8c5635ac8c0e912	2026-10-07T14:02:28-04:00	Log and seal the generator with the corrected DOI pattern
+cc9789b97f15c64e911c6a0cc09e0672c395258d	757d32c720924892fd3bb83f2570fb1761d7d6e3	2026-10-07T14:03:30-04:00	Run note of the reference identifiers in the manual-coding set-up
+1d6cf40cc43aa50450afbfdad8254372833bb2ab	f77909a249a43c2397595798e4398cd5ec79e86a	2026-10-07T14:27:40-04:00	Log the first-check departures and seal the missed-identifier screen
+3940179af1b2cca7d7fde7bd55adc89b0613765d	b8d450fa688fadb14473d338aac211a840347854	2026-10-07T14:31:41-04:00	Log the attempt 1 gate and screen results and the full reread
+d26e6cce0e546e4a1ae44973158104cd5a9b3037	faf712197961cb04fb6b3964cee552dbe3fc4cbc	2026-10-07T14:52:40-04:00	Log the departures of the attempt 2 reread
+b0a7adca60d350853f0c7f2af6f753c787a1e9a4	5dba38b200b89cf095af8028358234cd5b43a591	2026-10-07T14:55:57-04:00	Log the attempt 2 gate and screen results and the state of the first check
+07ecb936b2e79033a47b6aef5ead55b8f89d6894	dff90aff253d5e6b6ce8a6e66e66e229b50e1902	2026-10-07T20:38:54-04:00	Log the settled coding rules and seal the third instructions and second gate
+07ea3f8899bb710a505d23c8ccd923d53f06dfa8	913a707d93656a62185753a66d28cc4d78e9ba36	2026-10-07T20:45:07-04:00	Log and seal the occurrence-pin helper and the fourth coder instructions
+044d36d134b494a5c076ff61e0791663b42ed6de	554cea6ac8a7df4c4a824bb899b86e0ee591757c	2026-10-07T20:56:05-04:00	Log the attempt 3 run of the first check
+6af7e41b2278fb8c5e6b993a0486182f1c6aef57	9ce12fd429ee750db18615f16223c5f52cf23e9c	2026-10-07T21:04:30-04:00	Log the attempt 3 results and seal the second occurrence-pin helper
+16747a5e39c5dd8dba3cc13f2785cb9f946a2d41	d551eae43170f7cf8bf379c524d6347e9a0e039d	2026-10-07T21:08:41-04:00	Log the five clarifications and seal the sixth coder instructions
+e7df02a28fa81063cec18521013d9423db82a083	41d19b9dd76e230ff2f41d7650e3757d3d61904f	2026-10-07T21:19:31-04:00	Log the attempt 4 run of the first check
+4086fad06960b08b6ac645dea6b21a140b8d8fda	f9910e9ae7518019b1604556965e1535e1e401c6	2026-10-07T21:24:06-04:00	Log the attempt 4 results and the second check, and seal the answer ingest
+7d6041314f70320d9d617c021db30e805169e126	d41421c20e45cad8ac400adfa71b0fd5e6b8ff65	2026-10-07T21:31:27-04:00	Log and seal the table script that writes a gate-failing coded row as unresolved
+3958a9ec7ec8de5e2a92f9667a73387c2b6a39eb	b26e35dace4c8b841d3adad627d5d6da23cb2f0e	2026-10-07T21:43:01-04:00	Log and seal the second answer ingest
+433a07b29e28b2d298792968856458017526f47a	a6369dbd25a717a4e91e0471724186b1231284cd	2026-10-07T21:45:32-04:00	Log the second check and seal the third answer ingest
+c5b901fd6345b440463820e022684fcb4f95a4f4	c1348f0e501912c1cf5dfe0e3334c1c007efcf74	2026-10-07T21:46:04-04:00	Correct three counts in the log of the second check
+c0f0e596f49a727e7747cdd9dfdadcf3d08eb98e	a67f3d0d798a32bb6734f79157a7a3bd17eedd80	2026-10-07T21:50:22-04:00	Log how the reread of disagreements is run and seal its script and instructions
+672fab1b2b671fce28f01161f4b41e58aa2cbe12	d07207502a7c23b08b1b518f77384c90b457c970	2026-10-07T22:00:33-04:00	Log and seal the classifier of failing evidence spans and record two looks
+cc65db0d99941e39a6fa40312f9fa44c73582309	50fcd66be9c0468b50aa156abd874de23ad78e6d	2026-10-07T22:03:09-04:00	Correct one fixture of a sealed test file and reseal it
+29df87c79705be71dc552dca8657bcb8f602cdb9	ae8c5371be3df78e8e6d9b345c585b4b3b7b9fb7	2026-10-07T22:06:26-04:00	Log the reruns of the second check and seal the quotation-pinning script
+0e16f2d0672fdd711bf1d1205740a11d0b3814b4	86e68db7c1d9eef7881c24712b0b9bf6c4c9a964	2026-10-07T22:41:15-04:00	Log the completion of the second check
+4aaa04c4397cae5672a52e0807a8bc7bfff2e643	f683d9667d50ad6e05543a5c3a0f14a289901c64	2026-10-07T22:49:53-04:00	Log and seal the preparation of the span-check correction
+19fba13800261ada7d2acd02f24bcbd000d50ca6	d0e524896ad4629ca20f8a91699103184ff18ff5	2026-10-07T22:51:15-04:00	Record a look at counts for the fifteen papers with a spliced span
+2952e001667fe6c395b08eb84e57f4f4e32f5f25	dd013fa72996e3972059a4506d5970522432cb86	2026-10-07T22:54:20-04:00	Record the follow-up counts on the failing evidence spans
+b329f75a9d36d170a9858b198661c90e11a29cad	c57fce0f67970a506757e572d867663458512c8d	2026-10-07T22:57:17-04:00	Log the follow-up counts and seal the count of omitted tokens by kind
+11e2c0cd1a72f74d169a095aa33ed35e4a7469fd	9e1111eb87f42339a4b3d833961ee18eac9cb4a9	2026-10-07T22:57:57-04:00	Record the count of omitted tokens by kind
+f988bebfa8d94522138b7dcdc0f0a2390060410a	38ddfefb154f7895e93d47e9686f17f8b260ba51	2026-10-07T23:00:08-04:00	Log the reread of disagreements and its result
+b47e0a88aa1fb9290c46861766e3510d7b659cc3	2cce572984c1f85218b399759e916a641b39bdfe	2026-10-07T23:02:38-04:00	Log the table after the reread and seal the third-check table script
+d132d71eca44e7eceda24624336394056cdc4a39	4a3824cdc6cac0cb428873a5e37098bfcf7edbea	2026-10-07T23:07:11-04:00	Log and seal the preparation of the span restoration
+d90fae0c5103f4468ddbcb1120f3fbcec8a5dfca	1598d1ea8a4bf416185b085c13d62ce7f1381aba	2026-10-07T23:12:30-04:00	Log the predicate dry run and seal the reading of the third check
+2c3f1c24d54b8bec77cdf30f5c2d2e312bce0f3a	cff032b0c3c53f603d1b03b4097e2b9636cf5603	2026-10-07T23:20:30-04:00	Log the deviation of the third check and seal its sample reader
+2d4fb8df2b3b1876ad20ddcee62a283c0b078fc0	1a357ee778e8ae5fd9e48f36d5db877b77f0a20f	2026-10-07T23:30:40-04:00	Commit the manual dataset codes after the three checks
+9cb2ed5626bbc8270ef44eeaa91a812ceb1aabcd	3d56690d02e69c8b85abc8780a1bec908d7c72f1	2026-10-07T23:44:45-04:00	Log the author's voluntary read of a further sample of thirty
+962bf81d15ff539ad7ffb5188a49a62c6960f2e0	0a400345a5b3e397a5ec9183a21be92fd6daf6b0	2026-10-07T23:45:19-04:00	Log the replacement of the further sample by a sample of reference-based rows
+13f4ca4384594ad90eeeda837ea295a729de4a5d	df77fdf2ed40b7f63e50a8a0d7f628ce0b18c64a	2026-10-07T23:47:34-04:00	Log the review of the third check and seal the context and voluntary-mark steps
+655fcf33659958c459526d2b818add75d4cd45ce	643cbd1318a026257aba5ae1f3383c63c97de7c3	2026-10-07T23:50:26-04:00	Record the author's voluntary marks on 30 further rows and the tables that carry them
+4299434cfa734353400d2f58840ced4f852563fe	353eb1dfa9b32c96dd77bedfb60db22e4e2f69af	2026-10-08T00:01:36-04:00	Record the author's marks on 50 further rows and rewrite the author-marked table
+d04ebb3019aafe39a57dc6a49c6552cac5cb46be	6989aa745bbbbaa1802245b83089f8ad1d931e6a	2026-10-08T00:08:32-04:00	Record the author's second look at reference-based rows and rewrite the author-marked table
+f3e9da9bdd894beabdf514c2fb507e600b5bcd24	e552a6e02d3c69552d493ca8617e1f7c18d1fd94	2026-10-08T00:34:33-04:00	Log Amendment 2: span check under the corrected citations build and restoration of one-token omissions
+35bfdd19edf1eefb2d7824ee835fd72d00dc134f	17bde1ac0f3bcae91f58b73d0243c11a648427f3	2026-10-08T00:35:25-04:00	Fold digests of every abstract and span under the registered and the corrected citations builds
+8e59cfb7e7698a702b3bd0c73be18ff0058510c8	34163897ef6e0924ed6604247971450b47177459	2026-10-08T00:44:50-04:00	Span step under the corrected citations build: 27 records pinned at their first occurrence, every assertion holds
+c33b483054f65cf2c4466fca1d011560bd1d895e	41de0590c37e8581910b68dca85639f629e011c0	2026-10-08T00:57:46-04:00	Restore the 37 spans from the stored abstracts, cross-check three computations, verify and count transitions
+dff150edeb8160192b89106827f3f09bb046cb68	4ca6eeea25a2a1e2a80182e8d413073a1d99687b	2026-10-08T01:20:48-04:00	Rebuild the first assembly and the coding queue for Amendment 2: 872 coded rows unchanged, 4 new rows
+00c16014e0b9d47d3593711d58aff2e531273f41	3724627896dd5a4fc171a8cdfddc66023b8590d8	2026-10-08T01:28:52-04:00	Set up the first check of the 4 new queue rows: full texts, passages, assignment, brief
+6a0b832fa606e40efa903339c8b5f3cfcbbcaebf	a6b1e934a05993c1496d6f16682bc55fcae51208	2026-10-08T01:31:42-04:00	First check of the 4 new queue rows: gates pass, 1 coded, 1 release not identified, 2 absent from the dictionary
+7763455d95b7ff1fb8ac6a2f32fe7d8055ead482	5b0bcf99aead74c0237fbcaede7dc956016f95ad	2026-10-08T07:59:11-04:00	Second check of the 4 new queue rows agrees on all 4; third-check line and card for the one coded row
+dad11b07dd7972031db2cf7dbee2bbbeadb3da41	92375c6b39298a65bb74bb753a7e19042cdac251	2026-10-08T08:00:38-04:00	Record the completed second look: 124 of 196 coded rows author-marked, all reference-based rows among them
+62f181cb08c1e18ae292f7640491c3f0f20bb343	190cdaf4861a7fa0f23490177d7e25ed6307181f	2026-10-08T08:11:11-04:00	Bind the census process counts to recorded runs: 76 claims, one counting script, stage record of the manual coding
+6eb30b51fa5d1be75e138a82147b44c567ba24eb	714276f491aad1aae008ca726ae4741473abc77f	2026-10-08T08:17:10-04:00	Final tables of manual codes for the two rebuilt queues: versions a, b and c; the 196 earlier codes carried unchanged
+cfe217a392f499323ac2e9728af6610c592d4b89	a95d65e47a92c6dd4540b30f325d43254995fa54	2026-10-08T08:30:35-04:00	Record the author's marks on the last 72 coded rows: every coded row marked; final tables rewritten, version b equal to version a
+13b2563b004249649ed514b4a4c2453c1860b598	3637c977af7528b5c8f5ef51e67f0beac5f9aa61	2026-10-08T09:53:46-04:00	Build the four assemblies with codes for Amendment 2, compare them by hash and line count, and write the stage 5 run plan
+42edd57bd878efdcebe0e775826d49e2ba4f1acd	e24f21e0a67a3a903739eb34b4a4e0135a125faa	2026-10-08T09:55:12-04:00	Correct the recorded times of the assemblies with codes

@@ -21,3 +21,83 @@ experiments/02_claims_meta/outputs/raw/citation_chase/**/*.gz
 
 # Originals of stored outputs whose absolute home path was stripped (docs/stage0_build/HOME_PATHS_STRIPPED_2026-10-02.json)
 experiments/02_claims_meta/outputs/superseded/home_paths_2026-10-02/
+
+# Third-party text and metadata, files that record a local path, and working notes: kept on disk, never committed.
+# docs/history_rewrite/WITHHELD_FILES.tsv lists each such file that the study recorded, with its sha256.
+# Model exchange files (request.input carries the abstract); prompt.md and schema.json stay tracked
+experiments/02_claims_meta/outputs/raw/sol*/**/*.json
+experiments/02_claims_meta/outputs/raw/luna/**/*.json
+!experiments/02_claims_meta/outputs/raw/**/schema.json
+side_checks/*/raw/**/*.json
+side_checks/*/one_example/raw/**/*.json
+
+# API response pages and full texts; manifest.jsonl, counts.json, run.json stay tracked
+experiments/02_claims_meta/outputs/raw/**/*.json.gz
+experiments/02_claims_meta/outputs/raw/**/*.xml.gz
+experiments/02_claims_meta/outputs/raw/pubmed/*.xml
+experiments/02_claims_meta/outputs/raw/fulltext/*.xml
+
+# Tables that carry the key `abstract`
+experiments/02_claims_meta/outputs/screening*/**/screening_records.jsonl
+experiments/02_claims_meta/outputs/screening*/**/screening_set.jsonl
+experiments/02_claims_meta/outputs/screening*/**/screening_queue.jsonl
+experiments/02_claims_meta/outputs/screening*/**/gated_out.jsonl
+experiments/02_claims_meta/outputs/screening*/**/gated_out_remaining.jsonl
+experiments/02_claims_meta/outputs/screening*/**/retrieved_records.jsonl
+experiments/02_claims_meta/outputs/screening*/**/no_abstract.jsonl
+experiments/02_claims_meta/outputs/screening*/**/unanswered_queue.jsonl
+experiments/02_claims_meta/outputs/screening*/**/probe_first_record.jsonl
+experiments/02_claims_meta/outputs/screening*/**/gate_sample_batch_*.jsonl
+experiments/02_claims_meta/outputs/superseded/**/screening_records.jsonl
+experiments/02_claims_meta/outputs/superseded/**/screening_set.jsonl
+experiments/02_claims_meta/outputs/superseded/**/screening_queue.jsonl
+experiments/02_claims_meta/outputs/superseded/**/gated_out.jsonl
+experiments/02_claims_meta/outputs/superseded/**/gate_sample_batch_*.jsonl
+experiments/02_claims_meta/outputs/**/*.eligible_abstracts.jsonl
+experiments/02_claims_meta/outputs/**/*.eligible_records.jsonl
+experiments/02_claims_meta/outputs/**/*.repeat_sample.jsonl
+experiments/02_claims_meta/outputs/known_items/known_items_abstracts*.jsonl
+experiments/02_claims_meta/outputs/negative_controls/negative_control_abstracts.jsonl
+experiments/02_claims_meta/prompts/dev_abstracts.jsonl
+experiments/02_claims_meta/prompts/dev_fulltext.jsonl
+
+# Pinned source texts of the quotation records (the claims/ YAML files stay tracked)
+experiments/02_claims_meta/outputs/citations*/**/sources/
+
+# Full-text passages, coder inputs and bodies of the manual coding
+experiments/02_claims_meta/outputs/manual_coding/*/passages/*.json
+experiments/02_claims_meta/outputs/manual_coding/*/passages_row_hash_check/*.json
+experiments/02_claims_meta/outputs/manual_coding/*/superseded_passages_*/*.json
+!experiments/02_claims_meta/outputs/manual_coding/**/passages_summary.json
+experiments/02_claims_meta/outputs/manual_coding/*/coders/coder_*/input/
+experiments/02_claims_meta/outputs/manual_coding/*/superseded_coders_*/coder_*/input/
+experiments/02_claims_meta/outputs/manual_coding/*/fulltext/*.jsonl
+!experiments/02_claims_meta/outputs/manual_coding/*/fulltext/fetch_status.jsonl
+experiments/02_claims_meta/outputs/manual_coding/*/missed_identifier_screen_attempt*/coder_*.json
+
+# Stored API pages used as fixtures and probes; cached Crossref and DataCite bodies
+experiments/02_claims_meta/tests/fixtures/search/epmc_page.json
+experiments/02_claims_meta/tests/fixtures/search/openalex_page.json
+experiments/02_claims_meta/tests/fixtures/search/pubmed_efetch.xml
+docs/stage0_build/epmc_ppr_shape_pre2019.json
+experiments/02_claims_meta/.audit-cache/
+side_checks/luna_prompt_tuning_2026-10/work/disputed_part2.txt
+
+# Files that record a home path; working notes
+experiments/02_claims_meta/outputs/parsed/sol_extraction_search_0b97103cd7a4.parallel_run.json
+experiments/02_claims_meta/outputs/parsed/sol_extraction_chase1_0b97103cd7a4.parallel_run.json
+experiments/02_claims_meta/outputs/parsed/sol_extraction_chase2_0b97103cd7a4.parallel_run.json
+experiments/02_claims_meta/outputs/parsed/sol_extraction_chase3_0b97103cd7a4.parallel_run.json
+docs/run/usage_s1b_chase1_eligibility_2026-10-06.json
+experiments/02_claims_meta/outputs/resource_counts/dataset_pairings_before_compositions_2026-09-30.json
+experiments/*/OPEN_QUESTIONS.md
+CLAUDE.md
+
+
+# Bibliographic index whose author field holds four e-mail addresses
+experiments/02_claims_meta/outputs/screening/chase_round_1/search_records.jsonl
+
+# Working folders that are never tracked
+notes/
+reading/
+reviews/
