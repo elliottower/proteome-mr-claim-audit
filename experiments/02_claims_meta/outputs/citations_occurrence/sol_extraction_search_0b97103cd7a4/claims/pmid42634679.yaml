@@ -1,0 +1,16 @@
+source:
+  citation: pmid42634679
+  local: sources/pmid42634679.txt
+  sha256: 17d5b7b79ddc6f8fb1609e1b7dbd19ef1138bf8954e128a27405edbf93f59b57
+  url: https://pubmed.ncbi.nlm.nih.gov/42634679/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: Integrative MR analyses indicated that genetically predicted higher BLMH expression and plasma
+        protein levels were significantly associated with reduced psoriasis risk, with colocalization
+        analysis supporting shared causal variants at the BLMH locus.
+  c001:
+    quotes:
+    - exact: Single-cell transcriptomics further demonstrated keratinocyte-enriched expression of BLMH
+        and marked downregulation in psoriatic lesional skin.

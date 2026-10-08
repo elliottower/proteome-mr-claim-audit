@@ -1,0 +1,239 @@
+{
+ "extraction": {
+  "file": "sol_extraction_chase1_0b97103cd7a4.jsonl",
+  "sha256": "9abdf3d7aa20c1e45c5286444ef7c3e3dec139cb903c6bd42da9042c9b805c45"
+ },
+ "abstracts_sha256": "982bcfdbde81e6bbace2736766cb97830a6e578b2fc2fa18157b5205eb3cd94b",
+ "part_rows": 40,
+ "written_utc": "20261008T043841Z",
+ "citations_commit": "fb89bb6104be091585f87c8d1a35aa2fd2c44b74",
+ "repository": "https://github.com/elliottower/reproducible-science",
+ "command_per_part": [
+  "python",
+  "scripts/verify_spans_occurrence.py",
+  "--citations-commit",
+  "fb89bb6104be091585f87c8d1a35aa2fd2c44b74",
+  "--extraction",
+  "outputs/parsed/<part>.jsonl",
+  "--abstracts",
+  "outputs/parsed/<part>.abstracts.jsonl"
+ ],
+ "parts": [
+  {
+   "part": "sol_extraction_chase1_0b97103cd7a4.shard0000",
+   "rows_sha256": "e1f308152c45fd2ff6f004fe2d6adba2507ff26661e7306105aa8ad9456b58d6",
+   "abstracts_sha256": "ac939425a42cbb4153efb968d4a5d4ea5181230c79d3fc7416b2043eba9be051",
+   "files": {
+    "citations_verify.txt": {
+     "bytes": 195,
+     "sha256": "f08373b1767563d31f16139b4312c884e417291dd9bbaf5467ee204f4474ddda"
+    },
+    "claims_tree.tar": {
+     "bytes": 358400,
+     "sha256": "97be78ee0cc9ecf8f7148b6215c734b302bb0f1933a5a90d3acc297d58076de5"
+    },
+    "span_occurrences.json": {
+     "bytes": 620,
+     "sha256": "bb6ebd17335920367b4567d40007fa693c327458f5c1ed84285d2d3c6b477c77"
+    },
+    "span_summary.json": {
+     "bytes": 836,
+     "sha256": "125ee6245447a430b5b0ada9bac303337588302946c5056bdc20aaa90612e3c4"
+    },
+    "spans.jsonl": {
+     "bytes": 107772,
+     "sha256": "5eda6910b1517d55a5a0550fe9c83b732368917ae503cb1c64e8ca9c20debcea"
+    }
+   },
+   "finished_utc": "20261008T043743Z"
+  },
+  {
+   "part": "sol_extraction_chase1_0b97103cd7a4.shard0001",
+   "rows_sha256": "3cbd2d37018bf7c1dc12502cef1cccf8f3959af11c66d1c31c41019b2ab1cbfd",
+   "abstracts_sha256": "b63cfebb66edacbad6bc841ad56d8d0db534255f393136e1625b3b9c47419395",
+   "files": {
+    "citations_verify.txt": {
+     "bytes": 195,
+     "sha256": "c93211099c8c9439287ad22487db9f35f8cd3ae85a602b3c21284df3f81dfeae"
+    },
+    "claims_tree.tar": {
+     "bytes": 348160,
+     "sha256": "a56f00e4ce03fc3700037652e8b3db3b1904acdc639dbfd77708ad88e057f8d8"
+    },
+    "span_occurrences.json": {
+     "bytes": 620,
+     "sha256": "bb6ebd17335920367b4567d40007fa693c327458f5c1ed84285d2d3c6b477c77"
+    },
+    "span_summary.json": {
+     "bytes": 382,
+     "sha256": "4d5e5f83ed0a99e6ca7bfb30daa0c61d12dcb5fbff57466f52966e7e4e562844"
+    },
+    "spans.jsonl": {
+     "bytes": 98146,
+     "sha256": "b8fab64d6dd3750a6bfbafd07ed8332de7b3829110dfd9aea2f80a0096c0a1e0"
+    }
+   },
+   "finished_utc": "20261008T043834Z"
+  },
+  {
+   "part": "sol_extraction_chase1_0b97103cd7a4.shard0002",
+   "rows_sha256": "6e71b80b298316ed4d9908d1d0fc83dbf564ce9b0dc3efa9d3b34edc3718cae7",
+   "abstracts_sha256": "64fcac655bf95453a2cbd4b8d3a38a3d308b23e16faec9a7b62ab5f19dcdfdc8",
+   "files": {
+    "citations_verify.txt": {
+     "bytes": 195,
+     "sha256": "126fa9dbe8102f7714895a2afb93e632fc9248fa44b1f886d9c8b40dc76c8027"
+    },
+    "claims_tree.tar": {
+     "bytes": 327680,
+     "sha256": "c7e70ca4bcfb2638c4f16896f83b4d39ae572bb849adad7344d1c4a336cc2f06"
+    },
+    "span_occurrences.json": {
+     "bytes": 620,
+     "sha256": "bb6ebd17335920367b4567d40007fa693c327458f5c1ed84285d2d3c6b477c77"
+    },
+    "span_summary.json": {
+     "bytes": 382,
+     "sha256": "8494d1922b0edadc1a68d661b2ca2183bb016859b6dbf8e5af1febdf777ce863"
+    },
+    "spans.jsonl": {
+     "bytes": 74517,
+     "sha256": "7c7a580280641554b63811c38522fba4d1e20c56c1757e71190982cf9bb88a2a"
+    }
+   },
+   "finished_utc": "20261008T043753Z"
+  },
+  {
+   "part": "sol_extraction_chase1_0b97103cd7a4.shard0003",
+   "rows_sha256": "8e1bb083c6a1b7126511f3a0b8da4cc5b509d1859ee36d2e0f6e701e7fdeca3a",
+   "abstracts_sha256": "4e1c8f99c33d4ef13089343e2ab98758260a16d939844c49cd925c52b4fa070e",
+   "files": {
+    "citations_verify.txt": {
+     "bytes": 195,
+     "sha256": "c224bafb3e82023a85259bdf9179b4e3842c965f4915941e0111901810ba372e"
+    },
+    "claims_tree.tar": {
+     "bytes": 337920,
+     "sha256": "3fecf89ea87c47fb0f6820ce9532401f6bd9d939cf8ad4e8206f84b8c0bf7f62"
+    },
+    "span_occurrences.json": {
+     "bytes": 620,
+     "sha256": "bb6ebd17335920367b4567d40007fa693c327458f5c1ed84285d2d3c6b477c77"
+    },
+    "span_summary.json": {
+     "bytes": 382,
+     "sha256": "ca5b3280860f7ff083a112df4d0f249f80452b74b49ff9495c3f8d22566967a1"
+    },
+    "spans.jsonl": {
+     "bytes": 81606,
+     "sha256": "9420482b6ae2de1f0bc0a649fda0341b05ce3ca2c8c3d7a6f34f29127869a8ad"
+    }
+   },
+   "finished_utc": "20261008T043826Z"
+  },
+  {
+   "part": "sol_extraction_chase1_0b97103cd7a4.shard0004",
+   "rows_sha256": "9d7cc51a8397631b134912d1d97c3b10a84bb5f513c8db6b132bfb2e034479f8",
+   "abstracts_sha256": "28fcdcb76c79505eb7000692efc8181512fe1535cd0496d894613b9750235ffe",
+   "files": {
+    "citations_verify.txt": {
+     "bytes": 195,
+     "sha256": "fe9d6e2340c2e3ed872a3bd53c7dce5501cde460220ca7ffe2ccc589309c70b7"
+    },
+    "claims_tree.tar": {
+     "bytes": 235520,
+     "sha256": "fdd2a8f422c71882509b1215e6992846ccd8766b2a742c4e80472ffccb7eb326"
+    },
+    "span_occurrences.json": {
+     "bytes": 620,
+     "sha256": "bb6ebd17335920367b4567d40007fa693c327458f5c1ed84285d2d3c6b477c77"
+    },
+    "span_summary.json": {
+     "bytes": 382,
+     "sha256": "ab2b86006e3c492cb3fd04d51b6b005e4af815e2440397798d3a595506cc3298"
+    },
+    "spans.jsonl": {
+     "bytes": 58918,
+     "sha256": "51094e27e6a5addf10e07ca7509534d5d1be5953f6641dd05c11795721c1b511"
+    }
+   },
+   "finished_utc": "20261008T043803Z"
+  }
+ ],
+ "joined": {
+  "citations_verify.txt": {
+   "bytes": 185,
+   "sha256": "eef39dfdae625fac684a322ee2dbebdf7ec00f8d25279b955fc7e11bb9630948"
+  },
+  "claims_tree.tar": {
+   "bytes": 1576960,
+   "sha256": "47963bbee41dc682f96f7a830c812957d31b7701bef6f2e0a272e18aaf2b8ada"
+  },
+  "span_occurrences.json": {
+   "bytes": 620,
+   "sha256": "bb6ebd17335920367b4567d40007fa693c327458f5c1ed84285d2d3c6b477c77"
+  },
+  "span_summary.json": {
+   "bytes": 826,
+   "sha256": "37898767d5bc1a140da9f7bc894586d284734c0701de818a5b2e8ba65c9e939f"
+  },
+  "spans.jsonl": {
+   "bytes": 420959,
+   "sha256": "f0a4c470b5e483ef2755fc01852460b0a54433749a8cf134380f8a2c413322ed"
+  }
+ },
+ "environment": {
+  "python": "3.12.10",
+  "platform": "Linux-4.19.0-gvisor-x86_64-with-glibc2.36",
+  "image": "modal debian_slim, python 3.12",
+  "citations": {
+   "version": "0.5.1",
+   "direct_url": {
+    "subdirectory": "packages/citations",
+    "url": "https://github.com/elliottower/reproducible-science",
+    "vcs_info": {
+     "commit_id": "fb89bb6104be091585f87c8d1a35aa2fd2c44b74",
+     "requested_revision": "fb89bb6104be091585f87c8d1a35aa2fd2c44b74",
+     "vcs": "git"
+    }
+   }
+  },
+  "packages": {
+   "aiohappyeyeballs": "2.6.1",
+   "aiohttp": "3.12.7",
+   "aiosignal": "1.3.2",
+   "annotated-types": "0.8.0",
+   "attrs": "25.3.0",
+   "cbor2": "5.7.0",
+   "certifi": "2025.4.26",
+   "citations": "0.5.1",
+   "frozenlist": "1.6.0",
+   "grpclib": "0.4.8",
+   "h2": "4.2.0",
+   "hpack": "4.1.0",
+   "hyperframe": "6.1.0",
+   "idna": "3.10",
+   "multidict": "6.4.4",
+   "pip": "25.1.1",
+   "platformdirs": "4.12.3",
+   "propcache": "0.3.1",
+   "protobuf": "6.31.1",
+   "provenance-core": "0.5.1",
+   "pydantic": "2.13.5",
+   "pydantic_core": "2.46.5",
+   "PyYAML": "6.0.3",
+   "typing-inspection": "0.4.4",
+   "typing_extensions": "4.13.2",
+   "uv": "0.7.19",
+   "wheel": "0.45.1",
+   "yarl": "1.20.0"
+  },
+  "modal": "1.4.3",
+  "scripts_sha256": {
+   "scripts/verify_spans_occurrence.py": "bd99dda3e18fa9747731d9ec2f09479267a62cbf86ea111df640bf470f15a8d3",
+   "scripts/span_shards.py": "cc010308136078f54977121fdcea530f7d1c4dd1baac37fded8ff5d1bddbac56",
+   "scripts/modal_verify_spans_occurrence.py": "c3f1b8808cdc6f4d4a1ab5cc47d76f88a99913bd737b0ab7925a3966e391087b"
+  }
+ },
+ "volume_folder": "/vol/02_claims_meta/amendment02/span_step/sol_extraction_chase1_0b97103cd7a4"
+}

@@ -1,0 +1,17 @@
+source:
+  citation: pmid40533710
+  local: sources/pmid40533710.txt
+  sha256: 3f92d340a06f979d5cc2cf46802942a04b47d7faaeed9b1c4f014de94fd2faac
+  url: https://pubmed.ncbi.nlm.nih.gov/40533710/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: 'The MR study revealed five plasma proteins as protective factors and nine as risk factors
+        for PCa (PFDR < 0.05). Subsequent analyses identified SCP2 (OR: 2.10, 95% CI:1.45-3.03, PFDR =
+        0.027) and C5 (OR: 1.23, 95% CI:1.10-1.37, PFDR = 0.037) as promising drug targets.'
+  c001:
+    quotes:
+    - exact: 'The MR study revealed five plasma proteins as protective factors and nine as risk factors
+        for PCa (PFDR < 0.05). Subsequent analyses identified SCP2 (OR: 2.10, 95% CI:1.45-3.03, PFDR =
+        0.027) and C5 (OR: 1.23, 95% CI:1.10-1.37, PFDR = 0.037) as promising drug targets.'

@@ -1,0 +1,22 @@
+source:
+  citation: pmid41694337
+  local: sources/pmid41694337.txt
+  sha256: e2c9b4b343f0b6c4d0edb445e23053b6dae651e434093e763ce3f0059a3a28d4
+  url: https://pubmed.ncbi.nlm.nih.gov/41694337/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: MR revealed a positive association between TGF-β1 and OA risk (OR = 1.0526, P = 0.0182).
+  c001:
+    quotes:
+    - exact: Functionally, ART significantly enhanced chondrocyte proliferation, whereas TGF-β1 inhibited
+        it.
+  c002:
+    quotes:
+    - exact: ART downregulated IL-1β and MMP13 expression, while TGF-β1 upregulated them, indicating opposing
+        effects in OA chondrocytes.
+  c003:
+    quotes:
+    - exact: ART downregulated IL-1β and MMP13 expression, while TGF-β1 upregulated them, indicating opposing
+        effects in OA chondrocytes.

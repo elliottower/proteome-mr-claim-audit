@@ -1,0 +1,15 @@
+source:
+  citation: pmid39241967
+  local: sources/pmid39241967.txt
+  sha256: 25ab4663fda53c26437ca4df24217c98a73e8812a535e7b9f671f18451c8edc1
+  url: https://pubmed.ncbi.nlm.nih.gov/39241967/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: Of these, we identified genetically predicted increasing MERTK concentration was associated
+        with increased risk of infection mortality.
+  c001:
+    quotes:
+    - exact: MR supported a causal association between increasing plasma MERTK protein and infection mortality
+        (odds ratio 1.46 per unit; 95% CI 1.15- 1.85; p = 0.002).

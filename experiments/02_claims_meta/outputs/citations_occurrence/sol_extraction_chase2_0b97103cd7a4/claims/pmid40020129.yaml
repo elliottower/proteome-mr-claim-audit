@@ -1,0 +1,22 @@
+source:
+  citation: pmid40020129
+  local: sources/pmid40020129.txt
+  sha256: 9c6ba15615ac1c146f9867c476e8c8e2949e2e4fe1273feaa3509ba61d5da65e
+  url: https://pubmed.ncbi.nlm.nih.gov/40020129/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: 'Meta-analysis revealed that increased CCL4 (C-C motif chemokine 4) levels were associated
+        with a higher risk of PCOS (odds ratio [OR] = 1.123, 95% confidence interval [CI]: 1.056-1.195;
+        P < .001).'
+  c001:
+    quotes:
+    - exact: 'Decreased PCOS risk was linked to CXCL11 (C-X-C motif chemokine 11, OR = 0.930, 95% CI:
+        0.890-0.970; IVW-false discovery rate [FDR] P = 4.85 × 10-4) and CD6 (T-cell surface glycoprotein
+        CD6 isoform, OR = 0.730, 95% CI: 0.890-0.970; IVW-FDR P = .008).'
+  c002:
+    quotes:
+    - exact: 'Decreased PCOS risk was linked to CXCL11 (C-X-C motif chemokine 11, OR = 0.930, 95% CI:
+        0.890-0.970; IVW-false discovery rate [FDR] P = 4.85 × 10-4) and CD6 (T-cell surface glycoprotein
+        CD6 isoform, OR = 0.730, 95% CI: 0.890-0.970; IVW-FDR P = .008).'

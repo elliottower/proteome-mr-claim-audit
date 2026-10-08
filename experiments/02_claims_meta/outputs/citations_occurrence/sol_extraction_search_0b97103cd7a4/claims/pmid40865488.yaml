@@ -1,0 +1,12 @@
+source:
+  citation: pmid40865488
+  local: sources/pmid40865488.txt
+  sha256: 1d49adede5d4b47db79a2cddf5a8303be04f69127ab7b64babf25f9713a54f62
+  url: https://pubmed.ncbi.nlm.nih.gov/40865488/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: 'Particularly, the GLB1(cg05120113) was causal associated with HS risk in DNA methylation
+        (OR=1.0972, 95 % CI: 1.0532-1.1430, FDR=0.0163), gene expression (OR=1.2923, 95 % CI: 1.1816-1.4135,
+        FDR<0.001) and protein abundance (OR=1.5430, 95 % CI: 1.3296-1.7905, FDR<0.001).'

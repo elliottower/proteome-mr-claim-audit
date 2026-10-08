@@ -1,0 +1,21 @@
+source:
+  citation: pmid39194222
+  local: sources/pmid39194222.txt
+  sha256: 0eab05978c1381352019d487c709f3e787165b7a36f64ae1fdfa9cbd05248b61
+  url: https://pubmed.ncbi.nlm.nih.gov/39194222/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: After P value adjustment (0.05/1306), ICAM5 emerged with a positive correlation to sepsis
+        susceptibility ( P value = 2.14E-05, OR = 1.10, 95% CI = 1.05-1.15), with this significance preserved
+        across three sepsis subgroup examined.
+  c001:
+    quotes:
+    - exact: After P value adjustment (0.05/1306), ICAM5 emerged with a positive correlation to sepsis
+        susceptibility ( P value = 2.14E-05, OR = 1.10, 95% CI = 1.05-1.15), with this significance preserved
+        across three sepsis subgroup examined.
+  c002:
+    quotes:
+    - exact: Mediated Mendelian randomization revealed ICAM5 mediated 11.9% of 1,2,3-benzenetriol sulfate
+        (2)'s total effect on sepsis progression.

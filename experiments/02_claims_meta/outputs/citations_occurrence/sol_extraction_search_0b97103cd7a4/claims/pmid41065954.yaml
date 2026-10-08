@@ -1,0 +1,12 @@
+source:
+  citation: pmid41065954
+  local: sources/pmid41065954.txt
+  sha256: 76916e3d708d5f400b9b2ec425c512e149c021f8a3c6c811e770902c634c01a6
+  url: https://pubmed.ncbi.nlm.nih.gov/41065954/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: 'Mediation analysis revealed that the protective effect of Terrisporobacter othiniensis on
+        OP is partially mediated by the ferroptosis regulator MDM4 (indirect effect β = -0.020, 95% CI:
+        -0.068 to 0.029), accounting for 6.8% of the total effect.'

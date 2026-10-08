@@ -1,0 +1,23 @@
+source:
+  citation: pmid37942318
+  local: sources/pmid37942318.txt
+  sha256: d6b0b5c5503812507bd541a66686e76dae6ea4e9737e716ac725eb5ac99899f2
+  url: https://pubmed.ncbi.nlm.nih.gov/37942318/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: After applying Bonferroni correction, a higher circulating level of Interleukin-7 (IL-7)
+        was suggestively associated with TL maintaining (OR:1.01, 95%CI:1.00-1.02, P=0.032 by IVW method).
+  c001:
+    quotes:
+    - exact: The study also revealed suggestive evidence indicating the involvement of Interleukin-2 receptor,
+        alpha subunit (IL-2Rα) level was negatively associated with TL maintaining (OR:0.98, 95%CI:0.96-1.00,
+        P=0.045 by IVW method), and the weighted median approach was consistent (OR:0.99, 95%CI:0.97-1.00,
+        P=0.035).
+  c002:
+    quotes:
+    - exact: The study also revealed suggestive evidence indicating the involvement of Interleukin-2 receptor,
+        alpha subunit (IL-2Rα) level was negatively associated with TL maintaining (OR:0.98, 95%CI:0.96-1.00,
+        P=0.045 by IVW method), and the weighted median approach was consistent (OR:0.99, 95%CI:0.97-1.00,
+        P=0.035).

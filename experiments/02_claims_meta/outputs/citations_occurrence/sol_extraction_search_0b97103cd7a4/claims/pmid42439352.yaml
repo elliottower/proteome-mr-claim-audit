@@ -1,0 +1,21 @@
+source:
+  citation: pmid42439352
+  local: sources/pmid42439352.txt
+  sha256: 321417aec4b853f661a19faed3f7de19c874c96ce2029b57ea65ec95df06e043
+  url: https://pubmed.ncbi.nlm.nih.gov/42439352/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: These findings indicate that genetically elevated ITIH4 levels are associated with OA risk
+        and with increased senescence signatures in chondrocytes, suggesting a potential association between
+        ITIH4 and cartilage degeneration.
+  c001:
+    quotes:
+    - exact: ITIH4 expression was enriched in prehypertrophic chondrocytes and fibrochondrocytes, and
+        its high-expression cell clusters exhibited significantly elevated senescence activity.
+  c002:
+    quotes:
+    - exact: These findings indicate that genetically elevated ITIH4 levels are associated with OA risk
+        and with increased senescence signatures in chondrocytes, suggesting a potential association between
+        ITIH4 and cartilage degeneration.

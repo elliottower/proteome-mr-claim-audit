@@ -1,0 +1,33 @@
+source:
+  citation: pmid41221640
+  local: sources/pmid41221640.txt
+  sha256: 068c1b8b422a5da797bf43723b7fc37eef71f15f835f290f78ec88638409cc91
+  url: https://pubmed.ncbi.nlm.nih.gov/41221640/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: 'We identified 123 incident SAH cases; the mean follow-up was 7.06 years (SD, 3.53), the
+        mean age was 59.28 (SD, 7.13), and 62% were females. SLAMF1 (signaling lymphocytic activation
+        molecule family member 1) and NINJ1 (Ninjurin 1) were significantly associated (SLAMF1: HR per
+        SD increase, 2.18 [95% CI, 1.49-3.18]; adjusted P<0.001; for NINJ1: HR, 1.85 [95% CI, 1.43-2.40];
+        adjusted P=0.004).'
+  c001:
+    quotes:
+    - exact: 'We identified 123 incident SAH cases; the mean follow-up was 7.06 years (SD, 3.53), the
+        mean age was 59.28 (SD, 7.13), and 62% were females. SLAMF1 (signaling lymphocytic activation
+        molecule family member 1) and NINJ1 (Ninjurin 1) were significantly associated (SLAMF1: HR per
+        SD increase, 2.18 [95% CI, 1.49-3.18]; adjusted P<0.001; for NINJ1: HR, 1.85 [95% CI, 1.43-2.40];
+        adjusted P=0.004).'
+  c002:
+    quotes:
+    - exact: Mendelian randomization confirmed the association for SLAMF1 (Inverse Variance Weighted approach
+        OR, 1.73 [95% CI, 1.26-2.38]), with directionality supported through reverse Mendelian randomization
+        (P>0.05). Single-cell transcriptomic analysis demonstrated high SLAMF1 expression in CD4-CTM,
+        CD4-activated, and CD4-naive cells, indicating a possible immunologic role in SAH pathophysiology.
+  c003:
+    quotes:
+    - exact: Mendelian randomization confirmed the association for SLAMF1 (Inverse Variance Weighted approach
+        OR, 1.73 [95% CI, 1.26-2.38]), with directionality supported through reverse Mendelian randomization
+        (P>0.05). Single-cell transcriptomic analysis demonstrated high SLAMF1 expression in CD4-CTM,
+        CD4-activated, and CD4-naive cells, indicating a possible immunologic role in SAH pathophysiology.

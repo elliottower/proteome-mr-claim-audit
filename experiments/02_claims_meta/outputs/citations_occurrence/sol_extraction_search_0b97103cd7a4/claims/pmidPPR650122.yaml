@@ -1,0 +1,16 @@
+source:
+  citation: pmidPPR650122
+  local: sources/pmidPPR650122.txt
+  sha256: 8301637a3a07c95c1d9df54d960c12b3e0b508eb5c330d00dd2c7e4e3cc2b378
+  url: https://europepmc.org/article/PPR/PPR650122
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: 'COL6A3 was strongly increased by body mass index (BMI) ( β = 0.32, 95% CI: 0.26–0.38, P
+        = 3.7 × 10 -8 per s.d. increase in BMI) and increased the risk of CAD (OR = 1.47, 95% CI:1.26–1.70,
+        P = 4.5 × 10 -7 per s.d. increase in COL6A3).'
+  c001:
+    quotes:
+    - exact: Notably, COL6A3 is cleaved at its C-terminus to produce endotrophin, which was found to mediate
+        this effect on CAD.

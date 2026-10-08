@@ -1,0 +1,25 @@
+{
+ "extraction": "outputs/parsed/sol_extraction_chase1_0b97103cd7a4.jsonl",
+ "n_claims": 981,
+ "registered_check_pass": 980,
+ "citations_pin_found": 980,
+ "citations_found_only_after_punctuation_folding": 0,
+ "citations_normalized_warning": 0,
+ "both_pass": 980,
+ "span_verification_rate": 0.9989806320081549,
+ "spans_over_two_sentences": 0,
+ "citations_verify_exit": 0,
+ "failing": [
+  {
+   "pmid": "34465608",
+   "claim_index": 8,
+   "claim_id": "c008",
+   "evidence_span": "We found genetic evidence for a causal role for one protein, lectin mannose-binding 2 protein (LMAN2). Large-scale proteomic analysis identified both known and novel proteomic risk factors for eGFR decline.",
+   "registered_check": false,
+   "citations_pin": "not found",
+   "citations_warnings": [],
+   "n_sentences": 2,
+   "passes": false
+  }
+ ]
+}

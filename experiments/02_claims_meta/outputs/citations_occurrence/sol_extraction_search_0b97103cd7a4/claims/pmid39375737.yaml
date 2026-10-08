@@ -1,0 +1,15 @@
+source:
+  citation: pmid39375737
+  local: sources/pmid39375737.txt
+  sha256: 4fefb10876da3a72b22692423d6904bbe4bc85b79f81d8aa8e208936a76e7941
+  url: https://pubmed.ncbi.nlm.nih.gov/39375737/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: The MR analysis bolstered by robust evidence of colocalization, indicated a significant positive
+        association between Prothrombin and increased IPF risk (OR = 3.26,95%CI 1.75-6.07).
+  c001:
+    quotes:
+    - exact: Conversely, Bone Sialoprotein (IBSP) demonstrated an inverse association with IPF susceptibility
+        (OR = 0.27,95%CI 0.14-0.55).

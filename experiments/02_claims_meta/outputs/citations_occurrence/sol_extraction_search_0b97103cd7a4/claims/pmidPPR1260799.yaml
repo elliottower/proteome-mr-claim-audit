@@ -1,0 +1,22 @@
+source:
+  citation: pmidPPR1260799
+  local: sources/pmidPPR1260799.txt
+  sha256: 9782db653c9f75fd4322a1ba2067b2ddebbc83005c904f7429b6cfb5120cdd62
+  url: https://europepmc.org/article/PPR/PPR1260799
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: 'By integrating MR and transcriptomic results, three downregulated candidate genes were identified
+        in SB cases: NPC2 (OR = 0.753, 95% CI: 0.646–0.879), PCDH12 (OR = 0.636, 95% CI: 0.507–0.798),
+        and IL10RB (OR = 0.665, 95% CI: 0.549–0.805).'
+  c001:
+    quotes:
+    - exact: 'By integrating MR and transcriptomic results, three downregulated candidate genes were identified
+        in SB cases: NPC2 (OR = 0.753, 95% CI: 0.646–0.879), PCDH12 (OR = 0.636, 95% CI: 0.507–0.798),
+        and IL10RB (OR = 0.665, 95% CI: 0.549–0.805).'
+  c002:
+    quotes:
+    - exact: 'By integrating MR and transcriptomic results, three downregulated candidate genes were identified
+        in SB cases: NPC2 (OR = 0.753, 95% CI: 0.646–0.879), PCDH12 (OR = 0.636, 95% CI: 0.507–0.798),
+        and IL10RB (OR = 0.665, 95% CI: 0.549–0.805).'

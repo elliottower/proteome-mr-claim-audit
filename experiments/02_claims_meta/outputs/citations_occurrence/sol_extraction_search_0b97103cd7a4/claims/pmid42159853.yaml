@@ -1,0 +1,12 @@
+source:
+  citation: pmid42159853
+  local: sources/pmid42159853.txt
+  sha256: b81e8b632be625b5708c695949acbdead825c7f201ab800875ea788d6ff882be
+  url: https://pubmed.ncbi.nlm.nih.gov/42159853/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: 'Genetically proxied ticagrelor was significantly associated with a reduced risk of diabetes
+        (OR = 0.859, 95% CI: 0.783-0.934, P = 7.98E-05), and 24.41% of this effect was mediated by upregulation
+        of BDH2 protein.'

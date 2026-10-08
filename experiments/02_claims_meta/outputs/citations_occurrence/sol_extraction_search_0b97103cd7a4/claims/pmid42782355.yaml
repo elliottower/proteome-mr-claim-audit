@@ -1,0 +1,17 @@
+source:
+  citation: pmid42782355
+  local: sources/pmid42782355.txt
+  sha256: 9a8fff1c22b71833cd637138f5539846a7d12b7c34f6530e6e871a7c44942de4
+  url: https://pubmed.ncbi.nlm.nih.gov/42782355/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: 'The strongest risk and protective associations were NECTIN2 with Alzheimer''s dementia (odds
+        ratio [OR] = 2.650, 95% confidence interval [CI]: 1.875-3.744, FDR-adjusted P = 1.58 × 10- 5)
+        and ATXN2L with dementia (OR = 0.408, 95% CI: 0.255-0.654, FDR-adjusted P = 0.0370), respectively.'
+  c001:
+    quotes:
+    - exact: 'The strongest risk and protective associations were NECTIN2 with Alzheimer''s dementia (odds
+        ratio [OR] = 2.650, 95% confidence interval [CI]: 1.875-3.744, FDR-adjusted P = 1.58 × 10- 5)
+        and ATXN2L with dementia (OR = 0.408, 95% CI: 0.255-0.654, FDR-adjusted P = 0.0370), respectively.'

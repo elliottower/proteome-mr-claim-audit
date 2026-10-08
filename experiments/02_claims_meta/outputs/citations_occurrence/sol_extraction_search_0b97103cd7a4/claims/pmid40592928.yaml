@@ -1,0 +1,20 @@
+source:
+  citation: pmid40592928
+  local: sources/pmid40592928.txt
+  sha256: 9bef7ec7b4598c5af991c25be9b70cfca33001c6ed349a59cf9cc9ffd963530a
+  url: https://pubmed.ncbi.nlm.nih.gov/40592928/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: SMR and colocalization screening identified 90 mQTLs, 15 eQTLs, and 2 pQTLs (KRT18 and FOXO1)
+        linked to IPF in the discovery cohort.
+  c001:
+    quotes:
+    - exact: SMR and colocalization screening identified 90 mQTLs, 15 eQTLs, and 2 pQTLs (KRT18 and FOXO1)
+        linked to IPF in the discovery cohort.
+  c002:
+    quotes:
+    - exact: Multi-omics integration validated NDUFA9 (mQTL-eQTL) level and FOXO1 (mQTL-eQTL-pQTL). Our
+        study identified key oxidative stress-related genes (i.e., FOXO1 and NDUFA9) in IPF pathogenesis,
+        highlighting the need for further research to inform prevention and treatment.

@@ -1,0 +1,25 @@
+source:
+  citation: pmid38679119
+  local: sources/pmid38679119.txt
+  sha256: de04bcbaf0f9002edd22a8986e9f4450ee883d382a534becfcb1f6e632541db0
+  url: https://pubmed.ncbi.nlm.nih.gov/38679119/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: SGLT2 inhibition (per 1 SD decrement in HbA1c) was associated with reduced risk of MI (odds
+        ratio [OR] = 0.462, [95% CI 0.222, 0.958], P = 0.038).
+  c001:
+    quotes:
+    - exact: Mediation analysis showed evidence of the indirect effect of SGLT2 inhibition on MI through
+        APOB (β = -0.557, 95%CI [-1.098, -0.155]) with a mediated proportion of 72%, and CCL17 (β = -0.176,
+        95%CI [-0.332, -0.056]) with a mediated proportion of 17%.
+  c002:
+    quotes:
+    - exact: Mediation analysis showed evidence of the indirect effect of SGLT2 inhibition on MI through
+        APOB (β = -0.557, 95%CI [-1.098, -0.155]) with a mediated proportion of 72%, and CCL17 (β = -0.176,
+        95%CI [-0.332, -0.056]) with a mediated proportion of 17%.
+  c003:
+    quotes:
+    - exact: The meta-analysis result showed that SGLT2 inhibition was associated with a lower risk of
+        CHD.

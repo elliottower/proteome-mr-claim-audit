@@ -1,0 +1,27 @@
+source:
+  citation: pmid36384659
+  local: sources/pmid36384659.txt
+  sha256: 1099298d40ee11fa2e8a13a335787e49941f4bf7e06c5c250650f5ace6dfcf17
+  url: https://pubmed.ncbi.nlm.nih.gov/36384659/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: Particularly, circulating monokine induced by gamma interferon (MIG) level was suggestively
+        associated with a higher risk of AD (odds ratio from inverse variance weighted [ORIVW] 1.23; 95%
+        CI 1.06-1.42; p IVW = 0.007) and lower risk of Crohn disease (ORIVW 0.73; 95% CI -0.62 to 0.86;
+        p IVW = 1.3 × 10-4).
+  c001:
+    quotes:
+    - exact: Particularly, circulating monokine induced by gamma interferon (MIG) level was suggestively
+        associated with a higher risk of AD (odds ratio from inverse variance weighted [ORIVW] 1.23; 95%
+        CI 1.06-1.42; p IVW = 0.007) and lower risk of Crohn disease (ORIVW 0.73; 95% CI -0.62 to 0.86;
+        p IVW = 1.3 × 10-4).
+  c002:
+    quotes:
+    - exact: Colocalization supported a common causal single nucleotide polymorphism for MIG and Crohn
+        disease (posterior probability = 0.74), but not AD (posterior probability = 0.03).
+  c003:
+    quotes:
+    - exact: Colocalization supported a common causal single nucleotide polymorphism for MIG and Crohn
+        disease (posterior probability = 0.74), but not AD (posterior probability = 0.03).

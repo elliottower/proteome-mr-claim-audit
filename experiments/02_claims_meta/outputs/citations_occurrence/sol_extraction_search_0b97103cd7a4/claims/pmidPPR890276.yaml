@@ -1,0 +1,21 @@
+source:
+  citation: pmidPPR890276
+  local: sources/pmidPPR890276.txt
+  sha256: 16bada05ee279154a0639bc3aff332e5816f6fe035fc852e4ec522a46578236f
+  url: https://europepmc.org/article/PPR/PPR890276
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: 'MR evidence was strongest for the effect of dermatopontin on MM risk (deCODE) OR: 1.49 per
+        SD higher protein levels, 95% CI 1.06–2.09; (UKB) OR: 1.47; 95% CI 1.14–1.90).'
+  c001:
+    quotes:
+    - exact: 'MR evidence was strongest for the effect of dermatopontin on MM risk (deCODE) OR: 1.49 per
+        SD higher protein levels, 95% CI 1.06–2.09; (UKB) OR: 1.47; 95% CI 1.14–1.90).'
+  c002:
+    quotes:
+    - exact: 'MR evidence was strongest for the effect of dermatopontin on MM risk (deCODE) OR: 1.49 per
+        SD higher protein levels, 95% CI 1.06–2.09; (UKB) OR: 1.47; 95% CI 1.14–1.90). Evidence from genetic
+        colocalization did not meet our threshold for a shared causal signal between this protein and
+        MM risk (h4 < 0.8).'

@@ -1,0 +1,26 @@
+source:
+  citation: pmid41498878
+  local: sources/pmid41498878.txt
+  sha256: 0464a14639ab7bb6e59c1f5c2463cefdb4f56f96349dbacdfa2e1d2f50a7e046
+  url: https://pubmed.ncbi.nlm.nih.gov/41498878/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: Among hundreds of proteins screened, only plasma SPOCK3 (SPARC/Osteonectin, Cwcv and Kazal-like
+        Domains Proteoglycan 3) showed a significant causal link to iRBD (OR = 2.07, 95% CI = 1.50-2.84,
+        P = 7.45 × 10⁻⁶).
+  c001:
+    quotes:
+    - exact: 'In the independent cohort, MR confirmed the association between SPOCK3 and iRBD risk (OR
+        = 1.39, 95% CI: 1.03-1.88, P = 0.029).'
+  c002:
+    quotes:
+    - exact: Steiger filtering supported the inferred causal direction (P < 0.05), and colocalization
+        analysis revealed a high posterior probability of a shared causal variant between SPOCK3 levels
+        and iRBD risk (PPH4 = 0.96).
+  c003:
+    quotes:
+    - exact: Steiger filtering supported the inferred causal direction (P < 0.05), and colocalization
+        analysis revealed a high posterior probability of a shared causal variant between SPOCK3 levels
+        and iRBD risk (PPH4 = 0.96).

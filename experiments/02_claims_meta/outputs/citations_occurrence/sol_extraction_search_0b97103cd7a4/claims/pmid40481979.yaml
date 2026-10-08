@@ -1,0 +1,47 @@
+source:
+  citation: pmid40481979
+  local: sources/pmid40481979.txt
+  sha256: 234a85b8f429018fb3af882a7a4a06e47115ef61146e07d2f490347beaa804ea
+  url: https://pubmed.ncbi.nlm.nih.gov/40481979/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: FUT8 demonstrated a positive association with LUAD risk (OR = 1.02, p = 0.049), while ICAM5
+        (OR = 0.88, p = 0.002) and KLK13 (OR = 0.85, p = 0.021) exhibited negative associations.
+  c001:
+    quotes:
+    - exact: FUT8 demonstrated a positive association with LUAD risk (OR = 1.02, p = 0.049), while ICAM5
+        (OR = 0.88, p = 0.002) and KLK13 (OR = 0.85, p = 0.021) exhibited negative associations.
+  c002:
+    quotes:
+    - exact: FUT8 demonstrated a positive association with LUAD risk (OR = 1.02, p = 0.049), while ICAM5
+        (OR = 0.88, p = 0.002) and KLK13 (OR = 0.85, p = 0.021) exhibited negative associations.
+  c003:
+    quotes:
+    - exact: 'ICAM5 was further identified as an independent prognostic factor for patient survival (HR:
+        0.788, 95% CI: 0.663-0.936, p = 0.007) and revealed significant diagnostic and prognostic utility
+        in LUAD.'
+  c004:
+    quotes:
+    - exact: 'ICAM5 was further identified as an independent prognostic factor for patient survival (HR:
+        0.788, 95% CI: 0.663-0.936, p = 0.007) and revealed significant diagnostic and prognostic utility
+        in LUAD.'
+  c005:
+    quotes:
+    - exact: ICAM5 expression correlated with various immune infiltration patterns, suggesting potential
+        modulation of the tumor immune microenvironment.
+  c006:
+    quotes:
+    - exact: Single-cell analysis revealed that ICAM5 did not directly impact LUAD cell differentiation,
+        though its downstream target, MUC1, may contribute to differentiation processes, particularly
+        in KRAS-mutated LUAD.
+  c007:
+    quotes:
+    - exact: Single-cell analysis revealed that ICAM5 did not directly impact LUAD cell differentiation,
+        though its downstream target, MUC1, may contribute to differentiation processes, particularly
+        in KRAS-mutated LUAD.
+  c008:
+    quotes:
+    - exact: Furthermore, phenome-wide association studies did not reveal substantial evidence of adverse
+        phenotypes linked to ICAM5, supporting its safety profile for drug development.

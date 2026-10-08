@@ -1,0 +1,236 @@
+{
+ "written_utc": "2026-10-08T04:44:16+00:00",
+ "permitted": {
+  "path": "verification/span_step_permitted_differences.json",
+  "sha256": "be73648257dab63299de2655f4c77f2594c84020c642d5197e2184c048cc6e1a"
+ },
+ "inputs": {
+  "outputs/parsed/sol_eligibility_chase2_2811496ef424.decisions.eligible_abstracts.jsonl": "bd9bcc05ba70a7c7c2566c68eb0761e9bf25258ab96e776d1db621dbfc31c8da",
+  "outputs/parsed/sol_eligibility_gateall1_2811496ef424.decisions.eligible_abstracts.jsonl": "982bcfdbde81e6bbace2736766cb97830a6e578b2fc2fa18157b5205eb3cd94b",
+  "outputs/parsed/sol_eligibility_gateall3_2811496ef424.decisions.eligible_abstracts.jsonl": "e189e788b07cc07d32e3cc1364dc1ad82e83c14eee7230628beb935e7c4b5155",
+  "outputs/parsed/sol_eligibility_search_complete_2811496ef424.decisions.eligible_abstracts.jsonl": "9713449d1f7a585fe8006f0bd9d03d18467beb14d7948390445226d025200611",
+  "outputs/parsed/sol_extraction_chase1_0b97103cd7a4.jsonl": "9abdf3d7aa20c1e45c5286444ef7c3e3dec139cb903c6bd42da9042c9b805c45",
+  "outputs/parsed/sol_extraction_chase2_0b97103cd7a4.jsonl": "aaef43b06756a76e035495988e3f06580f56d52a71cd2b7e7536b513758d6653",
+  "outputs/parsed/sol_extraction_chase3_0b97103cd7a4.jsonl": "3e3bd2387aca719fefd65a8e211d044afffad5a9761364a939797f4671360a92",
+  "outputs/parsed/sol_extraction_search_0b97103cd7a4.jsonl": "ae0ecb5cb9be1e1441aa8c9779ddbbc4d0db6a0be52f07bcd38b0b822d07bf88"
+ },
+ "files": {
+  "search": {
+   "records": 12664,
+   "same_records": true,
+   "differing_records": [
+    "39974404:003",
+    "39974404:004",
+    "39974404:005",
+    "42548293:001",
+    "42548293:002",
+    "42548293:003",
+    "42548293:004",
+    "42548293:005",
+    "42548293:006",
+    "W3162895724:000",
+    "W3162895724:001",
+    "W3162895724:002",
+    "W3162895724:003",
+    "W3162895724:004",
+    "W3162895724:005",
+    "W3162895724:006",
+    "W3162895724:007",
+    "W3162895724:008",
+    "W3162895724:009",
+    "W3162895724:010",
+    "W3162895724:011",
+    "W3162895724:012",
+    "W3162895724:013",
+    "W3162895724:014",
+    "W3162895724:015",
+    "W3162895724:016",
+    "W3162895724:017"
+   ],
+   "diff_within_permitted": true,
+   "unaffected_files_equal": true,
+   "passing_unchanged": true,
+   "duplicated_now_pass": true,
+   "joined_still_fail": true,
+   "occurrence_only_there": true,
+   "passing_registered": 12601,
+   "passing_corrected": 12628,
+   "occurrence_counts": [
+    2
+   ],
+   "stored_abstract_has_duplicated_passage": [
+    "39974404",
+    "42548293",
+    "W3162895724"
+   ],
+   "holds": true,
+   "outputs": {
+    "registered": {
+     "path": "outputs/verification/sol_extraction_search_0b97103cd7a4/spans.jsonl",
+     "sha256": "c89fd128afb44de9c9a066f3db271c76a8bc92dbf168c45c0010dc2fa2908763"
+    },
+    "corrected": {
+     "path": "outputs/verification_occurrence/sol_extraction_search_0b97103cd7a4/spans.jsonl",
+     "sha256": "f4ccec5b6b826fa1d7749556f4905ac8fd718a7f3958199e9c01320c1e93f7c3"
+    }
+   },
+   "citations_installed": {
+    "version": "0.5.1",
+    "direct_url": {
+     "subdirectory": "packages/citations",
+     "url": "https://github.com/elliottower/reproducible-science",
+     "vcs_info": {
+      "commit_id": "fb89bb6104be091585f87c8d1a35aa2fd2c44b74",
+      "requested_revision": "fb89bb6104be091585f87c8d1a35aa2fd2c44b74",
+      "vcs": "git"
+     }
+    }
+   }
+  },
+  "chase1": {
+   "records": 981,
+   "same_records": true,
+   "differing_records": [],
+   "diff_within_permitted": true,
+   "unaffected_files_equal": true,
+   "passing_unchanged": true,
+   "duplicated_now_pass": true,
+   "joined_still_fail": true,
+   "occurrence_only_there": true,
+   "passing_registered": 980,
+   "passing_corrected": 980,
+   "occurrence_counts": [],
+   "stored_abstract_has_duplicated_passage": [],
+   "holds": true,
+   "outputs": {
+    "registered": {
+     "path": "outputs/verification/sol_extraction_chase1_0b97103cd7a4/spans.jsonl",
+     "sha256": "f0a4c470b5e483ef2755fc01852460b0a54433749a8cf134380f8a2c413322ed"
+    },
+    "corrected": {
+     "path": "outputs/verification_occurrence/sol_extraction_chase1_0b97103cd7a4/spans.jsonl",
+     "sha256": "f0a4c470b5e483ef2755fc01852460b0a54433749a8cf134380f8a2c413322ed"
+    }
+   },
+   "citations_installed": {
+    "version": "0.5.1",
+    "direct_url": {
+     "subdirectory": "packages/citations",
+     "url": "https://github.com/elliottower/reproducible-science",
+     "vcs_info": {
+      "commit_id": "fb89bb6104be091585f87c8d1a35aa2fd2c44b74",
+      "requested_revision": "fb89bb6104be091585f87c8d1a35aa2fd2c44b74",
+      "vcs": "git"
+     }
+    }
+   }
+  },
+  "chase2": {
+   "records": 326,
+   "same_records": true,
+   "differing_records": [],
+   "diff_within_permitted": true,
+   "unaffected_files_equal": true,
+   "passing_unchanged": true,
+   "duplicated_now_pass": true,
+   "joined_still_fail": true,
+   "occurrence_only_there": true,
+   "passing_registered": 326,
+   "passing_corrected": 326,
+   "occurrence_counts": [],
+   "stored_abstract_has_duplicated_passage": [],
+   "holds": true,
+   "outputs": {
+    "registered": {
+     "path": "outputs/verification/sol_extraction_chase2_0b97103cd7a4/spans.jsonl",
+     "sha256": "c6f79ac759d10ce8b0d80adc7ef3824683d497f217db6701e1d847748c63d6fc"
+    },
+    "corrected": {
+     "path": "outputs/verification_occurrence/sol_extraction_chase2_0b97103cd7a4/spans.jsonl",
+     "sha256": "c6f79ac759d10ce8b0d80adc7ef3824683d497f217db6701e1d847748c63d6fc"
+    }
+   },
+   "citations_installed": {
+    "version": "0.5.1",
+    "direct_url": {
+     "subdirectory": "packages/citations",
+     "url": "https://github.com/elliottower/reproducible-science",
+     "vcs_info": {
+      "commit_id": "fb89bb6104be091585f87c8d1a35aa2fd2c44b74",
+      "requested_revision": "fb89bb6104be091585f87c8d1a35aa2fd2c44b74",
+      "vcs": "git"
+     }
+    }
+   }
+  },
+  "chase3": {
+   "records": 82,
+   "same_records": true,
+   "differing_records": [],
+   "diff_within_permitted": true,
+   "unaffected_files_equal": true,
+   "passing_unchanged": true,
+   "duplicated_now_pass": true,
+   "joined_still_fail": true,
+   "occurrence_only_there": true,
+   "passing_registered": 82,
+   "passing_corrected": 82,
+   "occurrence_counts": [],
+   "stored_abstract_has_duplicated_passage": [],
+   "holds": true,
+   "outputs": {
+    "registered": {
+     "path": "outputs/verification/sol_extraction_chase3_0b97103cd7a4/spans.jsonl",
+     "sha256": "e0cd7dc8f7d97dc1186ed4d13a0c30ec38959f63c4d79817eaa95c37182cb064"
+    },
+    "corrected": {
+     "path": "outputs/verification_occurrence/sol_extraction_chase3_0b97103cd7a4/spans.jsonl",
+     "sha256": "e0cd7dc8f7d97dc1186ed4d13a0c30ec38959f63c4d79817eaa95c37182cb064"
+    }
+   },
+   "citations_installed": {
+    "version": "0.5.1",
+    "direct_url": {
+     "subdirectory": "packages/citations",
+     "url": "https://github.com/elliottower/reproducible-science",
+     "vcs_info": {
+      "commit_id": "fb89bb6104be091585f87c8d1a35aa2fd2c44b74",
+      "requested_revision": "fb89bb6104be091585f87c8d1a35aa2fd2c44b74",
+      "vcs": "git"
+     }
+    }
+   }
+  }
+ },
+ "fold_parity": {
+  "texts": 16011,
+  "identical": true,
+  "differing_texts": 0,
+  "registered_build": {
+   "version": "0.5.0",
+   "direct_url": {
+    "url": "https://github.com/elliottower/reproducible-science",
+    "vcs_info": {
+     "vcs": "git",
+     "commit_id": "5519baf5ef9a7b120ee6984ad179dc91a43fa79d",
+     "requested_revision": "5519baf5ef9a7b120ee6984ad179dc91a43fa79d"
+    },
+    "subdirectory": "packages/citations"
+   }
+  },
+  "corrected_build": {
+   "version": "0.5.1",
+   "direct_url": {
+    "url": "https://github.com/elliottower/reproducible-science",
+    "vcs_info": {
+     "vcs": "git",
+     "commit_id": "fb89bb6104be091585f87c8d1a35aa2fd2c44b74",
+     "requested_revision": "fb89bb6104be091585f87c8d1a35aa2fd2c44b74"
+    },
+    "subdirectory": "packages/citations"
+   }
+  },
+  "holds": true
+ },
+ "all_assertions_hold": true
+}

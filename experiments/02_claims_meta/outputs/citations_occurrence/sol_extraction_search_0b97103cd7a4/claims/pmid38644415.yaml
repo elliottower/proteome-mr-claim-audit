@@ -1,0 +1,16 @@
+source:
+  citation: pmid38644415
+  local: sources/pmid38644415.txt
+  sha256: 5807f53821b216fd623e7c6e2942b92133725a1437382fb7b899ec7abbcc40a7
+  url: https://pubmed.ncbi.nlm.nih.gov/38644415/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: The data showed that higher level of circulating IFN-γ levels was causally associated with
+        AA susceptibility.
+  c001:
+    quotes:
+    - exact: The causal effects of circulating IFN-γ levels on the AA were broadly consistent, when adjusted
+        for platelet counts, reticulocyte counts, neutrophil counts and proportions of hematopoietic stem
+        cells.

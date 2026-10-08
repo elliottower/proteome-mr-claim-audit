@@ -1,0 +1,17 @@
+source:
+  citation: pmid41250910
+  local: sources/pmid41250910.txt
+  sha256: 90604c6206a9300858caf1ec2bd470f28157f28c29e7839103007e89ff289d98
+  url: https://pubmed.ncbi.nlm.nih.gov/41250910/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: TDRKH showed consistent associations across methylation, transcription, and protein levels,
+        with hypermethylation at cg24503712 linked to reduced expression and a lower risk of MDD (Tier
+        1).
+  c001:
+    quotes:
+    - exact: TDRKH showed consistent associations across methylation, transcription, and protein levels,
+        with hypermethylation at cg24503712 linked to reduced expression and a lower risk of MDD (Tier
+        1). METAP1D (Tier 2) demonstrated protective effects at both the transcript and protein levels.

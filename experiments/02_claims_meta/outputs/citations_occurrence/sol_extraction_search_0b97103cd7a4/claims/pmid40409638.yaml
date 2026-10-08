@@ -1,0 +1,27 @@
+source:
+  citation: pmid40409638
+  local: sources/pmid40409638.txt
+  sha256: efa93719b79078d7a52022de3ea065329745ba78dab29cc927d66705fe82c34c
+  url: https://pubmed.ncbi.nlm.nih.gov/40409638/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: Analyzing genetic data from 8125 AA patients and 381,977 controls, we identified four significant
+        loci (ADAMTS8, PLCE1, NOC3L, and SPSB1). PW-MR highlighted numerous plasma proteins, with interleukin-6
+        receptor (IL6R) showing strong association and colocalization in both deCODE and UK Biobank Pharma
+        Proteomics Project (UKB-PPP) datasets.
+  c001:
+    quotes:
+    - exact: Analyzing genetic data from 8125 AA patients and 381,977 controls, we identified four significant
+        loci (ADAMTS8, PLCE1, NOC3L, and SPSB1). PW-MR highlighted numerous plasma proteins, with interleukin-6
+        receptor (IL6R) showing strong association and colocalization in both deCODE and UK Biobank Pharma
+        Proteomics Project (UKB-PPP) datasets.
+  c002:
+    quotes:
+    - exact: Multi-trait colocalization analysis supports IL6R's role, suggesting that drugs targeting
+        IL6R, such as tocilizumab, may benefit AA treatment, though potential side effects warrant consideration.
+  c003:
+    quotes:
+    - exact: Single-cell analysis indicated that macrophages are crucial in AA progression, particularly
+        through the IL6R-mediated inflammatory response.

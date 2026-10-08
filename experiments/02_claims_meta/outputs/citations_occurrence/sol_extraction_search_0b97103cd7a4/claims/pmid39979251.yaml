@@ -1,0 +1,40 @@
+source:
+  citation: pmid39979251
+  local: sources/pmid39979251.txt
+  sha256: 82a92e3aeb39290e15ecafea50cafef551161380ec678dad27daedc6b2c453b1
+  url: https://pubmed.ncbi.nlm.nih.gov/39979251/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: 'I identified four proteins that were significantly associated with depression: BTN3A3 (P
+        value = 6.41 × 10-06), PSMB4 (P value = 1.42 × 10-05), TIMP4 (P value = 3.77 × 10-05), and ITIH1
+        (P value = 7.86 × 10-05).'
+  c001:
+    quotes:
+    - exact: 'I identified four proteins that were significantly associated with depression: BTN3A3 (P
+        value = 6.41 × 10-06), PSMB4 (P value = 1.42 × 10-05), TIMP4 (P value = 3.77 × 10-05), and ITIH1
+        (P value = 7.86 × 10-05).'
+  c002:
+    quotes:
+    - exact: 'I identified four proteins that were significantly associated with depression: BTN3A3 (P
+        value = 6.41 × 10-06), PSMB4 (P value = 1.42 × 10-05), TIMP4 (P value = 3.77 × 10-05), and ITIH1
+        (P value = 7.86 × 10-05).'
+  c003:
+    quotes:
+    - exact: 'I identified four proteins that were significantly associated with depression: BTN3A3 (P
+        value = 6.41 × 10-06), PSMB4 (P value = 1.42 × 10-05), TIMP4 (P value = 3.77 × 10-05), and ITIH1
+        (P value = 7.86 × 10-05).'
+  c004:
+    quotes:
+    - exact: Specifically, I found that BTN3A3 and PSMB4 play a causal role in depression, as confirmed
+        by colocalization and Mendelian Randomization (MR) analysis.
+  c005:
+    quotes:
+    - exact: Specifically, I found that BTN3A3 and PSMB4 play a causal role in depression, as confirmed
+        by colocalization and Mendelian Randomization (MR) analysis.
+  c006:
+    quotes:
+    - exact: Interestingly, I also discovered that PSMB4 was significantly associated with depression
+        in both the brain proteome studies and the plasma PWAS results, which suggests that it may be
+        a particularly promising candidate for further study.

@@ -1,0 +1,16 @@
+source:
+  citation: pmidPPR1019777
+  local: sources/pmidPPR1019777.txt
+  sha256: c3539ee89b30285e544d2ae6210133a11d8c1ff0741c7e2f69816f668e2d2ce3
+  url: https://europepmc.org/article/PPR/PPR1019777
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: We identified 46 plasma proteins that are strongly associated with LC Fifteen of these proteins
+        have protective effects. Among them, MMP8（OR = 0.87，95%CI:0.78-0.97，p=0.013）had the most significant
+        protective effect.
+  c001:
+    quotes:
+    - exact: In contrast, 31 proteins increased the risk of LC. IL36A（OR =1.20，95%CI:1.041-1.38，p=0.012)
+        exhibited the most significant MR result .

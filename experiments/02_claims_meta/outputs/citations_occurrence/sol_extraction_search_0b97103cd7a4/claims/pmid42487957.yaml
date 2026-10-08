@@ -1,0 +1,27 @@
+source:
+  citation: pmid42487957
+  local: sources/pmid42487957.txt
+  sha256: b0d60f16b09c97213b5786f9da93f5f39e729ba013c6b0a14ebb8aba22c3a32f
+  url: https://pubmed.ncbi.nlm.nih.gov/42487957/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: 'Genetically predicted higher levels of thioredoxin domain-containing protein 12 (TXNDC12)
+        were associated with an increased risk of PKOA (OR = 1.38, 95%CI: 1.27-1.50, P = 9.33 × 10-15),
+        whereas growth/differentiation factor 2 (GDF2) was associated with a reduced risk (OR = 0.93,
+        95%: CI; 0.89-0.98, P = 4.17 × 10-2).'
+  c001:
+    quotes:
+    - exact: 'Genetically predicted higher levels of thioredoxin domain-containing protein 12 (TXNDC12)
+        were associated with an increased risk of PKOA (OR = 1.38, 95%CI: 1.27-1.50, P = 9.33 × 10-15),
+        whereas growth/differentiation factor 2 (GDF2) was associated with a reduced risk (OR = 0.93,
+        95%: CI; 0.89-0.98, P = 4.17 × 10-2).'
+  c002:
+    quotes:
+    - exact: Preliminary experimental analyses showed increased TXNDC12 expression and decreased GDF2
+        expression in PKOA model mice compared with sham controls, consistent with the MR results.
+  c003:
+    quotes:
+    - exact: Preliminary experimental analyses showed increased TXNDC12 expression and decreased GDF2
+        expression in PKOA model mice compared with sham controls, consistent with the MR results.

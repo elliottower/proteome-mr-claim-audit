@@ -1,0 +1,11 @@
+source:
+  citation: pmid41217734
+  local: sources/pmid41217734.txt
+  sha256: bd0b9e9bc5c5cb2422ac57d261c02e15233279b24f7bad661b638daf16823edf
+  url: https://pubmed.ncbi.nlm.nih.gov/41217734/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: 'Notably, Lactoylglutathione lyase, also known as Glyoxalase 1 (GLO1), showed a significant
+        protective effect on OS risk (IVW OR = 0.2871, 95% CI: 0.1602-0.5145, P = 2.7580 × 10- 5).'

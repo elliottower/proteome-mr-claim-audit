@@ -1,0 +1,14 @@
+source:
+  citation: pmid41230735
+  local: sources/pmid41230735.txt
+  sha256: 793226754761b74c2aac44ae21707a62b819631c5c833343fe0a9e469035cd28
+  url: https://pubmed.ncbi.nlm.nih.gov/41230735/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: Notably, the gut microbial strain K10 was found to reduce the risk of osteoporosis fractures,
+        whereas the KIR2DS4 protein was associated with an increased risk of osteoporosis fractures.
+  c001:
+    quotes:
+    - exact: Mediation analysis indicated that KIR2DS4 may mediate the effect of K10 on fracture risk.

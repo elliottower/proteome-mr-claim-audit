@@ -1,0 +1,21 @@
+source:
+  citation: pmid41324311
+  local: sources/pmid41324311.txt
+  sha256: 72e5c5fdbdc7a8aba5e41ecbc27a21e5ade3ddccc6c35b1e8c6f7f2632438c14
+  url: https://pubmed.ncbi.nlm.nih.gov/41324311/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: Six plasma proteins were identified as potential mediators for the hypertension history,
+        with secretory leukocyte peptidase inhibitor (SLPI) explaining the largest proportion of the effect
+        (13.3%). Ankyrin Repeat and SOCS Box Containing 9 (ASB9) was found to mediate the effects for
+        both hypertension history (3.56%) and SBP (4.31%) to RVAO.
+  c001:
+    quotes:
+    - exact: Ankyrin Repeat and SOCS Box Containing 9 (ASB9) was found to mediate the effects for both
+        hypertension history (3.56%) and SBP (4.31%) to RVAO.
+  c002:
+    quotes:
+    - exact: Ankyrin Repeat and SOCS Box Containing 9 (ASB9) was found to mediate the effects for both
+        hypertension history (3.56%) and SBP (4.31%) to RVAO.

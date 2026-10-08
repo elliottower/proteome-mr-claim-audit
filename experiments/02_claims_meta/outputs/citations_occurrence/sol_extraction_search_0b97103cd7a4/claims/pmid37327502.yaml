@@ -1,0 +1,23 @@
+source:
+  citation: pmid37327502
+  local: sources/pmid37327502.txt
+  sha256: 41aefffb30f5a2a8db3fd71f0343b3349fa440029d797442173ffce6db3da05b
+  url: https://pubmed.ncbi.nlm.nih.gov/37327502/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: ISG15, as a key player in the innate immune response, decreased the risk of bipolar disorder
+        causally (OR = 0.92, 95% CI = 0.89-0.94, P = 1.46e-09).
+  c001:
+    quotes:
+    - exact: Furthermore, MLN decreased the risk of bipolar disorder causally (OR = 0.94, 95% CI = 0.91-0.97,
+        P = 1.04e-04).
+  c002:
+    quotes:
+    - exact: In addition, SFTPC (OR = 0.91, 95% CI = 0.86-0.96, P = 4.47e-04) and VCY (OR = 0.86, 95%
+        CI = 0.77-0.96, P = 8.55e-03) presented a suggestive association with bipolar disorder.
+  c003:
+    quotes:
+    - exact: In addition, SFTPC (OR = 0.91, 95% CI = 0.86-0.96, P = 4.47e-04) and VCY (OR = 0.86, 95%
+        CI = 0.77-0.96, P = 8.55e-03) presented a suggestive association with bipolar disorder.

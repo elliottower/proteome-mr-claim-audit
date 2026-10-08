@@ -1,0 +1,19 @@
+source:
+  citation: pmid41140969
+  local: sources/pmid41140969.txt
+  sha256: 893fc053f485ad6f16bfef270760969f421dd1c6f7faae5e0344fb626cd85ea3
+  url: https://pubmed.ncbi.nlm.nih.gov/41140969/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: Our analysis revealed a suggestive positive correlation between increased Caspase-10 levels
+        and heightened risk of type 1 diabetes (T1D) (OR 1.15, 95% CI 1.02-1.29, P = 0.02).
+  c001:
+    quotes:
+    - exact: Similarly, higher serum BCL2 protein levels were found to be nominally associated with an
+        increased risk of developing type 2 diabetes (T2D) (OR 1.21, 95% CI 1.07-1.37, P = 0.003).
+  c002:
+    quotes:
+    - exact: Conversely, the BCL2L1 protein may exert a suggestive protective effect against T2D (OR 0.92,
+        95% CI 0.86-0.99, P = 0.03).
