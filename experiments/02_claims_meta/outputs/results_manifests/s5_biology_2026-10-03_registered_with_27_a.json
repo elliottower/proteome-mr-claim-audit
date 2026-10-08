@@ -1,0 +1,217 @@
+{
+ "run_id": "s5_biology_2026-10-03_registered_with_27_a",
+ "note": "stage 5, originally registered analysis (the 27 pinned, the 37 excluded): biology joins of both windows, sensitivity tables with the primary H1, H2 and H2b table, drug joins",
+ "written_utc": "2026-10-08T17:08:49+00:00",
+ "files": [
+  {
+   "path": "outputs/stage5_biology/2026-10-03_registered_with_27_a/confirmatory/hierarchy_relations.jsonl",
+   "bytes": 9630,
+   "sha256": "b3b2f64374ed5598f924baf4077a08efe92071008d72fd36622350dc0a35ff9d"
+  },
+  {
+   "path": "outputs/stage5_biology/2026-10-03_registered_with_27_a/confirmatory/hierarchy_tables.json",
+   "bytes": 5203,
+   "sha256": "7149b18020a4398654aa67290e0373fdbb173fa4c4c3b9e71b966f74316a91ff"
+  },
+  {
+   "path": "outputs/stage5_biology/2026-10-03_registered_with_27_a/confirmatory/hub_proteins.json",
+   "bytes": 102243,
+   "sha256": "37aaecce94e206eb8a71f3cff720847ff62bc2fc534e85ab2f0bed81d6240db0"
+  },
+  {
+   "path": "outputs/stage5_biology/2026-10-03_registered_with_27_a/confirmatory/novelty_claims.jsonl",
+   "bytes": 916755,
+   "sha256": "a61ed6ad66d4f40bf2ebfd390a345848678cace7af5e9ded7bacd1fad5cfefb1"
+  },
+  {
+   "path": "outputs/stage5_biology/2026-10-03_registered_with_27_a/confirmatory/novelty_index.json",
+   "bytes": 2260,
+   "sha256": "141c864aa9485f9cc9ac422210795bd8fb54ab23ab8a328d2d9f53a75a447409"
+  },
+  {
+   "path": "outputs/stage5_biology/2026-10-03_registered_with_27_a/confirmatory/pathway_claim_density.jsonl",
+   "bytes": 837241,
+   "sha256": "90c211ae50b6fcfd8549c7d2f4bcb76a9373643784c0affd31098d8dad961fb2"
+  },
+  {
+   "path": "outputs/stage5_biology/2026-10-03_registered_with_27_a/confirmatory/pathway_enrichment.json",
+   "bytes": 30172,
+   "sha256": "96a6b031f30bccb9c0483fb7fea16de45811ce34aaca28bb8f9c270bc3c9b834"
+  },
+  {
+   "path": "outputs/stage5_biology/2026-10-03_registered_with_27_a/confirmatory/pathway_enrichment_rows.jsonl",
+   "bytes": 851517,
+   "sha256": "8977fd89eeacc79bf1e562b76cfde7e5acb935051061bc39a9cebdc5e63fe55c"
+  },
+  {
+   "path": "outputs/stage5_biology/2026-10-03_registered_with_27_a/confirmatory/pathway_enrichment_rows_alternative_assay_lists.jsonl",
+   "bytes": 996791,
+   "sha256": "ac032b7994cee7a366c65464f077551d376e6535a03a2e10c0e0b59098059bcf"
+  },
+  {
+   "path": "outputs/stage5_biology/2026-10-03_registered_with_27_a/confirmatory/pathway_enrichment_rows_any_candidate_row_attachment.jsonl",
+   "bytes": 851551,
+   "sha256": "0776fc80e9852c34180df0247d48af53060e6c9b3d56935e361c74278b3868c5"
+  },
+  {
+   "path": "outputs/stage5_biology/2026-10-03_registered_with_27_a/confirmatory/pathway_enrichment_rows_null_result_claims_counted.jsonl",
+   "bytes": 851769,
+   "sha256": "d632f9de8ee5b4d73c287a5e2fd7bd16338547c30860117704f1687c573434c6"
+  },
+  {
+   "path": "outputs/stage5_biology/2026-10-03_registered_with_27_a/confirmatory/pathway_enrichment_rows_whole_panel_backgrounds.jsonl",
+   "bytes": 835602,
+   "sha256": "2ab73fa1f2407e067a1df09260c82e9d46297cac0d0057b46c91cfbbecdddb80"
+  },
+  {
+   "path": "outputs/stage5_biology/2026-10-03_registered_with_27_a/confirmatory/pathway_enrichment_rows_without_manual_dataset_coding.jsonl",
+   "bytes": 851144,
+   "sha256": "8e32b9593b5c0588c09f506a51ee1b50d6e648c8535560110d70dc33c0018db7"
+  },
+  {
+   "path": "outputs/stage5_biology/2026-10-03_registered_with_27_a/confirmatory/reference_screen.json",
+   "bytes": 7568,
+   "sha256": "37abc9f77d05b64e7be3eba9cbfdf3f0e070b1acca78d6b07ea315e2447e4a7a"
+  },
+  {
+   "path": "outputs/stage5_biology/2026-10-03_registered_with_27_a/confirmatory/reference_screen_claims.jsonl",
+   "bytes": 535113,
+   "sha256": "1a002a34ed41691eb0c8b53fe426f4da3bf388f4ff67a6697ba9da7593f21c8b"
+  },
+  {
+   "path": "outputs/stage5_biology/2026-10-03_registered_with_27_a/confirmatory/reference_screen_pairs.json",
+   "bytes": 124136,
+   "sha256": "f8b66956a22bccf481a39c580d851a3d0e3ca08cac288faf34fe5b67d531c4ab"
+  },
+  {
+   "path": "outputs/stage5_biology/2026-10-03_registered_with_27_a/confirmatory/registry_indices.json",
+   "bytes": 234103,
+   "sha256": "fc64ca1d99f6f93bb727b0853ad80ad8ad127095f58f72430bfe21d576147c5e"
+  },
+  {
+   "path": "outputs/stage5_biology/2026-10-03_registered_with_27_a/confirmatory/registry_secondaries.json",
+   "bytes": 80603,
+   "sha256": "103195caf669720dd6cf3381516d1ebd828be7f2b51159db47db522ba4eaa3c5"
+  },
+  {
+   "path": "outputs/stage5_biology/2026-10-03_registered_with_27_a/sensitivity_run.json",
+   "bytes": 3326,
+   "sha256": "ad4aa763245114f8c65017a44ea27f0cace9bb7b63ef7f7c653779e3561ea5bb"
+  },
+  {
+   "path": "outputs/stage5_biology/2026-10-03_registered_with_27_a/sensitivity_tables.json",
+   "bytes": 80382,
+   "sha256": "42758a3ca1ef0993b6559762990f32bd0c1e39aa8892fe7595d036b43092908c"
+  },
+  {
+   "path": "outputs/stage5_biology/2026-10-03_registered_with_27_a/update/hierarchy_relations.jsonl",
+   "bytes": 672,
+   "sha256": "0ec9127c6913d0195649f5edb1a9c8d7f24de885d1b6a0634294318422b048b7"
+  },
+  {
+   "path": "outputs/stage5_biology/2026-10-03_registered_with_27_a/update/hierarchy_tables.json",
+   "bytes": 4837,
+   "sha256": "2154e643f0854af44d75b75cbbf0a5af2500b4c9bec6d6323bd858ea39a7c859"
+  },
+  {
+   "path": "outputs/stage5_biology/2026-10-03_registered_with_27_a/update/hub_proteins.json",
+   "bytes": 31702,
+   "sha256": "662da1b0f4057ad9eb444d8f898c69362f3ae1183bbdcba2f759a90dad53a040"
+  },
+  {
+   "path": "outputs/stage5_biology/2026-10-03_registered_with_27_a/update/novelty_claims.jsonl",
+   "bytes": 231598,
+   "sha256": "d043c13c04f0a9ddb6635ecb4b59c0d9e832f04e2eee983bb2579ae2901e04d9"
+  },
+  {
+   "path": "outputs/stage5_biology/2026-10-03_registered_with_27_a/update/novelty_index.json",
+   "bytes": 2161,
+   "sha256": "e6977b10995961ed0ba5964b3f248eccaec85fb4b4dc29f10e9f13fed346fb07"
+  },
+  {
+   "path": "outputs/stage5_biology/2026-10-03_registered_with_27_a/update/pathway_claim_density.jsonl",
+   "bytes": 297098,
+   "sha256": "09f22006f26b8ad26249b13cd9afe6dbed50ef68875ea72e18464129dca99b10"
+  },
+  {
+   "path": "outputs/stage5_biology/2026-10-03_registered_with_27_a/update/pathway_enrichment.json",
+   "bytes": 29913,
+   "sha256": "0516b0bbd831cdc160d61ceae7bf2a04ae05b1773b89c5c3a9617b2b2c48f7b5"
+  },
+  {
+   "path": "outputs/stage5_biology/2026-10-03_registered_with_27_a/update/pathway_enrichment_rows.jsonl",
+   "bytes": 846659,
+   "sha256": "98e54d3fd0e3fd2b267b39555c89482e22e36dca223edff4a5351cc3b6cbf699"
+  },
+  {
+   "path": "outputs/stage5_biology/2026-10-03_registered_with_27_a/update/pathway_enrichment_rows_alternative_assay_lists.jsonl",
+   "bytes": 992058,
+   "sha256": "8838ddceb0d4864af0ff17c80e40e935f5d5cf748c7df5a49cd3db4b1257e2a3"
+  },
+  {
+   "path": "outputs/stage5_biology/2026-10-03_registered_with_27_a/update/pathway_enrichment_rows_any_candidate_row_attachment.jsonl",
+   "bytes": 846659,
+   "sha256": "98e54d3fd0e3fd2b267b39555c89482e22e36dca223edff4a5351cc3b6cbf699"
+  },
+  {
+   "path": "outputs/stage5_biology/2026-10-03_registered_with_27_a/update/pathway_enrichment_rows_null_result_claims_counted.jsonl",
+   "bytes": 846659,
+   "sha256": "98e54d3fd0e3fd2b267b39555c89482e22e36dca223edff4a5351cc3b6cbf699"
+  },
+  {
+   "path": "outputs/stage5_biology/2026-10-03_registered_with_27_a/update/pathway_enrichment_rows_whole_panel_backgrounds.jsonl",
+   "bytes": 830742,
+   "sha256": "b971f957dfaa28b8c78acfbde0ec4285a14a1b90917392980414b3625fa74f74"
+  },
+  {
+   "path": "outputs/stage5_biology/2026-10-03_registered_with_27_a/update/pathway_enrichment_rows_without_manual_dataset_coding.jsonl",
+   "bytes": 846659,
+   "sha256": "98e54d3fd0e3fd2b267b39555c89482e22e36dca223edff4a5351cc3b6cbf699"
+  },
+  {
+   "path": "outputs/stage5_biology/2026-10-03_registered_with_27_a/update/reference_screen.json",
+   "bytes": 7470,
+   "sha256": "65886fe5faef96d2c600b7fff4e5e622d012c70e0ca0dec46d526dd94e6f7559"
+  },
+  {
+   "path": "outputs/stage5_biology/2026-10-03_registered_with_27_a/update/reference_screen_claims.jsonl",
+   "bytes": 134389,
+   "sha256": "985ac601843fb03c504c4f67daa4b877781073b68c928de9b90117cc4a8f039e"
+  },
+  {
+   "path": "outputs/stage5_biology/2026-10-03_registered_with_27_a/update/reference_screen_pairs.json",
+   "bytes": 34974,
+   "sha256": "1bd093b8338c1fab9ab0970302f60d287062598249e8a3d1a711fdae015e8b21"
+  },
+  {
+   "path": "outputs/stage5_biology/2026-10-03_registered_with_27_a/update/registry_indices.json",
+   "bytes": 109998,
+   "sha256": "8beec061f3c4bed637dcc024976c9573c76d34d3c4d5f30d418bf022345db41f"
+  },
+  {
+   "path": "outputs/stage5_biology/2026-10-03_registered_with_27_a/update/registry_secondaries.json",
+   "bytes": 63906,
+   "sha256": "ad9f18487ae1ac4e13b0f9153509b33d7310a6752665e956283852be52966073"
+  },
+  {
+   "path": "outputs/stage5_drug/2026-10-03_registered_with_27_a/drug_claim_records.jsonl",
+   "bytes": 5802601,
+   "sha256": "8236ab1edc65a9bfdce5271a74dc52f007738e4f325271f4fe915b1b0affb685"
+  },
+  {
+   "path": "outputs/stage5_drug/2026-10-03_registered_with_27_a/drug_pair_records.jsonl",
+   "bytes": 17206061,
+   "sha256": "758908b891ada211c620c45a643d16b13c3d8d57f681115661ba0e2339c44686"
+  },
+  {
+   "path": "outputs/stage5_drug/2026-10-03_registered_with_27_a/drug_tables.json",
+   "bytes": 25463,
+   "sha256": "f08d83f0eb25df106aa1bb00e439b2efd944febd6d76859cd263acfbe9e86fa2"
+  }
+ ],
+ "recorded_directly": [
+  "outputs/stage5_biology/2026-10-03_registered_with_27_a/sensitivity_run.json",
+  "outputs/stage5_biology/2026-10-03_registered_with_27_a/sensitivity_tables.json"
+ ],
+ "volume_checks": []
+}

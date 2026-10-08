@@ -1,0 +1,3687 @@
+{
+ "inputs": "/vol/02_claims_meta/stage5/2026-10-03_registered_with_27_a/biology_inputs",
+ "window": "confirmatory",
+ "claim_records": 3555,
+ "resources": {
+  "ontology_edges": "/exp/verification/ontology_edges.csv",
+  "therapeutic_areas": "/exp/verification/therapeutic_areas.csv",
+  "therapeutic_area_names": "/exp/verification/therapeutic_area_names.csv",
+  "assay_lists": "/exp/verification/platform_assay_lists.csv",
+  "attachments": "/exp/verification/platform_assay_attachments.csv",
+  "author_lists": "/exp/verification/author_supplied_lists.csv",
+  "reactome": "/exp/inputs/reactome/UniProt2Reactome.txt",
+  "snapshot_estimates": "/exp/derived/epigraphdb_mrres_estimates.jsonl",
+  "protein_mapping": "/exp/verification/epigraphdb_protein_mapping.csv",
+  "trait_mapping": "/exp/verification/epigraphdb_trait_mapping.csv",
+  "locus_list": "/exp/verification/pleiotropic_loci_eldjarn2023_ST36.csv"
+ },
+ "written_utc": "2026-10-08T15:53:37+00:00",
+ "bootstrap": {
+  "replicates": 10000,
+  "seed": 20261001,
+  "streams": {
+   "edge_relations": 10,
+   "h2_by_families_per_pair": 11,
+   "h2_directional_pairs": 12,
+   "direction_agreement_by_edge_class": 13,
+   "significance_discordance": 14,
+   "contradiction_source_comparison": 15,
+   "first_claim_concordance": 16,
+   "periods_early": 17,
+   "periods_late": 18,
+   "therapeutic_areas": 19,
+   "platform_pairing": 20
+  },
+  "percentile_method": "inverted_cdf"
+ },
+ "reporting_completeness": {
+  "families_with_a_registry_claim": 728,
+  "eligible_families_without_a_registry_claim": 666,
+  "imprecise_under_20": false,
+  "pqtl_dataset_named": {
+   "families": 193,
+   "share": 0.2651098901098901,
+   "wilson_descriptive": [
+    0.23434015934783753,
+    0.29834551201176734
+   ]
+  },
+  "outcome_dataset_named": {
+   "families": 248,
+   "share": 0.34065934065934067,
+   "wilson_descriptive": [
+    0.3071491471159959,
+    0.37584230246127986
+   ]
+  },
+  "pqtl_release_unique": {
+   "families": 33,
+   "share": 0.04532967032967033,
+   "wilson_descriptive": [
+    0.032456923397992304,
+    0.06297557496475176
+   ]
+  },
+  "outcome_release_unique": {
+   "families": 47,
+   "share": 0.06456043956043957,
+   "wilson_descriptive": [
+    0.048895429805661535,
+    0.08479672119430787
+   ]
+  },
+  "both_releases_unique": {
+   "families": 4,
+   "share": 0.005494505494505495,
+   "wilson_descriptive": [
+    0.0021387188741478083,
+    0.014041641882915231
+   ]
+  },
+  "platform_stated": {
+   "families": 55,
+   "share": 0.07554945054945054,
+   "wilson_descriptive": [
+    0.058501377694788345,
+    0.09705343195502407
+   ]
+  },
+  "ancestry_stated": {
+   "families": 119,
+   "share": 0.16346153846153846,
+   "wilson_descriptive": [
+    0.13837877747203783,
+    0.19207730137651893
+   ]
+  }
+ },
+ "dataset_usage": {
+  "families": 728,
+  "families_per_pqtl_label": {
+   "not_stated": 546,
+   "unmatched": 58,
+   "deCODE SomaScan v4 (Ferkingstad 2021)": 53,
+   "one of: Dhindsa 2023 UKB-PPP exome (rare variant) / UKB-PPP ancestry-specific (non-European) / UKB-PPP discovery / UKB-PPP full cohort (combined) / UKB-PPP replication": 33,
+   "one of: deCODE SomaScan v4 (Eldjarn 2023 update) / deCODE SomaScan v4 (Ferkingstad 2021) / unlisted release of decode": 26,
+   "one of: UKB-PPP ancestry-specific (non-European) / UKB-PPP discovery / UKB-PPP full cohort (combined) / UKB-PPP replication / unlisted release of uk biobank pharma proteomics project": 21,
+   "one of: UKB-PPP ancestry-specific (non-European) / UKB-PPP discovery / UKB-PPP full cohort (combined) / UKB-PPP replication / unlisted release of ukb ppp": 21,
+   "one of: UKB-PPP ancestry-specific (non-European) / UKB-PPP discovery / UKB-PPP full cohort (combined) / UKB-PPP replication / unlisted combination of uk biobank pharma proteomics project with ukb ppp": 8,
+   "one of: INTERVAL SomaScan (Sun 2018) / unlisted release of interval": 6,
+   "UKB-PPP discovery": 5,
+   "ARIC European American (Zhang 2022)": 4,
+   "INTERVAL SomaScan (Sun 2018)": 4,
+   "one of: deCODE SomaScan v4 (Ferkingstad 2021) / unlisted release of decode genetics": 4,
+   "one of: Fenland SomaScan v4 (Pietzner 2020, COVID-19 host proteins) / Fenland SomaScan v4 (Pietzner 2021) / unlisted release of fenland": 3,
+   "AGES Reykjavik (Gudjonsson 2022)": 2,
+   "Fenland SomaScan v4 (Pietzner 2021)": 2,
+   "UKB-PPP full cohort (combined)": 2,
+   "one of: ARIC European American (Zhang 2022) / unlisted release of atherosclerosis risk in communities": 2,
+   "one of: UKB-PPP ancestry-specific (non-European) / UKB-PPP discovery / UKB-PPP full cohort (combined) / UKB-PPP replication / unlisted release of ukbppp": 2,
+   "Guangzhou Nutrition and Health Study (Xu 2023)": 1,
+   "SCALLOP Inflammation (Zhao 2023)": 1,
+   "Zheng 2020 proteome-wide MR instrument set": 1,
+   "deCODE SomaScan v4 (Eldjarn 2023 update)": 1,
+   "one of: ARIC African American (Zhang 2022) / ARIC European American (Zhang 2022) / unlisted release of aric": 1,
+   "one of: Dhindsa 2023 UKB-PPP exome (rare variant) / Eldjarn 2023 UKB Olink (UKB-BI / UKB-SA / UKB-AF) / UKB-PPP ancestry-specific (non-European) / UKB-PPP discovery / UKB-PPP full cohort (combined) / UKB-PPP replication": 1,
+   "one of: INTERVAL SomaScan (Sun 2018) / UKB-PPP ancestry-specific (non-European) / UKB-PPP discovery / UKB-PPP full cohort (combined) / UKB-PPP replication": 1,
+   "one of: KORA (Suhre 2017) / unlisted release of kora": 1,
+   "one of: MANOLIS (Gilly 2020) / MANOLIS and Pomak neurology (Png 2021) / unlisted release of manolis": 1,
+   "one of: MANOLIS and Pomak neurology (Png 2021) / unlisted release of pomak": 1
+  },
+  "families_per_pqtl_component": {
+   "UKB": 92,
+   "DECODE_COHORT": 84,
+   "INTERVAL": 12,
+   "ARIC": 7,
+   "FENLAND": 5,
+   "AGES_REYKJAVIK": 3,
+   "KORA": 3,
+   "BIOFINDER": 1,
+   "ESTONIAN_BIOBANK": 1,
+   "FHS": 1,
+   "GNHS": 1,
+   "IMPROVE": 1,
+   "MANOLIS": 1,
+   "NSPHS": 1,
+   "ORCADES": 1,
+   "POMAK": 1,
+   "QMDIAB": 1,
+   "RECOMBINE_EIRA": 1,
+   "STABILITY": 1,
+   "STANLEY": 1,
+   "VIS": 1
+  },
+  "families_per_outcome_label": {
+   "not_stated": 490,
+   "unmatched": 111,
+   "one of: UK Biobank + CARDIoGRAMplusC4D CAD (van der Harst 2018) / UK Biobank + ICBP blood pressure (Evangelou 2018) / UK Biobank + TAGC asthma (Han 2020) / UK Biobank SAIGE PheWeb (Zhou et al. 2018) / UK Biobank TOPMed-imputed PheWeb (Lee/Michigan)": 72,
+   "one of: FinnGen R10 / FinnGen R11 / FinnGen R12 / FinnGen R12 + MVP + UK Biobank meta-analysis / FinnGen R12 + UK Biobank meta-analysis / FinnGen R3 / FinnGen R4 / FinnGen R5 / FinnGen R6 / FinnGen R7 / FinnGen R8 / FinnGen R9": 41,
+   "FinnGen R10": 30,
+   "FinnGen R9": 12,
+   "FinnGen R12": 8,
+   "FinnGen R11": 7,
+   "MRC-IEU UK Biobank GWAS pipeline (OpenGWAS ukb-b)": 7,
+   "one of: deCODE genetics outcome GWAS (summary data) / unlisted release of decode": 6,
+   "CARDIoGRAMplusC4D 1000 Genomes CAD (Nikpay 2015)": 5,
+   "UK Biobank SAIGE PheWeb (Zhou et al. 2018)": 5,
+   "FinnGen R8": 3,
+   "one of: CAD UK Biobank GWAS (van der Harst 2018) / MRC-IEU UK Biobank GWAS pipeline (OpenGWAS ukb-b) / Neale lab UK Biobank GWAS round 1 / Neale lab UK Biobank GWAS round 2 / UK Biobank + CARDIoGRAMplusC4D CAD (van der Harst 2018) / UK Biobank + TAGC asthma (Han 2020) / UK Biobank SAIGE PheWeb (Zhou et al. 2018) / UK Biobank TOPMed-imputed PheWeb (Lee/Michigan)": 3,
+   "one of: DIAGRAM T2D (Mahajan 2018) / unlisted release of diagram": 3,
+   "one of: PRACTICAL/ELLIPSE prostate cancer (Schumacher 2018) / unlisted release of practical": 3,
+   "BCAC breast cancer (Michailidou 2017)": 2,
+   "EADB (Bellenguez 2022)": 2,
+   "FinnGen R6": 2,
+   "GeneATLAS": 2,
+   "IMSGC multiple sclerosis (2019)": 2,
+   "PRACTICAL/ELLIPSE prostate cancer (Schumacher 2018)": 2,
+   "UK Biobank TOPMed-imputed PheWeb (Lee/Michigan)": 2,
+   "one of: BCAC breast cancer (Michailidou 2017) / unlisted release of bcac": 2,
+   "one of: MEGASTROKE (Malik 2018) / unlisted release of megastroke": 2,
+   "BCAC breast cancer subtypes (Zhang 2020)": 1,
+   "FinnGen R7": 1,
+   "GIGASTROKE (Mishra 2022)": 1,
+   "HERMES heart failure (Shah 2020)": 1,
+   "IGAP stage 1 (Lambert 2013)": 1,
+   "IIBDGC European IBD GWAS (Liu 2015, public summary statistics)": 1,
+   "MEGASTROKE (Malik 2018)": 1,
+   "TAGC asthma (Demenais 2018)": 1,
+   "UK Biobank + CARDIoGRAMplusC4D CAD (van der Harst 2018)": 1,
+   "one of: CARDIoGRAMplusC4D 1000 Genomes CAD (Nikpay 2015) / unlisted release of cardiogramplusc4d": 1,
+   "one of: CKDGen eGFR (Wuttke 2019) / unlisted release of ckdgen": 1,
+   "one of: GIGASTROKE (Mishra 2022) / unlisted release of gigastroke": 1,
+   "one of: HERMES heart failure (Shah 2020) / unlisted release of hermes": 1,
+   "one of: IGAP stage 1 (Lambert 2013) / unlisted release of igap": 1,
+   "one of: ILCCO/TRICL OncoArray lung cancer (McKay 2017) / unlisted release of tricl": 1,
+   "one of: IMSGC multiple sclerosis (2019) / unlisted release of imsgc": 1,
+   "one of: MAGIC glycemic traits (Chen 2021) / unlisted release of magic": 1
+  },
+  "families_per_outcome_component": {
+   "FINRISK": 113,
+   "COROGENE": 108,
+   "BOTNIA": 105,
+   "FINHEALTH2017": 105,
+   "FINNAKI": 105,
+   "FINNGEN": 105,
+   "FINNISH_IPF": 105,
+   "FINNISH_MIGRAINE": 105,
+   "FINNISH_TWIN_COHORT": 105,
+   "GENERISK": 105,
+   "HEALTH2000": 105,
+   "HELSINKI_HEART_STUDY": 105,
+   "SUPER_FINLAND": 105,
+   "THL_DIABETES": 105,
+   "UKB": 99,
+   "RS": 31,
+   "KORA": 26,
+   "B58C": 25,
+   "EPIC": 24,
+   "FHS": 22,
+   "DECODE_COHORT": 20,
+   "WTCCC": 20,
+   "PROSPER": 18,
+   "ARIC": 17,
+   "ULSAM": 17,
+   "AGES_REYKJAVIK": 16,
+   "ESTONIAN_BIOBANK": 16,
+   "MDC": 16,
+   "WGHS": 16,
+   "UKBS": 15,
+   "CGPS": 14,
+   "PIVUS": 14,
+   "TWINGENE": 14,
+   "GODARTS": 13,
+   "NHS": 13,
+   "PROCARDIS": 13,
+   "BIOME": 12,
+   "CHS": 12,
+   "HPS": 12,
+   "MESA": 12,
+   "PROMIS": 12,
+   "WHI": 12,
+   "ESTHER": 11,
+   "LURIC": 11,
+   "MEC": 11,
+   "PLCO": 11,
+   "CPS_II": 10,
+   "MCCS": 10,
+   "SEARCH": 10,
+   "EPIC_NORFOLK": 9,
+   "LOLIPOP": 9,
+   "CARDIA": 8,
+   "FAMHS": 8,
+   "HPFS": 8,
+   "HUNT": 8,
+   "JHS": 8,
+   "LIFE_HEART": 8,
+   "POPGEN": 8,
+   "SHIP": 8,
+   "TWINSUK": 8,
+   "ADVANCE": 7,
+   "ATVB": 7,
+   "BASE_II": 7,
+   "BEIJING_BAS": 7,
+   "CAMBRIDGE_BIORESOURCE": 7,
+   "CARDIOGENICS": 7,
+   "CCGB": 7,
+   "CHINA_CAS": 7,
+   "DUKE_CATHGEN": 7,
+   "FGENTCARD": 7,
+   "GENRIC": 7,
+   "GERMIFS": 7,
+   "HANDLS": 7,
+   "HARPS": 7,
+   "HSDS": 7,
+   "INTERASIA": 7,
+   "INTERHEART": 7,
+   "KOGES_HEXA": 7,
+   "MAYO_VDB": 7,
+   "MEDSTAR": 7,
+   "MGH_PCAD": 7,
+   "OHGS": 7,
+   "PENNCATH": 7,
+   "POBI": 7,
+   "REGICOR": 7,
+   "SDS_AIDHS": 7,
+   "THISEAS": 7,
+   "TROMSO": 7,
+   "UTAH_FAMILY_TREE": 7,
+   "AHS": 6,
+   "ATBC": 6,
+   "BBJ": 6,
+   "BPC3": 6,
+   "EPIC_CVD": 6,
+   "HCHS_SOL": 6,
+   "METSIM": 6,
+   "SBCS": 6,
+   "AARHUS": 5,
+   "ABCFS": 5,
+   "ABCS": 5,
+   "ABCTB": 5,
+   "AEC_AUSTRALIA": 5,
+   "ARCBS": 5,
+   "ASGC": 5,
+   "BARCELONA_GODS": 5,
+   "BASICMAR": 5,
+   "BBCC": 5,
+   "BBCS": 5,
+   "BCEES": 5,
+   "BCFR_NY": 5,
+   "BCFR_PA": 5,
+   "BCINIS": 5,
+   "BIGGS": 5,
+   "BLSA": 5,
+   "BRAINS": 5,
+   "BREOGAN": 5,
+   "BSUCH": 5,
+   "CADISP": 5,
+   "CANARY_PASS": 5,
+   "CAPS": 5,
+   "CBCS": 5,
+   "CCGP": 5,
+   "CCHS": 5,
+   "CCI": 5,
+   "CECILE": 5,
+   "CEREPP": 5,
+   "CNG_CONTROL_DATABASE": 5,
+   "CNIO_BCS": 5,
+   "COH": 5,
+   "CONOR": 5,
+   "COSM": 5,
+   "CPCS1": 5,
+   "CPCS2": 5,
+   "CTS": 5,
+   "DIETCOMPLYF": 5,
+   "ERSPC_FINLAND": 5,
+   "ERSPC_ROTTERDAM": 5,
+   "ESS": 5,
+   "FHCRC": 5,
+   "FUKUOKA_STROKE_REGISTRY": 5,
+   "GCNKSS": 5,
+   "GC_HBOC": 5,
+   "GENE_PARE": 5,
+   "GENICA": 5,
+   "GEOS": 5,
+   "GEPARSIXTO": 5,
+   "GERFHS": 5,
+   "GESBC": 5,
+   "GLASGOW_STROKE": 5,
+   "GOCHA": 5,
+   "GRAZ_STROKE": 5,
+   "GRECOS": 5,
+   "HABC": 5,
+   "HABCS": 5,
+   "HAMBURG_ZAGREB": 5,
+   "HCSC": 5,
+   "HEBCS": 5,
+   "HISAYAMA": 5,
+   "HMBCS": 5,
+   "HOSPITAL_DEL_MAR_ICH": 5,
+   "HRS": 5,
+   "HUBCS": 5,
+   "HUBRO": 5,
+   "HUNTER_COMMUNITY_STUDY": 5,
+   "HUSK": 5,
+   "HVH": 5,
+   "ICOGS_PRACTICAL": 5,
+   "IMPACT": 5,
+   "INMA": 5,
+   "INTERSTROKE": 5,
+   "IPO_PORTO": 5,
+   "ISGS": 5,
+   "ISSYS": 5,
+   "KARBAC": 5,
+   "KARMA": 5,
+   "KBCP": 5,
+   "KCONFAB_AOCS": 5,
+   "KRAKOW": 5,
+   "KULEUVEN": 5,
+   "LAAPC": 5,
+   "LMBC": 5,
+   "LSGS": 5,
+   "LSR": 5,
+   "MABCS": 5,
+   "MARIE": 5,
+   "MBCSG": 5,
+   "MCBCS": 5,
+   "MCC_SPAIN": 5,
+   "MCISS": 5,
+   "MDACC_AS": 5,
+   "MDACC_MELANOMA_CONTROLS": 5,
+   "MGH_GASROS": 5,
+   "MIAMISR": 5,
+   "MILANO_BESTA": 5,
+   "MISS": 5,
+   "MMC_BIOBANK": 5,
+   "MMHS": 5,
+   "MOFFITT": 5,
+   "MTLGEBCS": 5,
+   "MUNICH_STROKE": 5,
+   "NBCS": 5,
+   "NBHS": 5,
+   "NC_BCFR": 5,
+   "NHS2": 5,
+   "NOMAS": 5,
+   "OAI": 5,
+   "OBCS": 5,
+   "OFBCR": 5,
+   "OPPHED": 5,
+   "ORIGO": 5,
+   "OXVASC": 5,
+   "PBCS": 5,
+   "PCMUS": 5,
+   "PEGASUS": 5,
+   "PHS": 5,
+   "POLAND_SZCZECIN": 5,
+   "POSH": 5,
+   "PRAGGA": 5,
+   "PREFACE": 5,
+   "PROCAP": 5,
+   "PROFILE": 5,
+   "PROGRESS": 5,
+   "PROMPT": 5,
+   "PROTECT": 5,
+   "QIMR": 5,
+   "QLD_APCB": 5,
+   "RACE": 5,
+   "RAPPER": 5,
+   "RBCS": 5,
+   "REGARDS": 5,
+   "SAHLSIS": 5,
+   "SANQUIN": 5,
+   "SASBAC": 5,
+   "SFPCS": 5,
+   "SIFAP": 5,
+   "SISTER": 5,
+   "SMC": 5,
+   "SNP_PROSTATE_GHENT": 5,
+   "SPAG": 5,
+   "SPS3": 5,
+   "STHM2": 5,
+   "ST_GEORGES_STROKE": 5,
+   "SWISS": 5,
+   "SWOG_PCPT": 5,
+   "SWOG_SELECT": 5,
+   "SZBCS": 5,
+   "TAMPERE": 5,
+   "THREE_CITY": 5,
+   "TNBCC": 5,
+   "TORONTO": 5,
+   "TROFINN": 5,
+   "TWO_SISTER": 5,
+   "UCIBCS": 5,
+   "UKBGS": 5,
+   "UKGPCS": 5,
+   "UKOPS": 5,
+   "UK_GWAS": 5,
+   "UK_YOUNG_LACUNAR": 5,
+   "ULM": 5,
+   "VALL_DHEBRON_ICH": 5,
+   "VHIR_ADHD_CONTROLS": 5,
+   "VISP": 5,
+   "WTCCC2_STROKE": 5,
+   "WUGS_WUPCS": 5,
+   "WUSTL": 5,
+   "ARUK": 4,
+   "BCFR_AUS": 4,
+   "BCFR_NCA": 4,
+   "BCFR_ONTARIO": 4,
+   "BCFR_UT": 4,
+   "BONN": 4,
+   "CCFR": 4,
+   "DEMOKRITOS": 4,
+   "DFBBCS": 4,
+   "DFCI": 4,
+   "DGI": 4,
+   "EADI": 4,
+   "EBCG_LI": 4,
+   "EBCG_SEATTLE": 4,
+   "EBCG_USC": 4,
+   "EPIC_INTERACT": 4,
+   "FCCC": 4,
+   "FUSION": 4,
+   "GCKD": 4,
+   "GENOA": 4,
+   "GWAS_UK2": 4,
+   "HNR": 4,
+   "MRC_GENETIC_RESOURCE_AD": 4,
+   "NIMH_AD_GENETICS_INITIATIVE": 4,
+   "NORDICDB": 4,
+   "OSU": 4,
+   "PREVEND": 4,
+   "RPCI": 4,
+   "SKKDKFZ": 4,
+   "SUCCESS_B": 4,
+   "SUCCESS_C": 4,
+   "THREE_C": 4,
+   "UCL_LASER_AD": 4,
+   "UCL_PRION": 4,
+   "WASHU": 4,
+   "AIDHS_SDS": 3,
+   "ANZGENE": 3,
+   "DGDG": 3,
+   "GEISINGER_MYCODE": 3,
+   "GERA": 3,
+   "GOMAP_TEENAGE": 3,
+   "HELSINKI_2000_STROKE": 3,
+   "IMSGC": 3,
+   "IMSGC_DBGAP_EGA": 3,
+   "IMSGC_IMMUNOCHIP": 3,
+   "IMSGC_MS_CHIP": 3,
+   "JPHC": 3,
+   "J_MICC": 3,
+   "KAISER_BERKELEY_MS": 3,
+   "MGI": 3,
+   "NUGENE": 3,
+   "ROTTERDAM_MS": 3,
+   "SLESS": 3,
+   "TMM": 3,
+   "UCPH": 3,
+   "100PLUS": 2,
+   "ACT": 2,
+   "ADGEN": 2,
+   "ADNI": 2,
+   "AGECODE": 2,
+   "ALSPAC": 2,
+   "AMISH": 2,
+   "AMSTERDAM_DEMENTIA_COHORT": 2,
+   "ASPREE": 2,
+   "BALTAZAR": 2,
+   "BB_ACL": 2,
+   "BELNEU": 2,
+   "BIOSTAT_CHF": 2,
+   "BIOVU": 2,
+   "BROAD_AF": 2,
+   "CBAS": 2,
+   "CFAS_WALES": 2,
+   "CHNS": 2,
+   "CKB": 2,
+   "CNRMAJ_ROUEN": 2,
+   "COGEN": 2,
+   "COLAUS": 2,
+   "CONIC": 2,
+   "DANISH_TWIN_REGISTRY": 2,
+   "DCN": 2,
+   "DEGESCO": 2,
+   "DELCODE": 2,
+   "DEMGENE": 2,
+   "DISCOVEHR": 2,
+   "EADB_BULGARIA": 2,
+   "EADB_HRC": 2,
+   "EADB_ITALY_CENTRES": 2,
+   "EPHESUS": 2,
+   "EPOZ": 2,
+   "ERASMUS_MC_POPULATION_STUDIES": 2,
+   "ERF": 2,
+   "ESTONIAN_YOUNG_STROKE_REGISTRY": 2,
+   "FINGER": 2,
+   "FUTURE_NIJMEGEN": 2,
+   "GCAT": 2,
+   "GENADA": 2,
+   "GENERACION": 2,
+   "GENERATION_R": 2,
+   "GENERATION_SCOTLAND": 2,
+   "GENISIS": 2,
+   "GOTTINGEN": 2,
+   "GRACE": 2,
+   "GRADE": 2,
+   "HEIDELBERG_MANNHEIM_MEMORY_CLINIC": 2,
+   "HELIAD": 2,
+   "INDIAN_STROKE_GWAS": 2,
+   "JOINVILLE_STROKE_BIOBANK": 2,
+   "KCL_BRAIN_BANK": 2,
+   "KCPS2": 2,
+   "KORCULA": 2,
+   "LAUSANNE": 2,
+   "LIFELINES": 2,
+   "LISBON_AD": 2,
+   "LIVING_BIOBANK": 2,
+   "MAYO": 2,
+   "MEMENTO": 2,
+   "MICROS": 2,
+   "MIRAGE": 2,
+   "NACC_ADC": 2,
+   "NBB": 2,
+   "NEO": 2,
+   "NFBC1966": 2,
+   "NIA_LOAD": 2,
+   "NORWEGIAN_BLOOD_DONORS": 2,
+   "NOTTINGHAM_MANCHESTER": 2,
+   "NTR": 2,
+   "NXC": 2,
+   "ODYSSEY": 2,
+   "OHSU": 2,
+   "ORCADES": 2,
+   "PAGES": 2,
+   "PARELSNOER": 2,
+   "PARELSNOER_PSI": 2,
+   "PFIZER_A9011027": 2,
+   "PHFS": 2,
+   "PROSCIS_B": 2,
+   "PROSPECTIVE_ALS_STUDY_NL": 2,
+   "RAINE": 2,
+   "ROSMAP": 2,
+   "SAPPHIRE": 2,
+   "SCES": 2,
+   "SICFAIL": 2,
+   "SIGNET": 2,
+   "SIMES": 2,
+   "SINDI": 2,
+   "SMART": 2,
+   "SNAC_K": 2,
+   "SOLID_TIMI52": 2,
+   "SORBS": 2,
+   "SOTON": 2,
+   "SP2": 2,
+   "SPANISH_NATIONAL_DNA_BANK": 2,
+   "SPLIT": 2,
+   "TGEN2": 2,
+   "TRAILS": 2,
+   "TUM_CCD": 2,
+   "UCL_DRC": 2,
+   "UK_MRC_CNGG": 2,
+   "UM_VU_MSSM": 2,
+   "UPITT": 2,
+   "UPPSALA_AD": 2,
+   "VALME_HOSPITAL": 2,
+   "VIKING": 2,
+   "VIS": 2,
+   "VITA": 2,
+   "VOGEL": 2,
+   "YFS": 2,
+   "AAGC": 1,
+   "AASC": 1,
+   "AA_DHS": 1,
+   "ABCD": 1,
+   "ABCS_F": 1,
+   "ADVANCE_TRIAL": 1,
+   "AFTER_EURAGEDIC": 1,
+   "AIRWAVE": 1,
+   "AMC_PAS": 1,
+   "ANGIO_LUEBECK": 1,
+   "ASCOT": 1,
+   "ASPS": 1,
+   "ASPS_FAM": 1,
+   "BAMSE": 1,
+   "BC1936_DK": 1,
+   "BCFR": 1,
+   "BCFR_UTAH": 1,
+   "BEIJING_EYE_STUDY": 1,
+   "BES": 1,
+   "BETAGENE": 1,
+   "BRAVE": 1,
+   "BUSSELTON": 1,
+   "CADOMICS": 1,
+   "CAGE_GWAS": 1,
+   "CAGE_KING": 1,
+   "CANADA_LUNG_SCREENING": 1,
+   "CAPPS": 1,
+   "CAPUA": 1,
+   "CARET": 1,
+   "CEDARS_IBD": 1,
+   "CENTRAL_EUROPE_LUNG": 1,
+   "CFS": 1,
+   "CHILDRENS_HEALTH_STUDY": 1,
+   "CHOP_IBD": 1,
+   "CHRIS": 1,
+   "CIHDS": 1,
+   "CILENTO": 1,
+   "CLHNS": 1,
+   "COPENHAGEN_LUNG": 1,
+   "COPSAC": 1,
+   "COPSAC2000": 1,
+   "CPSII": 1,
+   "CRC_CHINA": 1,
+   "CZECH_POST_MONICA": 1,
+   "DAGC": 1,
+   "DIACORE": 1,
+   "DIAGEN": 1,
+   "DILGOM": 1,
+   "DNBC": 1,
+   "DPS": 1,
+   "DRECA": 1,
+   "DRS_EXTRA": 1,
+   "EAGLE": 1,
+   "ECRHS": 1,
+   "EGEA": 1,
+   "ELY": 1,
+   "EMIL": 1,
+   "EMORY_GENEBANK": 1,
+   "EPIHEALTH": 1,
+   "ESTONIA_LUNG": 1,
+   "FAMILY_HEART_STUDY": 1,
+   "FENLAND": 1,
+   "FHRISK": 1,
+   "FINCAVAS": 1,
+   "FIN_D2D2007": 1,
+   "FRANCE_LUNG": 1,
+   "FRENCH_ADULT_CONTROL": 1,
+   "FRENCH_ADULT_OBESE": 1,
+   "FRENCH_YOUNG_CONTROL": 1,
+   "FRENCH_YOUNG_OBESE": 1,
+   "FRISCII": 1,
+   "GABRIELA": 1,
+   "GABRIEL_INDUSTRIAL": 1,
+   "GABRIEL_SEVERE": 1,
+   "GELCAPS": 1,
+   "GENESTAR": 1,
+   "GERMANY_LUNG": 1,
+   "GOYA": 1,
+   "GRAAD": 1,
+   "GSK_DEPRESSION": 1,
+   "HALST": 1,
+   "HBC": 1,
+   "HEALTH2006": 1,
+   "HLCS": 1,
+   "HTNIR": 1,
+   "HYPERGENES": 1,
+   "IARC_L2": 1,
+   "IIBDGC_BEL1": 1,
+   "IIBDGC_BEL2": 1,
+   "IIBDGC_GERMAN": 1,
+   "IIBDGC_NORWEGIAN": 1,
+   "IIBDGC_SWEDISH": 1,
+   "IMPROVE": 1,
+   "INCHIANTI": 1,
+   "INGI_CARLANTINO": 1,
+   "INGI_FVG": 1,
+   "INGI_VAL_BORBERA": 1,
+   "INTER99": 1,
+   "INTERVAL": 1,
+   "INVEST": 1,
+   "IRAS": 1,
+   "IRAS_FS": 1,
+   "JCOAAD": 1,
+   "JPAC": 1,
+   "JUPITER": 1,
+   "KARE": 1,
+   "KENTUCKY_LCRI": 1,
+   "KSMU": 1,
+   "LEIPZIG_ADULTS": 1,
+   "LEIPZIG_KIDS": 1,
+   "LIFE_ADULT": 1,
+   "LIFE_CHILD": 1,
+   "LISA_GINI": 1,
+   "LLFS": 1,
+   "LLP": 1,
+   "LLS": 1,
+   "MAAS": 1,
+   "MACAD": 1,
+   "MAGICS_MAS": 1,
+   "MANOLIS": 1,
+   "MDACC_LUNG": 1,
+   "MEGA": 1,
+   "MOFFITT_TLC": 1,
+   "MORGAM_FIN": 1,
+   "MORGAM_FRA": 1,
+   "MORGAM_GER": 1,
+   "MORGAM_ITA": 1,
+   "MORGAM_UNK": 1,
+   "MRCA_UK": 1,
+   "MSH_PMH": 1,
+   "MSKCC": 1,
+   "NAGAHAMA": 1,
+   "NCBCS": 1,
+   "NELCS": 1,
+   "NESDA": 1,
+   "NFBC1986": 1,
+   "NHAPC": 1,
+   "NICCC_LCA": 1,
+   "NIDDK_IBDGC": 1,
+   "NIDDM": 1,
+   "NIJMEGEN_BIOMEDICAL_STUDY": 1,
+   "NIJMEGEN_LUNG": 1,
+   "NORWAY_NIOH_LUNG": 1,
+   "NSHD": 1,
+   "NSHDS": 1,
+   "OGLIASTRA": 1,
+   "OXFORD_BIOBANK": 1,
+   "PELOTAS": 1,
+   "PENN_MEDICINE_BIOBANK": 1,
+   "PIAMA": 1,
+   "PKARMA": 1,
+   "PMB": 1,
+   "POMAK": 1,
+   "PROCAS": 1,
+   "RESOLUCENT": 1,
+   "RHS": 1,
+   "RISC": 1,
+   "SAGE_CANADA": 1,
+   "SAPALDIA": 1,
+   "SARDINIA": 1,
+   "SCARFSHEEP": 1,
+   "SCARF_SHEEP": 1,
+   "SCHS": 1,
+   "SIGMA": 1,
+   "SINGAPORE_DIABETIC_COHORT": 1,
+   "SKIPOGH": 1,
+   "SKKDKFZS": 1,
+   "SLRI_TORONTO": 1,
+   "SLSJ": 1,
+   "SMHS": 1,
+   "STABILITY": 1,
+   "STAMPEED_ASTHMA": 1,
+   "STR": 1,
+   "SUCCESSB": 1,
+   "SUCCESSC": 1,
+   "TACT": 1,
+   "TAICHI": 1,
+   "TAIWAN_DRAGON": 1,
+   "TAMPA_LUNG": 1,
+   "TCAD": 1,
+   "TCAGEN": 1,
+   "TIMI": 1,
+   "TOMSK": 1,
+   "TRIPOD": 1,
+   "TRIUMPH": 1,
+   "TUDR": 1,
+   "TWSC": 1,
+   "UFA": 1,
+   "UGANDA_GPC": 1,
+   "UK2": 1,
+   "UKHLS": 1,
+   "UNNAMED_SWEDEN_METABOCHIP": 1,
+   "USRT": 1,
+   "VIP": 1,
+   "VUMC": 1,
+   "WHITEHALL2": 1,
+   "WTCCC_CAD2": 1
+  },
+  "commonest_pqtl_outcome_combinations": [
+   {
+    "pqtl": "not_stated",
+    "outcome": "not_stated",
+    "families": 416
+   },
+   {
+    "pqtl": "not_stated",
+    "outcome": "unmatched",
+    "families": 57
+   },
+   {
+    "pqtl": "not_stated",
+    "outcome": "one of: UK Biobank + CARDIoGRAMplusC4D CAD (van der Harst 2018) / UK Biobank + ICBP blood pressure (Evangelou 2018) / UK Biobank + TAGC asthma (Han 2020) / UK Biobank SAIGE PheWeb (Zhou et al. 2018) / UK Biobank TOPMed-imputed PheWeb (Lee/Michigan)",
+    "families": 51
+   },
+   {
+    "pqtl": "deCODE SomaScan v4 (Ferkingstad 2021)",
+    "outcome": "not_stated",
+    "families": 25
+   },
+   {
+    "pqtl": "unmatched",
+    "outcome": "not_stated",
+    "families": 25
+   },
+   {
+    "pqtl": "unmatched",
+    "outcome": "unmatched",
+    "families": 19
+   },
+   {
+    "pqtl": "not_stated",
+    "outcome": "one of: FinnGen R10 / FinnGen R11 / FinnGen R12 / FinnGen R12 + MVP + UK Biobank meta-analysis / FinnGen R12 + UK Biobank meta-analysis / FinnGen R3 / FinnGen R4 / FinnGen R5 / FinnGen R6 / FinnGen R7 / FinnGen R8 / FinnGen R9",
+    "families": 18
+   },
+   {
+    "pqtl": "one of: Dhindsa 2023 UKB-PPP exome (rare variant) / UKB-PPP ancestry-specific (non-European) / UKB-PPP discovery / UKB-PPP full cohort (combined) / UKB-PPP replication",
+    "outcome": "not_stated",
+    "families": 16
+   },
+   {
+    "pqtl": "not_stated",
+    "outcome": "FinnGen R10",
+    "families": 15
+   },
+   {
+    "pqtl": "one of: UKB-PPP ancestry-specific (non-European) / UKB-PPP discovery / UKB-PPP full cohort (combined) / UKB-PPP replication / unlisted release of ukb ppp",
+    "outcome": "not_stated",
+    "families": 12
+   }
+  ]
+ },
+ "edge_relations": {
+  "multi_family_pairs": 242,
+  "edges": 563,
+  "imprecise_under_20_pairs": false,
+  "pqtl_side": {
+   "identical_release": {
+    "edges": 0,
+    "share": 0.0,
+    "pair_bootstrap": [
+     0.0,
+     0.0
+    ]
+   },
+   "overlapping_participant_source": {
+    "edges": 32,
+    "share": 0.056838365896980464,
+    "pair_bootstrap": [
+     0.034926470588235295,
+     0.0854368932038835
+    ]
+   },
+   "disjoint": {
+    "edges": 7,
+    "share": 0.012433392539964476,
+    "pair_bootstrap": [
+     0.0030075187969924814,
+     0.023722627737226276
+    ]
+   },
+   "unclear": {
+    "edges": 524,
+    "share": 0.9307282415630551,
+    "pair_bootstrap": [
+     0.9001883239171374,
+     0.9557522123893806
+    ]
+   }
+  },
+  "outcome_side": {
+   "identical_release": {
+    "edges": 6,
+    "share": 0.010657193605683837,
+    "pair_bootstrap": [
+     0.0031645569620253164,
+     0.021413276231263382
+    ]
+   },
+   "overlapping_participant_source": {
+    "edges": 11,
+    "share": 0.019538188277087035,
+    "pair_bootstrap": [
+     0.008955223880597015,
+     0.034
+    ]
+   },
+   "disjoint": {
+    "edges": 0,
+    "share": 0.0,
+    "pair_bootstrap": [
+     0.0,
+     0.0
+    ]
+   },
+   "unclear": {
+    "edges": 546,
+    "share": 0.9698046181172292,
+    "pair_bootstrap": [
+     0.9508506616257089,
+     0.9836734693877551
+    ]
+   }
+  },
+  "edge_class": {
+   "identical_release": {
+    "edges": 0,
+    "share": 0.0,
+    "pair_bootstrap": [
+     0.0,
+     0.0
+    ]
+   },
+   "overlapping": {
+    "edges": 41,
+    "share": 0.07282415630550622,
+    "pair_bootstrap": [
+     0.0481283422459893,
+     0.10599078341013825
+    ]
+   },
+   "unclear": {
+    "edges": 522,
+    "share": 0.9271758436944938,
+    "pair_bootstrap": [
+     0.8939096267190569,
+     0.9518518518518518
+    ]
+   },
+   "independent": {
+    "edges": 0,
+    "share": 0.0,
+    "pair_bootstrap": [
+     0.0,
+     0.0
+    ]
+   }
+  }
+ },
+ "h2_by_families_per_pair": {
+  "2": {
+   "h2_identical_release": {
+    "pairs": 186,
+    "known_identical": 0,
+    "known_not_identical": 6,
+    "unresolved": 180,
+    "lower": 0.0,
+    "upper": 0.967741935483871,
+    "pair_bootstrap_lower": [
+     0.0,
+     0.0
+    ],
+    "pair_bootstrap_upper": [
+     0.9408602150537635,
+     0.989247311827957
+    ],
+    "imprecise_under_20_pairs": false
+   },
+   "h2b_identical_or_overlapping": {
+    "pairs": 186,
+    "known_overlapping": 8,
+    "known_not_overlapping": 3,
+    "unresolved": 175,
+    "lower": 0.043010752688172046,
+    "upper": 0.9838709677419355,
+    "pair_bootstrap_lower": [
+     0.016129032258064516,
+     0.07526881720430108
+    ],
+    "pair_bootstrap_upper": [
+     0.9623655913978495,
+     1.0
+    ],
+    "imprecise_under_20_pairs": false
+   },
+   "resolvable_pairs": 0
+  },
+  "3": {
+   "h2_identical_release": {
+    "pairs": 35,
+    "known_identical": 0,
+    "known_not_identical": 2,
+    "unresolved": 33,
+    "lower": 0.0,
+    "upper": 0.9428571428571428,
+    "pair_bootstrap_lower": [
+     0.0,
+     0.0
+    ],
+    "pair_bootstrap_upper": [
+     0.8571428571428571,
+     1.0
+    ],
+    "imprecise_under_20_pairs": false
+   },
+   "h2b_identical_or_overlapping": {
+    "pairs": 35,
+    "known_overlapping": 0,
+    "known_not_overlapping": 0,
+    "unresolved": 35,
+    "lower": 0.0,
+    "upper": 1.0,
+    "pair_bootstrap_lower": [
+     0.0,
+     0.0
+    ],
+    "pair_bootstrap_upper": [
+     1.0,
+     1.0
+    ],
+    "imprecise_under_20_pairs": false
+   },
+   "resolvable_pairs": 0
+  },
+  "4_or_more": {
+   "h2_identical_release": {
+    "pairs": 21,
+    "known_identical": 0,
+    "known_not_identical": 3,
+    "unresolved": 18,
+    "lower": 0.0,
+    "upper": 0.8571428571428571,
+    "pair_bootstrap_lower": [
+     0.0,
+     0.0
+    ],
+    "pair_bootstrap_upper": [
+     0.7142857142857143,
+     1.0
+    ],
+    "imprecise_under_20_pairs": false
+   },
+   "h2b_identical_or_overlapping": {
+    "pairs": 21,
+    "known_overlapping": 0,
+    "known_not_overlapping": 2,
+    "unresolved": 19,
+    "lower": 0.0,
+    "upper": 0.9047619047619048,
+    "pair_bootstrap_lower": [
+     0.0,
+     0.0
+    ],
+    "pair_bootstrap_upper": [
+     0.7619047619047619,
+     1.0
+    ],
+    "imprecise_under_20_pairs": false
+   },
+   "resolvable_pairs": 0
+  }
+ },
+ "h2_directional_pairs": {
+  "h2_identical_release": {
+   "pairs": 21,
+   "known_identical": 0,
+   "known_not_identical": 0,
+   "unresolved": 21,
+   "lower": 0.0,
+   "upper": 1.0,
+   "pair_bootstrap_lower": [
+    0.0,
+    0.0
+   ],
+   "pair_bootstrap_upper": [
+    1.0,
+    1.0
+   ],
+   "imprecise_under_20_pairs": false
+  },
+  "h2b_identical_or_overlapping": {
+   "pairs": 21,
+   "known_overlapping": 0,
+   "known_not_overlapping": 0,
+   "unresolved": 21,
+   "lower": 0.0,
+   "upper": 1.0,
+   "pair_bootstrap_lower": [
+    0.0,
+    0.0
+   ],
+   "pair_bootstrap_upper": [
+    1.0,
+    1.0
+   ],
+   "imprecise_under_20_pairs": false
+  },
+  "resolvable_pairs": 0
+ },
+ "direction_agreement_by_edge_class": {
+  "pairs_with_a_directional_edge": 21,
+  "identical_release": {
+   "edges": 0,
+   "edges_agreeing": 0,
+   "share_agreeing": null,
+   "pairs": 0,
+   "wilson_descriptive": null,
+   "pair_bootstrap": null,
+   "imprecise_under_20_pairs": true,
+   "role": "positive_control"
+  },
+  "overlapping": {
+   "edges": 0,
+   "edges_agreeing": 0,
+   "share_agreeing": null,
+   "pairs": 0,
+   "wilson_descriptive": null,
+   "pair_bootstrap": null,
+   "imprecise_under_20_pairs": true
+  },
+  "unclear": {
+   "edges": 32,
+   "edges_agreeing": 26,
+   "share_agreeing": 0.8125,
+   "pairs": 21,
+   "wilson_descriptive": [
+    0.6469084479862404,
+    0.9111045531043405
+   ],
+   "pair_bootstrap": [
+    0.6206896551724138,
+    0.95
+   ],
+   "imprecise_under_20_pairs": false
+  },
+  "independent": {
+   "edges": 0,
+   "edges_agreeing": 0,
+   "share_agreeing": null,
+   "pairs": 0,
+   "wilson_descriptive": null,
+   "pair_bootstrap": null,
+   "imprecise_under_20_pairs": true
+  },
+  "independent_minus_overlapping": {
+   "difference": null,
+   "interval": null,
+   "undefined_replicates": 0
+  }
+ },
+ "significance_discordance": {
+  "multi_family_pairs": 242,
+  "significance_discordant_pairs": 1,
+  "share": 0.004132231404958678,
+  "wilson_descriptive": [
+   0.0007298131132703837,
+   0.023031267905023717
+  ],
+  "pair_bootstrap": [
+   0.0,
+   0.012396694214876033
+  ],
+  "edges_by_class": {
+   "identical_release": 0,
+   "overlapping": 0,
+   "unclear": 1,
+   "independent": 0
+  },
+  "imprecise_under_20_pairs": false
+ },
+ "contradiction_source_comparison": {
+  "pairs_with_a_directional_edge": 21,
+  "discordant_edges": 6,
+  "concordant_edges": 26,
+  "pqtl": {
+   "discordant_differ": 0,
+   "concordant_differ": 0,
+   "discordant_share_differ": 0.0,
+   "concordant_share_differ": 0.0,
+   "discordant_minus_concordant": {
+    "difference": 0.0,
+    "interval": [
+     0.0,
+     0.0
+    ],
+    "undefined_replicates": 30
+   }
+  },
+  "outcome": {
+   "discordant_differ": 0,
+   "concordant_differ": 0,
+   "discordant_share_differ": 0.0,
+   "concordant_share_differ": 0.0,
+   "discordant_minus_concordant": {
+    "difference": 0.0,
+    "interval": [
+     0.0,
+     0.0
+    ],
+    "undefined_replicates": 30
+   }
+  },
+  "platform": {
+   "discordant_differ": 0,
+   "concordant_differ": 0,
+   "discordant_share_differ": 0.0,
+   "concordant_share_differ": 0.0,
+   "discordant_minus_concordant": {
+    "difference": 0.0,
+    "interval": [
+     0.0,
+     0.0
+    ],
+    "undefined_replicates": 30
+   }
+  },
+  "ancestry": {
+   "discordant_differ": 0,
+   "concordant_differ": 2,
+   "discordant_share_differ": 0.0,
+   "concordant_share_differ": 0.07692307692307693,
+   "discordant_minus_concordant": {
+    "difference": -0.07692307692307693,
+    "interval": [
+     -0.22727272727272727,
+     0.0
+    ],
+    "undefined_replicates": 30
+   }
+  },
+  "any": {
+   "discordant_differ": 0,
+   "concordant_differ": 2,
+   "discordant_share_differ": 0.0,
+   "concordant_share_differ": 0.07692307692307693,
+   "discordant_minus_concordant": {
+    "difference": -0.07692307692307693,
+    "interval": [
+     -0.22727272727272727,
+     0.0
+    ],
+    "undefined_replicates": 30
+   }
+  },
+  "imprecise_under_20_pairs": true
+ },
+ "first_claim_concordance": {
+  "pairs_with_a_first_family": 21,
+  "pairs_tied_first": 0,
+  "later_families": 26,
+  "later_families_same_direction": 21,
+  "share": 0.8076923076923077,
+  "wilson_descriptive": [
+   0.6212374288068301,
+   0.9149293885105758
+  ],
+  "pair_bootstrap": [
+   0.6363636363636364,
+   0.9444444444444444
+  ],
+  "by_edge_class": {
+   "identical_release": {
+    "later_families": 0,
+    "same_direction": 0,
+    "share": null
+   },
+   "overlapping": {
+    "later_families": 0,
+    "same_direction": 0,
+    "share": null
+   },
+   "unclear": {
+    "later_families": 26,
+    "same_direction": 21,
+    "share": 0.8076923076923077
+   },
+   "independent": {
+    "later_families": 0,
+    "same_direction": 0,
+    "share": null
+   }
+  },
+  "imprecise_under_20_pairs": false
+ },
+ "periods": {
+  "2019-2022": {
+   "distinct_pairs": 183,
+   "multi_family_pairs": 10,
+   "h2_lower": {
+    "pairs": 10,
+    "share": 0.0,
+    "pair_bootstrap": [
+     0.0,
+     0.0
+    ],
+    "imprecise_under_20_pairs": true
+   },
+   "h2_upper": {
+    "pairs": 10,
+    "share": 1.0,
+    "pair_bootstrap": [
+     1.0,
+     1.0
+    ],
+    "imprecise_under_20_pairs": true
+   },
+   "h2b_lower": {
+    "pairs": 10,
+    "share": 0.0,
+    "pair_bootstrap": [
+     0.0,
+     0.0
+    ],
+    "imprecise_under_20_pairs": true
+   },
+   "h2b_upper": {
+    "pairs": 10,
+    "share": 1.0,
+    "pair_bootstrap": [
+     1.0,
+     1.0
+    ],
+    "imprecise_under_20_pairs": true
+   },
+   "resolvable_share": {
+    "pairs": 10,
+    "share": 0.0,
+    "pair_bootstrap": [
+     0.0,
+     0.0
+    ],
+    "imprecise_under_20_pairs": true
+   },
+   "significance_discordant_share": {
+    "pairs": 10,
+    "share": 0.1,
+    "pair_bootstrap": [
+     0.0,
+     0.3
+    ],
+    "imprecise_under_20_pairs": true
+   },
+   "contradicting_share": {
+    "pairs": 2,
+    "share": 0.0,
+    "pair_bootstrap": [
+     0.0,
+     0.0
+    ],
+    "imprecise_under_20_pairs": true
+   },
+   "h1_pair_concordance": {
+    "pairs": 0,
+    "share": null,
+    "pair_bootstrap": null,
+    "imprecise_under_20_pairs": true
+   }
+  },
+  "2023-2025": {
+   "distinct_pairs": 2562,
+   "multi_family_pairs": 230,
+   "h2_lower": {
+    "pairs": 230,
+    "share": 0.0,
+    "pair_bootstrap": [
+     0.0,
+     0.0
+    ],
+    "imprecise_under_20_pairs": false
+   },
+   "h2_upper": {
+    "pairs": 230,
+    "share": 0.9565217391304348,
+    "pair_bootstrap": [
+     0.9304347826086956,
+     0.9826086956521739
+    ],
+    "imprecise_under_20_pairs": false
+   },
+   "h2b_lower": {
+    "pairs": 230,
+    "share": 0.034782608695652174,
+    "pair_bootstrap": [
+     0.013043478260869565,
+     0.06086956521739131
+    ],
+    "imprecise_under_20_pairs": false
+   },
+   "h2b_upper": {
+    "pairs": 230,
+    "share": 0.9826086956521739,
+    "pair_bootstrap": [
+     0.9652173913043478,
+     0.9956521739130435
+    ],
+    "imprecise_under_20_pairs": false
+   },
+   "resolvable_share": {
+    "pairs": 230,
+    "share": 0.0,
+    "pair_bootstrap": [
+     0.0,
+     0.0
+    ],
+    "imprecise_under_20_pairs": false
+   },
+   "significance_discordant_share": {
+    "pairs": 230,
+    "share": 0.0,
+    "pair_bootstrap": [
+     0.0,
+     0.0
+    ],
+    "imprecise_under_20_pairs": false
+   },
+   "contradicting_share": {
+    "pairs": 19,
+    "share": 0.2631578947368421,
+    "pair_bootstrap": [
+     0.05263157894736842,
+     0.47368421052631576
+    ],
+    "imprecise_under_20_pairs": true
+   },
+   "h1_pair_concordance": {
+    "pairs": 0,
+    "share": null,
+    "pair_bootstrap": null,
+    "imprecise_under_20_pairs": true
+   }
+  },
+  "later_minus_earlier": {
+   "h2_lower": {
+    "difference": 0.0,
+    "interval": [
+     0.0,
+     0.0
+    ]
+   },
+   "h2_upper": {
+    "difference": -0.04347826086956519,
+    "interval": [
+     -0.06956521739130439,
+     -0.017391304347826098
+    ]
+   },
+   "h2b_lower": {
+    "difference": 0.034782608695652174,
+    "interval": [
+     0.013043478260869565,
+     0.06086956521739131
+    ]
+   },
+   "h2b_upper": {
+    "difference": -0.017391304347826098,
+    "interval": [
+     -0.034782608695652195,
+     -0.004347826086956497
+    ]
+   },
+   "resolvable_share": {
+    "difference": 0.0,
+    "interval": [
+     0.0,
+     0.0
+    ]
+   },
+   "significance_discordant_share": {
+    "difference": -0.1,
+    "interval": [
+     -0.3,
+     0.0
+    ]
+   },
+   "contradicting_share": {
+    "difference": 0.2631578947368421,
+    "interval": [
+     0.05263157894736842,
+     0.47368421052631576
+    ]
+   },
+   "h1_pair_concordance": {
+    "difference": null,
+    "interval": null
+   }
+  }
+ },
+ "yearly_series": {
+  "2019": {
+   "families": 11,
+   "claim_records": 20,
+   "pairs_claimed": 19,
+   "new_pairs": 19,
+   "pairs_already_claimed_in_an_earlier_year": 0,
+   "share_already_claimed": 0.0
+  },
+  "2020": {
+   "families": 23,
+   "claim_records": 27,
+   "pairs_claimed": 20,
+   "new_pairs": 20,
+   "pairs_already_claimed_in_an_earlier_year": 0,
+   "share_already_claimed": 0.0
+  },
+  "2021": {
+   "families": 29,
+   "claim_records": 45,
+   "pairs_claimed": 36,
+   "new_pairs": 35,
+   "pairs_already_claimed_in_an_earlier_year": 1,
+   "share_already_claimed": 0.027777777777777776
+  },
+  "2022": {
+   "families": 63,
+   "claim_records": 125,
+   "pairs_claimed": 114,
+   "new_pairs": 109,
+   "pairs_already_claimed_in_an_earlier_year": 5,
+   "share_already_claimed": 0.043859649122807015
+  },
+  "2023": {
+   "families": 132,
+   "claim_records": 507,
+   "pairs_claimed": 419,
+   "new_pairs": 398,
+   "pairs_already_claimed_in_an_earlier_year": 21,
+   "share_already_claimed": 0.050119331742243436
+  },
+  "2024": {
+   "families": 437,
+   "claim_records": 1170,
+   "pairs_claimed": 941,
+   "new_pairs": 906,
+   "pairs_already_claimed_in_an_earlier_year": 35,
+   "share_already_claimed": 0.03719447396386823
+  },
+  "2025": {
+   "families": 699,
+   "claim_records": 1661,
+   "pairs_claimed": 1355,
+   "new_pairs": 1258,
+   "pairs_already_claimed_in_an_earlier_year": 97,
+   "share_already_claimed": 0.07158671586715867
+  },
+  "2026": {
+   "families": 0,
+   "claim_records": 0,
+   "pairs_claimed": 7,
+   "new_pairs": 5,
+   "pairs_already_claimed_in_an_earlier_year": 2,
+   "share_already_claimed": 0.2857142857142857
+  }
+ },
+ "therapeutic_areas": {
+  "EFO:0000651": {
+   "pairs": 1277,
+   "multi_family_pairs": 137,
+   "multi_family_share": 0.10728269381362568,
+   "h2_identical_release": {
+    "pairs": 137,
+    "known_identical": 0,
+    "known_not_identical": 9,
+    "unresolved": 128,
+    "lower": 0.0,
+    "upper": 0.9343065693430657,
+    "pair_bootstrap_lower": [
+     0.0,
+     0.0
+    ],
+    "pair_bootstrap_upper": [
+     0.8905109489051095,
+     0.9708029197080292
+    ],
+    "imprecise_under_20_pairs": false
+   },
+   "h2b_identical_or_overlapping": {
+    "pairs": 137,
+    "known_overlapping": 0,
+    "known_not_overlapping": 5,
+    "unresolved": 132,
+    "lower": 0.0,
+    "upper": 0.9635036496350365,
+    "pair_bootstrap_lower": [
+     0.0,
+     0.0
+    ],
+    "pair_bootstrap_upper": [
+     0.927007299270073,
+     0.9927007299270073
+    ],
+    "imprecise_under_20_pairs": false
+   },
+   "resolvable_pairs": 0,
+   "pairs_with_two_directional_families": 10,
+   "contradicting_pairs": 4,
+   "contradicting_share": 0.4,
+   "imprecise_under_20_pairs": false
+  },
+  "EFO:0001444": {
+   "pairs": 194,
+   "multi_family_pairs": 8,
+   "multi_family_share": 0.041237113402061855,
+   "h2_identical_release": {
+    "pairs": 8,
+    "known_identical": 0,
+    "known_not_identical": 0,
+    "unresolved": 8,
+    "lower": 0.0,
+    "upper": 1.0,
+    "pair_bootstrap_lower": [
+     0.0,
+     0.0
+    ],
+    "pair_bootstrap_upper": [
+     1.0,
+     1.0
+    ],
+    "imprecise_under_20_pairs": true
+   },
+   "h2b_identical_or_overlapping": {
+    "pairs": 8,
+    "known_overlapping": 0,
+    "known_not_overlapping": 0,
+    "unresolved": 8,
+    "lower": 0.0,
+    "upper": 1.0,
+    "pair_bootstrap_lower": [
+     0.0,
+     0.0
+    ],
+    "pair_bootstrap_upper": [
+     1.0,
+     1.0
+    ],
+    "imprecise_under_20_pairs": true
+   },
+   "resolvable_pairs": 0,
+   "pairs_with_two_directional_families": 3,
+   "contradicting_pairs": 0,
+   "contradicting_share": 0.0,
+   "imprecise_under_20_pairs": true
+  },
+  "EFO:0010282": {
+   "pairs": 446,
+   "multi_family_pairs": 43,
+   "multi_family_share": 0.09641255605381166,
+   "h2_identical_release": {
+    "pairs": 43,
+    "known_identical": 0,
+    "known_not_identical": 1,
+    "unresolved": 42,
+    "lower": 0.0,
+    "upper": 0.9767441860465116,
+    "pair_bootstrap_lower": [
+     0.0,
+     0.0
+    ],
+    "pair_bootstrap_upper": [
+     0.9302325581395349,
+     1.0
+    ],
+    "imprecise_under_20_pairs": false
+   },
+   "h2b_identical_or_overlapping": {
+    "pairs": 43,
+    "known_overlapping": 0,
+    "known_not_overlapping": 0,
+    "unresolved": 43,
+    "lower": 0.0,
+    "upper": 1.0,
+    "pair_bootstrap_lower": [
+     0.0,
+     0.0
+    ],
+    "pair_bootstrap_upper": [
+     1.0,
+     1.0
+    ],
+    "imprecise_under_20_pairs": false
+   },
+   "resolvable_pairs": 0,
+   "pairs_with_two_directional_families": 2,
+   "contradicting_pairs": 0,
+   "contradicting_share": 0.0,
+   "imprecise_under_20_pairs": false
+  },
+  "GO:0008150": {
+   "pairs": 23,
+   "multi_family_pairs": 0,
+   "multi_family_share": 0.0,
+   "h2_identical_release": {
+    "pairs": 0,
+    "known_identical": 0,
+    "known_not_identical": 0,
+    "unresolved": 0,
+    "lower": null,
+    "upper": null,
+    "pair_bootstrap_lower": null,
+    "pair_bootstrap_upper": null,
+    "imprecise_under_20_pairs": true
+   },
+   "h2b_identical_or_overlapping": {
+    "pairs": 0,
+    "known_overlapping": 0,
+    "known_not_overlapping": 0,
+    "unresolved": 0,
+    "lower": null,
+    "upper": null,
+    "pair_bootstrap_lower": null,
+    "pair_bootstrap_upper": null,
+    "imprecise_under_20_pairs": true
+   },
+   "resolvable_pairs": 0,
+   "pairs_with_two_directional_families": 0,
+   "contradicting_pairs": 0,
+   "contradicting_share": null,
+   "imprecise_under_20_pairs": true
+  },
+  "MONDO:0002025": {
+   "pairs": 231,
+   "multi_family_pairs": 44,
+   "multi_family_share": 0.19047619047619047,
+   "h2_identical_release": {
+    "pairs": 44,
+    "known_identical": 0,
+    "known_not_identical": 5,
+    "unresolved": 39,
+    "lower": 0.0,
+    "upper": 0.8863636363636364,
+    "pair_bootstrap_lower": [
+     0.0,
+     0.0
+    ],
+    "pair_bootstrap_upper": [
+     0.7954545454545454,
+     0.9772727272727273
+    ],
+    "imprecise_under_20_pairs": false
+   },
+   "h2b_identical_or_overlapping": {
+    "pairs": 44,
+    "known_overlapping": 0,
+    "known_not_overlapping": 3,
+    "unresolved": 41,
+    "lower": 0.0,
+    "upper": 0.9318181818181818,
+    "pair_bootstrap_lower": [
+     0.0,
+     0.0
+    ],
+    "pair_bootstrap_upper": [
+     0.8409090909090909,
+     1.0
+    ],
+    "imprecise_under_20_pairs": false
+   },
+   "resolvable_pairs": 0,
+   "pairs_with_two_directional_families": 6,
+   "contradicting_pairs": 3,
+   "contradicting_share": 0.5,
+   "imprecise_under_20_pairs": false
+  },
+  "MONDO:0002051": {
+   "pairs": 156,
+   "multi_family_pairs": 10,
+   "multi_family_share": 0.0641025641025641,
+   "h2_identical_release": {
+    "pairs": 10,
+    "known_identical": 0,
+    "known_not_identical": 0,
+    "unresolved": 10,
+    "lower": 0.0,
+    "upper": 1.0,
+    "pair_bootstrap_lower": [
+     0.0,
+     0.0
+    ],
+    "pair_bootstrap_upper": [
+     1.0,
+     1.0
+    ],
+    "imprecise_under_20_pairs": true
+   },
+   "h2b_identical_or_overlapping": {
+    "pairs": 10,
+    "known_overlapping": 0,
+    "known_not_overlapping": 0,
+    "unresolved": 10,
+    "lower": 0.0,
+    "upper": 1.0,
+    "pair_bootstrap_lower": [
+     0.0,
+     0.0
+    ],
+    "pair_bootstrap_upper": [
+     1.0,
+     1.0
+    ],
+    "imprecise_under_20_pairs": true
+   },
+   "resolvable_pairs": 0,
+   "pairs_with_two_directional_families": 2,
+   "contradicting_pairs": 0,
+   "contradicting_share": 0.0,
+   "imprecise_under_20_pairs": true
+  },
+  "MONDO:0002118": {
+   "pairs": 117,
+   "multi_family_pairs": 5,
+   "multi_family_share": 0.042735042735042736,
+   "h2_identical_release": {
+    "pairs": 5,
+    "known_identical": 0,
+    "known_not_identical": 0,
+    "unresolved": 5,
+    "lower": 0.0,
+    "upper": 1.0,
+    "pair_bootstrap_lower": [
+     0.0,
+     0.0
+    ],
+    "pair_bootstrap_upper": [
+     1.0,
+     1.0
+    ],
+    "imprecise_under_20_pairs": true
+   },
+   "h2b_identical_or_overlapping": {
+    "pairs": 5,
+    "known_overlapping": 0,
+    "known_not_overlapping": 0,
+    "unresolved": 5,
+    "lower": 0.0,
+    "upper": 1.0,
+    "pair_bootstrap_lower": [
+     0.0,
+     0.0
+    ],
+    "pair_bootstrap_upper": [
+     1.0,
+     1.0
+    ],
+    "imprecise_under_20_pairs": true
+   },
+   "resolvable_pairs": 0,
+   "pairs_with_two_directional_families": 0,
+   "contradicting_pairs": 0,
+   "contradicting_share": null,
+   "imprecise_under_20_pairs": true
+  },
+  "MONDO:0002515": {
+   "pairs": 111,
+   "multi_family_pairs": 7,
+   "multi_family_share": 0.06306306306306306,
+   "h2_identical_release": {
+    "pairs": 7,
+    "known_identical": 0,
+    "known_not_identical": 0,
+    "unresolved": 7,
+    "lower": 0.0,
+    "upper": 1.0,
+    "pair_bootstrap_lower": [
+     0.0,
+     0.0
+    ],
+    "pair_bootstrap_upper": [
+     1.0,
+     1.0
+    ],
+    "imprecise_under_20_pairs": true
+   },
+   "h2b_identical_or_overlapping": {
+    "pairs": 7,
+    "known_overlapping": 0,
+    "known_not_overlapping": 0,
+    "unresolved": 7,
+    "lower": 0.0,
+    "upper": 1.0,
+    "pair_bootstrap_lower": [
+     0.0,
+     0.0
+    ],
+    "pair_bootstrap_upper": [
+     1.0,
+     1.0
+    ],
+    "imprecise_under_20_pairs": true
+   },
+   "resolvable_pairs": 0,
+   "pairs_with_two_directional_families": 2,
+   "contradicting_pairs": 0,
+   "contradicting_share": 0.0,
+   "imprecise_under_20_pairs": true
+  },
+  "MONDO:0004995": {
+   "pairs": 478,
+   "multi_family_pairs": 48,
+   "multi_family_share": 0.100418410041841,
+   "h2_identical_release": {
+    "pairs": 48,
+    "known_identical": 0,
+    "known_not_identical": 0,
+    "unresolved": 48,
+    "lower": 0.0,
+    "upper": 1.0,
+    "pair_bootstrap_lower": [
+     0.0,
+     0.0
+    ],
+    "pair_bootstrap_upper": [
+     1.0,
+     1.0
+    ],
+    "imprecise_under_20_pairs": false
+   },
+   "h2b_identical_or_overlapping": {
+    "pairs": 48,
+    "known_overlapping": 0,
+    "known_not_overlapping": 0,
+    "unresolved": 48,
+    "lower": 0.0,
+    "upper": 1.0,
+    "pair_bootstrap_lower": [
+     0.0,
+     0.0
+    ],
+    "pair_bootstrap_upper": [
+     1.0,
+     1.0
+    ],
+    "imprecise_under_20_pairs": false
+   },
+   "resolvable_pairs": 0,
+   "pairs_with_two_directional_families": 3,
+   "contradicting_pairs": 0,
+   "contradicting_share": 0.0,
+   "imprecise_under_20_pairs": false
+  },
+  "MONDO:0005046": {
+   "pairs": 340,
+   "multi_family_pairs": 31,
+   "multi_family_share": 0.09117647058823529,
+   "h2_identical_release": {
+    "pairs": 31,
+    "known_identical": 0,
+    "known_not_identical": 2,
+    "unresolved": 29,
+    "lower": 0.0,
+    "upper": 0.9354838709677419,
+    "pair_bootstrap_lower": [
+     0.0,
+     0.0
+    ],
+    "pair_bootstrap_upper": [
+     0.8387096774193549,
+     1.0
+    ],
+    "imprecise_under_20_pairs": false
+   },
+   "h2b_identical_or_overlapping": {
+    "pairs": 31,
+    "known_overlapping": 0,
+    "known_not_overlapping": 2,
+    "unresolved": 29,
+    "lower": 0.0,
+    "upper": 0.9354838709677419,
+    "pair_bootstrap_lower": [
+     0.0,
+     0.0
+    ],
+    "pair_bootstrap_upper": [
+     0.8387096774193549,
+     1.0
+    ],
+    "imprecise_under_20_pairs": false
+   },
+   "resolvable_pairs": 0,
+   "pairs_with_two_directional_families": 3,
+   "contradicting_pairs": 0,
+   "contradicting_share": 0.0,
+   "imprecise_under_20_pairs": false
+  },
+  "MONDO:0005071": {
+   "pairs": 601,
+   "multi_family_pairs": 76,
+   "multi_family_share": 0.1264559068219634,
+   "h2_identical_release": {
+    "pairs": 76,
+    "known_identical": 0,
+    "known_not_identical": 6,
+    "unresolved": 70,
+    "lower": 0.0,
+    "upper": 0.9210526315789473,
+    "pair_bootstrap_lower": [
+     0.0,
+     0.0
+    ],
+    "pair_bootstrap_upper": [
+     0.8552631578947368,
+     0.9736842105263158
+    ],
+    "imprecise_under_20_pairs": false
+   },
+   "h2b_identical_or_overlapping": {
+    "pairs": 76,
+    "known_overlapping": 0,
+    "known_not_overlapping": 3,
+    "unresolved": 73,
+    "lower": 0.0,
+    "upper": 0.9605263157894737,
+    "pair_bootstrap_lower": [
+     0.0,
+     0.0
+    ],
+    "pair_bootstrap_upper": [
+     0.9078947368421053,
+     1.0
+    ],
+    "imprecise_under_20_pairs": false
+   },
+   "resolvable_pairs": 0,
+   "pairs_with_two_directional_families": 8,
+   "contradicting_pairs": 3,
+   "contradicting_share": 0.375,
+   "imprecise_under_20_pairs": false
+  },
+  "MONDO:0005151": {
+   "pairs": 317,
+   "multi_family_pairs": 31,
+   "multi_family_share": 0.09779179810725552,
+   "h2_identical_release": {
+    "pairs": 31,
+    "known_identical": 0,
+    "known_not_identical": 1,
+    "unresolved": 30,
+    "lower": 0.0,
+    "upper": 0.967741935483871,
+    "pair_bootstrap_lower": [
+     0.0,
+     0.0
+    ],
+    "pair_bootstrap_upper": [
+     0.9032258064516129,
+     1.0
+    ],
+    "imprecise_under_20_pairs": false
+   },
+   "h2b_identical_or_overlapping": {
+    "pairs": 31,
+    "known_overlapping": 0,
+    "known_not_overlapping": 0,
+    "unresolved": 31,
+    "lower": 0.0,
+    "upper": 1.0,
+    "pair_bootstrap_lower": [
+     0.0,
+     0.0
+    ],
+    "pair_bootstrap_upper": [
+     1.0,
+     1.0
+    ],
+    "imprecise_under_20_pairs": false
+   },
+   "resolvable_pairs": 0,
+   "pairs_with_two_directional_families": 2,
+   "contradicting_pairs": 0,
+   "contradicting_share": 0.0,
+   "imprecise_under_20_pairs": false
+  },
+  "MONDO:0005550": {
+   "pairs": 32,
+   "multi_family_pairs": 2,
+   "multi_family_share": 0.0625,
+   "h2_identical_release": {
+    "pairs": 2,
+    "known_identical": 0,
+    "known_not_identical": 0,
+    "unresolved": 2,
+    "lower": 0.0,
+    "upper": 1.0,
+    "pair_bootstrap_lower": [
+     0.0,
+     0.0
+    ],
+    "pair_bootstrap_upper": [
+     1.0,
+     1.0
+    ],
+    "imprecise_under_20_pairs": true
+   },
+   "h2b_identical_or_overlapping": {
+    "pairs": 2,
+    "known_overlapping": 0,
+    "known_not_overlapping": 0,
+    "unresolved": 2,
+    "lower": 0.0,
+    "upper": 1.0,
+    "pair_bootstrap_lower": [
+     0.0,
+     0.0
+    ],
+    "pair_bootstrap_upper": [
+     1.0,
+     1.0
+    ],
+    "imprecise_under_20_pairs": true
+   },
+   "resolvable_pairs": 0,
+   "pairs_with_two_directional_families": 0,
+   "contradicting_pairs": 0,
+   "contradicting_share": null,
+   "imprecise_under_20_pairs": true
+  },
+  "MONDO:0005570": {
+   "pairs": 51,
+   "multi_family_pairs": 1,
+   "multi_family_share": 0.0196078431372549,
+   "h2_identical_release": {
+    "pairs": 1,
+    "known_identical": 0,
+    "known_not_identical": 0,
+    "unresolved": 1,
+    "lower": 0.0,
+    "upper": 1.0,
+    "pair_bootstrap_lower": [
+     0.0,
+     0.0
+    ],
+    "pair_bootstrap_upper": [
+     1.0,
+     1.0
+    ],
+    "imprecise_under_20_pairs": true
+   },
+   "h2b_identical_or_overlapping": {
+    "pairs": 1,
+    "known_overlapping": 0,
+    "known_not_overlapping": 0,
+    "unresolved": 1,
+    "lower": 0.0,
+    "upper": 1.0,
+    "pair_bootstrap_lower": [
+     0.0,
+     0.0
+    ],
+    "pair_bootstrap_upper": [
+     1.0,
+     1.0
+    ],
+    "imprecise_under_20_pairs": true
+   },
+   "resolvable_pairs": 0,
+   "pairs_with_two_directional_families": 0,
+   "contradicting_pairs": 0,
+   "contradicting_share": null,
+   "imprecise_under_20_pairs": true
+  },
+  "MONDO:0005583": {
+   "pairs": 2,
+   "multi_family_pairs": 0,
+   "multi_family_share": 0.0,
+   "h2_identical_release": {
+    "pairs": 0,
+    "known_identical": 0,
+    "known_not_identical": 0,
+    "unresolved": 0,
+    "lower": null,
+    "upper": null,
+    "pair_bootstrap_lower": null,
+    "pair_bootstrap_upper": null,
+    "imprecise_under_20_pairs": true
+   },
+   "h2b_identical_or_overlapping": {
+    "pairs": 0,
+    "known_overlapping": 0,
+    "known_not_overlapping": 0,
+    "unresolved": 0,
+    "lower": null,
+    "upper": null,
+    "pair_bootstrap_lower": null,
+    "pair_bootstrap_upper": null,
+    "imprecise_under_20_pairs": true
+   },
+   "resolvable_pairs": 0,
+   "pairs_with_two_directional_families": 0,
+   "contradicting_pairs": 0,
+   "contradicting_share": null,
+   "imprecise_under_20_pairs": true
+  },
+  "MONDO:0021205": {
+   "pairs": 13,
+   "multi_family_pairs": 0,
+   "multi_family_share": 0.0,
+   "h2_identical_release": {
+    "pairs": 0,
+    "known_identical": 0,
+    "known_not_identical": 0,
+    "unresolved": 0,
+    "lower": null,
+    "upper": null,
+    "pair_bootstrap_lower": null,
+    "pair_bootstrap_upper": null,
+    "imprecise_under_20_pairs": true
+   },
+   "h2b_identical_or_overlapping": {
+    "pairs": 0,
+    "known_overlapping": 0,
+    "known_not_overlapping": 0,
+    "unresolved": 0,
+    "lower": null,
+    "upper": null,
+    "pair_bootstrap_lower": null,
+    "pair_bootstrap_upper": null,
+    "imprecise_under_20_pairs": true
+   },
+   "resolvable_pairs": 0,
+   "pairs_with_two_directional_families": 0,
+   "contradicting_pairs": 0,
+   "contradicting_share": null,
+   "imprecise_under_20_pairs": true
+  },
+  "MONDO:0024458": {
+   "pairs": 102,
+   "multi_family_pairs": 6,
+   "multi_family_share": 0.058823529411764705,
+   "h2_identical_release": {
+    "pairs": 6,
+    "known_identical": 0,
+    "known_not_identical": 0,
+    "unresolved": 6,
+    "lower": 0.0,
+    "upper": 1.0,
+    "pair_bootstrap_lower": [
+     0.0,
+     0.0
+    ],
+    "pair_bootstrap_upper": [
+     1.0,
+     1.0
+    ],
+    "imprecise_under_20_pairs": true
+   },
+   "h2b_identical_or_overlapping": {
+    "pairs": 6,
+    "known_overlapping": 0,
+    "known_not_overlapping": 0,
+    "unresolved": 6,
+    "lower": 0.0,
+    "upper": 1.0,
+    "pair_bootstrap_lower": [
+     0.0,
+     0.0
+    ],
+    "pair_bootstrap_upper": [
+     1.0,
+     1.0
+    ],
+    "imprecise_under_20_pairs": true
+   },
+   "resolvable_pairs": 0,
+   "pairs_with_two_directional_families": 0,
+   "contradicting_pairs": 0,
+   "contradicting_share": null,
+   "imprecise_under_20_pairs": true
+  },
+  "MONDO:0045024": {
+   "pairs": 432,
+   "multi_family_pairs": 33,
+   "multi_family_share": 0.0763888888888889,
+   "h2_identical_release": {
+    "pairs": 33,
+    "known_identical": 0,
+    "known_not_identical": 1,
+    "unresolved": 32,
+    "lower": 0.0,
+    "upper": 0.9696969696969697,
+    "pair_bootstrap_lower": [
+     0.0,
+     0.0
+    ],
+    "pair_bootstrap_upper": [
+     0.9090909090909091,
+     1.0
+    ],
+    "imprecise_under_20_pairs": false
+   },
+   "h2b_identical_or_overlapping": {
+    "pairs": 33,
+    "known_overlapping": 0,
+    "known_not_overlapping": 0,
+    "unresolved": 33,
+    "lower": 0.0,
+    "upper": 1.0,
+    "pair_bootstrap_lower": [
+     0.0,
+     0.0
+    ],
+    "pair_bootstrap_upper": [
+     1.0,
+     1.0
+    ],
+    "imprecise_under_20_pairs": false
+   },
+   "resolvable_pairs": 0,
+   "pairs_with_two_directional_families": 3,
+   "contradicting_pairs": 0,
+   "contradicting_share": 0.0,
+   "imprecise_under_20_pairs": false
+  },
+  "OTAR:0000006": {
+   "pairs": 239,
+   "multi_family_pairs": 11,
+   "multi_family_share": 0.04602510460251046,
+   "h2_identical_release": {
+    "pairs": 11,
+    "known_identical": 0,
+    "known_not_identical": 2,
+    "unresolved": 9,
+    "lower": 0.0,
+    "upper": 0.8181818181818182,
+    "pair_bootstrap_lower": [
+     0.0,
+     0.0
+    ],
+    "pair_bootstrap_upper": [
+     0.5454545454545454,
+     1.0
+    ],
+    "imprecise_under_20_pairs": true
+   },
+   "h2b_identical_or_overlapping": {
+    "pairs": 11,
+    "known_overlapping": 0,
+    "known_not_overlapping": 2,
+    "unresolved": 9,
+    "lower": 0.0,
+    "upper": 0.8181818181818182,
+    "pair_bootstrap_lower": [
+     0.0,
+     0.0
+    ],
+    "pair_bootstrap_upper": [
+     0.5454545454545454,
+     1.0
+    ],
+    "imprecise_under_20_pairs": true
+   },
+   "resolvable_pairs": 0,
+   "pairs_with_two_directional_families": 0,
+   "contradicting_pairs": 0,
+   "contradicting_share": null,
+   "imprecise_under_20_pairs": true
+  },
+  "OTAR:0000009": {
+   "pairs": 3,
+   "multi_family_pairs": 0,
+   "multi_family_share": 0.0,
+   "h2_identical_release": {
+    "pairs": 0,
+    "known_identical": 0,
+    "known_not_identical": 0,
+    "unresolved": 0,
+    "lower": null,
+    "upper": null,
+    "pair_bootstrap_lower": null,
+    "pair_bootstrap_upper": null,
+    "imprecise_under_20_pairs": true
+   },
+   "h2b_identical_or_overlapping": {
+    "pairs": 0,
+    "known_overlapping": 0,
+    "known_not_overlapping": 0,
+    "unresolved": 0,
+    "lower": null,
+    "upper": null,
+    "pair_bootstrap_lower": null,
+    "pair_bootstrap_upper": null,
+    "imprecise_under_20_pairs": true
+   },
+   "resolvable_pairs": 0,
+   "pairs_with_two_directional_families": 0,
+   "contradicting_pairs": 0,
+   "contradicting_share": null,
+   "imprecise_under_20_pairs": true
+  },
+  "OTAR:0000010": {
+   "pairs": 126,
+   "multi_family_pairs": 10,
+   "multi_family_share": 0.07936507936507936,
+   "h2_identical_release": {
+    "pairs": 10,
+    "known_identical": 0,
+    "known_not_identical": 1,
+    "unresolved": 9,
+    "lower": 0.0,
+    "upper": 0.9,
+    "pair_bootstrap_lower": [
+     0.0,
+     0.0
+    ],
+    "pair_bootstrap_upper": [
+     0.7,
+     1.0
+    ],
+    "imprecise_under_20_pairs": true
+   },
+   "h2b_identical_or_overlapping": {
+    "pairs": 10,
+    "known_overlapping": 0,
+    "known_not_overlapping": 0,
+    "unresolved": 10,
+    "lower": 0.0,
+    "upper": 1.0,
+    "pair_bootstrap_lower": [
+     0.0,
+     0.0
+    ],
+    "pair_bootstrap_upper": [
+     1.0,
+     1.0
+    ],
+    "imprecise_under_20_pairs": true
+   },
+   "resolvable_pairs": 0,
+   "pairs_with_two_directional_families": 0,
+   "contradicting_pairs": 0,
+   "contradicting_share": null,
+   "imprecise_under_20_pairs": true
+  },
+  "OTAR:0000014": {
+   "pairs": 20,
+   "multi_family_pairs": 1,
+   "multi_family_share": 0.05,
+   "h2_identical_release": {
+    "pairs": 1,
+    "known_identical": 0,
+    "known_not_identical": 0,
+    "unresolved": 1,
+    "lower": 0.0,
+    "upper": 1.0,
+    "pair_bootstrap_lower": [
+     0.0,
+     0.0
+    ],
+    "pair_bootstrap_upper": [
+     1.0,
+     1.0
+    ],
+    "imprecise_under_20_pairs": true
+   },
+   "h2b_identical_or_overlapping": {
+    "pairs": 1,
+    "known_overlapping": 0,
+    "known_not_overlapping": 0,
+    "unresolved": 1,
+    "lower": 0.0,
+    "upper": 1.0,
+    "pair_bootstrap_lower": [
+     0.0,
+     0.0
+    ],
+    "pair_bootstrap_upper": [
+     1.0,
+     1.0
+    ],
+    "imprecise_under_20_pairs": true
+   },
+   "resolvable_pairs": 0,
+   "pairs_with_two_directional_families": 0,
+   "contradicting_pairs": 0,
+   "contradicting_share": null,
+   "imprecise_under_20_pairs": true
+  },
+  "OTAR:0000017": {
+   "pairs": 206,
+   "multi_family_pairs": 20,
+   "multi_family_share": 0.0970873786407767,
+   "h2_identical_release": {
+    "pairs": 20,
+    "known_identical": 0,
+    "known_not_identical": 1,
+    "unresolved": 19,
+    "lower": 0.0,
+    "upper": 0.95,
+    "pair_bootstrap_lower": [
+     0.0,
+     0.0
+    ],
+    "pair_bootstrap_upper": [
+     0.85,
+     1.0
+    ],
+    "imprecise_under_20_pairs": false
+   },
+   "h2b_identical_or_overlapping": {
+    "pairs": 20,
+    "known_overlapping": 0,
+    "known_not_overlapping": 0,
+    "unresolved": 20,
+    "lower": 0.0,
+    "upper": 1.0,
+    "pair_bootstrap_lower": [
+     0.0,
+     0.0
+    ],
+    "pair_bootstrap_upper": [
+     1.0,
+     1.0
+    ],
+    "imprecise_under_20_pairs": false
+   },
+   "resolvable_pairs": 0,
+   "pairs_with_two_directional_families": 2,
+   "contradicting_pairs": 1,
+   "contradicting_share": 0.5,
+   "imprecise_under_20_pairs": false
+  },
+  "OTAR:0000018": {
+   "pairs": 424,
+   "multi_family_pairs": 24,
+   "multi_family_share": 0.05660377358490566,
+   "h2_identical_release": {
+    "pairs": 24,
+    "known_identical": 0,
+    "known_not_identical": 1,
+    "unresolved": 23,
+    "lower": 0.0,
+    "upper": 0.9583333333333334,
+    "pair_bootstrap_lower": [
+     0.0,
+     0.0
+    ],
+    "pair_bootstrap_upper": [
+     0.875,
+     1.0
+    ],
+    "imprecise_under_20_pairs": false
+   },
+   "h2b_identical_or_overlapping": {
+    "pairs": 24,
+    "known_overlapping": 0,
+    "known_not_overlapping": 0,
+    "unresolved": 24,
+    "lower": 0.0,
+    "upper": 1.0,
+    "pair_bootstrap_lower": [
+     0.0,
+     0.0
+    ],
+    "pair_bootstrap_upper": [
+     1.0,
+     1.0
+    ],
+    "imprecise_under_20_pairs": false
+   },
+   "resolvable_pairs": 0,
+   "pairs_with_two_directional_families": 2,
+   "contradicting_pairs": 0,
+   "contradicting_share": 0.0,
+   "imprecise_under_20_pairs": false
+  },
+  "OTAR:0000020": {
+   "pairs": 209,
+   "multi_family_pairs": 28,
+   "multi_family_share": 0.1339712918660287,
+   "h2_identical_release": {
+    "pairs": 28,
+    "known_identical": 0,
+    "known_not_identical": 1,
+    "unresolved": 27,
+    "lower": 0.0,
+    "upper": 0.9642857142857143,
+    "pair_bootstrap_lower": [
+     0.0,
+     0.0
+    ],
+    "pair_bootstrap_upper": [
+     0.8928571428571429,
+     1.0
+    ],
+    "imprecise_under_20_pairs": false
+   },
+   "h2b_identical_or_overlapping": {
+    "pairs": 28,
+    "known_overlapping": 0,
+    "known_not_overlapping": 0,
+    "unresolved": 28,
+    "lower": 0.0,
+    "upper": 1.0,
+    "pair_bootstrap_lower": [
+     0.0,
+     0.0
+    ],
+    "pair_bootstrap_upper": [
+     1.0,
+     1.0
+    ],
+    "imprecise_under_20_pairs": false
+   },
+   "resolvable_pairs": 0,
+   "pairs_with_two_directional_families": 0,
+   "contradicting_pairs": 0,
+   "contradicting_share": null,
+   "imprecise_under_20_pairs": false
+  },
+  "no_therapeutic_area": {
+   "pairs": 54,
+   "multi_family_pairs": 10,
+   "multi_family_share": 0.18518518518518517,
+   "h2_identical_release": {
+    "pairs": 10,
+    "known_identical": 0,
+    "known_not_identical": 0,
+    "unresolved": 10,
+    "lower": 0.0,
+    "upper": 1.0,
+    "pair_bootstrap_lower": [
+     0.0,
+     0.0
+    ],
+    "pair_bootstrap_upper": [
+     1.0,
+     1.0
+    ],
+    "imprecise_under_20_pairs": true
+   },
+   "h2b_identical_or_overlapping": {
+    "pairs": 10,
+    "known_overlapping": 8,
+    "known_not_overlapping": 0,
+    "unresolved": 2,
+    "lower": 0.8,
+    "upper": 1.0,
+    "pair_bootstrap_lower": [
+     0.5,
+     1.0
+    ],
+    "pair_bootstrap_upper": [
+     1.0,
+     1.0
+    ],
+    "imprecise_under_20_pairs": true
+   },
+   "resolvable_pairs": 0,
+   "pairs_with_two_directional_families": 0,
+   "contradicting_pairs": 0,
+   "contradicting_share": null,
+   "imprecise_under_20_pairs": true
+  }
+ },
+ "platform_pairing": {
+  "pairs_with_a_directional_edge": 21,
+  "same_platform": {
+   "edges": 0,
+   "edges_agreeing": 0,
+   "discordant_edges": 0,
+   "share_agreeing": null,
+   "wilson_descriptive": null,
+   "pair_bootstrap": null,
+   "imprecise_under_20_pairs": true
+  },
+  "cross_platform": {
+   "edges": 0,
+   "edges_agreeing": 0,
+   "discordant_edges": 0,
+   "share_agreeing": null,
+   "wilson_descriptive": null,
+   "pair_bootstrap": null,
+   "imprecise_under_20_pairs": true
+  },
+  "platform_unknown": {
+   "edges": 32,
+   "edges_agreeing": 26,
+   "discordant_edges": 6,
+   "share_agreeing": 0.8125,
+   "wilson_descriptive": [
+    0.6469084479862404,
+    0.9111045531043405
+   ],
+   "pair_bootstrap": [
+    0.6206896551724138,
+    0.9512195121951219
+   ],
+   "imprecise_under_20_pairs": false
+  },
+  "cross_minus_same": {
+   "difference": null,
+   "interval": null,
+   "undefined_replicates": 0
+  }
+ },
+ "claims_per_family": {
+  "eligible_families": 1394,
+  "claim_records": 3555,
+  "families_with_zero_claims": 666,
+  "min": 0,
+  "q25": 0.0,
+  "median": 1.0,
+  "q75": 4.0,
+  "q90": 7.0,
+  "max": 32,
+  "top_decile_families": 140,
+  "share_of_claim_records_from_top_decile": 0.4829817158931083
+ },
+ "top_lists": {
+  "pairs": [
+   {
+    "protein_id": "P28799",
+    "outcome_id": "MONDO:0004975",
+    "families": 9,
+    "claim_records": 13
+   },
+   {
+    "protein_id": "P20138",
+    "outcome_id": "MONDO:0004975",
+    "families": 9,
+    "claim_records": 11
+   },
+   {
+    "protein_id": "Q9UKJ1",
+    "outcome_id": "MONDO:0004975",
+    "families": 8,
+    "claim_records": 10
+   },
+   {
+    "protein_id": "P12821",
+    "outcome_id": "MONDO:0004975",
+    "families": 7,
+    "claim_records": 10
+   },
+   {
+    "protein_id": "Q9NZC2",
+    "outcome_id": "MONDO:0004975",
+    "families": 7,
+    "claim_records": 8
+   },
+   {
+    "protein_id": "Q9NUM4",
+    "outcome_id": "MONDO:0004975",
+    "families": 6,
+    "claim_records": 8
+   },
+   {
+    "protein_id": "Q8NBP7",
+    "outcome_id": "MONDO:0005010",
+    "families": 6,
+    "claim_records": 6
+   },
+   {
+    "protein_id": "O60565",
+    "outcome_id": "MONDO:0024331",
+    "families": 5,
+    "claim_records": 7
+   },
+   {
+    "protein_id": "P09668",
+    "outcome_id": "MONDO:0004975",
+    "families": 5,
+    "claim_records": 6
+   },
+   {
+    "protein_id": "P78324",
+    "outcome_id": "MONDO:0004975",
+    "families": 5,
+    "claim_records": 6
+   },
+   {
+    "protein_id": "O00499",
+    "outcome_id": "MONDO:0004975",
+    "families": 5,
+    "claim_records": 5
+   },
+   {
+    "protein_id": "Q96P31",
+    "outcome_id": "MONDO:0005301",
+    "families": 4,
+    "claim_records": 9
+   },
+   {
+    "protein_id": "Q14956",
+    "outcome_id": "MONDO:0005180",
+    "families": 4,
+    "claim_records": 7
+   },
+   {
+    "protein_id": "O43598",
+    "outcome_id": "MONDO:0007254",
+    "families": 4,
+    "claim_records": 6
+   },
+   {
+    "protein_id": "P08174",
+    "outcome_id": "MONDO:0004975",
+    "families": 4,
+    "claim_records": 6
+   },
+   {
+    "protein_id": "Q15399",
+    "outcome_id": "MONDO:0007254",
+    "families": 4,
+    "claim_records": 6
+   },
+   {
+    "protein_id": "P07949",
+    "outcome_id": "MONDO:0004975",
+    "families": 4,
+    "claim_records": 4
+   },
+   {
+    "protein_id": "P23381",
+    "outcome_id": "MONDO:0005150",
+    "families": 4,
+    "claim_records": 4
+   },
+   {
+    "protein_id": "Q6WN34",
+    "outcome_id": "MONDO:0024331",
+    "families": 4,
+    "claim_records": 4
+   },
+   {
+    "protein_id": "Q8NBP7",
+    "outcome_id": "MONDO:0005350",
+    "families": 4,
+    "claim_records": 4
+   }
+  ],
+  "proteins": [
+   {
+    "id": "Q8NBP7",
+    "families": 21,
+    "pairs": 13,
+    "claim_records": 27
+   },
+   {
+    "id": "Q29980",
+    "families": 16,
+    "pairs": 13,
+    "claim_records": 20
+   },
+   {
+    "id": "P02649",
+    "families": 15,
+    "pairs": 12,
+    "claim_records": 21
+   },
+   {
+    "id": "P39900",
+    "families": 13,
+    "pairs": 10,
+    "claim_records": 13
+   },
+   {
+    "id": "P01375",
+    "families": 12,
+    "pairs": 11,
+    "claim_records": 16
+   },
+   {
+    "id": "P08887",
+    "families": 12,
+    "pairs": 10,
+    "claim_records": 13
+   },
+   {
+    "id": "Q96P31",
+    "families": 12,
+    "pairs": 7,
+    "claim_records": 18
+   },
+   {
+    "id": "Q9UKJ1",
+    "families": 12,
+    "pairs": 6,
+    "claim_records": 15
+   },
+   {
+    "id": "P26927",
+    "families": 11,
+    "pairs": 13,
+    "claim_records": 14
+   },
+   {
+    "id": "P16442",
+    "families": 11,
+    "pairs": 11,
+    "claim_records": 12
+   },
+   {
+    "id": "P20138",
+    "families": 11,
+    "pairs": 3,
+    "claim_records": 14
+   },
+   {
+    "id": "P05231",
+    "families": 10,
+    "pairs": 11,
+    "claim_records": 14
+   },
+   {
+    "id": "P12034",
+    "families": 10,
+    "pairs": 10,
+    "claim_records": 15
+   },
+   {
+    "id": "P25774",
+    "families": 10,
+    "pairs": 9,
+    "claim_records": 10
+   },
+   {
+    "id": "Q15109",
+    "families": 10,
+    "pairs": 9,
+    "claim_records": 13
+   },
+   {
+    "id": "Q99731",
+    "families": 10,
+    "pairs": 9,
+    "claim_records": 13
+   },
+   {
+    "id": "Q9NUM4",
+    "families": 10,
+    "pairs": 7,
+    "claim_records": 15
+   },
+   {
+    "id": "P09668",
+    "families": 10,
+    "pairs": 6,
+    "claim_records": 13
+   },
+   {
+    "id": "P02778",
+    "families": 9,
+    "pairs": 9,
+    "claim_records": 12
+   },
+   {
+    "id": "Q07325",
+    "families": 9,
+    "pairs": 9,
+    "claim_records": 12
+   }
+  ],
+  "outcomes": [
+   {
+    "id": "MONDO:0004975",
+    "families": 54,
+    "pairs": 117,
+    "claim_records": 245
+   },
+   {
+    "id": "MONDO:0005148",
+    "families": 39,
+    "pairs": 104,
+    "claim_records": 156
+   },
+   {
+    "id": "MONDO:0005010",
+    "families": 28,
+    "pairs": 79,
+    "claim_records": 111
+   },
+   {
+    "id": "MONDO:0008383",
+    "families": 18,
+    "pairs": 58,
+    "claim_records": 83
+   },
+   {
+    "id": "MONDO:0007254",
+    "families": 17,
+    "pairs": 62,
+    "claim_records": 98
+   },
+   {
+    "id": "MONDO:0005301",
+    "families": 16,
+    "pairs": 54,
+    "claim_records": 81
+   },
+   {
+    "id": "MONDO:0005300",
+    "families": 14,
+    "pairs": 48,
+    "claim_records": 54
+   },
+   {
+    "id": "MONDO:0024331",
+    "families": 14,
+    "pairs": 48,
+    "claim_records": 61
+   },
+   {
+    "id": "MONDO:0005180",
+    "families": 13,
+    "pairs": 35,
+    "claim_records": 50
+   },
+   {
+    "id": "MONDO:0004976",
+    "families": 12,
+    "pairs": 44,
+    "claim_records": 54
+   },
+   {
+    "id": "MONDO:0005265",
+    "families": 12,
+    "pairs": 28,
+    "claim_records": 34
+   },
+   {
+    "id": "MONDO:0005098",
+    "families": 12,
+    "pairs": 24,
+    "claim_records": 27
+   },
+   {
+    "id": "MONDO:0008315",
+    "families": 11,
+    "pairs": 39,
+    "claim_records": 67
+   },
+   {
+    "id": "MONDO:0013209",
+    "families": 11,
+    "pairs": 39,
+    "claim_records": 61
+   },
+   {
+    "id": "MONDO:0005068",
+    "families": 11,
+    "pairs": 34,
+    "claim_records": 41
+   },
+   {
+    "id": "MONDO:0005252",
+    "families": 11,
+    "pairs": 26,
+    "claim_records": 33
+   },
+   {
+    "id": "EFO:0004340",
+    "families": 10,
+    "pairs": 30,
+    "claim_records": 35
+   },
+   {
+    "id": "OBA:0003747",
+    "families": 10,
+    "pairs": 28,
+    "claim_records": 31
+   },
+   {
+    "id": "MONDO:0005101",
+    "families": 10,
+    "pairs": 27,
+    "claim_records": 30
+   },
+   {
+    "id": "MONDO:0008903",
+    "families": 10,
+    "pairs": 26,
+    "claim_records": 38
+   }
+  ]
+ },
+ "wording_by_repetition_and_year": {
+  "by_families_per_pair": {
+   "1": {
+    "claim_records": 2840,
+    "association": {
+     "claim_records": 1848,
+     "share": 0.6507042253521127
+    },
+    "causal": {
+     "claim_records": 666,
+     "share": 0.23450704225352112
+    },
+    "target": {
+     "claim_records": 326,
+     "share": 0.1147887323943662
+    }
+   },
+   "2": {
+    "claim_records": 451,
+    "association": {
+     "claim_records": 315,
+     "share": 0.6984478935698448
+    },
+    "causal": {
+     "claim_records": 87,
+     "share": 0.19290465631929046
+    },
+    "target": {
+     "claim_records": 49,
+     "share": 0.10864745011086474
+    }
+   },
+   "3_or_more": {
+    "claim_records": 264,
+    "association": {
+     "claim_records": 161,
+     "share": 0.6098484848484849
+    },
+    "causal": {
+     "claim_records": 59,
+     "share": 0.22348484848484848
+    },
+    "target": {
+     "claim_records": 44,
+     "share": 0.16666666666666666
+    }
+   }
+  },
+  "by_year": {
+   "2019": {
+    "claim_records": 20,
+    "association": {
+     "claim_records": 4,
+     "share": 0.2
+    },
+    "causal": {
+     "claim_records": 11,
+     "share": 0.55
+    },
+    "target": {
+     "claim_records": 5,
+     "share": 0.25
+    }
+   },
+   "2020": {
+    "claim_records": 27,
+    "association": {
+     "claim_records": 15,
+     "share": 0.5555555555555556
+    },
+    "causal": {
+     "claim_records": 10,
+     "share": 0.37037037037037035
+    },
+    "target": {
+     "claim_records": 2,
+     "share": 0.07407407407407407
+    }
+   },
+   "2021": {
+    "claim_records": 45,
+    "association": {
+     "claim_records": 16,
+     "share": 0.35555555555555557
+    },
+    "causal": {
+     "claim_records": 21,
+     "share": 0.4666666666666667
+    },
+    "target": {
+     "claim_records": 8,
+     "share": 0.17777777777777778
+    }
+   },
+   "2022": {
+    "claim_records": 125,
+    "association": {
+     "claim_records": 58,
+     "share": 0.464
+    },
+    "causal": {
+     "claim_records": 30,
+     "share": 0.24
+    },
+    "target": {
+     "claim_records": 37,
+     "share": 0.296
+    }
+   },
+   "2023": {
+    "claim_records": 507,
+    "association": {
+     "claim_records": 321,
+     "share": 0.6331360946745562
+    },
+    "causal": {
+     "claim_records": 135,
+     "share": 0.26627218934911245
+    },
+    "target": {
+     "claim_records": 51,
+     "share": 0.10059171597633136
+    }
+   },
+   "2024": {
+    "claim_records": 1170,
+    "association": {
+     "claim_records": 842,
+     "share": 0.7196581196581197
+    },
+    "causal": {
+     "claim_records": 229,
+     "share": 0.19572649572649573
+    },
+    "target": {
+     "claim_records": 99,
+     "share": 0.08461538461538462
+    }
+   },
+   "2025": {
+    "claim_records": 1661,
+    "association": {
+     "claim_records": 1068,
+     "share": 0.6429861529199278
+    },
+    "causal": {
+     "claim_records": 376,
+     "share": 0.22636965683323299
+    },
+    "target": {
+     "claim_records": 217,
+     "share": 0.13064419024683926
+    }
+   }
+  },
+  "novelty_language_by_year": {
+   "2019": {
+    "claim_records": 20,
+    "novelty_language": 4,
+    "share": 0.2,
+    "wilson_descriptive": [
+     0.08065766257979806,
+     0.41601743225189364
+    ]
+   },
+   "2020": {
+    "claim_records": 27,
+    "novelty_language": 0,
+    "share": 0.0,
+    "wilson_descriptive": [
+     0.0,
+     0.12455502974186705
+    ]
+   },
+   "2021": {
+    "claim_records": 45,
+    "novelty_language": 5,
+    "share": 0.1111111111111111,
+    "wilson_descriptive": [
+     0.04840471794567186,
+     0.2349909699576858
+    ]
+   },
+   "2022": {
+    "claim_records": 125,
+    "novelty_language": 0,
+    "share": 0.0,
+    "wilson_descriptive": [
+     1.734723475976807e-18,
+     0.029815393708326456
+    ]
+   },
+   "2023": {
+    "claim_records": 507,
+    "novelty_language": 13,
+    "share": 0.02564102564102564,
+    "wilson_descriptive": [
+     0.015044902146670258,
+     0.04337138005874194
+    ]
+   },
+   "2024": {
+    "claim_records": 1170,
+    "novelty_language": 48,
+    "share": 0.041025641025641026,
+    "wilson_descriptive": [
+     0.03108184708320544,
+     0.05397347113753653
+    ]
+   },
+   "2025": {
+    "claim_records": 1661,
+    "novelty_language": 42,
+    "share": 0.025285972305839857,
+    "wilson_descriptive": [
+     0.018761000071904853,
+     0.03400165690981005
+    ]
+   }
+  }
+ },
+ "citation_of_earlier_claim": {
+  "eligible_families": 1394,
+  "eligible_families_with_a_reference_list": 1283,
+  "share_with_a_reference_list": 0.9203730272596844,
+  "later_families": {
+   "later_family_pair_records": 346,
+   "later_families": 170,
+   "without_a_reference_list": 49,
+   "with_a_reference_list": 297,
+   "citing_an_earlier_family_of_the_pair": 63,
+   "share": 0.21212121212121213,
+   "wilson_descriptive": [
+    0.16945548610778988,
+    0.26213881385896276
+   ],
+   "imprecise_under_20": false
+  },
+  "later_families_with_novelty_language_and_an_earlier_registry_claim": {
+   "later_family_pair_records": 8,
+   "later_families": 6,
+   "without_a_reference_list": 2,
+   "with_a_reference_list": 6,
+   "citing_an_earlier_family_of_the_pair": 0,
+   "share": 0.0,
+   "wilson_descriptive": [
+    2.7755575615628914e-17,
+    0.3903342879021653
+   ],
+   "imprecise_under_20": true
+  }
+ },
+ "source_overlap": {
+  "eligible_families": 1394,
+  "by_search_sources": {
+   "epmc": 1,
+   "epmc+openalex": 122,
+   "openalex": 82,
+   "pubmed": 5,
+   "pubmed+epmc": 4,
+   "pubmed+epmc+openalex": 973,
+   "pubmed+openalex": 1
+  },
+  "found_only_by_citation_chasing": 206,
+  "share_found_only_by_citation_chasing": 0.14777618364418937,
+  "wilson_descriptive": [
+   0.13011532673108966,
+   0.1673729586510908
+  ],
+  "not_returned_by_any_query": {
+   "chase_round_1": 139,
+   "chase_round_2": 56,
+   "chase_round_3": 11
+  }
+ },
+ "document_class_and_journals": {
+  "eligible_families": 1394,
+  "families_by_document_class": {
+   "journal": 1237,
+   "preprint": 157
+  },
+  "preprint_only_share": 0.11262553802008608,
+  "wilson_descriptive_preprint_only": [
+   0.09708332483627671,
+   0.1302968668264065
+  ],
+  "journals": 454,
+  "journals_with_most_families": [
+   {
+    "journal": "Scientific reports",
+    "families": 50
+   },
+   {
+    "journal": "Medicine",
+    "families": 47
+   },
+   {
+    "journal": "Discover oncology",
+    "families": 38
+   },
+   {
+    "journal": "Nature communications",
+    "families": 35
+   },
+   {
+    "journal": "Frontiers in immunology",
+    "families": 26
+   },
+   {
+    "journal": "Journal of translational medicine",
+    "families": 22
+   },
+   {
+    "journal": "Frontiers in endocrinology",
+    "families": 21
+   },
+   {
+    "journal": "Journal of affective disorders",
+    "families": 18
+   },
+   {
+    "journal": "Alzheimer s & Dementia",
+    "families": 17
+   },
+   {
+    "journal": "Frontiers in genetics",
+    "families": 15
+   },
+   {
+    "journal": "Biomedicines",
+    "families": 14
+   },
+   {
+    "journal": "Diabetes",
+    "families": 12
+   },
+   {
+    "journal": "EBioMedicine",
+    "families": 12
+   },
+   {
+    "journal": "Molecular neurobiology",
+    "families": 12
+   },
+   {
+    "journal": "Communications biology",
+    "families": 11
+   },
+   {
+    "journal": "Journal of the American Heart Association",
+    "families": 10
+   },
+   {
+    "journal": "Brain and behavior",
+    "families": 9
+   },
+   {
+    "journal": "European Heart Journal",
+    "families": 9
+   },
+   {
+    "journal": "Journal of inflammation research",
+    "families": 9
+   },
+   {
+    "journal": "PloS one",
+    "families": 9
+   }
+  ]
+ },
+ "accounting": [
+  {
+   "index": "registry claim records",
+   "unit": "claim record",
+   "denominator": "verified claim records of registry abstracts with a pair",
+   "n": 3555,
+   "left": {
+    "outcome_unmapped": 2705,
+    "protein_unmapped": 456,
+    "not_mr_estimate": 3274,
+    "pair_ambiguous": 435,
+    "relation_ambiguous": 317,
+    "span_not_verified": 37,
+    "protein_not_in_span": 8,
+    "outcome_not_in_span": 157,
+    "protein_no_uniprot": 3
+   },
+   "edge_denominator": null,
+   "edge_n": null
+  },
+  {
+   "index": "distinct pairs; papers per pair",
+   "unit": "pair",
+   "denominator": "registry pairs",
+   "n": 2750,
+   "left": {},
+   "edge_denominator": null,
+   "edge_n": null
+  },
+  {
+   "index": "H2; H2b; resolvable share",
+   "unit": "pair",
+   "denominator": "pairs with at least two families, any direction value",
+   "n": 242,
+   "left": {
+    "pairs_with_one_family": 2508
+   },
+   "edge_denominator": null,
+   "edge_n": null
+  },
+  {
+   "index": "family\u2013pair direction counts",
+   "unit": "family\u2013pair record",
+   "denominator": "family\u2013pair records",
+   "n": 3097,
+   "left": {},
+   "edge_denominator": null,
+   "edge_n": null
+  },
+  {
+   "index": "contradicting pairs; Liu-analogue",
+   "unit": "pair",
+   "denominator": "pairs with at least two directional families",
+   "n": 21,
+   "left": {
+    "pairs_with_fewer_than_two_directional_families": 2729
+   },
+   "edge_denominator": null,
+   "edge_n": null
+  },
+  {
+   "index": "H1",
+   "unit": "pair",
+   "denominator": "pairs with at least one independent edge between directional families",
+   "n": 0,
+   "left": {
+    "pairs_with_two_directional_families_and_no_independent_edge": 21
+   },
+   "edge_denominator": "independent edges between directional families",
+   "edge_n": 0
+  },
+  {
+   "index": "direction-based results",
+   "unit": "family\u2013pair record",
+   "denominator": "directional family\u2013pair records",
+   "n": 525,
+   "left": {
+    "mixed": 1,
+    "nonsignificant_only": 46,
+    "unresolved": 2525
+   },
+   "edge_denominator": null,
+   "edge_n": null
+  },
+  {
+   "index": "reporting_completeness; dataset_usage",
+   "unit": "study family",
+   "denominator": "eligible families with a registry claim record",
+   "n": 728,
+   "left": {
+    "eligible_families_without_a_registry_claim": 666
+   },
+   "edge_denominator": null,
+   "edge_n": null
+  },
+  {
+   "index": "edge_relations",
+   "unit": "edge",
+   "denominator": "pairs with at least two families",
+   "n": 242,
+   "left": {},
+   "edge_denominator": "every two families of those pairs",
+   "edge_n": 563
+  },
+  {
+   "index": "h2_by_families_per_pair",
+   "unit": "pair",
+   "denominator": "pairs with at least two families",
+   "n": 242,
+   "left": {},
+   "edge_denominator": null,
+   "edge_n": null
+  },
+  {
+   "index": "h2_directional_pairs",
+   "unit": "pair",
+   "denominator": "pairs with at least two directional families",
+   "n": 21,
+   "left": {},
+   "edge_denominator": null,
+   "edge_n": null
+  },
+  {
+   "index": "direction_agreement_by_edge_class; contradiction_source_comparison; platform_pairing",
+   "unit": "edge",
+   "denominator": "pairs with at least one edge between directional families",
+   "n": 21,
+   "left": {},
+   "edge_denominator": "edges between directional families",
+   "edge_n": 32
+  },
+  {
+   "index": "significance_discordance",
+   "unit": "pair",
+   "denominator": "pairs with at least two families",
+   "n": 242,
+   "left": {},
+   "edge_denominator": "edges between a directional and a nonsignificant_only family",
+   "edge_n": 1
+  },
+  {
+   "index": "first_claim_concordance",
+   "unit": "later directional family on a pair",
+   "denominator": "pairs with at least two directional families (a pair with no strictly earliest claim date is tied_first)",
+   "n": 21,
+   "left": {},
+   "edge_denominator": "directional families other than one per pair",
+   "edge_n": 26
+  },
+  {
+   "index": "periods; therapeutic_areas: distinct pairs",
+   "unit": "pair",
+   "denominator": "registry pairs, each in the period of its first claim date or in each area of its outcome",
+   "n": 2750,
+   "left": {},
+   "edge_denominator": null,
+   "edge_n": null
+  },
+  {
+   "index": "periods; therapeutic_areas: repeated-pair indices",
+   "unit": "pair",
+   "denominator": "pairs with at least two families, each in the period of its second claim date or in each area of its outcome",
+   "n": 242,
+   "left": {},
+   "edge_denominator": null,
+   "edge_n": null
+  },
+  {
+   "index": "yearly_series; claims_per_family; source_overlap; document_class_and_journals",
+   "unit": "study family",
+   "denominator": "eligible families",
+   "n": 1394,
+   "left": {},
+   "edge_denominator": null,
+   "edge_n": null
+  },
+  {
+   "index": "top_lists",
+   "unit": "pair, protein, outcome",
+   "denominator": "registry pairs",
+   "n": 2750,
+   "left": {},
+   "edge_denominator": null,
+   "edge_n": null
+  },
+  {
+   "index": "wording_by_repetition_and_year",
+   "unit": "claim record",
+   "denominator": "registry claim records",
+   "n": 3555,
+   "left": {},
+   "edge_denominator": null,
+   "edge_n": null
+  },
+  {
+   "index": "citation_of_earlier_claim",
+   "unit": "later family on a repeated pair",
+   "denominator": "family\u2013pair records with another family strictly earlier by claim date",
+   "n": 346,
+   "left": {},
+   "edge_denominator": null,
+   "edge_n": null
+  }
+ ]
+}

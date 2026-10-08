@@ -1,0 +1,1426 @@
+{
+ "inputs": "/vol/02_claims_meta/stage5/2026-10-03_amended_primary_a/biology_inputs",
+ "window": "update",
+ "claim_records": 897,
+ "resources": {
+  "ontology_edges": "/exp/verification/ontology_edges.csv",
+  "therapeutic_areas": "/exp/verification/therapeutic_areas.csv",
+  "therapeutic_area_names": "/exp/verification/therapeutic_area_names.csv",
+  "assay_lists": "/exp/verification/platform_assay_lists.csv",
+  "attachments": "/exp/verification/platform_assay_attachments.csv",
+  "author_lists": "/exp/verification/author_supplied_lists.csv",
+  "reactome": "/exp/inputs/reactome/UniProt2Reactome.txt",
+  "snapshot_estimates": "/exp/derived/epigraphdb_mrres_estimates.jsonl",
+  "protein_mapping": "/exp/verification/epigraphdb_protein_mapping.csv",
+  "trait_mapping": "/exp/verification/epigraphdb_trait_mapping.csv",
+  "locus_list": "/exp/verification/pleiotropic_loci_eldjarn2023_ST36.csv"
+ },
+ "written_utc": "2026-10-08T15:56:40+00:00",
+ "rule": "minimum_cover",
+ "counted_unit": "claim_record",
+ "proteins": 580,
+ "hubs": 4,
+ "hubs_with_pleiotropic_locus_named": 1,
+ "proteins_by_areas_counted": {
+  "0": 325,
+  "1": 227,
+  "2": 24,
+  "3": 4
+ },
+ "abstracts": 43462,
+ "abstracts_with_pleiotropic_locus_named": 3957,
+ "area_names": {
+  "EFO:0000651": "phenotype",
+  "EFO:0001444": "measurement",
+  "EFO:0002571": "medical procedure",
+  "EFO:0010282": "gastrointestinal disease",
+  "GO:0008150": "biological_process",
+  "MONDO:0002025": "psychiatric disorder",
+  "MONDO:0002051": "integumentary system disorder",
+  "MONDO:0002118": "urinary system disorder",
+  "MONDO:0002515": "hepatobiliary disorder",
+  "MONDO:0004995": "cardiovascular disorder",
+  "MONDO:0005046": "immune system disorder",
+  "MONDO:0005071": "nervous system disorder",
+  "MONDO:0005151": "endocrine system disorder",
+  "MONDO:0005550": "infectious disease",
+  "MONDO:0005570": "hematologic disorder",
+  "MONDO:0005583": "non-human animal disease",
+  "MONDO:0021205": "disorder of ear",
+  "MONDO:0024458": "disorder of visual system",
+  "MONDO:0045024": "cancer or benign tumor",
+  "OTAR:0000006": "musculoskeletal or connective tissue disease",
+  "OTAR:0000009": "injury, poisoning or other complication",
+  "OTAR:0000010": "respiratory or thoracic disease",
+  "OTAR:0000014": "pregnancy or perinatal disease",
+  "OTAR:0000017": "reproductive system or breast disease",
+  "OTAR:0000018": "genetic, familial or congenital disease",
+  "OTAR:0000020": "nutritional or metabolic disease"
+ },
+ "hub_proteins": [
+  {
+   "protein_id": "P04278",
+   "areas": [
+    "EFO:0010282",
+    "MONDO:0004995",
+    "MONDO:0005071",
+    "MONDO:0005151",
+    "OTAR:0000020"
+   ],
+   "minimum_areas": 3,
+   "n_distinct_areas": 5,
+   "n_counted_outcomes": 3,
+   "n_causal_or_target_claims": 3,
+   "n_registry_claims": 5,
+   "n_families": 4,
+   "pleiotropic_locus_named": false,
+   "pleiotropic_genes_named": []
+  },
+  {
+   "protein_id": "P12034",
+   "areas": [
+    "MONDO:0002118",
+    "MONDO:0004995",
+    "MONDO:0005071",
+    "MONDO:0005550",
+    "MONDO:0045024"
+   ],
+   "minimum_areas": 3,
+   "n_distinct_areas": 5,
+   "n_counted_outcomes": 4,
+   "n_causal_or_target_claims": 4,
+   "n_registry_claims": 5,
+   "n_families": 3,
+   "pleiotropic_locus_named": false,
+   "pleiotropic_genes_named": []
+  },
+  {
+   "protein_id": "P12821",
+   "areas": [
+    "MONDO:0004995",
+    "MONDO:0005071",
+    "OTAR:0000020"
+   ],
+   "minimum_areas": 3,
+   "n_distinct_areas": 3,
+   "n_counted_outcomes": 3,
+   "n_causal_or_target_claims": 3,
+   "n_registry_claims": 3,
+   "n_families": 3,
+   "pleiotropic_locus_named": false,
+   "pleiotropic_genes_named": []
+  },
+  {
+   "protein_id": "Q15109",
+   "areas": [
+    "MONDO:0004995",
+    "MONDO:0005046",
+    "MONDO:0005071",
+    "OTAR:0000010"
+   ],
+   "minimum_areas": 3,
+   "n_distinct_areas": 4,
+   "n_counted_outcomes": 3,
+   "n_causal_or_target_claims": 3,
+   "n_registry_claims": 4,
+   "n_families": 4,
+   "pleiotropic_locus_named": true,
+   "pleiotropic_genes_named": [
+    "NCAN"
+   ]
+  }
+ ],
+ "expected_from_claim_volume": {
+  "counted_unit": "claim_record",
+  "counted_claim_records_with_a_disease_area": 331,
+  "observed_hubs": 4,
+  "expected_hubs": 10.602,
+  "observed_over_expected": 0.3772873042822109,
+  "permutation_interval": [
+   7.0,
+   14.0
+  ],
+  "permutations": 1000,
+  "seed": [
+   20261001,
+   2
+  ]
+ },
+ "sensitivity_null_result_claims_counted": {
+  "rule": "minimum_cover",
+  "counted_unit": "claim_record",
+  "proteins": 580,
+  "hubs": 4,
+  "hubs_with_pleiotropic_locus_named": 1,
+  "proteins_by_areas_counted": {
+   "0": 325,
+   "1": 227,
+   "2": 24,
+   "3": 4
+  },
+  "abstracts": 43462,
+  "abstracts_with_pleiotropic_locus_named": 3957,
+  "hub_proteins": [
+   {
+    "protein_id": "P04278",
+    "areas": [
+     "EFO:0010282",
+     "MONDO:0004995",
+     "MONDO:0005071",
+     "MONDO:0005151",
+     "OTAR:0000020"
+    ],
+    "minimum_areas": 3,
+    "n_distinct_areas": 5,
+    "n_counted_outcomes": 3,
+    "n_causal_or_target_claims": 3,
+    "n_registry_claims": 5,
+    "n_families": 4,
+    "pleiotropic_locus_named": false,
+    "pleiotropic_genes_named": []
+   },
+   {
+    "protein_id": "P12034",
+    "areas": [
+     "MONDO:0002118",
+     "MONDO:0004995",
+     "MONDO:0005071",
+     "MONDO:0005550",
+     "MONDO:0045024"
+    ],
+    "minimum_areas": 3,
+    "n_distinct_areas": 5,
+    "n_counted_outcomes": 4,
+    "n_causal_or_target_claims": 4,
+    "n_registry_claims": 5,
+    "n_families": 3,
+    "pleiotropic_locus_named": false,
+    "pleiotropic_genes_named": []
+   },
+   {
+    "protein_id": "P12821",
+    "areas": [
+     "MONDO:0004995",
+     "MONDO:0005071",
+     "OTAR:0000020"
+    ],
+    "minimum_areas": 3,
+    "n_distinct_areas": 3,
+    "n_counted_outcomes": 3,
+    "n_causal_or_target_claims": 3,
+    "n_registry_claims": 3,
+    "n_families": 3,
+    "pleiotropic_locus_named": false,
+    "pleiotropic_genes_named": []
+   },
+   {
+    "protein_id": "Q15109",
+    "areas": [
+     "MONDO:0004995",
+     "MONDO:0005046",
+     "MONDO:0005071",
+     "OTAR:0000010"
+    ],
+    "minimum_areas": 3,
+    "n_distinct_areas": 4,
+    "n_counted_outcomes": 3,
+    "n_causal_or_target_claims": 3,
+    "n_registry_claims": 4,
+    "n_families": 4,
+    "pleiotropic_locus_named": true,
+    "pleiotropic_genes_named": [
+     "NCAN"
+    ]
+   }
+  ]
+ },
+ "sensitivity_distinct_therapeutic_areas": {
+  "rule": "distinct_areas",
+  "counted_unit": "claim_record",
+  "proteins": 580,
+  "hubs": 60,
+  "hubs_with_pleiotropic_locus_named": 28,
+  "proteins_by_areas_counted": {
+   "0": 325,
+   "1": 102,
+   "2": 93,
+   "3": 25,
+   "4": 29,
+   "5": 5,
+   "6": 1
+  },
+  "abstracts": 43462,
+  "abstracts_with_pleiotropic_locus_named": 3957,
+  "hub_proteins": [
+   {
+    "protein_id": "O15169",
+    "areas": [
+     "MONDO:0002025",
+     "MONDO:0005071",
+     "MONDO:0024458"
+    ],
+    "minimum_areas": 2,
+    "n_distinct_areas": 3,
+    "n_counted_outcomes": 2,
+    "n_causal_or_target_claims": 2,
+    "n_registry_claims": 3,
+    "n_families": 2,
+    "pleiotropic_locus_named": false,
+    "pleiotropic_genes_named": []
+   },
+   {
+    "protein_id": "O75173",
+    "areas": [
+     "EFO:0010282",
+     "MONDO:0002515",
+     "MONDO:0005151",
+     "OTAR:0000020"
+    ],
+    "minimum_areas": 1,
+    "n_distinct_areas": 4,
+    "n_counted_outcomes": 2,
+    "n_causal_or_target_claims": 2,
+    "n_registry_claims": 2,
+    "n_families": 1,
+    "pleiotropic_locus_named": false,
+    "pleiotropic_genes_named": []
+   },
+   {
+    "protein_id": "O75452",
+    "areas": [
+     "EFO:0010282",
+     "MONDO:0002515",
+     "MONDO:0005151",
+     "MONDO:0045024"
+    ],
+    "minimum_areas": 1,
+    "n_distinct_areas": 4,
+    "n_counted_outcomes": 1,
+    "n_causal_or_target_claims": 1,
+    "n_registry_claims": 1,
+    "n_families": 1,
+    "pleiotropic_locus_named": true,
+    "pleiotropic_genes_named": [
+     "CSF3"
+    ]
+   },
+   {
+    "protein_id": "O95750",
+    "areas": [
+     "EFO:0010282",
+     "MONDO:0002515",
+     "MONDO:0005151"
+    ],
+    "minimum_areas": 2,
+    "n_distinct_areas": 3,
+    "n_counted_outcomes": 2,
+    "n_causal_or_target_claims": 2,
+    "n_registry_claims": 3,
+    "n_families": 3,
+    "pleiotropic_locus_named": false,
+    "pleiotropic_genes_named": []
+   },
+   {
+    "protein_id": "O95825",
+    "areas": [
+     "EFO:0010282",
+     "MONDO:0002515",
+     "MONDO:0005151",
+     "MONDO:0045024"
+    ],
+    "minimum_areas": 1,
+    "n_distinct_areas": 4,
+    "n_counted_outcomes": 1,
+    "n_causal_or_target_claims": 1,
+    "n_registry_claims": 1,
+    "n_families": 1,
+    "pleiotropic_locus_named": true,
+    "pleiotropic_genes_named": [
+     "CSF3"
+    ]
+   },
+   {
+    "protein_id": "P02649",
+    "areas": [
+     "MONDO:0002025",
+     "MONDO:0005071",
+     "MONDO:0024458"
+    ],
+    "minimum_areas": 2,
+    "n_distinct_areas": 3,
+    "n_counted_outcomes": 2,
+    "n_causal_or_target_claims": 3,
+    "n_registry_claims": 11,
+    "n_families": 7,
+    "pleiotropic_locus_named": true,
+    "pleiotropic_genes_named": [
+     "APOE",
+     "ASGR1"
+    ]
+   },
+   {
+    "protein_id": "P03951",
+    "areas": [
+     "EFO:0010282",
+     "MONDO:0005151",
+     "OTAR:0000020"
+    ],
+    "minimum_areas": 1,
+    "n_distinct_areas": 3,
+    "n_counted_outcomes": 1,
+    "n_causal_or_target_claims": 1,
+    "n_registry_claims": 2,
+    "n_families": 2,
+    "pleiotropic_locus_named": false,
+    "pleiotropic_genes_named": []
+   },
+   {
+    "protein_id": "P04278",
+    "areas": [
+     "EFO:0010282",
+     "MONDO:0004995",
+     "MONDO:0005071",
+     "MONDO:0005151",
+     "OTAR:0000020"
+    ],
+    "minimum_areas": 3,
+    "n_distinct_areas": 5,
+    "n_counted_outcomes": 3,
+    "n_causal_or_target_claims": 3,
+    "n_registry_claims": 5,
+    "n_families": 4,
+    "pleiotropic_locus_named": false,
+    "pleiotropic_genes_named": []
+   },
+   {
+    "protein_id": "P05091",
+    "areas": [
+     "EFO:0010282",
+     "MONDO:0002515",
+     "MONDO:0005151",
+     "MONDO:0024458",
+     "OTAR:0000020"
+    ],
+    "minimum_areas": 2,
+    "n_distinct_areas": 5,
+    "n_counted_outcomes": 3,
+    "n_causal_or_target_claims": 3,
+    "n_registry_claims": 3,
+    "n_families": 2,
+    "pleiotropic_locus_named": true,
+    "pleiotropic_genes_named": [
+     "APOE"
+    ]
+   },
+   {
+    "protein_id": "P07858",
+    "areas": [
+     "EFO:0010282",
+     "MONDO:0002051",
+     "MONDO:0002515"
+    ],
+    "minimum_areas": 2,
+    "n_distinct_areas": 3,
+    "n_counted_outcomes": 2,
+    "n_causal_or_target_claims": 3,
+    "n_registry_claims": 6,
+    "n_families": 4,
+    "pleiotropic_locus_named": false,
+    "pleiotropic_genes_named": []
+   },
+   {
+    "protein_id": "P08263",
+    "areas": [
+     "EFO:0010282",
+     "MONDO:0005151",
+     "OTAR:0000020"
+    ],
+    "minimum_areas": 1,
+    "n_distinct_areas": 3,
+    "n_counted_outcomes": 1,
+    "n_causal_or_target_claims": 1,
+    "n_registry_claims": 2,
+    "n_families": 2,
+    "pleiotropic_locus_named": false,
+    "pleiotropic_genes_named": []
+   },
+   {
+    "protein_id": "P08727",
+    "areas": [
+     "EFO:0010282",
+     "MONDO:0002515",
+     "MONDO:0005151",
+     "MONDO:0045024"
+    ],
+    "minimum_areas": 1,
+    "n_distinct_areas": 4,
+    "n_counted_outcomes": 1,
+    "n_causal_or_target_claims": 1,
+    "n_registry_claims": 1,
+    "n_families": 1,
+    "pleiotropic_locus_named": true,
+    "pleiotropic_genes_named": [
+     "CSF3"
+    ]
+   },
+   {
+    "protein_id": "P09668",
+    "areas": [
+     "MONDO:0002051",
+     "MONDO:0024458",
+     "OTAR:0000006"
+    ],
+    "minimum_areas": 1,
+    "n_distinct_areas": 3,
+    "n_counted_outcomes": 1,
+    "n_causal_or_target_claims": 2,
+    "n_registry_claims": 4,
+    "n_families": 2,
+    "pleiotropic_locus_named": false,
+    "pleiotropic_genes_named": []
+   },
+   {
+    "protein_id": "P09874",
+    "areas": [
+     "MONDO:0005046",
+     "MONDO:0005071",
+     "MONDO:0045024",
+     "OTAR:0000006",
+     "OTAR:0000020"
+    ],
+    "minimum_areas": 2,
+    "n_distinct_areas": 5,
+    "n_counted_outcomes": 4,
+    "n_causal_or_target_claims": 4,
+    "n_registry_claims": 5,
+    "n_families": 5,
+    "pleiotropic_locus_named": false,
+    "pleiotropic_genes_named": []
+   },
+   {
+    "protein_id": "P09919",
+    "areas": [
+     "EFO:0010282",
+     "MONDO:0002025",
+     "MONDO:0002515",
+     "MONDO:0005071",
+     "MONDO:0005151",
+     "MONDO:0045024"
+    ],
+    "minimum_areas": 2,
+    "n_distinct_areas": 6,
+    "n_counted_outcomes": 2,
+    "n_causal_or_target_claims": 2,
+    "n_registry_claims": 2,
+    "n_families": 2,
+    "pleiotropic_locus_named": true,
+    "pleiotropic_genes_named": [
+     "COLEC11",
+     "CSF3"
+    ]
+   },
+   {
+    "protein_id": "P09958",
+    "areas": [
+     "MONDO:0004995",
+     "MONDO:0005071",
+     "MONDO:0005550",
+     "MONDO:0045024"
+    ],
+    "minimum_areas": 2,
+    "n_distinct_areas": 4,
+    "n_counted_outcomes": 2,
+    "n_causal_or_target_claims": 3,
+    "n_registry_claims": 4,
+    "n_families": 3,
+    "pleiotropic_locus_named": true,
+    "pleiotropic_genes_named": [
+     "APOE",
+     "ASGR1"
+    ]
+   },
+   {
+    "protein_id": "P11177",
+    "areas": [
+     "EFO:0010282",
+     "MONDO:0002515",
+     "MONDO:0005151",
+     "OTAR:0000020"
+    ],
+    "minimum_areas": 1,
+    "n_distinct_areas": 4,
+    "n_counted_outcomes": 2,
+    "n_causal_or_target_claims": 2,
+    "n_registry_claims": 2,
+    "n_families": 1,
+    "pleiotropic_locus_named": false,
+    "pleiotropic_genes_named": []
+   },
+   {
+    "protein_id": "P12034",
+    "areas": [
+     "MONDO:0002118",
+     "MONDO:0004995",
+     "MONDO:0005071",
+     "MONDO:0005550",
+     "MONDO:0045024"
+    ],
+    "minimum_areas": 3,
+    "n_distinct_areas": 5,
+    "n_counted_outcomes": 4,
+    "n_causal_or_target_claims": 4,
+    "n_registry_claims": 5,
+    "n_families": 3,
+    "pleiotropic_locus_named": false,
+    "pleiotropic_genes_named": []
+   },
+   {
+    "protein_id": "P12821",
+    "areas": [
+     "MONDO:0004995",
+     "MONDO:0005071",
+     "OTAR:0000020"
+    ],
+    "minimum_areas": 3,
+    "n_distinct_areas": 3,
+    "n_counted_outcomes": 3,
+    "n_causal_or_target_claims": 3,
+    "n_registry_claims": 3,
+    "n_families": 3,
+    "pleiotropic_locus_named": false,
+    "pleiotropic_genes_named": []
+   },
+   {
+    "protein_id": "P12830",
+    "areas": [
+     "EFO:0010282",
+     "MONDO:0002515",
+     "MONDO:0005151",
+     "OTAR:0000020"
+    ],
+    "minimum_areas": 1,
+    "n_distinct_areas": 4,
+    "n_counted_outcomes": 3,
+    "n_causal_or_target_claims": 3,
+    "n_registry_claims": 5,
+    "n_families": 4,
+    "pleiotropic_locus_named": false,
+    "pleiotropic_genes_named": []
+   },
+   {
+    "protein_id": "P13501",
+    "areas": [
+     "EFO:0010282",
+     "MONDO:0005151",
+     "MONDO:0045024",
+     "OTAR:0000020"
+    ],
+    "minimum_areas": 2,
+    "n_distinct_areas": 4,
+    "n_counted_outcomes": 2,
+    "n_causal_or_target_claims": 2,
+    "n_registry_claims": 3,
+    "n_families": 3,
+    "pleiotropic_locus_named": false,
+    "pleiotropic_genes_named": []
+   },
+   {
+    "protein_id": "P14784",
+    "areas": [
+     "MONDO:0005151",
+     "OTAR:0000006",
+     "OTAR:0000010"
+    ],
+    "minimum_areas": 2,
+    "n_distinct_areas": 3,
+    "n_counted_outcomes": 2,
+    "n_causal_or_target_claims": 2,
+    "n_registry_claims": 3,
+    "n_families": 3,
+    "pleiotropic_locus_named": true,
+    "pleiotropic_genes_named": [
+     "FUT2"
+    ]
+   },
+   {
+    "protein_id": "P15884",
+    "areas": [
+     "EFO:0010282",
+     "MONDO:0002515",
+     "MONDO:0005151",
+     "OTAR:0000020"
+    ],
+    "minimum_areas": 1,
+    "n_distinct_areas": 4,
+    "n_counted_outcomes": 2,
+    "n_causal_or_target_claims": 2,
+    "n_registry_claims": 2,
+    "n_families": 1,
+    "pleiotropic_locus_named": false,
+    "pleiotropic_genes_named": []
+   },
+   {
+    "protein_id": "P16871",
+    "areas": [
+     "EFO:0010282",
+     "MONDO:0002515",
+     "MONDO:0005151",
+     "MONDO:0045024"
+    ],
+    "minimum_areas": 2,
+    "n_distinct_areas": 4,
+    "n_counted_outcomes": 2,
+    "n_causal_or_target_claims": 2,
+    "n_registry_claims": 3,
+    "n_families": 3,
+    "pleiotropic_locus_named": false,
+    "pleiotropic_genes_named": []
+   },
+   {
+    "protein_id": "P19256",
+    "areas": [
+     "EFO:0010282",
+     "MONDO:0002515",
+     "MONDO:0005046",
+     "MONDO:0005071",
+     "MONDO:0005151"
+    ],
+    "minimum_areas": 2,
+    "n_distinct_areas": 5,
+    "n_counted_outcomes": 2,
+    "n_causal_or_target_claims": 3,
+    "n_registry_claims": 3,
+    "n_families": 2,
+    "pleiotropic_locus_named": false,
+    "pleiotropic_genes_named": []
+   },
+   {
+    "protein_id": "P19838",
+    "areas": [
+     "MONDO:0002051",
+     "MONDO:0004995",
+     "MONDO:0005046"
+    ],
+    "minimum_areas": 2,
+    "n_distinct_areas": 3,
+    "n_counted_outcomes": 2,
+    "n_causal_or_target_claims": 2,
+    "n_registry_claims": 3,
+    "n_families": 3,
+    "pleiotropic_locus_named": true,
+    "pleiotropic_genes_named": [
+     "NFKB1"
+    ]
+   },
+   {
+    "protein_id": "P22105",
+    "areas": [
+     "MONDO:0002118",
+     "MONDO:0005046",
+     "MONDO:0005071"
+    ],
+    "minimum_areas": 2,
+    "n_distinct_areas": 3,
+    "n_counted_outcomes": 2,
+    "n_causal_or_target_claims": 2,
+    "n_registry_claims": 2,
+    "n_families": 2,
+    "pleiotropic_locus_named": true,
+    "pleiotropic_genes_named": [
+     "HLA-DQA1",
+     "HLA-DQB1"
+    ]
+   },
+   {
+    "protein_id": "P29317",
+    "areas": [
+     "EFO:0010282",
+     "MONDO:0002515",
+     "MONDO:0005151",
+     "MONDO:0045024"
+    ],
+    "minimum_areas": 1,
+    "n_distinct_areas": 4,
+    "n_counted_outcomes": 1,
+    "n_causal_or_target_claims": 1,
+    "n_registry_claims": 1,
+    "n_families": 1,
+    "pleiotropic_locus_named": true,
+    "pleiotropic_genes_named": [
+     "CSF3"
+    ]
+   },
+   {
+    "protein_id": "P31751",
+    "areas": [
+     "EFO:0010282",
+     "MONDO:0002515",
+     "MONDO:0005151",
+     "MONDO:0045024"
+    ],
+    "minimum_areas": 1,
+    "n_distinct_areas": 4,
+    "n_counted_outcomes": 1,
+    "n_causal_or_target_claims": 1,
+    "n_registry_claims": 1,
+    "n_families": 1,
+    "pleiotropic_locus_named": true,
+    "pleiotropic_genes_named": [
+     "CSF3"
+    ]
+   },
+   {
+    "protein_id": "P35228",
+    "areas": [
+     "EFO:0010282",
+     "MONDO:0005046",
+     "OTAR:0000020"
+    ],
+    "minimum_areas": 2,
+    "n_distinct_areas": 3,
+    "n_counted_outcomes": 2,
+    "n_causal_or_target_claims": 2,
+    "n_registry_claims": 2,
+    "n_families": 2,
+    "pleiotropic_locus_named": false,
+    "pleiotropic_genes_named": []
+   },
+   {
+    "protein_id": "P35443",
+    "areas": [
+     "EFO:0010282",
+     "MONDO:0005151",
+     "OTAR:0000020"
+    ],
+    "minimum_areas": 1,
+    "n_distinct_areas": 3,
+    "n_counted_outcomes": 1,
+    "n_causal_or_target_claims": 1,
+    "n_registry_claims": 1,
+    "n_families": 1,
+    "pleiotropic_locus_named": false,
+    "pleiotropic_genes_named": []
+   },
+   {
+    "protein_id": "P36888",
+    "areas": [
+     "EFO:0010282",
+     "MONDO:0005151",
+     "OTAR:0000020"
+    ],
+    "minimum_areas": 1,
+    "n_distinct_areas": 3,
+    "n_counted_outcomes": 1,
+    "n_causal_or_target_claims": 1,
+    "n_registry_claims": 2,
+    "n_families": 2,
+    "pleiotropic_locus_named": true,
+    "pleiotropic_genes_named": [
+     "FLT3"
+    ]
+   },
+   {
+    "protein_id": "P43246",
+    "areas": [
+     "EFO:0010282",
+     "MONDO:0002515",
+     "MONDO:0005151",
+     "MONDO:0045024"
+    ],
+    "minimum_areas": 1,
+    "n_distinct_areas": 4,
+    "n_counted_outcomes": 1,
+    "n_causal_or_target_claims": 1,
+    "n_registry_claims": 1,
+    "n_families": 1,
+    "pleiotropic_locus_named": true,
+    "pleiotropic_genes_named": [
+     "CSF3"
+    ]
+   },
+   {
+    "protein_id": "P55103",
+    "areas": [
+     "EFO:0010282",
+     "MONDO:0005151",
+     "OTAR:0000020"
+    ],
+    "minimum_areas": 1,
+    "n_distinct_areas": 3,
+    "n_counted_outcomes": 1,
+    "n_causal_or_target_claims": 1,
+    "n_registry_claims": 2,
+    "n_families": 2,
+    "pleiotropic_locus_named": false,
+    "pleiotropic_genes_named": []
+   },
+   {
+    "protein_id": "P62306",
+    "areas": [
+     "EFO:0010282",
+     "MONDO:0002515",
+     "MONDO:0005151",
+     "MONDO:0045024"
+    ],
+    "minimum_areas": 1,
+    "n_distinct_areas": 4,
+    "n_counted_outcomes": 1,
+    "n_causal_or_target_claims": 1,
+    "n_registry_claims": 1,
+    "n_families": 1,
+    "pleiotropic_locus_named": true,
+    "pleiotropic_genes_named": [
+     "CSF3"
+    ]
+   },
+   {
+    "protein_id": "P78410",
+    "areas": [
+     "EFO:0010282",
+     "MONDO:0002118",
+     "MONDO:0002515",
+     "MONDO:0005151"
+    ],
+    "minimum_areas": 2,
+    "n_distinct_areas": 4,
+    "n_counted_outcomes": 2,
+    "n_causal_or_target_claims": 2,
+    "n_registry_claims": 4,
+    "n_families": 2,
+    "pleiotropic_locus_named": true,
+    "pleiotropic_genes_named": [
+     "HLA-DQA1",
+     "HLA-DQB1"
+    ]
+   },
+   {
+    "protein_id": "P80188",
+    "areas": [
+     "EFO:0010282",
+     "MONDO:0005151",
+     "OTAR:0000020"
+    ],
+    "minimum_areas": 1,
+    "n_distinct_areas": 3,
+    "n_counted_outcomes": 1,
+    "n_causal_or_target_claims": 1,
+    "n_registry_claims": 1,
+    "n_families": 1,
+    "pleiotropic_locus_named": false,
+    "pleiotropic_genes_named": []
+   },
+   {
+    "protein_id": "Q04760",
+    "areas": [
+     "EFO:0010282",
+     "MONDO:0002515",
+     "MONDO:0005151",
+     "OTAR:0000020"
+    ],
+    "minimum_areas": 1,
+    "n_distinct_areas": 4,
+    "n_counted_outcomes": 2,
+    "n_causal_or_target_claims": 2,
+    "n_registry_claims": 5,
+    "n_families": 2,
+    "pleiotropic_locus_named": false,
+    "pleiotropic_genes_named": []
+   },
+   {
+    "protein_id": "Q08830",
+    "areas": [
+     "EFO:0010282",
+     "MONDO:0005151",
+     "OTAR:0000020"
+    ],
+    "minimum_areas": 1,
+    "n_distinct_areas": 3,
+    "n_counted_outcomes": 1,
+    "n_causal_or_target_claims": 1,
+    "n_registry_claims": 1,
+    "n_families": 1,
+    "pleiotropic_locus_named": false,
+    "pleiotropic_genes_named": []
+   },
+   {
+    "protein_id": "Q09472",
+    "areas": [
+     "EFO:0010282",
+     "MONDO:0002515",
+     "MONDO:0005151",
+     "OTAR:0000020"
+    ],
+    "minimum_areas": 1,
+    "n_distinct_areas": 4,
+    "n_counted_outcomes": 2,
+    "n_causal_or_target_claims": 2,
+    "n_registry_claims": 2,
+    "n_families": 1,
+    "pleiotropic_locus_named": false,
+    "pleiotropic_genes_named": []
+   },
+   {
+    "protein_id": "Q12846",
+    "areas": [
+     "MONDO:0005071",
+     "OTAR:0000006",
+     "OTAR:0000010"
+    ],
+    "minimum_areas": 2,
+    "n_distinct_areas": 3,
+    "n_counted_outcomes": 2,
+    "n_causal_or_target_claims": 2,
+    "n_registry_claims": 3,
+    "n_families": 3,
+    "pleiotropic_locus_named": true,
+    "pleiotropic_genes_named": [
+     "FUT2",
+     "GP2"
+    ]
+   },
+   {
+    "protein_id": "Q13444",
+    "areas": [
+     "MONDO:0005550",
+     "MONDO:0045024",
+     "OTAR:0000010",
+     "OTAR:0000017"
+    ],
+    "minimum_areas": 2,
+    "n_distinct_areas": 4,
+    "n_counted_outcomes": 2,
+    "n_causal_or_target_claims": 2,
+    "n_registry_claims": 2,
+    "n_families": 2,
+    "pleiotropic_locus_named": false,
+    "pleiotropic_genes_named": []
+   },
+   {
+    "protein_id": "Q15109",
+    "areas": [
+     "MONDO:0004995",
+     "MONDO:0005046",
+     "MONDO:0005071",
+     "OTAR:0000010"
+    ],
+    "minimum_areas": 3,
+    "n_distinct_areas": 4,
+    "n_counted_outcomes": 3,
+    "n_causal_or_target_claims": 3,
+    "n_registry_claims": 4,
+    "n_families": 4,
+    "pleiotropic_locus_named": true,
+    "pleiotropic_genes_named": [
+     "NCAN"
+    ]
+   },
+   {
+    "protein_id": "Q7KYR7",
+    "areas": [
+     "MONDO:0002118",
+     "MONDO:0045024",
+     "OTAR:0000017"
+    ],
+    "minimum_areas": 2,
+    "n_distinct_areas": 3,
+    "n_counted_outcomes": 2,
+    "n_causal_or_target_claims": 2,
+    "n_registry_claims": 3,
+    "n_families": 3,
+    "pleiotropic_locus_named": true,
+    "pleiotropic_genes_named": [
+     "HLA-DQA1",
+     "HLA-DQB1"
+    ]
+   },
+   {
+    "protein_id": "Q92956",
+    "areas": [
+     "MONDO:0005046",
+     "MONDO:0005071",
+     "MONDO:0005151",
+     "OTAR:0000017"
+    ],
+    "minimum_areas": 2,
+    "n_distinct_areas": 4,
+    "n_counted_outcomes": 2,
+    "n_causal_or_target_claims": 2,
+    "n_registry_claims": 3,
+    "n_families": 3,
+    "pleiotropic_locus_named": false,
+    "pleiotropic_genes_named": []
+   },
+   {
+    "protein_id": "Q96KN2",
+    "areas": [
+     "EFO:0010282",
+     "MONDO:0005151",
+     "OTAR:0000020"
+    ],
+    "minimum_areas": 1,
+    "n_distinct_areas": 3,
+    "n_counted_outcomes": 1,
+    "n_causal_or_target_claims": 2,
+    "n_registry_claims": 2,
+    "n_families": 2,
+    "pleiotropic_locus_named": false,
+    "pleiotropic_genes_named": []
+   },
+   {
+    "protein_id": "Q9BXY4",
+    "areas": [
+     "MONDO:0045024",
+     "OTAR:0000006",
+     "OTAR:0000017"
+    ],
+    "minimum_areas": 2,
+    "n_distinct_areas": 3,
+    "n_counted_outcomes": 2,
+    "n_causal_or_target_claims": 2,
+    "n_registry_claims": 4,
+    "n_families": 3,
+    "pleiotropic_locus_named": false,
+    "pleiotropic_genes_named": []
+   },
+   {
+    "protein_id": "Q9BYE9",
+    "areas": [
+     "EFO:0010282",
+     "MONDO:0002515",
+     "MONDO:0005151"
+    ],
+    "minimum_areas": 1,
+    "n_distinct_areas": 3,
+    "n_counted_outcomes": 1,
+    "n_causal_or_target_claims": 2,
+    "n_registry_claims": 2,
+    "n_families": 1,
+    "pleiotropic_locus_named": false,
+    "pleiotropic_genes_named": []
+   },
+   {
+    "protein_id": "Q9H9Q2",
+    "areas": [
+     "EFO:0010282",
+     "MONDO:0002515",
+     "MONDO:0005151",
+     "MONDO:0045024"
+    ],
+    "minimum_areas": 1,
+    "n_distinct_areas": 4,
+    "n_counted_outcomes": 1,
+    "n_causal_or_target_claims": 1,
+    "n_registry_claims": 1,
+    "n_families": 1,
+    "pleiotropic_locus_named": true,
+    "pleiotropic_genes_named": [
+     "CSF3"
+    ]
+   },
+   {
+    "protein_id": "Q9NPH9",
+    "areas": [
+     "EFO:0010282",
+     "MONDO:0002515",
+     "MONDO:0005151",
+     "MONDO:0045024"
+    ],
+    "minimum_areas": 1,
+    "n_distinct_areas": 4,
+    "n_counted_outcomes": 1,
+    "n_causal_or_target_claims": 1,
+    "n_registry_claims": 1,
+    "n_families": 1,
+    "pleiotropic_locus_named": true,
+    "pleiotropic_genes_named": [
+     "CSF3"
+    ]
+   },
+   {
+    "protein_id": "Q9NPJ6",
+    "areas": [
+     "EFO:0010282",
+     "MONDO:0002515",
+     "MONDO:0005151",
+     "MONDO:0045024"
+    ],
+    "minimum_areas": 1,
+    "n_distinct_areas": 4,
+    "n_counted_outcomes": 1,
+    "n_causal_or_target_claims": 1,
+    "n_registry_claims": 1,
+    "n_families": 1,
+    "pleiotropic_locus_named": true,
+    "pleiotropic_genes_named": [
+     "CSF3"
+    ]
+   },
+   {
+    "protein_id": "Q9UBP6",
+    "areas": [
+     "EFO:0010282",
+     "MONDO:0002515",
+     "MONDO:0005151",
+     "MONDO:0045024"
+    ],
+    "minimum_areas": 1,
+    "n_distinct_areas": 4,
+    "n_counted_outcomes": 1,
+    "n_causal_or_target_claims": 1,
+    "n_registry_claims": 1,
+    "n_families": 1,
+    "pleiotropic_locus_named": true,
+    "pleiotropic_genes_named": [
+     "CSF3"
+    ]
+   },
+   {
+    "protein_id": "Q9UHV9",
+    "areas": [
+     "EFO:0010282",
+     "MONDO:0045024",
+     "OTAR:0000010"
+    ],
+    "minimum_areas": 1,
+    "n_distinct_areas": 3,
+    "n_counted_outcomes": 1,
+    "n_causal_or_target_claims": 1,
+    "n_registry_claims": 1,
+    "n_families": 1,
+    "pleiotropic_locus_named": false,
+    "pleiotropic_genes_named": []
+   },
+   {
+    "protein_id": "Q9UI42",
+    "areas": [
+     "EFO:0010282",
+     "MONDO:0002515",
+     "MONDO:0005151",
+     "MONDO:0045024"
+    ],
+    "minimum_areas": 1,
+    "n_distinct_areas": 4,
+    "n_counted_outcomes": 1,
+    "n_causal_or_target_claims": 1,
+    "n_registry_claims": 1,
+    "n_families": 1,
+    "pleiotropic_locus_named": true,
+    "pleiotropic_genes_named": [
+     "CSF3"
+    ]
+   },
+   {
+    "protein_id": "Q9ULS5",
+    "areas": [
+     "EFO:0010282",
+     "MONDO:0002515",
+     "MONDO:0005151",
+     "MONDO:0045024"
+    ],
+    "minimum_areas": 1,
+    "n_distinct_areas": 4,
+    "n_counted_outcomes": 1,
+    "n_causal_or_target_claims": 1,
+    "n_registry_claims": 2,
+    "n_families": 2,
+    "pleiotropic_locus_named": true,
+    "pleiotropic_genes_named": [
+     "CSF3"
+    ]
+   },
+   {
+    "protein_id": "Q9UQC9",
+    "areas": [
+     "EFO:0010282",
+     "MONDO:0002515",
+     "MONDO:0005151",
+     "MONDO:0045024"
+    ],
+    "minimum_areas": 1,
+    "n_distinct_areas": 4,
+    "n_counted_outcomes": 1,
+    "n_causal_or_target_claims": 1,
+    "n_registry_claims": 1,
+    "n_families": 1,
+    "pleiotropic_locus_named": true,
+    "pleiotropic_genes_named": [
+     "CSF3"
+    ]
+   },
+   {
+    "protein_id": "Q9Y478",
+    "areas": [
+     "EFO:0010282",
+     "MONDO:0002515",
+     "MONDO:0005151",
+     "OTAR:0000020"
+    ],
+    "minimum_areas": 1,
+    "n_distinct_areas": 4,
+    "n_counted_outcomes": 2,
+    "n_causal_or_target_claims": 2,
+    "n_registry_claims": 4,
+    "n_families": 2,
+    "pleiotropic_locus_named": false,
+    "pleiotropic_genes_named": []
+   },
+   {
+    "protein_id": "Q9Y4D7",
+    "areas": [
+     "EFO:0010282",
+     "MONDO:0002515",
+     "MONDO:0005151"
+    ],
+    "minimum_areas": 1,
+    "n_distinct_areas": 3,
+    "n_counted_outcomes": 1,
+    "n_causal_or_target_claims": 1,
+    "n_registry_claims": 5,
+    "n_families": 1,
+    "pleiotropic_locus_named": false,
+    "pleiotropic_genes_named": []
+   },
+   {
+    "protein_id": "Q9Y4L1",
+    "areas": [
+     "EFO:0010282",
+     "MONDO:0005151",
+     "OTAR:0000020"
+    ],
+    "minimum_areas": 1,
+    "n_distinct_areas": 3,
+    "n_counted_outcomes": 1,
+    "n_causal_or_target_claims": 1,
+    "n_registry_claims": 1,
+    "n_families": 1,
+    "pleiotropic_locus_named": true,
+    "pleiotropic_genes_named": [
+     "FLT3"
+    ]
+   },
+   {
+    "protein_id": "Q9Y644",
+    "areas": [
+     "EFO:0010282",
+     "MONDO:0002515",
+     "MONDO:0005151",
+     "MONDO:0045024"
+    ],
+    "minimum_areas": 1,
+    "n_distinct_areas": 4,
+    "n_counted_outcomes": 1,
+    "n_causal_or_target_claims": 1,
+    "n_registry_claims": 1,
+    "n_families": 1,
+    "pleiotropic_locus_named": true,
+    "pleiotropic_genes_named": [
+     "CSF3"
+    ]
+   }
+  ]
+ },
+ "sensitivity_family_pair_collapsed": {
+  "rule": "minimum_cover",
+  "counted_unit": "family_pair",
+  "proteins": 580,
+  "hubs": 4,
+  "hubs_with_pleiotropic_locus_named": 1,
+  "proteins_by_areas_counted": {
+   "0": 325,
+   "1": 227,
+   "2": 24,
+   "3": 4
+  },
+  "abstracts": 43462,
+  "abstracts_with_pleiotropic_locus_named": 3957,
+  "hub_proteins": [
+   {
+    "protein_id": "P04278",
+    "areas": [
+     "EFO:0010282",
+     "MONDO:0004995",
+     "MONDO:0005071",
+     "MONDO:0005151",
+     "OTAR:0000020"
+    ],
+    "minimum_areas": 3,
+    "n_distinct_areas": 5,
+    "n_counted_outcomes": 3,
+    "n_causal_or_target_claims": 3,
+    "n_registry_claims": 5,
+    "n_families": 4,
+    "pleiotropic_locus_named": false,
+    "pleiotropic_genes_named": []
+   },
+   {
+    "protein_id": "P12034",
+    "areas": [
+     "MONDO:0002118",
+     "MONDO:0004995",
+     "MONDO:0005071",
+     "MONDO:0005550",
+     "MONDO:0045024"
+    ],
+    "minimum_areas": 3,
+    "n_distinct_areas": 5,
+    "n_counted_outcomes": 4,
+    "n_causal_or_target_claims": 4,
+    "n_registry_claims": 5,
+    "n_families": 3,
+    "pleiotropic_locus_named": false,
+    "pleiotropic_genes_named": []
+   },
+   {
+    "protein_id": "P12821",
+    "areas": [
+     "MONDO:0004995",
+     "MONDO:0005071",
+     "OTAR:0000020"
+    ],
+    "minimum_areas": 3,
+    "n_distinct_areas": 3,
+    "n_counted_outcomes": 3,
+    "n_causal_or_target_claims": 3,
+    "n_registry_claims": 3,
+    "n_families": 3,
+    "pleiotropic_locus_named": false,
+    "pleiotropic_genes_named": []
+   },
+   {
+    "protein_id": "Q15109",
+    "areas": [
+     "MONDO:0004995",
+     "MONDO:0005046",
+     "MONDO:0005071",
+     "OTAR:0000010"
+    ],
+    "minimum_areas": 3,
+    "n_distinct_areas": 4,
+    "n_counted_outcomes": 3,
+    "n_causal_or_target_claims": 3,
+    "n_registry_claims": 4,
+    "n_families": 4,
+    "pleiotropic_locus_named": true,
+    "pleiotropic_genes_named": [
+     "NCAN"
+    ]
+   }
+  ],
+  "expected_from_claim_volume": {
+   "counted_unit": "family_pair",
+   "counted_claim_records_with_a_disease_area": 321,
+   "observed_hubs": 4,
+   "expected_hubs": 8.765,
+   "observed_over_expected": 0.4563605248146035,
+   "permutation_interval": [
+    5.0,
+    12.0
+   ],
+   "permutations": 1000,
+   "seed": [
+    20261001,
+    2
+   ]
+  }
+ }
+}

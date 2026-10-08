@@ -1,0 +1,27 @@
+{
+ "run_id": "s5_biology_2026-10-03_amended_primary_c",
+ "note": "stage 5, amended primary without manual codes: sensitivity tables only, cross-check of the table without_manual_dataset_coding; and the side-by-side copy of the H tables",
+ "written_utc": "2026-10-08T17:08:49+00:00",
+ "files": [
+  {
+   "path": "outputs/stage5_biology/2026-10-03_amended_primary_c/sensitivity_run.json",
+   "bytes": 3320,
+   "sha256": "3335671d023a006aded4dd4bcd20893a6e93ce07f74c3010196878ae3e69af39"
+  },
+  {
+   "path": "outputs/stage5_biology/2026-10-03_amended_primary_c/sensitivity_tables.json",
+   "bytes": 80358,
+   "sha256": "187f0cbd2a0ca9c1ea1633fc4c0339de21068562e16b4ea1aed3437c2df1f3c4"
+  },
+  {
+   "path": "outputs/stage5_biology/stage5_h1_h2_h2b_side_by_side_2026-10-08.json",
+   "bytes": 18147,
+   "sha256": "de92728f9d996de389c2e80a837ab6c6122b19230b2774d4bd2587eb37f424e5"
+  }
+ ],
+ "recorded_directly": [
+  "outputs/stage5_biology/2026-10-03_amended_primary_c/sensitivity_tables.json",
+  "outputs/stage5_biology/stage5_h1_h2_h2b_side_by_side_2026-10-08.json"
+ ],
+ "volume_checks": []
+}

@@ -1,0 +1,1065 @@
+{
+ "inputs": "/vol/02_claims_meta/stage5/2026-10-03_registered_with_27_a/biology_inputs",
+ "window": "confirmatory",
+ "claim_records": 3555,
+ "resources": {
+  "ontology_edges": "/exp/verification/ontology_edges.csv",
+  "therapeutic_areas": "/exp/verification/therapeutic_areas.csv",
+  "therapeutic_area_names": "/exp/verification/therapeutic_area_names.csv",
+  "assay_lists": "/exp/verification/platform_assay_lists.csv",
+  "attachments": "/exp/verification/platform_assay_attachments.csv",
+  "author_lists": "/exp/verification/author_supplied_lists.csv",
+  "reactome": "/exp/inputs/reactome/UniProt2Reactome.txt",
+  "snapshot_estimates": "/exp/derived/epigraphdb_mrres_estimates.jsonl",
+  "protein_mapping": "/exp/verification/epigraphdb_protein_mapping.csv",
+  "trait_mapping": "/exp/verification/epigraphdb_trait_mapping.csv",
+  "locus_list": "/exp/verification/pleiotropic_loci_eldjarn2023_ST36.csv"
+ },
+ "written_utc": "2026-10-08T15:53:21+00:00",
+ "claims": 3555,
+ "claims_by_enrichment_state": {
+  "no_pinned_assay_list": 987,
+  "not_causal_or_target": 2324,
+  "reports_no_significant_estimate": 39,
+  "enters_enrichment": 205,
+  "enters_enrichment_with_a_manually_coded_dataset": 81
+ },
+ "registry_proteins": 1466,
+ "registry_proteins_with_a_pathway": 1152,
+ "primary": {
+  "fenland_covid_179": {
+   "background": 175,
+   "claimed": 0,
+   "claimed_outside_background": 0,
+   "background_with_a_pathway": 153,
+   "pathways_tested": 9,
+   "pathways_dropped_by_size": 449
+  },
+  "fhs_luminex_71": {
+   "background": 70,
+   "claimed": 0,
+   "claimed_outside_background": 0,
+   "background_with_a_pathway": 65,
+   "pathways_tested": 4,
+   "pathways_dropped_by_size": 249
+  },
+  "gnhs_swath_ms_304": {
+   "background": 304,
+   "claimed": 1,
+   "claimed_outside_background": 0,
+   "background_with_a_pathway": 223,
+   "pathways_tested": 21,
+   "pathways_dropped_by_size": 476
+  },
+  "olink_cvd1_improve_analysed": {
+   "background": 82,
+   "claimed": 0,
+   "claimed_outside_background": 0,
+   "background_with_a_pathway": 75,
+   "pathways_tested": 3,
+   "pathways_dropped_by_size": 284
+  },
+  "olink_explore_3072": {
+   "background": 2926,
+   "claimed": 105,
+   "claimed_outside_background": 5,
+   "background_with_a_pathway": 2156,
+   "pathways_tested": 222,
+   "pathways_dropped_by_size": 1553
+  },
+  "olink_helic_png2021": {
+   "background": 184,
+   "claimed": 0,
+   "claimed_outside_background": 1,
+   "background_with_a_pathway": 143,
+   "pathways_tested": 3,
+   "pathways_dropped_by_size": 348
+  },
+  "olink_manolis_gilly2020_analysed": {
+   "background": 258,
+   "claimed": 0,
+   "claimed_outside_background": 0,
+   "background_with_a_pathway": 221,
+   "pathways_tested": 7,
+   "pathways_dropped_by_size": 475
+  },
+  "olink_oncology_I_nsphs_analysed": {
+   "background": 77,
+   "claimed": 0,
+   "claimed_outside_background": 0,
+   "background_with_a_pathway": 68,
+   "pathways_tested": 6,
+   "pathways_dropped_by_size": 228
+  },
+  "olink_target_96:CVD I": {
+   "background": 92,
+   "claimed": 0,
+   "claimed_outside_background": 0,
+   "background_with_a_pathway": 84,
+   "pathways_tested": 3,
+   "pathways_dropped_by_size": 300
+  },
+  "olink_target_96:INF": {
+   "background": 92,
+   "claimed": 1,
+   "claimed_outside_background": 0,
+   "background_with_a_pathway": 82,
+   "pathways_tested": 5,
+   "pathways_dropped_by_size": 245
+  },
+  "olink_target_96:NEU": {
+   "background": 93,
+   "claimed": 0,
+   "claimed_outside_background": 0,
+   "background_with_a_pathway": 76,
+   "pathways_tested": 0,
+   "pathways_dropped_by_size": 173
+  },
+  "scallop_koprulu2026_analysed": {
+   "background": 1034,
+   "claimed": 0,
+   "claimed_outside_background": 0,
+   "background_with_a_pathway": 828,
+   "pathways_tested": 53,
+   "pathways_dropped_by_size": 1100
+  },
+  "somascan_1.3k_jhs_katz2022": {
+   "background": 1296,
+   "claimed": 0,
+   "claimed_outside_background": 0,
+   "background_with_a_pathway": 1145,
+   "pathways_tested": 213,
+   "pathways_dropped_by_size": 1285
+  },
+  "somascan_160410": {
+   "background": 3592,
+   "claimed": 6,
+   "claimed_outside_background": 0,
+   "background_with_a_pathway": 2622,
+   "pathways_tested": 456,
+   "pathways_dropped_by_size": 1399
+  },
+  "somascan_ages_custom": {
+   "background": 4146,
+   "claimed": 2,
+   "claimed_outside_background": 0,
+   "background_with_a_pathway": 2985,
+   "pathways_tested": 513,
+   "pathways_dropped_by_size": 1392
+  },
+  "somascan_v3.2_kora": {
+   "background": 1124,
+   "claimed": 1,
+   "claimed_outside_background": 0,
+   "background_with_a_pathway": 1000,
+   "pathways_tested": 151,
+   "pathways_dropped_by_size": 1272
+  },
+  "somascan_v4": {
+   "background": 4717,
+   "claimed": 72,
+   "claimed_outside_background": 1,
+   "background_with_a_pathway": 3447,
+   "pathways_tested": 584,
+   "pathways_dropped_by_size": 1384
+  },
+  "zheng2020_instrumented_1699": {
+   "background": 1725,
+   "claimed": 0,
+   "claimed_outside_background": 0,
+   "background_with_a_pathway": 1270,
+   "pathways_tested": 123,
+   "pathways_dropped_by_size": 1385
+  }
+ },
+ "secondary_pooled_open_to_platform_composition_confounding": {
+  "background": 6117,
+  "claimed": 171,
+  "claimed_outside_background": 0,
+  "background_with_a_pathway": 4349,
+  "pathways_tested": 717,
+  "pathways_dropped_by_size": 1330
+ },
+ "lists_without_a_kept_pathway": [
+  "olink_target_96:NEU"
+ ],
+ "density_cells": 9813,
+ "author_supplied_lists": {
+  "table": "verification/author_supplied_lists.csv",
+  "cutoff_utc": null,
+  "cutoff_source": "enrichment_not_yet_run",
+  "written_utc": "2026-10-08T15:47:54+00:00",
+  "primary": {},
+  "after_cutoff": {}
+ },
+ "background_level_by_dictionary_row": {
+  "UKB-PPP discovery": "assayed",
+  "UKB-PPP replication": "assayed",
+  "UKB-PPP full cohort (combined)": "assayed",
+  "UKB-PPP ancestry-specific (non-European)": "assayed",
+  "Dhindsa 2023 UKB-PPP exome (rare variant)": "assayed",
+  "Eldjarn 2023 UKB Olink (UKB-BI / UKB-SA / UKB-AF)": "assayed",
+  "deCODE SomaScan v4 (Eldjarn 2023 update)": "assayed",
+  "deCODE SomaScan v4 (Ferkingstad 2021)": "assayed",
+  "INTERVAL SomaScan (Sun 2018)": "assayed",
+  "Fenland SomaScan v4 (Pietzner 2021)": "platform",
+  "Fenland SomaScan v4 (Pietzner 2020, COVID-19 host proteins)": "analysed",
+  "ARIC European American (Zhang 2022)": "platform",
+  "ARIC African American (Zhang 2022)": "platform",
+  "SCALLOP CVD-I (Folkersen 2020)": "assayed",
+  "SCALLOP Inflammation (Zhao 2023)": "platform",
+  "SCALLOP multi-cohort meta-analysis (Koprulu 2026)": "analysed",
+  "AGES Reykjavik (Emilsson 2018)": "assayed",
+  "AGES Reykjavik (Gudjonsson 2022)": "analysed",
+  "KORA (Suhre 2017)": "analysed",
+  "Framingham Heart Study (Yao 2018)": "analysed",
+  "IMPROVE (Folkersen 2017)": "analysed",
+  "Lothian Birth Cohort 1936 neurology panel (Hillary 2019)": "platform",
+  "Zheng 2020 proteome-wide MR instrument set": "analysed",
+  "MANOLIS (Gilly 2020)": "analysed",
+  "MANOLIS and Pomak neurology (Png 2021)": "analysed",
+  "NSPHS (Enroth 2014)": "analysed",
+  "Jackson Heart Study (Katz 2022)": "analysed",
+  "Guangzhou Nutrition and Health Study (Xu 2023)": "analysed"
+ },
+ "sensitivity_any_candidate_row_attachment": {
+  "claims": 3555,
+  "claims_by_enrichment_state": {
+   "no_pinned_assay_list": 987,
+   "not_causal_or_target": 2324,
+   "reports_no_significant_estimate": 39,
+   "enters_enrichment": 205,
+   "enters_enrichment_with_a_manually_coded_dataset": 81
+  },
+  "registry_proteins": 1466,
+  "registry_proteins_with_a_pathway": 1152,
+  "primary": {
+   "fenland_covid_179": {
+    "background": 175,
+    "claimed": 0,
+    "claimed_outside_background": 9,
+    "background_with_a_pathway": 153,
+    "pathways_tested": 9,
+    "pathways_dropped_by_size": 449
+   },
+   "fhs_luminex_71": {
+    "background": 70,
+    "claimed": 0,
+    "claimed_outside_background": 0,
+    "background_with_a_pathway": 65,
+    "pathways_tested": 4,
+    "pathways_dropped_by_size": 249
+   },
+   "gnhs_swath_ms_304": {
+    "background": 304,
+    "claimed": 1,
+    "claimed_outside_background": 0,
+    "background_with_a_pathway": 223,
+    "pathways_tested": 21,
+    "pathways_dropped_by_size": 476
+   },
+   "olink_cvd1_improve_analysed": {
+    "background": 82,
+    "claimed": 0,
+    "claimed_outside_background": 0,
+    "background_with_a_pathway": 75,
+    "pathways_tested": 3,
+    "pathways_dropped_by_size": 284
+   },
+   "olink_explore_3072": {
+    "background": 2926,
+    "claimed": 105,
+    "claimed_outside_background": 5,
+    "background_with_a_pathway": 2156,
+    "pathways_tested": 222,
+    "pathways_dropped_by_size": 1553
+   },
+   "olink_helic_png2021": {
+    "background": 184,
+    "claimed": 0,
+    "claimed_outside_background": 1,
+    "background_with_a_pathway": 143,
+    "pathways_tested": 3,
+    "pathways_dropped_by_size": 348
+   },
+   "olink_manolis_gilly2020_analysed": {
+    "background": 258,
+    "claimed": 1,
+    "claimed_outside_background": 0,
+    "background_with_a_pathway": 221,
+    "pathways_tested": 7,
+    "pathways_dropped_by_size": 475
+   },
+   "olink_oncology_I_nsphs_analysed": {
+    "background": 77,
+    "claimed": 0,
+    "claimed_outside_background": 0,
+    "background_with_a_pathway": 68,
+    "pathways_tested": 6,
+    "pathways_dropped_by_size": 228
+   },
+   "olink_target_96:CVD I": {
+    "background": 92,
+    "claimed": 0,
+    "claimed_outside_background": 0,
+    "background_with_a_pathway": 84,
+    "pathways_tested": 3,
+    "pathways_dropped_by_size": 300
+   },
+   "olink_target_96:INF": {
+    "background": 92,
+    "claimed": 1,
+    "claimed_outside_background": 0,
+    "background_with_a_pathway": 82,
+    "pathways_tested": 5,
+    "pathways_dropped_by_size": 245
+   },
+   "olink_target_96:NEU": {
+    "background": 93,
+    "claimed": 0,
+    "claimed_outside_background": 0,
+    "background_with_a_pathway": 76,
+    "pathways_tested": 0,
+    "pathways_dropped_by_size": 173
+   },
+   "scallop_koprulu2026_analysed": {
+    "background": 1034,
+    "claimed": 0,
+    "claimed_outside_background": 0,
+    "background_with_a_pathway": 828,
+    "pathways_tested": 53,
+    "pathways_dropped_by_size": 1100
+   },
+   "somascan_1.3k_jhs_katz2022": {
+    "background": 1296,
+    "claimed": 0,
+    "claimed_outside_background": 0,
+    "background_with_a_pathway": 1145,
+    "pathways_tested": 213,
+    "pathways_dropped_by_size": 1285
+   },
+   "somascan_160410": {
+    "background": 3592,
+    "claimed": 6,
+    "claimed_outside_background": 0,
+    "background_with_a_pathway": 2622,
+    "pathways_tested": 456,
+    "pathways_dropped_by_size": 1399
+   },
+   "somascan_ages_custom": {
+    "background": 4146,
+    "claimed": 2,
+    "claimed_outside_background": 0,
+    "background_with_a_pathway": 2985,
+    "pathways_tested": 513,
+    "pathways_dropped_by_size": 1392
+   },
+   "somascan_v3.2_kora": {
+    "background": 1124,
+    "claimed": 1,
+    "claimed_outside_background": 0,
+    "background_with_a_pathway": 1000,
+    "pathways_tested": 151,
+    "pathways_dropped_by_size": 1272
+   },
+   "somascan_v4": {
+    "background": 4717,
+    "claimed": 72,
+    "claimed_outside_background": 1,
+    "background_with_a_pathway": 3447,
+    "pathways_tested": 584,
+    "pathways_dropped_by_size": 1384
+   },
+   "zheng2020_instrumented_1699": {
+    "background": 1725,
+    "claimed": 0,
+    "claimed_outside_background": 0,
+    "background_with_a_pathway": 1270,
+    "pathways_tested": 123,
+    "pathways_dropped_by_size": 1385
+   }
+  },
+  "secondary_pooled_open_to_platform_composition_confounding": {
+   "background": 6117,
+   "claimed": 172,
+   "claimed_outside_background": 0,
+   "background_with_a_pathway": 4349,
+   "pathways_tested": 717,
+   "pathways_dropped_by_size": 1330
+  },
+  "lists_without_a_kept_pathway": [
+   "olink_target_96:NEU"
+  ],
+  "density_cells": 9813
+ },
+ "sensitivity_null_result_claims_counted": {
+  "claims": 3555,
+  "claims_by_enrichment_state": {
+   "no_pinned_assay_list": 1021,
+   "not_causal_or_target": 2324,
+   "enters_enrichment": 210,
+   "enters_enrichment_with_a_manually_coded_dataset": 84
+  },
+  "registry_proteins": 1466,
+  "registry_proteins_with_a_pathway": 1152,
+  "primary": {
+   "fenland_covid_179": {
+    "background": 175,
+    "claimed": 0,
+    "claimed_outside_background": 0,
+    "background_with_a_pathway": 153,
+    "pathways_tested": 9,
+    "pathways_dropped_by_size": 449
+   },
+   "fhs_luminex_71": {
+    "background": 70,
+    "claimed": 0,
+    "claimed_outside_background": 0,
+    "background_with_a_pathway": 65,
+    "pathways_tested": 4,
+    "pathways_dropped_by_size": 249
+   },
+   "gnhs_swath_ms_304": {
+    "background": 304,
+    "claimed": 1,
+    "claimed_outside_background": 0,
+    "background_with_a_pathway": 223,
+    "pathways_tested": 21,
+    "pathways_dropped_by_size": 476
+   },
+   "olink_cvd1_improve_analysed": {
+    "background": 82,
+    "claimed": 0,
+    "claimed_outside_background": 0,
+    "background_with_a_pathway": 75,
+    "pathways_tested": 3,
+    "pathways_dropped_by_size": 284
+   },
+   "olink_explore_3072": {
+    "background": 2926,
+    "claimed": 105,
+    "claimed_outside_background": 5,
+    "background_with_a_pathway": 2156,
+    "pathways_tested": 222,
+    "pathways_dropped_by_size": 1553
+   },
+   "olink_helic_png2021": {
+    "background": 184,
+    "claimed": 0,
+    "claimed_outside_background": 1,
+    "background_with_a_pathway": 143,
+    "pathways_tested": 3,
+    "pathways_dropped_by_size": 348
+   },
+   "olink_manolis_gilly2020_analysed": {
+    "background": 258,
+    "claimed": 0,
+    "claimed_outside_background": 0,
+    "background_with_a_pathway": 221,
+    "pathways_tested": 7,
+    "pathways_dropped_by_size": 475
+   },
+   "olink_oncology_I_nsphs_analysed": {
+    "background": 77,
+    "claimed": 0,
+    "claimed_outside_background": 0,
+    "background_with_a_pathway": 68,
+    "pathways_tested": 6,
+    "pathways_dropped_by_size": 228
+   },
+   "olink_target_96:CVD I": {
+    "background": 92,
+    "claimed": 0,
+    "claimed_outside_background": 0,
+    "background_with_a_pathway": 84,
+    "pathways_tested": 3,
+    "pathways_dropped_by_size": 300
+   },
+   "olink_target_96:INF": {
+    "background": 92,
+    "claimed": 1,
+    "claimed_outside_background": 0,
+    "background_with_a_pathway": 82,
+    "pathways_tested": 5,
+    "pathways_dropped_by_size": 245
+   },
+   "olink_target_96:NEU": {
+    "background": 93,
+    "claimed": 0,
+    "claimed_outside_background": 0,
+    "background_with_a_pathway": 76,
+    "pathways_tested": 0,
+    "pathways_dropped_by_size": 173
+   },
+   "scallop_koprulu2026_analysed": {
+    "background": 1034,
+    "claimed": 0,
+    "claimed_outside_background": 0,
+    "background_with_a_pathway": 828,
+    "pathways_tested": 53,
+    "pathways_dropped_by_size": 1100
+   },
+   "somascan_1.3k_jhs_katz2022": {
+    "background": 1296,
+    "claimed": 0,
+    "claimed_outside_background": 0,
+    "background_with_a_pathway": 1145,
+    "pathways_tested": 213,
+    "pathways_dropped_by_size": 1285
+   },
+   "somascan_160410": {
+    "background": 3592,
+    "claimed": 8,
+    "claimed_outside_background": 0,
+    "background_with_a_pathway": 2622,
+    "pathways_tested": 456,
+    "pathways_dropped_by_size": 1399
+   },
+   "somascan_ages_custom": {
+    "background": 4146,
+    "claimed": 2,
+    "claimed_outside_background": 0,
+    "background_with_a_pathway": 2985,
+    "pathways_tested": 513,
+    "pathways_dropped_by_size": 1392
+   },
+   "somascan_v3.2_kora": {
+    "background": 1124,
+    "claimed": 1,
+    "claimed_outside_background": 0,
+    "background_with_a_pathway": 1000,
+    "pathways_tested": 151,
+    "pathways_dropped_by_size": 1272
+   },
+   "somascan_v4": {
+    "background": 4717,
+    "claimed": 74,
+    "claimed_outside_background": 1,
+    "background_with_a_pathway": 3447,
+    "pathways_tested": 584,
+    "pathways_dropped_by_size": 1384
+   },
+   "zheng2020_instrumented_1699": {
+    "background": 1725,
+    "claimed": 0,
+    "claimed_outside_background": 0,
+    "background_with_a_pathway": 1270,
+    "pathways_tested": 123,
+    "pathways_dropped_by_size": 1385
+   }
+  },
+  "secondary_pooled_open_to_platform_composition_confounding": {
+   "background": 6117,
+   "claimed": 175,
+   "claimed_outside_background": 0,
+   "background_with_a_pathway": 4349,
+   "pathways_tested": 717,
+   "pathways_dropped_by_size": 1330
+  },
+  "lists_without_a_kept_pathway": [
+   "olink_target_96:NEU"
+  ],
+  "density_cells": 9813
+ },
+ "sensitivity_alternative_assay_lists": {
+  "claims": 3555,
+  "claims_by_enrichment_state": {
+   "no_pinned_assay_list": 987,
+   "not_causal_or_target": 2324,
+   "reports_no_significant_estimate": 39,
+   "enters_enrichment": 205,
+   "enters_enrichment_with_a_manually_coded_dataset": 81
+  },
+  "registry_proteins": 1466,
+  "registry_proteins_with_a_pathway": 1152,
+  "primary": {
+   "fenland_covid_179": {
+    "background": 175,
+    "claimed": 0,
+    "claimed_outside_background": 0,
+    "background_with_a_pathway": 153,
+    "pathways_tested": 9,
+    "pathways_dropped_by_size": 449
+   },
+   "fhs_luminex_71": {
+    "background": 70,
+    "claimed": 0,
+    "claimed_outside_background": 0,
+    "background_with_a_pathway": 65,
+    "pathways_tested": 4,
+    "pathways_dropped_by_size": 249
+   },
+   "gnhs_swath_ms_304": {
+    "background": 304,
+    "claimed": 1,
+    "claimed_outside_background": 0,
+    "background_with_a_pathway": 223,
+    "pathways_tested": 21,
+    "pathways_dropped_by_size": 476
+   },
+   "olink_cvd1_improve_analysed": {
+    "background": 82,
+    "claimed": 0,
+    "claimed_outside_background": 0,
+    "background_with_a_pathway": 75,
+    "pathways_tested": 3,
+    "pathways_dropped_by_size": 284
+   },
+   "olink_explore_3072": {
+    "background": 2926,
+    "claimed": 105,
+    "claimed_outside_background": 5,
+    "background_with_a_pathway": 2156,
+    "pathways_tested": 222,
+    "pathways_dropped_by_size": 1553
+   },
+   "olink_helic_png2021": {
+    "background": 184,
+    "claimed": 0,
+    "claimed_outside_background": 1,
+    "background_with_a_pathway": 143,
+    "pathways_tested": 3,
+    "pathways_dropped_by_size": 348
+   },
+   "olink_manolis_gilly2020_analysed": {
+    "background": 258,
+    "claimed": 0,
+    "claimed_outside_background": 0,
+    "background_with_a_pathway": 221,
+    "pathways_tested": 7,
+    "pathways_dropped_by_size": 475
+   },
+   "olink_oncology_I_nsphs_analysed": {
+    "background": 77,
+    "claimed": 0,
+    "claimed_outside_background": 0,
+    "background_with_a_pathway": 68,
+    "pathways_tested": 6,
+    "pathways_dropped_by_size": 228
+   },
+   "olink_target_96:CVD I": {
+    "background": 92,
+    "claimed": 0,
+    "claimed_outside_background": 0,
+    "background_with_a_pathway": 84,
+    "pathways_tested": 3,
+    "pathways_dropped_by_size": 300
+   },
+   "olink_target_96:INF": {
+    "background": 92,
+    "claimed": 1,
+    "claimed_outside_background": 0,
+    "background_with_a_pathway": 82,
+    "pathways_tested": 5,
+    "pathways_dropped_by_size": 245
+   },
+   "olink_target_96:NEU": {
+    "background": 93,
+    "claimed": 0,
+    "claimed_outside_background": 0,
+    "background_with_a_pathway": 76,
+    "pathways_tested": 0,
+    "pathways_dropped_by_size": 173
+   },
+   "scallop_koprulu2026_analysed": {
+    "background": 1034,
+    "claimed": 0,
+    "claimed_outside_background": 0,
+    "background_with_a_pathway": 828,
+    "pathways_tested": 53,
+    "pathways_dropped_by_size": 1100
+   },
+   "somascan_1.3k_jhs_katz2022": {
+    "background": 1296,
+    "claimed": 0,
+    "claimed_outside_background": 0,
+    "background_with_a_pathway": 1145,
+    "pathways_tested": 213,
+    "pathways_dropped_by_size": 1285
+   },
+   "somascan_160410": {
+    "background": 3592,
+    "claimed": 6,
+    "claimed_outside_background": 0,
+    "background_with_a_pathway": 2622,
+    "pathways_tested": 456,
+    "pathways_dropped_by_size": 1399
+   },
+   "somascan_160410|somascan_v3.2_kora|somascan_ages_custom|olink_target_96:CVD I|fhs_luminex_71": {
+    "background": 4172,
+    "claimed": 0,
+    "claimed_outside_background": 0,
+    "background_with_a_pathway": 3005,
+    "pathways_tested": 517,
+    "pathways_dropped_by_size": 1395
+   },
+   "somascan_ages_custom": {
+    "background": 4146,
+    "claimed": 2,
+    "claimed_outside_background": 0,
+    "background_with_a_pathway": 2985,
+    "pathways_tested": 513,
+    "pathways_dropped_by_size": 1392
+   },
+   "somascan_v3.2_kora": {
+    "background": 1124,
+    "claimed": 1,
+    "claimed_outside_background": 0,
+    "background_with_a_pathway": 1000,
+    "pathways_tested": 151,
+    "pathways_dropped_by_size": 1272
+   },
+   "somascan_v4": {
+    "background": 4717,
+    "claimed": 72,
+    "claimed_outside_background": 1,
+    "background_with_a_pathway": 3447,
+    "pathways_tested": 584,
+    "pathways_dropped_by_size": 1384
+   }
+  },
+  "secondary_pooled_open_to_platform_composition_confounding": {
+   "background": 6112,
+   "claimed": 171,
+   "claimed_outside_background": 0,
+   "background_with_a_pathway": 4347,
+   "pathways_tested": 717,
+   "pathways_dropped_by_size": 1330
+  },
+  "lists_without_a_kept_pathway": [
+   "olink_target_96:NEU"
+  ],
+  "density_cells": 9813
+ },
+ "sensitivity_whole_panel_backgrounds": {
+  "claims": 3555,
+  "claims_by_enrichment_state": {
+   "no_pinned_assay_list": 987,
+   "not_causal_or_target": 2324,
+   "reports_no_significant_estimate": 39,
+   "enters_enrichment": 205,
+   "enters_enrichment_with_a_manually_coded_dataset": 81
+  },
+  "registry_proteins": 1466,
+  "registry_proteins_with_a_pathway": 1152,
+  "primary": {
+   "fenland_covid_179": {
+    "background": 175,
+    "claimed": 0,
+    "claimed_outside_background": 0,
+    "background_with_a_pathway": 153,
+    "pathways_tested": 9,
+    "pathways_dropped_by_size": 449
+   },
+   "fhs_luminex_71": {
+    "background": 70,
+    "claimed": 0,
+    "claimed_outside_background": 0,
+    "background_with_a_pathway": 65,
+    "pathways_tested": 4,
+    "pathways_dropped_by_size": 249
+   },
+   "gnhs_swath_ms_304": {
+    "background": 304,
+    "claimed": 1,
+    "claimed_outside_background": 0,
+    "background_with_a_pathway": 223,
+    "pathways_tested": 21,
+    "pathways_dropped_by_size": 476
+   },
+   "olink_explore_3072": {
+    "background": 2926,
+    "claimed": 105,
+    "claimed_outside_background": 5,
+    "background_with_a_pathway": 2156,
+    "pathways_tested": 222,
+    "pathways_dropped_by_size": 1553
+   },
+   "olink_proseek_oncology_I": {
+    "background": 91,
+    "claimed": 0,
+    "claimed_outside_background": 0,
+    "background_with_a_pathway": 81,
+    "pathways_tested": 6,
+    "pathways_dropped_by_size": 266
+   },
+   "olink_target_96:CAM|olink_target_96:CVD II|olink_target_96:CVD III|olink_target_96:CRE|olink_target_96:DEV|olink_target_96:IMO|olink_target_96:INF|olink_target_96:IRE|olink_target_96:MET|olink_target_96:NEU|olink_target_96:NEX|olink_target_96:ODA|olink_target_96:ONC II": {
+    "background": 1071,
+    "claimed": 0,
+    "claimed_outside_background": 0,
+    "background_with_a_pathway": 856,
+    "pathways_tested": 55,
+    "pathways_dropped_by_size": 1113
+   },
+   "olink_target_96:CVD I": {
+    "background": 92,
+    "claimed": 0,
+    "claimed_outside_background": 0,
+    "background_with_a_pathway": 84,
+    "pathways_tested": 3,
+    "pathways_dropped_by_size": 300
+   },
+   "olink_target_96:CVD II|olink_target_96:CVD III|olink_target_96:MET": {
+    "background": 275,
+    "claimed": 0,
+    "claimed_outside_background": 0,
+    "background_with_a_pathway": 231,
+    "pathways_tested": 7,
+    "pathways_dropped_by_size": 498
+   },
+   "olink_target_96:INF": {
+    "background": 92,
+    "claimed": 1,
+    "claimed_outside_background": 0,
+    "background_with_a_pathway": 82,
+    "pathways_tested": 5,
+    "pathways_dropped_by_size": 245
+   },
+   "olink_target_96:NEU": {
+    "background": 93,
+    "claimed": 0,
+    "claimed_outside_background": 0,
+    "background_with_a_pathway": 76,
+    "pathways_tested": 0,
+    "pathways_dropped_by_size": 173
+   },
+   "olink_target_96:NEU|olink_target_96:NEX": {
+    "background": 185,
+    "claimed": 0,
+    "claimed_outside_background": 1,
+    "background_with_a_pathway": 144,
+    "pathways_tested": 3,
+    "pathways_dropped_by_size": 349
+   },
+   "somascan_1.3k": {
+    "background": 1063,
+    "claimed": 0,
+    "claimed_outside_background": 0,
+    "background_with_a_pathway": 940,
+    "pathways_tested": 116,
+    "pathways_dropped_by_size": 1285
+   },
+   "somascan_160410": {
+    "background": 3592,
+    "claimed": 6,
+    "claimed_outside_background": 0,
+    "background_with_a_pathway": 2622,
+    "pathways_tested": 456,
+    "pathways_dropped_by_size": 1399
+   },
+   "somascan_ages_custom": {
+    "background": 4146,
+    "claimed": 2,
+    "claimed_outside_background": 0,
+    "background_with_a_pathway": 2985,
+    "pathways_tested": 513,
+    "pathways_dropped_by_size": 1392
+   },
+   "somascan_v3.2_kora": {
+    "background": 1124,
+    "claimed": 1,
+    "claimed_outside_background": 0,
+    "background_with_a_pathway": 1000,
+    "pathways_tested": 151,
+    "pathways_dropped_by_size": 1272
+   },
+   "somascan_v4": {
+    "background": 4717,
+    "claimed": 72,
+    "claimed_outside_background": 1,
+    "background_with_a_pathway": 3447,
+    "pathways_tested": 584,
+    "pathways_dropped_by_size": 1384
+   },
+   "zheng2020_instrumented_1699": {
+    "background": 1725,
+    "claimed": 0,
+    "claimed_outside_background": 0,
+    "background_with_a_pathway": 1270,
+    "pathways_tested": 123,
+    "pathways_dropped_by_size": 1385
+   }
+  },
+  "secondary_pooled_open_to_platform_composition_confounding": {
+   "background": 6119,
+   "claimed": 171,
+   "claimed_outside_background": 0,
+   "background_with_a_pathway": 4351,
+   "pathways_tested": 718,
+   "pathways_dropped_by_size": 1329
+  },
+  "lists_without_a_kept_pathway": [
+   "olink_target_96:NEU"
+  ],
+  "density_cells": 9813
+ },
+ "sensitivity_without_manual_dataset_coding": {
+  "claims": 3555,
+  "claims_by_enrichment_state": {
+   "no_pinned_assay_list": 990,
+   "not_causal_or_target": 2324,
+   "reports_no_significant_estimate": 39,
+   "enters_enrichment": 202
+  },
+  "registry_proteins": 1466,
+  "registry_proteins_with_a_pathway": 1152,
+  "primary": {
+   "fenland_covid_179": {
+    "background": 175,
+    "claimed": 0,
+    "claimed_outside_background": 0,
+    "background_with_a_pathway": 153,
+    "pathways_tested": 9,
+    "pathways_dropped_by_size": 449
+   },
+   "fhs_luminex_71": {
+    "background": 70,
+    "claimed": 0,
+    "claimed_outside_background": 0,
+    "background_with_a_pathway": 65,
+    "pathways_tested": 4,
+    "pathways_dropped_by_size": 249
+   },
+   "gnhs_swath_ms_304": {
+    "background": 304,
+    "claimed": 1,
+    "claimed_outside_background": 0,
+    "background_with_a_pathway": 223,
+    "pathways_tested": 21,
+    "pathways_dropped_by_size": 476
+   },
+   "olink_cvd1_improve_analysed": {
+    "background": 82,
+    "claimed": 0,
+    "claimed_outside_background": 0,
+    "background_with_a_pathway": 75,
+    "pathways_tested": 3,
+    "pathways_dropped_by_size": 284
+   },
+   "olink_explore_3072": {
+    "background": 2926,
+    "claimed": 105,
+    "claimed_outside_background": 5,
+    "background_with_a_pathway": 2156,
+    "pathways_tested": 222,
+    "pathways_dropped_by_size": 1553
+   },
+   "olink_helic_png2021": {
+    "background": 184,
+    "claimed": 0,
+    "claimed_outside_background": 1,
+    "background_with_a_pathway": 143,
+    "pathways_tested": 3,
+    "pathways_dropped_by_size": 348
+   },
+   "olink_manolis_gilly2020_analysed": {
+    "background": 258,
+    "claimed": 0,
+    "claimed_outside_background": 0,
+    "background_with_a_pathway": 221,
+    "pathways_tested": 7,
+    "pathways_dropped_by_size": 475
+   },
+   "olink_oncology_I_nsphs_analysed": {
+    "background": 77,
+    "claimed": 0,
+    "claimed_outside_background": 0,
+    "background_with_a_pathway": 68,
+    "pathways_tested": 6,
+    "pathways_dropped_by_size": 228
+   },
+   "olink_target_96:CVD I": {
+    "background": 92,
+    "claimed": 0,
+    "claimed_outside_background": 0,
+    "background_with_a_pathway": 84,
+    "pathways_tested": 3,
+    "pathways_dropped_by_size": 300
+   },
+   "olink_target_96:INF": {
+    "background": 92,
+    "claimed": 0,
+    "claimed_outside_background": 0,
+    "background_with_a_pathway": 82,
+    "pathways_tested": 5,
+    "pathways_dropped_by_size": 245
+   },
+   "olink_target_96:NEU": {
+    "background": 93,
+    "claimed": 0,
+    "claimed_outside_background": 0,
+    "background_with_a_pathway": 76,
+    "pathways_tested": 0,
+    "pathways_dropped_by_size": 173
+   },
+   "scallop_koprulu2026_analysed": {
+    "background": 1034,
+    "claimed": 0,
+    "claimed_outside_background": 0,
+    "background_with_a_pathway": 828,
+    "pathways_tested": 53,
+    "pathways_dropped_by_size": 1100
+   },
+   "somascan_1.3k_jhs_katz2022": {
+    "background": 1296,
+    "claimed": 0,
+    "claimed_outside_background": 0,
+    "background_with_a_pathway": 1145,
+    "pathways_tested": 213,
+    "pathways_dropped_by_size": 1285
+   },
+   "somascan_160410": {
+    "background": 3592,
+    "claimed": 6,
+    "claimed_outside_background": 0,
+    "background_with_a_pathway": 2622,
+    "pathways_tested": 456,
+    "pathways_dropped_by_size": 1399
+   },
+   "somascan_ages_custom": {
+    "background": 4146,
+    "claimed": 0,
+    "claimed_outside_background": 0,
+    "background_with_a_pathway": 2985,
+    "pathways_tested": 513,
+    "pathways_dropped_by_size": 1392
+   },
+   "somascan_v3.2_kora": {
+    "background": 1124,
+    "claimed": 1,
+    "claimed_outside_background": 0,
+    "background_with_a_pathway": 1000,
+    "pathways_tested": 151,
+    "pathways_dropped_by_size": 1272
+   },
+   "somascan_v4": {
+    "background": 4717,
+    "claimed": 65,
+    "claimed_outside_background": 0,
+    "background_with_a_pathway": 3447,
+    "pathways_tested": 584,
+    "pathways_dropped_by_size": 1384
+   },
+   "zheng2020_instrumented_1699": {
+    "background": 1725,
+    "claimed": 0,
+    "claimed_outside_background": 0,
+    "background_with_a_pathway": 1270,
+    "pathways_tested": 123,
+    "pathways_dropped_by_size": 1385
+   }
+  },
+  "secondary_pooled_open_to_platform_composition_confounding": {
+   "background": 6117,
+   "claimed": 165,
+   "claimed_outside_background": 0,
+   "background_with_a_pathway": 4349,
+   "pathways_tested": 717,
+   "pathways_dropped_by_size": 1330
+  },
+  "lists_without_a_kept_pathway": [
+   "olink_target_96:NEU"
+  ],
+  "density_cells": 9813
+ }
+}

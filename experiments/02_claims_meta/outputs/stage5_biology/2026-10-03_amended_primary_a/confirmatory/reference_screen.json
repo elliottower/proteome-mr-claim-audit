@@ -1,0 +1,271 @@
+{
+ "inputs": "/vol/02_claims_meta/stage5/2026-10-03_amended_primary_a/biology_inputs",
+ "window": "confirmatory",
+ "claim_records": 3571,
+ "resources": {
+  "ontology_edges": "/exp/verification/ontology_edges.csv",
+  "therapeutic_areas": "/exp/verification/therapeutic_areas.csv",
+  "therapeutic_area_names": "/exp/verification/therapeutic_area_names.csv",
+  "assay_lists": "/exp/verification/platform_assay_lists.csv",
+  "attachments": "/exp/verification/platform_assay_attachments.csv",
+  "author_lists": "/exp/verification/author_supplied_lists.csv",
+  "reactome": "/exp/inputs/reactome/UniProt2Reactome.txt",
+  "snapshot_estimates": "/exp/derived/epigraphdb_mrres_estimates.jsonl",
+  "protein_mapping": "/exp/verification/epigraphdb_protein_mapping.csv",
+  "trait_mapping": "/exp/verification/epigraphdb_trait_mapping.csv",
+  "locus_list": "/exp/verification/pleiotropic_loci_eldjarn2023_ST36.csv"
+ },
+ "written_utc": "2026-10-08T15:52:20+00:00",
+ "snapshot_records": 179928,
+ "snapshot_records_on_mapped_pairs": 135001,
+ "snapshot_mapped_proteins": 973,
+ "snapshot_mapped_outcomes": 165,
+ "pairs": 2759,
+ "pairs_by_class": {
+  "present_same": 50,
+  "present_opposite": 27,
+  "present_nondirectional_or_ambiguous": 301,
+  "no_returned_record": 93,
+  "mapping_failed": 2288
+ },
+ "pairs_matched_to_snapshot": 471,
+ "claim_records_by_class": {
+  "present_same": 61,
+  "present_opposite": 33,
+  "present_nondirectional_or_ambiguous": 459,
+  "no_returned_record": 155,
+  "mapping_failed": 2863
+ },
+ "claim_records_by_novelty_language": {
+  "false": {
+   "present_same": 59,
+   "present_opposite": 33,
+   "present_nondirectional_or_ambiguous": 439,
+   "no_returned_record": 151,
+   "mapping_failed": 2776
+  },
+  "true": {
+   "present_same": 2,
+   "present_opposite": 0,
+   "present_nondirectional_or_ambiguous": 20,
+   "no_returned_record": 4,
+   "mapping_failed": 87
+  }
+ },
+ "claim_records_by_novelty_class": {
+  "earlier_in_registry": {
+   "present_same": 21,
+   "present_opposite": 4,
+   "present_nondirectional_or_ambiguous": 92,
+   "no_returned_record": 46,
+   "mapping_failed": 261
+  },
+  "no_earlier_in_registry": {
+   "present_same": 40,
+   "present_opposite": 29,
+   "present_nondirectional_or_ambiguous": 365,
+   "no_returned_record": 109,
+   "mapping_failed": 2602
+  },
+  "tied_or_unknown_order": {
+   "present_same": 0,
+   "present_opposite": 0,
+   "present_nondirectional_or_ambiguous": 2,
+   "no_returned_record": 0,
+   "mapping_failed": 0
+  }
+ },
+ "claim_records_by_shared_pqtl_source": {
+  "shared_pqtl_source": {
+   "present_same": 2,
+   "present_opposite": 0,
+   "present_nondirectional_or_ambiguous": 18,
+   "no_returned_record": 1,
+   "mapping_failed": 37
+  },
+  "other_pqtl_source": {
+   "present_same": 4,
+   "present_opposite": 4,
+   "present_nondirectional_or_ambiguous": 78,
+   "no_returned_record": 23,
+   "mapping_failed": 571
+  },
+  "pqtl_not_stated_or_unmatched": {
+   "present_same": 55,
+   "present_opposite": 29,
+   "present_nondirectional_or_ambiguous": 363,
+   "no_returned_record": 131,
+   "mapping_failed": 2255
+  }
+ },
+ "sensitivity_names_as_written_only": {
+  "snapshot_records": 179928,
+  "snapshot_records_on_mapped_pairs": 52872,
+  "snapshot_mapped_proteins": 973,
+  "snapshot_mapped_outcomes": 79,
+  "pairs": 2759,
+  "pairs_by_class": {
+   "present_same": 29,
+   "present_opposite": 19,
+   "present_nondirectional_or_ambiguous": 193,
+   "no_returned_record": 84,
+   "mapping_failed": 2434
+  },
+  "pairs_matched_to_snapshot": 325,
+  "claim_records": 3571,
+  "claim_records_by_class": {
+   "present_same": 40,
+   "present_opposite": 23,
+   "present_nondirectional_or_ambiguous": 310,
+   "no_returned_record": 140,
+   "mapping_failed": 3058
+  },
+  "claim_records_by_novelty_language": {
+   "false": {
+    "present_same": 38,
+    "present_opposite": 23,
+    "present_nondirectional_or_ambiguous": 295,
+    "no_returned_record": 137,
+    "mapping_failed": 2965
+   },
+   "true": {
+    "present_same": 2,
+    "present_opposite": 0,
+    "present_nondirectional_or_ambiguous": 15,
+    "no_returned_record": 3,
+    "mapping_failed": 93
+   }
+  },
+  "claim_records_by_novelty_class": {
+   "earlier_in_registry": {
+    "present_same": 18,
+    "present_opposite": 3,
+    "present_nondirectional_or_ambiguous": 81,
+    "no_returned_record": 43,
+    "mapping_failed": 279
+   },
+   "no_earlier_in_registry": {
+    "present_same": 22,
+    "present_opposite": 20,
+    "present_nondirectional_or_ambiguous": 227,
+    "no_returned_record": 97,
+    "mapping_failed": 2779
+   },
+   "tied_or_unknown_order": {
+    "present_same": 0,
+    "present_opposite": 0,
+    "present_nondirectional_or_ambiguous": 2,
+    "no_returned_record": 0,
+    "mapping_failed": 0
+   }
+  },
+  "claim_records_by_shared_pqtl_source": {
+   "shared_pqtl_source": {
+    "present_same": 2,
+    "present_opposite": 0,
+    "present_nondirectional_or_ambiguous": 7,
+    "no_returned_record": 0,
+    "mapping_failed": 49
+   },
+   "other_pqtl_source": {
+    "present_same": 1,
+    "present_opposite": 3,
+    "present_nondirectional_or_ambiguous": 64,
+    "no_returned_record": 20,
+    "mapping_failed": 592
+   },
+   "pqtl_not_stated_or_unmatched": {
+    "present_same": 37,
+    "present_opposite": 20,
+    "present_nondirectional_or_ambiguous": 239,
+    "no_returned_record": 120,
+    "mapping_failed": 2417
+   }
+  }
+ },
+ "sensitivity_proxy_trait_aliases_included": {
+  "snapshot_records": 179928,
+  "snapshot_records_on_mapped_pairs": 147819,
+  "snapshot_mapped_proteins": 973,
+  "snapshot_mapped_outcomes": 181,
+  "pairs": 2759,
+  "pairs_by_class": {
+   "present_same": 51,
+   "present_opposite": 27,
+   "present_nondirectional_or_ambiguous": 311,
+   "no_returned_record": 99,
+   "mapping_failed": 2271
+  },
+  "pairs_matched_to_snapshot": 488,
+  "claim_records": 3571,
+  "claim_records_by_class": {
+   "present_same": 62,
+   "present_opposite": 33,
+   "present_nondirectional_or_ambiguous": 469,
+   "no_returned_record": 161,
+   "mapping_failed": 2846
+  },
+  "claim_records_by_novelty_language": {
+   "false": {
+    "present_same": 60,
+    "present_opposite": 33,
+    "present_nondirectional_or_ambiguous": 448,
+    "no_returned_record": 157,
+    "mapping_failed": 2760
+   },
+   "true": {
+    "present_same": 2,
+    "present_opposite": 0,
+    "present_nondirectional_or_ambiguous": 21,
+    "no_returned_record": 4,
+    "mapping_failed": 86
+   }
+  },
+  "claim_records_by_novelty_class": {
+   "earlier_in_registry": {
+    "present_same": 21,
+    "present_opposite": 4,
+    "present_nondirectional_or_ambiguous": 92,
+    "no_returned_record": 46,
+    "mapping_failed": 261
+   },
+   "no_earlier_in_registry": {
+    "present_same": 41,
+    "present_opposite": 29,
+    "present_nondirectional_or_ambiguous": 375,
+    "no_returned_record": 115,
+    "mapping_failed": 2585
+   },
+   "tied_or_unknown_order": {
+    "present_same": 0,
+    "present_opposite": 0,
+    "present_nondirectional_or_ambiguous": 2,
+    "no_returned_record": 0,
+    "mapping_failed": 0
+   }
+  },
+  "claim_records_by_shared_pqtl_source": {
+   "shared_pqtl_source": {
+    "present_same": 2,
+    "present_opposite": 0,
+    "present_nondirectional_or_ambiguous": 18,
+    "no_returned_record": 1,
+    "mapping_failed": 37
+   },
+   "other_pqtl_source": {
+    "present_same": 4,
+    "present_opposite": 4,
+    "present_nondirectional_or_ambiguous": 78,
+    "no_returned_record": 25,
+    "mapping_failed": 569
+   },
+   "pqtl_not_stated_or_unmatched": {
+    "present_same": 56,
+    "present_opposite": 29,
+    "present_nondirectional_or_ambiguous": 373,
+    "no_returned_record": 135,
+    "mapping_failed": 2240
+   }
+  }
+ }
+}

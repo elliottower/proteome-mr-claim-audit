@@ -1,0 +1,147 @@
+{
+ "run_name": "2026-10-03_registered_with_27_a",
+ "started_utc_of_the_last_attempt": "20261008T155119Z",
+ "written_utc": "20261008T164114Z",
+ "inputs_sha256": {
+  "records": "aecd595dcc30232d73a64a04822b13a91ff412a32a28ebeebdc39081813a56f3",
+  "decisions": "48e409d216a3fbc45771491999990abf88348829cdabb124306d022ceecc2dc8",
+  "extraction": "f3889d758c84491d5a3626ce19d220098d3baa05b0e73b2e57e05016d075f01d",
+  "checks": "5e40c4a48727947007f5a560bc1d82ac6eb7ff876160183e05c1d68b8b90c31a",
+  "chase_records": "54ca639976ab53992cbb41b449debe63c7751cdbeee2937f7892707b9d2358fa",
+  "manual_codes": "c4a9ff713ee565bb09381da51a7b39da4d8388f5a428d093e74d15cacda3bada"
+ },
+ "resamples": 10000,
+ "seed": 20261001,
+ "calls": [
+  {
+   "index": 0,
+   "function": "tables",
+   "result": "computed"
+  },
+  {
+   "index": 1,
+   "function": "tables",
+   "result": "computed"
+  },
+  {
+   "index": 2,
+   "function": "tables",
+   "result": "computed"
+  },
+  {
+   "index": 3,
+   "function": "tables",
+   "result": "computed"
+  },
+  {
+   "index": 4,
+   "function": "tables",
+   "result": "computed"
+  },
+  {
+   "index": 5,
+   "function": "tables",
+   "result": "computed"
+  },
+  {
+   "index": 6,
+   "function": "tables",
+   "result": "computed"
+  },
+  {
+   "index": 7,
+   "function": "tables",
+   "result": "computed"
+  },
+  {
+   "index": 8,
+   "function": "tables",
+   "result": "computed"
+  },
+  {
+   "index": 9,
+   "function": "recomputed",
+   "result": "computed"
+  },
+  {
+   "index": 10,
+   "function": "tables",
+   "result": "computed"
+  },
+  {
+   "index": 11,
+   "function": "h1_unclear_as_independent",
+   "result": "computed"
+  },
+  {
+   "index": 12,
+   "function": "tables",
+   "result": "computed"
+  },
+  {
+   "index": 13,
+   "function": "tables",
+   "result": "computed"
+  },
+  {
+   "index": 14,
+   "function": "tables",
+   "result": "computed"
+  },
+  {
+   "index": 15,
+   "function": "tables",
+   "result": "computed"
+  },
+  {
+   "index": 16,
+   "function": "tables",
+   "result": "computed"
+  },
+  {
+   "index": 17,
+   "function": "tables",
+   "result": "computed"
+  },
+  {
+   "index": 18,
+   "function": "tables",
+   "result": "computed"
+  },
+  {
+   "index": 19,
+   "function": "tables",
+   "result": "computed"
+  },
+  {
+   "index": 20,
+   "function": "tables",
+   "result": "computed"
+  }
+ ],
+ "calls_computed_in_the_last_attempt": 21,
+ "calls_taken_from_the_store": 0,
+ "sensitivity_tables_sha256": "42758a3ca1ef0993b6559762990f32bd0c1e39aa8892fe7595d036b43092908c",
+ "scripts_sha256": {
+  "sensitivity_analyses.py": "a6c51956c7ec79a27d8729314589ae53bbecf4b32884199401b26525fca187f9",
+  "sensitivity_checkpoints.py": "5cca7af8aba8bf52692f0970ac7fa4c672a589779eea7c7fde08de5d6d25e735",
+  "build_registry.py": "6537c6e55a89c7c263653bd7dccacfc0731d4840073306868c1154743c96bb63",
+  "assemble_registry.py": "c1f95f08e34a9c2c011f761a85b37ef39109692d6e1e77148345a6513ca3f485",
+  "modal_sensitivity_checkpointed.py": "4ded40f5b6ec6e5abe54a8b9215e7db075e4fb35c105fae98ed48257df8075cb"
+ },
+ "environment": {
+  "python": "3.12.10",
+  "modal": "1.4.3",
+  "packages": {
+   "httpx": "0.28.1",
+   "numpy": "2.5.3",
+   "openpyxl": "3.1.5",
+   "pyarrow": "21.0.0",
+   "pydantic": "2.13.5",
+   "pypdf": "5.9.0",
+   "pytest": "8.4.2",
+   "rapidfuzz": "3.14.6"
+  }
+ },
+ "volume_folder": "/vol/02_claims_meta/stage5/2026-10-03_registered_with_27_a"
+}

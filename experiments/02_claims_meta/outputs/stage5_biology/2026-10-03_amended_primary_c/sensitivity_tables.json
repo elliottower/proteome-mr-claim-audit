@@ -1,0 +1,3609 @@
+{
+ "run_name": "2026-10-03_amended_primary_c",
+ "written_utc": "20261008T165237Z",
+ "primary": {
+  "claim_records": 3571,
+  "denominators": {
+   "family_pair_records": 3109,
+   "by_direction": {
+    "unresolved": 2532,
+    "lowers": 232,
+    "nonsignificant_only": 48,
+    "raises": 295,
+    "mixed": 1,
+    "raises_with_nonsignificant": 1
+   },
+   "context_unclear": 4,
+   "pairs": 2759,
+   "multi_family_pairs": 245,
+   "contradicting_pairs": 5,
+   "family_pair_records_with_a_manually_coded_dataset": 0,
+   "multi_family_pairs_with_a_manually_coded_dataset": 0,
+   "h1_pairs_with_a_manually_coded_dataset": 0
+  },
+  "estimates": {
+   "h1_pairs": 0,
+   "h1_pairs_agreeing": 0,
+   "h1_pair_concordance": null,
+   "h1_independent_edges": 0,
+   "h1_independent_edges_agreeing": 0,
+   "h1_edge_concordance": null,
+   "liu_analogue_pairs": 21,
+   "liu_analogue_tiers": {
+    "high": 16,
+    "discordant": 5
+   },
+   "liu_analogue_share_not_discordant": 0.7619047619047619,
+   "h2_multi_family_pairs": 245,
+   "h2_known_identical": 0,
+   "h2_known_not_identical": 9,
+   "h2_unresolved": 236,
+   "h2_lower": 0.0,
+   "h2_upper": 0.963265306122449,
+   "h2_complete_case": 0.0,
+   "h2_resolvable_pairs": 0,
+   "h2_resolvable_share": 0.0,
+   "h2b_known_overlapping": 8,
+   "h2b_known_not_overlapping": 5,
+   "h2b_unresolved": 232,
+   "h2b_lower": 0.0326530612244898,
+   "h2b_upper": 0.9795918367346939,
+   "h2b_complete_case": 0.6153846153846154,
+   "h2_h2b_pairs_not_nested": 0
+  },
+  "wilson_descriptive": {
+   "h1_pair_concordance": null,
+   "h2_lower": [
+    0.0,
+    0.015437374619565052
+   ],
+   "h2_upper": [
+    0.9316719213546405,
+    0.980555490732538
+   ],
+   "h2b_lower": [
+    0.01663690566134272,
+    0.06309843633000585
+   ],
+   "h2b_upper": [
+    0.9531242851355692,
+    0.991252110637501
+   ],
+   "h2_resolvable_share": [
+    0.0,
+    0.015437374619565052
+   ]
+  },
+  "verdict_rule": "finite_corpus_bounds",
+  "h2_verdict": "unresolved",
+  "h2b_verdict": "unresolved",
+  "two_verdict_reading": "neither_share_placed_on_one_side_of_one_half",
+  "h2_supported_attainable": false,
+  "resampling_stability": [
+   "pair_bootstrap",
+   "protein_cluster_bootstrap",
+   "family_jackknife"
+  ],
+  "pair_bootstrap": {
+   "replicates": 10000,
+   "seed": 20261001,
+   "percentile_method": "inverted_cdf",
+   "h2_lower": [
+    0.0,
+    0.0
+   ],
+   "h2_upper": [
+    0.9387755102040817,
+    0.9836734693877551
+   ],
+   "h2b_lower": [
+    0.012244897959183673,
+    0.05714285714285714
+   ],
+   "h2b_upper": [
+    0.9591836734693877,
+    0.9959183673469387
+   ],
+   "h2_resolvable_share": [
+    0.0,
+    0.0
+   ]
+  },
+  "protein_cluster_bootstrap": {
+   "replicates": 10000,
+   "seed": [
+    20261001,
+    1
+   ],
+   "unit": "protein",
+   "percentile_method": "inverted_cdf",
+   "h2_proteins": 206,
+   "h2_lower": [
+    0.0,
+    0.0
+   ],
+   "h2_upper": [
+    0.9377593360995851,
+    0.984
+   ],
+   "h2b_lower": [
+    0.012145748987854251,
+    0.05714285714285714
+   ],
+   "h2b_upper": [
+    0.9596774193548387,
+    0.9959016393442623
+   ]
+  },
+  "family_jackknife": {
+   "h1_pair_concordance": null,
+   "h1_edge_concordance": null,
+   "h2_lower": {
+    "min": 0.0,
+    "min_when_dropping": "30998689",
+    "max": 0.0,
+    "max_when_dropping": "W7127634741",
+    "n_deletions": 732
+   },
+   "h2_upper": {
+    "min": 0.9617021276595744,
+    "min_when_dropping": "37212950",
+    "max": 0.9794238683127572,
+    "max_when_dropping": "W4390198428",
+    "n_deletions": 732
+   },
+   "h2b_lower": {
+    "min": 0.0,
+    "min_when_dropping": "41142151",
+    "max": 0.03404255319148936,
+    "max_when_dropping": "37212950",
+    "n_deletions": 732
+   },
+   "h2b_upper": {
+    "min": 0.9787234042553191,
+    "min_when_dropping": "37212950",
+    "max": 0.9917695473251029,
+    "max_when_dropping": "W4390198428",
+    "n_deletions": 732
+   },
+   "h2_resolvable_share": {
+    "min": 0.0,
+    "min_when_dropping": "30998689",
+    "max": 0.0,
+    "max_when_dropping": "W7127634741",
+    "n_deletions": 732
+   }
+  },
+  "imprecise_under_20_pairs": {
+   "h1": true,
+   "h2": false
+  }
+ },
+ "without_eligibility_uncertain": {
+  "claim_records": 2921,
+  "denominators": {
+   "family_pair_records": 2520,
+   "by_direction": {
+    "unresolved": 2086,
+    "lowers": 171,
+    "nonsignificant_only": 36,
+    "raises": 225,
+    "mixed": 1,
+    "raises_with_nonsignificant": 1
+   },
+   "context_unclear": 4,
+   "pairs": 2244,
+   "multi_family_pairs": 196,
+   "contradicting_pairs": 4,
+   "family_pair_records_with_a_manually_coded_dataset": 0,
+   "multi_family_pairs_with_a_manually_coded_dataset": 0,
+   "h1_pairs_with_a_manually_coded_dataset": 0
+  },
+  "estimates": {
+   "h1_pairs": 0,
+   "h1_pairs_agreeing": 0,
+   "h1_pair_concordance": null,
+   "h1_independent_edges": 0,
+   "h1_independent_edges_agreeing": 0,
+   "h1_edge_concordance": null,
+   "liu_analogue_pairs": 12,
+   "liu_analogue_tiers": {
+    "high": 8,
+    "discordant": 4
+   },
+   "liu_analogue_share_not_discordant": 0.6666666666666666,
+   "h2_multi_family_pairs": 196,
+   "h2_known_identical": 0,
+   "h2_known_not_identical": 9,
+   "h2_unresolved": 187,
+   "h2_lower": 0.0,
+   "h2_upper": 0.9540816326530612,
+   "h2_complete_case": 0.0,
+   "h2_resolvable_pairs": 0,
+   "h2_resolvable_share": 0.0,
+   "h2b_known_overlapping": 8,
+   "h2b_known_not_overlapping": 5,
+   "h2b_unresolved": 183,
+   "h2b_lower": 0.04081632653061224,
+   "h2b_upper": 0.9744897959183674,
+   "h2b_complete_case": 0.6153846153846154,
+   "h2_h2b_pairs_not_nested": 0
+  },
+  "wilson_descriptive": {
+   "h1_pair_concordance": null,
+   "h2_lower": [
+    1.734723475976807e-18,
+    0.019222531917868144
+   ],
+   "h2_upper": [
+    0.9150491550773298,
+    0.9756569128748104
+   ],
+   "h2b_lower": [
+    0.0208249653645253,
+    0.07846103333555769
+   ],
+   "h2b_upper": [
+    0.9416823647208152,
+    0.9890554366224324
+   ],
+   "h2_resolvable_share": [
+    1.734723475976807e-18,
+    0.019222531917868144
+   ]
+  },
+  "verdict_rule": "finite_corpus_bounds",
+  "h2_verdict": "unresolved",
+  "h2b_verdict": "unresolved",
+  "two_verdict_reading": "neither_share_placed_on_one_side_of_one_half",
+  "h2_supported_attainable": false,
+  "resampling_stability": [
+   "pair_bootstrap",
+   "protein_cluster_bootstrap",
+   "family_jackknife"
+  ],
+  "pair_bootstrap": {
+   "replicates": 10000,
+   "seed": 20261001,
+   "percentile_method": "inverted_cdf",
+   "h2_lower": [
+    0.0,
+    0.0
+   ],
+   "h2_upper": [
+    0.923469387755102,
+    0.9795918367346939
+   ],
+   "h2b_lower": [
+    0.015306122448979591,
+    0.07142857142857142
+   ],
+   "h2b_upper": [
+    0.9489795918367347,
+    0.9948979591836735
+   ],
+   "h2_resolvable_share": [
+    0.0,
+    0.0
+   ]
+  },
+  "protein_cluster_bootstrap": {
+   "replicates": 10000,
+   "seed": [
+    20261001,
+    1
+   ],
+   "unit": "protein",
+   "percentile_method": "inverted_cdf",
+   "h2_proteins": 170,
+   "h2_lower": [
+    0.0,
+    0.0
+   ],
+   "h2_upper": [
+    0.9223300970873787,
+    0.9797979797979798
+   ],
+   "h2b_lower": [
+    0.015151515151515152,
+    0.07106598984771574
+   ],
+   "h2b_upper": [
+    0.9502487562189055,
+    0.9948453608247423
+   ]
+  },
+  "family_jackknife": {
+   "h1_pair_concordance": null,
+   "h1_edge_concordance": null,
+   "h2_lower": {
+    "min": 0.0,
+    "min_when_dropping": "31208196",
+    "max": 0.0,
+    "max_when_dropping": "W7117782391",
+    "n_deletions": 545
+   },
+   "h2_upper": {
+    "min": 0.9516129032258065,
+    "min_when_dropping": "37212950",
+    "max": 0.9742268041237113,
+    "max_when_dropping": "W4390198428",
+    "n_deletions": 545
+   },
+   "h2b_lower": {
+    "min": 0.0,
+    "min_when_dropping": "41142151",
+    "max": 0.043010752688172046,
+    "max_when_dropping": "37212950",
+    "n_deletions": 545
+   },
+   "h2b_upper": {
+    "min": 0.9731182795698925,
+    "min_when_dropping": "37212950",
+    "max": 0.9896907216494846,
+    "max_when_dropping": "W4390198428",
+    "n_deletions": 545
+   },
+   "h2_resolvable_share": {
+    "min": 0.0,
+    "min_when_dropping": "31208196",
+    "max": 0.0,
+    "max_when_dropping": "W7117782391",
+    "n_deletions": 545
+   }
+  },
+  "imprecise_under_20_pairs": {
+   "h1": true,
+   "h2": false
+  }
+ },
+ "without_also_tissue_or_csf": {
+  "claim_records": 3248,
+  "denominators": {
+   "family_pair_records": 2843,
+   "by_direction": {
+    "unresolved": 2320,
+    "lowers": 214,
+    "nonsignificant_only": 47,
+    "raises": 260,
+    "mixed": 1,
+    "raises_with_nonsignificant": 1
+   },
+   "context_unclear": 0,
+   "pairs": 2573,
+   "multi_family_pairs": 210,
+   "contradicting_pairs": 2,
+   "family_pair_records_with_a_manually_coded_dataset": 0,
+   "multi_family_pairs_with_a_manually_coded_dataset": 0,
+   "h1_pairs_with_a_manually_coded_dataset": 0
+  },
+  "estimates": {
+   "h1_pairs": 0,
+   "h1_pairs_agreeing": 0,
+   "h1_pair_concordance": null,
+   "h1_independent_edges": 0,
+   "h1_independent_edges_agreeing": 0,
+   "h1_edge_concordance": null,
+   "liu_analogue_pairs": 15,
+   "liu_analogue_tiers": {
+    "high": 13,
+    "discordant": 2
+   },
+   "liu_analogue_share_not_discordant": 0.8666666666666667,
+   "h2_multi_family_pairs": 210,
+   "h2_known_identical": 0,
+   "h2_known_not_identical": 9,
+   "h2_unresolved": 201,
+   "h2_lower": 0.0,
+   "h2_upper": 0.9571428571428572,
+   "h2_complete_case": 0.0,
+   "h2_resolvable_pairs": 0,
+   "h2_resolvable_share": 0.0,
+   "h2b_known_overlapping": 8,
+   "h2b_known_not_overlapping": 5,
+   "h2b_unresolved": 197,
+   "h2b_lower": 0.0380952380952381,
+   "h2b_upper": 0.9761904761904762,
+   "h2b_complete_case": 0.6153846153846154,
+   "h2_h2b_pairs_not_nested": 0
+  },
+  "wilson_descriptive": {
+   "h1_pair_concordance": null,
+   "h2_lower": [
+    -1.734723475976807e-18,
+    0.017964050759283236
+   ],
+   "h2_upper": [
+    0.9205699739545683,
+    0.9772914653512299
+   ],
+   "h2b_lower": [
+    0.019427644418100295,
+    0.07335819294999946
+   ],
+   "h2b_upper": [
+    0.945484236149039,
+    0.9897880964611674
+   ],
+   "h2_resolvable_share": [
+    -1.734723475976807e-18,
+    0.017964050759283236
+   ]
+  },
+  "verdict_rule": "finite_corpus_bounds",
+  "h2_verdict": "unresolved",
+  "h2b_verdict": "unresolved",
+  "two_verdict_reading": "neither_share_placed_on_one_side_of_one_half",
+  "h2_supported_attainable": false,
+  "resampling_stability": [
+   "pair_bootstrap",
+   "protein_cluster_bootstrap",
+   "family_jackknife"
+  ],
+  "pair_bootstrap": {
+   "replicates": 10000,
+   "seed": 20261001,
+   "percentile_method": "inverted_cdf",
+   "h2_lower": [
+    0.0,
+    0.0
+   ],
+   "h2_upper": [
+    0.9285714285714286,
+    0.9809523809523809
+   ],
+   "h2b_lower": [
+    0.014285714285714285,
+    0.06666666666666667
+   ],
+   "h2b_upper": [
+    0.9523809523809523,
+    0.9952380952380953
+   ],
+   "h2_resolvable_share": [
+    0.0,
+    0.0
+   ]
+  },
+  "protein_cluster_bootstrap": {
+   "replicates": 10000,
+   "seed": [
+    20261001,
+    1
+   ],
+   "unit": "protein",
+   "percentile_method": "inverted_cdf",
+   "h2_proteins": 179,
+   "h2_lower": [
+    0.0,
+    0.0
+   ],
+   "h2_upper": [
+    0.927536231884058,
+    0.9813953488372092
+   ],
+   "h2b_lower": [
+    0.014218009478672985,
+    0.06635071090047394
+   ],
+   "h2b_upper": [
+    0.9532710280373832,
+    0.9951690821256038
+   ]
+  },
+  "family_jackknife": {
+   "h1_pair_concordance": null,
+   "h1_edge_concordance": null,
+   "h2_lower": {
+    "min": 0.0,
+    "min_when_dropping": "30998689",
+    "max": 0.0,
+    "max_when_dropping": "W7117782391",
+    "n_deletions": 668
+   },
+   "h2_upper": {
+    "min": 0.955,
+    "min_when_dropping": "37212950",
+    "max": 0.9758454106280193,
+    "max_when_dropping": "W4390198428",
+    "n_deletions": 668
+   },
+   "h2b_lower": {
+    "min": 0.0,
+    "min_when_dropping": "41142151",
+    "max": 0.04,
+    "max_when_dropping": "37212950",
+    "n_deletions": 668
+   },
+   "h2b_upper": {
+    "min": 0.975,
+    "min_when_dropping": "37212950",
+    "max": 0.9903381642512077,
+    "max_when_dropping": "W4390198428",
+    "n_deletions": 668
+   },
+   "h2_resolvable_share": {
+    "min": 0.0,
+    "min_when_dropping": "30998689",
+    "max": 0.0,
+    "max_when_dropping": "W7117782391",
+    "n_deletions": 668
+   }
+  },
+  "imprecise_under_20_pairs": {
+   "h1": true,
+   "h2": false
+  }
+ },
+ "direction_unverified_included": {
+  "claim_records": 3571,
+  "denominators": {
+   "family_pair_records": 3109,
+   "by_direction": {
+    "unresolved": 1612,
+    "lowers": 642,
+    "nonsignificant_only": 41,
+    "raises": 764,
+    "raises_with_nonsignificant": 16,
+    "mixed": 12,
+    "lowers_with_nonsignificant": 22
+   },
+   "context_unclear": 4,
+   "pairs": 2759,
+   "multi_family_pairs": 245,
+   "contradicting_pairs": 10,
+   "family_pair_records_with_a_manually_coded_dataset": 0,
+   "multi_family_pairs_with_a_manually_coded_dataset": 0,
+   "h1_pairs_with_a_manually_coded_dataset": 0
+  },
+  "estimates": {
+   "h1_pairs": 0,
+   "h1_pairs_agreeing": 0,
+   "h1_pair_concordance": null,
+   "h1_independent_edges": 0,
+   "h1_independent_edges_agreeing": 0,
+   "h1_edge_concordance": null,
+   "liu_analogue_pairs": 86,
+   "liu_analogue_tiers": {
+    "high": 76,
+    "discordant": 10
+   },
+   "liu_analogue_share_not_discordant": 0.8837209302325582,
+   "h2_multi_family_pairs": 245,
+   "h2_known_identical": 0,
+   "h2_known_not_identical": 9,
+   "h2_unresolved": 236,
+   "h2_lower": 0.0,
+   "h2_upper": 0.963265306122449,
+   "h2_complete_case": 0.0,
+   "h2_resolvable_pairs": 0,
+   "h2_resolvable_share": 0.0,
+   "h2b_known_overlapping": 8,
+   "h2b_known_not_overlapping": 5,
+   "h2b_unresolved": 232,
+   "h2b_lower": 0.0326530612244898,
+   "h2b_upper": 0.9795918367346939,
+   "h2b_complete_case": 0.6153846153846154,
+   "h2_h2b_pairs_not_nested": 0
+  },
+  "wilson_descriptive": {
+   "h1_pair_concordance": null,
+   "h2_lower": [
+    0.0,
+    0.015437374619565052
+   ],
+   "h2_upper": [
+    0.9316719213546405,
+    0.980555490732538
+   ],
+   "h2b_lower": [
+    0.01663690566134272,
+    0.06309843633000585
+   ],
+   "h2b_upper": [
+    0.9531242851355692,
+    0.991252110637501
+   ],
+   "h2_resolvable_share": [
+    0.0,
+    0.015437374619565052
+   ]
+  },
+  "verdict_rule": "finite_corpus_bounds",
+  "h2_verdict": "unresolved",
+  "h2b_verdict": "unresolved",
+  "two_verdict_reading": "neither_share_placed_on_one_side_of_one_half",
+  "h2_supported_attainable": false,
+  "resampling_stability": [
+   "pair_bootstrap",
+   "protein_cluster_bootstrap",
+   "family_jackknife"
+  ],
+  "pair_bootstrap": {
+   "replicates": 10000,
+   "seed": 20261001,
+   "percentile_method": "inverted_cdf",
+   "h2_lower": [
+    0.0,
+    0.0
+   ],
+   "h2_upper": [
+    0.9387755102040817,
+    0.9836734693877551
+   ],
+   "h2b_lower": [
+    0.012244897959183673,
+    0.05714285714285714
+   ],
+   "h2b_upper": [
+    0.9591836734693877,
+    0.9959183673469387
+   ],
+   "h2_resolvable_share": [
+    0.0,
+    0.0
+   ]
+  },
+  "protein_cluster_bootstrap": {
+   "replicates": 10000,
+   "seed": [
+    20261001,
+    1
+   ],
+   "unit": "protein",
+   "percentile_method": "inverted_cdf",
+   "h2_proteins": 206,
+   "h2_lower": [
+    0.0,
+    0.0
+   ],
+   "h2_upper": [
+    0.9377593360995851,
+    0.984
+   ],
+   "h2b_lower": [
+    0.012145748987854251,
+    0.05714285714285714
+   ],
+   "h2b_upper": [
+    0.9596774193548387,
+    0.9959016393442623
+   ]
+  },
+  "family_jackknife": {
+   "h1_pair_concordance": null,
+   "h1_edge_concordance": null,
+   "h2_lower": {
+    "min": 0.0,
+    "min_when_dropping": "30998689",
+    "max": 0.0,
+    "max_when_dropping": "W7127634741",
+    "n_deletions": 732
+   },
+   "h2_upper": {
+    "min": 0.9617021276595744,
+    "min_when_dropping": "37212950",
+    "max": 0.9794238683127572,
+    "max_when_dropping": "W4390198428",
+    "n_deletions": 732
+   },
+   "h2b_lower": {
+    "min": 0.0,
+    "min_when_dropping": "41142151",
+    "max": 0.03404255319148936,
+    "max_when_dropping": "37212950",
+    "n_deletions": 732
+   },
+   "h2b_upper": {
+    "min": 0.9787234042553191,
+    "min_when_dropping": "37212950",
+    "max": 0.9917695473251029,
+    "max_when_dropping": "W4390198428",
+    "n_deletions": 732
+   },
+   "h2_resolvable_share": {
+    "min": 0.0,
+    "min_when_dropping": "30998689",
+    "max": 0.0,
+    "max_when_dropping": "W7127634741",
+    "n_deletions": 732
+   }
+  },
+  "imprecise_under_20_pairs": {
+   "h1": true,
+   "h2": false
+  }
+ },
+ "dictionary_match_failures_included": {
+  "claim_records": 3685,
+  "denominators": {
+   "family_pair_records": 3217,
+   "by_direction": {
+    "unresolved": 2624,
+    "lowers": 237,
+    "nonsignificant_only": 51,
+    "raises": 303,
+    "mixed": 1,
+    "raises_with_nonsignificant": 1
+   },
+   "context_unclear": 4,
+   "pairs": 2855,
+   "multi_family_pairs": 256,
+   "contradicting_pairs": 5,
+   "family_pair_records_with_a_manually_coded_dataset": 0,
+   "multi_family_pairs_with_a_manually_coded_dataset": 0,
+   "h1_pairs_with_a_manually_coded_dataset": 0
+  },
+  "estimates": {
+   "h1_pairs": 0,
+   "h1_pairs_agreeing": 0,
+   "h1_pair_concordance": null,
+   "h1_independent_edges": 0,
+   "h1_independent_edges_agreeing": 0,
+   "h1_edge_concordance": null,
+   "liu_analogue_pairs": 21,
+   "liu_analogue_tiers": {
+    "high": 16,
+    "discordant": 5
+   },
+   "liu_analogue_share_not_discordant": 0.7619047619047619,
+   "h2_multi_family_pairs": 256,
+   "h2_known_identical": 0,
+   "h2_known_not_identical": 9,
+   "h2_unresolved": 247,
+   "h2_lower": 0.0,
+   "h2_upper": 0.96484375,
+   "h2_complete_case": 0.0,
+   "h2_resolvable_pairs": 0,
+   "h2_resolvable_share": 0.0,
+   "h2b_known_overlapping": 8,
+   "h2b_known_not_overlapping": 5,
+   "h2b_unresolved": 243,
+   "h2b_lower": 0.03125,
+   "h2b_upper": 0.98046875,
+   "h2b_complete_case": 0.6153846153846154,
+   "h2_h2b_pairs_not_nested": 0
+  },
+  "wilson_descriptive": {
+   "h1_pair_concordance": null,
+   "h2_lower": [
+    0.0,
+    0.01478385642587143
+   ],
+   "h2_upper": [
+    0.9345472295717082,
+    0.9813959039073644
+   ],
+   "h2b_lower": [
+    0.015918258891511296,
+    0.06044160650774316
+   ],
+   "h2b_upper": [
+    0.9551018677503436,
+    0.9916292702154206
+   ],
+   "h2_resolvable_share": [
+    0.0,
+    0.01478385642587143
+   ]
+  },
+  "verdict_rule": "finite_corpus_bounds",
+  "h2_verdict": "unresolved",
+  "h2b_verdict": "unresolved",
+  "two_verdict_reading": "neither_share_placed_on_one_side_of_one_half",
+  "h2_supported_attainable": false,
+  "resampling_stability": [
+   "pair_bootstrap",
+   "protein_cluster_bootstrap",
+   "family_jackknife"
+  ],
+  "pair_bootstrap": {
+   "replicates": 10000,
+   "seed": 20261001,
+   "percentile_method": "inverted_cdf",
+   "h2_lower": [
+    0.0,
+    0.0
+   ],
+   "h2_upper": [
+    0.94140625,
+    0.984375
+   ],
+   "h2b_lower": [
+    0.01171875,
+    0.0546875
+   ],
+   "h2b_upper": [
+    0.9609375,
+    0.99609375
+   ],
+   "h2_resolvable_share": [
+    0.0,
+    0.0
+   ]
+  },
+  "protein_cluster_bootstrap": {
+   "replicates": 10000,
+   "seed": [
+    20261001,
+    1
+   ],
+   "unit": "protein",
+   "percentile_method": "inverted_cdf",
+   "h2_proteins": 214,
+   "h2_lower": [
+    0.0,
+    0.0
+   ],
+   "h2_upper": [
+    0.9404761904761905,
+    0.9846153846153847
+   ],
+   "h2b_lower": [
+    0.011583011583011582,
+    0.05405405405405406
+   ],
+   "h2b_upper": [
+    0.9618320610687023,
+    0.9960629921259843
+   ]
+  },
+  "family_jackknife": {
+   "h1_pair_concordance": null,
+   "h1_edge_concordance": null,
+   "h2_lower": {
+    "min": 0.0,
+    "min_when_dropping": "30998689",
+    "max": 0.0,
+    "max_when_dropping": "W7127634741",
+    "n_deletions": 740
+   },
+   "h2_upper": {
+    "min": 0.9634146341463414,
+    "min_when_dropping": "37212950",
+    "max": 0.9803149606299213,
+    "max_when_dropping": "W4390198428",
+    "n_deletions": 740
+   },
+   "h2b_lower": {
+    "min": 0.0,
+    "min_when_dropping": "41142151",
+    "max": 0.032520325203252036,
+    "max_when_dropping": "37212950",
+    "n_deletions": 740
+   },
+   "h2b_upper": {
+    "min": 0.9796747967479674,
+    "min_when_dropping": "37212950",
+    "max": 0.9921259842519685,
+    "max_when_dropping": "W4390198428",
+    "n_deletions": 740
+   },
+   "h2_resolvable_share": {
+    "min": 0.0,
+    "min_when_dropping": "30998689",
+    "max": 0.0,
+    "max_when_dropping": "W7127634741",
+    "n_deletions": 740
+   }
+  },
+  "imprecise_under_20_pairs": {
+   "h1": true,
+   "h2": false
+  }
+ },
+ "relation_ambiguous_included": {
+  "claim_records": 3765,
+  "denominators": {
+   "family_pair_records": 3291,
+   "by_direction": {
+    "unresolved": 2714,
+    "lowers": 232,
+    "nonsignificant_only": 48,
+    "raises": 295,
+    "mixed": 1,
+    "raises_with_nonsignificant": 1
+   },
+   "context_unclear": 5,
+   "pairs": 2918,
+   "multi_family_pairs": 264,
+   "contradicting_pairs": 5,
+   "family_pair_records_with_a_manually_coded_dataset": 0,
+   "multi_family_pairs_with_a_manually_coded_dataset": 0,
+   "h1_pairs_with_a_manually_coded_dataset": 0
+  },
+  "estimates": {
+   "h1_pairs": 0,
+   "h1_pairs_agreeing": 0,
+   "h1_pair_concordance": null,
+   "h1_independent_edges": 0,
+   "h1_independent_edges_agreeing": 0,
+   "h1_edge_concordance": null,
+   "liu_analogue_pairs": 21,
+   "liu_analogue_tiers": {
+    "high": 16,
+    "discordant": 5
+   },
+   "liu_analogue_share_not_discordant": 0.7619047619047619,
+   "h2_multi_family_pairs": 264,
+   "h2_known_identical": 0,
+   "h2_known_not_identical": 9,
+   "h2_unresolved": 255,
+   "h2_lower": 0.0,
+   "h2_upper": 0.9659090909090909,
+   "h2_complete_case": 0.0,
+   "h2_resolvable_pairs": 0,
+   "h2_resolvable_share": 0.0,
+   "h2b_known_overlapping": 8,
+   "h2b_known_not_overlapping": 5,
+   "h2b_unresolved": 251,
+   "h2b_lower": 0.030303030303030304,
+   "h2b_upper": 0.9810606060606061,
+   "h2b_complete_case": 0.6153846153846154,
+   "h2_h2b_pairs_not_nested": 0
+  },
+  "wilson_descriptive": {
+   "h1_pair_concordance": null,
+   "h2_lower": [
+    0.0,
+    0.01434228605835731
+   ],
+   "h2_upper": [
+    0.9364909064299773,
+    0.9819628724701897
+   ],
+   "h2b_lower": [
+    0.015433415974845485,
+    0.058645701231490155
+   ],
+   "h2b_upper": [
+    0.9564384326397775,
+    0.9918837618343788
+   ],
+   "h2_resolvable_share": [
+    0.0,
+    0.01434228605835731
+   ]
+  },
+  "verdict_rule": "finite_corpus_bounds",
+  "h2_verdict": "unresolved",
+  "h2b_verdict": "unresolved",
+  "two_verdict_reading": "neither_share_placed_on_one_side_of_one_half",
+  "h2_supported_attainable": false,
+  "resampling_stability": [
+   "pair_bootstrap",
+   "protein_cluster_bootstrap",
+   "family_jackknife"
+  ],
+  "pair_bootstrap": {
+   "replicates": 10000,
+   "seed": 20261001,
+   "percentile_method": "inverted_cdf",
+   "h2_lower": [
+    0.0,
+    0.0
+   ],
+   "h2_upper": [
+    0.9431818181818182,
+    0.9848484848484849
+   ],
+   "h2b_lower": [
+    0.011363636363636364,
+    0.05303030303030303
+   ],
+   "h2b_upper": [
+    0.9621212121212122,
+    0.9962121212121212
+   ],
+   "h2_resolvable_share": [
+    0.0,
+    0.0
+   ]
+  },
+  "protein_cluster_bootstrap": {
+   "replicates": 10000,
+   "seed": [
+    20261001,
+    1
+   ],
+   "unit": "protein",
+   "percentile_method": "inverted_cdf",
+   "h2_proteins": 217,
+   "h2_lower": [
+    0.0,
+    0.0
+   ],
+   "h2_upper": [
+    0.9429657794676806,
+    0.9851301115241635
+   ],
+   "h2b_lower": [
+    0.011363636363636364,
+    0.052830188679245285
+   ],
+   "h2b_upper": [
+    0.9628252788104089,
+    0.9961685823754789
+   ]
+  },
+  "family_jackknife": {
+   "h1_pair_concordance": null,
+   "h1_edge_concordance": null,
+   "h2_lower": {
+    "min": 0.0,
+    "min_when_dropping": "30998689",
+    "max": 0.0,
+    "max_when_dropping": "W7127634741",
+    "n_deletions": 752
+   },
+   "h2_upper": {
+    "min": 0.9645669291338582,
+    "min_when_dropping": "37212950",
+    "max": 0.9809160305343512,
+    "max_when_dropping": "W4390198428",
+    "n_deletions": 752
+   },
+   "h2b_lower": {
+    "min": 0.0,
+    "min_when_dropping": "41142151",
+    "max": 0.031496062992125984,
+    "max_when_dropping": "37212950",
+    "n_deletions": 752
+   },
+   "h2b_upper": {
+    "min": 0.9803149606299213,
+    "min_when_dropping": "37212950",
+    "max": 0.9923664122137404,
+    "max_when_dropping": "W4390198428",
+    "n_deletions": 752
+   },
+   "h2_resolvable_share": {
+    "min": 0.0,
+    "min_when_dropping": "30998689",
+    "max": 0.0,
+    "max_when_dropping": "W7127634741",
+    "n_deletions": 752
+   }
+  },
+  "imprecise_under_20_pairs": {
+   "h1": true,
+   "h2": false
+  }
+ },
+ "overall_scope_only": {
+  "claim_records": 3279,
+  "denominators": {
+   "family_pair_records": 3109,
+   "by_direction": {
+    "unresolved": 2553,
+    "lowers": 227,
+    "nonsignificant_only": 37,
+    "raises": 291,
+    "mixed": 1
+   },
+   "context_unclear": 4,
+   "pairs": 2759,
+   "multi_family_pairs": 245,
+   "contradicting_pairs": 5,
+   "family_pair_records_with_a_manually_coded_dataset": 0,
+   "multi_family_pairs_with_a_manually_coded_dataset": 0,
+   "h1_pairs_with_a_manually_coded_dataset": 0
+  },
+  "estimates": {
+   "h1_pairs": 0,
+   "h1_pairs_agreeing": 0,
+   "h1_pair_concordance": null,
+   "h1_independent_edges": 0,
+   "h1_independent_edges_agreeing": 0,
+   "h1_edge_concordance": null,
+   "liu_analogue_pairs": 21,
+   "liu_analogue_tiers": {
+    "high": 16,
+    "discordant": 5
+   },
+   "liu_analogue_share_not_discordant": 0.7619047619047619,
+   "h2_multi_family_pairs": 245,
+   "h2_known_identical": 0,
+   "h2_known_not_identical": 9,
+   "h2_unresolved": 236,
+   "h2_lower": 0.0,
+   "h2_upper": 0.963265306122449,
+   "h2_complete_case": 0.0,
+   "h2_resolvable_pairs": 0,
+   "h2_resolvable_share": 0.0,
+   "h2b_known_overlapping": 8,
+   "h2b_known_not_overlapping": 5,
+   "h2b_unresolved": 232,
+   "h2b_lower": 0.0326530612244898,
+   "h2b_upper": 0.9795918367346939,
+   "h2b_complete_case": 0.6153846153846154,
+   "h2_h2b_pairs_not_nested": 0
+  },
+  "wilson_descriptive": {
+   "h1_pair_concordance": null,
+   "h2_lower": [
+    0.0,
+    0.015437374619565052
+   ],
+   "h2_upper": [
+    0.9316719213546405,
+    0.980555490732538
+   ],
+   "h2b_lower": [
+    0.01663690566134272,
+    0.06309843633000585
+   ],
+   "h2b_upper": [
+    0.9531242851355692,
+    0.991252110637501
+   ],
+   "h2_resolvable_share": [
+    0.0,
+    0.015437374619565052
+   ]
+  },
+  "verdict_rule": "finite_corpus_bounds",
+  "h2_verdict": "unresolved",
+  "h2b_verdict": "unresolved",
+  "two_verdict_reading": "neither_share_placed_on_one_side_of_one_half",
+  "h2_supported_attainable": false,
+  "resampling_stability": [
+   "pair_bootstrap",
+   "protein_cluster_bootstrap",
+   "family_jackknife"
+  ],
+  "pair_bootstrap": {
+   "replicates": 10000,
+   "seed": 20261001,
+   "percentile_method": "inverted_cdf",
+   "h2_lower": [
+    0.0,
+    0.0
+   ],
+   "h2_upper": [
+    0.9387755102040817,
+    0.9836734693877551
+   ],
+   "h2b_lower": [
+    0.012244897959183673,
+    0.05714285714285714
+   ],
+   "h2b_upper": [
+    0.9591836734693877,
+    0.9959183673469387
+   ],
+   "h2_resolvable_share": [
+    0.0,
+    0.0
+   ]
+  },
+  "protein_cluster_bootstrap": {
+   "replicates": 10000,
+   "seed": [
+    20261001,
+    1
+   ],
+   "unit": "protein",
+   "percentile_method": "inverted_cdf",
+   "h2_proteins": 206,
+   "h2_lower": [
+    0.0,
+    0.0
+   ],
+   "h2_upper": [
+    0.9377593360995851,
+    0.984
+   ],
+   "h2b_lower": [
+    0.012145748987854251,
+    0.05714285714285714
+   ],
+   "h2b_upper": [
+    0.9596774193548387,
+    0.9959016393442623
+   ]
+  },
+  "family_jackknife": {
+   "h1_pair_concordance": null,
+   "h1_edge_concordance": null,
+   "h2_lower": {
+    "min": 0.0,
+    "min_when_dropping": "30998689",
+    "max": 0.0,
+    "max_when_dropping": "W7127634741",
+    "n_deletions": 732
+   },
+   "h2_upper": {
+    "min": 0.9617021276595744,
+    "min_when_dropping": "37212950",
+    "max": 0.9794238683127572,
+    "max_when_dropping": "W4390198428",
+    "n_deletions": 732
+   },
+   "h2b_lower": {
+    "min": 0.0,
+    "min_when_dropping": "41142151",
+    "max": 0.03404255319148936,
+    "max_when_dropping": "37212950",
+    "n_deletions": 732
+   },
+   "h2b_upper": {
+    "min": 0.9787234042553191,
+    "min_when_dropping": "37212950",
+    "max": 0.9917695473251029,
+    "max_when_dropping": "W4390198428",
+    "n_deletions": 732
+   },
+   "h2_resolvable_share": {
+    "min": 0.0,
+    "min_when_dropping": "30998689",
+    "max": 0.0,
+    "max_when_dropping": "W7127634741",
+    "n_deletions": 732
+   }
+  },
+  "imprecise_under_20_pairs": {
+   "h1": true,
+   "h2": false
+  }
+ },
+ "h1_without_with_nonsignificant": {
+  "claim_records": 3569,
+  "denominators": {
+   "family_pair_records": 3108,
+   "by_direction": {
+    "unresolved": 2532,
+    "lowers": 232,
+    "nonsignificant_only": 48,
+    "raises": 295,
+    "mixed": 1
+   },
+   "context_unclear": 4,
+   "pairs": 2759,
+   "multi_family_pairs": 244,
+   "contradicting_pairs": 5,
+   "family_pair_records_with_a_manually_coded_dataset": 0,
+   "multi_family_pairs_with_a_manually_coded_dataset": 0,
+   "h1_pairs_with_a_manually_coded_dataset": 0
+  },
+  "estimates": {
+   "h1_pairs": 0,
+   "h1_pairs_agreeing": 0,
+   "h1_pair_concordance": null,
+   "h1_independent_edges": 0,
+   "h1_independent_edges_agreeing": 0,
+   "h1_edge_concordance": null,
+   "liu_analogue_pairs": 21,
+   "liu_analogue_tiers": {
+    "high": 16,
+    "discordant": 5
+   },
+   "liu_analogue_share_not_discordant": 0.7619047619047619,
+   "h2_multi_family_pairs": 244,
+   "h2_known_identical": 0,
+   "h2_known_not_identical": 8,
+   "h2_unresolved": 236,
+   "h2_lower": 0.0,
+   "h2_upper": 0.9672131147540983,
+   "h2_complete_case": 0.0,
+   "h2_resolvable_pairs": 0,
+   "h2_resolvable_share": 0.0,
+   "h2b_known_overlapping": 8,
+   "h2b_known_not_overlapping": 4,
+   "h2b_unresolved": 232,
+   "h2b_lower": 0.03278688524590164,
+   "h2b_upper": 0.9836065573770492,
+   "h2b_complete_case": 0.6666666666666666,
+   "h2_h2b_pairs_not_nested": 0
+  },
+  "wilson_descriptive": {
+   "h1_pair_concordance": null,
+   "h2_lower": [
+    -1.734723475976807e-18,
+    0.015499661916827669
+   ],
+   "h2_upper": [
+    0.9366484070383405,
+    0.9832945318262631
+   ],
+   "h2b_lower": [
+    0.01670546817373689,
+    0.06335159296165947
+   ],
+   "h2b_upper": [
+    0.9586147210280338,
+    0.9936069174458542
+   ],
+   "h2_resolvable_share": [
+    -1.734723475976807e-18,
+    0.015499661916827669
+   ]
+  },
+  "verdict_rule": "finite_corpus_bounds",
+  "h2_verdict": "unresolved",
+  "h2b_verdict": "unresolved",
+  "two_verdict_reading": "neither_share_placed_on_one_side_of_one_half",
+  "h2_supported_attainable": false,
+  "resampling_stability": [
+   "pair_bootstrap",
+   "protein_cluster_bootstrap",
+   "family_jackknife"
+  ],
+  "pair_bootstrap": {
+   "replicates": 10000,
+   "seed": 20261001,
+   "percentile_method": "inverted_cdf",
+   "h2_lower": [
+    0.0,
+    0.0
+   ],
+   "h2_upper": [
+    0.9426229508196722,
+    0.9877049180327869
+   ],
+   "h2b_lower": [
+    0.012295081967213115,
+    0.05737704918032787
+   ],
+   "h2b_upper": [
+    0.9672131147540983,
+    0.9959016393442623
+   ],
+   "h2_resolvable_share": [
+    0.0,
+    0.0
+   ]
+  },
+  "protein_cluster_bootstrap": {
+   "replicates": 10000,
+   "seed": [
+    20261001,
+    1
+   ],
+   "unit": "protein",
+   "percentile_method": "inverted_cdf",
+   "h2_proteins": 206,
+   "h2_lower": [
+    0.0,
+    0.0
+   ],
+   "h2_upper": [
+    0.9428571428571428,
+    0.9877551020408163
+   ],
+   "h2b_lower": [
+    0.012244897959183673,
+    0.05737704918032787
+   ],
+   "h2b_upper": [
+    0.9663865546218487,
+    0.9960629921259843
+   ]
+  },
+  "family_jackknife": {
+   "h1_pair_concordance": null,
+   "h1_edge_concordance": null,
+   "h2_lower": {
+    "min": 0.0,
+    "min_when_dropping": "30998689",
+    "max": 0.0,
+    "max_when_dropping": "W7127634741",
+    "n_deletions": 732
+   },
+   "h2_upper": {
+    "min": 0.9658119658119658,
+    "min_when_dropping": "37212950",
+    "max": 0.9794238683127572,
+    "max_when_dropping": "W4390198428",
+    "n_deletions": 732
+   },
+   "h2b_lower": {
+    "min": 0.0,
+    "min_when_dropping": "41142151",
+    "max": 0.03418803418803419,
+    "max_when_dropping": "37212950",
+    "n_deletions": 732
+   },
+   "h2b_upper": {
+    "min": 0.9829059829059829,
+    "min_when_dropping": "37212950",
+    "max": 0.9917695473251029,
+    "max_when_dropping": "W4390198428",
+    "n_deletions": 732
+   },
+   "h2_resolvable_share": {
+    "min": 0.0,
+    "min_when_dropping": "30998689",
+    "max": 0.0,
+    "max_when_dropping": "W7127634741",
+    "n_deletions": 732
+   }
+  },
+  "imprecise_under_20_pairs": {
+   "h1": true,
+   "h2": false
+  }
+ },
+ "without_context_unclear": {
+  "claim_records": 3566,
+  "denominators": {
+   "family_pair_records": 3105,
+   "by_direction": {
+    "unresolved": 2528,
+    "lowers": 232,
+    "nonsignificant_only": 48,
+    "raises": 295,
+    "mixed": 1,
+    "raises_with_nonsignificant": 1
+   },
+   "context_unclear": 0,
+   "pairs": 2755,
+   "multi_family_pairs": 245,
+   "contradicting_pairs": 5,
+   "family_pair_records_with_a_manually_coded_dataset": 0,
+   "multi_family_pairs_with_a_manually_coded_dataset": 0,
+   "h1_pairs_with_a_manually_coded_dataset": 0
+  },
+  "estimates": {
+   "h1_pairs": 0,
+   "h1_pairs_agreeing": 0,
+   "h1_pair_concordance": null,
+   "h1_independent_edges": 0,
+   "h1_independent_edges_agreeing": 0,
+   "h1_edge_concordance": null,
+   "liu_analogue_pairs": 21,
+   "liu_analogue_tiers": {
+    "high": 16,
+    "discordant": 5
+   },
+   "liu_analogue_share_not_discordant": 0.7619047619047619,
+   "h2_multi_family_pairs": 245,
+   "h2_known_identical": 0,
+   "h2_known_not_identical": 9,
+   "h2_unresolved": 236,
+   "h2_lower": 0.0,
+   "h2_upper": 0.963265306122449,
+   "h2_complete_case": 0.0,
+   "h2_resolvable_pairs": 0,
+   "h2_resolvable_share": 0.0,
+   "h2b_known_overlapping": 8,
+   "h2b_known_not_overlapping": 5,
+   "h2b_unresolved": 232,
+   "h2b_lower": 0.0326530612244898,
+   "h2b_upper": 0.9795918367346939,
+   "h2b_complete_case": 0.6153846153846154,
+   "h2_h2b_pairs_not_nested": 0
+  },
+  "wilson_descriptive": {
+   "h1_pair_concordance": null,
+   "h2_lower": [
+    0.0,
+    0.015437374619565052
+   ],
+   "h2_upper": [
+    0.9316719213546405,
+    0.980555490732538
+   ],
+   "h2b_lower": [
+    0.01663690566134272,
+    0.06309843633000585
+   ],
+   "h2b_upper": [
+    0.9531242851355692,
+    0.991252110637501
+   ],
+   "h2_resolvable_share": [
+    0.0,
+    0.015437374619565052
+   ]
+  },
+  "verdict_rule": "finite_corpus_bounds",
+  "h2_verdict": "unresolved",
+  "h2b_verdict": "unresolved",
+  "two_verdict_reading": "neither_share_placed_on_one_side_of_one_half",
+  "h2_supported_attainable": false,
+  "resampling_stability": [
+   "pair_bootstrap",
+   "protein_cluster_bootstrap",
+   "family_jackknife"
+  ],
+  "pair_bootstrap": {
+   "replicates": 10000,
+   "seed": 20261001,
+   "percentile_method": "inverted_cdf",
+   "h2_lower": [
+    0.0,
+    0.0
+   ],
+   "h2_upper": [
+    0.9387755102040817,
+    0.9836734693877551
+   ],
+   "h2b_lower": [
+    0.012244897959183673,
+    0.05714285714285714
+   ],
+   "h2b_upper": [
+    0.9591836734693877,
+    0.9959183673469387
+   ],
+   "h2_resolvable_share": [
+    0.0,
+    0.0
+   ]
+  },
+  "protein_cluster_bootstrap": {
+   "replicates": 10000,
+   "seed": [
+    20261001,
+    1
+   ],
+   "unit": "protein",
+   "percentile_method": "inverted_cdf",
+   "h2_proteins": 206,
+   "h2_lower": [
+    0.0,
+    0.0
+   ],
+   "h2_upper": [
+    0.9377593360995851,
+    0.984
+   ],
+   "h2b_lower": [
+    0.012145748987854251,
+    0.05714285714285714
+   ],
+   "h2b_upper": [
+    0.9596774193548387,
+    0.9959016393442623
+   ]
+  },
+  "family_jackknife": {
+   "h1_pair_concordance": null,
+   "h1_edge_concordance": null,
+   "h2_lower": {
+    "min": 0.0,
+    "min_when_dropping": "30998689",
+    "max": 0.0,
+    "max_when_dropping": "W7127634741",
+    "n_deletions": 731
+   },
+   "h2_upper": {
+    "min": 0.9617021276595744,
+    "min_when_dropping": "37212950",
+    "max": 0.9794238683127572,
+    "max_when_dropping": "W4390198428",
+    "n_deletions": 731
+   },
+   "h2b_lower": {
+    "min": 0.0,
+    "min_when_dropping": "41142151",
+    "max": 0.03404255319148936,
+    "max_when_dropping": "37212950",
+    "n_deletions": 731
+   },
+   "h2b_upper": {
+    "min": 0.9787234042553191,
+    "min_when_dropping": "37212950",
+    "max": 0.9917695473251029,
+    "max_when_dropping": "W4390198428",
+    "n_deletions": 731
+   },
+   "h2_resolvable_share": {
+    "min": 0.0,
+    "min_when_dropping": "30998689",
+    "max": 0.0,
+    "max_when_dropping": "W7127634741",
+    "n_deletions": 731
+   }
+  },
+  "imprecise_under_20_pairs": {
+   "h1": true,
+   "h2": false
+  }
+ },
+ "pair_families": {
+  "anchors": 2759,
+  "anchors_with_a_one_step_relative": 66,
+  "pair_family_sizes": {
+   "1": 2693,
+   "2": 64,
+   "3": 2
+  },
+  "denominators": {
+   "family_pair_records": 3157,
+   "by_direction": {
+    "unresolved": 2571,
+    "raises": 301,
+    "nonsignificant_only": 49,
+    "lowers": 233,
+    "raises_with_nonsignificant": 2,
+    "mixed": 1
+   },
+   "context_unclear": 4,
+   "pairs": 2759,
+   "multi_family_pairs": 276,
+   "contradicting_pairs": 5,
+   "family_pair_records_with_a_manually_coded_dataset": 0,
+   "multi_family_pairs_with_a_manually_coded_dataset": 0,
+   "h1_pairs_with_a_manually_coded_dataset": 0
+  },
+  "estimates": {
+   "h1_pairs": 0,
+   "h1_pairs_agreeing": 0,
+   "h1_pair_concordance": null,
+   "h1_independent_edges": 0,
+   "h1_independent_edges_agreeing": 0,
+   "h1_edge_concordance": null,
+   "liu_analogue_pairs": 21,
+   "liu_analogue_tiers": {
+    "high": 16,
+    "discordant": 5
+   },
+   "liu_analogue_share_not_discordant": 0.7619047619047619,
+   "h2_multi_family_pairs": 276,
+   "h2_known_identical": 0,
+   "h2_known_not_identical": 10,
+   "h2_unresolved": 266,
+   "h2_lower": 0.0,
+   "h2_upper": 0.9637681159420289,
+   "h2_complete_case": 0.0,
+   "h2_resolvable_pairs": 0,
+   "h2_resolvable_share": 0.0,
+   "h2b_known_overlapping": 8,
+   "h2b_known_not_overlapping": 6,
+   "h2b_unresolved": 262,
+   "h2b_lower": 0.028985507246376812,
+   "h2b_upper": 0.9782608695652174,
+   "h2b_complete_case": 0.5714285714285714,
+   "h2_h2b_pairs_not_nested": 0
+  },
+  "wilson_descriptive": {
+   "h1_pair_concordance": null,
+   "h2_lower": [
+    8.673617379884035e-19,
+    0.01372726842149399
+   ],
+   "h2_upper": [
+    0.934601107058125,
+    0.9802025860001993
+   ],
+   "h2b_lower": [
+    0.014759111837320683,
+    0.05614338740031858
+   ],
+   "h2b_upper": [
+    0.9533917321355978,
+    0.9899995763307992
+   ],
+   "h2_resolvable_share": [
+    8.673617379884035e-19,
+    0.01372726842149399
+   ]
+  },
+  "verdict_rule": "finite_corpus_bounds",
+  "h2_verdict": "unresolved",
+  "h2b_verdict": "unresolved",
+  "two_verdict_reading": "neither_share_placed_on_one_side_of_one_half",
+  "h2_supported_attainable": false,
+  "resampling_stability": [
+   "pair_bootstrap",
+   "protein_cluster_bootstrap",
+   "family_jackknife"
+  ],
+  "pair_bootstrap": {
+   "replicates": 10000,
+   "seed": 20261001,
+   "percentile_method": "inverted_cdf",
+   "h2_lower": [
+    0.0,
+    0.0
+   ],
+   "h2_upper": [
+    0.9384057971014492,
+    0.9855072463768116
+   ],
+   "h2b_lower": [
+    0.010869565217391304,
+    0.050724637681159424
+   ],
+   "h2b_upper": [
+    0.9601449275362319,
+    0.9927536231884058
+   ],
+   "h2_resolvable_share": [
+    0.0,
+    0.0
+   ]
+  },
+  "protein_cluster_bootstrap": {
+   "replicates": 10000,
+   "seed": [
+    20261001,
+    1
+   ],
+   "unit": "protein",
+   "percentile_method": "inverted_cdf",
+   "h2_proteins": 213,
+   "h2_lower": [
+    0.0,
+    0.0
+   ],
+   "h2_upper": [
+    0.9386973180076629,
+    0.9854545454545455
+   ],
+   "h2b_lower": [
+    0.010752688172043012,
+    0.05019305019305019
+   ],
+   "h2b_upper": [
+    0.9568345323741008,
+    0.9962406015037594
+   ]
+  },
+  "family_jackknife": {
+   "h1_pair_concordance": null,
+   "h1_edge_concordance": null,
+   "h2_lower": {
+    "min": 0.0,
+    "min_when_dropping": "30998689",
+    "max": 0.0,
+    "max_when_dropping": "W7127634741",
+    "n_deletions": 732
+   },
+   "h2_upper": {
+    "min": 0.9624060150375939,
+    "min_when_dropping": "37212950",
+    "max": 0.9818181818181818,
+    "max_when_dropping": "W4390198428",
+    "n_deletions": 732
+   },
+   "h2b_lower": {
+    "min": 0.0,
+    "min_when_dropping": "41142151",
+    "max": 0.03007518796992481,
+    "max_when_dropping": "37212950",
+    "n_deletions": 732
+   },
+   "h2b_upper": {
+    "min": 0.9774436090225563,
+    "min_when_dropping": "37212950",
+    "max": 0.9927272727272727,
+    "max_when_dropping": "W4390198428",
+    "n_deletions": 732
+   },
+   "h2_resolvable_share": {
+    "min": 0.0,
+    "min_when_dropping": "30998689",
+    "max": 0.0,
+    "max_when_dropping": "W7127634741",
+    "n_deletions": 732
+   }
+  },
+  "imprecise_under_20_pairs": {
+   "h1": true,
+   "h2": false
+  }
+ },
+ "without_fuzzy_family_links": {
+  "fuzzy_links_dropped": 814,
+  "claim_records": 3663,
+  "denominators": {
+   "family_pair_records": 3204,
+   "by_direction": {
+    "unresolved": 2614,
+    "lowers": 240,
+    "nonsignificant_only": 48,
+    "raises": 300,
+    "mixed": 1,
+    "raises_with_nonsignificant": 1
+   },
+   "context_unclear": 4,
+   "pairs": 2782,
+   "multi_family_pairs": 283,
+   "contradicting_pairs": 5,
+   "family_pair_records_with_a_manually_coded_dataset": 0,
+   "multi_family_pairs_with_a_manually_coded_dataset": 0,
+   "h1_pairs_with_a_manually_coded_dataset": 0
+  },
+  "estimates": {
+   "h1_pairs": 0,
+   "h1_pairs_agreeing": 0,
+   "h1_pair_concordance": null,
+   "h1_independent_edges": 0,
+   "h1_independent_edges_agreeing": 0,
+   "h1_edge_concordance": null,
+   "liu_analogue_pairs": 22,
+   "liu_analogue_tiers": {
+    "high": 17,
+    "discordant": 5
+   },
+   "liu_analogue_share_not_discordant": 0.7727272727272727,
+   "h2_multi_family_pairs": 283,
+   "h2_known_identical": 0,
+   "h2_known_not_identical": 9,
+   "h2_unresolved": 274,
+   "h2_lower": 0.0,
+   "h2_upper": 0.9681978798586572,
+   "h2_complete_case": 0.0,
+   "h2_resolvable_pairs": 0,
+   "h2_resolvable_share": 0.0,
+   "h2b_known_overlapping": 12,
+   "h2b_known_not_overlapping": 5,
+   "h2b_unresolved": 266,
+   "h2b_lower": 0.04240282685512368,
+   "h2b_upper": 0.9823321554770318,
+   "h2b_complete_case": 0.7058823529411765,
+   "h2_h2b_pairs_not_nested": 0
+  },
+  "wilson_descriptive": {
+   "h1_pair_concordance": null,
+   "h2_lower": [
+    8.673617379884035e-19,
+    0.013392271941746883
+   ],
+   "h2_upper": [
+    0.940675026448236,
+    0.9831802666098457
+   ],
+   "h2b_lower": [
+    0.024419963908964018,
+    0.07264222136634498
+   ],
+   "h2b_upper": [
+    0.9593149273317308,
+    0.9924303368375381
+   ],
+   "h2_resolvable_share": [
+    8.673617379884035e-19,
+    0.013392271941746883
+   ]
+  },
+  "verdict_rule": "finite_corpus_bounds",
+  "h2_verdict": "unresolved",
+  "h2b_verdict": "unresolved",
+  "two_verdict_reading": "neither_share_placed_on_one_side_of_one_half",
+  "h2_supported_attainable": false,
+  "resampling_stability": [
+   "pair_bootstrap",
+   "protein_cluster_bootstrap",
+   "family_jackknife"
+  ],
+  "pair_bootstrap": {
+   "replicates": 10000,
+   "seed": 20261001,
+   "percentile_method": "inverted_cdf",
+   "h2_lower": [
+    0.0,
+    0.0
+   ],
+   "h2_upper": [
+    0.9469964664310954,
+    0.9858657243816255
+   ],
+   "h2b_lower": [
+    0.02120141342756184,
+    0.06713780918727916
+   ],
+   "h2b_upper": [
+    0.9646643109540636,
+    0.9964664310954063
+   ],
+   "h2_resolvable_share": [
+    0.0,
+    0.0
+   ]
+  },
+  "protein_cluster_bootstrap": {
+   "replicates": 10000,
+   "seed": [
+    20261001,
+    1
+   ],
+   "unit": "protein",
+   "percentile_method": "inverted_cdf",
+   "h2_proteins": 232,
+   "h2_lower": [
+    0.0,
+    0.0
+   ],
+   "h2_upper": [
+    0.946236559139785,
+    0.986159169550173
+   ],
+   "h2b_lower": [
+    0.02054794520547945,
+    0.06810035842293907
+   ],
+   "h2b_upper": [
+    0.9647887323943662,
+    0.9964285714285714
+   ]
+  },
+  "family_jackknife": {
+   "h1_pair_concordance": null,
+   "h1_edge_concordance": null,
+   "h2_lower": {
+    "min": 0.0,
+    "min_when_dropping": "30998689",
+    "max": 0.0,
+    "max_when_dropping": "W7127634741",
+    "n_deletions": 754
+   },
+   "h2_upper": {
+    "min": 0.9669117647058824,
+    "min_when_dropping": "40037332",
+    "max": 0.9822064056939501,
+    "max_when_dropping": "W4390198428",
+    "n_deletions": 754
+   },
+   "h2b_lower": {
+    "min": 0.014545454545454545,
+    "min_when_dropping": "41142151",
+    "max": 0.04411764705882353,
+    "max_when_dropping": "PPR810651",
+    "n_deletions": 754
+   },
+   "h2b_upper": {
+    "min": 0.9816176470588235,
+    "min_when_dropping": "40037332",
+    "max": 0.9928825622775801,
+    "max_when_dropping": "W4390198428",
+    "n_deletions": 754
+   },
+   "h2_resolvable_share": {
+    "min": 0.0,
+    "min_when_dropping": "30998689",
+    "max": 0.0,
+    "max_when_dropping": "W7127634741",
+    "n_deletions": 754
+   }
+  },
+  "imprecise_under_20_pairs": {
+   "h1": true,
+   "h2": false
+  }
+ },
+ "h1_unclear_edges_as_independent": {
+  "h1_pairs": 21,
+  "h1_pairs_agreeing": 16,
+  "h1_pair_concordance": 0.7619047619047619,
+  "h1_independent_or_unclear_edges": 32,
+  "h1_edge_concordance": 0.8125,
+  "wilson_descriptive": [
+   0.5490882631704924,
+   0.8937198697736354
+  ],
+  "pair_bootstrap": {
+   "replicates": 10000,
+   "seed": 20261001,
+   "percentile_method": "inverted_cdf",
+   "h1_pair_concordance": [
+    0.5714285714285714,
+    0.9523809523809523
+   ],
+   "h1_edge_concordance": [
+    0.6206896551724138,
+    0.9555555555555556
+   ]
+  },
+  "imprecise_under_20_pairs": false
+ },
+ "first_public_2020_2025": {
+  "claim_records": 3551,
+  "denominators": {
+   "family_pair_records": 3089,
+   "by_direction": {
+    "unresolved": 2515,
+    "nonsignificant_only": 48,
+    "raises": 295,
+    "lowers": 229,
+    "mixed": 1,
+    "raises_with_nonsignificant": 1
+   },
+   "context_unclear": 4,
+   "pairs": 2744,
+   "multi_family_pairs": 241,
+   "contradicting_pairs": 5,
+   "family_pair_records_with_a_manually_coded_dataset": 0,
+   "multi_family_pairs_with_a_manually_coded_dataset": 0,
+   "h1_pairs_with_a_manually_coded_dataset": 0
+  },
+  "estimates": {
+   "h1_pairs": 0,
+   "h1_pairs_agreeing": 0,
+   "h1_pair_concordance": null,
+   "h1_independent_edges": 0,
+   "h1_independent_edges_agreeing": 0,
+   "h1_edge_concordance": null,
+   "liu_analogue_pairs": 21,
+   "liu_analogue_tiers": {
+    "high": 16,
+    "discordant": 5
+   },
+   "liu_analogue_share_not_discordant": 0.7619047619047619,
+   "h2_multi_family_pairs": 241,
+   "h2_known_identical": 0,
+   "h2_known_not_identical": 9,
+   "h2_unresolved": 232,
+   "h2_lower": 0.0,
+   "h2_upper": 0.9626556016597511,
+   "h2_complete_case": 0.0,
+   "h2_resolvable_pairs": 0,
+   "h2_resolvable_share": 0.0,
+   "h2b_known_overlapping": 8,
+   "h2b_known_not_overlapping": 5,
+   "h2b_unresolved": 228,
+   "h2b_lower": 0.03319502074688797,
+   "h2b_upper": 0.979253112033195,
+   "h2b_complete_case": 0.6153846153846154,
+   "h2_h2b_pairs_not_nested": 0
+  },
+  "wilson_descriptive": {
+   "h1_pair_concordance": null,
+   "h2_lower": [
+    -1.734723475976807e-18,
+    0.015689576590488127
+   ],
+   "h2_upper": [
+    0.930562717164783,
+    0.9802307451602015
+   ],
+   "h2b_lower": [
+    0.01691458894456567,
+    0.06412339749883611
+   ],
+   "h2b_upper": [
+    0.952361272660145,
+    0.991106394591296
+   ],
+   "h2_resolvable_share": [
+    -1.734723475976807e-18,
+    0.015689576590488127
+   ]
+  },
+  "verdict_rule": "finite_corpus_bounds",
+  "h2_verdict": "unresolved",
+  "h2b_verdict": "unresolved",
+  "two_verdict_reading": "neither_share_placed_on_one_side_of_one_half",
+  "h2_supported_attainable": false,
+  "resampling_stability": [
+   "pair_bootstrap",
+   "protein_cluster_bootstrap",
+   "family_jackknife"
+  ],
+  "pair_bootstrap": {
+   "replicates": 10000,
+   "seed": 20261001,
+   "percentile_method": "inverted_cdf",
+   "h2_lower": [
+    0.0,
+    0.0
+   ],
+   "h2_upper": [
+    0.9377593360995851,
+    0.983402489626556
+   ],
+   "h2b_lower": [
+    0.012448132780082987,
+    0.058091286307053944
+   ],
+   "h2b_upper": [
+    0.9585062240663901,
+    0.995850622406639
+   ],
+   "h2_resolvable_share": [
+    0.0,
+    0.0
+   ]
+  },
+  "protein_cluster_bootstrap": {
+   "replicates": 10000,
+   "seed": [
+    20261001,
+    1
+   ],
+   "unit": "protein",
+   "percentile_method": "inverted_cdf",
+   "h2_proteins": 205,
+   "h2_lower": [
+    0.0,
+    0.0
+   ],
+   "h2_upper": [
+    0.9369747899159664,
+    0.9838056680161943
+   ],
+   "h2b_lower": [
+    0.012345679012345678,
+    0.058333333333333334
+   ],
+   "h2b_upper": [
+    0.959349593495935,
+    0.99581589958159
+   ]
+  },
+  "family_jackknife": {
+   "h1_pair_concordance": null,
+   "h1_edge_concordance": null,
+   "h2_lower": {
+    "min": 0.0,
+    "min_when_dropping": "31928076",
+    "max": 0.0,
+    "max_when_dropping": "W7127634741",
+    "n_deletions": 726
+   },
+   "h2_upper": {
+    "min": 0.961038961038961,
+    "min_when_dropping": "37212950",
+    "max": 0.9790794979079498,
+    "max_when_dropping": "W4390198428",
+    "n_deletions": 726
+   },
+   "h2b_lower": {
+    "min": 0.0,
+    "min_when_dropping": "41142151",
+    "max": 0.03463203463203463,
+    "max_when_dropping": "37212950",
+    "n_deletions": 726
+   },
+   "h2b_upper": {
+    "min": 0.9783549783549783,
+    "min_when_dropping": "37212950",
+    "max": 0.9916317991631799,
+    "max_when_dropping": "W4390198428",
+    "n_deletions": 726
+   },
+   "h2_resolvable_share": {
+    "min": 0.0,
+    "min_when_dropping": "31928076",
+    "max": 0.0,
+    "max_when_dropping": "W7127634741",
+    "n_deletions": 726
+   }
+  },
+  "imprecise_under_20_pairs": {
+   "h1": true,
+   "h2": false
+  }
+ },
+ "without_count_not_stated": {
+  "claim_records": 1471,
+  "denominators": {
+   "family_pair_records": 1261,
+   "by_direction": {
+    "unresolved": 962,
+    "lowers": 118,
+    "raises": 153,
+    "mixed": 1,
+    "nonsignificant_only": 27
+   },
+   "context_unclear": 0,
+   "pairs": 1196,
+   "multi_family_pairs": 58,
+   "contradicting_pairs": 1,
+   "family_pair_records_with_a_manually_coded_dataset": 0,
+   "multi_family_pairs_with_a_manually_coded_dataset": 0,
+   "h1_pairs_with_a_manually_coded_dataset": 0
+  },
+  "estimates": {
+   "h1_pairs": 0,
+   "h1_pairs_agreeing": 0,
+   "h1_pair_concordance": null,
+   "h1_independent_edges": 0,
+   "h1_independent_edges_agreeing": 0,
+   "h1_edge_concordance": null,
+   "liu_analogue_pairs": 10,
+   "liu_analogue_tiers": {
+    "high": 9,
+    "discordant": 1
+   },
+   "liu_analogue_share_not_discordant": 0.9,
+   "h2_multi_family_pairs": 58,
+   "h2_known_identical": 0,
+   "h2_known_not_identical": 0,
+   "h2_unresolved": 58,
+   "h2_lower": 0.0,
+   "h2_upper": 1.0,
+   "h2_complete_case": null,
+   "h2_resolvable_pairs": 0,
+   "h2_resolvable_share": 0.0,
+   "h2b_known_overlapping": 0,
+   "h2b_known_not_overlapping": 0,
+   "h2b_unresolved": 58,
+   "h2b_lower": 0.0,
+   "h2b_upper": 1.0,
+   "h2b_complete_case": null,
+   "h2_h2b_pairs_not_nested": 0
+  },
+  "wilson_descriptive": {
+   "h1_pair_concordance": null,
+   "h2_lower": [
+    0.0,
+    0.062117855787202914
+   ],
+   "h2_upper": [
+    0.9378821442127971,
+    1.0
+   ],
+   "h2b_lower": [
+    0.0,
+    0.062117855787202914
+   ],
+   "h2b_upper": [
+    0.9378821442127971,
+    1.0
+   ],
+   "h2_resolvable_share": [
+    0.0,
+    0.062117855787202914
+   ]
+  },
+  "verdict_rule": "finite_corpus_bounds",
+  "h2_verdict": "unresolved",
+  "h2b_verdict": "unresolved",
+  "two_verdict_reading": "neither_share_placed_on_one_side_of_one_half",
+  "h2_supported_attainable": false,
+  "resampling_stability": [
+   "pair_bootstrap",
+   "protein_cluster_bootstrap",
+   "family_jackknife"
+  ],
+  "pair_bootstrap": {
+   "replicates": 10000,
+   "seed": 20261001,
+   "percentile_method": "inverted_cdf",
+   "h2_lower": [
+    0.0,
+    0.0
+   ],
+   "h2_upper": [
+    1.0,
+    1.0
+   ],
+   "h2b_lower": [
+    0.0,
+    0.0
+   ],
+   "h2b_upper": [
+    1.0,
+    1.0
+   ],
+   "h2_resolvable_share": [
+    0.0,
+    0.0
+   ]
+  },
+  "protein_cluster_bootstrap": {
+   "replicates": 10000,
+   "seed": [
+    20261001,
+    1
+   ],
+   "unit": "protein",
+   "percentile_method": "inverted_cdf",
+   "h2_proteins": 56,
+   "h2_lower": [
+    0.0,
+    0.0
+   ],
+   "h2_upper": [
+    1.0,
+    1.0
+   ],
+   "h2b_lower": [
+    0.0,
+    0.0
+   ],
+   "h2b_upper": [
+    1.0,
+    1.0
+   ]
+  },
+  "family_jackknife": {
+   "h1_pair_concordance": null,
+   "h1_edge_concordance": null,
+   "h2_lower": {
+    "min": 0.0,
+    "min_when_dropping": "30998689",
+    "max": 0.0,
+    "max_when_dropping": "W7127634741",
+    "n_deletions": 318
+   },
+   "h2_upper": {
+    "min": 1.0,
+    "min_when_dropping": "30998689",
+    "max": 1.0,
+    "max_when_dropping": "W7127634741",
+    "n_deletions": 318
+   },
+   "h2b_lower": {
+    "min": 0.0,
+    "min_when_dropping": "30998689",
+    "max": 0.0,
+    "max_when_dropping": "W7127634741",
+    "n_deletions": 318
+   },
+   "h2b_upper": {
+    "min": 1.0,
+    "min_when_dropping": "30998689",
+    "max": 1.0,
+    "max_when_dropping": "W7127634741",
+    "n_deletions": 318
+   },
+   "h2_resolvable_share": {
+    "min": 0.0,
+    "min_when_dropping": "30998689",
+    "max": 0.0,
+    "max_when_dropping": "W7127634741",
+    "n_deletions": 318
+   }
+  },
+  "imprecise_under_20_pairs": {
+   "h1": true,
+   "h2": false
+  }
+ },
+ "all_document_types": {
+  "records_other_document_type": 1525,
+  "eligible_families": 1493,
+  "claim_records": 3747,
+  "denominators": {
+   "family_pair_records": 3266,
+   "by_direction": {
+    "unresolved": 2666,
+    "lowers": 237,
+    "nonsignificant_only": 49,
+    "raises": 310,
+    "mixed": 1,
+    "raises_with_nonsignificant": 3
+   },
+   "context_unclear": 4,
+   "pairs": 2862,
+   "multi_family_pairs": 274,
+   "contradicting_pairs": 5,
+   "family_pair_records_with_a_manually_coded_dataset": 0,
+   "multi_family_pairs_with_a_manually_coded_dataset": 0,
+   "h1_pairs_with_a_manually_coded_dataset": 0
+  },
+  "estimates": {
+   "h1_pairs": 0,
+   "h1_pairs_agreeing": 0,
+   "h1_pair_concordance": null,
+   "h1_independent_edges": 0,
+   "h1_independent_edges_agreeing": 0,
+   "h1_edge_concordance": null,
+   "liu_analogue_pairs": 28,
+   "liu_analogue_tiers": {
+    "high": 23,
+    "discordant": 5
+   },
+   "liu_analogue_share_not_discordant": 0.8214285714285714,
+   "h2_multi_family_pairs": 274,
+   "h2_known_identical": 0,
+   "h2_known_not_identical": 10,
+   "h2_unresolved": 264,
+   "h2_lower": 0.0,
+   "h2_upper": 0.9635036496350365,
+   "h2_complete_case": 0.0,
+   "h2_resolvable_pairs": 0,
+   "h2_resolvable_share": 0.0,
+   "h2b_known_overlapping": 8,
+   "h2b_known_not_overlapping": 5,
+   "h2b_unresolved": 261,
+   "h2b_lower": 0.029197080291970802,
+   "h2b_upper": 0.9817518248175182,
+   "h2b_complete_case": 0.6153846153846154,
+   "h2_h2b_pairs_not_nested": 0
+  },
+  "wilson_descriptive": {
+   "h1_pair_concordance": null,
+   "h2_lower": [
+    8.673617379884035e-19,
+    0.01382608210091937
+   ],
+   "h2_upper": [
+    0.9341332084866302,
+    0.9800572117555834
+   ],
+   "h2b_lower": [
+    0.014867373885464275,
+    0.05654550634094886
+   ],
+   "h2b_upper": [
+    0.958001257129705,
+    0.9921809119409422
+   ],
+   "h2_resolvable_share": [
+    8.673617379884035e-19,
+    0.01382608210091937
+   ]
+  },
+  "verdict_rule": "finite_corpus_bounds",
+  "h2_verdict": "unresolved",
+  "h2b_verdict": "unresolved",
+  "two_verdict_reading": "neither_share_placed_on_one_side_of_one_half",
+  "h2_supported_attainable": false,
+  "resampling_stability": [
+   "pair_bootstrap",
+   "protein_cluster_bootstrap",
+   "family_jackknife"
+  ],
+  "pair_bootstrap": {
+   "replicates": 10000,
+   "seed": 20261001,
+   "percentile_method": "inverted_cdf",
+   "h2_lower": [
+    0.0,
+    0.0
+   ],
+   "h2_upper": [
+    0.9416058394160584,
+    0.9854014598540146
+   ],
+   "h2b_lower": [
+    0.010948905109489052,
+    0.051094890510948905
+   ],
+   "h2b_upper": [
+    0.9635036496350365,
+    0.9963503649635036
+   ],
+   "h2_resolvable_share": [
+    0.0,
+    0.0
+   ]
+  },
+  "protein_cluster_bootstrap": {
+   "replicates": 10000,
+   "seed": [
+    20261001,
+    1
+   ],
+   "unit": "protein",
+   "percentile_method": "inverted_cdf",
+   "h2_proteins": 227,
+   "h2_lower": [
+    0.0,
+    0.0
+   ],
+   "h2_upper": [
+    0.9401408450704225,
+    0.9847328244274809
+   ],
+   "h2b_lower": [
+    0.010869565217391304,
+    0.05185185185185185
+   ],
+   "h2b_upper": [
+    0.9642857142857143,
+    0.996309963099631
+   ]
+  },
+  "family_jackknife": {
+   "h1_pair_concordance": null,
+   "h1_edge_concordance": null,
+   "h2_lower": {
+    "min": 0.0,
+    "min_when_dropping": "30998689",
+    "max": 0.0,
+    "max_when_dropping": "W7161977500",
+    "n_deletions": 785
+   },
+   "h2_upper": {
+    "min": 0.9621212121212122,
+    "min_when_dropping": "37212950",
+    "max": 0.9779411764705882,
+    "max_when_dropping": "W4390198428",
+    "n_deletions": 785
+   },
+   "h2b_lower": {
+    "min": 0.0,
+    "min_when_dropping": "41142151",
+    "max": 0.030303030303030304,
+    "max_when_dropping": "37212950",
+    "n_deletions": 785
+   },
+   "h2b_upper": {
+    "min": 0.9810606060606061,
+    "min_when_dropping": "37212950",
+    "max": 0.9926470588235294,
+    "max_when_dropping": "W4390198428",
+    "n_deletions": 785
+   },
+   "h2_resolvable_share": {
+    "min": 0.0,
+    "min_when_dropping": "30998689",
+    "max": 0.0,
+    "max_when_dropping": "W7161977500",
+    "n_deletions": 785
+   }
+  },
+  "imprecise_under_20_pairs": {
+   "h1": true,
+   "h2": false
+  }
+ },
+ "without_citation_chasing": {
+  "claim_records": 3196,
+  "denominators": {
+   "family_pair_records": 2779,
+   "by_direction": {
+    "unresolved": 2293,
+    "lowers": 195,
+    "nonsignificant_only": 38,
+    "raises": 251,
+    "mixed": 1,
+    "raises_with_nonsignificant": 1
+   },
+   "context_unclear": 4,
+   "pairs": 2462,
+   "multi_family_pairs": 216,
+   "contradicting_pairs": 4,
+   "family_pair_records_with_a_manually_coded_dataset": 0,
+   "multi_family_pairs_with_a_manually_coded_dataset": 0,
+   "h1_pairs_with_a_manually_coded_dataset": 0
+  },
+  "estimates": {
+   "h1_pairs": 0,
+   "h1_pairs_agreeing": 0,
+   "h1_pair_concordance": null,
+   "h1_independent_edges": 0,
+   "h1_independent_edges_agreeing": 0,
+   "h1_edge_concordance": null,
+   "liu_analogue_pairs": 17,
+   "liu_analogue_tiers": {
+    "high": 13,
+    "discordant": 4
+   },
+   "liu_analogue_share_not_discordant": 0.7647058823529411,
+   "h2_multi_family_pairs": 216,
+   "h2_known_identical": 0,
+   "h2_known_not_identical": 9,
+   "h2_unresolved": 207,
+   "h2_lower": 0.0,
+   "h2_upper": 0.9583333333333334,
+   "h2_complete_case": 0.0,
+   "h2_resolvable_pairs": 0,
+   "h2_resolvable_share": 0.0,
+   "h2b_known_overlapping": 8,
+   "h2b_known_not_overlapping": 5,
+   "h2b_unresolved": 203,
+   "h2b_lower": 0.037037037037037035,
+   "h2b_upper": 0.9768518518518519,
+   "h2b_complete_case": 0.6153846153846154,
+   "h2_h2b_pairs_not_nested": 0
+  },
+  "wilson_descriptive": {
+   "h1_pair_concordance": null,
+   "h2_lower": [
+    0.0,
+    0.01747376878456431
+   ],
+   "h2_upper": [
+    0.9227223788118557,
+    0.9779266664689605
+   ],
+   "h2b_lower": [
+    0.018884593810481475,
+    0.07136889580485585
+   ],
+   "h2b_upper": [
+    0.9469660036115686,
+    0.9900729020846342
+   ],
+   "h2_resolvable_share": [
+    0.0,
+    0.01747376878456431
+   ]
+  },
+  "verdict_rule": "finite_corpus_bounds",
+  "h2_verdict": "unresolved",
+  "h2b_verdict": "unresolved",
+  "two_verdict_reading": "neither_share_placed_on_one_side_of_one_half",
+  "h2_supported_attainable": false,
+  "resampling_stability": [
+   "pair_bootstrap",
+   "protein_cluster_bootstrap",
+   "family_jackknife"
+  ],
+  "pair_bootstrap": {
+   "replicates": 10000,
+   "seed": 20261001,
+   "percentile_method": "inverted_cdf",
+   "h2_lower": [
+    0.0,
+    0.0
+   ],
+   "h2_upper": [
+    0.9305555555555556,
+    0.9814814814814815
+   ],
+   "h2b_lower": [
+    0.013888888888888888,
+    0.06481481481481481
+   ],
+   "h2b_upper": [
+    0.9537037037037037,
+    0.9953703703703703
+   ],
+   "h2_resolvable_share": [
+    0.0,
+    0.0
+   ]
+  },
+  "protein_cluster_bootstrap": {
+   "replicates": 10000,
+   "seed": [
+    20261001,
+    1
+   ],
+   "unit": "protein",
+   "percentile_method": "inverted_cdf",
+   "h2_proteins": 184,
+   "h2_lower": [
+    0.0,
+    0.0
+   ],
+   "h2_upper": [
+    0.9298245614035088,
+    0.9819004524886877
+   ],
+   "h2b_lower": [
+    0.013761467889908258,
+    0.06451612903225806
+   ],
+   "h2b_upper": [
+    0.9551569506726457,
+    0.9953051643192489
+   ]
+  },
+  "family_jackknife": {
+   "h1_pair_concordance": null,
+   "h1_edge_concordance": null,
+   "h2_lower": {
+    "min": 0.0,
+    "min_when_dropping": "30998689",
+    "max": 0.0,
+    "max_when_dropping": "W7127634741",
+    "n_deletions": 628
+   },
+   "h2_upper": {
+    "min": 0.9563106796116505,
+    "min_when_dropping": "37212950",
+    "max": 0.9766355140186916,
+    "max_when_dropping": "W4390198428",
+    "n_deletions": 628
+   },
+   "h2b_lower": {
+    "min": 0.0,
+    "min_when_dropping": "41142151",
+    "max": 0.038834951456310676,
+    "max_when_dropping": "37212950",
+    "n_deletions": 628
+   },
+   "h2b_upper": {
+    "min": 0.9757281553398058,
+    "min_when_dropping": "37212950",
+    "max": 0.9906542056074766,
+    "max_when_dropping": "W4390198428",
+    "n_deletions": 628
+   },
+   "h2_resolvable_share": {
+    "min": 0.0,
+    "min_when_dropping": "30998689",
+    "max": 0.0,
+    "max_when_dropping": "W7127634741",
+    "n_deletions": 628
+   }
+  },
+  "imprecise_under_20_pairs": {
+   "h1": true,
+   "h2": false
+  }
+ },
+ "shared_names_mondo_first": {
+  "claim_records": 3740,
+  "denominators": {
+   "family_pair_records": 3235,
+   "by_direction": {
+    "unresolved": 2635,
+    "lowers": 239,
+    "nonsignificant_only": 48,
+    "raises": 311,
+    "mixed": 1,
+    "raises_with_nonsignificant": 1
+   },
+   "context_unclear": 4,
+   "pairs": 2865,
+   "multi_family_pairs": 261,
+   "contradicting_pairs": 5,
+   "family_pair_records_with_a_manually_coded_dataset": 0,
+   "multi_family_pairs_with_a_manually_coded_dataset": 0,
+   "h1_pairs_with_a_manually_coded_dataset": 0
+  },
+  "estimates": {
+   "h1_pairs": 0,
+   "h1_pairs_agreeing": 0,
+   "h1_pair_concordance": null,
+   "h1_independent_edges": 0,
+   "h1_independent_edges_agreeing": 0,
+   "h1_edge_concordance": null,
+   "liu_analogue_pairs": 21,
+   "liu_analogue_tiers": {
+    "high": 16,
+    "discordant": 5
+   },
+   "liu_analogue_share_not_discordant": 0.7619047619047619,
+   "h2_multi_family_pairs": 261,
+   "h2_known_identical": 0,
+   "h2_known_not_identical": 9,
+   "h2_unresolved": 252,
+   "h2_lower": 0.0,
+   "h2_upper": 0.9655172413793104,
+   "h2_complete_case": 0.0,
+   "h2_resolvable_pairs": 0,
+   "h2_resolvable_share": 0.0,
+   "h2b_known_overlapping": 8,
+   "h2b_known_not_overlapping": 5,
+   "h2b_unresolved": 248,
+   "h2b_lower": 0.03065134099616858,
+   "h2b_upper": 0.9808429118773946,
+   "h2b_complete_case": 0.6153846153846154,
+   "h2_h2b_pairs_not_nested": 0
+  },
+  "wilson_descriptive": {
+   "h1_pair_concordance": null,
+   "h2_lower": [
+    0.0,
+    0.01450474875723635
+   ],
+   "h2_upper": [
+    0.9357757055596989,
+    0.9817543559421844
+   ],
+   "h2b_lower": [
+    0.015611730823629221,
+    0.05930651992550068
+   ],
+   "h2b_upper": [
+    0.9559466506773368,
+    0.9917901618204933
+   ],
+   "h2_resolvable_share": [
+    0.0,
+    0.01450474875723635
+   ]
+  },
+  "verdict_rule": "finite_corpus_bounds",
+  "h2_verdict": "unresolved",
+  "h2b_verdict": "unresolved",
+  "two_verdict_reading": "neither_share_placed_on_one_side_of_one_half",
+  "h2_supported_attainable": false,
+  "resampling_stability": [
+   "pair_bootstrap",
+   "protein_cluster_bootstrap",
+   "family_jackknife"
+  ],
+  "pair_bootstrap": {
+   "replicates": 10000,
+   "seed": 20261001,
+   "percentile_method": "inverted_cdf",
+   "h2_lower": [
+    0.0,
+    0.0
+   ],
+   "h2_upper": [
+    0.9425287356321839,
+    0.9846743295019157
+   ],
+   "h2b_lower": [
+    0.011494252873563218,
+    0.05363984674329502
+   ],
+   "h2b_upper": [
+    0.9616858237547893,
+    0.9961685823754789
+   ],
+   "h2_resolvable_share": [
+    0.0,
+    0.0
+   ]
+  },
+  "protein_cluster_bootstrap": {
+   "replicates": 10000,
+   "seed": [
+    20261001,
+    1
+   ],
+   "unit": "protein",
+   "percentile_method": "inverted_cdf",
+   "h2_proteins": 216,
+   "h2_lower": [
+    0.0,
+    0.0
+   ],
+   "h2_upper": [
+    0.9425287356321839,
+    0.9850187265917603
+   ],
+   "h2b_lower": [
+    0.011363636363636364,
+    0.053231939163498096
+   ],
+   "h2b_upper": [
+    0.9625468164794008,
+    0.9961089494163424
+   ]
+  },
+  "family_jackknife": {
+   "h1_pair_concordance": null,
+   "h1_edge_concordance": null,
+   "h2_lower": {
+    "min": 0.0,
+    "min_when_dropping": "30998689",
+    "max": 0.0,
+    "max_when_dropping": "W7127634741",
+    "n_deletions": 755
+   },
+   "h2_upper": {
+    "min": 0.9641434262948207,
+    "min_when_dropping": "37212950",
+    "max": 0.9806949806949807,
+    "max_when_dropping": "W4390198428",
+    "n_deletions": 755
+   },
+   "h2b_lower": {
+    "min": 0.0,
+    "min_when_dropping": "41142151",
+    "max": 0.03187250996015936,
+    "max_when_dropping": "37212950",
+    "n_deletions": 755
+   },
+   "h2b_upper": {
+    "min": 0.9800796812749004,
+    "min_when_dropping": "37212950",
+    "max": 0.9922779922779923,
+    "max_when_dropping": "W4390198428",
+    "n_deletions": 755
+   },
+   "h2_resolvable_share": {
+    "min": 0.0,
+    "min_when_dropping": "30998689",
+    "max": 0.0,
+    "max_when_dropping": "W7127634741",
+    "n_deletions": 755
+   }
+  },
+  "imprecise_under_20_pairs": {
+   "h1": true,
+   "h2": false
+  }
+ },
+ "without_manual_dataset_coding": {
+  "claim_records": 3571,
+  "denominators": {
+   "family_pair_records": 3109,
+   "by_direction": {
+    "unresolved": 2532,
+    "lowers": 232,
+    "nonsignificant_only": 48,
+    "raises": 295,
+    "mixed": 1,
+    "raises_with_nonsignificant": 1
+   },
+   "context_unclear": 4,
+   "pairs": 2759,
+   "multi_family_pairs": 245,
+   "contradicting_pairs": 5,
+   "family_pair_records_with_a_manually_coded_dataset": 0,
+   "multi_family_pairs_with_a_manually_coded_dataset": 0,
+   "h1_pairs_with_a_manually_coded_dataset": 0
+  },
+  "estimates": {
+   "h1_pairs": 0,
+   "h1_pairs_agreeing": 0,
+   "h1_pair_concordance": null,
+   "h1_independent_edges": 0,
+   "h1_independent_edges_agreeing": 0,
+   "h1_edge_concordance": null,
+   "liu_analogue_pairs": 21,
+   "liu_analogue_tiers": {
+    "high": 16,
+    "discordant": 5
+   },
+   "liu_analogue_share_not_discordant": 0.7619047619047619,
+   "h2_multi_family_pairs": 245,
+   "h2_known_identical": 0,
+   "h2_known_not_identical": 9,
+   "h2_unresolved": 236,
+   "h2_lower": 0.0,
+   "h2_upper": 0.963265306122449,
+   "h2_complete_case": 0.0,
+   "h2_resolvable_pairs": 0,
+   "h2_resolvable_share": 0.0,
+   "h2b_known_overlapping": 8,
+   "h2b_known_not_overlapping": 5,
+   "h2b_unresolved": 232,
+   "h2b_lower": 0.0326530612244898,
+   "h2b_upper": 0.9795918367346939,
+   "h2b_complete_case": 0.6153846153846154,
+   "h2_h2b_pairs_not_nested": 0
+  },
+  "wilson_descriptive": {
+   "h1_pair_concordance": null,
+   "h2_lower": [
+    0.0,
+    0.015437374619565052
+   ],
+   "h2_upper": [
+    0.9316719213546405,
+    0.980555490732538
+   ],
+   "h2b_lower": [
+    0.01663690566134272,
+    0.06309843633000585
+   ],
+   "h2b_upper": [
+    0.9531242851355692,
+    0.991252110637501
+   ],
+   "h2_resolvable_share": [
+    0.0,
+    0.015437374619565052
+   ]
+  },
+  "verdict_rule": "finite_corpus_bounds",
+  "h2_verdict": "unresolved",
+  "h2b_verdict": "unresolved",
+  "two_verdict_reading": "neither_share_placed_on_one_side_of_one_half",
+  "h2_supported_attainable": false,
+  "resampling_stability": [
+   "pair_bootstrap",
+   "protein_cluster_bootstrap",
+   "family_jackknife"
+  ],
+  "pair_bootstrap": {
+   "replicates": 10000,
+   "seed": 20261001,
+   "percentile_method": "inverted_cdf",
+   "h2_lower": [
+    0.0,
+    0.0
+   ],
+   "h2_upper": [
+    0.9387755102040817,
+    0.9836734693877551
+   ],
+   "h2b_lower": [
+    0.012244897959183673,
+    0.05714285714285714
+   ],
+   "h2b_upper": [
+    0.9591836734693877,
+    0.9959183673469387
+   ],
+   "h2_resolvable_share": [
+    0.0,
+    0.0
+   ]
+  },
+  "protein_cluster_bootstrap": {
+   "replicates": 10000,
+   "seed": [
+    20261001,
+    1
+   ],
+   "unit": "protein",
+   "percentile_method": "inverted_cdf",
+   "h2_proteins": 206,
+   "h2_lower": [
+    0.0,
+    0.0
+   ],
+   "h2_upper": [
+    0.9377593360995851,
+    0.984
+   ],
+   "h2b_lower": [
+    0.012145748987854251,
+    0.05714285714285714
+   ],
+   "h2b_upper": [
+    0.9596774193548387,
+    0.9959016393442623
+   ]
+  },
+  "family_jackknife": {
+   "h1_pair_concordance": null,
+   "h1_edge_concordance": null,
+   "h2_lower": {
+    "min": 0.0,
+    "min_when_dropping": "30998689",
+    "max": 0.0,
+    "max_when_dropping": "W7127634741",
+    "n_deletions": 732
+   },
+   "h2_upper": {
+    "min": 0.9617021276595744,
+    "min_when_dropping": "37212950",
+    "max": 0.9794238683127572,
+    "max_when_dropping": "W4390198428",
+    "n_deletions": 732
+   },
+   "h2b_lower": {
+    "min": 0.0,
+    "min_when_dropping": "41142151",
+    "max": 0.03404255319148936,
+    "max_when_dropping": "37212950",
+    "n_deletions": 732
+   },
+   "h2b_upper": {
+    "min": 0.9787234042553191,
+    "min_when_dropping": "37212950",
+    "max": 0.9917695473251029,
+    "max_when_dropping": "W4390198428",
+    "n_deletions": 732
+   },
+   "h2_resolvable_share": {
+    "min": 0.0,
+    "min_when_dropping": "30998689",
+    "max": 0.0,
+    "max_when_dropping": "W7127634741",
+    "n_deletions": 732
+   }
+  },
+  "imprecise_under_20_pairs": {
+   "h1": true,
+   "h2": false
+  }
+ },
+ "without_phenotype_cross_references": {
+  "claim_records": 3571,
+  "denominators": {
+   "family_pair_records": 3109,
+   "by_direction": {
+    "unresolved": 2532,
+    "lowers": 232,
+    "nonsignificant_only": 48,
+    "raises": 295,
+    "mixed": 1,
+    "raises_with_nonsignificant": 1
+   },
+   "context_unclear": 4,
+   "pairs": 2759,
+   "multi_family_pairs": 245,
+   "contradicting_pairs": 5,
+   "family_pair_records_with_a_manually_coded_dataset": 0,
+   "multi_family_pairs_with_a_manually_coded_dataset": 0,
+   "h1_pairs_with_a_manually_coded_dataset": 0
+  },
+  "estimates": {
+   "h1_pairs": 0,
+   "h1_pairs_agreeing": 0,
+   "h1_pair_concordance": null,
+   "h1_independent_edges": 0,
+   "h1_independent_edges_agreeing": 0,
+   "h1_edge_concordance": null,
+   "liu_analogue_pairs": 21,
+   "liu_analogue_tiers": {
+    "high": 16,
+    "discordant": 5
+   },
+   "liu_analogue_share_not_discordant": 0.7619047619047619,
+   "h2_multi_family_pairs": 245,
+   "h2_known_identical": 0,
+   "h2_known_not_identical": 9,
+   "h2_unresolved": 236,
+   "h2_lower": 0.0,
+   "h2_upper": 0.963265306122449,
+   "h2_complete_case": 0.0,
+   "h2_resolvable_pairs": 0,
+   "h2_resolvable_share": 0.0,
+   "h2b_known_overlapping": 8,
+   "h2b_known_not_overlapping": 5,
+   "h2b_unresolved": 232,
+   "h2b_lower": 0.0326530612244898,
+   "h2b_upper": 0.9795918367346939,
+   "h2b_complete_case": 0.6153846153846154,
+   "h2_h2b_pairs_not_nested": 0
+  },
+  "wilson_descriptive": {
+   "h1_pair_concordance": null,
+   "h2_lower": [
+    0.0,
+    0.015437374619565052
+   ],
+   "h2_upper": [
+    0.9316719213546405,
+    0.980555490732538
+   ],
+   "h2b_lower": [
+    0.01663690566134272,
+    0.06309843633000585
+   ],
+   "h2b_upper": [
+    0.9531242851355692,
+    0.991252110637501
+   ],
+   "h2_resolvable_share": [
+    0.0,
+    0.015437374619565052
+   ]
+  },
+  "verdict_rule": "finite_corpus_bounds",
+  "h2_verdict": "unresolved",
+  "h2b_verdict": "unresolved",
+  "two_verdict_reading": "neither_share_placed_on_one_side_of_one_half",
+  "h2_supported_attainable": false,
+  "resampling_stability": [
+   "pair_bootstrap",
+   "protein_cluster_bootstrap",
+   "family_jackknife"
+  ],
+  "pair_bootstrap": {
+   "replicates": 10000,
+   "seed": 20261001,
+   "percentile_method": "inverted_cdf",
+   "h2_lower": [
+    0.0,
+    0.0
+   ],
+   "h2_upper": [
+    0.9387755102040817,
+    0.9836734693877551
+   ],
+   "h2b_lower": [
+    0.012244897959183673,
+    0.05714285714285714
+   ],
+   "h2b_upper": [
+    0.9591836734693877,
+    0.9959183673469387
+   ],
+   "h2_resolvable_share": [
+    0.0,
+    0.0
+   ]
+  },
+  "protein_cluster_bootstrap": {
+   "replicates": 10000,
+   "seed": [
+    20261001,
+    1
+   ],
+   "unit": "protein",
+   "percentile_method": "inverted_cdf",
+   "h2_proteins": 206,
+   "h2_lower": [
+    0.0,
+    0.0
+   ],
+   "h2_upper": [
+    0.9377593360995851,
+    0.984
+   ],
+   "h2b_lower": [
+    0.012145748987854251,
+    0.05714285714285714
+   ],
+   "h2b_upper": [
+    0.9596774193548387,
+    0.9959016393442623
+   ]
+  },
+  "family_jackknife": {
+   "h1_pair_concordance": null,
+   "h1_edge_concordance": null,
+   "h2_lower": {
+    "min": 0.0,
+    "min_when_dropping": "30998689",
+    "max": 0.0,
+    "max_when_dropping": "W7127634741",
+    "n_deletions": 732
+   },
+   "h2_upper": {
+    "min": 0.9617021276595744,
+    "min_when_dropping": "37212950",
+    "max": 0.9794238683127572,
+    "max_when_dropping": "W4390198428",
+    "n_deletions": 732
+   },
+   "h2b_lower": {
+    "min": 0.0,
+    "min_when_dropping": "41142151",
+    "max": 0.03404255319148936,
+    "max_when_dropping": "37212950",
+    "n_deletions": 732
+   },
+   "h2b_upper": {
+    "min": 0.9787234042553191,
+    "min_when_dropping": "37212950",
+    "max": 0.9917695473251029,
+    "max_when_dropping": "W4390198428",
+    "n_deletions": 732
+   },
+   "h2_resolvable_share": {
+    "min": 0.0,
+    "min_when_dropping": "30998689",
+    "max": 0.0,
+    "max_when_dropping": "W7127634741",
+    "n_deletions": 732
+   }
+  },
+  "imprecise_under_20_pairs": {
+   "h1": true,
+   "h2": false
+  }
+ },
+ "claim_specific_dataset_names_only": {
+  "claim_records": 3571,
+  "denominators": {
+   "family_pair_records": 3109,
+   "by_direction": {
+    "unresolved": 2532,
+    "lowers": 232,
+    "nonsignificant_only": 48,
+    "raises": 295,
+    "mixed": 1,
+    "raises_with_nonsignificant": 1
+   },
+   "context_unclear": 4,
+   "pairs": 2759,
+   "multi_family_pairs": 245,
+   "contradicting_pairs": 5,
+   "family_pair_records_with_a_manually_coded_dataset": 0,
+   "multi_family_pairs_with_a_manually_coded_dataset": 0,
+   "h1_pairs_with_a_manually_coded_dataset": 0
+  },
+  "estimates": {
+   "h1_pairs": 0,
+   "h1_pairs_agreeing": 0,
+   "h1_pair_concordance": null,
+   "h1_independent_edges": 0,
+   "h1_independent_edges_agreeing": 0,
+   "h1_edge_concordance": null,
+   "liu_analogue_pairs": 21,
+   "liu_analogue_tiers": {
+    "high": 16,
+    "discordant": 5
+   },
+   "liu_analogue_share_not_discordant": 0.7619047619047619,
+   "h2_multi_family_pairs": 245,
+   "h2_known_identical": 0,
+   "h2_known_not_identical": 0,
+   "h2_unresolved": 245,
+   "h2_lower": 0.0,
+   "h2_upper": 1.0,
+   "h2_complete_case": null,
+   "h2_resolvable_pairs": 0,
+   "h2_resolvable_share": 0.0,
+   "h2b_known_overlapping": 0,
+   "h2b_known_not_overlapping": 0,
+   "h2b_unresolved": 245,
+   "h2b_lower": 0.0,
+   "h2b_upper": 1.0,
+   "h2b_complete_case": null,
+   "h2_h2b_pairs_not_nested": 0
+  },
+  "wilson_descriptive": {
+   "h1_pair_concordance": null,
+   "h2_lower": [
+    0.0,
+    0.015437374619565052
+   ],
+   "h2_upper": [
+    0.984562625380435,
+    1.0
+   ],
+   "h2b_lower": [
+    0.0,
+    0.015437374619565052
+   ],
+   "h2b_upper": [
+    0.984562625380435,
+    1.0
+   ],
+   "h2_resolvable_share": [
+    0.0,
+    0.015437374619565052
+   ]
+  },
+  "verdict_rule": "finite_corpus_bounds",
+  "h2_verdict": "unresolved",
+  "h2b_verdict": "unresolved",
+  "two_verdict_reading": "neither_share_placed_on_one_side_of_one_half",
+  "h2_supported_attainable": false,
+  "resampling_stability": [
+   "pair_bootstrap",
+   "protein_cluster_bootstrap",
+   "family_jackknife"
+  ],
+  "pair_bootstrap": {
+   "replicates": 10000,
+   "seed": 20261001,
+   "percentile_method": "inverted_cdf",
+   "h2_lower": [
+    0.0,
+    0.0
+   ],
+   "h2_upper": [
+    1.0,
+    1.0
+   ],
+   "h2b_lower": [
+    0.0,
+    0.0
+   ],
+   "h2b_upper": [
+    1.0,
+    1.0
+   ],
+   "h2_resolvable_share": [
+    0.0,
+    0.0
+   ]
+  },
+  "protein_cluster_bootstrap": {
+   "replicates": 10000,
+   "seed": [
+    20261001,
+    1
+   ],
+   "unit": "protein",
+   "percentile_method": "inverted_cdf",
+   "h2_proteins": 206,
+   "h2_lower": [
+    0.0,
+    0.0
+   ],
+   "h2_upper": [
+    1.0,
+    1.0
+   ],
+   "h2b_lower": [
+    0.0,
+    0.0
+   ],
+   "h2b_upper": [
+    1.0,
+    1.0
+   ]
+  },
+  "family_jackknife": {
+   "h1_pair_concordance": null,
+   "h1_edge_concordance": null,
+   "h2_lower": {
+    "min": 0.0,
+    "min_when_dropping": "30998689",
+    "max": 0.0,
+    "max_when_dropping": "W7127634741",
+    "n_deletions": 732
+   },
+   "h2_upper": {
+    "min": 1.0,
+    "min_when_dropping": "30998689",
+    "max": 1.0,
+    "max_when_dropping": "W7127634741",
+    "n_deletions": 732
+   },
+   "h2b_lower": {
+    "min": 0.0,
+    "min_when_dropping": "30998689",
+    "max": 0.0,
+    "max_when_dropping": "W7127634741",
+    "n_deletions": 732
+   },
+   "h2b_upper": {
+    "min": 1.0,
+    "min_when_dropping": "30998689",
+    "max": 1.0,
+    "max_when_dropping": "W7127634741",
+    "n_deletions": 732
+   },
+   "h2_resolvable_share": {
+    "min": 0.0,
+    "min_when_dropping": "30998689",
+    "max": 0.0,
+    "max_when_dropping": "W7127634741",
+    "n_deletions": 732
+   }
+  },
+  "imprecise_under_20_pairs": {
+   "h1": true,
+   "h2": false
+  }
+ },
+ "tested_count_1000_or_more": {
+  "claim_records": 619,
+  "denominators": {
+   "family_pair_records": 524,
+   "by_direction": {
+    "raises": 66,
+    "lowers": 37,
+    "unresolved": 412,
+    "mixed": 1,
+    "nonsignificant_only": 8
+   },
+   "context_unclear": 0,
+   "pairs": 518,
+   "multi_family_pairs": 5,
+   "contradicting_pairs": 0,
+   "family_pair_records_with_a_manually_coded_dataset": 0,
+   "multi_family_pairs_with_a_manually_coded_dataset": 0,
+   "h1_pairs_with_a_manually_coded_dataset": 0
+  },
+  "estimates": {
+   "h1_pairs": 0,
+   "h1_pairs_agreeing": 0,
+   "h1_pair_concordance": null,
+   "h1_independent_edges": 0,
+   "h1_independent_edges_agreeing": 0,
+   "h1_edge_concordance": null,
+   "liu_analogue_pairs": 0,
+   "liu_analogue_tiers": {},
+   "liu_analogue_share_not_discordant": null,
+   "h2_multi_family_pairs": 5,
+   "h2_known_identical": 0,
+   "h2_known_not_identical": 0,
+   "h2_unresolved": 5,
+   "h2_lower": 0.0,
+   "h2_upper": 1.0,
+   "h2_complete_case": null,
+   "h2_resolvable_pairs": 0,
+   "h2_resolvable_share": 0.0,
+   "h2b_known_overlapping": 0,
+   "h2b_known_not_overlapping": 0,
+   "h2b_unresolved": 5,
+   "h2b_lower": 0.0,
+   "h2b_upper": 1.0,
+   "h2b_complete_case": null,
+   "h2_h2b_pairs_not_nested": 0
+  },
+  "wilson_descriptive": {
+   "h1_pair_concordance": null,
+   "h2_lower": [
+    0.0,
+    0.43448246478317476
+   ],
+   "h2_upper": [
+    0.5655175352168251,
+    1.0
+   ],
+   "h2b_lower": [
+    0.0,
+    0.43448246478317476
+   ],
+   "h2b_upper": [
+    0.5655175352168251,
+    1.0
+   ],
+   "h2_resolvable_share": [
+    0.0,
+    0.43448246478317476
+   ]
+  },
+  "verdict_rule": "finite_corpus_bounds",
+  "h2_verdict": "unresolved",
+  "h2b_verdict": "unresolved",
+  "two_verdict_reading": "neither_share_placed_on_one_side_of_one_half",
+  "h2_supported_attainable": false,
+  "resampling_stability": [
+   "pair_bootstrap",
+   "protein_cluster_bootstrap",
+   "family_jackknife"
+  ],
+  "pair_bootstrap": {
+   "replicates": 10000,
+   "seed": 20261001,
+   "percentile_method": "inverted_cdf",
+   "h2_lower": [
+    0.0,
+    0.0
+   ],
+   "h2_upper": [
+    1.0,
+    1.0
+   ],
+   "h2b_lower": [
+    0.0,
+    0.0
+   ],
+   "h2b_upper": [
+    1.0,
+    1.0
+   ],
+   "h2_resolvable_share": [
+    0.0,
+    0.0
+   ]
+  },
+  "protein_cluster_bootstrap": {
+   "replicates": 10000,
+   "seed": [
+    20261001,
+    1
+   ],
+   "unit": "protein",
+   "percentile_method": "inverted_cdf",
+   "h2_proteins": 5,
+   "h2_lower": [
+    0.0,
+    0.0
+   ],
+   "h2_upper": [
+    1.0,
+    1.0
+   ],
+   "h2b_lower": [
+    0.0,
+    0.0
+   ],
+   "h2b_upper": [
+    1.0,
+    1.0
+   ]
+  },
+  "family_jackknife": {
+   "h1_pair_concordance": null,
+   "h1_edge_concordance": null,
+   "h2_lower": {
+    "min": 0.0,
+    "min_when_dropping": "31265136",
+    "max": 0.0,
+    "max_when_dropping": "W7117782391",
+    "n_deletions": 103
+   },
+   "h2_upper": {
+    "min": 1.0,
+    "min_when_dropping": "31265136",
+    "max": 1.0,
+    "max_when_dropping": "W7117782391",
+    "n_deletions": 103
+   },
+   "h2b_lower": {
+    "min": 0.0,
+    "min_when_dropping": "31265136",
+    "max": 0.0,
+    "max_when_dropping": "W7117782391",
+    "n_deletions": 103
+   },
+   "h2b_upper": {
+    "min": 1.0,
+    "min_when_dropping": "31265136",
+    "max": 1.0,
+    "max_when_dropping": "W7117782391",
+    "n_deletions": 103
+   },
+   "h2_resolvable_share": {
+    "min": 0.0,
+    "min_when_dropping": "31265136",
+    "max": 0.0,
+    "max_when_dropping": "W7117782391",
+    "n_deletions": 103
+   }
+  },
+  "imprecise_under_20_pairs": {
+   "h1": true,
+   "h2": true
+  }
+ },
+ "manual_dataset_coding": {
+  "codes_given": 0,
+  "claim_records_with_a_manually_coded_dataset": 0
+ },
+ "families_removed": {
+  "eligibility_uncertain": 389,
+  "also_tissue_or_csf": 119,
+  "first_public_before_2020": 11,
+  "count_not_stated": 771,
+  "citation_chasing_only": 206,
+  "tested_count_below_1000_or_not_stated": 1207
+ },
+ "claim_records_with_dataset_names_not_claim_specific": 3306,
+ "family_pair_records_removed": {
+  "with_nonsignificant": 1,
+  "context_unclear": 4
+ }
+}

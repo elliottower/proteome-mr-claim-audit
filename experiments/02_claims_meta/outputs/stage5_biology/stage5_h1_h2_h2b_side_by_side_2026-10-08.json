@@ -1,0 +1,680 @@
+{
+ "written_utc": "2026-10-08T17:08:27+00:00",
+ "note": "values copied from the registered result files at the addresses given; no value computed here; no interpretation",
+ "files": {
+  "amended_primary": {
+   "path": "outputs/stage5_biology/2026-10-03_amended_primary_a/sensitivity_tables.json",
+   "sha256": "82f24a1ee38111ce5ac948bd16d9bf2882436ad14465aa3d2dfbd5b9f9cb21ca"
+  },
+  "originally_registered": {
+   "path": "outputs/stage5_biology/2026-10-03_registered_with_27_a/sensitivity_tables.json",
+   "sha256": "42758a3ca1ef0993b6559762990f32bd0c1e39aa8892fe7595d036b43092908c"
+  },
+  "amended_primary_without_manual_codes": {
+   "path": "outputs/stage5_biology/2026-10-03_amended_primary_c/sensitivity_tables.json",
+   "sha256": "187f0cbd2a0ca9c1ea1633fc4c0339de21068562e16b4ea1aed3437c2df1f3c4"
+  }
+ },
+ "primary": {
+  "amended_primary": {
+   "claim_records": {
+    "value": 3571,
+    "address": "primary.claim_records"
+   },
+   "verdict_rule": {
+    "value": "finite_corpus_bounds",
+    "address": "primary.verdict_rule"
+   },
+   "h2_verdict": {
+    "value": "unresolved",
+    "address": "primary.h2_verdict"
+   },
+   "h2b_verdict": {
+    "value": "unresolved",
+    "address": "primary.h2b_verdict"
+   },
+   "two_verdict_reading": {
+    "value": "neither_share_placed_on_one_side_of_one_half",
+    "address": "primary.two_verdict_reading"
+   },
+   "h2_supported_attainable": {
+    "value": false,
+    "address": "primary.h2_supported_attainable"
+   },
+   "imprecise_under_20_pairs": {
+    "value": {
+     "h1": true,
+     "h2": false
+    },
+    "address": "primary.imprecise_under_20_pairs"
+   },
+   "h1_pairs": {
+    "value": 0,
+    "address": "primary.estimates.h1_pairs"
+   },
+   "h1_pairs_agreeing": {
+    "value": 0,
+    "address": "primary.estimates.h1_pairs_agreeing"
+   },
+   "h1_pair_concordance": {
+    "value": null,
+    "address": "primary.estimates.h1_pair_concordance"
+   },
+   "h1_independent_edges": {
+    "value": 0,
+    "address": "primary.estimates.h1_independent_edges"
+   },
+   "h1_independent_edges_agreeing": {
+    "value": 0,
+    "address": "primary.estimates.h1_independent_edges_agreeing"
+   },
+   "h1_edge_concordance": {
+    "value": null,
+    "address": "primary.estimates.h1_edge_concordance"
+   },
+   "h2_multi_family_pairs": {
+    "value": 245,
+    "address": "primary.estimates.h2_multi_family_pairs"
+   },
+   "h2_known_identical": {
+    "value": 0,
+    "address": "primary.estimates.h2_known_identical"
+   },
+   "h2_known_not_identical": {
+    "value": 11,
+    "address": "primary.estimates.h2_known_not_identical"
+   },
+   "h2_unresolved": {
+    "value": 234,
+    "address": "primary.estimates.h2_unresolved"
+   },
+   "h2_lower": {
+    "value": 0.0,
+    "address": "primary.estimates.h2_lower"
+   },
+   "h2_upper": {
+    "value": 0.9551020408163265,
+    "address": "primary.estimates.h2_upper"
+   },
+   "h2_complete_case": {
+    "value": 0.0,
+    "address": "primary.estimates.h2_complete_case"
+   },
+   "h2_resolvable_pairs": {
+    "value": 0,
+    "address": "primary.estimates.h2_resolvable_pairs"
+   },
+   "h2_resolvable_share": {
+    "value": 0.0,
+    "address": "primary.estimates.h2_resolvable_share"
+   },
+   "h2b_known_overlapping": {
+    "value": 8,
+    "address": "primary.estimates.h2b_known_overlapping"
+   },
+   "h2b_known_not_overlapping": {
+    "value": 5,
+    "address": "primary.estimates.h2b_known_not_overlapping"
+   },
+   "h2b_unresolved": {
+    "value": 232,
+    "address": "primary.estimates.h2b_unresolved"
+   },
+   "h2b_lower": {
+    "value": 0.0326530612244898,
+    "address": "primary.estimates.h2b_lower"
+   },
+   "h2b_upper": {
+    "value": 0.9795918367346939,
+    "address": "primary.estimates.h2b_upper"
+   },
+   "h2b_complete_case": {
+    "value": 0.6153846153846154,
+    "address": "primary.estimates.h2b_complete_case"
+   },
+   "h2_h2b_pairs_not_nested": {
+    "value": 0,
+    "address": "primary.estimates.h2_h2b_pairs_not_nested"
+   },
+   "wilson_descriptive": {
+    "value": {
+     "h1_pair_concordance": null,
+     "h2_lower": [
+      0.0,
+      0.015437374619565052
+     ],
+     "h2_upper": [
+      0.921405383519788,
+      0.9747475367244447
+     ],
+     "h2b_lower": [
+      0.01663690566134272,
+      0.06309843633000585
+     ],
+     "h2b_upper": [
+      0.9531242851355692,
+      0.991252110637501
+     ],
+     "h2_resolvable_share": [
+      0.0,
+      0.015437374619565052
+     ]
+    },
+    "address": "primary.wilson_descriptive"
+   },
+   "denominators": {
+    "value": {
+     "family_pair_records": 3109,
+     "context_unclear": 4,
+     "pairs": 2759,
+     "multi_family_pairs": 245,
+     "contradicting_pairs": 5,
+     "family_pair_records_with_a_manually_coded_dataset": 516,
+     "multi_family_pairs_with_a_manually_coded_dataset": 88,
+     "h1_pairs_with_a_manually_coded_dataset": 0
+    },
+    "address": "primary.denominators"
+   }
+  },
+  "originally_registered": {
+   "claim_records": {
+    "value": 3555,
+    "address": "primary.claim_records"
+   },
+   "verdict_rule": {
+    "value": "finite_corpus_bounds",
+    "address": "primary.verdict_rule"
+   },
+   "h2_verdict": {
+    "value": "unresolved",
+    "address": "primary.h2_verdict"
+   },
+   "h2b_verdict": {
+    "value": "unresolved",
+    "address": "primary.h2b_verdict"
+   },
+   "two_verdict_reading": {
+    "value": "neither_share_placed_on_one_side_of_one_half",
+    "address": "primary.two_verdict_reading"
+   },
+   "h2_supported_attainable": {
+    "value": false,
+    "address": "primary.h2_supported_attainable"
+   },
+   "imprecise_under_20_pairs": {
+    "value": {
+     "h1": true,
+     "h2": false
+    },
+    "address": "primary.imprecise_under_20_pairs"
+   },
+   "h1_pairs": {
+    "value": 0,
+    "address": "primary.estimates.h1_pairs"
+   },
+   "h1_pairs_agreeing": {
+    "value": 0,
+    "address": "primary.estimates.h1_pairs_agreeing"
+   },
+   "h1_pair_concordance": {
+    "value": null,
+    "address": "primary.estimates.h1_pair_concordance"
+   },
+   "h1_independent_edges": {
+    "value": 0,
+    "address": "primary.estimates.h1_independent_edges"
+   },
+   "h1_independent_edges_agreeing": {
+    "value": 0,
+    "address": "primary.estimates.h1_independent_edges_agreeing"
+   },
+   "h1_edge_concordance": {
+    "value": null,
+    "address": "primary.estimates.h1_edge_concordance"
+   },
+   "h2_multi_family_pairs": {
+    "value": 242,
+    "address": "primary.estimates.h2_multi_family_pairs"
+   },
+   "h2_known_identical": {
+    "value": 0,
+    "address": "primary.estimates.h2_known_identical"
+   },
+   "h2_known_not_identical": {
+    "value": 11,
+    "address": "primary.estimates.h2_known_not_identical"
+   },
+   "h2_unresolved": {
+    "value": 231,
+    "address": "primary.estimates.h2_unresolved"
+   },
+   "h2_lower": {
+    "value": 0.0,
+    "address": "primary.estimates.h2_lower"
+   },
+   "h2_upper": {
+    "value": 0.9545454545454546,
+    "address": "primary.estimates.h2_upper"
+   },
+   "h2_complete_case": {
+    "value": 0.0,
+    "address": "primary.estimates.h2_complete_case"
+   },
+   "h2_resolvable_pairs": {
+    "value": 0,
+    "address": "primary.estimates.h2_resolvable_pairs"
+   },
+   "h2_resolvable_share": {
+    "value": 0.0,
+    "address": "primary.estimates.h2_resolvable_share"
+   },
+   "h2b_known_overlapping": {
+    "value": 8,
+    "address": "primary.estimates.h2b_known_overlapping"
+   },
+   "h2b_known_not_overlapping": {
+    "value": 5,
+    "address": "primary.estimates.h2b_known_not_overlapping"
+   },
+   "h2b_unresolved": {
+    "value": 229,
+    "address": "primary.estimates.h2b_unresolved"
+   },
+   "h2b_lower": {
+    "value": 0.03305785123966942,
+    "address": "primary.estimates.h2b_lower"
+   },
+   "h2b_upper": {
+    "value": 0.9793388429752066,
+    "address": "primary.estimates.h2b_upper"
+   },
+   "h2b_complete_case": {
+    "value": 0.6153846153846154,
+    "address": "primary.estimates.h2b_complete_case"
+   },
+   "h2_h2b_pairs_not_nested": {
+    "value": 0,
+    "address": "primary.estimates.h2_h2b_pairs_not_nested"
+   },
+   "wilson_descriptive": {
+    "value": {
+     "h1_pair_concordance": null,
+     "h2_lower": [
+      0.0,
+      0.01562575669344655
+     ],
+     "h2_upper": [
+      0.9204535027450712,
+      0.9744321729881592
+     ],
+     "h2b_lower": [
+      0.016844302681584718,
+      0.06386404861064224
+     ],
+     "h2b_upper": [
+      0.9525543448535055,
+      0.9911432768288101
+     ],
+     "h2_resolvable_share": [
+      0.0,
+      0.01562575669344655
+     ]
+    },
+    "address": "primary.wilson_descriptive"
+   },
+   "denominators": {
+    "value": {
+     "family_pair_records": 3097,
+     "context_unclear": 4,
+     "pairs": 2750,
+     "multi_family_pairs": 242,
+     "contradicting_pairs": 5,
+     "family_pair_records_with_a_manually_coded_dataset": 516,
+     "multi_family_pairs_with_a_manually_coded_dataset": 88,
+     "h1_pairs_with_a_manually_coded_dataset": 0
+    },
+    "address": "primary.denominators"
+   }
+  }
+ },
+ "cross_check_without_manual_codes": {
+  "amended_primary.without_manual_dataset_coding": {
+   "claim_records": {
+    "value": 3571,
+    "address": "without_manual_dataset_coding.claim_records"
+   },
+   "verdict_rule": {
+    "value": "finite_corpus_bounds",
+    "address": "without_manual_dataset_coding.verdict_rule"
+   },
+   "h2_verdict": {
+    "value": "unresolved",
+    "address": "without_manual_dataset_coding.h2_verdict"
+   },
+   "h2b_verdict": {
+    "value": "unresolved",
+    "address": "without_manual_dataset_coding.h2b_verdict"
+   },
+   "two_verdict_reading": {
+    "value": "neither_share_placed_on_one_side_of_one_half",
+    "address": "without_manual_dataset_coding.two_verdict_reading"
+   },
+   "h2_supported_attainable": {
+    "value": false,
+    "address": "without_manual_dataset_coding.h2_supported_attainable"
+   },
+   "imprecise_under_20_pairs": {
+    "value": {
+     "h1": true,
+     "h2": false
+    },
+    "address": "without_manual_dataset_coding.imprecise_under_20_pairs"
+   },
+   "h1_pairs": {
+    "value": 0,
+    "address": "without_manual_dataset_coding.estimates.h1_pairs"
+   },
+   "h1_pairs_agreeing": {
+    "value": 0,
+    "address": "without_manual_dataset_coding.estimates.h1_pairs_agreeing"
+   },
+   "h1_pair_concordance": {
+    "value": null,
+    "address": "without_manual_dataset_coding.estimates.h1_pair_concordance"
+   },
+   "h1_independent_edges": {
+    "value": 0,
+    "address": "without_manual_dataset_coding.estimates.h1_independent_edges"
+   },
+   "h1_independent_edges_agreeing": {
+    "value": 0,
+    "address": "without_manual_dataset_coding.estimates.h1_independent_edges_agreeing"
+   },
+   "h1_edge_concordance": {
+    "value": null,
+    "address": "without_manual_dataset_coding.estimates.h1_edge_concordance"
+   },
+   "h2_multi_family_pairs": {
+    "value": 245,
+    "address": "without_manual_dataset_coding.estimates.h2_multi_family_pairs"
+   },
+   "h2_known_identical": {
+    "value": 0,
+    "address": "without_manual_dataset_coding.estimates.h2_known_identical"
+   },
+   "h2_known_not_identical": {
+    "value": 9,
+    "address": "without_manual_dataset_coding.estimates.h2_known_not_identical"
+   },
+   "h2_unresolved": {
+    "value": 236,
+    "address": "without_manual_dataset_coding.estimates.h2_unresolved"
+   },
+   "h2_lower": {
+    "value": 0.0,
+    "address": "without_manual_dataset_coding.estimates.h2_lower"
+   },
+   "h2_upper": {
+    "value": 0.963265306122449,
+    "address": "without_manual_dataset_coding.estimates.h2_upper"
+   },
+   "h2_complete_case": {
+    "value": 0.0,
+    "address": "without_manual_dataset_coding.estimates.h2_complete_case"
+   },
+   "h2_resolvable_pairs": {
+    "value": 0,
+    "address": "without_manual_dataset_coding.estimates.h2_resolvable_pairs"
+   },
+   "h2_resolvable_share": {
+    "value": 0.0,
+    "address": "without_manual_dataset_coding.estimates.h2_resolvable_share"
+   },
+   "h2b_known_overlapping": {
+    "value": 8,
+    "address": "without_manual_dataset_coding.estimates.h2b_known_overlapping"
+   },
+   "h2b_known_not_overlapping": {
+    "value": 5,
+    "address": "without_manual_dataset_coding.estimates.h2b_known_not_overlapping"
+   },
+   "h2b_unresolved": {
+    "value": 232,
+    "address": "without_manual_dataset_coding.estimates.h2b_unresolved"
+   },
+   "h2b_lower": {
+    "value": 0.0326530612244898,
+    "address": "without_manual_dataset_coding.estimates.h2b_lower"
+   },
+   "h2b_upper": {
+    "value": 0.9795918367346939,
+    "address": "without_manual_dataset_coding.estimates.h2b_upper"
+   },
+   "h2b_complete_case": {
+    "value": 0.6153846153846154,
+    "address": "without_manual_dataset_coding.estimates.h2b_complete_case"
+   },
+   "h2_h2b_pairs_not_nested": {
+    "value": 0,
+    "address": "without_manual_dataset_coding.estimates.h2_h2b_pairs_not_nested"
+   },
+   "wilson_descriptive": {
+    "value": {
+     "h1_pair_concordance": null,
+     "h2_lower": [
+      0.0,
+      0.015437374619565052
+     ],
+     "h2_upper": [
+      0.9316719213546405,
+      0.980555490732538
+     ],
+     "h2b_lower": [
+      0.01663690566134272,
+      0.06309843633000585
+     ],
+     "h2b_upper": [
+      0.9531242851355692,
+      0.991252110637501
+     ],
+     "h2_resolvable_share": [
+      0.0,
+      0.015437374619565052
+     ]
+    },
+    "address": "without_manual_dataset_coding.wilson_descriptive"
+   },
+   "denominators": {
+    "value": {
+     "family_pair_records": 3109,
+     "context_unclear": 4,
+     "pairs": 2759,
+     "multi_family_pairs": 245,
+     "contradicting_pairs": 5,
+     "family_pair_records_with_a_manually_coded_dataset": 0,
+     "multi_family_pairs_with_a_manually_coded_dataset": 0,
+     "h1_pairs_with_a_manually_coded_dataset": 0
+    },
+    "address": "without_manual_dataset_coding.denominators"
+   }
+  },
+  "amended_primary_without_manual_codes.primary": {
+   "claim_records": {
+    "value": 3571,
+    "address": "primary.claim_records"
+   },
+   "verdict_rule": {
+    "value": "finite_corpus_bounds",
+    "address": "primary.verdict_rule"
+   },
+   "h2_verdict": {
+    "value": "unresolved",
+    "address": "primary.h2_verdict"
+   },
+   "h2b_verdict": {
+    "value": "unresolved",
+    "address": "primary.h2b_verdict"
+   },
+   "two_verdict_reading": {
+    "value": "neither_share_placed_on_one_side_of_one_half",
+    "address": "primary.two_verdict_reading"
+   },
+   "h2_supported_attainable": {
+    "value": false,
+    "address": "primary.h2_supported_attainable"
+   },
+   "imprecise_under_20_pairs": {
+    "value": {
+     "h1": true,
+     "h2": false
+    },
+    "address": "primary.imprecise_under_20_pairs"
+   },
+   "h1_pairs": {
+    "value": 0,
+    "address": "primary.estimates.h1_pairs"
+   },
+   "h1_pairs_agreeing": {
+    "value": 0,
+    "address": "primary.estimates.h1_pairs_agreeing"
+   },
+   "h1_pair_concordance": {
+    "value": null,
+    "address": "primary.estimates.h1_pair_concordance"
+   },
+   "h1_independent_edges": {
+    "value": 0,
+    "address": "primary.estimates.h1_independent_edges"
+   },
+   "h1_independent_edges_agreeing": {
+    "value": 0,
+    "address": "primary.estimates.h1_independent_edges_agreeing"
+   },
+   "h1_edge_concordance": {
+    "value": null,
+    "address": "primary.estimates.h1_edge_concordance"
+   },
+   "h2_multi_family_pairs": {
+    "value": 245,
+    "address": "primary.estimates.h2_multi_family_pairs"
+   },
+   "h2_known_identical": {
+    "value": 0,
+    "address": "primary.estimates.h2_known_identical"
+   },
+   "h2_known_not_identical": {
+    "value": 9,
+    "address": "primary.estimates.h2_known_not_identical"
+   },
+   "h2_unresolved": {
+    "value": 236,
+    "address": "primary.estimates.h2_unresolved"
+   },
+   "h2_lower": {
+    "value": 0.0,
+    "address": "primary.estimates.h2_lower"
+   },
+   "h2_upper": {
+    "value": 0.963265306122449,
+    "address": "primary.estimates.h2_upper"
+   },
+   "h2_complete_case": {
+    "value": 0.0,
+    "address": "primary.estimates.h2_complete_case"
+   },
+   "h2_resolvable_pairs": {
+    "value": 0,
+    "address": "primary.estimates.h2_resolvable_pairs"
+   },
+   "h2_resolvable_share": {
+    "value": 0.0,
+    "address": "primary.estimates.h2_resolvable_share"
+   },
+   "h2b_known_overlapping": {
+    "value": 8,
+    "address": "primary.estimates.h2b_known_overlapping"
+   },
+   "h2b_known_not_overlapping": {
+    "value": 5,
+    "address": "primary.estimates.h2b_known_not_overlapping"
+   },
+   "h2b_unresolved": {
+    "value": 232,
+    "address": "primary.estimates.h2b_unresolved"
+   },
+   "h2b_lower": {
+    "value": 0.0326530612244898,
+    "address": "primary.estimates.h2b_lower"
+   },
+   "h2b_upper": {
+    "value": 0.9795918367346939,
+    "address": "primary.estimates.h2b_upper"
+   },
+   "h2b_complete_case": {
+    "value": 0.6153846153846154,
+    "address": "primary.estimates.h2b_complete_case"
+   },
+   "h2_h2b_pairs_not_nested": {
+    "value": 0,
+    "address": "primary.estimates.h2_h2b_pairs_not_nested"
+   },
+   "wilson_descriptive": {
+    "value": {
+     "h1_pair_concordance": null,
+     "h2_lower": [
+      0.0,
+      0.015437374619565052
+     ],
+     "h2_upper": [
+      0.9316719213546405,
+      0.980555490732538
+     ],
+     "h2b_lower": [
+      0.01663690566134272,
+      0.06309843633000585
+     ],
+     "h2b_upper": [
+      0.9531242851355692,
+      0.991252110637501
+     ],
+     "h2_resolvable_share": [
+      0.0,
+      0.015437374619565052
+     ]
+    },
+    "address": "primary.wilson_descriptive"
+   },
+   "denominators": {
+    "value": {
+     "family_pair_records": 3109,
+     "context_unclear": 4,
+     "pairs": 2759,
+     "multi_family_pairs": 245,
+     "contradicting_pairs": 5,
+     "family_pair_records_with_a_manually_coded_dataset": 0,
+     "multi_family_pairs_with_a_manually_coded_dataset": 0,
+     "h1_pairs_with_a_manually_coded_dataset": 0
+    },
+    "address": "primary.denominators"
+   }
+  },
+  "tables_equal": true,
+  "keys_differing": [],
+  "estimates_equal": true,
+  "version_c_primary_equals_its_own_without_manual_table": true
+ },
+ "manual_dataset_coding": {
+  "amended_primary": {
+   "codes_given": 197,
+   "claim_records_with_a_manually_coded_dataset": 603
+  },
+  "originally_registered": {
+   "codes_given": 196,
+   "claim_records_with_a_manually_coded_dataset": 601
+  },
+  "amended_primary_without_manual_codes": {
+   "codes_given": 0,
+   "claim_records_with_a_manually_coded_dataset": 0
+  }
+ }
+}

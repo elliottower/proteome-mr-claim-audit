@@ -1,0 +1,62 @@
+{
+ "inputs": "/vol/02_claims_meta/stage5/2026-10-03_amended_primary_a/biology_inputs",
+ "window": "confirmatory",
+ "claim_records": 3571,
+ "resources": {
+  "ontology_edges": "/exp/verification/ontology_edges.csv",
+  "therapeutic_areas": "/exp/verification/therapeutic_areas.csv",
+  "therapeutic_area_names": "/exp/verification/therapeutic_area_names.csv",
+  "assay_lists": "/exp/verification/platform_assay_lists.csv",
+  "attachments": "/exp/verification/platform_assay_attachments.csv",
+  "author_lists": "/exp/verification/author_supplied_lists.csv",
+  "reactome": "/exp/inputs/reactome/UniProt2Reactome.txt",
+  "snapshot_estimates": "/exp/derived/epigraphdb_mrres_estimates.jsonl",
+  "protein_mapping": "/exp/verification/epigraphdb_protein_mapping.csv",
+  "trait_mapping": "/exp/verification/epigraphdb_trait_mapping.csv",
+  "locus_list": "/exp/verification/pleiotropic_loci_eldjarn2023_ST36.csv"
+ },
+ "written_utc": "2026-10-08T15:52:16+00:00",
+ "claim_records_by_class": {
+  "earlier_in_registry": 424,
+  "no_earlier_in_registry": 3145,
+  "tied_or_unknown_order": 2
+ },
+ "novelty_language_claims": 113,
+ "novelty_language_by_class": {
+  "earlier_in_registry": 9,
+  "no_earlier_in_registry": 104
+ },
+ "novelty_language_earlier_in_registry": 9,
+ "novelty_language_earlier_in_registry_share": 0.07964601769911504,
+ "wilson_descriptive": [
+  0.042466177654392596,
+  0.14446626089220418
+ ],
+ "novelty_language_tied_or_unknown_order": 0,
+ "novelty_language_related_prior_claim": 1,
+ "related_prior_claim_all_claims": 80,
+ "imprecise_under_20": false,
+ "sensitivity_claim_dates_from_registry_abstracts_only": {
+  "claim_records": 3571,
+  "claim_records_by_class": {
+   "earlier_in_registry": 424,
+   "no_earlier_in_registry": 3145,
+   "tied_or_unknown_order": 2
+  },
+  "novelty_language_claims": 113,
+  "novelty_language_by_class": {
+   "earlier_in_registry": 15,
+   "no_earlier_in_registry": 98
+  },
+  "novelty_language_earlier_in_registry": 15,
+  "novelty_language_earlier_in_registry_share": 0.13274336283185842,
+  "wilson_descriptive": [
+   0.08212224799065314,
+   0.2075134614763735
+  ],
+  "novelty_language_tied_or_unknown_order": 0,
+  "novelty_language_related_prior_claim": 2,
+  "related_prior_claim_all_claims": 83,
+  "imprecise_under_20": false
+ }
+}

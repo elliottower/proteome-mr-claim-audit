@@ -1,0 +1,213 @@
+{
+ "inputs": "/vol/02_claims_meta/stage5/2026-10-03_amended_primary_a/biology_inputs",
+ "window": "confirmatory",
+ "claim_records": 3571,
+ "resources": {
+  "ontology_edges": "/exp/verification/ontology_edges.csv",
+  "therapeutic_areas": "/exp/verification/therapeutic_areas.csv",
+  "therapeutic_area_names": "/exp/verification/therapeutic_area_names.csv",
+  "assay_lists": "/exp/verification/platform_assay_lists.csv",
+  "attachments": "/exp/verification/platform_assay_attachments.csv",
+  "author_lists": "/exp/verification/author_supplied_lists.csv",
+  "reactome": "/exp/inputs/reactome/UniProt2Reactome.txt",
+  "snapshot_estimates": "/exp/derived/epigraphdb_mrres_estimates.jsonl",
+  "protein_mapping": "/exp/verification/epigraphdb_protein_mapping.csv",
+  "trait_mapping": "/exp/verification/epigraphdb_trait_mapping.csv",
+  "locus_list": "/exp/verification/pleiotropic_loci_eldjarn2023_ST36.csv"
+ },
+ "written_utc": "2026-10-08T15:53:27+00:00",
+ "hierarchy_relations": 86,
+ "hierarchy_relations_by_distance": {
+  "1": 34,
+  "2": 17,
+  "3": 11,
+  "4": 11,
+  "5": 11,
+  "6": 1,
+  "7": 1
+ },
+ "pair_families": {
+  "anchors": 2759,
+  "anchors_with_a_one_step_relative": 66,
+  "pair_family_sizes": {
+   "1": 2693,
+   "2": 64,
+   "3": 2
+  },
+  "denominators": {
+   "family_pair_records": 3157,
+   "by_direction": {
+    "unresolved": 2571,
+    "raises": 301,
+    "nonsignificant_only": 49,
+    "lowers": 233,
+    "raises_with_nonsignificant": 2,
+    "mixed": 1
+   },
+   "context_unclear": 4,
+   "pairs": 2759,
+   "multi_family_pairs": 276,
+   "contradicting_pairs": 5,
+   "family_pair_records_with_a_manually_coded_dataset": 523,
+   "multi_family_pairs_with_a_manually_coded_dataset": 97,
+   "h1_pairs_with_a_manually_coded_dataset": 0
+  },
+  "estimates": {
+   "h1_pairs": 0,
+   "h1_pairs_agreeing": 0,
+   "h1_pair_concordance": null,
+   "h1_independent_edges": 0,
+   "h1_independent_edges_agreeing": 0,
+   "h1_edge_concordance": null,
+   "liu_analogue_pairs": 21,
+   "liu_analogue_tiers": {
+    "high": 16,
+    "discordant": 5
+   },
+   "liu_analogue_share_not_discordant": 0.7619047619047619,
+   "h2_multi_family_pairs": 276,
+   "h2_known_identical": 0,
+   "h2_known_not_identical": 12,
+   "h2_unresolved": 264,
+   "h2_lower": 0.0,
+   "h2_upper": 0.9565217391304348,
+   "h2_complete_case": 0.0,
+   "h2_resolvable_pairs": 0,
+   "h2_resolvable_share": 0.0,
+   "h2b_known_overlapping": 8,
+   "h2b_known_not_overlapping": 6,
+   "h2b_unresolved": 262,
+   "h2b_lower": 0.028985507246376812,
+   "h2b_upper": 0.9782608695652174,
+   "h2b_complete_case": 0.5714285714285714,
+   "h2_h2b_pairs_not_nested": 0
+  },
+  "wilson_descriptive": {
+   "h1_pair_concordance": null,
+   "h2_lower": [
+    8.673617379884035e-19,
+    0.01372726842149399
+   ],
+   "h2_upper": [
+    0.9255535049147839,
+    0.9749563804395042
+   ],
+   "h2b_lower": [
+    0.014759111837320683,
+    0.05614338740031858
+   ],
+   "h2b_upper": [
+    0.9533917321355978,
+    0.9899995763307992
+   ],
+   "h2_resolvable_share": [
+    8.673617379884035e-19,
+    0.01372726842149399
+   ]
+  },
+  "verdict_rule": "finite_corpus_bounds",
+  "h2_verdict": "unresolved",
+  "h2b_verdict": "unresolved",
+  "two_verdict_reading": "neither_share_placed_on_one_side_of_one_half",
+  "h2_supported_attainable": false,
+  "resampling_stability": [
+   "pair_bootstrap",
+   "protein_cluster_bootstrap",
+   "family_jackknife"
+  ],
+  "pair_bootstrap": {
+   "replicates": 10000,
+   "seed": 20261001,
+   "percentile_method": "inverted_cdf",
+   "h2_lower": [
+    0.0,
+    0.0
+   ],
+   "h2_upper": [
+    0.9311594202898551,
+    0.9782608695652174
+   ],
+   "h2b_lower": [
+    0.010869565217391304,
+    0.050724637681159424
+   ],
+   "h2b_upper": [
+    0.9601449275362319,
+    0.9927536231884058
+   ],
+   "h2_resolvable_share": [
+    0.0,
+    0.0
+   ]
+  },
+  "protein_cluster_bootstrap": {
+   "replicates": 10000,
+   "seed": [
+    20261001,
+    1
+   ],
+   "unit": "protein",
+   "percentile_method": "inverted_cdf",
+   "h2_proteins": 213,
+   "h2_lower": [
+    0.0,
+    0.0
+   ],
+   "h2_upper": [
+    0.9295774647887324,
+    0.9801324503311258
+   ],
+   "h2b_lower": [
+    0.010752688172043012,
+    0.05019305019305019
+   ],
+   "h2b_upper": [
+    0.9568345323741008,
+    0.9962406015037594
+   ]
+  },
+  "family_jackknife": {
+   "h1_pair_concordance": null,
+   "h1_edge_concordance": null,
+   "h2_lower": {
+    "min": 0.0,
+    "min_when_dropping": "30998689",
+    "max": 0.0,
+    "max_when_dropping": "W7127634741",
+    "n_deletions": 732
+   },
+   "h2_upper": {
+    "min": 0.9548872180451128,
+    "min_when_dropping": "37212950",
+    "max": 0.9745454545454545,
+    "max_when_dropping": "W4390198428",
+    "n_deletions": 732
+   },
+   "h2b_lower": {
+    "min": 0.0,
+    "min_when_dropping": "41142151",
+    "max": 0.03007518796992481,
+    "max_when_dropping": "37212950",
+    "n_deletions": 732
+   },
+   "h2b_upper": {
+    "min": 0.9774436090225563,
+    "min_when_dropping": "37212950",
+    "max": 0.9927272727272727,
+    "max_when_dropping": "W4390198428",
+    "n_deletions": 732
+   },
+   "h2_resolvable_share": {
+    "min": 0.0,
+    "min_when_dropping": "30998689",
+    "max": 0.0,
+    "max_when_dropping": "W7127634741",
+    "n_deletions": 732
+   }
+  },
+  "imprecise_under_20_pairs": {
+   "h1": true,
+   "h2": false
+  }
+ }
+}
