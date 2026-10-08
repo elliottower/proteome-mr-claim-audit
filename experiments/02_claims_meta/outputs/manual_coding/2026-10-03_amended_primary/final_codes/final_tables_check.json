@@ -1,0 +1,65 @@
+{
+ "written_utc": "2026-10-08T12:16:31+00:00",
+ "first_run_registered_table_sha256": "d580e9f41317fdf9d0a984b7575eda397db84f431ea516f29ee934c076131740",
+ "first_run_codes": 196,
+ "queues": {
+  "amended_primary": {
+   "queue_rows": 876,
+   "a": {
+    "file": "manual_dataset_codes.csv",
+    "sha256": "682dfba6c2bfe10c46b918ffd79f69f334a6e6ecea3bda32d42c686320044287",
+    "codes": 197,
+    "first_run_rows_identical_to_the_committed_table": 872,
+    "first_run_codes_carried_unchanged": true,
+    "codes_new": 1
+   },
+   "b": {
+    "file": "manual_dataset_codes_author_marked_only.csv",
+    "sha256": "13b5ca55ad30fdbc7311737b00ce166661ebe95052b1d750f0ed403ab3ae16ac",
+    "codes": 125,
+    "subset_of_a_with_equal_codes": true
+   },
+   "c": {
+    "file": "manual_dataset_codes_none.csv",
+    "sha256": "2ceb93233749b429aa1dc13e62db1c31e1b9d722199c60bff6816e1b6d03b37c",
+    "codes": 0,
+    "subset_of_a_with_equal_codes": true
+   },
+   "four_categories": {
+    "coded": 197,
+    "release_not_identified": 436,
+    "dataset_absent_from_dictionary": 228,
+    "conflicting_identifiers": 15
+   }
+  },
+  "registered_with_27": {
+   "queue_rows": 873,
+   "a": {
+    "file": "manual_dataset_codes.csv",
+    "sha256": "d8332c0a9c88a577de35203c58edd7728450d19289b3e4f48430550e47a94430",
+    "codes": 196,
+    "first_run_rows_identical_to_the_committed_table": 872,
+    "first_run_codes_carried_unchanged": true,
+    "codes_new": 0
+   },
+   "b": {
+    "file": "manual_dataset_codes_author_marked_only.csv",
+    "sha256": "ba245f2713cce305c401112a9f56cb667a6b61adddb43a2a76ab2acc8e4c55f8",
+    "codes": 124,
+    "subset_of_a_with_equal_codes": true
+   },
+   "c": {
+    "file": "manual_dataset_codes_none.csv",
+    "sha256": "b4dd451c57d58231d5b66202d7b85822b8c2e5e7e2fcf87e452bd2fc394a1f20",
+    "codes": 0,
+    "subset_of_a_with_equal_codes": true
+   },
+   "four_categories": {
+    "coded": 196,
+    "release_not_identified": 436,
+    "dataset_absent_from_dictionary": 226,
+    "conflicting_identifiers": 15
+   }
+  }
+ }
+}

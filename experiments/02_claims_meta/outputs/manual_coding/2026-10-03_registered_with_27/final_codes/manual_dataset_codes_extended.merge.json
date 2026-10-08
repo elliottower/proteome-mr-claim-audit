@@ -1,0 +1,27 @@
+{
+ "inputs_sha256": {
+  "outputs/manual_coding/2026-10-03/manual_dataset_codes_extended_9_second_look_save2.csv": "366693b14104ad0a326bd512a7553a5ddde2f4d0230fd233e7a9d82f8fa3f3cd",
+  "outputs/manual_coding/2026-10-03_new_rows/manual_dataset_codes_extended_3_third_check.csv": "f8c63a1e188b19c4a77079b6c7007933b39aeeaf3a883f079238e7efed9bc679",
+  "outputs/manual_coding/2026-10-03_registered_with_27/manual_coding_queue.csv": "83f7a4dffb93e17cf8fa26af890d11801da9f0800adb72ea230f9eeef5b9e87c"
+ },
+ "rows": 873,
+ "rows_of_the_first_run": 872,
+ "new_rows_in_the_queue": 1,
+ "new_rows_outside_the_queue": 3,
+ "first_run_rows_carried_unchanged": true,
+ "by_status": {
+  "unresolved": 677,
+  "coded": 196
+ },
+ "unresolved_by_reason": {
+  "release_not_identified": 436,
+  "dataset_absent_from_dictionary": 226,
+  "conflicting_identifiers": 15
+ },
+ "by_third_check": {
+  "not_applicable": 677,
+  "author_confirmed": 124,
+  "machine_gate_only": 72
+ },
+ "table_sha256": "9680a80561c7872a7cb4b014dd8348af2fd0e7ac60d7135028bb9dae8047f6a7"
+}
