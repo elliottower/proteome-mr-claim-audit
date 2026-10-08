@@ -1,0 +1,40 @@
+{
+ "coded": {
+  "path": "outputs/manual_coding/2026-10-03/manual_coding_queue.csv",
+  "sha256": "b436c5bddc2f252ed4c7e143e26c63baeb2ebc613d3a7da932a4b68c2b514b35"
+ },
+ "rebuilt": {
+  "path": "outputs/manual_coding/2026-10-03_registered_with_27/manual_coding_queue.csv",
+  "sha256": "83f7a4dffb93e17cf8fa26af890d11801da9f0800adb72ea230f9eeef5b9e87c"
+ },
+ "coded_passages": "None",
+ "rebuilt_passages": "None",
+ "coded_rows": 872,
+ "rebuilt_rows": 873,
+ "passages_in_the_hash": false,
+ "every_coded_row_present": true,
+ "every_coded_row_unchanged": true,
+ "no_duplicate_rows": true,
+ "coded_rows_missing": [],
+ "coded_rows_changed": [],
+ "coded_rows_whose_claim_record_count_changed": 0,
+ "new_rows": 1,
+ "new_rows_by_side": {
+  "outcome": 1
+ },
+ "new_rows_by_state": {
+  "release_ambiguous": 1
+ },
+ "new_rows_papers": 1,
+ "new_rows_papers_already_in_the_coded_queue": 0,
+ "new_rows_list": [
+  {
+   "record_id": "39974404",
+   "side": "outcome",
+   "name_as_written": "FinnGen",
+   "mapping_state": "release_ambiguous",
+   "paper_already_in_the_coded_queue": false
+  }
+ ],
+ "holds": true
+}

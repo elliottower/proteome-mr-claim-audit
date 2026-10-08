@@ -1,0 +1,62 @@
+{
+ "coded": {
+  "path": "outputs/manual_coding/2026-10-03/manual_coding_queue.csv",
+  "sha256": "b436c5bddc2f252ed4c7e143e26c63baeb2ebc613d3a7da932a4b68c2b514b35"
+ },
+ "rebuilt": {
+  "path": "outputs/manual_coding/2026-10-03_amended_primary/manual_coding_queue.csv",
+  "sha256": "4b93086fadfa21f32a1d20604173f16230a22dc71143f11aeecd98dcdb4518a2"
+ },
+ "coded_passages": "outputs/manual_coding/2026-10-03/passages",
+ "rebuilt_passages": "outputs/manual_coding/2026-10-03_amended_primary/passages_row_hash_check",
+ "coded_rows": 872,
+ "rebuilt_rows": 876,
+ "passages_in_the_hash": true,
+ "every_coded_row_present": true,
+ "every_coded_row_unchanged": true,
+ "no_duplicate_rows": true,
+ "coded_rows_missing": [],
+ "coded_rows_changed": [],
+ "coded_rows_whose_claim_record_count_changed": 4,
+ "new_rows": 4,
+ "new_rows_by_side": {
+  "outcome": 4
+ },
+ "new_rows_by_state": {
+  "release_ambiguous": 3,
+  "unmatched": 1
+ },
+ "new_rows_papers": 3,
+ "new_rows_papers_already_in_the_coded_queue": 0,
+ "new_rows_list": [
+  {
+   "record_id": "39974404",
+   "side": "outcome",
+   "name_as_written": "FinnGen",
+   "mapping_state": "release_ambiguous",
+   "paper_already_in_the_coded_queue": false
+  },
+  {
+   "record_id": "41821112",
+   "side": "outcome",
+   "name_as_written": "UKB",
+   "mapping_state": "release_ambiguous",
+   "paper_already_in_the_coded_queue": false
+  },
+  {
+   "record_id": "W4388600439",
+   "side": "outcome",
+   "name_as_written": "Mass General Brigham Biobank",
+   "mapping_state": "unmatched",
+   "paper_already_in_the_coded_queue": false
+  },
+  {
+   "record_id": "W4388600439",
+   "side": "outcome",
+   "name_as_written": "UK Biobank",
+   "mapping_state": "release_ambiguous",
+   "paper_already_in_the_coded_queue": false
+  }
+ ],
+ "holds": true
+}
