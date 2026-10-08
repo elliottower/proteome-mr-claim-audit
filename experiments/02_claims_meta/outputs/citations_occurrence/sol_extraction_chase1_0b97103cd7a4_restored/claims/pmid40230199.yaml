@@ -1,0 +1,27 @@
+source:
+  citation: pmid40230199
+  local: sources/pmid40230199.txt
+  sha256: 0afe6db791c8917cfd596e29ae892fe4b12d307f779e482e82272ee47e84c1b1
+  url: https://pubmed.ncbi.nlm.nih.gov/40230199/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: After meta-analyses of both discovery and validation cohorts, genetically proxied GLP1R agonist
+        was found to significantly associated with a decreased risk of diabetic nephropathy (OR = 0.72,
+        95%CI = 0.54-0.97, p = 0.031) and IgA nephropathy (OR = 0.58, 95%CI = 0.36-0.94, p = 0.027).
+  c001:
+    quotes:
+    - exact: After meta-analyses of both discovery and validation cohorts, genetically proxied GLP1R agonist
+        was found to significantly associated with a decreased risk of diabetic nephropathy (OR = 0.72,
+        95%CI = 0.54-0.97, p = 0.031) and IgA nephropathy (OR = 0.58, 95%CI = 0.36-0.94, p = 0.027).
+  c002:
+    quotes:
+    - exact: Two-stage network MR revealed that there was an indirect effect of GLP1R agonist on IgA nephropathy
+        through signaling lymphocytic activation molecule family member 1 (SLAMF1), with a mediated proportion
+        of 34.27% (95% CI, 1.47-67.03%, p = 0.041) of the total effect.
+  c003:
+    quotes:
+    - exact: Two-stage network MR revealed that there was an indirect effect of GLP1R agonist on IgA nephropathy
+        through signaling lymphocytic activation molecule family member 1 (SLAMF1), with a mediated proportion
+        of 34.27% (95% CI, 1.47-67.03%, p = 0.041) of the total effect.

@@ -1,0 +1,18 @@
+source:
+  citation: pmid42548648
+  local: sources/pmid42548648.txt
+  sha256: c4cadab473ad4ab65dd95ce592d83e78be4252c661ad97de3124c80bb2aeff6a
+  url: https://pubmed.ncbi.nlm.nih.gov/42548648/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: Genetically elevated circulating FXN protein was inversely associated with nephrolithiasis
+        risk (OR 0.69, 95% CI 0.56-0.84).
+  c001:
+    quotes:
+    - exact: For ureterolithiasis, higher GRHPR protein levels were protective (OR 0.81, 95% CI 0.71-0.91).
+  c002:
+    quotes:
+    - exact: In a mouse kidney stone model, Fxn expression and frataxin protein levels were decreased,
+        providing correlative in vivo support consistent with human genetic findings.

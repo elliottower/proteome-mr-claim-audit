@@ -1,0 +1,138 @@
+source:
+  citation: pmidW4388600439
+  local: sources/pmidW4388600439.txt
+  sha256: 4e315e5f6ca8993aedd77c7ba23efbdf3a61cb3ea0c56266e3f14879c346cdd2
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000-restored:
+    restored:
+      from: c000
+      notice: The quotation in this claim is the source's own text, restored by `citations restore` around
+        text the original quotation left out. It is not what the quoting party wrote; that is `original`,
+        which is not found in the source as written.
+      original: Analyses of the blood proteome suggest potential causal roles for several serum proteins,
+        including proteins involved in redox balance (glutathione synthetase; β=-0.34, SE=0.05), mTORC1
+        signalling (LAMTOR3; β=0.08, SE=0.01), and the pentose phosphate pathway (G6PE; β=0.09, SE=0.02).
+        Our analyses link several new genomic regions with DCM, and implicate redox disbalance and alternative
+        usage of (gluco)metabolic pathways as putative causal mechanisms of disease.
+      source:
+        citation: pmidW4388600439
+        local: sources/pmidW4388600439.txt
+        sha256: 4e315e5f6ca8993aedd77c7ba23efbdf3a61cb3ea0c56266e3f14879c346cdd2
+      text:
+        extractor: text
+        sha256: 4e315e5f6ca8993aedd77c7ba23efbdf3a61cb3ea0c56266e3f14879c346cdd2
+      passage:
+        start: 1963
+        end: 2437
+      omitted:
+      - start: 2247
+        end: 2257
+        tokens: 1
+        position: 37
+      fittings:
+        found: 1
+        others_contain_passage: true
+      rule:
+        name: bounded-passage
+        version: 2
+        max_omitted_tokens: 1
+        min_piece_chars: 20
+        max_fittings: 1000
+      software:
+        citations: 0.5.1
+        commit: fb89bb6104be091585f87c8d1a35aa2fd2c44b74
+    quotes:
+    - exact: Analyses of the blood proteome suggest potential causal roles for several serum proteins,
+        including proteins involved in redox balance (glutathione synthetase; β=-0.34, SE=0.05), mTORC1
+        signalling (LAMTOR3; β=0.08, SE=0.01), and the pentose phosphate pathway (G6PE; β=0.09, SE=0.02).
+        Conclusion Our analyses link several new genomic regions with DCM, and implicate redox disbalance
+        and alternative usage of (gluco)metabolic pathways as putative causal mechanisms of disease.
+  c001-restored:
+    restored:
+      from: c001
+      notice: The quotation in this claim is the source's own text, restored by `citations restore` around
+        text the original quotation left out. It is not what the quoting party wrote; that is `original`,
+        which is not found in the source as written.
+      original: Analyses of the blood proteome suggest potential causal roles for several serum proteins,
+        including proteins involved in redox balance (glutathione synthetase; β=-0.34, SE=0.05), mTORC1
+        signalling (LAMTOR3; β=0.08, SE=0.01), and the pentose phosphate pathway (G6PE; β=0.09, SE=0.02).
+        Our analyses link several new genomic regions with DCM, and implicate redox disbalance and alternative
+        usage of (gluco)metabolic pathways as putative causal mechanisms of disease.
+      source:
+        citation: pmidW4388600439
+        local: sources/pmidW4388600439.txt
+        sha256: 4e315e5f6ca8993aedd77c7ba23efbdf3a61cb3ea0c56266e3f14879c346cdd2
+      text:
+        extractor: text
+        sha256: 4e315e5f6ca8993aedd77c7ba23efbdf3a61cb3ea0c56266e3f14879c346cdd2
+      passage:
+        start: 1963
+        end: 2437
+      omitted:
+      - start: 2247
+        end: 2257
+        tokens: 1
+        position: 37
+      fittings:
+        found: 1
+        others_contain_passage: true
+      rule:
+        name: bounded-passage
+        version: 2
+        max_omitted_tokens: 1
+        min_piece_chars: 20
+        max_fittings: 1000
+      software:
+        citations: 0.5.1
+        commit: fb89bb6104be091585f87c8d1a35aa2fd2c44b74
+    quotes:
+    - exact: Analyses of the blood proteome suggest potential causal roles for several serum proteins,
+        including proteins involved in redox balance (glutathione synthetase; β=-0.34, SE=0.05), mTORC1
+        signalling (LAMTOR3; β=0.08, SE=0.01), and the pentose phosphate pathway (G6PE; β=0.09, SE=0.02).
+        Conclusion Our analyses link several new genomic regions with DCM, and implicate redox disbalance
+        and alternative usage of (gluco)metabolic pathways as putative causal mechanisms of disease.
+  c002-restored:
+    restored:
+      from: c002
+      notice: The quotation in this claim is the source's own text, restored by `citations restore` around
+        text the original quotation left out. It is not what the quoting party wrote; that is `original`,
+        which is not found in the source as written.
+      original: Analyses of the blood proteome suggest potential causal roles for several serum proteins,
+        including proteins involved in redox balance (glutathione synthetase; β=-0.34, SE=0.05), mTORC1
+        signalling (LAMTOR3; β=0.08, SE=0.01), and the pentose phosphate pathway (G6PE; β=0.09, SE=0.02).
+        Our analyses link several new genomic regions with DCM, and implicate redox disbalance and alternative
+        usage of (gluco)metabolic pathways as putative causal mechanisms of disease.
+      source:
+        citation: pmidW4388600439
+        local: sources/pmidW4388600439.txt
+        sha256: 4e315e5f6ca8993aedd77c7ba23efbdf3a61cb3ea0c56266e3f14879c346cdd2
+      text:
+        extractor: text
+        sha256: 4e315e5f6ca8993aedd77c7ba23efbdf3a61cb3ea0c56266e3f14879c346cdd2
+      passage:
+        start: 1963
+        end: 2437
+      omitted:
+      - start: 2247
+        end: 2257
+        tokens: 1
+        position: 37
+      fittings:
+        found: 1
+        others_contain_passage: true
+      rule:
+        name: bounded-passage
+        version: 2
+        max_omitted_tokens: 1
+        min_piece_chars: 20
+        max_fittings: 1000
+      software:
+        citations: 0.5.1
+        commit: fb89bb6104be091585f87c8d1a35aa2fd2c44b74
+    quotes:
+    - exact: Analyses of the blood proteome suggest potential causal roles for several serum proteins,
+        including proteins involved in redox balance (glutathione synthetase; β=-0.34, SE=0.05), mTORC1
+        signalling (LAMTOR3; β=0.08, SE=0.01), and the pentose phosphate pathway (G6PE; β=0.09, SE=0.02).
+        Conclusion Our analyses link several new genomic regions with DCM, and implicate redox disbalance
+        and alternative usage of (gluco)metabolic pathways as putative causal mechanisms of disease.

@@ -1,0 +1,28 @@
+source:
+  citation: pmid40898824
+  local: sources/pmid40898824.txt
+  sha256: e4a49e8d143159c4de5b92648dc4c280d68167077c72463ec0b33629c77b2f17
+  url: https://pubmed.ncbi.nlm.nih.gov/40898824/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: 'Inverse variance weighted analysis revealed that electron transport flavoprotein dehydrogenase
+        (ETFDH) inhibitors were associated with a reduced risk of IgAN (odds ratio [OR] = 0.948, 95% confidence
+        interval [CI]: 0.923-0.973, p < 0.001).'
+  c001:
+    quotes:
+    - exact: 'Synaptosome-associated protein 29 was identified as a plasma risk factor for IgAN (OR =
+        1.118, 95% CI: 1.025-1.218, p = 0.012) and negatively correlated with ETFDH inhibitor use (OR
+        = 0.775; 95% CI, 0.709-0.848; p < 0.001).'
+  c002:
+    quotes:
+    - exact: 'Synaptosome-associated protein 29 was identified as a plasma risk factor for IgAN (OR =
+        1.118, 95% CI: 1.025-1.218, p = 0.012) and negatively correlated with ETFDH inhibitor use (OR
+        = 0.775; 95% CI, 0.709-0.848; p < 0.001).'
+  c003:
+    quotes:
+    - exact: 'Synaptosome-associated protein 29 was identified as a plasma risk factor for IgAN (OR =
+        1.118, 95% CI: 1.025-1.218, p = 0.012) and negatively correlated with ETFDH inhibitor use (OR
+        = 0.775; 95% CI, 0.709-0.848; p < 0.001). This protein appeared to mediate the effects of ETFDH
+        inhibitors on the risk of IgAN (total effect: 0.054; mediation ratio: 52.524%).'

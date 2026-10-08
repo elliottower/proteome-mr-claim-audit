@@ -1,0 +1,70 @@
+{
+ "written_utc": "20261008T045639Z",
+ "label": "amended_primary_without_3",
+ "extraction_file": "sol_extraction_search_0b97103cd7a4_restored_without_3.jsonl",
+ "extraction": {
+  "bytes": 9524919,
+  "sha256": "ea38c1b5ea42f4d6c8d5bb26ae82f4875945e50ba04addb21d7e872e576936c7"
+ },
+ "script": "scripts/verify_claims_whitespace.py",
+ "command": [
+  "python",
+  "scripts/verify_claims_whitespace.py",
+  "--extraction",
+  "outputs/parsed/sol_extraction_search_0b97103cd7a4_restored_without_3.jsonl"
+ ],
+ "inputs": {
+  "citations_verify.txt": {
+   "bytes": 285,
+   "sha256": "f0d444c362ec5cc7ee733f68169cbdc2529fb75494b9f1fb3b499767de6bbdaf"
+  },
+  "span_occurrences.json": {
+   "bytes": 3539,
+   "sha256": "c16f7ecb910612c2310ca378702778dee7752e814594714ae4a31529e1d69d51"
+  },
+  "span_step_run.json": {
+   "bytes": 56121,
+   "sha256": "be03334b2ed1dccfeaea6e57064c2628ab8455a01f0ee429c0ebf1259614654b"
+  },
+  "span_summary.json": {
+   "bytes": 1754,
+   "sha256": "1dc16aefae1e6fea98ed302c7d21705d04d349a047efcfc998bc3412d5571e9f"
+  },
+  "spans.jsonl": {
+   "bytes": 5448357,
+   "sha256": "2095fd0cbcd3bde77de19a2c5b60953546547501d44c272cc549646940b54c54"
+  }
+ },
+ "outputs": {
+  "claim_checks.jsonl": {
+   "bytes": 18239489,
+   "sha256": "dc5d9e1d6a130ebfffea7c9df30580995c5247d5ec45de5b218c5c97312368a3"
+  },
+  "claim_summary.json": {
+   "bytes": 3580,
+   "sha256": "1be6990ab9ad5ad0779ab3723df445b40d8a3347c2b5e04180d0ae4b5ad75d96"
+  }
+ },
+ "environment": {
+  "python": "3.12.10",
+  "platform": "Linux-4.19.0-gvisor-x86_64-with-glibc2.36",
+  "image": "modal debian_slim, python 3.12",
+  "packages": {
+   "httpx": "0.28.1",
+   "numpy": "2.5.3",
+   "openpyxl": "3.1.5",
+   "pyarrow": "21.0.0",
+   "pydantic": "2.13.5",
+   "pypdf": "5.9.0",
+   "pytest": "8.4.2",
+   "rapidfuzz": "3.14.6",
+   "modal": "1.4.3"
+  },
+  "scripts_sha256": {
+   "scripts/verify_claims_whitespace.py": "b217f93059d0dd7cb327de0c7df8a0ecc77b5ff6e514e4c1b89659a5f8157c7d",
+   "scripts/modal_verify_claims_amended.py": "ba4514c919940fa7b58aea3ffddf432ca60a17e8ac15ee08bc43d10d1ea9037f"
+  },
+  "reference_manifest_sha256": "41def217e24c028a4efe6a6c457f6a03ea887a3556fba6a270762ba99f786347"
+ },
+ "volume_folder": "/vol/02_claims_meta/amendment02/verification/amended_primary_without_3/sol_extraction_search_0b97103cd7a4_restored_without_3"
+}

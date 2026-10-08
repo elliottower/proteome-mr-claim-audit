@@ -1,0 +1,41 @@
+source:
+  citation: pmidPPR1007333
+  local: sources/pmidPPR1007333.txt
+  sha256: 12214b2b7ef53dbbbea13f03da2b5657ed8e031dae1b3c056523c1ea858d8d34
+  url: https://europepmc.org/article/PPR/PPR1007333
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: Preliminary MR analysis identified two proteins (SPAG11B and DEFB135) associated with RA,
+        and elevated plasma levels of both proteins would reduce the risk of RA (for SPAG11B, OR =0.49,
+        95% CI =0.40-0.61, <italic>p</italic> =1.19×10<sup>-10</sup>; for DEFB135, OR =0.28, 95% CI =0.15-0.52,
+        <italic>p</italic> =4.51×10<sup>-5</sup>, using the IVW method).
+  c001:
+    quotes:
+    - exact: Preliminary MR analysis identified two proteins (SPAG11B and DEFB135) associated with RA,
+        and elevated plasma levels of both proteins would reduce the risk of RA (for SPAG11B, OR =0.49,
+        95% CI =0.40-0.61, <italic>p</italic> =1.19×10<sup>-10</sup>; for DEFB135, OR =0.28, 95% CI =0.15-0.52,
+        <italic>p</italic> =4.51×10<sup>-5</sup>, using the IVW method).
+  c002:
+    quotes:
+    - exact: Preliminary MR analysis identified two proteins (SPAG11B and DEFB135) associated with RA,
+        and elevated plasma levels of both proteins would reduce the risk of RA (for SPAG11B, OR =0.49,
+        95% CI =0.40-0.61, <italic>p</italic> =1.19×10<sup>-10</sup>; for DEFB135, OR =0.28, 95% CI =0.15-0.52,
+        <italic>p</italic> =4.51×10<sup>-5</sup>, using the IVW method). In the external validation phase,
+        the results were reproducible for SPAG11B, but not for DEFB135.
+  c003:
+    quotes:
+    - exact: Preliminary MR analysis identified two proteins (SPAG11B and DEFB135) associated with RA,
+        and elevated plasma levels of both proteins would reduce the risk of RA (for SPAG11B, OR =0.49,
+        95% CI =0.40-0.61, <italic>p</italic> =1.19×10<sup>-10</sup>; for DEFB135, OR =0.28, 95% CI =0.15-0.52,
+        <italic>p</italic> =4.51×10<sup>-5</sup>, using the IVW method). In the external validation phase,
+        the results were reproducible for SPAG11B, but not for DEFB135.
+  c004:
+    quotes:
+    - exact: Reverse MR analysis pointed out that RA exhibited reverse causality for plasma levels of
+        SPAG11B (OR=0.93, 95% CI=0.89-0.98, <italic>p</italic>=0.004), but not for DEFB135 (<italic>p</italic>=0.93).
+  c005:
+    quotes:
+    - exact: Reverse MR analysis pointed out that RA exhibited reverse causality for plasma levels of
+        SPAG11B (OR=0.93, 95% CI=0.89-0.98, <italic>p</italic>=0.004), but not for DEFB135 (<italic>p</italic>=0.93).

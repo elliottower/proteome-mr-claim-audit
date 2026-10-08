@@ -1,0 +1,135 @@
+source:
+  citation: pmid39893495
+  local: sources/pmid39893495.txt
+  sha256: 51fa0a2274ff9ee2b16a49a0121a11c486f0a883fa3555a81856960d3d00157c
+  note: abstract text exactly as sent to the extractor
+claims:
+  c003-restored:
+    restored:
+      from: c003
+      notice: The quotation in this claim is the source's own text, restored by `citations restore` around
+        text the original quotation left out. It is not what the quoting party wrote; that is `original`,
+        which is not found in the source as written.
+      original: The drug-targeted MR analysis suggests that SIGLEC12, BOLA1, HOMER2, and TPST1 all have
+        the potential to be drug target genes. This study suggests that obese patients defined by BMI
+        may promote the development of allergic asthma by influencing the expression of plasma proteins
+        such as TPST1, ROR1, and DAPK1.
+      source:
+        citation: pmid39893495
+        local: sources/pmid39893495.txt
+        sha256: 51fa0a2274ff9ee2b16a49a0121a11c486f0a883fa3555a81856960d3d00157c
+      text:
+        extractor: text
+        sha256: 51fa0a2274ff9ee2b16a49a0121a11c486f0a883fa3555a81856960d3d00157c
+      passage:
+        start: 2125
+        end: 2446
+      omitted:
+      - start: 2252
+        end: 2263
+        tokens: 1
+        position: 21
+      fittings:
+        found: 1
+        others_contain_passage: true
+      rule:
+        name: bounded-passage
+        version: 2
+        max_omitted_tokens: 1
+        min_piece_chars: 20
+        max_fittings: 1000
+      software:
+        citations: 0.5.1
+        commit: fb89bb6104be091585f87c8d1a35aa2fd2c44b74
+    quotes:
+    - exact: 'The drug-targeted MR analysis suggests that SIGLEC12, BOLA1, HOMER2, and TPST1 all have
+        the potential to be drug target genes.
+
+        CONCLUSION: This study suggests that obese patients defined by BMI may promote the development
+        of allergic asthma by influencing the expression of plasma proteins such as TPST1, ROR1, and DAPK1.'
+  c004-restored:
+    restored:
+      from: c004
+      notice: The quotation in this claim is the source's own text, restored by `citations restore` around
+        text the original quotation left out. It is not what the quoting party wrote; that is `original`,
+        which is not found in the source as written.
+      original: The drug-targeted MR analysis suggests that SIGLEC12, BOLA1, HOMER2, and TPST1 all have
+        the potential to be drug target genes. This study suggests that obese patients defined by BMI
+        may promote the development of allergic asthma by influencing the expression of plasma proteins
+        such as TPST1, ROR1, and DAPK1.
+      source:
+        citation: pmid39893495
+        local: sources/pmid39893495.txt
+        sha256: 51fa0a2274ff9ee2b16a49a0121a11c486f0a883fa3555a81856960d3d00157c
+      text:
+        extractor: text
+        sha256: 51fa0a2274ff9ee2b16a49a0121a11c486f0a883fa3555a81856960d3d00157c
+      passage:
+        start: 2125
+        end: 2446
+      omitted:
+      - start: 2252
+        end: 2263
+        tokens: 1
+        position: 21
+      fittings:
+        found: 1
+        others_contain_passage: true
+      rule:
+        name: bounded-passage
+        version: 2
+        max_omitted_tokens: 1
+        min_piece_chars: 20
+        max_fittings: 1000
+      software:
+        citations: 0.5.1
+        commit: fb89bb6104be091585f87c8d1a35aa2fd2c44b74
+    quotes:
+    - exact: 'The drug-targeted MR analysis suggests that SIGLEC12, BOLA1, HOMER2, and TPST1 all have
+        the potential to be drug target genes.
+
+        CONCLUSION: This study suggests that obese patients defined by BMI may promote the development
+        of allergic asthma by influencing the expression of plasma proteins such as TPST1, ROR1, and DAPK1.'
+  c005-restored:
+    restored:
+      from: c005
+      notice: The quotation in this claim is the source's own text, restored by `citations restore` around
+        text the original quotation left out. It is not what the quoting party wrote; that is `original`,
+        which is not found in the source as written.
+      original: The drug-targeted MR analysis suggests that SIGLEC12, BOLA1, HOMER2, and TPST1 all have
+        the potential to be drug target genes. This study suggests that obese patients defined by BMI
+        may promote the development of allergic asthma by influencing the expression of plasma proteins
+        such as TPST1, ROR1, and DAPK1.
+      source:
+        citation: pmid39893495
+        local: sources/pmid39893495.txt
+        sha256: 51fa0a2274ff9ee2b16a49a0121a11c486f0a883fa3555a81856960d3d00157c
+      text:
+        extractor: text
+        sha256: 51fa0a2274ff9ee2b16a49a0121a11c486f0a883fa3555a81856960d3d00157c
+      passage:
+        start: 2125
+        end: 2446
+      omitted:
+      - start: 2252
+        end: 2263
+        tokens: 1
+        position: 21
+      fittings:
+        found: 1
+        others_contain_passage: true
+      rule:
+        name: bounded-passage
+        version: 2
+        max_omitted_tokens: 1
+        min_piece_chars: 20
+        max_fittings: 1000
+      software:
+        citations: 0.5.1
+        commit: fb89bb6104be091585f87c8d1a35aa2fd2c44b74
+    quotes:
+    - exact: 'The drug-targeted MR analysis suggests that SIGLEC12, BOLA1, HOMER2, and TPST1 all have
+        the potential to be drug target genes.
+
+        CONCLUSION: This study suggests that obese patients defined by BMI may promote the development
+        of allergic asthma by influencing the expression of plasma proteins such as TPST1, ROR1, and DAPK1.'

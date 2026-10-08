@@ -1,0 +1,25 @@
+source:
+  citation: pmid39723341
+  local: sources/pmid39723341.txt
+  sha256: ca6fa254e9817dd9cc3f8e2dc3fe5f26a5692b529695ae39f0cc75a2b196a2c1
+  url: https://pubmed.ncbi.nlm.nih.gov/39723341/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: 'IL-18R1 on AD (OR = 1.12, 95% CI: 1.08-1.17, P FDR < 0.01).'
+  c001:
+    quotes:
+    - exact: 'HVEM on CM CD4+ cells on AD (OR = 0.81, 95% CI: 0.75-0.88, P FDR < 0.01).'
+  c002:
+    quotes:
+    - exact: 'CR2 on AD (OR = 0.81, 95% CI: 0.72-0.90, P FDR = 0.04).'
+  c003:
+    quotes:
+    - exact: 'MANSC1 on AD (OR = 0.87, 95% CI: 0.81-0.93, P FDR = 0.04).'
+  c004:
+    quotes:
+    - exact: 'IL18R1 (4097 inflammatory markers) on AD (OR = 1.11, 95% CI: 1.06-1.17, P FDR = 0.01).'
+  c005:
+    quotes:
+    - exact: 'HNRNPAB on AD (OR = 1.44, 95% CI: 1.23-1.70, P FDR < 0.01).'

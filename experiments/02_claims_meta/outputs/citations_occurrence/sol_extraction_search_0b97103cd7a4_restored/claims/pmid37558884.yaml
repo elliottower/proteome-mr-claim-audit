@@ -1,0 +1,16 @@
+source:
+  citation: pmid37558884
+  local: sources/pmid37558884.txt
+  sha256: 490419dbb346b043dd091fbe2069d013df2bd7ff19230708b8f149cbf5822758
+  url: https://pubmed.ncbi.nlm.nih.gov/37558884/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: By integrating proteomics Mendelian randomization evidence, we prioritized CD109 (cluster
+        of differentiation 109) as a gene for which heterozygous loss of function is associated with higher
+        bone density.
+  c001:
+    quotes:
+    - exact: CRISPR-Cas9 editing of CD109 in SaOS-2 osteoblast-like cell lines showed that partial CD109
+        knockdown led to increased mineralization.

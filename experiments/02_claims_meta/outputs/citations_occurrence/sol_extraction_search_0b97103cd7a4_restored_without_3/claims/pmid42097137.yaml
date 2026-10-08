@@ -1,0 +1,16 @@
+source:
+  citation: pmid42097137
+  local: sources/pmid42097137.txt
+  sha256: e39bc6067512020234d046f9422f8dca2a43c7375bf8ee8f6d64a4ec829a0933
+  url: https://pubmed.ncbi.nlm.nih.gov/42097137/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: We identify proteins as candidates for drug targets and engagement (e.g., plasma furin and
+        cardiovascular diseases) by comparing cis-based genetic evidence with protein-disease associations.
+  c001:
+    quotes:
+    - exact: Systematic triangulation of trans-protein QTLs (pQTLs) with genetic and protein associations
+        across many diseases highlights potential drug repurposing opportunities, e.g., tyrosine kinase
+        2 (TYK2) inhibitors for rheumatoid arthritis.

@@ -1,0 +1,24 @@
+{
+ "map": "outputs/span_restoration/search/repair_map.json",
+ "map_sha256": "202929da3299075a4909ba54cc86ec3e03f1cf865532e42533aea38c196b6472",
+ "sources_sha256": {
+  "outputs/span_restoration/search/tool_side/tool_side_passages.json": "d4849bd04e495adabbe9e7867b6fcbad5c69ae46cb3d13cbfd56566d880b00d3",
+  "outputs/span_restoration/tool_trial/restored_passage_sha256_round6_final.json": "be828726d6609f57f6cb0b2f4725704de545afd0b4b2edd0f5ffb91bbe05ccbf"
+ },
+ "label": "search",
+ "sources": {
+  "outputs/span_restoration/search/tool_side/tool_side_passages.json": {
+   "records_in_map": 36,
+   "records_in_source": 36,
+   "equal": 36,
+   "differing_or_missing": []
+  },
+  "outputs/span_restoration/tool_trial/restored_passage_sha256_round6_final.json": {
+   "records_in_map": 36,
+   "records_in_source": 36,
+   "equal": 36,
+   "differing_or_missing": []
+  }
+ },
+ "all_equal": true
+}

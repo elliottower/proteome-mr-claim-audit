@@ -1,0 +1,19 @@
+source:
+  citation: pmid40348582
+  local: sources/pmid40348582.txt
+  sha256: 5bc9896a500c5d9510ebf8e0f5b7e1dc5531471262aaea6fdf6982438e55b6b2
+  url: https://pubmed.ncbi.nlm.nih.gov/40348582/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: 'Two proteins were identified as causally associated with HCM risk: carbonic anhydrase 3
+        (CA3) [inverse variance weighted (IVW): odds ratio (OR) = 1.292, 95% confidence interval (CI)
+        = 1.021-1.636, P = 0.033] and serpin family E member 1 (SERPINE1) [IVW: OR = 1.313, 95% CI = 1.063-1.621,
+        P = 0.011].'
+  c001:
+    quotes:
+    - exact: 'Two proteins were identified as causally associated with HCM risk: carbonic anhydrase 3
+        (CA3) [inverse variance weighted (IVW): odds ratio (OR) = 1.292, 95% confidence interval (CI)
+        = 1.021-1.636, P = 0.033] and serpin family E member 1 (SERPINE1) [IVW: OR = 1.313, 95% CI = 1.063-1.621,
+        P = 0.011].'

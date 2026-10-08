@@ -1,0 +1,34 @@
+source:
+  citation: pmid42499219
+  local: sources/pmid42499219.txt
+  sha256: 24645614cc1f8644a7cb4ee78362b97bafeea0ca221ea3f167a719bd7d7140c5
+  url: https://pubmed.ncbi.nlm.nih.gov/42499219/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: 'We performed two-sample Mendelian randomization (MR) using cis-pQTL instruments for 2923
+        plasma proteins from the UK Biobank Pharma Proteomics Project against HS summary statistics from
+        FinnGen R12. Following multiple-testing correction and Bayesian colocalization with a prior-sensitivity
+        grid, the intersection of false-discovery rate (FDR)-significant MR with colocalization evidence
+        (PP.H4 ≥ 0.5) yielded three putative protective candidates: TNFRSF6B (OR = 0.748, 95% CI 0.666-0.840;
+        PP.H4 = 0.648), FCRL2 (OR = 0.896, 95% CI 0.819-0.979; PP.H4 = 0.550), and APOD (OR = 0.789, 95%
+        CI 0.647-0.963; PP.H4 = 0.503).'
+  c001:
+    quotes:
+    - exact: 'We performed two-sample Mendelian randomization (MR) using cis-pQTL instruments for 2923
+        plasma proteins from the UK Biobank Pharma Proteomics Project against HS summary statistics from
+        FinnGen R12. Following multiple-testing correction and Bayesian colocalization with a prior-sensitivity
+        grid, the intersection of false-discovery rate (FDR)-significant MR with colocalization evidence
+        (PP.H4 ≥ 0.5) yielded three putative protective candidates: TNFRSF6B (OR = 0.748, 95% CI 0.666-0.840;
+        PP.H4 = 0.648), FCRL2 (OR = 0.896, 95% CI 0.819-0.979; PP.H4 = 0.550), and APOD (OR = 0.789, 95%
+        CI 0.647-0.963; PP.H4 = 0.503).'
+  c002:
+    quotes:
+    - exact: 'We performed two-sample Mendelian randomization (MR) using cis-pQTL instruments for 2923
+        plasma proteins from the UK Biobank Pharma Proteomics Project against HS summary statistics from
+        FinnGen R12. Following multiple-testing correction and Bayesian colocalization with a prior-sensitivity
+        grid, the intersection of false-discovery rate (FDR)-significant MR with colocalization evidence
+        (PP.H4 ≥ 0.5) yielded three putative protective candidates: TNFRSF6B (OR = 0.748, 95% CI 0.666-0.840;
+        PP.H4 = 0.648), FCRL2 (OR = 0.896, 95% CI 0.819-0.979; PP.H4 = 0.550), and APOD (OR = 0.789, 95%
+        CI 0.647-0.963; PP.H4 = 0.503).'

@@ -1,0 +1,24 @@
+source:
+  citation: pmid42629664
+  local: sources/pmid42629664.txt
+  sha256: 4c43cab1af7734c1586be79ff1d76c457abee9a0145b381be453ee5c9be594f1
+  url: https://pubmed.ncbi.nlm.nih.gov/42629664/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: Furthermore, genetically predicted higher levels of the CD40L receptor (CD40) were associated
+        with a reduced risk of asthma (odds ratio = 0.939, 95% confidence interval = 0.906-0.974, P =
+        7.52 × 10-4, adjustP = .068).
+  c001:
+    quotes:
+    - exact: In exploratory mediation analyses, Fractalkine (CX3CL1) was found to potentially mediate
+        the genetically predicted association between the genus Flavonifractor and AR (mediated proportion
+        18.5%; P = .024), and CD40 potentially mediated the genetically predicted association between
+        the species Ruminococcus obeum and asthma (mediated proportion 11.02%; P = .046).
+  c002:
+    quotes:
+    - exact: In exploratory mediation analyses, Fractalkine (CX3CL1) was found to potentially mediate
+        the genetically predicted association between the genus Flavonifractor and AR (mediated proportion
+        18.5%; P = .024), and CD40 potentially mediated the genetically predicted association between
+        the species Ruminococcus obeum and asthma (mediated proportion 11.02%; P = .046).

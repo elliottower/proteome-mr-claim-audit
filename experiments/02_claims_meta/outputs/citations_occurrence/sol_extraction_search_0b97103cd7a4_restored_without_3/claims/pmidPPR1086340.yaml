@@ -1,0 +1,11 @@
+source:
+  citation: pmidPPR1086340
+  local: sources/pmidPPR1086340.txt
+  sha256: 3ae646905a75b34e1f04a1b00d71a385dd183eff0766e1d2bf6f0795f4b2f578
+  url: https://europepmc.org/article/PPR/PPR1086340
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: 'MR identified APOE as causally protective against LBP (OR = 0.86, 95% CI: 0.81–0.91, P =
+        5.12×10⁻⁷).'

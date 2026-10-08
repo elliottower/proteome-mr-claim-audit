@@ -1,0 +1,86 @@
+source:
+  citation: pmid37809092
+  local: sources/pmid37809092.txt
+  sha256: 454a40d44c355a76ed251a818060400044d0b378ce87c7a82a77e8d6a41d2356
+  note: abstract text exactly as sent to the extractor
+claims:
+  c007-restored:
+    restored:
+      from: c007
+      notice: The quotation in this claim is the source's own text, restored by `citations restore` around
+        text the original quotation left out. It is not what the quoting party wrote; that is `original`,
+        which is not found in the source as written.
+      original: IL1R1 and PDLIM4 were validated in two replication cohorts. Our integrative analysis revealed
+        that asthma risk is causally affected by the levels of IL1R1, ECM1, and PDLIM4.
+      source:
+        citation: pmid37809092
+        local: sources/pmid37809092.txt
+        sha256: 454a40d44c355a76ed251a818060400044d0b378ce87c7a82a77e8d6a41d2356
+      text:
+        extractor: text
+        sha256: 454a40d44c355a76ed251a818060400044d0b378ce87c7a82a77e8d6a41d2356
+      passage:
+        start: 1981
+        end: 2166
+      omitted:
+      - start: 2041
+        end: 2052
+        tokens: 1
+        position: 10
+      fittings:
+        found: 1
+        others_contain_passage: true
+      rule:
+        name: bounded-passage
+        version: 2
+        max_omitted_tokens: 1
+        min_piece_chars: 20
+        max_fittings: 1000
+      software:
+        citations: 0.5.1
+        commit: fb89bb6104be091585f87c8d1a35aa2fd2c44b74
+    quotes:
+    - exact: 'IL1R1 and PDLIM4 were validated in two replication cohorts.
+
+        CONCLUSION: Our integrative analysis revealed that asthma risk is causally affected by the levels
+        of IL1R1, ECM1, and PDLIM4.'
+  c008-restored:
+    restored:
+      from: c008
+      notice: The quotation in this claim is the source's own text, restored by `citations restore` around
+        text the original quotation left out. It is not what the quoting party wrote; that is `original`,
+        which is not found in the source as written.
+      original: IL1R1 and PDLIM4 were validated in two replication cohorts. Our integrative analysis revealed
+        that asthma risk is causally affected by the levels of IL1R1, ECM1, and PDLIM4.
+      source:
+        citation: pmid37809092
+        local: sources/pmid37809092.txt
+        sha256: 454a40d44c355a76ed251a818060400044d0b378ce87c7a82a77e8d6a41d2356
+      text:
+        extractor: text
+        sha256: 454a40d44c355a76ed251a818060400044d0b378ce87c7a82a77e8d6a41d2356
+      passage:
+        start: 1981
+        end: 2166
+      omitted:
+      - start: 2041
+        end: 2052
+        tokens: 1
+        position: 10
+      fittings:
+        found: 1
+        others_contain_passage: true
+      rule:
+        name: bounded-passage
+        version: 2
+        max_omitted_tokens: 1
+        min_piece_chars: 20
+        max_fittings: 1000
+      software:
+        citations: 0.5.1
+        commit: fb89bb6104be091585f87c8d1a35aa2fd2c44b74
+    quotes:
+    - exact: 'IL1R1 and PDLIM4 were validated in two replication cohorts.
+
+        CONCLUSION: Our integrative analysis revealed that asthma risk is causally affected by the levels
+        of IL1R1, ECM1, and PDLIM4.'

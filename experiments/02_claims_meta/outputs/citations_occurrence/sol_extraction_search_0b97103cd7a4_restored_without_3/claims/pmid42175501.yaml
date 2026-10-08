@@ -1,0 +1,16 @@
+source:
+  citation: pmid42175501
+  local: sources/pmid42175501.txt
+  sha256: bea006691ba824045392405c4124f6334d158b9180261cde2d4894bc77710a10
+  url: https://pubmed.ncbi.nlm.nih.gov/42175501/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: We identified 43 druggable proteins associated with sepsis, with B3GALT6 emerging as a key
+        player (P = 5.24E-06).
+  c001:
+    quotes:
+    - exact: Bioinformatics analyses demonstrated that B3GALT6 expression was significantly lower in sepsis
+        patients compared to healthy controls across multiple datasets (P < .001), suggesting its potential
+        utility as a diagnostic biomarker.

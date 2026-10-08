@@ -1,0 +1,132 @@
+source:
+  citation: pmidPPR1270935
+  local: sources/pmidPPR1270935.txt
+  sha256: b04e46dbbe4b84f7ca971e943b8f087f399b3308517adbdd9fd1074f1ca48c0d
+  note: abstract text exactly as sent to the extractor
+claims:
+  c013-restored:
+    restored:
+      from: c013
+      notice: The quotation in this claim is the source's own text, restored by `citations restore` around
+        text the original quotation left out. It is not what the quoting party wrote; that is `original`,
+        which is not found in the source as written.
+      original: Finally, we prioritized 27 druggable targets, with genetic evidence highlighting AGRN,
+        CLU, and DDR1 as high-confidence candidates for therapeutic intervention. This study delineates
+        causal proteomic landscape of IPAH, bridging epidemiological associations with genetically supported
+        targets.
+      source:
+        citation: pmidPPR1270935
+        local: sources/pmidPPR1270935.txt
+        sha256: b04e46dbbe4b84f7ca971e943b8f087f399b3308517adbdd9fd1074f1ca48c0d
+      text:
+        extractor: text
+        sha256: b04e46dbbe4b84f7ca971e943b8f087f399b3308517adbdd9fd1074f1ca48c0d
+      passage:
+        start: 1820
+        end: 2134
+      omitted:
+      - start: 1981
+        end: 2002
+        tokens: 1
+        position: 21
+      fittings:
+        found: 1
+        others_contain_passage: true
+      rule:
+        name: bounded-passage
+        version: 2
+        max_omitted_tokens: 1
+        min_piece_chars: 20
+        max_fittings: 1000
+      software:
+        citations: 0.5.1
+        commit: fb89bb6104be091585f87c8d1a35aa2fd2c44b74
+    quotes:
+    - exact: Finally, we prioritized 27 druggable targets, with genetic evidence highlighting AGRN, CLU,
+        and DDR1 as high-confidence candidates for therapeutic intervention. <h4>Conclusions:</h4> This
+        study delineates causal proteomic landscape of IPAH, bridging epidemiological associations with
+        genetically supported targets.
+  c014-restored:
+    restored:
+      from: c014
+      notice: The quotation in this claim is the source's own text, restored by `citations restore` around
+        text the original quotation left out. It is not what the quoting party wrote; that is `original`,
+        which is not found in the source as written.
+      original: Finally, we prioritized 27 druggable targets, with genetic evidence highlighting AGRN,
+        CLU, and DDR1 as high-confidence candidates for therapeutic intervention. This study delineates
+        causal proteomic landscape of IPAH, bridging epidemiological associations with genetically supported
+        targets.
+      source:
+        citation: pmidPPR1270935
+        local: sources/pmidPPR1270935.txt
+        sha256: b04e46dbbe4b84f7ca971e943b8f087f399b3308517adbdd9fd1074f1ca48c0d
+      text:
+        extractor: text
+        sha256: b04e46dbbe4b84f7ca971e943b8f087f399b3308517adbdd9fd1074f1ca48c0d
+      passage:
+        start: 1820
+        end: 2134
+      omitted:
+      - start: 1981
+        end: 2002
+        tokens: 1
+        position: 21
+      fittings:
+        found: 1
+        others_contain_passage: true
+      rule:
+        name: bounded-passage
+        version: 2
+        max_omitted_tokens: 1
+        min_piece_chars: 20
+        max_fittings: 1000
+      software:
+        citations: 0.5.1
+        commit: fb89bb6104be091585f87c8d1a35aa2fd2c44b74
+    quotes:
+    - exact: Finally, we prioritized 27 druggable targets, with genetic evidence highlighting AGRN, CLU,
+        and DDR1 as high-confidence candidates for therapeutic intervention. <h4>Conclusions:</h4> This
+        study delineates causal proteomic landscape of IPAH, bridging epidemiological associations with
+        genetically supported targets.
+  c015-restored:
+    restored:
+      from: c015
+      notice: The quotation in this claim is the source's own text, restored by `citations restore` around
+        text the original quotation left out. It is not what the quoting party wrote; that is `original`,
+        which is not found in the source as written.
+      original: Finally, we prioritized 27 druggable targets, with genetic evidence highlighting AGRN,
+        CLU, and DDR1 as high-confidence candidates for therapeutic intervention. This study delineates
+        causal proteomic landscape of IPAH, bridging epidemiological associations with genetically supported
+        targets.
+      source:
+        citation: pmidPPR1270935
+        local: sources/pmidPPR1270935.txt
+        sha256: b04e46dbbe4b84f7ca971e943b8f087f399b3308517adbdd9fd1074f1ca48c0d
+      text:
+        extractor: text
+        sha256: b04e46dbbe4b84f7ca971e943b8f087f399b3308517adbdd9fd1074f1ca48c0d
+      passage:
+        start: 1820
+        end: 2134
+      omitted:
+      - start: 1981
+        end: 2002
+        tokens: 1
+        position: 21
+      fittings:
+        found: 1
+        others_contain_passage: true
+      rule:
+        name: bounded-passage
+        version: 2
+        max_omitted_tokens: 1
+        min_piece_chars: 20
+        max_fittings: 1000
+      software:
+        citations: 0.5.1
+        commit: fb89bb6104be091585f87c8d1a35aa2fd2c44b74
+    quotes:
+    - exact: Finally, we prioritized 27 druggable targets, with genetic evidence highlighting AGRN, CLU,
+        and DDR1 as high-confidence candidates for therapeutic intervention. <h4>Conclusions:</h4> This
+        study delineates causal proteomic landscape of IPAH, bridging epidemiological associations with
+        genetically supported targets.

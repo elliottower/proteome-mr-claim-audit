@@ -1,0 +1,15 @@
+source:
+  citation: pmid41192836
+  local: sources/pmid41192836.txt
+  sha256: 76c0040c9203c50df2c93640a69c726cc0a98dc04abd73d67be7124f9828c94b
+  url: https://pubmed.ncbi.nlm.nih.gov/41192836/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: Our proteome-wide analysis revealed R-spondin 3 (RSPO3) as a potent causal risk factor for
+        KL development.
+  c001:
+    quotes:
+    - exact: These findings were corroborated at the tissue level, where RSPO3 expression was significantly
+        upregulated specifically in KL-derived fibroblasts.

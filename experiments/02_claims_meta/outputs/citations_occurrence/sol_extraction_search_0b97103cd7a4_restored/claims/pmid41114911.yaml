@@ -1,0 +1,17 @@
+source:
+  citation: pmid41114911
+  local: sources/pmid41114911.txt
+  sha256: d8d45d767d4530b00c7696c689d9041385b310becef4db26995a54801fb32922
+  url: https://pubmed.ncbi.nlm.nih.gov/41114911/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: 'MR causally linked PDL-derived molecular changes to CD40+ monocyte dynamics: LBH (OR = 0.860,
+        P = 0.019) reduced CD40+ monocyte prevalence, while COL2A1 (OR = 1.115-1.133, P = 0.010) elevated
+        CD40 expression in monocytes.'
+  c001:
+    quotes:
+    - exact: 'MR causally linked PDL-derived molecular changes to CD40+ monocyte dynamics: LBH (OR = 0.860,
+        P = 0.019) reduced CD40+ monocyte prevalence, while COL2A1 (OR = 1.115-1.133, P = 0.010) elevated
+        CD40 expression in monocytes.'

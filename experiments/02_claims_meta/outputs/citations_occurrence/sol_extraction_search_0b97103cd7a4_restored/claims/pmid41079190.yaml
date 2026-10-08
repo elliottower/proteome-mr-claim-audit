@@ -1,0 +1,19 @@
+source:
+  citation: pmid41079190
+  local: sources/pmid41079190.txt
+  sha256: 787622cd080516c924924ce9f14f3b87c59862fdc1f6aa1491976dd8bf382abd
+  url: https://pubmed.ncbi.nlm.nih.gov/41079190/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: After more rigorous pQTL screening and multiple testing corrections, it was found that Noggin
+        (NOG) protein has a significant negative causal relationship with the risk of DR (p.adjust < 0.05),
+        meaning that higher NOG protein levels may reduce the risk of disease.
+  c001:
+    quotes:
+    - exact: After more rigorous pQTL screening and multiple testing corrections, it was found that Noggin
+        (NOG) protein has a significant negative causal relationship with the risk of DR (p.adjust < 0.05),
+        meaning that higher NOG protein levels may reduce the risk of disease. All sensitivity analyses
+        supported the robustness of this result (no heterogeneity, no pleiotropy), and SMR and colocalization
+        analyses (PP.H4 > 0.8) further confirmed this causal association.

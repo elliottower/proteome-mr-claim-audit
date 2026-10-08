@@ -1,0 +1,26 @@
+source:
+  citation: pmid42533613
+  local: sources/pmid42533613.txt
+  sha256: 485d6245a3836aa9fa45306e924dfd1c9dfc6b92f0d6318f9f2db92c84fbaf25
+  url: https://pubmed.ncbi.nlm.nih.gov/42533613/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: Both observational and MR analyses confirmed a positive dose-dependent relationship between
+        body mass index and gout (odds ratio = 1.97; 95% confidence interval = 1.41, 2.75). Among 113
+        screened druggable genes, toll-like receptor 4 (TLR4) emerged as a genetically supported candidate
+        mediator, with colocalisation indicating shared causal variants for both traits (posterior probability
+        >0.75).
+  c001:
+    quotes:
+    - exact: Both observational and MR analyses confirmed a positive dose-dependent relationship between
+        body mass index and gout (odds ratio = 1.97; 95% confidence interval = 1.41, 2.75). Among 113
+        screened druggable genes, toll-like receptor 4 (TLR4) emerged as a genetically supported candidate
+        mediator, with colocalisation indicating shared causal variants for both traits (posterior probability
+        >0.75).
+  c002:
+    quotes:
+    - exact: Network analysis positioned TLR4 as a central hub in innate immune and metabolic inflammatory
+        pathways, and multivariable MR indicated a BMI-independent effect of TLR4 on gout risk (β = 0.23,
+        P = 0.011).

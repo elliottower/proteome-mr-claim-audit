@@ -1,0 +1,25 @@
+source:
+  citation: pmid40859530
+  local: sources/pmid40859530.txt
+  sha256: c58fb5a6447d4b77744c4c1e7b45beee5a0b943f5ba6a729db4197750f930ebe
+  url: https://pubmed.ncbi.nlm.nih.gov/40859530/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: This study identified ECM1 as a risk factor for the pathogenesis of KOA and showed promising
+        therapeutic targets for KOA treatment.
+  c001:
+    quotes:
+    - exact: Further support from colocalization analysis suggested that ECM1 might serve as a potential
+        drug target for KOA.
+  c002:
+    quotes:
+    - exact: Validation of clinical samples indicated that ECM1 levels were higher in the KOA group than
+        in the control group and that ECM1 demonstrated significant diagnostic efficacy for KOA (area
+        under the curve = 0.85).
+  c003:
+    quotes:
+    - exact: Validation of clinical samples indicated that ECM1 levels were higher in the KOA group than
+        in the control group and that ECM1 demonstrated significant diagnostic efficacy for KOA (area
+        under the curve = 0.85).

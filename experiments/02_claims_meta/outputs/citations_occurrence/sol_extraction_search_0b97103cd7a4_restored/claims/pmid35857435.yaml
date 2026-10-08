@@ -1,0 +1,19 @@
+source:
+  citation: pmid35857435
+  local: sources/pmid35857435.txt
+  sha256: 93daf2aee00bc8d7be7eea45f5e09d1cb89c0bd8f7a7953eaa6db35dbfda8342
+  url: https://pubmed.ncbi.nlm.nih.gov/35857435/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: Several suggestive plasma proteins were detected for DVT, such as Complement factor B (P
+        value=0.0177), Chromogranin-A (P value=0.0158).
+  c001:
+    quotes:
+    - exact: Several suggestive plasma proteins were detected for DVT, such as Complement factor B (P
+        value=0.0177), Chromogranin-A (P value=0.0158).
+  c002:
+    quotes:
+    - exact: Through MR analysis, we found that there was a significant positive causal relationship between
+        Chromogranin-A (exposure) and DVT(outcome) (β=-0.0117, P<0.0001).

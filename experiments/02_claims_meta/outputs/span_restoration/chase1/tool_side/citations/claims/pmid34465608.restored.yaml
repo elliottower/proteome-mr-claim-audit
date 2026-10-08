@@ -1,0 +1,48 @@
+source:
+  citation: pmid34465608
+  local: sources/pmid34465608.txt
+  sha256: f84fb03f5fdd52be8d7085a5fb6b4145ca6941c0355a6940c635bb2df4366a9a
+  note: abstract text exactly as sent to the extractor
+claims:
+  c008-restored:
+    restored:
+      from: c008
+      notice: The quotation in this claim is the source's own text, restored by `citations restore` around
+        text the original quotation left out. It is not what the quoting party wrote; that is `original`,
+        which is not found in the source as written.
+      original: We found genetic evidence for a causal role for one protein, lectin mannose-binding 2
+        protein (LMAN2). Large-scale proteomic analysis identified both known and novel proteomic risk
+        factors for eGFR decline.
+      source:
+        citation: pmid34465608
+        local: sources/pmid34465608.txt
+        sha256: f84fb03f5fdd52be8d7085a5fb6b4145ca6941c0355a6940c635bb2df4366a9a
+      text:
+        extractor: text
+        sha256: f84fb03f5fdd52be8d7085a5fb6b4145ca6941c0355a6940c635bb2df4366a9a
+      passage:
+        start: 1581
+        end: 1800
+      omitted:
+      - start: 1684
+        end: 1696
+        tokens: 1
+        position: 17
+      fittings:
+        found: 1
+        others_contain_passage: true
+      rule:
+        name: bounded-passage
+        version: 2
+        max_omitted_tokens: 1
+        min_piece_chars: 20
+        max_fittings: 1000
+      software:
+        citations: 0.5.1
+        commit: fb89bb6104be091585f87c8d1a35aa2fd2c44b74
+    quotes:
+    - exact: 'We found genetic evidence for a causal role for one protein, lectin mannose-binding 2 protein
+        (LMAN2).
+
+        CONCLUSIONS: Large-scale proteomic analysis identified both known and novel proteomic risk factors
+        for eGFR decline.'

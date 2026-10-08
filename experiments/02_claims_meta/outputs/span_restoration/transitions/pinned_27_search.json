@@ -1,0 +1,55 @@
+{
+ "set": "pinned",
+ "pinned_records": 27,
+ "pinned_with_every_listed_field_unchanged": 0,
+ "transitions": {
+  "direction_check": {
+   "direction_unverified -> direction_unverified": 5,
+   "not_applicable -> not_applicable": 22
+  },
+  "direction_method": {
+   "lexicon -> lexicon": 1,
+   "none -> none": 26
+  },
+  "enters_direction_results": {
+   "False -> False": 27
+  },
+  "enters_registry": {
+   "False -> False": 13,
+   "False -> True": 14
+  },
+  "first_failure": {
+   "span_not_verified -> None": 14,
+   "span_not_verified -> not_mr_estimate": 1,
+   "span_not_verified -> outcome_not_in_span": 6,
+   "span_not_verified -> outcome_unmapped": 5,
+   "span_not_verified -> protein_unmapped": 1
+  },
+  "outcome_ids": {
+   "same": 27
+  },
+  "outcome_mapping_state": {
+   "mapped -> mapped": 16,
+   "not_in_span -> not_in_span": 6,
+   "unmapped -> unmapped": 5
+  },
+  "parsed_direction": {
+   "None -> None": 26,
+   "lowers -> lowers": 1
+  },
+  "protein_ids": {
+   "same": 27
+  },
+  "protein_mapping_state": {
+   "mapped -> mapped": 26,
+   "unmapped -> unmapped": 1
+  }
+ },
+ "pinned_entering_registry_before": 0,
+ "pinned_entering_registry_after": 14,
+ "pinned_in_direction_results_before": 0,
+ "pinned_in_direction_results_after": 0,
+ "other_records": 12637,
+ "other_records_differing": [],
+ "other_records_differing_share_a_paper_with_a_pinned_record": 0
+}

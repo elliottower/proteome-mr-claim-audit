@@ -1,0 +1,44 @@
+{
+ "what": "restored passages as `citations restore` wrote them; hashes and offsets only",
+ "citations_installed": {
+  "version": "0.5.1",
+  "direct_url": {
+   "url": "https://github.com/elliottower/reproducible-science",
+   "vcs_info": {
+    "vcs": "git",
+    "commit_id": "fb89bb6104be091585f87c8d1a35aa2fd2c44b74",
+    "requested_revision": "fb89bb6104be091585f87c8d1a35aa2fd2c44b74"
+   },
+   "subdirectory": "packages/citations"
+  }
+ },
+ "citations_commit": "fb89bb6104be091585f87c8d1a35aa2fd2c44b74",
+ "map": "outputs/span_restoration/chase1/repair_map.json",
+ "map_sha256": "591c2aa1f2d4e0c915aa79569fa8e4bf4c6a1d6a22238fd9d3abbadc1154042f",
+ "records": {
+  "chase1:34465608:008": {
+   "restored_passage_sha256": "1cdbb82eabf2889ba68d3e5b2970813cae159fc59aa0df5b25bb6862ecb559d9",
+   "passage_start": 1581,
+   "passage_end": 1800,
+   "omitted": [
+    {
+     "start": 1684,
+     "end": 1696,
+     "tokens": 1,
+     "position": 17
+    }
+   ],
+   "fittings": 1,
+   "source_sha256": "f84fb03f5fdd52be8d7085a5fb6b4145ca6941c0355a6940c635bb2df4366a9a",
+   "text_sha256": "f84fb03f5fdd52be8d7085a5fb6b4145ca6941c0355a6940c635bb2df4366a9a",
+   "rule": {
+    "name": "bounded-passage",
+    "version": 2,
+    "max_omitted_tokens": 1,
+    "min_piece_chars": 20,
+    "max_fittings": 1000
+   },
+   "original_span_sha256": "876478f31a86dbd7c3154558d9ddef4630832f5a060a1ccb42beef84c9271a46"
+  }
+ }
+}

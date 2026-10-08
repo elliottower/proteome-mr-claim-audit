@@ -1,0 +1,23 @@
+source:
+  citation: pmid39355913
+  local: sources/pmid39355913.txt
+  sha256: 5c12438652d504e8b265d2e4715508f4fee4b62db5a3562c6a035f1bd2cb7fcb
+  url: https://pubmed.ncbi.nlm.nih.gov/39355913/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: Specifically, COL4A1 (collagen IV α-1; odds ratio, 1.11 [95% CI, 1.04-1.19]; false discovery
+        rate, 0.016) and RET (proto-oncogene tyrosine-protein kinase receptor Ret; odds ratio, 0.96 [95%
+        CI, 0.94-0.98]; false discovery rate, 0.013) demonstrated a causal link with AF, and RET is druggable.
+  c001:
+    quotes:
+    - exact: Specifically, COL4A1 (collagen IV α-1; odds ratio, 1.11 [95% CI, 1.04-1.19]; false discovery
+        rate, 0.016) and RET (proto-oncogene tyrosine-protein kinase receptor Ret; odds ratio, 0.96 [95%
+        CI, 0.94-0.98]; false discovery rate, 0.013) demonstrated a causal link with AF, and RET is druggable.
+  c002:
+    quotes:
+    - exact: COL4A1 improved the short- and long-term predictive performance of established AF models,
+        as evidenced by significant enhancements in the area under the receiver operating characteristic,
+        integrated discrimination improvement, and net reclassification index, all with P values below
+        0.05.

@@ -1,0 +1,27 @@
+{
+ "rule": "one_whole_token_omitted_unique_alignment",
+ "rule_version": 2,
+ "extraction": "outputs/parsed/sol_extraction_chase1_0b97103cd7a4.jsonl",
+ "spans_left_as_written": [],
+ "extraction_sha256": "9abdf3d7aa20c1e45c5286444ef7c3e3dec139cb903c6bd42da9042c9b805c45",
+ "claim_records": 981,
+ "repairs": {
+  "34465608:008": {
+   "record": "34465608",
+   "source_sha256": "f84fb03f5fdd52be8d7085a5fb6b4145ca6941c0355a6940c635bb2df4366a9a",
+   "original_span_sha256": "876478f31a86dbd7c3154558d9ddef4630832f5a060a1ccb42beef84c9271a46",
+   "restored_passage_sha256": "1cdbb82eabf2889ba68d3e5b2970813cae159fc59aa0df5b25bb6862ecb559d9",
+   "source_offsets": [
+    1581,
+    1800
+   ],
+   "omitted_token_index_in_abstract": 253,
+   "omitted_token_words": 1,
+   "omitted_after_span_token": 16,
+   "rule": "one_whole_token_omitted_unique_alignment",
+   "rule_version": 2,
+   "script_sha256": "6e4f223734e59a0488af839fe090e0e6f57619e339ce896ec46b71f0bbd6adfd",
+   "span_replaced_in_derived_file": true
+  }
+ }
+}

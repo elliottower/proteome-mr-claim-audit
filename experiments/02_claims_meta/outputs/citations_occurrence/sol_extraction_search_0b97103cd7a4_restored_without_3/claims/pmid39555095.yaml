@@ -1,0 +1,17 @@
+source:
+  citation: pmid39555095
+  local: sources/pmid39555095.txt
+  sha256: 5d9f3ff11f05ae5b309b3b708f2c9bee4934620d74af4b67f4d75063078f4aae
+  url: https://pubmed.ncbi.nlm.nih.gov/39555095/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: This MR analysis of integrating GWAS and pQTL data showed that macrophage inflammatory protein-1
+        alpha (MIP-1α) was causally associated with the risk of ED (OR:1.19, 95%CI:1.02-1.39, p = 0.023).
+  c001:
+    quotes:
+    - exact: This MR analysis of integrating GWAS and pQTL data showed that macrophage inflammatory protein-1
+        alpha (MIP-1α) was causally associated with the risk of ED (OR:1.19, 95%CI:1.02-1.39, p = 0.023).
+        Meanwhile, the results of the weighted median model were consistent with the IVW estimates (OR:1.26,
+        95%CI:1.04-1.52, p = 0.018).

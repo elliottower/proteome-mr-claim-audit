@@ -1,0 +1,14 @@
+source:
+  citation: pmid39627303
+  local: sources/pmid39627303.txt
+  sha256: 2465ef8b1cb13a5d2eec06cf814553058984bb56ba1ceeb412004e2188237326
+  url: https://pubmed.ncbi.nlm.nih.gov/39627303/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: The results indicate that CD28 on CD39+ CD4+ T cells may be associated with a reduced risk
+        of gout.
+  c001:
+    quotes:
+    - exact: In contrast, DN (CD4-CD8-) T cells and IL-12β may increase the risk of gout.

@@ -1,0 +1,19 @@
+source:
+  citation: pmid42022378
+  local: sources/pmid42022378.txt
+  sha256: b2a67f333d67b3f510bde2fb43be981b69ebaad6a49caac30eb50f82d2755fca
+  url: https://pubmed.ncbi.nlm.nih.gov/42022378/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: Among overlapping genes, 4 eQTLs were ED-related, with PPP1R14A showing the strongest association
+        (OR = 1.27; 95% CI, 1.10-1.45; P_IVW = 0.0007).
+  c001:
+    quotes:
+    - exact: PPP1R14A was predominantly expressed in smooth muscle cells (SMCs) and upregulated in ED
+        patients.
+  c002:
+    quotes:
+    - exact: Diabetic and elderly mice (with lower intracavernous pressure) had significantly higher PPP1R14A
+        expression in cavernous tissue.

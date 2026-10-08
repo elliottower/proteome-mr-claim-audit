@@ -1,0 +1,15 @@
+source:
+  citation: pmid40369022
+  local: sources/pmid40369022.txt
+  sha256: 5e4f45e46c1d6c69c5561372fdfae2da1675ff023fc66eee89bf1f808fd15c66
+  url: https://pubmed.ncbi.nlm.nih.gov/40369022/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: Additionally, 12 plasma circulating proteins were found to have significant causal relationships
+        with RA, with KCNIP3 emerging as a key protective factor.
+  c001:
+    quotes:
+    - exact: Multivariate MR analysis revealed that KCNIP3 mediates the relationship between Anti-polyomavirus
+        2 IgG seropositivity and RA, suggesting a potential protective mechanism.

@@ -1,0 +1,22 @@
+source:
+  citation: pmid41398839
+  local: sources/pmid41398839.txt
+  sha256: 9d3bdb56fa192b0fb68bbad213b26ee57f61995ad289352a66721aad6d94e64a
+  url: https://pubmed.ncbi.nlm.nih.gov/41398839/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: Our PW-MR analysis identified 36 proteins with replicated causal associations with insomnia.
+        After excluding one protein (HEXIM1) due to evidence of reverse causality, we established a final
+        list of 35 high-confidence candidate proteins.
+  c001:
+    quotes:
+    - exact: Further colocalization analysis supported a shared causal variant for several candidates,
+        including DNPH1 and PTK7. This study identifies a robust list of plasma proteins with genetically-predicted
+        causal links to insomnia risk.
+  c002:
+    quotes:
+    - exact: Further colocalization analysis supported a shared causal variant for several candidates,
+        including DNPH1 and PTK7. This study identifies a robust list of plasma proteins with genetically-predicted
+        causal links to insomnia risk.

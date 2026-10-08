@@ -1,0 +1,30 @@
+source:
+  citation: pmid40031975
+  local: sources/pmid40031975.txt
+  sha256: a12fdccc3eabecc5e35b9b02dbb4eac71b545f2790c161a262f62b01cb0da2e5
+  url: https://pubmed.ncbi.nlm.nih.gov/40031975/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: 'Network pharmacology analysis combined with Mendelian randomization identified TP53 (OR=3.325,
+        95% CI: 1.805-6.124, P=0.0001), ARF4 (OR=0.173, 95% CI: 0.065-0.456, P=0.0003), and DPP4 (OR=0.463,
+        95% CI: 0.302-0.711, P=0.0004) as the core targets in quercetin treatment of ccRCC.'
+  c001:
+    quotes:
+    - exact: 'Network pharmacology analysis combined with Mendelian randomization identified TP53 (OR=3.325,
+        95% CI: 1.805-6.124, P=0.0001), ARF4 (OR=0.173, 95% CI: 0.065-0.456, P=0.0003), and DPP4 (OR=0.463,
+        95% CI: 0.302-0.711, P=0.0004) as the core targets in quercetin treatment of ccRCC.'
+  c002:
+    quotes:
+    - exact: 'Network pharmacology analysis combined with Mendelian randomization identified TP53 (OR=3.325,
+        95% CI: 1.805-6.124, P=0.0001), ARF4 (OR=0.173, 95% CI: 0.065-0.456, P=0.0003), and DPP4 (OR=0.463,
+        95% CI: 0.302-0.711, P=0.0004) as the core targets in quercetin treatment of ccRCC.'
+  c003:
+    quotes:
+    - exact: Bioinformatics analysis showed that TP53 was highly expressed in ccRCC, and patients with
+        high TP53 expressions had worse survival outcomes.
+  c004:
+    quotes:
+    - exact: Bioinformatics analysis showed that TP53 was highly expressed in ccRCC, and patients with
+        high TP53 expressions had worse survival outcomes.

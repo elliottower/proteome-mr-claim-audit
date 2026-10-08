@@ -1,0 +1,17 @@
+source:
+  citation: pmid36194249
+  local: sources/pmid36194249.txt
+  sha256: d1c176b6361346359990978d9ff9df9c18e0038a58dedb39e08816854c3633ee
+  url: https://pubmed.ncbi.nlm.nih.gov/36194249/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: 'Two-sample Mendelian randomisation indicated that complement C2 may be causally related
+        to greater type 2 diabetes risk (inverse variance weighted estimate: OR 1.65 per SD; p=7.0 × 10-3),
+        while neuropilin-2 was inversely associated (OR 0.44 per SD; p=8.0 × 10-3).'
+  c001:
+    quotes:
+    - exact: 'Two-sample Mendelian randomisation indicated that complement C2 may be causally related
+        to greater type 2 diabetes risk (inverse variance weighted estimate: OR 1.65 per SD; p=7.0 × 10-3),
+        while neuropilin-2 was inversely associated (OR 0.44 per SD; p=8.0 × 10-3).'

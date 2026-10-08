@@ -1,0 +1,13 @@
+source:
+  citation: pmid39787209
+  local: sources/pmid39787209.txt
+  sha256: 9a8f6c9b5fc5fa4c770ebd722e8618ae6d725841255c20a0046166a72d093a6a
+  url: https://pubmed.ncbi.nlm.nih.gov/39787209/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: 'Polygenic risk scores for AD risk did not reliably stratify fast from slow progressors;
+        however, a deeper investigation found that APOE ε4 status predicts amyloid-β and tau positive
+        versus negative patients (odds ratio for an additional APOE ε4 allele = 5.78 [95% confidence interval:
+        3.76-8.89], P<0.001) when restricting to a subset of patients with available CSF biomarker data.'

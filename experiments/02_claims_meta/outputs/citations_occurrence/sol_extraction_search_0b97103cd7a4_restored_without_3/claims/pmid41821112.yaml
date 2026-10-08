@@ -1,0 +1,16 @@
+source:
+  citation: pmid41821112
+  local: sources/pmid41821112.txt
+  sha256: 59f613a00dffaf88f9a7391229dc445836921dd213de0d5adac220e4a389b12b
+  url: https://pubmed.ncbi.nlm.nih.gov/41821112/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: 'Additionally, DNMT3B, PROM2, and KIF11 were the intersection genes of mQTL and eQTL analysis,
+        and were validated by the UKB cohort in eQTL analysis, and NFKB1 was validated by the UKB cohort
+        in pQTL analysis.
+
+        CONCLUSION: This multi-omics analysis reveals that pyroptosis-related genes, particularly ADAR,
+        DNMT3B, PROM2, KIF11, and NFKB1, may be involved in psoriasis development, providing important
+        insights into its molecular mechanisms and potential therapeutic targets.'

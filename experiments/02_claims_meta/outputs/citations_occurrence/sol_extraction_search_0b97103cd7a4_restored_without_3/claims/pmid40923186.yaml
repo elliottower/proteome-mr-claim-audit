@@ -1,0 +1,37 @@
+source:
+  citation: pmid40923186
+  local: sources/pmid40923186.txt
+  sha256: fd7e59f2ade550d3f5829a3e4fca47f7e04273fbd3ad429718453a37f02ccf7e
+  url: https://pubmed.ncbi.nlm.nih.gov/40923186/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: Our MR analysis identified 16 potential druggable genes significantly associated with IS,
+        three of which were significant in the two QTL datasets. Colocalization analysis revealed six
+        druggable genes (two in the blood eQTL [CALCRL, KCNJ11], two in the brain eQTL [NEK3, THSD1],
+        one in the blood pQTL [MMP12], and one in the brain pQTL [HSD17B12]) had a PP.H4 greater than
+        0.75.
+  c001:
+    quotes:
+    - exact: Our MR analysis identified 16 potential druggable genes significantly associated with IS,
+        three of which were significant in the two QTL datasets. Colocalization analysis revealed six
+        druggable genes (two in the blood eQTL [CALCRL, KCNJ11], two in the brain eQTL [NEK3, THSD1],
+        one in the blood pQTL [MMP12], and one in the brain pQTL [HSD17B12]) had a PP.H4 greater than
+        0.75.
+  c002:
+    quotes:
+    - exact: Phenome-wide MR analysis indicated that CALCRL is correlated with benign breast neoplasms,
+        and HSD17B12 is associated with essential hypertension and hypertension.
+  c003:
+    quotes:
+    - exact: Phenome-wide MR analysis indicated that CALCRL is correlated with benign breast neoplasms,
+        and HSD17B12 is associated with essential hypertension and hypertension.
+  c004:
+    quotes:
+    - exact: This study identified six potential druggable genes (CALCRL, KCNJ11, NEK3, THSD1, MMP12,
+        and HSD17B12) associated with IS risk.
+  c005:
+    quotes:
+    - exact: This study identified six potential druggable genes (CALCRL, KCNJ11, NEK3, THSD1, MMP12,
+        and HSD17B12) associated with IS risk.

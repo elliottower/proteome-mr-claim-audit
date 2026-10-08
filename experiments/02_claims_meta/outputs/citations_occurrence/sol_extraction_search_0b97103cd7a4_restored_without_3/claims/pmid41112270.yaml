@@ -1,0 +1,14 @@
+source:
+  citation: pmid41112270
+  local: sources/pmid41112270.txt
+  sha256: d6eca3b03e27c14359d604a92d08a236430692faf171c92678d65748a9f2488f
+  url: https://pubmed.ncbi.nlm.nih.gov/41112270/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: Our analyses identified the interleukin 6 receptor (IL6R) as a key candidate, with elevated
+        plasma levels correlating with increased RSA risk.
+  c001:
+    quotes:
+    - exact: Furthermore, IL6R was found to be upregulated in RSA-related endometrial and decidual tissues.

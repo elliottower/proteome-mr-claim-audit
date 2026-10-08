@@ -1,0 +1,29 @@
+source:
+  citation: pmid38352469
+  local: sources/pmid38352469.txt
+  sha256: 733db9d7521cf4dabe9ed706703cfe283b8052b3929feed5a0bd40db60ba6d6d
+  url: https://pubmed.ncbi.nlm.nih.gov/38352469/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: 'Using MR, we identified 2 proteins with an effect on subsequent MACE after a stroke: CCL27
+        (effect OR= 0.77, 95% CI = 0.66-0.88, adj. p=0.05), and TNFRSF14 (effect OR=1.42, 95% CI = 1.24-1.60,
+        adj. p=0.006).'
+  c001:
+    quotes:
+    - exact: 'Using MR, we identified 2 proteins with an effect on subsequent MACE after a stroke: CCL27
+        (effect OR= 0.77, 95% CI = 0.66-0.88, adj. p=0.05), and TNFRSF14 (effect OR=1.42, 95% CI = 1.24-1.60,
+        adj. p=0.006).'
+  c002:
+    quotes:
+    - exact: 'Using MR, we identified 2 proteins with an effect on subsequent MACE after a stroke: CCL27
+        (effect OR= 0.77, 95% CI = 0.66-0.88, adj. p=0.05), and TNFRSF14 (effect OR=1.42, 95% CI = 1.24-1.60,
+        adj. p=0.006). These proteins are not associated with incident AIS and are implicated to have
+        a role in inflammation.'
+  c003:
+    quotes:
+    - exact: 'Using MR, we identified 2 proteins with an effect on subsequent MACE after a stroke: CCL27
+        (effect OR= 0.77, 95% CI = 0.66-0.88, adj. p=0.05), and TNFRSF14 (effect OR=1.42, 95% CI = 1.24-1.60,
+        adj. p=0.006). These proteins are not associated with incident AIS and are implicated to have
+        a role in inflammation.'

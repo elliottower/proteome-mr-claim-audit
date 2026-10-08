@@ -1,0 +1,27 @@
+source:
+  citation: pmid40747309
+  local: sources/pmid40747309.txt
+  sha256: c5a8c2d480a515b6f9e2b5470aa982f05f931a3f4c181fda377ffbaad47e3f4b
+  url: https://pubmed.ncbi.nlm.nih.gov/40747309/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: 'Among five significant proteins, we identified Linker for Activation of T Cells Family Member
+        2 (LAT2) as a robust protective factor for DR (OR = 0.358, 95% CI: 0.215-0.597, p < 0.001).'
+  c001:
+    quotes:
+    - exact: Colocalization analysis (PP.H4 = 0.8546) and SMR analysis supported a shared genetic basis
+        between LAT2 expression and DR.
+  c002:
+    quotes:
+    - exact: Colocalization analysis (PP.H4 = 0.8546) and SMR analysis supported a shared genetic basis
+        between LAT2 expression and DR.
+  c003:
+    quotes:
+    - exact: 'Mediation MR revealed that CD27+ switched memory B cells partially mediated the protective
+        effect of LAT2 (mediation proportion: 6.2%, p = 0.047). The MR-PheWAS further confirmed the tissue-specific
+        association of LAT2 with DR.'
+  c004:
+    quotes:
+    - exact: The MR-PheWAS further confirmed the tissue-specific association of LAT2 with DR.

@@ -1,0 +1,22 @@
+source:
+  citation: pmidPPR659937
+  local: sources/pmidPPR659937.txt
+  sha256: 46dba867bbd48d7c7e214c2697518689a14a0ba0a53f3c030d618ea86290480b
+  url: https://europepmc.org/article/PPR/PPR659937
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: 'Among these were proteins associated with common cancers, such as PLAUR and risk of breast
+        cancer [odds ratio per standard deviation increment (OR): 2.27, 95% CI: 1.88 to 2.74], and with
+        high-mortality cancers, such as CTRB1 and pancreatic cancer [OR: 0.79, 95% CI: 0.73 to 0.85].'
+  c001:
+    quotes:
+    - exact: 'Among these were proteins associated with common cancers, such as PLAUR and risk of breast
+        cancer [odds ratio per standard deviation increment (OR): 2.27, 95% CI: 1.88 to 2.74], and with
+        high-mortality cancers, such as CTRB1 and pancreatic cancer [OR: 0.79, 95% CI: 0.73 to 0.85].'
+  c002:
+    quotes:
+    - exact: 'Additionally, 18 proteins associated with cancer risk mapped to existing therapeutic interventions,
+        while 15 were not currently known to be under clinical investigation, such as GAS1 and triple
+        negative breast cancer [OR: 1.88, 95% CI: 1.42 to 2.47].'

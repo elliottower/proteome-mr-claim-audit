@@ -1,0 +1,16 @@
+source:
+  citation: pmid40657364
+  local: sources/pmid40657364.txt
+  sha256: ac56215a68cb7d4994991d9620a49090ba71e056f87180365d9363d53830ec5d
+  url: https://pubmed.ncbi.nlm.nih.gov/40657364/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: Elevated gene expression of PARK7 (pSMR = 5.79E-06, OR = 0.91) and protein levels (pSMR =
+        8.46E-06, OR = 0.83) were significantly associated with reduced BC risk.
+  c001:
+    quotes:
+    - exact: Validation in an independent population cohort indicated that plasma levels of PARK7 mRNA
+        and protein in breast cancer patients were significantly lower than those in healthy controls,
+        consistent with the aforementioned results.

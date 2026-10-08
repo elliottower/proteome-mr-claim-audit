@@ -1,0 +1,231 @@
+source:
+  citation: pmid39823480
+  local: sources/pmid39823480.txt
+  sha256: c600fdced3c65d94e281338218bf2501a93cfd75397ae7bff216ffb3df7332b3
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000-restored:
+    restored:
+      from: c000
+      notice: The quotation in this claim is the source's own text, restored by `citations restore` around
+        text the original quotation left out. It is not what the quoting party wrote; that is `original`,
+        which is not found in the source as written.
+      original: The affinity between drug targets and SLE targets was confirmed by molecular docking.
+        In the preliminary analysis, we identified four key proteins as possible drug targets in CSF and
+        plasma proteins, included ICAM-1(P = 4.62E-05, OR = 0.90(0.86, 0.95)), sICAM-1(P = 4.62E-05, OR
+        = 0.49(0.35, 0.69)), FCG2B (P = 7.63E-11, OR = 0.57(0.48, 0.67)), PPP3CA; PPP3R1 (P = 5.47E-07,
+        OR = 0.66(0.57, 0.78)).
+      source:
+        citation: pmid39823480
+        local: sources/pmid39823480.txt
+        sha256: c600fdced3c65d94e281338218bf2501a93cfd75397ae7bff216ffb3df7332b3
+      text:
+        extractor: text
+        sha256: c600fdced3c65d94e281338218bf2501a93cfd75397ae7bff216ffb3df7332b3
+      passage:
+        start: 1413
+        end: 1820
+      omitted:
+      - start: 1499
+        end: 1507
+        tokens: 1
+        position: 14
+      fittings:
+        found: 1
+        others_contain_passage: true
+      rule:
+        name: bounded-passage
+        version: 2
+        max_omitted_tokens: 1
+        min_piece_chars: 20
+        max_fittings: 1000
+      software:
+        citations: 0.5.1
+        commit: fb89bb6104be091585f87c8d1a35aa2fd2c44b74
+    quotes:
+    - exact: 'The affinity between drug targets and SLE targets was confirmed by molecular docking.
+
+        RESULTS: In the preliminary analysis, we identified four key proteins as possible drug targets
+        in CSF and plasma proteins, included ICAM-1(P = 4.62E-05, OR = 0.90(0.86, 0.95)), sICAM-1(P =
+        4.62E-05, OR = 0.49(0.35, 0.69)), FCG2B (P = 7.63E-11, OR = 0.57(0.48, 0.67)), PPP3CA; PPP3R1
+        (P = 5.47E-07, OR = 0.66(0.57, 0.78)).'
+  c001-restored:
+    restored:
+      from: c001
+      notice: The quotation in this claim is the source's own text, restored by `citations restore` around
+        text the original quotation left out. It is not what the quoting party wrote; that is `original`,
+        which is not found in the source as written.
+      original: The affinity between drug targets and SLE targets was confirmed by molecular docking.
+        In the preliminary analysis, we identified four key proteins as possible drug targets in CSF and
+        plasma proteins, included ICAM-1(P = 4.62E-05, OR = 0.90(0.86, 0.95)), sICAM-1(P = 4.62E-05, OR
+        = 0.49(0.35, 0.69)), FCG2B (P = 7.63E-11, OR = 0.57(0.48, 0.67)), PPP3CA; PPP3R1 (P = 5.47E-07,
+        OR = 0.66(0.57, 0.78)).
+      source:
+        citation: pmid39823480
+        local: sources/pmid39823480.txt
+        sha256: c600fdced3c65d94e281338218bf2501a93cfd75397ae7bff216ffb3df7332b3
+      text:
+        extractor: text
+        sha256: c600fdced3c65d94e281338218bf2501a93cfd75397ae7bff216ffb3df7332b3
+      passage:
+        start: 1413
+        end: 1820
+      omitted:
+      - start: 1499
+        end: 1507
+        tokens: 1
+        position: 14
+      fittings:
+        found: 1
+        others_contain_passage: true
+      rule:
+        name: bounded-passage
+        version: 2
+        max_omitted_tokens: 1
+        min_piece_chars: 20
+        max_fittings: 1000
+      software:
+        citations: 0.5.1
+        commit: fb89bb6104be091585f87c8d1a35aa2fd2c44b74
+    quotes:
+    - exact: 'The affinity between drug targets and SLE targets was confirmed by molecular docking.
+
+        RESULTS: In the preliminary analysis, we identified four key proteins as possible drug targets
+        in CSF and plasma proteins, included ICAM-1(P = 4.62E-05, OR = 0.90(0.86, 0.95)), sICAM-1(P =
+        4.62E-05, OR = 0.49(0.35, 0.69)), FCG2B (P = 7.63E-11, OR = 0.57(0.48, 0.67)), PPP3CA; PPP3R1
+        (P = 5.47E-07, OR = 0.66(0.57, 0.78)).'
+  c002-restored:
+    restored:
+      from: c002
+      notice: The quotation in this claim is the source's own text, restored by `citations restore` around
+        text the original quotation left out. It is not what the quoting party wrote; that is `original`,
+        which is not found in the source as written.
+      original: The affinity between drug targets and SLE targets was confirmed by molecular docking.
+        In the preliminary analysis, we identified four key proteins as possible drug targets in CSF and
+        plasma proteins, included ICAM-1(P = 4.62E-05, OR = 0.90(0.86, 0.95)), sICAM-1(P = 4.62E-05, OR
+        = 0.49(0.35, 0.69)), FCG2B (P = 7.63E-11, OR = 0.57(0.48, 0.67)), PPP3CA; PPP3R1 (P = 5.47E-07,
+        OR = 0.66(0.57, 0.78)).
+      source:
+        citation: pmid39823480
+        local: sources/pmid39823480.txt
+        sha256: c600fdced3c65d94e281338218bf2501a93cfd75397ae7bff216ffb3df7332b3
+      text:
+        extractor: text
+        sha256: c600fdced3c65d94e281338218bf2501a93cfd75397ae7bff216ffb3df7332b3
+      passage:
+        start: 1413
+        end: 1820
+      omitted:
+      - start: 1499
+        end: 1507
+        tokens: 1
+        position: 14
+      fittings:
+        found: 1
+        others_contain_passage: true
+      rule:
+        name: bounded-passage
+        version: 2
+        max_omitted_tokens: 1
+        min_piece_chars: 20
+        max_fittings: 1000
+      software:
+        citations: 0.5.1
+        commit: fb89bb6104be091585f87c8d1a35aa2fd2c44b74
+    quotes:
+    - exact: 'The affinity between drug targets and SLE targets was confirmed by molecular docking.
+
+        RESULTS: In the preliminary analysis, we identified four key proteins as possible drug targets
+        in CSF and plasma proteins, included ICAM-1(P = 4.62E-05, OR = 0.90(0.86, 0.95)), sICAM-1(P =
+        4.62E-05, OR = 0.49(0.35, 0.69)), FCG2B (P = 7.63E-11, OR = 0.57(0.48, 0.67)), PPP3CA; PPP3R1
+        (P = 5.47E-07, OR = 0.66(0.57, 0.78)).'
+  c003-restored:
+    restored:
+      from: c003
+      notice: The quotation in this claim is the source's own text, restored by `citations restore` around
+        text the original quotation left out. It is not what the quoting party wrote; that is `original`,
+        which is not found in the source as written.
+      original: The affinity between drug targets and SLE targets was confirmed by molecular docking.
+        In the preliminary analysis, we identified four key proteins as possible drug targets in CSF and
+        plasma proteins, included ICAM-1(P = 4.62E-05, OR = 0.90(0.86, 0.95)), sICAM-1(P = 4.62E-05, OR
+        = 0.49(0.35, 0.69)), FCG2B (P = 7.63E-11, OR = 0.57(0.48, 0.67)), PPP3CA; PPP3R1 (P = 5.47E-07,
+        OR = 0.66(0.57, 0.78)).
+      source:
+        citation: pmid39823480
+        local: sources/pmid39823480.txt
+        sha256: c600fdced3c65d94e281338218bf2501a93cfd75397ae7bff216ffb3df7332b3
+      text:
+        extractor: text
+        sha256: c600fdced3c65d94e281338218bf2501a93cfd75397ae7bff216ffb3df7332b3
+      passage:
+        start: 1413
+        end: 1820
+      omitted:
+      - start: 1499
+        end: 1507
+        tokens: 1
+        position: 14
+      fittings:
+        found: 1
+        others_contain_passage: true
+      rule:
+        name: bounded-passage
+        version: 2
+        max_omitted_tokens: 1
+        min_piece_chars: 20
+        max_fittings: 1000
+      software:
+        citations: 0.5.1
+        commit: fb89bb6104be091585f87c8d1a35aa2fd2c44b74
+    quotes:
+    - exact: 'The affinity between drug targets and SLE targets was confirmed by molecular docking.
+
+        RESULTS: In the preliminary analysis, we identified four key proteins as possible drug targets
+        in CSF and plasma proteins, included ICAM-1(P = 4.62E-05, OR = 0.90(0.86, 0.95)), sICAM-1(P =
+        4.62E-05, OR = 0.49(0.35, 0.69)), FCG2B (P = 7.63E-11, OR = 0.57(0.48, 0.67)), PPP3CA; PPP3R1
+        (P = 5.47E-07, OR = 0.66(0.57, 0.78)).'
+  c004-restored:
+    restored:
+      from: c004
+      notice: The quotation in this claim is the source's own text, restored by `citations restore` around
+        text the original quotation left out. It is not what the quoting party wrote; that is `original`,
+        which is not found in the source as written.
+      original: The affinity between drug targets and SLE targets was confirmed by molecular docking.
+        In the preliminary analysis, we identified four key proteins as possible drug targets in CSF and
+        plasma proteins, included ICAM-1(P = 4.62E-05, OR = 0.90(0.86, 0.95)), sICAM-1(P = 4.62E-05, OR
+        = 0.49(0.35, 0.69)), FCG2B (P = 7.63E-11, OR = 0.57(0.48, 0.67)), PPP3CA; PPP3R1 (P = 5.47E-07,
+        OR = 0.66(0.57, 0.78)).
+      source:
+        citation: pmid39823480
+        local: sources/pmid39823480.txt
+        sha256: c600fdced3c65d94e281338218bf2501a93cfd75397ae7bff216ffb3df7332b3
+      text:
+        extractor: text
+        sha256: c600fdced3c65d94e281338218bf2501a93cfd75397ae7bff216ffb3df7332b3
+      passage:
+        start: 1413
+        end: 1820
+      omitted:
+      - start: 1499
+        end: 1507
+        tokens: 1
+        position: 14
+      fittings:
+        found: 1
+        others_contain_passage: true
+      rule:
+        name: bounded-passage
+        version: 2
+        max_omitted_tokens: 1
+        min_piece_chars: 20
+        max_fittings: 1000
+      software:
+        citations: 0.5.1
+        commit: fb89bb6104be091585f87c8d1a35aa2fd2c44b74
+    quotes:
+    - exact: 'The affinity between drug targets and SLE targets was confirmed by molecular docking.
+
+        RESULTS: In the preliminary analysis, we identified four key proteins as possible drug targets
+        in CSF and plasma proteins, included ICAM-1(P = 4.62E-05, OR = 0.90(0.86, 0.95)), sICAM-1(P =
+        4.62E-05, OR = 0.49(0.35, 0.69)), FCG2B (P = 7.63E-11, OR = 0.57(0.48, 0.67)), PPP3CA; PPP3R1
+        (P = 5.47E-07, OR = 0.66(0.57, 0.78)).'

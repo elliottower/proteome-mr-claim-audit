@@ -1,0 +1,20 @@
+source:
+  citation: pmid41503897
+  local: sources/pmid41503897.txt
+  sha256: 9b4ebf8dad8497a2a3cf52031f1cd8a1cc94563d932a62a85ca83f1a4bb7f863
+  url: https://pubmed.ncbi.nlm.nih.gov/41503897/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: Our analysis revealed a significant protective effect of BTN3A2 expression against PSC risk
+        (IVW OR 0.838, 95% CI 0.792-0.887, P = 1.12E-09).
+  c001:
+    quotes:
+    - exact: Mediation analysis indicated that methylation at cg23465465 had a largely mediated effect
+        on PSC risk through BTN3A2 regulation (89.3% mediated effect).
+  c002:
+    quotes:
+    - exact: Mediation analysis indicated that methylation at cg23465465 had a largely mediated effect
+        on PSC risk through BTN3A2 regulation (89.3% mediated effect). Additionally, BTN3A2 exerted partial
+        protection via CD14+CD16+ monocytes (4.7% mediation).

@@ -1,0 +1,16 @@
+source:
+  citation: pmid41667429
+  local: sources/pmid41667429.txt
+  sha256: 8c80a08e309e0cdbdfcbf241ef9560e912b70fcb4296b4a956c44e0ba69053e8
+  url: https://pubmed.ncbi.nlm.nih.gov/41667429/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: Phe-MR showed non-significant association between MKRN1 dysregulation and disease beyond
+        depression and mood disorders, suggesting minimal off-target effects.
+  c001:
+    quotes:
+    - exact: Our study identified MKRN1 as a therapeutic target for PPD, integrating multi-omics evidence
+        from genomics, proteomics, and druggable proteome profiling, and offering a promising path for
+        targeted treatments.

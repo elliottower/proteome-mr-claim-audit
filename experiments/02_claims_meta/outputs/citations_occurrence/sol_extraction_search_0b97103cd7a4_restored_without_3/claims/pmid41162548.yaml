@@ -1,0 +1,16 @@
+source:
+  citation: pmid41162548
+  local: sources/pmid41162548.txt
+  sha256: f20991adfecf37c4f2429edd5dc0a26d6957e7850a8b93e89028b1f48068e5a7
+  url: https://pubmed.ncbi.nlm.nih.gov/41162548/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: Through SMR analysis (P-SMR-multi < 0.05, P-SMR < 0.05, P-HEIDI > 0.01), we identified 301
+        mQTLs, 27 eQTLs, and 11 pQTLs associated with the risk of GD in our discovery cohort. The validation
+        cohort and colocalization analysis (PP.H4 > 0.5) confirmed 79 mQTLs, 5 eQTLs, and 1 pQTL (MMP9).
+  c001:
+    quotes:
+    - exact: IRGs, particularly FGFRL1, play a causal role in the pathogenesis of GD, providing insights
+        into the molecular mechanisms of GD and potential therapeutic targets for future research.

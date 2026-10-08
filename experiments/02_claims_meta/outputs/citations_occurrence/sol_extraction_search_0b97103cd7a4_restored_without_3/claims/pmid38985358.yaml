@@ -1,0 +1,17 @@
+source:
+  citation: pmid38985358
+  local: sources/pmid38985358.txt
+  sha256: e3b727cf51ee2da83a246d589ac45d2342de22e6c7e280d194380382b7018e26
+  url: https://pubmed.ncbi.nlm.nih.gov/38985358/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: A significant causal association between A Disintegrin and metalloproteinase domain-containing
+        protein 23 (ADAM23) and head and neck cancer was noted.
+  c001:
+    quotes:
+    - exact: Multivariate analysis showed that the effect for ADAM23 remained significant after adjusting
+        for the indirect effects of obesity, diabetes mellitus and smoking. In sum, this study showed
+        a significant causal role of genetically dysregulated ADAM23 protein with head and neck cancer
+        risk.

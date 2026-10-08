@@ -1,0 +1,129 @@
+source:
+  citation: pmid42489810
+  local: sources/pmid42489810.txt
+  sha256: 38b76d2579a0dea37b28c282c5b83bcf9fb8a2f63fd165f385ef4e3fff608dd2
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000-restored:
+    restored:
+      from: c000
+      notice: The quotation in this claim is the source's own text, restored by `citations restore` around
+        text the original quotation left out. It is not what the quoting party wrote; that is `original`,
+        which is not found in the source as written.
+      original: Mendelian randomization provided supportive genetic evidence for AMN, EGFR, and DCBLD2.
+        The five-protein score provided incremental predictive information beyond CHA₂DS₂-VASc for post-AF
+        stroke risk assessment.
+      source:
+        citation: pmid42489810
+        local: sources/pmid42489810.txt
+        sha256: 38b76d2579a0dea37b28c282c5b83bcf9fb8a2f63fd165f385ef4e3fff608dd2
+      text:
+        extractor: text
+        sha256: 38b76d2579a0dea37b28c282c5b83bcf9fb8a2f63fd165f385ef4e3fff608dd2
+      passage:
+        start: 1728
+        end: 1951
+      omitted:
+      - start: 1816
+        end: 1828
+        tokens: 1
+        position: 12
+      fittings:
+        found: 2
+        others_contain_passage: true
+      rule:
+        name: bounded-passage
+        version: 2
+        max_omitted_tokens: 1
+        min_piece_chars: 20
+        max_fittings: 1000
+      software:
+        citations: 0.5.1
+        commit: fb89bb6104be091585f87c8d1a35aa2fd2c44b74
+    quotes:
+    - exact: 'Mendelian randomization provided supportive genetic evidence for AMN, EGFR, and DCBLD2.
+
+        CONCLUSIONS: The five-protein score provided incremental predictive information beyond CHA₂DS₂-VASc
+        for post-AF stroke risk assessment.'
+  c001-restored:
+    restored:
+      from: c001
+      notice: The quotation in this claim is the source's own text, restored by `citations restore` around
+        text the original quotation left out. It is not what the quoting party wrote; that is `original`,
+        which is not found in the source as written.
+      original: Mendelian randomization provided supportive genetic evidence for AMN, EGFR, and DCBLD2.
+        The five-protein score provided incremental predictive information beyond CHA₂DS₂-VASc for post-AF
+        stroke risk assessment.
+      source:
+        citation: pmid42489810
+        local: sources/pmid42489810.txt
+        sha256: 38b76d2579a0dea37b28c282c5b83bcf9fb8a2f63fd165f385ef4e3fff608dd2
+      text:
+        extractor: text
+        sha256: 38b76d2579a0dea37b28c282c5b83bcf9fb8a2f63fd165f385ef4e3fff608dd2
+      passage:
+        start: 1728
+        end: 1951
+      omitted:
+      - start: 1816
+        end: 1828
+        tokens: 1
+        position: 12
+      fittings:
+        found: 2
+        others_contain_passage: true
+      rule:
+        name: bounded-passage
+        version: 2
+        max_omitted_tokens: 1
+        min_piece_chars: 20
+        max_fittings: 1000
+      software:
+        citations: 0.5.1
+        commit: fb89bb6104be091585f87c8d1a35aa2fd2c44b74
+    quotes:
+    - exact: 'Mendelian randomization provided supportive genetic evidence for AMN, EGFR, and DCBLD2.
+
+        CONCLUSIONS: The five-protein score provided incremental predictive information beyond CHA₂DS₂-VASc
+        for post-AF stroke risk assessment.'
+  c002-restored:
+    restored:
+      from: c002
+      notice: The quotation in this claim is the source's own text, restored by `citations restore` around
+        text the original quotation left out. It is not what the quoting party wrote; that is `original`,
+        which is not found in the source as written.
+      original: Mendelian randomization provided supportive genetic evidence for AMN, EGFR, and DCBLD2.
+        The five-protein score provided incremental predictive information beyond CHA₂DS₂-VASc for post-AF
+        stroke risk assessment.
+      source:
+        citation: pmid42489810
+        local: sources/pmid42489810.txt
+        sha256: 38b76d2579a0dea37b28c282c5b83bcf9fb8a2f63fd165f385ef4e3fff608dd2
+      text:
+        extractor: text
+        sha256: 38b76d2579a0dea37b28c282c5b83bcf9fb8a2f63fd165f385ef4e3fff608dd2
+      passage:
+        start: 1728
+        end: 1951
+      omitted:
+      - start: 1816
+        end: 1828
+        tokens: 1
+        position: 12
+      fittings:
+        found: 2
+        others_contain_passage: true
+      rule:
+        name: bounded-passage
+        version: 2
+        max_omitted_tokens: 1
+        min_piece_chars: 20
+        max_fittings: 1000
+      software:
+        citations: 0.5.1
+        commit: fb89bb6104be091585f87c8d1a35aa2fd2c44b74
+    quotes:
+    - exact: 'Mendelian randomization provided supportive genetic evidence for AMN, EGFR, and DCBLD2.
+
+        CONCLUSIONS: The five-protein score provided incremental predictive information beyond CHA₂DS₂-VASc
+        for post-AF stroke risk assessment.'

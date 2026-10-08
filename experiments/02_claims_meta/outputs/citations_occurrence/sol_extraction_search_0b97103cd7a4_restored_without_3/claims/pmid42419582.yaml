@@ -1,0 +1,20 @@
+source:
+  citation: pmid42419582
+  local: sources/pmid42419582.txt
+  sha256: d21f87b356a85781018f18da9b84225b8889743893b551f6f3047210aad5abdf
+  url: https://pubmed.ncbi.nlm.nih.gov/42419582/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: Seven circulating proteins showed significant MR associations with BMD. LRP4 was identified
+        as a Tier 1 (high-confidence) target, demonstrating robust colocalization (PPH4 = 0.915) and passing
+        SMR/HEIDI criteria.
+  c001:
+    quotes:
+    - exact: This study provides a rigorous, multi-layered prioritization of circulating proteins causally
+        implicated in OP. LRP4 emerges as the strongest candidate, with TNFSF11 moderately supported.
+  c002:
+    quotes:
+    - exact: This study provides a rigorous, multi-layered prioritization of circulating proteins causally
+        implicated in OP. LRP4 emerges as the strongest candidate, with TNFSF11 moderately supported.

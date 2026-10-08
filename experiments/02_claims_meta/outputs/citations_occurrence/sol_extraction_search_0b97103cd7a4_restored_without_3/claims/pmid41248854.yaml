@@ -1,0 +1,16 @@
+source:
+  citation: pmid41248854
+  local: sources/pmid41248854.txt
+  sha256: 227f931f8dc94ff95cc1972fce6eff25746897af8d41b93ec52cb07265c60457
+  url: https://pubmed.ncbi.nlm.nih.gov/41248854/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: The expression of PDGFA, as well as the expression and protein levels of GCDH, were also
+        found to be positively associated with depression risk.
+  c001:
+    quotes:
+    - exact: Crucially, immunofluorescence staining of the hippocampus in the model group revealed an
+        upregulation of the LGALS3 protein signal, occurring concurrently with a marked increase in the
+        number of astrocytes in the same region.

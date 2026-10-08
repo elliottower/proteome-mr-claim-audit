@@ -1,0 +1,17 @@
+source:
+  citation: pmid41129298
+  local: sources/pmid41129298.txt
+  sha256: e42e86adb060398e53c1fbbb9bce1896638e1bc060ff48abb7d05d1301b8635e
+  url: https://pubmed.ncbi.nlm.nih.gov/41129298/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: 'For sarcopenia-related traits, GATM was associated with appendicular lean mass (ALM) across
+        all omics levels with opposing tissue effects (negative in blood: β = -.03, FDR = 1.9e-09; positive
+        in muscle), and ETFDH showed positive associations with ALM (β = .03, FDR = 1.4e-06).'
+  c001:
+    quotes:
+    - exact: 'For sarcopenia-related traits, GATM was associated with appendicular lean mass (ALM) across
+        all omics levels with opposing tissue effects (negative in blood: β = -.03, FDR = 1.9e-09; positive
+        in muscle), and ETFDH showed positive associations with ALM (β = .03, FDR = 1.4e-06).'

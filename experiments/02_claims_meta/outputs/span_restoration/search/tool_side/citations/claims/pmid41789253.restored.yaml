@@ -1,0 +1,138 @@
+source:
+  citation: pmid41789253
+  local: sources/pmid41789253.txt
+  sha256: cd18087507c5ee2e270bd2a79ef40898f35dee38dce29079bf15151da93f2aad
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000-restored:
+    restored:
+      from: c000
+      notice: The quotation in this claim is the source's own text, restored by `citations restore` around
+        text the original quotation left out. It is not what the quoting party wrote; that is `original`,
+        which is not found in the source as written.
+      original: Notably, approximately half of these proteins (including PCSK1, PPY, and VWF) were recognized
+        as druggable or existing drug targets. This study identified proteins causally linked to RG, emphasizing
+        their potential role in the development of therapeutic interventions for metabolic disorders,
+        particularly those involving glucose regulation.
+      source:
+        citation: pmid41789253
+        local: sources/pmid41789253.txt
+        sha256: cd18087507c5ee2e270bd2a79ef40898f35dee38dce29079bf15151da93f2aad
+      text:
+        extractor: text
+        sha256: cd18087507c5ee2e270bd2a79ef40898f35dee38dce29079bf15151da93f2aad
+      passage:
+        start: 1207
+        end: 1561
+      omitted:
+      - start: 1340
+        end: 1352
+        tokens: 1
+        position: 20
+      fittings:
+        found: 1
+        others_contain_passage: true
+      rule:
+        name: bounded-passage
+        version: 2
+        max_omitted_tokens: 1
+        min_piece_chars: 20
+        max_fittings: 1000
+      software:
+        citations: 0.5.1
+        commit: fb89bb6104be091585f87c8d1a35aa2fd2c44b74
+    quotes:
+    - exact: 'Notably, approximately half of these proteins (including PCSK1, PPY, and VWF) were recognized
+        as druggable or existing drug targets.
+
+        CONCLUSIONS: This study identified proteins causally linked to RG, emphasizing their potential
+        role in the development of therapeutic interventions for metabolic disorders, particularly those
+        involving glucose regulation.'
+  c001-restored:
+    restored:
+      from: c001
+      notice: The quotation in this claim is the source's own text, restored by `citations restore` around
+        text the original quotation left out. It is not what the quoting party wrote; that is `original`,
+        which is not found in the source as written.
+      original: Notably, approximately half of these proteins (including PCSK1, PPY, and VWF) were recognized
+        as druggable or existing drug targets. This study identified proteins causally linked to RG, emphasizing
+        their potential role in the development of therapeutic interventions for metabolic disorders,
+        particularly those involving glucose regulation.
+      source:
+        citation: pmid41789253
+        local: sources/pmid41789253.txt
+        sha256: cd18087507c5ee2e270bd2a79ef40898f35dee38dce29079bf15151da93f2aad
+      text:
+        extractor: text
+        sha256: cd18087507c5ee2e270bd2a79ef40898f35dee38dce29079bf15151da93f2aad
+      passage:
+        start: 1207
+        end: 1561
+      omitted:
+      - start: 1340
+        end: 1352
+        tokens: 1
+        position: 20
+      fittings:
+        found: 1
+        others_contain_passage: true
+      rule:
+        name: bounded-passage
+        version: 2
+        max_omitted_tokens: 1
+        min_piece_chars: 20
+        max_fittings: 1000
+      software:
+        citations: 0.5.1
+        commit: fb89bb6104be091585f87c8d1a35aa2fd2c44b74
+    quotes:
+    - exact: 'Notably, approximately half of these proteins (including PCSK1, PPY, and VWF) were recognized
+        as druggable or existing drug targets.
+
+        CONCLUSIONS: This study identified proteins causally linked to RG, emphasizing their potential
+        role in the development of therapeutic interventions for metabolic disorders, particularly those
+        involving glucose regulation.'
+  c002-restored:
+    restored:
+      from: c002
+      notice: The quotation in this claim is the source's own text, restored by `citations restore` around
+        text the original quotation left out. It is not what the quoting party wrote; that is `original`,
+        which is not found in the source as written.
+      original: Notably, approximately half of these proteins (including PCSK1, PPY, and VWF) were recognized
+        as druggable or existing drug targets. This study identified proteins causally linked to RG, emphasizing
+        their potential role in the development of therapeutic interventions for metabolic disorders,
+        particularly those involving glucose regulation.
+      source:
+        citation: pmid41789253
+        local: sources/pmid41789253.txt
+        sha256: cd18087507c5ee2e270bd2a79ef40898f35dee38dce29079bf15151da93f2aad
+      text:
+        extractor: text
+        sha256: cd18087507c5ee2e270bd2a79ef40898f35dee38dce29079bf15151da93f2aad
+      passage:
+        start: 1207
+        end: 1561
+      omitted:
+      - start: 1340
+        end: 1352
+        tokens: 1
+        position: 20
+      fittings:
+        found: 1
+        others_contain_passage: true
+      rule:
+        name: bounded-passage
+        version: 2
+        max_omitted_tokens: 1
+        min_piece_chars: 20
+        max_fittings: 1000
+      software:
+        citations: 0.5.1
+        commit: fb89bb6104be091585f87c8d1a35aa2fd2c44b74
+    quotes:
+    - exact: 'Notably, approximately half of these proteins (including PCSK1, PPY, and VWF) were recognized
+        as druggable or existing drug targets.
+
+        CONCLUSIONS: This study identified proteins causally linked to RG, emphasizing their potential
+        role in the development of therapeutic interventions for metabolic disorders, particularly those
+        involving glucose regulation.'

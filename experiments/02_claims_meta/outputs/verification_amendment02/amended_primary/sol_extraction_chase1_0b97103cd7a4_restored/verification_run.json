@@ -1,0 +1,70 @@
+{
+ "written_utc": "20261008T045622Z",
+ "label": "amended_primary",
+ "extraction_file": "sol_extraction_chase1_0b97103cd7a4_restored.jsonl",
+ "extraction": {
+  "bytes": 744004,
+  "sha256": "a9c4b3d1826e6ea87ff04f0813f49912931b474012ea5fbced960c233076646b"
+ },
+ "script": "scripts/verify_claims_whitespace.py",
+ "command": [
+  "python",
+  "scripts/verify_claims_whitespace.py",
+  "--extraction",
+  "outputs/parsed/sol_extraction_chase1_0b97103cd7a4_restored.jsonl"
+ ],
+ "inputs": {
+  "citations_verify.txt": {
+   "bytes": 194,
+   "sha256": "01a48f859e0cdbe8100265f2cc7854cc0370fae5d6a3fd90793da4ba6553e001"
+  },
+  "span_occurrences.json": {
+   "bytes": 620,
+   "sha256": "bb6ebd17335920367b4567d40007fa693c327458f5c1ed84285d2d3c6b477c77"
+  },
+  "span_step_run.json": {
+   "bytes": 8021,
+   "sha256": "1d74952a499a3471ea6d1d63ec489558aee8925c733c66244702c8ff6b56b7d8"
+  },
+  "span_summary.json": {
+   "bytes": 381,
+   "sha256": "77b594018a2f3b90768511231362bf102da1414fa46328c07818df1c94f4a792"
+  },
+  "spans.jsonl": {
+   "bytes": 420967,
+   "sha256": "ef4236ab17e15742741caebeeba9f53c80ef5c60082039569ec8ba2c230a0a99"
+  }
+ },
+ "outputs": {
+  "claim_checks.jsonl": {
+   "bytes": 1357839,
+   "sha256": "f7b1644486b1116444c4b573c50d6200e6345e59a2094b783a833199285a8842"
+  },
+  "claim_summary.json": {
+   "bytes": 3306,
+   "sha256": "20f1a7ba131d83189e0b6513342818a51bda40b4a457b356aa23dc4f748a87d5"
+  }
+ },
+ "environment": {
+  "python": "3.12.10",
+  "platform": "Linux-4.19.0-gvisor-x86_64-with-glibc2.36",
+  "image": "modal debian_slim, python 3.12",
+  "packages": {
+   "httpx": "0.28.1",
+   "numpy": "2.5.3",
+   "openpyxl": "3.1.5",
+   "pyarrow": "21.0.0",
+   "pydantic": "2.13.5",
+   "pypdf": "5.9.0",
+   "pytest": "8.4.2",
+   "rapidfuzz": "3.14.6",
+   "modal": "1.4.3"
+  },
+  "scripts_sha256": {
+   "scripts/verify_claims_whitespace.py": "b217f93059d0dd7cb327de0c7df8a0ecc77b5ff6e514e4c1b89659a5f8157c7d",
+   "scripts/modal_verify_claims_amended.py": "ba4514c919940fa7b58aea3ffddf432ca60a17e8ac15ee08bc43d10d1ea9037f"
+  },
+  "reference_manifest_sha256": "41def217e24c028a4efe6a6c457f6a03ea887a3556fba6a270762ba99f786347"
+ },
+ "volume_folder": "/vol/02_claims_meta/amendment02/verification/amended_primary/sol_extraction_chase1_0b97103cd7a4_restored"
+}

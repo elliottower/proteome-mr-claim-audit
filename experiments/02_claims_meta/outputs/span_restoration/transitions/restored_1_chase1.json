@@ -1,0 +1,44 @@
+{
+ "set": "restored",
+ "restored_records": 1,
+ "restored_with_every_listed_field_unchanged": 0,
+ "transitions": {
+  "direction_check": {
+   "not_applicable -> not_applicable": 1
+  },
+  "direction_method": {
+   "none -> none": 1
+  },
+  "enters_direction_results": {
+   "False -> False": 1
+  },
+  "enters_registry": {
+   "False -> True": 1
+  },
+  "first_failure": {
+   "span_not_verified -> None": 1
+  },
+  "outcome_ids": {
+   "same": 1
+  },
+  "outcome_mapping_state": {
+   "mapped -> mapped": 1
+  },
+  "parsed_direction": {
+   "None -> None": 1
+  },
+  "protein_ids": {
+   "same": 1
+  },
+  "protein_mapping_state": {
+   "mapped -> mapped": 1
+  }
+ },
+ "restored_entering_registry_before": 0,
+ "restored_entering_registry_after": 1,
+ "restored_in_direction_results_before": 0,
+ "restored_in_direction_results_after": 0,
+ "other_records": 980,
+ "other_records_differing": [],
+ "other_records_differing_share_a_paper_with_a_restored_record": 0
+}

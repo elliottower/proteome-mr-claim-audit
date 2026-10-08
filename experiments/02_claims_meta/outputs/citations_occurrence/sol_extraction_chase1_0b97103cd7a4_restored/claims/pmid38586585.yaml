@@ -1,0 +1,33 @@
+source:
+  citation: pmid38586585
+  local: sources/pmid38586585.txt
+  sha256: a4d440f80cb181ca07edea80f69c05c9a8c0e540185c882782db20772ef09ac6
+  url: https://pubmed.ncbi.nlm.nih.gov/38586585/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: 'The results indicate that there is a correlation between a higher circulating level of tumor
+        necrosis factor alpha (TNF-α) and interleukin-9 (IL-9) and an increased risk of PE (odds ratio
+        [OR] = 1.32, 95% confidence interval [CI] = 1.09-1.60, p = 0.004 and OR = 1.28, 95% CI: 1.02-1.62,
+        p = 0.033, respectively).'
+  c001:
+    quotes:
+    - exact: 'The results indicate that there is a correlation between a higher circulating level of tumor
+        necrosis factor alpha (TNF-α) and interleukin-9 (IL-9) and an increased risk of PE (odds ratio
+        [OR] = 1.32, 95% confidence interval [CI] = 1.09-1.60, p = 0.004 and OR = 1.28, 95% CI: 1.02-1.62,
+        p = 0.033, respectively).'
+  c002:
+    quotes:
+    - exact: 'Conversely, lower levels of stem cell growth factor beta (SCGF-β) (OR = 0.89, 95% CI: 0.80-0.99,
+        p = 0.027) and interleukin-5 (IL-5) (OR = 0.80, 95% CI: 0.65-0.98, p = 0.030) are linked to an
+        increased risk of PE.'
+  c003:
+    quotes:
+    - exact: 'Conversely, lower levels of stem cell growth factor beta (SCGF-β) (OR = 0.89, 95% CI: 0.80-0.99,
+        p = 0.027) and interleukin-5 (IL-5) (OR = 0.80, 95% CI: 0.65-0.98, p = 0.030) are linked to an
+        increased risk of PE.'
+  c004:
+    quotes:
+    - exact: The macrophage migration inhibitory factor (MIF) is the downstream inflammatory regulator
+        of PE, according to reverse magnetic resonance imaging studies.

@@ -1,0 +1,46 @@
+source:
+  citation: pmid41076317
+  local: sources/pmid41076317.txt
+  sha256: 7ea4c705f5f2d735c14cd497e0bff42c4db14728dea76871e92564b72baf91dd
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000-restored:
+    restored:
+      from: c000
+      notice: The quotation in this claim is the source's own text, restored by `citations restore` around
+        text the original quotation left out. It is not what the quoting party wrote; that is `original`,
+        which is not found in the source as written.
+      original: PRKCB emerged as a promising pharmacological target through computational screening. This
+        multi-omics investigation provides evidence for causal roles of 15 genes in SSBP pathogenesis.
+      source:
+        citation: pmid41076317
+        local: sources/pmid41076317.txt
+        sha256: 7ea4c705f5f2d735c14cd497e0bff42c4db14728dea76871e92564b72baf91dd
+      text:
+        extractor: text
+        sha256: 7ea4c705f5f2d735c14cd497e0bff42c4db14728dea76871e92564b72baf91dd
+      passage:
+        start: 1411
+        end: 1607
+      omitted:
+      - start: 1496
+        end: 1507
+        tokens: 1
+        position: 11
+      fittings:
+        found: 1
+        others_contain_passage: true
+      rule:
+        name: bounded-passage
+        version: 2
+        max_omitted_tokens: 1
+        min_piece_chars: 20
+        max_fittings: 1000
+      software:
+        citations: 0.5.1
+        commit: fb89bb6104be091585f87c8d1a35aa2fd2c44b74
+    quotes:
+    - exact: 'PRKCB emerged as a promising pharmacological target through computational screening.
+
+        CONCLUSION: This multi-omics investigation provides evidence for causal roles of 15 genes in SSBP
+        pathogenesis.'

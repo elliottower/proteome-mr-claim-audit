@@ -1,0 +1,30 @@
+source:
+  citation: pmid41855608
+  local: sources/pmid41855608.txt
+  sha256: d80bf65d0caba229aba307bbfb7dc87dda3c842db834d4147da1c3389776b96a
+  url: https://pubmed.ncbi.nlm.nih.gov/41855608/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: 'With strong evidence of colocalization and consistent support from SMR analysis, the gene-predicted
+        MASP1 was correlated with decreased IPF risk (ORmeta = 0.46, 95% CImeta: 0.22‒0.99, Pmeta = 0.0478,
+        PPH4 = 0.92).'
+  c001:
+    quotes:
+    - exact: 'With strong evidence of colocalization and consistent support from SMR analysis, the gene-predicted
+        MASP1 was correlated with decreased IPF risk (ORmeta = 0.46, 95% CImeta: 0.22‒0.99, Pmeta = 0.0478,
+        PPH4 = 0.92).'
+  c002:
+    quotes:
+    - exact: With suggestive colocalization support (PPH4 = 0.50), the levels of S100A11 were inversely
+        related to IPF risk, with odds ratios of 0.53 (95% CIMR1 0.34-0.83, PMR1 = 0.0053).
+  c003:
+    quotes:
+    - exact: Conversely, the gene-predicted WFIKKN2 was associated with an increased risk of IPF (ORmeta
+        = 1.31, 95% CImeta 1.15-1.48, Pmeta = 2.48E-05, PPH4 = 0.50).
+  c004:
+    quotes:
+    - exact: Conversely, the gene-predicted WFIKKN2 was associated with an increased risk of IPF (ORmeta
+        = 1.31, 95% CImeta 1.15-1.48, Pmeta = 2.48E-05, PPH4 = 0.50). Their association was further supported
+        by SMR analysis.

@@ -1,0 +1,129 @@
+source:
+  citation: pmid42125665
+  local: sources/pmid42125665.txt
+  sha256: 7a94df5b0a305d7d91fd8680f7c151549ffd06a5b3cc3af9a3b6bd8bd6378c11
+  note: abstract text exactly as sent to the extractor
+claims:
+  c003-restored:
+    restored:
+      from: c003
+      notice: The quotation in this claim is the source's own text, restored by `citations restore` around
+        text the original quotation left out. It is not what the quoting party wrote; that is `original`,
+        which is not found in the source as written.
+      original: The expression changes of HSPB1, KRT14, and SFN were further validated using animal models.
+        This study systematically identified HSPB1, KRT14, and SFN as potential biomarkers for patients
+        with DN.
+      source:
+        citation: pmid42125665
+        local: sources/pmid42125665.txt
+        sha256: 7a94df5b0a305d7d91fd8680f7c151549ffd06a5b3cc3af9a3b6bd8bd6378c11
+      text:
+        extractor: text
+        sha256: 7a94df5b0a305d7d91fd8680f7c151549ffd06a5b3cc3af9a3b6bd8bd6378c11
+      passage:
+        start: 1656
+        end: 1864
+      omitted:
+      - start: 1748
+        end: 1759
+        tokens: 1
+        position: 15
+      fittings:
+        found: 1
+        others_contain_passage: true
+      rule:
+        name: bounded-passage
+        version: 2
+        max_omitted_tokens: 1
+        min_piece_chars: 20
+        max_fittings: 1000
+      software:
+        citations: 0.5.1
+        commit: fb89bb6104be091585f87c8d1a35aa2fd2c44b74
+    quotes:
+    - exact: 'The expression changes of HSPB1, KRT14, and SFN were further validated using animal models.
+
+        CONCLUSION: This study systematically identified HSPB1, KRT14, and SFN as potential biomarkers
+        for patients with DN.'
+  c004-restored:
+    restored:
+      from: c004
+      notice: The quotation in this claim is the source's own text, restored by `citations restore` around
+        text the original quotation left out. It is not what the quoting party wrote; that is `original`,
+        which is not found in the source as written.
+      original: The expression changes of HSPB1, KRT14, and SFN were further validated using animal models.
+        This study systematically identified HSPB1, KRT14, and SFN as potential biomarkers for patients
+        with DN.
+      source:
+        citation: pmid42125665
+        local: sources/pmid42125665.txt
+        sha256: 7a94df5b0a305d7d91fd8680f7c151549ffd06a5b3cc3af9a3b6bd8bd6378c11
+      text:
+        extractor: text
+        sha256: 7a94df5b0a305d7d91fd8680f7c151549ffd06a5b3cc3af9a3b6bd8bd6378c11
+      passage:
+        start: 1656
+        end: 1864
+      omitted:
+      - start: 1748
+        end: 1759
+        tokens: 1
+        position: 15
+      fittings:
+        found: 1
+        others_contain_passage: true
+      rule:
+        name: bounded-passage
+        version: 2
+        max_omitted_tokens: 1
+        min_piece_chars: 20
+        max_fittings: 1000
+      software:
+        citations: 0.5.1
+        commit: fb89bb6104be091585f87c8d1a35aa2fd2c44b74
+    quotes:
+    - exact: 'The expression changes of HSPB1, KRT14, and SFN were further validated using animal models.
+
+        CONCLUSION: This study systematically identified HSPB1, KRT14, and SFN as potential biomarkers
+        for patients with DN.'
+  c005-restored:
+    restored:
+      from: c005
+      notice: The quotation in this claim is the source's own text, restored by `citations restore` around
+        text the original quotation left out. It is not what the quoting party wrote; that is `original`,
+        which is not found in the source as written.
+      original: The expression changes of HSPB1, KRT14, and SFN were further validated using animal models.
+        This study systematically identified HSPB1, KRT14, and SFN as potential biomarkers for patients
+        with DN.
+      source:
+        citation: pmid42125665
+        local: sources/pmid42125665.txt
+        sha256: 7a94df5b0a305d7d91fd8680f7c151549ffd06a5b3cc3af9a3b6bd8bd6378c11
+      text:
+        extractor: text
+        sha256: 7a94df5b0a305d7d91fd8680f7c151549ffd06a5b3cc3af9a3b6bd8bd6378c11
+      passage:
+        start: 1656
+        end: 1864
+      omitted:
+      - start: 1748
+        end: 1759
+        tokens: 1
+        position: 15
+      fittings:
+        found: 1
+        others_contain_passage: true
+      rule:
+        name: bounded-passage
+        version: 2
+        max_omitted_tokens: 1
+        min_piece_chars: 20
+        max_fittings: 1000
+      software:
+        citations: 0.5.1
+        commit: fb89bb6104be091585f87c8d1a35aa2fd2c44b74
+    quotes:
+    - exact: 'The expression changes of HSPB1, KRT14, and SFN were further validated using animal models.
+
+        CONCLUSION: This study systematically identified HSPB1, KRT14, and SFN as potential biomarkers
+        for patients with DN.'

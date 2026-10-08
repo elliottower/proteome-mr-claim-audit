@@ -1,0 +1,23 @@
+source:
+  citation: pmid39778021
+  local: sources/pmid39778021.txt
+  sha256: 9177f030ead75b8430da28b660370498a93390e3828253d57a4db8c1d05b9d8a
+  url: https://pubmed.ncbi.nlm.nih.gov/39778021/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: 'Eight protein-protein pairs were identified as causal factors for HCC in the two independent
+        cohorts. For each standard deviation increase in protein-protein pair expression, susceptibility
+        to HCC fluctuated from 0.4974 (95% confidence interval [CI]: 0.2506-0.9871) for the LAT2/SPRY2
+        protein pair to 1.9763 (95% CI: 1.3009-3.0026) for the ERBIN/LAT2 protein pair.'
+  c001:
+    quotes:
+    - exact: 'Eight protein-protein pairs were identified as causal factors for HCC in the two independent
+        cohorts. For each standard deviation increase in protein-protein pair expression, susceptibility
+        to HCC fluctuated from 0.4974 (95% confidence interval [CI]: 0.2506-0.9871) for the LAT2/SPRY2
+        protein pair to 1.9763 (95% CI: 1.3009-3.0026) for the ERBIN/LAT2 protein pair.'
+  c002:
+    quotes:
+    - exact: 'However, among the significant protein pairs, only one circulating protein, TDRKH (odds
+        ratio: 0.5964, 95% CI: 0.4196-0.8476), was causally associated with HCC.'

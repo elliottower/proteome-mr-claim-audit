@@ -1,0 +1,13 @@
+source:
+  citation: pmid42432881
+  local: sources/pmid42432881.txt
+  sha256: 6fa83a5ee81c274234a2089963fabaa3a1d34c51170f81e5d844d29e54a5e3b9
+  url: https://pubmed.ncbi.nlm.nih.gov/42432881/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: 'By integrating summary-based Mendelian randomization (SMR) results with bioinformatics findings,
+        CASP7 showed a consistent protective-direction association with cataract risk (mQTL: OR [95% CI]
+        = 0.959 [0.941-0.977], FDR-adjusted P = .039; eQTL: OR [95% CI] = 0.897 [0.860-0.937], FDR-adjusted
+        P = .0046; pQTL: OR [95% CI] = 0.597 [0.483-0.738], FDR-adjusted P = .00083).'

@@ -1,0 +1,38 @@
+source:
+  citation: pmid42675719
+  local: sources/pmid42675719.txt
+  sha256: 29d6fa742fe4b7d6f1031a06d4e7d283d8cc0c8186dfede4b1e26a57f5347789
+  url: https://pubmed.ncbi.nlm.nih.gov/42675719/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: 'Inverse variance weighting analysis identified 2 plasma proteins with significant causal
+        associations with KOA: insulin-like growth factor-binding protein 3 was positively correlated
+        with KOA susceptibility (β = 0.065, odds ratio = 1.067, P = .004, 95% confidence interval: 1.021-1.115),
+        whereas collagen type XVIII alpha 1 chain was negatively correlated with KOA (β = -0.111, odds
+        ratio = 0.895, P = .005, 95% confidence interval: 0.830-0.966); no reverse causal relationships
+        were detected for either protein.'
+  c001:
+    quotes:
+    - exact: 'Inverse variance weighting analysis identified 2 plasma proteins with significant causal
+        associations with KOA: insulin-like growth factor-binding protein 3 was positively correlated
+        with KOA susceptibility (β = 0.065, odds ratio = 1.067, P = .004, 95% confidence interval: 1.021-1.115),
+        whereas collagen type XVIII alpha 1 chain was negatively correlated with KOA (β = -0.111, odds
+        ratio = 0.895, P = .005, 95% confidence interval: 0.830-0.966); no reverse causal relationships
+        were detected for either protein.'
+  c002:
+    quotes:
+    - exact: Mediation effect analysis revealed 20 plasma metabolites with significant mediating associations
+        with KOA; notably, insulin-like growth factor-binding protein 3 could downregulate the levels
+        of N-acetylmethionine and 2-O-methylascorbic acid, thereby promoting the progression of KOA.
+  c003:
+    quotes:
+    - exact: Mediation effect analysis revealed 20 plasma metabolites with significant mediating associations
+        with KOA; notably, insulin-like growth factor-binding protein 3 could downregulate the levels
+        of N-acetylmethionine and 2-O-methylascorbic acid, thereby promoting the progression of KOA.
+  c004:
+    quotes:
+    - exact: Mediation effect analysis revealed 20 plasma metabolites with significant mediating associations
+        with KOA; notably, insulin-like growth factor-binding protein 3 could downregulate the levels
+        of N-acetylmethionine and 2-O-methylascorbic acid, thereby promoting the progression of KOA.

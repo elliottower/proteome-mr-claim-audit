@@ -1,0 +1,31 @@
+source:
+  citation: pmid40355193
+  local: sources/pmid40355193.txt
+  sha256: 1a9c656af264bcc73a5e455b8aa7ed245aea86612cd7dc18d6cc5fbcf43f3c05
+  url: https://pubmed.ncbi.nlm.nih.gov/40355193/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: 'MHC class I polypeptide-related sequence B_A (MICB_MICA) and tyrosine-protein kinase receptor
+        tie-1 (TIE-1) would increase 8% and 27% COPD risk (MICB_MICA: odds ratios [OR], 1.08; 95% CI,
+        1.05-1.10; PFDR = 2.53 × 10-5; TIE-1: OR, 1.27; 95% CI, 1.13-1.43; PFDR = .012).'
+  c001:
+    quotes:
+    - exact: 'MHC class I polypeptide-related sequence B_A (MICB_MICA) and tyrosine-protein kinase receptor
+        tie-1 (TIE-1) would increase 8% and 27% COPD risk (MICB_MICA: odds ratios [OR], 1.08; 95% CI,
+        1.05-1.10; PFDR = 2.53 × 10-5; TIE-1: OR, 1.27; 95% CI, 1.13-1.43; PFDR = .012).'
+  c002:
+    quotes:
+    - exact: 'There was negative association of Septin-8 and Butyrophilin subfamily 1 member A1 (BTN1A1)
+        with overall COPD risk (Septin-8: OR, 0.68; 95% CI, 0.57-0.79; PFDR = 8.00 × 10-4 BTN1A1: OR,
+        0.82; 95% CI, 0.75-0.90; PFDR = .010).'
+  c003:
+    quotes:
+    - exact: 'There was negative association of Septin-8 and Butyrophilin subfamily 1 member A1 (BTN1A1)
+        with overall COPD risk (Septin-8: OR, 0.68; 95% CI, 0.57-0.79; PFDR = 8.00 × 10-4 BTN1A1: OR,
+        0.82; 95% CI, 0.75-0.90; PFDR = .010).'
+  c004:
+    quotes:
+    - exact: There was a protective effect of BTN1A1 on early COPD incidence (OR, 0.72; 95% CI, 0.63-0.83;
+        PFDR = .002).

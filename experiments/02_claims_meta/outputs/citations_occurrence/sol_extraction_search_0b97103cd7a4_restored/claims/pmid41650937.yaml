@@ -1,0 +1,17 @@
+source:
+  citation: pmid41650937
+  local: sources/pmid41650937.txt
+  sha256: 31b34f734fa4aec77dcf864fa5263ba0c6f06fbab55abb9bb4af801796a603a8
+  url: https://pubmed.ncbi.nlm.nih.gov/41650937/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: Literature review of 106 Bonferroni-significant results identifies 45 links (43%) confirmed
+        by different degrees of evidence, including bidirectional links between linoleate and cytochrome
+        P450 3A4 (CYP3A4) levels (p = 8.6 × 10-32).
+  c001:
+    quotes:
+    - exact: Eleven enzymes in the 106 links involve drug targets, allowing for an interpretation between
+        N-acetyl putrescine and IL1RAP (p = 2.7 × 10-7), as IL1RAP is a target of the psoriasis drug spesolimab,
+        and putrescine levels are elevated in psoriatic tissues.

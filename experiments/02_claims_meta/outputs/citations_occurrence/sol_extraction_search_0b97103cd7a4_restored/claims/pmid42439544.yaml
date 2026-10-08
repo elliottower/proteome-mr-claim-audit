@@ -1,0 +1,25 @@
+source:
+  citation: pmid42439544
+  local: sources/pmid42439544.txt
+  sha256: 409cffeb212cc6115b241cb0f46dc7110385272e21c45bba3d5117c0f1ae227b
+  url: https://pubmed.ncbi.nlm.nih.gov/42439544/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: Of these 2339 proteins, 33 showed a statistically significant effect on RCC (false discovery
+        rate < 5%), with 28 mapping outside RCC genome-wide association study loci. Using multivariable
+        mendelian randomized, we estimated the mediation effects of associated plasma proteins, finding
+        that proteins such as APOL1 mediated 2.76% of white blood cells' effect.
+  c001:
+    quotes:
+    - exact: TYMP and USP28, both inversely associated with RCC risk, showed immune-related and tumor-suppressive
+        effects, while UMOD was positively associated, potentially linking kidney biomarkers to carcinogenesis.
+  c002:
+    quotes:
+    - exact: TYMP and USP28, both inversely associated with RCC risk, showed immune-related and tumor-suppressive
+        effects, while UMOD was positively associated, potentially linking kidney biomarkers to carcinogenesis.
+  c003:
+    quotes:
+    - exact: TYMP and USP28, both inversely associated with RCC risk, showed immune-related and tumor-suppressive
+        effects, while UMOD was positively associated, potentially linking kidney biomarkers to carcinogenesis.

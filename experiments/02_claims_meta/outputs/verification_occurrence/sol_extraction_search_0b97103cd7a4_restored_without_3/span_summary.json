@@ -1,0 +1,47 @@
+{
+ "extraction": "outputs/parsed/sol_extraction_search_0b97103cd7a4_restored_without_3.jsonl",
+ "n_claims": 12664,
+ "registered_check_pass": 12661,
+ "citations_pin_found": 12661,
+ "citations_found_only_after_punctuation_folding": 0,
+ "citations_normalized_warning": 0,
+ "both_pass": 12661,
+ "span_verification_rate": 0.9997631080227416,
+ "spans_over_two_sentences": 43,
+ "citations_verify_exit": 0,
+ "failing": [
+  {
+   "pmid": "42489810",
+   "claim_index": 0,
+   "claim_id": "c000",
+   "evidence_span": "Mendelian randomization provided supportive genetic evidence for AMN, EGFR, and DCBLD2. The five-protein score provided incremental predictive information beyond CHA₂DS₂-VASc for post-AF stroke risk assessment.",
+   "registered_check": false,
+   "citations_pin": "not found",
+   "citations_warnings": [],
+   "n_sentences": 2,
+   "passes": false
+  },
+  {
+   "pmid": "42489810",
+   "claim_index": 1,
+   "claim_id": "c001",
+   "evidence_span": "Mendelian randomization provided supportive genetic evidence for AMN, EGFR, and DCBLD2. The five-protein score provided incremental predictive information beyond CHA₂DS₂-VASc for post-AF stroke risk assessment.",
+   "registered_check": false,
+   "citations_pin": "not found",
+   "citations_warnings": [],
+   "n_sentences": 2,
+   "passes": false
+  },
+  {
+   "pmid": "42489810",
+   "claim_index": 2,
+   "claim_id": "c002",
+   "evidence_span": "Mendelian randomization provided supportive genetic evidence for AMN, EGFR, and DCBLD2. The five-protein score provided incremental predictive information beyond CHA₂DS₂-VASc for post-AF stroke risk assessment.",
+   "registered_check": false,
+   "citations_pin": "not found",
+   "citations_warnings": [],
+   "n_sentences": 2,
+   "passes": false
+  }
+ ]
+}

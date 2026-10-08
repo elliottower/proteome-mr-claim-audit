@@ -1,0 +1,33 @@
+source:
+  citation: pmid38184974
+  local: sources/pmid38184974.txt
+  sha256: 59337e869daae95e193030ca493a9c4a8ebc3cf08a3f0a819d4d267a09842768
+  url: https://pubmed.ncbi.nlm.nih.gov/38184974/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: 'TNF has a negative causal association with BMD (Wald ratio β = -0.082, 95% CI: -0.165 -
+        0.000, P < 0.05) and TAC-1 has a positive causal association with BMD (IVW β = 0.042, 95% CI:
+        0.007 - 0.077, P < 0.05).'
+  c001:
+    quotes:
+    - exact: 'TNF has a negative causal association with BMD (Wald ratio β = -0.082, 95% CI: -0.165 -
+        0.000, P < 0.05) and TAC-1 has a positive causal association with BMD (IVW β = 0.042, 95% CI:
+        0.007 - 0.077, P < 0.05).'
+  c002:
+    quotes:
+    - exact: 'After adjusting PM2.5 and TAC-1, there was still a negative causal association between TNF
+        and BMD (IVW β = -0.089, 95% CI: -0.166 - -0.012, P < 0.05).'
+  c003:
+    quotes:
+    - exact: In the final drug-target MR study, the protective effect of TNF/TNF receptor 1 (TNFR1) inhibition
+        on BMD was observed.
+  c004:
+    quotes:
+    - exact: In the final drug-target MR study, the protective effect of TNF/TNF receptor 1 (TNFR1) inhibition
+        on BMD was observed.
+  c005:
+    quotes:
+    - exact: The results of drug-target MR do support TNFR1 as a promising target for OP prevention among
+        the general population.

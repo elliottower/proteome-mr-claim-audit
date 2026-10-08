@@ -1,0 +1,18 @@
+source:
+  citation: pmid41319014
+  local: sources/pmid41319014.txt
+  sha256: c206923621f05aa35793d671b31fad35de6585f708c4e642abe3ed9026d5f906
+  url: https://pubmed.ncbi.nlm.nih.gov/41319014/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: A total of 210 proteins significantly associated with PD were identified (p<0.05). Mediation
+        analysis demonstrated that CCNE1 mediated 44.17% of the neuroprotective effect (β = -0.503, p
+        = 5.8 × 10-4) through upregulating PARP16 expression (β = 0.318, p = 2.36 × 10-18), with CCNE1's
+        differential expression further validated in transcriptomic datasets.
+  c001:
+    quotes:
+    - exact: Mediation analysis demonstrated that CCNE1 mediated 44.17% of the neuroprotective effect
+        (β = -0.503, p = 5.8 × 10-4) through upregulating PARP16 expression (β = 0.318, p = 2.36 × 10-18),
+        with CCNE1's differential expression further validated in transcriptomic datasets.

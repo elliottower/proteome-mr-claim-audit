@@ -1,0 +1,21 @@
+source:
+  citation: pmid42017899
+  local: sources/pmid42017899.txt
+  sha256: 9032c322fa078dd53c172adaf1e4cabb45600a962cb9b6a079143646749a28d7
+  url: https://pubmed.ncbi.nlm.nih.gov/42017899/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: Serum NBR1, RAD51, and PARP11 are potentially causal in liver cancer pathogenesis.
+  c001:
+    quotes:
+    - exact: Serum NBR1, RAD51, and PARP11 are potentially causal in liver cancer pathogenesis.
+  c002:
+    quotes:
+    - exact: 'PARP11 was protective for hepatocellular carcinoma (OR = 0.48, 95%CI: 0.25-0.93, P = 0.030)
+        but a risk for intrahepatic cholangiocarcinoma (OR = 1.86, 95%CI: 1.04-3.33, P = 0.038).'
+  c003:
+    quotes:
+    - exact: 'PARP11 was protective for hepatocellular carcinoma (OR = 0.48, 95%CI: 0.25-0.93, P = 0.030)
+        but a risk for intrahepatic cholangiocarcinoma (OR = 1.86, 95%CI: 1.04-3.33, P = 0.038).'

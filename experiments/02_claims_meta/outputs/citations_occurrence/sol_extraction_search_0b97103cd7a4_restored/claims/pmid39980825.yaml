@@ -1,0 +1,23 @@
+source:
+  citation: pmid39980825
+  local: sources/pmid39980825.txt
+  sha256: 0bd5a7272b9d978f9e620db91fe18209f0fbcb2f962a8f4d0c3ed34c56d74d21
+  url: https://pubmed.ncbi.nlm.nih.gov/39980825/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: Under strong supportive evidence from mQTL, eQTL, and pQTL, genetically predicted levels
+        of NFKB1 are negatively correlated with the risk of OU.
+  c001:
+    quotes:
+    - exact: With moderate supportive evidence from mQTL and pQTL, genetically predicted levels of FAIM3
+        are negatively correlated with the risk of OU.
+  c002:
+    quotes:
+    - exact: Meanwhile, under low supportive evidence from eQTL and pQTL, higher genetically predicted
+        levels of JUND and lower levels of IL12β are associated with a higher risk of OU.
+  c003:
+    quotes:
+    - exact: Meanwhile, under low supportive evidence from eQTL and pQTL, higher genetically predicted
+        levels of JUND and lower levels of IL12β are associated with a higher risk of OU.

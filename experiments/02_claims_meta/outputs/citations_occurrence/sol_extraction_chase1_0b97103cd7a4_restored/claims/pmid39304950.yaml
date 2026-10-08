@@ -1,0 +1,14 @@
+source:
+  citation: pmid39304950
+  local: sources/pmid39304950.txt
+  sha256: c01f2c290341315fc674e560fd3e03acd36b14f899bdb6251ff6a748dac7f295
+  url: https://pubmed.ncbi.nlm.nih.gov/39304950/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: In addition, CCR7 on naive CD4 + T cell was positively correlated with OA.
+  c001:
+    quotes:
+    - exact: SSC-A on CD4 + T cell was negatively correlated with RA, while HLA DR on CD33- HLA DR + was
+        positively correlated with RA.

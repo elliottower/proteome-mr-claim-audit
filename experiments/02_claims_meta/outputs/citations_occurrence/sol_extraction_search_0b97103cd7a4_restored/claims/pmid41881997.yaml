@@ -1,0 +1,21 @@
+source:
+  citation: pmid41881997
+  local: sources/pmid41881997.txt
+  sha256: a271b71d949d9718ce7da30ae0f8510da985739065d9a31e36cfb1653c3fcfdb
+  url: https://pubmed.ncbi.nlm.nih.gov/41881997/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: Particularly, high FCRL6 expression is a promising biomarker for immune activation, underlined
+        by the demethylation of FCRL6 and up-regulation of gene expression and plasma protein concentrations
+        in CMV-seropositive PLHIV.
+  c001:
+    quotes:
+    - exact: Particularly, high FCRL6 expression is a promising biomarker for immune activation, underlined
+        by the demethylation of FCRL6 and up-regulation of gene expression and plasma protein concentrations
+        in CMV-seropositive PLHIV.
+  c002:
+    quotes:
+    - exact: Mendelian randomization analyses demonstrated a causal relationship between elevated FCRL6
+        expression and CMV seropositivity.

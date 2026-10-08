@@ -1,0 +1,16 @@
+source:
+  citation: pmid39478651
+  local: sources/pmid39478651.txt
+  sha256: ab43ecc86356d9dfd744c128a065eca88f3363d715bcfb7830444ffbab19591b
+  url: https://pubmed.ncbi.nlm.nih.gov/39478651/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: 'Additionally, elevated levels of FIS1 protein displayed a negative association with ED risk
+        (OR: 0.71, 95% CI: 0.55-0.92, PSMR=1.00×10⁻²).'
+  c001:
+    quotes:
+    - exact: Molecular prediction and molecular docking analysis revealed that resveratrol and quercetin
+        had protective effects against ED by targeting FIS1, and had good affinity and binding mode with
+        FIS1, respectively.

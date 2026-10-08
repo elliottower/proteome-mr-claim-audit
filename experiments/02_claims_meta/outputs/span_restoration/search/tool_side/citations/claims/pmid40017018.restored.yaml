@@ -1,0 +1,126 @@
+source:
+  citation: pmid40017018
+  local: sources/pmid40017018.txt
+  sha256: 54c04e1310593037bcc97df36166964330aa57304f09ed0c2a2d7bc72ea0c2e8
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000-restored:
+    restored:
+      from: c000
+      notice: The quotation in this claim is the source's own text, restored by `citations restore` around
+        text the original quotation left out. It is not what the quoting party wrote; that is `original`,
+        which is not found in the source as written.
+      original: MR analysis identified AFM, CRP and CFH as causal and potentially modifiable proteins.
+        The protein signatures identified in our study showed promising predictive potential for obesity.
+      source:
+        citation: pmid40017018
+        local: sources/pmid40017018.txt
+        sha256: 54c04e1310593037bcc97df36166964330aa57304f09ed0c2a2d7bc72ea0c2e8
+      text:
+        extractor: text
+        sha256: 54c04e1310593037bcc97df36166964330aa57304f09ed0c2a2d7bc72ea0c2e8
+      passage:
+        start: 1465
+        end: 1662
+      omitted:
+      - start: 1552
+        end: 1564
+        tokens: 1
+        position: 14
+      fittings:
+        found: 1
+        others_contain_passage: true
+      rule:
+        name: bounded-passage
+        version: 2
+        max_omitted_tokens: 1
+        min_piece_chars: 20
+        max_fittings: 1000
+      software:
+        citations: 0.5.1
+        commit: fb89bb6104be091585f87c8d1a35aa2fd2c44b74
+    quotes:
+    - exact: 'MR analysis identified AFM, CRP and CFH as causal and potentially modifiable proteins.
+
+        CONCLUSIONS: The protein signatures identified in our study showed promising predictive potential
+        for obesity.'
+  c001-restored:
+    restored:
+      from: c001
+      notice: The quotation in this claim is the source's own text, restored by `citations restore` around
+        text the original quotation left out. It is not what the quoting party wrote; that is `original`,
+        which is not found in the source as written.
+      original: MR analysis identified AFM, CRP and CFH as causal and potentially modifiable proteins.
+        The protein signatures identified in our study showed promising predictive potential for obesity.
+      source:
+        citation: pmid40017018
+        local: sources/pmid40017018.txt
+        sha256: 54c04e1310593037bcc97df36166964330aa57304f09ed0c2a2d7bc72ea0c2e8
+      text:
+        extractor: text
+        sha256: 54c04e1310593037bcc97df36166964330aa57304f09ed0c2a2d7bc72ea0c2e8
+      passage:
+        start: 1465
+        end: 1662
+      omitted:
+      - start: 1552
+        end: 1564
+        tokens: 1
+        position: 14
+      fittings:
+        found: 1
+        others_contain_passage: true
+      rule:
+        name: bounded-passage
+        version: 2
+        max_omitted_tokens: 1
+        min_piece_chars: 20
+        max_fittings: 1000
+      software:
+        citations: 0.5.1
+        commit: fb89bb6104be091585f87c8d1a35aa2fd2c44b74
+    quotes:
+    - exact: 'MR analysis identified AFM, CRP and CFH as causal and potentially modifiable proteins.
+
+        CONCLUSIONS: The protein signatures identified in our study showed promising predictive potential
+        for obesity.'
+  c002-restored:
+    restored:
+      from: c002
+      notice: The quotation in this claim is the source's own text, restored by `citations restore` around
+        text the original quotation left out. It is not what the quoting party wrote; that is `original`,
+        which is not found in the source as written.
+      original: MR analysis identified AFM, CRP and CFH as causal and potentially modifiable proteins.
+        The protein signatures identified in our study showed promising predictive potential for obesity.
+      source:
+        citation: pmid40017018
+        local: sources/pmid40017018.txt
+        sha256: 54c04e1310593037bcc97df36166964330aa57304f09ed0c2a2d7bc72ea0c2e8
+      text:
+        extractor: text
+        sha256: 54c04e1310593037bcc97df36166964330aa57304f09ed0c2a2d7bc72ea0c2e8
+      passage:
+        start: 1465
+        end: 1662
+      omitted:
+      - start: 1552
+        end: 1564
+        tokens: 1
+        position: 14
+      fittings:
+        found: 1
+        others_contain_passage: true
+      rule:
+        name: bounded-passage
+        version: 2
+        max_omitted_tokens: 1
+        min_piece_chars: 20
+        max_fittings: 1000
+      software:
+        citations: 0.5.1
+        commit: fb89bb6104be091585f87c8d1a35aa2fd2c44b74
+    quotes:
+    - exact: 'MR analysis identified AFM, CRP and CFH as causal and potentially modifiable proteins.
+
+        CONCLUSIONS: The protein signatures identified in our study showed promising predictive potential
+        for obesity.'

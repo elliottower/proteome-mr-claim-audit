@@ -1,0 +1,11 @@
+source:
+  citation: pmid40438617
+  local: sources/pmid40438617.txt
+  sha256: 28e47397987bcac601a29632687eae391ede1ea9739e40c7b72c2daeebf37377
+  url: https://pubmed.ncbi.nlm.nih.gov/40438617/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: 'Genetically predicted higher levels of NMRAL1 were linked to a reduced risk of PHN (IVW
+        odds ratio = 0.553, 95% confidence interval: 0.405-0.755, p = 0.000193).'

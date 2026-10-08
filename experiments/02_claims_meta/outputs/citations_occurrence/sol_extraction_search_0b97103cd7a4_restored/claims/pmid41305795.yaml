@@ -1,0 +1,21 @@
+source:
+  citation: pmid41305795
+  local: sources/pmid41305795.txt
+  sha256: 0f8f68cdaf904f4d23efb89371a35397d8785c339b5eca312a5815e11e987257
+  url: https://pubmed.ncbi.nlm.nih.gov/41305795/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: Higher IL-2 receptor subunit beta (IL-2RB) levels were protective against CDC (OR = 0.827,
+        95% CI = 0.718-0.953, P < .01), whereas increased IL-22 receptor subunit alpha-1 (IL-22RA1) levels
+        elevated CDC risk (OR = 1.300, 95% CI = 1.078-1.570, P < .01).
+  c001:
+    quotes:
+    - exact: Higher IL-2 receptor subunit beta (IL-2RB) levels were protective against CDC (OR = 0.827,
+        95% CI = 0.718-0.953, P < .01), whereas increased IL-22 receptor subunit alpha-1 (IL-22RA1) levels
+        elevated CDC risk (OR = 1.300, 95% CI = 1.078-1.570, P < .01).
+  c002:
+    quotes:
+    - exact: Mediation MR analysis suggested that 17.4% (-6.21%, 41%) of IL-2RB's protective effect on
+        CDC was mediated through this metabolite.

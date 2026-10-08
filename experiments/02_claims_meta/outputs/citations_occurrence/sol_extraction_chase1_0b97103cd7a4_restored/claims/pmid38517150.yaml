@@ -1,0 +1,15 @@
+source:
+  citation: pmid38517150
+  local: sources/pmid38517150.txt
+  sha256: cdb3972725e69fe1039e7f8d378a74d628aa095fc530051d22bbc76b28ca47dd
+  url: https://pubmed.ncbi.nlm.nih.gov/38517150/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: 'We finally identified the drug target: ENPP2/Autotaxin and genetically proxied ENPP2/Autotaxin
+        was causally associated with the risk of ALD (OR = 2.28, 95% CI: 1.64 to 3.16, p = 7.49E-7).'
+  c001:
+    quotes:
+    - exact: 'In addition, we found that the effect of ENPP2/Autotaxin on ALD may be partly mediated by
+        effector memory CD8+ T cell (the proportion of mediation effect: 8.49%).'

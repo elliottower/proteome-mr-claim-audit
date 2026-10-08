@@ -1,0 +1,14 @@
+source:
+  citation: pmid42698651
+  local: sources/pmid42698651.txt
+  sha256: 0f13651e9878c2c1c16df0bfafe77a4f0d2c416eae9fc0728df25269d9627b52
+  url: https://pubmed.ncbi.nlm.nih.gov/42698651/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: Poly(adenosine diphosphate-ribose) polymerase 1 (PARP1) was established as a causal risk
+        factor and druggable target for melanoma.
+  c001:
+    quotes:
+    - exact: Elevated PARP1 expression in melanoma tissues correlated with poor patient survival.

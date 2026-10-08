@@ -1,0 +1,25 @@
+source:
+  citation: pmid36280454
+  local: sources/pmid36280454.txt
+  sha256: 4c3dab6253b15cba549b365a86c9b182087ada270ce50e33c911160efdc2c37e
+  url: https://pubmed.ncbi.nlm.nih.gov/36280454/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: A 1 standard deviation increase in the genetically predicted circulating TIMP4 level was
+        associated with a reduced risk of anorexia nervosa (minimum odds ratio [OR] = 0.83; 95% CI, 0.76-0.91)
+        and bipolar disorder (minimum OR = 0.88; 95% CI, 0.82-0.94).
+  c001:
+    quotes:
+    - exact: A 1 standard deviation increase in the genetically predicted circulating TIMP4 level was
+        associated with a reduced risk of anorexia nervosa (minimum odds ratio [OR] = 0.83; 95% CI, 0.76-0.91)
+        and bipolar disorder (minimum OR = 0.88; 95% CI, 0.82-0.94).
+  c002:
+    quotes:
+    - exact: A 1 standard deviation increase in the genetically predicted circulating ESAM level was associated
+        with an increased risk of schizophrenia (maximum OR = 1.32; 95% CI, 1.22-1.43).
+  c003:
+    quotes:
+    - exact: For instance, a 1 standard deviation increase in the ERLEC1-201-to-ERLEC1-202 splice variant
+        ratio was associated with a reduced risk of schizophrenia (OR = 0.94; 95% CI, 0.90-0.97).

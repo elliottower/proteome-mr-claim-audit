@@ -1,0 +1,44 @@
+{
+ "set": "two_fittings",
+ "two_fittings_records": 3,
+ "two_fittings_with_every_listed_field_unchanged": 0,
+ "transitions": {
+  "direction_check": {
+   "not_applicable -> not_applicable": 3
+  },
+  "direction_method": {
+   "none -> none": 3
+  },
+  "enters_direction_results": {
+   "False -> False": 3
+  },
+  "enters_registry": {
+   "False -> False": 3
+  },
+  "first_failure": {
+   "span_not_verified -> outcome_unmapped": 3
+  },
+  "outcome_ids": {
+   "same": 3
+  },
+  "outcome_mapping_state": {
+   "unmapped -> unmapped": 3
+  },
+  "parsed_direction": {
+   "None -> None": 3
+  },
+  "protein_ids": {
+   "same": 3
+  },
+  "protein_mapping_state": {
+   "mapped -> mapped": 3
+  }
+ },
+ "two_fittings_entering_registry_before": 0,
+ "two_fittings_entering_registry_after": 0,
+ "two_fittings_in_direction_results_before": 0,
+ "two_fittings_in_direction_results_after": 0,
+ "other_records": 12661,
+ "other_records_differing": [],
+ "other_records_differing_share_a_paper_with_a_two_fittings_record": 0
+}

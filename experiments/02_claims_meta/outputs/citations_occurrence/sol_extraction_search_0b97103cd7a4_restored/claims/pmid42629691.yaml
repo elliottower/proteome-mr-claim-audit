@@ -1,0 +1,11 @@
+source:
+  citation: pmid42629691
+  local: sources/pmid42629691.txt
+  sha256: d9c0dfb24dfc823c36f03e8cbde59e66040024e1f2345c3809bd92aac9b5daad
+  url: https://pubmed.ncbi.nlm.nih.gov/42629691/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: 'Mendelian randomization identified Apolipoprotein E (APOE) as causally protective against
+        LBP (OR = 0.86, 95% CI: 0.81-0.91, P = 5.12 × 10-7).'

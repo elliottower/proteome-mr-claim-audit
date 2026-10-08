@@ -1,0 +1,118 @@
+{
+ "set": "restored",
+ "restored_records": 36,
+ "restored_with_every_listed_field_unchanged": 0,
+ "transitions": {
+  "direction_check": {
+   "agrees -> agrees": 7,
+   "direction_unverified -> direction_unverified": 3,
+   "not_applicable -> not_applicable": 26
+  },
+  "direction_method": {
+   "estimate -> estimate": 5,
+   "lexicon -> lexicon": 2,
+   "none -> none": 29
+  },
+  "enters_direction_results": {
+   "False -> False": 31,
+   "False -> True": 5
+  },
+  "enters_registry": {
+   "False -> False": 17,
+   "False -> True": 19
+  },
+  "first_failure": {
+   "span_not_verified -> None": 19,
+   "span_not_verified -> not_mr_estimate": 8,
+   "span_not_verified -> outcome_unmapped": 6,
+   "span_not_verified -> protein_unmapped": 3
+  },
+  "outcome_ids": {
+   "same": 36
+  },
+  "outcome_mapping_state": {
+   "ambiguous -> ambiguous": 9,
+   "mapped -> mapped": 16,
+   "unmapped -> unmapped": 11
+  },
+  "parsed_direction": {
+   "None -> None": 29,
+   "lowers -> lowers": 5,
+   "reported_nonsignificant_or_null -> reported_nonsignificant_or_null": 2
+  },
+  "protein_ids": {
+   "same": 36
+  },
+  "protein_mapping_state": {
+   "mapped -> mapped": 33,
+   "unmapped -> unmapped": 3
+  }
+ },
+ "restored_entering_registry_before": 0,
+ "restored_entering_registry_after": 19,
+ "restored_in_direction_results_before": 0,
+ "restored_in_direction_results_after": 5,
+ "other_records": 12628,
+ "other_records_differing": [],
+ "other_records_differing_share_a_paper_with_a_restored_record": 0,
+ "without_3_records_set_apart": {
+  "set_apart": [
+   "42489810:000",
+   "42489810:001",
+   "42489810:002"
+  ],
+  "set": "restored",
+  "restored_records": 33,
+  "restored_with_every_listed_field_unchanged": 0,
+  "transitions": {
+   "direction_check": {
+    "agrees -> agrees": 7,
+    "direction_unverified -> direction_unverified": 3,
+    "not_applicable -> not_applicable": 23
+   },
+   "direction_method": {
+    "estimate -> estimate": 5,
+    "lexicon -> lexicon": 2,
+    "none -> none": 26
+   },
+   "enters_direction_results": {
+    "False -> False": 28,
+    "False -> True": 5
+   },
+   "enters_registry": {
+    "False -> False": 14,
+    "False -> True": 19
+   },
+   "first_failure": {
+    "span_not_verified -> None": 19,
+    "span_not_verified -> not_mr_estimate": 8,
+    "span_not_verified -> outcome_unmapped": 3,
+    "span_not_verified -> protein_unmapped": 3
+   },
+   "outcome_ids": {
+    "same": 33
+   },
+   "outcome_mapping_state": {
+    "ambiguous -> ambiguous": 9,
+    "mapped -> mapped": 16,
+    "unmapped -> unmapped": 8
+   },
+   "parsed_direction": {
+    "None -> None": 26,
+    "lowers -> lowers": 5,
+    "reported_nonsignificant_or_null -> reported_nonsignificant_or_null": 2
+   },
+   "protein_ids": {
+    "same": 33
+   },
+   "protein_mapping_state": {
+    "mapped -> mapped": 30,
+    "unmapped -> unmapped": 3
+   }
+  },
+  "restored_entering_registry_before": 0,
+  "restored_entering_registry_after": 19,
+  "restored_in_direction_results_before": 0,
+  "restored_in_direction_results_after": 5
+ }
+}

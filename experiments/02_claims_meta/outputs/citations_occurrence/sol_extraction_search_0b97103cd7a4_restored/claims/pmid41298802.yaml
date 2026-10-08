@@ -1,0 +1,43 @@
+source:
+  citation: pmid41298802
+  local: sources/pmid41298802.txt
+  sha256: f4765a0cc32ba5e5c23427c614a07ef964faa9e2a32fcfa21da9999ee6f52e2b
+  url: https://pubmed.ncbi.nlm.nih.gov/41298802/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: This approach identified 27 circulating proteins with significant causal associations to
+        PHC risk (false discovery rate <0.05). INHBC, a TGF-β superfamily ligand, emerged as the top pathogenic
+        candidate, and mechanistic experiments revealed that it activates ACVR2B-Smad2 signaling to drive
+        hepatocellular carcinoma cell proliferation and invasion.
+  c001:
+    quotes:
+    - exact: INHBC, a TGF-β superfamily ligand, emerged as the top pathogenic candidate, and mechanistic
+        experiments revealed that it activates ACVR2B-Smad2 signaling to drive hepatocellular carcinoma
+        cell proliferation and invasion.
+  c002:
+    quotes:
+    - exact: INHBC, a TGF-β superfamily ligand, emerged as the top pathogenic candidate, and mechanistic
+        experiments revealed that it activates ACVR2B-Smad2 signaling to drive hepatocellular carcinoma
+        cell proliferation and invasion.
+  c003:
+    quotes:
+    - exact: Importantly, ACVR2B blockade with Bimagrumab-a clinical-stage antibody-suppressed INHBC-driven
+        tumor growth in a mouse xenograft model (~42% tumor volume reduction vs. controls, P = 0.008).
+  c004:
+    quotes:
+    - exact: Cross-phenotype analyses linked PHC genetically to metabolic liver diseases, and Bayesian
+        colocalization confirmed shared causal variants at the NCAN locus (PPH4 = 0.782).
+  c005:
+    quotes:
+    - exact: Complementary druggability profiling prioritized ACVR2B and C1QA as actionable targets. These
+        findings establish the INHBC-ACVR2B axis as a validated pathogenic mechanism in PHC and underscore
+        the potential of repurposing ACVR2B inhibitors (e.g., Bimagrumab) as a precision oncology strategy
+        for PHC management.
+  c006:
+    quotes:
+    - exact: Complementary druggability profiling prioritized ACVR2B and C1QA as actionable targets. These
+        findings establish the INHBC-ACVR2B axis as a validated pathogenic mechanism in PHC and underscore
+        the potential of repurposing ACVR2B inhibitors (e.g., Bimagrumab) as a precision oncology strategy
+        for PHC management.

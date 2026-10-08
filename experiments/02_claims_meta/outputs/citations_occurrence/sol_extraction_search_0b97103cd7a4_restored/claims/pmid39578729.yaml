@@ -1,0 +1,24 @@
+source:
+  citation: pmid39578729
+  local: sources/pmid39578729.txt
+  sha256: 3a4a0d7089c64148e30035ae8a8f09d602eba58b9e383d31be1d9333722b3a07
+  url: https://pubmed.ncbi.nlm.nih.gov/39578729/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: PNKP gene expression in certain brain regions was protective against migraine, while its
+        plasma protein levels were positively associated with migraine risk.
+  c001:
+    quotes:
+    - exact: PNKP gene expression in certain brain regions was protective against migraine, while its
+        plasma protein levels were positively associated with migraine risk. MRVI1 showed protective effects
+        at the protein level but had the opposite effect at the gene expression level.
+  c002:
+    quotes:
+    - exact: Mediation analysis revealed that the glutamate to pyruvate ratio and 3-CMPFP mediated PNKP's
+        effects on migraine.
+  c003:
+    quotes:
+    - exact: PheWAS indicated associations between PNKP and body composition traits, suggesting drug safety
+        considerations.
