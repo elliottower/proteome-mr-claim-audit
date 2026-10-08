@@ -1,0 +1,6 @@
+{"record_id":"A","kind":"journal","search_sources":["pubmed","epmc","openalex"],"chase_round":null,"journal":"Journal One","openalex_ids":["W_A"],"has_reference_list":true,"referenced_works":["W_OLD"],"first_author_country":null}
+{"record_id":"PA","kind":"preprint","search_sources":["epmc"],"chase_round":null,"journal":null,"openalex_ids":["W_PA"],"has_reference_list":true,"referenced_works":["W_OLD"],"first_author_country":null}
+{"record_id":"B","kind":"journal","search_sources":["pubmed"],"chase_round":null,"journal":"Journal Two","openalex_ids":["W_B"],"has_reference_list":true,"referenced_works":["W_PA","W_OLD"],"first_author_country":null}
+{"record_id":"C","kind":"journal","search_sources":["pubmed","openalex"],"chase_round":null,"journal":"Journal One","openalex_ids":["W_C"],"has_reference_list":true,"referenced_works":["W_X"],"first_author_country":null}
+{"record_id":"D","kind":"journal","search_sources":[],"chase_round":1,"journal":"Journal Three","openalex_ids":["W_D"],"has_reference_list":false,"referenced_works":[],"first_author_country":null}
+{"record_id":"E","kind":"journal","search_sources":["epmc","openalex"],"chase_round":null,"journal":"Journal Two","openalex_ids":["W_E"],"has_reference_list":true,"referenced_works":["W_A"],"first_author_country":null}
