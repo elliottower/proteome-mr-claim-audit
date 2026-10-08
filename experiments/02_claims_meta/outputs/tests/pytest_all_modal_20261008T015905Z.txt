@@ -1,0 +1,48 @@
+........................................................................ [  6%]
+............F........................................................... [ 13%]
+........................................................................ [ 20%]
+........................................................................ [ 27%]
+........................................................................ [ 33%]
+........................................................................ [ 40%]
+........................................................................ [ 47%]
+........................................................................ [ 54%]
+.........s.............................................................. [ 61%]
+........................................................................ [ 67%]
+........................................................................ [ 74%]
+........................................................................ [ 81%]
+........................................................................ [ 88%]
+........................................................................ [ 95%]
+....................................................                     [100%]
+=================================== FAILURES ===================================
+_ test_each_kind_of_failure_takes_its_class[Higher PCSK9 raised LDL\xadcholesterol\u200b in 12,000 people.-after_unicode_normalisation] _
+
+span = 'Higher PCSK9 raised LDL\xadcholesterol\u200b in 12,000 people.'
+expected = 'after_unicode_normalisation'
+
+    @pytest.mark.parametrize("span,expected", [
+        (TWICE.replace("–", "-"), "after_unicode_normalisation"),
+        (ONCE.replace("LDL cholesterol", "LDL­cholesterol").replace(" in ", "​ in "),
+         "after_unicode_normalisation"),
+        (ONCE.replace("LDL", "<i>LDL</i>").replace("12,000", "12,000&nbsp;"),
+         "after_removing_markup"),
+        ("Higher PCSK9 raised LDL cholesterol ... several targets were supported",
+         "joined_with_an_ellipsis"),
+        ("Higher PCSK9 raised LDL cholesterol several targets were supported by the genetic "
+         "evidence", "pieces_joined"),
+        ("Higher PCSK9 raised LDL cholesterol in 12,500 people.", "near_match"),
+        ("Higher PCSK9 strongly raised LDL cholesterol in 12,000 people.", "near_match"),
+        ("Sortilin was associated with an entirely different outcome in another cohort of men.",
+         "no_close_counterpart"),
+    ])
+    def test_each_kind_of_failure_takes_its_class(span, expected):
+>       assert cls(span)["class"] == expected
+E       AssertionError: assert 'near_match' == 'after_unicode_normalisation'
+E         
+E         - after_unicode_normalisation
+E         + near_match
+
+test_classify_failed_spans.py:40: AssertionError
+- generated xml file: /vol/02_claims_meta/prefreeze_checks/all_tests_20261008T015905Z/pytest.xml -
+=========================== short test summary info ============================
+SKIPPED [1] test_no_abstract.py:355: the known-item abstracts are not in this copy
+1 failed, 1058 passed, 1 skipped in 14.47s
