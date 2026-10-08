@@ -1,0 +1,197 @@
+{
+ "inputs": "/tmp/dry_run_biology/inputs",
+ "window": "confirmatory",
+ "claim_records": 13,
+ "resources": {
+  "ontology_edges": "/tmp/dry_run_biology/resources/ontology_edges.csv",
+  "therapeutic_areas": "/tmp/dry_run_biology/resources/therapeutic_areas.csv",
+  "therapeutic_area_names": "/tmp/dry_run_biology/resources/therapeutic_area_names.csv",
+  "assay_lists": "/tmp/dry_run_biology/resources/assay_lists.csv",
+  "attachments": "/tmp/dry_run_biology/resources/attachments.csv",
+  "author_lists": "/exp/verification/author_supplied_lists.csv",
+  "reactome": "/tmp/dry_run_biology/resources/UniProt2Reactome.txt",
+  "snapshot_estimates": "/tmp/dry_run_biology/resources/mrres_estimates.jsonl",
+  "protein_mapping": "/tmp/dry_run_biology/resources/protein_mapping.csv",
+  "trait_mapping": "/tmp/dry_run_biology/resources/trait_mapping.csv",
+  "locus_list": "/tmp/dry_run_biology/resources/loci.csv"
+ },
+ "written_utc": "2026-10-08T03:06:27+00:00",
+ "rule": "minimum_cover",
+ "counted_unit": "claim_record",
+ "proteins": 5,
+ "hubs": 1,
+ "hubs_with_pleiotropic_locus_named": 1,
+ "proteins_by_areas_counted": {
+  "0": 2,
+  "1": 2,
+  "3": 1
+ },
+ "abstracts": 7,
+ "abstracts_with_pleiotropic_locus_named": 1,
+ "area_names": {
+  "AREA:cardio": "cardiovascular",
+  "AREA:genetic": "genetic",
+  "AREA:cancer": "cancer",
+  "AREA:resp": "respiratory",
+  "EFO:0001444": "measurement"
+ },
+ "hub_proteins": [
+  {
+   "protein_id": "Q00001",
+   "areas": [
+    "AREA:cancer",
+    "AREA:cardio",
+    "AREA:genetic",
+    "AREA:resp"
+   ],
+   "minimum_areas": 3,
+   "n_distinct_areas": 4,
+   "n_counted_outcomes": 3,
+   "n_causal_or_target_claims": 4,
+   "n_registry_claims": 6,
+   "n_families": 3,
+   "pleiotropic_locus_named": true,
+   "pleiotropic_genes_named": [
+    "ABO"
+   ]
+  }
+ ],
+ "expected_from_claim_volume": {
+  "counted_unit": "claim_record",
+  "counted_claim_records_with_a_disease_area": 7,
+  "observed_hubs": 1,
+  "expected_hubs": 0.441,
+  "observed_over_expected": 2.2675736961451247,
+  "permutation_interval": [
+   0.0,
+   1.0
+  ],
+  "permutations": 1000,
+  "seed": [
+   20261001,
+   2
+  ]
+ },
+ "sensitivity_null_result_claims_counted": {
+  "rule": "minimum_cover",
+  "counted_unit": "claim_record",
+  "proteins": 5,
+  "hubs": 1,
+  "hubs_with_pleiotropic_locus_named": 1,
+  "proteins_by_areas_counted": {
+   "0": 2,
+   "1": 2,
+   "3": 1
+  },
+  "abstracts": 7,
+  "abstracts_with_pleiotropic_locus_named": 1,
+  "hub_proteins": [
+   {
+    "protein_id": "Q00001",
+    "areas": [
+     "AREA:cancer",
+     "AREA:cardio",
+     "AREA:genetic",
+     "AREA:resp"
+    ],
+    "minimum_areas": 3,
+    "n_distinct_areas": 4,
+    "n_counted_outcomes": 3,
+    "n_causal_or_target_claims": 4,
+    "n_registry_claims": 6,
+    "n_families": 3,
+    "pleiotropic_locus_named": true,
+    "pleiotropic_genes_named": [
+     "ABO"
+    ]
+   }
+  ]
+ },
+ "sensitivity_distinct_therapeutic_areas": {
+  "rule": "distinct_areas",
+  "counted_unit": "claim_record",
+  "proteins": 5,
+  "hubs": 1,
+  "hubs_with_pleiotropic_locus_named": 1,
+  "proteins_by_areas_counted": {
+   "0": 2,
+   "1": 1,
+   "2": 1,
+   "4": 1
+  },
+  "abstracts": 7,
+  "abstracts_with_pleiotropic_locus_named": 1,
+  "hub_proteins": [
+   {
+    "protein_id": "Q00001",
+    "areas": [
+     "AREA:cancer",
+     "AREA:cardio",
+     "AREA:genetic",
+     "AREA:resp"
+    ],
+    "minimum_areas": 3,
+    "n_distinct_areas": 4,
+    "n_counted_outcomes": 3,
+    "n_causal_or_target_claims": 4,
+    "n_registry_claims": 6,
+    "n_families": 3,
+    "pleiotropic_locus_named": true,
+    "pleiotropic_genes_named": [
+     "ABO"
+    ]
+   }
+  ]
+ },
+ "sensitivity_family_pair_collapsed": {
+  "rule": "minimum_cover",
+  "counted_unit": "family_pair",
+  "proteins": 5,
+  "hubs": 1,
+  "hubs_with_pleiotropic_locus_named": 1,
+  "proteins_by_areas_counted": {
+   "0": 2,
+   "1": 2,
+   "3": 1
+  },
+  "abstracts": 7,
+  "abstracts_with_pleiotropic_locus_named": 1,
+  "hub_proteins": [
+   {
+    "protein_id": "Q00001",
+    "areas": [
+     "AREA:cancer",
+     "AREA:cardio",
+     "AREA:genetic",
+     "AREA:resp"
+    ],
+    "minimum_areas": 3,
+    "n_distinct_areas": 4,
+    "n_counted_outcomes": 3,
+    "n_causal_or_target_claims": 4,
+    "n_registry_claims": 6,
+    "n_families": 3,
+    "pleiotropic_locus_named": true,
+    "pleiotropic_genes_named": [
+     "ABO"
+    ]
+   }
+  ],
+  "expected_from_claim_volume": {
+   "counted_unit": "family_pair",
+   "counted_claim_records_with_a_disease_area": 7,
+   "observed_hubs": 1,
+   "expected_hubs": 0.441,
+   "observed_over_expected": 2.2675736961451247,
+   "permutation_interval": [
+    0.0,
+    1.0
+   ],
+   "permutations": 1000,
+   "seed": [
+    20261001,
+    2
+   ]
+  }
+ }
+}
