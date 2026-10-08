@@ -1,0 +1,40 @@
+{
+ "written_utc": "2026-10-08T05:31:00+00:00",
+ "rows": 4,
+ "first_check_by_category": {
+  "release_not_identified": 1,
+  "coded": 1,
+  "dataset_absent_from_dictionary": 2
+ },
+ "by_side": {
+  "outcome": 4
+ },
+ "coded_basis": {
+  "source_identifier": 1
+ },
+ "gate": {
+  "attempts": 3,
+  "attempts_passed": 3,
+  "rows": 4,
+  "rows_failed": 0,
+  "rows_with_a_warning": 0
+ },
+ "first_run_unchanged": {
+  "folders": [
+   "outputs/manual_coding/2026-10-03",
+   "outputs/citations/manual_coding_2026-10-03"
+  ],
+  "tracked_files": 7476,
+  "tracked_files_modified_or_deleted": 0,
+  "manual_dataset_codes_sha256": "d580e9f41317fdf9d0a984b7575eda397db84f431ea516f29ee934c076131740",
+  "manual_dataset_codes_equal_to_committed": true,
+  "coded_rows_in_committed_table": 196,
+  "extended_record_sha256": "e730f1933bad9468fb05f206f286a265725651d39210c7a90a090c7940c1e6bd",
+  "holds": true
+ },
+ "coded_rows_resting_on_a_reference_entry": 0,
+ "coded_source_read": {
+  "full_text": 1
+ },
+ "note": "supersedes superseded_first_check_result_wrong_category_label.json, which counted the coded row under a wrong label (the status column is empty at this stage); everything else is the same"
+}

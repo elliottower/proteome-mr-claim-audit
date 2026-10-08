@@ -1,0 +1,20 @@
+Second check of the 4 new rows: ingest, prepared and not run.
+
+The answer the checker returns for batch_24.md is saved, as returned, as
+    planning/perplexity_paper1_check2_answers_new_rows/batch_24_fable_prompt_v4.md
+(the folder exists and is empty; planning/ is not committed). Then, from experiments/02_claims_meta:
+
+    uv run scripts/manual_coding_check2_ingest_v3.py ingest \
+        --answers ../../planning/perplexity_paper1_check2_answers_new_rows \
+        --batches ../../planning/perplexity_paper1_check2_run_new_rows \
+        --coders outputs/manual_coding/2026-10-03_new_rows/coders \
+        --out ../../planning/perplexity_paper1_check2_ingest_new_rows/run_01
+
+    uv run scripts/manual_coding_table_v6.py second-check \
+        --ingested ../../planning/perplexity_paper1_check2_ingest_new_rows/run_01 \
+        --codes outputs/manual_coding/2026-10-03_new_rows/manual_dataset_codes_extended_1_first_check.csv \
+        --out outputs/manual_coding/2026-10-03_new_rows/manual_dataset_codes_extended_2_second_check.csv
+
+A batch that fails a check is rerun by the author with the same three files; no answer is repaired by hand.
+A rerun's answer is saved beside the first under another name (batch_24_<anything>.md) and the ingest is
+run again into run_02.

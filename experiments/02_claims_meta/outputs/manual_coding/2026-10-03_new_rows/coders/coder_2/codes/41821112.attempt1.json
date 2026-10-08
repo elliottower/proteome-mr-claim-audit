@@ -1,0 +1,24 @@
+{
+ "record_id": "41821112",
+ "coder_id": "coder_2",
+ "attempt": 1,
+ "rows": [
+  {
+   "side": "outcome",
+   "name_as_written": "UKB",
+   "value": "MRC-IEU UK Biobank GWAS pipeline (OpenGWAS ukb-b)",
+   "unresolved_reason": null,
+   "identification_basis": "source_identifier",
+   "source_read": "full_text",
+   "passage_id": "p002",
+   "quote": "For validation, we used the FinnGen_L12_PSORIASIS dataset, comprising 10,312 cases and 397,564 controls, as well as the UKB-b-10,537 dataset, which includes 5341 cases and 457,619 controls.",
+   "citations_claim": "claims/41821112.yaml#outcome_1",
+   "companion_source": false,
+   "reference_label": null,
+   "reference_quote": null,
+   "reference_citations_claim": null,
+   "dataset_named_in_source": null,
+   "coder_note": "Decision order step 2: the sentence gives the OpenGWAS accession UKB-b-10,537 (ukb-b-10537), whose prefix ukb-b only the MRC-IEU row lists. Rule C4 case 1 (prefix listed by a dictionary row, nothing conflicts): the stated 5341 cases + 457,619 controls = 462,960 is a trait-specific N within the row's 463,005 and exactly identifies no other release (rule H); no ancestry is stated; Table 1 (p003) gives the same accession with 534/457,619, a discrepancy in the case count that points to no other row."
+  }
+ ]
+}

@@ -4,4 +4,8 @@ source:
   sha256: 250fa49adfdc0a79c2a2cc054ad7eec6069fc92a099c01b749b9471509768cfb
   url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12980989/fullTextXML
   note: body as scripts/fetch_fulltext.py rendered it
-claims: {}
+claims:
+  outcome_1:
+    quotes:
+    - exact: For validation, we used the FinnGen_L12_PSORIASIS dataset, comprising 10,312 cases and 397,564
+        controls, as well as the UKB-b-10,537 dataset, which includes 5341 cases and 457,619 controls.
