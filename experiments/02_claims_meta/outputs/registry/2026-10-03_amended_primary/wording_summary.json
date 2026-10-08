@@ -1,0 +1,55 @@
+{
+ "extraction": [
+  "outputs/span_restoration/search/sol_extraction_search_0b97103cd7a4_restored.jsonl",
+  "outputs/span_restoration/chase1/sol_extraction_chase1_0b97103cd7a4_restored.jsonl",
+  "outputs/parsed/sol_extraction_chase2_0b97103cd7a4.jsonl",
+  "outputs/parsed/sol_extraction_chase3_0b97103cd7a4.jsonl"
+ ],
+ "n_records": 14053,
+ "wording_class": {
+  "causal": 2703,
+  "association": 9508,
+  "target": 1842
+ },
+ "wording_class_unmasked": {
+  "causal": 2738,
+  "association": 9470,
+  "target": 1845
+ },
+ "class_changed_by_name_masking": {
+  "causal -> association": 35,
+  "target -> association": 3
+ },
+ "keyword_matches_inside_a_name": {
+  "outcome:cause": 31,
+  "outcome:effect of": 4,
+  "outcome:treatment": 1,
+  "outcome:drug": 4,
+  "outcome:target": 1
+ },
+ "wording_keyword": {
+  "causal": 2491,
+  "cause": 55,
+  "effect of": 157,
+  "target": 1533,
+  "drug": 55,
+  "repurpos": 23,
+  "intervention": 17,
+  "therapeutic": 81,
+  "druggable": 114,
+  "treatment": 19
+ },
+ "novelty_language": 425,
+ "novelty_language_unmasked": 425,
+ "novelty_language_removed_by_name_masking": 0,
+ "novelty_matches_inside_a_name": {
+  "outcome:newly": 5
+ },
+ "novelty_terms": {
+  "novel": 347,
+  "newly": 72,
+  "not previously": 15,
+  "for the first time": 8,
+  "previously unreported": 7
+ }
+}

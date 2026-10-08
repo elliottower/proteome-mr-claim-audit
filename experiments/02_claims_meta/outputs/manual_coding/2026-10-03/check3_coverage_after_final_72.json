@@ -1,0 +1,64 @@
+{
+ "written_utc": "2026-10-08T12:29:32+00:00",
+ "first_run_record": "manual_dataset_codes_extended_10_final_72.csv",
+ "first_run_record_sha256": "76b965da3960bad9f28e79cba7b0d8ed54da8c6f5510c3fb8854bd679eed0c98",
+ "first_run": {
+  "coded_rows": 196,
+  "rows_with_an_author_yes": 196,
+  "rows_machine_gate_only": 0,
+  "marked_by_context": {
+   "voluntary_read_after_spot_check": 27,
+   "voluntary_read_of_remaining_rows_in_page_order": 121,
+   "second_look_page_unflagged_row": 20,
+   "spot_check_discussed_with_coordinating_session": 6,
+   "second_look_page_flagged_row": 7,
+   "spot_check_not_discussed": 14,
+   "voluntary_read_of_remaining_rows_discussed_with_coordinating_session": 1
+  },
+  "marked_by_basis": {
+   "reference_entry": 98,
+   "release_identifier": 62,
+   "source_identifier": 9,
+   "exact_n_with_platform_or_year": 23,
+   "unique_citation": 4
+  }
+ },
+ "amended_primary": {
+  "queue_rows": 876,
+  "coded_rows": 197,
+  "rows_with_an_author_yes": 197,
+  "unresolved_by_reason": {
+   "release_not_identified": 436,
+   "dataset_absent_from_dictionary": 228,
+   "conflicting_identifiers": 15
+  },
+  "tables_sha256": {
+   "a": "682dfba6c2bfe10c46b918ffd79f69f334a6e6ecea3bda32d42c686320044287",
+   "b": "682dfba6c2bfe10c46b918ffd79f69f334a6e6ecea3bda32d42c686320044287",
+   "c": "2ceb93233749b429aa1dc13e62db1c31e1b9d722199c60bff6816e1b6d03b37c"
+  },
+  "a_identical_to_the_table_written_before_these_marks": true,
+  "c_identical_to_the_table_written_before_these_marks": true,
+  "b_byte_identical_to_a": true,
+  "b_before_these_marks_sha256": "13b5ca55ad30fdbc7311737b00ce166661ebe95052b1d750f0ed403ab3ae16ac"
+ },
+ "registered_with_27": {
+  "queue_rows": 873,
+  "coded_rows": 196,
+  "rows_with_an_author_yes": 196,
+  "unresolved_by_reason": {
+   "release_not_identified": 436,
+   "dataset_absent_from_dictionary": 226,
+   "conflicting_identifiers": 15
+  },
+  "tables_sha256": {
+   "a": "d8332c0a9c88a577de35203c58edd7728450d19289b3e4f48430550e47a94430",
+   "b": "d8332c0a9c88a577de35203c58edd7728450d19289b3e4f48430550e47a94430",
+   "c": "b4dd451c57d58231d5b66202d7b85822b8c2e5e7e2fcf87e452bd2fc394a1f20"
+  },
+  "a_identical_to_the_table_written_before_these_marks": true,
+  "c_identical_to_the_table_written_before_these_marks": true,
+  "b_byte_identical_to_a": true,
+  "b_before_these_marks_sha256": "ba245f2713cce305c401112a9f56cb667a6b61adddb43a2a76ab2acc8e4c55f8"
+ }
+}

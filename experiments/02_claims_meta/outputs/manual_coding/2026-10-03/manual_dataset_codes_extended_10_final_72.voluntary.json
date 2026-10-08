@@ -1,0 +1,26 @@
+{
+ "command": "voluntary",
+ "third_check": {
+  "not_applicable": 676,
+  "author_confirmed": 196
+ },
+ "third_check_context": {
+  "none": 676,
+  "voluntary_read_after_spot_check": 27,
+  "voluntary_read_of_remaining_rows_in_page_order": 121,
+  "second_look_page_unflagged_row": 20,
+  "spot_check_discussed_with_coordinating_session": 6,
+  "second_look_page_flagged_row": 7,
+  "spot_check_not_discussed": 14,
+  "voluntary_read_of_remaining_rows_discussed_with_coordinating_session": 1
+ },
+ "status": {
+  "unresolved": 676,
+  "coded": 196
+ },
+ "set": "remaining_rows",
+ "marked_file_sha256": "62aeade952ab046b2be590522ebea36add16062cd09b98577afcb228f84d3709",
+ "marks": {
+  "yes": 72
+ }
+}
