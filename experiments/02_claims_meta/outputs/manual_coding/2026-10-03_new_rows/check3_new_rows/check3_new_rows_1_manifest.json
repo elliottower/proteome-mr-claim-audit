@@ -1,0 +1,14 @@
+{
+ "source_table": "check3_author_table.csv",
+ "source_sha256": "f6f58114614f6cb3700e1b3beafdf189a13adc5cbd49a27f7e6516c16a2a6082",
+ "seed": 1,
+ "n": 1,
+ "basis_filter": "",
+ "pool_size": 1,
+ "excluded_manifests": [],
+ "method": "random.Random(seed).sample(range(pool_size), n) over the pool in file order, then sorted",
+ "table_lines": [
+  "197"
+ ],
+ "written_at_utc": "2026-10-08T11:59:03.816787+00:00"
+}
