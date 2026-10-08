@@ -1,0 +1,353 @@
+{
+ "written_utc": "2026-10-08T17:21:26+00:00",
+ "note": "post-results diagnostic; counts only; changes no registered result or verdict",
+ "inputs_sha256": {
+  "outputs/registry/2026-10-03_amended_primary_coded_a/registry_claims.jsonl": "b5ef8c2a7f96a194fea1a1424dc6533060a053fddcb9c0ec1d350c4d38ce492c",
+  "outputs/manual_coding/2026-10-03_amended_primary/final_codes_every_coded_row_marked/manual_dataset_codes_extended.csv": "7e549c1ab8b19d3c09d5356369ab6676e10e4604c89149268ba3f19245b9518d"
+ },
+ "folders_read": {
+  "passages": [
+   "outputs/manual_coding/2026-10-03/passages",
+   "outputs/manual_coding/2026-10-03_new_rows/passages"
+  ],
+  "fulltext": [
+   "outputs/manual_coding/2026-10-03/fulltext",
+   "outputs/manual_coding/2026-10-03_new_rows/fulltext"
+  ],
+  "abstracts": [
+   "outputs/parsed/sol_eligibility_search_complete_2811496ef424.decisions.eligible_abstracts.jsonl",
+   "outputs/parsed/sol_eligibility_gateall1_2811496ef424.decisions.eligible_abstracts.jsonl",
+   "outputs/parsed/sol_eligibility_chase2_2811496ef424.decisions.eligible_abstracts.jsonl",
+   "outputs/parsed/sol_eligibility_gateall3_2811496ef424.decisions.eligible_abstracts.jsonl",
+   "outputs/parsed/sol_eligibility_chase1_2811496ef424.decisions.eligible_abstracts.jsonl"
+  ],
+  "records": [
+   "outputs/screening/2026-10-03/search_records.jsonl",
+   "outputs/screening/chase_round_1/search_records.jsonl",
+   "outputs/screening/chase_round_2/search_records.jsonl",
+   "outputs/screening/chase_round_3/search_records.jsonl"
+  ]
+ },
+ "claim_records": 3571,
+ "patterns": {
+  "sample_size_or_case_control_count": "\\b(?:n\\s*=\\s*\\d[\\d,\\s\u2009\u00a0]{2,}|\\d[\\d,\u2009\u00a0]{2,}\\d\\s+(?:cases|controls|participants|individuals|samples|subjects))",
+  "gwas_accession": "\\b(?:ukb-[a-z]-\\w+|finn-[a-z]-\\w+|ebi-a-GCST\\d+|GCST\\d{6,}|ieu-[a-z]-\\w+)",
+  "code_repository_link": "github\\.com|gitlab\\.com|bitbucket\\.org|codeocean",
+  "supplementary_material_mention": "supplement"
+ },
+ "multi_family_pairs": 245,
+ "h2": {
+  "unresolved_pairs": 234,
+  "blocking_papers": 255,
+  "blocking_mentions": 534,
+  "pairs_blocked_per_mention": {
+   "max": 12,
+   "median": 1,
+   "distribution": {
+    "1": 276,
+    "2": 121,
+    "3": 53,
+    "4": 24,
+    "5": 23,
+    "6": 12,
+    "7": 10,
+    "8": 9,
+    "9": 2,
+    "12": 4
+   }
+  },
+  "pairs_resolved_by_the_top_mentions": {
+   "10": 6,
+   "25": 19,
+   "50": 39,
+   "100": 63
+  },
+  "pairs_resolved_by_every_blocking_mention": 188,
+  "mentions_needed_to_resolve_every_pair_that_mentions_can_resolve": 434,
+  "pairs_with_an_attribution_block": 46,
+  "pairs_with_no_blocking_mention_and_no_attribution_block": 0,
+  "unresolved_pairs_by_undetermined_side": {
+   "both sides": 228,
+   "pqtl side only": 6
+  },
+  "blocking_mentions_by_side": {
+   "pqtl": 272,
+   "outcome": 262
+  },
+  "blocking_mentions_by_mapping_state": {
+   "not_stated": 369,
+   "release_ambiguous": 93,
+   "unmatched": 72
+  },
+  "blocking_mentions_by_manual_coding_category": {
+   "conflicting_identifiers": 3,
+   "dataset_absent_from_dictionary": 46,
+   "never queued: no dataset named": 369,
+   "release_not_identified": 116
+  },
+  "blocking_mentions_by_side_and_category": {
+   "pqtl": {
+    "conflicting_identifiers": 1,
+    "dataset_absent_from_dictionary": 18,
+    "never queued: no dataset named": 193,
+    "release_not_identified": 60
+   },
+   "outcome": {
+    "conflicting_identifiers": 2,
+    "dataset_absent_from_dictionary": 28,
+    "never queued: no dataset named": 176,
+    "release_not_identified": 56
+   }
+  },
+  "blocking_mentions_by_resource_of_the_candidate_rows": {
+   "no dataset named": 369,
+   "named, no dictionary candidate": 72,
+   "UK Biobank": 24,
+   "candidate rows of several resources": 17,
+   "UKB-PPP": 16,
+   "FinnGen": 10,
+   "deCODE SomaScan v4": 8,
+   "PRACTICAL/ELLIPSE prostate cancer (Schumacher 2018)": 3,
+   "deCODE SomaScan v4 (Ferkingstad 2021)": 3,
+   "ARIC European American (Zhang 2022)": 2,
+   "deCODE genetics outcome GWAS (summary data)": 2,
+   "MEGASTROKE (Malik 2018)": 2,
+   "DIAGRAM T2D (Mahajan 2018)": 1,
+   "Fenland SomaScan v4 (Pietzner": 1,
+   "IGAP stage 1 (Lambert 2013)": 1,
+   "IMSGC multiple sclerosis (2019)": 1,
+   "INTERVAL SomaScan (Sun 2018)": 1,
+   "CKDGen eGFR (Wuttke 2019)": 1
+  },
+  "stored_material_for_the_blocking_mentions": {
+   "mentions": 534,
+   "mentions_with_passages_given_to_the_coders": 165,
+   "in_the_mention_s_passages": {
+    "sample_size_or_case_control_count": 74,
+    "gwas_accession": 11,
+    "code_repository_link": 0,
+    "supplementary_material_mention": 32
+   },
+   "anywhere_in_the_paper_s_stored_text": {
+    "sample_size_or_case_control_count": 220,
+    "gwas_accession": 32,
+    "code_repository_link": 20,
+    "supplementary_material_mention": 140
+   },
+   "stored_text_of_the_paper": {
+    "abstract": 409,
+    "full_text": 125
+   }
+  },
+  "stored_material_for_the_blocking_mentions_that_name_a_dataset": {
+   "mentions": 165,
+   "mentions_with_passages_given_to_the_coders": 165,
+   "in_the_mention_s_passages": {
+    "sample_size_or_case_control_count": 74,
+    "gwas_accession": 11,
+    "code_repository_link": 0,
+    "supplementary_material_mention": 32
+   },
+   "anywhere_in_the_paper_s_stored_text": {
+    "sample_size_or_case_control_count": 104,
+    "gwas_accession": 17,
+    "code_repository_link": 11,
+    "supplementary_material_mention": 81
+   },
+   "stored_text_of_the_paper": {
+    "abstract": 86,
+    "full_text": 79
+   }
+  },
+  "top_mentions_by_side_and_category": {
+   "10": {
+    "outcome: never queued: no dataset named": 4,
+    "outcome: release_not_identified": 2,
+    "pqtl: never queued: no dataset named": 4
+   },
+   "25": {
+    "outcome: dataset_absent_from_dictionary": 1,
+    "outcome: never queued: no dataset named": 6,
+    "outcome: release_not_identified": 7,
+    "pqtl: dataset_absent_from_dictionary": 1,
+    "pqtl: never queued: no dataset named": 9,
+    "pqtl: release_not_identified": 1
+   },
+   "50": {
+    "outcome: dataset_absent_from_dictionary": 1,
+    "outcome: never queued: no dataset named": 19,
+    "outcome: release_not_identified": 7,
+    "pqtl: dataset_absent_from_dictionary": 2,
+    "pqtl: never queued: no dataset named": 17,
+    "pqtl: release_not_identified": 4
+   },
+   "100": {
+    "outcome: dataset_absent_from_dictionary": 5,
+    "outcome: never queued: no dataset named": 34,
+    "outcome: release_not_identified": 13,
+    "pqtl: dataset_absent_from_dictionary": 5,
+    "pqtl: never queued: no dataset named": 33,
+    "pqtl: release_not_identified": 10
+   }
+  }
+ },
+ "h2b": {
+  "unresolved_pairs": 232,
+  "blocking_papers": 259,
+  "blocking_mentions": 509,
+  "pairs_blocked_per_mention": {
+   "max": 12,
+   "median": 1,
+   "distribution": {
+    "1": 265,
+    "2": 111,
+    "3": 55,
+    "4": 21,
+    "5": 25,
+    "6": 8,
+    "7": 12,
+    "8": 6,
+    "9": 2,
+    "12": 4
+   }
+  },
+  "pairs_resolved_by_the_top_mentions": {
+   "10": 6,
+   "25": 12,
+   "50": 35,
+   "100": 57
+  },
+  "pairs_resolved_by_every_blocking_mention": 186,
+  "mentions_needed_to_resolve_every_pair_that_mentions_can_resolve": 417,
+  "pairs_with_an_attribution_block": 46,
+  "pairs_with_no_blocking_mention_and_no_attribution_block": 0,
+  "unresolved_pairs_by_undetermined_side": {
+   "both sides": 216,
+   "outcome side only": 10,
+   "pqtl side only": 6
+  },
+  "blocking_mentions_by_side": {
+   "pqtl": 232,
+   "outcome": 277
+  },
+  "blocking_mentions_by_mapping_state": {
+   "not_stated": 371,
+   "unmatched": 76,
+   "unique": 11,
+   "release_ambiguous": 51
+  },
+  "blocking_mentions_by_manual_coding_category": {
+   "conflicting_identifiers": 2,
+   "dataset_absent_from_dictionary": 47,
+   "never queued: maps to one dictionary row": 11,
+   "never queued: no dataset named": 371,
+   "release_not_identified": 78
+  },
+  "blocking_mentions_by_side_and_category": {
+   "pqtl": {
+    "dataset_absent_from_dictionary": 18,
+    "never queued: no dataset named": 194,
+    "release_not_identified": 20
+   },
+   "outcome": {
+    "conflicting_identifiers": 2,
+    "dataset_absent_from_dictionary": 29,
+    "never queued: maps to one dictionary row": 11,
+    "never queued: no dataset named": 177,
+    "release_not_identified": 58
+   }
+  },
+  "blocking_mentions_by_resource_of_the_candidate_rows": {
+   "no dataset named": 371,
+   "named, no dictionary candidate": 76,
+   "UK Biobank": 25,
+   "FinnGen": 9,
+   "candidate rows of several resources": 6,
+   "PRACTICAL/ELLIPSE prostate cancer (Schumacher 2018)": 5,
+   "IMSGC multiple sclerosis (2019)": 3,
+   "EADB (Bellenguez 2022)": 2,
+   "deCODE genetics outcome GWAS (summary data)": 2,
+   "MEGASTROKE (Malik 2018)": 2,
+   "BCAC breast cancer (Michailidou 2017)": 2,
+   "BCAC breast cancer subtypes (Zhang 2020)": 1,
+   "DIAGRAM T2D (Mahajan 2018)": 1,
+   "UK Biobank + CARDIoGRAMplusC4D CAD (van der Harst 2018)": 1,
+   "TAGC asthma (Demenais 2018)": 1,
+   "IGAP stage 1 (Lambert 2013)": 1,
+   "CKDGen eGFR (Wuttke 2019)": 1
+  },
+  "stored_material_for_the_blocking_mentions": {
+   "mentions": 509,
+   "mentions_with_passages_given_to_the_coders": 127,
+   "in_the_mention_s_passages": {
+    "sample_size_or_case_control_count": 54,
+    "gwas_accession": 10,
+    "code_repository_link": 0,
+    "supplementary_material_mention": 24
+   },
+   "anywhere_in_the_paper_s_stored_text": {
+    "sample_size_or_case_control_count": 202,
+    "gwas_accession": 32,
+    "code_repository_link": 21,
+    "supplementary_material_mention": 133
+   },
+   "stored_text_of_the_paper": {
+    "abstract": 389,
+    "full_text": 120
+   }
+  },
+  "stored_material_for_the_blocking_mentions_that_name_a_dataset": {
+   "mentions": 138,
+   "mentions_with_passages_given_to_the_coders": 127,
+   "in_the_mention_s_passages": {
+    "sample_size_or_case_control_count": 54,
+    "gwas_accession": 10,
+    "code_repository_link": 0,
+    "supplementary_material_mention": 24
+   },
+   "anywhere_in_the_paper_s_stored_text": {
+    "sample_size_or_case_control_count": 85,
+    "gwas_accession": 17,
+    "code_repository_link": 12,
+    "supplementary_material_mention": 73
+   },
+   "stored_text_of_the_paper": {
+    "abstract": 65,
+    "full_text": 73
+   }
+  },
+  "top_mentions_by_side_and_category": {
+   "10": {
+    "outcome: never queued: no dataset named": 4,
+    "outcome: release_not_identified": 2,
+    "pqtl: never queued: no dataset named": 4
+   },
+   "25": {
+    "outcome: dataset_absent_from_dictionary": 1,
+    "outcome: never queued: maps to one dictionary row": 1,
+    "outcome: never queued: no dataset named": 8,
+    "outcome: release_not_identified": 5,
+    "pqtl: dataset_absent_from_dictionary": 1,
+    "pqtl: never queued: no dataset named": 9
+   },
+   "50": {
+    "outcome: dataset_absent_from_dictionary": 1,
+    "outcome: never queued: maps to one dictionary row": 1,
+    "outcome: never queued: no dataset named": 21,
+    "outcome: release_not_identified": 6,
+    "pqtl: dataset_absent_from_dictionary": 3,
+    "pqtl: never queued: no dataset named": 18
+   },
+   "100": {
+    "outcome: conflicting_identifiers": 1,
+    "outcome: dataset_absent_from_dictionary": 6,
+    "outcome: never queued: maps to one dictionary row": 3,
+    "outcome: never queued: no dataset named": 35,
+    "outcome: release_not_identified": 11,
+    "pqtl: dataset_absent_from_dictionary": 5,
+    "pqtl: never queued: no dataset named": 36,
+    "pqtl: release_not_identified": 3
+   }
+  }
+ }
+}
