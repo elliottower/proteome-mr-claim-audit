@@ -12,9 +12,11 @@ validation and not completion of the registered procedure.
 > holds the author's marks and his answer when asked how he had gone through them, and no
 > measure of the depth of review. The rules for what a mark would mean were committed before
 > the marks were saved, but not demonstrably before the author began to inspect the rows. After
-> the spot-check had closed the author voluntarily marked a further seeded sample of 30 rows:
-> 27 as confirmed, 3 left blank. The spot-check is not treated as an independent reference
-> standard, and no error-rate bound is reported from it.
+> the spot-check had closed the author voluntarily marked further rows as confirmed: 27 of a
+> seeded sample of 30, and then the first 50 rows of a page listing every row he had not yet
+> marked, which was not a random sample. In all he marked 97 of the 196 mappings, each as
+> confirmed. Neither the spot-check nor the voluntary marks are treated as an independent
+> reference standard, and no error-rate bound is reported from them.
 
 ## What the paper must also state
 
@@ -50,9 +52,18 @@ validation and not completion of the registered procedure.
   33491574…795dacc. The six discussed rows are table lines 23, 103, 113, 182, 184 and 192.
 - Further voluntary sample: seed 20261010, 30 of the 176 remaining lines; 27 yes, 3 blank, no
   no; marks file sha256 4e9ee553…dad719c. One card of it was asked about and explained after
-  the file was saved; it is one of the 3 blanks.
-- Rows the author has marked: 47 of 196, all yes; 22 of the 98 rows that rest on a reference
-  entry and 25 of the 98 others. The remaining 149 are recorded as machine-checked only.
+  the file was saved; it was one of the 3 blanks.
+- Marks on the page of rows not yet marked: the page listed the 149 unmarked rows, the 3 left
+  blank in the sample of 30 first, then the reference-based rows, then the others, by table
+  line. The author worked from the top and marked the first 50 yes (49 reference-based, 1
+  other); 99 unmarked; no no. The page was written at 03:51:26Z; a first save at 03:54:14Z
+  held 30 marks and a second at 03:56:10Z held 50 (sha256 636244e4…2d127b04). Two of the three
+  earlier blanks he decided before the coordinating session said anything about them; the
+  third had been explained to him before he marked it. He stopped at 50.
+- Rows the author has marked: 97 of 196, all yes; 71 of the 98 rows that rest on a reference
+  entry and 26 of the 98 others. The remaining 99 are recorded as machine-checked only. Of the
+  97 marks, 7 followed discussion of the row with the coordinating session (6 in the
+  spot-check, 1 on the page).
 - A second further draw (seed 20261011, 30 reference-based rows) was made and not used.
 - The author's answer about how he read the fourteen is recorded verbatim in the plan log; no
   further claim is made.
