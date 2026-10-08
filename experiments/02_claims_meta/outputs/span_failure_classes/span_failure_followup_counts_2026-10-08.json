@@ -1,0 +1,47 @@
+{
+ "duplicates": {
+  "papers": [
+   {
+    "records": 18,
+    "distinct_as_written": 18,
+    "distinct_after_mapping": 18,
+    "records_passing_the_other_criteria": 11,
+    "distinct_after_mapping_among_those": 11
+   },
+   {
+    "records": 6,
+    "distinct_as_written": 4,
+    "distinct_after_mapping": 4,
+    "records_passing_the_other_criteria": 0,
+    "distinct_after_mapping_among_those": 0
+   },
+   {
+    "records": 3,
+    "distinct_as_written": 3,
+    "distinct_after_mapping": 3,
+    "records_passing_the_other_criteria": 3,
+    "distinct_after_mapping_among_those": 3
+   }
+  ],
+  "records": 27,
+  "distinct_after_mapping": 25,
+  "records_passing_the_other_criteria": 14,
+  "distinct_after_mapping_among_those": 14
+ },
+ "omissions": {
+  "records": 37,
+  "two_pieces_in_order": 37,
+  "with_a_token": 0,
+  "omitted_tokens_total": 37,
+  "tokens": [
+   "no",
+   "not",
+   "without",
+   "however",
+   "but",
+   "whereas",
+   "in contrast"
+  ],
+  "segments_by_token": {}
+ }
+}
