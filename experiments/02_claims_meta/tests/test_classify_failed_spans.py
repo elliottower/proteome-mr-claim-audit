@@ -23,7 +23,7 @@ def test_a_span_in_the_abstract_twice_is_the_pins_failure_not_the_models():
 
 @pytest.mark.parametrize("span,expected", [
     (TWICE.replace("–", "-"), "after_unicode_normalisation"),
-    (ONCE.replace("LDL cholesterol", "LDL­cholesterol").replace(" in ", "​ in "),
+    (ONCE.replace("cholesterol", "choles­terol").replace(" in ", "​ in "),
      "after_unicode_normalisation"),
     (ONCE.replace("LDL", "<i>LDL</i>").replace("12,000", "12,000&nbsp;"),
      "after_removing_markup"),
