@@ -1,0 +1,18 @@
+{
+ "gate": "scripts/manual_coding_gates_v2.py lines 323-326 (pool) and 211-213 (uniqueness)",
+ "counts": {
+  "coded": 196,
+  "coded_row_in_its_shortlist": 144,
+  "shortlist_size_1": 37,
+  "tested_against_shortlist": 144,
+  "identifier_unique_among_all_rows_of_the_side": 136,
+  "coded_row_outside_its_shortlist_or_no_shortlist": 52,
+  "tested_against_every_row_of_the_side": 52,
+  "passes_by_release_number_or_citation_plus_attribute": 7,
+  "identifier_unique_in_shortlist_but_shared_with_a_row_outside_it": 1,
+  "...of which rescued by the release-number form": 0
+ },
+ "rows_whose_identifier_is_shared_with_a_dictionary_row_outside_the_shortlist": [
+  "41540382#pqtl_1"
+ ]
+}

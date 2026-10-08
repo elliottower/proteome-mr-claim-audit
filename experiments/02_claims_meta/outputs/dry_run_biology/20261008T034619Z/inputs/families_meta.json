@@ -1,0 +1,94 @@
+{
+ "A": {
+  "family_id": "A",
+  "first_public": {
+   "value": "2019-11-01",
+   "resolution": "day"
+  },
+  "window": "confirmatory",
+  "eligibility": "eligible",
+  "also_tissue_or_csf": false,
+  "extraction": "ok",
+  "fuzzy_linked": false,
+  "registry_records": [
+   "A"
+  ],
+  "dating_records": [
+   "PA"
+  ],
+  "n_registry_claims": 5,
+  "n_pairs": 5
+ },
+ "B": {
+  "family_id": "B",
+  "first_public": {
+   "value": "2021-06-01",
+   "resolution": "day"
+  },
+  "window": "confirmatory",
+  "eligibility": "eligible_count_not_stated",
+  "also_tissue_or_csf": false,
+  "extraction": "ok",
+  "fuzzy_linked": false,
+  "registry_records": [
+   "B"
+  ],
+  "dating_records": [],
+  "n_registry_claims": 4,
+  "n_pairs": 3
+ },
+ "C": {
+  "family_id": "C",
+  "first_public": {
+   "value": "2022-09-01",
+   "resolution": "day"
+  },
+  "window": "confirmatory",
+  "eligibility": "eligible",
+  "also_tissue_or_csf": true,
+  "extraction": "ok",
+  "fuzzy_linked": false,
+  "registry_records": [
+   "C"
+  ],
+  "dating_records": [],
+  "n_registry_claims": 3,
+  "n_pairs": 2
+ },
+ "D": {
+  "family_id": "D",
+  "first_public": {
+   "value": "2023-02-01",
+   "resolution": "day"
+  },
+  "window": "confirmatory",
+  "eligibility": "uncertain",
+  "also_tissue_or_csf": false,
+  "extraction": "ok",
+  "fuzzy_linked": false,
+  "registry_records": [
+   "D"
+  ],
+  "dating_records": [],
+  "n_registry_claims": 1,
+  "n_pairs": 1
+ },
+ "E": {
+  "family_id": "E",
+  "first_public": {
+   "value": "2024-07-01",
+   "resolution": "day"
+  },
+  "window": "confirmatory",
+  "eligibility": "eligible",
+  "also_tissue_or_csf": false,
+  "extraction": "extraction_failed",
+  "fuzzy_linked": false,
+  "registry_records": [
+   "E"
+  ],
+  "dating_records": [],
+  "n_registry_claims": 0,
+  "n_pairs": 0
+ }
+}
