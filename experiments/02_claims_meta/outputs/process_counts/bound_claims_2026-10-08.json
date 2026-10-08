@@ -1,0 +1,915 @@
+{
+ "mode": "results claim --confirmatory --frozen-at 02bb006f3e55 (the tool records: confirmatory, exposure logged)",
+ "claims": [
+  {
+   "count": "search_records_after_deduplication",
+   "value": 5908,
+   "meaning": "records of the search after duplicates were removed",
+   "kind": "direct",
+   "claim_seq": 158,
+   "claim_text": "5,908 records of the search after duplicates were removed",
+   "run_id": "s1_search_2026-10-03",
+   "file_and_address": "outputs/screening/2026-10-03/funnel.json#screening_records",
+   "upstream_runs": [
+    "s1_search_2026-10-03"
+   ]
+  },
+  {
+   "count": "search_records_sent_to_screening",
+   "value": 5587,
+   "meaning": "search records with an abstract, sent to the screening model",
+   "kind": "direct",
+   "claim_seq": 159,
+   "claim_text": "5,587 search records with an abstract, sent to the screening model",
+   "run_id": "s1_search_2026-10-03",
+   "file_and_address": "outputs/screening/2026-10-03/prefilter_counts.json#records_sent_to_screening",
+   "upstream_runs": [
+    "s1_search_2026-10-03"
+   ]
+  },
+  {
+   "count": "search_records_without_an_abstract",
+   "value": 321,
+   "meaning": "search records with no abstract or a stub, not screened",
+   "kind": "lines",
+   "claim_seq": 160,
+   "claim_text": "321 search records with no abstract or a stub, not screened",
+   "run_id": "process_counts_2026-10-08",
+   "file_and_address": "outputs/process_counts/process_counts_2026-10-08.json#counts.search_records_without_an_abstract.value",
+   "upstream_runs": [
+    "s1_search_2026-10-03"
+   ]
+  },
+  {
+   "count": "chase_round_1_new_records",
+   "value": 32853,
+   "meaning": "new records found by citation chasing, round 1",
+   "kind": "direct",
+   "claim_seq": 161,
+   "claim_text": "32,853 new records found by citation chasing, round 1",
+   "run_id": "s1b_chase_1",
+   "file_and_address": "outputs/screening/chase_round_1/chase_counts.json#new_screening_records",
+   "upstream_runs": [
+    "s1b_chase_1"
+   ]
+  },
+  {
+   "count": "chase_round_1_new_records_without_an_abstract",
+   "value": 1121,
+   "meaning": "new records of round 1 with no abstract or a stub",
+   "kind": "direct",
+   "claim_seq": 162,
+   "claim_text": "1,121 new records of round 1 with no abstract or a stub",
+   "run_id": "s1b_chase_1",
+   "file_and_address": "outputs/screening/chase_round_1/chase_counts.json#new_screening_records_no_abstract.records",
+   "upstream_runs": [
+    "s1b_chase_1"
+   ]
+  },
+  {
+   "count": "chase_round_2_new_records",
+   "value": 4991,
+   "meaning": "new records found by citation chasing, round 2",
+   "kind": "direct",
+   "claim_seq": 163,
+   "claim_text": "4,991 new records found by citation chasing, round 2",
+   "run_id": "s1b_chase_2",
+   "file_and_address": "outputs/screening/chase_round_2/chase_counts.json#new_screening_records",
+   "upstream_runs": [
+    "s1b_chase_2"
+   ]
+  },
+  {
+   "count": "chase_round_2_new_records_without_an_abstract",
+   "value": 245,
+   "meaning": "new records of round 2 with no abstract or a stub",
+   "kind": "direct",
+   "claim_seq": 164,
+   "claim_text": "245 new records of round 2 with no abstract or a stub",
+   "run_id": "s1b_chase_2",
+   "file_and_address": "outputs/screening/chase_round_2/chase_counts.json#new_screening_records_no_abstract.records",
+   "upstream_runs": [
+    "s1b_chase_2"
+   ]
+  },
+  {
+   "count": "chase_round_3_new_records",
+   "value": 1433,
+   "meaning": "new records found by citation chasing, round 3",
+   "kind": "direct",
+   "claim_seq": 165,
+   "claim_text": "1,433 new records found by citation chasing, round 3",
+   "run_id": "s1b_chase_3",
+   "file_and_address": "outputs/screening/chase_round_3/chase_counts.json#new_screening_records",
+   "upstream_runs": [
+    "s1b_chase_3"
+   ]
+  },
+  {
+   "count": "chase_round_3_new_records_without_an_abstract",
+   "value": 36,
+   "meaning": "new records of round 3 with no abstract or a stub",
+   "kind": "direct",
+   "claim_seq": 166,
+   "claim_text": "36 new records of round 3 with no abstract or a stub",
+   "run_id": "s1b_chase_3",
+   "file_and_address": "outputs/screening/chase_round_3/chase_counts.json#new_screening_records_no_abstract.records",
+   "upstream_runs": [
+    "s1b_chase_3"
+   ]
+  },
+  {
+   "count": "records_screened_search",
+   "value": 5587,
+   "meaning": "records given an eligibility decision by the screening model, search",
+   "kind": "lines",
+   "claim_seq": 167,
+   "claim_text": "5,587 records given an eligibility decision by the screening model, search",
+   "run_id": "process_counts_2026-10-08",
+   "file_and_address": "outputs/process_counts/process_counts_2026-10-08.json#counts.records_screened_search.value",
+   "upstream_runs": [
+    "s2_eligibility_search_2811496ef424"
+   ]
+  },
+  {
+   "count": "records_screened_chase1",
+   "value": 31732,
+   "meaning": "records given an eligibility decision by the screening model, chase1",
+   "kind": "lines",
+   "claim_seq": 168,
+   "claim_text": "31,732 records given an eligibility decision by the screening model, chase1",
+   "run_id": "process_counts_2026-10-08",
+   "file_and_address": "outputs/process_counts/process_counts_2026-10-08.json#counts.records_screened_chase1.value",
+   "upstream_runs": []
+  },
+  {
+   "count": "records_screened_chase2",
+   "value": 4746,
+   "meaning": "records given an eligibility decision by the screening model, chase2",
+   "kind": "lines",
+   "claim_seq": 169,
+   "claim_text": "4,746 records given an eligibility decision by the screening model, chase2",
+   "run_id": "process_counts_2026-10-08",
+   "file_and_address": "outputs/process_counts/process_counts_2026-10-08.json#counts.records_screened_chase2.value",
+   "upstream_runs": [
+    "s2_eligibility_chase2_2811496ef424"
+   ]
+  },
+  {
+   "count": "records_screened_chase3",
+   "value": 1397,
+   "meaning": "records given an eligibility decision by the screening model, chase3",
+   "kind": "lines",
+   "claim_seq": 170,
+   "claim_text": "1,397 records given an eligibility decision by the screening model, chase3",
+   "run_id": "process_counts_2026-10-08",
+   "file_and_address": "outputs/process_counts/process_counts_2026-10-08.json#counts.records_screened_chase3.value",
+   "upstream_runs": [
+    "s2_eligibility_chase3_2811496ef424"
+   ]
+  },
+  {
+   "count": "records_screened_all",
+   "value": 43462,
+   "meaning": "records given an eligibility decision by the screening model, search and three rounds of citation chasing",
+   "kind": "lines",
+   "claim_seq": 171,
+   "claim_text": "43,462 records given an eligibility decision by the screening model, search and three rounds of citation chasing",
+   "run_id": "process_counts_2026-10-08",
+   "file_and_address": "outputs/process_counts/process_counts_2026-10-08.json#counts.records_screened_all.value",
+   "upstream_runs": []
+  },
+  {
+   "count": "papers_extracted_search",
+   "value": 2093,
+   "meaning": "abstracts sent to extraction, search",
+   "kind": "lines",
+   "claim_seq": 172,
+   "claim_text": "2,093 abstracts sent to extraction, search",
+   "run_id": "process_counts_2026-10-08",
+   "file_and_address": "outputs/process_counts/process_counts_2026-10-08.json#counts.papers_extracted_search.value",
+   "upstream_runs": [
+    "s3_extraction_search_0b97103cd7a4"
+   ]
+  },
+  {
+   "count": "papers_extracted_chase1",
+   "value": 187,
+   "meaning": "abstracts sent to extraction, chase1",
+   "kind": "lines",
+   "claim_seq": 173,
+   "claim_text": "187 abstracts sent to extraction, chase1",
+   "run_id": "process_counts_2026-10-08",
+   "file_and_address": "outputs/process_counts/process_counts_2026-10-08.json#counts.papers_extracted_chase1.value",
+   "upstream_runs": [
+    "s3_extraction_chase1_0b97103cd7a4"
+   ]
+  },
+  {
+   "count": "papers_extracted_chase2",
+   "value": 69,
+   "meaning": "abstracts sent to extraction, chase2",
+   "kind": "lines",
+   "claim_seq": 174,
+   "claim_text": "69 abstracts sent to extraction, chase2",
+   "run_id": "process_counts_2026-10-08",
+   "file_and_address": "outputs/process_counts/process_counts_2026-10-08.json#counts.papers_extracted_chase2.value",
+   "upstream_runs": [
+    "s3_extraction_chase2_0b97103cd7a4"
+   ]
+  },
+  {
+   "count": "papers_extracted_chase3",
+   "value": 14,
+   "meaning": "abstracts sent to extraction, chase3",
+   "kind": "lines",
+   "claim_seq": 175,
+   "claim_text": "14 abstracts sent to extraction, chase3",
+   "run_id": "process_counts_2026-10-08",
+   "file_and_address": "outputs/process_counts/process_counts_2026-10-08.json#counts.papers_extracted_chase3.value",
+   "upstream_runs": [
+    "s3_extraction_chase3_0b97103cd7a4"
+   ]
+  },
+  {
+   "count": "papers_extracted_all",
+   "value": 2363,
+   "meaning": "abstracts sent to extraction",
+   "kind": "lines",
+   "claim_seq": 176,
+   "claim_text": "2,363 abstracts sent to extraction",
+   "run_id": "process_counts_2026-10-08",
+   "file_and_address": "outputs/process_counts/process_counts_2026-10-08.json#counts.papers_extracted_all.value",
+   "upstream_runs": []
+  },
+  {
+   "count": "claim_records_search",
+   "value": 12664,
+   "meaning": "claim records extracted, search",
+   "kind": "direct",
+   "claim_seq": 177,
+   "claim_text": "12,664 claim records extracted, search",
+   "run_id": "s4_verification_queue_2026-10-03",
+   "file_and_address": "outputs/verification/sol_extraction_search_0b97103cd7a4/claim_summary.json#n_claims",
+   "upstream_runs": [
+    "s4_verification_queue_2026-10-03"
+   ]
+  },
+  {
+   "count": "claim_records_chase1",
+   "value": 981,
+   "meaning": "claim records extracted, chase1",
+   "kind": "direct",
+   "claim_seq": 178,
+   "claim_text": "981 claim records extracted, chase1",
+   "run_id": "s4_verification_queue_2026-10-03",
+   "file_and_address": "outputs/verification/sol_extraction_chase1_0b97103cd7a4/claim_summary.json#n_claims",
+   "upstream_runs": [
+    "s4_verification_queue_2026-10-03"
+   ]
+  },
+  {
+   "count": "claim_records_chase2",
+   "value": 326,
+   "meaning": "claim records extracted, chase2",
+   "kind": "direct",
+   "claim_seq": 179,
+   "claim_text": "326 claim records extracted, chase2",
+   "run_id": "s4_verification_queue_2026-10-03",
+   "file_and_address": "outputs/verification/sol_extraction_chase2_0b97103cd7a4/claim_summary.json#n_claims",
+   "upstream_runs": [
+    "s4_verification_queue_2026-10-03"
+   ]
+  },
+  {
+   "count": "claim_records_chase3",
+   "value": 82,
+   "meaning": "claim records extracted, chase3",
+   "kind": "direct",
+   "claim_seq": 180,
+   "claim_text": "82 claim records extracted, chase3",
+   "run_id": "s4_verification_queue_2026-10-03",
+   "file_and_address": "outputs/verification/sol_extraction_chase3_0b97103cd7a4/claim_summary.json#n_claims",
+   "upstream_runs": [
+    "s4_verification_queue_2026-10-03"
+   ]
+  },
+  {
+   "count": "claim_records_all",
+   "value": 14053,
+   "meaning": "claim records extracted",
+   "kind": "sum",
+   "claim_seq": 157,
+   "claim_text": "14,053 claim records were extracted",
+   "run_id": "process_counts_2026-10-08",
+   "file_and_address": "outputs/process_counts/process_counts_2026-10-08.json#counts.claim_records_all.value",
+   "upstream_runs": [
+    "s4_verification_queue_2026-10-03"
+   ]
+  },
+  {
+   "count": "claim_records_passing_the_span_check_registered_run",
+   "value": 13989,
+   "meaning": "claim records whose evidence span passed both span checks in the registered run",
+   "kind": "sum",
+   "claim_seq": 181,
+   "claim_text": "13,989 claim records whose evidence span passed both span checks in the registered run",
+   "run_id": "process_counts_2026-10-08",
+   "file_and_address": "outputs/process_counts/process_counts_2026-10-08.json#counts.claim_records_passing_the_span_check_registered_run.value",
+   "upstream_runs": [
+    "s4_verification_queue_2026-10-03"
+   ]
+  },
+  {
+   "count": "pinned_evidence_spans_registered_run",
+   "value": 13989,
+   "meaning": "evidence spans pinned by the quotation tool in the registered run",
+   "kind": "sum",
+   "claim_seq": 182,
+   "claim_text": "13,989 evidence spans pinned by the quotation tool in the registered run",
+   "run_id": "process_counts_2026-10-08",
+   "file_and_address": "outputs/process_counts/process_counts_2026-10-08.json#counts.pinned_evidence_spans_registered_run.value",
+   "upstream_runs": [
+    "s4_verification_queue_2026-10-03"
+   ]
+  },
+  {
+   "count": "span_failures_passage_standing_twice",
+   "value": 27,
+   "meaning": "failing spans that stand twice in the stored abstract",
+   "kind": "direct",
+   "claim_seq": 183,
+   "claim_text": "27 failing spans that stand twice in the stored abstract",
+   "run_id": "process_counts_2026-10-08",
+   "file_and_address": "outputs/process_counts/process_counts_2026-10-08.json#counts.span_failures_passage_standing_twice.value",
+   "upstream_runs": []
+  },
+  {
+   "count": "span_failures_one_token_left_out",
+   "value": 37,
+   "meaning": "failing spans that leave out one token of the abstract",
+   "kind": "direct",
+   "claim_seq": 184,
+   "claim_text": "37 failing spans that leave out one token of the abstract",
+   "run_id": "process_counts_2026-10-08",
+   "file_and_address": "outputs/process_counts/process_counts_2026-10-08.json#counts.span_failures_one_token_left_out.value",
+   "upstream_runs": []
+  },
+  {
+   "count": "span_failures_all",
+   "value": 64,
+   "meaning": "claim records that failed the span check in the registered run",
+   "kind": "sum",
+   "claim_seq": 185,
+   "claim_text": "64 claim records that failed the span check in the registered run",
+   "run_id": "process_counts_2026-10-08",
+   "file_and_address": "outputs/process_counts/process_counts_2026-10-08.json#counts.span_failures_all.value",
+   "upstream_runs": []
+  },
+  {
+   "count": "claim_records_passing_the_span_check_corrected_build",
+   "value": 14016,
+   "meaning": "claim records passing both span checks under the corrected build of the quotation tool (the 27 pinned at their first occurrence)",
+   "kind": "sum",
+   "claim_seq": 186,
+   "claim_text": "14,016 claim records passing both span checks under the corrected build of the quotation tool (the 27 pinned at their first occurrence)",
+   "run_id": "process_counts_2026-10-08",
+   "file_and_address": "outputs/process_counts/process_counts_2026-10-08.json#counts.claim_records_passing_the_span_check_corrected_build.value",
+   "upstream_runs": [
+    "s4_amendment02_2026-10-08"
+   ]
+  },
+  {
+   "count": "claim_records_passing_the_span_check_amended_primary",
+   "value": 14053,
+   "meaning": "claim records passing both span checks with the 37 spans restored from the stored abstract",
+   "kind": "sum",
+   "claim_seq": 187,
+   "claim_text": "14,053 claim records passing both span checks with the 37 spans restored from the stored abstract",
+   "run_id": "process_counts_2026-10-08",
+   "file_and_address": "outputs/process_counts/process_counts_2026-10-08.json#counts.claim_records_passing_the_span_check_amended_primary.value",
+   "upstream_runs": [
+    "s4_amendment02_2026-10-08"
+   ]
+  },
+  {
+   "count": "spans_restored_search",
+   "value": 36,
+   "meaning": "spans restored from the stored abstract, search",
+   "kind": "computed",
+   "claim_seq": 188,
+   "claim_text": "36 spans restored from the stored abstract, search",
+   "run_id": "process_counts_2026-10-08",
+   "file_and_address": "outputs/process_counts/process_counts_2026-10-08.json#counts.spans_restored_search.value",
+   "upstream_runs": [
+    "s4_amendment02_2026-10-08"
+   ]
+  },
+  {
+   "count": "spans_restored_chase1",
+   "value": 1,
+   "meaning": "spans restored from the stored abstract, chase1",
+   "kind": "computed",
+   "claim_seq": 189,
+   "claim_text": "1 spans restored from the stored abstract, chase1",
+   "run_id": "process_counts_2026-10-08",
+   "file_and_address": "outputs/process_counts/process_counts_2026-10-08.json#counts.spans_restored_chase1.value",
+   "upstream_runs": [
+    "s4_amendment02_2026-10-08"
+   ]
+  },
+  {
+   "count": "registry_entries_registered_run",
+   "value": 5665,
+   "meaning": "claim records the verifier passes into the registry, registered run",
+   "kind": "sum",
+   "claim_seq": 190,
+   "claim_text": "5,665 claim records the verifier passes into the registry, registered run",
+   "run_id": "process_counts_2026-10-08",
+   "file_and_address": "outputs/process_counts/process_counts_2026-10-08.json#counts.registry_entries_registered_run.value",
+   "upstream_runs": [
+    "s4_verification_queue_2026-10-03"
+   ]
+  },
+  {
+   "count": "registry_entries_with_the_27",
+   "value": 5679,
+   "meaning": "claim records the verifier passes into the registry with the 27 pinned",
+   "kind": "sum",
+   "claim_seq": 191,
+   "claim_text": "5,679 claim records the verifier passes into the registry with the 27 pinned",
+   "run_id": "process_counts_2026-10-08",
+   "file_and_address": "outputs/process_counts/process_counts_2026-10-08.json#counts.registry_entries_with_the_27.value",
+   "upstream_runs": []
+  },
+  {
+   "count": "registry_entries_amended_primary",
+   "value": 5699,
+   "meaning": "claim records the verifier passes into the registry in the amended primary analysis",
+   "kind": "sum",
+   "claim_seq": 192,
+   "claim_text": "5,699 claim records the verifier passes into the registry in the amended primary analysis",
+   "run_id": "process_counts_2026-10-08",
+   "file_and_address": "outputs/process_counts/process_counts_2026-10-08.json#counts.registry_entries_amended_primary.value",
+   "upstream_runs": []
+  },
+  {
+   "count": "queue_rows",
+   "value": 872,
+   "meaning": "rows of the manual-coding queue (record, side, name as written)",
+   "kind": "lines",
+   "claim_seq": 193,
+   "claim_text": "872 rows of the manual-coding queue (record, side, name as written)",
+   "run_id": "process_counts_2026-10-08",
+   "file_and_address": "outputs/process_counts/process_counts_2026-10-08.json#counts.queue_rows.value",
+   "upstream_runs": [
+    "s4_manual_coding_2026-10-03",
+    "s4_verification_queue_2026-10-03"
+   ]
+  },
+  {
+   "count": "queue_rows_amended_primary",
+   "value": 876,
+   "meaning": "rows of the queue rebuilt for the amended primary analysis",
+   "kind": "lines",
+   "claim_seq": 194,
+   "claim_text": "876 rows of the queue rebuilt for the amended primary analysis",
+   "run_id": "process_counts_2026-10-08",
+   "file_and_address": "outputs/process_counts/process_counts_2026-10-08.json#counts.queue_rows_amended_primary.value",
+   "upstream_runs": [
+    "s4_amendment02_2026-10-08"
+   ]
+  },
+  {
+   "count": "queue_rows_new",
+   "value": 4,
+   "meaning": "queue rows added by the rebuild",
+   "kind": "direct",
+   "claim_seq": 195,
+   "claim_text": "4 queue rows added by the rebuild",
+   "run_id": "s4_amendment02_2026-10-08",
+   "file_and_address": "outputs/manual_coding/2026-10-03_amended_primary/queue_rebuild_comparison_with_passages.json#new_rows",
+   "upstream_runs": [
+    "s4_amendment02_2026-10-08"
+   ]
+  },
+  {
+   "count": "queue_rows_unchanged",
+   "value": 872,
+   "meaning": "coded queue rows asserted unchanged in the rebuilt queue",
+   "kind": "direct",
+   "claim_seq": 196,
+   "claim_text": "872 coded queue rows asserted unchanged in the rebuilt queue",
+   "run_id": "s4_amendment02_2026-10-08",
+   "file_and_address": "outputs/manual_coding/2026-10-03_amended_primary/queue_rebuild_comparison_with_passages.json#coded_rows",
+   "upstream_runs": [
+    "s4_amendment02_2026-10-08"
+   ]
+  },
+  {
+   "count": "queue_rows_coded",
+   "value": 196,
+   "meaning": "queue rows coded to a dictionary row",
+   "kind": "direct",
+   "claim_seq": 197,
+   "claim_text": "196 queue rows coded to a dictionary row",
+   "run_id": "s4_manual_coding_2026-10-03",
+   "file_and_address": "outputs/manual_coding/2026-10-03/manual_dataset_coding_report.json#coded",
+   "upstream_runs": [
+    "s4_manual_coding_2026-10-03"
+   ]
+  },
+  {
+   "count": "queue_rows_release_not_identified",
+   "value": 435,
+   "meaning": "queue rows unresolved: release not identified",
+   "kind": "direct",
+   "claim_seq": 198,
+   "claim_text": "435 queue rows unresolved: release not identified",
+   "run_id": "s4_manual_coding_2026-10-03",
+   "file_and_address": "outputs/manual_coding/2026-10-03/manual_dataset_coding_report.json#unresolved_reason_release_not_identified",
+   "upstream_runs": [
+    "s4_manual_coding_2026-10-03"
+   ]
+  },
+  {
+   "count": "queue_rows_conflicting_identifiers",
+   "value": 15,
+   "meaning": "queue rows unresolved: conflicting identifiers",
+   "kind": "direct",
+   "claim_seq": 199,
+   "claim_text": "15 queue rows unresolved: conflicting identifiers",
+   "run_id": "s4_manual_coding_2026-10-03",
+   "file_and_address": "outputs/manual_coding/2026-10-03/manual_dataset_coding_report.json#unresolved_reason_conflicting_identifiers",
+   "upstream_runs": [
+    "s4_manual_coding_2026-10-03"
+   ]
+  },
+  {
+   "count": "queue_rows_absent_from_dictionary",
+   "value": 226,
+   "meaning": "queue rows unresolved: dataset named and absent from the dictionary",
+   "kind": "direct",
+   "claim_seq": 200,
+   "claim_text": "226 queue rows unresolved: dataset named and absent from the dictionary",
+   "run_id": "s4_manual_coding_2026-10-03",
+   "file_and_address": "outputs/manual_coding/2026-10-03/manual_dataset_coding_report.json#unresolved_reason_dataset_absent_from_dictionary",
+   "upstream_runs": [
+    "s4_manual_coding_2026-10-03"
+   ]
+  },
+  {
+   "count": "second_check_agreements",
+   "value": 821,
+   "meaning": "queue rows on which the two checks gave the same value",
+   "kind": "direct",
+   "claim_seq": 201,
+   "claim_text": "821 queue rows on which the two checks gave the same value",
+   "run_id": "s4_manual_coding_2026-10-03",
+   "file_and_address": "outputs/manual_coding/2026-10-03/manual_dataset_coding_report.json#step2_agree",
+   "upstream_runs": [
+    "s4_manual_coding_2026-10-03"
+   ]
+  },
+  {
+   "count": "second_check_disagreements",
+   "value": 51,
+   "meaning": "queue rows on which the two checks differed, reread",
+   "kind": "direct",
+   "claim_seq": 202,
+   "claim_text": "51 queue rows on which the two checks differed, reread",
+   "run_id": "s4_manual_coding_2026-10-03",
+   "file_and_address": "outputs/manual_coding/2026-10-03/manual_dataset_coding_report.json#step2_disagree",
+   "upstream_runs": [
+    "s4_manual_coding_2026-10-03"
+   ]
+  },
+  {
+   "count": "coded_rows_marked_by_the_author",
+   "value": 124,
+   "meaning": "coded rows the author marked as confirmed",
+   "kind": "direct",
+   "claim_seq": 203,
+   "claim_text": "124 coded rows the author marked as confirmed",
+   "run_id": "s4_manual_coding_2026-10-03",
+   "file_and_address": "outputs/manual_coding/2026-10-03/check3_coverage_after_second_look_save2.json#rows_with_an_author_yes",
+   "upstream_runs": [
+    "s4_manual_coding_2026-10-03"
+   ]
+  },
+  {
+   "count": "coded_rows_machine_checked_only",
+   "value": 72,
+   "meaning": "coded rows checked by the machine gate only",
+   "kind": "direct",
+   "claim_seq": 204,
+   "claim_text": "72 coded rows checked by the machine gate only",
+   "run_id": "s4_manual_coding_2026-10-03",
+   "file_and_address": "outputs/manual_coding/2026-10-03/check3_coverage_after_second_look_save2.json#rows_machine_gate_only",
+   "upstream_runs": [
+    "s4_manual_coding_2026-10-03"
+   ]
+  },
+  {
+   "count": "new_queue_rows_coded",
+   "value": 1,
+   "meaning": "new queue rows coded at the first check",
+   "kind": "direct",
+   "claim_seq": 205,
+   "claim_text": "1 new queue rows coded at the first check",
+   "run_id": "s4_manual_coding_2026-10-03",
+   "file_and_address": "outputs/manual_coding/2026-10-03_new_rows/first_check_result.json#first_check_by_category.coded",
+   "upstream_runs": [
+    "s4_manual_coding_2026-10-03"
+   ]
+  },
+  {
+   "count": "new_queue_rows_on_which_the_checks_agree",
+   "value": 4,
+   "meaning": "new queue rows on which the two checks gave the same value",
+   "kind": "computed",
+   "claim_seq": 206,
+   "claim_text": "4 new queue rows on which the two checks gave the same value",
+   "run_id": "process_counts_2026-10-08",
+   "file_and_address": "outputs/process_counts/process_counts_2026-10-08.json#counts.new_queue_rows_on_which_the_checks_agree.value",
+   "upstream_runs": [
+    "s4_manual_coding_2026-10-03"
+   ]
+  },
+  {
+   "count": "plan_log_lines",
+   "value": 193,
+   "meaning": "dated lines of the plan's log",
+   "kind": "computed",
+   "claim_seq": 207,
+   "claim_text": "193 dated lines of the plan's log",
+   "run_id": "process_counts_2026-10-08",
+   "file_and_address": "outputs/process_counts/process_counts_2026-10-08.json#counts.plan_log_lines.value",
+   "upstream_runs": []
+  },
+  {
+   "count": "plan_log_lines_nothing_run",
+   "value": 95,
+   "meaning": "log lines written at the level `nothing run`",
+   "kind": "computed",
+   "claim_seq": 208,
+   "claim_text": "95 log lines written at the level `nothing run`",
+   "run_id": "process_counts_2026-10-08",
+   "file_and_address": "outputs/process_counts/process_counts_2026-10-08.json#counts.plan_log_lines_nothing_run.value",
+   "upstream_runs": []
+  },
+  {
+   "count": "plan_log_lines_no_results_seen",
+   "value": 11,
+   "meaning": "log lines written at the level `no results seen`",
+   "kind": "computed",
+   "claim_seq": 209,
+   "claim_text": "11 log lines written at the level `no results seen`",
+   "run_id": "process_counts_2026-10-08",
+   "file_and_address": "outputs/process_counts/process_counts_2026-10-08.json#counts.plan_log_lines_no_results_seen.value",
+   "upstream_runs": []
+  },
+  {
+   "count": "plan_log_lines_results_not_opened",
+   "value": 17,
+   "meaning": "log lines written at the level `results not opened`",
+   "kind": "computed",
+   "claim_seq": 210,
+   "claim_text": "17 log lines written at the level `results not opened`",
+   "run_id": "process_counts_2026-10-08",
+   "file_and_address": "outputs/process_counts/process_counts_2026-10-08.json#counts.plan_log_lines_results_not_opened.value",
+   "upstream_runs": []
+  },
+  {
+   "count": "plan_log_lines_results_seen",
+   "value": 70,
+   "meaning": "log lines written at the level `results seen`",
+   "kind": "computed",
+   "claim_seq": 211,
+   "claim_text": "70 log lines written at the level `results seen`",
+   "run_id": "process_counts_2026-10-08",
+   "file_and_address": "outputs/process_counts/process_counts_2026-10-08.json#counts.plan_log_lines_results_seen.value",
+   "upstream_runs": []
+  },
+  {
+   "count": "ledger_events",
+   "value": 156,
+   "meaning": "events of the results ledger",
+   "kind": "computed",
+   "claim_seq": 212,
+   "claim_text": "156 events of the results ledger",
+   "run_id": "process_counts_2026-10-08",
+   "file_and_address": "outputs/process_counts/process_counts_2026-10-08.json#counts.ledger_events.value",
+   "upstream_runs": []
+  },
+  {
+   "count": "ledger_events_seal",
+   "value": 90,
+   "meaning": "ledger events of kind `seal`",
+   "kind": "computed",
+   "claim_seq": 213,
+   "claim_text": "90 ledger events of kind `seal`",
+   "run_id": "process_counts_2026-10-08",
+   "file_and_address": "outputs/process_counts/process_counts_2026-10-08.json#counts.ledger_events_seal.value",
+   "upstream_runs": []
+  },
+  {
+   "count": "ledger_events_run",
+   "value": 39,
+   "meaning": "ledger events of kind `run`",
+   "kind": "computed",
+   "claim_seq": 214,
+   "claim_text": "39 ledger events of kind `run`",
+   "run_id": "process_counts_2026-10-08",
+   "file_and_address": "outputs/process_counts/process_counts_2026-10-08.json#counts.ledger_events_run.value",
+   "upstream_runs": []
+  },
+  {
+   "count": "ledger_events_access",
+   "value": 26,
+   "meaning": "ledger events of kind `access`",
+   "kind": "computed",
+   "claim_seq": 215,
+   "claim_text": "26 ledger events of kind `access`",
+   "run_id": "process_counts_2026-10-08",
+   "file_and_address": "outputs/process_counts/process_counts_2026-10-08.json#counts.ledger_events_access.value",
+   "upstream_runs": []
+  },
+  {
+   "count": "ledger_events_claim",
+   "value": 0,
+   "meaning": "ledger events of kind `claim`",
+   "kind": "computed",
+   "claim_seq": 216,
+   "claim_text": "0 ledger events of kind `claim`",
+   "run_id": "process_counts_2026-10-08",
+   "file_and_address": "outputs/process_counts/process_counts_2026-10-08.json#counts.ledger_events_claim.value",
+   "upstream_runs": []
+  },
+  {
+   "count": "ledger_distinct_files_sealed",
+   "value": 262,
+   "meaning": "distinct files sealed in the ledger",
+   "kind": "computed",
+   "claim_seq": 217,
+   "claim_text": "262 distinct files sealed in the ledger",
+   "run_id": "process_counts_2026-10-08",
+   "file_and_address": "outputs/process_counts/process_counts_2026-10-08.json#counts.ledger_distinct_files_sealed.value",
+   "upstream_runs": []
+  },
+  {
+   "count": "ledger_access_metadata_only",
+   "value": 4,
+   "meaning": "access records at the level `metadata only`",
+   "kind": "computed",
+   "claim_seq": 218,
+   "claim_text": "4 access records at the level `metadata only`",
+   "run_id": "process_counts_2026-10-08",
+   "file_and_address": "outputs/process_counts/process_counts_2026-10-08.json#counts.ledger_access_metadata_only.value",
+   "upstream_runs": []
+  },
+  {
+   "count": "ledger_access_outcomes_seen",
+   "value": 3,
+   "meaning": "access records at the level `outcomes seen`",
+   "kind": "computed",
+   "claim_seq": 219,
+   "claim_text": "3 access records at the level `outcomes seen`",
+   "run_id": "process_counts_2026-10-08",
+   "file_and_address": "outputs/process_counts/process_counts_2026-10-08.json#counts.ledger_access_outcomes_seen.value",
+   "upstream_runs": []
+  },
+  {
+   "count": "ledger_access_structure_seen",
+   "value": 19,
+   "meaning": "access records at the level `structure seen`",
+   "kind": "computed",
+   "claim_seq": 220,
+   "claim_text": "19 access records at the level `structure seen`",
+   "run_id": "process_counts_2026-10-08",
+   "file_and_address": "outputs/process_counts/process_counts_2026-10-08.json#counts.ledger_access_structure_seen.value",
+   "upstream_runs": []
+  },
+  {
+   "count": "pinned_quotations_manual_coding",
+   "value": 2167,
+   "meaning": "quotations pinned for the manual dataset coding",
+   "kind": "computed",
+   "claim_seq": 221,
+   "claim_text": "2,167 quotations pinned for the manual dataset coding",
+   "run_id": "process_counts_2026-10-08",
+   "file_and_address": "outputs/process_counts/process_counts_2026-10-08.json#counts.pinned_quotations_manual_coding.value",
+   "upstream_runs": []
+  },
+  {
+   "count": "claims_files_manual_coding",
+   "value": 716,
+   "meaning": "claims files of the manual dataset coding",
+   "kind": "computed",
+   "claim_seq": 222,
+   "claim_text": "716 claims files of the manual dataset coding",
+   "run_id": "process_counts_2026-10-08",
+   "file_and_address": "outputs/process_counts/process_counts_2026-10-08.json#counts.claims_files_manual_coding.value",
+   "upstream_runs": []
+  },
+  {
+   "count": "pinned_quotations_manual_coding_new_rows",
+   "value": 7,
+   "meaning": "quotations pinned for the coding of the new queue rows",
+   "kind": "computed",
+   "claim_seq": 223,
+   "claim_text": "7 quotations pinned for the coding of the new queue rows",
+   "run_id": "process_counts_2026-10-08",
+   "file_and_address": "outputs/process_counts/process_counts_2026-10-08.json#counts.pinned_quotations_manual_coding_new_rows.value",
+   "upstream_runs": []
+  },
+  {
+   "count": "claims_files_manual_coding_new_rows",
+   "value": 5,
+   "meaning": "claims files of the coding of the new queue rows",
+   "kind": "computed",
+   "claim_seq": 224,
+   "claim_text": "5 claims files of the coding of the new queue rows",
+   "run_id": "process_counts_2026-10-08",
+   "file_and_address": "outputs/process_counts/process_counts_2026-10-08.json#counts.claims_files_manual_coding_new_rows.value",
+   "upstream_runs": []
+  },
+  {
+   "count": "pinned_quotations_repository_root",
+   "value": 7783,
+   "meaning": "quotations pinned for the repository's own claims folder",
+   "kind": "computed",
+   "claim_seq": 225,
+   "claim_text": "7,783 quotations pinned for the repository's own claims folder",
+   "run_id": "process_counts_2026-10-08",
+   "file_and_address": "outputs/process_counts/process_counts_2026-10-08.json#counts.pinned_quotations_repository_root.value",
+   "upstream_runs": []
+  },
+  {
+   "count": "claims_files_repository_root",
+   "value": 429,
+   "meaning": "claims files of the repository's own claims folder",
+   "kind": "computed",
+   "claim_seq": 226,
+   "claim_text": "429 claims files of the repository's own claims folder",
+   "run_id": "process_counts_2026-10-08",
+   "file_and_address": "outputs/process_counts/process_counts_2026-10-08.json#counts.claims_files_repository_root.value",
+   "upstream_runs": []
+  },
+  {
+   "count": "scripts",
+   "value": 132,
+   "meaning": "Python files under scripts/",
+   "kind": "computed",
+   "claim_seq": 227,
+   "claim_text": "132 Python files under scripts/",
+   "run_id": "process_counts_2026-10-08",
+   "file_and_address": "outputs/process_counts/process_counts_2026-10-08.json#counts.scripts.value",
+   "upstream_runs": []
+  },
+  {
+   "count": "test_files",
+   "value": 88,
+   "meaning": "test files under tests/",
+   "kind": "computed",
+   "claim_seq": 228,
+   "claim_text": "88 test files under tests/",
+   "run_id": "process_counts_2026-10-08",
+   "file_and_address": "outputs/process_counts/process_counts_2026-10-08.json#counts.test_files.value",
+   "upstream_runs": []
+  },
+  {
+   "count": "suite_tests_passed",
+   "value": 1207,
+   "meaning": "tests passed in the stored suite output",
+   "kind": "computed",
+   "claim_seq": 229,
+   "claim_text": "1,207 tests passed in the stored suite output",
+   "run_id": "process_counts_2026-10-08",
+   "file_and_address": "outputs/process_counts/process_counts_2026-10-08.json#counts.suite_tests_passed.value",
+   "upstream_runs": []
+  },
+  {
+   "count": "suite_tests_skipped",
+   "value": 1,
+   "meaning": "tests skipped in the stored suite output",
+   "kind": "computed",
+   "claim_seq": 230,
+   "claim_text": "1 tests skipped in the stored suite output",
+   "run_id": "process_counts_2026-10-08",
+   "file_and_address": "outputs/process_counts/process_counts_2026-10-08.json#counts.suite_tests_skipped.value",
+   "upstream_runs": []
+  },
+  {
+   "count": "suite_tests_failed",
+   "value": 0,
+   "meaning": "tests failed in the stored suite output",
+   "kind": "computed",
+   "claim_seq": 231,
+   "claim_text": "0 tests failed in the stored suite output",
+   "run_id": "process_counts_2026-10-08",
+   "file_and_address": "outputs/process_counts/process_counts_2026-10-08.json#counts.suite_tests_failed.value",
+   "upstream_runs": []
+  }
+ ]
+}

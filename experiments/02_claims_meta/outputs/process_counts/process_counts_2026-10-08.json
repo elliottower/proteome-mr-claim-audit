@@ -1,0 +1,2468 @@
+{
+ "written_utc": "2026-10-08T12:06:23+00:00",
+ "script_sha256": "93a6d3f0b19d0fa3b35bd652964beccb334df0c47675e061e3913b4f7032cefd",
+ "suite": "outputs/tests/pytest_all_modal_20261008T120511Z.txt",
+ "ledger_last_seq": 155,
+ "counts": {
+  "search_records_after_deduplication": {
+   "value": 5908,
+   "meaning": "records of the search after duplicates were removed",
+   "kind": "direct",
+   "sources": [
+    {
+     "file": "outputs/screening/2026-10-03/funnel.json",
+     "address": "screening_records",
+     "value": 5908
+    }
+   ],
+   "recorded_in_runs": [
+    "s1_search_2026-10-03"
+   ]
+  },
+  "search_records_sent_to_screening": {
+   "value": 5587,
+   "meaning": "search records with an abstract, sent to the screening model",
+   "kind": "direct",
+   "sources": [
+    {
+     "file": "outputs/screening/2026-10-03/prefilter_counts.json",
+     "address": "records_sent_to_screening",
+     "value": 5587
+    }
+   ],
+   "recorded_in_runs": [
+    "s1_search_2026-10-03"
+   ]
+  },
+  "search_records_without_an_abstract": {
+   "value": 321,
+   "meaning": "search records with no abstract or a stub, not screened",
+   "kind": "lines",
+   "sources": [
+    {
+     "file": "outputs/screening/2026-10-03/no_abstract.jsonl",
+     "address": "non-empty lines",
+     "value": 321
+    }
+   ],
+   "recorded_in_runs": [
+    "s1_search_2026-10-03"
+   ]
+  },
+  "chase_round_1_new_records": {
+   "value": 32853,
+   "meaning": "new records found by citation chasing, round 1",
+   "kind": "direct",
+   "sources": [
+    {
+     "file": "outputs/screening/chase_round_1/chase_counts.json",
+     "address": "new_screening_records",
+     "value": 32853
+    }
+   ],
+   "recorded_in_runs": [
+    "s1b_chase_1"
+   ]
+  },
+  "chase_round_1_new_records_without_an_abstract": {
+   "value": 1121,
+   "meaning": "new records of round 1 with no abstract or a stub",
+   "kind": "direct",
+   "sources": [
+    {
+     "file": "outputs/screening/chase_round_1/chase_counts.json",
+     "address": "new_screening_records_no_abstract.records",
+     "value": 1121
+    }
+   ],
+   "recorded_in_runs": [
+    "s1b_chase_1"
+   ]
+  },
+  "chase_round_2_new_records": {
+   "value": 4991,
+   "meaning": "new records found by citation chasing, round 2",
+   "kind": "direct",
+   "sources": [
+    {
+     "file": "outputs/screening/chase_round_2/chase_counts.json",
+     "address": "new_screening_records",
+     "value": 4991
+    }
+   ],
+   "recorded_in_runs": [
+    "s1b_chase_2"
+   ]
+  },
+  "chase_round_2_new_records_without_an_abstract": {
+   "value": 245,
+   "meaning": "new records of round 2 with no abstract or a stub",
+   "kind": "direct",
+   "sources": [
+    {
+     "file": "outputs/screening/chase_round_2/chase_counts.json",
+     "address": "new_screening_records_no_abstract.records",
+     "value": 245
+    }
+   ],
+   "recorded_in_runs": [
+    "s1b_chase_2"
+   ]
+  },
+  "chase_round_3_new_records": {
+   "value": 1433,
+   "meaning": "new records found by citation chasing, round 3",
+   "kind": "direct",
+   "sources": [
+    {
+     "file": "outputs/screening/chase_round_3/chase_counts.json",
+     "address": "new_screening_records",
+     "value": 1433
+    }
+   ],
+   "recorded_in_runs": [
+    "s1b_chase_3"
+   ]
+  },
+  "chase_round_3_new_records_without_an_abstract": {
+   "value": 36,
+   "meaning": "new records of round 3 with no abstract or a stub",
+   "kind": "direct",
+   "sources": [
+    {
+     "file": "outputs/screening/chase_round_3/chase_counts.json",
+     "address": "new_screening_records_no_abstract.records",
+     "value": 36
+    }
+   ],
+   "recorded_in_runs": [
+    "s1b_chase_3"
+   ]
+  },
+  "records_screened_search": {
+   "value": 5587,
+   "meaning": "records given an eligibility decision by the screening model, search",
+   "kind": "lines",
+   "sources": [
+    {
+     "file": "outputs/parsed/sol_eligibility_search_complete_2811496ef424.decisions.jsonl",
+     "address": "non-empty lines",
+     "value": 5587
+    }
+   ],
+   "recorded_in_runs": [
+    "s2_eligibility_search_2811496ef424"
+   ]
+  },
+  "records_screened_chase1": {
+   "value": 31732,
+   "meaning": "records given an eligibility decision by the screening model, chase1",
+   "kind": "lines",
+   "sources": [
+    {
+     "file": "outputs/parsed/sol_eligibility_chase1_2811496ef424.decisions.jsonl",
+     "address": "non-empty lines",
+     "value": 120
+    },
+    {
+     "file": "outputs/parsed/sol_eligibility_gate1b1_2811496ef424.decisions.jsonl",
+     "address": "non-empty lines",
+     "value": 600
+    },
+    {
+     "file": "outputs/parsed/sol_eligibility_gate1b2_2811496ef424.decisions.jsonl",
+     "address": "non-empty lines",
+     "value": 600
+    },
+    {
+     "file": "outputs/parsed/sol_eligibility_gate1b3_2811496ef424.decisions.jsonl",
+     "address": "non-empty lines",
+     "value": 600
+    },
+    {
+     "file": "outputs/parsed/sol_eligibility_gate1b4_2811496ef424.decisions.jsonl",
+     "address": "non-empty lines",
+     "value": 600
+    },
+    {
+     "file": "outputs/parsed/sol_eligibility_gate1b5_2811496ef424.decisions.jsonl",
+     "address": "non-empty lines",
+     "value": 600
+    },
+    {
+     "file": "outputs/parsed/sol_eligibility_gateall1_2811496ef424.decisions.jsonl",
+     "address": "non-empty lines",
+     "value": 28612
+    }
+   ],
+   "recorded_in_runs": []
+  },
+  "records_screened_chase2": {
+   "value": 4746,
+   "meaning": "records given an eligibility decision by the screening model, chase2",
+   "kind": "lines",
+   "sources": [
+    {
+     "file": "outputs/parsed/sol_eligibility_chase2_2811496ef424.decisions.jsonl",
+     "address": "non-empty lines",
+     "value": 15
+    },
+    {
+     "file": "outputs/parsed/sol_eligibility_gateall2_2811496ef424.decisions.jsonl",
+     "address": "non-empty lines",
+     "value": 4731
+    }
+   ],
+   "recorded_in_runs": [
+    "s2_eligibility_chase2_2811496ef424"
+   ]
+  },
+  "records_screened_chase3": {
+   "value": 1397,
+   "meaning": "records given an eligibility decision by the screening model, chase3",
+   "kind": "lines",
+   "sources": [
+    {
+     "file": "outputs/parsed/sol_eligibility_gateall3_2811496ef424.decisions.jsonl",
+     "address": "non-empty lines",
+     "value": 1397
+    }
+   ],
+   "recorded_in_runs": [
+    "s2_eligibility_chase3_2811496ef424"
+   ]
+  },
+  "records_screened_all": {
+   "value": 43462,
+   "meaning": "records given an eligibility decision by the screening model, search and three rounds of citation chasing",
+   "kind": "lines",
+   "sources": [
+    {
+     "file": "outputs/parsed/sol_eligibility_search_complete_2811496ef424.decisions.jsonl",
+     "address": "non-empty lines",
+     "value": 5587
+    },
+    {
+     "file": "outputs/parsed/sol_eligibility_chase1_2811496ef424.decisions.jsonl",
+     "address": "non-empty lines",
+     "value": 120
+    },
+    {
+     "file": "outputs/parsed/sol_eligibility_gate1b1_2811496ef424.decisions.jsonl",
+     "address": "non-empty lines",
+     "value": 600
+    },
+    {
+     "file": "outputs/parsed/sol_eligibility_gate1b2_2811496ef424.decisions.jsonl",
+     "address": "non-empty lines",
+     "value": 600
+    },
+    {
+     "file": "outputs/parsed/sol_eligibility_gate1b3_2811496ef424.decisions.jsonl",
+     "address": "non-empty lines",
+     "value": 600
+    },
+    {
+     "file": "outputs/parsed/sol_eligibility_gate1b4_2811496ef424.decisions.jsonl",
+     "address": "non-empty lines",
+     "value": 600
+    },
+    {
+     "file": "outputs/parsed/sol_eligibility_gate1b5_2811496ef424.decisions.jsonl",
+     "address": "non-empty lines",
+     "value": 600
+    },
+    {
+     "file": "outputs/parsed/sol_eligibility_gateall1_2811496ef424.decisions.jsonl",
+     "address": "non-empty lines",
+     "value": 28612
+    },
+    {
+     "file": "outputs/parsed/sol_eligibility_chase2_2811496ef424.decisions.jsonl",
+     "address": "non-empty lines",
+     "value": 15
+    },
+    {
+     "file": "outputs/parsed/sol_eligibility_gateall2_2811496ef424.decisions.jsonl",
+     "address": "non-empty lines",
+     "value": 4731
+    },
+    {
+     "file": "outputs/parsed/sol_eligibility_gateall3_2811496ef424.decisions.jsonl",
+     "address": "non-empty lines",
+     "value": 1397
+    }
+   ],
+   "recorded_in_runs": []
+  },
+  "papers_extracted_search": {
+   "value": 2093,
+   "meaning": "abstracts sent to extraction, search",
+   "kind": "lines",
+   "sources": [
+    {
+     "file": "outputs/parsed/sol_extraction_search_0b97103cd7a4.jsonl",
+     "address": "non-empty lines",
+     "value": 2093
+    }
+   ],
+   "recorded_in_runs": [
+    "s3_extraction_search_0b97103cd7a4"
+   ]
+  },
+  "papers_extracted_chase1": {
+   "value": 187,
+   "meaning": "abstracts sent to extraction, chase1",
+   "kind": "lines",
+   "sources": [
+    {
+     "file": "outputs/parsed/sol_extraction_chase1_0b97103cd7a4.jsonl",
+     "address": "non-empty lines",
+     "value": 187
+    }
+   ],
+   "recorded_in_runs": [
+    "s3_extraction_chase1_0b97103cd7a4"
+   ]
+  },
+  "papers_extracted_chase2": {
+   "value": 69,
+   "meaning": "abstracts sent to extraction, chase2",
+   "kind": "lines",
+   "sources": [
+    {
+     "file": "outputs/parsed/sol_extraction_chase2_0b97103cd7a4.jsonl",
+     "address": "non-empty lines",
+     "value": 69
+    }
+   ],
+   "recorded_in_runs": [
+    "s3_extraction_chase2_0b97103cd7a4"
+   ]
+  },
+  "papers_extracted_chase3": {
+   "value": 14,
+   "meaning": "abstracts sent to extraction, chase3",
+   "kind": "lines",
+   "sources": [
+    {
+     "file": "outputs/parsed/sol_extraction_chase3_0b97103cd7a4.jsonl",
+     "address": "non-empty lines",
+     "value": 14
+    }
+   ],
+   "recorded_in_runs": [
+    "s3_extraction_chase3_0b97103cd7a4"
+   ]
+  },
+  "papers_extracted_all": {
+   "value": 2363,
+   "meaning": "abstracts sent to extraction",
+   "kind": "lines",
+   "sources": [
+    {
+     "file": "outputs/parsed/sol_extraction_search_0b97103cd7a4.jsonl",
+     "address": "non-empty lines",
+     "value": 2093
+    },
+    {
+     "file": "outputs/parsed/sol_extraction_chase1_0b97103cd7a4.jsonl",
+     "address": "non-empty lines",
+     "value": 187
+    },
+    {
+     "file": "outputs/parsed/sol_extraction_chase2_0b97103cd7a4.jsonl",
+     "address": "non-empty lines",
+     "value": 69
+    },
+    {
+     "file": "outputs/parsed/sol_extraction_chase3_0b97103cd7a4.jsonl",
+     "address": "non-empty lines",
+     "value": 14
+    }
+   ],
+   "recorded_in_runs": []
+  },
+  "claim_records_search": {
+   "value": 12664,
+   "meaning": "claim records extracted, search",
+   "kind": "direct",
+   "sources": [
+    {
+     "file": "outputs/verification/sol_extraction_search_0b97103cd7a4/claim_summary.json",
+     "address": "n_claims",
+     "value": 12664
+    }
+   ],
+   "recorded_in_runs": [
+    "s4_verification_queue_2026-10-03"
+   ]
+  },
+  "claim_records_chase1": {
+   "value": 981,
+   "meaning": "claim records extracted, chase1",
+   "kind": "direct",
+   "sources": [
+    {
+     "file": "outputs/verification/sol_extraction_chase1_0b97103cd7a4/claim_summary.json",
+     "address": "n_claims",
+     "value": 981
+    }
+   ],
+   "recorded_in_runs": [
+    "s4_verification_queue_2026-10-03"
+   ]
+  },
+  "claim_records_chase2": {
+   "value": 326,
+   "meaning": "claim records extracted, chase2",
+   "kind": "direct",
+   "sources": [
+    {
+     "file": "outputs/verification/sol_extraction_chase2_0b97103cd7a4/claim_summary.json",
+     "address": "n_claims",
+     "value": 326
+    }
+   ],
+   "recorded_in_runs": [
+    "s4_verification_queue_2026-10-03"
+   ]
+  },
+  "claim_records_chase3": {
+   "value": 82,
+   "meaning": "claim records extracted, chase3",
+   "kind": "direct",
+   "sources": [
+    {
+     "file": "outputs/verification/sol_extraction_chase3_0b97103cd7a4/claim_summary.json",
+     "address": "n_claims",
+     "value": 82
+    }
+   ],
+   "recorded_in_runs": [
+    "s4_verification_queue_2026-10-03"
+   ]
+  },
+  "claim_records_all": {
+   "value": 14053,
+   "meaning": "claim records extracted",
+   "kind": "sum",
+   "sources": [
+    {
+     "file": "outputs/verification/sol_extraction_search_0b97103cd7a4/claim_summary.json",
+     "address": "n_claims",
+     "value": 12664
+    },
+    {
+     "file": "outputs/verification/sol_extraction_chase1_0b97103cd7a4/claim_summary.json",
+     "address": "n_claims",
+     "value": 981
+    },
+    {
+     "file": "outputs/verification/sol_extraction_chase2_0b97103cd7a4/claim_summary.json",
+     "address": "n_claims",
+     "value": 326
+    },
+    {
+     "file": "outputs/verification/sol_extraction_chase3_0b97103cd7a4/claim_summary.json",
+     "address": "n_claims",
+     "value": 82
+    }
+   ],
+   "recorded_in_runs": [
+    "s4_verification_queue_2026-10-03"
+   ]
+  },
+  "claim_records_passing_the_span_check_registered_run": {
+   "value": 13989,
+   "meaning": "claim records whose evidence span passed both span checks in the registered run",
+   "kind": "sum",
+   "sources": [
+    {
+     "file": "outputs/verification/sol_extraction_search_0b97103cd7a4/claim_summary.json",
+     "address": "span_pass",
+     "value": 12601
+    },
+    {
+     "file": "outputs/verification/sol_extraction_chase1_0b97103cd7a4/claim_summary.json",
+     "address": "span_pass",
+     "value": 980
+    },
+    {
+     "file": "outputs/verification/sol_extraction_chase2_0b97103cd7a4/claim_summary.json",
+     "address": "span_pass",
+     "value": 326
+    },
+    {
+     "file": "outputs/verification/sol_extraction_chase3_0b97103cd7a4/claim_summary.json",
+     "address": "span_pass",
+     "value": 82
+    }
+   ],
+   "recorded_in_runs": [
+    "s4_verification_queue_2026-10-03"
+   ]
+  },
+  "pinned_evidence_spans_registered_run": {
+   "value": 13989,
+   "meaning": "evidence spans pinned by the quotation tool in the registered run",
+   "kind": "sum",
+   "sources": [
+    {
+     "file": "outputs/verification/sol_extraction_search_0b97103cd7a4/span_summary.json",
+     "address": "citations_pin_found",
+     "value": 12601
+    },
+    {
+     "file": "outputs/verification/sol_extraction_chase1_0b97103cd7a4/span_summary.json",
+     "address": "citations_pin_found",
+     "value": 980
+    },
+    {
+     "file": "outputs/verification/sol_extraction_chase2_0b97103cd7a4/span_summary.json",
+     "address": "citations_pin_found",
+     "value": 326
+    },
+    {
+     "file": "outputs/verification/sol_extraction_chase3_0b97103cd7a4/span_summary.json",
+     "address": "citations_pin_found",
+     "value": 82
+    }
+   ],
+   "recorded_in_runs": [
+    "s4_verification_queue_2026-10-03"
+   ]
+  },
+  "span_failures_passage_standing_twice": {
+   "value": 27,
+   "meaning": "failing spans that stand twice in the stored abstract",
+   "kind": "direct",
+   "sources": [
+    {
+     "file": "outputs/span_failure_classes/span_failure_followup_counts_2026-10-08.json",
+     "address": "duplicates.records",
+     "value": 27
+    }
+   ],
+   "recorded_in_runs": []
+  },
+  "span_failures_one_token_left_out": {
+   "value": 37,
+   "meaning": "failing spans that leave out one token of the abstract",
+   "kind": "direct",
+   "sources": [
+    {
+     "file": "outputs/span_failure_classes/span_failure_followup_counts_2026-10-08.json",
+     "address": "omissions.records",
+     "value": 37
+    }
+   ],
+   "recorded_in_runs": []
+  },
+  "span_failures_all": {
+   "value": 64,
+   "meaning": "claim records that failed the span check in the registered run",
+   "kind": "sum",
+   "sources": [
+    {
+     "file": "outputs/span_failure_classes/span_failure_followup_counts_2026-10-08.json",
+     "address": "duplicates.records",
+     "value": 27
+    },
+    {
+     "file": "outputs/span_failure_classes/span_failure_followup_counts_2026-10-08.json",
+     "address": "omissions.records",
+     "value": 37
+    }
+   ],
+   "recorded_in_runs": []
+  },
+  "claim_records_passing_the_span_check_corrected_build": {
+   "value": 14016,
+   "meaning": "claim records passing both span checks under the corrected build of the quotation tool (the 27 pinned at their first occurrence)",
+   "kind": "sum",
+   "sources": [
+    {
+     "file": "outputs/verification_occurrence/sol_extraction_search_0b97103cd7a4/span_summary.json",
+     "address": "both_pass",
+     "value": 12628
+    },
+    {
+     "file": "outputs/verification_occurrence/sol_extraction_chase1_0b97103cd7a4/span_summary.json",
+     "address": "both_pass",
+     "value": 980
+    },
+    {
+     "file": "outputs/verification_occurrence/sol_extraction_chase2_0b97103cd7a4/span_summary.json",
+     "address": "both_pass",
+     "value": 326
+    },
+    {
+     "file": "outputs/verification_occurrence/sol_extraction_chase3_0b97103cd7a4/span_summary.json",
+     "address": "both_pass",
+     "value": 82
+    }
+   ],
+   "recorded_in_runs": [
+    "s4_amendment02_2026-10-08"
+   ]
+  },
+  "claim_records_passing_the_span_check_amended_primary": {
+   "value": 14053,
+   "meaning": "claim records passing both span checks with the 37 spans restored from the stored abstract",
+   "kind": "sum",
+   "sources": [
+    {
+     "file": "outputs/verification_occurrence/sol_extraction_search_0b97103cd7a4_restored/span_summary.json",
+     "address": "both_pass",
+     "value": 12664
+    },
+    {
+     "file": "outputs/verification_occurrence/sol_extraction_chase1_0b97103cd7a4_restored/span_summary.json",
+     "address": "both_pass",
+     "value": 981
+    },
+    {
+     "file": "outputs/verification_occurrence/sol_extraction_chase2_0b97103cd7a4/span_summary.json",
+     "address": "both_pass",
+     "value": 326
+    },
+    {
+     "file": "outputs/verification_occurrence/sol_extraction_chase3_0b97103cd7a4/span_summary.json",
+     "address": "both_pass",
+     "value": 82
+    }
+   ],
+   "recorded_in_runs": [
+    "s4_amendment02_2026-10-08"
+   ]
+  },
+  "spans_restored_search": {
+   "value": 36,
+   "meaning": "spans restored from the stored abstract, search",
+   "kind": "computed",
+   "sources": [
+    {
+     "file": "outputs/span_restoration/search/repair_map.json",
+     "address": "number of entries of `repairs`"
+    }
+   ],
+   "recorded_in_runs": [
+    "s4_amendment02_2026-10-08"
+   ]
+  },
+  "spans_restored_chase1": {
+   "value": 1,
+   "meaning": "spans restored from the stored abstract, chase1",
+   "kind": "computed",
+   "sources": [
+    {
+     "file": "outputs/span_restoration/chase1/repair_map.json",
+     "address": "number of entries of `repairs`"
+    }
+   ],
+   "recorded_in_runs": [
+    "s4_amendment02_2026-10-08"
+   ]
+  },
+  "registry_entries_registered_run": {
+   "value": 5665,
+   "meaning": "claim records the verifier passes into the registry, registered run",
+   "kind": "sum",
+   "sources": [
+    {
+     "file": "outputs/verification/sol_extraction_search_0b97103cd7a4/claim_summary.json",
+     "address": "enters_registry",
+     "value": 5140
+    },
+    {
+     "file": "outputs/verification/sol_extraction_chase1_0b97103cd7a4/claim_summary.json",
+     "address": "enters_registry",
+     "value": 339
+    },
+    {
+     "file": "outputs/verification/sol_extraction_chase2_0b97103cd7a4/claim_summary.json",
+     "address": "enters_registry",
+     "value": 167
+    },
+    {
+     "file": "outputs/verification/sol_extraction_chase3_0b97103cd7a4/claim_summary.json",
+     "address": "enters_registry",
+     "value": 19
+    }
+   ],
+   "recorded_in_runs": [
+    "s4_verification_queue_2026-10-03"
+   ]
+  },
+  "registry_entries_with_the_27": {
+   "value": 5679,
+   "meaning": "claim records the verifier passes into the registry with the 27 pinned",
+   "kind": "sum",
+   "sources": [
+    {
+     "file": "outputs/verification_amendment02/registered_with_27/sol_extraction_search_0b97103cd7a4/claim_summary.json",
+     "address": "enters_registry",
+     "value": 5154
+    },
+    {
+     "file": "outputs/verification/sol_extraction_chase1_0b97103cd7a4/claim_summary.json",
+     "address": "enters_registry",
+     "value": 339
+    },
+    {
+     "file": "outputs/verification/sol_extraction_chase2_0b97103cd7a4/claim_summary.json",
+     "address": "enters_registry",
+     "value": 167
+    },
+    {
+     "file": "outputs/verification/sol_extraction_chase3_0b97103cd7a4/claim_summary.json",
+     "address": "enters_registry",
+     "value": 19
+    }
+   ],
+   "recorded_in_runs": []
+  },
+  "registry_entries_amended_primary": {
+   "value": 5699,
+   "meaning": "claim records the verifier passes into the registry in the amended primary analysis",
+   "kind": "sum",
+   "sources": [
+    {
+     "file": "outputs/verification_amendment02/amended_primary/sol_extraction_search_0b97103cd7a4_restored/claim_summary.json",
+     "address": "enters_registry",
+     "value": 5173
+    },
+    {
+     "file": "outputs/verification_amendment02/amended_primary/sol_extraction_chase1_0b97103cd7a4_restored/claim_summary.json",
+     "address": "enters_registry",
+     "value": 340
+    },
+    {
+     "file": "outputs/verification/sol_extraction_chase2_0b97103cd7a4/claim_summary.json",
+     "address": "enters_registry",
+     "value": 167
+    },
+    {
+     "file": "outputs/verification/sol_extraction_chase3_0b97103cd7a4/claim_summary.json",
+     "address": "enters_registry",
+     "value": 19
+    }
+   ],
+   "recorded_in_runs": []
+  },
+  "queue_rows": {
+   "value": 872,
+   "meaning": "rows of the manual-coding queue (record, side, name as written)",
+   "kind": "lines",
+   "sources": [
+    {
+     "file": "outputs/manual_coding/2026-10-03/manual_coding_queue.csv",
+     "address": "rows after the header",
+     "value": 872
+    }
+   ],
+   "recorded_in_runs": [
+    "s4_manual_coding_2026-10-03",
+    "s4_verification_queue_2026-10-03"
+   ]
+  },
+  "queue_rows_amended_primary": {
+   "value": 876,
+   "meaning": "rows of the queue rebuilt for the amended primary analysis",
+   "kind": "lines",
+   "sources": [
+    {
+     "file": "outputs/manual_coding/2026-10-03_amended_primary/manual_coding_queue.csv",
+     "address": "rows after the header",
+     "value": 876
+    }
+   ],
+   "recorded_in_runs": [
+    "s4_amendment02_2026-10-08"
+   ]
+  },
+  "queue_rows_new": {
+   "value": 4,
+   "meaning": "queue rows added by the rebuild",
+   "kind": "direct",
+   "sources": [
+    {
+     "file": "outputs/manual_coding/2026-10-03_amended_primary/queue_rebuild_comparison_with_passages.json",
+     "address": "new_rows",
+     "value": 4
+    }
+   ],
+   "recorded_in_runs": [
+    "s4_amendment02_2026-10-08"
+   ]
+  },
+  "queue_rows_unchanged": {
+   "value": 872,
+   "meaning": "coded queue rows asserted unchanged in the rebuilt queue",
+   "kind": "direct",
+   "sources": [
+    {
+     "file": "outputs/manual_coding/2026-10-03_amended_primary/queue_rebuild_comparison_with_passages.json",
+     "address": "coded_rows",
+     "value": 872
+    }
+   ],
+   "recorded_in_runs": [
+    "s4_amendment02_2026-10-08"
+   ]
+  },
+  "queue_rows_coded": {
+   "value": 196,
+   "meaning": "queue rows coded to a dictionary row",
+   "kind": "direct",
+   "sources": [
+    {
+     "file": "outputs/manual_coding/2026-10-03/manual_dataset_coding_report.json",
+     "address": "coded",
+     "value": 196
+    }
+   ],
+   "recorded_in_runs": [
+    "s4_manual_coding_2026-10-03"
+   ]
+  },
+  "queue_rows_release_not_identified": {
+   "value": 435,
+   "meaning": "queue rows unresolved: release not identified",
+   "kind": "direct",
+   "sources": [
+    {
+     "file": "outputs/manual_coding/2026-10-03/manual_dataset_coding_report.json",
+     "address": "unresolved_reason_release_not_identified",
+     "value": 435
+    }
+   ],
+   "recorded_in_runs": [
+    "s4_manual_coding_2026-10-03"
+   ]
+  },
+  "queue_rows_conflicting_identifiers": {
+   "value": 15,
+   "meaning": "queue rows unresolved: conflicting identifiers",
+   "kind": "direct",
+   "sources": [
+    {
+     "file": "outputs/manual_coding/2026-10-03/manual_dataset_coding_report.json",
+     "address": "unresolved_reason_conflicting_identifiers",
+     "value": 15
+    }
+   ],
+   "recorded_in_runs": [
+    "s4_manual_coding_2026-10-03"
+   ]
+  },
+  "queue_rows_absent_from_dictionary": {
+   "value": 226,
+   "meaning": "queue rows unresolved: dataset named and absent from the dictionary",
+   "kind": "direct",
+   "sources": [
+    {
+     "file": "outputs/manual_coding/2026-10-03/manual_dataset_coding_report.json",
+     "address": "unresolved_reason_dataset_absent_from_dictionary",
+     "value": 226
+    }
+   ],
+   "recorded_in_runs": [
+    "s4_manual_coding_2026-10-03"
+   ]
+  },
+  "second_check_agreements": {
+   "value": 821,
+   "meaning": "queue rows on which the two checks gave the same value",
+   "kind": "direct",
+   "sources": [
+    {
+     "file": "outputs/manual_coding/2026-10-03/manual_dataset_coding_report.json",
+     "address": "step2_agree",
+     "value": 821
+    }
+   ],
+   "recorded_in_runs": [
+    "s4_manual_coding_2026-10-03"
+   ]
+  },
+  "second_check_disagreements": {
+   "value": 51,
+   "meaning": "queue rows on which the two checks differed, reread",
+   "kind": "direct",
+   "sources": [
+    {
+     "file": "outputs/manual_coding/2026-10-03/manual_dataset_coding_report.json",
+     "address": "step2_disagree",
+     "value": 51
+    }
+   ],
+   "recorded_in_runs": [
+    "s4_manual_coding_2026-10-03"
+   ]
+  },
+  "coded_rows_marked_by_the_author": {
+   "value": 124,
+   "meaning": "coded rows the author marked as confirmed",
+   "kind": "direct",
+   "sources": [
+    {
+     "file": "outputs/manual_coding/2026-10-03/check3_coverage_after_second_look_save2.json",
+     "address": "rows_with_an_author_yes",
+     "value": 124
+    }
+   ],
+   "recorded_in_runs": [
+    "s4_manual_coding_2026-10-03"
+   ]
+  },
+  "coded_rows_machine_checked_only": {
+   "value": 72,
+   "meaning": "coded rows checked by the machine gate only",
+   "kind": "direct",
+   "sources": [
+    {
+     "file": "outputs/manual_coding/2026-10-03/check3_coverage_after_second_look_save2.json",
+     "address": "rows_machine_gate_only",
+     "value": 72
+    }
+   ],
+   "recorded_in_runs": [
+    "s4_manual_coding_2026-10-03"
+   ]
+  },
+  "new_queue_rows_coded": {
+   "value": 1,
+   "meaning": "new queue rows coded at the first check",
+   "kind": "direct",
+   "sources": [
+    {
+     "file": "outputs/manual_coding/2026-10-03_new_rows/first_check_result.json",
+     "address": "first_check_by_category.coded",
+     "value": 1
+    }
+   ],
+   "recorded_in_runs": [
+    "s4_manual_coding_2026-10-03"
+   ]
+  },
+  "new_queue_rows_on_which_the_checks_agree": {
+   "value": 4,
+   "meaning": "new queue rows on which the two checks gave the same value",
+   "kind": "computed",
+   "sources": [
+    {
+     "file": "outputs/manual_coding/2026-10-03_new_rows/manual_dataset_codes_extended_2_second_check.csv",
+     "address": "rows whose claude_code_value equals perplexity_value"
+    }
+   ],
+   "recorded_in_runs": [
+    "s4_manual_coding_2026-10-03"
+   ]
+  },
+  "plan_log_lines": {
+   "value": 193,
+   "meaning": "dated lines of the plan's log",
+   "kind": "computed",
+   "sources": [
+    {
+     "file": "PREREG.md",
+     "address": "lines of the Log section that begin with a date"
+    }
+   ],
+   "recorded_in_runs": []
+  },
+  "plan_log_lines_nothing_run": {
+   "value": 95,
+   "meaning": "log lines written at the level `nothing run`",
+   "kind": "computed",
+   "sources": [
+    {
+     "file": "PREREG.md",
+     "address": "dated log lines ending with the level"
+    }
+   ],
+   "recorded_in_runs": []
+  },
+  "plan_log_lines_no_results_seen": {
+   "value": 11,
+   "meaning": "log lines written at the level `no results seen`",
+   "kind": "computed",
+   "sources": [
+    {
+     "file": "PREREG.md",
+     "address": "dated log lines ending with the level"
+    }
+   ],
+   "recorded_in_runs": []
+  },
+  "plan_log_lines_results_not_opened": {
+   "value": 17,
+   "meaning": "log lines written at the level `results not opened`",
+   "kind": "computed",
+   "sources": [
+    {
+     "file": "PREREG.md",
+     "address": "dated log lines ending with the level"
+    }
+   ],
+   "recorded_in_runs": []
+  },
+  "plan_log_lines_results_seen": {
+   "value": 70,
+   "meaning": "log lines written at the level `results seen`",
+   "kind": "computed",
+   "sources": [
+    {
+     "file": "PREREG.md",
+     "address": "dated log lines ending with the level"
+    }
+   ],
+   "recorded_in_runs": []
+  },
+  "ledger_events": {
+   "value": 156,
+   "meaning": "events of the results ledger",
+   "kind": "computed",
+   "sources": [
+    {
+     "file": "../../.results/ledger.jsonl",
+     "address": "lines; last seq 155"
+    }
+   ],
+   "recorded_in_runs": []
+  },
+  "ledger_events_seal": {
+   "value": 90,
+   "meaning": "ledger events of kind `seal`",
+   "kind": "computed",
+   "sources": [
+    {
+     "file": "../../.results/ledger.jsonl",
+     "address": "events of the kind"
+    }
+   ],
+   "recorded_in_runs": []
+  },
+  "ledger_events_run": {
+   "value": 39,
+   "meaning": "ledger events of kind `run`",
+   "kind": "computed",
+   "sources": [
+    {
+     "file": "../../.results/ledger.jsonl",
+     "address": "events of the kind"
+    }
+   ],
+   "recorded_in_runs": []
+  },
+  "ledger_events_access": {
+   "value": 26,
+   "meaning": "ledger events of kind `access`",
+   "kind": "computed",
+   "sources": [
+    {
+     "file": "../../.results/ledger.jsonl",
+     "address": "events of the kind"
+    }
+   ],
+   "recorded_in_runs": []
+  },
+  "ledger_events_claim": {
+   "value": 0,
+   "meaning": "ledger events of kind `claim`",
+   "kind": "computed",
+   "sources": [
+    {
+     "file": "../../.results/ledger.jsonl",
+     "address": "events of the kind"
+    }
+   ],
+   "recorded_in_runs": []
+  },
+  "ledger_distinct_files_sealed": {
+   "value": 262,
+   "meaning": "distinct files sealed in the ledger",
+   "kind": "computed",
+   "sources": [
+    {
+     "file": "../../.results/ledger.jsonl",
+     "address": "distinct paths of seal events"
+    }
+   ],
+   "recorded_in_runs": []
+  },
+  "ledger_access_metadata_only": {
+   "value": 4,
+   "meaning": "access records at the level `metadata only`",
+   "kind": "computed",
+   "sources": [
+    {
+     "file": "../../.results/ledger.jsonl",
+     "address": "access events of the level"
+    }
+   ],
+   "recorded_in_runs": []
+  },
+  "ledger_access_outcomes_seen": {
+   "value": 3,
+   "meaning": "access records at the level `outcomes seen`",
+   "kind": "computed",
+   "sources": [
+    {
+     "file": "../../.results/ledger.jsonl",
+     "address": "access events of the level"
+    }
+   ],
+   "recorded_in_runs": []
+  },
+  "ledger_access_structure_seen": {
+   "value": 19,
+   "meaning": "access records at the level `structure seen`",
+   "kind": "computed",
+   "sources": [
+    {
+     "file": "../../.results/ledger.jsonl",
+     "address": "access events of the level"
+    }
+   ],
+   "recorded_in_runs": []
+  },
+  "pinned_quotations_manual_coding": {
+   "value": 2167,
+   "meaning": "quotations pinned for the manual dataset coding",
+   "kind": "computed",
+   "sources": [
+    {
+     "file": "outputs/citations/manual_coding_2026-10-03/claims",
+     "address": "quotations of every claims file"
+    }
+   ],
+   "recorded_in_runs": []
+  },
+  "claims_files_manual_coding": {
+   "value": 716,
+   "meaning": "claims files of the manual dataset coding",
+   "kind": "computed",
+   "sources": [
+    {
+     "file": "outputs/citations/manual_coding_2026-10-03/claims",
+     "address": "claims files in the folder"
+    }
+   ],
+   "recorded_in_runs": []
+  },
+  "pinned_quotations_manual_coding_new_rows": {
+   "value": 7,
+   "meaning": "quotations pinned for the coding of the new queue rows",
+   "kind": "computed",
+   "sources": [
+    {
+     "file": "outputs/citations/manual_coding_2026-10-03_new_rows/claims",
+     "address": "quotations of every claims file"
+    }
+   ],
+   "recorded_in_runs": []
+  },
+  "claims_files_manual_coding_new_rows": {
+   "value": 5,
+   "meaning": "claims files of the coding of the new queue rows",
+   "kind": "computed",
+   "sources": [
+    {
+     "file": "outputs/citations/manual_coding_2026-10-03_new_rows/claims",
+     "address": "claims files in the folder"
+    }
+   ],
+   "recorded_in_runs": []
+  },
+  "pinned_quotations_repository_root": {
+   "value": 7783,
+   "meaning": "quotations pinned for the repository's own claims folder",
+   "kind": "computed",
+   "sources": [
+    {
+     "file": "../../claims",
+     "address": "quotations of every claims file"
+    }
+   ],
+   "recorded_in_runs": []
+  },
+  "claims_files_repository_root": {
+   "value": 429,
+   "meaning": "claims files of the repository's own claims folder",
+   "kind": "computed",
+   "sources": [
+    {
+     "file": "../../claims",
+     "address": "claims files in the folder"
+    }
+   ],
+   "recorded_in_runs": []
+  },
+  "scripts": {
+   "value": 132,
+   "meaning": "Python files under scripts/",
+   "kind": "computed",
+   "sources": [
+    {
+     "file": "scripts",
+     "address": "*.py files"
+    }
+   ],
+   "recorded_in_runs": []
+  },
+  "test_files": {
+   "value": 88,
+   "meaning": "test files under tests/",
+   "kind": "computed",
+   "sources": [
+    {
+     "file": "tests",
+     "address": "test_*.py files"
+    }
+   ],
+   "recorded_in_runs": []
+  },
+  "suite_tests_passed": {
+   "value": 1207,
+   "meaning": "tests passed in the stored suite output",
+   "kind": "computed",
+   "sources": [
+    {
+     "file": "outputs/tests/pytest_all_modal_20261008T120511Z.txt",
+     "address": "last summary line"
+    }
+   ],
+   "recorded_in_runs": []
+  },
+  "suite_tests_skipped": {
+   "value": 1,
+   "meaning": "tests skipped in the stored suite output",
+   "kind": "computed",
+   "sources": [
+    {
+     "file": "outputs/tests/pytest_all_modal_20261008T120511Z.txt",
+     "address": "last summary line"
+    }
+   ],
+   "recorded_in_runs": []
+  },
+  "suite_tests_failed": {
+   "value": 0,
+   "meaning": "tests failed in the stored suite output",
+   "kind": "computed",
+   "sources": [
+    {
+     "file": "outputs/tests/pytest_all_modal_20261008T120511Z.txt",
+     "address": "last summary line"
+    }
+   ],
+   "recorded_in_runs": []
+  }
+ },
+ "inputs_sha256": {
+  "../../.results/ledger.jsonl": "a28f148d453e5a45820c328ad8f45a75809c67aca23b6f8f70eed3e916c66339",
+  "../../claims/aragam2022cad_main.yaml": "d7eeaf656d919466531842cb3745f796fd44d6d85a68832c9adbf4a53acb77fe",
+  "../../claims/aragam2022cad_main_original.yaml": "cac18d829f8368cec5753fda696430cacbf7877a59276100b3ca6456cffacea5",
+  "../../claims/aragam2022cad_main_original_jats.yaml": "6b952ca23365673853fda0b7d55985a4de7ba4fcd61162f1b65a7daeea6bf528",
+  "../../claims/aragam2022cad_supp_note.yaml": "25b50d21dc715891887219c7af6a8b67ff288c48bc2a5895f296e2b2e12f82f1",
+  "../../claims/aragam2022cad_supp_note_original.yaml": "3eecc94d7b49d9a38a9e5b4da14e5deb6b39285b7cd9bb66d75a835bdb702114",
+  "../../claims/aragam2022cad_supp_table1.yaml": "b4f82a96f97f1f651c558c4c6d6610dba193ae09b17a27014cfc39f4a99a3f0d",
+  "../../claims/aragam2022cad_supp_table1_original.yaml": "1bcb6e090df4cebee853ad86ca009934e3f847556d8e0d3c8ee94918ba4ed040",
+  "../../claims/bellenguez2022_data_availability.yaml": "efc217737eb964da471f77b1cc7380618f0ab0f0707531bcaed41040eda8c90b",
+  "../../claims/bellenguez2022_main.yaml": "15c63c5d8ba592445dfea8abab7f20a018eb28f233a68d8fc8c47c7b796105e9",
+  "../../claims/bellenguez2022_main_original.yaml": "4f6d03df5299069008047b7499df94a0a46857f71e1cb288933f7fabf7d4d104",
+  "../../claims/bellenguez2022_main_original_jats.yaml": "cb11c9f2ebde70e4deed596e637abb851da0b70bfbbcdb1f3c5fb49a19b8bd02",
+  "../../claims/bellenguez2022_supp_note.yaml": "40cd9ecce278ac90f6d6417cc5e360a6751c41fada05d5af96b470e707fd9002",
+  "../../claims/bellenguez2022_supp_note_original.yaml": "cb2f58d00db6bc0c553b33518cb3819bc929569f9754164d41b713891d687793",
+  "../../claims/bellenguez2022_supp_table1.yaml": "9d50e5cea9048213ac1c46900689bf5fb40a75e1aeb6573e70b09be881d993b6",
+  "../../claims/bellenguez2022_supp_table1_original.yaml": "a9802ac8266d1fc2cb34bfc146cca1725199fd560177817dc7f63c7e2baa9ea9",
+  "../../claims/bentham2015sle_main.yaml": "bbe96b0eae6bcb34ce42c8c3f2e7855d170ac96b2d877291b9bc972a078558e6",
+  "../../claims/bentham2015sle_main_original.yaml": "cc70bcb4b28569d88beddd95770b8d03a29dc0c15cb0f2b6b92b2fe78cf52965",
+  "../../claims/bentham2015sle_main_original_jats.yaml": "3e75a8c67bacceec1da33b2db3c8b756ac6da16291ac11a52d40db31eb0ce22e",
+  "../../claims/bentham2015sle_supp_text.yaml": "a62e7eac8dd23afe852a7a04afaef943a86f19d226779d709fe57fe5b9267a38",
+  "../../claims/burgess2016.yaml": "e77d5b4eb32e79b4719096b63a53e0506c04987a65f0124f51015ce26be63ca5",
+  "../../claims/burgess2016_original.yaml": "f864aa5e3f4c575a8b12cc4310915147e02eea2660b78e3d5d4f4fa4c489a149",
+  "../../claims/burgess2016_original_jats.yaml": "c53a6371f5fad2715d52b61a3d9688c5aeb0aa128dc511a804287ed5f7fa6ec7",
+  "../../claims/chen2021magic_main.yaml": "3eabf21d69c4b05d930001799b227242335df9e713552f29a77de8faa59e0561",
+  "../../claims/chen2021magic_main_original.yaml": "5f53891f193d2d395c6dcabd7802440b52fbcd3bcce6ea4f1f5b5308ecc385e6",
+  "../../claims/chen2021magic_main_original_jats.yaml": "8c9bfa84799b08ebd2fd76916e771662e75612c0963c79bb3fe45b8b0c8ad072",
+  "../../claims/chen2021magic_supp_table1.yaml": "b2edc828af2eeabddee4b10b5b9481333fc41e039933f90367e8e8ce9e4e35c2",
+  "../../claims/chen2022stroke.yaml": "fbd673ce8ab81fc07ec3345f4ab3a4fd203d02faaea28be6b4e3106a61c400d6",
+  "../../claims/chen2022stroke_original.yaml": "eee5c1a3f668cc24149767975a740e87b7d262ae4b0e8aed2ee4008e536851dc",
+  "../../claims/chen2022stroke_original_jats.yaml": "e7590bf84c2ef45c419ccb81c6cd0161d48f9bcf17c0e191e9c058619585659a",
+  "../../claims/chen2025lung.yaml": "65f27f94faa5998097f6d0e70574285785208159af5082f2839ee6656e5c46b5",
+  "../../claims/chen2025lung_original.yaml": "dc634c16e11bdfb8a27e2122d92f3d82de8d3f0f3904b1550c1981a3948bb933",
+  "../../claims/chen2026llmreview.yaml": "2cf210a31df3930f6480cbc2e6360c702d1e04b0a42f1282588a4421b40c0e8b",
+  "../../claims/chen2026llmreview_original.yaml": "3a60c01266ef7b4c1f745914b81875a4f20c8dc6b9d9c7759b3e714b3486a03c",
+  "../../claims/chen2026llmreview_original_jats.yaml": "34daf90c9652e2c815aed1280504d394a1a2fdcc96ac8f7a78486c105bfbd087",
+  "../../claims/christophersen2017af_main.yaml": "30a4c13956e5f6b7bc3d7080136f369cec70bb15a58a872316b2773bf45958d3",
+  "../../claims/christophersen2017af_main_original.yaml": "dc3e7e07b58560e9cf64dea38447609f8975f7a68e5cb147ae3f972ca2038018",
+  "../../claims/christophersen2017af_main_original_jats.yaml": "14fa209069143025842be7750e4defab046866cad59529969021d12f9b6e1c61",
+  "../../claims/christophersen2017af_supp_note.yaml": "fc468497ff641a737616fac640ff30a6aac03ece9abdf653edf760fb4669ee7c",
+  "../../claims/christophersen2017af_supp_note_original.yaml": "a16b291bdaaf76a0ebe013f8c5e9bd5983ad1fb154fdd6718251e56196ff996f",
+  "../../claims/christophersen2017af_supp_table1.yaml": "02319e4a6cb20ba84af42fa29cb300f967f46c8a7e5808af87de714f2e08030f",
+  "../../claims/christophersen2017af_supp_table1_original.yaml": "0348042f95052519e61740bde578c458ea5a4c2238c708733237e172106a6bb1",
+  "../../claims/clark2025.yaml": "902cb358eca4d8145761aa731841fcdc60508b5b29bd4c2af89659075842a337",
+  "../../claims/clark2025_original.yaml": "c7e7396e358147a01218658bb3867a1126e06630ab0376f801f6dd4946381fb4",
+  "../../claims/clark2025_original_jats.yaml": "d3c459c5176a91f2cdf2de1ae0a57d919d3bef481039cf4e5f329630053ba3cf",
+  "../../claims/cochrane2025ch4.yaml": "dc513acef0f12dceb2fb6d55c69e826d6d682f2c8c278d2aa72f8ffe219d5f0f",
+  "../../claims/covidhgi2021_main.yaml": "a23e69bd6dbda732c553a6f364a520433175717b927e1bfebd1bc6f5539900fd",
+  "../../claims/covidhgi2021_main_original.yaml": "07e67fe818528114de97ff73f060850b2ff35a8a247960c364d3a24aa86a7c7a",
+  "../../claims/covidhgi2021_main_original_jats.yaml": "310d913e6c3c19ec756f1e34dc6682f02afbcae3211dbbcc6bf43fa4a5b1be36",
+  "../../claims/covidhgi2021_supp_note.yaml": "7fc78bf3c46a769bfbf699683aaae3482c3919a8533ef37b5d20136ddb95e51e",
+  "../../claims/covidhgi2021_supp_note_original.yaml": "998872f1147dad26174ebaddcb78e5046bcbb6e1471dfb4782f27467388c872a",
+  "../../claims/covidhgi2021_supp_table1.yaml": "5c711e4f6140c9f041b574377309d80bd39b13c53fc9c5e7ea4aad1d6a7e37b2",
+  "../../claims/covidhgi2021_supp_table1_original.yaml": "dfd1b2312d0852c96e8760f99cc35494822c2671d5adafe0945897ff218de1ba",
+  "../../claims/covidhgi2023r7_main.yaml": "577896478d3bfbf634b62ea49df76bf778ceb2ec12477b0588e64951557ae131",
+  "../../claims/covidhgi2023r7_main_original.yaml": "09df5342be3ba787629b36c3b805bfedb2ae445062274258a1ed79faed672bb2",
+  "../../claims/covidhgi2023r7_main_original_jats.yaml": "a7e9a15db12683fa1902d0d5bbfdc6de39617f480e4a4fd5ed9b9edb9f7282dd",
+  "../../claims/covidhgi2023r7_supp_table1.yaml": "26af71ae212918663c469d63b8682b947b8b122f724bca0a21e39611f3c9b447",
+  "../../claims/covidhgi2023r7_supp_table1_original.yaml": "c712627b9c737cccb772692273e3aca027a42196690dbadc6965b5331f119b4a",
+  "../../claims/delange2017ibd_main.yaml": "7b2bd97f704587fa8b9028417054968bf57c1e71b8959072a44bdcf448101593",
+  "../../claims/delange2017ibd_main_original.yaml": "0ba4273ca58693b2de864f19045d1483726d5d7d90c59ea99f61bd43795f0452",
+  "../../claims/delange2017ibd_main_original_jats.yaml": "5723366db34731fd98ca2e75d2d0a2d5f4701b32476f33ad13deb138fd636606",
+  "../../claims/delange2017ibd_supp_table1.yaml": "ef72a582e7962a637a68983be0344c7eb36f515be1c8d967d5d916bbb1556552",
+  "../../claims/deloukas2013cad_supp.yaml": "9974262d77a70ad10151b2c1c795f26d2c06ddf99b8085f9357bd8a570cbf234",
+  "../../claims/deloukas2013cad_supp_original.yaml": "b1b01521db23762280f2b6f5133b085e5cbb97c5980623b02b1e0397890a12e0",
+  "../../claims/demenais2018tagc_supp_table1.yaml": "55c7cbdcbbba48e21f17f6be37e070d28847054123ff47ba7c24676f03069a63",
+  "../../claims/demenais2018tagc_supp_table1_original.yaml": "c783bbab09f0dc90fa4033f1d0fd629915fdccac6d342ab00c0cbe4454cd874b",
+  "../../claims/demontis2019adhd_main.yaml": "799162490ec4aa63bd705a33b81fb0375c9286e82735ad659d3c7c4473033bb7",
+  "../../claims/demontis2019adhd_supp_info.yaml": "92174bfe1b40252b63d7d00076112a8786c39dbc43012cd8cd68ea5d590d5358",
+  "../../claims/demontis2019adhd_supp_info_original.yaml": "42a27e73683265766cc3cc9493f5d30b0ac674c5ec4db36de4ea1d6408679ffe",
+  "../../claims/demontis2019adhd_supp_table1.yaml": "d373699a916fe8a26f4e4d6aac939ef14da9fdac6ee5f3c742913bdd1c497987",
+  "../../claims/demontis2023adhd_main.yaml": "ecb7a2b8f4d1f880141a350c0c52e2f75c65171f570e268b2ff5d99d084272fd",
+  "../../claims/demontis2023adhd_supp_table1.yaml": "f7996b6203ffe0a11fc51b71598afb646aedcf04503511ddceadd234c589e6c0",
+  "../../claims/demontis2023adhd_supp_table1_original.yaml": "3d163254bfd3d1c04e26d8f2ce6619e0ad4989ff1347a8e8542d7863ba35d2dd",
+  "../../claims/eldjarn2022preprint.yaml": "617aaee170537d0ac4f3f1e433131ce1b3f12f99298e2699cf912edc6fc5a5dd",
+  "../../claims/eldjarn2022withdrawal.yaml": "38934f592aa89e552352011096b6277d7b0eb493de9926cce9094beca9c21978",
+  "../../claims/eldjarn2022withdrawal_original.yaml": "3a4f763d5263b583a83d5d7adee78d83810ba256c877e40b066590fbb84e9e78",
+  "../../claims/eldjarn2023.yaml": "2267771fb7b7a0567b21eb9e3a19ed22a36cd47abb2c21f06a2ddded7ca667a1",
+  "../../claims/eldjarn2023_original.yaml": "d23b8f1a5cf9b7d20d630b0b46006055f2766bc283c6252286a76f4ded27f65f",
+  "../../claims/eldjarn2023_original_jats.yaml": "d163361f354f77db6dccab5a08741dbe4e0d7ccc5faf9c723e09fe1512009e1f",
+  "../../claims/emilsson2018ages.yaml": "66b8452518e2656ce173706aeb432844988a5881f1aa34812ad174753b3bd478",
+  "../../claims/emilsson2018ages_original.yaml": "f1ca3b5139a3c5500ce75eaf5151238d2145d05739d2f590730e5048a571d612",
+  "../../claims/emilsson2018ages_original_jats.yaml": "dddbd600066587327cefc934b94764eb9485e753ebc4cded82a69adacf42bf94",
+  "../../claims/enroth2014nsphs.yaml": "d49ff58ca9162a5917b3c8330dadee6ea679f40674fda1728cb284e9fe57fc4d",
+  "../../claims/enroth2014nsphs_original.yaml": "a7340f60bac249a0a1b31f8fc55147ead96aae323609b522f6ae58190948fa84",
+  "../../claims/enroth2014nsphs_original_jats.yaml": "58531ae6e5c4996936cb8e8db2e6a0aa5c9ad114e399e52d4ee0e8a288ec5418",
+  "../../claims/evangelou2018bp_main.yaml": "00518e687540f2836de1be9ffebc932ba8dc88c5c610b4d57987e4d73b3abc65",
+  "../../claims/evangelou2018bp_main_original.yaml": "6038f552a28e5ddaf6ac50010c5e69b7aba1404fb20d302b0b3836cce34909dd",
+  "../../claims/evangelou2018bp_main_original_jats.yaml": "588522596fff1dab8cf328dbc5698590c8d2c26dd3b3cbef2cbef2dbcac4a4eb",
+  "../../claims/evangelou2018bp_supp_tables.yaml": "1675fa52e67520c9e1090bd6058e1dc7e3f3703d0e62ab5fccc0045e7557d351",
+  "../../claims/evangelou2018bp_supp_tables_original.yaml": "40c937e21d832b3dc00c861920ffe3b4ba9a924a3ac6cb305d57a10fc6c0d606",
+  "../../claims/fernandezrozadilla2023crc_main.yaml": "a9d9eabae6f4b1fca7822fa6eb2116f929cd046d374b90037dc4cf0a45067738",
+  "../../claims/fernandezrozadilla2023crc_main_original.yaml": "f68d5e70c2cf1863e08c585fe6c498191508a86610c8540c258096f2d1ecd8af",
+  "../../claims/fernandezrozadilla2023crc_main_original_jats.yaml": "9560f0bdadd02045ee1f28d791a7849e0f5afe861b1c5380a85e25a2e35a7d58",
+  "../../claims/fernandezrozadilla2023crc_supp_info.yaml": "420b7a3dde317cd71e00ea853ed269711ea271c2251a4085a665be41d534fa43",
+  "../../claims/fernandezrozadilla2023crc_supp_info_original.yaml": "0f35fc7ed40cbd54c7add118866cf1751ff5887c5b7e05ac43e68c2ed047bafc",
+  "../../claims/fernandezrozadilla2023crc_supp_table1.yaml": "6338a36d00579fb5f80331264a251d7e32a2d8862c1145b784a2da1420f1a644",
+  "../../claims/fernandezrozadilla2023crc_supp_table1_original.yaml": "9c641a8a51790693aac0a5d62e08034dcc4e5bc7165e425e0a2920f196597385",
+  "../../claims/finngen_docs_r12_cohort_description.yaml": "954e32c4385c6872bba0956364e752d2a946321e9f1f3ecc5a261ca0e8448009",
+  "../../claims/finngen_docs_r12_meta_analysis.yaml": "4bf363711f115b6a78a4cd33f40ffe5b193393a632a653fa03ef2ce34a449040",
+  "../../claims/folkersen2017improve.yaml": "0ed6bb3c0adef8f2d30db9a11d064dfc95879d49d193c7d475b8ca65421ed7be",
+  "../../claims/folkersen2017improve_original.yaml": "e77c512a1abc0865036e46ca59ac8765acb9c71851d464ab8619b42863bacb8d",
+  "../../claims/folkersen2017improve_original_jats.yaml": "51fb88c3c45d775cf71e06430e5b9019f82c94af9eeef60eebcfb27ce4d4c2c9",
+  "../../claims/folkersen2020scallop.yaml": "946ee5be08233794394699f07a357bb27f964a72c3b22951278ff92c250bc402",
+  "../../claims/folkersen2020scallop_original.yaml": "d5c19e7344ca72d326d7bc11f8ceb5f65b50eea7b5d395e248cfe3350b5f90c8",
+  "../../claims/folkersen2020scallop_original_jats.yaml": "03c9ff2024ad010337fc56c51dfa6d9381c225ff6436886ff4967b2a7faedcb3",
+  "../../claims/folkersen2020scallop_supp_table1.yaml": "0dcc74cd42732613e19577a76c5f6f31329f429eda203e18753ff89e86791203",
+  "../../claims/folkersen2020scallop_supp_table1_original.yaml": "b0253a31d8ca06e85502b860149f5389d1f4876f7eae4045d7ef81a8e06a4e39",
+  "../../claims/gartlehner2025swar.yaml": "61131b523518e81749129c97a2f47e7698a4a1415460ace1896119e0788d08eb",
+  "../../claims/gartlehner2025swar_original.yaml": "e95998169a50e8cb89f6c4d6dd94a71209bb6ac9b015384fac627fbacaaaed00",
+  "../../claims/gibson2022preprint.yaml": "1ee88d01a9db37b8793e34a301f84bbb1b05fa240ef7b933765d2ca9971383e4",
+  "../../claims/gibson2022preprint_original.yaml": "fbd8d9a54d4893363e395879bd39f498a7d1aa218f6511d7429fe72ec03215e0",
+  "../../claims/gibson2023.yaml": "6524ee4970b7cd92c7d160bd03a6060ec3df60ad179423fcdcdae3909e70bf3e",
+  "../../claims/gibson2023_original.yaml": "e16de8c5f2f38c6d2f95915da0e86a2b46e12d34f5d2abd6a16c6ea7db0e9d1d",
+  "../../claims/gibson2023_original_jats.yaml": "b0c2a0ebbe82e9651f31c8434826ced11c27cbddbd445e8805883750e5283f30",
+  "../../claims/gilly2020manolis.yaml": "b9eafdae650a13cdbd6f537db69f1b10d7ee29eee098cd811782310c52fcf0e4",
+  "../../claims/graham2021glgc_main.yaml": "c42b7e795b1ff7f9b74cc191105a32a42f0fb8d4e71ad4f7c05b04ae0bd0f011",
+  "../../claims/graham2021glgc_main_original.yaml": "fb188897211e060d21c360301d8bb56067fe6e267ea74ed92aa97d59284367f5",
+  "../../claims/graham2021glgc_main_original_jats.yaml": "4f133404d1beb0f7e444401035cb92ca56e709815a0b896592dee4ca320d3855",
+  "../../claims/graham2021glgc_supp_table1.yaml": "686fa409a483cf37b0d8031218c68d5bad093801b12ce02375d31ca1625a1dca",
+  "../../claims/graham2021glgc_supp_table1_original.yaml": "8d561a596add1f9f779d19ca659ac6b1d73c56bafc95440b29d3ab94f896664c",
+  "../../claims/grove2019asd_main.yaml": "20a576e9bdaeabc864863eb50f905ebddd642a7bd9ceb904b63f101b5afd05e1",
+  "../../claims/grove2019asd_supp_info.yaml": "0fc682042ada873ec5497821fb418e3c77f67925b36fd566503c24cd2196b8aa",
+  "../../claims/grove2019asd_supp_info_original.yaml": "41a71eaf9e8caeddb49cdf578b427415c288cf7c56560758964d0f821a964be3",
+  "../../claims/gudjonsson2022ages.yaml": "ef6099674200c7197e08a7a79c5a3a733f72b533bec378cdc17ac55751fb4e36",
+  "../../claims/gudjonsson2022ages_original.yaml": "b5c78a8feabfaf9b3b3a2b8ae28d15323d3cc43f2a942c8c61edcaf32ffdfaa0",
+  "../../claims/gudjonsson2022ages_original_jats.yaml": "0aaec9f6009eccdc0c326fe520ab043fea3ba0462458c11489ec16e963b035c6",
+  "../../claims/han2020asthma_main.yaml": "25239a6a93192aa4b1ecd3b7ede8363bbdceba9cc12383bd3b5643665edc496d",
+  "../../claims/han2020asthma_main_original.yaml": "ec6d5fe05ebf2d692dfb4eca3fdbf9ccb18903e7de61be4f931c758b6ce4b976",
+  "../../claims/han2020asthma_main_original_jats.yaml": "01ff0efe61d90ec04a993e428a5bcf2a49dff4817c6a5201753b6aad8a42bee1",
+  "../../claims/howard2019dep_main.yaml": "b456dadf9bfc1a7c7e54882e5962b11583335cc7f96b760d7a703730a94cc176",
+  "../../claims/howson2017cad_main.yaml": "6f6cdb526ca83634e4e94fad6345e55cc7bdcf9b46bfbe5bf47fdb011b9096b6",
+  "../../claims/howson2017cad_main_original.yaml": "7f2d3da9aa564e03d772a88c65b7536ec8b9c98d72ae08700bbc614c5b378d21",
+  "../../claims/howson2017cad_main_original_jats.yaml": "afd683ee091b5afa2d8db8f2715a7b1740af1d03f4a9121127995ad1140c858c",
+  "../../claims/howson2017cad_supp.yaml": "f2f9410223fee84eaadf133de034c57b0d6d536177474c70d80a04452ac74e75",
+  "../../claims/howson2017cad_supp_original.yaml": "d500b77636dd6be3589b003bac73bf84180a7573452ec0d4fa112c7c6e61e5b0",
+  "../../claims/huyghe2019crc_main.yaml": "3c1fd709e7ed6f238ae31afefe0f8f6ef05e287824257e2a5a80dab7026faf8a",
+  "../../claims/huyghe2019crc_main_original.yaml": "9557b468c704b464afcdc2b0b7972ed4b957aa299ebb64d3932da3d08fb2140b",
+  "../../claims/huyghe2019crc_main_original_jats.yaml": "9915fe4f0c0df81b911477d4d5157079753abaa6ea332464f79b54c0eb4c810b",
+  "../../claims/huyghe2019crc_supp_note.yaml": "0169ef0d96181b7907732feb13947f768928ebae116dc61b5c69c9ba98a97a62",
+  "../../claims/huyghe2019crc_supp_note_original.yaml": "c29d21c4bceb8d0f271ea54c5122c8d397a52ec04c8799248157f6cb785486a0",
+  "../../claims/huyghe2019crc_supp_table1.yaml": "ad7ee0a2512bdf31b324c256b93589f4c30e210a97de592f19edfd5909fc5e89",
+  "../../claims/huyghe2019crc_supp_table1_original.yaml": "2fd1df8ef802224f16ecbfc8158b64be8e2e63d193491ea3f10991f8a2671221",
+  "../../claims/imsgc2019_main.yaml": "bd29e7ca7a494fe1d9265726162e82b6dafe7630040e4b353434a8983569d19e",
+  "../../claims/imsgc2019_main_original.yaml": "b5e023bef975fe62ca821e25aa48d2a0168ae2a96c11c6da54097e2ee85829ca",
+  "../../claims/jansen2019_main.yaml": "439dd7e0d69763b52421f08ceaad3d8ee408efe301ba6b19890ea2603829e8f4",
+  "../../claims/jansen2019_main_original.yaml": "b88268beea228d3a484a54dc0c807c3a5b862c0258ac58ad464623e3c0d06c9e",
+  "../../claims/jansen2019_supp_note.yaml": "7ffb279e7cd24405ba92482bd2958d370bc90c96435bf199b09e8183f5357c7d",
+  "../../claims/jansen2019_supp_note_original.yaml": "dac181d930244568bca7816160dba8524c4789f55ceeadd17403cba802b642c4",
+  "../../claims/jansen2019_supp_table1.yaml": "c9405eb94a1701dd10a5478356cc62acb15c2be01097eb4dedfe574cdd2d2afb",
+  "../../claims/jansen2019_supp_table1_original.yaml": "c3b30594959bae0e5e237081d73eceaaa6facf577cd49fd92cb59e91f93c366b",
+  "../../claims/jostins2012ibd_supp_table1.yaml": "3b5b3d77197c51762c2eb16a1b832aecfef2e00a8fe1c327f35fd5c9f53c9a01",
+  "../../claims/kathiresan2009migen_main.yaml": "cf0e2cf578140e2c26fc08368220f62a001b168684cbb6f455ea8a16b0167959",
+  "../../claims/katz2022.yaml": "5f919f558368e5663a040d77aa3b95556baac977206f12e7d896d4add927cebc",
+  "../../claims/katz2022_original.yaml": "f7d37b7c82e4b40d7e8f9947f9363747d9ded9f548e0e8baba0abd5a8433035b",
+  "../../claims/katz2022_original_jats.yaml": "e61b83cafc1a64e4178704ed94b9c790347c1178ee1a1470e57fde887291f932",
+  "../../claims/katz2022jhs.yaml": "af553ca33a43587ab018399a123aa79aff960d9fd75b2ce4f9a44e75abddb07a",
+  "../../claims/katz2022jhs_original.yaml": "d5ea61aec1c95e61f5b86a70b6623366fbd95d620bf511e5e6d6252f2a00f0dd",
+  "../../claims/katz2022jhs_original_jats.yaml": "9aa01624084236305e17d8d2ac8f47776d2fd66831a69eeaa12979b1e6d4b5af",
+  "../../claims/khan2024preprint.yaml": "1afa1c71987ee85a15cc2b492e8c483b8ae090724c73dd68190d5e711efddf3b",
+  "../../claims/khan2024preprint_original.yaml": "162d93c0016c69457f5c7ce0d795e1f09595edb331c2e223e4f46af01387f88b",
+  "../../claims/khan2024preprint_original_jats.yaml": "19b2b197c46677eed9972b78ee9d0511cc3e0838252bce7e962f6915cbcefc11",
+  "../../claims/konet2024.yaml": "294d22484e3eb2d2d49aa4fc845210769201dd85f7a1960eb7e0dddd6b95f0f5",
+  "../../claims/konet2024_original.yaml": "4db98fa67b5234cf6077568c18818526fb31722c3b2391bacbb550c7545ebd12",
+  "../../claims/koprulu2026scallop_fulltext.yaml": "6b3013e02542430dfadae6665a9d1c5861c1865eb7d3b2d730c61a9639945551",
+  "../../claims/koprulu2026scallop_fulltext_original.yaml": "505f069bbfea832e01dcde3e23f4bee59f98f1ead207d0346ff70b41be9ac17d",
+  "../../claims/koprulu2026scallop_fulltext_original_jats.yaml": "d93913461840d25d58808bda68242ec15ba80117163ee406aa72c8d9ccb49704",
+  "../../claims/koprulu2026scallop_table_s1.yaml": "74d1d2728e5c13c3d1896536d3b60893366c5cb3a784ed617cc2d483cfbbdd8f",
+  "../../claims/kunkle2019_main.yaml": "60bcadbfadd4e3fe5bac67b79e9a3f3f3fe49a9554e6b783df051eb928f6dd8c",
+  "../../claims/kunkle2019_main_original.yaml": "e2ff3bbda93041aca071357581fbab7e961297b8bbe2de54be6295cabb3138f4",
+  "../../claims/kunkle2019_supp_note.yaml": "462f0c8cf90410166bc53593b64625cb96264bfb5077582853bb5477fb857971",
+  "../../claims/kunkle2019_supp_note_original.yaml": "48741f8ea731374e9c42cbbc60af9580bdcd33bc9899c66573d2044462cf08b3",
+  "../../claims/kunkle2019_supp_tables.yaml": "6145a6e536feb330c5fcc3620758512ec69b61ef99aff5d6458bcfddf5922fa6",
+  "../../claims/kunkle2019_supp_tables_original.yaml": "188a71f86058170fcc6511de1bb3dc69a5f83447f552a81a8d29657e8181d3e9",
+  "../../claims/kurki2023finngen_main.yaml": "8dec962d0402e7e9f3514bcf72cbb0335abba2baed6c5384e827d8c16c612ddb",
+  "../../claims/kurki2023finngen_main_original.yaml": "071288cf9a74e319a482d3888f7053a690910636e41dc63778fc98ebbc15f02a",
+  "../../claims/kurki2023finngen_main_original_jats.yaml": "f0f4fc784ab367d6248ce8e15f083b934474527e1e65eda498596e8e144ea415",
+  "../../claims/kurki2023finngen_supp_methods.yaml": "e5d11bb13257a5b26d899c435b68886cbe58e7e85ddd9b67cd89d4708e1d52f1",
+  "../../claims/kurki2023finngen_supp_methods_original.yaml": "44f045597eb445cd9fd88a89b921b47866f56b49fc2a50cbd5101f49c184b26e",
+  "../../claims/kurki2023finngen_supp_table2.yaml": "16b90dbff3204b74b0245a10a90470b0f58df0da282513b6211142e300242ee7",
+  "../../claims/kurki2023finngen_supp_table2_original.yaml": "4cd72e62c540de77cd3c5be451d5965fc8ba854ac32ad0bce678cd5857f4a8a6",
+  "../../claims/lambert2013_main.yaml": "2da1445a062bda14e8bb0b5a62852b65f326a004f0c8f0725c60c2048909ba05",
+  "../../claims/lambert2013_main_original.yaml": "b0e6d2993d92c5525a5510bc41179d063fad4831add6061794888556dcf99a26",
+  "../../claims/lambert2013_supp.yaml": "153b9eab5404e99c51cec137233aa6fbd8d9c40a496aba1e80776b206a874523",
+  "../../claims/lambert2013_supp_original.yaml": "b7169c3f5795027e533b5264ca4cdd5af8f870ccee12965ffb5bd211dab93100",
+  "../../claims/liu2015ibd_main.yaml": "072793feccb91e56246d6e0a988ebbbdd0d5b1e6e6424d0a50e9627d4e4edc0c",
+  "../../claims/liu2015ibd_main_original.yaml": "477208de0ed7d42b9e7847eee68946e2c381de11dc4830c51f4b829b91edef2e",
+  "../../claims/liu2015ibd_main_original_jats.yaml": "8ab8566c12a7daf5dd919d006d134fb30c988d055924bb2215325b5bf4ffa29f",
+  "../../claims/liu2025mrkg.yaml": "9020753cfac443f63ecd04183f7ef33771eade49c1c2b8cd390b4814b13e11fc",
+  "../../claims/liu2025mrkg_original.yaml": "1a817ca52e2ec663da08eb8bf69132e9333ad3ace22e57236e80c85420e95bc5",
+  "../../claims/locke2015giant_main.yaml": "075e13407d72c8b274d3dd47867868a4d766babfc012cd1e7e2eebae493f151c",
+  "../../claims/locke2015giant_supp_table1.yaml": "f1a2899e4eb16bef67a8d628028712734fa616e899c8d7e779b3ffa1c281a004",
+  "../../claims/locke2015giant_supp_table1_original.yaml": "69214f6bfabd4a55d6a3c9cd84168b2a2c59f25b0e18af10de7121beae138899",
+  "../../claims/mahajan2018diagram_main.yaml": "55783e6207e743fdd1c5eab662d0f67d7e55e1e22e4f0e494d1a972475e659f0",
+  "../../claims/mahajan2018diagram_main_original.yaml": "fc0860aa90e4187d5080983d7463ff56f3c8737d6304078742b6226a3d00c7d2",
+  "../../claims/mahajan2018diagram_main_original_jats.yaml": "b0ed8293cbf73a9226c68ab9228e808a09a3c096a7250ceb71e6a1dc97cb1770",
+  "../../claims/mahajan2018diagram_supp_table1.yaml": "338f0a5bfe5f6493a118df176621eea8228a9e6517ed892742e743f24bf0a77e",
+  "../../claims/mahajan2018diagram_supp_table1_original.yaml": "38f1c42ed8fbf137b03bbc4f14427473baad8862cda07c0171af0942e72a8739",
+  "../../claims/mahajan2022diamante_main.yaml": "495a4f02963b18f397ff0f07f2f7a485a95cd6e2226422986af71312700015bb",
+  "../../claims/mahajan2022diamante_main_original.yaml": "20c4c7c31676d4cd2e139ee6f099b1cfb6d61c6a711602e8d6fde62a2e3c0c01",
+  "../../claims/mahajan2022diamante_main_original_jats.yaml": "f891feb0301fe382e66081d612cbf977b1a12f5b3303f050b14b58938333776a",
+  "../../claims/mahajan2022diamante_supp_tables1_3.yaml": "d6e85dce4aaa4749274fe29432d9f8e325fab38322d58a7c9610ef5ca52ac46e",
+  "../../claims/mahajan2022diamante_supp_tables1_3_original.yaml": "61f26a11614c71cfc70227f51231d13223c924c8d81d151a50f4c296843496c4",
+  "../../claims/malik2018megastroke_main.yaml": "7b6b31bf4b921671c62a6cf21f19f5812223a5ecd9367f02c205c3fcdd552d6c",
+  "../../claims/malik2018megastroke_main_original.yaml": "a39954543fa489f73c36ad4ec728a2136576878e4ba0ea1a6920ae326272a03e",
+  "../../claims/malik2018megastroke_main_original_jats.yaml": "9418710fbc0524651a2fe473001935dba24d96c12029fb0184dfd19e07e70412",
+  "../../claims/malik2018megastroke_supp_info.yaml": "cd78472c0fa11c9f5f7c5533bd36ef19c3677178bc28c312864dbd21ca2fc444",
+  "../../claims/malik2018megastroke_supp_info_original.yaml": "8efa3d9fed597971ed29788c1610735ba545295bf00be3377a491af5934735b3",
+  "../../claims/malik2018megastroke_supp_table2.yaml": "d2be34db0a852648fc72913d49a5e374d5ae343708f76c9c50b6048a3ee2f8cd",
+  "../../claims/malik2018megastroke_supp_table2_original.yaml": "7974c6fe7a8c4ccd24eb862b6e008ba62189988b3daffce4d3a3777d8c529036",
+  "../../claims/mcgowan2016.yaml": "cdb09b55b864644e6764c0e47ee74a9409949522cfcecc9b35b996b3d4ab03a6",
+  "../../claims/mckay2017lung_main.yaml": "f3832e1c0e8ad5870b2f40ede23b6ec310103ef20eef4ebd43da86b548fdaed3",
+  "../../claims/mckay2017lung_main_original.yaml": "e103a2d0927272679f25456e6375adb5129bf8eb931b2fd8e0a7fc72204a8db4",
+  "../../claims/mckay2017lung_main_original_jats.yaml": "66f8798c9d3506ab3619f0ff11fbd6eb0a44e75b1e7af9fc9e70d2a6a57b00dd",
+  "../../claims/mckay2017lung_supp.yaml": "fefa1ba77458f4d2172abd03eae60a5a018d59441c8fe8f1e077085ef81d0ac3",
+  "../../claims/mckay2017lung_supp_original.yaml": "16a86e9622e1e55928073910766a07bf033ad4a9fbaef0366b425d88b20db804",
+  "../../claims/mckay2017lung_timofeeva2012_main.yaml": "dfe11af7f97404b85d57ae9143d80ef318ad72c8c904323cfcd0d58856e5ec12",
+  "../../claims/mckay2017lung_timofeeva2012_main_original.yaml": "65d1a742ef5b7d9d48ce29efb784be22d914458bb7e1c00dc51186516472a3a0",
+  "../../claims/mckay2017lung_timofeeva2012_main_original_jats.yaml": "1d5493eb012e45627f574af38672213b50b5f2f12bb2a07f4e2208cf8d5349c6",
+  "../../claims/mckay2017lung_wang2014_main.yaml": "2dd6d7b399d5efdd2f35de80496c9c6eed4091864089157342e9514422cdb484",
+  "../../claims/mckay2017lung_wang2014_main_original.yaml": "de6ec6e7b96c316e7f926791fe92eb5793ae2fc261b4570c0384d365475234a5",
+  "../../claims/mckay2017lung_wang2014_main_original_jats.yaml": "5d2c534a7f249f5d5143eae0a14c36bd529e2e328a0996c7bf41c72770d1279c",
+  "../../claims/mckay2017lung_wang2014_supp.yaml": "e32a6eb06765366ad8c25e7f98e00bb6363e54b794d9d59db8ea67a0887b9c48",
+  "../../claims/mckay2017lung_wang2014_supp_original.yaml": "9f0fbc67da044484f6228341c2845daed301bd329356dcef2f4d5cef84d0ec89",
+  "../../claims/michailidou2017bcac_main.yaml": "c28ba74c067e20c873edd018e2c4bade3092d04e15f96319be3e6fa53511436a",
+  "../../claims/michailidou2017bcac_main_original.yaml": "38432047f3f54f2913c64bba0551404b98b64dfc4140af12ae41b6e37ffa4b75",
+  "../../claims/michailidou2017bcac_main_original_jats.yaml": "edd4e86184710d11c53fd8c1d623b22f0bf84471c8fcb7eabc6498a4f0dfed82",
+  "../../claims/michailidou2017bcac_ref20_michailidou2015_main.yaml": "b3a4813acd37b0f7fb2018b4a0747bf6697633582ecbc1d67ccc2308af6b55cc",
+  "../../claims/michailidou2017bcac_ref20_michailidou2015_main_original.yaml": "30806a7a0ae402a365bc8b2d273b8f7f590b42b639e170670861ade22d0dccda",
+  "../../claims/michailidou2017bcac_ref20_michailidou2015_main_original_jats.yaml": "02d63aa983d79e9163716feb7e442081be06f86e22bec964a854234b9a84f80e",
+  "../../claims/michailidou2017bcac_ref20_michailidou2015_supp_table1.yaml": "0c29817fed7efdde4eb56182365c77010a4162637246ebc7e6c05a74465adfb6",
+  "../../claims/michailidou2017bcac_ref20_michailidou2015_supp_table1_original.yaml": "fb077a3fd9e5d92d41a1f1a8c580c792f24ee1cd9f278bd5dd6ad4870c49e973",
+  "../../claims/michailidou2017bcac_ref2_michailidou2013_supp_tables1_2.yaml": "729d8fd039be39593487c5318a1346f85bff82e7a0a55a36570dc1ecbc55905f",
+  "../../claims/michailidou2017bcac_ref2_michailidou2013_supp_tables1_2_original.yaml": "042e14f50c8e32909cb8068f28c719586388157663fdf6aa8263bd39cc91928d",
+  "../../claims/michailidou2017bcac_supp_table1.yaml": "83174f3cb397e3ac37c485082092539cdf9f5ba0aa663a9f4af501393033b002",
+  "../../claims/mishra2022gigastroke_main.yaml": "83e3220d46e2527c59d35f248df9ffb0c843c55cfa9f72139d32165553e151c3",
+  "../../claims/mishra2022gigastroke_supp_info.yaml": "fb916e6fc2ab0d576133ad40bace55e6635acfcf02a0c2eab1ac1433cabdf63f",
+  "../../claims/mishra2022gigastroke_supp_info_original.yaml": "8dbb8bbcf45ed0fa665ecaf8d5ccb22b0ee48a1335e52b1a2043c44ae154cefc",
+  "../../claims/mishra2022gigastroke_supp_table1.yaml": "fca7e7b797398a241cdd5e100cf55166e156ff7a2a8f07f8c0a7394da10047a5",
+  "../../claims/mishra2022gigastroke_supp_table1_original.yaml": "44ccc2b2f20ca50133dda35fd285d5432f11175772bb0c1f42a0a73ce22e9b1d",
+  "../../claims/mondo_about_docs.yaml": "253efb10c0869569f079faf71e846ad05401b74fa34695a9d213fcf90e397524",
+  "../../claims/mullins2021bip_main.yaml": "0348d4dd5a79af0f4c942ba037334735041c78149d39e545c3bcb8d96a108024",
+  "../../claims/mullins2021bip_supp_note.yaml": "9d7ed2023bc533bdeb4b3adab35403e1da8395433be186d4cc401179b1c3a8b3",
+  "../../claims/mullins2021bip_supp_note_original.yaml": "faff81654ca076887ac6142885a00e3251a9317a7466eced54c9da9221be190d",
+  "../../claims/mullins2021bip_supp_table1.yaml": "b3f6784a7ca14d1df4af0429f790d246f11d5c5715d202fa92f1a06828d4e058",
+  "../../claims/munafo2024.yaml": "626817fbac29e1d18d7d56d0480d1f596ca04cdaaa20c30d64b5e94a2ad8326f",
+  "../../claims/munafo2024_original.yaml": "44b643e8a3cc9488f0c3089f6276b5408c00f628795497d6e5ccafbcc819c032",
+  "../../claims/nalls2019_main.yaml": "6616e13df6f8935723ca9c09e09b35ea95c1de54f5a87d6c9d1d01a58d02bf63",
+  "../../claims/nalls2019_main_original.yaml": "6694bb01764c98b33b7d4c9303833cd7912d2626a7553942d41001249886bb45",
+  "../../claims/nalls2019_supp.yaml": "76081ca715b222414d675a1b5c9c783454bc778e6709f0bbfa5d49895e7efdf9",
+  "../../claims/nalls2019_supp_original.yaml": "3f15fe7d26e983b3465ceb77d1a0bb96a414af3e8b349a77ada1b62570588003",
+  "../../claims/nguyen2025.yaml": "ed27ecac2beb98a2f63489f47cabac9ca5a34a8ba45b857a718f63b7ad9f69a8",
+  "../../claims/nguyen2025_original.yaml": "6f93c5e8cf616653332a2763fad9eddbf4825b916f26e25f4b28ba82f25eba2c",
+  "../../claims/nguyen2025_original_jats.yaml": "9b38868c2d191585dc142447c84048aa14a630d562df5a9560940bc62af5cf46",
+  "../../claims/nibali2026.yaml": "aae331d06faa1a2e8b9d6d660b25a923b582894936f8054cf83ca09ad53fec4c",
+  "../../claims/nibali2026_original.yaml": "92a33db6441758ee1022c9564b228942d417ac9353dcb920d37a244ab842387d",
+  "../../claims/nielsen2018af_main.yaml": "8c8d2fb24bd132684a73c36074e757afa5509daa4754891d3e72a53f8fce1f1b",
+  "../../claims/nielsen2018af_main_original.yaml": "279d0d5ac30f9a8161ba583c3bea0d771135b3f9c6edf56457795996f1d62c52",
+  "../../claims/nielsen2018af_main_original_jats.yaml": "3ded063d252266dea1a03f7dc75fcd8213fc886583d486f0a091326b5d2532d9",
+  "../../claims/nielsen2018af_supp_table1.yaml": "7d93a6c13c8796cf1b55b8ddf539ea7a2b12355c88f6fc84e8d70d6b4dfd5389",
+  "../../claims/nielsen2018af_supp_table1_original.yaml": "0629efbe9f1a03234e34bc47455b4082332a9e6ae8cab4147b29a278f7ffb80e",
+  "../../claims/nievergelt2019ptsd_main.yaml": "98c40b5f6d47bd921d4ea858901bc54e0cc524c31ab842a403af8e4d7376e2e1",
+  "../../claims/nievergelt2019ptsd_supp_data1.yaml": "9416cfd85d603900e40d630049dd4fb8db907f7732fdce62bb0f5c95b0a55da9",
+  "../../claims/nievergelt2019ptsd_supp_data1_original.yaml": "7fe8e4acb7221557e345a5542a8ffd27f42c812514b696e0b44516b69ac8bcb9",
+  "../../claims/nievergelt2019ptsd_supp_info.yaml": "b551c9799bf3fff825717dc5a1d744f8e9685654f5438392d10cc9cfde853360",
+  "../../claims/nievergelt2019ptsd_supp_info_original.yaml": "f01e8bb42cf45162bd89269eec9ee81ce7ef4dbfbc950241085e1190a1d9c750",
+  "../../claims/nikpay2015cad_main.yaml": "8205fb62246cc157b6e56c202d5a95743b7aafd7691d833ef22ffef2fe5bda9d",
+  "../../claims/nikpay2015cad_main_original.yaml": "2bad7b6ffd3374588531429eb68c751cc6c6035cc1495a604d24f394289d3483",
+  "../../claims/nikpay2015cad_main_original_jats.yaml": "8f3f2db191c71bf6062256e1aa19ff0f24e87bf4623be40a2f852aa86d9e24c6",
+  "../../claims/nikpay2015cad_supp_note.yaml": "1cefc42fe3854dca8a38f22806c20c670706f6f13410bea1ee71aebeaa9f3d21",
+  "../../claims/nikpay2015cad_supp_tables.yaml": "dedd2538367b89da92ef88f138e5a88cb45e2472c8917fcce323fa99f4d803b3",
+  "../../claims/oami2026.yaml": "877de92ad70a8fafeb8cb60b28ccc1135b79f17ef1e2365bfe0fc1cdfa6db125",
+  "../../claims/oami2026_original.yaml": "f91748ba89712b60b3831cb9cf383cbcae256b7db62910f404a7c7d95c9da33c",
+  "../../claims/oami2026_original_jats.yaml": "a11b991148c04ae7418c92d8f51e3b30954b8ac0837678383d461366718056c0",
+  "../../claims/okada2014ra_main.yaml": "3335758d71632d8001cf15a031b7cb2c796ff699b962855a1331dc37a7b29980",
+  "../../claims/okada2014ra_main_original.yaml": "2291f36bf368ac256522b8b45d0c16438a13843347dd973d06bf0ea4c153233c",
+  "../../claims/okada2014ra_main_original_jats.yaml": "66f4089a098c182599010f5bc511cde4026ec6da27b03d4e64597d28038e75ce",
+  "../../claims/opentargets_disease_docs.yaml": "5e5234694327d12595fade29315e6b75a81693aa96d532f06c42d1ac6f1b1cca",
+  "../../claims/pietzner2020covid.yaml": "5127f93a12ad814db075dce057d014c8da4d7290d8fb08a69914c56ed499ddf0",
+  "../../claims/pietzner2021.yaml": "d19d5876a9f157b0a50bd1cf5fb24428379e61d7f4ca75d3ab7e9e1b8b7cb60b",
+  "../../claims/pietzner2021_original.yaml": "ca1a0f23d0a38cf0e1939940753bfe8e9856a5aa9e158b6accacfba364e1f2c3",
+  "../../claims/pietzner2021aam.yaml": "49720429f58a0ad359810be01dc20f135a0db8845cd50a040f2c4d69a07005bb",
+  "../../claims/pietzner2021aam_original.yaml": "0787502c30e6b9c335480370ee84bb0f6edc3f4cf8fcba9d932691ef1b407c91",
+  "../../claims/png2021helic.yaml": "832abd5f27a70dd5b149ecfdabeba1ccd00c5a6e08e3e8b1a7e194e1346faa1d",
+  "../../claims/png2021helic_original.yaml": "08275bdf9d96ee242d2db4915119e3ab301277abc8ec35812cc1675e584f0849",
+  "../../claims/png2021helic_original_jats.yaml": "b0f661a7998406b77d5dbda1bec660219bcd314fc90e71bc98add580d27c4f8a",
+  "../../claims/ripke2014scz2_main.yaml": "355acbb1cceae1915481d3c27d29c22f3f5e86b94e91c19a338a468bb13169a2",
+  "../../claims/ripke2014scz2_supp_info.yaml": "4fba7bde03204075009dccb859765afab03de8662bd682116ce3bd15b4994139",
+  "../../claims/roselli2018af_main.yaml": "f567922081f167337a9c64d5518a958d7143e828572a8e02c3a9b628f5794acb",
+  "../../claims/roselli2018af_main_original.yaml": "eb79aea5b56cd6927b7a63281a255280e9126b2f0284c3e12a2ec6e89d178ab3",
+  "../../claims/roselli2018af_main_original_jats.yaml": "40a1a4dc64711946a9a3cd99cfecee451cc807d86a1c19a624acb1981f76be69",
+  "../../claims/roselli2018af_supp_note.yaml": "35bb068bd5cb85046b716c6873c669d9414316691241a69258b084a20d9bee4d",
+  "../../claims/roselli2018af_supp_note_original.yaml": "effbdb99d3c273b3b749f2d33a0c883c9fbdcbf4f4599f9a85589a0bd4eef12c",
+  "../../claims/roselli2018af_supp_table17.yaml": "ae965725d5a18b85512eeef1cad692bb1b6357b220fa9e5bb7bf5363754af2f4",
+  "../../claims/roselli2018af_supp_table17_original.yaml": "fcbdbce548f635e86ed62452b9c41feed6517bfc0dcd5213ce4cef2aa6876296",
+  "../../claims/sakaue2021_main.yaml": "c853cc8ebfd5f83eb6248dfc39850dbc0dc637b0dd945c06a635251a2e9b66ff",
+  "../../claims/sakaue2021_main_original.yaml": "ab0373623f1016fbf216fe5ed870583ac7fa0950a48fc4ebf249b5db3369bf65",
+  "../../claims/sakaue2021_main_original_jats.yaml": "32c29645f1b4b158a5b1aa76140b9073072ea3a80b4979285278df2556fe3a08",
+  "../../claims/schroeder2025v1.yaml": "276d82129bfb5b134f44107989be17d1417a56ec52c004494e156e26e86a20db",
+  "../../claims/schroeder2025v1_original.yaml": "2069c3f9e76f7f13da64c6a0d92320058ea63a8b8a55cda7589114114739b285",
+  "../../claims/schumacher2018practical_main.yaml": "003480b96a58f9dcd44d822605b215160bb1e292bf9e207878d3e8fef7043448",
+  "../../claims/schumacher2018practical_main_original.yaml": "631563a5951424b17425308dbbe75bde36b1e7bbcbc04b6b4e96b0ccd30270f4",
+  "../../claims/schumacher2018practical_main_original_jats.yaml": "cc11d79d1fb420b7191fb91314d19d0df35d99f8fb4c767694daf00c6ad6b8ae",
+  "../../claims/schumacher2018practical_supp.yaml": "8ae94277a26fa512b64dd7da31ea9102cd44cb11be44e3b99ad7bb7c8c2a0c66",
+  "../../claims/schumacher2018practical_supp_original.yaml": "fd8cad1310f7e90cc29e9f3ed7579e5509e4004824f790a5a0860a5d408a2444",
+  "../../claims/schunkert2011cardiogram_supp.yaml": "1fa30b306a62749d3b059375f4fd8ef33d9e861b7228fb4cdea4886a5875a427",
+  "../../claims/schunkert2011cardiogram_supp_original.yaml": "a235fd9a448ee4c11fb80a7e25b7921a815e81151df7315982b9c9cf2dc8d5cf",
+  "../../claims/shah2020hermes_main.yaml": "2dfa11f4034a70e3512e3ef3a40a233095f4400a727d3b8767a75758bdd2be70",
+  "../../claims/shah2020hermes_main_original.yaml": "bc2dc99ef76873fb82a13bab57bb1b5b20a26b02167239fa419ce6bc3b32bf9f",
+  "../../claims/shah2020hermes_main_original_jats.yaml": "78b2202e7fd90f1734d9dd8ded2c6c2c8a970d475e9b8aa9fb7e8e7654383312",
+  "../../claims/shah2020hermes_supp_data.yaml": "ce32f9ab62fb1b802285db254dc7c075948958fc467856ec1c286d28c2a06322",
+  "../../claims/shah2020hermes_supp_info.yaml": "4efda81a969ef254d1e65926aafc72e03f27392f60f610bcef59064254192764",
+  "../../claims/shah2020hermes_supp_info_original.yaml": "ec51aef5d32ee83f07ed973f7bd126c2769ea3d5ad26edc72d30c861c31b6ece",
+  "../../claims/shi2025triangulator.yaml": "f49b1862da69c3111e7a317c491a03ddbf538ef4296741c8e1dcbcf61d376e9b",
+  "../../claims/shi2025triangulator_original.yaml": "960780e15abb19a7a9d4441fe31917bf022b607746b6d7183f2948dd4d19ffe0",
+  "../../claims/shi2025triangulator_original_jats.yaml": "1ffb81c5daa77783f8d73b2af34d5dd72980f94c1e35cc4961e9734d143132ce",
+  "../../claims/skrivankova2021bmj.yaml": "36fe3679b143fdc795fd72165a970f6a9119773db310088b8dfca29f17c4f8f9",
+  "../../claims/skrivankova2021bmj_original.yaml": "8f44abe4d2f604e626aa67500473d8035ecb3309332a949dc76a1fffcad4a187",
+  "../../claims/skrivankova2021bmj_original_jats.yaml": "6312f0658178b16cac958f582d746ea7edcefd42a11f4d593c37431b3cfd6aea",
+  "../../claims/skrivankova2021jama.yaml": "3931ed4c561601cbf96259e50c5fe5257993cf5483c842a8e57fe95cb611d940",
+  "../../claims/skrivankova2021jama_original.yaml": "cb730be290b7928f5152260c4f5e811f3380dfe0dea13ba9b10fd53e3284dc95",
+  "../../claims/sobczyk2023.yaml": "bdd24c384c2289e28ae57938288a09d13c7ab96417035bdc0e868244130a515d",
+  "../../claims/sobczyk2023_original.yaml": "ad47a37550861ab164db862f57664e555e8d35d2bff7d1bd401841aa6ac20465",
+  "../../claims/sobczyk2023_original_jats.yaml": "439565ea0b67163e01aec29756faba836266fe2fa9d2db59741c5c346f840e1f",
+  "../../claims/stender2024.yaml": "84eec3e7320e7c5b064b600afe08e2b4af1b37e3bf82c6e64e1ff7adb7ccb5f6",
+  "../../claims/stender2024_original.yaml": "979d3d19516c5ee125abaccd78dd364df9c2a57995cf77432ea28bb0966fe141",
+  "../../claims/stender2024_original_jats.yaml": "6699d2cdef9f6e066adbf1eef11b5ddb1e7fa82165f1890d98ca225f1032e0f6",
+  "../../claims/suhre2017kora.yaml": "3eb23ebb060b2c50e6024b3f42a5c655c2f01ad8b0dbbbd91828c30bd556fb7b",
+  "../../claims/suhre2017kora_original.yaml": "128fc50e87c9da380878f81e50c3107c6b0538888d48692dfe06c7857d50ae22",
+  "../../claims/suhre2017kora_original_jats.yaml": "48cb5c3071ea4a58f2d28aae6a600fefecd18ec13251019926a4f6e3042d8f36",
+  "../../claims/sun2023.yaml": "415da540f00eb3a7bece5054b0d19357d7db4264e2dee8355158e875dfd35c25",
+  "../../claims/sun2023_original.yaml": "2ba10f56b8bc539f5d7d6b45df4a8d5e6859f6c2b9040ba70acabb4392443694",
+  "../../claims/sun2023_original_jats.yaml": "3660e6330f7f34c82282fda7d0f573eaf5a1ea483f44131bb922cac23f5c5c73",
+  "../../claims/trubetskoy2022scz3_main.yaml": "979eb94b4e337397f8cad56c19a905c96833b092aa33d673a9ab7ac5f605ae73",
+  "../../claims/trubetskoy2022scz3_peer_review.yaml": "60489046966564c2bdeb5d9f953aac5a670a4891dc8027c280a7befbf29067ef",
+  "../../claims/trubetskoy2022scz3_peer_review_original.yaml": "5b763aa468d977940c62a851639c0fcdd94b7f5d86205bd315de9dc5cfa887c9",
+  "../../claims/trubetskoy2022scz3_supp_cohorts.yaml": "be860d027633e350db938aba21f5ec52e284baca49251591b1a1cfd92b6111d8",
+  "../../claims/trubetskoy2022scz3_supp_cohorts_original.yaml": "24d421d56d60c5b74d34b6c3e552c94cfed0543a21735cccc2d413bcb409fc4a",
+  "../../claims/tsuo2022gbmi_asthma_main.yaml": "6522b4bb3f650c1867e943c0e6f53c49a100a80abf77bf9dc9ad4e4ae2d9cfbe",
+  "../../claims/tsuo2022gbmi_asthma_main_original.yaml": "6774829e8e560d62a34ebbaa911775cafccbf5b212dce68b12925be7d8f0ac0e",
+  "../../claims/tsuo2022gbmi_asthma_main_original_jats.yaml": "1f671666925b3ee7ebacc2cdbcf604353707675724c658a1e2494a2852cd999a",
+  "../../claims/tsuo2022gbmi_asthma_table_s1.yaml": "dad897e6a44fce7135b6d96048bb1025e4ef35036ab715b4df94d061d34dc39b",
+  "../../claims/vanderharst2018cad_main.yaml": "777269f75c3fe811b7cb6989a975b46584c63c3bf9129b13b14098628f1999d1",
+  "../../claims/vanderharst2018cad_main_original.yaml": "f28d25021e7795ac682dd73f4fd63f4bb790f45f1ad17560ed16056c6dcfa5a7",
+  "../../claims/vanderharst2018cad_main_original_jats.yaml": "01777eb59673a03b324c5f98ad5c3d4630371417abc26d3965f5b35412c0eddf",
+  "../../claims/vanderharst2018cad_refs.yaml": "335bfcbb4963215371c9e4dd055ae962f300f1eaee14fe14adbcacd4e32b2c81",
+  "../../claims/vanderharst2018cad_supp.yaml": "35783bcf3efe7979066812cac3b2032e9a25cafb00798a1a7f4dfcd30d94dab8",
+  "../../claims/vanderharst2018cad_supp_original.yaml": "b6775c43757508bd2ca89dc2d6ee183bd3fe04d9fc2c4bb0e7fd6f18a8d5928d",
+  "../../claims/vanrheenen2021_data_availability.yaml": "a67ec0a7b970e9c2086c9f8035aee83b4b143362cbe86cc928e28afcfcef6e1c",
+  "../../claims/vanrheenen2021_main.yaml": "ca9856bcacaca4cf02fd28da8b180ad05881d02be896d0d83a4a32f55c86320e",
+  "../../claims/vanrheenen2021_main_original.yaml": "1fa4bd04cd609a66c2f9df9e82dbfc6d8b3d0399fc2d37d739d2beaf475a87a4",
+  "../../claims/vanrheenen2021_main_original_jats.yaml": "872f4ccdf1cdf70cdf329b6f03c9e9efd98fa9cb0930877ef7bac03a49076b3b",
+  "../../claims/vanrheenen2021_peer_review.yaml": "f9958a7f8a8a45b26335e59fbde5e3cc01183581a6397bc625f739a13c49bb80",
+  "../../claims/vanrheenen2021_peer_review_original.yaml": "4ad6b3d48a1ab8581127ed9c097b034100b27714525b46923def8073d74dccba",
+  "../../claims/vanrheenen2021_supp_note.yaml": "9116d5d7267c39e3e3e24cea0086dce0a91222776e1c9034bb7a088f7bc992d5",
+  "../../claims/vanrheenen2021_supp_note_original.yaml": "7a8adbb9f139fa35a8818f494d5e8a46f982797c4c56d1a35a38afee0cf7d4f5",
+  "../../claims/vanrheenen2021_supp_table1.yaml": "f6f9f3a023d89e04870626256e0ea211af6fe79eef1cfb10075b9a76d138bf53",
+  "../../claims/vanrheenen2021_supp_table1_original.yaml": "ff2edfa83259e11e110bbc5ce5b065731b74eebf378bcacf93120c496dd6144e",
+  "../../claims/webb2017cad_supp.yaml": "6e06914a5224225bd0785e23b7270d814de77dae70149cf162ad3a3d1a681dc9",
+  "../../claims/wightman2021_main.yaml": "a711af1d7d0d83748fff399fae5535aeb1f71af94330862a55b808eebfd92f2d",
+  "../../claims/wightman2021_main_original.yaml": "620601746ef00a9ed5ccb0a3c00c6b2e8df6a76d6d4a8860d335dd9433b042ad",
+  "../../claims/wightman2021_supp_note.yaml": "d936d6ea8cbdd3bc53c6f483f1df5274e0715a44aca6d58bdb4d922715cedc6f",
+  "../../claims/wightman2021_supp_note_original.yaml": "f26bd414cbd4baf146e8086ef478896eb0dae5df5b8c7724482f671fc48a8bb3",
+  "../../claims/wightman2021_supp_table1.yaml": "240304c1bf367d8f7b43ba67bf54415401731f01c3ac0c4804e5e9864762d1d0",
+  "../../claims/wightman2021_supp_table1_original.yaml": "5e683f45e7aabbb3d6b13f1919ee271c2b91ccaffdc459280c5d15cebe425e53",
+  "../../claims/willer2013glgc_main.yaml": "8cb17c835ae450036cf45b163d75836c6c97387848488ab9861846fc80381a8a",
+  "../../claims/willer2013glgc_main_original.yaml": "f8bc0546d9d570eeaa1b3521bd34a709b28362f25b7626629a0b037d759a606a",
+  "../../claims/willer2013glgc_main_original_jats.yaml": "d41a29b65881207f9507c6819500e29d0911254365aedf2aaf06dd3dbb241a76",
+  "../../claims/willer2013glgc_ref48_teslovich2010_supp.yaml": "870f74aa03514c89eaa0bd0b072fbc9694a7ce030dc7cc97f970e7a1572af36c",
+  "../../claims/willer2013glgc_ref48_teslovich2010_supp_original.yaml": "4a766504933fbc68e1259d235a38fdf5dd52908cec07f8ba4c96350b7b15f0e2",
+  "../../claims/willer2013glgc_supp.yaml": "1d50cd6046dc9c2e81d9d22b2bbd888025944c9831de6a9b7226498de1d10b12",
+  "../../claims/willer2013glgc_supp_original.yaml": "6581e230bcea084c037a31ba1920edfdbaa307bead6614429c9e1d2f510531d6",
+  "../../claims/wood2014giant_main.yaml": "4a51e9b48428dbc6037fef70ef4b08e0044e191897dcb32a69f65f322bae31d7",
+  "../../claims/wood2014giant_main_original.yaml": "b7cf99d63394bb9cf289264f506d3b63a5dc229ac7b17b0c7356f4f59915d69f",
+  "../../claims/wood2014giant_main_original_jats.yaml": "6d8b062169cb71df95db76269f73514b135d0fba6dc76808e44a7138bd03876d",
+  "../../claims/wood2014giant_ref6_langoallen2010_supp_info.yaml": "1d919de6e296cda5f6b5774c124338253a5da06f64d14d22f0c345380c37cbed",
+  "../../claims/wood2014giant_ref6_langoallen2010_supp_info_original.yaml": "93d0b49d4abbf3f519f2bdff4de18a52df314b05a4c5ebf212794bbae9661d3e",
+  "../../claims/wood2014giant_supp_note.yaml": "4d244fc2446fb69d4f2acc679ea8b6a354d2d7eee35d7edade7813578e73f1bc",
+  "../../claims/woolf2022.yaml": "af788335cbafbc4293676a8860fc8c1eca6b8d2b5010c7312e489610852a376e",
+  "../../claims/woolf2022_original.yaml": "e9805ab3431c3557ad0b03b7912ab50400892421d3e8973720196789755b3f7c",
+  "../../claims/woolf2022_original_jats.yaml": "44ac58948c4b0816b4783f0a85c217be24e6ba177980943f1f7bb54d7c677755",
+  "../../claims/wray2018mdd_main.yaml": "709467866351e7c119f81010feec83d0bdd53db005a6adce2d9dd3a589902762",
+  "../../claims/wray2018mdd_supp_tables.yaml": "7a3f17986c5069885fbf332692c8be51c3740911a3f5c69532d90a0a2c8f8deb",
+  "../../claims/wu2024heart.yaml": "4a1dbc5f20f09e9485feec8411bfb4e6d21ad9aff26eca1d8231e6a116fbb586",
+  "../../claims/wu2024heart_original.yaml": "264f6bb27f3818c658bb1241cd1b0bf45c5c9905b5a6bd5493181762e607cc03",
+  "../../claims/wuttke2019ckdgen_main.yaml": "86c42154e622675747e510d11442db39023a6267105afbab10decb73dc38c8a8",
+  "../../claims/wuttke2019ckdgen_main_original.yaml": "38688b08dcc8f27ffaf9cc59ae17e89b8ebc7fb2ff552c0f0bdf3095ab4f2c94",
+  "../../claims/wuttke2019ckdgen_main_original_jats.yaml": "197d25a8bef38d409cf6a330d0a6ba09481cbe84a34e78ba5144abd29cb8a476",
+  "../../claims/wuttke2019ckdgen_supp_table1.yaml": "5fc829e6a82a552b2e05a937869adad568ee3ebd4c68e9c2f227e89a377a93af",
+  "../../claims/wuttke2019ckdgen_supp_table1_original.yaml": "b8a389732459c00ddc93cc03d5c7dba73439c6aa00a993f47097854a3ff15463",
+  "../../claims/xu2023gnhs.yaml": "fb7c7257312977e4aeb3d79f755f6f04610819a85d87d9b4d87c8703326fda66",
+  "../../claims/xu2023gnhs_original.yaml": "7f8af0f17e28caed414d1abb8338783a0374db5b610f31d51b32242db2200d4b",
+  "../../claims/xu2023gnhs_original_jats.yaml": "a07d96021b1b821492353de911eca061cdbf668c94c21eac2a2a46b4b53d599f",
+  "../../claims/yang2025stroke.yaml": "9bf6997a8f8db8349f236db28cbc7309d21f83bf1dde43520b0e7d33b0343193",
+  "../../claims/yao2018fhs.yaml": "199fe1bf2d4b2fbe713b3323129b37be11ce4b60dd3a6d44a561165705a41503",
+  "../../claims/yao2018fhs_original.yaml": "7db222ce5d50d459d2b01d67b012534cde4661c223a67dc6a521ff1735305e34",
+  "../../claims/yao2018fhs_original_jats.yaml": "26219bf573f7a13ed5dcba6aa3b5d84eca06fb7dd6a3479be0c685deccc8f4d8",
+  "../../claims/yengo2018giant_abstract.yaml": "afc729aac0c1e7d417c42c3a812ab17997354ff83e11eb6840f7368655410fdb",
+  "../../claims/yengo2018giant_abstract_original.yaml": "22e5ce96a15d7275cd28f4363dce7da8859d629fba0800241b6fb159b14e85dd",
+  "../../claims/yengo2018giant_abstract_original_jats.yaml": "109955db8a7b93b93a018876a83ab2ec83a0ce1a257ee41936e2938e97bf1032",
+  "../../claims/yengo2022giant_main.yaml": "4a1f6c4630e888648cc488087869d743ef2492ee0bfe61ce616bbee9e0553f4f",
+  "../../claims/yengo2022giant_main_original.yaml": "4515616adb382f65cc40f89b5d0e39140e84789a42f50c32f25740401fb369b6",
+  "../../claims/yengo2022giant_main_original_jats.yaml": "ed76e65c045666f39d595248ce33a934615e6febcb140463e79b5a3829535d7a",
+  "../../claims/yengo2022giant_supp_table1.yaml": "587ddd8267542dd1473c42529f38e1c173a3118f6ed03ae82d8d73ee2a354e98",
+  "../../claims/yengo2022giant_supp_table1_original.yaml": "aeebc13f07439d7b802f396fcf3fb609e0683d1345501d10cbf601833d97db46",
+  "../../claims/yoshikawa2024.yaml": "9d21969027bebf4368229a66dd3a1edb48a89292c8420eb7d8aa6899c70f7d89",
+  "../../claims/yoshikawa2024_original.yaml": "36cc2e5411cfa7770bafa9ddb13075139948aabb402c2b76c3cd29f15761cd37",
+  "../../claims/yoshikawa2024_original_jats.yaml": "bcb37c164e3652580d9aa57cc8dab6fc5149817fdf626d1e29a85f59e6895adb",
+  "../../claims/zhang2020bcac_main.yaml": "291f40abd592718da0a9fe39513b9cc405853328df22bf26492cfd4e2c30dbcb",
+  "../../claims/zhang2020bcac_main_original.yaml": "60a736ae45565720ddc33b42b04cb21a3362538a26ea5dabea633b6f8b4ee736",
+  "../../claims/zhang2020bcac_main_original_jats.yaml": "26c2b8a3f4e5159eaf7cbbde3e32ed9741a2dbce1f5c2b5b3fad79f5d0b37dc7",
+  "../../claims/zhang2020bcac_supp_table1.yaml": "c82398212496505f5c5c3df94369145f62377d67fdcb7ec76b932d10491545d5",
+  "../../claims/zhang2020bcac_supp_table1_original.yaml": "a27a8a181b59dfb5a472efd6a710897ceaf9d1625ea61465a88b44176009ed6d",
+  "../../claims/zhang2020bcac_supp_table2.yaml": "2f56085e21e486f80ce641825b300222d74a94db7f755ea3fb7ec9edcbd5b667",
+  "../../claims/zhang2020bcac_supp_table2_original.yaml": "00f47ae9101e5531ea2cdcf6e6af3eb0324bdcd5ab5cb95ae76a4d888bf67327",
+  "../../claims/zhang2020bcac_supp_table3.yaml": "04c68bc1a9276aaf272c5cd89cde3fedb290c74cdf79baa523ab5073ee6ad7c8",
+  "../../claims/zhang2020bcac_supp_table3_original.yaml": "4fc60ac4574a9e044a56123e3480221dc34ca2f002503864520321a96052ba33",
+  "../../claims/zhang2020bcac_supp_table4.yaml": "e5d1a0cee174fecbcdd3781e50baa041377ea1eb59d062b595f8ba6f50846925",
+  "../../claims/zhang2020bcac_supp_table4_original.yaml": "0ca684d1732dfe4296e39ab03d4f8ab72655ce82c383e6bc2a52f3b06ad8b071",
+  "../../claims/zheng2020pwmr.yaml": "d57caff967bb2fd4c4f8584dc1e3c8f836f6bd650712d8567f5b994275ed42d9",
+  "../../claims/zheng2020pwmr_original.yaml": "fd7009d3f10c984ec80c1fe786c21b6eed73399f9f8df652d09a08d2e40f7bd1",
+  "../../claims/zheng2020pwmr_original_jats.yaml": "cb016270bdef69c8fd520547caf210cdcaf1eb0702c6677c49f52c8c7c8d537a",
+  "../../claims/zheng2025dmrdb.yaml": "6a7022cf7a6693c313ed1293058e5e9056ddd61948e1173817ac088f42900264",
+  "../../claims/zheng2025dmrdb_original.yaml": "b616ddd126de6d4952a3c6b8698f4e9b63c61300f71873b302b60921ca1c7557",
+  "../../claims/zheng2025dmrdb_original_jats.yaml": "4c9b8a5b5e91b77a3c9c101908e1c8eec793e779666e3a71667efbf6a265d2aa",
+  "../../claims/zhou2022gbmi_main.yaml": "2269d4811a5cc2c5b905df67bd5249b91a9b1ac50bed039f9fd376cd4072f1ec",
+  "../../claims/zhou2022gbmi_main_original.yaml": "8089cd68e2b4482fdd88f8e7aaf8d7f652fe22f3667c33fffc3d8c253411d25c",
+  "../../claims/zhou2022gbmi_main_original_jats.yaml": "084f77f63cc6b69ed698eced37afcf7d1bf900f3c0f5e186869cd2beae926080",
+  "../../claims/zhu2025letter.yaml": "d4f362c57ff0f6f49c253c154070b56cefcf45c82f6cee1e332a740a38d5589e",
+  "../../claims/zhu2025letter_original.yaml": "1593dac737830aa24d081ac006c952d3c72690ab9bce2b7e483a4df5d5bee93b",
+  "../../claims/zhu2025letter_original_jats.yaml": "9def7a106fe3f775e1b3f00d9dadcf3e34c003c2435e4ac93df677b8190e9619",
+  "PREREG.md": "61b433ff7ee610062d9b39f1cf081e62aef01cfab3faa8c86897e53ec74fdb9d",
+  "outputs/citations/manual_coding_2026-10-03/claims/31208196.yaml": "96c94183394688099f89f7327284215b051fb3ec377328f3aafc39d1dd90a8a3",
+  "outputs/citations/manual_coding_2026-10-03/claims/31265136.yaml": "80060a45ce232d89665986ea527b8ebb8fbc72259540c00fcc0ce3fb41f661a3",
+  "outputs/citations/manual_coding_2026-10-03/claims/31337649.yaml": "1e8416ab48be7a4f2a21d24dcecc0ec45f141c972b861c31a009ea740842df2c",
+  "outputs/citations/manual_coding_2026-10-03/claims/31928076.yaml": "bfdbc91bc4a5422e52a6161a9cfcbba4c3d4e64aed56a237107a4f2b64beebdf",
+  "outputs/citations/manual_coding_2026-10-03/claims/32585310.yaml": "037d02e8ea2ef54473976d9219d0912ae642123042b08cc28557ec64cfe9e8ec",
+  "outputs/citations/manual_coding_2026-10-03/claims/32628676.references.yaml": "4565575c7bc1464a1019558079a1523873127b49717e761d22c3247e34e1df82",
+  "outputs/citations/manual_coding_2026-10-03/claims/32628676.yaml": "8625301f6331fba8466c0b9f410012157920e82903c44f54f07d82b1a8a6d3f8",
+  "outputs/citations/manual_coding_2026-10-03/claims/33318029.yaml": "8fc8e69eea6f7724fd9bd42591c86812d857eb19cabd649d0415cb30c8a1d95d",
+  "outputs/citations/manual_coding_2026-10-03/claims/35841389.yaml": "2a67163921fffb93b151ed840ad486dbb26c51ebfb8ceea6edc6ec6245458951",
+  "outputs/citations/manual_coding_2026-10-03/claims/35882941.yaml": "352f697e0aa318ca998592d2c6f82d7e2f3af39b78b2ad945306a1ff88ef9e53",
+  "outputs/citations/manual_coding_2026-10-03/claims/35938019.references.yaml": "3c0d160c7190617390873d7e1a1a25f9cc45d3ba4c97c3e41cc3d361a70d733a",
+  "outputs/citations/manual_coding_2026-10-03/claims/35938019.yaml": "aea6de9a53a33e0d1407502e6523c266a9ce2678448e1a4a61a27f62b245045a",
+  "outputs/citations/manual_coding_2026-10-03/claims/36204584.references.yaml": "4256cc6e36ebd637675fe90f22f9414358e5f4ce0af57a65d66d43ca2006a562",
+  "outputs/citations/manual_coding_2026-10-03/claims/36204584.yaml": "65e8405709b135350a3ae5583969f7537a5cc62de1833676272a1b7040e392ac",
+  "outputs/citations/manual_coding_2026-10-03/claims/36349687.references.yaml": "b01226a5d3af73ba316af417f35b78119ac07a4c1d100e5088322070f16e738b",
+  "outputs/citations/manual_coding_2026-10-03/claims/36349687.yaml": "6370fc0301c59cbbbc716bedf7f7d1f1a36e9ef9ae23d4e5fb3ec8b60b045480",
+  "outputs/citations/manual_coding_2026-10-03/claims/36734038.yaml": "7ba84aa3f47d72606c3b4fcdf14f6515712a79444125d68b48e67c0adb216658",
+  "outputs/citations/manual_coding_2026-10-03/claims/36790009.yaml": "ad2515386daeded8117d705156a2a994af895ab5eb94015d8735b968af8ff1bf",
+  "outputs/citations/manual_coding_2026-10-03/claims/36857861.references.yaml": "81a7745144aecd47facd36117f60e42421212f8fa96d0934d5d999316032d137",
+  "outputs/citations/manual_coding_2026-10-03/claims/36857861.yaml": "72b9166975285a8583a384a06c70c380bf42afbf5875b657f4eed624f7c4bcdc",
+  "outputs/citations/manual_coding_2026-10-03/claims/36864689.references.yaml": "afd1fc49d712324915b59ebcae8c2e71c1b1d7c362196a9a70a0d85fa0cf4f2b",
+  "outputs/citations/manual_coding_2026-10-03/claims/36864689.yaml": "b9fa4e92d3a8090fd3940dd17352cae065c559c217da563932b828b1b873200e",
+  "outputs/citations/manual_coding_2026-10-03/claims/36999058.references.yaml": "9a10e688f71f9a8490a19a521c40477289bef3fed80c353dee3a83bae65ad065",
+  "outputs/citations/manual_coding_2026-10-03/claims/36999058.yaml": "8380575c2a60be42ccda6b70ab35d60e65979711f04fdfb6e245833099ffc530",
+  "outputs/citations/manual_coding_2026-10-03/claims/37323297.references.yaml": "72838b4a09015d56c19ffa4169837708bc84bf110f3e189af7cedfb6d6fba66e",
+  "outputs/citations/manual_coding_2026-10-03/claims/37323297.yaml": "c1efa285b459971f6ba3529fc160bbf7a96f144b32ecac588877096e7bdf8a54",
+  "outputs/citations/manual_coding_2026-10-03/claims/37327502.yaml": "ead686cf539f943a9a6a32f7b151d21c2eb202154be847497b2ac5e0344dc61c",
+  "outputs/citations/manual_coding_2026-10-03/claims/37492198.yaml": "b2dd713b6c0f6656145c102772f3956bc07e76b12b084ff04afa28cc8732c771",
+  "outputs/citations/manual_coding_2026-10-03/claims/37498601.yaml": "43f274c7e5f5724246124f7afc98cbd787bb1ea4886e184dc81a19c44bee62e6",
+  "outputs/citations/manual_coding_2026-10-03/claims/37676424.references.yaml": "7526441dc0885694fbdc816197e5acd08de8fa3c2393f8b5d412bbc368b7e9b3",
+  "outputs/citations/manual_coding_2026-10-03/claims/37676424.yaml": "a7a966c0f03d7becf22f6ba9dd054cbe44d99f8382300ef06e2a5859b8f2dd33",
+  "outputs/citations/manual_coding_2026-10-03/claims/37726845.abstract.yaml": "687e05e7b7387eccef2612103f8d181e5c9d3b9aff85f7446bcbde115301687e",
+  "outputs/citations/manual_coding_2026-10-03/claims/37726845.references.yaml": "625815705b491a03b19dcc6eccf1c1458cd45a6cb0354f692f6c5bdc7ef6a16e",
+  "outputs/citations/manual_coding_2026-10-03/claims/37726845.yaml": "d4427afc7990c34fea3bd0c59778261b6c55432d619135b1b7e62e64699999a2",
+  "outputs/citations/manual_coding_2026-10-03/claims/37735436.references.yaml": "a8fdfee1acbec4892f479ddc51eb861dabffd428240b0459263001adde2069e5",
+  "outputs/citations/manual_coding_2026-10-03/claims/37735436.yaml": "d8424cc451ed20e9e6477aeaa3822b12611dab1a6026ae680e7f200449ac0edd",
+  "outputs/citations/manual_coding_2026-10-03/claims/37745724.references.yaml": "9148eb299c1cb99263d545e50ab6d148f1b635d43c262eec1b78bdb9962b5c05",
+  "outputs/citations/manual_coding_2026-10-03/claims/37745724.yaml": "ef202349d621e6386bbea85c9ae1b88ee5071077c7e6a7714a6ba7960fb06292",
+  "outputs/citations/manual_coding_2026-10-03/claims/37774922.yaml": "81690b0e7999a3f20fd789c3379164efbf3351855a8b934ae30bec603dcbef1f",
+  "outputs/citations/manual_coding_2026-10-03/claims/37809092.abstract.yaml": "4629a16b2567f7173cd68fb72fb6f796b19549cb6ebffd92f1f10713eeeecca3",
+  "outputs/citations/manual_coding_2026-10-03/claims/37809092.references.yaml": "b6981d535c53a461bc688c86d276a3a013099b1a100e934a55ff994ae399d87f",
+  "outputs/citations/manual_coding_2026-10-03/claims/37809092.yaml": "441ce6ace395ba248ab6f2ed41f7717ec8d758d8c322cde0f38480018898670e",
+  "outputs/citations/manual_coding_2026-10-03/claims/37904919.yaml": "315f67cfd0473adfaaf80637b4a474002f03fae8780660b34d762b4f49c92a8d",
+  "outputs/citations/manual_coding_2026-10-03/claims/37910257.yaml": "7ded07df44a6b139dac54566e4e23e106984cae70c6e17030d1140da210ac31f",
+  "outputs/citations/manual_coding_2026-10-03/claims/37940228.references.yaml": "615a40be9db5d126f07a477e6cec18e045f9bb647322af99fa832f27015ff55c",
+  "outputs/citations/manual_coding_2026-10-03/claims/37940228.yaml": "a9e2fdf4b12d497caa1ed6df5beffda003f622bb2343bbff53e434b667be1b74",
+  "outputs/citations/manual_coding_2026-10-03/claims/37951941.references.yaml": "a80be720cb2452577d6fdd51e6baabca087afbd7f2e0e94d52c638266623f66f",
+  "outputs/citations/manual_coding_2026-10-03/claims/37951941.yaml": "8d17b03c5ad72b13f44fa7bae18dac21789c34758609099cb5df4424e34c216c",
+  "outputs/citations/manual_coding_2026-10-03/claims/37979035.yaml": "69f0035bd7dac79908c00540edd0c498c03a91bf57f13ba121e69b6ae9a488d5",
+  "outputs/citations/manual_coding_2026-10-03/claims/37996402.abstract.yaml": "f2236986e6b0277f0d5e4457e1e4affac47c8249f5bf769d8e6929ffa5e5c7ba",
+  "outputs/citations/manual_coding_2026-10-03/claims/37996402.references.yaml": "4c8eee4414d44f5072fd81470ab49a21eb95b0b0853342aa26400e9d1f32667a",
+  "outputs/citations/manual_coding_2026-10-03/claims/37996402.yaml": "e442dbe2b4761bd55d195ae29d570be3c10da76780847bf4b903e3ac6b65efe5",
+  "outputs/citations/manual_coding_2026-10-03/claims/38042639.yaml": "cc291a5575c4a8149d34361b2aa3b7b74450c890d760344709285b1a74e941df",
+  "outputs/citations/manual_coding_2026-10-03/claims/38049831.references.yaml": "3ba1d4b6df3e65ba3280c13af5efc758c63de50db499ca5f6d4de99f4b3db77b",
+  "outputs/citations/manual_coding_2026-10-03/claims/38049831.yaml": "81f31d448cdc2f1a80e61b3f638d634adf93b9a3fa6a73defaa4af857700b488",
+  "outputs/citations/manual_coding_2026-10-03/claims/38075694.abstract.yaml": "bda1f921d5b206f5088f263cf811a64bd11db15ae93a444fbc5a990ea8b07c33",
+  "outputs/citations/manual_coding_2026-10-03/claims/38075694.references.yaml": "c6ccc2fc5f149696434eb30a574c1fd8b70bf76cd0f46be9a6d379f2b74f3c01",
+  "outputs/citations/manual_coding_2026-10-03/claims/38075694.yaml": "b001e100c370e3f2663968ded5689f7f90bce69652188bbd804d98c95b6d1100",
+  "outputs/citations/manual_coding_2026-10-03/claims/38076879.yaml": "bca95e1f535589ffeea74f2a42a47d3f731eaae150545dc7a9e84d4bde961dff",
+  "outputs/citations/manual_coding_2026-10-03/claims/38103512.references.yaml": "3a0ea1c2a5439456fcc258678aee50c990b8f6671c4fb9c10f9005b54c16028c",
+  "outputs/citations/manual_coding_2026-10-03/claims/38103512.yaml": "fc01fba6589ac7254098128f6f78f8c6a33896156d95648f6651fc104fddf49f",
+  "outputs/citations/manual_coding_2026-10-03/claims/38152968.yaml": "997ed997208d512b80406f3fcb725e2f587b64c61cd1daa491ce32ed3a82c221",
+  "outputs/citations/manual_coding_2026-10-03/claims/38159276.yaml": "6408f690b52cbc4345d84f8e4294025b1d834c466befbc87b8a6ef51b0d393dc",
+  "outputs/citations/manual_coding_2026-10-03/claims/38211557.yaml": "034bbde6a843712a0195599c3be82e8cee04f9b6ce235fdfcfa0b04d484fa5f4",
+  "outputs/citations/manual_coding_2026-10-03/claims/38238732.references.yaml": "1da5d81d358a32114028fc72dba7affcabfa16bd2255c6179ce814648e60fe8d",
+  "outputs/citations/manual_coding_2026-10-03/claims/38238732.yaml": "f5c9a999fee52b7d68a34d6eead902de1cb666408ee1f88a00189c20064ec3b9",
+  "outputs/citations/manual_coding_2026-10-03/claims/38246286.yaml": "91ae4ad825bca4e02716cece1c1b5942130bb43d38d83e7fefe009a802c71782",
+  "outputs/citations/manual_coding_2026-10-03/claims/38274229.abstract.yaml": "8ff66b0b8e836248625f43ec76c48c38045107bf0063a472fd08fedbecb744b2",
+  "outputs/citations/manual_coding_2026-10-03/claims/38274229.references.yaml": "b36bcaee2cc4ff461df766771ebed033f21e4d15de2ae5b7b1ad8804f8def0d7",
+  "outputs/citations/manual_coding_2026-10-03/claims/38274229.yaml": "80bd8c7643dc82462838ac655695e0ea73bdbd4c38f4713becf791ff14481de2",
+  "outputs/citations/manual_coding_2026-10-03/claims/38290287.references.yaml": "bef2ba47d62dd01acf43da0793d92646f0a03e8763bb9fc7048daf7c99a8c2d3",
+  "outputs/citations/manual_coding_2026-10-03/claims/38290287.yaml": "247662d4d11be3d89337ce98a6a9ad64e6565f874c326194a41ffee90dc42632",
+  "outputs/citations/manual_coding_2026-10-03/claims/38310303.references.yaml": "1da80956c81850647fe3f7059fe52cf54c474e265ef9d5a25e3f2618ec670486",
+  "outputs/citations/manual_coding_2026-10-03/claims/38310303.yaml": "4719a1e8fc2b2eea2f4c7ea8b7a3094bc4151f5750a47433bf79c312fd7eb0b9",
+  "outputs/citations/manual_coding_2026-10-03/claims/38340139.abstract.yaml": "6380171126ae9a2b7dfddf46f6b6ba63f5ccab195915211dac88df2b40529c0a",
+  "outputs/citations/manual_coding_2026-10-03/claims/38340139.references.yaml": "05d1167dbed25ade0689bd8e3b239d1fedbec1cf620e69c99b51a4d2d88e15fb",
+  "outputs/citations/manual_coding_2026-10-03/claims/38340139.yaml": "10b2254fb5c89fcac0a1f5d9932aa23202b104145775b10317ab38e27a33c9e4",
+  "outputs/citations/manual_coding_2026-10-03/claims/38361503.references.yaml": "d6eda08e162b87c693a7cd477d53a7bbf1ca742f2ef124af028ced320ef02455",
+  "outputs/citations/manual_coding_2026-10-03/claims/38361503.yaml": "82d4348cdbc56656d591b147ec668d9c90412f5bb8d8765f855aef0cf6261b95",
+  "outputs/citations/manual_coding_2026-10-03/claims/38383373.references.yaml": "333d5126fa8b42c017fb1aafcb074a09868905ad8bf795b0e4f14d80e8f5ba02",
+  "outputs/citations/manual_coding_2026-10-03/claims/38383373.yaml": "bbb5633fa94c2f1746408ed2c7e85d3b331d0f3370f91bc10323f8245eab525d",
+  "outputs/citations/manual_coding_2026-10-03/claims/38410634.references.yaml": "99cd074d1964f04dd823273dd38bc4dbee6fb2f8f48513e707ea33415a49f001",
+  "outputs/citations/manual_coding_2026-10-03/claims/38410634.yaml": "1f0e0377f418f7ac5bd8502022c4c4808664c2794cad203af9986582474ff68f",
+  "outputs/citations/manual_coding_2026-10-03/claims/38431573.abstract.yaml": "621cfad4f4bb5b196d1506be38601b7d6d51db00e3273e0d7004a75c39d03094",
+  "outputs/citations/manual_coding_2026-10-03/claims/38431573.references.yaml": "254640e2bf92d8755c3fb2a0040097cfcb0b4d924f574d7cae27a5ebc237b4db",
+  "outputs/citations/manual_coding_2026-10-03/claims/38431573.yaml": "800425ea14eb52ebb8c7085cd4dd8fb3ece95831bf95f4bef305a93f81668cab",
+  "outputs/citations/manual_coding_2026-10-03/claims/38504987.references.yaml": "ab606a2e906e3dfaa39d2ff25251539ca5806c83622e408da2a58e1d4301ff63",
+  "outputs/citations/manual_coding_2026-10-03/claims/38504987.yaml": "f092fa29a9cbd7cfa86b709ed5e7a43273e980534c7d3963072171027b61d86f",
+  "outputs/citations/manual_coding_2026-10-03/claims/38572516.references.yaml": "bdc1deccd7ca59656d0284f17462b0b56554971f3b9f32cff6e14b564e7304c9",
+  "outputs/citations/manual_coding_2026-10-03/claims/38572516.yaml": "82651b1ba24adafd2329433841121af56fb0f534123af1ed172c77bf2d8dbc5c",
+  "outputs/citations/manual_coding_2026-10-03/claims/38605099.references.yaml": "94a33b31ad61bda0c45209c561d6f75ede3ecd89eea4bdfcbe7599f9ff4075c6",
+  "outputs/citations/manual_coding_2026-10-03/claims/38605099.yaml": "9faaef3a2a06c7335865d74775702e9399bfc3ca04d80dcdb908355790f677e0",
+  "outputs/citations/manual_coding_2026-10-03/claims/38623619.references.yaml": "cf30136755e69af2ba229cd0c16a13e69eda254323f4eb936dd05eb7e76ead50",
+  "outputs/citations/manual_coding_2026-10-03/claims/38623619.yaml": "4d80c5c005f1a1d1968aa2f6c6dc2cb859b0e6364adca3aa4656d65f9944c991",
+  "outputs/citations/manual_coding_2026-10-03/claims/38637810.references.yaml": "84d47261d3764b084da946a9c0b09b07a32f333cf87599af8c5895800341e36c",
+  "outputs/citations/manual_coding_2026-10-03/claims/38637810.yaml": "e3de3bd5e7f0649e4f6d4587a7404ce11acd300f7a0bee70adb7293f969a8e05",
+  "outputs/citations/manual_coding_2026-10-03/claims/38711980.references.yaml": "722fc8d1d1927e7a5374b58c1e80332499e9a11e629fe6e1387b4758aaf0a308",
+  "outputs/citations/manual_coding_2026-10-03/claims/38711980.yaml": "94625fc2dd8dbd11b619db6c54e8069db1c134177553d807be1707fbff37c76c",
+  "outputs/citations/manual_coding_2026-10-03/claims/38720515.yaml": "77f844ec88993e99893c18820ee9e7f7c61acd371d765a445aa254d009618f72",
+  "outputs/citations/manual_coding_2026-10-03/claims/38725835.references.yaml": "f61dbf695c3dde218901f7ba7d6a0050f8ce7693d8f9e409735dbc57473d957e",
+  "outputs/citations/manual_coding_2026-10-03/claims/38725835.yaml": "804e57db16fbab9d2d3862c9ef48b0b59aa2d5c7e485ba0c6b94eb05a408f0b6",
+  "outputs/citations/manual_coding_2026-10-03/claims/38729796.references.yaml": "b448636a624bcd8c11abb54837f7992b5e1a5ac64103f77b82793f96466a2483",
+  "outputs/citations/manual_coding_2026-10-03/claims/38729796.yaml": "907a5ccbed6a9d4d93054b35b805835aef0a1f76978e1e113a1c1aecdb855d19",
+  "outputs/citations/manual_coding_2026-10-03/claims/38750076.references.yaml": "df1d8947679817dab3d5a94f95ce482cdc0ce57646b9eb2cbf6d903c58c68615",
+  "outputs/citations/manual_coding_2026-10-03/claims/38750076.yaml": "2f68e262493eff5e36281b20fab0c3f3508503b5d0f1b61340756c042015849b",
+  "outputs/citations/manual_coding_2026-10-03/claims/38762700.references.yaml": "0ad549235f1b875f1382afe3a3294e2c72e8e3d92494749c629439991b0684da",
+  "outputs/citations/manual_coding_2026-10-03/claims/38762700.yaml": "e14b00dc30734114501e35810739b74c32c308791ee51cc0c79b291b0779a864",
+  "outputs/citations/manual_coding_2026-10-03/claims/38809509.references.yaml": "62a08d5c33e7b8ab843a8c1fbb19c2b658c555ea9aea1b870684f0d5e4583eed",
+  "outputs/citations/manual_coding_2026-10-03/claims/38809509.yaml": "d1892a2dd08614ed7eaa2f6c546c7ab0b0f217f1b3d959b840f6e01dfb635fe7",
+  "outputs/citations/manual_coding_2026-10-03/claims/38824092.yaml": "c76d3867c92cd8559334e7e81405cfbb36e389d157d1c1dc6bcd3969990dca38",
+  "outputs/citations/manual_coding_2026-10-03/claims/38830831.abstract.yaml": "c75df354a14da6fc4193a37c40158f79ec3c8be0ca1e0f0f7a09ec64506d01b3",
+  "outputs/citations/manual_coding_2026-10-03/claims/38830831.references.yaml": "81e03fd6a72378b29ff10b21eefdd2662605e63f3e845311b461fa5b13e2f9b1",
+  "outputs/citations/manual_coding_2026-10-03/claims/38830831.yaml": "08de73876e0f912d92ad3756a72cc9428363bcad98ef9868fb8639387662177d",
+  "outputs/citations/manual_coding_2026-10-03/claims/38887235.references.yaml": "55830154d8c7257a6655ec8c0b6e50debe47469878267a90dd42e6caf1aaf74f",
+  "outputs/citations/manual_coding_2026-10-03/claims/38887235.yaml": "99217d17f7ca2520759bf3d73d26c390ae05ffe7744dd5fbff0dbf80d862d272",
+  "outputs/citations/manual_coding_2026-10-03/claims/38892221.references.yaml": "0bdd6a12a55cb534e6eeffabc33e015e9c77ce711589e8675d7695f396bd02af",
+  "outputs/citations/manual_coding_2026-10-03/claims/38892221.yaml": "9860f01fb2561737ca0a1ffc72d74adeab3bfdeb3b9eb65377e5d85d146ffb9c",
+  "outputs/citations/manual_coding_2026-10-03/claims/38903171.abstract.yaml": "a7c8e6b217030ff8aac2aaa05d5c083ef06bdc05ae54b373b13a8be7535f7a79",
+  "outputs/citations/manual_coding_2026-10-03/claims/38903171.references.yaml": "5681dff372be72694026c38b17aa33f44ce6d285abcea9938f4dbe2553bf7120",
+  "outputs/citations/manual_coding_2026-10-03/claims/38903171.yaml": "c0b3def8cd2f729f14e6ec196ca12da293eaae57b81966a06fa07ccd052a2dda",
+  "outputs/citations/manual_coding_2026-10-03/claims/38927411.yaml": "6d952d2cb1bede6426d25edca27a93cfc1875e306bf798da89ad5c4f8204728a",
+  "outputs/citations/manual_coding_2026-10-03/claims/38933282.abstract.yaml": "a0dcadb2b5fdde7f101d050349055d81a3659cc22313645ac116b086f28cbfaa",
+  "outputs/citations/manual_coding_2026-10-03/claims/38933282.references.yaml": "490edd4878750887abe565c587de96addeb85e7f53a5e16537a68e8391b0ea3b",
+  "outputs/citations/manual_coding_2026-10-03/claims/38933282.yaml": "891827ea6c18ccbc9a606db70a364c5183d29ce3c8db54bb12ac70ef9c2cd945",
+  "outputs/citations/manual_coding_2026-10-03/claims/39006495.references.yaml": "cf8ea8492549238d61fa39781c42c1c17bb59813980bf8f7b7a6f1fb7cf1eaaf",
+  "outputs/citations/manual_coding_2026-10-03/claims/39006495.yaml": "60245fbae5116bfafd8716bb9b6b4550fc8d24066a3fe676de741e90bfb639fc",
+  "outputs/citations/manual_coding_2026-10-03/claims/39010723.references.yaml": "30f2438f8fce738d8ae8625d8ed61c4231428977794ffd8c63b906b985a0875d",
+  "outputs/citations/manual_coding_2026-10-03/claims/39010723.yaml": "79b4fffad72f6f48e2e6eeff44e9597b766fbf69faf6aa33da0d509b2de9cec9",
+  "outputs/citations/manual_coding_2026-10-03/claims/39029667.yaml": "42d3ee31ee10eca23754a7d35d6138883431d68ad7ee40face0fa54c57d78cc2",
+  "outputs/citations/manual_coding_2026-10-03/claims/39036049.abstract.yaml": "331268da78540ed56fb53f6212b41a1df4945851e6353f82e591a60ee10e3b6b",
+  "outputs/citations/manual_coding_2026-10-03/claims/39036049.references.yaml": "45dd74d6e812a4ac65b7cea9af40f20e7be91478e4977a60ea0126e910604053",
+  "outputs/citations/manual_coding_2026-10-03/claims/39036049.yaml": "41bb3d2d3f1d2ed6c1ce4f8f2cef8f9a7e2c894e6dc13ef73ef6641b99c6f1c9",
+  "outputs/citations/manual_coding_2026-10-03/claims/39038939.abstract.yaml": "1b94fa9e2b3c55d010083b100b21ce3072874235287195429075496daa93d0ab",
+  "outputs/citations/manual_coding_2026-10-03/claims/39038939.references.yaml": "2930ef75db00eaf3ba51e1374994c6442ec6272f7b4423ca871f2d46f783db10",
+  "outputs/citations/manual_coding_2026-10-03/claims/39038939.yaml": "c4e935dd2616c222038d72e390d5052da10a3f5a60206cc153bc3441acc1530a",
+  "outputs/citations/manual_coding_2026-10-03/claims/39040677.references.yaml": "7e41f93f10523950548a8078e712b73d717ec39ca71a58d8adc9ff58d2bbbfea",
+  "outputs/citations/manual_coding_2026-10-03/claims/39040677.yaml": "5031101456fda7240d68fb3247afacb927035b78c2551ecc98eb683cc551f8c5",
+  "outputs/citations/manual_coding_2026-10-03/claims/39115672.references.yaml": "ddaed39a56492b1dfe18a5f0ee5909cab1ba15d8fb312f1b12edb1b34ee77931",
+  "outputs/citations/manual_coding_2026-10-03/claims/39115672.yaml": "559db2e4e498ff97dc9869433506b6c837963207ac2dd0d47629e545fe329126",
+  "outputs/citations/manual_coding_2026-10-03/claims/39119575.references.yaml": "988aabc6dea33a5e57c938a34d3deae6334ff9a1ef519d7b65a87c4cd264d0fb",
+  "outputs/citations/manual_coding_2026-10-03/claims/39119575.yaml": "85c32abea607ae846f171fd19df549bd5716900bdfa56e9a88fcf10c9974c50d",
+  "outputs/citations/manual_coding_2026-10-03/claims/39119976.references.yaml": "2b40d19b7ce70433c56d39fe39c3ce95afe8e942d75bd8f5fe3bef1ba7f1541c",
+  "outputs/citations/manual_coding_2026-10-03/claims/39119976.yaml": "b749ac9ed25b8a0427f7149609a0fa7d27accd02ae804f32ea5861ae3f9b9792",
+  "outputs/citations/manual_coding_2026-10-03/claims/39127093.yaml": "8ea17222dc075eef212b00c74d9d772806b255315c214911b05a36f2c4a07592",
+  "outputs/citations/manual_coding_2026-10-03/claims/39136778.yaml": "4fa26896e23bd2fb94a2e570a8f75bf0369bc0cf7860aa195cb69e2b123e9f4e",
+  "outputs/citations/manual_coding_2026-10-03/claims/39148858.yaml": "ce489b704a4e6f1a8a5ead7f489eccd46fcd2128148831c42f8e15936aaf7535",
+  "outputs/citations/manual_coding_2026-10-03/claims/39156738.references.yaml": "57ec5d4d4e60e94830bb923d372f70eca14ee483c91eabf934bebf4197c6215f",
+  "outputs/citations/manual_coding_2026-10-03/claims/39156738.yaml": "be2b3d1d23e4a09fb92537ae8f0616c9acd5c487e4c1dd61a44c13dc3356f8e9",
+  "outputs/citations/manual_coding_2026-10-03/claims/39221148.references.yaml": "7fb0389f87eb07436118cf0890922810a82a8cecc589df75ed3180761297b83d",
+  "outputs/citations/manual_coding_2026-10-03/claims/39221148.yaml": "0eca3cfee8799bc6226b80212c1d2860922ad7acd108551e28ec8d1b13ef92d1",
+  "outputs/citations/manual_coding_2026-10-03/claims/39237840.yaml": "6f125d1b6a8996132b9d7c42b59d01f19e10c3aaad3ab2da9d8f24ede6503466",
+  "outputs/citations/manual_coding_2026-10-03/claims/39247875.references.yaml": "d40a98e8d942d438aeaaf5f684526981e750f0001ce2bdec15c112c799379c07",
+  "outputs/citations/manual_coding_2026-10-03/claims/39247875.yaml": "e1838b4ba93ba24531f131af227383341ba9aa2b23600f7c904ebefc85ef6555",
+  "outputs/citations/manual_coding_2026-10-03/claims/39268072.references.yaml": "b5a6fb44174e2da32182d277fe0a0c65e46ae0f604ff984b7548875b64b30774",
+  "outputs/citations/manual_coding_2026-10-03/claims/39268072.yaml": "48611ae04db64f8984accf07b815aabd8753a4c7789cf28816dd5f982f0ca31a",
+  "outputs/citations/manual_coding_2026-10-03/claims/39278107.references.yaml": "41c0eab01cc02c799c81aae189becca493958f5d105dc0f1e765912ffe967f4c",
+  "outputs/citations/manual_coding_2026-10-03/claims/39278107.yaml": "86fccda26fd320764dcd0907f0b0faf1d9330f409438c1c688c14ec1ef180f16",
+  "outputs/citations/manual_coding_2026-10-03/claims/39280009.references.yaml": "ae528c177ff23c7e36f98e434b2b158daf37fea17f708b0f780577643f8f0a27",
+  "outputs/citations/manual_coding_2026-10-03/claims/39280009.yaml": "e3a2eebd77ec6ca2eedc5e24c1df77f04bd596a0b0e2647910c0f16bafd12d63",
+  "outputs/citations/manual_coding_2026-10-03/claims/39284832.references.yaml": "ceca44b9f9fabae0fd0efa065f9dedd260391780bd39733a93e67acbf94fefd1",
+  "outputs/citations/manual_coding_2026-10-03/claims/39284832.yaml": "556bdfc5172f6e6db2da89f4e968fc48dc08a2c84cb20fa8b570c4456d38212d",
+  "outputs/citations/manual_coding_2026-10-03/claims/39314522.abstract.yaml": "f174081958a1cb655b565fb8fe0b9442f422a96fc6b6853f5aae0be30e41339f",
+  "outputs/citations/manual_coding_2026-10-03/claims/39314522.references.yaml": "b8901beaf9110b4410e18bd14a4f8dd5ce3462910a32c882b71b156716cfd525",
+  "outputs/citations/manual_coding_2026-10-03/claims/39314522.yaml": "6066d050a3e76d1367285a528952784f6cfca46000591f4a464bf92ea7714add",
+  "outputs/citations/manual_coding_2026-10-03/claims/39333727.references.yaml": "994d49d538fdfbd88f546cb20a7abdf20b482c2247d02b83fe5b1b0e9fea2a69",
+  "outputs/citations/manual_coding_2026-10-03/claims/39333727.yaml": "eb58fddf0a50d3a5f3ebaaa5a3858f170fab0b6b7b3076f77756e0076ecaef90",
+  "outputs/citations/manual_coding_2026-10-03/claims/39351539.abstract.yaml": "4147d658a813d638815b01387024363006a6c483af72d2167a1b12aed807c0bf",
+  "outputs/citations/manual_coding_2026-10-03/claims/39351539.references.yaml": "5fdd437e167ca28be9937fb417f688b3dbef83ee64b844660c643f0295180a65",
+  "outputs/citations/manual_coding_2026-10-03/claims/39351539.yaml": "55e0ce6a11f9274a43962cc510ea60652549de2e70c58795e11c8b6b2d877a89",
+  "outputs/citations/manual_coding_2026-10-03/claims/39354406.references.yaml": "0a90889b970db2544671b64318be93df0b5eb960907b9feef17c84a9951f821a",
+  "outputs/citations/manual_coding_2026-10-03/claims/39354406.yaml": "b082ec9b557d2bb0b20d9da8ddf1b979e1f0620229750cb27e40e13f03899508",
+  "outputs/citations/manual_coding_2026-10-03/claims/39355913.yaml": "8d09ecffbb33da1bae5d491fa54051e1b275dc264cf5f29e3f76eb68ecdf13b5",
+  "outputs/citations/manual_coding_2026-10-03/claims/39358768.references.yaml": "aa0c34bf48dbb3f81062fbe8e4e7ee2832f1195c4e36440e98de742dcbf3c230",
+  "outputs/citations/manual_coding_2026-10-03/claims/39358768.yaml": "3e4af094d29932d42a031ad9ac1deebc170ed55f90069c7fef2391486bc57049",
+  "outputs/citations/manual_coding_2026-10-03/claims/39375737.references.yaml": "3cac282ec91a87661edc3449f158bfb943580c693b045fdcdfab35801a976647",
+  "outputs/citations/manual_coding_2026-10-03/claims/39375737.yaml": "45d5a4577b76c6125f6cfc5347879180826db15b7d6d595d4e614eba324af161",
+  "outputs/citations/manual_coding_2026-10-03/claims/39392298.references.yaml": "d101c78cd73d2bdb833ec2c37f2ea8d174f6463b2301cb4754c367869cc945f5",
+  "outputs/citations/manual_coding_2026-10-03/claims/39392298.yaml": "f884a9efbdfc1c76c56946f3114e28340ad16fca5805d59034c05420c8cfed10",
+  "outputs/citations/manual_coding_2026-10-03/claims/39397782.references.yaml": "a127e86fb483c0a2c2ae7d3f8ddb3e1470e0df5c3baa238a85dcf495afb3ca1b",
+  "outputs/citations/manual_coding_2026-10-03/claims/39397782.yaml": "48c741b39146bd3f7b9553f75de3441a06c01c719152f0a055681120d6b3a161",
+  "outputs/citations/manual_coding_2026-10-03/claims/39398994.yaml": "50d70e451051cd58e3999ec9940ff1c590c3d6aced95e7596c20384fee1108e3",
+  "outputs/citations/manual_coding_2026-10-03/claims/39424455.yaml": "94d24519e9a3c368f07e2f35ba3cfe434b921ceab164bd6f34d54129ca7f6323",
+  "outputs/citations/manual_coding_2026-10-03/claims/39463412.references.yaml": "998dac5756ead74a1d21d0c48078703777d17babfd63548a71f47ae11f07c1f7",
+  "outputs/citations/manual_coding_2026-10-03/claims/39463412.yaml": "e4433222e4f454ba48751b106757ed16bea65d8c68a71bdb4059bc909c51ff23",
+  "outputs/citations/manual_coding_2026-10-03/claims/39472987.abstract.yaml": "4d68a074f02069e564eebf87d1a63618de30e8354abff2d6da77be67cce59c48",
+  "outputs/citations/manual_coding_2026-10-03/claims/39472987.references.yaml": "b72a7e584486610660f73350fe98c185a8e6e04c96c4af6a2a7ce48b9ea120a3",
+  "outputs/citations/manual_coding_2026-10-03/claims/39472987.yaml": "4136ca5266b3c170dfc47db7cf9a8fc31d165307bec7282fbccd7ee1a3169f79",
+  "outputs/citations/manual_coding_2026-10-03/claims/39474612.abstract.yaml": "fb4856d79a49c97152abffa66488beec24ccc4bb126c028f9b00c9897b4b4cbf",
+  "outputs/citations/manual_coding_2026-10-03/claims/39474612.references.yaml": "039f80720b0130c51fca1ea3b7fd358a03c2782f1a18e6db68860123a944ca28",
+  "outputs/citations/manual_coding_2026-10-03/claims/39474612.yaml": "93e79e49bc302cd929324a9e04cbfad7b5a654dc10341d514a36742c4bacbc95",
+  "outputs/citations/manual_coding_2026-10-03/claims/39477889.yaml": "bf736ca7f7b264c93921df1f20972853d4a2b694d1fbd028febc9d1068a99af3",
+  "outputs/citations/manual_coding_2026-10-03/claims/39490725.yaml": "409bf8393a4d7406c86fc52efb005120d9e6dc658d58e9766f66d004caf79821",
+  "outputs/citations/manual_coding_2026-10-03/claims/39503011.references.yaml": "937b4033a29752cb84f4d86803874b1ac98aa6871ebd13c04971d7de87068afa",
+  "outputs/citations/manual_coding_2026-10-03/claims/39503011.yaml": "c8aac321be16d4f288be4f3ea27ee20cb3f4919de63e230b0932b6b4de48f963",
+  "outputs/citations/manual_coding_2026-10-03/claims/39572695.references.yaml": "9453107c1b3272a03f297965b7b53ceddeb8a7ed87b79d31b863f0861be82730",
+  "outputs/citations/manual_coding_2026-10-03/claims/39572695.yaml": "da711228fb8cf2a6c298c58747c7b901b0acdc871b41c28bac1e25d91265ad83",
+  "outputs/citations/manual_coding_2026-10-03/claims/39578729.references.yaml": "e59079faeb59ec79f1acfc24d0580f212fdadb1b1098bf82cf941512d51f094d",
+  "outputs/citations/manual_coding_2026-10-03/claims/39578729.yaml": "b81e6a240e6806605d49911ea3abcd959e6e91114994e1eff057c94611bb0873",
+  "outputs/citations/manual_coding_2026-10-03/claims/39580111.yaml": "7b98a7485819972568977987e1a9f443fe291f24b833df3298b03582b8392212",
+  "outputs/citations/manual_coding_2026-10-03/claims/39585470.yaml": "3c677896053a70dee15da043617283aaeff3da6188eae16ffa68154f7c5688ec",
+  "outputs/citations/manual_coding_2026-10-03/claims/39592890.references.yaml": "8ccd359f2006fd9623f28ee0f4b9fc48c01a2f18da6ef0329407efdac98853bc",
+  "outputs/citations/manual_coding_2026-10-03/claims/39592890.yaml": "0e744a213f4d3694203c31615908cb97a6dc3e305b34615581d1678e4f816d10",
+  "outputs/citations/manual_coding_2026-10-03/claims/39604029.references.yaml": "89d784753dc1050b8adf3853c5942354b3975c6d04afe90e5c8dfb37d992504c",
+  "outputs/citations/manual_coding_2026-10-03/claims/39604029.yaml": "e01a20eae965484a3ca7b0381555271e635b9da201aca885e68c3284b706aacc",
+  "outputs/citations/manual_coding_2026-10-03/claims/39637861.references.yaml": "cf8a0ce8dfce1ff9cbc79a0363c33a178a9ebe03b3bad6e83416f75122664128",
+  "outputs/citations/manual_coding_2026-10-03/claims/39637861.yaml": "caffd8b4755ac9a20f5b71dfd43b6f62e482eaa4fdafefc6f6a16dec7dd616ac",
+  "outputs/citations/manual_coding_2026-10-03/claims/39669686.references.yaml": "03d24004f63dc1c4789224d589c83d140cebbc5f260ba9547aeeeb1c275c96dc",
+  "outputs/citations/manual_coding_2026-10-03/claims/39669686.yaml": "3c065156b155cd7d43b440a47b49618b3d8cb9235d5f989dbeee4312485fbdfe",
+  "outputs/citations/manual_coding_2026-10-03/claims/39702585.references.yaml": "612a1fcd8b804da5d969964e4fcd490b98d9e1235352c93db275fbe9bc7fe48c",
+  "outputs/citations/manual_coding_2026-10-03/claims/39702585.yaml": "881b1874d2bfb46af7f1dedb69c2d83821d3e1f93d4de4f944b1f7e37472b654",
+  "outputs/citations/manual_coding_2026-10-03/claims/39715222.abstract.yaml": "e77c2e4ed7b439b983ca910ca3188236d99e5eda8443dac316e74d3903278003",
+  "outputs/citations/manual_coding_2026-10-03/claims/39715222.references.yaml": "4c8b971f8bfbf8a0ba7208d0057a3d2f5d6cf86a6149d096a8268a4c31a12e01",
+  "outputs/citations/manual_coding_2026-10-03/claims/39715222.yaml": "90c3d9368c0855dcf752b5749b0e1713572fefd1a142218552a2071433980f59",
+  "outputs/citations/manual_coding_2026-10-03/claims/39747981.references.yaml": "b551b01b91a3bd08e8fe05c0af2263273d3f77501f77759af05f25c2b76ac156",
+  "outputs/citations/manual_coding_2026-10-03/claims/39747981.yaml": "142f43dda6ac6c32db2806397646fd1613bdf7351581d8ec895c7c0f3fdee6f8",
+  "outputs/citations/manual_coding_2026-10-03/claims/39751938.abstract.yaml": "5dd3838bbda3a9f8683a275237c650ac199941780c6d0af676d4771b44241355",
+  "outputs/citations/manual_coding_2026-10-03/claims/39751938.references.yaml": "5e1b6cee6d06367b30230bb91033758a4c2f91321f01bdb183c5c8beccc65a5b",
+  "outputs/citations/manual_coding_2026-10-03/claims/39751938.yaml": "eb9d5ebdb2248e416b16c7c349891ad4f38514ec71728ef97b9d97ed2e9166f2",
+  "outputs/citations/manual_coding_2026-10-03/claims/39755304.yaml": "52250e8e9f21f321dc4911063e8b9395ab1cca356721c174ef41a42f1970c0ce",
+  "outputs/citations/manual_coding_2026-10-03/claims/39765118.yaml": "935f84c0f302b73407c84918d6e38fbe0605aed8e54ec1fe6527d5f968a6eb98",
+  "outputs/citations/manual_coding_2026-10-03/claims/39778021.abstract.yaml": "32105fc7ab45fc1896ba516620a185d0be443f5e77483d9aae43943713ff2d88",
+  "outputs/citations/manual_coding_2026-10-03/claims/39778021.references.yaml": "4444b50f51bd2a9d8d9f8543ffcd83d0ef4dfc36ce285c12ebae3cd02030f49d",
+  "outputs/citations/manual_coding_2026-10-03/claims/39778021.yaml": "50ac9c3ac26f91cec561460426cb4feece5f73bfc8b98ef2073781424f60d403",
+  "outputs/citations/manual_coding_2026-10-03/claims/39806364.references.yaml": "010968b099ad156b761c10db0a6167d5e0153f5dcf890cb66031514efa576def",
+  "outputs/citations/manual_coding_2026-10-03/claims/39806364.yaml": "4d41d6a39d22db948efcbdcf34abb6d1d45bc2e717e49e9327f97038ba2003b3",
+  "outputs/citations/manual_coding_2026-10-03/claims/39806440.references.yaml": "e4d580583be8bd6bf6fe13ad88c575f514831f6670d3d1c383e1a78f912dadcc",
+  "outputs/citations/manual_coding_2026-10-03/claims/39806440.yaml": "c7256fd9e5031179eb2e004d9f2a94553d36be3990fac41f4a3057494c7f681b",
+  "outputs/citations/manual_coding_2026-10-03/claims/39824903.references.yaml": "4465af0b51e7b3a0e3cc5c9fe7b4dbfc7213dd2a125e850630639b147b65cd65",
+  "outputs/citations/manual_coding_2026-10-03/claims/39824903.yaml": "9572b5ba0d582dd9777d0381123613bacce7eae666b9c48a32edf5921e90c6f3",
+  "outputs/citations/manual_coding_2026-10-03/claims/39844246.references.yaml": "a6bf006da518d6bf4be5b0a2a01d57fe15dacb36bcaa4d4b68a2bf5da94e637d",
+  "outputs/citations/manual_coding_2026-10-03/claims/39844246.yaml": "248d8c6e6adf51d9fc2da798f91fd4f9e9c63b481a3fc2d18d3ba0bb94b96813",
+  "outputs/citations/manual_coding_2026-10-03/claims/39857769.references.yaml": "c87e07fb3e69750d3eb05eb96222214bcb6428641ae48eef5fe8da6ea35a7d0d",
+  "outputs/citations/manual_coding_2026-10-03/claims/39857769.yaml": "629ab4ba26e9a8c0f0430b25e24ff42c5c616386d623fcc45fe65a853bf357cb",
+  "outputs/citations/manual_coding_2026-10-03/claims/39857814.references.yaml": "e7cac65a80e56122895bd70eddd8a292da165d1b4dea4f0a1392e9c478f16c94",
+  "outputs/citations/manual_coding_2026-10-03/claims/39857814.yaml": "cfa17ba1f6b8e104b3d8988b8bdbb6a278e8475c41a10a91d78084a04ae388fe",
+  "outputs/citations/manual_coding_2026-10-03/claims/39875498.references.yaml": "4117d650619098cd24559fb3c9db5ef4740d23aa07b7daffcce015b13997fbfd",
+  "outputs/citations/manual_coding_2026-10-03/claims/39875498.yaml": "26160d75da57f0ecc138e30d332d5269527ec8d74b3d45cf3fcb1ec5efa13b57",
+  "outputs/citations/manual_coding_2026-10-03/claims/39885253.references.yaml": "94926d3b656ea881061381a86af6b5abeb78e68c741827e6b03e54f65b7fbd0d",
+  "outputs/citations/manual_coding_2026-10-03/claims/39885253.yaml": "e43ab54cee02d39d2e4d007067c6117907b49de3deaddb45764f3f996501427a",
+  "outputs/citations/manual_coding_2026-10-03/claims/39887658.references.yaml": "abe9e5fe17f7b617b261654e8a6fc1515116457083e406cfb9ff3f25704f77e8",
+  "outputs/citations/manual_coding_2026-10-03/claims/39887658.yaml": "bd532611ac9abbae4003b307a88420c600843ad3ab8ae486f4fd701111177cab",
+  "outputs/citations/manual_coding_2026-10-03/claims/39895541.references.yaml": "a9ab4b2ae383c6ea5d4a32767e151d1c6503b3ae811285ee4f955769573f1d2f",
+  "outputs/citations/manual_coding_2026-10-03/claims/39895541.yaml": "2fe833017bb7f9f0ab5a3d327619655e3a8325ce8d84ce18f1955472adc55821",
+  "outputs/citations/manual_coding_2026-10-03/claims/39922081.yaml": "c7a92ac4abb86e25c82b8bfb3cf9ceca3163e17810b9e40ed1e1e1dbce2d7205",
+  "outputs/citations/manual_coding_2026-10-03/claims/39933430.yaml": "b5a3f72eb369dd2efe119bd51b7fa813d28d5424437a9d67bfe05cab5fde05da",
+  "outputs/citations/manual_coding_2026-10-03/claims/39935908.references.yaml": "71c6c25cfe4c009542ffedfe177fd41823b103e3aa0c7041572e668622e3b6e5",
+  "outputs/citations/manual_coding_2026-10-03/claims/39935908.yaml": "49ac84c340b4950c88602fa0b32cfdc16a3a110f73edbde30d0dada1b7e42354",
+  "outputs/citations/manual_coding_2026-10-03/claims/39979637.yaml": "d18fe717d3052a25c2afdb276fd135fb9909c0b35e9d9b9d18a8c8aaae4499e5",
+  "outputs/citations/manual_coding_2026-10-03/claims/39991825.references.yaml": "c0da2eb5be20a03516d41836f3c9d1eb058999403a6472fb69d3dcc04f2e4182",
+  "outputs/citations/manual_coding_2026-10-03/claims/39991825.yaml": "077f5f67a01e45d1ae444378a16ec05bd48c877d41ae0d85668e7fc46769af39",
+  "outputs/citations/manual_coding_2026-10-03/claims/39994764.references.yaml": "d4fdcd841cb319ad103c322d5cdd7181f2d2b5c2645c3adb25c928cae4ef8692",
+  "outputs/citations/manual_coding_2026-10-03/claims/39994764.yaml": "41b28895de184ae1f7283d8c55f5d9c51f4824429523aecba2bf4b34bf6752b4",
+  "outputs/citations/manual_coding_2026-10-03/claims/40001646.references.yaml": "85b18a59a76f47f904308e61c67aa834616411fa399c4d3ee1c14ac4e44ab3b0",
+  "outputs/citations/manual_coding_2026-10-03/claims/40001646.yaml": "ef656e554277002f84a3ba5473cd9bdcd32a670976af71a03168ca744b3194da",
+  "outputs/citations/manual_coding_2026-10-03/claims/40026415.references.yaml": "f0bed031d79096fdc552c2726de00f0445ca870d7f4ecd2c2dd858a251113db4",
+  "outputs/citations/manual_coding_2026-10-03/claims/40026415.yaml": "df2096765a9590142d6b93247b99648aea48fa8b10e308ea4969e117028794ab",
+  "outputs/citations/manual_coding_2026-10-03/claims/40037332.references.yaml": "7dcdbe96f52067de8fb5a1020fc4ec1e606e7da264cb8a8fd6ece2b5fc1bebf1",
+  "outputs/citations/manual_coding_2026-10-03/claims/40037332.yaml": "6c32892b06f11979e96e7fcfa2f707bf780cbb57d234a51a4c3c632def4429cb",
+  "outputs/citations/manual_coding_2026-10-03/claims/40041284.references.yaml": "af2a6e27a47e49a9221c92777886cc9c5c16bc98030a5ca58e899ca2c0ba151b",
+  "outputs/citations/manual_coding_2026-10-03/claims/40041284.yaml": "2d51e1b69a75899f6ee7f56fc9dd57ce80f63a7509b1cd865dde79e5c675846f",
+  "outputs/citations/manual_coding_2026-10-03/claims/40046022.yaml": "51c4c3b796987b794ed6df5f2d08fd4fe9b17ffe21066ba6d3a2aac80ce1b257",
+  "outputs/citations/manual_coding_2026-10-03/claims/40048323.references.yaml": "3d760898cb054b826a8c957dd78f3d64cbb42e229e7c4c29df2ad2c638c9c4b0",
+  "outputs/citations/manual_coding_2026-10-03/claims/40048323.yaml": "4eed24450fa4728ae4cf8956640f075a9da306340e11f89b81f10d796518f814",
+  "outputs/citations/manual_coding_2026-10-03/claims/40052860.references.yaml": "caa98961c7d717a83a60ae86f3f2c381f49176937464fa89d1e695deb21d7c84",
+  "outputs/citations/manual_coding_2026-10-03/claims/40052860.yaml": "6c5db412cfc4b6896b42bffe34d5280cd76ea8763c644fd1c7bed5de4749edf9",
+  "outputs/citations/manual_coding_2026-10-03/claims/40061319.yaml": "24142cf0486fb8369f3162283f6ab761084115736415a43976994a199293f6a7",
+  "outputs/citations/manual_coding_2026-10-03/claims/40108295.abstract.yaml": "9db7aa85141e709bdd368396adc35790b2516ae1b779e597bb5f3f15933da8d4",
+  "outputs/citations/manual_coding_2026-10-03/claims/40108295.references.yaml": "bdb0da7b29313e43e290d8a142c06bf7429ae8fe5b714f5f5cb350a32b0d4e52",
+  "outputs/citations/manual_coding_2026-10-03/claims/40108295.yaml": "f857ee1d8bd914f13789506980f9f2388f61d1e9cc48f9a8d61af2359736ff02",
+  "outputs/citations/manual_coding_2026-10-03/claims/40171199.references.yaml": "683a393a85d627d2ddfd4aad3e1b062a2b981cc269f942f42efba08d987b4a0e",
+  "outputs/citations/manual_coding_2026-10-03/claims/40171199.yaml": "90aa0513ff66ded9a74aa1e866f11a24886adbeae7f6a905292c0fbc1bec47fe",
+  "outputs/citations/manual_coding_2026-10-03/claims/40187354.references.yaml": "87658843a1f09d1687c42baa0137d5cb840eda8179e84d96848f4e31c165c5d1",
+  "outputs/citations/manual_coding_2026-10-03/claims/40187354.yaml": "ee53d4003631ae2b060c1da19f078fd8930aa33b746fe171276c77cfde1b478b",
+  "outputs/citations/manual_coding_2026-10-03/claims/40193678.references.yaml": "af6bd8363894dc0d1ddd80129135499c8a57d1cd2d6060bf127ee5bb024a5415",
+  "outputs/citations/manual_coding_2026-10-03/claims/40193678.yaml": "9c5fa7f6e62aa430063ad7b7f2f6a8d78cec77af78579e5dd8d0f09753fa6e4b",
+  "outputs/citations/manual_coding_2026-10-03/claims/40240670.yaml": "258fd9b39519bd2ff5342878208809254ec17eb9ed31bae7a8b8b298aa01eb40",
+  "outputs/citations/manual_coding_2026-10-03/claims/40267509.yaml": "d763952cf80a5a517c7d78300759507c37b8e9dc40d3d3bbf3f6e1afc3e0a5c8",
+  "outputs/citations/manual_coding_2026-10-03/claims/40269081.references.yaml": "9db0f18dd885c98adbbe4d44e6c5b6a5d9da602a815b9dbb6c6c47656d3aad7a",
+  "outputs/citations/manual_coding_2026-10-03/claims/40269081.yaml": "a3b536f4e47f0f9fe9815e26cb7eb9a5203941a6da131db8733126bf84c4b175",
+  "outputs/citations/manual_coding_2026-10-03/claims/40287056.yaml": "3f89c79352779bf7e03912ab4fd992e7f7cf6bab07405c39ca2dd47e859e150b",
+  "outputs/citations/manual_coding_2026-10-03/claims/40299563.references.yaml": "d8a4ab5c8de698e61283cbb494b8b39ae00fcf024e32d695853f0811e9e50d37",
+  "outputs/citations/manual_coding_2026-10-03/claims/40299563.yaml": "5c98579227a4bbaea2d5ad3623855fd3c8eabd546596b05e706bd96ba1eb7264",
+  "outputs/citations/manual_coding_2026-10-03/claims/40316856.references.yaml": "c915109467c69001c63ef317358b656673a82986dc407866a6b341998abe24fa",
+  "outputs/citations/manual_coding_2026-10-03/claims/40316856.yaml": "e664c021935f08e875ecc8805aa093693495a0b686756c25d3673aa36ba16623",
+  "outputs/citations/manual_coding_2026-10-03/claims/40327005.references.yaml": "f0c4569a7e73b415cedd175affd8f41f9fcf2673007bbf634359b8e256cf9a86",
+  "outputs/citations/manual_coding_2026-10-03/claims/40327005.yaml": "61a4e034de1c12707a4e12f91136ecfa2e9fef8cc4207bbd9a542307678ea27d",
+  "outputs/citations/manual_coding_2026-10-03/claims/40328427.references.yaml": "8f543aad864a52c8091518f263217edbccd0c96a2043aa872d74b07989ba7e1a",
+  "outputs/citations/manual_coding_2026-10-03/claims/40328427.yaml": "136162978ffb249d6d76cbb617c1512c044a0e7973225bc47697e3746d7660a4",
+  "outputs/citations/manual_coding_2026-10-03/claims/40355193.abstract.yaml": "d5606687f50e9d360930de3881ab93fba4c6636ae5d4912611a62acab7d23e7a",
+  "outputs/citations/manual_coding_2026-10-03/claims/40355193.references.yaml": "230458cabf5113ded0196705725c63e47ec2bc9cc378fd6f9430a03797d2e561",
+  "outputs/citations/manual_coding_2026-10-03/claims/40355193.yaml": "b81a32aea827a498ea6a88b74a674538cc93e6ecfc5539d662d30066cbb4cf44",
+  "outputs/citations/manual_coding_2026-10-03/claims/40369022.references.yaml": "0ef6ed3b789b0742797282c15f14c2926e2f07c3e1da665ffade117d3ca5ee6f",
+  "outputs/citations/manual_coding_2026-10-03/claims/40369022.yaml": "df051105d434b4d4b2286a143e1859ea035b5dc106f2b85a151608b2e09e7d50",
+  "outputs/citations/manual_coding_2026-10-03/claims/40380075.yaml": "a8f4e425ed5d29d297b30a9e0a35d7d65be9cd3d9db20a56b26cc45aeb9baacb",
+  "outputs/citations/manual_coding_2026-10-03/claims/40399559.references.yaml": "9eb47099b1e154420a2fa9f0517ecdc2c8159525dd9e350b40f47fba41e614e3",
+  "outputs/citations/manual_coding_2026-10-03/claims/40399559.yaml": "9872f0e93b88224967c82ce47b117d4101c1023a9e766230e325c3189f7d5bb5",
+  "outputs/citations/manual_coding_2026-10-03/claims/40400956.references.yaml": "72ffd63117f28cced29d80e682ecd64139a3a7d9922c11e80adfb751ba98a362",
+  "outputs/citations/manual_coding_2026-10-03/claims/40400956.yaml": "86747ab098806121e2d8003a7447a4ff2059bed691a2ce5c897702277af98773",
+  "outputs/citations/manual_coding_2026-10-03/claims/40420090.references.yaml": "c33fb7a148b29d1ec0ea88099f95ff53e90509cc4f0b14384374917a548e3828",
+  "outputs/citations/manual_coding_2026-10-03/claims/40420090.yaml": "2fb3a40e8a316c75e8353b5f7eb8ab810395ad6197b5ddd105c7fdcfe6735f19",
+  "outputs/citations/manual_coding_2026-10-03/claims/40441254.abstract.yaml": "55736e3ff1f1902e7f2848c6378a9c14d27462203260a88e99d65d993b2bd296",
+  "outputs/citations/manual_coding_2026-10-03/claims/40441254.references.yaml": "ee28e92554ac38e11ec58ffbfeae495c7feb475564b484d79c97cb06aa6c38c4",
+  "outputs/citations/manual_coding_2026-10-03/claims/40441254.yaml": "c9dabb9e5966b0e2349b6570e49c1a77657988889822c978d5e4296a5c327d48",
+  "outputs/citations/manual_coding_2026-10-03/claims/40442727.references.yaml": "8c5c608e585b8f1f4643c213f95d9b65d5262be2a04a1e9cc1d8f626025adde4",
+  "outputs/citations/manual_coding_2026-10-03/claims/40442727.yaml": "1fbeb122e84dffc3eadf2a98f43756c78121c50ee37baee530d3ff4140e4d611",
+  "outputs/citations/manual_coding_2026-10-03/claims/40444654.references.yaml": "4f217c58c5bcc3d7c28f676142f7186c14f6a19574bf401dc3d94f157d038a51",
+  "outputs/citations/manual_coding_2026-10-03/claims/40444654.yaml": "1bd8a0a9888349248fe907f7ea012595e654d391d7888e743bb1b9d45e2fda44",
+  "outputs/citations/manual_coding_2026-10-03/claims/40450304.abstract.yaml": "b0874089b6838e27b3387317db809af2673a0207e9c7b16ca2eebac8726fa727",
+  "outputs/citations/manual_coding_2026-10-03/claims/40450304.references.yaml": "2454e1f10b9d4319514b0039d1a9f99364d4d0000f61b58d54eee3513ee73b57",
+  "outputs/citations/manual_coding_2026-10-03/claims/40450304.yaml": "451a9368bb6a38374a2386f407104a5a5775516d76cccb95bab1ba7923940a9f",
+  "outputs/citations/manual_coding_2026-10-03/claims/40452368.yaml": "918cb6144e7890df148c5c4245e371a5aa523d5d3cd8a274b3ea437943e04549",
+  "outputs/citations/manual_coding_2026-10-03/claims/40462010.abstract.yaml": "b28905e6bf6ce5f51e3a3410a6b617560a6d271acd1b4f9bb8d0782430db21ef",
+  "outputs/citations/manual_coding_2026-10-03/claims/40462010.references.yaml": "d9151537a08a809dabd3adf4529826b85744a97bebde4b7032237809cabcf784",
+  "outputs/citations/manual_coding_2026-10-03/claims/40462010.yaml": "6e15cb67b75c0ae2a3b743a9985c6eb19fadcf0a452b7fd796a01a8f9ac2af69",
+  "outputs/citations/manual_coding_2026-10-03/claims/40462713.yaml": "c82904a8f6c9db9c996b9ce3d922cb2cdd0e440e120cd9ebfedf3a3c67307b32",
+  "outputs/citations/manual_coding_2026-10-03/claims/40480837.yaml": "72856a48bfca1c8a72f2b26767b46ba95ed3fc32cdd8415765db58ba1dfa7a2c",
+  "outputs/citations/manual_coding_2026-10-03/claims/40489865.abstract.yaml": "fa922ffda2d3a708d3fe80019b61726a2382530ade6af52ff8fa9fcdf6f25817",
+  "outputs/citations/manual_coding_2026-10-03/claims/40489865.references.yaml": "5928c37cee8f841de3df3262d46d843ce4f124f8d4fe7b1222303bed1713aa4a",
+  "outputs/citations/manual_coding_2026-10-03/claims/40489865.yaml": "d3d968fd0434bb96907da20bfb65da0db5a38fb3b5e393c1e15d0cf73c97f083",
+  "outputs/citations/manual_coding_2026-10-03/claims/40528431.yaml": "aa6a241b32c95f5e23620ed79e14b873c8986c7ac44f3dd3b645d8d222454177",
+  "outputs/citations/manual_coding_2026-10-03/claims/40533710.references.yaml": "2b123295bb282910aaab6dae74e81cf0aca9a1e1b39bddf95516708799105b51",
+  "outputs/citations/manual_coding_2026-10-03/claims/40533710.yaml": "f4a200f40e58862724abb8588ab1e7d01e6e15a4543fc1beddb2c915c6c3c871",
+  "outputs/citations/manual_coding_2026-10-03/claims/40536728.references.yaml": "aec68cf179f18a2ba938193edcdfb32c2cb1094636f61ae0034f075a2799d86c",
+  "outputs/citations/manual_coding_2026-10-03/claims/40536728.yaml": "9df162d432667ede8412280748e36d34c49078c65caf85b81023cf76665b5485",
+  "outputs/citations/manual_coding_2026-10-03/claims/40553479.references.yaml": "e95ad4441d121c2b4bfcdf2653e327b1e1d302c4fb34ccf9ad251eea010be643",
+  "outputs/citations/manual_coding_2026-10-03/claims/40553479.yaml": "2743958c68fea5ebc7156b83678721983dd7a679caec349e2cda597594cf139d",
+  "outputs/citations/manual_coding_2026-10-03/claims/40557537.yaml": "a8f33c950c2488277ef37b7aaa20b53e21c2e65fce58f08c944fdc8f2bcc5466",
+  "outputs/citations/manual_coding_2026-10-03/claims/40564116.references.yaml": "b91ce857bf4115a0dce98104061cfddee5d77388e4aaf1b89922341149b57fa3",
+  "outputs/citations/manual_coding_2026-10-03/claims/40564116.yaml": "5aabde527582ca602ba4f0b3aab1d1e7941a8bbf244d8d78ab527f018447d861",
+  "outputs/citations/manual_coding_2026-10-03/claims/40577066.yaml": "09aa718bc65d94ef33e84ed86c47c296d9335b4c63bbd49ce684fd19eede6088",
+  "outputs/citations/manual_coding_2026-10-03/claims/40592928.abstract.yaml": "399cfc6258a0643327f4c7f512ac829d63551cd126190fea903cb0d97b87d3e5",
+  "outputs/citations/manual_coding_2026-10-03/claims/40592928.references.yaml": "a9a30d334a5a3dc218a2df24610f3beec0361872396e8a0e7fec1c142b7997b5",
+  "outputs/citations/manual_coding_2026-10-03/claims/40592928.yaml": "02b14cacd931ae6b584d00a5cd7495cb440afc96dbac85c8f8f213ef03a52170",
+  "outputs/citations/manual_coding_2026-10-03/claims/40596960.references.yaml": "3ea9f337a2188e9fb1a5c115040d355f43ee84184d935c322e85570446f6d22c",
+  "outputs/citations/manual_coding_2026-10-03/claims/40596960.yaml": "0036bd175894aa64e36d19ac8472b283441af3461c7e336648ab312ab5a23420",
+  "outputs/citations/manual_coding_2026-10-03/claims/40607238.references.yaml": "2c6ac882744d865832da457febb2fd93f450a46348e4a6f3fc12bd1b7fe80c6b",
+  "outputs/citations/manual_coding_2026-10-03/claims/40607238.yaml": "5de42baf11ad115f71202a9ff10ec5046932b7a4c45f9895767d61411280fb21",
+  "outputs/citations/manual_coding_2026-10-03/claims/40622612.abstract.yaml": "1d875665723c2add340dfe572ccc650ccfedf008e602963fcdd573f3d838e658",
+  "outputs/citations/manual_coding_2026-10-03/claims/40622612.references.yaml": "473a93700a5838cad671b4e3477eb6c503c189e392ceb9e96f48162421fd11f0",
+  "outputs/citations/manual_coding_2026-10-03/claims/40622612.yaml": "26e84a5cc7b3d55d3c07b9814552044e83c7f14a032ebad8cfc73bcfc243d6a9",
+  "outputs/citations/manual_coding_2026-10-03/claims/40649979.abstract.yaml": "bedfe7f6b9255d9a8d5ea72f3de4182cfcccf9f06d9e6740746c73171fb4a690",
+  "outputs/citations/manual_coding_2026-10-03/claims/40649979.references.yaml": "2c5e59040e65ba762b3b6dc52de971ce8686c737c92202590b609197ff0668fd",
+  "outputs/citations/manual_coding_2026-10-03/claims/40649979.yaml": "300b7685b82a4902639f479f29b8f221af5525dd81d4749c22bf290404076b10",
+  "outputs/citations/manual_coding_2026-10-03/claims/40657364.references.yaml": "62ff72366fc28ce3fd41eb0c678100b0d6fb1a2757afcdf62e5fe0b7a13baf34",
+  "outputs/citations/manual_coding_2026-10-03/claims/40657364.yaml": "eecbe282d63e8979d517de11a451164e82cacee30bd1647d7f719ceb4faf00c6",
+  "outputs/citations/manual_coding_2026-10-03/claims/40657554.references.yaml": "b057bff7ec59bf2c305974a60c5b94b05f1bc7191c42973d90d0cbda64f0d7f4",
+  "outputs/citations/manual_coding_2026-10-03/claims/40657554.yaml": "5dfd5e15c6851f073d549c851222e3ba7e17b961adfd362480e5ca98313138f8",
+  "outputs/citations/manual_coding_2026-10-03/claims/40658235.yaml": "52a2da65bd36a5d58276d2a04d571a4eb3f0bef9d9ec8bf6caad1e25d3882019",
+  "outputs/citations/manual_coding_2026-10-03/claims/40669587.yaml": "18ec5117b028cd350998c10f596ffcc5300b8b035cbe15739047c8f8277513b9",
+  "outputs/citations/manual_coding_2026-10-03/claims/40671653.yaml": "522497a3cca73e50b98766862a6034162b42c1b9bee2f8243a2bc840a791256c",
+  "outputs/citations/manual_coding_2026-10-03/claims/40675462.yaml": "0f609718cd8ac6e95f2f6a147f5e316e154e907e7377ece0c0fc69cfea97eb45",
+  "outputs/citations/manual_coding_2026-10-03/claims/40679760.yaml": "29107ec6444fba0a1daec0da18bd722dc32c3f1c57c7d0705468ca4f44a028da",
+  "outputs/citations/manual_coding_2026-10-03/claims/40694910.yaml": "f24f93a51f9b7fc0573283ee33bb8f31a87e7f19d9e2720c1f206752304c5966",
+  "outputs/citations/manual_coding_2026-10-03/claims/40695397.yaml": "8700f784d1c537d90208898f01af72f2c37c491623a15a993bc3fa798fa09fef",
+  "outputs/citations/manual_coding_2026-10-03/claims/40708517.yaml": "7c8fe833727ca2dcf470f50943082428aedcd1edbb04fb84a9aaea842d6db194",
+  "outputs/citations/manual_coding_2026-10-03/claims/40754897.yaml": "5729bcbb014ca33a97323f0ced2a5c5504af71c8a33f6a6bfd64d29497a63361",
+  "outputs/citations/manual_coding_2026-10-03/claims/40765733.references.yaml": "74e80052c3e012030ed3d186f56123b10c145d6842ab6b921adad552fa98290a",
+  "outputs/citations/manual_coding_2026-10-03/claims/40765733.yaml": "4832b3c49d8f3c9a1ff668242697e4e27e3bc6509c0f0bfc793b8f75dcb7c8a8",
+  "outputs/citations/manual_coding_2026-10-03/claims/40788656.references.yaml": "b684a434ca5510bc47b74b4b3f6aff74b1c6f125506f516626e548c19d7dcdb1",
+  "outputs/citations/manual_coding_2026-10-03/claims/40788656.yaml": "5e538a5e9b422eb78d068481c8db901c598567a3051c7de044785ff5136c7508",
+  "outputs/citations/manual_coding_2026-10-03/claims/40810909.yaml": "677234bfefe9a129ee6cdfb5014362b62589dab680e307b117e2bd2a1423e364",
+  "outputs/citations/manual_coding_2026-10-03/claims/40813130.yaml": "e3722251a73b7fdf3002172ed81926ec6ae7fae471d256e0673fbb301b477cec",
+  "outputs/citations/manual_coding_2026-10-03/claims/40820226.abstract.yaml": "fbbd03c55b29d5abe56b00e4894d59e073d9cdcbe5944ba48138c2131e9c7b45",
+  "outputs/citations/manual_coding_2026-10-03/claims/40820226.references.yaml": "25996b04951954e6652c5c33f24a2d25554f5bcdda1b98cd152a4da29b409c1a",
+  "outputs/citations/manual_coding_2026-10-03/claims/40820226.yaml": "e51ffcecfa5d0d25546756a99e77e30359059eac6df91256dedfe0be43ecc2ac",
+  "outputs/citations/manual_coding_2026-10-03/claims/40827287.yaml": "1d5332308f3b3af265081b02d65b5ced8d0f42cf7dafbb3e7f29a3b7ba85f73c",
+  "outputs/citations/manual_coding_2026-10-03/claims/40847077.yaml": "47fd873bd770be77dc5e2c265df5122cff9b5964c8199ef6f5079a0c66c25e60",
+  "outputs/citations/manual_coding_2026-10-03/claims/40853920.references.yaml": "1e298aedba944ef8bd3350cf7fd1ddf14ee4edae944dd2ddd5f7374b39748876",
+  "outputs/citations/manual_coding_2026-10-03/claims/40853920.yaml": "eecdf50d37d38914a071edb8ed33cb41cc8eac51790ff65dd12ec49a5d39a4af",
+  "outputs/citations/manual_coding_2026-10-03/claims/40856249.references.yaml": "80a465f46c9f455418ee0d522a32b596d5ada708effa15ace637e594afbc4c3b",
+  "outputs/citations/manual_coding_2026-10-03/claims/40856249.yaml": "787250c92c8f73397508a32744487ea526f49358d3d1f638cb5ecdce9922e1a9",
+  "outputs/citations/manual_coding_2026-10-03/claims/40877285.references.yaml": "2bba67b86fd5897f9c7c4737dbc4b886c9e29ae740f94bd88e0371bdb59de6ad",
+  "outputs/citations/manual_coding_2026-10-03/claims/40877285.yaml": "e0887340e3322ec8d8323d547a67b325477229cb7fd6326e5d67379cd8bc0372",
+  "outputs/citations/manual_coding_2026-10-03/claims/40883583.abstract.yaml": "b5c90e9e2bd42e1be6d3619439950fe3c21d4b9cd07901ecc0fa80a4bb4ea999",
+  "outputs/citations/manual_coding_2026-10-03/claims/40883583.references.yaml": "ab3bbfc09e1d04818635672668b8bd85cc00a9208bd4efcec566881554706302",
+  "outputs/citations/manual_coding_2026-10-03/claims/40883583.yaml": "dd05aaf8036c0f3a402c77941b3653769727dd287b39bb712472d1825669ad6d",
+  "outputs/citations/manual_coding_2026-10-03/claims/40883588.yaml": "849db30f327bf2aa3142042101ad7cee72de69891bec3a28c8e684377f0ab924",
+  "outputs/citations/manual_coding_2026-10-03/claims/40897285.yaml": "e3ef3c2215302b69dafd9be7141dcb9db6b28ca7cb41ad904410e00d15dfd9ca",
+  "outputs/citations/manual_coding_2026-10-03/claims/40913361.abstract.yaml": "dd6b0835c5521552d0af38e35f8a827b4e509bacc6768169a5f1ba51caf45c84",
+  "outputs/citations/manual_coding_2026-10-03/claims/40913361.references.yaml": "716a33a28f56e749a85bdc7227b6a15bb7903bbc06fa3799fd68e107c681f622",
+  "outputs/citations/manual_coding_2026-10-03/claims/40913361.yaml": "748e8c879aa32d8a52905b5de094c125792a8f02627de63e5337c0607312753a",
+  "outputs/citations/manual_coding_2026-10-03/claims/40934961.yaml": "5371b65b3a0591da22a111995c6d786ad649f9bc1a172c563a1d33349259f623",
+  "outputs/citations/manual_coding_2026-10-03/claims/40988203.references.yaml": "3ac98dbd1fb40c42bfcb64fcb337a33efd035735901103f68412dff879c21b0c",
+  "outputs/citations/manual_coding_2026-10-03/claims/40988203.yaml": "dbd488b7dbd8f857c055049714476025e81c5912f18942448129a97ee14ee2e7",
+  "outputs/citations/manual_coding_2026-10-03/claims/40994081.yaml": "478bd748742ee27a8101317b4965242e45c86cd80e4bf6fb9b65b51ee0b1e3da",
+  "outputs/citations/manual_coding_2026-10-03/claims/40996951.references.yaml": "b8862f9886406787e3bfa1322d744e0c8556662bd8f68a6629c9a73ca7dfb0c2",
+  "outputs/citations/manual_coding_2026-10-03/claims/40996951.yaml": "c2ed0cac1b2f65fc0795e60637aeecbee618ccfc1afa57cab5daa3c2c2210ab6",
+  "outputs/citations/manual_coding_2026-10-03/claims/41036470.references.yaml": "aeb9de796e8d60304108a5d1b413e96b36ea525560789b8f0b6f3da85cc35d8c",
+  "outputs/citations/manual_coding_2026-10-03/claims/41036470.yaml": "8ab6d7aa028e3fccdd88e01658268a619169b4c03b991a4d1fb6d4b00098858b",
+  "outputs/citations/manual_coding_2026-10-03/claims/41057938.references.yaml": "bc6eef5618e843e92ad1f06884cebd01acf213fb6c1a4425d5af732a019da717",
+  "outputs/citations/manual_coding_2026-10-03/claims/41057938.yaml": "384a5529e7b10a6169430e4a34cf2fa0a6e7f7b5dd620c6e8400660fb63a60b9",
+  "outputs/citations/manual_coding_2026-10-03/claims/41060444.yaml": "3d492fcb7b4055f42ada5c84de224e0b767ec3a41cba9365ae4d1c4b3877b29d",
+  "outputs/citations/manual_coding_2026-10-03/claims/41085868.abstract.yaml": "dfb006ee81f60d873d183953e82a6df7d9df2374d962a7c6152a951e4aff817d",
+  "outputs/citations/manual_coding_2026-10-03/claims/41085868.references.yaml": "0ad5f2410eb49d8b8393d9a29372397f9d43d5d3c1462bdf1b5cb9f6a64ceb24",
+  "outputs/citations/manual_coding_2026-10-03/claims/41085868.yaml": "5e2049d2fd81d474c5a1c1fdcf2cc6757a30e180e3d0d26eacb4afe7592d2ce2",
+  "outputs/citations/manual_coding_2026-10-03/claims/41088644.abstract.yaml": "6fdc089fcd16b0c1feedbb690f329d422196c5ac09168af628542a8f5cc96bfa",
+  "outputs/citations/manual_coding_2026-10-03/claims/41088644.references.yaml": "a538baea1b741ef35660b2d57afdbcb5e3953d96c04b1d8e14a45802478e1062",
+  "outputs/citations/manual_coding_2026-10-03/claims/41088644.yaml": "3b742fcf34c52d7e8219aeb8bc57a5e3c596db6d99407aaeb923da4096bf3126",
+  "outputs/citations/manual_coding_2026-10-03/claims/41089542.references.yaml": "f9caf00d3f5f90ac40e640cece8f6f93bd273e4cdd39b7fcfb36d7107fc79689",
+  "outputs/citations/manual_coding_2026-10-03/claims/41089542.yaml": "10f84b93c63730abe965f0af76ce3b3346e401539d20656f32cca2742eaf4f90",
+  "outputs/citations/manual_coding_2026-10-03/claims/41098849.references.yaml": "989061b8dbaa3eea6aa90de95f47e512a22d00ef7ed2d8be3bb300ddae6767a8",
+  "outputs/citations/manual_coding_2026-10-03/claims/41098849.yaml": "fcfb32ae37c464e5756362a4aad8dfb1f1593dd827712723344edd25a51f79d3",
+  "outputs/citations/manual_coding_2026-10-03/claims/41107716.references.yaml": "48c0d62b7f180910c7b7db917f7375f6da73289810dcec789e3511e5a5068a02",
+  "outputs/citations/manual_coding_2026-10-03/claims/41107716.yaml": "0fdbb2739d046c8b33d9fa6bfbb421c6ab6caeaed33a396a69e94afee3112b56",
+  "outputs/citations/manual_coding_2026-10-03/claims/41127252.references.yaml": "7ec475689e9cbac04e431f7dd1e04fbdd75eaec2d69f2c26f5fc8777dcc33746",
+  "outputs/citations/manual_coding_2026-10-03/claims/41127252.yaml": "81709deca7904c9e6a7bb87cf9fa29b9bc693ba3a7d06772dc4199592afea2d2",
+  "outputs/citations/manual_coding_2026-10-03/claims/41142151.references.yaml": "e16053bc576560b277cb4b89fb8bd5a7c274412ce27f302015cee4a13c63970a",
+  "outputs/citations/manual_coding_2026-10-03/claims/41142151.yaml": "6e86613f47ef614ac1e6d05b66b23f11402839a9848e5bcc4b761491db8f9e00",
+  "outputs/citations/manual_coding_2026-10-03/claims/41146943.abstract.yaml": "33ec7abb9373063051c59b5c8118e79fcefc0b91377650442407374db24f057f",
+  "outputs/citations/manual_coding_2026-10-03/claims/41146943.references.yaml": "94203099df9f83ebb9f919e7210531748bfb9ad24dddb92b63c6385135340e05",
+  "outputs/citations/manual_coding_2026-10-03/claims/41146943.yaml": "83c9813509093ebe417d04a21383c7a99e82fba58e03e114099837f592534d17",
+  "outputs/citations/manual_coding_2026-10-03/claims/41165052.references.yaml": "d3cf8625b26e15625ec5d992bf202108c84c9f75e57a5fc8d7e0acc04e1f2b72",
+  "outputs/citations/manual_coding_2026-10-03/claims/41165052.yaml": "68885bac6c9911d7252e23a204cb0db3575782f49adb7638af187e8da07fcefe",
+  "outputs/citations/manual_coding_2026-10-03/claims/41189196.references.yaml": "d111c308338c9222af54cc031132a6220f683f4ab88f979efdce1a2d610a7d3c",
+  "outputs/citations/manual_coding_2026-10-03/claims/41189196.yaml": "a0abb28323347448366455c1a4212c7d54143659f8103a3e5fcadd1c42793cbf",
+  "outputs/citations/manual_coding_2026-10-03/claims/41196451.references.yaml": "4355dfcbce79200edb828b3ff4afb6650881c056d88aba643dc4a4a178e3cd3f",
+  "outputs/citations/manual_coding_2026-10-03/claims/41196451.yaml": "c4db7fd40177fcf0f41fcd083525e7620647bc0c6aa74ccc48cf6b6b6dd525ee",
+  "outputs/citations/manual_coding_2026-10-03/claims/41200167.references.yaml": "e6ddee96ec7596495168dbe69220e70e6ed557cc70afbcb6b227d2c5212689b6",
+  "outputs/citations/manual_coding_2026-10-03/claims/41200167.yaml": "a11ed68a8f1073a9402bc05418ac13e5fd64b18d5c8d54c0ee7265ee542359a1",
+  "outputs/citations/manual_coding_2026-10-03/claims/41200820.references.yaml": "67038d0c8f2be72f55573d30f4eb3227283d69186fc53a630e711aa9ba61244f",
+  "outputs/citations/manual_coding_2026-10-03/claims/41200820.yaml": "7bd4717d795e77ceeacb84cb767f944d80261f141cd45269466dd4f1b7752663",
+  "outputs/citations/manual_coding_2026-10-03/claims/41220142.references.yaml": "6c6efa7919ea9819379855c7fa81f943e4659f17f78dfcb2f28a2cef786cc3b0",
+  "outputs/citations/manual_coding_2026-10-03/claims/41220142.yaml": "9de3b53241d0ca6b2ce7b87883c27df856aa521e4a03bb6d137ecd92aa71292c",
+  "outputs/citations/manual_coding_2026-10-03/claims/41222800.references.yaml": "da71bb381bdd6c74ed238d07b818075b43af021602e7e3880d1a6e35d0a69661",
+  "outputs/citations/manual_coding_2026-10-03/claims/41222800.yaml": "bfea65724d8583b4e2da7b3b6b2be52c06485883dec2e1b598acd32274fd7772",
+  "outputs/citations/manual_coding_2026-10-03/claims/41230735.abstract.yaml": "40262ad4c48eb67197bd6f78fee2d97722c73fd459f075dff4846d3a66f6d9ce",
+  "outputs/citations/manual_coding_2026-10-03/claims/41230735.references.yaml": "c905d9c282a5b7a9c88eb6981e92f8983832929b105670bdd45f00514d27da2e",
+  "outputs/citations/manual_coding_2026-10-03/claims/41230735.yaml": "818ebd610b75734f8dea58a6a07eed94c4ac05109bc6699e5b47cf2205c6c021",
+  "outputs/citations/manual_coding_2026-10-03/claims/41232153.yaml": "2979d4d896ec7762ca9d11a344e8c1360f703e34c0fded82c9525bd400b3b261",
+  "outputs/citations/manual_coding_2026-10-03/claims/41239582.references.yaml": "10c11734c7fe6976b1ea8fb1752bbc9a6f4a51647bef8c342a9067bf23d190da",
+  "outputs/citations/manual_coding_2026-10-03/claims/41239582.yaml": "6b3ebb7d5bd548f5c218e51f77ef3b760136172e7ada26f30ad246ed9404b639",
+  "outputs/citations/manual_coding_2026-10-03/claims/41247789.references.yaml": "607c8aca462996c61663330a7342694ea715376013eb4601dc5eef01235cd688",
+  "outputs/citations/manual_coding_2026-10-03/claims/41247789.yaml": "4d4546e9386e992e95e7c3654d727ec56fb335cded00be414a9b9673258bf710",
+  "outputs/citations/manual_coding_2026-10-03/claims/41248854.yaml": "421b9138c51d519f1529973900fa6332963e58ed73888d533acbe5060a7e1dc8",
+  "outputs/citations/manual_coding_2026-10-03/claims/41249132.references.yaml": "90202ad6de00bf12e7f1efc5c1978cd3c9aa9cda8331092acffe81fde681f4b3",
+  "outputs/citations/manual_coding_2026-10-03/claims/41249132.yaml": "32d11338915da9965dd7e1f87f853a805c48aa1b1a663f210b39e5fee570ac5f",
+  "outputs/citations/manual_coding_2026-10-03/claims/41254737.references.yaml": "3eaaaa1dd087b684ecd44f686d996861ed70318bf1f0b5d451a8d4f8ed339dc5",
+  "outputs/citations/manual_coding_2026-10-03/claims/41254737.yaml": "96bb5e5af231a2f62ef4ee681065cc5fb7da8f37fc1b12f829eafc6e456b0be4",
+  "outputs/citations/manual_coding_2026-10-03/claims/41261649.references.yaml": "101e15e911add9b5bad6b528af3b6a13658708b10cfd98968a377e1a6832b26d",
+  "outputs/citations/manual_coding_2026-10-03/claims/41261649.yaml": "8882cb4f7af574e9f24074840b50df5599cbd5b33e7c71923ff660bdfe36258b",
+  "outputs/citations/manual_coding_2026-10-03/claims/41261695.references.yaml": "0a44355156ffe14705836a157c6902bf9d262a09769bc53bdacbd303491ea414",
+  "outputs/citations/manual_coding_2026-10-03/claims/41261695.yaml": "83a45dbc65b303be73bca29a5273b260e9fd2ca1bc0ff626280a8128e87cf809",
+  "outputs/citations/manual_coding_2026-10-03/claims/41261704.references.yaml": "63cc4b3114501fd274b7e174a00f631143e02999140c73e29717cb9147525673",
+  "outputs/citations/manual_coding_2026-10-03/claims/41261704.yaml": "4ff0504902e14fa0c1f94609db8cfc184357cf506d1893ddda856326a192e8f9",
+  "outputs/citations/manual_coding_2026-10-03/claims/41273989.references.yaml": "77a1f9bc8f585e1af1ce7a75fbd9940077cd23bb810a01523688ce712c6c94b5",
+  "outputs/citations/manual_coding_2026-10-03/claims/41273989.yaml": "bef2e0009a8dbca8e6e8e794a61abf90fe6c141d4da18157f39b112165d58514",
+  "outputs/citations/manual_coding_2026-10-03/claims/41283971.references.yaml": "309f12b4d035aaa51a8a6ac53aa069e3e4074e0b0ba6923f2c12163598c7e084",
+  "outputs/citations/manual_coding_2026-10-03/claims/41283971.yaml": "765b6f58f3ebb46e3230858b6a3d75859e03bd8ab615daad17d60aae50a8615c",
+  "outputs/citations/manual_coding_2026-10-03/claims/41286868.references.yaml": "e14a9154332a14a0841fdb9893b2134f0711f0bd0e69a1f4923532f35151ea35",
+  "outputs/citations/manual_coding_2026-10-03/claims/41286868.yaml": "4a1b500de4f859e0e959510ad9d951a35ba4713400a45e24e76e2fae6567e9a4",
+  "outputs/citations/manual_coding_2026-10-03/claims/41288865.yaml": "55018de8989e1bdd69fb53e939313cb8de113d83b1ee53076527e269d7932076",
+  "outputs/citations/manual_coding_2026-10-03/claims/41306657.yaml": "7ad7b345ca9c27776150cfcd51df84f774700895139f18dec3cdeb244881a304",
+  "outputs/citations/manual_coding_2026-10-03/claims/41319014.references.yaml": "5acd5f5ed832d4d0d1030ff14028ed03d9382b258d6eea74bd55774835acf78a",
+  "outputs/citations/manual_coding_2026-10-03/claims/41319014.yaml": "600544c3dc1ba6dc315eeb717b73d588be53b1df05e60e98d0bef1e1e006e1f4",
+  "outputs/citations/manual_coding_2026-10-03/claims/41323472.references.yaml": "e53a4f90098c24588f56dd9a563a707dba703432d67f3eb403abff00936ae6a1",
+  "outputs/citations/manual_coding_2026-10-03/claims/41323472.yaml": "bd6a4fb3f229634ee75d8da8709b6b6c208fa94057c8aca3dc104301c2e7a8ad",
+  "outputs/citations/manual_coding_2026-10-03/claims/41351645.references.yaml": "808f70536f276eee130eb095f117eb0c03efb6ccf9705d6669e5823ff4cca789",
+  "outputs/citations/manual_coding_2026-10-03/claims/41351645.yaml": "9b8cfda3edcbf25de814376e6f9b0913b4f072e8c5b9a65181933236e1e886d7",
+  "outputs/citations/manual_coding_2026-10-03/claims/41392280.references.yaml": "4cc3ae9c70da1fbba66c94039719d46510da1ec6341b77034ff3c95dadf70f80",
+  "outputs/citations/manual_coding_2026-10-03/claims/41392280.yaml": "3e548f11542305ac2dd69ab1aecd2e8160157791fe0bb9d4326e4c2d972e9f9e",
+  "outputs/citations/manual_coding_2026-10-03/claims/41417678.yaml": "0884d31ef0f8c5c42d964ea4e88b0b2322d6c2c3d2da8ab382252e29727e01a7",
+  "outputs/citations/manual_coding_2026-10-03/claims/41442772.yaml": "a9d1a90020530f6007b0ec2fa396ce5b5ec10316b7c2a47afa78d335c5789387",
+  "outputs/citations/manual_coding_2026-10-03/claims/41454079.yaml": "c9bfe12e5f3d221f038169a4af1b0c454e02f26dc54ed3dc9dcbf1bea77dc969",
+  "outputs/citations/manual_coding_2026-10-03/claims/41456820.references.yaml": "6ac0d7d29316cfbae4223b42e26dbd8b8fdacd0aeac0a1780781f8931541f9da",
+  "outputs/citations/manual_coding_2026-10-03/claims/41456820.yaml": "c5d45ffdf03f5ac02605139f1085433861d6b84338a594be6a2aae537bd5eb3c",
+  "outputs/citations/manual_coding_2026-10-03/claims/41467369.abstract.yaml": "6b05ec9c8d2d738ad276747511137d1c9c504818c7ba8b286c3b489f8f1065dd",
+  "outputs/citations/manual_coding_2026-10-03/claims/41467369.references.yaml": "111bbe64353ee3795b330b18a76d2e5124e15b14ff64650b6f1bac993a5a753d",
+  "outputs/citations/manual_coding_2026-10-03/claims/41467369.yaml": "610cf36a26bd4f6c7acae578b68a9f80290920242f4106a5dc46cc91b7f46ae9",
+  "outputs/citations/manual_coding_2026-10-03/claims/41478252.yaml": "fae50b42efc08ddef4572ff45b7e1733c4987a750c9a5581d7943d843019e17c",
+  "outputs/citations/manual_coding_2026-10-03/claims/41487707.references.yaml": "dee4f214acdec77cbbd8be8fc1977e91c93321ec55beea210cb4e34da162b310",
+  "outputs/citations/manual_coding_2026-10-03/claims/41487707.yaml": "5fcf061273291624434dbbb6abd6e1e5fa4da7058ad3343a45e70f381fcdf491",
+  "outputs/citations/manual_coding_2026-10-03/claims/41504309.yaml": "b1063858e0c6c4a05aaace6bb83a07bec02cc23d378ffa6046c30c68cdfed629",
+  "outputs/citations/manual_coding_2026-10-03/claims/41508967.yaml": "0b3ba08abde2f477d9eac7a36af2f047e4b061f967da66f89f2390db88ee109b",
+  "outputs/citations/manual_coding_2026-10-03/claims/41514346.references.yaml": "1218b8fff45b466e7bc37f6b7fdc56023025ec97e770c47622c4a92b529187a1",
+  "outputs/citations/manual_coding_2026-10-03/claims/41514346.yaml": "fd3de9e9a7ae5f53fa847329da150ce561add678f700c2049e993e97597daf03",
+  "outputs/citations/manual_coding_2026-10-03/claims/41540382.references.yaml": "84954c4f3c67abfd6fde9c3d5a8655a062e318b3a4f9bee1540425bc3deefb66",
+  "outputs/citations/manual_coding_2026-10-03/claims/41540382.yaml": "5853f31e01df6fac0e2fef17b11899995ed069d3ef3c91beb2ed6d12a1ff41c5",
+  "outputs/citations/manual_coding_2026-10-03/claims/41548865.yaml": "6f55e5d51896a6bbc870e2611d2dff27b27eb21a6fa066879c816dbc6f956be8",
+  "outputs/citations/manual_coding_2026-10-03/claims/41555457.references.yaml": "1801c7980aa1b7d1754f026221042462f4013c40ff0bbb55357a72eda529dcf6",
+  "outputs/citations/manual_coding_2026-10-03/claims/41555457.yaml": "072323d00857bf109b74b182f905e0f164d3572651e6e7d0738f4e51702b88b4",
+  "outputs/citations/manual_coding_2026-10-03/claims/41559658.references.yaml": "304391947fbee9c2a7af373f06a5b5ec741ab2c1acf76bc19f2d4bcd634ead7e",
+  "outputs/citations/manual_coding_2026-10-03/claims/41559658.yaml": "1e4db9265fcd3a0ec438c2d085c99fb83288fbc68448b6659592cf06e0e3949a",
+  "outputs/citations/manual_coding_2026-10-03/claims/41570284.references.yaml": "5c62dad83efb34b2d52cf104ede08f442e8a5511f47c534f56669f92cf071bde",
+  "outputs/citations/manual_coding_2026-10-03/claims/41570284.yaml": "d6fdbc62a412e586d2da1957960fe62be15110ba33df39975a98fa3a933ea807",
+  "outputs/citations/manual_coding_2026-10-03/claims/41572713.yaml": "30e3142d0c71ad587bb615a3d308a0cc3cd07b9369807a4d47c2da0bda01f191",
+  "outputs/citations/manual_coding_2026-10-03/claims/41581718.yaml": "77c1ff7e8c410e4963114c1cb535dc9b15244646b9a9c64591382e0a2db18b0f",
+  "outputs/citations/manual_coding_2026-10-03/claims/41582592.yaml": "32e26706de3948c3dbb78b4c49fa8e90cdd2c98f573190d3fdb2ddb97e4bccc7",
+  "outputs/citations/manual_coding_2026-10-03/claims/41626871.references.yaml": "5a399c492552021ca26bdac9c8ab7503cdc3dda0431a6dd05abd9d14eab26d65",
+  "outputs/citations/manual_coding_2026-10-03/claims/41626871.yaml": "e102fd2d5cd0a1dcb9bd7e4e9a009e885acbcc893b8a88487f4add9024529de8",
+  "outputs/citations/manual_coding_2026-10-03/claims/41629825.references.yaml": "df14f238061e28f913175fc898b25e3323dbaa4723cf1d0f51238e4731d8278d",
+  "outputs/citations/manual_coding_2026-10-03/claims/41629825.yaml": "6704ead7da555020d21ba2fac84541d94d0c66bada6d6f63481bc8e4a8168c42",
+  "outputs/citations/manual_coding_2026-10-03/claims/41646717.yaml": "4bc027fb0147af2be38ad9761afedd3e825abad300eb898a97a914ee61f55a58",
+  "outputs/citations/manual_coding_2026-10-03/claims/41649226.references.yaml": "797787678f538d9e9254c32a856d40e79678ab85327b27bbeeb9ccb44b165608",
+  "outputs/citations/manual_coding_2026-10-03/claims/41649226.yaml": "d714d2791bf671de7882e96053dd601e29f1fd59f58d60d93e96d4a04f440fff",
+  "outputs/citations/manual_coding_2026-10-03/claims/41678453.abstract.yaml": "3ff69d3c762b5c1a6b4e5c02c2c8674783c4060bf47b46b0359664956824d915",
+  "outputs/citations/manual_coding_2026-10-03/claims/41678453.references.yaml": "ba727c4317f7b0b2abb7286ddffa4c3df6e3f42567d088f9cdb51f5a2b71da06",
+  "outputs/citations/manual_coding_2026-10-03/claims/41678453.yaml": "457ae1d5d54442158f71c88e2c66de5fd89d27c33a4cdcd07f574278a43a30d8",
+  "outputs/citations/manual_coding_2026-10-03/claims/41711838.yaml": "e16edbee537c69c3b5c158c586fe327ca99002f560ad3550c5e402630df11e03",
+  "outputs/citations/manual_coding_2026-10-03/claims/41717923.references.yaml": "096a0c148514b3166c3e921c9cc8fd27447d6df39e9e6c8a34f91a3fa4ab1f88",
+  "outputs/citations/manual_coding_2026-10-03/claims/41717923.yaml": "20887eb496301b9d22f4f5a05228351ecf0cdc491c84843f88a6ba33ea04df60",
+  "outputs/citations/manual_coding_2026-10-03/claims/41724399.yaml": "59a4461133484627ff933ee58842a85e7f8c01fa0cf05265bd0a183e0651fc2a",
+  "outputs/citations/manual_coding_2026-10-03/claims/41775896.references.yaml": "d6014afbfaf0ee67cba5693d5caf585bd0ce172a409e4ba57fab7c7bb39ea114",
+  "outputs/citations/manual_coding_2026-10-03/claims/41775896.yaml": "66f2b2a94eaa85aefc6d4cd81bbda0882b368fee2840509af0fca958f699ab35",
+  "outputs/citations/manual_coding_2026-10-03/claims/41775939.references.yaml": "f6489fa9abc3ef9a0816aa1a5c12331186f26a257f2e601b3d1e519d25fbded0",
+  "outputs/citations/manual_coding_2026-10-03/claims/41775939.yaml": "435e0ac0079ffcaf4b3a33ec69ca5f29ce01cf5c480d61c9034c636c5c16f200",
+  "outputs/citations/manual_coding_2026-10-03/claims/41789843.references.yaml": "cb8b65c345c366108d47d44e913edae6bec4222e046491e836e91cb0eba3d552",
+  "outputs/citations/manual_coding_2026-10-03/claims/41789843.yaml": "27eca951ed673a9dce47e7830b0b2490e857eaa3a8ba8b2c0c79979440860972",
+  "outputs/citations/manual_coding_2026-10-03/claims/41799426.abstract.yaml": "db2e729152cf186296aaf3a460dd9bd798b3285656e010c12764c5a549b3b823",
+  "outputs/citations/manual_coding_2026-10-03/claims/41799426.references.yaml": "db37c935125981aa6b725607147d77b88e4526c38385f74ba62c3fc552bc69c3",
+  "outputs/citations/manual_coding_2026-10-03/claims/41799426.yaml": "1a112bad10b82387648d5752a2fd612bc745ac8f92b5b30c4532f9419bdf8b02",
+  "outputs/citations/manual_coding_2026-10-03/claims/41814035.yaml": "1f926afeeb7ea010cd4210d8347a823d9afa011caf4c9b008790f9a6e9d7dd69",
+  "outputs/citations/manual_coding_2026-10-03/claims/41819524.yaml": "6b74fc951716b11312ba242b1355088614bdeaef3f7a8b6758e27269a727ef68",
+  "outputs/citations/manual_coding_2026-10-03/claims/41882153.references.yaml": "d30509ddb11428a7f3a469e51d4d646aceee0f1a026741f51dbfab0bc6e3ee64",
+  "outputs/citations/manual_coding_2026-10-03/claims/41882153.yaml": "50b14d7b5721501af672151a0c1b9d0ccb123bf6947f4006362d59ef75fffe74",
+  "outputs/citations/manual_coding_2026-10-03/claims/41885234.references.yaml": "665f42b57f6b7a119cb5357cbcc702b223401b98349cef6725fc28a1844e6c44",
+  "outputs/citations/manual_coding_2026-10-03/claims/41885234.yaml": "dc870e5e8838ed22fa506959ddae46d1f8a0a9656e68b3070073bb2edacc812d",
+  "outputs/citations/manual_coding_2026-10-03/claims/41895592.yaml": "afa249050fa9b095ccc31ad6d7be29fa0cbcbdc1ba7a06f705ec59c4547270ef",
+  "outputs/citations/manual_coding_2026-10-03/claims/41918723.references.yaml": "31ece7e1b6c5520b3b2ad1f0d62bcce29e9eca725085aec84e00bb693049da98",
+  "outputs/citations/manual_coding_2026-10-03/claims/41918723.yaml": "858bbd06afc3cbdfed3c57534c3ff56d59aed49b3b38972acfc78ca14eb4e686",
+  "outputs/citations/manual_coding_2026-10-03/claims/41932587.yaml": "8f8de126a888aa5151bc155edff630c623a7a32ae3940a9a84882e802b40bace",
+  "outputs/citations/manual_coding_2026-10-03/claims/41935040.references.yaml": "bde6157e24e955d74b985d2388906476a8a1938ed2f21ab0cdcc1c00c1f076c2",
+  "outputs/citations/manual_coding_2026-10-03/claims/41935040.yaml": "e26166d4ca6d3bc00f29b58e8caebd7c6e503788611f9d626306ee155bcc59fd",
+  "outputs/citations/manual_coding_2026-10-03/claims/41940328.references.yaml": "ac912c7ef94383a6ecf5f82561e8f3908f7bf00e0cfa079760d059dcdc3559ab",
+  "outputs/citations/manual_coding_2026-10-03/claims/41940328.yaml": "5286500ffb1f7274cb43f71904742f20c7285a39bc1060f643f7371e9d193cc1",
+  "outputs/citations/manual_coding_2026-10-03/claims/41948706.references.yaml": "d5ebaecbc39092780ce99fe7c0e4c8d5059f8e312775c088c59f70c84bb1bd4a",
+  "outputs/citations/manual_coding_2026-10-03/claims/41948706.yaml": "fb1f393f86c48d734436156aced8c385eb9285a9e8ea6ce905c24e49afa10c7f",
+  "outputs/citations/manual_coding_2026-10-03/claims/41953991.yaml": "32c3545bbf929e1c75c7b43309fa4dedd331ac0db614189cb58ac8c76c8d2ead",
+  "outputs/citations/manual_coding_2026-10-03/claims/41968825.yaml": "c74780b60e43d2dff0142ac4b5e218b86390063a6232822db04b4390b9978f2f",
+  "outputs/citations/manual_coding_2026-10-03/claims/41986576.references.yaml": "c93ab181f3161cca264b7cef151c1de6d82af6586969037b41421a92f2571fa9",
+  "outputs/citations/manual_coding_2026-10-03/claims/41986576.yaml": "a3085c9f32ba48755c06c1c0d94c78bb60fa0c0dcdecbe962b13e8366d26f3ac",
+  "outputs/citations/manual_coding_2026-10-03/claims/41989152.yaml": "f51b1bc626bcdf74b0c0604c1c96392e5f1d35de6f277bea16e1fceaee62b6f6",
+  "outputs/citations/manual_coding_2026-10-03/claims/41990104.references.yaml": "1ca452d3a12050b83075efed7978ddf2b267376d91180cc136de74c29812d02b",
+  "outputs/citations/manual_coding_2026-10-03/claims/41990104.yaml": "2a8cf4b77b2751320dd8676ba3732c072285e6728427fd58a1483626b10d6f1a",
+  "outputs/citations/manual_coding_2026-10-03/claims/42002896.yaml": "f56522cc2f09e9bea183a91d98ca1989d04e105034b6cde3915de5e6a9be6606",
+  "outputs/citations/manual_coding_2026-10-03/claims/42024114.yaml": "40d9a29aff6a67f4bf9821892e99a30417cbe1617a08bacec76a7d17fead549f",
+  "outputs/citations/manual_coding_2026-10-03/claims/42039925.abstract.yaml": "3a34ed4c5fd0b13b971f9417f48aac713709dcb85ba193b12d1361ba5a5c53b8",
+  "outputs/citations/manual_coding_2026-10-03/claims/42039925.references.yaml": "dda86228ca240464a697956a48094e11a82b855f4cad303e6f418aa2db2d52e2",
+  "outputs/citations/manual_coding_2026-10-03/claims/42039925.yaml": "bd5e37489a7fcab7a3ab4af838ed1d075223007dfc1ebdf3e6fe05c0682222d4",
+  "outputs/citations/manual_coding_2026-10-03/claims/42040931.yaml": "352b4dcaa728f1fc63687462549f11df445991ed1f9b5ac2bc42f7ceac744cd6",
+  "outputs/citations/manual_coding_2026-10-03/claims/42045466.references.yaml": "353b7f55acc6e0517524568c6d8573d40d0c33122aa662b4bfc8883542708200",
+  "outputs/citations/manual_coding_2026-10-03/claims/42045466.yaml": "ad2b0a818abd0426f5baf2ff45a8c7a3cde2ee8c2d36a97680cbbae8568fb985",
+  "outputs/citations/manual_coding_2026-10-03/claims/42065929.yaml": "a79d3305db4528f090188a3c42e64b2af87919b93e4b1f64a76a0e2abc77be8f",
+  "outputs/citations/manual_coding_2026-10-03/claims/42085793.yaml": "ebccf76d7effc6ef21ec3e101f102411ab01910ededf6d9b0fa3b8394c97dd94",
+  "outputs/citations/manual_coding_2026-10-03/claims/42106685.references.yaml": "b84990cc94f437f8886403cae4fbaec7abf3f7d3542f46b3565193995c23d8fb",
+  "outputs/citations/manual_coding_2026-10-03/claims/42106685.yaml": "79ccc9dacce3b6b7ea5e311bb1baa1144b73c85b20f70f8e228353c90258266f",
+  "outputs/citations/manual_coding_2026-10-03/claims/42106700.references.yaml": "9518b23ba134015e19291f71e8ae88454078016c65ed3961aa63e3f1added310",
+  "outputs/citations/manual_coding_2026-10-03/claims/42106700.yaml": "ae89c886732c2eca2f646161c10429797114ff2a5206e85c92c71135787182f7",
+  "outputs/citations/manual_coding_2026-10-03/claims/42133815.yaml": "d57095c7ab5a117a19e5960d226ffdc50fa51bf3eb1657b2637af241daa742a0",
+  "outputs/citations/manual_coding_2026-10-03/claims/42141940.yaml": "682ebcb8ea1813a27b493619956a6f071c02819bac9e5e7ce0956afca9037aa4",
+  "outputs/citations/manual_coding_2026-10-03/claims/42145630.yaml": "9773ade9b9d2dd14b72be1c3e681899c6b4b4d7f9db9968534ca49074d3c28d3",
+  "outputs/citations/manual_coding_2026-10-03/claims/42155607.yaml": "fed5133606e30918dbea182edf25c73c7153f54086563e5c84d5b66d6b48a4a1",
+  "outputs/citations/manual_coding_2026-10-03/claims/42170302.references.yaml": "15a2da346c7ed972b6134937d5a7b6574b1305952fb2d979d1890c9a8c3c3bfa",
+  "outputs/citations/manual_coding_2026-10-03/claims/42170302.yaml": "0dace46f58bb4a7736d3ea0111f6e945aa880ceeb87fe179926c5e06a256dce7",
+  "outputs/citations/manual_coding_2026-10-03/claims/42171750.yaml": "3e6d54ff0c299517fc17d99a12f6e05b48168435978fe146d548f04f474b8972",
+  "outputs/citations/manual_coding_2026-10-03/claims/42175454.references.yaml": "15fe4812f57e9cae7798cc38497b4f5391babc2cf9ed4b5a504b53958407d9c4",
+  "outputs/citations/manual_coding_2026-10-03/claims/42175454.yaml": "d388f0ab247296af7eb9279aae9e46c51834abefcb43e25e41dc512d48e3c37f",
+  "outputs/citations/manual_coding_2026-10-03/claims/42175707.references.yaml": "d2dccc9dcb790ed1c9d48f2d526afbc6c1f98c23e37e529ed90d12b4cba36c66",
+  "outputs/citations/manual_coding_2026-10-03/claims/42175707.yaml": "5e41f05347f19b93ea193d7b82873454ccc24ffb656183a8b2dc8b15094b5e27",
+  "outputs/citations/manual_coding_2026-10-03/claims/42177912.yaml": "0f4360dc8b2f8321f246c6aa95e303a935ee070c7ed1a7c4211b356304c550c0",
+  "outputs/citations/manual_coding_2026-10-03/claims/42196425.references.yaml": "301db5ae673691336bf5ef34d0074b54412ec9151ca8a03e5d93bd972cce47d6",
+  "outputs/citations/manual_coding_2026-10-03/claims/42196425.yaml": "ff6a92f2368ccc2acd61149f20e4a1cf8fd840715910556132ea2af8bd1f55fc",
+  "outputs/citations/manual_coding_2026-10-03/claims/42219961.references.yaml": "e2ba49e9d986f56148431ffca7c97a9405fd61c031508db8c6153bbc90d2fb27",
+  "outputs/citations/manual_coding_2026-10-03/claims/42219961.yaml": "573a102332e28a3a293535e0a0d73447a7f9a1dececec3e759788c3860ea6ad6",
+  "outputs/citations/manual_coding_2026-10-03/claims/42227395.yaml": "4ae7644cabc8b4daa716efbe4ae53c29712e6345504f497d011fb488b4e6ff67",
+  "outputs/citations/manual_coding_2026-10-03/claims/42260810.references.yaml": "ea24705f83f267a0ea3bf71f803ff0e623c34e9eec24dc66b93203a887720bd9",
+  "outputs/citations/manual_coding_2026-10-03/claims/42260810.yaml": "5e12a13a8b5cf3b41930eab72ee672b7fae48b1ea56d116f5abf2a7d409de999",
+  "outputs/citations/manual_coding_2026-10-03/claims/42260829.references.yaml": "9e30ada42905ad8a4f1f6c70fde355dc7afa7daf95ce37f4f77ba6f5a751f803",
+  "outputs/citations/manual_coding_2026-10-03/claims/42260829.yaml": "34186e94342539f4350705cb51aabc42016122ad3b3cdadec2325ebf8493ecc4",
+  "outputs/citations/manual_coding_2026-10-03/claims/42278218.references.yaml": "2cf3d1edb6ff472b0fcfe42cc2b999e6dfef97d0575920b7c4f699ae3027c878",
+  "outputs/citations/manual_coding_2026-10-03/claims/42278218.yaml": "531d36e3a16845d945f4ec7e85c2f3d1c1eaf6586f0c00d3c864193d150cf860",
+  "outputs/citations/manual_coding_2026-10-03/claims/42281484.references.yaml": "8b2058311e87c0bf9d50fbd052a07972029042c69ab507d03ad567f692bb90e2",
+  "outputs/citations/manual_coding_2026-10-03/claims/42281484.yaml": "fd529cfa3e3b926e201ae7338688b94abb786153c754b1239581cd0d694fb8ba",
+  "outputs/citations/manual_coding_2026-10-03/claims/42282992.references.yaml": "04e2567b63d05f5fa133bf4cdc3d54c602168626732499dd48afd729ef73cad6",
+  "outputs/citations/manual_coding_2026-10-03/claims/42282992.yaml": "c5fdc5d73547ffd64ff876dcd97b90553d3e42e53f76772ddf4f943ae930df21",
+  "outputs/citations/manual_coding_2026-10-03/claims/42317795.references.yaml": "eae45557cc38cb24c05cb35b116581182dbd08a0762f430e476b210dc7c19fad",
+  "outputs/citations/manual_coding_2026-10-03/claims/42317795.yaml": "7e29810e9143f16561c4092900f63ac77354bce4ef555ac4994c877688a74191",
+  "outputs/citations/manual_coding_2026-10-03/claims/42323475.yaml": "281407d4a8e33d57fe618c1796b2d742b164cd051166648e227d026b93d12011",
+  "outputs/citations/manual_coding_2026-10-03/claims/42327717.references.yaml": "d4a519e167744e2c2ff17bf4432c4997d36b33bb911183a291e5bb6aeee95bc8",
+  "outputs/citations/manual_coding_2026-10-03/claims/42327717.yaml": "ec23251151632c065b8eaa7b1078112d86369d78539dea3852add7779f91fb20",
+  "outputs/citations/manual_coding_2026-10-03/claims/42361942.yaml": "302803e3b36400939058d52685c767a30edb5785641fa8e2b4d3b0e7db8425f2",
+  "outputs/citations/manual_coding_2026-10-03/claims/42365225.references.yaml": "dd308ed0d09b4f083a01ca86ffafcb92fef439a2e1bfc24d8cc94087cb4af552",
+  "outputs/citations/manual_coding_2026-10-03/claims/42365225.yaml": "c169c91ec98296e8c054054d19286111770be33a82bb42eb2929cd910b4d26d8",
+  "outputs/citations/manual_coding_2026-10-03/claims/42392476.yaml": "fd00a56bc11150d5ee3aad0817ea5c2abae5d2fd6646ecdf14796a8a383f4ce7",
+  "outputs/citations/manual_coding_2026-10-03/claims/42393888.yaml": "23e09d6fac0f5b413972ccf019f566aaf7fa4b3407e0357fe42722cdfe6ba4c1",
+  "outputs/citations/manual_coding_2026-10-03/claims/42410858.references.yaml": "f395f14818531b3418c3e948962952fc67037c4974ebc8e28708bb95c3a752db",
+  "outputs/citations/manual_coding_2026-10-03/claims/42410858.yaml": "aab2d649d34d06d096fc9f70d288e2b24d587c85dcae3a9a024059f5bb2e180d",
+  "outputs/citations/manual_coding_2026-10-03/claims/42421242.yaml": "adca727276449649462eae75b02c31afad08e06c8d0c77971f99d23ed820420e",
+  "outputs/citations/manual_coding_2026-10-03/claims/42428459.references.yaml": "cab0fa5b826e7cfa02b04f1fb0cb02839f4c5180036147600c71e6f84034e604",
+  "outputs/citations/manual_coding_2026-10-03/claims/42428459.yaml": "f38fb3ea066f246a4fc510447d336b81aae457ac3f36eb62f71e9c434dcf13e1",
+  "outputs/citations/manual_coding_2026-10-03/claims/42434318.references.yaml": "3147f83489881866f72f76be295a6895a986ca61ea0ffb052e546cc39cd17cc8",
+  "outputs/citations/manual_coding_2026-10-03/claims/42434318.yaml": "f2807354137b4637e4e5b065ae3133567c7427b84c8f114fbcef173746a55a24",
+  "outputs/citations/manual_coding_2026-10-03/claims/42443636.yaml": "ab89b56fe645f802228b1c0755d78143fbbcc5014eef58e44e5efc156fb6d744",
+  "outputs/citations/manual_coding_2026-10-03/claims/42454155.references.yaml": "49d0e07f66582084b71c1c82941d41537c2e3e4559521257e79a845dad70abd8",
+  "outputs/citations/manual_coding_2026-10-03/claims/42454155.yaml": "108193b6b72c10869ae4bab195aa74372e94cf9363b786b3de5189e8aa786478",
+  "outputs/citations/manual_coding_2026-10-03/claims/42488633.references.yaml": "a4314224747e0e53e7368d0a9cb47c3b37afb16659bdb50c8e5862a356895663",
+  "outputs/citations/manual_coding_2026-10-03/claims/42488633.yaml": "539ef3f134d615162dd57a5325242b178756208c6782650ef76aa60437ccd21f",
+  "outputs/citations/manual_coding_2026-10-03/claims/42516377.references.yaml": "58b982c7b9ad2ca58adeba5069260796f60d9668d2f77267dbd992abbd6f8b9e",
+  "outputs/citations/manual_coding_2026-10-03/claims/42516377.yaml": "7c3f0d21976c04aedfffc1ff5028e1c323f2a1f96941f13ba65b58f9846012e5",
+  "outputs/citations/manual_coding_2026-10-03/claims/42518793.references.yaml": "1e4b26035669b59fae470c8ea97612ff4ecb28d8a8fbfaab159f9c2092e685de",
+  "outputs/citations/manual_coding_2026-10-03/claims/42518793.yaml": "00becdf6c3354949d94e963312c3daf95d08af2f95c23c3985d3e57101be9b4b",
+  "outputs/citations/manual_coding_2026-10-03/claims/42518818.references.yaml": "5a029011b125c1e024e04879ccdba82a423fa687199177071c0b6441724e8e40",
+  "outputs/citations/manual_coding_2026-10-03/claims/42518818.yaml": "0594381214386128b01e76ed90163b555e6db41e423620875fc6be7f2b94af50",
+  "outputs/citations/manual_coding_2026-10-03/claims/42541384.references.yaml": "19cca338eec7c2f273dd5efc3a898902705db9cf48c7de36488d44b567f3636d",
+  "outputs/citations/manual_coding_2026-10-03/claims/42541384.yaml": "1b9d297cb5d067c092d24c8c2cbd9edea8f91c5fb4d93c25cce40c7733584bd6",
+  "outputs/citations/manual_coding_2026-10-03/claims/42548293.references.yaml": "a5f108d1edafbd09e46c1f60ff2619a2805cffcba209907a75f29c5bcc4c23db",
+  "outputs/citations/manual_coding_2026-10-03/claims/42548293.yaml": "2b4276c0f5c6f1bb6712226c00d9a81159c3095274e79fff637203b76fdfc51c",
+  "outputs/citations/manual_coding_2026-10-03/claims/42548648.references.yaml": "bd1119555e7f8c21ace0b2b14e41efc90b583525dc1e65f53d8a6bde69100df3",
+  "outputs/citations/manual_coding_2026-10-03/claims/42548648.yaml": "4235fe43a2947c52f1dc2efd54cd18247e0a9ca41804d1e190bebcfe17884842",
+  "outputs/citations/manual_coding_2026-10-03/claims/42549601.references.yaml": "7294386493b8c936297db5f1e6deec722b510fdbd55778bdf59ddb417224624d",
+  "outputs/citations/manual_coding_2026-10-03/claims/42549601.yaml": "cf28030edf791174c696f4408bd18dcf91aaeb97c9dcfb0ddcd58028d521800f",
+  "outputs/citations/manual_coding_2026-10-03/claims/42580475.yaml": "287b312ed2d72a59724c3bf32254a097b8905f2b6dcb59b772fc09389056c1fa",
+  "outputs/citations/manual_coding_2026-10-03/claims/42584388.yaml": "4490a351d1a701418bf6059e4ba4277691b0b0462e06a636e3835222ee61bbee",
+  "outputs/citations/manual_coding_2026-10-03/claims/42601749.references.yaml": "62e1f2b1785da8e9ed597e00c8303d9d4849bf786a5e5126a623aac9603dd0a7",
+  "outputs/citations/manual_coding_2026-10-03/claims/42601749.yaml": "1aaf289569c8d8ab65b0ce72ef1d27d9e1f73514bd7c8718bc4295c1a6f42362",
+  "outputs/citations/manual_coding_2026-10-03/claims/42614597.yaml": "8a640e33cb4d35aa2d4f8f83e5d6ccb976d799c27cb07711c1026df8443eb51b",
+  "outputs/citations/manual_coding_2026-10-03/claims/42629404.references.yaml": "dbafba200bd9a7df82ecea5b9f536368be3e8137c8b433b988cc5995178a4022",
+  "outputs/citations/manual_coding_2026-10-03/claims/42629404.yaml": "4c01323a734073f915980747050acb7fd628cddc697ff1f288a2180f0fe8fb4c",
+  "outputs/citations/manual_coding_2026-10-03/claims/42650080.references.yaml": "b065476164e44134ece20d0b9f17c2ea9c3f1fae37bf48413ee91c02f7848dc8",
+  "outputs/citations/manual_coding_2026-10-03/claims/42650080.yaml": "d5efb3b187842cf25327ec82d1c057dcb662843bfc0bc0580c8d8f6710556528",
+  "outputs/citations/manual_coding_2026-10-03/claims/42677314.abstract.yaml": "bab4a8fed5c23c18bc3be6d453e217d5de5e3b0b597e785c98caacd232d152f4",
+  "outputs/citations/manual_coding_2026-10-03/claims/42677314.references.yaml": "1516130ed199e1d9b62bda96e2e83f1dd7c58d141999d83bf92238044d94179b",
+  "outputs/citations/manual_coding_2026-10-03/claims/42677314.yaml": "0f6fa4a641971c1fea020d420353697346f5f18ab5b3f26ba033fc8499a2673d",
+  "outputs/citations/manual_coding_2026-10-03/claims/42682829.references.yaml": "376ed0cf5792a8efc6cf4e3d8b75a4a5d3022507eb6b187a87a7eae2adcc782f",
+  "outputs/citations/manual_coding_2026-10-03/claims/42682829.yaml": "47fe325e8f7b45a8089d5f3edbed32f03c201e14edbb36304e767a65879a0563",
+  "outputs/citations/manual_coding_2026-10-03/claims/42688628.references.yaml": "1f014bdb221db6058b23e802955f9ff832fd6a448126bf6a8e1b853e92e1761a",
+  "outputs/citations/manual_coding_2026-10-03/claims/42688628.yaml": "60af4b620f73485dc5333ed60351bccc8daf7bd8045881f1b84671fe9d10dff6",
+  "outputs/citations/manual_coding_2026-10-03/claims/42693724.yaml": "804f1c08a09208ab21982c989b0965d1cfd82ed759ae453bab9086eaef34b5c4",
+  "outputs/citations/manual_coding_2026-10-03/claims/42694092.references.yaml": "f7ad4cab509e10cbf844da08ed356e46feeb1d395432c25849c382c221726bac",
+  "outputs/citations/manual_coding_2026-10-03/claims/42694092.yaml": "0bea625bb393c6795c509388be79ea6b170699063f9a921f40d6c21641a1898e",
+  "outputs/citations/manual_coding_2026-10-03/claims/42698651.references.yaml": "01dd77e79df22a31ec848284f66944954d249c70a4fea37074aebf328c5eb7c1",
+  "outputs/citations/manual_coding_2026-10-03/claims/42698651.yaml": "c9c5356145c40d8f07bbd8c5fbead1247df3fcd33137fe02e4c117731f882974",
+  "outputs/citations/manual_coding_2026-10-03/claims/42700931.yaml": "c43d30497af8bc895bce9d695add9149f54684765fbbe7dd34abc17b8b79fdc7",
+  "outputs/citations/manual_coding_2026-10-03/claims/42726788.references.yaml": "aeaac88b466af2a5c0717545bd993304af6e34a00ce30358d9b960a5271fc10a",
+  "outputs/citations/manual_coding_2026-10-03/claims/42726788.yaml": "b3279dda237c7373df80aad4aa5cae957dd512058dc8145f790ce7ed455e74f7",
+  "outputs/citations/manual_coding_2026-10-03/claims/42760138.yaml": "88032a8159c33b0a46b4452ef33b6acc9dab0a233ff1b7fd5c539bbff308dfee",
+  "outputs/citations/manual_coding_2026-10-03/claims/42771993.references.yaml": "af103db9712decb7d511d8a365fa9591ad41084f2ad928c7047da1454fa31667",
+  "outputs/citations/manual_coding_2026-10-03/claims/42771993.yaml": "c38e4b8dea0855ebb484bec15dd658a8d7a4555256bbde2fb46499cedb20a130",
+  "outputs/citations/manual_coding_2026-10-03/claims/42772042.yaml": "766e1f10558f006d4e56df51a019ad2b18e2e371d54bffbcf253af8b9b529c1c",
+  "outputs/citations/manual_coding_2026-10-03/claims/42780090.yaml": "49c6bdc00894660db47dd4e5da1f49c22b9bbd0ceb36f2deafdfc1c56c77f9c9",
+  "outputs/citations/manual_coding_2026-10-03/claims/42782355.references.yaml": "bb5978440139467323fffba89aaece5693ba27c7f1b564bd4325e67e01ade68d",
+  "outputs/citations/manual_coding_2026-10-03/claims/42782355.yaml": "cc6f00bbc2a1981bdd6cda727eb76cfd83c5b3a402f7dc2485612da72506a571",
+  "outputs/citations/manual_coding_2026-10-03/claims/42798608.abstract.yaml": "dce8379ee525931a63c39612f9e79ef93f370f2b8bbb6bfb7d9b25120798470a",
+  "outputs/citations/manual_coding_2026-10-03/claims/42798608.references.yaml": "aaff7499ee678379f83c62fd343f922bfffbebf3a46c2edca6fbc156424ed931",
+  "outputs/citations/manual_coding_2026-10-03/claims/42798608.yaml": "48943e41eea27d5ae2d87962f34d27d7f08637378bf0cfdd353a5d8255f0bcbf",
+  "outputs/citations/manual_coding_2026-10-03/claims/42811552.yaml": "9df8f5de2c709e43b35a304271e1a8c758692cb954875bdcebfed6464e2a77e5",
+  "outputs/citations/manual_coding_2026-10-03/claims/42825359.references.yaml": "deb1ecab6002da8ac198db2c4f7e5bae8e543c5322a70733a08a703a91a4a94f",
+  "outputs/citations/manual_coding_2026-10-03/claims/42825359.yaml": "cd7a3446caf3fdc407c850c7bddb6357e7eae22c1baf836918c5838574d652c6",
+  "outputs/citations/manual_coding_2026-10-03/claims/PPR1000202.yaml": "d89704a626c7a63481a40fa712b2dff0a7e711347823fc897e679e627c3bdb5a",
+  "outputs/citations/manual_coding_2026-10-03/claims/PPR1016927.yaml": "805b50e7ba4e7fd708071deb7559b9d7502194cf8af026f8957e7b6543f21a52",
+  "outputs/citations/manual_coding_2026-10-03/claims/PPR1027188.yaml": "8f0b7961c341ac152c9c3df1a2365799d718ee73750fbbac3fe008454e6b3bf6",
+  "outputs/citations/manual_coding_2026-10-03/claims/PPR1054116.yaml": "ed62e273173d50efc228f6be5433b9ab4e847ef6d3729e3ffdb34942c46a7d5b",
+  "outputs/citations/manual_coding_2026-10-03/claims/PPR1066984.yaml": "02dc5defa7a49b379f04deaab577f168ddf5b735b71dcbc8696c1ef3ed3a9319",
+  "outputs/citations/manual_coding_2026-10-03/claims/PPR1091281.yaml": "2a77d06c72cf820c824021bc6aba207eaa3025d9caca1bb81a7017bf1e811e0e",
+  "outputs/citations/manual_coding_2026-10-03/claims/PPR1091655.yaml": "90d91dd9ed9abffaa0a0750e49811cc4ed99738b2f80cc3e3511ebecf9334fc6",
+  "outputs/citations/manual_coding_2026-10-03/claims/PPR1123489.yaml": "93f2f7015e50d76abb9e263fe832f4df3ac3fbcd5e6edb40343117251be1996c",
+  "outputs/citations/manual_coding_2026-10-03/claims/PPR1200638.yaml": "9f720f306896061daa373e4ae948c96a506342844a67471d627c7dfd58852955",
+  "outputs/citations/manual_coding_2026-10-03/claims/PPR1237030.yaml": "8c6bf7e0cd1a04548fe8f1d1c334581287972a323b04c1822b2aa8d02c5fa7b1",
+  "outputs/citations/manual_coding_2026-10-03/claims/PPR1266254.yaml": "2a4db7fe20f28a889092c6108fd57f7711b074a1f963cea86ef8e8d7132eb7f0",
+  "outputs/citations/manual_coding_2026-10-03/claims/PPR1267739.yaml": "faff2abe34543209438c355cbdad28f6c0e90f9d76486f580a9db2f542d3a066",
+  "outputs/citations/manual_coding_2026-10-03/claims/PPR1270935.yaml": "48054e151bb83a1328a74e82904dcbfc69fc319101aa4a0a5872265a7e49b745",
+  "outputs/citations/manual_coding_2026-10-03/claims/PPR1278271.yaml": "e6c225a4d1be145ba5f12ff4b638faec7d1ac57b14a2f2f2f68b3ff671309929",
+  "outputs/citations/manual_coding_2026-10-03/claims/PPR1279015.yaml": "81c8ca18c38f5c64776ef0d6d30e5864d5ce13b9a6ed225618a8ab397e594670",
+  "outputs/citations/manual_coding_2026-10-03/claims/PPR1284409.yaml": "98763e4529e9332acebfd0f65727d78e55bf6d3a8d3e732d25da0a06800a3b2d",
+  "outputs/citations/manual_coding_2026-10-03/claims/PPR410988.yaml": "049d263be97f3374d7b8cb6764b474d3286d0156e0fea94a77077d209ab1468f",
+  "outputs/citations/manual_coding_2026-10-03/claims/PPR508031.yaml": "727052f2e1082aaee6e7c9d11bb17d0f0b36ae2c1492d5fd574d1165885e2547",
+  "outputs/citations/manual_coding_2026-10-03/claims/PPR640820.yaml": "23e67aeeb5df99fb77708df2648b6c4884d748b015b53c3a00e2de6652c5b40d",
+  "outputs/citations/manual_coding_2026-10-03/claims/PPR764288.yaml": "a43a59084036b9d2d008f40edf8995191b41b5bde329d3c8a52aa2df5db3d38e",
+  "outputs/citations/manual_coding_2026-10-03/claims/PPR791620.yaml": "0f94f0b400f61ed34eaa78bdff6e83042ef120ed8a6e17190d83bfa15699b825",
+  "outputs/citations/manual_coding_2026-10-03/claims/PPR796917.yaml": "03e3d030b324578ec93366c202c92346de6c1d6398005fc168c225cfeefc3d61",
+  "outputs/citations/manual_coding_2026-10-03/claims/PPR839797.yaml": "ef315087fa9a29570775370a92d94db09a5bc2f1c4e6312548df3d70005d52af",
+  "outputs/citations/manual_coding_2026-10-03/claims/PPR848362.yaml": "5d0a791472d7b095c06a91206adb7374be95d33eb5ddd18b88578821c99ce877",
+  "outputs/citations/manual_coding_2026-10-03/claims/PPR857883.yaml": "904d37cdb08850a8f3eb4312f37188b3b842a2a022aef44e3b5dd30db1aab0f7",
+  "outputs/citations/manual_coding_2026-10-03/claims/PPR878003.yaml": "63a92f66de69760c311c605e3ffe8d863a99dfd7c47c00fe6a10569013f63ceb",
+  "outputs/citations/manual_coding_2026-10-03/claims/PPR885787.yaml": "bdb6df5b2599a132d648ab2a7a76d5fe86caa30ecd318c7c387a65b1e9fc9c52",
+  "outputs/citations/manual_coding_2026-10-03/claims/PPR888008.yaml": "351e60504a961e045c12c3271843147ad7b3f65d20dfc77a2903e4645d39be20",
+  "outputs/citations/manual_coding_2026-10-03/claims/PPR904406.yaml": "8c4a29db384cde511bd96848887d6aeacef416e971e8ca95e04422b9d1d5afa9",
+  "outputs/citations/manual_coding_2026-10-03/claims/PPR911454.yaml": "d35a905c8fb297b050474e202e9867cbc8c9d293f74101403a82028ee809fa7f",
+  "outputs/citations/manual_coding_2026-10-03/claims/PPR961122.yaml": "ad3d7f4829e84f25114c8cfeaa81f6b5d84098f10934b26c3d13bc8c220de6b1",
+  "outputs/citations/manual_coding_2026-10-03/claims/PPR965441.yaml": "a11a9fefe44dc1fb490aed93022c36b6d539bdb7abc95c8361a83693b9c3bb09",
+  "outputs/citations/manual_coding_2026-10-03/claims/PPR989506.yaml": "9ec6fa797bb5ac2ef72c45221da8884fab6ccf965bcdaa9fce4771f0cd0ad7c6",
+  "outputs/citations/manual_coding_2026-10-03/claims/PPR990002.yaml": "a2432a65d8bf19be3eb21b18e6548b55e37abed28eb1fc36a3536dd15a9c78d7",
+  "outputs/citations/manual_coding_2026-10-03/claims/W3111331057.yaml": "6d781ff559bacec987a6b2eee4cda86dc161d47093d8e1d91eaeeda2d35df2ce",
+  "outputs/citations/manual_coding_2026-10-03/claims/W4390198428.yaml": "94d18601db5e9fc7fc545f80d2b3fb7c25aad0ee7d9738c6d7d3e3f6d10f717c",
+  "outputs/citations/manual_coding_2026-10-03/claims/W4399137331.yaml": "b609bb374f5cfbda43a3bca4404f6d73bba981592fdda3b3905a6dfc65f3ad67",
+  "outputs/citations/manual_coding_2026-10-03/claims/W4399685201.yaml": "d862e39e0016f9f6d46c08b086c50105af6925d372b3764e33e397e8afab56ad",
+  "outputs/citations/manual_coding_2026-10-03/claims/W4403090939.yaml": "b369932600dc1b58a3b0bc16022ef6325a6533340772bd49056a51c370c07aa4",
+  "outputs/citations/manual_coding_2026-10-03/claims/W4403336550.yaml": "b213857fb4239a3b664c50cb0fcc9ad8af8927a1650f9aa18d80eb9334211e1a",
+  "outputs/citations/manual_coding_2026-10-03/claims/W4403833799.yaml": "c0443d3cdaebd6c69a67875a39272e3567816765b823e6a3faa5cf0ca40487ad",
+  "outputs/citations/manual_coding_2026-10-03/claims/W4405964233.yaml": "77a1fba378a41913a0c7c3d097e612a6bd3f0a487982515baf6055f75542e75e",
+  "outputs/citations/manual_coding_2026-10-03/claims/W4406196960.yaml": "573f38faaf19ad9034fe03e2cdbfe9e480104857f97280fa86b64f047f7058f1",
+  "outputs/citations/manual_coding_2026-10-03/claims/W4406200416.yaml": "7f5372294191b576b2698c0e647b9963c8ec7c7ca11f1dea26477d2ed179b5ee",
+  "outputs/citations/manual_coding_2026-10-03/claims/W4406210404.yaml": "7f8bd0f21fefc883cd5795ac061dc7f9947868f2f5dad1c4d0832f093599841b",
+  "outputs/citations/manual_coding_2026-10-03/claims/W4408287945.yaml": "9093822ba4558ea4bc2dfe24f486219b9f3fda3298d2d6719cc4b5a6aa1f87ae",
+  "outputs/citations/manual_coding_2026-10-03/claims/W4410605728.yaml": "ac7ca03f87471b641ebda3b2aa468665d808c757f064bfac5d86a15a3d7a9858",
+  "outputs/citations/manual_coding_2026-10-03/claims/W4411291538.yaml": "1fc90e4036aa6a65f2e81c46ea4f107cd49affdc57f3fa7462a1667b6bb7ad65",
+  "outputs/citations/manual_coding_2026-10-03/claims/W4413357814.yaml": "47e3068575f6a2c710c5091fe975027c9255510f0e522f0d9a74c1a89629113a",
+  "outputs/citations/manual_coding_2026-10-03/claims/W4415402939.yaml": "9df0171f82e0308c8704f4c505664cb3460be96fb10a62fcec9053ab376047f1",
+  "outputs/citations/manual_coding_2026-10-03/claims/W4416295106.yaml": "a017fb166061519d2ff7111de46ee32b53834e0899d73d58b5444094367db3d8",
+  "outputs/citations/manual_coding_2026-10-03/claims/W4416777227.yaml": "9d5acef9659c30c340a5ac6e7fe7ec682b98cbb92d10da5790142aee1454ddd2",
+  "outputs/citations/manual_coding_2026-10-03/claims/W4416868157.yaml": "f045846371196fd1a3adeba11702536d7741ad54c7f5bb5eb18031e65ffcbc51",
+  "outputs/citations/manual_coding_2026-10-03/claims/W7104037550.yaml": "13520f3c8179a801809814c7d2d044e4f4e56386c6a51c5789b785adbcae3f16",
+  "outputs/citations/manual_coding_2026-10-03/claims/W7108202768.yaml": "758d73c64585aea2d1605e41da963de4f3291c7f256659982b9f7f29230ab9c2",
+  "outputs/citations/manual_coding_2026-10-03/claims/W7117782391.yaml": "6ed87da64faf500efb7818837e5062260783b0dc344460ef0f5b6674b5022c2f",
+  "outputs/citations/manual_coding_2026-10-03/claims/W7127634741.yaml": "d1f6d1d43dcac73c186823b15849e3ce1bf2c3367eaa12832ff4b136df6c7393",
+  "outputs/citations/manual_coding_2026-10-03/claims/W7133577162.yaml": "3203bc6a89c894aebee599e7608e3698aaa015de0a7d55e423d6734d23335e2c",
+  "outputs/citations/manual_coding_2026-10-03/claims/W7149218690.yaml": "dbb08b5cf359467341afbe0704a734818cc90417ff4f106d007dd0431840dd8b",
+  "outputs/citations/manual_coding_2026-10-03/claims/W7160707586.yaml": "340aaba91b2d409fe92ba459698ef06771dc1c2bc48600ad65a9673cccfcb209",
+  "outputs/citations/manual_coding_2026-10-03/claims/W7165235423.yaml": "9b94158c8e76e4c28bc57f3647650091568d2dfcd19cc33e6c5ce58e6c74ca08",
+  "outputs/citations/manual_coding_2026-10-03/claims/W7167612642.yaml": "17c1e515581c45a8ffaaf347e8f8026bbb87557485334f8a40546ec1a7a407fd",
+  "outputs/citations/manual_coding_2026-10-03/claims/W7168331441.yaml": "ff8eb2d3311ab6d3e73ec1897c5d761e2cc6a48d65e9bed66214a5500d493f54",
+  "outputs/citations/manual_coding_2026-10-03/claims/W7171101125.yaml": "47dc9edad58408bd400288048ed2a0c221254aa8154535004959a0ef4fe41531",
+  "outputs/citations/manual_coding_2026-10-03/claims/W7202029439.yaml": "109635eeb926031a2d9773e999cef543aacc3030a116b1b4b24addc70c4f5262",
+  "outputs/citations/manual_coding_2026-10-03/claims/W7204059475.yaml": "b5f939f95419df5ff42e940ff9115a2ce7018f87ae327dae7874c02a1b9b3a8f",
+  "outputs/citations/manual_coding_2026-10-03/claims/W7204548938.yaml": "e47e765f5449755e7899521810999b16c9436d3c822a55dda64c1cca51ae3bd1",
+  "outputs/citations/manual_coding_2026-10-03/claims/W7204981141.yaml": "75bad1c7918c1e50ace026417d6b8ccf72a4fea2ecba5854ccb6e9b133870f5a",
+  "outputs/citations/manual_coding_2026-10-03/claims/W7214748969.yaml": "bb334e1c3e9d6f7338fa278eaeedf1e93f3d38caa054c90a25907c108f8c83ee",
+  "outputs/citations/manual_coding_2026-10-03_new_rows/claims/39974404.references.yaml": "ab42d11ab474401ec87397618bce8fce00314bc4fd1ceb818eb06ca9cd5c25d5",
+  "outputs/citations/manual_coding_2026-10-03_new_rows/claims/39974404.yaml": "af973f93f6b2ee77117ba00bb93c758c369ac9afc68ef36c1c51503ec0f4e322",
+  "outputs/citations/manual_coding_2026-10-03_new_rows/claims/41821112.references.yaml": "2f943abff32f647aedef37e165d7710fc6e70526262bbfe0460a29d4395a57fc",
+  "outputs/citations/manual_coding_2026-10-03_new_rows/claims/41821112.yaml": "76623960ed1cc09d0231da65c650059536bc0f1f058d5564bb0c8558fc77070d",
+  "outputs/citations/manual_coding_2026-10-03_new_rows/claims/W4388600439.yaml": "0c1eee43742940b6d630845a4229aaad874b3cfbe6e7a69ec3f2f9a089ff1472",
+  "outputs/manual_coding/2026-10-03/check3_coverage_after_second_look_save2.json": "f697550a26234915d68336b53a0c5f88117f7ed4ad1dad30d86258d504f8d2f4",
+  "outputs/manual_coding/2026-10-03/manual_coding_queue.csv": "b436c5bddc2f252ed4c7e143e26c63baeb2ebc613d3a7da932a4b68c2b514b35",
+  "outputs/manual_coding/2026-10-03/manual_dataset_coding_report.json": "ac64b6ca157a60e65535c13d6c46a04729bba19defac47adb2b581f910e2e84d",
+  "outputs/manual_coding/2026-10-03_amended_primary/manual_coding_queue.csv": "4b93086fadfa21f32a1d20604173f16230a22dc71143f11aeecd98dcdb4518a2",
+  "outputs/manual_coding/2026-10-03_amended_primary/queue_rebuild_comparison_with_passages.json": "c9355d21ef48a6d22c859d56ead2cf30dbcb2283bd08284e7dc543745f7f3c20",
+  "outputs/manual_coding/2026-10-03_new_rows/first_check_result.json": "5647430498d4964a58be123678a09c0daf06a1503e451228433a7c7628bebf34",
+  "outputs/manual_coding/2026-10-03_new_rows/manual_dataset_codes_extended_2_second_check.csv": "cc2cbadc8a6f11c2420c57100e4a179cb3b6e906f3522801f731dffff22b14d0",
+  "outputs/parsed/sol_eligibility_chase1_2811496ef424.decisions.jsonl": "d7ecd507392cf7c2a393fbe849e5ea3b6fd314e167f3c71c7e5cdf1d3798cb71",
+  "outputs/parsed/sol_eligibility_chase2_2811496ef424.decisions.jsonl": "17878d5e1f41b64b1745286cd8a24a147079595ef3668975f4f2ffa09c87fe6a",
+  "outputs/parsed/sol_eligibility_gate1b1_2811496ef424.decisions.jsonl": "b504343bfb774cee23d8db48bdaef1cae8b9c874b534af67e9e097dca0f8e08c",
+  "outputs/parsed/sol_eligibility_gate1b2_2811496ef424.decisions.jsonl": "18ef3ddb77f847d6d0eaa7684119a41ad4676fde2dda59e3ad4f6428c41cb33a",
+  "outputs/parsed/sol_eligibility_gate1b3_2811496ef424.decisions.jsonl": "23e0dbfefffd39dd7e23c8ebe1d397cf50796908dc6ef0ddd662e1e403d2c845",
+  "outputs/parsed/sol_eligibility_gate1b4_2811496ef424.decisions.jsonl": "d2c30d5ed7fbae2aa5ae68f840816ad3f048356f384b6a638c7d27a5e82c57e0",
+  "outputs/parsed/sol_eligibility_gate1b5_2811496ef424.decisions.jsonl": "4232fbf15576cb21b2236bf01464f85fdc4cc7db8f8bb51d9f11fdc3fb33b1b9",
+  "outputs/parsed/sol_eligibility_gateall1_2811496ef424.decisions.jsonl": "6788089ac4ac093aa1a42823fd68a0a858ce049b8f0c5902ea9bd7aa6c6bdf6f",
+  "outputs/parsed/sol_eligibility_gateall2_2811496ef424.decisions.jsonl": "7404303dd596df9b5ad2644bdf6d082eb8baf32b5bdf41e933c9b8da8f889e72",
+  "outputs/parsed/sol_eligibility_gateall3_2811496ef424.decisions.jsonl": "2b9e69cfd99741f8bf2e21ac46b9f9db912e372232449dda0b09bcfb6c8ed48f",
+  "outputs/parsed/sol_eligibility_search_complete_2811496ef424.decisions.jsonl": "2760f84788495395cb6c2e4ce6fc08974bacadabc757867106c2488caf096e6a",
+  "outputs/parsed/sol_extraction_chase1_0b97103cd7a4.jsonl": "9abdf3d7aa20c1e45c5286444ef7c3e3dec139cb903c6bd42da9042c9b805c45",
+  "outputs/parsed/sol_extraction_chase2_0b97103cd7a4.jsonl": "aaef43b06756a76e035495988e3f06580f56d52a71cd2b7e7536b513758d6653",
+  "outputs/parsed/sol_extraction_chase3_0b97103cd7a4.jsonl": "3e3bd2387aca719fefd65a8e211d044afffad5a9761364a939797f4671360a92",
+  "outputs/parsed/sol_extraction_search_0b97103cd7a4.jsonl": "ae0ecb5cb9be1e1441aa8c9779ddbbc4d0db6a0be52f07bcd38b0b822d07bf88",
+  "outputs/screening/2026-10-03/funnel.json": "e54ff37f45f8ad55f3acdead6ac6db47a615625d05640a75d629d1e308fafe4a",
+  "outputs/screening/2026-10-03/no_abstract.jsonl": "c4dacf1a71718e8ffb784d53be7abedc5661075d53599e45b7974f9bad334252",
+  "outputs/screening/2026-10-03/prefilter_counts.json": "35f0ec77cd6c6010727a770b0b46eede3e2a6fcd957dd38ca4f9dfd03ae7dfd2",
+  "outputs/screening/chase_round_1/chase_counts.json": "1686772a4b5e662af3f7b985b9f0e627c247c2ad6fa48e4a37391accc984bacd",
+  "outputs/screening/chase_round_2/chase_counts.json": "165ab8471c592c2d55a3fc0b74aa9684a14a097a13b9a844aff4f6de753aed5b",
+  "outputs/screening/chase_round_3/chase_counts.json": "3489e9ac8fda17ee7f3b861f60fb23ac10c1165abd481902dcbeda0bcff627ba",
+  "outputs/span_failure_classes/span_failure_followup_counts_2026-10-08.json": "a95ecfd0539ec0d88228b5bd8ab3abc94336008fdf51e839cf1138e3e0e9af3d",
+  "outputs/span_restoration/chase1/repair_map.json": "591c2aa1f2d4e0c915aa79569fa8e4bf4c6a1d6a22238fd9d3abbadc1154042f",
+  "outputs/span_restoration/search/repair_map.json": "202929da3299075a4909ba54cc86ec3e03f1cf865532e42533aea38c196b6472",
+  "outputs/tests/pytest_all_modal_20261008T120511Z.txt": "7a8ba88c7a5d4e223b9c1641fa6bb3e9877ac17600e9dcd9b8a0e2f326f7ad65",
+  "outputs/verification/sol_extraction_chase1_0b97103cd7a4/claim_summary.json": "34cc9685542aa2f6ca18587ab3bb2d96b52e771277e45a91fa8e8c73c9b9a546",
+  "outputs/verification/sol_extraction_chase1_0b97103cd7a4/span_summary.json": "37898767d5bc1a140da9f7bc894586d284734c0701de818a5b2e8ba65c9e939f",
+  "outputs/verification/sol_extraction_chase2_0b97103cd7a4/claim_summary.json": "c15a4184361ea73b30530638dc528c8f4fa6a8e73f67f9c4e98780c0ada83122",
+  "outputs/verification/sol_extraction_chase2_0b97103cd7a4/span_summary.json": "2a578f2a4a553b0aa2393c269e43a9341382becbe0febd412e2c0c316420c2d2",
+  "outputs/verification/sol_extraction_chase3_0b97103cd7a4/claim_summary.json": "5d1d8fee8518ab67fe1b1efef0cc6cba6690c2edeb65c5126004919420d7f0b7",
+  "outputs/verification/sol_extraction_chase3_0b97103cd7a4/span_summary.json": "1ca097b7f150d9a4f5916b08d656b0c225b9506c3f1dd49936b4ab4572f7d1a1",
+  "outputs/verification/sol_extraction_search_0b97103cd7a4/claim_summary.json": "9adafe4b2328ea8c1c7dd9266da97088ed24e87e4d8aa4ad4a9d363826ccf8a2",
+  "outputs/verification/sol_extraction_search_0b97103cd7a4/span_summary.json": "c7a4f0653580c00d36b026b1448490131d01715d5ce0c0809a4ab65203ba6c2f",
+  "outputs/verification_amendment02/amended_primary/sol_extraction_chase1_0b97103cd7a4_restored/claim_summary.json": "20f1a7ba131d83189e0b6513342818a51bda40b4a457b356aa23dc4f748a87d5",
+  "outputs/verification_amendment02/amended_primary/sol_extraction_search_0b97103cd7a4_restored/claim_summary.json": "9dfe031b62b43ef1292a58f6ff71e0c167176739bc48520ae73db525c90b020d",
+  "outputs/verification_amendment02/registered_with_27/sol_extraction_search_0b97103cd7a4/claim_summary.json": "e39d3663fe10d8d3f84d2190d89e5fdb6ae3627df0fcade6f11eedcc3d666f71",
+  "outputs/verification_occurrence/sol_extraction_chase1_0b97103cd7a4/span_summary.json": "37898767d5bc1a140da9f7bc894586d284734c0701de818a5b2e8ba65c9e939f",
+  "outputs/verification_occurrence/sol_extraction_chase1_0b97103cd7a4_restored/span_summary.json": "77b594018a2f3b90768511231362bf102da1414fa46328c07818df1c94f4a792",
+  "outputs/verification_occurrence/sol_extraction_chase2_0b97103cd7a4/span_summary.json": "2a578f2a4a553b0aa2393c269e43a9341382becbe0febd412e2c0c316420c2d2",
+  "outputs/verification_occurrence/sol_extraction_chase3_0b97103cd7a4/span_summary.json": "1ca097b7f150d9a4f5916b08d656b0c225b9506c3f1dd49936b4ab4572f7d1a1",
+  "outputs/verification_occurrence/sol_extraction_search_0b97103cd7a4/span_summary.json": "f5c9881369afb5367c373d24403847195d6605c442dce9e841d895a532cc190c",
+  "outputs/verification_occurrence/sol_extraction_search_0b97103cd7a4_restored/span_summary.json": "b9ba0b6e033effb91874a5118c3f7d57b5d37d2233818058922d2cbe28d04001"
+ }
+}
