@@ -13,9 +13,10 @@ validation and not completion of the registered procedure.
 > measure of the depth of review. The rules for what a mark would mean were committed before
 > the marks were saved, but not demonstrably before the author began to inspect the rows. After
 > the spot-check had closed the author voluntarily marked further rows as confirmed: 27 of a
-> seeded sample of 30, and then the first 50 rows of a page listing every row he had not yet
-> marked, which was not a random sample. In all he marked 97 of the 196 mappings, each as
-> confirmed. Neither the spot-check nor the voluntary marks are treated as an independent
+> seeded sample of 30, the first 50 rows of a page listing every row he had not yet marked,
+> and 2 rows on a page of reference-based rows flagged mechanically as harder; neither page
+> was a random sample. In all he marked 99 of the 196 mappings, each as confirmed, and 22 of
+> those a second time on the page of flagged rows. Neither the spot-check nor the voluntary marks are treated as an independent
 > reference standard, and no error-rate bound is reported from them.
 
 ## What the paper must also state
@@ -60,10 +61,22 @@ validation and not completion of the registered procedure.
   held 30 marks and a second at 03:56:10Z held 50 (sha256 636244e4…2d127b04). Two of the three
   earlier blanks he decided before the coordinating session said anything about them; the
   third had been explained to him before he marked it. He stopped at 50.
-- Rows the author has marked: 97 of 196, all yes; 71 of the 98 rows that rest on a reference
-  entry and 26 of the 98 others. The remaining 99 are recorded as machine-checked only. Of the
-  97 marks, 7 followed discussion of the row with the coordinating session (6 in the
-  spot-check, 1 on the page).
+- Second look: a page of 55 reference-based rows, first the 35 flagged by fixed mechanical
+  rules as harder (family word of the coded dataset absent from the pinned sentence; no
+  citation mark or first-author name in the sentence; several references cited together; the
+  sentence begins with a back-reference word; the dictionary source shared by several rows of
+  the side), then the 20 unflagged rows he had not marked. He marked the first 24 cards yes,
+  all flagged, and stopped: 22 were rows he had already marked yes and 2 were new; 31 cards
+  unmarked; no no. Page rewritten 04:00:44Z, marks saved 04:04:31Z (sha256
+  930129ab…97ef9913). One of the 24, a second mark, followed discussion of the card with the
+  coordinating session. Of the 35 flagged rows: 24 marked yes on this page, 6 marked once
+  only (elsewhere), 5 unmarked.
+- Rows the author has marked: 99 of 196, all yes; 73 of the 98 rows that rest on a reference
+  entry and 26 of the 98 others. The remaining 97 are recorded as machine-checked only. Of the
+  99 first marks, 7 followed discussion of the row with the coordinating session (6 in the
+  spot-check, 1 on the page of unmarked rows).
+- The author's description of his earlier fast passes is recorded verbatim in the plan log; no
+  further claim is made about how he read.
 - A second further draw (seed 20261011, 30 reference-based rows) was made and not used.
 - The author's answer about how he read the fourteen is recorded verbatim in the plan log; no
   further claim is made.

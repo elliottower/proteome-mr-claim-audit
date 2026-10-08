@@ -1,0 +1,202 @@
+{
+ "marked_file_sha256": "930129abef3772ef1f20d7c3426ac6dcee13e0c7a24f0f0e5ec64f5097ef9913",
+ "third_check": {
+  "not_applicable": 676,
+  "author_confirmed": 99,
+  "machine_gate_only": 97
+ },
+ "third_check_context": {
+  "none": 773,
+  "voluntary_read_after_spot_check": 27,
+  "voluntary_read_of_remaining_rows_in_page_order": 49,
+  "spot_check_discussed_with_coordinating_session": 6,
+  "spot_check_not_discussed": 14,
+  "voluntary_read_of_remaining_rows_discussed_with_coordinating_session": 1,
+  "second_look_page_flagged_row": 2
+ },
+ "status": {
+  "unresolved": 676,
+  "coded": 196
+ },
+ "marks": {
+  "yes": 24,
+  "empty": 31
+ },
+ "yes_first_mark": 2,
+ "yes_second_mark": 22,
+ "yes_discussed": 1,
+ "flagged_rows": 35,
+ "flagged_marked_yes_on_this_page": 24,
+ "flagged_marked_once_only_elsewhere": 6,
+ "flagged_unmarked": 5,
+ "lines_marked_yes": [
+  {
+   "table_line": 3,
+   "flagged": true,
+   "discussed_with_coordinating_session": false,
+   "mark": "second",
+   "context_before": "voluntary_read_of_remaining_rows_in_page_order"
+  },
+  {
+   "table_line": 5,
+   "flagged": true,
+   "discussed_with_coordinating_session": false,
+   "mark": "second",
+   "context_before": "voluntary_read_of_remaining_rows_in_page_order"
+  },
+  {
+   "table_line": 6,
+   "flagged": true,
+   "discussed_with_coordinating_session": false,
+   "mark": "second",
+   "context_before": "voluntary_read_of_remaining_rows_in_page_order"
+  },
+  {
+   "table_line": 7,
+   "flagged": true,
+   "discussed_with_coordinating_session": true,
+   "mark": "second",
+   "context_before": "voluntary_read_of_remaining_rows_in_page_order"
+  },
+  {
+   "table_line": 9,
+   "flagged": true,
+   "discussed_with_coordinating_session": false,
+   "mark": "second",
+   "context_before": "voluntary_read_of_remaining_rows_in_page_order"
+  },
+  {
+   "table_line": 11,
+   "flagged": true,
+   "discussed_with_coordinating_session": false,
+   "mark": "second",
+   "context_before": "voluntary_read_of_remaining_rows_in_page_order"
+  },
+  {
+   "table_line": 12,
+   "flagged": true,
+   "discussed_with_coordinating_session": false,
+   "mark": "second",
+   "context_before": "spot_check_not_discussed"
+  },
+  {
+   "table_line": 21,
+   "flagged": true,
+   "discussed_with_coordinating_session": false,
+   "mark": "second",
+   "context_before": "voluntary_read_of_remaining_rows_in_page_order"
+  },
+  {
+   "table_line": 85,
+   "flagged": true,
+   "discussed_with_coordinating_session": false,
+   "mark": "second",
+   "context_before": "voluntary_read_of_remaining_rows_in_page_order"
+  },
+  {
+   "table_line": 87,
+   "flagged": true,
+   "discussed_with_coordinating_session": false,
+   "mark": "second",
+   "context_before": "voluntary_read_after_spot_check"
+  },
+  {
+   "table_line": 88,
+   "flagged": true,
+   "discussed_with_coordinating_session": false,
+   "mark": "second",
+   "context_before": "voluntary_read_after_spot_check"
+  },
+  {
+   "table_line": 90,
+   "flagged": true,
+   "discussed_with_coordinating_session": false,
+   "mark": "second",
+   "context_before": "voluntary_read_of_remaining_rows_in_page_order"
+  },
+  {
+   "table_line": 91,
+   "flagged": true,
+   "discussed_with_coordinating_session": false,
+   "mark": "second",
+   "context_before": "voluntary_read_of_remaining_rows_in_page_order"
+  },
+  {
+   "table_line": 92,
+   "flagged": true,
+   "discussed_with_coordinating_session": false,
+   "mark": "second",
+   "context_before": "voluntary_read_of_remaining_rows_in_page_order"
+  },
+  {
+   "table_line": 105,
+   "flagged": true,
+   "discussed_with_coordinating_session": false,
+   "mark": "second",
+   "context_before": "spot_check_not_discussed"
+  },
+  {
+   "table_line": 110,
+   "flagged": true,
+   "discussed_with_coordinating_session": false,
+   "mark": "second",
+   "context_before": "voluntary_read_of_remaining_rows_in_page_order"
+  },
+  {
+   "table_line": 111,
+   "flagged": true,
+   "discussed_with_coordinating_session": false,
+   "mark": "second",
+   "context_before": "voluntary_read_of_remaining_rows_in_page_order"
+  },
+  {
+   "table_line": 122,
+   "flagged": true,
+   "discussed_with_coordinating_session": false,
+   "mark": "second",
+   "context_before": "voluntary_read_of_remaining_rows_in_page_order"
+  },
+  {
+   "table_line": 123,
+   "flagged": true,
+   "discussed_with_coordinating_session": false,
+   "mark": "second",
+   "context_before": "voluntary_read_of_remaining_rows_in_page_order"
+  },
+  {
+   "table_line": 125,
+   "flagged": true,
+   "discussed_with_coordinating_session": false,
+   "mark": "second",
+   "context_before": "voluntary_read_of_remaining_rows_in_page_order"
+  },
+  {
+   "table_line": 181,
+   "flagged": true,
+   "discussed_with_coordinating_session": false,
+   "mark": "first",
+   "context_before": ""
+  },
+  {
+   "table_line": 182,
+   "flagged": true,
+   "discussed_with_coordinating_session": false,
+   "mark": "second",
+   "context_before": "spot_check_discussed_with_coordinating_session"
+  },
+  {
+   "table_line": 183,
+   "flagged": true,
+   "discussed_with_coordinating_session": false,
+   "mark": "first",
+   "context_before": ""
+  },
+  {
+   "table_line": 184,
+   "flagged": true,
+   "discussed_with_coordinating_session": false,
+   "mark": "second",
+   "context_before": "spot_check_discussed_with_coordinating_session"
+  }
+ ]
+}
