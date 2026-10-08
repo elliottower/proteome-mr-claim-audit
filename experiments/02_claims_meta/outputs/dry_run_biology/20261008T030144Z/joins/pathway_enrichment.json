@@ -1,0 +1,241 @@
+{
+ "inputs": "/tmp/dry_run_biology/inputs",
+ "window": "confirmatory",
+ "claim_records": 13,
+ "resources": {
+  "ontology_edges": "/tmp/dry_run_biology/resources/ontology_edges.csv",
+  "therapeutic_areas": "/tmp/dry_run_biology/resources/therapeutic_areas.csv",
+  "therapeutic_area_names": "/tmp/dry_run_biology/resources/therapeutic_area_names.csv",
+  "assay_lists": "/tmp/dry_run_biology/resources/assay_lists.csv",
+  "attachments": "/tmp/dry_run_biology/resources/attachments.csv",
+  "author_lists": "/exp/verification/author_supplied_lists.csv",
+  "reactome": "/tmp/dry_run_biology/resources/UniProt2Reactome.txt",
+  "snapshot_estimates": "/tmp/dry_run_biology/resources/mrres_estimates.jsonl",
+  "protein_mapping": "/tmp/dry_run_biology/resources/protein_mapping.csv",
+  "trait_mapping": "/tmp/dry_run_biology/resources/trait_mapping.csv",
+  "locus_list": "/tmp/dry_run_biology/resources/loci.csv"
+ },
+ "written_utc": "2026-10-08T03:02:07+00:00",
+ "claims": 13,
+ "claims_by_enrichment_state": {
+  "enters_enrichment": 7,
+  "not_causal_or_target": 4,
+  "no_pinned_assay_list": 2
+ },
+ "registry_proteins": 5,
+ "registry_proteins_with_a_pathway": 5,
+ "primary": {
+  "syn_olink": {
+   "background": 20,
+   "claimed": 2,
+   "claimed_outside_background": 0,
+   "background_with_a_pathway": 20,
+   "pathways_tested": 2,
+   "pathways_dropped_by_size": 0
+  },
+  "syn_soma": {
+   "background": 20,
+   "claimed": 3,
+   "claimed_outside_background": 0,
+   "background_with_a_pathway": 19,
+   "pathways_tested": 1,
+   "pathways_dropped_by_size": 1
+  }
+ },
+ "secondary_pooled_open_to_platform_composition_confounding": {
+  "background": 22,
+  "claimed": 4,
+  "claimed_outside_background": 0,
+  "background_with_a_pathway": 21,
+  "pathways_tested": 2,
+  "pathways_dropped_by_size": 0
+ },
+ "lists_without_a_kept_pathway": [],
+ "density_cells": 8,
+ "author_supplied_lists": {
+  "primary": {},
+  "after_cutoff": {}
+ },
+ "background_level_by_dictionary_row": {
+  "UKB-PPP discovery": "assayed",
+  "UKB-PPP replication": "unavailable",
+  "UKB-PPP full cohort (combined)": "unavailable",
+  "UKB-PPP ancestry-specific (non-European)": "unavailable",
+  "Dhindsa 2023 UKB-PPP exome (rare variant)": "unavailable",
+  "Eldjarn 2023 UKB Olink (UKB-BI / UKB-SA / UKB-AF)": "unavailable",
+  "deCODE SomaScan v4 (Eldjarn 2023 update)": "analysed",
+  "deCODE SomaScan v4 (Ferkingstad 2021)": "unavailable",
+  "INTERVAL SomaScan (Sun 2018)": "unavailable",
+  "Fenland SomaScan v4 (Pietzner 2021)": "unavailable",
+  "Fenland SomaScan v4 (Pietzner 2020, COVID-19 host proteins)": "unavailable",
+  "ARIC European American (Zhang 2022)": "unavailable",
+  "ARIC African American (Zhang 2022)": "unavailable",
+  "SCALLOP CVD-I (Folkersen 2020)": "unavailable",
+  "SCALLOP Inflammation (Zhao 2023)": "unavailable",
+  "SCALLOP multi-cohort meta-analysis (Koprulu 2026)": "unavailable",
+  "AGES Reykjavik (Emilsson 2018)": "unavailable",
+  "AGES Reykjavik (Gudjonsson 2022)": "unavailable",
+  "KORA (Suhre 2017)": "unavailable",
+  "Framingham Heart Study (Yao 2018)": "unavailable",
+  "IMPROVE (Folkersen 2017)": "unavailable",
+  "Lothian Birth Cohort 1936 neurology panel (Hillary 2019)": "unavailable",
+  "Zheng 2020 proteome-wide MR instrument set": "unavailable",
+  "MANOLIS (Gilly 2020)": "unavailable",
+  "MANOLIS and Pomak neurology (Png 2021)": "unavailable",
+  "NSPHS (Enroth 2014)": "unavailable",
+  "Jackson Heart Study (Katz 2022)": "unavailable",
+  "Guangzhou Nutrition and Health Study (Xu 2023)": "unavailable"
+ },
+ "sensitivity_any_candidate_row_attachment": {
+  "claims": 13,
+  "claims_by_enrichment_state": {
+   "enters_enrichment": 7,
+   "not_causal_or_target": 4,
+   "no_pinned_assay_list": 2
+  },
+  "registry_proteins": 5,
+  "registry_proteins_with_a_pathway": 5,
+  "primary": {
+   "syn_olink": {
+    "background": 20,
+    "claimed": 2,
+    "claimed_outside_background": 0,
+    "background_with_a_pathway": 20,
+    "pathways_tested": 2,
+    "pathways_dropped_by_size": 0
+   },
+   "syn_soma": {
+    "background": 20,
+    "claimed": 3,
+    "claimed_outside_background": 0,
+    "background_with_a_pathway": 19,
+    "pathways_tested": 1,
+    "pathways_dropped_by_size": 1
+   }
+  },
+  "secondary_pooled_open_to_platform_composition_confounding": {
+   "background": 22,
+   "claimed": 4,
+   "claimed_outside_background": 0,
+   "background_with_a_pathway": 21,
+   "pathways_tested": 2,
+   "pathways_dropped_by_size": 0
+  },
+  "lists_without_a_kept_pathway": [],
+  "density_cells": 8
+ },
+ "sensitivity_null_result_claims_counted": {
+  "claims": 13,
+  "claims_by_enrichment_state": {
+   "enters_enrichment": 7,
+   "not_causal_or_target": 4,
+   "no_pinned_assay_list": 2
+  },
+  "registry_proteins": 5,
+  "registry_proteins_with_a_pathway": 5,
+  "primary": {
+   "syn_olink": {
+    "background": 20,
+    "claimed": 2,
+    "claimed_outside_background": 0,
+    "background_with_a_pathway": 20,
+    "pathways_tested": 2,
+    "pathways_dropped_by_size": 0
+   },
+   "syn_soma": {
+    "background": 20,
+    "claimed": 3,
+    "claimed_outside_background": 0,
+    "background_with_a_pathway": 19,
+    "pathways_tested": 1,
+    "pathways_dropped_by_size": 1
+   }
+  },
+  "secondary_pooled_open_to_platform_composition_confounding": {
+   "background": 22,
+   "claimed": 4,
+   "claimed_outside_background": 0,
+   "background_with_a_pathway": 21,
+   "pathways_tested": 2,
+   "pathways_dropped_by_size": 0
+  },
+  "lists_without_a_kept_pathway": [],
+  "density_cells": 8
+ },
+ "sensitivity_alternative_assay_lists": {
+  "claims": 13,
+  "claims_by_enrichment_state": {
+   "enters_enrichment": 7,
+   "not_causal_or_target": 4,
+   "no_pinned_assay_list": 2
+  },
+  "registry_proteins": 5,
+  "registry_proteins_with_a_pathway": 5,
+  "primary": {
+   "syn_olink": {
+    "background": 20,
+    "claimed": 2,
+    "claimed_outside_background": 0,
+    "background_with_a_pathway": 20,
+    "pathways_tested": 2,
+    "pathways_dropped_by_size": 0
+   },
+   "syn_soma": {
+    "background": 20,
+    "claimed": 3,
+    "claimed_outside_background": 0,
+    "background_with_a_pathway": 19,
+    "pathways_tested": 1,
+    "pathways_dropped_by_size": 1
+   }
+  },
+  "secondary_pooled_open_to_platform_composition_confounding": {
+   "background": 22,
+   "claimed": 4,
+   "claimed_outside_background": 0,
+   "background_with_a_pathway": 21,
+   "pathways_tested": 2,
+   "pathways_dropped_by_size": 0
+  },
+  "lists_without_a_kept_pathway": [],
+  "density_cells": 8
+ },
+ "sensitivity_whole_panel_backgrounds": {
+  "claims": 13,
+  "claims_by_enrichment_state": {
+   "enters_enrichment": 7,
+   "not_causal_or_target": 4,
+   "no_pinned_assay_list": 2
+  },
+  "registry_proteins": 5,
+  "registry_proteins_with_a_pathway": 5,
+  "primary": {
+   "syn_olink": {
+    "background": 20,
+    "claimed": 2,
+    "claimed_outside_background": 0,
+    "background_with_a_pathway": 20,
+    "pathways_tested": 2,
+    "pathways_dropped_by_size": 0
+   },
+   "syn_soma_panel": {
+    "background": 22,
+    "claimed": 3,
+    "claimed_outside_background": 0,
+    "background_with_a_pathway": 20,
+    "pathways_tested": 2,
+    "pathways_dropped_by_size": 0
+   }
+  },
+  "secondary_pooled_open_to_platform_composition_confounding": {
+   "background": 24,
+   "claimed": 4,
+   "claimed_outside_background": 0,
+   "background_with_a_pathway": 22,
+   "pathways_tested": 2,
+   "pathways_dropped_by_size": 0
+  },
+  "lists_without_a_kept_pathway": [],
+  "density_cells": 8
+ }
+}
