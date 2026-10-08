@@ -1,0 +1,419 @@
+{
+ "marked_file_sha256": "84dd61dfaab1cd476ae40bf6740293c93ae6a991b30d200b6f8daffb1740db9d",
+ "third_check": {
+  "not_applicable": 676,
+  "author_confirmed": 124,
+  "machine_gate_only": 72
+ },
+ "third_check_context": {
+  "none": 748,
+  "voluntary_read_after_spot_check": 27,
+  "voluntary_read_of_remaining_rows_in_page_order": 49,
+  "second_look_page_unflagged_row": 20,
+  "spot_check_discussed_with_coordinating_session": 6,
+  "second_look_page_flagged_row": 7,
+  "spot_check_not_discussed": 14,
+  "voluntary_read_of_remaining_rows_discussed_with_coordinating_session": 1
+ },
+ "status": {
+  "unresolved": 676,
+  "coded": 196
+ },
+ "marks": {
+  "yes": 55
+ },
+ "yes_first_mark": 27,
+ "yes_second_mark": 28,
+ "yes_discussed": 1,
+ "flagged_rows": 35,
+ "flagged_marked_yes_on_this_page": 35,
+ "flagged_marked_once_only_elsewhere": 0,
+ "flagged_unmarked": 0,
+ "lines_marked_yes": [
+  {
+   "table_line": 3,
+   "flagged": true,
+   "discussed_with_coordinating_session": false,
+   "mark": "second",
+   "context_before": "voluntary_read_of_remaining_rows_in_page_order"
+  },
+  {
+   "table_line": 5,
+   "flagged": true,
+   "discussed_with_coordinating_session": false,
+   "mark": "second",
+   "context_before": "voluntary_read_of_remaining_rows_in_page_order"
+  },
+  {
+   "table_line": 6,
+   "flagged": true,
+   "discussed_with_coordinating_session": false,
+   "mark": "second",
+   "context_before": "voluntary_read_of_remaining_rows_in_page_order"
+  },
+  {
+   "table_line": 7,
+   "flagged": true,
+   "discussed_with_coordinating_session": true,
+   "mark": "second",
+   "context_before": "voluntary_read_of_remaining_rows_in_page_order"
+  },
+  {
+   "table_line": 9,
+   "flagged": true,
+   "discussed_with_coordinating_session": false,
+   "mark": "second",
+   "context_before": "voluntary_read_of_remaining_rows_in_page_order"
+  },
+  {
+   "table_line": 11,
+   "flagged": true,
+   "discussed_with_coordinating_session": false,
+   "mark": "second",
+   "context_before": "voluntary_read_of_remaining_rows_in_page_order"
+  },
+  {
+   "table_line": 12,
+   "flagged": true,
+   "discussed_with_coordinating_session": false,
+   "mark": "second",
+   "context_before": "spot_check_not_discussed"
+  },
+  {
+   "table_line": 21,
+   "flagged": true,
+   "discussed_with_coordinating_session": false,
+   "mark": "second",
+   "context_before": "voluntary_read_of_remaining_rows_in_page_order"
+  },
+  {
+   "table_line": 85,
+   "flagged": true,
+   "discussed_with_coordinating_session": false,
+   "mark": "second",
+   "context_before": "voluntary_read_of_remaining_rows_in_page_order"
+  },
+  {
+   "table_line": 87,
+   "flagged": true,
+   "discussed_with_coordinating_session": false,
+   "mark": "second",
+   "context_before": "voluntary_read_after_spot_check"
+  },
+  {
+   "table_line": 88,
+   "flagged": true,
+   "discussed_with_coordinating_session": false,
+   "mark": "second",
+   "context_before": "voluntary_read_after_spot_check"
+  },
+  {
+   "table_line": 90,
+   "flagged": true,
+   "discussed_with_coordinating_session": false,
+   "mark": "second",
+   "context_before": "voluntary_read_of_remaining_rows_in_page_order"
+  },
+  {
+   "table_line": 91,
+   "flagged": true,
+   "discussed_with_coordinating_session": false,
+   "mark": "second",
+   "context_before": "voluntary_read_of_remaining_rows_in_page_order"
+  },
+  {
+   "table_line": 92,
+   "flagged": true,
+   "discussed_with_coordinating_session": false,
+   "mark": "second",
+   "context_before": "voluntary_read_of_remaining_rows_in_page_order"
+  },
+  {
+   "table_line": 105,
+   "flagged": true,
+   "discussed_with_coordinating_session": false,
+   "mark": "second",
+   "context_before": "spot_check_not_discussed"
+  },
+  {
+   "table_line": 110,
+   "flagged": true,
+   "discussed_with_coordinating_session": false,
+   "mark": "second",
+   "context_before": "voluntary_read_of_remaining_rows_in_page_order"
+  },
+  {
+   "table_line": 111,
+   "flagged": true,
+   "discussed_with_coordinating_session": false,
+   "mark": "second",
+   "context_before": "voluntary_read_of_remaining_rows_in_page_order"
+  },
+  {
+   "table_line": 112,
+   "flagged": true,
+   "discussed_with_coordinating_session": false,
+   "mark": "second",
+   "context_before": "voluntary_read_of_remaining_rows_in_page_order"
+  },
+  {
+   "table_line": 113,
+   "flagged": true,
+   "discussed_with_coordinating_session": false,
+   "mark": "second",
+   "context_before": "spot_check_discussed_with_coordinating_session"
+  },
+  {
+   "table_line": 122,
+   "flagged": true,
+   "discussed_with_coordinating_session": false,
+   "mark": "second",
+   "context_before": "voluntary_read_of_remaining_rows_in_page_order"
+  },
+  {
+   "table_line": 123,
+   "flagged": true,
+   "discussed_with_coordinating_session": false,
+   "mark": "second",
+   "context_before": "voluntary_read_of_remaining_rows_in_page_order"
+  },
+  {
+   "table_line": 124,
+   "flagged": true,
+   "discussed_with_coordinating_session": false,
+   "mark": "second",
+   "context_before": "voluntary_read_of_remaining_rows_in_page_order"
+  },
+  {
+   "table_line": 125,
+   "flagged": true,
+   "discussed_with_coordinating_session": false,
+   "mark": "second",
+   "context_before": "voluntary_read_of_remaining_rows_in_page_order"
+  },
+  {
+   "table_line": 127,
+   "flagged": true,
+   "discussed_with_coordinating_session": false,
+   "mark": "second",
+   "context_before": "voluntary_read_of_remaining_rows_in_page_order"
+  },
+  {
+   "table_line": 142,
+   "flagged": true,
+   "discussed_with_coordinating_session": false,
+   "mark": "second",
+   "context_before": "voluntary_read_of_remaining_rows_in_page_order"
+  },
+  {
+   "table_line": 149,
+   "flagged": false,
+   "discussed_with_coordinating_session": false,
+   "mark": "first",
+   "context_before": ""
+  },
+  {
+   "table_line": 150,
+   "flagged": false,
+   "discussed_with_coordinating_session": false,
+   "mark": "first",
+   "context_before": ""
+  },
+  {
+   "table_line": 152,
+   "flagged": false,
+   "discussed_with_coordinating_session": false,
+   "mark": "first",
+   "context_before": ""
+  },
+  {
+   "table_line": 153,
+   "flagged": false,
+   "discussed_with_coordinating_session": false,
+   "mark": "first",
+   "context_before": ""
+  },
+  {
+   "table_line": 157,
+   "flagged": false,
+   "discussed_with_coordinating_session": false,
+   "mark": "first",
+   "context_before": ""
+  },
+  {
+   "table_line": 158,
+   "flagged": true,
+   "discussed_with_coordinating_session": false,
+   "mark": "first",
+   "context_before": ""
+  },
+  {
+   "table_line": 159,
+   "flagged": false,
+   "discussed_with_coordinating_session": false,
+   "mark": "first",
+   "context_before": ""
+  },
+  {
+   "table_line": 160,
+   "flagged": false,
+   "discussed_with_coordinating_session": false,
+   "mark": "first",
+   "context_before": ""
+  },
+  {
+   "table_line": 163,
+   "flagged": false,
+   "discussed_with_coordinating_session": false,
+   "mark": "first",
+   "context_before": ""
+  },
+  {
+   "table_line": 164,
+   "flagged": false,
+   "discussed_with_coordinating_session": false,
+   "mark": "first",
+   "context_before": ""
+  },
+  {
+   "table_line": 165,
+   "flagged": false,
+   "discussed_with_coordinating_session": false,
+   "mark": "first",
+   "context_before": ""
+  },
+  {
+   "table_line": 167,
+   "flagged": false,
+   "discussed_with_coordinating_session": false,
+   "mark": "first",
+   "context_before": ""
+  },
+  {
+   "table_line": 168,
+   "flagged": false,
+   "discussed_with_coordinating_session": false,
+   "mark": "first",
+   "context_before": ""
+  },
+  {
+   "table_line": 170,
+   "flagged": true,
+   "discussed_with_coordinating_session": false,
+   "mark": "first",
+   "context_before": ""
+  },
+  {
+   "table_line": 172,
+   "flagged": true,
+   "discussed_with_coordinating_session": false,
+   "mark": "first",
+   "context_before": ""
+  },
+  {
+   "table_line": 174,
+   "flagged": false,
+   "discussed_with_coordinating_session": false,
+   "mark": "first",
+   "context_before": ""
+  },
+  {
+   "table_line": 175,
+   "flagged": false,
+   "discussed_with_coordinating_session": false,
+   "mark": "first",
+   "context_before": ""
+  },
+  {
+   "table_line": 176,
+   "flagged": false,
+   "discussed_with_coordinating_session": false,
+   "mark": "first",
+   "context_before": ""
+  },
+  {
+   "table_line": 177,
+   "flagged": false,
+   "discussed_with_coordinating_session": false,
+   "mark": "first",
+   "context_before": ""
+  },
+  {
+   "table_line": 179,
+   "flagged": true,
+   "discussed_with_coordinating_session": false,
+   "mark": "first",
+   "context_before": ""
+  },
+  {
+   "table_line": 180,
+   "flagged": false,
+   "discussed_with_coordinating_session": false,
+   "mark": "first",
+   "context_before": ""
+  },
+  {
+   "table_line": 181,
+   "flagged": true,
+   "discussed_with_coordinating_session": false,
+   "mark": "first",
+   "context_before": ""
+  },
+  {
+   "table_line": 182,
+   "flagged": true,
+   "discussed_with_coordinating_session": false,
+   "mark": "second",
+   "context_before": "spot_check_discussed_with_coordinating_session"
+  },
+  {
+   "table_line": 183,
+   "flagged": true,
+   "discussed_with_coordinating_session": false,
+   "mark": "first",
+   "context_before": ""
+  },
+  {
+   "table_line": 184,
+   "flagged": true,
+   "discussed_with_coordinating_session": false,
+   "mark": "second",
+   "context_before": "spot_check_discussed_with_coordinating_session"
+  },
+  {
+   "table_line": 187,
+   "flagged": true,
+   "discussed_with_coordinating_session": false,
+   "mark": "first",
+   "context_before": ""
+  },
+  {
+   "table_line": 189,
+   "flagged": true,
+   "discussed_with_coordinating_session": false,
+   "mark": "second",
+   "context_before": "voluntary_read_after_spot_check"
+  },
+  {
+   "table_line": 193,
+   "flagged": false,
+   "discussed_with_coordinating_session": false,
+   "mark": "first",
+   "context_before": ""
+  },
+  {
+   "table_line": 194,
+   "flagged": false,
+   "discussed_with_coordinating_session": false,
+   "mark": "first",
+   "context_before": ""
+  },
+  {
+   "table_line": 195,
+   "flagged": false,
+   "discussed_with_coordinating_session": false,
+   "mark": "first",
+   "context_before": ""
+  }
+ ]
+}

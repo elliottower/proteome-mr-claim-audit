@@ -14,9 +14,10 @@ validation and not completion of the registered procedure.
 > the marks were saved, but not demonstrably before the author began to inspect the rows. After
 > the spot-check had closed the author voluntarily marked further rows as confirmed: 27 of a
 > seeded sample of 30, the first 50 rows of a page listing every row he had not yet marked,
-> and 2 rows on a page of reference-based rows flagged mechanically as harder; neither page
-> was a random sample. In all he marked 99 of the 196 mappings, each as confirmed, and 22 of
-> those a second time on the page of flagged rows. Neither the spot-check nor the voluntary marks are treated as an independent
+> and 27 rows on a page of 55 reference-based rows that put those flagged mechanically as
+> harder first; neither page was a random sample. In all he marked 124 of the 196 mappings,
+> each as confirmed: all 98 that rest on a reference entry and 26 of the 98 others. He marked
+> 28 of them a second time on the page of flagged rows. Neither the spot-check nor the voluntary marks are treated as an independent
 > reference standard, and no error-rate bound is reported from them.
 
 ## What the paper must also state
@@ -71,10 +72,16 @@ validation and not completion of the registered procedure.
   930129ab…97ef9913). One of the 24, a second mark, followed discussion of the card with the
   coordinating session. Of the 35 flagged rows: 24 marked yes on this page, 6 marked once
   only (elsewhere), 5 unmarked.
-- Rows the author has marked: 99 of 196, all yes; 73 of the 98 rows that rest on a reference
-  entry and 26 of the 98 others. The remaining 97 are recorded as machine-checked only. Of the
-  99 first marks, 7 followed discussion of the row with the coordinating session (6 in the
-  spot-check, 1 on the page of unmarked rows).
+- Second look, completed: a second save at 11:55:27Z (sha256 84dd61df…1740db9d) holds 55 of
+  55 yes, the 24 of the first save unchanged and 31 added; no no, no note. Read whole from
+  the table as it stood before the second look: 27 first marks (7 flagged rows, 20 unflagged)
+  and 28 second marks; all 35 flagged rows have a yes on this page.
+- Rows the author has marked: 124 of 196, all yes; 98 of the 98 rows that rest on a reference
+  entry and 26 of the 98 others. The remaining 72 are recorded as machine-checked only (44
+  resting on a release number, 20 on an exact sample size with platform or year, 5 on an
+  accession or source address, 3 on a citation in the sentence). Of the 124 first marks, 7
+  followed discussion of the row with the coordinating session (6 in the spot-check, 1 on the
+  page of unmarked rows); one second mark did.
 - The author's description of his earlier fast passes is recorded verbatim in the plan log; no
   further claim is made about how he read.
 - A second further draw (seed 20261011, 30 reference-based rows) was made and not used.

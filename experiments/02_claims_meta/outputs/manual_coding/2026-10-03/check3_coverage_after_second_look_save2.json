@@ -1,0 +1,35 @@
+{
+ "written_utc": "2026-10-08T12:00:10+00:00",
+ "record": "manual_dataset_codes_extended_9_second_look_save2.csv",
+ "record_sha256": "366693b14104ad0a326bd512a7553a5ddde2f4d0230fd233e7a9d82f8fa3f3cd",
+ "coded_rows": 196,
+ "rows_with_an_author_yes": 124,
+ "rows_machine_gate_only": 72,
+ "reference_based_rows": 98,
+ "reference_based_rows_marked": 98,
+ "other_rows": 98,
+ "other_rows_marked": 26,
+ "flagged_rows": 35,
+ "flagged_rows_with_a_second_look_yes": 35,
+ "second_look_first_marks": 27,
+ "second_look_second_marks": 28,
+ "unmarked_by_basis": {
+  "release_identifier": 44,
+  "source_identifier": 5,
+  "exact_n_with_platform_or_year": 20,
+  "unique_citation": 3
+ },
+ "marked_by_context": {
+  "voluntary_read_after_spot_check": 27,
+  "voluntary_read_of_remaining_rows_in_page_order": 49,
+  "second_look_page_unflagged_row": 20,
+  "spot_check_discussed_with_coordinating_session": 6,
+  "second_look_page_flagged_row": 7,
+  "spot_check_not_discussed": 14,
+  "voluntary_read_of_remaining_rows_discussed_with_coordinating_session": 1
+ },
+ "rows_changed_outside_the_third_check_columns_since_table_7": 0,
+ "version_a_codes": 196,
+ "version_b_codes": 124,
+ "version_b_subset_of_a_with_equal_codes": true
+}
