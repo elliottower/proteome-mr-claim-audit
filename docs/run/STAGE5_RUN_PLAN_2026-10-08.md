@@ -111,6 +111,6 @@ drug joins being secondary outcomes.
 7. **The 14 rows the machine gate refused** stand unresolved; no decision changes them.
 8. **`results verify --files`** exits non-zero for one test file recorded as resealed on
    7 October. No stage-5 script reads that result.
-9. **Local assembly time.** An assembly with codes took about 30 minutes of one core on the
-   author's laptop, not the 5 minutes of the assembly without codes. The sensitivity run does
-   its own assemblies on Modal.
+9. **Local assembly time.** An assembly with codes took between 9 and 26 minutes of one core on
+   the author's laptop while other sessions loaded it (about 5 minutes for the assembly without
+   codes). The sensitivity run does its own assemblies on Modal.
