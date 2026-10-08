@@ -1,0 +1,32 @@
+{
+ "run_id": "s5_funnel_v2_2026-10-08",
+ "note": "funnel of the amended primary analysis and of the originally registered analysis, by the corrected copy funnel_v2.py run on Modal: records per stage from the search to the registry",
+ "written_utc": "2026-10-08T17:16:07+00:00",
+ "files": [
+  {
+   "path": "outputs/funnel/2026-10-03_amended_primary_a/funnel.json",
+   "bytes": 32436,
+   "sha256": "ac96ab22a03fa846a045207ee8cbce695e643d837c68ce25cad3d8150a2d1979"
+  },
+  {
+   "path": "outputs/funnel/2026-10-03_amended_primary_a/funnel_run.json",
+   "bytes": 9913,
+   "sha256": "4aa105231145ac024c75898c440d2c1c09469b1810730147c52613a8e9e3c3e7"
+  },
+  {
+   "path": "outputs/funnel/2026-10-03_registered_with_27_a/funnel.json",
+   "bytes": 32384,
+   "sha256": "200139bfc38db424a0cb1bbf590e0d3378d9d215aea1e9e4445c8be485ffd912"
+  },
+  {
+   "path": "outputs/funnel/2026-10-03_registered_with_27_a/funnel_run.json",
+   "bytes": 9705,
+   "sha256": "06b47827787bcda09a46b144ba30610d4518b40163bcefe31066c8e4d44eb3f6"
+  }
+ ],
+ "recorded_directly": [
+  "outputs/funnel/2026-10-03_amended_primary_a/funnel.json",
+  "outputs/funnel/2026-10-03_registered_with_27_a/funnel.json"
+ ],
+ "volume_checks": []
+}

@@ -36,6 +36,7 @@ experiments/02_claims_meta/outputs/raw/**/*.json.gz
 experiments/02_claims_meta/outputs/raw/**/*.xml.gz
 experiments/02_claims_meta/outputs/raw/pubmed/*.xml
 experiments/02_claims_meta/outputs/raw/fulltext/*.xml
+experiments/02_claims_meta/outputs/raw/openalex_metadata/2026-10-03_*/
 
 # Tables that carry the key `abstract`
 experiments/02_claims_meta/outputs/screening*/**/screening_records.jsonl
