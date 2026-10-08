@@ -1,0 +1,2215 @@
+{
+ "written_utc": "2026-10-08T17:31:49+00:00",
+ "note": "post-results planning; metadata only; no full text or supplement fetched",
+ "claims": {
+  "path": "outputs/registry/2026-10-03_amended_primary_coded_a/registry_claims.jsonl",
+  "sha256": "b5ef8c2a7f96a194fea1a1424dc6533060a053fddcb9c0ec1d350c4d38ce492c"
+ },
+ "raw_responses": {
+  "folder": "outputs/raw/release_resolution_availability/2026-10-08",
+  "files": 13
+ },
+ "papers_behind_unresolved_pairs": {
+  "records": 262,
+  "by_category": {
+   "full_text_on_disk": 64,
+   "open_access_full_text_in_europe_pmc": 82,
+   "full_text_in_europe_pmc_not_flagged_open_access": 12,
+   "open_access_by_openalex_only": 65,
+   "closed": 37,
+   "no_status_found": 2
+  },
+  "with_a_full_text_on_disk_or_reachable": 223,
+  "closed_or_no_status": 39,
+  "by_document_class": {
+   "journal": 221,
+   "preprint": 41
+  },
+  "europe_pmc_lists_supplementary_files": {
+   "yes": 138,
+   "no": 67,
+   "no_europe_pmc_record_or_field": 57
+  },
+  "supplementary_files_listed_by_category": {
+   "full_text_in_europe_pmc_not_flagged_open_access": 7,
+   "full_text_on_disk": 59,
+   "open_access_full_text_in_europe_pmc": 72
+  },
+  "openalex_oa_status": {
+   "None": 2,
+   "bronze": 9,
+   "closed": 37,
+   "diamond": 5,
+   "gold": 133,
+   "green": 47,
+   "hybrid": 29
+  }
+ },
+ "papers_behind_any_multi_family_pair": {
+  "records": 266,
+  "by_category": {
+   "full_text_on_disk": 65,
+   "open_access_full_text_in_europe_pmc": 84,
+   "full_text_in_europe_pmc_not_flagged_open_access": 12,
+   "open_access_by_openalex_only": 66,
+   "closed": 37,
+   "no_status_found": 2
+  },
+  "with_a_full_text_on_disk_or_reachable": 227,
+  "closed_or_no_status": 39,
+  "by_document_class": {
+   "journal": 225,
+   "preprint": 41
+  },
+  "europe_pmc_lists_supplementary_files": {
+   "yes": 141,
+   "no": 67,
+   "no_europe_pmc_record_or_field": 58
+  },
+  "supplementary_files_listed_by_category": {
+   "full_text_in_europe_pmc_not_flagged_open_access": 7,
+   "full_text_on_disk": 60,
+   "open_access_full_text_in_europe_pmc": 74
+  },
+  "openalex_oa_status": {
+   "None": 2,
+   "bronze": 9,
+   "closed": 37,
+   "diamond": 5,
+   "gold": 136,
+   "green": 47,
+   "hybrid": 30
+  }
+ },
+ "papers_in_both_sets": 262,
+ "records": {
+  "31208196": {
+   "category": "closed",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "N",
+   "openalex_record": true,
+   "openalex_oa_status": "closed"
+  },
+  "31235487": {
+   "category": "closed",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "N",
+   "openalex_record": true,
+   "openalex_oa_status": "closed"
+  },
+  "31337649": {
+   "category": "full_text_in_europe_pmc_not_flagged_open_access",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "Y",
+   "openalex_record": true,
+   "openalex_oa_status": "gold"
+  },
+  "32928870": {
+   "category": "full_text_in_europe_pmc_not_flagged_open_access",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "N",
+   "openalex_record": true,
+   "openalex_oa_status": "green"
+  },
+  "34172473": {
+   "category": "open_access_full_text_in_europe_pmc",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "Y",
+   "openalex_record": true,
+   "openalex_oa_status": "hybrid"
+  },
+  "34381170": {
+   "category": "closed",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "N",
+   "openalex_record": true,
+   "openalex_oa_status": "closed"
+  },
+  "34465608": {
+   "category": "full_text_in_europe_pmc_not_flagged_open_access",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "Y",
+   "openalex_record": true,
+   "openalex_oa_status": "green"
+  },
+  "34758976": {
+   "category": "open_access_by_openalex_only",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "N",
+   "openalex_record": true,
+   "openalex_oa_status": "bronze"
+  },
+  "34819519": {
+   "category": "open_access_full_text_in_europe_pmc",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "Y",
+   "openalex_record": true,
+   "openalex_oa_status": "gold"
+  },
+  "34857772": {
+   "category": "open_access_full_text_in_europe_pmc",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "Y",
+   "openalex_record": true,
+   "openalex_oa_status": "gold"
+  },
+  "35200038": {
+   "category": "open_access_full_text_in_europe_pmc",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "N",
+   "openalex_record": true,
+   "openalex_oa_status": "gold"
+  },
+  "35252377": {
+   "category": "open_access_full_text_in_europe_pmc",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "Y",
+   "openalex_record": true,
+   "openalex_oa_status": "gold"
+  },
+  "35475137": {
+   "category": "open_access_full_text_in_europe_pmc",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "Y",
+   "openalex_record": true,
+   "openalex_oa_status": "gold"
+  },
+  "35580794": {
+   "category": "open_access_full_text_in_europe_pmc",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "Y",
+   "openalex_record": true,
+   "openalex_oa_status": "hybrid"
+  },
+  "36253349": {
+   "category": "open_access_full_text_in_europe_pmc",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "Y",
+   "openalex_record": true,
+   "openalex_oa_status": "gold"
+  },
+  "36384659": {
+   "category": "open_access_full_text_in_europe_pmc",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "N",
+   "openalex_record": true,
+   "openalex_oa_status": "hybrid"
+  },
+  "36576886": {
+   "category": "open_access_full_text_in_europe_pmc",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "Y",
+   "openalex_record": true,
+   "openalex_oa_status": "hybrid"
+  },
+  "36759259": {
+   "category": "full_text_in_europe_pmc_not_flagged_open_access",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "Y",
+   "openalex_record": true,
+   "openalex_oa_status": "green"
+  },
+  "36857861": {
+   "category": "full_text_on_disk",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "Y",
+   "openalex_record": true,
+   "openalex_oa_status": "gold"
+  },
+  "36864689": {
+   "category": "full_text_on_disk",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "Y",
+   "openalex_record": true,
+   "openalex_oa_status": "hybrid"
+  },
+  "37085628": {
+   "category": "closed",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "N",
+   "openalex_record": true,
+   "openalex_oa_status": "closed"
+  },
+  "37212950": {
+   "category": "open_access_by_openalex_only",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "N",
+   "openalex_record": true,
+   "openalex_oa_status": "green"
+  },
+  "37308750": {
+   "category": "open_access_by_openalex_only",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "N",
+   "openalex_record": true,
+   "openalex_oa_status": "bronze"
+  },
+  "37340071": {
+   "category": "open_access_full_text_in_europe_pmc",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "Y",
+   "openalex_record": true,
+   "openalex_oa_status": "gold"
+  },
+  "37492198": {
+   "category": "open_access_by_openalex_only",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "N",
+   "openalex_record": true,
+   "openalex_oa_status": "gold"
+  },
+  "37516812": {
+   "category": "open_access_full_text_in_europe_pmc",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "Y",
+   "openalex_record": true,
+   "openalex_oa_status": "gold"
+  },
+  "37537391": {
+   "category": "open_access_full_text_in_europe_pmc",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "Y",
+   "openalex_record": true,
+   "openalex_oa_status": "hybrid"
+  },
+  "37581400": {
+   "category": "open_access_full_text_in_europe_pmc",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "Y",
+   "openalex_record": true,
+   "openalex_oa_status": "gold"
+  },
+  "37662610": {
+   "category": "open_access_full_text_in_europe_pmc",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "Y",
+   "openalex_record": true,
+   "openalex_oa_status": "diamond"
+  },
+  "37679517": {
+   "category": "full_text_in_europe_pmc_not_flagged_open_access",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "Y",
+   "openalex_record": true,
+   "openalex_oa_status": "green"
+  },
+  "37726845": {
+   "category": "full_text_on_disk",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "Y",
+   "openalex_record": true,
+   "openalex_oa_status": "gold"
+  },
+  "37735436": {
+   "category": "full_text_on_disk",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "Y",
+   "openalex_record": true,
+   "openalex_oa_status": "gold"
+  },
+  "37774922": {
+   "category": "open_access_by_openalex_only",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "N",
+   "openalex_record": true,
+   "openalex_oa_status": "hybrid"
+  },
+  "37809092": {
+   "category": "full_text_on_disk",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "Y",
+   "openalex_record": true,
+   "openalex_oa_status": "gold"
+  },
+  "37865667": {
+   "category": "open_access_full_text_in_europe_pmc",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "Y",
+   "openalex_record": true,
+   "openalex_oa_status": "gold"
+  },
+  "37904919": {
+   "category": "open_access_by_openalex_only",
+   "kind": "preprint",
+   "europe_pmc_record": false,
+   "europe_pmc_lists_supplementary_files": null,
+   "openalex_record": true,
+   "openalex_oa_status": "green"
+  },
+  "37915587": {
+   "category": "open_access_full_text_in_europe_pmc",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "Y",
+   "openalex_record": true,
+   "openalex_oa_status": "gold"
+  },
+  "37967346": {
+   "category": "open_access_full_text_in_europe_pmc",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "Y",
+   "openalex_record": true,
+   "openalex_oa_status": "hybrid"
+  },
+  "37996402": {
+   "category": "full_text_on_disk",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "Y",
+   "openalex_record": true,
+   "openalex_oa_status": "gold"
+  },
+  "38029854": {
+   "category": "open_access_full_text_in_europe_pmc",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "Y",
+   "openalex_record": true,
+   "openalex_oa_status": "hybrid"
+  },
+  "38049831": {
+   "category": "full_text_on_disk",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "Y",
+   "openalex_record": true,
+   "openalex_oa_status": "gold"
+  },
+  "38065874": {
+   "category": "open_access_full_text_in_europe_pmc",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "N",
+   "openalex_record": true,
+   "openalex_oa_status": "gold"
+  },
+  "38096329": {
+   "category": "open_access_full_text_in_europe_pmc",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "Y",
+   "openalex_record": true,
+   "openalex_oa_status": "gold"
+  },
+  "38152968": {
+   "category": "full_text_in_europe_pmc_not_flagged_open_access",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "Y",
+   "openalex_record": true,
+   "openalex_oa_status": "green"
+  },
+  "38240717": {
+   "category": "open_access_full_text_in_europe_pmc",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "Y",
+   "openalex_record": true,
+   "openalex_oa_status": "hybrid"
+  },
+  "38304232": {
+   "category": "open_access_full_text_in_europe_pmc",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "Y",
+   "openalex_record": true,
+   "openalex_oa_status": "gold"
+  },
+  "38410634": {
+   "category": "full_text_on_disk",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "N",
+   "openalex_record": true,
+   "openalex_oa_status": "gold"
+  },
+  "38429390": {
+   "category": "open_access_full_text_in_europe_pmc",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "Y",
+   "openalex_record": true,
+   "openalex_oa_status": "hybrid"
+  },
+  "38450985": {
+   "category": "open_access_by_openalex_only",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "N",
+   "openalex_record": true,
+   "openalex_oa_status": "bronze"
+  },
+  "38455364": {
+   "category": "open_access_full_text_in_europe_pmc",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "Y",
+   "openalex_record": true,
+   "openalex_oa_status": "gold"
+  },
+  "38515381": {
+   "category": "open_access_by_openalex_only",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "N",
+   "openalex_record": true,
+   "openalex_oa_status": "diamond"
+  },
+  "38562480": {
+   "category": "open_access_full_text_in_europe_pmc",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "Y",
+   "openalex_record": true,
+   "openalex_oa_status": "gold"
+  },
+  "38605099": {
+   "category": "full_text_on_disk",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "Y",
+   "openalex_record": true,
+   "openalex_oa_status": "gold"
+  },
+  "38623619": {
+   "category": "full_text_on_disk",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "Y",
+   "openalex_record": true,
+   "openalex_oa_status": "green"
+  },
+  "38637810": {
+   "category": "full_text_on_disk",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "Y",
+   "openalex_record": true,
+   "openalex_oa_status": "gold"
+  },
+  "38679119": {
+   "category": "closed",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "N",
+   "openalex_record": true,
+   "openalex_oa_status": "closed"
+  },
+  "38689297": {
+   "category": "open_access_full_text_in_europe_pmc",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "Y",
+   "openalex_record": true,
+   "openalex_oa_status": "gold"
+  },
+  "38730525": {
+   "category": "open_access_full_text_in_europe_pmc",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "Y",
+   "openalex_record": true,
+   "openalex_oa_status": "gold"
+  },
+  "38773393": {
+   "category": "open_access_full_text_in_europe_pmc",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "Y",
+   "openalex_record": true,
+   "openalex_oa_status": "gold"
+  },
+  "38782984": {
+   "category": "open_access_full_text_in_europe_pmc",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "Y",
+   "openalex_record": true,
+   "openalex_oa_status": "gold"
+  },
+  "38820305": {
+   "category": "open_access_full_text_in_europe_pmc",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "Y",
+   "openalex_record": true,
+   "openalex_oa_status": "gold"
+  },
+  "38820838": {
+   "category": "open_access_by_openalex_only",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "N",
+   "openalex_record": true,
+   "openalex_oa_status": "hybrid"
+  },
+  "38828357": {
+   "category": "open_access_full_text_in_europe_pmc",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "Y",
+   "openalex_record": true,
+   "openalex_oa_status": "gold"
+  },
+  "38871465": {
+   "category": "closed",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "N",
+   "openalex_record": true,
+   "openalex_oa_status": "closed"
+  },
+  "38875042": {
+   "category": "closed",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "N",
+   "openalex_record": true,
+   "openalex_oa_status": "closed"
+  },
+  "38887235": {
+   "category": "full_text_on_disk",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "Y",
+   "openalex_record": true,
+   "openalex_oa_status": "gold"
+  },
+  "38892221": {
+   "category": "full_text_on_disk",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "Y",
+   "openalex_record": true,
+   "openalex_oa_status": "gold"
+  },
+  "38898508": {
+   "category": "open_access_full_text_in_europe_pmc",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "Y",
+   "openalex_record": true,
+   "openalex_oa_status": "gold"
+  },
+  "38903171": {
+   "category": "full_text_on_disk",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "Y",
+   "openalex_record": true,
+   "openalex_oa_status": "gold"
+  },
+  "38957317": {
+   "category": "open_access_full_text_in_europe_pmc",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "Y",
+   "openalex_record": true,
+   "openalex_oa_status": "gold"
+  },
+  "38964432": {
+   "category": "open_access_by_openalex_only",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "N",
+   "openalex_record": true,
+   "openalex_oa_status": "gold"
+  },
+  "38976909": {
+   "category": "open_access_full_text_in_europe_pmc",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "N",
+   "openalex_record": true,
+   "openalex_oa_status": "hybrid"
+  },
+  "38989470": {
+   "category": "open_access_full_text_in_europe_pmc",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "Y",
+   "openalex_record": true,
+   "openalex_oa_status": "gold"
+  },
+  "39006495": {
+   "category": "full_text_on_disk",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "N",
+   "openalex_record": true,
+   "openalex_oa_status": "gold"
+  },
+  "39010723": {
+   "category": "full_text_on_disk",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "Y",
+   "openalex_record": true,
+   "openalex_oa_status": "gold"
+  },
+  "39025905": {
+   "category": "open_access_full_text_in_europe_pmc",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "Y",
+   "openalex_record": true,
+   "openalex_oa_status": "gold"
+  },
+  "39029667": {
+   "category": "closed",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "N",
+   "openalex_record": true,
+   "openalex_oa_status": "closed"
+  },
+  "39036049": {
+   "category": "full_text_on_disk",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "Y",
+   "openalex_record": true,
+   "openalex_oa_status": "gold"
+  },
+  "39040677": {
+   "category": "full_text_on_disk",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "Y",
+   "openalex_record": true,
+   "openalex_oa_status": "gold"
+  },
+  "39068416": {
+   "category": "open_access_full_text_in_europe_pmc",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "Y",
+   "openalex_record": true,
+   "openalex_oa_status": "gold"
+  },
+  "39116956": {
+   "category": "open_access_by_openalex_only",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "N",
+   "openalex_record": true,
+   "openalex_oa_status": "gold"
+  },
+  "39119725": {
+   "category": "full_text_in_europe_pmc_not_flagged_open_access",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "Y",
+   "openalex_record": true,
+   "openalex_oa_status": "green"
+  },
+  "39136778": {
+   "category": "closed",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "N",
+   "openalex_record": true,
+   "openalex_oa_status": "closed"
+  },
+  "39148858": {
+   "category": "open_access_by_openalex_only",
+   "kind": "preprint",
+   "europe_pmc_record": false,
+   "europe_pmc_lists_supplementary_files": null,
+   "openalex_record": true,
+   "openalex_oa_status": "green"
+  },
+  "39156738": {
+   "category": "full_text_on_disk",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "Y",
+   "openalex_record": true,
+   "openalex_oa_status": "gold"
+  },
+  "39221148": {
+   "category": "full_text_on_disk",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "Y",
+   "openalex_record": true,
+   "openalex_oa_status": "gold"
+  },
+  "39237840": {
+   "category": "closed",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "N",
+   "openalex_record": true,
+   "openalex_oa_status": "closed"
+  },
+  "39247875": {
+   "category": "full_text_on_disk",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "Y",
+   "openalex_record": true,
+   "openalex_oa_status": "diamond"
+  },
+  "39267832": {
+   "category": "open_access_full_text_in_europe_pmc",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "Y",
+   "openalex_record": true,
+   "openalex_oa_status": "gold"
+  },
+  "39273172": {
+   "category": "open_access_full_text_in_europe_pmc",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "Y",
+   "openalex_record": true,
+   "openalex_oa_status": "gold"
+  },
+  "39297226": {
+   "category": "open_access_full_text_in_europe_pmc",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "N",
+   "openalex_record": true,
+   "openalex_oa_status": "hybrid"
+  },
+  "39351539": {
+   "category": "full_text_on_disk",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "Y",
+   "openalex_record": true,
+   "openalex_oa_status": "gold"
+  },
+  "39355913": {
+   "category": "closed",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "N",
+   "openalex_record": true,
+   "openalex_oa_status": "closed"
+  },
+  "39386869": {
+   "category": "open_access_full_text_in_europe_pmc",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "Y",
+   "openalex_record": true,
+   "openalex_oa_status": "gold"
+  },
+  "39392298": {
+   "category": "full_text_on_disk",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "Y",
+   "openalex_record": true,
+   "openalex_oa_status": "gold"
+  },
+  "39397782": {
+   "category": "full_text_on_disk",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "Y",
+   "openalex_record": true,
+   "openalex_oa_status": "hybrid"
+  },
+  "39398994": {
+   "category": "open_access_by_openalex_only",
+   "kind": "preprint",
+   "europe_pmc_record": false,
+   "europe_pmc_lists_supplementary_files": null,
+   "openalex_record": true,
+   "openalex_oa_status": "green"
+  },
+  "39400547": {
+   "category": "open_access_by_openalex_only",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "N",
+   "openalex_record": true,
+   "openalex_oa_status": "bronze"
+  },
+  "39408566": {
+   "category": "open_access_full_text_in_europe_pmc",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "Y",
+   "openalex_record": true,
+   "openalex_oa_status": "gold"
+  },
+  "39434187": {
+   "category": "open_access_full_text_in_europe_pmc",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "Y",
+   "openalex_record": true,
+   "openalex_oa_status": "gold"
+  },
+  "39492919": {
+   "category": "open_access_full_text_in_europe_pmc",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "Y",
+   "openalex_record": true,
+   "openalex_oa_status": "gold"
+  },
+  "39536725": {
+   "category": "closed",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "N",
+   "openalex_record": true,
+   "openalex_oa_status": "closed"
+  },
+  "39562718": {
+   "category": "closed",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "N",
+   "openalex_record": true,
+   "openalex_oa_status": "closed"
+  },
+  "39572695": {
+   "category": "full_text_on_disk",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "Y",
+   "openalex_record": true,
+   "openalex_oa_status": "hybrid"
+  },
+  "39574905": {
+   "category": "open_access_full_text_in_europe_pmc",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "Y",
+   "openalex_record": true,
+   "openalex_oa_status": "gold"
+  },
+  "39585470": {
+   "category": "closed",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "N",
+   "openalex_record": true,
+   "openalex_oa_status": "closed"
+  },
+  "39592890": {
+   "category": "full_text_on_disk",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "Y",
+   "openalex_record": true,
+   "openalex_oa_status": "hybrid"
+  },
+  "39637861": {
+   "category": "full_text_on_disk",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "Y",
+   "openalex_record": true,
+   "openalex_oa_status": "gold"
+  },
+  "39669686": {
+   "category": "full_text_on_disk",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "N",
+   "openalex_record": true,
+   "openalex_oa_status": "gold"
+  },
+  "39723341": {
+   "category": "open_access_full_text_in_europe_pmc",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "N",
+   "openalex_record": true,
+   "openalex_oa_status": "gold"
+  },
+  "39747981": {
+   "category": "full_text_on_disk",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "Y",
+   "openalex_record": true,
+   "openalex_oa_status": "gold"
+  },
+  "39755304": {
+   "category": "closed",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "N",
+   "openalex_record": true,
+   "openalex_oa_status": "closed"
+  },
+  "39763524": {
+   "category": "open_access_by_openalex_only",
+   "kind": "preprint",
+   "europe_pmc_record": false,
+   "europe_pmc_lists_supplementary_files": null,
+   "openalex_record": true,
+   "openalex_oa_status": "green"
+  },
+  "39802509": {
+   "category": "open_access_full_text_in_europe_pmc",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "N",
+   "openalex_record": true,
+   "openalex_oa_status": "gold"
+  },
+  "39806440": {
+   "category": "full_text_on_disk",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "Y",
+   "openalex_record": true,
+   "openalex_oa_status": "gold"
+  },
+  "39823480": {
+   "category": "open_access_full_text_in_europe_pmc",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "Y",
+   "openalex_record": true,
+   "openalex_oa_status": "gold"
+  },
+  "39824903": {
+   "category": "full_text_on_disk",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "Y",
+   "openalex_record": true,
+   "openalex_oa_status": "gold"
+  },
+  "39842943": {
+   "category": "full_text_in_europe_pmc_not_flagged_open_access",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "N",
+   "openalex_record": true,
+   "openalex_oa_status": "green"
+  },
+  "39844246": {
+   "category": "full_text_on_disk",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "Y",
+   "openalex_record": true,
+   "openalex_oa_status": "gold"
+  },
+  "39846783": {
+   "category": "open_access_full_text_in_europe_pmc",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "Y",
+   "openalex_record": true,
+   "openalex_oa_status": "hybrid"
+  },
+  "39856218": {
+   "category": "open_access_full_text_in_europe_pmc",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "Y",
+   "openalex_record": true,
+   "openalex_oa_status": "hybrid"
+  },
+  "39870808": {
+   "category": "open_access_full_text_in_europe_pmc",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "Y",
+   "openalex_record": true,
+   "openalex_oa_status": "gold"
+  },
+  "39885106": {
+   "category": "closed",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "N",
+   "openalex_record": true,
+   "openalex_oa_status": "closed"
+  },
+  "39887658": {
+   "category": "full_text_on_disk",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "Y",
+   "openalex_record": true,
+   "openalex_oa_status": "hybrid"
+  },
+  "39895541": {
+   "category": "full_text_on_disk",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "Y",
+   "openalex_record": true,
+   "openalex_oa_status": "gold"
+  },
+  "39911230": {
+   "category": "open_access_full_text_in_europe_pmc",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "Y",
+   "openalex_record": true,
+   "openalex_oa_status": "gold"
+  },
+  "39933395": {
+   "category": "closed",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "N",
+   "openalex_record": true,
+   "openalex_oa_status": "closed"
+  },
+  "39960916": {
+   "category": "open_access_full_text_in_europe_pmc",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "Y",
+   "openalex_record": true,
+   "openalex_oa_status": "gold"
+  },
+  "39979251": {
+   "category": "open_access_full_text_in_europe_pmc",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "Y",
+   "openalex_record": true,
+   "openalex_oa_status": "gold"
+  },
+  "39994764": {
+   "category": "full_text_on_disk",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "Y",
+   "openalex_record": true,
+   "openalex_oa_status": "gold"
+  },
+  "40008516": {
+   "category": "open_access_full_text_in_europe_pmc",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "Y",
+   "openalex_record": true,
+   "openalex_oa_status": "gold"
+  },
+  "40026415": {
+   "category": "full_text_on_disk",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "Y",
+   "openalex_record": true,
+   "openalex_oa_status": "gold"
+  },
+  "40037332": {
+   "category": "full_text_on_disk",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "Y",
+   "openalex_record": true,
+   "openalex_oa_status": "hybrid"
+  },
+  "40038097": {
+   "category": "closed",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "N",
+   "openalex_record": true,
+   "openalex_oa_status": "closed"
+  },
+  "40050982": {
+   "category": "open_access_full_text_in_europe_pmc",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "Y",
+   "openalex_record": true,
+   "openalex_oa_status": "gold"
+  },
+  "40052860": {
+   "category": "full_text_on_disk",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "Y",
+   "openalex_record": true,
+   "openalex_oa_status": "gold"
+  },
+  "40061319": {
+   "category": "open_access_by_openalex_only",
+   "kind": "preprint",
+   "europe_pmc_record": false,
+   "europe_pmc_lists_supplementary_files": null,
+   "openalex_record": true,
+   "openalex_oa_status": "green"
+  },
+  "40108295": {
+   "category": "full_text_on_disk",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "Y",
+   "openalex_record": true,
+   "openalex_oa_status": "gold"
+  },
+  "40135555": {
+   "category": "open_access_full_text_in_europe_pmc",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "Y",
+   "openalex_record": true,
+   "openalex_oa_status": "gold"
+  },
+  "40148470": {
+   "category": "open_access_full_text_in_europe_pmc",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "Y",
+   "openalex_record": true,
+   "openalex_oa_status": "gold"
+  },
+  "40149599": {
+   "category": "open_access_full_text_in_europe_pmc",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "Y",
+   "openalex_record": true,
+   "openalex_oa_status": "gold"
+  },
+  "40186323": {
+   "category": "open_access_full_text_in_europe_pmc",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "Y",
+   "openalex_record": true,
+   "openalex_oa_status": "gold"
+  },
+  "40193678": {
+   "category": "full_text_on_disk",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "Y",
+   "openalex_record": true,
+   "openalex_oa_status": "gold"
+  },
+  "40225784": {
+   "category": "open_access_full_text_in_europe_pmc",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "Y",
+   "openalex_record": true,
+   "openalex_oa_status": "gold"
+  },
+  "40263317": {
+   "category": "open_access_full_text_in_europe_pmc",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "Y",
+   "openalex_record": true,
+   "openalex_oa_status": "gold"
+  },
+  "40266545": {
+   "category": "closed",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "N",
+   "openalex_record": true,
+   "openalex_oa_status": "closed"
+  },
+  "40267509": {
+   "category": "closed",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "N",
+   "openalex_record": true,
+   "openalex_oa_status": "closed"
+  },
+  "40269081": {
+   "category": "full_text_on_disk",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "Y",
+   "openalex_record": true,
+   "openalex_oa_status": "gold"
+  },
+  "40304587": {
+   "category": "open_access_full_text_in_europe_pmc",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "Y",
+   "openalex_record": true,
+   "openalex_oa_status": "gold"
+  },
+  "40327005": {
+   "category": "full_text_on_disk",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "Y",
+   "openalex_record": true,
+   "openalex_oa_status": "gold"
+  },
+  "40355193": {
+   "category": "full_text_on_disk",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "Y",
+   "openalex_record": true,
+   "openalex_oa_status": "gold"
+  },
+  "40380075": {
+   "category": "closed",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "N",
+   "openalex_record": true,
+   "openalex_oa_status": "closed"
+  },
+  "40400956": {
+   "category": "full_text_on_disk",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "Y",
+   "openalex_record": true,
+   "openalex_oa_status": "diamond"
+  },
+  "40420090": {
+   "category": "full_text_on_disk",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "Y",
+   "openalex_record": true,
+   "openalex_oa_status": "gold"
+  },
+  "40426943": {
+   "category": "open_access_full_text_in_europe_pmc",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "Y",
+   "openalex_record": true,
+   "openalex_oa_status": "gold"
+  },
+  "40442727": {
+   "category": "full_text_on_disk",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "Y",
+   "openalex_record": true,
+   "openalex_oa_status": "gold"
+  },
+  "40444654": {
+   "category": "full_text_on_disk",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "Y",
+   "openalex_record": true,
+   "openalex_oa_status": "gold"
+  },
+  "40450304": {
+   "category": "full_text_on_disk",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "Y",
+   "openalex_record": true,
+   "openalex_oa_status": "gold"
+  },
+  "40452368": {
+   "category": "closed",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "N",
+   "openalex_record": true,
+   "openalex_oa_status": "closed"
+  },
+  "40453312": {
+   "category": "open_access_full_text_in_europe_pmc",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "Y",
+   "openalex_record": true,
+   "openalex_oa_status": "gold"
+  },
+  "40455174": {
+   "category": "open_access_full_text_in_europe_pmc",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "Y",
+   "openalex_record": true,
+   "openalex_oa_status": "gold"
+  },
+  "40462010": {
+   "category": "full_text_on_disk",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "Y",
+   "openalex_record": true,
+   "openalex_oa_status": "gold"
+  },
+  "40533710": {
+   "category": "full_text_on_disk",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "Y",
+   "openalex_record": true,
+   "openalex_oa_status": "gold"
+  },
+  "40596960": {
+   "category": "full_text_on_disk",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "Y",
+   "openalex_record": true,
+   "openalex_oa_status": "gold"
+  },
+  "40604874": {
+   "category": "open_access_full_text_in_europe_pmc",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "Y",
+   "openalex_record": true,
+   "openalex_oa_status": "gold"
+  },
+  "40657364": {
+   "category": "full_text_on_disk",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "Y",
+   "openalex_record": true,
+   "openalex_oa_status": "gold"
+  },
+  "40671653": {
+   "category": "full_text_in_europe_pmc_not_flagged_open_access",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "Y",
+   "openalex_record": true,
+   "openalex_oa_status": "green"
+  },
+  "40684027": {
+   "category": "closed",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "N",
+   "openalex_record": true,
+   "openalex_oa_status": "closed"
+  },
+  "40689090": {
+   "category": "open_access_full_text_in_europe_pmc",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "Y",
+   "openalex_record": true,
+   "openalex_oa_status": "gold"
+  },
+  "40696606": {
+   "category": "open_access_full_text_in_europe_pmc",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "Y",
+   "openalex_record": true,
+   "openalex_oa_status": "gold"
+  },
+  "40754897": {
+   "category": "full_text_in_europe_pmc_not_flagged_open_access",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "N",
+   "openalex_record": true,
+   "openalex_oa_status": "green"
+  },
+  "40779076": {
+   "category": "open_access_full_text_in_europe_pmc",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "N",
+   "openalex_record": true,
+   "openalex_oa_status": "gold"
+  },
+  "40813130": {
+   "category": "open_access_by_openalex_only",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "N",
+   "openalex_record": true,
+   "openalex_oa_status": "hybrid"
+  },
+  "40820167": {
+   "category": "open_access_full_text_in_europe_pmc",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "Y",
+   "openalex_record": true,
+   "openalex_oa_status": "gold"
+  },
+  "40827287": {
+   "category": "full_text_in_europe_pmc_not_flagged_open_access",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "N",
+   "openalex_record": true,
+   "openalex_oa_status": "gold"
+  },
+  "40893937": {
+   "category": "open_access_full_text_in_europe_pmc",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "Y",
+   "openalex_record": true,
+   "openalex_oa_status": "gold"
+  },
+  "40897285": {
+   "category": "closed",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "N",
+   "openalex_record": true,
+   "openalex_oa_status": "closed"
+  },
+  "40974265": {
+   "category": "closed",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "N",
+   "openalex_record": true,
+   "openalex_oa_status": "closed"
+  },
+  "40991151": {
+   "category": "open_access_full_text_in_europe_pmc",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "Y",
+   "openalex_record": true,
+   "openalex_oa_status": "hybrid"
+  },
+  "40996951": {
+   "category": "full_text_on_disk",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "Y",
+   "openalex_record": true,
+   "openalex_oa_status": "gold"
+  },
+  "41063246": {
+   "category": "open_access_full_text_in_europe_pmc",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "Y",
+   "openalex_record": true,
+   "openalex_oa_status": "gold"
+  },
+  "41088581": {
+   "category": "open_access_full_text_in_europe_pmc",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "Y",
+   "openalex_record": true,
+   "openalex_oa_status": "gold"
+  },
+  "41098849": {
+   "category": "full_text_on_disk",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "N",
+   "openalex_record": true,
+   "openalex_oa_status": "gold"
+  },
+  "41138838": {
+   "category": "closed",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "N",
+   "openalex_record": true,
+   "openalex_oa_status": "closed"
+  },
+  "41142151": {
+   "category": "full_text_on_disk",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "Y",
+   "openalex_record": true,
+   "openalex_oa_status": "gold"
+  },
+  "41158172": {
+   "category": "full_text_in_europe_pmc_not_flagged_open_access",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "N",
+   "openalex_record": true,
+   "openalex_oa_status": "gold"
+  },
+  "41180196": {
+   "category": "open_access_full_text_in_europe_pmc",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "Y",
+   "openalex_record": true,
+   "openalex_oa_status": "gold"
+  },
+  "41193035": {
+   "category": "closed",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "N",
+   "openalex_record": true,
+   "openalex_oa_status": "closed"
+  },
+  "41200167": {
+   "category": "full_text_on_disk",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "Y",
+   "openalex_record": true,
+   "openalex_oa_status": "gold"
+  },
+  "41200820": {
+   "category": "full_text_on_disk",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "Y",
+   "openalex_record": true,
+   "openalex_oa_status": "hybrid"
+  },
+  "41209747": {
+   "category": "open_access_full_text_in_europe_pmc",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "N",
+   "openalex_record": true,
+   "openalex_oa_status": "gold"
+  },
+  "41239582": {
+   "category": "full_text_on_disk",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "Y",
+   "openalex_record": true,
+   "openalex_oa_status": "gold"
+  },
+  "41247789": {
+   "category": "full_text_on_disk",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "Y",
+   "openalex_record": true,
+   "openalex_oa_status": "gold"
+  },
+  "41251751": {
+   "category": "closed",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "N",
+   "openalex_record": true,
+   "openalex_oa_status": "closed"
+  },
+  "41254737": {
+   "category": "full_text_on_disk",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "Y",
+   "openalex_record": true,
+   "openalex_oa_status": "gold"
+  },
+  "41261583": {
+   "category": "open_access_full_text_in_europe_pmc",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "Y",
+   "openalex_record": true,
+   "openalex_oa_status": "gold"
+  },
+  "41261649": {
+   "category": "full_text_on_disk",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "Y",
+   "openalex_record": true,
+   "openalex_oa_status": "gold"
+  },
+  "41270069": {
+   "category": "open_access_full_text_in_europe_pmc",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "Y",
+   "openalex_record": true,
+   "openalex_oa_status": "gold"
+  },
+  "41286868": {
+   "category": "full_text_on_disk",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "Y",
+   "openalex_record": true,
+   "openalex_oa_status": "gold"
+  },
+  "41287581": {
+   "category": "closed",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "N",
+   "openalex_record": true,
+   "openalex_oa_status": "closed"
+  },
+  "41306657": {
+   "category": "full_text_on_disk",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "N",
+   "openalex_record": true,
+   "openalex_oa_status": "gold"
+  },
+  "41323472": {
+   "category": "full_text_on_disk",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "Y",
+   "openalex_record": true,
+   "openalex_oa_status": "gold"
+  },
+  "41350740": {
+   "category": "open_access_full_text_in_europe_pmc",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "Y",
+   "openalex_record": true,
+   "openalex_oa_status": "gold"
+  },
+  "41358287": {
+   "category": "open_access_by_openalex_only",
+   "kind": "preprint",
+   "europe_pmc_record": false,
+   "europe_pmc_lists_supplementary_files": null,
+   "openalex_record": true,
+   "openalex_oa_status": "green"
+  },
+  "41372872": {
+   "category": "open_access_full_text_in_europe_pmc",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "Y",
+   "openalex_record": true,
+   "openalex_oa_status": "gold"
+  },
+  "41387240": {
+   "category": "closed",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "N",
+   "openalex_record": true,
+   "openalex_oa_status": "closed"
+  },
+  "41398348": {
+   "category": "open_access_full_text_in_europe_pmc",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "Y",
+   "openalex_record": true,
+   "openalex_oa_status": "gold"
+  },
+  "41417678": {
+   "category": "closed",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "N",
+   "openalex_record": true,
+   "openalex_oa_status": "closed"
+  },
+  "41423778": {
+   "category": "closed",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "N",
+   "openalex_record": true,
+   "openalex_oa_status": "closed"
+  },
+  "41442772": {
+   "category": "open_access_by_openalex_only",
+   "kind": "journal",
+   "europe_pmc_record": false,
+   "europe_pmc_lists_supplementary_files": null,
+   "openalex_record": true,
+   "openalex_oa_status": "hybrid"
+  },
+  "41478252": {
+   "category": "closed",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "N",
+   "openalex_record": true,
+   "openalex_oa_status": "closed"
+  },
+  "41480606": {
+   "category": "open_access_full_text_in_europe_pmc",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "N",
+   "openalex_record": true,
+   "openalex_oa_status": "diamond"
+  },
+  "41494198": {
+   "category": "open_access_by_openalex_only",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "N",
+   "openalex_record": true,
+   "openalex_oa_status": "hybrid"
+  },
+  "41540382": {
+   "category": "full_text_on_disk",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "Y",
+   "openalex_record": true,
+   "openalex_oa_status": "gold"
+  },
+  "42133815": {
+   "category": "open_access_by_openalex_only",
+   "kind": "journal",
+   "europe_pmc_record": true,
+   "europe_pmc_lists_supplementary_files": "N",
+   "openalex_record": true,
+   "openalex_oa_status": "hybrid"
+  },
+  "PPR1006423": {
+   "category": "open_access_by_openalex_only",
+   "kind": "preprint",
+   "europe_pmc_record": false,
+   "europe_pmc_lists_supplementary_files": null,
+   "openalex_record": true,
+   "openalex_oa_status": "green"
+  },
+  "PPR1027188": {
+   "category": "open_access_by_openalex_only",
+   "kind": "preprint",
+   "europe_pmc_record": false,
+   "europe_pmc_lists_supplementary_files": null,
+   "openalex_record": true,
+   "openalex_oa_status": "green"
+  },
+  "PPR1066984": {
+   "category": "open_access_by_openalex_only",
+   "kind": "preprint",
+   "europe_pmc_record": false,
+   "europe_pmc_lists_supplementary_files": null,
+   "openalex_record": true,
+   "openalex_oa_status": "green"
+  },
+  "PPR1123489": {
+   "category": "open_access_by_openalex_only",
+   "kind": "preprint",
+   "europe_pmc_record": false,
+   "europe_pmc_lists_supplementary_files": null,
+   "openalex_record": true,
+   "openalex_oa_status": "green"
+  },
+  "PPR1190648": {
+   "category": "open_access_by_openalex_only",
+   "kind": "preprint",
+   "europe_pmc_record": false,
+   "europe_pmc_lists_supplementary_files": null,
+   "openalex_record": true,
+   "openalex_oa_status": "gold"
+  },
+  "PPR1199543": {
+   "category": "open_access_by_openalex_only",
+   "kind": "preprint",
+   "europe_pmc_record": false,
+   "europe_pmc_lists_supplementary_files": null,
+   "openalex_record": true,
+   "openalex_oa_status": "gold"
+  },
+  "PPR1200638": {
+   "category": "open_access_by_openalex_only",
+   "kind": "preprint",
+   "europe_pmc_record": false,
+   "europe_pmc_lists_supplementary_files": null,
+   "openalex_record": true,
+   "openalex_oa_status": "gold"
+  },
+  "PPR1267739": {
+   "category": "open_access_by_openalex_only",
+   "kind": "preprint",
+   "europe_pmc_record": false,
+   "europe_pmc_lists_supplementary_files": null,
+   "openalex_record": true,
+   "openalex_oa_status": "green"
+  },
+  "PPR305334": {
+   "category": "open_access_by_openalex_only",
+   "kind": "preprint",
+   "europe_pmc_record": false,
+   "europe_pmc_lists_supplementary_files": null,
+   "openalex_record": true,
+   "openalex_oa_status": "green"
+  },
+  "PPR379555": {
+   "category": "open_access_by_openalex_only",
+   "kind": "preprint",
+   "europe_pmc_record": false,
+   "europe_pmc_lists_supplementary_files": null,
+   "openalex_record": true,
+   "openalex_oa_status": "green"
+  },
+  "PPR410988": {
+   "category": "open_access_by_openalex_only",
+   "kind": "preprint",
+   "europe_pmc_record": false,
+   "europe_pmc_lists_supplementary_files": null,
+   "openalex_record": true,
+   "openalex_oa_status": "green"
+  },
+  "PPR640820": {
+   "category": "open_access_by_openalex_only",
+   "kind": "preprint",
+   "europe_pmc_record": false,
+   "europe_pmc_lists_supplementary_files": null,
+   "openalex_record": true,
+   "openalex_oa_status": "green"
+  },
+  "PPR670277": {
+   "category": "open_access_by_openalex_only",
+   "kind": "preprint",
+   "europe_pmc_record": false,
+   "europe_pmc_lists_supplementary_files": null,
+   "openalex_record": true,
+   "openalex_oa_status": "green"
+  },
+  "PPR686069": {
+   "category": "open_access_by_openalex_only",
+   "kind": "preprint",
+   "europe_pmc_record": false,
+   "europe_pmc_lists_supplementary_files": null,
+   "openalex_record": true,
+   "openalex_oa_status": "green"
+  },
+  "PPR763954": {
+   "category": "open_access_by_openalex_only",
+   "kind": "preprint",
+   "europe_pmc_record": false,
+   "europe_pmc_lists_supplementary_files": null,
+   "openalex_record": true,
+   "openalex_oa_status": "green"
+  },
+  "PPR764288": {
+   "category": "open_access_by_openalex_only",
+   "kind": "preprint",
+   "europe_pmc_record": false,
+   "europe_pmc_lists_supplementary_files": null,
+   "openalex_record": true,
+   "openalex_oa_status": "green"
+  },
+  "PPR770199": {
+   "category": "open_access_by_openalex_only",
+   "kind": "preprint",
+   "europe_pmc_record": false,
+   "europe_pmc_lists_supplementary_files": null,
+   "openalex_record": true,
+   "openalex_oa_status": "green"
+  },
+  "PPR791620": {
+   "category": "open_access_by_openalex_only",
+   "kind": "preprint",
+   "europe_pmc_record": false,
+   "europe_pmc_lists_supplementary_files": null,
+   "openalex_record": true,
+   "openalex_oa_status": "green"
+  },
+  "PPR811933": {
+   "category": "open_access_by_openalex_only",
+   "kind": "preprint",
+   "europe_pmc_record": false,
+   "europe_pmc_lists_supplementary_files": null,
+   "openalex_record": true,
+   "openalex_oa_status": "green"
+  },
+  "PPR839797": {
+   "category": "open_access_by_openalex_only",
+   "kind": "preprint",
+   "europe_pmc_record": false,
+   "europe_pmc_lists_supplementary_files": null,
+   "openalex_record": true,
+   "openalex_oa_status": "green"
+  },
+  "PPR858640": {
+   "category": "closed",
+   "kind": "preprint",
+   "europe_pmc_record": false,
+   "europe_pmc_lists_supplementary_files": null,
+   "openalex_record": true,
+   "openalex_oa_status": "closed"
+  },
+  "PPR888008": {
+   "category": "open_access_by_openalex_only",
+   "kind": "preprint",
+   "europe_pmc_record": false,
+   "europe_pmc_lists_supplementary_files": null,
+   "openalex_record": true,
+   "openalex_oa_status": "green"
+  },
+  "PPR904406": {
+   "category": "open_access_by_openalex_only",
+   "kind": "preprint",
+   "europe_pmc_record": false,
+   "europe_pmc_lists_supplementary_files": null,
+   "openalex_record": true,
+   "openalex_oa_status": "green"
+  },
+  "PPR905535": {
+   "category": "open_access_by_openalex_only",
+   "kind": "preprint",
+   "europe_pmc_record": false,
+   "europe_pmc_lists_supplementary_files": null,
+   "openalex_record": true,
+   "openalex_oa_status": "green"
+  },
+  "PPR911454": {
+   "category": "open_access_by_openalex_only",
+   "kind": "preprint",
+   "europe_pmc_record": false,
+   "europe_pmc_lists_supplementary_files": null,
+   "openalex_record": true,
+   "openalex_oa_status": "green"
+  },
+  "PPR914754": {
+   "category": "open_access_by_openalex_only",
+   "kind": "preprint",
+   "europe_pmc_record": false,
+   "europe_pmc_lists_supplementary_files": null,
+   "openalex_record": true,
+   "openalex_oa_status": "green"
+  },
+  "PPR936397": {
+   "category": "open_access_by_openalex_only",
+   "kind": "preprint",
+   "europe_pmc_record": false,
+   "europe_pmc_lists_supplementary_files": null,
+   "openalex_record": true,
+   "openalex_oa_status": "green"
+  },
+  "PPR941213": {
+   "category": "open_access_by_openalex_only",
+   "kind": "preprint",
+   "europe_pmc_record": false,
+   "europe_pmc_lists_supplementary_files": null,
+   "openalex_record": true,
+   "openalex_oa_status": "green"
+  },
+  "PPR961122": {
+   "category": "open_access_by_openalex_only",
+   "kind": "preprint",
+   "europe_pmc_record": false,
+   "europe_pmc_lists_supplementary_files": null,
+   "openalex_record": true,
+   "openalex_oa_status": "green"
+  },
+  "PPR965441": {
+   "category": "open_access_by_openalex_only",
+   "kind": "preprint",
+   "europe_pmc_record": false,
+   "europe_pmc_lists_supplementary_files": null,
+   "openalex_record": true,
+   "openalex_oa_status": "green"
+  },
+  "PPR972081": {
+   "category": "open_access_by_openalex_only",
+   "kind": "preprint",
+   "europe_pmc_record": false,
+   "europe_pmc_lists_supplementary_files": null,
+   "openalex_record": true,
+   "openalex_oa_status": "green"
+  },
+  "PPR989506": {
+   "category": "no_status_found",
+   "kind": "preprint",
+   "europe_pmc_record": false,
+   "europe_pmc_lists_supplementary_files": null,
+   "openalex_record": false,
+   "openalex_oa_status": null
+  },
+  "PPR990002": {
+   "category": "open_access_by_openalex_only",
+   "kind": "preprint",
+   "europe_pmc_record": false,
+   "europe_pmc_lists_supplementary_files": null,
+   "openalex_record": true,
+   "openalex_oa_status": "green"
+  },
+  "W3111331057": {
+   "category": "open_access_by_openalex_only",
+   "kind": "journal",
+   "europe_pmc_record": false,
+   "europe_pmc_lists_supplementary_files": null,
+   "openalex_record": true,
+   "openalex_oa_status": "bronze"
+  },
+  "W4361194763": {
+   "category": "no_status_found",
+   "kind": "journal",
+   "europe_pmc_record": false,
+   "europe_pmc_lists_supplementary_files": null,
+   "openalex_record": false,
+   "openalex_oa_status": null
+  },
+  "W4387381228": {
+   "category": "open_access_by_openalex_only",
+   "kind": "journal",
+   "europe_pmc_record": false,
+   "europe_pmc_lists_supplementary_files": null,
+   "openalex_record": true,
+   "openalex_oa_status": "gold"
+  },
+  "W4390198428": {
+   "category": "open_access_by_openalex_only",
+   "kind": "journal",
+   "europe_pmc_record": false,
+   "europe_pmc_lists_supplementary_files": null,
+   "openalex_record": true,
+   "openalex_oa_status": "bronze"
+  },
+  "W4390198817": {
+   "category": "open_access_by_openalex_only",
+   "kind": "journal",
+   "europe_pmc_record": false,
+   "europe_pmc_lists_supplementary_files": null,
+   "openalex_record": true,
+   "openalex_oa_status": "bronze"
+  },
+  "W4399019460": {
+   "category": "open_access_by_openalex_only",
+   "kind": "journal",
+   "europe_pmc_record": false,
+   "europe_pmc_lists_supplementary_files": null,
+   "openalex_record": true,
+   "openalex_oa_status": "hybrid"
+  },
+  "W4399137331": {
+   "category": "closed",
+   "kind": "journal",
+   "europe_pmc_record": false,
+   "europe_pmc_lists_supplementary_files": null,
+   "openalex_record": true,
+   "openalex_oa_status": "closed"
+  },
+  "W4403336550": {
+   "category": "open_access_by_openalex_only",
+   "kind": "journal",
+   "europe_pmc_record": false,
+   "europe_pmc_lists_supplementary_files": null,
+   "openalex_record": true,
+   "openalex_oa_status": "gold"
+  },
+  "W4404573575": {
+   "category": "open_access_by_openalex_only",
+   "kind": "preprint",
+   "europe_pmc_record": false,
+   "europe_pmc_lists_supplementary_files": null,
+   "openalex_record": true,
+   "openalex_oa_status": "green"
+  },
+  "W4406196960": {
+   "category": "open_access_by_openalex_only",
+   "kind": "journal",
+   "europe_pmc_record": false,
+   "europe_pmc_lists_supplementary_files": null,
+   "openalex_record": true,
+   "openalex_oa_status": "hybrid"
+  },
+  "W4406210404": {
+   "category": "open_access_by_openalex_only",
+   "kind": "journal",
+   "europe_pmc_record": false,
+   "europe_pmc_lists_supplementary_files": null,
+   "openalex_record": true,
+   "openalex_oa_status": "hybrid"
+  },
+  "W4411291538": {
+   "category": "closed",
+   "kind": "journal",
+   "europe_pmc_record": false,
+   "europe_pmc_lists_supplementary_files": null,
+   "openalex_record": true,
+   "openalex_oa_status": "closed"
+  },
+  "W4413357814": {
+   "category": "open_access_by_openalex_only",
+   "kind": "journal",
+   "europe_pmc_record": false,
+   "europe_pmc_lists_supplementary_files": null,
+   "openalex_record": true,
+   "openalex_oa_status": "bronze"
+  },
+  "W4415402939": {
+   "category": "open_access_by_openalex_only",
+   "kind": "preprint",
+   "europe_pmc_record": false,
+   "europe_pmc_lists_supplementary_files": null,
+   "openalex_record": true,
+   "openalex_oa_status": "gold"
+  },
+  "W4416295106": {
+   "category": "open_access_by_openalex_only",
+   "kind": "journal",
+   "europe_pmc_record": false,
+   "europe_pmc_lists_supplementary_files": null,
+   "openalex_record": true,
+   "openalex_oa_status": "gold"
+  },
+  "W4416777227": {
+   "category": "open_access_by_openalex_only",
+   "kind": "journal",
+   "europe_pmc_record": false,
+   "europe_pmc_lists_supplementary_files": null,
+   "openalex_record": true,
+   "openalex_oa_status": "bronze"
+  },
+  "W4416868157": {
+   "category": "closed",
+   "kind": "journal",
+   "europe_pmc_record": false,
+   "europe_pmc_lists_supplementary_files": null,
+   "openalex_record": true,
+   "openalex_oa_status": "closed"
+  },
+  "W7104114135": {
+   "category": "open_access_by_openalex_only",
+   "kind": "journal",
+   "europe_pmc_record": false,
+   "europe_pmc_lists_supplementary_files": null,
+   "openalex_record": true,
+   "openalex_oa_status": "green"
+  }
+ }
+}
