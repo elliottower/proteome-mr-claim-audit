@@ -1,0 +1,477 @@
+{
+ "written_utc": "2026-10-08T13:50:31+00:00",
+ "note": "hashes, sizes and line counts only; no file was parsed or opened for content",
+ "assemblies": {
+  "first_assembly_all_64_excluded_no_codes": {
+   "folder": "outputs/registry/2026-10-03",
+   "files": {
+    "families.json": {
+     "sha256": "d3ac9b7fcb1455e92366184ea0582d533e5bedd31ad0d26415fd001bb04c1375",
+     "bytes": 1611791
+    },
+    "families_meta.json": {
+     "sha256": "240ef145fae4906775a4b9ba3565c722e50be08893fb5a0c1a9b5f8c0260665f",
+     "bytes": 734689
+    },
+    "record_dates.json": {
+     "sha256": "a4056e9d1cee7b2837fa8966862f64c0ca9b924088c08387bc3e327fbebcd483",
+     "bytes": 139651
+    },
+    "registry_claims.jsonl": {
+     "sha256": "250c59edc2997aa545f31d63d5dda7ebb1e26a2b1d481b1dd2ae98b54ad187c6",
+     "bytes": 1543629,
+     "lines": 3552
+    },
+    "registry_claims_update.jsonl": {
+     "sha256": "8f7f145011710b2ddafd2dcbd212690033f9cc52f54c3ffda5b35ce918fe11fd",
+     "bytes": 390543,
+     "lines": 896
+    },
+    "dating_claims.jsonl": {
+     "sha256": "7b17774356792c472d2e2d79a1ecea036f3a175dd3a8f2904caf2e05dcd599d3",
+     "bytes": 138986,
+     "lines": 320
+    },
+    "dating_claims_update.jsonl": {
+     "sha256": "39553e3c07f9611be087a51d34e044ed4a13a5b76e8da6ad6fb4c2c42b901db5",
+     "bytes": 470,
+     "lines": 1
+    },
+    "registry_claims_without_manual_coding.jsonl": null,
+    "registry_claims_update_without_manual_coding.jsonl": null,
+    "registry_assembly.json": {
+     "sha256": "c72731ccdd0d31b127cf2dff4fc94939d1a725efd701cc932d3086a06523b1d9",
+     "bytes": 1446
+    }
+   }
+  },
+  "amended_primary_no_codes": {
+   "folder": "outputs/registry/2026-10-03_amended_primary",
+   "files": {
+    "families.json": {
+     "sha256": "d3ac9b7fcb1455e92366184ea0582d533e5bedd31ad0d26415fd001bb04c1375",
+     "bytes": 1611791
+    },
+    "families_meta.json": {
+     "sha256": "5e431133300b105715bb3475b5e3b91d92b58c788adb2c1bcd3dbf5b0ce6ac88",
+     "bytes": 734689
+    },
+    "record_dates.json": {
+     "sha256": "a4056e9d1cee7b2837fa8966862f64c0ca9b924088c08387bc3e327fbebcd483",
+     "bytes": 139651
+    },
+    "registry_claims.jsonl": {
+     "sha256": "a227cd21336b90ac7098a82279c35eb6101033bfc4cde2d902deebb7576c31ec",
+     "bytes": 1551877,
+     "lines": 3571
+    },
+    "registry_claims_update.jsonl": {
+     "sha256": "a5f9563b86a749a70fc1f9310fc82b8e5eec3a71bfeab649e570f346650ebd85",
+     "bytes": 391015,
+     "lines": 897
+    },
+    "dating_claims.jsonl": {
+     "sha256": "7b17774356792c472d2e2d79a1ecea036f3a175dd3a8f2904caf2e05dcd599d3",
+     "bytes": 138986,
+     "lines": 320
+    },
+    "dating_claims_update.jsonl": {
+     "sha256": "39553e3c07f9611be087a51d34e044ed4a13a5b76e8da6ad6fb4c2c42b901db5",
+     "bytes": 470,
+     "lines": 1
+    },
+    "registry_claims_without_manual_coding.jsonl": null,
+    "registry_claims_update_without_manual_coding.jsonl": null,
+    "registry_assembly.json": {
+     "sha256": "028e40757e7aacc7183981716347bd041b56f0d8ad3e7e556555ac011ad22642",
+     "bytes": 1418
+    }
+   }
+  },
+  "registered_with_27_no_codes": {
+   "folder": "outputs/registry/2026-10-03_registered_with_27",
+   "files": {
+    "families.json": {
+     "sha256": "d3ac9b7fcb1455e92366184ea0582d533e5bedd31ad0d26415fd001bb04c1375",
+     "bytes": 1611791
+    },
+    "families_meta.json": {
+     "sha256": "7958d9d471c227f4b4b8534ff6be1170f359e9d6dbf146eae77ff71378977feb",
+     "bytes": 734689
+    },
+    "record_dates.json": {
+     "sha256": "a4056e9d1cee7b2837fa8966862f64c0ca9b924088c08387bc3e327fbebcd483",
+     "bytes": 139651
+    },
+    "registry_claims.jsonl": {
+     "sha256": "911ff939c9519a8520a10f2fceedfa35325fc88a0378f386f5ed6a1f328bac23",
+     "bytes": 1544857,
+     "lines": 3555
+    },
+    "registry_claims_update.jsonl": {
+     "sha256": "8f7f145011710b2ddafd2dcbd212690033f9cc52f54c3ffda5b35ce918fe11fd",
+     "bytes": 390543,
+     "lines": 896
+    },
+    "dating_claims.jsonl": {
+     "sha256": "7b17774356792c472d2e2d79a1ecea036f3a175dd3a8f2904caf2e05dcd599d3",
+     "bytes": 138986,
+     "lines": 320
+    },
+    "dating_claims_update.jsonl": {
+     "sha256": "39553e3c07f9611be087a51d34e044ed4a13a5b76e8da6ad6fb4c2c42b901db5",
+     "bytes": 470,
+     "lines": 1
+    },
+    "registry_claims_without_manual_coding.jsonl": null,
+    "registry_claims_update_without_manual_coding.jsonl": null,
+    "registry_assembly.json": {
+     "sha256": "ef949f0653de1e52a5da99177b6935c23afcaf74fecb4997018e7c71f58f29d3",
+     "bytes": 1446
+    }
+   }
+  },
+  "D+(a)": {
+   "folder": "outputs/registry/2026-10-03_amended_primary_coded_a",
+   "files": {
+    "families.json": {
+     "sha256": "d3ac9b7fcb1455e92366184ea0582d533e5bedd31ad0d26415fd001bb04c1375",
+     "bytes": 1611791
+    },
+    "families_meta.json": {
+     "sha256": "5e431133300b105715bb3475b5e3b91d92b58c788adb2c1bcd3dbf5b0ce6ac88",
+     "bytes": 734689
+    },
+    "record_dates.json": {
+     "sha256": "a4056e9d1cee7b2837fa8966862f64c0ca9b924088c08387bc3e327fbebcd483",
+     "bytes": 139651
+    },
+    "registry_claims.jsonl": {
+     "sha256": "b5ef8c2a7f96a194fea1a1424dc6533060a053fddcb9c0ec1d350c4d38ce492c",
+     "bytes": 1601418,
+     "lines": 3571
+    },
+    "registry_claims_update.jsonl": {
+     "sha256": "b75101a183546cad62eb8efb4224df2dbc015c9957f0787b92b227e29375025d",
+     "bytes": 401339,
+     "lines": 897
+    },
+    "dating_claims.jsonl": {
+     "sha256": "7b17774356792c472d2e2d79a1ecea036f3a175dd3a8f2904caf2e05dcd599d3",
+     "bytes": 138986,
+     "lines": 320
+    },
+    "dating_claims_update.jsonl": {
+     "sha256": "39553e3c07f9611be087a51d34e044ed4a13a5b76e8da6ad6fb4c2c42b901db5",
+     "bytes": 470,
+     "lines": 1
+    },
+    "registry_claims_without_manual_coding.jsonl": {
+     "sha256": "a227cd21336b90ac7098a82279c35eb6101033bfc4cde2d902deebb7576c31ec",
+     "bytes": 1551877,
+     "lines": 3571
+    },
+    "registry_claims_update_without_manual_coding.jsonl": null,
+    "registry_assembly.json": {
+     "sha256": "de4918ae4895a765ea40e6d9e29518f3b82dd35d3ea6f81fcc032e1b97555023",
+     "bytes": 1420
+    }
+   }
+  },
+  "D+(b)": {
+   "folder": "outputs/registry/2026-10-03_amended_primary_coded_b",
+   "files": {
+    "families.json": {
+     "sha256": "d3ac9b7fcb1455e92366184ea0582d533e5bedd31ad0d26415fd001bb04c1375",
+     "bytes": 1611791
+    },
+    "families_meta.json": {
+     "sha256": "5e431133300b105715bb3475b5e3b91d92b58c788adb2c1bcd3dbf5b0ce6ac88",
+     "bytes": 734689
+    },
+    "record_dates.json": {
+     "sha256": "a4056e9d1cee7b2837fa8966862f64c0ca9b924088c08387bc3e327fbebcd483",
+     "bytes": 139651
+    },
+    "registry_claims.jsonl": {
+     "sha256": "b5ef8c2a7f96a194fea1a1424dc6533060a053fddcb9c0ec1d350c4d38ce492c",
+     "bytes": 1601418,
+     "lines": 3571
+    },
+    "registry_claims_update.jsonl": {
+     "sha256": "b75101a183546cad62eb8efb4224df2dbc015c9957f0787b92b227e29375025d",
+     "bytes": 401339,
+     "lines": 897
+    },
+    "dating_claims.jsonl": {
+     "sha256": "7b17774356792c472d2e2d79a1ecea036f3a175dd3a8f2904caf2e05dcd599d3",
+     "bytes": 138986,
+     "lines": 320
+    },
+    "dating_claims_update.jsonl": {
+     "sha256": "39553e3c07f9611be087a51d34e044ed4a13a5b76e8da6ad6fb4c2c42b901db5",
+     "bytes": 470,
+     "lines": 1
+    },
+    "registry_claims_without_manual_coding.jsonl": null,
+    "registry_claims_update_without_manual_coding.jsonl": null,
+    "registry_assembly.json": {
+     "sha256": "75438f40596e20ddfdee17a2cdf6c2b75dd550335c797e96accb65aec3d27040",
+     "bytes": 1420
+    }
+   }
+  },
+  "D+(c)": {
+   "folder": "outputs/registry/2026-10-03_amended_primary_coded_c",
+   "files": {
+    "families.json": {
+     "sha256": "d3ac9b7fcb1455e92366184ea0582d533e5bedd31ad0d26415fd001bb04c1375",
+     "bytes": 1611791
+    },
+    "families_meta.json": {
+     "sha256": "5e431133300b105715bb3475b5e3b91d92b58c788adb2c1bcd3dbf5b0ce6ac88",
+     "bytes": 734689
+    },
+    "record_dates.json": {
+     "sha256": "a4056e9d1cee7b2837fa8966862f64c0ca9b924088c08387bc3e327fbebcd483",
+     "bytes": 139651
+    },
+    "registry_claims.jsonl": {
+     "sha256": "a227cd21336b90ac7098a82279c35eb6101033bfc4cde2d902deebb7576c31ec",
+     "bytes": 1551877,
+     "lines": 3571
+    },
+    "registry_claims_update.jsonl": {
+     "sha256": "a5f9563b86a749a70fc1f9310fc82b8e5eec3a71bfeab649e570f346650ebd85",
+     "bytes": 391015,
+     "lines": 897
+    },
+    "dating_claims.jsonl": {
+     "sha256": "7b17774356792c472d2e2d79a1ecea036f3a175dd3a8f2904caf2e05dcd599d3",
+     "bytes": 138986,
+     "lines": 320
+    },
+    "dating_claims_update.jsonl": {
+     "sha256": "39553e3c07f9611be087a51d34e044ed4a13a5b76e8da6ad6fb4c2c42b901db5",
+     "bytes": 470,
+     "lines": 1
+    },
+    "registry_claims_without_manual_coding.jsonl": null,
+    "registry_claims_update_without_manual_coding.jsonl": null,
+    "registry_assembly.json": {
+     "sha256": "7e93e26de30359f01ac581f7a97d52d9914f7558cd938924b351c0a7454d1b30",
+     "bytes": 1418
+    }
+   }
+  },
+  "A+(a)": {
+   "folder": "outputs/registry/2026-10-03_registered_with_27_coded_a",
+   "files": {
+    "families.json": {
+     "sha256": "d3ac9b7fcb1455e92366184ea0582d533e5bedd31ad0d26415fd001bb04c1375",
+     "bytes": 1611791
+    },
+    "families_meta.json": {
+     "sha256": "7958d9d471c227f4b4b8534ff6be1170f359e9d6dbf146eae77ff71378977feb",
+     "bytes": 734689
+    },
+    "record_dates.json": {
+     "sha256": "a4056e9d1cee7b2837fa8966862f64c0ca9b924088c08387bc3e327fbebcd483",
+     "bytes": 139651
+    },
+    "registry_claims.jsonl": {
+     "sha256": "faba35bd4cbe135f56761d2eec7d6ff92d446d1c6bef149615afda7f1f5de381",
+     "bytes": 1594204,
+     "lines": 3555
+    },
+    "registry_claims_update.jsonl": {
+     "sha256": "7de8b20ae149a7831737386046ffb3b541fdc4278499856dfcb42ca0a41b0b38",
+     "bytes": 400758,
+     "lines": 896
+    },
+    "dating_claims.jsonl": {
+     "sha256": "7b17774356792c472d2e2d79a1ecea036f3a175dd3a8f2904caf2e05dcd599d3",
+     "bytes": 138986,
+     "lines": 320
+    },
+    "dating_claims_update.jsonl": {
+     "sha256": "39553e3c07f9611be087a51d34e044ed4a13a5b76e8da6ad6fb4c2c42b901db5",
+     "bytes": 470,
+     "lines": 1
+    },
+    "registry_claims_without_manual_coding.jsonl": {
+     "sha256": "911ff939c9519a8520a10f2fceedfa35325fc88a0378f386f5ed6a1f328bac23",
+     "bytes": 1544857,
+     "lines": 3555
+    },
+    "registry_claims_update_without_manual_coding.jsonl": null,
+    "registry_assembly.json": {
+     "sha256": "7d0eaccac4c6db445ad7e239f0ec94d34a42ef447d62a07d26d83484c4a583b0",
+     "bytes": 1448
+    }
+   }
+  },
+  "superseded D+(b) from the table of 125 codes": {
+   "folder": "outputs/registry/superseded_2026-10-03_amended_primary_coded_b_from_125_codes",
+   "files": {
+    "families.json": {
+     "sha256": "d3ac9b7fcb1455e92366184ea0582d533e5bedd31ad0d26415fd001bb04c1375",
+     "bytes": 1611791
+    },
+    "families_meta.json": {
+     "sha256": "5e431133300b105715bb3475b5e3b91d92b58c788adb2c1bcd3dbf5b0ce6ac88",
+     "bytes": 734689
+    },
+    "record_dates.json": {
+     "sha256": "a4056e9d1cee7b2837fa8966862f64c0ca9b924088c08387bc3e327fbebcd483",
+     "bytes": 139651
+    },
+    "registry_claims.jsonl": {
+     "sha256": "7ab6dcf2ad76bf8b9ac52c74d5c756eefa1e994004c89d749288c185c34f75f7",
+     "bytes": 1587434,
+     "lines": 3571
+    },
+    "registry_claims_update.jsonl": {
+     "sha256": "6a81eb9283dffe17015929a189e76c19699cd11debd60c464a4dfd5794ac4d41",
+     "bytes": 397930,
+     "lines": 897
+    },
+    "dating_claims.jsonl": {
+     "sha256": "7b17774356792c472d2e2d79a1ecea036f3a175dd3a8f2904caf2e05dcd599d3",
+     "bytes": 138986,
+     "lines": 320
+    },
+    "dating_claims_update.jsonl": {
+     "sha256": "39553e3c07f9611be087a51d34e044ed4a13a5b76e8da6ad6fb4c2c42b901db5",
+     "bytes": 470,
+     "lines": 1
+    },
+    "registry_claims_without_manual_coding.jsonl": {
+     "sha256": "a227cd21336b90ac7098a82279c35eb6101033bfc4cde2d902deebb7576c31ec",
+     "bytes": 1551877,
+     "lines": 3571
+    },
+    "registry_claims_update_without_manual_coding.jsonl": null,
+    "registry_assembly.json": {
+     "sha256": "4a6a4837678e5589622da00307e92cc019b7ca52a8c238f6b5967d7c87f70cf6",
+     "bytes": 1420
+    }
+   }
+  }
+ },
+ "line_counts": {
+  "first_assembly_all_64_excluded_no_codes": {
+   "registry_claims.jsonl": 3552,
+   "registry_claims_update.jsonl": 896,
+   "dating_claims.jsonl": 320,
+   "dating_claims_update.jsonl": 1,
+   "registry_claims_without_manual_coding.jsonl": null,
+   "registry_claims_update_without_manual_coding.jsonl": null
+  },
+  "amended_primary_no_codes": {
+   "registry_claims.jsonl": 3571,
+   "registry_claims_update.jsonl": 897,
+   "dating_claims.jsonl": 320,
+   "dating_claims_update.jsonl": 1,
+   "registry_claims_without_manual_coding.jsonl": null,
+   "registry_claims_update_without_manual_coding.jsonl": null
+  },
+  "registered_with_27_no_codes": {
+   "registry_claims.jsonl": 3555,
+   "registry_claims_update.jsonl": 896,
+   "dating_claims.jsonl": 320,
+   "dating_claims_update.jsonl": 1,
+   "registry_claims_without_manual_coding.jsonl": null,
+   "registry_claims_update_without_manual_coding.jsonl": null
+  },
+  "D+(a)": {
+   "registry_claims.jsonl": 3571,
+   "registry_claims_update.jsonl": 897,
+   "dating_claims.jsonl": 320,
+   "dating_claims_update.jsonl": 1,
+   "registry_claims_without_manual_coding.jsonl": 3571,
+   "registry_claims_update_without_manual_coding.jsonl": null
+  },
+  "D+(b)": {
+   "registry_claims.jsonl": 3571,
+   "registry_claims_update.jsonl": 897,
+   "dating_claims.jsonl": 320,
+   "dating_claims_update.jsonl": 1,
+   "registry_claims_without_manual_coding.jsonl": null,
+   "registry_claims_update_without_manual_coding.jsonl": null
+  },
+  "D+(c)": {
+   "registry_claims.jsonl": 3571,
+   "registry_claims_update.jsonl": 897,
+   "dating_claims.jsonl": 320,
+   "dating_claims_update.jsonl": 1,
+   "registry_claims_without_manual_coding.jsonl": null,
+   "registry_claims_update_without_manual_coding.jsonl": null
+  },
+  "A+(a)": {
+   "registry_claims.jsonl": 3555,
+   "registry_claims_update.jsonl": 896,
+   "dating_claims.jsonl": 320,
+   "dating_claims_update.jsonl": 1,
+   "registry_claims_without_manual_coding.jsonl": 3555,
+   "registry_claims_update_without_manual_coding.jsonl": null
+  },
+  "superseded D+(b) from the table of 125 codes": {
+   "registry_claims.jsonl": 3571,
+   "registry_claims_update.jsonl": 897,
+   "dating_claims.jsonl": 320,
+   "dating_claims_update.jsonl": 1,
+   "registry_claims_without_manual_coding.jsonl": 3571,
+   "registry_claims_update_without_manual_coding.jsonl": null
+  }
+ },
+ "line_count_checks": {
+  "registry claim lines equal in D+(a), D+(b), D+(c) and the amended primary without codes": true,
+  "registry claim lines equal in A+(a) and registered with 27 without codes": true,
+  "amended primary minus registered with 27, confirmatory and update lines": [
+   16,
+   1
+  ],
+  "registered with 27 minus first assembly, confirmatory and update lines": [
+   3,
+   0
+  ]
+ },
+ "checks": {
+  "families.json: D+(a) = D+(b) = D+(c)": true,
+  "families.json: D+(a) = amended primary without codes": true,
+  "families.json: A+(a) = registered with 27 without codes": true,
+  "record_dates.json: D+(a) = D+(b) = D+(c)": true,
+  "record_dates.json: D+(a) = amended primary without codes": true,
+  "record_dates.json: A+(a) = registered with 27 without codes": true,
+  "dating_claims.jsonl: D+(a) = D+(b) = D+(c)": true,
+  "dating_claims.jsonl: D+(a) = amended primary without codes": true,
+  "dating_claims.jsonl: A+(a) = registered with 27 without codes": true,
+  "dating_claims_update.jsonl: D+(a) = D+(b) = D+(c)": true,
+  "dating_claims_update.jsonl: D+(a) = amended primary without codes": true,
+  "dating_claims_update.jsonl: A+(a) = registered with 27 without codes": true,
+  "registry_claims.jsonl: D+(b) = D+(a) (same code table bytes)": true,
+  "registry_claims.jsonl: D+(c) = amended primary without codes": true,
+  "registry_claims.jsonl: D+(a) differs from D+(c)": true,
+  "registry_claims.jsonl: D+(a) differs from A+(a)": true,
+  "registry_claims.jsonl: superseded D+(b) differs from D+(a)": true,
+  "registry_claims_update.jsonl: D+(b) = D+(a) (same code table bytes)": true,
+  "registry_claims_update.jsonl: D+(c) = amended primary without codes": true,
+  "registry_claims_update.jsonl: D+(a) differs from D+(c)": true,
+  "registry_claims_update.jsonl: D+(a) differs from A+(a)": true,
+  "registry_claims_update.jsonl: superseded D+(b) differs from D+(a)": true,
+  "families_meta.json: D+(b) = D+(a) (same code table bytes)": true,
+  "families_meta.json: D+(c) = amended primary without codes": true,
+  "families_meta.json: D+(a) differs from D+(c)": false,
+  "families_meta.json: D+(a) differs from A+(a)": true,
+  "families_meta.json: superseded D+(b) differs from D+(a)": false,
+  "registry_claims_without_manual_coding.jsonl of D+(a) = registry_claims.jsonl of the assembly without codes": true,
+  "registry_claims_without_manual_coding.jsonl of D+(b) = registry_claims.jsonl of the assembly without codes": null,
+  "registry_claims_without_manual_coding.jsonl of A+(a) = registry_claims.jsonl of the assembly without codes": true,
+  "registry_claims_without_manual_coding.jsonl written for D+(c)": false,
+  "registry_claims_update_without_manual_coding.jsonl of D+(a) = registry_claims_update.jsonl of the assembly without codes": null,
+  "registry_claims_update_without_manual_coding.jsonl of D+(b) = registry_claims_update.jsonl of the assembly without codes": null,
+  "registry_claims_update_without_manual_coding.jsonl of A+(a) = registry_claims_update.jsonl of the assembly without codes": null,
+  "registry_claims_update_without_manual_coding.jsonl written for D+(c)": false
+ }
+}

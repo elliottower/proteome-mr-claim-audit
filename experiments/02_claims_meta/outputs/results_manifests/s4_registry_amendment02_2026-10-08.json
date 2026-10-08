@@ -1,0 +1,286 @@
+{
+ "run_id": "s4_registry_amendment02_2026-10-08",
+ "note": "Amendment 2: claim tags and the four assemblies with manual codes (amended primary with code table versions a, b, c; originally registered analysis with the 27 and version a), the superseded assembly from the table of 125 codes, and the count-only comparison",
+ "written_utc": "2026-10-08T13:53:34+00:00",
+ "files": [
+  {
+   "path": "outputs/registry/2026-10-03_amended_primary/claim_tags.jsonl",
+   "bytes": 2218604,
+   "sha256": "df208df36ee47e4e5874eaba2d0af37a9413d7df35d20e34f3582948789787ba"
+  },
+  {
+   "path": "outputs/registry/2026-10-03_amended_primary_coded_a/claim_tags.jsonl",
+   "bytes": 2218604,
+   "sha256": "df208df36ee47e4e5874eaba2d0af37a9413d7df35d20e34f3582948789787ba"
+  },
+  {
+   "path": "outputs/registry/2026-10-03_amended_primary_coded_a/dating_claims.jsonl",
+   "bytes": 138986,
+   "sha256": "7b17774356792c472d2e2d79a1ecea036f3a175dd3a8f2904caf2e05dcd599d3"
+  },
+  {
+   "path": "outputs/registry/2026-10-03_amended_primary_coded_a/dating_claims_update.jsonl",
+   "bytes": 470,
+   "sha256": "39553e3c07f9611be087a51d34e044ed4a13a5b76e8da6ad6fb4c2c42b901db5"
+  },
+  {
+   "path": "outputs/registry/2026-10-03_amended_primary_coded_a/families.json",
+   "bytes": 1611791,
+   "sha256": "d3ac9b7fcb1455e92366184ea0582d533e5bedd31ad0d26415fd001bb04c1375"
+  },
+  {
+   "path": "outputs/registry/2026-10-03_amended_primary_coded_a/families_meta.json",
+   "bytes": 734689,
+   "sha256": "5e431133300b105715bb3475b5e3b91d92b58c788adb2c1bcd3dbf5b0ce6ac88"
+  },
+  {
+   "path": "outputs/registry/2026-10-03_amended_primary_coded_a/record_dates.json",
+   "bytes": 139651,
+   "sha256": "a4056e9d1cee7b2837fa8966862f64c0ca9b924088c08387bc3e327fbebcd483"
+  },
+  {
+   "path": "outputs/registry/2026-10-03_amended_primary_coded_a/registry_assembly.json",
+   "bytes": 1420,
+   "sha256": "de4918ae4895a765ea40e6d9e29518f3b82dd35d3ea6f81fcc032e1b97555023"
+  },
+  {
+   "path": "outputs/registry/2026-10-03_amended_primary_coded_a/registry_claims.jsonl",
+   "bytes": 1601418,
+   "sha256": "b5ef8c2a7f96a194fea1a1424dc6533060a053fddcb9c0ec1d350c4d38ce492c"
+  },
+  {
+   "path": "outputs/registry/2026-10-03_amended_primary_coded_a/registry_claims_update.jsonl",
+   "bytes": 401339,
+   "sha256": "b75101a183546cad62eb8efb4224df2dbc015c9957f0787b92b227e29375025d"
+  },
+  {
+   "path": "outputs/registry/2026-10-03_amended_primary_coded_a/registry_claims_without_manual_coding.jsonl",
+   "bytes": 1551877,
+   "sha256": "a227cd21336b90ac7098a82279c35eb6101033bfc4cde2d902deebb7576c31ec"
+  },
+  {
+   "path": "outputs/registry/2026-10-03_amended_primary_coded_a/registry_claims_without_manual_coding_update.jsonl",
+   "bytes": 391015,
+   "sha256": "a5f9563b86a749a70fc1f9310fc82b8e5eec3a71bfeab649e570f346650ebd85"
+  },
+  {
+   "path": "outputs/registry/2026-10-03_amended_primary_coded_b/claim_tags.jsonl",
+   "bytes": 2218604,
+   "sha256": "df208df36ee47e4e5874eaba2d0af37a9413d7df35d20e34f3582948789787ba"
+  },
+  {
+   "path": "outputs/registry/2026-10-03_amended_primary_coded_b/dating_claims.jsonl",
+   "bytes": 138986,
+   "sha256": "7b17774356792c472d2e2d79a1ecea036f3a175dd3a8f2904caf2e05dcd599d3"
+  },
+  {
+   "path": "outputs/registry/2026-10-03_amended_primary_coded_b/dating_claims_update.jsonl",
+   "bytes": 470,
+   "sha256": "39553e3c07f9611be087a51d34e044ed4a13a5b76e8da6ad6fb4c2c42b901db5"
+  },
+  {
+   "path": "outputs/registry/2026-10-03_amended_primary_coded_b/families.json",
+   "bytes": 1611791,
+   "sha256": "d3ac9b7fcb1455e92366184ea0582d533e5bedd31ad0d26415fd001bb04c1375"
+  },
+  {
+   "path": "outputs/registry/2026-10-03_amended_primary_coded_b/families_meta.json",
+   "bytes": 734689,
+   "sha256": "5e431133300b105715bb3475b5e3b91d92b58c788adb2c1bcd3dbf5b0ce6ac88"
+  },
+  {
+   "path": "outputs/registry/2026-10-03_amended_primary_coded_b/record_dates.json",
+   "bytes": 139651,
+   "sha256": "a4056e9d1cee7b2837fa8966862f64c0ca9b924088c08387bc3e327fbebcd483"
+  },
+  {
+   "path": "outputs/registry/2026-10-03_amended_primary_coded_b/registry_assembly.json",
+   "bytes": 1420,
+   "sha256": "75438f40596e20ddfdee17a2cdf6c2b75dd550335c797e96accb65aec3d27040"
+  },
+  {
+   "path": "outputs/registry/2026-10-03_amended_primary_coded_b/registry_claims.jsonl",
+   "bytes": 1601418,
+   "sha256": "b5ef8c2a7f96a194fea1a1424dc6533060a053fddcb9c0ec1d350c4d38ce492c"
+  },
+  {
+   "path": "outputs/registry/2026-10-03_amended_primary_coded_b/registry_claims_update.jsonl",
+   "bytes": 401339,
+   "sha256": "b75101a183546cad62eb8efb4224df2dbc015c9957f0787b92b227e29375025d"
+  },
+  {
+   "path": "outputs/registry/2026-10-03_amended_primary_coded_b/registry_claims_without_manual_coding.jsonl",
+   "bytes": 1551877,
+   "sha256": "a227cd21336b90ac7098a82279c35eb6101033bfc4cde2d902deebb7576c31ec"
+  },
+  {
+   "path": "outputs/registry/2026-10-03_amended_primary_coded_b/registry_claims_without_manual_coding_update.jsonl",
+   "bytes": 391015,
+   "sha256": "a5f9563b86a749a70fc1f9310fc82b8e5eec3a71bfeab649e570f346650ebd85"
+  },
+  {
+   "path": "outputs/registry/2026-10-03_amended_primary_coded_c/claim_tags.jsonl",
+   "bytes": 2218604,
+   "sha256": "df208df36ee47e4e5874eaba2d0af37a9413d7df35d20e34f3582948789787ba"
+  },
+  {
+   "path": "outputs/registry/2026-10-03_amended_primary_coded_c/dating_claims.jsonl",
+   "bytes": 138986,
+   "sha256": "7b17774356792c472d2e2d79a1ecea036f3a175dd3a8f2904caf2e05dcd599d3"
+  },
+  {
+   "path": "outputs/registry/2026-10-03_amended_primary_coded_c/dating_claims_update.jsonl",
+   "bytes": 470,
+   "sha256": "39553e3c07f9611be087a51d34e044ed4a13a5b76e8da6ad6fb4c2c42b901db5"
+  },
+  {
+   "path": "outputs/registry/2026-10-03_amended_primary_coded_c/families.json",
+   "bytes": 1611791,
+   "sha256": "d3ac9b7fcb1455e92366184ea0582d533e5bedd31ad0d26415fd001bb04c1375"
+  },
+  {
+   "path": "outputs/registry/2026-10-03_amended_primary_coded_c/families_meta.json",
+   "bytes": 734689,
+   "sha256": "5e431133300b105715bb3475b5e3b91d92b58c788adb2c1bcd3dbf5b0ce6ac88"
+  },
+  {
+   "path": "outputs/registry/2026-10-03_amended_primary_coded_c/record_dates.json",
+   "bytes": 139651,
+   "sha256": "a4056e9d1cee7b2837fa8966862f64c0ca9b924088c08387bc3e327fbebcd483"
+  },
+  {
+   "path": "outputs/registry/2026-10-03_amended_primary_coded_c/registry_assembly.json",
+   "bytes": 1418,
+   "sha256": "7e93e26de30359f01ac581f7a97d52d9914f7558cd938924b351c0a7454d1b30"
+  },
+  {
+   "path": "outputs/registry/2026-10-03_amended_primary_coded_c/registry_claims.jsonl",
+   "bytes": 1551877,
+   "sha256": "a227cd21336b90ac7098a82279c35eb6101033bfc4cde2d902deebb7576c31ec"
+  },
+  {
+   "path": "outputs/registry/2026-10-03_amended_primary_coded_c/registry_claims_update.jsonl",
+   "bytes": 391015,
+   "sha256": "a5f9563b86a749a70fc1f9310fc82b8e5eec3a71bfeab649e570f346650ebd85"
+  },
+  {
+   "path": "outputs/registry/2026-10-03_registered_with_27/claim_tags.jsonl",
+   "bytes": 2218604,
+   "sha256": "df208df36ee47e4e5874eaba2d0af37a9413d7df35d20e34f3582948789787ba"
+  },
+  {
+   "path": "outputs/registry/2026-10-03_registered_with_27_coded_a/claim_tags.jsonl",
+   "bytes": 2218604,
+   "sha256": "df208df36ee47e4e5874eaba2d0af37a9413d7df35d20e34f3582948789787ba"
+  },
+  {
+   "path": "outputs/registry/2026-10-03_registered_with_27_coded_a/dating_claims.jsonl",
+   "bytes": 138986,
+   "sha256": "7b17774356792c472d2e2d79a1ecea036f3a175dd3a8f2904caf2e05dcd599d3"
+  },
+  {
+   "path": "outputs/registry/2026-10-03_registered_with_27_coded_a/dating_claims_update.jsonl",
+   "bytes": 470,
+   "sha256": "39553e3c07f9611be087a51d34e044ed4a13a5b76e8da6ad6fb4c2c42b901db5"
+  },
+  {
+   "path": "outputs/registry/2026-10-03_registered_with_27_coded_a/families.json",
+   "bytes": 1611791,
+   "sha256": "d3ac9b7fcb1455e92366184ea0582d533e5bedd31ad0d26415fd001bb04c1375"
+  },
+  {
+   "path": "outputs/registry/2026-10-03_registered_with_27_coded_a/families_meta.json",
+   "bytes": 734689,
+   "sha256": "7958d9d471c227f4b4b8534ff6be1170f359e9d6dbf146eae77ff71378977feb"
+  },
+  {
+   "path": "outputs/registry/2026-10-03_registered_with_27_coded_a/record_dates.json",
+   "bytes": 139651,
+   "sha256": "a4056e9d1cee7b2837fa8966862f64c0ca9b924088c08387bc3e327fbebcd483"
+  },
+  {
+   "path": "outputs/registry/2026-10-03_registered_with_27_coded_a/registry_assembly.json",
+   "bytes": 1448,
+   "sha256": "7d0eaccac4c6db445ad7e239f0ec94d34a42ef447d62a07d26d83484c4a583b0"
+  },
+  {
+   "path": "outputs/registry/2026-10-03_registered_with_27_coded_a/registry_claims.jsonl",
+   "bytes": 1594204,
+   "sha256": "faba35bd4cbe135f56761d2eec7d6ff92d446d1c6bef149615afda7f1f5de381"
+  },
+  {
+   "path": "outputs/registry/2026-10-03_registered_with_27_coded_a/registry_claims_update.jsonl",
+   "bytes": 400758,
+   "sha256": "7de8b20ae149a7831737386046ffb3b541fdc4278499856dfcb42ca0a41b0b38"
+  },
+  {
+   "path": "outputs/registry/2026-10-03_registered_with_27_coded_a/registry_claims_without_manual_coding.jsonl",
+   "bytes": 1544857,
+   "sha256": "911ff939c9519a8520a10f2fceedfa35325fc88a0378f386f5ed6a1f328bac23"
+  },
+  {
+   "path": "outputs/registry/2026-10-03_registered_with_27_coded_a/registry_claims_without_manual_coding_update.jsonl",
+   "bytes": 390543,
+   "sha256": "8f7f145011710b2ddafd2dcbd212690033f9cc52f54c3ffda5b35ce918fe11fd"
+  },
+  {
+   "path": "outputs/registry/assemblies_with_codes_comparison_2026-10-08.json",
+   "bytes": 16000,
+   "sha256": "43d3c0c97ec9e2960125767bc54d1f4ae0324299a884ada5b42004a89f892da3"
+  },
+  {
+   "path": "outputs/registry/superseded_2026-10-03_amended_primary_coded_b_from_125_codes/dating_claims.jsonl",
+   "bytes": 138986,
+   "sha256": "7b17774356792c472d2e2d79a1ecea036f3a175dd3a8f2904caf2e05dcd599d3"
+  },
+  {
+   "path": "outputs/registry/superseded_2026-10-03_amended_primary_coded_b_from_125_codes/dating_claims_update.jsonl",
+   "bytes": 470,
+   "sha256": "39553e3c07f9611be087a51d34e044ed4a13a5b76e8da6ad6fb4c2c42b901db5"
+  },
+  {
+   "path": "outputs/registry/superseded_2026-10-03_amended_primary_coded_b_from_125_codes/families.json",
+   "bytes": 1611791,
+   "sha256": "d3ac9b7fcb1455e92366184ea0582d533e5bedd31ad0d26415fd001bb04c1375"
+  },
+  {
+   "path": "outputs/registry/superseded_2026-10-03_amended_primary_coded_b_from_125_codes/families_meta.json",
+   "bytes": 734689,
+   "sha256": "5e431133300b105715bb3475b5e3b91d92b58c788adb2c1bcd3dbf5b0ce6ac88"
+  },
+  {
+   "path": "outputs/registry/superseded_2026-10-03_amended_primary_coded_b_from_125_codes/record_dates.json",
+   "bytes": 139651,
+   "sha256": "a4056e9d1cee7b2837fa8966862f64c0ca9b924088c08387bc3e327fbebcd483"
+  },
+  {
+   "path": "outputs/registry/superseded_2026-10-03_amended_primary_coded_b_from_125_codes/registry_assembly.json",
+   "bytes": 1420,
+   "sha256": "4a6a4837678e5589622da00307e92cc019b7ca52a8c238f6b5967d7c87f70cf6"
+  },
+  {
+   "path": "outputs/registry/superseded_2026-10-03_amended_primary_coded_b_from_125_codes/registry_claims.jsonl",
+   "bytes": 1587434,
+   "sha256": "7ab6dcf2ad76bf8b9ac52c74d5c756eefa1e994004c89d749288c185c34f75f7"
+  },
+  {
+   "path": "outputs/registry/superseded_2026-10-03_amended_primary_coded_b_from_125_codes/registry_claims_update.jsonl",
+   "bytes": 397930,
+   "sha256": "6a81eb9283dffe17015929a189e76c19699cd11debd60c464a4dfd5794ac4d41"
+  },
+  {
+   "path": "outputs/registry/superseded_2026-10-03_amended_primary_coded_b_from_125_codes/registry_claims_without_manual_coding.jsonl",
+   "bytes": 1551877,
+   "sha256": "a227cd21336b90ac7098a82279c35eb6101033bfc4cde2d902deebb7576c31ec"
+  },
+  {
+   "path": "outputs/registry/superseded_2026-10-03_amended_primary_coded_b_from_125_codes/registry_claims_without_manual_coding_update.jsonl",
+   "bytes": 391015,
+   "sha256": "a5f9563b86a749a70fc1f9310fc82b8e5eec3a71bfeab649e570f346650ebd85"
+  }
+ ],
+ "recorded_directly": [
+  "outputs/registry/assemblies_with_codes_comparison_2026-10-08.json"
+ ],
+ "volume_checks": []
+}
