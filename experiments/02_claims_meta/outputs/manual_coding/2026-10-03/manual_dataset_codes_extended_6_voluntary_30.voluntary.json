@@ -1,0 +1,23 @@
+{
+ "command": "voluntary",
+ "third_check": {
+  "not_applicable": 676,
+  "author_confirmed": 47,
+  "machine_gate_only": 149
+ },
+ "third_check_context": {
+  "none": 825,
+  "voluntary_read_after_spot_check": 27,
+  "spot_check_discussed_with_coordinating_session": 6,
+  "spot_check_not_discussed": 14
+ },
+ "status": {
+  "unresolved": 676,
+  "coded": 196
+ },
+ "marked_file_sha256": "4e9ee55313131dac5666d0314b094423a50090ce83ac215ba602f9d65dad719c",
+ "marks": {
+  "empty": 3,
+  "yes": 27
+ }
+}
