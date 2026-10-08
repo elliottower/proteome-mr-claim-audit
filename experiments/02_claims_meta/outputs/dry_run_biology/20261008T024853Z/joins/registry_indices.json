@@ -1,0 +1,277 @@
+{
+ "inputs": "/tmp/dry_run_biology/inputs",
+ "window": "confirmatory",
+ "claim_records": 13,
+ "resources": {
+  "ontology_edges": "/tmp/dry_run_biology/resources/ontology_edges.csv",
+  "therapeutic_areas": "/tmp/dry_run_biology/resources/therapeutic_areas.csv",
+  "therapeutic_area_names": "/tmp/dry_run_biology/resources/therapeutic_area_names.csv",
+  "assay_lists": "/tmp/dry_run_biology/resources/assay_lists.csv",
+  "attachments": "/tmp/dry_run_biology/resources/attachments.csv",
+  "author_lists": "/exp/verification/author_supplied_lists.csv",
+  "reactome": "/tmp/dry_run_biology/resources/UniProt2Reactome.txt",
+  "snapshot_estimates": "/tmp/dry_run_biology/resources/mrres_estimates.jsonl",
+  "protein_mapping": "/tmp/dry_run_biology/resources/protein_mapping.csv",
+  "trait_mapping": "/tmp/dry_run_biology/resources/trait_mapping.csv",
+  "locus_list": "/tmp/dry_run_biology/resources/loci.csv"
+ },
+ "written_utc": "2026-10-08T02:49:18+00:00",
+ "papers_per_pair": {
+  "1": 6,
+  "2": 1,
+  "3": 1
+ },
+ "participant_overlap_share": {
+  "multi_family_pairs": 2,
+  "known_overlapping": 0,
+  "known_not_overlapping": 1,
+  "unresolved": 1,
+  "lower": 0.0,
+  "upper": 0.5,
+  "complete_case": 0.0,
+  "wilson_descriptive": {
+   "lower": [
+    0.0,
+    0.6576197724933469
+   ],
+   "upper": [
+    0.09453120573423074,
+    0.9054687942657693
+   ]
+  },
+  "pair_bootstrap": {
+   "lower": [
+    0.0,
+    0.0
+   ],
+   "upper": [
+    0.0,
+    1.0
+   ],
+   "replicates": 2000,
+   "seed": 20261001
+  },
+  "h2b_verdict": "contradicted",
+  "imprecise_under_20_pairs": true
+ },
+ "within_family_discordance": {
+  "mixed_family_pair_records": 0,
+  "scopes_differ": 0,
+  "scope_shared": 0
+ },
+ "contradiction_sources": {
+  "contradicting_pairs": 1,
+  "imprecise_under_20_pairs": true,
+  "pqtl": {
+   "differ": 1,
+   "share_differ": 1.0,
+   "share_not_stated": 0.0,
+   "wilson_descriptive_differ": [
+    0.20654931437723745,
+    1.0
+   ]
+  },
+  "outcome": {
+   "differ": 1,
+   "share_differ": 1.0,
+   "share_not_stated": 0.0,
+   "wilson_descriptive_differ": [
+    0.20654931437723745,
+    1.0
+   ]
+  },
+  "platform": {
+   "differ": 1,
+   "share_differ": 1.0,
+   "share_not_stated": 0.0,
+   "wilson_descriptive_differ": [
+    0.20654931437723745,
+    1.0
+   ]
+  },
+  "ancestry": {
+   "not_stated": 1,
+   "share_differ": 0.0,
+   "share_not_stated": 1.0,
+   "wilson_descriptive_differ": [
+    0.0,
+    0.7934506856227626
+   ]
+  },
+  "any": {
+   "differ": 1,
+   "share_differ": 1.0,
+   "share_not_stated": 0.0,
+   "wilson_descriptive_differ": [
+    0.20654931437723745,
+    1.0
+   ]
+  }
+ },
+ "landscape": {
+  "eligible_families": 5,
+  "families_per_year": {
+   "2019": 1,
+   "2021": 1,
+   "2022": 1,
+   "2023": 1,
+   "2024": 1
+  },
+  "families_per_period": {
+   "2019-2022": 3,
+   "2023-2025": 2
+  },
+  "proteins": 5,
+  "most_claimed_proteins": [
+   {
+    "protein_id": "Q00001",
+    "families": 3,
+    "pairs": 3,
+    "claim_records": 6
+   },
+   {
+    "protein_id": "Q00002",
+    "families": 3,
+    "pairs": 2,
+    "claim_records": 3
+   },
+   {
+    "protein_id": "Q00003",
+    "families": 1,
+    "pairs": 1,
+    "claim_records": 1
+   },
+   {
+    "protein_id": "Q00004",
+    "families": 1,
+    "pairs": 1,
+    "claim_records": 1
+   },
+   {
+    "protein_id": "Q00005",
+    "families": 1,
+    "pairs": 1,
+    "claim_records": 2
+   }
+  ],
+  "pairs_per_therapeutic_area": {
+   "AREA:cancer": 1,
+   "AREA:cardio": 3,
+   "AREA:genetic": 2,
+   "AREA:resp": 2,
+   "EFO:0001444": 2
+  },
+  "claim_records_per_therapeutic_area": {
+   "AREA:cancer": 1,
+   "AREA:cardio": 7,
+   "AREA:genetic": 6,
+   "AREA:resp": 3,
+   "EFO:0001444": 2
+  },
+  "pairs_by_area_rule": {
+   "direct": 6,
+   "nearest_ancestor": 2
+  },
+  "claim_records_per_wording_class": {
+   "association": 4,
+   "causal": 7,
+   "target": 2
+  },
+  "area_names": {
+   "AREA:cardio": "cardiovascular",
+   "AREA:genetic": "genetic",
+   "AREA:cancer": "cancer",
+   "AREA:resp": "respiratory",
+   "EFO:0001444": "measurement"
+  },
+  "outcome_area_assignments": {
+   "EFO:bmi": {
+    "areas": [
+     "EFO:0001444"
+    ],
+    "disease_areas": [],
+    "assignment": "direct",
+    "ancestor_distance": null,
+    "nearest_ancestors": [],
+    "several_equally_near_ancestors": false
+   },
+   "EFO:crp": {
+    "areas": [
+     "EFO:0001444"
+    ],
+    "disease_areas": [],
+    "assignment": "direct",
+    "ancestor_distance": null,
+    "nearest_ancestors": [],
+    "several_equally_near_ancestors": false
+   },
+   "MONDO:asthma": {
+    "areas": [
+     "AREA:resp"
+    ],
+    "disease_areas": [
+     "AREA:resp"
+    ],
+    "assignment": "inherited",
+    "ancestor_distance": 1,
+    "nearest_ancestors": [
+     "MONDO:resp"
+    ],
+    "several_equally_near_ancestors": false
+   },
+   "MONDO:cad": {
+    "areas": [
+     "AREA:cardio",
+     "AREA:genetic"
+    ],
+    "disease_areas": [
+     "AREA:cardio",
+     "AREA:genetic"
+    ],
+    "assignment": "direct",
+    "ancestor_distance": null,
+    "nearest_ancestors": [],
+    "several_equally_near_ancestors": false
+   },
+   "MONDO:heart": {
+    "areas": [
+     "AREA:cardio"
+    ],
+    "disease_areas": [
+     "AREA:cardio"
+    ],
+    "assignment": "direct",
+    "ancestor_distance": null,
+    "nearest_ancestors": [],
+    "several_equally_near_ancestors": false
+   },
+   "MONDO:lungca": {
+    "areas": [
+     "AREA:cancer"
+    ],
+    "disease_areas": [
+     "AREA:cancer"
+    ],
+    "assignment": "direct",
+    "ancestor_distance": null,
+    "nearest_ancestors": [],
+    "several_equally_near_ancestors": false
+   }
+  },
+  "outcomes_by_area_assignment": {
+   "direct": 5,
+   "inherited": 1
+  },
+  "inherited_outcomes_by_ancestor_distance": {
+   "1": 1
+  },
+  "inherited_outcomes_with_several_equally_near_ancestors": 0
+ },
+ "distinct_pair_bounds": {
+  "distinct_pairs": 8,
+  "extraction_failed_families": 1,
+  "median_pairs_per_extracted_eligible_family": 2.5,
+  "distinct_pairs_lower": 8,
+  "distinct_pairs_upper": 10.5
+ }
+}
