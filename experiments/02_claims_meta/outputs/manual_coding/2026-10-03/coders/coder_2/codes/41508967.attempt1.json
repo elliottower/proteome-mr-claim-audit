@@ -1,0 +1,58 @@
+{
+ "record_id": "41508967",
+ "coder_id": "coder_2",
+ "attempt": 1,
+ "rows": [
+  {
+   "side": "outcome",
+   "name_as_written": "Allen's study",
+   "value": "source_names_dataset_absent_from_dictionary",
+   "unresolved_reason": "dataset_absent_from_dictionary",
+   "identification_basis": null,
+   "source_read": "abstract",
+   "passage_id": "p001",
+   "quote": "We obtained Genome-wide association study (GWAS) summary statistics of IPF from the Allen's study (discovery), the FinnGen study (finngen_R10_IPF) (replication), and the GWAS catalog study (replication).",
+   "citations_claim": "claims/41508967.yaml#outcome_1",
+   "companion_source": false,
+   "reference_label": null,
+   "reference_quote": null,
+   "reference_citations_claim": null,
+   "dataset_named_in_source": "Allen's study",
+   "coder_note": "Sentence names Allen's study as the discovery GWAS; the dictionary has no row for it."
+  },
+  {
+   "side": "outcome",
+   "name_as_written": "FinnGen study (finngen_R10_IPF)",
+   "value": "FinnGen R10",
+   "unresolved_reason": null,
+   "identification_basis": "release_identifier",
+   "source_read": "abstract",
+   "passage_id": "p001",
+   "quote": "We obtained Genome-wide association study (GWAS) summary statistics of IPF from the Allen's study (discovery), the FinnGen study (finngen_R10_IPF) (replication), and the GWAS catalog study (replication).",
+   "citations_claim": "claims/41508967.yaml#outcome_2",
+   "companion_source": false,
+   "reference_label": null,
+   "reference_quote": null,
+   "reference_citations_claim": null,
+   "dataset_named_in_source": null,
+   "coder_note": "Sentence gives the FinnGen study dataset as finngen_R10_IPF."
+  },
+  {
+   "side": "outcome",
+   "name_as_written": "GWAS catalog study",
+   "value": "not_stated_in_source",
+   "unresolved_reason": "release_not_identified",
+   "identification_basis": null,
+   "source_read": null,
+   "passage_id": null,
+   "quote": null,
+   "citations_claim": null,
+   "companion_source": false,
+   "reference_label": null,
+   "reference_quote": null,
+   "reference_citations_claim": null,
+   "dataset_named_in_source": null,
+   "coder_note": "Abstract names a GWAS catalog study as replication source with no accession, study or citation."
+  }
+ ]
+}

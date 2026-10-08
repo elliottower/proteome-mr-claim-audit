@@ -1,0 +1,23 @@
+source:
+  citation: '40328427'
+  local: sources/40328427.txt
+  sha256: 255ce63857fccfcc1220f4372762768273e835edeacf7dc1c86f74a3dc018056
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12869252/fullTextXML
+  note: body as scripts/fetch_fulltext.py rendered it
+claims:
+  outcome_1_a3:
+    quotes:
+    - exact: The present study was approved by UK Biobank under application number
+        19542.
+  outcome_1_a4:
+    quotes:
+    - exact: The present study was approved by UK Biobank under application number
+        19542.
+  outcome_1_c2:
+    quotes:
+    - exact: The data used in this study (including phenotypic and genetic data at
+        the individual level) were primarily obtained from the UK Biobank, application
+        number 19542, available via the UK Biobank (https://www.ukbiobank.ac.uk/).
+      prefix: 'targets for age-related disorders in the future. ## Data availability'
+      suffix: '## Ethics approval and consent to participate The study was conducted
+        following'

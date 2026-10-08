@@ -1,0 +1,50 @@
+source:
+  citation: '39278107'
+  local: sources/39278107.txt
+  sha256: 11081c930785e5e2287c392f77e5cbb6bbe47854ff309f1dc8ff1dfcdc4af3e2
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11418138/fullTextXML
+  note: body as scripts/fetch_fulltext.py rendered it
+claims:
+  outcome_1:
+    quotes:
+    - exact: Instrumental variables for each protein were then extracted from the Endometrial Cancer Association
+        Consortium (ECAC) GWAS summary data excluding UK Biobank participants (12,270 cases and 46,126
+        controls of European ancestry).21 We used either inverse variance weighted (IVW) models for proteins
+        instrumented with ≥2 variants or the Wald ratio for proteins instrumented with one variant to
+        estimate the association between protein biomarkers and endometrial cancer risk.
+  pqtl_1:
+    quotes:
+    - exact: Genetic variants associated with proteins were identified from the UKB-PPP GWAS summary data
+        (n = 52,363 individuals, 95% European ancestries).13 We selected variants within the gene region
+        encoding each protein (cis variants).
+  outcome_1_a2:
+    quotes:
+    - exact: Instrumental variables for each protein were then extracted from the Endometrial Cancer Association
+        Consortium (ECAC) GWAS summary data excluding UK Biobank participants (12,270 cases and 46,126
+        controls of European ancestry).21 We used either inverse variance weighted (IVW) models for proteins
+        instrumented with ≥2 variants or the Wald ratio for proteins instrumented with one variant to
+        estimate the association between protein biomarkers and endometrial cancer risk.
+  outcome_1_a3:
+    quotes:
+    - exact: Instrumental variables for each protein were then extracted from the Endometrial Cancer Association
+        Consortium (ECAC) GWAS summary data excluding UK Biobank participants (12,270 cases and 46,126
+        controls of European ancestry).21 We used either inverse variance weighted (IVW) models for proteins
+        instrumented with ≥2 variants or the Wald ratio for proteins instrumented with one variant to
+        estimate the association between protein biomarkers and endometrial cancer risk.
+  pqtl_1_a3:
+    quotes:
+    - exact: Genetic variants associated with proteins were identified from the UKB-PPP GWAS summary data
+        (n = 52,363 individuals, 95% European ancestries).13 We selected variants within the gene region
+        encoding each protein (cis variants).
+  outcome_1_c2:
+    quotes:
+    - exact: Instrumental variables for each protein were then extracted from the Endometrial Cancer Association
+        Consortium (ECAC) GWAS summary data excluding UK Biobank participants (12,270 cases and 46,126
+        controls of European ancestry).21 We used either inverse variance weighted (IVW) models for proteins
+        instrumented with ≥2 variants or the Wald ratio for proteins instrumented with one variant to
+        estimate the association between protein biomarkers and endometrial cancer risk.
+  pqtl_1_c2:
+    quotes:
+    - exact: Genetic variants associated with proteins were identified from the UKB-PPP GWAS summary data
+        (n = 52,363 individuals, 95% European ancestries).13 We selected variants within the gene region
+        encoding each protein (cis variants).

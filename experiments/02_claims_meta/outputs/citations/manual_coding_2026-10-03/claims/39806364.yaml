@@ -1,0 +1,73 @@
+source:
+  citation: '39806364'
+  local: sources/39806364.txt
+  sha256: 7db9d932f99260768f92afb551f3adb8977a756d2ee9792858dea9d67109c61d
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11726950/fullTextXML
+  note: body as scripts/fetch_fulltext.py rendered it
+claims:
+  outcome_1:
+    quotes:
+    - exact: The summarized data of SS (finngen_R10_M13_SJOGREN) was derived from a dataset contained
+        in the latest documentation of the FinnGen study, recently updated on December 18, 2023, which
+        can be accessed through the publicly available website of FinnGen consortiums (https://finngen.gitbook.io/documentation/).
+  outcome_2:
+    quotes:
+    - exact: Additionally, the dataset for inflammatory cytokines was the meta-analysis summary statistics
+        obtained from a GWAS study of the University of Bristol (https://data.bris.ac.uk/data/dataset),
+        which involves 41 traits of circulating inflammatory cytokines from 8,293 Finnish individuals
+        within three cohorts [14, 15].
+  pqtl_1:
+    quotes:
+    - exact: The summarized data of SS (finngen_R10_M13_SJOGREN) was derived from a dataset contained
+        in the latest documentation of the FinnGen study, recently updated on December 18, 2023, which
+        can be accessed through the publicly available website of FinnGen consortiums (https://finngen.gitbook.io/documentation/).
+  pqtl_2:
+    quotes:
+    - exact: Additionally, the dataset for inflammatory cytokines was the meta-analysis summary statistics
+        obtained from a GWAS study of the University of Bristol (https://data.bris.ac.uk/data/dataset),
+        which involves 41 traits of circulating inflammatory cytokines from 8,293 Finnish individuals
+        within three cohorts [14, 15].
+  outcome_1_a2:
+    quotes:
+    - exact: The summarized data of SS (finngen_R10_M13_SJOGREN) was derived from a dataset contained
+        in the latest documentation of the FinnGen study, recently updated on December 18, 2023, which
+        can be accessed through the publicly available website of FinnGen consortiums (https://finngen.gitbook.io/documentation/).
+  pqtl_1_a2:
+    quotes:
+    - exact: The summarized data of SS (finngen_R10_M13_SJOGREN) was derived from a dataset contained
+        in the latest documentation of the FinnGen study, recently updated on December 18, 2023, which
+        can be accessed through the publicly available website of FinnGen consortiums (https://finngen.gitbook.io/documentation/).
+  outcome_2_a2:
+    quotes:
+    - exact: Additionally, the dataset for inflammatory cytokines was the meta-analysis summary statistics
+        obtained from a GWAS study of the University of Bristol (https://data.bris.ac.uk/data/dataset),
+        which involves 41 traits of circulating inflammatory cytokines from 8,293 Finnish individuals
+        within three cohorts [14, 15].
+  pqtl_2_a2:
+    quotes:
+    - exact: Additionally, the dataset for inflammatory cytokines was the meta-analysis summary statistics
+        obtained from a GWAS study of the University of Bristol (https://data.bris.ac.uk/data/dataset),
+        which involves 41 traits of circulating inflammatory cytokines from 8,293 Finnish individuals
+        within three cohorts [14, 15].
+  outcome_1_c2:
+    quotes:
+    - exact: The summarized data of SS (finngen_R10_M13_SJOGREN) was derived from a dataset contained
+        in the latest documentation of the FinnGen study, recently updated on December 18, 2023, which
+        can be accessed through the publicly available website of FinnGen consortiums (https://finngen.gitbook.io/documentation/).
+  outcome_2_c2:
+    quotes:
+    - exact: Additionally, the dataset for inflammatory cytokines was the meta-analysis summary statistics
+        obtained from a GWAS study of the University of Bristol (https://data.bris.ac.uk/data/dataset),
+        which involves 41 traits of circulating inflammatory cytokines from 8,293 Finnish individuals
+        within three cohorts [14, 15].
+  pqtl_1_c2:
+    quotes:
+    - exact: The summarized data of SS (finngen_R10_M13_SJOGREN) was derived from a dataset contained
+        in the latest documentation of the FinnGen study, recently updated on December 18, 2023, which
+        can be accessed through the publicly available website of FinnGen consortiums (https://finngen.gitbook.io/documentation/).
+  pqtl_2_c2:
+    quotes:
+    - exact: Additionally, the dataset for inflammatory cytokines was the meta-analysis summary statistics
+        obtained from a GWAS study of the University of Bristol (https://data.bris.ac.uk/data/dataset),
+        which involves 41 traits of circulating inflammatory cytokines from 8,293 Finnish individuals
+        within three cohorts [14, 15].

@@ -1,0 +1,15 @@
+source:
+  citation: '37940228'
+  local: sources/37940228.txt
+  sha256: 0ee984af40e2857dae5781849dfcab6da7ea94d60bd72db875f9e94b68dad64a
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10641761/fullTextXML
+  note: body as scripts/fetch_fulltext.py rendered it
+claims:
+  pqtl_1_c2:
+    quotes:
+    - exact: 'The study aimed to: 1) identify proteins associated with risk of IHD independent of established
+        cardiovascular disease (CVD) risk factors; 2) use cis-protein quantitative loci (pQTLs) identified
+        in GWAS of CKB and UK Biobank (UKB) for these proteins to assess their causal relevance for IHD
+        in 2-sample Mendelian randomization (MR) analyses in a global IHD GWAS consortium; and 3) explore
+        mechanisms linking such proteins with IHD using enrichment analyses, tissue expression, and single-gene
+        knockout (KO) models.'

@@ -1,0 +1,41 @@
+{
+ "record_id": "41351645",
+ "coder_id": "coder_4",
+ "attempt": 1,
+ "rows": [
+  {
+   "side": "outcome",
+   "name_as_written": "FinnGen",
+   "value": "FinnGen R10",
+   "unresolved_reason": null,
+   "identification_basis": "release_identifier",
+   "source_read": "full_text",
+   "passage_id": "p002",
+   "quote": "Validation was performed using stroke cohorts from the UKB (6116 cases, 456,817 controls) and the FinnGen R10 release (43,132 cases, 297,867 controls).",
+   "citations_claim": "claims/41351645.yaml#outcome_1",
+   "companion_source": false,
+   "reference_label": null,
+   "reference_quote": null,
+   "reference_citations_claim": null,
+   "dataset_named_in_source": null,
+   "coder_note": "Sentence states validation used the FinnGen R10 release."
+  },
+  {
+   "side": "outcome",
+   "name_as_written": "UK Biobank (UKB)",
+   "value": "not_stated_in_source",
+   "unresolved_reason": "release_not_identified",
+   "identification_basis": null,
+   "source_read": null,
+   "passage_id": null,
+   "quote": null,
+   "citations_claim": null,
+   "companion_source": false,
+   "reference_label": null,
+   "reference_quote": null,
+   "reference_citations_claim": null,
+   "dataset_named_in_source": null,
+   "coder_note": "UKB stroke cohort named with case and control counts; no GWAS release or source identified."
+  }
+ ]
+}

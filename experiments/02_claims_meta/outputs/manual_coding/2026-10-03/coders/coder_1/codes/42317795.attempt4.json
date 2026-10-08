@@ -1,0 +1,15 @@
+{"record_id": "42317795", "coder_id": "coder_1", "attempt": 4,
+ "rows": [
+  {"side": "outcome", "name_as_written": "UK Biobank",
+   "value": "source_names_dataset_absent_from_dictionary",
+   "unresolved_reason": "dataset_absent_from_dictionary",
+   "identification_basis": null,
+   "source_read": "full_text",
+   "passage_id": "p009",
+   "quote": "Information on the prevalence and incidence of depression and RA was obtained from the UK Biobank “First Occurrence” category (category 1712), which was derived from the integration of hospital admissions, death records, primary care data, and self-reported outcomes collected during nurse-led interviews.",
+   "citations_claim": "claims/42317795.yaml#outcome_1_a4",
+   "companion_source": false,
+   "reference_label": null, "reference_quote": null, "reference_citations_claim": null,
+   "dataset_named_in_source": "UK Biobank",
+   "coder_note": "Step 3 of the decision order (rule C): the passages describe the authors' own analysis of UK Biobank individual-level data, defined by a phenotype definition (depression and RA from the First Occurrence category 1712, ICD-10 F32/F33 and M05/M06 in the next sentence) and by described measurements (59 blood measures, 168 NMR metabolites, 2,920 Olink proteins, p002 and p010); no dictionary row is that analysis. The only UK Biobank citation (ref 64, Bycroft 2018, p008) is a general cohort description and matches no dictionary row; the GWAS summary statistics of p011 are attributed to 'independent datasets (Table S10)', not named. Step 2 does not apply; no accession, so rule C4 does not arise."}
+ ]}

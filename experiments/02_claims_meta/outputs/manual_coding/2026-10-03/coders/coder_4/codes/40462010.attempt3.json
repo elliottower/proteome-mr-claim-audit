@@ -1,0 +1,58 @@
+{
+ "record_id": "40462010",
+ "coder_id": "coder_4",
+ "attempt": 3,
+ "rows": [
+  {
+   "side": "outcome",
+   "name_as_written": "UK Biobank-SAIGE database",
+   "value": "not_stated_in_source",
+   "unresolved_reason": "release_not_identified",
+   "identification_basis": null,
+   "source_read": null,
+   "passage_id": null,
+   "quote": null,
+   "citations_claim": null,
+   "companion_source": false,
+   "reference_label": null,
+   "reference_quote": null,
+   "reference_citations_claim": null,
+   "dataset_named_in_source": null,
+   "coder_note": "Rule D: the passage gives only the name 'UK Biobank-SAIGE database' with 783 phenotypes; no citation, URL, release, year or accession. The phenotype count is not that of the SAIGE PheWeb row (1,403 codes), and both PheWeb rows of the dictionary are UK Biobank resources, so the name alone separates neither."
+  },
+  {
+   "side": "pqtl",
+   "name_as_written": "Finland",
+   "value": "source_names_dataset_absent_from_dictionary",
+   "unresolved_reason": "dataset_absent_from_dictionary",
+   "identification_basis": null,
+   "source_read": "abstract_fallback_after_fulltext_no_match",
+   "passage_id": "p001",
+   "quote": "The plasma proteins were sourced from the Finland and Iceland decode database, encompassing GWAS data for plasma proteins (Olink-619 samples across 2925 proteins, SomaScan -828 samples across 7596 proteins and Iceland decode database across 4907 proteins).",
+   "citations_claim": "claims/40462010.abstract.yaml#pqtl_1_a3",
+   "companion_source": false,
+   "reference_label": null,
+   "reference_quote": null,
+   "reference_citations_claim": null,
+   "dataset_named_in_source": "Finland",
+   "coder_note": "The sentence names a Finnish plasma protein GWAS source with its platforms and sample sizes (Olink, 619 samples, 2925 proteins; SomaScan, 828 samples, 7596 proteins); the dictionary has no pqtl row for a Finnish dataset or with these sizes."
+  },
+  {
+   "side": "pqtl",
+   "name_as_written": "Iceland decode database",
+   "value": "deCODE SomaScan v4 (Ferkingstad 2021)",
+   "unresolved_reason": null,
+   "identification_basis": "source_identifier",
+   "source_read": "full_text",
+   "passage_id": "p001",
+   "quote": "Iceland Decode Database: 4,907 aptamers in 35,559 Icelandic individuals (PMID: 34,857,953).",
+   "citations_claim": "claims/40462010.yaml#pqtl_2_a3",
+   "companion_source": false,
+   "reference_label": null,
+   "reference_quote": null,
+   "reference_citations_claim": null,
+   "dataset_named_in_source": null,
+   "coder_note": "The sentence itself gives the source PMID, written with thousands separators as 34,857,953 (that is 34857953, the PMID of the Ferkingstad 2021 row only), with that row's exact N (35,559 Icelandic individuals) and 4,907 aptamers; the Eldjarn 2023 row has another PMID and N. No conflict in the other passages."
+  }
+ ]
+}

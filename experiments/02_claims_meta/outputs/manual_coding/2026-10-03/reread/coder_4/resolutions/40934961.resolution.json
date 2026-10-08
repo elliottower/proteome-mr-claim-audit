@@ -1,0 +1,14 @@
+{"record_id": "40934961", "coder_id": "coder_4",
+ "rows": [
+  {"row": "outcome_1",
+   "resolved_value": "source_names_dataset_absent_from_dictionary",
+   "unresolved_reason": "dataset_absent_from_dictionary",
+   "resolution_note": "Rule C, step 3 of the order of decision: sentence 2 of p001 (as given under this row, sentence 4 of the abstract) defines the authors' own analysis of UK Biobank individual-level genomic data by its procedure (one-sample MR, two-stage least squares), and the preceding sentence describes their Cox models on UK Biobank proteomic data; the other mention, CKD GWAS summary statistics derived from the UK Biobank, is a name alone and identifies no dictionary row, so no identifier conflicts.",
+   "identification_basis": null,
+   "source_read": "abstract",
+   "passage_id": "p001",
+   "quote": "Subsequently, we performed one-sample Mendelian randomization (MR) using individual-level genomic data from the UK Biobank and pQTL summary statistics from the UKB-PPP, applying a two-stage least squares approach.",
+   "citations_claim": "claims/40934961.yaml#outcome_1_r",
+   "companion_source": false,
+   "reference_label": null, "reference_quote": null, "reference_citations_claim": null,
+   "dataset_named_in_source": "UK Biobank"}]}

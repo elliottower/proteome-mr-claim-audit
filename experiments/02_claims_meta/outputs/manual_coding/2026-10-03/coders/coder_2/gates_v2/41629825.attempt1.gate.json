@@ -1,0 +1,57 @@
+{
+ "record_id": "41629825",
+ "coder_id": "coder_2",
+ "attempt": 1,
+ "rows": [
+  {
+   "side": "outcome",
+   "name_as_written": "ieu-b-4980",
+   "value": "source_names_dataset_absent_from_dictionary",
+   "passes": true,
+   "failures": [],
+   "warnings": [],
+   "machine_basis": [],
+   "reference_verified_by": null
+  },
+  {
+   "side": "outcome",
+   "name_as_written": "ieu-b-5086",
+   "value": "source_names_dataset_absent_from_dictionary",
+   "passes": true,
+   "failures": [],
+   "warnings": [],
+   "machine_basis": [],
+   "reference_verified_by": null
+  },
+  {
+   "side": "pqtl",
+   "name_as_written": "Decode",
+   "value": "deCODE SomaScan v4 (Ferkingstad 2021)",
+   "passes": true,
+   "failures": [],
+   "warnings": [],
+   "machine_basis": [
+    "source_citation:Ferkingstad|2021",
+    "source_identifier:10.1038/s41588-021-00978-w",
+    "source_identifier:34857953",
+    "sample_size:35559+2021"
+   ],
+   "reference_verified_by": "doi"
+  },
+  {
+   "side": "pqtl",
+   "name_as_written": "UKB-PPP",
+   "value": "not_stated_in_source",
+   "passes": true,
+   "failures": [],
+   "warnings": [],
+   "machine_basis": [],
+   "reference_verified_by": null
+  }
+ ],
+ "rows_not_coded_once": [],
+ "rows_not_given": [],
+ "wrong_coder": false,
+ "passes": true,
+ "gated_utc": "20261008T003917Z"
+}

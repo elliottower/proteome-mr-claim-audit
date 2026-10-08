@@ -1,0 +1,28 @@
+source:
+  citation: '39463412'
+  local: sources/39463412.txt
+  sha256: be0e2923c9514cf7af5d328bf88ef140eb9b4dde1e0640df7bfa300b7138edde
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11514233/fullTextXML
+  note: body as scripts/fetch_fulltext.py rendered it
+claims:
+  pqtl_1:
+    quotes:
+    - exact: The genome-wide association study (GWAS) summary statistics for plasma proteins were obtained
+        from the deCODE open database12,13.
+  pqtl_1_a2:
+    quotes:
+    - exact: The genome-wide association study (GWAS) summary statistics for plasma proteins were obtained
+        from the deCODE open database12,13.
+  pqtl_1_a3:
+    quotes:
+    - exact: The genome-wide association study (GWAS) summary statistics for plasma proteins were obtained
+        from the deCODE open database12,13.
+  outcome_1_c2:
+    quotes:
+    - exact: The GWAS summary statistics for NAFLD were sourced from the Finnish genetic sample collection
+        (FinnGen), including 2,568 NAFLD cases and 409,613 healthy controls, with a total of 19,682,705
+        SNPs14.
+  pqtl_1_c2:
+    quotes:
+    - exact: The genome-wide association study (GWAS) summary statistics for plasma proteins were obtained
+        from the deCODE open database12,13.

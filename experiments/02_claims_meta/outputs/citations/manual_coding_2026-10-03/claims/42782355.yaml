@@ -1,0 +1,16 @@
+source:
+  citation: '42782355'
+  local: sources/42782355.txt
+  sha256: 3193249783ec6cd8ff007ddb969c36b5b0958d315585d1c483617d1fdebc3a8f
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13612798/fullTextXML
+  note: body as scripts/fetch_fulltext.py rendered it
+claims:
+  pqtl_1:
+    quotes:
+    - exact: '[Table 1. Detailed information on the GWAS datasets used in this study] Phenotype: Plasma
+        proteins | Source: UKB-PPP | Cases or participants: Up to 34,557 | Controls: NA | Year: 2023 |
+        Population: European | PMID: 37,794,186'
+  pqtl_1_c2:
+    quotes:
+    - exact: The European-ancestry discovery pQTL analyses used up to 34,557 randomly selected baseline
+        participants, with the remaining samples used for replication.

@@ -1,0 +1,14 @@
+{"record_id": "41540382", "coder_id": "coder_3",
+ "rows": [
+  {"row": "pqtl_1",
+   "resolved_value": "ARIC European American (Zhang 2022)",
+   "unresolved_reason": null,
+   "resolution_note": "p001 is one description of the dataset: sentence 38 gives 7,213 European individuals in the ARIC study (the exact N and ancestry of this row only; the other ARIC row has 1,871 African American) and sentence 35 of the same passage gives the SOMAmer platform; p002 sentence 42 cites Zhang 2022 (DOI 10.1038/s41588-022-01051-w) for the ARIC model and nothing conflicts. The platform is not in the pinned sentence itself.",
+   "identification_basis": "exact_n_with_platform_or_year",
+   "source_read": "full_text",
+   "passage_id": "p001",
+   "quote": "After quality control, 4,483 unique proteins from 7,213 European individuals in the ARIC study and 3,170 proteins from 3,301 European individuals in the INTERVAL study were included in the PWAS analyses.",
+   "citations_claim": "claims/41540382.yaml#pqtl_1_r",
+   "companion_source": false,
+   "reference_label": null, "reference_quote": null, "reference_citations_claim": null,
+   "dataset_named_in_source": null}]}

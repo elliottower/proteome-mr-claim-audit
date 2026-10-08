@@ -1,0 +1,15 @@
+{"record_id": "42393888", "coder_id": "coder_4", "attempt": 2,
+ "rows": [
+  {"side": "outcome", "name_as_written": "ieu-a-32",
+   "value": "IIBDGC European IBD GWAS (Liu 2015, public summary statistics)",
+   "unresolved_reason": null,
+   "identification_basis": "release_identifier",
+   "source_read": "abstract",
+   "passage_id": "p001",
+   "quote": "Mendelian randomization (MR) analysis was used to explore the causal relationship between feature DEGs and UC based on data derived from genome-wide association studies (GWAS) (ieu-a-32, 20,464 normal controls and 6968 UC patients), including expression quantitative trait loci (eQTL) and protein quantitative trait loci (pQTL).",
+   "citations_claim": "claims/42393888.yaml#outcome_1_a2",
+   "companion_source": false,
+   "reference_label": null, "reference_quote": null, "reference_citations_claim": null,
+   "dataset_named_in_source": null,
+   "coder_note": "The sentence gives an accession with the UC case and control counts of the analysis dataset; those two counts are the UC counts in this dictionary row's release field and in no other row. The accession itself is not in the dictionary, so the link rests on the counts: flag for the checker."}
+ ]}

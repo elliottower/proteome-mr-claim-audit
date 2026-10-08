@@ -1,0 +1,15 @@
+source:
+  citation: '39824903'
+  local: sources/39824903.txt
+  sha256: 5d2935f29c9d2bb0af754c2a10eb3f839d53d6a577e76fffec8028e0b5c3f638
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11748740/fullTextXML
+  note: body as scripts/fetch_fulltext.py rendered it
+claims:
+  outcome_1:
+    quotes:
+    - exact: In the primary MR analysis, we utilized summary statistical data from the FinnGen study (R10)
+        of ILD and its subtypes as outcomes.
+  outcome_1_c2:
+    quotes:
+    - exact: In the primary MR analysis, we utilized summary statistical data from the FinnGen study (R10)
+        of ILD and its subtypes as outcomes.

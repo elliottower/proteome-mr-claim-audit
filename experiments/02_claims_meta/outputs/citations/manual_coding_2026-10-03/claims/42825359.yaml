@@ -1,0 +1,16 @@
+source:
+  citation: '42825359'
+  local: sources/42825359.txt
+  sha256: 3911b125a01ecff5d84656592ae238eaee7a5c76fd03804331addbadf5aee502
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13631931/fullTextXML
+  note: body as scripts/fetch_fulltext.py rendered it
+claims:
+  pqtl_1:
+    quotes:
+    - exact: '[Table 1. Data sources for the multi-omics MR study] Data layer: Proteomics (exposure) |
+        Data source: Sun et al. [15] | Platform/consortium: INTERVAL (SomaScan) | Number of exposures/outcomes:
+        3283 proteins | Sample size: n = 3301 | Population: European'
+  pqtl_1_c2:
+    quotes:
+    - exact: We obtained the genetic instruments for circulating protein levels from the plasma proteome
+        protein quantitative trait loci (pQTL) resource compiled by Sun et al. [15].

@@ -1,0 +1,41 @@
+{
+ "record_id": "41247789",
+ "coder_id": "coder_4",
+ "attempt": 1,
+ "rows": [
+  {
+   "side": "pqtl",
+   "name_as_written": "UK Biobank Pharma Proteomics Project (UKB-PPP)",
+   "value": "not_stated_in_source",
+   "unresolved_reason": "release_not_identified",
+   "identification_basis": null,
+   "source_read": null,
+   "passage_id": null,
+   "quote": null,
+   "citations_claim": null,
+   "companion_source": false,
+   "reference_label": null,
+   "reference_quote": null,
+   "reference_citations_claim": null,
+   "dataset_named_in_source": null,
+   "coder_note": "UKB-PPP named with a citation shared by several rows and a participant count that equals no UKB-PPP row size."
+  },
+  {
+   "side": "pqtl",
+   "name_as_written": "deCODE Genetics",
+   "value": "deCODE SomaScan v4 (Ferkingstad 2021)",
+   "unresolved_reason": null,
+   "identification_basis": "reference_entry",
+   "source_read": "full_text",
+   "passage_id": "p011",
+   "quote": "From these SNPs, only those with a minor allele frequency of ≥1% that were genome-wide significance (P<5 × 10–8) and considered independent (linkage disequilibrium r2 <0.1 in 1000G) were retained. deCODE Genetics conducted proteomic profiling on blood plasma samples from 35,559 Icelanders using the SomaScan platform and collected data on 4907 aptamers (Ferkingstad et al., 2021).",
+   "citations_claim": "claims/41247789.yaml#pqtl_2",
+   "companion_source": true,
+   "reference_label": "bib17",
+   "reference_quote": "Ferkingstad E Sulem P Atlason BA Sveinbjornsson G Magnusson MI Styrmisdottir EL Gunnarsdottir K Helgason A Oddsson A Halldorsson BV Jensson BO Zink F Halldorsson GH Masson G Arnadottir GA Katrinardottir H Juliusson K Magnusson MK Magnusson OT Fridriksdottir R Saevarsdottir S Gudjonsson SA Stacey SN Rognvaldsson S Eiriksdottir T Olafsdottir TA Steinthorsdottir V Tragante V Ulfarsson MO Stefansson H Jonsdottir I Holm H Rafnar T Melsted P Saemundsdottir J Norddahl GL Lund SH Gudbjartsson DF Thorsteinsdottir U Stefansson K 2021 Large-scale integration of the plasma proteome with genetics and disease Nature Genetics 53 1712 1721 10.1038/s41588-021-00978-w 34857953",
+   "reference_citations_claim": "claims/41247789.references.yaml#pqtl_2_ref",
+   "dataset_named_in_source": null,
+   "coder_note": "Sentence attributes the deCODE Genetics profiling of 35,559 Icelanders on SomaScan with 4907 aptamers to Ferkingstad et al., 2021; the linked entry DOI is the Ferkingstad 2021 row source only."
+  }
+ ]
+}

@@ -1,0 +1,23 @@
+source:
+  citation: '41918723'
+  local: sources/41918723.txt
+  sha256: be812ba921e32d349c04547bb8ae52b332b6fa510b942c66227e8717ab432d8f
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13033518/fullTextXML
+  note: body as scripts/fetch_fulltext.py rendered it
+claims:
+  outcome_1:
+    quotes:
+    - exact: GWAS summary statistics for UC were obtained from UK Biobank-based fastGWA analysis (PheCode
+        555.2), as reported in Yang et al. (12).
+  pqtl_1:
+    quotes:
+    - exact: Then, these gene symbols were intersected with plasma proteins measured using the deCODE
+        genetics proteomics panel (10).
+  outcome_1_c2:
+    quotes:
+    - exact: GWAS summary statistics for UC were obtained from UK Biobank-based fastGWA analysis (PheCode
+        555.2), as reported in Yang et al. (12).
+  pqtl_1_c2:
+    quotes:
+    - exact: Then, these gene symbols were intersected with plasma proteins measured using the deCODE
+        genetics proteomics panel (10).

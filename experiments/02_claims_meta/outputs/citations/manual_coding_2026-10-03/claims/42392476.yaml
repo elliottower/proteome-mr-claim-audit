@@ -1,0 +1,21 @@
+source:
+  citation: '42392476'
+  local: sources/42392476.txt
+  sha256: e88fd0fb8a0b3edb6862f4d6ca0f61ca6f94b0d42373a72460be1beae69ba059
+  note: abstract exactly as sent to the extractor
+claims:
+  outcome_1_c2:
+    quotes:
+    - exact: These were used as instrumental variables for Mendelian Randomization, summary-based Mendelian
+        Randomization, and colocalization analysis, with the Benjamini-Hochberg method employed to control
+        for false positives, to investigate associations with AF (from FinnGen).
+  pqtl_1_c2:
+    quotes:
+    - exact: 'METHODS: The study used mitochondrial genes from MitoCarta version 3.0 to extract corresponding
+        methylation data from GoDMC, gene expression data from eQTLGen and GTEx, and protein abundance
+        data from UKB-PPP and deCODE to identify quantitative trait loci (QTLs).'
+  pqtl_2_c2:
+    quotes:
+    - exact: 'METHODS: The study used mitochondrial genes from MitoCarta version 3.0 to extract corresponding
+        methylation data from GoDMC, gene expression data from eQTLGen and GTEx, and protein abundance
+        data from UKB-PPP and deCODE to identify quantitative trait loci (QTLs).'

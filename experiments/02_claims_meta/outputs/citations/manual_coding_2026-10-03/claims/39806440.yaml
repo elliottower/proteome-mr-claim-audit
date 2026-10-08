@@ -1,0 +1,27 @@
+source:
+  citation: '39806440'
+  local: sources/39806440.txt
+  sha256: c26f98efd1363e88798177be560d892fe7124344db4d3242d185dfe3931d2f81
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11730137/fullTextXML
+  note: body as scripts/fetch_fulltext.py rendered it
+claims:
+  outcome_2:
+    quotes:
+    - exact: Asthma data were derived from the GWAS data of the UK Biobank, comprising 56,167 patients
+        and 352,255 control subjects of European ancestry [25].
+  outcome_2_a2:
+    quotes:
+    - exact: Asthma data were derived from the GWAS data of the UK Biobank, comprising 56,167 patients
+        and 352,255 control subjects of European ancestry [25].
+  outcome_1_c2:
+    quotes:
+    - exact: Asthma data for external validation were obtained from the FinnGen cohort [26] (23,834 patients
+        and 228,085 control subjects of European ancestry; https://www.finngen.fi/en).
+  outcome_2_c2:
+    quotes:
+    - exact: Asthma data were derived from the GWAS data of the UK Biobank, comprising 56,167 patients
+        and 352,255 control subjects of European ancestry [25].
+  outcome_2_r:
+    quotes:
+    - exact: Asthma data were derived from the GWAS data of the UK Biobank, comprising 56,167 patients
+        and 352,255 control subjects of European ancestry [25].

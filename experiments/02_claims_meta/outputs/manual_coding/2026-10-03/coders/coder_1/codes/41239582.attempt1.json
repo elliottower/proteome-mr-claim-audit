@@ -1,0 +1,41 @@
+{
+ "record_id": "41239582",
+ "coder_id": "coder_1",
+ "attempt": 1,
+ "rows": [
+  {
+   "side": "outcome",
+   "name_as_written": "FinnGen",
+   "value": "FinnGen R10",
+   "unresolved_reason": null,
+   "identification_basis": "release_identifier",
+   "source_read": "full_text",
+   "passage_id": "p002",
+   "quote": "The publicly available R10 data from the FinnGen study comprised 4620 patients with VTE and 356,574 healthy controls.[21] In contrast, the VTE-related GWAS data from the UK Biobank, obtained from Neale labs, consisted of 4620 cases and 356,574 controls, encompassing 11,901,177 SNPs, and utilizing the disease code ukb-d-I9_VTE (https://gwas.mrcieu.ac.uk/).",
+   "citations_claim": "claims/41239582.yaml#outcome_1",
+   "companion_source": false,
+   "reference_label": null,
+   "reference_quote": null,
+   "reference_citations_claim": null,
+   "dataset_named_in_source": null,
+   "coder_note": "Passage line states the R10 data from the FinnGen study were used; the same case and control counts are repeated for the UK Biobank data in that line, flagged for the checker."
+  },
+  {
+   "side": "outcome",
+   "name_as_written": "UK Biobank",
+   "value": "not_stated_in_source",
+   "unresolved_reason": "conflicting_identifiers",
+   "identification_basis": null,
+   "source_read": null,
+   "passage_id": null,
+   "quote": null,
+   "citations_claim": null,
+   "companion_source": false,
+   "reference_label": null,
+   "reference_quote": null,
+   "reference_citations_claim": null,
+   "dataset_named_in_source": null,
+   "coder_note": "The line attributes the UK Biobank GWAS to Neale labs while giving the id ukb-d-I9_VTE; in the dictionary the Neale lab alias and the ukb-d alias belong to different rows, and neither Neale round is named; flagged for adjudication."
+  }
+ ]
+}

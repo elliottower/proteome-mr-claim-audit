@@ -1,0 +1,184 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Check of 20 coded rows</title>
+<style>
+body{font:17px/1.5 -apple-system,Helvetica,Arial,sans-serif;background:#fff;color:#111;max-width:860px;margin:24px auto;padding:0 16px}
+h1{font-size:22px} .card{border:1px solid #bbb;border-radius:8px;padding:14px 18px;margin:18px 0}
+.card.done{border-color:#2a7;background:#f4fbf7} .card.nope{border-color:#c33;background:#fdf4f4}
+h2{font-size:19px;margin:6px 0 8px} .top{display:flex;justify-content:space-between;color:#333;font-size:14px}
+.snip{font-size:17px} mark{background:#ffe066;color:#000;padding:0 2px;font-weight:600}
+.src,details{font-size:14px;color:#222} .ans{margin-top:10px;display:flex;gap:18px;flex-wrap:wrap;align-items:center}
+.note{flex:1;min-width:200px;font-size:15px;padding:4px 6px} label{font-weight:600}
+#bar{position:sticky;top:0;background:#fff;border-bottom:2px solid #111;padding:10px 0;display:flex;justify-content:space-between;align-items:center;z-index:2}
+button{font-size:16px;padding:8px 14px;border-radius:6px;border:2px solid #111;background:#111;color:#fff;cursor:pointer} button:disabled{background:#888;border-color:#888}
+</style></head><body>
+<h1>Check of 20 coded rows (random sample, seed 20261008)</h1>
+<p>For each card: the heading is the dataset release that was coded. The highlighted words are what the script matched in the paper's sentence or in the reference it cites. Answer yes if the text really states that release (its name, release number, sample size, or that it is the cited source). Otherwise answer no.</p>
+<div id="bar"><span id="count">0 of 20 answered</span><button id="save" disabled>Save my answers</button></div>
+<section class="card" data-line="8" data-n="1">
+<div class="top"><span class="num">1 of 20</span><span class="side">outcome data</span></div>
+<h2>BCAC breast cancer (Michailidou 2017)</h2>
+<p class="snip">… summary statistics were obtained from the Breast Cancer Association Consortium (<mark>BCAC</mark>; IEU identifier: ieu-a-1126), comprising <mark>122,977</mark> BC cases and 105,974 controls with genome-wide data on approximately 15 million …<br><br>REFERENCE: <mark>Michailidou</mark> K, Lindström S, Dennis J, et al. Association analysis identifies 65 new breast cancer risk loci. Nature . <mark>2017</mark>;551(7678):92–94. doi: <mark>10.1038/nature24284</mark></p>
+<p class="src">Matched in: sentence and reference entry</p>
+<details><summary>Full sentence and reference entry</summary><p>Breast cancer GWAS summary statistics were obtained from the Breast Cancer Association Consortium (BCAC; IEU identifier: ieu-a-1126), comprising 122,977 BC cases and 105,974 controls with genome-wide data on approximately 15 million common variants.25,26</p><p><b>Reference entry:</b> Michailidou K, Lindström S, Dennis J, et al. Association analysis identifies 65 new breast cancer risk loci. Nature . 2017;551(7678):92–94. doi: 10.1038/nature24284</p></details>
+<div class="ans"><label><input type="radio" name="r1" value="yes"> Yes, it says that</label>
+<label><input type="radio" name="r1" value="no"> No</label>
+<input type="text" class="note" placeholder="note (optional)"></div></section><section class="card" data-line="12" data-n="2">
+<div class="top"><span class="num">2 of 20</span><span class="side">outcome data</span></div>
+<h2>BCAC breast cancer subtypes (Zhang 2020)</h2>
+<p class="snip">… tional GWAS studies (14,910 cases and 17,588 controls), resulting in a total of <mark>133,384</mark> breast cancer cases and 113,789 controls (21).<br><br>REFERENCE: …  susceptibility loci from overall and subtype-specific analyses . Nat Genet . ( <mark>2020</mark> ) 52 : 572–81 . doi: 10.1038/s41588-020-0609-2 PMC7808397 32424353</p>
+<p class="src">Matched in: sentence and reference entry</p>
+<details><summary>Full sentence and reference entry</summary><p>The BCAC consortium combined three datasets: iCOGS (38,349 cases and 37,818 controls), OncoArray (80,125 cases and 58,383 controls), and additional GWAS studies (14,910 cases and 17,588 controls), resulting in a total of 133,384 breast cancer cases and 113,789 controls (21).</p><p><b>Reference entry:</b> Zhang H Ahearn TU Lecarpentier J Barnes D Beesley J Qi G . Genome-wide association study identifies 32 novel breast cancer susceptibility loci from overall and subtype-specific analyses . Nat Genet . ( 2020 ) 52 : 572–81 . doi: 10.1038/s41588-020-0609-2 PMC7808397 32424353</p></details>
+<div class="ans"><label><input type="radio" name="r2" value="yes"> Yes, it says that</label>
+<label><input type="radio" name="r2" value="no"> No</label>
+<input type="text" class="note" placeholder="note (optional)"></div></section><section class="card" data-line="23" data-n="3">
+<div class="top"><span class="num">3 of 20</span><span class="side">outcome data</span></div>
+<h2>FinnGen R10</h2>
+<p class="snip">14 A portion of the GWAS summary data for cholelithiasis was obtained from the tenth version of the FinnGen consortium, accessible at https://www.finngen.fi/fi.</p>
+<p class="src">Matched in: not located automatically; read the full text to the right</p>
+<details><summary>Full sentence and reference entry</summary><p>14 A portion of the GWAS summary data for cholelithiasis was obtained from the tenth version of the FinnGen consortium, accessible at https://www.finngen.fi/fi.</p></details>
+<div class="ans"><label><input type="radio" name="r3" value="yes"> Yes, it says that</label>
+<label><input type="radio" name="r3" value="no"> No</label>
+<input type="text" class="note" placeholder="note (optional)"></div></section><section class="card" data-line="32" data-n="4">
+<div class="top"><span class="num">4 of 20</span><span class="side">outcome data</span></div>
+<h2>FinnGen R10</h2>
+<p class="snip">Oral cancer genetic association data was sourced from the FinGen <mark>R10</mark> datasets.</p>
+<p class="src">Matched in: the sentence</p>
+<details><summary>Full sentence and reference entry</summary><p>Oral cancer genetic association data was sourced from the FinGen R10 datasets.</p></details>
+<div class="ans"><label><input type="radio" name="r4" value="yes"> Yes, it says that</label>
+<label><input type="radio" name="r4" value="no"> No</label>
+<input type="text" class="note" placeholder="note (optional)"></div></section><section class="card" data-line="40" data-n="5">
+<div class="top"><span class="num">5 of 20</span><span class="side">outcome data</span></div>
+<h2>FinnGen R10</h2>
+<p class="snip">…  Proteomics Project (UKB-PPP), while the EM dataset from the FinnGen consortium <mark>R10</mark> release data.</p>
+<p class="src">Matched in: the sentence</p>
+<details><summary>Full sentence and reference entry</summary><p>The plasma proteomic data were derived from the UK Biobank Pharmaceutical Proteomics Project (UKB-PPP), while the EM dataset from the FinnGen consortium R10 release data.</p></details>
+<div class="ans"><label><input type="radio" name="r5" value="yes"> Yes, it says that</label>
+<label><input type="radio" name="r5" value="no"> No</label>
+<input type="text" class="note" placeholder="note (optional)"></div></section><section class="card" data-line="55" data-n="6">
+<div class="top"><span class="num">6 of 20</span><span class="side">outcome data</span></div>
+<h2>FinnGen R12</h2>
+<p class="snip">… ssociations between mitochondrial genes and urolithiasis were replicated in the <mark>FinnGen R12</mark> database and UK Biobank database (Data Sheet - Supplementary Tables 3, 4).</p>
+<p class="src">Matched in: the sentence</p>
+<details><summary>Full sentence and reference entry</summary><p>Additionally, the associations between mitochondrial genes and urolithiasis were replicated in the FinnGen R12 database and UK Biobank database (Data Sheet - Supplementary Tables 3, 4).</p></details>
+<div class="ans"><label><input type="radio" name="r6" value="yes"> Yes, it says that</label>
+<label><input type="radio" name="r6" value="no"> No</label>
+<input type="text" class="note" placeholder="note (optional)"></div></section><section class="card" data-line="56" data-n="7">
+<div class="top"><span class="num">7 of 20</span><span class="side">outcome data</span></div>
+<h2>FinnGen R12</h2>
+<p class="snip">… CODE pQTL data and retrieved the SNP‐to‐outcome (PC) association estimates from <mark>FinnGen R12</mark>, then performed MR to estimate the effect of the mediator protein on PC risk.</p>
+<p class="src">Matched in: the sentence</p>
+<details><summary>Full sentence and reference entry</summary><p>For Step 2, we identified instruments for the mediator protein from the deCODE pQTL data and retrieved the SNP‐to‐outcome (PC) association estimates from FinnGen R12, then performed MR to estimate the effect of the mediator protein on PC risk.</p></details>
+<div class="ans"><label><input type="radio" name="r7" value="yes"> Yes, it says that</label>
+<label><input type="radio" name="r7" value="no"> No</label>
+<input type="text" class="note" placeholder="note (optional)"></div></section><section class="card" data-line="62" data-n="8">
+<div class="top"><span class="num">8 of 20</span><span class="side">outcome data</span></div>
+<h2>FinnGen R12</h2>
+<p class="snip">… TLs from the UK Biobank Pharma Proteomics Project (UKB‐PPP) in combination with <mark>FinnGen r12</mark> GWAS summary statistics.</p>
+<p class="src">Matched in: the sentence</p>
+<details><summary>Full sentence and reference entry</summary><p>To further evaluate the robustness of our findings, we conducted additional MR analyses using pQTLs from the UK Biobank Pharma Proteomics Project (UKB‐PPP) in combination with FinnGen r12 GWAS summary statistics.</p></details>
+<div class="ans"><label><input type="radio" name="r8" value="yes"> Yes, it says that</label>
+<label><input type="radio" name="r8" value="no"> No</label>
+<input type="text" class="note" placeholder="note (optional)"></div></section><section class="card" data-line="72" data-n="9">
+<div class="top"><span class="num">9 of 20</span><span class="side">outcome data</span></div>
+<h2>FinnGen R9</h2>
+<p class="snip">FinnGen cohort: The <mark>FinnGen R9</mark> release includes genetic and health data from Finnish biobank participants.</p>
+<p class="src">Matched in: the sentence</p>
+<details><summary>Full sentence and reference entry</summary><p>FinnGen cohort: The FinnGen R9 release includes genetic and health data from Finnish biobank participants.</p></details>
+<div class="ans"><label><input type="radio" name="r9" value="yes"> Yes, it says that</label>
+<label><input type="radio" name="r9" value="no"> No</label>
+<input type="text" class="note" placeholder="note (optional)"></div></section><section class="card" data-line="75" data-n="10">
+<div class="top"><span class="num">10 of 20</span><span class="side">outcome data</span></div>
+<h2>FinnGen R9</h2>
+<p class="snip">… ary statistics for sepsis (ICD-10 code: A41) from the FinnGen consortium (Round <mark>9</mark>), including 12,301 sepsis cases and 332,343 controls of European descent.[16] A …</p>
+<p class="src">Matched in: the sentence</p>
+<details><summary>Full sentence and reference entry</summary><p>For the primary analysis, we retrieved GWAS summary statistics for sepsis (ICD-10 code: A41) from the FinnGen consortium (Round 9), including 12,301 sepsis cases and 332,343 controls of European descent.[16] As external validation, we obtained independent GWAS data from the UK Biobank (2811 cases and 406,150 controls).[17] All datasets used were publicly available and approved for secondary analysis; therefore, no additional ethical approval was required.</p></details>
+<div class="ans"><label><input type="radio" name="r10" value="yes"> Yes, it says that</label>
+<label><input type="radio" name="r10" value="no"> No</label>
+<input type="text" class="note" placeholder="note (optional)"></div></section><section class="card" data-line="80" data-n="11">
+<div class="top"><span class="num">11 of 20</span><span class="side">outcome data</span></div>
+<h2>FinnGen R9</h2>
+<p class="snip">… dy (GWAS) summarised data for periodontitis were provided by FinnGen consortium <mark>R9</mark> release.17 This study included 346,900 controls and 30,377 clinical periodontit …</p>
+<p class="src">Matched in: the sentence</p>
+<details><summary>Full sentence and reference entry</summary><p>The genome-wide association study (GWAS) summarised data for periodontitis were provided by FinnGen consortium R9 release.17 This study included 346,900 controls and 30,377 clinical periodontitis individuals (ICD-10 K05.30, K05.31, K05.4).</p></details>
+<div class="ans"><label><input type="radio" name="r11" value="yes"> Yes, it says that</label>
+<label><input type="radio" name="r11" value="no"> No</label>
+<input type="text" class="note" placeholder="note (optional)"></div></section><section class="card" data-line="103" data-n="12">
+<div class="top"><span class="num">12 of 20</span><span class="side">outcome data</span></div>
+<h2>MRC-IEU UK Biobank GWAS pipeline (OpenGWAS ukb-b)</h2>
+<p class="snip">Colon cancer GWAS data were sourced from the IEU GWAS catalog (<mark>UKB-B</mark>-20145). &lt;h4&gt;Results: &lt;/h4&gt; : In this study, we identified one mediating relatio …</p>
+<p class="src">Matched in: the sentence</p>
+<details><summary>Full sentence and reference entry</summary><p>Colon cancer GWAS data were sourced from the IEU GWAS catalog (UKB-B-20145). &lt;h4&gt;Results: &lt;/h4&gt; : In this study, we identified one mediating relationship between inflammation, lipid, and colon cancer.</p></details>
+<div class="ans"><label><input type="radio" name="r12" value="yes"> Yes, it says that</label>
+<label><input type="radio" name="r12" value="no"> No</label>
+<input type="text" class="note" placeholder="note (optional)"></div></section><section class="card" data-line="105" data-n="13">
+<div class="top"><span class="num">13 of 20</span><span class="side">outcome data</span></div>
+<h2>MRC-IEU UK Biobank GWAS pipeline (OpenGWAS ukb-b)</h2>
+<p class="snip">REFERENCE: Mitchell R, Elsworth BL, Raistrick CA, Paternoster L, Hemani G, Gaunt TR. <mark>MRC IEU UK Biobank GWAS pipeline</mark> version 2. Bristol: University of Bristol; (2019). doi: <mark>10.5523/BRIS.PNOAT8CXO0U52P6YNFAEKEIGI</mark></p>
+<p class="src">Matched in: the reference entry</p>
+<details><summary>Full sentence and reference entry</summary><p>Genes that met significance thresholds were further validated in replication cohorts from the European Bioinformatics Institute (EBI) (25, 26) and the UK Biobank (26, 27), including subgroup analyses for childhood-onset and adult-onset asthma.</p><p><b>Reference entry:</b> Mitchell R, Elsworth BL, Raistrick CA, Paternoster L, Hemani G, Gaunt TR. MRC IEU UK Biobank GWAS pipeline version 2. Bristol: University of Bristol; (2019). doi: 10.5523/BRIS.PNOAT8CXO0U52P6YNFAEKEIGI</p></details>
+<div class="ans"><label><input type="radio" name="r13" value="yes"> Yes, it says that</label>
+<label><input type="radio" name="r13" value="no"> No</label>
+<input type="text" class="note" placeholder="note (optional)"></div></section><section class="card" data-line="113" data-n="14">
+<div class="top"><span class="num">14 of 20</span><span class="side">outcome data</span></div>
+<h2>UK Biobank + CARDIoGRAMplusC4D CAD (van der Harst 2018)</h2>
+<p class="snip">REFERENCE: van der <mark>Harst</mark> P, Verweij N. Identification of 64 novel genetic loci provides an expanded view on the genetic architecture of coronary artery disease. Circ Res. <mark>2018</mark>;122(3):433–43.</p>
+<p class="src">Matched in: the reference entry</p>
+<details><summary>Full sentence and reference entry</summary><p>GWAS summary statistics for CAD were obtained from a GWAS meta-analysis in CARDIoGRAMplusC4D (including UK Biobank), which involved 122,733 cases and 424,528 controls, primarily of European ancestry [16].</p><p><b>Reference entry:</b> van der Harst P, Verweij N. Identification of 64 novel genetic loci provides an expanded view on the genetic architecture of coronary artery disease. Circ Res. 2018;122(3):433–43.</p></details>
+<div class="ans"><label><input type="radio" name="r14" value="yes"> Yes, it says that</label>
+<label><input type="radio" name="r14" value="no"> No</label>
+<input type="text" class="note" placeholder="note (optional)"></div></section><section class="card" data-line="120" data-n="15">
+<div class="top"><span class="num">15 of 20</span><span class="side">outcome data</span></div>
+<h2>UK Biobank TOPMed-imputed PheWeb (Lee/Michigan)</h2>
+<p class="snip">… o GWAS data for the AVB outcome, we retrieved GWAS data from UkBiobank (https://<mark>pheweb.org/UKB-TOPMed</mark>/pheno/426.24/).</p>
+<p class="src">Matched in: the sentence</p>
+<details><summary>Full sentence and reference entry</summary><p>With respect to GWAS data for the AVB outcome, we retrieved GWAS data from UkBiobank (https://pheweb.org/UKB-TOPMed/pheno/426.24/).</p></details>
+<div class="ans"><label><input type="radio" name="r15" value="yes"> Yes, it says that</label>
+<label><input type="radio" name="r15" value="no"> No</label>
+<input type="text" class="note" placeholder="note (optional)"></div></section><section class="card" data-line="146" data-n="16">
+<div class="top"><span class="num">16 of 20</span><span class="side">pqtl data</span></div>
+<h2>deCODE SomaScan v4 (Ferkingstad 2021)</h2>
+<p class="snip">…  were selected from the deCODE Health study, which measured 4907 aptamers among <mark>35 559</mark> Icelandic participants using the <mark>SomaScan</mark> platform.</p>
+<p class="src">Matched in: the sentence</p>
+<details><summary>Full sentence and reference entry</summary><p>Likewise, the cis SNPs for 1423 plasma proteins were selected from the deCODE Health study, which measured 4907 aptamers among 35 559 Icelandic participants using the SomaScan platform.</p></details>
+<div class="ans"><label><input type="radio" name="r16" value="yes"> Yes, it says that</label>
+<label><input type="radio" name="r16" value="no"> No</label>
+<input type="text" class="note" placeholder="note (optional)"></div></section><section class="card" data-line="173" data-n="17">
+<div class="top"><span class="num">17 of 20</span><span class="side">pqtl data</span></div>
+<h2>deCODE SomaScan v4 (Ferkingstad 2021)</h2>
+<p class="snip">REFERENCE: <mark>Ferkingstad</mark>, E. et al. Large-scale integration of the plasma proteome with genetics and disease. Nat. Genet. 53 (12), 1712–1721 (<mark>2021</mark>).</p>
+<p class="src">Matched in: the reference entry</p>
+<details><summary>Full sentence and reference entry</summary><p>The genome-wide association study (GWAS) summary statistics for plasma proteins were obtained from the deCODE open database12,13.</p><p><b>Reference entry:</b> Ferkingstad, E. et al. Large-scale integration of the plasma proteome with genetics and disease. Nat. Genet. 53 (12), 1712–1721 (2021).</p></details>
+<div class="ans"><label><input type="radio" name="r17" value="yes"> Yes, it says that</label>
+<label><input type="radio" name="r17" value="no"> No</label>
+<input type="text" class="note" placeholder="note (optional)"></div></section><section class="card" data-line="182" data-n="18">
+<div class="top"><span class="num">18 of 20</span><span class="side">pqtl data</span></div>
+<h2>deCODE SomaScan v4 (Ferkingstad 2021)</h2>
+<p class="snip">REFERENCE: <mark>Ferkingstad</mark> E Sulem P Atlason BA Sveinbjornsson G Magnusson MI Styrmisdottir EL Large-scale integration of the plasma proteome with genetics and disease Nat Genet <mark>2021</mark> 53 1712 1721 <mark>10.1038/s41588-021-00978-w</mark> <mark>34857953</mark></p>
+<p class="src">Matched in: the reference entry</p>
+<details><summary>Full sentence and reference entry</summary><p>These pQTLs establish connections between plasma protein levels and 373 diseases and other traits based on genetic variations [25].</p><p><b>Reference entry:</b> Ferkingstad E Sulem P Atlason BA Sveinbjornsson G Magnusson MI Styrmisdottir EL Large-scale integration of the plasma proteome with genetics and disease Nat Genet 2021 53 1712 1721 10.1038/s41588-021-00978-w 34857953</p></details>
+<div class="ans"><label><input type="radio" name="r18" value="yes"> Yes, it says that</label>
+<label><input type="radio" name="r18" value="no"> No</label>
+<input type="text" class="note" placeholder="note (optional)"></div></section><section class="card" data-line="184" data-n="19">
+<div class="top"><span class="num">19 of 20</span><span class="side">pqtl data</span></div>
+<h2>deCODE SomaScan v4 (Ferkingstad 2021)</h2>
+<p class="snip">… mary statistics on the genetic associations of 4907 circulating protein levels (<mark>Ferkingstad et al. 2021</mark>).The summary GWAS data for VaD were obtained from the 10th release of the FinnG …<br><br>REFERENCE: <mark>Ferkingstad</mark> E, Sulem P, Atlason BA, Sveinbjornsson G, Magnusson MI, Styrmisdottir EL, Gunnarsdottir K, Helgason A, Oddsson A, Halldorsson BV, Jensson BO, Zink F, Halldorsson GH, Masson G, Arnadottir GA, Katrinardottir H, Juliusson K, Magnusson MK, Magnusson OT, Fridriksdottir R, Saevarsdottir S, Gudjonsson SA, Stacey SN, Rognvaldsson S, Eiriksdottir T, Olafsdottir TA, Steinthorsdottir V, Tragante V, Ulfarsson MO, Stefansson H, Jonsdottir I, Holm H, Rafnar T, Melsted P, Saemundsdottir J, Norddahl GL, Lund SH, Gudbjartsson DF, Thorsteinsdottir U, Stefansson K (<mark>2021</mark>) Large-scale integration of the plasma proteome with genetics and disease. Nat Genet 53(12):1712–1721. <mark>10.1038/s41588-021-009 …</p>
+<p class="src">Matched in: sentence and reference entry</p>
+<details><summary>Full sentence and reference entry</summary><p>This research provides comprehensive summary statistics on the genetic associations of 4907 circulating protein levels (Ferkingstad et al. 2021).The summary GWAS data for VaD were obtained from the 10th release of the FinnGen consortium (https://r8.risteys.finngen.fi/).</p><p><b>Reference entry:</b> Ferkingstad E, Sulem P, Atlason BA, Sveinbjornsson G, Magnusson MI, Styrmisdottir EL, Gunnarsdottir K, Helgason A, Oddsson A, Halldorsson BV, Jensson BO, Zink F, Halldorsson GH, Masson G, Arnadottir GA, Katrinardottir H, Juliusson K, Magnusson MK, Magnusson OT, Fridriksdottir R, Saevarsdottir S, Gudjonsson SA, Stacey SN, Rognvaldsson S, Eiriksdottir T, Olafsdottir TA, Steinthorsdottir V, Tragante V, Ulfarsson MO, Stefansson H, Jonsdottir I, Holm H, Rafnar T, Melsted P, Saemundsdottir J, Norddahl GL, Lund SH, Gudbjartsson DF, Thorsteinsdottir U, Stefansson K (2021) Large-scale integration of the plasma proteome with genetics and disease. Nat Genet 53(12):1712–1721. 10.1038/s41588-021-00978-w</p></details>
+<div class="ans"><label><input type="radio" name="r19" value="yes"> Yes, it says that</label>
+<label><input type="radio" name="r19" value="no"> No</label>
+<input type="text" class="note" placeholder="note (optional)"></div></section><section class="card" data-line="192" data-n="20">
+<div class="top"><span class="num">20 of 20</span><span class="side">pqtl data</span></div>
+<h2>deCODE SomaScan v4 (Ferkingstad 2021)</h2>
+<p class="snip">REFERENCE: <mark>Ferkingstad</mark> E, Sulem P, Atlason BA, Sveinbjornsson G, Magnusson MI, Styrmisdottir EL, et al. Large-scale integration of the plasma proteome with genetics and disease. Nat Genet. <mark>2021</mark>;53(12):1712–21</p>
+<p class="src">Matched in: the reference entry</p>
+<details><summary>Full sentence and reference entry</summary><p>We integrated data from approximately 90,000 individuals across the deCODE (Diabetes Epidemiology: Collaborative Analysis of Diagnostic Criteria in Europe) [12] and UKB-PPP (UK Biobank Pharma Proteomics Project) [13] cohorts, analyzing 7,847 proteins.</p><p><b>Reference entry:</b> Ferkingstad E, Sulem P, Atlason BA, Sveinbjornsson G, Magnusson MI, Styrmisdottir EL, et al. Large-scale integration of the plasma proteome with genetics and disease. Nat Genet. 2021;53(12):1712–21</p></details>
+<div class="ans"><label><input type="radio" name="r20" value="yes"> Yes, it says that</label>
+<label><input type="radio" name="r20" value="no"> No</label>
+<input type="text" class="note" placeholder="note (optional)"></div></section>
+<script>
+const cards=[...document.querySelectorAll('.card')];const btn=document.getElementById('save');
+function upd(){let k=0;cards.forEach(c=>{const v=c.querySelector('input[type=radio]:checked');c.classList.toggle('done',!!v&&v.value==='yes');c.classList.toggle('nope',!!v&&v.value==='no');if(v)k++;});
+document.getElementById('count').textContent=k+' of '+cards.length+' answered';btn.disabled=k<cards.length;}
+document.addEventListener('change',upd);
+btn.addEventListener('click',()=>{const out={sample:'check3_sample_20_seed20261008_v2',saved_at:new Date().toISOString(),marks:cards.map(c=>({n:+c.dataset.n,table_line:c.dataset.line,author_confirms:c.querySelector('input[type=radio]:checked').value,author_note:c.querySelector('.note').value}))};
+const a=document.createElement('a');a.href=URL.createObjectURL(new Blob([JSON.stringify(out,null,1)],{type:'application/json'}));a.download='check3_sample_20_marks.json';a.click();btn.textContent='Saved (check3_sample_20_marks.json)';});
+</script></body></html>

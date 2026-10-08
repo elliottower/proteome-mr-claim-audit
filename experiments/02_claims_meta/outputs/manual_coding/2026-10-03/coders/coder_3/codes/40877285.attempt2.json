@@ -1,0 +1,17 @@
+{"record_id": "40877285", "coder_id": "coder_3", "attempt": 2,
+ "rows": [
+  {"side": "pqtl", "name_as_written": "UK Biobank",
+   "value": "UKB-PPP discovery",
+   "unresolved_reason": null,
+   "identification_basis": "reference_entry",
+   "source_read": "full_text",
+   "passage_id": "p007",
+   "quote": "To ensure homogeneity in proteome analysis, we extracted proteome data of randomly selected baseline participants from protein batches 0–6, which are highly representative of the UK Biobank overall26.",
+   "citations_claim": "claims/40877285.yaml#pqtl_1_a2",
+   "companion_source": true,
+   "reference_label": "26",
+   "reference_quote": "Sun, B. B. et al. Plasma proteomic associations with genetics and health in the UK biobank. Nature 622 (7982), 329–338 (2023).",
+   "reference_citations_claim": "claims/40877285.references.yaml#pqtl_1_a2_ref",
+   "dataset_named_in_source": null,
+   "coder_note": "Step 2, rules E and C5: the sentence attributes the proteome data to reference 26 (Sun 2023, DOI 10.1038/s41586-023-06592-6, the source of four pqtl rows) and gives the subcohort attribute 'randomly selected baseline participants from protein batches 0–6', which matches exactly one of them. The final N of 30,272 unrelated Caucasian individuals is a post-QC, ancestry-subset N (rule H), not a conflict, so step 1 does not apply. The passages also describe the pQTLs as the authors' own sex-stratified GWAS of these individual-level data (project 44986, REGENIE), which rule C would take as absent at step 3; step 2 comes first in the order and was applied. No accession is given, so no case of rule C4 arises."}
+ ]}

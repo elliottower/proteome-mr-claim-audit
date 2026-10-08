@@ -1,0 +1,41 @@
+{
+ "record_id": "40444654",
+ "coder_id": "coder_1",
+ "attempt": 1,
+ "rows": [
+  {
+   "side": "outcome",
+   "name_as_written": "FinnGen study",
+   "value": "FinnGen R10",
+   "passes": true,
+   "failures": [],
+   "warnings": [],
+   "machine_basis": [
+    "name:FinnGen R10",
+    "aliases:FinnGen R10",
+    "release:R10"
+   ],
+   "reference_verified_by": null
+  },
+  {
+   "side": "outcome",
+   "name_as_written": "International Multiple Sclerosis Genetics Consortium",
+   "value": "IMSGC multiple sclerosis (2019)",
+   "passes": true,
+   "failures": [],
+   "warnings": [],
+   "machine_basis": [
+    "aliases:IMSGC",
+    "source_identifier:10.1126/science.aav7188",
+    "source_identifier:31604244",
+    "source_identifier:PMC7241648"
+   ],
+   "reference_verified_by": "doi"
+  }
+ ],
+ "rows_not_coded_once": [],
+ "rows_not_given": [],
+ "wrong_coder": false,
+ "passes": true,
+ "gated_utc": "20261008T003917Z"
+}

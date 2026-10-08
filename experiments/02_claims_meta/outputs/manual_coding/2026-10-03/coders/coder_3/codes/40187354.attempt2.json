@@ -1,0 +1,15 @@
+{"record_id": "40187354", "coder_id": "coder_3", "attempt": 2,
+ "rows": [
+  {"side": "pqtl", "name_as_written": "UK Biobank Pharma Proteomics Project (UKB-PPP)",
+   "value": "UKB-PPP discovery",
+   "unresolved_reason": null,
+   "identification_basis": "exact_n_with_platform_or_year",
+   "source_read": "full_text",
+   "passage_id": "p014",
+   "quote": "To identify genetic instruments for plasma protein levels, we used the results of genome-wide protein quantitative trait locus (pQTL) mapping for 2,922 unique proteins performed by the UKB-PPP consortium.15 These analyses were restricted to the subset of the UKB-PPP who were of EUR ancestry and selected at random from the UKB (n = 34,557) rather than on the basis of phenotype (as previously described15).",
+   "citations_claim": "claims/40187354.yaml#pqtl_1_a2",
+   "companion_source": false,
+   "reference_label": null, "reference_quote": null, "reference_citations_claim": null,
+   "dataset_named_in_source": null,
+   "coder_note": "The sentence states the pQTL analysis set as the EUR-ancestry, randomly selected subset with exact n = 34,557, a conjunction matching one candidate row only; the sentence itself names no platform or year (Olink is named in passage p023), so the machine gate may not accept it."}
+ ]}

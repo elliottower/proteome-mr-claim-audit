@@ -1,0 +1,38 @@
+source:
+  citation: '38310303'
+  local: sources/38310303.txt
+  sha256: 1f97149b994c4b3bdece10b52293a4d8fb6f0d0fa7dc79f80b38b48280c6ec2c
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10838466/fullTextXML
+  note: body as scripts/fetch_fulltext.py rendered it
+claims:
+  outcome_1:
+    quotes:
+    - exact: The discovery sample was derived from the population-based KORA S4 cohort study comprising
+        4261 participants at baseline (1999 to 2001) [18].
+  outcome_2:
+    quotes:
+    - exact: For validation, data from the KORA-Age1 study was used.
+  outcome_1_a2:
+    quotes:
+    - exact: The discovery sample was derived from the population-based KORA S4 cohort study comprising
+        4261 participants at baseline (1999 to 2001) [18].
+  outcome_2_a2:
+    quotes:
+    - exact: For validation, data from the KORA-Age1 study was used.
+  outcome_1_a3:
+    quotes:
+    - exact: The discovery sample was derived from the population-based KORA S4 cohort study comprising
+        4261 participants at baseline (1999 to 2001) [18].
+  outcome_2_a3:
+    quotes:
+    - exact: For validation, data from the KORA-Age1 study was used.
+  outcome_1_c2:
+    quotes:
+    - exact: The PEA technology by Olink® (Olink Proteomics, Uppsala, Sweden) was used to measure 276
+        EDTA plasma proteins related to cardiovascular diseases (CVD) and inflammation (CVD-II, CVD-III,
+        and Inflammation panels) in both KORA S4 and KORA-Age1.
+  outcome_2_c2:
+    quotes:
+    - exact: The PEA technology by Olink® (Olink Proteomics, Uppsala, Sweden) was used to measure 276
+        EDTA plasma proteins related to cardiovascular diseases (CVD) and inflammation (CVD-II, CVD-III,
+        and Inflammation panels) in both KORA S4 and KORA-Age1.

@@ -1,0 +1,41 @@
+{
+ "record_id": "41540382",
+ "coder_id": "coder_3",
+ "attempt": 1,
+ "rows": [
+  {
+   "side": "pqtl",
+   "name_as_written": "Atherosclerosis Risk in Communities (ARIC)",
+   "value": "ARIC European American (Zhang 2022)",
+   "unresolved_reason": null,
+   "identification_basis": "exact_n_with_platform_or_year",
+   "source_read": "full_text",
+   "passage_id": "p001",
+   "quote": "After quality control, 4,483 unique proteins from 7,213 European individuals in the ARIC study and 3,170 proteins from 3,301 European individuals in the INTERVAL study were included in the PWAS analyses.",
+   "citations_claim": "claims/41540382.yaml#pqtl_1",
+   "companion_source": false,
+   "reference_label": null,
+   "reference_quote": null,
+   "reference_citations_claim": null,
+   "dataset_named_in_source": null,
+   "coder_note": "Sentence states the proteins analysed came from exactly 7,213 European individuals of the study, matching the candidate row; platform and year are not in the sentence."
+  },
+  {
+   "side": "pqtl",
+   "name_as_written": "INTERVAL",
+   "value": "INTERVAL SomaScan (Sun 2018)",
+   "unresolved_reason": null,
+   "identification_basis": "reference_entry",
+   "source_read": "full_text",
+   "passage_id": "p001",
+   "quote": "The blood proteomes integrated with genotyping data were derived from the Atherosclerosis Risk in Communities (ARIC) study [30] and the INTERVAL study [21].",
+   "citations_claim": "claims/41540382.yaml#pqtl_2",
+   "companion_source": true,
+   "reference_label": "21",
+   "reference_quote": "Sun BB, Maranville JC, Peters JE, Stacey D, Staley JR, Blackshaw J, Burgess S, Jiang T, Paige E, Surendran P, et al. Genomic atlas of the human plasma proteome. Nature. 2018;558(7708):73–9.",
+   "reference_citations_claim": "claims/41540382.references.yaml#pqtl_2_ref",
+   "dataset_named_in_source": null,
+   "coder_note": "Sentence attributes the blood proteome and genotype data to reference 21, whose DOI is the source of the candidate row; another sentence gives 3,301 individuals."
+  }
+ ]
+}

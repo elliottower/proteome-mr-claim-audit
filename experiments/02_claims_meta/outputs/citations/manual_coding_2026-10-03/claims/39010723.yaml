@@ -1,0 +1,15 @@
+source:
+  citation: '39010723'
+  local: sources/39010723.txt
+  sha256: 1eac34295e9a0069e0e2f4cdaab6c4408167a6295863919b1bebeb332f880bf7
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11265307/fullTextXML
+  note: body as scripts/fetch_fulltext.py rendered it
+claims:
+  outcome_1:
+    quotes:
+    - exact: This investigation leveraged data from the NHANES, encompassing ten biennial cycles between
+        1999 and 2018.
+  outcome_1_c2:
+    quotes:
+    - exact: This investigation leveraged data from the NHANES, encompassing ten biennial cycles between
+        1999 and 2018.

@@ -1,0 +1,17 @@
+{"record_id": "39935908", "coder_id": "coder_1", "attempt": 3,
+ "rows": [
+  {"side": "pqtl", "name_as_written": "UK Biobank- Pharma Proteomics Project (UKB-PPP)",
+   "value": "UKB-PPP full cohort (combined)",
+   "unresolved_reason": null,
+   "identification_basis": "reference_entry",
+   "source_read": "full_text",
+   "passage_id": "p001",
+   "quote": "There were a total of 54,219 individuals, including 46,595 randomly selected UKB participants at the baseline visit to provide base group representation, as well as a targeted complement of 6,376 participants with specific phenotypes or diseases based on the research objectives of the UKB-PPP consortium members, and 1,268 individuals who participated in COVID-19-related studies at multiple visits.16",
+   "citations_claim": "claims/39935908.yaml#pqtl_1_a3",
+   "companion_source": true,
+   "reference_label": "16",
+   "reference_quote": "Sun BB, Chiou J, Traylor M, et al. Plasma proteomic associations with genetics and health in the UK Biobank. Nature . 2023;622(7982):329–338. doi: 10.1038/s41586-023-06592-6",
+   "reference_citations_claim": "claims/39935908.references.yaml#pqtl_1_a3_ref",
+   "dataset_named_in_source": null,
+   "coder_note": "Rule E: reference 16 (DOI 10.1038/s41586-023-06592-6, Sun 2023, several UKB-PPP rows) with the subcohort composition in the same sentence, all three subcohorts at 46,595, 6,376 and 1,268, which is the composition of the full cohort (combined) row and of no other; the total 54,219 is the pre-QC sum of those three and equals no other row's sample size (rule H), and p002 repeats it with 2,923 proteins without conflict."}
+ ]}

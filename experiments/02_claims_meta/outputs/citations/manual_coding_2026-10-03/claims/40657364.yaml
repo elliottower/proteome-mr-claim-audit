@@ -1,0 +1,56 @@
+source:
+  citation: '40657364'
+  local: sources/40657364.txt
+  sha256: e9d8c15dfc5a956da89471566ba4f818248fbb188167e64dc5cabd3f8af0b6fa
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12244032/fullTextXML
+  note: body as scripts/fetch_fulltext.py rendered it
+claims:
+  outcome_1:
+    quotes:
+    - exact: This analysis utilized publicly available datasets, including the BC Association Consortium
+        (BCAC) 17, the UK Biobanking Study 21, the Finnish Genetics Study 22, and other large-scale GWAS
+        (Table S1).
+  outcome_2:
+    quotes:
+    - exact: Furthermore, summary-level data on genetic associations with BC were obtained from the FinnGen
+        study's publicly available R10 dataset, which included 18,786 patients with BC and 182,927 controls.
+  outcome_1_a2:
+    quotes:
+    - exact: This analysis utilized publicly available datasets, including the BC Association Consortium
+        (BCAC) 17, the UK Biobanking Study 21, the Finnish Genetics Study 22, and other large-scale GWAS
+        (Table S1).
+  outcome_2_a2:
+    quotes:
+    - exact: Furthermore, summary-level data on genetic associations with BC were obtained from the FinnGen
+        study's publicly available R10 dataset, which included 18,786 patients with BC and 182,927 controls.
+  outcome_1_a3:
+    quotes:
+    - exact: This analysis utilized publicly available datasets, including the BC Association Consortium
+        (BCAC) 17, the UK Biobanking Study 21, the Finnish Genetics Study 22, and other large-scale GWAS
+        (Table S1).
+  outcome_2_a3:
+    quotes:
+    - exact: Furthermore, summary-level data on genetic associations with BC were obtained from the FinnGen
+        study's publicly available R10 dataset, which included 18,786 patients with BC and 182,927 controls.
+  outcome_1_a4:
+    quotes:
+    - exact: This analysis utilized publicly available datasets, including the BC Association Consortium
+        (BCAC) 17, the UK Biobanking Study 21, the Finnish Genetics Study 22, and other large-scale GWAS
+        (Table S1).
+  outcome_2_a4:
+    quotes:
+    - exact: Furthermore, summary-level data on genetic associations with BC were obtained from the FinnGen
+        study's publicly available R10 dataset, which included 18,786 patients with BC and 182,927 controls.
+  outcome_1_c2:
+    quotes:
+    - exact: This analysis utilized publicly available datasets, including the BC Association Consortium
+        (BCAC) 17, the UK Biobanking Study 21, the Finnish Genetics Study 22, and other large-scale GWAS
+        (Table S1).
+  outcome_2_c2:
+    quotes:
+    - exact: Furthermore, summary-level data on genetic associations with BC were obtained from the FinnGen
+        study's publicly available R10 dataset, which included 18,786 patients with BC and 182,927 controls.
+  outcome_3_c2:
+    quotes:
+    - exact: Furthermore, BC-related summary data were sourced from the UK Biobank database, comprising
+        9,721 cases and 351,473 controls.

@@ -1,0 +1,44 @@
+{
+ "generator": "manual_coding_passages_v3.py",
+ "arguments": {
+  "abstracts": [
+   "outputs/parsed/sol_eligibility_search_complete_2811496ef424.decisions.eligible_abstracts.jsonl",
+   "outputs/parsed/sol_eligibility_chase1_2811496ef424.decisions.eligible_abstracts.jsonl",
+   "outputs/parsed/sol_eligibility_chase2_2811496ef424.decisions.eligible_abstracts.jsonl",
+   "outputs/parsed/sol_eligibility_gateall1_2811496ef424.decisions.eligible_abstracts.jsonl",
+   "outputs/parsed/sol_eligibility_gateall3_2811496ef424.decisions.eligible_abstracts.jsonl"
+  ],
+  "citations": "outputs/citations/manual_coding_2026-10-03",
+  "fulltext": "outputs/manual_coding/2026-10-03/fulltext",
+  "out": "outputs/manual_coding/2026-10-03/passages",
+  "queue": "outputs/manual_coding/2026-10-03/manual_coding_queue.csv",
+  "records": [
+   "outputs/screening/2026-10-03/search_records.jsonl",
+   "outputs/screening/chase_round_1/search_records.jsonl",
+   "outputs/screening/chase_round_2/search_records.jsonl",
+   "outputs/screening/chase_round_3/search_records.jsonl"
+  ]
+ },
+ "queue": "outputs/manual_coding/2026-10-03/manual_coding_queue.csv",
+ "papers": 434,
+ "rows": 872,
+ "papers_abstract": 192,
+ "papers_full_text": 242,
+ "papers_full_text_without_reference_entries": 1,
+ "passages": 3878,
+ "passages_with_a_reference_entry": 813,
+ "reference_entries_attached": 992,
+ "reference_entries_conflicting": 3,
+ "reference_entries_doi_from_link": 520,
+ "reference_entries_doi_from_pub_id": 440,
+ "reference_entries_doi_from_text": 2,
+ "reference_entries_none": 26,
+ "reference_entries_pmid_only": 1,
+ "rows_abstract": 376,
+ "rows_full_text": 496,
+ "rows_given_the_abstract_fallback": 47,
+ "rows_passages": 872,
+ "rows_passages_abstract": 376,
+ "rows_passages_full_text": 496,
+ "rows_with_a_reference_entry": 388
+}

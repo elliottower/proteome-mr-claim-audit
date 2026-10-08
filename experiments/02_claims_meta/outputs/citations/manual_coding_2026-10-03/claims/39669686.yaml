@@ -1,0 +1,25 @@
+source:
+  citation: '39669686'
+  local: sources/39669686.txt
+  sha256: 1896d4bb68423a5429288a44611107186015f929125444d54014418287a66b11
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11635628/fullTextXML
+  note: body as scripts/fetch_fulltext.py rendered it
+claims:
+  outcome_1_a4:
+    quotes:
+    - exact: In this study, we used a longitudinal cohort of 54,306 participants from the UK Biobank Pharmacological
+        Proteomics Project (UKB-PPP) to perform a comprehensive analysis of observed and genetic correlations
+        between 2923 proteins and psoriasis susceptibility.
+  outcome_1_c2:
+    quotes:
+    - exact: In this study, we used a longitudinal cohort of 54,306 participants from the UK Biobank Pharmacological
+        Proteomics Project (UKB-PPP) to perform a comprehensive analysis of observed and genetic correlations
+        between 2923 proteins and psoriasis susceptibility.
+  pqtl_1_c2:
+    quotes:
+    - exact: The UKB-PPP, supported by 13 biopharmaceutical companies, is dedicated to generating blood-based
+        proteomic data for a subset of the UK Biobank cohort.5,6 This subset included 54,306 participants,
+        of whom 46,673 (85.9%) were randomly selected from the initial cohort, 6385 (11.8%) were specifically
+        chosen by consortium members based on criteria such as disease status or genetic lineage, and
+        1268 (2.3%) were selected due to their participation in multiple COVID-19 case-control imaging
+        studies.

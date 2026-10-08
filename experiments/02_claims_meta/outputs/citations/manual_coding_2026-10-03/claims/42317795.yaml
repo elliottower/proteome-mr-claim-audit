@@ -1,0 +1,25 @@
+source:
+  citation: '42317795'
+  local: sources/42317795.txt
+  sha256: 5e8bb1326f947f6063031fbe419366fdc4cbb4fe6db8a45e20b70895e05c883b
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13272895/fullTextXML
+  note: body as scripts/fetch_fulltext.py rendered it
+claims:
+  outcome_1_a3:
+    quotes:
+    - exact: Information on the prevalence and incidence of depression and RA was obtained from the UK
+        Biobank “First Occurrence” category (category 1712), which was derived from the integration of
+        hospital admissions, death records, primary care data, and self-reported outcomes collected during
+        nurse-led interviews.
+  outcome_1_a4:
+    quotes:
+    - exact: Information on the prevalence and incidence of depression and RA was obtained from the UK
+        Biobank “First Occurrence” category (category 1712), which was derived from the integration of
+        hospital admissions, death records, primary care data, and self-reported outcomes collected during
+        nurse-led interviews.
+  outcome_1_c2:
+    quotes:
+    - exact: Information on the prevalence and incidence of depression and RA was obtained from the UK
+        Biobank “First Occurrence” category (category 1712), which was derived from the integration of
+        hospital admissions, death records, primary care data, and self-reported outcomes collected during
+        nurse-led interviews.

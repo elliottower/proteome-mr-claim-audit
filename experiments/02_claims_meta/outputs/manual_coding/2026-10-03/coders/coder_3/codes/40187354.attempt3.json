@@ -1,0 +1,17 @@
+{"record_id": "40187354", "coder_id": "coder_3", "attempt": 3,
+ "rows": [
+  {"side": "pqtl", "name_as_written": "UK Biobank Pharma Proteomics Project (UKB-PPP)",
+   "value": "UKB-PPP discovery",
+   "unresolved_reason": null,
+   "identification_basis": "reference_entry",
+   "source_read": "full_text",
+   "passage_id": "p014",
+   "quote": "To identify genetic instruments for plasma protein levels, we used the results of genome-wide protein quantitative trait locus (pQTL) mapping for 2,922 unique proteins performed by the UKB-PPP consortium.15 These analyses were restricted to the subset of the UKB-PPP who were of EUR ancestry and selected at random from the UKB (n = 34,557) rather than on the basis of phenotype (as previously described15).",
+   "citations_claim": "claims/40187354.yaml#pqtl_1_a3",
+   "companion_source": true,
+   "reference_label": "15",
+   "reference_quote": "Sun B.B., Chiou J., Traylor M., Benner C., Hsu Y.-H., Richardson T.G., Surendran P., Mahajan A., Robins C., Vasquez-Grinnell S.G., et al. Plasma proteomic associations with genetics and health in the UK Biobank. Nature. 2023;622:329–338. doi: 10.1038/s41586-023-06592-6.",
+   "reference_citations_claim": "claims/40187354.references.yaml#pqtl_1_a3_ref",
+   "dataset_named_in_source": null,
+   "coder_note": "Rule E: the pQTL mapping is attributed to reference 15 (Sun 2023, DOI 10.1038/s41586-023-06592-6) and the sentence gives the randomly selected EUR subset, n = 34,557, the sample size of the discovery row alone; the 28,008 unrelated individuals used for fine-mapping are a subset, not a conflict (rule H)."}
+ ]}

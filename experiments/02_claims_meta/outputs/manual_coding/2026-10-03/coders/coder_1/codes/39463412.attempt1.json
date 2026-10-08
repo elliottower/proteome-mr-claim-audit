@@ -1,0 +1,41 @@
+{
+ "record_id": "39463412",
+ "coder_id": "coder_1",
+ "attempt": 1,
+ "rows": [
+  {
+   "side": "outcome",
+   "name_as_written": "FinnGen",
+   "value": "not_stated_in_source",
+   "unresolved_reason": "release_not_identified",
+   "identification_basis": null,
+   "source_read": null,
+   "passage_id": null,
+   "quote": null,
+   "citations_claim": null,
+   "companion_source": false,
+   "reference_label": null,
+   "reference_quote": null,
+   "reference_citations_claim": null,
+   "dataset_named_in_source": null,
+   "coder_note": "FinnGen with endpoint counts and the general FinnGen citation; no release stated."
+  },
+  {
+   "side": "pqtl",
+   "name_as_written": "deCODE open database",
+   "value": "deCODE SomaScan v4 (Ferkingstad 2021)",
+   "unresolved_reason": null,
+   "identification_basis": "reference_entry",
+   "source_read": "full_text",
+   "passage_id": "p001",
+   "quote": "The genome-wide association study (GWAS) summary statistics for plasma proteins were obtained from the deCODE open database12,13.",
+   "citations_claim": "claims/39463412.yaml#pqtl_1",
+   "companion_source": true,
+   "reference_label": "13",
+   "reference_quote": "Ferkingstad, E. et al. Large-scale integration of the plasma proteome with genetics and disease. Nat. Genet. 53 (12), 1712–1721 (2021).",
+   "reference_citations_claim": "claims/39463412.references.yaml#pqtl_1_ref",
+   "dataset_named_in_source": null,
+   "coder_note": "Sentence attributes the plasma protein summary statistics to the deCODE database with citations 12 and 13; citation 13 carries the source DOI of exactly one dictionary row, citation 12 is a general company description."
+  }
+ ]
+}

@@ -1,0 +1,45 @@
+source:
+  citation: '38274229'
+  local: sources/38274229.txt
+  sha256: c48c9eda71f2aca02908cdc18a0e343ad4b9b184d233911a25e85108166a8741
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10808752/fullTextXML
+  note: body as scripts/fetch_fulltext.py rendered it
+claims:
+  pqtl_1:
+    quotes:
+    - exact: In the discovery stage, plasma protein pQTL data were obtained from the ARIC study, which
+        included a total of 4657 plasma proteins collected from 7213 European Americans (EA) (17).
+  pqtl_1_a2:
+    quotes:
+    - exact: In the discovery stage, plasma protein pQTL data were obtained from the ARIC study, which
+        included a total of 4657 plasma proteins collected from 7213 European Americans (EA) (17).
+  pqtl_1_a3:
+    quotes:
+    - exact: In the discovery stage, plasma protein pQTL data were obtained from the ARIC study, which
+        included a total of 4657 plasma proteins collected from 7213 European Americans (EA) (17).
+  pqtl_2_a3:
+    quotes:
+    - exact: For the replication stage, plasma protein pQTL data were obtained from the Icelandic deCODE
+        genetics study by Ferkingstad et al, which analyzed 4907 plasma proteins from 35,559 Icelanders
+        and reported more than 272 million genetic variants (16).
+  pqtl_1_a4:
+    quotes:
+    - exact: In the discovery stage, plasma protein pQTL data were obtained from the ARIC study, which
+        included a total of 4657 plasma proteins collected from 7213 European Americans (EA) (17).
+  pqtl_2_a4:
+    quotes:
+    - exact: For the replication stage, plasma protein pQTL data were obtained from the Icelandic deCODE
+        genetics study by Ferkingstad et al, which analyzed 4907 plasma proteins from 35,559 Icelanders
+        and reported more than 272 million genetic variants (16).
+  outcome_1_c2:
+    quotes:
+    - exact: This included 10,413 DR cases and 308,633 controls, and 9,511 PDR cases and 362,581 controls.
+  pqtl_1_c2:
+    quotes:
+    - exact: In the discovery stage, plasma protein pQTL data were obtained from the ARIC study, which
+        included a total of 4657 plasma proteins collected from 7213 European Americans (EA) (17).
+  pqtl_2_c2:
+    quotes:
+    - exact: For the replication stage, plasma protein pQTL data were obtained from the Icelandic deCODE
+        genetics study by Ferkingstad et al, which analyzed 4907 plasma proteins from 35,559 Icelanders
+        and reported more than 272 million genetic variants (16).

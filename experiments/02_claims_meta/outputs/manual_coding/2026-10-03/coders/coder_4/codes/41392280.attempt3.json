@@ -1,0 +1,15 @@
+{"record_id": "41392280", "coder_id": "coder_4", "attempt": 3,
+ "rows": [
+  {"side": "outcome", "name_as_written": "UK Biobank",
+   "value": "source_names_dataset_absent_from_dictionary",
+   "unresolved_reason": "dataset_absent_from_dictionary",
+   "identification_basis": null,
+   "source_read": "full_text",
+   "passage_id": "p001",
+   "quote": "For the present analyses, we restricted the sample to participants with plasma proteomics data in UKB (n = 53,014) [20].",
+   "citations_claim": "claims/41392280.yaml#outcome_1_a3",
+   "companion_source": false,
+   "reference_label": null, "reference_quote": null, "reference_citations_claim": null,
+   "dataset_named_in_source": "UKB",
+   "coder_note": "Rule C: the authors' own analysis of UK Biobank individual-level data, defined by application number 98410 (preceding sentence) and the analytic sample of 53,014 participants with proteomics; no published UK Biobank GWAS release is named and no dictionary row is such an analysis. The passages do not say the analysis is a GWAS; the checker may weigh that."}
+ ]}

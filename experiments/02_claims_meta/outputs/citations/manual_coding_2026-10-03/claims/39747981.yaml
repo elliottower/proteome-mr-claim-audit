@@ -1,0 +1,11 @@
+source:
+  citation: '39747981'
+  local: sources/39747981.txt
+  sha256: ed2f9d428cd924c684a50d5dae0ebea946fd42df49086063b367275b4beda906
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11696058/fullTextXML
+  note: body as scripts/fetch_fulltext.py rendered it
+claims:
+  outcome_1_c2:
+    quotes:
+    - exact: Genetic associations were assessed through logistic regression models, controlling for age,
+        sex, and principal components of genetic ancestry33.

@@ -1,0 +1,14 @@
+{"record_id": "41559658", "coder_id": "coder_3",
+ "rows": [
+  {"row": "outcome_1",
+   "resolved_value": "source_names_dataset_absent_from_dictionary",
+   "unresolved_reason": "dataset_absent_from_dictionary",
+   "resolution_note": "p001 sentence 17 defines the UK Biobank data as the authors' own proteomic analysis of UK Biobank participants with named disease phenotypes (CKD, ESKD, CHD, stroke, HF), an own analysis of individual-level data defined by more than a number (rule C); the MR itself is read from the proteome-phenome atlas of Deng et al. (p004 sentence 44), which has no outcome row either. No listed release is named.",
+   "identification_basis": null,
+   "source_read": "full_text",
+   "passage_id": "p001",
+   "quote": "In this study, we conducted a large-scale proteomic analysis in UK Biobank participants with four aims: (1) to identify plasma proteins associated with kidney diseases including CKD and ESKD, and CVD including coronary heart disease (CHD), stroke, and heart failure (HF), highlighting shared and disease-specific proteins and evaluating potential causal relationships using Mendelian randomization (MR); (2) to assess effect modifications by age, sex, and comorbidities (hypertension, dyslipidemia, and diabetes); (3) to infer potential biological pathways of disease-associated proteins; and (4) to develop predictive models based on proteins and conventional risk factors (Fig. 1).Fig. 1Study overview.",
+   "citations_claim": "claims/41559658.yaml#outcome_1_r",
+   "companion_source": false,
+   "reference_label": null, "reference_quote": null, "reference_citations_claim": null,
+   "dataset_named_in_source": "large-scale proteomic analysis in UK Biobank participants"}]}

@@ -1,0 +1,75 @@
+source:
+  citation: '38383373'
+  local: sources/38383373.txt
+  sha256: 42d4903a111329c208b691d0e39e115931594bfc8f8840f86c211eec4df31ca7
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10882912/fullTextXML
+  note: body as scripts/fetch_fulltext.py rendered it
+claims:
+  outcome_1:
+    quotes:
+    - exact: In the FinnGen study, the phenocodes “I9_HEARTFAIL_ALLCAUSE,” “I9_HEARTFAIL_AND_CHD,” and
+        “I9_HEARTFAIL_AND_ANTIHYPERT” correspond to all-cause HF with 26,872 cases and 349,361 controls,
+        HF in patients with CHD with 12,872 cases and 333,759 controls, and HF in patients receiving antihypertensive
+        medication with 25,827 cases and 177,731 controls, respectively (Version R9).
+  pqtl_1:
+    quotes:
+    - exact: In the discovery stage, the pQTLs associated with 4,657 circulating proteins were extracted
+        from the Atherosclerosis Risk in Communities (ARIC) study, which included 7,213 individuals of
+        European American descent [30].
+  pqtl_2:
+    quotes:
+    - exact: In the replication stage, the pQTL associated with circulating PCSK9 was obtained from an
+        independent large-scale pQTL study conducted in 35,559 individuals of Icelandic descent, which
+        was part of the deCODE study [31].
+  outcome_1_a2:
+    quotes:
+    - exact: In the FinnGen study, the phenocodes “I9_HEARTFAIL_ALLCAUSE,” “I9_HEARTFAIL_AND_CHD,” and
+        “I9_HEARTFAIL_AND_ANTIHYPERT” correspond to all-cause HF with 26,872 cases and 349,361 controls,
+        HF in patients with CHD with 12,872 cases and 333,759 controls, and HF in patients receiving antihypertensive
+        medication with 25,827 cases and 177,731 controls, respectively (Version R9).
+  pqtl_1_a2:
+    quotes:
+    - exact: In the discovery stage, the pQTLs associated with 4,657 circulating proteins were extracted
+        from the Atherosclerosis Risk in Communities (ARIC) study, which included 7,213 individuals of
+        European American descent [30].
+  pqtl_2_a2:
+    quotes:
+    - exact: In the replication stage, the pQTL associated with circulating PCSK9 was obtained from an
+        independent large-scale pQTL study conducted in 35,559 individuals of Icelandic descent, which
+        was part of the deCODE study [31].
+  outcome_1_a3:
+    quotes:
+    - exact: In the FinnGen study, the phenocodes “I9_HEARTFAIL_ALLCAUSE,” “I9_HEARTFAIL_AND_CHD,” and
+        “I9_HEARTFAIL_AND_ANTIHYPERT” correspond to all-cause HF with 26,872 cases and 349,361 controls,
+        HF in patients with CHD with 12,872 cases and 333,759 controls, and HF in patients receiving antihypertensive
+        medication with 25,827 cases and 177,731 controls, respectively (Version R9).
+  pqtl_1_a3:
+    quotes:
+    - exact: In the discovery stage, the pQTLs associated with 4,657 circulating proteins were extracted
+        from the Atherosclerosis Risk in Communities (ARIC) study, which included 7,213 individuals of
+        European American descent [30].
+  pqtl_2_a3:
+    quotes:
+    - exact: In the replication stage, the pQTL associated with circulating PCSK9 was obtained from an
+        independent large-scale pQTL study conducted in 35,559 individuals of Icelandic descent, which
+        was part of the deCODE study [31].
+  outcome_1_c2:
+    quotes:
+    - exact: In the FinnGen study, the phenocodes “I9_HEARTFAIL_ALLCAUSE,” “I9_HEARTFAIL_AND_CHD,” and
+        “I9_HEARTFAIL_AND_ANTIHYPERT” correspond to all-cause HF with 26,872 cases and 349,361 controls,
+        HF in patients with CHD with 12,872 cases and 333,759 controls, and HF in patients receiving antihypertensive
+        medication with 25,827 cases and 177,731 controls, respectively (Version R9).
+  outcome_2_c2:
+    quotes:
+    - exact: The HERMES study consisted of a substantial sample size of 47,309 HF cases and 930,014 controls
+        across 26 cohorts, all of European ancestry.
+  pqtl_1_c2:
+    quotes:
+    - exact: In the discovery stage, the pQTLs associated with 4,657 circulating proteins were extracted
+        from the Atherosclerosis Risk in Communities (ARIC) study, which included 7,213 individuals of
+        European American descent [30].
+  pqtl_2_c2:
+    quotes:
+    - exact: In the replication stage, the pQTL associated with circulating PCSK9 was obtained from an
+        independent large-scale pQTL study conducted in 35,559 individuals of Icelandic descent, which
+        was part of the deCODE study [31].

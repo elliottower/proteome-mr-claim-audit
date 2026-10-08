@@ -1,0 +1,15 @@
+{"record_id": "41775896", "coder_id": "coder_3", "attempt": 4,
+ "rows": [
+  {"side": "outcome", "name_as_written": "UK Biobank",
+   "value": "source_names_dataset_absent_from_dictionary",
+   "unresolved_reason": "dataset_absent_from_dictionary",
+   "identification_basis": null,
+   "source_read": "full_text",
+   "passage_id": "p033",
+   "quote": "This research has been conducted using the UK Biobank resource under Application Number 90143.",
+   "citations_claim": "claims/41775896.yaml#outcome_1_a4",
+   "companion_source": false,
+   "reference_label": null, "reference_quote": null, "reference_citations_claim": null,
+   "dataset_named_in_source": "UK Biobank resource under Application Number 90143",
+   "coder_note": "Step 3 (rule C): the authors' own analysis of UK Biobank individual-level data, defined by an application number (90143, also in p027) and by described measurements (IMT and almost 3000 proteins measured in UK Biobank, p002; own calculations using UK Biobank, p031). No passage attributes the outcome data to a published GWAS release, accession or citation; reference 40 (van der Harst 2018) is cited only for a gene's link to CHD and reference 47 (Sun 2023) is the pQTL source, not this row's dataset."}
+ ]}

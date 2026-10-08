@@ -1,0 +1,14 @@
+{"record_id": "42549601", "coder_id": "coder_1", "attempt": 3,
+ "rows": [
+  {"side": "outcome", "name_as_written": "UK Biobank",
+   "value": "source_names_dataset_absent_from_dictionary",
+   "unresolved_reason": "dataset_absent_from_dictionary",
+   "identification_basis": null,
+   "source_read": "full_text",
+   "passage_id": "p004",
+   "quote": "For genetic and PRS analyses, we used UK Biobank genotype data after central sample-level quality control and additionally restricted analyses to participants of European genetic ancestry with complete genotype information, excluding individuals flagged for sex discordance, excess heterozygosity or missingness, close relatedness or missing genotype data.",
+   "citations_claim": "claims/42549601.yaml#outcome_1_a3",
+   "companion_source": false,
+   "reference_label": null, "reference_quote": null, "reference_citations_claim": null,
+   "dataset_named_in_source": "UK Biobank genotype data",
+   "coder_note": "The UK Biobank use is the authors' own analysis of individual-level data, defined by a described procedure (this sentence), application number 224336 (p004), a phenotype definition (p005) and an analytic sample of 488,031 (p009); no dictionary row is such an analysis (rule C). None of the five UK Biobank candidates is named or cited."}]}

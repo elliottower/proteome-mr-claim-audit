@@ -1,0 +1,24 @@
+{
+ "record_id": "41189196",
+ "coder_id": "coder_2",
+ "attempt": 1,
+ "rows": [
+  {
+   "side": "outcome",
+   "name_as_written": "international IBD genetic consortium (IIBDGC)",
+   "value": "IIBDGC European IBD GWAS (Liu 2015, public summary statistics)",
+   "unresolved_reason": null,
+   "identification_basis": "exact_n_with_platform_or_year",
+   "source_read": "full_text",
+   "passage_id": "p001",
+   "quote": "Eventually, 3 IBD subtypes were acquired from the GWAS datasets, encompassing IBD (N = 12,882 cases and 21,770 controls), UC (N = 6968 cases and 20,464 controls), and CD (N = 5950 cases and 14,927 controls).",
+   "citations_claim": "claims/41189196.yaml#outcome_1",
+   "companion_source": false,
+   "reference_label": null,
+   "reference_quote": null,
+   "reference_citations_claim": null,
+   "dataset_named_in_source": null,
+   "coder_note": "Sentence gives IBD 12,882 cases and 21,770 controls and UC 6968 and 20,464, the exact counts of one row, for datasets the preceding sentence attributes to IIBDGC reference 20 (2015) in European ancestry. The CD case count is written 5950 where the dictionary row has 5,956."
+  }
+ ]
+}

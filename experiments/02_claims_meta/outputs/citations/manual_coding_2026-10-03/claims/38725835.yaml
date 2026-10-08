@@ -1,0 +1,23 @@
+source:
+  citation: '38725835'
+  local: sources/38725835.txt
+  sha256: dec8a58a637aace7b3c19a8ea700e2345f8781e5326ba82c195b2391afc0af58
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11079590/fullTextXML
+  note: body as scripts/fetch_fulltext.py rendered it
+claims:
+  outcome_1:
+    quotes:
+    - exact: The summary data of the genetic association with HF were obtained from the Heart Failure
+        Molecular Epidemiology for Therapeutic Targets (HERMES) consortium (19).
+  pqtl_1:
+    quotes:
+    - exact: The genetic associations with 4,907 proteins in the plasma proteome were derived from a large-scale
+        pQTL(protein quantitative loci) research of 35,559 Icelanders (18).
+  outcome_1_c2:
+    quotes:
+    - exact: The summary data of the genetic association with HF were obtained from the Heart Failure
+        Molecular Epidemiology for Therapeutic Targets (HERMES) consortium (19).
+  pqtl_1_c2:
+    quotes:
+    - exact: The genetic associations with 4,907 proteins in the plasma proteome were derived from a large-scale
+        pQTL(protein quantitative loci) research of 35,559 Icelanders (18).

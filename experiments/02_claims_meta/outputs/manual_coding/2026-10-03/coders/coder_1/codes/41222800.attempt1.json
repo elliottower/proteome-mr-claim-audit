@@ -1,0 +1,41 @@
+{
+ "record_id": "41222800",
+ "coder_id": "coder_1",
+ "attempt": 1,
+ "rows": [
+  {
+   "side": "pqtl",
+   "name_as_written": "Fenland",
+   "value": "Fenland SomaScan v4 (Pietzner 2021)",
+   "unresolved_reason": null,
+   "identification_basis": "reference_entry",
+   "source_read": "full_text",
+   "passage_id": "p001",
+   "quote": "Fenland, a proteome-wide proteome association study of 10,708 participants of European ancestry, used the SomaScan v4 assay with 4979 single-stranded oligonucleotides (aptamers) targeting 4775 unique proteins [13].",
+   "citations_claim": "claims/41222800.yaml#pqtl_1",
+   "companion_source": true,
+   "reference_label": "13",
+   "reference_quote": "Pietzner M, Wheeler E, Carrasco-Zanini J, Cortes A, Koprulu M, Wörheide MA et al. Mapping the proteo-genomic convergence of human diseases. Sci (New York NY).374(6569):eabj1541.",
+   "reference_citations_claim": "claims/41222800.references.yaml#pqtl_1_ref",
+   "dataset_named_in_source": null,
+   "coder_note": "Sentence attributes the Fenland data (10,708 participants, SomaScan v4, 4979 aptamers, 4775 proteins) to citation 13, whose DOI is the source DOI of exactly one dictionary row; the aptamer and protein counts also match that row only."
+  },
+  {
+   "side": "pqtl",
+   "name_as_written": "deCODE",
+   "value": "deCODE SomaScan v4 (Ferkingstad 2021)",
+   "unresolved_reason": null,
+   "identification_basis": "exact_n_with_platform_or_year",
+   "source_read": "full_text",
+   "passage_id": "p001",
+   "quote": "Using the SomaScan Multiple Aptamer Assay (version 4) in 35,559 Icelandic individuals with genotypic and phenotypic data, the deCODE study measured plasma protein levels [12], including 4,907 aptamers and 4,719 proteins.",
+   "citations_claim": "claims/41222800.yaml#pqtl_2",
+   "companion_source": false,
+   "reference_label": null,
+   "reference_quote": null,
+   "reference_citations_claim": null,
+   "dataset_named_in_source": null,
+   "coder_note": "Sentence gives the deCODE study as SomaScan version 4 in exactly 35,559 Icelandic individuals with 4,907 aptamers, matching one dictionary row only; its citation 12 carries that row DOI."
+  }
+ ]
+}

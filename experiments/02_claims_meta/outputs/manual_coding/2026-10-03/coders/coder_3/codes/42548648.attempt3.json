@@ -1,0 +1,23 @@
+{"record_id": "42548648", "coder_id": "coder_3", "attempt": 3,
+ "rows": [
+  {"side": "outcome", "name_as_written": "FinnGen",
+   "value": "FinnGen R12", "unresolved_reason": null,
+   "identification_basis": "release_identifier", "source_read": "full_text", "passage_id": "p003",
+   "quote": "Additionally, the associations between mitochondrial genes and urolithiasis were replicated in the FinnGen R12 database and UK Biobank database (Data Sheet - Supplementary Tables 3, 4).",
+   "citations_claim": "claims/42548648.yaml#outcome_1_a3",
+   "companion_source": false, "reference_label": null, "reference_quote": null, "reference_citations_claim": null,
+   "dataset_named_in_source": null,
+   "coder_note": "The sentence names the FinnGen R12 database; p002 (Finngen-R12-Calculus of kidney and ureter) and p009 (R12) agree, the counts given are endpoint counts, and FinnGen and UK Biobank are used as two separate replication datasets, not a meta-analysis."},
+  {"side": "outcome", "name_as_written": "Million Veteran Program",
+   "value": "not_stated_in_source", "unresolved_reason": "release_not_identified",
+   "identification_basis": null, "source_read": null, "passage_id": null, "quote": null, "citations_claim": null,
+   "companion_source": false, "reference_label": null, "reference_quote": null, "reference_citations_claim": null,
+   "dataset_named_in_source": null,
+   "coder_note": "Cohort name alone in both passages; no release, accession, sample size or citation (rule D)."},
+  {"side": "outcome", "name_as_written": "UK Biobank",
+   "value": "not_stated_in_source", "unresolved_reason": "release_not_identified",
+   "identification_basis": null, "source_read": null, "passage_id": null, "quote": null, "citations_claim": null,
+   "companion_source": false, "reference_label": null, "reference_quote": null, "reference_citations_claim": null,
+   "dataset_named_in_source": null,
+   "coder_note": "The UK Biobank dataset is attributed to reference 16 (Zhou 2020, DOI 10.1038/s41588-020-0621-6), an identifier of no dictionary row, so the entry cannot carry a code; the sentences give only the cohort name with case and control counts (2,766; 453,582) and no accession."}
+ ]}

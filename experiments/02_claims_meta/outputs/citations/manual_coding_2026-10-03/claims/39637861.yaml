@@ -1,0 +1,17 @@
+source:
+  citation: '39637861'
+  local: sources/39637861.txt
+  sha256: ef620bbef7c26b63610b604b37f477d2b87919878f8a25faa85abd581a2ce7e6
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11701259/fullTextXML
+  note: body as scripts/fetch_fulltext.py rendered it
+claims:
+  pqtl_1_c2:
+    quotes:
+    - exact: 'The proteomics data used in our analysis comprise 54,306 participants from the UK Biobank
+        Pharma Proteomics Project (UKB-PPP).20 In the UKB-PPP consortium, up to 22.6 million imputed autosomal
+        variants across 1,463 proteins post quality control were analyzed, discovering 10,248 primary
+        associations through LD (linkage disequilibrium) clumping ±1 Mb around the significant variants,
+        including 1,163 in the cis region and 9,085 in the trans region.20 As described by Sun et al.,20
+        the following filtering steps are used to retain pQTLs in the UKB-PPP summary-level proteomics
+        data: (1) genome-wide significance (p <3.40×10−11) after Bonferroni correction and (2) independent
+        pQTLs using LD clumping (r2<0.01).'

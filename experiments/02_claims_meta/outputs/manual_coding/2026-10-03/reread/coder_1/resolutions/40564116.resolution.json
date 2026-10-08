@@ -1,0 +1,16 @@
+{"record_id": "40564116", "coder_id": "coder_1",
+ "rows": [
+  {"row": "outcome_1",
+   "resolved_value": "Sakaue 2021 BBJ (220 traits)",
+   "unresolved_reason": null,
+   "resolution_note": "Rule E: the sentence attributes the replication dataset to reference 53 (Sakaue 2021, DOI 10.1038/s41588-021-00931-x, the source of three dictionary rows) and names it Biobank Japan (BBJ) alone with its own case and control counts, which separates the BioBank Japan-only row from the European and cross-population rows; the BUN and eGFR meta-analysis of BBJ with the Taiwan Biobank is a different dataset attributed to reference 55 and is not a conflict.",
+   "identification_basis": "reference_entry",
+   "source_read": "full_text",
+   "passage_id": "p002",
+   "quote": "We replicated the results of the primary analysis in two independent datasets: Biobank Japan (BBJ) [53] (2117 cases and 174,345 controls) and J-Kidney-Biobank (JKB) [54] (382 cases of CKD in the J-Kidney-Biobank and 3471 controls participating in the TMM Comm-Cohort Study (JKB-ToMMo)).",
+   "citations_claim": "claims/40564116.yaml#outcome_1_r",
+   "companion_source": true,
+   "reference_label": "53",
+   "reference_quote": "Sakaue S. Kanai M. Tanigawa Y. Karjalainen J. Kurki M. Koshiba S. Narita A. Konuma T. Yamamoto K. Akiyama M. A Cross-Population Atlas of Genetic Associations for 220 Human Phenotypes Nat. Genet. 2021 53 1415 1424 10.1038/s41588-021-00931-x 34594039 PMC12208603",
+   "reference_citations_claim": "claims/40564116.references.yaml#outcome_1_r_ref",
+   "dataset_named_in_source": null}]}

@@ -1,0 +1,47 @@
+{
+ "record_id": "40913361",
+ "coder_id": "coder_1",
+ "attempt": 1,
+ "rows": [
+  {
+   "side": "outcome",
+   "name_as_written": "Gene-Lifestyle Interactions in Dental Endpoints consortium",
+   "value": "source_names_dataset_absent_from_dictionary",
+   "passes": true,
+   "failures": [],
+   "warnings": [],
+   "machine_basis": [],
+   "reference_verified_by": null
+  },
+  {
+   "side": "outcome",
+   "name_as_written": "Million Veteran Program",
+   "value": "source_names_dataset_absent_from_dictionary",
+   "passes": true,
+   "failures": [],
+   "warnings": [],
+   "machine_basis": [],
+   "reference_verified_by": null
+  },
+  {
+   "side": "pqtl",
+   "name_as_written": "deCODE genetics",
+   "value": "deCODE SomaScan v4 (Ferkingstad 2021)",
+   "passes": true,
+   "failures": [],
+   "warnings": [],
+   "machine_basis": [
+    "aliases:Ferkingstad et al. 2021",
+    "source_citation:Ferkingstad|2021",
+    "source_identifier:10.1038/s41588-021-00978-w",
+    "source_identifier:34857953"
+   ],
+   "reference_verified_by": "doi"
+  }
+ ],
+ "rows_not_coded_once": [],
+ "rows_not_given": [],
+ "wrong_coder": false,
+ "passes": true,
+ "gated_utc": "20261007T182759Z"
+}

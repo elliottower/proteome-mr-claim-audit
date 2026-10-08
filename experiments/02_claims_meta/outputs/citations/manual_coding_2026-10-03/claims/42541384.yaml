@@ -1,0 +1,63 @@
+source:
+  citation: '42541384'
+  local: sources/42541384.txt
+  sha256: 8513a1282091c3207124381c1ca387c8f31bb7b01f8dbd5f6f41e00e8eea6b50
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13617629/fullTextXML
+  note: body as scripts/fetch_fulltext.py rendered it
+claims:
+  outcome_1:
+    quotes:
+    - exact: 14 A portion of the GWAS summary data for cholelithiasis was obtained from the tenth version
+        of the FinnGen consortium, accessible at https://www.finngen.fi/fi.
+  outcome_2:
+    quotes:
+    - exact: 15 The remaining data was obtained from the research conducted by Jiang et al., available
+        in the GWAS Catalog database with the accession number GCST90044196 (https://www.ebi.ac.uk/gwas/).
+  pqtl_1:
+    quotes:
+    - exact: Genetic instruments for assessing the levels of 9 cathepsins were obtained from the INTERVAL
+        study, encompassing 3,301 European ancestry.
+  outcome_2_a2:
+    quotes:
+    - exact: 15 The remaining data was obtained from the research conducted by Jiang et al., available
+        in the GWAS Catalog database with the accession number GCST90044196 (https://www.ebi.ac.uk/gwas/).
+  pqtl_1_a2:
+    quotes:
+    - exact: Genetic instruments for assessing the levels of 9 cathepsins were obtained from the INTERVAL
+        study, encompassing 3,301 European ancestry.
+  outcome_1_a3:
+    quotes:
+    - exact: 14 A portion of the GWAS summary data for cholelithiasis was obtained from the tenth version
+        of the FinnGen consortium, accessible at https://www.finngen.fi/fi.
+  outcome_2_a3:
+    quotes:
+    - exact: 15 The remaining data was obtained from the research conducted by Jiang et al., available
+        in the GWAS Catalog database with the accession number GCST90044196 (https://www.ebi.ac.uk/gwas/).
+  pqtl_1_a3:
+    quotes:
+    - exact: Genetic instruments for assessing the levels of 9 cathepsins were obtained from the INTERVAL
+        study, encompassing 3,301 European ancestry.
+  outcome_1_a4:
+    quotes:
+    - exact: 14 A portion of the GWAS summary data for cholelithiasis was obtained from the tenth version
+        of the FinnGen consortium, accessible at https://www.finngen.fi/fi.
+  outcome_2_a4:
+    quotes:
+    - exact: 15 The remaining data was obtained from the research conducted by Jiang et al., available
+        in the GWAS Catalog database with the accession number GCST90044196 (https://www.ebi.ac.uk/gwas/).
+  pqtl_1_a4:
+    quotes:
+    - exact: Genetic instruments for assessing the levels of 9 cathepsins were obtained from the INTERVAL
+        study, encompassing 3,301 European ancestry.
+  outcome_1_c2:
+    quotes:
+    - exact: 14 A portion of the GWAS summary data for cholelithiasis was obtained from the tenth version
+        of the FinnGen consortium, accessible at https://www.finngen.fi/fi.
+  outcome_2_c2:
+    quotes:
+    - exact: 15 The remaining data was obtained from the research conducted by Jiang et al., available
+        in the GWAS Catalog database with the accession number GCST90044196 (https://www.ebi.ac.uk/gwas/).
+  pqtl_1_c2:
+    quotes:
+    - exact: Genetic instruments for assessing the levels of 9 cathepsins were obtained from the INTERVAL
+        study, encompassing 3,301 European ancestry.

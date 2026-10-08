@@ -1,0 +1,32 @@
+source:
+  citation: '39351539'
+  local: sources/39351539.txt
+  sha256: 5aec9166596bd48470bde5e889d240273c8d0263577640f97c2135d1493f5a5a
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11439655/fullTextXML
+  note: body as scripts/fetch_fulltext.py rendered it
+claims:
+  outcome_1:
+    quotes:
+    - exact: 'The BCAC consortium combined three datasets: iCOGS (38,349 cases and 37,818 controls), OncoArray
+        (80,125 cases and 58,383 controls), and additional GWAS studies (14,910 cases and 17,588 controls),
+        resulting in a total of 133,384 breast cancer cases and 113,789 controls (21).'
+  outcome_1_a2:
+    quotes:
+    - exact: 'The BCAC consortium combined three datasets: iCOGS (38,349 cases and 37,818 controls), OncoArray
+        (80,125 cases and 58,383 controls), and additional GWAS studies (14,910 cases and 17,588 controls),
+        resulting in a total of 133,384 breast cancer cases and 113,789 controls (21).'
+  outcome_1_a3:
+    quotes:
+    - exact: 'The BCAC consortium combined three datasets: iCOGS (38,349 cases and 37,818 controls), OncoArray
+        (80,125 cases and 58,383 controls), and additional GWAS studies (14,910 cases and 17,588 controls),
+        resulting in a total of 133,384 breast cancer cases and 113,789 controls (21).'
+  outcome_1_a4:
+    quotes:
+    - exact: 'The BCAC consortium combined three datasets: iCOGS (38,349 cases and 37,818 controls), OncoArray
+        (80,125 cases and 58,383 controls), and additional GWAS studies (14,910 cases and 17,588 controls),
+        resulting in a total of 133,384 breast cancer cases and 113,789 controls (21).'
+  outcome_1_c2:
+    quotes:
+    - exact: 'The BCAC consortium combined three datasets: iCOGS (38,349 cases and 37,818 controls), OncoArray
+        (80,125 cases and 58,383 controls), and additional GWAS studies (14,910 cases and 17,588 controls),
+        resulting in a total of 133,384 breast cancer cases and 113,789 controls (21).'

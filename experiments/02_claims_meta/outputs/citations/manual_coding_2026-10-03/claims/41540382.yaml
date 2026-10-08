@@ -1,0 +1,34 @@
+source:
+  citation: '41540382'
+  local: sources/41540382.txt
+  sha256: 39dd7631610f4a210ae9c7aff26a4f7ecc7f99b8b0fe14665a05bf909c282fe3
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12892679/fullTextXML
+  note: body as scripts/fetch_fulltext.py rendered it
+claims:
+  pqtl_1:
+    quotes:
+    - exact: After quality control, 4,483 unique proteins from 7,213 European individuals in the ARIC
+        study and 3,170 proteins from 3,301 European individuals in the INTERVAL study were included in
+        the PWAS analyses.
+  pqtl_2:
+    quotes:
+    - exact: The blood proteomes integrated with genotyping data were derived from the Atherosclerosis
+        Risk in Communities (ARIC) study [30] and the INTERVAL study [21].
+  pqtl_2_a2:
+    quotes:
+    - exact: The blood proteomes integrated with genotyping data were derived from the Atherosclerosis
+        Risk in Communities (ARIC) study [30] and the INTERVAL study [21].
+  pqtl_1_c2:
+    quotes:
+    - exact: After quality control, 4,483 unique proteins from 7,213 European individuals in the ARIC
+        study and 3,170 proteins from 3,301 European individuals in the INTERVAL study were included in
+        the PWAS analyses.
+  pqtl_2_c2:
+    quotes:
+    - exact: The blood proteomes integrated with genotyping data were derived from the Atherosclerosis
+        Risk in Communities (ARIC) study [30] and the INTERVAL study [21].
+  pqtl_1_r:
+    quotes:
+    - exact: After quality control, 4,483 unique proteins from 7,213 European individuals in the ARIC
+        study and 3,170 proteins from 3,301 European individuals in the INTERVAL study were included in
+        the PWAS analyses.

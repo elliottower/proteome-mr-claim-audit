@@ -1,0 +1,31 @@
+source:
+  citation: '37809092'
+  local: sources/37809092.txt
+  sha256: 3039e69e995bd1341123034f69179ca2e3ab3f95b532d44f5d7e07bb6a6bb6c9
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10551444/fullTextXML
+  note: body as scripts/fetch_fulltext.py rendered it
+claims:
+  outcome_1_a3:
+    quotes:
+    - exact: Summary statistics from a study by Demenais et al. (17) (nCase = 19,954, nControl = 107,715)
+        and the FinnGen cohorts (R9 release, nCase = 42,163, nControl = 202,399) (18) were used for the
+        external validation.
+  outcome_2_a3:
+    quotes:
+    - exact: Summary statistics from a study by Demenais et al. (17) (nCase = 19,954, nControl = 107,715)
+        and the FinnGen cohorts (R9 release, nCase = 42,163, nControl = 202,399) (18) were used for the
+        external validation.
+  outcome_1_c2:
+    quotes:
+    - exact: Summary statistics from a study by Demenais et al. (17) (nCase = 19,954, nControl = 107,715)
+        and the FinnGen cohorts (R9 release, nCase = 42,163, nControl = 202,399) (18) were used for the
+        external validation.
+  outcome_2_c2:
+    quotes:
+    - exact: Summary statistics from a study by Demenais et al. (17) (nCase = 19,954, nControl = 107,715)
+        and the FinnGen cohorts (R9 release, nCase = 42,163, nControl = 202,399) (18) were used for the
+        external validation.
+  outcome_3_c2:
+    quotes:
+    - exact: Summary statistics from the UK Biobank were used for the primary analysis (14), including
+        462,933 individuals (until 2017, nCase = 53,598, nControl = 409,335) of European ancestry.

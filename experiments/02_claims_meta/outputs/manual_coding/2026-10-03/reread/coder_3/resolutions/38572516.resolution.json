@@ -1,0 +1,14 @@
+{"record_id": "38572516", "coder_id": "coder_3",
+ "rows": [
+  {"row": "outcome_1",
+   "resolved_value": "source_names_dataset_absent_from_dictionary",
+   "unresolved_reason": "dataset_absent_from_dictionary",
+   "resolution_note": "p001 sentence 31 defines the DECODE cohort of this paper as the pQTL study of 35,559 Icelandic participants with 4907 proteins (Ferkingstad et al., 2021, DOI 10.1038/s41588-021-00978-w), used as an exposure dataset in every other passage; that dataset has rows only on the pqtl side and the outcome side has no row for it (rule C2).",
+   "identification_basis": null,
+   "source_read": "full_text",
+   "passage_id": "p001",
+   "quote": "We sourced summary‐level genetic association data on 4907 circulating proteins from an extensive pQTL study involving 35,559 Icelandic participants, known as the DECODE cohort (Ferkingstad et al., 2021).",
+   "citations_claim": "claims/38572516.yaml#outcome_1_r",
+   "companion_source": false,
+   "reference_label": null, "reference_quote": null, "reference_citations_claim": null,
+   "dataset_named_in_source": "the DECODE cohort (Ferkingstad et al., 2021)"}]}

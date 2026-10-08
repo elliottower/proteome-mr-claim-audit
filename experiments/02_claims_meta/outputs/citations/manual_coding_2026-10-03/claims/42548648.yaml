@@ -1,0 +1,55 @@
+source:
+  citation: '42548648'
+  local: sources/42548648.txt
+  sha256: d019f36e6a260e5ff2cf8e2948f572a5630bfbd41e9e66fdd787797ba9ca6ede
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13429433/fullTextXML
+  note: body as scripts/fetch_fulltext.py rendered it
+claims:
+  outcome_1:
+    quotes:
+    - exact: One was sourced from the FinnGen consortium (https://www.finngen.fi/en, Finngen-R12-Calculus
+        of kidney and ureter), with 12, 999 cases and 486, 185 controls.
+  outcome_2:
+    quotes:
+    - exact: We systematically gathered summary-level data on mitochondrial gene methylation, expression,
+        and protein abundance from molecular quantitative trait loci studies, and assessed genetic associations
+        with nephrolithiasis, ureterolithiasis, and bladder calculus using data from the Million Veteran
+        Program, UK Biobank, and FinnGen study.
+  outcome_1_a2:
+    quotes:
+    - exact: One was sourced from the FinnGen consortium (https://www.finngen.fi/en, Finngen-R12-Calculus
+        of kidney and ureter), with 12, 999 cases and 486, 185 controls.
+  outcome_2_a2:
+    quotes:
+    - exact: We systematically gathered summary-level data on mitochondrial gene methylation, expression,
+        and protein abundance from molecular quantitative trait loci studies, and assessed genetic associations
+        with nephrolithiasis, ureterolithiasis, and bladder calculus using data from the Million Veteran
+        Program, UK Biobank, and FinnGen study.
+  outcome_1_a3:
+    quotes:
+    - exact: Additionally, the associations between mitochondrial genes and urolithiasis were replicated
+        in the FinnGen R12 database and UK Biobank database (Data Sheet - Supplementary Tables 3, 4).
+  outcome_1_a4:
+    quotes:
+    - exact: Additionally, the associations between mitochondrial genes and urolithiasis were replicated
+        in the FinnGen R12 database and UK Biobank database (Data Sheet - Supplementary Tables 3, 4).
+  outcome_2_a4:
+    quotes:
+    - exact: We systematically gathered summary-level data on mitochondrial gene methylation, expression,
+        and protein abundance from molecular quantitative trait loci studies, and assessed genetic associations
+        with nephrolithiasis, ureterolithiasis, and bladder calculus using data from the Million Veteran
+        Program, UK Biobank, and FinnGen study.
+  outcome_1_c2:
+    quotes:
+    - exact: One was sourced from the FinnGen consortium (https://www.finngen.fi/en, Finngen-R12-Calculus
+        of kidney and ureter), with 12, 999 cases and 486, 185 controls.
+  outcome_2_c2:
+    quotes:
+    - exact: We systematically gathered summary-level data on mitochondrial gene methylation, expression,
+        and protein abundance from molecular quantitative trait loci studies, and assessed genetic associations
+        with nephrolithiasis, ureterolithiasis, and bladder calculus using data from the Million Veteran
+        Program, UK Biobank, and FinnGen study.
+  outcome_3_c2:
+    quotes:
+    - exact: Replication analyses were performed using the UK Biobank dataset (16) and the FinnGen dataset
+        (17).

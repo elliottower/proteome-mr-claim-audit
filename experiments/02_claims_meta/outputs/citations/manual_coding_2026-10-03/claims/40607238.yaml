@@ -1,0 +1,38 @@
+source:
+  citation: '40607238'
+  local: sources/40607238.txt
+  sha256: 66e552dc1492a6c755963970407e53efe7c5c0f0c051cedc6f6f4e28cbfa7924
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12221610/fullTextXML
+  note: body as scripts/fetch_fulltext.py rendered it
+claims:
+  pqtl_2:
+    quotes:
+    - exact: For exposure data, we used publicly available pQTLs identified in two large-scale plasma-proteomics
+        studies (deCODE and UKB-PPP) to generate genetic instruments.13,14 The summary statistics for
+        the deCODE dataset are available at https://www.decode.com/summarydata/, and for the UKB-PPP dataset
+        at http://ukb-ppp.gwas.eu.
+  pqtl_2_a2:
+    quotes:
+    - exact: For exposure data, we used publicly available pQTLs identified in two large-scale plasma-proteomics
+        studies (deCODE and UKB-PPP) to generate genetic instruments.13,14 The summary statistics for
+        the deCODE dataset are available at https://www.decode.com/summarydata/, and for the UKB-PPP dataset
+        at http://ukb-ppp.gwas.eu.
+  pqtl_2_a3:
+    quotes:
+    - exact: 'The aptamer used to measure levels of COL6A3 in the deCODE proteomics dataset binds the
+        C-terminal of COL6A3.13 The C-terminal of COL6A3 gets cleaved into a peptide known as endotrophin,
+        which can be found in the bloodstream.34,35 Although expression data suggests that endotrophin
+        may largely originate from subcutaneous adipose tissue, our colocalization analysis supports an
+        alternative hypothesis: plasma endotrophin may primarily originate in aortic or vascular tissue.'
+  pqtl_1_c2:
+    quotes:
+    - exact: For exposure data, we used publicly available pQTLs identified in two large-scale plasma-proteomics
+        studies (deCODE and UKB-PPP) to generate genetic instruments.13,14 The summary statistics for
+        the deCODE dataset are available at https://www.decode.com/summarydata/, and for the UKB-PPP dataset
+        at http://ukb-ppp.gwas.eu.
+  pqtl_2_c2:
+    quotes:
+    - exact: For exposure data, we used publicly available pQTLs identified in two large-scale plasma-proteomics
+        studies (deCODE and UKB-PPP) to generate genetic instruments.13,14 The summary statistics for
+        the deCODE dataset are available at https://www.decode.com/summarydata/, and for the UKB-PPP dataset
+        at http://ukb-ppp.gwas.eu.

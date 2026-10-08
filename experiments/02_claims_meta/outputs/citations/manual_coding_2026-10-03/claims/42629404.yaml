@@ -1,0 +1,17 @@
+source:
+  citation: '42629404'
+  local: sources/42629404.txt
+  sha256: d2616224a3ab111b34884c8508d9028a5e57cab3c0126d5c0d998084e517ff01
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13498596/fullTextXML
+  note: body as scripts/fetch_fulltext.py rendered it
+claims:
+  outcome_1:
+    quotes:
+    - exact: The GWAS data for PPD were sourced from the largest meta-analysis to date of the Psychiatric
+        Genomics Consortium (PGC), comprising 18 cohorts of European ancestry, totalling 17,339 PPD cases
+        and 53,426 controls.
+  outcome_1_c2:
+    quotes:
+    - exact: The GWAS data for PPD were sourced from the largest meta-analysis to date of the Psychiatric
+        Genomics Consortium (PGC), comprising 18 cohorts of European ancestry, totalling 17,339 PPD cases
+        and 53,426 controls.

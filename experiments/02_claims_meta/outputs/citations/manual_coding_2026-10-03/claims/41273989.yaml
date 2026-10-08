@@ -1,0 +1,31 @@
+source:
+  citation: '41273989'
+  local: sources/41273989.txt
+  sha256: 2b8d60776abb05f38c5bdae70ed2544a5fd011a01fcb11efb3c712763906d056
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12681877/fullTextXML
+  note: body as scripts/fetch_fulltext.py rendered it
+claims:
+  outcome_1:
+    quotes:
+    - exact: The dataset used in this study, designated as finngen_R10_C3_PANCREAS_ADENO_DUCTAL_EXALLC.gz,
+        includes 731 pancreatic cancer patients and 314,193 healthy controls (n = 731 cases; n = 314,193
+        controls).
+  outcome_1_a2:
+    quotes:
+    - exact: The dataset used in this study, designated as finngen_R10_C3_PANCREAS_ADENO_DUCTAL_EXALLC.gz,
+        includes 731 pancreatic cancer patients and 314,193 healthy controls (n = 731 cases; n = 314,193
+        controls).
+  outcome_1_a3:
+    quotes:
+    - exact: The dataset used in this study, designated as finngen_R10_C3_PANCREAS_ADENO_DUCTAL_EXALLC.gz,
+        includes 731 pancreatic cancer patients and 314,193 healthy controls (n = 731 cases; n = 314,193
+        controls).
+  outcome_1_c2:
+    quotes:
+    - exact: The dataset used in this study, designated as finngen_R10_C3_PANCREAS_ADENO_DUCTAL_EXALLC.gz,
+        includes 731 pancreatic cancer patients and 314,193 healthy controls (n = 731 cases; n = 314,193
+        controls).
+  pqtl_1_c2:
+    quotes:
+    - exact: 'The dataset is hosted on the AWS cloud platform by Sage Bionetworks (ARN: arn:aws:s3:::ukbiobank.opendata.sagebase.org)
+        [20].'

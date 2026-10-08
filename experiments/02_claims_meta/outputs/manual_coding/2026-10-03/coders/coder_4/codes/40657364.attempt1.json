@@ -1,0 +1,58 @@
+{
+ "record_id": "40657364",
+ "coder_id": "coder_4",
+ "attempt": 1,
+ "rows": [
+  {
+   "side": "outcome",
+   "name_as_written": "Breast Cancer Association Consortium (BCAC)",
+   "value": "BCAC breast cancer (Michailidou 2017)",
+   "unresolved_reason": null,
+   "identification_basis": "reference_entry",
+   "source_read": "full_text",
+   "passage_id": "p001",
+   "quote": "This analysis utilized publicly available datasets, including the BC Association Consortium (BCAC) 17, the UK Biobanking Study 21, the Finnish Genetics Study 22, and other large-scale GWAS (Table S1).",
+   "citations_claim": "claims/40657364.yaml#outcome_1",
+   "companion_source": true,
+   "reference_label": "17",
+   "reference_quote": "Michailidou K, Lindström S, Dennis J. et al. Association analysis identifies 65 new breast cancer risk loci. Nature. 2017;551:92–4. doi: 10.1038/nature24284.",
+   "reference_citations_claim": "claims/40657364.references.yaml#outcome_1_ref",
+   "dataset_named_in_source": null,
+   "coder_note": "Sentence lists the BCAC dataset with citation 17; the entry DOI is the Michailidou 2017 row source only, and the counts given elsewhere in the paper agree."
+  },
+  {
+   "side": "outcome",
+   "name_as_written": "FinnGen",
+   "value": "FinnGen R10",
+   "unresolved_reason": null,
+   "identification_basis": "release_identifier",
+   "source_read": "full_text",
+   "passage_id": "p001",
+   "quote": "Furthermore, summary-level data on genetic associations with BC were obtained from the FinnGen study's publicly available R10 dataset, which included 18,786 patients with BC and 182,927 controls.",
+   "citations_claim": "claims/40657364.yaml#outcome_2",
+   "companion_source": false,
+   "reference_label": null,
+   "reference_quote": null,
+   "reference_citations_claim": null,
+   "dataset_named_in_source": null,
+   "coder_note": "Sentence states the data were obtained from the FinnGen R10 dataset."
+  },
+  {
+   "side": "outcome",
+   "name_as_written": "UK Biobank (UKB)",
+   "value": "not_stated_in_source",
+   "unresolved_reason": "release_not_identified",
+   "identification_basis": null,
+   "source_read": null,
+   "passage_id": null,
+   "quote": null,
+   "citations_claim": null,
+   "companion_source": false,
+   "reference_label": null,
+   "reference_quote": null,
+   "reference_citations_claim": null,
+   "dataset_named_in_source": null,
+   "coder_note": "UK Biobank named with case and control counts; no GWAS release or source identified in the passages given for this row."
+  }
+ ]
+}

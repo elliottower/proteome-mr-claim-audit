@@ -1,0 +1,15 @@
+{"record_id": "40480837", "coder_id": "coder_3", "attempt": 4,
+ "rows": [
+  {"side": "outcome", "name_as_written": "UK Biobank",
+   "value": "source_names_dataset_absent_from_dictionary",
+   "unresolved_reason": "dataset_absent_from_dictionary",
+   "identification_basis": null,
+   "source_read": "abstract",
+   "passage_id": "p001",
+   "quote": "The population for this study included 52,913 participants and 2911 plasma proteomics from UK Biobank.",
+   "citations_claim": "claims/40480837.yaml#outcome_1_a4",
+   "companion_source": false,
+   "reference_label": null, "reference_quote": null, "reference_citations_claim": null,
+   "dataset_named_in_source": "UK Biobank",
+   "coder_note": "Step 3, rule C: the abstract defines the authors' own analysis of UK Biobank individual-level data by more than a number of participants (52,913 participants with 2911 measured plasma proteins, the cohort then split into discovery and validation by country); no dictionary row is such an analysis. No release, accession or citation for steps 1 and 2."}
+ ]}

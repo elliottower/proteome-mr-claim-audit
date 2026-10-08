@@ -1,0 +1,61 @@
+source:
+  citation: '42677314'
+  local: sources/42677314.txt
+  sha256: a27efdb50668c79ee26e41b088189bf80a4d7732d8e6988f3a3b1f19db27cd95
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13528792/fullTextXML
+  note: body as scripts/fetch_fulltext.py rendered it
+claims:
+  outcome_1:
+    quotes:
+    - exact: 'Breast cancer GWAS summary statistics were obtained from the Breast
+        Cancer Association Consortium (BCAC; IEU identifier: ieu-a-1126), comprising
+        122,977 BC cases and 105,974 controls with genome-wide data on approximately
+        15 million common variants.25,26'
+  outcome_1_a2:
+    quotes:
+    - exact: 'Breast cancer GWAS summary statistics were obtained from the Breast
+        Cancer Association Consortium (BCAC; IEU identifier: ieu-a-1126), comprising
+        122,977 BC cases and 105,974 controls with genome-wide data on approximately
+        15 million common variants.25,26'
+  outcome_1_a3:
+    quotes:
+    - exact: 'Breast cancer GWAS summary statistics were obtained from the Breast
+        Cancer Association Consortium (BCAC; IEU identifier: ieu-a-1126), comprising
+        122,977 BC cases and 105,974 controls with genome-wide data on approximately
+        15 million common variants.25,26'
+  outcome_1_a4:
+    quotes:
+    - exact: 'Breast cancer GWAS summary statistics were obtained from the Breast
+        Cancer Association Consortium (BCAC; IEU identifier: ieu-a-1126), comprising
+        122,977 BC cases and 105,974 controls with genome-wide data on approximately
+        15 million common variants.25,26'
+  pqtl_1_a4:
+    quotes:
+    - exact: 'Specifically, breast cancer GWAS summary statistics were obtained from
+        the Breast Cancer Association Consortium via the IEU OpenGWAS project (identifier:
+        ieu-a-1126);25,26 plasma pQTL data were obtained from the Fenland study as
+        reported by Pietzner et al23 and from the FinnGen DF10 public release;24 and
+        TCGA-BRCA gene expression data were downloaded from the UCSC Xena platform.'
+      prefix: FinnGen (https://www.finngen.fi/en), and published literature, while
+        gene expression data are available from the UCSC Xena platform (https://xenabrowser.net/).
+      suffix: 'Additional experimental data and analysis codes that support the findings
+        of this study are available from the corresponding author upon reasonable
+        request. ##'
+  outcome_1_c2:
+    quotes:
+    - exact: 'Breast cancer GWAS summary statistics were obtained from the Breast
+        Cancer Association Consortium (BCAC; IEU identifier: ieu-a-1126), comprising
+        122,977 BC cases and 105,974 controls with genome-wide data on approximately
+        15 million common variants.25,26'
+  pqtl_1_c2:
+    quotes:
+    - exact: 'Specifically, breast cancer GWAS summary statistics were obtained from
+        the Breast Cancer Association Consortium via the IEU OpenGWAS project (identifier:
+        ieu-a-1126);25,26 plasma pQTL data were obtained from the Fenland study as
+        reported by Pietzner et al23 and from the FinnGen DF10 public release;24 and
+        TCGA-BRCA gene expression data were downloaded from the UCSC Xena platform.'
+      prefix: FinnGen (https://www.finngen.fi/en), and published literature, while
+        gene expression data are available from the UCSC Xena platform (https://xenabrowser.net/).
+      suffix: 'Additional experimental data and analysis codes that support the findings
+        of this study are available from the corresponding author upon reasonable
+        request. ##'

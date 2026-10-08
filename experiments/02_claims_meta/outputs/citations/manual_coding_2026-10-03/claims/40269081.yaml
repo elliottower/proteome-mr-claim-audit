@@ -1,0 +1,23 @@
+source:
+  citation: '40269081'
+  local: sources/40269081.txt
+  sha256: d95c56de511c50125e71860794b0fa8a5638f7508e282a161c90c8ec0fbf2490
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12019183/fullTextXML
+  note: body as scripts/fetch_fulltext.py rendered it
+claims:
+  outcome_1_a4:
+    quotes:
+    - exact: The GWAS summary statistics for endometriosis was available on Leelab
+        Pheweb (https://pheweb.org/UKB-TOPMed/pheno/615) for the UK Biobank cohort
+        and on the FinnGen R10 (https://r10.risteys.finngen.fi/) for the FinnGen cohort.
+      prefix: (https://www.ebi.ac.uk/gwas/home) under the search term of GCST90269970
+        16.
+      suffix: '## Declarations ## Competing interests The authors declare no competing'
+  outcome_1_c2:
+    quotes:
+    - exact: The GWAS summary statistics for endometriosis was available on Leelab
+        Pheweb (https://pheweb.org/UKB-TOPMed/pheno/615) for the UK Biobank cohort
+        and on the FinnGen R10 (https://r10.risteys.finngen.fi/) for the FinnGen cohort.
+      prefix: (https://www.ebi.ac.uk/gwas/home) under the search term of GCST90269970
+        16.
+      suffix: '## Declarations ## Competing interests The authors declare no competing'

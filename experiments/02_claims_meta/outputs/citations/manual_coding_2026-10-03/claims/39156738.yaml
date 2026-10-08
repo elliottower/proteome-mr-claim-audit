@@ -1,0 +1,31 @@
+source:
+  citation: '39156738'
+  local: sources/39156738.txt
+  sha256: 1f2b77f86a04a1b4dabc851079be3f26bd88514cda809ab65411ab9f490e5c4b
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11327092/fullTextXML
+  note: body as scripts/fetch_fulltext.py rendered it
+claims:
+  outcome_2:
+    quotes:
+    - exact: Summary-level GWAS data of AD were obtained from a meta-analysis of previously published
+        GWAS datasets and reported by Lambert et al. (2013), which includes 17,008 AD cases and 37,154
+        cognitively normal age-matched controls.
+  outcome_2_a2:
+    quotes:
+    - exact: Summary-level GWAS data of AD were obtained from a meta-analysis of previously published
+        GWAS datasets and reported by Lambert et al. (2013), which includes 17,008 AD cases and 37,154
+        cognitively normal age-matched controls.
+  outcome_2_a3:
+    quotes:
+    - exact: Summary-level GWAS data of AD were obtained from a meta-analysis of previously published
+        GWAS datasets and reported by Lambert et al. (2013), which includes 17,008 AD cases and 37,154
+        cognitively normal age-matched controls.
+  outcome_1_c2:
+    quotes:
+    - exact: GWAS data of AD from FinnGen consortium (6,489 cases and 170,489 controls) (Kurki et al.,
+        2003) was used for replication and validation.
+  outcome_2_c2:
+    quotes:
+    - exact: Summary-level GWAS data of AD were obtained from a meta-analysis of previously published
+        GWAS datasets and reported by Lambert et al. (2013), which includes 17,008 AD cases and 37,154
+        cognitively normal age-matched controls.

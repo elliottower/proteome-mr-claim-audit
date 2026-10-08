@@ -1,0 +1,58 @@
+{
+ "record_id": "41200820",
+ "coder_id": "coder_2",
+ "attempt": 1,
+ "rows": [
+  {
+   "side": "outcome",
+   "name_as_written": "CARDIoGRAMplusC4D",
+   "value": "CARDIoGRAMplusC4D 1000 Genomes CAD (Nikpay 2015)",
+   "unresolved_reason": null,
+   "identification_basis": "reference_entry",
+   "source_read": "full_text",
+   "passage_id": "p001",
+   "quote": "Outcome data on CHD and myocardial infarction from the CARDIoGRAMplusC4D 1000 Genomes project have been contributed by CARDIoGRAMplusC4D investigators and have been downloaded from www.CARDIOGRAMPLUSC4D.ORG, including 60 801 cases and 123 504 controls.15",
+   "citations_claim": "claims/41200820.yaml#outcome_1",
+   "companion_source": true,
+   "reference_label": "15",
+   "reference_quote": "Nikpay M, Goel A, Won HH, Hall LM, Willenborg C, Kanoni S, Saleheen D, Kyriakou T, Nelson CP, Hopewell JC, et al. A comprehensive 1000 Genomes–based genome-wide association meta-analysis of coronary artery disease. Nat Genet. 2015;47:1121–1130. doi: 10.1038/ng.3396",
+   "reference_citations_claim": "claims/41200820.references.yaml#outcome_1_ref",
+   "dataset_named_in_source": null,
+   "coder_note": "Sentence attributes the CARDIoGRAMplusC4D 1000 Genomes outcome data (60 801 cases, 123 504 controls) to reference 15, whose DOI is the source identifier of one dictionary row only; the counts agree with that row."
+  },
+  {
+   "side": "outcome",
+   "name_as_written": "FinnGen",
+   "value": "FinnGen R10",
+   "unresolved_reason": null,
+   "identification_basis": "release_identifier",
+   "source_read": "full_text",
+   "passage_id": "p001",
+   "quote": "Furthermore, outcome data on myocardial infarction were also retrieved from the FinnGen R10 populations study release, including 26 060 cases and 360 108 controls.16",
+   "citations_claim": "claims/41200820.yaml#outcome_2",
+   "companion_source": false,
+   "reference_label": null,
+   "reference_quote": null,
+   "reference_citations_claim": null,
+   "dataset_named_in_source": null,
+   "coder_note": "Sentence states the FinnGen R10 study release."
+  },
+  {
+   "side": "pqtl",
+   "name_as_written": "UKB-PPP",
+   "value": "UKB-PPP full cohort (combined)",
+   "unresolved_reason": null,
+   "identification_basis": "release_identifier",
+   "source_read": "full_text",
+   "passage_id": "p001",
+   "quote": "We used only the sentinel cis-pQTL with the lowest P value (P<1.7×10−11) from the complete UKB-PPP cohort for each protein as IVs to reduce the risk of horizontal pleiotropy.",
+   "citations_claim": "claims/41200820.yaml#pqtl_1",
+   "companion_source": false,
+   "reference_label": null,
+   "reference_quote": null,
+   "reference_citations_claim": null,
+   "dataset_named_in_source": null,
+   "coder_note": "Sentence states the instruments are the sentinel cis-pQTLs from the complete UKB-PPP cohort, as distinct from the discovery and replication cohorts named in the next sentence. The wording is complete cohort, not a dictionary alias verbatim, and the preceding sentence gives 54 219 individuals, not the row's sample size."
+  }
+ ]
+}

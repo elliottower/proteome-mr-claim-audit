@@ -1,0 +1,62 @@
+source:
+  citation: '42516377'
+  local: sources/42516377.txt
+  sha256: f70b4d6a30e30ff15f19bafdc289686eb1bc42164825167c173c53b7982b30d5
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13402173/fullTextXML
+  note: body as scripts/fetch_fulltext.py rendered it
+claims:
+  outcome_2:
+    quotes:
+    - exact: The discovery cohort was sourced from FinnGen Release 10 (24), published in December 2023,
+        comprising 5,026 asthma cases and 225,703 controls.
+  outcome_3:
+    quotes:
+    - exact: Genes that met significance thresholds were further validated in replication cohorts from
+        the European Bioinformatics Institute (EBI) (25, 26) and the UK Biobank (26, 27), including subgroup
+        analyses for childhood-onset and adult-onset asthma.
+  outcome_2_a2:
+    quotes:
+    - exact: The discovery cohort was sourced from FinnGen Release 10 (24), published in December 2023,
+        comprising 5,026 asthma cases and 225,703 controls.
+  outcome_3_a2:
+    quotes:
+    - exact: Genes that met significance thresholds were further validated in replication cohorts from
+        the European Bioinformatics Institute (EBI) (25, 26) and the UK Biobank (26, 27), including subgroup
+        analyses for childhood-onset and adult-onset asthma.
+  outcome_1_a3:
+    quotes:
+    - exact: The replication cohorts included data from the EBI (25), with 56,087 cases and 428,511 controls,
+        and the UK Biobank (27), with 53,598 cases and 409,335 controls (Figure 1, Supplementary Table
+        2).
+  outcome_2_a3:
+    quotes:
+    - exact: The discovery cohort was sourced from FinnGen Release 10 (24), published in December 2023,
+        comprising 5,026 asthma cases and 225,703 controls.
+  outcome_3_a3:
+    quotes:
+    - exact: Genes that met significance thresholds were further validated in replication cohorts from
+        the European Bioinformatics Institute (EBI) (25, 26) and the UK Biobank (26, 27), including subgroup
+        analyses for childhood-onset and adult-onset asthma.
+  outcome_2_a4:
+    quotes:
+    - exact: The discovery cohort was sourced from FinnGen Release 10 (24), published in December 2023,
+        comprising 5,026 asthma cases and 225,703 controls.
+  outcome_3_a4:
+    quotes:
+    - exact: Genes that met significance thresholds were further validated in replication cohorts from
+        the European Bioinformatics Institute (EBI) (25, 26) and the UK Biobank (26, 27), including subgroup
+        analyses for childhood-onset and adult-onset asthma.
+  outcome_1_c2:
+    quotes:
+    - exact: The replication cohorts included data from the EBI (25), with 56,087 cases and 428,511 controls,
+        and the UK Biobank (27), with 53,598 cases and 409,335 controls (Figure 1, Supplementary Table
+        2).
+  outcome_2_c2:
+    quotes:
+    - exact: The discovery cohort was sourced from FinnGen Release 10 (24), published in December 2023,
+        comprising 5,026 asthma cases and 225,703 controls.
+  outcome_3_c2:
+    quotes:
+    - exact: Genes that met significance thresholds were further validated in replication cohorts from
+        the European Bioinformatics Institute (EBI) (25, 26) and the UK Biobank (26, 27), including subgroup
+        analyses for childhood-onset and adult-onset asthma.

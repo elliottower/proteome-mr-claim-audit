@@ -1,0 +1,41 @@
+{
+ "record_id": "40037332",
+ "coder_id": "coder_4",
+ "attempt": 1,
+ "rows": [
+  {
+   "side": "pqtl",
+   "name_as_written": "UK Biobank",
+   "value": "not_stated_in_source",
+   "unresolved_reason": "release_not_identified",
+   "identification_basis": null,
+   "source_read": null,
+   "passage_id": null,
+   "quote": null,
+   "citations_claim": null,
+   "companion_source": false,
+   "reference_label": null,
+   "reference_quote": null,
+   "reference_citations_claim": null,
+   "dataset_named_in_source": null,
+   "coder_note": "Sentence gives a UK Biobank Olink Explore 3072 sample size that equals no UKB-PPP row size, and the cited entry is the source of several rows."
+  },
+  {
+   "side": "pqtl",
+   "name_as_written": "deCODE Health Study",
+   "value": "deCODE SomaScan v4 (Ferkingstad 2021)",
+   "unresolved_reason": null,
+   "identification_basis": "reference_entry",
+   "source_read": "full_text",
+   "passage_id": "p001",
+   "quote": "The association between circulating protein levels and genetic variants was assessed in 35 571 participants in the UK Biobank using the Olink Explore 3072 platform, measuring 2941 protein analytes, capturing 2923 unique proteins,26 and in 35 559 participants in the Icelandic Cancer Project and deCODE Health Study using the SomaScan version 4 platform, measuring 4907 aptamers, capturing 4719 proteins.27",
+   "citations_claim": "claims/40037332.yaml#pqtl_2",
+   "companion_source": true,
+   "reference_label": "27",
+   "reference_quote": "Ferkingstad E , Sulem P , Atlason BA , et al Large-scale integration of the plasma proteome with genetics and disease . Nat Genet . 2021 ; 53 : 1712 – 1721 . 34857953 10.1038/s41588-021-00978-w",
+   "reference_citations_claim": "claims/40037332.references.yaml#pqtl_2_ref",
+   "dataset_named_in_source": null,
+   "coder_note": "Sentence attributes the SomaScan version 4 associations in 35 559 Icelandic participants to citation 27; the entry DOI is the Ferkingstad 2021 row source only."
+  }
+ ]
+}

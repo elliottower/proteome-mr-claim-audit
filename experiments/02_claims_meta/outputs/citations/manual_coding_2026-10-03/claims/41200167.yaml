@@ -1,0 +1,43 @@
+source:
+  citation: '41200167'
+  local: sources/41200167.txt
+  sha256: a6929865c921cb5624f9d84ee36107d9959a21db727e2dec4a82c2ddfda611e1
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12586143/fullTextXML
+  note: body as scripts/fetch_fulltext.py rendered it
+claims:
+  pqtl_2:
+    quotes:
+    - exact: The deCODE study provided pQTL data for 4,907 plasma proteins, measured in 35,559 Icelandic
+        individuals using the SomaScan v4 platform.
+  outcome_1_a2:
+    quotes:
+    - exact: The outcome involved obtaining phenotypic data from the Finnish database in version R10,
+        encompassing 2408 phenotypes categorized into 46 groups.
+  pqtl_2_a2:
+    quotes:
+    - exact: The deCODE study provided pQTL data for 4,907 plasma proteins, measured in 35,559 Icelandic
+        individuals using the SomaScan v4 platform.
+  pqtl_2_a3:
+    quotes:
+    - exact: The deCODE study provided pQTL data for 4,907 plasma proteins, measured in 35,559 Icelandic
+        individuals using the SomaScan v4 platform.
+  outcome_1_c2:
+    quotes:
+    - exact: 'GWAS data for AML were obtained from two datasets: the UK Biobank (cases = 220, controls
+        = 456,128) and the FinnGen cohort (cases = 244, controls = 314,192). pQTL data were sourced from
+        two studies: the Icelandic deCODE Genetics study (deCODE) and the UK Biobank Pharma Proteomics
+        Project (UKB-PPP).'
+  outcome_2_c2:
+    quotes:
+    - exact: 'GWAS data for AML were obtained from two datasets: the UK Biobank (cases = 220, controls
+        = 456,128) and the FinnGen cohort (cases = 244, controls = 314,192). pQTL data were sourced from
+        two studies: the Icelandic deCODE Genetics study (deCODE) and the UK Biobank Pharma Proteomics
+        Project (UKB-PPP).'
+  pqtl_1_c2:
+    quotes:
+    - exact: The UKB-PPP dataset included detailed pQTL mapping for 4,572 proteins, measured in 54,219
+        participants from the UK Biobank using the Olink platform.
+  pqtl_2_c2:
+    quotes:
+    - exact: The deCODE study provided pQTL data for 4,907 plasma proteins, measured in 35,559 Icelandic
+        individuals using the SomaScan v4 platform.

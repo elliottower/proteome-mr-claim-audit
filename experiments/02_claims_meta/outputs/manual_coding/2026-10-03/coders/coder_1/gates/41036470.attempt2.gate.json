@@ -1,0 +1,39 @@
+{
+ "record_id": "41036470",
+ "coder_id": "coder_1",
+ "attempt": 2,
+ "rows": [
+  {
+   "side": "pqtl",
+   "name_as_written": "UK Biobank Pharma Proteomics Project",
+   "value": "not_stated_in_source",
+   "passes": true,
+   "failures": [],
+   "warnings": [],
+   "machine_basis": [],
+   "reference_verified_by": null
+  },
+  {
+   "side": "pqtl",
+   "name_as_written": "deCODE genetics",
+   "value": "deCODE SomaScan v4 (Ferkingstad 2021)",
+   "passes": true,
+   "failures": [],
+   "warnings": [],
+   "machine_basis": [
+    "aliases:deCODE",
+    "aliases:deCODE genetics",
+    "source_citation:Ferkingstad|2021",
+    "source_identifier:10.1038/s41588-021-00978-w",
+    "source_identifier:34857953",
+    "sample_size:35559+2021"
+   ],
+   "reference_verified_by": "doi"
+  }
+ ],
+ "rows_not_coded_once": [],
+ "rows_not_given": [],
+ "wrong_coder": false,
+ "passes": true,
+ "gated_utc": "20261007T185248Z"
+}

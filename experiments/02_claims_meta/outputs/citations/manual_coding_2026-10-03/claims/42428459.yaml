@@ -1,0 +1,37 @@
+source:
+  citation: '42428459'
+  local: sources/42428459.txt
+  sha256: e3373d8f557f32455767f589b6ad55c4d395c872507c16cd6ac98ec50eff4940
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13345796/fullTextXML
+  note: body as scripts/fetch_fulltext.py rendered it
+claims:
+  pqtl_2:
+    quotes:
+    - exact: The eQTL dataset, comprising genomic regulatory variants for 16,989 genes, was generated
+        through large-scale analysis of 31,684 peripheral blood samples from healthy individuals of European
+        ancestry by the eQTLGen Consortium (https://eqtlgen.org/) (11).
+  pqtl_2_a2:
+    quotes:
+    - exact: The eQTL dataset, comprising genomic regulatory variants for 16,989 genes, was generated
+        through large-scale analysis of 31,684 peripheral blood samples from healthy individuals of European
+        ancestry by the eQTLGen Consortium (https://eqtlgen.org/) (11).
+  pqtl_2_a3:
+    quotes:
+    - exact: The eQTL dataset, comprising genomic regulatory variants for 16,989 genes, was generated
+        through large-scale analysis of 31,684 peripheral blood samples from healthy individuals of European
+        ancestry by the eQTLGen Consortium (https://eqtlgen.org/) (11).
+  pqtl_2_a4:
+    quotes:
+    - exact: The eQTL dataset, comprising genomic regulatory variants for 16,989 genes, was generated
+        through large-scale analysis of 31,684 peripheral blood samples from healthy individuals of European
+        ancestry by the eQTLGen Consortium (https://eqtlgen.org/) (11).
+  pqtl_1_c2:
+    quotes:
+    - exact: This large-scale study systematically analyzed plasma protein profiles across 54,219 UK Biobank
+        participants, identifying 14,287 statistically significant genetic associations through genome-wide
+        pQTL mapping of 2,923 distinct proteins (10).
+  pqtl_2_c2:
+    quotes:
+    - exact: The eQTL dataset, comprising genomic regulatory variants for 16,989 genes, was generated
+        through large-scale analysis of 31,684 peripheral blood samples from healthy individuals of European
+        ancestry by the eQTLGen Consortium (https://eqtlgen.org/) (11).

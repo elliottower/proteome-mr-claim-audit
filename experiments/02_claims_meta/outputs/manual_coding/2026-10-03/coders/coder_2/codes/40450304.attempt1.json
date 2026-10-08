@@ -1,0 +1,58 @@
+{
+ "record_id": "40450304",
+ "coder_id": "coder_2",
+ "attempt": 1,
+ "rows": [
+  {
+   "side": "outcome",
+   "name_as_written": "FinnGen database",
+   "value": "not_stated_in_source",
+   "unresolved_reason": "release_not_identified",
+   "identification_basis": null,
+   "source_read": null,
+   "passage_id": null,
+   "quote": null,
+   "citations_claim": null,
+   "companion_source": false,
+   "reference_label": null,
+   "reference_quote": null,
+   "reference_citations_claim": null,
+   "dataset_named_in_source": null,
+   "coder_note": "The abstract passage given for this row names the FinnGen database with no release identifier."
+  },
+  {
+   "side": "pqtl",
+   "name_as_written": "UKB-PPP",
+   "value": "not_stated_in_source",
+   "unresolved_reason": "release_not_identified",
+   "identification_basis": null,
+   "source_read": null,
+   "passage_id": null,
+   "quote": null,
+   "citations_claim": null,
+   "companion_source": false,
+   "reference_label": null,
+   "reference_quote": null,
+   "reference_citations_claim": null,
+   "dataset_named_in_source": null,
+   "coder_note": "UKB-PPP is given with 54,219 participants and reference 10; the sample size is no candidate row's and the cited paper supports several candidate releases."
+  },
+  {
+   "side": "pqtl",
+   "name_as_written": "deCODE database",
+   "value": "deCODE SomaScan v4 (Ferkingstad 2021)",
+   "unresolved_reason": null,
+   "identification_basis": "reference_entry",
+   "source_read": "full_text",
+   "passage_id": "p001",
+   "quote": "We obtained summary statistics of the genetic associations with plasma protein levels from a study of Ferkingstad et al. (https://www.decode.com/summarydata/) [9] and the UK Biobank Pharma Proteomics Project (UKB-PPP)( https://registry.opendata.aws/ukbppp/) [10].",
+   "citations_claim": "claims/40450304.yaml#pqtl_2",
+   "companion_source": true,
+   "reference_label": "9",
+   "reference_quote": "Ferkingstad E Sulem P Atlason BA Large-scale integration of the plasma proteome with genetics and disease[J] Nat Genet 2021 53 12 1712 21 10.1038/s41588-021-00978-w 34857953",
+   "reference_citations_claim": "claims/40450304.references.yaml#pqtl_2_ref",
+   "dataset_named_in_source": null,
+   "coder_note": "Sentence attributes the protein summary statistics to the study of Ferkingstad et al., reference 9, whose DOI is the source identifier of one dictionary row only; the next sentence gives 35,559 Icelanders, that row's sample size."
+  }
+ ]
+}

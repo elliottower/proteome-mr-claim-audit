@@ -1,0 +1,52 @@
+{
+ "record_id": "42541384",
+ "coder_id": "coder_3",
+ "attempt": 1,
+ "rows": [
+  {
+   "side": "outcome",
+   "name_as_written": "FinnGen",
+   "value": "FinnGen R10",
+   "passes": false,
+   "failures": [
+    "no_identifier_of_the_coded_row_in_the_pinned_material"
+   ],
+   "warnings": [],
+   "machine_basis": [],
+   "reference_verified_by": null
+  },
+  {
+   "side": "outcome",
+   "name_as_written": "GCST90044196",
+   "value": "source_names_dataset_absent_from_dictionary",
+   "passes": true,
+   "failures": [],
+   "warnings": [],
+   "machine_basis": [],
+   "reference_verified_by": null
+  },
+  {
+   "side": "pqtl",
+   "name_as_written": "INTERVAL",
+   "value": "INTERVAL SomaScan (Sun 2018)",
+   "passes": true,
+   "failures": [],
+   "warnings": [],
+   "machine_basis": [
+    "aliases:INTERVAL",
+    "aliases:Genomic atlas of the human plasma proteome",
+    "source_citation:Sun|2018",
+    "source_identifier:10.1038/s41586-018-0175-2",
+    "source_identifier:29875488",
+    "source_identifier:PMC6697541",
+    "sample_size:3301+2018"
+   ],
+   "reference_verified_by": "doi"
+  }
+ ],
+ "rows_not_coded_once": [],
+ "rows_not_given": [],
+ "wrong_coder": false,
+ "passes": false,
+ "gated_utc": "20261007T182759Z"
+}

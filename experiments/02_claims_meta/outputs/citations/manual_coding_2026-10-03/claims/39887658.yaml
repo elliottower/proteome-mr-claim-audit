@@ -1,0 +1,31 @@
+source:
+  citation: '39887658'
+  local: sources/39887658.txt
+  sha256: 0d59de572f75aecd839f41288238b2f120ee679c26429d7cb0e3f59539d8232a
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12209750/fullTextXML
+  note: body as scripts/fetch_fulltext.py rendered it
+claims:
+  outcome_1_a2:
+    quotes:
+    - exact: The work described herein was approved by the UK Biobank under application 23652.
+  outcome_1_a3:
+    quotes:
+    - exact: 'The case definition of rheumatoid arthritis in the UK Biobank cohort was based on any of
+        three criteria: (1) hospital discharge or death certificate with an International Classification
+        of Diseases diagnostic code for rheumatoid arthritis; (2) any primary care diagnosis of rheumatoid
+        arthritis; or (3) self‐reported diagnosis of rheumatoid arthritis supported by prescription of
+        a disease‐modifying antirheumatic drug at baseline or during follow‐up.'
+  outcome_1_a4:
+    quotes:
+    - exact: 'The case definition of rheumatoid arthritis in the UK Biobank cohort was based on any of
+        three criteria: (1) hospital discharge or death certificate with an International Classification
+        of Diseases diagnostic code for rheumatoid arthritis; (2) any primary care diagnosis of rheumatoid
+        arthritis; or (3) self‐reported diagnosis of rheumatoid arthritis supported by prescription of
+        a disease‐modifying antirheumatic drug at baseline or during follow‐up.'
+  outcome_1_c2:
+    quotes:
+    - exact: 'The case definition of rheumatoid arthritis in the UK Biobank cohort was based on any of
+        three criteria: (1) hospital discharge or death certificate with an International Classification
+        of Diseases diagnostic code for rheumatoid arthritis; (2) any primary care diagnosis of rheumatoid
+        arthritis; or (3) self‐reported diagnosis of rheumatoid arthritis supported by prescription of
+        a disease‐modifying antirheumatic drug at baseline or during follow‐up.'

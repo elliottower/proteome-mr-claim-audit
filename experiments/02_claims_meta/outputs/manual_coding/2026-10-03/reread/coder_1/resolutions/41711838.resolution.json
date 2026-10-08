@@ -1,0 +1,14 @@
+{"record_id": "41711838", "coder_id": "coder_1",
+ "rows": [
+  {"row": "pqtl_1",
+   "resolved_value": "deCODE SomaScan v4 (Ferkingstad 2021)",
+   "unresolved_reason": null,
+   "resolution_note": "The sentence attributes the plasma protein data to 'Ferkingstad et al.'s research' with n = 35,559: the named source study and the exact sample size together match exactly one pQTL dictionary row, and the preceding sentence's 4,907 plasma proteins agrees with it; nothing conflicts. The abstract has no reference list, so the row rests on the sentence itself and is not a companion-source code.",
+   "identification_basis": "unique_citation",
+   "source_read": "abstract",
+   "passage_id": "p001",
+   "quote": "The plasma protein data used in this study were derived from Ferkingstad et al.'s research (n = 35,559), and OSA-related data were obtained from genome-wide association studies (GWAS) conducted on European populations through Finland's biobank (FinnGen).",
+   "citations_claim": "claims/41711838.yaml#pqtl_1_r",
+   "companion_source": false,
+   "reference_label": null, "reference_quote": null, "reference_citations_claim": null,
+   "dataset_named_in_source": null}]}

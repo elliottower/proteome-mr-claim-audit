@@ -1,0 +1,22 @@
+{
+ "record_id": "41200820",
+ "coder_id": "coder_2",
+ "rows": [
+  {
+   "row": "pqtl_1",
+   "resolved_value": "UKB-PPP full cohort (combined)",
+   "unresolved_reason": null,
+   "resolution_note": "p001 sentence 2 attributes the pQTLs to UKB-PPP with citation 14 (Sun 2023, DOI 10.1038/s41586-023-06592-6, the source of four pqtl rows); the adjacent sentence 3, one description with it (rule F), takes the instruments 'from the complete UKB-PPP cohort', the subcohort attribute that separates the full cohort from discovery, replication and ancestry-specific (rule E). The 54 219 individuals of sentence 2 equals no row's N and is not a conflict (rule H). Note for the gates: the citation mark is in sentence 2, the separating attribute in the pinned sentence 3.",
+   "identification_basis": "reference_entry",
+   "source_read": "full_text",
+   "passage_id": "p001",
+   "quote": "We used only the sentinel cis-pQTL with the lowest P value (P<1.7×10−11) from the complete UKB-PPP cohort for each protein as IVs to reduce the risk of horizontal pleiotropy.",
+   "citations_claim": "claims/41200820.yaml#pqtl_1_r",
+   "companion_source": true,
+   "reference_label": "14",
+   "reference_quote": "Sun BB, Chiou J, Traylor M, Benner C, Hsu YH, Richardson TG, Surendran P, Mahajan A, Robins C, Vasquez-Grinnell SG, et al. ; Alnylam Human Genetics. Plasma proteomic associations with genetics and health in the UK Biobank. Nature. 2023;622:329–338. doi: 10.1038/s41586-023-06592-6",
+   "reference_citations_claim": "claims/41200820.references.yaml#pqtl_1_r_ref",
+   "dataset_named_in_source": null
+  }
+ ]
+}

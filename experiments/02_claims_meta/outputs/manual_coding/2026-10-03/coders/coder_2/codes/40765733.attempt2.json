@@ -1,0 +1,41 @@
+{
+ "record_id": "40765733",
+ "coder_id": "coder_2",
+ "attempt": 2,
+ "rows": [
+  {
+   "side": "outcome",
+   "name_as_written": "FinnGen database (v11)",
+   "value": "not_stated_in_source",
+   "unresolved_reason": "release_not_identified",
+   "identification_basis": null,
+   "source_read": null,
+   "passage_id": null,
+   "quote": null,
+   "citations_claim": null,
+   "companion_source": false,
+   "reference_label": null,
+   "reference_quote": null,
+   "reference_citations_claim": null,
+   "dataset_named_in_source": null,
+   "coder_note": "Reread after the gate failure. The row has one passage; its only sentence on the dataset writes a version label (v11) with case and control counts. That label is not a release identifier of a dictionary row as the dictionary writes them, the counts equal no release sample size, and no other sentence of the row's passages names a release. Left unresolved rather than read the version label as a release number."
+  },
+  {
+   "side": "pqtl",
+   "name_as_written": "genome-wide Association Studies (GWAS) catalog of the European Institute for Bioinformatics (EBI)",
+   "value": "not_stated_in_source",
+   "unresolved_reason": "release_not_identified",
+   "identification_basis": null,
+   "source_read": null,
+   "passage_id": null,
+   "quote": null,
+   "citations_claim": null,
+   "companion_source": false,
+   "reference_label": null,
+   "reference_quote": null,
+   "reference_citations_claim": null,
+   "dataset_named_in_source": null,
+   "coder_note": "Reread both passages. The inflammatory factor dataset is given by a GWAS Catalog accession range that appears in no dictionary row's definition; references 17, 18 and 21 carry identifiers of no dictionary row, and no sample size, platform or study name is stated for the dataset."
+  }
+ ]
+}

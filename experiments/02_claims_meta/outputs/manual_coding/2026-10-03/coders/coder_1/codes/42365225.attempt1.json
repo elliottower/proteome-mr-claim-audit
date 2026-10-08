@@ -1,0 +1,58 @@
+{
+ "record_id": "42365225",
+ "coder_id": "coder_1",
+ "attempt": 1,
+ "rows": [
+  {
+   "side": "outcome",
+   "name_as_written": "ebi-a-GCST90013904",
+   "value": "source_names_dataset_absent_from_dictionary",
+   "unresolved_reason": "dataset_absent_from_dictionary",
+   "identification_basis": null,
+   "source_read": "full_text",
+   "passage_id": "p001",
+   "quote": "Outcome data for RP were obtained from the MRC IEU OpenGWAS database (Elsworth et al. 2020), and the following three independent GWAS datasets were utilized: ebi-a-GCST90018912 (121 cases and 126,333 controls), ebi-a-GCST90013904, and ebi-a-GCST90013954 (each with 403,833 total samples).",
+   "citations_claim": "claims/42365225.yaml#outcome_1",
+   "companion_source": false,
+   "reference_label": null,
+   "reference_quote": null,
+   "reference_citations_claim": null,
+   "dataset_named_in_source": "ebi-a-GCST90013904",
+   "coder_note": "Sentence names the outcome dataset by accession ebi-a-GCST90013904; no dictionary row lists it or covers it in an accession range."
+  },
+  {
+   "side": "outcome",
+   "name_as_written": "ebi-a-GCST90013954",
+   "value": "source_names_dataset_absent_from_dictionary",
+   "unresolved_reason": "dataset_absent_from_dictionary",
+   "identification_basis": null,
+   "source_read": "full_text",
+   "passage_id": "p001",
+   "quote": "Outcome data for RP were obtained from the MRC IEU OpenGWAS database (Elsworth et al. 2020), and the following three independent GWAS datasets were utilized: ebi-a-GCST90018912 (121 cases and 126,333 controls), ebi-a-GCST90013904, and ebi-a-GCST90013954 (each with 403,833 total samples).",
+   "citations_claim": "claims/42365225.yaml#outcome_2",
+   "companion_source": false,
+   "reference_label": null,
+   "reference_quote": null,
+   "reference_citations_claim": null,
+   "dataset_named_in_source": "ebi-a-GCST90013954",
+   "coder_note": "Sentence names the outcome dataset by accession ebi-a-GCST90013954; no dictionary row lists it or covers it in an accession range."
+  },
+  {
+   "side": "outcome",
+   "name_as_written": "ebi-a-GCST90018912",
+   "value": "Sakaue 2021 BBJ (220 traits)",
+   "unresolved_reason": null,
+   "identification_basis": "release_identifier",
+   "source_read": "full_text",
+   "passage_id": "p001",
+   "quote": "Outcome data for RP were obtained from the MRC IEU OpenGWAS database (Elsworth et al. 2020), and the following three independent GWAS datasets were utilized: ebi-a-GCST90018912 (121 cases and 126,333 controls), ebi-a-GCST90013904, and ebi-a-GCST90013954 (each with 403,833 total samples).",
+   "citations_claim": "claims/42365225.yaml#outcome_3",
+   "companion_source": false,
+   "reference_label": null,
+   "reference_quote": null,
+   "reference_citations_claim": null,
+   "dataset_named_in_source": null,
+   "coder_note": "Sentence names the outcome dataset by accession ebi-a-GCST90018912, which lies inside the GWAS Catalog accession range GCST90018563 to GCST90019002 given in the release field of one dictionary row only. The match is by range membership, not a literal string; flagged for the checker."
+  }
+ ]
+}

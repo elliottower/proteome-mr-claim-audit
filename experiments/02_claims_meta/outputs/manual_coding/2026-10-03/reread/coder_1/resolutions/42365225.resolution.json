@@ -1,0 +1,14 @@
+{"record_id": "42365225", "coder_id": "coder_1",
+ "rows": [
+  {"row": "outcome_3",
+   "resolved_value": "Sakaue 2021 BBJ (220 traits)",
+   "unresolved_reason": null,
+   "resolution_note": "Rule C4, first case: the accession ebi-a-GCST90018912 lies inside the GWAS Catalog range GCST90018563-GCST90019002 that this dictionary row and no other lists; the sentence states no ancestry, and its 121 cases and 126,333 controls (126,454) are within the row's 'up to 178,726', so nothing conflicts. The table row lines repeat the same accession only.",
+   "identification_basis": "source_identifier",
+   "source_read": "full_text",
+   "passage_id": "p001",
+   "quote": "Outcome data for RP were obtained from the MRC IEU OpenGWAS database (Elsworth et al. 2020), and the following three independent GWAS datasets were utilized: ebi-a-GCST90018912 (121 cases and 126,333 controls), ebi-a-GCST90013904, and ebi-a-GCST90013954 (each with 403,833 total samples).",
+   "citations_claim": "claims/42365225.yaml#outcome_3_r",
+   "companion_source": false,
+   "reference_label": null, "reference_quote": null, "reference_citations_claim": null,
+   "dataset_named_in_source": null}]}

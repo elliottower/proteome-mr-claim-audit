@@ -1,0 +1,87 @@
+source:
+  citation: '41940328'
+  local: sources/41940328.txt
+  sha256: df15a96e36cb2b4b36502f415206f048eaeaf22ebc65118e1e2b13899aec0b87
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13049426/fullTextXML
+  note: body as scripts/fetch_fulltext.py rendered it
+claims:
+  outcome_2:
+    quotes:
+    - exact: 'FinnGen cohort: The FinnGen R9 release includes genetic and health data
+        from Finnish biobank participants.'
+  pqtl_1:
+    quotes:
+    - exact: '[Table] REAGENT or RESOURCE: DeCODE genetics plasma protein QTL summary
+        statistics | SOURCE: Ferkingstad et al.28 | IDENTIFIER: https://doi.org/10.1038/s41588-021-00978-w'
+  outcome_2_a2:
+    quotes:
+    - exact: 'FinnGen cohort: The FinnGen R9 release includes genetic and health data
+        from Finnish biobank participants.'
+  pqtl_1_a2:
+    quotes:
+    - exact: '[Table] REAGENT or RESOURCE: DeCODE genetics plasma protein QTL summary
+        statistics | SOURCE: Ferkingstad et al.28 | IDENTIFIER: https://doi.org/10.1038/s41588-021-00978-w'
+  outcome_2_a3:
+    quotes:
+    - exact: 'FinnGen cohort: The FinnGen R9 release includes genetic and health data
+        from Finnish biobank participants.'
+  outcome_1_a3:
+    quotes:
+    - exact: '[Table] REAGENT or RESOURCE: Breast Cancer Association Consortium (BCAC)
+        OncoArray GWAS summary statistics | SOURCE: Zhang et al.31 | IDENTIFIER: https://doi.org/10.1038/s41588-020-0609-2'
+  pqtl_1_a3:
+    quotes:
+    - exact: '[Table] REAGENT or RESOURCE: DeCODE genetics plasma protein QTL summary
+        statistics | SOURCE: Ferkingstad et al.28 | IDENTIFIER: https://doi.org/10.1038/s41588-021-00978-w'
+  outcome_2_a4:
+    quotes:
+    - exact: 'FinnGen cohort: The FinnGen R9 release includes genetic and health data
+        from Finnish biobank participants.'
+  pqtl_1_a4:
+    quotes:
+    - exact: The pQTL data for the discovery cohort were obtained from the DeCODE
+        genetics study (35,559 individuals; 4,907 aptamers via SomaScan).28 The replication
+        pQTL data were obtained from the UK Biobank Proteomics Project (UKBPPP, 54,219
+        individuals; Olink platform).29 BC risk GWAS summary statistics were sourced
+        from FinnGen,30 BCAC OncoArray,31 and BCAC iCOGS.31
+      prefix: and code availability This study analyzes existing, publicly available
+        data.
+      suffix: This paper does not report original code. All analyses were performed
+        using
+  outcome_1_c2:
+    quotes:
+    - exact: The pQTL data for the discovery cohort were obtained from the DeCODE
+        genetics study (35,559 individuals; 4,907 aptamers via SomaScan).28 The replication
+        pQTL data were obtained from the UK Biobank Proteomics Project (UKBPPP, 54,219
+        individuals; Olink platform).29 BC risk GWAS summary statistics were sourced
+        from FinnGen,30 BCAC OncoArray,31 and BCAC iCOGS.31
+      prefix: and code availability This study analyzes existing, publicly available
+        data.
+      suffix: This paper does not report original code. All analyses were performed
+        using
+  outcome_2_c2:
+    quotes:
+    - exact: 'FinnGen cohort: The FinnGen R9 release includes genetic and health data
+        from Finnish biobank participants.'
+  pqtl_1_c2:
+    quotes:
+    - exact: The pQTL data for the discovery cohort were obtained from the DeCODE
+        genetics study (35,559 individuals; 4,907 aptamers via SomaScan).28 The replication
+        pQTL data were obtained from the UK Biobank Proteomics Project (UKBPPP, 54,219
+        individuals; Olink platform).29 BC risk GWAS summary statistics were sourced
+        from FinnGen,30 BCAC OncoArray,31 and BCAC iCOGS.31
+      prefix: and code availability This study analyzes existing, publicly available
+        data.
+      suffix: This paper does not report original code. All analyses were performed
+        using
+  pqtl_2_c2:
+    quotes:
+    - exact: The pQTL data for the discovery cohort were obtained from the DeCODE
+        genetics study (35,559 individuals; 4,907 aptamers via SomaScan).28 The replication
+        pQTL data were obtained from the UK Biobank Proteomics Project (UKBPPP, 54,219
+        individuals; Olink platform).29 BC risk GWAS summary statistics were sourced
+        from FinnGen,30 BCAC OncoArray,31 and BCAC iCOGS.31
+      prefix: and code availability This study analyzes existing, publicly available
+        data.
+      suffix: This paper does not report original code. All analyses were performed
+        using

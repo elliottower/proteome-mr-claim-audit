@@ -1,0 +1,24 @@
+source:
+  citation: '40001646'
+  local: sources/40001646.txt
+  sha256: 69fa0278a1ae9373b7c823ea7c95a62cfc24e359affc9e6f34ee11b5660bd961
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11852220/fullTextXML
+  note: body as scripts/fetch_fulltext.py rendered it
+claims:
+  outcome_1:
+    quotes:
+    - exact: The data for a genome-wide association study (GWAS) on SNHL were sourced from the R9 version
+        of the FinnGen database (https://r9.finngen.fi, accessed on 21 April 2024) [13].
+  outcome_1_a2:
+    quotes:
+    - exact: The data for a genome-wide association study (GWAS) on SNHL were sourced from the R9 version
+        of the FinnGen database (https://r9.finngen.fi, accessed on 21 April 2024) [13].
+  outcome_1_c2:
+    quotes:
+    - exact: The data for a genome-wide association study (GWAS) on SNHL were sourced from the R9 version
+        of the FinnGen database (https://r9.finngen.fi, accessed on 21 April 2024) [13].
+  pqtl_1_c2:
+    quotes:
+    - exact: The data for the pQTLs of plasma proteins were obtained from the UK Biobank Pharma Proteomics
+        Project (UKB-PPP database) (https://www.synapse.org/#!Synapse:syn51365301) and accessed on 21
+        April 2024.

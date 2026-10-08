@@ -1,0 +1,58 @@
+{
+ "record_id": "39314522",
+ "coder_id": "coder_1",
+ "attempt": 1,
+ "rows": [
+  {
+   "side": "outcome",
+   "name_as_written": "FinnGen biobank",
+   "value": "not_stated_in_source",
+   "unresolved_reason": "release_not_identified",
+   "identification_basis": null,
+   "source_read": null,
+   "passage_id": null,
+   "quote": null,
+   "citations_claim": null,
+   "companion_source": false,
+   "reference_label": null,
+   "reference_quote": null,
+   "reference_citations_claim": null,
+   "dataset_named_in_source": null,
+   "coder_note": "Passages given for this row state FinnGen biobank with endpoint counts only, no release; a FinnGen file name with a release appears only in a passage given for another row of the paper."
+  },
+  {
+   "side": "outcome",
+   "name_as_written": "genome-wide association study catalog",
+   "value": "not_stated_in_source",
+   "unresolved_reason": "release_not_identified",
+   "identification_basis": null,
+   "source_read": null,
+   "passage_id": null,
+   "quote": null,
+   "citations_claim": null,
+   "companion_source": false,
+   "reference_label": null,
+   "reference_quote": null,
+   "reference_citations_claim": null,
+   "dataset_named_in_source": null,
+   "coder_note": "Abstract names only the GWAS Catalog repository with counts; no study, accession or citation."
+  },
+  {
+   "side": "pqtl",
+   "name_as_written": "DECODE Genetics",
+   "value": "deCODE SomaScan v4 (Ferkingstad 2021)",
+   "unresolved_reason": null,
+   "identification_basis": "exact_n_with_platform_or_year",
+   "source_read": "full_text",
+   "passage_id": "p001",
+   "quote": "The pQTL data were obtained via DECODE Genetics, which determined 4,907 proteins in 35,559 European ancestry individuals through the SomaScan assay v.4 (SomaLogic) (23).",
+   "citations_claim": "claims/39314522.yaml#pqtl_1",
+   "companion_source": false,
+   "reference_label": null,
+   "reference_quote": null,
+   "reference_citations_claim": null,
+   "dataset_named_in_source": null,
+   "coder_note": "Sentence gives exact N 35,559 with SomaScan assay v.4 and 4,907 proteins for the deCODE pQTL data, matching one row; its citation 23 carries that row DOI."
+  }
+ ]
+}

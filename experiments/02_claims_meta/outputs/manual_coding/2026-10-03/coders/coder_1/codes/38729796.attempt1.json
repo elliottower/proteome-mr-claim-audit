@@ -1,0 +1,41 @@
+{
+ "record_id": "38729796",
+ "coder_id": "coder_1",
+ "attempt": 1,
+ "rows": [
+  {
+   "side": "outcome",
+   "name_as_written": "FinnGen",
+   "value": "FinnGen R9",
+   "unresolved_reason": null,
+   "identification_basis": "release_identifier",
+   "source_read": "full_text",
+   "passage_id": "p001",
+   "quote": "The genome-wide association study (GWAS) summarised data for periodontitis were provided by FinnGen consortium R9 release.17 This study included 346,900 controls and 30,377 clinical periodontitis individuals (ICD-10 K05.30, K05.31, K05.4).",
+   "citations_claim": "claims/38729796.yaml#outcome_1",
+   "companion_source": false,
+   "reference_label": null,
+   "reference_quote": null,
+   "reference_citations_claim": null,
+   "dataset_named_in_source": null,
+   "coder_note": "Passage line states FinnGen consortium R9 release for the outcome GWAS."
+  },
+  {
+   "side": "outcome",
+   "name_as_written": "UK Biobank",
+   "value": "source_names_dataset_absent_from_dictionary",
+   "unresolved_reason": "dataset_absent_from_dictionary",
+   "identification_basis": null,
+   "source_read": "full_text",
+   "passage_id": "p001",
+   "quote": "The detailed GWAS information is shown in the original paper.18 For external validation, data on protein Quantitative Trait Loci (pQTLs) were obtained from the UK Biobank.19",
+   "citations_claim": "claims/38729796.yaml#outcome_2",
+   "companion_source": false,
+   "reference_label": null,
+   "reference_quote": null,
+   "reference_citations_claim": null,
+   "dataset_named_in_source": "UK Biobank",
+   "coder_note": "Row is on the outcome side, but the passages name UK Biobank as the source of validation pQTL data (citation 19); no outcome dictionary row is that dataset."
+  }
+ ]
+}

@@ -1,0 +1,24 @@
+{
+ "record_id": "38637810",
+ "coder_id": "coder_1",
+ "attempt": 1,
+ "rows": [
+  {
+   "side": "pqtl",
+   "name_as_written": "deCODE Genetics",
+   "value": "deCODE SomaScan v4 (Ferkingstad 2021)",
+   "unresolved_reason": null,
+   "identification_basis": "reference_entry",
+   "source_read": "full_text",
+   "passage_id": "p001",
+   "quote": "These pQTLs establish connections between plasma protein levels and 373 diseases and other traits based on genetic variations [25].",
+   "citations_claim": "claims/38637810.yaml#pqtl_1",
+   "companion_source": true,
+   "reference_label": "25",
+   "reference_quote": "Ferkingstad E Sulem P Atlason BA Sveinbjornsson G Magnusson MI Styrmisdottir EL Large-scale integration of the plasma proteome with genetics and disease Nat Genet 2021 53 1712 1721 10.1038/s41588-021-00978-w 34857953",
+   "reference_citations_claim": "claims/38637810.references.yaml#pqtl_1_ref",
+   "dataset_named_in_source": null,
+   "coder_note": "Passage describes the deCODE pQTL study (35559 Icelanders, 4907 proteins in the preceding sentence) and this sentence cites it as 25, whose DOI is the source DOI of exactly one dictionary row."
+  }
+ ]
+}

@@ -1,0 +1,58 @@
+{
+ "record_id": "40913361",
+ "coder_id": "coder_1",
+ "attempt": 1,
+ "rows": [
+  {
+   "side": "outcome",
+   "name_as_written": "Gene-Lifestyle Interactions in Dental Endpoints consortium",
+   "value": "source_names_dataset_absent_from_dictionary",
+   "unresolved_reason": "dataset_absent_from_dictionary",
+   "identification_basis": null,
+   "source_read": "abstract_fallback_after_fulltext_no_match",
+   "passage_id": "p001",
+   "quote": "Findings were replicated using GWAS data from the Gene-Lifestyle Interactions in Dental Endpoints consortium.",
+   "citations_claim": "claims/40913361.abstract.yaml#outcome_1",
+   "companion_source": false,
+   "reference_label": null,
+   "reference_quote": null,
+   "reference_citations_claim": null,
+   "dataset_named_in_source": "Gene-Lifestyle Interactions in Dental Endpoints consortium",
+   "coder_note": "Abstract names the GLIDE consortium periodontitis GWAS as replication data; no dictionary row is for it."
+  },
+  {
+   "side": "outcome",
+   "name_as_written": "Million Veteran Program",
+   "value": "source_names_dataset_absent_from_dictionary",
+   "unresolved_reason": "dataset_absent_from_dictionary",
+   "identification_basis": null,
+   "source_read": "full_text",
+   "passage_id": "p001",
+   "quote": "Using summary statistics from a large‐scale protein quantitative trait loci (pQTL) study of 4719 circulating proteins in Icelandic individuals (Ferkingstad et al. 2021) and GWAS data for periodontitis from the Veterans Affairs Million Veteran Program (VA‐MVP), we aimed to gain genetic insights into protein targets involved in the pathogenesis of periodontitis.",
+   "citations_claim": "claims/40913361.yaml#outcome_2",
+   "companion_source": false,
+   "reference_label": null,
+   "reference_quote": null,
+   "reference_citations_claim": null,
+   "dataset_named_in_source": "Veterans Affairs Million Veteran Program",
+   "coder_note": "Sentence names the periodontitis GWAS from the Million Veteran Program; no dictionary row is that dataset."
+  },
+  {
+   "side": "pqtl",
+   "name_as_written": "deCODE genetics",
+   "value": "deCODE SomaScan v4 (Ferkingstad 2021)",
+   "unresolved_reason": null,
+   "identification_basis": "reference_entry",
+   "source_read": "full_text",
+   "passage_id": "p001",
+   "quote": "Using summary statistics from a large‐scale protein quantitative trait loci (pQTL) study of 4719 circulating proteins in Icelandic individuals (Ferkingstad et al. 2021) and GWAS data for periodontitis from the Veterans Affairs Million Veteran Program (VA‐MVP), we aimed to gain genetic insights into protein targets involved in the pathogenesis of periodontitis.",
+   "citations_claim": "claims/40913361.yaml#pqtl_1",
+   "companion_source": true,
+   "reference_label": "jcpe70032-bib-0011",
+   "reference_quote": "Ferkingstad , E. , P. Sulem , B. A. Atlason , et al. 2021 . “ Large‐Scale Integration of the Plasma Proteome With Genetics and Disease .” Nature Genetics 53 , no. 12 : 1712 – 1721 . 10.1038/s41588-021-00978-w . 34857953",
+   "reference_citations_claim": "claims/40913361.references.yaml#pqtl_1_ref",
+   "dataset_named_in_source": null,
+   "coder_note": "Sentence attributes the Icelandic pQTL summary statistics to Ferkingstad et al. 2021, whose entry carries the source DOI of exactly one dictionary row; another passage gives 35,559 Icelanders and SOMAscan version 4.0."
+  }
+ ]
+}

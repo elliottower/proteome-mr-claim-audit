@@ -1,0 +1,50 @@
+source:
+  citation: '42282992'
+  local: sources/42282992.txt
+  sha256: 87f33248038b71346909e5d4cce0f356a9af29b5f8369bbb9ff2bff0e11e20b4
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13250469/fullTextXML
+  note: body as scripts/fetch_fulltext.py rendered it
+claims:
+  outcome_1:
+    quotes:
+    - exact: PC GWAS summary statistics were obtained from FinnGen release R12 [27], comprising approximately
+        3100 PC cases and 378,000 controls of European descent.
+  pqtl_2:
+    quotes:
+    - exact: Genetic association summary statistics for plasma protein levels were extracted from the
+        Icelandic deCODE plasma proteome GWAS [14], which measured 4900 plasma proteins in 35,559 participants
+        and identified extensive pQTL signals.
+  outcome_1_a2:
+    quotes:
+    - exact: For Step 2, we identified instruments for the mediator protein from the deCODE pQTL data
+        and retrieved the SNP‐to‐outcome (PC) association estimates from FinnGen R12, then performed MR
+        to estimate the effect of the mediator protein on PC risk.
+  pqtl_2_a2:
+    quotes:
+    - exact: Genetic association summary statistics for plasma protein levels were extracted from the
+        Icelandic deCODE plasma proteome GWAS [14], which measured 4900 plasma proteins in 35,559 participants
+        and identified extensive pQTL signals.
+  outcome_1_a3:
+    quotes:
+    - exact: For Step 2, we identified instruments for the mediator protein from the deCODE pQTL data
+        and retrieved the SNP‐to‐outcome (PC) association estimates from FinnGen R12, then performed MR
+        to estimate the effect of the mediator protein on PC risk.
+  pqtl_2_a3:
+    quotes:
+    - exact: Genetic association summary statistics for plasma protein levels were extracted from the
+        Icelandic deCODE plasma proteome GWAS [14], which measured 4900 plasma proteins in 35,559 participants
+        and identified extensive pQTL signals.
+  outcome_1_c2:
+    quotes:
+    - exact: PC GWAS summary statistics were obtained from FinnGen release R12 [27], comprising approximately
+        3100 PC cases and 378,000 controls of European descent.
+  pqtl_1_c2:
+    quotes:
+    - exact: For the proteome‐wide MR screen, we used pQTL summary data from the UK Biobank Pharma Proteomics
+        Project (UKB‐PPP) [26], which quantified 2923 plasma proteins in 54,219 participants of European
+        ancestry using an Olink platform.
+  pqtl_2_c2:
+    quotes:
+    - exact: Genetic association summary statistics for plasma protein levels were extracted from the
+        Icelandic deCODE plasma proteome GWAS [14], which measured 4900 plasma proteins in 35,559 participants
+        and identified extensive pQTL signals.

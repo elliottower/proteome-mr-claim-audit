@@ -1,0 +1,29 @@
+source:
+  citation: '41885234'
+  local: sources/41885234.txt
+  sha256: b36a3ca1f1f5e11412b49656efd40042c8fd162c1da56bc9dcf60420c0b55744
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13031745/fullTextXML
+  note: body as scripts/fetch_fulltext.py rendered it
+claims:
+  outcome_1:
+    quotes:
+    - exact: As an external validation cohort, we analyzed gout summary statistics from the UK Biobank
+        Whole-Genome Sequencing (WGS) Consortium, restricted to non-Finnish European ancestry (19,142
+        cases and 439,298 controls), ensuring ancestry consistency with the primary datasets to minimize
+        population stratification bias and enhance comparability across analyses.
+  pqtl_1:
+    quotes:
+    - exact: For external validation, data from the deCODE Genetics database, profiling approximately
+        35,000 Icelandic participants of European ancestry using SomaScan v4 (~4700 plasma protein aptamers),
+        were used, applying the same pQTL selection criteria (https://www.decode.com/).
+  outcome_1_c2:
+    quotes:
+    - exact: As an external validation cohort, we analyzed gout summary statistics from the UK Biobank
+        Whole-Genome Sequencing (WGS) Consortium, restricted to non-Finnish European ancestry (19,142
+        cases and 439,298 controls), ensuring ancestry consistency with the primary datasets to minimize
+        population stratification bias and enhance comparability across analyses.
+  pqtl_1_c2:
+    quotes:
+    - exact: For external validation, data from the deCODE Genetics database, profiling approximately
+        35,000 Icelandic participants of European ancestry using SomaScan v4 (~4700 plasma protein aptamers),
+        were used, applying the same pQTL selection criteria (https://www.decode.com/).

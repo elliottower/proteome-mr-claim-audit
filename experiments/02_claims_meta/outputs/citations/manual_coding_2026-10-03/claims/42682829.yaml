@@ -1,0 +1,31 @@
+source:
+  citation: '42682829'
+  local: sources/42682829.txt
+  sha256: 36e0ba88a0fb6fc88a56c284f68b9e50549c61bbf4283cd8a6811ab541dd56e4
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13531259/fullTextXML
+  note: body as scripts/fetch_fulltext.py rendered it
+claims:
+  pqtl_1:
+    quotes:
+    - exact: We undertook ancestry-specific GWAS of 2923 proteins in 50 395 participants, including 48
+        195 European (EUR) participants, plus 1202 African (AFR), 482 American (AMR), 237 East Asian (EAS)
+        and 729 South Asian (SAS) ancestry participants in UK Biobank (ancestry described in Shrine et
+        al. [5]).
+  pqtl_1_a2:
+    quotes:
+    - exact: We undertook ancestry-specific GWAS of 2923 proteins in 50 395 participants, including 48
+        195 European (EUR) participants, plus 1202 African (AFR), 482 American (AMR), 237 East Asian (EAS)
+        and 729 South Asian (SAS) ancestry participants in UK Biobank (ancestry described in Shrine et
+        al. [5]).
+  pqtl_1_a3:
+    quotes:
+    - exact: We undertook ancestry-specific GWAS of 2923 proteins in 50 395 participants, including 48
+        195 European (EUR) participants, plus 1202 African (AFR), 482 American (AMR), 237 East Asian (EAS)
+        and 729 South Asian (SAS) ancestry participants in UK Biobank (ancestry described in Shrine et
+        al. [5]).
+  pqtl_1_c2:
+    quotes:
+    - exact: We undertook ancestry-specific GWAS of 2923 proteins in 50 395 participants, including 48
+        195 European (EUR) participants, plus 1202 African (AFR), 482 American (AMR), 237 East Asian (EAS)
+        and 729 South Asian (SAS) ancestry participants in UK Biobank (ancestry described in Shrine et
+        al. [5]).

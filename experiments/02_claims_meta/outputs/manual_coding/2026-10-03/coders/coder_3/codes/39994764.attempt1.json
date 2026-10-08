@@ -1,0 +1,41 @@
+{
+ "record_id": "39994764",
+ "coder_id": "coder_3",
+ "attempt": 1,
+ "rows": [
+  {
+   "side": "outcome",
+   "name_as_written": "FinnGen consortium",
+   "value": "not_stated_in_source",
+   "unresolved_reason": "release_not_identified",
+   "identification_basis": null,
+   "source_read": null,
+   "passage_id": null,
+   "quote": null,
+   "citations_claim": null,
+   "companion_source": false,
+   "reference_label": null,
+   "reference_quote": null,
+   "reference_citations_claim": null,
+   "dataset_named_in_source": null,
+   "coder_note": "The passages given for this row name the consortium only; none of them states a release."
+  },
+  {
+   "side": "outcome",
+   "name_as_written": "PRACTICAL consortium",
+   "value": "PRACTICAL/ELLIPSE prostate cancer (Schumacher 2018)",
+   "unresolved_reason": null,
+   "identification_basis": "reference_entry",
+   "source_read": "full_text",
+   "passage_id": "p003",
+   "quote": "In the primary analyses, we obtained the summary-level GWAS data of prostate cancer from the PRACTICAL study, which is a meta-analysis of 52 GWAS studies enrolling 79,148 prostate cancer patients and 61,106 controls from European ancestry (Table 1) [16].",
+   "citations_claim": "claims/39994764.yaml#outcome_2",
+   "companion_source": true,
+   "reference_label": "16",
+   "reference_quote": "Schumacher FR Al Olama AA Berndt SI Benlloch S Ahmed M Saunders EJ Dadaev T Leongamornlert D Anokian E Cieza-Borrella C Association analyses of more than 140,000 men identify 63 new prostate cancer susceptibility loci Nat Genet 2018 50 7 928 936 10.1038/s41588-018-0142-8 29892016 PMC6568012",
+   "reference_citations_claim": "claims/39994764.references.yaml#outcome_2_ref",
+   "dataset_named_in_source": null,
+   "coder_note": "Sentence attributes the primary outcome GWAS to reference 16, whose DOI is the source of the candidate row."
+  }
+ ]
+}

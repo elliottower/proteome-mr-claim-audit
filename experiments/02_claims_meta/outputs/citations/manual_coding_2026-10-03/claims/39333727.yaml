@@ -1,0 +1,47 @@
+source:
+  citation: '39333727'
+  local: sources/39333727.txt
+  sha256: 4f2aae828b6ee97f926a2edd0d72c557024a9209022911605bd44cb4875d36c7
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11437114/fullTextXML
+  note: body as scripts/fetch_fulltext.py rendered it
+claims:
+  pqtl_1:
+    quotes:
+    - exact: The research relies on data that is accessible to the public from a large-scale genome-wide
+        association study on blood proteome (https://www.decode.com/summarydata/)12, plasma proteome analysis
+        of European descent plasma(nilanjanchatterjeelab.org/pwas/)13 and GWAS Catalog (GWAS Catalog (ebi.ac.uk))14–16
+        (Supplementary Table 2).
+  pqtl_1_a3:
+    quotes:
+    - exact: The research relies on data that is accessible to the public from a large-scale genome-wide
+        association study on blood proteome (https://www.decode.com/summarydata/)12, plasma proteome analysis
+        of European descent plasma(nilanjanchatterjeelab.org/pwas/)13 and GWAS Catalog (GWAS Catalog (ebi.ac.uk))14–16
+        (Supplementary Table 2).
+  outcome_1_a4:
+    quotes:
+    - exact: Specifically, “GCST008064” for CKD, “GCST90103634” for eGFRcrea, “GCST008059” for eGFR.
+      prefix: rate (eGFR) were sourced from the GWAS Catalog (GWAS Catalog (ebi.ac.uk)).
+      suffix: '## Declarations ## Ethics approval and consent to participate This analysis of'
+  pqtl_1_a4:
+    quotes:
+    - exact: The research relies on data that is accessible to the public from a large-scale genome-wide
+        association study on blood proteome (https://www.decode.com/summarydata/)12, plasma proteome analysis
+        of European descent plasma(nilanjanchatterjeelab.org/pwas/)13 and GWAS Catalog (GWAS Catalog (ebi.ac.uk))14–16
+        (Supplementary Table 2).
+  outcome_1_c2:
+    quotes:
+    - exact: Specifically, “GCST008064” for CKD, “GCST90103634” for eGFRcrea, “GCST008059” for eGFR.
+      prefix: rate (eGFR) were sourced from the GWAS Catalog (GWAS Catalog (ebi.ac.uk)).
+      suffix: '## Declarations ## Ethics approval and consent to participate This analysis of'
+  pqtl_1_c2:
+    quotes:
+    - exact: The research relies on data that is accessible to the public from a large-scale genome-wide
+        association study on blood proteome (https://www.decode.com/summarydata/)12, plasma proteome analysis
+        of European descent plasma(nilanjanchatterjeelab.org/pwas/)13 and GWAS Catalog (GWAS Catalog (ebi.ac.uk))14–16
+        (Supplementary Table 2).
+  pqtl_1_r:
+    quotes:
+    - exact: The research relies on data that is accessible to the public from a large-scale genome-wide
+        association study on blood proteome (https://www.decode.com/summarydata/)12, plasma proteome analysis
+        of European descent plasma(nilanjanchatterjeelab.org/pwas/)13 and GWAS Catalog (GWAS Catalog (ebi.ac.uk))14–16
+        (Supplementary Table 2).

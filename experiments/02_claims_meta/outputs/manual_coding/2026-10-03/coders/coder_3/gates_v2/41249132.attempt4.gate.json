@@ -1,0 +1,38 @@
+{
+ "record_id": "41249132",
+ "coder_id": "coder_3",
+ "attempt": 4,
+ "rows": [
+  {
+   "side": "outcome",
+   "name_as_written": "MAGIC",
+   "value": "MAGIC glycemic traits (Chen 2021)",
+   "passes": true,
+   "failures": [],
+   "warnings": [
+    "passage_given_for_another_row"
+   ],
+   "machine_basis": [
+    "source_citation:Chen|2021"
+   ],
+   "reference_verified_by": "doi"
+  },
+  {
+   "side": "outcome",
+   "name_as_written": "UK Biobank",
+   "value": "source_names_dataset_absent_from_dictionary",
+   "passes": true,
+   "failures": [],
+   "warnings": [
+    "passage_given_for_another_row"
+   ],
+   "machine_basis": [],
+   "reference_verified_by": null
+  }
+ ],
+ "rows_not_coded_once": [],
+ "rows_not_given": [],
+ "wrong_coder": false,
+ "passes": true,
+ "gated_utc": "20261008T011946Z"
+}

@@ -1,0 +1,58 @@
+{
+ "record_id": "42282992",
+ "coder_id": "coder_3",
+ "attempt": 1,
+ "rows": [
+  {
+   "side": "outcome",
+   "name_as_written": "FinnGen",
+   "value": "FinnGen R12",
+   "unresolved_reason": null,
+   "identification_basis": "release_identifier",
+   "source_read": "full_text",
+   "passage_id": "p001",
+   "quote": "PC GWAS summary statistics were obtained from FinnGen release R12 [27], comprising approximately 3100 PC cases and 378,000 controls of European descent.",
+   "citations_claim": "claims/42282992.yaml#outcome_1",
+   "companion_source": false,
+   "reference_label": null,
+   "reference_quote": null,
+   "reference_citations_claim": null,
+   "dataset_named_in_source": null,
+   "coder_note": "Sentence states release R12."
+  },
+  {
+   "side": "pqtl",
+   "name_as_written": "UK Biobank Pharma Proteomics Project",
+   "value": "not_stated_in_source",
+   "unresolved_reason": "release_not_identified",
+   "identification_basis": null,
+   "source_read": null,
+   "passage_id": null,
+   "quote": null,
+   "citations_claim": null,
+   "companion_source": false,
+   "reference_label": null,
+   "reference_quote": null,
+   "reference_citations_claim": null,
+   "dataset_named_in_source": null,
+   "coder_note": "Project name with a participant count, platform and/or a reference shared by several candidate rows; subset not identified."
+  },
+  {
+   "side": "pqtl",
+   "name_as_written": "deCODE cohort",
+   "value": "deCODE SomaScan v4 (Ferkingstad 2021)",
+   "unresolved_reason": null,
+   "identification_basis": "reference_entry",
+   "source_read": "full_text",
+   "passage_id": "p002",
+   "quote": "Genetic association summary statistics for plasma protein levels were extracted from the Icelandic deCODE plasma proteome GWAS [14], which measured 4900 plasma proteins in 35,559 participants and identified extensive pQTL signals.",
+   "citations_claim": "claims/42282992.yaml#pqtl_2",
+   "companion_source": true,
+   "reference_label": "14",
+   "reference_quote": "Ferkingstad E., Sulem P., Atlason B. A., Sveinbjornsson G., Magnusson M. I., Styrmisdottir E. L., Gunnarsdottir K., Helgason A., Oddsson A., Halldorsson B. V., Jensson B. O., Zink F., Halldorsson G. H., Masson G., Arnadottir G. A., Katrinardottir H., Juliusson K., Magnusson M. K., Magnusson O. T., Fridriksdottir R., Saevarsdottir S., Gudjonsson S. A., Stacey S. N., Rognvaldsson S., Eiriksdottir T., Olafsdottir T. A., Steinthorsdottir V., Tragante V., Ulfarsson M. O., Stefansson H., Jonsdottir I., Holm H., Rafnar T., Melsted P., Saemundsdottir J., Norddahl G. L., Lund S. H., Gudbjartsson D. F., Thorsteinsdottir U., and Stefansson K., Large-Scale Integration of the Plasma Proteome With Genetics and Disease, Nature Genetics. (2021) 53, no. 12, 1712–1721, 10.1038/s41588-021-00978-w.",
+   "reference_citations_claim": "claims/42282992.references.yaml#pqtl_2_ref",
+   "dataset_named_in_source": null,
+   "coder_note": "Sentence attributes the protein summary statistics (35,559 participants) to reference 14, whose DOI is the source of one candidate row."
+  }
+ ]
+}

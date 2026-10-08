@@ -1,0 +1,58 @@
+{
+ "record_id": "39474612",
+ "coder_id": "coder_2",
+ "attempt": 1,
+ "rows": [
+  {
+   "side": "outcome",
+   "name_as_written": "FinnGen",
+   "value": "FinnGen R10",
+   "unresolved_reason": null,
+   "identification_basis": "release_identifier",
+   "source_read": "full_text",
+   "passage_id": "p002",
+   "quote": "Validation datasets from external sources, including the UK Biobank (up to 2017) and FinnGen study’s R10 release, which included 396,565 (Sudlow et al., 2015) and 412,181 participants, respectively were obtained (Kurki et al., 2023).",
+   "citations_claim": "claims/39474612.yaml#outcome_1",
+   "companion_source": false,
+   "reference_label": null,
+   "reference_quote": null,
+   "reference_citations_claim": null,
+   "dataset_named_in_source": null,
+   "coder_note": "Sentence states the FinnGen study's R10 release with 412,181 participants."
+  },
+  {
+   "side": "outcome",
+   "name_as_written": "Integrative Epidemiology Unit genome-wide association study",
+   "value": "not_stated_in_source",
+   "unresolved_reason": "release_not_identified",
+   "identification_basis": null,
+   "source_read": null,
+   "passage_id": null,
+   "quote": null,
+   "citations_claim": null,
+   "companion_source": false,
+   "reference_label": null,
+   "reference_quote": null,
+   "reference_citations_claim": null,
+   "dataset_named_in_source": null,
+   "coder_note": "The abstract passage given for this row names an Integrative Epidemiology Unit GWAS with case and control counts only; no accession, citation or release in the row's passage."
+  },
+  {
+   "side": "outcome",
+   "name_as_written": "UK Biobank",
+   "value": "not_stated_in_source",
+   "unresolved_reason": "release_not_identified",
+   "identification_basis": null,
+   "source_read": null,
+   "passage_id": null,
+   "quote": null,
+   "citations_claim": null,
+   "companion_source": false,
+   "reference_label": null,
+   "reference_quote": null,
+   "reference_citations_claim": null,
+   "dataset_named_in_source": null,
+   "coder_note": "UK Biobank GWAS summary statistics are attributed to leelabsg.org with a participant count; two candidate rows are Lee lab resources and nothing stated separates them."
+  }
+ ]
+}

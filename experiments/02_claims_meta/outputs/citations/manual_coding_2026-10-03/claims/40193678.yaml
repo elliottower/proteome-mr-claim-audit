@@ -1,0 +1,25 @@
+source:
+  citation: '40193678'
+  local: sources/40193678.txt
+  sha256: b0c162eba4b54f64e505353525176a8847669f33d175273cf94579abd1903288
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11977695/fullTextXML
+  note: body as scripts/fetch_fulltext.py rendered it
+claims:
+  outcome_1_a3:
+    quotes:
+    - exact: The GWAS summary statistics for plasma proteins were derived from a European population,
+        covering a total of 4907 proteins.[14] For the GWAS summary statistics on childhood asthma, we
+        utilized data from the FinnGen database, including 3025 childhood asthma patients and 135,449
+        normal controls (finn-b-ASTHMA_CHILD).
+  outcome_1_a4:
+    quotes:
+    - exact: The GWAS summary statistics for plasma proteins were derived from a European population,
+        covering a total of 4907 proteins.[14] For the GWAS summary statistics on childhood asthma, we
+        utilized data from the FinnGen database, including 3025 childhood asthma patients and 135,449
+        normal controls (finn-b-ASTHMA_CHILD).
+  outcome_1_c2:
+    quotes:
+    - exact: The GWAS summary statistics for plasma proteins were derived from a European population,
+        covering a total of 4907 proteins.[14] For the GWAS summary statistics on childhood asthma, we
+        utilized data from the FinnGen database, including 3025 childhood asthma patients and 135,449
+        normal controls (finn-b-ASTHMA_CHILD).

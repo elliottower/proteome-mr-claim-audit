@@ -1,0 +1,31 @@
+source:
+  citation: '41323472'
+  local: sources/41323472.txt
+  sha256: 59acfc059b75631f9ef0c696963916671a83c407a2453e5196daf31f659222c4
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12664391/fullTextXML
+  note: body as scripts/fetch_fulltext.py rendered it
+claims:
+  outcome_2:
+    quotes:
+    - exact: The anemia outcome was derived from FinnGen consortium R11, encompassing 138,342 European
+        individuals (33,700 cases and 104,642 controls).
+  outcome_2_a2:
+    quotes:
+    - exact: The anemia outcome was derived from FinnGen consortium R11, encompassing 138,342 European
+        individuals (33,700 cases and 104,642 controls).
+  outcome_2_a3:
+    quotes:
+    - exact: The anemia outcome was derived from FinnGen consortium R11, encompassing 138,342 European
+        individuals (33,700 cases and 104,642 controls).
+  outcome_2_a4:
+    quotes:
+    - exact: The anemia outcome was derived from FinnGen consortium R11, encompassing 138,342 European
+        individuals (33,700 cases and 104,642 controls).
+  outcome_1_c2:
+    quotes:
+    - exact: The anemia dataset from the EBI database comprises 484,598 Europeans (5259 cases and 479,339
+        controls), and 9,587,836 SNPs.
+  outcome_2_c2:
+    quotes:
+    - exact: The anemia outcome was derived from FinnGen consortium R11, encompassing 138,342 European
+        individuals (33,700 cases and 104,642 controls).

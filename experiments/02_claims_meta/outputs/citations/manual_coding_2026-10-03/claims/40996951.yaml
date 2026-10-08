@@ -1,0 +1,44 @@
+source:
+  citation: '40996951'
+  local: sources/40996951.txt
+  sha256: c13f699ebbecdec82301b7376fb3d88b7d695a22db5fc00ee1ea658a3273767f
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12463240/fullTextXML
+  note: body as scripts/fetch_fulltext.py rendered it
+claims:
+  pqtl_1:
+    quotes:
+    - exact: We used the Finnish proteomics data from Olink, which includes 619 samples involving 2,925
+        plasma proteins [12].
+  pqtl_2:
+    quotes:
+    - exact: The study, based on the SomaScan platform, identified 28,191 genetic associations of 4,907
+        aptamers in a cohort of 35,559 Icelandic individuals [14].
+  pqtl_1_a2:
+    quotes:
+    - exact: We used the Finnish proteomics data from Olink, which includes 619 samples involving 2,925
+        plasma proteins [12].
+  pqtl_2_a2:
+    quotes:
+    - exact: The study, based on the SomaScan platform, identified 28,191 genetic associations of 4,907
+        aptamers in a cohort of 35,559 Icelandic individuals [14].
+  pqtl_1_a3:
+    quotes:
+    - exact: We used the Finnish proteomics data from Olink, which includes 619 samples involving 2,925
+        plasma proteins [12].
+  pqtl_2_a3:
+    quotes:
+    - exact: The study, based on the SomaScan platform, identified 28,191 genetic associations of 4,907
+        aptamers in a cohort of 35,559 Icelandic individuals [14].
+  pqtl_1_c2:
+    quotes:
+    - exact: We used the Finnish proteomics data from Olink, which includes 619 samples involving 2,925
+        plasma proteins [12].
+  pqtl_2_c2:
+    quotes:
+    - exact: The study, based on the SomaScan platform, identified 28,191 genetic associations of 4,907
+        aptamers in a cohort of 35,559 Icelandic individuals [14].
+  pqtl_3_c2:
+    quotes:
+    - exact: The UKB-PPP is a precompetitive biopharmaceutical consortium characterizing the plasma proteomic
+        profiles of 54,219 UK Biobank (UKB) participants, measuring 2,941 protein analytes and capturing
+        2,923 unique proteins [13].

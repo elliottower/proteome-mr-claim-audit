@@ -1,0 +1,9 @@
+{
+ "record_id": "W7204548938",
+ "coder_id": "coder_3",
+ "attempt": 2,
+ "rows": [
+  {"side": "outcome", "name_as_written": "Atherosclerosis Risk in Communities (ARIC)", "value": "source_names_dataset_absent_from_dictionary", "unresolved_reason": "dataset_absent_from_dictionary", "identification_basis": null, "source_read": "abstract", "passage_id": "p001", "quote": "Among 9879 community-based participants of the Atherosclerosis Risk in Communities (ARIC) cohort study, we assessed 4955 plasma proteins using an aptamer-based platform (SomaLogic).", "citations_claim": "claims/W7204548938.yaml#outcome_1_a2", "companion_source": false, "reference_label": null, "reference_quote": null, "reference_citations_claim": null, "dataset_named_in_source": "Atherosclerosis Risk in Communities (ARIC)", "coder_note": "Reread in full (one abstract passage, no references). The sentence names the cohort whose participants were analysed directly (9879 participants); the outcome side of the dictionary has no row for this cohort, which appears there only as a participant source of consortium meta-analyses."},
+  {"side": "outcome", "name_as_written": "UK Biobank", "value": "not_stated_in_source", "unresolved_reason": "release_not_identified", "identification_basis": null, "source_read": null, "passage_id": null, "quote": null, "citations_claim": null, "companion_source": false, "reference_label": null, "reference_quote": null, "reference_citations_claim": null, "dataset_named_in_source": null, "coder_note": "Reread in full (one abstract passage, no references). The sentence says results were replicated in a number of cohort participants; no outcome GWAS release, pipeline or citation is described."}
+ ]
+}

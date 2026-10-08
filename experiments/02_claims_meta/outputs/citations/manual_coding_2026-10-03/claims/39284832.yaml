@@ -1,0 +1,63 @@
+source:
+  citation: '39284832'
+  local: sources/39284832.txt
+  sha256: abf3caa6cf4b5d8bce1171382dccf0cec5a1ff9d0441af57ba12b5328d3a67c0
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11405721/fullTextXML
+  note: body as scripts/fetch_fulltext.py rendered it
+claims:
+  outcome_2:
+    quotes:
+    - exact: The outcome data for conducting PheWAS were obtained from the UK Biobank, which tested 28
+        million SNPs for 1403 disease phenotypes in 408,961 White British participants using the SAIGE
+        platform (https://www.leelabsg.org/resources)33.
+  pqtl_2:
+    quotes:
+    - exact: The deCODE Health study measured 4907 proteins in the plasma of 35,559 Icelanders using the
+        SomaScan platform and found 18,084 correlated sequence variants between plasma protein levels.
+  outcome_2_a2:
+    quotes:
+    - exact: The outcome data for conducting PheWAS were obtained from the UK Biobank, which tested 28
+        million SNPs for 1403 disease phenotypes in 408,961 White British participants using the SAIGE
+        platform (https://www.leelabsg.org/resources)33.
+  pqtl_2_a2:
+    quotes:
+    - exact: The deCODE Health study measured 4907 proteins in the plasma of 35,559 Icelanders using the
+        SomaScan platform and found 18,084 correlated sequence variants between plasma protein levels.
+  outcome_2_a3:
+    quotes:
+    - exact: The outcome data for conducting PheWAS were obtained from the UK Biobank, which tested 28
+        million SNPs for 1403 disease phenotypes in 408,961 White British participants using the SAIGE
+        platform (https://www.leelabsg.org/resources)33.
+  pqtl_2_a3:
+    quotes:
+    - exact: The deCODE Health study measured 4907 proteins in the plasma of 35,559 Icelanders using the
+        SomaScan platform and found 18,084 correlated sequence variants between plasma protein levels.
+  outcome_2_a4:
+    quotes:
+    - exact: The outcome data for conducting PheWAS were obtained from the UK Biobank, which tested 28
+        million SNPs for 1403 disease phenotypes in 408,961 White British participants using the SAIGE
+        platform (https://www.leelabsg.org/resources)33.
+  pqtl_2_a4:
+    quotes:
+    - exact: We selected cis-protein quantitative loci (pQTL) from two GWAS datasets, the deCODE Health
+        Study20 and the UK Biobank Pharma Proteomics Project (UKB-PPP)19, as genetic instrumental variables
+        for plasma proteins.
+  outcome_1_c2:
+    quotes:
+    - exact: In the replication stage of the study, 20 proteins were validated in the GWAS catalog database
+        based on the Wald or IVW methods (p < 0.05) (Table 1, Fig. 2C, Supplementary Table S4), and the
+        IV for DAG1 could not be detected owing to heterogeneity in the outcome data.
+  outcome_2_c2:
+    quotes:
+    - exact: The outcome data for conducting PheWAS were obtained from the UK Biobank, which tested 28
+        million SNPs for 1403 disease phenotypes in 408,961 White British participants using the SAIGE
+        platform (https://www.leelabsg.org/resources)33.
+  pqtl_1_c2:
+    quotes:
+    - exact: The UKB-PPP collected data on 2923 proteins via proteomic analysis of 54,219 plasma samples
+        through the Olink platform.
+  pqtl_2_c2:
+    quotes:
+    - exact: We selected cis-protein quantitative loci (pQTL) from two GWAS datasets, the deCODE Health
+        Study20 and the UK Biobank Pharma Proteomics Project (UKB-PPP)19, as genetic instrumental variables
+        for plasma proteins.

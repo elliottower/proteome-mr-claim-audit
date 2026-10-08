@@ -1,0 +1,33 @@
+source:
+  citation: '38103512'
+  local: sources/38103512.txt
+  sha256: 6a1a35f3ab6e45683a5e998ceeb3ed1eab1b39e075f98b6bcfff936bccf0a9f0
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10765009/fullTextXML
+  note: body as scripts/fetch_fulltext.py rendered it
+claims:
+  outcome_1:
+    quotes:
+    - exact: Summary-level data of genetic associations with IBD and its subtype were also obtained from
+        the publicly available R8 data release of the FinnGen study.
+  outcome_1_a2:
+    quotes:
+    - exact: Summary-level data of genetic associations with IBD and its subtype were also obtained from
+        the publicly available R8 data release of the FinnGen study.
+  outcome_1_a3:
+    quotes:
+    - exact: Summary-level data of genetic associations with IBD and its subtype were also obtained from
+        the publicly available R8 data release of the FinnGen study.
+  outcome_1_c2:
+    quotes:
+    - exact: Summary-level data of genetic associations with IBD and its subtype were also obtained from
+        the publicly available R8 data release of the FinnGen study.
+  outcome_2_c2:
+    quotes:
+    - exact: All participants in the IIBDGC study were of European ancestry and included 25,042 cases
+        and 34,915 controls for IBD, 12,194 cases and 28,072 controls for CD, and 12,366 cases and 33,609
+        controls for UC.
+  outcome_3_c2:
+    quotes:
+    - exact: Summary statistics of genetic associations with IBD in the UK Biobank were extracted from
+        a GWAS conducted by the Lee Lab.9 The IBD diagnoses were defined according to the International
+        Classification of Diseases, 9th Revision (ICD-9) and ICD-10.

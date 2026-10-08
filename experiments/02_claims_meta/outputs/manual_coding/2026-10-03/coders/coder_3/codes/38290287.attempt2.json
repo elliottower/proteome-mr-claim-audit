@@ -1,0 +1,41 @@
+{
+ "record_id": "38290287",
+ "coder_id": "coder_3",
+ "attempt": 2,
+ "rows": [
+  {
+   "side": "outcome",
+   "name_as_written": "FinnGen",
+   "value": "not_stated_in_source",
+   "unresolved_reason": "release_not_identified",
+   "identification_basis": null,
+   "source_read": null,
+   "passage_id": null,
+   "quote": null,
+   "citations_claim": null,
+   "companion_source": false,
+   "reference_label": null,
+   "reference_quote": null,
+   "reference_citations_claim": null,
+   "dataset_named_in_source": null,
+   "coder_note": "Reread the passage and all seven reference entries in full. The cohort GWAS are described by endpoint case/control counts and cited to the general cohort paper, whose DOI is the source of every release row; no release is stated and the counts are not an exact sample size of one candidate row."
+  },
+  {
+   "side": "outcome",
+   "name_as_written": "UK Biobank",
+   "value": "source_names_dataset_absent_from_dictionary",
+   "unresolved_reason": "dataset_absent_from_dictionary",
+   "identification_basis": null,
+   "source_read": "full_text",
+   "passage_id": "p002",
+   "quote": "Association estimates provided for the analysis did not include UK Biobank study participants to avoid potential overlap between protein and colorectal cancer summary statistics.34 Association estimates for liver cancer were obtained from a GWAS of liver cancer (specifically hepatocyte carcinoma) conducted in up to 648 cases and 259,583 controls in FinnGen.35 Summary genetic data for pancreas cancer were obtained from a GWAS of 1249 cases and 259,583 controls in FinnGen.35 Summary genetic association data were obtained for breast cancer from a GWAS of 133,384 cases and 113,789 controls of European ancestry.36 Summary genetic association data were obtained for endometrial cancer from a GWAS of 12,906 cases and 108,979 controls of European ancestry.37 Summary genetic data for gallbladder cancer were obtained from the UK Biobank, which included 195 cases and 456,134 controls of European ancestry.38 In the Mendelian randomization analysis of protein levels and gallbladder cancer, both GWAS were obtained using UK Biobank participants.",
+   "citations_claim": "claims/38290287.yaml#outcome_2_a2",
+   "companion_source": false,
+   "reference_label": null,
+   "reference_quote": null,
+   "reference_citations_claim": null,
+   "dataset_named_in_source": "UK Biobank",
+   "coder_note": "Reread both passages and reference entries in full. As an outcome source the cohort supplies one endpoint GWAS, attributed in this (unsplit) sentence to reference 38, a methods paper whose DOI is not a source of any dictionary row; the other use of the name in the passages is the protein GWAS. No dictionary outcome row is this GWAS."
+  }
+ ]
+}

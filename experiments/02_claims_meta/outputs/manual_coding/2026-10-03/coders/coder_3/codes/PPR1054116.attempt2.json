@@ -1,0 +1,9 @@
+{
+ "record_id": "PPR1054116",
+ "coder_id": "coder_3",
+ "attempt": 2,
+ "rows": [
+  {"side": "outcome", "name_as_written": "Psychiatric Genomics Consortium (PGC)", "value": "source_names_dataset_absent_from_dictionary", "unresolved_reason": "dataset_absent_from_dictionary", "identification_basis": null, "source_read": "abstract", "passage_id": "p001", "quote": "GWAS data of PPD were sourced from Psychiatric Genomics Consortium (PGC) (Ncase = 17,339, Ncontrol = 53,426).", "citations_claim": "claims/PPR1054116.yaml#outcome_1_a2", "companion_source": false, "reference_label": null, "reference_quote": null, "reference_citations_claim": null, "dataset_named_in_source": "Psychiatric Genomics Consortium (PGC)", "coder_note": "Reread in full (one abstract passage, no references). The sentence names the consortium's GWAS for a phenotype, with case/control counts; the dictionary's rows for this consortium are for other disorders and none has this phenotype or these counts."},
+  {"side": "pqtl", "name_as_written": "Fenland", "value": "not_stated_in_source", "unresolved_reason": "release_not_identified", "identification_basis": null, "source_read": null, "passage_id": null, "quote": null, "citations_claim": null, "companion_source": false, "reference_label": null, "reference_quote": null, "reference_citations_claim": null, "dataset_named_in_source": null, "coder_note": "Reread in full (one abstract passage, no references). The study name is given with a protein count and a participant count that are not those of either candidate row; no platform, year or citation. Not identified as a candidate row, and not enough to establish a distinct named dataset."}
+ ]
+}

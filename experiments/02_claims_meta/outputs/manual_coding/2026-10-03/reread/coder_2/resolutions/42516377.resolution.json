@@ -1,0 +1,22 @@
+{
+ "record_id": "42516377",
+ "coder_id": "coder_2",
+ "rows": [
+  {
+   "row": "outcome_1",
+   "resolved_value": "not_stated_in_source",
+   "unresolved_reason": "conflicting_identifiers",
+   "resolution_note": "'EBI' is a repository name and no accession is given (rule C2), so only the citations can identify the dataset, and they disagree: p001 sentence 2 attributes the EBI replication cohort to '(25, 26)', where entry 26 (Mitchell et al. 2019, DOI 10.5523/bris.pnoat8cxo0u52p6ynfaekeigi) is the source identifier of the dictionary row 'MRC-IEU UK Biobank GWAS pipeline (OpenGWAS ukb-b)' and entry 25 (Donertas et al. 2021, DOI 10.1038/s43587-021-00051-5) is the source of no dictionary row; p002 sentence 2 attributes the same data to '(25)' alone, with 56,087 cases and 428,511 controls (484,598 in p003), which is not that row's N. The grouped citation maps to neither entry explicitly (rule F), one reading gives a dictionary row and the other a dataset absent from the dictionary, so the row is unresolved.",
+   "identification_basis": null,
+   "source_read": null,
+   "passage_id": null,
+   "quote": null,
+   "citations_claim": null,
+   "companion_source": false,
+   "reference_label": null,
+   "reference_quote": null,
+   "reference_citations_claim": null,
+   "dataset_named_in_source": null
+  }
+ ]
+}

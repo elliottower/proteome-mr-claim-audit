@@ -1,0 +1,58 @@
+{
+ "record_id": "38274229",
+ "coder_id": "coder_1",
+ "attempt": 1,
+ "rows": [
+  {
+   "side": "outcome",
+   "name_as_written": "FinnGen study",
+   "value": "not_stated_in_source",
+   "unresolved_reason": "release_not_identified",
+   "identification_basis": null,
+   "source_read": null,
+   "passage_id": null,
+   "quote": null,
+   "citations_claim": null,
+   "companion_source": false,
+   "reference_label": null,
+   "reference_quote": null,
+   "reference_citations_claim": null,
+   "dataset_named_in_source": null,
+   "coder_note": "FinnGen study cited to the general FinnGen paper with endpoint counts; no release stated."
+  },
+  {
+   "side": "pqtl",
+   "name_as_written": "Atherosclerosis Risk in Communities Study",
+   "value": "ARIC European American (Zhang 2022)",
+   "unresolved_reason": null,
+   "identification_basis": "reference_entry",
+   "source_read": "full_text",
+   "passage_id": "p002",
+   "quote": "In the discovery stage, plasma protein pQTL data were obtained from the ARIC study, which included a total of 4657 plasma proteins collected from 7213 European Americans (EA) (17).",
+   "citations_claim": "claims/38274229.yaml#pqtl_1",
+   "companion_source": true,
+   "reference_label": "17",
+   "reference_quote": "Zhang J Dutta D Köttgen A Tin A Schlosser P Grams ME . Plasma proteome analyses in individuals of European and African ancestry identify cis-pQTLs and models for proteome-wide association studies . Nat Genet ( 2022 ) 54 ( 5 ): 593 – 602 . doi: 10.1038/s41588-022-01051-w 35501419 PMC9236177",
+   "reference_citations_claim": "claims/38274229.references.yaml#pqtl_1_ref",
+   "dataset_named_in_source": null,
+   "coder_note": "Sentence attributes the ARIC pQTL data on 7213 European Americans to citation 17, whose DOI is the dictionary source; the stated ancestry and exact N select the European American row."
+  },
+  {
+   "side": "pqtl",
+   "name_as_written": "Icelandic Decoding Genetics Study",
+   "value": "not_stated_in_source",
+   "unresolved_reason": "release_not_identified",
+   "identification_basis": null,
+   "source_read": null,
+   "passage_id": null,
+   "quote": null,
+   "citations_claim": null,
+   "companion_source": false,
+   "reference_label": null,
+   "reference_quote": null,
+   "reference_citations_claim": null,
+   "dataset_named_in_source": null,
+   "coder_note": "The only passage given for this row is the abstract sentence, which names the study without release, N, platform or citation."
+  }
+ ]
+}

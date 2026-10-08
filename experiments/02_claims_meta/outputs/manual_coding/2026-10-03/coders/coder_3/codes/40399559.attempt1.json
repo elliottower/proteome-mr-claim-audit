@@ -1,0 +1,41 @@
+{
+ "record_id": "40399559",
+ "coder_id": "coder_3",
+ "attempt": 1,
+ "rows": [
+  {
+   "side": "pqtl",
+   "name_as_written": "deCODE study",
+   "value": "deCODE SomaScan v4 (Ferkingstad 2021)",
+   "unresolved_reason": null,
+   "identification_basis": "reference_entry",
+   "source_read": "full_text",
+   "passage_id": "p001",
+   "quote": "Genetic association datasets for plasma protein levels were sourced from a GWAS in 35,559 Icelanders (mean age [SD]: 55 years [17 years]; 57% women) conducted by the deCODE study (Supplementary Data 11)25.",
+   "citations_claim": "claims/40399559.yaml#pqtl_1",
+   "companion_source": true,
+   "reference_label": "25",
+   "reference_quote": "Ferkingstad, E. et al. Large-scale integration of the plasma proteome with genetics and disease. Nat. Genet. 53 , 1712–1721 (2021).",
+   "reference_citations_claim": "claims/40399559.references.yaml#pqtl_1_ref",
+   "dataset_named_in_source": null,
+   "coder_note": "Sentence attributes the protein GWAS (35,559 participants) to reference 25, whose DOI is the source of one candidate row."
+  },
+  {
+   "side": "pqtl",
+   "name_as_written": "eQTLGen consortium",
+   "value": "source_names_dataset_absent_from_dictionary",
+   "unresolved_reason": "dataset_absent_from_dictionary",
+   "identification_basis": null,
+   "source_read": "full_text",
+   "passage_id": "p001",
+   "quote": "Summary statistics for the association between eQTLs and blood ACLY expression were derived from a large-scale meta-analysis of 31,684 blood samples by the eQTLGen consortium, with gene expression levels pre-processed using standardized methods (Supplementary Data 11)52.",
+   "citations_claim": "claims/40399559.yaml#pqtl_2",
+   "companion_source": false,
+   "reference_label": null,
+   "reference_quote": null,
+   "reference_citations_claim": null,
+   "dataset_named_in_source": "eQTLGen consortium",
+   "coder_note": "Sentence names an expression-QTL consortium dataset; the dictionary has no row for it."
+  }
+ ]
+}

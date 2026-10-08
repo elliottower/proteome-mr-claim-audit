@@ -1,0 +1,19 @@
+source:
+  citation: '41261704'
+  local: sources/41261704.txt
+  sha256: 397ca9c126892104bdf159849c0e19db70b48e7a73e694643e4f0084c2bd1e24
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12582722/fullTextXML
+  note: body as scripts/fetch_fulltext.py rendered it
+claims:
+  outcome_1_a3:
+    quotes:
+    - exact: Seven European populations were identified, and the pre-analysis results revealed that ebi-a-GCST003156
+        had the best results.
+  outcome_1_a4:
+    quotes:
+    - exact: Seven European populations were identified, and the pre-analysis results revealed that ebi-a-GCST003156
+        had the best results.
+  outcome_1_c2:
+    quotes:
+    - exact: Seven European populations were identified, and the pre-analysis results revealed that ebi-a-GCST003156
+        had the best results.

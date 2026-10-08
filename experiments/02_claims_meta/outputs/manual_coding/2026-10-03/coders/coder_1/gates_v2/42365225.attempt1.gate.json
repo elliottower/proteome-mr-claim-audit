@@ -1,0 +1,44 @@
+{
+ "record_id": "42365225",
+ "coder_id": "coder_1",
+ "attempt": 1,
+ "rows": [
+  {
+   "side": "outcome",
+   "name_as_written": "ebi-a-GCST90013904",
+   "value": "source_names_dataset_absent_from_dictionary",
+   "passes": true,
+   "failures": [],
+   "warnings": [],
+   "machine_basis": [],
+   "reference_verified_by": null
+  },
+  {
+   "side": "outcome",
+   "name_as_written": "ebi-a-GCST90013954",
+   "value": "source_names_dataset_absent_from_dictionary",
+   "passes": true,
+   "failures": [],
+   "warnings": [],
+   "machine_basis": [],
+   "reference_verified_by": null
+  },
+  {
+   "side": "outcome",
+   "name_as_written": "ebi-a-GCST90018912",
+   "value": "Sakaue 2021 BBJ (220 traits)",
+   "passes": false,
+   "failures": [
+    "no_identifier_of_the_coded_row_in_the_pinned_material"
+   ],
+   "warnings": [],
+   "machine_basis": [],
+   "reference_verified_by": null
+  }
+ ],
+ "rows_not_coded_once": [],
+ "rows_not_given": [],
+ "wrong_coder": false,
+ "passes": false,
+ "gated_utc": "20261008T003917Z"
+}

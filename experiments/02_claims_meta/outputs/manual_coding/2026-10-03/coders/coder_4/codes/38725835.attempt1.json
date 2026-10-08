@@ -1,0 +1,41 @@
+{
+ "record_id": "38725835",
+ "coder_id": "coder_4",
+ "attempt": 1,
+ "rows": [
+  {
+   "side": "outcome",
+   "name_as_written": "Heart Failure Molecular Epidemiology for Therapeutic Targets (HERMES)",
+   "value": "HERMES heart failure (Shah 2020)",
+   "unresolved_reason": null,
+   "identification_basis": "reference_entry",
+   "source_read": "full_text",
+   "passage_id": "p001",
+   "quote": "The summary data of the genetic association with HF were obtained from the Heart Failure Molecular Epidemiology for Therapeutic Targets (HERMES) consortium (19).",
+   "citations_claim": "claims/38725835.yaml#outcome_1",
+   "companion_source": true,
+   "reference_label": "19",
+   "reference_quote": "Shah S, Henry A, Roselli C, Lin H, Sveinbjörnsson G, Fatemifar G, et al. Genome-wide association and Mendelian Randomisation analysis provide insights into the pathogenesis of heart failure. Nat Commun. (2020) 11:163. 10.1038/S41467-019-13690-5",
+   "reference_citations_claim": "claims/38725835.references.yaml#outcome_1_ref",
+   "dataset_named_in_source": null,
+   "coder_note": "Sentence attributes the HF summary data to the HERMES consortium with citation (19); the entry DOI is the HERMES row source; counts in the next sentence agree."
+  },
+  {
+   "side": "pqtl",
+   "name_as_written": "deCODE",
+   "value": "deCODE SomaScan v4 (Ferkingstad 2021)",
+   "unresolved_reason": null,
+   "identification_basis": "reference_entry",
+   "source_read": "full_text",
+   "passage_id": "p001",
+   "quote": "The genetic associations with 4,907 proteins in the plasma proteome were derived from a large-scale pQTL(protein quantitative loci) research of 35,559 Icelanders (18).",
+   "citations_claim": "claims/38725835.yaml#pqtl_1",
+   "companion_source": true,
+   "reference_label": "18",
+   "reference_quote": "Ferkingstad E, Sulem P, Atlason BA, Sveinbjornsson G, Magnusson MI, Styrmisdottir EL, et al. Large-scale integration of the plasma proteome with genetics and disease. Nat Genet. (2021) 53:1712–21. 10.1038/S41588-021-00978-W",
+   "reference_citations_claim": "claims/38725835.references.yaml#pqtl_1_ref",
+   "dataset_named_in_source": null,
+   "coder_note": "Sentence attributes the protein genetic associations to a pQTL study of 35,559 Icelanders with citation (18); the entry DOI is the Ferkingstad 2021 row source only."
+  }
+ ]
+}

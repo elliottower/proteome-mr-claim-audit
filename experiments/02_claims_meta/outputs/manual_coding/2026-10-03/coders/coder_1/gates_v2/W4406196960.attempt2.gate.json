@@ -1,0 +1,49 @@
+{
+ "record_id": "W4406196960",
+ "coder_id": "coder_1",
+ "attempt": 2,
+ "rows": [
+  {
+   "side": "outcome",
+   "name_as_written": "Bellenguez et al. 2022",
+   "value": "EADB (Bellenguez 2022)",
+   "passes": true,
+   "failures": [],
+   "warnings": [],
+   "machine_basis": [
+    "source_citation:Bellenguez|2022"
+   ],
+   "reference_verified_by": null
+  },
+  {
+   "side": "pqtl",
+   "name_as_written": "UK Biobank Pharma Proteomics Project",
+   "value": "not_stated_in_source",
+   "passes": true,
+   "failures": [],
+   "warnings": [],
+   "machine_basis": [],
+   "reference_verified_by": null
+  },
+  {
+   "side": "pqtl",
+   "name_as_written": "deCODE genetics",
+   "value": "deCODE SomaScan v4 (Ferkingstad 2021)",
+   "passes": true,
+   "failures": [],
+   "warnings": [],
+   "machine_basis": [
+    "aliases:deCODE",
+    "aliases:deCODE genetics",
+    "aliases:Ferkingstad et al. 2021",
+    "source_citation:Ferkingstad|2021"
+   ],
+   "reference_verified_by": null
+  }
+ ],
+ "rows_not_coded_once": [],
+ "rows_not_given": [],
+ "wrong_coder": false,
+ "passes": true,
+ "gated_utc": "20261008T003917Z"
+}

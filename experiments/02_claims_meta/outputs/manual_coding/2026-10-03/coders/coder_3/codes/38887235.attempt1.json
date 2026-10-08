@@ -1,0 +1,24 @@
+{
+ "record_id": "38887235",
+ "coder_id": "coder_3",
+ "attempt": 1,
+ "rows": [
+  {
+   "side": "outcome",
+   "name_as_written": "Breast Cancer Association Consortium",
+   "value": "BCAC breast cancer (Michailidou 2017)",
+   "unresolved_reason": null,
+   "identification_basis": "reference_entry",
+   "source_read": "full_text",
+   "passage_id": "p001",
+   "quote": "We collected genetic association summary statistics for BC risk from the Breast Cancer Association Consortium (BCAC), a meta-analysis of 67 studies including 122,977 cases (thereof 69,501 estrogen receptor (ER)-positive and 21,468 ER-negative), and 105,974 controls for breast cancer (14).",
+   "citations_claim": "claims/38887235.yaml#outcome_1",
+   "companion_source": true,
+   "reference_label": "14",
+   "reference_quote": "Michailidou K, Lindstrom S, Dennis J, Beesley J, Hui S, Kar S, et al. Association analysis identifies 65 new breast cancer risk loci. Nature. (2017) 551:92–4. doi: 10.1038/nature24284",
+   "reference_citations_claim": "claims/38887235.references.yaml#outcome_1_ref",
+   "dataset_named_in_source": null,
+   "coder_note": "Sentence attributes the summary statistics to reference 14, whose DOI is the source of one dictionary row; case/control counts agree."
+  }
+ ]
+}

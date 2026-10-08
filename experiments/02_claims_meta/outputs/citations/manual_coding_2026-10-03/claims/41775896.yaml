@@ -1,0 +1,16 @@
+source:
+  citation: '41775896'
+  local: sources/41775896.txt
+  sha256: 4e9a28ba09159a7c26a96cedf14bba300c1b1f2e9d88a183831b9f8708e08ce8
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12912406/fullTextXML
+  note: body as scripts/fetch_fulltext.py rendered it
+claims:
+  outcome_1_a3:
+    quotes:
+    - exact: This research has been conducted using the UK Biobank resource under Application Number 90143.
+  outcome_1_a4:
+    quotes:
+    - exact: This research has been conducted using the UK Biobank resource under Application Number 90143.
+  outcome_1_c2:
+    quotes:
+    - exact: This research has been conducted using the UK Biobank resource under Application Number 90143.

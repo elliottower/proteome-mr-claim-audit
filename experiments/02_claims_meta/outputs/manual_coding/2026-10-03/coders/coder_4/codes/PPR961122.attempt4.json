@@ -1,0 +1,15 @@
+{"record_id": "PPR961122", "coder_id": "coder_4", "attempt": 4,
+ "rows": [
+  {"side": "outcome", "name_as_written": "UK Biobank",
+   "value": "source_names_dataset_absent_from_dictionary",
+   "unresolved_reason": "dataset_absent_from_dictionary",
+   "identification_basis": null,
+   "source_read": "abstract",
+   "passage_id": "p001",
+   "quote": "Here, we examined the association between 2,919 plasma proteins and incident CAD in the UK Biobank cohort (n=35,778).",
+   "citations_claim": "claims/PPR961122.yaml#outcome_1_a4",
+   "companion_source": false,
+   "reference_label": null, "reference_quote": null, "reference_citations_claim": null,
+   "dataset_named_in_source": "UK Biobank",
+   "coder_note": "Decision order step 3 (rule C): the sentence defines the authors' own observational analysis of UK Biobank individual-level data by a phenotype (incident CAD) and a measurement (2,919 plasma proteins), not only by its number of participants (n=35,778); no published GWAS release, accession or citation is named and no dictionary row is this analysis."}
+ ]}

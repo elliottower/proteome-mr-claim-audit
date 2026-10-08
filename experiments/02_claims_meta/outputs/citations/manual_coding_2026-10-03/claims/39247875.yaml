@@ -1,0 +1,45 @@
+source:
+  citation: '39247875'
+  local: sources/39247875.txt
+  sha256: 742a20f902419562dd66f1a22fe551ca0487bfa196ed06713f79fff13c3e1cad
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11380310/fullTextXML
+  note: body as scripts/fetch_fulltext.py rendered it
+claims:
+  pqtl_1:
+    quotes:
+    - exact: The PsychENCODE eQTL datasets were generated using brain tissues (specifically, the prefrontal
+        cortex) from 1,378 human individuals.20 We accessed the LD reference panel of the European (EUR)
+        population from the 1000 Genomes project provided by OpenGWAS API.21 The BrainMeta v2 cis-eQTL
+        summary data, downloaded from the SMR website, underwent eQTL mapping using RNA-seq data from
+        2,865 brain cortex samples, collected from 2,443 unrelated individuals of European ancestry with
+        genome-wide single nucleotide polymorphism (SNP) data.
+  pqtl_2:
+    quotes:
+    - exact: The GTEx eQTL datasets were acquired from the SMR website (https://yanglab.westlake.edu.cn/software/smr/#eQTLsummarydata).
+  pqtl_3:
+    quotes:
+    - exact: The PsychENCODE eQTL datasets were generated using brain tissues (specifically, the prefrontal
+        cortex) from 1,378 human individuals.20 We accessed the LD reference panel of the European (EUR)
+        population from the 1000 Genomes project provided by OpenGWAS API.21 The BrainMeta v2 cis-eQTL
+        summary data, downloaded from the SMR website, underwent eQTL mapping using RNA-seq data from
+        2,865 brain cortex samples, collected from 2,443 unrelated individuals of European ancestry with
+        genome-wide single nucleotide polymorphism (SNP) data.
+  pqtl_1_c2:
+    quotes:
+    - exact: The PsychENCODE eQTL datasets were generated using brain tissues (specifically, the prefrontal
+        cortex) from 1,378 human individuals.20 We accessed the LD reference panel of the European (EUR)
+        population from the 1000 Genomes project provided by OpenGWAS API.21 The BrainMeta v2 cis-eQTL
+        summary data, downloaded from the SMR website, underwent eQTL mapping using RNA-seq data from
+        2,865 brain cortex samples, collected from 2,443 unrelated individuals of European ancestry with
+        genome-wide single nucleotide polymorphism (SNP) data.
+  pqtl_2_c2:
+    quotes:
+    - exact: The GTEx eQTL datasets were acquired from the SMR website (https://yanglab.westlake.edu.cn/software/smr/#eQTLsummarydata).
+  pqtl_3_c2:
+    quotes:
+    - exact: The PsychENCODE eQTL datasets were generated using brain tissues (specifically, the prefrontal
+        cortex) from 1,378 human individuals.20 We accessed the LD reference panel of the European (EUR)
+        population from the 1000 Genomes project provided by OpenGWAS API.21 The BrainMeta v2 cis-eQTL
+        summary data, downloaded from the SMR website, underwent eQTL mapping using RNA-seq data from
+        2,865 brain cortex samples, collected from 2,443 unrelated individuals of European ancestry with
+        genome-wide single nucleotide polymorphism (SNP) data.

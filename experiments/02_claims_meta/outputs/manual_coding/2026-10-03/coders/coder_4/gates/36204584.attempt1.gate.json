@@ -1,0 +1,45 @@
+{
+ "record_id": "36204584",
+ "coder_id": "coder_4",
+ "attempt": 1,
+ "rows": [
+  {
+   "side": "outcome",
+   "name_as_written": "CARDIoGRAMplusC4D",
+   "value": "CARDIoGRAMplusC4D 1000 Genomes CAD (Nikpay 2015)",
+   "passes": true,
+   "failures": [],
+   "warnings": [],
+   "machine_basis": [
+    "aliases:CARDIoGRAMplusC4D",
+    "source_citation:Nikpay|2015",
+    "source_identifier:10.1038/ng.3396",
+    "source_identifier:26343387",
+    "source_identifier:PMC4589895"
+   ],
+   "reference_verified_by": "doi"
+  },
+  {
+   "side": "outcome",
+   "name_as_written": "UK Biobank",
+   "value": "GeneATLAS",
+   "passes": true,
+   "failures": [],
+   "warnings": [
+    "value_outside_the_candidate_set"
+   ],
+   "machine_basis": [
+    "source_citation:Canela-Xandri|2018",
+    "source_identifier:10.1038/s41588-018-0248-z",
+    "source_identifier:30349118",
+    "source_identifier:PMC6707814"
+   ],
+   "reference_verified_by": "doi"
+  }
+ ],
+ "rows_not_coded_once": [],
+ "rows_not_given": [],
+ "wrong_coder": false,
+ "passes": true,
+ "gated_utc": "20261007T182759Z"
+}

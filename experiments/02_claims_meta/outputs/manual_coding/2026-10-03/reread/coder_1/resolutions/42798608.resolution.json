@@ -1,0 +1,14 @@
+{"record_id": "42798608", "coder_id": "coder_1",
+ "rows": [
+  {"row": "outcome_2",
+   "resolved_value": "Neale lab UK Biobank GWAS round 2",
+   "unresolved_reason": null,
+   "resolution_note": "The Table 1 lymphoma row line gives sample size 361,194 with author Neale lab, year 2018, European ancestry and consortium UK Biobank: the exact release N with its year matches exactly one dictionary row. The other UK Biobank row line of Table 1 (lymphoid leukemia, 372,776, Burrows 2021) is a second outcome GWAS whose N equals no dictionary row's, so under rule H it identifies no other release and is not a conflict; the remaining passages use UK Biobank for individual-level validation and name no release.",
+   "identification_basis": "exact_n_with_platform_or_year",
+   "source_read": "full_text",
+   "passage_id": "p006",
+   "quote": "[Table 1. GWAS cohorts for outcomes in Mendelian randomization analysis.] Outcome (ICD10): Lymphoma(C81, C82, C83, C84, C85, C86) | Sample size: 361,194 (1,752/359,442) | SNPs: 10,226,672 | Consortium: UK Biobank | Ancestry: European | Author: Neale lab | Year: 2018",
+   "citations_claim": "claims/42798608.yaml#outcome_2_r",
+   "companion_source": false,
+   "reference_label": null, "reference_quote": null, "reference_citations_claim": null,
+   "dataset_named_in_source": null}]}

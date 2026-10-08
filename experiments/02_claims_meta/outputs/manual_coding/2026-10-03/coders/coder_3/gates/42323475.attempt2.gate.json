@@ -1,0 +1,34 @@
+{
+ "record_id": "42323475",
+ "coder_id": "coder_3",
+ "attempt": 2,
+ "rows": [
+  {
+   "side": "outcome",
+   "name_as_written": "Breast Cancer Association Consortium",
+   "value": "not_stated_in_source",
+   "passes": true,
+   "failures": [],
+   "warnings": [],
+   "machine_basis": [],
+   "reference_verified_by": null
+  },
+  {
+   "side": "outcome",
+   "name_as_written": "FinnGen DF 11",
+   "value": "FinnGen R11",
+   "passes": false,
+   "failures": [
+    "no_identifier_of_the_coded_row_in_the_pinned_material"
+   ],
+   "warnings": [],
+   "machine_basis": [],
+   "reference_verified_by": null
+  }
+ ],
+ "rows_not_coded_once": [],
+ "rows_not_given": [],
+ "wrong_coder": false,
+ "passes": false,
+ "gated_utc": "20261007T185248Z"
+}

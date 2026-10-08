@@ -1,0 +1,41 @@
+{
+ "record_id": "38750076",
+ "coder_id": "coder_3",
+ "attempt": 1,
+ "rows": [
+  {
+   "side": "outcome",
+   "name_as_written": "UK Biobank",
+   "value": "source_names_dataset_absent_from_dictionary",
+   "unresolved_reason": "dataset_absent_from_dictionary",
+   "identification_basis": null,
+   "source_read": "full_text",
+   "passage_id": "p039",
+   "quote": "In all exome-wide analyses, variants were oriented to the protein-increasing allele and exGS were calculated by summing the number of independent (clumping r2 < 0.05, 10,000KB) protein-increasing alleles, weighted by betas reported in Dhindsa et al., and projected in up to 337,543 European UK Biobank participants with exome-sequencing (Supplementary Data 10) using PLINK252.",
+   "citations_claim": "claims/38750076.yaml#outcome_1",
+   "companion_source": false,
+   "reference_label": null,
+   "reference_quote": null,
+   "reference_citations_claim": null,
+   "dataset_named_in_source": "UK Biobank",
+   "coder_note": "Outcomes are individual-level cohort data (genetic scores projected in cohort participants); the dictionary has no row for individual-level data of this cohort."
+  },
+  {
+   "side": "pqtl",
+   "name_as_written": "UK Biobank",
+   "value": "not_stated_in_source",
+   "unresolved_reason": "release_not_identified",
+   "identification_basis": null,
+   "source_read": null,
+   "passage_id": null,
+   "quote": null,
+   "citations_claim": null,
+   "companion_source": false,
+   "reference_label": null,
+   "reference_quote": null,
+   "reference_citations_claim": null,
+   "dataset_named_in_source": null,
+   "coder_note": "Exome pQTL source is cited by author name without year and with an N differing from the dictionary row; linked entry is a preprint whose DOI is not the row source identifier."
+  }
+ ]
+}

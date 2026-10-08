@@ -1,0 +1,24 @@
+{
+ "record_id": "42260810",
+ "coder_id": "coder_2",
+ "attempt": 1,
+ "rows": [
+  {
+   "side": "pqtl",
+   "name_as_written": "deCODE Genetics",
+   "value": "deCODE SomaScan v4 (Ferkingstad 2021)",
+   "unresolved_reason": null,
+   "identification_basis": "reference_entry",
+   "source_read": "full_text",
+   "passage_id": "p002",
+   "quote": "These data quantified 4907 unique plasma proteins in 35,559 individuals.[18]",
+   "citations_claim": "claims/42260810.yaml#pqtl_1",
+   "companion_source": true,
+   "reference_label": "18",
+   "reference_quote": "Ferkingstad E Sulem P Atlason BA . Large-scale integration of the plasma proteome with genetics and disease. Nat Genet . 2021 ; 53 : 1712 – 21 . 34857953 10.1038/s41588-021-00978-w",
+   "reference_citations_claim": "claims/42260810.references.yaml#pqtl_1_ref",
+   "dataset_named_in_source": null,
+   "coder_note": "Sentence attributes the cis-pQTL data (4907 proteins in 35,559 individuals) to reference 18, whose DOI and PMID are the source identifiers of one dictionary row only; the sample size agrees with that row."
+  }
+ ]
+}

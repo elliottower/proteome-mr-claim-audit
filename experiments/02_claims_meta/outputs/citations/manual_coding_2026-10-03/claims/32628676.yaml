@@ -1,0 +1,15 @@
+source:
+  citation: '32628676'
+  local: sources/32628676.txt
+  sha256: 05e2e34542797f83129655d9454f644b53800aae7040ecc31744f7949bf4bb5b
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7337286/fullTextXML
+  note: body as scripts/fetch_fulltext.py rendered it
+claims:
+  outcome_1:
+    quotes:
+    - exact: All 778 outcome traits from UK Biobank in GeneAtlas (http://geneatlas.roslin.ed.ac.uk/; Canela-Xandri
+        et al. (2018) [88]) were included.
+  outcome_1_c2:
+    quotes:
+    - exact: All 778 outcome traits from UK Biobank in GeneAtlas (http://geneatlas.roslin.ed.ac.uk/; Canela-Xandri
+        et al. (2018) [88]) were included.

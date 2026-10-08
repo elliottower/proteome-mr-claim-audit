@@ -1,0 +1,58 @@
+{
+ "record_id": "41514346",
+ "coder_id": "coder_4",
+ "attempt": 4,
+ "rows": [
+  {
+   "side": "outcome",
+   "name_as_written": "BCAC",
+   "value": "BCAC breast cancer subtypes (Zhang 2020)",
+   "passes": true,
+   "failures": [],
+   "warnings": [
+    "value_outside_the_candidate_set"
+   ],
+   "machine_basis": [
+    "sample_size:133384+2020"
+   ],
+   "reference_verified_by": "doi"
+  },
+  {
+   "side": "outcome",
+   "name_as_written": "FinnGen",
+   "value": "FinnGen R9",
+   "passes": true,
+   "failures": [],
+   "warnings": [],
+   "machine_basis": [
+    "release_number:finngen 9"
+   ],
+   "reference_verified_by": null
+  },
+  {
+   "side": "outcome",
+   "name_as_written": "GIANT",
+   "value": "not_stated_in_source",
+   "passes": true,
+   "failures": [],
+   "warnings": [],
+   "machine_basis": [],
+   "reference_verified_by": null
+  },
+  {
+   "side": "outcome",
+   "name_as_written": "UK Biobank",
+   "value": "source_names_dataset_absent_from_dictionary",
+   "passes": true,
+   "failures": [],
+   "warnings": [],
+   "machine_basis": [],
+   "reference_verified_by": null
+  }
+ ],
+ "rows_not_coded_once": [],
+ "rows_not_given": [],
+ "wrong_coder": false,
+ "passes": true,
+ "gated_utc": "20261008T011946Z"
+}

@@ -1,0 +1,25 @@
+source:
+  citation: '41456820'
+  local: sources/41456820.txt
+  sha256: d8cb164be0e850858c553933693fa4e42933d66e7845a41cb239844e35fdc298
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12824914/fullTextXML
+  note: body as scripts/fetch_fulltext.py rendered it
+claims:
+  pqtl_1:
+    quotes:
+    - exact: To address this gap, we performed antibody-based proteomic profiling using Olink technology
+        [11] across four key cardiometabolic tissues (liver, skeletal muscle, aorta and mammary artery),
+        assaying 1,242 samples from 284 patients in the Stockholm-Tartu Atherosclerosis Reverse Engineering
+        Task (STARNET) cohort [14,15].
+  pqtl_1_a2:
+    quotes:
+    - exact: To address this gap, we performed antibody-based proteomic profiling using Olink technology
+        [11] across four key cardiometabolic tissues (liver, skeletal muscle, aorta and mammary artery),
+        assaying 1,242 samples from 284 patients in the Stockholm-Tartu Atherosclerosis Reverse Engineering
+        Task (STARNET) cohort [14,15].
+  pqtl_1_c2:
+    quotes:
+    - exact: To address this gap, we performed antibody-based proteomic profiling using Olink technology
+        [11] across four key cardiometabolic tissues (liver, skeletal muscle, aorta and mammary artery),
+        assaying 1,242 samples from 284 patients in the Stockholm-Tartu Atherosclerosis Reverse Engineering
+        Task (STARNET) cohort [14,15].

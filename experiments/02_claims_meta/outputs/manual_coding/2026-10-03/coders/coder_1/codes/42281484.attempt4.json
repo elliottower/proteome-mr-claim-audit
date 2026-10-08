@@ -1,0 +1,15 @@
+{"record_id": "42281484", "coder_id": "coder_1", "attempt": 4,
+ "rows": [
+  {"side": "outcome", "name_as_written": "UK Biobank",
+   "value": "source_names_dataset_absent_from_dictionary",
+   "unresolved_reason": "dataset_absent_from_dictionary",
+   "identification_basis": null,
+   "source_read": "full_text",
+   "passage_id": "p001",
+   "quote": "To address this concern, we performed a prospective proteome-wide association study of 2920 plasma proteins from the UK Biobank (UKB).",
+   "citations_claim": "claims/42281484.yaml#outcome_1_a4",
+   "companion_source": false,
+   "reference_label": null, "reference_quote": null, "reference_citations_claim": null,
+   "dataset_named_in_source": "UK Biobank",
+   "coder_note": "Step 3 of the decision order (rule C): the sentence defines the authors' own analysis of UK Biobank individual-level data by a described analysis procedure and no participant count (a prospective proteome-wide association study of 2920 plasma proteins, for incident BPH per the next sentence); no dictionary row is that analysis. No release identifier, accession or citation of a listed UK Biobank release, so step 2 does not apply; no accession, so rule C4 does not arise."}
+ ]}

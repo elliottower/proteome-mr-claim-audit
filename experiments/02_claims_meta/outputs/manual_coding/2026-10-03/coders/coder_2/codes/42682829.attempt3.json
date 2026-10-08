@@ -1,0 +1,16 @@
+{"record_id": "42682829", "coder_id": "coder_2", "attempt": 3,
+ "rows": [
+  {"side": "pqtl", "name_as_written": "UK Biobank",
+   "value": "source_names_dataset_absent_from_dictionary",
+   "unresolved_reason": "dataset_absent_from_dictionary",
+   "identification_basis": null,
+   "source_read": "full_text",
+   "passage_id": "p001",
+   "quote": "We undertook ancestry-specific GWAS of 2923 proteins in 50 395 participants, including 48 195 European (EUR) participants, plus 1202 African (AFR), 482 American (AMR), 237 East Asian (EAS) and 729 South Asian (SAS) ancestry participants in UK Biobank (ancestry described in Shrine et al. [5]).",
+   "citations_claim": "claims/42682829.yaml#pqtl_1_a3",
+   "companion_source": false,
+   "reference_label": null, "reference_quote": null, "reference_citations_claim": null,
+   "dataset_named_in_source": "UK Biobank",
+   "coder_note": "Decision order step 3 (rule C): the authors ran their own ancestry-specific protein GWAS of UK Biobank individual-level data, defined by a described procedure (2923 proteins, REGENIE v3.2.6, covariates, UKB applications 648 and 43027), not by a number alone. Steps 1 and 2 do not apply: no two identifiers conflict, and reference 12 (Sun 2023) is cited for sample processing and quality control, not as the source of the analysis dataset, so rule C5 gives no code; 50 395 and 48 195 equal no dictionary row's N. No accession is given for the pQTL data, so rule C4 does not arise."}
+ ]
+}

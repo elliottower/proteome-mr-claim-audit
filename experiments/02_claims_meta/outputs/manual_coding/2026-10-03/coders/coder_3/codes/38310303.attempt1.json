@@ -1,0 +1,41 @@
+{
+ "record_id": "38310303",
+ "coder_id": "coder_3",
+ "attempt": 1,
+ "rows": [
+  {
+   "side": "outcome",
+   "name_as_written": "Cooperative Health Research in the Region of Augsburg (KORA) S4",
+   "value": "source_names_dataset_absent_from_dictionary",
+   "unresolved_reason": "dataset_absent_from_dictionary",
+   "identification_basis": null,
+   "source_read": "full_text",
+   "passage_id": "p003",
+   "quote": "The discovery sample was derived from the population-based KORA S4 cohort study comprising 4261 participants at baseline (1999 to 2001) [18].",
+   "citations_claim": "claims/38310303.yaml#outcome_1",
+   "companion_source": false,
+   "reference_label": null,
+   "reference_quote": null,
+   "reference_citations_claim": null,
+   "dataset_named_in_source": "KORA S4",
+   "coder_note": "Outcome data are the individual-level cohort itself (incident events in the discovery cohort), named in the sentence; the dictionary has no row for it."
+  },
+  {
+   "side": "outcome",
+   "name_as_written": "KORA-Age1",
+   "value": "source_names_dataset_absent_from_dictionary",
+   "unresolved_reason": "dataset_absent_from_dictionary",
+   "identification_basis": null,
+   "source_read": "full_text",
+   "passage_id": "p002",
+   "quote": "For validation, data from the KORA-Age1 study was used.",
+   "citations_claim": "claims/38310303.yaml#outcome_2",
+   "companion_source": false,
+   "reference_label": null,
+   "reference_quote": null,
+   "reference_citations_claim": null,
+   "dataset_named_in_source": "KORA-Age1",
+   "coder_note": "Outcome data are the individual-level validation cohort named in the sentence; the dictionary has no row for it."
+  }
+ ]
+}

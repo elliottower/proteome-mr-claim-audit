@@ -1,0 +1,78 @@
+source:
+  citation: '41626871'
+  local: sources/41626871.txt
+  sha256: e63c3013cc01bf318f5d268056da1129e59319cf4689cd464c7bce547d28b3d5
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12889177/fullTextXML
+  note: body as scripts/fetch_fulltext.py rendered it
+claims:
+  outcome_1:
+    quotes:
+    - exact: Independence was determined using the OpenGWAS Database API within the ieugwasr R package
+        by excluding linkage disequilibrium (LD) (r2 < 0.001, clumping window > 10,000 kb).26–28 Glaucoma
+        and subtypes (POAG and PACG) data were cross-referenced from FinnGen Release 1024 and the Million
+        Veteran Program.29 The GWAS summary statistics for IOP metrics,30 retinal imaging biomarkers,30
+        gut microbiota,31 inflammatory factors,32 and lipidome,33 were obtained from the GWAS catalog.
+  outcome_2:
+    quotes:
+    - exact: Independence was determined using the OpenGWAS Database API within the ieugwasr R package
+        by excluding linkage disequilibrium (LD) (r2 < 0.001, clumping window > 10,000 kb).26–28 Glaucoma
+        and subtypes (POAG and PACG) data were cross-referenced from FinnGen Release 1024 and the Million
+        Veteran Program.29 The GWAS summary statistics for IOP metrics,30 retinal imaging biomarkers,30
+        gut microbiota,31 inflammatory factors,32 and lipidome,33 were obtained from the GWAS catalog.
+  outcome_1_a2:
+    quotes:
+    - exact: Independence was determined using the OpenGWAS Database API within the ieugwasr R package
+        by excluding linkage disequilibrium (LD) (r2 < 0.001, clumping window > 10,000 kb).26–28 Glaucoma
+        and subtypes (POAG and PACG) data were cross-referenced from FinnGen Release 1024 and the Million
+        Veteran Program.29 The GWAS summary statistics for IOP metrics,30 retinal imaging biomarkers,30
+        gut microbiota,31 inflammatory factors,32 and lipidome,33 were obtained from the GWAS catalog.
+  outcome_2_a2:
+    quotes:
+    - exact: Independence was determined using the OpenGWAS Database API within the ieugwasr R package
+        by excluding linkage disequilibrium (LD) (r2 < 0.001, clumping window > 10,000 kb).26–28 Glaucoma
+        and subtypes (POAG and PACG) data were cross-referenced from FinnGen Release 1024 and the Million
+        Veteran Program.29 The GWAS summary statistics for IOP metrics,30 retinal imaging biomarkers,30
+        gut microbiota,31 inflammatory factors,32 and lipidome,33 were obtained from the GWAS catalog.
+  outcome_1_a3:
+    quotes:
+    - exact: Genome-wide association study summary data used in this study are available publicly from
+        the GWAS catalog (https://www.ebi.ac.uk/gwas/) and FinnGen round 10 (https://www.finngen.fi).The
+        eQTL, and mQTL, sQTL for SMR analysis are available publicly from The Yang Lab platform, Westlake
+        University, China (https://yanglab.westlake.edu.cn/software/smr/#Download).
+  outcome_2_a3:
+    quotes:
+    - exact: Independence was determined using the OpenGWAS Database API within the ieugwasr R package
+        by excluding linkage disequilibrium (LD) (r2 < 0.001, clumping window > 10,000 kb).26–28 Glaucoma
+        and subtypes (POAG and PACG) data were cross-referenced from FinnGen Release 1024 and the Million
+        Veteran Program.29 The GWAS summary statistics for IOP metrics,30 retinal imaging biomarkers,30
+        gut microbiota,31 inflammatory factors,32 and lipidome,33 were obtained from the GWAS catalog.
+  outcome_1_a4:
+    quotes:
+    - exact: Genome-wide association study summary data used in this study are available publicly from
+        the GWAS catalog (https://www.ebi.ac.uk/gwas/) and FinnGen round 10 (https://www.finngen.fi).The
+        eQTL, and mQTL, sQTL for SMR analysis are available publicly from The Yang Lab platform, Westlake
+        University, China (https://yanglab.westlake.edu.cn/software/smr/#Download).
+  outcome_2_a4:
+    quotes:
+    - exact: Independence was determined using the OpenGWAS Database API within the ieugwasr R package
+        by excluding linkage disequilibrium (LD) (r2 < 0.001, clumping window > 10,000 kb).26–28 Glaucoma
+        and subtypes (POAG and PACG) data were cross-referenced from FinnGen Release 1024 and the Million
+        Veteran Program.29 The GWAS summary statistics for IOP metrics,30 retinal imaging biomarkers,30
+        gut microbiota,31 inflammatory factors,32 and lipidome,33 were obtained from the GWAS catalog.
+  outcome_1_c2:
+    quotes:
+    - exact: Genome-wide association study summary data used in this study are available publicly from
+        the GWAS catalog (https://www.ebi.ac.uk/gwas/) and FinnGen round 10 (https://www.finngen.fi).The
+        eQTL, and mQTL, sQTL for SMR analysis are available publicly from The Yang Lab platform, Westlake
+        University, China (https://yanglab.westlake.edu.cn/software/smr/#Download).
+  outcome_2_c2:
+    quotes:
+    - exact: Independence was determined using the OpenGWAS Database API within the ieugwasr R package
+        by excluding linkage disequilibrium (LD) (r2 < 0.001, clumping window > 10,000 kb).26–28 Glaucoma
+        and subtypes (POAG and PACG) data were cross-referenced from FinnGen Release 1024 and the Million
+        Veteran Program.29 The GWAS summary statistics for IOP metrics,30 retinal imaging biomarkers,30
+        gut microbiota,31 inflammatory factors,32 and lipidome,33 were obtained from the GWAS catalog.
+  pqtl_1_c2:
+    quotes:
+    - exact: The pQTL data were sourced from the UKB-PPP (https://www.synapse.org/Synapse:syn51364943),
+        the deCODE Health study (https://www.decode.com/summarydata/), and the Fenland study (https://www.omicscience.org/apps/pgwas).

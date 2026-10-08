@@ -1,0 +1,41 @@
+{
+ "record_id": "39280009",
+ "coder_id": "coder_2",
+ "attempt": 1,
+ "rows": [
+  {
+   "side": "outcome",
+   "name_as_written": "DIAGRAM",
+   "value": "source_names_dataset_absent_from_dictionary",
+   "unresolved_reason": "dataset_absent_from_dictionary",
+   "identification_basis": null,
+   "source_read": "full_text",
+   "passage_id": "p001",
+   "quote": "This dataset originated from the European ancestry segment of a recent multi-ancestry GWAS on T2DM, comprising 242,283 cases and 1,569,734 controls (23).",
+   "citations_claim": "claims/39280009.yaml#outcome_1",
+   "companion_source": false,
+   "reference_label": null,
+   "reference_quote": null,
+   "reference_citations_claim": null,
+   "dataset_named_in_source": "European ancestry segment of a recent multi-ancestry GWAS on T2DM, comprising 242,283 cases and 1,569,734 controls",
+   "coder_note": "Sentence names the DIAGRAM dataset as the European segment of the multi-ancestry GWAS of reference 23 with 242,283 cases; no dictionary row has this study or these counts."
+  },
+  {
+   "side": "outcome",
+   "name_as_written": "FinnGen",
+   "value": "FinnGen R9",
+   "unresolved_reason": null,
+   "identification_basis": "release_identifier",
+   "source_read": "full_text",
+   "passage_id": "p001",
+   "quote": "For summary-level GWAS data related to T2DM complications, the datasets were collected from the FinnGen R9 database (https://r9.finngen.fi/) (24), including T2DM with coma (ICD-10: E11.0), ketoacidosis (ICD-10: E11.1), kidney complications (ICD-10: E11.2), retinal complications (ICD-10: E11.3), neuropathy (ICD-10: E11.4), and peripheral circulatory complications (ICD-10: E11.5).",
+   "citations_claim": "claims/39280009.yaml#outcome_2",
+   "companion_source": false,
+   "reference_label": null,
+   "reference_quote": null,
+   "reference_citations_claim": null,
+   "dataset_named_in_source": null,
+   "coder_note": "Sentence states the FinnGen R9 database (r9.finngen.fi)."
+  }
+ ]
+}

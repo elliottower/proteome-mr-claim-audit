@@ -1,0 +1,22 @@
+{
+ "record_id": "40765733",
+ "coder_id": "coder_2",
+ "rows": [
+  {
+   "row": "outcome_1",
+   "resolved_value": "FinnGen R11",
+   "unresolved_reason": null,
+   "resolution_note": "p001 sentence 1 writes 'FinnGen database (v11)': 'v11' read as the abbreviated form of version 11 modifying the dataset name (rule A; the abbreviation 'v' is not itself in rule A's list of words, 'version' is). The 297,867 controls and 43,132 patients are a phenotype-specific count, not a release-defining N, and identify no other row (rule H); no other identifier conflicts.",
+   "identification_basis": "release_identifier",
+   "source_read": "full_text",
+   "passage_id": "p001",
+   "quote": "Data were collected from the FinnGen database (v11), which includes 297,867 controls and 43,132 patients of European descent.",
+   "citations_claim": "claims/40765733.yaml#outcome_1_r",
+   "companion_source": false,
+   "reference_label": null,
+   "reference_quote": null,
+   "reference_citations_claim": null,
+   "dataset_named_in_source": null
+  }
+ ]
+}

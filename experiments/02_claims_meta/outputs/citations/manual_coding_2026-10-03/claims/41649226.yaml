@@ -1,0 +1,15 @@
+source:
+  citation: '41649226'
+  local: sources/41649226.txt
+  sha256: 1d663452f019e764c7d02d68abe3443552b91eb9796e2eaa981d25fd1028e37b
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12889185/fullTextXML
+  note: body as scripts/fetch_fulltext.py rendered it
+claims:
+  outcome_1:
+    quotes:
+    - exact: GWAS summary statistics for overall glaucoma and for the POAG, PACG, and NTG subtypes were
+        obtained from the FINLAND R12 project.
+  outcome_1_c2:
+    quotes:
+    - exact: GWAS summary statistics for overall glaucoma and for the POAG, PACG, and NTG subtypes were
+        obtained from the FINLAND R12 project.

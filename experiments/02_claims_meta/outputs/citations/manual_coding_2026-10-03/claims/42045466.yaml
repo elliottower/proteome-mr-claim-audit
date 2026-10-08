@@ -1,0 +1,33 @@
+source:
+  citation: '42045466'
+  local: sources/42045466.txt
+  sha256: 761c6721211b762989a2ff3d9c3025747fdd7fdd48c31fdd3c5b4179dc11a11e
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13287660/fullTextXML
+  note: body as scripts/fetch_fulltext.py rendered it
+claims:
+  outcome_1:
+    quotes:
+    - exact: Additionally, we obtained the GWAS summary statistics of UCs in European ancestry from the
+        FinnGen (R9)37.
+  outcome_1_a2:
+    quotes:
+    - exact: Additionally, we obtained the GWAS summary statistics of UCs in European ancestry from the
+        FinnGen (R9)37.
+  outcome_1_a3:
+    quotes:
+    - exact: Additionally, we obtained the GWAS summary statistics of UCs in European ancestry from the
+        FinnGen (R9)37.
+  outcome_1_c2:
+    quotes:
+    - exact: Additionally, we obtained the GWAS summary statistics of UCs in European ancestry from the
+        FinnGen (R9)37.
+  outcome_2_c2:
+    quotes:
+    - exact: The GWAS summary statistics of UCs in individuals of European ancestry from the UKB were
+        procured from the PheWeb website35 and the study conducted by Jiang L et al. based on the samples
+        from the UKB36.
+  outcome_3_c2:
+    quotes:
+    - exact: To obtain a reliable conclusion regarding the causal relationships between plasma proteins
+        and the risk of urological cancers, we included cases and controls of European ancestry with urological
+        cancers from FinnGen and pan-UKBB meta-analysis results.

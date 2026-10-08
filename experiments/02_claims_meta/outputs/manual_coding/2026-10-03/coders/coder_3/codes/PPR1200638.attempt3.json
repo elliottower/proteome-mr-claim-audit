@@ -1,0 +1,15 @@
+{"record_id": "PPR1200638", "coder_id": "coder_3", "attempt": 3,
+ "rows": [
+  {"side": "outcome", "name_as_written": "IEU GWAS catalog (UKB-B-20145)",
+   "value": "MRC-IEU UK Biobank GWAS pipeline (OpenGWAS ukb-b)",
+   "unresolved_reason": null,
+   "identification_basis": "source_identifier",
+   "source_read": "abstract",
+   "passage_id": "p001",
+   "quote": "Colon cancer GWAS data were sourced from the IEU GWAS catalog (UKB-B-20145). <h4>Results: </h4> : In this study, we identified one mediating relationship between inflammation, lipid, and colon cancer.",
+   "citations_claim": "claims/PPR1200638.yaml#outcome_1_a3",
+   "companion_source": false,
+   "reference_label": null, "reference_quote": null, "reference_citations_claim": null,
+   "dataset_named_in_source": null,
+   "coder_note": "Step 2 (rule C4, first case; rule A for case): this paper's sentence gives the accession UKB-B-20145 from the IEU catalog, whose prefix ukb-b the MRC-IEU UK Biobank GWAS pipeline row lists (aliases 'ukb-b', 'IEU OpenGWAS ukb-b'); the passage gives no ancestry or counts for this dataset, so nothing conflicts and no other row lists the prefix."}
+ ]}

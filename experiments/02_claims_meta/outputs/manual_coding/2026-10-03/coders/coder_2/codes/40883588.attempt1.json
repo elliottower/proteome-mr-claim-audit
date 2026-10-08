@@ -1,0 +1,41 @@
+{
+ "record_id": "40883588",
+ "coder_id": "coder_2",
+ "attempt": 1,
+ "rows": [
+  {
+   "side": "outcome",
+   "name_as_written": "FinnGen",
+   "value": "not_stated_in_source",
+   "unresolved_reason": "release_not_identified",
+   "identification_basis": null,
+   "source_read": null,
+   "passage_id": null,
+   "quote": null,
+   "citations_claim": null,
+   "companion_source": false,
+   "reference_label": null,
+   "reference_quote": null,
+   "reference_citations_claim": null,
+   "dataset_named_in_source": null,
+   "coder_note": "FinnGen given with endpoint case and control counts only; their sum equals no release sample size and no release identifier is stated."
+  },
+  {
+   "side": "pqtl",
+   "name_as_written": "UK Biobank",
+   "value": "not_stated_in_source",
+   "unresolved_reason": "release_not_identified",
+   "identification_basis": null,
+   "source_read": null,
+   "passage_id": null,
+   "quote": null,
+   "citations_claim": null,
+   "companion_source": false,
+   "reference_label": null,
+   "reference_quote": null,
+   "reference_citations_claim": null,
+   "dataset_named_in_source": null,
+   "coder_note": "Sentence gives two sample sizes for the UK Biobank pQTL data (54,219 participants and a 34,557 European baseline cohort) without a platform or citation, and does not say which one is the analysis dataset."
+  }
+ ]
+}

@@ -1,0 +1,15 @@
+{"record_id": "PPR1284409", "coder_id": "coder_1", "attempt": 4,
+ "rows": [
+  {"side": "outcome", "name_as_written": "UK Biobank",
+   "value": "source_names_dataset_absent_from_dictionary",
+   "unresolved_reason": "dataset_absent_from_dictionary",
+   "identification_basis": null,
+   "source_read": "abstract",
+   "passage_id": "p001",
+   "quote": "This study aimed to investigate the genetic architecture and potential causal protein mediators of these rare cardiovascular diseases using integrated genomic and proteomic analyses. <h4>Methods</h4> Genome-wide association analyses were performed within the UK Biobank cohort for Brugada syndrome, takotsubo cardiomyopathy, and pulmonary arterial hypertension.",
+   "citations_claim": "claims/PPR1284409.yaml#outcome_1_a4",
+   "companion_source": false,
+   "reference_label": null, "reference_quote": null, "reference_citations_claim": null,
+   "dataset_named_in_source": "UK Biobank",
+   "coder_note": "Step 3 of the decision order (rule C): the sentence defines the authors' own analysis of UK Biobank individual-level data by its procedure and phenotypes and by no participant count (genome-wide association analyses performed within the UK Biobank cohort for Brugada syndrome, takotsubo cardiomyopathy and pulmonary arterial hypertension); no dictionary row is that analysis. No release identifier, accession or citation of a listed UK Biobank release, so step 2 does not apply; no accession, so rule C4 does not arise."}
+ ]}

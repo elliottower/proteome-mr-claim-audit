@@ -1,0 +1,41 @@
+{
+ "record_id": "40820226",
+ "coder_id": "coder_4",
+ "attempt": 1,
+ "rows": [
+  {
+   "side": "pqtl",
+   "name_as_written": "finngen dataset",
+   "value": "source_names_dataset_absent_from_dictionary",
+   "unresolved_reason": "dataset_absent_from_dictionary",
+   "identification_basis": null,
+   "source_read": "abstract_fallback_after_fulltext_no_match",
+   "passage_id": "p001",
+   "quote": "Druggable genome-wide Mendelian randomization (MR) was conducted to discover LUSC-related targets using expression quantitative trait loci (eQTL) and protein QTL (pQTL) in the ieu_b_4953 dataset and finngen dataset.",
+   "citations_claim": "claims/40820226.abstract.yaml#pqtl_1",
+   "companion_source": false,
+   "reference_label": null,
+   "reference_quote": null,
+   "reference_citations_claim": null,
+   "dataset_named_in_source": "finngen dataset",
+   "coder_note": "Sentence names the finngen dataset as one of the two datasets used; the dictionary has no row of this side for it."
+  },
+  {
+   "side": "pqtl",
+   "name_as_written": "ieu_b_4953",
+   "value": "source_names_dataset_absent_from_dictionary",
+   "unresolved_reason": "dataset_absent_from_dictionary",
+   "identification_basis": null,
+   "source_read": "full_text",
+   "passage_id": "p013",
+   "quote": "The LUSC GWAS summary statistical data was downloaded from the IEU database (https://gwas.mrcieu.ac.uk/) and the finngen database (https://r10.finngen.fi/), namely ieu_b_4953 and finngen_R10_c3_HEPATOCELLU-CARC-EXALLC.",
+   "citations_claim": "claims/40820226.yaml#pqtl_2",
+   "companion_source": false,
+   "reference_label": null,
+   "reference_quote": null,
+   "reference_citations_claim": null,
+   "dataset_named_in_source": "ieu_b_4953",
+   "coder_note": "Sentence names the ieu_b_4953 dataset downloaded from the IEU database; the dictionary has no row of this side for it."
+  }
+ ]
+}

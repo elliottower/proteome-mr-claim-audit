@@ -1,0 +1,66 @@
+source:
+  citation: '41261649'
+  local: sources/41261649.txt
+  sha256: fa7c2ceafc5e30e9e7ccb9fda47f5279deeca21a00b5aa1d5b51339ce7152691
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12582709/fullTextXML
+  note: body as scripts/fetch_fulltext.py rendered it
+claims:
+  outcome_1:
+    quotes:
+    - exact: 'For the primary analysis, we retrieved GWAS summary statistics for sepsis (ICD-10 code:
+        A41) from the FinnGen consortium (Round 9), including 12,301 sepsis cases and 332,343 controls
+        of European descent.[16] As external validation, we obtained independent GWAS data from the UK
+        Biobank (2811 cases and 406,150 controls).[17] All datasets used were publicly available and approved
+        for secondary analysis; therefore, no additional ethical approval was required.'
+  pqtl_1:
+    quotes:
+    - exact: To validate findings, we extracted additional pQTL data from the Fenland Study, which includes
+        measurements of 4775 proteins in 10,708 individuals of European ancestry.[15] The same filtering
+        criteria were applied.
+  outcome_1_a2:
+    quotes:
+    - exact: 'For the primary analysis, we retrieved GWAS summary statistics for sepsis (ICD-10 code:
+        A41) from the FinnGen consortium (Round 9), including 12,301 sepsis cases and 332,343 controls
+        of European descent.[16] As external validation, we obtained independent GWAS data from the UK
+        Biobank (2811 cases and 406,150 controls).[17] All datasets used were publicly available and approved
+        for secondary analysis; therefore, no additional ethical approval was required.'
+  pqtl_1_a2:
+    quotes:
+    - exact: To validate findings, we extracted additional pQTL data from the Fenland Study, which includes
+        measurements of 4775 proteins in 10,708 individuals of European ancestry.[15] The same filtering
+        criteria were applied.
+  outcome_1_a3:
+    quotes:
+    - exact: 'For the primary analysis, we retrieved GWAS summary statistics for sepsis (ICD-10 code:
+        A41) from the FinnGen consortium (Round 9), including 12,301 sepsis cases and 332,343 controls
+        of European descent.[16] As external validation, we obtained independent GWAS data from the UK
+        Biobank (2811 cases and 406,150 controls).[17] All datasets used were publicly available and approved
+        for secondary analysis; therefore, no additional ethical approval was required.'
+  pqtl_1_a3:
+    quotes:
+    - exact: To validate findings, we extracted additional pQTL data from the Fenland Study, which includes
+        measurements of 4775 proteins in 10,708 individuals of European ancestry.[15] The same filtering
+        criteria were applied.
+  outcome_1_c2:
+    quotes:
+    - exact: 'For the primary analysis, we retrieved GWAS summary statistics for sepsis (ICD-10 code:
+        A41) from the FinnGen consortium (Round 9), including 12,301 sepsis cases and 332,343 controls
+        of European descent.[16] As external validation, we obtained independent GWAS data from the UK
+        Biobank (2811 cases and 406,150 controls).[17] All datasets used were publicly available and approved
+        for secondary analysis; therefore, no additional ethical approval was required.'
+  outcome_2_c2:
+    quotes:
+    - exact: 'For the primary analysis, we retrieved GWAS summary statistics for sepsis (ICD-10 code:
+        A41) from the FinnGen consortium (Round 9), including 12,301 sepsis cases and 332,343 controls
+        of European descent.[16] As external validation, we obtained independent GWAS data from the UK
+        Biobank (2811 cases and 406,150 controls).[17] All datasets used were publicly available and approved
+        for secondary analysis; therefore, no additional ethical approval was required.'
+  pqtl_1_c2:
+    quotes:
+    - exact: To validate findings, we extracted additional pQTL data from the Fenland Study, which includes
+        measurements of 4775 proteins in 10,708 individuals of European ancestry.[15] The same filtering
+        criteria were applied.
+  pqtl_2_c2:
+    quotes:
+    - exact: Summary-level statistics for pQTLs were obtained from the UKB-PPP, a large-scale GWAS of
+        54,219 participants.

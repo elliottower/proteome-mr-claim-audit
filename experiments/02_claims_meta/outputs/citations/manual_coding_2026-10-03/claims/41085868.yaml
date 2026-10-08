@@ -1,0 +1,27 @@
+source:
+  citation: '41085868'
+  local: sources/41085868.txt
+  sha256: 218f23093be2ae931a72da6fa977b0e72ce0868005be2c0a87663338b6daf152
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12521712/fullTextXML
+  note: body as scripts/fetch_fulltext.py rendered it
+claims:
+  outcome_2_a3:
+    quotes:
+    - exact: 'Genetic data associated with CRC were obtained from the IEU OpenGWAS project(https://gwas.mrcieu.ac.uk/)database
+        (19,948 cases and 12,124 controls; dataset number: ebi-a-GCST012879) and FinnGen (https://www.finngen.fi/fi)
+        [26] database (6847 cases and 314,193 controls; dataset number: C3_COLORECTAL_EXALLC).'
+  outcome_2_a4:
+    quotes:
+    - exact: 'Genetic data associated with CRC were obtained from the IEU OpenGWAS project(https://gwas.mrcieu.ac.uk/)database
+        (19,948 cases and 12,124 controls; dataset number: ebi-a-GCST012879) and FinnGen (https://www.finngen.fi/fi)
+        [26] database (6847 cases and 314,193 controls; dataset number: C3_COLORECTAL_EXALLC).'
+  outcome_1_c2:
+    quotes:
+    - exact: 'Genetic data associated with CRC were obtained from the IEU OpenGWAS project(https://gwas.mrcieu.ac.uk/)database
+        (19,948 cases and 12,124 controls; dataset number: ebi-a-GCST012879) and FinnGen (https://www.finngen.fi/fi)
+        [26] database (6847 cases and 314,193 controls; dataset number: C3_COLORECTAL_EXALLC).'
+  outcome_2_c2:
+    quotes:
+    - exact: 'Genetic data associated with CRC were obtained from the IEU OpenGWAS project(https://gwas.mrcieu.ac.uk/)database
+        (19,948 cases and 12,124 controls; dataset number: ebi-a-GCST012879) and FinnGen (https://www.finngen.fi/fi)
+        [26] database (6847 cases and 314,193 controls; dataset number: C3_COLORECTAL_EXALLC).'

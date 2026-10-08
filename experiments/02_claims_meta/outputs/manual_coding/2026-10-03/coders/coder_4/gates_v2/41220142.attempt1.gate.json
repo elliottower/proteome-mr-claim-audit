@@ -1,0 +1,46 @@
+{
+ "record_id": "41220142",
+ "coder_id": "coder_4",
+ "attempt": 1,
+ "rows": [
+  {
+   "side": "outcome",
+   "name_as_written": "Finngen",
+   "value": "FinnGen R12",
+   "passes": true,
+   "failures": [],
+   "warnings": [],
+   "machine_basis": [
+    "release:R12"
+   ],
+   "reference_verified_by": null
+  },
+  {
+   "side": "pqtl",
+   "name_as_written": "UK Biobank Pharma Proteomics Project",
+   "value": "not_stated_in_source",
+   "passes": true,
+   "failures": [],
+   "warnings": [],
+   "machine_basis": [],
+   "reference_verified_by": null
+  },
+  {
+   "side": "pqtl",
+   "name_as_written": "decode",
+   "value": "deCODE SomaScan v4 (Ferkingstad 2021)",
+   "passes": false,
+   "failures": [
+    "no_identifier_of_the_coded_row_in_the_pinned_material"
+   ],
+   "warnings": [],
+   "machine_basis": [],
+   "reference_verified_by": null
+  }
+ ],
+ "rows_not_coded_once": [],
+ "rows_not_given": [],
+ "wrong_coder": false,
+ "passes": false,
+ "gated_utc": "20261008T003917Z"
+}

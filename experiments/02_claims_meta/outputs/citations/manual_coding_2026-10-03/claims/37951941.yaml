@@ -1,0 +1,13 @@
+source:
+  citation: '37951941'
+  local: sources/37951941.txt
+  sha256: affa1f615d5d8f54c8b37440dd405c73d15224d1532a339f869837766b1eee4f
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10640748/fullTextXML
+  note: body as scripts/fetch_fulltext.py rendered it
+claims:
+  outcome_1_c2:
+    quotes:
+    - exact: 'The former trait refers to those who answered “None of the above” in the self-report questionnaire
+        on education in UK Biobank (“College or University degree”, “A levels/AS levels or equivalent”,
+        “O levels/GCSEs or equivalent”, “CSEs or equivalent”, “NVQ or HND or HNC or equivalent”, “Other
+        professional qualifications eg: nursing, teaching”).'

@@ -1,0 +1,117 @@
+source:
+  citation: '41948706'
+  local: sources/41948706.txt
+  sha256: 5434633f531bcd6c5f81aec78dfc35421e0fc47ca3629a809cc41a4d665d11fd
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13051306/fullTextXML
+  note: body as scripts/fetch_fulltext.py rendered it
+claims:
+  outcome_1:
+    quotes:
+    - exact: To ensure consistency in population, we only selected 449,042 participants of European ancestry
+        for analysis.15 The GWAS summary statistics for AD were obtained from the 12th release of the
+        FinnGen study.
+  outcome_2:
+    quotes:
+    - exact: Using the SomaScan version 4 assay (SomaLogic), deCODE measured 4,907 plasma proteins in
+        35,559 Icelandic individuals from the Icelandic Cancer Project and various genetic programs at
+        deCODE genetics, thereby identifying genetic variants associated with distinct plasma proteins.12
+        The GWAS summary statistics for BP traits were derived from the UK Biobank (UKB) (discovery cohort)
+        and Million Veteran Program (MVP) (replication cohort) studies, which were stored in GWAS Catalog.13
+        The whole-genome sequencing of 490,640 participants from the UKB produced GWAS datasets encompassing
+        763 binary and 71 quantitative phenotypes.
+  pqtl_1:
+    quotes:
+    - exact: Using the SomaScan version 4 assay (SomaLogic), deCODE measured 4,907 plasma proteins in
+        35,559 Icelandic individuals from the Icelandic Cancer Project and various genetic programs at
+        deCODE genetics, thereby identifying genetic variants associated with distinct plasma proteins.12
+        The GWAS summary statistics for BP traits were derived from the UK Biobank (UKB) (discovery cohort)
+        and Million Veteran Program (MVP) (replication cohort) studies, which were stored in GWAS Catalog.13
+        The whole-genome sequencing of 490,640 participants from the UKB produced GWAS datasets encompassing
+        763 binary and 71 quantitative phenotypes.
+  outcome_2_a2:
+    quotes:
+    - exact: Using the SomaScan version 4 assay (SomaLogic), deCODE measured 4,907 plasma proteins in
+        35,559 Icelandic individuals from the Icelandic Cancer Project and various genetic programs at
+        deCODE genetics, thereby identifying genetic variants associated with distinct plasma proteins.12
+        The GWAS summary statistics for BP traits were derived from the UK Biobank (UKB) (discovery cohort)
+        and Million Veteran Program (MVP) (replication cohort) studies, which were stored in GWAS Catalog.13
+        The whole-genome sequencing of 490,640 participants from the UKB produced GWAS datasets encompassing
+        763 binary and 71 quantitative phenotypes.
+  outcome_3_a2:
+    quotes:
+    - exact: Using the SomaScan version 4 assay (SomaLogic), deCODE measured 4,907 plasma proteins in
+        35,559 Icelandic individuals from the Icelandic Cancer Project and various genetic programs at
+        deCODE genetics, thereby identifying genetic variants associated with distinct plasma proteins.12
+        The GWAS summary statistics for BP traits were derived from the UK Biobank (UKB) (discovery cohort)
+        and Million Veteran Program (MVP) (replication cohort) studies, which were stored in GWAS Catalog.13
+        The whole-genome sequencing of 490,640 participants from the UKB produced GWAS datasets encompassing
+        763 binary and 71 quantitative phenotypes.
+  pqtl_1_a2:
+    quotes:
+    - exact: Using the SomaScan version 4 assay (SomaLogic), deCODE measured 4,907 plasma proteins in
+        35,559 Icelandic individuals from the Icelandic Cancer Project and various genetic programs at
+        deCODE genetics, thereby identifying genetic variants associated with distinct plasma proteins.12
+        The GWAS summary statistics for BP traits were derived from the UK Biobank (UKB) (discovery cohort)
+        and Million Veteran Program (MVP) (replication cohort) studies, which were stored in GWAS Catalog.13
+        The whole-genome sequencing of 490,640 participants from the UKB produced GWAS datasets encompassing
+        763 binary and 71 quantitative phenotypes.
+  outcome_1_a3:
+    quotes:
+    - exact: To ensure consistency in population, we only selected 449,042 participants of European ancestry
+        for analysis.15 The GWAS summary statistics for AD were obtained from the 12th release of the
+        FinnGen study.
+  outcome_2_a3:
+    quotes:
+    - exact: Using the SomaScan version 4 assay (SomaLogic), deCODE measured 4,907 plasma proteins in
+        35,559 Icelandic individuals from the Icelandic Cancer Project and various genetic programs at
+        deCODE genetics, thereby identifying genetic variants associated with distinct plasma proteins.12
+        The GWAS summary statistics for BP traits were derived from the UK Biobank (UKB) (discovery cohort)
+        and Million Veteran Program (MVP) (replication cohort) studies, which were stored in GWAS Catalog.13
+        The whole-genome sequencing of 490,640 participants from the UKB produced GWAS datasets encompassing
+        763 binary and 71 quantitative phenotypes.
+  outcome_3_a3:
+    quotes:
+    - exact: Using the SomaScan version 4 assay (SomaLogic), deCODE measured 4,907 plasma proteins in
+        35,559 Icelandic individuals from the Icelandic Cancer Project and various genetic programs at
+        deCODE genetics, thereby identifying genetic variants associated with distinct plasma proteins.12
+        The GWAS summary statistics for BP traits were derived from the UK Biobank (UKB) (discovery cohort)
+        and Million Veteran Program (MVP) (replication cohort) studies, which were stored in GWAS Catalog.13
+        The whole-genome sequencing of 490,640 participants from the UKB produced GWAS datasets encompassing
+        763 binary and 71 quantitative phenotypes.
+  pqtl_1_a3:
+    quotes:
+    - exact: Using the SomaScan version 4 assay (SomaLogic), deCODE measured 4,907 plasma proteins in
+        35,559 Icelandic individuals from the Icelandic Cancer Project and various genetic programs at
+        deCODE genetics, thereby identifying genetic variants associated with distinct plasma proteins.12
+        The GWAS summary statistics for BP traits were derived from the UK Biobank (UKB) (discovery cohort)
+        and Million Veteran Program (MVP) (replication cohort) studies, which were stored in GWAS Catalog.13
+        The whole-genome sequencing of 490,640 participants from the UKB produced GWAS datasets encompassing
+        763 binary and 71 quantitative phenotypes.
+  outcome_1_c2:
+    quotes:
+    - exact: To ensure consistency in population, we only selected 449,042 participants of European ancestry
+        for analysis.15 The GWAS summary statistics for AD were obtained from the 12th release of the
+        FinnGen study.
+  outcome_2_c2:
+    quotes:
+    - exact: To avoid sample overlap, we only included 458,855 participants of non-Finnish European ancestry
+        in our analysis.14 The Department of Veterans Affairs MVP conducted GWAS on 2,068 traits in 635,969
+        participants.
+  outcome_3_c2:
+    quotes:
+    - exact: Using the SomaScan version 4 assay (SomaLogic), deCODE measured 4,907 plasma proteins in
+        35,559 Icelandic individuals from the Icelandic Cancer Project and various genetic programs at
+        deCODE genetics, thereby identifying genetic variants associated with distinct plasma proteins.12
+        The GWAS summary statistics for BP traits were derived from the UK Biobank (UKB) (discovery cohort)
+        and Million Veteran Program (MVP) (replication cohort) studies, which were stored in GWAS Catalog.13
+        The whole-genome sequencing of 490,640 participants from the UKB produced GWAS datasets encompassing
+        763 binary and 71 quantitative phenotypes.
+  pqtl_1_c2:
+    quotes:
+    - exact: Using the SomaScan version 4 assay (SomaLogic), deCODE measured 4,907 plasma proteins in
+        35,559 Icelandic individuals from the Icelandic Cancer Project and various genetic programs at
+        deCODE genetics, thereby identifying genetic variants associated with distinct plasma proteins.12
+        The GWAS summary statistics for BP traits were derived from the UK Biobank (UKB) (discovery cohort)
+        and Million Veteran Program (MVP) (replication cohort) studies, which were stored in GWAS Catalog.13
+        The whole-genome sequencing of 490,640 participants from the UKB produced GWAS datasets encompassing
+        763 binary and 71 quantitative phenotypes.

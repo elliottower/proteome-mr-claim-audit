@@ -1,0 +1,14 @@
+{"record_id": "41882153", "coder_id": "coder_3", "attempt": 3,
+ "rows": [
+  {"side": "outcome", "name_as_written": "UK Biobank",
+   "value": "source_names_dataset_absent_from_dictionary",
+   "unresolved_reason": "dataset_absent_from_dictionary",
+   "identification_basis": null,
+   "source_read": "full_text",
+   "passage_id": "p034",
+   "quote": "We also obtained the association of each SNP in the genetic score with IHD in men in UK Biobank, and with diabetes in a published GWAS of diabetes in men in DIAGRAM52, and used different analytic methods as above, including IVW, weighted median, weighted mode, MR-Egger, MR-PRESSO, and GSMR.",
+   "citations_claim": "claims/41882153.yaml#outcome_1_a3",
+   "companion_source": false,
+   "reference_label": null, "reference_quote": null, "reference_citations_claim": null,
+   "dataset_named_in_source": "IHD in men in UK Biobank",
+   "coder_note": "The IHD outcome associations are the authors' own analysis of men in UK Biobank individual-level data, with a case definition in the next sentence and application numbers 42,468 and 45,052 (rule C); no dictionary row is that analysis. The lipid and glucose outcomes are separately taken from Neale Lab men-only statistics with no round stated, which separates neither Neale lab row."}]}

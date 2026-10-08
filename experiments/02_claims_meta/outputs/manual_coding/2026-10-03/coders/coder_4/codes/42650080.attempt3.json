@@ -1,0 +1,41 @@
+{
+ "record_id": "42650080",
+ "coder_id": "coder_4",
+ "attempt": 3,
+ "rows": [
+  {
+   "side": "outcome",
+   "name_as_written": "FinnGen R13",
+   "value": "source_names_dataset_absent_from_dictionary",
+   "unresolved_reason": "dataset_absent_from_dictionary",
+   "identification_basis": null,
+   "source_read": "full_text",
+   "passage_id": "p001",
+   "quote": "Plasma-protein instruments were derived from UKB-PPP cis-pQTL summary statistics, infection outcomes from FinnGen R13, and follow-up pQTL regions from ProteoNexus [5,12,13].",
+   "citations_claim": "claims/42650080.yaml#outcome_1_a3",
+   "companion_source": false,
+   "reference_label": null,
+   "reference_quote": null,
+   "reference_citations_claim": null,
+   "dataset_named_in_source": "FinnGen R13",
+   "coder_note": "The sentence names release R13 of FinnGen; the dictionary's FinnGen rows stop at R12, so the named release has no row."
+  },
+  {
+   "side": "pqtl",
+   "name_as_written": "UK Biobank Pharma Proteomics Project",
+   "value": "not_stated_in_source",
+   "unresolved_reason": "release_not_identified",
+   "identification_basis": null,
+   "source_read": null,
+   "passage_id": null,
+   "quote": null,
+   "citations_claim": null,
+   "companion_source": false,
+   "reference_label": null,
+   "reference_quote": null,
+   "reference_citations_claim": null,
+   "dataset_named_in_source": null,
+   "coder_note": "UKB-PPP is attributed to Sun 2023 (ref 5, several dictionary rows); no sentence that attributes the dataset gives a subcohort, ancestry or sample size separating the rows. 'Predominantly European ancestry' in the Discussion is a general remark outside the attribution sentence (rule E not met)."
+  }
+ ]
+}

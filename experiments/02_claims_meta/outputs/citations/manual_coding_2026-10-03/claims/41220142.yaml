@@ -1,0 +1,47 @@
+source:
+  citation: '41220142'
+  local: sources/41220142.txt
+  sha256: 1566115c470d7f514519b795a3f7ae3e45aa1d659c000ea167669b0237d9bea4
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12605992/fullTextXML
+  note: body as scripts/fetch_fulltext.py rendered it
+claims:
+  outcome_1:
+    quotes:
+    - exact: GWAS ID R12_G6_RLS.gz was assigned to RLS, which includes 4599 RLS patients and 495,749 control
+        samples.
+  pqtl_2:
+    quotes:
+    - exact: Genome‐wide association studies (GWASs) were conducted in the past using 4907 aptamers to
+        measure plasma protein levels in 35,559 Icelanders.
+  outcome_1_a2:
+    quotes:
+    - exact: GWAS ID R12_G6_RLS.gz was assigned to RLS, which includes 4599 RLS patients and 495,749 control
+        samples.
+  outcome_1_a3:
+    quotes:
+    - exact: GWAS ID R12_G6_RLS.gz was assigned to RLS, which includes 4599 RLS patients and 495,749 control
+        samples.
+  pqtl_2_a3:
+    quotes:
+    - exact: Genome‐wide association studies (GWASs) were conducted in the past using 4907 aptamers to
+        measure plasma protein levels in 35,559 Icelanders.
+  outcome_1_a4:
+    quotes:
+    - exact: GWAS ID R12_G6_RLS.gz was assigned to RLS, which includes 4599 RLS patients and 495,749 control
+        samples.
+  outcome_1_c2:
+    quotes:
+    - exact: GWAS ID R12_G6_RLS.gz was assigned to RLS, which includes 4599 RLS patients and 495,749 control
+        samples.
+  pqtl_1_c2:
+    quotes:
+    - exact: Next, we investigated genes that were linked to RLS in the UK Biobank Pharma Proteomics Project
+        (UKB‐PPP, https://www.synapse.org/Synapse:syn51364943/wiki/622119).
+  pqtl_2_c2:
+    quotes:
+    - exact: Genome‐wide association studies (GWASs) were conducted in the past using 4907 aptamers to
+        measure plasma protein levels in 35,559 Icelanders.
+  pqtl_2_r:
+    quotes:
+    - exact: Genome‐wide association studies (GWASs) were conducted in the past using 4907 aptamers to
+        measure plasma protein levels in 35,559 Icelanders.

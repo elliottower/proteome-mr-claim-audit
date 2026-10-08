@@ -1,0 +1,25 @@
+source:
+  citation: '39119575'
+  local: sources/39119575.txt
+  sha256: 896b316b5415b13067fd333c054db8989e857385a4c8693b2c3eb10480b696e0
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11306153/fullTextXML
+  note: body as scripts/fetch_fulltext.py rendered it
+claims:
+  outcome_1:
+    quotes:
+    - exact: Utilizing the latest released data from the FinnGen study R10, which encompassed osteonecrosis-related
+        diseases and included 1,543 cases and 391,037 controls (Supplementary Table S1) (Kurki et al.,
+        2023).
+  pqtl_1:
+    quotes:
+    - exact: This study involved measuring 4,907 plasma protein levels in 35,559 Icelandic individuals
+        using the SomaScan multiplex aptamer assay (Ferkingstad et al., 2021).
+  outcome_1_c2:
+    quotes:
+    - exact: Utilizing the latest released data from the FinnGen study R10, which encompassed osteonecrosis-related
+        diseases and included 1,543 cases and 391,037 controls (Supplementary Table S1) (Kurki et al.,
+        2023).
+  pqtl_1_c2:
+    quotes:
+    - exact: The plasma proteome data originated from a comprehensive GWAS by the deCODE Genetics Consortium
+        (Ferkingstad et al., 2021).

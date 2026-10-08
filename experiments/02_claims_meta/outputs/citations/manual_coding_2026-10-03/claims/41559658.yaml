@@ -1,0 +1,27 @@
+source:
+  citation: '41559658'
+  local: sources/41559658.txt
+  sha256: 8251bf313e3e3d17158f60df928315eb472ff7bc152c1d6d4b94898a70ddc1db
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12903537/fullTextXML
+  note: body as scripts/fetch_fulltext.py rendered it
+claims:
+  outcome_1_c2:
+    quotes:
+    - exact: 'In this study, we conducted a large-scale proteomic analysis in UK Biobank participants
+        with four aims: (1) to identify plasma proteins associated with kidney diseases including CKD
+        and ESKD, and CVD including coronary heart disease (CHD), stroke, and heart failure (HF), highlighting
+        shared and disease-specific proteins and evaluating potential causal relationships using Mendelian
+        randomization (MR); (2) to assess effect modifications by age, sex, and comorbidities (hypertension,
+        dyslipidemia, and diabetes); (3) to infer potential biological pathways of disease-associated
+        proteins; and (4) to develop predictive models based on proteins and conventional risk factors
+        (Fig. 1).Fig. 1Study overview.'
+  outcome_1_r:
+    quotes:
+    - exact: 'In this study, we conducted a large-scale proteomic analysis in UK Biobank participants
+        with four aims: (1) to identify plasma proteins associated with kidney diseases including CKD
+        and ESKD, and CVD including coronary heart disease (CHD), stroke, and heart failure (HF), highlighting
+        shared and disease-specific proteins and evaluating potential causal relationships using Mendelian
+        randomization (MR); (2) to assess effect modifications by age, sex, and comorbidities (hypertension,
+        dyslipidemia, and diabetes); (3) to infer potential biological pathways of disease-associated
+        proteins; and (4) to develop predictive models based on proteins and conventional risk factors
+        (Fig. 1).Fig. 1Study overview.'

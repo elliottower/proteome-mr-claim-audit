@@ -1,0 +1,40 @@
+{
+ "record_id": "39397782",
+ "coder_id": "coder_3",
+ "attempt": 1,
+ "rows": [
+  {
+   "side": "outcome",
+   "name_as_written": "CARDIoGRAMplusC4D",
+   "value": "CARDIoGRAMplusC4D 1000 Genomes CAD (Nikpay 2015)",
+   "passes": true,
+   "failures": [],
+   "warnings": [],
+   "machine_basis": [
+    "aliases:CARDIoGRAMplusC4D",
+    "source_citation:Nikpay|2015",
+    "source_identifier:10.1038/ng.3396"
+   ],
+   "reference_verified_by": "doi"
+  },
+  {
+   "side": "outcome",
+   "name_as_written": "FinnGen",
+   "value": "FinnGen R10",
+   "passes": true,
+   "failures": [],
+   "warnings": [],
+   "machine_basis": [
+    "name:FinnGen R10",
+    "aliases:FinnGen R10",
+    "release:R10"
+   ],
+   "reference_verified_by": null
+  }
+ ],
+ "rows_not_coded_once": [],
+ "rows_not_given": [],
+ "wrong_coder": false,
+ "passes": true,
+ "gated_utc": "20261007T182759Z"
+}

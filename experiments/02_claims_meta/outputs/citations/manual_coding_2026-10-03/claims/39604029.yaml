@@ -1,0 +1,39 @@
+source:
+  citation: '39604029'
+  local: sources/39604029.txt
+  sha256: beb56a3e7aba655364169126e02a06c0e4d6eb411a7c7b25a4b68b2e41124355
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11681583/fullTextXML
+  note: body as scripts/fetch_fulltext.py rendered it
+claims:
+  pqtl_2:
+    quotes:
+    - exact: Likewise, the cis SNPs for 1423 plasma proteins were selected from the deCODE Health study,
+        which measured 4907 aptamers among 35 559 Icelandic participants using the SomaScan platform.
+  pqtl_2_a2:
+    quotes:
+    - exact: Likewise, the cis SNPs for 1423 plasma proteins were selected from the deCODE Health study,
+        which measured 4907 aptamers among 35 559 Icelandic participants using the SomaScan platform.
+  pqtl_2_a3:
+    quotes:
+    - exact: Likewise, the cis SNPs for 1423 plasma proteins were selected from the deCODE Health study,
+        which measured 4907 aptamers among 35 559 Icelandic participants using the SomaScan platform.
+  pqtl_2_a4:
+    quotes:
+    - exact: Likewise, the cis SNPs for 1423 plasma proteins were selected from the deCODE Health study,
+        which measured 4907 aptamers among 35 559 Icelandic participants using the SomaScan platform.
+  outcome_1_c2:
+    quotes:
+    - exact: The project is a collaboration between research organizations and biobanks within Finland
+        and international industry partners. 21 The FinnGen Study included 92 462 individuals with hypertension,
+        defined as the presence of essential (primary) hypertension and 265 626 individuals without essential
+        hypertension or any other hypertensive diseases.
+  pqtl_1_c2:
+    quotes:
+    - exact: The genetic instruments were from UK Biobank Pharma Proteomics Project 19 and deCODE Health
+        study. 20 The cis SNPs for 1161 plasma proteins were selected from the UK Biobank Pharma Proteomics
+        Project, where proteomic profiling of plasma samples from 54 306 participants was performed using
+        the Olink platform.
+  pqtl_2_c2:
+    quotes:
+    - exact: Likewise, the cis SNPs for 1423 plasma proteins were selected from the deCODE Health study,
+        which measured 4907 aptamers among 35 559 Icelandic participants using the SomaScan platform.

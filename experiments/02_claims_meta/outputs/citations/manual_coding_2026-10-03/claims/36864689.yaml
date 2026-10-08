@@ -1,0 +1,78 @@
+source:
+  citation: '36864689'
+  local: sources/36864689.txt
+  sha256: 404ca2ddbff5bea9b7bad2f7edeb4ebc9b8f102bb5259ae2f0aefd7fe27c0681
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10393411/fullTextXML
+  note: body as scripts/fetch_fulltext.py rendered it
+claims:
+  outcome_1:
+    quotes:
+    - exact: For external validation, summary statistics were obtained from the UK
+        Biobank (until 2017, nCase = 1356, nControl = 395 209)13 and the FinnGen study
+        (nCase = 1326, nControl = 359 815, R6 release).14
+  outcome_2:
+    quotes:
+    - exact: First, we used MR to identify potential causal plasma and CSF proteins
+        for MS using GWAS data from the International Multiple Sclerosis Genetics
+        Consortium (IMSGC),11 plasma pQTL data from Zheng’s study,6 and CSF pQTL data
+        from Yang’s study.12
+  outcome_1_a2:
+    quotes:
+    - exact: For external validation, summary statistics were obtained from the UK
+        Biobank (until 2017, nCase = 1356, nControl = 395 209)13 and the FinnGen study
+        (nCase = 1326, nControl = 359 815, R6 release).14
+  outcome_2_a2:
+    quotes:
+    - exact: First, we used MR to identify potential causal plasma and CSF proteins
+        for MS using GWAS data from the International Multiple Sclerosis Genetics
+        Consortium (IMSGC),11 plasma pQTL data from Zheng’s study,6 and CSF pQTL data
+        from Yang’s study.12
+  outcome_1_a3:
+    quotes:
+    - exact: For external validation, summary statistics were obtained from the UK
+        Biobank (until 2017, nCase = 1356, nControl = 395 209)13 and the FinnGen study
+        (nCase = 1326, nControl = 359 815, R6 release).14
+  outcome_2_a3:
+    quotes:
+    - exact: First, we used MR to identify potential causal plasma and CSF proteins
+        for MS using GWAS data from the International Multiple Sclerosis Genetics
+        Consortium (IMSGC),11 plasma pQTL data from Zheng’s study,6 and CSF pQTL data
+        from Yang’s study.12
+  outcome_1_a4:
+    quotes:
+    - exact: For external validation, summary statistics were obtained from the UK
+        Biobank (until 2017, nCase = 1356, nControl = 395 209)13 and the FinnGen study
+        (nCase = 1326, nControl = 359 815, R6 release).14
+  outcome_2_a4:
+    quotes:
+    - exact: First, we used MR to identify potential causal plasma and CSF proteins
+        for MS using GWAS data from the International Multiple Sclerosis Genetics
+        Consortium (IMSGC),11 plasma pQTL data from Zheng’s study,6 and CSF pQTL data
+        from Yang’s study.12
+  outcome_3_a4:
+    quotes:
+    - exact: GWAS summary statistics of the UK Biobank conducted by Zhou et al.29
+        were obtained from https://www.leelabsg.org/resources.
+      prefix: for cis-pQTL were available from the original studies.12,15–21 GWAS
+        summary statistics of the IMSGC were obtained from https://gwas.mrcieu.ac.uk/datasets/.
+      suffix: 'Access to FinnGen (R6 release) can be obtained from https://www.finngen.fi/en/access_results.
+        ## Results ## Screening the proteome for multiple sclerosis'
+  outcome_1_c2:
+    quotes:
+    - exact: For external validation, summary statistics were obtained from the UK
+        Biobank (until 2017, nCase = 1356, nControl = 395 209)13 and the FinnGen study
+        (nCase = 1326, nControl = 359 815, R6 release).14
+  outcome_2_c2:
+    quotes:
+    - exact: First, we used MR to identify potential causal plasma and CSF proteins
+        for MS using GWAS data from the International Multiple Sclerosis Genetics
+        Consortium (IMSGC),11 plasma pQTL data from Zheng’s study,6 and CSF pQTL data
+        from Yang’s study.12
+  outcome_3_c2:
+    quotes:
+    - exact: GWAS summary statistics of the UK Biobank conducted by Zhou et al.29
+        were obtained from https://www.leelabsg.org/resources.
+      prefix: for cis-pQTL were available from the original studies.12,15–21 GWAS
+        summary statistics of the IMSGC were obtained from https://gwas.mrcieu.ac.uk/datasets/.
+      suffix: 'Access to FinnGen (R6 release) can be obtained from https://www.finngen.fi/en/access_results.
+        ## Results ## Screening the proteome for multiple sclerosis'

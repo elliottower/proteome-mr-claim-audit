@@ -1,0 +1,15 @@
+{"record_id": "42106700", "coder_id": "coder_4", "attempt": 4,
+ "rows": [
+  {"side": "outcome", "name_as_written": "UK Biobank",
+   "value": "source_names_dataset_absent_from_dictionary",
+   "unresolved_reason": "dataset_absent_from_dictionary",
+   "identification_basis": null,
+   "source_read": "full_text",
+   "passage_id": "p001",
+   "quote": "To address these gaps, we conducted a comprehensive study based on the UK Biobank (UKB) population to investigate the associations between various air pollutants (including PM2.5, PM2.5−10, PM10, NO2, and NOX) and incident CKD, and to evaluate the potential mediating roles of clinical comorbidities.",
+   "citations_claim": "claims/42106700.yaml#outcome_1_a4",
+   "companion_source": false,
+   "reference_label": null, "reference_quote": null, "reference_citations_claim": null,
+   "dataset_named_in_source": "UK Biobank (UKB) population",
+   "coder_note": "Step 3 of the decision order (rule C): the authors' own cohort analysis of UK Biobank individual-level data, defined by a described analysis (air pollutant exposures and incident CKD; Table 1 gives the analytic sample of 330,002 with 14,931 CKD), not by an N alone; no dictionary row is such an analysis. No accession, so rule C4 does not apply."}
+ ]}

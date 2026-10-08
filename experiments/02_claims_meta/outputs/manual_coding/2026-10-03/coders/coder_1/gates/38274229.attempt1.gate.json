@@ -1,0 +1,49 @@
+{
+ "record_id": "38274229",
+ "coder_id": "coder_1",
+ "attempt": 1,
+ "rows": [
+  {
+   "side": "outcome",
+   "name_as_written": "FinnGen study",
+   "value": "not_stated_in_source",
+   "passes": true,
+   "failures": [],
+   "warnings": [],
+   "machine_basis": [],
+   "reference_verified_by": null
+  },
+  {
+   "side": "pqtl",
+   "name_as_written": "Atherosclerosis Risk in Communities Study",
+   "value": "ARIC European American (Zhang 2022)",
+   "passes": true,
+   "failures": [],
+   "warnings": [],
+   "machine_basis": [
+    "aliases:ARIC",
+    "source_citation:Zhang|2022",
+    "source_identifier:10.1038/s41588-022-01051-w",
+    "source_identifier:35501419",
+    "source_identifier:PMC9236177",
+    "sample_size:7213+2022"
+   ],
+   "reference_verified_by": "doi"
+  },
+  {
+   "side": "pqtl",
+   "name_as_written": "Icelandic Decoding Genetics Study",
+   "value": "not_stated_in_source",
+   "passes": true,
+   "failures": [],
+   "warnings": [],
+   "machine_basis": [],
+   "reference_verified_by": null
+  }
+ ],
+ "rows_not_coded_once": [],
+ "rows_not_given": [],
+ "wrong_coder": false,
+ "passes": true,
+ "gated_utc": "20261007T182759Z"
+}

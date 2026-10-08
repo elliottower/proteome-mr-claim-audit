@@ -1,0 +1,27 @@
+source:
+  citation: '38623619'
+  local: sources/38623619.txt
+  sha256: eda9dab36503e22860a4c5f80a03c43ed885c6b113f01068b35a841fae8da895
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7615965/fullTextXML
+  note: body as scripts/fetch_fulltext.py rendered it
+claims:
+  pqtl_1:
+    quotes:
+    - exact: For proteins showing significant associations with T2D in observational analyses, a two-sample
+        MR using Wald ratio method,25, 26 was conducted using (i) cis-pQTLs obtained from GWAS of CKB,
+        with lookups in AGEN consortium of East Asian adults including 66,677 diabetes cases;6 and (ii)
+        cis-pQTLs obtained from GWAS of UKB, with lookups in the DIAMANTE Consortium of European descent
+        including 80,154 diabetes cases and 853,816 controls.5
+  pqtl_1_a2:
+    quotes:
+    - exact: In CKB GWAS, cis-pQTL variants were identified for 22 (67%) of the 33 proteins.
+  pqtl_1_c2:
+    quotes:
+    - exact: For proteins showing significant associations with T2D in observational analyses, a two-sample
+        MR using Wald ratio method,25, 26 was conducted using (i) cis-pQTLs obtained from GWAS of CKB,
+        with lookups in AGEN consortium of East Asian adults including 66,677 diabetes cases;6 and (ii)
+        cis-pQTLs obtained from GWAS of UKB, with lookups in the DIAMANTE Consortium of European descent
+        including 80,154 diabetes cases and 853,816 controls.5
+  pqtl_2_c2:
+    quotes:
+    - exact: UK Biobank

@@ -1,0 +1,17 @@
+source:
+  citation: '42106700'
+  local: sources/42106700.txt
+  sha256: cc807fb48a90f1f9e745a862775f3c55103e3b1701947f557f26421d3756eb19
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13326363/fullTextXML
+  note: body as scripts/fetch_fulltext.py rendered it
+claims:
+  outcome_1_a4:
+    quotes:
+    - exact: To address these gaps, we conducted a comprehensive study based on the UK Biobank (UKB) population
+        to investigate the associations between various air pollutants (including PM2.5, PM2.5−10, PM10,
+        NO2, and NOX) and incident CKD, and to evaluate the potential mediating roles of clinical comorbidities.
+  outcome_1_c2:
+    quotes:
+    - exact: To address these gaps, we conducted a comprehensive study based on the UK Biobank (UKB) population
+        to investigate the associations between various air pollutants (including PM2.5, PM2.5−10, PM10,
+        NO2, and NOX) and incident CKD, and to evaluate the potential mediating roles of clinical comorbidities.

@@ -1,0 +1,14 @@
+{"record_id": "41487707", "coder_id": "coder_4",
+ "rows": [
+  {"row": "outcome_1",
+   "resolved_value": "FinnGen R11",
+   "unresolved_reason": null,
+   "resolution_note": "Sentence 1 of p002 writes the release itself, 'the DF11 version' of the Finnish biobank study, for the outcome (CD) data, which is data freeze 11 in another written form (rule A); the study is the FinnGen study by the sentence's reference 21 (titled FinnGen; its entry DOI is not the dictionary row's, so the row is coded from the sentence and not as a companion source). The 434,744 participants are an endpoint-specific N (rule H), and DF10 in p001 describes the pQTL data, not the outcome data, so nothing conflicts.",
+   "identification_basis": "release_identifier",
+   "source_read": "full_text",
+   "passage_id": "p002",
+   "quote": "The CD data is derived from the DF11 version of the Finnish biobank study, released on June 24, 2024 [21].",
+   "citations_claim": "claims/41487707.yaml#outcome_1_r",
+   "companion_source": false,
+   "reference_label": null, "reference_quote": null, "reference_citations_claim": null,
+   "dataset_named_in_source": null}]}

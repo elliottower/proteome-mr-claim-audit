@@ -1,0 +1,23 @@
+source:
+  citation: '41392280'
+  local: sources/41392280.txt
+  sha256: 3477ffe63bbd3564d61ba91923fa71339e0af03d971d0679cf073f75253cc287
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12822008/fullTextXML
+  note: body as scripts/fetch_fulltext.py rendered it
+claims:
+  outcome_1_a2:
+    quotes:
+    - exact: For the present analyses, we restricted the sample to participants with plasma proteomics
+        data in UKB (n = 53,014) [20].
+  outcome_1_a3:
+    quotes:
+    - exact: For the present analyses, we restricted the sample to participants with plasma proteomics
+        data in UKB (n = 53,014) [20].
+  outcome_1_a4:
+    quotes:
+    - exact: For the present analyses, we restricted the sample to participants with plasma proteomics
+        data in UKB (n = 53,014) [20].
+  outcome_1_c2:
+    quotes:
+    - exact: This study was approved by the North West Multicenter Research Ethics Committee (11/NW/0382),
+        and informed consent was provided by all participants (application number 98410).

@@ -1,0 +1,15 @@
+{"record_id": "40528431", "coder_id": "coder_3", "attempt": 4,
+ "rows": [
+  {"side": "outcome", "name_as_written": "UK Biobank",
+   "value": "source_names_dataset_absent_from_dictionary",
+   "unresolved_reason": "dataset_absent_from_dictionary",
+   "identification_basis": null,
+   "source_read": "abstract",
+   "passage_id": "p001",
+   "quote": "A total of 52,891 participants without cirrhosis or its complications were recruited from the UK Biobank longitudinal population cohort.",
+   "citations_claim": "claims/40528431.yaml#outcome_1_a4",
+   "companion_source": false,
+   "reference_label": null, "reference_quote": null, "reference_citations_claim": null,
+   "dataset_named_in_source": "UK Biobank",
+   "coder_note": "Step 3, rule C: the abstract defines the authors' own analysis of UK Biobank individual-level data by more than a number of participants (52,891 participants selected as free of cirrhosis or its complications, a phenotype definition, followed by proteomic prediction models built from 2923 plasma proteins); no dictionary row is such an analysis. No release, accession or citation for steps 1 and 2."}
+ ]}

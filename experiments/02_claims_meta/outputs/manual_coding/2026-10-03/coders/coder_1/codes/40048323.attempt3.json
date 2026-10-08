@@ -1,0 +1,14 @@
+{"record_id": "40048323", "coder_id": "coder_1", "attempt": 3,
+ "rows": [
+  {"side": "outcome", "name_as_written": "UK Biobank",
+   "value": "source_names_dataset_absent_from_dictionary",
+   "unresolved_reason": "dataset_absent_from_dictionary",
+   "identification_basis": null,
+   "source_read": "full_text",
+   "passage_id": "p003",
+   "quote": "We included 51 644 individuals with both blood plasma protein data and pain questionnaire at baseline from the UK Biobank (UKB), aged from 39 to 70 at enrollment, comprising 54% women and 94% white individuals (Table S1, Supporting Information).",
+   "citations_claim": "claims/40048323.yaml#outcome_1_a3",
+   "companion_source": false,
+   "reference_label": null, "reference_quote": null, "reference_citations_claim": null,
+   "dataset_named_in_source": "UK Biobank",
+   "coder_note": "Rule C: the authors' own analysis of UK Biobank individual-level data (application number 19542 in p002), defined by analytic sample (51 644) and the baseline pain questionnaire phenotype; no dictionary row is such an analysis and no candidate release is named."}]}

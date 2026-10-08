@@ -1,0 +1,44 @@
+{
+ "record_id": "PPR796917",
+ "coder_id": "coder_1",
+ "attempt": 3,
+ "rows": [
+  {
+   "side": "outcome",
+   "name_as_written": "BCAC",
+   "value": "source_names_dataset_absent_from_dictionary",
+   "passes": true,
+   "failures": [],
+   "warnings": [],
+   "machine_basis": [],
+   "reference_verified_by": null
+  },
+  {
+   "side": "outcome",
+   "name_as_written": "FinnGen",
+   "value": "not_stated_in_source",
+   "passes": true,
+   "failures": [],
+   "warnings": [],
+   "machine_basis": [],
+   "reference_verified_by": null
+  },
+  {
+   "side": "pqtl",
+   "name_as_written": "DeCODE",
+   "value": "deCODE SomaScan v4 (Ferkingstad 2021)",
+   "passes": false,
+   "failures": [
+    "no_identifier_of_the_coded_row_in_the_pinned_material"
+   ],
+   "warnings": [],
+   "machine_basis": [],
+   "reference_verified_by": null
+  }
+ ],
+ "rows_not_coded_once": [],
+ "rows_not_given": [],
+ "wrong_coder": false,
+ "passes": false,
+ "gated_utc": "20261008T005611Z"
+}

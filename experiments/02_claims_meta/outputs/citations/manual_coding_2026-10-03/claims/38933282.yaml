@@ -1,0 +1,11 @@
+source:
+  citation: '38933282'
+  local: sources/38933282.txt
+  sha256: 5e21c61735d461ef3078d7126fff33ce955e2d80c9cbb2cfb968f1805e0c9d7d
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11199405/fullTextXML
+  note: body as scripts/fetch_fulltext.py rendered it
+claims:
+  outcome_2_c2:
+    quotes:
+    - exact: The validation cohort was sourced from the GWAS Catalog GCST90018920 and included 1,599 SS
+        cases and 658,316 control cases (https://www.ebi.ac.uk/gwas/).

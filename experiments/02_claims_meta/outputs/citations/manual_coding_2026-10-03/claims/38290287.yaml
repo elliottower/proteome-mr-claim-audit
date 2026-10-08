@@ -1,0 +1,53 @@
+source:
+  citation: '38290287'
+  local: sources/38290287.txt
+  sha256: 305d7947106ba1d93ffcb9eda40415fa7f07bde2103e8a8906af8541adce8a67
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10844806/fullTextXML
+  note: body as scripts/fetch_fulltext.py rendered it
+claims:
+  outcome_2:
+    quotes:
+    - exact: Association estimates provided for the analysis did not include UK Biobank study participants
+        to avoid potential overlap between protein and colorectal cancer summary statistics.34 Association
+        estimates for liver cancer were obtained from a GWAS of liver cancer (specifically hepatocyte
+        carcinoma) conducted in up to 648 cases and 259,583 controls in FinnGen.35 Summary genetic data
+        for pancreas cancer were obtained from a GWAS of 1249 cases and 259,583 controls in FinnGen.35
+        Summary genetic association data were obtained for breast cancer from a GWAS of 133,384 cases
+        and 113,789 controls of European ancestry.36 Summary genetic association data were obtained for
+        endometrial cancer from a GWAS of 12,906 cases and 108,979 controls of European ancestry.37 Summary
+        genetic data for gallbladder cancer were obtained from the UK Biobank, which included 195 cases
+        and 456,134 controls of European ancestry.38 In the Mendelian randomization analysis of protein
+        levels and gallbladder cancer, both GWAS were obtained using UK Biobank participants.
+  outcome_2_a2:
+    quotes:
+    - exact: Association estimates provided for the analysis did not include UK Biobank study participants
+        to avoid potential overlap between protein and colorectal cancer summary statistics.34 Association
+        estimates for liver cancer were obtained from a GWAS of liver cancer (specifically hepatocyte
+        carcinoma) conducted in up to 648 cases and 259,583 controls in FinnGen.35 Summary genetic data
+        for pancreas cancer were obtained from a GWAS of 1249 cases and 259,583 controls in FinnGen.35
+        Summary genetic association data were obtained for breast cancer from a GWAS of 133,384 cases
+        and 113,789 controls of European ancestry.36 Summary genetic association data were obtained for
+        endometrial cancer from a GWAS of 12,906 cases and 108,979 controls of European ancestry.37 Summary
+        genetic data for gallbladder cancer were obtained from the UK Biobank, which included 195 cases
+        and 456,134 controls of European ancestry.38 In the Mendelian randomization analysis of protein
+        levels and gallbladder cancer, both GWAS were obtained using UK Biobank participants.
+  outcome_1_c2:
+    quotes:
+    - exact: Sample overlap in two sample Mendelian randomization analyses can bias estimates towards
+        the confounded observational estimate in the presence of weak instrument bias.39 Any analyses
+        with at least weak evidence for an effect of protein levels on gallbladder cancer (P < 0.05) were
+        repeated using an alternative GWAS of gallbladder performed in FinnGen participants (84 cases,
+        259,584 controls), avoiding any sample overlap.40
+  outcome_2_c2:
+    quotes:
+    - exact: Association estimates provided for the analysis did not include UK Biobank study participants
+        to avoid potential overlap between protein and colorectal cancer summary statistics.34 Association
+        estimates for liver cancer were obtained from a GWAS of liver cancer (specifically hepatocyte
+        carcinoma) conducted in up to 648 cases and 259,583 controls in FinnGen.35 Summary genetic data
+        for pancreas cancer were obtained from a GWAS of 1249 cases and 259,583 controls in FinnGen.35
+        Summary genetic association data were obtained for breast cancer from a GWAS of 133,384 cases
+        and 113,789 controls of European ancestry.36 Summary genetic association data were obtained for
+        endometrial cancer from a GWAS of 12,906 cases and 108,979 controls of European ancestry.37 Summary
+        genetic data for gallbladder cancer were obtained from the UK Biobank, which included 195 cases
+        and 456,134 controls of European ancestry.38 In the Mendelian randomization analysis of protein
+        levels and gallbladder cancer, both GWAS were obtained using UK Biobank participants.

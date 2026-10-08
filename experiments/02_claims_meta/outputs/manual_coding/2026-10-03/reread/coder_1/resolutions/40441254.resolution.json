@@ -1,0 +1,14 @@
+{"record_id": "40441254", "coder_id": "coder_1",
+ "rows": [
+  {"row": "outcome_2",
+   "resolved_value": "source_names_dataset_absent_from_dictionary",
+   "unresolved_reason": "dataset_absent_from_dictionary",
+   "resolution_note": "Rules B and C2, decision step 3: the repository name is followed in a passage of this row by the accession ebi-a-GCST90026371, which no dictionary row lists by identifier, prefix or range; the cardiomyopathy sentence gives the repository name alone and names no other release, so nothing conflicts. The accession is that of the mtDNA-CN GWAS, which the abstract's bidirectional design places on both sides; the cardiomyopathy data from the same repository carry no accession.",
+   "identification_basis": "source_identifier",
+   "source_read": "full_text",
+   "passage_id": "p001",
+   "quote": "The GWAS data of the of mtDNA-CN genetic data were obtained from the IEU Open GWAS database, which is an open access database for genome-wide association studies. mtDNA-CN has a GWAS ID of ebi-a-GCST90026371, a sample size of 383,476 cases, and a number of 24,195,431 SNPs.",
+   "citations_claim": "claims/40441254.yaml#outcome_2_r",
+   "companion_source": false,
+   "reference_label": null, "reference_quote": null, "reference_citations_claim": null,
+   "dataset_named_in_source": "ebi-a-GCST90026371"}]}

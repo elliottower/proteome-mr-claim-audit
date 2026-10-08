@@ -1,0 +1,23 @@
+{"record_id": "41319014", "coder_id": "coder_2", "attempt": 3,
+ "rows": [
+  {"side": "pqtl", "name_as_written": "UKB-PPP",
+   "value": "UKB-PPP discovery", "unresolved_reason": null,
+   "identification_basis": "reference_entry", "source_read": "full_text", "passage_id": "p002",
+   "quote": "We extracted pQTL data from 2940 European‐ancestry participants in the UKB‐PPP database (B. B. Sun et al. 2023).",
+   "citations_claim": "claims/41319014.yaml#pqtl_1_a3",
+   "companion_source": true, "reference_label": "brb371110-bib-0036",
+   "reference_quote": "Sun , B. B. , J. Chiou , M. Traylor , et al. 2023 . “ Plasma Proteomic Associations With Genetics and Health in the UK Biobank .” Nature 622 , no. 7982 : 329 – 338 . 10.1038/s41586-023-06592-6 . 37794186 PMC10567551",
+   "reference_citations_claim": "claims/41319014.references.yaml#pqtl_1_a3_ref",
+   "dataset_named_in_source": null,
+   "coder_note": "The sentence attributes the pQTL data to Sun 2023 (DOI 10.1038/s41586-023-06592-6, several dictionary rows) and states European-ancestry participants, the ancestry of the discovery row alone (rule E); the '2940' participants figure is the sample size of no row and identifies no other release (rule H). The 'Emdin et al. 2017' citation in the study-design sentence is a methods paper and is not used."},
+  {"side": "pqtl", "name_as_written": "deCODE",
+   "value": "deCODE SomaScan v4 (Ferkingstad 2021)", "unresolved_reason": null,
+   "identification_basis": "reference_entry", "source_read": "full_text", "passage_id": "p001",
+   "quote": "Ferroptosis‐associated pQTLs were derived from 4907 Icelandic individuals in the deCODE database (Ferkingstad et al. 2021).",
+   "citations_claim": "claims/41319014.yaml#pqtl_2_a3",
+   "companion_source": true, "reference_label": "brb371110-bib-0012",
+   "reference_quote": "Ferkingstad , E. , P. Sulem , B. A. Atlason , et al. 2021 . “ Large‐Scale Integration of the Plasma Proteome With Genetics and Disease .” Nature Genetics 53 , no. 12 : 1712 – 1721 . 10.1038/s41588-021-00978-w . 34857953",
+   "reference_citations_claim": "claims/41319014.references.yaml#pqtl_2_a3_ref",
+   "dataset_named_in_source": null,
+   "coder_note": "The sentence attributes the deCODE pQTLs to Ferkingstad et al. 2021, whose DOI 10.1038/s41588-021-00978-w is the Ferkingstad 2021 row's alone; the '4907 Icelandic individuals' figure is the sample size of no row and identifies no other release (rule H)."}
+ ]}

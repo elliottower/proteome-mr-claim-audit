@@ -1,0 +1,24 @@
+{
+ "record_id": "39354406",
+ "coder_id": "coder_4",
+ "attempt": 1,
+ "rows": [
+  {
+   "side": "outcome",
+   "name_as_written": "UK Biobank",
+   "value": "UK Biobank TOPMed-imputed PheWeb (Lee/Michigan)",
+   "unresolved_reason": null,
+   "identification_basis": "source_identifier",
+   "source_read": "full_text",
+   "passage_id": "p001",
+   "quote": "With respect to GWAS data for the AVB outcome, we retrieved GWAS data from UkBiobank (https://pheweb.org/UKB-TOPMed/pheno/426.24/).",
+   "citations_claim": "claims/39354406.yaml#outcome_1",
+   "companion_source": false,
+   "reference_label": null,
+   "reference_quote": null,
+   "reference_citations_claim": null,
+   "dataset_named_in_source": null,
+   "coder_note": "Sentence gives the pheweb.org/UKB-TOPMed address as the source of the outcome GWAS data, which is the identifier of this row only."
+  }
+ ]
+}

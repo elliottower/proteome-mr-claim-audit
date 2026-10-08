@@ -1,0 +1,41 @@
+{
+ "record_id": "39156738",
+ "coder_id": "coder_3",
+ "attempt": 1,
+ "rows": [
+  {
+   "side": "outcome",
+   "name_as_written": "FinnGen consortium",
+   "value": "not_stated_in_source",
+   "unresolved_reason": "release_not_identified",
+   "identification_basis": null,
+   "source_read": null,
+   "passage_id": null,
+   "quote": null,
+   "citations_claim": null,
+   "companion_source": false,
+   "reference_label": null,
+   "reference_quote": null,
+   "reference_citations_claim": null,
+   "dataset_named_in_source": null,
+   "coder_note": "Consortium name, counts and a preprint cohort reference; no release stated."
+  },
+  {
+   "side": "outcome",
+   "name_as_written": "Lambert et al.",
+   "value": "IGAP stage 1 (Lambert 2013)",
+   "unresolved_reason": null,
+   "identification_basis": "unique_citation",
+   "source_read": "full_text",
+   "passage_id": "p001",
+   "quote": "Summary-level GWAS data of AD were obtained from a meta-analysis of previously published GWAS datasets and reported by Lambert et al. (2013), which includes 17,008 AD cases and 37,154 cognitively normal age-matched controls.",
+   "citations_claim": "claims/39156738.yaml#outcome_2",
+   "companion_source": false,
+   "reference_label": null,
+   "reference_quote": null,
+   "reference_citations_claim": null,
+   "dataset_named_in_source": null,
+   "coder_note": "Sentence gives author-year citation (2013) with exact case/control counts 17,008/37,154 of one dictionary row."
+  }
+ ]
+}

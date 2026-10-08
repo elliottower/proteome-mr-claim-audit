@@ -1,0 +1,14 @@
+source:
+  citation: '39991825'
+  local: sources/39991825.txt
+  sha256: cfd58795755f946721a9554d25ab2ab10977c699d6709c69f9094db1abcd8445
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11897958/fullTextXML
+  note: body as scripts/fetch_fulltext.py rendered it
+claims:
+  pqtl_1_c2:
+    quotes:
+    - exact: 'The following criteria were applied to prepare the genetic instruments for MR: (i) pQTL
+        summary-level data were downloaded from the UKB-PPP database (https://doi.org/10.7303/syn51364943);
+        (ii) significant SNPs were selected (P < 5e−8); (iii) to address linkage disequilibrium, PLINK
+        1.9 (NITRC; RRID:SCR_001757) on the Linux system was employed, with parameters set to clump SNPs
+        within 10,000 kb and r2 < 0.001; and (iv) SNPs on the X chromosome were excluded.'

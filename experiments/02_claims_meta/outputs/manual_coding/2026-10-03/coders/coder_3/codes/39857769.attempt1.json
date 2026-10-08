@@ -1,0 +1,41 @@
+{
+ "record_id": "39857769",
+ "coder_id": "coder_3",
+ "attempt": 1,
+ "rows": [
+  {
+   "side": "pqtl",
+   "name_as_written": "UK Biobank Proteome Plasma Proteins (UKB-PPP)",
+   "value": "not_stated_in_source",
+   "unresolved_reason": "release_not_identified",
+   "identification_basis": null,
+   "source_read": null,
+   "passage_id": null,
+   "quote": null,
+   "citations_claim": null,
+   "companion_source": false,
+   "reference_label": null,
+   "reference_quote": null,
+   "reference_citations_claim": null,
+   "dataset_named_in_source": null,
+   "coder_note": "Project name, a participant count and a reference shared by several candidate rows; subset not identified."
+  },
+  {
+   "side": "pqtl",
+   "name_as_written": "deCODE health",
+   "value": "deCODE SomaScan v4 (Ferkingstad 2021)",
+   "unresolved_reason": null,
+   "identification_basis": "exact_n_with_platform_or_year",
+   "source_read": "full_text",
+   "passage_id": "p002",
+   "quote": "The deCODE health study similarly utilized the high-throughput SomaScan platform to quantify 4907 aptamers associated with plasma protein levels in a cohort of 35,559 Icelandic individuals [21].",
+   "citations_claim": "claims/39857769.yaml#pqtl_2",
+   "companion_source": false,
+   "reference_label": null,
+   "reference_quote": null,
+   "reference_citations_claim": null,
+   "dataset_named_in_source": null,
+   "coder_note": "Sentence gives exact N 35,559 with 4907 aptamers on the aptamer platform, matching one candidate row and not the other."
+  }
+ ]
+}

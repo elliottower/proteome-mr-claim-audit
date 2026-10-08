@@ -1,0 +1,23 @@
+{"record_id": "42260829", "coder_id": "coder_3", "attempt": 3,
+ "rows": [
+  {"side": "outcome", "name_as_written": "FinnGen study",
+   "value": "not_stated_in_source", "unresolved_reason": "release_not_identified",
+   "identification_basis": null, "source_read": null, "passage_id": null, "quote": null, "citations_claim": null,
+   "companion_source": false, "reference_label": null, "reference_quote": null, "reference_citations_claim": null,
+   "dataset_named_in_source": null,
+   "coder_note": "Cohort name with endpoint counts (8288 cases, 68,969 controls) and the Kurki 2023 citation, which is the source of every FinnGen row; no release number and no attribute that separates the rows (rules E, I1)."},
+  {"side": "outcome", "name_as_written": "UKB study",
+   "value": "not_stated_in_source", "unresolved_reason": "release_not_identified",
+   "identification_basis": null, "source_read": null, "passage_id": null, "quote": null, "citations_claim": null,
+   "companion_source": false, "reference_label": null, "reference_quote": null, "reference_citations_claim": null,
+   "dataset_named_in_source": null,
+   "coder_note": "Cohort name with case and control counts (1496; 359,698) and a citation to the general UK Biobank resource paper (Bycroft 2018); no GWAS release, accession or provider is named (rules D, I1)."},
+  {"side": "pqtl", "name_as_written": "UK Biobank Pharma Proteomics Project (UKB-PPP)",
+   "value": "source_names_dataset_absent_from_dictionary", "unresolved_reason": "dataset_absent_from_dictionary",
+   "identification_basis": null, "source_read": "full_text", "passage_id": "p002",
+   "quote": "The plasma protein GWAS data adopted in this article were sourced from UKB-PPP (https://www.synapse.org/#!Synapse:syn51364943/files/), which involved plasma proteomic analysis of 54,219 participants, exhibited pQTLs mapping of 2923 proteins, and identified 14,287 dominating genetic associations, of which 81% have not been previously reported.[15]",
+   "citations_claim": "claims/42260829.yaml#pqtl_1_a3",
+   "companion_source": false, "reference_label": null, "reference_quote": null, "reference_citations_claim": null,
+   "dataset_named_in_source": "UKB-PPP (https://www.synapse.org/#!Synapse:syn51364943/files/)",
+   "coder_note": "The sentence gives a repository accession (Synapse syn51364943) that no dictionary row lists (rule B). The Sun 2023 citation [15] has four dictionary rows and the stated 54,219 participants equals the sample size of none, so rule E gives no code."}
+ ]}

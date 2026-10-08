@@ -1,0 +1,58 @@
+{
+ "record_id": "42548293",
+ "coder_id": "coder_4",
+ "attempt": 3,
+ "rows": [
+  {
+   "side": "outcome",
+   "name_as_written": "OC-GWAS",
+   "value": "source_names_dataset_absent_from_dictionary",
+   "unresolved_reason": "dataset_absent_from_dictionary",
+   "identification_basis": null,
+   "source_read": "full_text",
+   "passage_id": "p001",
+   "quote": "Ultimately, we consolidated the OC‐GWAS data from these sources using GWAS meta‐analysis for further comprehensive analysis (sample case = 3547, N = 691,466).",
+   "citations_claim": "claims/42548293.yaml#outcome_1_a3",
+   "companion_source": false,
+   "reference_label": null,
+   "reference_quote": null,
+   "reference_citations_claim": null,
+   "dataset_named_in_source": "OC‐GWAS",
+   "coder_note": "The sentence defines the outcome dataset as the authors' own GWAS meta-analysis of several oral cancer sources (3547 cases, N = 691,466); the dictionary has no row for it."
+  },
+  {
+   "side": "pqtl",
+   "name_as_written": "UKB-PPP",
+   "value": "not_stated_in_source",
+   "unresolved_reason": "release_not_identified",
+   "identification_basis": null,
+   "source_read": null,
+   "passage_id": null,
+   "quote": null,
+   "citations_claim": null,
+   "companion_source": false,
+   "reference_label": null,
+   "reference_quote": null,
+   "reference_citations_claim": null,
+   "dataset_named_in_source": null,
+   "coder_note": "The passages give the name with N = 54,219 only and no citation; N alone does not identify a release, and 54,219 is the sample size of no UKB-PPP row."
+  },
+  {
+   "side": "pqtl",
+   "name_as_written": "deCODE",
+   "value": "deCODE SomaScan v4 (Ferkingstad 2021)",
+   "unresolved_reason": null,
+   "identification_basis": "reference_entry",
+   "source_read": "full_text",
+   "passage_id": "p001",
+   "quote": "This dataset is derived from a pQTL study involving 35,559 Icelanders [12].",
+   "citations_claim": "claims/42548293.yaml#pqtl_2_a3",
+   "companion_source": true,
+   "reference_label": "12",
+   "reference_quote": "E. Ferkingstad , P. Sulem , B. A. Atlason , et al., “ Large‐Scale Integration of the Plasma Proteome With Genetics and Disease ,” Nature Genetics 53 , no. 12 ( 2021 ): 1712 – 1721 . 34857953 10.1038/s41588-021-00978-w",
+   "reference_citations_claim": "claims/42548293.references.yaml#pqtl_2_a3_ref",
+   "dataset_named_in_source": null,
+   "coder_note": "The sentence, continuing the description of the deCODE exposure set (rule F), attributes the dataset to ref 12, whose DOI 10.1038/s41588-021-00978-w is the Ferkingstad 2021 row's source and no other row's; 35,559 Icelanders and 4907 proteins agree with that row."
+  }
+ ]
+}

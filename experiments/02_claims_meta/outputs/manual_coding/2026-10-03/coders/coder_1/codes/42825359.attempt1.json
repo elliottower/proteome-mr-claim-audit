@@ -1,0 +1,24 @@
+{
+ "record_id": "42825359",
+ "coder_id": "coder_1",
+ "attempt": 1,
+ "rows": [
+  {
+   "side": "pqtl",
+   "name_as_written": "INTERVAL",
+   "value": "INTERVAL SomaScan (Sun 2018)",
+   "unresolved_reason": null,
+   "identification_basis": "exact_n_with_platform_or_year",
+   "source_read": "full_text",
+   "passage_id": "p002",
+   "quote": "[Table 1. Data sources for the multi-omics MR study] Data layer: Proteomics (exposure) | Data source: Sun et al. [15] | Platform/consortium: INTERVAL (SomaScan) | Number of exposures/outcomes: 3283 proteins | Sample size: n = 3301 | Population: European",
+   "citations_claim": "claims/42825359.yaml#pqtl_1",
+   "companion_source": false,
+   "reference_label": null,
+   "reference_quote": null,
+   "reference_citations_claim": null,
+   "dataset_named_in_source": null,
+   "coder_note": "Table row gives the proteomics source as INTERVAL (SomaScan) with sample size n = 3301 and Sun et al. as the data source; exact N with platform matches one dictionary row, and citation 15 carries that row DOI."
+  }
+ ]
+}

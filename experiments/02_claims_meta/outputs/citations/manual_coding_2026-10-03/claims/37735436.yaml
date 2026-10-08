@@ -1,0 +1,11 @@
+source:
+  citation: '37735436'
+  local: sources/37735436.txt
+  sha256: 8735ada7bcc8437d9c01c1049081d685c71250b990cb9cc4ae5ab021506cb55e
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10512580/fullTextXML
+  note: body as scripts/fetch_fulltext.py rendered it
+claims:
+  outcome_1_c2:
+    quotes:
+    - exact: Additionally, for external validation of the significant proteins identified in the primary
+        analysis, we obtained summary statistics from the UK Biobank for PCa, BRCa and LCa.

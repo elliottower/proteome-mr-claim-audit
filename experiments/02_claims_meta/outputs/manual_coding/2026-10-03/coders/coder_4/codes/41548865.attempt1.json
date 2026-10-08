@@ -1,0 +1,58 @@
+{
+ "record_id": "41548865",
+ "coder_id": "coder_4",
+ "attempt": 1,
+ "rows": [
+  {
+   "side": "outcome",
+   "name_as_written": "FinnGen",
+   "value": "not_stated_in_source",
+   "unresolved_reason": "release_not_identified",
+   "identification_basis": null,
+   "source_read": null,
+   "passage_id": null,
+   "quote": null,
+   "citations_claim": null,
+   "companion_source": false,
+   "reference_label": null,
+   "reference_quote": null,
+   "reference_citations_claim": null,
+   "dataset_named_in_source": null,
+   "coder_note": "FinnGen named as one part of a meta-analysis; no release number stated."
+  },
+  {
+   "side": "outcome",
+   "name_as_written": "Million Veteran Program",
+   "value": "source_names_dataset_absent_from_dictionary",
+   "unresolved_reason": "dataset_absent_from_dictionary",
+   "identification_basis": null,
+   "source_read": "abstract",
+   "passage_id": "p001",
+   "quote": "We performed a large-scale meta-analysis involving patients from the Million Veteran Program, UK Biobank, and FinnGen, including a total of 3941 cases and 1,435,603 controls.",
+   "citations_claim": "claims/41548865.yaml#outcome_2",
+   "companion_source": false,
+   "reference_label": null,
+   "reference_quote": null,
+   "reference_citations_claim": null,
+   "dataset_named_in_source": "Million Veteran Program",
+   "coder_note": "Sentence names the Million Veteran Program as one source of the meta-analysed patients; no dictionary outcome row for it."
+  },
+  {
+   "side": "outcome",
+   "name_as_written": "UK Biobank",
+   "value": "not_stated_in_source",
+   "unresolved_reason": "release_not_identified",
+   "identification_basis": null,
+   "source_read": null,
+   "passage_id": null,
+   "quote": null,
+   "citations_claim": null,
+   "companion_source": false,
+   "reference_label": null,
+   "reference_quote": null,
+   "reference_citations_claim": null,
+   "dataset_named_in_source": null,
+   "coder_note": "UK Biobank named as one part of a meta-analysis; no release or source identified."
+  }
+ ]
+}

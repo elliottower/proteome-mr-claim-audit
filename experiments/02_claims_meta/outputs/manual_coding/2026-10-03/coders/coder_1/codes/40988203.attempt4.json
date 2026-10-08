@@ -1,0 +1,14 @@
+{"record_id": "40988203", "coder_id": "coder_1", "attempt": 4,
+ "rows": [
+  {"side": "pqtl", "name_as_written": "UK Biobank Pharmaceutical Proteomics Project",
+   "value": "not_stated_in_source",
+   "unresolved_reason": "release_not_identified",
+   "identification_basis": null,
+   "source_read": null,
+   "passage_id": null,
+   "quote": null,
+   "citations_claim": null,
+   "companion_source": false,
+   "reference_label": null, "reference_quote": null, "reference_citations_claim": null,
+   "dataset_named_in_source": null,
+   "coder_note": "Step 4 of the decision order (rules C3, E, H). The dataset is UKB-PPP: reference 10 (Sun 2023, doi:10.1038/s41586-023-06592-6) is the source of four pqtl rows, so rule C2 (no row on this side) does not apply. No attribute separates the four: 54,219 equals no row's N (34,557; 17,806; 52,363; 2,518), and 'European' cannot serve as the rule E attribute because 54,219 exceeds the European discovery row's 34,557 and so is not a count that row allows. Step 1 does not apply because 54,219 exactly identifies no other row (rule H). Accession, rule C4: syn51365303 is in no row's prefix, range or identifier; it is given for the dataset as a whole (54,219 participants, 2940 proteins), a deposit covering several UKB-PPP rows, so it is treated under rule C3 (picks none, never absent) and not as C4's third case."}]}

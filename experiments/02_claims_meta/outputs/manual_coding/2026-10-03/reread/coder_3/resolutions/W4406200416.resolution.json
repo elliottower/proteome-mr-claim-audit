@@ -1,0 +1,22 @@
+{
+ "record_id": "W4406200416",
+ "coder_id": "coder_3",
+ "rows": [
+  {
+   "row": "outcome_1",
+   "resolved_value": "source_names_dataset_absent_from_dictionary",
+   "unresolved_reason": "dataset_absent_from_dictionary",
+   "resolution_note": "Rule C: sentence 2 of p001 defines the authors' own prospective cohort analysis of UK Biobank individual-level data by more than a number of participants (baseline assessments 2006 to 2010, follow-up until September 1, 2023; sentence 3 adds the exclusion of pre-existing dementia, the restriction to participants with diabetes and Olink proteomics); no accession, citation or release of a published UK Biobank GWAS is given, so no dictionary row is identified.",
+   "identification_basis": null,
+   "source_read": "abstract",
+   "passage_id": "p001",
+   "quote": "Method This prospective cohort study utilized UK Biobank data, encompassing baseline assessments from 2006 to 2010 and follow‐up until September 1, 2023.",
+   "citations_claim": "claims/W4406200416.yaml#outcome_1_r",
+   "companion_source": false,
+   "reference_label": null,
+   "reference_quote": null,
+   "reference_citations_claim": null,
+   "dataset_named_in_source": "UK Biobank"
+  }
+ ]
+}

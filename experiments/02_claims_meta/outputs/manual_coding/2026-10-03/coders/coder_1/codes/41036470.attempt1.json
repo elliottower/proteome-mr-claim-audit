@@ -1,0 +1,41 @@
+{
+ "record_id": "41036470",
+ "coder_id": "coder_1",
+ "attempt": 1,
+ "rows": [
+  {
+   "side": "pqtl",
+   "name_as_written": "UK Biobank Pharma Proteomics Project",
+   "value": "not_stated_in_source",
+   "unresolved_reason": "release_not_identified",
+   "identification_basis": null,
+   "source_read": null,
+   "passage_id": null,
+   "quote": null,
+   "citations_claim": null,
+   "companion_source": false,
+   "reference_label": null,
+   "reference_quote": null,
+   "reference_citations_claim": null,
+   "dataset_named_in_source": null,
+   "coder_note": "UKB-PPP pQTL named with a protein count only; no N, cohort subset or citation in the passages given."
+  },
+  {
+   "side": "pqtl",
+   "name_as_written": "deCODE genetics",
+   "value": "deCODE SomaScan v4 (Ferkingstad 2021)",
+   "unresolved_reason": null,
+   "identification_basis": "reference_entry",
+   "source_read": "full_text",
+   "passage_id": "p002",
+   "quote": "Obtained from deCODE genetics (http://www.decode.com/summarydata/), this dataset contains GWAS associations for plasma protein levels quantified through 4907 aptamers in 35,559 Icelandic individuals.",
+   "citations_claim": "claims/41036470.yaml#pqtl_2",
+   "companion_source": true,
+   "reference_label": "20",
+   "reference_quote": "Ferkingstad E Sulem P Atlason BA , et al. Large-scale integration of the plasma proteome with genetics and disease . Nat Genet 2021 ; 53 : 1712 – 1721 . 34857953 10.1038/s41588-021-00978-w",
+   "reference_citations_claim": "claims/41036470.references.yaml#pqtl_2_ref",
+   "dataset_named_in_source": null,
+   "coder_note": "Sentence describes the deCODE dataset as 4907 aptamers in 35,559 Icelandic individuals and is followed directly by citation marker 20 (split onto the next line of the passage), whose entry carries the source DOI of exactly one dictionary row."
+  }
+ ]
+}

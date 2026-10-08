@@ -1,0 +1,15 @@
+source:
+  citation: '42688628'
+  local: sources/42688628.txt
+  sha256: a95430ff4cbe197bd6e63a7f1de3070b475163e33210f156ab8ceca545734559
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13536325/fullTextXML
+  note: body as scripts/fetch_fulltext.py rendered it
+claims:
+  outcome_1:
+    quotes:
+    - exact: Data were obtained from the FinnGen consortium (release R13) via the IEU OpenGWAS database
+        as we previously described.25
+  outcome_1_c2:
+    quotes:
+    - exact: Data were obtained from the FinnGen consortium (release R13) via the IEU OpenGWAS database
+        as we previously described.25

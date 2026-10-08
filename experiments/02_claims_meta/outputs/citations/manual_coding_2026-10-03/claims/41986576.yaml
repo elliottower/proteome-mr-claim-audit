@@ -1,0 +1,27 @@
+source:
+  citation: '41986576'
+  local: sources/41986576.txt
+  sha256: 22d213c65984998b0e6875d43418657d14956c58696dfd49d34aff253df8d3e6
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13083048/fullTextXML
+  note: body as scripts/fetch_fulltext.py rendered it
+claims:
+  pqtl_1:
+    quotes:
+    - exact: '(2) Exposure data: protein quantitative trait locus (pQTL) data were obtained from the deCODE
+        database (2021 release; PMID: 34857953).'
+  pqtl_1_a2:
+    quotes:
+    - exact: '(2) Exposure data: protein quantitative trait locus (pQTL) data were obtained from the deCODE
+        database (2021 release; PMID: 34857953).'
+  pqtl_1_a3:
+    quotes:
+    - exact: '(2) Exposure data: protein quantitative trait locus (pQTL) data were obtained from the deCODE
+        database (2021 release; PMID: 34857953).'
+  outcome_1_c2:
+    quotes:
+    - exact: '(3) Outcome data: Summary‐level genome‐wide association study (GWAS) statistics for keloid
+        were obtained from the GWAS Catalog (accession number: GCST90018874) [27].'
+  pqtl_1_c2:
+    quotes:
+    - exact: '(2) Exposure data: protein quantitative trait locus (pQTL) data were obtained from the deCODE
+        database (2021 release; PMID: 34857953).'

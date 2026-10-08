@@ -1,0 +1,28 @@
+source:
+  citation: '39935908'
+  local: sources/39935908.txt
+  sha256: cee1013df949563b292e4fbfbd58d32cecde7aa6cd9a726144bb079a4005d621
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11812558/fullTextXML
+  note: body as scripts/fetch_fulltext.py rendered it
+claims:
+  pqtl_1:
+    quotes:
+    - exact: There were a total of 54,219 individuals, including 46,595 randomly selected UKB participants
+        at the baseline visit to provide base group representation, as well as a targeted complement of
+        6,376 participants with specific phenotypes or diseases based on the research objectives of the
+        UKB-PPP consortium members, and 1,268 individuals who participated in COVID-19-related studies
+        at multiple visits.16
+  pqtl_1_a3:
+    quotes:
+    - exact: There were a total of 54,219 individuals, including 46,595 randomly selected UKB participants
+        at the baseline visit to provide base group representation, as well as a targeted complement of
+        6,376 participants with specific phenotypes or diseases based on the research objectives of the
+        UKB-PPP consortium members, and 1,268 individuals who participated in COVID-19-related studies
+        at multiple visits.16
+  pqtl_1_c2:
+    quotes:
+    - exact: There were a total of 54,219 individuals, including 46,595 randomly selected UKB participants
+        at the baseline visit to provide base group representation, as well as a targeted complement of
+        6,376 participants with specific phenotypes or diseases based on the research objectives of the
+        UKB-PPP consortium members, and 1,268 individuals who participated in COVID-19-related studies
+        at multiple visits.16

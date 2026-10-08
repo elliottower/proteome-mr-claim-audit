@@ -1,0 +1,22 @@
+{
+ "record_id": "41319014",
+ "coder_id": "coder_2",
+ "rows": [
+  {
+   "row": "pqtl_1",
+   "resolved_value": "UKB-PPP discovery",
+   "unresolved_reason": null,
+   "resolution_note": "p002 sentence 1 attributes the pQTL data to UKB-PPP with the citation Sun et al. 2023 (DOI 10.1038/s41586-023-06592-6, PMID 37794186, the source of four pqtl rows) and gives the ancestry 'European-ancestry', which among those rows is the ancestry of the discovery row only (rule E). The '2940' participants equals no row's N and so identifies no other release (rule H); no other passage gives a conflicting identifier.",
+   "identification_basis": "reference_entry",
+   "source_read": "full_text",
+   "passage_id": "p002",
+   "quote": "We extracted pQTL data from 2940 European‐ancestry participants in the UKB‐PPP database (B. B. Sun et al. 2023).",
+   "citations_claim": "claims/41319014.yaml#pqtl_1_r",
+   "companion_source": true,
+   "reference_label": "brb371110-bib-0036",
+   "reference_quote": "Sun , B. B. , J. Chiou , M. Traylor , et al. 2023 . “ Plasma Proteomic Associations With Genetics and Health in the UK Biobank .” Nature 622 , no. 7982 : 329 – 338 . 10.1038/s41586-023-06592-6 . 37794186 PMC10567551",
+   "reference_citations_claim": "claims/41319014.references.yaml#pqtl_1_r_ref",
+   "dataset_named_in_source": null
+  }
+ ]
+}

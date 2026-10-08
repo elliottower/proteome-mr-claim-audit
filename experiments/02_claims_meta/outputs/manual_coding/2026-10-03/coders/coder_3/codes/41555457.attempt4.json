@@ -1,0 +1,15 @@
+{"record_id": "41555457", "coder_id": "coder_3", "attempt": 4,
+ "rows": [
+  {"side": "outcome", "name_as_written": "UK Biobank",
+   "value": "source_names_dataset_absent_from_dictionary",
+   "unresolved_reason": "dataset_absent_from_dictionary",
+   "identification_basis": null,
+   "source_read": "full_text",
+   "passage_id": "p006",
+   "quote": "This research was conducted under approved UK Biobank application 78867 and is covered by the generic ethical approval (REC reference 21/NW/0157).",
+   "citations_claim": "claims/41555457.yaml#outcome_1_a4",
+   "companion_source": false,
+   "reference_label": null, "reference_quote": null, "reference_citations_claim": null,
+   "dataset_named_in_source": "UK Biobank application 78867",
+   "coder_note": "Step 3 (rule C): the authors' own analysis of UK Biobank individual-level data, defined by an application number (78867; p005 and p007 give the same project ID) and by described procedures (APOE genotypes extracted from imputed BGEN data, p001). No passage names a published GWAS release, accession or citation for the outcome data."}
+ ]}

@@ -1,0 +1,12 @@
+source:
+  citation: '37726845'
+  local: sources/37726845.txt
+  sha256: 62f9c016cb1ff9b2585a726f961dcde6c38af53f49b1255505ab168eeb45092d
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10508028/fullTextXML
+  note: body as scripts/fetch_fulltext.py rendered it
+claims:
+  outcome_2_c2:
+    quotes:
+    - exact: Two GWAS summary data included CRC cases and controls of European ancestry from independent
+        FinnGen (4957 CRC cases and 304,197 controls) [24] and UK Biobank (UKBB) (9276 cases and 477,069
+        controls) [25] datasets were employed in the replication proteome-wide MR.

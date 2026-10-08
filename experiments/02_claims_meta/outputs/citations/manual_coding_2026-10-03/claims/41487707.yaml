@@ -1,0 +1,23 @@
+source:
+  citation: '41487707'
+  local: sources/41487707.txt
+  sha256: 85a67fabcfc2731da54173fa629781afd98e15ce8992e7ffe470fb6796c2fb14
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12757437/fullTextXML
+  note: body as scripts/fetch_fulltext.py rendered it
+claims:
+  outcome_1:
+    quotes:
+    - exact: The CD data is derived from the DF11 version of the Finnish biobank study, released on June
+        24, 2024 [21].
+  outcome_1_a2:
+    quotes:
+    - exact: The CD data is derived from the DF11 version of the Finnish biobank study, released on June
+        24, 2024 [21].
+  outcome_1_c2:
+    quotes:
+    - exact: The CD data is derived from the DF11 version of the Finnish biobank study, released on June
+        24, 2024 [21].
+  outcome_1_r:
+    quotes:
+    - exact: The CD data is derived from the DF11 version of the Finnish biobank study, released on June
+        24, 2024 [21].

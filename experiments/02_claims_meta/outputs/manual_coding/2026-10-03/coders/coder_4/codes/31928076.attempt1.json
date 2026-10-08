@@ -1,0 +1,58 @@
+{
+ "record_id": "31928076",
+ "coder_id": "coder_4",
+ "attempt": 1,
+ "rows": [
+  {
+   "side": "outcome",
+   "name_as_written": "International Consortium for Blood Pressure",
+   "value": "not_stated_in_source",
+   "unresolved_reason": "release_not_identified",
+   "identification_basis": null,
+   "source_read": null,
+   "passage_id": null,
+   "quote": null,
+   "citations_claim": null,
+   "companion_source": false,
+   "reference_label": null,
+   "reference_quote": null,
+   "reference_citations_claim": null,
+   "dataset_named_in_source": null,
+   "coder_note": "Consortium named with a sample size only; no release identifier, citation or year."
+  },
+  {
+   "side": "outcome",
+   "name_as_written": "UK Biobank",
+   "value": "not_stated_in_source",
+   "unresolved_reason": "release_not_identified",
+   "identification_basis": null,
+   "source_read": null,
+   "passage_id": null,
+   "quote": null,
+   "citations_claim": null,
+   "companion_source": false,
+   "reference_label": null,
+   "reference_quote": null,
+   "reference_citations_claim": null,
+   "dataset_named_in_source": null,
+   "coder_note": "UK Biobank named with an approximate sample size only; no release or GWAS source identified."
+  },
+  {
+   "side": "pqtl",
+   "name_as_written": "ORIGIN",
+   "value": "source_names_dataset_absent_from_dictionary",
+   "unresolved_reason": "dataset_absent_from_dictionary",
+   "identification_basis": null,
+   "source_read": "abstract",
+   "passage_id": "p001",
+   "quote": "METHODS: Genetic determinants of 227 biomarkers were identified in ORIGIN (Outcome Reduction With Initial Glargine Intervention; URL: http://www.clinicaltrials.gov.",
+   "citations_claim": "claims/31928076.yaml#pqtl_1",
+   "companion_source": false,
+   "reference_label": null,
+   "reference_quote": null,
+   "reference_citations_claim": null,
+   "dataset_named_in_source": "ORIGIN",
+   "coder_note": "Sentence names ORIGIN participants as the source of the biomarker genetic determinants; no dictionary row for ORIGIN."
+  }
+ ]
+}

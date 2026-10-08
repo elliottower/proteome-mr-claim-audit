@@ -1,0 +1,17 @@
+source:
+  citation: '42106685'
+  local: sources/42106685.txt
+  sha256: 621fce702ce7788ebede6264c35f51f950404fea51fdd78eceddd1fbd4cc1618
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13330287/fullTextXML
+  note: body as scripts/fetch_fulltext.py rendered it
+claims:
+  pqtl_1:
+    quotes:
+    - exact: Discovery datasets for cis-pQTLs associated with protein levels were derived from a proteome-wide
+        GWAS from the deCODE study (n = 35,559), identifying 1,881 sentinel cis-pQTLs linked to 1,809
+        proteins [11].
+  pqtl_1_c2:
+    quotes:
+    - exact: Discovery datasets for cis-pQTLs associated with protein levels were derived from a proteome-wide
+        GWAS from the deCODE study (n = 35,559), identifying 1,881 sentinel cis-pQTLs linked to 1,809
+        proteins [11].

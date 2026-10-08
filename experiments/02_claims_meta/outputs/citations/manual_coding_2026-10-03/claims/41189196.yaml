@@ -1,0 +1,22 @@
+source:
+  citation: '41189196'
+  local: sources/41189196.txt
+  sha256: da812c5810c4a475b2051f0e8fa18c8c502574dff3655839fb6312004feba7a2
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12537116/fullTextXML
+  note: body as scripts/fetch_fulltext.py rendered it
+claims:
+  outcome_1:
+    quotes:
+    - exact: Eventually, 3 IBD subtypes were acquired from the GWAS datasets, encompassing IBD (N = 12,882
+        cases and 21,770 controls), UC (N = 6968 cases and 20,464 controls), and CD (N = 5950 cases and
+        14,927 controls).
+  outcome_1_a3:
+    quotes:
+    - exact: The GWAS datasets with IBD were obtained from the international inflammatory bowel disease
+        genetic consortium (IIBDGC).[20] The IBD datasets (encompassing diverse subtypes IBD, UC, and
+        CD) were consisted of individuals of European ancestry.
+  outcome_1_c2:
+    quotes:
+    - exact: Eventually, 3 IBD subtypes were acquired from the GWAS datasets, encompassing IBD (N = 12,882
+        cases and 21,770 controls), UC (N = 6968 cases and 20,464 controls), and CD (N = 5950 cases and
+        14,927 controls).

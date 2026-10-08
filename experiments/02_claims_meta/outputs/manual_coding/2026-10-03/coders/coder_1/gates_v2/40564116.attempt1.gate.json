@@ -1,0 +1,60 @@
+{
+ "record_id": "40564116",
+ "coder_id": "coder_1",
+ "attempt": 1,
+ "rows": [
+  {
+   "side": "outcome",
+   "name_as_written": "Biobank of Japan (BBJ)",
+   "value": "Sakaue 2021 BBJ (220 traits)",
+   "passes": false,
+   "failures": [
+    "no_identifier_of_the_coded_row_in_the_pinned_material"
+   ],
+   "warnings": [],
+   "machine_basis": [],
+   "reference_verified_by": "doi"
+  },
+  {
+   "side": "outcome",
+   "name_as_written": "China Kadoorie Biobank (CKB)",
+   "value": "source_names_dataset_absent_from_dictionary",
+   "passes": true,
+   "failures": [],
+   "warnings": [],
+   "machine_basis": [],
+   "reference_verified_by": null
+  },
+  {
+   "side": "outcome",
+   "name_as_written": "J-Kidney-Biobank (JKB)",
+   "value": "source_names_dataset_absent_from_dictionary",
+   "passes": true,
+   "failures": [],
+   "warnings": [],
+   "machine_basis": [],
+   "reference_verified_by": null
+  },
+  {
+   "side": "pqtl",
+   "name_as_written": "Guangzhou Nutrition and Health Study (GNHS)",
+   "value": "Guangzhou Nutrition and Health Study (Xu 2023)",
+   "passes": true,
+   "failures": [],
+   "warnings": [],
+   "machine_basis": [
+    "aliases:GNHS",
+    "source_citation:Xu|2023",
+    "source_identifier:10.1038/s41467-023-36491-3",
+    "source_identifier:36797296",
+    "source_identifier:PMC9935862"
+   ],
+   "reference_verified_by": "doi"
+  }
+ ],
+ "rows_not_coded_once": [],
+ "rows_not_given": [],
+ "wrong_coder": false,
+ "passes": false,
+ "gated_utc": "20261008T003917Z"
+}

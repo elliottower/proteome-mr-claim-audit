@@ -1,0 +1,12 @@
+source:
+  citation: '41098849'
+  local: sources/41098849.txt
+  sha256: 11d32090335d1f3a547d1c2cbc1260e870325147ce2b2bcd473d031fb7fee18c
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12519998/fullTextXML
+  note: body as scripts/fetch_fulltext.py rendered it
+claims:
+  pqtl_1_c2:
+    quotes:
+    - exact: Despite the UK Biobank Pharma Proteomics Project (UKBPPP) database containing data on 2,940
+        plasma proteins, only 1,908 were included in the MR analysis due to the constraints of the available
+        instrumental variables.

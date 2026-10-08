@@ -1,0 +1,35 @@
+{
+ "record_id": "PPR1016927",
+ "coder_id": "coder_1",
+ "attempt": 3,
+ "rows": [
+  {
+   "side": "outcome",
+   "name_as_written": "FinnGen project",
+   "value": "not_stated_in_source",
+   "passes": true,
+   "failures": [],
+   "warnings": [],
+   "machine_basis": [],
+   "reference_verified_by": null
+  },
+  {
+   "side": "pqtl",
+   "name_as_written": "DECODE Genetics",
+   "value": "deCODE SomaScan v4 (Ferkingstad 2021)",
+   "passes": true,
+   "failures": [],
+   "warnings": [],
+   "machine_basis": [
+    "aliases:deCODE",
+    "aliases:deCODE genetics"
+   ],
+   "reference_verified_by": null
+  }
+ ],
+ "rows_not_coded_once": [],
+ "rows_not_given": [],
+ "wrong_coder": false,
+ "passes": true,
+ "gated_utc": "20261008T005611Z"
+}

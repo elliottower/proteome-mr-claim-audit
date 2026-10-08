@@ -1,0 +1,26 @@
+source:
+  citation: '42798608'
+  local: sources/42798608.txt
+  sha256: 2b91dacf131beeddab06fabea42b3e63c0d45f6518c704e7eed81f7d80f50260
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13612422/fullTextXML
+  note: body as scripts/fetch_fulltext.py rendered it
+claims:
+  outcome_2_a3:
+    quotes:
+    - exact: '[Table 1. GWAS cohorts for outcomes in Mendelian randomization analysis.] Outcome (ICD10):
+        Lymphoma(C81, C82, C83, C84, C85, C86) | Sample size: 361,194 (1,752/359,442) | SNPs: 10,226,672
+        | Consortium: UK Biobank | Ancestry: European | Author: Neale lab | Year: 2018'
+  outcome_2_a4:
+    quotes:
+    - exact: '[Table 1. GWAS cohorts for outcomes in Mendelian randomization analysis.] Outcome (ICD10):
+        Lymphoma(C81, C82, C83, C84, C85, C86) | Sample size: 361,194 (1,752/359,442) | SNPs: 10,226,672
+        | Consortium: UK Biobank | Ancestry: European | Author: Neale lab | Year: 2018'
+  outcome_2_c2:
+    quotes:
+    - exact: Five accessible GWAS cohorts, including two cohorts of lymphoid leukemia (21, 64)and three
+        cohorts of lymphoma (21, 65), were used as outcomes.
+  outcome_2_r:
+    quotes:
+    - exact: '[Table 1. GWAS cohorts for outcomes in Mendelian randomization analysis.] Outcome (ICD10):
+        Lymphoma(C81, C82, C83, C84, C85, C86) | Sample size: 361,194 (1,752/359,442) | SNPs: 10,226,672
+        | Consortium: UK Biobank | Ancestry: European | Author: Neale lab | Year: 2018'

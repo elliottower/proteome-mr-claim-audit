@@ -1,0 +1,23 @@
+source:
+  citation: '41142151'
+  local: sources/41142151.txt
+  sha256: edcffd8573df9b8589c6ddd83f91d571380b9a341cfbd438045b7bc709e54f41
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12545141/fullTextXML
+  note: body as scripts/fetch_fulltext.py rendered it
+claims:
+  pqtl_1:
+    quotes:
+    - exact: The GWAS summary statistics pertaining to the plasma proteome originate from Decode Genetics,1
+        encompassing a cohort of 35,559 individuals from Iceland (13).
+  pqtl_1_a2:
+    quotes:
+    - exact: The GWAS summary statistics pertaining to the plasma proteome originate from Decode Genetics,1
+        encompassing a cohort of 35,559 individuals from Iceland (13).
+  outcome_1_c2:
+    quotes:
+    - exact: The GWAS summary statistics for PHN were sourced from the FinnGen database.2 The data include
+        490 cases and 435,371 controls.
+  pqtl_1_c2:
+    quotes:
+    - exact: The GWAS summary statistics pertaining to the plasma proteome originate from Decode Genetics,1
+        encompassing a cohort of 35,559 individuals from Iceland (13).

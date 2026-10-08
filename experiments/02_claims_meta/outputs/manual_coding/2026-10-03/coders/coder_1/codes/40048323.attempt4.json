@@ -1,0 +1,15 @@
+{"record_id": "40048323", "coder_id": "coder_1", "attempt": 4,
+ "rows": [
+  {"side": "outcome", "name_as_written": "UK Biobank",
+   "value": "source_names_dataset_absent_from_dictionary",
+   "unresolved_reason": "dataset_absent_from_dictionary",
+   "identification_basis": null,
+   "source_read": "full_text",
+   "passage_id": "p002",
+   "quote": "This research has been conducted using the UK Biobank Resource under approved application number 19542.",
+   "citations_claim": "claims/40048323.yaml#outcome_1_a4",
+   "companion_source": false,
+   "reference_label": null, "reference_quote": null, "reference_citations_claim": null,
+   "dataset_named_in_source": "UK Biobank Resource under approved application number 19542",
+   "coder_note": "Step 3 of the decision order (rule C). The passages define the authors' own analysis of UK Biobank individual-level data by more than a number of participants: an application number (19542, the pinned sentence), and in passage p003 a described measurement and phenotype (51 644 individuals with plasma protein data and a baseline pain questionnaire). No dictionary row is that analysis. No accession is given, so rule C4 does not arise."}
+ ]}

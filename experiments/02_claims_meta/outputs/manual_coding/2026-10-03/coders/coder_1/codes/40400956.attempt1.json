@@ -1,0 +1,24 @@
+{
+ "record_id": "40400956",
+ "coder_id": "coder_1",
+ "attempt": 1,
+ "rows": [
+  {
+   "side": "pqtl",
+   "name_as_written": "deCODE",
+   "value": "deCODE SomaScan v4 (Ferkingstad 2021)",
+   "unresolved_reason": null,
+   "identification_basis": "reference_entry",
+   "source_read": "full_text",
+   "passage_id": "p001",
+   "quote": "Next, we obtained the pQTL data of the filtered proteins from a total of 4,907 proteins in the deCODE database, as reported by Ferkingstad et al. (17).",
+   "citations_claim": "claims/40400956.yaml#pqtl_1",
+   "companion_source": true,
+   "reference_label": "17",
+   "reference_quote": "Ferkingstad E, Sulem P, Atlason BA, et al. Large-scale integration of the plasma proteome with genetics and disease. Nat Genet 2021;53:1712-21. 10.1038/s41588-021-00978-w",
+   "reference_citations_claim": "claims/40400956.references.yaml#pqtl_1_ref",
+   "dataset_named_in_source": null,
+   "coder_note": "Sentence attributes the deCODE pQTL data to Ferkingstad et al., citation 17, whose DOI is the source DOI of exactly one dictionary row."
+  }
+ ]
+}

@@ -1,0 +1,15 @@
+source:
+  citation: '42327717'
+  local: sources/42327717.txt
+  sha256: b8ad7f828e4d917fa08369a478756a41791742f44ca82a607e0f8e788d446ac9
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13279423/fullTextXML
+  note: body as scripts/fetch_fulltext.py rendered it
+claims:
+  outcome_1:
+    quotes:
+    - exact: Idiopathic pulmonary fibrosis data were derived from GWAS data from the UK Biobank (17),
+        and included 1, 369 patients of European ancestry and 435, 866 control subjects of European ancestry.
+  outcome_1_c2:
+    quotes:
+    - exact: Idiopathic pulmonary fibrosis data were derived from GWAS data from the UK Biobank (17),
+        and included 1, 369 patients of European ancestry and 435, 866 control subjects of European ancestry.

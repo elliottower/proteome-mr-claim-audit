@@ -1,0 +1,58 @@
+{
+ "record_id": "39115672",
+ "coder_id": "coder_3",
+ "attempt": 1,
+ "rows": [
+  {
+   "side": "outcome",
+   "name_as_written": "MEGASTROKE consortium",
+   "value": "MEGASTROKE (Malik 2018)",
+   "unresolved_reason": null,
+   "identification_basis": "reference_entry",
+   "source_read": "full_text",
+   "passage_id": "p002",
+   "quote": "Data on stroke patients were obtained from one of the largest genome-wide meta-analyses conducted by the MEGASTROKE Consortium (Table 1) [20].",
+   "citations_claim": "claims/39115672.yaml#outcome_1",
+   "companion_source": true,
+   "reference_label": "20",
+   "reference_quote": "Malik R Chauhan G Traylor M Sargurupremraj M Okada Y Mishra A Rutten-Jacobs L Giese AK Multiancestry genome-wide association study of 520,000 subjects identifies 32 loci associated with stroke and stroke subtypes Nat Genet 2018 50 4 524 537 10.1038/s41588-018-0058-3 29531354 PMC5968830",
+   "reference_citations_claim": "claims/39115672.references.yaml#outcome_1_ref",
+   "dataset_named_in_source": null,
+   "coder_note": "Sentence attributes the stroke data to the consortium meta-analysis in reference 20, whose DOI is the source of one dictionary row."
+  },
+  {
+   "side": "outcome",
+   "name_as_written": "UK Biobank dataset",
+   "value": "not_stated_in_source",
+   "unresolved_reason": "release_not_identified",
+   "identification_basis": null,
+   "source_read": null,
+   "passage_id": null,
+   "quote": null,
+   "citations_claim": null,
+   "companion_source": false,
+   "reference_label": null,
+   "reference_quote": null,
+   "reference_citations_claim": null,
+   "dataset_named_in_source": null,
+   "coder_note": "Table row gives a cohort name and case/control counts only."
+  },
+  {
+   "side": "pqtl",
+   "name_as_written": "INTERVAL",
+   "value": "not_stated_in_source",
+   "unresolved_reason": "release_not_identified",
+   "identification_basis": null,
+   "source_read": null,
+   "passage_id": null,
+   "quote": null,
+   "citations_claim": null,
+   "companion_source": false,
+   "reference_label": null,
+   "reference_quote": null,
+   "reference_citations_claim": null,
+   "dataset_named_in_source": null,
+   "coder_note": "Passages given for this row do not state a release, citation or N."
+  }
+ ]
+}

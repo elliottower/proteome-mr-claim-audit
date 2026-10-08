@@ -1,0 +1,13 @@
+source:
+  citation: '40299563'
+  local: sources/40299563.txt
+  sha256: 32810df1ea64fdd3e00f8a8bec3f4ac977e68c781e80e36845587c78157b8345
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12025092/fullTextXML
+  note: body as scripts/fetch_fulltext.py rendered it
+claims:
+  pqtl_1_c2:
+    quotes:
+    - exact: In the replication MR analysis, we further conducted two-sample MR analyses of the proteins
+        identified in METAL using cis-PQTLs obtained from the UK Biobank Pharma Proteomics Project (UKB-PPP),
+        which conducted proteomic profiling on blood plasma samples from 54,219 participants using the
+        Olink platform [17].

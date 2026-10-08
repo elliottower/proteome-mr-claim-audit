@@ -1,0 +1,23 @@
+source:
+  citation: '42219961'
+  local: sources/42219961.txt
+  sha256: e543901bfba4df7fccefc86b4206ad58a634c9e87a610a505785c5d90072031f
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13228183/fullTextXML
+  note: body as scripts/fetch_fulltext.py rendered it
+claims:
+  outcome_2:
+    quotes:
+    - exact: Replication was conducted using the GCST005881 cohort, comprising 5,908 cases and 4,967 controls.
+  outcome_2_a2:
+    quotes:
+    - exact: Replication was conducted using the GCST005881 cohort, comprising 5,908 cases and 4,967 controls.
+  outcome_2_a3:
+    quotes:
+    - exact: Replication was conducted using the GCST005881 cohort, comprising 5,908 cases and 4,967 controls.
+  outcome_1_c2:
+    quotes:
+    - exact: The GWAS data for the discovery dataset on DN were sourced from the FinnGen consortium, encompassing
+        5,042 cases and 79,344 controls.
+  outcome_2_c2:
+    quotes:
+    - exact: Replication was conducted using the GCST005881 cohort, comprising 5,908 cases and 4,967 controls.

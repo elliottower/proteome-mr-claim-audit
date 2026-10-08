@@ -1,0 +1,17 @@
+source:
+  citation: '38238732'
+  local: sources/38238732.txt
+  sha256: ef4e34681ea8c78f42bb9f48e357339f316344aaf51cd4416fe3ab1e23be5e91
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10797790/fullTextXML
+  note: body as scripts/fetch_fulltext.py rendered it
+claims:
+  pqtl_1:
+    quotes:
+    - exact: The associations of single-nucleotide polymorphisms (SNPs) with SOMAmers were calculated
+        using data from 5,368 participants of AGES-Reykjavik, as previously published and described in
+        detail [24].
+  pqtl_1_c2:
+    quotes:
+    - exact: The associations of single-nucleotide polymorphisms (SNPs) with SOMAmers were calculated
+        using data from 5,368 participants of AGES-Reykjavik, as previously published and described in
+        detail [24].

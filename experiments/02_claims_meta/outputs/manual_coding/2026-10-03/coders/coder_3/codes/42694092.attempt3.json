@@ -1,0 +1,19 @@
+{"record_id": "42694092", "coder_id": "coder_3", "attempt": 3,
+ "rows": [
+  {"side": "outcome", "name_as_written": "FinnGen",
+   "value": "FinnGen R12", "unresolved_reason": null,
+   "identification_basis": "release_identifier", "source_read": "full_text", "passage_id": "p004",
+   "quote": "Additional analyses were conducted using sepsis-related GWAS phenotypes from the FinnGen R12 release.",
+   "citations_claim": "claims/42694092.yaml#outcome_1_a3",
+   "companion_source": false, "reference_label": null, "reference_quote": null, "reference_citations_claim": null,
+   "dataset_named_in_source": null,
+   "coder_note": "The sentence names the FinnGen R12 release; passages p003, p005, p006 and p008 say the same, and FinnGen is used as a separate validation dataset, not in a meta-analysis."},
+  {"side": "outcome", "name_as_written": "UK Biobank",
+   "value": "source_names_dataset_absent_from_dictionary", "unresolved_reason": "dataset_absent_from_dictionary",
+   "identification_basis": null, "source_read": "full_text", "passage_id": "p003",
+   "quote": "The primary discovery analysis used the UK Biobank cohort, which included 11,643 individuals with sepsis and 474,841 controls of European ancestry.",
+   "citations_claim": "claims/42694092.yaml#outcome_2_a3",
+   "companion_source": false, "reference_label": null, "reference_quote": null, "reference_citations_claim": null,
+   "dataset_named_in_source": "the UK Biobank cohort, which included 11,643 individuals with sepsis and 474,841 controls of European ancestry",
+   "coder_note": "The passage defines one published UK Biobank sepsis GWAS: this sentence gives its analytic sample and the next gives the ICD-10 case definition, the exclusions and the covariates, attributed to reference 15 (Hamilton 2023, DOI 10.1371/journal.pmed.1004174). No dictionary row has that source or is a UK Biobank sepsis GWAS. For adjudication: rule C is written for the authors' own GWAS, and this GWAS is a published one."}
+ ]}

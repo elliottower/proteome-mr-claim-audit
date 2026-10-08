@@ -1,0 +1,58 @@
+{
+ "record_id": "42175707",
+ "coder_id": "coder_4",
+ "attempt": 3,
+ "rows": [
+  {
+   "side": "outcome",
+   "name_as_written": "FinnGen",
+   "value": "not_stated_in_source",
+   "unresolved_reason": "release_not_identified",
+   "identification_basis": null,
+   "source_read": null,
+   "passage_id": null,
+   "quote": null,
+   "citations_claim": null,
+   "companion_source": false,
+   "reference_label": null,
+   "reference_quote": null,
+   "reference_citations_claim": null,
+   "dataset_named_in_source": null,
+   "coder_note": "The only passage describes FinnGen in general ('over 500,000 Finnish biobank samples'); no release number, accession or exact release N is given."
+  },
+  {
+   "side": "outcome",
+   "name_as_written": "GWAS catalog",
+   "value": "source_names_dataset_absent_from_dictionary",
+   "unresolved_reason": "dataset_absent_from_dictionary",
+   "identification_basis": null,
+   "source_read": "full_text",
+   "passage_id": "p001",
+   "quote": "Summary statistics were downloaded from the NHGRI‐EBI GWAS Catalog [21] on 01/23/2024 for study GCST90205183 [22].",
+   "citations_claim": "claims/42175707.yaml#outcome_2_a3",
+   "companion_source": false,
+   "reference_label": null,
+   "reference_quote": null,
+   "reference_citations_claim": null,
+   "dataset_named_in_source": "GCST90205183",
+   "coder_note": "Rule B: the sentence gives GWAS Catalog accession GCST90205183 (endometriosis, Rahmioglu 2023), which no dictionary row lists."
+  },
+  {
+   "side": "pqtl",
+   "name_as_written": "UK Biobank Pharma Proteomics Project (UKB-PPP)",
+   "value": "not_stated_in_source",
+   "unresolved_reason": "release_not_identified",
+   "identification_basis": null,
+   "source_read": null,
+   "passage_id": null,
+   "quote": null,
+   "citations_claim": null,
+   "companion_source": false,
+   "reference_label": null,
+   "reference_quote": null,
+   "reference_citations_claim": null,
+   "dataset_named_in_source": null,
+   "coder_note": "The sentence cites Sun 2023 (ref 18), whose source has several dictionary rows, and gives no ancestry, subcohort or sample size that separates them (rule E not met)."
+  }
+ ]
+}

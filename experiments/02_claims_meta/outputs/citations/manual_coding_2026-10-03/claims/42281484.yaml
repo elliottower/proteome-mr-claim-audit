@@ -1,0 +1,15 @@
+source:
+  citation: '42281484'
+  local: sources/42281484.txt
+  sha256: b7bb8a9fa5ec746c0ebf4fb152a2fa23869552335a0b500bb3ee0b002370ff06
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13261327/fullTextXML
+  note: body as scripts/fetch_fulltext.py rendered it
+claims:
+  outcome_1_a4:
+    quotes:
+    - exact: To address this concern, we performed a prospective proteome-wide association study of 2920
+        plasma proteins from the UK Biobank (UKB).
+  outcome_1_c2:
+    quotes:
+    - exact: To address this concern, we performed a prospective proteome-wide association study of 2920
+        plasma proteins from the UK Biobank (UKB).

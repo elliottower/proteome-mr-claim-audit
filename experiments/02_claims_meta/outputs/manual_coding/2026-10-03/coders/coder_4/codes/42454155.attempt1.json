@@ -1,0 +1,58 @@
+{
+ "record_id": "42454155",
+ "coder_id": "coder_4",
+ "attempt": 1,
+ "rows": [
+  {
+   "side": "outcome",
+   "name_as_written": "FinnGen",
+   "value": "FinnGen R12",
+   "unresolved_reason": null,
+   "identification_basis": "release_identifier",
+   "source_read": "full_text",
+   "passage_id": "p002",
+   "quote": "GWAS summary statistics for AKI in the discovery cohort were obtained from the FinnGen database (version R12, https://r12.finngen.fi/, GWAS ID: finngen_R12_N14_ACUTERENFAIL), comprising 8,383 cases (3,194 females and 5,450 males) and 480,448 controls, with a total of 20,112,606 SNPs.",
+   "citations_claim": "claims/42454155.yaml#outcome_1",
+   "companion_source": false,
+   "reference_label": null,
+   "reference_quote": null,
+   "reference_citations_claim": null,
+   "dataset_named_in_source": null,
+   "coder_note": "Sentence states the discovery GWAS is from the FinnGen database version R12 and gives a finngen_R12 GWAS ID."
+  },
+  {
+   "side": "outcome",
+   "name_as_written": "IEU Open GWAS",
+   "value": "not_stated_in_source",
+   "unresolved_reason": "conflicting_identifiers",
+   "identification_basis": null,
+   "source_read": null,
+   "passage_id": null,
+   "quote": null,
+   "citations_claim": null,
+   "companion_source": false,
+   "reference_label": null,
+   "reference_quote": null,
+   "reference_citations_claim": null,
+   "dataset_named_in_source": null,
+   "coder_note": "Sentence gives an accession inside the range the dictionary lists for one row of the cited source, with a sample size above that row maximum; the cited entry DOI is shared by three rows."
+  },
+  {
+   "side": "pqtl",
+   "name_as_written": "UK Biobank Pharma Proteomics Project (UKB-PPP)",
+   "value": "not_stated_in_source",
+   "unresolved_reason": "release_not_identified",
+   "identification_basis": null,
+   "source_read": null,
+   "passage_id": null,
+   "quote": null,
+   "citations_claim": null,
+   "companion_source": false,
+   "reference_label": null,
+   "reference_quote": null,
+   "reference_citations_claim": null,
+   "dataset_named_in_source": null,
+   "coder_note": "UKB-PPP named with a citation shared by several rows and a participant count that equals no UKB-PPP row size."
+  }
+ ]
+}

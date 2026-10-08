@@ -1,0 +1,58 @@
+{
+ "record_id": "40694910",
+ "coder_id": "coder_1",
+ "attempt": 1,
+ "rows": [
+  {
+   "side": "pqtl",
+   "name_as_written": "FINNGEN biobank",
+   "value": "source_names_dataset_absent_from_dictionary",
+   "unresolved_reason": "dataset_absent_from_dictionary",
+   "identification_basis": null,
+   "source_read": "abstract",
+   "passage_id": "p001",
+   "quote": "To investigate potential mediating pathways through which BPS-targeted proteins might contribute to depression, multi-omics data were integrated, including proteome-wide association study datasets from the FINNGEN biobank, the UK Biobank Pharma Proteomics Project, and the Icelandic deCODE consortium, as well as human plasma metabolomic datasets.",
+   "citations_claim": "claims/40694910.yaml#pqtl_1",
+   "companion_source": false,
+   "reference_label": null,
+   "reference_quote": null,
+   "reference_citations_claim": null,
+   "dataset_named_in_source": "FINNGEN biobank",
+   "coder_note": "Abstract names the FINNGEN biobank among proteome-wide association datasets; no pqtl dictionary row is for FinnGen."
+  },
+  {
+   "side": "pqtl",
+   "name_as_written": "Icelandic deCODE consortium",
+   "value": "not_stated_in_source",
+   "unresolved_reason": "release_not_identified",
+   "identification_basis": null,
+   "source_read": null,
+   "passage_id": null,
+   "quote": null,
+   "citations_claim": null,
+   "companion_source": false,
+   "reference_label": null,
+   "reference_quote": null,
+   "reference_citations_claim": null,
+   "dataset_named_in_source": null,
+   "coder_note": "deCODE named in the abstract without N, platform, year or citation."
+  },
+  {
+   "side": "pqtl",
+   "name_as_written": "UK Biobank Pharma Proteomics Project",
+   "value": "not_stated_in_source",
+   "unresolved_reason": "release_not_identified",
+   "identification_basis": null,
+   "source_read": null,
+   "passage_id": null,
+   "quote": null,
+   "citations_claim": null,
+   "companion_source": false,
+   "reference_label": null,
+   "reference_quote": null,
+   "reference_citations_claim": null,
+   "dataset_named_in_source": null,
+   "coder_note": "UKB-PPP named in the abstract without cohort subset, N or citation."
+  }
+ ]
+}

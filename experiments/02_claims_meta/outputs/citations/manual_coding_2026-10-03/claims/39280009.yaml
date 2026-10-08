@@ -1,0 +1,27 @@
+source:
+  citation: '39280009'
+  local: sources/39280009.txt
+  sha256: 63802c7dcaeebae52c573fdaec40e84d3b5baab65b5347287a5caade117f3b1a
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11392782/fullTextXML
+  note: body as scripts/fetch_fulltext.py rendered it
+claims:
+  outcome_1:
+    quotes:
+    - exact: This dataset originated from the European ancestry segment of a recent multi-ancestry GWAS
+        on T2DM, comprising 242,283 cases and 1,569,734 controls (23).
+  outcome_2:
+    quotes:
+    - exact: 'For summary-level GWAS data related to T2DM complications, the datasets were collected from
+        the FinnGen R9 database (https://r9.finngen.fi/) (24), including T2DM with coma (ICD-10: E11.0),
+        ketoacidosis (ICD-10: E11.1), kidney complications (ICD-10: E11.2), retinal complications (ICD-10:
+        E11.3), neuropathy (ICD-10: E11.4), and peripheral circulatory complications (ICD-10: E11.5).'
+  outcome_1_c2:
+    quotes:
+    - exact: This dataset originated from the European ancestry segment of a recent multi-ancestry GWAS
+        on T2DM, comprising 242,283 cases and 1,569,734 controls (23).
+  outcome_2_c2:
+    quotes:
+    - exact: 'For summary-level GWAS data related to T2DM complications, the datasets were collected from
+        the FinnGen R9 database (https://r9.finngen.fi/) (24), including T2DM with coma (ICD-10: E11.0),
+        ketoacidosis (ICD-10: E11.1), kidney complications (ICD-10: E11.2), retinal complications (ICD-10:
+        E11.3), neuropathy (ICD-10: E11.4), and peripheral circulatory complications (ICD-10: E11.5).'

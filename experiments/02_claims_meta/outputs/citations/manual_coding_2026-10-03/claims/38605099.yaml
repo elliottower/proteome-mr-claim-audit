@@ -1,0 +1,31 @@
+source:
+  citation: '38605099'
+  local: sources/38605099.txt
+  sha256: 4d65a4d6a3b0a753c6c79f2eee49c19fe4105bb404e349e11db8367f88896e8c
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11009318/fullTextXML
+  note: body as scripts/fetch_fulltext.py rendered it
+claims:
+  outcome_1:
+    quotes:
+    - exact: Summary-level data for the Sepsis GWAS were sourced from the IEU-B-4980, a substantial biomedical
+        repository and research asset.
+  outcome_2:
+    quotes:
+    - exact: Additionally, we integrated summary metrics obtained from the IEU-B-69 to externally validate
+        our findings, which consisted of 10,154 sepsis patients and 454,764 controls (Table S1).
+  outcome_1_a2:
+    quotes:
+    - exact: Summary-level data for the Sepsis GWAS were sourced from the IEU-B-4980, a substantial biomedical
+        repository and research asset.
+  outcome_2_a2:
+    quotes:
+    - exact: Additionally, we integrated summary metrics obtained from the IEU-B-69 to externally validate
+        our findings, which consisted of 10,154 sepsis patients and 454,764 controls (Table S1).
+  outcome_1_c2:
+    quotes:
+    - exact: Summary-level data for the Sepsis GWAS were sourced from the IEU-B-4980, a substantial biomedical
+        repository and research asset.
+  outcome_2_c2:
+    quotes:
+    - exact: Additionally, we integrated summary metrics obtained from the IEU-B-69 to externally validate
+        our findings, which consisted of 10,154 sepsis patients and 454,764 controls (Table S1).

@@ -1,0 +1,18 @@
+source:
+  citation: '41717923'
+  local: sources/41717923.txt
+  sha256: b3e4d07720dfb93a8726bc078b06a29b80a2f1a08aa774fc282fe61fac77170e
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13055669/fullTextXML
+  note: body as scripts/fetch_fulltext.py rendered it
+claims:
+  outcome_1:
+    quotes:
+    - exact: The Atherosclerosis Risk in Communities study has been funded in whole or in part with Federal
+        funds from the National Heart, Lung, and Blood Institute, National Institutes of Health, Department
+        of Health and Human Services, under contract numbers (75N92022D00001, 75N92022D00002, 75N92022D00003,
+        75N92022D00004, 75N92022D00005).
+  outcome_1_c2:
+    quotes:
+    - exact: '[Table 1. Demographic Characteristics of the Study Population at Visit 2 (1990–1992) and
+        at Visit 5 (2011–2013) of the Atherosclerosis Risk in Communities Study] Age, y (SD) | Visit 2
+        (N=11 354): 57.04 (5.72) | Visit 5 (N=3517): 75.32 (5.05)'

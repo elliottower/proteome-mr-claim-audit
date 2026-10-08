@@ -1,0 +1,19 @@
+source:
+  citation: '41283971'
+  local: sources/41283971.txt
+  sha256: 5f10fdb79637863d5349c8750b63e4981ce2d96e817f603abe3246f9fba9c57f
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12748452/fullTextXML
+  note: body as scripts/fetch_fulltext.py rendered it
+claims:
+  outcome_1:
+    quotes:
+    - exact: GWAS summary statistics for NSCLC were downloaded from the FinnGen Study, Data Freeze 12
+        (https://www.finngen.fi/en/access_results), and used as the outcome dataset.
+  outcome_1_a3:
+    quotes:
+    - exact: GWAS summary statistics for NSCLC were downloaded from the FinnGen Study, Data Freeze 12
+        (https://www.finngen.fi/en/access_results), and used as the outcome dataset.
+  outcome_1_c2:
+    quotes:
+    - exact: GWAS summary statistics for NSCLC were downloaded from the FinnGen Study, Data Freeze 12
+        (https://www.finngen.fi/en/access_results), and used as the outcome dataset.

@@ -1,0 +1,64 @@
+source:
+  citation: '40420090'
+  local: sources/40420090.txt
+  sha256: e779c523455f3687adb081b08d7a44924918a3647ea8ff2d825f36ed431c8619
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12105124/fullTextXML
+  note: body as scripts/fetch_fulltext.py rendered it
+claims:
+  outcome_1:
+    quotes:
+    - exact: We used the latest release data on VTE from the FinnGen study R12 in this analysis, which
+        comprised 26,333 cases 474,015 controls.
+  outcome_2:
+    quotes:
+    - exact: GWAS data for VTE were assessed from UK biobank database (https://www.ebi.ac.uk/gwas/studies/GCST90038607)
+        [14].
+  pqtl_2:
+    quotes:
+    - exact: Comparatively, the deCODE Health study employed SomaScan platform to measure 4,907 proteomic
+        aptamers in 35,559 Icelandic individuals, identifying instrumentally valid cis-SNPs for 1,423
+        plasma proteins [13].
+  outcome_1_a2:
+    quotes:
+    - exact: We used the latest release data on VTE from the FinnGen study R12 in this analysis, which
+        comprised 26,333 cases 474,015 controls.
+  outcome_2_a2:
+    quotes:
+    - exact: GWAS data for VTE were assessed from UK biobank database (https://www.ebi.ac.uk/gwas/studies/GCST90038607)
+        [14].
+  pqtl_2_a2:
+    quotes:
+    - exact: Comparatively, the deCODE Health study employed SomaScan platform to measure 4,907 proteomic
+        aptamers in 35,559 Icelandic individuals, identifying instrumentally valid cis-SNPs for 1,423
+        plasma proteins [13].
+  outcome_1_a3:
+    quotes:
+    - exact: We used the latest release data on VTE from the FinnGen study R12 in this analysis, which
+        comprised 26,333 cases 474,015 controls.
+  outcome_2_a3:
+    quotes:
+    - exact: GWAS data for VTE were assessed from UK biobank database (https://www.ebi.ac.uk/gwas/studies/GCST90038607)
+        [14].
+  pqtl_2_a3:
+    quotes:
+    - exact: Comparatively, the deCODE Health study employed SomaScan platform to measure 4,907 proteomic
+        aptamers in 35,559 Icelandic individuals, identifying instrumentally valid cis-SNPs for 1,423
+        plasma proteins [13].
+  outcome_1_c2:
+    quotes:
+    - exact: We used the latest release data on VTE from the FinnGen study R12 in this analysis, which
+        comprised 26,333 cases 474,015 controls.
+  outcome_2_c2:
+    quotes:
+    - exact: GWAS data for VTE were assessed from UK biobank database (https://www.ebi.ac.uk/gwas/studies/GCST90038607)
+        [14].
+  pqtl_1_c2:
+    quotes:
+    - exact: The analysis incorporated data from 54,306 UK Biobank participants in the Pharma Proteomics
+        Project (UKB-PPP) [12], where 1,463 plasma proteins were quantified using Olink technology, yielding
+        1,161 proteins with suitable cis-SNPs for two-sample Mendelian randomization (MR) analysis.
+  pqtl_2_c2:
+    quotes:
+    - exact: Comparatively, the deCODE Health study employed SomaScan platform to measure 4,907 proteomic
+        aptamers in 35,559 Icelandic individuals, identifying instrumentally valid cis-SNPs for 1,423
+        plasma proteins [13].

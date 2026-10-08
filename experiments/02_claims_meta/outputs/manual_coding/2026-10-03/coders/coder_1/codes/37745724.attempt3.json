@@ -1,0 +1,15 @@
+{"record_id": "37745724", "coder_id": "coder_1", "attempt": 3,
+ "rows": [
+  {"side": "outcome", "name_as_written": "Transdisciplinary Research in Cancer of the Lung Consortium (TRICL)",
+   "value": "source_names_dataset_absent_from_dictionary",
+   "unresolved_reason": "dataset_absent_from_dictionary",
+   "identification_basis": null,
+   "source_read": "full_text",
+   "passage_id": "p001",
+   "quote": "And single nucleotide polymorphisms (SNPs) were extracted from large-scale GWAS databases in the TRICL consortium (ieu-a-987, ieu-a-986, ieu-a-985).",
+   "citations_claim": "claims/37745724.yaml#outcome_1_a3",
+   "companion_source": false,
+   "reference_label": null, "reference_quote": null, "reference_citations_claim": null,
+   "dataset_named_in_source": "TRICL consortium (ieu-a-987, ieu-a-986, ieu-a-985)",
+   "coder_note": "Step 3 (rules B, C4 third case): the sentence gives the OpenGWAS accessions ieu-a-987, ieu-a-986 and ieu-a-985, which no dictionary row lists by prefix, range or identifier (the one TRICL row lists only the McKay 2017 DOI, PMID and PMC identifier, and the only OpenGWAS prefixes listed are ukb-b and ukb-d). No citation attributes the TRICL data to a source, and reference 12 is for the epigenetic clock GWAS. The TRICL name alone would not identify a release (rule D)."}
+ ]}

@@ -1,0 +1,15 @@
+{"record_id": "41487707", "coder_id": "coder_4", "attempt": 2,
+ "rows": [
+  {"side": "outcome", "name_as_written": "Finnish biobank",
+   "value": "FinnGen R11",
+   "unresolved_reason": null,
+   "identification_basis": "release_identifier",
+   "source_read": "full_text",
+   "passage_id": "p002",
+   "quote": "The CD data is derived from the DF11 version of the Finnish biobank study, released on June 24, 2024 [21].",
+   "citations_claim": "claims/41487707.yaml#outcome_1_a2",
+   "companion_source": false,
+   "reference_label": null, "reference_quote": null, "reference_citations_claim": null,
+   "dataset_named_in_source": null,
+   "coder_note": "Sentence states the DF11 version for the outcome data; DF11 is an alias of one dictionary row only (FinnGen DF11). For the checker: the sentence writes 'Finnish biobank study' and not the consortium name, which appears only in the title of the linked reference 21; that entry's DOI is not the dictionary row's, so it was not used as a companion source. The other passage's DF10 statement concerns the pQTL data, not this row."}
+ ]}

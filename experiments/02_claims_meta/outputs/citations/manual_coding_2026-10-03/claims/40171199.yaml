@@ -1,0 +1,21 @@
+source:
+  citation: '40171199'
+  local: sources/40171199.txt
+  sha256: 5c5b09ee7bd61f3033775a661aae83a046f079e8485ac2a264f1eefb7e2aa6f3
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11958232/fullTextXML
+  note: body as scripts/fetch_fulltext.py rendered it
+claims:
+  outcome_1:
+    quotes:
+    - exact: The GWAS summary statistics for skin fibrosis traits from the GWAS Catalog (GCST90044522
+        & GCST90044521) include keloid scar and Scar conditions and fibrosis of skin ( Figure 1A ).
+  pqtl_1:
+    quotes:
+    - exact: The data comprises 11 cohorts with a total of 14,824 participants of European ancestry (7).
+  outcome_1_c2:
+    quotes:
+    - exact: The GWAS summary statistics for skin fibrosis traits from the GWAS Catalog (GCST90044522
+        & GCST90044521) include keloid scar and Scar conditions and fibrosis of skin ( Figure 1A ).
+  pqtl_1_c2:
+    quotes:
+    - exact: The data comprises 11 cohorts with a total of 14,824 participants of European ancestry (7).

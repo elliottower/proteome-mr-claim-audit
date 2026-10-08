@@ -1,0 +1,41 @@
+{
+ "record_id": "39397782",
+ "coder_id": "coder_3",
+ "attempt": 1,
+ "rows": [
+  {
+   "side": "outcome",
+   "name_as_written": "CARDIoGRAMplusC4D",
+   "value": "CARDIoGRAMplusC4D 1000 Genomes CAD (Nikpay 2015)",
+   "unresolved_reason": null,
+   "identification_basis": "reference_entry",
+   "source_read": "full_text",
+   "passage_id": "p001",
+   "quote": "Summary statistic genetic data on MI were obtained from the genome-wide association meta-analysis for the CARDIoGRAMplusC4D Consortium,23 which included 43 676 participants with and 128 199 participants without MI, as well as from the FinnGen R10,24 which included 26 060 individuals with and 343 079 without MI.",
+   "citations_claim": "claims/39397782.yaml#outcome_1",
+   "companion_source": true,
+   "reference_label": "23",
+   "reference_quote": "Nikpay M, Goel A, Won HH, Hall LM, Willenborg C, Kanoni S, et al. A comprehensive 1,000 genomes-based genome-wide association meta-analysis of coronary artery disease. Nat Genet 2015;47:1121–30. 10.1038/ng.3396",
+   "reference_citations_claim": "claims/39397782.references.yaml#outcome_1_ref",
+   "dataset_named_in_source": null,
+   "coder_note": "Sentence attributes the summary statistics to the consortium meta-analysis in reference 23, whose DOI is the source of one dictionary row; the N stated is an endpoint subset."
+  },
+  {
+   "side": "outcome",
+   "name_as_written": "FinnGen",
+   "value": "FinnGen R10",
+   "unresolved_reason": null,
+   "identification_basis": "release_identifier",
+   "source_read": "full_text",
+   "passage_id": "p001",
+   "quote": "Summary statistic genetic data on MI were obtained from the genome-wide association meta-analysis for the CARDIoGRAMplusC4D Consortium,23 which included 43 676 participants with and 128 199 participants without MI, as well as from the FinnGen R10,24 which included 26 060 individuals with and 343 079 without MI.",
+   "citations_claim": "claims/39397782.yaml#outcome_2",
+   "companion_source": false,
+   "reference_label": null,
+   "reference_quote": null,
+   "reference_citations_claim": null,
+   "dataset_named_in_source": null,
+   "coder_note": "Sentence states release R10."
+  }
+ ]
+}

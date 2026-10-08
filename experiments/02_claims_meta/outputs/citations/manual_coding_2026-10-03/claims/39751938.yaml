@@ -1,0 +1,19 @@
+source:
+  citation: '39751938'
+  local: sources/39751938.txt
+  sha256: defe732187175ef8d071183466bdb7ce87cb5f551f866f9c012fe817a9e96415
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11699013/fullTextXML
+  note: body as scripts/fetch_fulltext.py rendered it
+claims:
+  outcome_1:
+    quotes:
+    - exact: Disease GWAS from this database used scalable and accurately implemented generalized linear
+        mixed models (SAIGE V.0.29) to address imbalanced case–control ratios [15] (https://pheweb.org/UKB-SAIGE/).
+  outcome_1_a2:
+    quotes:
+    - exact: Disease GWAS from this database used scalable and accurately implemented generalized linear
+        mixed models (SAIGE V.0.29) to address imbalanced case–control ratios [15] (https://pheweb.org/UKB-SAIGE/).
+  outcome_1_c2:
+    quotes:
+    - exact: Disease GWAS from this database used scalable and accurately implemented generalized linear
+        mixed models (SAIGE V.0.29) to address imbalanced case–control ratios [15] (https://pheweb.org/UKB-SAIGE/).

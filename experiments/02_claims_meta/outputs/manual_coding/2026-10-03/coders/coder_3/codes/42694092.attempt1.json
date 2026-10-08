@@ -1,0 +1,41 @@
+{
+ "record_id": "42694092",
+ "coder_id": "coder_3",
+ "attempt": 1,
+ "rows": [
+  {
+   "side": "outcome",
+   "name_as_written": "FinnGen",
+   "value": "FinnGen R12",
+   "unresolved_reason": null,
+   "identification_basis": "release_identifier",
+   "source_read": "full_text",
+   "passage_id": "p003",
+   "quote": "Validation analyses were conducted using GWAS summary statistics from the FinnGen R12 release, including the six sepsis-related phenotypes available in this release: “Other septicemia”, “Streptococcal septicemia”, “Puerperal sepsis”, “Bacterial sepsis of newborn”, “Pneumococcal septicemia”, and “Hemophilus septicemia”.",
+   "citations_claim": "claims/42694092.yaml#outcome_1",
+   "companion_source": false,
+   "reference_label": null,
+   "reference_quote": null,
+   "reference_citations_claim": null,
+   "dataset_named_in_source": null,
+   "coder_note": "Sentence states the R12 release for the validation summary statistics."
+  },
+  {
+   "side": "outcome",
+   "name_as_written": "UK Biobank",
+   "value": "not_stated_in_source",
+   "unresolved_reason": "release_not_identified",
+   "identification_basis": null,
+   "source_read": null,
+   "passage_id": null,
+   "quote": null,
+   "citations_claim": null,
+   "companion_source": false,
+   "reference_label": null,
+   "reference_quote": null,
+   "reference_citations_claim": null,
+   "dataset_named_in_source": null,
+   "coder_note": "Cohort name with case/control counts; no accession, release or citation to a dictionary source in the sentence."
+  }
+ ]
+}

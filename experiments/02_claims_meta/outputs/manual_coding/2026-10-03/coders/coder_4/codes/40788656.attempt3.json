@@ -1,0 +1,24 @@
+{
+ "record_id": "40788656",
+ "coder_id": "coder_4",
+ "attempt": 3,
+ "rows": [
+  {
+   "side": "pqtl",
+   "name_as_written": "UK Biobank",
+   "value": "not_stated_in_source",
+   "unresolved_reason": "release_not_identified",
+   "identification_basis": null,
+   "source_read": null,
+   "passage_id": null,
+   "quote": null,
+   "citations_claim": null,
+   "companion_source": false,
+   "reference_label": null,
+   "reference_quote": null,
+   "reference_citations_claim": null,
+   "dataset_named_in_source": null,
+   "coder_note": "Reference 6 (Sun 2023, DOI 10.1038/s41586-023-06592-6) has four dictionary rows. The sentences that carry it give 2,923 proteins on Olink Explore in 54,219 UK Biobank participants (p005) and 45,397 participants (p072); neither N is that of any row, and neither sentence holds an attribute that separates the rows. 'European ancestry' is stated only in p006, a passage with no link to reference 6, about the summary statistics of all three pQTL studies together, so rule E is not met."
+  }
+ ]
+}

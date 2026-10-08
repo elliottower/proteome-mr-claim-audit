@@ -1,0 +1,96 @@
+source:
+  citation: '40442727'
+  local: sources/40442727.txt
+  sha256: 7aba416d2530db3005d13c8628e077dbb711f153e796a44f5058f65a4db5483d
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12124044/fullTextXML
+  note: body as scripts/fetch_fulltext.py rendered it
+claims:
+  outcome_1:
+    quotes:
+    - exact: GWAS summary statistics for CAD were obtained from a GWAS meta-analysis in CARDIoGRAMplusC4D
+        (including UK Biobank), which involved 122,733 cases and 424,528 controls, primarily of European
+        ancestry [16].
+  pqtl_1:
+    quotes:
+    - exact: GWAS summary statistics for fasting insulin were obtained from the Meta-Analysis of Glucose
+        and Insulin-related Traits Consortium (MAGIC) [14].
+  pqtl_2:
+    quotes:
+    - exact: We used GWAS data from the discovery cohort which were restricted to participants of European
+        ancestry (n = 34,557).
+  pqtl_3:
+    quotes:
+    - exact: Specifically, we obtained genetic associations with proteins from deCODE genetics, conducted
+        in 35,559 Icelanders [28].
+  outcome_1_a2:
+    quotes:
+    - exact: GWAS summary statistics for CAD were obtained from a GWAS meta-analysis in CARDIoGRAMplusC4D
+        (including UK Biobank), which involved 122,733 cases and 424,528 controls, primarily of European
+        ancestry [16].
+  pqtl_1_a2:
+    quotes:
+    - exact: GWAS summary statistics for fasting insulin were obtained from the Meta-Analysis of Glucose
+        and Insulin-related Traits Consortium (MAGIC) [14].
+  pqtl_2_a2:
+    quotes:
+    - exact: We used GWAS data from the discovery cohort which were restricted to participants of European
+        ancestry (n = 34,557).
+  pqtl_3_a2:
+    quotes:
+    - exact: Specifically, we obtained genetic associations with proteins from deCODE genetics, conducted
+        in 35,559 Icelanders [28].
+  outcome_1_a3:
+    quotes:
+    - exact: GWAS summary statistics for CAD were obtained from a GWAS meta-analysis in CARDIoGRAMplusC4D
+        (including UK Biobank), which involved 122,733 cases and 424,528 controls, primarily of European
+        ancestry [16].
+  pqtl_1_a3:
+    quotes:
+    - exact: GWAS summary statistics for fasting insulin were obtained from the Meta-Analysis of Glucose
+        and Insulin-related Traits Consortium (MAGIC) [14].
+  pqtl_2_a3:
+    quotes:
+    - exact: We used GWAS data from the discovery cohort which were restricted to participants of European
+        ancestry (n = 34,557).
+  pqtl_3_a3:
+    quotes:
+    - exact: Specifically, we obtained genetic associations with proteins from deCODE genetics, conducted
+        in 35,559 Icelanders [28].
+  outcome_1_a4:
+    quotes:
+    - exact: GWAS summary statistics for CAD were obtained from a GWAS meta-analysis in CARDIoGRAMplusC4D
+        (including UK Biobank), which involved 122,733 cases and 424,528 controls, primarily of European
+        ancestry [16].
+  pqtl_1_a4:
+    quotes:
+    - exact: GWAS summary statistics for fasting insulin were obtained from the Meta-Analysis of Glucose
+        and Insulin-related Traits Consortium (MAGIC) [14].
+  pqtl_2_a4:
+    quotes:
+    - exact: We used GWAS data from the discovery cohort which were restricted to participants of European
+        ancestry (n = 34,557).
+  pqtl_3_a4:
+    quotes:
+    - exact: Specifically, we obtained genetic associations with proteins from deCODE genetics, conducted
+        in 35,559 Icelanders [28].
+  outcome_1_c2:
+    quotes:
+    - exact: GWAS summary statistics for CAD were obtained from a GWAS meta-analysis in CARDIoGRAMplusC4D
+        (including UK Biobank), which involved 122,733 cases and 424,528 controls, primarily of European
+        ancestry [16].
+  outcome_2_c2:
+    quotes:
+    - exact: We also obtained genetic associations with the risk of CAD from FinnGen Biobank, which involved
+        21,012 CAD cases and 197,780 controls.
+  pqtl_1_c2:
+    quotes:
+    - exact: GWAS summary statistics for fasting insulin were obtained from the Meta-Analysis of Glucose
+        and Insulin-related Traits Consortium (MAGIC) [14].
+  pqtl_2_c2:
+    quotes:
+    - exact: We used GWAS data from the discovery cohort which were restricted to participants of European
+        ancestry (n = 34,557).
+  pqtl_3_c2:
+    quotes:
+    - exact: Specifically, we obtained genetic associations with proteins from deCODE genetics, conducted
+        in 35,559 Icelanders [28].

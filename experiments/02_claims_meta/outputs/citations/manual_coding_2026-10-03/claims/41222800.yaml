@@ -1,0 +1,57 @@
+source:
+  citation: '41222800'
+  local: sources/41222800.txt
+  sha256: 7dcfe7ce92e63523bb88e59f944aa1c8b55372bfad660e1dfd412025eee004db
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12612436/fullTextXML
+  note: body as scripts/fetch_fulltext.py rendered it
+claims:
+  pqtl_1:
+    quotes:
+    - exact: Fenland, a proteome-wide proteome association study of 10,708 participants of European ancestry,
+        used the SomaScan v4 assay with 4979 single-stranded oligonucleotides (aptamers) targeting 4775
+        unique proteins [13].
+  pqtl_2:
+    quotes:
+    - exact: Using the SomaScan Multiple Aptamer Assay (version 4) in 35,559 Icelandic individuals with
+        genotypic and phenotypic data, the deCODE study measured plasma protein levels [12], including
+        4,907 aptamers and 4,719 proteins.
+  pqtl_2_a2:
+    quotes:
+    - exact: Using the SomaScan Multiple Aptamer Assay (version 4) in 35,559 Icelandic individuals with
+        genotypic and phenotypic data, the deCODE study measured plasma protein levels [12], including
+        4,907 aptamers and 4,719 proteins.
+  pqtl_1_a3:
+    quotes:
+    - exact: Fenland, a proteome-wide proteome association study of 10,708 participants of European ancestry,
+        used the SomaScan v4 assay with 4979 single-stranded oligonucleotides (aptamers) targeting 4775
+        unique proteins [13].
+  pqtl_2_a3:
+    quotes:
+    - exact: Using the SomaScan Multiple Aptamer Assay (version 4) in 35,559 Icelandic individuals with
+        genotypic and phenotypic data, the deCODE study measured plasma protein levels [12], including
+        4,907 aptamers and 4,719 proteins.
+  pqtl_1_a4:
+    quotes:
+    - exact: Fenland, a proteome-wide proteome association study of 10,708 participants of European ancestry,
+        used the SomaScan v4 assay with 4979 single-stranded oligonucleotides (aptamers) targeting 4775
+        unique proteins [13].
+  pqtl_2_a4:
+    quotes:
+    - exact: Using the SomaScan Multiple Aptamer Assay (version 4) in 35,559 Icelandic individuals with
+        genotypic and phenotypic data, the deCODE study measured plasma protein levels [12], including
+        4,907 aptamers and 4,719 proteins.
+  pqtl_1_c2:
+    quotes:
+    - exact: Fenland, a proteome-wide proteome association study of 10,708 participants of European ancestry,
+        used the SomaScan v4 assay with 4979 single-stranded oligonucleotides (aptamers) targeting 4775
+        unique proteins [13].
+  pqtl_2_c2:
+    quotes:
+    - exact: Using the SomaScan Multiple Aptamer Assay (version 4) in 35,559 Icelandic individuals with
+        genotypic and phenotypic data, the deCODE study measured plasma protein levels [12], including
+        4,907 aptamers and 4,719 proteins.
+  pqtl_1_r:
+    quotes:
+    - exact: Fenland, a proteome-wide proteome association study of 10,708 participants of European ancestry,
+        used the SomaScan v4 assay with 4979 single-stranded oligonucleotides (aptamers) targeting 4775
+        unique proteins [13].

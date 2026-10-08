@@ -1,0 +1,39 @@
+source:
+  citation: '41319014'
+  local: sources/41319014.txt
+  sha256: 97375d1ffa6c5d04c07dfd3393e7b72f7fc387cc7677bd92bc30a45775f88765
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12664902/fullTextXML
+  note: body as scripts/fetch_fulltext.py rendered it
+claims:
+  pqtl_2:
+    quotes:
+    - exact: Ferroptosis‐associated pQTLs were derived from 4907 Icelandic individuals in the deCODE database
+        (Ferkingstad et al. 2021).
+  pqtl_2_a2:
+    quotes:
+    - exact: Ferroptosis‐associated pQTLs were derived from 4907 Icelandic individuals in the deCODE database
+        (Ferkingstad et al. 2021).
+  pqtl_1_a3:
+    quotes:
+    - exact: We extracted pQTL data from 2940 European‐ancestry participants in the UKB‐PPP database (B.
+        B. Sun et al. 2023).
+  pqtl_2_a3:
+    quotes:
+    - exact: Ferroptosis‐associated pQTLs were derived from 4907 Icelandic individuals in the deCODE database
+        (Ferkingstad et al. 2021).
+  pqtl_2_a4:
+    quotes:
+    - exact: Ferroptosis‐associated pQTLs were derived from 4907 Icelandic individuals in the deCODE database
+        (Ferkingstad et al. 2021).
+  pqtl_1_c2:
+    quotes:
+    - exact: We extracted pQTL data from 2940 European‐ancestry participants in the UKB‐PPP database (B.
+        B. Sun et al. 2023).
+  pqtl_2_c2:
+    quotes:
+    - exact: Ferroptosis‐associated pQTLs were derived from 4907 Icelandic individuals in the deCODE database
+        (Ferkingstad et al. 2021).
+  pqtl_1_r:
+    quotes:
+    - exact: We extracted pQTL data from 2940 European‐ancestry participants in the UKB‐PPP database (B.
+        B. Sun et al. 2023).

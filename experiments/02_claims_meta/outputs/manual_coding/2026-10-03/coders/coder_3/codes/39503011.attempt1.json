@@ -1,0 +1,41 @@
+{
+ "record_id": "39503011",
+ "coder_id": "coder_3",
+ "attempt": 1,
+ "rows": [
+  {
+   "side": "outcome",
+   "name_as_written": "FinnGen",
+   "value": "FinnGen R10",
+   "unresolved_reason": null,
+   "identification_basis": "release_identifier",
+   "source_read": "full_text",
+   "passage_id": "p003",
+   "quote": "In the replication analysis, GWAS data for endometriosis were acquired using the FinnGen R10.",
+   "citations_claim": "claims/39503011.yaml#outcome_1",
+   "companion_source": false,
+   "reference_label": null,
+   "reference_quote": null,
+   "reference_citations_claim": null,
+   "dataset_named_in_source": null,
+   "coder_note": "Sentence states release R10 (repeated for the subtype data in another passage)."
+  },
+  {
+   "side": "outcome",
+   "name_as_written": "UK Biobank",
+   "value": "UK Biobank SAIGE PheWeb (Zhou et al. 2018)",
+   "unresolved_reason": null,
+   "identification_basis": "reference_entry",
+   "source_read": "full_text",
+   "passage_id": "p002",
+   "quote": "The GWAS data for endometriosis in European population (ukb-saige-615) was retrieved from Pheweb under the term of “endometriosis”, a UK Biobank Single Variant Association Analysis by LeeLab.20",
+   "citations_claim": "claims/39503011.yaml#outcome_2",
+   "companion_source": true,
+   "reference_label": "20",
+   "reference_quote": "Zhou W , Nielsen JB , Fritsche LG , et al. Efficiently controlling for case-control imbalance and sample relatedness in large-scale genetic association studies . Nature Genet . 2018 ; 50 ( 9 ): 1335 – 1341 . doi: 10.1038/s41588-018-0184-y 30104761 PMC6119127",
+   "reference_citations_claim": "claims/39503011.references.yaml#outcome_2_ref",
+   "dataset_named_in_source": null,
+   "coder_note": "Sentence attributes the data to the PheWeb single-variant analysis (ukb-saige id) with reference 20, whose DOI is the source of one dictionary row."
+  }
+ ]
+}

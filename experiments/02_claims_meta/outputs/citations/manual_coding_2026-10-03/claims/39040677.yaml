@@ -1,0 +1,17 @@
+source:
+  citation: '39040677'
+  local: sources/39040677.txt
+  sha256: cb48cdb94bd48cfc4ccc46e5a6df370416b626213d2ab16b8b2d64e905f09e7d
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11260607/fullTextXML
+  note: body as scripts/fetch_fulltext.py rendered it
+claims:
+  outcome_1:
+    quotes:
+    - exact: The summary statistics of type 1 diabetes (T1D) (1,579 cases and 308,280controls) and type
+        2 diabetes (T2D) (2,684 cases and 308,280 controls) with renal complications were extracted from
+        the FinnGen study R9 (18).
+  outcome_1_c2:
+    quotes:
+    - exact: The summary statistics of type 1 diabetes (T1D) (1,579 cases and 308,280controls) and type
+        2 diabetes (T2D) (2,684 cases and 308,280 controls) with renal complications were extracted from
+        the FinnGen study R9 (18).

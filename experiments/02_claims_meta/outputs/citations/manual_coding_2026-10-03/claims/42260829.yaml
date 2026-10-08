@@ -1,0 +1,28 @@
+source:
+  citation: '42260829'
+  local: sources/42260829.txt
+  sha256: d56d68e5daa6df5e12cc1cbb11602c407c980fec4b098d4cb70ef8472f65e1d3
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13246116/fullTextXML
+  note: body as scripts/fetch_fulltext.py rendered it
+claims:
+  pqtl_1_a3:
+    quotes:
+    - exact: The plasma protein GWAS data adopted in this article were sourced from UKB-PPP (https://www.synapse.org/#!Synapse:syn51364943/files/),
+        which involved plasma proteomic analysis of 54,219 participants, exhibited pQTLs mapping of 2923
+        proteins, and identified 14,287 dominating genetic associations, of which 81% have not been previously
+        reported.[15]
+  outcome_1_c2:
+    quotes:
+    - exact: The data in the discovery phase originated from the FinnGen study (https://www.finngen.fi/en),[16]
+        in which the definition of endometriosis followed N80 in the International Classification of Diseases,
+        10th edition (ICD-10), 617 in ICD-9, as well as 6253 in ICD-8.
+  outcome_2_c2:
+    quotes:
+    - exact: Data during the replication phase were from the UKB study (https://www.ukbiobank.ac.uk/),[17]
+        where the definition of endometriosis conformed to N80 in ICD-10.
+  pqtl_1_c2:
+    quotes:
+    - exact: The plasma protein GWAS data adopted in this article were sourced from UKB-PPP (https://www.synapse.org/#!Synapse:syn51364943/files/),
+        which involved plasma proteomic analysis of 54,219 participants, exhibited pQTLs mapping of 2923
+        proteins, and identified 14,287 dominating genetic associations, of which 81% have not been previously
+        reported.[15]

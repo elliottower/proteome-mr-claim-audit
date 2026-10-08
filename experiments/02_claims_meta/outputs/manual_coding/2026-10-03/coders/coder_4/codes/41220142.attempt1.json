@@ -1,0 +1,58 @@
+{
+ "record_id": "41220142",
+ "coder_id": "coder_4",
+ "attempt": 1,
+ "rows": [
+  {
+   "side": "outcome",
+   "name_as_written": "Finngen",
+   "value": "FinnGen R12",
+   "unresolved_reason": null,
+   "identification_basis": "release_identifier",
+   "source_read": "full_text",
+   "passage_id": "p001",
+   "quote": "GWAS ID R12_G6_RLS.gz was assigned to RLS, which includes 4599 RLS patients and 495,749 control samples.",
+   "citations_claim": "claims/41220142.yaml#outcome_1",
+   "companion_source": false,
+   "reference_label": null,
+   "reference_quote": null,
+   "reference_citations_claim": null,
+   "dataset_named_in_source": null,
+   "coder_note": "Sentence gives the FinnGen GWAS ID with the R12 release prefix; the stated cases and controls sum to the R12 row sample size; the preceding sentence names the FinnGen database."
+  },
+  {
+   "side": "pqtl",
+   "name_as_written": "UK Biobank Pharma Proteomics Project",
+   "value": "not_stated_in_source",
+   "unresolved_reason": "release_not_identified",
+   "identification_basis": null,
+   "source_read": null,
+   "passage_id": null,
+   "quote": null,
+   "citations_claim": null,
+   "companion_source": false,
+   "reference_label": null,
+   "reference_quote": null,
+   "reference_citations_claim": null,
+   "dataset_named_in_source": null,
+   "coder_note": "UKB-PPP named with a download address shared by the UKB-PPP rows and a participant count that equals no row size."
+  },
+  {
+   "side": "pqtl",
+   "name_as_written": "decode",
+   "value": "deCODE SomaScan v4 (Ferkingstad 2021)",
+   "unresolved_reason": null,
+   "identification_basis": "exact_n_with_platform_or_year",
+   "source_read": "full_text",
+   "passage_id": "p001",
+   "quote": "Genome‐wide association studies (GWASs) were conducted in the past using 4907 aptamers to measure plasma protein levels in 35,559 Icelanders.",
+   "citations_claim": "claims/41220142.yaml#pqtl_2",
+   "companion_source": false,
+   "reference_label": null,
+   "reference_quote": null,
+   "reference_citations_claim": null,
+   "dataset_named_in_source": null,
+   "coder_note": "Sentence describing the decode data gives 4907 aptamers in 35,559 Icelanders, the exact size and aptamer panel of the Ferkingstad 2021 row only."
+  }
+ ]
+}

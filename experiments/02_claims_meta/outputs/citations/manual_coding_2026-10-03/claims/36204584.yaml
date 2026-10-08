@@ -1,0 +1,21 @@
+source:
+  citation: '36204584'
+  local: sources/36204584.txt
+  sha256: 744039e86575b713445a5ca5aecbcd11f4e8536b532860f6431805347aa621e8
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9530202/fullTextXML
+  note: body as scripts/fetch_fulltext.py rendered it
+claims:
+  outcome_1:
+    quotes:
+    - exact: We obtained functional interpretations for CAD GWAS signals by integrating novel RNA modification
+        annotations (i.e., RNAm-SNPs) and summary data from the CARDIoGRAMplusC4D CAD GWAS (7).
+  outcome_2:
+    quotes:
+    - exact: The UK Biobank AMI GWAS included 8,764 AMI patients and 443,500 controls (18).
+  outcome_1_c2:
+    quotes:
+    - exact: We obtained functional interpretations for CAD GWAS signals by integrating novel RNA modification
+        annotations (i.e., RNAm-SNPs) and summary data from the CARDIoGRAMplusC4D CAD GWAS (7).
+  outcome_2_c2:
+    quotes:
+    - exact: The UK Biobank AMI GWAS included 8,764 AMI patients and 443,500 controls (18).

@@ -1,0 +1,41 @@
+{
+ "record_id": "40037332",
+ "coder_id": "coder_4",
+ "attempt": 3,
+ "rows": [
+  {
+   "side": "pqtl",
+   "name_as_written": "UK Biobank",
+   "value": "UKB-PPP discovery",
+   "unresolved_reason": null,
+   "identification_basis": "reference_entry",
+   "source_read": "full_text",
+   "passage_id": "p001",
+   "quote": "We used summary-level data from the two largest proteogenomics studies conducted in populations of European ancestry using either Olink or SomaScan platforms, which were identified through a publicly available catalogue of proteogenomics studies (last updated on 29 January 2024).16",
+   "citations_claim": "claims/40037332.yaml#pqtl_1_a3",
+   "companion_source": true,
+   "reference_label": "26",
+   "reference_quote": "Sun BB , Chiou J , Traylor M , et al Plasma proteomic associations with genetics and health in the UK Biobank . Nature . 2023 ; 622 : 329 – 338 . 37794186 10.1038/s41586-023-06592-6 PMC10567551",
+   "reference_citations_claim": "claims/40037332.references.yaml#pqtl_1_a3_ref",
+   "dataset_named_in_source": null,
+   "coder_note": "Rules E and F: the pinned sentence and the next one are one description of the pQTL data; the next sentence attributes the UK Biobank Olink Explore 3072 data (2941 analytes, 2923 proteins) to reference 26 (Sun 2023, DOI 10.1038/s41586-023-06592-6), and the pinned sentence gives the ancestry, European, which only the discovery row has. The stated N, 35 571, equals no dictionary row and identifies no other release (rule H), so it is not a conflict."
+  },
+  {
+   "side": "pqtl",
+   "name_as_written": "deCODE Health Study",
+   "value": "deCODE SomaScan v4 (Ferkingstad 2021)",
+   "unresolved_reason": null,
+   "identification_basis": "reference_entry",
+   "source_read": "full_text",
+   "passage_id": "p001",
+   "quote": "The association between circulating protein levels and genetic variants was assessed in 35 571 participants in the UK Biobank using the Olink Explore 3072 platform, measuring 2941 protein analytes, capturing 2923 unique proteins,26 and in 35 559 participants in the Icelandic Cancer Project and deCODE Health Study using the SomaScan version 4 platform, measuring 4907 aptamers, capturing 4719 proteins.27",
+   "citations_claim": "claims/40037332.yaml#pqtl_2_a3",
+   "companion_source": true,
+   "reference_label": "27",
+   "reference_quote": "Ferkingstad E , Sulem P , Atlason BA , et al Large-scale integration of the plasma proteome with genetics and disease . Nat Genet . 2021 ; 53 : 1712 – 1721 . 34857953 10.1038/s41588-021-00978-w",
+   "reference_citations_claim": "claims/40037332.references.yaml#pqtl_2_a3_ref",
+   "dataset_named_in_source": null,
+   "coder_note": "The sentence attributes the deCODE data to reference 27 (Ferkingstad 2021, DOI 10.1038/s41588-021-00978-w, one dictionary row) and gives its exact N, 35 559, with SomaScan version 4 and 4907 aptamers; no conflict."
+  }
+ ]
+}

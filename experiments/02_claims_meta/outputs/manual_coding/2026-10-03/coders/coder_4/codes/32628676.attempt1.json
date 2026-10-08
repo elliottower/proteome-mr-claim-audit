@@ -1,0 +1,24 @@
+{
+ "record_id": "32628676",
+ "coder_id": "coder_4",
+ "attempt": 1,
+ "rows": [
+  {
+   "side": "outcome",
+   "name_as_written": "GeneAtlas (UK Biobank)",
+   "value": "GeneATLAS",
+   "unresolved_reason": null,
+   "identification_basis": "reference_entry",
+   "source_read": "full_text",
+   "passage_id": "p009",
+   "quote": "All 778 outcome traits from UK Biobank in GeneAtlas (http://geneatlas.roslin.ed.ac.uk/; Canela-Xandri et al. (2018) [88]) were included.",
+   "citations_claim": "claims/32628676.yaml#outcome_1",
+   "companion_source": true,
+   "reference_label": "88",
+   "reference_quote": "Canela-Xandri O , Rawlik K , Tenesa A . An atlas of genetic associations in UK Biobank . Nat Genet . 2018 ; 50 : 1593 – 1599 . 10.1038/s41588-018-0248-z 30349118 PMC6707814",
+   "reference_citations_claim": "claims/32628676.references.yaml#outcome_1_ref",
+   "dataset_named_in_source": null,
+   "coder_note": "Sentence attributes the 778 outcome traits to GeneAtlas with citation [88]; the entry DOI is the GeneATLAS row source; no conflicting release in the passages."
+  }
+ ]
+}

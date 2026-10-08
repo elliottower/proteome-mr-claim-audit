@@ -1,0 +1,31 @@
+source:
+  citation: '42434318'
+  local: sources/42434318.txt
+  sha256: b1624346e033abe5e8efb79f744a921d9a84e851539722009cf6050a66eef5f6
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13351453/fullTextXML
+  note: body as scripts/fetch_fulltext.py rendered it
+claims:
+  pqtl_1:
+    quotes:
+    - exact: Protein quantitative trait loci (pQTLs) were derived from the UK Biobank Pharma Proteomics
+        Project (UKB-PPP, https://registry.opendata.aws/ukbppp/), which included 54,219 UK Biobank participants,
+        and a GWAS of plasma protein levels measured using 4907 aptamers in 35,559 Icelandic individuals
+        by Egil Ferkingstad et al. [27].
+  pqtl_1_a2:
+    quotes:
+    - exact: Protein quantitative trait loci (pQTLs) were derived from the UK Biobank Pharma Proteomics
+        Project (UKB-PPP, https://registry.opendata.aws/ukbppp/), which included 54,219 UK Biobank participants,
+        and a GWAS of plasma protein levels measured using 4907 aptamers in 35,559 Icelandic individuals
+        by Egil Ferkingstad et al. [27].
+  pqtl_1_c2:
+    quotes:
+    - exact: Protein quantitative trait loci (pQTLs) were derived from the UK Biobank Pharma Proteomics
+        Project (UKB-PPP, https://registry.opendata.aws/ukbppp/), which included 54,219 UK Biobank participants,
+        and a GWAS of plasma protein levels measured using 4907 aptamers in 35,559 Icelandic individuals
+        by Egil Ferkingstad et al. [27].
+  pqtl_2_c2:
+    quotes:
+    - exact: Protein quantitative trait loci (pQTLs) were derived from the UK Biobank Pharma Proteomics
+        Project (UKB-PPP, https://registry.opendata.aws/ukbppp/), which included 54,219 UK Biobank participants,
+        and a GWAS of plasma protein levels measured using 4907 aptamers in 35,559 Icelandic individuals
+        by Egil Ferkingstad et al. [27].

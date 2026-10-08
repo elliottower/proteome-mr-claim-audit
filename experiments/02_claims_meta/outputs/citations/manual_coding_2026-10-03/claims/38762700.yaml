@@ -1,0 +1,31 @@
+source:
+  citation: '38762700'
+  local: sources/38762700.txt
+  sha256: 90c44aa67ddaa0b3a2cd292826fdd9f875dc26fb5a808fb050546a2cf15f6ba3
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11102463/fullTextXML
+  note: body as scripts/fetch_fulltext.py rendered it
+claims:
+  outcome_1:
+    quotes:
+    - exact: The tumor GWAS data were obtained from the R9 version of the FinnGen database (https://www.finngen.fi/en/access_results)
+        (Supplement Table S1)26, including malignant neoplasm of breast (HER-negative) (num_cases = 5965,
+        num_controls = 167,017), malignant neoplasm of breast (HER-positive) (num_cases = 9698, num_controls
+        = 167,017), colorectal cancer (num_cases = 6509, num_controls = 287,137), non-small cell lung
+        cancer (num_cases = 4901, num_controls = 287,137), small cell lung cancer (num_cases = 676, num_controls
+        = 167,017), hepatocellular carcinoma (num_cases = 453, num_controls = 287,137), clear cell adenocarcinoma
+        of kidney (num_cases = 901, num_controls = 167,017), malignant neoplasm of bladder (num_cases
+        = 2053, num_controls = 167,017), malignant neoplasm of head and neck (num_cases = 2131, num_controls
+        = 287,137), adenocarcinoma and ductal carcinoma of pancreas (num_cases = 692, num_controls = 287,137),
+        malignant neoplasm of prostate (num_cases = 13,216, num_controls = 119,948).
+  outcome_1_c2:
+    quotes:
+    - exact: The tumor GWAS data were obtained from the R9 version of the FinnGen database (https://www.finngen.fi/en/access_results)
+        (Supplement Table S1)26, including malignant neoplasm of breast (HER-negative) (num_cases = 5965,
+        num_controls = 167,017), malignant neoplasm of breast (HER-positive) (num_cases = 9698, num_controls
+        = 167,017), colorectal cancer (num_cases = 6509, num_controls = 287,137), non-small cell lung
+        cancer (num_cases = 4901, num_controls = 287,137), small cell lung cancer (num_cases = 676, num_controls
+        = 167,017), hepatocellular carcinoma (num_cases = 453, num_controls = 287,137), clear cell adenocarcinoma
+        of kidney (num_cases = 901, num_controls = 167,017), malignant neoplasm of bladder (num_cases
+        = 2053, num_controls = 167,017), malignant neoplasm of head and neck (num_cases = 2131, num_controls
+        = 287,137), adenocarcinoma and ductal carcinoma of pancreas (num_cases = 692, num_controls = 287,137),
+        malignant neoplasm of prostate (num_cases = 13,216, num_controls = 119,948).

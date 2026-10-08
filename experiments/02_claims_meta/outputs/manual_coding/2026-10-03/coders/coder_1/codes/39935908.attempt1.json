@@ -1,0 +1,24 @@
+{
+ "record_id": "39935908",
+ "coder_id": "coder_1",
+ "attempt": 1,
+ "rows": [
+  {
+   "side": "pqtl",
+   "name_as_written": "UK Biobank- Pharma Proteomics Project (UKB-PPP)",
+   "value": "UKB-PPP full cohort (combined)",
+   "unresolved_reason": null,
+   "identification_basis": "reference_entry",
+   "source_read": "full_text",
+   "passage_id": "p001",
+   "quote": "There were a total of 54,219 individuals, including 46,595 randomly selected UKB participants at the baseline visit to provide base group representation, as well as a targeted complement of 6,376 participants with specific phenotypes or diseases based on the research objectives of the UKB-PPP consortium members, and 1,268 individuals who participated in COVID-19-related studies at multiple visits.16",
+   "citations_claim": "claims/39935908.yaml#pqtl_1",
+   "companion_source": true,
+   "reference_label": "16",
+   "reference_quote": "Sun BB, Chiou J, Traylor M, et al. Plasma proteomic associations with genetics and health in the UK Biobank. Nature . 2023;622(7982):329–338. doi: 10.1038/s41586-023-06592-6",
+   "reference_citations_claim": "claims/39935908.references.yaml#pqtl_1_ref",
+   "dataset_named_in_source": null,
+   "coder_note": "Sentence describes the study population as all three UKB-PPP subcohorts (46,595 random baseline, 6,376 consortium-selected, 1,268 COVID-19) with citation 16, whose DOI is the dictionary source; these component counts are those of the full-cohort row only. Stated total 54,219 is the pre-QC figure, not the row N of 52,363; flagged for the checker."
+  }
+ ]
+}

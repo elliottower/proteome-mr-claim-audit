@@ -1,0 +1,15 @@
+{"record_id": "41392280", "coder_id": "coder_4", "attempt": 4,
+ "rows": [
+  {"side": "outcome", "name_as_written": "UK Biobank",
+   "value": "source_names_dataset_absent_from_dictionary",
+   "unresolved_reason": "dataset_absent_from_dictionary",
+   "identification_basis": null,
+   "source_read": "full_text",
+   "passage_id": "p001",
+   "quote": "For the present analyses, we restricted the sample to participants with plasma proteomics data in UKB (n = 53,014) [20].",
+   "citations_claim": "claims/41392280.yaml#outcome_1_a4",
+   "companion_source": false,
+   "reference_label": null, "reference_quote": null, "reference_citations_claim": null,
+   "dataset_named_in_source": "participants with plasma proteomics data in UKB",
+   "coder_note": "Step 3 of the decision order (rule C, with rule F for the adjacent sentence): the authors' own analysis of UK Biobank individual-level data, defined by more than an N: application number 98410 in the preceding sentence, the restriction to participants with plasma proteomics data, and incident cases over follow-up in p002; no dictionary row is such an analysis. No accession, so rule C4 does not apply."}
+ ]}

@@ -1,0 +1,41 @@
+{
+ "record_id": "39580111",
+ "coder_id": "coder_4",
+ "attempt": 1,
+ "rows": [
+  {
+   "side": "outcome",
+   "name_as_written": "Framingham Heart Study (FHS)",
+   "value": "source_names_dataset_absent_from_dictionary",
+   "unresolved_reason": "dataset_absent_from_dictionary",
+   "identification_basis": null,
+   "source_read": "abstract",
+   "passage_id": "p001",
+   "quote": "Significant protein signatures were annotated functionally and validated externally in 740 Framingham Heart Study (FHS) participants.",
+   "citations_claim": "claims/39580111.yaml#outcome_1",
+   "companion_source": false,
+   "reference_label": null,
+   "reference_quote": null,
+   "reference_citations_claim": null,
+   "dataset_named_in_source": "Framingham Heart Study (FHS)",
+   "coder_note": "Sentence names Framingham Heart Study participants as the external validation sample; no dictionary outcome row for it."
+  },
+  {
+   "side": "outcome",
+   "name_as_written": "UK Biobank",
+   "value": "not_stated_in_source",
+   "unresolved_reason": "release_not_identified",
+   "identification_basis": null,
+   "source_read": null,
+   "passage_id": null,
+   "quote": null,
+   "citations_claim": null,
+   "companion_source": false,
+   "reference_label": null,
+   "reference_quote": null,
+   "reference_citations_claim": null,
+   "dataset_named_in_source": null,
+   "coder_note": "UK Biobank participants analysed directly with an analytic sample size; no GWAS release or source identified."
+  }
+ ]
+}

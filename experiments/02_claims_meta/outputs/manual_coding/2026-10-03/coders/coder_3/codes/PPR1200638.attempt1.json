@@ -1,0 +1,24 @@
+{
+ "record_id": "PPR1200638",
+ "coder_id": "coder_3",
+ "attempt": 1,
+ "rows": [
+  {
+   "side": "outcome",
+   "name_as_written": "IEU GWAS catalog (UKB-B-20145)",
+   "value": "MRC-IEU UK Biobank GWAS pipeline (OpenGWAS ukb-b)",
+   "unresolved_reason": null,
+   "identification_basis": "release_identifier",
+   "source_read": "abstract",
+   "passage_id": "p001",
+   "quote": "Colon cancer GWAS data were sourced from the IEU GWAS catalog (UKB-B-20145). <h4>Results: </h4> : In this study, we identified one mediating relationship between inflammation, lipid, and colon cancer.",
+   "citations_claim": "claims/PPR1200638.yaml#outcome_1",
+   "companion_source": false,
+   "reference_label": null,
+   "reference_quote": null,
+   "reference_citations_claim": null,
+   "dataset_named_in_source": null,
+   "coder_note": "Sentence gives the database identifier with the ukb-b batch prefix, which the dictionary lists for one row only."
+  }
+ ]
+}

@@ -1,0 +1,17 @@
+source:
+  citation: '42601749'
+  local: sources/42601749.txt
+  sha256: 4d244d45e0a4e097671406b82ae4972ee90c92492ce10fa7ff5e8c6de45aa910
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13480754/fullTextXML
+  note: body as scripts/fetch_fulltext.py rendered it
+claims:
+  outcome_1:
+    quotes:
+    - exact: The genome-wide association study summarized data for IBS were provided by the FinnGen consortium
+        (R10 release).[18] This study included 10,329 controls and 329,381 clinical IBS individuals (ICD-10
+        K58).
+  outcome_1_c2:
+    quotes:
+    - exact: The genome-wide association study summarized data for IBS were provided by the FinnGen consortium
+        (R10 release).[18] This study included 10,329 controls and 329,381 clinical IBS individuals (ICD-10
+        K58).

@@ -1,0 +1,17 @@
+source:
+  citation: '41306657'
+  local: sources/41306657.txt
+  sha256: 37663fc20df4471744bf1226bd3381ac92b632943909e4895b84c14c1dc57133
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12646169/fullTextXML
+  note: body as scripts/fetch_fulltext.py rendered it
+claims:
+  outcome_1_c2:
+    quotes:
+    - exact: 'Methods: We conducted a two-sample Mendelian randomization (MR) analysis using genome-wide
+        association study (GWAS) summary statistics from the Decode Genetics dataset (4,907 plasma proteins)
+        and the FinnGen database (490 PHN cases and 435,371 controls).'
+  pqtl_1_c2:
+    quotes:
+    - exact: 'Methods: We conducted a two-sample Mendelian randomization (MR) analysis using genome-wide
+        association study (GWAS) summary statistics from the Decode Genetics dataset (4,907 plasma proteins)
+        and the FinnGen database (490 PHN cases and 435,371 controls).'

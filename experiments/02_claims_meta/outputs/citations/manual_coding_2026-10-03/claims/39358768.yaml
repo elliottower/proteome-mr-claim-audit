@@ -1,0 +1,35 @@
+source:
+  citation: '39358768'
+  local: sources/39358768.txt
+  sha256: f87ea72d4e885c86c14a6e8466fa534deb8af9845f442585dea089ac4bac9cc4
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11445963/fullTextXML
+  note: body as scripts/fetch_fulltext.py rendered it
+claims:
+  outcome_1_a3:
+    quotes:
+    - exact: 'Genetic variant information for IVDD, sciatica, LBP, and CHD was sourced from the FinnGen
+        consortium (https://www.finngen.fi) with the following accession numbers: finn-b-M13_SCIATICA,
+        which included 9,917 European-descent patients and 134,889 control participants; finn-b-M13_INTERVERTEB,
+        with 6,827 European-descent patients and 134,889 control participants; and finn-b-M13_LOWBACKPAIN,
+        comprising 15,565 European-descent patients and 134,889 control participants (Supplementary Table
+        1).'
+  outcome_1_a4:
+    quotes:
+    - exact: 'Genetic variant information for IVDD, sciatica, LBP, and CHD was sourced from the FinnGen
+        consortium (https://www.finngen.fi) with the following accession numbers: finn-b-M13_SCIATICA,
+        which included 9,917 European-descent patients and 134,889 control participants; finn-b-M13_INTERVERTEB,
+        with 6,827 European-descent patients and 134,889 control participants; and finn-b-M13_LOWBACKPAIN,
+        comprising 15,565 European-descent patients and 134,889 control participants (Supplementary Table
+        1).'
+  outcome_1_c2:
+    quotes:
+    - exact: 'Genetic variant information for IVDD, sciatica, LBP, and CHD was sourced from the FinnGen
+        consortium (https://www.finngen.fi) with the following accession numbers: finn-b-M13_SCIATICA,
+        which included 9,917 European-descent patients and 134,889 control participants; finn-b-M13_INTERVERTEB,
+        with 6,827 European-descent patients and 134,889 control participants; and finn-b-M13_LOWBACKPAIN,
+        comprising 15,565 European-descent patients and 134,889 control participants (Supplementary Table
+        1).'
+  outcome_2_c2:
+    quotes:
+    - exact: In addition to the FinnGen dataset, we validated our findings using data from the UK Biobank
+        to ensure robustness and generalizability.

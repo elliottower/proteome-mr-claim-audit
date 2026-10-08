@@ -1,0 +1,57 @@
+source:
+  citation: '41089542'
+  local: sources/41089542.txt
+  sha256: 1c8bf150cfe270496c2ab58e12822b609dc8ea41d7f6c9155938ed951a3ec707
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12517198/fullTextXML
+  note: body as scripts/fetch_fulltext.py rendered it
+claims:
+  outcome_2:
+    quotes:
+    - exact: These GWAS data can also be retrieved from the IEU Open GWAS repository, under accession
+        code ieu-b-4980, which covers a population of 486,484 participants, including 11,643 sepsis cases.
+  outcome_2_a2:
+    quotes:
+    - exact: These GWAS data can also be retrieved from the IEU Open GWAS repository, under accession
+        code ieu-b-4980, which covers a population of 486,484 participants, including 11,643 sepsis cases.
+  outcome_1_a3:
+    quotes:
+    - exact: 'Specifically, these data were represented by the following FinnGen identifiers: vitamin
+        D deficiency (finn-b-E4_VIT_D_DEF), cancer (finn-b-C3_CANCER), and diabetes (finn-b-E4_DIABETES).'
+  outcome_2_a3:
+    quotes:
+    - exact: These GWAS data can also be retrieved from the IEU Open GWAS repository, under accession
+        code ieu-b-4980, which covers a population of 486,484 participants, including 11,643 sepsis cases.
+  pqtl_1_a3:
+    quotes:
+    - exact: The data used in this study come from the plasma protein pQTL data of the deCODE database
+        version 2021,4 which describes a GWAS study of 35,559 Europeans that measured plasma protein levels
+        using 4907 aptamers; (the pQTL instrumental variables included in the analysis are provided in
+        the appendix pQTL_drug_exposure.txt; 10.5281/zenodo.17283362).
+  outcome_1_a4:
+    quotes:
+    - exact: 'Specifically, these data were represented by the following FinnGen identifiers: vitamin
+        D deficiency (finn-b-E4_VIT_D_DEF), cancer (finn-b-C3_CANCER), and diabetes (finn-b-E4_DIABETES).'
+  outcome_2_a4:
+    quotes:
+    - exact: These GWAS data can also be retrieved from the IEU Open GWAS repository, under accession
+        code ieu-b-4980, which covers a population of 486,484 participants, including 11,643 sepsis cases.
+  pqtl_1_a4:
+    quotes:
+    - exact: The data used in this study come from the plasma protein pQTL data of the deCODE database
+        version 2021,4 which describes a GWAS study of 35,559 Europeans that measured plasma protein levels
+        using 4907 aptamers; (the pQTL instrumental variables included in the analysis are provided in
+        the appendix pQTL_drug_exposure.txt; 10.5281/zenodo.17283362).
+  outcome_1_c2:
+    quotes:
+    - exact: 'Specifically, these data were represented by the following FinnGen identifiers: vitamin
+        D deficiency (finn-b-E4_VIT_D_DEF), cancer (finn-b-C3_CANCER), and diabetes (finn-b-E4_DIABETES).'
+  outcome_2_c2:
+    quotes:
+    - exact: These GWAS data can also be retrieved from the IEU Open GWAS repository, under accession
+        code ieu-b-4980, which covers a population of 486,484 participants, including 11,643 sepsis cases.
+  pqtl_1_c2:
+    quotes:
+    - exact: The data used in this study come from the plasma protein pQTL data of the deCODE database
+        version 2021,4 which describes a GWAS study of 35,559 Europeans that measured plasma protein levels
+        using 4907 aptamers; (the pQTL instrumental variables included in the analysis are provided in
+        the appendix pQTL_drug_exposure.txt; 10.5281/zenodo.17283362).

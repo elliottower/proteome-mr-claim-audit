@@ -1,0 +1,22 @@
+{
+ "record_id": "W4406210404",
+ "coder_id": "coder_3",
+ "rows": [
+  {
+   "row": "outcome_1",
+   "resolved_value": "source_names_dataset_absent_from_dictionary",
+   "unresolved_reason": "dataset_absent_from_dictionary",
+   "resolution_note": "Rule C: sentence 2 of p001 defines the authors' own analysis of UK Biobank individual-level data by more than a number of participants (2,923 plasma proteins measured in 51,296 non-demented middle-aged adults with 15 years of follow-up; sentence 3 adds the Cox proportional hazard models); no accession, citation or release of a published UK Biobank GWAS is given, so no dictionary row is identified.",
+   "identification_basis": null,
+   "source_read": "abstract",
+   "passage_id": "p001",
+   "quote": "Methods We used data of 2,923 plasma proteins from 51,296 non‐demented middle‐aged adults in the UK Biobank with 15 years of follow‐up.",
+   "citations_claim": "claims/W4406210404.yaml#outcome_1_r",
+   "companion_source": false,
+   "reference_label": null,
+   "reference_quote": null,
+   "reference_citations_claim": null,
+   "dataset_named_in_source": "UK Biobank"
+  }
+ ]
+}

@@ -1,0 +1,78 @@
+source:
+  citation: '41514346'
+  local: sources/41514346.txt
+  sha256: 4315f208b6e4ecab1e73709d2730aead33cb0119db936fbce5cdba34fffc9b90
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12849277/fullTextXML
+  note: body as scripts/fetch_fulltext.py rendered it
+claims:
+  outcome_1:
+    quotes:
+    - exact: For breast cancer, we used GWAS summary statistics combining studies from the BCAC as well
+        as other GWAS studies, containing 10.8 million SNPs from 133,384 cases and 113,789 controls of
+        European ancestry [24].
+  outcome_2:
+    quotes:
+    - exact: For the clustering analysis, we meta-analysed BMI GWAS summary statistics meta-analysis results
+        from FinnGen (release 9) [21] and the GIANT consortium (2018 release) [22].
+  outcome_1_a2:
+    quotes:
+    - exact: For breast cancer, we used GWAS summary statistics combining studies from the BCAC as well
+        as other GWAS studies, containing 10.8 million SNPs from 133,384 cases and 113,789 controls of
+        European ancestry [24].
+  outcome_2_a2:
+    quotes:
+    - exact: For the clustering analysis, we meta-analysed BMI GWAS summary statistics meta-analysis results
+        from FinnGen (release 9) [21] and the GIANT consortium (2018 release) [22].
+  outcome_4_a2:
+    quotes:
+    - exact: Logistic regression models were run with the PGSBMI of each cluster as predictor of breast
+        cancer for women in the UK Biobank.
+  outcome_1_a3:
+    quotes:
+    - exact: For breast cancer, we used GWAS summary statistics combining studies from the BCAC as well
+        as other GWAS studies, containing 10.8 million SNPs from 133,384 cases and 113,789 controls of
+        European ancestry [24].
+  outcome_2_a3:
+    quotes:
+    - exact: For the clustering analysis, we meta-analysed BMI GWAS summary statistics meta-analysis results
+        from FinnGen (release 9) [21] and the GIANT consortium (2018 release) [22].
+  outcome_4_a3:
+    quotes:
+    - exact: Breast cancer cases in the UK biobank were defined using data from cancer registries on cancer
+        type, provided in ICD-9 or ICD-10 coding (data fields 40013 and 40006, respectively), as well
+        as hospital in-patient data (data field 41202, 41203, 41204 and 41205) and cause of death (data
+        fields 40001 and 40002).
+  outcome_1_a4:
+    quotes:
+    - exact: For breast cancer, we used GWAS summary statistics combining studies from the BCAC as well
+        as other GWAS studies, containing 10.8 million SNPs from 133,384 cases and 113,789 controls of
+        European ancestry [24].
+  outcome_2_a4:
+    quotes:
+    - exact: For the clustering analysis, we meta-analysed BMI GWAS summary statistics meta-analysis results
+        from FinnGen (release 9) [21] and the GIANT consortium (2018 release) [22].
+  outcome_4_a4:
+    quotes:
+    - exact: Breast cancer cases in the UK biobank were defined using data from cancer registries on cancer
+        type, provided in ICD-9 or ICD-10 coding (data fields 40013 and 40006, respectively), as well
+        as hospital in-patient data (data field 41202, 41203, 41204 and 41205) and cause of death (data
+        fields 40001 and 40002).
+  outcome_1_c2:
+    quotes:
+    - exact: For breast cancer, we used GWAS summary statistics combining studies from the BCAC as well
+        as other GWAS studies, containing 10.8 million SNPs from 133,384 cases and 113,789 controls of
+        European ancestry [24].
+  outcome_2_c2:
+    quotes:
+    - exact: For the clustering analysis, we meta-analysed BMI GWAS summary statistics meta-analysis results
+        from FinnGen (release 9) [21] and the GIANT consortium (2018 release) [22].
+  outcome_3_c2:
+    quotes:
+    - exact: For the clustering analysis, we meta-analysed BMI GWAS summary statistics meta-analysis results
+        from FinnGen (release 9) [21] and the GIANT consortium (2018 release) [22].
+  outcome_4_c2:
+    quotes:
+    - exact: Breast cancer cases in the UK biobank were defined using data from cancer registries on cancer
+        type, provided in ICD-9 or ICD-10 coding (data fields 40013 and 40006, respectively), as well
+        as hospital in-patient data (data field 41202, 41203, 41204 and 41205) and cause of death (data
+        fields 40001 and 40002).

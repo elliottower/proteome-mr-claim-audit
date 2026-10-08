@@ -1,0 +1,60 @@
+{
+ "record_id": "41261649",
+ "coder_id": "coder_3",
+ "attempt": 1,
+ "rows": [
+  {
+   "side": "outcome",
+   "name_as_written": "FinnGen",
+   "value": "FinnGen R9",
+   "passes": true,
+   "failures": [],
+   "warnings": [],
+   "machine_basis": [
+    "release_number:finngen 9"
+   ],
+   "reference_verified_by": null
+  },
+  {
+   "side": "outcome",
+   "name_as_written": "UK Biobank",
+   "value": "not_stated_in_source",
+   "passes": true,
+   "failures": [],
+   "warnings": [],
+   "machine_basis": [],
+   "reference_verified_by": null
+  },
+  {
+   "side": "pqtl",
+   "name_as_written": "Fenland",
+   "value": "Fenland SomaScan v4 (Pietzner 2021)",
+   "passes": true,
+   "failures": [],
+   "warnings": [],
+   "machine_basis": [
+    "aliases:Fenland study",
+    "source_citation:Pietzner|2021",
+    "source_identifier:10.1126/science.abj1541",
+    "source_identifier:34648354",
+    "source_identifier:PMC9904207"
+   ],
+   "reference_verified_by": "doi"
+  },
+  {
+   "side": "pqtl",
+   "name_as_written": "UK biobank pharma proteomics project (UKB-PPP)",
+   "value": "not_stated_in_source",
+   "passes": true,
+   "failures": [],
+   "warnings": [],
+   "machine_basis": [],
+   "reference_verified_by": null
+  }
+ ],
+ "rows_not_coded_once": [],
+ "rows_not_given": [],
+ "wrong_coder": false,
+ "passes": true,
+ "gated_utc": "20261008T003917Z"
+}

@@ -1,0 +1,16 @@
+{"record_id": "39333727", "coder_id": "coder_1",
+ "rows": [
+  {"row": "pqtl_1",
+   "resolved_value": "ARIC European American (Zhang 2022)",
+   "unresolved_reason": null,
+   "resolution_note": "Rule E: the sentence attributes the plasma proteome data to reference 13 (Zhang 2022, DOI 10.1038/s41588-022-01051-w, a source of two ARIC rows) and gives the ancestry 'European descent', which separates the European American row; the next sentences name it the ARIC study, and no passage conflicts.",
+   "identification_basis": "reference_entry",
+   "source_read": "full_text",
+   "passage_id": "p001",
+   "quote": "The research relies on data that is accessible to the public from a large-scale genome-wide association study on blood proteome (https://www.decode.com/summarydata/)12, plasma proteome analysis of European descent plasma(nilanjanchatterjeelab.org/pwas/)13 and GWAS Catalog (GWAS Catalog (ebi.ac.uk))14–16 (Supplementary Table 2).",
+   "citations_claim": "claims/39333727.yaml#pqtl_1_r",
+   "companion_source": true,
+   "reference_label": "13",
+   "reference_quote": "Zhang, J. et al. Plasma proteome analyses in individuals of European and African ancestry identify cis-pQTLs and models for proteome-wide association studies. Nat. Genet. 54 (5), 593–602 (2022).",
+   "reference_citations_claim": "claims/39333727.references.yaml#pqtl_1_r_ref",
+   "dataset_named_in_source": null}]}

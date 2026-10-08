@@ -1,0 +1,24 @@
+{
+ "record_id": "39875498",
+ "coder_id": "coder_3",
+ "attempt": 1,
+ "rows": [
+  {
+   "side": "pqtl",
+   "name_as_written": "deCode",
+   "value": "deCODE SomaScan v4 (Ferkingstad 2021)",
+   "unresolved_reason": null,
+   "identification_basis": "reference_entry",
+   "source_read": "full_text",
+   "passage_id": "p001",
+   "quote": "Data on 4,907 plasma proteins were obtained from the study by Ferkingstad et al.6 and downloaded from the deCODE database (https://www.decode.com) (Table 1).",
+   "citations_claim": "claims/39875498.yaml#pqtl_1",
+   "companion_source": true,
+   "reference_label": "6",
+   "reference_quote": "Ferkingstad, E. et al. Large-scale integration of the plasma proteome with genetics and disease. Nat. Genet. 53 (12), 1712–1721 (2021).",
+   "reference_citations_claim": "claims/39875498.references.yaml#pqtl_1_ref",
+   "dataset_named_in_source": null,
+   "coder_note": "Sentence attributes the protein data to the study in reference 6, whose DOI is the source of one candidate row."
+  }
+ ]
+}

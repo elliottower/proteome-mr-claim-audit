@@ -1,0 +1,38 @@
+{
+ "record_id": "41540382",
+ "coder_id": "coder_3",
+ "attempt": 1,
+ "rows": [
+  {
+   "side": "pqtl",
+   "name_as_written": "Atherosclerosis Risk in Communities (ARIC)",
+   "value": "ARIC European American (Zhang 2022)",
+   "passes": true,
+   "failures": [],
+   "warnings": [],
+   "machine_basis": [
+    "aliases:ARIC"
+   ],
+   "reference_verified_by": null
+  },
+  {
+   "side": "pqtl",
+   "name_as_written": "INTERVAL",
+   "value": "INTERVAL SomaScan (Sun 2018)",
+   "passes": true,
+   "failures": [],
+   "warnings": [],
+   "machine_basis": [
+    "aliases:INTERVAL",
+    "aliases:Genomic atlas of the human plasma proteome",
+    "source_citation:Sun|2018"
+   ],
+   "reference_verified_by": "doi"
+  }
+ ],
+ "rows_not_coded_once": [],
+ "rows_not_given": [],
+ "wrong_coder": false,
+ "passes": true,
+ "gated_utc": "20261007T182759Z"
+}

@@ -1,0 +1,11 @@
+source:
+  citation: '42278218'
+  local: sources/42278218.txt
+  sha256: e3e43f772edade2088f8b2728e41e07bd953ac43b6bab7939784c1ba730d387f
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13256672/fullTextXML
+  note: body as scripts/fetch_fulltext.py rendered it
+claims:
+  pqtl_1_c2:
+    quotes:
+    - exact: Plasma pQTL summary statistics were obtained from the UK Biobank Pharma Proteomics Project
+        (UKB-PPP), which measured 2923 proteins in 53,022 individuals using the Olink Explore 3072 platform.

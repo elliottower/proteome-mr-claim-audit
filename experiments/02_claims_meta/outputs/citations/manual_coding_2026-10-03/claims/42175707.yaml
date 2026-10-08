@@ -1,0 +1,32 @@
+source:
+  citation: '42175707'
+  local: sources/42175707.txt
+  sha256: efee22eb4eb14db23315f1d522173ad848f614ca7859d0e8c4d714f976656537
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13197833/fullTextXML
+  note: body as scripts/fetch_fulltext.py rendered it
+claims:
+  outcome_2:
+    quotes:
+    - exact: Summary statistics were downloaded from the NHGRI‐EBI GWAS Catalog [21] on 01/23/2024 for
+        study GCST90205183 [22].
+  outcome_2_a2:
+    quotes:
+    - exact: Summary statistics were downloaded from the NHGRI‐EBI GWAS Catalog [21] on 01/23/2024 for
+        study GCST90205183 [22].
+  outcome_2_a3:
+    quotes:
+    - exact: Summary statistics were downloaded from the NHGRI‐EBI GWAS Catalog [21] on 01/23/2024 for
+        study GCST90205183 [22].
+  outcome_1_c2:
+    quotes:
+    - exact: The FinnGen study is a large‐scale genomics initiative that has analyzed over 500,000 Finnish
+        biobank samples and correlated genetic variation with health data to understand disease mechanisms
+        and predispositions.
+  outcome_2_c2:
+    quotes:
+    - exact: Summary statistics were downloaded from the NHGRI‐EBI GWAS Catalog [21] on 01/23/2024 for
+        study GCST90205183 [22].
+  pqtl_1_c2:
+    quotes:
+    - exact: The exposures used in this study were genetically predicted plasma proteins from the UK Biobank
+        Pharma Proteomics Project (UKB‐PPP) [18].

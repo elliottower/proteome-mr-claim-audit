@@ -1,0 +1,53 @@
+source:
+  citation: '41249132'
+  local: sources/41249132.txt
+  sha256: d282af497e1f5c081b2f993dfbedbfe0ca8f3332f7d43eb80a67e97f67bcf8cf
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12623863/fullTextXML
+  note: body as scripts/fetch_fulltext.py rendered it
+claims:
+  outcome_2:
+    quotes:
+    - exact: GWAS summary statistics of HOMA-IR, ISI, and Fins were obtained from the Meta-Analyses of
+        Glucose and Insulin-related traits Consortium including 37,037, 53,710, and 151,013 non-diabetic
+        European participants, respectively4–6, and GWAS summary statistics of TG:HDL-C were obtained
+        from the UK Biobank with 402,398 European participants7 (Supplementary Data 1).
+  outcome_2_a2:
+    quotes:
+    - exact: GWAS summary statistics of HOMA-IR, ISI, and Fins were obtained from the Meta-Analyses of
+        Glucose and Insulin-related traits Consortium including 37,037, 53,710, and 151,013 non-diabetic
+        European participants, respectively4–6, and GWAS summary statistics of TG:HDL-C were obtained
+        from the UK Biobank with 402,398 European participants7 (Supplementary Data 1).
+  outcome_2_a3:
+    quotes:
+    - exact: GWAS summary statistics of HOMA-IR, ISI, and Fins were obtained from the Meta-Analyses of
+        Glucose and Insulin-related traits Consortium including 37,037, 53,710, and 151,013 non-diabetic
+        European participants, respectively4–6, and GWAS summary statistics of TG:HDL-C were obtained
+        from the UK Biobank with 402,398 European participants7 (Supplementary Data 1).
+  outcome_1_a4:
+    quotes:
+    - exact: GWAS summary statistics of HOMA-IR, ISI, and Fins were obtained from the Meta-Analyses of
+        Glucose and Insulin-related traits Consortium including 37,037, 53,710, and 151,013 non-diabetic
+        European participants, respectively4–6, and GWAS summary statistics of TG:HDL-C were obtained
+        from the UK Biobank with 402,398 European participants7 (Supplementary Data 1).
+  outcome_2_a4:
+    quotes:
+    - exact: The GWAS data for TG:HDL-C can be available at the GWAS Catalog (https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90295001-GCST90296000/GCST90295949/).
+      prefix: 'file is available. ## Data availability All GWAS summary statistics analyzed in this study
+        are publicly available as shown in Supplementary Data 1 for download by qualified researchers.
+        The GWAS data for HOMA-IR, ISI, and Fins can be obtained at the MAGIC official website (http://magicinvestigators.org/downloads/).'
+      suffix: 'The summary statistics for the GWASs of mvIR constructed by three tools have been deposited
+        at Zenodo (10.5281/zenodo.17117328)74. All data generated in the current study could be obtained
+        from the Supplementary Information and Supplementary Data. ## Code availability Publicly available
+        software was used to perform'
+  outcome_1_c2:
+    quotes:
+    - exact: GWAS summary statistics of HOMA-IR, ISI, and Fins were obtained from the Meta-Analyses of
+        Glucose and Insulin-related traits Consortium including 37,037, 53,710, and 151,013 non-diabetic
+        European participants, respectively4–6, and GWAS summary statistics of TG:HDL-C were obtained
+        from the UK Biobank with 402,398 European participants7 (Supplementary Data 1).
+  outcome_2_c2:
+    quotes:
+    - exact: GWAS summary statistics of HOMA-IR, ISI, and Fins were obtained from the Meta-Analyses of
+        Glucose and Insulin-related traits Consortium including 37,037, 53,710, and 151,013 non-diabetic
+        European participants, respectively4–6, and GWAS summary statistics of TG:HDL-C were obtained
+        from the UK Biobank with 402,398 European participants7 (Supplementary Data 1).

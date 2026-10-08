@@ -1,0 +1,210 @@
+{
+ "written_utc": "2026-10-07T18:03:08+00:00",
+ "queue": {
+  "path": "outputs/manual_coding/2026-10-03/manual_coding_queue.csv",
+  "sha256": "b436c5bddc2f252ed4c7e143e26c63baeb2ebc613d3a7da932a4b68c2b514b35"
+ },
+ "dictionary": {
+  "path": "dataset_dictionary.csv",
+  "sha256": "f30dda8e00f8bbc6c43e31e80b38935c7d4f0d3916f33b2e776cabc14fb0d39c"
+ },
+ "scripts": [
+  {
+   "path": "scripts/manual_coding_passages_v3.py",
+   "sha256": "1502821b666e49329aa7d7bccaadbb61dc0b71b73058775b372f201471a2510f"
+  },
+  {
+   "path": "scripts/coding_assignment.py",
+   "sha256": "bc8375a8c0389c80eaf6e62b048ae288761768cdbee569ad7072c3efd5480030"
+  },
+  {
+   "path": "scripts/manual_coding_gates.py",
+   "sha256": "3aa4bbcd4df6f2a180d5b88e038cafc67e5a7f22d29ba3d78f8fa54cd7ae5e39"
+  },
+  {
+   "path": "scripts/manual_coding_table.py",
+   "sha256": "69ac24eed6b864394694278a14b503ec6e8b01983cc2c304608b0353c989d62b"
+  }
+ ],
+ "coder_instructions": {
+  "path": "prompts/manual_coding_coder_instructions_v2.md",
+  "sha256": "79f58e4d168fed386cb55192b8e9a98ff23a993cc35e252b481eaff326379cec"
+ },
+ "abstract_inputs": [
+  {
+   "path": "outputs/parsed/sol_eligibility_search_complete_2811496ef424.decisions.eligible_abstracts.jsonl",
+   "sha256": "9713449d1f7a585fe8006f0bd9d03d18467beb14d7948390445226d025200611"
+  },
+  {
+   "path": "outputs/parsed/sol_eligibility_chase1_2811496ef424.decisions.eligible_abstracts.jsonl",
+   "sha256": "85fe167a7be522be878fb02792d41a84ce460d0a297bcf658aa6c07b4409cfb0"
+  },
+  {
+   "path": "outputs/parsed/sol_eligibility_chase2_2811496ef424.decisions.eligible_abstracts.jsonl",
+   "sha256": "bd9bcc05ba70a7c7c2566c68eb0761e9bf25258ab96e776d1db621dbfc31c8da"
+  },
+  {
+   "path": "outputs/parsed/sol_eligibility_gateall1_2811496ef424.decisions.eligible_abstracts.jsonl",
+   "sha256": "982bcfdbde81e6bbace2736766cb97830a6e578b2fc2fa18157b5205eb3cd94b"
+  },
+  {
+   "path": "outputs/parsed/sol_eligibility_gateall3_2811496ef424.decisions.eligible_abstracts.jsonl",
+   "sha256": "e189e788b07cc07d32e3cc1364dc1ad82e83c14eee7230628beb935e7c4b5155"
+  }
+ ],
+ "full_text_input": {
+  "path": "outputs/manual_coding/2026-10-03/fulltext",
+  "files": 243,
+  "sha256": "0795ab02cb73088a88a919b0d0ce0c60a8e64f135a82af1466f55c82bea0912e"
+ },
+ "passages": {
+  "path": "outputs/manual_coding/2026-10-03/passages",
+  "files": 435,
+  "sha256": "c5bb7d762c3c69cbec4d7af4deadc6286133a05c85ebc12ee16b98dea3f4720c"
+ },
+ "passages_summary": {
+  "generator": "manual_coding_passages_v3.py",
+  "arguments": {
+   "abstracts": [
+    "outputs/parsed/sol_eligibility_search_complete_2811496ef424.decisions.eligible_abstracts.jsonl",
+    "outputs/parsed/sol_eligibility_chase1_2811496ef424.decisions.eligible_abstracts.jsonl",
+    "outputs/parsed/sol_eligibility_chase2_2811496ef424.decisions.eligible_abstracts.jsonl",
+    "outputs/parsed/sol_eligibility_gateall1_2811496ef424.decisions.eligible_abstracts.jsonl",
+    "outputs/parsed/sol_eligibility_gateall3_2811496ef424.decisions.eligible_abstracts.jsonl"
+   ],
+   "citations": "outputs/citations/manual_coding_2026-10-03",
+   "fulltext": "outputs/manual_coding/2026-10-03/fulltext",
+   "out": "outputs/manual_coding/2026-10-03/passages",
+   "queue": "outputs/manual_coding/2026-10-03/manual_coding_queue.csv",
+   "records": [
+    "outputs/screening/2026-10-03/search_records.jsonl",
+    "outputs/screening/chase_round_1/search_records.jsonl",
+    "outputs/screening/chase_round_2/search_records.jsonl",
+    "outputs/screening/chase_round_3/search_records.jsonl"
+   ]
+  },
+  "queue": "outputs/manual_coding/2026-10-03/manual_coding_queue.csv",
+  "papers": 434,
+  "rows": 872,
+  "papers_abstract": 192,
+  "papers_full_text": 242,
+  "papers_full_text_without_reference_entries": 1,
+  "passages": 3878,
+  "passages_with_a_reference_entry": 813,
+  "reference_entries_attached": 992,
+  "reference_entries_conflicting": 3,
+  "reference_entries_doi_from_link": 520,
+  "reference_entries_doi_from_pub_id": 440,
+  "reference_entries_doi_from_text": 2,
+  "reference_entries_none": 26,
+  "reference_entries_pmid_only": 1,
+  "rows_abstract": 376,
+  "rows_full_text": 496,
+  "rows_given_the_abstract_fallback": 47,
+  "rows_passages": 872,
+  "rows_passages_abstract": 376,
+  "rows_passages_full_text": 496,
+  "rows_with_a_reference_entry": 388
+ },
+ "citations_sources": {
+  "path": "outputs/citations/manual_coding_2026-10-03/sources",
+  "files": 716,
+  "sha256": "f3486107f685dd458328c27f6aadf1ff9184981f14acaaba92aad14f5683830f"
+ },
+ "assignment": {
+  "path": "outputs/manual_coding/2026-10-03/coders/assignment.json",
+  "sha256": "88d926750dcab64a00d024ed58d56a9d70d0bc8f9842c61271e6f2140d03a6a0",
+  "seed": 20261007,
+  "n_coders": 4,
+  "papers_per_coder": {
+   "coder_1": 109,
+   "coder_2": 109,
+   "coder_3": 108,
+   "coder_4": 108
+  }
+ },
+ "dictionary_definitions": {
+  "path": "outputs/manual_coding/2026-10-03/coders/dictionary_definitions.csv",
+  "sha256": "57f2c5bcef2b63d2d8526d4950c963a5e92e7d56cb75df215b7bbacff9f11e07"
+ },
+ "coder_inputs": {
+  "coder_1": {
+   "path": "outputs/manual_coding/2026-10-03/coders/coder_1/input",
+   "files": 109,
+   "sha256": "a1dc842bcacc90d05cbfa4d7c140bd7cf63cb3cff31034140e5c8849333d60ca"
+  },
+  "coder_2": {
+   "path": "outputs/manual_coding/2026-10-03/coders/coder_2/input",
+   "files": 109,
+   "sha256": "fd30810684d5f906c9bb30ca5f205fc0c7c3df019c1f1082f7653159bf6cdb9f"
+  },
+  "coder_3": {
+   "path": "outputs/manual_coding/2026-10-03/coders/coder_3/input",
+   "files": 108,
+   "sha256": "cd57338b5bb5d9d86f44f12026fc5310e3414a95b724fdaf846fe5002198a7a1"
+  },
+  "coder_4": {
+   "path": "outputs/manual_coding/2026-10-03/coders/coder_4/input",
+   "files": 108,
+   "sha256": "e6b47238f48bfcabb4633c533d601e49c12daf89ec0ec5866bfc67515d0e4fc5"
+  }
+ },
+ "attempt_files_before_coding": 0,
+ "superseded_outputs": [
+  {
+   "path": "outputs/manual_coding/2026-10-03/superseded_passages_strip_marks",
+   "files": 435,
+   "sha256": "eb83a3ca2bf05fe4facbba8cf87e92b8a38b6295710e7d50d0a3e5e21aab4c5d"
+  },
+  {
+   "path": "outputs/manual_coding/2026-10-03/superseded_passages_before_abstract_fallback",
+   "files": 435,
+   "sha256": "c63074c8954b0cd9499ea56ffa3f803d5831be303c1f7c1e44c9e75aeba6c31d"
+  },
+  {
+   "path": "outputs/manual_coding/2026-10-03/superseded_coders_before_abstract_fallback",
+   "files": 436,
+   "sha256": "7f771bf6505f49bba8e459678cfe5084ba0e6e0f95c6aa7798cb620dd835c8bd"
+  },
+  {
+   "path": "outputs/manual_coding/2026-10-03/superseded_passages_pub_id_only",
+   "files": 435,
+   "sha256": "ee17bf7a4d1a4bde8717d337559659200216919c22048d36983d48d20e733d9f"
+  },
+  {
+   "path": "outputs/manual_coding/2026-10-03/superseded_coders_pub_id_only",
+   "files": 436,
+   "sha256": "0b45382a54be1919610d445b39eebaff8c5b123f9cf204d4f1f7db52e36d3821"
+  },
+  {
+   "path": "outputs/manual_coding/2026-10-03/superseded_passages_doi_query_string",
+   "files": 435,
+   "sha256": "7bd4cb008530944421c460cbbab06d6e6304d729ae7564a851acf659cfa6a8d8"
+  },
+  {
+   "path": "outputs/manual_coding/2026-10-03/superseded_coders_doi_query_string",
+   "files": 436,
+   "sha256": "b4a881df7a3283d0ae5de224f6a5fea561e7e9b06d5feb3066252b7f5abd60fd"
+  },
+  {
+   "path": "outputs/citations/superseded/manual_coding_2026-10-03_strip_marks",
+   "files": 1230,
+   "sha256": "4f1b909721af7779d9a3b471c9c2251fd8e6a71d4f50a9bb51971a956db7acf7"
+  },
+  {
+   "path": "outputs/citations/superseded/manual_coding_2026-10-03_before_abstract_fallback",
+   "files": 1350,
+   "sha256": "1e304d8b7ecabce35a02955991fa049ed260d5d3c12267e69e9da4f0922396fa"
+  },
+  {
+   "path": "outputs/citations/superseded/manual_coding_2026-10-03_pub_id_only",
+   "files": 1432,
+   "sha256": "45b6c25074c03cc45da25f85e6ff1040fbb4678adc4634101c7620f0c1da974a"
+  },
+  {
+   "path": "outputs/citations/superseded/manual_coding_2026-10-03_doi_query_string",
+   "files": 1432,
+   "sha256": "45b6c25074c03cc45da25f85e6ff1040fbb4678adc4634101c7620f0c1da974a"
+  }
+ ]
+}

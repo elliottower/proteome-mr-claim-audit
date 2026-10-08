@@ -1,0 +1,51 @@
+source:
+  citation: '39994764'
+  local: sources/39994764.txt
+  sha256: 60e8de35336cff24af7699cec2faa4c098892714ef75ce246dcf76fc34690010
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11853923/fullTextXML
+  note: body as scripts/fetch_fulltext.py rendered it
+claims:
+  outcome_2:
+    quotes:
+    - exact: In the primary analyses, we obtained the summary-level GWAS data of prostate cancer from
+        the PRACTICAL study, which is a meta-analysis of 52 GWAS studies enrolling 79,148 prostate cancer
+        patients and 61,106 controls from European ancestry (Table 1) [16].
+  outcome_2_a2:
+    quotes:
+    - exact: In the primary analyses, we obtained the summary-level GWAS data of prostate cancer from
+        the PRACTICAL study, which is a meta-analysis of 52 GWAS studies enrolling 79,148 prostate cancer
+        patients and 61,106 controls from European ancestry (Table 1) [16].
+  outcome_1_a3:
+    quotes:
+    - exact: Associations of the cis-pQTL variants with prostate cancer were studied in summary-level
+        statistics of genome-wide association studies (GWASs) from the Prostate Cancer Association Group
+        to Investigate Cancer Associated Alterations in the Genome (PRACTICAL) consortium and FinnGen
+        Release 8 [16, 17].
+  outcome_2_a3:
+    quotes:
+    - exact: '[Table 1. Detailed information of data sources of the included GWAS studies. GWAS, genome-wide
+        association studies] Traits: Prostate cancer | MR-base ID: ieu-b-85 | Consortium: PRACTICAL |
+        Cases: 79,148 | Control: 61,106 | Sample size: 140,254 | Year: 2018 | Population: European | Pubmed
+        ID: 29,892,016 | Website: http://practical.icr.ac.uk/blog/?page_id=8164'
+  outcome_1_a4:
+    quotes:
+    - exact: Associations of the cis-pQTL variants with prostate cancer were studied in summary-level
+        statistics of genome-wide association studies (GWASs) from the Prostate Cancer Association Group
+        to Investigate Cancer Associated Alterations in the Genome (PRACTICAL) consortium and FinnGen
+        Release 8 [16, 17].
+  outcome_2_a4:
+    quotes:
+    - exact: In the primary analyses, we obtained the summary-level GWAS data of prostate cancer from
+        the PRACTICAL study, which is a meta-analysis of 52 GWAS studies enrolling 79,148 prostate cancer
+        patients and 61,106 controls from European ancestry (Table 1) [16].
+  outcome_1_c2:
+    quotes:
+    - exact: Associations of the cis-pQTL variants with prostate cancer were studied in summary-level
+        statistics of genome-wide association studies (GWASs) from the Prostate Cancer Association Group
+        to Investigate Cancer Associated Alterations in the Genome (PRACTICAL) consortium and FinnGen
+        Release 8 [16, 17].
+  outcome_2_c2:
+    quotes:
+    - exact: In the primary analyses, we obtained the summary-level GWAS data of prostate cancer from
+        the PRACTICAL study, which is a meta-analysis of 52 GWAS studies enrolling 79,148 prostate cancer
+        patients and 61,106 controls from European ancestry (Table 1) [16].

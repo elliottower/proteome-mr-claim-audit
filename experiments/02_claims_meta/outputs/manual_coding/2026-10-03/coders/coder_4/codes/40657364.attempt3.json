@@ -1,0 +1,58 @@
+{
+ "record_id": "40657364",
+ "coder_id": "coder_4",
+ "attempt": 3,
+ "rows": [
+  {
+   "side": "outcome",
+   "name_as_written": "Breast Cancer Association Consortium (BCAC)",
+   "value": "BCAC breast cancer (Michailidou 2017)",
+   "unresolved_reason": null,
+   "identification_basis": "reference_entry",
+   "source_read": "full_text",
+   "passage_id": "p001",
+   "quote": "This analysis utilized publicly available datasets, including the BC Association Consortium (BCAC) 17, the UK Biobanking Study 21, the Finnish Genetics Study 22, and other large-scale GWAS (Table S1).",
+   "citations_claim": "claims/40657364.yaml#outcome_1_a3",
+   "companion_source": true,
+   "reference_label": "17",
+   "reference_quote": "Michailidou K, Lindström S, Dennis J. et al. Association analysis identifies 65 new breast cancer risk loci. Nature. 2017;551:92–4. doi: 10.1038/nature24284.",
+   "reference_citations_claim": "claims/40657364.references.yaml#outcome_1_a3_ref",
+   "dataset_named_in_source": null,
+   "coder_note": "The sentence attributes the BCAC dataset to reference 17, placed directly after the consortium name, so the mapping of each citation to its dataset is explicit (rule F); reference 17 is Michailidou 2017 (DOI 10.1038/nature24284), the source of one dictionary row. The counts in p003 (122,977 cases, 105,974 controls, European) agree with that row; no conflict."
+  },
+  {
+   "side": "outcome",
+   "name_as_written": "FinnGen",
+   "value": "FinnGen R10",
+   "unresolved_reason": null,
+   "identification_basis": "release_identifier",
+   "source_read": "full_text",
+   "passage_id": "p001",
+   "quote": "Furthermore, summary-level data on genetic associations with BC were obtained from the FinnGen study's publicly available R10 dataset, which included 18,786 patients with BC and 182,927 controls.",
+   "citations_claim": "claims/40657364.yaml#outcome_2_a3",
+   "companion_source": false,
+   "reference_label": null,
+   "reference_quote": null,
+   "reference_citations_claim": null,
+   "dataset_named_in_source": null,
+   "coder_note": "The sentence names the FinnGen release, R10; the case and control counts are phenotype-specific and identify no other release (rule H)."
+  },
+  {
+   "side": "outcome",
+   "name_as_written": "UK Biobank (UKB)",
+   "value": "not_stated_in_source",
+   "unresolved_reason": "release_not_identified",
+   "identification_basis": null,
+   "source_read": null,
+   "passage_id": null,
+   "quote": null,
+   "citations_claim": null,
+   "companion_source": false,
+   "reference_label": null,
+   "reference_quote": null,
+   "reference_citations_claim": null,
+   "dataset_named_in_source": null,
+   "coder_note": "Rule I1: 'the UK Biobank database' with counts only (9,721 cases and 351,473 controls); no release, accession or pipeline is named, and the one citation given for the UK Biobank study in this row's paper (Zhou 2020, DOI 10.1038/s41588-020-0621-6, under the BCAC row's passage) is not a dictionary source."
+  }
+ ]
+}

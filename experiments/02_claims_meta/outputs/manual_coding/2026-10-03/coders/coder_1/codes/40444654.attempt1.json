@@ -1,0 +1,41 @@
+{
+ "record_id": "40444654",
+ "coder_id": "coder_1",
+ "attempt": 1,
+ "rows": [
+  {
+   "side": "outcome",
+   "name_as_written": "FinnGen study",
+   "value": "FinnGen R10",
+   "unresolved_reason": null,
+   "identification_basis": "release_identifier",
+   "source_read": "full_text",
+   "passage_id": "p001",
+   "quote": "The IMSGC dataset served as the discovery cohort, while the FinnGen R10 cohort was used for validation.",
+   "citations_claim": "claims/40444654.yaml#outcome_1",
+   "companion_source": false,
+   "reference_label": null,
+   "reference_quote": null,
+   "reference_citations_claim": null,
+   "dataset_named_in_source": null,
+   "coder_note": "Sentence states the FinnGen R10 cohort was used for validation."
+  },
+  {
+   "side": "outcome",
+   "name_as_written": "International Multiple Sclerosis Genetics Consortium",
+   "value": "IMSGC multiple sclerosis (2019)",
+   "unresolved_reason": null,
+   "identification_basis": "reference_entry",
+   "source_read": "full_text",
+   "passage_id": "p001",
+   "quote": "Our MR analyses utilized publicly available datasets, including the International Multiple Sclerosis Genetics Consortium (IMSGC) (Patsopoulos et al. 2019), the FinnGen study (Kurki et al. 2023), and other genome‐wide association studies (GWASs) (Table S1).",
+   "citations_claim": "claims/40444654.yaml#outcome_2",
+   "companion_source": true,
+   "reference_label": "brb370606-bib-0018",
+   "reference_quote": "Patsopoulos , N. A. , S. E. Baranzini , A. Santaniello , et al. 2019 . “ Multiple Sclerosis Genomic Map Implicates Peripheral Immune Cells and Microglia in Susceptibility .” Science 365 , no. 6460 : eaav7188 . 10.1126/science.aav7188 . 31604244 PMC7241648",
+   "reference_citations_claim": "claims/40444654.references.yaml#outcome_2_ref",
+   "dataset_named_in_source": null,
+   "coder_note": "Sentence attributes the IMSGC dataset to Patsopoulos et al. 2019, whose entry carries the source DOI of exactly one dictionary row."
+  }
+ ]
+}

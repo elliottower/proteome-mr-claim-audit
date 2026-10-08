@@ -1,0 +1,17 @@
+source:
+  citation: '41127252'
+  local: sources/41127252.txt
+  sha256: d0bbbe83afa8b5e0c391d602856c1eec3e1bff0b75b13fc1b597331d1f7bb899
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12538646/fullTextXML
+  note: body as scripts/fetch_fulltext.py rendered it
+claims:
+  outcome_1_c2:
+    quotes:
+    - exact: The outcome dataset for dementia subtypes was sourced from the FinnGen GWAS database. 13
+        , 14 This dataset includes genetic and health record data from > 429,209 participants of Finnish
+        ancestry.
+  pqtl_1_c2:
+    quotes:
+    - exact: In their analysis of 2923 plasma proteins from 54,219 UK Biobank participants, Sun et al.
+        12 identified 14,287 significant genetic associations with plasma proteins, including both cis‐
+        and trans‐protein quantitative trait loci (pQTLs).

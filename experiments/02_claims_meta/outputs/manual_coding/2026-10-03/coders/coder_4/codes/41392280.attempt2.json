@@ -1,0 +1,15 @@
+{"record_id": "41392280", "coder_id": "coder_4", "attempt": 2,
+ "rows": [
+  {"side": "outcome", "name_as_written": "UK Biobank",
+   "value": "source_names_dataset_absent_from_dictionary",
+   "unresolved_reason": "dataset_absent_from_dictionary",
+   "identification_basis": null,
+   "source_read": "full_text",
+   "passage_id": "p001",
+   "quote": "For the present analyses, we restricted the sample to participants with plasma proteomics data in UKB (n = 53,014) [20].",
+   "citations_claim": "claims/41392280.yaml#outcome_1_a2",
+   "companion_source": false,
+   "reference_label": null, "reference_quote": null, "reference_citations_claim": null,
+   "dataset_named_in_source": "participants with plasma proteomics data in UKB",
+   "coder_note": "Passages describe the outcome data as the authors' own prospective analysis of the cohort's participants with proteomics data (own follow-up and incident cases, under a named application), not a published GWAS release; no dictionary outcome row is such a dataset. For the checker: this is a judgement between dataset_absent_from_dictionary and release_not_identified."}
+ ]}

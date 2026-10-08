@@ -1,0 +1,15 @@
+source:
+  citation: '40856249'
+  local: sources/40856249.txt
+  sha256: a21f73e286374c845b2923ff6dad7ca15fb06764907be0faaacd213964b2b433
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12379178/fullTextXML
+  note: body as scripts/fetch_fulltext.py rendered it
+claims:
+  pqtl_1:
+    quotes:
+    - exact: Proteomic data comprised cis protein quantitative trait loci (cis‐pQTL) for 4907 plasma proteins
+        from 35 559 participants from the Decode cohort [14].
+  pqtl_1_c2:
+    quotes:
+    - exact: Proteomic data comprised cis protein quantitative trait loci (cis‐pQTL) for 4907 plasma proteins
+        from 35 559 participants from the Decode cohort [14].

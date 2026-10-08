@@ -1,0 +1,15 @@
+{"record_id": "41789843", "coder_id": "coder_3", "attempt": 4,
+ "rows": [
+  {"side": "outcome", "name_as_written": "UK Biobank",
+   "value": "source_names_dataset_absent_from_dictionary",
+   "unresolved_reason": "dataset_absent_from_dictionary",
+   "identification_basis": null,
+   "source_read": "full_text",
+   "passage_id": "p003",
+   "quote": "The research received approval from the UK Biobank project under application number 360934.",
+   "citations_claim": "claims/41789843.yaml#outcome_1_a4",
+   "companion_source": false,
+   "reference_label": null, "reference_quote": null, "reference_citations_claim": null,
+   "dataset_named_in_source": "UK Biobank project under application number 360934",
+   "coder_note": "Step 3 (rule C): the authors' own prospective cohort analysis of UK Biobank individual-level data, defined by an application number (360934) and by described procedures (participants without glaucoma and with proteome data, p002; Olink Explore 3072 profiling, p004; IOP and OCT measurement, p007-p008). The numbers of participants (45,850; 53,013) alone would not identify a release. The GWAS outcome named in p006 is FinnGen (R12), which is not this row; no passage attributes a UK Biobank outcome GWAS to a release, accession or citation."}
+ ]}

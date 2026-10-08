@@ -1,0 +1,41 @@
+{
+ "record_id": "39806440",
+ "coder_id": "coder_4",
+ "attempt": 1,
+ "rows": [
+  {
+   "side": "outcome",
+   "name_as_written": "FinnGen cohort",
+   "value": "not_stated_in_source",
+   "unresolved_reason": "release_not_identified",
+   "identification_basis": null,
+   "source_read": null,
+   "passage_id": null,
+   "quote": null,
+   "citations_claim": null,
+   "companion_source": false,
+   "reference_label": null,
+   "reference_quote": null,
+   "reference_citations_claim": null,
+   "dataset_named_in_source": null,
+   "coder_note": "Sentence names the FinnGen cohort with counts and no release number; the linked entry mentions a release but has no DOI, PMID or PMC identifier and cannot carry a code."
+  },
+  {
+   "side": "outcome",
+   "name_as_written": "UK Biobank",
+   "value": "source_names_dataset_absent_from_dictionary",
+   "unresolved_reason": "dataset_absent_from_dictionary",
+   "identification_basis": null,
+   "source_read": "full_text",
+   "passage_id": "p001",
+   "quote": "Asthma data were derived from the GWAS data of the UK Biobank, comprising 56,167 patients and 352,255 control subjects of European ancestry [25].",
+   "citations_claim": "claims/39806440.yaml#outcome_2",
+   "companion_source": false,
+   "reference_label": null,
+   "reference_quote": null,
+   "reference_citations_claim": null,
+   "dataset_named_in_source": "GWAS data of the UK Biobank",
+   "coder_note": "Sentence attributes the asthma data to a UK Biobank GWAS with citation [25]; the entry DOI is the source of no dictionary row."
+  }
+ ]
+}

@@ -1,0 +1,14 @@
+{"record_id": "41775896", "coder_id": "coder_3", "attempt": 3,
+ "rows": [
+  {"side": "outcome", "name_as_written": "UK Biobank",
+   "value": "source_names_dataset_absent_from_dictionary",
+   "unresolved_reason": "dataset_absent_from_dictionary",
+   "identification_basis": null,
+   "source_read": "full_text",
+   "passage_id": "p033",
+   "quote": "This research has been conducted using the UK Biobank resource under Application Number 90143.",
+   "citations_claim": "claims/41775896.yaml#outcome_1_a3",
+   "companion_source": false,
+   "reference_label": null, "reference_quote": null, "reference_citations_claim": null,
+   "dataset_named_in_source": "UK Biobank resource under Application Number 90143",
+   "coder_note": "The authors analyse UK Biobank individual-level data under their own application number, and the instruments passage speaks of \"own calculations using UK biobank\" (rule C); no published UK Biobank GWAS release, accession or citation is given for the outcome, and no dictionary row is the authors' own analysis."}]}

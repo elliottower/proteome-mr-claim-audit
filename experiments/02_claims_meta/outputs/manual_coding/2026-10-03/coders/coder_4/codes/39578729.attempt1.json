@@ -1,0 +1,41 @@
+{
+ "record_id": "39578729",
+ "coder_id": "coder_4",
+ "attempt": 1,
+ "rows": [
+  {
+   "side": "outcome",
+   "name_as_written": "GERA + UKB",
+   "value": "source_names_dataset_absent_from_dictionary",
+   "unresolved_reason": "dataset_absent_from_dictionary",
+   "identification_basis": null,
+   "source_read": "full_text",
+   "passage_id": "p001",
+   "quote": "Specifically, the GERA + UKB GWAS meta-analysis dataset was used as the primary discovery dataset, while the FinnGen R10 dataset served as the replication cohort for further validation.",
+   "citations_claim": "claims/39578729.yaml#outcome_1",
+   "companion_source": false,
+   "reference_label": null,
+   "reference_quote": null,
+   "reference_citations_claim": null,
+   "dataset_named_in_source": "GERA + UKB",
+   "coder_note": "Sentence names the GERA + UKB GWAS meta-analysis as the discovery outcome dataset; no dictionary outcome row for it."
+  },
+  {
+   "side": "pqtl",
+   "name_as_written": "deCODE Genetics",
+   "value": "deCODE SomaScan v4 (Ferkingstad 2021)",
+   "unresolved_reason": null,
+   "identification_basis": "exact_n_with_platform_or_year",
+   "source_read": "full_text",
+   "passage_id": "p002",
+   "quote": "This study analyzed genetic and phenotypic information from 35,559 Icelanders, measuring 4,907 proteins using the SomaScan version 4 multiplex nucleotide testing technique.",
+   "citations_claim": "claims/39578729.yaml#pqtl_1",
+   "companion_source": false,
+   "reference_label": null,
+   "reference_quote": null,
+   "reference_citations_claim": null,
+   "dataset_named_in_source": null,
+   "coder_note": "Sentence describing the deCODE data gives 35,559 Icelanders with SomaScan version 4, the exact size and platform of the Ferkingstad 2021 row only."
+  }
+ ]
+}

@@ -1,0 +1,15 @@
+source:
+  citation: '39875498'
+  local: sources/39875498.txt
+  sha256: 0313775315ed51ec8a1ee82ed5bad55755e7fe1d499696add7b0a62c8d8df8a1
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11775103/fullTextXML
+  note: body as scripts/fetch_fulltext.py rendered it
+claims:
+  pqtl_1:
+    quotes:
+    - exact: Data on 4,907 plasma proteins were obtained from the study by Ferkingstad et al.6 and downloaded
+        from the deCODE database (https://www.decode.com) (Table 1).
+  pqtl_1_c2:
+    quotes:
+    - exact: Data on 4,907 plasma proteins were obtained from the study by Ferkingstad et al.6 and downloaded
+        from the deCODE database (https://www.decode.com) (Table 1).

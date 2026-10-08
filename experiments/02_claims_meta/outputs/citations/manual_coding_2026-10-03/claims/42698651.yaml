@@ -1,0 +1,28 @@
+source:
+  citation: '42698651'
+  local: sources/42698651.txt
+  sha256: e74474889bfaafc3cf2c8ac9f7e42e1ee9175123934a913c71ac65cd0fee58b5
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13542052/fullTextXML
+  note: body as scripts/fetch_fulltext.py rendered it
+claims:
+  pqtl_2:
+    quotes:
+    - exact: GWAS data for 4907 plasma proteins were sourced from a comprehensive analysis linking plasma
+        protein levels to 373 diseases and traits.21
+  pqtl_2_a2:
+    quotes:
+    - exact: GWAS data for 4907 plasma proteins were sourced from a comprehensive analysis linking plasma
+        protein levels to 373 diseases and traits.21
+  pqtl_2_a3:
+    quotes:
+    - exact: GWAS data for 4907 plasma proteins were sourced from a comprehensive analysis linking plasma
+        protein levels to 373 diseases and traits.21
+  pqtl_1_c2:
+    quotes:
+    - exact: This study characterized plasma proteomic profiles of 54,219 Europeans and generated corresponding
+        GWAS datasets, publicly available through the UKB-PPP database (https://www.synapse.org/Synapse:syn51364943/wiki/622119)
+        (Table 1).
+  pqtl_2_c2:
+    quotes:
+    - exact: GWAS data for 4907 plasma proteins were sourced from a comprehensive analysis linking plasma
+        protein levels to 373 diseases and traits.21

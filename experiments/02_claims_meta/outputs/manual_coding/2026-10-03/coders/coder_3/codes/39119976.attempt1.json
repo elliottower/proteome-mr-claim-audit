@@ -1,0 +1,41 @@
+{
+ "record_id": "39119976",
+ "coder_id": "coder_3",
+ "attempt": 1,
+ "rows": [
+  {
+   "side": "outcome",
+   "name_as_written": "GIGASTROKE consortium",
+   "value": "GIGASTROKE (Mishra 2022)",
+   "unresolved_reason": null,
+   "identification_basis": "reference_entry",
+   "source_read": "full_text",
+   "passage_id": "p001",
+   "quote": "For the purpose of this MR study, we used ancestry‐specific pQTL summary‐level data for South Asian populations obtained from the UKBPPP. 4 Genetic associations of 2922 circulating plasma proteins were obtained from the UKBPPP for individuals of Central/South Asian (CSA) ancestry (N=920) and European ancestry (N=34 557). 4 Summary statistics of GWAS, respectively, for individuals of CSA ancestry and European ancestry on stroke (NCSA=3640 cases and 7672 controls; NEURopean =73 652 cases and 1 234 808 controls) and 4 subtypes including ischemic stroke (NCSA=3462 cases and 7672 controls, NEUROPEAN=62 100 cases and 1 234 808 controls), cardioembolic stroke (NCSA=596 cases and 7672 controls, NEUROPEAN=10 804 cases and 1 234 808 controls), large artery stroke (NCSA=705 cases and 7672 controls, NEUROPEAN=6399 cases and 1 234 808 controls), and small vessel stroke (NCSA=647 cases and 7672 controls, NEUROPEAN=6811 cases and 1 234 808 controls) were obtained from the GIGASTROKE consortium. 9 The studies used in our analysis were approved by their respective institutional review boards, and informed consent was provided by all participants.",
+   "citations_claim": "claims/39119976.yaml#outcome_1",
+   "companion_source": true,
+   "reference_label": "9",
+   "reference_quote": "Mishra A, Malik R, Hachiya T, Jürgenson T, Namba S, Posner DC, Kamanu FK, Koido M, Le Grand Q, Shi M, et al. Stroke genetics informs drug discovery and risk prediction across ancestries. Nature. 2022;611:115–123. doi: 10.1038/s41586-022-05165-3",
+   "reference_citations_claim": "claims/39119976.references.yaml#outcome_1_ref",
+   "dataset_named_in_source": null,
+   "coder_note": "Sentence attributes the stroke summary statistics to the consortium with reference 9, whose DOI is the source of the one dictionary row for it."
+  },
+  {
+   "side": "pqtl",
+   "name_as_written": "UK Biobank",
+   "value": "not_stated_in_source",
+   "unresolved_reason": "release_not_identified",
+   "identification_basis": null,
+   "source_read": null,
+   "passage_id": null,
+   "quote": null,
+   "citations_claim": null,
+   "companion_source": false,
+   "reference_label": null,
+   "reference_quote": null,
+   "reference_citations_claim": null,
+   "dataset_named_in_source": null,
+   "coder_note": "Sentence states two subsets were used (a European subset with N 34 557 and a Central/South Asian subset with N 920), which correspond to two different dictionary rows; not exactly one row."
+  }
+ ]
+}

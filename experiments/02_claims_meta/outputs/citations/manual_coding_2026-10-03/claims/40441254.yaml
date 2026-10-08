@@ -1,0 +1,50 @@
+source:
+  citation: '40441254'
+  local: sources/40441254.txt
+  sha256: 6d5aa83f8ea3fb6034a63c06e79a6cf95ebaa87ac7731da535511886c391d91e
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12425093/fullTextXML
+  note: body as scripts/fetch_fulltext.py rendered it
+claims:
+  outcome_2_a3:
+    quotes:
+    - exact: The GWAS data of the of mtDNA-CN genetic data were obtained from the IEU Open GWAS database,
+        which is an open access database for genome-wide association studies. mtDNA-CN has a GWAS ID of
+        ebi-a-GCST90026371, a sample size of 383,476 cases, and a number of 24,195,431 SNPs.
+  pqtl_1_a3:
+    quotes:
+    - exact: Genetic data on mitochondria-associated proteins were obtained from The IEU Open GWAS database,
+        a project that provides publicly available summary statistics on 66 mitochondria-associated proteins
+        from 3301 healthy blood donors of European ancestry in the INTERVAL study.[21] All participants
+        provided informed consent in accordance with national research ethics, and demographic characteristics
+        were extensively investigated, including age, sex, anthropometric measures such as height and
+        weight, lifestyle factors (e.g., alcohol consumption and smoking), and dietary habits.
+  outcome_2_a4:
+    quotes:
+    - exact: The GWAS data of the of mtDNA-CN genetic data were obtained from the IEU Open GWAS database,
+        which is an open access database for genome-wide association studies. mtDNA-CN has a GWAS ID of
+        ebi-a-GCST90026371, a sample size of 383,476 cases, and a number of 24,195,431 SNPs.
+  pqtl_1_a4:
+    quotes:
+    - exact: Genetic data on mitochondria-associated proteins were obtained from The IEU Open GWAS database,
+        a project that provides publicly available summary statistics on 66 mitochondria-associated proteins
+        from 3301 healthy blood donors of European ancestry in the INTERVAL study.[21] All participants
+        provided informed consent in accordance with national research ethics, and demographic characteristics
+        were extensively investigated, including age, sex, anthropometric measures such as height and
+        weight, lifestyle factors (e.g., alcohol consumption and smoking), and dietary habits.
+  outcome_2_c2:
+    quotes:
+    - exact: Genetic data on cardiomyopathies were obtained from the IEU Open GWAS database, the Finngen
+        database for 4 different cardiomyopathies (HCM, DCM, ACM, and DICM).
+  pqtl_1_c2:
+    quotes:
+    - exact: Genetic data on mitochondria-associated proteins were obtained from The IEU Open GWAS database,
+        a project that provides publicly available summary statistics on 66 mitochondria-associated proteins
+        from 3301 healthy blood donors of European ancestry in the INTERVAL study.[21] All participants
+        provided informed consent in accordance with national research ethics, and demographic characteristics
+        were extensively investigated, including age, sex, anthropometric measures such as height and
+        weight, lifestyle factors (e.g., alcohol consumption and smoking), and dietary habits.
+  outcome_2_r:
+    quotes:
+    - exact: The GWAS data of the of mtDNA-CN genetic data were obtained from the IEU Open GWAS database,
+        which is an open access database for genome-wide association studies. mtDNA-CN has a GWAS ID of
+        ebi-a-GCST90026371, a sample size of 383,476 cases, and a number of 24,195,431 SNPs.

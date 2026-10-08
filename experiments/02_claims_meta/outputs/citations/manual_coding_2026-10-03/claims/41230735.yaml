@@ -1,0 +1,33 @@
+source:
+  citation: '41230735'
+  local: sources/41230735.txt
+  sha256: 4755e9d99eff0d3df3b4e0e5eda5bb4cd126fd0349ecb83f0832c1323f65bd91
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13081771/fullTextXML
+  note: body as scripts/fetch_fulltext.py rendered it
+claims:
+  outcome_1:
+    quotes:
+    - exact: The osteoporosis fracture GWAS data (osteoporosis with pathological fracture)
+        originates from the FinnGen (r10).
+  outcome_1_a2:
+    quotes:
+    - exact: The osteoporosis fracture GWAS data (osteoporosis with pathological fracture)
+        originates from the FinnGen (r10).
+  outcome_1_a3:
+    quotes:
+    - exact: The osteoporosis fracture GWAS data (osteoporosis with pathological fracture)
+        originates from the FinnGen (r10).
+  outcome_1_a4:
+    quotes:
+    - exact: The osteoporosis fracture GWAS data (osteoporosis with pathological fracture)
+        originates from the FinnGen (r10).
+  outcome_1_c2:
+    quotes:
+    - exact: The osteoporosis fracture GWAS data (osteoporosis with pathological fracture)
+        originates from the FinnGen (r10).
+  pqtl_1_c2:
+    quotes:
+    - exact: The proteomics GWAS data used in our study were obtained from the Olink
+        platform within the Finnish database R10 (DF10).
+      suffix: The dataset consisted of 619 samples, with a total of 2925 proteins
+        quantified as of April 24, 2024.

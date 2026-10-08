@@ -1,0 +1,58 @@
+{
+ "record_id": "41626871",
+ "coder_id": "coder_3",
+ "attempt": 1,
+ "rows": [
+  {
+   "side": "outcome",
+   "name_as_written": "FinnGen",
+   "value": "FinnGen R10",
+   "unresolved_reason": null,
+   "identification_basis": "release_identifier",
+   "source_read": "full_text",
+   "passage_id": "p001",
+   "quote": "Independence was determined using the OpenGWAS Database API within the ieugwasr R package by excluding linkage disequilibrium (LD) (r2 < 0.001, clumping window > 10,000 kb).26–28 Glaucoma and subtypes (POAG and PACG) data were cross-referenced from FinnGen Release 1024 and the Million Veteran Program.29 The GWAS summary statistics for IOP metrics,30 retinal imaging biomarkers,30 gut microbiota,31 inflammatory factors,32 and lipidome,33 were obtained from the GWAS catalog.",
+   "citations_claim": "claims/41626871.yaml#outcome_1",
+   "companion_source": false,
+   "reference_label": null,
+   "reference_quote": null,
+   "reference_citations_claim": null,
+   "dataset_named_in_source": null,
+   "coder_note": "Sentence states Release 10 (printed run together with citation marker 24, the linked cohort reference)."
+  },
+  {
+   "side": "outcome",
+   "name_as_written": "Million Veteran Program",
+   "value": "source_names_dataset_absent_from_dictionary",
+   "unresolved_reason": "dataset_absent_from_dictionary",
+   "identification_basis": null,
+   "source_read": "full_text",
+   "passage_id": "p001",
+   "quote": "Independence was determined using the OpenGWAS Database API within the ieugwasr R package by excluding linkage disequilibrium (LD) (r2 < 0.001, clumping window > 10,000 kb).26–28 Glaucoma and subtypes (POAG and PACG) data were cross-referenced from FinnGen Release 1024 and the Million Veteran Program.29 The GWAS summary statistics for IOP metrics,30 retinal imaging biomarkers,30 gut microbiota,31 inflammatory factors,32 and lipidome,33 were obtained from the GWAS catalog.",
+   "citations_claim": "claims/41626871.yaml#outcome_2",
+   "companion_source": false,
+   "reference_label": null,
+   "reference_quote": null,
+   "reference_citations_claim": null,
+   "dataset_named_in_source": "Million Veteran Program",
+   "coder_note": "Sentence names the second outcome GWAS source with its own reference; the dictionary has no row for it."
+  },
+  {
+   "side": "pqtl",
+   "name_as_written": "UK Biobank Pharma Proteomics Project",
+   "value": "not_stated_in_source",
+   "unresolved_reason": "release_not_identified",
+   "identification_basis": null,
+   "source_read": null,
+   "passage_id": null,
+   "quote": null,
+   "citations_claim": null,
+   "companion_source": false,
+   "reference_label": null,
+   "reference_quote": null,
+   "reference_citations_claim": null,
+   "dataset_named_in_source": null,
+   "coder_note": "Project GWAS cited to a range of three references belonging to different dictionary rows; not exactly one row."
+  }
+ ]
+}

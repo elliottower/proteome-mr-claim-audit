@@ -1,0 +1,31 @@
+source:
+  citation: '39844246'
+  local: sources/39844246.txt
+  sha256: a8bff0faafb2e2c4f22876fcea2554a2add1357cbb862202acde5587ce6ab7c2
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11752815/fullTextXML
+  note: body as scripts/fetch_fulltext.py rendered it
+claims:
+  outcome_1:
+    quotes:
+    - exact: The EMBL-EBI (GCST90014456) dataset included 329,533 individuals of European descent, with
+        5,459 psoriasis cases and 324,074 controls [18].
+  outcome_1_a2:
+    quotes:
+    - exact: The EMBL-EBI (GCST90014456) dataset included 329,533 individuals of European descent, with
+        5,459 psoriasis cases and 324,074 controls [18].
+  outcome_1_a3:
+    quotes:
+    - exact: The EMBL-EBI (GCST90014456) dataset included 329,533 individuals of European descent, with
+        5,459 psoriasis cases and 324,074 controls [18].
+  outcome_1_a4:
+    quotes:
+    - exact: The EMBL-EBI (GCST90014456) dataset included 329,533 individuals of European descent, with
+        5,459 psoriasis cases and 324,074 controls [18].
+  outcome_1_c2:
+    quotes:
+    - exact: The EMBL-EBI (GCST90014456) dataset included 329,533 individuals of European descent, with
+        5,459 psoriasis cases and 324,074 controls [18].
+  outcome_2_c2:
+    quotes:
+    - exact: For validation, we used the data from UK Biobank, which comprised 462,933 European individuals
+        (5,314 psoriasis cases and 457,619 controls) [19].

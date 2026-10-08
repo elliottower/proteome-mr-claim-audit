@@ -1,0 +1,2342 @@
+{
+ "rows": 51,
+ "counts": {
+  "reread_value_failed_the_gate": 13,
+  "resolved_to_a_dictionary_row": 3,
+  "unresolved_conflicting_identifiers": 3,
+  "unresolved_dataset_absent_from_dictionary": 19,
+  "unresolved_release_not_identified": 26
+ },
+ "resolutions": [
+  {
+   "row": "39333727#pqtl_1",
+   "class": "disagree_first_unresolved_second_coded",
+   "first_check": {
+    "value": "not_stated_in_source",
+    "category": "release_not_identified",
+    "quote": "The research relies on data that is accessible to the public from a large-scale genome-wide association study on blood proteome (https://www.decode.com/summarydata/)12, plasma proteome analysis of European descent plasma(nilanjanchatterjeelab.org/pwas/)13 and GWAS Catalog (GWAS Catalog (ebi.ac.uk))14–16 (Supplementary Table 2).",
+    "coder_value_before_gate": "ARIC European American (Zhang 2022)"
+   },
+   "second_check": {
+    "value": "ARIC European American (Zhang 2022)",
+    "category": null,
+    "quote": "The research relies on data that is accessible to the public from a large-scale genome-wide association study on blood proteome (https://www.decode.com/summarydata/)12, plasma proteome analysis of European descent plasma(nilanjanchatterjeelab.org/pwas/)13 and GWAS Catalog (GWAS Catalog (ebi.ac.uk))14–16 (Supplementary Table 2).",
+    "quote_from_another_row": null
+   },
+   "reread": {
+    "row": "pqtl_1",
+    "resolved_value": "ARIC European American (Zhang 2022)",
+    "unresolved_reason": null,
+    "resolution_note": "Rule E: the sentence attributes the plasma proteome data to reference 13 (Zhang 2022, DOI 10.1038/s41588-022-01051-w, a source of two ARIC rows) and gives the ancestry 'European descent', which separates the European American row; the next sentences name it the ARIC study, and no passage conflicts.",
+    "identification_basis": "reference_entry",
+    "source_read": "full_text",
+    "passage_id": "p001",
+    "quote": "The research relies on data that is accessible to the public from a large-scale genome-wide association study on blood proteome (https://www.decode.com/summarydata/)12, plasma proteome analysis of European descent plasma(nilanjanchatterjeelab.org/pwas/)13 and GWAS Catalog (GWAS Catalog (ebi.ac.uk))14–16 (Supplementary Table 2).",
+    "citations_claim": "claims/39333727.yaml#pqtl_1_r",
+    "companion_source": true,
+    "reference_label": "13",
+    "reference_quote": "Zhang, J. et al. Plasma proteome analyses in individuals of European and African ancestry identify cis-pQTLs and models for proteome-wide association studies. Nat. Genet. 54 (5), 593–602 (2022).",
+    "reference_citations_claim": "claims/39333727.references.yaml#pqtl_1_r_ref",
+    "dataset_named_in_source": null
+   },
+   "gate": {
+    "side": "pqtl",
+    "name_as_written": "ARIC study",
+    "value": "ARIC European American (Zhang 2022)",
+    "passes": false,
+    "failures": [
+     "no_identifier_of_the_coded_row_in_the_pinned_material"
+    ],
+    "warnings": [],
+    "machine_basis": [],
+    "reference_verified_by": "doi"
+   },
+   "value_that_stands": "not_stated_in_source",
+   "unresolved_reason": "release_not_identified",
+   "resolution_note": "Rule E: the sentence attributes the plasma proteome data to reference 13 (Zhang 2022, DOI 10.1038/s41588-022-01051-w, a source of two ARIC rows) and gives the ancestry 'European descent', which separates the European American row; the next sentences name it the ARIC study, and no passage conflicts. [the reread's value 'ARIC European American (Zhang 2022)' failed the gate: no_identifier_of_the_coded_row_in_the_pinned_material; the row is unresolved]"
+  },
+  {
+   "row": "39935908#pqtl_1",
+   "class": "disagree_first_unresolved_second_coded",
+   "first_check": {
+    "value": "not_stated_in_source",
+    "category": "release_not_identified",
+    "quote": null,
+    "coder_value_before_gate": null
+   },
+   "second_check": {
+    "value": "UKB-PPP full cohort (combined)",
+    "category": null,
+    "quote": "There were a total of 54,219 individuals, including 46,595 randomly selected UKB participants at the baseline visit to provide base group representation, as well as a targeted complement of 6,376 participants with specific phenotypes or diseases based on the research objectives of the UKB-PPP consortium members, and 1,268 individuals who participated in COVID-19-related studies at multiple visits.16",
+    "quote_from_another_row": null
+   },
+   "reread": {
+    "row": "pqtl_1",
+    "resolved_value": "not_stated_in_source",
+    "unresolved_reason": "release_not_identified",
+    "resolution_note": "The Study Population and Proteomic Data Sources sentences describe the UKB-PPP project as a whole (54,219 participants in three subcohorts, 2,923 proteins, reference 16 with several dictionary rows); 54,219 is no row's sample size and no sentence says which pQTL GWAS (discovery, replication or combined) supplied the summary data, so the description is of the cohort and not of one release.",
+    "identification_basis": null,
+    "source_read": null,
+    "passage_id": null,
+    "quote": null,
+    "citations_claim": null,
+    "companion_source": false,
+    "reference_label": null,
+    "reference_quote": null,
+    "reference_citations_claim": null,
+    "dataset_named_in_source": null
+   },
+   "gate": {
+    "side": "pqtl",
+    "name_as_written": "UK Biobank- Pharma Proteomics Project (UKB-PPP)",
+    "value": "not_stated_in_source",
+    "passes": true,
+    "failures": [],
+    "warnings": [],
+    "machine_basis": [],
+    "reference_verified_by": null
+   },
+   "value_that_stands": "not_stated_in_source",
+   "unresolved_reason": "release_not_identified",
+   "resolution_note": "The Study Population and Proteomic Data Sources sentences describe the UKB-PPP project as a whole (54,219 participants in three subcohorts, 2,923 proteins, reference 16 with several dictionary rows); 54,219 is no row's sample size and no sentence says which pQTL GWAS (discovery, replication or combined) supplied the summary data, so the description is of the cohort and not of one release."
+  },
+  {
+   "row": "40052860#outcome_2",
+   "class": "disagree_first_unresolved_second_coded",
+   "first_check": {
+    "value": "not_stated_in_source",
+    "category": "release_not_identified",
+    "quote": "We used protein QTL (pQTL) in the deCODE and UK Biobank Pharma Proteomics Project (UKB-PPP) cohort for discovery study and then the cohort of Atherosclerosis Risk in Communities (ARIC) study for replication validation.11–13 In addition, we used cis-expression QTL(eQTL) summary statistics from the eQTLGen Consortium.14 We used microbiota quantitative trait loci (mbQTL) of genus Senegalimassilia from the MiBioGen consortium.15,16 We obtained GWAS summary statistics about XFG, POAG, ARC, and other cataracts from the DF9 release of the FinnGen Study.17 More details are described in the Supplementary Methods.",
+    "coder_value_before_gate": "FinnGen R9"
+   },
+   "second_check": {
+    "value": "FinnGen R9",
+    "category": null,
+    "quote": "We used protein QTL (pQTL) in the deCODE and UK Biobank Pharma Proteomics Project (UKB-PPP) cohort for discovery study and then the cohort of Atherosclerosis Risk in Communities (ARIC) study for replication validation.11–13 In addition, we used cis-expression QTL(eQTL) summary statistics from the eQTLGen Consortium.14 We used microbiota quantitative trait loci (mbQTL) of genus Senegalimassilia from the MiBioGen consortium.15,16 We obtained GWAS summary statistics about XFG, POAG, ARC, and other cataracts from the DF9 release of the FinnGen Study.17 More details are described in the Supplementary Methods.",
+    "quote_from_another_row": null
+   },
+   "reread": {
+    "row": "outcome_2",
+    "resolved_value": "FinnGen R9",
+    "unresolved_reason": null,
+    "resolution_note": "Rule A: the Data Source sentence gives 'the DF9 release of the FinnGen Study' for the outcome GWAS summary statistics, a numbered data freeze modifying the dataset name; the MR-PheWAS passage also writes 'FinnGen cohort (R9)', and nothing conflicts.",
+    "identification_basis": "release_identifier",
+    "source_read": "full_text",
+    "passage_id": "p001",
+    "quote": "We used protein QTL (pQTL) in the deCODE and UK Biobank Pharma Proteomics Project (UKB-PPP) cohort for discovery study and then the cohort of Atherosclerosis Risk in Communities (ARIC) study for replication validation.11–13 In addition, we used cis-expression QTL(eQTL) summary statistics from the eQTLGen Consortium.14 We used microbiota quantitative trait loci (mbQTL) of genus Senegalimassilia from the MiBioGen consortium.15,16 We obtained GWAS summary statistics about XFG, POAG, ARC, and other cataracts from the DF9 release of the FinnGen Study.17 More details are described in the Supplementary Methods.",
+    "citations_claim": "claims/40052860.yaml#outcome_2_r",
+    "companion_source": false,
+    "reference_label": null,
+    "reference_quote": null,
+    "reference_citations_claim": null,
+    "dataset_named_in_source": null
+   },
+   "gate": {
+    "side": "outcome",
+    "name_as_written": "FinnGen",
+    "value": "FinnGen R9",
+    "passes": false,
+    "failures": [
+     "no_identifier_of_the_coded_row_in_the_pinned_material"
+    ],
+    "warnings": [],
+    "machine_basis": [],
+    "reference_verified_by": null
+   },
+   "value_that_stands": "not_stated_in_source",
+   "unresolved_reason": "release_not_identified",
+   "resolution_note": "Rule A: the Data Source sentence gives 'the DF9 release of the FinnGen Study' for the outcome GWAS summary statistics, a numbered data freeze modifying the dataset name; the MR-PheWAS passage also writes 'FinnGen cohort (R9)', and nothing conflicts. [the reread's value 'FinnGen R9' failed the gate: no_identifier_of_the_coded_row_in_the_pinned_material; the row is unresolved]"
+  },
+  {
+   "row": "40052860#pqtl_4",
+   "class": "disagree_first_unresolved_second_coded",
+   "first_check": {
+    "value": "not_stated_in_source",
+    "category": "release_not_identified",
+    "quote": null,
+    "coder_value_before_gate": null
+   },
+   "second_check": {
+    "value": "deCODE SomaScan v4 (Ferkingstad 2021)",
+    "category": null,
+    "quote": "We used protein QTL (pQTL) in the deCODE and UK Biobank Pharma Proteomics Project (UKB-PPP) cohort for discovery study and then the cohort of Atherosclerosis Risk in Communities (ARIC) study for replication validation.11–13 In addition, we used cis-expression QTL(eQTL) summary statistics from the eQTLGen Consortium.14 We used microbiota quantitative trait loci (mbQTL) of genus Senegalimassilia from the MiBioGen consortium.15,16 We obtained GWAS summary statistics about XFG, POAG, ARC, and other cataracts from the DF9 release of the FinnGen Study.17 More details are described in the Supplementary Methods.",
+    "quote_from_another_row": null
+   },
+   "reread": {
+    "row": "pqtl_4",
+    "resolved_value": "not_stated_in_source",
+    "unresolved_reason": "release_not_identified",
+    "resolution_note": "Rule F: the only citation is one grouped range '11–13' placed after three cohorts (deCODE, UKB-PPP, ARIC); the wording does not say which entry belongs to deCODE and entry 12 is not among the linked entries, so the mapping is not explicit; the other passages give the name 'deCODE cohort' alone (rule D).",
+    "identification_basis": null,
+    "source_read": null,
+    "passage_id": null,
+    "quote": null,
+    "citations_claim": null,
+    "companion_source": false,
+    "reference_label": null,
+    "reference_quote": null,
+    "reference_citations_claim": null,
+    "dataset_named_in_source": null
+   },
+   "gate": {
+    "side": "pqtl",
+    "name_as_written": "deCODE",
+    "value": "not_stated_in_source",
+    "passes": true,
+    "failures": [],
+    "warnings": [],
+    "machine_basis": [],
+    "reference_verified_by": null
+   },
+   "value_that_stands": "not_stated_in_source",
+   "unresolved_reason": "release_not_identified",
+   "resolution_note": "Rule F: the only citation is one grouped range '11–13' placed after three cohorts (deCODE, UKB-PPP, ARIC); the wording does not say which entry belongs to deCODE and entry 12 is not among the linked entries, so the mapping is not explicit; the other passages give the name 'deCODE cohort' alone (rule D)."
+  },
+  {
+   "row": "40441254#outcome_2",
+   "class": "both_unresolved_different_value",
+   "first_check": {
+    "value": "source_names_dataset_absent_from_dictionary",
+    "category": "dataset_absent_from_dictionary",
+    "quote": "The GWAS data of the of mtDNA-CN genetic data were obtained from the IEU Open GWAS database, which is an open access database for genome-wide association studies. mtDNA-CN has a GWAS ID of ebi-a-GCST90026371, a sample size of 383,476 cases, and a number of 24,195,431 SNPs.",
+    "coder_value_before_gate": null
+   },
+   "second_check": {
+    "value": "not_stated_in_source",
+    "category": "release_not_identified",
+    "quote": "Genetic data on cardiomyopathies were obtained from the IEU Open GWAS database, the Finngen database for 4 different cardiomyopathies (HCM, DCM, ACM, and DICM).",
+    "quote_from_another_row": null
+   },
+   "reread": {
+    "row": "outcome_2",
+    "resolved_value": "source_names_dataset_absent_from_dictionary",
+    "unresolved_reason": "dataset_absent_from_dictionary",
+    "resolution_note": "Rules B and C2, decision step 3: the repository name is followed in a passage of this row by the accession ebi-a-GCST90026371, which no dictionary row lists by identifier, prefix or range; the cardiomyopathy sentence gives the repository name alone and names no other release, so nothing conflicts. The accession is that of the mtDNA-CN GWAS, which the abstract's bidirectional design places on both sides; the cardiomyopathy data from the same repository carry no accession.",
+    "identification_basis": "source_identifier",
+    "source_read": "full_text",
+    "passage_id": "p001",
+    "quote": "The GWAS data of the of mtDNA-CN genetic data were obtained from the IEU Open GWAS database, which is an open access database for genome-wide association studies. mtDNA-CN has a GWAS ID of ebi-a-GCST90026371, a sample size of 383,476 cases, and a number of 24,195,431 SNPs.",
+    "citations_claim": "claims/40441254.yaml#outcome_2_r",
+    "companion_source": false,
+    "reference_label": null,
+    "reference_quote": null,
+    "reference_citations_claim": null,
+    "dataset_named_in_source": "ebi-a-GCST90026371"
+   },
+   "gate": {
+    "side": "outcome",
+    "name_as_written": "IEU Open GWAS",
+    "value": "source_names_dataset_absent_from_dictionary",
+    "passes": true,
+    "failures": [],
+    "warnings": [],
+    "machine_basis": [],
+    "reference_verified_by": null
+   },
+   "value_that_stands": "source_names_dataset_absent_from_dictionary",
+   "unresolved_reason": "dataset_absent_from_dictionary",
+   "resolution_note": "Rules B and C2, decision step 3: the repository name is followed in a passage of this row by the accession ebi-a-GCST90026371, which no dictionary row lists by identifier, prefix or range; the cardiomyopathy sentence gives the repository name alone and names no other release, so nothing conflicts. The accession is that of the mtDNA-CN GWAS, which the abstract's bidirectional design places on both sides; the cardiomyopathy data from the same repository carry no accession."
+  },
+  {
+   "row": "40564116#outcome_1",
+   "class": "disagree_first_unresolved_second_coded",
+   "first_check": {
+    "value": "not_stated_in_source",
+    "category": "release_not_identified",
+    "quote": "We replicated the results of the primary analysis in two independent datasets: Biobank Japan (BBJ) [53] (2117 cases and 174,345 controls) and J-Kidney-Biobank (JKB) [54] (382 cases of CKD in the J-Kidney-Biobank and 3471 controls participating in the TMM Comm-Cohort Study (JKB-ToMMo)).",
+    "coder_value_before_gate": "Sakaue 2021 BBJ (220 traits)"
+   },
+   "second_check": {
+    "value": "Sakaue 2021 BBJ (220 traits)",
+    "category": null,
+    "quote": "We replicated the results of the primary analysis in two independent datasets: Biobank Japan (BBJ) [53] (2117 cases and 174,345 controls) and J-Kidney-Biobank (JKB) [54] (382 cases of CKD in the J-Kidney-Biobank and 3471 controls participating in the TMM Comm-Cohort Study (JKB-ToMMo)).",
+    "quote_from_another_row": null
+   },
+   "reread": {
+    "row": "outcome_1",
+    "resolved_value": "Sakaue 2021 BBJ (220 traits)",
+    "unresolved_reason": null,
+    "resolution_note": "Rule E: the sentence attributes the replication dataset to reference 53 (Sakaue 2021, DOI 10.1038/s41588-021-00931-x, the source of three dictionary rows) and names it Biobank Japan (BBJ) alone with its own case and control counts, which separates the BioBank Japan-only row from the European and cross-population rows; the BUN and eGFR meta-analysis of BBJ with the Taiwan Biobank is a different dataset attributed to reference 55 and is not a conflict.",
+    "identification_basis": "reference_entry",
+    "source_read": "full_text",
+    "passage_id": "p002",
+    "quote": "We replicated the results of the primary analysis in two independent datasets: Biobank Japan (BBJ) [53] (2117 cases and 174,345 controls) and J-Kidney-Biobank (JKB) [54] (382 cases of CKD in the J-Kidney-Biobank and 3471 controls participating in the TMM Comm-Cohort Study (JKB-ToMMo)).",
+    "citations_claim": "claims/40564116.yaml#outcome_1_r",
+    "companion_source": true,
+    "reference_label": "53",
+    "reference_quote": "Sakaue S. Kanai M. Tanigawa Y. Karjalainen J. Kurki M. Koshiba S. Narita A. Konuma T. Yamamoto K. Akiyama M. A Cross-Population Atlas of Genetic Associations for 220 Human Phenotypes Nat. Genet. 2021 53 1415 1424 10.1038/s41588-021-00931-x 34594039 PMC12208603",
+    "reference_citations_claim": "claims/40564116.references.yaml#outcome_1_r_ref",
+    "dataset_named_in_source": null
+   },
+   "gate": {
+    "side": "outcome",
+    "name_as_written": "Biobank of Japan (BBJ)",
+    "value": "Sakaue 2021 BBJ (220 traits)",
+    "passes": false,
+    "failures": [
+     "no_identifier_of_the_coded_row_in_the_pinned_material"
+    ],
+    "warnings": [],
+    "machine_basis": [],
+    "reference_verified_by": "doi"
+   },
+   "value_that_stands": "not_stated_in_source",
+   "unresolved_reason": "release_not_identified",
+   "resolution_note": "Rule E: the sentence attributes the replication dataset to reference 53 (Sakaue 2021, DOI 10.1038/s41588-021-00931-x, the source of three dictionary rows) and names it Biobank Japan (BBJ) alone with its own case and control counts, which separates the BioBank Japan-only row from the European and cross-population rows; the BUN and eGFR meta-analysis of BBJ with the Taiwan Biobank is a different dataset attributed to reference 55 and is not a conflict. [the reread's value 'Sakaue 2021 BBJ (220 traits)' failed the gate: no_identifier_of_the_coded_row_in_the_pinned_material; the row is unresolved]"
+  },
+  {
+   "row": "41222800#pqtl_1",
+   "class": "disagree_first_unresolved_second_coded",
+   "first_check": {
+    "value": "not_stated_in_source",
+    "category": "release_not_identified",
+    "quote": "Fenland, a proteome-wide proteome association study of 10,708 participants of European ancestry, used the SomaScan v4 assay with 4979 single-stranded oligonucleotides (aptamers) targeting 4775 unique proteins [13].",
+    "coder_value_before_gate": "Fenland SomaScan v4 (Pietzner 2021)"
+   },
+   "second_check": {
+    "value": "Fenland SomaScan v4 (Pietzner 2021)",
+    "category": null,
+    "quote": "Fenland, a proteome-wide proteome association study of 10,708 participants of European ancestry, used the SomaScan v4 assay with 4979 single-stranded oligonucleotides (aptamers) targeting 4775 unique proteins [13].",
+    "quote_from_another_row": null
+   },
+   "reread": {
+    "row": "pqtl_1",
+    "resolved_value": "Fenland SomaScan v4 (Pietzner 2021)",
+    "unresolved_reason": null,
+    "resolution_note": "The sentence attributes the Fenland dataset to reference 13 (Pietzner 2021, DOI 10.1126/science.abj1541), the source of exactly one dictionary row; its 10,708 participants, SomaScan v4, 4979 aptamers and 4775 proteins agree with that row, and no passage conflicts.",
+    "identification_basis": "reference_entry",
+    "source_read": "full_text",
+    "passage_id": "p001",
+    "quote": "Fenland, a proteome-wide proteome association study of 10,708 participants of European ancestry, used the SomaScan v4 assay with 4979 single-stranded oligonucleotides (aptamers) targeting 4775 unique proteins [13].",
+    "citations_claim": "claims/41222800.yaml#pqtl_1_r",
+    "companion_source": true,
+    "reference_label": "13",
+    "reference_quote": "Pietzner M, Wheeler E, Carrasco-Zanini J, Cortes A, Koprulu M, Wörheide MA et al. Mapping the proteo-genomic convergence of human diseases. Sci (New York NY).374(6569):eabj1541.",
+    "reference_citations_claim": "claims/41222800.references.yaml#pqtl_1_r_ref",
+    "dataset_named_in_source": null
+   },
+   "gate": {
+    "side": "pqtl",
+    "name_as_written": "Fenland",
+    "value": "Fenland SomaScan v4 (Pietzner 2021)",
+    "passes": false,
+    "failures": [
+     "no_identifier_of_the_coded_row_in_the_pinned_material"
+    ],
+    "warnings": [],
+    "machine_basis": [],
+    "reference_verified_by": "doi"
+   },
+   "value_that_stands": "not_stated_in_source",
+   "unresolved_reason": "release_not_identified",
+   "resolution_note": "The sentence attributes the Fenland dataset to reference 13 (Pietzner 2021, DOI 10.1126/science.abj1541), the source of exactly one dictionary row; its 10,708 participants, SomaScan v4, 4979 aptamers and 4775 proteins agree with that row, and no passage conflicts. [the reread's value 'Fenland SomaScan v4 (Pietzner 2021)' failed the gate: no_identifier_of_the_coded_row_in_the_pinned_material; the row is unresolved]"
+  },
+  {
+   "row": "41230735#pqtl_1",
+   "class": "both_unresolved_different_value",
+   "first_check": {
+    "value": "not_stated_in_source",
+    "category": "release_not_identified",
+    "quote": null,
+    "coder_value_before_gate": null
+   },
+   "second_check": {
+    "value": "source_names_dataset_absent_from_dictionary",
+    "category": "dataset_absent_from_dictionary",
+    "quote": "The proteomics GWAS data used in our study were obtained from the Olink platform within the Finnish database R10 (DF10).",
+    "quote_from_another_row": "41230735#outcome_1"
+   },
+   "reread": {
+    "row": "pqtl_1",
+    "resolved_value": "not_stated_in_source",
+    "unresolved_reason": "release_not_identified",
+    "resolution_note": "Rule C2: the row's only passage (abstract) gives the repository name 'NHGRI-EBI Catalog' alone, with no accession or citation; the sentence on Olink proteomics within the Finnish database R10 belongs to another row and does not refer to the NHGRI-EBI Catalog, so rule I2 does not allow its use here.",
+    "identification_basis": null,
+    "source_read": null,
+    "passage_id": null,
+    "quote": null,
+    "citations_claim": null,
+    "companion_source": false,
+    "reference_label": null,
+    "reference_quote": null,
+    "reference_citations_claim": null,
+    "dataset_named_in_source": null
+   },
+   "gate": {
+    "side": "pqtl",
+    "name_as_written": "NHGRI-EBI Catalog",
+    "value": "not_stated_in_source",
+    "passes": true,
+    "failures": [],
+    "warnings": [],
+    "machine_basis": [],
+    "reference_verified_by": null
+   },
+   "value_that_stands": "not_stated_in_source",
+   "unresolved_reason": "release_not_identified",
+   "resolution_note": "Rule C2: the row's only passage (abstract) gives the repository name 'NHGRI-EBI Catalog' alone, with no accession or citation; the sentence on Olink proteomics within the Finnish database R10 belongs to another row and does not refer to the NHGRI-EBI Catalog, so rule I2 does not allow its use here."
+  },
+  {
+   "row": "41711838#pqtl_1",
+   "class": "disagree_first_unresolved_second_coded",
+   "first_check": {
+    "value": "not_stated_in_source",
+    "category": "release_not_identified",
+    "quote": null,
+    "coder_value_before_gate": null
+   },
+   "second_check": {
+    "value": "deCODE SomaScan v4 (Ferkingstad 2021)",
+    "category": null,
+    "quote": "The plasma protein data used in this study were derived from Ferkingstad et al.'s research (n = 35,559), and OSA-related data were obtained from genome-wide association studies (GWAS) conducted on European populations through Finland's biobank (FinnGen).",
+    "quote_from_another_row": null
+   },
+   "reread": {
+    "row": "pqtl_1",
+    "resolved_value": "deCODE SomaScan v4 (Ferkingstad 2021)",
+    "unresolved_reason": null,
+    "resolution_note": "The sentence attributes the plasma protein data to 'Ferkingstad et al.'s research' with n = 35,559: the named source study and the exact sample size together match exactly one pQTL dictionary row, and the preceding sentence's 4,907 plasma proteins agrees with it; nothing conflicts. The abstract has no reference list, so the row rests on the sentence itself and is not a companion-source code.",
+    "identification_basis": "unique_citation",
+    "source_read": "abstract",
+    "passage_id": "p001",
+    "quote": "The plasma protein data used in this study were derived from Ferkingstad et al.'s research (n = 35,559), and OSA-related data were obtained from genome-wide association studies (GWAS) conducted on European populations through Finland's biobank (FinnGen).",
+    "citations_claim": "claims/41711838.yaml#pqtl_1_r",
+    "companion_source": false,
+    "reference_label": null,
+    "reference_quote": null,
+    "reference_citations_claim": null,
+    "dataset_named_in_source": null
+   },
+   "gate": {
+    "side": "pqtl",
+    "name_as_written": "Ferkingstad et al.'s research",
+    "value": "deCODE SomaScan v4 (Ferkingstad 2021)",
+    "passes": false,
+    "failures": [
+     "no_identifier_of_the_coded_row_in_the_pinned_material"
+    ],
+    "warnings": [],
+    "machine_basis": [],
+    "reference_verified_by": null
+   },
+   "value_that_stands": "not_stated_in_source",
+   "unresolved_reason": "release_not_identified",
+   "resolution_note": "The sentence attributes the plasma protein data to 'Ferkingstad et al.'s research' with n = 35,559: the named source study and the exact sample size together match exactly one pQTL dictionary row, and the preceding sentence's 4,907 plasma proteins agrees with it; nothing conflicts. The abstract has no reference list, so the row rests on the sentence itself and is not a companion-source code. [the reread's value 'deCODE SomaScan v4 (Ferkingstad 2021)' failed the gate: no_identifier_of_the_coded_row_in_the_pinned_material; the row is unresolved]"
+  },
+  {
+   "row": "42365225#outcome_3",
+   "class": "disagree_first_unresolved_second_coded",
+   "first_check": {
+    "value": "not_stated_in_source",
+    "category": "release_not_identified",
+    "quote": "Outcome data for RP were obtained from the MRC IEU OpenGWAS database (Elsworth et al. 2020), and the following three independent GWAS datasets were utilized: ebi-a-GCST90018912 (121 cases and 126,333 controls), ebi-a-GCST90013904, and ebi-a-GCST90013954 (each with 403,833 total samples).",
+    "coder_value_before_gate": "Sakaue 2021 BBJ (220 traits)"
+   },
+   "second_check": {
+    "value": "Sakaue 2021 BBJ (220 traits)",
+    "category": null,
+    "quote": "Outcome data for RP were obtained from the MRC IEU OpenGWAS database (Elsworth et al. 2020), and the following three independent GWAS datasets were utilized: ebi-a-GCST90018912 (121 cases and 126,333 controls), ebi-a-GCST90013904, and ebi-a-GCST90013954 (each with 403,833 total samples).",
+    "quote_from_another_row": null
+   },
+   "reread": {
+    "row": "outcome_3",
+    "resolved_value": "Sakaue 2021 BBJ (220 traits)",
+    "unresolved_reason": null,
+    "resolution_note": "Rule C4, first case: the accession ebi-a-GCST90018912 lies inside the GWAS Catalog range GCST90018563-GCST90019002 that this dictionary row and no other lists; the sentence states no ancestry, and its 121 cases and 126,333 controls (126,454) are within the row's 'up to 178,726', so nothing conflicts. The table row lines repeat the same accession only.",
+    "identification_basis": "source_identifier",
+    "source_read": "full_text",
+    "passage_id": "p001",
+    "quote": "Outcome data for RP were obtained from the MRC IEU OpenGWAS database (Elsworth et al. 2020), and the following three independent GWAS datasets were utilized: ebi-a-GCST90018912 (121 cases and 126,333 controls), ebi-a-GCST90013904, and ebi-a-GCST90013954 (each with 403,833 total samples).",
+    "citations_claim": "claims/42365225.yaml#outcome_3_r",
+    "companion_source": false,
+    "reference_label": null,
+    "reference_quote": null,
+    "reference_citations_claim": null,
+    "dataset_named_in_source": null
+   },
+   "gate": {
+    "side": "outcome",
+    "name_as_written": "ebi-a-GCST90018912",
+    "value": "Sakaue 2021 BBJ (220 traits)",
+    "passes": false,
+    "failures": [
+     "no_identifier_of_the_coded_row_in_the_pinned_material"
+    ],
+    "warnings": [],
+    "machine_basis": [],
+    "reference_verified_by": null
+   },
+   "value_that_stands": "not_stated_in_source",
+   "unresolved_reason": "release_not_identified",
+   "resolution_note": "Rule C4, first case: the accession ebi-a-GCST90018912 lies inside the GWAS Catalog range GCST90018563-GCST90019002 that this dictionary row and no other lists; the sentence states no ancestry, and its 121 cases and 126,333 controls (126,454) are within the row's 'up to 178,726', so nothing conflicts. The table row lines repeat the same accession only. [the reread's value 'Sakaue 2021 BBJ (220 traits)' failed the gate: no_identifier_of_the_coded_row_in_the_pinned_material; the row is unresolved]"
+  },
+  {
+   "row": "42798608#outcome_2",
+   "class": "disagree_first_coded_second_unresolved",
+   "first_check": {
+    "value": "Neale lab UK Biobank GWAS round 2",
+    "category": null,
+    "quote": "[Table 1. GWAS cohorts for outcomes in Mendelian randomization analysis.] Outcome (ICD10): Lymphoma(C81, C82, C83, C84, C85, C86) | Sample size: 361,194 (1,752/359,442) | SNPs: 10,226,672 | Consortium: UK Biobank | Ancestry: European | Author: Neale lab | Year: 2018",
+    "coder_value_before_gate": null
+   },
+   "second_check": {
+    "value": "not_stated_in_source",
+    "category": "conflicting_identifiers",
+    "quote": "Five accessible GWAS cohorts, including two cohorts of lymphoid leukemia (21, 64)and three cohorts of lymphoma (21, 65), were used as outcomes.",
+    "quote_from_another_row": null
+   },
+   "reread": {
+    "row": "outcome_2",
+    "resolved_value": "Neale lab UK Biobank GWAS round 2",
+    "unresolved_reason": null,
+    "resolution_note": "The Table 1 lymphoma row line gives sample size 361,194 with author Neale lab, year 2018, European ancestry and consortium UK Biobank: the exact release N with its year matches exactly one dictionary row. The other UK Biobank row line of Table 1 (lymphoid leukemia, 372,776, Burrows 2021) is a second outcome GWAS whose N equals no dictionary row's, so under rule H it identifies no other release and is not a conflict; the remaining passages use UK Biobank for individual-level validation and name no release.",
+    "identification_basis": "exact_n_with_platform_or_year",
+    "source_read": "full_text",
+    "passage_id": "p006",
+    "quote": "[Table 1. GWAS cohorts for outcomes in Mendelian randomization analysis.] Outcome (ICD10): Lymphoma(C81, C82, C83, C84, C85, C86) | Sample size: 361,194 (1,752/359,442) | SNPs: 10,226,672 | Consortium: UK Biobank | Ancestry: European | Author: Neale lab | Year: 2018",
+    "citations_claim": "claims/42798608.yaml#outcome_2_r",
+    "companion_source": false,
+    "reference_label": null,
+    "reference_quote": null,
+    "reference_citations_claim": null,
+    "dataset_named_in_source": null
+   },
+   "gate": {
+    "side": "outcome",
+    "name_as_written": "UK Biobank",
+    "value": "Neale lab UK Biobank GWAS round 2",
+    "passes": true,
+    "failures": [],
+    "warnings": [
+     "value_outside_the_candidate_set"
+    ],
+    "machine_basis": [
+     "sample_size:361194+2018"
+    ],
+    "reference_verified_by": null
+   },
+   "value_that_stands": "Neale lab UK Biobank GWAS round 2",
+   "unresolved_reason": null,
+   "resolution_note": "The Table 1 lymphoma row line gives sample size 361,194 with author Neale lab, year 2018, European ancestry and consortium UK Biobank: the exact release N with its year matches exactly one dictionary row. The other UK Biobank row line of Table 1 (lymphoid leukemia, 372,776, Burrows 2021) is a second outcome GWAS whose N equals no dictionary row's, so under rule H it identifies no other release and is not a conflict; the remaining passages use UK Biobank for individual-level validation and name no release."
+  },
+  {
+   "row": "PPR508031#pqtl_1",
+   "class": "both_unresolved_different_value",
+   "first_check": {
+    "value": "not_stated_in_source",
+    "category": "release_not_identified",
+    "quote": null,
+    "coder_value_before_gate": null
+   },
+   "second_check": {
+    "value": "source_names_dataset_absent_from_dictionary",
+    "category": "dataset_absent_from_dictionary",
+    "quote": "Here, we describe results from the first phase of UKB-PPP, including protein quantitative trait loci (pQTL) mapping of 1,463 proteins that identifies 10,248 primary genetic associations, of which 85% are newly discovered.",
+    "quote_from_another_row": null
+   },
+   "reread": {
+    "row": "pqtl_1",
+    "resolved_value": "source_names_dataset_absent_from_dictionary",
+    "unresolved_reason": "dataset_absent_from_dictionary",
+    "resolution_note": "Rule C, decision step 3: the sentence defines the authors' own analysis as the first phase of UKB-PPP, a pQTL mapping of 1,463 proteins; every UKB-PPP dictionary row is the 2,923-protein Olink Explore 3072 release, and the 54,306 participants of the preceding sentence equal no row's sample size, so the dataset is named and no dictionary row is that release.",
+    "identification_basis": "release_identifier",
+    "source_read": "abstract",
+    "passage_id": "p001",
+    "quote": "Here, we describe results from the first phase of UKB-PPP, including protein quantitative trait loci (pQTL) mapping of 1,463 proteins that identifies 10,248 primary genetic associations, of which 85% are newly discovered.",
+    "citations_claim": "claims/PPR508031.yaml#pqtl_1_r",
+    "companion_source": false,
+    "reference_label": null,
+    "reference_quote": null,
+    "reference_citations_claim": null,
+    "dataset_named_in_source": "the first phase of UKB-PPP"
+   },
+   "gate": {
+    "side": "pqtl",
+    "name_as_written": "UKB-PPP",
+    "value": "source_names_dataset_absent_from_dictionary",
+    "passes": true,
+    "failures": [],
+    "warnings": [],
+    "machine_basis": [],
+    "reference_verified_by": null
+   },
+   "value_that_stands": "source_names_dataset_absent_from_dictionary",
+   "unresolved_reason": "dataset_absent_from_dictionary",
+   "resolution_note": "Rule C, decision step 3: the sentence defines the authors' own analysis as the first phase of UKB-PPP, a pQTL mapping of 1,463 proteins; every UKB-PPP dictionary row is the 2,923-protein Olink Explore 3072 release, and the 54,306 participants of the preceding sentence equal no row's sample size, so the dataset is named and no dictionary row is that release."
+  },
+  {
+   "row": "PPR796917#pqtl_1",
+   "class": "disagree_first_unresolved_second_coded",
+   "first_check": {
+    "value": "not_stated_in_source",
+    "category": "release_not_identified",
+    "quote": null,
+    "coder_value_before_gate": null
+   },
+   "second_check": {
+    "value": "deCODE SomaScan v4 (Ferkingstad 2021)",
+    "category": null,
+    "quote": "Methods We collected the protein quantitative trait locus (pQTL) data of 4,907 circulating proteins from the DeCODE study (n = 35,559) as exposures.",
+    "quote_from_another_row": null
+   },
+   "reread": {
+    "row": "pqtl_1",
+    "resolved_value": "not_stated_in_source",
+    "unresolved_reason": "release_not_identified",
+    "resolution_note": "Rule I1: the only sentence gives the cohort name 'DeCODE study' with two counts (4,907 circulating proteins, n = 35,559) and no platform or panel name, analysis year, citation or accession; exact counts with a cohort name alone do not identify a release, and the abstract has no reference list.",
+    "identification_basis": null,
+    "source_read": null,
+    "passage_id": null,
+    "quote": null,
+    "citations_claim": null,
+    "companion_source": false,
+    "reference_label": null,
+    "reference_quote": null,
+    "reference_citations_claim": null,
+    "dataset_named_in_source": null
+   },
+   "gate": {
+    "side": "pqtl",
+    "name_as_written": "DeCODE",
+    "value": "not_stated_in_source",
+    "passes": true,
+    "failures": [],
+    "warnings": [],
+    "machine_basis": [],
+    "reference_verified_by": null
+   },
+   "value_that_stands": "not_stated_in_source",
+   "unresolved_reason": "release_not_identified",
+   "resolution_note": "Rule I1: the only sentence gives the cohort name 'DeCODE study' with two counts (4,907 circulating proteins, n = 35,559) and no platform or panel name, analysis year, citation or accession; exact counts with a cohort name alone do not identify a release, and the abstract has no reference list."
+  },
+  {
+   "row": "W4411291538#pqtl_2",
+   "class": "both_unresolved_different_value",
+   "first_check": {
+    "value": "source_names_dataset_absent_from_dictionary",
+    "category": "dataset_absent_from_dictionary",
+    "quote": "Methods: We identified diabetes associated proteins in observational designs in UK Biobank (UKB).",
+    "coder_value_before_gate": null
+   },
+   "second_check": {
+    "value": "not_stated_in_source",
+    "category": "release_not_identified",
+    "quote": "Methods: We identified diabetes associated proteins in observational designs in UK Biobank (UKB).",
+    "quote_from_another_row": null
+   },
+   "reread": {
+    "row": "pqtl_2",
+    "resolved_value": "not_stated_in_source",
+    "unresolved_reason": "release_not_identified",
+    "resolution_note": "Abstract only. p001 sentence 2 names UK Biobank (UKB) for an observational step with no phenotype definition, application number, measurement platform, count, accession or citation, and no sentence of p001 or p002 says which data the Mendelian randomization instruments came from; the pqtl side has several UK Biobank rows and a biobank name alone identifies none of them (rule D, decision step 4), and the sentence does not define an own analysis under rule C.",
+    "identification_basis": null,
+    "source_read": null,
+    "passage_id": null,
+    "quote": null,
+    "citations_claim": null,
+    "companion_source": false,
+    "reference_label": null,
+    "reference_quote": null,
+    "reference_citations_claim": null,
+    "dataset_named_in_source": null
+   },
+   "gate": {
+    "side": "pqtl",
+    "name_as_written": "UK Biobank (UKB)",
+    "value": "not_stated_in_source",
+    "passes": true,
+    "failures": [],
+    "warnings": [],
+    "machine_basis": [],
+    "reference_verified_by": null
+   },
+   "value_that_stands": "not_stated_in_source",
+   "unresolved_reason": "release_not_identified",
+   "resolution_note": "Abstract only. p001 sentence 2 names UK Biobank (UKB) for an observational step with no phenotype definition, application number, measurement platform, count, accession or citation, and no sentence of p001 or p002 says which data the Mendelian randomization instruments came from; the pqtl side has several UK Biobank rows and a biobank name alone identifies none of them (rule D, decision step 4), and the sentence does not define an own analysis under rule C."
+  },
+  {
+   "row": "W4416295106#pqtl_2",
+   "class": "disagree_first_unresolved_second_coded",
+   "first_check": {
+    "value": "not_stated_in_source",
+    "category": "release_not_identified",
+    "quote": null,
+    "coder_value_before_gate": null
+   },
+   "second_check": {
+    "value": "deCODE SomaScan v4 (Ferkingstad 2021)",
+    "category": null,
+    "quote": "Subsequently, MR and colocalization analyses were performed using genetic instruments for 4907 plasma proteins from deCODE Genetics (N=35,559) and 2940 plasma proteins from UK Biobank Pharma Proteomics Project (UKB-PPP) (N=54,219).",
+    "quote_from_another_row": null
+   },
+   "reread": {
+    "row": "pqtl_2",
+    "resolved_value": "deCODE SomaScan v4 (Ferkingstad 2021)",
+    "unresolved_reason": null,
+    "resolution_note": "p001 sentence 2 states that the genetic instruments used in the MR came from deCODE Genetics with N=35,559 for 4907 plasma proteins; the exact N 35,559 with the 4,907-assay panel matches the Ferkingstad 2021 row only (the other deCODE pqtl row has 35,892), the sentence describes the analysis dataset, and nothing in the passage conflicts.",
+    "identification_basis": "exact_n_with_platform_or_year",
+    "source_read": "abstract",
+    "passage_id": "p001",
+    "quote": "Subsequently, MR and colocalization analyses were performed using genetic instruments for 4907 plasma proteins from deCODE Genetics (N=35,559) and 2940 plasma proteins from UK Biobank Pharma Proteomics Project (UKB-PPP) (N=54,219).",
+    "citations_claim": "claims/W4416295106.yaml#pqtl_2_r",
+    "companion_source": false,
+    "reference_label": null,
+    "reference_quote": null,
+    "reference_citations_claim": null,
+    "dataset_named_in_source": null
+   },
+   "gate": {
+    "side": "pqtl",
+    "name_as_written": "deCODE Genetics",
+    "value": "deCODE SomaScan v4 (Ferkingstad 2021)",
+    "passes": true,
+    "failures": [],
+    "warnings": [],
+    "machine_basis": [
+     "aliases:deCODE",
+     "aliases:deCODE genetics"
+    ],
+    "reference_verified_by": null
+   },
+   "value_that_stands": "deCODE SomaScan v4 (Ferkingstad 2021)",
+   "unresolved_reason": null,
+   "resolution_note": "p001 sentence 2 states that the genetic instruments used in the MR came from deCODE Genetics with N=35,559 for 4907 plasma proteins; the exact N 35,559 with the 4,907-assay panel matches the Ferkingstad 2021 row only (the other deCODE pqtl row has 35,892), the sentence describes the analysis dataset, and nothing in the passage conflicts."
+  },
+  {
+   "row": "39572695#outcome_1",
+   "class": "both_unresolved_different_value",
+   "first_check": {
+    "value": "not_stated_in_source",
+    "category": "release_not_identified",
+    "quote": null,
+    "coder_value_before_gate": null
+   },
+   "second_check": {
+    "value": "source_names_dataset_absent_from_dictionary",
+    "category": "dataset_absent_from_dictionary",
+    "quote": "Here, we performed a proteomic analysis of cardiac diseases in 44,313 unrelated individuals from the UK Biobank (UKB) Pharma Proteomics Project (PPP) (Table 1)14.",
+    "quote_from_another_row": null
+   },
+   "reread": {
+    "row": "outcome_1",
+    "resolved_value": "source_names_dataset_absent_from_dictionary",
+    "unresolved_reason": "dataset_absent_from_dictionary",
+    "resolution_note": "p001 sentence 1 defines the authors' own proteomic analysis of cardiac diseases in 44,313 UKB-PPP participants (platform and time-to-event models in the adjacent sentences): rule C, and the outcome side has no row for UKB-PPP (rule C2); no release, accession or citation of an outcome GWAS row is given.",
+    "identification_basis": null,
+    "source_read": "full_text",
+    "passage_id": "p001",
+    "quote": "Here, we performed a proteomic analysis of cardiac diseases in 44,313 unrelated individuals from the UK Biobank (UKB) Pharma Proteomics Project (PPP) (Table 1)14.",
+    "citations_claim": "claims/39572695.yaml#outcome_1_r",
+    "companion_source": false,
+    "reference_label": null,
+    "reference_quote": null,
+    "reference_citations_claim": null,
+    "dataset_named_in_source": "UK Biobank (UKB) Pharma Proteomics Project (PPP)"
+   },
+   "gate": {
+    "side": "outcome",
+    "name_as_written": "UK Biobank",
+    "value": "source_names_dataset_absent_from_dictionary",
+    "passes": true,
+    "failures": [],
+    "warnings": [],
+    "machine_basis": [],
+    "reference_verified_by": null
+   },
+   "value_that_stands": "source_names_dataset_absent_from_dictionary",
+   "unresolved_reason": "dataset_absent_from_dictionary",
+   "resolution_note": "p001 sentence 1 defines the authors' own proteomic analysis of cardiac diseases in 44,313 UKB-PPP participants (platform and time-to-event models in the adjacent sentences): rule C, and the outcome side has no row for UKB-PPP (rule C2); no release, accession or citation of an outcome GWAS row is given."
+  },
+  {
+   "row": "40026415#outcome_2",
+   "class": "both_unresolved_different_value",
+   "first_check": {
+    "value": "not_stated_in_source",
+    "category": "conflicting_identifiers",
+    "quote": null,
+    "coder_value_before_gate": null
+   },
+   "second_check": {
+    "value": "source_names_dataset_absent_from_dictionary",
+    "category": "dataset_absent_from_dictionary",
+    "quote": "[Table 1. Data sources for outcome indicators used in the MR analyses.] Phenotype: Atrial fibrillation | ID: ebi-a-GCST90038689 | Sample size: 484,598 | Number of SNPs: 9,587,836 | Population: European | Sources: UK Biobank",
+    "quote_from_another_row": null
+   },
+   "reread": {
+    "row": "outcome_2",
+    "resolved_value": "not_stated_in_source",
+    "unresolved_reason": "conflicting_identifiers",
+    "resolution_note": "Table 1 lines p004-p007 of this row give ebi-a-GCST90018864, GCST90018926, GCST90018890 and GCST90018806, all inside the registered range GCST90018563-GCST90019002 of 'Sakaue 2021 BBJ (220 traits)', with Population European, sample sizes above 483,000 and Sources 'UK Biobank and FinnGen', which that East Asian row (up to 178,726) does not allow (rules I3, C4; decision step 1). The other lines (p002, p003, p008, p009: GCST90038689, GCST90013864, GCST90038608, GCST008403) carry accessions no row lists, which would be absent on their own, but step 1 applies first to the row as given.",
+    "identification_basis": null,
+    "source_read": null,
+    "passage_id": null,
+    "quote": null,
+    "citations_claim": null,
+    "companion_source": false,
+    "reference_label": null,
+    "reference_quote": null,
+    "reference_citations_claim": null,
+    "dataset_named_in_source": null
+   },
+   "gate": {
+    "side": "outcome",
+    "name_as_written": "UK Biobank",
+    "value": "not_stated_in_source",
+    "passes": true,
+    "failures": [],
+    "warnings": [],
+    "machine_basis": [],
+    "reference_verified_by": null
+   },
+   "value_that_stands": "not_stated_in_source",
+   "unresolved_reason": "conflicting_identifiers",
+   "resolution_note": "Table 1 lines p004-p007 of this row give ebi-a-GCST90018864, GCST90018926, GCST90018890 and GCST90018806, all inside the registered range GCST90018563-GCST90019002 of 'Sakaue 2021 BBJ (220 traits)', with Population European, sample sizes above 483,000 and Sources 'UK Biobank and FinnGen', which that East Asian row (up to 178,726) does not allow (rules I3, C4; decision step 1). The other lines (p002, p003, p008, p009: GCST90038689, GCST90013864, GCST90038608, GCST008403) carry accessions no row lists, which would be absent on their own, but step 1 applies first to the row as given."
+  },
+  {
+   "row": "40765733#outcome_1",
+   "class": "disagree_first_unresolved_second_coded",
+   "first_check": {
+    "value": "not_stated_in_source",
+    "category": "release_not_identified",
+    "quote": null,
+    "coder_value_before_gate": null
+   },
+   "second_check": {
+    "value": "FinnGen R11",
+    "category": null,
+    "quote": "Data were collected from the FinnGen database (v11), which includes 297,867 controls and 43,132 patients of European descent.",
+    "quote_from_another_row": null
+   },
+   "reread": {
+    "row": "outcome_1",
+    "resolved_value": "FinnGen R11",
+    "unresolved_reason": null,
+    "resolution_note": "p001 sentence 1 writes 'FinnGen database (v11)': 'v11' read as the abbreviated form of version 11 modifying the dataset name (rule A; the abbreviation 'v' is not itself in rule A's list of words, 'version' is). The 297,867 controls and 43,132 patients are a phenotype-specific count, not a release-defining N, and identify no other row (rule H); no other identifier conflicts.",
+    "identification_basis": "release_identifier",
+    "source_read": "full_text",
+    "passage_id": "p001",
+    "quote": "Data were collected from the FinnGen database (v11), which includes 297,867 controls and 43,132 patients of European descent.",
+    "citations_claim": "claims/40765733.yaml#outcome_1_r",
+    "companion_source": false,
+    "reference_label": null,
+    "reference_quote": null,
+    "reference_citations_claim": null,
+    "dataset_named_in_source": null
+   },
+   "gate": {
+    "side": "outcome",
+    "name_as_written": "FinnGen database (v11)",
+    "value": "FinnGen R11",
+    "passes": false,
+    "failures": [
+     "no_identifier_of_the_coded_row_in_the_pinned_material"
+    ],
+    "warnings": [],
+    "machine_basis": [],
+    "reference_verified_by": null
+   },
+   "value_that_stands": "not_stated_in_source",
+   "unresolved_reason": "release_not_identified",
+   "resolution_note": "p001 sentence 1 writes 'FinnGen database (v11)': 'v11' read as the abbreviated form of version 11 modifying the dataset name (rule A; the abbreviation 'v' is not itself in rule A's list of words, 'version' is). The 297,867 controls and 43,132 patients are a phenotype-specific count, not a release-defining N, and identify no other row (rule H); no other identifier conflicts. [the reread's value 'FinnGen R11' failed the gate: no_identifier_of_the_coded_row_in_the_pinned_material; the row is unresolved]"
+  },
+  {
+   "row": "41200820#pqtl_1",
+   "class": "disagree_first_unresolved_second_coded",
+   "first_check": {
+    "value": "not_stated_in_source",
+    "category": "release_not_identified",
+    "quote": null,
+    "coder_value_before_gate": null
+   },
+   "second_check": {
+    "value": "UKB-PPP full cohort (combined)",
+    "category": null,
+    "quote": "We used only the sentinel cis-pQTL with the lowest P value (P<1.7×10−11) from the complete UKB-PPP cohort for each protein as IVs to reduce the risk of horizontal pleiotropy.",
+    "quote_from_another_row": null
+   },
+   "reread": {
+    "row": "pqtl_1",
+    "resolved_value": "UKB-PPP full cohort (combined)",
+    "unresolved_reason": null,
+    "resolution_note": "p001 sentence 2 attributes the pQTLs to UKB-PPP with citation 14 (Sun 2023, DOI 10.1038/s41586-023-06592-6, the source of four pqtl rows); the adjacent sentence 3, one description with it (rule F), takes the instruments 'from the complete UKB-PPP cohort', the subcohort attribute that separates the full cohort from discovery, replication and ancestry-specific (rule E). The 54 219 individuals of sentence 2 equals no row's N and is not a conflict (rule H). Note for the gates: the citation mark is in sentence 2, the separating attribute in the pinned sentence 3.",
+    "identification_basis": "reference_entry",
+    "source_read": "full_text",
+    "passage_id": "p001",
+    "quote": "We used only the sentinel cis-pQTL with the lowest P value (P<1.7×10−11) from the complete UKB-PPP cohort for each protein as IVs to reduce the risk of horizontal pleiotropy.",
+    "citations_claim": "claims/41200820.yaml#pqtl_1_r",
+    "companion_source": true,
+    "reference_label": "14",
+    "reference_quote": "Sun BB, Chiou J, Traylor M, Benner C, Hsu YH, Richardson TG, Surendran P, Mahajan A, Robins C, Vasquez-Grinnell SG, et al. ; Alnylam Human Genetics. Plasma proteomic associations with genetics and health in the UK Biobank. Nature. 2023;622:329–338. doi: 10.1038/s41586-023-06592-6",
+    "reference_citations_claim": "claims/41200820.references.yaml#pqtl_1_r_ref",
+    "dataset_named_in_source": null
+   },
+   "gate": {
+    "side": "pqtl",
+    "name_as_written": "UKB-PPP",
+    "value": "UKB-PPP full cohort (combined)",
+    "passes": false,
+    "failures": [
+     "no_identifier_of_the_coded_row_in_the_pinned_material"
+    ],
+    "warnings": [],
+    "machine_basis": [],
+    "reference_verified_by": "doi"
+   },
+   "value_that_stands": "not_stated_in_source",
+   "unresolved_reason": "release_not_identified",
+   "resolution_note": "p001 sentence 2 attributes the pQTLs to UKB-PPP with citation 14 (Sun 2023, DOI 10.1038/s41586-023-06592-6, the source of four pqtl rows); the adjacent sentence 3, one description with it (rule F), takes the instruments 'from the complete UKB-PPP cohort', the subcohort attribute that separates the full cohort from discovery, replication and ancestry-specific (rule E). The 54 219 individuals of sentence 2 equals no row's N and is not a conflict (rule H). Note for the gates: the citation mark is in sentence 2, the separating attribute in the pinned sentence 3. [the reread's value 'UKB-PPP full cohort (combined)' failed the gate: no_identifier_of_the_coded_row_in_the_pinned_material; the row is unresolved]"
+  },
+  {
+   "row": "41319014#pqtl_1",
+   "class": "disagree_first_unresolved_second_coded",
+   "first_check": {
+    "value": "not_stated_in_source",
+    "category": "release_not_identified",
+    "quote": null,
+    "coder_value_before_gate": null
+   },
+   "second_check": {
+    "value": "UKB-PPP discovery",
+    "category": null,
+    "quote": "We extracted pQTL data from 2940 European‐ancestry participants in the UKB‐PPP database (B. B. Sun et al. 2023).",
+    "quote_from_another_row": null
+   },
+   "reread": {
+    "row": "pqtl_1",
+    "resolved_value": "UKB-PPP discovery",
+    "unresolved_reason": null,
+    "resolution_note": "p002 sentence 1 attributes the pQTL data to UKB-PPP with the citation Sun et al. 2023 (DOI 10.1038/s41586-023-06592-6, PMID 37794186, the source of four pqtl rows) and gives the ancestry 'European-ancestry', which among those rows is the ancestry of the discovery row only (rule E). The '2940' participants equals no row's N and so identifies no other release (rule H); no other passage gives a conflicting identifier.",
+    "identification_basis": "reference_entry",
+    "source_read": "full_text",
+    "passage_id": "p002",
+    "quote": "We extracted pQTL data from 2940 European‐ancestry participants in the UKB‐PPP database (B. B. Sun et al. 2023).",
+    "citations_claim": "claims/41319014.yaml#pqtl_1_r",
+    "companion_source": true,
+    "reference_label": "brb371110-bib-0036",
+    "reference_quote": "Sun , B. B. , J. Chiou , M. Traylor , et al. 2023 . “ Plasma Proteomic Associations With Genetics and Health in the UK Biobank .” Nature 622 , no. 7982 : 329 – 338 . 10.1038/s41586-023-06592-6 . 37794186 PMC10567551",
+    "reference_citations_claim": "claims/41319014.references.yaml#pqtl_1_r_ref",
+    "dataset_named_in_source": null
+   },
+   "gate": {
+    "side": "pqtl",
+    "name_as_written": "UKB-PPP",
+    "value": "UKB-PPP discovery",
+    "passes": false,
+    "failures": [
+     "no_identifier_of_the_coded_row_in_the_pinned_material"
+    ],
+    "warnings": [],
+    "machine_basis": [],
+    "reference_verified_by": "doi"
+   },
+   "value_that_stands": "not_stated_in_source",
+   "unresolved_reason": "release_not_identified",
+   "resolution_note": "p002 sentence 1 attributes the pQTL data to UKB-PPP with the citation Sun et al. 2023 (DOI 10.1038/s41586-023-06592-6, PMID 37794186, the source of four pqtl rows) and gives the ancestry 'European-ancestry', which among those rows is the ancestry of the discovery row only (rule E). The '2940' participants equals no row's N and so identifies no other release (rule H); no other passage gives a conflicting identifier. [the reread's value 'UKB-PPP discovery' failed the gate: no_identifier_of_the_coded_row_in_the_pinned_material; the row is unresolved]"
+  },
+  {
+   "row": "41478252#outcome_1",
+   "class": "both_unresolved_different_value",
+   "first_check": {
+    "value": "not_stated_in_source",
+    "category": "release_not_identified",
+    "quote": null,
+    "coder_value_before_gate": null
+   },
+   "second_check": {
+    "value": "source_names_dataset_absent_from_dictionary",
+    "category": "dataset_absent_from_dictionary",
+    "quote": "METHODS: We included 51,381 participants from the UK Biobank(43,317 in the training set and 8064 in the test set) without aortic aneurysm or dissection.",
+    "quote_from_another_row": null
+   },
+   "reread": {
+    "row": "outcome_1",
+    "resolved_value": "source_names_dataset_absent_from_dictionary",
+    "unresolved_reason": "dataset_absent_from_dictionary",
+    "resolution_note": "p001 sentence 2 defines the authors' own analysis of UK Biobank individual-level data by more than a number of participants: a training and test split and the exclusion of aortic aneurysm or dissection, with the incident-AAA analysis of 2911 plasma proteins in the adjacent sentence (rule C). No release, accession or citation of a dictionary row is given.",
+    "identification_basis": null,
+    "source_read": "abstract",
+    "passage_id": "p001",
+    "quote": "METHODS: We included 51,381 participants from the UK Biobank(43,317 in the training set and 8064 in the test set) without aortic aneurysm or dissection.",
+    "citations_claim": "claims/41478252.yaml#outcome_1_r",
+    "companion_source": false,
+    "reference_label": null,
+    "reference_quote": null,
+    "reference_citations_claim": null,
+    "dataset_named_in_source": "UK Biobank"
+   },
+   "gate": {
+    "side": "outcome",
+    "name_as_written": "UK Biobank",
+    "value": "source_names_dataset_absent_from_dictionary",
+    "passes": true,
+    "failures": [],
+    "warnings": [],
+    "machine_basis": [],
+    "reference_verified_by": null
+   },
+   "value_that_stands": "source_names_dataset_absent_from_dictionary",
+   "unresolved_reason": "dataset_absent_from_dictionary",
+   "resolution_note": "p001 sentence 2 defines the authors' own analysis of UK Biobank individual-level data by more than a number of participants: a training and test split and the exclusion of aortic aneurysm or dissection, with the incident-AAA analysis of 2911 plasma proteins in the adjacent sentence (rule C). No release, accession or citation of a dictionary row is given."
+  },
+  {
+   "row": "41649226#outcome_1",
+   "class": "disagree_first_coded_second_unresolved",
+   "first_check": {
+    "value": "FinnGen R12",
+    "category": null,
+    "quote": "GWAS summary statistics for overall glaucoma and for the POAG, PACG, and NTG subtypes were obtained from the FINLAND R12 project.",
+    "coder_value_before_gate": null
+   },
+   "second_check": {
+    "value": "not_stated_in_source",
+    "category": "release_not_identified",
+    "quote": "GWAS summary statistics for overall glaucoma and for the POAG, PACG, and NTG subtypes were obtained from the FINLAND R12 project.",
+    "quote_from_another_row": null
+   },
+   "reread": {
+    "row": "outcome_1",
+    "resolved_value": "not_stated_in_source",
+    "unresolved_reason": "release_not_identified",
+    "resolution_note": "All three passages (p001 sentence 2, p002 sentence 1, p003 sentence 2) write 'FINLAND R12' and none writes FinnGen, gives an accession, a URL, a sample size or a citation. 'FINLAND' is not another written form of a dictionary name under rule A (spacing, case, hyphen, underscore, or the release word), so reading it as FinnGen R12 would be a guess from what such papers usually use; treating it as a named dataset absent from the dictionary would be a guess in the other direction. The row cannot be settled from the passages.",
+    "identification_basis": null,
+    "source_read": null,
+    "passage_id": null,
+    "quote": null,
+    "citations_claim": null,
+    "companion_source": false,
+    "reference_label": null,
+    "reference_quote": null,
+    "reference_citations_claim": null,
+    "dataset_named_in_source": null
+   },
+   "gate": {
+    "side": "outcome",
+    "name_as_written": "FINLAND R12",
+    "value": "not_stated_in_source",
+    "passes": true,
+    "failures": [],
+    "warnings": [],
+    "machine_basis": [],
+    "reference_verified_by": null
+   },
+   "value_that_stands": "not_stated_in_source",
+   "unresolved_reason": "release_not_identified",
+   "resolution_note": "All three passages (p001 sentence 2, p002 sentence 1, p003 sentence 2) write 'FINLAND R12' and none writes FinnGen, gives an accession, a URL, a sample size or a citation. 'FINLAND' is not another written form of a dictionary name under rule A (spacing, case, hyphen, underscore, or the release word), so reading it as FinnGen R12 would be a guess from what such papers usually use; treating it as a named dataset absent from the dictionary would be a guess in the other direction. The row cannot be settled from the passages."
+  },
+  {
+   "row": "42516377#outcome_1",
+   "class": "both_unresolved_different_value",
+   "first_check": {
+    "value": "not_stated_in_source",
+    "category": "conflicting_identifiers",
+    "quote": null,
+    "coder_value_before_gate": null
+   },
+   "second_check": {
+    "value": "source_names_dataset_absent_from_dictionary",
+    "category": "dataset_absent_from_dictionary",
+    "quote": "The replication cohorts included data from the EBI (25), with 56,087 cases and 428,511 controls, and the UK Biobank (27), with 53,598 cases and 409,335 controls (Figure 1, Supplementary Table 2).",
+    "quote_from_another_row": null
+   },
+   "reread": {
+    "row": "outcome_1",
+    "resolved_value": "not_stated_in_source",
+    "unresolved_reason": "conflicting_identifiers",
+    "resolution_note": "'EBI' is a repository name and no accession is given (rule C2), so only the citations can identify the dataset, and they disagree: p001 sentence 2 attributes the EBI replication cohort to '(25, 26)', where entry 26 (Mitchell et al. 2019, DOI 10.5523/bris.pnoat8cxo0u52p6ynfaekeigi) is the source identifier of the dictionary row 'MRC-IEU UK Biobank GWAS pipeline (OpenGWAS ukb-b)' and entry 25 (Donertas et al. 2021, DOI 10.1038/s43587-021-00051-5) is the source of no dictionary row; p002 sentence 2 attributes the same data to '(25)' alone, with 56,087 cases and 428,511 controls (484,598 in p003), which is not that row's N. The grouped citation maps to neither entry explicitly (rule F), one reading gives a dictionary row and the other a dataset absent from the dictionary, so the row is unresolved.",
+    "identification_basis": null,
+    "source_read": null,
+    "passage_id": null,
+    "quote": null,
+    "citations_claim": null,
+    "companion_source": false,
+    "reference_label": null,
+    "reference_quote": null,
+    "reference_citations_claim": null,
+    "dataset_named_in_source": null
+   },
+   "gate": {
+    "side": "outcome",
+    "name_as_written": "EBI",
+    "value": "not_stated_in_source",
+    "passes": true,
+    "failures": [],
+    "warnings": [],
+    "machine_basis": [],
+    "reference_verified_by": null
+   },
+   "value_that_stands": "not_stated_in_source",
+   "unresolved_reason": "conflicting_identifiers",
+   "resolution_note": "'EBI' is a repository name and no accession is given (rule C2), so only the citations can identify the dataset, and they disagree: p001 sentence 2 attributes the EBI replication cohort to '(25, 26)', where entry 26 (Mitchell et al. 2019, DOI 10.5523/bris.pnoat8cxo0u52p6ynfaekeigi) is the source identifier of the dictionary row 'MRC-IEU UK Biobank GWAS pipeline (OpenGWAS ukb-b)' and entry 25 (Donertas et al. 2021, DOI 10.1038/s43587-021-00051-5) is the source of no dictionary row; p002 sentence 2 attributes the same data to '(25)' alone, with 56,087 cases and 428,511 controls (484,598 in p003), which is not that row's N. The grouped citation maps to neither entry explicitly (rule F), one reading gives a dictionary row and the other a dataset absent from the dictionary, so the row is unresolved."
+  },
+  {
+   "row": "W7202029439#outcome_1",
+   "class": "disagree_first_coded_second_unresolved",
+   "first_check": {
+    "value": "Atrial fibrillation (Nielsen 2018)",
+    "category": null,
+    "quote": "Summary statistics for AF were drawn from Nielsen et al. (2018) AF GWAS (OpenGWAS ID: ebi-a-GCST006414; 60,620 cases, 970,216 controls; n=1,030,836).",
+    "coder_value_before_gate": null
+   },
+   "second_check": {
+    "value": "source_names_dataset_absent_from_dictionary",
+    "category": "dataset_absent_from_dictionary",
+    "quote": "Summary statistics for AF were drawn from Nielsen et al. (2018) AF GWAS (OpenGWAS ID: ebi-a-GCST006414; 60,620 cases, 970,216 controls; n=1,030,836).",
+    "quote_from_another_row": null
+   },
+   "reread": {
+    "row": "outcome_1",
+    "resolved_value": "source_names_dataset_absent_from_dictionary",
+    "unresolved_reason": "dataset_absent_from_dictionary",
+    "resolution_note": "p001 sentence 4 gives the accession ebi-a-GCST006414, which no dictionary row lists by prefix, range or identifier (rule C4). Its counts (60,620 cases, 970,216 controls) equal those of 'Atrial fibrillation (Nielsen 2018)', but the source is an abstract with no reference entry, so the in-text 'Nielsen et al. (2018)' is not a citation verified by DOI, PMID or PMC identifier and rule C5 does not apply; an unlisted accession with matching counts and no such citation stays absent (rules G, C5). Step 2's exact N with year was weighed and set aside because rules G and C5 address this configuration and govern where they differ.",
+    "identification_basis": null,
+    "source_read": "abstract",
+    "passage_id": "p001",
+    "quote": "Summary statistics for AF were drawn from Nielsen et al. (2018) AF GWAS (OpenGWAS ID: ebi-a-GCST006414; 60,620 cases, 970,216 controls; n=1,030,836).",
+    "citations_claim": "claims/W7202029439.yaml#outcome_1_r",
+    "companion_source": false,
+    "reference_label": null,
+    "reference_quote": null,
+    "reference_citations_claim": null,
+    "dataset_named_in_source": "ebi-a-GCST006414"
+   },
+   "gate": {
+    "side": "outcome",
+    "name_as_written": "Nielsen et al. (2018) AF GWAS",
+    "value": "source_names_dataset_absent_from_dictionary",
+    "passes": true,
+    "failures": [],
+    "warnings": [],
+    "machine_basis": [],
+    "reference_verified_by": null
+   },
+   "value_that_stands": "source_names_dataset_absent_from_dictionary",
+   "unresolved_reason": "dataset_absent_from_dictionary",
+   "resolution_note": "p001 sentence 4 gives the accession ebi-a-GCST006414, which no dictionary row lists by prefix, range or identifier (rule C4). Its counts (60,620 cases, 970,216 controls) equal those of 'Atrial fibrillation (Nielsen 2018)', but the source is an abstract with no reference entry, so the in-text 'Nielsen et al. (2018)' is not a citation verified by DOI, PMID or PMC identifier and rule C5 does not apply; an unlisted accession with matching counts and no such citation stays absent (rules G, C5). Step 2's exact N with year was weighed and set aside because rules G and C5 address this configuration and govern where they differ."
+  },
+  {
+   "row": "35938019#outcome_1",
+   "class": "disagree_first_unresolved_second_coded",
+   "first_check": {
+    "value": "not_stated_in_source",
+    "category": "release_not_identified",
+    "quote": null,
+    "coder_value_before_gate": null
+   },
+   "second_check": {
+    "value": "UK Biobank SAIGE PheWeb (Zhou et al. 2018)",
+    "category": null,
+    "quote": "The association analysis of disease outcomes was conducted using publicly available data from the UK Biobank cohort (N ≤ 408,961).",
+    "quote_from_another_row": null
+   },
+   "reread": {
+    "row": "outcome_1",
+    "resolved_value": "not_stated_in_source",
+    "unresolved_reason": "release_not_identified",
+    "resolution_note": "p004 sentence 67 gives the UK Biobank cohort with N <= 408,961 and no panel, year, accession or citation (N alone); Zhou et al. 2018 is cited in sentence 69 for the PheCodes system and in p001 in a grouped citation, never as the source of the dataset; p002-p003 use the same name for the IEU analysis (n = 461,026/461,089) with no accession; no sentence identifies one row.",
+    "identification_basis": null,
+    "source_read": null,
+    "passage_id": null,
+    "quote": null,
+    "citations_claim": null,
+    "companion_source": false,
+    "reference_label": null,
+    "reference_quote": null,
+    "reference_citations_claim": null,
+    "dataset_named_in_source": null
+   },
+   "gate": {
+    "side": "outcome",
+    "name_as_written": "UK Biobank",
+    "value": "not_stated_in_source",
+    "passes": true,
+    "failures": [],
+    "warnings": [],
+    "machine_basis": [],
+    "reference_verified_by": null
+   },
+   "value_that_stands": "not_stated_in_source",
+   "unresolved_reason": "release_not_identified",
+   "resolution_note": "p004 sentence 67 gives the UK Biobank cohort with N <= 408,961 and no panel, year, accession or citation (N alone); Zhou et al. 2018 is cited in sentence 69 for the PheCodes system and in p001 in a grouped citation, never as the source of the dataset; p002-p003 use the same name for the IEU analysis (n = 461,026/461,089) with no accession; no sentence identifies one row."
+  },
+  {
+   "row": "38572516#outcome_1",
+   "class": "both_unresolved_different_value",
+   "first_check": {
+    "value": "not_stated_in_source",
+    "category": "release_not_identified",
+    "quote": null,
+    "coder_value_before_gate": null
+   },
+   "second_check": {
+    "value": "source_names_dataset_absent_from_dictionary",
+    "category": "dataset_absent_from_dictionary",
+    "quote": "We sourced summary‐level genetic association data on 4907 circulating proteins from an extensive pQTL study involving 35,559 Icelandic participants, known as the DECODE cohort (Ferkingstad et al., 2021).",
+    "quote_from_another_row": null
+   },
+   "reread": {
+    "row": "outcome_1",
+    "resolved_value": "source_names_dataset_absent_from_dictionary",
+    "unresolved_reason": "dataset_absent_from_dictionary",
+    "resolution_note": "p001 sentence 31 defines the DECODE cohort of this paper as the pQTL study of 35,559 Icelandic participants with 4907 proteins (Ferkingstad et al., 2021, DOI 10.1038/s41588-021-00978-w), used as an exposure dataset in every other passage; that dataset has rows only on the pqtl side and the outcome side has no row for it (rule C2).",
+    "identification_basis": null,
+    "source_read": "full_text",
+    "passage_id": "p001",
+    "quote": "We sourced summary‐level genetic association data on 4907 circulating proteins from an extensive pQTL study involving 35,559 Icelandic participants, known as the DECODE cohort (Ferkingstad et al., 2021).",
+    "citations_claim": "claims/38572516.yaml#outcome_1_r",
+    "companion_source": false,
+    "reference_label": null,
+    "reference_quote": null,
+    "reference_citations_claim": null,
+    "dataset_named_in_source": "the DECODE cohort (Ferkingstad et al., 2021)"
+   },
+   "gate": {
+    "side": "outcome",
+    "name_as_written": "Decode",
+    "value": "source_names_dataset_absent_from_dictionary",
+    "passes": true,
+    "failures": [],
+    "warnings": [],
+    "machine_basis": [],
+    "reference_verified_by": null
+   },
+   "value_that_stands": "source_names_dataset_absent_from_dictionary",
+   "unresolved_reason": "dataset_absent_from_dictionary",
+   "resolution_note": "p001 sentence 31 defines the DECODE cohort of this paper as the pQTL study of 35,559 Icelandic participants with 4907 proteins (Ferkingstad et al., 2021, DOI 10.1038/s41588-021-00978-w), used as an exposure dataset in every other passage; that dataset has rows only on the pqtl side and the outcome side has no row for it (rule C2)."
+  },
+  {
+   "row": "40649979#pqtl_1",
+   "class": "disagree_first_unresolved_second_coded",
+   "first_check": {
+    "value": "not_stated_in_source",
+    "category": "release_not_identified",
+    "quote": null,
+    "coder_value_before_gate": null
+   },
+   "second_check": {
+    "value": "deCODE SomaScan v4 (Ferkingstad 2021)",
+    "category": null,
+    "quote": "A proteome-wide Mendelian randomization (MR) analysis was performed to explore therapeutic targets for CAS by integrating inflammatory proteomics data from the UK-PPP (54,219 participants, 2923 proteins) and Iceland cohorts (35,559 participants, 4907 proteins) as exposures and outcome data for CAS, atherosclerosis, and carotid atherosclerosis from FinnGen.",
+    "quote_from_another_row": null
+   },
+   "reread": {
+    "row": "pqtl_1",
+    "resolved_value": "not_stated_in_source",
+    "unresolved_reason": "release_not_identified",
+    "resolution_note": "The only passage (abstract sentence 3) gives 'Iceland cohorts (35,559 participants, 4907 proteins)': a cohort name with counts and no platform name, year, citation or accession; the protein count is shared by both deCODE rows, so the sample size alone would separate them (rule I1, N alone).",
+    "identification_basis": null,
+    "source_read": null,
+    "passage_id": null,
+    "quote": null,
+    "citations_claim": null,
+    "companion_source": false,
+    "reference_label": null,
+    "reference_quote": null,
+    "reference_citations_claim": null,
+    "dataset_named_in_source": null
+   },
+   "gate": {
+    "side": "pqtl",
+    "name_as_written": "Iceland cohorts",
+    "value": "not_stated_in_source",
+    "passes": true,
+    "failures": [],
+    "warnings": [],
+    "machine_basis": [],
+    "reference_verified_by": null
+   },
+   "value_that_stands": "not_stated_in_source",
+   "unresolved_reason": "release_not_identified",
+   "resolution_note": "The only passage (abstract sentence 3) gives 'Iceland cohorts (35,559 participants, 4907 proteins)': a cohort name with counts and no platform name, year, citation or accession; the protein count is shared by both deCODE rows, so the sample size alone would separate them (rule I1, N alone)."
+  },
+  {
+   "row": "40877285#pqtl_1",
+   "class": "both_unresolved_different_value",
+   "first_check": {
+    "value": "not_stated_in_source",
+    "category": "release_not_identified",
+    "quote": "To ensure homogeneity in proteome analysis, we extracted proteome data of randomly selected baseline participants from protein batches 0–6, which are highly representative of the UK Biobank overall26.",
+    "coder_value_before_gate": "UKB-PPP discovery"
+   },
+   "second_check": {
+    "value": "source_names_dataset_absent_from_dictionary",
+    "category": "dataset_absent_from_dictionary",
+    "quote": "To investigate genetic effects on blood proteins by sex, we conducted sex-stratified GWAS on protein levels using the proteome data from the 30,272 selected Caucasian individuals and compared variants’ effect on protein between males and females.",
+    "quote_from_another_row": null
+   },
+   "reread": {
+    "row": "pqtl_1",
+    "resolved_value": "source_names_dataset_absent_from_dictionary",
+    "unresolved_reason": "dataset_absent_from_dictionary",
+    "resolution_note": "p008 sentence 146 defines the pQTL data as the authors' own sex-stratified GWAS on protein levels in 30,272 selected Caucasian UK Biobank individuals (REGENIE, project 44986, summary statistics deposited by the authors, p013): an own analysis of individual-level data defined by an analysis procedure, not a listed release (rule C).",
+    "identification_basis": null,
+    "source_read": "full_text",
+    "passage_id": "p008",
+    "quote": "To investigate genetic effects on blood proteins by sex, we conducted sex-stratified GWAS on protein levels using the proteome data from the 30,272 selected Caucasian individuals and compared variants’ effect on protein between males and females.",
+    "citations_claim": "claims/40877285.yaml#pqtl_1_r",
+    "companion_source": false,
+    "reference_label": null,
+    "reference_quote": null,
+    "reference_citations_claim": null,
+    "dataset_named_in_source": "sex-stratified GWAS on protein levels using the proteome data from the 30,272 selected Caucasian individuals"
+   },
+   "gate": {
+    "side": "pqtl",
+    "name_as_written": "UK Biobank",
+    "value": "source_names_dataset_absent_from_dictionary",
+    "passes": true,
+    "failures": [],
+    "warnings": [],
+    "machine_basis": [],
+    "reference_verified_by": null
+   },
+   "value_that_stands": "source_names_dataset_absent_from_dictionary",
+   "unresolved_reason": "dataset_absent_from_dictionary",
+   "resolution_note": "p008 sentence 146 defines the pQTL data as the authors' own sex-stratified GWAS on protein levels in 30,272 selected Caucasian UK Biobank individuals (REGENIE, project 44986, summary statistics deposited by the authors, p013): an own analysis of individual-level data defined by an analysis procedure, not a listed release (rule C)."
+  },
+  {
+   "row": "41249132#outcome_1",
+   "class": "disagree_first_coded_second_unresolved",
+   "first_check": {
+    "value": "MAGIC glycemic traits (Chen 2021)",
+    "category": null,
+    "quote": "GWAS summary statistics of HOMA-IR, ISI, and Fins were obtained from the Meta-Analyses of Glucose and Insulin-related traits Consortium including 37,037, 53,710, and 151,013 non-diabetic European participants, respectively4–6, and GWAS summary statistics of TG:HDL-C were obtained from the UK Biobank with 402,398 European participants7 (Supplementary Data 1).",
+    "coder_value_before_gate": null
+   },
+   "second_check": {
+    "value": "not_stated_in_source",
+    "category": "release_not_identified",
+    "quote": "GWAS summary statistics of HOMA-IR, ISI, and Fins were obtained from the Meta-Analyses of Glucose and Insulin-related traits Consortium including 37,037, 53,710, and 151,013 non-diabetic European participants, respectively4–6, and GWAS summary statistics of TG:HDL-C were obtained from the UK Biobank with 402,398 European participants7 (Supplementary Data 1).",
+    "quote_from_another_row": "41249132#outcome_2"
+   },
+   "reread": {
+    "row": "outcome_1",
+    "resolved_value": "not_stated_in_source",
+    "unresolved_reason": "release_not_identified",
+    "resolution_note": "outcome_2 p002 sentence 101 (the only sentence that describes the MAGIC data) attributes three MAGIC GWAS (HOMA-IR, ISI, Fins) to references 4-6 'respectively': reference 4 is Dupuis 2010, reference 5 is not given, and only reference 6 is Chen 2021, so the name covers three releases of which the citation ties at most one to a dictionary row; the row's own passages give only the MAGIC download site. No single row is identified.",
+    "identification_basis": null,
+    "source_read": null,
+    "passage_id": null,
+    "quote": null,
+    "citations_claim": null,
+    "companion_source": false,
+    "reference_label": null,
+    "reference_quote": null,
+    "reference_citations_claim": null,
+    "dataset_named_in_source": null
+   },
+   "gate": {
+    "side": "outcome",
+    "name_as_written": "MAGIC",
+    "value": "not_stated_in_source",
+    "passes": true,
+    "failures": [],
+    "warnings": [],
+    "machine_basis": [],
+    "reference_verified_by": null
+   },
+   "value_that_stands": "not_stated_in_source",
+   "unresolved_reason": "release_not_identified",
+   "resolution_note": "outcome_2 p002 sentence 101 (the only sentence that describes the MAGIC data) attributes three MAGIC GWAS (HOMA-IR, ISI, Fins) to references 4-6 'respectively': reference 4 is Dupuis 2010, reference 5 is not given, and only reference 6 is Chen 2021, so the name covers three releases of which the citation ties at most one to a dictionary row; the row's own passages give only the MAGIC download site. No single row is identified."
+  },
+  {
+   "row": "41540382#pqtl_1",
+   "class": "disagree_first_unresolved_second_coded",
+   "first_check": {
+    "value": "not_stated_in_source",
+    "category": "release_not_identified",
+    "quote": null,
+    "coder_value_before_gate": null
+   },
+   "second_check": {
+    "value": "ARIC European American (Zhang 2022)",
+    "category": null,
+    "quote": "After quality control, 4,483 unique proteins from 7,213 European individuals in the ARIC study and 3,170 proteins from 3,301 European individuals in the INTERVAL study were included in the PWAS analyses.",
+    "quote_from_another_row": null
+   },
+   "reread": {
+    "row": "pqtl_1",
+    "resolved_value": "ARIC European American (Zhang 2022)",
+    "unresolved_reason": null,
+    "resolution_note": "p001 is one description of the dataset: sentence 38 gives 7,213 European individuals in the ARIC study (the exact N and ancestry of this row only; the other ARIC row has 1,871 African American) and sentence 35 of the same passage gives the SOMAmer platform; p002 sentence 42 cites Zhang 2022 (DOI 10.1038/s41588-022-01051-w) for the ARIC model and nothing conflicts. The platform is not in the pinned sentence itself.",
+    "identification_basis": "exact_n_with_platform_or_year",
+    "source_read": "full_text",
+    "passage_id": "p001",
+    "quote": "After quality control, 4,483 unique proteins from 7,213 European individuals in the ARIC study and 3,170 proteins from 3,301 European individuals in the INTERVAL study were included in the PWAS analyses.",
+    "citations_claim": "claims/41540382.yaml#pqtl_1_r",
+    "companion_source": false,
+    "reference_label": null,
+    "reference_quote": null,
+    "reference_citations_claim": null,
+    "dataset_named_in_source": null
+   },
+   "gate": {
+    "side": "pqtl",
+    "name_as_written": "Atherosclerosis Risk in Communities (ARIC)",
+    "value": "ARIC European American (Zhang 2022)",
+    "passes": true,
+    "failures": [],
+    "warnings": [],
+    "machine_basis": [
+     "aliases:ARIC"
+    ],
+    "reference_verified_by": null
+   },
+   "value_that_stands": "ARIC European American (Zhang 2022)",
+   "unresolved_reason": null,
+   "resolution_note": "p001 is one description of the dataset: sentence 38 gives 7,213 European individuals in the ARIC study (the exact N and ancestry of this row only; the other ARIC row has 1,871 African American) and sentence 35 of the same passage gives the SOMAmer platform; p002 sentence 42 cites Zhang 2022 (DOI 10.1038/s41588-022-01051-w) for the ARIC model and nothing conflicts. The platform is not in the pinned sentence itself."
+  },
+  {
+   "row": "41559658#outcome_1",
+   "class": "both_unresolved_different_value",
+   "first_check": {
+    "value": "not_stated_in_source",
+    "category": "release_not_identified",
+    "quote": null,
+    "coder_value_before_gate": null
+   },
+   "second_check": {
+    "value": "source_names_dataset_absent_from_dictionary",
+    "category": "dataset_absent_from_dictionary",
+    "quote": "In this study, we conducted a large-scale proteomic analysis in UK Biobank participants with four aims: (1) to identify plasma proteins associated with kidney diseases including CKD and ESKD, and CVD including coronary heart disease (CHD), stroke, and heart failure (HF), highlighting shared and disease-specific proteins and evaluating potential causal relationships using Mendelian randomization (MR); (2) to assess effect modifications by age, sex, and comorbidities (hypertension, dyslipidemia, and diabetes); (3) to infer potential biological pathways of disease-associated proteins; and (4) to develop predictive models based on proteins and conventional risk factors (Fig. 1).Fig. 1Study overview.",
+    "quote_from_another_row": null
+   },
+   "reread": {
+    "row": "outcome_1",
+    "resolved_value": "source_names_dataset_absent_from_dictionary",
+    "unresolved_reason": "dataset_absent_from_dictionary",
+    "resolution_note": "p001 sentence 17 defines the UK Biobank data as the authors' own proteomic analysis of UK Biobank participants with named disease phenotypes (CKD, ESKD, CHD, stroke, HF), an own analysis of individual-level data defined by more than a number (rule C); the MR itself is read from the proteome-phenome atlas of Deng et al. (p004 sentence 44), which has no outcome row either. No listed release is named.",
+    "identification_basis": null,
+    "source_read": "full_text",
+    "passage_id": "p001",
+    "quote": "In this study, we conducted a large-scale proteomic analysis in UK Biobank participants with four aims: (1) to identify plasma proteins associated with kidney diseases including CKD and ESKD, and CVD including coronary heart disease (CHD), stroke, and heart failure (HF), highlighting shared and disease-specific proteins and evaluating potential causal relationships using Mendelian randomization (MR); (2) to assess effect modifications by age, sex, and comorbidities (hypertension, dyslipidemia, and diabetes); (3) to infer potential biological pathways of disease-associated proteins; and (4) to develop predictive models based on proteins and conventional risk factors (Fig. 1).Fig. 1Study overview.",
+    "citations_claim": "claims/41559658.yaml#outcome_1_r",
+    "companion_source": false,
+    "reference_label": null,
+    "reference_quote": null,
+    "reference_citations_claim": null,
+    "dataset_named_in_source": "large-scale proteomic analysis in UK Biobank participants"
+   },
+   "gate": {
+    "side": "outcome",
+    "name_as_written": "UK Biobank",
+    "value": "source_names_dataset_absent_from_dictionary",
+    "passes": true,
+    "failures": [],
+    "warnings": [],
+    "machine_basis": [],
+    "reference_verified_by": null
+   },
+   "value_that_stands": "source_names_dataset_absent_from_dictionary",
+   "unresolved_reason": "dataset_absent_from_dictionary",
+   "resolution_note": "p001 sentence 17 defines the UK Biobank data as the authors' own proteomic analysis of UK Biobank participants with named disease phenotypes (CKD, ESKD, CHD, stroke, HF), an own analysis of individual-level data defined by more than a number (rule C); the MR itself is read from the proteome-phenome atlas of Deng et al. (p004 sentence 44), which has no outcome row either. No listed release is named."
+  },
+  {
+   "row": "42040931#outcome_1",
+   "class": "both_unresolved_different_value",
+   "first_check": {
+    "value": "not_stated_in_source",
+    "category": "release_not_identified",
+    "quote": null,
+    "coder_value_before_gate": null
+   },
+   "second_check": {
+    "value": "source_names_dataset_absent_from_dictionary",
+    "category": "dataset_absent_from_dictionary",
+    "quote": "Association and Mendelian Randomization analyses of WMH volume and 2,923 plasma proteins in 52,560 UK Biobank participants identified the lysosomal protease cathepsin B (CTSB) and the mitochondrial enzyme Enoyl-CoA Hydratase Domain Containing 3 (ECHDC3) as the top candidates associated with WMH volume.",
+    "quote_from_another_row": null
+   },
+   "reread": {
+    "row": "outcome_1",
+    "resolved_value": "source_names_dataset_absent_from_dictionary",
+    "unresolved_reason": "dataset_absent_from_dictionary",
+    "resolution_note": "Abstract sentence 2 defines the outcome data as the authors' own analysis of WMH volume in 52,560 UK Biobank participants: an own analysis of individual-level data defined by a phenotype and a measured protein set, not only by a number of participants (rule C); no listed release, accession or citation is given.",
+    "identification_basis": null,
+    "source_read": "abstract",
+    "passage_id": "p001",
+    "quote": "Association and Mendelian Randomization analyses of WMH volume and 2,923 plasma proteins in 52,560 UK Biobank participants identified the lysosomal protease cathepsin B (CTSB) and the mitochondrial enzyme Enoyl-CoA Hydratase Domain Containing 3 (ECHDC3) as the top candidates associated with WMH volume.",
+    "citations_claim": "claims/42040931.yaml#outcome_1_r",
+    "companion_source": false,
+    "reference_label": null,
+    "reference_quote": null,
+    "reference_citations_claim": null,
+    "dataset_named_in_source": "analyses of WMH volume and 2,923 plasma proteins in 52,560 UK Biobank participants"
+   },
+   "gate": {
+    "side": "outcome",
+    "name_as_written": "UK Biobank",
+    "value": "source_names_dataset_absent_from_dictionary",
+    "passes": true,
+    "failures": [],
+    "warnings": [],
+    "machine_basis": [],
+    "reference_verified_by": null
+   },
+   "value_that_stands": "source_names_dataset_absent_from_dictionary",
+   "unresolved_reason": "dataset_absent_from_dictionary",
+   "resolution_note": "Abstract sentence 2 defines the outcome data as the authors' own analysis of WMH volume in 52,560 UK Biobank participants: an own analysis of individual-level data defined by a phenotype and a measured protein set, not only by a number of participants (rule C); no listed release, accession or citation is given."
+  },
+  {
+   "row": "42040931#pqtl_1",
+   "class": "both_unresolved_different_value",
+   "first_check": {
+    "value": "not_stated_in_source",
+    "category": "release_not_identified",
+    "quote": null,
+    "coder_value_before_gate": null
+   },
+   "second_check": {
+    "value": "source_names_dataset_absent_from_dictionary",
+    "category": "dataset_absent_from_dictionary",
+    "quote": "Association and Mendelian Randomization analyses of WMH volume and 2,923 plasma proteins in 52,560 UK Biobank participants identified the lysosomal protease cathepsin B (CTSB) and the mitochondrial enzyme Enoyl-CoA Hydratase Domain Containing 3 (ECHDC3) as the top candidates associated with WMH volume.",
+    "quote_from_another_row": null
+   },
+   "reread": {
+    "row": "pqtl_1",
+    "resolved_value": "source_names_dataset_absent_from_dictionary",
+    "unresolved_reason": "dataset_absent_from_dictionary",
+    "resolution_note": "Abstract sentence 2 defines the protein data as the authors' own analysis of 2,923 plasma proteins in 52,560 UK Biobank participants together with WMH volume: an own analysis of individual-level data defined by a measured protein set and a phenotype (rule C); 52,560 is the N of no listed row and no release, platform name, accession or citation is given.",
+    "identification_basis": null,
+    "source_read": "abstract",
+    "passage_id": "p001",
+    "quote": "Association and Mendelian Randomization analyses of WMH volume and 2,923 plasma proteins in 52,560 UK Biobank participants identified the lysosomal protease cathepsin B (CTSB) and the mitochondrial enzyme Enoyl-CoA Hydratase Domain Containing 3 (ECHDC3) as the top candidates associated with WMH volume.",
+    "citations_claim": "claims/42040931.yaml#pqtl_1_r",
+    "companion_source": false,
+    "reference_label": null,
+    "reference_quote": null,
+    "reference_citations_claim": null,
+    "dataset_named_in_source": "analyses of WMH volume and 2,923 plasma proteins in 52,560 UK Biobank participants"
+   },
+   "gate": {
+    "side": "pqtl",
+    "name_as_written": "UK Biobank",
+    "value": "source_names_dataset_absent_from_dictionary",
+    "passes": true,
+    "failures": [],
+    "warnings": [],
+    "machine_basis": [],
+    "reference_verified_by": null
+   },
+   "value_that_stands": "source_names_dataset_absent_from_dictionary",
+   "unresolved_reason": "dataset_absent_from_dictionary",
+   "resolution_note": "Abstract sentence 2 defines the protein data as the authors' own analysis of 2,923 plasma proteins in 52,560 UK Biobank participants together with WMH volume: an own analysis of individual-level data defined by a measured protein set and a phenotype (rule C); 52,560 is the N of no listed row and no release, platform name, accession or citation is given."
+  },
+  {
+   "row": "42694092#outcome_2",
+   "class": "both_unresolved_different_value",
+   "first_check": {
+    "value": "not_stated_in_source",
+    "category": "release_not_identified",
+    "quote": null,
+    "coder_value_before_gate": null
+   },
+   "second_check": {
+    "value": "source_names_dataset_absent_from_dictionary",
+    "category": "dataset_absent_from_dictionary",
+    "quote": "Sepsis cases were identified from linked hospital episode records using ICD-10 codes A02, A39, A40, and A41 in the primary or secondary diagnostic position, with self-reported cases and those recorded only in primary care excluded; the remaining cohort served as controls, and genetic associations were estimated with adjustment for age, sex, genotyping chip, and the first ten genetic principal components (15).",
+    "quote_from_another_row": null
+   },
+   "reread": {
+    "row": "outcome_2",
+    "resolved_value": "source_names_dataset_absent_from_dictionary",
+    "unresolved_reason": "dataset_absent_from_dictionary",
+    "resolution_note": "p003 sentences 47-49 are one description of the dataset: a publicly available sepsis GWAS in the UK Biobank cohort with 11,643 cases and 474,841 controls (sentence 48), defined by ICD-10 codes A02, A39, A40, A41 and attributed to reference 15, Hamilton et al. 2023, DOI 10.1371/journal.pmed.1004174 (sentence 49). The passage names one specific GWAS; no outcome row has that citation, those counts or that phenotype.",
+    "identification_basis": null,
+    "source_read": "full_text",
+    "passage_id": "p003",
+    "quote": "The primary discovery analysis used the UK Biobank cohort, which included 11,643 individuals with sepsis and 474,841 controls of European ancestry.",
+    "citations_claim": "claims/42694092.yaml#outcome_2_r",
+    "companion_source": false,
+    "reference_label": null,
+    "reference_quote": null,
+    "reference_citations_claim": null,
+    "dataset_named_in_source": "the UK Biobank cohort, which included 11,643 individuals with sepsis and 474,841 controls of European ancestry"
+   },
+   "gate": {
+    "side": "outcome",
+    "name_as_written": "UK Biobank",
+    "value": "source_names_dataset_absent_from_dictionary",
+    "passes": true,
+    "failures": [],
+    "warnings": [],
+    "machine_basis": [],
+    "reference_verified_by": null
+   },
+   "value_that_stands": "source_names_dataset_absent_from_dictionary",
+   "unresolved_reason": "dataset_absent_from_dictionary",
+   "resolution_note": "p003 sentences 47-49 are one description of the dataset: a publicly available sepsis GWAS in the UK Biobank cohort with 11,643 cases and 474,841 controls (sentence 48), defined by ICD-10 codes A02, A39, A40, A41 and attributed to reference 15, Hamilton et al. 2023, DOI 10.1371/journal.pmed.1004174 (sentence 49). The passage names one specific GWAS; no outcome row has that citation, those counts or that phenotype."
+  },
+  {
+   "row": "42772042#pqtl_2",
+   "class": "disagree_first_unresolved_second_coded",
+   "first_check": {
+    "value": "not_stated_in_source",
+    "category": "release_not_identified",
+    "quote": null,
+    "coder_value_before_gate": null
+   },
+   "second_check": {
+    "value": "deCODE SomaScan v4 (Ferkingstad 2021)",
+    "category": null,
+    "quote": "Additionally, various inverse-variance weighted Mendelian randomization (MR) analyses and SMR tests were performed with cis-acting variants of 4907 blood proteins from the deCODE study (N = 35,559) and 2940 from the UKB study (N = 45,330).",
+    "quote_from_another_row": null
+   },
+   "reread": {
+    "row": "pqtl_2",
+    "resolved_value": "not_stated_in_source",
+    "unresolved_reason": "release_not_identified",
+    "resolution_note": "The only passage (abstract sentence 4) gives '4907 blood proteins from the deCODE study (N = 35,559)': a study name with counts and no platform name, year, citation or accession; the protein count is shared by both deCODE rows, so the sample size alone would separate them (rule I1, N alone).",
+    "identification_basis": null,
+    "source_read": null,
+    "passage_id": null,
+    "quote": null,
+    "citations_claim": null,
+    "companion_source": false,
+    "reference_label": null,
+    "reference_quote": null,
+    "reference_citations_claim": null,
+    "dataset_named_in_source": null
+   },
+   "gate": {
+    "side": "pqtl",
+    "name_as_written": "deCODE",
+    "value": "not_stated_in_source",
+    "passes": true,
+    "failures": [],
+    "warnings": [],
+    "machine_basis": [],
+    "reference_verified_by": null
+   },
+   "value_that_stands": "not_stated_in_source",
+   "unresolved_reason": "release_not_identified",
+   "resolution_note": "The only passage (abstract sentence 4) gives '4907 blood proteins from the deCODE study (N = 35,559)': a study name with counts and no platform name, year, citation or accession; the protein count is shared by both deCODE rows, so the sample size alone would separate them (rule I1, N alone)."
+  },
+  {
+   "row": "PPR1054116#outcome_1",
+   "class": "both_unresolved_different_value",
+   "first_check": {
+    "value": "source_names_dataset_absent_from_dictionary",
+    "category": "dataset_absent_from_dictionary",
+    "quote": "GWAS data of PPD were sourced from Psychiatric Genomics Consortium (PGC) (Ncase = 17,339, Ncontrol = 53,426).",
+    "coder_value_before_gate": null
+   },
+   "second_check": {
+    "value": "not_stated_in_source",
+    "category": "release_not_identified",
+    "quote": "GWAS data of PPD were sourced from Psychiatric Genomics Consortium (PGC) (Ncase = 17,339, Ncontrol = 53,426).",
+    "quote_from_another_row": null
+   },
+   "reread": {
+    "row": "outcome_1",
+    "resolved_value": "source_names_dataset_absent_from_dictionary",
+    "unresolved_reason": "dataset_absent_from_dictionary",
+    "resolution_note": "Abstract sentence 4 names the dataset as the PGC GWAS of PPD with 17,339 cases and 53,426 controls; the outcome side lists PGC GWAS of schizophrenia, major depression, bipolar disorder, ADHD, autism and PTSD only, none for PPD and none with these counts, so the named dataset has no row (rule C2); no release of a listed row is in question.",
+    "identification_basis": null,
+    "source_read": "abstract",
+    "passage_id": "p001",
+    "quote": "GWAS data of PPD were sourced from Psychiatric Genomics Consortium (PGC) (Ncase = 17,339, Ncontrol = 53,426).",
+    "citations_claim": "claims/PPR1054116.yaml#outcome_1_r",
+    "companion_source": false,
+    "reference_label": null,
+    "reference_quote": null,
+    "reference_citations_claim": null,
+    "dataset_named_in_source": "GWAS data of PPD were sourced from Psychiatric Genomics Consortium (PGC)"
+   },
+   "gate": {
+    "side": "outcome",
+    "name_as_written": "Psychiatric Genomics Consortium (PGC)",
+    "value": "source_names_dataset_absent_from_dictionary",
+    "passes": true,
+    "failures": [],
+    "warnings": [],
+    "machine_basis": [],
+    "reference_verified_by": null
+   },
+   "value_that_stands": "source_names_dataset_absent_from_dictionary",
+   "unresolved_reason": "dataset_absent_from_dictionary",
+   "resolution_note": "Abstract sentence 4 names the dataset as the PGC GWAS of PPD with 17,339 cases and 53,426 controls; the outcome side lists PGC GWAS of schizophrenia, major depression, bipolar disorder, ADHD, autism and PTSD only, none for PPD and none with these counts, so the named dataset has no row (rule C2); no release of a listed row is in question."
+  },
+  {
+   "row": "PPR911454#pqtl_2",
+   "class": "disagree_first_unresolved_second_coded",
+   "first_check": {
+    "value": "not_stated_in_source",
+    "category": "release_not_identified",
+    "quote": null,
+    "coder_value_before_gate": null
+   },
+   "second_check": {
+    "value": "deCODE SomaScan v4 (Ferkingstad 2021)",
+    "category": null,
+    "quote": "A mendelian randomization (MR) supplemented by colocalization analysis was conducted, using cis -acting variants on 4,907 plasma proteins from deCODE Genetics (N=35,559) and 2,940 plasma proteins from UK Biobank Pharma Proteomics Project (UKB-PPP) (N=54,219).",
+    "quote_from_another_row": null
+   },
+   "reread": {
+    "row": "pqtl_2",
+    "resolved_value": "not_stated_in_source",
+    "unresolved_reason": "release_not_identified",
+    "resolution_note": "The only passage (abstract sentences 2 and 4) gives '4,907 plasma proteins from deCODE Genetics (N=35,559)' and 'the deCODE ... cohorts': a name with counts and no platform name, year, citation or accession; the protein count is shared by both deCODE rows, so the sample size alone would separate them (rule I1, N alone).",
+    "identification_basis": null,
+    "source_read": null,
+    "passage_id": null,
+    "quote": null,
+    "citations_claim": null,
+    "companion_source": false,
+    "reference_label": null,
+    "reference_quote": null,
+    "reference_citations_claim": null,
+    "dataset_named_in_source": null
+   },
+   "gate": {
+    "side": "pqtl",
+    "name_as_written": "deCODE",
+    "value": "not_stated_in_source",
+    "passes": true,
+    "failures": [],
+    "warnings": [],
+    "machine_basis": [],
+    "reference_verified_by": null
+   },
+   "value_that_stands": "not_stated_in_source",
+   "unresolved_reason": "release_not_identified",
+   "resolution_note": "The only passage (abstract sentences 2 and 4) gives '4,907 plasma proteins from deCODE Genetics (N=35,559)' and 'the deCODE ... cohorts': a name with counts and no platform name, year, citation or accession; the protein count is shared by both deCODE rows, so the sample size alone would separate them (rule I1, N alone)."
+  },
+  {
+   "row": "W4406200416#outcome_1",
+   "class": "both_unresolved_different_value",
+   "first_check": {
+    "value": "not_stated_in_source",
+    "category": "release_not_identified",
+    "quote": null,
+    "coder_value_before_gate": null
+   },
+   "second_check": {
+    "value": "source_names_dataset_absent_from_dictionary",
+    "category": "dataset_absent_from_dictionary",
+    "quote": "Excluding individuals with pre‐existing dementia, we included 3015 participants with diabetes and they had available Olink blood proteomics data (approximately 3000 proteins).",
+    "quote_from_another_row": null
+   },
+   "reread": {
+    "row": "outcome_1",
+    "resolved_value": "source_names_dataset_absent_from_dictionary",
+    "unresolved_reason": "dataset_absent_from_dictionary",
+    "resolution_note": "Rule C: sentence 2 of p001 defines the authors' own prospective cohort analysis of UK Biobank individual-level data by more than a number of participants (baseline assessments 2006 to 2010, follow-up until September 1, 2023; sentence 3 adds the exclusion of pre-existing dementia, the restriction to participants with diabetes and Olink proteomics); no accession, citation or release of a published UK Biobank GWAS is given, so no dictionary row is identified.",
+    "identification_basis": null,
+    "source_read": "abstract",
+    "passage_id": "p001",
+    "quote": "Method This prospective cohort study utilized UK Biobank data, encompassing baseline assessments from 2006 to 2010 and follow‐up until September 1, 2023.",
+    "citations_claim": "claims/W4406200416.yaml#outcome_1_r",
+    "companion_source": false,
+    "reference_label": null,
+    "reference_quote": null,
+    "reference_citations_claim": null,
+    "dataset_named_in_source": "UK Biobank"
+   },
+   "gate": {
+    "side": "outcome",
+    "name_as_written": "UK Biobank",
+    "value": "source_names_dataset_absent_from_dictionary",
+    "passes": true,
+    "failures": [],
+    "warnings": [],
+    "machine_basis": [],
+    "reference_verified_by": null
+   },
+   "value_that_stands": "source_names_dataset_absent_from_dictionary",
+   "unresolved_reason": "dataset_absent_from_dictionary",
+   "resolution_note": "Rule C: sentence 2 of p001 defines the authors' own prospective cohort analysis of UK Biobank individual-level data by more than a number of participants (baseline assessments 2006 to 2010, follow-up until September 1, 2023; sentence 3 adds the exclusion of pre-existing dementia, the restriction to participants with diabetes and Olink proteomics); no accession, citation or release of a published UK Biobank GWAS is given, so no dictionary row is identified."
+  },
+  {
+   "row": "W4406210404#outcome_1",
+   "class": "both_unresolved_different_value",
+   "first_check": {
+    "value": "not_stated_in_source",
+    "category": "release_not_identified",
+    "quote": null,
+    "coder_value_before_gate": null
+   },
+   "second_check": {
+    "value": "source_names_dataset_absent_from_dictionary",
+    "category": "dataset_absent_from_dictionary",
+    "quote": "Methods We used data of 2,923 plasma proteins from 51,296 non‐demented middle‐aged adults in the UK Biobank with 15 years of follow‐up.",
+    "quote_from_another_row": null
+   },
+   "reread": {
+    "row": "outcome_1",
+    "resolved_value": "source_names_dataset_absent_from_dictionary",
+    "unresolved_reason": "dataset_absent_from_dictionary",
+    "resolution_note": "Rule C: sentence 2 of p001 defines the authors' own analysis of UK Biobank individual-level data by more than a number of participants (2,923 plasma proteins measured in 51,296 non-demented middle-aged adults with 15 years of follow-up; sentence 3 adds the Cox proportional hazard models); no accession, citation or release of a published UK Biobank GWAS is given, so no dictionary row is identified.",
+    "identification_basis": null,
+    "source_read": "abstract",
+    "passage_id": "p001",
+    "quote": "Methods We used data of 2,923 plasma proteins from 51,296 non‐demented middle‐aged adults in the UK Biobank with 15 years of follow‐up.",
+    "citations_claim": "claims/W4406210404.yaml#outcome_1_r",
+    "companion_source": false,
+    "reference_label": null,
+    "reference_quote": null,
+    "reference_citations_claim": null,
+    "dataset_named_in_source": "UK Biobank"
+   },
+   "gate": {
+    "side": "outcome",
+    "name_as_written": "UK Biobank",
+    "value": "source_names_dataset_absent_from_dictionary",
+    "passes": true,
+    "failures": [],
+    "warnings": [],
+    "machine_basis": [],
+    "reference_verified_by": null
+   },
+   "value_that_stands": "source_names_dataset_absent_from_dictionary",
+   "unresolved_reason": "dataset_absent_from_dictionary",
+   "resolution_note": "Rule C: sentence 2 of p001 defines the authors' own analysis of UK Biobank individual-level data by more than a number of participants (2,923 plasma proteins measured in 51,296 non-demented middle-aged adults with 15 years of follow-up; sentence 3 adds the Cox proportional hazard models); no accession, citation or release of a published UK Biobank GWAS is given, so no dictionary row is identified."
+  },
+  {
+   "row": "38076879#pqtl_1",
+   "class": "both_unresolved_different_value",
+   "first_check": {
+    "value": "not_stated_in_source",
+    "category": "release_not_identified",
+    "quote": null,
+    "coder_value_before_gate": null
+   },
+   "second_check": {
+    "value": "source_names_dataset_absent_from_dictionary",
+    "category": "dataset_absent_from_dictionary",
+    "quote": "METHODS: We analysed 2,941 plasma proteins in 43,978 European participants from UK Biobank.",
+    "quote_from_another_row": null
+   },
+   "reread": {
+    "row": "pqtl_1",
+    "resolved_value": "source_names_dataset_absent_from_dictionary",
+    "unresolved_reason": "dataset_absent_from_dictionary",
+    "resolution_note": "Rule C: sentence 2 of p001 gives the authors' own analysis of UK Biobank individual-level data, defined by a measurement (2,941 plasma proteins) and an ancestry beyond the number of participants, and sentence 3 says the authors ran their own GWAS of the proteins; 43,978 equals no dictionary row's N and no release identifier or citation is given.",
+    "identification_basis": null,
+    "source_read": "abstract",
+    "passage_id": "p001",
+    "quote": "METHODS: We analysed 2,941 plasma proteins in 43,978 European participants from UK Biobank.",
+    "citations_claim": "claims/38076879.yaml#pqtl_1_r",
+    "companion_source": false,
+    "reference_label": null,
+    "reference_quote": null,
+    "reference_citations_claim": null,
+    "dataset_named_in_source": "UK Biobank"
+   },
+   "gate": {
+    "side": "pqtl",
+    "name_as_written": "UK Biobank",
+    "value": "source_names_dataset_absent_from_dictionary",
+    "passes": true,
+    "failures": [],
+    "warnings": [],
+    "machine_basis": [],
+    "reference_verified_by": null
+   },
+   "value_that_stands": "source_names_dataset_absent_from_dictionary",
+   "unresolved_reason": "dataset_absent_from_dictionary",
+   "resolution_note": "Rule C: sentence 2 of p001 gives the authors' own analysis of UK Biobank individual-level data, defined by a measurement (2,941 plasma proteins) and an ancestry beyond the number of participants, and sentence 3 says the authors ran their own GWAS of the proteins; 43,978 equals no dictionary row's N and no release identifier or citation is given."
+  },
+  {
+   "row": "39806440#outcome_1",
+   "class": "disagree_first_unresolved_second_coded",
+   "first_check": {
+    "value": "not_stated_in_source",
+    "category": "release_not_identified",
+    "quote": null,
+    "coder_value_before_gate": null
+   },
+   "second_check": {
+    "value": "FinnGen R10",
+    "category": null,
+    "quote": "Asthma data for external validation were obtained from the FinnGen cohort [26] (23,834 patients and 228,085 control subjects of European ancestry; https://www.finngen.fi/en).",
+    "quote_from_another_row": null
+   },
+   "reread": {
+    "row": "outcome_1",
+    "resolved_value": "not_stated_in_source",
+    "unresolved_reason": "release_not_identified",
+    "resolution_note": "The sentence of p001 names the FinnGen cohort with case and control counts and attributes it to reference 26; the entry of reference 26 has no DOI, PMID or PMC identifier, so it cannot carry a code, and the sentence itself gives no release number (the release is written only in the entry); the counts equal no row's N.",
+    "identification_basis": null,
+    "source_read": null,
+    "passage_id": null,
+    "quote": null,
+    "citations_claim": null,
+    "companion_source": false,
+    "reference_label": null,
+    "reference_quote": null,
+    "reference_citations_claim": null,
+    "dataset_named_in_source": null
+   },
+   "gate": {
+    "side": "outcome",
+    "name_as_written": "FinnGen cohort",
+    "value": "not_stated_in_source",
+    "passes": true,
+    "failures": [],
+    "warnings": [],
+    "machine_basis": [],
+    "reference_verified_by": null
+   },
+   "value_that_stands": "not_stated_in_source",
+   "unresolved_reason": "release_not_identified",
+   "resolution_note": "The sentence of p001 names the FinnGen cohort with case and control counts and attributes it to reference 26; the entry of reference 26 has no DOI, PMID or PMC identifier, so it cannot carry a code, and the sentence itself gives no release number (the release is written only in the entry); the counts equal no row's N."
+  },
+  {
+   "row": "39806440#outcome_2",
+   "class": "both_unresolved_different_value",
+   "first_check": {
+    "value": "not_stated_in_source",
+    "category": "release_not_identified",
+    "quote": null,
+    "coder_value_before_gate": null
+   },
+   "second_check": {
+    "value": "source_names_dataset_absent_from_dictionary",
+    "category": "dataset_absent_from_dictionary",
+    "quote": "Asthma data were derived from the GWAS data of the UK Biobank, comprising 56,167 patients and 352,255 control subjects of European ancestry [25].",
+    "quote_from_another_row": null
+   },
+   "reread": {
+    "row": "outcome_2",
+    "resolved_value": "source_names_dataset_absent_from_dictionary",
+    "unresolved_reason": "dataset_absent_from_dictionary",
+    "resolution_note": "Sentence 1 of p001 attributes the asthma GWAS data of the UK Biobank (56,167 patients, 352,255 controls, European ancestry) to reference 25, whose entry (DOI 10.1038/s42003-021-02227-6, PMID 34103634) is the source of no outcome dictionary row; the counts equal no candidate row's, so the passage names a specific GWAS for which the dictionary has no row.",
+    "identification_basis": null,
+    "source_read": "full_text",
+    "passage_id": "p001",
+    "quote": "Asthma data were derived from the GWAS data of the UK Biobank, comprising 56,167 patients and 352,255 control subjects of European ancestry [25].",
+    "citations_claim": "claims/39806440.yaml#outcome_2_r",
+    "companion_source": false,
+    "reference_label": null,
+    "reference_quote": null,
+    "reference_citations_claim": null,
+    "dataset_named_in_source": "GWAS data of the UK Biobank"
+   },
+   "gate": {
+    "side": "outcome",
+    "name_as_written": "UK Biobank",
+    "value": "source_names_dataset_absent_from_dictionary",
+    "passes": true,
+    "failures": [],
+    "warnings": [],
+    "machine_basis": [],
+    "reference_verified_by": null
+   },
+   "value_that_stands": "source_names_dataset_absent_from_dictionary",
+   "unresolved_reason": "dataset_absent_from_dictionary",
+   "resolution_note": "Sentence 1 of p001 attributes the asthma GWAS data of the UK Biobank (56,167 patients, 352,255 controls, European ancestry) to reference 25, whose entry (DOI 10.1038/s42003-021-02227-6, PMID 34103634) is the source of no outcome dictionary row; the counts equal no candidate row's, so the passage names a specific GWAS for which the dictionary has no row."
+  },
+  {
+   "row": "40462010#outcome_1",
+   "class": "disagree_first_unresolved_second_coded",
+   "first_check": {
+    "value": "not_stated_in_source",
+    "category": "release_not_identified",
+    "quote": null,
+    "coder_value_before_gate": null
+   },
+   "second_check": {
+    "value": "UK Biobank SAIGE PheWeb (Zhou et al. 2018)",
+    "category": null,
+    "quote": "To assess potential pleiotropic effects, we conducted a phenome-wide association study (Phe-WAS) using 783 phenotypes from the UK Biobank-SAIGE database.",
+    "quote_from_another_row": null
+   },
+   "reread": {
+    "row": "outcome_1",
+    "resolved_value": "UK Biobank SAIGE PheWeb (Zhou et al. 2018)",
+    "unresolved_reason": null,
+    "resolution_note": "Sentence 1 of p001 names the resource itself, 'UK Biobank-SAIGE database', which is the dictionary row's name UKB-SAIGE in another written form (rule A); it is the name of one GWAS resource and not a cohort name (rule D) or a portal name alone (rule C2), SAIGE separates it from the TOPMed-imputed PheWeb row, and no passage of the paper conflicts.",
+    "identification_basis": "release_identifier",
+    "source_read": "full_text",
+    "passage_id": "p001",
+    "quote": "To assess potential pleiotropic effects, we conducted a phenome-wide association study (Phe-WAS) using 783 phenotypes from the UK Biobank-SAIGE database.",
+    "citations_claim": "claims/40462010.yaml#outcome_1_r",
+    "companion_source": false,
+    "reference_label": null,
+    "reference_quote": null,
+    "reference_citations_claim": null,
+    "dataset_named_in_source": null
+   },
+   "gate": {
+    "side": "outcome",
+    "name_as_written": "UK Biobank-SAIGE database",
+    "value": "UK Biobank SAIGE PheWeb (Zhou et al. 2018)",
+    "passes": false,
+    "failures": [
+     "no_identifier_of_the_coded_row_in_the_pinned_material"
+    ],
+    "warnings": [],
+    "machine_basis": [],
+    "reference_verified_by": null
+   },
+   "value_that_stands": "not_stated_in_source",
+   "unresolved_reason": "release_not_identified",
+   "resolution_note": "Sentence 1 of p001 names the resource itself, 'UK Biobank-SAIGE database', which is the dictionary row's name UKB-SAIGE in another written form (rule A); it is the name of one GWAS resource and not a cohort name (rule D) or a portal name alone (rule C2), SAIGE separates it from the TOPMed-imputed PheWeb row, and no passage of the paper conflicts. [the reread's value 'UK Biobank SAIGE PheWeb (Zhou et al. 2018)' failed the gate: no_identifier_of_the_coded_row_in_the_pinned_material; the row is unresolved]"
+  },
+  {
+   "row": "40462010#pqtl_2",
+   "class": "disagree_first_unresolved_second_coded",
+   "first_check": {
+    "value": "not_stated_in_source",
+    "category": "release_not_identified",
+    "quote": "Iceland Decode Database: 4,907 aptamers in 35,559 Icelandic individuals (PMID: 34,857,953).",
+    "coder_value_before_gate": "deCODE SomaScan v4 (Ferkingstad 2021)"
+   },
+   "second_check": {
+    "value": "deCODE SomaScan v4 (Ferkingstad 2021)",
+    "category": null,
+    "quote": "Iceland Decode Database: 4,907 aptamers in 35,559 Icelandic individuals (PMID: 34,857,953).",
+    "quote_from_another_row": null
+   },
+   "reread": {
+    "row": "pqtl_2",
+    "resolved_value": "deCODE SomaScan v4 (Ferkingstad 2021)",
+    "unresolved_reason": null,
+    "resolution_note": "The sentence of p001 gives the exact N 35,559 Icelandic individuals with the platform count 4,907 aptamers, which together match only the Ferkingstad 2021 row (the Eldjarn 2023 row has 35,892), and it also writes that row's PMID 34857953 (with thousands separators); p002 and p003 repeat the same N and aptamer count and nothing conflicts.",
+    "identification_basis": "exact_n_with_platform_or_year",
+    "source_read": "full_text",
+    "passage_id": "p001",
+    "quote": "Iceland Decode Database: 4,907 aptamers in 35,559 Icelandic individuals (PMID: 34,857,953).",
+    "citations_claim": "claims/40462010.yaml#pqtl_2_r",
+    "companion_source": false,
+    "reference_label": null,
+    "reference_quote": null,
+    "reference_citations_claim": null,
+    "dataset_named_in_source": null
+   },
+   "gate": {
+    "side": "pqtl",
+    "name_as_written": "Iceland decode database",
+    "value": "deCODE SomaScan v4 (Ferkingstad 2021)",
+    "passes": false,
+    "failures": [
+     "no_identifier_of_the_coded_row_in_the_pinned_material"
+    ],
+    "warnings": [],
+    "machine_basis": [],
+    "reference_verified_by": null
+   },
+   "value_that_stands": "not_stated_in_source",
+   "unresolved_reason": "release_not_identified",
+   "resolution_note": "The sentence of p001 gives the exact N 35,559 Icelandic individuals with the platform count 4,907 aptamers, which together match only the Ferkingstad 2021 row (the Eldjarn 2023 row has 35,892), and it also writes that row's PMID 34857953 (with thousands separators); p002 and p003 repeat the same N and aptamer count and nothing conflicts. [the reread's value 'deCODE SomaScan v4 (Ferkingstad 2021)' failed the gate: no_identifier_of_the_coded_row_in_the_pinned_material; the row is unresolved]"
+  },
+  {
+   "row": "40934961#outcome_1",
+   "class": "both_unresolved_different_value",
+   "first_check": {
+    "value": "source_names_dataset_absent_from_dictionary",
+    "category": "dataset_absent_from_dictionary",
+    "quote": "Subsequently, we performed one-sample Mendelian randomization (MR) using individual-level genomic data from the UK Biobank and pQTL summary statistics from the UKB-PPP, applying a two-stage least squares approach.",
+    "coder_value_before_gate": null
+   },
+   "second_check": {
+    "value": "not_stated_in_source",
+    "category": "release_not_identified",
+    "quote": "For two-sample MR, we utilized pQTL data from deCODE and CKD GWAS summary statistics derived from the UK Biobank, applying either the Wald ratio or inverse variance weighted (IVW) method.",
+    "quote_from_another_row": null
+   },
+   "reread": {
+    "row": "outcome_1",
+    "resolved_value": "source_names_dataset_absent_from_dictionary",
+    "unresolved_reason": "dataset_absent_from_dictionary",
+    "resolution_note": "Rule C, step 3 of the order of decision: sentence 2 of p001 (as given under this row, sentence 4 of the abstract) defines the authors' own analysis of UK Biobank individual-level genomic data by its procedure (one-sample MR, two-stage least squares), and the preceding sentence describes their Cox models on UK Biobank proteomic data; the other mention, CKD GWAS summary statistics derived from the UK Biobank, is a name alone and identifies no dictionary row, so no identifier conflicts.",
+    "identification_basis": null,
+    "source_read": "abstract",
+    "passage_id": "p001",
+    "quote": "Subsequently, we performed one-sample Mendelian randomization (MR) using individual-level genomic data from the UK Biobank and pQTL summary statistics from the UKB-PPP, applying a two-stage least squares approach.",
+    "citations_claim": "claims/40934961.yaml#outcome_1_r",
+    "companion_source": false,
+    "reference_label": null,
+    "reference_quote": null,
+    "reference_citations_claim": null,
+    "dataset_named_in_source": "UK Biobank"
+   },
+   "gate": {
+    "side": "outcome",
+    "name_as_written": "UK Biobank",
+    "value": "source_names_dataset_absent_from_dictionary",
+    "passes": true,
+    "failures": [],
+    "warnings": [],
+    "machine_basis": [],
+    "reference_verified_by": null
+   },
+   "value_that_stands": "source_names_dataset_absent_from_dictionary",
+   "unresolved_reason": "dataset_absent_from_dictionary",
+   "resolution_note": "Rule C, step 3 of the order of decision: sentence 2 of p001 (as given under this row, sentence 4 of the abstract) defines the authors' own analysis of UK Biobank individual-level genomic data by its procedure (one-sample MR, two-stage least squares), and the preceding sentence describes their Cox models on UK Biobank proteomic data; the other mention, CKD GWAS summary statistics derived from the UK Biobank, is a name alone and identifies no dictionary row, so no identifier conflicts."
+  },
+  {
+   "row": "41057938#outcome_1",
+   "class": "both_unresolved_different_value",
+   "first_check": {
+    "value": "source_names_dataset_absent_from_dictionary",
+    "category": "dataset_absent_from_dictionary",
+    "quote": "GWAS data for OM were obtained from the UK Biobank [28], which includes 4,836 patients with OM and 486,484 healthy controls.",
+    "coder_value_before_gate": null
+   },
+   "second_check": {
+    "value": "not_stated_in_source",
+    "category": "release_not_identified",
+    "quote": "GWAS data for OM were obtained from the UK Biobank [28], which includes 4,836 patients with OM and 486,484 healthy controls.",
+    "quote_from_another_row": null
+   },
+   "reread": {
+    "row": "outcome_1",
+    "resolved_value": "not_stated_in_source",
+    "unresolved_reason": "release_not_identified",
+    "resolution_note": "Sentence 1 of p001 gives the UK Biobank name with case and control counts (rule I1) and reference 28, whose entry is an exome-sequencing study of UK Biobank participants that is the source of no dictionary row and does not define an osteomyelitis GWAS; sentence 2 gives the IEU Open GWAS platform without an accession (rule C2); p003 to p007 give the name alone. No accession, release or uniquely identifying citation, and no authors' own analysis, so neither a dictionary row nor an absent dataset is named.",
+    "identification_basis": null,
+    "source_read": null,
+    "passage_id": null,
+    "quote": null,
+    "citations_claim": null,
+    "companion_source": false,
+    "reference_label": null,
+    "reference_quote": null,
+    "reference_citations_claim": null,
+    "dataset_named_in_source": null
+   },
+   "gate": {
+    "side": "outcome",
+    "name_as_written": "UK Biobank",
+    "value": "not_stated_in_source",
+    "passes": true,
+    "failures": [],
+    "warnings": [],
+    "machine_basis": [],
+    "reference_verified_by": null
+   },
+   "value_that_stands": "not_stated_in_source",
+   "unresolved_reason": "release_not_identified",
+   "resolution_note": "Sentence 1 of p001 gives the UK Biobank name with case and control counts (rule I1) and reference 28, whose entry is an exome-sequencing study of UK Biobank participants that is the source of no dictionary row and does not define an osteomyelitis GWAS; sentence 2 gives the IEU Open GWAS platform without an accession (rule C2); p003 to p007 give the name alone. No accession, release or uniquely identifying citation, and no authors' own analysis, so neither a dictionary row nor an absent dataset is named."
+  },
+  {
+   "row": "41220142#pqtl_2",
+   "class": "disagree_first_unresolved_second_coded",
+   "first_check": {
+    "value": "not_stated_in_source",
+    "category": "release_not_identified",
+    "quote": null,
+    "coder_value_before_gate": null
+   },
+   "second_check": {
+    "value": "deCODE SomaScan v4 (Ferkingstad 2021)",
+    "category": null,
+    "quote": "Genome‐wide association studies (GWASs) were conducted in the past using 4907 aptamers to measure plasma protein levels in 35,559 Icelanders.",
+    "quote_from_another_row": null
+   },
+   "reread": {
+    "row": "pqtl_2",
+    "resolved_value": "deCODE SomaScan v4 (Ferkingstad 2021)",
+    "unresolved_reason": null,
+    "resolution_note": "Sentences 2 to 4 of p001 form one description of the decode data (rule F): sentence 2 names the decode database and sentence 3 gives the exact N 35,559 Icelanders with the platform count 4907 aptamers, which together match only the Ferkingstad 2021 row (the Eldjarn 2023 row has 35,892); p002 and p003 give only the deCODE summary-data URL and nothing conflicts.",
+    "identification_basis": "exact_n_with_platform_or_year",
+    "source_read": "full_text",
+    "passage_id": "p001",
+    "quote": "Genome‐wide association studies (GWASs) were conducted in the past using 4907 aptamers to measure plasma protein levels in 35,559 Icelanders.",
+    "citations_claim": "claims/41220142.yaml#pqtl_2_r",
+    "companion_source": false,
+    "reference_label": null,
+    "reference_quote": null,
+    "reference_citations_claim": null,
+    "dataset_named_in_source": null
+   },
+   "gate": {
+    "side": "pqtl",
+    "name_as_written": "decode",
+    "value": "deCODE SomaScan v4 (Ferkingstad 2021)",
+    "passes": false,
+    "failures": [
+     "no_identifier_of_the_coded_row_in_the_pinned_material"
+    ],
+    "warnings": [],
+    "machine_basis": [],
+    "reference_verified_by": null
+   },
+   "value_that_stands": "not_stated_in_source",
+   "unresolved_reason": "release_not_identified",
+   "resolution_note": "Sentences 2 to 4 of p001 form one description of the decode data (rule F): sentence 2 names the decode database and sentence 3 gives the exact N 35,559 Icelanders with the platform count 4907 aptamers, which together match only the Ferkingstad 2021 row (the Eldjarn 2023 row has 35,892); p002 and p003 give only the deCODE summary-data URL and nothing conflicts. [the reread's value 'deCODE SomaScan v4 (Ferkingstad 2021)' failed the gate: no_identifier_of_the_coded_row_in_the_pinned_material; the row is unresolved]"
+  },
+  {
+   "row": "41487707#outcome_1",
+   "class": "disagree_first_unresolved_second_coded",
+   "first_check": {
+    "value": "not_stated_in_source",
+    "category": "release_not_identified",
+    "quote": null,
+    "coder_value_before_gate": null
+   },
+   "second_check": {
+    "value": "FinnGen R11",
+    "category": null,
+    "quote": "The CD data is derived from the DF11 version of the Finnish biobank study, released on June 24, 2024 [21].",
+    "quote_from_another_row": null
+   },
+   "reread": {
+    "row": "outcome_1",
+    "resolved_value": "FinnGen R11",
+    "unresolved_reason": null,
+    "resolution_note": "Sentence 1 of p002 writes the release itself, 'the DF11 version' of the Finnish biobank study, for the outcome (CD) data, which is data freeze 11 in another written form (rule A); the study is the FinnGen study by the sentence's reference 21 (titled FinnGen; its entry DOI is not the dictionary row's, so the row is coded from the sentence and not as a companion source). The 434,744 participants are an endpoint-specific N (rule H), and DF10 in p001 describes the pQTL data, not the outcome data, so nothing conflicts.",
+    "identification_basis": "release_identifier",
+    "source_read": "full_text",
+    "passage_id": "p002",
+    "quote": "The CD data is derived from the DF11 version of the Finnish biobank study, released on June 24, 2024 [21].",
+    "citations_claim": "claims/41487707.yaml#outcome_1_r",
+    "companion_source": false,
+    "reference_label": null,
+    "reference_quote": null,
+    "reference_citations_claim": null,
+    "dataset_named_in_source": null
+   },
+   "gate": {
+    "side": "outcome",
+    "name_as_written": "Finnish biobank",
+    "value": "FinnGen R11",
+    "passes": false,
+    "failures": [
+     "no_identifier_of_the_coded_row_in_the_pinned_material"
+    ],
+    "warnings": [],
+    "machine_basis": [],
+    "reference_verified_by": null
+   },
+   "value_that_stands": "not_stated_in_source",
+   "unresolved_reason": "release_not_identified",
+   "resolution_note": "Sentence 1 of p002 writes the release itself, 'the DF11 version' of the Finnish biobank study, for the outcome (CD) data, which is data freeze 11 in another written form (rule A); the study is the FinnGen study by the sentence's reference 21 (titled FinnGen; its entry DOI is not the dictionary row's, so the row is coded from the sentence and not as a companion source). The 434,744 participants are an endpoint-specific N (rule H), and DF10 in p001 describes the pQTL data, not the outcome data, so nothing conflicts. [the reread's value 'FinnGen R11' failed the gate: no_identifier_of_the_coded_row_in_the_pinned_material; the row is unresolved]"
+  },
+  {
+   "row": "42454155#outcome_1",
+   "class": "disagree_first_unresolved_second_coded",
+   "first_check": {
+    "value": "not_stated_in_source",
+    "category": "conflicting_identifiers",
+    "quote": null,
+    "coder_value_before_gate": null
+   },
+   "second_check": {
+    "value": "FinnGen R12",
+    "category": null,
+    "quote": "GWAS summary statistics for AKI in the discovery cohort were obtained from the FinnGen database (version R12, https://r12.finngen.fi/, GWAS ID: finngen_R12_N14_ACUTERENFAIL), comprising 8,383 cases (3,194 females and 5,450 males) and 480,448 controls, with a total of 20,112,606 SNPs.",
+    "quote_from_another_row": null
+   },
+   "reread": {
+    "row": "outcome_1",
+    "resolved_value": "not_stated_in_source",
+    "unresolved_reason": "conflicting_identifiers",
+    "resolution_note": "Step 1 of the order of decision, rule H: sentence 1 of p002 (version R12, finngen_R12_N14_ACUTERENFAIL) and sentence 2 of p004 (version R12, 500,348 individuals) point to FinnGen R12, but sentence 1 of p003 gives 'the Finnish FinnGen R12 database (N=412,181)', an N offered as the size of the database itself that is exactly the release N of FinnGen R10; two identifiers of the row's dataset point to different dictionary rows.",
+    "identification_basis": null,
+    "source_read": null,
+    "passage_id": null,
+    "quote": null,
+    "citations_claim": null,
+    "companion_source": false,
+    "reference_label": null,
+    "reference_quote": null,
+    "reference_citations_claim": null,
+    "dataset_named_in_source": null
+   },
+   "gate": {
+    "side": "outcome",
+    "name_as_written": "FinnGen",
+    "value": "not_stated_in_source",
+    "passes": true,
+    "failures": [],
+    "warnings": [],
+    "machine_basis": [],
+    "reference_verified_by": null
+   },
+   "value_that_stands": "not_stated_in_source",
+   "unresolved_reason": "conflicting_identifiers",
+   "resolution_note": "Step 1 of the order of decision, rule H: sentence 1 of p002 (version R12, finngen_R12_N14_ACUTERENFAIL) and sentence 2 of p004 (version R12, 500,348 individuals) point to FinnGen R12, but sentence 1 of p003 gives 'the Finnish FinnGen R12 database (N=412,181)', an N offered as the size of the database itself that is exactly the release N of FinnGen R10; two identifiers of the row's dataset point to different dictionary rows."
+  },
+  {
+   "row": "PPR1123489#pqtl_1",
+   "class": "both_unresolved_different_value",
+   "first_check": {
+    "value": "not_stated_in_source",
+    "category": "release_not_identified",
+    "quote": null,
+    "coder_value_before_gate": null
+   },
+   "second_check": {
+    "value": "source_names_dataset_absent_from_dictionary",
+    "category": "dataset_absent_from_dictionary",
+    "quote": "We systematically mapped cis -vQTLs for 2,923 plasma proteins in 52,706 UK Biobank participants of European (EUR, N = 45,486), African (AFR, N = 1,336), and Central/South Asian (CSA, N = 934) ancestries, identifying 2,162 vQTLs (P VE < 5 x 10 -8 ) for 781 proteins.",
+    "quote_from_another_row": null
+   },
+   "reread": {
+    "row": "pqtl_1",
+    "resolved_value": "source_names_dataset_absent_from_dictionary",
+    "unresolved_reason": "dataset_absent_from_dictionary",
+    "resolution_note": "Rule C: sentence 2 of p001 defines the authors' own analysis of UK Biobank individual-level data by its procedure and measurement (cis-vQTL mapping for 2,923 plasma proteins, by ancestry group), beyond a number of participants; 52,706 and the per-ancestry counts equal no dictionary row's N and no release identifier or citation is given.",
+    "identification_basis": null,
+    "source_read": "abstract",
+    "passage_id": "p001",
+    "quote": "We systematically mapped cis -vQTLs for 2,923 plasma proteins in 52,706 UK Biobank participants of European (EUR, N = 45,486), African (AFR, N = 1,336), and Central/South Asian (CSA, N = 934) ancestries, identifying 2,162 vQTLs (P VE < 5 x 10 -8 ) for 781 proteins.",
+    "citations_claim": "claims/PPR1123489.yaml#pqtl_1_r",
+    "companion_source": false,
+    "reference_label": null,
+    "reference_quote": null,
+    "reference_citations_claim": null,
+    "dataset_named_in_source": "UK Biobank"
+   },
+   "gate": {
+    "side": "pqtl",
+    "name_as_written": "UK Biobank",
+    "value": "source_names_dataset_absent_from_dictionary",
+    "passes": true,
+    "failures": [],
+    "warnings": [],
+    "machine_basis": [],
+    "reference_verified_by": null
+   },
+   "value_that_stands": "source_names_dataset_absent_from_dictionary",
+   "unresolved_reason": "dataset_absent_from_dictionary",
+   "resolution_note": "Rule C: sentence 2 of p001 defines the authors' own analysis of UK Biobank individual-level data by its procedure and measurement (cis-vQTL mapping for 2,923 plasma proteins, by ancestry group), beyond a number of participants; 52,706 and the per-ancestry counts equal no dictionary row's N and no release identifier or citation is given."
+  },
+  {
+   "row": "PPR1279015#pqtl_1",
+   "class": "both_unresolved_different_value",
+   "first_check": {
+    "value": "not_stated_in_source",
+    "category": "release_not_identified",
+    "quote": null,
+    "coder_value_before_gate": null
+   },
+   "second_check": {
+    "value": "source_names_dataset_absent_from_dictionary",
+    "category": "dataset_absent_from_dictionary",
+    "quote": "Using 2,920 plasma proteins measured in 52,615 UK Biobank participants, we identified 830 protein-disorder associations involving 574 proteins.",
+    "quote_from_another_row": null
+   },
+   "reread": {
+    "row": "pqtl_1",
+    "resolved_value": "source_names_dataset_absent_from_dictionary",
+    "unresolved_reason": "dataset_absent_from_dictionary",
+    "resolution_note": "Rule C: sentence 2 of p001 defines the authors' own proteomic analysis of UK Biobank individual-level data by a measurement and a procedure (2,920 plasma proteins measured, protein-disorder associations), beyond a number of participants; 52,615 equals no dictionary row's N and no release identifier or citation is given.",
+    "identification_basis": null,
+    "source_read": "abstract",
+    "passage_id": "p001",
+    "quote": "Using 2,920 plasma proteins measured in 52,615 UK Biobank participants, we identified 830 protein-disorder associations involving 574 proteins.",
+    "citations_claim": "claims/PPR1279015.yaml#pqtl_1_r",
+    "companion_source": false,
+    "reference_label": null,
+    "reference_quote": null,
+    "reference_citations_claim": null,
+    "dataset_named_in_source": "UK Biobank"
+   },
+   "gate": {
+    "side": "pqtl",
+    "name_as_written": "UK Biobank",
+    "value": "source_names_dataset_absent_from_dictionary",
+    "passes": true,
+    "failures": [],
+    "warnings": [],
+    "machine_basis": [],
+    "reference_verified_by": null
+   },
+   "value_that_stands": "source_names_dataset_absent_from_dictionary",
+   "unresolved_reason": "dataset_absent_from_dictionary",
+   "resolution_note": "Rule C: sentence 2 of p001 defines the authors' own proteomic analysis of UK Biobank individual-level data by a measurement and a procedure (2,920 plasma proteins measured, protein-disorder associations), beyond a number of participants; 52,615 equals no dictionary row's N and no release identifier or citation is given."
+  }
+ ]
+}

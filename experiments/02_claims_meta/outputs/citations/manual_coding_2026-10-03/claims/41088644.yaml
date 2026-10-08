@@ -1,0 +1,12 @@
+source:
+  citation: '41088644'
+  local: sources/41088644.txt
+  sha256: ba24ec026ba8662d4e03091920a6045b34b9cbdb71334b7571b5c1c32eb0b07c
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12517900/fullTextXML
+  note: body as scripts/fetch_fulltext.py rendered it
+claims:
+  pqtl_1_c2:
+    quotes:
+    - exact: Plasma protein data were obtained from the UK Biobank Pharma Proteomics Project (UKB-PPP),
+        which reported pQTL data for 2940 plasma proteins measured in 54,219 UKB participants.[23] The
+        pQTLs are usually located near genes that regulate specific proteins.

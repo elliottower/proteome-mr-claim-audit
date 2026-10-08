@@ -1,0 +1,15 @@
+source:
+  citation: '38361503'
+  local: sources/38361503.txt
+  sha256: e55b7bcc74673047e4b8eba23b21653952480baa6886488d60556b487ec1ba27
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10867226/fullTextXML
+  note: body as scripts/fetch_fulltext.py rendered it
+claims:
+  outcome_1_c2:
+    quotes:
+    - exact: The GWAS data of AMD were obtained from FinnGen (6,157 cases and 288,237 controls) (Kurki
+        et al., 2023) and UK Biobank consortium (3,553 cases and 147,089 controls) (Sudlow et al., 2015).
+  outcome_2_c2:
+    quotes:
+    - exact: The GWAS data of AMD were obtained from FinnGen (6,157 cases and 288,237 controls) (Kurki
+        et al., 2023) and UK Biobank consortium (3,553 cases and 147,089 controls) (Sudlow et al., 2015).

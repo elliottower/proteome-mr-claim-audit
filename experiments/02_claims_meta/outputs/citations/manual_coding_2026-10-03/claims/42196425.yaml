@@ -1,0 +1,54 @@
+source:
+  citation: '42196425'
+  local: sources/42196425.txt
+  sha256: 967e3e075ce1221461689da936d16065123198cb4c4f72a8541a7f69e31b3937
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13206922/fullTextXML
+  note: body as scripts/fetch_fulltext.py rendered it
+claims:
+  outcome_1:
+    quotes:
+    - exact: In the main analysis, we examined RLS GWAS data from the Finngen (R12), comprising 4599 cases
+        and 495,749 controls of European ancestry.
+  pqtl_1:
+    quotes:
+    - exact: For the confirmation dataset, Wingo et al. produced the Banner Sun Health Research Institute
+        (Banner) dataset using the dlPFC from postmortem brain samples of 152 individuals of European
+        Ancestry [18].
+  pqtl_2:
+    quotes:
+    - exact: In the discovery dataset, using dorsal lateral prefrontal cortex (dlPFC) tissues from 376
+        European Ancestry participants, Wingo et al. created the European Ancestry of the Religious Orders
+        Study/Memory and Aging Project (ROSMAP) cohorts [35,36].
+  outcome_1_a2:
+    quotes:
+    - exact: In the main analysis, we examined RLS GWAS data from the Finngen (R12), comprising 4599 cases
+        and 495,749 controls of European ancestry.
+  pqtl_1_a2:
+    quotes:
+    - exact: For the confirmation dataset, Wingo et al. produced the Banner Sun Health Research Institute
+        (Banner) dataset using the dlPFC from postmortem brain samples of 152 individuals of European
+        Ancestry [18].
+  pqtl_2_a2:
+    quotes:
+    - exact: In the discovery dataset, using dorsal lateral prefrontal cortex (dlPFC) tissues from 376
+        European Ancestry participants, Wingo et al. created the European Ancestry of the Religious Orders
+        Study/Memory and Aging Project (ROSMAP) cohorts [35,36].
+  outcome_1_c2:
+    quotes:
+    - exact: In the main analysis, we examined RLS GWAS data from the Finngen (R12), comprising 4599 cases
+        and 495,749 controls of European ancestry.
+  pqtl_1_c2:
+    quotes:
+    - exact: For the confirmation dataset, Wingo et al. produced the Banner Sun Health Research Institute
+        (Banner) dataset using the dlPFC from postmortem brain samples of 152 individuals of European
+        Ancestry [18].
+  pqtl_2_c2:
+    quotes:
+    - exact: In the discovery dataset, using dorsal lateral prefrontal cortex (dlPFC) tissues from 376
+        European Ancestry participants, Wingo et al. created the European Ancestry of the Religious Orders
+        Study/Memory and Aging Project (ROSMAP) cohorts [35,36].
+  pqtl_3_c2:
+    quotes:
+    - exact: 'To validate our findings, we used three independent datasets: brain eQTL data from the CommonMind
+        Consortium (CMC), blood eQTL data from the eQTLGen consortium, and plasma pQTL data from the UK
+        Biobank Pharma Proteomics Project (UKB-PPP).'

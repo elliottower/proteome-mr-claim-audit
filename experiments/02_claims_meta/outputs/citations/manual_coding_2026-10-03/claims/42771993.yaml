@@ -1,0 +1,109 @@
+source:
+  citation: '42771993'
+  local: sources/42771993.txt
+  sha256: 48048f2722438f1c32e1c5f058bb9931b2e466a6591c5fa1931a2bd2e2b1c08b
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13631533/fullTextXML
+  note: body as scripts/fetch_fulltext.py rendered it
+claims:
+  outcome_1:
+    quotes:
+    - exact: In this work, we performed a GWAS of senile cataract in the All of Us (AoU) research program
+        cohort, and then conducted ancestry-stratified GWAS meta-analyses of cataract in European and
+        East Asian participants to advance understanding of its genetic architecture.
+  pqtl_1:
+    quotes:
+    - exact: Strong evidence of colocalisation was observed for MTMR3 and NT5DC2 (PP.H4 = 0.85 and 0.96,
+        respectively) (Fig. 3, Supplementary Table S10).Fig. 3Overview of cis-eQTL- and cis-pQTL- based
+        MR and colocalisation analyses for cataract in European and East Asian ancestry. ∗Colocalisation
+        for the CKB pQTL analysis was not performed because regional pQTL summary statistics were unavailable.
+        eQTLGen, eQTLGen Consortium whole-blood meta-analysis; JCTF, Japan COVID-19 Task Force; UKB-PPP,
+        UK Biobank Pharma Proteomics Project; CKB, China Kadoorie Biobank; pQTL, protein quantitative
+        trait loci; eQTL, expression quantitative trait loci.
+  pqtl_3:
+    quotes:
+    - exact: 'For plasma protein instruments in European ancestry, two large pQTL datasets were used:
+        the deCODE proteomics study (n = 35,559) and the UK Biobank Pharma Proteomics Project (UKB-PPP,
+        n = 46,281).21,22 Protein levels were measured using the SomaScan platform in deCODE and the Olink
+        platform in UKB-PPP, as described in the original publications.'
+  outcome_1_a2:
+    quotes:
+    - exact: The present analysis was conducted within the All of Us Researcher Workbench using the Controlled
+        Tier Curated Data Repository (CDR) version 8.
+  pqtl_1_a2:
+    quotes:
+    - exact: Strong evidence of colocalisation was observed for MTMR3 and NT5DC2 (PP.H4 = 0.85 and 0.96,
+        respectively) (Fig. 3, Supplementary Table S10).Fig. 3Overview of cis-eQTL- and cis-pQTL- based
+        MR and colocalisation analyses for cataract in European and East Asian ancestry. ∗Colocalisation
+        for the CKB pQTL analysis was not performed because regional pQTL summary statistics were unavailable.
+        eQTLGen, eQTLGen Consortium whole-blood meta-analysis; JCTF, Japan COVID-19 Task Force; UKB-PPP,
+        UK Biobank Pharma Proteomics Project; CKB, China Kadoorie Biobank; pQTL, protein quantitative
+        trait loci; eQTL, expression quantitative trait loci.
+  pqtl_3_a2:
+    quotes:
+    - exact: 'For plasma protein instruments in European ancestry, two large pQTL datasets were used:
+        the deCODE proteomics study (n = 35,559) and the UK Biobank Pharma Proteomics Project (UKB-PPP,
+        n = 46,281).21,22 Protein levels were measured using the SomaScan platform in deCODE and the Olink
+        platform in UKB-PPP, as described in the original publications.'
+  outcome_1_a3:
+    quotes:
+    - exact: In this work, we performed a GWAS of senile cataract in the All of Us (AoU) research program
+        cohort, and then conducted ancestry-stratified GWAS meta-analyses of cataract in European and
+        East Asian participants to advance understanding of its genetic architecture.
+  pqtl_1_a3:
+    quotes:
+    - exact: Strong evidence of colocalisation was observed for MTMR3 and NT5DC2 (PP.H4 = 0.85 and 0.96,
+        respectively) (Fig. 3, Supplementary Table S10).Fig. 3Overview of cis-eQTL- and cis-pQTL- based
+        MR and colocalisation analyses for cataract in European and East Asian ancestry. ∗Colocalisation
+        for the CKB pQTL analysis was not performed because regional pQTL summary statistics were unavailable.
+        eQTLGen, eQTLGen Consortium whole-blood meta-analysis; JCTF, Japan COVID-19 Task Force; UKB-PPP,
+        UK Biobank Pharma Proteomics Project; CKB, China Kadoorie Biobank; pQTL, protein quantitative
+        trait loci; eQTL, expression quantitative trait loci.
+  pqtl_3_a3:
+    quotes:
+    - exact: 'For plasma protein instruments in European ancestry, two large pQTL datasets were used:
+        the deCODE proteomics study (n = 35,559) and the UK Biobank Pharma Proteomics Project (UKB-PPP,
+        n = 46,281).21,22 Protein levels were measured using the SomaScan platform in deCODE and the Olink
+        platform in UKB-PPP, as described in the original publications.'
+  outcome_1_a4:
+    quotes:
+    - exact: In this work, we performed a GWAS of senile cataract in the All of Us (AoU) research program
+        cohort, and then conducted ancestry-stratified GWAS meta-analyses of cataract in European and
+        East Asian participants to advance understanding of its genetic architecture.
+  pqtl_1_a4:
+    quotes:
+    - exact: Strong evidence of colocalisation was observed for MTMR3 and NT5DC2 (PP.H4 = 0.85 and 0.96,
+        respectively) (Fig. 3, Supplementary Table S10).Fig. 3Overview of cis-eQTL- and cis-pQTL- based
+        MR and colocalisation analyses for cataract in European and East Asian ancestry. ∗Colocalisation
+        for the CKB pQTL analysis was not performed because regional pQTL summary statistics were unavailable.
+        eQTLGen, eQTLGen Consortium whole-blood meta-analysis; JCTF, Japan COVID-19 Task Force; UKB-PPP,
+        UK Biobank Pharma Proteomics Project; CKB, China Kadoorie Biobank; pQTL, protein quantitative
+        trait loci; eQTL, expression quantitative trait loci.
+  pqtl_3_a4:
+    quotes:
+    - exact: 'For plasma protein instruments in European ancestry, two large pQTL datasets were used:
+        the deCODE proteomics study (n = 35,559) and the UK Biobank Pharma Proteomics Project (UKB-PPP,
+        n = 46,281).21,22 Protein levels were measured using the SomaScan platform in deCODE and the Olink
+        platform in UKB-PPP, as described in the original publications.'
+  outcome_1_c2:
+    quotes:
+    - exact: Senile cataract cases were ascertained from electronic health record (EHR) data using the
+        All of Us Cohort Builder, based on Systematised Nomenclature of Medicine-Clinical Terms (SNOMED)
+        standard concept identifiers descending from the parent concept “Senile cataract” together with
+        the corresponding mapped source codes from the International Classification of Diseases, Ninth
+        and Tenth Revisions (ICD-9 and ICD-10).
+  pqtl_1_c2:
+    quotes:
+    - exact: For plasma proteins, lead cis-pQTLs were selected from UKB-PPP and deCODE, and additionally
+        from CKB for East Asian ancestry.
+  pqtl_2_c2:
+    quotes:
+    - exact: 'For plasma protein instruments in European ancestry, two large pQTL datasets were used:
+        the deCODE proteomics study (n = 35,559) and the UK Biobank Pharma Proteomics Project (UKB-PPP,
+        n = 46,281).21,22 Protein levels were measured using the SomaScan platform in deCODE and the Olink
+        platform in UKB-PPP, as described in the original publications.'
+  pqtl_3_c2:
+    quotes:
+    - exact: 'For plasma protein instruments in European ancestry, two large pQTL datasets were used:
+        the deCODE proteomics study (n = 35,559) and the UK Biobank Pharma Proteomics Project (UKB-PPP,
+        n = 46,281).21,22 Protein levels were measured using the SomaScan platform in deCODE and the Olink
+        platform in UKB-PPP, as described in the original publications.'

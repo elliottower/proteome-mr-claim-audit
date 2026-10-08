@@ -1,0 +1,21 @@
+source:
+  citation: '36999058'
+  local: sources/36999058.txt
+  sha256: 4cd47168bae76cf1f77baeb116736ba4ebe4471308128163c504093706b62740
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10043178/fullTextXML
+  note: body as scripts/fetch_fulltext.py rendered it
+claims:
+  outcome_1:
+    quotes:
+    - exact: Regarding the genetic instrument for OA, genetic data for OA were obtained from a large meta-analysis
+        of genome-wide association studies (GWASs) from the United Kingdom Biobank (UKB) (Zengini et al.,
+        2018); genotype data is consistent with 16.5 million variants from the United Kingdom Biobank
+        resource, including 345,169 subjects of European ancestry in total, precisely 66,031 OA cases
+        and 279,138 controls.
+  outcome_1_c2:
+    quotes:
+    - exact: Regarding the genetic instrument for OA, genetic data for OA were obtained from a large meta-analysis
+        of genome-wide association studies (GWASs) from the United Kingdom Biobank (UKB) (Zengini et al.,
+        2018); genotype data is consistent with 16.5 million variants from the United Kingdom Biobank
+        resource, including 345,169 subjects of European ancestry in total, precisely 66,031 OA cases
+        and 279,138 controls.

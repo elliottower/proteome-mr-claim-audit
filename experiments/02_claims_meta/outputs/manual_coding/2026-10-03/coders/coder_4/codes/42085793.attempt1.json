@@ -1,0 +1,58 @@
+{
+ "record_id": "42085793",
+ "coder_id": "coder_4",
+ "attempt": 1,
+ "rows": [
+  {
+   "side": "outcome",
+   "name_as_written": "BBJ",
+   "value": "not_stated_in_source",
+   "unresolved_reason": "release_not_identified",
+   "identification_basis": null,
+   "source_read": null,
+   "passage_id": null,
+   "quote": null,
+   "citations_claim": null,
+   "companion_source": false,
+   "reference_label": null,
+   "reference_quote": null,
+   "reference_citations_claim": null,
+   "dataset_named_in_source": null,
+   "coder_note": "BBJ named with no citation, accession or trait-set identifier separating the rows that include it."
+  },
+  {
+   "side": "outcome",
+   "name_as_written": "KoGES",
+   "value": "source_names_dataset_absent_from_dictionary",
+   "unresolved_reason": "dataset_absent_from_dictionary",
+   "identification_basis": null,
+   "source_read": "abstract",
+   "passage_id": "p001",
+   "quote": "We then applied Mendelian randomization leveraging protein quantitative trait loci (pQTL) from the FROM cohort and GWAS summary statistics from East Asian populations (KoGES, BBJ) to evaluate putative causality linking proteins, clinical indicators, and environmental diseases.",
+   "citations_claim": "claims/42085793.yaml#outcome_2",
+   "companion_source": false,
+   "reference_label": null,
+   "reference_quote": null,
+   "reference_citations_claim": null,
+   "dataset_named_in_source": "KoGES",
+   "coder_note": "Sentence names KoGES as a source of the GWAS summary statistics; no dictionary outcome row for it."
+  },
+  {
+   "side": "pqtl",
+   "name_as_written": "FROM cohort",
+   "value": "source_names_dataset_absent_from_dictionary",
+   "unresolved_reason": "dataset_absent_from_dictionary",
+   "identification_basis": null,
+   "source_read": "abstract",
+   "passage_id": "p001",
+   "quote": "We then applied Mendelian randomization leveraging protein quantitative trait loci (pQTL) from the FROM cohort and GWAS summary statistics from East Asian populations (KoGES, BBJ) to evaluate putative causality linking proteins, clinical indicators, and environmental diseases.",
+   "citations_claim": "claims/42085793.yaml#pqtl_1",
+   "companion_source": false,
+   "reference_label": null,
+   "reference_quote": null,
+   "reference_citations_claim": null,
+   "dataset_named_in_source": "FROM cohort",
+   "coder_note": "Sentence names the FROM cohort as the source of the pQTL; no dictionary pQTL row for it."
+  }
+ ]
+}

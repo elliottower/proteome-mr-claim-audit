@@ -1,0 +1,11 @@
+source:
+  citation: '35938019'
+  local: sources/35938019.txt
+  sha256: 7a565c74e91714c9a3840646ad878fd839b87c4649c63def9cc5fd460c2e9eab
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9354522/fullTextXML
+  note: body as scripts/fetch_fulltext.py rendered it
+claims:
+  outcome_1_c2:
+    quotes:
+    - exact: The association analysis of disease outcomes was conducted using publicly available data
+        from the UK Biobank cohort (N ≤ 408,961).

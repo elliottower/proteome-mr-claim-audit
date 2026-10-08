@@ -1,0 +1,13 @@
+{"record_id": "41189196", "coder_id": "coder_2", "attempt": 3,
+ "rows": [
+  {"side": "outcome", "name_as_written": "international IBD genetic consortium (IIBDGC)",
+   "value": "IIBDGC European IBD GWAS (Liu 2015, public summary statistics)", "unresolved_reason": null,
+   "identification_basis": "reference_entry", "source_read": "full_text", "passage_id": "p001",
+   "quote": "The GWAS datasets with IBD were obtained from the international inflammatory bowel disease genetic consortium (IIBDGC).[20] The IBD datasets (encompassing diverse subtypes IBD, UC, and CD) were consisted of individuals of European ancestry.",
+   "citations_claim": "claims/41189196.yaml#outcome_1_a3",
+   "companion_source": true, "reference_label": "20",
+   "reference_quote": "Liu JZ, van Sommeren S, Huang H, et al. ; International Multiple Sclerosis Genetics, I.B.D.G.C. International. Association analyses identify 38 susceptibility loci for inflammatory bowel disease and highlight shared genetic risk across populations. Nat Genet 2015;47:979–86.",
+   "reference_citations_claim": "claims/41189196.references.yaml#outcome_1_a3_ref",
+   "dataset_named_in_source": null,
+   "coder_note": "Reference 20 is Liu 2015 (DOI 10.1038/ng.3359), a source with two dictionary rows; the pinned sentence states the datasets are of European ancestry, which matches only the European GWAS row and not the trans-ethnic row (rule E); the next sentence gives that row's IBD 12,882/21,770 and UC 6968/20,464, and its CD 5950 against the row's 5,956 identifies no other release (rule H)."}
+ ]}

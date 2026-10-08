@@ -1,0 +1,15 @@
+{"record_id": "41261704", "coder_id": "coder_3", "attempt": 4,
+ "rows": [
+  {"side": "outcome", "name_as_written": "IEU OPEN GWAS",
+   "value": "source_names_dataset_absent_from_dictionary",
+   "unresolved_reason": "dataset_absent_from_dictionary",
+   "identification_basis": null,
+   "source_read": "full_text",
+   "passage_id": "p001",
+   "quote": "Seven European populations were identified, and the pre-analysis results revealed that ebi-a-GCST003156 had the best results.",
+   "citations_claim": "claims/41261704.yaml#outcome_1_a4",
+   "companion_source": false,
+   "reference_label": null, "reference_quote": null, "reference_citations_claim": null,
+   "dataset_named_in_source": "ebi-a-GCST003156",
+   "coder_note": "Step 3 (rules B, G, C4 third case): the SLE data from IEU OpenGWAS are the accession ebi-a-GCST003156; no dictionary row lists that accession by prefix, range or identifier, and the passage gives no citation or counts. The repository name alone (C2) is completed by the accession."}
+ ]}

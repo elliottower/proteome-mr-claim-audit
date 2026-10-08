@@ -1,0 +1,24 @@
+{
+ "record_id": "39887658",
+ "coder_id": "coder_4",
+ "attempt": 3,
+ "rows": [
+  {
+   "side": "outcome",
+   "name_as_written": "UK Biobank",
+   "value": "source_names_dataset_absent_from_dictionary",
+   "unresolved_reason": "dataset_absent_from_dictionary",
+   "identification_basis": null,
+   "source_read": "full_text",
+   "passage_id": "p002",
+   "quote": "The case definition of rheumatoid arthritis in the UK Biobank cohort was based on any of three criteria: (1) hospital discharge or death certificate with an International Classification of Diseases diagnostic code for rheumatoid arthritis; (2) any primary care diagnosis of rheumatoid arthritis; or (3) self‐reported diagnosis of rheumatoid arthritis supported by prescription of a disease‐modifying antirheumatic drug at baseline or during follow‐up.",
+   "citations_claim": "claims/39887658.yaml#outcome_1_a3",
+   "companion_source": false,
+   "reference_label": null,
+   "reference_quote": null,
+   "reference_citations_claim": null,
+   "dataset_named_in_source": "UK Biobank cohort",
+   "coder_note": "Rule C: the authors' own analysis of UK Biobank individual-level data, defined by the pinned case definition, the application number (23652, p001), the analytic sample (487,152 individuals, 5,958 cases, p002) and a described procedure (logistic regression, p005); no dictionary row is this dataset."
+  }
+ ]
+}

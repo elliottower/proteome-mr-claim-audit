@@ -1,0 +1,58 @@
+{
+ "record_id": "40369022",
+ "coder_id": "coder_1",
+ "attempt": 1,
+ "rows": [
+  {
+   "side": "outcome",
+   "name_as_written": "UK Biobank",
+   "value": "not_stated_in_source",
+   "unresolved_reason": "release_not_identified",
+   "identification_basis": null,
+   "source_read": null,
+   "passage_id": null,
+   "quote": null,
+   "citations_claim": null,
+   "companion_source": false,
+   "reference_label": null,
+   "reference_quote": null,
+   "reference_citations_claim": null,
+   "dataset_named_in_source": null,
+   "coder_note": "UK Biobank named as the cohort behind antibody response GWAS taken from the GWAS catalog, cited to the general resource paper; no dictionary release identified."
+  },
+  {
+   "side": "pqtl",
+   "name_as_written": "FinnGen R10 dataset",
+   "value": "source_names_dataset_absent_from_dictionary",
+   "unresolved_reason": "dataset_absent_from_dictionary",
+   "identification_basis": null,
+   "source_read": "full_text",
+   "passage_id": "p002",
+   "quote": "The data for rheumatoid arthritis were sourced from the FinnGen R10 dataset, which included 14,818 cases and 287,796 controls21.",
+   "citations_claim": "claims/40369022.yaml#pqtl_1",
+   "companion_source": false,
+   "reference_label": null,
+   "reference_quote": null,
+   "reference_citations_claim": null,
+   "dataset_named_in_source": "FinnGen R10 dataset",
+   "coder_note": "Row is on the pqtl side; the passages name the FinnGen R10 dataset as the disease data, and no pqtl dictionary row is for FinnGen."
+  },
+  {
+   "side": "pqtl",
+   "name_as_written": "UK Biobank",
+   "value": "not_stated_in_source",
+   "unresolved_reason": "release_not_identified",
+   "identification_basis": null,
+   "source_read": null,
+   "passage_id": null,
+   "quote": null,
+   "citations_claim": null,
+   "companion_source": false,
+   "reference_label": null,
+   "reference_quote": null,
+   "reference_citations_claim": null,
+   "dataset_named_in_source": null,
+   "coder_note": "Row is on the pqtl side; the passages mention UK Biobank only as a cohort and as the source of antibody measurements; no protein data release identified."
+  }
+ ]
+}

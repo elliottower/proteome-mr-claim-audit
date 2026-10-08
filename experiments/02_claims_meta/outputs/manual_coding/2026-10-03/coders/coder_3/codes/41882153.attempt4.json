@@ -1,0 +1,15 @@
+{"record_id": "41882153", "coder_id": "coder_3", "attempt": 4,
+ "rows": [
+  {"side": "outcome", "name_as_written": "UK Biobank",
+   "value": "source_names_dataset_absent_from_dictionary",
+   "unresolved_reason": "dataset_absent_from_dictionary",
+   "identification_basis": null,
+   "source_read": "full_text",
+   "passage_id": "p026",
+   "quote": "The data from UK Biobank was obtained from the UK Biobank Resource under application numbers 42,468 and 45,052.",
+   "citations_claim": "claims/41882153.yaml#outcome_1_a4",
+   "companion_source": false,
+   "reference_label": null, "reference_quote": null, "reference_citations_claim": null,
+   "dataset_named_in_source": "UK Biobank Resource under application numbers 42,468 and 45,052",
+   "coder_note": "Step 3 (rule C): the UK Biobank outcome data are the authors' own analysis of individual-level data, defined by application numbers (42,468 and 45,052), a phenotype definition (IHD cases from record linkage to hospitalization and death records and a nurse-led interview, p034) and described procedures (SNP associations with IHD in men, own GWAS with REGENIE, p029-p030). For adjudication: for total cholesterol, fasting glucose and LDL-cholesterol p032 uses Neale Lab summary statistics in men (https://www.nealelab.is/uk-biobank); that address is shared by the two Neale lab rows and no round is stated, so it identifies neither and steps 1 and 2 do not apply. Reference 52 (Mahajan 2018) is the DIAGRAM diabetes source, not this row."}
+ ]}

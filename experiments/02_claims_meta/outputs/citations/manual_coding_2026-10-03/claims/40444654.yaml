@@ -1,0 +1,25 @@
+source:
+  citation: '40444654'
+  local: sources/40444654.txt
+  sha256: a58206bafe6d0236da5875f934ffc3b5ac34b3a36e204dbd58005d4edffaa4b3
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12123450/fullTextXML
+  note: body as scripts/fetch_fulltext.py rendered it
+claims:
+  outcome_1:
+    quotes:
+    - exact: The IMSGC dataset served as the discovery cohort, while the FinnGen R10 cohort was used for
+        validation.
+  outcome_2:
+    quotes:
+    - exact: Our MR analyses utilized publicly available datasets, including the International Multiple
+        Sclerosis Genetics Consortium (IMSGC) (Patsopoulos et al. 2019), the FinnGen study (Kurki et al.
+        2023), and other genome‐wide association studies (GWASs) (Table S1).
+  outcome_1_c2:
+    quotes:
+    - exact: The IMSGC dataset served as the discovery cohort, while the FinnGen R10 cohort was used for
+        validation.
+  outcome_2_c2:
+    quotes:
+    - exact: Our MR analyses utilized publicly available datasets, including the International Multiple
+        Sclerosis Genetics Consortium (IMSGC) (Patsopoulos et al. 2019), the FinnGen study (Kurki et al.
+        2023), and other genome‐wide association studies (GWASs) (Table S1).

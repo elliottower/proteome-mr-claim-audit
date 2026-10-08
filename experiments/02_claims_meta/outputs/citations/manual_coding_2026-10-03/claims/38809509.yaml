@@ -1,0 +1,31 @@
+source:
+  citation: '38809509'
+  local: sources/38809509.txt
+  sha256: 03d5cc6b07b619316577fa86dbb3cf9f6460c4ca60d832ec4dfb4ed8380c4a4e
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11164478/fullTextXML
+  note: body as scripts/fetch_fulltext.py rendered it
+claims:
+  pqtl_1:
+    quotes:
+    - exact: The first set of pQTL data was obtained from the deCODE database [26], which includes 4,907
+        proteins and is derived from Large-scale integration of the plasma proteome with genetics and
+        disease.
+  pqtl_1_a2:
+    quotes:
+    - exact: The first set of pQTL data was obtained from the deCODE database [26], which includes 4,907
+        proteins and is derived from Large-scale integration of the plasma proteome with genetics and
+        disease.
+  pqtl_1_a3:
+    quotes:
+    - exact: The first set of pQTL data was obtained from the deCODE database [26], which includes 4,907
+        proteins and is derived from Large-scale integration of the plasma proteome with genetics and
+        disease.
+  outcome_1_c2:
+    quotes:
+    - exact: We utilized data from the FINNGEN database [28] (https://www.finngen.fi/en) on PBC and PSC
+        as outcome data.
+  pqtl_1_c2:
+    quotes:
+    - exact: The first set of pQTL data was obtained from the deCODE database [26], which includes 4,907
+        proteins and is derived from Large-scale integration of the plasma proteome with genetics and
+        disease.

@@ -1,0 +1,58 @@
+{
+ "record_id": "42798608",
+ "coder_id": "coder_1",
+ "attempt": 1,
+ "rows": [
+  {
+   "side": "outcome",
+   "name_as_written": "IEU OpenGWAS project",
+   "value": "not_stated_in_source",
+   "unresolved_reason": "release_not_identified",
+   "identification_basis": null,
+   "source_read": null,
+   "passage_id": null,
+   "quote": null,
+   "citations_claim": null,
+   "companion_source": false,
+   "reference_label": null,
+   "reference_quote": null,
+   "reference_citations_claim": null,
+   "dataset_named_in_source": null,
+   "coder_note": "The only passage given is the abstract, which names the IEU OpenGWAS repository without a dataset id or study."
+  },
+  {
+   "side": "outcome",
+   "name_as_written": "UK Biobank",
+   "value": "not_stated_in_source",
+   "unresolved_reason": "conflicting_identifiers",
+   "identification_basis": null,
+   "source_read": null,
+   "passage_id": null,
+   "quote": null,
+   "citations_claim": null,
+   "companion_source": false,
+   "reference_label": null,
+   "reference_quote": null,
+   "reference_citations_claim": null,
+   "dataset_named_in_source": null,
+   "coder_note": "Two outcome table rows both give UK Biobank as the consortium but identify different datasets: one by Neale lab, 2018, N 361,194 (the N and year of one dictionary row) and one by Burrows, 2021, N 372,776 (no dictionary row); other passages use UK Biobank as an individual-level cohort. Flagged for adjudication."
+  },
+  {
+   "side": "pqtl",
+   "name_as_written": "IEU OpenGWAS project",
+   "value": "not_stated_in_source",
+   "unresolved_reason": "release_not_identified",
+   "identification_basis": null,
+   "source_read": null,
+   "passage_id": null,
+   "quote": null,
+   "citations_claim": null,
+   "companion_source": false,
+   "reference_label": null,
+   "reference_quote": null,
+   "reference_citations_claim": null,
+   "dataset_named_in_source": null,
+   "coder_note": "The only passage given is the abstract, which names the IEU OpenGWAS repository as the source of plasma protein traits without a study or id."
+  }
+ ]
+}

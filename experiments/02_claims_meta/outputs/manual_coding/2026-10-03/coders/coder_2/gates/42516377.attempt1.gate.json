@@ -1,0 +1,49 @@
+{
+ "record_id": "42516377",
+ "coder_id": "coder_2",
+ "attempt": 1,
+ "rows": [
+  {
+   "side": "outcome",
+   "name_as_written": "EBI",
+   "value": "not_stated_in_source",
+   "passes": true,
+   "failures": [],
+   "warnings": [],
+   "machine_basis": [],
+   "reference_verified_by": null
+  },
+  {
+   "side": "outcome",
+   "name_as_written": "FinnGen",
+   "value": "FinnGen R10",
+   "passes": true,
+   "failures": [],
+   "warnings": [],
+   "machine_basis": [
+    "aliases:FinnGen release 10"
+   ],
+   "reference_verified_by": null
+  },
+  {
+   "side": "outcome",
+   "name_as_written": "UK Biobank",
+   "value": "MRC-IEU UK Biobank GWAS pipeline (OpenGWAS ukb-b)",
+   "passes": true,
+   "failures": [],
+   "warnings": [
+    "value_outside_the_candidate_set"
+   ],
+   "machine_basis": [
+    "aliases:MRC IEU UK Biobank GWAS pipeline",
+    "source_identifier:10.5523/bris.pnoat8cxo0u52p6ynfaekeigi"
+   ],
+   "reference_verified_by": "doi"
+  }
+ ],
+ "rows_not_coded_once": [],
+ "rows_not_given": [],
+ "wrong_coder": false,
+ "passes": true,
+ "gated_utc": "20261007T182759Z"
+}

@@ -1,0 +1,26 @@
+source:
+  citation: '40877285'
+  local: sources/40877285.txt
+  sha256: 2d7b08cd4b791c2dfa0a5b9471beb9ba59813575e16c457de8f9a9308b592558
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12394655/fullTextXML
+  note: body as scripts/fetch_fulltext.py rendered it
+claims:
+  pqtl_1:
+    quotes:
+    - exact: To achieve this, we analyzed 2,922 proteins using data from 30,272 individuals of Caucasian
+        ancestry from the UK Biobank.
+  pqtl_1_a2:
+    quotes:
+    - exact: To ensure homogeneity in proteome analysis, we extracted proteome data of randomly selected
+        baseline participants from protein batches 0–6, which are highly representative of the UK Biobank
+        overall26.
+  pqtl_1_c2:
+    quotes:
+    - exact: To investigate genetic effects on blood proteins by sex, we conducted sex-stratified GWAS
+        on protein levels using the proteome data from the 30,272 selected Caucasian individuals and compared
+        variants’ effect on protein between males and females.
+  pqtl_1_r:
+    quotes:
+    - exact: To investigate genetic effects on blood proteins by sex, we conducted sex-stratified GWAS
+        on protein levels using the proteome data from the 30,272 selected Caucasian individuals and compared
+        variants’ effect on protein between males and females.

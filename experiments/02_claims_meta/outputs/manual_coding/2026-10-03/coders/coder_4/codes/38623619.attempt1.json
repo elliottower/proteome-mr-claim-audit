@@ -1,0 +1,41 @@
+{
+ "record_id": "38623619",
+ "coder_id": "coder_4",
+ "attempt": 1,
+ "rows": [
+  {
+   "side": "pqtl",
+   "name_as_written": "CKB",
+   "value": "source_names_dataset_absent_from_dictionary",
+   "unresolved_reason": "dataset_absent_from_dictionary",
+   "identification_basis": null,
+   "source_read": "full_text",
+   "passage_id": "p005",
+   "quote": "For proteins showing significant associations with T2D in observational analyses, a two-sample MR using Wald ratio method,25, 26 was conducted using (i) cis-pQTLs obtained from GWAS of CKB, with lookups in AGEN consortium of East Asian adults including 66,677 diabetes cases;6 and (ii) cis-pQTLs obtained from GWAS of UKB, with lookups in the DIAMANTE Consortium of European descent including 80,154 diabetes cases and 853,816 controls.5",
+   "citations_claim": "claims/38623619.yaml#pqtl_1",
+   "companion_source": false,
+   "reference_label": null,
+   "reference_quote": null,
+   "reference_citations_claim": null,
+   "dataset_named_in_source": "CKB",
+   "coder_note": "Sentence states cis-pQTLs were obtained from a GWAS of CKB; no dictionary pQTL row for it."
+  },
+  {
+   "side": "pqtl",
+   "name_as_written": "UK Biobank",
+   "value": "not_stated_in_source",
+   "unresolved_reason": "release_not_identified",
+   "identification_basis": null,
+   "source_read": null,
+   "passage_id": null,
+   "quote": null,
+   "citations_claim": null,
+   "companion_source": false,
+   "reference_label": null,
+   "reference_quote": null,
+   "reference_citations_claim": null,
+   "dataset_named_in_source": null,
+   "coder_note": "Only passage is the abbreviation entry; no release identified."
+  }
+ ]
+}

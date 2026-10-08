@@ -1,0 +1,920 @@
+{
+ "coder_1": {
+  "39333727.json": [
+   {
+    "row": "39333727#pqtl_1",
+    "class": "disagree_first_unresolved_second_coded",
+    "first_check": {
+     "value": "not_stated_in_source",
+     "category": "release_not_identified",
+     "quote": "The research relies on data that is accessible to the public from a large-scale genome-wide association study on blood proteome (https://www.decode.com/summarydata/)12, plasma proteome analysis of European descent plasma(nilanjanchatterjeelab.org/pwas/)13 and GWAS Catalog (GWAS Catalog (ebi.ac.uk))14–16 (Supplementary Table 2).",
+     "coder_value_before_gate": "ARIC European American (Zhang 2022)"
+    },
+    "second_check": {
+     "value": "ARIC European American (Zhang 2022)",
+     "category": null,
+     "quote": "The research relies on data that is accessible to the public from a large-scale genome-wide association study on blood proteome (https://www.decode.com/summarydata/)12, plasma proteome analysis of European descent plasma(nilanjanchatterjeelab.org/pwas/)13 and GWAS Catalog (GWAS Catalog (ebi.ac.uk))14–16 (Supplementary Table 2).",
+     "quote_from_another_row": null
+    }
+   }
+  ],
+  "39935908.json": [
+   {
+    "row": "39935908#pqtl_1",
+    "class": "disagree_first_unresolved_second_coded",
+    "first_check": {
+     "value": "not_stated_in_source",
+     "category": "release_not_identified",
+     "quote": null,
+     "coder_value_before_gate": null
+    },
+    "second_check": {
+     "value": "UKB-PPP full cohort (combined)",
+     "category": null,
+     "quote": "There were a total of 54,219 individuals, including 46,595 randomly selected UKB participants at the baseline visit to provide base group representation, as well as a targeted complement of 6,376 participants with specific phenotypes or diseases based on the research objectives of the UKB-PPP consortium members, and 1,268 individuals who participated in COVID-19-related studies at multiple visits.16",
+     "quote_from_another_row": null
+    }
+   }
+  ],
+  "40052860.json": [
+   {
+    "row": "40052860#outcome_2",
+    "class": "disagree_first_unresolved_second_coded",
+    "first_check": {
+     "value": "not_stated_in_source",
+     "category": "release_not_identified",
+     "quote": "We used protein QTL (pQTL) in the deCODE and UK Biobank Pharma Proteomics Project (UKB-PPP) cohort for discovery study and then the cohort of Atherosclerosis Risk in Communities (ARIC) study for replication validation.11–13 In addition, we used cis-expression QTL(eQTL) summary statistics from the eQTLGen Consortium.14 We used microbiota quantitative trait loci (mbQTL) of genus Senegalimassilia from the MiBioGen consortium.15,16 We obtained GWAS summary statistics about XFG, POAG, ARC, and other cataracts from the DF9 release of the FinnGen Study.17 More details are described in the Supplementary Methods.",
+     "coder_value_before_gate": "FinnGen R9"
+    },
+    "second_check": {
+     "value": "FinnGen R9",
+     "category": null,
+     "quote": "We used protein QTL (pQTL) in the deCODE and UK Biobank Pharma Proteomics Project (UKB-PPP) cohort for discovery study and then the cohort of Atherosclerosis Risk in Communities (ARIC) study for replication validation.11–13 In addition, we used cis-expression QTL(eQTL) summary statistics from the eQTLGen Consortium.14 We used microbiota quantitative trait loci (mbQTL) of genus Senegalimassilia from the MiBioGen consortium.15,16 We obtained GWAS summary statistics about XFG, POAG, ARC, and other cataracts from the DF9 release of the FinnGen Study.17 More details are described in the Supplementary Methods.",
+     "quote_from_another_row": null
+    }
+   },
+   {
+    "row": "40052860#pqtl_4",
+    "class": "disagree_first_unresolved_second_coded",
+    "first_check": {
+     "value": "not_stated_in_source",
+     "category": "release_not_identified",
+     "quote": null,
+     "coder_value_before_gate": null
+    },
+    "second_check": {
+     "value": "deCODE SomaScan v4 (Ferkingstad 2021)",
+     "category": null,
+     "quote": "We used protein QTL (pQTL) in the deCODE and UK Biobank Pharma Proteomics Project (UKB-PPP) cohort for discovery study and then the cohort of Atherosclerosis Risk in Communities (ARIC) study for replication validation.11–13 In addition, we used cis-expression QTL(eQTL) summary statistics from the eQTLGen Consortium.14 We used microbiota quantitative trait loci (mbQTL) of genus Senegalimassilia from the MiBioGen consortium.15,16 We obtained GWAS summary statistics about XFG, POAG, ARC, and other cataracts from the DF9 release of the FinnGen Study.17 More details are described in the Supplementary Methods.",
+     "quote_from_another_row": null
+    }
+   }
+  ],
+  "40441254.json": [
+   {
+    "row": "40441254#outcome_2",
+    "class": "both_unresolved_different_value",
+    "first_check": {
+     "value": "source_names_dataset_absent_from_dictionary",
+     "category": "dataset_absent_from_dictionary",
+     "quote": "The GWAS data of the of mtDNA-CN genetic data were obtained from the IEU Open GWAS database, which is an open access database for genome-wide association studies. mtDNA-CN has a GWAS ID of ebi-a-GCST90026371, a sample size of 383,476 cases, and a number of 24,195,431 SNPs.",
+     "coder_value_before_gate": null
+    },
+    "second_check": {
+     "value": "not_stated_in_source",
+     "category": "release_not_identified",
+     "quote": "Genetic data on cardiomyopathies were obtained from the IEU Open GWAS database, the Finngen database for 4 different cardiomyopathies (HCM, DCM, ACM, and DICM).",
+     "quote_from_another_row": null
+    }
+   }
+  ],
+  "40564116.json": [
+   {
+    "row": "40564116#outcome_1",
+    "class": "disagree_first_unresolved_second_coded",
+    "first_check": {
+     "value": "not_stated_in_source",
+     "category": "release_not_identified",
+     "quote": "We replicated the results of the primary analysis in two independent datasets: Biobank Japan (BBJ) [53] (2117 cases and 174,345 controls) and J-Kidney-Biobank (JKB) [54] (382 cases of CKD in the J-Kidney-Biobank and 3471 controls participating in the TMM Comm-Cohort Study (JKB-ToMMo)).",
+     "coder_value_before_gate": "Sakaue 2021 BBJ (220 traits)"
+    },
+    "second_check": {
+     "value": "Sakaue 2021 BBJ (220 traits)",
+     "category": null,
+     "quote": "We replicated the results of the primary analysis in two independent datasets: Biobank Japan (BBJ) [53] (2117 cases and 174,345 controls) and J-Kidney-Biobank (JKB) [54] (382 cases of CKD in the J-Kidney-Biobank and 3471 controls participating in the TMM Comm-Cohort Study (JKB-ToMMo)).",
+     "quote_from_another_row": null
+    }
+   }
+  ],
+  "41222800.json": [
+   {
+    "row": "41222800#pqtl_1",
+    "class": "disagree_first_unresolved_second_coded",
+    "first_check": {
+     "value": "not_stated_in_source",
+     "category": "release_not_identified",
+     "quote": "Fenland, a proteome-wide proteome association study of 10,708 participants of European ancestry, used the SomaScan v4 assay with 4979 single-stranded oligonucleotides (aptamers) targeting 4775 unique proteins [13].",
+     "coder_value_before_gate": "Fenland SomaScan v4 (Pietzner 2021)"
+    },
+    "second_check": {
+     "value": "Fenland SomaScan v4 (Pietzner 2021)",
+     "category": null,
+     "quote": "Fenland, a proteome-wide proteome association study of 10,708 participants of European ancestry, used the SomaScan v4 assay with 4979 single-stranded oligonucleotides (aptamers) targeting 4775 unique proteins [13].",
+     "quote_from_another_row": null
+    }
+   }
+  ],
+  "41230735.json": [
+   {
+    "row": "41230735#pqtl_1",
+    "class": "both_unresolved_different_value",
+    "first_check": {
+     "value": "not_stated_in_source",
+     "category": "release_not_identified",
+     "quote": null,
+     "coder_value_before_gate": null
+    },
+    "second_check": {
+     "value": "source_names_dataset_absent_from_dictionary",
+     "category": "dataset_absent_from_dictionary",
+     "quote": "The proteomics GWAS data used in our study were obtained from the Olink platform within the Finnish database R10 (DF10).",
+     "quote_from_another_row": "41230735#outcome_1"
+    }
+   }
+  ],
+  "41711838.json": [
+   {
+    "row": "41711838#pqtl_1",
+    "class": "disagree_first_unresolved_second_coded",
+    "first_check": {
+     "value": "not_stated_in_source",
+     "category": "release_not_identified",
+     "quote": null,
+     "coder_value_before_gate": null
+    },
+    "second_check": {
+     "value": "deCODE SomaScan v4 (Ferkingstad 2021)",
+     "category": null,
+     "quote": "The plasma protein data used in this study were derived from Ferkingstad et al.'s research (n = 35,559), and OSA-related data were obtained from genome-wide association studies (GWAS) conducted on European populations through Finland's biobank (FinnGen).",
+     "quote_from_another_row": null
+    }
+   }
+  ],
+  "42365225.json": [
+   {
+    "row": "42365225#outcome_3",
+    "class": "disagree_first_unresolved_second_coded",
+    "first_check": {
+     "value": "not_stated_in_source",
+     "category": "release_not_identified",
+     "quote": "Outcome data for RP were obtained from the MRC IEU OpenGWAS database (Elsworth et al. 2020), and the following three independent GWAS datasets were utilized: ebi-a-GCST90018912 (121 cases and 126,333 controls), ebi-a-GCST90013904, and ebi-a-GCST90013954 (each with 403,833 total samples).",
+     "coder_value_before_gate": "Sakaue 2021 BBJ (220 traits)"
+    },
+    "second_check": {
+     "value": "Sakaue 2021 BBJ (220 traits)",
+     "category": null,
+     "quote": "Outcome data for RP were obtained from the MRC IEU OpenGWAS database (Elsworth et al. 2020), and the following three independent GWAS datasets were utilized: ebi-a-GCST90018912 (121 cases and 126,333 controls), ebi-a-GCST90013904, and ebi-a-GCST90013954 (each with 403,833 total samples).",
+     "quote_from_another_row": null
+    }
+   }
+  ],
+  "42798608.json": [
+   {
+    "row": "42798608#outcome_2",
+    "class": "disagree_first_coded_second_unresolved",
+    "first_check": {
+     "value": "Neale lab UK Biobank GWAS round 2",
+     "category": null,
+     "quote": "[Table 1. GWAS cohorts for outcomes in Mendelian randomization analysis.] Outcome (ICD10): Lymphoma(C81, C82, C83, C84, C85, C86) | Sample size: 361,194 (1,752/359,442) | SNPs: 10,226,672 | Consortium: UK Biobank | Ancestry: European | Author: Neale lab | Year: 2018",
+     "coder_value_before_gate": null
+    },
+    "second_check": {
+     "value": "not_stated_in_source",
+     "category": "conflicting_identifiers",
+     "quote": "Five accessible GWAS cohorts, including two cohorts of lymphoid leukemia (21, 64)and three cohorts of lymphoma (21, 65), were used as outcomes.",
+     "quote_from_another_row": null
+    }
+   }
+  ],
+  "PPR508031.json": [
+   {
+    "row": "PPR508031#pqtl_1",
+    "class": "both_unresolved_different_value",
+    "first_check": {
+     "value": "not_stated_in_source",
+     "category": "release_not_identified",
+     "quote": null,
+     "coder_value_before_gate": null
+    },
+    "second_check": {
+     "value": "source_names_dataset_absent_from_dictionary",
+     "category": "dataset_absent_from_dictionary",
+     "quote": "Here, we describe results from the first phase of UKB-PPP, including protein quantitative trait loci (pQTL) mapping of 1,463 proteins that identifies 10,248 primary genetic associations, of which 85% are newly discovered.",
+     "quote_from_another_row": null
+    }
+   }
+  ],
+  "PPR796917.json": [
+   {
+    "row": "PPR796917#pqtl_1",
+    "class": "disagree_first_unresolved_second_coded",
+    "first_check": {
+     "value": "not_stated_in_source",
+     "category": "release_not_identified",
+     "quote": null,
+     "coder_value_before_gate": null
+    },
+    "second_check": {
+     "value": "deCODE SomaScan v4 (Ferkingstad 2021)",
+     "category": null,
+     "quote": "Methods We collected the protein quantitative trait locus (pQTL) data of 4,907 circulating proteins from the DeCODE study (n = 35,559) as exposures.",
+     "quote_from_another_row": null
+    }
+   }
+  ],
+  "W4411291538.json": [
+   {
+    "row": "W4411291538#pqtl_2",
+    "class": "both_unresolved_different_value",
+    "first_check": {
+     "value": "source_names_dataset_absent_from_dictionary",
+     "category": "dataset_absent_from_dictionary",
+     "quote": "Methods: We identified diabetes associated proteins in observational designs in UK Biobank (UKB).",
+     "coder_value_before_gate": null
+    },
+    "second_check": {
+     "value": "not_stated_in_source",
+     "category": "release_not_identified",
+     "quote": "Methods: We identified diabetes associated proteins in observational designs in UK Biobank (UKB).",
+     "quote_from_another_row": null
+    }
+   }
+  ],
+  "W4416295106.json": [
+   {
+    "row": "W4416295106#pqtl_2",
+    "class": "disagree_first_unresolved_second_coded",
+    "first_check": {
+     "value": "not_stated_in_source",
+     "category": "release_not_identified",
+     "quote": null,
+     "coder_value_before_gate": null
+    },
+    "second_check": {
+     "value": "deCODE SomaScan v4 (Ferkingstad 2021)",
+     "category": null,
+     "quote": "Subsequently, MR and colocalization analyses were performed using genetic instruments for 4907 plasma proteins from deCODE Genetics (N=35,559) and 2940 plasma proteins from UK Biobank Pharma Proteomics Project (UKB-PPP) (N=54,219).",
+     "quote_from_another_row": null
+    }
+   }
+  ]
+ },
+ "coder_2": {
+  "39572695.json": [
+   {
+    "row": "39572695#outcome_1",
+    "class": "both_unresolved_different_value",
+    "first_check": {
+     "value": "not_stated_in_source",
+     "category": "release_not_identified",
+     "quote": null,
+     "coder_value_before_gate": null
+    },
+    "second_check": {
+     "value": "source_names_dataset_absent_from_dictionary",
+     "category": "dataset_absent_from_dictionary",
+     "quote": "Here, we performed a proteomic analysis of cardiac diseases in 44,313 unrelated individuals from the UK Biobank (UKB) Pharma Proteomics Project (PPP) (Table 1)14.",
+     "quote_from_another_row": null
+    }
+   }
+  ],
+  "40026415.json": [
+   {
+    "row": "40026415#outcome_2",
+    "class": "both_unresolved_different_value",
+    "first_check": {
+     "value": "not_stated_in_source",
+     "category": "conflicting_identifiers",
+     "quote": null,
+     "coder_value_before_gate": null
+    },
+    "second_check": {
+     "value": "source_names_dataset_absent_from_dictionary",
+     "category": "dataset_absent_from_dictionary",
+     "quote": "[Table 1. Data sources for outcome indicators used in the MR analyses.] Phenotype: Atrial fibrillation | ID: ebi-a-GCST90038689 | Sample size: 484,598 | Number of SNPs: 9,587,836 | Population: European | Sources: UK Biobank",
+     "quote_from_another_row": null
+    }
+   }
+  ],
+  "40765733.json": [
+   {
+    "row": "40765733#outcome_1",
+    "class": "disagree_first_unresolved_second_coded",
+    "first_check": {
+     "value": "not_stated_in_source",
+     "category": "release_not_identified",
+     "quote": null,
+     "coder_value_before_gate": null
+    },
+    "second_check": {
+     "value": "FinnGen R11",
+     "category": null,
+     "quote": "Data were collected from the FinnGen database (v11), which includes 297,867 controls and 43,132 patients of European descent.",
+     "quote_from_another_row": null
+    }
+   }
+  ],
+  "41200820.json": [
+   {
+    "row": "41200820#pqtl_1",
+    "class": "disagree_first_unresolved_second_coded",
+    "first_check": {
+     "value": "not_stated_in_source",
+     "category": "release_not_identified",
+     "quote": null,
+     "coder_value_before_gate": null
+    },
+    "second_check": {
+     "value": "UKB-PPP full cohort (combined)",
+     "category": null,
+     "quote": "We used only the sentinel cis-pQTL with the lowest P value (P<1.7×10−11) from the complete UKB-PPP cohort for each protein as IVs to reduce the risk of horizontal pleiotropy.",
+     "quote_from_another_row": null
+    }
+   }
+  ],
+  "41319014.json": [
+   {
+    "row": "41319014#pqtl_1",
+    "class": "disagree_first_unresolved_second_coded",
+    "first_check": {
+     "value": "not_stated_in_source",
+     "category": "release_not_identified",
+     "quote": null,
+     "coder_value_before_gate": null
+    },
+    "second_check": {
+     "value": "UKB-PPP discovery",
+     "category": null,
+     "quote": "We extracted pQTL data from 2940 European‐ancestry participants in the UKB‐PPP database (B. B. Sun et al. 2023).",
+     "quote_from_another_row": null
+    }
+   }
+  ],
+  "41478252.json": [
+   {
+    "row": "41478252#outcome_1",
+    "class": "both_unresolved_different_value",
+    "first_check": {
+     "value": "not_stated_in_source",
+     "category": "release_not_identified",
+     "quote": null,
+     "coder_value_before_gate": null
+    },
+    "second_check": {
+     "value": "source_names_dataset_absent_from_dictionary",
+     "category": "dataset_absent_from_dictionary",
+     "quote": "METHODS: We included 51,381 participants from the UK Biobank(43,317 in the training set and 8064 in the test set) without aortic aneurysm or dissection.",
+     "quote_from_another_row": null
+    }
+   }
+  ],
+  "41649226.json": [
+   {
+    "row": "41649226#outcome_1",
+    "class": "disagree_first_coded_second_unresolved",
+    "first_check": {
+     "value": "FinnGen R12",
+     "category": null,
+     "quote": "GWAS summary statistics for overall glaucoma and for the POAG, PACG, and NTG subtypes were obtained from the FINLAND R12 project.",
+     "coder_value_before_gate": null
+    },
+    "second_check": {
+     "value": "not_stated_in_source",
+     "category": "release_not_identified",
+     "quote": "GWAS summary statistics for overall glaucoma and for the POAG, PACG, and NTG subtypes were obtained from the FINLAND R12 project.",
+     "quote_from_another_row": null
+    }
+   }
+  ],
+  "42516377.json": [
+   {
+    "row": "42516377#outcome_1",
+    "class": "both_unresolved_different_value",
+    "first_check": {
+     "value": "not_stated_in_source",
+     "category": "conflicting_identifiers",
+     "quote": null,
+     "coder_value_before_gate": null
+    },
+    "second_check": {
+     "value": "source_names_dataset_absent_from_dictionary",
+     "category": "dataset_absent_from_dictionary",
+     "quote": "The replication cohorts included data from the EBI (25), with 56,087 cases and 428,511 controls, and the UK Biobank (27), with 53,598 cases and 409,335 controls (Figure 1, Supplementary Table 2).",
+     "quote_from_another_row": null
+    }
+   }
+  ],
+  "W7202029439.json": [
+   {
+    "row": "W7202029439#outcome_1",
+    "class": "disagree_first_coded_second_unresolved",
+    "first_check": {
+     "value": "Atrial fibrillation (Nielsen 2018)",
+     "category": null,
+     "quote": "Summary statistics for AF were drawn from Nielsen et al. (2018) AF GWAS (OpenGWAS ID: ebi-a-GCST006414; 60,620 cases, 970,216 controls; n=1,030,836).",
+     "coder_value_before_gate": null
+    },
+    "second_check": {
+     "value": "source_names_dataset_absent_from_dictionary",
+     "category": "dataset_absent_from_dictionary",
+     "quote": "Summary statistics for AF were drawn from Nielsen et al. (2018) AF GWAS (OpenGWAS ID: ebi-a-GCST006414; 60,620 cases, 970,216 controls; n=1,030,836).",
+     "quote_from_another_row": null
+    }
+   }
+  ]
+ },
+ "coder_3": {
+  "35938019.json": [
+   {
+    "row": "35938019#outcome_1",
+    "class": "disagree_first_unresolved_second_coded",
+    "first_check": {
+     "value": "not_stated_in_source",
+     "category": "release_not_identified",
+     "quote": null,
+     "coder_value_before_gate": null
+    },
+    "second_check": {
+     "value": "UK Biobank SAIGE PheWeb (Zhou et al. 2018)",
+     "category": null,
+     "quote": "The association analysis of disease outcomes was conducted using publicly available data from the UK Biobank cohort (N ≤ 408,961).",
+     "quote_from_another_row": null
+    }
+   }
+  ],
+  "38572516.json": [
+   {
+    "row": "38572516#outcome_1",
+    "class": "both_unresolved_different_value",
+    "first_check": {
+     "value": "not_stated_in_source",
+     "category": "release_not_identified",
+     "quote": null,
+     "coder_value_before_gate": null
+    },
+    "second_check": {
+     "value": "source_names_dataset_absent_from_dictionary",
+     "category": "dataset_absent_from_dictionary",
+     "quote": "We sourced summary‐level genetic association data on 4907 circulating proteins from an extensive pQTL study involving 35,559 Icelandic participants, known as the DECODE cohort (Ferkingstad et al., 2021).",
+     "quote_from_another_row": null
+    }
+   }
+  ],
+  "40649979.json": [
+   {
+    "row": "40649979#pqtl_1",
+    "class": "disagree_first_unresolved_second_coded",
+    "first_check": {
+     "value": "not_stated_in_source",
+     "category": "release_not_identified",
+     "quote": null,
+     "coder_value_before_gate": null
+    },
+    "second_check": {
+     "value": "deCODE SomaScan v4 (Ferkingstad 2021)",
+     "category": null,
+     "quote": "A proteome-wide Mendelian randomization (MR) analysis was performed to explore therapeutic targets for CAS by integrating inflammatory proteomics data from the UK-PPP (54,219 participants, 2923 proteins) and Iceland cohorts (35,559 participants, 4907 proteins) as exposures and outcome data for CAS, atherosclerosis, and carotid atherosclerosis from FinnGen.",
+     "quote_from_another_row": null
+    }
+   }
+  ],
+  "40877285.json": [
+   {
+    "row": "40877285#pqtl_1",
+    "class": "both_unresolved_different_value",
+    "first_check": {
+     "value": "not_stated_in_source",
+     "category": "release_not_identified",
+     "quote": "To ensure homogeneity in proteome analysis, we extracted proteome data of randomly selected baseline participants from protein batches 0–6, which are highly representative of the UK Biobank overall26.",
+     "coder_value_before_gate": "UKB-PPP discovery"
+    },
+    "second_check": {
+     "value": "source_names_dataset_absent_from_dictionary",
+     "category": "dataset_absent_from_dictionary",
+     "quote": "To investigate genetic effects on blood proteins by sex, we conducted sex-stratified GWAS on protein levels using the proteome data from the 30,272 selected Caucasian individuals and compared variants’ effect on protein between males and females.",
+     "quote_from_another_row": null
+    }
+   }
+  ],
+  "41249132.json": [
+   {
+    "row": "41249132#outcome_1",
+    "class": "disagree_first_coded_second_unresolved",
+    "first_check": {
+     "value": "MAGIC glycemic traits (Chen 2021)",
+     "category": null,
+     "quote": "GWAS summary statistics of HOMA-IR, ISI, and Fins were obtained from the Meta-Analyses of Glucose and Insulin-related traits Consortium including 37,037, 53,710, and 151,013 non-diabetic European participants, respectively4–6, and GWAS summary statistics of TG:HDL-C were obtained from the UK Biobank with 402,398 European participants7 (Supplementary Data 1).",
+     "coder_value_before_gate": null
+    },
+    "second_check": {
+     "value": "not_stated_in_source",
+     "category": "release_not_identified",
+     "quote": "GWAS summary statistics of HOMA-IR, ISI, and Fins were obtained from the Meta-Analyses of Glucose and Insulin-related traits Consortium including 37,037, 53,710, and 151,013 non-diabetic European participants, respectively4–6, and GWAS summary statistics of TG:HDL-C were obtained from the UK Biobank with 402,398 European participants7 (Supplementary Data 1).",
+     "quote_from_another_row": "41249132#outcome_2"
+    }
+   }
+  ],
+  "41540382.json": [
+   {
+    "row": "41540382#pqtl_1",
+    "class": "disagree_first_unresolved_second_coded",
+    "first_check": {
+     "value": "not_stated_in_source",
+     "category": "release_not_identified",
+     "quote": null,
+     "coder_value_before_gate": null
+    },
+    "second_check": {
+     "value": "ARIC European American (Zhang 2022)",
+     "category": null,
+     "quote": "After quality control, 4,483 unique proteins from 7,213 European individuals in the ARIC study and 3,170 proteins from 3,301 European individuals in the INTERVAL study were included in the PWAS analyses.",
+     "quote_from_another_row": null
+    }
+   }
+  ],
+  "41559658.json": [
+   {
+    "row": "41559658#outcome_1",
+    "class": "both_unresolved_different_value",
+    "first_check": {
+     "value": "not_stated_in_source",
+     "category": "release_not_identified",
+     "quote": null,
+     "coder_value_before_gate": null
+    },
+    "second_check": {
+     "value": "source_names_dataset_absent_from_dictionary",
+     "category": "dataset_absent_from_dictionary",
+     "quote": "In this study, we conducted a large-scale proteomic analysis in UK Biobank participants with four aims: (1) to identify plasma proteins associated with kidney diseases including CKD and ESKD, and CVD including coronary heart disease (CHD), stroke, and heart failure (HF), highlighting shared and disease-specific proteins and evaluating potential causal relationships using Mendelian randomization (MR); (2) to assess effect modifications by age, sex, and comorbidities (hypertension, dyslipidemia, and diabetes); (3) to infer potential biological pathways of disease-associated proteins; and (4) to develop predictive models based on proteins and conventional risk factors (Fig. 1).Fig. 1Study overview.",
+     "quote_from_another_row": null
+    }
+   }
+  ],
+  "42040931.json": [
+   {
+    "row": "42040931#outcome_1",
+    "class": "both_unresolved_different_value",
+    "first_check": {
+     "value": "not_stated_in_source",
+     "category": "release_not_identified",
+     "quote": null,
+     "coder_value_before_gate": null
+    },
+    "second_check": {
+     "value": "source_names_dataset_absent_from_dictionary",
+     "category": "dataset_absent_from_dictionary",
+     "quote": "Association and Mendelian Randomization analyses of WMH volume and 2,923 plasma proteins in 52,560 UK Biobank participants identified the lysosomal protease cathepsin B (CTSB) and the mitochondrial enzyme Enoyl-CoA Hydratase Domain Containing 3 (ECHDC3) as the top candidates associated with WMH volume.",
+     "quote_from_another_row": null
+    }
+   },
+   {
+    "row": "42040931#pqtl_1",
+    "class": "both_unresolved_different_value",
+    "first_check": {
+     "value": "not_stated_in_source",
+     "category": "release_not_identified",
+     "quote": null,
+     "coder_value_before_gate": null
+    },
+    "second_check": {
+     "value": "source_names_dataset_absent_from_dictionary",
+     "category": "dataset_absent_from_dictionary",
+     "quote": "Association and Mendelian Randomization analyses of WMH volume and 2,923 plasma proteins in 52,560 UK Biobank participants identified the lysosomal protease cathepsin B (CTSB) and the mitochondrial enzyme Enoyl-CoA Hydratase Domain Containing 3 (ECHDC3) as the top candidates associated with WMH volume.",
+     "quote_from_another_row": null
+    }
+   }
+  ],
+  "42694092.json": [
+   {
+    "row": "42694092#outcome_2",
+    "class": "both_unresolved_different_value",
+    "first_check": {
+     "value": "not_stated_in_source",
+     "category": "release_not_identified",
+     "quote": null,
+     "coder_value_before_gate": null
+    },
+    "second_check": {
+     "value": "source_names_dataset_absent_from_dictionary",
+     "category": "dataset_absent_from_dictionary",
+     "quote": "Sepsis cases were identified from linked hospital episode records using ICD-10 codes A02, A39, A40, and A41 in the primary or secondary diagnostic position, with self-reported cases and those recorded only in primary care excluded; the remaining cohort served as controls, and genetic associations were estimated with adjustment for age, sex, genotyping chip, and the first ten genetic principal components (15).",
+     "quote_from_another_row": null
+    }
+   }
+  ],
+  "42772042.json": [
+   {
+    "row": "42772042#pqtl_2",
+    "class": "disagree_first_unresolved_second_coded",
+    "first_check": {
+     "value": "not_stated_in_source",
+     "category": "release_not_identified",
+     "quote": null,
+     "coder_value_before_gate": null
+    },
+    "second_check": {
+     "value": "deCODE SomaScan v4 (Ferkingstad 2021)",
+     "category": null,
+     "quote": "Additionally, various inverse-variance weighted Mendelian randomization (MR) analyses and SMR tests were performed with cis-acting variants of 4907 blood proteins from the deCODE study (N = 35,559) and 2940 from the UKB study (N = 45,330).",
+     "quote_from_another_row": null
+    }
+   }
+  ],
+  "PPR1054116.json": [
+   {
+    "row": "PPR1054116#outcome_1",
+    "class": "both_unresolved_different_value",
+    "first_check": {
+     "value": "source_names_dataset_absent_from_dictionary",
+     "category": "dataset_absent_from_dictionary",
+     "quote": "GWAS data of PPD were sourced from Psychiatric Genomics Consortium (PGC) (Ncase = 17,339, Ncontrol = 53,426).",
+     "coder_value_before_gate": null
+    },
+    "second_check": {
+     "value": "not_stated_in_source",
+     "category": "release_not_identified",
+     "quote": "GWAS data of PPD were sourced from Psychiatric Genomics Consortium (PGC) (Ncase = 17,339, Ncontrol = 53,426).",
+     "quote_from_another_row": null
+    }
+   }
+  ],
+  "PPR911454.json": [
+   {
+    "row": "PPR911454#pqtl_2",
+    "class": "disagree_first_unresolved_second_coded",
+    "first_check": {
+     "value": "not_stated_in_source",
+     "category": "release_not_identified",
+     "quote": null,
+     "coder_value_before_gate": null
+    },
+    "second_check": {
+     "value": "deCODE SomaScan v4 (Ferkingstad 2021)",
+     "category": null,
+     "quote": "A mendelian randomization (MR) supplemented by colocalization analysis was conducted, using cis -acting variants on 4,907 plasma proteins from deCODE Genetics (N=35,559) and 2,940 plasma proteins from UK Biobank Pharma Proteomics Project (UKB-PPP) (N=54,219).",
+     "quote_from_another_row": null
+    }
+   }
+  ],
+  "W4406200416.json": [
+   {
+    "row": "W4406200416#outcome_1",
+    "class": "both_unresolved_different_value",
+    "first_check": {
+     "value": "not_stated_in_source",
+     "category": "release_not_identified",
+     "quote": null,
+     "coder_value_before_gate": null
+    },
+    "second_check": {
+     "value": "source_names_dataset_absent_from_dictionary",
+     "category": "dataset_absent_from_dictionary",
+     "quote": "Excluding individuals with pre‐existing dementia, we included 3015 participants with diabetes and they had available Olink blood proteomics data (approximately 3000 proteins).",
+     "quote_from_another_row": null
+    }
+   }
+  ],
+  "W4406210404.json": [
+   {
+    "row": "W4406210404#outcome_1",
+    "class": "both_unresolved_different_value",
+    "first_check": {
+     "value": "not_stated_in_source",
+     "category": "release_not_identified",
+     "quote": null,
+     "coder_value_before_gate": null
+    },
+    "second_check": {
+     "value": "source_names_dataset_absent_from_dictionary",
+     "category": "dataset_absent_from_dictionary",
+     "quote": "Methods We used data of 2,923 plasma proteins from 51,296 non‐demented middle‐aged adults in the UK Biobank with 15 years of follow‐up.",
+     "quote_from_another_row": null
+    }
+   }
+  ]
+ },
+ "coder_4": {
+  "38076879.json": [
+   {
+    "row": "38076879#pqtl_1",
+    "class": "both_unresolved_different_value",
+    "first_check": {
+     "value": "not_stated_in_source",
+     "category": "release_not_identified",
+     "quote": null,
+     "coder_value_before_gate": null
+    },
+    "second_check": {
+     "value": "source_names_dataset_absent_from_dictionary",
+     "category": "dataset_absent_from_dictionary",
+     "quote": "METHODS: We analysed 2,941 plasma proteins in 43,978 European participants from UK Biobank.",
+     "quote_from_another_row": null
+    }
+   }
+  ],
+  "39806440.json": [
+   {
+    "row": "39806440#outcome_1",
+    "class": "disagree_first_unresolved_second_coded",
+    "first_check": {
+     "value": "not_stated_in_source",
+     "category": "release_not_identified",
+     "quote": null,
+     "coder_value_before_gate": null
+    },
+    "second_check": {
+     "value": "FinnGen R10",
+     "category": null,
+     "quote": "Asthma data for external validation were obtained from the FinnGen cohort [26] (23,834 patients and 228,085 control subjects of European ancestry; https://www.finngen.fi/en).",
+     "quote_from_another_row": null
+    }
+   },
+   {
+    "row": "39806440#outcome_2",
+    "class": "both_unresolved_different_value",
+    "first_check": {
+     "value": "not_stated_in_source",
+     "category": "release_not_identified",
+     "quote": null,
+     "coder_value_before_gate": null
+    },
+    "second_check": {
+     "value": "source_names_dataset_absent_from_dictionary",
+     "category": "dataset_absent_from_dictionary",
+     "quote": "Asthma data were derived from the GWAS data of the UK Biobank, comprising 56,167 patients and 352,255 control subjects of European ancestry [25].",
+     "quote_from_another_row": null
+    }
+   }
+  ],
+  "40462010.json": [
+   {
+    "row": "40462010#outcome_1",
+    "class": "disagree_first_unresolved_second_coded",
+    "first_check": {
+     "value": "not_stated_in_source",
+     "category": "release_not_identified",
+     "quote": null,
+     "coder_value_before_gate": null
+    },
+    "second_check": {
+     "value": "UK Biobank SAIGE PheWeb (Zhou et al. 2018)",
+     "category": null,
+     "quote": "To assess potential pleiotropic effects, we conducted a phenome-wide association study (Phe-WAS) using 783 phenotypes from the UK Biobank-SAIGE database.",
+     "quote_from_another_row": null
+    }
+   },
+   {
+    "row": "40462010#pqtl_2",
+    "class": "disagree_first_unresolved_second_coded",
+    "first_check": {
+     "value": "not_stated_in_source",
+     "category": "release_not_identified",
+     "quote": "Iceland Decode Database: 4,907 aptamers in 35,559 Icelandic individuals (PMID: 34,857,953).",
+     "coder_value_before_gate": "deCODE SomaScan v4 (Ferkingstad 2021)"
+    },
+    "second_check": {
+     "value": "deCODE SomaScan v4 (Ferkingstad 2021)",
+     "category": null,
+     "quote": "Iceland Decode Database: 4,907 aptamers in 35,559 Icelandic individuals (PMID: 34,857,953).",
+     "quote_from_another_row": null
+    }
+   }
+  ],
+  "40934961.json": [
+   {
+    "row": "40934961#outcome_1",
+    "class": "both_unresolved_different_value",
+    "first_check": {
+     "value": "source_names_dataset_absent_from_dictionary",
+     "category": "dataset_absent_from_dictionary",
+     "quote": "Subsequently, we performed one-sample Mendelian randomization (MR) using individual-level genomic data from the UK Biobank and pQTL summary statistics from the UKB-PPP, applying a two-stage least squares approach.",
+     "coder_value_before_gate": null
+    },
+    "second_check": {
+     "value": "not_stated_in_source",
+     "category": "release_not_identified",
+     "quote": "For two-sample MR, we utilized pQTL data from deCODE and CKD GWAS summary statistics derived from the UK Biobank, applying either the Wald ratio or inverse variance weighted (IVW) method.",
+     "quote_from_another_row": null
+    }
+   }
+  ],
+  "41057938.json": [
+   {
+    "row": "41057938#outcome_1",
+    "class": "both_unresolved_different_value",
+    "first_check": {
+     "value": "source_names_dataset_absent_from_dictionary",
+     "category": "dataset_absent_from_dictionary",
+     "quote": "GWAS data for OM were obtained from the UK Biobank [28], which includes 4,836 patients with OM and 486,484 healthy controls.",
+     "coder_value_before_gate": null
+    },
+    "second_check": {
+     "value": "not_stated_in_source",
+     "category": "release_not_identified",
+     "quote": "GWAS data for OM were obtained from the UK Biobank [28], which includes 4,836 patients with OM and 486,484 healthy controls.",
+     "quote_from_another_row": null
+    }
+   }
+  ],
+  "41220142.json": [
+   {
+    "row": "41220142#pqtl_2",
+    "class": "disagree_first_unresolved_second_coded",
+    "first_check": {
+     "value": "not_stated_in_source",
+     "category": "release_not_identified",
+     "quote": null,
+     "coder_value_before_gate": null
+    },
+    "second_check": {
+     "value": "deCODE SomaScan v4 (Ferkingstad 2021)",
+     "category": null,
+     "quote": "Genome‐wide association studies (GWASs) were conducted in the past using 4907 aptamers to measure plasma protein levels in 35,559 Icelanders.",
+     "quote_from_another_row": null
+    }
+   }
+  ],
+  "41487707.json": [
+   {
+    "row": "41487707#outcome_1",
+    "class": "disagree_first_unresolved_second_coded",
+    "first_check": {
+     "value": "not_stated_in_source",
+     "category": "release_not_identified",
+     "quote": null,
+     "coder_value_before_gate": null
+    },
+    "second_check": {
+     "value": "FinnGen R11",
+     "category": null,
+     "quote": "The CD data is derived from the DF11 version of the Finnish biobank study, released on June 24, 2024 [21].",
+     "quote_from_another_row": null
+    }
+   }
+  ],
+  "42454155.json": [
+   {
+    "row": "42454155#outcome_1",
+    "class": "disagree_first_unresolved_second_coded",
+    "first_check": {
+     "value": "not_stated_in_source",
+     "category": "conflicting_identifiers",
+     "quote": null,
+     "coder_value_before_gate": null
+    },
+    "second_check": {
+     "value": "FinnGen R12",
+     "category": null,
+     "quote": "GWAS summary statistics for AKI in the discovery cohort were obtained from the FinnGen database (version R12, https://r12.finngen.fi/, GWAS ID: finngen_R12_N14_ACUTERENFAIL), comprising 8,383 cases (3,194 females and 5,450 males) and 480,448 controls, with a total of 20,112,606 SNPs.",
+     "quote_from_another_row": null
+    }
+   }
+  ],
+  "PPR1123489.json": [
+   {
+    "row": "PPR1123489#pqtl_1",
+    "class": "both_unresolved_different_value",
+    "first_check": {
+     "value": "not_stated_in_source",
+     "category": "release_not_identified",
+     "quote": null,
+     "coder_value_before_gate": null
+    },
+    "second_check": {
+     "value": "source_names_dataset_absent_from_dictionary",
+     "category": "dataset_absent_from_dictionary",
+     "quote": "We systematically mapped cis -vQTLs for 2,923 plasma proteins in 52,706 UK Biobank participants of European (EUR, N = 45,486), African (AFR, N = 1,336), and Central/South Asian (CSA, N = 934) ancestries, identifying 2,162 vQTLs (P VE < 5 x 10 -8 ) for 781 proteins.",
+     "quote_from_another_row": null
+    }
+   }
+  ],
+  "PPR1279015.json": [
+   {
+    "row": "PPR1279015#pqtl_1",
+    "class": "both_unresolved_different_value",
+    "first_check": {
+     "value": "not_stated_in_source",
+     "category": "release_not_identified",
+     "quote": null,
+     "coder_value_before_gate": null
+    },
+    "second_check": {
+     "value": "source_names_dataset_absent_from_dictionary",
+     "category": "dataset_absent_from_dictionary",
+     "quote": "Using 2,920 plasma proteins measured in 52,615 UK Biobank participants, we identified 830 protein-disorder associations involving 574 proteins.",
+     "quote_from_another_row": null
+    }
+   }
+  ]
+ }
+}

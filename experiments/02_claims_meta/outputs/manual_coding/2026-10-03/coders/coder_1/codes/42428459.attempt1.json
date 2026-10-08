@@ -1,0 +1,41 @@
+{
+ "record_id": "42428459",
+ "coder_id": "coder_1",
+ "attempt": 1,
+ "rows": [
+  {
+   "side": "pqtl",
+   "name_as_written": "UKB-PPP",
+   "value": "not_stated_in_source",
+   "unresolved_reason": "release_not_identified",
+   "identification_basis": null,
+   "source_read": null,
+   "passage_id": null,
+   "quote": null,
+   "citations_claim": null,
+   "companion_source": false,
+   "reference_label": null,
+   "reference_quote": null,
+   "reference_citations_claim": null,
+   "dataset_named_in_source": null,
+   "coder_note": "UKB-PPP in 54,219 participants attributed to citation 10, whose DOI is shared by several dictionary rows; the N is not the N of any row."
+  },
+  {
+   "side": "pqtl",
+   "name_as_written": "eQTLGen",
+   "value": "source_names_dataset_absent_from_dictionary",
+   "unresolved_reason": "dataset_absent_from_dictionary",
+   "identification_basis": null,
+   "source_read": "full_text",
+   "passage_id": "p001",
+   "quote": "The eQTL dataset, comprising genomic regulatory variants for 16,989 genes, was generated through large-scale analysis of 31,684 peripheral blood samples from healthy individuals of European ancestry by the eQTLGen Consortium (https://eqtlgen.org/) (11).",
+   "citations_claim": "claims/42428459.yaml#pqtl_2",
+   "companion_source": false,
+   "reference_label": null,
+   "reference_quote": null,
+   "reference_citations_claim": null,
+   "dataset_named_in_source": "eQTLGen Consortium",
+   "coder_note": "Sentence names the eQTLGen Consortium eQTL dataset; no pqtl dictionary row is for it."
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "record_id": "39844246",
+ "coder_id": "coder_4",
+ "attempt": 1,
+ "rows": [
+  {
+   "side": "outcome",
+   "name_as_written": "European Molecular Biology Laboratory-European Bioinformatics Institute",
+   "value": "source_names_dataset_absent_from_dictionary",
+   "unresolved_reason": "dataset_absent_from_dictionary",
+   "identification_basis": null,
+   "source_read": "full_text",
+   "passage_id": "p001",
+   "quote": "The EMBL-EBI (GCST90014456) dataset included 329,533 individuals of European descent, with 5,459 psoriasis cases and 324,074 controls [18].",
+   "citations_claim": "claims/39844246.yaml#outcome_1",
+   "companion_source": false,
+   "reference_label": null,
+   "reference_quote": null,
+   "reference_citations_claim": null,
+   "dataset_named_in_source": "EMBL-EBI (GCST90014456)",
+   "coder_note": "Sentence names the discovery psoriasis dataset by a GWAS Catalog accession and a citation; neither the accession nor the entry DOI belongs to a dictionary row."
+  },
+  {
+   "side": "outcome",
+   "name_as_written": "UK Biobank",
+   "value": "not_stated_in_source",
+   "unresolved_reason": "release_not_identified",
+   "identification_basis": null,
+   "source_read": null,
+   "passage_id": null,
+   "quote": null,
+   "citations_claim": null,
+   "companion_source": false,
+   "reference_label": null,
+   "reference_quote": null,
+   "reference_citations_claim": null,
+   "dataset_named_in_source": null,
+   "coder_note": "UK Biobank named with counts and a citation to the general cohort resource paper; no GWAS release identified."
+  }
+ ]
+}

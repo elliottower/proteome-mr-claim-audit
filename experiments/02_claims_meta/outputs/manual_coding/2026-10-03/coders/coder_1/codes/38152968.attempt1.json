@@ -1,0 +1,41 @@
+{
+ "record_id": "38152968",
+ "coder_id": "coder_1",
+ "attempt": 1,
+ "rows": [
+  {
+   "side": "outcome",
+   "name_as_written": "INTERVAL",
+   "value": "source_names_dataset_absent_from_dictionary",
+   "unresolved_reason": "dataset_absent_from_dictionary",
+   "identification_basis": null,
+   "source_read": "abstract",
+   "passage_id": "p001",
+   "quote": "Using Mendelian randomization, we assessed its effects on 3281 plasma proteins quantified with an aptamer-based assay in the INTERVAL cohort (n=3301).",
+   "citations_claim": "claims/38152968.yaml#outcome_1",
+   "companion_source": false,
+   "reference_label": null,
+   "reference_quote": null,
+   "reference_citations_claim": null,
+   "dataset_named_in_source": "INTERVAL cohort (n=3301)",
+   "coder_note": "Row is on the outcome side; sentence names the INTERVAL cohort protein data, and no outcome dictionary row is for INTERVAL."
+  },
+  {
+   "side": "pqtl",
+   "name_as_written": "INTERVAL",
+   "value": "INTERVAL SomaScan (Sun 2018)",
+   "unresolved_reason": null,
+   "identification_basis": "exact_n_with_platform_or_year",
+   "source_read": "abstract",
+   "passage_id": "p001",
+   "quote": "Using Mendelian randomization, we assessed its effects on 3281 plasma proteins quantified with an aptamer-based assay in the INTERVAL cohort (n=3301).",
+   "citations_claim": "claims/38152968.yaml#pqtl_1",
+   "companion_source": false,
+   "reference_label": null,
+   "reference_quote": null,
+   "reference_citations_claim": null,
+   "dataset_named_in_source": null,
+   "coder_note": "INTERVAL with exact n=3301 and an aptamer-based assay; platform is given generically (aptamer-based), not by name."
+  }
+ ]
+}

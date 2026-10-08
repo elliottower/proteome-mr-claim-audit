@@ -1,0 +1,47 @@
+source:
+  citation: '40316856'
+  local: sources/40316856.txt
+  sha256: 52eba0983cf71a608a8ea6214c4b51b61aa85059b14315620a7f1509273c18d8
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12048378/fullTextXML
+  note: body as scripts/fetch_fulltext.py rendered it
+claims:
+  outcome_1:
+    quotes:
+    - exact: 'In this study, we included data from three large-scale studies of BC datasets: ieu-b-4874,
+        ukb-b-8193 from the MRC IEU openGWAS database (https://gwas.mrcieu.ac.uk/) [25, 26]; FinnGen_R11_C3_
+        BLADDER_EXALL from the FinnGen database (https://www.finngen.fi/en) [27].'
+  outcome_2:
+    quotes:
+    - exact: 'In this study, we included data from three large-scale studies of BC datasets: ieu-b-4874,
+        ukb-b-8193 from the MRC IEU openGWAS database (https://gwas.mrcieu.ac.uk/) [25, 26]; FinnGen_R11_C3_
+        BLADDER_EXALL from the FinnGen database (https://www.finngen.fi/en) [27].'
+  outcome_1_a2:
+    quotes:
+    - exact: The BC datasets from three large-scale studies, ieu-b-4874, ukb-b-8193, and FinnGen_R11_C3_BLADDER_EXALL,
+        were used as the outcome variables, respectively.
+  outcome_2_a2:
+    quotes:
+    - exact: Of these, the ieu-b-4874 dataset has 1279 BC patients and 372,016 normal controls of European
+        ancestry; the ukb-b-8193 data from the UKBB [28] database, stored in the openGWAS database, has
+        1101 cancer cases and 461,832 normal controls of European ancestry; FinnGen_ R11_C3_BLADDER_EXALL
+        dataset contains 2574 cases and 345,118 controls of European ancestry [27].
+  outcome_1_a3:
+    quotes:
+    - exact: The BC datasets from three large-scale studies, ieu-b-4874, ukb-b-8193, and FinnGen_R11_C3_BLADDER_EXALL,
+        were used as the outcome variables, respectively.
+  outcome_2_a3:
+    quotes:
+    - exact: The BC datasets from three large-scale studies, ieu-b-4874, ukb-b-8193, and FinnGen_R11_C3_BLADDER_EXALL,
+        were used as the outcome variables, respectively.
+  outcome_1_c2:
+    quotes:
+    - exact: Of these, the ieu-b-4874 dataset has 1279 BC patients and 372,016 normal controls of European
+        ancestry; the ukb-b-8193 data from the UKBB [28] database, stored in the openGWAS database, has
+        1101 cancer cases and 461,832 normal controls of European ancestry; FinnGen_ R11_C3_BLADDER_EXALL
+        dataset contains 2574 cases and 345,118 controls of European ancestry [27].
+  outcome_2_c2:
+    quotes:
+    - exact: Of these, the ieu-b-4874 dataset has 1279 BC patients and 372,016 normal controls of European
+        ancestry; the ukb-b-8193 data from the UKBB [28] database, stored in the openGWAS database, has
+        1101 cancer cases and 461,832 normal controls of European ancestry; FinnGen_ R11_C3_BLADDER_EXALL
+        dataset contains 2574 cases and 345,118 controls of European ancestry [27].

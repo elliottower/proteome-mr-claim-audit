@@ -1,0 +1,12 @@
+source:
+  citation: '38892221'
+  local: sources/38892221.txt
+  sha256: 2bc54cb9346fa8c1152713ce95a8e70000efc893da0dfb927b5adbb9a634690b
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11172763/fullTextXML
+  note: body as scripts/fetch_fulltext.py rendered it
+claims:
+  outcome_1_c2:
+    quotes:
+    - exact: Summary-level GWAS data correlating with CKD and kidney functions were sourced from meta-analyses
+        conducted on European ancestry GWASs by the CKDGen Consortium (https://ckdgen.imbi.uni-freiburg.de,
+        accessed on 11 December 2023) [61].

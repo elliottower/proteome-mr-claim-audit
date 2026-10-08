@@ -1,0 +1,44 @@
+source:
+  citation: '40765733'
+  local: sources/40765733.txt
+  sha256: b36679961c4812810aeb97753c4529095143108b8885ad9a696c3607b58d4448
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12323800/fullTextXML
+  note: body as scripts/fetch_fulltext.py rendered it
+claims:
+  outcome_1:
+    quotes:
+    - exact: Data were collected from the FinnGen database (v11), which includes 297,867 controls and
+        43,132 patients of European descent.
+  outcome_1_a3:
+    quotes:
+    - exact: Data were collected from the FinnGen database (v11), which includes 297,867 controls and
+        43,132 patients of European descent.
+  pqtl_1_a3:
+    quotes:
+    - exact: The inflammatory factor dataset was obtained from the European Bioinformatics Institute genome-wide
+        association study (EBI GWAS; https://ftp.ebi.ac/UK/pub/databases/gwas_summary_statistics/gwas)
+        Catalog (accession numbers GCST90274758–GCST90274848) and the Department of Public Health and
+        Primary Care (https://www.phpc.cam.ac.uk/ceu/proteins), with the former containing data on 1,400
+        metabolites.21
+  pqtl_1_a4:
+    quotes:
+    - exact: The inflammatory factor dataset was obtained from the European Bioinformatics Institute genome-wide
+        association study (EBI GWAS; https://ftp.ebi.ac/UK/pub/databases/gwas_summary_statistics/gwas)
+        Catalog (accession numbers GCST90274758–GCST90274848) and the Department of Public Health and
+        Primary Care (https://www.phpc.cam.ac.uk/ceu/proteins), with the former containing data on 1,400
+        metabolites.21
+  outcome_1_c2:
+    quotes:
+    - exact: Data were collected from the FinnGen database (v11), which includes 297,867 controls and
+        43,132 patients of European descent.
+  pqtl_1_c2:
+    quotes:
+    - exact: The inflammatory factor dataset was obtained from the European Bioinformatics Institute genome-wide
+        association study (EBI GWAS; https://ftp.ebi.ac/UK/pub/databases/gwas_summary_statistics/gwas)
+        Catalog (accession numbers GCST90274758–GCST90274848) and the Department of Public Health and
+        Primary Care (https://www.phpc.cam.ac.uk/ceu/proteins), with the former containing data on 1,400
+        metabolites.21
+  outcome_1_r:
+    quotes:
+    - exact: Data were collected from the FinnGen database (v11), which includes 297,867 controls and
+        43,132 patients of European descent.

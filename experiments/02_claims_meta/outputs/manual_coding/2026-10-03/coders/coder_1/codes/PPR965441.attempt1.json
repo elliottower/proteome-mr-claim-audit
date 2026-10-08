@@ -1,0 +1,58 @@
+{
+ "record_id": "PPR965441",
+ "coder_id": "coder_1",
+ "attempt": 1,
+ "rows": [
+  {
+   "side": "outcome",
+   "name_as_written": "MEC",
+   "value": "source_names_dataset_absent_from_dictionary",
+   "unresolved_reason": "dataset_absent_from_dictionary",
+   "identification_basis": null,
+   "source_read": "abstract",
+   "passage_id": "p001",
+   "quote": "Logistic regression was used to estimate exome protein score association with cancer risk in UKBB and replication analyses were performed in the Multiethnic Cohort (MEC).",
+   "citations_claim": "claims/PPR965441.yaml#outcome_1",
+   "companion_source": false,
+   "reference_label": null,
+   "reference_quote": null,
+   "reference_citations_claim": null,
+   "dataset_named_in_source": "Multiethnic Cohort (MEC)",
+   "coder_note": "Abstract names the Multiethnic Cohort as the replication cohort; no dictionary row is for it."
+  },
+  {
+   "side": "outcome",
+   "name_as_written": "PRACTICAL consortium",
+   "value": "not_stated_in_source",
+   "unresolved_reason": "release_not_identified",
+   "identification_basis": null,
+   "source_read": null,
+   "passage_id": null,
+   "quote": null,
+   "citations_claim": null,
+   "companion_source": false,
+   "reference_label": null,
+   "reference_quote": null,
+   "reference_citations_claim": null,
+   "dataset_named_in_source": null,
+   "coder_note": "PRACTICAL consortium with a case count (79,148) that does not equal the candidate row case count; no year or citation."
+  },
+  {
+   "side": "outcome",
+   "name_as_written": "UKBB",
+   "value": "not_stated_in_source",
+   "unresolved_reason": "release_not_identified",
+   "identification_basis": null,
+   "source_read": null,
+   "passage_id": null,
+   "quote": null,
+   "citations_claim": null,
+   "companion_source": false,
+   "reference_label": null,
+   "reference_quote": null,
+   "reference_citations_claim": null,
+   "dataset_named_in_source": null,
+   "coder_note": "Abstract describes individual-level analyses of UK Biobank men; no GWAS release, citation or accession identified."
+  }
+ ]
+}

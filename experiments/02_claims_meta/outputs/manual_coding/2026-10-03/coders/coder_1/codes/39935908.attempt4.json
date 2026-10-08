@@ -1,0 +1,15 @@
+{"record_id": "39935908", "coder_id": "coder_1", "attempt": 4,
+ "rows": [
+  {"side": "pqtl", "name_as_written": "UK Biobank- Pharma Proteomics Project (UKB-PPP)",
+   "value": "not_stated_in_source",
+   "unresolved_reason": "release_not_identified",
+   "identification_basis": null,
+   "source_read": null,
+   "passage_id": null,
+   "quote": null,
+   "citations_claim": null,
+   "companion_source": false,
+   "reference_label": null, "reference_quote": null, "reference_citations_claim": null,
+   "dataset_named_in_source": null,
+   "coder_note": "Step 4 of the decision order (rules D, E not met). Reference 16 (doi 10.1038/s41586-023-06592-6) is the source of four pqtl rows. The passages describe the consortium's participant pool (54,219 individuals; 46,595 random baseline, 6,376 consortium-selected, 1,268 COVID-19 study participants; Olink; 2,923 proteins) and do not say which analysis set (discovery, replication, combined or ancestry-specific) supplied the pQTL summary data; 54,219 equals no row's sample size, and no sentence holds an attribute that separates one row. No accession is given, so rule C4 does not arise."}
+ ]}

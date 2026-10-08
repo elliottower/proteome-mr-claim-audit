@@ -1,0 +1,37 @@
+source:
+  citation: '42488633'
+  local: sources/42488633.txt
+  sha256: 32f1c8a73d4c04d55a2713618a2ccec011f867d489d3fbc8629c7e7cf470fbf4
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13388088/fullTextXML
+  note: body as scripts/fetch_fulltext.py rendered it
+claims:
+  outcome_1:
+    quotes:
+    - exact: Summary statistics for T2D were obtained from the IEU Open GWAS database (ebi-a-GCST006867),
+        based on a large meta-analysis including 62,892 T2D cases and 596,424 controls of European ancestry
+        (10).
+  pqtl_1:
+    quotes:
+    - exact: Summary statistics for inflammatory cytokines were obtained from a protein quantitative trait
+        locus GWAS dataset reported by Zhao et al. (GCST90274758–GCST90274848), which included 91 inflammatory
+        cytokines measured in 14,824 individuals of European ancestry (9).
+  outcome_1_a2:
+    quotes:
+    - exact: Summary statistics for T2D were obtained from the IEU Open GWAS database (ebi-a-GCST006867),
+        based on a large meta-analysis including 62,892 T2D cases and 596,424 controls of European ancestry
+        (10).
+  pqtl_1_a2:
+    quotes:
+    - exact: Summary statistics for inflammatory cytokines were obtained from a protein quantitative trait
+        locus GWAS dataset reported by Zhao et al. (GCST90274758–GCST90274848), which included 91 inflammatory
+        cytokines measured in 14,824 individuals of European ancestry (9).
+  outcome_1_c2:
+    quotes:
+    - exact: Summary statistics for T2D were obtained from the IEU Open GWAS database (ebi-a-GCST006867),
+        based on a large meta-analysis including 62,892 T2D cases and 596,424 controls of European ancestry
+        (10).
+  pqtl_1_c2:
+    quotes:
+    - exact: Summary statistics for inflammatory cytokines were obtained from a protein quantitative trait
+        locus GWAS dataset reported by Zhao et al. (GCST90274758–GCST90274848), which included 91 inflammatory
+        cytokines measured in 14,824 individuals of European ancestry (9).

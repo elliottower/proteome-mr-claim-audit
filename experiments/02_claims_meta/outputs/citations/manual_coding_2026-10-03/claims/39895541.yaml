@@ -1,0 +1,46 @@
+source:
+  citation: '39895541'
+  local: sources/39895541.txt
+  sha256: 029e09119f34df567a57ebf1353c7873b1e400a30b96cb03d3a5f149862a0c4d
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12074732/fullTextXML
+  note: body as scripts/fetch_fulltext.py rendered it
+claims:
+  outcome_1:
+    quotes:
+    - exact: Data on the associations of protein‐associated SNPs with AAA were obtained from the AAAgen
+        Consortium 4 and the FinnGen study (https://r10.finngen.fi/).
+  outcome_2:
+    quotes:
+    - exact: We used the latest release data on AAA from the FinnGen study R10 in this analysis, which
+        comprised 3869 cases and 381 977 controls.
+  outcome_1_a2:
+    quotes:
+    - exact: The GWAS summary statistics for AAA based on the AAAgen Consortium can be accessed at https://csg.sph.umich.edu/willer/public/AAAgen2023/.
+  outcome_2_a2:
+    quotes:
+    - exact: We used the latest release data on AAA from the FinnGen study R10 in this analysis, which
+        comprised 3869 cases and 381 977 controls.
+  outcome_1_a3:
+    quotes:
+    - exact: The GWAS summary statistics for AAA based on the AAAgen Consortium can be accessed at https://csg.sph.umich.edu/willer/public/AAAgen2023/.
+  outcome_2_a3:
+    quotes:
+    - exact: We used the latest release data on AAA from the FinnGen study R10 in this analysis, which
+        comprised 3869 cases and 381 977 controls.
+  outcome_1_c2:
+    quotes:
+    - exact: Data on the associations of protein‐associated SNPs with AAA were obtained from the AAAgen
+        Consortium 4 and the FinnGen study (https://r10.finngen.fi/).
+  outcome_2_c2:
+    quotes:
+    - exact: We used the latest release data on AAA from the FinnGen study R10 in this analysis, which
+        comprised 3869 cases and 381 977 controls.
+  pqtl_1_c2:
+    quotes:
+    - exact: The UKB‐PPP involves profiling plasma pQTL data for 2923 proteins using the Olink Explore
+        3072 platform from a cohort of 54 219 UK Biobank participants.
+  pqtl_2_c2:
+    quotes:
+    - exact: Two large‐scaled proteomic studies, UKB‐PPP (UK Biobank Pharma Proteomics Project) 13 and
+        deCODE Genetics, 14 were used to extract summary statistics of genetic associations with plasma
+        proteins.

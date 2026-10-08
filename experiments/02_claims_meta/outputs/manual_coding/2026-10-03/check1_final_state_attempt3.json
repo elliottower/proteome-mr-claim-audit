@@ -1,0 +1,848 @@
+{
+ "final_state": {
+  "coded": 207,
+  "coded/basis:exact_n_with_platform_or_year": 26,
+  "coded/basis:reference_entry": 98,
+  "coded/basis:release_identifier": 66,
+  "coded/basis:source_identifier": 10,
+  "coded/basis:unique_citation": 7,
+  "coded/companion_source:False": 109,
+  "coded/companion_source:True": 98,
+  "coded/machine_basis:aliases": 54,
+  "coded/machine_basis:citation+ancestry": 2,
+  "coded/machine_basis:name": 15,
+  "coded/machine_basis:none": 14,
+  "coded/machine_basis:release": 38,
+  "coded/machine_basis:release_number": 7,
+  "coded/machine_basis:sample_size": 22,
+  "coded/machine_basis:source_citation": 53,
+  "coded/machine_basis:source_identifier": 2,
+  "coded/reference_verified_by:doi": 98,
+  "coded/source_read:abstract": 18,
+  "coded/source_read:abstract_fallback_after_fulltext_no_match": 2,
+  "coded/source_read:full_text": 187,
+  "coded/warning:passage_given_for_another_row": 6,
+  "coded/warning:value_outside_the_candidate_set": 7,
+  "not_stated_in_source/conflicting_identifiers": 12,
+  "not_stated_in_source/release_not_identified": 471,
+  "source_names_dataset_absent_from_dictionary/dataset_absent_from_dictionary": 182
+ },
+ "per_coder": {
+  "coder_1": {
+   "coded": 52,
+   "not_stated_in_source/conflicting_identifiers": 2,
+   "not_stated_in_source/release_not_identified": 115,
+   "source_names_dataset_absent_from_dictionary/dataset_absent_from_dictionary": 52
+  },
+  "coder_2": {
+   "coded": 53,
+   "not_stated_in_source/conflicting_identifiers": 4,
+   "not_stated_in_source/release_not_identified": 107,
+   "source_names_dataset_absent_from_dictionary/dataset_absent_from_dictionary": 51
+  },
+  "coder_3": {
+   "coded": 57,
+   "not_stated_in_source/conflicting_identifiers": 2,
+   "not_stated_in_source/release_not_identified": 123,
+   "source_names_dataset_absent_from_dictionary/dataset_absent_from_dictionary": 38
+  },
+  "coder_4": {
+   "coded": 45,
+   "not_stated_in_source/conflicting_identifiers": 4,
+   "not_stated_in_source/release_not_identified": 126,
+   "source_names_dataset_absent_from_dictionary/dataset_absent_from_dictionary": 41
+  }
+ },
+ "changes_in_the_281_papers_against_the_attempt_before": {
+  "coded -> not_stated_in_source/conflicting_identifiers": 1,
+  "coded -> not_stated_in_source/release_not_identified": 4,
+  "coded -> source_names_dataset_absent_from_dictionary/dataset_absent_from_dictionary": 4,
+  "not_stated_in_source/conflicting_identifiers -> coded": 2,
+  "not_stated_in_source/release_not_identified -> coded": 29,
+  "not_stated_in_source/release_not_identified -> not_stated_in_source/conflicting_identifiers": 4,
+  "not_stated_in_source/release_not_identified -> source_names_dataset_absent_from_dictionary/dataset_absent_from_dictionary": 38,
+  "source_names_dataset_absent_from_dictionary/dataset_absent_from_dictionary -> not_stated_in_source/release_not_identified": 15,
+  "unchanged": 536
+ },
+ "rows_failing_the_gate_in_the_final_attempt": [
+  {
+   "row": "coder_1/39333727#pqtl_1",
+   "attempt": 3,
+   "coded": true,
+   "failures": [
+    "no_identifier_of_the_coded_row_in_the_pinned_material"
+   ]
+  },
+  {
+   "row": "coder_1/39935908#pqtl_1",
+   "attempt": 3,
+   "coded": true,
+   "failures": [
+    "no_identifier_of_the_coded_row_in_the_pinned_material"
+   ]
+  },
+  {
+   "row": "coder_1/40564116#outcome_1",
+   "attempt": 3,
+   "coded": true,
+   "failures": [
+    "no_identifier_of_the_coded_row_in_the_pinned_material"
+   ]
+  },
+  {
+   "row": "coder_1/41222800#pqtl_1",
+   "attempt": 3,
+   "coded": true,
+   "failures": [
+    "no_identifier_of_the_coded_row_in_the_pinned_material"
+   ]
+  },
+  {
+   "row": "coder_1/41711838#pqtl_1",
+   "attempt": 3,
+   "coded": true,
+   "failures": [
+    "no_identifier_of_the_coded_row_in_the_pinned_material"
+   ]
+  },
+  {
+   "row": "coder_1/42365225#outcome_3",
+   "attempt": 3,
+   "coded": true,
+   "failures": [
+    "no_identifier_of_the_coded_row_in_the_pinned_material"
+   ]
+  },
+  {
+   "row": "coder_1/PPR796917#pqtl_1",
+   "attempt": 3,
+   "coded": true,
+   "failures": [
+    "no_identifier_of_the_coded_row_in_the_pinned_material"
+   ]
+  },
+  {
+   "row": "coder_2/40765733#outcome_1",
+   "attempt": 3,
+   "coded": true,
+   "failures": [
+    "no_identifier_of_the_coded_row_in_the_pinned_material"
+   ]
+  },
+  {
+   "row": "coder_2/41200820#pqtl_1",
+   "attempt": 3,
+   "coded": true,
+   "failures": [
+    "no_identifier_of_the_coded_row_in_the_pinned_material"
+   ]
+  },
+  {
+   "row": "coder_2/41319014#pqtl_1",
+   "attempt": 3,
+   "coded": true,
+   "failures": [
+    "no_identifier_of_the_coded_row_in_the_pinned_material"
+   ]
+  },
+  {
+   "row": "coder_4/40037332#pqtl_1",
+   "attempt": 3,
+   "coded": true,
+   "failures": [
+    "no_identifier_of_the_coded_row_in_the_pinned_material"
+   ]
+  },
+  {
+   "row": "coder_4/40462010#pqtl_2",
+   "attempt": 3,
+   "coded": true,
+   "failures": [
+    "no_identifier_of_the_coded_row_in_the_pinned_material"
+   ]
+  },
+  {
+   "row": "coder_4/41220142#pqtl_2",
+   "attempt": 3,
+   "coded": true,
+   "failures": [
+    "no_identifier_of_the_coded_row_in_the_pinned_material"
+   ]
+  },
+  {
+   "row": "coder_4/41247789#pqtl_1",
+   "attempt": 3,
+   "coded": true,
+   "failures": [
+    "no_identifier_of_the_coded_row_in_the_pinned_material"
+   ]
+  }
+ ],
+ "coded_outside_the_candidate_set": [
+  "coder_1/42798608#outcome_2",
+  "coder_2/42516377#outcome_3",
+  "coder_3/38238732#pqtl_1",
+  "coder_4/36204584#outcome_2",
+  "coder_4/40442727#outcome_1",
+  "coder_4/41514346#outcome_1",
+  "coder_4/41570284#pqtl_1"
+ ],
+ "absent_because_the_dictionary_row_is_on_the_other_side": {
+  "rows": 14,
+  "mechanical": 14,
+  "by_note": 0,
+  "both": 0,
+  "list": [
+   {
+    "row": "coder_1/38152968#outcome_1",
+    "side": "outcome",
+    "mechanical": true,
+    "note": false,
+    "other_side_rows": [
+     "INTERVAL SomaScan (Sun 2018)"
+    ]
+   },
+   {
+    "row": "coder_1/39355913#outcome_1",
+    "side": "outcome",
+    "mechanical": true,
+    "note": false,
+    "other_side_rows": [
+     "UKB-PPP ancestry-specific (non-European)",
+     "UKB-PPP discovery",
+     "UKB-PPP full cohort (combined)"
+    ]
+   },
+   {
+    "row": "coder_1/39806364#pqtl_1",
+    "side": "pqtl",
+    "mechanical": true,
+    "note": false,
+    "other_side_rows": [
+     "FinnGen R10"
+    ]
+   },
+   {
+    "row": "coder_1/40052860#outcome_1",
+    "side": "outcome",
+    "mechanical": true,
+    "note": false,
+    "other_side_rows": [
+     "ARIC African American (Zhang 2022)",
+     "ARIC European American (Zhang 2022)"
+    ]
+   },
+   {
+    "row": "coder_1/40369022#pqtl_1",
+    "side": "pqtl",
+    "mechanical": true,
+    "note": false,
+    "other_side_rows": [
+     "FinnGen R10"
+    ]
+   },
+   {
+    "row": "coder_1/41953991#outcome_1",
+    "side": "outcome",
+    "mechanical": true,
+    "note": false,
+    "other_side_rows": [
+     "Framingham Heart Study (Yao 2018)"
+    ]
+   },
+   {
+    "row": "coder_3/38310303#outcome_1",
+    "side": "outcome",
+    "mechanical": true,
+    "note": false,
+    "other_side_rows": [
+     "KORA (Suhre 2017)"
+    ]
+   },
+   {
+    "row": "coder_3/38310303#outcome_2",
+    "side": "outcome",
+    "mechanical": true,
+    "note": false,
+    "other_side_rows": [
+     "KORA (Suhre 2017)"
+    ]
+   },
+   {
+    "row": "coder_3/42065929#outcome_1",
+    "side": "outcome",
+    "mechanical": true,
+    "note": false,
+    "other_side_rows": [
+     "ARIC European American (Zhang 2022)"
+    ]
+   },
+   {
+    "row": "coder_3/42677314#pqtl_2",
+    "side": "pqtl",
+    "mechanical": true,
+    "note": false,
+    "other_side_rows": [
+     "FinnGen R10"
+    ]
+   },
+   {
+    "row": "coder_3/W7204548938#outcome_1",
+    "side": "outcome",
+    "mechanical": true,
+    "note": false,
+    "other_side_rows": [
+     "ARIC African American (Zhang 2022)",
+     "ARIC European American (Zhang 2022)"
+    ]
+   },
+   {
+    "row": "coder_4/40442727#pqtl_1",
+    "side": "pqtl",
+    "mechanical": true,
+    "note": false,
+    "other_side_rows": [
+     "MAGIC glycemic traits (Chen 2021)"
+    ]
+   },
+   {
+    "row": "coder_4/41717923#outcome_1",
+    "side": "outcome",
+    "mechanical": true,
+    "note": false,
+    "other_side_rows": [
+     "ARIC European American (Zhang 2022)"
+    ]
+   },
+   {
+    "row": "coder_4/W7204981141#pqtl_2",
+    "side": "pqtl",
+    "mechanical": true,
+    "note": false,
+    "other_side_rows": [
+     "FinnGen R10"
+    ]
+   }
+  ]
+ },
+ "absent_rows_with_rule_C_words_in_the_note": {
+  "rows": 31,
+  "with_non_gwas_words": 4,
+  "with_non_gwas_words_and_no_gwas_word": 3,
+  "list": [
+   {
+    "row": "coder_1/39979637#outcome_2",
+    "non_gwas_words_in_note": true,
+    "gwas_word_in_note": false
+   },
+   {
+    "row": "coder_1/40048323#outcome_1",
+    "non_gwas_words_in_note": false,
+    "gwas_word_in_note": false
+   },
+   {
+    "row": "coder_1/41953991#outcome_1",
+    "non_gwas_words_in_note": false,
+    "gwas_word_in_note": false
+   },
+   {
+    "row": "coder_1/41953991#outcome_2",
+    "non_gwas_words_in_note": false,
+    "gwas_word_in_note": true
+   },
+   {
+    "row": "coder_1/42317795#outcome_1",
+    "non_gwas_words_in_note": false,
+    "gwas_word_in_note": true
+   },
+   {
+    "row": "coder_1/42549601#outcome_1",
+    "non_gwas_words_in_note": false,
+    "gwas_word_in_note": false
+   },
+   {
+    "row": "coder_1/PPR1284409#outcome_1",
+    "non_gwas_words_in_note": false,
+    "gwas_word_in_note": true
+   },
+   {
+    "row": "coder_1/PPR965441#outcome_1",
+    "non_gwas_words_in_note": false,
+    "gwas_word_in_note": false
+   },
+   {
+    "row": "coder_1/PPR965441#outcome_3",
+    "non_gwas_words_in_note": true,
+    "gwas_word_in_note": false
+   },
+   {
+    "row": "coder_1/W4416868157#outcome_1",
+    "non_gwas_words_in_note": false,
+    "gwas_word_in_note": false
+   },
+   {
+    "row": "coder_1/W4416868157#pqtl_1",
+    "non_gwas_words_in_note": false,
+    "gwas_word_in_note": false
+   },
+   {
+    "row": "coder_2/38159276#outcome_1",
+    "non_gwas_words_in_note": false,
+    "gwas_word_in_note": true
+   },
+   {
+    "row": "coder_2/39885253#outcome_2",
+    "non_gwas_words_in_note": false,
+    "gwas_word_in_note": true
+   },
+   {
+    "row": "coder_2/40328427#outcome_1",
+    "non_gwas_words_in_note": false,
+    "gwas_word_in_note": true
+   },
+   {
+    "row": "coder_2/41932587#outcome_1",
+    "non_gwas_words_in_note": false,
+    "gwas_word_in_note": true
+   },
+   {
+    "row": "coder_2/42580475#outcome_2",
+    "non_gwas_words_in_note": false,
+    "gwas_word_in_note": true
+   },
+   {
+    "row": "coder_2/42682829#pqtl_1",
+    "non_gwas_words_in_note": false,
+    "gwas_word_in_note": true
+   },
+   {
+    "row": "coder_2/PPR640820#pqtl_1",
+    "non_gwas_words_in_note": false,
+    "gwas_word_in_note": false
+   },
+   {
+    "row": "coder_3/38310303#outcome_1",
+    "non_gwas_words_in_note": false,
+    "gwas_word_in_note": false
+   },
+   {
+    "row": "coder_3/38310303#outcome_2",
+    "non_gwas_words_in_note": false,
+    "gwas_word_in_note": false
+   },
+   {
+    "row": "coder_3/38750076#outcome_1",
+    "non_gwas_words_in_note": false,
+    "gwas_word_in_note": false
+   },
+   {
+    "row": "coder_3/41555457#outcome_1",
+    "non_gwas_words_in_note": false,
+    "gwas_word_in_note": true
+   },
+   {
+    "row": "coder_3/41775896#outcome_1",
+    "non_gwas_words_in_note": false,
+    "gwas_word_in_note": true
+   },
+   {
+    "row": "coder_3/41882153#outcome_1",
+    "non_gwas_words_in_note": false,
+    "gwas_word_in_note": false
+   },
+   {
+    "row": "coder_3/42694092#outcome_2",
+    "non_gwas_words_in_note": false,
+    "gwas_word_in_note": true
+   },
+   {
+    "row": "coder_4/39580111#outcome_2",
+    "non_gwas_words_in_note": false,
+    "gwas_word_in_note": true
+   },
+   {
+    "row": "coder_4/39887658#outcome_1",
+    "non_gwas_words_in_note": true,
+    "gwas_word_in_note": false
+   },
+   {
+    "row": "coder_4/41392280#outcome_1",
+    "non_gwas_words_in_note": false,
+    "gwas_word_in_note": true
+   },
+   {
+    "row": "coder_4/41514346#outcome_4",
+    "non_gwas_words_in_note": true,
+    "gwas_word_in_note": true
+   },
+   {
+    "row": "coder_4/42548293#outcome_1",
+    "non_gwas_words_in_note": false,
+    "gwas_word_in_note": true
+   },
+   {
+    "row": "coder_4/42771993#outcome_1",
+    "non_gwas_words_in_note": false,
+    "gwas_word_in_note": true
+   }
+  ]
+ },
+ "identifier_strings": {
+  "distinct": 77,
+  "given_different_values": 13,
+  "different": {
+   "ebi-a-gcst90013904": {
+    "dictionary_rows_listing_it": [],
+    "uses": [
+     {
+      "paper": "coder_1/42365225",
+      "row": "outcome_1",
+      "value": "source_names_dataset_absent_from_dictionary/dataset_absent_from_dictionary"
+     },
+     {
+      "paper": "coder_1/42365225",
+      "row": "outcome_2",
+      "value": "source_names_dataset_absent_from_dictionary/dataset_absent_from_dictionary"
+     },
+     {
+      "paper": "coder_1/42365225",
+      "row": "outcome_3",
+      "value": "Sakaue 2021 BBJ (220 traits)"
+     }
+    ]
+   },
+   "ebi-a-gcst90013954": {
+    "dictionary_rows_listing_it": [],
+    "uses": [
+     {
+      "paper": "coder_1/42365225",
+      "row": "outcome_1",
+      "value": "source_names_dataset_absent_from_dictionary/dataset_absent_from_dictionary"
+     },
+     {
+      "paper": "coder_1/42365225",
+      "row": "outcome_2",
+      "value": "source_names_dataset_absent_from_dictionary/dataset_absent_from_dictionary"
+     },
+     {
+      "paper": "coder_1/42365225",
+      "row": "outcome_3",
+      "value": "Sakaue 2021 BBJ (220 traits)"
+     }
+    ]
+   },
+   "ebi-a-gcst90018912": {
+    "dictionary_rows_listing_it": [],
+    "uses": [
+     {
+      "paper": "coder_1/42365225",
+      "row": "outcome_1",
+      "value": "source_names_dataset_absent_from_dictionary/dataset_absent_from_dictionary"
+     },
+     {
+      "paper": "coder_1/42365225",
+      "row": "outcome_2",
+      "value": "source_names_dataset_absent_from_dictionary/dataset_absent_from_dictionary"
+     },
+     {
+      "paper": "coder_1/42365225",
+      "row": "outcome_3",
+      "value": "Sakaue 2021 BBJ (220 traits)"
+     }
+    ]
+   },
+   "finngen_r10_ipf": {
+    "dictionary_rows_listing_it": [],
+    "uses": [
+     {
+      "paper": "coder_2/41508967",
+      "row": "outcome_1",
+      "value": "source_names_dataset_absent_from_dictionary/dataset_absent_from_dictionary"
+     },
+     {
+      "paper": "coder_2/41508967",
+      "row": "outcome_2",
+      "value": "FinnGen R10"
+     }
+    ]
+   },
+   "finngen_r10_m13_sjogren": {
+    "dictionary_rows_listing_it": [],
+    "uses": [
+     {
+      "paper": "coder_1/39806364",
+      "row": "outcome_1",
+      "value": "FinnGen R10"
+     },
+     {
+      "paper": "coder_1/39806364",
+      "row": "pqtl_1",
+      "value": "source_names_dataset_absent_from_dictionary/dataset_absent_from_dictionary"
+     }
+    ]
+   },
+   "gcst90018563": {
+    "dictionary_rows_listing_it": [
+     "Sakaue 2021 BBJ (220 traits)"
+    ],
+    "uses": [
+     {
+      "paper": "coder_1/42365225",
+      "row": "outcome_3",
+      "value": "Sakaue 2021 BBJ (220 traits)"
+     },
+     {
+      "paper": "coder_2/38933282",
+      "row": "outcome_2",
+      "value": "not_stated_in_source/conflicting_identifiers"
+     },
+     {
+      "paper": "coder_2/41986576",
+      "row": "outcome_1",
+      "value": "not_stated_in_source/conflicting_identifiers"
+     },
+     {
+      "paper": "coder_4/39844246",
+      "row": "outcome_1",
+      "value": "source_names_dataset_absent_from_dictionary/dataset_absent_from_dictionary"
+     },
+     {
+      "paper": "coder_4/42454155",
+      "row": "outcome_2",
+      "value": "not_stated_in_source/conflicting_identifiers"
+     }
+    ]
+   },
+   "gcst90019002": {
+    "dictionary_rows_listing_it": [
+     "Sakaue 2021 BBJ (220 traits)"
+    ],
+    "uses": [
+     {
+      "paper": "coder_1/42365225",
+      "row": "outcome_3",
+      "value": "Sakaue 2021 BBJ (220 traits)"
+     },
+     {
+      "paper": "coder_2/38933282",
+      "row": "outcome_2",
+      "value": "not_stated_in_source/conflicting_identifiers"
+     },
+     {
+      "paper": "coder_2/41986576",
+      "row": "outcome_1",
+      "value": "not_stated_in_source/conflicting_identifiers"
+     },
+     {
+      "paper": "coder_4/39844246",
+      "row": "outcome_1",
+      "value": "source_names_dataset_absent_from_dictionary/dataset_absent_from_dictionary"
+     },
+     {
+      "paper": "coder_4/42454155",
+      "row": "outcome_2",
+      "value": "not_stated_in_source/conflicting_identifiers"
+     }
+    ]
+   },
+   "gcst90274758": {
+    "dictionary_rows_listing_it": [],
+    "uses": [
+     {
+      "paper": "coder_2/40765733",
+      "row": "pqtl_1",
+      "value": "source_names_dataset_absent_from_dictionary/dataset_absent_from_dictionary"
+     },
+     {
+      "paper": "coder_2/42488633",
+      "row": "pqtl_1",
+      "value": "SCALLOP Inflammation (Zhao 2023)"
+     }
+    ]
+   },
+   "gcst90274848": {
+    "dictionary_rows_listing_it": [],
+    "uses": [
+     {
+      "paper": "coder_2/40765733",
+      "row": "pqtl_1",
+      "value": "source_names_dataset_absent_from_dictionary/dataset_absent_from_dictionary"
+     },
+     {
+      "paper": "coder_2/42488633",
+      "row": "pqtl_1",
+      "value": "SCALLOP Inflammation (Zhao 2023)"
+     }
+    ]
+   },
+   "ieu-b-4874": {
+    "dictionary_rows_listing_it": [],
+    "uses": [
+     {
+      "paper": "coder_2/40316856",
+      "row": "outcome_1",
+      "value": "source_names_dataset_absent_from_dictionary/dataset_absent_from_dictionary"
+     },
+     {
+      "paper": "coder_2/40316856",
+      "row": "outcome_2",
+      "value": "MRC-IEU UK Biobank GWAS pipeline (OpenGWAS ukb-b)"
+     }
+    ]
+   },
+   "syn51364943": {
+    "dictionary_rows_listing_it": [],
+    "uses": [
+     {
+      "paper": "coder_2/41629825",
+      "row": "pqtl_1",
+      "value": "deCODE SomaScan v4 (Ferkingstad 2021)"
+     },
+     {
+      "paper": "coder_3/42260829",
+      "row": "pqtl_1",
+      "value": "source_names_dataset_absent_from_dictionary/dataset_absent_from_dictionary"
+     },
+     {
+      "paper": "coder_4/39991825",
+      "row": "pqtl_1",
+      "value": "not_stated_in_source/release_not_identified"
+     }
+    ]
+   },
+   "ukb-b-8193": {
+    "dictionary_rows_listing_it": [],
+    "uses": [
+     {
+      "paper": "coder_2/40316856",
+      "row": "outcome_1",
+      "value": "source_names_dataset_absent_from_dictionary/dataset_absent_from_dictionary"
+     },
+     {
+      "paper": "coder_2/40316856",
+      "row": "outcome_2",
+      "value": "MRC-IEU UK Biobank GWAS pipeline (OpenGWAS ukb-b)"
+     }
+    ]
+   },
+   "ukb-d-i9_vte": {
+    "dictionary_rows_listing_it": [],
+    "uses": [
+     {
+      "paper": "coder_1/41239582",
+      "row": "outcome_1",
+      "value": "FinnGen R10"
+     },
+     {
+      "paper": "coder_1/41239582",
+      "row": "outcome_2",
+      "value": "not_stated_in_source/conflicting_identifiers"
+     }
+    ]
+   }
+  },
+  "by_class": {
+   "ebi-a-gcst": {
+    "values": {
+     "source_names_dataset_absent_from_dictionary/dataset_absent_from_dictionary": 11,
+     "Sakaue 2021 BBJ (220 traits)": 3,
+     "not_stated_in_source/conflicting_identifiers": 2,
+     "Atrial fibrillation (Nielsen 2018)": 1
+    },
+    "dictionary_rows_holding_the_prefix": []
+   },
+   "finn-b": {
+    "values": {
+     "source_names_dataset_absent_from_dictionary/dataset_absent_from_dictionary": 7,
+     "not_stated_in_source/release_not_identified": 1
+    },
+    "dictionary_rows_holding_the_prefix": []
+   },
+   "finngen_r": {
+    "values": {
+     "source_names_dataset_absent_from_dictionary/dataset_absent_from_dictionary": 4,
+     "FinnGen R10": 3,
+     "FinnGen R12": 1,
+     "not_stated_in_source/conflicting_identifiers": 1
+    },
+    "dictionary_rows_holding_the_prefix": [
+     "FinnGen R10",
+     "FinnGen R11",
+     "FinnGen R12",
+     "FinnGen R3",
+     "FinnGen R4",
+     "FinnGen R5"
+    ]
+   },
+   "gcst": {
+    "values": {
+     "source_names_dataset_absent_from_dictionary/dataset_absent_from_dictionary": 19,
+     "not_stated_in_source/conflicting_identifiers": 15,
+     "not_stated_in_source/release_not_identified": 3,
+     "Sakaue 2021 BBJ (220 traits)": 3,
+     "SCALLOP Inflammation (Zhao 2023)": 2
+    },
+    "dictionary_rows_holding_the_prefix": [
+     "ALS European ancestry (van Rheenen 2021)",
+     "CAD GWAS cross-ancestry with Biobank Japan (Aragam 2022)",
+     "EADB (Bellenguez 2022)",
+     "Sakaue 2021 BBJ (220 traits)"
+    ]
+   },
+   "ieu-a": {
+    "values": {
+     "source_names_dataset_absent_from_dictionary/dataset_absent_from_dictionary": 3
+    },
+    "dictionary_rows_holding_the_prefix": []
+   },
+   "ieu-b": {
+    "values": {
+     "source_names_dataset_absent_from_dictionary/dataset_absent_from_dictionary": 13,
+     "MRC-IEU UK Biobank GWAS pipeline (OpenGWAS ukb-b)": 1
+    },
+    "dictionary_rows_holding_the_prefix": []
+   },
+   "syn": {
+    "values": {
+     "deCODE SomaScan v4 (Ferkingstad 2021)": 1,
+     "UKB-PPP discovery": 1,
+     "source_names_dataset_absent_from_dictionary/dataset_absent_from_dictionary": 1,
+     "not_stated_in_source/release_not_identified": 1
+    },
+    "dictionary_rows_holding_the_prefix": [
+     "PGC SCZ3 (Trubetskoy 2022)",
+     "PGC SCZ3 extended (Trubetskoy 2022)"
+    ]
+   },
+   "ukb-a": {
+    "values": {
+     "source_names_dataset_absent_from_dictionary/dataset_absent_from_dictionary": 4
+    },
+    "dictionary_rows_holding_the_prefix": [
+     "Eldjarn 2023 UKB Olink (UKB-BI / UKB-SA / UKB-AF)",
+     "MRC-IEU UK Biobank GWAS pipeline (OpenGWAS ukb-b)"
+    ]
+   },
+   "ukb-b": {
+    "values": {
+     "MRC-IEU UK Biobank GWAS pipeline (OpenGWAS ukb-b)": 4,
+     "source_names_dataset_absent_from_dictionary/dataset_absent_from_dictionary": 1
+    },
+    "dictionary_rows_holding_the_prefix": [
+     "Eldjarn 2023 UKB Olink (UKB-BI / UKB-SA / UKB-AF)",
+     "MRC-IEU UK Biobank GWAS pipeline (OpenGWAS ukb-b)"
+    ]
+   },
+   "ukb-d": {
+    "values": {
+     "FinnGen R10": 1,
+     "not_stated_in_source/conflicting_identifiers": 1,
+     "MRC-IEU UK Biobank GWAS pipeline (OpenGWAS ukb-b)": 1
+    },
+    "dictionary_rows_holding_the_prefix": [
+     "MRC-IEU UK Biobank GWAS pipeline (OpenGWAS ukb-b)"
+    ]
+   }
+  }
+ }
+}

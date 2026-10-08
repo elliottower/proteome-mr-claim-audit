@@ -1,0 +1,37 @@
+source:
+  citation: '40462010'
+  local: sources/40462010.txt
+  sha256: 4a2269d20537b45af648750d6ca1ad914156a21fab9b4a4bee6e45451bd959b1
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12135285/fullTextXML
+  note: body as scripts/fetch_fulltext.py rendered it
+claims:
+  pqtl_2:
+    quotes:
+    - exact: 'Iceland Decode Database: 4,907 aptamers in 35,559 Icelandic individuals (PMID: 34,857,953).'
+  outcome_1_a2:
+    quotes:
+    - exact: To assess potential pleiotropic effects, we conducted a phenome-wide association study (Phe-WAS)
+        using 783 phenotypes from the UK Biobank-SAIGE database.
+  pqtl_2_a2:
+    quotes:
+    - exact: 'Iceland Decode Database: 4,907 aptamers in 35,559 Icelandic individuals (PMID: 34,857,953).'
+  pqtl_2_a3:
+    quotes:
+    - exact: 'Iceland Decode Database: 4,907 aptamers in 35,559 Icelandic individuals (PMID: 34,857,953).'
+  pqtl_2_a4:
+    quotes:
+    - exact: 'Iceland Decode Database: 4,907 aptamers in 35,559 Icelandic individuals (PMID: 34,857,953).'
+  outcome_1_c2:
+    quotes:
+    - exact: To assess potential pleiotropic effects, we conducted a phenome-wide association study (Phe-WAS)
+        using 783 phenotypes from the UK Biobank-SAIGE database.
+  pqtl_2_c2:
+    quotes:
+    - exact: 'Iceland Decode Database: 4,907 aptamers in 35,559 Icelandic individuals (PMID: 34,857,953).'
+  outcome_1_r:
+    quotes:
+    - exact: To assess potential pleiotropic effects, we conducted a phenome-wide association study (Phe-WAS)
+        using 783 phenotypes from the UK Biobank-SAIGE database.
+  pqtl_2_r:
+    quotes:
+    - exact: 'Iceland Decode Database: 4,907 aptamers in 35,559 Icelandic individuals (PMID: 34,857,953).'

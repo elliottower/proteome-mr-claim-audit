@@ -1,0 +1,26 @@
+source:
+  citation: '39578729'
+  local: sources/39578729.txt
+  sha256: a578a94e7028f72fec7b5d97579e54f258f524fc2570aee35eb33c1f629e66b0
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11585170/fullTextXML
+  note: body as scripts/fetch_fulltext.py rendered it
+claims:
+  outcome_1:
+    quotes:
+    - exact: Specifically, the GERA + UKB GWAS meta-analysis dataset was used as the primary discovery
+        dataset, while the FinnGen R10 dataset served as the replication cohort for further validation.
+  pqtl_1:
+    quotes:
+    - exact: This study analyzed genetic and phenotypic information from 35,559 Icelanders, measuring
+        4,907 proteins using the SomaScan version 4 multiplex nucleotide testing technique.
+  outcome_1_c2:
+    quotes:
+    - exact: 'The summary statistics for the combined multiethnic meta-analysis (GERA + UKB) GWAS can
+        be downloaded from the NHGRI-EBI GWAS Catalog using study accession number GCST90000016 at the
+        following link: https://www.ebi.ac.uk/gwas/downloads/summary-statistics.'
+      prefix: 'of Zhejiang Chinese Medical University (2022FSYYZZ01). ## Data availability'
+      suffix: The summary data from the FinnGen GWAS can be accessed at
+  pqtl_1_c2:
+    quotes:
+    - exact: This study analyzed genetic and phenotypic information from 35,559 Icelanders, measuring
+        4,907 proteins using the SomaScan version 4 multiplex nucleotide testing technique.

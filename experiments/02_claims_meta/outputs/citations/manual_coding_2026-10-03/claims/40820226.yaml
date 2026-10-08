@@ -1,0 +1,19 @@
+source:
+  citation: '40820226'
+  local: sources/40820226.txt
+  sha256: be81581319a9250d01bb3299154438606c5b6d199ccfe1716a94649b04fcccca
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12358570/fullTextXML
+  note: body as scripts/fetch_fulltext.py rendered it
+claims:
+  pqtl_2:
+    quotes:
+    - exact: The LUSC GWAS summary statistical data was downloaded from the IEU database (https://gwas.mrcieu.ac.uk/)
+        and the finngen database (https://r10.finngen.fi/), namely ieu_b_4953 and finngen_R10_c3_HEPATOCELLU-CARC-EXALLC.
+  pqtl_1_c2:
+    quotes:
+    - exact: The LUSC GWAS summary statistical data was downloaded from the IEU database (https://gwas.mrcieu.ac.uk/)
+        and the finngen database (https://r10.finngen.fi/), namely ieu_b_4953 and finngen_R10_c3_HEPATOCELLU-CARC-EXALLC.
+  pqtl_2_c2:
+    quotes:
+    - exact: The LUSC GWAS summary statistical data was downloaded from the IEU database (https://gwas.mrcieu.ac.uk/)
+        and the finngen database (https://r10.finngen.fi/), namely ieu_b_4953 and finngen_R10_c3_HEPATOCELLU-CARC-EXALLC.

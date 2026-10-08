@@ -1,0 +1,12 @@
+source:
+  citation: '40988203'
+  local: sources/40988203.txt
+  sha256: 4915b6aaeab7fab5234a1d52367dec70b4b4bbad4543eb8a66db1c1d0d133d15
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12459469/fullTextXML
+  note: body as scripts/fetch_fulltext.py rendered it
+claims:
+  pqtl_1_c2:
+    quotes:
+    - exact: This dataset includes plasma proteomic profiles of 54,219 European participants, encompassing
+        2940 proteins (https://www.synapse.org/#!Synapse:syn51365303).[10] In this study, pQTLs served
+        as instrumental variables (IVs).

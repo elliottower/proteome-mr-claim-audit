@@ -1,0 +1,21 @@
+source:
+  citation: '42549601'
+  local: sources/42549601.txt
+  sha256: f3c18b80018120a7bfeb91a9c5a01e6425ff8cb3537111038a4089325fa6206c
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13434537/fullTextXML
+  note: body as scripts/fetch_fulltext.py rendered it
+claims:
+  outcome_1_a3:
+    quotes:
+    - exact: For genetic and PRS analyses, we used UK Biobank genotype data after central sample-level
+        quality control and additionally restricted analyses to participants of European genetic ancestry
+        with complete genotype information, excluding individuals flagged for sex discordance, excess
+        heterozygosity or missingness, close relatedness or missing genotype data.
+  outcome_1_a4:
+    quotes:
+    - exact: We then leveraged the UK Biobank data to perform multivariable Cox proportional hazards regression,
+        estimating the associations of single psychiatric disorder, co-occurring psychiatric disorder
+        status and the weighted composite psychiatric disorder score with incident AD.
+  outcome_1_c2:
+    quotes:
+    - exact: The data in this research were available with permission via application number 224336.

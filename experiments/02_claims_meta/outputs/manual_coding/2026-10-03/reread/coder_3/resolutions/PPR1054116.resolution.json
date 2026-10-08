@@ -1,0 +1,14 @@
+{"record_id": "PPR1054116", "coder_id": "coder_3",
+ "rows": [
+  {"row": "outcome_1",
+   "resolved_value": "source_names_dataset_absent_from_dictionary",
+   "unresolved_reason": "dataset_absent_from_dictionary",
+   "resolution_note": "Abstract sentence 4 names the dataset as the PGC GWAS of PPD with 17,339 cases and 53,426 controls; the outcome side lists PGC GWAS of schizophrenia, major depression, bipolar disorder, ADHD, autism and PTSD only, none for PPD and none with these counts, so the named dataset has no row (rule C2); no release of a listed row is in question.",
+   "identification_basis": null,
+   "source_read": "abstract",
+   "passage_id": "p001",
+   "quote": "GWAS data of PPD were sourced from Psychiatric Genomics Consortium (PGC) (Ncase = 17,339, Ncontrol = 53,426).",
+   "citations_claim": "claims/PPR1054116.yaml#outcome_1_r",
+   "companion_source": false,
+   "reference_label": null, "reference_quote": null, "reference_citations_claim": null,
+   "dataset_named_in_source": "GWAS data of PPD were sourced from Psychiatric Genomics Consortium (PGC)"}]}

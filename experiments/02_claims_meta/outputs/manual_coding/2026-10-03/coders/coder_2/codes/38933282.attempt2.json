@@ -1,0 +1,41 @@
+{
+ "record_id": "38933282",
+ "coder_id": "coder_2",
+ "attempt": 2,
+ "rows": [
+  {
+   "side": "outcome",
+   "name_as_written": "FinnGen study",
+   "value": "not_stated_in_source",
+   "unresolved_reason": "release_not_identified",
+   "identification_basis": null,
+   "source_read": null,
+   "passage_id": null,
+   "quote": null,
+   "citations_claim": null,
+   "companion_source": false,
+   "reference_label": null,
+   "reference_quote": null,
+   "reference_citations_claim": null,
+   "dataset_named_in_source": null,
+   "coder_note": "Reread. The abstract passage given for this row names the FinnGen study as the discovery source with no release label, sample size or citation."
+  },
+  {
+   "side": "outcome",
+   "name_as_written": "GWAS catalog",
+   "value": "not_stated_in_source",
+   "unresolved_reason": "conflicting_identifiers",
+   "identification_basis": null,
+   "source_read": null,
+   "passage_id": null,
+   "quote": null,
+   "citations_claim": null,
+   "companion_source": false,
+   "reference_label": null,
+   "reference_quote": null,
+   "reference_citations_claim": null,
+   "dataset_named_in_source": null,
+   "coder_note": "Reread. The sentence gives a GWAS Catalog accession that falls inside the accession range the dictionary lists under one Sakaue 2021 row, but the case and control counts in the same sentence exceed that row's maximum sample size, and the related Sakaue 2021 rows carry no accession. The identifiers conflict; flagged for adjudication."
+  }
+ ]
+}

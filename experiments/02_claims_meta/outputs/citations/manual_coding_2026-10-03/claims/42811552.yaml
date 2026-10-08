@@ -1,0 +1,13 @@
+source:
+  citation: '42811552'
+  local: sources/42811552.txt
+  sha256: 6855e0c9ce14746b615003164cacfef0beb9d87590d74bea127eb2575b5e540f
+  note: abstract exactly as sent to the extractor
+claims:
+  outcome_1_c2:
+    quotes:
+    - exact: Genetic data for CRSwNP were obtained from the FinnGen database and the IEU database.
+  pqtl_1_c2:
+    quotes:
+    - exact: Cis-eQTLs from the eQTLGen database and cis-pQTLs from the deCODE database were used as instrumental
+        variables to validate targets at the gene expression and protein levels, respectively.

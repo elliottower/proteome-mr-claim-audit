@@ -1,0 +1,24 @@
+{
+ "record_id": "42760138",
+ "coder_id": "coder_3",
+ "attempt": 1,
+ "rows": [
+  {
+   "side": "pqtl",
+   "name_as_written": "Genotype-Tissue Expression",
+   "value": "source_names_dataset_absent_from_dictionary",
+   "unresolved_reason": "dataset_absent_from_dictionary",
+   "identification_basis": null,
+   "source_read": "abstract",
+   "passage_id": "p001",
+   "quote": "ObjectiveTo evaluate the association between genetically predicted GLP-1R expression and idiopathic pulmonary fibrosis and to explore potential mediation through JAKMIP3 and pulmonary-function traits using Mendelian randomization.MethodsWe conducted a two-sample drug-target cis-Mendelian randomization study using Genotype-Tissue Expression lung cis-expression quantitative trait locus summary data as genetic proxies for GLP-1R expression and FinnGen R5 summary data (1028 cases and 196,986 controls; n = 198,014) for idiopathic pulmonary fibrosis.",
+   "citations_claim": "claims/42760138.yaml#pqtl_1",
+   "companion_source": false,
+   "reference_label": null,
+   "reference_quote": null,
+   "reference_citations_claim": null,
+   "dataset_named_in_source": "Genotype-Tissue Expression",
+   "coder_note": "Sentence names an expression-QTL resource as the genetic proxy data; the dictionary has no row for it."
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+source:
+  citation: '41286868'
+  local: sources/41286868.txt
+  sha256: 6e44ae2052faa4f117036a05c3b6b100414dce9d5713ec7ce928edca296d4dbc
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12641967/fullTextXML
+  note: body as scripts/fetch_fulltext.py rendered it
+claims:
+  outcome_1:
+    quotes:
+    - exact: For replication analyses, we used COPD GWAS summary statistics from the Million Veteran Program
+        (MVP), which included 103,054 European ancestry cases and 315,450 ancestry-matched controls [26].
+  pqtl_1:
+    quotes:
+    - exact: Plasma proteome GWAS (pQTL) data were sourced from Sun et al. [37].
+  outcome_1_a2:
+    quotes:
+    - exact: For replication analyses, we used COPD GWAS summary statistics from the Million Veteran Program
+        (MVP), which included 103,054 European ancestry cases and 315,450 ancestry-matched controls [26].
+  pqtl_1_a2:
+    quotes:
+    - exact: Plasma proteome GWAS (pQTL) data were sourced from Sun et al. [37].
+  outcome_1_a3:
+    quotes:
+    - exact: For replication analyses, we used COPD GWAS summary statistics from the Million Veteran Program
+        (MVP), which included 103,054 European ancestry cases and 315,450 ancestry-matched controls [26].
+  pqtl_1_a3:
+    quotes:
+    - exact: The pQTL data used in this study were obtained from a harmonized dataset compiled by Sun
+        et al. which integrated seven large-scale plasma proteome GWAS (Pietzner, Ferkingstad, Sun, Suhre,
+        Folkersen, Yao, and colleagues) [8–22].
+  outcome_1_c2:
+    quotes:
+    - exact: For replication analyses, we used COPD GWAS summary statistics from the Million Veteran Program
+        (MVP), which included 103,054 European ancestry cases and 315,450 ancestry-matched controls [26].
+  pqtl_1_c2:
+    quotes:
+    - exact: Plasma proteome GWAS (pQTL) data were sourced from Sun et al. [37].
+  pqtl_2_c2:
+    quotes:
+    - exact: The plasma proteome data from deCODE genetics, comprising 4,907 plasma proteins measured
+        in 35,559 Icelanders, were used for replication MR analysis [23].

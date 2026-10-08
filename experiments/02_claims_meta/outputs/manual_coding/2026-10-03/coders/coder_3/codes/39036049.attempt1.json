@@ -1,0 +1,41 @@
+{
+ "record_id": "39036049",
+ "coder_id": "coder_3",
+ "attempt": 1,
+ "rows": [
+  {
+   "side": "outcome",
+   "name_as_written": "FinnGen consortium R10 release data",
+   "value": "FinnGen R10",
+   "unresolved_reason": null,
+   "identification_basis": "release_identifier",
+   "source_read": "abstract_fallback_after_fulltext_no_match",
+   "passage_id": "p001",
+   "quote": "The plasma proteomic data were derived from the UK Biobank Pharmaceutical Proteomics Project (UKB-PPP), while the EM dataset from the FinnGen consortium R10 release data.",
+   "citations_claim": "claims/39036049.abstract.yaml#outcome_1",
+   "companion_source": false,
+   "reference_label": null,
+   "reference_quote": null,
+   "reference_citations_claim": null,
+   "dataset_named_in_source": null,
+   "coder_note": "Sentence states the R10 release."
+  },
+  {
+   "side": "pqtl",
+   "name_as_written": "UK Biobank Pharmaceutical Proteomics Project (UKB-PPP)",
+   "value": "not_stated_in_source",
+   "unresolved_reason": "release_not_identified",
+   "identification_basis": null,
+   "source_read": null,
+   "passage_id": null,
+   "quote": null,
+   "citations_claim": null,
+   "companion_source": false,
+   "reference_label": null,
+   "reference_quote": null,
+   "reference_citations_claim": null,
+   "dataset_named_in_source": null,
+   "coder_note": "Project name and a reference shared by several candidate rows; no cohort subset identified."
+  }
+ ]
+}

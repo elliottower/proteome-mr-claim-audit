@@ -1,0 +1,53 @@
+source:
+  citation: '39375737'
+  local: sources/39375737.txt
+  sha256: 84e9b9ec0678d275c592d36d6a4b7fde0bc026b0dab79212ad07bb4c0e59e530
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11459707/fullTextXML
+  note: body as scripts/fetch_fulltext.py rendered it
+claims:
+  outcome_1:
+    quotes:
+    - exact: The summary data of GWAS can be downloaded from the FinnGen database (R9 release) at https://www.finngen.fi/en/access_results.
+  pqtl_2:
+    quotes:
+    - exact: The pQTLs were extracted from the deCODE study in which genome-wide association studies (GWASs)
+        of 4907 plasma proteins were measured in 35,559 Icelanders by using SomaScan multiplex aptamer
+        assay (version 4) [15].
+  outcome_1_a2:
+    quotes:
+    - exact: The summary data of GWAS can be downloaded from the FinnGen database (R9 release) at https://www.finngen.fi/en/access_results.
+  pqtl_1_a2:
+    quotes:
+    - exact: In this population-based and prospective study, a total of 2004 significant proteins were
+        identified in European American individuals.
+  pqtl_2_a2:
+    quotes:
+    - exact: The pQTLs were extracted from the deCODE study in which genome-wide association studies (GWASs)
+        of 4907 plasma proteins were measured in 35,559 Icelanders by using SomaScan multiplex aptamer
+        assay (version 4) [15].
+  outcome_1_a3:
+    quotes:
+    - exact: The summary data of GWAS can be downloaded from the FinnGen database (R9 release) at https://www.finngen.fi/en/access_results.
+  pqtl_1_a3:
+    quotes:
+    - exact: In this population-based and prospective study, a total of 2004 significant proteins were
+        identified in European American individuals.
+  pqtl_2_a3:
+    quotes:
+    - exact: The pQTLs were extracted from the deCODE study in which genome-wide association studies (GWASs)
+        of 4907 plasma proteins were measured in 35,559 Icelanders by using SomaScan multiplex aptamer
+        assay (version 4) [15].
+  outcome_1_c2:
+    quotes:
+    - exact: The summary data of GWAS can be downloaded from the FinnGen database (R9 release) at https://www.finngen.fi/en/access_results.
+  outcome_2_c2:
+    quotes:
+    - exact: For external validation analysis, we used IPF GWAS data from UK Biobank [18].
+  pqtl_1_c2:
+    quotes:
+    - exact: For external validation analysis, we used protein GWAS data from the ARIC study [17].
+  pqtl_2_c2:
+    quotes:
+    - exact: The pQTLs were extracted from the deCODE study in which genome-wide association studies (GWASs)
+        of 4907 plasma proteins were measured in 35,559 Icelanders by using SomaScan multiplex aptamer
+        assay (version 4) [15].

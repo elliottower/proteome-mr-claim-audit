@@ -1,0 +1,23 @@
+{
+ "lines_read": 20,
+ "marked_no": 0,
+ "upper_bound_95_one_sided": 0.13910834066826516,
+ "audit": "passed",
+ "lines_marked_no": [],
+ "seed": 20261008,
+ "sample_size": 20,
+ "marked_file": {
+  "path": "outputs/manual_coding/2026-10-03/check3_sample/check3_sample_20_marks_author.json",
+  "sha256": "33491574276a467080c377973c8372d9a246b48459fa207b90ae80850795dacc"
+ },
+ "second_marked_file": null,
+ "third_check": {
+  "not_applicable": 676,
+  "machine_gate_only": 176,
+  "author_confirmed": 20
+ },
+ "status": {
+  "unresolved": 676,
+  "coded": 196
+ }
+}

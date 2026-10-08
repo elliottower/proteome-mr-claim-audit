@@ -1,0 +1,58 @@
+{
+ "record_id": "42516377",
+ "coder_id": "coder_2",
+ "attempt": 1,
+ "rows": [
+  {
+   "side": "outcome",
+   "name_as_written": "EBI",
+   "value": "not_stated_in_source",
+   "unresolved_reason": "release_not_identified",
+   "identification_basis": null,
+   "source_read": null,
+   "passage_id": null,
+   "quote": null,
+   "citations_claim": null,
+   "companion_source": false,
+   "reference_label": null,
+   "reference_quote": null,
+   "reference_citations_claim": null,
+   "dataset_named_in_source": null,
+   "coder_note": "The EBI replication cohort is cited to reference 25 in one sentence and to references 25 and 26 in another; reference 25 is no dictionary row's source and reference 26 is shared with the UK Biobank cohort in the same sentence, so the passages neither identify one dictionary row nor establish that the dataset is absent."
+  },
+  {
+   "side": "outcome",
+   "name_as_written": "FinnGen",
+   "value": "FinnGen R10",
+   "unresolved_reason": null,
+   "identification_basis": "release_identifier",
+   "source_read": "full_text",
+   "passage_id": "p002",
+   "quote": "The discovery cohort was sourced from FinnGen Release 10 (24), published in December 2023, comprising 5,026 asthma cases and 225,703 controls.",
+   "citations_claim": "claims/42516377.yaml#outcome_2",
+   "companion_source": false,
+   "reference_label": null,
+   "reference_quote": null,
+   "reference_citations_claim": null,
+   "dataset_named_in_source": null,
+   "coder_note": "Sentence states the discovery cohort was sourced from FinnGen Release 10."
+  },
+  {
+   "side": "outcome",
+   "name_as_written": "UK Biobank",
+   "value": "MRC-IEU UK Biobank GWAS pipeline (OpenGWAS ukb-b)",
+   "unresolved_reason": null,
+   "identification_basis": "reference_entry",
+   "source_read": "full_text",
+   "passage_id": "p001",
+   "quote": "Genes that met significance thresholds were further validated in replication cohorts from the European Bioinformatics Institute (EBI) (25, 26) and the UK Biobank (26, 27), including subgroup analyses for childhood-onset and adult-onset asthma.",
+   "citations_claim": "claims/42516377.yaml#outcome_3",
+   "companion_source": true,
+   "reference_label": "26",
+   "reference_quote": "Mitchell R, Elsworth BL, Raistrick CA, Paternoster L, Hemani G, Gaunt TR. MRC IEU UK Biobank GWAS pipeline version 2. Bristol: University of Bristol; (2019). doi: 10.5523/BRIS.PNOAT8CXO0U52P6YNFAEKEIGI",
+   "reference_citations_claim": "claims/42516377.references.yaml#outcome_3_ref",
+   "dataset_named_in_source": null,
+   "coder_note": "Sentence attributes the UK Biobank replication cohort to references 26 and 27; reference 26 is the MRC IEU UK Biobank GWAS pipeline version 2, whose DOI is the source identifier of one dictionary row only, and reference 27 is the general cohort description. The row is outside the listed candidates. The same sentence also attaches reference 26 to the EBI cohort."
+  }
+ ]
+}

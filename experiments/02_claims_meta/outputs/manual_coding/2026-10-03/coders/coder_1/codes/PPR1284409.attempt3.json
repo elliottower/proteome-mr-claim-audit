@@ -1,0 +1,14 @@
+{"record_id": "PPR1284409", "coder_id": "coder_1", "attempt": 3,
+ "rows": [
+  {"side": "outcome", "name_as_written": "UK Biobank",
+   "value": "source_names_dataset_absent_from_dictionary",
+   "unresolved_reason": "dataset_absent_from_dictionary",
+   "identification_basis": null,
+   "source_read": "abstract",
+   "passage_id": "p001",
+   "quote": "This study aimed to investigate the genetic architecture and potential causal protein mediators of these rare cardiovascular diseases using integrated genomic and proteomic analyses. <h4>Methods</h4> Genome-wide association analyses were performed within the UK Biobank cohort for Brugada syndrome, takotsubo cardiomyopathy, and pulmonary arterial hypertension.",
+   "citations_claim": "claims/PPR1284409.yaml#outcome_1_a3",
+   "companion_source": false,
+   "reference_label": null, "reference_quote": null, "reference_citations_claim": null,
+   "dataset_named_in_source": "UK Biobank cohort",
+   "coder_note": "The outcome data are the authors' own genome-wide association analyses run within UK Biobank for three named phenotypes (source, phenotypes and procedure stated); no dictionary row is that analysis (rule C). The definition is thin (no application number or analytic N in the abstract), which a reviewer applying rule C strictly could read as release_not_identified."}]}

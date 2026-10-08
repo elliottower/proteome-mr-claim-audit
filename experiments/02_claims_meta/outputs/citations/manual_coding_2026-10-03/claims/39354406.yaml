@@ -1,0 +1,16 @@
+source:
+  citation: '39354406'
+  local: sources/39354406.txt
+  sha256: 1dfb2508863b27e4d2d71ab593bf27809e196a1aa7aff86dec80e7ed661dadb0
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11443760/fullTextXML
+  note: body as scripts/fetch_fulltext.py rendered it
+claims:
+  outcome_1:
+    quotes:
+    - exact: With respect to GWAS data for the AVB outcome, we retrieved GWAS data from UkBiobank (https://pheweb.org/UKB-TOPMed/pheno/426.24/).
+  outcome_1_a2:
+    quotes:
+    - exact: With respect to GWAS data for the AVB outcome, we retrieved GWAS data from UkBiobank (https://pheweb.org/UKB-TOPMed/pheno/426.24/).
+  outcome_1_c2:
+    quotes:
+    - exact: With respect to GWAS data for the AVB outcome, we retrieved GWAS data from UkBiobank (https://pheweb.org/UKB-TOPMed/pheno/426.24/).

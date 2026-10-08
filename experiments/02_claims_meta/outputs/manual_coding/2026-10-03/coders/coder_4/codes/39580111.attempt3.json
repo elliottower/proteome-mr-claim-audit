@@ -1,0 +1,41 @@
+{
+ "record_id": "39580111",
+ "coder_id": "coder_4",
+ "attempt": 3,
+ "rows": [
+  {
+   "side": "outcome",
+   "name_as_written": "Framingham Heart Study (FHS)",
+   "value": "not_stated_in_source",
+   "unresolved_reason": "release_not_identified",
+   "identification_basis": null,
+   "source_read": null,
+   "passage_id": null,
+   "quote": null,
+   "citations_claim": null,
+   "companion_source": false,
+   "reference_label": null,
+   "reference_quote": null,
+   "reference_citations_claim": null,
+   "dataset_named_in_source": null,
+   "coder_note": "Rules D and I1: the abstract gives only the cohort name with a count (740 FHS participants, external validation); no release, accession, citation or defined analysis dataset."
+  },
+  {
+   "side": "outcome",
+   "name_as_written": "UK Biobank",
+   "value": "source_names_dataset_absent_from_dictionary",
+   "unresolved_reason": "dataset_absent_from_dictionary",
+   "identification_basis": null,
+   "source_read": "abstract",
+   "passage_id": "p001",
+   "quote": "STUDY DESIGN AND METHODS: We analyzed plasma levels of 2,922 proteins in 32,493 UK Biobank participants (53% female; mean [SD] age, 57 [8] years) to investigate their associations with spirometry measures of lung function (FEV1, FVC, FEV1 to FVC ratio), and with obstructive (n = 4,713) and restrictive (n = 3,886) spirometry patterns.",
+   "citations_claim": "claims/39580111.yaml#outcome_2_a3",
+   "companion_source": false,
+   "reference_label": null,
+   "reference_quote": null,
+   "reference_citations_claim": null,
+   "dataset_named_in_source": "UK Biobank",
+   "coder_note": "Rule C: the authors' own analysis of UK Biobank individual-level data, defined by its analytic sample (32,493 participants) and phenotypes (spirometry measures and patterns); no dictionary row is this dataset. The abstract does not separately name a GWAS release for the Mendelian randomization."
+  }
+ ]
+}

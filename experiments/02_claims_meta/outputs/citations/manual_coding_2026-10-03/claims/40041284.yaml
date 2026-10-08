@@ -1,0 +1,13 @@
+source:
+  citation: '40041284'
+  local: sources/40041284.txt
+  sha256: 5ed9f81fe729b9dd11853fa655b64a93a2f675ac99ed8891923d24391cc85367
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11876022/fullTextXML
+  note: body as scripts/fetch_fulltext.py rendered it
+claims:
+  outcome_1_a3:
+    quotes:
+    - exact: The GWAS ID of osteoporosis (ukb-a-87) was obtained from the MRC IEU Open GWAS database.
+  outcome_1_c2:
+    quotes:
+    - exact: The GWAS ID of osteoporosis (ukb-a-87) was obtained from the MRC IEU Open GWAS database.

@@ -1,0 +1,32 @@
+source:
+  citation: '41254737'
+  local: sources/41254737.txt
+  sha256: 6aeec7b017400464d0be749e72179e87b03277bd8e53f3609a44951f174b5889
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12625383/fullTextXML
+  note: body as scripts/fetch_fulltext.py rendered it
+claims:
+  pqtl_2:
+    quotes:
+    - exact: 'We integrated data from approximately 90,000 individuals across the deCODE (Diabetes Epidemiology:
+        Collaborative Analysis of Diagnostic Criteria in Europe) [12] and UKB-PPP (UK Biobank Pharma Proteomics
+        Project) [13] cohorts, analyzing 7,847 proteins.'
+  pqtl_2_a2:
+    quotes:
+    - exact: 'We integrated data from approximately 90,000 individuals across the deCODE (Diabetes Epidemiology:
+        Collaborative Analysis of Diagnostic Criteria in Europe) [12] and UKB-PPP (UK Biobank Pharma Proteomics
+        Project) [13] cohorts, analyzing 7,847 proteins.'
+  pqtl_2_a3:
+    quotes:
+    - exact: 'We integrated data from approximately 90,000 individuals across the deCODE (Diabetes Epidemiology:
+        Collaborative Analysis of Diagnostic Criteria in Europe) [12] and UKB-PPP (UK Biobank Pharma Proteomics
+        Project) [13] cohorts, analyzing 7,847 proteins.'
+  pqtl_1_c2:
+    quotes:
+    - exact: 'Proteomic data were obtained from two large-scale cohorts: (i) deCODE (n = 35,553 Icelanders),
+        using the SomaLogic platform to quantify 4,907 plasma proteins [7]; and (ii) UKB-PPP (n = 54,219
+        participants), utilizing the Olink platform to measure 2,940 proteins [13] (Table S1).'
+  pqtl_2_c2:
+    quotes:
+    - exact: 'We integrated data from approximately 90,000 individuals across the deCODE (Diabetes Epidemiology:
+        Collaborative Analysis of Diagnostic Criteria in Europe) [12] and UKB-PPP (UK Biobank Pharma Proteomics
+        Project) [13] cohorts, analyzing 7,847 proteins.'

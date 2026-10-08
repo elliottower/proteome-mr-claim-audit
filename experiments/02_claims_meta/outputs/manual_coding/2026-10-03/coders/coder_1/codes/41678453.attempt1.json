@@ -1,0 +1,58 @@
+{
+ "record_id": "41678453",
+ "coder_id": "coder_1",
+ "attempt": 1,
+ "rows": [
+  {
+   "side": "outcome",
+   "name_as_written": "Cordell et al.",
+   "value": "source_names_dataset_absent_from_dictionary",
+   "unresolved_reason": "dataset_absent_from_dictionary",
+   "identification_basis": null,
+   "source_read": "full_text",
+   "passage_id": "p001",
+   "quote": "The primary outcome data for PBC were obtained from the GWAS meta-analysis by Cordell et al. (2021) [31].",
+   "citations_claim": "claims/41678453.yaml#outcome_1",
+   "companion_source": false,
+   "reference_label": null,
+   "reference_quote": null,
+   "reference_citations_claim": null,
+   "dataset_named_in_source": "GWAS meta-analysis by Cordell et al. (2021)",
+   "coder_note": "Sentence names the PBC GWAS meta-analysis by Cordell et al. (2021) as the primary outcome data; no dictionary row is for it."
+  },
+  {
+   "side": "outcome",
+   "name_as_written": "FinnGen consortium",
+   "value": "not_stated_in_source",
+   "unresolved_reason": "release_not_identified",
+   "identification_basis": null,
+   "source_read": null,
+   "passage_id": null,
+   "quote": null,
+   "citations_claim": null,
+   "companion_source": false,
+   "reference_label": null,
+   "reference_quote": null,
+   "reference_citations_claim": null,
+   "dataset_named_in_source": null,
+   "coder_note": "The only passage given is the abstract, which names the FinnGen consortium without a release."
+  },
+  {
+   "side": "outcome",
+   "name_as_written": "IEU Open GWAS project",
+   "value": "not_stated_in_source",
+   "unresolved_reason": "release_not_identified",
+   "identification_basis": null,
+   "source_read": null,
+   "passage_id": null,
+   "quote": null,
+   "citations_claim": null,
+   "companion_source": false,
+   "reference_label": null,
+   "reference_quote": null,
+   "reference_citations_claim": null,
+   "dataset_named_in_source": null,
+   "coder_note": "The only passage given is the abstract, which names the IEU Open GWAS repository without a dataset id or study."
+  }
+ ]
+}

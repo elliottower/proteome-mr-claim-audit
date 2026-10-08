@@ -1,0 +1,36 @@
+source:
+  citation: '40450304'
+  local: sources/40450304.txt
+  sha256: cf3af315a69c0c446c8df263e6c5b0e74b1a58547310c795e061f0e2ec261d80
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12126875/fullTextXML
+  note: body as scripts/fetch_fulltext.py rendered it
+claims:
+  pqtl_2:
+    quotes:
+    - exact: We obtained summary statistics of the genetic associations with plasma protein levels from
+        a study of Ferkingstad et al. (https://www.decode.com/summarydata/) [9] and the UK Biobank Pharma
+        Proteomics Project (UKB-PPP)( https://registry.opendata.aws/ukbppp/) [10].
+  pqtl_2_a2:
+    quotes:
+    - exact: The study by Ferkingstad et al. included 35,559 Icelanders and adjusted for age, sex, and
+        sample age for each tested protein, performing comprehensive pQTL localization of 4,907 proteins.
+  pqtl_2_a3:
+    quotes:
+    - exact: We obtained summary statistics of the genetic associations with plasma protein levels from
+        a study of Ferkingstad et al. (https://www.decode.com/summarydata/) [9] and the UK Biobank Pharma
+        Proteomics Project (UKB-PPP)( https://registry.opendata.aws/ukbppp/) [10].
+  pqtl_2_a4:
+    quotes:
+    - exact: We obtained summary statistics of the genetic associations with plasma protein levels from
+        a study of Ferkingstad et al. (https://www.decode.com/summarydata/) [9] and the UK Biobank Pharma
+        Proteomics Project (UKB-PPP)( https://registry.opendata.aws/ukbppp/) [10].
+  pqtl_1_c2:
+    quotes:
+    - exact: We obtained summary statistics of the genetic associations with plasma protein levels from
+        a study of Ferkingstad et al. (https://www.decode.com/summarydata/) [9] and the UK Biobank Pharma
+        Proteomics Project (UKB-PPP)( https://registry.opendata.aws/ukbppp/) [10].
+  pqtl_2_c2:
+    quotes:
+    - exact: We obtained summary statistics of the genetic associations with plasma protein levels from
+        a study of Ferkingstad et al. (https://www.decode.com/summarydata/) [9] and the UK Biobank Pharma
+        Proteomics Project (UKB-PPP)( https://registry.opendata.aws/ukbppp/) [10].

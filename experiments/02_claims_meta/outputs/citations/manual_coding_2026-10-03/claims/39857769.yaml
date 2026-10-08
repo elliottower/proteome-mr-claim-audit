@@ -1,0 +1,36 @@
+source:
+  citation: '39857769'
+  local: sources/39857769.txt
+  sha256: ab703df829eb3c41ac0cec8f88110693396bfe0b3dc300bdd65dc75e944070da
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11759815/fullTextXML
+  note: body as scripts/fetch_fulltext.py rendered it
+claims:
+  pqtl_2:
+    quotes:
+    - exact: The deCODE health study similarly utilized the high-throughput SomaScan platform to quantify
+        4907 aptamers associated with plasma protein levels in a cohort of 35,559 Icelandic individuals
+        [21].
+  pqtl_2_a2:
+    quotes:
+    - exact: The deCODE health study similarly utilized the high-throughput SomaScan platform to quantify
+        4907 aptamers associated with plasma protein levels in a cohort of 35,559 Icelandic individuals
+        [21].
+  pqtl_2_a3:
+    quotes:
+    - exact: The deCODE health study similarly utilized the high-throughput SomaScan platform to quantify
+        4907 aptamers associated with plasma protein levels in a cohort of 35,559 Icelandic individuals
+        [21].
+  pqtl_2_a4:
+    quotes:
+    - exact: The deCODE health study similarly utilized the high-throughput SomaScan platform to quantify
+        4907 aptamers associated with plasma protein levels in a cohort of 35,559 Icelandic individuals
+        [21].
+  pqtl_1_c2:
+    quotes:
+    - exact: The UKB-PPP used the Olink platform to analyze blood plasma from 54,219 UK Biobank participants
+        and derived important genetic associations with the levels of 2923 proteins [20].
+  pqtl_2_c2:
+    quotes:
+    - exact: The deCODE health study similarly utilized the high-throughput SomaScan platform to quantify
+        4907 aptamers associated with plasma protein levels in a cohort of 35,559 Icelandic individuals
+        [21].

@@ -1,0 +1,44 @@
+source:
+  citation: '39392298'
+  local: sources/39392298.txt
+  sha256: eae1503ac7bad8aa69fc8aed74e7efa2809c387d39ed4669e26cd454742e1620
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11469671/fullTextXML
+  note: body as scripts/fetch_fulltext.py rendered it
+claims:
+  outcome_1_a3:
+    quotes:
+    - exact: Based on the above criteria, 16 GWAS datasets of outcome traits were selected from the MRC
+        IEU OpenGWAS database, comprising datasets of AD from Alzheimer Disease Genetics Consortium (ADGC),
+        Cohorts for Heart and Aging Research in Genomic Epidemiology Consortium (CHARGE), The European
+        Alzheimer’s Disease Initiative (EADI), and Genetic and Environmental Risk in AD/Defining Genetic,
+        Polygenic and Environmental Risk for Alzheimer’s Disease Consortium (GERAD/PERADES) 2019 (ieu-b-2);
+        AD from Benjamin Woolf 2022 (ieu-b-5067); AD from International Genomics of Alzheimer’s Project
+        (IGAP) 2013 (ieu-a-297) as the datasets of main outcome traits for AD, as well as 13 datasets
+        from FinnGen biobank 2021 corresponding to various AD subtypes, referred to as AD-finn subtypes
+        (as shown in Figure 5).
+  outcome_1_a4:
+    quotes:
+    - exact: Based on the above criteria, 16 GWAS datasets of outcome traits were selected from the MRC
+        IEU OpenGWAS database, comprising datasets of AD from Alzheimer Disease Genetics Consortium (ADGC),
+        Cohorts for Heart and Aging Research in Genomic Epidemiology Consortium (CHARGE), The European
+        Alzheimer’s Disease Initiative (EADI), and Genetic and Environmental Risk in AD/Defining Genetic,
+        Polygenic and Environmental Risk for Alzheimer’s Disease Consortium (GERAD/PERADES) 2019 (ieu-b-2);
+        AD from Benjamin Woolf 2022 (ieu-b-5067); AD from International Genomics of Alzheimer’s Project
+        (IGAP) 2013 (ieu-a-297) as the datasets of main outcome traits for AD, as well as 13 datasets
+        from FinnGen biobank 2021 corresponding to various AD subtypes, referred to as AD-finn subtypes
+        (as shown in Figure 5).
+  outcome_1_c2:
+    quotes:
+    - exact: Based on the above criteria, 16 GWAS datasets of outcome traits were selected from the MRC
+        IEU OpenGWAS database, comprising datasets of AD from Alzheimer Disease Genetics Consortium (ADGC),
+        Cohorts for Heart and Aging Research in Genomic Epidemiology Consortium (CHARGE), The European
+        Alzheimer’s Disease Initiative (EADI), and Genetic and Environmental Risk in AD/Defining Genetic,
+        Polygenic and Environmental Risk for Alzheimer’s Disease Consortium (GERAD/PERADES) 2019 (ieu-b-2);
+        AD from Benjamin Woolf 2022 (ieu-b-5067); AD from International Genomics of Alzheimer’s Project
+        (IGAP) 2013 (ieu-a-297) as the datasets of main outcome traits for AD, as well as 13 datasets
+        from FinnGen biobank 2021 corresponding to various AD subtypes, referred to as AD-finn subtypes
+        (as shown in Figure 5).
+  pqtl_1_c2:
+    quotes:
+    - exact: In this study, the GWAS datasets selected were derived from 42,335 GWAS datasets in the public
+        database (MRC IEU OpenGWAS, https://gwas.mrcieu.ac.uk/).

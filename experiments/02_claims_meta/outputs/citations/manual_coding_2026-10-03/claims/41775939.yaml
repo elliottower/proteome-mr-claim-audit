@@ -1,0 +1,61 @@
+source:
+  citation: '41775939'
+  local: sources/41775939.txt
+  sha256: 6d9cb5106f0517d355f6b0b8a3fcf168b6ef59d78d88937e3fe67ba1bf1b8818
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12912335/fullTextXML
+  note: body as scripts/fetch_fulltext.py rendered it
+claims:
+  outcome_1:
+    quotes:
+    - exact: Then we obtained the genetic associations with IHD, using a GWAS meta-analysis from Coronary
+        ARtery DIsease Genome wide Replication and Meta-analysis (CARDIoGRAM) plus The Coronary Artery
+        Disease (C4D) Genetics (CARDIoGRAMplusC4D) including UK Biobank SOFT CAD GWAS (10,801cases and
+        137,371 controls), CARDIoGRAMplusC4D 1000 Genomes-based GWAS (60,801 CAD cases and 123,504 controls)
+        and the Myocardial Infarction Genetics and CARDIoGRAM Exome (42,335 cases and 78,240 controls)24.
+  pqtl_2:
+    quotes:
+    - exact: For replication, we used another GWAS in deCODE23, a GWAS of 4907 proteins in 35,559 Icelanders,
+        to examine the role of statins on selected protein(s).
+  outcome_1_a2:
+    quotes:
+    - exact: Then we obtained the genetic associations with IHD, using a GWAS meta-analysis from Coronary
+        ARtery DIsease Genome wide Replication and Meta-analysis (CARDIoGRAM) plus The Coronary Artery
+        Disease (C4D) Genetics (CARDIoGRAMplusC4D) including UK Biobank SOFT CAD GWAS (10,801cases and
+        137,371 controls), CARDIoGRAMplusC4D 1000 Genomes-based GWAS (60,801 CAD cases and 123,504 controls)
+        and the Myocardial Infarction Genetics and CARDIoGRAM Exome (42,335 cases and 78,240 controls)24.
+  pqtl_2_a2:
+    quotes:
+    - exact: For replication, we used another GWAS in deCODE23, a GWAS of 4907 proteins in 35,559 Icelanders,
+        to examine the role of statins on selected protein(s).
+  outcome_1_a3:
+    quotes:
+    - exact: Then we obtained the genetic associations with IHD, using a GWAS meta-analysis from Coronary
+        ARtery DIsease Genome wide Replication and Meta-analysis (CARDIoGRAM) plus The Coronary Artery
+        Disease (C4D) Genetics (CARDIoGRAMplusC4D) including UK Biobank SOFT CAD GWAS (10,801cases and
+        137,371 controls), CARDIoGRAMplusC4D 1000 Genomes-based GWAS (60,801 CAD cases and 123,504 controls)
+        and the Myocardial Infarction Genetics and CARDIoGRAM Exome (42,335 cases and 78,240 controls)24.
+  pqtl_2_a3:
+    quotes:
+    - exact: For replication, we used another GWAS in deCODE23, a GWAS of 4907 proteins in 35,559 Icelanders,
+        to examine the role of statins on selected protein(s).
+  outcome_1_c2:
+    quotes:
+    - exact: Then we obtained the genetic associations with IHD, using a GWAS meta-analysis from Coronary
+        ARtery DIsease Genome wide Replication and Meta-analysis (CARDIoGRAM) plus The Coronary Artery
+        Disease (C4D) Genetics (CARDIoGRAMplusC4D) including UK Biobank SOFT CAD GWAS (10,801cases and
+        137,371 controls), CARDIoGRAMplusC4D 1000 Genomes-based GWAS (60,801 CAD cases and 123,504 controls)
+        and the Myocardial Infarction Genetics and CARDIoGRAM Exome (42,335 cases and 78,240 controls)24.
+  outcome_2_c2:
+    quotes:
+    - exact: We also replicated the analysis using FinnGen (30,952 cases and 187,840 controls), and combined
+        the MR estimates from the two data sources.
+  pqtl_1_c2:
+    quotes:
+    - exact: The emerging large genome-wide association studies (GWAS) of proteins, such as GWAS of 2923
+        proteins in 54,219 participants in UK Biobank Pharma Proteomics Project (UKB-PPP)22, and GWAS
+        of 4907 proteins in 35,559 Icelanders from deCODE23, provided a valuable opportunity to explore
+        the mechanisms underlying the benefits of statins on IHD.
+  pqtl_2_c2:
+    quotes:
+    - exact: For replication, we used another GWAS in deCODE23, a GWAS of 4907 proteins in 35,559 Icelanders,
+        to examine the role of statins on selected protein(s).

@@ -1,0 +1,29 @@
+source:
+  citation: '38049831'
+  local: sources/38049831.txt
+  sha256: ad6f327e0ac4f16bab1e50f3912877bf04ff41a5359c38e39687ec2d23d06731
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10696760/fullTextXML
+  note: body as scripts/fetch_fulltext.py rendered it
+claims:
+  outcome_1:
+    quotes:
+    - exact: '[Table 1. Data sources for circulating proteins, obesity measures, lifestyle factors, and
+        coronary artery disease] Trait: CAD (Consortia) | Participants: 60,801 cases; 123,504 controls
+        | Ancestry: ~80% European | Unit: Odds ratio | PMID: 26343387'
+  outcome_2:
+    quotes:
+    - exact: For the current investigation, the R8 release of results of genome-wide association analysis
+        was utilized, which encompassed 39,036 CAD cases (defined by the code 410|4110 in International
+        Classification of Diseases (ICD)-Eighth Revision and the code 410|4110 in ICD-Ninth Revisions
+        and the code I20.0, I21, or I22 in ICD-Tenth Revision) and 303,463 non-cases.
+  outcome_1_c2:
+    quotes:
+    - exact: Genetic associations with CAD were obtained from the CARDIoGRAMplusC4D (Coronary ARtery DIsease
+        Genome wide Replication and Meta-analysis (CARDIoGRAM) plus The Coronary Artery Disease (C4D)
+        Genetics) consortium and the FinnGen study R8 (Table 1) [22, 23].
+  outcome_2_c2:
+    quotes:
+    - exact: For the current investigation, the R8 release of results of genome-wide association analysis
+        was utilized, which encompassed 39,036 CAD cases (defined by the code 410|4110 in International
+        Classification of Diseases (ICD)-Eighth Revision and the code 410|4110 in ICD-Ninth Revisions
+        and the code I20.0, I21, or I22 in ICD-Tenth Revision) and 303,463 non-cases.

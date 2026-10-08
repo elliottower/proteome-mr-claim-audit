@@ -1,0 +1,17 @@
+source:
+  citation: '39006495'
+  local: sources/39006495.txt
+  sha256: 715e0200e1b9c72ff102208ff45da642bd6f7049bd24fbfe5d1d4368db54fff0
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11246077/fullTextXML
+  note: body as scripts/fetch_fulltext.py rendered it
+claims:
+  pqtl_1:
+    quotes:
+    - exact: To further validate the findings, an external dataset consisting of plasma pQTL data from
+        the deCODE cohort, as reported by Ferkingstad et al, was utilized.16 This dataset encompassed
+        measurements of 4907 plasma proteins in a large cohort of 35,559 participants.
+  pqtl_1_c2:
+    quotes:
+    - exact: To further validate the findings, an external dataset consisting of plasma pQTL data from
+        the deCODE cohort, as reported by Ferkingstad et al, was utilized.16 This dataset encompassed
+        measurements of 4907 plasma proteins in a large cohort of 35,559 participants.

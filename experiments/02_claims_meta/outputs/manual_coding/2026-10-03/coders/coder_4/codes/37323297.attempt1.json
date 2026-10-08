@@ -1,0 +1,41 @@
+{
+ "record_id": "37323297",
+ "coder_id": "coder_4",
+ "attempt": 1,
+ "rows": [
+  {
+   "side": "outcome",
+   "name_as_written": "FinnGen",
+   "value": "FinnGen R7",
+   "unresolved_reason": null,
+   "identification_basis": "release_identifier",
+   "source_read": "full_text",
+   "passage_id": "p001",
+   "quote": "Summary-level genetic data on PAD were obtained from the FinnGen R7 data release that included 11 924 participants with and 288 638 participants without PAD23 and from a genome-wide association analysis in the Million Veteran Program (MVP) comprised of 31 307 participants with and 211 753 participants without PAD.24",
+   "citations_claim": "claims/37323297.yaml#outcome_1",
+   "companion_source": false,
+   "reference_label": null,
+   "reference_quote": null,
+   "reference_citations_claim": null,
+   "dataset_named_in_source": null,
+   "coder_note": "Sentence states the PAD data were obtained from the FinnGen R7 data release."
+  },
+  {
+   "side": "outcome",
+   "name_as_written": "Million Veteran Program",
+   "value": "source_names_dataset_absent_from_dictionary",
+   "unresolved_reason": "dataset_absent_from_dictionary",
+   "identification_basis": null,
+   "source_read": "full_text",
+   "passage_id": "p001",
+   "quote": "Summary-level genetic data on PAD were obtained from the FinnGen R7 data release that included 11 924 participants with and 288 638 participants without PAD23 and from a genome-wide association analysis in the Million Veteran Program (MVP) comprised of 31 307 participants with and 211 753 participants without PAD.24",
+   "citations_claim": "claims/37323297.yaml#outcome_2",
+   "companion_source": false,
+   "reference_label": null,
+   "reference_quote": null,
+   "reference_citations_claim": null,
+   "dataset_named_in_source": "Million Veteran Program",
+   "coder_note": "Sentence names a genome-wide association analysis in the Million Veteran Program as a PAD data source; no dictionary row for it."
+  }
+ ]
+}

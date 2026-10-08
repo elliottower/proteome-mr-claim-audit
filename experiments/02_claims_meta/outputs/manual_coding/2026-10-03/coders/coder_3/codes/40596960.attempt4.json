@@ -1,0 +1,15 @@
+{"record_id": "40596960", "coder_id": "coder_3", "attempt": 4,
+ "rows": [
+  {"side": "pqtl", "name_as_written": "UK Biobank-Proteome-wide Association Study (UKB-PPP)",
+   "value": "not_stated_in_source",
+   "unresolved_reason": "release_not_identified",
+   "identification_basis": null,
+   "source_read": null,
+   "passage_id": null,
+   "quote": null,
+   "citations_claim": null,
+   "companion_source": false,
+   "reference_label": null, "reference_quote": null, "reference_citations_claim": null,
+   "dataset_named_in_source": null,
+   "coder_note": "Step 4, rules C3 and D: the sentence names UKB-PPP, cites reference 16 (Sun 2023, DOI verified), the source of four pqtl rows, and gives 54,219 participants and 2,940 proteins, which equal no row's sample size and separate none of them (rule E not met). The Synapse identifier syn51365303 is given for the project's pQTL data as a whole; the passage does not tie it to one subcohort and no row lists it, so it is read as a deposit identifier of the named dataset (C3: picks no row, never absent) and not as an unlisted accession of another dataset under C4. The pqtl side has UKB-PPP rows, so C2 does not apply. No conflict at step 1."}
+ ]}

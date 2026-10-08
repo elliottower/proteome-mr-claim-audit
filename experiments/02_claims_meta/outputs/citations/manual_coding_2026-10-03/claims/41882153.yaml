@@ -1,0 +1,20 @@
+source:
+  citation: '41882153'
+  local: sources/41882153.txt
+  sha256: 63355f136af37eb94b83e9792681cbc683b1327c8bafba0ec0b2a27a4182d600
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13018313/fullTextXML
+  note: body as scripts/fetch_fulltext.py rendered it
+claims:
+  outcome_1_a3:
+    quotes:
+    - exact: We also obtained the association of each SNP in the genetic score with IHD in men in UK Biobank,
+        and with diabetes in a published GWAS of diabetes in men in DIAGRAM52, and used different analytic
+        methods as above, including IVW, weighted median, weighted mode, MR-Egger, MR-PRESSO, and GSMR.
+  outcome_1_a4:
+    quotes:
+    - exact: The data from UK Biobank was obtained from the UK Biobank Resource under application numbers
+        42,468 and 45,052.
+  outcome_1_c2:
+    quotes:
+    - exact: The data from UK Biobank was obtained from the UK Biobank Resource under application numbers
+        42,468 and 45,052.

@@ -1,0 +1,184 @@
+{
+ "rows": 14,
+ "by_gate_failure_class": {
+  "companion_source_with_several_rows_and_no_separating_attribute": 5,
+  "release_written_in_a_form_outside_the_rule_A_list": 2,
+  "no_identifier_at_all_in_the_pinned_material": 3,
+  "other_only_terms_shared_with_another_candidate": 4
+ },
+ "by_readings_naming_a_row": {
+  "(3, True)": 6,
+  "(2, True)": 7,
+  "(1, True)": 1
+ },
+ "list": [
+  {
+   "row": "39333727#pqtl_1",
+   "coder": "coder_1",
+   "first_check_named_a_dictionary_row": true,
+   "first_check_gate_failed": true,
+   "second_check_named_a_dictionary_row": true,
+   "reread": "named_a_dictionary_row",
+   "readings_naming_a_row": 3,
+   "all_naming_readings_name_the_same_row": true,
+   "gate_failure_of": "reread",
+   "gate_failure_class": "companion_source_with_several_rows_and_no_separating_attribute"
+  },
+  {
+   "row": "40052860#outcome_2",
+   "coder": "coder_1",
+   "first_check_named_a_dictionary_row": true,
+   "first_check_gate_failed": true,
+   "second_check_named_a_dictionary_row": true,
+   "reread": "named_a_dictionary_row",
+   "readings_naming_a_row": 3,
+   "all_naming_readings_name_the_same_row": true,
+   "gate_failure_of": "reread",
+   "gate_failure_class": "release_written_in_a_form_outside_the_rule_A_list"
+  },
+  {
+   "row": "40462010#outcome_1",
+   "coder": "coder_4",
+   "first_check_named_a_dictionary_row": false,
+   "first_check_gate_failed": false,
+   "second_check_named_a_dictionary_row": true,
+   "reread": "named_a_dictionary_row",
+   "readings_naming_a_row": 2,
+   "all_naming_readings_name_the_same_row": true,
+   "gate_failure_of": "reread",
+   "gate_failure_class": "no_identifier_at_all_in_the_pinned_material"
+  },
+  {
+   "row": "40462010#pqtl_2",
+   "coder": "coder_4",
+   "first_check_named_a_dictionary_row": true,
+   "first_check_gate_failed": true,
+   "second_check_named_a_dictionary_row": true,
+   "reread": "named_a_dictionary_row",
+   "readings_naming_a_row": 3,
+   "all_naming_readings_name_the_same_row": true,
+   "gate_failure_of": "reread",
+   "gate_failure_class": "other_only_terms_shared_with_another_candidate"
+  },
+  {
+   "row": "40564116#outcome_1",
+   "coder": "coder_1",
+   "first_check_named_a_dictionary_row": true,
+   "first_check_gate_failed": true,
+   "second_check_named_a_dictionary_row": true,
+   "reread": "named_a_dictionary_row",
+   "readings_naming_a_row": 3,
+   "all_naming_readings_name_the_same_row": true,
+   "gate_failure_of": "reread",
+   "gate_failure_class": "companion_source_with_several_rows_and_no_separating_attribute"
+  },
+  {
+   "row": "40765733#outcome_1",
+   "coder": "coder_2",
+   "first_check_named_a_dictionary_row": false,
+   "first_check_gate_failed": false,
+   "second_check_named_a_dictionary_row": true,
+   "reread": "named_a_dictionary_row",
+   "readings_naming_a_row": 2,
+   "all_naming_readings_name_the_same_row": true,
+   "gate_failure_of": "reread",
+   "gate_failure_class": "release_written_in_a_form_outside_the_rule_A_list"
+  },
+  {
+   "row": "40877285#pqtl_1",
+   "coder": "coder_3",
+   "first_check_named_a_dictionary_row": true,
+   "first_check_gate_failed": true,
+   "second_check_named_a_dictionary_row": false,
+   "reread": "unresolved",
+   "readings_naming_a_row": 1,
+   "all_naming_readings_name_the_same_row": true,
+   "gate_failure_of": "first_check",
+   "gate_failure_class": "companion_source_with_several_rows_and_no_separating_attribute"
+  },
+  {
+   "row": "41200820#pqtl_1",
+   "coder": "coder_2",
+   "first_check_named_a_dictionary_row": false,
+   "first_check_gate_failed": false,
+   "second_check_named_a_dictionary_row": true,
+   "reread": "named_a_dictionary_row",
+   "readings_naming_a_row": 2,
+   "all_naming_readings_name_the_same_row": true,
+   "gate_failure_of": "reread",
+   "gate_failure_class": "companion_source_with_several_rows_and_no_separating_attribute"
+  },
+  {
+   "row": "41220142#pqtl_2",
+   "coder": "coder_4",
+   "first_check_named_a_dictionary_row": false,
+   "first_check_gate_failed": false,
+   "second_check_named_a_dictionary_row": true,
+   "reread": "named_a_dictionary_row",
+   "readings_naming_a_row": 2,
+   "all_naming_readings_name_the_same_row": true,
+   "gate_failure_of": "reread",
+   "gate_failure_class": "other_only_terms_shared_with_another_candidate"
+  },
+  {
+   "row": "41222800#pqtl_1",
+   "coder": "coder_1",
+   "first_check_named_a_dictionary_row": true,
+   "first_check_gate_failed": true,
+   "second_check_named_a_dictionary_row": true,
+   "reread": "named_a_dictionary_row",
+   "readings_naming_a_row": 3,
+   "all_naming_readings_name_the_same_row": true,
+   "gate_failure_of": "reread",
+   "gate_failure_class": "other_only_terms_shared_with_another_candidate"
+  },
+  {
+   "row": "41319014#pqtl_1",
+   "coder": "coder_2",
+   "first_check_named_a_dictionary_row": false,
+   "first_check_gate_failed": false,
+   "second_check_named_a_dictionary_row": true,
+   "reread": "named_a_dictionary_row",
+   "readings_naming_a_row": 2,
+   "all_naming_readings_name_the_same_row": true,
+   "gate_failure_of": "reread",
+   "gate_failure_class": "companion_source_with_several_rows_and_no_separating_attribute"
+  },
+  {
+   "row": "41487707#outcome_1",
+   "coder": "coder_4",
+   "first_check_named_a_dictionary_row": false,
+   "first_check_gate_failed": false,
+   "second_check_named_a_dictionary_row": true,
+   "reread": "named_a_dictionary_row",
+   "readings_naming_a_row": 2,
+   "all_naming_readings_name_the_same_row": true,
+   "gate_failure_of": "reread",
+   "gate_failure_class": "no_identifier_at_all_in_the_pinned_material"
+  },
+  {
+   "row": "41711838#pqtl_1",
+   "coder": "coder_1",
+   "first_check_named_a_dictionary_row": false,
+   "first_check_gate_failed": false,
+   "second_check_named_a_dictionary_row": true,
+   "reread": "named_a_dictionary_row",
+   "readings_naming_a_row": 2,
+   "all_naming_readings_name_the_same_row": true,
+   "gate_failure_of": "reread",
+   "gate_failure_class": "other_only_terms_shared_with_another_candidate"
+  },
+  {
+   "row": "42365225#outcome_3",
+   "coder": "coder_1",
+   "first_check_named_a_dictionary_row": true,
+   "first_check_gate_failed": true,
+   "second_check_named_a_dictionary_row": true,
+   "reread": "named_a_dictionary_row",
+   "readings_naming_a_row": 3,
+   "all_naming_readings_name_the_same_row": true,
+   "gate_failure_of": "reread",
+   "gate_failure_class": "no_identifier_at_all_in_the_pinned_material"
+  }
+ ]
+}

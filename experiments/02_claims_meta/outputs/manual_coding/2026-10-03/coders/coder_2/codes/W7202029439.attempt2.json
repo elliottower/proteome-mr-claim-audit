@@ -1,0 +1,16 @@
+{"record_id": "W7202029439", "coder_id": "coder_2", "attempt": 2,
+ "rows": [
+  {"side": "outcome", "name_as_written": "Nielsen et al. (2018) AF GWAS",
+   "value": "Atrial fibrillation (Nielsen 2018)",
+   "unresolved_reason": null,
+   "identification_basis": "exact_n_with_platform_or_year",
+   "source_read": "abstract",
+   "passage_id": "p001",
+   "quote": "Summary statistics for AF were drawn from Nielsen et al. (2018) AF GWAS (OpenGWAS ID: ebi-a-GCST006414; 60,620 cases, 970,216 controls; n=1,030,836).",
+   "citations_claim": "claims/W7202029439.yaml#outcome_1_a2",
+   "companion_source": false,
+   "reference_label": null, "reference_quote": null, "reference_citations_claim": null,
+   "dataset_named_in_source": null,
+   "coder_note": "Decision order step 2: the sentence gives the exact N of one outcome row (60,620 cases, 970,216 controls) together with the year 2018 and the author name Nielsen, which match Atrial fibrillation (Nielsen 2018) and no other row (Roselli 2018 has 65,446 cases, 522,744 referents). Rule C4, third case: the accession ebi-a-GCST006414 is listed by no dictionary row by prefix, range or identifier; under rule C5 an unlisted accession identifies no other row and is not a conflict, so step 1 does not apply. Step 2 precedes step 3, so rule G (unlisted accession with matching counts alone is absent) is not reached, because the counts come with the year and the named GWAS and not with the accession alone. Not a companion_source row: the abstract has no reference entry. For adjudication if rule G is read to govern here: the alternative value is source_names_dataset_absent_from_dictionary."}
+ ]
+}

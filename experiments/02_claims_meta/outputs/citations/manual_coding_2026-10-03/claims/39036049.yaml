@@ -1,0 +1,17 @@
+source:
+  citation: '39036049'
+  local: sources/39036049.txt
+  sha256: 2c3fbf7e5e26fd1ebe98ea1e773288166838c1c60bcec9c8bd662a9f0ec62f49
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11257892/fullTextXML
+  note: body as scripts/fetch_fulltext.py rendered it
+claims:
+  pqtl_1_a3:
+    quotes:
+    - exact: This project is a large-scale proteomic characterization study of 54,219 UK Biobank participants,
+        and we selected 2,923 pQTLs from the baseline cohort (n = 34,557) (https://www.synapse.org/Synapse:syn51365301)
+        for analyses.
+  pqtl_1_c2:
+    quotes:
+    - exact: This project is a large-scale proteomic characterization study of 54,219 UK Biobank participants,
+        and we selected 2,923 pQTLs from the baseline cohort (n = 34,557) (https://www.synapse.org/Synapse:syn51365301)
+        for analyses.

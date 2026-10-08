@@ -1,0 +1,58 @@
+{
+ "record_id": "42677314",
+ "coder_id": "coder_3",
+ "attempt": 1,
+ "rows": [
+  {
+   "side": "outcome",
+   "name_as_written": "Breast Cancer Association Consortium",
+   "value": "BCAC breast cancer (Michailidou 2017)",
+   "unresolved_reason": null,
+   "identification_basis": "reference_entry",
+   "source_read": "full_text",
+   "passage_id": "p001",
+   "quote": "Breast cancer GWAS summary statistics were obtained from the Breast Cancer Association Consortium (BCAC; IEU identifier: ieu-a-1126), comprising 122,977 BC cases and 105,974 controls with genome-wide data on approximately 15 million common variants.25,26",
+   "citations_claim": "claims/42677314.yaml#outcome_1",
+   "companion_source": true,
+   "reference_label": "26",
+   "reference_quote": "Michailidou K, Lindström S, Dennis J, et al. Association analysis identifies 65 new breast cancer risk loci. Nature . 2017;551(7678):92–94. doi: 10.1038/nature24284",
+   "reference_citations_claim": "claims/42677314.references.yaml#outcome_1_ref",
+   "dataset_named_in_source": null,
+   "coder_note": "Sentence attributes the summary statistics (122,977 cases, 105,974 controls) to references including 26, whose DOI is the source of one dictionary row; the other reference is a file-format paper."
+  },
+  {
+   "side": "pqtl",
+   "name_as_written": "Fenland",
+   "value": "not_stated_in_source",
+   "unresolved_reason": "release_not_identified",
+   "identification_basis": null,
+   "source_read": null,
+   "passage_id": null,
+   "quote": null,
+   "citations_claim": null,
+   "companion_source": false,
+   "reference_label": null,
+   "reference_quote": null,
+   "reference_citations_claim": null,
+   "dataset_named_in_source": null,
+   "coder_note": "citations pin refused the only sentence that attributes the pQTL data to a reference (it occurs twice in the source, so the quote is ambiguous); the remaining sentence gives an approximate N without a citation. Row not coded."
+  },
+  {
+   "side": "pqtl",
+   "name_as_written": "FinnGen R10 SomaScan subset",
+   "value": "source_names_dataset_absent_from_dictionary",
+   "unresolved_reason": "dataset_absent_from_dictionary",
+   "identification_basis": null,
+   "source_read": "abstract_fallback_after_fulltext_no_match",
+   "passage_id": "p001",
+   "quote": "METHODS: Plasma protein quantitative trait loci (pQTL) from the Fenland cohort (~10,700 individuals) and the FinnGen R10 SomaScan subset (n = 828) were integrated with breast cancer genome-wide association study data from the Breast Cancer Association Consortium (122,977 cases and 105,974 controls).",
+   "citations_claim": "claims/42677314.abstract.yaml#pqtl_2",
+   "companion_source": false,
+   "reference_label": null,
+   "reference_quote": null,
+   "reference_citations_claim": null,
+   "dataset_named_in_source": "FinnGen R10 SomaScan subset",
+   "coder_note": "Sentence names a protein-QTL subset (n = 828) for which the dictionary has no pQTL row."
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "record_id": "36204584",
+ "coder_id": "coder_4",
+ "attempt": 1,
+ "rows": [
+  {
+   "side": "outcome",
+   "name_as_written": "CARDIoGRAMplusC4D",
+   "value": "CARDIoGRAMplusC4D 1000 Genomes CAD (Nikpay 2015)",
+   "unresolved_reason": null,
+   "identification_basis": "reference_entry",
+   "source_read": "full_text",
+   "passage_id": "p001",
+   "quote": "We obtained functional interpretations for CAD GWAS signals by integrating novel RNA modification annotations (i.e., RNAm-SNPs) and summary data from the CARDIoGRAMplusC4D CAD GWAS (7).",
+   "citations_claim": "claims/36204584.yaml#outcome_1",
+   "companion_source": true,
+   "reference_label": "7",
+   "reference_quote": "Nikpay M Goel A Won H-H Hall LM Willenborg C Kanoni S . A comprehensive 1,000 Genomes-based genome-wide association meta-analysis of coronary artery disease . Nat Genet. ( 2015 ) 47 : 1121 – 30 . 10.1038/ng.3396 26343387 PMC4589895",
+   "reference_citations_claim": "claims/36204584.references.yaml#outcome_1_ref",
+   "dataset_named_in_source": null,
+   "coder_note": "Sentence attributes the CAD summary data to the CARDIoGRAMplusC4D GWAS with citation (7); the entry DOI is the Nikpay 2015 row source; passage details do not conflict."
+  },
+  {
+   "side": "outcome",
+   "name_as_written": "UK Biobank",
+   "value": "GeneATLAS",
+   "unresolved_reason": null,
+   "identification_basis": "reference_entry",
+   "source_read": "full_text",
+   "passage_id": "p001",
+   "quote": "The UK Biobank AMI GWAS included 8,764 AMI patients and 443,500 controls (18).",
+   "citations_claim": "claims/36204584.yaml#outcome_2",
+   "companion_source": true,
+   "reference_label": "18",
+   "reference_quote": "Canela-Xandri O Rawlik K Tenesa A . An atlas of genetic associations in UK Biobank . Nat Genet. ( 2018 ) 50 : 1593 – 9 . 10.1038/s41588-018-0248-z 30349118 PMC6707814",
+   "reference_citations_claim": "claims/36204584.references.yaml#outcome_2_ref",
+   "dataset_named_in_source": null,
+   "coder_note": "Sentence attributes the UK Biobank AMI GWAS to citation (18), whose DOI is the GeneATLAS row source; the next sentence gives the GeneATLAS download address; row is outside the candidates."
+  }
+ ]
+}

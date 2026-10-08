@@ -1,0 +1,46 @@
+source:
+  citation: '38750076'
+  local: sources/38750076.txt
+  sha256: 03a35bcf51a3323dee1b6bb62de4f529aef7aab4f84d26b3c32f2912653b0f7d
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11096312/fullTextXML
+  note: body as scripts/fetch_fulltext.py rendered it
+claims:
+  outcome_1:
+    quotes:
+    - exact: In all exome-wide analyses, variants were oriented to the protein-increasing allele and exGS
+        were calculated by summing the number of independent (clumping r2 < 0.05, 10,000KB) protein-increasing
+        alleles, weighted by betas reported in Dhindsa et al., and projected in up to 337,543 European
+        UK Biobank participants with exome-sequencing (Supplementary Data 10) using PLINK252.
+  outcome_1_a2:
+    quotes:
+    - exact: In all exome-wide analyses, variants were oriented to the protein-increasing allele and exGS
+        were calculated by summing the number of independent (clumping r2 < 0.05, 10,000KB) protein-increasing
+        alleles, weighted by betas reported in Dhindsa et al., and projected in up to 337,543 European
+        UK Biobank participants with exome-sequencing (Supplementary Data 10) using PLINK252.
+  outcome_1_a3:
+    quotes:
+    - exact: In all exome-wide analyses, variants were oriented to the protein-increasing allele and exGS
+        were calculated by summing the number of independent (clumping r2 < 0.05, 10,000KB) protein-increasing
+        alleles, weighted by betas reported in Dhindsa et al., and projected in up to 337,543 European
+        UK Biobank participants with exome-sequencing (Supplementary Data 10) using PLINK252.
+  outcome_1_a4:
+    quotes:
+    - exact: 'Here, we use an integrated multi-omics approach combining prospective cohort and exome-variant
+        study designs to identify proteins with a role in cancer aetiology: we describe the association
+        of 1463 protein biomarkers quantified using the Olink platform with the risk of 19 common cancers
+        and 9 cancer subsites in 44,645 UK Biobank participants, overall and by time to diagnosis.'
+  pqtl_1_a4:
+    quotes:
+    - exact: 'Here, we use an integrated multi-omics approach combining prospective cohort and exome-variant
+        study designs to identify proteins with a role in cancer aetiology: we describe the association
+        of 1463 protein biomarkers quantified using the Olink platform with the risk of 19 common cancers
+        and 9 cancer subsites in 44,645 UK Biobank participants, overall and by time to diagnosis.'
+  outcome_1_c2:
+    quotes:
+    - exact: This research has been conducted using the UK Biobank Resource under Application Number 67506.
+      prefix: 'peer review of this work. A peer review file is available. ## Data availability'
+      suffix: Researchers can apply to use the UK Biobank resource for health-related
+  pqtl_1_c2:
+    quotes:
+    - exact: We extracted 27,335 exome variants associated with circulating protein concentrations on
+        the Olink Explore panel at p < 5 × 10−8 reported by Dhindsa et al. for 50,829 UK Biobank participants44.

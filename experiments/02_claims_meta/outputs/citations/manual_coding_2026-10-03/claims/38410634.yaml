@@ -1,0 +1,11 @@
+source:
+  citation: '38410634'
+  local: sources/38410634.txt
+  sha256: 6e37e0ec82a7f0b7aac53c39d31dd2a98a37a554920a0004b6bc1e02e80ac0cf
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10895979/fullTextXML
+  note: body as scripts/fetch_fulltext.py rendered it
+claims:
+  outcome_1_c2:
+    quotes:
+    - exact: DN data were extracted from a GWAS of 213,746 individuals of European ancestry from FinnGen
+        (3,282 cases vs 210,463 controls).

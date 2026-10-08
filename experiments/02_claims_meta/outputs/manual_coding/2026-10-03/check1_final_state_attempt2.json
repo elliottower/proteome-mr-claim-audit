@@ -1,0 +1,205 @@
+{
+ "final_state": {
+  "coded": 185,
+  "coded/basis:exact_n_with_platform_or_year": 33,
+  "coded/basis:reference_entry": 69,
+  "coded/basis:release_identifier": 70,
+  "coded/basis:source_identifier": 6,
+  "coded/basis:unique_citation": 7,
+  "coded/companion_source:False": 116,
+  "coded/companion_source:True": 69,
+  "coded/reference_verified_by:doi": 69,
+  "coded/source_read:abstract": 16,
+  "coded/source_read:abstract_fallback_after_fulltext_no_match": 2,
+  "coded/source_read:full_text": 167,
+  "coded/warning:value_outside_the_candidate_set": 6,
+  "not_stated_in_source/conflicting_identifiers": 9,
+  "not_stated_in_source/release_not_identified": 523,
+  "source_names_dataset_absent_from_dictionary/dataset_absent_from_dictionary": 155
+ },
+ "per_coder": {
+  "coder_1": {
+   "coded": 38,
+   "not_stated_in_source/conflicting_identifiers": 3,
+   "not_stated_in_source/release_not_identified": 140,
+   "source_names_dataset_absent_from_dictionary/dataset_absent_from_dictionary": 40
+  },
+  "coder_2": {
+   "coded": 48,
+   "not_stated_in_source/conflicting_identifiers": 3,
+   "not_stated_in_source/release_not_identified": 121,
+   "source_names_dataset_absent_from_dictionary/dataset_absent_from_dictionary": 43
+  },
+  "coder_3": {
+   "coded": 54,
+   "not_stated_in_source/release_not_identified": 137,
+   "source_names_dataset_absent_from_dictionary/dataset_absent_from_dictionary": 29
+  },
+  "coder_4": {
+   "coded": 45,
+   "not_stated_in_source/conflicting_identifiers": 3,
+   "not_stated_in_source/release_not_identified": 125,
+   "source_names_dataset_absent_from_dictionary/dataset_absent_from_dictionary": 43
+  }
+ },
+ "changes_between_attempts": {
+  "coded -> not_stated_in_source/release_not_identified": 16,
+  "not_stated_in_source/release_not_identified -> coded": 6,
+  "not_stated_in_source/release_not_identified -> source_names_dataset_absent_from_dictionary/dataset_absent_from_dictionary": 6,
+  "source_names_dataset_absent_from_dictionary/dataset_absent_from_dictionary -> not_stated_in_source/release_not_identified": 1,
+  "unchanged (in reread papers)": 707
+ },
+ "attempt2_gates": {
+  "coder_1": {
+   "papers": 88,
+   "papers_pass": 88,
+   "rows_failing": 0
+  },
+  "coder_2": {
+   "fail:no_identifier_of_the_coded_row_in_the_pinned_material": 1,
+   "papers": 78,
+   "papers_pass": 77,
+   "rows_failing": 1
+  },
+  "coder_3": {
+   "fail:no_identifier_of_the_coded_row_in_the_pinned_material": 4,
+   "papers": 85,
+   "papers_pass": 81,
+   "rows_failing": 4
+  },
+  "coder_4": {
+   "fail:no_identifier_of_the_coded_row_in_the_pinned_material": 7,
+   "papers": 88,
+   "papers_pass": 82,
+   "rows_failing": 7
+  }
+ },
+ "rows_failing_a_gate_in_the_final_attempt": {
+  "coder_2": [
+   {
+    "input_file": "40450304.json",
+    "row": "pqtl_2",
+    "attempt": 2,
+    "coded": true,
+    "failures": [
+     "no_identifier_of_the_coded_row_in_the_pinned_material"
+    ],
+    "gate_file": "coders/coder_2/gates/40450304.attempt2.gate.json"
+   }
+  ],
+  "coder_3": [
+   {
+    "input_file": "40187354.json",
+    "row": "pqtl_1",
+    "attempt": 2,
+    "coded": true,
+    "failures": [
+     "no_identifier_of_the_coded_row_in_the_pinned_material"
+    ],
+    "gate_file": "coders/coder_3/gates/40187354.attempt2.gate.json"
+   },
+   {
+    "input_file": "41261649.json",
+    "row": "outcome_1",
+    "attempt": 2,
+    "coded": true,
+    "failures": [
+     "no_identifier_of_the_coded_row_in_the_pinned_material"
+    ],
+    "gate_file": "coders/coder_3/gates/41261649.attempt2.gate.json"
+   },
+   {
+    "input_file": "41626871.json",
+    "row": "outcome_1",
+    "attempt": 2,
+    "coded": true,
+    "failures": [
+     "no_identifier_of_the_coded_row_in_the_pinned_material"
+    ],
+    "gate_file": "coders/coder_3/gates/41626871.attempt2.gate.json"
+   },
+   {
+    "input_file": "42323475.json",
+    "row": "outcome_2",
+    "attempt": 2,
+    "coded": true,
+    "failures": [
+     "no_identifier_of_the_coded_row_in_the_pinned_material"
+    ],
+    "gate_file": "coders/coder_3/gates/42323475.attempt2.gate.json"
+   }
+  ],
+  "coder_4": [
+   {
+    "input_file": "39375737.json",
+    "row": "pqtl_1",
+    "attempt": 2,
+    "coded": true,
+    "failures": [
+     "no_identifier_of_the_coded_row_in_the_pinned_material"
+    ],
+    "gate_file": "coders/coder_4/gates/39375737.attempt2.gate.json"
+   },
+   {
+    "input_file": "40442727.json",
+    "row": "pqtl_2",
+    "attempt": 2,
+    "coded": true,
+    "failures": [
+     "no_identifier_of_the_coded_row_in_the_pinned_material"
+    ],
+    "gate_file": "coders/coder_4/gates/40442727.attempt2.gate.json"
+   },
+   {
+    "input_file": "40462010.json",
+    "row": "outcome_1",
+    "attempt": 2,
+    "coded": true,
+    "failures": [
+     "no_identifier_of_the_coded_row_in_the_pinned_material"
+    ],
+    "gate_file": "coders/coder_4/gates/40462010.attempt2.gate.json"
+   },
+   {
+    "input_file": "40462010.json",
+    "row": "pqtl_2",
+    "attempt": 2,
+    "coded": true,
+    "failures": [
+     "no_identifier_of_the_coded_row_in_the_pinned_material"
+    ],
+    "gate_file": "coders/coder_4/gates/40462010.attempt2.gate.json"
+   },
+   {
+    "input_file": "41487707.json",
+    "row": "outcome_1",
+    "attempt": 2,
+    "coded": true,
+    "failures": [
+     "no_identifier_of_the_coded_row_in_the_pinned_material"
+    ],
+    "gate_file": "coders/coder_4/gates/41487707.attempt2.gate.json"
+   },
+   {
+    "input_file": "41514346.json",
+    "row": "outcome_2",
+    "attempt": 2,
+    "coded": true,
+    "failures": [
+     "no_identifier_of_the_coded_row_in_the_pinned_material"
+    ],
+    "gate_file": "coders/coder_4/gates/41514346.attempt2.gate.json"
+   },
+   {
+    "input_file": "42393888.json",
+    "row": "outcome_1",
+    "attempt": 2,
+    "coded": true,
+    "failures": [
+     "no_identifier_of_the_coded_row_in_the_pinned_material"
+    ],
+    "gate_file": "coders/coder_4/gates/42393888.attempt2.gate.json"
+   }
+  ]
+ }
+}

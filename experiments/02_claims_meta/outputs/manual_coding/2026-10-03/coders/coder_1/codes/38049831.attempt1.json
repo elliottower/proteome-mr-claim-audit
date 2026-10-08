@@ -1,0 +1,41 @@
+{
+ "record_id": "38049831",
+ "coder_id": "coder_1",
+ "attempt": 1,
+ "rows": [
+  {
+   "side": "outcome",
+   "name_as_written": "CARDIoGRAMplusC4D",
+   "value": "CARDIoGRAMplusC4D 1000 Genomes CAD (Nikpay 2015)",
+   "unresolved_reason": null,
+   "identification_basis": "source_identifier",
+   "source_read": "full_text",
+   "passage_id": "p001",
+   "quote": "[Table 1. Data sources for circulating proteins, obesity measures, lifestyle factors, and coronary artery disease] Trait: CAD (Consortia) | Participants: 60,801 cases; 123,504 controls | Ancestry: ~80% European | Unit: Odds ratio | PMID: 26343387",
+   "citations_claim": "claims/38049831.yaml#outcome_1",
+   "companion_source": false,
+   "reference_label": null,
+   "reference_quote": null,
+   "reference_citations_claim": null,
+   "dataset_named_in_source": null,
+   "coder_note": "Table row for the consortium CAD data gives PMID 26343387, the source PMID of exactly one dictionary row, with its exact case and control counts."
+  },
+  {
+   "side": "outcome",
+   "name_as_written": "FinnGen",
+   "value": "FinnGen R8",
+   "unresolved_reason": null,
+   "identification_basis": "release_identifier",
+   "source_read": "full_text",
+   "passage_id": "p002",
+   "quote": "For the current investigation, the R8 release of results of genome-wide association analysis was utilized, which encompassed 39,036 CAD cases (defined by the code 410|4110 in International Classification of Diseases (ICD)-Eighth Revision and the code 410|4110 in ICD-Ninth Revisions and the code I20.0, I21, or I22 in ICD-Tenth Revision) and 303,463 non-cases.",
+   "citations_claim": "claims/38049831.yaml#outcome_2",
+   "companion_source": false,
+   "reference_label": null,
+   "reference_quote": null,
+   "reference_citations_claim": null,
+   "dataset_named_in_source": null,
+   "coder_note": "Sentence states the R8 release was used."
+  }
+ ]
+}

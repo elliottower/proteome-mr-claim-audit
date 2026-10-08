@@ -1,0 +1,19 @@
+source:
+  citation: '39857814'
+  local: sources/39857814.txt
+  sha256: 33300a7fa277257ecbc2e6fa1053fd6668e92d303cd83c781169bb3da551df29
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11761251/fullTextXML
+  note: body as scripts/fetch_fulltext.py rendered it
+claims:
+  outcome_1:
+    quotes:
+    - exact: GWAS data on IBD and its subtypes were obtained from public R10 data released from the FinnGen
+        study, including 9083 patients with IBD and 403,098 controls, 2205 patients with CD and 392,974
+        controls, and 5931 patients with UC and 405,386 controls (the period of this study was 2017–2023
+        ) (Table S2).
+  outcome_1_c2:
+    quotes:
+    - exact: GWAS data on IBD and its subtypes were obtained from public R10 data released from the FinnGen
+        study, including 9083 patients with IBD and 403,098 controls, 2205 patients with CD and 392,974
+        controls, and 5931 patients with UC and 405,386 controls (the period of this study was 2017–2023
+        ) (Table S2).

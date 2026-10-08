@@ -1,0 +1,13 @@
+source:
+  citation: '42518793'
+  local: sources/42518793.txt
+  sha256: 0238dc11dd3d545c7243058d9582c195e96f22d19f70d6f3bfebf3bf01e31ea3
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13383223/fullTextXML
+  note: body as scripts/fetch_fulltext.py rendered it
+claims:
+  outcome_1_a4:
+    quotes:
+    - exact: The current study was conducted under UK Biobank Application Number 91320.
+  outcome_1_c2:
+    quotes:
+    - exact: The current study was conducted under UK Biobank Application Number 91320.

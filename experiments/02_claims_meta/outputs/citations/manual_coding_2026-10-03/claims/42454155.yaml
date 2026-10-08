@@ -1,0 +1,35 @@
+source:
+  citation: '42454155'
+  local: sources/42454155.txt
+  sha256: 631c8a86e4e746203237f5d6fbc37d3c43c43f9a4a5c78b2abf6bd31194aa811
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13367368/fullTextXML
+  note: body as scripts/fetch_fulltext.py rendered it
+claims:
+  outcome_1:
+    quotes:
+    - exact: 'GWAS summary statistics for AKI in the discovery cohort were obtained from the FinnGen database
+        (version R12, https://r12.finngen.fi/, GWAS ID: finngen_R12_N14_ACUTERENFAIL), comprising 8,383
+        cases (3,194 females and 5,450 males) and 480,448 controls, with a total of 20,112,606 SNPs.'
+  outcome_1_a2:
+    quotes:
+    - exact: 'GWAS summary statistics for AKI in the discovery cohort were obtained from the FinnGen database
+        (version R12, https://r12.finngen.fi/, GWAS ID: finngen_R12_N14_ACUTERENFAIL), comprising 8,383
+        cases (3,194 females and 5,450 males) and 480,448 controls, with a total of 20,112,606 SNPs.'
+  outcome_1_c2:
+    quotes:
+    - exact: 'GWAS summary statistics for AKI in the discovery cohort were obtained from the FinnGen database
+        (version R12, https://r12.finngen.fi/, GWAS ID: finngen_R12_N14_ACUTERENFAIL), comprising 8,383
+        cases (3,194 females and 5,450 males) and 480,448 controls, with a total of 20,112,606 SNPs.'
+  outcome_2_c2:
+    quotes:
+    - exact: 'Replication GWAS data for AKI were obtained from the IEU Open GWAS database (ID: ebi-a-GCST90018790),
+        including 482,266 individuals and 24,187,658 SNPs.21'
+  pqtl_1_c2:
+    quotes:
+    - exact: The plasma protein quantitative trait loci (pQTL) data used in this study were obtained from
+        the UK Biobank Pharma Proteomics Project (UKB-PPP), which comprises large-scale genetic and proteomic
+        data from 54,219 European participants.A total of 2,940 plasma proteins were quantified and analyzed
+        using a high-throughput proteomics platform, generating genome-wide pQTL association results.18
+        The replication plasma proteomic dataset was derived from deCODE Genetics, which utilized large-scale
+        plasma proteomics data in GWAS, encompassing genetic and phenotypic information from 35,559 Icelandic
+        individuals.

@@ -1,0 +1,15 @@
+{"record_id": "39424455", "coder_id": "coder_1", "attempt": 4,
+ "rows": [
+  {"side": "outcome", "name_as_written": "UK Biobank",
+   "value": "source_names_dataset_absent_from_dictionary",
+   "unresolved_reason": "dataset_absent_from_dictionary",
+   "identification_basis": null,
+   "source_read": "abstract",
+   "passage_id": "p001",
+   "quote": "Leveraging data from 46,165 UK Biobank participants and 2920 plasma proteins profiled at baseline, we conducted a longitudinal analysis with a median follow-up of 14.5 years to explore the relationship between plasma proteins and incident depression.",
+   "citations_claim": "claims/39424455.yaml#outcome_1_a4",
+   "companion_source": false,
+   "reference_label": null, "reference_quote": null, "reference_citations_claim": null,
+   "dataset_named_in_source": "46,165 UK Biobank participants and 2920 plasma proteins profiled at baseline",
+   "coder_note": "Step 3 (rule C, first sentence): the sentence describes the authors' own analysis of UK Biobank individual-level data and defines it by more than a number of participants: 2920 plasma proteins profiled at baseline, a longitudinal analysis with a median follow-up of 14.5 years, and the phenotype incident depression. No accession, release or citation points to a dictionary row, so there is no conflict and nothing to code."}
+ ]}

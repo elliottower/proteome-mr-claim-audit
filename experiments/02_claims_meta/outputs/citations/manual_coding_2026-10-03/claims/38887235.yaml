@@ -1,0 +1,17 @@
+source:
+  citation: '38887235'
+  local: sources/38887235.txt
+  sha256: eea70bf753b9883bd5f18f4df27568abdca1854dd6a563e77b04c8628be3245e
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11180768/fullTextXML
+  note: body as scripts/fetch_fulltext.py rendered it
+claims:
+  outcome_1:
+    quotes:
+    - exact: We collected genetic association summary statistics for BC risk from the Breast Cancer Association
+        Consortium (BCAC), a meta-analysis of 67 studies including 122,977 cases (thereof 69,501 estrogen
+        receptor (ER)-positive and 21,468 ER-negative), and 105,974 controls for breast cancer (14).
+  outcome_1_c2:
+    quotes:
+    - exact: We collected genetic association summary statistics for BC risk from the Breast Cancer Association
+        Consortium (BCAC), a meta-analysis of 67 studies including 122,977 cases (thereof 69,501 estrogen
+        receptor (ER)-positive and 21,468 ER-negative), and 105,974 controls for breast cancer (14).

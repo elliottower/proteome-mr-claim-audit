@@ -1,0 +1,42 @@
+source:
+  citation: '39314522'
+  local: sources/39314522.txt
+  sha256: a79290e3d3e39a5364e47fcf4e1edc5f2e62922a1fec5499d29cf132f16447d7
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11417002/fullTextXML
+  note: body as scripts/fetch_fulltext.py rendered it
+claims:
+  pqtl_1:
+    quotes:
+    - exact: The pQTL data were obtained via DECODE Genetics, which determined 4,907 proteins in 35,559
+        European ancestry individuals through the SomaScan assay v.4 (SomaLogic) (23).
+  pqtl_1_a2:
+    quotes:
+    - exact: The pQTL data were obtained via DECODE Genetics, which determined 4,907 proteins in 35,559
+        European ancestry individuals through the SomaScan assay v.4 (SomaLogic) (23).
+  outcome_1_a3:
+    quotes:
+    - exact: For outcome data sources, FinnGen is a database containing samples collected from Finnish
+        biobanks and phenotyping data gathered from national health registers; 1,639 PCOS cases and 218,
+        970 controls were included in this study (Finngen _R10_E4_PCOS).
+  pqtl_1_a3:
+    quotes:
+    - exact: The pQTL data were obtained via DECODE Genetics, which determined 4,907 proteins in 35,559
+        European ancestry individuals through the SomaScan assay v.4 (SomaLogic) (23).
+  outcome_1_a4:
+    quotes:
+    - exact: For outcome data sources, FinnGen is a database containing samples collected from Finnish
+        biobanks and phenotyping data gathered from national health registers; 1,639 PCOS cases and 218,
+        970 controls were included in this study (Finngen _R10_E4_PCOS).
+  pqtl_1_a4:
+    quotes:
+    - exact: The pQTL data were obtained via DECODE Genetics, which determined 4,907 proteins in 35,559
+        European ancestry individuals through the SomaScan assay v.4 (SomaLogic) (23).
+  outcome_1_c2:
+    quotes:
+    - exact: For outcome data sources, FinnGen is a database containing samples collected from Finnish
+        biobanks and phenotyping data gathered from national health registers; 1,639 PCOS cases and 218,
+        970 controls were included in this study (Finngen _R10_E4_PCOS).
+  pqtl_1_c2:
+    quotes:
+    - exact: The pQTL data were obtained via DECODE Genetics, which determined 4,907 proteins in 35,559
+        European ancestry individuals through the SomaScan assay v.4 (SomaLogic) (23).

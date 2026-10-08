@@ -1,0 +1,24 @@
+{
+ "record_id": "40877285",
+ "coder_id": "coder_3",
+ "attempt": 1,
+ "rows": [
+  {
+   "side": "pqtl",
+   "name_as_written": "UK Biobank",
+   "value": "source_names_dataset_absent_from_dictionary",
+   "unresolved_reason": "dataset_absent_from_dictionary",
+   "identification_basis": null,
+   "source_read": "full_text",
+   "passage_id": "p001",
+   "quote": "To achieve this, we analyzed 2,922 proteins using data from 30,272 individuals of Caucasian ancestry from the UK Biobank.",
+   "citations_claim": "claims/40877285.yaml#pqtl_1",
+   "companion_source": false,
+   "reference_label": null,
+   "reference_quote": null,
+   "reference_citations_claim": null,
+   "dataset_named_in_source": "UK Biobank",
+   "coder_note": "The pQTL data are the paper own sex-stratified analysis of cohort participants (30,272 individuals); no dictionary row is that analysis."
+  }
+ ]
+}

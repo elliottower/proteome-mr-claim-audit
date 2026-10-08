@@ -1,0 +1,11 @@
+source:
+  citation: '41990104'
+  local: sources/41990104.txt
+  sha256: 27a81ae785314bf59511503aacfd051cc74ad2e79ba02d6ac8fee36ac615af98
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13108903/fullTextXML
+  note: body as scripts/fetch_fulltext.py rendered it
+claims:
+  outcome_1_c2:
+    quotes:
+    - exact: We used summary statistics from the FinnGen Consortium (https://www.finngen.fi/en) for external
+        replication in an independent sample cohort.

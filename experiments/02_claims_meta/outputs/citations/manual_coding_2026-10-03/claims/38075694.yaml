@@ -1,0 +1,27 @@
+source:
+  citation: '38075694'
+  local: sources/38075694.txt
+  sha256: 895fb1519bf19443e46a75e5affd35a8b9fe98a98c5b5e68b2c3de64d5fb5ddb
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10702354/fullTextXML
+  note: body as scripts/fetch_fulltext.py rendered it
+claims:
+  pqtl_1:
+    quotes:
+    - exact: To explore associations between genetic variants and serum proteins, Gudjonsson et al. (2022)
+        conducted a GWAS study involving 5,368 European individuals.
+  pqtl_1_a2:
+    quotes:
+    - exact: To explore associations between genetic variants and serum proteins, Gudjonsson et al. (2022)
+        conducted a GWAS study involving 5,368 European individuals.
+  pqtl_1_a3:
+    quotes:
+    - exact: To explore associations between genetic variants and serum proteins, Gudjonsson et al. (2022)
+        conducted a GWAS study involving 5,368 European individuals.
+  outcome_1_c2:
+    quotes:
+    - exact: Including GWAS Catalog (https://www.ebi.ac.uk/gwas/) and IEU OpenGWAS (https://gwas.mrcieu.ac.uk/)
+        (Buniello et al., 2019).
+  pqtl_1_c2:
+    quotes:
+    - exact: To explore associations between genetic variants and serum proteins, Gudjonsson et al. (2022)
+        conducted a GWAS study involving 5,368 European individuals.

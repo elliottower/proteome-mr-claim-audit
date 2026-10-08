@@ -1,0 +1,14 @@
+{"record_id": "PPR1123489", "coder_id": "coder_4",
+ "rows": [
+  {"row": "pqtl_1",
+   "resolved_value": "source_names_dataset_absent_from_dictionary",
+   "unresolved_reason": "dataset_absent_from_dictionary",
+   "resolution_note": "Rule C: sentence 2 of p001 defines the authors' own analysis of UK Biobank individual-level data by its procedure and measurement (cis-vQTL mapping for 2,923 plasma proteins, by ancestry group), beyond a number of participants; 52,706 and the per-ancestry counts equal no dictionary row's N and no release identifier or citation is given.",
+   "identification_basis": null,
+   "source_read": "abstract",
+   "passage_id": "p001",
+   "quote": "We systematically mapped cis -vQTLs for 2,923 plasma proteins in 52,706 UK Biobank participants of European (EUR, N = 45,486), African (AFR, N = 1,336), and Central/South Asian (CSA, N = 934) ancestries, identifying 2,162 vQTLs (P VE < 5 x 10 -8 ) for 781 proteins.",
+   "citations_claim": "claims/PPR1123489.yaml#pqtl_1_r",
+   "companion_source": false,
+   "reference_label": null, "reference_quote": null, "reference_citations_claim": null,
+   "dataset_named_in_source": "UK Biobank"}]}

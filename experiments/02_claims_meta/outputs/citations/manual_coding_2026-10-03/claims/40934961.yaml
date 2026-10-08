@@ -1,0 +1,29 @@
+source:
+  citation: '40934961'
+  local: sources/40934961.txt
+  sha256: e7ef1713105e05ec3f1b3282c4ee25851fa165e0a10770093b509c36d78a3ec2
+  note: abstract exactly as sent to the extractor
+claims:
+  outcome_1_a4:
+    quotes:
+    - exact: Subsequently, we performed one-sample Mendelian randomization (MR) using individual-level
+        genomic data from the UK Biobank and pQTL summary statistics from the UKB-PPP, applying a two-stage
+        least squares approach.
+  outcome_1_c2:
+    quotes:
+    - exact: For two-sample MR, we utilized pQTL data from deCODE and CKD GWAS summary statistics derived
+        from the UK Biobank, applying either the Wald ratio or inverse variance weighted (IVW) method.
+  pqtl_1_c2:
+    quotes:
+    - exact: Subsequently, we performed one-sample Mendelian randomization (MR) using individual-level
+        genomic data from the UK Biobank and pQTL summary statistics from the UKB-PPP, applying a two-stage
+        least squares approach.
+  pqtl_2_c2:
+    quotes:
+    - exact: For two-sample MR, we utilized pQTL data from deCODE and CKD GWAS summary statistics derived
+        from the UK Biobank, applying either the Wald ratio or inverse variance weighted (IVW) method.
+  outcome_1_r:
+    quotes:
+    - exact: Subsequently, we performed one-sample Mendelian randomization (MR) using individual-level
+        genomic data from the UK Biobank and pQTL summary statistics from the UKB-PPP, applying a two-stage
+        least squares approach.

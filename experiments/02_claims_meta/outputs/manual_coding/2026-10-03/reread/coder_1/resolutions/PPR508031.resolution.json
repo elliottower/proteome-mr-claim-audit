@@ -1,0 +1,14 @@
+{"record_id": "PPR508031", "coder_id": "coder_1",
+ "rows": [
+  {"row": "pqtl_1",
+   "resolved_value": "source_names_dataset_absent_from_dictionary",
+   "unresolved_reason": "dataset_absent_from_dictionary",
+   "resolution_note": "Rule C, decision step 3: the sentence defines the authors' own analysis as the first phase of UKB-PPP, a pQTL mapping of 1,463 proteins; every UKB-PPP dictionary row is the 2,923-protein Olink Explore 3072 release, and the 54,306 participants of the preceding sentence equal no row's sample size, so the dataset is named and no dictionary row is that release.",
+   "identification_basis": "release_identifier",
+   "source_read": "abstract",
+   "passage_id": "p001",
+   "quote": "Here, we describe results from the first phase of UKB-PPP, including protein quantitative trait loci (pQTL) mapping of 1,463 proteins that identifies 10,248 primary genetic associations, of which 85% are newly discovered.",
+   "citations_claim": "claims/PPR508031.yaml#pqtl_1_r",
+   "companion_source": false,
+   "reference_label": null, "reference_quote": null, "reference_citations_claim": null,
+   "dataset_named_in_source": "the first phase of UKB-PPP"}]}

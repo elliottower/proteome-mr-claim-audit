@@ -1,0 +1,15 @@
+source:
+  citation: '39268072'
+  local: sources/39268072.txt
+  sha256: 806b36339fa47ecf6d505b04ffc95ae969a10258ca4ab05311db48dc91bbd15f
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11390399/fullTextXML
+  note: body as scripts/fetch_fulltext.py rendered it
+claims:
+  outcome_1:
+    quotes:
+    - exact: '[Table 1. Data sources for studied phenotypes.] Study: FinnGen R9 | Phenotype: Carpal Tunnel
+        Syndrome | Cases: 22,426 | Controls: 330,377 | PMID: NA'
+  outcome_1_c2:
+    quotes:
+    - exact: '[Table 1. Data sources for studied phenotypes.] Study: FinnGen R9 | Phenotype: Carpal Tunnel
+        Syndrome | Cases: 22,426 | Controls: 330,377 | PMID: NA'

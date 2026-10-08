@@ -1,0 +1,15 @@
+{"record_id": "42549601", "coder_id": "coder_1", "attempt": 4,
+ "rows": [
+  {"side": "outcome", "name_as_written": "UK Biobank",
+   "value": "source_names_dataset_absent_from_dictionary",
+   "unresolved_reason": "dataset_absent_from_dictionary",
+   "identification_basis": null,
+   "source_read": "full_text",
+   "passage_id": "p001",
+   "quote": "We then leveraged the UK Biobank data to perform multivariable Cox proportional hazards regression, estimating the associations of single psychiatric disorder, co-occurring psychiatric disorder status and the weighted composite psychiatric disorder score with incident AD.",
+   "citations_claim": "claims/42549601.yaml#outcome_1_a4",
+   "companion_source": false,
+   "reference_label": null, "reference_quote": null, "reference_citations_claim": null,
+   "dataset_named_in_source": "UK Biobank",
+   "coder_note": "Step 3 of the decision order (rule C): the passages define the authors' own analysis of UK Biobank individual-level data by more than a participant count: an analysis procedure (multivariable Cox regression for incident AD, pinned sentence), a phenotype definition (recorded AD or self-reported eczema, ICD-10 L20, p005 and p043), an application number (224336, p004) and the selection of 488,031 AD-free participants (p009); no dictionary row is that analysis. The only UK Biobank citation (ref 17, Sudlow 2015, p003) is a general cohort description and matches no dictionary row. The FinnGen Release 12 sentence of p002 describes the AD GWAS, another dataset, not this row. Step 2 does not apply; no accession, so rule C4 does not arise."}
+ ]}

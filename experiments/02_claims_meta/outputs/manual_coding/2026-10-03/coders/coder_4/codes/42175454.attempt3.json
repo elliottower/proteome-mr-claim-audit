@@ -1,0 +1,41 @@
+{
+ "record_id": "42175454",
+ "coder_id": "coder_4",
+ "attempt": 3,
+ "rows": [
+  {
+   "side": "outcome",
+   "name_as_written": "FinnGen",
+   "value": "FinnGen R10",
+   "unresolved_reason": null,
+   "identification_basis": "release_identifier",
+   "source_read": "full_text",
+   "passage_id": "p002",
+   "quote": "The primary set originated from the FinnGen consortium (release R10), comprising 6340 cases and 314,193 controls for LC, along with subtypes: LUAD (1590 cases), LUSC (1510 cases), and SCLC (717 cases), each with 314,193 controls.[21,22] Replication relied on the TRICL-ILCCO meta-analysis, including 29,266 cases and 56,450 controls for LC, with subtypes: LUAD (11,273 cases, 55,483 controls), LUSC (7426 cases, 55,627 controls), and SCLC (2664 cases, 21,444 controls).[23] All analyses utilized publicly available GWAS summary statistics from European-ancestry populations, with details summarized in Table 1.",
+   "citations_claim": "claims/42175454.yaml#outcome_1_a3",
+   "companion_source": false,
+   "reference_label": null,
+   "reference_quote": null,
+   "reference_citations_claim": null,
+   "dataset_named_in_source": null,
+   "coder_note": "Sentence writes 'FinnGen consortium (release R10)'; the endpoint case and control counts are endpoint-specific and not a conflict (rule H)."
+  },
+  {
+   "side": "outcome",
+   "name_as_written": "Transdisciplinary Research in Cancer of the Lung and International Lung Cancer Consortium",
+   "value": "ILCCO/TRICL OncoArray lung cancer (McKay 2017)",
+   "unresolved_reason": null,
+   "identification_basis": "reference_entry",
+   "source_read": "full_text",
+   "passage_id": "outcome_1:p002",
+   "quote": "The primary set originated from the FinnGen consortium (release R10), comprising 6340 cases and 314,193 controls for LC, along with subtypes: LUAD (1590 cases), LUSC (1510 cases), and SCLC (717 cases), each with 314,193 controls.[21,22] Replication relied on the TRICL-ILCCO meta-analysis, including 29,266 cases and 56,450 controls for LC, with subtypes: LUAD (11,273 cases, 55,483 controls), LUSC (7426 cases, 55,627 controls), and SCLC (2664 cases, 21,444 controls).[23] All analyses utilized publicly available GWAS summary statistics from European-ancestry populations, with details summarized in Table 1.",
+   "citations_claim": "claims/42175454.yaml#outcome_2_a3",
+   "companion_source": true,
+   "reference_label": "23",
+   "reference_quote": "McKay JD Hung RJ Han Y . Large-scale association analysis identifies new lung cancer susceptibility loci and heterogeneity in genetic susceptibility across histological subtypes. Nat Genet . 2017 ; 49 : 1126 – 32 . 28604730 10.1038/ng.3892 PMC5510465",
+   "reference_citations_claim": "claims/42175454.references.yaml#outcome_2_a3_ref",
+   "dataset_named_in_source": null,
+   "coder_note": "Rule I2: the sentence under outcome_1 p002 names the TRICL-ILCCO meta-analysis with 29,266 cases and 56,450 controls and attributes it to ref 23, whose DOI 10.1038/ng.3892 is the single dictionary row's source; this row's own passages give the name only."
+  }
+ ]
+}

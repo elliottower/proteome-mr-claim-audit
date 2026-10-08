@@ -1,0 +1,37 @@
+source:
+  citation: '40913361'
+  local: sources/40913361.txt
+  sha256: 7c5729bc2964670d1dfac2eef8550a5466fcdcdbaa7b02f120423202d27db768
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12695451/fullTextXML
+  note: body as scripts/fetch_fulltext.py rendered it
+claims:
+  outcome_2:
+    quotes:
+    - exact: Using summary statistics from a large‐scale protein quantitative trait loci (pQTL) study
+        of 4719 circulating proteins in Icelandic individuals (Ferkingstad et al. 2021) and GWAS data
+        for periodontitis from the Veterans Affairs Million Veteran Program (VA‐MVP), we aimed to gain
+        genetic insights into protein targets involved in the pathogenesis of periodontitis.
+  pqtl_1:
+    quotes:
+    - exact: Using summary statistics from a large‐scale protein quantitative trait loci (pQTL) study
+        of 4719 circulating proteins in Icelandic individuals (Ferkingstad et al. 2021) and GWAS data
+        for periodontitis from the Veterans Affairs Million Veteran Program (VA‐MVP), we aimed to gain
+        genetic insights into protein targets involved in the pathogenesis of periodontitis.
+  outcome_1_c2:
+    quotes:
+    - exact: Rigorous validation, using periodontitis GWAS obtained from the Gene‐Lifestyle Interactions
+        in Dental Endpoints (GLIDE) consortium, colocalisation and sensitivity analyses, was conducted
+        to confirm causal associations and address potential confounding due to linkage disequilibrium
+        (LD) or reverse causation.
+  outcome_2_c2:
+    quotes:
+    - exact: Using summary statistics from a large‐scale protein quantitative trait loci (pQTL) study
+        of 4719 circulating proteins in Icelandic individuals (Ferkingstad et al. 2021) and GWAS data
+        for periodontitis from the Veterans Affairs Million Veteran Program (VA‐MVP), we aimed to gain
+        genetic insights into protein targets involved in the pathogenesis of periodontitis.
+  pqtl_1_c2:
+    quotes:
+    - exact: Using summary statistics from a large‐scale protein quantitative trait loci (pQTL) study
+        of 4719 circulating proteins in Icelandic individuals (Ferkingstad et al. 2021) and GWAS data
+        for periodontitis from the Veterans Affairs Million Veteran Program (VA‐MVP), we aimed to gain
+        genetic insights into protein targets involved in the pathogenesis of periodontitis.

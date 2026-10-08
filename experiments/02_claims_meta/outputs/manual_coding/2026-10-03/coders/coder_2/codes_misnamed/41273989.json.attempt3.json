@@ -1,0 +1,17 @@
+{"record_id": "41273989", "coder_id": "coder_2", "attempt": 3,
+ "rows": [
+  {"side": "outcome", "name_as_written": "FinnGen",
+   "value": "FinnGen R10", "unresolved_reason": null,
+   "identification_basis": "release_identifier", "source_read": "full_text", "passage_id": "p001",
+   "quote": "The dataset used in this study, designated as finngen_R10_C3_PANCREAS_ADENO_DUCTAL_EXALLC.gz, includes 731 pancreatic cancer patients and 314,193 healthy controls (n = 731 cases; n = 314,193 controls).",
+   "citations_claim": "claims/41273989.yaml#outcome_1_a3",
+   "companion_source": false, "reference_label": null, "reference_quote": null, "reference_citations_claim": null,
+   "dataset_named_in_source": null,
+   "coder_note": "The dataset file is named finngen_R10_C3_PANCREAS_ADENO_DUCTAL_EXALLC.gz, the R10 release identifier, repeated in the finngen-public-data-r10 download address; the case and control counts are endpoint-specific and no conflict (rule H)."},
+  {"side": "pqtl", "name_as_written": "UK Biobank",
+   "value": "not_stated_in_source", "unresolved_reason": "release_not_identified",
+   "identification_basis": null, "source_read": null, "passage_id": null, "quote": null, "citations_claim": null,
+   "companion_source": false, "reference_label": null, "reference_quote": null, "reference_citations_claim": null,
+   "dataset_named_in_source": null,
+   "coder_note": "The pQTL data are the UKB-PPP cohort with reference 20 (Sun 2023, DOI verified), a source with several dictionary rows; the passages give no subcohort, ancestry, sample size or panel that matches exactly one of them (rule E not met)."}
+ ]}

@@ -1,0 +1,45 @@
+source:
+  citation: '41247789'
+  local: sources/41247789.txt
+  sha256: d9ce852e52ddb1bcd579bdfbd5c312f8762039f92364dce0083a51974039cf96
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12622964/fullTextXML
+  note: body as scripts/fetch_fulltext.py rendered it
+claims:
+  pqtl_2:
+    quotes:
+    - exact: From these SNPs, only those with a minor allele frequency of ≥1% that were genome-wide significance
+        (P<5 × 10–8) and considered independent (linkage disequilibrium r2 <0.1 in 1000G) were retained.
+        deCODE Genetics conducted proteomic profiling on blood plasma samples from 35,559 Icelanders using
+        the SomaScan platform and collected data on 4907 aptamers (Ferkingstad et al., 2021).
+  pqtl_2_a2:
+    quotes:
+    - exact: From these SNPs, only those with a minor allele frequency of ≥1% that were genome-wide significance
+        (P<5 × 10–8) and considered independent (linkage disequilibrium r2 <0.1 in 1000G) were retained.
+        deCODE Genetics conducted proteomic profiling on blood plasma samples from 35,559 Icelanders using
+        the SomaScan platform and collected data on 4907 aptamers (Ferkingstad et al., 2021).
+  pqtl_1_a3:
+    quotes:
+    - exact: Likewise, cis-SNPs for 1944 plasma proteins were obtained from the UKB-PPP where 2940 proteins
+        were measured among 54,219 Europeans using the Olink platform (Sun et al., 2023).
+  pqtl_2_a3:
+    quotes:
+    - exact: From these SNPs, only those with a minor allele frequency of ≥1% that were genome-wide significance
+        (P<5 × 10–8) and considered independent (linkage disequilibrium r2 <0.1 in 1000G) were retained.
+        deCODE Genetics conducted proteomic profiling on blood plasma samples from 35,559 Icelanders using
+        the SomaScan platform and collected data on 4907 aptamers (Ferkingstad et al., 2021).
+  pqtl_2_a4:
+    quotes:
+    - exact: From these SNPs, only those with a minor allele frequency of ≥1% that were genome-wide significance
+        (P<5 × 10–8) and considered independent (linkage disequilibrium r2 <0.1 in 1000G) were retained.
+        deCODE Genetics conducted proteomic profiling on blood plasma samples from 35,559 Icelanders using
+        the SomaScan platform and collected data on 4907 aptamers (Ferkingstad et al., 2021).
+  pqtl_1_c2:
+    quotes:
+    - exact: Likewise, cis-SNPs for 1944 plasma proteins were obtained from the UKB-PPP where 2940 proteins
+        were measured among 54,219 Europeans using the Olink platform (Sun et al., 2023).
+  pqtl_2_c2:
+    quotes:
+    - exact: From these SNPs, only those with a minor allele frequency of ≥1% that were genome-wide significance
+        (P<5 × 10–8) and considered independent (linkage disequilibrium r2 <0.1 in 1000G) were retained.
+        deCODE Genetics conducted proteomic profiling on blood plasma samples from 35,559 Icelanders using
+        the SomaScan platform and collected data on 4907 aptamers (Ferkingstad et al., 2021).

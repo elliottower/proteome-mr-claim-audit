@@ -1,0 +1,13 @@
+source:
+  citation: '41196451'
+  local: sources/41196451.txt
+  sha256: ad9d4521a8af2e779b3c48914bf517ea04b17f7f83d9b1de26445f011c0aa963
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12592614/fullTextXML
+  note: body as scripts/fetch_fulltext.py rendered it
+claims:
+  pqtl_1_c2:
+    quotes:
+    - exact: UKB-PPP conducted the proteomic analysis of plasma samples from 54,306 participants using
+        the Olink platform and collected data on 2940 proteins. deCODE carried out the proteomic analysis
+        of plasma samples from 35,559 participants using the somascan platform and collected data on 4907
+        proteins [25].

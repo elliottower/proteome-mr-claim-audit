@@ -1,0 +1,42 @@
+source:
+  citation: '42548293'
+  local: sources/42548293.txt
+  sha256: 1d26a8ac21da0570a8baa0fd2f20bc594aef4631d059d00257579419a4f912a9
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13434842/fullTextXML
+  note: body as scripts/fetch_fulltext.py rendered it
+claims:
+  outcome_1:
+    quotes:
+    - exact: Ultimately, we consolidated the OC‐GWAS data from these sources using GWAS meta‐analysis
+        for further comprehensive analysis (sample case = 3547, N = 691,466).
+  pqtl_2:
+    quotes:
+    - exact: This dataset is derived from a pQTL study involving 35,559 Icelanders [12].
+  pqtl_2_a2:
+    quotes:
+    - exact: This dataset is derived from a pQTL study involving 35,559 Icelanders [12].
+  outcome_1_a3:
+    quotes:
+    - exact: Ultimately, we consolidated the OC‐GWAS data from these sources using GWAS meta‐analysis
+        for further comprehensive analysis (sample case = 3547, N = 691,466).
+  pqtl_2_a3:
+    quotes:
+    - exact: This dataset is derived from a pQTL study involving 35,559 Icelanders [12].
+  outcome_1_a4:
+    quotes:
+    - exact: Ultimately, we consolidated the OC‐GWAS data from these sources using GWAS meta‐analysis
+        for further comprehensive analysis (sample case = 3547, N = 691,466).
+  pqtl_2_a4:
+    quotes:
+    - exact: This dataset is derived from a pQTL study involving 35,559 Icelanders [12].
+  outcome_1_c2:
+    quotes:
+    - exact: Ultimately, we consolidated the OC‐GWAS data from these sources using GWAS meta‐analysis
+        for further comprehensive analysis (sample case = 3547, N = 691,466).
+  pqtl_1_c2:
+    quotes:
+    - exact: Additionally, to replicate the discovery set results, the UK Biobank Plasma Proteome Project
+        (UKB‐PPP) (N = 54,219) acts as a duplicate set, enhancing the reliability of the results.
+  pqtl_2_c2:
+    quotes:
+    - exact: This dataset is derived from a pQTL study involving 35,559 Icelanders [12].

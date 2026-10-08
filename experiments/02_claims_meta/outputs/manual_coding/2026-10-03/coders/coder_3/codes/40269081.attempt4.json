@@ -1,0 +1,15 @@
+{"record_id": "40269081", "coder_id": "coder_3", "attempt": 4,
+ "rows": [
+  {"side": "outcome", "name_as_written": "UK Biobank",
+   "value": "UK Biobank TOPMed-imputed PheWeb (Lee/Michigan)",
+   "unresolved_reason": null,
+   "identification_basis": "source_identifier",
+   "source_read": "full_text",
+   "passage_id": "p006",
+   "quote": "The GWAS summary statistics for endometriosis was available on Leelab Pheweb (https://pheweb.org/UKB-TOPMed/pheno/615) for the UK Biobank cohort and on the FinnGen R10 (https://r10.risteys.finngen.fi/) for the FinnGen cohort.",
+   "citations_claim": "claims/40269081.yaml#outcome_1_a4",
+   "companion_source": false,
+   "reference_label": null, "reference_quote": null, "reference_citations_claim": null,
+   "dataset_named_in_source": null,
+   "coder_note": "Step 2, rule C4 first case: the sentence gives the UK Biobank outcome data as Leelab PheWeb at https://pheweb.org/UKB-TOPMed/pheno/615, the resource identifier (pheweb.org/UKB-TOPMed) that exactly one outcome row lists; the stated 4036 cases and 210,927 controls lie inside that row's per-code ranges, and no other identifier conflicts (step 1 does not apply). The sentence occurs twice in the source (rule I4); the occurrence in p006 was pinned with the helper."}
+ ]}

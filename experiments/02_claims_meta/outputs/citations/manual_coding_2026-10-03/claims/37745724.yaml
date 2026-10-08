@@ -1,0 +1,15 @@
+source:
+  citation: '37745724'
+  local: sources/37745724.txt
+  sha256: 6dfb30b94c6e727a35fd38ddb21c8af03f28e2719fc583f6f99effdea6743179
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10514473/fullTextXML
+  note: body as scripts/fetch_fulltext.py rendered it
+claims:
+  outcome_1_a3:
+    quotes:
+    - exact: And single nucleotide polymorphisms (SNPs) were extracted from large-scale GWAS databases
+        in the TRICL consortium (ieu-a-987, ieu-a-986, ieu-a-985).
+  outcome_1_c2:
+    quotes:
+    - exact: And single nucleotide polymorphisms (SNPs) were extracted from large-scale GWAS databases
+        in the TRICL consortium (ieu-a-987, ieu-a-986, ieu-a-985).

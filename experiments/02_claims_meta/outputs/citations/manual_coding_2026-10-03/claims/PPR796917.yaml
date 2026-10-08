@@ -1,0 +1,25 @@
+source:
+  citation: PPR796917
+  local: sources/PPR796917.txt
+  sha256: c0ebcab91cea0179ceee3e3e10ac485495fd5acf384d355df31b0d3a9652108d
+  note: abstract exactly as sent to the extractor
+claims:
+  outcome_1_a3:
+    quotes:
+    - exact: We gathered the genome wide association study (GWAS) data of BC from BCAC (OncoArray, n =
+        138,508) and BCAC (iCOGS, n = 76,167).
+  pqtl_1_a3:
+    quotes:
+    - exact: Methods We collected the protein quantitative trait locus (pQTL) data of 4,907 circulating
+        proteins from the DeCODE study (n = 35,559) as exposures.
+  outcome_1_c2:
+    quotes:
+    - exact: We gathered the genome wide association study (GWAS) data of BC from BCAC (OncoArray, n =
+        138,508) and BCAC (iCOGS, n = 76,167).
+  outcome_2_c2:
+    quotes:
+    - exact: The FinnGen study (n = 224,737) as the outcomes.
+  pqtl_1_c2:
+    quotes:
+    - exact: Methods We collected the protein quantitative trait locus (pQTL) data of 4,907 circulating
+        proteins from the DeCODE study (n = 35,559) as exposures.

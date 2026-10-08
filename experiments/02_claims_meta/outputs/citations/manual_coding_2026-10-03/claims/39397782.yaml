@@ -1,0 +1,31 @@
+source:
+  citation: '39397782'
+  local: sources/39397782.txt
+  sha256: f36a6c0d04066ed9bc5df78ddce9acc330281839fb6351a1cde839a8022bceb5
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11560279/fullTextXML
+  note: body as scripts/fetch_fulltext.py rendered it
+claims:
+  outcome_1:
+    quotes:
+    - exact: Summary statistic genetic data on MI were obtained from the genome-wide association meta-analysis
+        for the CARDIoGRAMplusC4D Consortium,23 which included 43 676 participants with and 128 199 participants
+        without MI, as well as from the FinnGen R10,24 which included 26 060 individuals with and 343
+        079 without MI.
+  outcome_2:
+    quotes:
+    - exact: Summary statistic genetic data on MI were obtained from the genome-wide association meta-analysis
+        for the CARDIoGRAMplusC4D Consortium,23 which included 43 676 participants with and 128 199 participants
+        without MI, as well as from the FinnGen R10,24 which included 26 060 individuals with and 343
+        079 without MI.
+  outcome_1_c2:
+    quotes:
+    - exact: Summary statistic genetic data on MI were obtained from the genome-wide association meta-analysis
+        for the CARDIoGRAMplusC4D Consortium,23 which included 43 676 participants with and 128 199 participants
+        without MI, as well as from the FinnGen R10,24 which included 26 060 individuals with and 343
+        079 without MI.
+  outcome_2_c2:
+    quotes:
+    - exact: Summary statistic genetic data on MI were obtained from the genome-wide association meta-analysis
+        for the CARDIoGRAMplusC4D Consortium,23 which included 43 676 participants with and 128 199 participants
+        without MI, as well as from the FinnGen R10,24 which included 26 060 individuals with and 343
+        079 without MI.

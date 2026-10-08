@@ -1,0 +1,41 @@
+{
+ "record_id": "42323475",
+ "coder_id": "coder_3",
+ "attempt": 1,
+ "rows": [
+  {
+   "side": "outcome",
+   "name_as_written": "Breast Cancer Association Consortium",
+   "value": "not_stated_in_source",
+   "unresolved_reason": "release_not_identified",
+   "identification_basis": null,
+   "source_read": null,
+   "passage_id": null,
+   "quote": null,
+   "citations_claim": null,
+   "companion_source": false,
+   "reference_label": null,
+   "reference_quote": null,
+   "reference_citations_claim": null,
+   "dataset_named_in_source": null,
+   "coder_note": "Consortium name with case/control counts but no year, citation or release; N alone is insufficient."
+  },
+  {
+   "side": "outcome",
+   "name_as_written": "FinnGen DF 11",
+   "value": "FinnGen R11",
+   "unresolved_reason": null,
+   "identification_basis": "release_identifier",
+   "source_read": "abstract",
+   "passage_id": "p001",
+   "quote": "Outcome data for overall breast cancer and subtypes were sourced from the Breast Cancer Association Consortium (133,384 cases, 113,789 controls) and FinnGen DF 11 (20,586 cases, 201,494 controls).",
+   "citations_claim": "claims/42323475.yaml#outcome_2",
+   "companion_source": false,
+   "reference_label": null,
+   "reference_quote": null,
+   "reference_citations_claim": null,
+   "dataset_named_in_source": null,
+   "coder_note": "Sentence states data freeze DF 11."
+  }
+ ]
+}

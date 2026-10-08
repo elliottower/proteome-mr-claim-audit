@@ -1,0 +1,17 @@
+source:
+  citation: '42518818'
+  local: sources/42518818.txt
+  sha256: 8163ee2b05fc45c3cd316914ec53785b4322f240182ab9a52617ebc90ef161ba
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13381258/fullTextXML
+  note: body as scripts/fetch_fulltext.py rendered it
+claims:
+  pqtl_1:
+    quotes:
+    - exact: Plasma proteome GWAS data were sourced from the deCODE database (https://www.decode.com),
+        based on Ferkingstad et al. (12), who analyzed plasma protein levels—measured via 4,907 aptamers—in
+        35,559 Icelandic participants.
+  pqtl_1_c2:
+    quotes:
+    - exact: Plasma proteome GWAS data were sourced from the deCODE database (https://www.decode.com),
+        based on Ferkingstad et al. (12), who analyzed plasma protein levels—measured via 4,907 aptamers—in
+        35,559 Icelandic participants.

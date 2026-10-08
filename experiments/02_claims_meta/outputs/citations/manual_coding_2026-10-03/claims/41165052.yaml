@@ -1,0 +1,43 @@
+source:
+  citation: '41165052'
+  local: sources/41165052.txt
+  sha256: 24fe524b13cf53d2ea034561ccf6b7c83fca1930612bacc232e6d5df007f05a7
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12716302/fullTextXML
+  note: body as scripts/fetch_fulltext.py rendered it
+claims:
+  pqtl_1:
+    quotes:
+    - exact: 'For the pQTL analysis, we obtained summary statistics for 4907 plasma proteins from a large‐scale
+        study by Ferkingstad et al., 19 accessed via the deCODE database (https://www.decode.com). pQTLs
+        are categorized based on their genomic proximity to protein‐coding genes: cis‐pQTLs represent
+        nearby regulatory elements, while trans‐pQTLs indicate distant regulatory influences. 13 Contemporary
+        research typically defines these categories using distance thresholds of 500 kb or 1000 kb.'
+  outcome_1_a2:
+    quotes:
+    - exact: To further evaluate the robustness of our findings, we conducted additional MR analyses using
+        pQTLs from the UK Biobank Pharma Proteomics Project (UKB‐PPP) in combination with FinnGen r12
+        GWAS summary statistics.
+  pqtl_1_a2:
+    quotes:
+    - exact: 'For the pQTL analysis, we obtained summary statistics for 4907 plasma proteins from a large‐scale
+        study by Ferkingstad et al., 19 accessed via the deCODE database (https://www.decode.com). pQTLs
+        are categorized based on their genomic proximity to protein‐coding genes: cis‐pQTLs represent
+        nearby regulatory elements, while trans‐pQTLs indicate distant regulatory influences. 13 Contemporary
+        research typically defines these categories using distance thresholds of 500 kb or 1000 kb.'
+  outcome_1_c2:
+    quotes:
+    - exact: 'For the outcome data, we utilized GWAS summary statistics from the FinnGen consortium (Data
+        Freeze 12). 22 Three epilepsy phenotypes were analyzed: overall epilepsy (15 645 cases and 374
+        605 controls; ICD‐10: G40; ICD‐9/8: 345), defined from nationwide Finnish health registries including
+        hospital inpatient and outpatient records, death certificates, and medication reimbursements,
+        excluding status epilepticus (G41) and single seizures; GE (1690 cases and 484 697 controls; ICD‐10:
+        G40.3; ICD‐9: 345[0–3]; ICD‐8: 34519), typically corresponding to idiopathic/genetic generalized
+        epilepsies; and FE (9275 cases and 484 703 controls; ICD‐10: G40.0–2; ICD‐9: 345 [4, 5]; ICD‐8:
+        3453), characterized by localized seizure onset.'
+  pqtl_1_c2:
+    quotes:
+    - exact: 'For the pQTL analysis, we obtained summary statistics for 4907 plasma proteins from a large‐scale
+        study by Ferkingstad et al., 19 accessed via the deCODE database (https://www.decode.com). pQTLs
+        are categorized based on their genomic proximity to protein‐coding genes: cis‐pQTLs represent
+        nearby regulatory elements, while trans‐pQTLs indicate distant regulatory influences. 13 Contemporary
+        research typically defines these categories using distance thresholds of 500 kb or 1000 kb.'

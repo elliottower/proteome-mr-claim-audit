@@ -1,0 +1,35 @@
+{
+ "source_table": "check3_author_table.csv",
+ "source_sha256": "0959c23eb9a7740a41967643b0b1c1366555dfc4d99289081ad16c94d0005634",
+ "seed": 20261008,
+ "n": 20,
+ "method": "random.Random(seed).sample(range(196), 20) over the table's rows in file order, then sorted",
+ "table_lines": [
+  "8",
+  "12",
+  "23",
+  "32",
+  "40",
+  "55",
+  "56",
+  "62",
+  "72",
+  "75",
+  "80",
+  "103",
+  "105",
+  "113",
+  "120",
+  "146",
+  "173",
+  "182",
+  "184",
+  "192"
+ ],
+ "snippet_located": 6,
+ "located_in": {
+  "not located automatically; read the full text to the right": 14,
+  "the sentence": 1,
+  "the reference entry": 5
+ }
+}

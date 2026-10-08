@@ -1,0 +1,15 @@
+{"record_id": "42317795", "coder_id": "coder_1", "attempt": 3,
+ "rows": [
+  {"side": "outcome", "name_as_written": "UK Biobank",
+   "value": "source_names_dataset_absent_from_dictionary",
+   "unresolved_reason": "dataset_absent_from_dictionary",
+   "identification_basis": null,
+   "source_read": "full_text",
+   "passage_id": "p009",
+   "quote": "Information on the prevalence and incidence of depression and RA was obtained from the UK Biobank “First Occurrence” category (category 1712), which was derived from the integration of hospital admissions, death records, primary care data, and self-reported outcomes collected during nurse-led interviews.",
+   "citations_claim": "claims/42317795.yaml#outcome_1_a3",
+   "companion_source": false,
+   "reference_label": null, "reference_quote": null, "reference_citations_claim": null,
+   "dataset_named_in_source": "UK Biobank “First Occurrence” category (category 1712)",
+   "coder_note": "The UK Biobank outcome data are the authors' own analysis of individual-level data, defined by source and phenotype (First Occurrence category 1712; depression ICD-10 F32/F33, RA M05/M06 in the next sentence); no listed UK Biobank GWAS release is named (rule C applied to the authors' own analysis). The MR GWAS summary statistics are said to come from independent datasets listed in Table S10, which is not among the passages."}
+ ]}

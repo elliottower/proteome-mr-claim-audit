@@ -1,0 +1,25 @@
+source:
+  citation: '38729796'
+  local: sources/38729796.txt
+  sha256: 4b126b2eb91e770a723a0e62cf40433c928cc6b605e8e4ead5d8b3d8cf39c9cf
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11551566/fullTextXML
+  note: body as scripts/fetch_fulltext.py rendered it
+claims:
+  outcome_1:
+    quotes:
+    - exact: The genome-wide association study (GWAS) summarised data for periodontitis were provided
+        by FinnGen consortium R9 release.17 This study included 346,900 controls and 30,377 clinical periodontitis
+        individuals (ICD-10 K05.30, K05.31, K05.4).
+  outcome_2:
+    quotes:
+    - exact: The detailed GWAS information is shown in the original paper.18 For external validation,
+        data on protein Quantitative Trait Loci (pQTLs) were obtained from the UK Biobank.19
+  outcome_1_c2:
+    quotes:
+    - exact: The genome-wide association study (GWAS) summarised data for periodontitis were provided
+        by FinnGen consortium R9 release.17 This study included 346,900 controls and 30,377 clinical periodontitis
+        individuals (ICD-10 K05.30, K05.31, K05.4).
+  outcome_2_c2:
+    quotes:
+    - exact: The detailed GWAS information is shown in the original paper.18 For external validation,
+        data on protein Quantitative Trait Loci (pQTLs) were obtained from the UK Biobank.19

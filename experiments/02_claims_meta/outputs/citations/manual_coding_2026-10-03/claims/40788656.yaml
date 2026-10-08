@@ -1,0 +1,16 @@
+source:
+  citation: '40788656'
+  local: sources/40788656.txt
+  sha256: 2b4a403a25e21ccde173ee5ff9e2e5e883d7488797e96d45c9473051b5dd0110
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12451089/fullTextXML
+  note: body as scripts/fetch_fulltext.py rendered it
+claims:
+  pqtl_1_c2:
+    quotes:
+    - exact: 'We used publicly available regression coefficients for the association of genome-wide SNP
+        data with protein levels (pQTL GWAS summary statistics) from three proteomics studies to construct
+        vectors of weights for SNPs associated with plasma proteins: 2,994 proteins on the SomaLogic panel
+        measured in 3,301 participants in the INTERVAL (To Determine Whether the Interval Between Blood
+        Donations in England Can be Safely and Acceptably Decreased) study (12), 4,719 proteins on the
+        SomaLogic v4 panel in 35,559 participants in the deCODE genetics study (13), and 2,923 proteins
+        on the Olink Explore panel in 54,219 UK Biobank participants—the UKB-PPP (6).'

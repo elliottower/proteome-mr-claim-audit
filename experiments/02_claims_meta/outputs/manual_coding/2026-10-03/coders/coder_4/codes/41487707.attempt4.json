@@ -1,0 +1,15 @@
+{"record_id": "41487707", "coder_id": "coder_4", "attempt": 4,
+ "rows": [
+  {"side": "outcome", "name_as_written": "Finnish biobank",
+   "value": "not_stated_in_source",
+   "unresolved_reason": "release_not_identified",
+   "identification_basis": null,
+   "source_read": null,
+   "passage_id": null,
+   "quote": null,
+   "citations_claim": null,
+   "companion_source": false,
+   "reference_label": null, "reference_quote": null, "reference_citations_claim": null,
+   "dataset_named_in_source": null,
+   "coder_note": "Step 4 of the decision order: p002 gives 'the DF11 version of the Finnish biobank study, released on June 24, 2024 [21]' without the name FinnGen; the only link to FinnGen is ref 21 (Kurki 2023), whose entry carries DOI 10.1038/s41586-023-05837-8, not the DOI of the FinnGen rows (10.1038/s41586-022-05473-8), so the entry cannot carry a code although its PMID and PMC identifier match; the sentence alone names no dictionary dataset. Not rule C2 absent: 'Finnish biobank study' is a description and the outcome side has FinnGen rows. For adjudication: DF11 would be FinnGen R11 under rule A if 'Finnish biobank study' is read as FinnGen. No accession, so rule C4 does not apply."}
+ ]}

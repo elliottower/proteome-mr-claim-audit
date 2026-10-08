@@ -1,0 +1,31 @@
+source:
+  citation: '41036470'
+  local: sources/41036470.txt
+  sha256: cf952668c47f0ebdeafca437e6fc3be0b6cab252103764dad19ca9ac79b8c30a
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12480830/fullTextXML
+  note: body as scripts/fetch_fulltext.py rendered it
+claims:
+  pqtl_2:
+    quotes:
+    - exact: Obtained from deCODE genetics (http://www.decode.com/summarydata/), this dataset contains
+        GWAS associations for plasma protein levels quantified through 4907 aptamers in 35,559 Icelandic
+        individuals.
+  pqtl_2_a2:
+    quotes:
+    - exact: Obtained from deCODE genetics (http://www.decode.com/summarydata/), this dataset contains
+        GWAS associations for plasma protein levels quantified through 4907 aptamers in 35,559 Icelandic
+        individuals.
+  pqtl_2_a3:
+    quotes:
+    - exact: Obtained from deCODE genetics (http://www.decode.com/summarydata/), this dataset contains
+        GWAS associations for plasma protein levels quantified through 4907 aptamers in 35,559 Icelandic
+        individuals.
+  pqtl_1_c2:
+    quotes:
+    - exact: After filtering SNPs as IVs, we obtained 2619 molecules from the original 2923 UKB-PPP pQTL
+        molecules and conducted MR analysis using these filtered molecules as exposure factors.
+  pqtl_2_c2:
+    quotes:
+    - exact: Obtained from deCODE genetics (http://www.decode.com/summarydata/), this dataset contains
+        GWAS associations for plasma protein levels quantified through 4907 aptamers in 35,559 Icelandic
+        individuals.
