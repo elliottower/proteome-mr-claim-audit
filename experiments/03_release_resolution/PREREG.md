@@ -364,6 +364,38 @@ with its route, URL, date and sha256 under an ignored path and listed in a withh
 record; no third-party text is committed. A paper whose source cannot be retrieved is never
 dropped: its rows are unresolved and counted by reason.
 
+**Tooling reused from Paper 1.** The passage cutter, the pages the author marks and the
+readers of his marks are new versioned copies of Paper 1's tools, tested and sealed before
+use; the originals are not edited.
+
+| page or step | new copy derived from |
+|---|---|
+| passage cutter | `scripts/manual_coding_passages_v3.py` (sealed) |
+| table of rows the author marks | `scripts/manual_coding_check3_table_v2.py` (sealed) |
+| page builder for the calibration page, the disagreement page and the audit page | the page script that built Paper 1's check pages, which was not sealed and is not in the repository; the copy made here is the first sealed version |
+| seeded draws (calibration papers, audit sample) | `scripts/manual_coding_check3_sample.py` (sealed) |
+| reader of the author's marks | `scripts/manual_coding_check3_followup_v2.py` and `scripts/manual_coding_final_tables.py` (sealed) |
+| provenance and identifier gate | `scripts/manual_coding_gates_v2.py` and `scripts/pin_passage_occurrence_v2.py` (sealed) |
+
+Every page shows, per row: the passages, with the identifier or release string that decides
+highlighted; a link to the open page of the source; the row's hash; one-click marks and a note;
+and a button that saves the marks as a JSON file, whose sha256 is logged before it is read.
+The calibration page shows no model answer. The disagreement page shows the two answers
+without saying which model gave which, in an order shuffled per row by a seed. The audit page
+shows the agreed answer.
+
+| Paper 1 manual-coding artifact | role here |
+|---|---|
+| passage cutter, gates, pin helper, table and marks scripts, page script | tooling: new versioned copies |
+| coder instructions v6 and the settled rules A to I4 and C1 to C5 | tooling: the basis of the new prompt, which is a new file with its own sha256 |
+| dataset dictionary and dictionary definitions | input, unchanged |
+| the 65 full texts stored for scope papers, with their raw XML | input, where eligible under route R1 |
+| the claims folders of pinned sentences | input to control pool (c) only |
+| the queues, passages and coder attempt files | not used |
+| the 197 accepted codes and their extended tables | comparison only: reported beside this stage's codes for the same mentions, never the truth, never given to a coder or the checker |
+| the second-check packets and answers | not used |
+| the author's marks of Paper 1 | not used |
+
 ## Data collection procedures - File upload
 
 N/A — no file beyond the repository.
@@ -419,6 +451,7 @@ before the family datasets are formed.
 | accessibility-stratified resolution | resolved mentions | mentions, by route of the record's source (R1, R2 present, R3, R4, none) |
 | source availability | papers with an eligible source | papers, by year, journal, document class and platform |
 | pairs unresolved for want of a source | unresolved pairs that every other mention would class and at least one `no_source` mention holds | unresolved pairs |
+| agreement with Paper 1's codes | mentions coded here to the row Paper 1 accepted; to another row; unresolved here | the mentions among Paper 1's 197 accepted codes that are in the scope; comparison only |
 | pair movement | repeated pairs by class in Paper 1 and class here (3 by 3) | M, for H2 and for H2b |
 | H2-R and H2b-R among fully accessible pairs | the bounds over pairs whose every paper had an eligible source | those pairs; descriptive, no verdict |
 
