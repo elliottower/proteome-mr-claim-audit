@@ -158,7 +158,7 @@ dataset, one row per record and side (pQTL) or per record, side and outcome as w
 | analysis role, per release | `primary`, `meta_analysis_component`, `replication`, `sensitivity` |
 | ancestry, per release | as the source states it, or `not_stated` |
 | attribution state | `explicit`, `paper_wide`, `unresolved` |
-| unresolved reasons, when the set is empty (every one that applies) | `release_not_identified`, `conflicting_identifiers`, `dataset_absent_from_dictionary`, `attribution_unresolved`, `no_source`, `source_unreadable`, `version_not_linked` |
+| unresolved reasons, every one that applies: any reason when the set is empty; `attribution_unresolved` also whenever the attribution state is `unresolved`, whatever the set | `release_not_identified`, `conflicting_identifiers`, `dataset_absent_from_dictionary`, `attribution_unresolved`, `no_source`, `source_unreadable`, `version_not_linked` |
 
 Only the sources that contribute to the estimate the claim states are coded. A meta-analysis
 is coded to its dictionary meta-analysis row when there is one, else to the set of its
@@ -192,8 +192,11 @@ analysis.
 **Abstract evidence.** Abstract evidence is available for every included record and is always
 evaluated under D1 and D2, by the same frozen rules as the full text. Failure to retrieve an
 eligible full text or supplement prevents refinement or confirmation but does not erase a
-release decisively identified from the abstract. A row is `no_source` only when neither the
-abstract nor an eligible retrieved source supplies decisive evidence. Paper 1's accepted manual
+release decisively identified from the abstract. A row is `no_source` only when both hold: no
+eligible source other than the abstract was retrieved for the record, and the abstract supplies
+no decisive evidence. A row whose record has a readable retrieved source that holds no decisive
+identifier is never `no_source`; it takes `release_not_identified` or another substantive
+reason. Paper 1's accepted manual
 codes are not inherited: the rules are applied afresh.
 
 **Abstract against full text**, for a name the abstract already resolves or states:
@@ -306,7 +309,9 @@ and it was obtained by one of these routes:
 
 No publisher site is logged into, no paywalled copy is used, no browser is automated, no
 request imitates a browser, and no request carries an e-mail address. A request is tried three
-times, 60 seconds apart; a record with no file after that is `no_source`. Accepted types: JATS
+times, 60 seconds apart; a record with no file after that has no retrieved source, and its rows
+are `no_source` when the abstract supplies no decisive evidence (§Study design, abstract
+evidence). Accepted types: JATS
 XML, PDF, plain text, HTML, CSV, TSV, XLSX, XLS, DOCX, and ZIP archives of these. A PDF is
 converted with `pdftotext -layout` (poppler, version pinned in the image); a file of another
 type, a scanned PDF with no text layer, or a table over 50 MB is `source_unreadable`, counted,
@@ -627,7 +632,7 @@ its seed where one is used. A "row" is a row of §Study design, unit (one datase
 | SA2. Side-specific source relations | family comparison of a repeated pair | all family comparisons of M; and each pair weighted one | `side_relations.json` |
 | SA3. Unresolved reasons | row; repeated pair | unresolved rows; unresolved pairs | `unresolved_reasons.json` |
 | SA4. Decisive-identifier inventory | resolved row | rows resolved by a decisive rule | `identifier_inventory.json` |
-| SA5. Within-study sample overlap | claim record; study family | claim records and families of M | `within_study_overlap.json` |
+| SA5. Within-study sample overlap | claim record; aggregated per study family | claim records of M; families of M | `within_study_overlap.json` |
 | SA6. Reporting by year | row; paper | rows and papers of the scope, by year | `identification_by_year.json` |
 | SA7. Code and data links | paper | papers with an eligible retrieved source, by year | `repository_links.json` |
 
@@ -663,7 +668,7 @@ single main reason is assigned. Categories, in four groups:
 
 | group | category | from |
 |---|---|---|
-| access | full text or supplement not retrievable | `no_source`; and a listed supplement that failed retrieval |
+| access | no eligible source other than the abstract retrieved, and no decisive abstract evidence | `no_source` |
 | access | retrieved source unreadable or incompletely rendered | `source_unreadable` |
 | source does not establish | resource named, release not identified | `release_not_identified` |
 | source does not establish | dataset not attributable to the claim's analysis | `attribution_unresolved` |
@@ -674,10 +679,13 @@ single main reason is assigned. Categories, in four groups:
 | version linking | record not linked to a readable version | `version_not_linked` |
 
 At row level: the count of rows per category. At pair level, for H2 and for H2b separately: per
-category, the count of unresolved pairs it affects; the count where it is the only remaining
+category, the count of unresolved pairs it affects (`attribution_unresolved` counts wherever an
+unresolved attribution blocks a comparison, whether or not the row's release set is empty); the count where it is the only remaining
 blocker, that is, every row or comparison that keeps the pair unresolved carries that category
 and no other, built as the registered count of pairs unresolved for want of a source; and the
-count with several blockers. The "dictionary cannot represent" group follows from the design's
+count with several blockers. Rows whose record has a readable source but a listed supplement
+that could not be retrieved keep their substantive reason; they are counted beside the table,
+from the retrieval log, and never as an access reason. The "dictionary cannot represent" group follows from the design's
 choice not to extend the dictionary and is never reported as a reporting failure of the papers.
 
 **SA4. Decisive-identifier inventory.** For every row resolved by D1 or D2, every decisive passage
@@ -694,8 +702,11 @@ releases are compared with its outcome-side coded releases by Paper 1's particip
 comparison (`compare_side`, components from `verification/dataset_components.csv`, both
 unchanged): documented shared participant-source components; documented disjoint sources;
 unresolved. Same release cannot arise, because every dictionary row belongs to one side (28
-pQTL rows, 93 outcome rows); the category is kept and is empty by construction. Per study family, the same comparison on the union of the
-family's coded releases per side. Reported by record and by family, with the repeated pairs the
+pQTL rows, 93 outcome rows); the category is kept and is empty by construction. The claim-record
+classification is the within-analysis result. Per study family, the record classifications are
+aggregated, never recomputed on unions of the family's releases: the counts of the family's
+records in each class, and the family classed as all records sharing, all records disjoint,
+mixed, or any record unresolved. Reported by record and by family, with the repeated pairs the
 families hold. It needs nothing the coding unit does not already record: the coded release sets
 per side and the attribution state of each record.
 
@@ -782,8 +793,8 @@ release, shared documented participant sources, had documented disjoint sources,
 unresolved, in raw and pair-weighted counts; how many unresolved rows and pairs each reason
 affects, how many it alone holds and how many have several, with the limits of the dictionary
 kept apart from what the sources do not establish; which types of decisive identifier were
-found and where; whether the two sides of a study's own analysis share documented participant
-sources; the share of mentions and papers decisively identified from any source and from the
+found and where; whether the pQTL side and the outcome side of each claim record share documented
+participant sources, and those record classifications counted per family; the share of mentions and papers decisively identified from any source and from the
 abstract alone, by year, with intervals; and how many papers carry a link to a code or data
 repository, by year. It cannot state that a release was not reported anywhere
 because the retrieved sources did not identify it, that the controls validate attribution of a
