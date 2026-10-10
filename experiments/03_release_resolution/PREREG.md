@@ -641,10 +641,11 @@ registered result (its codes and pair classes, amended primary analysis); B, the
 rules applied to the abstract alone; C, the full follow-up. B is source-restricted: a separate
 abstract-only packet per paper, holding the record's abstract as Paper 1 stored it and no other
 file, is coded by both models with the frozen prompt, in requests separate from those of C, and
-no full-text answer, code or passage is visible to either model. B is checked as C is (gate on
-a quotation pinned in the abstract, adjudication of disagreements, audit of 10% of agreements),
-and the author adjudicates B before any row of C, so that no adjudication of B is made after a
-full text of the paper was read for this stage. A B code never enters C, and a C code never
+no full-text answer, code or passage is visible to either model. B gets the same checks as C:
+the gate on a quotation pinned in the abstract, the author's adjudication of every row on which
+the two models differ, and the author's audit of a seeded 10% of the rows on which they agree,
+at least 30 rows, with the same escalation rule. All of it is done before any full-text row is
+coded, so that no decision on B is made after a full text of the paper was read for this stage. A B code never enters C, and a C code never
 counts as an abstract identification. Reported for A, B and C: per row, resolved to one
 release set or unresolved by reason; per pair, the H2 and H2b class and the bounds; and the
 contrasts A to B (associated with the changed coding procedure, which includes changed coders
