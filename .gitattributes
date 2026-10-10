@@ -2,3 +2,6 @@
 # working files; with line-ending conversion (core.autocrlf) git would store 22 CSV tables that
 # end their lines with CRLF under different bytes, and a clone would not match its own records.
 * -text
+experiments/03_release_resolution/PREREG.md -text
+experiments/03_release_resolution/PREREG_AMENDMENT_*.md -text
+experiments/03_release_resolution/PREREG.log -text
