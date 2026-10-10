@@ -4,7 +4,8 @@ Sections use the [OSF Preregistration](https://osf.io/prereg/) question titles v
 this maps onto a registration without being rewritten. A question that does not apply is
 answered **N/A** with the reason, never deleted.
 
-**Status:** DRAFT, not frozen. Nothing in this stage has been fetched, coded or run.
+**Status:** frozen before any study source of this stage was retrieved, coded or run. The resource
+documentation and manifests behind the reference tables were fetched before the freeze.
 
 This plan is a prospectively registered, post-results follow-up analysis of Paper 1 of
 `proteome-mr-claim-audit` (`experiments/02_claims_meta/PREREG.md`, registered at
@@ -60,6 +61,10 @@ state about their data agrees with the full papers.
 
 ## Foreknowledge of data or evidence
 
+Authors have observed the data, but have not performed the proposed analyses
+
+## Explanation of foreknowledge and managing unintended influences
+
 The registered results of Paper 1 are seen. Amended primary analysis: 245 repeated pairs; H1,
 0 pairs with an independent edge, no estimate; H2 unresolved, 0 known identical, 11 known not
 identical, 234 unresolved, bounds 0.000 to 0.955; H2b unresolved, 8 known overlapping, 5 known
@@ -81,8 +86,8 @@ text there not flagged open access, 66 are open access by OpenAlex only, 37 are 
 returned no status; Europe PMC lists supplementary files for 141.
 
 The author and the coding agents have read passages of 242 full texts during the manual coding
-of Paper 1, and the 197 codes that resulted. Five external reviews of earlier drafts of this plan
-have been read; they changed the rules below. An external answer proposing secondary analyses
+of Paper 1, and the 197 codes that resulted. Seven external reviews of earlier drafts of this plan and of its pinned inputs
+have been read; they changed the rules and inputs below. An external answer proposing secondary analyses
 has been read; four of the seven secondary analyses below come from it. The documents read to build the meta-analysis
 expansion table are listed in it.
 
@@ -96,8 +101,6 @@ among accepted codes and says nothing about models not used.
 Three files of one record (PPR989506) were downloaded by the author from an open page and are
 stored unread. No full text has been read for this stage, no supplement has been fetched by a
 script, and no rule below has been applied to any paper.
-
-## Explanation of foreknowledge and managing unintended influences
 
 This stage was designed after its motivating result was known: that H2 and H2b were unresolved,
 and why. What that costs: its estimands are follow-up estimands, never confirmatory; every
@@ -116,15 +119,16 @@ coding; and C1 is computed and logged before H2-R is opened.
 
 ## Study type
 
-Observational, meta-research: a second coding of documents already in a registered corpus.
+Non-randomized study
+Descriptive study
 
 ## Intention for causal interpretation
 
-N/A — no causal claim.
+No causal relationship inferred
 
 ## Blinding of experimental treatments
 
-N/A — no treatment.
+No blinding is involved.
 
 ## Additional blinding during research or analysis
 
@@ -792,6 +796,10 @@ writes before any request.
 Anything else is labelled as made after the results.
 
 ## Context and additional information
+
+The study is observational meta-research: a second coding of documents already in a registered
+corpus. It is registered separately from Paper 1's registration, https://osf.io/zae8c, to which it
+is linked.
 
 Review before any freeze: external review rounds on this draft until one confirms it. The
 freeze uses `prereg freeze` and an OSF registration of its own, linked to
