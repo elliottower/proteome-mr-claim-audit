@@ -1,0 +1,16 @@
+{
+ "what": "which OpenGWAS batch prefixes the OpenGWAS batch list documents as one dictionary release, by the batch's own description; the build checks each description against the stored batch list and stops when one differs; a batch whose description names no single dictionary release is not mapped",
+ "mapped": [
+  {"batch": "finn-b", "description": "FinnGen biobank analysis round 5", "dictionary_row": "FinnGen R5"},
+  {"batch": "ukb-a", "description": "Neale lab analysis of UK Biobank phenotypes,  round 1", "dictionary_row": "Neale lab UK Biobank GWAS round 1"},
+  {"batch": "ukb-b", "description": "IEU analysis of UK Biobank phenotypes", "dictionary_row": "MRC-IEU UK Biobank GWAS pipeline (OpenGWAS ukb-b)"},
+  {"batch": "ukb-d", "description": "Neale lab analysis of UK Biobank phenotypes,  round 2", "dictionary_row": "Neale lab UK Biobank GWAS round 2"},
+  {"batch": "ukb-e", "description": "Pan-ancestry genetic analysis of the UK Biobank performed at the Broad Institute", "dictionary_row": "Pan-UK Biobank"}
+ ],
+ "not_mapped": [
+  {"batch": "bbj-a", "reason": "Biobank Japan disease traits: no dictionary row is this release"},
+  {"batch": "ebi-a", "reason": "imported GWAS Catalog datasets: mapped as the GWAS Catalog accession each identifier carries"},
+  {"batch": "ieu-a", "reason": "curated consortium datasets: mapped per dataset by publication, not by batch"},
+  {"batch": "ieu-b", "reason": "curated consortium datasets: mapped per dataset by publication, not by batch"}
+ ]
+}

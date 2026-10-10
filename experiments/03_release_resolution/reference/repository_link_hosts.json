@@ -1,0 +1,21 @@
+{
+ "what": "the frozen host list and patterns of secondary analysis SA7 of the release-resolution plan (PREREG.md, Other planned analysis): a link's presence only, never whether it resolves, belongs to the authors or holds the analysis",
+ "hosts": [
+  {"host": "github", "pattern": "(?i)\\bgithub\\.com/[A-Za-z0-9_.-]+"},
+  {"host": "gitlab", "pattern": "(?i)\\bgitlab\\.com/[A-Za-z0-9_.-]+"},
+  {"host": "bitbucket", "pattern": "(?i)\\bbitbucket\\.org/[A-Za-z0-9_.-]+"},
+  {"host": "sourceforge", "pattern": "(?i)\\bsourceforge\\.net/[A-Za-z0-9_.-]+"},
+  {"host": "zenodo", "pattern": "(?i)\\bzenodo\\.org/(?:record|records|doi|badge|communities)\\b|\\b10\\.5281/zenodo\\.\\d+"},
+  {"host": "figshare", "pattern": "(?i)\\bfigshare\\.com/[A-Za-z0-9_.-]+|\\b10\\.6084/m9\\.figshare\\.\\d+"},
+  {"host": "osf", "pattern": "(?i)\\bosf\\.io/[A-Za-z0-9]{5}\\b"},
+  {"host": "dryad", "pattern": "(?i)\\bdatadryad\\.org/[A-Za-z0-9_.-]+|\\b10\\.5061/dryad\\.[A-Za-z0-9]+"},
+  {"host": "mendeley_data", "pattern": "(?i)\\bdata\\.mendeley\\.com/[A-Za-z0-9_.-]+|\\b10\\.17632/[A-Za-z0-9]+"},
+  {"host": "code_ocean", "pattern": "(?i)\\bcodeocean\\.com/[A-Za-z0-9_.-]+"},
+  {"host": "harvard_dataverse", "pattern": "(?i)\\bdataverse\\.harvard\\.edu/[A-Za-z0-9_.-]+|\\b10\\.7910/DVN/[A-Za-z0-9]+"},
+  {"host": "software_heritage", "pattern": "(?i)\\bsoftwareheritage\\.org/[A-Za-z0-9_.-]+"}
+ ],
+ "availability_section": {
+  "title": "(?i)data availability|code availability|availability of data|data and code",
+  "sec_type": "data-availability"
+ }
+}

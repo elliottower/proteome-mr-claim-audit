@@ -1,0 +1,23 @@
+{
+ "what": "the frozen patterns of the C1 scanner of the release-resolution plan (PREREG.md, §Study design, C1): explicit accessions, numbered releases and uniquely mapped source identifiers; a match is kept only when it maps to exactly one dictionary row and its unit holds a context term; units of a reference list are not scanned",
+ "accessions": [
+  {"type": "gwas_catalog", "pattern": "\\bGCST\\d{6,}\\b"},
+  {"type": "opengwas", "pattern": "\\b(?:ebi-a|ieu-a|ieu-b|ukb-a|ukb-b|ukb-d|ukb-e|finn-b|bbj-a)-[A-Za-z0-9_.]*[A-Za-z0-9_]"},
+  {"type": "ega", "pattern": "\\bEGA[SD]\\d{11}\\b"},
+  {"type": "dbgap", "pattern": "\\bphs\\d{6}(?:\\.v\\d+\\.p\\d+)?\\b"},
+  {"type": "synapse", "pattern": "\\bsyn\\d{6,9}\\b"}
+ ],
+ "releases": [
+  {"resource": "FinnGen", "pattern": "(?i)\\bFinnGen\\b[^.;\\n]{0,20}?\\b(?:R|round|release|version|freeze|data freeze|DF)\\s*-?\\s*(\\d{1,2})\\b", "row": "FinnGen R{n}"},
+  {"resource": "FinnGen", "pattern": "(?i)\\bfinngen_R(\\d{1,2})\\b", "row": "FinnGen R{n}"},
+  {"resource": "Neale lab", "pattern": "(?i)\\bNeale\\b[^.;\\n]{0,40}?\\bround\\s*-?\\s*(\\d)\\b", "row": "Neale lab UK Biobank GWAS round {n}"},
+  {"resource": "COVID-19 HGI", "pattern": "(?i)\\b(?:COVID-19 HGI|COVID-19 Host Genetics Initiative|COVID19-hg|HGI)\\b[^.;\\n]{0,40}?\\b(?:R|round|release|version|freeze|data freeze)\\s*-?\\s*(\\d{1,2})\\b", "row": "COVID-19 HGI release {n}"},
+  {"resource": "PGC-PTSD", "pattern": "(?i)\\bPGC[- ]?PTSD\\b[^.;\\n]{0,20}?\\bfreeze\\s*-?\\s*(\\d)\\b", "row": "PGC-PTSD freeze {n} (Nievergelt 2019)"}
+ ],
+ "source_identifiers": [
+  {"type": "doi", "pattern": "(?i)\\b10\\.\\d{4,9}/[^\\s\"<>]+"},
+  {"type": "pmid", "pattern": "(?i)\\bPMID:?\\s*(\\d{7,8})\\b"}
+ ],
+ "context": "(?i)\\b(?:data ?sets?|GWAS|genome-wide association|summary[- ](?:statistics|level|data)|pQTLs?|protein quantitative trait|outcomes?)\\b",
+ "draw": {"seed": 20261011, "maximum": 150, "minimum": 50}
+}

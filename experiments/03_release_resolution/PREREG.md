@@ -130,7 +130,10 @@ N/A — no treatment.
 
 Coders and the checker receive, per row: the record, the side, the name as written or `not
 stated`, for an outcome-side row the outcome as the claim writes it, the frozen retrieved files
-of the record, the candidate dictionary rows and the two reference tables. They have no web
+of the record, the candidate dictionary rows, and the accession-table rows of every accession
+the frozen accession patterns find in those files together with the OpenGWAS batch-prefix rows;
+the dictionary definitions are part of the fixed prompt. The counts table is not given to them:
+the count evidence they record is compared with it by script. They have no web
 access and receive nothing else: no other family's assignment, no relation class, no
 aggregate, no Paper 1 code. The author adjudicates and audits under the same blinding and does
 not open H1-R, H2-R or H2b-R classes until every code is committed. Control rows are not
@@ -297,6 +300,32 @@ resource states one; and `duplicate_count`, the number of releases of the resour
 the same case and control counts for the endpoint. A resource with no pinned manifest gives no
 count evidence. A later database manifest never rewrites what a paper used.
 
+Built on 10 October 2026, before the freeze. `scripts/fetch_reference_sources.py` (sha256
+4fc637d9733bcacc25184f6c0f9ae332ebcb66628969bb6db1395a7e80789dbb) stored the 189 documents listed
+in or linked from `reference/reference_table_sources.json` (sha256
+86a971d4c9b921948aa0ea35f9c6a0acdfe5bb1800457df034a2edef48ed0d5f), each manifest from the URL its
+resource's documentation states; `scripts/build_reference_tables.py` (sha256
+4ed52720d8d870f7286d90316f8b77106ff7bec2bfdd6a0d4bad0c4a86fac0b9) wrote the tables, a row only
+where the stored document states the value.
+
+| table | sha256 | rows | from |
+|---|---|---|---|
+| `reference/accession_releases.csv` | 5263df292a20b0762a3383a6a43aae92cbe1496884c3abb205623878b555156e | 11,937 | 5 OpenGWAS batch prefixes, by the batch list's own descriptions (`reference/opengwas_batch_rows.json`); 11,925 GWAS Catalog accessions of 28 publications; 7 OpenGWAS curated datasets of 6 publications |
+| `reference/accession_releases_omitted.csv` | 7264672a4615476d448010b967627a6aec8c41114728a3f20e7bf763f7d100bd | 60 | publications and batches not mapped, with the reason |
+| `reference/release_counts.csv` | b57fa5aaf7d68664973263a984186304ac60fecf8074d5ff4c69c9c79de1b753 | 60,565 | FinnGen R3 to R12 manifests; Neale lab round 2 phenotype summary files (both sexes, female, male; v1 and v2); Pan-UKB phenotype manifest (per ancestry group); UKB-SAIGE and UKB-TOPMed PheWebs; FinnGen R12 meta-analysis portals (totals); OpenGWAS metadata of the MRC-IEU `ukb-b` batch; COVID-19 HGI release 7 results page |
+
+An accession maps only when its publication is the source of exactly one dictionary row and
+every catalog study (or curated OpenGWAS dataset) of that publication states the same sample;
+a publication whose deposits state several samples is omitted, because the deposit's analysis
+cannot be told from the dictionary row without reading the deposit. A count row is written only
+where the manifest states both a case and a control count. No manifest states a canonical
+outcome identifier, so that column is `not_stated` throughout and the endpoint comparison rests
+on the other fields. Neale lab round 1's documented phenotype summary is served as a web page,
+not as the file, to a plain request, so round 1 gives no count evidence; GeneATLAS, the
+consortium releases, the pQTL studies and deCODE publish no per-release count manifest and give
+none. No two releases of one resource hold the same case and control counts for an endpoint
+(`duplicate_count` is 1 in every row).
+
 **Sources.** A source is eligible only when its provenance, version and sha256 are recorded
 and it was obtained by one of these routes:
 
@@ -346,7 +375,16 @@ The two models are Claude Sonnet 5.5 (Anthropic, `claude-sonnet-5-5`), the nomin
 coder, and GPT-6.1 Sol (OpenAI, `gpt-6.1-sol`), the closed-packet checker. Both code every row
 independently, with an identical prompt and identical sources; neither sees the other's answer
 or any Paper 1 code; each is called through its API with no tools and no web access, and the
-model string returned is recorded with every response. The two are never of one family. The prompt of each is named by its sha256 in the frozen plan.
+model string returned is recorded with every response. The two are never of one family. Both receive the same fixed prompt, `prompts/coding_prompt.md`
+(sha256 7f87241f63a7957e1b4bcc79ef7077fe32348f173a95ee8a9aa6180e0da153cd) followed by Paper 1's
+dictionary definitions
+(`experiments/02_claims_meta/outputs/manual_coding/2026-10-03/coders/dictionary_definitions.csv`,
+sha256 57f2c5bcef2b63d2d8526d4950c963a5e92e7d56cb75df215b7bbacff9f11e07), answer in the schema `prompts/output_schema.json` (sha256
+7ee5f69808e6be83db2a1d0c5b584c4100adda1843bfc22ea89d1f507dab18cc), and differ only in the API
+framing of `prompts/api_framing.md` (sha256
+7c6330c9260d205e47505169374bef51fe970da8d578f387fb8141b942effcf9). The prompt is built from the
+rules of this plan and Paper 1's coder instructions v6, with no example drawn from a study
+paper; the abstract-only packets of SA1 use the same prompt.
 
 **What the models read.** Both models receive the whole rendered full text of the record. A
 supplement is given whole where it renders to text under 200,000 characters; a larger one, or
@@ -387,7 +425,12 @@ accepted mapping, and the author's adjudication of every disagreement and audit 
 10% of agreements.
 
 **C1, the positive control.** Built by a frozen mechanical scanner, without reading any
-source by hand: (1) the scanner and its patterns are frozen before retrieval; (2) after
+source by hand: (1) the scanner and its patterns are frozen before retrieval
+(`scripts/source_scanner.py`, sha256
+e4ffc7fe5fbbfeec12b1bbb17271b28393b13b0844bf4f644cbae37b8d3e94ed;
+`reference/c1_scanner_patterns.json`, sha256
+9f9afc247d09119b5a6f7731ab591a60ba5757af7fb97dcfa08051be50088cce, which also holds the seed of
+the draw); (2) after
 retrieval it scans every eligible retrieved source, those of Paper 1 papers outside the scope
 included, for explicit accessions,
 numbered releases and uniquely mapped source identifiers; (3) a match is kept only when it maps
@@ -723,7 +766,9 @@ bitbucket.org, sourceforge.net, zenodo.org and DOIs 10.5281/zenodo, figshare.com
 10.6084/m9.figshare, osf.io, datadryad.org and DOIs 10.5061/dryad, data.mendeley.com and DOIs
 10.17632, codeocean.com, dataverse.harvard.edu and DOIs 10.7910/DVN, softwareheritage.org.
 Matching is case-insensitive on the host or DOI prefix; the list and patterns are frozen with
-this plan. Per paper: any link; any link inside a section whose title contains "data
+this plan in `reference/repository_link_hosts.json` (sha256
+4dfce00ead021e441980b4f4ccd32ca2c9f1985a982932fcefb7393a409a2f18) and run by
+`scripts/source_scanner.py`. Per paper: any link; any link inside a section whose title contains "data
 availability", "code availability", "availability of data" or "data and code" (JATS
 `sec-type` `data-availability` included); by host. Counted per paper by year; papers with no
 eligible source are counted apart. Only a link's presence is recorded, never whether it

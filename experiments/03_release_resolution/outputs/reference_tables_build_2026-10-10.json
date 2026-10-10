@@ -1,0 +1,434 @@
+{
+ "accession_rows": 11937,
+ "accession_rows_by_type": {
+  "opengwas_batch": 5,
+  "gwas_catalog": 11925,
+  "opengwas": 7
+ },
+ "accession_rows_by_dictionary_row": {
+  "AFGen atrial fibrillation (Roselli 2018)": 1,
+  "AGES Reykjavik (Emilsson 2018)": 1,
+  "Atrial fibrillation (Nielsen 2018)": 1,
+  "BCAC breast cancer (Michailidou 2017)": 1,
+  "Dhindsa 2023 UKB-PPP exome (rare variant)": 2941,
+  "EADB (Bellenguez 2022)": 1,
+  "Fenland SomaScan v4 (Pietzner 2020, COVID-19 host proteins)": 106,
+  "Fenland SomaScan v4 (Pietzner 2021)": 3892,
+  "FinnGen R5": 1,
+  "Framingham Heart Study (Yao 2018)": 1,
+  "GIANT + UK Biobank height and BMI (Yengo 2018)": 1,
+  "GLGC (Willer 2013)": 6,
+  "HERMES heart failure (Shah 2020)": 1,
+  "IGAP (Kunkle 2019)": 2,
+  "IGAP stage 1 (Lambert 2013)": 1,
+  "IMPROVE (Folkersen 2017)": 1,
+  "IMSGC multiple sclerosis (2019)": 2,
+  "INTERVAL SomaScan (Sun 2018)": 3283,
+  "Jackson Heart Study (Katz 2022)": 444,
+  "KORA (Suhre 2017)": 1124,
+  "Lothian Birth Cohort 1936 neurology panel (Hillary 2019)": 1,
+  "MRC-IEU UK Biobank GWAS pipeline (OpenGWAS ukb-b)": 1,
+  "NSPHS (Enroth 2014)": 14,
+  "Neale lab UK Biobank GWAS round 1": 1,
+  "Neale lab UK Biobank GWAS round 2": 1,
+  "PGC BIP (Mullins 2021)": 1,
+  "PGC SCZ2 (2014)": 1,
+  "PGC-PTSD freeze 2 (Nievergelt 2019)": 1,
+  "PGC/iPSYCH ADHD (Demontis 2019)": 1,
+  "PGC/iPSYCH/deCODE ADHD (Demontis 2023)": 1,
+  "PRACTICAL/ELLIPSE prostate cancer (Schumacher 2018)": 1,
+  "Pan-UK Biobank": 1,
+  "RA trans-ethnic (Okada 2014)": 1,
+  "SCALLOP CVD-I (Folkersen 2020)": 90,
+  "SLE (Bentham 2015)": 2,
+  "UK Biobank + ICBP blood pressure (Evangelou 2018)": 8
+ },
+ "omitted": [
+  {
+   "resource": "OpenGWAS",
+   "identifier": "bbj-a",
+   "dictionary_rows": "",
+   "reason": "Biobank Japan disease traits: no dictionary row is this release"
+  },
+  {
+   "resource": "OpenGWAS",
+   "identifier": "ebi-a",
+   "dictionary_rows": "",
+   "reason": "imported GWAS Catalog datasets: mapped as the GWAS Catalog accession each identifier carries"
+  },
+  {
+   "resource": "OpenGWAS",
+   "identifier": "ieu-a",
+   "dictionary_rows": "",
+   "reason": "curated consortium datasets: mapped per dataset by publication, not by batch"
+  },
+  {
+   "resource": "OpenGWAS",
+   "identifier": "ieu-b",
+   "dictionary_rows": "",
+   "reason": "curated consortium datasets: mapped per dataset by publication, not by batch"
+  },
+  {
+   "resource": "GWAS Catalog and OpenGWAS",
+   "identifier": "PMID:25673413",
+   "dictionary_rows": "GIANT BMI (Locke 2015)|GIANT BMI European (Locke 2015)",
+   "reason": "the publication is the source of several dictionary rows"
+  },
+  {
+   "resource": "GWAS Catalog and OpenGWAS",
+   "identifier": "PMID:26192919",
+   "dictionary_rows": "IIBDGC European IBD GWAS (Liu 2015, public summary statistics)|IIBDGC trans-ethnic IBD (Liu 2015)",
+   "reason": "the publication is the source of several dictionary rows"
+  },
+  {
+   "resource": "GWAS Catalog",
+   "identifier": "PMID:26343387",
+   "dictionary_rows": "CARDIoGRAMplusC4D 1000 Genomes CAD (Nikpay 2015)",
+   "reason": "catalog studies state 2 different initial samples"
+  },
+  {
+   "resource": "GWAS Catalog",
+   "identifier": "PMID:28067908",
+   "dictionary_rows": "IBD (de Lange 2017)",
+   "reason": "catalog studies state 3 different initial samples"
+  },
+  {
+   "resource": "GWAS Catalog",
+   "identifier": "PMID:28604730",
+   "dictionary_rows": "ILCCO/TRICL OncoArray lung cancer (McKay 2017)",
+   "reason": "catalog studies state 6 different initial samples"
+  },
+  {
+   "resource": "GWAS Catalog and OpenGWAS",
+   "identifier": "PMID:29212778",
+   "dictionary_rows": "CAD UK Biobank GWAS (van der Harst 2018)|UK Biobank + CARDIoGRAMplusC4D CAD (van der Harst 2018)",
+   "reason": "the publication is the source of several dictionary rows"
+  },
+  {
+   "resource": "GWAS Catalog",
+   "identifier": "PMID:29273806",
+   "dictionary_rows": "TAGC asthma (Demenais 2018)",
+   "reason": "catalog studies state 3 different initial samples"
+  },
+  {
+   "resource": "GWAS Catalog",
+   "identifier": "PMID:29531354",
+   "dictionary_rows": "MEGASTROKE (Malik 2018)",
+   "reason": "catalog studies state 10 different initial samples"
+  },
+  {
+   "resource": "GWAS Catalog and OpenGWAS",
+   "identifier": "PMID:29700475",
+   "dictionary_rows": "PGC MDD (Wray 2018)|PGC MDD (Wray 2018) excluding 23andMe",
+   "reason": "the publication is the source of several dictionary rows"
+  },
+  {
+   "resource": "GWAS Catalog",
+   "identifier": "PMID:29892016",
+   "dictionary_rows": "PRACTICAL/ELLIPSE prostate cancer (Schumacher 2018)",
+   "reason": "catalog studies state 7 different initial samples"
+  },
+  {
+   "resource": "GWAS Catalog",
+   "identifier": "PMID:30104761",
+   "dictionary_rows": "UK Biobank SAIGE PheWeb (Zhou et al. 2018)",
+   "reason": "catalog studies state 1394 different initial samples"
+  },
+  {
+   "resource": "GWAS Catalog",
+   "identifier": "PMID:30124842",
+   "dictionary_rows": "GIANT + UK Biobank height and BMI (Yengo 2018)",
+   "reason": "catalog studies state 2 different initial samples"
+  },
+  {
+   "resource": "GWAS Catalog and OpenGWAS",
+   "identifier": "PMID:30297969",
+   "dictionary_rows": "DIAGRAM T2D (Mahajan 2018)|DIAGRAM T2D excluding UK Biobank (Mahajan 2018)",
+   "reason": "the publication is the source of several dictionary rows"
+  },
+  {
+   "resource": "GWAS Catalog",
+   "identifier": "PMID:30349118",
+   "dictionary_rows": "GeneATLAS",
+   "reason": "no catalog study"
+  },
+  {
+   "resource": "GWAS Catalog",
+   "identifier": "PMID:30510241",
+   "dictionary_rows": "GECCO/CORECT/CCFR colorectal cancer (Huyghe 2019)",
+   "reason": "catalog studies state 6 different initial samples"
+  },
+  {
+   "resource": "GWAS Catalog",
+   "identifier": "PMID:30617256",
+   "dictionary_rows": "AD and AD-by-proxy (Jansen 2019)",
+   "reason": "catalog studies state 3 different initial samples"
+  },
+  {
+   "resource": "GWAS Catalog and OpenGWAS",
+   "identifier": "PMID:30718901",
+   "dictionary_rows": "Depression (Howard 2019)|Depression (Howard 2019) excluding 23andMe",
+   "reason": "the publication is the source of several dictionary rows"
+  },
+  {
+   "resource": "GWAS Catalog",
+   "identifier": "PMID:30804558",
+   "dictionary_rows": "iPSYCH-PGC ASD (Grove 2019)",
+   "reason": "catalog studies state 4 different initial samples"
+  },
+  {
+   "resource": "GWAS Catalog",
+   "identifier": "PMID:31152163",
+   "dictionary_rows": "CKDGen eGFR (Wuttke 2019)",
+   "reason": "catalog studies state 9 different initial samples"
+  },
+  {
+   "resource": "GWAS Catalog and OpenGWAS",
+   "identifier": "PMID:31701892",
+   "dictionary_rows": "IPDGC Parkinson disease (Nalls 2019)|IPDGC Parkinson disease (Nalls 2019) excluding 23andMe",
+   "reason": "the publication is the source of several dictionary rows"
+  },
+  {
+   "resource": "GWAS Catalog",
+   "identifier": "PMID:32296059",
+   "dictionary_rows": "UK Biobank + TAGC asthma (Han 2020)",
+   "reason": "catalog studies state 2 different initial samples"
+  },
+  {
+   "resource": "GWAS Catalog and OpenGWAS",
+   "identifier": "PMID:32424353",
+   "dictionary_rows": "BCAC breast cancer intrinsic subtypes, two-stage polytomous model (Zhang 2020)|BCAC breast cancer subtypes (Zhang 2020)|BCAC-CIMBA triple-negative / BRCA1 carrier meta-analysis (Zhang 2020)",
+   "reason": "the publication is the source of several dictionary rows"
+  },
+  {
+   "resource": "GWAS Catalog",
+   "identifier": "PMID:32895551",
+   "dictionary_rows": "Zheng 2020 proteome-wide MR instrument set",
+   "reason": "no catalog study"
+  },
+  {
+   "resource": "GWAS Catalog",
+   "identifier": "PMID:33303764",
+   "dictionary_rows": "MANOLIS (Gilly 2020)",
+   "reason": "catalog studies state 50 different initial samples"
+  },
+  {
+   "resource": "GWAS Catalog",
+   "identifier": "PMID:34002096",
+   "dictionary_rows": "PGC BIP (Mullins 2021)",
+   "reason": "catalog studies state 3 different initial samples"
+  },
+  {
+   "resource": "GWAS Catalog",
+   "identifier": "PMID:34059833",
+   "dictionary_rows": "MAGIC glycemic traits (Chen 2021)",
+   "reason": "catalog studies state 24 different initial samples"
+  },
+  {
+   "resource": "GWAS Catalog",
+   "identifier": "PMID:34237774",
+   "dictionary_rows": "COVID-19 HGI (2021 Nature)",
+   "reason": "catalog studies state 3 different initial samples"
+  },
+  {
+   "resource": "GWAS Catalog and OpenGWAS",
+   "identifier": "PMID:34493870",
+   "dictionary_rows": "AD (Wightman 2021)|AD (Wightman 2021) excluding 23andMe",
+   "reason": "the publication is the source of several dictionary rows"
+  },
+  {
+   "resource": "GWAS Catalog and OpenGWAS",
+   "identifier": "PMID:34594039",
+   "dictionary_rows": "Sakaue 2021 BBJ (220 traits)|Sakaue 2021 European meta-analysis (UKB + FinnGen R3)|Sakaue 2021 cross-population meta-analysis (BBJ + UKB + FinnGen R3)",
+   "reason": "the publication is the source of several dictionary rows"
+  },
+  {
+   "resource": "GWAS Catalog",
+   "identifier": "PMID:34857772",
+   "dictionary_rows": "MANOLIS and Pomak neurology (Png 2021)",
+   "reason": "catalog studies state 4 different initial samples"
+  },
+  {
+   "resource": "GWAS Catalog",
+   "identifier": "PMID:34857953",
+   "dictionary_rows": "deCODE SomaScan v4 (Ferkingstad 2021)",
+   "reason": "no catalog study"
+  },
+  {
+   "resource": "GWAS Catalog and OpenGWAS",
+   "identifier": "PMID:34873335",
+   "dictionary_rows": "ALS (van Rheenen 2021)|ALS European ancestry (van Rheenen 2021)",
+   "reason": "the publication is the source of several dictionary rows"
+  },
+  {
+   "resource": "GWAS Catalog",
+   "identifier": "PMID:34887591",
+   "dictionary_rows": "GLGC (Graham 2021)",
+   "reason": "catalog studies state 6 different initial samples"
+  },
+  {
+   "resource": "GWAS Catalog",
+   "identifier": "PMID:35078996",
+   "dictionary_rows": "AGES Reykjavik (Gudjonsson 2022)",
+   "reason": "catalog studies state 54 different initial samples"
+  },
+  {
+   "resource": "GWAS Catalog and OpenGWAS",
+   "identifier": "PMID:35396580",
+   "dictionary_rows": "PGC SCZ3 (Trubetskoy 2022)|PGC SCZ3 extended (Trubetskoy 2022)",
+   "reason": "the publication is the source of several dictionary rows"
+  },
+  {
+   "resource": "GWAS Catalog and OpenGWAS",
+   "identifier": "PMID:35501419",
+   "dictionary_rows": "ARIC African American (Zhang 2022)|ARIC European American (Zhang 2022)",
+   "reason": "the publication is the source of several dictionary rows"
+  },
+  {
+   "resource": "GWAS Catalog and OpenGWAS",
+   "identifier": "PMID:35551307",
+   "dictionary_rows": "DIAMANTE T2D (Mahajan 2022)|DIAMANTE T2D African (Mahajan 2022)|DIAMANTE T2D East Asian (Mahajan 2022)|DIAMANTE T2D European (Mahajan 2022)|DIAMANTE T2D Hispanic (Mahajan 2022)|DIAMANTE T2D South Asian (Mahajan 2022)",
+   "reason": "the publication is the source of several dictionary rows"
+  },
+  {
+   "resource": "GWAS Catalog",
+   "identifier": "PMID:36180795",
+   "dictionary_rows": "GIGASTROKE (Mishra 2022)",
+   "reason": "catalog studies state 30 different initial samples"
+  },
+  {
+   "resource": "GWAS Catalog and OpenGWAS",
+   "identifier": "PMID:36224396",
+   "dictionary_rows": "GIANT height (Yengo 2022)|GIANT height European excluding 23andMe (Yengo 2022)|GIANT height excluding 23andMe (Yengo 2022)",
+   "reason": "the publication is the source of several dictionary rows"
+  },
+  {
+   "resource": "GWAS Catalog and OpenGWAS",
+   "identifier": "PMID:36474045",
+   "dictionary_rows": "CAD GWAS (Aragam 2022)|CAD GWAS cross-ancestry with Biobank Japan (Aragam 2022)",
+   "reason": "the publication is the source of several dictionary rows"
+  },
+  {
+   "resource": "GWAS Catalog",
+   "identifier": "PMID:36539618",
+   "dictionary_rows": "Colorectal cancer (Fernandez-Rozadilla 2023)",
+   "reason": "catalog studies state 4 different initial samples"
+  },
+  {
+   "resource": "GWAS Catalog and OpenGWAS",
+   "identifier": "PMID:36653562",
+   "dictionary_rows": "FinnGen R10|FinnGen R11|FinnGen R12|FinnGen R3|FinnGen R4|FinnGen R5|FinnGen R6|FinnGen R7|FinnGen R8|FinnGen R9",
+   "reason": "the publication is the source of several dictionary rows"
+  },
+  {
+   "resource": "GWAS Catalog",
+   "identifier": "PMID:36777996",
+   "dictionary_rows": "GBMI asthma (Tsuo 2022)",
+   "reason": "catalog studies state 75 different initial samples"
+  },
+  {
+   "resource": "GWAS Catalog",
+   "identifier": "PMID:36778051",
+   "dictionary_rows": "GBMI asthma (Tsuo 2022)",
+   "reason": "catalog studies state 3 different initial samples"
+  },
+  {
+   "resource": "GWAS Catalog",
+   "identifier": "PMID:36797296",
+   "dictionary_rows": "Guangzhou Nutrition and Health Study (Xu 2023)",
+   "reason": "no catalog study"
+  },
+  {
+   "resource": "GWAS Catalog",
+   "identifier": "PMID:37563310",
+   "dictionary_rows": "SCALLOP Inflammation (Zhao 2023)",
+   "reason": "catalog studies state 15 different initial samples"
+  },
+  {
+   "resource": "GWAS Catalog",
+   "identifier": "PMID:37674002",
+   "dictionary_rows": "COVID-19 HGI release 7",
+   "reason": "no catalog study"
+  },
+  {
+   "resource": "GWAS Catalog and OpenGWAS",
+   "identifier": "PMID:37794186",
+   "dictionary_rows": "UKB-PPP ancestry-specific (non-European)|UKB-PPP discovery|UKB-PPP full cohort (combined)|UKB-PPP replication",
+   "reason": "the publication is the source of several dictionary rows"
+  },
+  {
+   "resource": "GWAS Catalog and OpenGWAS",
+   "identifier": "PMID:37794188",
+   "dictionary_rows": "Eldjarn 2023 UKB Olink (UKB-BI / UKB-SA / UKB-AF)|deCODE SomaScan v4 (Eldjarn 2023 update)",
+   "reason": "the publication is the source of several dictionary rows"
+  },
+  {
+   "resource": "GWAS Catalog",
+   "identifier": "PMID:42097137",
+   "dictionary_rows": "SCALLOP multi-cohort meta-analysis (Koprulu 2026)",
+   "reason": "catalog studies state 665 different initial samples"
+  },
+  {
+   "resource": "OpenGWAS",
+   "identifier": "PMID:24097068",
+   "dictionary_rows": "GLGC (Willer 2013)",
+   "reason": "curated datasets state different sample sizes or populations"
+  },
+  {
+   "resource": "OpenGWAS",
+   "identifier": "PMID:24162737",
+   "dictionary_rows": "IGAP stage 1 (Lambert 2013)",
+   "reason": "curated datasets state different sample sizes or populations"
+  },
+  {
+   "resource": "OpenGWAS",
+   "identifier": "PMID:24390342",
+   "dictionary_rows": "RA trans-ethnic (Okada 2014)",
+   "reason": "curated datasets state different sample sizes or populations"
+  },
+  {
+   "resource": "OpenGWAS",
+   "identifier": "PMID:25056061",
+   "dictionary_rows": "PGC SCZ2 (2014)",
+   "reason": "curated datasets state different sample sizes or populations"
+  },
+  {
+   "resource": "OpenGWAS",
+   "identifier": "PMID:26343387",
+   "dictionary_rows": "CARDIoGRAMplusC4D 1000 Genomes CAD (Nikpay 2015)",
+   "reason": "curated datasets state different sample sizes or populations"
+  },
+  {
+   "resource": "OpenGWAS",
+   "identifier": "PMID:29059683",
+   "dictionary_rows": "BCAC breast cancer (Michailidou 2017)",
+   "reason": "curated datasets state different sample sizes or populations"
+  }
+ ],
+ "count_rows": 60565,
+ "count_rows_by_dictionary_row": {
+  "COVID-19 HGI release 7": 19,
+  "FinnGen R10": 2408,
+  "FinnGen R11": 2440,
+  "FinnGen R12": 2469,
+  "FinnGen R12 + MVP + UK Biobank meta-analysis": 330,
+  "FinnGen R12 + UK Biobank meta-analysis": 873,
+  "FinnGen R3": 1801,
+  "FinnGen R4": 2264,
+  "FinnGen R5": 2803,
+  "FinnGen R6": 2861,
+  "FinnGen R7": 3095,
+  "FinnGen R8": 2202,
+  "FinnGen R9": 2272,
+  "MRC-IEU UK Biobank GWAS pipeline (OpenGWAS ukb-b)": 1844,
+  "Neale lab UK Biobank GWAS round 2": 17866,
+  "Pan-UK Biobank": 12196,
+  "UK Biobank SAIGE PheWeb (Zhou et al. 2018)": 1403,
+  "UK Biobank TOPMed-imputed PheWeb (Lee/Michigan)": 1419
+ },
+ "count_rows_with_duplicate_count_above_1": 0,
+ "stored_files_not_the_documented_manifest": [
+  "neale_r1_phenosummary"
+ ],
+ "raw_files": 189
+}
