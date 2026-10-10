@@ -242,16 +242,22 @@ that meta-analysis row before family relations are computed. Canonicalization is
 when components are missing, additional components are present, versions are unresolved, or
 more than one meta-analysis row is compatible. It harmonizes two encodings of one registered
 analysis and does not redefine `known_identical`. Expansions are read only from the frozen table
-`reference/meta_analysis_expansions.csv` (columns: meta-analysis row; component dictionary
-rows; endpoint; ancestry; analysis version; component roles; provenance, access date, sha256).
+`reference/meta_analysis_expansions_v2.csv`, one line per component, in the columns
+`meta_analysis_row`, `component_dictionary_row`, `endpoint`, `ancestry`, `analysis_version`,
+`component_role`, `provenance_url`, `access_date` and `documents_sha256`.
 The table is built before the freeze, and every one of the 14 meta-analysis and combination
 rows of Paper 1's dictionary is decided in it: a row is expanded only when every contributing
 release, endpoint, ancestry, version and role is explicitly documented in the resource's own
 documentation and every contributing release is a dictionary row; nothing is inferred from
 cohort names, dates or counts. Omitted rows are listed with their reason in
-`reference/meta_analysis_expansions_omitted.csv`, frozen with the table. Built on 10 October
-2026 (`scripts/meta_analysis_expansions.py`, decisions in
-`reference/meta_analysis_expansion_decisions_v2.json`): none of the 14 rows is expanded. Three
+`reference/meta_analysis_expansions_omitted_v2.csv`, frozen with the table, each with its basis:
+a decision resting on the resource's documentation (`external_documentation`) carries the URL,
+access date and sha256 of every document it rests on; a decision resting on the frozen
+dictionary alone (`frozen_dictionary`) cites no document; every row carries the dictionary's
+version and sha256. Built on 10 October 2026 (`scripts/meta_analysis_expansions_v2.py`,
+decisions in `reference/meta_analysis_expansion_decisions_v5.json`, the 9 documents stored by
+script under an ignored folder): none of the 14 rows is expanded; 11 omissions rest on
+documentation and 3 on the dictionary. Three
 are single-study releases with no component releases; ten have a contributing release that is
 not a dictionary row (an author's own UK Biobank analysis, the Million Veteran Program, CIMBA,
 SCALLOP cohorts, the CARDIoGRAMplusC4D Metabochip meta-analysis); in one (FinnGen R12 with UK
@@ -396,7 +402,7 @@ are a separate implementation check of the mapping and the software: they never 
 source-scanned denominator, never count toward its minimum of 50, and are reported apart.
 
 **Order.** Reference tables and the scanner pinned; plan frozen and registered; sources retrieved and frozen; supplements
-cut where needed; control set and C2 sample frozen; rows coded and checked; C2 computed and
+cut where needed; cost estimate written and approved; control set and C2 sample frozen; rows coded and checked; C2 computed and
 acted on; codes committed; C1 computed and logged; registry assembled; estimands computed.
 
 ## Randomization
@@ -411,6 +417,12 @@ Modal with checkpoints inside the loop and resumes from them. Every retrieved fi
 with its route, URL, date and sha256 under an ignored path and listed in a withheld-files
 record; no third-party text is committed. A paper whose source cannot be retrieved is never
 dropped: its rows are unresolved and counted by reason.
+
+**Cost approval.** After retrieval and before any model request, the pipeline writes to a file
+the measured character counts of every full text and supplement and the resulting cost estimate
+per model, and stops. Coding starts only after the author approves that estimate, and the
+approval is logged with `prereg log`. The author accepts a total of 30 to 100 US dollars; an
+estimate above 100 US dollars needs his explicit approval.
 
 **Tooling reused from Paper 1.** The supplement cutter, the pages the author marks and the
 readers of his marks are new versioned copies of Paper 1's tools, tested and sealed before

@@ -1,0 +1,155 @@
+{
+ "what": "the decision for every meta-analysis or combination row of Paper 1's dictionary, under the rule of the release-resolution plan: a row is expanded only when every contributing release, endpoint, ancestry, version and role is explicitly documented and every contributing release is a dictionary row; nothing is inferred from cohort names, dates or counts; second version: one reason corrected after the cited document was read, no decision changed; third version: each decision states its basis and every decision resting on documentation cites the documents it rests on, which are fetched and pinned; no decision and no reason changed; fourth version: Jansen 2019 is cited through NCBI efetch, because Europe PMC returns no open-access full text for it; nothing else changed",
+ "dictionary": {
+  "path": "experiments/02_claims_meta/dataset_dictionary.csv",
+  "version": "Paper 1 dataset dictionary, 121 rows, as frozen with Paper 1's plan at commit 82fb024ef0ac",
+  "sha256": "f30dda8e00f8bbc6c43e31e80b38935c7d4f0d3916f33b2e776cabc14fb0d39c"
+ },
+ "documents": {
+  "evangelou_2018_ncbi_efetch": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=6284793",
+  "finngen_r12_meta_analysis": "https://finngen.gitbook.io/documentation/r12/methods/meta-analysis",
+  "han_2020_epmc_xml": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7160128/fullTextXML",
+  "jansen_2019_ncbi_efetch": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=6836675",
+  "koprulu_2026_epmc_xml": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13343581/fullTextXML",
+  "sakaue_2021_ncbi_efetch": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=12208603",
+  "van_der_harst_2018_epmc_xml": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5805277/fullTextXML",
+  "yengo_2018_ncbi_efetch": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=6488973",
+  "zhang_2020_epmc_xml": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7808397/fullTextXML"
+ },
+ "rows": [
+  {
+   "name": "UKB-PPP full cohort (combined)",
+   "decision": "omit",
+   "reason_category": "single_study_release",
+   "reason": "one study's own analysis of its own participants; it is itself a release and has no component releases among the dictionary rows",
+   "basis": "frozen_dictionary",
+   "documents": []
+  },
+  {
+   "name": "MANOLIS and Pomak neurology (Png 2021)",
+   "decision": "omit",
+   "reason_category": "single_study_release",
+   "reason": "one study's own analysis of two cohorts; it is itself a release and has no component releases among the dictionary rows",
+   "basis": "frozen_dictionary",
+   "documents": []
+  },
+  {
+   "name": "Guangzhou Nutrition and Health Study (Xu 2023)",
+   "decision": "omit",
+   "reason_category": "single_study_release",
+   "reason": "a single-cohort release matched by the word 'and' in its name; no component releases",
+   "basis": "frozen_dictionary",
+   "documents": []
+  },
+  {
+   "name": "SCALLOP multi-cohort meta-analysis (Koprulu 2026)",
+   "decision": "omit",
+   "reason_category": "component_without_dictionary_row",
+   "reason": "the contributing SCALLOP cohorts' summary statistics are not dictionary releases, and the dictionary entry does not name the UK Biobank release that contributed",
+   "basis": "external_documentation",
+   "documents": [
+    "koprulu_2026_epmc_xml"
+   ]
+  },
+  {
+   "name": "UK Biobank + CARDIoGRAMplusC4D CAD (van der Harst 2018)",
+   "decision": "omit",
+   "reason_category": "component_without_dictionary_row",
+   "reason": "the overall meta-analysis combines the UK Biobank GWAS and the CARDIoGRAMplusC4D 1000 Genomes meta-analysis, which are dictionary rows, with the CARDIoGRAMplusC4D Metabochip meta-analysis, which is not a dictionary release",
+   "basis": "external_documentation",
+   "documents": [
+    "van_der_harst_2018_epmc_xml"
+   ]
+  },
+  {
+   "name": "AD and AD-by-proxy (Jansen 2019)",
+   "decision": "omit",
+   "reason_category": "component_without_dictionary_row",
+   "reason": "the UK Biobank by-proxy GWAS is the authors' own analysis, and the case-control consortia that contributed are not dictionary releases",
+   "basis": "external_documentation",
+   "documents": [
+    "jansen_2019_ncbi_efetch"
+   ]
+  },
+  {
+   "name": "GIANT + UK Biobank height and BMI (Yengo 2018)",
+   "decision": "omit",
+   "reason_category": "component_without_dictionary_row",
+   "reason": "the UK Biobank GWAS is the authors' own analysis, not a dictionary release",
+   "basis": "external_documentation",
+   "documents": [
+    "yengo_2018_ncbi_efetch"
+   ]
+  },
+  {
+   "name": "UK Biobank + ICBP blood pressure (Evangelou 2018)",
+   "decision": "omit",
+   "reason_category": "component_without_dictionary_row",
+   "reason": "the UK Biobank GWAS is the authors' own analysis and the ICBP stage is not a dictionary release",
+   "basis": "external_documentation",
+   "documents": [
+    "evangelou_2018_ncbi_efetch"
+   ]
+  },
+  {
+   "name": "UK Biobank + TAGC asthma (Han 2020)",
+   "decision": "omit",
+   "reason_category": "component_without_dictionary_row",
+   "reason": "the UK Biobank GWAS is the authors' own analysis, not a dictionary release",
+   "basis": "external_documentation",
+   "documents": [
+    "han_2020_epmc_xml"
+   ]
+  },
+  {
+   "name": "Sakaue 2021 European meta-analysis (UKB + FinnGen R3)",
+   "decision": "omit",
+   "reason_category": "component_without_dictionary_row",
+   "reason": "the UK Biobank component is the authors' own harmonized analysis, not a dictionary release",
+   "basis": "external_documentation",
+   "documents": [
+    "sakaue_2021_ncbi_efetch"
+   ]
+  },
+  {
+   "name": "Sakaue 2021 cross-population meta-analysis (BBJ + UKB + FinnGen R3)",
+   "decision": "omit",
+   "reason_category": "component_without_dictionary_row",
+   "reason": "the UK Biobank component is the authors' own harmonized analysis, not a dictionary release",
+   "basis": "external_documentation",
+   "documents": [
+    "sakaue_2021_ncbi_efetch"
+   ]
+  },
+  {
+   "name": "FinnGen R12 + UK Biobank meta-analysis",
+   "decision": "omit",
+   "reason_category": "composition_endpoint_dependent",
+   "reason": "the resource documents the European subset of pan-UKBB as the UK Biobank component, but states that for a subset of endpoints the UK Biobank side was redefined by FinnGen, which is not a dictionary release; which endpoints is given only in release mapping files, not in the documentation, so the composition is not documented for every endpoint",
+   "basis": "external_documentation",
+   "documents": [
+    "finngen_r12_meta_analysis"
+   ]
+  },
+  {
+   "name": "FinnGen R12 + MVP + UK Biobank meta-analysis",
+   "decision": "omit",
+   "reason_category": "component_without_dictionary_row",
+   "reason": "the Million Veteran Program summary statistics are not a dictionary release, and the documentation admits imperfectly matching endpoints",
+   "basis": "external_documentation",
+   "documents": [
+    "finngen_r12_meta_analysis"
+   ]
+  },
+  {
+   "name": "BCAC-CIMBA triple-negative / BRCA1 carrier meta-analysis (Zhang 2020)",
+   "decision": "omit",
+   "reason_category": "component_without_dictionary_row",
+   "reason": "the CIMBA BRCA1-carrier analysis is not a dictionary release",
+   "basis": "external_documentation",
+   "documents": [
+    "zhang_2020_epmc_xml"
+   ]
+  }
+ ]
+}
