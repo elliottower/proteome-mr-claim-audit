@@ -18,8 +18,11 @@ dictionary, set-valued dataset mapping, family datasets, dataset relation, relea
 `known_identical`, `known_not_identical`, `known_overlapping`, `known_not_overlapping`,
 `unresolved`, the bounds LB, UB, LB_b and UB_b, and the threshold of one half (§Research
 questions, §Measured variables, §Indices and §Inference criteria of that plan). Four rules are
-added to feed those definitions and are marked **added rule** where they stand. Where this
-file is silent, Paper 1's plan governs.
+added to feed those definitions and are marked **added rule** where they stand. H2-R and H2b-R
+reuse Paper 1's mathematical relation definitions but change their operational inputs through
+the four prospectively registered full-text coding rules: they are augmented full-text coding
+estimands, not Paper 1 rerun on longer documents. Where this file is silent, Paper 1's plan
+governs.
 
 ## Research questions or hypotheses
 
@@ -37,13 +40,17 @@ resolution.
 **H1-R.** Among the same pairs, the proportion whose `independent` edges all join families of
 the same direction, under the same resolution; an estimate without a verdict, as H1 is.
 
-**C1.** The coding pipeline recovers the release of control mentions whose release follows
-mechanically from a hard identifier (positive control).
+**C1.** The coding pipeline extracts a hard identifier that a source states and maps it to the
+dictionary row it denotes (positive control of identifier extraction and mapping; it does not
+test attribution of a dataset to the right analysis).
 
-**C2.** The mechanical cut of sources into passages loses no release statement.
+**C2.** The mechanical cut of supplements that cannot be rendered whole loses no decisive
+release statement.
 
 H2-R carries the design. C1 gates it: without C1, a rise in resolved pairs is consistent with a
-pipeline that assigns releases wrongly. H2-R, H2b-R and H1-R are follow-up estimands defined
+pipeline that misreads or mis-maps the identifiers it finds. Attribution to the right analysis
+rests on the two independent models, the gate and the author's adjudication and audit, not on
+C1. H2-R, H2b-R and H1-R are follow-up estimands defined
 after Paper 1's results were seen.
 
 Two registered outcomes would strengthen the papers under examination. A contradicted H2-R
@@ -74,12 +81,15 @@ text there not flagged open access, 66 are open access by OpenAlex only, 37 are 
 returned no status; Europe PMC lists supplementary files for 141.
 
 The author and the coding agents have read passages of 242 full texts during the manual coding
-of Paper 1, and the 197 codes that resulted. One external review of a first draft of this plan
-has been read; it changed the rules below.
+of Paper 1, and the 197 codes that resulted. Two external reviews of earlier drafts of this plan
+have been read; they changed the rules below.
 
-A calibration to choose the two models and to measure the passage cutter is planned on 24
-papers outside the scope (§Study design); it has not been run. Its counts are written here
-before the freeze.
+The two models were chosen by the author on cost and family, without a calibration test of
+candidate models. The paper therefore cannot claim that the models were chosen on measured
+performance against a reading of whole sources, and cannot report a rate of false
+identification on mentions that are not identifiable measured before the stage; the error it
+reports is the error found in the author's audit of agreements and in C1, which bounds errors
+among accepted codes and says nothing about models not used.
 
 Three files of one record (PPR989506) were downloaded by the author from an open page and are
 stored unread. No full text has been read for this stage, no supplement has been fetched by a
@@ -175,6 +185,13 @@ Count evidence confirms a decisive row, contradicts it, narrows a candidate set,
 count-inferred sensitivity analyses; it never creates a release identity in the primary
 analysis.
 
+**Abstract evidence.** Abstract evidence is available for every included record and is always
+evaluated under D1 and D2, by the same frozen rules as the full text. Failure to retrieve an
+eligible full text or supplement prevents refinement or confirmation but does not erase a
+release decisively identified from the abstract. A row is `no_source` only when neither the
+abstract nor an eligible retrieved source supplies decisive evidence. Paper 1's accepted manual
+codes are not inherited: the rules are applied afresh.
+
 **Abstract against full text**, for a name the abstract already resolves or states:
 
 | situation | result | transition recorded |
@@ -216,17 +233,33 @@ code into that union, and none changes a definition:
 - **Added rule 4.** Only releases with role `primary` or `meta_analysis_component` enter the
   family's side; `replication` and `sensitivity` releases are recorded and do not enter.
 
-A meta-analysis coded to its components and the same meta-analysis coded elsewhere to its
-dictionary row are different release sets under Paper 1's definition and are not
-`known_identical`; such pairs are counted (`meta_analysis_row_against_components`). The
-dictionary is Paper 1's and is not extended: a dataset with no row is
+**Meta-analysis canonicalization.** When a set of component releases exactly equals the
+frozen, exhaustive component expansion of one and only one dictionary meta-analysis row,
+matching endpoint, ancestry, analysis version and component roles, the set is canonicalized to
+that meta-analysis row before family relations are computed. Canonicalization is prohibited
+when components are missing, additional components are present, versions are unresolved, or
+more than one meta-analysis row is compatible. It harmonizes two encodings of one registered
+analysis and does not redefine `known_identical`. Expansions are read only from the frozen table
+`reference/meta_analysis_expansions.csv` (columns: meta-analysis row; component dictionary
+rows; endpoint; ancestry; analysis version; component roles; provenance, access date, sha256).
+Paper 1's dictionary expands its 14 meta-analysis and combination rows into participant cohorts
+(`verification/dataset_components.csv`), not into dictionary releases, so no release-level
+expansion exists today. Until a row of that table is built and frozen, a family side coded to a
+meta-analysis row and another coded to a set of components of it are
+`representation_unresolved` for that comparison, which enters the bounds as `unresolved`,
+never as `known_not_identical`. The pairs affected by canonicalization and those left
+`representation_unresolved` are counted, and a sensitivity analysis runs without
+canonicalization. The dictionary is Paper 1's and is not extended: a dataset with no row is
 `dataset_absent_from_dictionary`.
 
-**Endpoint identity for count evidence.** Counts support a release only for the identical
-endpoint. Two endpoints are identical when all of these agree, and a field the source does not
-state is a mismatch: disease or trait against subtype; incident against prevalent; sex; ancestry;
-case definition (the resource's endpoint code where it has one); quantitative against binary;
-single cohort against meta-analysis.
+**Endpoint identity for count evidence.** Each of these fields is compared between the source
+and the reference table: disease or trait against subtype; incident against prevalent; sex;
+ancestry; case definition (the resource's endpoint code where it has one); quantitative against
+binary; single cohort against meta-analysis. A field is `match` when both state it and agree,
+`conflict` when both state it and disagree, and `unknown` when at least one does not state it.
+Count evidence with any `conflict` supports nothing. Count evidence with an `unknown` field
+enters only the compatible count sensitivity analysis and never confirms or contradicts a D1 or
+D2 mapping; only count evidence whose every field is `match` may confirm or contradict one.
 
 **Reference tables.** `reference/accession_releases.csv` and `reference/release_counts.csv`
 are built from the resources' own per-release manifests and committed, with their sha256,
@@ -281,75 +314,50 @@ passes. Two or more substantive errors in the audit (a wrong row, a wrong role o
 attribution state) escalate to the author's review of every agreed row. Every initial answer
 and every changed decision is kept.
 
-The first coder and the closed-packet checker are the two models the calibration below
-selects, each called through its API with no tools and no web access, the model string
-returned recorded with every response (open choice 1 lists the candidates and their cost).
-The first coder is never a Claude model when the checker is one, and the two are never of one
-family.
+The two models are Claude Sonnet 5.5 (Anthropic, `claude-sonnet-5-5`), the nominal first
+coder, and GPT-6.1 Sol (OpenAI, `gpt-6.1-sol`), the closed-packet checker. Both code every row
+independently, with an identical prompt and identical sources; neither sees the other's answer
+or any Paper 1 code; each is called through its API with no tools and no web access, and the
+model string returned is recorded with every response. The two are never of one family. The prompt of each is named by its sha256 in the frozen plan.
 
-**What the models read (open choice 2; one option is deleted before the freeze).**
+**What the models read.** Both models receive the whole rendered full text of the record. A
+supplement is given whole where it renders to text under 200,000 characters; a larger one, or
+a workbook of more than 20 sheets, is cut mechanically: every sheet or table name, the header
+rows, and every row that holds a dictionary term (Paper 1's term rule), an accession pattern or
+a release pattern, with its header.
 
-| option | full text | supplements |
-|---|---|---|
-| passages | mechanically cut passages | mechanically cut rows |
-| whole text | the whole rendered full text | mechanically cut rows |
+**C2, cut-supplement retention.** A seeded sample of 30 papers with a cut supplement (all of
+them if fewer) is given to the checker a second time with each cut supplement whole, in a
+separate pass. A miss is a row for which that pass finds decisive evidence (D1 or D2, gate
+passed) in the whole supplement that the cut does not hold; a miss is verified by the gate
+before it counts.
 
-**Passage rule**, applied by a sealed script to every source, the same for both models. From
-a full text: every section whose title matches methods, materials, data, statistical analysis,
-study population, GWAS, Mendelian randomization, instrument, code or data availability,
-acknowledgement or funding; every table and its caption; and, anywhere else, every sentence
-that holds a term of the dictionary (Paper 1's term rule), an accession pattern, a release
-pattern or a count with "cases" or "controls", with one sentence either side. From a
-supplement: every sheet or table name; the header rows; and every row that holds a dictionary
-term, an accession pattern or a release pattern, with its header. The reference entries a
-passage cites are attached as in Paper 1.
+**Model choice.** The two models are named without a model-selection calibration: no test of
+candidate models against the author's reading of whole sources is run before the freeze. The
+design relies instead on the mechanical control C1, the supplement check C2, the gate on every
+accepted mapping, and the author's adjudication of every disagreement and audit of a seeded
+10% of agreements.
 
-**C2, cutter retention.** A seeded sample of 30 papers with a full text (and, of those, every
-supplement) is also read whole by the first coder in a separate pass. A miss is a row for
-which the whole-text pass finds decisive evidence (D1 or D2, gate passed) that the passages do
-not hold. Under option `whole text` the check concerns supplements only.
+**C1, the positive control.** Built by a frozen mechanical scanner, without reading any
+source by hand: (1) the scanner and its patterns are frozen before retrieval; (2) after
+retrieval it scans every eligible retrieved source, those of Paper 1 papers outside the scope
+included, for explicit accessions,
+numbered releases and uniquely mapped source identifiers; (3) a match is kept only when it maps
+mechanically to exactly one dictionary row; (4) it must stand with enough local context to
+establish a dataset mention of a side (a dataset, GWAS, summary-statistics, pQTL or outcome
+term in the same sentence or table row), with no manual confirmation before coding; (5) the
+selected controls, their expected rows and the selection log are frozen before either model
+runs, up to 150 by seeded draw; (6) controls are mixed with study rows and not marked; a
+control coded to another row gets a blinded mechanical review (does the frozen source hold a
+second hard identifier for the same side and estimate), and a contradiction the review
+explains by the source is reported apart and still counts. A control from a paper outside the
+scope is a control-only row and enters no index. If fewer than 50 controls result, deterministic
+control packets are built from the pinned resource manifests to reach 50, reported apart from
+the scanned controls because their language is easier than that of papers.
 
-**Calibration before the freeze (development step; not yet run).** The two models are chosen
-by a calibration that the author checks, on papers of Paper 1's corpus outside the 266 papers
-behind any repeated pair, so that no study row is read before the freeze.
-
-| element | rule |
-|---|---|
-| papers | a seeded draw of 24 eligible families' papers outside the scope, 6 in each stratum: Europe PMC XML with a listed supplement; Europe PMC XML without; open-access PDF with a supplement; open-access PDF without; giving about 40 to 60 dataset mentions |
-| use | excluded from every index of this stage and never used as positive controls |
-| truth | the author marks each mention from the cut passages on a page like the check pages of Paper 1: release stated, accession, citation, not identifiable, and the dictionary row where one is identifiable; blind to every model's answer. A mention with a hard identifier also gets its mechanically derived release, and the two are compared |
-| candidates | GPT-6.1 Sol, Claude Sonnet 5.5, Claude Fable 5.1, and "Astra" if its vendor and model identifier are established; each codes the same passages with the same prompt |
-| per model | recovery (identifiable mentions coded to the author's row); contradictions (identifiable mentions coded to another row); false identifications (not-identifiable mentions coded to a row) |
-| exclusion | a model with more than 1 false identification, or more than 1 contradiction, is out |
-| selection | among the models left, the two with the highest recovery that are of different families; a tie is broken by lower cost; the one with the higher recovery is the first coder |
-| no pair | if fewer than two families are left, nothing is frozen: the prompt or the passage rule is revised, a new sample is drawn with a new seed from papers not yet used, and the calibration is run again; every run is logged |
-| cutter | each candidate also reads the 24 papers whole in a separate pass; a deciding sentence it proposes that is not in the passages is shown to the author, who confirms or rejects it; with the mechanical scan for hard identifiers, this gives the mentions identifiable from the whole source; the cutter passes when at least 0.95 of them have their deciding sentence in the passages |
-| cutter fails | the passage rule is revised and the calibration repeated on a new sample, or the reading option `whole text` is taken |
-
-The calibration, its counts per model and the cutter's share are stated in §Foreknowledge
-before the freeze, and the frozen plan names the two chosen models, their identifiers and the
-sha256 of the prompt each receives. Retrieval for the calibration papers follows the source
-routes below and is logged; it touches no paper of the scope.
-
-**C1, the positive control.** Control mentions are those with a hard identifier: an explicit
-release number, a repository accession, an explicitly attributed source DOI that maps to one
-analysis, or a release-specific label. Their expected release is derived by script from the
-identifier and the resource manifest, never from Paper 1's manual codes. The set is frozen
-before coding from three pools, in this order, until it holds 100 or the pools are exhausted:
-(a) mentions of the scope whose name as written holds a release number or accession; (b) the
-same among registry mentions outside repeated pairs and outside the calibration papers, coded
-as control-only rows that enter no index; (c) mentions whose pinned sentence in Paper 1's citations folder holds a release number
-or accession found by the frozen pattern, the expected row derived from that identifier alone.
-Control rows are mixed with study rows and not marked. A control coded to another row is a
-contradiction and gets a blinded mechanical review (does the frozen source hold a second hard
-identifier for the same side and estimate); a contradiction the review explains by the source
-is reported apart and still counts.
-
-**Order.** Reference tables pinned; calibration run and checked by the author; models and
-reading option fixed; plan frozen and
-registered; sources retrieved and frozen; passages cut; control set and C2 sample frozen; rows
-coded and checked; C2 computed and acted on; codes committed; C1 computed and logged; registry
-assembled; estimands computed.
+**Order.** Reference tables and the scanner pinned; plan frozen and registered; sources retrieved and frozen; supplements
+cut where needed; control set and C2 sample frozen; rows coded and checked; C2 computed and
+acted on; codes committed; C1 computed and logged; registry assembled; estimands computed.
 
 ## Randomization
 
@@ -364,33 +372,33 @@ with its route, URL, date and sha256 under an ignored path and listed in a withh
 record; no third-party text is committed. A paper whose source cannot be retrieved is never
 dropped: its rows are unresolved and counted by reason.
 
-**Tooling reused from Paper 1.** The passage cutter, the pages the author marks and the
+**Tooling reused from Paper 1.** The supplement cutter, the pages the author marks and the
 readers of his marks are new versioned copies of Paper 1's tools, tested and sealed before
 use; the originals are not edited.
 
 | page or step | new copy derived from |
 |---|---|
-| passage cutter | `scripts/manual_coding_passages_v3.py` (sealed) |
+| supplement cutter and the passages shown on the pages | `scripts/manual_coding_passages_v3.py` (sealed) |
 | table of rows the author marks | `scripts/manual_coding_check3_table_v2.py` (sealed) |
-| page builder for the calibration page, the disagreement page and the audit page | the page script that built Paper 1's check pages, which was not sealed and is not in the repository; the copy made here is the first sealed version |
-| seeded draws (calibration papers, audit sample) | `scripts/manual_coding_check3_sample.py` (sealed) |
+| page builder for the disagreement page and the audit page | the page script that built Paper 1's check pages, which was not sealed and is not in the repository; the copy made here is the first sealed version |
+| seeded draws (control set, C2 sample, audit sample) | `scripts/manual_coding_check3_sample.py` (sealed) |
 | reader of the author's marks | `scripts/manual_coding_check3_followup_v2.py` and `scripts/manual_coding_final_tables.py` (sealed) |
 | provenance and identifier gate | `scripts/manual_coding_gates_v2.py` and `scripts/pin_passage_occurrence_v2.py` (sealed) |
 
 Every page shows, per row: the passages, with the identifier or release string that decides
 highlighted; a link to the open page of the source; the row's hash; one-click marks and a note;
 and a button that saves the marks as a JSON file, whose sha256 is logged before it is read.
-The calibration page shows no model answer. The disagreement page shows the two answers
+The disagreement page shows the two answers
 without saying which model gave which, in an order shuffled per row by a seed. The audit page
 shows the agreed answer.
 
 | Paper 1 manual-coding artifact | role here |
 |---|---|
-| passage cutter, gates, pin helper, table and marks scripts, page script | tooling: new versioned copies |
+| passage cutter (as the supplement cutter), gates, pin helper, table and marks scripts, page script | tooling: new versioned copies |
 | coder instructions v6 and the settled rules A to I4 and C1 to C5 | tooling: the basis of the new prompt, which is a new file with its own sha256 |
 | dataset dictionary and dictionary definitions | input, unchanged |
 | the 65 full texts stored for scope papers, with their raw XML | input, where eligible under route R1 |
-| the claims folders of pinned sentences | input to control pool (c) only |
+| the claims folders of pinned sentences | not used |
 | the queues, passages and coder attempt files | not used |
 | the 197 accepted codes and their extended tables | comparison only: reported beside this stage's codes for the same mentions, never the truth, never given to a coder or the checker |
 | the second-check packets and answers | not used |
@@ -426,7 +434,11 @@ Per row: the fields of §Study design, unit; each rule's evidence with its pinne
 file; count evidence as written, its endpoint fields and the table rows it equals; the two
 models' answers, the gate result, the adjudication and the audit mark; the abstract-to-full-text
 transition; the attribution transition. Per paper: each source by route, type, version, date
-and sha256, and each failure by reason; year, journal, document class and platform.
+and sha256, and each failure by reason; year, journal, document class and proteomic assay
+platform (`proteomic_assay_platform`: `olink`, `somascan`, `other`, `mixed` or `not_stated`, the
+family of the pQTL rows the paper's mentions map to, as in `verification/pqtl_row_attributes.csv`;
+`not_stated` where no pQTL mention maps to one row). The retrieval route is recorded apart and
+is never called platform.
 
 ## Measured variables - File upload
 
@@ -440,16 +452,17 @@ before the family datasets are formed.
 
 | index | numerator | denominator or categories |
 |---|---|---|
-| C1 recovery | controls coded to the expected row | controls whose record has an eligible source |
+| C1 recovery | controls coded to the expected row | scanned controls; manifest controls reported apart |
 | C1 contradiction | controls coded to another row | the same |
-| C2 misses | sampled papers with a row whose decisive evidence is in the whole source and not in its passages | the 30 sampled papers; and rows |
+| C2 misses | sampled papers with a gate-verified row whose decisive evidence is in a whole supplement and not in its cut | the sampled papers with a cut supplement; and rows |
+| canonicalization | comparisons canonicalized; comparisons left `representation_unresolved`; and the repeated pairs they hold | comparisons of a meta-analysis row with a component set |
 | full-text resolution yield | mentions unresolved from the abstract (ambiguous, unmatched, not stated) that are resolved here | all such mentions of the scope; also by side |
 | incremental yield by source | resolved mentions whose decisive evidence is in the full text only, in a supplement only, in both | resolved mentions |
 | abstract-to-full-text transitions | `confirmed`, `refined`, `contradicted`, `unresolved` | mentions the abstract resolves to one release, with an eligible source |
 | attribution transitions | unclear to resolved; unclear and still unclear | records with unclear attribution in Paper 1; and the repeated pairs they hold |
 | count-only candidate mappings | mentions with no decisive rule and S1 evidence equal to exactly one release; to several | mentions with no decisive rule |
 | accessibility-stratified resolution | resolved mentions | mentions, by route of the record's source (R1, R2 present, R3, R4, none) |
-| source availability | papers with an eligible source | papers, by year, journal, document class and platform |
+| source availability | papers with an eligible source | papers, by year, journal, document class and proteomic assay platform |
 | pairs unresolved for want of a source | unresolved pairs that every other mention would class and at least one `no_source` mention holds | unresolved pairs |
 | agreement with Paper 1's codes | mentions coded here to the row Paper 1 accepted; to another row; unresolved here | the mentions among Paper 1's 197 accepted codes that are in the scope; comparison only |
 | pair movement | repeated pairs by class in Paper 1 and class here (3 by 3) | M, for H2 and for H2b |
@@ -484,7 +497,7 @@ N/A — none beyond Paper 1's.
 | H2b-R unresolved | neither |
 | H1-R | no verdict; the estimate with its Wilson interval; labelled imprecise on fewer than 20 pairs; not estimable when no pair has an independent edge |
 | C1 | recovery ≥ 0.90 and contradiction ≤ 0.02, on at least 50 controls with an eligible source |
-| C2 | misses in at most 1 of the 30 sampled papers |
+| C2 | at most 1 sampled paper with a gate-verified miss |
 
 The C1 thresholds are conventional operating values, not derived from data, and the paper
 says so.
@@ -492,8 +505,8 @@ says so.
 **If C1 fails, or rests on fewer than 50 controls, every release-resolution estimate that
 depends on the coding pipeline is void: H2-R, H2b-R, H1-R, the yields and the transitions.**
 
-**If C2 fails, every source that was cut is coded again whole by both models before any
-estimand is computed, and the passages' codes are kept and not used.**
+**If C2 fails, every cut supplement is given whole to both models and coded again before any
+estimand is opened; the codes made from cuts are kept and not used.**
 
 **What stands when C1 fails: the source-availability and retrieval counts, Paper 1's registered
 results, and the report of the failure itself.**
@@ -512,9 +525,11 @@ excluded.
 
 ## Missing data
 
-A row with no source, no decisive rule, conflicting evidence or unsettled checks is unresolved
-and enters the bounds as Paper 1's unresolved names do, never by exclusion. Inaccessible
-papers stay in every bound as unresolved and are counted by reason.
+A row with no decisive evidence from the abstract or from an eligible retrieved source,
+conflicting evidence or unsettled checks is unresolved and enters the bounds as Paper 1's
+unresolved names do, never by exclusion. A release decisively identified from the abstract
+stands when no full text is retrieved. Inaccessible papers stay in every bound, with their
+abstract evidence, and are counted by reason.
 
 ## Other planned analysis
 
@@ -522,11 +537,13 @@ Each reported beside the primary, none replacing it:
 
 | sensitivity analysis | what changes |
 |---|---|
-| count-inferred, exact case and control counts | a mention with no decisive rule and S1 evidence equal to exactly one release (`duplicate_count` 1) is resolved to it |
-| count-inferred, exact total sample size permitted | as above, and an exact total sample size equal to exactly one release of the named resource for the endpoint also resolves |
+| count-inferred, strict | a mention with no decisive rule and S1 evidence equal to exactly one release (`duplicate_count` 1), every endpoint field `match`, is resolved to it |
+| count-inferred, compatible | as strict, with `unknown` endpoint fields allowed and no field in `conflict` |
+| count-inferred, exact total sample size permitted | as compatible, and an exact total sample size equal to exactly one release of the named resource for the endpoint also resolves |
 | all count-only mappings unresolved | equal to the primary analysis by construction; stated so in the table |
-| Europe PMC sources only | routes R3 and R4 give no source |
+| Europe PMC sources only | routes R3 and R4 give no source; abstract evidence stands |
 | without attribution resolution | added rule 1 is not applied; Paper 1's attribution stands |
+| without meta-analysis canonicalization | no component set is canonicalized; such comparisons are `representation_unresolved` |
 | originally registered corpus | Paper 1's 242 repeated pairs |
 
 Anything else is labelled as made after the results.
@@ -537,39 +554,31 @@ Review before any freeze: external review rounds on this draft until one confirm
 freeze uses `prereg freeze` and an OSF registration of its own, linked to
 https://osf.io/zae8c.
 
-**Open choices to settle before the freeze.** (1) The models, settled by the calibration; the
-author's leaning is passages for both models. Estimates for about 282
-requests per model (266 papers and up to 16 control-only papers), from the lengths of the 65
-stored full texts of the scope (mean 40,173 characters, about 10,000 tokens), a fixed prompt of
-about 20,000 tokens (instructions and dictionary definitions, cached after the first request),
-about 1,500 output tokens per paper, and list prices per million tokens of 2 and 10 US dollars
-(GPT-6.1 Sol; Claude Sonnet 5.5) and 10 and 50 (Claude Fable 5.1); supplement text is not
-measured yet and the figures can double:
+**Open choice to settle before the freeze.** Whether to build `reference/meta_analysis_expansions.csv` before the
+freeze for the meta-analysis rows that study mentions are likely to meet, or to leave every
+row-against-components comparison `representation_unresolved`.
 
-| option | first coder + checker | different families | input tokens per model | output tokens per model | cost, US dollars | wall time on Modal |
+**Cost of the models**, for about 282 requests per model (266 papers and control-only papers),
+from the lengths of the 65 stored full texts of the scope (mean 40,173 characters, about
+10,000 tokens), a fixed prompt of about 20,000 tokens (cached after the first request), about
+1,500 output tokens per paper, and list prices per million tokens of 2 and 10 US dollars
+(Claude Sonnet 5.5; GPT-6.1 Sol), 0.10 and 0.10 for cached input, and 10, 0.25 and 50 (Claude
+Fable 5.1). No supplement is stored, so supplement length cannot be measured; each 10,000
+tokens of supplement per paper adds about 2.8 million input tokens per model.
+
+| models, whole full texts | different families | input tokens per model | output per model | cost without supplements | added per 10,000 supplement tokens per paper | wall time on Modal |
 |---|---|---|---|---|---|---|
-| a | Sol + Sonnet 5.5, passages | yes (OpenAI, Anthropic) | about 1.6 million new, 5.7 million cached | about 0.4 million | about 8 + 8 = 16 | under 30 minutes |
-| b | Sol + Sonnet 5.5, whole full texts | yes (OpenAI, Anthropic) | about 3.0 million new, 5.7 million cached | about 0.4 million | about 11 + 11 = 22 | under 30 minutes |
-| c | Sol + Fable 5.1, passages | yes (OpenAI, Anthropic) | as a | as a | about 8 + 38 = 46 | under 30 minutes |
-| d | Astra + Fable 5.1, passages | yes by the label, not established by a model identifier | as a | as a | not priced | not estimated |
-
-Option d: the project's records name "Astra" once, as "Astra GPT-6 Thinking", a configuration
-of the Perplexity web interface used in the second-check pilot of Paper 1; by that label it is
-an OpenAI GPT-6 model and of another family than Fable (Anthropic). No record gives its API
-model identifier or its price, and the environment holds an OpenAI key and no key named for
-it, so it is not priced here and cannot be written into the plan until its identifier is
-established.
-
-(2) Passages or whole full texts. (3) Whether pool (c) of the control set is acceptable, given
-that only 31 mentions of the registry carry a hard identifier in their name as written.
+| Sonnet 5.5 + Sol | yes (Anthropic, OpenAI) | about 3.0 million new, 5.6 million cached | about 0.4 million | about 11 + 11 = 22 US dollars | about 6 + 6 = 12 | under 30 minutes |
+| Fable 5.1 + Sol | yes (Anthropic, OpenAI) | the same | the same | about 51 + 11 = 62 US dollars | about 28 + 6 = 34 | under 30 minutes |
 
 **Maximum claim under this registration.** Among this fixed corpus, using the retrieved
 sources and registered identification rules, the share of Paper 1's 245 repeated pairs that
 rest on identical releases lies between LB and UB, and the share that rest on identical
 releases or documented shared participant-source components between LB_b and UB_b, each with
-the verdict the one-half rule gives; these are results of a post-results follow-up analysis,
-they are statements about the retrieved corpus, and they stand beside Paper 1's registered
-unresolved verdicts without replacing them. The paper can also state, each with the
+the verdict the one-half rule gives; these are augmented full-text coding estimands of a
+post-results follow-up analysis, computed with Paper 1's relation definitions on inputs
+changed by four registered coding rules; they are statements about the retrieved corpus, and
+they stand beside Paper 1's registered unresolved verdicts without replacing them. The paper can also state, each with the
 denominator registered above: the directional concordance of independently sourced pairs
 under the same resolution, without a verdict, or that it is not estimable; the full-text
 resolution yield, the number and proportion of mentions unresolved from the abstract that a
@@ -578,12 +587,14 @@ how often the full text confirmed, refined or contradicted what the abstract sta
 dataset; how many records with unclear attribution were settled by an explicit link and how
 many stayed unclear; how many mentions had only count evidence, and the result when those
 count-only mappings are admitted; resolution by route of access and source availability by
-year, journal, document class and platform; how many repeated pairs changed class, how many
+year, journal, document class and proteomic assay platform; how many repeated pairs changed class, how many
 stayed unresolved, and how many of those for want of an accessible source; the bounds among
-pairs whose every paper could be read, as a description; and that the coding pipeline
-recovered hard-identifier controls at the registered rate, or that it did not and the
+pairs whose every paper could be read, as a description; how many meta-analysis comparisons
+were canonicalized or left unresolved for want of an expansion; and that the coding pipeline
+extracted and mapped hard identifiers at the registered rate, or that it did not and the
 resolution estimates are void. It cannot state that a release was not reported anywhere
-because the retrieved sources did not identify it, that repeated claims rest on the same or
+because the retrieved sources did not identify it, that the controls validate attribution of a
+dataset to the right analysis, that repeated claims rest on the same or
 on different participants, that count agreement identifies a release, anything about papers
 that could not be read or papers outside the corpus, or that this analysis was confirmatory
 or planned before the results of Paper 1 were seen.
