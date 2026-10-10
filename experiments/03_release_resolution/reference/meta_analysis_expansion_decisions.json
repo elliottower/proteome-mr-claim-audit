@@ -1,0 +1,37 @@
+{
+ "what": "the decision for every meta-analysis or combination row of Paper 1's dictionary, under the rule of the release-resolution plan: a row is expanded only when every contributing release, endpoint, ancestry, version and role is explicitly documented and every contributing release is a dictionary row; nothing is inferred from cohort names, dates or counts",
+ "documents": {
+  "finngen_r12_meta_analysis": "https://finngen.gitbook.io/documentation/r12/methods/meta-analysis",
+  "van_der_harst_2018_epmc_xml": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5805277/fullTextXML"
+ },
+ "rows": [
+  {"name": "UKB-PPP full cohort (combined)", "decision": "omit", "reason_category": "single_study_release",
+   "reason": "one study's own analysis of its own participants; it is itself a release and has no component releases among the dictionary rows", "documents": []},
+  {"name": "MANOLIS and Pomak neurology (Png 2021)", "decision": "omit", "reason_category": "single_study_release",
+   "reason": "one study's own analysis of two cohorts; it is itself a release and has no component releases among the dictionary rows", "documents": []},
+  {"name": "Guangzhou Nutrition and Health Study (Xu 2023)", "decision": "omit", "reason_category": "single_study_release",
+   "reason": "a single-cohort release matched by the word 'and' in its name; no component releases", "documents": []},
+  {"name": "SCALLOP multi-cohort meta-analysis (Koprulu 2026)", "decision": "omit", "reason_category": "component_without_dictionary_row",
+   "reason": "the contributing SCALLOP cohorts' summary statistics are not dictionary releases, and the dictionary entry does not name the UK Biobank release that contributed", "documents": []},
+  {"name": "UK Biobank + CARDIoGRAMplusC4D CAD (van der Harst 2018)", "decision": "omit", "reason_category": "component_without_dictionary_row",
+   "reason": "besides the UK Biobank GWAS and the 1000 Genomes CARDIoGRAMplusC4D meta-analysis, which are dictionary rows, the analysis includes CARDIoGRAMplusC4D Metabochip and further de novo study layers that are not dictionary releases", "documents": ["van_der_harst_2018_epmc_xml"]},
+  {"name": "AD and AD-by-proxy (Jansen 2019)", "decision": "omit", "reason_category": "component_without_dictionary_row",
+   "reason": "the UK Biobank by-proxy GWAS is the authors' own analysis, and the case-control consortia that contributed are not dictionary releases", "documents": []},
+  {"name": "GIANT + UK Biobank height and BMI (Yengo 2018)", "decision": "omit", "reason_category": "component_without_dictionary_row",
+   "reason": "the UK Biobank GWAS is the authors' own analysis, not a dictionary release", "documents": []},
+  {"name": "UK Biobank + ICBP blood pressure (Evangelou 2018)", "decision": "omit", "reason_category": "component_without_dictionary_row",
+   "reason": "the UK Biobank GWAS is the authors' own analysis and the ICBP stage is not a dictionary release", "documents": []},
+  {"name": "UK Biobank + TAGC asthma (Han 2020)", "decision": "omit", "reason_category": "component_without_dictionary_row",
+   "reason": "the UK Biobank GWAS is the authors' own analysis, not a dictionary release", "documents": []},
+  {"name": "Sakaue 2021 European meta-analysis (UKB + FinnGen R3)", "decision": "omit", "reason_category": "component_without_dictionary_row",
+   "reason": "the UK Biobank component is the authors' own harmonized analysis, not a dictionary release", "documents": []},
+  {"name": "Sakaue 2021 cross-population meta-analysis (BBJ + UKB + FinnGen R3)", "decision": "omit", "reason_category": "component_without_dictionary_row",
+   "reason": "the UK Biobank component is the authors' own harmonized analysis, not a dictionary release", "documents": []},
+  {"name": "FinnGen R12 + UK Biobank meta-analysis", "decision": "omit", "reason_category": "composition_endpoint_dependent",
+   "reason": "the resource documents the European subset of pan-UKBB as the UK Biobank component, but states that for a subset of endpoints the UK Biobank side was redefined by FinnGen, which is not a dictionary release; which endpoints is given only in release mapping files, not in the documentation, so the composition is not documented for every endpoint", "documents": ["finngen_r12_meta_analysis"]},
+  {"name": "FinnGen R12 + MVP + UK Biobank meta-analysis", "decision": "omit", "reason_category": "component_without_dictionary_row",
+   "reason": "the Million Veteran Program summary statistics are not a dictionary release, and the documentation admits imperfectly matching endpoints", "documents": ["finngen_r12_meta_analysis"]},
+  {"name": "BCAC-CIMBA triple-negative / BRCA1 carrier meta-analysis (Zhang 2020)", "decision": "omit", "reason_category": "component_without_dictionary_row",
+   "reason": "the CIMBA BRCA1-carrier analysis is not a dictionary release", "documents": []}
+ ]
+}

@@ -81,8 +81,9 @@ text there not flagged open access, 66 are open access by OpenAlex only, 37 are 
 returned no status; Europe PMC lists supplementary files for 141.
 
 The author and the coding agents have read passages of 242 full texts during the manual coding
-of Paper 1, and the 197 codes that resulted. Two external reviews of earlier drafts of this plan
-have been read; they changed the rules below.
+of Paper 1, and the 197 codes that resulted. Three external reviews of earlier drafts of this plan
+have been read; they changed the rules below. The documents read to build the meta-analysis
+expansion table are listed in it.
 
 The two models were chosen by the author on cost and family, without a calibration test of
 candidate models. The paper therefore cannot claim that the models were chosen on measured
@@ -153,6 +154,7 @@ dataset, one row per record and side (pQTL) or per record, side and outcome as w
 |---|---|
 | identified releases | a set of dictionary rows, possibly empty |
 | analysis role, per release | `primary`, `meta_analysis_component`, `replication`, `sensitivity` |
+| ancestry, per release | as the source states it, or `not_stated` |
 | attribution state | `explicit`, `paper_wide`, `unresolved` |
 | unresolved reason, when the set is empty | `release_not_identified`, `conflicting_identifiers`, `dataset_absent_from_dictionary`, `attribution_unresolved`, `no_source`, `source_unreadable`, `version_not_linked` |
 
@@ -242,12 +244,25 @@ more than one meta-analysis row is compatible. It harmonizes two encodings of on
 analysis and does not redefine `known_identical`. Expansions are read only from the frozen table
 `reference/meta_analysis_expansions.csv` (columns: meta-analysis row; component dictionary
 rows; endpoint; ancestry; analysis version; component roles; provenance, access date, sha256).
-Paper 1's dictionary expands its 14 meta-analysis and combination rows into participant cohorts
-(`verification/dataset_components.csv`), not into dictionary releases, so no release-level
-expansion exists today. Until a row of that table is built and frozen, a family side coded to a
-meta-analysis row and another coded to a set of components of it are
-`representation_unresolved` for that comparison, which enters the bounds as `unresolved`,
-never as `known_not_identical`. The pairs affected by canonicalization and those left
+The table is built before the freeze, and every one of the 14 meta-analysis and combination
+rows of Paper 1's dictionary is decided in it: a row is expanded only when every contributing
+release, endpoint, ancestry, version and role is explicitly documented in the resource's own
+documentation and every contributing release is a dictionary row; nothing is inferred from
+cohort names, dates or counts. Omitted rows are listed with their reason in
+`reference/meta_analysis_expansions_omitted.csv`, frozen with the table. Built on 10 October
+2026 (`scripts/meta_analysis_expansions.py`, decisions in
+`reference/meta_analysis_expansion_decisions_v2.json`): none of the 14 rows is expanded. Three
+are single-study releases with no component releases; ten have a contributing release that is
+not a dictionary row (an author's own UK Biobank analysis, the Million Veteran Program, CIMBA,
+SCALLOP cohorts, the CARDIoGRAMplusC4D Metabochip meta-analysis); in one (FinnGen R12 with UK
+Biobank) the UK Biobank side is redefined for some endpoints and which endpoints is not in the
+documentation. Canonicalization therefore changes no comparison in this stage, and the
+sensitivity analysis without it equals the primary analysis by construction. The coder records, for
+each release of a row, its ancestry as the source states it, so that the ancestry of a coded
+set can be compared with an expansion. A comparison of a family side coded to a meta-analysis
+row with another coded to a set of its components, where that row has no expansion, is
+`representation_unresolved`, which enters the bounds as `unresolved`, never as
+`known_not_identical`. The pairs affected by canonicalization and those left
 `representation_unresolved` are counted, and a sensitivity analysis runs without
 canonicalization. The dictionary is Paper 1's and is not extended: a dataset with no row is
 `dataset_absent_from_dictionary`.
@@ -326,11 +341,25 @@ a workbook of more than 20 sheets, is cut mechanically: every sheet or table nam
 rows, and every row that holds a dictionary term (Paper 1's term rule), an accession pattern or
 a release pattern, with its header.
 
+**Input limit.** One request carries at most 400,000 characters of source text besides the
+fixed prompt, for both models (about 100,000 tokens at four characters a token, below the
+context window of either model); the limit is frozen.
+
+**Exhaustive whole-supplement pass.** A rendered supplement that fits within the input limit is
+given in one request. A larger one is divided deterministically into exhaustive chunks below
+the limit: sheet names, table titles, column headers and footnotes are kept in every chunk
+they apply to; a table row is never split and its headers are repeated in every chunk; prose
+chunks overlap by two sentences; every chunk is processed, including chunks with no dictionary
+term. The answers of the chunks are merged by union, and incompatible decisive mappings give
+`conflicting_identifiers`. A log records, per supplement, the number of chunks, their character
+ranges, their sheet or table identifiers and the sha256 of each chunk.
+
 **C2, cut-supplement retention.** A seeded sample of 30 papers with a cut supplement (all of
-them if fewer) is given to the checker a second time with each cut supplement whole, in a
-separate pass. A miss is a row for which that pass finds decisive evidence (D1 or D2, gate
-passed) in the whole supplement that the cut does not hold; a miss is verified by the gate
-before it counts.
+them if fewer) is given to the checker a second time, in a separate pass, with each cut
+supplement under the exhaustive whole-supplement pass. C2 compares the cut representation with
+that exhaustive one. A miss is a row for which the exhaustive pass finds decisive evidence (D1
+or D2, gate passed) that the cut does not hold; a miss is verified by the gate before it
+counts.
 
 **Model choice.** The two models are named without a model-selection calibration: no test of
 candidate models against the author's reading of whole sources is run before the freeze. The
@@ -351,9 +380,14 @@ runs, up to 150 by seeded draw; (6) controls are mixed with study rows and not m
 control coded to another row gets a blinded mechanical review (does the frozen source hold a
 second hard identifier for the same side and estimate), and a contradiction the review
 explains by the source is reported apart and still counts. A control from a paper outside the
-scope is a control-only row and enters no index. If fewer than 50 controls result, deterministic
-control packets are built from the pinned resource manifests to reach 50, reported apart from
-the scanned controls because their language is easier than that of papers.
+scope is a control-only row and enters no index. If the scan of the scope's sources and of the
+retrieved out-of-scope sources yields fewer than 50 controls, the scan is extended to every
+retrievable paper of Paper 1's corpus outside the scope before coding; the controls this gives
+are the source-scanned controls.
+
+**Manifest controls.** Deterministic control packets built from the pinned resource manifests
+are a separate implementation check of the mapping and the software: they never enter the
+source-scanned denominator, never count toward its minimum of 50, and are reported apart.
 
 **Order.** Reference tables and the scanner pinned; plan frozen and registered; sources retrieved and frozen; supplements
 cut where needed; control set and C2 sample frozen; rows coded and checked; C2 computed and
@@ -452,8 +486,9 @@ before the family datasets are formed.
 
 | index | numerator | denominator or categories |
 |---|---|---|
-| C1 recovery | controls coded to the expected row | scanned controls; manifest controls reported apart |
-| C1 contradiction | controls coded to another row | the same |
+| C1 recovery, source-scanned | controls coded to the expected row | controls found by the scanner in retrieved scientific sources |
+| C1 recovery, manifest | packets coded to the expected row | manifest packets; reported apart |
+| C1 contradiction | controls coded to another row; packets coded to another row | each denominator above, apart |
 | C2 misses | sampled papers with a gate-verified row whose decisive evidence is in a whole supplement and not in its cut | the sampled papers with a cut supplement; and rows |
 | canonicalization | comparisons canonicalized; comparisons left `representation_unresolved`; and the repeated pairs they hold | comparisons of a meta-analysis row with a component set |
 | full-text resolution yield | mentions unresolved from the abstract (ambiguous, unmatched, not stated) that are resolved here | all such mentions of the scope; also by side |
@@ -496,17 +531,23 @@ N/A — none beyond Paper 1's.
 | H2b-R contradicted | UB_b ≤ 0.5 |
 | H2b-R unresolved | neither |
 | H1-R | no verdict; the estimate with its Wilson interval; labelled imprecise on fewer than 20 pairs; not estimable when no pair has an independent edge |
-| C1 | recovery ≥ 0.90 and contradiction ≤ 0.02, on at least 50 controls with an eligible source |
+| C1, source-scanned (the gate of H1-R, H2-R, H2b-R and the yields) | recovery ≥ 0.90 and contradiction ≤ 0.02, on at least 50 controls found by the scanner in retrieved scientific sources |
+| C1, manifest (implementation check) | recovery ≥ 0.90 and contradiction ≤ 0.02 on the manifest packets, reported apart |
 | C2 | at most 1 sampled paper with a gate-verified miss |
 
 The C1 thresholds are conventional operating values, not derived from data, and the paper
 says so.
 
-**If C1 fails, or rests on fewer than 50 controls, every release-resolution estimate that
-depends on the coding pipeline is void: H2-R, H2b-R, H1-R, the yields and the transitions.**
+**If the source-scanned C1 fails, or rests on fewer than 50 controls after the extended scan,
+every release-resolution estimate that depends on the coding pipeline is void: H2-R, H2b-R,
+H1-R, the yields and the transitions.**
 
-**If C2 fails, every cut supplement is given whole to both models and coded again before any
-estimand is opened; the codes made from cuts are kept and not used.**
+**If the manifest check fails, the pipeline is void in the same way; if it passes, it rescues
+neither a failure nor a shortfall of the source-scanned C1.**
+
+**If C2 fails, both models code every cut supplement again under the exhaustive
+whole-supplement pass before any estimand is opened; the codes made from cuts are kept and not
+used.**
 
 **What stands when C1 fails: the source-availability and retrieval counts, Paper 1's registered
 results, and the report of the failure itself.**
@@ -543,7 +584,7 @@ Each reported beside the primary, none replacing it:
 | all count-only mappings unresolved | equal to the primary analysis by construction; stated so in the table |
 | Europe PMC sources only | routes R3 and R4 give no source; abstract evidence stands |
 | without attribution resolution | added rule 1 is not applied; Paper 1's attribution stands |
-| without meta-analysis canonicalization | no component set is canonicalized; such comparisons are `representation_unresolved` |
+| without meta-analysis canonicalization | no component set is canonicalized; such comparisons are `representation_unresolved`; equal to the primary analysis while the expansion table holds no row, and stated so |
 | originally registered corpus | Paper 1's 242 repeated pairs |
 
 Anything else is labelled as made after the results.
@@ -554,9 +595,7 @@ Review before any freeze: external review rounds on this draft until one confirm
 freeze uses `prereg freeze` and an OSF registration of its own, linked to
 https://osf.io/zae8c.
 
-**Open choice to settle before the freeze.** Whether to build `reference/meta_analysis_expansions.csv` before the
-freeze for the meta-analysis rows that study mentions are likely to meet, or to leave every
-row-against-components comparison `representation_unresolved`.
+No choice is left open.
 
 **Cost of the models**, for about 282 requests per model (266 papers and control-only papers),
 from the lengths of the 65 stored full texts of the scope (mean 40,173 characters, about
@@ -591,8 +630,9 @@ year, journal, document class and proteomic assay platform; how many repeated pa
 stayed unresolved, and how many of those for want of an accessible source; the bounds among
 pairs whose every paper could be read, as a description; how many meta-analysis comparisons
 were canonicalized or left unresolved for want of an expansion; and that the coding pipeline
-extracted and mapped hard identifiers at the registered rate, or that it did not and the
-resolution estimates are void. It cannot state that a release was not reported anywhere
+extracted and mapped hard identifiers found in the retrieved scientific sources at the
+registered rate on at least 50 such controls, or that it did not and the resolution estimates
+are void, with the manifest implementation check reported apart. It cannot state that a release was not reported anywhere
 because the retrieved sources did not identify it, that the controls validate attribution of a
 dataset to the right analysis, that repeated claims rest on the same or
 on different participants, that count agreement identifies a release, anything about papers
