@@ -1,0 +1,91 @@
+{
+ "written_utc": "2026-10-10T16:42:30+00:00",
+ "models": {
+  "anthropic": "claude-sonnet-5-5",
+  "openai": "gpt-6.1-sol"
+ },
+ "seed": 20261010,
+ "candidates": 177,
+ "texts": [
+  {
+   "record_id": "38274229",
+   "characters": 23073,
+   "anthropic_tokens": 8309,
+   "openai_tokens": 5298
+  },
+  {
+   "record_id": "39358768",
+   "characters": 50568,
+   "anthropic_tokens": 19147,
+   "openai_tokens": 12349
+  },
+  {
+   "record_id": "39474612",
+   "characters": 40217,
+   "anthropic_tokens": 15463,
+   "openai_tokens": 9877
+  },
+  {
+   "record_id": "39578729",
+   "characters": 53948,
+   "anthropic_tokens": 18765,
+   "openai_tokens": 11192
+  },
+  {
+   "record_id": "39604029",
+   "characters": 39489,
+   "anthropic_tokens": 16524,
+   "openai_tokens": 10702
+  },
+  {
+   "record_id": "39875498",
+   "characters": 43646,
+   "anthropic_tokens": 18763,
+   "openai_tokens": 11576
+  },
+  {
+   "record_id": "40622612",
+   "characters": 40385,
+   "anthropic_tokens": 15595,
+   "openai_tokens": 9511
+  },
+  {
+   "record_id": "40657554",
+   "characters": 49464,
+   "anthropic_tokens": 17478,
+   "openai_tokens": 10265
+  },
+  {
+   "record_id": "40765733",
+   "characters": 44277,
+   "anthropic_tokens": 17154,
+   "openai_tokens": 10295
+  },
+  {
+   "record_id": "41990104",
+   "characters": 77646,
+   "anthropic_tokens": 30975,
+   "openai_tokens": 18159
+  },
+  {
+   "record_id": "42601749",
+   "characters": 32503,
+   "anthropic_tokens": 11452,
+   "openai_tokens": 6627
+  },
+  {
+   "record_id": "42682829",
+   "characters": 28069,
+   "anthropic_tokens": 10259,
+   "openai_tokens": 6486
+  }
+ ],
+ "anthropic": {
+  "characters_per_token_pooled": 2.617943407176162,
+  "characters_per_token_smallest": 2.326173852795395
+ },
+ "openai": {
+  "characters_per_token_pooled": 4.277405854320443,
+  "characters_per_token_smallest": 3.689871052139787
+ }
+}

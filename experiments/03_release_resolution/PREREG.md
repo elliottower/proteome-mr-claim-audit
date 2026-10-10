@@ -342,8 +342,14 @@ rows, and every row that holds a dictionary term (Paper 1's term rule), an acces
 a release pattern, with its header.
 
 **Input limit.** One request carries at most 400,000 characters of source text besides the
-fixed prompt, for both models (about 100,000 tokens at four characters a token, below the
-context window of either model); the limit is frozen.
+fixed prompt, for both models; the limit is frozen. Checked against the vendors' documentation
+and token counters (`outputs/token_ratio_2026-10-10.json`, 12 stored full texts of Paper 1
+papers outside the scope, counted by each vendor's counting endpoint): the context window is
+1M tokens for Claude Sonnet 5.5 and 1,050,000 for GPT-6.1 Sol, the maximum output 128,000 for
+both; at the smallest measured ratios (2.33 characters a token for Sonnet 5.5, 3.69 for Sol) a
+full request is about 172,000 and 108,000 tokens of source, with about 35,000 and 22,000 tokens
+of fixed prompt and an output well under 128,000, so under 340,000 tokens in all, a third of
+either window.
 
 **Exhaustive whole-supplement pass.** A rendered supplement that fits within the input limit is
 given in one request. A larger one is divided deterministically into exhaustive chunks below
@@ -598,17 +604,18 @@ https://osf.io/zae8c.
 No choice is left open.
 
 **Cost of the models**, for about 282 requests per model (266 papers and control-only papers),
-from the lengths of the 65 stored full texts of the scope (mean 40,173 characters, about
-10,000 tokens), a fixed prompt of about 20,000 tokens (cached after the first request), about
-1,500 output tokens per paper, and list prices per million tokens of 2 and 10 US dollars
-(Claude Sonnet 5.5; GPT-6.1 Sol), 0.10 and 0.10 for cached input, and 10, 0.25 and 50 (Claude
-Fable 5.1). No supplement is stored, so supplement length cannot be measured; each 10,000
-tokens of supplement per paper adds about 2.8 million input tokens per model.
+from the lengths of the 65 stored full texts of the scope (mean 40,173 characters), a fixed
+prompt of about 80,500 characters (instructions and dictionary definitions, cached after the
+first request), about 1,500 output tokens per paper, the measured pooled ratios of 2.62
+characters a token (Claude) and 4.28 (GPT-6.1 Sol), and list prices per million tokens of 2,
+0.10 cached and 10 output (Claude Sonnet 5.5; GPT-6.1 Sol) and 10, 0.25 and 50 (Claude Fable
+5.1). No supplement is stored, so supplement length cannot be measured; the last column gives
+what each 25,000 characters of supplement per paper adds.
 
-| models, whole full texts | different families | input tokens per model | output per model | cost without supplements | added per 10,000 supplement tokens per paper | wall time on Modal |
-|---|---|---|---|---|---|---|
-| Sonnet 5.5 + Sol | yes (Anthropic, OpenAI) | about 3.0 million new, 5.6 million cached | about 0.4 million | about 11 + 11 = 22 US dollars | about 6 + 6 = 12 | under 30 minutes |
-| Fable 5.1 + Sol | yes (Anthropic, OpenAI) | the same | the same | about 51 + 11 = 62 US dollars | about 28 + 6 = 34 | under 30 minutes |
+| models, whole full texts | different families | new input tokens | cached input tokens | output tokens | cost without supplements | added per 25,000 supplement characters per paper | wall time on Modal |
+|---|---|---|---|---|---|---|---|
+| Sonnet 5.5 + Sol (chosen) | yes (Anthropic, OpenAI) | about 4.3 and 2.7 million | about 8.7 and 5.3 million | about 0.4 million each | about 14 + 10 = 24 US dollars | about 5 + 3 = 8 | under 30 minutes |
+| Fable 5.1 + Sol | yes (Anthropic, OpenAI) | about 4.3 and 2.7 million | about 8.7 and 5.3 million | about 0.4 million each | about 67 + 10 = 77 US dollars | about 27 + 3 = 30 | under 30 minutes |
 
 **Maximum claim under this registration.** Among this fixed corpus, using the retrieved
 sources and registered identification rules, the share of Paper 1's 245 repeated pairs that
