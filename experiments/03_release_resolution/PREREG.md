@@ -81,8 +81,9 @@ text there not flagged open access, 66 are open access by OpenAlex only, 37 are 
 returned no status; Europe PMC lists supplementary files for 141.
 
 The author and the coding agents have read passages of 242 full texts during the manual coding
-of Paper 1, and the 197 codes that resulted. Three external reviews of earlier drafts of this plan
-have been read; they changed the rules below. The documents read to build the meta-analysis
+of Paper 1, and the 197 codes that resulted. Five external reviews of earlier drafts of this plan
+have been read; they changed the rules below. An external answer proposing secondary analyses
+has been read; four of the seven secondary analyses below come from it. The documents read to build the meta-analysis
 expansion table are listed in it.
 
 The two models were chosen by the author on cost and family, without a calibration test of
@@ -133,7 +134,8 @@ of the record, the candidate dictionary rows and the two reference tables. They 
 access and receive nothing else: no other family's assignment, no relation class, no
 aggregate, no Paper 1 code. The author adjudicates and audits under the same blinding and does
 not open H1-R, H2-R or H2b-R classes until every code is committed. Control rows are not
-distinguishable from study rows.
+distinguishable from study rows. The abstract-only packets of secondary analysis SA1 hold the
+record's abstract and nothing else, and are coded in requests separate from the full-text ones.
 
 ## Study design
 
@@ -156,7 +158,7 @@ dataset, one row per record and side (pQTL) or per record, side and outcome as w
 | analysis role, per release | `primary`, `meta_analysis_component`, `replication`, `sensitivity` |
 | ancestry, per release | as the source states it, or `not_stated` |
 | attribution state | `explicit`, `paper_wide`, `unresolved` |
-| unresolved reason, when the set is empty | `release_not_identified`, `conflicting_identifiers`, `dataset_absent_from_dictionary`, `attribution_unresolved`, `no_source`, `source_unreadable`, `version_not_linked` |
+| unresolved reasons, when the set is empty (every one that applies) | `release_not_identified`, `conflicting_identifiers`, `dataset_absent_from_dictionary`, `attribution_unresolved`, `no_source`, `source_unreadable`, `version_not_linked` |
 
 Only the sources that contribute to the estimate the claim states are coded. A meta-analysis
 is coded to its dictionary meta-analysis row when there is one, else to the set of its
@@ -401,9 +403,12 @@ are the source-scanned controls.
 are a separate implementation check of the mapping and the software: they never enter the
 source-scanned denominator, never count toward its minimum of 50, and are reported apart.
 
-**Order.** Reference tables and the scanner pinned; plan frozen and registered; sources retrieved and frozen; supplements
-cut where needed; cost estimate written and approved; control set and C2 sample frozen; rows coded and checked; C2 computed and
-acted on; codes committed; C1 computed and logged; registry assembled; estimands computed.
+**Order.** Reference tables, the C1 scanner and the repository-link patterns pinned; plan
+frozen and registered; sources retrieved and frozen; supplements cut where needed; cost
+estimate written and approved; control set and C2 sample frozen; abstract-only rows (SA1, B)
+coded, checked and adjudicated; full-text rows coded and checked; C2 computed and acted on;
+codes committed; C1 computed and logged; registry assembled; estimands computed; secondary
+analyses computed.
 
 ## Randomization
 
@@ -485,11 +490,13 @@ N/A — nothing is manipulated.
 Per row: the fields of §Study design, unit; each rule's evidence with its pinned quotation and
 file; count evidence as written, its endpoint fields and the table rows it equals; the two
 models' answers, the gate result, the adjudication and the audit mark; the abstract-to-full-text
-transition; the attribution transition. Per paper: each source by route, type, version, date
+transition; the attribution transition; for each decisive passage, its identifier type and its
+location (abstract, main text, supplement); the abstract-only answers of SA1. Per paper: each source by route, type, version, date
 and sha256, and each failure by reason; year, journal, document class and proteomic assay
 platform (`proteomic_assay_platform`: `olink`, `somascan`, `other`, `mixed` or `not_stated`, the
 family of the pQTL rows the paper's mentions map to, as in `verification/pqtl_row_attributes.csv`;
-`not_stated` where no pQTL mention maps to one row). The retrieval route is recorded apart and
+`not_stated` where no pQTL mention maps to one row); the repository links of SA7, by host and by
+section. The retrieval route is recorded apart and
 is never called platform.
 
 ## Measured variables - File upload
@@ -605,6 +612,119 @@ Each reported beside the primary, none replacing it:
 | without meta-analysis canonicalization | no component set is canonicalized; such comparisons are `representation_unresolved`; equal to the primary analysis while the expansion table holds no row, and stated so |
 | originally registered corpus | Paper 1's 242 repeated pairs |
 
+### Prespecified secondary analyses of the follow-up
+
+Seven secondary analyses are prespecified. They are descriptive, use the fixed corpus, and
+neither replace nor change the registered verdicts; none has a verdict, a threshold or a test.
+Each is computed after the codes are committed and, where it uses coded rows, only when the
+source-scanned C1 passes; SA7 involves no model and stands when C1 fails. Each writes
+one file under `outputs/secondary/`, holding the whole result structure, its inputs' sha256 and
+its seed where one is used. A "row" is a row of §Study design, unit (one dataset mention).
+
+| analysis | unit | denominator | output file |
+|---|---|---|---|
+| SA1. Rules against evidence | row; repeated pair | the rows of the scope; M | `rules_vs_evidence.json` |
+| SA2. Side-specific source relations | family comparison of a repeated pair | all family comparisons of M; and each pair weighted one | `side_relations.json` |
+| SA3. Unresolved reasons | row; repeated pair | unresolved rows; unresolved pairs | `unresolved_reasons.json` |
+| SA4. Decisive-identifier inventory | resolved row | rows resolved by a decisive rule | `identifier_inventory.json` |
+| SA5. Within-study sample overlap | claim record; study family | claim records and families of M | `within_study_overlap.json` |
+| SA6. Reporting by year | row; paper | rows and papers of the scope, by year | `identification_by_year.json` |
+| SA7. Code and data links | paper | papers with an eligible retrieved source, by year | `repository_links.json` |
+
+**SA1. Rules against evidence.** Three results on the same rows and pairs: A, Paper 1's
+registered result (its codes and pair classes, amended primary analysis); B, the follow-up's
+rules applied to the abstract alone; C, the full follow-up. B is source-restricted: a separate
+abstract-only packet per paper, holding the record's abstract as Paper 1 stored it and no other
+file, is coded by both models with the frozen prompt, in requests separate from those of C, and
+no full-text answer, code or passage is visible to either model. B is checked as C is (gate on
+a quotation pinned in the abstract, adjudication of disagreements, audit of 10% of agreements),
+and the author adjudicates B before any row of C, so that no adjudication of B is made after a
+full text of the paper was read for this stage. A B code never enters C, and a C code never
+counts as an abstract identification. Reported for A, B and C: per row, resolved to one
+release set or unresolved by reason; per pair, the H2 and H2b class and the bounds; and the
+contrasts A to B (associated with the changed coding procedure, which includes changed coders
+and adjudication as well as the four added rules), B to C (associated with the added sources
+under the same rules) and A to C, as 3 by 3 tables of pair classes and as counts of rows that
+change state. The contrasts are descriptive and never read as causal effects of rules or
+sources.
+
+**SA2. Side-specific source relations.** For each comparison of two families on a repeated pair,
+each side is classed by Paper 1's comparison of one side (`compare_side`, unchanged) on the
+coded release sets: same identified release (`identical_release`); different releases with
+documented shared participant-source components (`overlapping_participant_source`); documented
+disjoint participant sources (`disjoint`); unresolved (`unclear`). Reported: the 4 by 4 table
+of pQTL-side class against outcome-side class, in raw comparison counts and pair-weighted, each
+repeated pair carrying total weight one shared equally among its comparisons. No cell is
+called replication or a replication success; dataset provenance establishes neither analytical
+nor biological replication.
+
+**SA3. Unresolved reasons.** Multilabel: a row or pair carries every reason that applies, and no
+single main reason is assigned. Categories, in four groups:
+
+| group | category | from |
+|---|---|---|
+| access | full text or supplement not retrievable | `no_source`; and a listed supplement that failed retrieval |
+| access | retrieved source unreadable or incompletely rendered | `source_unreadable` |
+| source does not establish | resource named, release not identified | `release_not_identified` |
+| source does not establish | dataset not attributable to the claim's analysis | `attribution_unresolved` |
+| source does not establish | conflicting identifiers | `conflicting_identifiers` |
+| dictionary cannot represent | source identifies a dataset with no dictionary row | `dataset_absent_from_dictionary` |
+| dictionary cannot represent | meta-analysis against component set, no expansion | `representation_unresolved` (pair level) |
+| dictionary cannot represent | both sides identified, composition incomplete in the dictionary's components file, or Icelandic possible overlap | pair level, H2b only |
+| version linking | record not linked to a readable version | `version_not_linked` |
+
+At row level: the count of rows per category. At pair level, for H2 and for H2b separately: per
+category, the count of unresolved pairs it affects; the count where it is the only remaining
+blocker, that is, every row or comparison that keeps the pair unresolved carries that category
+and no other, built as the registered count of pairs unresolved for want of a source; and the
+count with several blockers. The "dictionary cannot represent" group follows from the design's
+choice not to extend the dictionary and is never reported as a reporting failure of the papers.
+
+**SA4. Decisive-identifier inventory.** For every row resolved by D1 or D2, every decisive passage
+the coding returns is classed by type: numbered release (D1, release pattern), repository
+accession (D1, accession pattern), uniquely identifying citation or source DOI (D2), the type
+assigned mechanically by the frozen scanner patterns on the pinned passage; and by location of
+the passage: abstract (the record's abstract, or the abstract section of the full text), main
+text (the full text outside its abstract), supplement.
+Multilabel, type by location, with the count of rows whose passages hold several agreeing
+types. No identifier is credited over another.
+
+**SA5. Within-study sample overlap.** For each claim record of M, the record's pQTL-side coded
+releases are compared with its outcome-side coded releases by Paper 1's participant-source
+comparison (`compare_side`, components from `verification/dataset_components.csv`, both
+unchanged): documented shared participant-source components; documented disjoint sources;
+unresolved. Same release cannot arise, because every dictionary row belongs to one side (28
+pQTL rows, 93 outcome rows); the category is kept and is empty by construction. Per study family, the same comparison on the union of the
+family's coded releases per side. Reported by record and by family, with the repeated pairs the
+families hold. It needs nothing the coding unit does not already record: the coded release sets
+per side and the attribution state of each record.
+
+**SA6. Reporting by year.** By the family's first-public year, 2019 to 2025 (Paper 1's
+confirmatory window): the share of rows with a decisive identification from any source (C), and
+from the abstract alone (B); and the share of papers every row of which is so identified, from
+any source and from the abstract alone. Each share with its 95% Wilson interval; intervals on rows
+treat rows as independent and are descriptive. No trend test and no verdict.
+
+**SA7. Code and data links.** A frozen mechanical scan, with no model, of every eligible retrieved
+source (full text and supplements) for links to these hosts: github.com, gitlab.com,
+bitbucket.org, sourceforge.net, zenodo.org and DOIs 10.5281/zenodo, figshare.com and DOIs
+10.6084/m9.figshare, osf.io, datadryad.org and DOIs 10.5061/dryad, data.mendeley.com and DOIs
+10.17632, codeocean.com, dataverse.harvard.edu and DOIs 10.7910/DVN, softwareheritage.org.
+Matching is case-insensitive on the host or DOI prefix; the list and patterns are frozen with
+this plan. Per paper: any link; any link inside a section whose title contains "data
+availability", "code availability", "availability of data" or "data and code" (JATS
+`sec-type` `data-availability` included); by host. Counted per paper by year; papers with no
+eligible source are counted apart. Only a link's presence is recorded, never whether it
+resolves, whether it is the authors' own deposit, or whether it holds the analysis.
+
+**Added cost.** SA2 to SA7 use the committed codes or a mechanical scan and add no model request.
+SA1 adds one abstract-only request per paper and model, about 266 each: with the cached fixed
+prompt, abstracts under 3,000 characters and about 1,500 output tokens per paper, at the prices
+of the cost table, about 5 US dollars for Claude Sonnet 5.5 and 5 for GPT-6.1 Sol, about 10 in
+all, under 10 minutes on Modal; and the author's adjudication of B's disagreements and audit of
+10% of its agreements. The measured abstract lengths enter the cost estimate the pipeline
+writes before any request.
+
 Anything else is labelled as made after the results.
 
 ## Context and additional information
@@ -622,7 +742,9 @@ first request), about 1,500 output tokens per paper, the measured pooled ratios 
 characters a token (Claude) and 4.28 (GPT-6.1 Sol), and list prices per million tokens of 2,
 0.10 cached and 10 output (Claude Sonnet 5.5; GPT-6.1 Sol) and 10, 0.25 and 50 (Claude Fable
 5.1). No supplement is stored, so supplement length cannot be measured; the last column gives
-what each 25,000 characters of supplement per paper adds.
+what each 25,000 characters of supplement per paper adds. The abstract-only coding of
+secondary analysis SA1 adds about 10 US dollars (5 + 5) with the chosen models; the other
+secondary analyses add no model request.
 
 | models, whole full texts | different families | new input tokens | cached input tokens | output tokens | cost without supplements | added per 25,000 supplement characters per paper | wall time on Modal |
 |---|---|---|---|---|---|---|---|
@@ -651,9 +773,28 @@ pairs whose every paper could be read, as a description; how many meta-analysis 
 were canonicalized or left unresolved for want of an expansion; and that the coding pipeline
 extracted and mapped hard identifiers found in the retrieved scientific sources at the
 registered rate on at least 50 such controls, or that it did not and the resolution estimates
-are void, with the manifest implementation check reported apart. It cannot state that a release was not reported anywhere
+are void, with the manifest implementation check reported apart. As prespecified secondary
+analyses of the follow-up, all descriptive and without verdicts, it can state: how rows and
+pair classes differ between Paper 1's result, the follow-up rules on the abstract alone, and
+the full follow-up, as contrasts associated with the coding procedure and with the added
+sources; for each family comparison, whether the pQTL side and the outcome side were the same
+release, shared documented participant sources, had documented disjoint sources, or were
+unresolved, in raw and pair-weighted counts; how many unresolved rows and pairs each reason
+affects, how many it alone holds and how many have several, with the limits of the dictionary
+kept apart from what the sources do not establish; which types of decisive identifier were
+found and where; whether the two sides of a study's own analysis share documented participant
+sources; the share of mentions and papers decisively identified from any source and from the
+abstract alone, by year, with intervals; and how many papers carry a link to a code or data
+repository, by year. It cannot state that a release was not reported anywhere
 because the retrieved sources did not identify it, that the controls validate attribution of a
 dataset to the right analysis, that repeated claims rest on the same or
 on different participants, that count agreement identifies a release, anything about papers
 that could not be read or papers outside the corpus, or that this analysis was confirmatory
-or planned before the results of Paper 1 were seen.
+or planned before the results of Paper 1 were seen. Nor can it state that the changed rules or
+the added sources caused a change in resolution; that any pair or comparison replicates
+another, computationally, analytically or biologically; that a study's two-sample estimate is
+biased by sample overlap, or that its sides share participants beyond the documented
+components; that unresolved rows reflect poor reporting where the dictionary cannot represent
+the dataset; that reporting improved or worsened over time; that adding an identifier makes a
+study reproducible; or that a repository link works, belongs to the authors or holds the
+analysis.
