@@ -1,0 +1,253 @@
+{
+ "$comment": "the final row data after the pipeline adds its reasons; the model answers are validated against prompts/output_schema.json, unchanged",
+ "title": "final row data, release-resolution follow-up",
+ "type": "object",
+ "additionalProperties": false,
+ "required": [
+  "record_id",
+  "rows"
+ ],
+ "properties": {
+  "record_id": {
+   "type": "string"
+  },
+  "rows": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+     "row_id",
+     "identified_releases",
+     "roles",
+     "ancestry",
+     "attribution_state",
+     "unresolved_reasons",
+     "decisive_evidence",
+     "count_evidence",
+     "abstract_transition",
+     "attribution_passage",
+     "note"
+    ],
+    "properties": {
+     "row_id": {
+      "type": "string"
+     },
+     "identified_releases": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "roles": {
+      "type": "array",
+      "items": {
+       "type": "object",
+       "additionalProperties": false,
+       "required": [
+        "release",
+        "role"
+       ],
+       "properties": {
+        "release": {
+         "type": "string"
+        },
+        "role": {
+         "enum": [
+          "primary",
+          "meta_analysis_component",
+          "replication",
+          "sensitivity"
+         ]
+        }
+       }
+      }
+     },
+     "ancestry": {
+      "type": "array",
+      "items": {
+       "type": "object",
+       "additionalProperties": false,
+       "required": [
+        "release",
+        "ancestry"
+       ],
+       "properties": {
+        "release": {
+         "type": "string"
+        },
+        "ancestry": {
+         "type": "string"
+        }
+       }
+      }
+     },
+     "attribution_state": {
+      "enum": [
+       "explicit",
+       "paper_wide",
+       "unresolved"
+      ]
+     },
+     "unresolved_reasons": {
+      "type": "array",
+      "items": {
+       "enum": [
+        "release_not_identified",
+        "conflicting_identifiers",
+        "dataset_absent_from_dictionary",
+        "attribution_unresolved",
+        "no_source",
+        "source_unreadable",
+        "version_not_linked"
+       ]
+      },
+      "description": "the model-assigned reasons, and the pipeline-only reasons no_source, source_unreadable and version_not_linked, which the pipeline adds from the retrieval and version-linking records; no model answer may carry a pipeline-only reason"
+     },
+     "decisive_evidence": {
+      "type": "array",
+      "items": {
+       "type": "object",
+       "additionalProperties": false,
+       "required": [
+        "file_id",
+        "quote",
+        "rule",
+        "release"
+       ],
+       "properties": {
+        "file_id": {
+         "type": "string"
+        },
+        "quote": {
+         "type": "string"
+        },
+        "rule": {
+         "enum": [
+          "D1",
+          "D2",
+          "D2_reference_entry"
+         ]
+        },
+        "release": {
+         "type": "string"
+        }
+       }
+      }
+     },
+     "count_evidence": {
+      "type": "array",
+      "items": {
+       "type": "object",
+       "additionalProperties": false,
+       "required": [
+        "file_id",
+        "quote",
+        "resource",
+        "cases",
+        "controls",
+        "disease_or_subtype",
+        "incident_or_prevalent",
+        "sex",
+        "ancestry",
+        "case_definition",
+        "quantitative_or_binary",
+        "single_cohort_or_meta_analysis"
+       ],
+       "properties": {
+        "file_id": {
+         "type": "string"
+        },
+        "quote": {
+         "type": "string"
+        },
+        "resource": {
+         "type": "string"
+        },
+        "cases": {
+         "type": "string"
+        },
+        "controls": {
+         "type": "string"
+        },
+        "disease_or_subtype": {
+         "type": "string"
+        },
+        "incident_or_prevalent": {
+         "enum": [
+          "incident",
+          "prevalent",
+          "not_stated"
+         ]
+        },
+        "sex": {
+         "enum": [
+          "both",
+          "female",
+          "male",
+          "not_stated"
+         ]
+        },
+        "ancestry": {
+         "type": "string"
+        },
+        "case_definition": {
+         "type": "string"
+        },
+        "quantitative_or_binary": {
+         "enum": [
+          "binary",
+          "quantitative",
+          "not_stated"
+         ]
+        },
+        "single_cohort_or_meta_analysis": {
+         "enum": [
+          "single_cohort",
+          "meta_analysis",
+          "not_stated"
+         ]
+        }
+       }
+      }
+     },
+     "abstract_transition": {
+      "enum": [
+       "confirmed",
+       "refined",
+       "contradicted",
+       "unresolved",
+       "none"
+      ]
+     },
+     "attribution_passage": {
+      "anyOf": [
+       {
+        "type": "null"
+       },
+       {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+         "file_id",
+         "quote"
+        ],
+        "properties": {
+         "file_id": {
+          "type": "string"
+         },
+         "quote": {
+          "type": "string"
+         }
+        }
+       }
+      ]
+     },
+     "note": {
+      "type": "string"
+     }
+    }
+   }
+  }
+ }
+}

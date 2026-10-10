@@ -375,14 +375,20 @@ The two models are Claude Sonnet 5.5 (Anthropic, `claude-sonnet-5-5`), the nomin
 coder, and GPT-6.1 Sol (OpenAI, `gpt-6.1-sol`), the closed-packet checker. Both code every row
 independently, with an identical prompt and identical sources; neither sees the other's answer
 or any Paper 1 code; each is called through its API with no tools and no web access, and the
-model string returned is recorded with every response. The two are never of one family. Both receive the same fixed prompt, `prompts/coding_prompt.md`
-(sha256 7f87241f63a7957e1b4bcc79ef7077fe32348f173a95ee8a9aa6180e0da153cd) followed by Paper 1's
+model string returned is recorded with every response. The two are never of one family. Both receive the same fixed prompt, `prompts/coding_prompt_v2.md`
+(sha256 6b10c93ff232c6b1f763ef67cd1e03a7c8356585c59abea902004744c0615736) followed by Paper 1's
 dictionary definitions
 (`experiments/02_claims_meta/outputs/manual_coding/2026-10-03/coders/dictionary_definitions.csv`,
 sha256 57f2c5bcef2b63d2d8526d4950c963a5e92e7d56cb75df215b7bbacff9f11e07), answer in the schema `prompts/output_schema.json` (sha256
 7ee5f69808e6be83db2a1d0c5b584c4100adda1843bfc22ea89d1f507dab18cc), and differ only in the API
-framing of `prompts/api_framing.md` (sha256
-7c6330c9260d205e47505169374bef51fe970da8d578f387fb8141b942effcf9). The prompt is built from the
+framing of `prompts/api_framing_v2.md` (sha256
+69831ccbbcc26c26b006c527ed9a073d7c99f6790901ab20a974ea651723611c), which sets the maximum output
+of both at 128,000 tokens. The final row data, with the reasons the pipeline adds (`no_source`,
+`source_unreadable`, `version_not_linked`, which no model answer may carry), fit
+`prompts/final_data_schema.json` (sha256
+6873aef1c75049799f7bab1fdcdb3a7dacd00637b60e909500f6a7e26ffa9ecd). The models extract count
+evidence only; whether it confirms, contradicts or only supports a release is decided by script
+against the counts table. The prompt is built from the
 rules of this plan and Paper 1's coder instructions v6, with no example drawn from a study
 paper; the abstract-only packets of SA1 use the same prompt.
 
@@ -426,11 +432,12 @@ accepted mapping, and the author's adjudication of every disagreement and audit 
 
 **C1, the positive control.** Built by a frozen mechanical scanner, without reading any
 source by hand: (1) the scanner and its patterns are frozen before retrieval
-(`scripts/source_scanner.py`, sha256
-e4ffc7fe5fbbfeec12b1bbb17271b28393b13b0844bf4f644cbae37b8d3e94ed;
-`reference/c1_scanner_patterns.json`, sha256
-9f9afc247d09119b5a6f7731ab591a60ba5757af7fb97dcfa08051be50088cce, which also holds the seed of
-the draw); (2) after
+(`scripts/source_scanner_v2.py`, sha256
+854b41d9063a2978fc58029c88964994307ac4e21b96f863dd783352114ba43c;
+`reference/c1_scanner_patterns_v2.json`, sha256
+69a57641e91f35e3ac9983e982ce687db8b6657ecbe6564791f3374132ba7eb4, which also holds the seed of
+the draw; accessions match in any case and are put in their registry's case before lookup, and a
+DOI loses terminal `.`, `,`, `;`, `:`, `)`, `]` and `}` before lookup); (2) after
 retrieval it scans every eligible retrieved source, those of Paper 1 papers outside the scope
 included, for explicit accessions,
 numbered releases and uniquely mapped source identifiers; (3) a match is kept only when it maps
@@ -768,7 +775,7 @@ bitbucket.org, sourceforge.net, zenodo.org and DOIs 10.5281/zenodo, figshare.com
 Matching is case-insensitive on the host or DOI prefix; the list and patterns are frozen with
 this plan in `reference/repository_link_hosts.json` (sha256
 4dfce00ead021e441980b4f4ccd32ca2c9f1985a982932fcefb7393a409a2f18) and run by
-`scripts/source_scanner.py`. Per paper: any link; any link inside a section whose title contains "data
+`scripts/source_scanner_v2.py`. Per paper: any link; any link inside a section whose title contains "data
 availability", "code availability", "availability of data" or "data and code" (JATS
 `sec-type` `data-availability` included); by host. Counted per paper by year; papers with no
 eligible source are counted apart. Only a link's presence is recorded, never whether it
