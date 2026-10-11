@@ -1,0 +1,51 @@
+{
+ "records": 266,
+ "records_by_status": {
+  "no_source": 61,
+  "retrieved": 204,
+  "source_unreadable": 1
+ },
+ "records_by_kind": {
+  "journal": 225,
+  "preprint": 41
+ },
+ "records_with_a_readable_source_by_route": {
+  "R3": 51,
+  "R1": 153,
+  "R2": 136
+ },
+ "records_with_a_readable_source_by_version": {
+  "journal": 169,
+  "preprint": 35,
+  "correction": 1
+ },
+ "records_with_a_full_text": 204,
+ "records_with_a_readable_supplement": 136,
+ "supplement_files": 2395,
+ "supplement_files_by_type": {
+  "other": 1871,
+  "PDF": 107,
+  "XLSX": 258,
+  "DOCX": 69,
+  "XLS": 31,
+  "CSV": 56,
+  "plain text": 2,
+  "HTML": 1
+ },
+ "supplement_files_readable": 515,
+ "unreadable_files_by_reason": {
+  "type_not_accepted": 1872,
+  "pdf_without_text_layer": 6,
+  "unreadable_XLRDError": 3
+ },
+ "failures_by_route_and_reason": {
+  "R3|no_open_access_location": 39,
+  "R1|no_file": 46,
+  "R3|no_file": 24,
+  "R1|xml_without_body": 3
+ },
+ "records_with_a_correction": 2,
+ "pdftotext": [
+  "pdftotext version 22.12.0\nCopyright 2005-2022 The Poppler Developers - http://poppler.freedesktop.org\nCopyright 1996-2011, 2022 Glyph & Cog, LLC"
+ ]
+}

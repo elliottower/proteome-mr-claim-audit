@@ -1,0 +1,1951 @@
+{
+ "records": 266,
+ "by_status": {
+  "no_source": 61,
+  "retrieved": 204,
+  "source_unreadable": 1
+ },
+ "full_text_characters": 8654112,
+ "supplement_characters": 713936297,
+ "requests_per_model_for_coding": 2007,
+ "fixed_prompt_characters": 74534,
+ "abstract_characters": 509653,
+ "c2_papers": 30,
+ "c2_supplement_characters": 645266238,
+ "assumptions": {
+  "limit_characters": 400000,
+  "output_tokens_per_request": 1500,
+  "characters_per_token": {
+   "claude-sonnet-5-5": 2.62,
+   "gpt-6.1-sol": 4.28
+  },
+  "usd_per_million_tokens": {
+   "new": 2.0,
+   "cached": 0.1,
+   "output": 10.0
+  },
+  "supplements": "whole (upper bound; the cut is applied later)",
+  "control_only_papers": 16
+ },
+ "by_model": {
+  "claude-sonnet-5-5": {
+   "coding": {
+    "requests": 2007,
+    "new_input_tokens": 275826314,
+    "cached_input_tokens": 57066872,
+    "output_tokens": 3010500,
+    "usd": 587.46
+   },
+   "control_only_papers": {
+    "requests": 16,
+    "new_input_tokens": 2198687,
+    "cached_input_tokens": 455169,
+    "output_tokens": 24000,
+    "usd": 4.68
+   },
+   "sa1_abstract_only": {
+    "requests": 266,
+    "new_input_tokens": 194524,
+    "cached_input_tokens": 7567192,
+    "output_tokens": 399000,
+    "usd": 5.14
+   }
+  },
+  "gpt-6.1-sol": {
+   "coding": {
+    "requests": 2007,
+    "new_input_tokens": 168846949,
+    "cached_input_tokens": 34933459,
+    "output_tokens": 3010500,
+    "usd": 371.29
+   },
+   "control_only_papers": {
+    "requests": 16,
+    "new_input_tokens": 1345925,
+    "cached_input_tokens": 278632,
+    "output_tokens": 24000,
+    "usd": 2.96
+   },
+   "sa1_abstract_only": {
+    "requests": 266,
+    "new_input_tokens": 119078,
+    "cached_input_tokens": 4632253,
+    "output_tokens": 399000,
+    "usd": 4.69
+   },
+   "c2_exhaustive_pass": {
+    "requests": 1625,
+    "new_input_tokens": 150763140,
+    "cached_input_tokens": 28298540,
+    "output_tokens": 2437500,
+    "usd": 328.73
+   }
+  }
+ },
+ "total_usd": 1304.95,
+ "within_accepted_range": false,
+ "per_record": [
+  {
+   "record_id": "31208196",
+   "status": "no_source",
+   "full_text_characters": 0,
+   "supplement_characters": 0,
+   "requests": 1
+  },
+  {
+   "record_id": "31235487",
+   "status": "no_source",
+   "full_text_characters": 0,
+   "supplement_characters": 0,
+   "requests": 1
+  },
+  {
+   "record_id": "31337649",
+   "status": "retrieved",
+   "full_text_characters": 80,
+   "supplement_characters": 0,
+   "requests": 1
+  },
+  {
+   "record_id": "32928870",
+   "status": "retrieved",
+   "full_text_characters": 67105,
+   "supplement_characters": 0,
+   "requests": 1
+  },
+  {
+   "record_id": "34172473",
+   "status": "retrieved",
+   "full_text_characters": 39547,
+   "supplement_characters": 409512,
+   "requests": 2
+  },
+  {
+   "record_id": "34381170",
+   "status": "no_source",
+   "full_text_characters": 0,
+   "supplement_characters": 0,
+   "requests": 1
+  },
+  {
+   "record_id": "34465608",
+   "status": "retrieved",
+   "full_text_characters": 165,
+   "supplement_characters": 0,
+   "requests": 1
+  },
+  {
+   "record_id": "34758976",
+   "status": "no_source",
+   "full_text_characters": 0,
+   "supplement_characters": 0,
+   "requests": 1
+  },
+  {
+   "record_id": "34819519",
+   "status": "retrieved",
+   "full_text_characters": 51568,
+   "supplement_characters": 5807053,
+   "requests": 15
+  },
+  {
+   "record_id": "34857772",
+   "status": "retrieved",
+   "full_text_characters": 56851,
+   "supplement_characters": 448546,
+   "requests": 2
+  },
+  {
+   "record_id": "35200038",
+   "status": "retrieved",
+   "full_text_characters": 28484,
+   "supplement_characters": 0,
+   "requests": 1
+  },
+  {
+   "record_id": "35252377",
+   "status": "retrieved",
+   "full_text_characters": 33400,
+   "supplement_characters": 20196,
+   "requests": 1
+  },
+  {
+   "record_id": "35475137",
+   "status": "retrieved",
+   "full_text_characters": 30701,
+   "supplement_characters": 473418,
+   "requests": 2
+  },
+  {
+   "record_id": "35580794",
+   "status": "retrieved",
+   "full_text_characters": 42587,
+   "supplement_characters": 19521,
+   "requests": 1
+  },
+  {
+   "record_id": "36253349",
+   "status": "retrieved",
+   "full_text_characters": 57971,
+   "supplement_characters": 3238672,
+   "requests": 9
+  },
+  {
+   "record_id": "36384659",
+   "status": "retrieved",
+   "full_text_characters": 30931,
+   "supplement_characters": 0,
+   "requests": 1
+  },
+  {
+   "record_id": "36576886",
+   "status": "retrieved",
+   "full_text_characters": 32762,
+   "supplement_characters": 22562,
+   "requests": 1
+  },
+  {
+   "record_id": "36759259",
+   "status": "retrieved",
+   "full_text_characters": 205434,
+   "supplement_characters": 0,
+   "requests": 1
+  },
+  {
+   "record_id": "36857861",
+   "status": "retrieved",
+   "full_text_characters": 30974,
+   "supplement_characters": 37539,
+   "requests": 1
+  },
+  {
+   "record_id": "36864689",
+   "status": "retrieved",
+   "full_text_characters": 33471,
+   "supplement_characters": 163126,
+   "requests": 1
+  },
+  {
+   "record_id": "37085628",
+   "status": "no_source",
+   "full_text_characters": 0,
+   "supplement_characters": 0,
+   "requests": 1
+  },
+  {
+   "record_id": "37212950",
+   "status": "retrieved",
+   "full_text_characters": 34902,
+   "supplement_characters": 0,
+   "requests": 1
+  },
+  {
+   "record_id": "37308750",
+   "status": "retrieved",
+   "full_text_characters": 303,
+   "supplement_characters": 0,
+   "requests": 1
+  },
+  {
+   "record_id": "37340071",
+   "status": "retrieved",
+   "full_text_characters": 36853,
+   "supplement_characters": 4291541,
+   "requests": 11
+  },
+  {
+   "record_id": "37492198",
+   "status": "retrieved",
+   "full_text_characters": 61622,
+   "supplement_characters": 0,
+   "requests": 1
+  },
+  {
+   "record_id": "37516812",
+   "status": "retrieved",
+   "full_text_characters": 38943,
+   "supplement_characters": 632911,
+   "requests": 2
+  },
+  {
+   "record_id": "37537391",
+   "status": "retrieved",
+   "full_text_characters": 25093,
+   "supplement_characters": 402186,
+   "requests": 2
+  },
+  {
+   "record_id": "37581400",
+   "status": "retrieved",
+   "full_text_characters": 43528,
+   "supplement_characters": 952103,
+   "requests": 3
+  },
+  {
+   "record_id": "37662610",
+   "status": "retrieved",
+   "full_text_characters": 32456,
+   "supplement_characters": 60897,
+   "requests": 1
+  },
+  {
+   "record_id": "37679517",
+   "status": "retrieved",
+   "full_text_characters": 80,
+   "supplement_characters": 0,
+   "requests": 1
+  },
+  {
+   "record_id": "37726845",
+   "status": "retrieved",
+   "full_text_characters": 39259,
+   "supplement_characters": 1806672,
+   "requests": 5
+  },
+  {
+   "record_id": "37735436",
+   "status": "retrieved",
+   "full_text_characters": 48063,
+   "supplement_characters": 118938,
+   "requests": 1
+  },
+  {
+   "record_id": "37774922",
+   "status": "no_source",
+   "full_text_characters": 0,
+   "supplement_characters": 0,
+   "requests": 1
+  },
+  {
+   "record_id": "37809092",
+   "status": "retrieved",
+   "full_text_characters": 33676,
+   "supplement_characters": 95309,
+   "requests": 1
+  },
+  {
+   "record_id": "37865667",
+   "status": "retrieved",
+   "full_text_characters": 46245,
+   "supplement_characters": 650045,
+   "requests": 2
+  },
+  {
+   "record_id": "37904919",
+   "status": "no_source",
+   "full_text_characters": 0,
+   "supplement_characters": 0,
+   "requests": 1
+  },
+  {
+   "record_id": "37915587",
+   "status": "retrieved",
+   "full_text_characters": 67829,
+   "supplement_characters": 72760,
+   "requests": 1
+  },
+  {
+   "record_id": "37967346",
+   "status": "retrieved",
+   "full_text_characters": 45035,
+   "supplement_characters": 6889572,
+   "requests": 18
+  },
+  {
+   "record_id": "37996402",
+   "status": "retrieved",
+   "full_text_characters": 43485,
+   "supplement_characters": 3685515,
+   "requests": 10
+  },
+  {
+   "record_id": "38029854",
+   "status": "retrieved",
+   "full_text_characters": 29741,
+   "supplement_characters": 8775,
+   "requests": 1
+  },
+  {
+   "record_id": "38049831",
+   "status": "retrieved",
+   "full_text_characters": 42309,
+   "supplement_characters": 287314,
+   "requests": 1
+  },
+  {
+   "record_id": "38065874",
+   "status": "retrieved",
+   "full_text_characters": 26637,
+   "supplement_characters": 0,
+   "requests": 1
+  },
+  {
+   "record_id": "38096329",
+   "status": "retrieved",
+   "full_text_characters": 41948,
+   "supplement_characters": 78765,
+   "requests": 1
+  },
+  {
+   "record_id": "38152968",
+   "status": "retrieved",
+   "full_text_characters": 119099,
+   "supplement_characters": 0,
+   "requests": 1
+  },
+  {
+   "record_id": "38240717",
+   "status": "retrieved",
+   "full_text_characters": 50112,
+   "supplement_characters": 9963904,
+   "requests": 26
+  },
+  {
+   "record_id": "38304232",
+   "status": "retrieved",
+   "full_text_characters": 58196,
+   "supplement_characters": 839247,
+   "requests": 3
+  },
+  {
+   "record_id": "38410634",
+   "status": "retrieved",
+   "full_text_characters": 10372,
+   "supplement_characters": 0,
+   "requests": 1
+  },
+  {
+   "record_id": "38429390",
+   "status": "retrieved",
+   "full_text_characters": 45266,
+   "supplement_characters": 5192,
+   "requests": 1
+  },
+  {
+   "record_id": "38450985",
+   "status": "no_source",
+   "full_text_characters": 0,
+   "supplement_characters": 0,
+   "requests": 1
+  },
+  {
+   "record_id": "38455364",
+   "status": "retrieved",
+   "full_text_characters": 26313,
+   "supplement_characters": 46224,
+   "requests": 1
+  },
+  {
+   "record_id": "38515381",
+   "status": "no_source",
+   "full_text_characters": 0,
+   "supplement_characters": 0,
+   "requests": 1
+  },
+  {
+   "record_id": "38562480",
+   "status": "retrieved",
+   "full_text_characters": 29635,
+   "supplement_characters": 328216,
+   "requests": 1
+  },
+  {
+   "record_id": "38605099",
+   "status": "retrieved",
+   "full_text_characters": 19279,
+   "supplement_characters": 11076,
+   "requests": 1
+  },
+  {
+   "record_id": "38623619",
+   "status": "retrieved",
+   "full_text_characters": 36246,
+   "supplement_characters": 24667,
+   "requests": 1
+  },
+  {
+   "record_id": "38637810",
+   "status": "retrieved",
+   "full_text_characters": 48763,
+   "supplement_characters": 505882,
+   "requests": 2
+  },
+  {
+   "record_id": "38679119",
+   "status": "no_source",
+   "full_text_characters": 0,
+   "supplement_characters": 0,
+   "requests": 1
+  },
+  {
+   "record_id": "38689297",
+   "status": "retrieved",
+   "full_text_characters": 50208,
+   "supplement_characters": 2179964,
+   "requests": 6
+  },
+  {
+   "record_id": "38730525",
+   "status": "retrieved",
+   "full_text_characters": 27277,
+   "supplement_characters": 46059,
+   "requests": 1
+  },
+  {
+   "record_id": "38773393",
+   "status": "retrieved",
+   "full_text_characters": 303,
+   "supplement_characters": 0,
+   "requests": 1
+  },
+  {
+   "record_id": "38782984",
+   "status": "retrieved",
+   "full_text_characters": 25679,
+   "supplement_characters": 927046,
+   "requests": 3
+  },
+  {
+   "record_id": "38820305",
+   "status": "retrieved",
+   "full_text_characters": 48595,
+   "supplement_characters": 0,
+   "requests": 1
+  },
+  {
+   "record_id": "38820838",
+   "status": "retrieved",
+   "full_text_characters": 11,
+   "supplement_characters": 0,
+   "requests": 1
+  },
+  {
+   "record_id": "38828357",
+   "status": "retrieved",
+   "full_text_characters": 32017,
+   "supplement_characters": 31346,
+   "requests": 1
+  },
+  {
+   "record_id": "38871465",
+   "status": "no_source",
+   "full_text_characters": 0,
+   "supplement_characters": 0,
+   "requests": 1
+  },
+  {
+   "record_id": "38875042",
+   "status": "no_source",
+   "full_text_characters": 0,
+   "supplement_characters": 0,
+   "requests": 1
+  },
+  {
+   "record_id": "38887235",
+   "status": "retrieved",
+   "full_text_characters": 42778,
+   "supplement_characters": 1336253,
+   "requests": 4
+  },
+  {
+   "record_id": "38892221",
+   "status": "retrieved",
+   "full_text_characters": 87170,
+   "supplement_characters": 8618046,
+   "requests": 22
+  },
+  {
+   "record_id": "38898508",
+   "status": "retrieved",
+   "full_text_characters": 66420,
+   "supplement_characters": 1241472,
+   "requests": 4
+  },
+  {
+   "record_id": "38903171",
+   "status": "retrieved",
+   "full_text_characters": 48130,
+   "supplement_characters": 2796431,
+   "requests": 8
+  },
+  {
+   "record_id": "38957317",
+   "status": "retrieved",
+   "full_text_characters": 140727,
+   "supplement_characters": 169905,
+   "requests": 1
+  },
+  {
+   "record_id": "38964432",
+   "status": "retrieved",
+   "full_text_characters": 11,
+   "supplement_characters": 0,
+   "requests": 1
+  },
+  {
+   "record_id": "38976909",
+   "status": "retrieved",
+   "full_text_characters": 36960,
+   "supplement_characters": 0,
+   "requests": 1
+  },
+  {
+   "record_id": "38989470",
+   "status": "retrieved",
+   "full_text_characters": 48513,
+   "supplement_characters": 12249478,
+   "requests": 31
+  },
+  {
+   "record_id": "39006495",
+   "status": "retrieved",
+   "full_text_characters": 24947,
+   "supplement_characters": 0,
+   "requests": 1
+  },
+  {
+   "record_id": "39010723",
+   "status": "retrieved",
+   "full_text_characters": 28975,
+   "supplement_characters": 14705793,
+   "requests": 37
+  },
+  {
+   "record_id": "39025905",
+   "status": "retrieved",
+   "full_text_characters": 150656,
+   "supplement_characters": 8205482,
+   "requests": 21
+  },
+  {
+   "record_id": "39029667",
+   "status": "no_source",
+   "full_text_characters": 0,
+   "supplement_characters": 0,
+   "requests": 1
+  },
+  {
+   "record_id": "39036049",
+   "status": "retrieved",
+   "full_text_characters": 26060,
+   "supplement_characters": 9134860,
+   "requests": 23
+  },
+  {
+   "record_id": "39040677",
+   "status": "retrieved",
+   "full_text_characters": 33170,
+   "supplement_characters": 76492,
+   "requests": 1
+  },
+  {
+   "record_id": "39068416",
+   "status": "retrieved",
+   "full_text_characters": 38139,
+   "supplement_characters": 194884,
+   "requests": 1
+  },
+  {
+   "record_id": "39116956",
+   "status": "retrieved",
+   "full_text_characters": 11,
+   "supplement_characters": 0,
+   "requests": 1
+  },
+  {
+   "record_id": "39119725",
+   "status": "retrieved",
+   "full_text_characters": 13231,
+   "supplement_characters": 0,
+   "requests": 1
+  },
+  {
+   "record_id": "39136778",
+   "status": "no_source",
+   "full_text_characters": 0,
+   "supplement_characters": 0,
+   "requests": 1
+  },
+  {
+   "record_id": "39148858",
+   "status": "retrieved",
+   "full_text_characters": 39705,
+   "supplement_characters": 1016719,
+   "requests": 3
+  },
+  {
+   "record_id": "39156738",
+   "status": "retrieved",
+   "full_text_characters": 19040,
+   "supplement_characters": 52886,
+   "requests": 1
+  },
+  {
+   "record_id": "39221148",
+   "status": "retrieved",
+   "full_text_characters": 31658,
+   "supplement_characters": 1067991,
+   "requests": 3
+  },
+  {
+   "record_id": "39237840",
+   "status": "no_source",
+   "full_text_characters": 0,
+   "supplement_characters": 0,
+   "requests": 1
+  },
+  {
+   "record_id": "39247875",
+   "status": "retrieved",
+   "full_text_characters": 31083,
+   "supplement_characters": 1334611,
+   "requests": 4
+  },
+  {
+   "record_id": "39267832",
+   "status": "retrieved",
+   "full_text_characters": 28167,
+   "supplement_characters": 171641,
+   "requests": 1
+  },
+  {
+   "record_id": "39273172",
+   "status": "retrieved",
+   "full_text_characters": 28790,
+   "supplement_characters": 1188569,
+   "requests": 4
+  },
+  {
+   "record_id": "39297226",
+   "status": "retrieved",
+   "full_text_characters": 21690,
+   "supplement_characters": 0,
+   "requests": 1
+  },
+  {
+   "record_id": "39351539",
+   "status": "retrieved",
+   "full_text_characters": 36398,
+   "supplement_characters": 1499526,
+   "requests": 4
+  },
+  {
+   "record_id": "39355913",
+   "status": "no_source",
+   "full_text_characters": 0,
+   "supplement_characters": 0,
+   "requests": 1
+  },
+  {
+   "record_id": "39386869",
+   "status": "retrieved",
+   "full_text_characters": 65323,
+   "supplement_characters": 26978,
+   "requests": 1
+  },
+  {
+   "record_id": "39392298",
+   "status": "retrieved",
+   "full_text_characters": 46990,
+   "supplement_characters": 9241759,
+   "requests": 24
+  },
+  {
+   "record_id": "39397782",
+   "status": "retrieved",
+   "full_text_characters": 41138,
+   "supplement_characters": 88494,
+   "requests": 1
+  },
+  {
+   "record_id": "39398994",
+   "status": "retrieved",
+   "full_text_characters": 24413,
+   "supplement_characters": 1128659,
+   "requests": 3
+  },
+  {
+   "record_id": "39400547",
+   "status": "no_source",
+   "full_text_characters": 0,
+   "supplement_characters": 0,
+   "requests": 1
+  },
+  {
+   "record_id": "39408566",
+   "status": "retrieved",
+   "full_text_characters": 41658,
+   "supplement_characters": 446757,
+   "requests": 2
+  },
+  {
+   "record_id": "39434187",
+   "status": "retrieved",
+   "full_text_characters": 57726,
+   "supplement_characters": 386751,
+   "requests": 2
+  },
+  {
+   "record_id": "39492919",
+   "status": "retrieved",
+   "full_text_characters": 34768,
+   "supplement_characters": 51208,
+   "requests": 1
+  },
+  {
+   "record_id": "39536725",
+   "status": "no_source",
+   "full_text_characters": 0,
+   "supplement_characters": 0,
+   "requests": 1
+  },
+  {
+   "record_id": "39562718",
+   "status": "no_source",
+   "full_text_characters": 0,
+   "supplement_characters": 0,
+   "requests": 1
+  },
+  {
+   "record_id": "39572695",
+   "status": "retrieved",
+   "full_text_characters": 73837,
+   "supplement_characters": 91115455,
+   "requests": 228
+  },
+  {
+   "record_id": "39574905",
+   "status": "retrieved",
+   "full_text_characters": 30407,
+   "supplement_characters": 16038,
+   "requests": 1
+  },
+  {
+   "record_id": "39585470",
+   "status": "no_source",
+   "full_text_characters": 0,
+   "supplement_characters": 0,
+   "requests": 1
+  },
+  {
+   "record_id": "39592890",
+   "status": "retrieved",
+   "full_text_characters": 31864,
+   "supplement_characters": 4270404,
+   "requests": 11
+  },
+  {
+   "record_id": "39637861",
+   "status": "retrieved",
+   "full_text_characters": 55166,
+   "supplement_characters": 193724,
+   "requests": 1
+  },
+  {
+   "record_id": "39669686",
+   "status": "retrieved",
+   "full_text_characters": 48533,
+   "supplement_characters": 0,
+   "requests": 1
+  },
+  {
+   "record_id": "39723341",
+   "status": "retrieved",
+   "full_text_characters": 38758,
+   "supplement_characters": 0,
+   "requests": 1
+  },
+  {
+   "record_id": "39747981",
+   "status": "retrieved",
+   "full_text_characters": 33425,
+   "supplement_characters": 390990,
+   "requests": 2
+  },
+  {
+   "record_id": "39755304",
+   "status": "no_source",
+   "full_text_characters": 0,
+   "supplement_characters": 0,
+   "requests": 1
+  },
+  {
+   "record_id": "39763524",
+   "status": "retrieved",
+   "full_text_characters": 29822,
+   "supplement_characters": 2807697,
+   "requests": 8
+  },
+  {
+   "record_id": "39802509",
+   "status": "retrieved",
+   "full_text_characters": 43062,
+   "supplement_characters": 0,
+   "requests": 1
+  },
+  {
+   "record_id": "39806440",
+   "status": "retrieved",
+   "full_text_characters": 32877,
+   "supplement_characters": 118688,
+   "requests": 1
+  },
+  {
+   "record_id": "39823480",
+   "status": "retrieved",
+   "full_text_characters": 28554,
+   "supplement_characters": 8872,
+   "requests": 1
+  },
+  {
+   "record_id": "39824903",
+   "status": "retrieved",
+   "full_text_characters": 45577,
+   "supplement_characters": 222594,
+   "requests": 1
+  },
+  {
+   "record_id": "39842943",
+   "status": "no_source",
+   "full_text_characters": 0,
+   "supplement_characters": 0,
+   "requests": 1
+  },
+  {
+   "record_id": "39844246",
+   "status": "retrieved",
+   "full_text_characters": 35673,
+   "supplement_characters": 557450,
+   "requests": 2
+  },
+  {
+   "record_id": "39846783",
+   "status": "retrieved",
+   "full_text_characters": 32515,
+   "supplement_characters": 201133540,
+   "requests": 503
+  },
+  {
+   "record_id": "39856218",
+   "status": "retrieved",
+   "full_text_characters": 57061,
+   "supplement_characters": 8279533,
+   "requests": 21
+  },
+  {
+   "record_id": "39870808",
+   "status": "retrieved",
+   "full_text_characters": 21159,
+   "supplement_characters": 94720,
+   "requests": 1
+  },
+  {
+   "record_id": "39885106",
+   "status": "no_source",
+   "full_text_characters": 0,
+   "supplement_characters": 0,
+   "requests": 1
+  },
+  {
+   "record_id": "39887658",
+   "status": "retrieved",
+   "full_text_characters": 63478,
+   "supplement_characters": 76410,
+   "requests": 1
+  },
+  {
+   "record_id": "39895541",
+   "status": "retrieved",
+   "full_text_characters": 40072,
+   "supplement_characters": 8423161,
+   "requests": 22
+  },
+  {
+   "record_id": "39911230",
+   "status": "retrieved",
+   "full_text_characters": 39201,
+   "supplement_characters": 117673,
+   "requests": 1
+  },
+  {
+   "record_id": "39933395",
+   "status": "no_source",
+   "full_text_characters": 0,
+   "supplement_characters": 0,
+   "requests": 1
+  },
+  {
+   "record_id": "39960916",
+   "status": "retrieved",
+   "full_text_characters": 31852,
+   "supplement_characters": 118687,
+   "requests": 1
+  },
+  {
+   "record_id": "39979251",
+   "status": "retrieved",
+   "full_text_characters": 18199,
+   "supplement_characters": 1401,
+   "requests": 1
+  },
+  {
+   "record_id": "39994764",
+   "status": "retrieved",
+   "full_text_characters": 40954,
+   "supplement_characters": 2488378,
+   "requests": 7
+  },
+  {
+   "record_id": "40008516",
+   "status": "retrieved",
+   "full_text_characters": 33708,
+   "supplement_characters": 244686,
+   "requests": 1
+  },
+  {
+   "record_id": "40026415",
+   "status": "retrieved",
+   "full_text_characters": 51868,
+   "supplement_characters": 71196357,
+   "requests": 179
+  },
+  {
+   "record_id": "40037332",
+   "status": "retrieved",
+   "full_text_characters": 73867,
+   "supplement_characters": 2821017,
+   "requests": 8
+  },
+  {
+   "record_id": "40038097",
+   "status": "no_source",
+   "full_text_characters": 0,
+   "supplement_characters": 0,
+   "requests": 1
+  },
+  {
+   "record_id": "40050982",
+   "status": "retrieved",
+   "full_text_characters": 52526,
+   "supplement_characters": 38658,
+   "requests": 1
+  },
+  {
+   "record_id": "40052860",
+   "status": "retrieved",
+   "full_text_characters": 83122,
+   "supplement_characters": 2301248,
+   "requests": 6
+  },
+  {
+   "record_id": "40061319",
+   "status": "retrieved",
+   "full_text_characters": 21403,
+   "supplement_characters": 0,
+   "requests": 1
+  },
+  {
+   "record_id": "40108295",
+   "status": "retrieved",
+   "full_text_characters": 52485,
+   "supplement_characters": 54949,
+   "requests": 1
+  },
+  {
+   "record_id": "40135555",
+   "status": "retrieved",
+   "full_text_characters": 41486,
+   "supplement_characters": 111739,
+   "requests": 1
+  },
+  {
+   "record_id": "40148470",
+   "status": "retrieved",
+   "full_text_characters": 113905,
+   "supplement_characters": 48410561,
+   "requests": 122
+  },
+  {
+   "record_id": "40149599",
+   "status": "retrieved",
+   "full_text_characters": 26053,
+   "supplement_characters": 7679,
+   "requests": 1
+  },
+  {
+   "record_id": "40186323",
+   "status": "retrieved",
+   "full_text_characters": 43535,
+   "supplement_characters": 703011,
+   "requests": 2
+  },
+  {
+   "record_id": "40193678",
+   "status": "retrieved",
+   "full_text_characters": 28376,
+   "supplement_characters": 9368,
+   "requests": 1
+  },
+  {
+   "record_id": "40225784",
+   "status": "retrieved",
+   "full_text_characters": 59671,
+   "supplement_characters": 4244589,
+   "requests": 11
+  },
+  {
+   "record_id": "40263317",
+   "status": "retrieved",
+   "full_text_characters": 38621,
+   "supplement_characters": 328171,
+   "requests": 1
+  },
+  {
+   "record_id": "40266545",
+   "status": "no_source",
+   "full_text_characters": 0,
+   "supplement_characters": 0,
+   "requests": 1
+  },
+  {
+   "record_id": "40267509",
+   "status": "no_source",
+   "full_text_characters": 0,
+   "supplement_characters": 0,
+   "requests": 1
+  },
+  {
+   "record_id": "40269081",
+   "status": "retrieved",
+   "full_text_characters": 29917,
+   "supplement_characters": 4371206,
+   "requests": 12
+  },
+  {
+   "record_id": "40304587",
+   "status": "retrieved",
+   "full_text_characters": 35274,
+   "supplement_characters": 77896,
+   "requests": 1
+  },
+  {
+   "record_id": "40327005",
+   "status": "retrieved",
+   "full_text_characters": 55599,
+   "supplement_characters": 2992749,
+   "requests": 8
+  },
+  {
+   "record_id": "40355193",
+   "status": "retrieved",
+   "full_text_characters": 26533,
+   "supplement_characters": 8776575,
+   "requests": 23
+  },
+  {
+   "record_id": "40380075",
+   "status": "no_source",
+   "full_text_characters": 0,
+   "supplement_characters": 0,
+   "requests": 1
+  },
+  {
+   "record_id": "40400956",
+   "status": "retrieved",
+   "full_text_characters": 54903,
+   "supplement_characters": 78404,
+   "requests": 1
+  },
+  {
+   "record_id": "40420090",
+   "status": "retrieved",
+   "full_text_characters": 36785,
+   "supplement_characters": 576525,
+   "requests": 2
+  },
+  {
+   "record_id": "40426943",
+   "status": "retrieved",
+   "full_text_characters": 42067,
+   "supplement_characters": 3675309,
+   "requests": 10
+  },
+  {
+   "record_id": "40442727",
+   "status": "retrieved",
+   "full_text_characters": 37145,
+   "supplement_characters": 607407,
+   "requests": 2
+  },
+  {
+   "record_id": "40444654",
+   "status": "retrieved",
+   "full_text_characters": 31535,
+   "supplement_characters": 129171,
+   "requests": 1
+  },
+  {
+   "record_id": "40450304",
+   "status": "retrieved",
+   "full_text_characters": 30419,
+   "supplement_characters": 230580,
+   "requests": 1
+  },
+  {
+   "record_id": "40452368",
+   "status": "no_source",
+   "full_text_characters": 0,
+   "supplement_characters": 0,
+   "requests": 1
+  },
+  {
+   "record_id": "40453312",
+   "status": "retrieved",
+   "full_text_characters": 31077,
+   "supplement_characters": 494057,
+   "requests": 2
+  },
+  {
+   "record_id": "40455174",
+   "status": "retrieved",
+   "full_text_characters": 44354,
+   "supplement_characters": 30535,
+   "requests": 1
+  },
+  {
+   "record_id": "40462010",
+   "status": "retrieved",
+   "full_text_characters": 27868,
+   "supplement_characters": 5454825,
+   "requests": 14
+  },
+  {
+   "record_id": "40533710",
+   "status": "retrieved",
+   "full_text_characters": 34129,
+   "supplement_characters": 4577871,
+   "requests": 12
+  },
+  {
+   "record_id": "40596960",
+   "status": "retrieved",
+   "full_text_characters": 37801,
+   "supplement_characters": 40322160,
+   "requests": 101
+  },
+  {
+   "record_id": "40604874",
+   "status": "retrieved",
+   "full_text_characters": 27764,
+   "supplement_characters": 2918121,
+   "requests": 8
+  },
+  {
+   "record_id": "40657364",
+   "status": "retrieved",
+   "full_text_characters": 34127,
+   "supplement_characters": 508229,
+   "requests": 2
+  },
+  {
+   "record_id": "40671653",
+   "status": "retrieved",
+   "full_text_characters": 80,
+   "supplement_characters": 0,
+   "requests": 1
+  },
+  {
+   "record_id": "40684027",
+   "status": "no_source",
+   "full_text_characters": 0,
+   "supplement_characters": 0,
+   "requests": 1
+  },
+  {
+   "record_id": "40689090",
+   "status": "retrieved",
+   "full_text_characters": 43136,
+   "supplement_characters": 117097,
+   "requests": 1
+  },
+  {
+   "record_id": "40696606",
+   "status": "retrieved",
+   "full_text_characters": 41849,
+   "supplement_characters": 37507,
+   "requests": 1
+  },
+  {
+   "record_id": "40754897",
+   "status": "retrieved",
+   "full_text_characters": 32387,
+   "supplement_characters": 0,
+   "requests": 1
+  },
+  {
+   "record_id": "40779076",
+   "status": "retrieved",
+   "full_text_characters": 22178,
+   "supplement_characters": 0,
+   "requests": 1
+  },
+  {
+   "record_id": "40813130",
+   "status": "no_source",
+   "full_text_characters": 0,
+   "supplement_characters": 0,
+   "requests": 1
+  },
+  {
+   "record_id": "40820167",
+   "status": "retrieved",
+   "full_text_characters": 37759,
+   "supplement_characters": 270835,
+   "requests": 1
+  },
+  {
+   "record_id": "40827287",
+   "status": "retrieved",
+   "full_text_characters": 45022,
+   "supplement_characters": 0,
+   "requests": 1
+  },
+  {
+   "record_id": "40893937",
+   "status": "retrieved",
+   "full_text_characters": 33737,
+   "supplement_characters": 27501,
+   "requests": 1
+  },
+  {
+   "record_id": "40897285",
+   "status": "no_source",
+   "full_text_characters": 0,
+   "supplement_characters": 0,
+   "requests": 1
+  },
+  {
+   "record_id": "40974265",
+   "status": "no_source",
+   "full_text_characters": 0,
+   "supplement_characters": 0,
+   "requests": 1
+  },
+  {
+   "record_id": "40991151",
+   "status": "retrieved",
+   "full_text_characters": 33399,
+   "supplement_characters": 8799974,
+   "requests": 23
+  },
+  {
+   "record_id": "40996951",
+   "status": "retrieved",
+   "full_text_characters": 53282,
+   "supplement_characters": 2346367,
+   "requests": 6
+  },
+  {
+   "record_id": "41063246",
+   "status": "retrieved",
+   "full_text_characters": 33617,
+   "supplement_characters": 255093,
+   "requests": 1
+  },
+  {
+   "record_id": "41088581",
+   "status": "retrieved",
+   "full_text_characters": 31072,
+   "supplement_characters": 2068579,
+   "requests": 6
+  },
+  {
+   "record_id": "41098849",
+   "status": "retrieved",
+   "full_text_characters": 25554,
+   "supplement_characters": 0,
+   "requests": 1
+  },
+  {
+   "record_id": "41138838",
+   "status": "no_source",
+   "full_text_characters": 0,
+   "supplement_characters": 0,
+   "requests": 1
+  },
+  {
+   "record_id": "41142151",
+   "status": "retrieved",
+   "full_text_characters": 28480,
+   "supplement_characters": 56693,
+   "requests": 1
+  },
+  {
+   "record_id": "41158172",
+   "status": "source_unreadable",
+   "full_text_characters": 0,
+   "supplement_characters": 0,
+   "requests": 1
+  },
+  {
+   "record_id": "41180196",
+   "status": "retrieved",
+   "full_text_characters": 37733,
+   "supplement_characters": 14670,
+   "requests": 1
+  },
+  {
+   "record_id": "41193035",
+   "status": "no_source",
+   "full_text_characters": 0,
+   "supplement_characters": 0,
+   "requests": 1
+  },
+  {
+   "record_id": "41200167",
+   "status": "retrieved",
+   "full_text_characters": 32594,
+   "supplement_characters": 8358491,
+   "requests": 21
+  },
+  {
+   "record_id": "41200820",
+   "status": "retrieved",
+   "full_text_characters": 37466,
+   "supplement_characters": 69667,
+   "requests": 1
+  },
+  {
+   "record_id": "41209747",
+   "status": "retrieved",
+   "full_text_characters": 31410,
+   "supplement_characters": 0,
+   "requests": 1
+  },
+  {
+   "record_id": "41239582",
+   "status": "retrieved",
+   "full_text_characters": 30316,
+   "supplement_characters": 151525,
+   "requests": 1
+  },
+  {
+   "record_id": "41247789",
+   "status": "retrieved",
+   "full_text_characters": 38991,
+   "supplement_characters": 4093140,
+   "requests": 11
+  },
+  {
+   "record_id": "41251751",
+   "status": "no_source",
+   "full_text_characters": 0,
+   "supplement_characters": 0,
+   "requests": 1
+  },
+  {
+   "record_id": "41254737",
+   "status": "retrieved",
+   "full_text_characters": 51855,
+   "supplement_characters": 1507464,
+   "requests": 4
+  },
+  {
+   "record_id": "41261583",
+   "status": "retrieved",
+   "full_text_characters": 22419,
+   "supplement_characters": 5245501,
+   "requests": 14
+  },
+  {
+   "record_id": "41261649",
+   "status": "retrieved",
+   "full_text_characters": 18825,
+   "supplement_characters": 360840,
+   "requests": 1
+  },
+  {
+   "record_id": "41270069",
+   "status": "retrieved",
+   "full_text_characters": 25624,
+   "supplement_characters": 2317112,
+   "requests": 6
+  },
+  {
+   "record_id": "41286868",
+   "status": "retrieved",
+   "full_text_characters": 28735,
+   "supplement_characters": 19015553,
+   "requests": 48
+  },
+  {
+   "record_id": "41287581",
+   "status": "no_source",
+   "full_text_characters": 0,
+   "supplement_characters": 0,
+   "requests": 1
+  },
+  {
+   "record_id": "41306657",
+   "status": "retrieved",
+   "full_text_characters": 4000,
+   "supplement_characters": 0,
+   "requests": 1
+  },
+  {
+   "record_id": "41323472",
+   "status": "retrieved",
+   "full_text_characters": 105389,
+   "supplement_characters": 2161098,
+   "requests": 6
+  },
+  {
+   "record_id": "41350740",
+   "status": "retrieved",
+   "full_text_characters": 65030,
+   "supplement_characters": 6384339,
+   "requests": 17
+  },
+  {
+   "record_id": "41358287",
+   "status": "retrieved",
+   "full_text_characters": 43728,
+   "supplement_characters": 198366,
+   "requests": 1
+  },
+  {
+   "record_id": "41372872",
+   "status": "retrieved",
+   "full_text_characters": 36707,
+   "supplement_characters": 205544,
+   "requests": 1
+  },
+  {
+   "record_id": "41387240",
+   "status": "no_source",
+   "full_text_characters": 0,
+   "supplement_characters": 0,
+   "requests": 1
+  },
+  {
+   "record_id": "41398348",
+   "status": "retrieved",
+   "full_text_characters": 30861,
+   "supplement_characters": 240149,
+   "requests": 1
+  },
+  {
+   "record_id": "41417678",
+   "status": "no_source",
+   "full_text_characters": 0,
+   "supplement_characters": 0,
+   "requests": 1
+  },
+  {
+   "record_id": "41423778",
+   "status": "no_source",
+   "full_text_characters": 0,
+   "supplement_characters": 0,
+   "requests": 1
+  },
+  {
+   "record_id": "41442772",
+   "status": "no_source",
+   "full_text_characters": 0,
+   "supplement_characters": 0,
+   "requests": 1
+  },
+  {
+   "record_id": "41478252",
+   "status": "no_source",
+   "full_text_characters": 0,
+   "supplement_characters": 0,
+   "requests": 1
+  },
+  {
+   "record_id": "41480606",
+   "status": "retrieved",
+   "full_text_characters": 59885,
+   "supplement_characters": 0,
+   "requests": 1
+  },
+  {
+   "record_id": "41494198",
+   "status": "retrieved",
+   "full_text_characters": 65197,
+   "supplement_characters": 0,
+   "requests": 1
+  },
+  {
+   "record_id": "41540382",
+   "status": "retrieved",
+   "full_text_characters": 48429,
+   "supplement_characters": 890208,
+   "requests": 3
+  },
+  {
+   "record_id": "42133815",
+   "status": "retrieved",
+   "full_text_characters": 41057,
+   "supplement_characters": 0,
+   "requests": 1
+  },
+  {
+   "record_id": "PPR1006423",
+   "status": "retrieved",
+   "full_text_characters": 45046,
+   "supplement_characters": 0,
+   "requests": 1
+  },
+  {
+   "record_id": "PPR1027188",
+   "status": "retrieved",
+   "full_text_characters": 39525,
+   "supplement_characters": 0,
+   "requests": 1
+  },
+  {
+   "record_id": "PPR1066984",
+   "status": "retrieved",
+   "full_text_characters": 40343,
+   "supplement_characters": 0,
+   "requests": 1
+  },
+  {
+   "record_id": "PPR1123489",
+   "status": "retrieved",
+   "full_text_characters": 136056,
+   "supplement_characters": 0,
+   "requests": 1
+  },
+  {
+   "record_id": "PPR1190648",
+   "status": "no_source",
+   "full_text_characters": 0,
+   "supplement_characters": 0,
+   "requests": 1
+  },
+  {
+   "record_id": "PPR1199543",
+   "status": "no_source",
+   "full_text_characters": 0,
+   "supplement_characters": 0,
+   "requests": 1
+  },
+  {
+   "record_id": "PPR1200638",
+   "status": "no_source",
+   "full_text_characters": 0,
+   "supplement_characters": 0,
+   "requests": 1
+  },
+  {
+   "record_id": "PPR1267739",
+   "status": "retrieved",
+   "full_text_characters": 18205,
+   "supplement_characters": 0,
+   "requests": 1
+  },
+  {
+   "record_id": "PPR305334",
+   "status": "retrieved",
+   "full_text_characters": 44812,
+   "supplement_characters": 0,
+   "requests": 1
+  },
+  {
+   "record_id": "PPR379555",
+   "status": "no_source",
+   "full_text_characters": 0,
+   "supplement_characters": 0,
+   "requests": 1
+  },
+  {
+   "record_id": "PPR410988",
+   "status": "retrieved",
+   "full_text_characters": 117013,
+   "supplement_characters": 0,
+   "requests": 1
+  },
+  {
+   "record_id": "PPR640820",
+   "status": "retrieved",
+   "full_text_characters": 46293,
+   "supplement_characters": 0,
+   "requests": 1
+  },
+  {
+   "record_id": "PPR670277",
+   "status": "retrieved",
+   "full_text_characters": 63480,
+   "supplement_characters": 0,
+   "requests": 1
+  },
+  {
+   "record_id": "PPR686069",
+   "status": "retrieved",
+   "full_text_characters": 54134,
+   "supplement_characters": 0,
+   "requests": 1
+  },
+  {
+   "record_id": "PPR763954",
+   "status": "retrieved",
+   "full_text_characters": 56328,
+   "supplement_characters": 0,
+   "requests": 1
+  },
+  {
+   "record_id": "PPR764288",
+   "status": "retrieved",
+   "full_text_characters": 78276,
+   "supplement_characters": 0,
+   "requests": 1
+  },
+  {
+   "record_id": "PPR770199",
+   "status": "retrieved",
+   "full_text_characters": 84401,
+   "supplement_characters": 0,
+   "requests": 1
+  },
+  {
+   "record_id": "PPR791620",
+   "status": "retrieved",
+   "full_text_characters": 90069,
+   "supplement_characters": 0,
+   "requests": 1
+  },
+  {
+   "record_id": "PPR811933",
+   "status": "retrieved",
+   "full_text_characters": 87238,
+   "supplement_characters": 0,
+   "requests": 1
+  },
+  {
+   "record_id": "PPR839797",
+   "status": "retrieved",
+   "full_text_characters": 45232,
+   "supplement_characters": 0,
+   "requests": 1
+  },
+  {
+   "record_id": "PPR858640",
+   "status": "no_source",
+   "full_text_characters": 0,
+   "supplement_characters": 0,
+   "requests": 1
+  },
+  {
+   "record_id": "PPR888008",
+   "status": "no_source",
+   "full_text_characters": 0,
+   "supplement_characters": 0,
+   "requests": 1
+  },
+  {
+   "record_id": "PPR904406",
+   "status": "retrieved",
+   "full_text_characters": 46635,
+   "supplement_characters": 0,
+   "requests": 1
+  },
+  {
+   "record_id": "PPR905535",
+   "status": "retrieved",
+   "full_text_characters": 30821,
+   "supplement_characters": 0,
+   "requests": 1
+  },
+  {
+   "record_id": "PPR911454",
+   "status": "retrieved",
+   "full_text_characters": 303,
+   "supplement_characters": 0,
+   "requests": 1
+  },
+  {
+   "record_id": "PPR914754",
+   "status": "retrieved",
+   "full_text_characters": 115985,
+   "supplement_characters": 0,
+   "requests": 1
+  },
+  {
+   "record_id": "PPR936397",
+   "status": "retrieved",
+   "full_text_characters": 30453,
+   "supplement_characters": 0,
+   "requests": 1
+  },
+  {
+   "record_id": "PPR941213",
+   "status": "no_source",
+   "full_text_characters": 0,
+   "supplement_characters": 0,
+   "requests": 1
+  },
+  {
+   "record_id": "PPR961122",
+   "status": "retrieved",
+   "full_text_characters": 73976,
+   "supplement_characters": 0,
+   "requests": 1
+  },
+  {
+   "record_id": "PPR965441",
+   "status": "retrieved",
+   "full_text_characters": 65977,
+   "supplement_characters": 0,
+   "requests": 1
+  },
+  {
+   "record_id": "PPR972081",
+   "status": "retrieved",
+   "full_text_characters": 46964,
+   "supplement_characters": 0,
+   "requests": 1
+  },
+  {
+   "record_id": "PPR989506",
+   "status": "retrieved",
+   "full_text_characters": 303,
+   "supplement_characters": 0,
+   "requests": 1
+  },
+  {
+   "record_id": "PPR990002",
+   "status": "retrieved",
+   "full_text_characters": 78893,
+   "supplement_characters": 0,
+   "requests": 1
+  },
+  {
+   "record_id": "W3111331057",
+   "status": "no_source",
+   "full_text_characters": 0,
+   "supplement_characters": 0,
+   "requests": 1
+  },
+  {
+   "record_id": "W4361194763",
+   "status": "no_source",
+   "full_text_characters": 0,
+   "supplement_characters": 0,
+   "requests": 1
+  },
+  {
+   "record_id": "W4387381228",
+   "status": "no_source",
+   "full_text_characters": 0,
+   "supplement_characters": 0,
+   "requests": 1
+  },
+  {
+   "record_id": "W4390198428",
+   "status": "no_source",
+   "full_text_characters": 0,
+   "supplement_characters": 0,
+   "requests": 1
+  },
+  {
+   "record_id": "W4390198817",
+   "status": "no_source",
+   "full_text_characters": 0,
+   "supplement_characters": 0,
+   "requests": 1
+  },
+  {
+   "record_id": "W4399019460",
+   "status": "retrieved",
+   "full_text_characters": 21254,
+   "supplement_characters": 0,
+   "requests": 1
+  },
+  {
+   "record_id": "W4399137331",
+   "status": "no_source",
+   "full_text_characters": 0,
+   "supplement_characters": 0,
+   "requests": 1
+  },
+  {
+   "record_id": "W4403336550",
+   "status": "retrieved",
+   "full_text_characters": 303,
+   "supplement_characters": 0,
+   "requests": 1
+  },
+  {
+   "record_id": "W4404573575",
+   "status": "retrieved",
+   "full_text_characters": 53984,
+   "supplement_characters": 0,
+   "requests": 1
+  },
+  {
+   "record_id": "W4406196960",
+   "status": "no_source",
+   "full_text_characters": 0,
+   "supplement_characters": 0,
+   "requests": 1
+  },
+  {
+   "record_id": "W4406210404",
+   "status": "no_source",
+   "full_text_characters": 0,
+   "supplement_characters": 0,
+   "requests": 1
+  },
+  {
+   "record_id": "W4411291538",
+   "status": "no_source",
+   "full_text_characters": 0,
+   "supplement_characters": 0,
+   "requests": 1
+  },
+  {
+   "record_id": "W4413357814",
+   "status": "no_source",
+   "full_text_characters": 0,
+   "supplement_characters": 0,
+   "requests": 1
+  },
+  {
+   "record_id": "W4415402939",
+   "status": "retrieved",
+   "full_text_characters": 303,
+   "supplement_characters": 0,
+   "requests": 1
+  },
+  {
+   "record_id": "W4416295106",
+   "status": "retrieved",
+   "full_text_characters": 303,
+   "supplement_characters": 0,
+   "requests": 1
+  },
+  {
+   "record_id": "W4416777227",
+   "status": "retrieved",
+   "full_text_characters": 71578,
+   "supplement_characters": 0,
+   "requests": 1
+  },
+  {
+   "record_id": "W4416868157",
+   "status": "no_source",
+   "full_text_characters": 0,
+   "supplement_characters": 0,
+   "requests": 1
+  },
+  {
+   "record_id": "W7104114135",
+   "status": "no_source",
+   "full_text_characters": 0,
+   "supplement_characters": 0,
+   "requests": 1
+  }
+ ]
+}
