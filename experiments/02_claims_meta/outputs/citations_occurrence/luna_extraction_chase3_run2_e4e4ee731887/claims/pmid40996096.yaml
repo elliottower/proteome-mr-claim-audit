@@ -1,0 +1,12 @@
+source:
+  citation: pmid40996096
+  local: sources/pmid40996096.txt
+  sha256: fb7e041d652dc0d7e3f8dde6a69965edf21977557420e64ac5d8dff5b9549dcb
+  url: https://pubmed.ncbi.nlm.nih.gov/40996096/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: The causal effect size from tuberculosis to interleukin-1R2 in the upstream causal pathway
+        was 0.032 [0.002, 0.062], and the multivariate Mendelian Randomisation effect size from interleukin-1R2
+        to depression in the downstream causal pathway was 0.023 [0.003, 0.043].

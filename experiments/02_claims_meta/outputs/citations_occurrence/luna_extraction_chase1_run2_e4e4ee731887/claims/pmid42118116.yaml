@@ -1,0 +1,11 @@
+source:
+  citation: pmid42118116
+  local: sources/pmid42118116.txt
+  sha256: 4544ec043458b493754e7c188dabcdb28163cf9da2c81e129abda5a7a54129ae
+  url: https://pubmed.ncbi.nlm.nih.gov/42118116/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: 'MR analysis revealed that a higher level of GATM was associated with a reduced risk of IVDD
+        (odds ratio: 0.934, 95% confidence interval, 0.887-0.983).'

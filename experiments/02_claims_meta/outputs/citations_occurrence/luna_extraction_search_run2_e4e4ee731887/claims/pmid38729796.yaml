@@ -1,0 +1,17 @@
+source:
+  citation: pmid38729796
+  local: sources/pmid38729796.txt
+  sha256: fc8a42ef8c8c48a04cb0259db48e67c1f617594cc29cf8156cc02ec117468da4
+  url: https://pubmed.ncbi.nlm.nih.gov/38729796/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: 'MR analyses found that genetically predicted circulating levels of von Willebrand factor
+        A domain-containing 1 (von Willebrand factor A domain containing 1 [VWA1], odds ratios: 0.94,
+        95% CI 0.92-0.97, P = 1.28 × 10-5) were inversely associated with periodontitis.'
+  c001:
+    quotes:
+    - exact: 'In contrast, the level of growth differentiation factor 15 (growth differentiation factor
+        15 [GDF15], odds ratios: 1.05, 95% CI 1.02-1.07, P = 2.12 × 10-5) might be associated with an
+        increased risk of periodontitis.'

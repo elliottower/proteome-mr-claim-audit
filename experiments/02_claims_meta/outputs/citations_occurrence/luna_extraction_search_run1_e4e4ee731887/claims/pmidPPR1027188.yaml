@@ -1,0 +1,16 @@
+source:
+  citation: pmidPPR1027188
+  local: sources/pmidPPR1027188.txt
+  sha256: 1131f48c2f22509977f5812dcbc109c2a27a86b112ee162eef98b43208058c4d
+  url: https://europepmc.org/article/PPR/PPR1027188
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: Specifically, Phosphatidylethanolamine(PE) was found to indirectly influence colon cancer
+        via Axin-1 concentration (OR=0.88 [95%CI(0.78, 0.99)], P =0.04).
+  c001:
+    quotes:
+    - exact: Although no mediating role of IL-17 in the relationship between phosphatidylcholine(PC) and
+        CC was observed, our results suggest that PC can promote the development of CC(OR=1.12 [95%CI(1.00,1.24)],
+        P=0.040), while IL-17 can inhibit the progression of CC(OR=0.87 [95%CI(0.76, 0.99)], P=0.034).

@@ -1,0 +1,19 @@
+source:
+  citation: pmid40773112
+  local: sources/pmid40773112.txt
+  sha256: f49f67489d6999eae8ba6402293e6b706a609525147764bc1bf6eada06d71eb6
+  url: https://pubmed.ncbi.nlm.nih.gov/40773112/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: After Bonferroni correction, we identified a significant inverse genetic association between
+        Leukemia inhibitory factor receptor (LIFR) levels and BC risk.
+  c001:
+    quotes:
+    - exact: While C-X-C motif chemokine 5 (CXCL5) did not survive Bonferroni correction, it showed significant
+        negative association with BC in MVMR analysis.
+  c002:
+    quotes:
+    - exact: Colocalization analysis revealed strong evidence of shared genetic variants between LIFR
+        and BC, suggesting common genetic determinants underlying their relationship.

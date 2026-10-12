@@ -1,0 +1,29 @@
+source:
+  citation: pmid39892755
+  local: sources/pmid39892755.txt
+  sha256: 45280bb177d0c3617624933221210b6580f2538258aa899f7b7ac8dc04fe519d
+  url: https://pubmed.ncbi.nlm.nih.gov/39892755/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: In primary analyses, MR analysis revealed 2 plasma protein significantly associated with
+        MDD risk at Bonferroni correction (P < 3.720 × 10-5), including butyrophilin subfamily 2 member
+        A1 (BTN2A1, OR = 0.860; 95 % CI, 0.825-0.895; P = 1.79 × 10-5) and butyrophilin subfamily 3 member
+        A2 (BTN3A2, OR = 1.071; 95 % CI, 1.056-1.086; P = 3.89 × 10-6).
+  c001:
+    quotes:
+    - exact: In primary analyses, MR analysis revealed 2 plasma protein significantly associated with
+        MDD risk at Bonferroni correction (P < 3.720 × 10-5), including butyrophilin subfamily 2 member
+        A1 (BTN2A1, OR = 0.860; 95 % CI, 0.825-0.895; P = 1.79 × 10-5) and butyrophilin subfamily 3 member
+        A2 (BTN3A2, OR = 1.071; 95 % CI, 1.056-1.086; P = 3.89 × 10-6).
+  c002:
+    quotes:
+    - exact: Bayesian co-localization indicated that BTN2A1 (coloc.abf-PPH4 = 0.620) and BTN3A2 (coloc.abf-PPH4
+        = 0.872) exhibited a shared variant with MDD, a finding that was subsequently validated by HEIDI
+        test. In the replication stage, BTN2A1 and BTN3A2 were successfully validated in the FinnGen cohort.
+  c003:
+    quotes:
+    - exact: Bayesian co-localization indicated that BTN2A1 (coloc.abf-PPH4 = 0.620) and BTN3A2 (coloc.abf-PPH4
+        = 0.872) exhibited a shared variant with MDD, a finding that was subsequently validated by HEIDI
+        test. In the replication stage, BTN2A1 and BTN3A2 were successfully validated in the FinnGen cohort.

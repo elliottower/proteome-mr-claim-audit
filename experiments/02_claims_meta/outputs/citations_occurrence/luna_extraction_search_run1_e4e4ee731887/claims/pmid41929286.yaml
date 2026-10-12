@@ -1,0 +1,29 @@
+source:
+  citation: pmid41929286
+  local: sources/pmid41929286.txt
+  sha256: f429ddce9d71ac6fa5b93fe8208b535d6f8df5172f903ed93e95434df5b0f8db
+  url: https://pubmed.ncbi.nlm.nih.gov/41929286/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: Mendelian randomization (MR) and colocalization analyses supported a causal and protective
+        effect of higher genetically predicted circulating AAT levels on sepsis risk.
+  c001:
+    quotes:
+    - exact: Mendelian randomization (MR) and colocalization analyses supported a causal and protective
+        effect of higher genetically predicted circulating AAT levels on sepsis risk. The protective association
+        was highly specific to acute infectious phenotypes, including pneumonia, and was not observed
+        for non-infectious traits.
+  c002:
+    quotes:
+    - exact: Mendelian randomization (MR) and colocalization analyses supported a causal and protective
+        effect of higher genetically predicted circulating AAT levels on sepsis risk. The protective association
+        was highly specific to acute infectious phenotypes, including pneumonia, and was not observed
+        for non-infectious traits.
+  c003:
+    quotes:
+    - exact: In a meta-analysis of genome-wide association studies of 60,314 sepsis cases and 1,464,733
+        controls, we identified four genome-wide significant loci, including a missense variant in SERPINA1,
+        encoding alpha-1 antitrypsin (AAT), that was also associated with 30-day sepsis mortality in the
+        UK Biobank.

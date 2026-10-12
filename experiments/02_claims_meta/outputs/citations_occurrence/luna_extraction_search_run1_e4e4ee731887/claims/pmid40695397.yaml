@@ -1,0 +1,29 @@
+source:
+  citation: pmid40695397
+  local: sources/pmid40695397.txt
+  sha256: bbefb43985a10ed5f8ccfab9bb77312365188f5e8eaee75c3b65582447293dda
+  url: https://pubmed.ncbi.nlm.nih.gov/40695397/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: 'Genetically predicted CASP9 (OR: 2.65, 95 % CI: 1.65 to 4.26, pFDR = 0.007) and ASPH (OR:
+        2.03, 95 % CI: 1.32 to 3.11, pFDR = 0.024) were significantly associated with a higher risk of
+        atrioventricular block, while genetically predicted SRA1 (OR: 0.54, 95 % CI: 0.39 to 0.75, pFDR
+        = 0.009) was markedly associated with a lower risk of atrioventricular block.'
+  c001:
+    quotes:
+    - exact: 'Genetically predicted CASP9 (OR: 2.65, 95 % CI: 1.65 to 4.26, pFDR = 0.007) and ASPH (OR:
+        2.03, 95 % CI: 1.32 to 3.11, pFDR = 0.024) were significantly associated with a higher risk of
+        atrioventricular block, while genetically predicted SRA1 (OR: 0.54, 95 % CI: 0.39 to 0.75, pFDR
+        = 0.009) was markedly associated with a lower risk of atrioventricular block.'
+  c002:
+    quotes:
+    - exact: 'Genetically predicted CASP9 (OR: 2.65, 95 % CI: 1.65 to 4.26, pFDR = 0.007) and ASPH (OR:
+        2.03, 95 % CI: 1.32 to 3.11, pFDR = 0.024) were significantly associated with a higher risk of
+        atrioventricular block, while genetically predicted SRA1 (OR: 0.54, 95 % CI: 0.39 to 0.75, pFDR
+        = 0.009) was markedly associated with a lower risk of atrioventricular block.'
+  c003:
+    quotes:
+    - exact: 'Additionally, the protein CFHR5 (OR: 0.82, 95 % CI: 0.70 to 0.96, pFDR = 0.157) was linked
+        to a decreased incidence of left bundle branch block with suggestive significance.'

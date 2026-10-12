@@ -1,0 +1,29 @@
+source:
+  citation: pmid39366640
+  local: sources/pmid39366640.txt
+  sha256: f7a31ccd2024e23a096d180d78f22efa7aae7267fe6cebf386c4310aca61063c
+  url: https://pubmed.ncbi.nlm.nih.gov/39366640/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: 'However, a causal relationship was found between inhibition of ETFDH gene, a target of metformin
+        expressed in cultured fibroblasts, and cholelithiasis (OR: 0.84, 95 %CI: (0.72,0.97), p = 0.021),
+        as well as between GLP1R expression in the brain caudate basal ganglia and cholecystitis (OR:
+        1.29, 95 %CI: (1.11,1.49), p = 0.001).'
+  c001:
+    quotes:
+    - exact: 'However, a causal relationship was found between inhibition of ETFDH gene, a target of metformin
+        expressed in cultured fibroblasts, and cholelithiasis (OR: 0.84, 95 %CI: (0.72,0.97), p = 0.021),
+        as well as between GLP1R expression in the brain caudate basal ganglia and cholecystitis (OR:
+        1.29, 95 %CI: (1.11,1.49), p = 0.001).'
+  c002:
+    quotes:
+    - exact: The effect of ETFDH inhibition on cholelithiasis through Interleukin-10 receptor subunit
+        beta (IL-10RB) levels and Neurotrophin-3 (NT-3) levels, with a mediated proportion of 8 % and
+        8 %, respectively.
+  c003:
+    quotes:
+    - exact: The effect of ETFDH inhibition on cholelithiasis through Interleukin-10 receptor subunit
+        beta (IL-10RB) levels and Neurotrophin-3 (NT-3) levels, with a mediated proportion of 8 % and
+        8 %, respectively.

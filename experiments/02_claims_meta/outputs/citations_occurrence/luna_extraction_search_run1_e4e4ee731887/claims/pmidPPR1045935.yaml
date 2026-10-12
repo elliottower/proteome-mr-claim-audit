@@ -1,0 +1,15 @@
+source:
+  citation: pmidPPR1045935
+  local: sources/pmidPPR1045935.txt
+  sha256: 775df73b5112ee842437505ceef546a4e7fe0b89e1ff6aa7585728f6916316bc
+  url: https://europepmc.org/article/PPR/PPR1045935
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: MR analysis identified 62 plasma proteins significantly associated with OSA risk, including
+        NTN4 (p=0.003, OR=1.076, CI [1.024, 1.129]) and TFF2 (p=0.004, OR=1.098, CI [1.029, 1.174]).
+  c001:
+    quotes:
+    - exact: MR analysis identified 62 plasma proteins significantly associated with OSA risk, including
+        NTN4 (p=0.003, OR=1.076, CI [1.024, 1.129]) and TFF2 (p=0.004, OR=1.098, CI [1.029, 1.174]).

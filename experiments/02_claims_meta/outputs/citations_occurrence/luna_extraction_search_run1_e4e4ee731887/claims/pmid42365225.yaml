@@ -1,0 +1,19 @@
+source:
+  citation: pmid42365225
+  local: sources/pmid42365225.txt
+  sha256: 833dae4784a76f81d46d3179c221cabe89055959cc99dff0e5f0242ca7debcda
+  url: https://pubmed.ncbi.nlm.nih.gov/42365225/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: 'Integrative two-sample and SMR analyses identified eight core PCD-related genes with robust
+        genetic evidence linking to RP (e.g., AIM2, odds ratio = 2.90, 95% confidence interval: 1.81-4.63),
+        which showed consistent effects across multiple tissues and remained nominally significant in
+        MVMR models adjusting for proxy phenotypes of smoking and physical activity (nominal P < 0.05).'
+  c001:
+    quotes:
+    - exact: 'Integrative two-sample and SMR analyses identified eight core PCD-related genes with robust
+        genetic evidence linking to RP (e.g., AIM2, odds ratio = 2.90, 95% confidence interval: 1.81-4.63),
+        which showed consistent effects across multiple tissues and remained nominally significant in
+        MVMR models adjusting for proxy phenotypes of smoking and physical activity (nominal P < 0.05).'

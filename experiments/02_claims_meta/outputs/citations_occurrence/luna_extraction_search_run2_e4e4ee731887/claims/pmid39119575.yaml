@@ -1,0 +1,17 @@
+source:
+  citation: pmid39119575
+  local: sources/pmid39119575.txt
+  sha256: dfffa41f6f161232679f83aabe979a826d36e9f61f8d6ea8fecccb08d6d95434
+  url: https://pubmed.ncbi.nlm.nih.gov/39119575/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: Notably, Heme-binding protein 1 (HEBP1) was significant positively associated with osteonecrosis
+        risk with convening evidence (OR, 1.40, 95% CI, 1.19 to 1.65, P = 3.96 × 10-5, P FDR = 0.044).
+  c001:
+    quotes:
+    - exact: Notably, Heme-binding protein 1 (HEBP1) was significant positively associated with osteonecrosis
+        risk with convening evidence (OR, 1.40, 95% CI, 1.19 to 1.65, P = 3.96 × 10-5, P FDR = 0.044).
+        This association was further confirmed in other MR analysis methods and did not detect heterogeneity
+        and pleiotropy (all P > 0.05).

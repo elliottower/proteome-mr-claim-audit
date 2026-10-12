@@ -1,0 +1,25 @@
+source:
+  citation: pmidPPR1266120
+  local: sources/pmidPPR1266120.txt
+  sha256: 4f11f0c046c793bc79a81f065c6fc8f3d721d75f0d46dc3989e25fd6697e1d27
+  url: https://europepmc.org/article/PPR/PPR1266120
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: Genetically proxied adiposity (body mass index and obesity), triglyceride rich lipoproteins,
+        glycoprotein acetyls (GlycA), and apolipoprotein E increased CRP levels, whereas HDL-related cholesterols,
+        polyunsaturated fatty acids, and glutamine decreased CRP.
+  c001:
+    quotes:
+    - exact: As expected, IL-6 had a large effect on CRP.
+  c002:
+    quotes:
+    - exact: Bidirectional analyses indicated little evidence that CRP directly drives metabolic traits
+        when restricting to  cis -acting instruments, whereas genetically proxied IL-6 signalling showed
+        consistent downstream effects on HDL particle concentration and composition.
+  c003:
+    quotes:
+    - exact: Bidirectional analyses indicated little evidence that CRP directly drives metabolic traits
+        when restricting to  cis -acting instruments, whereas genetically proxied IL-6 signalling showed
+        consistent downstream effects on HDL particle concentration and composition.

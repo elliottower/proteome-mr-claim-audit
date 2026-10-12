@@ -1,0 +1,1512 @@
+{
+ "amendment": "AMENDMENT_01_extraction_system_comparison.md",
+ "written_utc": "2026-10-11T21:43:13+00:00",
+ "inputs": {
+  "sol": {
+   "path": "/tmp/work/sol_registry_claims.jsonl",
+   "sha256": "faba35bd4cbe135f56761d2eec7d6ff92d446d1c6bef149615afda7f1f5de381",
+   "claim_records": 3555
+  },
+  "luna_run1": {
+   "path": "/tmp/work/luna_run1_registry_claims.jsonl",
+   "sha256": "30b6ea6f0eda143eecdd77d35097e7374b95e881464262b0f6263aed00a3ec39",
+   "claim_records": 3277
+  },
+  "luna_run2": {
+   "path": "/tmp/work/luna_run2_registry_claims.jsonl",
+   "sha256": "633578bfc8d6554da4cf8bfe00dde933aa3e848ebba9dfa9bad18e58a4c1028c",
+   "claim_records": 3289
+  },
+  "sol_repeat": {
+   "path": "/tmp/work/sol_repeat_registry_claims.jsonl",
+   "sha256": "5f0861f7d72663bb633d33ea4ccf52cced3d78390ad89be0e1a4a0761b3527b9",
+   "claim_records": 472
+  }
+ },
+ "sol_table_checked_against_registered_primary": true,
+ "heading": "Extraction-system comparison",
+ "systems": {
+  "sol": "GPT-6.1 Sol with the frozen extraction prompt (registered)",
+  "luna": "gpt-6-luna with prompts/luna_extraction_prompt.md (tuned)"
+ },
+ "attribution": "two model–prompt configurations; no difference is attributed to the model alone",
+ "unit": "family–pair record: study family × UniProt accession × canonical outcome identifier",
+ "display": {
+  "luna_run1_completed": "Luna run 1, completed by run 2 for missing family–pairs"
+ },
+ "run1_completed_rule": "run 1, completed by run 2's claim records on the family–pair records run 1 lacks; a run-2 context, null result or dataset name never supplements a family–pair present in run 1",
+ "replicates": 10000,
+ "seed": 20261001,
+ "family_pair_records": {
+  "sol": 3097,
+  "luna_run1": 2845,
+  "luna_run2": 2887,
+  "luna_run1_completed": 3059
+ },
+ "comparisons": {
+  "sol_vs_luna_run1": {
+   "a_records": 3097,
+   "b_records": 2845,
+   "shared_records": 2702,
+   "a_in_b": {
+    "count": 2702,
+    "of": 3097,
+    "share": 0.8724572166612851,
+    "wilson": [
+     0.8602456496000611,
+     0.8837459509500015
+    ],
+    "pair_bootstrap": {
+     "interval": [
+      0.8605551969012266,
+      0.884122919334187
+     ],
+     "undefined_replicates": 0
+    },
+    "canonical_pairs": 2750,
+    "stream": 100,
+    "imprecise_under_20": false
+   },
+   "b_in_a": {
+    "count": 2702,
+    "of": 2845,
+    "share": 0.9497363796133568,
+    "wilson": [
+     0.9410839526747262,
+     0.9571759319098386
+    ],
+    "pair_bootstrap": {
+     "interval": [
+      0.94162880111849,
+      0.9577661431064572
+     ],
+     "undefined_replicates": 0
+    },
+    "canonical_pairs": 2526,
+    "stream": 101,
+    "imprecise_under_20": false
+   },
+   "among_shared": {
+    "direction_class_equal": {
+     "count": 2630,
+     "of": 2702,
+     "share": 0.9733530717986677,
+     "wilson": [
+      0.9665758175577128,
+      0.9787862958289568
+     ],
+     "pair_bootstrap": {
+      "interval": [
+       0.9672619047619048,
+       0.9791818845872899
+      ],
+      "undefined_replicates": 0
+     },
+     "canonical_pairs": 2401,
+     "stream": 102,
+     "imprecise_under_20": false
+    },
+    "direction_classes_a_then_b": {
+     "lowers|lowers": 182,
+     "lowers|unresolved": 11,
+     "mixed|mixed": 1,
+     "nonsignificant_only|nonsignificant_only": 22,
+     "nonsignificant_only|unresolved": 14,
+     "raises_with_nonsignificant|raises_with_nonsignificant": 1,
+     "raises|raises": 255,
+     "raises|unresolved": 17,
+     "unresolved|lowers": 1,
+     "unresolved|raises": 29,
+     "unresolved|unresolved": 2169
+    },
+    "both_directional": 438,
+    "same_direction": {
+     "count": 438,
+     "of": 438,
+     "share": 1.0,
+     "wilson": [
+      0.9913057981680867,
+      1.0
+     ],
+     "pair_bootstrap": {
+      "interval": [
+       1.0,
+       1.0
+      ],
+      "undefined_replicates": 0
+     },
+     "canonical_pairs": 420,
+     "stream": 103,
+     "imprecise_under_20": false
+    },
+    "opposite_direction": 0,
+    "null_flag_equal": {
+     "count": 2688,
+     "of": 2702,
+     "share": 0.9948186528497409,
+     "wilson": [
+      0.9913212947177501,
+      0.9969110317857504
+     ],
+     "pair_bootstrap": {
+      "interval": [
+       0.9918518518518519,
+       0.997405485544848
+      ],
+      "undefined_replicates": 0
+     },
+     "canonical_pairs": 2401,
+     "stream": 104,
+     "imprecise_under_20": false
+    },
+    "release_identity": {
+     "pqtl": {
+      "identical": 119,
+      "not_identical": 8,
+      "undetermined": 2575
+     },
+     "outcome": {
+      "identical": 131,
+      "not_identical": 15,
+      "undetermined": 2556
+     }
+    }
+   }
+  },
+  "sol_vs_luna_run1_completed": {
+   "a_records": 3097,
+   "b_records": 3059,
+   "shared_records": 2853,
+   "a_in_b": {
+    "count": 2853,
+    "of": 3097,
+    "share": 0.9212140781401356,
+    "wilson": [
+     0.9111956295904586,
+     0.9301888896271893
+    ],
+    "pair_bootstrap": {
+     "interval": [
+      0.911515940143136,
+      0.9305145853818421
+     ],
+     "undefined_replicates": 0
+    },
+    "canonical_pairs": 2750,
+    "stream": 110,
+    "imprecise_under_20": false
+   },
+   "b_in_a": {
+    "count": 2853,
+    "of": 3059,
+    "share": 0.9326577312847336,
+    "wilson": [
+     0.9232230530839698,
+     0.9410071186661515
+    ],
+    "pair_bootstrap": {
+     "interval": [
+      0.9235352532274081,
+      0.941594062600839
+     ],
+     "undefined_replicates": 0
+    },
+    "canonical_pairs": 2725,
+    "stream": 111,
+    "imprecise_under_20": false
+   },
+   "among_shared": {
+    "direction_class_equal": {
+     "count": 2761,
+     "of": 2853,
+     "share": 0.9677532422011917,
+     "wilson": [
+      0.9606159713860072,
+      0.9736325819452527
+     ],
+     "pair_bootstrap": {
+      "interval": [
+       0.9613063542776003,
+       0.9742322626191317
+      ],
+      "undefined_replicates": 0
+     },
+     "canonical_pairs": 2539,
+     "stream": 112,
+     "imprecise_under_20": false
+    },
+    "direction_classes_a_then_b": {
+     "lowers|lowers": 190,
+     "lowers|unresolved": 29,
+     "mixed|mixed": 1,
+     "nonsignificant_only|nonsignificant_only": 24,
+     "nonsignificant_only|unresolved": 14,
+     "raises_with_nonsignificant|raises_with_nonsignificant": 1,
+     "raises|raises": 263,
+     "raises|unresolved": 18,
+     "unresolved|lowers": 1,
+     "unresolved|raises": 30,
+     "unresolved|unresolved": 2282
+    },
+    "both_directional": 454,
+    "same_direction": {
+     "count": 454,
+     "of": 454,
+     "share": 1.0,
+     "wilson": [
+      0.9916096309176784,
+      0.9999999999999999
+     ],
+     "pair_bootstrap": {
+      "interval": [
+       1.0,
+       1.0
+      ],
+      "undefined_replicates": 0
+     },
+     "canonical_pairs": 435,
+     "stream": 113,
+     "imprecise_under_20": false
+    },
+    "opposite_direction": 0,
+    "null_flag_equal": {
+     "count": 2839,
+     "of": 2853,
+     "share": 0.99509288468279,
+     "wilson": [
+      0.9917796713834294,
+      0.9970746422774207
+     ],
+     "pair_bootstrap": {
+      "interval": [
+       0.9923130677847659,
+       0.997546442341395
+      ],
+      "undefined_replicates": 0
+     },
+     "canonical_pairs": 2539,
+     "stream": 114,
+     "imprecise_under_20": false
+    },
+    "release_identity": {
+     "pqtl": {
+      "identical": 122,
+      "not_identical": 8,
+      "undetermined": 2723
+     },
+     "outcome": {
+      "identical": 131,
+      "not_identical": 17,
+      "undetermined": 2705
+     }
+    }
+   }
+  },
+  "luna_run1_vs_luna_run2": {
+   "a_records": 2845,
+   "b_records": 2887,
+   "shared_records": 2673,
+   "a_in_b": {
+    "count": 2673,
+    "of": 2845,
+    "share": 0.9395430579964851,
+    "wilson": [
+     0.9301785595892559,
+     0.9477221716909304
+    ],
+    "pair_bootstrap": {
+     "interval": [
+      0.9308641975308642,
+      0.948065528058557
+     ],
+     "undefined_replicates": 0
+    },
+    "canonical_pairs": 2526,
+    "stream": 120,
+    "imprecise_under_20": false
+   },
+   "b_in_a": {
+    "count": 2673,
+    "of": 2887,
+    "share": 0.9258746103221337,
+    "wilson": [
+     0.9157421111048678,
+     0.9348752731508354
+    ],
+    "pair_bootstrap": {
+     "interval": [
+      0.9160911602209945,
+      0.9354612416695897
+     ],
+     "undefined_replicates": 0
+    },
+    "canonical_pairs": 2585,
+    "stream": 121,
+    "imprecise_under_20": false
+   },
+   "among_shared": {
+    "direction_class_equal": {
+     "count": 2611,
+     "of": 2673,
+     "share": 0.976805087916199,
+     "wilson": [
+      0.9703778010294217,
+      0.9818638760413541
+     ],
+     "pair_bootstrap": {
+      "interval": [
+       0.9710635099586622,
+       0.9823308270676692
+      ],
+      "undefined_replicates": 0
+     },
+     "canonical_pairs": 2385,
+     "stream": 122,
+     "imprecise_under_20": false
+    },
+    "direction_classes_a_then_b": {
+     "lowers|lowers": 174,
+     "lowers|unresolved": 8,
+     "mixed|mixed": 1,
+     "nonsignificant_only|nonsignificant_only": 22,
+     "raises_with_nonsignificant|raises_with_nonsignificant": 1,
+     "raises|raises": 246,
+     "raises|unresolved": 30,
+     "unresolved|lowers": 10,
+     "unresolved|nonsignificant_only": 5,
+     "unresolved|raises": 9,
+     "unresolved|unresolved": 2167
+    },
+    "both_directional": 421,
+    "same_direction": {
+     "count": 421,
+     "of": 421,
+     "share": 1.0,
+     "wilson": [
+      0.990957900315667,
+      1.0
+     ],
+     "pair_bootstrap": {
+      "interval": [
+       1.0,
+       1.0
+      ],
+      "undefined_replicates": 0
+     },
+     "canonical_pairs": 408,
+     "stream": 123,
+     "imprecise_under_20": false
+    },
+    "opposite_direction": 0,
+    "null_flag_equal": {
+     "count": 2668,
+     "of": 2673,
+     "share": 0.998129442573887,
+     "wilson": [
+      0.9956284291979134,
+      0.9992007532420537
+     ],
+     "pair_bootstrap": {
+      "interval": [
+       0.9962700484893696,
+       0.9996249062265566
+      ],
+      "undefined_replicates": 0
+     },
+     "canonical_pairs": 2385,
+     "stream": 124,
+     "imprecise_under_20": false
+    },
+    "release_identity": {
+     "pqtl": {
+      "identical": 79,
+      "not_identical": 6,
+      "undetermined": 2588
+     },
+     "outcome": {
+      "identical": 104,
+      "not_identical": 6,
+      "undetermined": 2563
+     }
+    }
+   }
+  }
+ },
+ "repeat_sample": {
+  "sampled_abstracts": 238,
+  "family_pair_records": {
+   "sol": 375,
+   "luna_run1": 322,
+   "luna_run2": 348,
+   "sol_repeat": 393
+  },
+  "sol_vs_sol_repeat": {
+   "a_records": 375,
+   "b_records": 393,
+   "shared_records": 375,
+   "a_in_b": {
+    "count": 375,
+    "of": 375,
+    "share": 1.0,
+    "wilson": [
+     0.9898599830318142,
+     1.0
+    ],
+    "pair_bootstrap": {
+     "interval": [
+      1.0,
+      1.0
+     ],
+     "undefined_replicates": 0
+    },
+    "canonical_pairs": 373,
+    "stream": 130,
+    "imprecise_under_20": false
+   },
+   "b_in_a": {
+    "count": 375,
+    "of": 393,
+    "share": 0.9541984732824428,
+    "wilson": [
+     0.9287688017763351,
+     0.9708347856636159
+    ],
+    "pair_bootstrap": {
+     "interval": [
+      0.9316455696202531,
+      0.9744897959183674
+     ],
+     "undefined_replicates": 0
+    },
+    "canonical_pairs": 391,
+    "stream": 131,
+    "imprecise_under_20": false
+   },
+   "among_shared": {
+    "direction_class_equal": {
+     "count": 371,
+     "of": 375,
+     "share": 0.9893333333333333,
+     "wilson": [
+      0.9728986296323974,
+      0.9958443404280715
+     ],
+     "pair_bootstrap": {
+      "interval": [
+       0.9786096256684492,
+       0.9973474801061007
+      ],
+      "undefined_replicates": 0
+     },
+     "canonical_pairs": 373,
+     "stream": 132,
+     "imprecise_under_20": false
+    },
+    "direction_classes_a_then_b": {
+     "lowers|lowers": 18,
+     "lowers|lowers_with_nonsignificant": 4,
+     "nonsignificant_only|nonsignificant_only": 4,
+     "raises|raises": 26,
+     "unresolved|unresolved": 323
+    },
+    "both_directional": 48,
+    "same_direction": {
+     "count": 48,
+     "of": 48,
+     "share": 1.0,
+     "wilson": [
+      0.9258998703338824,
+      0.9999999999999999
+     ],
+     "pair_bootstrap": {
+      "interval": [
+       1.0,
+       1.0
+      ],
+      "undefined_replicates": 0
+     },
+     "canonical_pairs": 47,
+     "stream": 133,
+     "imprecise_under_20": false
+    },
+    "opposite_direction": 0,
+    "null_flag_equal": {
+     "count": 371,
+     "of": 375,
+     "share": 0.9893333333333333,
+     "wilson": [
+      0.9728986296323974,
+      0.9958443404280715
+     ],
+     "pair_bootstrap": {
+      "interval": [
+       0.9786096256684492,
+       0.9973474801061007
+      ],
+      "undefined_replicates": 0
+     },
+     "canonical_pairs": 373,
+     "stream": 134,
+     "imprecise_under_20": false
+    },
+    "release_identity": {
+     "pqtl": {
+      "identical": 5,
+      "undetermined": 370
+     },
+     "outcome": {
+      "identical": 11,
+      "undetermined": 364
+     }
+    }
+   }
+  },
+  "sol_vs_luna_run1": {
+   "a_records": 375,
+   "b_records": 322,
+   "shared_records": 310,
+   "a_in_b": {
+    "count": 310,
+    "of": 375,
+    "share": 0.8266666666666667,
+    "wilson": [
+     0.7850930040198782,
+     0.8616155182275738
+    ],
+    "pair_bootstrap": {
+     "interval": [
+      0.7872340425531915,
+      0.864
+     ],
+     "undefined_replicates": 0
+    },
+    "canonical_pairs": 373,
+    "stream": 140,
+    "imprecise_under_20": false
+   },
+   "b_in_a": {
+    "count": 310,
+    "of": 322,
+    "share": 0.9627329192546584,
+    "wilson": [
+     0.9359998716130418,
+     0.9785553267295519
+    ],
+    "pair_bootstrap": {
+     "interval": [
+      0.9409937888198758,
+      0.9813664596273292
+     ],
+     "undefined_replicates": 0
+    },
+    "canonical_pairs": 322,
+    "stream": 141,
+    "imprecise_under_20": false
+   },
+   "among_shared": {
+    "direction_class_equal": {
+     "count": 304,
+     "of": 310,
+     "share": 0.9806451612903225,
+     "wilson": [
+      0.9584239529456929,
+      0.9911000555131614
+     ],
+     "pair_bootstrap": {
+      "interval": [
+       0.964516129032258,
+       0.9935483870967742
+      ],
+      "undefined_replicates": 0
+     },
+     "canonical_pairs": 310,
+     "stream": 142,
+     "imprecise_under_20": false
+    },
+    "direction_classes_a_then_b": {
+     "lowers|lowers": 20,
+     "lowers|unresolved": 1,
+     "nonsignificant_only|nonsignificant_only": 2,
+     "nonsignificant_only|unresolved": 2,
+     "raises|raises": 24,
+     "unresolved|raises": 3,
+     "unresolved|unresolved": 258
+    },
+    "both_directional": 44,
+    "same_direction": {
+     "count": 44,
+     "of": 44,
+     "share": 1.0,
+     "wilson": [
+      0.9197043962415192,
+      1.0
+     ],
+     "pair_bootstrap": {
+      "interval": [
+       1.0,
+       1.0
+      ],
+      "undefined_replicates": 0
+     },
+     "canonical_pairs": 44,
+     "stream": 143,
+     "imprecise_under_20": false
+    },
+    "opposite_direction": 0,
+    "null_flag_equal": {
+     "count": 308,
+     "of": 310,
+     "share": 0.9935483870967742,
+     "wilson": [
+      0.9767856374961857,
+      0.9982289483709602
+     ],
+     "pair_bootstrap": {
+      "interval": [
+       0.9838709677419355,
+       1.0
+      ],
+      "undefined_replicates": 0
+     },
+     "canonical_pairs": 310,
+     "stream": 144,
+     "imprecise_under_20": false
+    },
+    "release_identity": {
+     "pqtl": {
+      "identical": 4,
+      "not_identical": 2,
+      "undetermined": 304
+     },
+     "outcome": {
+      "identical": 9,
+      "undetermined": 301
+     }
+    }
+   }
+  },
+  "luna_run1_vs_luna_run2": {
+   "a_records": 322,
+   "b_records": 348,
+   "shared_records": 318,
+   "a_in_b": {
+    "count": 318,
+    "of": 322,
+    "share": 0.9875776397515528,
+    "wilson": [
+     0.9684999626615085,
+     0.9951588704914258
+    ],
+    "pair_bootstrap": {
+     "interval": [
+      0.9751552795031055,
+      0.9968944099378882
+     ],
+     "undefined_replicates": 0
+    },
+    "canonical_pairs": 322,
+    "stream": 150,
+    "imprecise_under_20": false
+   },
+   "b_in_a": {
+    "count": 318,
+    "of": 348,
+    "share": 0.9137931034482759,
+    "wilson": [
+     0.8796021711509456,
+     0.9389483230555116
+    ],
+    "pair_bootstrap": {
+     "interval": [
+      0.8850574712643678,
+      0.9425287356321839
+     ],
+     "undefined_replicates": 0
+    },
+    "canonical_pairs": 348,
+    "stream": 151,
+    "imprecise_under_20": false
+   },
+   "among_shared": {
+    "direction_class_equal": {
+     "count": 315,
+     "of": 318,
+     "share": 0.9905660377358491,
+     "wilson": [
+      0.972634892206577,
+      0.9967865152877974
+     ],
+     "pair_bootstrap": {
+      "interval": [
+       0.9779874213836478,
+       1.0
+      ],
+      "undefined_replicates": 0
+     },
+     "canonical_pairs": 318,
+     "stream": 152,
+     "imprecise_under_20": false
+    },
+    "direction_classes_a_then_b": {
+     "lowers|lowers": 20,
+     "nonsignificant_only|nonsignificant_only": 2,
+     "raises|raises": 24,
+     "raises|unresolved": 3,
+     "unresolved|unresolved": 269
+    },
+    "both_directional": 44,
+    "same_direction": {
+     "count": 44,
+     "of": 44,
+     "share": 1.0,
+     "wilson": [
+      0.9197043962415192,
+      1.0
+     ],
+     "pair_bootstrap": {
+      "interval": [
+       1.0,
+       1.0
+      ],
+      "undefined_replicates": 0
+     },
+     "canonical_pairs": 44,
+     "stream": 153,
+     "imprecise_under_20": false
+    },
+    "opposite_direction": 0,
+    "null_flag_equal": {
+     "count": 318,
+     "of": 318,
+     "share": 1.0,
+     "wilson": [
+      0.9880641268692663,
+      1.0000000000000002
+     ],
+     "pair_bootstrap": {
+      "interval": [
+       1.0,
+       1.0
+      ],
+      "undefined_replicates": 0
+     },
+     "canonical_pairs": 318,
+     "stream": 154,
+     "imprecise_under_20": false
+    },
+    "release_identity": {
+     "pqtl": {
+      "identical": 4,
+      "undetermined": 314
+     },
+     "outcome": {
+      "identical": 11,
+      "not_identical": 2,
+      "undetermined": 305
+     }
+    }
+   }
+  }
+ },
+ "threshold_classifications": "those of the registered Sol analysis only; for Luna-derived registries only descriptive estimates, bounds and denominators are reported",
+ "h1_h2": {
+  "sol": {
+   "claim_records": 3555,
+   "denominators": {
+    "family_pair_records": 3097,
+    "by_direction": {
+     "unresolved": 2525,
+     "lowers": 229,
+     "nonsignificant_only": 46,
+     "raises": 295,
+     "mixed": 1,
+     "raises_with_nonsignificant": 1
+    },
+    "context_unclear": 4,
+    "pairs": 2750,
+    "multi_family_pairs": 242,
+    "contradicting_pairs": 5,
+    "family_pair_records_with_a_manually_coded_dataset": 516,
+    "multi_family_pairs_with_a_manually_coded_dataset": 88,
+    "h1_pairs_with_a_manually_coded_dataset": 0
+   },
+   "estimates": {
+    "h1_pairs": 0,
+    "h1_pairs_agreeing": 0,
+    "h1_pair_concordance": null,
+    "h1_independent_edges": 0,
+    "h1_independent_edges_agreeing": 0,
+    "h1_edge_concordance": null,
+    "liu_analogue_pairs": 21,
+    "liu_analogue_tiers": {
+     "high": 16,
+     "discordant": 5
+    },
+    "liu_analogue_share_not_discordant": 0.7619047619047619,
+    "h2_multi_family_pairs": 242,
+    "h2_known_identical": 0,
+    "h2_known_not_identical": 11,
+    "h2_unresolved": 231,
+    "h2_lower": 0.0,
+    "h2_upper": 0.9545454545454546,
+    "h2_complete_case": 0.0,
+    "h2_resolvable_pairs": 0,
+    "h2_resolvable_share": 0.0,
+    "h2b_known_overlapping": 8,
+    "h2b_known_not_overlapping": 5,
+    "h2b_unresolved": 229,
+    "h2b_lower": 0.03305785123966942,
+    "h2b_upper": 0.9793388429752066,
+    "h2b_complete_case": 0.6153846153846154,
+    "h2_h2b_pairs_not_nested": 0
+   },
+   "wilson_descriptive": {
+    "h1_pair_concordance": null,
+    "h2_lower": [
+     0.0,
+     0.01562575669344655
+    ],
+    "h2_upper": [
+     0.9204535027450712,
+     0.9744321729881592
+    ],
+    "h2b_lower": [
+     0.016844302681584718,
+     0.06386404861064224
+    ],
+    "h2b_upper": [
+     0.9525543448535055,
+     0.9911432768288101
+    ],
+    "h2_resolvable_share": [
+     0.0,
+     0.01562575669344655
+    ]
+   },
+   "verdict_rule": "finite_corpus_bounds",
+   "h2_verdict": "unresolved",
+   "h2b_verdict": "unresolved",
+   "two_verdict_reading": "neither_share_placed_on_one_side_of_one_half",
+   "h2_supported_attainable": false,
+   "resampling_stability": [
+    "pair_bootstrap",
+    "protein_cluster_bootstrap",
+    "family_jackknife"
+   ],
+   "pair_bootstrap": {
+    "replicates": 10000,
+    "seed": 20261001,
+    "percentile_method": "inverted_cdf",
+    "h2_lower": [
+     0.0,
+     0.0
+    ],
+    "h2_upper": [
+     0.9256198347107438,
+     0.9793388429752066
+    ],
+    "h2b_lower": [
+     0.012396694214876033,
+     0.05785123966942149
+    ],
+    "h2b_upper": [
+     0.9586776859504132,
+     0.9958677685950413
+    ],
+    "h2_resolvable_share": [
+     0.0,
+     0.0
+    ]
+   },
+   "protein_cluster_bootstrap": {
+    "replicates": 10000,
+    "seed": [
+     20261001,
+     1
+    ],
+    "unit": "protein",
+    "percentile_method": "inverted_cdf",
+    "h2_proteins": 204,
+    "h2_lower": [
+     0.0,
+     0.0
+    ],
+    "h2_upper": [
+     0.9262295081967213,
+     0.9788135593220338
+    ],
+    "h2b_lower": [
+     0.012345679012345678,
+     0.05803571428571429
+    ],
+    "h2b_upper": [
+     0.959349593495935,
+     0.9958333333333333
+    ]
+   },
+   "family_jackknife": {
+    "h1_pair_concordance": null,
+    "h1_edge_concordance": null,
+    "h2_lower": {
+     "min": 0.0,
+     "min_when_dropping": "30998689",
+     "max": 0.0,
+     "max_when_dropping": "W7127634741",
+     "n_deletions": 728
+    },
+    "h2_upper": {
+     "min": 0.9525862068965517,
+     "min_when_dropping": "37212950",
+     "max": 0.9708333333333333,
+     "max_when_dropping": "W4390198428",
+     "n_deletions": 728
+    },
+    "h2b_lower": {
+     "min": 0.0,
+     "min_when_dropping": "41142151",
+     "max": 0.034482758620689655,
+     "max_when_dropping": "37212950",
+     "n_deletions": 728
+    },
+    "h2b_upper": {
+     "min": 0.978448275862069,
+     "min_when_dropping": "37212950",
+     "max": 0.9916666666666667,
+     "max_when_dropping": "W4390198428",
+     "n_deletions": 728
+    },
+    "h2_resolvable_share": {
+     "min": 0.0,
+     "min_when_dropping": "30998689",
+     "max": 0.0,
+     "max_when_dropping": "W7127634741",
+     "n_deletions": 728
+    }
+   },
+   "imprecise_under_20_pairs": {
+    "h1": true,
+    "h2": false
+   }
+  },
+  "luna_run1": {
+   "claim_records": 3277,
+   "denominators": {
+    "family_pair_records": 2845,
+    "by_direction": {
+     "unresolved": 2340,
+     "lowers": 190,
+     "nonsignificant_only": 23,
+     "raises": 290,
+     "mixed": 1,
+     "raises_with_nonsignificant": 1
+    },
+    "context_unclear": 50,
+    "pairs": 2526,
+    "multi_family_pairs": 228,
+    "contradicting_pairs": 1,
+    "family_pair_records_with_a_manually_coded_dataset": 362,
+    "multi_family_pairs_with_a_manually_coded_dataset": 71,
+    "h1_pairs_with_a_manually_coded_dataset": 0
+   },
+   "estimates": {
+    "h1_pairs": 0,
+    "h1_pairs_agreeing": 0,
+    "h1_pair_concordance": null,
+    "h1_independent_edges": 0,
+    "h1_independent_edges_agreeing": 0,
+    "h1_edge_concordance": null,
+    "liu_analogue_pairs": 16,
+    "liu_analogue_tiers": {
+     "high": 15,
+     "discordant": 1
+    },
+    "liu_analogue_share_not_discordant": 0.9375,
+    "h2_multi_family_pairs": 228,
+    "h2_known_identical": 0,
+    "h2_known_not_identical": 7,
+    "h2_unresolved": 221,
+    "h2_lower": 0.0,
+    "h2_upper": 0.9692982456140351,
+    "h2_complete_case": 0.0,
+    "h2_resolvable_pairs": 0,
+    "h2_resolvable_share": 0.0,
+    "h2b_known_overlapping": 0,
+    "h2b_known_not_overlapping": 2,
+    "h2b_unresolved": 226,
+    "h2b_lower": 0.0,
+    "h2b_upper": 0.9912280701754386,
+    "h2b_complete_case": 0.0,
+    "h2_h2b_pairs_not_nested": 0
+   },
+   "wilson_descriptive": {
+    "h1_pair_concordance": null,
+    "h2_lower": [
+     0.0,
+     0.01656933509750344
+    ],
+    "h2_upper": [
+     0.9379945363346476,
+     0.9850500351089237
+    ],
+    "h2b_lower": [
+     0.0,
+     0.01656933509750344
+    ],
+    "h2b_upper": [
+     0.9685863803126885,
+     0.9975911150301152
+    ],
+    "h2_resolvable_share": [
+     0.0,
+     0.01656933509750344
+    ]
+   },
+   "resampling_stability": [
+    "pair_bootstrap",
+    "protein_cluster_bootstrap",
+    "family_jackknife"
+   ],
+   "pair_bootstrap": {
+    "replicates": 10000,
+    "seed": 20261001,
+    "percentile_method": "inverted_cdf",
+    "h2_lower": [
+     0.0,
+     0.0
+    ],
+    "h2_upper": [
+     0.9429824561403509,
+     0.9912280701754386
+    ],
+    "h2b_lower": [
+     0.0,
+     0.0
+    ],
+    "h2b_upper": [
+     0.9780701754385965,
+     1.0
+    ],
+    "h2_resolvable_share": [
+     0.0,
+     0.0
+    ]
+   },
+   "protein_cluster_bootstrap": {
+    "replicates": 10000,
+    "seed": [
+     20261001,
+     1
+    ],
+    "unit": "protein",
+    "percentile_method": "inverted_cdf",
+    "h2_proteins": 193,
+    "h2_lower": [
+     0.0,
+     0.0
+    ],
+    "h2_upper": [
+     0.9451476793248945,
+     0.9908256880733946
+    ],
+    "h2b_lower": [
+     0.0,
+     0.0
+    ],
+    "h2b_upper": [
+     0.9780701754385965,
+     1.0
+    ]
+   },
+   "family_jackknife": {
+    "h1_pair_concordance": null,
+    "h1_edge_concordance": null,
+    "h2_lower": {
+     "min": 0.0,
+     "min_when_dropping": "30998689",
+     "max": 0.0,
+     "max_when_dropping": "W7117782391",
+     "n_deletions": 678
+    },
+    "h2_upper": {
+     "min": 0.9681818181818181,
+     "min_when_dropping": "41142151",
+     "max": 0.9778761061946902,
+     "max_when_dropping": "W4390198428",
+     "n_deletions": 678
+    },
+    "h2b_lower": {
+     "min": 0.0,
+     "min_when_dropping": "30998689",
+     "max": 0.0,
+     "max_when_dropping": "W7117782391",
+     "n_deletions": 678
+    },
+    "h2b_upper": {
+     "min": 0.990909090909091,
+     "min_when_dropping": "41142151",
+     "max": 0.9955947136563876,
+     "max_when_dropping": "41442772",
+     "n_deletions": 678
+    },
+    "h2_resolvable_share": {
+     "min": 0.0,
+     "min_when_dropping": "30998689",
+     "max": 0.0,
+     "max_when_dropping": "W7117782391",
+     "n_deletions": 678
+    }
+   },
+   "imprecise_under_20_pairs": {
+    "h1": true,
+    "h2": false
+   },
+   "difference_from_sol": {
+    "h1_pair_concordance": null,
+    "h1_edge_concordance": null,
+    "h2_lower": 0.0,
+    "h2_upper": 0.014752791068580517,
+    "h2_resolvable_share": 0.0,
+    "h2b_lower": -0.03305785123966942,
+    "h2b_upper": 0.011889227200232
+   }
+  },
+  "luna_run1_completed": {
+   "claim_records": 3499,
+   "denominators": {
+    "family_pair_records": 3059,
+    "by_direction": {
+     "unresolved": 2521,
+     "lowers": 198,
+     "nonsignificant_only": 26,
+     "raises": 312,
+     "mixed": 1,
+     "raises_with_nonsignificant": 1
+    },
+    "context_unclear": 59,
+    "pairs": 2725,
+    "multi_family_pairs": 239,
+    "contradicting_pairs": 1,
+    "family_pair_records_with_a_manually_coded_dataset": 405,
+    "multi_family_pairs_with_a_manually_coded_dataset": 74,
+    "h1_pairs_with_a_manually_coded_dataset": 0
+   },
+   "estimates": {
+    "h1_pairs": 0,
+    "h1_pairs_agreeing": 0,
+    "h1_pair_concordance": null,
+    "h1_independent_edges": 0,
+    "h1_independent_edges_agreeing": 0,
+    "h1_edge_concordance": null,
+    "liu_analogue_pairs": 17,
+    "liu_analogue_tiers": {
+     "high": 16,
+     "discordant": 1
+    },
+    "liu_analogue_share_not_discordant": 0.9411764705882353,
+    "h2_multi_family_pairs": 239,
+    "h2_known_identical": 0,
+    "h2_known_not_identical": 8,
+    "h2_unresolved": 231,
+    "h2_lower": 0.0,
+    "h2_upper": 0.9665271966527197,
+    "h2_complete_case": 0.0,
+    "h2_resolvable_pairs": 0,
+    "h2_resolvable_share": 0.0,
+    "h2b_known_overlapping": 0,
+    "h2b_known_not_overlapping": 2,
+    "h2b_unresolved": 237,
+    "h2b_lower": 0.0,
+    "h2b_upper": 0.9916317991631799,
+    "h2b_complete_case": 0.0,
+    "h2_h2b_pairs_not_nested": 0
+   },
+   "wilson_descriptive": {
+    "h1_pair_concordance": null,
+    "h2_lower": [
+     0.0,
+     0.01581879321327306
+    ],
+    "h2_upper": [
+     0.9353515348591079,
+     0.9829430639418968
+    ],
+    "h2b_lower": [
+     0.0,
+     0.01581879321327306
+    ],
+    "h2b_upper": [
+     0.970007425050745,
+     0.9977021297395513
+    ],
+    "h2_resolvable_share": [
+     0.0,
+     0.01581879321327306
+    ]
+   },
+   "resampling_stability": [
+    "pair_bootstrap",
+    "protein_cluster_bootstrap",
+    "family_jackknife"
+   ],
+   "pair_bootstrap": {
+    "replicates": 10000,
+    "seed": 20261001,
+    "percentile_method": "inverted_cdf",
+    "h2_lower": [
+     0.0,
+     0.0
+    ],
+    "h2_upper": [
+     0.9414225941422594,
+     0.9874476987447699
+    ],
+    "h2b_lower": [
+     0.0,
+     0.0
+    ],
+    "h2b_upper": [
+     0.9790794979079498,
+     1.0
+    ],
+    "h2_resolvable_share": [
+     0.0,
+     0.0
+    ]
+   },
+   "protein_cluster_bootstrap": {
+    "replicates": 10000,
+    "seed": [
+     20261001,
+     1
+    ],
+    "unit": "protein",
+    "percentile_method": "inverted_cdf",
+    "h2_proteins": 202,
+    "h2_lower": [
+     0.0,
+     0.0
+    ],
+    "h2_upper": [
+     0.9423868312757202,
+     0.9874476987447699
+    ],
+    "h2b_lower": [
+     0.0,
+     0.0
+    ],
+    "h2b_upper": [
+     0.9788135593220338,
+     1.0
+    ]
+   },
+   "family_jackknife": {
+    "h1_pair_concordance": null,
+    "h1_edge_concordance": null,
+    "h2_lower": {
+     "min": 0.0,
+     "min_when_dropping": "30998689",
+     "max": 0.0,
+     "max_when_dropping": "W7117782391",
+     "n_deletions": 717
+    },
+    "h2_upper": {
+     "min": 0.9653679653679653,
+     "min_when_dropping": "41142151",
+     "max": 0.9746835443037974,
+     "max_when_dropping": "W4390198428",
+     "n_deletions": 717
+    },
+    "h2b_lower": {
+     "min": 0.0,
+     "min_when_dropping": "30998689",
+     "max": 0.0,
+     "max_when_dropping": "W7117782391",
+     "n_deletions": 717
+    },
+    "h2b_upper": {
+     "min": 0.9913419913419913,
+     "min_when_dropping": "41142151",
+     "max": 0.9957983193277311,
+     "max_when_dropping": "41442772",
+     "n_deletions": 717
+    },
+    "h2_resolvable_share": {
+     "min": 0.0,
+     "min_when_dropping": "30998689",
+     "max": 0.0,
+     "max_when_dropping": "W7117782391",
+     "n_deletions": 717
+    }
+   },
+   "imprecise_under_20_pairs": {
+    "h1": true,
+    "h2": false
+   },
+   "difference_from_sol": {
+    "h1_pair_concordance": null,
+    "h1_edge_concordance": null,
+    "h2_lower": 0.0,
+    "h2_upper": 0.011981742107265103,
+    "h2_resolvable_share": 0.0,
+    "h2b_lower": -0.03305785123966942,
+    "h2b_upper": 0.012292956187973325
+   }
+  }
+ },
+ "cost": {
+  "usage": {
+   "sol": {
+    "folders": [
+     "outputs/raw/sol/extraction/0b97103cd7a4"
+    ],
+    "parsed": [
+     "outputs/parsed/sol_extraction_search_0b97103cd7a4.jsonl",
+     "outputs/parsed/sol_extraction_chase1_0b97103cd7a4.jsonl",
+     "outputs/parsed/sol_extraction_chase2_0b97103cd7a4.jsonl",
+     "outputs/parsed/sol_extraction_chase3_0b97103cd7a4.jsonl"
+    ],
+    "written_utc": "2026-10-11T18:45:48+00:00",
+    "role": "sol",
+    "model": "gpt-6.1-sol",
+    "prices_usd_per_million": {
+     "input": 2.0,
+     "cached_input": 0.1,
+     "cache_write": 2.5,
+     "output": 10.0
+    },
+    "price_source": {
+     "source": "OpenAI's pricing table, short-context column, as given by the author",
+     "date_given": "2026-10-05",
+     "unit": "USD per million tokens"
+    },
+    "abstracts_attempted": 2363,
+    "attempted_sha256": "302095677d1e1af69e1839d9c047657242b42489003e51572ae54f1e8a50fc63",
+    "billable_requests": 2363,
+    "abstracts_with_a_billable_response": 2363,
+    "abstracts_without_a_billable_response": 0,
+    "extraction_failed_abstracts": 0,
+    "failed_http_exchanges": 0,
+    "records_outside_the_parsed_files_not_priced": 30,
+    "tokens": {
+     "input_tokens": 6723375,
+     "cached_input_tokens": 5694249,
+     "cache_write_tokens": 1022037,
+     "output_tokens": 3639530,
+     "reasoning_tokens": 596779
+    },
+    "uncached_input_tokens": 7089,
+    "usd_parts": {
+     "input": 0.014178,
+     "cached_input": 0.5694249,
+     "cache_write": 2.5550925,
+     "output": 36.3953
+    },
+    "usd": 39.5339954,
+    "usd_per_attempted_abstract": 0.016730425476089716
+   },
+   "luna_run1": {
+    "folders": [
+     "outputs/raw/luna/extraction/e4e4ee731887/run1"
+    ],
+    "parsed": [
+     "outputs/parsed/luna_extraction_search_run1_e4e4ee731887.jsonl",
+     "outputs/parsed/luna_extraction_chase1_run1_e4e4ee731887.jsonl",
+     "outputs/parsed/luna_extraction_chase2_run1_e4e4ee731887.jsonl",
+     "outputs/parsed/luna_extraction_chase3_run1_e4e4ee731887.jsonl"
+    ],
+    "written_utc": "2026-10-11T18:45:52+00:00",
+    "role": "luna_run1",
+    "model": "gpt-6-luna",
+    "prices_usd_per_million": {
+     "input": 0.1,
+     "cached_input": 0.01,
+     "cache_write": 0.125,
+     "output": 0.5
+    },
+    "price_source": {
+     "source": "OpenAI's pricing table, short-context column, as given by the author",
+     "date_given": "2026-10-05",
+     "unit": "USD per million tokens"
+    },
+    "abstracts_attempted": 2363,
+    "attempted_sha256": "302095677d1e1af69e1839d9c047657242b42489003e51572ae54f1e8a50fc63",
+    "billable_requests": 2363,
+    "abstracts_with_a_billable_response": 2363,
+    "abstracts_without_a_billable_response": 0,
+    "extraction_failed_abstracts": 0,
+    "failed_http_exchanges": 1,
+    "records_outside_the_parsed_files_not_priced": 30,
+    "tokens": {
+     "input_tokens": 7526795,
+     "cached_input_tokens": 6494083,
+     "cache_write_tokens": 1025623,
+     "output_tokens": 4954931,
+     "reasoning_tokens": 2509011
+    },
+    "uncached_input_tokens": 7089,
+    "usd_parts": {
+     "input": 0.0007089,
+     "cached_input": 0.06494083,
+     "cache_write": 0.128202875,
+     "output": 2.4774655
+    },
+    "usd": 2.671318105,
+    "usd_per_attempted_abstract": 0.0011304774037240795
+   },
+   "luna_run2": {
+    "folders": [
+     "outputs/raw/luna/extraction/e4e4ee731887/run2"
+    ],
+    "parsed": [
+     "outputs/parsed/luna_extraction_search_run2_e4e4ee731887.jsonl",
+     "outputs/parsed/luna_extraction_chase1_run2_e4e4ee731887.jsonl",
+     "outputs/parsed/luna_extraction_chase2_run2_e4e4ee731887.jsonl",
+     "outputs/parsed/luna_extraction_chase3_run2_e4e4ee731887.jsonl"
+    ],
+    "written_utc": "2026-10-11T18:45:56+00:00",
+    "role": "luna_run2",
+    "model": "gpt-6-luna",
+    "prices_usd_per_million": {
+     "input": 0.1,
+     "cached_input": 0.01,
+     "cache_write": 0.125,
+     "output": 0.5
+    },
+    "price_source": {
+     "source": "OpenAI's pricing table, short-context column, as given by the author",
+     "date_given": "2026-10-05",
+     "unit": "USD per million tokens"
+    },
+    "abstracts_attempted": 2363,
+    "attempted_sha256": "302095677d1e1af69e1839d9c047657242b42489003e51572ae54f1e8a50fc63",
+    "billable_requests": 2363,
+    "abstracts_with_a_billable_response": 2363,
+    "abstracts_without_a_billable_response": 0,
+    "extraction_failed_abstracts": 0,
+    "failed_http_exchanges": 0,
+    "records_outside_the_parsed_files_not_priced": 0,
+    "tokens": {
+     "input_tokens": 7526795,
+     "cached_input_tokens": 6612776,
+     "cache_write_tokens": 906930,
+     "output_tokens": 4909631,
+     "reasoning_tokens": 2465646
+    },
+    "uncached_input_tokens": 7089,
+    "usd_parts": {
+     "input": 0.0007089,
+     "cached_input": 0.06612776,
+     "cache_write": 0.11336625,
+     "output": 2.4548155
+    },
+    "usd": 2.6350184100000003,
+    "usd_per_attempted_abstract": 0.0011151157046127805
+   }
+  },
+  "sol_cost_per_attempted_abstract_over_luna": {
+   "luna_run1": 14.799433779901701,
+   "luna_run2": 15.003308990163752,
+   "luna_two_runs": 7.450337024092788
+  }
+ }
+}

@@ -1,0 +1,16 @@
+source:
+  citation: pmid40751895
+  local: sources/pmid40751895.txt
+  sha256: 8e7c38e28f18a35a6705edc724821bedf3c75b622f29052d9d903de046c406da
+  url: https://pubmed.ncbi.nlm.nih.gov/40751895/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: Ephrin type-A receptor 3 (EPHA3) was a significant risk factor for RA (odds ratio (OR) =
+        1.312, 95% confidence interval (CI) [1.102, 1.562], Beta = 0.272, p < 0.01).
+  c001:
+    quotes:
+    - exact: 'CD28 on CD28+ CD45RA+ CD8br regulatory T (Treg) cells mediated the relationship between
+        EPHA3 levels and RA risk, with a mediation effect of 0.029 (95% CI: -0.111, 0.169), accounting
+        for 10.7% of total effect.'

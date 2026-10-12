@@ -1,0 +1,32 @@
+source:
+  citation: pmid35200038
+  local: sources/pmid35200038.txt
+  sha256: 28ec91aca4651096710aa803a1d5af896e9319814bac17e181bf00cde35ccb63
+  url: https://pubmed.ncbi.nlm.nih.gov/35200038/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: We found that seven kinds of plasma proteins had genetic correlations with RA, such as Soluble
+        Receptor for Advanced Glycation End Products (sRAGE) (correlation coefficient = 0.2582, p = 0.049),
+        vesicle transport protein USE1 (correlation coefficient = 0.1337, p = 0.018), and spermatogenesis-associated
+        protein 20 (correlation coefficient = 0.3706, p = 0.018).
+  c001:
+    quotes:
+    - exact: We found that seven kinds of plasma proteins had genetic correlations with RA, such as Soluble
+        Receptor for Advanced Glycation End Products (sRAGE) (correlation coefficient = 0.2582, p = 0.049),
+        vesicle transport protein USE1 (correlation coefficient = 0.1337, p = 0.018), and spermatogenesis-associated
+        protein 20 (correlation coefficient = 0.3706, p = 0.018).
+  c002:
+    quotes:
+    - exact: We found that seven kinds of plasma proteins had genetic correlations with RA, such as Soluble
+        Receptor for Advanced Glycation End Products (sRAGE) (correlation coefficient = 0.2582, p = 0.049),
+        vesicle transport protein USE1 (correlation coefficient = 0.1337, p = 0.018), and spermatogenesis-associated
+        protein 20 (correlation coefficient = 0.3706, p = 0.018).
+  c003:
+    quotes:
+    - exact: There was a significant causal relationship between sRAGE and RA.
+  c004:
+    quotes:
+    - exact: By comparing the genes encoding seven plasma proteins, we found that only USE1 was a DEG
+        associated with RA.

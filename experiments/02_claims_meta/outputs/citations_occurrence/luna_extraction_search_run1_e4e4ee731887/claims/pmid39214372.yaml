@@ -1,0 +1,24 @@
+source:
+  citation: pmid39214372
+  local: sources/pmid39214372.txt
+  sha256: 34a26b80936c54c9022a94c7c468e77d6b643f80f9aaa7d645b22ec787a8940d
+  url: https://pubmed.ncbi.nlm.nih.gov/39214372/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: For example, in patients with cardioembolic stroke, higher genetically predicted APRT was
+        associated with a lower risk of cardioembolic stroke (ORivw [95 % CI] = 0.641 [0.517, 0.795];
+        P = 5.25 × 10-5, ORSMR [95 % CI] = 0.572, [0.397, 0.825], PSMR = 0.003).
+  c001:
+    quotes:
+    - exact: Mediation analyses suggested that atrial fibrillation, angina pectoris, and heart failure
+        may mediate the association of CD40L, LIFR, and UPA with stroke.
+  c002:
+    quotes:
+    - exact: Mediation analyses suggested that atrial fibrillation, angina pectoris, and heart failure
+        may mediate the association of CD40L, LIFR, and UPA with stroke.
+  c003:
+    quotes:
+    - exact: Mediation analyses suggested that atrial fibrillation, angina pectoris, and heart failure
+        may mediate the association of CD40L, LIFR, and UPA with stroke.

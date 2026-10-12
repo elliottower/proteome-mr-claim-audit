@@ -1,0 +1,29 @@
+source:
+  citation: pmid41105287
+  local: sources/pmid41105287.txt
+  sha256: 6b92d0fedc05d2e37b26c0c0b3560dfa217afab2dc6c453d2ddde115869dd36a
+  url: https://pubmed.ncbi.nlm.nih.gov/41105287/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: 'Our study revealed significant bidirectional effects of immune signaling on cancer risk.
+        Three immune factors demonstrated protective associations: C-C motif chemokine 4 (OR: 0.682, 95%
+        CI: 0.509–0.915, p = 0.011), leukemia inhibitory factor receptor (OR: 0.588, 95% CI: 0.374–0.924,
+        p = 0.021), and macrophage inflammatory protein (OR: 0.521, 95% CI: 0.345–0.786, p = 0.002).'
+  c001:
+    quotes:
+    - exact: 'Our study revealed significant bidirectional effects of immune signaling on cancer risk.
+        Three immune factors demonstrated protective associations: C-C motif chemokine 4 (OR: 0.682, 95%
+        CI: 0.509–0.915, p = 0.011), leukemia inhibitory factor receptor (OR: 0.588, 95% CI: 0.374–0.924,
+        p = 0.021), and macrophage inflammatory protein (OR: 0.521, 95% CI: 0.345–0.786, p = 0.002).'
+  c002:
+    quotes:
+    - exact: 'Our study revealed significant bidirectional effects of immune signaling on cancer risk.
+        Three immune factors demonstrated protective associations: C-C motif chemokine 4 (OR: 0.682, 95%
+        CI: 0.509–0.915, p = 0.011), leukemia inhibitory factor receptor (OR: 0.588, 95% CI: 0.374–0.924,
+        p = 0.021), and macrophage inflammatory protein (OR: 0.521, 95% CI: 0.345–0.786, p = 0.002).'
+  c003:
+    quotes:
+    - exact: 'In contrast, C-X-C motif chemokine 6 exhibited risk-increasing effects (OR: 1.380, 95% CI:
+        1.014–1.878, p = 0.040).'

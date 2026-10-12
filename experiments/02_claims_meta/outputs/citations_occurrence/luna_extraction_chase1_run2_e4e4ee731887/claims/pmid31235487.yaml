@@ -1,0 +1,27 @@
+source:
+  citation: pmid31235487
+  local: sources/pmid31235487.txt
+  sha256: b37fa51082daea893268ff1fd6349b5d97b520abe4cea7c7449574cbca1a1a58
+  url: https://pubmed.ncbi.nlm.nih.gov/31235487/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: Of the 238 biomarkers tested, only insulin-like growth factor-binding protein (IGFBP)-3 concentration
+        was associated with the PRS, where a 1 unit increase in PRS predicted a 0.28-SD decrease in IGFBP-3
+        blood levels (P < 0.05/238).
+  c001:
+    quotes:
+    - exact: Higher IGFBP-3 levels causally increased type 2 diabetes risk (odds ratio 1.26 per 1 SD genetically
+        determined IGFBP-3 level [95% CI 1.11-1.43]) and predicted a higher incidence of MACE (hazard
+        ratio 1.13 per 1 SD IGFBP-3 concentration [95% CI 1.07-1.20]).
+  c002:
+    quotes:
+    - exact: Higher IGFBP-3 levels causally increased type 2 diabetes risk (odds ratio 1.26 per 1 SD genetically
+        determined IGFBP-3 level [95% CI 1.11-1.43]) and predicted a higher incidence of MACE (hazard
+        ratio 1.13 per 1 SD IGFBP-3 concentration [95% CI 1.07-1.20]).
+  c003:
+    quotes:
+    - exact: Adding IGFBP-3 concentrations to the standard clinical assessment of metabolic health enhanced
+        the prediction of incident MACE, with a net reclassification improvement of 11.5% in normal weight
+        individuals (P = 0.004).

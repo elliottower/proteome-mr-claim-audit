@@ -1,0 +1,24 @@
+source:
+  citation: pmid34402426
+  local: sources/pmid34402426.txt
+  sha256: 9676376e71a3321560f4624ed4433697339cef8b5f791f5d30a5259029c8ca7b
+  url: https://pubmed.ncbi.nlm.nih.gov/34402426/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: Our analytic approach identified several known targets (e.g. ABO, OAS1), but also nominated
+        new proteins such as soluble Fas (colocalisation probability >0.9, p=1 × 10-4), implicating Fas-mediated
+        apoptosis as a potential target for COVID-19 risk.
+  c001:
+    quotes:
+    - exact: The polygenic (pan) and cis-Mendelian randomisation analyses showed consistent associations
+        of genetically predicted ABO protein with several COVID-19 phenotypes.
+  c002:
+    quotes:
+    - exact: The polygenic (pan) and cis-Mendelian randomisation analyses showed consistent associations
+        of genetically predicted ABO protein with several COVID-19 phenotypes.
+  c003:
+    quotes:
+    - exact: We demonstrated experimentally that CD209 directly interacts with the spike protein of SARS-CoV-2,
+        suggesting a mechanism that could explain the ABO association with COVID-19.

@@ -1,0 +1,16 @@
+source:
+  citation: pmid42410793
+  local: sources/pmid42410793.txt
+  sha256: 012cc9cdf95be3050ce102e38615937f22c1978d5d2677f72825ad91954470bc
+  url: https://pubmed.ncbi.nlm.nih.gov/42410793/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: These results suggest that higher BMI is associated with reduced SLIT2 expression, which
+        in turn increases the risk of atrial fibrillation.
+  c001:
+    quotes:
+    - exact: In contrast, ANGPTL3 showed a significant positive mediating effect (OR = 1.010, 95% CI =
+        1.003-1.017), accounting for 3.64% of the total effect, indicating that elevated BMI increases
+        ANGPTL3 levels, thereby further increasing the risk of atrial fibrillation.

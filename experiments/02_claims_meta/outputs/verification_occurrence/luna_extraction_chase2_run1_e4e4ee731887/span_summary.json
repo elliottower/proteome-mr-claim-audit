@@ -1,0 +1,25 @@
+{
+ "extraction": "outputs/parsed/luna_extraction_chase2_run1_e4e4ee731887.jsonl",
+ "n_claims": 313,
+ "registered_check_pass": 312,
+ "citations_pin_found": 312,
+ "citations_found_only_after_punctuation_folding": 0,
+ "citations_normalized_warning": 0,
+ "both_pass": 312,
+ "span_verification_rate": 0.9968051118210862,
+ "spans_over_two_sentences": 0,
+ "citations_verify_exit": 0,
+ "failing": [
+  {
+   "pmid": "38274820",
+   "claim_index": 3,
+   "claim_id": "c003",
+   "evidence_span": "The meta-analysis merger revealed a correlation between CX3CL1 cycle levels and increased OA risk (OR=1.070, 95% CI: 1.040-1.110; P<0.010). The sensitivity analysis results corroborate the robustness of these findings.",
+   "registered_check": false,
+   "citations_pin": "not found",
+   "citations_warnings": [],
+   "n_sentences": 2,
+   "passes": false
+  }
+ ]
+}

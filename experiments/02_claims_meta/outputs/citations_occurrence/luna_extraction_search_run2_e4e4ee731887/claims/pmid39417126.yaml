@@ -1,0 +1,16 @@
+source:
+  citation: pmid39417126
+  local: sources/pmid39417126.txt
+  sha256: 72dd336c3d50bf0038a5a4e7e2da8c71ffeb457d00faa77d1c77279f6bfeb699
+  url: https://pubmed.ncbi.nlm.nih.gov/39417126/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: Gene-based analysis of tau deposition highlighted APOE (P=2.55×10-6), CTNNA3 (P=2.86×10-6)
+        and JARID2 (P=1.23×10-4), a component of the PRC2 multi-protein complex which regulates gene expression.
+  c001:
+    quotes:
+    - exact: Mendelian randomization analysis of available circulating plasma proteins in the UK Biobank
+        Pharma Proteomics Project (UKBPPP) identified LRRFIP1, a protein that binds with PRC2 multi-protein
+        complex, as potentially causally linked to tau pathology.

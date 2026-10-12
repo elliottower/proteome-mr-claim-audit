@@ -1,0 +1,38 @@
+source:
+  citation: pmid41593461
+  local: sources/pmid41593461.txt
+  sha256: 264afb7aebe2b88562cb7cb5e42635cfa63a2bdc8c07650e1bcc3c04995644f2
+  url: https://pubmed.ncbi.nlm.nih.gov/41593461/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: MR analysis showed 16 plasma proteins and 87 metabolites had causal relationships with CRC.
+        FABP2, a plasma protein, was negatively correlated with CRC risk, while sphingomyelin was positively
+        associated.
+  c001:
+    quotes:
+    - exact: FABP2, a plasma protein, was negatively correlated with CRC risk, while sphingomyelin was
+        positively associated. Mediation MR indicated sphingomyelin mediated FABP2’s protective effect.
+  c002:
+    quotes:
+    - exact: Bulk RNA-seq data showed that FABP2 expression was significantly lower in CRC tissues compared
+        to normal tissues.
+  c003:
+    quotes:
+    - exact: scRNA-seq further revealed that FABP2 is primarily expressed in epithelial cells, and its
+        expression was markedly reduced in epithelial cells from tumor tissues relative to adjacent normal
+        tissues.
+  c004:
+    quotes:
+    - exact: Clinical validation confirmed that FABP2 expression was significantly downregulated in tumor
+        tissues and CRC patient plasma, whereas sphingomyelin levels were significantly elevated.
+  c005:
+    quotes:
+    - exact: Clinical validation confirmed that FABP2 expression was significantly downregulated in tumor
+        tissues and CRC patient plasma, whereas sphingomyelin levels were significantly elevated.
+  c006:
+    quotes:
+    - exact: FABP2 may inhibit CRC progression by regulating sphingomyelin metabolism through the PPAR
+        signaling pathway, suggesting its potential as a candidate biomarker for CRC diagnosis and a potential
+        target for therapeutic intervention.

@@ -1,0 +1,21 @@
+source:
+  citation: pmid42155607
+  local: sources/pmid42155607.txt
+  sha256: 499e14fdec74ce8164e84e2b495e3debb7276049fd65cd4a578342499d158c05
+  url: https://pubmed.ncbi.nlm.nih.gov/42155607/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: In deCODE validation, KLK13 was the only candidate supported across both glycaemic trait-to-protein
+        and protein-to-DKD analyses (OR 1.13, 95% CI 1.02-1.24).
+  c001:
+    quotes:
+    - exact: Among 9,936 UK Biobank participants without baseline DKD, 107 developed incident DKD. Higher
+        KLK13 was associated with incident DKD (HR 1.52, 95% CI 1.13-2.06), whereas serine peptidase inhibitor
+        Kazal type 6 (SPINK6) showed stronger association (HR 2.02, 95% CI 1.49-2.74).
+  c002:
+    quotes:
+    - exact: Among 9,936 UK Biobank participants without baseline DKD, 107 developed incident DKD. Higher
+        KLK13 was associated with incident DKD (HR 1.52, 95% CI 1.13-2.06), whereas serine peptidase inhibitor
+        Kazal type 6 (SPINK6) showed stronger association (HR 2.02, 95% CI 1.49-2.74).

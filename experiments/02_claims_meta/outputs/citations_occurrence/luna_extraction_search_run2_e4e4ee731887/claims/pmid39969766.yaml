@@ -1,0 +1,18 @@
+source:
+  citation: pmid39969766
+  local: sources/pmid39969766.txt
+  sha256: 09435a568f0f482e72fbb690741b18cc00ad49ed463201fb3653b1a93710c3bc
+  url: https://pubmed.ncbi.nlm.nih.gov/39969766/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: 'Notably, the mediation MR illustrated that the causal protective effect of OTU97_86 (Phascolarctobacterium)
+        on HNC (total effect IVW: OR = 0.879, 95% = 0.810-0.954, p = 0.002) was mediated by Proteasome
+        subunit alpha type-1 (PSMA1) (- 0.020, 95% CI = - 0.039 ~ - 0.001, p = 0.036), accounting for
+        15.25% of the total effect.'
+  c001:
+    quotes:
+    - exact: 'Similarly, the causal effect of OTU99_35 (Ruminococcus) on HNC risk (total effect IVW: OR
+        = 1.109, 95% CI = 1.027-1.198, p = 0.008) was mediated by the protein FAM107B (0.015, 95% CI =
+        0.001-0.029, p = 0.031), accounting for 14.69% of the total effect.'

@@ -1,0 +1,26 @@
+source:
+  citation: pmidW3114677164
+  local: sources/pmidW3114677164.txt
+  sha256: 7cf0fa86173b444c17bff9c75f788d1be170b302975c7be5def47c3461d0fea2
+  url: https://openalex.org/W3114677164
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: 'The fixed-effect IVW meta-analysis demonstrated a risk effect of protein PSAPL1 on osteoporosis
+        after multiple testing corrections (OR=1.348,95%CI: 1.196-1.519,P=9.77×10 - 7 ).'
+  c001:
+    quotes:
+    - exact: 'MR-Egger regression analysis did not produce evidence of directional horizontal pleiotropy
+        (OR=1.002,95%CI: 0.951-1.056,P=0.943), and identified a similar causal effect of PSAPL1 level
+        on osteoporosis (OR=1.334,95%CI: 0.988-1.801,P=0.079).'
+  c002:
+    quotes:
+    - exact: 'Sensitivity analysis also demonstrated similar causal effects using the weighted median
+        (OR=1.297,95%CI: 1.095-1.535,P=2.60×10 -3 ) and weighted mode (OR=1.261,95%CI: 1.003-1.586,P=0.0649),
+        respectively.'
+  c003:
+    quotes:
+    - exact: 'Sensitivity analysis also demonstrated similar causal effects using the weighted median
+        (OR=1.297,95%CI: 1.095-1.535,P=2.60×10 -3 ) and weighted mode (OR=1.261,95%CI: 1.003-1.586,P=0.0649),
+        respectively.'

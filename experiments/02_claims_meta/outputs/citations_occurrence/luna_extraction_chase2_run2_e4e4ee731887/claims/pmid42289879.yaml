@@ -1,0 +1,27 @@
+source:
+  citation: pmid42289879
+  local: sources/pmid42289879.txt
+  sha256: 7ee39f5a524b6010b94da5dd8819399baa995d92271e763cf4aeb9b6d7dbda1f
+  url: https://pubmed.ncbi.nlm.nih.gov/42289879/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: Specifically, 2,4-dienoyl-CoA reductase (DECR1) was associated with an increased risk of
+        E (OR = 1.8788, 95% CI 1.0446-3.3791, p = 0.0352), while Serine-tRNA ligase (SerRS) showed a protective
+        association with E (OR = 0.3090, 95% CI 0.1346-0.7097, p = 0.0056).
+  c001:
+    quotes:
+    - exact: Specifically, 2,4-dienoyl-CoA reductase (DECR1) was associated with an increased risk of
+        E (OR = 1.8788, 95% CI 1.0446-3.3791, p = 0.0352), while Serine-tRNA ligase (SerRS) showed a protective
+        association with E (OR = 0.3090, 95% CI 0.1346-0.7097, p = 0.0056).
+  c002:
+    quotes:
+    - exact: For pre-eclampsia, Persulfide dioxygenase ETHE1 was associated with decreased risk (OR =
+        0.9341, 95% CI 0.8762-0.9958, p = 0.0367), while Transmembrane protein 70 (TMEM70) was associated
+        with increased risk (OR = 1.0937, 95% CI 1.0023-1.1935, p = 0.0442).
+  c003:
+    quotes:
+    - exact: For pre-eclampsia, Persulfide dioxygenase ETHE1 was associated with decreased risk (OR =
+        0.9341, 95% CI 0.8762-0.9958, p = 0.0367), while Transmembrane protein 70 (TMEM70) was associated
+        with increased risk (OR = 1.0937, 95% CI 1.0023-1.1935, p = 0.0442).

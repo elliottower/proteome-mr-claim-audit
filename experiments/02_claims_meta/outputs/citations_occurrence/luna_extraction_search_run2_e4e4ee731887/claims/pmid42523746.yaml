@@ -1,0 +1,15 @@
+source:
+  citation: pmid42523746
+  local: sources/pmid42523746.txt
+  sha256: 9a6eaff51abbdbf81938e82df866cb6e55b23b79335a85e774aebf3fb7f0e461
+  url: https://pubmed.ncbi.nlm.nih.gov/42523746/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: The pQTL layer implicated 21 proteins, including BOLA1 for POAG.
+  c001:
+    quotes:
+    - exact: Cross-omic synthesis supported 18 genes by ≥2 omics layers. SPATA20 was supported by all
+        three layers, showed a consistent negative association with mRNFL, and in mice was transiently
+        upregulated in retina, with expression in the ganglion cell layer.

@@ -1,0 +1,49 @@
+{
+ "folders": [
+  "outputs/raw/luna/extraction/e4e4ee731887/run1"
+ ],
+ "parsed": [
+  "outputs/parsed/luna_extraction_search_run1_e4e4ee731887.jsonl",
+  "outputs/parsed/luna_extraction_chase1_run1_e4e4ee731887.jsonl",
+  "outputs/parsed/luna_extraction_chase2_run1_e4e4ee731887.jsonl",
+  "outputs/parsed/luna_extraction_chase3_run1_e4e4ee731887.jsonl"
+ ],
+ "written_utc": "2026-10-11T18:45:52+00:00",
+ "role": "luna_run1",
+ "model": "gpt-6-luna",
+ "prices_usd_per_million": {
+  "input": 0.1,
+  "cached_input": 0.01,
+  "cache_write": 0.125,
+  "output": 0.5
+ },
+ "price_source": {
+  "source": "OpenAI's pricing table, short-context column, as given by the author",
+  "date_given": "2026-10-05",
+  "unit": "USD per million tokens"
+ },
+ "abstracts_attempted": 2363,
+ "attempted_sha256": "302095677d1e1af69e1839d9c047657242b42489003e51572ae54f1e8a50fc63",
+ "billable_requests": 2363,
+ "abstracts_with_a_billable_response": 2363,
+ "abstracts_without_a_billable_response": 0,
+ "extraction_failed_abstracts": 0,
+ "failed_http_exchanges": 1,
+ "records_outside_the_parsed_files_not_priced": 30,
+ "tokens": {
+  "input_tokens": 7526795,
+  "cached_input_tokens": 6494083,
+  "cache_write_tokens": 1025623,
+  "output_tokens": 4954931,
+  "reasoning_tokens": 2509011
+ },
+ "uncached_input_tokens": 7089,
+ "usd_parts": {
+  "input": 0.0007089,
+  "cached_input": 0.06494083,
+  "cache_write": 0.128202875,
+  "output": 2.4774655
+ },
+ "usd": 2.671318105,
+ "usd_per_attempted_abstract": 0.0011304774037240795
+}

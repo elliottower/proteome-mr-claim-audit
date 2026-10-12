@@ -1,0 +1,15 @@
+source:
+  citation: pmid40495162
+  local: sources/pmid40495162.txt
+  sha256: 5ae54a12d604b7a6ecd1a21561614c2abecc7bcccb27740dfae91dd0ac9fcdda
+  url: https://pubmed.ncbi.nlm.nih.gov/40495162/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: Intermediate connections were found between the Holdemanella genus and urinary plasminogen
+        activator levels with SA.
+  c001:
+    quotes:
+    - exact: 'TIMP4 protein had a significant causal relationship with SA(IVW method: P > 0.05, PH4 =
+        96.1%; P = 7.85 × 10-6, PH4 in deCODE = 97.4%).'

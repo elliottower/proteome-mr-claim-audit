@@ -1,0 +1,17 @@
+source:
+  citation: pmid40400956
+  local: sources/pmid40400956.txt
+  sha256: 61497fb3a3ffe10d9c976e08a05405242cb5cd9f3a3f35b8dc13c3d494ad19a3
+  url: https://pubmed.ncbi.nlm.nih.gov/40400956/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: 'Elevated levels of CD33 [odds ratio (OR) 1.04, 95% confidence interval (CI): 1.02-1.05,
+        P=0.006] and LY9 (OR 1.10, 95% CI: 1.05-1.15, P=0.01) were associated with an increased risk of
+        sepsis, which were considered convincing evidence.'
+  c001:
+    quotes:
+    - exact: 'Elevated levels of CD33 [odds ratio (OR) 1.04, 95% confidence interval (CI): 1.02-1.05,
+        P=0.006] and LY9 (OR 1.10, 95% CI: 1.05-1.15, P=0.01) were associated with an increased risk of
+        sepsis, which were considered convincing evidence.'

@@ -1,0 +1,16 @@
+source:
+  citation: pmid37467317
+  local: sources/pmid37467317.txt
+  sha256: aaf3923bfc56d6fc573b2ff6858f9005e69d760f70b7a6912842048ec159b8a7
+  url: https://pubmed.ncbi.nlm.nih.gov/37467317/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: We found that eight of these candidate protein markers were abnormally expressed in human
+        postmortem brain tissue from patients with AD, although some of the proteins that were most strongly
+        associated with dementia risk, such as GDF15, were not detected in these brain tissue samples.
+  c001:
+    quotes:
+    - exact: Bidirectional two-sample Mendelian randomization genetically validated nine of our candidate
+        proteins as markers of AD in midlife and inferred causality of SERPINA3 in AD pathogenesis.

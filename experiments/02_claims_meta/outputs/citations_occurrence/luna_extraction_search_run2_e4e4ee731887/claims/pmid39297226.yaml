@@ -1,0 +1,10 @@
+source:
+  citation: pmid39297226
+  local: sources/pmid39297226.txt
+  sha256: 8f544129cfe13404df1130013ae72bd0b13d23491258ed98d8d2534f4a60a890
+  url: https://pubmed.ncbi.nlm.nih.gov/39297226/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c001:
+    quotes:
+    - exact: 'TIMP4 was associated with an increased risk (OR = 1.169, 95% CI: 1.103-1.241, p = 1.956E-07).'

@@ -1,0 +1,31 @@
+source:
+  citation: pmid41801343
+  local: sources/pmid41801343.txt
+  sha256: 9468bd81eafbb22253d212e869c2f102e829c791ea6f43c5b8ac4faef005dc7f
+  url: https://pubmed.ncbi.nlm.nih.gov/41801343/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: Our SMR analysis highlighted GRHPR as a key gene, which is negatively correlated with CRC
+        risk at multiple molecular levels (m/e/pQTL), supported by robust colocalization evidence.
+  c001:
+    quotes:
+    - exact: Meanwhile, eQTL results showed that high level expression of UVSSA was positively associated
+        with CRC risk.
+  c002:
+    quotes:
+    - exact: QTL results at the tissue level (Colon_Sigmoid and Colon_Transverse) support a causal relationship
+        between the genes GRHPR and UVSSA and CRC.
+  c003:
+    quotes:
+    - exact: QTL results at the tissue level (Colon_Sigmoid and Colon_Transverse) support a causal relationship
+        between the genes GRHPR and UVSSA and CRC.
+  c004:
+    quotes:
+    - exact: Crucially, survival analyses revealed that genetically predicted effects of NAF1 and ZNF365
+        on CRC risk were highly consistent with their prognostic values in clinical outcomes (OS and RFS).
+  c005:
+    quotes:
+    - exact: Crucially, survival analyses revealed that genetically predicted effects of NAF1 and ZNF365
+        on CRC risk were highly consistent with their prognostic values in clinical outcomes (OS and RFS).

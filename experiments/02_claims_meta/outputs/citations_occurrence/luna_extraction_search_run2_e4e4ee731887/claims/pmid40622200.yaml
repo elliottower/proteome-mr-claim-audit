@@ -1,0 +1,21 @@
+source:
+  citation: pmid40622200
+  local: sources/pmid40622200.txt
+  sha256: 621139b20afd46c6783888351e921365a7b78e197d71944072fc27b9a5c91a34
+  url: https://pubmed.ncbi.nlm.nih.gov/40622200/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: Genetically predicted higher levels of CD36 (odds ratio [OR], 0.78; 95% confidence interval
+        [CI], 0.7-0.88, PFDR = 0.003) and HSPA1B (OR, 0.33; 95% CI, 0.22-0.52; PFDR < 0.001) were associated
+        with a reduced risk of AC.
+  c001:
+    quotes:
+    - exact: Genetically predicted higher levels of CD36 (odds ratio [OR], 0.78; 95% confidence interval
+        [CI], 0.7-0.88, PFDR = 0.003) and HSPA1B (OR, 0.33; 95% CI, 0.22-0.52; PFDR < 0.001) were associated
+        with a reduced risk of AC.
+  c002:
+    quotes:
+    - exact: Higher levels of IL6R (OR, 1.05; 95% CI, 1.03-1.07; PFDR < 0.001) were linked to an increased
+        risk of AC.

@@ -1,0 +1,29 @@
+source:
+  citation: pmid41487707
+  local: sources/pmid41487707.txt
+  sha256: f7a0402f973b1f4c6ac4aa13dae6c46ce7c1f5c472c63e4aa31a709ed22f21f0
+  url: https://pubmed.ncbi.nlm.nih.gov/41487707/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: IVW analysis identified 56 pQTL genes significantly associated with CD risk, with six genes
+        (including HLA-A, MST1, and CDH5) passing false discovery rate (FDR) correction.
+  c001:
+    quotes:
+    - exact: IVW analysis identified 56 pQTL genes significantly associated with CD risk, with six genes
+        (including HLA-A, MST1, and CDH5) passing false discovery rate (FDR) correction.
+  c002:
+    quotes:
+    - exact: IVW analysis identified 56 pQTL genes significantly associated with CD risk, with six genes
+        (including HLA-A, MST1, and CDH5) passing false discovery rate (FDR) correction.
+  c003:
+    quotes:
+    - exact: Colocalization analysis indicated that HLA-A and MST1 shared causal variants with CD.
+  c004:
+    quotes:
+    - exact: Colocalization analysis indicated that HLA-A and MST1 shared causal variants with CD.
+  c005:
+    quotes:
+    - exact: Subsequent eQTL-based MR and SMR analysis confirmed the causal association of HLA-A expression
+        with increased CD risk (SMR OR = 1.434, p = 4.10 × 10-5), with no evidence of heterogeneity.

@@ -1,0 +1,45 @@
+{
+ "written_utc": "2026-10-11T21:34:06+00:00",
+ "records": 43660,
+ "records_other_document_type": 1525,
+ "records_no_abstract": 1416,
+ "eligible_families_with_a_no_abstract_record": 27,
+ "other_document_types_included": false,
+ "families": 42615,
+ "eligible_families": 1968,
+ "eligible_families_by_window": {
+  "confirmatory": 1394,
+  "update": 574
+ },
+ "claim_records_of_other_records": 145,
+ "registry": {
+  "claim_records": 1363,
+  "claims_with_a_pair": 562,
+  "left_out_by_reason": {
+   "not_mr_estimate": 336,
+   "protein_unmapped": 30,
+   "outcome_unmapped": 338,
+   "pair_ambiguous": 37,
+   "relation_ambiguous": 29,
+   "outcome_not_in_span": 28,
+   "span_not_verified": 3
+  },
+  "pair_ambiguous_by_reason": {
+   "outcome_other_ontology_candidates_dropped": 62,
+   "outcome_multiple_canonical": 35,
+   "protein_multiple_uniprot": 3
+  },
+  "claims_with_a_manually_coded_dataset": 25
+ },
+ "dating": {
+  "claim_records": 29,
+  "claims_with_a_pair": 7,
+  "left_out_by_reason": {
+   "outcome_unmapped": 18,
+   "protein_unmapped": 2,
+   "not_mr_estimate": 2
+  },
+  "pair_ambiguous_by_reason": {},
+  "claims_with_a_manually_coded_dataset": 0
+ }
+}

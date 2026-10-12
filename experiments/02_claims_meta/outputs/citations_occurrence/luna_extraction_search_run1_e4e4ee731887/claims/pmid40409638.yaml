@@ -1,0 +1,13 @@
+source:
+  citation: pmid40409638
+  local: sources/pmid40409638.txt
+  sha256: efa93719b79078d7a52022de3ea065329745ba78dab29cc927d66705fe82c34c
+  url: https://pubmed.ncbi.nlm.nih.gov/40409638/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: PW-MR highlighted numerous plasma proteins, with interleukin-6 receptor (IL6R) showing strong
+        association and colocalization in both deCODE and UK Biobank Pharma Proteomics Project (UKB-PPP)
+        datasets. Multi-trait colocalization analysis supports IL6R's role, suggesting that drugs targeting
+        IL6R, such as tocilizumab, may benefit AA treatment, though potential side effects warrant consideration.

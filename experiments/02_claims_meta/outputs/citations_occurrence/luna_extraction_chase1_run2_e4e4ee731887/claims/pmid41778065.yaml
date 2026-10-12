@@ -1,0 +1,30 @@
+source:
+  citation: pmid41778065
+  local: sources/pmid41778065.txt
+  sha256: 9f4ee3aa2f7981223aaad24ca0e889d29fa91f470c669ef20213356ad81419c1
+  url: https://pubmed.ncbi.nlm.nih.gov/41778065/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: 'MR analysis revealed that genetic proxies for apolipoprotein B (ApoB) (OR=1.64; 95%CI: 1.42-1.90;
+        p < 0.001) and low-density lipoprotein cholesterol (LDL-C) (OR=1.78; 95%CI: 1.50-2.51; p < 0.001)
+        were positively causally associated with increased coronary artery calcification (CAC) severity.'
+  c001:
+    quotes:
+    - exact: 'Drug target MR analysis identified PCSK9 as a promising CAC therapeutic target (OR=1.19;
+        95%CI: 1.11-1.27; p < 0.001), and colocalization analysis confirmed shared genetic causality between
+        PCSK9 expression and CAC susceptibility.'
+  c002:
+    quotes:
+    - exact: 'Drug target MR analysis identified PCSK9 as a promising CAC therapeutic target (OR=1.19;
+        95%CI: 1.11-1.27; p < 0.001), and colocalization analysis confirmed shared genetic causality between
+        PCSK9 expression and CAC susceptibility.'
+  c003:
+    quotes:
+    - exact: Mediation MR analysis suggested FGF23 as a partial mediator in the PCSK9-CAC axis (mediated
+        effect=0.024; mediation proportion=13.86%).
+  c004:
+    quotes:
+    - exact: Inhibition of PCSK9 may effectively slow the progression of coronary artery calcification,
+        with inflammatory mediators such as FGF23 playing key regulatory roles in this process.

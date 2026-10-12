@@ -1,0 +1,38 @@
+source:
+  citation: pmid38957317
+  local: sources/pmid38957317.txt
+  sha256: f3e381418cc30ed81d4bd0a36bed02c77bdf2826d1ae3b822a6488b05b79757d
+  url: https://pubmed.ncbi.nlm.nih.gov/38957317/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: 'Genetically predicted levels of the chemokine interleukin-18 (IL-18) (OR = 0.942, 95% CI:
+        0.897-0.990, P = 0.018) exerted significant negative causal effects on overall lung cancer risk
+        in this analysis.'
+  c001:
+    quotes:
+    - exact: 'Examining specific histologic subtypes revealed further evidence of genetic associations.
+        Stem cell factor (SCF) (OR = 1.150, 95% CI: 1.021-1.296, P = 0.021) and interleukin-1beta (IL-1β)
+        (OR = 1.152, 95% CI: 1.003-1.325, P = 0.046) were positively associated with lung adenocarcinoma
+        risk, though no inflammatory factors showed causal links to squamous cell lung cancer risk.'
+  c002:
+    quotes:
+    - exact: 'Examining specific histologic subtypes revealed further evidence of genetic associations.
+        Stem cell factor (SCF) (OR = 1.150, 95% CI: 1.021-1.296, P = 0.021) and interleukin-1beta (IL-1β)
+        (OR = 1.152, 95% CI: 1.003-1.325, P = 0.046) were positively associated with lung adenocarcinoma
+        risk, though no inflammatory factors showed causal links to squamous cell lung cancer risk.'
+  c003:
+    quotes:
+    - exact: 'Stratified by smoking status, interferon gamma-induced protein 10 (IP-10) (OR = 0.861, 95%
+        CI: 0.781-0.950, P = 0.003) was inversely associated while IL-1β (OR = 1.190, 95% CI: 1.023-1.384,
+        P = 0.024) was positively associated with lung cancer risk in ever smokers.'
+  c004:
+    quotes:
+    - exact: 'Stratified by smoking status, interferon gamma-induced protein 10 (IP-10) (OR = 0.861, 95%
+        CI: 0.781-0.950, P = 0.003) was inversely associated while IL-1β (OR = 1.190, 95% CI: 1.023-1.384,
+        P = 0.024) was positively associated with lung cancer risk in ever smokers.'
+  c005:
+    quotes:
+    - exact: 'Among never smokers, a positive association was observed between lung cancer risk and SCF
+        (OR = 1.474, 95% CI: 1.105-1.964, P = 0.008).'

@@ -1,0 +1,42 @@
+source:
+  citation: pmid42773293
+  local: sources/pmid42773293.txt
+  sha256: 928387e5cf3c41501ce65a2516e396def6bd2410cfe15e0aa1c81fd67b8b5651
+  url: https://pubmed.ncbi.nlm.nih.gov/42773293/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: Several SMR-prioritized genes showed directional concordance between genetically predicted
+        effects and tumor expression, including the protective candidate HGF (ORSMR = 0.37, P = 0.010)
+        and the risk-associated AKT1 (ORSMR = 1.19, P = 0.024).
+  c001:
+    quotes:
+    - exact: Several SMR-prioritized genes showed directional concordance between genetically predicted
+        effects and tumor expression, including the protective candidate HGF (ORSMR = 0.37, P = 0.010)
+        and the risk-associated AKT1 (ORSMR = 1.19, P = 0.024).
+  c002:
+    quotes:
+    - exact: 'Both were further supported by two-sample MR sensitivity analyses (HGF: ORIVW = 0.72, P
+        = 0.007; AKT1: ORIVW = 1.17, P = 0.009), with no evidence of horizontal pleiotropy (Egger intercept
+        P > 0.05).'
+  c003:
+    quotes:
+    - exact: 'Both were further supported by two-sample MR sensitivity analyses (HGF: ORIVW = 0.72, P
+        = 0.007; AKT1: ORIVW = 1.17, P = 0.009), with no evidence of horizontal pleiotropy (Egger intercept
+        P > 0.05).'
+  c004:
+    quotes:
+    - exact: Higher tumor HGF expression correlated with better OS (HRCox = 0.70, P = 0.008) and PFI (HRCox
+        = 0.72, P = 0.020), whereas higher AKT1 expression correlated with poorer OS (HRCox = 1.42, P
+        = 0.010).
+  c005:
+    quotes:
+    - exact: Higher tumor HGF expression correlated with better OS (HRCox = 0.70, P = 0.008) and PFI (HRCox
+        = 0.72, P = 0.020), whereas higher AKT1 expression correlated with poorer OS (HRCox = 1.42, P
+        = 0.010).
+  c006:
+    quotes:
+    - exact: Higher tumor HGF expression correlated with better OS (HRCox = 0.70, P = 0.008) and PFI (HRCox
+        = 0.72, P = 0.020), whereas higher AKT1 expression correlated with poorer OS (HRCox = 1.42, P
+        = 0.010).

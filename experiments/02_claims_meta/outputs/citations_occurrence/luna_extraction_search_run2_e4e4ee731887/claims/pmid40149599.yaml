@@ -1,0 +1,17 @@
+source:
+  citation: pmid40149599
+  local: sources/pmid40149599.txt
+  sha256: 473d85a3151db580004d2149c25c7de37bf28be3d7cd78a7f7faabb312e4d7a4
+  url: https://pubmed.ncbi.nlm.nih.gov/40149599/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: A GWAS with 138,086 ALS patients was used as the outcome data; we found that a high level
+        of sex hormone-binding globulin (SHBG) is a risk factor by MR analysis.
+  c001:
+    quotes:
+    - exact: A high level of SHBG, and a low level of bioavailable testosterone are risk factors for ALS.
+  c002:
+    quotes:
+    - exact: A high level of SHBG, and a low level of bioavailable testosterone are risk factors for ALS.

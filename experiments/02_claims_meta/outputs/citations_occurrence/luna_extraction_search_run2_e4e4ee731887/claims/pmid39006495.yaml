@@ -1,0 +1,18 @@
+source:
+  citation: pmid39006495
+  local: sources/pmid39006495.txt
+  sha256: abff378b3053bac95dc806db3f31678428e8611b9a79cb1e90df2b6593f52484
+  url: https://pubmed.ncbi.nlm.nih.gov/39006495/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: In plasma, increasing TIMP4 (OR = 1.15; 95% CI, 1.09-1.21; P = 1.01×10-7) increased the risk
+        of acne vulgaris.
+  c001:
+    quotes:
+    - exact: TIMP4 was replicated in deCODE cohort (OR = 1.17; 95% CI, 1.10-1.24; P = 1.48×10-7).
+  c002:
+    quotes:
+    - exact: According to Bayesian co-localization analysis, TIMP4 shared the same variant with acne vulgaris
+        (PPH4 = 0.93).

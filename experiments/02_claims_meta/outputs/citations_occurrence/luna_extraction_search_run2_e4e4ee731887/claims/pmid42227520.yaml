@@ -1,0 +1,24 @@
+source:
+  citation: pmid42227520
+  local: sources/pmid42227520.txt
+  sha256: d2feae25024d9989c88520d0bb450ae1cd9066d754f3bfdda9e8cae86e19e66b
+  url: https://pubmed.ncbi.nlm.nih.gov/42227520/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: Of the 2,994 circulating proteins examined, 11 showed evidence of a potential causal relationship
+        with POP after multiple testing correction. Among these, soluble Tie2 (sTie2) emerged as a prominent
+        candidate, with similar effect estimates observed across independent datasets.
+  c001:
+    quotes:
+    - exact: Of the 2,994 circulating proteins examined, 11 showed evidence of a potential causal relationship
+        with POP after multiple testing correction. Among these, soluble Tie2 (sTie2) emerged as a prominent
+        candidate, with similar effect estimates observed across independent datasets.
+  c002:
+    quotes:
+    - exact: Elevated circulating sTie2 levels in POP patients were further supported by ELISA measurements.
+  c003:
+    quotes:
+    - exact: Further two-step MR analysis identified 27 metabolites linked to sTie2, with paraxanthine
+        showing a significant positive association with POP susceptibility.

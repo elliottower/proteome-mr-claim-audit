@@ -1,0 +1,49 @@
+source:
+  citation: pmid40092369
+  local: sources/pmid40092369.txt
+  sha256: 579ff68ac7661f7da222f6de3cc1306101d44982dfe43b8c733653bd7f4c2f2e
+  url: https://pubmed.ncbi.nlm.nih.gov/40092369/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: 'NEFL (hazard ratio [HR] [95% confidence intervals (CIs)]: 1.54 [1.29, 1.84]) and RPS6KB1
+        (HR [95% CI]: 1.33 [1.16, 1.52]) were robustly associated with incident all-cause dementia; MMP12
+        (HR [95% CI]: 2.06 [1.41, 2.99]) was associated with vascular dementia in ELSA, after correcting
+        for multiple testing.'
+  c001:
+    quotes:
+    - exact: 'NEFL (hazard ratio [HR] [95% confidence intervals (CIs)]: 1.54 [1.29, 1.84]) and RPS6KB1
+        (HR [95% CI]: 1.33 [1.16, 1.52]) were robustly associated with incident all-cause dementia; MMP12
+        (HR [95% CI]: 2.06 [1.41, 2.99]) was associated with vascular dementia in ELSA, after correcting
+        for multiple testing.'
+  c002:
+    quotes:
+    - exact: 'NEFL (hazard ratio [HR] [95% confidence intervals (CIs)]: 1.54 [1.29, 1.84]) and RPS6KB1
+        (HR [95% CI]: 1.33 [1.16, 1.52]) were robustly associated with incident all-cause dementia; MMP12
+        (HR [95% CI]: 2.06 [1.41, 2.99]) was associated with vascular dementia in ELSA, after correcting
+        for multiple testing.'
+  c003:
+    quotes:
+    - exact: Sex difference was evident for the association between RPS6KB1 and all-cause dementia, with
+        stronger association in men (P for interaction = 0.037).
+  c004:
+    quotes:
+    - exact: Combining NEFL and RPS6KB1 with other predictors yielded high predictive accuracy (area under
+        the curve = 0.871) for incident all-cause dementia.
+  c005:
+    quotes:
+    - exact: Combining NEFL and RPS6KB1 with other predictors yielded high predictive accuracy (area under
+        the curve = 0.871) for incident all-cause dementia.
+  c006:
+    quotes:
+    - exact: The eXtreme Gradient Boosting machine learning algorithm also identified RPS6KB1, NEFL, and
+        KIM1 as the most important protein features for predicting future all-cause dementia.
+  c007:
+    quotes:
+    - exact: The eXtreme Gradient Boosting machine learning algorithm also identified RPS6KB1, NEFL, and
+        KIM1 as the most important protein features for predicting future all-cause dementia.
+  c008:
+    quotes:
+    - exact: The eXtreme Gradient Boosting machine learning algorithm also identified RPS6KB1, NEFL, and
+        KIM1 as the most important protein features for predicting future all-cause dementia.

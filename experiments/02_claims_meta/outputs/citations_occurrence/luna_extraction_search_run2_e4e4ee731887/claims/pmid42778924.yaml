@@ -1,0 +1,25 @@
+source:
+  citation: pmid42778924
+  local: sources/pmid42778924.txt
+  sha256: 7ef71c13383e1cc34099beb92914d4cf69d188ee8a302369fc0bdd84ec089217
+  url: https://pubmed.ncbi.nlm.nih.gov/42778924/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: 'Genetic and functional analyses highlighted two modules: CKB-IGFBP2-centric module was positively
+        associated with MVPA (β [95% CI] 0.196 [0.168, 0.224]) and genetically associated with lower T2D
+        risk (OR [95% CI] 0.57 [0.43, 0.77]).'
+  c001:
+    quotes:
+    - exact: 'Genetic and functional analyses highlighted two modules: CKB-IGFBP2-centric module was positively
+        associated with MVPA (β [95% CI] 0.196 [0.168, 0.224]) and genetically associated with lower T2D
+        risk (OR [95% CI] 0.57 [0.43, 0.77]).'
+  c002:
+    quotes:
+    - exact: Conversely, RIDA-PCBD1-centric module was inversely associated with MVPA (- 0.134 [- 0.162,
+        - 0.108]) and genetically associated with higher T2D risk (1.54 [1.13, 2.09]).
+  c003:
+    quotes:
+    - exact: Conversely, RIDA-PCBD1-centric module was inversely associated with MVPA (- 0.134 [- 0.162,
+        - 0.108]) and genetically associated with higher T2D risk (1.54 [1.13, 2.09]).

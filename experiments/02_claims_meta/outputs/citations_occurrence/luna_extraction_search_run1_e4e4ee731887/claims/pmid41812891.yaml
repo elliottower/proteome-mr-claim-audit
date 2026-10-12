@@ -1,0 +1,25 @@
+source:
+  citation: pmid41812891
+  local: sources/pmid41812891.txt
+  sha256: 614914c3f8aedf1e5ff488890ca6be7cdc4f59f30686cff9a2724e485b74911c
+  url: https://pubmed.ncbi.nlm.nih.gov/41812891/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: 'Two core UC → depression mediators were identified: Ezrin (EZR, OR = 0.96, 95% CI: 0.93-1.00,
+        P = 0.031) and albumin (ALB, OR = 1.05, 95% CI: 1.01-1.09, P = 0.0062).'
+  c001:
+    quotes:
+    - exact: 'Two core UC → depression mediators were identified: Ezrin (EZR, OR = 0.96, 95% CI: 0.93-1.00,
+        P = 0.031) and albumin (ALB, OR = 1.05, 95% CI: 1.01-1.09, P = 0.0062).'
+  c002:
+    quotes:
+    - exact: Immunohistochemistry showed reduced EZR in UCD colonic mucosa vs. UCN (P < 0.05); serum analyses
+        revealed elevated ALB in UCD (P < 0.01), positively correlated with depressive severity (Pearson's
+        r = 0.372, P = 0.00181).
+  c003:
+    quotes:
+    - exact: Immunohistochemistry showed reduced EZR in UCD colonic mucosa vs. UCN (P < 0.05); serum analyses
+        revealed elevated ALB in UCD (P < 0.01), positively correlated with depressive severity (Pearson's
+        r = 0.372, P = 0.00181).

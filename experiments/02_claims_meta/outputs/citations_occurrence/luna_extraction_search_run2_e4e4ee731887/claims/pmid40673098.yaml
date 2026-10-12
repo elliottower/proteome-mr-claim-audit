@@ -1,0 +1,27 @@
+source:
+  citation: pmid40673098
+  local: sources/pmid40673098.txt
+  sha256: 9b1a22dc2fb672a03feac25f1873cff8ac18ba1332515b8babec1099243b8431
+  url: https://pubmed.ncbi.nlm.nih.gov/40673098/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: Reduced methylation at cg23090046 correlated with increased KLC1 transcription, protein abundance,
+        and lung cancer risk.
+  c001:
+    quotes:
+    - exact: Similarly, reduced methylation at cg12873919 and cg13989999 was associated with elevated
+        BCL2L1 transcription and heightened lung cancer risk.
+  c002:
+    quotes:
+    - exact: 'Patients with high BCL2L1 expression exhibited greater M2 macrophage infiltration, while
+        those with high KLC1 expression exhibited greater B-cell immune suppression, with the high expression
+        of both genes being associated with poor prognosis [KLC1: hazard ratio (HR) =1.29, 95% confident
+        interval (CI): 1.14-1.45; BCL2L1: HR =1.17, 95% CI: 1.01-1.36].'
+  c003:
+    quotes:
+    - exact: 'Patients with high BCL2L1 expression exhibited greater M2 macrophage infiltration, while
+        those with high KLC1 expression exhibited greater B-cell immune suppression, with the high expression
+        of both genes being associated with poor prognosis [KLC1: hazard ratio (HR) =1.29, 95% confident
+        interval (CI): 1.14-1.45; BCL2L1: HR =1.17, 95% CI: 1.01-1.36].'

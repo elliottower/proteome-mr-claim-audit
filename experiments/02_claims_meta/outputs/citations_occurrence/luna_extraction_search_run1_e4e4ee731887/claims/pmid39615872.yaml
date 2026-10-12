@@ -1,0 +1,15 @@
+source:
+  citation: pmid39615872
+  local: sources/pmid39615872.txt
+  sha256: 4be3290e362fa0c3215e049c4da4a51571835d66bf1e470295ffa1201e05e54a
+  url: https://pubmed.ncbi.nlm.nih.gov/39615872/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: Notably, the genetically proxied protein level of neuromedin B (NMB) was associated with
+        an increased risk for SCZ (odds ratio [OR] = 1.41; 95 % CI, 1.27 to 1.58; P = 6.68 × 10-10).
+  c001:
+    quotes:
+    - exact: The genetically proxied NMB was positively associated with an increase in the surface area
+        (SA) of the parahippocampal gyrus (β = 8.93 mm2, 95 % CI, 1.58 to 16.3, P = .02).

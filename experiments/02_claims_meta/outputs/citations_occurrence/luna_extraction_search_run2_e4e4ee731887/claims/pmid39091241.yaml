@@ -1,0 +1,27 @@
+source:
+  citation: pmid39091241
+  local: sources/pmid39091241.txt
+  sha256: 9555a5d7991f21b77a47f0211a1728e56a52715e8b27771a7e81db5647f86fb0
+  url: https://pubmed.ncbi.nlm.nih.gov/39091241/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: Of these proteins, MR analysis offered a compelling negative association between apolipoprotein
+        B (APOB) and liver cancer.
+  c001:
+    quotes:
+    - exact: 'This association was further corroborated in the UK Biobank cohort: genetically predicted
+        APOB levels were associated with a 31% (95% CI 19-42%) decreased risk of liver cancer; and phenotypic
+        analysis indicated an 11% (95% CI 8-14%) decreased liver cancer risk for every 0.1 g/L increase
+        of circulating APOB levels.'
+  c002:
+    quotes:
+    - exact: 'This association was further corroborated in the UK Biobank cohort: genetically predicted
+        APOB levels were associated with a 31% (95% CI 19-42%) decreased risk of liver cancer; and phenotypic
+        analysis indicated an 11% (95% CI 8-14%) decreased liver cancer risk for every 0.1 g/L increase
+        of circulating APOB levels.'
+  c003:
+    quotes:
+    - exact: Multivariable MR analysis suggested that the hepatic fat content might fully mediate the
+        APOB-liver cancer connection.

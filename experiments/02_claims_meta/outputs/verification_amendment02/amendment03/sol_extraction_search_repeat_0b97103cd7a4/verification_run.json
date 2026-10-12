@@ -1,0 +1,70 @@
+{
+ "written_utc": "20261011T184609Z",
+ "label": "amendment03",
+ "extraction_file": "sol_extraction_search_repeat_0b97103cd7a4.jsonl",
+ "extraction": {
+  "bytes": 1041416,
+  "sha256": "557ee622771562ac3717130c8ff311f94ee5959bfc4efa2c37383cb1ee2d28c6"
+ },
+ "script": "scripts/verify_claims_whitespace.py",
+ "command": [
+  "python",
+  "scripts/verify_claims_whitespace.py",
+  "--extraction",
+  "outputs/parsed/sol_extraction_search_repeat_0b97103cd7a4.jsonl"
+ ],
+ "inputs": {
+  "citations_verify.txt": {
+   "bytes": 194,
+   "sha256": "90fc0851c33f5c00df423438d4db8d59b5032bf5b4a9f94efc8a7b6f0cc42eda"
+  },
+  "span_occurrences.json": {
+   "bytes": 1159,
+   "sha256": "834f7f043570ebecc61db1c965ef92c2bc1511307ccda1d029fe68907a03d6b1"
+  },
+  "span_step_run.json": {
+   "bytes": 8999,
+   "sha256": "cbac728d118d5cac84a744f35a6ff9beae75399c29582e2a3d1478de34a24e11"
+  },
+  "span_summary.json": {
+   "bytes": 2118,
+   "sha256": "3e0eabb47fb67f70fb5f1dc3fbd35d7593d46a854381ed4ccea062430dd71881"
+  },
+  "spans.jsonl": {
+   "bytes": 606760,
+   "sha256": "8df16b99bc29c7108106f9f6faaa9ac674de9a3abb15d00d438331a4cbce096b"
+  }
+ },
+ "outputs": {
+  "claim_checks.jsonl": {
+   "bytes": 1965672,
+   "sha256": "0afb44ab5eca88ffd661991093d7dad649e4dcf1754be6711d61433c327575e7"
+  },
+  "claim_summary.json": {
+   "bytes": 3363,
+   "sha256": "ebf0a60865c38058e2a6adc818212829e2339618f8e2ba76a8c9c782cef3a58f"
+  }
+ },
+ "environment": {
+  "python": "3.12.10",
+  "platform": "Linux-4.19.0-gvisor-x86_64-with-glibc2.36",
+  "image": "modal debian_slim, python 3.12",
+  "packages": {
+   "httpx": "0.28.1",
+   "numpy": "2.5.3",
+   "openpyxl": "3.1.5",
+   "pyarrow": "21.0.0",
+   "pydantic": "2.13.5",
+   "pypdf": "5.9.0",
+   "pytest": "8.4.2",
+   "rapidfuzz": "3.14.6",
+   "modal": "1.4.3"
+  },
+  "scripts_sha256": {
+   "scripts/verify_claims_whitespace.py": "b217f93059d0dd7cb327de0c7df8a0ecc77b5ff6e514e4c1b89659a5f8157c7d",
+   "scripts/modal_verify_claims_amended.py": "ba4514c919940fa7b58aea3ffddf432ca60a17e8ac15ee08bc43d10d1ea9037f"
+  },
+  "reference_manifest_sha256": "41def217e24c028a4efe6a6c457f6a03ea887a3556fba6a270762ba99f786347"
+ },
+ "volume_folder": "/vol/02_claims_meta/amendment02/verification/amendment03/sol_extraction_search_repeat_0b97103cd7a4"
+}

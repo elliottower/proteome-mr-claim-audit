@@ -1,0 +1,14 @@
+source:
+  citation: pmid40988251
+  local: sources/pmid40988251.txt
+  sha256: 97777a5593a9615be8397a05f27fc27a023c71ec7a45da98587e3bb04d0a5bec
+  url: https://pubmed.ncbi.nlm.nih.gov/40988251/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: MR analyses showed a significant causal link between GLP1RA use and chronic tubulo-interstitial
+        nephritis (CTIN; OR = 2.32, 95% CI = 1.39-3.85, P = .001), with no significant association for
+        acute tubulo-interstitial nephritis (ATIN; OR = 0.93, 95% CI = 0.83-1.04, P = .216). Colocalization
+        analysis strongly supported the MR findings, showing a high posterior probability of shared genetic
+        variants between GLP1R expression and CTIN (PP.H4 = 0.99).

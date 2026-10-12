@@ -1,0 +1,18 @@
+source:
+  citation: pmid41986467
+  local: sources/pmid41986467.txt
+  sha256: 93517cef6dcb5d9be1a049b06c82e0ac03c475f0fb063311ccb621fb5dc37ca8
+  url: https://pubmed.ncbi.nlm.nih.gov/41986467/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: Among immune traits, tumor necrosis factor receptor 1 (sTNF-R1) showed a protective effect
+        (OR = 0.83, p = 0.047), whereas regulatory T cell (Treg) counts increased the risk of SCZ (OR
+        = 1.05, p = 0.006).
+  c001:
+    quotes:
+    - exact: Among immune traits, tumor necrosis factor receptor 1 (sTNF-R1) showed a protective effect
+        (OR = 0.83, p = 0.047), whereas regulatory T cell (Treg) counts increased the risk of SCZ (OR
+        = 1.05, p = 0.006). Multivariate MR confirmed the independent effects of Desulfovibrio, Gordonibacter,
+        and sTNF-R1 after adjusting for other traits.

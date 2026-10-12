@@ -1,0 +1,31 @@
+source:
+  citation: pmid39119976
+  local: sources/pmid39119976.txt
+  sha256: 2e51e6c59cd70a2bb4440c2e298ff936f9b3f152627f8bdd44b30806dbf83a9a
+  url: https://pubmed.ncbi.nlm.nih.gov/39119976/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: We found evidence of a potential causal effect of plasma GP6 (glycoprotein VI) levels on
+        cardioembolic stroke (odds ratio [OR]Wald ratio=2.53 [95% CI, 1.59-4.03]; P=9.2×10-5, false discovery
+        rate=0.059).
+  c001:
+    quotes:
+    - exact: Generalized Mendelian randomization accounting for correlated single nucleotide polymorphisms
+        (SNPs), with the P value threshold at P<5×10-8 and clumped at r2=0.3, showed consistent direction
+        of effect of GP6 on cardioembolic stroke (ORgeneralized inverse-variance-weighted=2.21 [95% CI,
+        1.46-3.33]; P=1.6×10-4).
+  c002:
+    quotes:
+    - exact: Colocalization analysis indicated that plasma GP6 levels colocalize with cardioembolic stroke
+        (posterior probability=91.4%).
+  c003:
+    quotes:
+    - exact: Multitrait colocalization combining transcriptome, proteome, and cardioembolic stroke showed
+        moderate to strong evidence that these 2 traits colocalize with GP6 expression in the coronary
+        artery and brain tissues (multitrait posterior probability>50%).
+  c004:
+    quotes:
+    - exact: The potential causal effect of GP6 on cardioembolic stroke was not significant in European
+        populations (ORinverse-variance-weighted=1.08 [95% CI, 0.93-1.26]; P=0.29).

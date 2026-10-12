@@ -1,0 +1,70 @@
+{
+ "written_utc": "20261011T184603Z",
+ "label": "amendment03",
+ "extraction_file": "luna_extraction_chase3_run2_e4e4ee731887.jsonl",
+ "extraction": {
+  "bytes": 97346,
+  "sha256": "520c5be0e62b9108e7a8e6935019278b0255b27272e72fa935494a0c85959205"
+ },
+ "script": "scripts/verify_claims_whitespace.py",
+ "command": [
+  "python",
+  "scripts/verify_claims_whitespace.py",
+  "--extraction",
+  "outputs/parsed/luna_extraction_chase3_run2_e4e4ee731887.jsonl"
+ ],
+ "inputs": {
+  "citations_verify.txt": {
+   "bytes": 190,
+   "sha256": "d84a9a7ccf5825aac6b9ca1c10d59962eebf49a443b89ed8ef95d5ec5d12d3f5"
+  },
+  "span_occurrences.json": {
+   "bytes": 620,
+   "sha256": "bb6ebd17335920367b4567d40007fa693c327458f5c1ed84285d2d3c6b477c77"
+  },
+  "span_step_run.json": {
+   "bytes": 4051,
+   "sha256": "6b120306c5ba4f2966a3723731ff4577fd1cd0f3d60965720d33f798796f0f8e"
+  },
+  "span_summary.json": {
+   "bytes": 6240,
+   "sha256": "e69a18b271c339204903c748e27e3af9cb369f4ce8c1d51d8737318446ecc215"
+  },
+  "spans.jsonl": {
+   "bytes": 66074,
+   "sha256": "c45d77970998de10e525366fcc76499ca562ba606b4e2323964e78a6a90e6914"
+  }
+ },
+ "outputs": {
+  "claim_checks.jsonl": {
+   "bytes": 131363,
+   "sha256": "b9c21e304922a748128935762822bf04dc8c1971d8316909108c0c3e6812f703"
+  },
+  "claim_summary.json": {
+   "bytes": 2932,
+   "sha256": "1391acd5c562bb696c36d2797db0c0706d3787b181fbc6565605d7bbd29c8f19"
+  }
+ },
+ "environment": {
+  "python": "3.12.10",
+  "platform": "Linux-4.19.0-gvisor-x86_64-with-glibc2.36",
+  "image": "modal debian_slim, python 3.12",
+  "packages": {
+   "httpx": "0.28.1",
+   "numpy": "2.5.3",
+   "openpyxl": "3.1.5",
+   "pyarrow": "21.0.0",
+   "pydantic": "2.13.5",
+   "pypdf": "5.9.0",
+   "pytest": "8.4.2",
+   "rapidfuzz": "3.14.6",
+   "modal": "1.4.3"
+  },
+  "scripts_sha256": {
+   "scripts/verify_claims_whitespace.py": "b217f93059d0dd7cb327de0c7df8a0ecc77b5ff6e514e4c1b89659a5f8157c7d",
+   "scripts/modal_verify_claims_amended.py": "ba4514c919940fa7b58aea3ffddf432ca60a17e8ac15ee08bc43d10d1ea9037f"
+  },
+  "reference_manifest_sha256": "41def217e24c028a4efe6a6c457f6a03ea887a3556fba6a270762ba99f786347"
+ },
+ "volume_folder": "/vol/02_claims_meta/amendment02/verification/amendment03/luna_extraction_chase3_run2_e4e4ee731887"
+}

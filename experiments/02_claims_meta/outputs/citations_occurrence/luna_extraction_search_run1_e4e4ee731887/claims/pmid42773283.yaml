@@ -1,0 +1,24 @@
+source:
+  citation: pmid42773283
+  local: sources/pmid42773283.txt
+  sha256: 8842498823bcc1346f7efaee9689191d15098e0222fe1e337aef83ee6f5c9644
+  url: https://pubmed.ncbi.nlm.nih.gov/42773283/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: The positive association of ASGR1 levels with ischemic heart disease (IHD) was supported
+        by colocalization (posterior probability of hypothesis 4 = 0.91), and was estimated to explain
+        6.35% (95% confidence interval 2.61-10.09%, P = 8.77 × 10-4) of smoking's effects on IHD in two-step
+        Mendelian randomization analyses.
+  c001:
+    quotes:
+    - exact: In network analyses, genetically predicted ASGR1 levels were inversely associated with plasma
+        levels of more than 100 proteins, including growth arrest-specific 6, with all these proteins
+        having rs55714927 (that is, a cis-protein quantitative trait locus for ASGR1) as a trans-protein
+        quantitative trait locus.
+  c002:
+    quotes:
+    - exact: Sensitivity analyses in never-smokers identified a nonstatistically significant residual
+        association between ASGR1 and IHD, which is consistent with possible horizontal pleiotropy, with
+        body mass index implicated as a potential contributing pathway.

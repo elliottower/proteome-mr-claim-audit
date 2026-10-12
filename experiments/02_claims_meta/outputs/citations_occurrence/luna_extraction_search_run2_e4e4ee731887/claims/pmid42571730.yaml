@@ -1,0 +1,15 @@
+source:
+  citation: pmid42571730
+  local: sources/pmid42571730.txt
+  sha256: a11be1329ecaec4dd1e90d1d4447d9207eb757b1151d94d41a1d8b1ba69d63dd
+  url: https://pubmed.ncbi.nlm.nih.gov/42571730/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: Although bulk transcriptomic data showed reduced AIF1 expression in AD, single-cell analysis
+        revealed distinct cell type-specific expression patterns, with predominant enrichment in monocytes
+        and other innate immune populations.
+  c001:
+    quotes:
+    - exact: PBMC-based qPCR further confirmed an overall reduction in AIF1 expression in AD.

@@ -1,0 +1,24 @@
+source:
+  citation: pmid38504987
+  local: sources/pmid38504987.txt
+  sha256: 49f7eae0e7f0211ae304f14fcada38dcde51bcf8614ea79456a6e09b20f56e78
+  url: https://pubmed.ncbi.nlm.nih.gov/38504987/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: MR insights intimated that reduced genetically-predicted interleukin-10 (IL-10) levels causally
+        correlated with a heightened sepsis risk (odds ratio [OR] 0.68, 95% confidence interval [CI] 0.52-0.90,
+        P=0.006).
+  c001:
+    quotes:
+    - exact: An inverse relationship emerged between monocyte chemoattractant protein-1 (MCP-1) and sepsis-induced
+        mortality.
+  c002:
+    quotes:
+    - exact: Conversely, elevated macrophage inflammatory protein 1 beta (MIP1B) concentrations were positively
+        linked with both sepsis incidence and associated mortality.
+  c003:
+    quotes:
+    - exact: Conversely, elevated macrophage inflammatory protein 1 beta (MIP1B) concentrations were positively
+        linked with both sepsis incidence and associated mortality.

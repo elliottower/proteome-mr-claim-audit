@@ -1,0 +1,25 @@
+source:
+  citation: pmidPPR1006423
+  local: sources/pmidPPR1006423.txt
+  sha256: 9a06baaf6686baeed600599be64cf13f5a1b02b2ff1759dac33e4059ce1fdfa5
+  url: https://europepmc.org/article/PPR/PPR1006423
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: 'Among 535 tested proteins, three colocalized and demonstrated decreasing effects on BMI:
+        endoglin (ENG; MR beta: -0.07, 95% CI [-0.10, -0.04], P = 4.4×10⁻⁵), fatty acid binding protein
+        4 (FABP4; MR beta: -0.33, 95% CI [-0.50, -0.16], P = 1.3×10⁻⁴), and Nectin-like protein-2 (MR
+        beta: -0.26, 95% CI [-0.37, -0.15], P = 5.45×10⁻⁵).'
+  c001:
+    quotes:
+    - exact: 'Among 535 tested proteins, three colocalized and demonstrated decreasing effects on BMI:
+        endoglin (ENG; MR beta: -0.07, 95% CI [-0.10, -0.04], P = 4.4×10⁻⁵), fatty acid binding protein
+        4 (FABP4; MR beta: -0.33, 95% CI [-0.50, -0.16], P = 1.3×10⁻⁴), and Nectin-like protein-2 (MR
+        beta: -0.26, 95% CI [-0.37, -0.15], P = 5.45×10⁻⁵).'
+  c002:
+    quotes:
+    - exact: 'Among 535 tested proteins, three colocalized and demonstrated decreasing effects on BMI:
+        endoglin (ENG; MR beta: -0.07, 95% CI [-0.10, -0.04], P = 4.4×10⁻⁵), fatty acid binding protein
+        4 (FABP4; MR beta: -0.33, 95% CI [-0.50, -0.16], P = 1.3×10⁻⁴), and Nectin-like protein-2 (MR
+        beta: -0.26, 95% CI [-0.37, -0.15], P = 5.45×10⁻⁵).'

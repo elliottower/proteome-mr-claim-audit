@@ -1,0 +1,56 @@
+source:
+  citation: pmid42548293
+  local: sources/pmid42548293.txt
+  sha256: b7b5bc3a3ff1127d2923654ff95b59ca20d903fc88815de7d1b21679775f784a
+  url: https://pubmed.ncbi.nlm.nih.gov/42548293/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: Multi-omics MR prioritizes TNFSF8 as a therapeutic target for oral cancer. Multi-omics MR
+        identified TNFSF8 (p = 2.49 × 10-8, OR = 1.24) as a Tier 1 target.
+  c001:
+    quotes:
+    - exact: eQTLs-pQTLs Relationship revealed XXYLT1 expression explained 24.65% of risk through elevated
+        plasma protein levels, TNFSF8 eQTLs mediated 72.80% via protein upregulation. Mediation analyses
+        on CD4 on HLA DR+ CD4+ T cells (7.18%) contributed to the risk of OC by upregulating plasma HSD17B14,
+        while daily cigarette consumption (20.63%) and CD8+ T cell percentage leukocytes (12.06%) contributed
+        to the risk of OC by upregulating plasma TNFSF8.
+      prefix: '× 10-8, or = 1.24) as a tier 1 target. xxylt1 (p = 1.41 × 10-4, or = 1.34) and hsd17b14
+        (p = 0.04, or = 2.00) achieved tier 2. '
+      suffix: ' drug safety assessments highlighted systemic tnfsf8 inhibition may elevate skin cancer
+        risk. multi-omics mr prioritizes tnfsf8'
+  c002:
+    quotes:
+    - exact: eQTLs-pQTLs Relationship revealed XXYLT1 expression explained 24.65% of risk through elevated
+        plasma protein levels, TNFSF8 eQTLs mediated 72.80% via protein upregulation. Mediation analyses
+        on CD4 on HLA DR+ CD4+ T cells (7.18%) contributed to the risk of OC by upregulating plasma HSD17B14,
+        while daily cigarette consumption (20.63%) and CD8+ T cell percentage leukocytes (12.06%) contributed
+        to the risk of OC by upregulating plasma TNFSF8.
+      prefix: '× 10-8, or = 1.24) as a tier 1 target. xxylt1 (p = 1.41 × 10-4, or = 1.34) and hsd17b14
+        (p = 0.04, or = 2.00) achieved tier 2. '
+      suffix: ' drug safety assessments highlighted systemic tnfsf8 inhibition may elevate skin cancer
+        risk. multi-omics mr prioritizes tnfsf8'
+  c003:
+    quotes:
+    - exact: Mediation analyses on CD4 on HLA DR+ CD4+ T cells (7.18%) contributed to the risk of OC by
+        upregulating plasma HSD17B14, while daily cigarette consumption (20.63%) and CD8+ T cell percentage
+        leukocytes (12.06%) contributed to the risk of OC by upregulating plasma TNFSF8.
+      prefix: 'expression explained 24.65% of risk through elevated plasma protein levels, tnfsf8 eqtls
+        mediated 72.80% via protein upregulation. '
+      suffix: ' drug safety assessments highlighted systemic tnfsf8 inhibition may elevate skin cancer
+        risk. multi-omics mr prioritizes tnfsf8'
+  c004:
+    quotes:
+    - exact: Mediation analyses on CD4 on HLA DR+ CD4+ T cells (7.18%) contributed to the risk of OC by
+        upregulating plasma HSD17B14, while daily cigarette consumption (20.63%) and CD8+ T cell percentage
+        leukocytes (12.06%) contributed to the risk of OC by upregulating plasma TNFSF8.
+      prefix: 'expression explained 24.65% of risk through elevated plasma protein levels, tnfsf8 eqtls
+        mediated 72.80% via protein upregulation. '
+      suffix: ' drug safety assessments highlighted systemic tnfsf8 inhibition may elevate skin cancer
+        risk. multi-omics mr prioritizes tnfsf8'
+  c005:
+    quotes:
+    - exact: Drug safety assessments highlighted systemic TNFSF8 inhibition may elevate skin cancer risk.
+      prefix: 'plasma tnfsf8. '
+      suffix: ' multi-omics mr'

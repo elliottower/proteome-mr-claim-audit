@@ -1,0 +1,37 @@
+source:
+  citation: pmid37910257
+  local: sources/pmid37910257.txt
+  sha256: d2972a3b8fa8e88406699f19a36e374986adf0ffcc1bca0b7e7dbe80549c153e
+  url: https://pubmed.ncbi.nlm.nih.gov/37910257/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: 'Based on the IVW method, genetically predicted that increasing level of Monokine induced
+        by interferon gamma (MIG/CXC chemokine ligand 9, CXCL9) [OR: 1.31; 95% CI: 1.05-1.62; P = 0.01]
+        and interferon gamma-induced protein 10(IP-10/CXC chemokine ligand 10, CXCL10) [OR: 1.30; 95%
+        CI: 1.02-1.66; P = 0.03] showed suggestive associations with DLBCL risk.'
+  c001:
+    quotes:
+    - exact: 'Based on the IVW method, genetically predicted that increasing level of Monokine induced
+        by interferon gamma (MIG/CXC chemokine ligand 9, CXCL9) [OR: 1.31; 95% CI: 1.05-1.62; P = 0.01]
+        and interferon gamma-induced protein 10(IP-10/CXC chemokine ligand 10, CXCL10) [OR: 1.30; 95%
+        CI: 1.02-1.66; P = 0.03] showed suggestive associations with DLBCL risk.'
+  c002:
+    quotes:
+    - exact: 'DLBCL may increase the level of macrophage colony-stimulating factor (M-CSF) [OR: 1.12;
+        95% CI: 1.01-1.2; P = 0.03], tumor necrosis factor beta (TNF-β) [OR: 1.16; 95% CI: 1.02-1.31;
+        P = 0.02] and TNF-related apoptosis-inducing ligand (TRAIL) [OR: 1.07; 95% CI: 1.01-1.13; P =
+        0.02].'
+  c003:
+    quotes:
+    - exact: 'DLBCL may increase the level of macrophage colony-stimulating factor (M-CSF) [OR: 1.12;
+        95% CI: 1.01-1.2; P = 0.03], tumor necrosis factor beta (TNF-β) [OR: 1.16; 95% CI: 1.02-1.31;
+        P = 0.02] and TNF-related apoptosis-inducing ligand (TRAIL) [OR: 1.07; 95% CI: 1.01-1.13; P =
+        0.02].'
+  c004:
+    quotes:
+    - exact: 'DLBCL may increase the level of macrophage colony-stimulating factor (M-CSF) [OR: 1.12;
+        95% CI: 1.01-1.2; P = 0.03], tumor necrosis factor beta (TNF-β) [OR: 1.16; 95% CI: 1.02-1.31;
+        P = 0.02] and TNF-related apoptosis-inducing ligand (TRAIL) [OR: 1.07; 95% CI: 1.01-1.13; P =
+        0.02].'

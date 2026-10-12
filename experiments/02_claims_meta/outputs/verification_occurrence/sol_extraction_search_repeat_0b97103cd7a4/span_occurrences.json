@@ -1,0 +1,46 @@
+{
+ "citations_installed": {
+  "version": "0.5.1",
+  "direct_url": {
+   "subdirectory": "packages/citations",
+   "url": "https://github.com/elliottower/reproducible-science",
+   "vcs_info": {
+    "commit_id": "fb89bb6104be091585f87c8d1a35aa2fd2c44b74",
+    "requested_revision": "fb89bb6104be091585f87c8d1a35aa2fd2c44b74",
+    "vcs": "git"
+   }
+  }
+ },
+ "citations_commit": "fb89bb6104be091585f87c8d1a35aa2fd2c44b74",
+ "rule": "first occurrence, only when the registered quote check holds and the plain pin is refused as ambiguous",
+ "records_pinned_at_an_occurrence": {
+  "42548293:001": {
+   "pin_method": "occurrence_1",
+   "occurrence_count": 2,
+   "state": "found"
+  },
+  "42548293:002": {
+   "pin_method": "occurrence_1",
+   "occurrence_count": 2,
+   "state": "found"
+  },
+  "42548293:003": {
+   "pin_method": "occurrence_1",
+   "occurrence_count": 2,
+   "state": "found"
+  },
+  "42548293:004": {
+   "pin_method": "occurrence_1",
+   "occurrence_count": 2,
+   "state": "found"
+  },
+  "42548293:005": {
+   "pin_method": "occurrence_1",
+   "occurrence_count": 2,
+   "state": "found"
+  }
+ },
+ "stored_abstract_has_duplicated_passage": {
+  "42548293": 5
+ }
+}

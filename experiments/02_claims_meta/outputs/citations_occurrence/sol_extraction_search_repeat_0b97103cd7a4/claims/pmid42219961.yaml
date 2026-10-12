@@ -1,0 +1,11 @@
+source:
+  citation: pmid42219961
+  local: sources/pmid42219961.txt
+  sha256: 75bc4df6e467f67c4dd398c856eabcc0de13d08838c9d5360c12ff33bc05c9a2
+  url: https://pubmed.ncbi.nlm.nih.gov/42219961/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: 'PLA2G1B was linked to increased risk at methylation (cg16396488: OR = 1.369, p_SMR = 7.82
+        × 10-4) and protein (OR = 3.057, p_SMR = 0.005) levels.'

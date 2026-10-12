@@ -1,0 +1,23 @@
+source:
+  citation: pmid32585310
+  local: sources/pmid32585310.txt
+  sha256: e53c824a22abb1447df28ca3eaf7fcd6a00337522459caefc05d5ba3dcd25440
+  url: https://pubmed.ncbi.nlm.nih.gov/32585310/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: Of these, a higher Hb1Ac in controls was associated with a lower IGFBP-2 level (p-value =
+        4.1e-6).
+  c001:
+    quotes:
+    - exact: We specifically identified IGFBP-2 to be associated with diabetes mellitus, although with
+        no evidence for causality, which was specifically connected to citrulline metabolism.
+  c002:
+    quotes:
+    - exact: We observed no evidence, however, that the association between IGFBP-2 and diabetes mellitus
+        was causal.
+  c003:
+    quotes:
+    - exact: In controls, IGFBP-2 was associated with 21 metabolite levels, but specifically connected
+        to the metabolite citrulline in network analyses.

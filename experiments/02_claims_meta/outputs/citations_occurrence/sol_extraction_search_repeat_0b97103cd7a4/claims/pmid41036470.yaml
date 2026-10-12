@@ -1,0 +1,26 @@
+source:
+  citation: pmid41036470
+  local: sources/pmid41036470.txt
+  sha256: 91f906b7c007c15aa5393bd232d6905f935b84fb851bf6ac2e10a77b2566cacd
+  url: https://pubmed.ncbi.nlm.nih.gov/41036470/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: Transcriptomic analysis demonstrated significant downregulation of KIAA0319 in AD patients
+        (p < 0.0001).
+  c001:
+    quotes:
+    - exact: 'These findings were consistent with our mediation analysis, which indicated that reduced
+        KIAA0319 expression adversely affected PMM2 and thereby increased AD risk (mediation effect: 13.37%,
+        95% CI: 1.68%-25.06%, p < 0.05).'
+  c002:
+    quotes:
+    - exact: 'These findings were consistent with our mediation analysis, which indicated that reduced
+        KIAA0319 expression adversely affected PMM2 and thereby increased AD risk (mediation effect: 13.37%,
+        95% CI: 1.68%-25.06%, p < 0.05).'
+  c003:
+    quotes:
+    - exact: 'These findings were consistent with our mediation analysis, which indicated that reduced
+        KIAA0319 expression adversely affected PMM2 and thereby increased AD risk (mediation effect: 13.37%,
+        95% CI: 1.68%-25.06%, p < 0.05).'

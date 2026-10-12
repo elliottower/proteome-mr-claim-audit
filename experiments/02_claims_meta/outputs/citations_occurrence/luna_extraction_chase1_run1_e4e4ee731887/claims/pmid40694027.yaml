@@ -1,0 +1,19 @@
+source:
+  citation: pmid40694027
+  local: sources/pmid40694027.txt
+  sha256: aa50573727a8925731d0862e795bf1c58f5ba17744973f8b25078b20583cd5d8
+  url: https://pubmed.ncbi.nlm.nih.gov/40694027/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: 'CD40L exhibited a protective effect (OR = 0.69, 95% CI: 0.4951-0.9578, P = 0.027) and high
+        colocalization probability (58%).'
+  c001:
+    quotes:
+    - exact: 'CXCL10 (OR = 1.51, 95% CI: 1.0075-2.2549, P = 0.046) and CCL3 (OR = 2.08, 95% CI: 1.0079-4.3072,
+        P = 0.048) significantly increased risk.'
+  c002:
+    quotes:
+    - exact: 'CXCL10 (OR = 1.51, 95% CI: 1.0075-2.2549, P = 0.046) and CCL3 (OR = 2.08, 95% CI: 1.0079-4.3072,
+        P = 0.048) significantly increased risk.'

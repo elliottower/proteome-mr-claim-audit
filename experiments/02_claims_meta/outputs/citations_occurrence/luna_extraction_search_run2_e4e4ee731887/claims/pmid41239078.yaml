@@ -1,0 +1,25 @@
+source:
+  citation: pmid41239078
+  local: sources/pmid41239078.txt
+  sha256: f7544fa81c6be5d24f54d18e7b476b19d81f20e06fa5b263f035c56d6d81970d
+  url: https://pubmed.ncbi.nlm.nih.gov/41239078/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: MR analysis revealed that elevated plasma MICA levels are significantly associated with an
+        increased risk of DM (OR = 1.56, 95% CI = 1.33-1.82, P = 4.90e-08).
+  c001:
+    quotes:
+    - exact: Colocalization analysis indicated that the genetic variant rs2853986 on chromosome 6 is shared
+        between MICA and DM.
+  c002:
+    quotes:
+    - exact: ELISA validation confirmed significantly higher serum MICA levels in DM/CADM patients than
+        in healthy controls (P = 0.001), with further elevation in DM/CADM patients with malignancy compared
+        with those without malignancy (P = 0.004) and patients with malignancy alone (P = 0.033).
+  c003:
+    quotes:
+    - exact: ELISA validation confirmed significantly higher serum MICA levels in DM/CADM patients than
+        in healthy controls (P = 0.001), with further elevation in DM/CADM patients with malignancy compared
+        with those without malignancy (P = 0.004) and patients with malignancy alone (P = 0.033).

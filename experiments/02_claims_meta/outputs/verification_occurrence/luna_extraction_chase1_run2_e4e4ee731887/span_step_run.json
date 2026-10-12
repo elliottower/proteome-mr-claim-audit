@@ -1,0 +1,239 @@
+{
+ "extraction": {
+  "file": "luna_extraction_chase1_run2_e4e4ee731887.jsonl",
+  "sha256": "8cd61b1adaa28298f8b9d0b3ff667877006dc6d7b1008c0a8ecb14828325d6d7"
+ },
+ "abstracts_sha256": "982bcfdbde81e6bbace2736766cb97830a6e578b2fc2fa18157b5205eb3cd94b",
+ "part_rows": 40,
+ "written_utc": "20261011T184019Z",
+ "citations_commit": "fb89bb6104be091585f87c8d1a35aa2fd2c44b74",
+ "repository": "https://github.com/elliottower/reproducible-science",
+ "command_per_part": [
+  "python",
+  "scripts/verify_spans_occurrence.py",
+  "--citations-commit",
+  "fb89bb6104be091585f87c8d1a35aa2fd2c44b74",
+  "--extraction",
+  "outputs/parsed/<part>.jsonl",
+  "--abstracts",
+  "outputs/parsed/<part>.abstracts.jsonl"
+ ],
+ "parts": [
+  {
+   "part": "luna_extraction_chase1_run2_e4e4ee731887.shard0000",
+   "rows_sha256": "e215248e909e7a72bdbafa7b619c6a27ca7e93d4334f905c93610f05ea8dd0ad",
+   "abstracts_sha256": "ac939425a42cbb4153efb968d4a5d4ea5181230c79d3fc7416b2043eba9be051",
+   "files": {
+    "citations_verify.txt": {
+     "bytes": 201,
+     "sha256": "4022fad5386150454cbdf361f48fa1f713a022c7cd520cac8b95e748d691c588"
+    },
+    "claims_tree.tar": {
+     "bytes": 348160,
+     "sha256": "63b59cf95a2a963ddb4bbe3f234aa6afe2ccd33167e7c92cdf6be083686bde55"
+    },
+    "span_occurrences.json": {
+     "bytes": 620,
+     "sha256": "bb6ebd17335920367b4567d40007fa693c327458f5c1ed84285d2d3c6b477c77"
+    },
+    "span_summary.json": {
+     "bytes": 13373,
+     "sha256": "95351482e95e73f3bbdedbdf98527d4da0b2403353169875685f21a3f3bf6740"
+    },
+    "spans.jsonl": {
+     "bytes": 113191,
+     "sha256": "92bf27f502a8eac5b19ea26f65e585dd39573c5d0c7c55a3e33348b522c16919"
+    }
+   },
+   "finished_utc": "20261011T183936Z"
+  },
+  {
+   "part": "luna_extraction_chase1_run2_e4e4ee731887.shard0001",
+   "rows_sha256": "815d90a6ce3118fde8537c003bceee8400dd1c2e9a0521c8068d89e989c4d2eb",
+   "abstracts_sha256": "b63cfebb66edacbad6bc841ad56d8d0db534255f393136e1625b3b9c47419395",
+   "files": {
+    "citations_verify.txt": {
+     "bytes": 201,
+     "sha256": "e5e3acfc03dfb3de2c5c9fd10af9f1f5a9853b0ec14f841e0215664600f191e6"
+    },
+    "claims_tree.tar": {
+     "bytes": 348160,
+     "sha256": "a6edec09fd81bb1f69c390c7645decd06d45b0d0bddb463d89d05cad7532dfe7"
+    },
+    "span_occurrences.json": {
+     "bytes": 620,
+     "sha256": "bb6ebd17335920367b4567d40007fa693c327458f5c1ed84285d2d3c6b477c77"
+    },
+    "span_summary.json": {
+     "bytes": 5888,
+     "sha256": "d77690a86fbfd6c4236d93c125cee21905188c942c33111baf79182d98afe618"
+    },
+    "spans.jsonl": {
+     "bytes": 101882,
+     "sha256": "4adf055b52c581d07e23fca0cf28ac89c5bcedc42a9e3dcf4e430158ebbf25eb"
+    }
+   },
+   "finished_utc": "20261011T184012Z"
+  },
+  {
+   "part": "luna_extraction_chase1_run2_e4e4ee731887.shard0002",
+   "rows_sha256": "a28f612f598b267ad8850eccaad1394df6b78fa323a617eb381a372c2b398b71",
+   "abstracts_sha256": "64fcac655bf95453a2cbd4b8d3a38a3d308b23e16faec9a7b62ab5f19dcdfdc8",
+   "files": {
+    "citations_verify.txt": {
+     "bytes": 201,
+     "sha256": "bf40661f8ada654bd8fe97ed350ef0c0150e275413977035f9debb8a8598397b"
+    },
+    "claims_tree.tar": {
+     "bytes": 317440,
+     "sha256": "1bdd3778f4bafeab5a18ddda6eb899125fd03b7b7f28f27852f2ba3a2a9ea149"
+    },
+    "span_occurrences.json": {
+     "bytes": 620,
+     "sha256": "bb6ebd17335920367b4567d40007fa693c327458f5c1ed84285d2d3c6b477c77"
+    },
+    "span_summary.json": {
+     "bytes": 1318,
+     "sha256": "4b023a1b5b39625f09fcad461d0b07be30192324556b3ff3b63cd85885ef1d8c"
+    },
+    "spans.jsonl": {
+     "bytes": 65876,
+     "sha256": "f2f32cf17290ef3c8f89f94219fd71f5ae020ad993b97c6f406b56be889553d3"
+    }
+   },
+   "finished_utc": "20261011T183943Z"
+  },
+  {
+   "part": "luna_extraction_chase1_run2_e4e4ee731887.shard0003",
+   "rows_sha256": "bf388e9d6ce8da53027e34c4b7aa5012f6a52cf1847752fa52759da73bdba71d",
+   "abstracts_sha256": "4e1c8f99c33d4ef13089343e2ab98758260a16d939844c49cd925c52b4fa070e",
+   "files": {
+    "citations_verify.txt": {
+     "bytes": 279,
+     "sha256": "c483ec6983e13e71a40b8409f8866871e23a1ef9fb4a3e83db5b439b0376ca39"
+    },
+    "claims_tree.tar": {
+     "bytes": 327680,
+     "sha256": "5ab9513d4fced0e437412997fbfeed99b996e258aba1b611655750a9c5bddd6c"
+    },
+    "span_occurrences.json": {
+     "bytes": 620,
+     "sha256": "bb6ebd17335920367b4567d40007fa693c327458f5c1ed84285d2d3c6b477c77"
+    },
+    "span_summary.json": {
+     "bytes": 388,
+     "sha256": "4d15bf6fe559f836760201da0522c341bfc7b1a463aadd66abbb63555c8732a5"
+    },
+    "spans.jsonl": {
+     "bytes": 67381,
+     "sha256": "84cf3b9d5c1da5a2e1dc961c600aecc3706355bbd2c9511acc5e2e4e62e26e6d"
+    }
+   },
+   "finished_utc": "20261011T183952Z"
+  },
+  {
+   "part": "luna_extraction_chase1_run2_e4e4ee731887.shard0004",
+   "rows_sha256": "93aeecde6eadea8567874d116570e3c5b8832190dec476595194c397c6c9f08c",
+   "abstracts_sha256": "28fcdcb76c79505eb7000692efc8181512fe1535cd0496d894613b9750235ffe",
+   "files": {
+    "citations_verify.txt": {
+     "bytes": 201,
+     "sha256": "5d553dc8b56c43f966068444add7969a510f43ad834892301d9feda4e4761b2b"
+    },
+    "claims_tree.tar": {
+     "bytes": 225280,
+     "sha256": "cc71b0020ed2ab6b1f62aba2636a09eea5fccd8b6180721fde6959c1c9f74267"
+    },
+    "span_occurrences.json": {
+     "bytes": 620,
+     "sha256": "bb6ebd17335920367b4567d40007fa693c327458f5c1ed84285d2d3c6b477c77"
+    },
+    "span_summary.json": {
+     "bytes": 1072,
+     "sha256": "94f2effea66ac29f50c6e36b39efd19034a0b9610caf3e3ce2a3359344314eea"
+    },
+    "spans.jsonl": {
+     "bytes": 53523,
+     "sha256": "0bf5172d8841ecabcffe43c524fb8c8371fdd948e6c371ef2385c48fdffdb227"
+    }
+   },
+   "finished_utc": "20261011T183932Z"
+  }
+ ],
+ "joined": {
+  "citations_verify.txt": {
+   "bytes": 269,
+   "sha256": "7c88ee122b67e08cf38133376e560c4056f16d1cf32cee845e69334a8a01fc3d"
+  },
+  "claims_tree.tar": {
+   "bytes": 1546240,
+   "sha256": "0f5b3929995c48a89599706d383b2c186a8de1a78487d3998344591b840a04c3"
+  },
+  "span_occurrences.json": {
+   "bytes": 620,
+   "sha256": "bb6ebd17335920367b4567d40007fa693c327458f5c1ed84285d2d3c6b477c77"
+  },
+  "span_summary.json": {
+   "bytes": 20428,
+   "sha256": "a97544487f5b470a4a84ab534e2c41c02606f01b3f5ba5710c2fcbed6b090ce2"
+  },
+  "spans.jsonl": {
+   "bytes": 401853,
+   "sha256": "2d8e7379d9631f351e570c364280f588e78159746aaa7f6c0366e611d0f35299"
+  }
+ },
+ "environment": {
+  "python": "3.12.10",
+  "platform": "Linux-4.19.0-gvisor-x86_64-with-glibc2.36",
+  "image": "modal debian_slim, python 3.12",
+  "citations": {
+   "version": "0.5.1",
+   "direct_url": {
+    "subdirectory": "packages/citations",
+    "url": "https://github.com/elliottower/reproducible-science",
+    "vcs_info": {
+     "commit_id": "fb89bb6104be091585f87c8d1a35aa2fd2c44b74",
+     "requested_revision": "fb89bb6104be091585f87c8d1a35aa2fd2c44b74",
+     "vcs": "git"
+    }
+   }
+  },
+  "packages": {
+   "aiohappyeyeballs": "2.6.1",
+   "aiohttp": "3.12.7",
+   "aiosignal": "1.3.2",
+   "annotated-types": "0.8.0",
+   "attrs": "25.3.0",
+   "cbor2": "5.7.0",
+   "certifi": "2025.4.26",
+   "citations": "0.5.1",
+   "frozenlist": "1.6.0",
+   "grpclib": "0.4.8",
+   "h2": "4.2.0",
+   "hpack": "4.1.0",
+   "hyperframe": "6.1.0",
+   "idna": "3.10",
+   "multidict": "6.4.4",
+   "pip": "25.1.1",
+   "platformdirs": "4.12.3",
+   "propcache": "0.3.1",
+   "protobuf": "6.31.1",
+   "provenance-core": "0.5.1",
+   "pydantic": "2.13.5",
+   "pydantic_core": "2.46.5",
+   "PyYAML": "6.0.3",
+   "typing-inspection": "0.4.4",
+   "typing_extensions": "4.13.2",
+   "uv": "0.7.19",
+   "wheel": "0.45.1",
+   "yarl": "1.20.0"
+  },
+  "modal": "1.4.3",
+  "scripts_sha256": {
+   "scripts/verify_spans_occurrence.py": "bd99dda3e18fa9747731d9ec2f09479267a62cbf86ea111df640bf470f15a8d3",
+   "scripts/span_shards.py": "cc010308136078f54977121fdcea530f7d1c4dd1baac37fded8ff5d1bddbac56",
+   "scripts/modal_verify_spans_occurrence.py": "c3f1b8808cdc6f4d4a1ab5cc47d76f88a99913bd737b0ab7925a3966e391087b"
+  }
+ },
+ "volume_folder": "/vol/02_claims_meta/amendment02/span_step/luna_extraction_chase1_run2_e4e4ee731887"
+}

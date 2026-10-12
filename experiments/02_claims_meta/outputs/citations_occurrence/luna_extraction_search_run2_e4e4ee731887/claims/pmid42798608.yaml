@@ -1,0 +1,17 @@
+source:
+  citation: pmid42798608
+  local: sources/pmid42798608.txt
+  sha256: b772308498a9833ea42626ed06eef0c783bcb7827ab9ed9fe6ba68eb47ad39dd
+  url: https://pubmed.ncbi.nlm.nih.gov/42798608/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: We identified autoimmune diseases-specifically hyperthyroidism and membranous nephropathy,
+        as novel risk factors for LM. Mediation analysis revealed that promotilin, monounsaturated fatty
+        acids (MUFAs), and glucose serves as key circulating mediators driving this risk.
+  c001:
+    quotes:
+    - exact: Mechanistically, leucine exposure induced metabolic reprogramming characterized by the suppression
+        of lipid biosynthesis pathways and reduced SREBF1/FASN-mediated de novo lipogenesis; pharmacological
+        FASN inhibition recapitulated the anti-tumor effects of leucine.

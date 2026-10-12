@@ -1,0 +1,23 @@
+source:
+  citation: pmidPPR988551
+  local: sources/pmidPPR988551.txt
+  sha256: 06dfef7ad777102f74a7e44a6d09ee6b3b8f8181043327c248439ec0fab34808
+  url: https://europepmc.org/article/PPR/PPR988551
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: 'MR analysis revealed that 5,6-hydroxyindole-2-carboxylate oxidase (TYRP1) (OR: 0.23, 95%
+        CI: 0.12-0.44) and dipeptidase 1(DPEP1) (OR: 0.63, 95% CI: 0.12-0.44) were associated with CM.'
+  c001:
+    quotes:
+    - exact: 'MR analysis revealed that 5,6-hydroxyindole-2-carboxylate oxidase (TYRP1) (OR: 0.23, 95%
+        CI: 0.12-0.44) and dipeptidase 1(DPEP1) (OR: 0.63, 95% CI: 0.12-0.44) were associated with CM.'
+  c002:
+    quotes:
+    - exact: The evidence from the colocalization analysis supported an inverse association between DPEP1
+        levels and the risk of CM, but the evidence from the colocalization analysis of TYRP1 was low
+        grade.
+  c004:
+    quotes:
+    - exact: PheWAS suggested that DPEP1 as a therapeutic target for CM may cause dementia.

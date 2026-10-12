@@ -1,0 +1,15 @@
+source:
+  citation: pmid41283971
+  local: sources/pmid41283971.txt
+  sha256: 426c6e8a739df8953c0a10fd50338817bb48175ac1112c51a4cf10b2c142184c
+  url: https://pubmed.ncbi.nlm.nih.gov/41283971/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: Our study found a significant positive association between high expression of the CXCL10
+        gene and increased NSCLC risk.
+  c001:
+    quotes:
+    - exact: Further mediation analysis revealed that CXCL10 promotes NSCLC development by regulating
+        the PUR.

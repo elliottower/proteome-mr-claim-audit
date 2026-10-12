@@ -1,0 +1,27 @@
+source:
+  citation: pmid35882941
+  local: sources/pmid35882941.txt
+  sha256: 17ba2a545e85926ce55c54cd4a285d19d984037398c04e8fc9cc67e7f69c3cc7
+  url: https://pubmed.ncbi.nlm.nih.gov/35882941/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: For example, higher levels of genetically predicted ICAM1 (per unit of increase) were associated
+        with an increased risk of luminal B/HER2-negative-like cancer (OR = 1.06, 95% CI = 1.03-1.08,
+        BH-FDR = 2.43 × 10-4) while inversely associated with triple-negative breast cancer with borderline
+        significance (OR = 0.97, 95% CI = 0.95-0.99, BH-FDR = 0.065, Pheterogeneity < 0.005).
+  c001:
+    quotes:
+    - exact: For example, higher levels of genetically predicted ICAM1 (per unit of increase) were associated
+        with an increased risk of luminal B/HER2-negative-like cancer (OR = 1.06, 95% CI = 1.03-1.08,
+        BH-FDR = 2.43 × 10-4) while inversely associated with triple-negative breast cancer with borderline
+        significance (OR = 0.97, 95% CI = 0.95-0.99, BH-FDR = 0.065, Pheterogeneity < 0.005).
+  c002:
+    quotes:
+    - exact: Associations for three proteins (ICAM1, PLA2R1 and TXNDC12) showed evident heterogeneity
+        across the subtypes.
+  c003:
+    quotes:
+    - exact: Associations for three proteins (ICAM1, PLA2R1 and TXNDC12) showed evident heterogeneity
+        across the subtypes.

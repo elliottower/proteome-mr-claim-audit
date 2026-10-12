@@ -1,0 +1,13 @@
+source:
+  citation: pmid31337649
+  local: sources/pmid31337649.txt
+  sha256: c1da2050c024e8edfa655aacb510b4558bef23e5a0d350464ccebe49e9f53720
+  url: https://pubmed.ncbi.nlm.nih.gov/31337649/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: A total of 31 proteins were associated with prostate cancer risk including proteins encoded
+        by GSTP1, whose methylation level was shown previously to be associated with prostate cancer risk,
+        and MSMB, SPINT2, IGF2R, and CTSS, which were previously implicated as potential target genes
+        of prostate cancer risk variants identified in genome-wide association studies.

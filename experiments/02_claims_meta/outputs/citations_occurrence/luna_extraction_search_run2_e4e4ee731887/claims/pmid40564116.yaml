@@ -1,0 +1,11 @@
+source:
+  citation: pmid40564116
+  local: sources/pmid40564116.txt
+  sha256: 5d50d6b4c5696bd399d6ce4ff732c798e7ed90bbc971014a7c67fd152e14acfa
+  url: https://pubmed.ncbi.nlm.nih.gov/40564116/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: 'Mediation analysis revealed that 26.7% (95% CI: 0.006-0.6700, p = 0.04) of the effect of
+        Alistipes on CKD risk was mediated through the serum protein FBLN1.'

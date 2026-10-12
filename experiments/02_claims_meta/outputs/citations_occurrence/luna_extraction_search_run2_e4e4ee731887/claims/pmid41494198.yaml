@@ -1,0 +1,37 @@
+source:
+  citation: pmid41494198
+  local: sources/pmid41494198.txt
+  sha256: 5fbb6778201027d5a65c1cc0dca5d8a49aeb2cac28068621585fb70b9a4635bf
+  url: https://pubmed.ncbi.nlm.nih.gov/41494198/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: ApoE was causally associated with sepsis risk in multiple independent datasets, supported
+        by strong genetic colocalization (posterior probability for shared causal variant PP.H4 > 0.80).
+  c001:
+    quotes:
+    - exact: In ICU patients, both low (adjusted OR 12.74, 95% CI 5.72-28.36) and high ApoE levels (adjusted
+        OR 4.54, 95% CI 2.25-9.16) were independently associated with increased sepsis risk compared to
+        medium levels, forming a significant U-shaped pattern (P_nonlinear < 0.001).
+  c002:
+    quotes:
+    - exact: In ICU patients, both low (adjusted OR 12.74, 95% CI 5.72-28.36) and high ApoE levels (adjusted
+        OR 4.54, 95% CI 2.25-9.16) were independently associated with increased sepsis risk compared to
+        medium levels, forming a significant U-shaped pattern (P_nonlinear < 0.001).
+  c003:
+    quotes:
+    - exact: This biphasic risk was mirrored in murine models, where both hypo- and hyper-expression of
+        ApoE aggravated systemic inflammation, organ injury, and mortality.
+  c004:
+    quotes:
+    - exact: This biphasic risk was mirrored in murine models, where both hypo- and hyper-expression of
+        ApoE aggravated systemic inflammation, organ injury, and mortality.
+  c005:
+    quotes:
+    - exact: This biphasic risk was mirrored in murine models, where both hypo- and hyper-expression of
+        ApoE aggravated systemic inflammation, organ injury, and mortality.
+  c006:
+    quotes:
+    - exact: LDL cholesterol mediated only ~ 20% of the ApoE-sepsis association, indicating lipid-independent
+        mechanisms.

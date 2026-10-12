@@ -1,0 +1,49 @@
+{
+ "folders": [
+  "outputs/raw/sol/extraction/0b97103cd7a4"
+ ],
+ "parsed": [
+  "outputs/parsed/sol_extraction_search_0b97103cd7a4.jsonl",
+  "outputs/parsed/sol_extraction_chase1_0b97103cd7a4.jsonl",
+  "outputs/parsed/sol_extraction_chase2_0b97103cd7a4.jsonl",
+  "outputs/parsed/sol_extraction_chase3_0b97103cd7a4.jsonl"
+ ],
+ "written_utc": "2026-10-11T18:45:48+00:00",
+ "role": "sol",
+ "model": "gpt-6.1-sol",
+ "prices_usd_per_million": {
+  "input": 2.0,
+  "cached_input": 0.1,
+  "cache_write": 2.5,
+  "output": 10.0
+ },
+ "price_source": {
+  "source": "OpenAI's pricing table, short-context column, as given by the author",
+  "date_given": "2026-10-05",
+  "unit": "USD per million tokens"
+ },
+ "abstracts_attempted": 2363,
+ "attempted_sha256": "302095677d1e1af69e1839d9c047657242b42489003e51572ae54f1e8a50fc63",
+ "billable_requests": 2363,
+ "abstracts_with_a_billable_response": 2363,
+ "abstracts_without_a_billable_response": 0,
+ "extraction_failed_abstracts": 0,
+ "failed_http_exchanges": 0,
+ "records_outside_the_parsed_files_not_priced": 30,
+ "tokens": {
+  "input_tokens": 6723375,
+  "cached_input_tokens": 5694249,
+  "cache_write_tokens": 1022037,
+  "output_tokens": 3639530,
+  "reasoning_tokens": 596779
+ },
+ "uncached_input_tokens": 7089,
+ "usd_parts": {
+  "input": 0.014178,
+  "cached_input": 0.5694249,
+  "cache_write": 2.5550925,
+  "output": 36.3953
+ },
+ "usd": 39.5339954,
+ "usd_per_attempted_abstract": 0.016730425476089716
+}

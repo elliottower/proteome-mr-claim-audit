@@ -1,0 +1,23 @@
+source:
+  citation: pmid40853920
+  local: sources/pmid40853920.txt
+  sha256: bd93c014fa73afe02da2f1758cdebed91e8686901ce27b000f0315c81a8716ba
+  url: https://pubmed.ncbi.nlm.nih.gov/40853920/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: 'RPL14 exhibited positive associations with overall LC risk (MR_meta: odds ratio [OR]: 2.012,
+        95% confidence interval [CI]: 1.297-3.119; UKB: OR: 1.509, 95% CI: 1.015-2.244).'
+  c001:
+    quotes:
+    - exact: 'RPL14 exhibited positive associations with overall LC risk (MR_meta: odds ratio [OR]: 2.012,
+        95% confidence interval [CI]: 1.297-3.119; UKB: OR: 1.509, 95% CI: 1.015-2.244).'
+  c002:
+    quotes:
+    - exact: 'Similarly, AGER showed significant protective effects against LUSC risk (MR_meta: OR: 0.572,
+        95%CI: 0.368-0.889; UKB: OR: 0.366, 95% CI: 0.158-0.850).'
+  c003:
+    quotes:
+    - exact: 'Similarly, AGER showed significant protective effects against LUSC risk (MR_meta: OR: 0.572,
+        95%CI: 0.368-0.889; UKB: OR: 0.366, 95% CI: 0.158-0.850).'

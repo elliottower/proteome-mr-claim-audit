@@ -1,0 +1,27 @@
+source:
+  citation: pmid40180044
+  local: sources/pmid40180044.txt
+  sha256: 8017ea13d88779f6a521f7526940abaabb96cf45d96f7d8580ba72ef62f038a7
+  url: https://pubmed.ncbi.nlm.nih.gov/40180044/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: 'Specifically, an increase of one standard deviation in the level of RMDN1 was linked to
+        a 12 % decrease in the risk of developing ADHD (OR = 0.88, 95 % CI: 0.83-0.94).'
+  c001:
+    quotes:
+    - exact: 'Increased levels of ETFA (OR = 1.79, 95 % CI: 1.24-2.60) and MMAB (OR = 1.10, 95 % CI: 1.05-1.16)
+        were significantly associated with increased risk of SCZ.'
+  c002:
+    quotes:
+    - exact: 'Increased levels of ETFA (OR = 1.79, 95 % CI: 1.24-2.60) and MMAB (OR = 1.10, 95 % CI: 1.05-1.16)
+        were significantly associated with increased risk of SCZ.'
+  c003:
+    quotes:
+    - exact: 'Conversely, high levels of ACADVL (OR = 0.50, 95 % CI: 0.33-0.77) and PPA2 (OR = 0.68, 95
+        % CI: 0.55-0.85) were associated with a reduced risk of SCZ.'
+  c004:
+    quotes:
+    - exact: 'Conversely, high levels of ACADVL (OR = 0.50, 95 % CI: 0.33-0.77) and PPA2 (OR = 0.68, 95
+        % CI: 0.55-0.85) were associated with a reduced risk of SCZ.'

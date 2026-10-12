@@ -1,0 +1,116 @@
+{
+ "finished_utc": "20261011T214314Z",
+ "comparator": {
+  "rule_label": "originally_registered",
+  "sol": {
+   "path": "outputs/registry/2026-10-03_registered_with_27_coded_a/registry_claims.jsonl",
+   "sha256": "faba35bd4cbe135f56761d2eec7d6ff92d446d1c6bef149615afda7f1f5de381"
+  },
+  "sol_tables": {
+   "path": "outputs/stage5_biology/2026-10-03_registered_with_27_a/sensitivity_tables.json",
+   "sha256": "42758a3ca1ef0993b6559762990f32bd0c1e39aa8892fe7595d036b43092908c"
+  }
+ },
+ "calls": [
+  [
+   "h1_h2",
+   "c49cf37a84e7c030e0f1f88705d1f897c266e1adc82d5f6b028d55b48b3a0d2e",
+   "computed"
+  ],
+  [
+   "h1_h2",
+   "c49cf37a84e7c030e0f1f88705d1f897c266e1adc82d5f6b028d55b48b3a0d2e",
+   "stored"
+  ],
+  [
+   "compare",
+   "54f4045da1bf3e80e12a9f42884a9b88527a97ded150250c4a2a341608ce554b",
+   "computed"
+  ],
+  [
+   "compare",
+   "65722263a34a8445b81b6a36589b37c4c87aeb7ecc02beb9c5e2f58c9c077ba8",
+   "computed"
+  ],
+  [
+   "compare",
+   "4791bd15557d083147575d8470fc0d3ecd5c72183ea8837f4e2073fdbf6fd8f3",
+   "computed"
+  ],
+  [
+   "h1_h2",
+   "58b2bc38d172747bda7d7dbcbd1d9cc597e5e9608fffac18292f8a08ce14659c",
+   "computed"
+  ],
+  [
+   "h1_h2",
+   "97a9bb404970ed7e3384c03ef65231a440241ea213db8eba281c473eb7f9e579",
+   "computed"
+  ],
+  [
+   "compare",
+   "8723ef07a0998388f35ec1928f4663d13f02a89e09a409db2c59ca6bae2231dd",
+   "computed"
+  ],
+  [
+   "compare",
+   "cd277b7c79a7d4995bedad5e0844ba6898c84f4ea071bf7b68e7246e54c86076",
+   "computed"
+  ],
+  [
+   "compare",
+   "989b4792ec7089895210879ca63dedc733d81e03f55708346fdac9c95b9005ac",
+   "computed"
+  ]
+ ],
+ "inputs": {
+  "sol": {
+   "bytes": 1594204,
+   "sha256": "faba35bd4cbe135f56761d2eec7d6ff92d446d1c6bef149615afda7f1f5de381"
+  },
+  "luna_run1": {
+   "bytes": 1466519,
+   "sha256": "30b6ea6f0eda143eecdd77d35097e7374b95e881464262b0f6263aed00a3ec39"
+  },
+  "luna_run2": {
+   "bytes": 1474458,
+   "sha256": "633578bfc8d6554da4cf8bfe00dde933aa3e848ebba9dfa9bad18e58a4c1028c"
+  },
+  "sol_repeat": {
+   "bytes": 205376,
+   "sha256": "5f0861f7d72663bb633d33ea4ccf52cced3d78390ad89be0e1a4a0761b3527b9"
+  }
+ },
+ "usage": {
+  "sol": {
+   "bytes": 1437,
+   "sha256": "74f69cb7b56b4c29ecd6433e745cb1be2a1b991c1d1786cf37f4454eee0aac17"
+  },
+  "luna_run1": {
+   "bytes": 1483,
+   "sha256": "5c19dca67e19045e1f18c025cbf844701e87a7c072fe718878a2993583880cc0"
+  },
+  "luna_run2": {
+   "bytes": 1487,
+   "sha256": "0232352766ed30458e2cb818edd6d919560dddf280e3f18165cf2dd5c8315856"
+  }
+ },
+ "repeat_samples": [
+  {
+   "bytes": 3564,
+   "sha256": "a67a26d94df936cec7a8e618aa3e72765412cc18494b8ae36b1d22bf59864a43"
+  },
+  {
+   "bytes": 726,
+   "sha256": "e4feed23267328cf463be5ccd1b11421449ab3de2c3d8bd574fe3b2acc08c26c"
+  },
+  {
+   "bytes": 550,
+   "sha256": "a23234e0e15254666a0aabd56e624968413e37d5f6c506c6ca193aa399292adb"
+  },
+  {
+   "bytes": 480,
+   "sha256": "34efc2dadf897947c3e691e9c532d186d3da0b03ef0c2dd7817d71661a38659c"
+  }
+ ]
+}

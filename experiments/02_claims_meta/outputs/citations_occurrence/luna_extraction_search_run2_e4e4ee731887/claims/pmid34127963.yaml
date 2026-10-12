@@ -1,0 +1,22 @@
+source:
+  citation: pmid34127963
+  local: sources/pmid34127963.txt
+  sha256: 8fdb0fade91b7dcbf8308e1e2c07823c7c1c3ce16e596c7db59dc4a772153d3a
+  url: https://pubmed.ncbi.nlm.nih.gov/34127963/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: FSTL3, an indicator of Activin/TGFβ signaling, was the most significantly upregulated protein
+        associated with the heart failure biomarker, NTproBNP (β = 0.4;p adj =4.6x 10 - 7 ), while ADAMTS13,
+        a vWF-cleaving protease whose loss-of-function causes microvascular thrombosis, was the most downregulated
+        protein associated with myocardial injury (β=-0.4;p adj =8x 10 - 7 ).
+  c001:
+    quotes:
+    - exact: FSTL3, an indicator of Activin/TGFβ signaling, was the most significantly upregulated protein
+        associated with the heart failure biomarker, NTproBNP (β = 0.4;p adj =4.6x 10 - 7 ), while ADAMTS13,
+        a vWF-cleaving protease whose loss-of-function causes microvascular thrombosis, was the most downregulated
+        protein associated with myocardial injury (β=-0.4;p adj =8x 10 - 7 ).
+  c002:
+    quotes:
+    - exact: Mendelian randomization supported a causal role for ADAMTS13 in myocardial injury.

@@ -1,0 +1,16 @@
+source:
+  citation: pmid40994391
+  local: sources/pmid40994391.txt
+  sha256: b6b98cbb1c02edf46a8340aae9c3b491ee311e3cd525d78f7024fefa87c779ff
+  url: https://pubmed.ncbi.nlm.nih.gov/40994391/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: 'The IVW method revealed that for every one standard deviation (SD) increase in the AGRN/HSPG2
+        ratio, the risk of AA increased by 44.8% (odds ratio [OR] = 1.448, 95% confidence interval [CI]:
+        1.200-1.745, p < 0.001).'
+  c001:
+    quotes:
+    - exact: 'Similarly, for every one SD increase in the DECR1/FKBP1B ratio, the risk of AA increased
+        by 65.8% (OR = 1.658, 95% CI: 1.273-2.159, p < 0.001).'

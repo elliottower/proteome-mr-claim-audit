@@ -1,0 +1,27 @@
+source:
+  citation: pmid38711980
+  local: sources/pmid38711980.txt
+  sha256: ec6614f0b86bef91dc80b74df5e5419d0bf1693a8c47f9fac4c7dd2affab4216
+  url: https://pubmed.ncbi.nlm.nih.gov/38711980/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: In addition, of the two inflammatory cytokines identified, hepatocyte growth factor(HGF)
+        reduced the risk of male infertility (odds ratio = 0.50, 95% confidence interval = 0.35-0.71,
+        P = 0.0001), Monocyte chemotactic protein 3 (MCP-3) increased the risk of male infertility (odds
+        ratio = 1.28, 95% confidence interval = 1.03-1.61, P = 0.0039).
+  c001:
+    quotes:
+    - exact: In addition, of the two inflammatory cytokines identified, hepatocyte growth factor(HGF)
+        reduced the risk of male infertility (odds ratio = 0.50, 95% confidence interval = 0.35-0.71,
+        P = 0.0001), Monocyte chemotactic protein 3 (MCP-3) increased the risk of male infertility (odds
+        ratio = 1.28, 95% confidence interval = 1.03-1.61, P = 0.0039).
+  c002:
+    quotes:
+    - exact: Mediated MR analysis showed that HGF mediated the causal effect of Bacteroides on MI (mediated
+        percentage 38.9%).
+  c003:
+    quotes:
+    - exact: Multivariate MR analyses suggest that HGF may be one of the pathways through which Bacteroides
+        affects MI, with other unexplored pathways.

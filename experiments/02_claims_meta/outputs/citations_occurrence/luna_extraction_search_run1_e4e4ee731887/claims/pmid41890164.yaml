@@ -1,0 +1,15 @@
+source:
+  citation: pmid41890164
+  local: sources/pmid41890164.txt
+  sha256: 208ec245f81b73595e9bd1d84206a8f66b3248515a8d6eb4fe3749934fd37a41
+  url: https://pubmed.ncbi.nlm.nih.gov/41890164/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: 'In the testing set, compared with the basic model (age and sex, C-index: 0.78; 95% confidence
+        interval [CI] 0.74-0.82), the dementia protein risk score (C-index: 0.84; 95% CI 0.81-0.88) significantly
+        improved the performance in predicting incident dementia (C-index increase: 0.06; 95% CI 0.02-0.12),
+        while cardiovascular risk factors, ageing and dementia incidence risk factors (C-index: 0.80;
+        95% CI 0.76-0.83) and apolipoprotein E (APOE; age and sex included, C-index: 0.81; 95% CI 0.77-0.85)
+        had no significant improvement.'

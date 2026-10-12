@@ -1,0 +1,22 @@
+source:
+  citation: pmid42147334
+  local: sources/pmid42147334.txt
+  sha256: dece3661ab1c57f70dc240ee59c877af0110df945008b588f6aa1dce6595d426
+  url: https://pubmed.ncbi.nlm.nih.gov/42147334/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: The colocalization analysis revealed that six genes (APOM, C4A, C4B, CYP21A2, HCP5 and NEU1)
+        and two proteins (MICB and IL17F) shared the causal genetic variants with DLBCL, suggesting their
+        potential as therapeutic targets.
+  c001:
+    quotes:
+    - exact: The colocalization analysis revealed that six genes (APOM, C4A, C4B, CYP21A2, HCP5 and NEU1)
+        and two proteins (MICB and IL17F) shared the causal genetic variants with DLBCL, suggesting their
+        potential as therapeutic targets.
+  c002:
+    quotes:
+    - exact: The single-cell analysis for DLBCL tumors confirmed their cell type-specific expressions,
+        suggesting that TUBB, with high risk for DLBCL, was highly expressed in malignant B cells with
+        expression levels increasing as the tumor malignancy worsens.

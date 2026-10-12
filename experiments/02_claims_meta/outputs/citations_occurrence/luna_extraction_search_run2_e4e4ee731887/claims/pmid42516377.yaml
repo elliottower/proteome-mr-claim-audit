@@ -1,0 +1,19 @@
+source:
+  citation: pmid42516377
+  local: sources/pmid42516377.txt
+  sha256: b6ed356dc0e229df7290e96fd6c5b30df34315bba97f59c7161bd4ac99901889
+  url: https://pubmed.ncbi.nlm.nih.gov/42516377/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: These findings prioritize CD83 in antigen-presenting cells as a genetically supported candidate
+        therapeutic target in asthma.
+  c001:
+    quotes:
+    - exact: Across human, mouse, and monkey datasets, CD83-positive antigen-presenting cells were consistently
+        enriched for MHCII antigen-presentation and T-cell activation programs following allergen challenge.
+  c002:
+    quotes:
+    - exact: Across human, mouse, and monkey datasets, CD83-positive antigen-presenting cells were consistently
+        enriched for MHCII antigen-presentation and T-cell activation programs following allergen challenge.

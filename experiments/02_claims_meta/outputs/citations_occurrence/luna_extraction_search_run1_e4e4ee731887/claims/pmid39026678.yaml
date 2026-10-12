@@ -1,0 +1,15 @@
+source:
+  citation: pmid39026678
+  local: sources/pmid39026678.txt
+  sha256: 3b70088c3ac5193179c082af3989f6bf7d8b28074c966987ff03fa11782f6b3c
+  url: https://pubmed.ncbi.nlm.nih.gov/39026678/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: An inverse association of Interleukin-10 (IL-10) with PsA risk was observed [odds ratio (OR)=0.45,
+        95% confidence interval (CI), 0.28 to 0.70, P FDR=0.072].
+  c001:
+    quotes:
+    - exact: Additionally, Apolipoprotein F (APOF) has a positive effect on PsA risk (OR=2.08, 95% CI,
+        1.51 to 2.86, P FDR=0.005).

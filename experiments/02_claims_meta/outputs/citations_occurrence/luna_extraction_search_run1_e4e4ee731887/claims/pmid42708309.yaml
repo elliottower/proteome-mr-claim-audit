@@ -1,0 +1,21 @@
+source:
+  citation: pmid42708309
+  local: sources/pmid42708309.txt
+  sha256: 0685d61200ef33c8797d8917ae204609def73b0532499e4f00a52b8fe32f1c0d
+  url: https://pubmed.ncbi.nlm.nih.gov/42708309/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: Among 543 cis-acting plasma proteins evaluated in the discovery phase, 35 exhibited evidence
+        of association with LCINS risk, including 15 positively and 20 inversely associated proteins.
+        After False Discovery Rate (FDR) correction, only genetically proxied plasma RARRES1 remained
+        statistically significant (OR = 1.17, adjusted P = 2.72 × 10-5), and this finding was replicated
+        in an independent cohort.
+  c001:
+    quotes:
+    - exact: Among 543 cis-acting plasma proteins evaluated in the discovery phase, 35 exhibited evidence
+        of association with LCINS risk, including 15 positively and 20 inversely associated proteins.
+        After False Discovery Rate (FDR) correction, only genetically proxied plasma RARRES1 remained
+        statistically significant (OR = 1.17, adjusted P = 2.72 × 10-5), and this finding was replicated
+        in an independent cohort.

@@ -1,0 +1,17 @@
+source:
+  citation: pmidPPR1200638
+  local: sources/pmidPPR1200638.txt
+  sha256: 345ec22fe492cca394a699a20e6b3d36977de9eba37b934ca72ba9af6b709e52
+  url: https://europepmc.org/article/PPR/PPR1200638
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: In this study, we identified one mediating relationship between inflammation, lipid, and
+        colon cancer. Specifically, Phosphatidylethanolamine(PE) was found to indirectly influence colon
+        cancer via Axin-1 concentration (OR=0.88 [95%CI(0.78, 0.99)], P =0.04).
+  c001:
+    quotes:
+    - exact: Although no mediating role of IL-17 in the relationship between phosphatidylcholine(PC) and
+        CC was observed, our results suggest that PC can promote the development of CC(OR=1.12 [95%CI(1.00,1.24)],
+        P=0.040), while IL-17 can inhibit the progression of CC(OR=0.87 [95%CI(0.76, 0.99)], P=0.034).

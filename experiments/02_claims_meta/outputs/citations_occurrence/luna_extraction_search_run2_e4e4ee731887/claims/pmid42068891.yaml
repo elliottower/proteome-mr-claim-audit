@@ -1,0 +1,14 @@
+source:
+  citation: pmid42068891
+  local: sources/pmid42068891.txt
+  sha256: 5ca10335f9ab957e0898799cd5671a861ea24f3faa0b52708e297cc4325f67ed
+  url: https://pubmed.ncbi.nlm.nih.gov/42068891/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: Long-term risk (>5 years pre-diagnosis) was linked to proteins like CEACAM5, indicating early
+        dysregulation of cell adhesion.
+  c001:
+    quotes:
+    - exact: Imminent risk (<5 years) was marked by a surge in inflammatory proteins like IL6.

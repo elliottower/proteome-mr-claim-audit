@@ -1,0 +1,16 @@
+source:
+  citation: pmid42760138
+  local: sources/pmid42760138.txt
+  sha256: 24cce626826b396333410ba81bcab81f52010d112b6558ab0adb1bb555414dde
+  url: https://pubmed.ncbi.nlm.nih.gov/42760138/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: 'Higher genetically predicted GLP-1R expression was associated with a lower risk of idiopathic
+        pulmonary fibrosis on inverse-variance weighted analysis (odds ratio = 0.740, 95% confidence interval:
+        0.632-0.866, p = 1.83 × 10-4).'
+  c001:
+    quotes:
+    - exact: The positive-control analysis supported the biological coherence of the GLP1R expression
+        proxy (type 2 diabetes mellitus, odds ratio = 0.630).

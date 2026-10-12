@@ -1,0 +1,27 @@
+source:
+  citation: pmid40562111
+  local: sources/pmid40562111.txt
+  sha256: 582d167f99f40fc6490c36791842ce0f3be127d14d353cad7d79fdffc987214d
+  url: https://pubmed.ncbi.nlm.nih.gov/40562111/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: Primary MR identified 159 ferroptosis-related genes, with BRPF1 exerting robust protection
+        against PPD (IVW OR = 0.797, P = 0.009).
+  c001:
+    quotes:
+    - exact: Chromatin modifier KDM3A governed BRPF1 expression (mediation β = 0.336, P < 0.0001), forming
+        a causal hierarchy that suppressed ferroptosis.
+  c002:
+    quotes:
+    - exact: Chromatin modifier KDM3A governed BRPF1 expression (mediation β = 0.336, P < 0.0001), forming
+        a causal hierarchy that suppressed ferroptosis.
+  c003:
+    quotes:
+    - exact: Ferrostatin-1 administration rescued behavioral deficits, normalized redox homeostasis, and
+        restored KDM3A/BRPF1-mediated GPX4/SLC7A11 transactivation (P < 0.01).
+  c004:
+    quotes:
+    - exact: Ferrostatin-1 administration rescued behavioral deficits, normalized redox homeostasis, and
+        restored KDM3A/BRPF1-mediated GPX4/SLC7A11 transactivation (P < 0.01).

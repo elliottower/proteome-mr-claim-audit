@@ -1,0 +1,33 @@
+source:
+  citation: pmid42811552
+  local: sources/pmid42811552.txt
+  sha256: 6855e0c9ce14746b615003164cacfef0beb9d87590d74bea127eb2575b5e540f
+  url: https://pubmed.ncbi.nlm.nih.gov/42811552/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: 'MR analysis revealed a significant negative association between cytochrome P450 oxidoreductase
+        (POR) and CRSwNP risk (discovery cohort: OR=0.87, P=1.47×10-5; replication cohort: OR=0.82, P=1.09×10-7);
+        cis-pQTL-MR analysis further supported this association (OR=0.77, P=4.12×10-4).'
+  c001:
+    quotes:
+    - exact: 'MR analysis revealed a significant negative association between cytochrome P450 oxidoreductase
+        (POR) and CRSwNP risk (discovery cohort: OR=0.87, P=1.47×10-5; replication cohort: OR=0.82, P=1.09×10-7);
+        cis-pQTL-MR analysis further supported this association (OR=0.77, P=4.12×10-4).'
+  c002:
+    quotes:
+    - exact: 'MR analysis revealed a significant negative association between cytochrome P450 oxidoreductase
+        (POR) and CRSwNP risk (discovery cohort: OR=0.87, P=1.47×10-5; replication cohort: OR=0.82, P=1.09×10-7);
+        cis-pQTL-MR analysis further supported this association (OR=0.77, P=4.12×10-4).'
+  c003:
+    quotes:
+    - exact: POR protein expression was downregulated in both peripheral blood and polyp tissue from CRSwNP
+        patients (P<0.01 for all comparisons).
+  c004:
+    quotes:
+    - exact: POR protein expression was downregulated in both peripheral blood and polyp tissue from CRSwNP
+        patients (P<0.01 for all comparisons).
+  c005:
+    quotes:
+    - exact: In vitro experiments suggested that POR may inhibit activation of the NF-κB pathway.

@@ -1,0 +1,15 @@
+source:
+  citation: pmid40651672
+  local: sources/pmid40651672.txt
+  sha256: bcd8e0f2fde8ce21e30b7fb0ed9cee47d3a32fc0321cf90af492e05b22931af1
+  url: https://pubmed.ncbi.nlm.nih.gov/40651672/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: Animal experiments indicated that NSUN4 levels in blood reflect ovarian function decline
+        and may correlate with its expression in ovarian tissue.
+  c001:
+    quotes:
+    - exact: The findings suggest that NUSN4 levels detected in the blood could serve as a potential biomarker
+        for ovarian aging.

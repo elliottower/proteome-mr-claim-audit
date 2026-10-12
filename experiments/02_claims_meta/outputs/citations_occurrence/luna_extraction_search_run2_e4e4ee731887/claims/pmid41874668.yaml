@@ -1,0 +1,37 @@
+source:
+  citation: pmid41874668
+  local: sources/pmid41874668.txt
+  sha256: a91ade7aa7026fbb2f5efda834aa193ff6c65ab95548b68127579b0f8358a013
+  url: https://pubmed.ncbi.nlm.nih.gov/41874668/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: We identified 195 hBMD-associated genes, such as WNT16 (Padj = 6.417 × 10- 14); 180 proteins
+        such as COL1A1 (Padj = 3.132 × 10- 24); 21 metabolites, such as total cholesterol (Padj = 0.008).
+  c001:
+    quotes:
+    - exact: We identified 195 hBMD-associated genes, such as WNT16 (Padj = 6.417 × 10- 14); 180 proteins
+        such as COL1A1 (Padj = 3.132 × 10- 24); 21 metabolites, such as total cholesterol (Padj = 0.008).
+        Those associated proteins/metabolites were replicated in UKB, such as COL1A1 (Padj = 7.480 × 10-
+        4) and total cholesterol (Padj = 7.773 × 10- 8).
+  c002:
+    quotes:
+    - exact: Moreover, MR detected several novel biomarkers among the top/enriched targets, which were
+        causally associated with hBMD, such as NAP1L2 (β= - 0.019, P = 0.003) and PLPP3 (β = - 0.026,
+        P = 0.041).
+  c003:
+    quotes:
+    - exact: Moreover, MR detected several novel biomarkers among the top/enriched targets, which were
+        causally associated with hBMD, such as NAP1L2 (β= - 0.019, P = 0.003) and PLPP3 (β = - 0.026,
+        P = 0.041).
+  c004:
+    quotes:
+    - exact: Our study not only identified several novel candidate biomarkers such as PLPP3, RGMB, and
+        RNF128 for hBMD but also provided genetic evidence supporting their potential causal roles in
+        bone mineral regulation.
+  c005:
+    quotes:
+    - exact: Our study not only identified several novel candidate biomarkers such as PLPP3, RGMB, and
+        RNF128 for hBMD but also provided genetic evidence supporting their potential causal roles in
+        bone mineral regulation.

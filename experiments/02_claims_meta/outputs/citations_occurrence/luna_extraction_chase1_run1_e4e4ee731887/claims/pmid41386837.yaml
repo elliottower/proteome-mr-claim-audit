@@ -1,0 +1,17 @@
+source:
+  citation: pmid41386837
+  local: sources/pmid41386837.txt
+  sha256: f13be24beb182d671ae5ca196259b1c5cc354eef3d3ed2563024931a68b1b507
+  url: https://pubmed.ncbi.nlm.nih.gov/41386837/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: The IVW analysis demonstrated a positive relationship between IL-2 and the risk of HS (OR
+        = 1.51, 95 % CI = 1.06-2.15, P = 0.02), indicating that IL-2 is a risk factor for hypertrophic
+        scarring, with elevated levels potentially promoting disease progression.
+  c001:
+    quotes:
+    - exact: In contrast, CCL4 was negatively associated with HS risk (OR = 0.86, 95 % CI = 0.74-0.99,
+        P = 0.03), pointing to the fact CCL4 might function as a protective agent, where lower levels
+        of CCL4 could inhibit scar formation.

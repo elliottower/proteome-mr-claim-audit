@@ -1,0 +1,15 @@
+source:
+  citation: pmidPPR1191380
+  local: sources/pmidPPR1191380.txt
+  sha256: 36f65037d416bb9c183c62edfab9c3d058bc57e3cc0d4a69fb3d44610d76fd55
+  url: https://europepmc.org/article/PPR/PPR1191380
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: 'AIF1 was a consistent high-risk factor (mQTL: OR 1.09, 95% CI 1.04-1.15; eQTL: OR 1.44,
+        95% CI 1.21-1.71; deCODE-pQTL: OR 3.17, 95% CI 2.07-4.84; UKB-PPP-pQTL: OR 3.46, 95% CI 2.18-5.49).'
+  c001:
+    quotes:
+    - exact: 'AIF1 was a consistent high-risk factor (mQTL: OR 1.09, 95% CI 1.04-1.15; eQTL: OR 1.44,
+        95% CI 1.21-1.71; deCODE-pQTL: OR 3.17, 95% CI 2.07-4.84; UKB-PPP-pQTL: OR 3.46, 95% CI 2.18-5.49).'

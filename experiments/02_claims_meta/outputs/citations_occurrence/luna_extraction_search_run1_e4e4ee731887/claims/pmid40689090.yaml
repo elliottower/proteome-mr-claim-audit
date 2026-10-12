@@ -1,0 +1,24 @@
+source:
+  citation: pmid40689090
+  local: sources/pmid40689090.txt
+  sha256: 6fd9be32935e7c3d7efa96b28ce801edc266e44b414e1c3b886a57655cc1fbf7
+  url: https://pubmed.ncbi.nlm.nih.gov/40689090/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: Notably, PCSK9 demonstrated a stronger association with LDL-C in Europeans compared to South
+        Asians (βEuropean = 0.37; 95% CI 0.36, 0.38, βSouth Asian = 0.16; 95% CI 0.11, 0.21).
+  c001:
+    quotes:
+    - exact: Notably, PCSK9 demonstrated a stronger association with LDL-C in Europeans compared to South
+        Asians (βEuropean = 0.37; 95% CI 0.36, 0.38, βSouth Asian = 0.16; 95% CI 0.11, 0.21).
+  c002:
+    quotes:
+    - exact: Observational analysis suggested statistically significant interaction between PCSK9 levels
+        with LDL-C levels in South Asians with South Asians having a significantly lower effect compared
+        to other ethnicities (PCSK9∗South Asian; β = -0.14; 95% CI -0.174, -0.107).
+  c003:
+    quotes:
+    - exact: Additionally, we showed that CELSR2 is also linked with coronary artery disease in South
+        Asians.

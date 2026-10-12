@@ -1,0 +1,13 @@
+source:
+  citation: pmid35970849
+  local: sources/pmid35970849.txt
+  sha256: fc34b4538dc77b59268f1b5c1c28090d0e4635b08377eaa8e9f14cef86188c0b
+  url: https://pubmed.ncbi.nlm.nih.gov/35970849/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: 'The transcription factor ELF5 (ELF5) shows robust and directionally consistent associations
+        across different outcome definitions, including a >4-fold higher risk (odds ratio: 4.88; 95%-CI:
+        2.47-9.63; p-value < 5.0 × 10-6) for severe COVID-19 per 1 s.d. higher genetically predicted plasma
+        ELF5.'

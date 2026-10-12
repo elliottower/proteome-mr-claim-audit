@@ -1,0 +1,47 @@
+{
+ "extraction": "outputs/parsed/sol_extraction_search_repeat_0b97103cd7a4.jsonl",
+ "n_claims": 1381,
+ "registered_check_pass": 1378,
+ "citations_pin_found": 1378,
+ "citations_found_only_after_punctuation_folding": 0,
+ "citations_normalized_warning": 0,
+ "both_pass": 1378,
+ "span_verification_rate": 0.997827661115134,
+ "spans_over_two_sentences": 10,
+ "citations_verify_exit": 0,
+ "failing": [
+  {
+   "pmid": "41789253",
+   "claim_index": 0,
+   "claim_id": "c000",
+   "evidence_span": "Notably, approximately half of these proteins (including PCSK1, PPY, and VWF) were recognized as druggable or existing drug targets. This study identified proteins causally linked to RG, emphasizing their potential role in the development of therapeutic interventions for metabolic disorders, particularly those involving glucose regulation.",
+   "registered_check": false,
+   "citations_pin": "not found",
+   "citations_warnings": [],
+   "n_sentences": 2,
+   "passes": false
+  },
+  {
+   "pmid": "41789253",
+   "claim_index": 1,
+   "claim_id": "c001",
+   "evidence_span": "Notably, approximately half of these proteins (including PCSK1, PPY, and VWF) were recognized as druggable or existing drug targets. This study identified proteins causally linked to RG, emphasizing their potential role in the development of therapeutic interventions for metabolic disorders, particularly those involving glucose regulation.",
+   "registered_check": false,
+   "citations_pin": "not found",
+   "citations_warnings": [],
+   "n_sentences": 2,
+   "passes": false
+  },
+  {
+   "pmid": "41789253",
+   "claim_index": 2,
+   "claim_id": "c002",
+   "evidence_span": "Notably, approximately half of these proteins (including PCSK1, PPY, and VWF) were recognized as druggable or existing drug targets. This study identified proteins causally linked to RG, emphasizing their potential role in the development of therapeutic interventions for metabolic disorders, particularly those involving glucose regulation.",
+   "registered_check": false,
+   "citations_pin": "not found",
+   "citations_warnings": [],
+   "n_sentences": 2,
+   "passes": false
+  }
+ ]
+}

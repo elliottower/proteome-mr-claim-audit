@@ -1,0 +1,15 @@
+source:
+  citation: pmid42175399
+  local: sources/pmid42175399.txt
+  sha256: 2df14c4c054a4b52c145227607f32bf6c2c52a6c5b247b213c92cf01d232f195
+  url: https://pubmed.ncbi.nlm.nih.gov/42175399/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: After inverse variance weighting and sensitivity analysis filtration, GRAMD1C causally increased
+        the risk of SVS (OR = 2.86, 95% CI = 1.71-4.76, P = 5.61e-05).
+  c001:
+    quotes:
+    - exact: In addition, PTGR1 (OR = 1.15, 95% CI = 1.04-1.27, P = 6.65e-03) presented a suggestive association
+        with SVS.

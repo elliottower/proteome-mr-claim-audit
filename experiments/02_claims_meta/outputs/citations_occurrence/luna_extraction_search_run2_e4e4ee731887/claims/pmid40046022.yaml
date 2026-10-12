@@ -1,0 +1,36 @@
+source:
+  citation: pmid40046022
+  local: sources/pmid40046022.txt
+  sha256: 0a148a7d91f6921eac1e61e07daf3c0f759bcb2c06ed97cafb2da6e542d478b0
+  url: https://pubmed.ncbi.nlm.nih.gov/40046022/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: 'We found that a 1 SD increase in circulating S100 calcium binding protein A3 (S100A3) levels
+        correlated with a reduced PAH risk (OR: 0.073, 95% CI: 0.020-0.267; p = 0.00799).'
+  c001:
+    quotes:
+    - exact: 'We found that a 1 SD increase in circulating S100 calcium binding protein A3 (S100A3) levels
+        correlated with a reduced PAH risk (OR: 0.073, 95% CI: 0.020-0.267; p = 0.00799). Sensitivity
+        analyses including various cis-SNPs, provided consistent estimates for S100A3 (inverse variance
+        weighted (IVW) OR: 0.085, 95% CI: 0.032-0.225; p = 7.5 × 10-7 and MR-Egger OR: 0.212, 95% CI:
+        0.013-3.376; p = 0.387).'
+  c002:
+    quotes:
+    - exact: 'We found that a 1 SD increase in circulating S100 calcium binding protein A3 (S100A3) levels
+        correlated with a reduced PAH risk (OR: 0.073, 95% CI: 0.020-0.267; p = 0.00799). Sensitivity
+        analyses including various cis-SNPs, provided consistent estimates for S100A3 (inverse variance
+        weighted (IVW) OR: 0.085, 95% CI: 0.032-0.225; p = 7.5 × 10-7 and MR-Egger OR: 0.212, 95% CI:
+        0.013-3.376; p = 0.387).'
+  c003:
+    quotes:
+    - exact: Colocalization analyses confirmed a shared genetic signal for S100A3 and PAH, with a posterior
+        probability of 99.9%.
+  c004:
+    quotes:
+    - exact: Transcriptomic investigations further highlighted S100A3's protective role in CHD-PAH.
+  c005:
+    quotes:
+    - exact: Our study using SMR and GEO data identified S100A3 as a gene associated with a reduced risk
+        of PAH in CHD patients.

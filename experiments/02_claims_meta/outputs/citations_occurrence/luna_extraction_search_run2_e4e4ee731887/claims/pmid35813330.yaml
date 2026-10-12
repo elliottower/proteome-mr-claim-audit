@@ -1,0 +1,27 @@
+source:
+  citation: pmid35813330
+  local: sources/pmid35813330.txt
+  sha256: 4453dfddb4023781c6b96bd5d171ec201b41306a1a7a4b64411bbc09e9afad68
+  url: https://pubmed.ncbi.nlm.nih.gov/35813330/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: 'C-C motif chemokine 4 (OR =1.887, 95% CI: 1.608-2.165, P=8.04×10-6) and 2''-5''-oligoadenylate
+        synthase 1 (OR =0.511, 95% CI: 0.266-0.757, P=8.51×10-8) were found respectively positively and
+        negatively correlated with increased COVID-19 severity.'
+  c001:
+    quotes:
+    - exact: 'C-C motif chemokine 4 (OR =1.887, 95% CI: 1.608-2.165, P=8.04×10-6) and 2''-5''-oligoadenylate
+        synthase 1 (OR =0.511, 95% CI: 0.266-0.757, P=8.51×10-8) were found respectively positively and
+        negatively correlated with increased COVID-19 severity.'
+  c002:
+    quotes:
+    - exact: 'Tissue factor, contrary to previous studies, was found associated with decreased COVID-19
+        susceptibility (OR =0.667, 95% CI: 0.484-0.850, P=1.47×10-5) and decreased COVID-19 severity (OR
+        =0.459, 95% CI: 0.132-0.786, P=3.01×10-6).'
+  c003:
+    quotes:
+    - exact: 'Tissue factor, contrary to previous studies, was found associated with decreased COVID-19
+        susceptibility (OR =0.667, 95% CI: 0.484-0.850, P=1.47×10-5) and decreased COVID-19 severity (OR
+        =0.459, 95% CI: 0.132-0.786, P=3.01×10-6).'

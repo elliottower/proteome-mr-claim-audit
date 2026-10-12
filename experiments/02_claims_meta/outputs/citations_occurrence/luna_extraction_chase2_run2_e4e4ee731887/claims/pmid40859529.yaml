@@ -1,0 +1,40 @@
+source:
+  citation: pmid40859529
+  local: sources/pmid40859529.txt
+  sha256: 040d900048a4d77b7f81856b6bc1127654e9d22c5417bbb7bfd8d9c90b8fddc0
+  url: https://pubmed.ncbi.nlm.nih.gov/40859529/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: 'The MR analysis of the integrated GWAS and protein quantity trait loci data demonstrated
+        that CCL27 and CXCL9 were causally associated with a higher risk of COVID-19 susceptibility (CCL27:
+        odds ratio [OR]: 1.06, 95% confidence interval [CI]: 1.01-1.10, P = .015; CXCL9: OR: 1.04, 95%
+        CI: 1.01-1.08, P = .023), while hepatocyte growth factor was causally linked to a lower risk of
+        COVID-19 susceptibility (OR: 0.89, 95% CI: 0.83-0.96, P = .002).'
+  c001:
+    quotes:
+    - exact: 'The MR analysis of the integrated GWAS and protein quantity trait loci data demonstrated
+        that CCL27 and CXCL9 were causally associated with a higher risk of COVID-19 susceptibility (CCL27:
+        odds ratio [OR]: 1.06, 95% confidence interval [CI]: 1.01-1.10, P = .015; CXCL9: OR: 1.04, 95%
+        CI: 1.01-1.08, P = .023), while hepatocyte growth factor was causally linked to a lower risk of
+        COVID-19 susceptibility (OR: 0.89, 95% CI: 0.83-0.96, P = .002).'
+  c002:
+    quotes:
+    - exact: 'The MR analysis of the integrated GWAS and protein quantity trait loci data demonstrated
+        that CCL27 and CXCL9 were causally associated with a higher risk of COVID-19 susceptibility (CCL27:
+        odds ratio [OR]: 1.06, 95% confidence interval [CI]: 1.01-1.10, P = .015; CXCL9: OR: 1.04, 95%
+        CI: 1.01-1.08, P = .023), while hepatocyte growth factor was causally linked to a lower risk of
+        COVID-19 susceptibility (OR: 0.89, 95% CI: 0.83-0.96, P = .002).'
+  c003:
+    quotes:
+    - exact: 'In terms of hospitalization, the inverse variance weighted approach provided evidence to
+        support that genetically predicted CXCL9 and interleukin-16 had negative associations with the
+        risk of COVID-19 hospitalization (interleukin-16: OR: 0.92, 95% CI: 0.85-0.99, P = .034; CXCL9:
+        OR: 0.85, 95% CI: 0.74-0.98, P = .043).'
+  c004:
+    quotes:
+    - exact: 'In terms of hospitalization, the inverse variance weighted approach provided evidence to
+        support that genetically predicted CXCL9 and interleukin-16 had negative associations with the
+        risk of COVID-19 hospitalization (interleukin-16: OR: 0.92, 95% CI: 0.85-0.99, P = .034; CXCL9:
+        OR: 0.85, 95% CI: 0.74-0.98, P = .043).'

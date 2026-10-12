@@ -1,0 +1,16 @@
+source:
+  citation: pmid38795402
+  local: sources/pmid38795402.txt
+  sha256: b6085c306d7bc2eb30d70fff633ff10e678a4b09dc1a5e2e6c33a01ee4b822d2
+  url: https://pubmed.ncbi.nlm.nih.gov/38795402/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: Among the 4907 circulating proteins, diadenosine tetraphosphatase (Ap4A) was identified as
+        being linked to both SGLT2 inhibition and insomnia.
+  c001:
+    quotes:
+    - exact: Mediation analysis indicated that the effect of SGLT2 inhibition on insomnia partially operates
+        through Ap4A (β = -0.018, 95 % CI [-0.036, -0.005], P = 0.023), with a mediation proportion of
+        7.7 %.

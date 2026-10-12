@@ -1,0 +1,34 @@
+source:
+  citation: pmid40927895
+  local: sources/pmid40927895.txt
+  sha256: bc36a738255aec47c39d3aa203f99289d0a24037795de13f229e7f1f93e72fb2
+  url: https://pubmed.ncbi.nlm.nih.gov/40927895/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: The most notable associations included NT-proBNP for atrial fibrillation (P = 6.31 × 10-313),
+        followed by NPPB (P = 1.03 × 10-164) and GDF15 for heart failure (P = 1.21 × 10-166).
+  c001:
+    quotes:
+    - exact: The most notable associations included NT-proBNP for atrial fibrillation (P = 6.31 × 10-313),
+        followed by NPPB (P = 1.03 × 10-164) and GDF15 for heart failure (P = 1.21 × 10-166).
+  c002:
+    quotes:
+    - exact: The most notable associations included NT-proBNP for atrial fibrillation (P = 6.31 × 10-313),
+        followed by NPPB (P = 1.03 × 10-164) and GDF15 for heart failure (P = 1.21 × 10-166).
+  c003:
+    quotes:
+    - exact: 'Among 445 unique proteins significantly linked to 18 cardiovascular metrics, LEP (RVEDV:
+        β = -9.03, P = 2.76 × 10-51) and FABP4 (RVEDV: β = -10.18, P = 2.42 × 10-32) emerged as the strongest
+        correlates of cardiac structure and function.'
+  c004:
+    quotes:
+    - exact: 'Among 445 unique proteins significantly linked to 18 cardiovascular metrics, LEP (RVEDV:
+        β = -9.03, P = 2.76 × 10-51) and FABP4 (RVEDV: β = -10.18, P = 2.42 × 10-32) emerged as the strongest
+        correlates of cardiac structure and function.'
+  c005:
+    quotes:
+    - exact: Two-sample Mendelian randomization analysis revealed 225 proteins causally linked to CVDs,
+        with LPA showing the strongest coronary artery disease association (OR = 1.13 [1.10-1.17], P =
+        2.38 × 10-15), many of which are targets of existing drugs, suggesting repurposing opportunities.

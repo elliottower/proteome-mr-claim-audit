@@ -1,0 +1,14 @@
+source:
+  citation: pmid39802509
+  local: sources/pmid39802509.txt
+  sha256: 8606b04403c14f2720343f526da393cc7d4ca7d8d9b05e8aa51fe388bb31100f
+  url: https://pubmed.ncbi.nlm.nih.gov/39802509/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: Of these, eight genes (SFTPD, CSK, COL18A1, TCN2, GZMK, RAB2A, TEK, and GNLY) were identified
+        as likely causative for POAG (P SMR < 0.05).
+  c001:
+    quotes:
+    - exact: Clinical and cell-based validation confirmed reduced GNLY expression in POAG groups.

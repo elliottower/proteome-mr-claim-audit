@@ -1,0 +1,19 @@
+source:
+  citation: pmid38927411
+  local: sources/pmid38927411.txt
+  sha256: e9ebcfd54a4d5df8eda9b17619d36ac7695bc1ab1f9d7ea8e91db7c9dc0d4b6a
+  url: https://pubmed.ncbi.nlm.nih.gov/38927411/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: 'After MR analysis and the Steiger test, we identified five proteins as potential therapeutic
+        targets for AD. SMR analysis and colocalization analysis also confirmed our findings. Finally,
+        we identified ASPN (OR = 1.36, 95% CI: 1.20, 1.54, p = 4.22 × 10-5) and SPOCK2 (OR = 0.57, 95%
+        CI: 0.41, 0.78, p = 4.52 × 10-4) as the core therapeutic targets.'
+  c001:
+    quotes:
+    - exact: 'After MR analysis and the Steiger test, we identified five proteins as potential therapeutic
+        targets for AD. SMR analysis and colocalization analysis also confirmed our findings. Finally,
+        we identified ASPN (OR = 1.36, 95% CI: 1.20, 1.54, p = 4.22 × 10-5) and SPOCK2 (OR = 0.57, 95%
+        CI: 0.41, 0.78, p = 4.52 × 10-4) as the core therapeutic targets.'

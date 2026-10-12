@@ -1,0 +1,22 @@
+source:
+  citation: pmid40770693
+  local: sources/pmid40770693.txt
+  sha256: 933c9693d335be031fdb4efb27a52fe83319a64f68ff51710cd3f982961cfefa
+  url: https://pubmed.ncbi.nlm.nih.gov/40770693/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: 'ATAD3A (OR: 1.41; 95% CI: 1.13-1.76, pSMR = 1.64e-03) and TOP1MT (OR: 1.42; 95% CI: 1.10-1.84,
+        pSMR = 4.60e-03) were strongly associated with multiple myositis, while SND1 (OR: 1.08; 95% CI:
+        1.04-1.12, pSMR = 4.05e-03) was linked to osteoarthritis.'
+  c001:
+    quotes:
+    - exact: 'ATAD3A (OR: 1.41; 95% CI: 1.13-1.76, pSMR = 1.64e-03) and TOP1MT (OR: 1.42; 95% CI: 1.10-1.84,
+        pSMR = 4.60e-03) were strongly associated with multiple myositis, while SND1 (OR: 1.08; 95% CI:
+        1.04-1.12, pSMR = 4.05e-03) was linked to osteoarthritis.'
+  c002:
+    quotes:
+    - exact: 'ATAD3A (OR: 1.41; 95% CI: 1.13-1.76, pSMR = 1.64e-03) and TOP1MT (OR: 1.42; 95% CI: 1.10-1.84,
+        pSMR = 4.60e-03) were strongly associated with multiple myositis, while SND1 (OR: 1.08; 95% CI:
+        1.04-1.12, pSMR = 4.05e-03) was linked to osteoarthritis.'

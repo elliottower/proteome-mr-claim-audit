@@ -1,0 +1,16 @@
+source:
+  citation: pmid41832569
+  local: sources/pmid41832569.txt
+  sha256: 4e97d4901446af95b8ff3b6d16b2efa95dd2359c442f6f73d722a48177f54d05
+  url: https://pubmed.ncbi.nlm.nih.gov/41832569/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: Protein-level MR analysis demonstrated that BMP6 significantly increased IVDD risk (OR =
+        1.19, 95% CI 1.09-1.30; p < 0.001), supported by a colocalization probability of 99% (PP.H4 =
+        0.99).
+  c001:
+    quotes:
+    - exact: Urate levels exhibited a nominal mediation signal linking BMP6 to IVDD (proportion mediated
+        = 7.48%, p = 0.036), which remained suggestive after BH-FDR correction.

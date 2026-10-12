@@ -1,0 +1,24 @@
+source:
+  citation: pmid41273989
+  local: sources/pmid41273989.txt
+  sha256: 11d637dfe350596af078f1690ba692993865b5ac68bd2030e97339641cd8c057
+  url: https://pubmed.ncbi.nlm.nih.gov/41273989/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: We found that Beta-2-microglobulin (B2M) indirectly increases pancreatic cancer risk by upregulating
+        Neutrophil Elastase (ELANE)-to our knowledge, this is the first study to establish a causal, mediation-based
+        genetic link between B2M and ELANE in the context of pancreatic cancer.
+  c001:
+    quotes:
+    - exact: We found that Beta-2-microglobulin (B2M) indirectly increases pancreatic cancer risk by upregulating
+        Neutrophil Elastase (ELANE)-to our knowledge, this is the first study to establish a causal, mediation-based
+        genetic link between B2M and ELANE in the context of pancreatic cancer. Mediation analysis revealed
+        ELANE accounts for 20.572 % [15.32%-25.81 %] of this effect.
+  c002:
+    quotes:
+    - exact: 'The findings support B2M as a diagnostic biomarker for pancreatic cancer, given its significant
+        overexpression in tumors and high diagnostic accuracy (AUC = 0.976, 95 % CI: 0.958-0.993), and
+        highlight the B2M-ELANE axis-identified through a data-driven MR mediation framework-as a promising
+        therapeutic target.'

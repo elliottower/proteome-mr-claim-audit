@@ -1,0 +1,19 @@
+source:
+  citation: pmid42780180
+  local: sources/pmid42780180.txt
+  sha256: 1b8fd17ed1f1aeb8869522b18f305066536d6e73661bda7d07631dfd40da3b78
+  url: https://pubmed.ncbi.nlm.nih.gov/42780180/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: Four proteins were identified as candidate mediators of NAFLD-DR association, among them,
+        LTB (lymphotoxin-β, a TNF superfamily member involved in immune regulation and inflammatory responses)
+        showed the strongest effect.
+  c001:
+    quotes:
+    - exact: The levels of LTB protein in the aqueous humor, vitreous humor and serum of NAFLD patients
+        with DR were all higher than those of NAFLD patients without DR.
+  c002:
+    quotes:
+    - exact: T cells and B cells in the liver of patients with NAFLD produce higher levels of LTB protein.

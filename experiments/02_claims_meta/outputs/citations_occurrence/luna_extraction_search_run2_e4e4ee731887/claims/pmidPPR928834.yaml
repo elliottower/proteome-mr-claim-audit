@@ -1,0 +1,18 @@
+source:
+  citation: pmidPPR928834
+  local: sources/pmidPPR928834.txt
+  sha256: 93d732c5d2702147c20095c004978c56a1718966c45f0950301cf32b040da3f2
+  url: https://europepmc.org/article/PPR/PPR928834
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: Electrophysiological experiments showed that although PalGly does not interact with Nav1.5,
+        it enhances calcium sparks in ventricular cardiomyocytes. We determined that the calcium-modulating
+        effect of PalGly is mediated by its binding to and activation of the transient receptor potential
+        channel 5 (TRPC5) channel.
+  c001:
+    quotes:
+    - exact: Transcriptomic and lipidomic analyses of PalGly-treated neonatal rat cardiomyocytes revealed
+        significant negative modulation of immune pathways, akin to the effects observed with agonizing
+        TRPC5.

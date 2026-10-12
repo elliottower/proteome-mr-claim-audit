@@ -1,0 +1,21 @@
+source:
+  citation: pmid40444654
+  local: sources/pmid40444654.txt
+  sha256: f56860e045fdae627a7a77241e61610fafcc38a01337df802b3d86f09e0c3440
+  url: https://pubmed.ncbi.nlm.nih.gov/40444654/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: 'At the protein level, high circulating levels of STAT3 are inversely associated with MS
+        risk (OR: 0.43, 95% CI, 0.33-0.54).'
+  c001:
+    quotes:
+    - exact: 'Elevated levels of TNFRSF1A are also linked with a decreased risk of MS (OR: 0.21; 95% CI,
+        0.12-0.37), while higher levels of CR1 are positively associated with an increased risk of MS
+        (OR: 1.17; 95% CI, 1.08-1.27).'
+  c002:
+    quotes:
+    - exact: 'Elevated levels of TNFRSF1A are also linked with a decreased risk of MS (OR: 0.21; 95% CI,
+        0.12-0.37), while higher levels of CR1 are positively associated with an increased risk of MS
+        (OR: 1.17; 95% CI, 1.08-1.27).'

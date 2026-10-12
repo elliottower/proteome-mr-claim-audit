@@ -1,0 +1,17 @@
+source:
+  citation: pmid40404751
+  local: sources/pmid40404751.txt
+  sha256: 3cbe56303a28f38c616dcc90e0cfe442d1b9e14355af4a0102d5c0df6f5e4e66
+  url: https://pubmed.ncbi.nlm.nih.gov/40404751/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: Multivariable MR analysis confirmed that only TM had an independent positive causal effect
+        on PAD (β = 0.225, P < 0.001), and mediation analysis further validated TM as a significant mediator
+        in the MN-to-PAD pathway (Z = 2.823, P = 0.048).
+  c001:
+    quotes:
+    - exact: Multivariable MR analysis confirmed that only TM had an independent positive causal effect
+        on PAD (β = 0.225, P < 0.001), and mediation analysis further validated TM as a significant mediator
+        in the MN-to-PAD pathway (Z = 2.823, P = 0.048).

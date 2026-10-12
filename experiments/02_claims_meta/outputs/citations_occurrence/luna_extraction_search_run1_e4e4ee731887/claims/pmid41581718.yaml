@@ -1,0 +1,12 @@
+source:
+  citation: pmid41581718
+  local: sources/pmid41581718.txt
+  sha256: 0b6ebaedd51b5dab874110dafab04b06387435e2620d3f4ecae23b186fc370dc
+  url: https://pubmed.ncbi.nlm.nih.gov/41581718/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: 'MR analysis revealed that each 1-standard deviation increase in genetically predicted ITPR3
+        expression was associated with a 32.8 % higher risk of chronic prostatitis (OR = 1.328, 95 % CI:
+        1.108-1.702, P < 0.001), which was further validated by SMR-HEIDI testing (HEIDI P > 0.05).'

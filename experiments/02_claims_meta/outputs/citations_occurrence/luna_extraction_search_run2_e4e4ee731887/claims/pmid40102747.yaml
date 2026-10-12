@@ -1,0 +1,16 @@
+source:
+  citation: pmid40102747
+  local: sources/pmid40102747.txt
+  sha256: be611786b18ce3801ab637f785183f1f77c4e9a8472fcdfd94101292b51b8a72
+  url: https://pubmed.ncbi.nlm.nih.gov/40102747/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: Colocalization analysis revealed that PPCDC and GC exhibited shared genetic loci among the
+        15 proteins examined, indicating that PPCDC may serve as potential direct target for intervention
+        in GC.
+  c001:
+    quotes:
+    - exact: Further phenotype wide association studies showed that PPCDC (P < 0.05) could be associated
+        with certain potential side effects.

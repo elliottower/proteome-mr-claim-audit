@@ -1,0 +1,38 @@
+source:
+  citation: pmid40770693
+  local: sources/pmid40770693.txt
+  sha256: 933c9693d335be031fdb4efb27a52fe83319a64f68ff51710cd3f982961cfefa
+  url: https://pubmed.ncbi.nlm.nih.gov/40770693/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: 'ATAD3A (OR: 1.41; 95% CI: 1.13-1.76, pSMR = 1.64e-03) and TOP1MT (OR: 1.42; 95% CI: 1.10-1.84,
+        pSMR = 4.60e-03) were strongly associated with multiple myositis, while SND1 (OR: 1.08; 95% CI:
+        1.04-1.12, pSMR = 4.05e-03) was linked to osteoarthritis.'
+  c001:
+    quotes:
+    - exact: 'ATAD3A (OR: 1.41; 95% CI: 1.13-1.76, pSMR = 1.64e-03) and TOP1MT (OR: 1.42; 95% CI: 1.10-1.84,
+        pSMR = 4.60e-03) were strongly associated with multiple myositis, while SND1 (OR: 1.08; 95% CI:
+        1.04-1.12, pSMR = 4.05e-03) was linked to osteoarthritis.'
+  c002:
+    quotes:
+    - exact: 'ATAD3A (OR: 1.41; 95% CI: 1.13-1.76, pSMR = 1.64e-03) and TOP1MT (OR: 1.42; 95% CI: 1.10-1.84,
+        pSMR = 4.60e-03) were strongly associated with multiple myositis, while SND1 (OR: 1.08; 95% CI:
+        1.04-1.12, pSMR = 4.05e-03) was linked to osteoarthritis.'
+  c003:
+    quotes:
+    - exact: 'Notably, TOP1MT expression conferred protective effects against primary Sjögren''s syndrome
+        (OR: 0.57; 95% CI: 0.35-0.95, pSMR = 8.21e-03).'
+  c004:
+    quotes:
+    - exact: 'Crucially, only UQCRH was identified with the same variant (rs41292543) exhibiting inverse
+        effects on multiple myositis, including causal effects through cg11235697 methylation (OR: 1.56;
+        95% CI: 1.23-1.98, pSMR = 3.02e-04) and protective effects through gene expression (OR: 0.83;
+        95% CI: 0.72-0.95, pSMR = 2.78e-04).'
+  c005:
+    quotes:
+    - exact: 'Crucially, only UQCRH was identified with the same variant (rs41292543) exhibiting inverse
+        effects on multiple myositis, including causal effects through cg11235697 methylation (OR: 1.56;
+        95% CI: 1.23-1.98, pSMR = 3.02e-04) and protective effects through gene expression (OR: 0.83;
+        95% CI: 0.72-0.95, pSMR = 2.78e-04).'

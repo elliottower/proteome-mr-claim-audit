@@ -1,0 +1,31 @@
+source:
+  citation: pmid41351645
+  local: sources/pmid41351645.txt
+  sha256: b5f51a10063cba0ce8c3f6e3def65f948b361706e1aeacdfc9369e63cbe077e7
+  url: https://pubmed.ncbi.nlm.nih.gov/41351645/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: We identified 115 CpG sites, 14 genes, and 5 proteins linked to stroke. Significant colocalization
+        was found for 26 loci, including four genes (CYC1, MECR, NGRN, NLRX1) and two proteins (LONP1,
+        MMUT).
+  c001:
+    quotes:
+    - exact: We identified 115 CpG sites, 14 genes, and 5 proteins linked to stroke. Significant colocalization
+        was found for 26 loci, including four genes (CYC1, MECR, NGRN, NLRX1) and two proteins (LONP1,
+        MMUT).
+  c002:
+    quotes:
+    - exact: MMUT protein abundance was negatively associated with stroke risk (OR = 0.730).
+  c003:
+    quotes:
+    - exact: PRDX3 showed a positive methylation-expression relationship (OR = 2.733; 95% CI, 2.004-3.727),
+        with cg01126576 methylation (OR = 0.895; 95% CI, 0.819-0.978) and expression (OR = 0.909; 95%
+        CI, 0.838-0.986) linked to reduced stroke risk, whereas higher protein abundance was associated
+        with increased risk (OR = 1.472; 95% CI, 1.076-2.014).
+  c004:
+    quotes:
+    - exact: PRDX3 demonstrates contrasting associations at different molecular levels, while MMUT is
+        validated as a stroke-associated protein, highlighting both as potential priorities for future
+        mechanistic and therapeutic studies.

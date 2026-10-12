@@ -1,0 +1,23 @@
+source:
+  citation: pmid39716036
+  local: sources/pmid39716036.txt
+  sha256: fdaa838e67b575ea4f6c0fc73b2a7c01bc379c1a3a90c93ba252060fe08a9264
+  url: https://pubmed.ncbi.nlm.nih.gov/39716036/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: We observed a potential association with decreased levels of mtDNA-CN with the risk of migraine
+        without aura (Odds ratio (OR) 1.517, 95% Confidence interval (CI) 1.072-2.147, p = 0.019).
+  c001:
+    quotes:
+    - exact: Besides, for every 1 unit in NAD-dependent protein deacylase sirtuin-5 (SIRT5), relative
+        risk of migraine without aura increased by 16.4%.
+  c002:
+    quotes:
+    - exact: For every 1 unit increase in Phenylalanine-transfer RNA (tRNA) ligase, relative risk of migraine
+        without aura increased by 13.5%.
+  c003:
+    quotes:
+    - exact: For every 1 unit increase in Apoptosis-inducing factor 1, relative risk of migraine without
+        aura increased by 27.4%.

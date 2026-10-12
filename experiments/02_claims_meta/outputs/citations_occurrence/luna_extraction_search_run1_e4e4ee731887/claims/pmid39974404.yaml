@@ -1,0 +1,33 @@
+source:
+  citation: pmid39974404
+  local: sources/pmid39974404.txt
+  sha256: 8dbbb62b48dd9bfed87168e9e003fc83057e98b17a1277b9f83a08cd9d950976
+  url: https://pubmed.ncbi.nlm.nih.gov/39974404/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: The subsequent colocalization analysis pinpointed that CHDRL2 had a shared region with CRC
+        and its two subsites, suggesting the importance of targeting it.
+  c001:
+    quotes:
+    - exact: The subsequent colocalization analysis pinpointed that CHDRL2 had a shared region with CRC
+        and its two subsites, suggesting the importance of targeting it.
+  c002:
+    quotes:
+    - exact: Besides, IGF2R and ENPEP displayed anatomic site-specificity to colon cancer while ASRGL1
+        was strongly correlated only with the risk of rectal cancer.
+      prefix: 'of targeting it. '
+      suffix: ' enrichment analysis'
+  c003:
+    quotes:
+    - exact: Besides, IGF2R and ENPEP displayed anatomic site-specificity to colon cancer while ASRGL1
+        was strongly correlated only with the risk of rectal cancer.
+      prefix: 'of targeting it. '
+      suffix: ' enrichment analysis'
+  c004:
+    quotes:
+    - exact: Besides, IGF2R and ENPEP displayed anatomic site-specificity to colon cancer while ASRGL1
+        was strongly correlated only with the risk of rectal cancer.
+      prefix: 'of targeting it. '
+      suffix: ' enrichment analysis'

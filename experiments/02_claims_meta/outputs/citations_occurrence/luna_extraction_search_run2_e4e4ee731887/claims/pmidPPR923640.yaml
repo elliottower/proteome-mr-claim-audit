@@ -1,0 +1,21 @@
+source:
+  citation: pmidPPR923640
+  local: sources/pmidPPR923640.txt
+  sha256: 49062e5e8f3ebb2f621c539c885ecbde1bc2a3aa41d19cf59062bd68ce040dd1
+  url: https://europepmc.org/article/PPR/PPR923640
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: In this work we shed light on the currently poorly understood genetic and proteomic background
+        of delirium. We conducted the largest to date multi-ancestry analysis of genetic variants associated
+        with delirium (1,059,130 individuals, 11,931 cases), yielding the  Apolipoprotein E (  APOE )
+        gene as a strong risk factor with possible population and age-varying effects.
+  c001:
+    quotes:
+    - exact: APOE genetic effect on delirium remained significant after adjusting for dementia and Alzheimer
+        disease (AD) and in dementia-free cohorts.
+  c002:
+    quotes:
+    - exact: APOE genetic effect on delirium remained significant after adjusting for dementia and Alzheimer
+        disease (AD) and in dementia-free cohorts.

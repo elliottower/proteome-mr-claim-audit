@@ -1,0 +1,33 @@
+source:
+  citation: pmid38410634
+  local: sources/pmid38410634.txt
+  sha256: 05b1c82a13a250f9a305a1fbb7f2df4607543239e7d42083cf245219cfad3c27
+  url: https://pubmed.ncbi.nlm.nih.gov/38410634/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: 'IFN-γ [ORIVW: 1.33; 95% CI: 1.09-1.63; p=0.005] and SCF [ORIVW: 1.25, 1.02-1.52; p = 0.027]
+        were associated with an increased risk of DN.'
+  c001:
+    quotes:
+    - exact: 'IFN-γ [ORIVW: 1.33; 95% CI: 1.09-1.63; p=0.005] and SCF [ORIVW: 1.25, 1.02-1.52; p = 0.027]
+        were associated with an increased risk of DN.'
+  c002:
+    quotes:
+    - exact: 'MIP1b [ORIVW: 0.92; 95% CI: 0.85-0.98; p = 0.022] and IL-16 [ORIVW: 0.89, 0.81-0.99; p =
+        0.043] showed negative associations with the risk of DN.'
+  c003:
+    quotes:
+    - exact: 'MIP1b [ORIVW: 0.92; 95% CI: 0.85-0.98; p = 0.022] and IL-16 [ORIVW: 0.89, 0.81-0.99; p =
+        0.043] showed negative associations with the risk of DN.'
+  c006:
+    quotes:
+    - exact: 'MIP1b [ORIVW: 0.92; 95% CI: 0.85-0.98; p = 0.022] and IL-16 [ORIVW: 0.89, 0.81-0.99; p =
+        0.043] showed negative associations with the risk of DN. We validated our MR results with MR-PRESSO
+        analyses.'
+  c007:
+    quotes:
+    - exact: 'MIP1b [ORIVW: 0.92; 95% CI: 0.85-0.98; p = 0.022] and IL-16 [ORIVW: 0.89, 0.81-0.99; p =
+        0.043] showed negative associations with the risk of DN. We validated our MR results with MR-PRESSO
+        analyses.'

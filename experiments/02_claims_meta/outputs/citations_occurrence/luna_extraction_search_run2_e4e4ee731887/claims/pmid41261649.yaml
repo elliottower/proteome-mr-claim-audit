@@ -1,0 +1,16 @@
+source:
+  citation: pmid41261649
+  local: sources/pmid41261649.txt
+  sha256: 0ed48275da69390b3c530c6737d6fae30b919640c24c9922c9b53482baf2b549
+  url: https://pubmed.ncbi.nlm.nih.gov/41261649/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: With the adjusted P-value <.05, 1-SD increase in genetically determined APOE (apolipoprotein
+        E) was associated with increased risk of sepsis (OR = 1.07, 95%CI = 1.04-1.11, P = 5.36 × 10-5).
+  c001:
+    quotes:
+    - exact: With the adjusted P-value <.05, 1-SD increase in genetically determined APOE (apolipoprotein
+        E) was associated with increased risk of sepsis (OR = 1.07, 95%CI = 1.04-1.11, P = 5.36 × 10-5).
+        The findings were consistent in the validation analyses.

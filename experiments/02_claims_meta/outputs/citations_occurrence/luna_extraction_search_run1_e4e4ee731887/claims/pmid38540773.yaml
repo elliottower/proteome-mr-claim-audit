@@ -1,0 +1,22 @@
+source:
+  citation: pmid38540773
+  local: sources/pmid38540773.txt
+  sha256: 520b0d187aee53804faed30c0031a069082958696c0b82a2387c9e33756c2131
+  url: https://pubmed.ncbi.nlm.nih.gov/38540773/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: 'Finally, we identified MAPK3 (OR = 0.855, 95% CI: 0.791-0.923, p = 6.88 × 10-5) and GZMK
+        (OR = 1.278, 95% CI: 1.131-1.444, p = 8.58 × 10-5) as the core therapeutic targets for knee OA,
+        and ITIH1 (OR = 0.847, 95% CI: 0.784-0.915, p = 2.44 × 10-5) for hip OA.'
+  c001:
+    quotes:
+    - exact: 'Finally, we identified MAPK3 (OR = 0.855, 95% CI: 0.791-0.923, p = 6.88 × 10-5) and GZMK
+        (OR = 1.278, 95% CI: 1.131-1.444, p = 8.58 × 10-5) as the core therapeutic targets for knee OA,
+        and ITIH1 (OR = 0.847, 95% CI: 0.784-0.915, p = 2.44 × 10-5) for hip OA.'
+  c002:
+    quotes:
+    - exact: 'Finally, we identified MAPK3 (OR = 0.855, 95% CI: 0.791-0.923, p = 6.88 × 10-5) and GZMK
+        (OR = 1.278, 95% CI: 1.131-1.444, p = 8.58 × 10-5) as the core therapeutic targets for knee OA,
+        and ITIH1 (OR = 0.847, 95% CI: 0.784-0.915, p = 2.44 × 10-5) for hip OA.'

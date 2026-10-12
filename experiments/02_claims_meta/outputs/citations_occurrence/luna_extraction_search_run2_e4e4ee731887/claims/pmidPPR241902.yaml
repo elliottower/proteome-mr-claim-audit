@@ -1,0 +1,22 @@
+source:
+  citation: pmidPPR241902
+  local: sources/pmidPPR241902.txt
+  sha256: adfd2fdebfaa0bec5f818028ebf4817cb2abe656e33aeea46f6c5aa5033e6f83
+  url: https://europepmc.org/article/PPR/PPR241902
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: 'We found significant Mendelian randomization results for three proteins (ACE2: P= 1.6×10
+        −6 , IFNAR2: P= 9.8×10 −11 , and IL-10RB: P= 1.9×10 −14 ) using cis -eQTL genetic instruments
+        that also had strong evidence for colocalization with COVID-19 hospitalization.'
+  c001:
+    quotes:
+    - exact: 'We found significant Mendelian randomization results for three proteins (ACE2: P= 1.6×10
+        −6 , IFNAR2: P= 9.8×10 −11 , and IL-10RB: P= 1.9×10 −14 ) using cis -eQTL genetic instruments
+        that also had strong evidence for colocalization with COVID-19 hospitalization.'
+  c002:
+    quotes:
+    - exact: 'We found significant Mendelian randomization results for three proteins (ACE2: P= 1.6×10
+        −6 , IFNAR2: P= 9.8×10 −11 , and IL-10RB: P= 1.9×10 −14 ) using cis -eQTL genetic instruments
+        that also had strong evidence for colocalization with COVID-19 hospitalization.'

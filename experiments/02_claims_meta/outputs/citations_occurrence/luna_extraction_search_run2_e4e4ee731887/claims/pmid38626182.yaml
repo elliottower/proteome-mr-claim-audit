@@ -1,0 +1,17 @@
+source:
+  citation: pmid38626182
+  local: sources/pmid38626182.txt
+  sha256: a51b0370e8502887d6ae7d081e67fe13a00e635fba4fd642aa23a9ae19fddffb
+  url: https://pubmed.ncbi.nlm.nih.gov/38626182/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: Forty-two plasma proteins were associated with DKD progression, independent of traditional
+        cardiorenal risk factors, baseline eGFR, and urine albumin-to-creatinine ratio. The proteins identified
+        were related to inflammatory and remodeling biological processes. Our findings suggest angiogenin
+        as one of the top signals (odds ratio = 5.29; 95% CI, 2.39-11.73; P = 4.03 × 10-5).
+  c001:
+    quotes:
+    - exact: Furthermore, genetically determined plasma angiogenin level was associated with increased
+        odds of DKD progression.

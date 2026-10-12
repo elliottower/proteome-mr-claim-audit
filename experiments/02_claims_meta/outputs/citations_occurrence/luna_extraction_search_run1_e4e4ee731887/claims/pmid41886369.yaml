@@ -1,0 +1,23 @@
+source:
+  citation: pmid41886369
+  local: sources/pmid41886369.txt
+  sha256: a5e1b4a71d2b8c8b11eac39535336358c4930e0d8516bcd2f800763b7ca1b590
+  url: https://pubmed.ncbi.nlm.nih.gov/41886369/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: Integrated analysis of single-cell transcriptomics, proteomics, and summary-data-based Mendelian
+        randomization suggested that SMAD7 may serve as a negative regulator of ferroptosis in PAECs.
+  c001:
+    quotes:
+    - exact: Additionally, experiments conducted both in vitro and in vivo showed that reducing SMAD7
+        expression enhanced ferroptosis in PAECs, whereas SMAD7 overexpression alleviated ferroptosis
+        and pulmonary vascular remodeling, potentially by blocking the transforming growth factor-beta
+        -1-SMAD2/3 signaling pathway.
+  c002:
+    quotes:
+    - exact: Additionally, experiments conducted both in vitro and in vivo showed that reducing SMAD7
+        expression enhanced ferroptosis in PAECs, whereas SMAD7 overexpression alleviated ferroptosis
+        and pulmonary vascular remodeling, potentially by blocking the transforming growth factor-beta
+        -1-SMAD2/3 signaling pathway.

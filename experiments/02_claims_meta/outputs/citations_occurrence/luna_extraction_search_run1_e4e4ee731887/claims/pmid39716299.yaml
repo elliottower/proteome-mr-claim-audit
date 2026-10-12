@@ -1,0 +1,19 @@
+source:
+  citation: pmid39716299
+  local: sources/pmid39716299.txt
+  sha256: 4f8a38c3da36512575d809042be35226fefa9c31723071bced95455cc2c25994
+  url: https://pubmed.ncbi.nlm.nih.gov/39716299/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: Disease-causing changes were revealed by MR analysis, and it showed that the OAS1 eQTL/cis-eQTL/cis-pQTL
+        was causally related to ED, significantly reducing its risks (all P < 0.05).
+  c001:
+    quotes:
+    - exact: Disease-induced changes were revealed by scRNA-Seq, and it suggested that OAS1 mainly played
+        its role in ED via targeting fibroblasts.
+  c002:
+    quotes:
+    - exact: We further concluded that the positive regulation of OAS1 gene expression could lead to the
+        vicious circle of ED.

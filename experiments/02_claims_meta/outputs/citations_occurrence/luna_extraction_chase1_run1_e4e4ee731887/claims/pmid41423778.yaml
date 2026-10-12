@@ -1,0 +1,12 @@
+source:
+  citation: pmid41423778
+  local: sources/pmid41423778.txt
+  sha256: cd479d528beb3ef63be33d9ae905404c23897721d5bc87f3280c0eddb4248cdd
+  url: https://pubmed.ncbi.nlm.nih.gov/41423778/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: 'Mediation analysis indicated that this cell type may potentially mediate the effect of CTSH
+        on the pathogenesis of T1DM (OR = 1.014, 95% CI: 1.004-1.024, p = 0.008), with a mediation proportion
+        of 8.3%.'

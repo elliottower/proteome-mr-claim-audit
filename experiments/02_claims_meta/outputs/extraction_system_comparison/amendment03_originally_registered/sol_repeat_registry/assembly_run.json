@@ -1,0 +1,179 @@
+{
+ "source": "sol_repeat",
+ "finished_utc": "20261011T214110Z",
+ "command": [
+  "python",
+  "scripts/assemble_registry.py",
+  "--records",
+  "outputs/screening/2026-10-03/search_records.jsonl",
+  "outputs/screening/chase_round_1/search_records.jsonl",
+  "outputs/screening/chase_round_2/search_records.jsonl",
+  "outputs/screening/chase_round_3/search_records.jsonl",
+  "--decisions",
+  "outputs/parsed/sol_eligibility_search_complete_2811496ef424.decisions.jsonl",
+  "outputs/parsed/sol_eligibility_chase1_2811496ef424.decisions.jsonl",
+  "outputs/parsed/sol_eligibility_gate1b1_2811496ef424.decisions.jsonl",
+  "outputs/parsed/sol_eligibility_gate1b2_2811496ef424.decisions.jsonl",
+  "outputs/parsed/sol_eligibility_gate1b3_2811496ef424.decisions.jsonl",
+  "outputs/parsed/sol_eligibility_gate1b4_2811496ef424.decisions.jsonl",
+  "outputs/parsed/sol_eligibility_gate1b5_2811496ef424.decisions.jsonl",
+  "outputs/parsed/sol_eligibility_gateall1_2811496ef424.decisions.jsonl",
+  "outputs/parsed/sol_eligibility_chase2_2811496ef424.decisions.jsonl",
+  "outputs/parsed/sol_eligibility_gateall2_2811496ef424.decisions.jsonl",
+  "outputs/parsed/sol_eligibility_gateall3_2811496ef424.decisions.jsonl",
+  "--extraction",
+  "outputs/parsed/sol_extraction_search_repeat_0b97103cd7a4.jsonl",
+  "outputs/parsed/sol_extraction_chase1_repeat_0b97103cd7a4.jsonl",
+  "outputs/parsed/sol_extraction_chase2_repeat_0b97103cd7a4.jsonl",
+  "outputs/parsed/sol_extraction_chase3_repeat_0b97103cd7a4.jsonl",
+  "--checks",
+  "outputs/verification_amendment02/amendment03/sol_extraction_search_repeat_0b97103cd7a4/claim_checks.jsonl",
+  "outputs/verification_amendment02/amendment03/sol_extraction_chase1_repeat_0b97103cd7a4/claim_checks.jsonl",
+  "outputs/verification_amendment02/amendment03/sol_extraction_chase2_repeat_0b97103cd7a4/claim_checks.jsonl",
+  "outputs/verification_amendment02/amendment03/sol_extraction_chase3_repeat_0b97103cd7a4/claim_checks.jsonl",
+  "--manual-codes",
+  "outputs/manual_coding/2026-10-03_registered_with_27/final_codes_every_coded_row_marked/manual_dataset_codes.csv",
+  "--out",
+  "/exp/outputs/registry/amendment03_sol_repeat"
+ ],
+ "inputs": {
+  "outputs/manual_coding/2026-10-03_registered_with_27/final_codes_every_coded_row_marked/manual_dataset_codes.csv": {
+   "bytes": 248772,
+   "sha256": "d8332c0a9c88a577de35203c58edd7728450d19289b3e4f48430550e47a94430"
+  },
+  "outputs/parsed/sol_eligibility_chase1_2811496ef424.decisions.jsonl": {
+   "bytes": 22069,
+   "sha256": "d7ecd507392cf7c2a393fbe849e5ea3b6fd314e167f3c71c7e5cdf1d3798cb71"
+  },
+  "outputs/parsed/sol_eligibility_chase2_2811496ef424.decisions.jsonl": {
+   "bytes": 2661,
+   "sha256": "17878d5e1f41b64b1745286cd8a24a147079595ef3668975f4f2ffa09c87fe6a"
+  },
+  "outputs/parsed/sol_eligibility_gate1b1_2811496ef424.decisions.jsonl": {
+   "bytes": 132928,
+   "sha256": "b504343bfb774cee23d8db48bdaef1cae8b9c874b534af67e9e097dca0f8e08c"
+  },
+  "outputs/parsed/sol_eligibility_gate1b2_2811496ef424.decisions.jsonl": {
+   "bytes": 132719,
+   "sha256": "18ef3ddb77f847d6d0eaa7684119a41ad4676fde2dda59e3ad4f6428c41cb33a"
+  },
+  "outputs/parsed/sol_eligibility_gate1b3_2811496ef424.decisions.jsonl": {
+   "bytes": 133238,
+   "sha256": "23e0dbfefffd39dd7e23c8ebe1d397cf50796908dc6ef0ddd662e1e403d2c845"
+  },
+  "outputs/parsed/sol_eligibility_gate1b4_2811496ef424.decisions.jsonl": {
+   "bytes": 133067,
+   "sha256": "d2c30d5ed7fbae2aa5ae68f840816ad3f048356f384b6a638c7d27a5e82c57e0"
+  },
+  "outputs/parsed/sol_eligibility_gate1b5_2811496ef424.decisions.jsonl": {
+   "bytes": 133098,
+   "sha256": "4232fbf15576cb21b2236bf01464f85fdc4cc7db8f8bb51d9f11fdc3fb33b1b9"
+  },
+  "outputs/parsed/sol_eligibility_gateall1_2811496ef424.decisions.jsonl": {
+   "bytes": 6318862,
+   "sha256": "6788089ac4ac093aa1a42823fd68a0a858ce049b8f0c5902ea9bd7aa6c6bdf6f"
+  },
+  "outputs/parsed/sol_eligibility_gateall2_2811496ef424.decisions.jsonl": {
+   "bytes": 1030859,
+   "sha256": "7404303dd596df9b5ad2644bdf6d082eb8baf32b5bdf41e933c9b8da8f889e72"
+  },
+  "outputs/parsed/sol_eligibility_gateall3_2811496ef424.decisions.jsonl": {
+   "bytes": 311247,
+   "sha256": "2b9e69cfd99741f8bf2e21ac46b9f9db912e372232449dda0b09bcfb6c8ed48f"
+  },
+  "outputs/parsed/sol_eligibility_search_complete_2811496ef424.decisions.jsonl": {
+   "bytes": 1017765,
+   "sha256": "2760f84788495395cb6c2e4ce6fc08974bacadabc757867106c2488caf096e6a"
+  },
+  "outputs/parsed/sol_extraction_chase1_repeat_0b97103cd7a4.jsonl": {
+   "bytes": 96667,
+   "sha256": "a18bf31772550088bb031bcffe5f07f595730f289e2aa76f07100708fa648e6d"
+  },
+  "outputs/parsed/sol_extraction_chase2_repeat_0b97103cd7a4.jsonl": {
+   "bytes": 32761,
+   "sha256": "8ae66052b55951474ed31a48abad1126f818dc05ce4aab6f814fd3dd22c7fa93"
+  },
+  "outputs/parsed/sol_extraction_chase3_repeat_0b97103cd7a4.jsonl": {
+   "bytes": 5741,
+   "sha256": "6b8203ef3974317b7cb84272f52a9c286df5c709c9ae03dd525d37d706cc1969"
+  },
+  "outputs/parsed/sol_extraction_search_repeat_0b97103cd7a4.jsonl": {
+   "bytes": 1041416,
+   "sha256": "557ee622771562ac3717130c8ff311f94ee5959bfc4efa2c37383cb1ee2d28c6"
+  },
+  "outputs/screening/2026-10-03/search_records.jsonl": {
+   "bytes": 2194039,
+   "sha256": "819d2bcc931e3eea0e94f83f623b1af4d21f06ece4496b3f852333128640efab"
+  },
+  "outputs/screening/chase_round_1/search_records.jsonl": {
+   "bytes": 11844333,
+   "sha256": "e643cbb1b11fde34a90ef8803a5d273a91492d73b362032665547f08d2f96662"
+  },
+  "outputs/screening/chase_round_2/search_records.jsonl": {
+   "bytes": 1815707,
+   "sha256": "789b867214eddfa9b2a76da40994990c99145e9de09cc7f7818d458269f5b86e"
+  },
+  "outputs/screening/chase_round_3/search_records.jsonl": {
+   "bytes": 517019,
+   "sha256": "6092efc699b501cd8352f0710a0cf715c430bf2d82b12c3072d536fc728fedf5"
+  },
+  "outputs/verification_amendment02/amendment03/sol_extraction_chase1_repeat_0b97103cd7a4/claim_checks.jsonl": {
+   "bytes": 155510,
+   "sha256": "c1b48e0d71c235c1fd12ebfecefb37c879fdd10d9e9e01fd3339f1d390cc19b6"
+  },
+  "outputs/verification_amendment02/amendment03/sol_extraction_chase2_repeat_0b97103cd7a4/claim_checks.jsonl": {
+   "bytes": 63711,
+   "sha256": "f2d6c9f8fc968d5f0dcb56aec1212fd9f88f80d187cada78752284fca7c90d1f"
+  },
+  "outputs/verification_amendment02/amendment03/sol_extraction_chase3_repeat_0b97103cd7a4/claim_checks.jsonl": {
+   "bytes": 11528,
+   "sha256": "ff0bca72bc9c2aba20ce0bd68abfdc4678d82e542f28e372d6673809528795f3"
+  },
+  "outputs/verification_amendment02/amendment03/sol_extraction_search_repeat_0b97103cd7a4/claim_checks.jsonl": {
+   "bytes": 1965672,
+   "sha256": "0afb44ab5eca88ffd661991093d7dad649e4dcf1754be6711d61433c327575e7"
+  }
+ },
+ "outputs": {
+  "families.json": {
+   "bytes": 1611791,
+   "sha256": "d3ac9b7fcb1455e92366184ea0582d533e5bedd31ad0d26415fd001bb04c1375"
+  },
+  "families_meta.json": {
+   "bytes": 760963,
+   "sha256": "902540c3f6b15fd16c4c74d423054050be298b3babbb2977d2d772b1a376e9ae"
+  },
+  "record_dates.json": {
+   "bytes": 139651,
+   "sha256": "a4056e9d1cee7b2837fa8966862f64c0ca9b924088c08387bc3e327fbebcd483"
+  },
+  "registry_claims.jsonl": {
+   "bytes": 205376,
+   "sha256": "5f0861f7d72663bb633d33ea4ccf52cced3d78390ad89be0e1a4a0761b3527b9"
+  },
+  "registry_claims_update.jsonl": {
+   "bytes": 39116,
+   "sha256": "1071fb9b8946d1cb1dbf01094daa82e46e3390619452454bae4bf60b4231e38d"
+  },
+  "dating_claims.jsonl": {
+   "bytes": 2908,
+   "sha256": "5bc1abb3c382ba3ef3ac8b1f9533385c2aed047f086724af62da9b47f00441a6"
+  },
+  "dating_claims_update.jsonl": {
+   "bytes": 0,
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "registry_claims_without_manual_coding.jsonl": {
+   "bytes": 204100,
+   "sha256": "800a07a77bb54be5229892bdd3ec821e04ba9e1c4f0a69c977d8726ace4057ec"
+  },
+  "registry_claims_without_manual_coding_update.jsonl": {
+   "bytes": 38706,
+   "sha256": "3d822a7f40ca2ad89588747449dc1dc933c24afb1798910b3c32a3c53a55ef3c"
+  },
+  "registry_assembly.json": {
+   "bytes": 1146,
+   "sha256": "6e2e1d1e8ea0e2edcf120a4218331e9823ebd831a35969f4c255f299f8db79d6"
+  }
+ }
+}

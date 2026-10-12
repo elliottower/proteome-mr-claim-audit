@@ -1,0 +1,29 @@
+source:
+  citation: pmid40898345
+  local: sources/pmid40898345.txt
+  sha256: fda365d442a3f93f6d545ff0ee9ef3de370f6602fe74d0d17ab99be14a2dd607
+  url: https://pubmed.ncbi.nlm.nih.gov/40898345/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: An integrative omics pipeline analysis identified ERAP2 as having putatively causal effects
+        on JIA.
+  c001:
+    quotes:
+    - exact: WGS analysis also detected two potentially pathogenic mutations on ERAP2 in sJIA patients.
+  c002:
+    quotes:
+    - exact: ScRNA-seq reveals that ERAP2 expression is significantly elevated in patients with sJIA compared
+        to normal and other subtypes, particularly in monocytes.
+  c003:
+    quotes:
+    - exact: 'ScRNA-seq reveals that ERAP2 expression is significantly elevated in patients with sJIA
+        compared to normal and other subtypes, particularly in monocytes. Bulk RNA-seq with ROC analysis
+        demonstrating significant diagnostic power (AUC = 0.86, 95%CI: 0.71-1.00) in discriminating sJIA
+        from healthy controls.'
+  c004:
+    quotes:
+    - exact: ERAP2 was identified as a candidate associated with JIA, especially sJIA, through integrative
+        omics analysis, indicating its potential role in protein-mediated disease mechanisms and therapeutic
+        targeting.

@@ -1,0 +1,28 @@
+source:
+  citation: pmid35198006
+  local: sources/pmid35198006.txt
+  sha256: 4bd2e6c78abf9aece1f93fefc54b52d705ad895cbbdad599e58d95d6d89e8f09
+  url: https://pubmed.ncbi.nlm.nih.gov/35198006/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: 'In the primary MR analysis, there was a suggestive inverse association between genetically
+        determined circulating level of macrophage inflammatory protein-1β (MIP-1b) and the risk of RA
+        [odds ratio (OR): 0.95, 95% confidence interval (CI) = 0.92-0.99, p = 0.016].'
+  c001:
+    quotes:
+    - exact: 'In the primary MR analysis, there was a suggestive inverse association between genetically
+        determined circulating level of macrophage inflammatory protein-1β (MIP-1b) and the risk of RA
+        [odds ratio (OR): 0.95, 95% confidence interval (CI) = 0.92-0.99, p = 0.016]. The effect estimates
+        were similar in alternative MR analyses.'
+  c002:
+    quotes:
+    - exact: Among SNPs used as IVs for MIP-1b, we found 92 SNPs without documented pleiotropy and three
+        SNPs with evidence of colocalization. The association of MIP-1b with RA from sensitivity analyses
+        using these two sets of restricted IVs remained stable.
+  c003:
+    quotes:
+    - exact: Among SNPs used as IVs for MIP-1b, we found 92 SNPs without documented pleiotropy and three
+        SNPs with evidence of colocalization. The association of MIP-1b with RA from sensitivity analyses
+        using these two sets of restricted IVs remained stable.

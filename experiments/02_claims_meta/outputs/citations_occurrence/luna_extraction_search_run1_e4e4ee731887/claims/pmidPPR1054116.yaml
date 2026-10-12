@@ -1,0 +1,15 @@
+source:
+  citation: pmidPPR1054116
+  local: sources/pmidPPR1054116.txt
+  sha256: b441097b3c5e2ce7db5269877eae064275ff38cc3d1599e4a47bebe1afd762d3
+  url: https://europepmc.org/article/PPR/PPR1054116
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: Across two proteome datasets, genetically predicted levels of 18 plasma proteins are nominally
+        significant associated with PPD and SRA1 was significantly associated with PPD.
+  c001:
+    quotes:
+    - exact: The methylation of cg02434007 of SRA1 in brain was associated with higher expression of SRA1
+        and a high risk of PPD, which aligns with the positive effect of SRA1 gene expression on PPD risk.

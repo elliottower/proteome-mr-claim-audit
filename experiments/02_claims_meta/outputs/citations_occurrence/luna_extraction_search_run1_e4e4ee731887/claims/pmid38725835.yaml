@@ -1,0 +1,18 @@
+source:
+  citation: pmid38725835
+  local: sources/pmid38725835.txt
+  sha256: b4c4fa22bcfc7d0ed8ac22e478fea8cddb0dc2b9f3180b629b728cf99e5b0bf7
+  url: https://pubmed.ncbi.nlm.nih.gov/38725835/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: Among 4,907 circulating proteins, we identified leucine rich repeat transmembrane protein
+        2 (LRRTM2), which was related to both SGLT2 inhibition and HF.
+  c001:
+    quotes:
+    - exact: Mediation analysis revealed that the impact of SGLT2 inhibition on HF operates indirectly
+        through LRRTM2 [β = -0.20, 95% CI (-0.39, -0.06), P = 0.02] with a mediation proportion of 24.6%.
+  c002:
+    quotes:
+    - exact: Colocalization analysis provided support for the connections between LRRTM2 and HF.

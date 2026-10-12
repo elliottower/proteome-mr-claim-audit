@@ -1,0 +1,11 @@
+source:
+  citation: pmid42681890
+  local: sources/pmid42681890.txt
+  sha256: 8bf951b80bf9bf7d6572e9ff26f70b333e2a5e9c919e8f442fd5bcd60ccb47df
+  url: https://pubmed.ncbi.nlm.nih.gov/42681890/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: 'The cg13016775 locus of NIT2 was associated with elevated HCC risk at gene (OR = 1.618,
+        95% CI: 1.199-2.182) and protein (OR = 4.432, 95% CI: 1.783-11.018) levels.'

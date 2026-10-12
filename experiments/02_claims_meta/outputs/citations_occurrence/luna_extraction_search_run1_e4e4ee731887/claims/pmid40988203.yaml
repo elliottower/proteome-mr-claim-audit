@@ -1,0 +1,20 @@
+source:
+  citation: pmid40988203
+  local: sources/pmid40988203.txt
+  sha256: fa0040f43dddf5305ffc073afcf467ce9d2fc6dcfeb05c1e17617ced9b698a25
+  url: https://pubmed.ncbi.nlm.nih.gov/40988203/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: Through the proteome-wide analysis, 2 proteins, tyrosinase-related protein 1 and dipeptidase
+        1, were identified to have significant associations with CM risk.
+  c001:
+    quotes:
+    - exact: Notably, dipeptidase 1 exhibited an inverse relationship with CM risk, indicating its potential
+        as a therapeutic target.
+  c002:
+    quotes:
+    - exact: Notably, dipeptidase 1 exhibited an inverse relationship with CM risk, indicating its potential
+        as a therapeutic target. However, the findings also raised concerns about its possible link to
+        dementia.

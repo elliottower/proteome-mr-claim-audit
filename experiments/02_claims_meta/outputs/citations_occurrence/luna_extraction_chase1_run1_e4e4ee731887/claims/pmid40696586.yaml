@@ -1,0 +1,48 @@
+source:
+  citation: pmid40696586
+  local: sources/pmid40696586.txt
+  sha256: 123daaba997969478c982f01e2c8346b6f196fe05efef7c10314eb909ebae29c
+  url: https://pubmed.ncbi.nlm.nih.gov/40696586/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: 'Our Mendelian randomization based on generalized summary data analysis showed that Epstein-Barr
+        virus-related antibody levels, including EBNA-1 (OR = 1.7225, 95% CI: 1.2692-2.3376, P < .001)
+        and VCA p18 (OR = 1.8108, 95% CI: 1.1919-2.7511, P = .0054), were significantly associated with
+        an increased risk of myocarditis.'
+  c001:
+    quotes:
+    - exact: 'Our Mendelian randomization based on generalized summary data analysis showed that Epstein-Barr
+        virus-related antibody levels, including EBNA-1 (OR = 1.7225, 95% CI: 1.2692-2.3376, P < .001)
+        and VCA p18 (OR = 1.8108, 95% CI: 1.1919-2.7511, P = .0054), were significantly associated with
+        an increased risk of myocarditis.'
+  c002:
+    quotes:
+    - exact: 'In addition, polyomavirus-related antibody levels, including anti-polyomavirus 2 IgG seropositivity
+        (OR = 0.5762, 95% CI: 0.4521-0.7344, P < .001), anti-Merkel cell polyomavirus IgG seropositivity
+        (OR = 0.6924, 95% CI: 0.5522-0.8682, P = .0014), and Merkel cell polyomavirus VP1 antibody levels
+        (OR = 0.6093, 95% CI: 0.3989-0.9307, P = .0219), were significantly associated with a reduced
+        risk of myocarditis.'
+  c003:
+    quotes:
+    - exact: 'In addition, polyomavirus-related antibody levels, including anti-polyomavirus 2 IgG seropositivity
+        (OR = 0.5762, 95% CI: 0.4521-0.7344, P < .001), anti-Merkel cell polyomavirus IgG seropositivity
+        (OR = 0.6924, 95% CI: 0.5522-0.8682, P = .0014), and Merkel cell polyomavirus VP1 antibody levels
+        (OR = 0.6093, 95% CI: 0.3989-0.9307, P = .0219), were significantly associated with a reduced
+        risk of myocarditis.'
+  c004:
+    quotes:
+    - exact: 'In addition, polyomavirus-related antibody levels, including anti-polyomavirus 2 IgG seropositivity
+        (OR = 0.5762, 95% CI: 0.4521-0.7344, P < .001), anti-Merkel cell polyomavirus IgG seropositivity
+        (OR = 0.6924, 95% CI: 0.5522-0.8682, P = .0014), and Merkel cell polyomavirus VP1 antibody levels
+        (OR = 0.6093, 95% CI: 0.3989-0.9307, P = .0219), were significantly associated with a reduced
+        risk of myocarditis.'
+  c005:
+    quotes:
+    - exact: 'Similarly, antibody levels against varicella zoster virus glycoproteins E and I were also
+        inversely associated with myocarditis risk (OR = 0.4478, 95% CI: 0.3035-0.6606, P < .001).'
+  c006:
+    quotes:
+    - exact: 'Similarly, antibody levels against varicella zoster virus glycoproteins E and I were also
+        inversely associated with myocarditis risk (OR = 0.4478, 95% CI: 0.3035-0.6606, P < .001).'

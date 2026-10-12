@@ -1,0 +1,11 @@
+source:
+  citation: pmid41299773
+  local: sources/pmid41299773.txt
+  sha256: 5d388e4c1dc3ca038598634a8d07867dce61a7d9be751681a32347f034f23d7a
+  url: https://pubmed.ncbi.nlm.nih.gov/41299773/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: 'Additionally, tissue-specific validation indicated a positive correlation between HSD17B13
+        expression in ovarian tissue and ovarian dysfunction risk (OR = 1.20, 95% CI: 1.04-1.38).'

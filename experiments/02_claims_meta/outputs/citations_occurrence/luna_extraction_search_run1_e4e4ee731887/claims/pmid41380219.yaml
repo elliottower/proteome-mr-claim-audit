@@ -1,0 +1,19 @@
+source:
+  citation: pmid41380219
+  local: sources/pmid41380219.txt
+  sha256: 33bf379fa4efac5ead6ac4d308969a814cb5634c7b33d348ed3c66b6f2ab47d2
+  url: https://pubmed.ncbi.nlm.nih.gov/41380219/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: We put forth a viewpoint that the transcription factor BACH1 is causally related to the onset
+        of HS, is a protective factor for HS, and may serve as its therapeutic target.
+  c001:
+    quotes:
+    - exact: BACH1 is under-expressed in HS tissues and fibroblasts.
+  c002:
+    quotes:
+    - exact: We confirmed that BACH1 and vitamin E act in an anti-scar role in primary fibroblasts and
+        animal models through the Wnt/β-catenin pathway. Overall, our results demonstrate that BACH1 has
+        an inhibitory effect on HS, and vitamin E attenuates the formation of HS by stabilizing BACH1.

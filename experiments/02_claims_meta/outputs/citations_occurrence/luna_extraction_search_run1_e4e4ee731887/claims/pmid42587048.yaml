@@ -1,0 +1,27 @@
+source:
+  citation: pmid42587048
+  local: sources/pmid42587048.txt
+  sha256: 8d6712e9f65cfee446bda294190a2896bd9ab5c42277a8fb1a6ed05ddbad60df
+  url: https://pubmed.ncbi.nlm.nih.gov/42587048/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: The results revealed that only C-reactive protein (CRP) emerged as a risk factor for MASLD,
+        mediating 14% of the association between BMI and MASLD.
+  c001:
+    quotes:
+    - exact: In two independent datasets, genetic proxies for enhanced APOE and GCKR activity were associated
+        with increased MASLD risk.
+  c002:
+    quotes:
+    - exact: In two independent datasets, genetic proxies for enhanced APOE and GCKR activity were associated
+        with increased MASLD risk.
+  c003:
+    quotes:
+    - exact: Blood APOE and GCKR protein levels demonstrated significant MR associations with MASLD and
+        strong colocalization.
+  c004:
+    quotes:
+    - exact: Blood APOE and GCKR protein levels demonstrated significant MR associations with MASLD and
+        strong colocalization.

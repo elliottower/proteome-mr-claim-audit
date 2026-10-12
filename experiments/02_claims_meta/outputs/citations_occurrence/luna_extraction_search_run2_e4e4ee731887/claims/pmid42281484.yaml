@@ -1,0 +1,33 @@
+source:
+  citation: pmid42281484
+  local: sources/pmid42281484.txt
+  sha256: c418e7e9ac9bb21e168ef9982de7363f9cb3bacd4872c023f9ca08e63b2fd316
+  url: https://pubmed.ncbi.nlm.nih.gov/42281484/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: 'Cox regression identified 92 plasma proteins significantly associated with BPH risk (false
+        discovery rate <0.05). Extreme Gradient Boosting model prioritised a three-protein signature:
+        TSPAN1 (hazard ratio (HR) = 1.24) and KLK3 (HR = 1.34) as risk factors, and EDA2R (HR = 0.83)
+        as a protective factor.'
+  c001:
+    quotes:
+    - exact: 'Cox regression identified 92 plasma proteins significantly associated with BPH risk (false
+        discovery rate <0.05). Extreme Gradient Boosting model prioritised a three-protein signature:
+        TSPAN1 (hazard ratio (HR) = 1.24) and KLK3 (HR = 1.34) as risk factors, and EDA2R (HR = 0.83)
+        as a protective factor.'
+  c002:
+    quotes:
+    - exact: 'Cox regression identified 92 plasma proteins significantly associated with BPH risk (false
+        discovery rate <0.05). Extreme Gradient Boosting model prioritised a three-protein signature:
+        TSPAN1 (hazard ratio (HR) = 1.24) and KLK3 (HR = 1.34) as risk factors, and EDA2R (HR = 0.83)
+        as a protective factor.'
+  c003:
+    quotes:
+    - exact: As revealed by Mendelian randomisation, TSPAN1 and KLK3 were causally associated with incident
+        BPH.
+  c004:
+    quotes:
+    - exact: As revealed by Mendelian randomisation, TSPAN1 and KLK3 were causally associated with incident
+        BPH.

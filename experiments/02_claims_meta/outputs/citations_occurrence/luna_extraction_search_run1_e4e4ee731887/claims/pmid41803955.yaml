@@ -1,0 +1,11 @@
+source:
+  citation: pmid41803955
+  local: sources/pmid41803955.txt
+  sha256: e9ca939112fb6d6f1b764b44b5c154c2ea5d55be74cdba6c1f5b81a81343f111
+  url: https://pubmed.ncbi.nlm.nih.gov/41803955/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: Genetically predicted upregulation of SLC9A1 expression (OR = 7.25, P = 0.02) and RPS6KA1
+        protein abundance (OR = 2.82, P = 0.01) was causally associated with increased KD risk.

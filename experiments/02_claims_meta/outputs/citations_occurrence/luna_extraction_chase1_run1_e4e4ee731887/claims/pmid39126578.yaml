@@ -1,0 +1,14 @@
+source:
+  citation: pmid39126578
+  local: sources/pmid39126578.txt
+  sha256: 7458e90fa1fce2d6a50faef676a8129b2608ecce588a08c03d46f1b529479cb5
+  url: https://pubmed.ncbi.nlm.nih.gov/39126578/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: 'Four biomarkers were identified as having significant associations with SLE risk: 1-palmitoyl-2-arachidonoyl-GPI
+        levels [odds ratio (OR), 1.379; 95% confidence interval (CI), 1.180 to 1.613; FDR, 0.046], IL-17A
+        levels (OR, 2.197; 95% CI, 1.412 to 3.418; FDR, 0.044), N-acetyl-aspartyl-glutamate (NAAG) levels
+        (OR, 0.882; 95% CI, 0.831 to 0.936; FDR, 0.030), and ribitol levels (OR, 0.743; 95% CI, 0.644
+        to 0.857; FDR, 0.012).'

@@ -1,0 +1,15 @@
+source:
+  citation: pmid41053817
+  local: sources/pmid41053817.txt
+  sha256: 09c8a2f4b6916810942d118815dea0f2f4f9be100cad8523069f479b552fc3ad
+  url: https://pubmed.ncbi.nlm.nih.gov/41053817/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: C4BPA, a complement-regulatory macromolecule, emerged as a risk factor for NSCLC across multiple
+        MR models, with consistent findings validated at both transcriptomic and proteomic levels.
+  c002:
+    quotes:
+    - exact: C4BPA expression was shown to promote NSCLC progression through the inflammatory chemokine
+        CCL8 signaling axis.

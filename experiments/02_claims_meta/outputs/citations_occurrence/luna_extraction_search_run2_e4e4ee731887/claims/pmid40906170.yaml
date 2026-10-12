@@ -1,0 +1,19 @@
+source:
+  citation: pmid40906170
+  local: sources/pmid40906170.txt
+  sha256: 4d0bca87de0c46ecddcbf04f594ab227463437bfee3adf6c013a82f165098b87
+  url: https://pubmed.ncbi.nlm.nih.gov/40906170/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: Mendelian randomization analysis identified NT5E and 80 other plasma proteins as being causally
+        associated with myocarditis.
+  c001:
+    quotes:
+    - exact: The expression of Arg-1, a marker of M2 macrophages, decreased upon NT5E knockdown, suggesting
+        that NT5E is involved in the Reg3β-mediated polarization of macrophages to the M2 phenotype.
+  c002:
+    quotes:
+    - exact: The expression of Arg-1, a marker of M2 macrophages, decreased upon NT5E knockdown, suggesting
+        that NT5E is involved in the Reg3β-mediated polarization of macrophages to the M2 phenotype.

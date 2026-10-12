@@ -1,0 +1,29 @@
+source:
+  citation: pmid42361942
+  local: sources/pmid42361942.txt
+  sha256: ba0ff649541ea6edae3e3a2d2c883bd133515b32a4f0f48c079f3cbc8d299dc5
+  url: https://pubmed.ncbi.nlm.nih.gov/42361942/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: First, we performed a proteome-wide Mendelian randomization analysis to investigate causal
+        relationships between plasma proteins and atherosclerosis risk, utilizing GWAS data from FinnGen
+        R10 and plasma protein data from the UK Biobank. Integrating Bayesian colocalization and single-cell
+        expression profiling, we identified FES as a potential therapeutic target for atherosclerosis.
+  c001:
+    quotes:
+    - exact: Notably, intravenous delivery of recombinant adeno-associated virus (rAAV)-mediated FES overexpression
+        significantly reduced inflammatory responses and lipid deposition in atherosclerotic plaques.
+  c002:
+    quotes:
+    - exact: Notably, intravenous delivery of recombinant adeno-associated virus (rAAV)-mediated FES overexpression
+        significantly reduced inflammatory responses and lipid deposition in atherosclerotic plaques.
+  c003:
+    quotes:
+    - exact: Furthermore, we observed that FES increases Arg1 expression by activating the transcription
+        factor PU.1 and promoting its nuclear translocation.
+  c004:
+    quotes:
+    - exact: Furthermore, we observed that FES increases Arg1 expression by activating the transcription
+        factor PU.1 and promoting its nuclear translocation.

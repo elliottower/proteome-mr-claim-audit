@@ -1,0 +1,20 @@
+source:
+  citation: pmid38599098
+  local: sources/pmid38599098.txt
+  sha256: 5a997e094a45220207d483e5ff8b82e74ad77e9e599166ddcd4a29eb30507876
+  url: https://pubmed.ncbi.nlm.nih.gov/38599098/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: 'In our study, a significant association was identified between an increase in neuraminidase
+        1 (NEU1) expression and the risk of IgAN. Specifically, a one standard deviation increase in NEU1
+        expression was associated with an odds ratio of 11.80 for the development of IgAN (95% confidence
+        interval: 4.03-34.54).'
+  c001:
+    quotes:
+    - exact: Colocalization analysis indicated a shared causal variant between NEU1 expression and IgAN.
+  c002:
+    quotes:
+    - exact: Furthermore, an increased influenza risk associated with NEU1 was observed, supporting the
+        therapeutic potential of NEU1 inhibitors for IgAN.

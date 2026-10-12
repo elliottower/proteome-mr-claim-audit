@@ -1,0 +1,12 @@
+source:
+  citation: pmid41261704
+  local: sources/pmid41261704.txt
+  sha256: 763e73908f401ef2c18100c00dd028a5b2cf2f5d35d7ab3b3d6731ece3c39a0a
+  url: https://pubmed.ncbi.nlm.nih.gov/41261704/
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: Among them, the mQTL, eQTL, and pQTL of SPATA20 (cg22450693) were all positively correlated
+        (p_HEIDI > .05, p_SMR < .05, p_TSMR < .05). In addition, the SMR results between eQTLs and SLE
+        in exposed skin tissues verified that SPATA20 is a protective factor against SLE.

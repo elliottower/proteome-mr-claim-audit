@@ -1,0 +1,127 @@
+{
+ "extraction": {
+  "file": "sol_extraction_chase1_repeat_0b97103cd7a4.jsonl",
+  "sha256": "a18bf31772550088bb031bcffe5f07f595730f289e2aa76f07100708fa648e6d"
+ },
+ "abstracts_sha256": "f41441bfaf7a47a8e9102b080d0b831ca6033eab3b396009f17359d758a591c4",
+ "part_rows": 40,
+ "written_utc": "20261011T183934Z",
+ "citations_commit": "fb89bb6104be091585f87c8d1a35aa2fd2c44b74",
+ "repository": "https://github.com/elliottower/reproducible-science",
+ "command_per_part": [
+  "python",
+  "scripts/verify_spans_occurrence.py",
+  "--citations-commit",
+  "fb89bb6104be091585f87c8d1a35aa2fd2c44b74",
+  "--extraction",
+  "outputs/parsed/<part>.jsonl",
+  "--abstracts",
+  "outputs/parsed/<part>.abstracts.jsonl"
+ ],
+ "parts": [
+  {
+   "part": "sol_extraction_chase1_repeat_0b97103cd7a4.shard0000",
+   "rows_sha256": "a18bf31772550088bb031bcffe5f07f595730f289e2aa76f07100708fa648e6d",
+   "abstracts_sha256": "f41441bfaf7a47a8e9102b080d0b831ca6033eab3b396009f17359d758a591c4",
+   "files": {
+    "citations_verify.txt": {
+     "bytes": 202,
+     "sha256": "8fe251898aca726f417977b05497daee7ff920b391456f31e37996d3969827d9"
+    },
+    "claims_tree.tar": {
+     "bytes": 184320,
+     "sha256": "71a3128ea3c2924e4d18439508d228c9b5249004628317a05b219b87197e2176"
+    },
+    "span_occurrences.json": {
+     "bytes": 620,
+     "sha256": "bb6ebd17335920367b4567d40007fa693c327458f5c1ed84285d2d3c6b477c77"
+    },
+    "span_summary.json": {
+     "bytes": 389,
+     "sha256": "0b7f48e49a15afed66933bf964f8488db1742a0b47be1fced8f02a5c6adf7c3d"
+    },
+    "spans.jsonl": {
+     "bytes": 59923,
+     "sha256": "084246e45904209fb90d5e67598d840df1b0f39aa6eefcf4a697da697b7eafe1"
+    }
+   },
+   "finished_utc": "20261011T183931Z"
+  }
+ ],
+ "joined": {
+  "citations_verify.txt": {
+   "bytes": 192,
+   "sha256": "f9a5c2294eb87944654aa91118fda265cb3d7b190beab0b236e525dcac83c0ef"
+  },
+  "claims_tree.tar": {
+   "bytes": 184320,
+   "sha256": "c83fe64d0754dc9945abdc0d88139dfe6ce8731d00576824f8b09609993edebc"
+  },
+  "span_occurrences.json": {
+   "bytes": 620,
+   "sha256": "bb6ebd17335920367b4567d40007fa693c327458f5c1ed84285d2d3c6b477c77"
+  },
+  "span_summary.json": {
+   "bytes": 379,
+   "sha256": "48173b4cc7ed4630e4fa017c42c710cae4fd3f8048acf00f463b746125fb7be5"
+  },
+  "spans.jsonl": {
+   "bytes": 59923,
+   "sha256": "084246e45904209fb90d5e67598d840df1b0f39aa6eefcf4a697da697b7eafe1"
+  }
+ },
+ "environment": {
+  "python": "3.12.10",
+  "platform": "Linux-4.19.0-gvisor-x86_64-with-glibc2.36",
+  "image": "modal debian_slim, python 3.12",
+  "citations": {
+   "version": "0.5.1",
+   "direct_url": {
+    "subdirectory": "packages/citations",
+    "url": "https://github.com/elliottower/reproducible-science",
+    "vcs_info": {
+     "commit_id": "fb89bb6104be091585f87c8d1a35aa2fd2c44b74",
+     "requested_revision": "fb89bb6104be091585f87c8d1a35aa2fd2c44b74",
+     "vcs": "git"
+    }
+   }
+  },
+  "packages": {
+   "aiohappyeyeballs": "2.6.1",
+   "aiohttp": "3.12.7",
+   "aiosignal": "1.3.2",
+   "annotated-types": "0.8.0",
+   "attrs": "25.3.0",
+   "cbor2": "5.7.0",
+   "certifi": "2025.4.26",
+   "citations": "0.5.1",
+   "frozenlist": "1.6.0",
+   "grpclib": "0.4.8",
+   "h2": "4.2.0",
+   "hpack": "4.1.0",
+   "hyperframe": "6.1.0",
+   "idna": "3.10",
+   "multidict": "6.4.4",
+   "pip": "25.1.1",
+   "platformdirs": "4.12.3",
+   "propcache": "0.3.1",
+   "protobuf": "6.31.1",
+   "provenance-core": "0.5.1",
+   "pydantic": "2.13.5",
+   "pydantic_core": "2.46.5",
+   "PyYAML": "6.0.3",
+   "typing-inspection": "0.4.4",
+   "typing_extensions": "4.13.2",
+   "uv": "0.7.19",
+   "wheel": "0.45.1",
+   "yarl": "1.20.0"
+  },
+  "modal": "1.4.3",
+  "scripts_sha256": {
+   "scripts/verify_spans_occurrence.py": "bd99dda3e18fa9747731d9ec2f09479267a62cbf86ea111df640bf470f15a8d3",
+   "scripts/span_shards.py": "cc010308136078f54977121fdcea530f7d1c4dd1baac37fded8ff5d1bddbac56",
+   "scripts/modal_verify_spans_occurrence.py": "c3f1b8808cdc6f4d4a1ab5cc47d76f88a99913bd737b0ab7925a3966e391087b"
+  }
+ },
+ "volume_folder": "/vol/02_claims_meta/amendment02/span_step/sol_extraction_chase1_repeat_0b97103cd7a4"
+}

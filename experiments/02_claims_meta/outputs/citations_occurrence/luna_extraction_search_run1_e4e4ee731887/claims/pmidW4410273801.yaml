@@ -1,0 +1,19 @@
+source:
+  citation: pmidW4410273801
+  local: sources/pmidW4410273801.txt
+  sha256: 6ebc17e589d28a9da25f1f7173c53bff3c65e1b7b2514c05a92cca6671e69466
+  url: https://openalex.org/W4410273801
+  note: abstract text exactly as sent to the extractor
+claims:
+  c000:
+    quotes:
+    - exact: In contrast to previous expression QTL evidence, our study suggested that ITGAV inhibition
+        could reduce FEV1/FVC; we note that reduced lung function was also seen in a recent trial of an
+        ITGAV inhibitor (NCT01371305).
+  c001:
+    quotes:
+    - exact: Of 10 proteins previously implicated by reported lung function signals, surfactant protein
+        D (SFTPD) has been highlighted in previous respiratory MR analyses and variants in SFTPD have
+        been previously reported to be associated with emphysema; our PheWAS suggested that this variant
+        has a relatively specific effect on lung function as it was associated with no non-respiratory
+        traits at a FDR<1%.
