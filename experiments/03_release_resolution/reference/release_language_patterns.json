@@ -1,0 +1,18 @@
+{
+ "what": "the frozen keep list of the supplement cut (draft amendment 1 of the release-resolution plan): a line of a supplement that matches any pattern here, or holds a dataset-dictionary name or alias, or matches a C1 scanner identifier pattern (reference/c1_scanner_patterns_v2.json), is always kept, with its table header once. The rule 'r with a number adjacent to a dataset name' is covered by the dictionary names and aliases, which keep any such line already",
+ "patterns": [
+  {"name": "release_word", "pattern": "(?i)\\brelease[sd]?\\b"},
+  {"name": "version_word", "pattern": "(?i)\\bversions?\\b"},
+  {"name": "freeze_word", "pattern": "(?i)\\b(?:data\\s+)?freezes?\\b"},
+  {"name": "round_word", "pattern": "(?i)\\brounds?\\b"},
+  {"name": "build_word", "pattern": "(?i)\\bbuilds?\\b"},
+  {"name": "r_or_round_number", "pattern": "(?i)\\b(?:R|round)\\s*-?\\s*\\d{1,2}\\b"},
+  {"name": "v_number", "pattern": "(?i)\\bv\\s*\\d+(?:\\.\\d+)*\\b"},
+  {"name": "summary_statistics", "pattern": "(?i)\\bsummary[\\s-]+(?:statistics|stats|level|data)\\b"},
+  {"name": "gwas_catalog", "pattern": "(?i)\\bGWAS\\s+catalog(?:ue)?\\b"},
+  {"name": "accession_word", "pattern": "(?i)\\baccessions?\\b"},
+  {"name": "downloaded", "pattern": "(?i)\\bdownload(?:ed|able)?\\b"},
+  {"name": "obtained_from", "pattern": "(?i)\\bobtained\\s+from\\b"},
+  {"name": "data_availability", "pattern": "(?i)\\bdata\\s+availability\\b"}
+ ]
+}
