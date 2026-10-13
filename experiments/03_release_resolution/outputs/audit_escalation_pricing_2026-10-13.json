@@ -1,0 +1,34 @@
+{
+ "records_with_a_readable_supplement": 136,
+ "audit_size": 30,
+ "1500": {
+  "audit_upper_bound_usd": 366.37,
+  "audit_expected_usd": 86.8,
+  "escalation_all_records_usd": 393.51,
+  "mean_per_record_usd": 2.8935,
+  "most_expensive_record_usd": 94.09
+ },
+ "3000": {
+  "audit_upper_bound_usd": 384.27,
+  "audit_expected_usd": 91.69,
+  "escalation_all_records_usd": 415.65,
+  "mean_per_record_usd": 3.0562,
+  "most_expensive_record_usd": 99.17
+ },
+ "6000": {
+  "audit_upper_bound_usd": 419.85,
+  "audit_expected_usd": 100.94,
+  "escalation_all_records_usd": 457.59,
+  "mean_per_record_usd": 3.3646,
+  "most_expensive_record_usd": 109.31
+ },
+ "diagnostic_400_chunks_usd": 9.03,
+ "preflight_ratios": {
+  "claude-sonnet-5-5": 1.98,
+  "gpt-6.1-sol": 3.11
+ },
+ "inputs": {
+  "staged": "outputs/staged_design_pricing_2026-10-13.json",
+  "cut": "outputs/cut_v2_2026-10-13.json"
+ }
+}
