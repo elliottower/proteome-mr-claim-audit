@@ -1,0 +1,19 @@
+{
+ "stage": "sa1",
+ "packet": "36759259.1",
+ "packets": 266,
+ "claude-sonnet-5-5": {
+  "status": 200,
+  "input_tokens": 46747,
+  "error": null
+ },
+ "gpt-6.1-sol": {
+  "status": 200,
+  "input_tokens": 29730,
+  "error": null
+ },
+ "characters": {
+  "fixed_prompt": 74562,
+  "packet": 18011
+ }
+}
