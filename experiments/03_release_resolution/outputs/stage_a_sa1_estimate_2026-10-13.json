@@ -1,0 +1,148 @@
+{
+ "fixed_prompt_characters": 74562,
+ "ceiling_usd": 100.0,
+ "stages": {
+  "sa1": {
+   "requests_per_model": 266,
+   "packet_characters": 1742796,
+   "cost": {
+    "preflight_ratios": {
+     "1500": {
+      "claude-sonnet-5-5": 7.84,
+      "gpt-6.1-sol": 5.79,
+      "total_usd": 13.63
+     },
+     "3000": {
+      "claude-sonnet-5-5": 11.83,
+      "gpt-6.1-sol": 9.78,
+      "total_usd": 21.61
+     },
+     "6000": {
+      "claude-sonnet-5-5": 19.81,
+      "gpt-6.1-sol": 17.76,
+      "total_usd": 37.57
+     }
+    },
+    "pooled_full_text_ratios_of_the_plan": {
+     "1500": {
+      "claude-sonnet-5-5": 6.9,
+      "gpt-6.1-sol": 5.3,
+      "total_usd": 12.2
+     },
+     "3000": {
+      "claude-sonnet-5-5": 10.89,
+      "gpt-6.1-sol": 9.29,
+      "total_usd": 20.18
+     },
+     "6000": {
+      "claude-sonnet-5-5": 18.87,
+      "gpt-6.1-sol": 17.27,
+      "total_usd": 36.14
+     }
+    }
+   },
+   "sum_of_reservation_bounds_usd": {
+    "claude-sonnet-5-5": 364.45,
+    "gpt-6.1-sol": 355.89
+   }
+  },
+  "stage_a": {
+   "requests_per_model": 266,
+   "packet_characters": 10697391,
+   "cost": {
+    "preflight_ratios": {
+     "1500": {
+      "claude-sonnet-5-5": 16.89,
+      "gpt-6.1-sol": 11.55,
+      "total_usd": 28.44
+     },
+     "3000": {
+      "claude-sonnet-5-5": 20.88,
+      "gpt-6.1-sol": 15.54,
+      "total_usd": 36.42
+     },
+     "6000": {
+      "claude-sonnet-5-5": 28.86,
+      "gpt-6.1-sol": 23.52,
+      "total_usd": 52.38
+     }
+    },
+    "pooled_full_text_ratios_of_the_plan": {
+     "1500": {
+      "claude-sonnet-5-5": 13.74,
+      "gpt-6.1-sol": 9.49,
+      "total_usd": 23.23
+     },
+     "3000": {
+      "claude-sonnet-5-5": 17.73,
+      "gpt-6.1-sol": 13.48,
+      "total_usd": 31.21
+     },
+     "6000": {
+      "claude-sonnet-5-5": 25.71,
+      "gpt-6.1-sol": 21.46,
+      "total_usd": 47.17
+     }
+    }
+   },
+   "sum_of_reservation_bounds_usd": {
+    "claude-sonnet-5-5": 374.4,
+    "gpt-6.1-sol": 362.29
+   }
+  },
+  "manifest": {
+   "requests_per_model": 31,
+   "packet_characters": 109623,
+   "cost": {
+    "preflight_ratios": {
+     "1500": {
+      "claude-sonnet-5-5": 0.9,
+      "gpt-6.1-sol": 0.66,
+      "total_usd": 1.56
+     },
+     "3000": {
+      "claude-sonnet-5-5": 1.36,
+      "gpt-6.1-sol": 1.12,
+      "total_usd": 2.48
+     },
+     "6000": {
+      "claude-sonnet-5-5": 2.29,
+      "gpt-6.1-sol": 2.06,
+      "total_usd": 4.35
+     }
+    },
+    "pooled_full_text_ratios_of_the_plan": {
+     "1500": {
+      "claude-sonnet-5-5": 0.79,
+      "gpt-6.1-sol": 0.6,
+      "total_usd": 1.39
+     },
+     "3000": {
+      "claude-sonnet-5-5": 1.26,
+      "gpt-6.1-sol": 1.06,
+      "total_usd": 2.32
+     },
+     "6000": {
+      "claude-sonnet-5-5": 2.19,
+      "gpt-6.1-sol": 2.0,
+      "total_usd": 4.19
+     }
+    }
+   },
+   "sum_of_reservation_bounds_usd": {
+    "claude-sonnet-5-5": 42.37,
+    "gpt-6.1-sol": 41.41
+   }
+  }
+ },
+ "total_preflight_ratios": {
+  "1500": 43.63,
+  "3000": 60.51,
+  "6000": 94.3
+ },
+ "total_pooled_full_text_ratios_of_the_plan": {
+  "1500": 36.82,
+  "3000": 53.71,
+  "6000": 87.5
+ }
+}
