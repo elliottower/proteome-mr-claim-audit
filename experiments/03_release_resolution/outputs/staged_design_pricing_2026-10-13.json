@@ -1,0 +1,4450 @@
+{
+ "fixed_prompt_characters": 74562,
+ "c1_candidate_triples": {
+  "total": 2629,
+  "full_text_only": 63,
+  "supplement_only": 2559,
+  "both": 7
+ },
+ "c1_matches_by_route": {
+  "R1": 106,
+  "R3": 14,
+  "R2": 3283
+ },
+ "stratified_draw": {
+  "rule": "one per (record, identifier) in stage A text (R1, R3), seeded shuffle (seed 20261011), at most 5 per record, at most 150",
+  "drawn": 70,
+  "minimum": 50,
+  "records": 51,
+  "by_side": {
+   "outcome": 64,
+   "pqtl": 6
+  },
+  "by_identifier_type": {
+   "opengwas": 22,
+   "FinnGen": 39,
+   "doi": 4,
+   "gwas_catalog": 3,
+   "pmid": 1,
+   "Neale lab": 1
+  },
+  "by_kind": {
+   "accession": 25,
+   "release": 40,
+   "source_identifier": 5
+  },
+  "expected_rows": 18,
+  "per_record": {
+   "39392298": 3,
+   "37516812": 1,
+   "40052860": 1,
+   "39994764": 4,
+   "39592890": 1,
+   "36759259": 4,
+   "40050982": 2,
+   "40026415": 1,
+   "41200820": 1,
+   "39911230": 1,
+   "39068416": 1,
+   "40533710": 2,
+   "40444654": 2,
+   "40453312": 2,
+   "39824903": 2,
+   "39856218": 3,
+   "38976909": 1,
+   "PPR670277": 1,
+   "41261649": 1,
+   "41254737": 1,
+   "39802509": 1,
+   "PPR686069": 1,
+   "40450304": 1,
+   "PPR640820": 1,
+   "38989470": 1,
+   "PPR1027188": 1,
+   "40108295": 1,
+   "39823480": 1,
+   "39040677": 1,
+   "41180196": 1,
+   "40426943": 1,
+   "39386869": 1,
+   "39408566": 1,
+   "39010723": 3,
+   "38689297": 1,
+   "39025905": 1,
+   "41239582": 1,
+   "34819519": 2,
+   "41286868": 1,
+   "38637810": 1,
+   "40596960": 1,
+   "PPR914754": 2,
+   "40193678": 1,
+   "40893937": 1,
+   "40420090": 1,
+   "39397782": 1,
+   "37996402": 1,
+   "40269081": 1,
+   "41494198": 1,
+   "40327005": 1,
+   "41323472": 1
+  },
+  "drawn_controls": [
+   {
+    "record_id": "39392298",
+    "source_key": "R1:1:eae1503ac7bad8aa",
+    "unit_id": "R1:1:eae1503ac7bad8aa:19:0",
+    "kind": "accession",
+    "type": "opengwas",
+    "identifier": "ieu-b-2",
+    "expected_row": "IGAP (Kunkle 2019)",
+    "side": "outcome"
+   },
+   {
+    "record_id": "37516812",
+    "source_key": "R1:1:7f57411fb63c2f34",
+    "unit_id": "R1:1:7f57411fb63c2f34:8:3",
+    "kind": "accession",
+    "type": "opengwas",
+    "identifier": "ieu-b-2",
+    "expected_row": "IGAP (Kunkle 2019)",
+    "side": "outcome"
+   },
+   {
+    "record_id": "40052860",
+    "source_key": "R1:1:90763ddb29551b65",
+    "unit_id": "R1:1:90763ddb29551b65:29:0",
+    "kind": "release",
+    "type": "FinnGen",
+    "identifier": "FinnGen cohort (R9",
+    "expected_row": "FinnGen R9",
+    "side": "outcome"
+   },
+   {
+    "record_id": "39994764",
+    "source_key": "R1:1:60e8de35336cff24",
+    "unit_id": "R1:1:60e8de35336cff24:8:0",
+    "kind": "accession",
+    "type": "opengwas",
+    "identifier": "ieu-b-85",
+    "expected_row": "PRACTICAL/ELLIPSE prostate cancer (Schumacher 2018)",
+    "side": "outcome"
+   },
+   {
+    "record_id": "39592890",
+    "source_key": "R1:1:bceae455548d8cba",
+    "unit_id": "R1:1:bceae455548d8cba:13:1",
+    "kind": "release",
+    "type": "FinnGen",
+    "identifier": "FinnGen R9",
+    "expected_row": "FinnGen R9",
+    "side": "outcome"
+   },
+   {
+    "record_id": "36759259",
+    "source_key": "R3:1:0203acd1d18a32cf",
+    "unit_id": "R3:1:0203acd1d18a32cf:4584:0",
+    "kind": "source_identifier",
+    "type": "doi",
+    "identifier": "10.1126/science.aaq1327",
+    "expected_row": "AGES Reykjavik (Emilsson 2018)",
+    "side": "pqtl"
+   },
+   {
+    "record_id": "40050982",
+    "source_key": "R1:1:a3393e16280aca26",
+    "unit_id": "R1:1:a3393e16280aca26:28:0",
+    "kind": "release",
+    "type": "FinnGen",
+    "identifier": "FinnGen_R11",
+    "expected_row": "FinnGen R11",
+    "side": "outcome"
+   },
+   {
+    "record_id": "39392298",
+    "source_key": "R1:1:eae1503ac7bad8aa",
+    "unit_id": "R1:1:eae1503ac7bad8aa:27:0",
+    "kind": "accession",
+    "type": "opengwas",
+    "identifier": "finn-b-AD_LO",
+    "expected_row": "FinnGen R5",
+    "side": "outcome"
+   },
+   {
+    "record_id": "40026415",
+    "source_key": "R1:1:ce8df94c326ec1cf",
+    "unit_id": "R1:1:ce8df94c326ec1cf:14:0",
+    "kind": "accession",
+    "type": "opengwas",
+    "identifier": "finn-b-I9_VTE",
+    "expected_row": "FinnGen R5",
+    "side": "outcome"
+   },
+   {
+    "record_id": "41200820",
+    "source_key": "R1:1:37eeeb4d29025ce8",
+    "unit_id": "R1:1:37eeeb4d29025ce8:15:5",
+    "kind": "release",
+    "type": "FinnGen",
+    "identifier": "FinnGen R10",
+    "expected_row": "FinnGen R10",
+    "side": "outcome"
+   },
+   {
+    "record_id": "39911230",
+    "source_key": "R1:1:4ad10bb989c505c0",
+    "unit_id": "R1:1:4ad10bb989c505c0:16:1",
+    "kind": "release",
+    "type": "FinnGen",
+    "identifier": "FinnGen cohort (R9",
+    "expected_row": "FinnGen R9",
+    "side": "outcome"
+   },
+   {
+    "record_id": "39068416",
+    "source_key": "R1:1:b109d3a01f8bacbf",
+    "unit_id": "R1:1:b109d3a01f8bacbf:16:0",
+    "kind": "release",
+    "type": "FinnGen",
+    "identifier": "FinnGen project’s R9",
+    "expected_row": "FinnGen R9",
+    "side": "outcome"
+   },
+   {
+    "record_id": "39994764",
+    "source_key": "R1:1:60e8de35336cff24",
+    "unit_id": "R1:1:60e8de35336cff24:13:0",
+    "kind": "release",
+    "type": "FinnGen",
+    "identifier": "FinnGen release 8",
+    "expected_row": "FinnGen R8",
+    "side": "outcome"
+   },
+   {
+    "record_id": "40533710",
+    "source_key": "R1:1:d874f7ae9e3c8bdc",
+    "unit_id": "R1:1:d874f7ae9e3c8bdc:6:7",
+    "kind": "release",
+    "type": "FinnGen",
+    "identifier": "FinnGen R10",
+    "expected_row": "FinnGen R10",
+    "side": "outcome"
+   },
+   {
+    "record_id": "40444654",
+    "source_key": "R1:1:a58206bafe6d0236",
+    "unit_id": "R1:1:a58206bafe6d0236:4:4",
+    "kind": "release",
+    "type": "FinnGen",
+    "identifier": "FinnGen R10",
+    "expected_row": "FinnGen R10",
+    "side": "outcome"
+   },
+   {
+    "record_id": "40453312",
+    "source_key": "R1:1:9c5b88e494be3631",
+    "unit_id": "R1:1:9c5b88e494be3631:12:0",
+    "kind": "accession",
+    "type": "opengwas",
+    "identifier": "ukb-b-15541",
+    "expected_row": "MRC-IEU UK Biobank GWAS pipeline (OpenGWAS ukb-b)",
+    "side": "outcome"
+   },
+   {
+    "record_id": "40453312",
+    "source_key": "R1:1:9c5b88e494be3631",
+    "unit_id": "R1:1:9c5b88e494be3631:13:0",
+    "kind": "accession",
+    "type": "opengwas",
+    "identifier": "ukb-b-17796",
+    "expected_row": "MRC-IEU UK Biobank GWAS pipeline (OpenGWAS ukb-b)",
+    "side": "outcome"
+   },
+   {
+    "record_id": "39824903",
+    "source_key": "R1:1:5d2935f29c9d2bb0",
+    "unit_id": "R1:1:5d2935f29c9d2bb0:14:0",
+    "kind": "release",
+    "type": "FinnGen",
+    "identifier": "FinnGen study (R10",
+    "expected_row": "FinnGen R10",
+    "side": "outcome"
+   },
+   {
+    "record_id": "39856218",
+    "source_key": "R1:1:98ff314d38a229db",
+    "unit_id": "R1:1:98ff314d38a229db:74:1",
+    "kind": "accession",
+    "type": "opengwas",
+    "identifier": "ukb-b-8909",
+    "expected_row": "MRC-IEU UK Biobank GWAS pipeline (OpenGWAS ukb-b)",
+    "side": "outcome"
+   },
+   {
+    "record_id": "38976909",
+    "source_key": "R1:1:3e0b1340df23956c",
+    "unit_id": "R1:1:3e0b1340df23956c:23:4",
+    "kind": "accession",
+    "type": "opengwas",
+    "identifier": "ukb-b-18700",
+    "expected_row": "MRC-IEU UK Biobank GWAS pipeline (OpenGWAS ukb-b)",
+    "side": "outcome"
+   },
+   {
+    "record_id": "PPR670277",
+    "source_key": "R3:1:874eff1eefe3f501",
+    "unit_id": "R3:1:874eff1eefe3f501:561:0",
+    "kind": "release",
+    "type": "FinnGen",
+    "identifier": "FinnGen (release 5",
+    "expected_row": "FinnGen R5",
+    "side": "outcome"
+   },
+   {
+    "record_id": "41261649",
+    "source_key": "R1:1:fa7c2ceafc5e30e9",
+    "unit_id": "R1:1:fa7c2ceafc5e30e9:10:0",
+    "kind": "release",
+    "type": "FinnGen",
+    "identifier": "FinnGen consortium (Round 9",
+    "expected_row": "FinnGen R9",
+    "side": "outcome"
+   },
+   {
+    "record_id": "41254737",
+    "source_key": "R1:1:6aeec7b017400464",
+    "unit_id": "R1:1:6aeec7b017400464:149:2",
+    "kind": "release",
+    "type": "FinnGen",
+    "identifier": "FinnGen R11",
+    "expected_row": "FinnGen R11",
+    "side": "outcome"
+   },
+   {
+    "record_id": "39802509",
+    "source_key": "R1:1:aea9b06686c64743",
+    "unit_id": "R1:1:aea9b06686c64743:8:0",
+    "kind": "release",
+    "type": "FinnGen",
+    "identifier": "FinnGen R10",
+    "expected_row": "FinnGen R10",
+    "side": "outcome"
+   },
+   {
+    "record_id": "PPR686069",
+    "source_key": "R3:1:955c90912411a9ad",
+    "unit_id": "R3:1:955c90912411a9ad:511:0",
+    "kind": "release",
+    "type": "FinnGen",
+    "identifier": "FinnGen (release 5",
+    "expected_row": "FinnGen R5",
+    "side": "outcome"
+   },
+   {
+    "record_id": "40450304",
+    "source_key": "R1:1:cf3af315a69c0c44",
+    "unit_id": "R1:1:cf3af315a69c0c44:11:0",
+    "kind": "release",
+    "type": "FinnGen",
+    "identifier": "FinnGen study (Release 10",
+    "expected_row": "FinnGen R10",
+    "side": "outcome"
+   },
+   {
+    "record_id": "36759259",
+    "source_key": "R3:1:0203acd1d18a32cf",
+    "unit_id": "R3:1:0203acd1d18a32cf:4582:0",
+    "kind": "source_identifier",
+    "type": "doi",
+    "identifier": "10.1038/s41586-018-0175-2",
+    "expected_row": "INTERVAL SomaScan (Sun 2018)",
+    "side": "pqtl"
+   },
+   {
+    "record_id": "PPR640820",
+    "source_key": "R3:1:ad80e706dd4c73b2",
+    "unit_id": "R3:1:ad80e706dd4c73b2:236:0",
+    "kind": "release",
+    "type": "FinnGen",
+    "identifier": "FinnGen R8",
+    "expected_row": "FinnGen R8",
+    "side": "outcome"
+   },
+   {
+    "record_id": "38989470",
+    "source_key": "R1:1:c6b4bf6da1939313",
+    "unit_id": "R1:1:c6b4bf6da1939313:48:0",
+    "kind": "accession",
+    "type": "gwas_catalog",
+    "identifier": "GCST90132315",
+    "expected_row": "CAD GWAS cross-ancestry with Biobank Japan (Aragam 2022)",
+    "side": "outcome"
+   },
+   {
+    "record_id": "39824903",
+    "source_key": "R1:1:5d2935f29c9d2bb0",
+    "unit_id": "R1:1:5d2935f29c9d2bb0:9:1",
+    "kind": "release",
+    "type": "FinnGen",
+    "identifier": "FinnGen (R10",
+    "expected_row": "FinnGen R10",
+    "side": "outcome"
+   },
+   {
+    "record_id": "PPR1027188",
+    "source_key": "R3:1:bf4422da953902a5",
+    "unit_id": "R3:1:bf4422da953902a5:280:0",
+    "kind": "accession",
+    "type": "opengwas",
+    "identifier": "ukb-b-20145",
+    "expected_row": "MRC-IEU UK Biobank GWAS pipeline (OpenGWAS ukb-b)",
+    "side": "outcome"
+   },
+   {
+    "record_id": "39392298",
+    "source_key": "R1:1:eae1503ac7bad8aa",
+    "unit_id": "R1:1:eae1503ac7bad8aa:27:0",
+    "kind": "accession",
+    "type": "opengwas",
+    "identifier": "finn-b-AD_EO",
+    "expected_row": "FinnGen R5",
+    "side": "outcome"
+   },
+   {
+    "record_id": "40108295",
+    "source_key": "R1:1:f39aced102e83aa3",
+    "unit_id": "R1:1:f39aced102e83aa3:12:2",
+    "kind": "release",
+    "type": "FinnGen",
+    "identifier": "finngen-public-data-r11",
+    "expected_row": "FinnGen R11",
+    "side": "outcome"
+   },
+   {
+    "record_id": "40533710",
+    "source_key": "R1:1:d874f7ae9e3c8bdc",
+    "unit_id": "R1:1:d874f7ae9e3c8bdc:48:0",
+    "kind": "release",
+    "type": "FinnGen",
+    "identifier": "FinnGen（https://r12",
+    "expected_row": "FinnGen R12",
+    "side": "outcome"
+   },
+   {
+    "record_id": "39823480",
+    "source_key": "R1:1:b7490d813ca21ed7",
+    "unit_id": "R1:1:b7490d813ca21ed7:82:1",
+    "kind": "accession",
+    "type": "opengwas",
+    "identifier": "ebi-a-GCST003156",
+    "expected_row": "SLE (Bentham 2015)",
+    "side": "outcome"
+   },
+   {
+    "record_id": "39040677",
+    "source_key": "R1:1:cb48cdb94bd48cfc",
+    "unit_id": "R1:1:cb48cdb94bd48cfc:6:4",
+    "kind": "release",
+    "type": "FinnGen",
+    "identifier": "FinnGen study R9",
+    "expected_row": "FinnGen R9",
+    "side": "outcome"
+   },
+   {
+    "record_id": "41180196",
+    "source_key": "R1:1:b072e831e164506b",
+    "unit_id": "R1:1:b072e831e164506b:3:1",
+    "kind": "release",
+    "type": "FinnGen",
+    "identifier": "FinnGen R11",
+    "expected_row": "FinnGen R11",
+    "side": "outcome"
+   },
+   {
+    "record_id": "40426943",
+    "source_key": "R1:1:d38fca35e1a36631",
+    "unit_id": "R1:1:d38fca35e1a36631:15:0",
+    "kind": "release",
+    "type": "FinnGen",
+    "identifier": "FinnGen Release 11",
+    "expected_row": "FinnGen R11",
+    "side": "outcome"
+   },
+   {
+    "record_id": "39386869",
+    "source_key": "R1:1:32f94d4640e0cccd",
+    "unit_id": "R1:1:32f94d4640e0cccd:15:1",
+    "kind": "release",
+    "type": "FinnGen",
+    "identifier": "FinnGen freeze 6",
+    "expected_row": "FinnGen R6",
+    "side": "outcome"
+   },
+   {
+    "record_id": "39856218",
+    "source_key": "R1:1:98ff314d38a229db",
+    "unit_id": "R1:1:98ff314d38a229db:123:1",
+    "kind": "accession",
+    "type": "opengwas",
+    "identifier": "ukb-b-13354",
+    "expected_row": "MRC-IEU UK Biobank GWAS pipeline (OpenGWAS ukb-b)",
+    "side": "outcome"
+   },
+   {
+    "record_id": "39408566",
+    "source_key": "R1:1:256a6fd84d3d3361",
+    "unit_id": "R1:1:256a6fd84d3d3361:85:1",
+    "kind": "accession",
+    "type": "opengwas",
+    "identifier": "ukb-b-6353",
+    "expected_row": "MRC-IEU UK Biobank GWAS pipeline (OpenGWAS ukb-b)",
+    "side": "outcome"
+   },
+   {
+    "record_id": "39010723",
+    "source_key": "R1:1:1eac34295e9a0069",
+    "unit_id": "R1:1:1eac34295e9a0069:26:0",
+    "kind": "source_identifier",
+    "type": "pmid",
+    "identifier": "PMID: 29875488",
+    "expected_row": "INTERVAL SomaScan (Sun 2018)",
+    "side": "pqtl"
+   },
+   {
+    "record_id": "38689297",
+    "source_key": "R1:1:87c70fdb8b14cb04",
+    "unit_id": "R1:1:87c70fdb8b14cb04:10:12",
+    "kind": "release",
+    "type": "FinnGen",
+    "identifier": "FinnGen R9",
+    "expected_row": "FinnGen R9",
+    "side": "outcome"
+   },
+   {
+    "record_id": "39025905",
+    "source_key": "R1:1:8aaadfedf01f7b6e",
+    "unit_id": "R1:1:8aaadfedf01f7b6e:100:0",
+    "kind": "release",
+    "type": "Neale lab",
+    "identifier": "Neale Lab UK Biobank GWAS round 2",
+    "expected_row": "Neale lab UK Biobank GWAS round 2",
+    "side": "outcome"
+   },
+   {
+    "record_id": "39010723",
+    "source_key": "R1:1:1eac34295e9a0069",
+    "unit_id": "R1:1:1eac34295e9a0069:24:0",
+    "kind": "accession",
+    "type": "opengwas",
+    "identifier": "ukb-b-14057",
+    "expected_row": "MRC-IEU UK Biobank GWAS pipeline (OpenGWAS ukb-b)",
+    "side": "outcome"
+   },
+   {
+    "record_id": "41239582",
+    "source_key": "R1:1:0426de29073b91d4",
+    "unit_id": "R1:1:0426de29073b91d4:14:2",
+    "kind": "accession",
+    "type": "opengwas",
+    "identifier": "ukb-d-I9_VTE",
+    "expected_row": "Neale lab UK Biobank GWAS round 2",
+    "side": "outcome"
+   },
+   {
+    "record_id": "34819519",
+    "source_key": "R1:1:2ad82d06383ff22a",
+    "unit_id": "R1:1:2ad82d06383ff22a:82:4",
+    "kind": "accession",
+    "type": "gwas_catalog",
+    "identifier": "GCST90012083",
+    "expected_row": "SCALLOP CVD-I (Folkersen 2020)",
+    "side": "pqtl"
+   },
+   {
+    "record_id": "41286868",
+    "source_key": "R1:1:6e44ae2052faa4f1",
+    "unit_id": "R1:1:6e44ae2052faa4f1:10:0",
+    "kind": "release",
+    "type": "FinnGen",
+    "identifier": "FinnGen consortium R10",
+    "expected_row": "FinnGen R10",
+    "side": "outcome"
+   },
+   {
+    "record_id": "38637810",
+    "source_key": "R1:1:208b52e4998f2694",
+    "unit_id": "R1:1:208b52e4998f2694:11:0",
+    "kind": "release",
+    "type": "FinnGen",
+    "identifier": "Finngen R9",
+    "expected_row": "FinnGen R9",
+    "side": "outcome"
+   },
+   {
+    "record_id": "39994764",
+    "source_key": "R1:1:60e8de35336cff24",
+    "unit_id": "R1:1:60e8de35336cff24:5:3",
+    "kind": "release",
+    "type": "FinnGen",
+    "identifier": "FinnGen Release 8",
+    "expected_row": "FinnGen R8",
+    "side": "outcome"
+   },
+   {
+    "record_id": "40050982",
+    "source_key": "R1:1:a3393e16280aca26",
+    "unit_id": "R1:1:a3393e16280aca26:9:4",
+    "kind": "release",
+    "type": "FinnGen",
+    "identifier": "FinnGen Release 11",
+    "expected_row": "FinnGen R11",
+    "side": "outcome"
+   },
+   {
+    "record_id": "40596960",
+    "source_key": "R1:1:93233c4ba590d682",
+    "unit_id": "R1:1:93233c4ba590d682:17:3",
+    "kind": "release",
+    "type": "FinnGen",
+    "identifier": "FinnGen R10",
+    "expected_row": "FinnGen R10",
+    "side": "outcome"
+   },
+   {
+    "record_id": "39010723",
+    "source_key": "R1:1:1eac34295e9a0069",
+    "unit_id": "R1:1:1eac34295e9a0069:23:0",
+    "kind": "accession",
+    "type": "opengwas",
+    "identifier": "ukb-b-13806",
+    "expected_row": "MRC-IEU UK Biobank GWAS pipeline (OpenGWAS ukb-b)",
+    "side": "outcome"
+   },
+   {
+    "record_id": "PPR914754",
+    "source_key": "R3:1:dc6cccff03448d93",
+    "unit_id": "R3:1:dc6cccff03448d93:421:0",
+    "kind": "accession",
+    "type": "opengwas",
+    "identifier": "ukb-b-7992",
+    "expected_row": "MRC-IEU UK Biobank GWAS pipeline (OpenGWAS ukb-b)",
+    "side": "outcome"
+   },
+   {
+    "record_id": "40193678",
+    "source_key": "R1:1:b0c162eba4b54f64",
+    "unit_id": "R1:1:b0c162eba4b54f64:33:0",
+    "kind": "accession",
+    "type": "opengwas",
+    "identifier": "finn-b-ASTHMA_CHILD",
+    "expected_row": "FinnGen R5",
+    "side": "outcome"
+   },
+   {
+    "record_id": "40444654",
+    "source_key": "R1:1:a58206bafe6d0236",
+    "unit_id": "R1:1:a58206bafe6d0236:9:2",
+    "kind": "release",
+    "type": "FinnGen",
+    "identifier": "FinnGen dataset (FinnGen R10",
+    "expected_row": "FinnGen R10",
+    "side": "outcome"
+   },
+   {
+    "record_id": "40893937",
+    "source_key": "R1:1:0f96920cf9b49572",
+    "unit_id": "R1:1:0f96920cf9b49572:11:1",
+    "kind": "accession",
+    "type": "opengwas",
+    "identifier": "ukb-b-10903",
+    "expected_row": "MRC-IEU UK Biobank GWAS pipeline (OpenGWAS ukb-b)",
+    "side": "outcome"
+   },
+   {
+    "record_id": "40420090",
+    "source_key": "R1:1:e779c523455f3687",
+    "unit_id": "R1:1:e779c523455f3687:6:4",
+    "kind": "release",
+    "type": "FinnGen",
+    "identifier": "FinnGen R12",
+    "expected_row": "FinnGen R12",
+    "side": "outcome"
+   },
+   {
+    "record_id": "34819519",
+    "source_key": "R1:1:2ad82d06383ff22a",
+    "unit_id": "R1:1:2ad82d06383ff22a:82:4",
+    "kind": "accession",
+    "type": "gwas_catalog",
+    "identifier": "GCST90011994",
+    "expected_row": "SCALLOP CVD-I (Folkersen 2020)",
+    "side": "pqtl"
+   },
+   {
+    "record_id": "PPR914754",
+    "source_key": "R3:1:dc6cccff03448d93",
+    "unit_id": "R3:1:dc6cccff03448d93:421:0",
+    "kind": "accession",
+    "type": "opengwas",
+    "identifier": "ukb-b-20175",
+    "expected_row": "MRC-IEU UK Biobank GWAS pipeline (OpenGWAS ukb-b)",
+    "side": "outcome"
+   },
+   {
+    "record_id": "36759259",
+    "source_key": "R3:1:0203acd1d18a32cf",
+    "unit_id": "R3:1:0203acd1d18a32cf:4583:0",
+    "kind": "source_identifier",
+    "type": "doi",
+    "identifier": "10.1038/ncomms14357",
+    "expected_row": "KORA (Suhre 2017)",
+    "side": "pqtl"
+   },
+   {
+    "record_id": "39856218",
+    "source_key": "R1:1:98ff314d38a229db",
+    "unit_id": "R1:1:98ff314d38a229db:123:1",
+    "kind": "accession",
+    "type": "opengwas",
+    "identifier": "ukb-b-19393",
+    "expected_row": "MRC-IEU UK Biobank GWAS pipeline (OpenGWAS ukb-b)",
+    "side": "outcome"
+   },
+   {
+    "record_id": "39397782",
+    "source_key": "R1:1:f36a6c0d04066ed9",
+    "unit_id": "R1:1:f36a6c0d04066ed9:20:1",
+    "kind": "release",
+    "type": "FinnGen",
+    "identifier": "FinnGen R10",
+    "expected_row": "FinnGen R10",
+    "side": "outcome"
+   },
+   {
+    "record_id": "36759259",
+    "source_key": "R3:1:0203acd1d18a32cf",
+    "unit_id": "R3:1:0203acd1d18a32cf:4590:0",
+    "kind": "source_identifier",
+    "type": "doi",
+    "identifier": "10.1126/science.aav7188",
+    "expected_row": "IMSGC multiple sclerosis (2019)",
+    "side": "outcome"
+   },
+   {
+    "record_id": "37996402",
+    "source_key": "R1:1:eccb68c55d1c6e28",
+    "unit_id": "R1:1:eccb68c55d1c6e28:30:0",
+    "kind": "release",
+    "type": "FinnGen",
+    "identifier": "FinnGen R8",
+    "expected_row": "FinnGen R8",
+    "side": "outcome"
+   },
+   {
+    "record_id": "39994764",
+    "source_key": "R1:1:60e8de35336cff24",
+    "unit_id": "R1:1:60e8de35336cff24:9:0",
+    "kind": "release",
+    "type": "FinnGen",
+    "identifier": "Finngen release 8",
+    "expected_row": "FinnGen R8",
+    "side": "outcome"
+   },
+   {
+    "record_id": "40269081",
+    "source_key": "R1:1:d95c56de511c5012",
+    "unit_id": "R1:1:d95c56de511c5012:25:0",
+    "kind": "release",
+    "type": "FinnGen",
+    "identifier": "FinnGen R10",
+    "expected_row": "FinnGen R10",
+    "side": "outcome"
+   },
+   {
+    "record_id": "41494198",
+    "source_key": "R3:1:cef174483c6a7f8d",
+    "unit_id": "R3:1:cef174483c6a7f8d:112:2",
+    "kind": "release",
+    "type": "FinnGen",
+    "identifier": "FinnGen R11",
+    "expected_row": "FinnGen R11",
+    "side": "outcome"
+   },
+   {
+    "record_id": "40327005",
+    "source_key": "R1:1:4ad6dd7e17053aee",
+    "unit_id": "R1:1:4ad6dd7e17053aee:7:4",
+    "kind": "release",
+    "type": "FinnGen",
+    "identifier": "FinnGen data freeze 9",
+    "expected_row": "FinnGen R9",
+    "side": "outcome"
+   },
+   {
+    "record_id": "41323472",
+    "source_key": "R1:1:59acfc059b75631f",
+    "unit_id": "R1:1:59acfc059b75631f:58:0",
+    "kind": "release",
+    "type": "FinnGen",
+    "identifier": "FinnGen consortium R11",
+    "expected_row": "FinnGen R11",
+    "side": "outcome"
+   }
+  ]
+ },
+ "stage_a": {
+  "records": 266,
+  "requests_per_model": 266,
+  "records_with_several_requests": 0,
+  "packet_characters": 10697391,
+  "cost": {
+   "pooled_full_text_ratios_of_the_plan": {
+    "at_1500_output_tokens": {
+     "claude-sonnet-5-5": {
+      "requests": 266,
+      "new_input_tokens": 4082974,
+      "cache_write_tokens": 28459,
+      "cached_input_tokens": 7541576,
+      "output_tokens": 399000,
+      "usd": 13.74
+     },
+     "gpt-6.1-sol": {
+      "requests": 266,
+      "new_input_tokens": 2499390,
+      "cache_write_tokens": 17421,
+      "cached_input_tokens": 4616572,
+      "output_tokens": 399000,
+      "usd": 9.49
+     },
+     "total_usd": 23.23
+    },
+    "output_sensitivity": {
+     "1500": {
+      "claude-sonnet-5-5": 13.74,
+      "gpt-6.1-sol": 9.49,
+      "total_usd": 23.23
+     },
+     "3000": {
+      "claude-sonnet-5-5": 17.73,
+      "gpt-6.1-sol": 13.48,
+      "total_usd": 31.21
+     },
+     "6000": {
+      "claude-sonnet-5-5": 25.71,
+      "gpt-6.1-sol": 21.46,
+      "total_usd": 47.17
+     }
+    }
+   },
+   "preflight_ratios": {
+    "at_1500_output_tokens": {
+     "claude-sonnet-5-5": {
+      "requests": 266,
+      "new_input_tokens": 5402723,
+      "cache_write_tokens": 37658,
+      "cached_input_tokens": 9979258,
+      "output_tokens": 399000,
+      "usd": 16.89
+     },
+     "gpt-6.1-sol": {
+      "requests": 266,
+      "new_input_tokens": 3439676,
+      "cache_write_tokens": 23975,
+      "cached_input_tokens": 6353354,
+      "output_tokens": 399000,
+      "usd": 11.55
+     },
+     "total_usd": 28.44
+    },
+    "output_sensitivity": {
+     "1500": {
+      "claude-sonnet-5-5": 16.89,
+      "gpt-6.1-sol": 11.55,
+      "total_usd": 28.44
+     },
+     "3000": {
+      "claude-sonnet-5-5": 20.88,
+      "gpt-6.1-sol": 15.54,
+      "total_usd": 36.42
+     },
+     "6000": {
+      "claude-sonnet-5-5": 28.86,
+      "gpt-6.1-sol": 23.52,
+      "total_usd": 52.38
+     }
+    }
+   }
+  },
+  "records_with_a_full_text": 204,
+  "records_abstract_only": 62,
+  "control_rows_merged": 70
+ },
+ "sa1": {
+  "records": 266,
+  "requests_per_model": 266,
+  "records_with_several_requests": 0,
+  "packet_characters": 1742796,
+  "cost": {
+   "pooled_full_text_ratios_of_the_plan": {
+    "at_1500_output_tokens": {
+     "claude-sonnet-5-5": {
+      "requests": 266,
+      "new_input_tokens": 665189,
+      "cache_write_tokens": 28459,
+      "cached_input_tokens": 7541576,
+      "output_tokens": 399000,
+      "usd": 6.9
+     },
+     "gpt-6.1-sol": {
+      "requests": 266,
+      "new_input_tokens": 407195,
+      "cache_write_tokens": 17421,
+      "cached_input_tokens": 4616572,
+      "output_tokens": 399000,
+      "usd": 5.3
+     },
+     "total_usd": 12.2
+    },
+    "output_sensitivity": {
+     "1500": {
+      "claude-sonnet-5-5": 6.9,
+      "gpt-6.1-sol": 5.3,
+      "total_usd": 12.2
+     },
+     "3000": {
+      "claude-sonnet-5-5": 10.89,
+      "gpt-6.1-sol": 9.29,
+      "total_usd": 20.18
+     },
+     "6000": {
+      "claude-sonnet-5-5": 18.87,
+      "gpt-6.1-sol": 17.27,
+      "total_usd": 36.14
+     }
+    }
+   },
+   "preflight_ratios": {
+    "at_1500_output_tokens": {
+     "claude-sonnet-5-5": {
+      "requests": 266,
+      "new_input_tokens": 880200,
+      "cache_write_tokens": 37658,
+      "cached_input_tokens": 9979258,
+      "output_tokens": 399000,
+      "usd": 7.84
+     },
+     "gpt-6.1-sol": {
+      "requests": 266,
+      "new_input_tokens": 560385,
+      "cache_write_tokens": 23975,
+      "cached_input_tokens": 6353354,
+      "output_tokens": 399000,
+      "usd": 5.79
+     },
+     "total_usd": 13.63
+    },
+    "output_sensitivity": {
+     "1500": {
+      "claude-sonnet-5-5": 7.84,
+      "gpt-6.1-sol": 5.79,
+      "total_usd": 13.63
+     },
+     "3000": {
+      "claude-sonnet-5-5": 11.83,
+      "gpt-6.1-sol": 9.78,
+      "total_usd": 21.61
+     },
+     "6000": {
+      "claude-sonnet-5-5": 19.81,
+      "gpt-6.1-sol": 17.76,
+      "total_usd": 37.57
+     }
+    }
+   }
+  }
+ },
+ "stage_b_upper_bound": {
+  "records": 136,
+  "requests_per_model": 699,
+  "records_with_several_requests": 29,
+  "packet_characters": 254981356,
+  "cost": {
+   "pooled_full_text_ratios_of_the_plan": {
+    "at_1500_output_tokens": {
+     "claude-sonnet-5-5": {
+      "requests": 699,
+      "new_input_tokens": 82875514,
+      "cache_write_tokens": 585148,
+      "cached_input_tokens": 33753152,
+      "output_tokens": 1048500,
+      "usd": 184.45
+     },
+     "gpt-6.1-sol": {
+      "requests": 699,
+      "new_input_tokens": 50732207,
+      "cache_write_tokens": 358198,
+      "cached_input_tokens": 20661976,
+      "output_tokens": 1048500,
+      "usd": 114.73
+     },
+     "total_usd": 299.18
+    },
+    "output_sensitivity": {
+     "1500": {
+      "claude-sonnet-5-5": 184.45,
+      "gpt-6.1-sol": 114.73,
+      "total_usd": 299.18
+     },
+     "3000": {
+      "claude-sonnet-5-5": 194.94,
+      "gpt-6.1-sol": 125.22,
+      "total_usd": 320.16
+     },
+     "6000": {
+      "claude-sonnet-5-5": 215.9,
+      "gpt-6.1-sol": 146.19,
+      "total_usd": 362.09
+     }
+    }
+   },
+   "preflight_ratios": {
+    "at_1500_output_tokens": {
+     "claude-sonnet-5-5": {
+      "requests": 699,
+      "new_input_tokens": 109663559,
+      "cache_write_tokens": 774287,
+      "cached_input_tokens": 44663262,
+      "output_tokens": 1048500,
+      "usd": 240.68
+     },
+     "gpt-6.1-sol": {
+      "requests": 699,
+      "new_input_tokens": 69817957,
+      "cache_write_tokens": 492955,
+      "cached_input_tokens": 28435132,
+      "output_tokens": 1048500,
+      "usd": 153.95
+     },
+     "total_usd": 394.63
+    },
+    "output_sensitivity": {
+     "1500": {
+      "claude-sonnet-5-5": 240.68,
+      "gpt-6.1-sol": 153.95,
+      "total_usd": 394.63
+     },
+     "3000": {
+      "claude-sonnet-5-5": 251.17,
+      "gpt-6.1-sol": 164.44,
+      "total_usd": 415.61
+     },
+     "6000": {
+      "claude-sonnet-5-5": 272.13,
+      "gpt-6.1-sol": 185.4,
+      "total_usd": 457.53
+     }
+    }
+   }
+  },
+  "note": "every record with a readable supplement, as if each still held an unresolved row; no control rows"
+ },
+ "assumptions": {
+  "output_tokens_per_request_base": 1500,
+  "prices": {
+   "claude-sonnet-5-5": {
+    "new": 2.0,
+    "write": 2.5,
+    "cached": 0.2,
+    "output": 10.0
+   },
+   "gpt-6.1-sol": {
+    "new": 2.0,
+    "write": 2.0,
+    "cached": 0.1,
+    "output": 10.0
+   }
+  },
+  "excluded": "thinking and reasoning tokens (billed as output) beyond the stated output lengths; the diagnostic (about 9 US dollars at 400 chunks, with stage B); control-only papers; the 31 manifest packets; any re-request"
+ },
+ "per_record": {
+  "stage_a": [
+   {
+    "record_id": "31208196",
+    "carried": 2700,
+    "packets": [
+     5258
+    ]
+   },
+   {
+    "record_id": "31235487",
+    "carried": 1822,
+    "packets": [
+     7359
+    ]
+   },
+   {
+    "record_id": "31337649",
+    "carried": 1591,
+    "packets": [
+     3885
+    ]
+   },
+   {
+    "record_id": "32928870",
+    "carried": 68766,
+    "packets": [
+     75120
+    ]
+   },
+   {
+    "record_id": "34172473",
+    "carried": 41543,
+    "packets": [
+     47242
+    ]
+   },
+   {
+    "record_id": "34381170",
+    "carried": 1276,
+    "packets": [
+     6801
+    ]
+   },
+   {
+    "record_id": "34465608",
+    "carried": 1965,
+    "packets": [
+     7529
+    ]
+   },
+   {
+    "record_id": "34758976",
+    "carried": 1760,
+    "packets": [
+     7310
+    ]
+   },
+   {
+    "record_id": "34819519",
+    "carried": 52665,
+    "packets": [
+     60909
+    ]
+   },
+   {
+    "record_id": "34857772",
+    "carried": 57815,
+    "packets": [
+     67111
+    ]
+   },
+   {
+    "record_id": "35200038",
+    "carried": 30221,
+    "packets": [
+     35866
+    ]
+   },
+   {
+    "record_id": "35252377",
+    "carried": 34835,
+    "packets": [
+     40561
+    ]
+   },
+   {
+    "record_id": "35475137",
+    "carried": 31941,
+    "packets": [
+     37613
+    ]
+   },
+   {
+    "record_id": "35580794",
+    "carried": 44309,
+    "packets": [
+     49989
+    ]
+   },
+   {
+    "record_id": "36253349",
+    "carried": 59068,
+    "packets": [
+     64801
+    ]
+   },
+   {
+    "record_id": "36384659",
+    "carried": 33522,
+    "packets": [
+     39169
+    ]
+   },
+   {
+    "record_id": "36576886",
+    "carried": 34445,
+    "packets": [
+     40155
+    ]
+   },
+   {
+    "record_id": "36759259",
+    "carried": 207317,
+    "packets": [
+     235384
+    ]
+   },
+   {
+    "record_id": "36857861",
+    "carried": 33206,
+    "packets": [
+     35756
+    ]
+   },
+   {
+    "record_id": "36864689",
+    "carried": 36204,
+    "packets": [
+     39260
+    ]
+   },
+   {
+    "record_id": "37085628",
+    "carried": 872,
+    "packets": [
+     6409
+    ]
+   },
+   {
+    "record_id": "37212950",
+    "carried": 36385,
+    "packets": [
+     42520
+    ]
+   },
+   {
+    "record_id": "37308750",
+    "carried": 2943,
+    "packets": [
+     8556
+    ]
+   },
+   {
+    "record_id": "37340071",
+    "carried": 38070,
+    "packets": [
+     43704
+    ]
+   },
+   {
+    "record_id": "37492198",
+    "carried": 63930,
+    "packets": [
+     67104
+    ]
+   },
+   {
+    "record_id": "37516812",
+    "carried": 40684,
+    "packets": [
+     46720
+    ]
+   },
+   {
+    "record_id": "37537391",
+    "carried": 26344,
+    "packets": [
+     31988
+    ]
+   },
+   {
+    "record_id": "37581400",
+    "carried": 45804,
+    "packets": [
+     51496
+    ]
+   },
+   {
+    "record_id": "37662610",
+    "carried": 34027,
+    "packets": [
+     39744
+    ]
+   },
+   {
+    "record_id": "37679517",
+    "carried": 1552,
+    "packets": [
+     7161
+    ]
+   },
+   {
+    "record_id": "37726845",
+    "carried": 41330,
+    "packets": [
+     43971
+    ]
+   },
+   {
+    "record_id": "37735436",
+    "carried": 50647,
+    "packets": [
+     53205
+    ]
+   },
+   {
+    "record_id": "37774922",
+    "carried": 1804,
+    "packets": [
+     6362
+    ]
+   },
+   {
+    "record_id": "37809092",
+    "carried": 36007,
+    "packets": [
+     38805
+    ]
+   },
+   {
+    "record_id": "37865667",
+    "carried": 47859,
+    "packets": [
+     53474
+    ]
+   },
+   {
+    "record_id": "37904919",
+    "carried": 2225,
+    "packets": [
+     4500
+    ]
+   },
+   {
+    "record_id": "37915587",
+    "carried": 69832,
+    "packets": [
+     75602
+    ]
+   },
+   {
+    "record_id": "37967346",
+    "carried": 47060,
+    "packets": [
+     52740
+    ]
+   },
+   {
+    "record_id": "37996402",
+    "carried": 44502,
+    "packets": [
+     52638
+    ]
+   },
+   {
+    "record_id": "38029854",
+    "carried": 31661,
+    "packets": [
+     37296
+    ]
+   },
+   {
+    "record_id": "38049831",
+    "carried": 44111,
+    "packets": [
+     46831
+    ]
+   },
+   {
+    "record_id": "38065874",
+    "carried": 27976,
+    "packets": [
+     33666
+    ]
+   },
+   {
+    "record_id": "38096329",
+    "carried": 43948,
+    "packets": [
+     49642
+    ]
+   },
+   {
+    "record_id": "38152968",
+    "carried": 121784,
+    "packets": [
+     129095
+    ]
+   },
+   {
+    "record_id": "38240717",
+    "carried": 51507,
+    "packets": [
+     57249
+    ]
+   },
+   {
+    "record_id": "38304232",
+    "carried": 60306,
+    "packets": [
+     66034
+    ]
+   },
+   {
+    "record_id": "38410634",
+    "carried": 11760,
+    "packets": [
+     14211
+    ]
+   },
+   {
+    "record_id": "38429390",
+    "carried": 46994,
+    "packets": [
+     52642
+    ]
+   },
+   {
+    "record_id": "38450985",
+    "carried": 2141,
+    "packets": [
+     11183
+    ]
+   },
+   {
+    "record_id": "38455364",
+    "carried": 27751,
+    "packets": [
+     33442
+    ]
+   },
+   {
+    "record_id": "38515381",
+    "carried": 1606,
+    "packets": [
+     10673
+    ]
+   },
+   {
+    "record_id": "38562480",
+    "carried": 31687,
+    "packets": [
+     37364
+    ]
+   },
+   {
+    "record_id": "38605099",
+    "carried": 20567,
+    "packets": [
+     22941
+    ]
+   },
+   {
+    "record_id": "38623619",
+    "carried": 38214,
+    "packets": [
+     43106
+    ]
+   },
+   {
+    "record_id": "38637810",
+    "carried": 50808,
+    "packets": [
+     58966
+    ]
+   },
+   {
+    "record_id": "38679119",
+    "carried": 1570,
+    "packets": [
+     7134
+    ]
+   },
+   {
+    "record_id": "38689297",
+    "carried": 52231,
+    "packets": [
+     65024
+    ]
+   },
+   {
+    "record_id": "38730525",
+    "carried": 29308,
+    "packets": [
+     34963
+    ]
+   },
+   {
+    "record_id": "38773393",
+    "carried": 2187,
+    "packets": [
+     7785
+    ]
+   },
+   {
+    "record_id": "38782984",
+    "carried": 27449,
+    "packets": [
+     33080
+    ]
+   },
+   {
+    "record_id": "38820305",
+    "carried": 50432,
+    "packets": [
+     56618
+    ]
+   },
+   {
+    "record_id": "38820838",
+    "carried": 2189,
+    "packets": [
+     11285
+    ]
+   },
+   {
+    "record_id": "38828357",
+    "carried": 33476,
+    "packets": [
+     42684
+    ]
+   },
+   {
+    "record_id": "38871465",
+    "carried": 695,
+    "packets": [
+     6212
+    ]
+   },
+   {
+    "record_id": "38875042",
+    "carried": 1454,
+    "packets": [
+     10438
+    ]
+   },
+   {
+    "record_id": "38887235",
+    "carried": 44663,
+    "packets": [
+     46978
+    ]
+   },
+   {
+    "record_id": "38892221",
+    "carried": 88477,
+    "packets": [
+     90930
+    ]
+   },
+   {
+    "record_id": "38898508",
+    "carried": 69059,
+    "packets": [
+     74771
+    ]
+   },
+   {
+    "record_id": "38903171",
+    "carried": 50183,
+    "packets": [
+     52879
+    ]
+   },
+   {
+    "record_id": "38957317",
+    "carried": 143236,
+    "packets": [
+     149410
+    ]
+   },
+   {
+    "record_id": "38964432",
+    "carried": 1946,
+    "packets": [
+     7520
+    ]
+   },
+   {
+    "record_id": "38976909",
+    "carried": 38936,
+    "packets": [
+     48138
+    ]
+   },
+   {
+    "record_id": "38989470",
+    "carried": 49550,
+    "packets": [
+     58770
+    ]
+   },
+   {
+    "record_id": "39006495",
+    "carried": 26964,
+    "packets": [
+     32809
+    ]
+   },
+   {
+    "record_id": "39010723",
+    "carried": 30747,
+    "packets": [
+     41236
+    ]
+   },
+   {
+    "record_id": "39025905",
+    "carried": 151717,
+    "packets": [
+     165260
+    ]
+   },
+   {
+    "record_id": "39029667",
+    "carried": 2194,
+    "packets": [
+     4265
+    ]
+   },
+   {
+    "record_id": "39036049",
+    "carried": 28275,
+    "packets": [
+     29499
+    ]
+   },
+   {
+    "record_id": "39040677",
+    "carried": 35092,
+    "packets": [
+     41230
+    ]
+   },
+   {
+    "record_id": "39068416",
+    "carried": 39840,
+    "packets": [
+     48990
+    ]
+   },
+   {
+    "record_id": "39116956",
+    "carried": 1761,
+    "packets": [
+     7402
+    ]
+   },
+   {
+    "record_id": "39119725",
+    "carried": 15359,
+    "packets": [
+     21169
+    ]
+   },
+   {
+    "record_id": "39136778",
+    "carried": 1901,
+    "packets": [
+     3273
+    ]
+   },
+   {
+    "record_id": "39148858",
+    "carried": 41184,
+    "packets": [
+     45903
+    ]
+   },
+   {
+    "record_id": "39156738",
+    "carried": 21078,
+    "packets": [
+     23477
+    ]
+   },
+   {
+    "record_id": "39221148",
+    "carried": 34043,
+    "packets": [
+     35902
+    ]
+   },
+   {
+    "record_id": "39237840",
+    "carried": 1940,
+    "packets": [
+     3039
+    ]
+   },
+   {
+    "record_id": "39247875",
+    "carried": 32812,
+    "packets": [
+     37591
+    ]
+   },
+   {
+    "record_id": "39267832",
+    "carried": 29459,
+    "packets": [
+     35133
+    ]
+   },
+   {
+    "record_id": "39273172",
+    "carried": 30721,
+    "packets": [
+     39940
+    ]
+   },
+   {
+    "record_id": "39297226",
+    "carried": 23675,
+    "packets": [
+     29300
+    ]
+   },
+   {
+    "record_id": "39351539",
+    "carried": 38645,
+    "packets": [
+     41153
+    ]
+   },
+   {
+    "record_id": "39355913",
+    "carried": 2335,
+    "packets": [
+     4561
+    ]
+   },
+   {
+    "record_id": "39386869",
+    "carried": 67498,
+    "packets": [
+     76703
+    ]
+   },
+   {
+    "record_id": "39392298",
+    "carried": 48642,
+    "packets": [
+     60560
+    ]
+   },
+   {
+    "record_id": "39397782",
+    "carried": 42965,
+    "packets": [
+     49134
+    ]
+   },
+   {
+    "record_id": "39398994",
+    "carried": 26911,
+    "packets": [
+     31756
+    ]
+   },
+   {
+    "record_id": "39400547",
+    "carried": 1520,
+    "packets": [
+     7057
+    ]
+   },
+   {
+    "record_id": "39408566",
+    "carried": 43401,
+    "packets": [
+     56186
+    ]
+   },
+   {
+    "record_id": "39434187",
+    "carried": 59647,
+    "packets": [
+     68867
+    ]
+   },
+   {
+    "record_id": "39492919",
+    "carried": 36404,
+    "packets": [
+     42088
+    ]
+   },
+   {
+    "record_id": "39536725",
+    "carried": 2058,
+    "packets": [
+     7632
+    ]
+   },
+   {
+    "record_id": "39562718",
+    "carried": 1679,
+    "packets": [
+     7220
+    ]
+   },
+   {
+    "record_id": "39572695",
+    "carried": 75104,
+    "packets": [
+     77708
+    ]
+   },
+   {
+    "record_id": "39574905",
+    "carried": 32251,
+    "packets": [
+     41474
+    ]
+   },
+   {
+    "record_id": "39585470",
+    "carried": 1184,
+    "packets": [
+     2303
+    ]
+   },
+   {
+    "record_id": "39592890",
+    "carried": 33744,
+    "packets": [
+     39555
+    ]
+   },
+   {
+    "record_id": "39637861",
+    "carried": 56242,
+    "packets": [
+     61129
+    ]
+   },
+   {
+    "record_id": "39669686",
+    "carried": 50438,
+    "packets": [
+     51795
+    ]
+   },
+   {
+    "record_id": "39723341",
+    "carried": 40626,
+    "packets": [
+     46308
+    ]
+   },
+   {
+    "record_id": "39747981",
+    "carried": 35612,
+    "packets": [
+     37923
+    ]
+   },
+   {
+    "record_id": "39755304",
+    "carried": 2596,
+    "packets": [
+     5317
+    ]
+   },
+   {
+    "record_id": "39763524",
+    "carried": 31639,
+    "packets": [
+     37303
+    ]
+   },
+   {
+    "record_id": "39802509",
+    "carried": 44477,
+    "packets": [
+     53723
+    ]
+   },
+   {
+    "record_id": "39806440",
+    "carried": 35343,
+    "packets": [
+     37952
+    ]
+   },
+   {
+    "record_id": "39823480",
+    "carried": 31296,
+    "packets": [
+     40589
+    ]
+   },
+   {
+    "record_id": "39824903",
+    "carried": 47138,
+    "packets": [
+     56652
+    ]
+   },
+   {
+    "record_id": "39842943",
+    "carried": 1807,
+    "packets": [
+     7314
+    ]
+   },
+   {
+    "record_id": "39844246",
+    "carried": 38009,
+    "packets": [
+     40698
+    ]
+   },
+   {
+    "record_id": "39846783",
+    "carried": 34383,
+    "packets": [
+     40051
+    ]
+   },
+   {
+    "record_id": "39856218",
+    "carried": 58186,
+    "packets": [
+     74548
+    ]
+   },
+   {
+    "record_id": "39870808",
+    "carried": 22737,
+    "packets": [
+     28395
+    ]
+   },
+   {
+    "record_id": "39885106",
+    "carried": 1979,
+    "packets": [
+     7471
+    ]
+   },
+   {
+    "record_id": "39887658",
+    "carried": 65313,
+    "packets": [
+     67918
+    ]
+   },
+   {
+    "record_id": "39895541",
+    "carried": 42229,
+    "packets": [
+     43850
+    ]
+   },
+   {
+    "record_id": "39911230",
+    "carried": 41396,
+    "packets": [
+     50593
+    ]
+   },
+   {
+    "record_id": "39933395",
+    "carried": 2129,
+    "packets": [
+     11185
+    ]
+   },
+   {
+    "record_id": "39960916",
+    "carried": 33461,
+    "packets": [
+     39116
+    ]
+   },
+   {
+    "record_id": "39979251",
+    "carried": 19651,
+    "packets": [
+     25353
+    ]
+   },
+   {
+    "record_id": "39994764",
+    "carried": 43074,
+    "packets": [
+     59781
+    ]
+   },
+   {
+    "record_id": "40008516",
+    "carried": 35721,
+    "packets": [
+     41400
+    ]
+   },
+   {
+    "record_id": "40026415",
+    "carried": 54641,
+    "packets": [
+     61016
+    ]
+   },
+   {
+    "record_id": "40037332",
+    "carried": 76420,
+    "packets": [
+     88457
+    ]
+   },
+   {
+    "record_id": "40038097",
+    "carried": 1559,
+    "packets": [
+     7133
+    ]
+   },
+   {
+    "record_id": "40050982",
+    "carried": 54297,
+    "packets": [
+     66973
+    ]
+   },
+   {
+    "record_id": "40052860",
+    "carried": 84903,
+    "packets": [
+     91242
+    ]
+   },
+   {
+    "record_id": "40061319",
+    "carried": 23502,
+    "packets": [
+     28377
+    ]
+   },
+   {
+    "record_id": "40108295",
+    "carried": 55720,
+    "packets": [
+     63835
+    ]
+   },
+   {
+    "record_id": "40135555",
+    "carried": 43320,
+    "packets": [
+     48955
+    ]
+   },
+   {
+    "record_id": "40148470",
+    "carried": 119139,
+    "packets": [
+     128351
+    ]
+   },
+   {
+    "record_id": "40149599",
+    "carried": 27345,
+    "packets": [
+     32979
+    ]
+   },
+   {
+    "record_id": "40186323",
+    "carried": 45361,
+    "packets": [
+     51047
+    ]
+   },
+   {
+    "record_id": "40193678",
+    "carried": 30029,
+    "packets": [
+     36041
+    ]
+   },
+   {
+    "record_id": "40225784",
+    "carried": 60922,
+    "packets": [
+     66646
+    ]
+   },
+   {
+    "record_id": "40263317",
+    "carried": 39590,
+    "packets": [
+     45216
+    ]
+   },
+   {
+    "record_id": "40266545",
+    "carried": 1707,
+    "packets": [
+     14262
+    ]
+   },
+   {
+    "record_id": "40267509",
+    "carried": 2268,
+    "packets": [
+     4629
+    ]
+   },
+   {
+    "record_id": "40269081",
+    "carried": 31225,
+    "packets": [
+     37413
+    ]
+   },
+   {
+    "record_id": "40304587",
+    "carried": 37259,
+    "packets": [
+     42942
+    ]
+   },
+   {
+    "record_id": "40327005",
+    "carried": 57262,
+    "packets": [
+     65750
+    ]
+   },
+   {
+    "record_id": "40355193",
+    "carried": 28642,
+    "packets": [
+     29981
+    ]
+   },
+   {
+    "record_id": "40380075",
+    "carried": 1599,
+    "packets": [
+     6243
+    ]
+   },
+   {
+    "record_id": "40400956",
+    "carried": 56660,
+    "packets": [
+     61574
+    ]
+   },
+   {
+    "record_id": "40420090",
+    "carried": 38399,
+    "packets": [
+     44024
+    ]
+   },
+   {
+    "record_id": "40426943",
+    "carried": 43552,
+    "packets": [
+     52753
+    ]
+   },
+   {
+    "record_id": "40442727",
+    "carried": 38967,
+    "packets": [
+     40676
+    ]
+   },
+   {
+    "record_id": "40444654",
+    "carried": 33172,
+    "packets": [
+     42674
+    ]
+   },
+   {
+    "record_id": "40450304",
+    "carried": 32553,
+    "packets": [
+     37608
+    ]
+   },
+   {
+    "record_id": "40452368",
+    "carried": 1810,
+    "packets": [
+     3223
+    ]
+   },
+   {
+    "record_id": "40453312",
+    "carried": 32725,
+    "packets": [
+     45494
+    ]
+   },
+   {
+    "record_id": "40455174",
+    "carried": 46397,
+    "packets": [
+     52190
+    ]
+   },
+   {
+    "record_id": "40462010",
+    "carried": 30129,
+    "packets": [
+     31458
+    ]
+   },
+   {
+    "record_id": "40533710",
+    "carried": 35967,
+    "packets": [
+     44349
+    ]
+   },
+   {
+    "record_id": "40596960",
+    "carried": 39862,
+    "packets": [
+     48023
+    ]
+   },
+   {
+    "record_id": "40604874",
+    "carried": 29415,
+    "packets": [
+     35086
+    ]
+   },
+   {
+    "record_id": "40657364",
+    "carried": 37315,
+    "packets": [
+     40077
+    ]
+   },
+   {
+    "record_id": "40671653",
+    "carried": 2446,
+    "packets": [
+     7252
+    ]
+   },
+   {
+    "record_id": "40684027",
+    "carried": 1190,
+    "packets": [
+     6743
+    ]
+   },
+   {
+    "record_id": "40689090",
+    "carried": 45367,
+    "packets": [
+     51077
+    ]
+   },
+   {
+    "record_id": "40696606",
+    "carried": 43318,
+    "packets": [
+     49010
+    ]
+   },
+   {
+    "record_id": "40754897",
+    "carried": 34745,
+    "packets": [
+     36618
+    ]
+   },
+   {
+    "record_id": "40779076",
+    "carried": 24102,
+    "packets": [
+     29803
+    ]
+   },
+   {
+    "record_id": "40813130",
+    "carried": 1659,
+    "packets": [
+     2926
+    ]
+   },
+   {
+    "record_id": "40820167",
+    "carried": 39653,
+    "packets": [
+     45299
+    ]
+   },
+   {
+    "record_id": "40827287",
+    "carried": 46965,
+    "packets": [
+     52009
+    ]
+   },
+   {
+    "record_id": "40893937",
+    "carried": 34726,
+    "packets": [
+     43913
+    ]
+   },
+   {
+    "record_id": "40897285",
+    "carried": 1856,
+    "packets": [
+     4361
+    ]
+   },
+   {
+    "record_id": "40974265",
+    "carried": 2223,
+    "packets": [
+     7729
+    ]
+   },
+   {
+    "record_id": "40991151",
+    "carried": 34997,
+    "packets": [
+     44138
+    ]
+   },
+   {
+    "record_id": "40996951",
+    "carried": 55227,
+    "packets": [
+     60129
+    ]
+   },
+   {
+    "record_id": "41063246",
+    "carried": 35680,
+    "packets": [
+     41354
+    ]
+   },
+   {
+    "record_id": "41088581",
+    "carried": 32693,
+    "packets": [
+     41821
+    ]
+   },
+   {
+    "record_id": "41098849",
+    "carried": 27021,
+    "packets": [
+     31801
+    ]
+   },
+   {
+    "record_id": "41138838",
+    "carried": 2674,
+    "packets": [
+     8263
+    ]
+   },
+   {
+    "record_id": "41142151",
+    "carried": 30194,
+    "packets": [
+     31727
+    ]
+   },
+   {
+    "record_id": "41158172",
+    "carried": 1368,
+    "packets": [
+     10465
+    ]
+   },
+   {
+    "record_id": "41180196",
+    "carried": 39472,
+    "packets": [
+     48801
+    ]
+   },
+   {
+    "record_id": "41193035",
+    "carried": 2354,
+    "packets": [
+     7956
+    ]
+   },
+   {
+    "record_id": "41200167",
+    "carried": 34623,
+    "packets": [
+     36752
+    ]
+   },
+   {
+    "record_id": "41200820",
+    "carried": 39767,
+    "packets": [
+     45017
+    ]
+   },
+   {
+    "record_id": "41209747",
+    "carried": 33166,
+    "packets": [
+     42368
+    ]
+   },
+   {
+    "record_id": "41239582",
+    "carried": 32616,
+    "packets": [
+     38970
+    ]
+   },
+   {
+    "record_id": "41247789",
+    "carried": 40252,
+    "packets": [
+     45124
+    ]
+   },
+   {
+    "record_id": "41251751",
+    "carried": 1583,
+    "packets": [
+     7069
+    ]
+   },
+   {
+    "record_id": "41254737",
+    "carried": 53990,
+    "packets": [
+     62488
+    ]
+   },
+   {
+    "record_id": "41261583",
+    "carried": 24808,
+    "packets": [
+     29394
+    ]
+   },
+   {
+    "record_id": "41261649",
+    "carried": 20709,
+    "packets": [
+     26381
+    ]
+   },
+   {
+    "record_id": "41270069",
+    "carried": 26784,
+    "packets": [
+     32426
+    ]
+   },
+   {
+    "record_id": "41286868",
+    "carried": 30956,
+    "packets": [
+     36163
+    ]
+   },
+   {
+    "record_id": "41287581",
+    "carried": 1508,
+    "packets": [
+     7097
+    ]
+   },
+   {
+    "record_id": "41306657",
+    "carried": 8491,
+    "packets": [
+     9910
+    ]
+   },
+   {
+    "record_id": "41323472",
+    "carried": 107171,
+    "packets": [
+     113476
+    ]
+   },
+   {
+    "record_id": "41350740",
+    "carried": 67736,
+    "packets": [
+     73413
+    ]
+   },
+   {
+    "record_id": "41358287",
+    "carried": 46392,
+    "packets": [
+     52070
+    ]
+   },
+   {
+    "record_id": "41372872",
+    "carried": 38821,
+    "packets": [
+     44539
+    ]
+   },
+   {
+    "record_id": "41387240",
+    "carried": 1574,
+    "packets": [
+     7125
+    ]
+   },
+   {
+    "record_id": "41398348",
+    "carried": 32704,
+    "packets": [
+     38359
+    ]
+   },
+   {
+    "record_id": "41417678",
+    "carried": 2031,
+    "packets": [
+     4476
+    ]
+   },
+   {
+    "record_id": "41423778",
+    "carried": 2204,
+    "packets": [
+     7778
+    ]
+   },
+   {
+    "record_id": "41442772",
+    "carried": 1850,
+    "packets": [
+     6341
+    ]
+   },
+   {
+    "record_id": "41478252",
+    "carried": 1978,
+    "packets": [
+     4415
+    ]
+   },
+   {
+    "record_id": "41480606",
+    "carried": 61800,
+    "packets": [
+     67567
+    ]
+   },
+   {
+    "record_id": "41494198",
+    "carried": 67435,
+    "packets": [
+     76903
+    ]
+   },
+   {
+    "record_id": "41540382",
+    "carried": 50090,
+    "packets": [
+     54939
+    ]
+   },
+   {
+    "record_id": "42133815",
+    "carried": 43632,
+    "packets": [
+     48437
+    ]
+   },
+   {
+    "record_id": "PPR1006423",
+    "carried": 46601,
+    "packets": [
+     52872
+    ]
+   },
+   {
+    "record_id": "PPR1027188",
+    "carried": 41411,
+    "packets": [
+     47482
+    ]
+   },
+   {
+    "record_id": "PPR1066984",
+    "carried": 42327,
+    "packets": [
+     43992
+    ]
+   },
+   {
+    "record_id": "PPR1123489",
+    "carried": 137530,
+    "packets": [
+     148502
+    ]
+   },
+   {
+    "record_id": "PPR1190648",
+    "carried": 2208,
+    "packets": [
+     7723
+    ]
+   },
+   {
+    "record_id": "PPR1199543",
+    "carried": 1968,
+    "packets": [
+     7490
+    ]
+   },
+   {
+    "record_id": "PPR1200638",
+    "carried": 1850,
+    "packets": [
+     3972
+    ]
+   },
+   {
+    "record_id": "PPR1267739",
+    "carried": 20427,
+    "packets": [
+     22048
+    ]
+   },
+   {
+    "record_id": "PPR305334",
+    "carried": 46970,
+    "packets": [
+     53251
+    ]
+   },
+   {
+    "record_id": "PPR379555",
+    "carried": 1414,
+    "packets": [
+     6947
+    ]
+   },
+   {
+    "record_id": "PPR410988",
+    "carried": 118594,
+    "packets": [
+     121871
+    ]
+   },
+   {
+    "record_id": "PPR640820",
+    "carried": 47326,
+    "packets": [
+     56613
+    ]
+   },
+   {
+    "record_id": "PPR670277",
+    "carried": 65822,
+    "packets": [
+     75957
+    ]
+   },
+   {
+    "record_id": "PPR686069",
+    "carried": 56503,
+    "packets": [
+     66537
+    ]
+   },
+   {
+    "record_id": "PPR763954",
+    "carried": 57700,
+    "packets": [
+     67608
+    ]
+   },
+   {
+    "record_id": "PPR764288",
+    "carried": 80822,
+    "packets": [
+     88022
+    ]
+   },
+   {
+    "record_id": "PPR770199",
+    "carried": 87225,
+    "packets": [
+     94106
+    ]
+   },
+   {
+    "record_id": "PPR791620",
+    "carried": 91136,
+    "packets": [
+     97292
+    ]
+   },
+   {
+    "record_id": "PPR811933",
+    "carried": 89230,
+    "packets": [
+     96423
+    ]
+   },
+   {
+    "record_id": "PPR839797",
+    "carried": 48071,
+    "packets": [
+     51418
+    ]
+   },
+   {
+    "record_id": "PPR858640",
+    "carried": 1271,
+    "packets": [
+     6815
+    ]
+   },
+   {
+    "record_id": "PPR888008",
+    "carried": 2351,
+    "packets": [
+     3899
+    ]
+   },
+   {
+    "record_id": "PPR904406",
+    "carried": 49183,
+    "packets": [
+     51635
+    ]
+   },
+   {
+    "record_id": "PPR905535",
+    "carried": 32149,
+    "packets": [
+     38012
+    ]
+   },
+   {
+    "record_id": "PPR911454",
+    "carried": 2538,
+    "packets": [
+     7322
+    ]
+   },
+   {
+    "record_id": "PPR914754",
+    "carried": 117830,
+    "packets": [
+     132683
+    ]
+   },
+   {
+    "record_id": "PPR936397",
+    "carried": 32417,
+    "packets": [
+     38174
+    ]
+   },
+   {
+    "record_id": "PPR941213",
+    "carried": 1827,
+    "packets": [
+     7355
+    ]
+   },
+   {
+    "record_id": "PPR961122",
+    "carried": 75767,
+    "packets": [
+     79657
+    ]
+   },
+   {
+    "record_id": "PPR965441",
+    "carried": 68806,
+    "packets": [
+     72147
+    ]
+   },
+   {
+    "record_id": "PPR972081",
+    "carried": 48874,
+    "packets": [
+     55224
+    ]
+   },
+   {
+    "record_id": "PPR989506",
+    "carried": 1791,
+    "packets": [
+     3088
+    ]
+   },
+   {
+    "record_id": "PPR990002",
+    "carried": 84854,
+    "packets": [
+     90934
+    ]
+   },
+   {
+    "record_id": "W3111331057",
+    "carried": 2430,
+    "packets": [
+     6857
+    ]
+   },
+   {
+    "record_id": "W4361194763",
+    "carried": 1983,
+    "packets": [
+     7551
+    ]
+   },
+   {
+    "record_id": "W4387381228",
+    "carried": 3100,
+    "packets": [
+     8665
+    ]
+   },
+   {
+    "record_id": "W4390198428",
+    "carried": 1786,
+    "packets": [
+     2872
+    ]
+   },
+   {
+    "record_id": "W4390198817",
+    "carried": 1299,
+    "packets": [
+     6826
+    ]
+   },
+   {
+    "record_id": "W4399019460",
+    "carried": 22278,
+    "packets": [
+     28034
+    ]
+   },
+   {
+    "record_id": "W4399137331",
+    "carried": 3196,
+    "packets": [
+     7730
+    ]
+   },
+   {
+    "record_id": "W4403336550",
+    "carried": 1957,
+    "packets": [
+     3150
+    ]
+   },
+   {
+    "record_id": "W4404573575",
+    "carried": 55751,
+    "packets": [
+     62261
+    ]
+   },
+   {
+    "record_id": "W4406196960",
+    "carried": 2297,
+    "packets": [
+     3660
+    ]
+   },
+   {
+    "record_id": "W4406210404",
+    "carried": 2098,
+    "packets": [
+     4480
+    ]
+   },
+   {
+    "record_id": "W4411291538",
+    "carried": 1456,
+    "packets": [
+     2786
+    ]
+   },
+   {
+    "record_id": "W4413357814",
+    "carried": 1980,
+    "packets": [
+     3353
+    ]
+   },
+   {
+    "record_id": "W4415402939",
+    "carried": 2397,
+    "packets": [
+     7177
+    ]
+   },
+   {
+    "record_id": "W4416295106",
+    "carried": 1564,
+    "packets": [
+     6371
+    ]
+   },
+   {
+    "record_id": "W4416777227",
+    "carried": 73576,
+    "packets": [
+     75953
+    ]
+   },
+   {
+    "record_id": "W4416868157",
+    "carried": 1990,
+    "packets": [
+     3499
+    ]
+   },
+   {
+    "record_id": "W7104114135",
+    "carried": 2658,
+    "packets": [
+     11730
+    ]
+   }
+  ],
+  "stage_b_upper_bound": [
+   {
+    "record_id": "34172473",
+    "carried": 41543,
+    "packets": [
+     94419
+    ]
+   },
+   {
+    "record_id": "34819519",
+    "carried": 52665,
+    "packets": [
+     279240,
+     426226,
+     254804
+    ]
+   },
+   {
+    "record_id": "34857772",
+    "carried": 57815,
+    "packets": [
+     394512,
+     224670
+    ]
+   },
+   {
+    "record_id": "35252377",
+    "carried": 34835,
+    "packets": [
+     61081
+    ]
+   },
+   {
+    "record_id": "35475137",
+    "carried": 31941,
+    "packets": [
+     137204
+    ]
+   },
+   {
+    "record_id": "35580794",
+    "carried": 44309,
+    "packets": [
+     70546
+    ]
+   },
+   {
+    "record_id": "36253349",
+    "carried": 59068,
+    "packets": [
+     165813
+    ]
+   },
+   {
+    "record_id": "36576886",
+    "carried": 34445,
+    "packets": [
+     64849
+    ]
+   },
+   {
+    "record_id": "36857861",
+    "carried": 33206,
+    "packets": [
+     79781
+    ]
+   },
+   {
+    "record_id": "36864689",
+    "carried": 36204,
+    "packets": [
+     205278
+    ]
+   },
+   {
+    "record_id": "37340071",
+    "carried": 38070,
+    "packets": [
+     429957,
+     429056,
+     429812,
+     429237,
+     429080,
+     405105
+    ]
+   },
+   {
+    "record_id": "37516812",
+    "carried": 40684,
+    "packets": [
+     52856
+    ]
+   },
+   {
+    "record_id": "37537391",
+    "carried": 26344,
+    "packets": [
+     86969
+    ]
+   },
+   {
+    "record_id": "37581400",
+    "carried": 45804,
+    "packets": [
+     124176
+    ]
+   },
+   {
+    "record_id": "37662610",
+    "carried": 34027,
+    "packets": [
+     101273
+    ]
+   },
+   {
+    "record_id": "37726845",
+    "carried": 41330,
+    "packets": [
+     461123,
+     450550,
+     60363
+    ]
+   },
+   {
+    "record_id": "37735436",
+    "carried": 50647,
+    "packets": [
+     187159
+    ]
+   },
+   {
+    "record_id": "37809092",
+    "carried": 36007,
+    "packets": [
+     147939
+    ]
+   },
+   {
+    "record_id": "37865667",
+    "carried": 47859,
+    "packets": [
+     58654
+    ]
+   },
+   {
+    "record_id": "37915587",
+    "carried": 69832,
+    "packets": [
+     155944
+    ]
+   },
+   {
+    "record_id": "37967346",
+    "carried": 47060,
+    "packets": [
+     93647
+    ]
+   },
+   {
+    "record_id": "37996402",
+    "carried": 44502,
+    "packets": [
+     238322
+    ]
+   },
+   {
+    "record_id": "38029854",
+    "carried": 31661,
+    "packets": [
+     46272
+    ]
+   },
+   {
+    "record_id": "38049831",
+    "carried": 44111,
+    "packets": [
+     97054
+    ]
+   },
+   {
+    "record_id": "38096329",
+    "carried": 43948,
+    "packets": [
+     138004
+    ]
+   },
+   {
+    "record_id": "38240717",
+    "carried": 51507,
+    "packets": [
+     436831,
+     456012,
+     227569
+    ]
+   },
+   {
+    "record_id": "38304232",
+    "carried": 60306,
+    "packets": [
+     85388
+    ]
+   },
+   {
+    "record_id": "38429390",
+    "carried": 46994,
+    "packets": [
+     58000
+    ]
+   },
+   {
+    "record_id": "38455364",
+    "carried": 27751,
+    "packets": [
+     86509
+    ]
+   },
+   {
+    "record_id": "38562480",
+    "carried": 31687,
+    "packets": [
+     375218
+    ]
+   },
+   {
+    "record_id": "38605099",
+    "carried": 20567,
+    "packets": [
+     35435
+    ]
+   },
+   {
+    "record_id": "38623619",
+    "carried": 38214,
+    "packets": [
+     68276
+    ]
+   },
+   {
+    "record_id": "38637810",
+    "carried": 50808,
+    "packets": [
+     161507
+    ]
+   },
+   {
+    "record_id": "38689297",
+    "carried": 52231,
+    "packets": [
+     200783
+    ]
+   },
+   {
+    "record_id": "38730525",
+    "carried": 29308,
+    "packets": [
+     84326
+    ]
+   },
+   {
+    "record_id": "38782984",
+    "carried": 27449,
+    "packets": [
+     62106
+    ]
+   },
+   {
+    "record_id": "38828357",
+    "carried": 33476,
+    "packets": [
+     77491
+    ]
+   },
+   {
+    "record_id": "38887235",
+    "carried": 44663,
+    "packets": [
+     59224,
+     428209,
+     416865,
+     356460
+    ]
+   },
+   {
+    "record_id": "38892221",
+    "carried": 88477,
+    "packets": [
+     253759
+    ]
+   },
+   {
+    "record_id": "38898508",
+    "carried": 69059,
+    "packets": [
+     705452,
+     198406
+    ]
+   },
+   {
+    "record_id": "38903171",
+    "carried": 50183,
+    "packets": [
+     76555
+    ]
+   },
+   {
+    "record_id": "38957317",
+    "carried": 143236,
+    "packets": [
+     340234
+    ]
+   },
+   {
+    "record_id": "38989470",
+    "carried": 49550,
+    "packets": [
+     317623,
+     276164
+    ]
+   },
+   {
+    "record_id": "39010723",
+    "carried": 30747,
+    "packets": [
+     34334,
+     434992,
+     426913,
+     421184,
+     421224,
+     421263,
+     421220,
+     421210,
+     421151,
+     421215,
+     421215,
+     421280,
+     422820,
+     433140,
+     202265
+    ]
+   },
+   {
+    "record_id": "39025905",
+    "carried": 151717,
+    "packets": [
+     250946,
+     361265
+    ]
+   },
+   {
+    "record_id": "39036049",
+    "carried": 28275,
+    "packets": [
+     261746
+    ]
+   },
+   {
+    "record_id": "39040677",
+    "carried": 35092,
+    "packets": [
+     114998
+    ]
+   },
+   {
+    "record_id": "39068416",
+    "carried": 39840,
+    "packets": [
+     269126
+    ]
+   },
+   {
+    "record_id": "39148858",
+    "carried": 41184,
+    "packets": [
+     53061
+    ]
+   },
+   {
+    "record_id": "39156738",
+    "carried": 21078,
+    "packets": [
+     95687
+    ]
+   },
+   {
+    "record_id": "39221148",
+    "carried": 34043,
+    "packets": [
+     88919
+    ]
+   },
+   {
+    "record_id": "39247875",
+    "carried": 32812,
+    "packets": [
+     42362
+    ]
+   },
+   {
+    "record_id": "39267832",
+    "carried": 29459,
+    "packets": [
+     215504
+    ]
+   },
+   {
+    "record_id": "39273172",
+    "carried": 30721,
+    "packets": [
+     159996
+    ]
+   },
+   {
+    "record_id": "39351539",
+    "carried": 38645,
+    "packets": [
+     69308
+    ]
+   },
+   {
+    "record_id": "39386869",
+    "carried": 67498,
+    "packets": [
+     102642
+    ]
+   },
+   {
+    "record_id": "39392298",
+    "carried": 48642,
+    "packets": [
+     62566,
+     444167,
+     444520,
+     443591,
+     440443,
+     438395,
+     436818,
+     437167,
+     438519,
+     439122,
+     438488,
+     438113,
+     438848,
+     437237,
+     440000,
+     440202,
+     441030,
+     438192,
+     254537,
+     439996,
+     439064,
+     439074,
+     438157,
+     439334,
+     438608,
+     439004,
+     72091
+    ]
+   },
+   {
+    "record_id": "39397782",
+    "carried": 42965,
+    "packets": [
+     135541
+    ]
+   },
+   {
+    "record_id": "39398994",
+    "carried": 26911,
+    "packets": [
+     431649,
+     197979
+    ]
+   },
+   {
+    "record_id": "39408566",
+    "carried": 43401,
+    "packets": [
+     59987
+    ]
+   },
+   {
+    "record_id": "39434187",
+    "carried": 59647,
+    "packets": [
+     147042
+    ]
+   },
+   {
+    "record_id": "39492919",
+    "carried": 36404,
+    "packets": [
+     97119
+    ]
+   },
+   {
+    "record_id": "39572695",
+    "carried": 75104,
+    "packets": [
+     310558,
+     330283
+    ]
+   },
+   {
+    "record_id": "39574905",
+    "carried": 32251,
+    "packets": [
+     59237
+    ]
+   },
+   {
+    "record_id": "39592890",
+    "carried": 33744,
+    "packets": [
+     86814
+    ]
+   },
+   {
+    "record_id": "39637861",
+    "carried": 56242,
+    "packets": [
+     258521
+    ]
+   },
+   {
+    "record_id": "39747981",
+    "carried": 35612,
+    "packets": [
+     239224
+    ]
+   },
+   {
+    "record_id": "39763524",
+    "carried": 31639,
+    "packets": [
+     135452
+    ]
+   },
+   {
+    "record_id": "39806440",
+    "carried": 35343,
+    "packets": [
+     171701
+    ]
+   },
+   {
+    "record_id": "39823480",
+    "carried": 31296,
+    "packets": [
+     46353
+    ]
+   },
+   {
+    "record_id": "39824903",
+    "carried": 47138,
+    "packets": [
+     298451
+    ]
+   },
+   {
+    "record_id": "39844246",
+    "carried": 38009,
+    "packets": [
+     49868
+    ]
+   },
+   {
+    "record_id": "39846783",
+    "carried": 34383,
+    "packets": [
+     428538,
+     428650,
+     428700,
+     392629,
+     153818,
+     415223,
+     128191,
+     428538,
+     428650,
+     428700,
+     392629,
+     153819,
+     415225,
+     128193
+    ]
+   },
+   {
+    "record_id": "39856218",
+    "carried": 58186,
+    "packets": [
+     226672
+    ]
+   },
+   {
+    "record_id": "39870808",
+    "carried": 22737,
+    "packets": [
+     131784
+    ]
+   },
+   {
+    "record_id": "39887658",
+    "carried": 65313,
+    "packets": [
+     146041
+    ]
+   },
+   {
+    "record_id": "39895541",
+    "carried": 42229,
+    "packets": [
+     404706,
+     404728,
+     404753,
+     404731,
+     404798,
+     404782,
+     404704,
+     404702,
+     404680,
+     404693,
+     404776,
+     404754,
+     404818,
+     404713,
+     404781,
+     404655,
+     404675,
+     404724,
+     404684,
+     404707,
+     406165,
+     406123,
+     406165,
+     153766
+    ]
+   },
+   {
+    "record_id": "39911230",
+    "carried": 41396,
+    "packets": [
+     180193
+    ]
+   },
+   {
+    "record_id": "39960916",
+    "carried": 33461,
+    "packets": [
+     173300
+    ]
+   },
+   {
+    "record_id": "39979251",
+    "carried": 19651,
+    "packets": [
+     26857
+    ]
+   },
+   {
+    "record_id": "39994764",
+    "carried": 43074,
+    "packets": [
+     424136,
+     434107,
+     441195,
+     190757
+    ]
+   },
+   {
+    "record_id": "40008516",
+    "carried": 35721,
+    "packets": [
+     43484
+    ]
+   },
+   {
+    "record_id": "40026415",
+    "carried": 54641,
+    "packets": [
+     431259,
+     431021,
+     431078,
+     431174,
+     431099,
+     431179,
+     434658,
+     435996,
+     436090,
+     436130,
+     435874,
+     436011,
+     437101,
+     437501,
+     437776,
+     437945,
+     437748,
+     437548,
+     437535,
+     437524,
+     437509,
+     437715,
+     437489,
+     437192,
+     435074,
+     434869,
+     435144,
+     434957,
+     434893,
+     434994,
+     435799,
+     435765,
+     435955,
+     435928,
+     435906,
+     436356,
+     437178,
+     437350,
+     437656,
+     437434,
+     437420,
+     435176,
+     434706,
+     434657,
+     435097,
+     434883,
+     434835,
+     434733,
+     435052,
+     435015,
+     435159,
+     435230,
+     435021,
+     206097,
+     524484,
+     420015,
+     420215,
+     420013,
+     420242,
+     419967,
+     420262,
+     419823,
+     420461,
+     419549,
+     420820,
+     419593,
+     420862,
+     419547,
+     419523,
+     420801,
+     419533,
+     419493,
+     372663
+    ]
+   },
+   {
+    "record_id": "40037332",
+    "carried": 76420,
+    "packets": [
+     116927
+    ]
+   },
+   {
+    "record_id": "40050982",
+    "carried": 54297,
+    "packets": [
+     103984
+    ]
+   },
+   {
+    "record_id": "40052860",
+    "carried": 84903,
+    "packets": [
+     139940
+    ]
+   },
+   {
+    "record_id": "40108295",
+    "carried": 55720,
+    "packets": [
+     115969
+    ]
+   },
+   {
+    "record_id": "40135555",
+    "carried": 43320,
+    "packets": [
+     161779
+    ]
+   },
+   {
+    "record_id": "40148470",
+    "carried": 119139,
+    "packets": [
+     423948,
+     424058,
+     424000,
+     423334,
+     422600,
+     422263,
+     422378,
+     422392,
+     422364,
+     422363,
+     422323,
+     422253,
+     421099,
+     421072,
+     421090,
+     421131,
+     421366,
+     422055,
+     422207,
+     422235,
+     421855,
+     420997,
+     420899,
+     420743,
+     420792,
+     422310,
+     424269,
+     424192,
+     423427,
+     420736,
+     420909,
+     420904,
+     420992,
+     421726,
+     423616,
+     423856,
+     423653,
+     422560,
+     422077,
+     421987,
+     422351,
+     422600,
+     423373,
+     423438,
+     423514,
+     422474,
+     421953,
+     421995,
+     421851,
+     422289,
+     424089,
+     424085,
+     424059,
+     422574,
+     422521,
+     422478,
+     422474,
+     422922,
+     423727,
+     423782,
+     423226,
+     422004,
+     422097,
+     422059,
+     422268,
+     423245,
+     423653,
+     423646,
+     423471,
+     421995,
+     421972,
+     422207,
+     421883,
+     422163,
+     422038,
+     422868,
+     422833,
+     422773,
+     421790,
+     421413,
+     421631,
+     421299,
+     421927,
+     422434,
+     421803,
+     421444,
+     422559,
+     422493,
+     422475,
+     422626,
+     421683,
+     421343,
+     421472,
+     422185,
+     421898,
+     421780,
+     421769,
+     421216,
+     421072,
+     421496,
+     420883,
+     420662,
+     421045,
+     420686,
+     421667,
+     422021,
+     422824,
+     422694,
+     422537,
+     422487,
+     421109,
+     419501,
+     420052,
+     420730,
+     420527,
+     420443,
+     420201,
+     420422,
+     419765,
+     420048,
+     421769,
+     421967,
+     421684,
+     423746,
+     423518,
+     420883,
+     420750,
+     421293,
+     421369,
+     421254,
+     420763,
+     420382,
+     421003,
+     420871,
+     420867,
+     422507,
+     422280,
+     422238,
+     422189,
+     423209,
+     423563,
+     423381,
+     422987,
+     423312,
+     422675,
+     422810,
+     421767,
+     422798,
+     423612,
+     423249,
+     423178,
+     423180,
+     423066,
+     422055,
+     422200,
+     422091,
+     423026,
+     423206,
+     423030,
+     422819,
+     422902,
+     421811,
+     421235,
+     420444,
+     421229,
+     421010,
+     420837,
+     420809,
+     303627
+    ]
+   },
+   {
+    "record_id": "40149599",
+    "carried": 27345,
+    "packets": [
+     40926
+    ]
+   },
+   {
+    "record_id": "40186323",
+    "carried": 45361,
+    "packets": [
+     147071
+    ]
+   },
+   {
+    "record_id": "40193678",
+    "carried": 30029,
+    "packets": [
+     43095
+    ]
+   },
+   {
+    "record_id": "40225784",
+    "carried": 60922,
+    "packets": [
+     304206,
+     405968,
+     407851,
+     402908,
+     406683,
+     180637
+    ]
+   },
+   {
+    "record_id": "40263317",
+    "carried": 39590,
+    "packets": [
+     389701
+    ]
+   },
+   {
+    "record_id": "40269081",
+    "carried": 31225,
+    "packets": [
+     43682
+    ]
+   },
+   {
+    "record_id": "40304587",
+    "carried": 37259,
+    "packets": [
+     129719
+    ]
+   },
+   {
+    "record_id": "40327005",
+    "carried": 57262,
+    "packets": [
+     82354
+    ]
+   },
+   {
+    "record_id": "40355193",
+    "carried": 28642,
+    "packets": [
+     31054,
+     433539,
+     433234,
+     218226,
+     422744,
+     422507,
+     424740,
+     141056,
+     424665,
+     424566,
+     424612,
+     239250,
+     417454,
+     417483,
+     417519,
+     417486,
+     154178,
+     415855,
+     415397,
+     230036,
+     423004,
+     423339,
+     422979,
+     422988,
+     423159,
+     423142,
+     423088,
+     236134
+    ]
+   },
+   {
+    "record_id": "40400956",
+    "carried": 56660,
+    "packets": [
+     141904
+    ]
+   },
+   {
+    "record_id": "40420090",
+    "carried": 38399,
+    "packets": [
+     427575
+    ]
+   },
+   {
+    "record_id": "40426943",
+    "carried": 43552,
+    "packets": [
+     67890
+    ]
+   },
+   {
+    "record_id": "40442727",
+    "carried": 38967,
+    "packets": [
+     425918,
+     163758
+    ]
+   },
+   {
+    "record_id": "40444654",
+    "carried": 33172,
+    "packets": [
+     177962
+    ]
+   },
+   {
+    "record_id": "40450304",
+    "carried": 32553,
+    "packets": [
+     35870
+    ]
+   },
+   {
+    "record_id": "40453312",
+    "carried": 32725,
+    "packets": [
+     48766
+    ]
+   },
+   {
+    "record_id": "40455174",
+    "carried": 46397,
+    "packets": [
+     85860
+    ]
+   },
+   {
+    "record_id": "40462010",
+    "carried": 30129,
+    "packets": [
+     437891,
+     437942,
+     438528,
+     438649,
+     438792,
+     438988,
+     438968,
+     139156,
+     427971,
+     427251,
+     427267,
+     201656,
+     402886,
+     402989,
+     402861,
+     402750,
+     58653
+    ]
+   },
+   {
+    "record_id": "40533710",
+    "carried": 35967,
+    "packets": [
+     403107,
+     403313,
+     403294,
+     403244,
+     403424,
+     403041,
+     160946,
+     404149,
+     246047,
+     431314,
+     429328,
+     427296,
+     426645,
+     322896
+    ]
+   },
+   {
+    "record_id": "40596960",
+    "carried": 39862,
+    "packets": [
+     435511,
+     435207,
+     373770,
+     421915,
+     422070,
+     421919,
+     303760,
+     422590,
+     422252,
+     422451,
+     135692,
+     422122,
+     421954,
+     421993,
+     148784,
+     421209,
+     421190,
+     421007,
+     320763,
+     420200,
+     420399,
+     420237,
+     386639,
+     421065,
+     421180,
+     194619,
+     420539,
+     421122,
+     420343,
+     419242,
+     418212,
+     419878,
+     55558,
+     420339,
+     420276,
+     418473,
+     160739,
+     425137,
+     425138,
+     217554,
+     422590,
+     422252,
+     422451,
+     135692,
+     424439,
+     424546,
+     228554,
+     421209,
+     421190,
+     421007,
+     320763,
+     420199,
+     420398,
+     420236,
+     386638,
+     423590,
+     366501,
+     424855,
+     424918,
+     422427,
+     421889,
+     130743,
+     424673,
+     422503,
+     136249,
+     434718,
+     434852,
+     449061,
+     388758,
+     434670,
+     434861,
+     446005,
+     428296,
+     435114,
+     435332,
+     437183,
+     441772,
+     441790,
+     275521,
+     435067,
+     441812,
+     111533,
+     434951,
+     436791,
+     441930,
+     288061,
+     421955,
+     422188,
+     421422,
+     421538,
+     421983,
+     422738,
+     421507,
+     422483,
+     421523,
+     422463,
+     420988,
+     421634,
+     420639,
+     421682,
+     315852
+    ]
+   },
+   {
+    "record_id": "40604874",
+    "carried": 29415,
+    "packets": [
+     275806
+    ]
+   },
+   {
+    "record_id": "40657364",
+    "carried": 37315,
+    "packets": [
+     45629
+    ]
+   },
+   {
+    "record_id": "40689090",
+    "carried": 45367,
+    "packets": [
+     184029
+    ]
+   },
+   {
+    "record_id": "40696606",
+    "carried": 43318,
+    "packets": [
+     88059
+    ]
+   },
+   {
+    "record_id": "40820167",
+    "carried": 39653,
+    "packets": [
+     134863
+    ]
+   },
+   {
+    "record_id": "40893937",
+    "carried": 34726,
+    "packets": [
+     70084
+    ]
+   },
+   {
+    "record_id": "40991151",
+    "carried": 34997,
+    "packets": [
+     98721
+    ]
+   },
+   {
+    "record_id": "40996951",
+    "carried": 55227,
+    "packets": [
+     424411
+    ]
+   },
+   {
+    "record_id": "41063246",
+    "carried": 35680,
+    "packets": [
+     281652
+    ]
+   },
+   {
+    "record_id": "41088581",
+    "carried": 32693,
+    "packets": [
+     437991,
+     437521,
+     438948,
+     439043,
+     438700,
+     287287
+    ]
+   },
+   {
+    "record_id": "41142151",
+    "carried": 30194,
+    "packets": [
+     89020
+    ]
+   },
+   {
+    "record_id": "41180196",
+    "carried": 39472,
+    "packets": [
+     60675
+    ]
+   },
+   {
+    "record_id": "41200167",
+    "carried": 34623,
+    "packets": [
+     452945,
+     452953,
+     453070,
+     452867,
+     452981,
+     452721,
+     454014,
+     447026,
+     424262,
+     424343,
+     426098,
+     427001,
+     426228,
+     424622,
+     424586,
+     423152,
+     422594,
+     423519,
+     422452,
+     422399,
+     422408,
+     259971
+    ]
+   },
+   {
+    "record_id": "41200820",
+    "carried": 39767,
+    "packets": [
+     112275
+    ]
+   },
+   {
+    "record_id": "41239582",
+    "carried": 32616,
+    "packets": [
+     204737
+    ]
+   },
+   {
+    "record_id": "41247789",
+    "carried": 40252,
+    "packets": [
+     70530
+    ]
+   },
+   {
+    "record_id": "41254737",
+    "carried": 53990,
+    "packets": [
+     133270
+    ]
+   },
+   {
+    "record_id": "41261583",
+    "carried": 24808,
+    "packets": [
+     338560
+    ]
+   },
+   {
+    "record_id": "41261649",
+    "carried": 20709,
+    "packets": [
+     29407
+    ]
+   },
+   {
+    "record_id": "41270069",
+    "carried": 26784,
+    "packets": [
+     420268,
+     374038,
+     384081,
+     287598,
+     284687
+    ]
+   },
+   {
+    "record_id": "41286868",
+    "carried": 30956,
+    "packets": [
+     757484,
+     757131,
+     757197,
+     757116,
+     757195,
+     757216,
+     757213,
+     757107,
+     757163,
+     533179,
+     426267,
+     426271,
+     426199,
+     426348,
+     426261,
+     426315,
+     426325,
+     426191,
+     426346,
+     426325,
+     436606,
+     437036,
+     436608,
+     429772,
+     426134,
+     426292,
+     426164,
+     426283,
+     720697,
+     197565
+    ]
+   },
+   {
+    "record_id": "41323472",
+    "carried": 107171,
+    "packets": [
+     316655
+    ]
+   },
+   {
+    "record_id": "41350740",
+    "carried": 67736,
+    "packets": [
+     439407,
+     426974,
+     425760,
+     85076
+    ]
+   },
+   {
+    "record_id": "41358287",
+    "carried": 46392,
+    "packets": [
+     269519
+    ]
+   },
+   {
+    "record_id": "41372872",
+    "carried": 38821,
+    "packets": [
+     46474
+    ]
+   },
+   {
+    "record_id": "41398348",
+    "carried": 32704,
+    "packets": [
+     90451
+    ]
+   },
+   {
+    "record_id": "41540382",
+    "carried": 50090,
+    "packets": [
+     321982
+    ]
+   }
+  ]
+ }
+}
