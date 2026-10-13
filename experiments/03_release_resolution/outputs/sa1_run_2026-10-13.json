@@ -1,0 +1,39 @@
+{
+ "claude-sonnet-5-5": {
+  "model": "claude-sonnet-5-5",
+  "packets": 266,
+  "states": {
+   "accepted": 266,
+   "failed": 0,
+   "pending": 0
+  },
+  "not_sent_ceiling": 0,
+  "stopped": null,
+  "errors": [],
+  "spent_usd": 29.6336,
+  "failed": [],
+  "pending": [],
+  "models_returned": [
+   "claude-sonnet-5-5"
+  ]
+ },
+ "gpt-6.1-sol": {
+  "model": "gpt-6.1-sol",
+  "packets": 266,
+  "states": {
+   "accepted": 266,
+   "failed": 0,
+   "pending": 0
+  },
+  "not_sent_ceiling": 0,
+  "stopped": null,
+  "errors": [],
+  "spent_usd": 27.2815,
+  "failed": [],
+  "pending": [],
+  "models_returned": [
+   "gpt-6.1-sol"
+  ]
+ },
+ "spent_usd": 29.6336
+}
