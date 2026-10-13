@@ -1,0 +1,14 @@
+{
+ "type": "object",
+ "additionalProperties": false,
+ "required": ["row_id", "choice", "confidence", "needs_human", "reason", "quotation"],
+ "properties": {
+  "row_id": {"type": "string"},
+  "choice": {"type": "string", "enum": ["answer_1", "answer_2", "neither", "correct",
+                                        "substantive_error", "other_issue"]},
+  "confidence": {"type": "number", "minimum": 0, "maximum": 1},
+  "needs_human": {"type": "boolean"},
+  "reason": {"type": "string"},
+  "quotation": {"type": "string"}
+ }
+}
