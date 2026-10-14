@@ -1,0 +1,32 @@
+{
+ "stage": "sa1",
+ "script": "scripts/sa1_calibration_diagnostic_v1.py",
+ "diagnostic_only": "changes no verdict of outputs/sa1_calibration_2026-10-14.json",
+ "inputs": {
+  "../../planning/release_resolution_author_page_sa1_2026-10-14/sa1_author_page_42_v2.html": "1ad85d237f935d8df2afb016a60f3d1f19d68a131245733558c269dbf562d290",
+  "../../planning/release_resolution_author_page_sa1_2026-10-14/sa1_author_marks_42_assisted.json": "3c3872b58a57f663fb409f7577d54854a7fbfed1c454667070d61fcf045c5800",
+  "outputs/sa1_calibration_2026-10-14.json": "90f35e614a4982430bb36452d2dd118285c785beaaae207d31fd047ab9114def",
+  "outputs/sa1_two_judges_routing_2026-10-14.json": "6964d3fcf02d7483e88260310ae08c73cd830150d03e80b7630fabe3af4c8078"
+ },
+ "disagreement_calibration_rows": 20,
+ "differing_rows": 16,
+ "label_check": {
+  "in_order": 20,
+  "swapped": 0,
+  "neither": 0
+ },
+ "direction": {
+  "a": 0,
+  "b": 0,
+  "c": 0,
+  "d": 16,
+  "other": 0
+ },
+ "direction_classes": {
+  "a": "author's answer identifies no release, the judges' identifies one or more",
+  "b": "author's answer identifies one or more releases, the judges' none",
+  "c": "both identify releases, different ones",
+  "d": "both identify none, differing in attribution or reasons only",
+  "other": "a neither choice or a missing answer"
+ }
+}
