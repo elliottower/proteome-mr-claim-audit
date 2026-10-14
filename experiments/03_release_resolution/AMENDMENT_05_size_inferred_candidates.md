@@ -1,0 +1,34 @@
+# Amendment 5: size-inferred candidates and assisted adjudication pages
+
+Amendment to `experiments/03_release_resolution/PREREG.md` (frozen 10 October 2026, registered at https://osf.io/2s479), after Amendments 1 to 4 and Deviation 1. It takes effect when the plan's log names the sha256 of this file. Access level: SA1 is coded, gated and judged, and routing counts are known; the author has opened his SA1 page of 42 rows. No judge choice or reason has been read, no row of stage A has been coded, and no estimand has been computed.
+
+## Why
+
+The plan lets a sample size decide nothing in the primary analysis, and its count-inferred sensitivity analyses accept exact counts only; a total stated as a maximum ("up to", "≤") supports nothing. Several dictionary rows document their own sample size as a maximum over phenotypes (UK Biobank SAIGE PheWeb, Zhou et al. 2018: "up to 408,961"), and a paper that uses such a resource reports that same maximum. A stated maximum equal to the documented maximum of exactly one dictionary row of the named resource points to that row.
+
+## What changes
+
+**1. The size-match flag.** For every row of every pass (SA1, stage A, stage B), a script computes a flag from the pinned passages and the frozen dictionary definitions (`experiments/02_claims_meta/outputs/manual_coding/2026-10-03/coders/dictionary_definitions.csv`, sha256 57f2c5bcef2b63d2d8526d4950c963a5e92e7d56cb75df215b7bbacff9f11e07), with no model:
+- a dictionary row's **documented size** is its `sample_size` field when that field is one total, or the number after "up to" when it states a maximum; a row whose field holds only ranges, per-code counts or sums has no documented size;
+- a **stated size** is a total sample size in a passage attributed to the side's named resource, exact or stated as a maximum ("up to", "≤", "maximum", "max."); a number qualified as approximate ("~", "≈", "about", "approximately", "around", "nearly", "over", "more than", ">") is not a stated size; trailing zeros alone never make a number approximate;
+- stated sizes of equal value are counted once;
+- an exact stated size may match a documented single total or a documented maximum, and a stated maximum may match either too; the record names which kind each side was;
+- each distinct stated size is compared, digit for digit, with the documented sizes of the dictionary rows of the named resource. The flag is **size_match** when one or more stated sizes equal the documented size of exactly one row and no stated size equals that of a different row; **size_ambiguous** when a stated size equals the documented sizes of two or more rows and no stated size singles out one row; **size_conflict** when stated sizes single out different rows; otherwise none. Stated sizes that match no row are listed in the record and do not change the flag.
+
+**2. The sensitivity analyses.** Two rows are added to §Other planned analysis, each reported beside the primary analysis and never replacing it:
+- "size-inferred, script-based: as 'exact total sample size permitted', and a size_match with no decisive rule and no registered conflict resolves the mention to its row";
+- "size-inferred, script-based with author attribution corrections: as script-based, except that a size_match whose attribution the author rejected (item 4) does not resolve; a size_match on a row he did not see resolves as script-based, and the count of such rows is stated".
+
+**3. The primary analysis is unchanged.** Primary release-resolution codes remain unchanged under the frozen rules. Size-match flags are separate annotations: a sample size, matched or not, decides no release in the primary analysis, the adjudication or the audit. `size_conflict` is reported as conflicting size-based evidence, not as a registered identifier conflict, and cannot override a primary code.
+
+**4. Assisted pages.** The author's pages show, per card: every number in the shown sources highlighted, with the size-match flag and the matched dictionary row; every citation, URL and accession highlighted, with the dictionary or accession-table row it maps to, if any; and the dictionary rows of the named resources. These aids are computed by script and decide nothing; the paper describes the adjudication as assisted by them. The author records two things per row: the release the sources explicitly identify, under the frozen rules, which is the code; and, separately, any release he infers, with its reason. On a size-matched row he also confirms or rejects the attribution of the sample-size statement to the side's named resource; this checks the attribution, not the inferred release. An inferred release never enters the primary analysis. This amendment is logged, with its sha256, before the author marks any row on an assisted page. Marks he entered on the earlier page, without the aids, are kept and recorded as entered before the aids were visible, and any change he makes to them afterwards is recorded with its time.
+
+**5. Labels and wording.** Each row is reported under one of four labels: **explicitly identified** (a decisive rule); **conflicting identifiers** (as registered); **size-inferred candidate** (no decisive rule, no registered conflict, a size_match); **not explicitly identified under the registered rules** (none of these). Rows with size_ambiguous or size_conflict are counted apart within the last label. The primary analysis counts only the first label. The script-based sensitivity analysis includes qualifying size-inferred candidates under item 2. The author-corrected sensitivity analysis excludes attribution-rejected candidates but retains unreviewed script-only candidates. Counts are reported separately by attribution-review status. The paper never says a release cannot be identified. Size-inferred candidates are reported by verification level: attribution confirmed by the author, attribution rejected, and script-only on a row he did not see.
+
+**6. The Maximum claim** gains one sentence: "A stated sample size matched to the documented size of one dictionary row is reported as a size-inferred candidate and counted only in a sensitivity analysis, never as an identification in the primary analysis."
+
+## Foreknowledge
+
+The author proposed this rule after reading one SA1 abstract on his page that states a UK Biobank sample size of at most 408,961, and seeing that the frozen dictionary documents the UK Biobank SAIGE PheWeb release as "up to 408,961" and no other UK Biobank row with that size. No other row, judge answer, coded answer or estimand was read for this rule. The flag's counts in any pass are not known.
+
+Four external review rounds of earlier drafts were read and their points are applied here; the fourth gave the final wording of items 2 and 5, applied verbatim, and asked for no further design change.
