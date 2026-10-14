@@ -1,0 +1,35 @@
+{
+ "stage": "sa1",
+ "rows": 212,
+ "requests": 424,
+ "rows_by_task": {
+  "disagreement": 162,
+  "audit": 50
+ },
+ "reserved_bound_usd": {
+  "claude-fable-5-1": 175.2,
+  "gpt-6-astra": 143.09
+ },
+ "reserved_bound_total_usd": 318.29,
+ "system_characters": 77798,
+ "prices_usd_per_million": {
+  "claude-fable-5-1": {
+   "new": 10.0,
+   "cache_write": 12.5,
+   "cached": 0.25,
+   "output": 50.0
+  },
+  "gpt-6-astra": {
+   "new": 10.0,
+   "cached": 1.0,
+   "output": 50.0
+  }
+ },
+ "min_characters_per_token": {
+  "claude-fable-5-1": 1.98,
+  "gpt-6-astra": 3.11
+ },
+ "max_output_tokens": 8192,
+ "ledger_usd_before": 29.6336,
+ "ceiling_usd": 100.0
+}
