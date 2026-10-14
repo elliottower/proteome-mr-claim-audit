@@ -1,0 +1,773 @@
+{
+ "stage": "sa1",
+ "tasks": {
+  "disagreement": {
+   "rows": 162,
+   "routed": 129,
+   "lone": 33,
+   "routed_by_reason": {
+    "claude-fable-5-1:confidence_below_0.80": 129,
+    "claude-fable-5-1:needs_human": 56,
+    "judges_differ": 22,
+    "claude-fable-5-1:choice_neither": 1,
+    "gpt-6-astra:choice_neither": 1
+   },
+   "routed_row_ids": [
+    "008f994e9bb8",
+    "009366c918f1",
+    "024a36d2b7fa",
+    "04780a4f9119",
+    "0506f4d9ac25",
+    "089e09ef68a4",
+    "099319929422",
+    "0a4d0f4127f3",
+    "0a6b228384c5",
+    "0b6828314d0b",
+    "0d10a67f9eb5",
+    "0ebc75febb29",
+    "152460499f0f",
+    "16b7b67e9d0d",
+    "18ee51dd8fe1",
+    "191fa25c90a4",
+    "1a6fecf59df7",
+    "1d77e8629cf7",
+    "1e70ad1f648e",
+    "2112dd00b9f5",
+    "213cdabd65bc",
+    "2300ed327169",
+    "2390dc24708f",
+    "23d17b0d3d58",
+    "273a55683fff",
+    "28aacb2fee5c",
+    "2b7ec4761e30",
+    "2c799dd0b09e",
+    "2f22adca61f9",
+    "395fb3bfd8cf",
+    "3d15a83f02f5",
+    "3ded96844396",
+    "3e01ad80962c",
+    "40fb3b0391c0",
+    "448578ccc0e2",
+    "46d42507e44a",
+    "487c6617a38b",
+    "4bc0ccc9b44a",
+    "4cb6f439f46b",
+    "4f28a18fb70c",
+    "5040df2dd970",
+    "508df9db15c4",
+    "511490ce0d9d",
+    "51165186e48b",
+    "521ced4aec2b",
+    "53e1f0668928",
+    "54a5d89da7ff",
+    "54cbefe9aa84",
+    "55cee993591b",
+    "56375a17b165",
+    "5a4e7df4beb6",
+    "5d36c320e8fc",
+    "5d66fa6498a2",
+    "63a12cc52591",
+    "66db87bf049a",
+    "671427ff123d",
+    "67b4f6278a69",
+    "680d6be19279",
+    "694918efe842",
+    "6a1707442786",
+    "6d653ede5c4d",
+    "7256addfb3b7",
+    "72d245922f94",
+    "7313e95de3d5",
+    "736ff31b199a",
+    "74e9add7e811",
+    "79afab874701",
+    "7a7a2515dc9e",
+    "7bb8382d0752",
+    "7fd3f3e7859a",
+    "80849ec038ed",
+    "80fd98082b08",
+    "816a7fc625b3",
+    "827f12effad0",
+    "85f732841edf",
+    "86ea8241bc34",
+    "8b7a385ff091",
+    "8cfc170ad44f",
+    "91fb22cdc301",
+    "9249bf0bb816",
+    "95940b4321ed",
+    "9626c0bc73e8",
+    "9638b7b07655",
+    "9ccaa07670fe",
+    "9d1f66f2d004",
+    "9d79e89a02d6",
+    "9fa2adde5732",
+    "a24521e73c5a",
+    "a2a3b82d1a6b",
+    "a2f29850fc2a",
+    "a98589ea63f6",
+    "ac2993f5c0b9",
+    "aef4c6509c06",
+    "b4cec3c5d765",
+    "ba070ce51ee8",
+    "bc2a1c0df3ed",
+    "bc700dc9d16a",
+    "bd0ccb4d2beb",
+    "bea31c61e702",
+    "c0a73049410e",
+    "c1953f6c2587",
+    "c3790fcbbb0f",
+    "c5e2009b4a2b",
+    "c9e3f4185973",
+    "cb10f2456042",
+    "cef44f6aaeff",
+    "d268b72435bb",
+    "d34a39eeaa2b",
+    "d386e36babf4",
+    "d54331082685",
+    "d5aecd66a0f2",
+    "d65106c58fc5",
+    "d84406875f34",
+    "da2954e074b9",
+    "dd243c8fedd2",
+    "ddac493825d3",
+    "e757fa1b9fdf",
+    "eb74efcef226",
+    "ec3a4514aa87",
+    "ece47e564707",
+    "f1318c911913",
+    "f2da76bf2534",
+    "f367ded61c69",
+    "f78c9111d278",
+    "f9629e6c3ac4",
+    "fa33e39a42e6",
+    "fafab84a5e17",
+    "fb6754d047dc",
+    "fba0a5bf0024"
+   ],
+   "routed_reasons": {
+    "16b7b67e9d0d": [
+     "claude-fable-5-1:confidence_below_0.80"
+    ],
+    "089e09ef68a4": [
+     "claude-fable-5-1:confidence_below_0.80"
+    ],
+    "d34a39eeaa2b": [
+     "claude-fable-5-1:confidence_below_0.80",
+     "claude-fable-5-1:needs_human"
+    ],
+    "c3790fcbbb0f": [
+     "claude-fable-5-1:confidence_below_0.80"
+    ],
+    "008f994e9bb8": [
+     "claude-fable-5-1:confidence_below_0.80"
+    ],
+    "04780a4f9119": [
+     "claude-fable-5-1:confidence_below_0.80"
+    ],
+    "448578ccc0e2": [
+     "claude-fable-5-1:confidence_below_0.80",
+     "claude-fable-5-1:needs_human"
+    ],
+    "53e1f0668928": [
+     "claude-fable-5-1:confidence_below_0.80"
+    ],
+    "6d653ede5c4d": [
+     "claude-fable-5-1:confidence_below_0.80",
+     "claude-fable-5-1:needs_human",
+     "judges_differ"
+    ],
+    "f1318c911913": [
+     "claude-fable-5-1:confidence_below_0.80"
+    ],
+    "7fd3f3e7859a": [
+     "claude-fable-5-1:confidence_below_0.80"
+    ],
+    "86ea8241bc34": [
+     "claude-fable-5-1:confidence_below_0.80"
+    ],
+    "cb10f2456042": [
+     "claude-fable-5-1:confidence_below_0.80"
+    ],
+    "cef44f6aaeff": [
+     "claude-fable-5-1:confidence_below_0.80"
+    ],
+    "a24521e73c5a": [
+     "claude-fable-5-1:confidence_below_0.80",
+     "claude-fable-5-1:needs_human"
+    ],
+    "eb74efcef226": [
+     "claude-fable-5-1:confidence_below_0.80",
+     "claude-fable-5-1:needs_human"
+    ],
+    "72d245922f94": [
+     "claude-fable-5-1:confidence_below_0.80"
+    ],
+    "6a1707442786": [
+     "claude-fable-5-1:confidence_below_0.80",
+     "judges_differ"
+    ],
+    "680d6be19279": [
+     "claude-fable-5-1:confidence_below_0.80",
+     "claude-fable-5-1:needs_human"
+    ],
+    "85f732841edf": [
+     "claude-fable-5-1:confidence_below_0.80"
+    ],
+    "671427ff123d": [
+     "claude-fable-5-1:confidence_below_0.80"
+    ],
+    "816a7fc625b3": [
+     "claude-fable-5-1:confidence_below_0.80"
+    ],
+    "4bc0ccc9b44a": [
+     "claude-fable-5-1:confidence_below_0.80",
+     "claude-fable-5-1:needs_human"
+    ],
+    "9d79e89a02d6": [
+     "claude-fable-5-1:confidence_below_0.80",
+     "claude-fable-5-1:needs_human"
+    ],
+    "bd0ccb4d2beb": [
+     "claude-fable-5-1:confidence_below_0.80",
+     "judges_differ"
+    ],
+    "c0a73049410e": [
+     "claude-fable-5-1:confidence_below_0.80",
+     "claude-fable-5-1:needs_human",
+     "judges_differ"
+    ],
+    "fa33e39a42e6": [
+     "claude-fable-5-1:confidence_below_0.80",
+     "judges_differ"
+    ],
+    "c5e2009b4a2b": [
+     "claude-fable-5-1:confidence_below_0.80"
+    ],
+    "f9629e6c3ac4": [
+     "claude-fable-5-1:confidence_below_0.80",
+     "claude-fable-5-1:needs_human"
+    ],
+    "40fb3b0391c0": [
+     "claude-fable-5-1:confidence_below_0.80"
+    ],
+    "aef4c6509c06": [
+     "claude-fable-5-1:confidence_below_0.80",
+     "claude-fable-5-1:needs_human",
+     "judges_differ"
+    ],
+    "0b6828314d0b": [
+     "claude-fable-5-1:confidence_below_0.80",
+     "claude-fable-5-1:needs_human"
+    ],
+    "5a4e7df4beb6": [
+     "claude-fable-5-1:confidence_below_0.80",
+     "claude-fable-5-1:needs_human"
+    ],
+    "ece47e564707": [
+     "claude-fable-5-1:confidence_below_0.80",
+     "claude-fable-5-1:needs_human"
+    ],
+    "3d15a83f02f5": [
+     "claude-fable-5-1:confidence_below_0.80",
+     "claude-fable-5-1:needs_human"
+    ],
+    "c9e3f4185973": [
+     "claude-fable-5-1:confidence_below_0.80",
+     "claude-fable-5-1:needs_human"
+    ],
+    "395fb3bfd8cf": [
+     "claude-fable-5-1:confidence_below_0.80"
+    ],
+    "7a7a2515dc9e": [
+     "claude-fable-5-1:confidence_below_0.80",
+     "claude-fable-5-1:needs_human"
+    ],
+    "d65106c58fc5": [
+     "claude-fable-5-1:confidence_below_0.80",
+     "claude-fable-5-1:needs_human"
+    ],
+    "18ee51dd8fe1": [
+     "claude-fable-5-1:confidence_below_0.80",
+     "claude-fable-5-1:needs_human"
+    ],
+    "fba0a5bf0024": [
+     "claude-fable-5-1:confidence_below_0.80",
+     "claude-fable-5-1:needs_human"
+    ],
+    "67b4f6278a69": [
+     "claude-fable-5-1:confidence_below_0.80",
+     "claude-fable-5-1:needs_human",
+     "judges_differ"
+    ],
+    "487c6617a38b": [
+     "claude-fable-5-1:confidence_below_0.80",
+     "claude-fable-5-1:needs_human",
+     "judges_differ"
+    ],
+    "46d42507e44a": [
+     "claude-fable-5-1:confidence_below_0.80"
+    ],
+    "827f12effad0": [
+     "claude-fable-5-1:confidence_below_0.80",
+     "claude-fable-5-1:needs_human"
+    ],
+    "5d36c320e8fc": [
+     "claude-fable-5-1:confidence_below_0.80"
+    ],
+    "54cbefe9aa84": [
+     "claude-fable-5-1:confidence_below_0.80",
+     "claude-fable-5-1:needs_human"
+    ],
+    "0506f4d9ac25": [
+     "claude-fable-5-1:confidence_below_0.80",
+     "claude-fable-5-1:needs_human"
+    ],
+    "95940b4321ed": [
+     "claude-fable-5-1:confidence_below_0.80",
+     "claude-fable-5-1:needs_human",
+     "judges_differ"
+    ],
+    "e757fa1b9fdf": [
+     "claude-fable-5-1:confidence_below_0.80",
+     "claude-fable-5-1:needs_human"
+    ],
+    "a2f29850fc2a": [
+     "claude-fable-5-1:confidence_below_0.80"
+    ],
+    "74e9add7e811": [
+     "claude-fable-5-1:confidence_below_0.80"
+    ],
+    "508df9db15c4": [
+     "claude-fable-5-1:confidence_below_0.80"
+    ],
+    "2c799dd0b09e": [
+     "claude-fable-5-1:confidence_below_0.80"
+    ],
+    "9fa2adde5732": [
+     "claude-fable-5-1:confidence_below_0.80"
+    ],
+    "2300ed327169": [
+     "claude-fable-5-1:confidence_below_0.80",
+     "claude-fable-5-1:needs_human"
+    ],
+    "ddac493825d3": [
+     "claude-fable-5-1:confidence_below_0.80",
+     "claude-fable-5-1:needs_human"
+    ],
+    "d386e36babf4": [
+     "claude-fable-5-1:confidence_below_0.80"
+    ],
+    "4f28a18fb70c": [
+     "claude-fable-5-1:confidence_below_0.80",
+     "claude-fable-5-1:needs_human",
+     "judges_differ"
+    ],
+    "511490ce0d9d": [
+     "claude-fable-5-1:confidence_below_0.80",
+     "claude-fable-5-1:needs_human"
+    ],
+    "ac2993f5c0b9": [
+     "claude-fable-5-1:confidence_below_0.80"
+    ],
+    "d268b72435bb": [
+     "claude-fable-5-1:confidence_below_0.80",
+     "claude-fable-5-1:needs_human"
+    ],
+    "9638b7b07655": [
+     "claude-fable-5-1:confidence_below_0.80"
+    ],
+    "d54331082685": [
+     "claude-fable-5-1:confidence_below_0.80",
+     "claude-fable-5-1:needs_human"
+    ],
+    "54a5d89da7ff": [
+     "claude-fable-5-1:confidence_below_0.80",
+     "claude-fable-5-1:needs_human"
+    ],
+    "91fb22cdc301": [
+     "claude-fable-5-1:confidence_below_0.80"
+    ],
+    "28aacb2fee5c": [
+     "claude-fable-5-1:confidence_below_0.80"
+    ],
+    "099319929422": [
+     "claude-fable-5-1:confidence_below_0.80",
+     "claude-fable-5-1:needs_human"
+    ],
+    "9249bf0bb816": [
+     "claude-fable-5-1:confidence_below_0.80"
+    ],
+    "1e70ad1f648e": [
+     "claude-fable-5-1:confidence_below_0.80",
+     "claude-fable-5-1:needs_human"
+    ],
+    "80fd98082b08": [
+     "claude-fable-5-1:confidence_below_0.80"
+    ],
+    "c1953f6c2587": [
+     "claude-fable-5-1:confidence_below_0.80"
+    ],
+    "8cfc170ad44f": [
+     "claude-fable-5-1:confidence_below_0.80"
+    ],
+    "0a4d0f4127f3": [
+     "claude-fable-5-1:confidence_below_0.80"
+    ],
+    "79afab874701": [
+     "claude-fable-5-1:confidence_below_0.80"
+    ],
+    "d5aecd66a0f2": [
+     "claude-fable-5-1:confidence_below_0.80"
+    ],
+    "a98589ea63f6": [
+     "claude-fable-5-1:confidence_below_0.80"
+    ],
+    "9ccaa07670fe": [
+     "claude-fable-5-1:confidence_below_0.80"
+    ],
+    "66db87bf049a": [
+     "claude-fable-5-1:confidence_below_0.80"
+    ],
+    "f2da76bf2534": [
+     "claude-fable-5-1:confidence_below_0.80",
+     "claude-fable-5-1:needs_human"
+    ],
+    "51165186e48b": [
+     "claude-fable-5-1:confidence_below_0.80",
+     "claude-fable-5-1:needs_human"
+    ],
+    "f78c9111d278": [
+     "claude-fable-5-1:confidence_below_0.80",
+     "claude-fable-5-1:needs_human",
+     "judges_differ"
+    ],
+    "213cdabd65bc": [
+     "claude-fable-5-1:confidence_below_0.80"
+    ],
+    "7313e95de3d5": [
+     "claude-fable-5-1:confidence_below_0.80",
+     "claude-fable-5-1:needs_human"
+    ],
+    "3ded96844396": [
+     "claude-fable-5-1:choice_neither",
+     "claude-fable-5-1:confidence_below_0.80",
+     "judges_differ"
+    ],
+    "f367ded61c69": [
+     "claude-fable-5-1:confidence_below_0.80"
+    ],
+    "7256addfb3b7": [
+     "claude-fable-5-1:confidence_below_0.80"
+    ],
+    "191fa25c90a4": [
+     "claude-fable-5-1:confidence_below_0.80",
+     "claude-fable-5-1:needs_human"
+    ],
+    "ec3a4514aa87": [
+     "claude-fable-5-1:confidence_below_0.80",
+     "gpt-6-astra:choice_neither",
+     "judges_differ"
+    ],
+    "d84406875f34": [
+     "claude-fable-5-1:confidence_below_0.80",
+     "claude-fable-5-1:needs_human"
+    ],
+    "2b7ec4761e30": [
+     "claude-fable-5-1:confidence_below_0.80",
+     "claude-fable-5-1:needs_human"
+    ],
+    "55cee993591b": [
+     "claude-fable-5-1:confidence_below_0.80"
+    ],
+    "009366c918f1": [
+     "claude-fable-5-1:confidence_below_0.80",
+     "claude-fable-5-1:needs_human"
+    ],
+    "80849ec038ed": [
+     "claude-fable-5-1:confidence_below_0.80"
+    ],
+    "273a55683fff": [
+     "claude-fable-5-1:confidence_below_0.80",
+     "judges_differ"
+    ],
+    "63a12cc52591": [
+     "claude-fable-5-1:confidence_below_0.80"
+    ],
+    "0a6b228384c5": [
+     "claude-fable-5-1:confidence_below_0.80",
+     "claude-fable-5-1:needs_human"
+    ],
+    "b4cec3c5d765": [
+     "claude-fable-5-1:confidence_below_0.80"
+    ],
+    "0ebc75febb29": [
+     "claude-fable-5-1:confidence_below_0.80",
+     "claude-fable-5-1:needs_human"
+    ],
+    "1a6fecf59df7": [
+     "claude-fable-5-1:confidence_below_0.80"
+    ],
+    "2112dd00b9f5": [
+     "claude-fable-5-1:confidence_below_0.80"
+    ],
+    "521ced4aec2b": [
+     "claude-fable-5-1:confidence_below_0.80",
+     "claude-fable-5-1:needs_human",
+     "judges_differ"
+    ],
+    "bea31c61e702": [
+     "claude-fable-5-1:confidence_below_0.80",
+     "judges_differ"
+    ],
+    "024a36d2b7fa": [
+     "claude-fable-5-1:confidence_below_0.80"
+    ],
+    "152460499f0f": [
+     "claude-fable-5-1:confidence_below_0.80",
+     "claude-fable-5-1:needs_human"
+    ],
+    "a2a3b82d1a6b": [
+     "claude-fable-5-1:confidence_below_0.80"
+    ],
+    "736ff31b199a": [
+     "claude-fable-5-1:confidence_below_0.80",
+     "claude-fable-5-1:needs_human"
+    ],
+    "dd243c8fedd2": [
+     "claude-fable-5-1:confidence_below_0.80"
+    ],
+    "9626c0bc73e8": [
+     "claude-fable-5-1:confidence_below_0.80"
+    ],
+    "2f22adca61f9": [
+     "claude-fable-5-1:confidence_below_0.80",
+     "judges_differ"
+    ],
+    "da2954e074b9": [
+     "claude-fable-5-1:confidence_below_0.80"
+    ],
+    "56375a17b165": [
+     "claude-fable-5-1:confidence_below_0.80"
+    ],
+    "ba070ce51ee8": [
+     "claude-fable-5-1:confidence_below_0.80"
+    ],
+    "1d77e8629cf7": [
+     "claude-fable-5-1:confidence_below_0.80",
+     "claude-fable-5-1:needs_human"
+    ],
+    "bc700dc9d16a": [
+     "claude-fable-5-1:confidence_below_0.80",
+     "claude-fable-5-1:needs_human"
+    ],
+    "fb6754d047dc": [
+     "claude-fable-5-1:confidence_below_0.80",
+     "claude-fable-5-1:needs_human",
+     "judges_differ"
+    ],
+    "bc2a1c0df3ed": [
+     "claude-fable-5-1:confidence_below_0.80",
+     "claude-fable-5-1:needs_human",
+     "judges_differ"
+    ],
+    "fafab84a5e17": [
+     "claude-fable-5-1:confidence_below_0.80",
+     "judges_differ"
+    ],
+    "0d10a67f9eb5": [
+     "claude-fable-5-1:confidence_below_0.80"
+    ],
+    "5040df2dd970": [
+     "claude-fable-5-1:confidence_below_0.80"
+    ],
+    "4cb6f439f46b": [
+     "claude-fable-5-1:confidence_below_0.80",
+     "claude-fable-5-1:needs_human"
+    ],
+    "694918efe842": [
+     "claude-fable-5-1:confidence_below_0.80"
+    ],
+    "3e01ad80962c": [
+     "claude-fable-5-1:confidence_below_0.80",
+     "claude-fable-5-1:needs_human"
+    ],
+    "23d17b0d3d58": [
+     "claude-fable-5-1:confidence_below_0.80"
+    ],
+    "9d1f66f2d004": [
+     "claude-fable-5-1:confidence_below_0.80"
+    ],
+    "2390dc24708f": [
+     "claude-fable-5-1:confidence_below_0.80"
+    ],
+    "8b7a385ff091": [
+     "claude-fable-5-1:confidence_below_0.80",
+     "claude-fable-5-1:needs_human",
+     "judges_differ"
+    ],
+    "5d66fa6498a2": [
+     "claude-fable-5-1:confidence_below_0.80"
+    ],
+    "7bb8382d0752": [
+     "claude-fable-5-1:confidence_below_0.80",
+     "judges_differ"
+    ]
+   },
+   "seed": 20261018,
+   "calibration_order": [
+    "9ad879b86ad5",
+    "905f30aa36b5",
+    "397e3785e2cf",
+    "04783757e790",
+    "232471711085",
+    "d6404a2cea73",
+    "15e960bfb0ff",
+    "b86f843bd34a",
+    "2c84f8cb75ae",
+    "48e4798a425c",
+    "3650de2bc4db",
+    "c90388c14f26",
+    "df014632bfe3",
+    "41645049fa66",
+    "d18155af425b",
+    "8d28789624e5",
+    "b1a32c6cee75",
+    "1ae2bffbcc30",
+    "65085d1dbd13",
+    "7a568d7b82c9",
+    "2c6746ac6a01",
+    "66b61f181bc7",
+    "119aac8dba1d",
+    "268a118fc196",
+    "1202bc78320b",
+    "6249f99a8592",
+    "61907972a595",
+    "48295b1a7c67",
+    "b8638338fc0c",
+    "11ba5e4cbd23",
+    "90cb88916094",
+    "8a33d31436db",
+    "3f7d830166ea"
+   ],
+   "calibration_first": [
+    "9ad879b86ad5",
+    "905f30aa36b5",
+    "397e3785e2cf",
+    "04783757e790",
+    "232471711085",
+    "d6404a2cea73",
+    "15e960bfb0ff",
+    "b86f843bd34a",
+    "2c84f8cb75ae",
+    "48e4798a425c",
+    "3650de2bc4db",
+    "c90388c14f26",
+    "df014632bfe3",
+    "41645049fa66",
+    "d18155af425b",
+    "8d28789624e5",
+    "b1a32c6cee75",
+    "1ae2bffbcc30",
+    "65085d1dbd13",
+    "7a568d7b82c9"
+   ]
+  },
+  "audit": {
+   "rows": 50,
+   "routed": 2,
+   "lone": 48,
+   "routed_by_reason": {
+    "gpt-6-astra:choice_other_issue": 1,
+    "judges_differ": 1,
+    "claude-fable-5-1:confidence_below_0.80": 1,
+    "claude-fable-5-1:needs_human": 1
+   },
+   "routed_row_ids": [
+    "6ae73a4b84b4",
+    "8c771ce9a20b"
+   ],
+   "routed_reasons": {
+    "6ae73a4b84b4": [
+     "gpt-6-astra:choice_other_issue",
+     "judges_differ"
+    ],
+    "8c771ce9a20b": [
+     "claude-fable-5-1:confidence_below_0.80",
+     "claude-fable-5-1:needs_human"
+    ]
+   },
+   "seed": 20261019,
+   "calibration_order": [
+    "77eaaef99475",
+    "17d5b7f27e72",
+    "f0bee14a3a0f",
+    "1c8cb2287310",
+    "70f838d41395",
+    "492f306a1dce",
+    "59b34b2fe997",
+    "c568fc3a3db2",
+    "1f9b2155ac77",
+    "5eae0a81ba76",
+    "75591f77961a",
+    "55af990ed6df",
+    "6999c0acaeeb",
+    "cfe43010984c",
+    "425001b66890",
+    "cec7930e876c",
+    "7d32b693ea23",
+    "8936c4663981",
+    "af23381542bd",
+    "c5c6df542908",
+    "4263b3ca529c",
+    "b54a948f1da3",
+    "1cf3a5ded4b6",
+    "8b2844af5796",
+    "4e3b949def73",
+    "f5503b615950",
+    "f92663101835",
+    "adc45b9f710a",
+    "4b2283021b54",
+    "e43c26687d15",
+    "14a7465743b9",
+    "f6d01d505fa6",
+    "d0c681946cc4",
+    "89914323e36b",
+    "db29b9a8e920",
+    "e0c95c697e88",
+    "00fcf39604ff",
+    "3175d348248c",
+    "6aae9c3205d0",
+    "07922f2b9039",
+    "5cb35def98df",
+    "5e4f52484af6",
+    "b569dd5eb055",
+    "a6a279dd843b",
+    "4b61e8376b03",
+    "25e0966db08e",
+    "66a2f9adb1fb",
+    "c621548c2374"
+   ],
+   "calibration_first": [
+    "77eaaef99475",
+    "17d5b7f27e72",
+    "f0bee14a3a0f",
+    "1c8cb2287310",
+    "70f838d41395",
+    "492f306a1dce",
+    "59b34b2fe997",
+    "c568fc3a3db2",
+    "1f9b2155ac77",
+    "5eae0a81ba76",
+    "75591f77961a",
+    "55af990ed6df",
+    "6999c0acaeeb",
+    "cfe43010984c",
+    "425001b66890",
+    "cec7930e876c",
+    "7d32b693ea23",
+    "8936c4663981",
+    "af23381542bd",
+    "c5c6df542908"
+   ]
+  }
+ }
+}
