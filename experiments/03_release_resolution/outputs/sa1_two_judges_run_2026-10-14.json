@@ -1,0 +1,31 @@
+{
+ "stage": "sa1",
+ "rows": 212,
+ "send_seed": 20261028,
+ "judges": {
+  "claude-fable-5-1": {
+   "accepted": 0,
+   "failed": 212,
+   "pending": 0,
+   "not_sent_ceiling": 0,
+   "attempts": 424,
+   "second_attempts": 212,
+   "models_returned": [],
+   "usd": 0
+  },
+  "gpt-6-astra": {
+   "accepted": 212,
+   "failed": 0,
+   "pending": 0,
+   "not_sent_ceiling": 0,
+   "attempts": 212,
+   "second_attempts": 0,
+   "models_returned": [
+    "gpt-6-astra"
+   ],
+   "usd": 9.6685
+  }
+ },
+ "stopped_at_ceiling": null,
+ "ledger_spent_usd": 39.302
+}
