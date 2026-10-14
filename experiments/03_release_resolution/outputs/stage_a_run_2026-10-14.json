@@ -1,0 +1,102 @@
+{
+ "ceiling_usd": 300.0,
+ "ledger_usd_at_start": 54.4357,
+ "stages": {
+  "stage_a": {
+   "rounds": 1,
+   "last_round": {
+    "claude-sonnet-5-5": {
+     "model": "claude-sonnet-5-5",
+     "packets": 266,
+     "states": {
+      "accepted": 266,
+      "failed": 0,
+      "pending": 0
+     },
+     "not_sent_ceiling": 0,
+     "stopped": null,
+     "errors": [],
+     "spent_usd": 81.8554,
+     "failed": [],
+     "pending": [],
+     "models_returned": [
+      "claude-sonnet-5-5"
+     ]
+    },
+    "gpt-6.1-sol": {
+     "model": "gpt-6.1-sol",
+     "packets": 266,
+     "states": {
+      "accepted": 266,
+      "failed": 0,
+      "pending": 0
+     },
+     "not_sent_ceiling": 0,
+     "stopped": null,
+     "errors": [],
+     "spent_usd": 82.2137,
+     "failed": [],
+     "pending": [],
+     "models_returned": [
+      "gpt-6.1-sol"
+     ]
+    }
+   },
+   "errors_by_round": [
+    {
+     "claude-sonnet-5-5": [],
+     "gpt-6.1-sol": []
+    }
+   ]
+  },
+  "manifest": {
+   "rounds": 1,
+   "last_round": {
+    "claude-sonnet-5-5": {
+     "model": "claude-sonnet-5-5",
+     "packets": 31,
+     "states": {
+      "accepted": 31,
+      "failed": 0,
+      "pending": 0
+     },
+     "not_sent_ceiling": 0,
+     "stopped": null,
+     "errors": [],
+     "spent_usd": 83.0914,
+     "failed": [],
+     "pending": [],
+     "models_returned": [
+      "claude-sonnet-5-5"
+     ]
+    },
+    "gpt-6.1-sol": {
+     "model": "gpt-6.1-sol",
+     "packets": 31,
+     "states": {
+      "accepted": 31,
+      "failed": 0,
+      "pending": 0
+     },
+     "not_sent_ceiling": 0,
+     "stopped": null,
+     "errors": [],
+     "spent_usd": 83.0914,
+     "failed": [],
+     "pending": [],
+     "models_returned": [
+      "gpt-6.1-sol"
+     ]
+    }
+   },
+   "errors_by_round": [
+    {
+     "claude-sonnet-5-5": [],
+     "gpt-6.1-sol": []
+    }
+   ]
+  }
+ },
+ "ledger_usd_at_end": 83.0914,
+ "spent_in_this_job_usd": 28.6557
+}
