@@ -1,0 +1,191 @@
+{
+ "stage": "sa1",
+ "script": "scripts/sa1_calibration_v1.py",
+ "inputs": {
+  "marks": {
+   "path": "../../planning/release_resolution_author_page_sa1_2026-10-14/sa1_author_marks_42_assisted.json",
+   "sha256": "3c3872b58a57f663fb409f7577d54854a7fbfed1c454667070d61fcf045c5800",
+   "saved_at": "2026-10-14T12:20:44.912Z",
+   "page": "sa1_author_page_assisted_v2"
+  },
+  "page_key": {
+   "path": "../../planning/release_resolution_author_page_sa1_2026-10-14/sa1_author_page_key.json",
+   "sha256": "9b3d841da9c65b3f2ec0fc8f2a3eb703608a89e92ec0509ffa6ad7c6820963e8"
+  },
+  "routing": {
+   "path": "outputs/sa1_two_judges_routing_2026-10-14.json",
+   "sha256": "6964d3fcf02d7483e88260310ae08c73cd830150d03e80b7630fabe3af4c8078"
+  },
+  "judges_stored_results_sha256": {
+   "claude-fable-5-1/9ad879b86ad5.143296c53215f4f937c157db.json": "876d4b498e18cafe41d8b2717af3c0c474a3963bce3d5a4dcabf1f8f9e75193a",
+   "gpt-6-astra/9ad879b86ad5.6df30c1d52b310473fbf64f6.json": "bc10e4668fc35ffec6501a5137e21e057054132a2bc667d0b4a653f83637cdd1",
+   "claude-fable-5-1/905f30aa36b5.fd9a0082642e10eabcd4f451.json": "1cfcffd9d2faed1e25a5a1f8d0dae37e66049a089c189bf77c9b2ba07f2819f9",
+   "gpt-6-astra/905f30aa36b5.57552bf87e9331b85069f83b.json": "aacfe98ce5f4b01a426fe75831d343e8222be42b575bcf18d89d20d070ab9bed",
+   "claude-fable-5-1/397e3785e2cf.859a29f18f01f1cddeff9761.json": "90bc2c12c73c86398202adeff3f6846a530c534a056913a4bfb754089d5e61be",
+   "gpt-6-astra/397e3785e2cf.544d9b4d4e2d2a41b763a326.json": "0ca3613652d28eaa127e0616e00d31db68781c8154709af593b8555dfaf81338",
+   "claude-fable-5-1/04783757e790.998867aaa88d61a19899c589.json": "cfc01e8dc6171a0a259ed862c5e2639d122b59a49c32f69747fa6777fd3dbc42",
+   "gpt-6-astra/04783757e790.ac107d1eba3af8ea2f73bef7.json": "e0c70002bb0dbacada1ee8f4d7a7a65771ba9b4e318634fb554bf6bc0e06c66f",
+   "claude-fable-5-1/232471711085.5f495d76040e14982240b7ba.json": "ef2a567d95c7346575ef1702270bd3b435d46bdd5924633e9ee5111f3339ad43",
+   "gpt-6-astra/232471711085.e244b600ac8b937eba75acce.json": "a06092cbafdef9eb1daa645e392b2bafa7819cbcf65558324392bc3b6e7bbc70",
+   "claude-fable-5-1/d6404a2cea73.855f0fc143d62cebb1dff4fe.json": "6b6d36c0d459865782cf811897519158f81279ce81b29962d30f07db054b2d93",
+   "gpt-6-astra/d6404a2cea73.7b4cb8ad433d6bed6763dca1.json": "5cc074e97d53a0ece33cc9ac57016f931af941dbe1c930a60704356ce5471735",
+   "claude-fable-5-1/15e960bfb0ff.faa8831dfa10919e4fc34220.json": "a85341a2557c9306c2e633f912b645179125dd6a85f046389ec625c174b8b66c",
+   "gpt-6-astra/15e960bfb0ff.07fe254d19def22f969d6fed.json": "e609524f467e61df60d672ccfee7979b5ab9f129e571ec7e18da6b9038fccd69",
+   "claude-fable-5-1/b86f843bd34a.bcc8ae57650e0134ddd99ba1.json": "0dc5b4226ea6200fde96f9022c02d6a26e59fc373cff7793f2e314edeca1413a",
+   "gpt-6-astra/b86f843bd34a.eb09375c8ecb8bfb27064d43.json": "2075ef6610e0e30dbed7791586e9b2f6058cb3b29535afe7fa2d1678d2fcd4d0",
+   "claude-fable-5-1/2c84f8cb75ae.cb2975f342bd805599cd751e.json": "c02ff7de7c58f2d22b23833fef491a417331b408b35b705b3ca69b3a9ecb2ce1",
+   "gpt-6-astra/2c84f8cb75ae.c6255e70f9716d8e99acfefd.json": "28c1d4272b7ba38f63a94725c5036bfd2b60b0733718ed7305c18900db7ce173",
+   "claude-fable-5-1/48e4798a425c.1c874a07c0926aa876fded3b.json": "c3bd1c82aafd94190e6843c7bf477352ec2c3ec170c95ac02200b08e73ed7ede",
+   "gpt-6-astra/48e4798a425c.1c188aaad138eb24968b24a6.json": "860afdad7f6512698dae71ba2495abbfc16f01e3a6e1753bbfd85864f6497e33",
+   "claude-fable-5-1/3650de2bc4db.93fb751eb34dd7864aa9882a.json": "515ef2e5f072e0789101a2f65aad5d86d3db6ff16a3787828d47249a665fc50d",
+   "gpt-6-astra/3650de2bc4db.e1ff1307549dc728c66741c5.json": "8662cf32e37770feed3b7c50f3121a0a52273d0da2bc1c9548c3d1cc6e7d55ab",
+   "claude-fable-5-1/c90388c14f26.a44025e754ad314a26ce0bc4.json": "03378563e205c05ec44d70380014599174ab85d0159c91f1a8be8a5ea9776e7b",
+   "gpt-6-astra/c90388c14f26.5cf786f8d172b4e2635719e1.json": "ced65d4e5a30578848a537103bc98faca4221d598ff01035bb410e7d4b0d2706",
+   "claude-fable-5-1/df014632bfe3.40f0da5d36748de77ddcd3ed.json": "874b72b0391b073829149fc516358e54b2539cb4ac672f860066257c9897002f",
+   "gpt-6-astra/df014632bfe3.4f506801dc02fc4b0c3e5004.json": "a0d0a1b69a5b7b8f8702efee7296e95d1f3ec500568d0b954edc4ffaa2563f3e",
+   "claude-fable-5-1/41645049fa66.fa11ce65f8793a353f21728c.json": "dd07ee92d3c668fa7e1648ba1e570f27ab4a3d4b72948b6fa161345b3449d426",
+   "gpt-6-astra/41645049fa66.51aaed5030cac38a081ea888.json": "8f50d400acf4154a3d1a43bcebae1d6414c2537c5ce7bb8528151ba38a3eed84",
+   "claude-fable-5-1/d18155af425b.61723f29ca32945072c89547.json": "ae8b305fddda3ccb50cac397ee55fab66316ae9190a6e767736753ab2a0a2b37",
+   "gpt-6-astra/d18155af425b.8289e778fa2806aec7ff6b22.json": "f83a5f696c79e0478aa7252338b2333a420e784e4aa6a0e60e50ca4694ce9bba",
+   "claude-fable-5-1/8d28789624e5.478627fa9328db82d4482cb9.json": "a5a7cc8ea324aa849eca88b798edf4b7d3b3dae559ef8e94a047df0de3dfafc3",
+   "gpt-6-astra/8d28789624e5.99ef7f4bb4e8dbf0f9c6bb51.json": "64f473682a26d2e3b9f8c05a4ce04e4f095ed4ae3dfda3760213da7ac2a32c6d",
+   "claude-fable-5-1/b1a32c6cee75.e2f0436c76a82346bdd80274.json": "4c26e9d69b4f958a4c437c30bcbf2afac0f84e6755db7aa931a30b59256bc0fd",
+   "gpt-6-astra/b1a32c6cee75.4902f9dc8111cea8264646ba.json": "efa6aa46d23634a6749444d772964e0051879ca7e1a364b9987c7de2b00883b5",
+   "claude-fable-5-1/1ae2bffbcc30.48e23216f234b87649f35322.json": "bc3a6089ae382d802528720f4ddd98385e75fc0526b0d2e60a18f00d6edb9487",
+   "gpt-6-astra/1ae2bffbcc30.e848ba07061963c5cafb989e.json": "93743b38cb90c818f271c73b8a9fb2df1f1b289c4b26ca6cc86305fc42586189",
+   "claude-fable-5-1/65085d1dbd13.c59968b8738440035635d810.json": "9fa656f5da5981e4ebbcc44d992a54470ed68311827908beb64c34b7097530e2",
+   "gpt-6-astra/65085d1dbd13.f1d57a8a2fa91ab6a298b9f8.json": "b6d99d91cbb9c1247b32ccfc30241c5bc81f8b189ab81544dbe2d244c4672d4f",
+   "claude-fable-5-1/7a568d7b82c9.d37b5e162b5f585e2da536a1.json": "526ee97c8e454a7611041bd232464928cdf330b79b7f9c113c9f42438b944d7c",
+   "gpt-6-astra/7a568d7b82c9.90d6c1320bcd07929fae284f.json": "c401b6322bf273b123f1d145bedd33d4669d85ffc8d779b921c7b962d662cae0",
+   "claude-fable-5-1/77eaaef99475.3a419007861ff6ea2a069ea7.json": "eba590245103d80cf5deb930f5784773b7d46d6f2a22db50bebb41e15051a6ca",
+   "gpt-6-astra/77eaaef99475.4e1bd2322bab4203439511bc.json": "1cc099b5e8beba9285554c66a7de13e67c18f49e772f9ad69b184e086ef0521b",
+   "claude-fable-5-1/17d5b7f27e72.3fd726ad5b6ca6fe4ba4f5f1.json": "c350bafd236c6cfe2286faf5e7485badd96b419886f8529ed1bc8f18904e4e88",
+   "gpt-6-astra/17d5b7f27e72.7722336ed4b7712ce6f1ae62.json": "f7dbddfa42d6fff04b217defceb3dc16b99a2b4c951c83bc26a791b68fbb7164",
+   "claude-fable-5-1/f0bee14a3a0f.928a910a11f54b7af83b90b9.json": "228f2aa268f60980138dfbf1cfa87d592d5e7f8129da51497536a6fad150a846",
+   "gpt-6-astra/f0bee14a3a0f.fc9298364e7a741dc4b6c5cd.json": "3fdc506a8f91e67ee54d03e907d69976e0c2208aaccc9acc8c0e64bd1eeacb2c",
+   "claude-fable-5-1/1c8cb2287310.63473d96a0bb0b13da605b7d.json": "5e465c005d0d126d389d30ffe3b38c68ce4b92caac967df0e902cf273f5e6090",
+   "gpt-6-astra/1c8cb2287310.10dd258a2fd820813ea1524e.json": "0c299b67970c9f657a0f0be0897f91ad57da5797b51b1bfad490a6c969460f26",
+   "claude-fable-5-1/70f838d41395.3ccf9c3d5aefa34cb2b548a1.json": "808f5714b775cb0fd2fc6e98952d79968ac10ce74a176c43ded6a3cf6ddec2e7",
+   "gpt-6-astra/70f838d41395.f9568f268df6062acc4c65be.json": "4a4d22396178f7bf444a10a98f6db9fd744824ac59200dcd4e777ac5660ed15e",
+   "claude-fable-5-1/492f306a1dce.39ebc482080f6ea11dc291ef.json": "09ab7e86af140ea3032a0841c38732c80a20713590edc48abdedede94c4a66eb",
+   "gpt-6-astra/492f306a1dce.a135204c63e1e722fe43393a.json": "4db7b23fa24c4c03f2d5b34a10c645d7124bb6076b4269b7949957e8a73abb25",
+   "claude-fable-5-1/59b34b2fe997.1d95d936522b2f8fa3b8ce7f.json": "62d35f1e6dd04219551964df193c74b8c52ad0f8bff91e8421b1006793068aea",
+   "gpt-6-astra/59b34b2fe997.5e31e50557577ddd894c2288.json": "d8bd718da482ba70d3633f6461a4546662ac4e96a5e4cc18f89b5590d716b03a",
+   "claude-fable-5-1/c568fc3a3db2.e2623d35a29d62f5adce6be8.json": "f58b24d3cb7b526571998b7fead831ee21e10534c540c11c9c9e136698bb84b8",
+   "gpt-6-astra/c568fc3a3db2.569204255cb527b29b282a6c.json": "f826299cc034f2fe572c17f862d5073de81fce5113a9cd3235a1ef07e91c7825",
+   "claude-fable-5-1/1f9b2155ac77.d1458b93a64cf8edf6c63ea5.json": "6d1fa693402e76bb0e5705bbba1d9148e411714306c41cc874c9c60604623438",
+   "gpt-6-astra/1f9b2155ac77.bbd0460361443209527180f2.json": "6870b95a4eaa9623ee86f2c44c0b92fc315cee1079288522009452acf23c0bf0",
+   "claude-fable-5-1/5eae0a81ba76.50ba3a136954447e16898c9b.json": "a48ff878adc6ddde1dffa46fc00fcf909653e921b7bc67dc5483f9f28611818e",
+   "gpt-6-astra/5eae0a81ba76.3a029b0fdd4b1a57a153be0f.json": "5a429187ef1f612f20f507eb9fbd12167ba76cd8a2e749611c8321932e74d281",
+   "claude-fable-5-1/75591f77961a.aa032b8a0a64381c43fa7f37.json": "17bb2e118c643d48e81efa0c4b90dad985cec699499ad2c82ed84e553e357ed6",
+   "gpt-6-astra/75591f77961a.db2d6c9a769e5c422150d4f4.json": "e6d56ee49b8c88464d8f792414dbf8c1e7bb5a3dd357b2d46e476bc5a6d484c7",
+   "claude-fable-5-1/55af990ed6df.2eba7a5e8f5b722fb3469ff9.json": "f6b7013e4825b805aace47d285c11a1848f633cf245e6f4a47bbf1573a4b4c23",
+   "gpt-6-astra/55af990ed6df.380c30100e46473375abcd0c.json": "b3bc862d3b1df4227fac12d10b3ecb21b1ff69c66a21891490f0d911f489f7c3",
+   "claude-fable-5-1/6999c0acaeeb.e1db5f9383d85ba052a31caa.json": "31ed6d770209d6f140e502786112d406706c9af5882f93d9fe9600abef63e042",
+   "gpt-6-astra/6999c0acaeeb.632597858d198bbb80837072.json": "c003c8daa271e68da106a6393d62fa096dc972d38763a0416702bce563dcf379",
+   "claude-fable-5-1/cfe43010984c.f7682604b1e1c45e5e93e23b.json": "5720338c58bb82fdddf8326e0afbe135bed01b8627649b4bf68e8a26d13e9256",
+   "gpt-6-astra/cfe43010984c.3082f2c0ecc015a979b54299.json": "7405af863158018541e005d4886941d3c8f214126441969f7028cffbae761ee5",
+   "claude-fable-5-1/425001b66890.cc7d6f652d0f6a29e65b332b.json": "6cba817b3506e4a3ebe0ac57773f35b9fa7378dac85afa7afab7d5c372bf4ca4",
+   "gpt-6-astra/425001b66890.360c369206c3a06858861cda.json": "53d217a525ca98245c3326dc0a6fc9ea079bfc7bfe1e9ed669707bcf1254cb17",
+   "claude-fable-5-1/cec7930e876c.3650014fb2168a1100233878.json": "97d2f126323b6ed7859417434428aa34723455173bcebe5d18833107dd400ec9",
+   "gpt-6-astra/cec7930e876c.835ef04b1d84faa4a0aa7caa.json": "b3320f000ea3761d6c888d067ca760615937c705b55a8a03a4e7083756eaa1b9",
+   "claude-fable-5-1/7d32b693ea23.5dc52ba53a6422abfd50b79e.json": "bd11e14ba96545850b1efab84f7a4f19a92472354a18106d2e2cc7bec93903a3",
+   "gpt-6-astra/7d32b693ea23.28465a4dbcc7191fc84c7512.json": "d74f25be7e8c66e35c49ddcc6ef7b1789c0e5be0c23a43fcc70d4b9cdb2a50f7",
+   "claude-fable-5-1/8936c4663981.3f5c8723e9457484955a438e.json": "94b8913c38885fc1d7c274da1cb3f33e99434e37a8dafc0e74a53be0bf31321e",
+   "gpt-6-astra/8936c4663981.7d151e55ad600668b4b050c8.json": "a317121e835dd9da2f42f0777156764ee4e93cc63d75a238f4ac1f475ec65a6c",
+   "claude-fable-5-1/af23381542bd.6404e286ba2b0e443949c939.json": "7b3c657b9f87e63a2242b6c2caebb1093d931cee939339bee4d6198829c8c552",
+   "gpt-6-astra/af23381542bd.46876e86b35e8941e7303c8a.json": "cf079dc57140f779e29f5cedb17b822e82f75f4283538027a75009722dbadbdd",
+   "claude-fable-5-1/c5c6df542908.481c8d74ec24271e53903bcf.json": "d1d7ffc07c08da5f47a011c85f75a3fb5f3f4e1a8f8e687cb627ac824effb0b4",
+   "gpt-6-astra/c5c6df542908.e8e965e2b6badab7259ce2a0.json": "5003e8c5792f37ec776de064fccc54b72f419a77c3e3e0801f794bb1bba92740"
+  }
+ },
+ "seeds": {
+  "disagreement": 20261018,
+  "audit": 20261019,
+  "page": 20261027,
+  "answer_order": 20261017
+ },
+ "tasks": {
+  "disagreement": {
+   "seed": 20261018,
+   "lone": 33,
+   "routed": 129,
+   "rows": 20,
+   "differences": 16,
+   "agreements": 4,
+   "agreement": 0.2,
+   "agreement_ci95_exact": [
+    0.0573,
+    0.4366
+   ],
+   "verdict": "fail",
+   "differing_row_ids": [
+    "04783757e790",
+    "15e960bfb0ff",
+    "1ae2bffbcc30",
+    "232471711085",
+    "2c84f8cb75ae",
+    "3650de2bc4db",
+    "397e3785e2cf",
+    "41645049fa66",
+    "65085d1dbd13",
+    "7a568d7b82c9",
+    "9ad879b86ad5",
+    "b1a32c6cee75",
+    "b86f843bd34a",
+    "c90388c14f26",
+    "d18155af425b",
+    "df014632bfe3"
+   ]
+  },
+  "audit": {
+   "seed": 20261019,
+   "lone": 48,
+   "routed": 2,
+   "rows": 20,
+   "differences": 0,
+   "agreements": 20,
+   "agreement": 1.0,
+   "agreement_ci95_exact": [
+    0.8316,
+    1.0
+   ],
+   "verdict": "pass",
+   "differing_row_ids": []
+  }
+ },
+ "stop_for_next_20": false,
+ "consequences": {
+  "disagreement_lone_decisions": "not accepted, unresolved unless the author adjudicates them",
+  "disagreement_lone_count": 33,
+  "audit_judge_decisions": "stand",
+  "audit_sample": 50,
+  "routed_audit_rows_final_by_author": 2,
+  "routed_audit_marks": {
+   "correct": 2,
+   "substantive_error": 0,
+   "other_issue": 0
+  }
+ },
+ "escalation": {
+  "audit_rows_marked_by_author": 22,
+  "author_substantive_errors": 0,
+  "threshold": 2,
+  "triggered": false,
+  "complete": true,
+  "note": "the rule is applied to the author's marks above"
+ },
+ "marks": {
+  "rows": 42,
+  "entered_before_aids": 0,
+  "changed_after_aids_from_a_pre_aid_mark": 0,
+  "by_choice": {
+   "answer_1": 9,
+   "answer_2": 11,
+   "neither": 0,
+   "correct": 22,
+   "substantive_error": 0,
+   "other_issue": 0
+  }
+ }
+}
