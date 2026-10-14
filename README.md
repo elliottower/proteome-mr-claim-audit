@@ -13,10 +13,14 @@ against the source data is a separate registration.
 
 The plan was frozen on 3 October 2026 and registered at https://osf.io/zae8c. `prereg check`
 reports whether the plan still says what it said; every later change is in the `## Log` of
-`PREREG.md` and in the two amendment files beside it. As of 8 October 2026 the search,
-screening, extraction, span and claim checks and the manual dataset coding have run, and the
-registered joins (stage 5) have not. What had been read before the freeze is listed in
-PREREG.md, §Explanation of foreknowledge.
+`PREREG.md` and in the amendment files beside it. The search, screening, extraction, span and
+claim checks, the manual dataset coding and the registered joins (stage 5) have run. What had
+been read before the freeze is listed in PREREG.md, §Explanation of foreknowledge.
+
+A follow-up asks whether reading full texts and supplements resolves which data releases the
+repeated claims rest on. It has its own plan, `experiments/03_release_resolution/PREREG.md`,
+frozen on 10 October 2026 and registered at https://osf.io/2s479, with its amendments,
+deviations and log in the same folder. It leaves Paper 1's registered verdicts unchanged.
 
 ## How the record is kept
 
@@ -92,11 +96,15 @@ EpiGraphDB snapshot) are pinned by sha256 in `experiments/02_claims_meta/RELEASE
 | path | holds |
 |---|---|
 | `experiments/02_claims_meta/` | the plan, prompts, scripts, tests, verification tables, search files and outputs |
+| `experiments/03_release_resolution/` | the release-resolution follow-up: its plan, amendments, deviations, prompts, scripts, tests and outputs |
 | `experiments/01_census/` | an earlier reporting-quality census, not frozen and not run |
+| `side_checks/` | checks outside the registered stages, not reported in either paper |
 | `claims/` | the pinned quotations behind the dataset, cohort and platform decisions |
 | `docs/` | the checks made before the freeze, the records the plan cites, run notes, and `history_rewrite/` |
 | `.results/` | the results ledger |
 
-## Licence and citation
+## License and citation
 
-Code is MIT-licensed (`LICENSE`). Cite the registration: https://osf.io/zae8c.
+Code is MIT-licensed (`LICENSE`). Quotations from published papers in `claims/` and in the
+outputs are reproduced for verification and remain under their publishers' terms. Cite the
+registrations: https://osf.io/zae8c and https://osf.io/2s479.

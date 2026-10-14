@@ -104,3 +104,12 @@ experiments/02_claims_meta/outputs/screening/chase_round_1/search_records.jsonl
 notes/
 reading/
 reviews/
+
+# Pinned source texts of any quotation record under the outputs (abstracts); not only outputs/citations*/
+experiments/02_claims_meta/outputs/**/sources/
+# Coder inputs of the manual-coding reread
+experiments/02_claims_meta/outputs/manual_coding/*/reread/coder_*/input/
+# Superseded quotation records, kept on disk
+experiments/02_claims_meta/outputs/citations/superseded/
+# Agent session briefs
+experiments/02_claims_meta/outputs/manual_coding/**/*_session_brief.txt
