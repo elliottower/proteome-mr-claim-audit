@@ -1,0 +1,23 @@
+{
+ "stage": "sa1",
+ "judge": "claude-fable-5-1",
+ "rows_sent_order": 1,
+ "states": {
+  "accepted": 1,
+  "failed": 0,
+  "pending": 0,
+  "not_sent": 0
+ },
+ "attempts": 1,
+ "second_attempts": 0,
+ "attempt_statuses": [
+  "200"
+ ],
+ "validation_failures": 0,
+ "models_returned": [
+  "claude-fable-5-1"
+ ],
+ "usd": 0.5305,
+ "stopped_at_ceiling": null,
+ "ledger_spent_usd": 39.8326
+}
