@@ -1,0 +1,39 @@
+{
+ "controls": 70,
+ "requests": 140,
+ "system_characters": 2491,
+ "packet_characters": 61101,
+ "reserved_bound_usd": {
+  "claude-fable-5-1": 29.8612,
+  "gpt-6-astra": 29.4291
+ },
+ "reserved_bound_total_usd": 59.2903,
+ "estimate_usd_from_sa1_mean_per_request": {
+  "mean_per_request_sa1": {
+   "claude-fable-5-1": 0.0714,
+   "gpt-6-astra": 0.0456
+  },
+  "total": 8.19,
+  "note": "SA1 judge requests carried a system instruction of 77,798 characters; this one is far shorter, so the estimate is an upper reading"
+ },
+ "prices_usd_per_million": {
+  "claude-fable-5-1": {
+   "new": 10.0,
+   "cache_write": 12.5,
+   "cached": 0.25,
+   "output": 50.0
+  },
+  "gpt-6-astra": {
+   "new": 10.0,
+   "cached": 1.0,
+   "output": 50.0
+  }
+ },
+ "min_characters_per_token": {
+  "claude-fable-5-1": 1.98,
+  "gpt-6-astra": 3.11
+ },
+ "max_output_tokens": 8192,
+ "ledger_usd_before": 83.0914,
+ "ceiling_usd": 300.0
+}

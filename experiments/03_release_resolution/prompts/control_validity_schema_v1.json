@@ -1,0 +1,11 @@
+{
+ "type": "object",
+ "additionalProperties": false,
+ "required": ["row_id", "mark", "reason", "quotation"],
+ "properties": {
+  "row_id": {"type": "string"},
+  "mark": {"type": "string", "enum": ["valid", "invalid", "cannot_mark"]},
+  "reason": {"type": "string"},
+  "quotation": {"type": "string"}
+ }
+}
