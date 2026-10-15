@@ -1,0 +1,701 @@
+{
+ "script": "scripts/manifest_mapping_check_v1.py",
+ "rule": "DEVIATION_02_c1_controls.md, item 3; no model request",
+ "accessions": 31,
+ "pass": 31,
+ "fail": 0,
+ "failures": [],
+ "inputs_sha256": {
+  "../02_claims_meta/dataset_dictionary.csv": "f30dda8e00f8bbc6c43e31e80b38935c7d4f0d3916f33b2e776cabc14fb0d39c",
+  "outputs/c1_manifest_controls_2026-10-13.json": "2380824ad0f09d4c8725c21b70ae56e49615e05790a3599f51a5902cd612ea49",
+  "reference/accession_releases.csv": "5263df292a20b0762a3383a6a43aae92cbe1496884c3abb205623878b555156e",
+  "reference/c1_scanner_patterns_v2.json": "69a57641e91f35e3ac9983e982ce687db8b6657ecbe6564791f3374132ba7eb4",
+  "scripts/coding_gate.py": "dcdc7a90046e6e78e315bc637d93abc3dafc04e52e810790ab32a2163d938de9",
+  "scripts/source_scanner_v2.py": "854b41d9063a2978fc58029c88964994307ac4e21b96f863dd783352114ba43c",
+  "volume:coding/packets/manifest/manifest.json": "f06f7981a4eab7d6407371a1333d1c98333e7d33f4d6a34a42c0663346f6aa4c",
+  "volume:coding/packets/manifest/manifest_02422b3aa569.1.json": "be26d338aed5b7dc37ff856d797de62f0a97bac38bd724c4e6fbe8a7052f2782",
+  "volume:coding/packets/manifest/manifest_086fc680b278.1.json": "ebe0061ef662850d414bec483ebb0c27a9e7f6fb92c3fb25a54a2c8b84a327f7",
+  "volume:coding/packets/manifest/manifest_114475730178.1.json": "6196bbe7bbd905a523b6e2ebb8198211de28f6c4d9eb761cf77dac788c9ee7c1",
+  "volume:coding/packets/manifest/manifest_14ee7fa7eae0.1.json": "cf8da28e938e5a6468b3930f84eeacbf6c4f75974e7bf13b471a35f4c0df2424",
+  "volume:coding/packets/manifest/manifest_293e1d922f89.1.json": "4c17c933f2f5efb4288ef58af4a053aa889e574e015b88fb053224471444610b",
+  "volume:coding/packets/manifest/manifest_358142359f72.1.json": "ce3d0ef757f511bb79b3734d64ffbf31c3f250aabda87696c1ceec88653bcce7",
+  "volume:coding/packets/manifest/manifest_4284d6295a35.1.json": "2c7e91da95fdb087c1951338bc6b96c4880861f30f04aaf97ec0b63f5c5d7c5f",
+  "volume:coding/packets/manifest/manifest_48c44a14b713.1.json": "23ccecb9cf82be8bcac968607376f1262f6c1abd68913bf3cab8d335922dbe36",
+  "volume:coding/packets/manifest/manifest_4df39abd2e9b.1.json": "0388753133baff1884fb0bb9ed0217f6c1e842647ca7c9d0e6a4571c79171224",
+  "volume:coding/packets/manifest/manifest_57892561d26a.1.json": "307e61c4f2766b0547904c403a1912391fdfec18f38a9f608218243a1e893cc7",
+  "volume:coding/packets/manifest/manifest_65cfe6c913ab.1.json": "980cbf5977a68686552699ffeaf208482c1e2a717ac0c5ba3291257842bf4dd4",
+  "volume:coding/packets/manifest/manifest_67875c61217c.1.json": "5e997b977cf29f152a6501fb7ab583dcb4dbb93aeda2225ce2a55190e962112e",
+  "volume:coding/packets/manifest/manifest_70a8d348e7b2.1.json": "d5123dcada28bcf0d5567b636e2d89bcf0824d39df50ac9ba99dc7e7e3491b7d",
+  "volume:coding/packets/manifest/manifest_725707bfe39e.1.json": "14c1814deb68dfee46c52282fc9eb6a5d7c9ec45d14a1173d91cf32753e65e23",
+  "volume:coding/packets/manifest/manifest_7a7e08966709.1.json": "ad15e31604be2a963b8bb1745b291a0ea39efb5c5cac5ae56d620f8dac5fd88b",
+  "volume:coding/packets/manifest/manifest_7db431177b0a.1.json": "24a6ad28cbbd8ffe12ba243cc341c0ee1ec5dbd0e4c63b6d3e1e7d0cb8768480",
+  "volume:coding/packets/manifest/manifest_7e4bfab1098b.1.json": "bfb2ac3498bbc3322f966d5fcf783f4d04ceecc6d5e4922ace001c3bfb390b8b",
+  "volume:coding/packets/manifest/manifest_8418e777afed.1.json": "5502cb0bdf01a62c932c8db202321d2a7c1ae54e0101e4ed2fe22770026c30fb",
+  "volume:coding/packets/manifest/manifest_90121e5ebcb9.1.json": "1497dd242fc94111c31b06237c6fc8fb597f38c11ee50dac2b54333d5a312877",
+  "volume:coding/packets/manifest/manifest_9da571acc562.1.json": "8eadddf4c16c2b43633807d7bc01cb1b33608c2dffc14f9f9b87431183f6e8b7",
+  "volume:coding/packets/manifest/manifest_b3338ba878e8.1.json": "c03e56ac503240bb635b8e50acb5c1fbab1a067eba01f473bd6ae5f482c04edb",
+  "volume:coding/packets/manifest/manifest_bb5848451663.1.json": "edd9fd2766f3313f604e3c5e7cbe28f1a3b7a3d866df0421688153244e491ced",
+  "volume:coding/packets/manifest/manifest_cf4e276e81fb.1.json": "7e0b4804b3e01295d38618968350b8991baae91b4d2a4a9a3eee727dee21fca9",
+  "volume:coding/packets/manifest/manifest_d3933ccca750.1.json": "49826dd725b79dea8a5ed63718a15975a58d83e0c4d6b1d5d4b150f84ac26600",
+  "volume:coding/packets/manifest/manifest_d63de37121d3.1.json": "55f1a23518a8ee34943e28657a2898d6bd2254d8dad20f3f0e5933a5d46587de",
+  "volume:coding/packets/manifest/manifest_d830d6f3d3d3.1.json": "da64897512eefd6f9a60b11890b525bc9a8523c3db9bea41ea667fb70ea7f7a9",
+  "volume:coding/packets/manifest/manifest_dccaeb058c27.1.json": "3cfe89214509c9be7e7c669a6eab5fe4e2a357d4330ac051accab5fbf4f21021",
+  "volume:coding/packets/manifest/manifest_e1685ef5c5a0.1.json": "e46df6961375a9335bf0aa234d7106e0311f162226790eff1f62a487480d0087",
+  "volume:coding/packets/manifest/manifest_e8bf51298ea4.1.json": "b47d721de0b767b4b0c0309f2975c6379963728f37700b56178f297c8c631fd9",
+  "volume:coding/packets/manifest/manifest_ec57c26b2550.1.json": "db9eb299e1c0626c9e23bb8e53ff26d54555e3a166d01722ddcdd9d9812a4d65",
+  "volume:coding/packets/manifest/manifest_fcd20d078eaa.1.json": "c6004160f13406c1033383c31c95ab6070dc47def223d6b76ee181fb71e926f5"
+ },
+ "results": [
+  {
+   "row_id": "c4e587d21006",
+   "identifier": "GCST006061",
+   "side": "outcome",
+   "expected_row": "AFGen atrial fibrillation (Roselli 2018)",
+   "returned_row_identifier": [
+    "AFGen atrial fibrillation (Roselli 2018)"
+   ],
+   "returned_row_packet_file": [
+    "AFGen atrial fibrillation (Roselli 2018)"
+   ],
+   "gate_row_passes": true,
+   "gate_row_failures": [],
+   "identifier_in_packet_line": true,
+   "checks": {
+    "identifier": true,
+    "packet_file": true,
+    "gate_row": true
+   },
+   "pass": true
+  },
+  {
+   "row_id": "89fdbd00c434",
+   "identifier": "GCST006585",
+   "side": "pqtl",
+   "expected_row": "AGES Reykjavik (Emilsson 2018)",
+   "returned_row_identifier": [
+    "AGES Reykjavik (Emilsson 2018)"
+   ],
+   "returned_row_packet_file": [
+    "AGES Reykjavik (Emilsson 2018)"
+   ],
+   "gate_row_passes": true,
+   "gate_row_failures": [],
+   "identifier_in_packet_line": true,
+   "checks": {
+    "identifier": true,
+    "packet_file": true,
+    "gate_row": true
+   },
+   "pass": true
+  },
+  {
+   "row_id": "b30871b0fab2",
+   "identifier": "GCST006414",
+   "side": "outcome",
+   "expected_row": "Atrial fibrillation (Nielsen 2018)",
+   "returned_row_identifier": [
+    "Atrial fibrillation (Nielsen 2018)"
+   ],
+   "returned_row_packet_file": [
+    "Atrial fibrillation (Nielsen 2018)"
+   ],
+   "gate_row_passes": true,
+   "gate_row_failures": [],
+   "identifier_in_packet_line": true,
+   "checks": {
+    "identifier": true,
+    "packet_file": true,
+    "gate_row": true
+   },
+   "pass": true
+  },
+  {
+   "row_id": "67f741ff868a",
+   "identifier": "GCST004988",
+   "side": "outcome",
+   "expected_row": "BCAC breast cancer (Michailidou 2017)",
+   "returned_row_identifier": [
+    "BCAC breast cancer (Michailidou 2017)"
+   ],
+   "returned_row_packet_file": [
+    "BCAC breast cancer (Michailidou 2017)"
+   ],
+   "gate_row_passes": true,
+   "gate_row_failures": [],
+   "identifier_in_packet_line": true,
+   "checks": {
+    "identifier": true,
+    "packet_file": true,
+    "gate_row": true
+   },
+   "pass": true
+  },
+  {
+   "row_id": "a13f2770be65",
+   "identifier": "GCST90432193",
+   "side": "pqtl",
+   "expected_row": "Dhindsa 2023 UKB-PPP exome (rare variant)",
+   "returned_row_identifier": [
+    "Dhindsa 2023 UKB-PPP exome (rare variant)"
+   ],
+   "returned_row_packet_file": [
+    "Dhindsa 2023 UKB-PPP exome (rare variant)"
+   ],
+   "gate_row_passes": true,
+   "gate_row_failures": [],
+   "identifier_in_packet_line": true,
+   "checks": {
+    "identifier": true,
+    "packet_file": true,
+    "gate_row": true
+   },
+   "pass": true
+  },
+  {
+   "row_id": "cdc001d646e0",
+   "identifier": "GCST90027158",
+   "side": "outcome",
+   "expected_row": "EADB (Bellenguez 2022)",
+   "returned_row_identifier": [
+    "EADB (Bellenguez 2022)"
+   ],
+   "returned_row_packet_file": [
+    "EADB (Bellenguez 2022)"
+   ],
+   "gate_row_passes": true,
+   "gate_row_failures": [],
+   "identifier_in_packet_line": true,
+   "checks": {
+    "identifier": true,
+    "packet_file": true,
+    "gate_row": true
+   },
+   "pass": true
+  },
+  {
+   "row_id": "d65158c91c5f",
+   "identifier": "GCST90019380",
+   "side": "pqtl",
+   "expected_row": "Fenland SomaScan v4 (Pietzner 2020, COVID-19 host proteins)",
+   "returned_row_identifier": [
+    "Fenland SomaScan v4 (Pietzner 2020, COVID-19 host proteins)"
+   ],
+   "returned_row_packet_file": [
+    "Fenland SomaScan v4 (Pietzner 2020, COVID-19 host proteins)"
+   ],
+   "gate_row_passes": true,
+   "gate_row_failures": [],
+   "identifier_in_packet_line": true,
+   "checks": {
+    "identifier": true,
+    "packet_file": true,
+    "gate_row": true
+   },
+   "pass": true
+  },
+  {
+   "row_id": "6b99412f3175",
+   "identifier": "GCST90246374",
+   "side": "pqtl",
+   "expected_row": "Fenland SomaScan v4 (Pietzner 2021)",
+   "returned_row_identifier": [
+    "Fenland SomaScan v4 (Pietzner 2021)"
+   ],
+   "returned_row_packet_file": [
+    "Fenland SomaScan v4 (Pietzner 2021)"
+   ],
+   "gate_row_passes": true,
+   "gate_row_failures": [],
+   "identifier_in_packet_line": true,
+   "checks": {
+    "identifier": true,
+    "packet_file": true,
+    "gate_row": true
+   },
+   "pass": true
+  },
+  {
+   "row_id": "9a55cf34f631",
+   "identifier": "GCST007128",
+   "side": "pqtl",
+   "expected_row": "Framingham Heart Study (Yao 2018)",
+   "returned_row_identifier": [
+    "Framingham Heart Study (Yao 2018)"
+   ],
+   "returned_row_packet_file": [
+    "Framingham Heart Study (Yao 2018)"
+   ],
+   "gate_row_passes": true,
+   "gate_row_failures": [],
+   "identifier_in_packet_line": true,
+   "checks": {
+    "identifier": true,
+    "packet_file": true,
+    "gate_row": true
+   },
+   "pass": true
+  },
+  {
+   "row_id": "ccf15542bc3f",
+   "identifier": "ieu-b-40",
+   "side": "outcome",
+   "expected_row": "GIANT + UK Biobank height and BMI (Yengo 2018)",
+   "returned_row_identifier": [
+    "GIANT + UK Biobank height and BMI (Yengo 2018)"
+   ],
+   "returned_row_packet_file": [
+    "GIANT + UK Biobank height and BMI (Yengo 2018)"
+   ],
+   "gate_row_passes": true,
+   "gate_row_failures": [],
+   "identifier_in_packet_line": true,
+   "checks": {
+    "identifier": true,
+    "packet_file": true,
+    "gate_row": true
+   },
+   "pass": true
+  },
+  {
+   "row_id": "a369ada28848",
+   "identifier": "GCST002216",
+   "side": "outcome",
+   "expected_row": "GLGC (Willer 2013)",
+   "returned_row_identifier": [
+    "GLGC (Willer 2013)"
+   ],
+   "returned_row_packet_file": [
+    "GLGC (Willer 2013)"
+   ],
+   "gate_row_passes": true,
+   "gate_row_failures": [],
+   "identifier_in_packet_line": true,
+   "checks": {
+    "identifier": true,
+    "packet_file": true,
+    "gate_row": true
+   },
+   "pass": true
+  },
+  {
+   "row_id": "62cda6f4d646",
+   "identifier": "GCST009541",
+   "side": "outcome",
+   "expected_row": "HERMES heart failure (Shah 2020)",
+   "returned_row_identifier": [
+    "HERMES heart failure (Shah 2020)"
+   ],
+   "returned_row_packet_file": [
+    "HERMES heart failure (Shah 2020)"
+   ],
+   "gate_row_passes": true,
+   "gate_row_failures": [],
+   "identifier_in_packet_line": true,
+   "checks": {
+    "identifier": true,
+    "packet_file": true,
+    "gate_row": true
+   },
+   "pass": true
+  },
+  {
+   "row_id": "79c5d95e3a37",
+   "identifier": "GCST007511",
+   "side": "outcome",
+   "expected_row": "IGAP (Kunkle 2019)",
+   "returned_row_identifier": [
+    "IGAP (Kunkle 2019)"
+   ],
+   "returned_row_packet_file": [
+    "IGAP (Kunkle 2019)"
+   ],
+   "gate_row_passes": true,
+   "gate_row_failures": [],
+   "identifier_in_packet_line": true,
+   "checks": {
+    "identifier": true,
+    "packet_file": true,
+    "gate_row": true
+   },
+   "pass": true
+  },
+  {
+   "row_id": "d435ba670730",
+   "identifier": "GCST002245",
+   "side": "outcome",
+   "expected_row": "IGAP stage 1 (Lambert 2013)",
+   "returned_row_identifier": [
+    "IGAP stage 1 (Lambert 2013)"
+   ],
+   "returned_row_packet_file": [
+    "IGAP stage 1 (Lambert 2013)"
+   ],
+   "gate_row_passes": true,
+   "gate_row_failures": [],
+   "identifier_in_packet_line": true,
+   "checks": {
+    "identifier": true,
+    "packet_file": true,
+    "gate_row": true
+   },
+   "pass": true
+  },
+  {
+   "row_id": "4f2842f690b8",
+   "identifier": "GCST009731",
+   "side": "pqtl",
+   "expected_row": "IMPROVE (Folkersen 2017)",
+   "returned_row_identifier": [
+    "IMPROVE (Folkersen 2017)"
+   ],
+   "returned_row_packet_file": [
+    "IMPROVE (Folkersen 2017)"
+   ],
+   "gate_row_passes": true,
+   "gate_row_failures": [],
+   "identifier_in_packet_line": true,
+   "checks": {
+    "identifier": true,
+    "packet_file": true,
+    "gate_row": true
+   },
+   "pass": true
+  },
+  {
+   "row_id": "6880fd1fde87",
+   "identifier": "GCST009597",
+   "side": "outcome",
+   "expected_row": "IMSGC multiple sclerosis (2019)",
+   "returned_row_identifier": [
+    "IMSGC multiple sclerosis (2019)"
+   ],
+   "returned_row_packet_file": [
+    "IMSGC multiple sclerosis (2019)"
+   ],
+   "gate_row_passes": true,
+   "gate_row_failures": [],
+   "identifier_in_packet_line": true,
+   "checks": {
+    "identifier": true,
+    "packet_file": true,
+    "gate_row": true
+   },
+   "pass": true
+  },
+  {
+   "row_id": "05bfc560af18",
+   "identifier": "GCST005806",
+   "side": "pqtl",
+   "expected_row": "INTERVAL SomaScan (Sun 2018)",
+   "returned_row_identifier": [
+    "INTERVAL SomaScan (Sun 2018)"
+   ],
+   "returned_row_packet_file": [
+    "INTERVAL SomaScan (Sun 2018)"
+   ],
+   "gate_row_passes": true,
+   "gate_row_failures": [],
+   "identifier_in_packet_line": true,
+   "checks": {
+    "identifier": true,
+    "packet_file": true,
+    "gate_row": true
+   },
+   "pass": true
+  },
+  {
+   "row_id": "1968364defcb",
+   "identifier": "GCST90137505",
+   "side": "pqtl",
+   "expected_row": "Jackson Heart Study (Katz 2022)",
+   "returned_row_identifier": [
+    "Jackson Heart Study (Katz 2022)"
+   ],
+   "returned_row_packet_file": [
+    "Jackson Heart Study (Katz 2022)"
+   ],
+   "gate_row_passes": true,
+   "gate_row_failures": [],
+   "identifier_in_packet_line": true,
+   "checks": {
+    "identifier": true,
+    "packet_file": true,
+    "gate_row": true
+   },
+   "pass": true
+  },
+  {
+   "row_id": "ff26c105fb65",
+   "identifier": "GCST004365",
+   "side": "pqtl",
+   "expected_row": "KORA (Suhre 2017)",
+   "returned_row_identifier": [
+    "KORA (Suhre 2017)"
+   ],
+   "returned_row_packet_file": [
+    "KORA (Suhre 2017)"
+   ],
+   "gate_row_passes": true,
+   "gate_row_failures": [],
+   "identifier_in_packet_line": true,
+   "checks": {
+    "identifier": true,
+    "packet_file": true,
+    "gate_row": true
+   },
+   "pass": true
+  },
+  {
+   "row_id": "e57d2e859add",
+   "identifier": "GCST008478",
+   "side": "pqtl",
+   "expected_row": "Lothian Birth Cohort 1936 neurology panel (Hillary 2019)",
+   "returned_row_identifier": [
+    "Lothian Birth Cohort 1936 neurology panel (Hillary 2019)"
+   ],
+   "returned_row_packet_file": [
+    "Lothian Birth Cohort 1936 neurology panel (Hillary 2019)"
+   ],
+   "gate_row_passes": true,
+   "gate_row_failures": [],
+   "identifier_in_packet_line": true,
+   "checks": {
+    "identifier": true,
+    "packet_file": true,
+    "gate_row": true
+   },
+   "pass": true
+  },
+  {
+   "row_id": "f80f44c1de7d",
+   "identifier": "GCST009558",
+   "side": "pqtl",
+   "expected_row": "NSPHS (Enroth 2014)",
+   "returned_row_identifier": [
+    "NSPHS (Enroth 2014)"
+   ],
+   "returned_row_packet_file": [
+    "NSPHS (Enroth 2014)"
+   ],
+   "gate_row_passes": true,
+   "gate_row_failures": [],
+   "identifier_in_packet_line": true,
+   "checks": {
+    "identifier": true,
+    "packet_file": true,
+    "gate_row": true
+   },
+   "pass": true
+  },
+  {
+   "row_id": "0440b7ad9c25",
+   "identifier": "ieu-b-5110",
+   "side": "outcome",
+   "expected_row": "PGC BIP (Mullins 2021)",
+   "returned_row_identifier": [
+    "PGC BIP (Mullins 2021)"
+   ],
+   "returned_row_packet_file": [
+    "PGC BIP (Mullins 2021)"
+   ],
+   "gate_row_passes": true,
+   "gate_row_failures": [],
+   "identifier_in_packet_line": true,
+   "checks": {
+    "identifier": true,
+    "packet_file": true,
+    "gate_row": true
+   },
+   "pass": true
+  },
+  {
+   "row_id": "d9cc9027d73e",
+   "identifier": "GCST002539",
+   "side": "outcome",
+   "expected_row": "PGC SCZ2 (2014)",
+   "returned_row_identifier": [
+    "PGC SCZ2 (2014)"
+   ],
+   "returned_row_packet_file": [
+    "PGC SCZ2 (2014)"
+   ],
+   "gate_row_passes": true,
+   "gate_row_failures": [],
+   "identifier_in_packet_line": true,
+   "checks": {
+    "identifier": true,
+    "packet_file": true,
+    "gate_row": true
+   },
+   "pass": true
+  },
+  {
+   "row_id": "72d871e363e2",
+   "identifier": "GCST009315",
+   "side": "outcome",
+   "expected_row": "PGC-PTSD freeze 2 (Nievergelt 2019)",
+   "returned_row_identifier": [
+    "PGC-PTSD freeze 2 (Nievergelt 2019)"
+   ],
+   "returned_row_packet_file": [
+    "PGC-PTSD freeze 2 (Nievergelt 2019)"
+   ],
+   "gate_row_passes": true,
+   "gate_row_failures": [],
+   "identifier_in_packet_line": true,
+   "checks": {
+    "identifier": true,
+    "packet_file": true,
+    "gate_row": true
+   },
+   "pass": true
+  },
+  {
+   "row_id": "8a3bcd70500b",
+   "identifier": "GCST007543",
+   "side": "outcome",
+   "expected_row": "PGC/iPSYCH ADHD (Demontis 2019)",
+   "returned_row_identifier": [
+    "PGC/iPSYCH ADHD (Demontis 2019)"
+   ],
+   "returned_row_packet_file": [
+    "PGC/iPSYCH ADHD (Demontis 2019)"
+   ],
+   "gate_row_passes": true,
+   "gate_row_failures": [],
+   "identifier_in_packet_line": true,
+   "checks": {
+    "identifier": true,
+    "packet_file": true,
+    "gate_row": true
+   },
+   "pass": true
+  },
+  {
+   "row_id": "c2dd323ffc9d",
+   "identifier": "GCST90269774",
+   "side": "outcome",
+   "expected_row": "PGC/iPSYCH/deCODE ADHD (Demontis 2023)",
+   "returned_row_identifier": [
+    "PGC/iPSYCH/deCODE ADHD (Demontis 2023)"
+   ],
+   "returned_row_packet_file": [
+    "PGC/iPSYCH/deCODE ADHD (Demontis 2023)"
+   ],
+   "gate_row_passes": true,
+   "gate_row_failures": [],
+   "identifier_in_packet_line": true,
+   "checks": {
+    "identifier": true,
+    "packet_file": true,
+    "gate_row": true
+   },
+   "pass": true
+  },
+  {
+   "row_id": "f1a2765ea909",
+   "identifier": "ieu-b-85",
+   "side": "outcome",
+   "expected_row": "PRACTICAL/ELLIPSE prostate cancer (Schumacher 2018)",
+   "returned_row_identifier": [
+    "PRACTICAL/ELLIPSE prostate cancer (Schumacher 2018)"
+   ],
+   "returned_row_packet_file": [
+    "PRACTICAL/ELLIPSE prostate cancer (Schumacher 2018)"
+   ],
+   "gate_row_passes": true,
+   "gate_row_failures": [],
+   "identifier_in_packet_line": true,
+   "checks": {
+    "identifier": true,
+    "packet_file": true,
+    "gate_row": true
+   },
+   "pass": true
+  },
+  {
+   "row_id": "512aed5fcf5e",
+   "identifier": "GCST002318",
+   "side": "outcome",
+   "expected_row": "RA trans-ethnic (Okada 2014)",
+   "returned_row_identifier": [
+    "RA trans-ethnic (Okada 2014)"
+   ],
+   "returned_row_packet_file": [
+    "RA trans-ethnic (Okada 2014)"
+   ],
+   "gate_row_passes": true,
+   "gate_row_failures": [],
+   "identifier_in_packet_line": true,
+   "checks": {
+    "identifier": true,
+    "packet_file": true,
+    "gate_row": true
+   },
+   "pass": true
+  },
+  {
+   "row_id": "2f7f2527ae8f",
+   "identifier": "GCST90011994",
+   "side": "pqtl",
+   "expected_row": "SCALLOP CVD-I (Folkersen 2020)",
+   "returned_row_identifier": [
+    "SCALLOP CVD-I (Folkersen 2020)"
+   ],
+   "returned_row_packet_file": [
+    "SCALLOP CVD-I (Folkersen 2020)"
+   ],
+   "gate_row_passes": true,
+   "gate_row_failures": [],
+   "identifier_in_packet_line": true,
+   "checks": {
+    "identifier": true,
+    "packet_file": true,
+    "gate_row": true
+   },
+   "pass": true
+  },
+  {
+   "row_id": "e0a5e184599d",
+   "identifier": "GCST003155",
+   "side": "outcome",
+   "expected_row": "SLE (Bentham 2015)",
+   "returned_row_identifier": [
+    "SLE (Bentham 2015)"
+   ],
+   "returned_row_packet_file": [
+    "SLE (Bentham 2015)"
+   ],
+   "gate_row_passes": true,
+   "gate_row_failures": [],
+   "identifier_in_packet_line": true,
+   "checks": {
+    "identifier": true,
+    "packet_file": true,
+    "gate_row": true
+   },
+   "pass": true
+  },
+  {
+   "row_id": "c24b2fbda279",
+   "identifier": "GCST006624",
+   "side": "outcome",
+   "expected_row": "UK Biobank + ICBP blood pressure (Evangelou 2018)",
+   "returned_row_identifier": [
+    "UK Biobank + ICBP blood pressure (Evangelou 2018)"
+   ],
+   "returned_row_packet_file": [
+    "UK Biobank + ICBP blood pressure (Evangelou 2018)"
+   ],
+   "gate_row_passes": true,
+   "gate_row_failures": [],
+   "identifier_in_packet_line": true,
+   "checks": {
+    "identifier": true,
+    "packet_file": true,
+    "gate_row": true
+   },
+   "pass": true
+  }
+ ]
+}
