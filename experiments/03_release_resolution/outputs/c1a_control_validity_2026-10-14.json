@@ -1,0 +1,1535 @@
+{
+ "rule": "DEVIATION_02_c1_controls.md, item 2: valid when both judges mark valid, invalid when both mark invalid; any other pair retained as valid",
+ "counts": {
+  "controls": 70,
+  "both_valid": 22,
+  "both_invalid": 34,
+  "disputed_retained_valid": 14,
+  "valid_controls": 36
+ },
+ "valid_controls_at_least_50": false,
+ "marks_by_judge": {
+  "claude-fable-5-1": {
+   "valid": 28,
+   "invalid": 37,
+   "cannot_mark": 5,
+   "failed": 0
+  },
+  "gpt-6-astra": {
+   "valid": 23,
+   "invalid": 34,
+   "cannot_mark": 13,
+   "failed": 0
+  }
+ },
+ "judges": {
+  "claude-fable-5-1": {
+   "attempts": 70,
+   "second_attempts": 0,
+   "attempt_statuses": [
+    "200"
+   ],
+   "models_returned": [
+    "claude-fable-5-1"
+   ],
+   "usd": 1.9499
+  },
+  "gpt-6-astra": {
+   "attempts": 70,
+   "second_attempts": 0,
+   "attempt_statuses": [
+    "200"
+   ],
+   "models_returned": [
+    "gpt-6-astra"
+   ],
+   "usd": 1.0494
+  }
+ },
+ "spend_usd": 2.9993,
+ "ledger_usd_after": 86.0906,
+ "ceiling_usd": 300.0,
+ "seed": 20261032,
+ "send_order": [
+  "f9380435bac9",
+  "462f8b60aa9a",
+  "beb53c445fe0",
+  "c3650b33c2a0",
+  "afa9d4ab7290",
+  "9cc7f9634653",
+  "470b24b093cb",
+  "2bcc4ffa9cfe",
+  "29ef78ebc461",
+  "d2afe6dea8af",
+  "75c5dc28b1a1",
+  "7374aea8bf21",
+  "3047355b06ff",
+  "a474b0573d66",
+  "976e10b8f54e",
+  "1c4629e40374",
+  "d9aded1cc8f3",
+  "02ab5940b3e7",
+  "0230f0838ea2",
+  "b2d25d136e35",
+  "c40dfe400797",
+  "3a5b18cfb63d",
+  "e269cf59024b",
+  "e5aa97fcf3b2",
+  "defccaf72b9f",
+  "39a89fd1af3f",
+  "13353bf72cc3",
+  "08ff26010f62",
+  "3e4f64539b49",
+  "7cda49ac7416",
+  "b97753df85a8",
+  "d7031f51f2f7",
+  "263af57882e2",
+  "91b5c3044a4d",
+  "763037874626",
+  "025f4fdcbb7e",
+  "2b557903ad6e",
+  "1eb480269d39",
+  "e49cfe048df6",
+  "fe776feae1eb",
+  "cde0eb0af013",
+  "d9eb265cec06",
+  "87eedc98f775",
+  "7b15c44262d3",
+  "ec5ceb70fa01",
+  "f857a578d7c6",
+  "76785c451e0f",
+  "782c849a818a",
+  "ad86cd81652d",
+  "9f52d517eef3",
+  "9e35ea764a85",
+  "5046fcd173b2",
+  "e533016ecfd4",
+  "cfa654ff0176",
+  "c9bb95bbd3eb",
+  "b7d393d75ccf",
+  "39a5febdb036",
+  "f88efc2026f6",
+  "bbe3cd121c2d",
+  "ce340642461a",
+  "0200ae0603c6",
+  "4e4afcb1c556",
+  "c2dc6cbd72ef",
+  "cb7d84cb8291",
+  "17aa7f26a444",
+  "db4a63b0058f",
+  "3c1ca11e63fa",
+  "2d74cd295815",
+  "273f80b7d792",
+  "75a0e19199f6"
+ ],
+ "inputs_sha256": {
+  "prompts/control_validity_prompt_v1.md": "b451722be37ca8ddea41ffa777c7d6d8be17207d6cb2e7318bbe44ceb7eeadfa",
+  "prompts/control_validity_schema_v1.json": "bca280af208c9bd231a7d90c87322b51059386b081a17454e80d3d31afc2342f",
+  "volume:coding/c1a_validity/packets/order.json": "51c69846e13857283110618a6acab5ef2fd301a6f60b8cdc7adf996dd62079ec",
+  "volume:coding/c1a/control_set.json": "cc549eca78ef44d4c4c157e4a11aa101b9c22724e71f271a80d77c4e348c7db1"
+ },
+ "packets_sha256": {
+  "f9380435bac9": "4f1df2450989581ab4e1377fe4ad0a6306a43d6847d3a91924c6f31b435fbada",
+  "462f8b60aa9a": "578ab8e1cdf0f11c3a0e8a941365a5ce126e68dd1b0c4bab5f99c9f28d483a5e",
+  "beb53c445fe0": "d9063fe5fa182b617df15db0a2ee707c4b250499959f9f270e91f617101dd7c6",
+  "c3650b33c2a0": "b7df0c0154da3bf03ed549de18e943452bd0071f32c143f228d1cfd7cd767cd8",
+  "afa9d4ab7290": "e6b3adc7e6c8942503cd89e7e5c5364b76b8f340eff9fc9b8610e1d392628db0",
+  "9cc7f9634653": "1c3ee87599d02b272d5e1c56031a2ab972227c46a5d4f202bca217c3d105a170",
+  "470b24b093cb": "8fcf27ce2a592f26647e29ef08b053b2aaaf6a3028be8e72eb281400c506f9c9",
+  "2bcc4ffa9cfe": "bc5494a819641f8311862aa02b2cb9c310a5ba19eff246c8949f9316f6d45e74",
+  "29ef78ebc461": "b619f3e3950fa5b1b861afeabbc76caf3cccf945719b574995d265d24e6d0c37",
+  "d2afe6dea8af": "222fd633c47c4daf4ce74b4c628011a53c4d32f075aa1063be73b65689300775",
+  "75c5dc28b1a1": "66a1faa546d9838c29d222541ec254124b9d9a3072a36e747f5866a10b7127fa",
+  "7374aea8bf21": "44ad5da47a4a0ed1b3bf2a4c9aa02fd90264f9da4abccad666390943ed568e9b",
+  "3047355b06ff": "2bef0299775f97e70f3b770b45854596bf38a7f4687967408e53e1eed248cf04",
+  "a474b0573d66": "c2d55bd56a23c4f74323916ac2f19ccf642d749d4a6707d8bfd0cfa6190cf067",
+  "976e10b8f54e": "beaa7178d6b1b355fd1c5faf840e247b60ff2cc64b66cea4a52d5cbda3ef9825",
+  "1c4629e40374": "86e8da2fa904ba2ebd38bf3059c271abdba7a4d3e38cc233977d9a40bd324823",
+  "d9aded1cc8f3": "e95489bcd2ffb3bbdbad371fa65853689215334050d4b4642af3c42ed427f649",
+  "02ab5940b3e7": "ff329d7bdffd447bff72e28e0fcfd9e3838e59f05717c1117e320b42fd304915",
+  "0230f0838ea2": "170fe089e78afda7ada6369fe8e47a75408cf2f2847752dd013333a69ea0d04e",
+  "b2d25d136e35": "7631ee0edb6d9a12bf1e7e469edb43da5cfc762003b716d80231b387007f3836",
+  "c40dfe400797": "d6375e7db441e24ca15daf4d9eb625fb3e1b9c09692cff1be404506a6d75ee98",
+  "3a5b18cfb63d": "43d85f558a7327ff73f01c4aca02560069b6d03ab61a1528a3b03a183b742f1a",
+  "e269cf59024b": "1b4ff739e09a54ac9afeeec423908776f0b48b2e1b6511ee39d8ca7ac7e5421a",
+  "e5aa97fcf3b2": "1b07e6d4a1b42d5c30824347920f55665279fd98b5f07a8f95bdb32c0448e7a7",
+  "defccaf72b9f": "d67fa25e367254fe6a91f0242c595487db1a3daac8e3b890c4cefd1d7ce149ba",
+  "39a89fd1af3f": "79ece8c8441339bbd7fba53da87bfc56b1e0ae57e6061d3b94600a4adab60190",
+  "13353bf72cc3": "2e078859094685b02a5aafd0c6adcfd6d98b32b70ec5499a335099eb6f0ee183",
+  "08ff26010f62": "cc62112f0209a30c89052e82f833f7e681dadc523a38780a5be6b057ec9af294",
+  "3e4f64539b49": "9b67f2b00062d384b7d173b8f1ed7f115bcdde504a971ddc964b9743fd07581b",
+  "7cda49ac7416": "8fbf2da39f3cd83e0f4d3f22ffa37dc4b4df8a0061e9d19d16861af4c2aa8162",
+  "b97753df85a8": "8ee6bc7de5cbe81688b7f0778dcac3ffea27ddaa8b4e5e7330e95c85fb42707d",
+  "d7031f51f2f7": "14e86c8c7b7e816a2a1857f040b7d8b0eac6b3ff7a3d6add8acf6d7e8cdf6738",
+  "263af57882e2": "3cfa9ad512750836627ad24fa4a1671e1a03a13b738d0bd83b0de90113d3426a",
+  "91b5c3044a4d": "4319ef03791b66a9944353154ae88342202b7ad9683e86166611617c5fd9f075",
+  "763037874626": "20d4c6540e7f105704f59ecea6826ca2a22bf759847aeccf09694d2270b5dab4",
+  "025f4fdcbb7e": "472dcd9923bf328537a562bafc41c9ac05f2cbc865fddb77921060dc6cdc45b2",
+  "2b557903ad6e": "afd1e39e5ba3b722ca8be9825b0e6c46fd45e3b856e662c14c5d18ffbfcd566e",
+  "1eb480269d39": "d485fe24b56542689f201a11cc8eb7f66e85a18fdc0b4c1c85d7b6327122566f",
+  "e49cfe048df6": "c9c38bf469ed032dbc5add4356ee57d3b708e0e08f838ea8cc209b24bf4a3a26",
+  "fe776feae1eb": "8d08b499eb34691b614879167955863bdc2d6a3f7e25a7056e3388d7b76380d6",
+  "cde0eb0af013": "44757e6a2f25a38aee0c3323e9340402224255940435c11b1bd5ec005ef632a5",
+  "d9eb265cec06": "8576db860456cd7c43ab7568824f6eba1f875450299003eaf6d6bed3d147ea90",
+  "87eedc98f775": "abbc86b9db77b4e9562530981f2d19135871e0910f12cb003aaa67004e409a96",
+  "7b15c44262d3": "3fd6fea03aa5476c666be47d95e062051e15b198a9be47b7394a29d5b74a4843",
+  "ec5ceb70fa01": "5f589a92476a518737834599f0200e1a3cf65f4a139baa2623e6de42e8ff2261",
+  "f857a578d7c6": "b6ed2907a6b81e7e73394374ee4c1ec72764a5643d4b93a930ac8e84ef1d514a",
+  "76785c451e0f": "83f887825a11e2580197dfafffcce9fb600e193e5a3f1ed4041ca4ff407d7975",
+  "782c849a818a": "c3048332acaf01c9c6be7c7f7e6a6392547c41afca24b340d8d554e4243bf107",
+  "ad86cd81652d": "4c574f061608755eb9399f9a2d6c7696180baf78d2886177705dc4561443b639",
+  "9f52d517eef3": "2df54895a366abe0684413510bfa91e4c0409acd9ab3dbc9776a33f23538cf02",
+  "9e35ea764a85": "4c36155b8910ae9f32a0f5e727e1f766bef794d8a6cf6799116e6876a91a94df",
+  "5046fcd173b2": "545c0e6d6ddfb9048675a7c3527aca3ba8459942a32b321098a62445de115528",
+  "e533016ecfd4": "fb65fe00b7c0313957a80e6be585ea8696326e3f3e8b7bd75e58c95cf2fdbe85",
+  "cfa654ff0176": "5b9c606847759140143791c505020fbd1fd7397fb795afd2fb5d9898c5e57781",
+  "c9bb95bbd3eb": "8c619a87a684dc09a9518bb0654faf0eefae3c49b99bbf97cadf520dc0469e03",
+  "b7d393d75ccf": "aff255348a5ab71f1fe0972525e7215492bb555a5e2ed836fd88f1f244418f1b",
+  "39a5febdb036": "aaf916e5acc761f8e0048d4723afb0611c16f9668db09f02757883a1c61f0156",
+  "f88efc2026f6": "e7c469ac47df52f82fab83f8d6ca752995ed7939ac2b52b105f06e89f43afc8b",
+  "bbe3cd121c2d": "36b34f5db4906abfc2ba4fd3f8c6f1eabc996f1f0f28c92aba24ccbc1a2a76d5",
+  "ce340642461a": "ead7710d28302196d5dfc1ee9e945ccc67e55b4a4776f8dfa41b9760d379e28c",
+  "0200ae0603c6": "5a2cdca824bb9aa958d3b9202e8b362b8ea8a7d59f5902986762cb9f2a4e266e",
+  "4e4afcb1c556": "b4d537d73361b6168444d416b821c5517bb531dd38bd16a62ca9e96de1266b87",
+  "c2dc6cbd72ef": "301371d23a2f82946974ee15777a0fca9cf945e7fadfc8f136a0c765f9f52566",
+  "cb7d84cb8291": "597359ce61c9f331d440c7994058e5b3378a064a8797c77e76807a25cec31ff7",
+  "17aa7f26a444": "3858a461ffb16a1866065a8c1c74cf98d6790e799cbd9b98bd45b7c1ab978883",
+  "db4a63b0058f": "d9abe513ddce0ca0854c473a7820c5a78ff73b688dd354cd27f5a5e3a71af012",
+  "3c1ca11e63fa": "eb449a2b6ec34abbbaf59c6a75b514ee550cc2a42d182fc1592d3a8df96fa53d",
+  "2d74cd295815": "eaa50dcc233d73ef5dde83b1d51362bbbb7277398fb7e380caa0803af0df3a97",
+  "273f80b7d792": "85213b055f8e98c7173ffa043885f3dcf0537c56f991b6b51f73f6422198735f",
+  "75a0e19199f6": "2832b88366ad98712fec25e82715b6b983604176d03f9c9a6254b9577448068f"
+ },
+ "controls": {
+  "f9380435bac9": {
+   "claude-fable-5-1": {
+    "state": "accepted",
+    "mark": "invalid",
+    "reason": "The table row attributes ukb-b-17796 to the phenotype Osteoporosis, not to coronary artery disease, which is the outcome of the claim; it therefore belongs to another outcome.",
+    "quotation_sha256": "92a0aab1b1c39d9479349454e93cffbc990c7792e23840e26f5acae31568677b",
+    "quotation_in_passage": true,
+    "request_key": "d59a7dd04bab4e01fe8421b6"
+   },
+   "gpt-6-astra": {
+    "state": "accepted",
+    "mark": "invalid",
+    "reason": "The table attributes ukb-b-17796 to osteoporosis, not to the claim's outcome of coronary artery disease.",
+    "quotation_sha256": "92a0aab1b1c39d9479349454e93cffbc990c7792e23840e26f5acae31568677b",
+    "quotation_in_passage": true,
+    "request_key": "1c93eac0b2a0ec26d29d5ac5"
+   },
+   "combined": "invalid"
+  },
+  "462f8b60aa9a": {
+   "claude-fable-5-1": {
+    "state": "accepted",
+    "mark": "valid",
+    "reason": "The sentence attributes ukb-b-20145 directly to the paper's colon cancer data, which is the claim's outcome; the inflammation (exposure) data are cited separately with different accessions.",
+    "quotation_sha256": "160e5ca3f99515892146b39f07415a3e956def7812c9a16334175f2953300a50",
+    "quotation_in_passage": true,
+    "request_key": "05a719563abfc8193ba5a516"
+   },
+   "gpt-6-astra": {
+    "state": "accepted",
+    "mark": "valid",
+    "reason": "The passage explicitly attributes ukb-b-20145 to the paper's colon cancer data, matching the claim's outcome.",
+    "quotation_sha256": "160e5ca3f99515892146b39f07415a3e956def7812c9a16334175f2953300a50",
+    "quotation_in_passage": true,
+    "request_key": "181dc0c6531ba307731aa32d"
+   },
+   "combined": "valid"
+  },
+  "beb53c445fe0": {
+   "claude-fable-5-1": {
+    "state": "accepted",
+    "mark": "valid",
+    "reason": "The sentence attributes FinnGen R10 to the summary statistics on MI, the claim's outcome, as one of two outcome sources; nothing in the passage states the two were merged into a combined dataset, so the identifier is attributed to the outcome dataset.",
+    "quotation_sha256": "04c41e685a4d4a08768a42f64a42f8c49eca150e34de7a590ab41f5069a831f7",
+    "quotation_in_passage": true,
+    "request_key": "6687572d991755d2b4df93a5"
+   },
+   "gpt-6-astra": {
+    "state": "accepted",
+    "mark": "valid",
+    "reason": "The passage explicitly identifies FinnGen R10 as a source of MI outcome summary statistics. It does not describe FinnGen as a replication dataset or a component of a combined analysis.",
+    "quotation_sha256": "04c41e685a4d4a08768a42f64a42f8c49eca150e34de7a590ab41f5069a831f7",
+    "quotation_in_passage": true,
+    "request_key": "0a5602339fbfb3ecdf3aa58c"
+   },
+   "combined": "valid"
+  },
+  "c3650b33c2a0": {
+   "claude-fable-5-1": {
+    "state": "accepted",
+    "mark": "invalid",
+    "reason": "The passage describes a phenome-wide follow-up in which 2408 FinnGen R10 phenotypes are outcomes for target proteins already identified by co-localization, i.e. a secondary analysis rather than the dataset of the claim's outcome, cardioembolic stroke, which is not named here.",
+    "quotation_sha256": "d9dc1839930c4ae17be82f87f0c42313a8d5aebea0ddad33a08ff821bb762b2a",
+    "quotation_in_passage": true,
+    "request_key": "e96530b506ffc3c0c841b991"
+   },
+   "gpt-6-astra": {
+    "state": "accepted",
+    "mark": "cannot_mark",
+    "reason": "The passage identifies FinnGen R10 as the source of 2408 outcome phenotypes, but does not establish whether it supplies the cardioembolic stroke dataset for the claim or belongs to a secondary analysis.",
+    "quotation_sha256": "d9dc1839930c4ae17be82f87f0c42313a8d5aebea0ddad33a08ff821bb762b2a",
+    "quotation_in_passage": true,
+    "request_key": "7e463b1daef683bf1ce776f5"
+   },
+   "combined": "disputed_retained_valid"
+  },
+  "afa9d4ab7290": {
+   "claude-fable-5-1": {
+    "state": "accepted",
+    "mark": "invalid",
+    "reason": "The passage names FinnGen Release 8 as one of two outcome GWAS sources (with PRACTICAL), and the following sentence states the causal estimates from the two cohorts were combined with meta-analyses, so the claim's outcome dataset is the combined meta-analysis and FinnGen Release 8 is only one component of it.",
+    "quotation_sha256": "64b57a97ef0877f6cc11780f376df4553e58fc95ce66c7a80d275d0e1d71715b",
+    "quotation_in_passage": false,
+    "request_key": "05b676eba24f0581ba774b8d"
+   },
+   "gpt-6-astra": {
+    "state": "accepted",
+    "mark": "invalid",
+    "reason": "FinnGen Release 8 is one of two outcome cohorts whose causal estimates were combined by meta-analysis, rather than the combined outcome dataset supporting the claim.",
+    "quotation_sha256": "adafd52aea3e9a24f19d83647b098191f83f4f742acf1f9987d8a2c77e6b9eb3",
+    "quotation_in_passage": true,
+    "request_key": "0681aae31e26fae118d8c700"
+   },
+   "combined": "invalid"
+  },
+  "9cc7f9634653": {
+   "claude-fable-5-1": {
+    "state": "accepted",
+    "mark": "valid",
+    "reason": "The sentence attributes FinnGen data freeze 9 to the AMD outcome GWAS (finngen_R9_H7_AMD, 8913 cases and 348,936 controls), one of the outcome datasets analysed for the claim's outcome AMD, not a component of a combined dataset.",
+    "quotation_sha256": "04250888b0d51f2216b0a2792b9d0ead16c6141a24319ee6b682b53198c9fd99",
+    "quotation_in_passage": true,
+    "request_key": "6dad1c514fb4b8ab777a69bc"
+   },
+   "gpt-6-astra": {
+    "state": "accepted",
+    "mark": "valid",
+    "reason": "The passage explicitly attributes the AMD outcome GWAS data to FinnGen data freeze 9. It presents this as an AMD dataset, not merely a component of a combined dataset or a replication analysis.",
+    "quotation_sha256": "04250888b0d51f2216b0a2792b9d0ead16c6141a24319ee6b682b53198c9fd99",
+    "quotation_in_passage": true,
+    "request_key": "ec91b6d451e90caa56fc624d"
+   },
+   "combined": "valid"
+  },
+  "470b24b093cb": {
+   "claude-fable-5-1": {
+    "state": "accepted",
+    "mark": "valid",
+    "reason": "The passage attributes FinnGen R11 to the MASLD outcome dataset used in the primary PWAS (\"R11 MASLD\"), with the GWAS meta-analysis serving only as the validation dataset; the claims' outcome is MASLD.",
+    "quotation_sha256": "04eb478a3bf26db09df90c544abdbfa45c683af65c83483f72191fcf1f95616e",
+    "quotation_in_passage": true,
+    "request_key": "646c0a960c187a478337336b"
+   },
+   "gpt-6-astra": {
+    "state": "accepted",
+    "mark": "valid",
+    "reason": "The passage identifies FinnGen R11 as the primary MASLD outcome dataset, with a separate meta-analysis dataset used for validation. MASLD is the outcome of both listed claims.",
+    "quotation_sha256": "febc01c1d5d66adea1aa90ea9b4674bda24a87c59dc3d0f23ab35f6eed99cb9d",
+    "quotation_in_passage": true,
+    "request_key": "02c42ffc1b8694c4b9bfe686"
+   },
+   "combined": "valid"
+  },
+  "2bcc4ffa9cfe": {
+   "claude-fable-5-1": {
+    "state": "accepted",
+    "mark": "invalid",
+    "reason": "The passage attributes FinnGen R9 to the replication analysis, not the discovery outcome dataset of the claim; the following sentence further indicates discovery and replication estimates were meta-analysed, making FinnGen R9 at most a component of a combined dataset.",
+    "quotation_sha256": "393453ff441a2452faabf68dd2afa98c04c2e345a287a898d08b32fa6561877c",
+    "quotation_in_passage": true,
+    "request_key": "0fe3244075a4e65051a727c1"
+   },
+   "gpt-6-astra": {
+    "state": "accepted",
+    "mark": "invalid",
+    "reason": "The passage assigns FinnGen R9 to the replication analysis, rather than the primary outcome dataset for the claims. Replication datasets are invalid under the rubric.",
+    "quotation_sha256": "93d9898f81363b844eb829ec11a746d3b99f13e965708e16b5845bcec1bf88ad",
+    "quotation_in_passage": true,
+    "request_key": "622ac1c3c98dde4bec7ca8ac"
+   },
+   "combined": "invalid"
+  },
+  "29ef78ebc461": {
+   "claude-fable-5-1": {
+    "state": "accepted",
+    "mark": "invalid",
+    "reason": "The passage names the MRC-IEU UK Biobank endometriosis GWAS as the outcome dataset, while the FinnGen R9 summary statistics are listed among datasets that 'were used for the external validation', i.e. a replication role rather than the claim's primary outcome dataset.",
+    "quotation_sha256": "d06b4140aca61dfe4b4beedb862babe17e76a2bdc77c49ec2c99b3cce7ed70f3",
+    "quotation_in_passage": false,
+    "request_key": "c63b48dfa81293257cf40db0"
+   },
+   "gpt-6-astra": {
+    "state": "accepted",
+    "mark": "invalid",
+    "reason": "The FinnGen R9 summary statistics are explicitly designated for external validation, rather than the primary EM outcome dataset from MRC-IEU.",
+    "quotation_sha256": "f773734a6c184a6b00d31b03657583d5f87ba98aa320369400a6a9f18c72c374",
+    "quotation_in_passage": true,
+    "request_key": "afbf7830e142383e1c397045"
+   },
+   "combined": "invalid"
+  },
+  "d2afe6dea8af": {
+   "claude-fable-5-1": {
+    "state": "accepted",
+    "mark": "invalid",
+    "reason": "In the source sentence, FinnGen R11 is attributed to 'cardiovascular disease data', a separate outcome from the claim's outcome atherosclerosis, whose summary statistics are covered in the preceding sentence as a distinct dataset; the identifier thus belongs to another outcome rather than the claim's atherosclerosis dataset.",
+    "quotation_sha256": "e00672d9ea39e111b60c5454118b1df4dc5746f18f523cbbb10d296e2f59e97c",
+    "quotation_in_passage": true,
+    "request_key": "f1e572a8c4ec302da68ffd58"
+   },
+   "gpt-6-astra": {
+    "state": "accepted",
+    "mark": "invalid",
+    "reason": "The identifier is attributed to cardiovascular disease data, rather than the claim's atherosclerosis dataset, which is described separately in the preceding sentence.",
+    "quotation_sha256": "e00672d9ea39e111b60c5454118b1df4dc5746f18f523cbbb10d296e2f59e97c",
+    "quotation_in_passage": true,
+    "request_key": "e8e7b7f437d3dcba84fed7c9"
+   },
+   "combined": "invalid"
+  },
+  "75c5dc28b1a1": {
+   "claude-fable-5-1": {
+    "state": "accepted",
+    "mark": "invalid",
+    "reason": "The passage attributes ukb-b-19393 to the fat mass GWAS, which is an exposure/covariate dataset, not the dataset of the claim's outcome, coronary artery disease.",
+    "quotation_sha256": "3fc775b429d4c42adea0024913fa9582c74bfdc5f15570d2262c95989ef13dc0",
+    "quotation_in_passage": true,
+    "request_key": "f3d674ea4da1257cc1a2deeb"
+   },
+   "gpt-6-astra": {
+    "state": "accepted",
+    "mark": "invalid",
+    "reason": "The passage attributes ukb-b-19393 to fat mass, not to coronary artery disease, the claim's outcome.",
+    "quotation_sha256": "3fc775b429d4c42adea0024913fa9582c74bfdc5f15570d2262c95989ef13dc0",
+    "quotation_in_passage": true,
+    "request_key": "6f7e6d29a78fb2d1d5aa5eb1"
+   },
+   "combined": "invalid"
+  },
+  "7374aea8bf21": {
+   "claude-fable-5-1": {
+    "state": "accepted",
+    "mark": "invalid",
+    "reason": "The table row attributes ukb-b-14057 to a Hypertension GWAS, not to the claim's outcome CKD; hypertension is another trait (likely a covariate or mediator) rather than the claim's outcome dataset.",
+    "quotation_sha256": "b51cc719c9723acbfab772e0ab95dcb73ed365e50f48909ce720a5e9262871f3",
+    "quotation_in_passage": true,
+    "request_key": "10613bbd390f4821025e1836"
+   },
+   "gpt-6-astra": {
+    "state": "accepted",
+    "mark": "invalid",
+    "reason": "The table attributes ukb-b-14057 to hypertension, not CKD, the claim's outcome.",
+    "quotation_sha256": "b51cc719c9723acbfab772e0ab95dcb73ed365e50f48909ce720a5e9262871f3",
+    "quotation_in_passage": true,
+    "request_key": "a50fc3bdef3eec2fbdd28ef4"
+   },
+   "combined": "invalid"
+  },
+  "3047355b06ff": {
+   "claude-fable-5-1": {
+    "state": "accepted",
+    "mark": "invalid",
+    "reason": "FinnGen R10 is a myocardial infarction outcome source, but the passage states its estimates were combined with CARDIoGRAMplusC4D in a fixed-effects meta-analysis, so the claim's outcome dataset is the combined one and FinnGen R10 is only a component.",
+    "quotation_sha256": "38bba49b04666ea99b6f87c3cdd725434d50a295161566abbb8893c53508fd46",
+    "quotation_in_passage": true,
+    "request_key": "191bf196381d8fb8f32bcfb8"
+   },
+   "gpt-6-astra": {
+    "state": "accepted",
+    "mark": "invalid",
+    "reason": "FinnGen R10 supplies one component of the myocardial infarction outcome analysis; its causal estimates were combined with CARDIoGRAMplusC4D estimates in a fixed-effects meta-analysis.",
+    "quotation_sha256": "38bba49b04666ea99b6f87c3cdd725434d50a295161566abbb8893c53508fd46",
+    "quotation_in_passage": true,
+    "request_key": "0e529fe1bac889ab3c88e866"
+   },
+   "combined": "invalid"
+  },
+  "a474b0573d66": {
+   "claude-fable-5-1": {
+    "state": "accepted",
+    "mark": "invalid",
+    "reason": "The passage attributes FinnGen (release 5) to a broad set of 3,766 traits used in a phenome-wide scan, not to the inflammatory bowel disease outcome dataset of the claims; this is a secondary analysis rather than the claim's outcome dataset.",
+    "quotation_sha256": "191d24721ef2adf3cee0bbd9bb969a2256de90efd9d2819519776669b1dc4101",
+    "quotation_in_passage": true,
+    "request_key": "006cd79ea2b49f9faa8d6173"
+   },
+   "gpt-6-astra": {
+    "state": "accepted",
+    "mark": "cannot_mark",
+    "reason": "The passage lists FinnGen release 5 among sources for 3,766 traits but does not attribute it to the inflammatory bowel disease outcome dataset or establish its analytical role.",
+    "quotation_sha256": "191d24721ef2adf3cee0bbd9bb969a2256de90efd9d2819519776669b1dc4101",
+    "quotation_in_passage": true,
+    "request_key": "c515cf4e0b14d437bb89a61f"
+   },
+   "combined": "disputed_retained_valid"
+  },
+  "976e10b8f54e": {
+   "claude-fable-5-1": {
+    "state": "accepted",
+    "mark": "valid",
+    "reason": "The passage attributes the FinnGen R11 identifier to the MS GWAS dataset (finngen_R11_G6_MS) with 2,620 MS patients, which is the outcome of all three claims; nothing indicates it is a replication, secondary analysis, or a component of a combined dataset.",
+    "quotation_sha256": "4be1d80eb8aa217b618788ef2baf0f1a3d3578c6ecb881dfc9049b7a155d207c",
+    "quotation_in_passage": false,
+    "request_key": "1ed2a10321761b0de0d611a8"
+   },
+   "gpt-6-astra": {
+    "state": "accepted",
+    "mark": "valid",
+    "reason": "The passage attributes the FinnGen R11 GWAS dataset to MS, the outcome in all listed claims, and specifies MS patients and healthy controls.",
+    "quotation_sha256": "4be1d80eb8aa217b618788ef2baf0f1a3d3578c6ecb881dfc9049b7a155d207c",
+    "quotation_in_passage": false,
+    "request_key": "5b04ef11f40c21b7ac5673d6"
+   },
+   "combined": "valid"
+  },
+  "1c4629e40374": {
+   "claude-fable-5-1": {
+    "state": "accepted",
+    "mark": "invalid",
+    "reason": "The passage assigns FinnGen R12 the role of replication outcome study (UK Biobank being the discovery), and it is then only one component of the meta-analysed outcome dataset used for the main analyses, so it is not attributed as the claim's VTE outcome dataset itself.",
+    "quotation_sha256": "778d65236ded30dc8115db884c47b2d633ea0efae70878152404fae2945c5d83",
+    "quotation_in_passage": true,
+    "request_key": "e7d3168b3e54151c59405428"
+   },
+   "gpt-6-astra": {
+    "state": "accepted",
+    "mark": "invalid",
+    "reason": "The passage explicitly assigns FinnGen R12 to the replication study, not the discovery outcome dataset. It also describes FinnGen as one component of the combined GWAS used for colocalization.",
+    "quotation_sha256": "3dae574dfdfda0628aca04312fc5d5e8003e543ff8b1c68cbfbc955c891666fc",
+    "quotation_in_passage": true,
+    "request_key": "5b5c63a9b0e2b9c529442dbf"
+   },
+   "combined": "invalid"
+  },
+  "d9aded1cc8f3": {
+   "claude-fable-5-1": {
+    "state": "accepted",
+    "mark": "invalid",
+    "reason": "The passage attributes ukb-b-13354 to the lean mass GWAS dataset, not to the claim's outcome (coronary artery disease); lean mass is another trait, serving as an exposure or secondary outcome rather than the CAD outcome dataset.",
+    "quotation_sha256": "ef45b97998d0c4f154756a2008937e668ca37ac8bd9697195c7f15bcb9c1049b",
+    "quotation_in_passage": true,
+    "request_key": "0888d3c4fed6cdbae5cbd22d"
+   },
+   "gpt-6-astra": {
+    "state": "accepted",
+    "mark": "invalid",
+    "reason": "The passage attributes ukb-b-13354 to lean mass, not to coronary artery disease, the claim's outcome.",
+    "quotation_sha256": "3fc775b429d4c42adea0024913fa9582c74bfdc5f15570d2262c95989ef13dc0",
+    "quotation_in_passage": true,
+    "request_key": "9a838caabd541d7634cfa9b8"
+   },
+   "combined": "invalid"
+  },
+  "02ab5940b3e7": {
+   "claude-fable-5-1": {
+    "state": "accepted",
+    "mark": "valid",
+    "reason": "The table row attributes ieu-b-85 to the trait 'Prostate cancer' (PRACTICAL consortium), which is the outcome of the claim; it is listed first with the larger sample, with the FinnGen row following as a second prostate cancer source, and nothing in the passage marks ieu-b-85 as a replication or a component of a combined dataset.",
+    "quotation_sha256": "a6225baf6f2c85b17124b39ce5468f8f7fb591a4a1b923e70a6cd2d63e2d4a86",
+    "quotation_in_passage": true,
+    "request_key": "65a4987b4e0305a987e46fca"
+   },
+   "gpt-6-astra": {
+    "state": "accepted",
+    "mark": "valid",
+    "reason": "The table row explicitly attributes ieu-b-85 to the PRACTICAL prostate cancer GWAS, matching the claim's outcome. The passage does not label this dataset as replication or as a component of a combined dataset.",
+    "quotation_sha256": "11b04dafa7038fc31f61b3a0553c92a3c07a57748167c8ca9ef88c0109c5d35b",
+    "quotation_in_passage": true,
+    "request_key": "e2003867d8f30e930c732fb4"
+   },
+   "combined": "valid"
+  },
+  "0230f0838ea2": {
+   "claude-fable-5-1": {
+    "state": "accepted",
+    "mark": "invalid",
+    "reason": "The sentence attributes FinnGen R10 to a validation (replication) analysis of endometriosis, not to the primary outcome dataset underlying the claim about ENG and endometriosis.",
+    "quotation_sha256": "dd7695f6760b83efe6f72a5e928b8a742b8641d676fce7a1eaff47133f7d0e54",
+    "quotation_in_passage": true,
+    "request_key": "b5f922f9e36832dffdc8c75c"
+   },
+   "gpt-6-astra": {
+    "state": "accepted",
+    "mark": "invalid",
+    "reason": "The passage identifies FinnGen R10 as a validation dataset for endometriosis, rather than the claim's primary outcome dataset.",
+    "quotation_sha256": "dd7695f6760b83efe6f72a5e928b8a742b8641d676fce7a1eaff47133f7d0e54",
+    "quotation_in_passage": true,
+    "request_key": "688a3a50a0f9ac95fdc7bdda"
+   },
+   "combined": "invalid"
+  },
+  "b2d25d136e35": {
+   "claude-fable-5-1": {
+    "state": "accepted",
+    "mark": "cannot_mark",
+    "reason": "The passage is a data-availability statement that merely lists FinnGen alongside the PRACTICAL consortium, UKB-PPP and a compound library without stating which dataset served as the PCa outcome; it does not say whether FinnGen was the claim's outcome dataset, a replication source, or part of a combined dataset.",
+    "quotation_sha256": "9ff46cd153d0c662e32e0a5aa721269d3fac81bc4208c078ff1c699f8e5b154e",
+    "quotation_in_passage": true,
+    "request_key": "76c38b1da6ede013944901a5"
+   },
+   "gpt-6-astra": {
+    "state": "accepted",
+    "mark": "cannot_mark",
+    "reason": "The passage lists FinnGen among publicly available data sources but does not attribute it to the PCa outcome dataset or distinguish its role from replication or secondary analyses.",
+    "quotation_sha256": "c7298bec8eaf962d05743ede68d408fe132cd7af36bf786a4a6546e0383192aa",
+    "quotation_in_passage": true,
+    "request_key": "a9083ef39032b47416e42651"
+   },
+   "combined": "disputed_retained_valid"
+  },
+  "c40dfe400797": {
+   "claude-fable-5-1": {
+    "state": "accepted",
+    "mark": "invalid",
+    "reason": "The passage attributes FinnGen release 5 to a set of 3,766 traits used in a phenome-wide scan, a secondary analysis, not to the inflammatory bowel disease outcome dataset of the claims.",
+    "quotation_sha256": "191d24721ef2adf3cee0bbd9bb969a2256de90efd9d2819519776669b1dc4101",
+    "quotation_in_passage": true,
+    "request_key": "1bfaa88ab2c9584f9fdf588a"
+   },
+   "gpt-6-astra": {
+    "state": "accepted",
+    "mark": "cannot_mark",
+    "reason": "The passage lists FinnGen release 5 among sources for 3,766 traits but does not attribute the inflammatory bowel disease outcome dataset to it.",
+    "quotation_sha256": "d847d0b06d31661e5ecb191efafebe40ca21cfe0974fa382ed45905ed62da293",
+    "quotation_in_passage": true,
+    "request_key": "65e04a1feb4f7e32f08e4dc5"
+   },
+   "combined": "disputed_retained_valid"
+  },
+  "3a5b18cfb63d": {
+   "claude-fable-5-1": {
+    "state": "accepted",
+    "mark": "invalid",
+    "reason": "The FinnGen R10 identifier is attributed to the MS outcome dataset used only in the replication phase, while the discovery (claim) outcome dataset is IMSGC; a replication dataset is a different role under the rubric.",
+    "quotation_sha256": "580acb9dea456ba7f8f8278fccf9d8f5a52b9697ea29886786c441c588aaee24",
+    "quotation_in_passage": true,
+    "request_key": "230f36a639f76c659a9053fe"
+   },
+   "gpt-6-astra": {
+    "state": "accepted",
+    "mark": "invalid",
+    "reason": "The passage explicitly assigns FinnGen to the replication phase, while IMSGC is the discovery dataset. The identifier therefore names a replication outcome dataset.",
+    "quotation_sha256": "580acb9dea456ba7f8f8278fccf9d8f5a52b9697ea29886786c441c588aaee24",
+    "quotation_in_passage": true,
+    "request_key": "b119c8cb7fe02ab1b80e30b3"
+   },
+   "combined": "invalid"
+  },
+  "e269cf59024b": {
+   "claude-fable-5-1": {
+    "state": "accepted",
+    "mark": "invalid",
+    "reason": "The identifier ukb-b-15541 is attributed in the table row to the phenotype Obesity, not to coronary artery disease, which is the claim's outcome (and is listed in the preceding row with a different identifier).",
+    "quotation_sha256": "75f04c913dbf6ebc2c0717a296a89eaa1b8fa1afaa577ac9717621782985dd72",
+    "quotation_in_passage": true,
+    "request_key": "7b0179794ec273af4206fe95"
+   },
+   "gpt-6-astra": {
+    "state": "accepted",
+    "mark": "invalid",
+    "reason": "The identifier is attributed to the obesity dataset, not the coronary artery disease outcome in the claim. Coronary artery disease is listed separately with a different identifier.",
+    "quotation_sha256": "75f04c913dbf6ebc2c0717a296a89eaa1b8fa1afaa577ac9717621782985dd72",
+    "quotation_in_passage": true,
+    "request_key": "28c240785964e9fcb766cab7"
+   },
+   "combined": "invalid"
+  },
+  "e5aa97fcf3b2": {
+   "claude-fable-5-1": {
+    "state": "accepted",
+    "mark": "invalid",
+    "reason": "The passage attributes ukb-b-18700 to the UK Biobank cholelithiasis GWAS that was used only as a validation (replication) outcome, not as the primary outcome dataset of the claim.",
+    "quotation_sha256": "aa69304324f1ca80a0ccfd9c2a0feeb95da3537e73eb22c75c295f1e1730d25e",
+    "quotation_in_passage": true,
+    "request_key": "e9ec9df591c0bcb523f2643b"
+   },
+   "gpt-6-astra": {
+    "state": "accepted",
+    "mark": "invalid",
+    "reason": "The identifier is attributed to a UK Biobank cholelithiasis dataset used for external validation, rather than the claim's primary outcome dataset.",
+    "quotation_sha256": "26d6a4f24ddf7e3acb0ac9b8cf0924838725252d6234e614092796fd535a9b29",
+    "quotation_in_passage": true,
+    "request_key": "fb87b1b68d147d246b05988b"
+   },
+   "combined": "invalid"
+  },
+  "defccaf72b9f": {
+   "claude-fable-5-1": {
+    "state": "accepted",
+    "mark": "valid",
+    "reason": "The sentence attributes ukb-b-10903 to the endometriosis GWAS data used as the outcome in the primary MR analysis, matching the claim's outcome on the outcome side.",
+    "quotation_sha256": "edbcd7b849ca1139e5aaf2e681cb41b5e8e9b8f48e38d8e08bf81139e3c3f376",
+    "quotation_in_passage": true,
+    "request_key": "e3ed439a670f0615b6563e64"
+   },
+   "gpt-6-astra": {
+    "state": "accepted",
+    "mark": "valid",
+    "reason": "The passage explicitly identifies ukb-b-10903 as the endometriosis GWAS dataset used for the primary MR analysis, matching the claim's outcome.",
+    "quotation_sha256": "edbcd7b849ca1139e5aaf2e681cb41b5e8e9b8f48e38d8e08bf81139e3c3f376",
+    "quotation_in_passage": true,
+    "request_key": "e7de3cc51034978c83c5dfaf"
+   },
+   "combined": "valid"
+  },
+  "39a89fd1af3f": {
+   "claude-fable-5-1": {
+    "state": "accepted",
+    "mark": "valid",
+    "reason": "The sentence attributes the summary statistics of type 2 diabetes with renal complications, the claims' outcome, to the FinnGen study R9 as the outcome dataset.",
+    "quotation_sha256": "999865e01399fedf5222684ce5bd5d2a60f04e70c405a15fb81cc5f2f1d30d7a",
+    "quotation_in_passage": true,
+    "request_key": "1d3f57478d7097ed90e6ac71"
+   },
+   "gpt-6-astra": {
+    "state": "accepted",
+    "mark": "valid",
+    "reason": "The passage explicitly attributes the summary statistics for T2D with renal complications, the outcome of both claims, to FinnGen study R9.",
+    "quotation_sha256": "2095ecd8ebe2177021fb8e9b2979cb780f4697dfd5072bd62b0416284bf9a1d9",
+    "quotation_in_passage": true,
+    "request_key": "31f9b275af4bdf0fa645ea22"
+   },
+   "combined": "valid"
+  },
+  "13353bf72cc3": {
+   "claude-fable-5-1": {
+    "state": "accepted",
+    "mark": "invalid",
+    "reason": "The passage attributes FinnGen R9 to a replication role: PCa data retrieved 'to corroborate' associations and used for 'repeated MR analyses to confirm' them, not as the claim's primary outcome dataset.",
+    "quotation_sha256": "140cc8e8a936cc2473722b204337a9e7c0d0d8015b32ddca89d0a7a612d1de00",
+    "quotation_in_passage": true,
+    "request_key": "2eaefc480e62cdbb02b2de9b"
+   },
+   "gpt-6-astra": {
+    "state": "accepted",
+    "mark": "invalid",
+    "reason": "The FinnGen R9 dataset is explicitly used to corroborate associations through repeated MR analyses, making it a replication dataset rather than the claim's primary outcome dataset.",
+    "quotation_sha256": "f4a3d2cad963a5e0f08d543c048221f0d506e33de1b4400758a80d35a8dffad3",
+    "quotation_in_passage": true,
+    "request_key": "59aa935ff8b791c162a867b0"
+   },
+   "combined": "invalid"
+  },
+  "08ff26010f62": {
+   "claude-fable-5-1": {
+    "state": "accepted",
+    "mark": "valid",
+    "reason": "The sentence attributes the FinnGen R10 identifier to the glaucoma (POAG) GWAS summary dataset used as the outcome in the study, matching the claim's outcome.",
+    "quotation_sha256": "f5271d64b361e8c06bb8808bc5ebfddd97af21017fdf4d00cdf75f895c607455",
+    "quotation_in_passage": true,
+    "request_key": "cba7d48b8eba5ce96687901e"
+   },
+   "gpt-6-astra": {
+    "state": "accepted",
+    "mark": "valid",
+    "reason": "The passage attributes the glaucoma GWAS dataset used in this investigation to FinnGen R10 and specifies that it includes primary open-angle glaucoma cases, matching the claim's POAG outcome.",
+    "quotation_sha256": "b8c8fe09d09c2357b7977ab7ad88d4741b837b54ca798b91c34447f940f68be8",
+    "quotation_in_passage": true,
+    "request_key": "d7924c3e2b4e36324e7997b7"
+   },
+   "combined": "valid"
+  },
+  "3e4f64539b49": {
+   "claude-fable-5-1": {
+    "state": "accepted",
+    "mark": "invalid",
+    "reason": "The identifier finn-b-I9_VTE is attributed to the venous thromboembolism outcome, whereas the claims concern Type 2 diabetes and coronary artery disease; it belongs to another outcome, not the claims' outcome dataset.",
+    "quotation_sha256": "d4940a07dfac663e4ab7d98d523903ee9daf7405f17d701bc1243f2140ceb313",
+    "quotation_in_passage": true,
+    "request_key": "c524ba59efc11adb5745a819"
+   },
+   "gpt-6-astra": {
+    "state": "accepted",
+    "mark": "invalid",
+    "reason": "The table attributes this identifier to venous thromboembolism, not to either claimed outcome, type 2 diabetes or coronary artery disease.",
+    "quotation_sha256": "d4940a07dfac663e4ab7d98d523903ee9daf7405f17d701bc1243f2140ceb313",
+    "quotation_in_passage": true,
+    "request_key": "54964b19295fece18004cbb7"
+   },
+   "combined": "invalid"
+  },
+  "7cda49ac7416": {
+   "claude-fable-5-1": {
+    "state": "accepted",
+    "mark": "valid",
+    "reason": "The sentence attributes the accession range GCST90011994-GCST90012083, which includes GCST90012083, to the genome-wide pQTL summary statistics for the 90 protein targets that the paper uses as exposures (Folkersen et al.), i.e. the exposure-side pQTL dataset rather than an outcome, covariate or replication dataset; the passage does not single out which protein each accession maps to, but it identifies this as the study's exposure pQTL source.",
+    "quotation_sha256": "fbe555dc2f3912f02f96bb4368de0ecc6ebaa59e710b6c879fbc0fad18c890ee",
+    "quotation_in_passage": true,
+    "request_key": "ada029482597d5d33deb8cf4"
+   },
+   "gpt-6-astra": {
+    "state": "accepted",
+    "mark": "cannot_mark",
+    "reason": "The passage identifies a range of accessions for 90 protein targets but does not link GCST90012083 to PILRA or establish its role in the claimed analysis.",
+    "quotation_sha256": "fbe555dc2f3912f02f96bb4368de0ecc6ebaa59e710b6c879fbc0fad18c890ee",
+    "quotation_in_passage": true,
+    "request_key": "fda66db2b60f6ba79c60267f"
+   },
+   "combined": "disputed_retained_valid"
+  },
+  "b97753df85a8": {
+   "claude-fable-5-1": {
+    "state": "accepted",
+    "mark": "valid",
+    "reason": "The row attributes the identifier to the multiple sclerosis GWAS summary statistics, which is the outcome dataset for the FCRL3–multiple sclerosis claim.",
+    "quotation_sha256": "a196d25e861ff1a2611aec989c0f311d07ad67aed047607ec6bf487c261d75c7",
+    "quotation_in_passage": true,
+    "request_key": "a87eed302c36d1ba7cd9aec7"
+   },
+   "gpt-6-astra": {
+    "state": "accepted",
+    "mark": "valid",
+    "reason": "The table row attributes the identifier to multiple sclerosis GWAS summary statistics, matching the outcome of the FCRL3 claim.",
+    "quotation_sha256": "70df58244661ee9a22fb640bc6df961ee3e9aef40a07804a01d6c73e682bd3e1",
+    "quotation_in_passage": true,
+    "request_key": "8c799bd6a6728b1e736a6f21"
+   },
+   "combined": "valid"
+  },
+  "d7031f51f2f7": {
+   "claude-fable-5-1": {
+    "state": "accepted",
+    "mark": "cannot_mark",
+    "reason": "The row attributes the identifier to the KORA plasma pQTL dataset, but it sits in a resources table listing several pQTL sources (INTERVAL, KORA, AGES Reykjavik) with nothing in the passage indicating which of the claims' proteins derive from KORA, so the passage does not let me decide whether this is the pQTL dataset of any claim's exposure protein.",
+    "quotation_sha256": "70c6e2846dce0b59521fc2db7ea0da2ebf196e6ae06ef717835989697a433af2",
+    "quotation_in_passage": true,
+    "request_key": "87b28370e9017cd825ec97e9"
+   },
+   "gpt-6-astra": {
+    "state": "accepted",
+    "mark": "cannot_mark",
+    "reason": "The row identifies the DOI as a KORA plasma pQTL source, but does not establish that it supplies the pQTL dataset for any claimed exposure protein or clarify its analytical role.",
+    "quotation_sha256": "fc8928ef6990ff984130316cb69cd69af46b8d7b9d303d0ca881271d942b6430",
+    "quotation_in_passage": true,
+    "request_key": "88a75c2ac6363d8c7de8c7fa"
+   },
+   "combined": "disputed_retained_valid"
+  },
+  "263af57882e2": {
+   "claude-fable-5-1": {
+    "state": "accepted",
+    "mark": "invalid",
+    "reason": "The passage attributes ieu-b-2 to the AD outcome dataset, while the claim's outcome is PD, whose dataset is ieu-b-7; the identifier therefore belongs to another outcome.",
+    "quotation_sha256": "cd74e96481744343ae58793e7c332ba09497fdcbdee00518877cb68a27c88fa5",
+    "quotation_in_passage": true,
+    "request_key": "4344eed44be8f875b1993df2"
+   },
+   "gpt-6-astra": {
+    "state": "accepted",
+    "mark": "invalid",
+    "reason": "The passage attributes ieu-b-2 to AD, whereas the claim's outcome is PD. PD is assigned a different identifier, ieu-b-7.",
+    "quotation_sha256": "cd97e04708cce60e40762eb614d3b9ce5e32a78df2aff64181b4e73a857c4e39",
+    "quotation_in_passage": true,
+    "request_key": "0c7b2a2b85c6f04e10f6b086"
+   },
+   "combined": "invalid"
+  },
+  "91b5c3044a4d": {
+   "claude-fable-5-1": {
+    "state": "accepted",
+    "mark": "invalid",
+    "reason": "The sentence attributes finn-b-ASTHMA_CHILD to childhood asthma used as the exposure factor in a reverse MR analysis, a secondary analysis in which the proteins are the outcomes; it does not attribute the identifier to the outcome dataset of the claim's forward analysis.",
+    "quotation_sha256": "32c1a4f7ae49a3b3d0682084b70b83b06b7249fa3548f9611e95d9b1ae5027b3",
+    "quotation_in_passage": true,
+    "request_key": "7a5b7d4a5ebebdafab553943"
+   },
+   "gpt-6-astra": {
+    "state": "accepted",
+    "mark": "invalid",
+    "reason": "The passage attributes the identifier to childhood asthma as the exposure in a reverse MR analysis, not to the outcome dataset for the claimed effect of MICB on childhood asthma.",
+    "quotation_sha256": "32c1a4f7ae49a3b3d0682084b70b83b06b7249fa3548f9611e95d9b1ae5027b3",
+    "quotation_in_passage": true,
+    "request_key": "e57fdef60b0cb1bea800d231"
+   },
+   "combined": "invalid"
+  },
+  "763037874626": {
+   "claude-fable-5-1": {
+    "state": "accepted",
+    "mark": "invalid",
+    "reason": "The passage attributes the Neale Lab UK Biobank GWAS round 2 identifier to LDL cholesterol and testosterone GWAS data, not to the CAD outcome; the following sentence states the CAD summary data came from the CARDIoGRAMplusC4D Consortium instead.",
+    "quotation_sha256": "c93744bbbf35224fd8feb0337a52d96a2289029720e6707b3162ffef67df761d",
+    "quotation_in_passage": true,
+    "request_key": "42c97b1061ba017e186bb889"
+   },
+   "gpt-6-astra": {
+    "state": "accepted",
+    "mark": "invalid",
+    "reason": "The identifier is attributed to LDL cholesterol and testosterone GWAS data, not the claimed CAD outcome. The following sentence attributes the CAD data to CARDIoGRAMplusC4D instead.",
+    "quotation_sha256": "ce265715e92fbcbc8f235be971208f8741a8e61d92eac02f2f10cd27dd7b7b6a",
+    "quotation_in_passage": false,
+    "request_key": "51e3a66f48cd199e599696d1"
+   },
+   "combined": "invalid"
+  },
+  "025f4fdcbb7e": {
+   "claude-fable-5-1": {
+    "state": "accepted",
+    "mark": "valid",
+    "reason": "The sentence attributes FinnGen R9 directly to the summary-level data for the GI outcomes, which include cholelithiasis, the claim's outcome; nothing in the passage assigns FinnGen R9 to an exposure, covariate, replication-only, or combined-dataset role.",
+    "quotation_sha256": "bee675a5d7d67e28726f32df0bd2242e778d3f639b55b26ffdb9f6e81b264318",
+    "quotation_in_passage": true,
+    "request_key": "98a36552d9636e3c201ac995"
+   },
+   "gpt-6-astra": {
+    "state": "accepted",
+    "mark": "valid",
+    "reason": "The passage identifies FinnGen R9 as a source of outcome summary data, and the preceding sentence explicitly includes cholelithiasis among those outcomes. It does not describe FinnGen as a replication dataset or a component of a combined dataset.",
+    "quotation_sha256": "bee675a5d7d67e28726f32df0bd2242e778d3f639b55b26ffdb9f6e81b264318",
+    "quotation_in_passage": true,
+    "request_key": "005d5ae85ef47df918253aa1"
+   },
+   "combined": "valid"
+  },
+  "2b557903ad6e": {
+   "claude-fable-5-1": {
+    "state": "accepted",
+    "mark": "valid",
+    "reason": "The sentence attributes FinnGen (R10) to the outcome-side GWAS summary statistics for ILD and its subtypes, which include the claim's outcome IPF; the identifier is not assigned to the exposure (cis-pQTL from UKB-PPP, in the preceding sentence) or any other role.",
+    "quotation_sha256": "10dd1ed772e34d4a7f2f8d071ade8d2ae537e939458efcd34ead9a844c291050",
+    "quotation_in_passage": true,
+    "request_key": "28f928f9d17c446d5c1ae494"
+   },
+   "gpt-6-astra": {
+    "state": "accepted",
+    "mark": "cannot_mark",
+    "reason": "The passage lists FinnGen (R10) among sources for ILD and its subtypes but does not identify which source supplied the IPF dataset.",
+    "quotation_sha256": "10dd1ed772e34d4a7f2f8d071ade8d2ae537e939458efcd34ead9a844c291050",
+    "quotation_in_passage": true,
+    "request_key": "e2f668335f4f4286b2651fb5"
+   },
+   "combined": "disputed_retained_valid"
+  },
+  "1eb480269d39": {
+   "claude-fable-5-1": {
+    "state": "accepted",
+    "mark": "valid",
+    "reason": "The passage labels ieu-b-2 as the id.outcome value of the MR outcome, one of the 'three main outcome datasets' that the paper analyses separately (effects compared for consistency across them rather than meta-analysed), so it is an outcome dataset used alone for the claims' outcome.",
+    "quotation_sha256": "424f1bd078390a52fcd035325457f1855090bba90f391f9fdfb86f3b4a5e98c1",
+    "quotation_in_passage": true,
+    "request_key": "e68ca14aa9a261be8f75dfc9"
+   },
+   "gpt-6-astra": {
+    "state": "accepted",
+    "mark": "cannot_mark",
+    "reason": "The passage identifies ieu-b-2 only as the initial value of an outcome selector in an interactive module. It does not identify its phenotype or establish whether it is the AD dataset used for either claim.",
+    "quotation_sha256": "424f1bd078390a52fcd035325457f1855090bba90f391f9fdfb86f3b4a5e98c1",
+    "quotation_in_passage": true,
+    "request_key": "4711ba068d609a2a4d4f87d8"
+   },
+   "combined": "disputed_retained_valid"
+  },
+  "e49cfe048df6": {
+   "claude-fable-5-1": {
+    "state": "accepted",
+    "mark": "invalid",
+    "reason": "The passage attributes FinnGen release 8 to the prostate cancer GWAS used in the secondary analyses, while the primary outcome dataset for the claim is the PRACTICAL dataset; a replication/secondary-analysis identifier is invalid by the rubric.",
+    "quotation_sha256": "521a0e952e96d6077cdca9599a92a69a32ca2d3430aed244c0aac49ee1d4ea72",
+    "quotation_in_passage": true,
+    "request_key": "df8ab288bea815f07f78d296"
+   },
+   "gpt-6-astra": {
+    "state": "accepted",
+    "mark": "invalid",
+    "reason": "The passage explicitly attributes FinnGen release 8 to secondary analyses of prostate cancer, rather than the claim's primary outcome dataset.",
+    "quotation_sha256": "521a0e952e96d6077cdca9599a92a69a32ca2d3430aed244c0aac49ee1d4ea72",
+    "quotation_in_passage": true,
+    "request_key": "830ce4c4d98850a6cf0fb75b"
+   },
+   "combined": "invalid"
+  },
+  "fe776feae1eb": {
+   "claude-fable-5-1": {
+    "state": "accepted",
+    "mark": "valid",
+    "reason": "The sentence attributes FinnGen Release 11 to the CRC cohort dataset, which is the outcome of both claims, and the following sentence confirms it as the CRC case/control dataset with no indication it is a component of a combined meta-analysis or a replication set.",
+    "quotation_sha256": "4bf177cc94d07703558e8c7b4906237e6f7be5866cfed91a386e3a40e4f9bd63",
+    "quotation_in_passage": true,
+    "request_key": "9978cdecd62440ac31799770"
+   },
+   "gpt-6-astra": {
+    "state": "accepted",
+    "mark": "valid",
+    "reason": "The passage explicitly identifies FinnGen Release 11 as the source of the CRC outcome dataset, matching the outcome in both claims.",
+    "quotation_sha256": "4bf177cc94d07703558e8c7b4906237e6f7be5866cfed91a386e3a40e4f9bd63",
+    "quotation_in_passage": true,
+    "request_key": "6af2d95dc05ebb899f81c5af"
+   },
+   "combined": "valid"
+  },
+  "cde0eb0af013": {
+   "claude-fable-5-1": {
+    "state": "accepted",
+    "mark": "cannot_mark",
+    "reason": "The sentence attributes FinnGen R9, UKBB and PGC collectively to anxiety, depression and schizophrenia without saying which database supplied the depression GWAS, so it cannot be determined whether FinnGen R9 is the dataset of the claims' outcome (depression) or of anxiety/schizophrenia.",
+    "quotation_sha256": "170243e7ed66de43e82935b09793ea732ca1ab716ecdf2f13e04c2c2d9805b87",
+    "quotation_in_passage": true,
+    "request_key": "c2b6eb4cc3d037c25f74a83d"
+   },
+   "gpt-6-astra": {
+    "state": "accepted",
+    "mark": "cannot_mark",
+    "reason": "The passage lists Finngen R9 among sources for three psychiatric outcomes but does not specify which source supplied the depression dataset or whether the sources were analysed separately or combined.",
+    "quotation_sha256": "170243e7ed66de43e82935b09793ea732ca1ab716ecdf2f13e04c2c2d9805b87",
+    "quotation_in_passage": true,
+    "request_key": "3bf75447accd440fae87b2e8"
+   },
+   "combined": "disputed_retained_valid"
+  },
+  "d9eb265cec06": {
+   "claude-fable-5-1": {
+    "state": "accepted",
+    "mark": "invalid",
+    "reason": "The passage is a figure legend attributing FinnGen R11 to a phenome-wide association study overlap of ApoE- and sepsis-associated traits, a secondary analysis, not to the sepsis outcome dataset of the MR claim.",
+    "quotation_sha256": "8bd8a282f1171b2f5eef4720b119806c1ccf181b682a5cc879ca0b13fa6cd7d6",
+    "quotation_in_passage": true,
+    "request_key": "72fbef48800dbcf2068c228d"
+   },
+   "gpt-6-astra": {
+    "state": "accepted",
+    "mark": "invalid",
+    "reason": "FinnGen R11 is attributed to a PheWAS overlap analysis of ApoE- and sepsis-associated traits, not to the sepsis outcome dataset for the claim.",
+    "quotation_sha256": "61656ea14b43b21111f952c96c80c418ff4b0c9dff7c2746467dbda11c33a794",
+    "quotation_in_passage": true,
+    "request_key": "8b7829ba8b5bbb9327c7f265"
+   },
+   "combined": "invalid"
+  },
+  "87eedc98f775": {
+   "claude-fable-5-1": {
+    "state": "accepted",
+    "mark": "invalid",
+    "reason": "The passage attributes FinnGen R10 to the MR-PheWAS analysis of 2408 outcomes used to explore side effects, a secondary analysis, not to the prostate cancer outcome dataset of the claim.",
+    "quotation_sha256": "a91fcf500284f585719ab42e73b64d6ca39e97a9d025bdf4775c345db67687ce",
+    "quotation_in_passage": true,
+    "request_key": "73388b56b35fe92b38386923"
+   },
+   "gpt-6-astra": {
+    "state": "accepted",
+    "mark": "invalid",
+    "reason": "FinnGen R10 is attributed to a secondary MR-PheWAS analysis exploring side effects, not to the prostate cancer outcome dataset for the SCP2 claim.",
+    "quotation_sha256": "7a4452181d44b1337b4c17f10fad3a8fd5e689752ff45675c11c10b8d8f543ed",
+    "quotation_in_passage": true,
+    "request_key": "eca51397341fa9c612ec5d0c"
+   },
+   "combined": "invalid"
+  },
+  "7b15c44262d3": {
+   "claude-fable-5-1": {
+    "state": "accepted",
+    "mark": "valid",
+    "reason": "The sentence attributes the identifier to VTE-related GWAS data from the UK Biobank used as outcome data for the claim's outcome (VTE); nothing in the passage labels it a replication or secondary dataset, though FinnGen is also listed as a VTE source.",
+    "quotation_sha256": "1764fc6e52b61d324a11afc36497ddab9af7254ee7bdc4946682a334e3c2f16d",
+    "quotation_in_passage": true,
+    "request_key": "2d0a749cb1579984f9c3f120"
+   },
+   "gpt-6-astra": {
+    "state": "accepted",
+    "mark": "valid",
+    "reason": "The passage explicitly attributes ukb-d-I9_VTE to the UK Biobank GWAS dataset for VTE, the claimed outcome. It does not identify this dataset as a replication or a component of a combined analysis.",
+    "quotation_sha256": "1764fc6e52b61d324a11afc36497ddab9af7254ee7bdc4946682a334e3c2f16d",
+    "quotation_in_passage": true,
+    "request_key": "a807c614be4a10bbe4e491de"
+   },
+   "combined": "valid"
+  },
+  "ec5ceb70fa01": {
+   "claude-fable-5-1": {
+    "state": "accepted",
+    "mark": "invalid",
+    "reason": "The passage states the IMSGC dataset was the discovery outcome cohort for MS, while FinnGen R10 was used only for validation (a replication analysis), so it is not the claim's outcome dataset.",
+    "quotation_sha256": "24510966ce9a5f8b877dca7b7582a0e0355a4e7da6a6f3d090263c8d6ff222bf",
+    "quotation_in_passage": true,
+    "request_key": "e9f34caeb405060ccf275620"
+   },
+   "gpt-6-astra": {
+    "state": "accepted",
+    "mark": "invalid",
+    "reason": "FinnGen R10 is explicitly designated as the validation cohort, rather than the discovery outcome dataset.",
+    "quotation_sha256": "24510966ce9a5f8b877dca7b7582a0e0355a4e7da6a6f3d090263c8d6ff222bf",
+    "quotation_in_passage": true,
+    "request_key": "e68c6f04e83ad72f709bdc31"
+   },
+   "combined": "invalid"
+  },
+  "f857a578d7c6": {
+   "claude-fable-5-1": {
+    "state": "accepted",
+    "mark": "invalid",
+    "reason": "The passage attributes the outcome data for breast cancer to BCAC and to the 'FinnGen R8-UK-biobank meta-analysis'; FinnGen R8 is named only as one component of that combined meta-analysis dataset, not as an outcome dataset analysed alone.",
+    "quotation_sha256": "50aea575e3da732bc94872f6e21f80fe92ce6cd09a5435e34e7cc53c24bb82e2",
+    "quotation_in_passage": true,
+    "request_key": "f9152eaf809a37e89940ff48"
+   },
+   "gpt-6-astra": {
+    "state": "accepted",
+    "mark": "invalid",
+    "reason": "FinnGen R8 is named as a component of the FinnGen R8–UK-biobank meta-analysis used for breast cancer outcome data, not as a dataset analysed alone.",
+    "quotation_sha256": "e29eef81aa06fcdad6f6843cbd0925468bd45336287be8ab022e2be1f5b6afcc",
+    "quotation_in_passage": true,
+    "request_key": "e95a71c3bd7e30a2cdf296cb"
+   },
+   "combined": "invalid"
+  },
+  "76785c451e0f": {
+   "claude-fable-5-1": {
+    "state": "accepted",
+    "mark": "valid",
+    "reason": "The sentence attributes the FinnGen R10 release to the COPD GWAS data, which is the outcome of the claim (TIE1 raises COPD), and the following sentence describes it as the case-control dataset used.",
+    "quotation_sha256": "6f78164d20a3be85812fda6c78f319c0217d0e5f42afa9c32228df97e962eae1",
+    "quotation_in_passage": true,
+    "request_key": "f1715190231137e46275c3dc"
+   },
+   "gpt-6-astra": {
+    "state": "accepted",
+    "mark": "valid",
+    "reason": "The passage explicitly attributes the COPD GWAS data used in the study to the FinnGen consortium R10 release, matching the claim's outcome.",
+    "quotation_sha256": "6f78164d20a3be85812fda6c78f319c0217d0e5f42afa9c32228df97e962eae1",
+    "quotation_in_passage": true,
+    "request_key": "2c82ed3d4952329200937aa0"
+   },
+   "combined": "valid"
+  },
+  "782c849a818a": {
+   "claude-fable-5-1": {
+    "state": "accepted",
+    "mark": "valid",
+    "reason": "The passage states the outcome data for endometriosis were obtained from the FinnGen study (Release 10), matching the claim's outcome on the outcome side.",
+    "quotation_sha256": "4b7030244ee661149f17fc3d7d750fbef5935217e6535e158a3abf29723f4b37",
+    "quotation_in_passage": true,
+    "request_key": "b7806a1476d0a3e90b86560e"
+   },
+   "gpt-6-astra": {
+    "state": "accepted",
+    "mark": "valid",
+    "reason": "The passage explicitly attributes the endometriosis outcome data used in the study to FinnGen Release 10.",
+    "quotation_sha256": "b4f533e3e22d70785a25ab375ee7351912cd121c089b9f3d6a37b5e30fae219f",
+    "quotation_in_passage": true,
+    "request_key": "ff81caff87456c5ad230c0f0"
+   },
+   "combined": "valid"
+  },
+  "ad86cd81652d": {
+   "claude-fable-5-1": {
+    "state": "accepted",
+    "mark": "valid",
+    "reason": "The sentence attributes FinnGen R9 to the outcome side of the MR-PheWAS that identified comorbidities caused by SVEP1 (the source of the glaucoma and type 2 diabetes claims); UKB and FinnGen are used as separate phenome-wide outcome datasets, not meta-analysed, so FinnGen R9 is an outcome dataset analysed alone.",
+    "quotation_sha256": "50377d122f13d0678a7f81f6323a31bdd02da53cc233ab0a4fdc8e75c347c89c",
+    "quotation_in_passage": true,
+    "request_key": "d39ab9eaef5aeba96a0617ee"
+   },
+   "gpt-6-astra": {
+    "state": "accepted",
+    "mark": "cannot_mark",
+    "reason": "The passage identifies FinnGen R9 as a source of outcome summary statistics for the SVEP1 MR-PheWAS, but does not establish whether it supplied the glaucoma or type 2 diabetes dataset underlying either claim.",
+    "quotation_sha256": "50377d122f13d0678a7f81f6323a31bdd02da53cc233ab0a4fdc8e75c347c89c",
+    "quotation_in_passage": true,
+    "request_key": "d128c33a8855e7a901974c4b"
+   },
+   "combined": "disputed_retained_valid"
+  },
+  "9f52d517eef3": {
+   "claude-fable-5-1": {
+    "state": "accepted",
+    "mark": "invalid",
+    "reason": "The row attributes ukb-b-13806 to Type 2 diabetes, which is not the claim's outcome (CKD); in this table of covariates/other traits, it serves another role rather than the CKD outcome dataset.",
+    "quotation_sha256": "e1670d7e326a4bb93826ff6039d039e9786d0d2715a68ad5986776373f69ed2b",
+    "quotation_in_passage": true,
+    "request_key": "f9a81803bc766de50fa69313"
+   },
+   "gpt-6-astra": {
+    "state": "accepted",
+    "mark": "invalid",
+    "reason": "The table attributes ukb-b-13806 to type 2 diabetes, not to CKD, the claim's outcome.",
+    "quotation_sha256": "e1670d7e326a4bb93826ff6039d039e9786d0d2715a68ad5986776373f69ed2b",
+    "quotation_in_passage": true,
+    "request_key": "c40bcaf5b3172195518e8a3f"
+   },
+   "combined": "invalid"
+  },
+  "9e35ea764a85": {
+   "claude-fable-5-1": {
+    "state": "accepted",
+    "mark": "invalid",
+    "reason": "The passage attributes ukb-b-7992 to the diastolic blood pressure GWAS, not to the claim's outcome Alzheimer's disease; blood pressure serves as an exposure/mediator rather than the claim's outcome dataset.",
+    "quotation_sha256": "9624299e4395d126cc3595f9e931f91b138601c20645d6632cd05e303028674d",
+    "quotation_in_passage": false,
+    "request_key": "be1403da54cb062bbdcfcc7f"
+   },
+   "gpt-6-astra": {
+    "state": "accepted",
+    "mark": "invalid",
+    "reason": "The passage attributes ukb-b-7992 to the diastolic blood pressure GWAS, not to the claim's AD outcome dataset.",
+    "quotation_sha256": "0778bcbf229ee89e9a0d6cdc67f34f9c6c9cc8931e1a8644719651e385f73ac5",
+    "quotation_in_passage": true,
+    "request_key": "9b76d4e3e41c179553b47808"
+   },
+   "combined": "invalid"
+  },
+  "5046fcd173b2": {
+   "claude-fable-5-1": {
+    "state": "accepted",
+    "mark": "valid",
+    "reason": "The table row attributes PMID 29875488 to the 'Plasma proteome' dataset (3,301 European participants), which is the pQTL dataset used for plasma protein exposures such as MICB; no other role (outcome, covariate, replication) is assigned to it.",
+    "quotation_sha256": "6932c83e0baf844843ed4643c8fb707b8bb5ada5ad46999cd40e8024439b9244",
+    "quotation_in_passage": true,
+    "request_key": "a7c6385dfcfcf55cda7feeb6"
+   },
+   "gpt-6-astra": {
+    "state": "accepted",
+    "mark": "valid",
+    "reason": "The table attributes PMID: 29875488 to the plasma proteome dataset, matching the pQTL side of the MICB claim. Nothing in the passage identifies it as a component or secondary dataset.",
+    "quotation_sha256": "6932c83e0baf844843ed4643c8fb707b8bb5ada5ad46999cd40e8024439b9244",
+    "quotation_in_passage": true,
+    "request_key": "19234b708a0ec9b86c8eb2c3"
+   },
+   "combined": "valid"
+  },
+  "e533016ecfd4": {
+   "claude-fable-5-1": {
+    "state": "accepted",
+    "mark": "invalid",
+    "reason": "The passage attributes FinnGen_R11 to the outcome of the replication stage, not the discovery-stage AD outcome dataset underlying the claims; the rubric treats replication-analysis datasets as invalid.",
+    "quotation_sha256": "24e6efa24a9d040b73319d881be57939334851f74214ee223aa0aec68b025045",
+    "quotation_in_passage": true,
+    "request_key": "dadfd0899432387339df6c20"
+   },
+   "gpt-6-astra": {
+    "state": "accepted",
+    "mark": "invalid",
+    "reason": "The passage explicitly identifies FinnGen_R11 as the AD outcome dataset for the replication stage, rather than the discovery analysis. Replication datasets are invalid under the rubric.",
+    "quotation_sha256": "24e6efa24a9d040b73319d881be57939334851f74214ee223aa0aec68b025045",
+    "quotation_in_passage": true,
+    "request_key": "a0658a6f54756021444d05d5"
+   },
+   "combined": "invalid"
+  },
+  "cfa654ff0176": {
+   "claude-fable-5-1": {
+    "state": "accepted",
+    "mark": "invalid",
+    "reason": "The passage attributes the outcome data for breast cancer to BCAC and to the FinnGen R8-UK-biobank meta-analysis; 'FinnGen R8' names only one component of that combined meta-analysis dataset, not a dataset analysed alone.",
+    "quotation_sha256": "e1f37efb30697a013df3372665fae077cd8c164b5541683bdc61d06302eccd35",
+    "quotation_in_passage": true,
+    "request_key": "285d38b3fd5b2f6de54a058d"
+   },
+   "gpt-6-astra": {
+    "state": "accepted",
+    "mark": "invalid",
+    "reason": "FinnGen R8 is named as a component of the FinnGen R8-UK-biobank meta-analysis used for the breast cancer outcome, not as an outcome dataset analysed alone.",
+    "quotation_sha256": "6ee3dad234fea0f6a6a08028f3de3dd0c0be71e8ef235ae918746889045af7d3",
+    "quotation_in_passage": true,
+    "request_key": "af9a0d518fdd25046e9eb4d2"
+   },
+   "combined": "invalid"
+  },
+  "c9bb95bbd3eb": {
+   "claude-fable-5-1": {
+    "state": "accepted",
+    "mark": "valid",
+    "reason": "The sentence attributes the FinnGen Round 9 identifier to the primary-analysis GWAS summary statistics for sepsis, which is the claim's outcome; the UK Biobank data is the separate external validation set.",
+    "quotation_sha256": "29d8329958de6916fd0b49eb25eae8498bf025d9a836f4d80fa21c7027a080b3",
+    "quotation_in_passage": true,
+    "request_key": "e42e2d2a6288df269f297aa2"
+   },
+   "gpt-6-astra": {
+    "state": "accepted",
+    "mark": "valid",
+    "reason": "The passage explicitly identifies FinnGen Round 9 as the source of the sepsis outcome GWAS for the primary analysis, distinguishing it from UK Biobank external validation.",
+    "quotation_sha256": "2a12106b7b781c5408d98970c1e03cbd87124ae2129e61293a9e38de5ab06f02",
+    "quotation_in_passage": true,
+    "request_key": "2aaed61c10491d465771914e"
+   },
+   "combined": "valid"
+  },
+  "b7d393d75ccf": {
+   "claude-fable-5-1": {
+    "state": "accepted",
+    "mark": "invalid",
+    "reason": "The identifier ukb-b-8909 is attributed to a body fat percentage GWAS used as an exposure in a concordance analysis with proteins as outcomes, not to the claim's outcome dataset (coronary artery disease).",
+    "quotation_sha256": "7fcec0e9773698129826603155d321cf0385ca76eddefa028f1462a08e845564",
+    "quotation_in_passage": true,
+    "request_key": "a8a6da09e1110af5f676c327"
+   },
+   "gpt-6-astra": {
+    "state": "accepted",
+    "mark": "invalid",
+    "reason": "The identifier is attributed to a body fat percentage GWAS used as an exposure in a directional-concordance analysis, not to the claimed coronary artery disease outcome dataset.",
+    "quotation_sha256": "ce3d4eec03cb03bb89f52b1747a2320c646d646beb7b62b134b74745968ae8e0",
+    "quotation_in_passage": true,
+    "request_key": "6990a1f9bca49b63b93c14d7"
+   },
+   "combined": "invalid"
+  },
+  "39a5febdb036": {
+   "claude-fable-5-1": {
+    "state": "accepted",
+    "mark": "invalid",
+    "reason": "The passage attributes FinnGen Release 11 to the replication-stage AD outcome data, while the discovery outcome data for the claims came from Bellenguez et al.; a replication dataset is invalid under the rubric.",
+    "quotation_sha256": "8b12d527051ee95f55931e859ca12a7df4f81c8a1ad46e22dd8d24cdf701a764",
+    "quotation_in_passage": true,
+    "request_key": "2375a01a60251f8be2957f3f"
+   },
+   "gpt-6-astra": {
+    "state": "accepted",
+    "mark": "invalid",
+    "reason": "The passage explicitly attributes FinnGen Release 11 to the replication-stage AD outcome dataset, rather than the discovery dataset used for the claims.",
+    "quotation_sha256": "8b12d527051ee95f55931e859ca12a7df4f81c8a1ad46e22dd8d24cdf701a764",
+    "quotation_in_passage": true,
+    "request_key": "0456b7e7b42d654433c63c32"
+   },
+   "combined": "invalid"
+  },
+  "f88efc2026f6": {
+   "claude-fable-5-1": {
+    "state": "accepted",
+    "mark": "valid",
+    "reason": "The table row attributes GCST90132315 to the CAD GWAS summary statistics (Aragam et al.), which is the claim's outcome dataset on the outcome side.",
+    "quotation_sha256": "8aafc643f3b7d137b3f4ded435f0f8d34be24a582b861a94174c354b451cd93f",
+    "quotation_in_passage": true,
+    "request_key": "7903f6a1d4b5ca64ede3e9a6"
+   },
+   "gpt-6-astra": {
+    "state": "accepted",
+    "mark": "valid",
+    "reason": "The table explicitly attributes GCST90132315 to CAD GWAS summary statistics, matching the claim's outcome.",
+    "quotation_sha256": "3d8136a4941717247f8783e495be9836d54bfe983eae7999857044f51eaeeb3f",
+    "quotation_in_passage": true,
+    "request_key": "2ac4cd4891a6a2920a9942cd"
+   },
+   "combined": "valid"
+  },
+  "bbe3cd121c2d": {
+   "claude-fable-5-1": {
+    "state": "accepted",
+    "mark": "invalid",
+    "reason": "The passage attributes 'FinnGen freeze 6' to a component of the venous thrombosis meta-analysis, a CAD-related secondary trait, not to the CAD outcome dataset of the claims; it is also only one component of a combined dataset.",
+    "quotation_sha256": "27fac90121e349e550cdaa3c35f61adf58816a7a1205ccd7af456d62556f3c3a",
+    "quotation_in_passage": true,
+    "request_key": "c9d5011236cb725f2fcf6520"
+   },
+   "gpt-6-astra": {
+    "state": "accepted",
+    "mark": "invalid",
+    "reason": "FinnGen freeze 6 is identified as a component of a venous thrombosis meta-analysis, not as the dataset for the claimed CAD outcome.",
+    "quotation_sha256": "27fac90121e349e550cdaa3c35f61adf58816a7a1205ccd7af456d62556f3c3a",
+    "quotation_in_passage": true,
+    "request_key": "ef3e7dd007157902700f7338"
+   },
+   "combined": "invalid"
+  },
+  "ce340642461a": {
+   "claude-fable-5-1": {
+    "state": "accepted",
+    "mark": "valid",
+    "reason": "The key-resources row lists the identifier as the INTERVAL plasma pQTL dataset, i.e. a pQTL (exposure) dataset of the paper, alongside the other pQTL sources (parietal cortex, KORA) rather than as an outcome, covariate, replication, or component of a combined dataset; with twelve claims across plasma and brain proteins, the INTERVAL plasma pQTL set serves as the exposure dataset for at least one claim.",
+    "quotation_sha256": "3ad3bb2a0e7327cf2b0b1b60696592834949b758f10e770df9c22c140f34dff4",
+    "quotation_in_passage": true,
+    "request_key": "c2c9f1228c29b43825b47839"
+   },
+   "gpt-6-astra": {
+    "state": "accepted",
+    "mark": "valid",
+    "reason": "The table explicitly identifies this DOI as the INTERVAL plasma pQTL dataset, attributing it to the exposure-side data source. Nothing in the passage labels it as a replication dataset or merely a component of a combined dataset.",
+    "quotation_sha256": "f76183a000bace58644a8827b68e1bfadae52dbfbd0a96fa6a07c2f8e4f5ee2c",
+    "quotation_in_passage": true,
+    "request_key": "4272cc831f216932f6f3f3dc"
+   },
+   "combined": "valid"
+  },
+  "0200ae0603c6": {
+   "claude-fable-5-1": {
+    "state": "accepted",
+    "mark": "valid",
+    "reason": "The passage uses finn-b-AD_LO as one of the paper's main outcome traits of AD (LOAD), i.e. an outcome dataset analysed alone, not an exposure, covariate, or meta-analysis component; the claims' outcome is AD.",
+    "quotation_sha256": "f3478a9eecc484c00c191bf840d981166a236fa5ad232889ba26ec3de9f0ccae",
+    "quotation_in_passage": true,
+    "request_key": "3fc5b1b48e4328751a8afb6d"
+   },
+   "gpt-6-astra": {
+    "state": "accepted",
+    "mark": "cannot_mark",
+    "reason": "The passage identifies finn-b-AD_LO as the LOAD outcome dataset in analyses of blood lipids and lipoproteins. It does not establish whether that dataset was also used for either claimed protein–AD association.",
+    "quotation_sha256": "9958436548141ef8af0a259ae718e2cc9a85f354b9fc6b0940ef35025b4f3d45",
+    "quotation_in_passage": true,
+    "request_key": "44a496e8b6486745557cf1a9"
+   },
+   "combined": "disputed_retained_valid"
+  },
+  "4e4afcb1c556": {
+   "claude-fable-5-1": {
+    "state": "accepted",
+    "mark": "invalid",
+    "reason": "The identifier ukb-b-20175 is attributed to the UK Biobank systolic blood pressure GWAS, which is a mediator/exposure dataset rather than the claim's outcome (AD).",
+    "quotation_sha256": "9624299e4395d126cc3595f9e931f91b138601c20645d6632cd05e303028674d",
+    "quotation_in_passage": false,
+    "request_key": "332bc3147300bb91f798aad1"
+   },
+   "gpt-6-astra": {
+    "state": "accepted",
+    "mark": "invalid",
+    "reason": "The passage attributes ukb-b-20175 to the systolic blood pressure GWAS, not to a dataset for the claimed outcome AD.",
+    "quotation_sha256": "0778bcbf229ee89e9a0d6cdc67f34f9c6c9cc8931e1a8644719651e385f73ac5",
+    "quotation_in_passage": true,
+    "request_key": "508e582834be94dc8e1c2d4f"
+   },
+   "combined": "invalid"
+  },
+  "c2dc6cbd72ef": {
+   "claude-fable-5-1": {
+    "state": "accepted",
+    "mark": "valid",
+    "reason": "The sentence attributes the FinnGen R10 release to the outcome data for ILD and its subtypes (which include IPF, the claim's outcome) in the primary MR analysis.",
+    "quotation_sha256": "7fffe16af036afa8489fd09baef4e09061b3729d7ed1a450ff34fb2d016b28b5",
+    "quotation_in_passage": true,
+    "request_key": "29ab62876605ac382a33d9c3"
+   },
+   "gpt-6-astra": {
+    "state": "accepted",
+    "mark": "valid",
+    "reason": "The passage attributes FinnGen R10 to the outcome data for ILD and its subtypes in the primary MR analysis, encompassing the claimed outcome IPF.",
+    "quotation_sha256": "7fffe16af036afa8489fd09baef4e09061b3729d7ed1a450ff34fb2d016b28b5",
+    "quotation_in_passage": true,
+    "request_key": "b15edc2bc8e624882838f894"
+   },
+   "combined": "valid"
+  },
+  "cb7d84cb8291": {
+   "claude-fable-5-1": {
+    "state": "accepted",
+    "mark": "valid",
+    "reason": "The sentence attributes the accession directly to the SLE data, and SLE is the outcome of the claim; both listed accessions are presented together as the SLE outcome data without any indication that this one serves another role.",
+    "quotation_sha256": "f5ab53bb69aec7373d520ea4c01ddd545f599c2a00c27966c8764065f704095f",
+    "quotation_in_passage": true,
+    "request_key": "271ac1f9c1d2707e960f6530"
+   },
+   "gpt-6-astra": {
+    "state": "accepted",
+    "mark": "valid",
+    "reason": "The passage explicitly attributes the identifier to SLE outcome data, matching the claim's outcome. It does not identify it as a replication dataset or a component of a combined dataset.",
+    "quotation_sha256": "f5ab53bb69aec7373d520ea4c01ddd545f599c2a00c27966c8764065f704095f",
+    "quotation_in_passage": true,
+    "request_key": "240792a3a5bf3b1392e9a0c4"
+   },
+   "combined": "valid"
+  },
+  "17aa7f26a444": {
+   "claude-fable-5-1": {
+    "state": "accepted",
+    "mark": "cannot_mark",
+    "reason": "The passage attributes the range GCST90011994-GCST90012083 to pQTL summary statistics for 90 protein targets from Folkersen et al. but does not name PILRA or say which accession corresponds to which protein, so it cannot be determined from the passage whether GCST90011994 is the pQTL dataset for PILRA or for another protein in the panel.",
+    "quotation_sha256": "fbe555dc2f3912f02f96bb4368de0ecc6ebaa59e710b6c879fbc0fad18c890ee",
+    "quotation_in_passage": true,
+    "request_key": "e2196e35ff4b0f797b717630"
+   },
+   "gpt-6-astra": {
+    "state": "accepted",
+    "mark": "cannot_mark",
+    "reason": "The passage attributes the accession range to summary statistics for 90 protein targets from Folkersen et al., but does not identify which protein GCST90011994 represents or establish that it is the pQTL dataset for the PILRA claim.",
+    "quotation_sha256": "fbe555dc2f3912f02f96bb4368de0ecc6ebaa59e710b6c879fbc0fad18c890ee",
+    "quotation_in_passage": true,
+    "request_key": "7ed08f2d23a0d7e8fd03c901"
+   },
+   "combined": "disputed_retained_valid"
+  },
+  "db4a63b0058f": {
+   "claude-fable-5-1": {
+    "state": "accepted",
+    "mark": "invalid",
+    "reason": "The passage attributes ukb-b-6353 to the myopia GWAS, whereas the claims' outcomes are glaucoma and AMD, which the passage says come from the FinnGen database; the identifier therefore belongs to another outcome.",
+    "quotation_sha256": "30fad9fc366f312666a7200af12f562c01dd0f082cd35827767e4a80e0d1c2ac",
+    "quotation_in_passage": true,
+    "request_key": "8d3b74ffd8a5344d15472e69"
+   },
+   "gpt-6-astra": {
+    "state": "accepted",
+    "mark": "invalid",
+    "reason": "The passage attributes ukb-b-6353 to myopia, not to either claimed outcome, glaucoma or age-related macular degeneration.",
+    "quotation_sha256": "ffa21a580b0e4dc1fef6223f15d9d064162b9d97c6d782bdbba5cf34c936fb85",
+    "quotation_in_passage": true,
+    "request_key": "552c11da94ff158a67501614"
+   },
+   "combined": "invalid"
+  },
+  "3c1ca11e63fa": {
+   "claude-fable-5-1": {
+    "state": "accepted",
+    "mark": "valid",
+    "reason": "The passage places finn-b-AD_EO among the paper's \"main outcome traits of AD\" (EOAD), i.e. an outcome-role dataset for AD, the claims' outcome; it is not an exposure, covariate, replication, or a component of a combined dataset.",
+    "quotation_sha256": "f3478a9eecc484c00c191bf840d981166a236fa5ad232889ba26ec3de9f0ccae",
+    "quotation_in_passage": true,
+    "request_key": "715184eadb2c798308691f46"
+   },
+   "gpt-6-astra": {
+    "state": "accepted",
+    "mark": "valid",
+    "reason": "The passage attributes finn-b-AD_EO to EOAD, explicitly included among the main AD outcome traits, rather than to an exposure or secondary analysis.",
+    "quotation_sha256": "38a9541fdbd811f2b542b8dae52ef6aad27d34e9e6113fcbff97d59459736384",
+    "quotation_in_passage": true,
+    "request_key": "11f24f38d15c07844c6df8b2"
+   },
+   "combined": "valid"
+  },
+  "2d74cd295815": {
+   "claude-fable-5-1": {
+    "state": "accepted",
+    "mark": "valid",
+    "reason": "The Key Resources Table row attributes the identifier to a serum pQTL dataset (AGES Reykjavik) used as a protein-exposure data source, i.e. the pQTL side of the claims, not to an outcome, covariate, or replication role, and it is not listed as a component of a combined meta-analysis.",
+    "quotation_sha256": "aa37af5d57dbad75cc9b0e04347445ec74b4df2dbc1303ca260b26a92a49d4fe",
+    "quotation_in_passage": true,
+    "request_key": "3cdc28f7a8de04fcb6633813"
+   },
+   "gpt-6-astra": {
+    "state": "accepted",
+    "mark": "cannot_mark",
+    "reason": "The row identifies the DOI as the AGES Reykjavik serum pQTL source, but does not establish whether it supplied the pQTL dataset for any claimed protein or served a secondary or replication role.",
+    "quotation_sha256": "aa37af5d57dbad75cc9b0e04347445ec74b4df2dbc1303ca260b26a92a49d4fe",
+    "quotation_in_passage": true,
+    "request_key": "aa44cf05b772e275e2706040"
+   },
+   "combined": "disputed_retained_valid"
+  },
+  "273f80b7d792": {
+   "claude-fable-5-1": {
+    "state": "accepted",
+    "mark": "cannot_mark",
+    "reason": "The row attributes Finngen release 8 to the trait 'Prostate cancer', which is the claim's outcome, but the preceding row lists a second prostate cancer dataset (PRACTICAL, ieu-b-85), and the table gives no indication whether FinnGen was the primary outcome dataset, a replication/secondary dataset, or a component of a combined analysis, so the role cannot be determined from the passage.",
+    "quotation_sha256": "f469627c9551bdd0c17dc412c40c7f9a5487c6ba93bc220e14cf70743367f253",
+    "quotation_in_passage": true,
+    "request_key": "e280fe69acc2b7213263cb1f"
+   },
+   "gpt-6-astra": {
+    "state": "accepted",
+    "mark": "valid",
+    "reason": "The table row attributes Finngen release 8 to a prostate cancer GWAS, matching the claim's outcome. The passage does not label it as replication, secondary analysis, or a component of a combined dataset.",
+    "quotation_sha256": "19a831c0c02012474db46a14e40cb65556c0aaceee287df39d4daa412ab7a153",
+    "quotation_in_passage": true,
+    "request_key": "c9512271291aa2283b2bec27"
+   },
+   "combined": "disputed_retained_valid"
+  },
+  "75a0e19199f6": {
+   "claude-fable-5-1": {
+    "state": "accepted",
+    "mark": "invalid",
+    "reason": "The passage attributes FinnGen consortium R11 to the anemia outcome, but the claims' outcomes are T1DM and RA; anemia is another outcome (a secondary analysis), not the claim's outcome dataset.",
+    "quotation_sha256": "7ae885c384eb433a622dfaba72e2fbab7affd771b66e0c46d5060401725f3d92",
+    "quotation_in_passage": true,
+    "request_key": "fc0bb09f36e5ad4316ad10ab"
+   },
+   "gpt-6-astra": {
+    "state": "accepted",
+    "mark": "invalid",
+    "reason": "The passage attributes FinnGen consortium R11 to an anemia outcome dataset, not to T1DM or RA, the outcomes in the listed claims.",
+    "quotation_sha256": "878d0bc24c5c2f79200ce21e673d3e17c7ccb15ac64846b1db29912f6c3e290d",
+    "quotation_in_passage": true,
+    "request_key": "43e74eddb1a4f95b49bcbabd"
+   },
+   "combined": "invalid"
+  }
+ }
+}
