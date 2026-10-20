@@ -1,0 +1,29 @@
+{
+ "rounds": [
+  {
+   "round": 1,
+   "states": {
+    "claude-fable-5-1": {
+     "accepted": 16,
+     "failed": 107,
+     "pending": 0,
+     "not_sent": 0
+    },
+    "gpt-6-astra": {
+     "accepted": 123,
+     "failed": 0,
+     "pending": 0,
+     "not_sent": 0
+    }
+   },
+   "stopped": null
+  }
+ ],
+ "requests_per_judge": 123,
+ "ledger_usd_at_start": 124.7994,
+ "ledger_usd_at_end": 151.013,
+ "spent_in_this_job_usd": 26.2135,
+ "registration_new_spend_usd": 64.9224,
+ "anthropic_spent_this_registration_usd": 30.9152,
+ "openai_spent_this_registration_usd": 34.0072
+}
