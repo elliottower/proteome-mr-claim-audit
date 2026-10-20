@@ -1,0 +1,101 @@
+{
+ "requests_per_coder": {
+  "claude-sonnet-5-5": 323,
+  "gpt-6.1-sol": 323
+ },
+ "embedded_coding_prompt_sha256": {
+  "claude-sonnet-5-5": "08109b4911ffe6dcd425bf09e8164c19b65da537fcf037ff389d5a722e93afb0",
+  "gpt-6.1-sol": "08109b4911ffe6dcd425bf09e8164c19b65da537fcf037ff389d5a722e93afb0"
+ },
+ "embedded_definitions_sha256": {
+  "claude-sonnet-5-5": "45b3973f1c5aa56b05929a13858a44707c96dcb4f4bf52d6f4ff0731d9038dc2",
+  "gpt-6.1-sol": "45b3973f1c5aa56b05929a13858a44707c96dcb4f4bf52d6f4ff0731d9038dc2"
+ },
+ "embedded_schema_sha256": {
+  "claude-sonnet-5-5": "553a16b668b61711826a2d9979a45d8c6fb21b65a322c69f07356e7a64872f07",
+  "gpt-6.1-sol": "553a16b668b61711826a2d9979a45d8c6fb21b65a322c69f07356e7a64872f07"
+ },
+ "rows": {
+  "study": 798,
+  "drawn_control": 69,
+  "old_control": 0,
+  "packets_with_a_control_row": 57
+ },
+ "requests_total": 646,
+ "gate": "coding_gate_v2.gate_row",
+ "framing": "prompts/api_framing_v2.md as coding_runner.claude_body and sol_body build it; bodies built by coding_runner_v3.Runner.body",
+ "framing_sha256": "69831ccbbcc26c26b006c527ed9a073d7c99f6790901ab20a974ea651723611c",
+ "schema_file_sha256": "7ee5f69808e6be83db2a1d0c5b584c4100adda1843bfc22ea89d1f507dab18cc",
+ "schema_canonical_sha256": "553a16b668b61711826a2d9979a45d8c6fb21b65a322c69f07356e7a64872f07",
+ "definitions_file_sha256": "57f2c5bcef2b63d2d8526d4950c963a5e92e7d56cb75df215b7bbacff9f11e07",
+ "max_output_tokens": {
+  "claude-sonnet-5-5": 128000,
+  "gpt-6.1-sol": 128000
+ },
+ "models_in_bodies": {
+  "claude-sonnet-5-5": [
+   "claude-sonnet-5-5"
+  ],
+  "gpt-6.1-sol": [
+   "gpt-6.1-sol"
+  ]
+ },
+ "tokens": {
+  "claude-sonnet-5-5": {
+   "characters_per_request_total": 37560382,
+   "input_tokens_at_the_preflight_ratio": 18969890,
+   "fixed_prompt_tokens_cached_after_the_first": 37833,
+   "new_input_tokens": 6787719,
+   "largest_request_input_tokens": 153117
+  },
+  "gpt-6.1-sol": {
+   "characters_per_request_total": 37560382,
+   "input_tokens_at_the_preflight_ratio": 12077293,
+   "fixed_prompt_tokens_cached_after_the_first": 24086,
+   "new_input_tokens": 4321442,
+   "largest_request_input_tokens": 97483
+  }
+ },
+ "estimated_spend_by_provider": {
+  "1500": {
+   "anthropic_usd": 102.87,
+   "openai_usd": 78.91,
+   "anthropic_coding_usd": 20.88,
+   "openai_coding_usd": 14.26
+  },
+  "3000": {
+   "anthropic_usd": 127.97,
+   "openai_usd": 104.03,
+   "anthropic_coding_usd": 25.72,
+   "openai_coding_usd": 19.11
+  },
+  "6000_coders_8192_judges": {
+   "anthropic_usd": 207.81,
+   "openai_usd": 183.86,
+   "anthropic_coding_usd": 35.41,
+   "openai_coding_usd": 28.8
+  },
+  "measured_coders_1500_judges": {
+   "anthropic_usd": 105.42,
+   "openai_usd": 77.84,
+   "anthropic_coding_usd": 23.43,
+   "openai_coding_usd": 13.19
+  }
+ },
+ "stops": {
+  "registration_ceiling_on_the_ledger_usd": 386.09000000000003,
+  "registration_new_spend_so_far_usd": 4.5802,
+  "registration_room_usd": 295.4192,
+  "anthropic_cap_usd": 170.0,
+  "anthropic_spent_this_registration_usd": 2.5977,
+  "openai_spent_this_registration_usd": 1.9824
+ },
+ "packets_manifest_sha256": "f14cb3512490a59481e2a93b7fb035064591f59140449efb767aa3c30d9c639c",
+ "inputs_sha256": {
+  "prompts/coding_prompt_v3.md": "08109b4911ffe6dcd425bf09e8164c19b65da537fcf037ff389d5a722e93afb0",
+  "outputs/stage_a_packets_2026-10-20.json": "dbb6c6a4b97a6ef289df81b81e21d0c2fc213f7b3361d2e0e032b9787c38a816",
+  "outputs/control_set_2026-10-20.json": "1caf9031270677eb88c7912933c1a7efaeba7caa54f1ff0d5184a31181716b23",
+  "outputs/stage_a_cost_estimate_2026-10-20.json": "86eafad2bfa298ae542954fdf65594fdeda12b808f9effa76027da5602779f73",
+  "../03_release_resolution/outputs/c1a_controls_2026-10-13.json": "7273cf71abb04ec946f4f719c1f0a5667d97a5a987374e7dc4ded5f47df27500"
+ }
+}
