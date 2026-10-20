@@ -1,0 +1,36 @@
+{
+ "candidates": 132,
+ "requests": 264,
+ "system_characters": 2491,
+ "packet_characters": 143564,
+ "reserved_bound_usd": {
+  "claude-fable-5-1": 56.4529,
+  "gpt-6-astra": 55.5861
+ },
+ "reserved_bound_total_usd": 112.039,
+ "estimate_usd": 5.6558,
+ "estimate_basis": "the first registration's validity marks: 3.00 US dollars for 140 requests on the same prompt and schema (outputs/c1a_control_validity_2026-10-14.json), 0.02142 a request",
+ "prices_usd_per_million": {
+  "claude-fable-5-1": {
+   "new": 10.0,
+   "cache_write": 12.5,
+   "cached": 0.25,
+   "output": 50.0
+  },
+  "gpt-6-astra": {
+   "new": 10.0,
+   "cached": 1.0,
+   "output": 50.0
+  }
+ },
+ "min_characters_per_token": {
+  "claude-fable-5-1": 1.98,
+  "gpt-6-astra": 3.11
+ },
+ "max_output_tokens": 8192,
+ "ledger_lines": 1698,
+ "ledger_usd_before": 86.0906,
+ "first_registration_spend_usd": 86.09,
+ "ceiling_usd_on_the_ledger": 386.09000000000003,
+ "new_spend_ceiling_usd": 300.0
+}
