@@ -1,0 +1,116 @@
+{
+ "packets": 323,
+ "packets_by_population": {
+  "scope": 266,
+  "outside_scope": 57
+ },
+ "packet_characters": 13364775,
+ "fixed_prompt_characters": 74909,
+ "coders": {
+  "preflight_ratios": {
+   "1500": {
+    "claude-sonnet-5-5": 20.88,
+    "gpt-6.1-sol": 14.26,
+    "total_usd": 35.14
+   },
+   "3000": {
+    "claude-sonnet-5-5": 25.72,
+    "gpt-6.1-sol": 19.11,
+    "total_usd": 44.83
+   },
+   "6000": {
+    "claude-sonnet-5-5": 35.41,
+    "gpt-6.1-sol": 28.8,
+    "total_usd": 64.21
+   },
+   "measured_output_of_the_first_stage_a": {
+    "claude-sonnet-5-5": 23.43,
+    "gpt-6.1-sol": 13.19,
+    "total_usd": 36.62
+   }
+  },
+  "pooled_full_text_ratios_of_the_plan": {
+   "1500": {
+    "claude-sonnet-5-5": 16.96,
+    "gpt-6.1-sol": 11.69,
+    "total_usd": 28.65
+   },
+   "3000": {
+    "claude-sonnet-5-5": 21.8,
+    "gpt-6.1-sol": 16.54,
+    "total_usd": 38.34
+   },
+   "6000": {
+    "claude-sonnet-5-5": 31.5,
+    "gpt-6.1-sol": 26.23,
+    "total_usd": 57.73
+   },
+   "measured_output_of_the_first_stage_a": {
+    "claude-sonnet-5-5": 19.51,
+    "gpt-6.1-sol": 10.62,
+    "total_usd": 30.13
+   }
+  }
+ },
+ "coders_sum_of_reservation_bounds_usd": {
+  "claude-sonnet-5-5": 455.17,
+  "gpt-6.1-sol": 440.27
+ },
+ "judges": {
+  "rows": {
+   "study_rows": 798,
+   "control_rows": 69,
+   "expected_disagreements": 203.2,
+   "expected_audit_rows": 67,
+   "expected_rows_judged": 270.2,
+   "upper_rows_judged": 867
+  },
+  "system_characters": 78145,
+  "1500": {
+   "claude-fable-5-1": {
+    "expected_usd": 81.99,
+    "upper_usd": 263.07
+   },
+   "gpt-6-astra": {
+    "expected_usd": 64.65,
+    "upper_usd": 207.45
+   },
+   "expected_total_usd": 146.64,
+   "upper_total_usd": 470.52
+  },
+  "3000": {
+   "claude-fable-5-1": {
+    "expected_usd": 102.25,
+    "upper_usd": 328.1
+   },
+   "gpt-6-astra": {
+    "expected_usd": 84.92,
+    "upper_usd": 272.48
+   },
+   "expected_total_usd": 187.17,
+   "upper_total_usd": 600.58
+  },
+  "8192": {
+   "claude-fable-5-1": {
+    "expected_usd": 172.4,
+    "upper_usd": 553.17
+   },
+   "gpt-6-astra": {
+    "expected_usd": 155.06,
+    "upper_usd": 497.55
+   },
+   "expected_total_usd": 327.46,
+   "upper_total_usd": 1050.72
+  }
+ },
+ "settling_step_usd": 0.0,
+ "ledger_usd_now": 90.6708,
+ "new_spend_so_far_usd": 4.5808,
+ "new_spend_ceiling_usd": 300.0,
+ "room_under_the_ceiling_usd": 295.4192,
+ "inputs_sha256": {
+  "volume:04_release_resolution_v2/packets/stage_a/manifest.json": "f14cb3512490a59481e2a93b7fb035064591f59140449efb767aa3c30d9c639c",
+  "prompts/coding_prompt_v3.md": "08109b4911ffe6dcd425bf09e8164c19b65da537fcf037ff389d5a722e93afb0",
+  "outputs/control_set_2026-10-20.json": "1caf9031270677eb88c7912933c1a7efaeba7caa54f1ff0d5184a31181716b23"
+ }
+}
