@@ -1,0 +1,505 @@
+{
+ "tasks": {
+  "disagreement": {
+   "rows": 54,
+   "routed": 52,
+   "lone": 2,
+   "routed_by_reason": {
+    "claude-fable-5-1:choice_neither": 3,
+    "claude-fable-5-1:chosen_answer_fails_the_gate": 16,
+    "claude-fable-5-1:confidence_below_0.80": 49,
+    "claude-fable-5-1:needs_human": 33,
+    "claude-fable-5-1:request_failed_twice": 1,
+    "gpt-6-astra:choice_neither": 11,
+    "gpt-6-astra:chosen_answer_fails_the_gate": 6,
+    "gpt-6-astra:quotation_not_in_the_files": 1,
+    "judges_differ": 24
+   },
+   "routed_reasons": {
+    "97bf73f4099e": [
+     "claude-fable-5-1:chosen_answer_fails_the_gate",
+     "claude-fable-5-1:confidence_below_0.80",
+     "claude-fable-5-1:needs_human",
+     "judges_differ"
+    ],
+    "f1318c911913": [
+     "claude-fable-5-1:confidence_below_0.80"
+    ],
+    "86ea8241bc34": [
+     "claude-fable-5-1:choice_neither",
+     "claude-fable-5-1:confidence_below_0.80",
+     "claude-fable-5-1:needs_human",
+     "gpt-6-astra:choice_neither"
+    ],
+    "532bb81c375c": [
+     "claude-fable-5-1:confidence_below_0.80",
+     "claude-fable-5-1:needs_human"
+    ],
+    "4947e0dd6a24": [
+     "claude-fable-5-1:confidence_below_0.80",
+     "gpt-6-astra:quotation_not_in_the_files"
+    ],
+    "1f9b2155ac77": [
+     "claude-fable-5-1:confidence_below_0.80"
+    ],
+    "e6abcc1662c8": [
+     "claude-fable-5-1:chosen_answer_fails_the_gate",
+     "claude-fable-5-1:confidence_below_0.80",
+     "gpt-6-astra:chosen_answer_fails_the_gate"
+    ],
+    "076b6eeddbe3": [
+     "judges_differ"
+    ],
+    "95940b4321ed": [
+     "claude-fable-5-1:confidence_below_0.80",
+     "claude-fable-5-1:needs_human",
+     "gpt-6-astra:choice_neither",
+     "judges_differ"
+    ],
+    "0db121a403dc": [
+     "claude-fable-5-1:confidence_below_0.80"
+    ],
+    "825f8d2a24d8": [
+     "claude-fable-5-1:chosen_answer_fails_the_gate",
+     "claude-fable-5-1:confidence_below_0.80",
+     "claude-fable-5-1:needs_human",
+     "gpt-6-astra:chosen_answer_fails_the_gate"
+    ],
+    "2c799dd0b09e": [
+     "claude-fable-5-1:confidence_below_0.80",
+     "claude-fable-5-1:needs_human"
+    ],
+    "508df9db15c4": [
+     "claude-fable-5-1:confidence_below_0.80",
+     "claude-fable-5-1:needs_human",
+     "gpt-6-astra:choice_neither",
+     "judges_differ"
+    ],
+    "010208fc4a9c": [
+     "claude-fable-5-1:choice_neither",
+     "claude-fable-5-1:confidence_below_0.80",
+     "claude-fable-5-1:needs_human",
+     "gpt-6-astra:choice_neither"
+    ],
+    "b0eb69891bf5": [
+     "claude-fable-5-1:confidence_below_0.80",
+     "gpt-6-astra:choice_neither",
+     "judges_differ"
+    ],
+    "8936c4663981": [
+     "claude-fable-5-1:confidence_below_0.80",
+     "claude-fable-5-1:needs_human"
+    ],
+    "b54a948f1da3": [
+     "claude-fable-5-1:confidence_below_0.80"
+    ],
+    "a8f47153e14a": [
+     "claude-fable-5-1:confidence_below_0.80"
+    ],
+    "11ba5e4cbd23": [
+     "claude-fable-5-1:confidence_below_0.80",
+     "claude-fable-5-1:needs_human"
+    ],
+    "b730a6543762": [
+     "claude-fable-5-1:confidence_below_0.80",
+     "claude-fable-5-1:needs_human",
+     "judges_differ"
+    ],
+    "7da1625a3150": [
+     "claude-fable-5-1:chosen_answer_fails_the_gate",
+     "claude-fable-5-1:confidence_below_0.80",
+     "claude-fable-5-1:needs_human",
+     "judges_differ"
+    ],
+    "6ec6e42d7b17": [
+     "claude-fable-5-1:confidence_below_0.80",
+     "claude-fable-5-1:needs_human"
+    ],
+    "273a55683fff": [
+     "claude-fable-5-1:confidence_below_0.80",
+     "judges_differ"
+    ],
+    "05fcb1f4d82e": [
+     "claude-fable-5-1:confidence_below_0.80",
+     "judges_differ"
+    ],
+    "736ff31b199a": [
+     "claude-fable-5-1:chosen_answer_fails_the_gate",
+     "claude-fable-5-1:confidence_below_0.80",
+     "claude-fable-5-1:needs_human",
+     "judges_differ"
+    ],
+    "a2a3b82d1a6b": [
+     "claude-fable-5-1:chosen_answer_fails_the_gate",
+     "claude-fable-5-1:confidence_below_0.80",
+     "claude-fable-5-1:needs_human",
+     "judges_differ"
+    ],
+    "4a5f591140ae": [
+     "claude-fable-5-1:confidence_below_0.80",
+     "claude-fable-5-1:needs_human"
+    ],
+    "117fae8ab1e2": [
+     "claude-fable-5-1:confidence_below_0.80",
+     "claude-fable-5-1:needs_human"
+    ],
+    "5e4f52484af6": [
+     "claude-fable-5-1:chosen_answer_fails_the_gate",
+     "claude-fable-5-1:confidence_below_0.80",
+     "claude-fable-5-1:needs_human",
+     "judges_differ"
+    ],
+    "be2e3b850228": [
+     "claude-fable-5-1:chosen_answer_fails_the_gate",
+     "claude-fable-5-1:confidence_below_0.80",
+     "claude-fable-5-1:needs_human",
+     "judges_differ"
+    ],
+    "b540337b71ae": [
+     "claude-fable-5-1:chosen_answer_fails_the_gate",
+     "claude-fable-5-1:confidence_below_0.80",
+     "claude-fable-5-1:needs_human",
+     "judges_differ"
+    ],
+    "ebbe27e9d4d0": [
+     "claude-fable-5-1:chosen_answer_fails_the_gate",
+     "claude-fable-5-1:confidence_below_0.80",
+     "claude-fable-5-1:needs_human",
+     "judges_differ"
+    ],
+    "920aefa87539": [
+     "claude-fable-5-1:request_failed_twice",
+     "gpt-6-astra:chosen_answer_fails_the_gate"
+    ],
+    "296668c76ced": [
+     "claude-fable-5-1:chosen_answer_fails_the_gate",
+     "claude-fable-5-1:confidence_below_0.80",
+     "claude-fable-5-1:needs_human",
+     "judges_differ"
+    ],
+    "5af861ac903e": [
+     "claude-fable-5-1:confidence_below_0.80",
+     "claude-fable-5-1:needs_human"
+    ],
+    "99b48d85de9b": [
+     "claude-fable-5-1:chosen_answer_fails_the_gate",
+     "claude-fable-5-1:confidence_below_0.80",
+     "claude-fable-5-1:needs_human",
+     "gpt-6-astra:chosen_answer_fails_the_gate"
+    ],
+    "5c6037a71581": [
+     "claude-fable-5-1:chosen_answer_fails_the_gate",
+     "claude-fable-5-1:confidence_below_0.80",
+     "claude-fable-5-1:needs_human",
+     "judges_differ"
+    ],
+    "5415ba07af43": [
+     "claude-fable-5-1:confidence_below_0.80"
+    ],
+    "e002b56e83c2": [
+     "claude-fable-5-1:confidence_below_0.80"
+    ],
+    "5e300518ec90": [
+     "claude-fable-5-1:confidence_below_0.80"
+    ],
+    "6c11cf632908": [
+     "claude-fable-5-1:confidence_below_0.80"
+    ],
+    "f8754eceb5a0": [
+     "claude-fable-5-1:chosen_answer_fails_the_gate",
+     "claude-fable-5-1:confidence_below_0.80",
+     "claude-fable-5-1:needs_human",
+     "gpt-6-astra:chosen_answer_fails_the_gate",
+     "judges_differ"
+    ],
+    "f0ffe9d3410e": [
+     "claude-fable-5-1:confidence_below_0.80"
+    ],
+    "4c12043e86ae": [
+     "claude-fable-5-1:confidence_below_0.80"
+    ],
+    "75773290270c": [
+     "claude-fable-5-1:confidence_below_0.80",
+     "claude-fable-5-1:needs_human",
+     "gpt-6-astra:choice_neither",
+     "judges_differ"
+    ],
+    "17eb6b2bfb74": [
+     "claude-fable-5-1:chosen_answer_fails_the_gate",
+     "claude-fable-5-1:confidence_below_0.80",
+     "claude-fable-5-1:needs_human",
+     "gpt-6-astra:chosen_answer_fails_the_gate"
+    ],
+    "4b1a991d39d9": [
+     "claude-fable-5-1:confidence_below_0.80",
+     "claude-fable-5-1:needs_human",
+     "gpt-6-astra:choice_neither",
+     "judges_differ"
+    ],
+    "970e21e96c10": [
+     "gpt-6-astra:choice_neither",
+     "judges_differ"
+    ],
+    "550544109496": [
+     "claude-fable-5-1:confidence_below_0.80",
+     "claude-fable-5-1:needs_human",
+     "gpt-6-astra:choice_neither",
+     "judges_differ"
+    ],
+    "5e68b5f61282": [
+     "claude-fable-5-1:confidence_below_0.80",
+     "claude-fable-5-1:needs_human",
+     "gpt-6-astra:choice_neither",
+     "judges_differ"
+    ],
+    "be023c2bd721": [
+     "claude-fable-5-1:choice_neither",
+     "claude-fable-5-1:confidence_below_0.80",
+     "claude-fable-5-1:needs_human",
+     "gpt-6-astra:choice_neither"
+    ],
+    "d9768f5446cd": [
+     "claude-fable-5-1:chosen_answer_fails_the_gate",
+     "claude-fable-5-1:confidence_below_0.80",
+     "claude-fable-5-1:needs_human",
+     "judges_differ"
+    ]
+   },
+   "seed": 20261038,
+   "calibration_order": [
+    "51e05c59af41",
+    "b665c82e70ff"
+   ],
+   "calibration_first": [
+    "51e05c59af41",
+    "b665c82e70ff"
+   ]
+  },
+  "audit": {
+   "rows": 69,
+   "routed": 28,
+   "lone": 41,
+   "routed_by_reason": {
+    "claude-fable-5-1:choice_substantive_error": 1,
+    "claude-fable-5-1:chosen_answer_fails_the_gate": 5,
+    "claude-fable-5-1:confidence_below_0.80": 10,
+    "claude-fable-5-1:needs_human": 3,
+    "claude-fable-5-1:quotation_not_in_the_files": 2,
+    "gpt-6-astra:choice_other_issue": 15,
+    "gpt-6-astra:choice_substantive_error": 2,
+    "gpt-6-astra:chosen_answer_fails_the_gate": 4,
+    "judges_differ": 18
+   },
+   "routed_reasons": {
+    "b38de5eeef55": [
+     "claude-fable-5-1:quotation_not_in_the_files"
+    ],
+    "7caf7efe67a2": [
+     "claude-fable-5-1:confidence_below_0.80",
+     "gpt-6-astra:choice_other_issue",
+     "judges_differ"
+    ],
+    "c3585d84f011": [
+     "claude-fable-5-1:confidence_below_0.80",
+     "claude-fable-5-1:needs_human"
+    ],
+    "955023032f09": [
+     "claude-fable-5-1:chosen_answer_fails_the_gate",
+     "gpt-6-astra:chosen_answer_fails_the_gate"
+    ],
+    "9fa2adde5732": [
+     "claude-fable-5-1:confidence_below_0.80"
+    ],
+    "928514aefb3e": [
+     "gpt-6-astra:choice_other_issue",
+     "judges_differ"
+    ],
+    "adf382626e39": [
+     "claude-fable-5-1:chosen_answer_fails_the_gate",
+     "claude-fable-5-1:confidence_below_0.80",
+     "claude-fable-5-1:needs_human",
+     "gpt-6-astra:chosen_answer_fails_the_gate"
+    ],
+    "3cc539d57b57": [
+     "gpt-6-astra:choice_other_issue",
+     "judges_differ"
+    ],
+    "62d7f99b0667": [
+     "claude-fable-5-1:confidence_below_0.80"
+    ],
+    "2894023e5af5": [
+     "claude-fable-5-1:confidence_below_0.80",
+     "gpt-6-astra:choice_other_issue",
+     "judges_differ"
+    ],
+    "a492a9d0f582": [
+     "claude-fable-5-1:confidence_below_0.80",
+     "gpt-6-astra:choice_other_issue",
+     "judges_differ"
+    ],
+    "470971fec770": [
+     "gpt-6-astra:choice_other_issue",
+     "judges_differ"
+    ],
+    "6400b524a418": [
+     "claude-fable-5-1:quotation_not_in_the_files"
+    ],
+    "26d35535e41a": [
+     "claude-fable-5-1:choice_substantive_error",
+     "claude-fable-5-1:confidence_below_0.80",
+     "claude-fable-5-1:needs_human",
+     "judges_differ"
+    ],
+    "f6ba1774facb": [
+     "gpt-6-astra:choice_other_issue",
+     "judges_differ"
+    ],
+    "8dca65699412": [
+     "claude-fable-5-1:chosen_answer_fails_the_gate",
+     "gpt-6-astra:choice_other_issue",
+     "judges_differ"
+    ],
+    "e1df3bafa420": [
+     "gpt-6-astra:choice_substantive_error",
+     "judges_differ"
+    ],
+    "0368189162c8": [
+     "gpt-6-astra:choice_other_issue",
+     "judges_differ"
+    ],
+    "6a4eed75681a": [
+     "gpt-6-astra:choice_other_issue",
+     "judges_differ"
+    ],
+    "99599ac14809": [
+     "claude-fable-5-1:chosen_answer_fails_the_gate",
+     "gpt-6-astra:chosen_answer_fails_the_gate"
+    ],
+    "24d9d10c115e": [
+     "claude-fable-5-1:confidence_below_0.80",
+     "gpt-6-astra:choice_substantive_error",
+     "judges_differ"
+    ],
+    "43a0265cc537": [
+     "gpt-6-astra:choice_other_issue",
+     "judges_differ"
+    ],
+    "76845d8fa46c": [
+     "gpt-6-astra:choice_other_issue",
+     "judges_differ"
+    ],
+    "0acd69e4f561": [
+     "gpt-6-astra:choice_other_issue",
+     "judges_differ"
+    ],
+    "da92dd003c50": [
+     "gpt-6-astra:choice_other_issue",
+     "judges_differ"
+    ],
+    "c2c91a6a5d58": [
+     "claude-fable-5-1:chosen_answer_fails_the_gate",
+     "gpt-6-astra:chosen_answer_fails_the_gate"
+    ],
+    "b3d4d2c71062": [
+     "claude-fable-5-1:confidence_below_0.80"
+    ],
+    "ba53d62a31f4": [
+     "gpt-6-astra:choice_other_issue",
+     "judges_differ"
+    ]
+   },
+   "seed": 20261039,
+   "calibration_order": [
+    "820e99772f92",
+    "855b559eaf37",
+    "c5cc9283828c",
+    "0fbc3367399a",
+    "01b75c861ddc",
+    "85f732841edf",
+    "40884b2e249d",
+    "27c842ccf6cb",
+    "929813964d99",
+    "88e27ac66f35",
+    "974c3e03da22",
+    "6f9e3b129ee3",
+    "54cbefe9aa84",
+    "282c5f890968",
+    "1fe050ac5a4b",
+    "7153c7fb714c",
+    "66a2f9adb1fb",
+    "357860066eab",
+    "521ced4aec2b",
+    "7666b4004324",
+    "840b92f530b0",
+    "703b8393638f",
+    "2a791a6b73ea",
+    "f5503b615950",
+    "903fbf85fce9",
+    "805befcb4657",
+    "1dd4830ca650",
+    "257aaed45803",
+    "6d9bf939a635",
+    "f6029aa6af79",
+    "63a12cc52591",
+    "77a3eeacf7f8",
+    "2bfb41d2e2e0",
+    "cf1fa6a9521e",
+    "83f5540cc108",
+    "0b6828314d0b",
+    "6a1707442786",
+    "a24521e73c5a",
+    "73a20808ecdc",
+    "345d006cb923",
+    "d4e3c8a6e7d4"
+   ],
+   "calibration_first": [
+    "820e99772f92",
+    "855b559eaf37",
+    "c5cc9283828c",
+    "0fbc3367399a",
+    "01b75c861ddc",
+    "85f732841edf",
+    "40884b2e249d",
+    "27c842ccf6cb",
+    "929813964d99",
+    "88e27ac66f35",
+    "974c3e03da22",
+    "6f9e3b129ee3",
+    "54cbefe9aa84",
+    "282c5f890968",
+    "1fe050ac5a4b",
+    "7153c7fb714c",
+    "66a2f9adb1fb",
+    "357860066eab",
+    "521ced4aec2b",
+    "7666b4004324"
+   ]
+  }
+ },
+ "judges": {
+  "claude-fable-5-1": {
+   "attempts": 124,
+   "second_attempts": 1,
+   "attempt_statuses": [
+    "200"
+   ],
+   "models_returned": [
+    "claude-fable-5-1"
+   ],
+   "usd": 36.4057
+  },
+  "gpt-6-astra": {
+   "attempts": 123,
+   "second_attempts": 0,
+   "attempt_statuses": [
+    "200"
+   ],
+   "models_returned": [
+    "gpt-6-astra"
+   ],
+   "usd": 20.1112
+  }
+ },
+ "fable_rows_read_from_the_fifth_version": 107,
+ "routing_json_sha256": "22fd71d3f6912a47f754eb1c1c3ee1e724521f3ead802dacfd2d6b85b20d46cf"
+}
