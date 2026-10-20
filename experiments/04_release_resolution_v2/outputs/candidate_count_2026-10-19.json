@@ -1,0 +1,70 @@
+{
+ "note": "post-results planning for a draft second registration; counts only; no text of a source, unit or answer is written",
+ "scope_stage_a_text": {
+  "from": "outputs/staged_design_pricing_2026-10-13.json",
+  "record_identifier_row_triples_in_stage_a_text": 70,
+  "triples_supplement_only": 2559,
+  "stratified_draw_of_amendment_2": 70,
+  "max_per_record_in_that_draw": 4,
+  "reading": "the draw took every stage A candidate: the cap of 5 per record and the maximum of 150 did not bind, so the pool is the 70 controls already used"
+ },
+ "outside_scope_stored_full_texts": {
+  "texts_scanned": {
+   "in_corpus": 117,
+   "not_in_amended_primary_corpus": 60
+  },
+  "paper1_amended_primary_records": 734,
+  "paper1_records_outside_scope": 468,
+  "all_stored": {
+   "matches": 157,
+   "record_identifier_pairs": 84,
+   "records": 55,
+   "pairs_after_cap_of_5_per_record": 82,
+   "by_side": {
+    "outcome": 79,
+    "pqtl": 5
+   },
+   "by_kind": {
+    "release": 61,
+    "accession": 16,
+    "source_identifier": 7
+   },
+   "by_type": {
+    "FinnGen": 61,
+    "opengwas": 15,
+    "pmid": 4,
+    "doi": 3,
+    "gwas_catalog": 1
+   },
+   "expected_rows": 13
+  },
+  "in_amended_primary_corpus": {
+   "matches": 103,
+   "record_identifier_pairs": 54,
+   "records": 31,
+   "pairs_after_cap_of_5_per_record": 52,
+   "by_side": {
+    "outcome": 51,
+    "pqtl": 3
+   },
+   "by_kind": {
+    "release": 35,
+    "accession": 14,
+    "source_identifier": 5
+   },
+   "by_type": {
+    "FinnGen": 35,
+    "opengwas": 13,
+    "pmid": 3,
+    "doi": 2,
+    "gwas_catalog": 1
+   },
+   "expected_rows": 12
+  }
+ },
+ "inputs": {
+  "patterns_seed": 20261011,
+  "scanner": "experiments/03_release_resolution/scripts/source_scanner_v2.py",
+  "units": "experiments/03_release_resolution/scripts/c1_controls.py"
+ }
+}
