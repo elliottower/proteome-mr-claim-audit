@@ -1,0 +1,26 @@
+{
+ "rounds": [
+  {
+   "round": 1,
+   "states": {
+    "claude-fable-5-1": {
+     "accepted": 0,
+     "failed": 132,
+     "pending": 0,
+     "not_sent": 0
+    },
+    "gpt-6-astra": {
+     "accepted": 132,
+     "failed": 0,
+     "pending": 0,
+     "not_sent": 0
+    }
+   },
+   "stopped": null
+  }
+ ],
+ "ledger_usd_at_start": 86.0906,
+ "ledger_usd_at_end": 88.0731,
+ "spent_in_this_job_usd": 1.9824,
+ "ceiling_usd_on_the_ledger": 386.09000000000003
+}
