@@ -1,0 +1,266 @@
+{
+ "gate": "coding_gate_v2.gate_row",
+ "gate_counts": {
+  "claude-sonnet-5-5": {
+   "answers": {
+    "accepted": 323,
+    "rows_gated": 867,
+    "rows_passing": 794,
+    "rows_passing_through_the_inline_d2_rule": 13,
+    "quotes_pinned": 181,
+    "rows_failing": 73
+   },
+   "gate_failures_by_error": {
+    "no_reference_entry": 36,
+    "no_identifier_mapping_to_the_coded_row": 35,
+    "quote_not_in_frozen_file": 55,
+    "quote_not_in_packet_file": 55,
+    "reference:quote_not_in_frozen_file": 19,
+    "reference:quote_not_in_packet_file": 19,
+    "inline:no_doi_or_pmid_in_quote": 44,
+    "inline:reference_doi_differs_from_the_dictionary_source": 1,
+    "reference:reference_entry_has_no_stable_identifier": 13,
+    "inline:quote_in_a_reference_list": 2
+   },
+   "citations_verify_returncode": 0
+  },
+  "gpt-6.1-sol": {
+   "answers": {
+    "accepted": 323,
+    "rows_gated": 867,
+    "rows_passing": 822,
+    "rows_passing_through_the_inline_d2_rule": 13,
+    "rows_failing": 45,
+    "quotes_pinned": 244
+   },
+   "gate_failures_by_error": {
+    "reference:reference_entry_has_no_stable_identifier": 27,
+    "inline:no_doi_or_pmid_in_quote": 59,
+    "no_reference_entry": 53,
+    "no_identifier_mapping_to_the_coded_row": 37,
+    "inline:reference_doi_differs_from_the_dictionary_source": 2,
+    "reference:reference_doi_differs_from_the_dictionary_source": 4,
+    "quote_not_in_frozen_file": 3,
+    "quote_not_in_packet_file": 3,
+    "inline:quote_in_a_reference_list": 1
+   },
+   "citations_verify_returncode": 0
+  }
+ },
+ "agreement": {
+  "scope_study_rows": {
+   "rows": 657,
+   "answered_by_both": 657,
+   "agree": 501,
+   "differ": 156,
+   "without_an_accepted_answer_from_a_model": 0
+  },
+  "outside_study_rows": {
+   "rows": 141,
+   "answered_by_both": 141,
+   "agree": 121,
+   "differ": 20,
+   "without_an_accepted_answer_from_a_model": 0
+  },
+  "control_rows": {
+   "rows": 69,
+   "answered_by_both": 69,
+   "agree": 67,
+   "differ": 2,
+   "without_an_accepted_answer_from_a_model": 0
+  }
+ },
+ "c1_on_the_coders_answers": {
+  "overall": {
+   "claude-sonnet-5-5": {
+    "controls": 69,
+    "counts": {
+     "empty": 1,
+     "expected_gate_failed": 6,
+     "recovered": 62
+    },
+    "recovery": 0.8985507246376812,
+    "contradiction": 0.0,
+    "minimum_controls": 50,
+    "meets_thresholds": false
+   },
+   "gpt-6.1-sol": {
+    "controls": 69,
+    "counts": {
+     "empty": 1,
+     "expected_gate_failed": 1,
+     "recovered": 67
+    },
+    "recovery": 0.9710144927536232,
+    "contradiction": 0.0,
+    "minimum_controls": 50,
+    "meets_thresholds": true
+   },
+   "both_models": {
+    "controls": 69,
+    "counts": {
+     "not_recovered_by_both": 7,
+     "recovered": 62
+    },
+    "recovery": 0.8985507246376812,
+    "contradiction": 0.0,
+    "minimum_controls": 50,
+    "meets_thresholds": false
+   },
+   "thresholds": {
+    "recovery_at_least": 0.9,
+    "contradiction_at_most": 0.02
+   }
+  },
+  "release": {
+   "claude-sonnet-5-5": {
+    "controls": 44,
+    "counts": {
+     "expected_gate_failed": 4,
+     "recovered": 40
+    },
+    "recovery": 0.9090909090909091,
+    "contradiction": 0.0,
+    "minimum_controls": 0,
+    "meets_thresholds": true
+   },
+   "gpt-6.1-sol": {
+    "controls": 44,
+    "counts": {
+     "recovered": 44
+    },
+    "recovery": 1.0,
+    "contradiction": 0.0,
+    "minimum_controls": 0,
+    "meets_thresholds": true
+   },
+   "both_models": {
+    "controls": 44,
+    "counts": {
+     "not_recovered_by_both": 4,
+     "recovered": 40
+    },
+    "recovery": 0.9090909090909091,
+    "contradiction": 0.0,
+    "minimum_controls": 0,
+    "meets_thresholds": true
+   },
+   "thresholds": {
+    "recovery_at_least": 0.9,
+    "contradiction_at_most": 0.02
+   }
+  },
+  "accession": {
+   "claude-sonnet-5-5": {
+    "controls": 21,
+    "counts": {
+     "empty": 1,
+     "expected_gate_failed": 2,
+     "recovered": 18
+    },
+    "recovery": 0.8571428571428571,
+    "contradiction": 0.0,
+    "minimum_controls": 0,
+    "meets_thresholds": false
+   },
+   "gpt-6.1-sol": {
+    "controls": 21,
+    "counts": {
+     "empty": 1,
+     "expected_gate_failed": 1,
+     "recovered": 19
+    },
+    "recovery": 0.9047619047619048,
+    "contradiction": 0.0,
+    "minimum_controls": 0,
+    "meets_thresholds": true
+   },
+   "both_models": {
+    "controls": 21,
+    "counts": {
+     "not_recovered_by_both": 3,
+     "recovered": 18
+    },
+    "recovery": 0.8571428571428571,
+    "contradiction": 0.0,
+    "minimum_controls": 0,
+    "meets_thresholds": false
+   },
+   "thresholds": {
+    "recovery_at_least": 0.9,
+    "contradiction_at_most": 0.02
+   }
+  },
+  "source_identifier": {
+   "claude-sonnet-5-5": {
+    "controls": 4,
+    "counts": {
+     "recovered": 4
+    },
+    "recovery": 1.0,
+    "contradiction": 0.0,
+    "minimum_controls": 0,
+    "meets_thresholds": true
+   },
+   "gpt-6.1-sol": {
+    "controls": 4,
+    "counts": {
+     "recovered": 4
+    },
+    "recovery": 1.0,
+    "contradiction": 0.0,
+    "minimum_controls": 0,
+    "meets_thresholds": true
+   },
+   "both_models": {
+    "controls": 4,
+    "counts": {
+     "recovered": 4
+    },
+    "recovery": 1.0,
+    "contradiction": 0.0,
+    "minimum_controls": 0,
+    "meets_thresholds": true
+   },
+   "thresholds": {
+    "recovery_at_least": 0.9,
+    "contradiction_at_most": 0.02
+   }
+  },
+  "recovered_through_the_inline_d2_rule": {
+   "claude-sonnet-5-5": 4,
+   "gpt-6.1-sol": 4
+  }
+ },
+ "note": "the coders' answers before any judge, settling or adjudication; the registered C1 is computed on accepted codes",
+ "usage": {
+  "claude-sonnet-5-5": {
+   "requests_billed": 325,
+   "re_requests": 2,
+   "output_tokens": 812327,
+   "new_input_tokens": 5512076,
+   "cache_write_tokens": 294264,
+   "cache_read_tokens": 11660211,
+   "mean_output_tokens_per_request": 2499.5,
+   "usd": 22.2151
+  },
+  "gpt-6.1-sol": {
+   "requests_billed": 323,
+   "re_requests": 0,
+   "output_tokens": 429046,
+   "new_input_tokens": 3432868,
+   "cache_read_tokens": 7573118,
+   "reasoning_tokens": 57843,
+   "mean_output_tokens_per_request": 1328.3,
+   "usd": 11.9135
+  },
+  "total_usd": 34.1286
+ },
+ "rows_to_adjudicate": {
+  "rows": 867,
+  "rows_answered_by_both": 867,
+  "rows_where_the_models_differ": 178,
+  "rows_without_an_accepted_answer_from_a_model": 0,
+  "rows_to_adjudicate": 178
+ }
+}

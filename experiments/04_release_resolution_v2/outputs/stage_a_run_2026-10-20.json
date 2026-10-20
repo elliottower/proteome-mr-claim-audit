@@ -1,0 +1,48 @@
+{
+ "rounds": [
+  {
+   "claude-sonnet-5-5": {
+    "model": "claude-sonnet-5-5",
+    "packets": 323,
+    "states": {
+     "accepted": 323,
+     "failed": 0,
+     "pending": 0
+    },
+    "not_sent_ceiling": 0,
+    "stopped": null,
+    "errors": [],
+    "spent_usd": 122.8274,
+    "pending": [],
+    "failed": [],
+    "models_returned": [
+     "claude-sonnet-5-5"
+    ]
+   },
+   "gpt-6.1-sol": {
+    "model": "gpt-6.1-sol",
+    "packets": 323,
+    "states": {
+     "accepted": 323,
+     "failed": 0,
+     "pending": 0
+    },
+    "not_sent_ceiling": 0,
+    "stopped": null,
+    "errors": [],
+    "spent_usd": 124.7994,
+    "pending": [],
+    "failed": [],
+    "models_returned": [
+     "gpt-6.1-sol"
+    ]
+   }
+  }
+ ],
+ "ledger_usd_at_start": 90.6708,
+ "ledger_usd_at_end": 124.7994,
+ "spent_in_this_job_usd": 34.1286,
+ "registration_new_spend_usd": 38.7088,
+ "anthropic_spent_this_registration_usd": 24.8129,
+ "openai_spent_this_registration_usd": 13.8959
+}
