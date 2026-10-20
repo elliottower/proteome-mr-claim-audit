@@ -1,0 +1,23 @@
+{
+ "rounds": [
+  {
+   "round": 1,
+   "states": {
+    "claude-fable-5-1": {
+     "accepted": 106,
+     "failed": 1,
+     "pending": 0,
+     "not_sent": 0
+    }
+   },
+   "stopped": null
+  }
+ ],
+ "rows_sent": 107,
+ "ledger_usd_at_start": 151.013,
+ "ledger_usd_at_end": 181.3164,
+ "spent_in_this_job_usd": 30.3034,
+ "registration_new_spend_usd": 95.2258,
+ "anthropic_spent_this_registration_usd": 61.2186,
+ "openai_spent_this_registration_usd": 34.0072
+}
