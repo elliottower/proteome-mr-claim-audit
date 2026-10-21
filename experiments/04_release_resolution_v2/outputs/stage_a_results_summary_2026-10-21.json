@@ -1,0 +1,642 @@
+{
+ "registration": "experiments/04_release_resolution_v2/PREREG.md (sha256 555ec9a9ddb628e55fd3642a0282a9b5b75702646968092f98dfd8b74c4ba62c)",
+ "primary_analysis": "stage A",
+ "hypotheses": {
+  "H1 [H2-R] more than half of the 245 repeated pairs known_identical": {
+   "criterion": "supported when LB > 0.5; contradicted when UB <= 0.5; else unresolved",
+   "LB": 0.0,
+   "UB": 0.9061224489795918,
+   "counts": {
+    "h2_known_identical": 0,
+    "h2_known_not_identical": 23,
+    "h2_unresolved": 222
+   },
+   "verdict": "unresolved"
+  },
+  "H2 [H2b-R] more than half known_overlapping": {
+   "criterion": "supported when LB_b > 0.5; contradicted when UB_b <= 0.5; else unresolved",
+   "LB_b": 0.0326530612244898,
+   "UB_b": 0.9551020408163265,
+   "counts": {
+    "h2b_known_overlapping": 8,
+    "h2b_known_not_overlapping": 11,
+    "h2b_unresolved": 226
+   },
+   "verdict": "unresolved"
+  },
+  "H3 [H1-R] concordance of independent edges": {
+   "criterion": "no verdict; estimate with Wilson interval; not estimable with no independent edge",
+   "pairs_with_an_independent_edge": 0,
+   "estimate": null,
+   "verdict": "not estimable"
+  },
+  "H4 [C1] positive control": {
+   "criterion": "recovery >= 0.90 and contradiction <= 0.02 on >= 50 drawn controls, accepted codes",
+   "controls": 69,
+   "recovered": 67,
+   "recovery": 0.9710144927536232,
+   "contradiction": 0.0,
+   "by_identifier_type": {
+    "release": {
+     "recovered": 44,
+     "controls": 44
+    },
+    "accession": {
+     "recovered": 19,
+     "controls": 21
+    },
+    "source_identifier": {
+     "recovered": 4,
+     "controls": 4
+    }
+   },
+   "verdict": "pass"
+  },
+  "H5 [manifest check]": {
+   "criterion": "31 of 31 manifest accessions return the expected row",
+   "pass": 31,
+   "accessions": 31,
+   "verdict": "holds"
+  }
+ },
+ "gates": {
+  "eligible_controls": 69,
+  "minimum_50_met": true,
+  "drawn_controls": 69,
+  "calibration": {
+   "disagreement": "pass",
+   "audit": "pass"
+  },
+  "escalation_triggered": false,
+  "accepted_rows": {
+   "settled": 124,
+   "agreed": 655,
+   "author": 45,
+   "judges": 2
+  },
+  "stage_b": {
+   "bound_usd": 466.53,
+   "bound_at_most": 470.0,
+   "new_spend_usd": 95.2258,
+   "total_at_most": 560.0,
+   "new_spend_plus_bound_usd": 561.76,
+   "stage_b_runs": false,
+   "primary_analysis": "stage A"
+  }
+ },
+ "sensitivity": {
+  "without_attribution_resolution": {
+   "h2_multi_family_pairs": 245,
+   "h2_known_identical": 0,
+   "h2_known_not_identical": 19,
+   "h2_unresolved": 226,
+   "h2_lower": 0.0,
+   "h2_upper": 0.9224489795918367,
+   "h2b_known_overlapping": 8,
+   "h2b_known_not_overlapping": 11,
+   "h2b_unresolved": 226,
+   "h2b_lower": 0.0326530612244898,
+   "h2b_upper": 0.9551020408163265,
+   "h2_verdict": "unresolved",
+   "h2b_verdict": "unresolved"
+  },
+  "europe_pmc_sources_only": {
+   "h2_multi_family_pairs": 245,
+   "h2_known_identical": 0,
+   "h2_known_not_identical": 13,
+   "h2_unresolved": 232,
+   "h2_lower": 0.0,
+   "h2_upper": 0.9469387755102041,
+   "h2b_known_overlapping": 8,
+   "h2b_known_not_overlapping": 6,
+   "h2b_unresolved": 231,
+   "h2b_lower": 0.0326530612244898,
+   "h2b_upper": 0.9755102040816327,
+   "h2_verdict": "unresolved",
+   "h2b_verdict": "unresolved"
+  },
+  "originally_registered_corpus": {
+   "h2_multi_family_pairs": 242,
+   "h2_known_identical": 0,
+   "h2_known_not_identical": 23,
+   "h2_unresolved": 219,
+   "h2_lower": 0.0,
+   "h2_upper": 0.9049586776859504,
+   "h2b_known_overlapping": 8,
+   "h2b_known_not_overlapping": 11,
+   "h2b_unresolved": 223,
+   "h2b_lower": 0.03305785123966942,
+   "h2b_upper": 0.9545454545454546,
+   "h2_verdict": "unresolved",
+   "h2b_verdict": "unresolved"
+  },
+  "count_inferred_strict": {
+   "h2_multi_family_pairs": 245,
+   "h2_known_identical": 0,
+   "h2_known_not_identical": 23,
+   "h2_unresolved": 222,
+   "h2_lower": 0.0,
+   "h2_upper": 0.9061224489795918,
+   "h2b_known_overlapping": 8,
+   "h2b_known_not_overlapping": 11,
+   "h2b_unresolved": 226,
+   "h2b_lower": 0.0326530612244898,
+   "h2b_upper": 0.9551020408163265,
+   "h2_verdict": "unresolved",
+   "h2b_verdict": "unresolved"
+  },
+  "count_inferred_compatible": {
+   "h2_multi_family_pairs": 245,
+   "h2_known_identical": 0,
+   "h2_known_not_identical": 31,
+   "h2_unresolved": 214,
+   "h2_lower": 0.0,
+   "h2_upper": 0.8734693877551021,
+   "h2b_known_overlapping": 8,
+   "h2b_known_not_overlapping": 12,
+   "h2b_unresolved": 225,
+   "h2b_lower": 0.0326530612244898,
+   "h2b_upper": 0.9510204081632653,
+   "h2_verdict": "unresolved",
+   "h2b_verdict": "unresolved"
+  },
+  "count_inferred_exact_total_permitted": {
+   "h2_multi_family_pairs": 245,
+   "h2_known_identical": 0,
+   "h2_known_not_identical": 31,
+   "h2_unresolved": 214,
+   "h2_lower": 0.0,
+   "h2_upper": 0.8734693877551021,
+   "h2b_known_overlapping": 8,
+   "h2b_known_not_overlapping": 12,
+   "h2b_unresolved": 225,
+   "h2b_lower": 0.0326530612244898,
+   "h2b_upper": 0.9510204081632653,
+   "h2_verdict": "unresolved",
+   "h2b_verdict": "unresolved"
+  },
+  "size_inferred_script_based": {
+   "h2_multi_family_pairs": 245,
+   "h2_known_identical": 0,
+   "h2_known_not_identical": 31,
+   "h2_unresolved": 214,
+   "h2_lower": 0.0,
+   "h2_upper": 0.8734693877551021,
+   "h2b_known_overlapping": 8,
+   "h2b_known_not_overlapping": 12,
+   "h2b_unresolved": 225,
+   "h2b_lower": 0.0326530612244898,
+   "h2b_upper": 0.9510204081632653,
+   "h2_verdict": "unresolved",
+   "h2b_verdict": "unresolved"
+  },
+  "size_inferred_with_author_attribution_corrections": {
+   "h2_multi_family_pairs": 245,
+   "h2_known_identical": 0,
+   "h2_known_not_identical": 31,
+   "h2_unresolved": 214,
+   "h2_lower": 0.0,
+   "h2_upper": 0.8734693877551021,
+   "h2b_known_overlapping": 8,
+   "h2b_known_not_overlapping": 12,
+   "h2b_unresolved": 225,
+   "h2b_lower": 0.0326530612244898,
+   "h2b_upper": 0.9510204081632653,
+   "h2_verdict": "unresolved",
+   "h2b_verdict": "unresolved"
+  },
+  "equal_to_primary_by_construction": {
+   "all_count_only_mappings_unresolved": "primary",
+   "without_meta_analysis_canonicalization": "primary"
+  }
+ },
+ "indices": {
+  "full_text_resolution_yield": {
+   "mentions_unresolved_from_the_abstract": 648,
+   "resolved_here": 52,
+   "by_side": {
+    "pqtl": {
+     "unresolved_from_the_abstract": 308,
+     "resolved_here": 11
+    },
+    "outcome": {
+     "unresolved_from_the_abstract": 340,
+     "resolved_here": 41
+    }
+   },
+   "by_abstract_state": {
+    "not_stated": {
+     "mentions": 402,
+     "resolved_here": 20
+    },
+    "release_ambiguous": {
+     "mentions": 146,
+     "resolved_here": 22
+    },
+    "unmatched": {
+     "mentions": 100,
+     "resolved_here": 10
+    }
+   }
+  },
+  "incremental_yield_by_source": {
+   "resolved_mentions": 56,
+   "abstract_only": 3,
+   "both": 6,
+   "full_text_only": 47,
+   "supplement": 0
+  },
+  "abstract_to_full_text_transitions": {
+   "mentions_the_abstract_resolves_to_one_release_with_an_eligible_source": 7,
+   "confirmed": 3,
+   "contradicted": 1,
+   "none": 3
+  },
+  "attribution_transitions": {
+   "claim_records_unclear_in_paper1": 90,
+   "unclear_to_resolved": 51,
+   "still_unclear": 39,
+   "repeated_pairs_held_by_unclear_records": 47,
+   "repeated_pairs_held_by_records_still_unclear": 26
+  },
+  "accessibility_stratified_resolution": {
+   "R1": {
+    "mentions": 386,
+    "resolved": 35
+   },
+   "R3": {
+    "mentions": 124,
+    "resolved": 18
+   },
+   "none": {
+    "mentions": 147,
+    "resolved": 3
+   },
+   "R2 present": {
+    "mentions": 0,
+    "resolved": 0
+   }
+  },
+  "pairs_unresolved_for_want_of_a_source": {
+   "pairs": 20,
+   "unresolved_pairs": 222,
+   "definition": "H2-unresolved pairs whose every unresolved mention comes from a record with no eligible source other than the abstract"
+  },
+  "agreement_with_paper1_codes": {
+   "mentions": 69,
+   "unresolved_here": 52,
+   "same_row": 17
+  },
+  "pair_movement": {
+   "h2": {
+    "known_not_identical -> known_not_identical": 9,
+    "known_not_identical -> unresolved": 2,
+    "unresolved -> known_not_identical": 14,
+    "unresolved -> unresolved": 220
+   },
+   "h2b": {
+    "known_not_overlapping -> known_not_overlapping": 5,
+    "known_overlapping -> known_overlapping": 8,
+    "unresolved -> known_not_overlapping": 6,
+    "unresolved -> unresolved": 226
+   }
+  },
+  "fully_accessible_pairs": {
+   "pairs": 143,
+   "h2": {
+    "unresolved": 131,
+    "known_not_identical": 12
+   },
+   "h2b": {
+    "unresolved": 131,
+    "known_overlapping": 8,
+    "known_not_overlapping": 4
+   },
+   "h2_lower": 0.0,
+   "h2_upper": 0.916083916083916,
+   "h2b_lower": 0.055944055944055944,
+   "h2b_upper": 0.972027972027972,
+   "note": "descriptive; no verdict"
+  },
+  "canonicalization": {
+   "comparisons_canonicalized": 0,
+   "comparisons_representation_unresolved": 0,
+   "repeated_pairs_with_one": 0,
+   "note": "no meta-analysis row has an expansion (reference/meta_analysis_expansions_v2.csv)"
+  }
+ },
+ "count_and_size": {
+  "count_only_candidate_mappings": {
+   "mentions_with_no_decisive_rule": 590,
+   "strict": {
+    "equal_to_exactly_one_release": 0,
+    "equal_to_several": 0
+   },
+   "compatible": {
+    "equal_to_exactly_one_release": 26,
+    "equal_to_several": 3
+   },
+   "mentions_with_any_count_match": 29
+  },
+  "size_inferred_candidates": 13,
+  "size_candidates_by_verification": {
+   "attribution_confirmed_by_the_author": 1,
+   "attribution_rejected": 0,
+   "script_only_unseen_by_the_author": 11,
+   "seen_without_the_question_answered": 1
+  },
+  "amendment5_labels": {
+   "not explicitly identified under the registered rules": 571,
+   "explicitly identified": 67,
+   "conflicting identifiers": 6,
+   "  of which size_ambiguous": 2,
+   "size-inferred candidate": 13
+  }
+ },
+ "secondary": {
+  "SA1": {
+   "B": "void (made under the first registration; second registration item 4)",
+   "A_to_C_pair_classes": {
+    "h2": {
+     "known_not_identical -> known_not_identical": 9,
+     "known_not_identical -> unresolved": 2,
+     "unresolved -> known_not_identical": 14,
+     "unresolved -> unresolved": 220
+    },
+    "h2b": {
+     "known_not_overlapping -> known_not_overlapping": 5,
+     "known_overlapping -> known_overlapping": 8,
+     "unresolved -> known_not_overlapping": 6,
+     "unresolved -> unresolved": 226
+    }
+   },
+   "A_to_C_rows": {
+    "resolved -> resolved": 4,
+    "resolved -> unresolved": 5,
+    "unresolved -> resolved": 52,
+    "unresolved -> unresolved": 596
+   },
+   "note": "A: Paper 1's registered result; C: this registration's stage A"
+  },
+  "SA2": {
+   "comparisons": 566,
+   "raw": {
+    "disjoint|unclear": 17,
+    "identical_release|unclear": 1,
+    "overlapping_participant_source|overlapping_participant_source": 8,
+    "overlapping_participant_source|unclear": 28,
+    "unclear|disjoint": 1,
+    "unclear|identical_release": 5,
+    "unclear|overlapping_participant_source": 16,
+    "unclear|unclear": 490
+   },
+   "pair_weighted": {
+    "disjoint|unclear": 4.1357,
+    "identical_release|unclear": 0.0357,
+    "overlapping_participant_source|overlapping_participant_source": 8.0,
+    "overlapping_participant_source|unclear": 12.0754,
+    "unclear|disjoint": 0.3333,
+    "unclear|identical_release": 5.0,
+    "unclear|overlapping_participant_source": 10.0278,
+    "unclear|unclear": 205.3921
+   },
+   "note": "pQTL-side class | outcome-side class; no cell is called replication"
+  },
+  "SA3": {
+   "rows": {
+    "attribution_unresolved": 186,
+    "conflicting_identifiers": 6,
+    "dataset_absent_from_dictionary": 136,
+    "no_source": 141,
+    "not_accepted": 35,
+    "release_not_identified": 476,
+    "source_unreadable": 3
+   },
+   "unresolved_rows": 601,
+   "h2": {
+    "unresolved_pairs": 222,
+    "affected": {
+     "attribution_unresolved": 124,
+     "conflicting_identifiers": 11,
+     "dataset_absent_from_dictionary": 127,
+     "no_source": 87,
+     "not_accepted": 46,
+     "release_not_identified": 222,
+     "source_unreadable": 4
+    },
+    "only_blocker": {
+     "release_not_identified": 27
+    },
+    "several_blockers": 195
+   },
+   "h2b": {
+    "unresolved_pairs": 226,
+    "affected": {
+     "attribution_unresolved": 130,
+     "conflicting_identifiers": 11,
+     "dataset_absent_from_dictionary": 133,
+     "no_source": 91,
+     "not_accepted": 49,
+     "release_not_identified": 226,
+     "source_unreadable": 4
+    },
+    "only_blocker": {
+     "release_not_identified": 20
+    },
+    "several_blockers": 206
+   }
+  },
+  "SA4": {
+   "resolved_rows": 56,
+   "passages_by_type_and_location": {
+    "citation_or_source_doi|main_text": 24,
+    "numbered_release|abstract": 7,
+    "numbered_release|main_text": 33,
+    "repository_accession|abstract": 2,
+    "repository_accession|main_text": 8
+   },
+   "rows_with_several_agreeing_types": 1,
+   "supplement": 0
+  },
+  "SA5": {
+   "claim_records": {
+    "unresolved": 704,
+    "disjoint": 11,
+    "shared_participant_source": 8
+   },
+   "families_on_pairs": {
+    "any_record_unresolved": 581,
+    "all_records_disjoint": 8,
+    "all_records_sharing": 6
+   },
+   "repeated_pairs_with_a_family_in_class": {
+    "all_records_sharing": 6,
+    "all_records_disjoint": 8,
+    "any_record_unresolved": 245
+   }
+  },
+  "SA6": {
+   "2019": {
+    "rows": 7,
+    "rows_identified": 0,
+    "share": 0.0,
+    "wilson95": [
+     0.0,
+     0.3543
+    ],
+    "papers": 3,
+    "papers_all_rows_identified": 0,
+    "papers_share": 0.0,
+    "papers_wilson95": [
+     0.0,
+     0.5615
+    ]
+   },
+   "2020": {
+    "rows": 4,
+    "rows_identified": 0,
+    "share": 0.0,
+    "wilson95": [
+     0.0,
+     0.4899
+    ],
+    "papers": 2,
+    "papers_all_rows_identified": 0,
+    "papers_share": 0.0,
+    "papers_wilson95": [
+     0.0,
+     0.6576
+    ]
+   },
+   "2021": {
+    "rows": 19,
+    "rows_identified": 0,
+    "share": 0.0,
+    "wilson95": [
+     0.0,
+     0.1682
+    ],
+    "papers": 9,
+    "papers_all_rows_identified": 0,
+    "papers_share": 0.0,
+    "papers_wilson95": [
+     0.0,
+     0.2991
+    ]
+   },
+   "2022": {
+    "rows": 20,
+    "rows_identified": 2,
+    "share": 0.1,
+    "wilson95": [
+     0.0279,
+     0.301
+    ],
+    "papers": 8,
+    "papers_all_rows_identified": 0,
+    "papers_share": 0.0,
+    "papers_wilson95": [
+     0.0,
+     0.3244
+    ]
+   },
+   "2023": {
+    "rows": 91,
+    "rows_identified": 10,
+    "share": 0.1099,
+    "wilson95": [
+     0.0608,
+     0.1906
+    ],
+    "papers": 39,
+    "papers_all_rows_identified": 1,
+    "papers_share": 0.0256,
+    "papers_wilson95": [
+     0.0045,
+     0.1318
+    ]
+   },
+   "2024": {
+    "rows": 215,
+    "rows_identified": 13,
+    "share": 0.0605,
+    "wilson95": [
+     0.0357,
+     0.1007
+    ],
+    "papers": 88,
+    "papers_all_rows_identified": 0,
+    "papers_share": 0.0,
+    "papers_wilson95": [
+     0.0,
+     0.0418
+    ]
+   },
+   "2025": {
+    "rows": 301,
+    "rows_identified": 31,
+    "share": 0.103,
+    "wilson95": [
+     0.0735,
+     0.1425
+    ],
+    "papers": 117,
+    "papers_all_rows_identified": 1,
+    "papers_share": 0.0085,
+    "papers_wilson95": [
+     0.0015,
+     0.0468
+    ]
+   },
+   "abstract_alone_B": "void",
+   "outside_window": {}
+  },
+  "SA7": {
+   "papers_with_an_eligible_source": 204,
+   "papers_with_no_eligible_source": 62,
+   "any_link": 61,
+   "availability_section_link": 17
+  },
+  "SA8": {
+   "rows_by_level": {
+    "L2 one candidate in the frozen dictionary": 47,
+    "L3 several candidates in the frozen dictionary": 109,
+    "L5 no dataset named": 141,
+    "L4 dataset outside the dictionary": 136,
+    "name status undetermined": 162,
+    "L1 release identified": 56,
+    "conflict": 6
+   },
+   "attribution_unresolved_by_level": {
+    "L2 one candidate in the frozen dictionary": 5,
+    "L3 several candidates in the frozen dictionary": 10,
+    "L5 no dataset named": 132,
+    "L4 dataset outside the dictionary": 30,
+    "name status undetermined": 9
+   },
+   "repeated_pairs_holding_a_row_at_level": {
+    "L3 several candidates in the frozen dictionary": 123,
+    "L2 one candidate in the frozen dictionary": 73,
+    "L5 no dataset named": 120,
+    "name status undetermined": 168,
+    "L1 release identified": 85,
+    "L4 dataset outside the dictionary": 141,
+    "conflict": 11
+   }
+  },
+  "SA9": "not run: the recovery pass needs agent or model requests; none were made"
+ },
+ "inputs_sha256": {
+  "outputs/control_set_2026-10-20.json": "1caf9031270677eb88c7912933c1a7efaeba7caa54f1ff0d5184a31181716b23",
+  "outputs/control_validity_2026-10-20.json": "a6e0efc6b7f2cce5f2c41b4a8255179867ea84ca19bdff6f1ae526ae614bcd75",
+  "outputs/manifest_mapping_check_v2_2026-10-20.json": "9a860f6037823dfee34bcb04ade45b853fd44bed60908b6c7fcf4968df9cf330",
+  "outputs/stage_a_calibration_2026-10-21.json": "98d9a6ddefe462334f8c7496e43ac61a71faee68685c40d2072e1148220cf086",
+  "outputs/stage_a_accepted_codes_2026-10-21.json": "5fdfcd66702821d65c32ff42d7c43be6e20e22096cc486293a829cc4a739d054",
+  "outputs/stage_a_c1_2026-10-21.json": "598bce49c14583177290044b7a5f818762527a8e4e1144b28277bd9858890dbf",
+  "outputs/stage_b_decision_2026-10-21.json": "a5b04482dfbc9bd467c1194dff3423a3c2479567e4c9b8c5d70fe7af6cf99676",
+  "outputs/stage_a_estimates_2026-10-21.json": "02e0fb82a0ced8df5a715bc61a11ba5ce6059f582a1f717c5e9eff0e0ce7808e",
+  "outputs/stage_a_indices_2026-10-21.json": "3ca6ef2ea5822930ecf7d16b256a3b94b053cceecb36539b08a6c2751bf39cb3",
+  "outputs/stage_a_sensitivity_counts_sizes_2026-10-21.json": "265dc79dc9b7f4d1791c37834286ddee3f2b6f9f07a0f383a7984cf685585d87",
+  "outputs/stage_a_secondary_2026-10-21.json": "58ffcd1709aecdc5bd5288f2cd6c9aa95c3cb2e51b235b77c86ffe24a7961a80"
+ }
+}
