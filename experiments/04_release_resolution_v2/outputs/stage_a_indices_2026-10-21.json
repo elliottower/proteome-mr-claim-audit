@@ -1,0 +1,316 @@
+{
+ "script": "scripts/estimands_v1.py",
+ "inputs_sha256": {
+  "volume:04_release_resolution_v2/coding/accepted/stage_a.json": "b64373bf8fdb0627db69ab02822aa431dc68e17b753a08ea4c2509685e89ab62",
+  "volume:04_release_resolution_v2/packets/stage_a/manifest.json": "f14cb3512490a59481e2a93b7fb035064591f59140449efb767aa3c30d9c639c",
+  "../02_claims_meta/outputs/registry/2026-10-03_amended_primary_coded_a/registry_claims.jsonl": "b5ef8c2a7f96a194fea1a1424dc6533060a053fddcb9c0ec1d350c4d38ce492c",
+  "../02_claims_meta/outputs/registry/2026-10-03_amended_primary_coded_a/registry_claims_without_manual_coding.jsonl": "a227cd21336b90ac7098a82279c35eb6101033bfc4cde2d902deebb7576c31ec",
+  "../02_claims_meta/outputs/registry/2026-10-03_amended_primary_coded_a/record_metadata.jsonl": "dfd12a0f285b47637c517d3a91649d269d4d3992731ee4c9ca9c76c8bc3b0a3c",
+  "../02_claims_meta/outputs/registry/2026-10-03_amended_primary_coded_a/record_dates.json": "a4056e9d1cee7b2837fa8966862f64c0ca9b924088c08387bc3e327fbebcd483",
+  "../02_claims_meta/outputs/registry/2026-10-03_registered_with_27_coded_a/registry_claims.jsonl": "faba35bd4cbe135f56761d2eec7d6ff92d446d1c6bef149615afda7f1f5de381",
+  "../02_claims_meta/outputs/registry/2026-10-03_registered_with_27_coded_a/registry_claims_without_manual_coding.jsonl": "911ff939c9519a8520a10f2fceedfa35325fc88a0378f386f5ed6a1f328bac23",
+  "../02_claims_meta/verification/pqtl_row_attributes.csv": "66d71cf132b80d91bf6be4bd03db9c8b57789c5eae042213a4e7729cf5531d0b",
+  "../02_claims_meta/dataset_dictionary.csv": "f30dda8e00f8bbc6c43e31e80b38935c7d4f0d3916f33b2e776cabc14fb0d39c",
+  "../02_claims_meta/verification/dataset_components.csv": "b82a8ce799626ec054f6e79513f6b6af9af24e3f5de36ea6f9096911de85a591",
+  "../03_release_resolution/reference/meta_analysis_expansions_omitted_v2.csv": "f3ed4b47dfe64591b2ccba4828657236c73c0edfefdcd72580835d435e7ec5c0"
+ },
+ "mentions": 657,
+ "full_text_resolution_yield": {
+  "mentions_unresolved_from_the_abstract": 648,
+  "resolved_here": 52,
+  "by_side": {
+   "pqtl": {
+    "unresolved_from_the_abstract": 308,
+    "resolved_here": 11
+   },
+   "outcome": {
+    "unresolved_from_the_abstract": 340,
+    "resolved_here": 41
+   }
+  },
+  "by_abstract_state": {
+   "not_stated": {
+    "mentions": 402,
+    "resolved_here": 20
+   },
+   "release_ambiguous": {
+    "mentions": 146,
+    "resolved_here": 22
+   },
+   "unmatched": {
+    "mentions": 100,
+    "resolved_here": 10
+   }
+  }
+ },
+ "incremental_yield_by_source": {
+  "resolved_mentions": 56,
+  "abstract_only": 3,
+  "both": 6,
+  "full_text_only": 47,
+  "supplement": 0
+ },
+ "abstract_to_full_text_transitions": {
+  "mentions_the_abstract_resolves_to_one_release_with_an_eligible_source": 7,
+  "confirmed": 3,
+  "contradicted": 1,
+  "none": 3
+ },
+ "accessibility_stratified_resolution": {
+  "R1": {
+   "mentions": 386,
+   "resolved": 35
+  },
+  "R3": {
+   "mentions": 124,
+   "resolved": 18
+  },
+  "none": {
+   "mentions": 147,
+   "resolved": 3
+  },
+  "R2 present": {
+   "mentions": 0,
+   "resolved": 0
+  }
+ },
+ "no_source_rows": 144,
+ "attribution_transitions": {
+  "claim_records_unclear_in_paper1": 90,
+  "unclear_to_resolved": 51,
+  "still_unclear": 39,
+  "repeated_pairs_held_by_unclear_records": 47,
+  "repeated_pairs_held_by_records_still_unclear": 26
+ },
+ "agreement_with_paper1_codes": {
+  "mentions": 69,
+  "unresolved_here": 52,
+  "same_row": 17
+ },
+ "pair_movement": {
+  "h2": {
+   "known_not_identical -> known_not_identical": 9,
+   "known_not_identical -> unresolved": 2,
+   "unresolved -> known_not_identical": 14,
+   "unresolved -> unresolved": 220
+  },
+  "h2b": {
+   "known_not_overlapping -> known_not_overlapping": 5,
+   "known_overlapping -> known_overlapping": 8,
+   "unresolved -> known_not_overlapping": 6,
+   "unresolved -> unresolved": 226
+  }
+ },
+ "fully_accessible_pairs": {
+  "pairs": 143,
+  "h2": {
+   "unresolved": 131,
+   "known_not_identical": 12
+  },
+  "h2b": {
+   "unresolved": 131,
+   "known_overlapping": 8,
+   "known_not_overlapping": 4
+  },
+  "h2_lower": 0.0,
+  "h2_upper": 0.916083916083916,
+  "h2b_lower": 0.055944055944055944,
+  "h2b_upper": 0.972027972027972,
+  "note": "descriptive; no verdict"
+ },
+ "pairs_unresolved_for_want_of_a_source": {
+  "pairs": 20,
+  "unresolved_pairs": 222,
+  "definition": "H2-unresolved pairs whose every unresolved mention comes from a record with no eligible source other than the abstract"
+ },
+ "source_availability": {
+  "papers": 266,
+  "with_an_eligible_source": 204,
+  "year": {
+   "2019|abstract_only": 2,
+   "2019|eligible_source": 1,
+   "2020|abstract_only": 1,
+   "2020|eligible_source": 1,
+   "2021|abstract_only": 2,
+   "2021|eligible_source": 5,
+   "2022|abstract_only": 1,
+   "2022|eligible_source": 8,
+   "2023|abstract_only": 6,
+   "2023|eligible_source": 30,
+   "2024|abstract_only": 19,
+   "2024|eligible_source": 66,
+   "2025|abstract_only": 31,
+   "2025|eligible_source": 91,
+   "2026|eligible_source": 2
+  },
+  "journal": {
+   "Aging|eligible_source": 1,
+   "Alzheimer s & Dementia|abstract_only": 6,
+   "Alzheimer's & dementia (Amsterdam, Netherlands)|eligible_source": 1,
+   "Alzheimer's research & therapy|eligible_source": 1,
+   "Annals of the New York Academy of Sciences|abstract_only": 1,
+   "Archives of dermatological research|abstract_only": 1,
+   "Arteriosclerosis, thrombosis, and vascular biology|eligible_source": 1,
+   "Arthritis & rheumatology (Hoboken, N.J.)|eligible_source": 1,
+   "Atherosclerosis|abstract_only": 1,
+   "Autoimmunity|abstract_only": 1,
+   "BMC cancer|eligible_source": 2,
+   "BMC genomics|eligible_source": 1,
+   "BMC medicine|eligible_source": 2,
+   "BMC neurology|eligible_source": 1,
+   "BMC pulmonary medicine|eligible_source": 1,
+   "Behavior genetics|eligible_source": 1,
+   "Beijing da xue xue bao. Yi xue ban = Journal of Peking University. Health sciences|eligible_source": 1,
+   "Biological psychiatry|eligible_source": 1,
+   "Biological research|eligible_source": 1,
+   "Biomedicines|eligible_source": 2,
+   "Bone & joint research|eligible_source": 1,
+   "Brain : a journal of neurology|eligible_source": 2,
+   "Brain and behavior|eligible_source": 1,
+   "Brain, behavior, and immunity|eligible_source": 1,
+   "British journal of cancer|eligible_source": 1,
+   "Cancer research|eligible_source": 1,
+   "Cardiology Research and Cardiovascular Medicine|eligible_source": 1,
+   "Cardiovascular Research|abstract_only": 1,
+   "Cardiovascular drugs and therapy|eligible_source": 1,
+   "Cardiovascular research|eligible_source": 1,
+   "Cardiovascular therapeutics|eligible_source": 1,
+   "Cell genomics|eligible_source": 1,
+   "Circulation. Arrhythmia and electrophysiology|abstract_only": 1,
+   "Circulation. Genomic and precision medicine|eligible_source": 2,
+   "Circulation|abstract_only": 1,
+   "Circulation|eligible_source": 1,
+   "Clinical and translational allergy|eligible_source": 1,
+   "Clinical proteomics|eligible_source": 2,
+   "Clinical, cosmetic and investigational dermatology|eligible_source": 1,
+   "Cytokine|eligible_source": 1,
+   "DOAJ (DOAJ: Directory of Open Access Journals)|abstract_only": 1,
+   "Diabetes care|abstract_only": 2,
+   "Diabetes care|eligible_source": 1,
+   "Diabetes, metabolic syndrome and obesity : targets and therapy|eligible_source": 1,
+   "Diabetes, obesity & metabolism|eligible_source": 1,
+   "Diabetes|abstract_only": 1,
+   "Diabetes|eligible_source": 1,
+   "Diabetic medicine : a journal of the British Diabetic Association|abstract_only": 1,
+   "Diabetologia|eligible_source": 1,
+   "Diabetology & metabolic syndrome|eligible_source": 1,
+   "Discover oncology|eligible_source": 3,
+   "Discovery Medicine|abstract_only": 1,
+   "EBioMedicine|eligible_source": 1,
+   "Environmental toxicology|abstract_only": 1,
+   "Europace : European pacing, arrhythmias, and cardiac electrophysiology : journal of the working groups on cardiac pacing, arrhythmias, and cardiac cellular electrophysiology of the European Society of Cardiology|eligible_source": 1,
+   "European heart journal|eligible_source": 1,
+   "European journal of pharmacology|abstract_only": 2,
+   "Experimental gerontology|eligible_source": 2,
+   "Frontiers in aging neuroscience|eligible_source": 1,
+   "Frontiers in cardiovascular medicine|eligible_source": 1,
+   "Frontiers in endocrinology|eligible_source": 6,
+   "Frontiers in genetics|eligible_source": 1,
+   "Frontiers in immunology|eligible_source": 3,
+   "Frontiers in medicine|eligible_source": 1,
+   "Frontiers in microbiology|eligible_source": 1,
+   "Frontiers in molecular biosciences|eligible_source": 1,
+   "Frontiers in neurology|eligible_source": 3,
+   "Frontiers in oncology|eligible_source": 3,
+   "Frontiers in pharmacology|eligible_source": 1,
+   "Genome medicine|eligible_source": 3,
+   "Heliyon|eligible_source": 3,
+   "Hereditas|eligible_source": 1,
+   "Human genetics|abstract_only": 1,
+   "Human genomics|eligible_source": 1,
+   "Inflammation research : official journal of the European Histamine Research Society ... [et al.]|abstract_only": 1,
+   "International Journal of Clinical and Experimental Medicine|eligible_source": 1,
+   "International archives of allergy and immunology|abstract_only": 2,
+   "International journal of biological macromolecules|abstract_only": 1,
+   "International journal of epidemiology|eligible_source": 1,
+   "International journal of molecular sciences|eligible_source": 3,
+   "International journal of obesity (2005)|abstract_only": 1,
+   "International journal of ophthalmology|abstract_only": 1,
+   "International journal of ophthalmology|eligible_source": 1,
+   "International journal of rheumatic diseases|abstract_only": 1,
+   "International journal of surgery (London, England)|eligible_source": 2,
+   "Investigative ophthalmology & visual science|eligible_source": 1,
+   "Journal of Alzheimer's disease : JAD|abstract_only": 2,
+   "Journal of Alzheimer's disease reports|eligible_source": 2,
+   "Journal of Cancer|eligible_source": 1,
+   "Journal of Crohn's & colitis|eligible_source": 1,
+   "Journal of affective disorders|abstract_only": 2,
+   "Journal of cosmetic dermatology|eligible_source": 1,
+   "Journal of diabetes investigation|eligible_source": 1,
+   "Journal of human genetics|eligible_source": 1,
+   "Journal of immunology research|eligible_source": 1,
+   "Journal of inflammation research|eligible_source": 2,
+   "Journal of pain research|eligible_source": 1,
+   "Journal of pharmaceutical and biomedical analysis|abstract_only": 1,
+   "Journal of the American Heart Association|eligible_source": 4,
+   "Journal of the American Society of Nephrology : JASN|eligible_source": 1,
+   "Journal of the American Society of Nephrology|abstract_only": 1,
+   "Journal of the Endocrine Society|abstract_only": 1,
+   "Journal of thoracic disease|eligible_source": 1,
+   "Journal of thrombosis and haemostasis : JTH|eligible_source": 1,
+   "Journal of translational autoimmunity|eligible_source": 1,
+   "Journal of translational medicine|eligible_source": 7,
+   "Kidney international|abstract_only": 1,
+   "Medicine|eligible_source": 9,
+   "Molecular neurobiology|abstract_only": 3,
+   "Molecular psychiatry|abstract_only": 2,
+   "NPJ Parkinson's disease|eligible_source": 1,
+   "Nature cardiovascular research|eligible_source": 1,
+   "Nature communications|eligible_source": 6,
+   "Nature genetics|eligible_source": 1,
+   "Nature metabolism|eligible_source": 1,
+   "Naunyn-Schmiedeberg's archives of pharmacology|abstract_only": 1,
+   "Neurological research|abstract_only": 1,
+   "Neurology|eligible_source": 1,
+   "PLoS computational biology|eligible_source": 1,
+   "PloS one|eligible_source": 4,
+   "Postgraduate medical journal|abstract_only": 1,
+   "Psoriasis (Auckland, N.Z.)|eligible_source": 2,
+   "Renal failure|eligible_source": 1,
+   "Research Square|eligible_source": 16,
+   "Respiratory research|eligible_source": 1,
+   "Scientific reports|eligible_source": 12,
+   "Shock (Augusta, Ga.)|abstract_only": 1,
+   "The American journal of clinical nutrition|abstract_only": 1,
+   "The European respiratory journal|eligible_source": 1,
+   "The Journal of clinical endocrinology and metabolism|abstract_only": 1,
+   "The Lancet regional health. Southeast Asia|eligible_source": 1,
+   "The journal of gene medicine|abstract_only": 1,
+   "Therapeutic advances in endocrinology and metabolism|eligible_source": 1,
+   "Thorax|abstract_only": 1,
+   "Thrombosis journal|eligible_source": 1,
+   "Translational psychiatry|eligible_source": 1,
+   "Translational vision science & technology|eligible_source": 1,
+   "Urolithiasis|abstract_only": 2,
+   "World journal of diabetes|eligible_source": 1,
+   "Zenodo (CERN European Organization for Nuclear Research)|abstract_only": 1,
+   "arXiv (Cornell University)|eligible_source": 1,
+   "eLife|eligible_source": 5,
+   "iScience|eligible_source": 1,
+   "medRxiv : the preprint server for health sciences|abstract_only": 1,
+   "medRxiv : the preprint server for health sciences|eligible_source": 5,
+   "medRxiv|abstract_only": 4,
+   "medRxiv|eligible_source": 10,
+   "npj metabolic health and disease|eligible_source": 1,
+   "unknown|abstract_only": 3
+  },
+  "document_class": {
+   "journal|abstract_only": 54,
+   "journal|eligible_source": 171,
+   "preprint|abstract_only": 8,
+   "preprint|eligible_source": 33
+  },
+  "proteomic_assay_platform": {
+   "mixed|eligible_source": 3,
+   "not_stated|abstract_only": 62,
+   "not_stated|eligible_source": 195,
+   "somascan|eligible_source": 6
+  }
+ },
+ "canonicalization": {
+  "comparisons_canonicalized": 0,
+  "comparisons_representation_unresolved": 0,
+  "repeated_pairs_with_one": 0,
+  "note": "no meta-analysis row has an expansion (reference/meta_analysis_expansions_v2.csv)"
+ }
+}
