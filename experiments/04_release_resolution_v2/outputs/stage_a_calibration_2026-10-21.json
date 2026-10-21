@@ -1,0 +1,128 @@
+{
+ "script": "scripts/calibration_stage_a_v1.py (scorer sa1_calibration_v1.score)",
+ "inputs": {
+  "marks_sha256": "7a27328ba6df34a5aa76176ca633def350d866fdaf2fd75814db64ebce375a87",
+  "saved_at": "2026-10-21T16:58:24.974Z",
+  "page": "stage_a_v2_author_page",
+  "page_key_sha256": "4785c6dfacc8808011ac6c33cd26dfc420c40a3495447a01d5074ca934292c5f",
+  "outputs/stage_a_routing_2026-10-20.json": "4e817b51eab215e52403e7e9970deaf992b273432cb815ed5d43ee88d1802e5a",
+  "judges_stored_results_sha256": {
+   "claude-fable-5-1/51e05c59af41": "74e0d6b9eba06455a5ea2f206672281e4892a1e0f2d57b7801b7b3001dcc643a",
+   "gpt-6-astra/51e05c59af41": "1740b8a8c649183d5122d88d2c418d33703a1547955f37470fdb7865093d3925",
+   "claude-fable-5-1/b665c82e70ff": "2b3010192e923ec66da85ed3fab20797c8a0f92ef69a82a668a199033e19c59d",
+   "gpt-6-astra/b665c82e70ff": "b27cf5f97da434208556c3719bacd1cff3b1e7287aff02583d2ecc186ad95f3d",
+   "claude-fable-5-1/820e99772f92": "bc0a4aa635928b19566ae3a2aecd9aa525a8691a47048b713f4815babaf9199b",
+   "gpt-6-astra/820e99772f92": "134b81494767f62bfdc8f8d673bd68a4e2bf858a62df2e6a349438ed9ed1d6cb",
+   "claude-fable-5-1/855b559eaf37": "9e0ed72a06a65c9010a61641119e06192d1bb90276a1214c2ea1b1aad888c68d",
+   "gpt-6-astra/855b559eaf37": "775d7b00c7a6b73d024d1d0ca10e7bf8103a703d19b7cd5ee9b2aae5c2079541",
+   "claude-fable-5-1/c5cc9283828c": "c5cf581091d1037826a6aa28d0d73f63624f67519b830c027433326ec9a03c33",
+   "gpt-6-astra/c5cc9283828c": "f7959bb6c98255d2fae198b0725803b185b676187c3abdf7122f7c908a4f00dc",
+   "claude-fable-5-1/0fbc3367399a": "61a342fbe745e1dce8b6cbac4594b946276ddf7bdd1bdbc78b24e20173e354e0",
+   "gpt-6-astra/0fbc3367399a": "2f60469ce25c70a5de3fa4fe73318d18e2ef1c7f8682da17d9514b5007a5ec3a",
+   "claude-fable-5-1/01b75c861ddc": "7ccd81c4f915c48d33291a3c7a84790bd4c3068a281b984d8e477b877fdf40c4",
+   "gpt-6-astra/01b75c861ddc": "92fa88d1e6230984e7737d203a733919f9baad5fd6598d0a940bee6b319df705",
+   "claude-fable-5-1/85f732841edf": "e2be5d38f84b435d36012b8cc1c8d085f6bee9de990cee4440c14cfd9aaa04ec",
+   "gpt-6-astra/85f732841edf": "61b57997601cc0eb0765ad2db91ac5ec0e4b3bdac10e16c97f10b7124c8bd901",
+   "claude-fable-5-1/40884b2e249d": "13dfbdc64b8661465df359c9877b09a40fde44f59f6e68c0ab21b72943b2be06",
+   "gpt-6-astra/40884b2e249d": "de256e413e0fe86d9a3621187fce01dc3170977ffdc97ad3dea3246fbfd2d4b5",
+   "claude-fable-5-1/27c842ccf6cb": "8b79b8dee6ab89f4858867fe4280b0624899506286eb857a0d6fd143340b6d7b",
+   "gpt-6-astra/27c842ccf6cb": "f189ae5345c81a186a30a56e18b669b016f18266be11ff2a2c59b962e1c2fd96",
+   "claude-fable-5-1/929813964d99": "be0438f328af208321f5f65eced084f3be01dafc396a5880d42422f1148ec96f",
+   "gpt-6-astra/929813964d99": "56ff0620b5ff8f9da382ecc808fe9d49dbbf18e117067f4e81f55de1938e1e0e",
+   "claude-fable-5-1/88e27ac66f35": "4dbd47d33388b56f422c60b3b4c689c616d058f6e420032ebe451b10771cc940",
+   "gpt-6-astra/88e27ac66f35": "188271d8006e01a5269346452abeaebbb383022a0e69b001bb1256a782d701eb",
+   "claude-fable-5-1/974c3e03da22": "5e94ba71dabc2207a7fdac6576ea89bd28e90383d779b901e4044ebf4035e7b8",
+   "gpt-6-astra/974c3e03da22": "979f7d06bdb2793b9054fac5a3236b8a6ee1d7f7c12c640909c13d6a843a93b0",
+   "claude-fable-5-1/6f9e3b129ee3": "96ddb67a667a1c44715587f8fcc4a73cf24dbab3e5edd64d1299b22a91bbf479",
+   "gpt-6-astra/6f9e3b129ee3": "3778640d034dfa3f486556a9a28a684badfcc4403e54e22e2484de8e3f825d75",
+   "claude-fable-5-1/54cbefe9aa84": "048c89ffa5a4acfc8d4961e97e1ccffcca0664b2d8c92391c11c782c3095a526",
+   "gpt-6-astra/54cbefe9aa84": "2fedb811b0acb9ac7b2e70696568e0b5a86b547dd1ac4b8bcc1a7f2d0ff04b04",
+   "claude-fable-5-1/282c5f890968": "283a958643f9643c2549c34b6540f808ca297475f068bccfa1debe3a9db25bbc",
+   "gpt-6-astra/282c5f890968": "804cb58e57a1c46c8c16f86b5a1b6276822ef98821ba2297b6d65b4ea245ac91",
+   "claude-fable-5-1/1fe050ac5a4b": "60e466c851513d827e6b8125052f348939039af10ff9b7c338877a29a77f4501",
+   "gpt-6-astra/1fe050ac5a4b": "c7d90bef104b27c208fd2f651ef6e2286954d49130c5e9499d5de7043f89472a",
+   "claude-fable-5-1/7153c7fb714c": "622e2730c05f64d1a6f1e3c97268a7043f9cf4a350a4521db88f69b9fedf7407",
+   "gpt-6-astra/7153c7fb714c": "87b0684f552d2d30e7054c505d34414ab384262564a93ee5fc89d70be3b6b6ac",
+   "claude-fable-5-1/66a2f9adb1fb": "daaafa2d2639e99279a234d1bb49f69dd9a28ee617ea8b78719e07a9c33e2ef8",
+   "gpt-6-astra/66a2f9adb1fb": "04d43e2aa813f8ef71aeabcdfa4b6878372bb71274cf1c5171281dfe61d66661",
+   "claude-fable-5-1/357860066eab": "1a623a7970ae756e636cd80db1e9338a7e7ec8acec166b61dbdb1297b09b202e",
+   "gpt-6-astra/357860066eab": "d8722021dbb972ddd997fc3ee4fb4a97cb4c1e22d2be97805039f16e5ced8852",
+   "claude-fable-5-1/521ced4aec2b": "920a7d01a5a5863b3d1fac2988e20594077e171822280f077282dcc5d5183387",
+   "gpt-6-astra/521ced4aec2b": "d6ba7ab52fc9eb163d0c483ea56f2ed30362d81cdef94db7498755a6d5aa4659",
+   "claude-fable-5-1/7666b4004324": "ebcdd2967960ca2811e4a32608a619c437647d887bd06b53dd0f2673499ed76e",
+   "gpt-6-astra/7666b4004324": "1cf7f385b5e6241fff33134beadff92055e304c30eb5afa8d9a0a9f5e92634c0"
+  }
+ },
+ "seeds": {
+  "disagreement": 20261038,
+  "audit": 20261039,
+  "page": 20261041,
+  "answer_order": 20261035
+ },
+ "tasks": {
+  "disagreement": {
+   "seed": 20261038,
+   "lone": 2,
+   "routed": 52,
+   "rows": 2,
+   "differences": 0,
+   "agreements": 2,
+   "agreement": 1.0,
+   "agreement_ci95_exact": [
+    0.1581,
+    1.0
+   ],
+   "verdict": "pass",
+   "differing_row_ids": []
+  },
+  "audit": {
+   "seed": 20261039,
+   "lone": 41,
+   "routed": 28,
+   "rows": 20,
+   "differences": 0,
+   "agreements": 20,
+   "agreement": 1.0,
+   "agreement_ci95_exact": [
+    0.8316,
+    1.0
+   ],
+   "verdict": "pass",
+   "differing_row_ids": []
+  }
+ },
+ "stop_for_next_20": false,
+ "consequences": {
+  "disagreement_lone_decisions": "stand",
+  "disagreement_lone_count": 2,
+  "audit_judge_decisions": "stand",
+  "audit_sample": 69,
+  "routed_audit_rows_final_by_author": 28,
+  "routed_audit_marks": {
+   "correct": 28,
+   "substantive_error": 0,
+   "other_issue": 0
+  }
+ },
+ "escalation": {
+  "audit_rows_marked_by_author": 48,
+  "author_substantive_errors": 0,
+  "threshold": 2,
+  "triggered": false,
+  "complete": true,
+  "note": "the rule is applied to the author's marks above"
+ },
+ "marks": {
+  "rows": 102,
+  "entered_before_aids": 0,
+  "changed_after_aids_from_a_pre_aid_mark": 0,
+  "by_choice": {
+   "answer_1": 26,
+   "answer_2": 25,
+   "neither": 3,
+   "correct": 48,
+   "substantive_error": 0,
+   "other_issue": 0
+  }
+ }
+}
