@@ -1,0 +1,330 @@
+{
+ "script": "scripts/secondary_v1.py",
+ "inputs_sha256": {
+  "volume:04_release_resolution_v2/coding/accepted/stage_a.json": "b64373bf8fdb0627db69ab02822aa431dc68e17b753a08ea4c2509685e89ab62",
+  "marks_sha256": "7a27328ba6df34a5aa76176ca633def350d866fdaf2fd75814db64ebce375a87",
+  "../03_release_resolution/reference/release_counts.csv": "b57fa5aaf7d68664973263a984186304ac60fecf8074d5ff4c69c9c79de1b753"
+ },
+ "sa1": {
+  "B": "void (made under the first registration; second registration item 4)",
+  "A_to_C_pair_classes": {
+   "h2": {
+    "known_not_identical -> known_not_identical": 9,
+    "known_not_identical -> unresolved": 2,
+    "unresolved -> known_not_identical": 14,
+    "unresolved -> unresolved": 220
+   },
+   "h2b": {
+    "known_not_overlapping -> known_not_overlapping": 5,
+    "known_overlapping -> known_overlapping": 8,
+    "unresolved -> known_not_overlapping": 6,
+    "unresolved -> unresolved": 226
+   }
+  },
+  "A_to_C_rows": {
+   "resolved -> resolved": 4,
+   "resolved -> unresolved": 5,
+   "unresolved -> resolved": 52,
+   "unresolved -> unresolved": 596
+  },
+  "note": "A: Paper 1's registered result; C: this registration's stage A"
+ },
+ "sa2": {
+  "comparisons": 566,
+  "raw": {
+   "disjoint|unclear": 17,
+   "identical_release|unclear": 1,
+   "overlapping_participant_source|overlapping_participant_source": 8,
+   "overlapping_participant_source|unclear": 28,
+   "unclear|disjoint": 1,
+   "unclear|identical_release": 5,
+   "unclear|overlapping_participant_source": 16,
+   "unclear|unclear": 490
+  },
+  "pair_weighted": {
+   "disjoint|unclear": 4.1357,
+   "identical_release|unclear": 0.0357,
+   "overlapping_participant_source|overlapping_participant_source": 8.0,
+   "overlapping_participant_source|unclear": 12.0754,
+   "unclear|disjoint": 0.3333,
+   "unclear|identical_release": 5.0,
+   "unclear|overlapping_participant_source": 10.0278,
+   "unclear|unclear": 205.3921
+  },
+  "note": "pQTL-side class | outcome-side class; no cell is called replication"
+ },
+ "sa3": {
+  "rows": {
+   "attribution_unresolved": 186,
+   "conflicting_identifiers": 6,
+   "dataset_absent_from_dictionary": 136,
+   "no_source": 141,
+   "not_accepted": 35,
+   "release_not_identified": 476,
+   "source_unreadable": 3
+  },
+  "unresolved_rows": 601,
+  "h2": {
+   "unresolved_pairs": 222,
+   "affected": {
+    "attribution_unresolved": 124,
+    "conflicting_identifiers": 11,
+    "dataset_absent_from_dictionary": 127,
+    "no_source": 87,
+    "not_accepted": 46,
+    "release_not_identified": 222,
+    "source_unreadable": 4
+   },
+   "only_blocker": {
+    "release_not_identified": 27
+   },
+   "several_blockers": 195
+  },
+  "h2b": {
+   "unresolved_pairs": 226,
+   "affected": {
+    "attribution_unresolved": 130,
+    "conflicting_identifiers": 11,
+    "dataset_absent_from_dictionary": 133,
+    "no_source": 91,
+    "not_accepted": 49,
+    "release_not_identified": 226,
+    "source_unreadable": 4
+   },
+   "only_blocker": {
+    "release_not_identified": 20
+   },
+   "several_blockers": 206
+  }
+ },
+ "sa4": {
+  "resolved_rows": 56,
+  "passages_by_type_and_location": {
+   "citation_or_source_doi|main_text": 24,
+   "numbered_release|abstract": 7,
+   "numbered_release|main_text": 33,
+   "repository_accession|abstract": 2,
+   "repository_accession|main_text": 8
+  },
+  "rows_with_several_agreeing_types": 1,
+  "supplement": 0
+ },
+ "sa5": {
+  "claim_records": {
+   "unresolved": 704,
+   "disjoint": 11,
+   "shared_participant_source": 8
+  },
+  "families_on_pairs": {
+   "any_record_unresolved": 581,
+   "all_records_disjoint": 8,
+   "all_records_sharing": 6
+  },
+  "repeated_pairs_with_a_family_in_class": {
+   "all_records_sharing": 6,
+   "all_records_disjoint": 8,
+   "any_record_unresolved": 245
+  }
+ },
+ "sa6": {
+  "2019": {
+   "rows": 7,
+   "rows_identified": 0,
+   "share": 0.0,
+   "wilson95": [
+    0.0,
+    0.3543
+   ],
+   "papers": 3,
+   "papers_all_rows_identified": 0,
+   "papers_share": 0.0,
+   "papers_wilson95": [
+    0.0,
+    0.5615
+   ]
+  },
+  "2020": {
+   "rows": 4,
+   "rows_identified": 0,
+   "share": 0.0,
+   "wilson95": [
+    0.0,
+    0.4899
+   ],
+   "papers": 2,
+   "papers_all_rows_identified": 0,
+   "papers_share": 0.0,
+   "papers_wilson95": [
+    0.0,
+    0.6576
+   ]
+  },
+  "2021": {
+   "rows": 19,
+   "rows_identified": 0,
+   "share": 0.0,
+   "wilson95": [
+    0.0,
+    0.1682
+   ],
+   "papers": 9,
+   "papers_all_rows_identified": 0,
+   "papers_share": 0.0,
+   "papers_wilson95": [
+    0.0,
+    0.2991
+   ]
+  },
+  "2022": {
+   "rows": 20,
+   "rows_identified": 2,
+   "share": 0.1,
+   "wilson95": [
+    0.0279,
+    0.301
+   ],
+   "papers": 8,
+   "papers_all_rows_identified": 0,
+   "papers_share": 0.0,
+   "papers_wilson95": [
+    0.0,
+    0.3244
+   ]
+  },
+  "2023": {
+   "rows": 91,
+   "rows_identified": 10,
+   "share": 0.1099,
+   "wilson95": [
+    0.0608,
+    0.1906
+   ],
+   "papers": 39,
+   "papers_all_rows_identified": 1,
+   "papers_share": 0.0256,
+   "papers_wilson95": [
+    0.0045,
+    0.1318
+   ]
+  },
+  "2024": {
+   "rows": 215,
+   "rows_identified": 13,
+   "share": 0.0605,
+   "wilson95": [
+    0.0357,
+    0.1007
+   ],
+   "papers": 88,
+   "papers_all_rows_identified": 0,
+   "papers_share": 0.0,
+   "papers_wilson95": [
+    0.0,
+    0.0418
+   ]
+  },
+  "2025": {
+   "rows": 301,
+   "rows_identified": 31,
+   "share": 0.103,
+   "wilson95": [
+    0.0735,
+    0.1425
+   ],
+   "papers": 117,
+   "papers_all_rows_identified": 1,
+   "papers_share": 0.0085,
+   "papers_wilson95": [
+    0.0015,
+    0.0468
+   ]
+  },
+  "abstract_alone_B": "void",
+  "outside_window": {}
+ },
+ "sa7": {
+  "papers_with_an_eligible_source": 204,
+  "papers_with_no_eligible_source": 62,
+  "by_year": {
+   "2019": {
+    "papers": 1,
+    "any_link": 0,
+    "availability_section_link": 0
+   },
+   "2020": {
+    "papers": 1,
+    "any_link": 1,
+    "availability_section_link": 0,
+    "host:github": 1
+   },
+   "2021": {
+    "papers": 7,
+    "any_link": 3,
+    "availability_section_link": 1,
+    "host:github": 3
+   },
+   "2022": {
+    "papers": 7,
+    "any_link": 1,
+    "availability_section_link": 0,
+    "host:github": 1
+   },
+   "2023": {
+    "papers": 33,
+    "any_link": 14,
+    "availability_section_link": 5,
+    "host:github": 11,
+    "host:zenodo": 3,
+    "host:osf": 1,
+    "host:mendeley_data": 1,
+    "host:gitlab": 2
+   },
+   "2024": {
+    "papers": 69,
+    "any_link": 21,
+    "availability_section_link": 6,
+    "host:github": 18,
+    "host:zenodo": 4,
+    "host:figshare": 3,
+    "host:osf": 1
+   },
+   "2025": {
+    "papers": 86,
+    "any_link": 21,
+    "availability_section_link": 5,
+    "host:github": 17,
+    "host:zenodo": 5
+   }
+  },
+  "any_link": 61,
+  "availability_section_link": 17
+ },
+ "sa8": {
+  "rows_by_level": {
+   "L2 one candidate in the frozen dictionary": 47,
+   "L3 several candidates in the frozen dictionary": 109,
+   "L5 no dataset named": 141,
+   "L4 dataset outside the dictionary": 136,
+   "name status undetermined": 162,
+   "L1 release identified": 56,
+   "conflict": 6
+  },
+  "attribution_unresolved_by_level": {
+   "L2 one candidate in the frozen dictionary": 5,
+   "L3 several candidates in the frozen dictionary": 10,
+   "L5 no dataset named": 132,
+   "L4 dataset outside the dictionary": 30,
+   "name status undetermined": 9
+  },
+  "repeated_pairs_holding_a_row_at_level": {
+   "L3 several candidates in the frozen dictionary": 123,
+   "L2 one candidate in the frozen dictionary": 73,
+   "L5 no dataset named": 120,
+   "name status undetermined": 168,
+   "L1 release identified": 85,
+   "L4 dataset outside the dictionary": 141,
+   "conflict": 11
+  }
+ },
+ "sa9": "not run: the recovery pass needs agent or model requests; none were made"
+}

@@ -1,0 +1,211 @@
+{
+ "script": "scripts/secondary_v1.py",
+ "inputs_sha256": {
+  "volume:04_release_resolution_v2/coding/accepted/stage_a.json": "b64373bf8fdb0627db69ab02822aa431dc68e17b753a08ea4c2509685e89ab62",
+  "marks_sha256": "7a27328ba6df34a5aa76176ca633def350d866fdaf2fd75814db64ebce375a87",
+  "../03_release_resolution/reference/release_counts.csv": "b57fa5aaf7d68664973263a984186304ac60fecf8074d5ff4c69c9c79de1b753"
+ },
+ "count_only_candidate_mappings": {
+  "mentions_with_no_decisive_rule": 590,
+  "strict": {
+   "equal_to_exactly_one_release": 0,
+   "equal_to_several": 0
+  },
+  "compatible": {
+   "equal_to_exactly_one_release": 26,
+   "equal_to_several": 3
+  },
+  "mentions_with_any_count_match": 29
+ },
+ "rows_resolved_by_counts": {
+  "strict": 0,
+  "compatible": 26
+ },
+ "exact_total_sample_size_note": "the coders record no total sample size (coding prompt v3: 'decides nothing; not recorded as evidence'), so this analysis equals the compatible one",
+ "size_flags": {
+  "none": 575,
+  "size_ambiguous": 2,
+  "size_match": 13
+ },
+ "size_inferred_candidates": 13,
+ "size_candidates_by_verification": {
+  "attribution_confirmed_by_the_author": 1,
+  "attribution_rejected": 0,
+  "script_only_unseen_by_the_author": 11,
+  "seen_without_the_question_answered": 1
+ },
+ "amendment5_labels": {
+  "not explicitly identified under the registered rules": 571,
+  "explicitly identified": 67,
+  "conflicting identifiers": 6,
+  "  of which size_ambiguous": 2,
+  "size-inferred candidate": 13
+ },
+ "author_inferred_releases_recorded": 50,
+ "variants": {
+  "count_inferred_strict": {
+   "h2_verdict": "unresolved",
+   "h2b_verdict": "unresolved",
+   "estimates": {
+    "h1_pairs": 0,
+    "h1_pairs_agreeing": 0,
+    "h1_pair_concordance": null,
+    "h1_independent_edges": 0,
+    "h1_independent_edges_agreeing": 0,
+    "h1_edge_concordance": null,
+    "h2_multi_family_pairs": 245,
+    "h2_known_identical": 0,
+    "h2_known_not_identical": 23,
+    "h2_unresolved": 222,
+    "h2_lower": 0.0,
+    "h2_upper": 0.9061224489795918,
+    "h2_complete_case": 0.0,
+    "h2_resolvable_pairs": 0,
+    "h2_resolvable_share": 0.0,
+    "h2b_known_overlapping": 8,
+    "h2b_known_not_overlapping": 11,
+    "h2b_unresolved": 226,
+    "h2b_lower": 0.0326530612244898,
+    "h2b_upper": 0.9551020408163265,
+    "h2b_complete_case": 0.42105263157894735,
+    "h2_h2b_pairs_not_nested": 0
+   },
+   "claims_stats": {
+    "names_replaced_by_codes": 565,
+    "records_attribution_settled": 60
+   }
+  },
+  "count_inferred_compatible": {
+   "h2_verdict": "unresolved",
+   "h2b_verdict": "unresolved",
+   "estimates": {
+    "h1_pairs": 0,
+    "h1_pairs_agreeing": 0,
+    "h1_pair_concordance": null,
+    "h1_independent_edges": 0,
+    "h1_independent_edges_agreeing": 0,
+    "h1_edge_concordance": null,
+    "h2_multi_family_pairs": 245,
+    "h2_known_identical": 0,
+    "h2_known_not_identical": 31,
+    "h2_unresolved": 214,
+    "h2_lower": 0.0,
+    "h2_upper": 0.8734693877551021,
+    "h2_complete_case": 0.0,
+    "h2_resolvable_pairs": 0,
+    "h2_resolvable_share": 0.0,
+    "h2b_known_overlapping": 8,
+    "h2b_known_not_overlapping": 12,
+    "h2b_unresolved": 225,
+    "h2b_lower": 0.0326530612244898,
+    "h2b_upper": 0.9510204081632653,
+    "h2b_complete_case": 0.4,
+    "h2_h2b_pairs_not_nested": 0
+   },
+   "claims_stats": {
+    "names_replaced_by_codes": 698,
+    "records_attribution_settled": 60
+   }
+  },
+  "count_inferred_exact_total_permitted": {
+   "h2_verdict": "unresolved",
+   "h2b_verdict": "unresolved",
+   "estimates": {
+    "h1_pairs": 0,
+    "h1_pairs_agreeing": 0,
+    "h1_pair_concordance": null,
+    "h1_independent_edges": 0,
+    "h1_independent_edges_agreeing": 0,
+    "h1_edge_concordance": null,
+    "h2_multi_family_pairs": 245,
+    "h2_known_identical": 0,
+    "h2_known_not_identical": 31,
+    "h2_unresolved": 214,
+    "h2_lower": 0.0,
+    "h2_upper": 0.8734693877551021,
+    "h2_complete_case": 0.0,
+    "h2_resolvable_pairs": 0,
+    "h2_resolvable_share": 0.0,
+    "h2b_known_overlapping": 8,
+    "h2b_known_not_overlapping": 12,
+    "h2b_unresolved": 225,
+    "h2b_lower": 0.0326530612244898,
+    "h2b_upper": 0.9510204081632653,
+    "h2b_complete_case": 0.4,
+    "h2_h2b_pairs_not_nested": 0
+   },
+   "claims_stats": {
+    "names_replaced_by_codes": 698,
+    "records_attribution_settled": 60
+   }
+  },
+  "size_inferred_script_based": {
+   "h2_verdict": "unresolved",
+   "h2b_verdict": "unresolved",
+   "estimates": {
+    "h1_pairs": 0,
+    "h1_pairs_agreeing": 0,
+    "h1_pair_concordance": null,
+    "h1_independent_edges": 0,
+    "h1_independent_edges_agreeing": 0,
+    "h1_edge_concordance": null,
+    "h2_multi_family_pairs": 245,
+    "h2_known_identical": 0,
+    "h2_known_not_identical": 31,
+    "h2_unresolved": 214,
+    "h2_lower": 0.0,
+    "h2_upper": 0.8734693877551021,
+    "h2_complete_case": 0.0,
+    "h2_resolvable_pairs": 0,
+    "h2_resolvable_share": 0.0,
+    "h2b_known_overlapping": 8,
+    "h2b_known_not_overlapping": 12,
+    "h2b_unresolved": 225,
+    "h2b_lower": 0.0326530612244898,
+    "h2b_upper": 0.9510204081632653,
+    "h2b_complete_case": 0.4,
+    "h2_h2b_pairs_not_nested": 0
+   },
+   "claims_stats": {
+    "names_replaced_by_codes": 802,
+    "records_attribution_settled": 60
+   }
+  },
+  "size_inferred_with_author_attribution_corrections": {
+   "h2_verdict": "unresolved",
+   "h2b_verdict": "unresolved",
+   "estimates": {
+    "h1_pairs": 0,
+    "h1_pairs_agreeing": 0,
+    "h1_pair_concordance": null,
+    "h1_independent_edges": 0,
+    "h1_independent_edges_agreeing": 0,
+    "h1_edge_concordance": null,
+    "h2_multi_family_pairs": 245,
+    "h2_known_identical": 0,
+    "h2_known_not_identical": 31,
+    "h2_unresolved": 214,
+    "h2_lower": 0.0,
+    "h2_upper": 0.8734693877551021,
+    "h2_complete_case": 0.0,
+    "h2_resolvable_pairs": 0,
+    "h2_resolvable_share": 0.0,
+    "h2b_known_overlapping": 8,
+    "h2b_known_not_overlapping": 12,
+    "h2b_unresolved": 225,
+    "h2b_lower": 0.0326530612244898,
+    "h2b_upper": 0.9510204081632653,
+    "h2b_complete_case": 0.4,
+    "h2_h2b_pairs_not_nested": 0
+   },
+   "claims_stats": {
+    "names_replaced_by_codes": 802,
+    "records_attribution_settled": 60
+   }
+  }
+ },
+ "unchanged_by_construction": {
+  "all_count_only_mappings_unresolved": "primary",
+  "without_meta_analysis_canonicalization": "primary"
+ }
+}
