@@ -21,6 +21,10 @@ A follow-up asks whether reading full texts and supplements resolves which data 
 repeated claims rest on. It has its own plan, `experiments/03_release_resolution/PREREG.md`,
 frozen on 10 October 2026 and registered at https://osf.io/2s479, with its amendments,
 deviations and log in the same folder. It leaves Paper 1's registered verdicts unchanged.
+That registration is closed as void; the follow-up runs under a second plan,
+`experiments/04_release_resolution_v2/PREREG.md`, registered at https://osf.io/35kef. Its
+stage A analyses have run and are summarized in
+`experiments/04_release_resolution_v2/outputs/stage_a_results_summary_2026-10-21.json`.
 
 ## How the record is kept
 
@@ -107,4 +111,4 @@ EpiGraphDB snapshot) are pinned by sha256 in `experiments/02_claims_meta/RELEASE
 
 Code is MIT-licensed (`LICENSE`). Quotations from published papers in `claims/` and in the
 outputs are reproduced for verification and remain under their publishers' terms. Cite the
-registrations: https://osf.io/zae8c and https://osf.io/2s479.
+registrations: https://osf.io/zae8c, https://osf.io/2s479 and https://osf.io/35kef.
