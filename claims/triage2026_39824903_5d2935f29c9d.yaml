@@ -1,0 +1,15 @@
+source:
+  citation: triage2026_39824903_5d2935f29c9d
+  local: sources/triage2026/39824903_5d2935f29c9d.txt
+  sha256: 5d2935f29c9d2bb0af754c2a10eb3f839d53d6a577e76fffec8028e0b5c3f638
+  note: Text of the full text of record 39824903 (PMC11748740), file https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11748740/fullTextXML,
+    type JATS XML, file sha256 11878a6d4ea2a81134a9cceecd47ee5a6679147fb7ff5950791c609b09124fcf; the text
+    the first registration's retrieval stored (text_sha256), or for a file it left without text the local
+    conversion of the supplement triage scan (scripts/supplement_triage_v2.py). Spreadsheets are pinned
+    in this extracted text (sheets as '## sheet', cells tab-separated) because citations does not read
+    xlsx. Pins of the unregistered supplement triage of 22 October 2026.
+claims:
+  34d2ca2d8505_2:
+    quotes:
+    - exact: we utilized the latest large-scale antibody-based detection method for protein quantitative
+        trait loci (pQTL) data from a European population

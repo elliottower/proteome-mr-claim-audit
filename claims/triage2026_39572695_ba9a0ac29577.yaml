@@ -1,0 +1,15 @@
+source:
+  citation: triage2026_39572695_ba9a0ac29577
+  local: sources/triage2026/39572695_ba9a0ac29577.txt
+  sha256: ba9a0ac29577ce9730dfaf2b6014b2ac6e438922ddb77f42046b3d2d02baa8ac
+  note: Text of the full text of record 39572695 (PMC11634769), file https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11634769/fullTextXML,
+    type JATS XML, file sha256 1391725ab6ac8b66f46a6d673d0afeaba898bf15d255ba7de8c9af5eca28788b; the text
+    the first registration's retrieval stored (text_sha256), or for a file it left without text the local
+    conversion of the supplement triage scan (scripts/supplement_triage_v2.py). Spreadsheets are pinned
+    in this extracted text (sheets as '## sheet', cells tab-separated) because citations does not read
+    xlsx. Pins of the unregistered supplement triage of 22 October 2026.
+claims:
+  a93733218349_1:
+    quotes:
+    - exact: We obtained pQTL data from 35,571 UKB-PPP participants who had their circulating proteomes
+        profiled using the Olink Explore 1536 platform14.

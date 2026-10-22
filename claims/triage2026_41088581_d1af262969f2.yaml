@@ -1,0 +1,35 @@
+source:
+  citation: triage2026_41088581_d1af262969f2
+  local: sources/triage2026/41088581_d1af262969f2.txt
+  sha256: d1af262969f2c91880988541736548ce3a413f66dae02ffb7e50a8cd8386d038
+  note: Text of a supplementary file of record 41088581 (PMC12517818), file supplementaryFiles.zip/medi-104-e44738-s001.xlsx,
+    type XLSX, file sha256 1fbccac15d8ee1b07fe88cd6eafc843385f058b285b742e477995c094373a0e1; the text
+    the first registration's retrieval stored (text_sha256), or for a file it left without text the local
+    conversion of the supplement triage scan (scripts/supplement_triage_v2.py). Spreadsheets are pinned
+    in this extracted text (sheets as '## sheet', cells tab-separated) because citations does not read
+    xlsx. Pins of the unregistered supplement triage of 22 October 2026.
+claims:
+  95eec871e698_1:
+    quotes:
+    - exact: "prot-a-2882\tebi-a-GCST004131\tInflammatory bowel disease\t || id:prot-a-2882\tInverse variance\
+        \ weighted"
+      prefix: '947979924090684 '
+      suffix: ' 20 -0.180183128979177'
+  a492a9d0f582_1:
+    quotes:
+    - exact: "prot-a-2882\tebi-a-GCST004132\tCrohn’s disease\t || id:prot-a-2882\tInverse variance weighted"
+      prefix: '900955722717729 '
+      suffix: ' 20 -0.193020187276113'
+  13bb3c341e6e_1:
+    quotes:
+    - exact: "3301\t197013196\t1\t0.0649\t3.16228e-06\t-0.3021\tprot-a-2882"
+      prefix: '## sheet suppl. table 1 erythrocyte band 7 integral membrane protein samplesize.exposure
+        pos.exposure chr.exposure se.exposure pval.exposure beta.exposure id.exposure snp effect_allele.exposure
+        other_allele.exposure eaf.exposure exposure mr_keep.exposure pval_origin.exposure data_source.exposure
+        r2 f '
+      suffix: ' rs17514396 g t 0.04408 || id:prot-a-2882 1 reported igd 0.00769120841900275 25.5699604695269
+        3301 155399091 1 0.0679 8.91251e-06 0.3013 prot-a-2882 rs76768697 t g 0.04093 || id:prot-a-2882
+        1 reported igd 0.00712722238576064 23.681489895536 3301 234642838 2 0.0276 1.38038e-07 0.1456
+        prot-a-2882 rs7567468 t c 0.27772 || id:prot-a-2882 1 reported igd 0.00850482715058995 28.2980951779759
+        3301 127570496 2 0.0743 2.13796e-06 -0.3523 prot-a-2882 rs75097001 t c 0.03226 || id:prot-a-2882
+        1 reported igd 0.00774958305964159'

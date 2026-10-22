@@ -1,0 +1,14 @@
+source:
+  citation: triage2026_40455174_380850f8f4c3
+  local: sources/triage2026/40455174_380850f8f4c3.txt
+  sha256: 380850f8f4c34f7be98c7e72999e1bac8644cea20aea309ccf647497793a3c48
+  note: Text of a supplementary file of record 40455174 (PMC12130389), file supplementaryFiles.zip/12672_2025_2321_MOESM8_ESM.docx,
+    type DOCX, file sha256 4c524c50ae2dc43730fb8ed3a3b17dda0f282f30d682ee423d46d50c20a21b82; the text
+    the first registration's retrieval stored (text_sha256), or for a file it left without text the local
+    conversion of the supplement triage scan (scripts/supplement_triage_v2.py). Spreadsheets are pinned
+    in this extracted text (sheets as '## sheet', cells tab-separated) because citations does not read
+    xlsx. Pins of the unregistered supplement triage of 22 October 2026.
+claims:
+  0f31bf27de1b_1:
+    quotes:
+    - exact: "APOE\t34648354\t10708\trs483082"

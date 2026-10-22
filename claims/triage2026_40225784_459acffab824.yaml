@@ -1,0 +1,15 @@
+source:
+  citation: triage2026_40225784_459acffab824
+  local: sources/triage2026/40225784_459acffab824.txt
+  sha256: 459acffab82496b291788d3f32a967149523276abbc0e0aa849d344fb73a4eaf
+  note: Text of the full text of record 40225784 (PMC11981922), file https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11981922/fullTextXML,
+    type JATS XML, file sha256 23aa333d7d62b8ec79372f5e854b7bb020820d0fb2606f24785bdb96b35e5861; the text
+    the first registration's retrieval stored (text_sha256), or for a file it left without text the local
+    conversion of the supplement triage scan (scripts/supplement_triage_v2.py). Spreadsheets are pinned
+    in this extracted text (sheets as '## sheet', cells tab-separated) because citations does not read
+    xlsx. Pins of the unregistered supplement triage of 22 October 2026.
+claims:
+  35c79aea9dca_1:
+    quotes:
+    - exact: available in https://www.synapse.org/#!Synapse:syn51364943/files/. To match the ancestry
+        of the FastBio cohort, we used the summary statistics from the European population.

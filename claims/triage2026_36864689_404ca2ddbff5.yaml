@@ -1,0 +1,34 @@
+source:
+  citation: triage2026_36864689_404ca2ddbff5
+  local: sources/triage2026/36864689_404ca2ddbff5.txt
+  sha256: 404ca2ddbff5bea9b7bad2f7edeb4ebc9b8f102bb5259ae2f0aefd7fe27c0681
+  note: Text of the full text of record 36864689 (PMC10393411), file https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10393411/fullTextXML,
+    type JATS XML, file sha256 ba4ebf04f6b03007e765bdc9cc2f3d89ac3b4e494b33ade9d5c4bd8775594fd9; the text
+    the first registration's retrieval stored (text_sha256), or for a file it left without text the local
+    conversion of the supplement triage scan (scripts/supplement_triage_v2.py). Spreadsheets are pinned
+    in this extracted text (sheets as '## sheet', cells tab-separated) because citations does not read
+    xlsx. Pins of the unregistered supplement triage of 22 October 2026.
+claims:
+  '607952294909_1':
+    quotes:
+    - exact: For the primary analysis, summary statistics were retrieved from the largest GWAS dataset
+        of IMSGC,11 including 115 803 individuals (nCase = 47 429, nControl = 68 374) of European ancestry.
+  8251a4ed8ce8_1:
+    quotes:
+    - exact: For external validation, summary statistics were obtained from the UK Biobank (until 2017,
+        nCase = 1356, nControl = 395 209)13
+  7fd3f3e7859a_1:
+    quotes:
+    - exact: For the primary analysis, the plasma pQTL data were retrieved from the study by Zheng et
+        al.,6 which integrated five previously published GWAS.
+  7fd3f3e7859a_2:
+    quotes:
+    - exact: CSF pQTL data were obtained from a study by Yang et al.,12 who reported 274 pQTLs of 184
+        CSF proteins.
+  8251a4ed8ce8_2:
+    quotes:
+    - exact: GWAS summary statistics of the UK Biobank conducted by Zhou et al.29 were obtained from https://www.leelabsg.org/resources
+      prefix: 'from the original studies.12,15-21 gwas summary statistics of the imsgc were obtained from
+        https://gwas.mrcieu.ac.uk/datasets/. '
+      suffix: '. access to finngen (r6 release) can be obtained from https://www.finngen.fi/en/access_results.
+        ## results ## screening the proteome'

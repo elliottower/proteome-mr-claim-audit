@@ -1,0 +1,23 @@
+source:
+  citation: triage2026_38887235_eea70bf753b9
+  local: sources/triage2026/38887235_eea70bf753b9.txt
+  sha256: eea70bf753b9883bd5f18f4df27568abdca1854dd6a563e77b04c8628be3245e
+  note: Text of the full text of record 38887235 (PMC11180768), file https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11180768/fullTextXML,
+    type JATS XML, file sha256 db41194c924aa0407784627848f7093d71411f375eb3474c79b0d20f9728ced4; the text
+    the first registration's retrieval stored (text_sha256), or for a file it left without text the local
+    conversion of the supplement triage scan (scripts/supplement_triage_v2.py). Spreadsheets are pinned
+    in this extracted text (sheets as '## sheet', cells tab-separated) because citations does not read
+    xlsx. Pins of the unregistered supplement triage of 22 October 2026.
+claims:
+  c1d2340aeb63_1:
+    quotes:
+    - exact: We collected genetic association summary statistics for BC risk from the Breast Cancer Association
+        Consortium (BCAC), a meta-analysis of 67 studies including 122,977 cases (thereof 69,501 estrogen
+        receptor (ER)-positive and 21,468 ER-negative), and 105,974 controls
+  aef4c6509c06_1:
+    quotes:
+    - exact: Zhang et al. ascertained 2,004 proteins displaying connections with common variants in cis-regions
+        within a populace of 7,213 individuals of European American heritage
+  aef4c6509c06_2:
+    quotes:
+    - exact: For the primary analysis, the plasma pQTL data were from a recent study by Zhang et al. (12)

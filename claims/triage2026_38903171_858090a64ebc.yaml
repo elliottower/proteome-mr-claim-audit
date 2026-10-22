@@ -1,0 +1,21 @@
+source:
+  citation: triage2026_38903171_858090a64ebc
+  local: sources/triage2026/38903171_858090a64ebc.txt
+  sha256: 858090a64ebc2a4872c2630846ee211b5701bc807276a30c9a2aafd3cface93e
+  note: Text of a supplementary file of record 38903171 (PMC11187347), file supplementaryFiles.zip/Table_1.XLSX,
+    type XLSX, file sha256 1af9b9109ba7fb99f8afa6dbcdcec33b01a58160130a4c146d01256df8f5e1b0; the text
+    the first registration's retrieval stored (text_sha256), or for a file it left without text the local
+    conversion of the supplement triage scan (scripts/supplement_triage_v2.py). Spreadsheets are pinned
+    in this extracted text (sheets as '## sheet', cells tab-separated) because citations does not read
+    xlsx. Pins of the unregistered supplement triage of 22 October 2026.
+claims:
+  3175d348248c_2:
+    quotes:
+    - exact: "Age-related macular degeneration(Discovery data)\tThe FinnGen R10 Study\t9721 cases and\
+        \ 381339 controls"
+  ef83c5686d52_1:
+    quotes:
+    - exact: "plasma protein\tDECODE Health Study\t35,559 Icelanders\thttps://www.decode.com/summarydata/"
+  ef83c5686d52_2:
+    quotes:
+    - exact: "UK Biobank Pharma Proteomics Project (UKB-PPP)\t54,219 UKB participants\thttps://www.synapse.org/#!Synapse:syn51364943/wiki/622119"

@@ -1,0 +1,20 @@
+source:
+  citation: triage2026_39351539_5872779e9f28
+  local: sources/triage2026/39351539_5872779e9f28.txt
+  sha256: 5872779e9f28ca44549e676dd324420362de88cfb31df4c2173399236e5591ef
+  note: Text of a supplementary file of record 39351539 (PMC11439655), file supplementaryFiles.zip/DataSheet2.xlsx,
+    type XLSX, file sha256 dde27ee660de3412c65301fbc89b34d2cfb539efc88c2da9c5b3ffe05ea69561; the text
+    the first registration's retrieval stored (text_sha256), or for a file it left without text the local
+    conversion of the supplement triage scan (scripts/supplement_triage_v2.py). Spreadsheets are pinned
+    in this extracted text (sheets as '## sheet', cells tab-separated) because citations does not read
+    xlsx. Pins of the unregistered supplement triage of 22 October 2026.
+claims:
+  067ac022c82d_2:
+    quotes:
+    - exact: "CASP8\t breast cancer（FinnGen)\tInverse variance weighted"
+  9b2550fba19e_1:
+    quotes:
+    - exact: "Ferkingstad et al. 2021\t4719\t18084\t35559\tSomaLogic"
+  9b2550fba19e_2:
+    quotes:
+    - exact: "Sun_2 et al. 2023\t2923\t14287\t54219\tOlink"

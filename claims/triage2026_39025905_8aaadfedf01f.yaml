@@ -1,0 +1,21 @@
+source:
+  citation: triage2026_39025905_8aaadfedf01f
+  local: sources/triage2026/39025905_8aaadfedf01f.txt
+  sha256: 8aaadfedf01f7b6e9e3458124374a3f2deb58b4e3f39d8b6cd4d3963f0eb4f71
+  note: Text of the full text of record 39025905 (PMC11258283), file https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11258283/fullTextXML,
+    type JATS XML, file sha256 77655cd8b6157e792210683c5b869f9c127cf37833cd09964d92dad546cd40e6; the text
+    the first registration's retrieval stored (text_sha256), or for a file it left without text the local
+    conversion of the supplement triage scan (scripts/supplement_triage_v2.py). Spreadsheets are pinned
+    in this extracted text (sheets as '## sheet', cells tab-separated) because citations does not read
+    xlsx. Pins of the unregistered supplement triage of 22 October 2026.
+claims:
+  e3e568d61aff_1:
+    quotes:
+    - exact: For CAD GWAS, we used the one with a larger sample size of NY = 547261, which was a meta-analysis
+        result of UK Biobank and CARDIoGRAMplusC4D57.
+  7a0ebd033729_1:
+    quotes:
+    - exact: according to Supplementary Table 6.1 in Zhang et al.30
+  7a0ebd033729_2:
+    quotes:
+    - exact: using the pQTL summary data derived from ARIC European ancestry (EA) cohort

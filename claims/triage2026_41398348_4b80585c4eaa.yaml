@@ -1,0 +1,31 @@
+source:
+  citation: triage2026_41398348_4b80585c4eaa
+  local: sources/triage2026/41398348_4b80585c4eaa.txt
+  sha256: 4b80585c4eaa4968501bee9fd9cd18c4e6787682235d4730658be4e2305c09be
+  note: Text of a supplementary file of record 41398348 (PMC12808636), file supplementaryFiles.zip/41598_2025_31836_MOESM2_ESM.xlsx,
+    type XLSX, file sha256 c059762ccbb6c1147b71ba066d597f94c6c031954071d5fc50075464eee422fe; the text
+    the first registration's retrieval stored (text_sha256), or for a file it left without text the local
+    conversion of the supplement triage scan (scripts/supplement_triage_v2.py). Spreadsheets are pinned
+    in this extracted text (sheets as '## sheet', cells tab-separated) because citations does not read
+    xlsx. Pins of the unregistered supplement triage of 22 October 2026.
+claims:
+  521ced4aec2b_1:
+    quotes:
+    - exact: "Folkersen et al.\tAffymetrix, Illumina\t21758\t\tEuropean\tOlink platform"
+  521ced4aec2b_2:
+    quotes:
+    - exact: "Suhre et al.\tAffymetrix Axiom\t1000\t[32–81]\tEuropean\tmultiplexed aptamer-based affinity\
+        \ proteomics"
+  521ced4aec2b_3:
+    quotes:
+    - exact: "Ferkingstad  et al. \tIllumina\t35559\t55\tIcelander\tSomaScan multiplex aptamer assay (version\
+        \ 4)"
+  521ced4aec2b_4:
+    quotes:
+    - exact: "rs11215406\tBMI\tCADM1\tFerkingstad\tWald ratio"
+  521ced4aec2b_5:
+    quotes:
+    - exact: "rs651007\tBMI\tENG\tSuhre\tWald ratio"
+  521ced4aec2b_6:
+    quotes:
+    - exact: "rs77878271\tBMI\tFABP4\tFolkersen\tWald ratio"

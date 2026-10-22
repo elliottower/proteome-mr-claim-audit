@@ -1,0 +1,15 @@
+source:
+  citation: triage2026_40186323_2e8813ee2826
+  local: sources/triage2026/40186323_2e8813ee2826.txt
+  sha256: 2e8813ee2826cae7b0e72867f621430002eba18dd27a790a4341b276dbba686b
+  note: Text of the full text of record 40186323 (PMC11971886), file https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11971886/fullTextXML,
+    type JATS XML, file sha256 cefe3a99839b5804980d06e5b649c1aecfd30a3828ad7faca4e588fa10b866ed; the text
+    the first registration's retrieval stored (text_sha256), or for a file it left without text the local
+    conversion of the supplement triage scan (scripts/supplement_triage_v2.py). Spreadsheets are pinned
+    in this extracted text (sheets as '## sheet', cells tab-separated) because citations does not read
+    xlsx. Pins of the unregistered supplement triage of 22 October 2026.
+claims:
+  4e4df330a903_1:
+    quotes:
+    - exact: We obtained high-quality proteomic data for 4907 proteins and their corresponding target
+        genes from a large-scale GWAS conducted on 35,559 Icelandic individuals [24].

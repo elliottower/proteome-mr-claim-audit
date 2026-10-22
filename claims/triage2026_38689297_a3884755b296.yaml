@@ -1,0 +1,17 @@
+source:
+  citation: triage2026_38689297_a3884755b296
+  local: sources/triage2026/38689297_a3884755b296.txt
+  sha256: a3884755b296a45b9880cfd9a38c43edd421cf07b33df11642e25c542c4afed7
+  note: Text of a supplementary file of record 38689297 (PMC11061979), file supplementaryFiles.zip/12967_2024_5178_MOESM2_ESM.xlsx,
+    type XLSX, file sha256 7eaa238c3313bf4699a742aa813db204cd862e3e778ea53a35464835e2c9c896; the text
+    the first registration's retrieval stored (text_sha256), or for a file it left without text the local
+    conversion of the supplement triage scan (scripts/supplement_triage_v2.py). Spreadsheets are pinned
+    in this extracted text (sheets as '## sheet', cells tab-separated) because citations does not read
+    xlsx. Pins of the unregistered supplement triage of 22 October 2026.
+claims:
+  d27f06e1b5a7_2:
+    quotes:
+    - exact: "Sun_2 et al. 2022\t1463\t10248\t54306\tOlink"
+  d27f06e1b5a7_3:
+    quotes:
+    - exact: "FES\tTyrosine-protein kinase Fes/Fps\tSun_2\trs1894401\t0.00774058728880214\t0.000134486355353852"

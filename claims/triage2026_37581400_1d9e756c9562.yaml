@@ -1,0 +1,20 @@
+source:
+  citation: triage2026_37581400_1d9e756c9562
+  local: sources/triage2026/37581400_1d9e756c9562.txt
+  sha256: 1d9e756c9562518aca9c1b28d7b9fc059b96f2fa202af0b1d6a3faa77ec43450
+  note: Text of the full text of record 37581400 (PMC10492951), file https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10492951/fullTextXML,
+    type JATS XML, file sha256 344bb228f82c382cef66f1c6b24e2487d1c627024f72d762163f2bad78a8ae29; the text
+    the first registration's retrieval stored (text_sha256), or for a file it left without text the local
+    conversion of the supplement triage scan (scripts/supplement_triage_v2.py). Spreadsheets are pinned
+    in this extracted text (sheets as '## sheet', cells tab-separated) because citations does not read
+    xlsx. Pins of the unregistered supplement triage of 22 October 2026.
+claims:
+  6dbbbb8bb8d8_1:
+    quotes:
+    - exact: yielding a total of 60 620 hospital‐diagnosed AF cases and 970 216 controls, testing for
+        associations between 34 740 186 genetic variations and AF risk
+  b6a11d49f384_1:
+    quotes:
+    - exact: we used the results of a genome‐wide association study (GWAS) of 4719 proteins in 35 559
+        Icelanders (the Icelandic Cancer Project and deCODE genetics, Reykjavík, Iceland) by Ferkingstad
+        et al.

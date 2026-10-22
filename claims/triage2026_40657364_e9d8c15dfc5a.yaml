@@ -1,0 +1,19 @@
+source:
+  citation: triage2026_40657364_e9d8c15dfc5a
+  local: sources/triage2026/40657364_e9d8c15dfc5a.txt
+  sha256: e9d8c15dfc5a956da89471566ba4f818248fbb188167e64dc5cabd3f8af0b6fa
+  note: Text of the full text of record 40657364 (PMC12244032), file https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12244032/fullTextXML,
+    type JATS XML, file sha256 946c0e320389df81bf5e7458b1a0ae163a71cf155f7f2b86c5308a614691e52b; the text
+    the first registration's retrieval stored (text_sha256), or for a file it left without text the local
+    conversion of the supplement triage scan (scripts/supplement_triage_v2.py). Spreadsheets are pinned
+    in this extracted text (sheets as '## sheet', cells tab-separated) because citations does not read
+    xlsx. Pins of the unregistered supplement triage of 22 October 2026.
+claims:
+  b86f843bd34a_2:
+    quotes:
+    - exact: The discovery phase of the study employed the BCAC dataset, while the replication phase utilized
+        data from the UK Biobank and Finnish studies.
+  5f73248fda7e_1:
+    quotes:
+    - exact: summary-level data on genetic associations with BC were obtained from the FinnGen study's
+        publicly available R10 dataset, which included 18,786 patients with BC and 182,927 controls

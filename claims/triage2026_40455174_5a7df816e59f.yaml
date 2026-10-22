@@ -1,0 +1,15 @@
+source:
+  citation: triage2026_40455174_5a7df816e59f
+  local: sources/triage2026/40455174_5a7df816e59f.txt
+  sha256: 5a7df816e59f0d9c1a1910eb7c34d0cbb8f30c2c3b660f30ec36e94a2685de2f
+  note: Text of the full text of record 40455174 (PMC12130389), file https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12130389/fullTextXML,
+    type JATS XML, file sha256 60ae7d8ed2e493bf8caf65136a4be160acaf3b7289bf22ae603b50f72d95ca1f; the text
+    the first registration's retrieval stored (text_sha256), or for a file it left without text the local
+    conversion of the supplement triage scan (scripts/supplement_triage_v2.py). Spreadsheets are pinned
+    in this extracted text (sheets as '## sheet', cells tab-separated) because citations does not read
+    xlsx. Pins of the unregistered supplement triage of 22 October 2026.
+claims:
+  c5d442aa4e1e_2:
+    quotes:
+    - exact: Our primary data source was the FinnGen database, which recorded 500 HCC patients, 314,193
+        control individuals with a European background, and 2568 MASLD patients and 409,613 control individuals

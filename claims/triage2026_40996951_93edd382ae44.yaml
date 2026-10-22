@@ -1,0 +1,14 @@
+source:
+  citation: triage2026_40996951_93edd382ae44
+  local: sources/triage2026/40996951_93edd382ae44.txt
+  sha256: 93edd382ae449ab52329f41d163e49f7cd90bf45bc2d024fec6edc90564b14ac
+  note: Text of a supplementary file of record 40996951 (PMC12463240), file supplementaryFiles.zip/pcbi.1013333.s001.xlsx,
+    type XLSX, file sha256 e47a852e56acde3bf4265f1c4e4b2b217a121c24622a66345efd16785d6194a4; the text
+    the first registration's retrieval stored (text_sha256), or for a file it left without text the local
+    conversion of the supplement triage scan (scripts/supplement_triage_v2.py). Spreadsheets are pinned
+    in this extracted text (sheets as '## sheet', cells tab-separated) because citations does not read
+    xlsx. Pins of the unregistered supplement triage of 22 October 2026.
+claims:
+  7256addfb3b7_1:
+    quotes:
+    - exact: "Plasma proteins\t2015\tIceland\t34857953\t35559"

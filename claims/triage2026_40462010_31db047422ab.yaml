@@ -1,0 +1,14 @@
+source:
+  citation: triage2026_40462010_31db047422ab
+  local: sources/triage2026/40462010_31db047422ab.txt
+  sha256: 31db047422ab3d7ad6049f47ab503e24efb46d946008b2c48140db7d40af41fb
+  note: Text of a supplementary file of record 40462010 (PMC12135285), file supplementaryFiles.zip/12014_2025_9545_MOESM2_ESM.xlsx,
+    type XLSX, file sha256 b37c5bbdaf437ac3b90aabdfe40d18bf6ef29ec280f95b27aeecc508e2eae443; the text
+    the first registration's retrieval stored (text_sha256), or for a file it left without text the local
+    conversion of the supplement triage scan (scripts/supplement_triage_v2.py). Spreadsheets are pinned
+    in this extracted text (sheets as '## sheet', cells tab-separated) because citations does not read
+    xlsx. Pins of the unregistered supplement triage of 22 October 2026.
+claims:
+  '291960717926_2':
+    quotes:
+    - exact: "finn-pQTL-R10-v1-TMEM132A\tukb-saige-153\tColorectal cancer || id:ukb-saige-153"

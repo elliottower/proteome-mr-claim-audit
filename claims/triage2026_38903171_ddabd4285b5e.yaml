@@ -1,0 +1,15 @@
+source:
+  citation: triage2026_38903171_ddabd4285b5e
+  local: sources/triage2026/38903171_ddabd4285b5e.txt
+  sha256: ddabd4285b5ecb73b61b0744c3d6fdf84686a7121adffc7e7e74661a3d36b6ec
+  note: Text of the full text of record 38903171 (PMC11187347), file https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11187347/fullTextXML,
+    type JATS XML, file sha256 bd3bbb4bd3736ed7f22b990eb1ec0d657221c44123141574ed5e2f921dde90f7; the text
+    the first registration's retrieval stored (text_sha256), or for a file it left without text the local
+    conversion of the supplement triage scan (scripts/supplement_triage_v2.py). Spreadsheets are pinned
+    in this extracted text (sheets as '## sheet', cells tab-separated) because citations does not read
+    xlsx. Pins of the unregistered supplement triage of 22 October 2026.
+claims:
+  3175d348248c_1:
+    quotes:
+    - exact: summary data on AMD and its subtypes from the latest release (R10 version) of the FinnGen
+        study were utilized as outcomes

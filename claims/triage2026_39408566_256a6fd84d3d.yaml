@@ -1,0 +1,20 @@
+source:
+  citation: triage2026_39408566_256a6fd84d3d
+  local: sources/triage2026/39408566_256a6fd84d3d.txt
+  sha256: 256a6fd84d3d336103ed66e978936ed9afd91928a20f8699fe4aae29aca3feea
+  note: Text of the full text of record 39408566 (PMC11476976), file https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11476976/fullTextXML,
+    type JATS XML, file sha256 c42bd6f82118f78a74ed6f0ca3ddc19c72ac487eb2d8f4a8d00f94f70e5eab78; the text
+    the first registration's retrieval stored (text_sha256), or for a file it left without text the local
+    conversion of the supplement triage scan (scripts/supplement_triage_v2.py). Spreadsheets are pinned
+    in this extracted text (sheets as '## sheet', cells tab-separated) because citations does not read
+    xlsx. Pins of the unregistered supplement triage of 22 October 2026.
+claims:
+  finngen_counts:
+    quotes:
+    - exact: The GWASs of the remaining four ODs were obtained from the FinnGen [52], including senile
+        cataract (50,961 cases and 287,330 controls), AMD (7582 cases and 318,039 controls), glaucoma
+        (16,065 cases and 326,434 controls)
+  895299c3f02f_1:
+    quotes:
+    - exact: The pQTL data were obtained from the European Ancestry subcohort of the Atherosclerosis Risk
+        in Communities (ARIC) study [53], which involved 4657 plasma proteins from 7213 individuals.

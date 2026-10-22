@@ -1,0 +1,15 @@
+source:
+  citation: triage2026_39392298_817b75400528
+  local: sources/triage2026/39392298_817b75400528.txt
+  sha256: 817b75400528fa529dcb2748621b575a2f3860a83d32bdb654f2f637e8618ada
+  note: Text of a supplementary file of record 39392298 (PMC11469671), file supplementaryFiles.zip/elife-96224-supp1.xlsx,
+    type XLSX, file sha256 796fb8d57cf6fb330f377cb8a6f422abbfa23d9d243be92abf671f03bd74d324; the text
+    the first registration's retrieval stored (text_sha256), or for a file it left without text the local
+    conversion of the supplement triage scan (scripts/supplement_triage_v2.py). Spreadsheets are pinned
+    in this extracted text (sheets as '## sheet', cells tab-separated) because citations does not read
+    xlsx. Pins of the unregistered supplement triage of 22 October 2026.
+claims:
+  d52fa502f0c4_3:
+    quotes:
+    - exact: "prot-a-1226\tieu-b-2\tAlzheimer's disease\tGuanine nucleotide-binding protein G(k) subunit\
+        \ alpha (GNAI3)\tInverse variance weighted"

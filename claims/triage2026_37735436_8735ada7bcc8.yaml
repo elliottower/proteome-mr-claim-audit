@@ -1,0 +1,15 @@
+source:
+  citation: triage2026_37735436_8735ada7bcc8
+  local: sources/triage2026/37735436_8735ada7bcc8.txt
+  sha256: 8735ada7bcc8437d9c01c1049081d685c71250b990cb9cc4ae5ab021506cb55e
+  note: Text of the full text of record 37735436 (PMC10512580), file https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10512580/fullTextXML,
+    type JATS XML, file sha256 2e89fec7581ac976cebcc9c967457e040145cf132fb7905c7b275482eadeb6e5; the text
+    the first registration's retrieval stored (text_sha256), or for a file it left without text the local
+    conversion of the supplement triage scan (scripts/supplement_triage_v2.py). Spreadsheets are pinned
+    in this extracted text (sheets as '## sheet', cells tab-separated) because citations does not read
+    xlsx. Pins of the unregistered supplement triage of 22 October 2026.
+claims:
+  70f838d41395_1:
+    quotes:
+    - exact: In the primary MR analysis, we obtained plasma pQTL data from the study conducted by Zheng
+        et al. [16]. Zheng's study integrated data from five GWAS sources [6, 8, 18–20].

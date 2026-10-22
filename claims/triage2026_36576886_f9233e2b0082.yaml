@@ -1,0 +1,14 @@
+source:
+  citation: triage2026_36576886_f9233e2b0082
+  local: sources/triage2026/36576886_f9233e2b0082.txt
+  sha256: f9233e2b00825f785bae45c9fbd7bd50cad5fc2fd277a18a66ce056623aebf91
+  note: Text of the full text of record 36576886 (PMC10155748), file https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10155748/fullTextXML,
+    type JATS XML, file sha256 21da784076f5bf94dff7847b3ed8e22ac08bd6f8dc6699fad25278d6a850eac0; the text
+    the first registration's retrieval stored (text_sha256), or for a file it left without text the local
+    conversion of the supplement triage scan (scripts/supplement_triage_v2.py). Spreadsheets are pinned
+    in this extracted text (sheets as '## sheet', cells tab-separated) because citations does not read
+    xlsx. Pins of the unregistered supplement triage of 22 October 2026.
+claims:
+  6249f99a8592_1:
+    quotes:
+    - exact: which included 6968 UC cases and 21 770 population controls of European descent

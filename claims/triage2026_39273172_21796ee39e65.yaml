@@ -1,0 +1,20 @@
+source:
+  citation: triage2026_39273172_21796ee39e65
+  local: sources/triage2026/39273172_21796ee39e65.txt
+  sha256: 21796ee39e658c30940e4deca205817ae4edc90a012d0dd9cd7ce73cf9c8235d
+  note: Text of a supplementary file of record 39273172 (PMC11395524), file supplementaryFiles.zip/ijms-25-09223-s001.zip/Supplementary
+    table.xlsx, type XLSX, file sha256 cf9dd3d77c12810e4efc0f204e1a5a6887d6788da6123126380c8cb4d98eca73;
+    the text the first registration's retrieval stored (text_sha256), or for a file it left without text
+    the local conversion of the supplement triage scan (scripts/supplement_triage_v2.py). Spreadsheets
+    are pinned in this extracted text (sheets as '## sheet', cells tab-separated) because citations does
+    not read xlsx. Pins of the unregistered supplement triage of 22 October 2026.
+claims:
+  ad_eadb_1:
+    quotes:
+    - exact: "Alzheimer’s disease \tAD\t35379992\t487511\t85934\t401577"
+  ad_eadb_2:
+    quotes:
+    - exact: GCST90027001-GCST90028000/GCST90027158
+  brain_tmem106b:
+    quotes:
+    - exact: "MR_IVW\tTMEM106B\tAD\t1.1621"

@@ -1,0 +1,18 @@
+source:
+  citation: triage2026_40135555_6c8440627d3c
+  local: sources/triage2026/40135555_6c8440627d3c.txt
+  sha256: 6c8440627d3c373fb592b85b663d73d46279aaec582aaec6d60eb3b4607b8026
+  note: Text of a supplementary file of record 40135555 (PMC12132849), file supplementaryFiles.zip/JAH3-14-e037203-s001.pdf,
+    type PDF, file sha256 d38ab776ff7fe9761a3bc13b2c3f4e7eb071043ea25f2c36d9a8c80b95621b76; the text the
+    first registration's retrieval stored (text_sha256), or for a file it left without text the local
+    conversion of the supplement triage scan (scripts/supplement_triage_v2.py). Spreadsheets are pinned
+    in this extracted text (sheets as '## sheet', cells tab-separated) because citations does not read
+    xlsx. Pins of the unregistered supplement triage of 22 October 2026.
+claims:
+  56274becee55_1:
+    quotes:
+    - exact: pQTL             Exposure for protein             Ferkingstad et al.                           35,559
+        Icelanders                                           34857953
+  adf382626e39_1:
+    quotes:
+    - exact: Outcome (discovery stage)         Nikpay et al.                                                                                          26343387

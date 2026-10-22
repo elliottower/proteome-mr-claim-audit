@@ -1,0 +1,16 @@
+source:
+  citation: triage2026_41540382_39dd7631610f
+  local: sources/triage2026/41540382_39dd7631610f.txt
+  sha256: 39dd7631610f4a210ae9c7aff26a4f7ecc7f99b8b0fe14665a05bf909c282fe3
+  note: Text of the full text of record 41540382 (PMC12892679), file https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12892679/fullTextXML,
+    type JATS XML, file sha256 2afbd0c06e9c7d46d56ce750d60e5eb71c000167c8f31bac2345c744b2488ce8; the text
+    the first registration's retrieval stored (text_sha256), or for a file it left without text the local
+    conversion of the supplement triage scan (scripts/supplement_triage_v2.py). Spreadsheets are pinned
+    in this extracted text (sheets as '## sheet', cells tab-separated) because citations does not read
+    xlsx. Pins of the unregistered supplement triage of 22 October 2026.
+claims:
+  7b11c3ba25d8_1:
+    quotes:
+    - exact: After quality control, 4,483 unique proteins from 7,213 European individuals in the ARIC
+        study and 3,170 proteins from 3,301 European individuals in the INTERVAL study were included in
+        the PWAS analyses.

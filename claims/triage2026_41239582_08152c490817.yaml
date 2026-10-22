@@ -1,0 +1,14 @@
+source:
+  citation: triage2026_41239582_08152c490817
+  local: sources/triage2026/41239582_08152c490817.txt
+  sha256: 08152c4908179d7a3ee48e46e9c0c379b253af0d912f85887f929873a51ab757
+  note: Text of a supplementary file of record 41239582 (PMC12622633), file supplementaryFiles.zip/medi-104-e45921-s001.xlsx,
+    type XLSX, file sha256 8ca1706b10dc222226248a59f6556cfaaa6d4e30700bf5214b7ffc0bd757d008; the text
+    the first registration's retrieval stored (text_sha256), or for a file it left without text the local
+    conversion of the supplement triage scan (scripts/supplement_triage_v2.py). Spreadsheets are pinned
+    in this extracted text (sheets as '## sheet', cells tab-separated) because citations does not read
+    xlsx. Pins of the unregistered supplement triage of 22 October 2026.
+claims:
+  7b290373f7c2_1:
+    quotes:
+    - exact: "pQTL\tFerkingstad et al.\t35,559 Icelanders\t34857953"

@@ -1,0 +1,23 @@
+source:
+  citation: triage2026_39156738_1f2b77f86a04
+  local: sources/triage2026/39156738_1f2b77f86a04.txt
+  sha256: 1f2b77f86a04a1b4dabc851079be3f26bd88514cda809ab65411ab9f490e5c4b
+  note: Text of the full text of record 39156738 (PMC11327092), file https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11327092/fullTextXML,
+    type JATS XML, file sha256 3c15c555e78e18203978d4391184ec6757a7d87a7cb677bcb8448a25d3aa71e4; the text
+    the first registration's retrieval stored (text_sha256), or for a file it left without text the local
+    conversion of the supplement triage scan (scripts/supplement_triage_v2.py). Spreadsheets are pinned
+    in this extracted text (sheets as '## sheet', cells tab-separated) because citations does not read
+    xlsx. Pins of the unregistered supplement triage of 22 October 2026.
+claims:
+  14a7465743b9_1:
+    quotes:
+    - exact: reported by Lambert et al. (2013), which includes 17,008 AD cases and 37,154 cognitively
+        normal age-matched controls
+  c31049c9e119_1:
+    quotes:
+    - exact: The summary-level GWAS data of SRPs were obtained from Ferkingstad et al. (2021), a large-scale
+        GWAS project on plasma proteome involving 35,559 participants.
+  e364757e3921_1:
+    quotes:
+    - exact: GWAS data of AD from FinnGen consortium (6,489 cases and 170,489 controls) (Kurki et al.,
+        2003) was used for replication and validation.

@@ -1,0 +1,18 @@
+source:
+  citation: triage2026_41200167_a6929865c921
+  local: sources/triage2026/41200167_a6929865c921.txt
+  sha256: a6929865c921cb5624f9d84ee36107d9959a21db727e2dec4a82c2ddfda611e1
+  note: Text of the full text of record 41200167 (PMC12586143), file https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12586143/fullTextXML,
+    type JATS XML, file sha256 b7b997318e478ed290bfeef7c61be7cccec51297d28da1c40e05cad7c24c71aa; the text
+    the first registration's retrieval stored (text_sha256), or for a file it left without text the local
+    conversion of the supplement triage scan (scripts/supplement_triage_v2.py). Spreadsheets are pinned
+    in this extracted text (sheets as '## sheet', cells tab-separated) because citations does not read
+    xlsx. Pins of the unregistered supplement triage of 22 October 2026.
+claims:
+  d84406875f34_2:
+    quotes:
+    - exact: the FinnGen cohort (cases = 244, controls = 314,192)
+  48e4798a425c_1:
+    quotes:
+    - exact: The deCODE study provided pQTL data for 4,907 plasma proteins, measured in 35,559 Icelandic
+        individuals using the SomaScan v4 platform.

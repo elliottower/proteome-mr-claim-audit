@@ -1,0 +1,26 @@
+source:
+  citation: triage2026_40148470_40f4e824be6a
+  local: sources/triage2026/40148470_40f4e824be6a.txt
+  sha256: 40f4e824be6a215c075ec48413d4678313be8949f33b8346591e69a1ccf2b275
+  note: Text of a supplementary file of record 40148470 (PMC11950375), file supplementaryFiles.zip/41598_2025_94053_MOESM1_ESM.xlsx,
+    type XLSX, file sha256 05a37bc0bb103f39337b02ac2e04a629ee789a668966726cf54f2aafc6f6cf5e; the text
+    the first registration's retrieval stored (text_sha256), or for a file it left without text the local
+    conversion of the supplement triage scan (scripts/supplement_triage_v2.py). Spreadsheets are pinned
+    in this extracted text (sheets as '## sheet', cells tab-separated) because citations does not read
+    xlsx. Pins of the unregistered supplement triage of 22 October 2026.
+claims:
+  0039ce94899d_3:
+    quotes:
+    - exact: "CCL19\tfinngen_R11_M13_RHEUMA\tRheumatoid arthritis || id:finngen_R11_M13_RHEUMA\tCCL19++MIP_3b"
+      section: Table S1
+  412ae90640c5_2:
+    quotes:
+    - exact: "CCL19\tfinngen_R11_G6_MS\tMS-disease / Multiple Sclerosis || id:finngen_R11_G6_MS\tCCL19++MIP_3b"
+      section: Table S7
+  1a3c0a1113e8_3:
+    quotes:
+    - exact: "HDGF-OID21455\tfinngen_R11_M13_RHEUMA\tRheumatoid arthritis || id:finngen_R11_M13_RHEUMA\t\
+        Hepatoma-derived growth factor | Oncology\tInverse variance weighted\t10\t0.0366443196900511"
+      prefix: '995200544005673 '
+      suffix: ' 0.0172693738229036'
+      section: Table S1

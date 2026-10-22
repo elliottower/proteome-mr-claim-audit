@@ -1,0 +1,15 @@
+source:
+  citation: triage2026_40444654_a58206bafe6d
+  local: sources/triage2026/40444654_a58206bafe6d.txt
+  sha256: a58206bafe6d0236da5875f934ffc3b5ac34b3a36e204dbd58005d4edffaa4b3
+  note: Text of the full text of record 40444654 (PMC12123450), file https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12123450/fullTextXML,
+    type JATS XML, file sha256 64837d814b46ff9774c6c41c73b500006dc65534020fd289956e157f048f1369; the text
+    the first registration's retrieval stored (text_sha256), or for a file it left without text the local
+    conversion of the supplement triage scan (scripts/supplement_triage_v2.py). Spreadsheets are pinned
+    in this extracted text (sheets as '## sheet', cells tab-separated) because citations does not read
+    xlsx. Pins of the unregistered supplement triage of 22 October 2026.
+claims:
+  5eae0a81ba76_2:
+    quotes:
+    - exact: The IMSGC dataset was employed during the discovery phase of our study, while the FinnGen
+        dataset facilitated the replication phase.

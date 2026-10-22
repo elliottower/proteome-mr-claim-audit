@@ -1,0 +1,15 @@
+source:
+  citation: triage2026_38892221_3121cb7c4deb
+  local: sources/triage2026/38892221_3121cb7c4deb.txt
+  sha256: 3121cb7c4deb0e7a3239d8ea518c0cef9c45eb35bebfd4bf05788ea82f4e9c25
+  note: Text of a supplementary file of record 38892221 (PMC11172763), file supplementaryFiles.zip/ijms-25-06033-s001.zip/ijms-2993601-supplementary.xlsx,
+    type XLSX, file sha256 bb15fb78acd3e7f05dc1501ae19bf140400f896f16a6d945a7f8df57619be289; the text
+    the first registration's retrieval stored (text_sha256), or for a file it left without text the local
+    conversion of the supplement triage scan (scripts/supplement_triage_v2.py). Spreadsheets are pinned
+    in this extracted text (sheets as '## sheet', cells tab-separated) because citations does not read
+    xlsx. Pins of the unregistered supplement triage of 22 October 2026.
+claims:
+  c3585d84f011_2:
+    quotes:
+    - exact: "FGF5\tGCST90274790\tCKD\tInverse variance weighted"
+      section: Table S19

@@ -1,0 +1,16 @@
+source:
+  citation: triage2026_39036049_b3988a52cf77
+  local: sources/triage2026/39036049_b3988a52cf77.txt
+  sha256: b3988a52cf77537c1ed6848d92922575a70beb79da05d56681524cdd2fe22242
+  note: Text of a supplementary file of record 39036049 (PMC11257892), file supplementaryFiles.zip/Table_1.xlsx,
+    type XLSX, file sha256 21fca9e9fb6602cb7e1a87739a638b9ebbd79c1db331b9ce53f294fc40fb11ca; the text
+    the first registration's retrieval stored (text_sha256), or for a file it left without text the local
+    conversion of the supplement triage scan (scripts/supplement_triage_v2.py). Spreadsheets are pinned
+    in this extracted text (sheets as '## sheet', cells tab-separated) because citations does not read
+    xlsx. Pins of the unregistered supplement triage of 22 October 2026.
+claims:
+  0560bc2ec5f3_2:
+    quotes:
+    - exact: "ukb-ppp-EPHB4-OID20242\tfinngen_R10_N14_ENDOMETRIOSIS"
+      prefix: '_lci95 or_uci95 '
+      suffix: ' inverse variance'

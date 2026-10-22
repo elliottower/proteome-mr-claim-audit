@@ -1,0 +1,16 @@
+source:
+  citation: triage2026_39747981_4d251119dfce
+  local: sources/triage2026/39747981_4d251119dfce.txt
+  sha256: 4d251119dfce10aa7c34bb22d4d898714af5a81949dc7d64c43514649fd1519f
+  note: Text of a supplementary file of record 39747981 (PMC11696058), file supplementaryFiles.zip/41598_2024_84447_MOESM2_ESM.pdf,
+    type PDF, file sha256 4eb1ad63ce3276b438d6c03662b3b3cb15074d38d9e679836d448603ac24f649; the text the
+    first registration's retrieval stored (text_sha256), or for a file it left without text the local
+    conversion of the supplement triage scan (scripts/supplement_triage_v2.py). Spreadsheets are pinned
+    in this extracted text (sheets as '## sheet', cells tab-separated) because citations does not read
+    xlsx. Pins of the unregistered supplement triage of 22 October 2026.
+claims:
+  0f2b1a46b938_2:
+    quotes:
+    - exact: '''Eotaxin levels || id:ebi−IPs91−GCST90274764'' on ''Crohn''s disease || id:ieu−a−30'''
+      prefix: 'sensitivity analysis for '
+      suffix: ' rs79722574 rs2201150'

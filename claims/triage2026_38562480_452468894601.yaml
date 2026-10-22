@@ -1,0 +1,14 @@
+source:
+  citation: triage2026_38562480_452468894601
+  local: sources/triage2026/38562480_452468894601.txt
+  sha256: 45246889460101a27b40f7e19da02a7c80e49108e047713c3cafd39166ca3040
+  note: Text of the full text of record 38562480 (PMC10982360), file https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10982360/fullTextXML,
+    type JATS XML, file sha256 562a17f0ced93488d8994f408b31e2f4acd095181454a36821e4b68dff7b5087; the text
+    the first registration's retrieval stored (text_sha256), or for a file it left without text the local
+    conversion of the supplement triage scan (scripts/supplement_triage_v2.py). Spreadsheets are pinned
+    in this extracted text (sheets as '## sheet', cells tab-separated) because citations does not read
+    xlsx. Pins of the unregistered supplement triage of 22 October 2026.
+claims:
+  8c2f33a729e3_2:
+    quotes:
+    - exact: Lastly, the outcome data were obtained from the Finngen database.

@@ -1,0 +1,23 @@
+source:
+  citation: triage2026_39637861_ef620bbef7c2
+  local: sources/triage2026/39637861_ef620bbef7c2.txt
+  sha256: ef620bbef7c26b63610b604b37f477d2b87919878f8a25faa85abd581a2ce7e6
+  note: Text of the full text of record 39637861 (PMC11701259), file https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11701259/fullTextXML,
+    type JATS XML, file sha256 522f0501d327be050a5d30a75cdf404fb181672024ee3527776fce31e2343955; the text
+    the first registration's retrieval stored (text_sha256), or for a file it left without text the local
+    conversion of the supplement triage scan (scripts/supplement_triage_v2.py). Spreadsheets are pinned
+    in this extracted text (sheets as '## sheet', cells tab-separated) because citations does not read
+    xlsx. Pins of the unregistered supplement triage of 22 October 2026.
+claims:
+  ddac493825d3_1:
+    quotes:
+    - exact: 'Genome-wide association studies of Alzheimer’s disease | SOURCE: Jansen et al.50 | IDENTIFIER:
+        https://www.nature.com/articles/s41588-018-0311-9'
+  ddac493825d3_2:
+    quotes:
+    - exact: Summary statistics for AD are obtained from a meta-analysis of GWASs for clinically diagnosed
+        AD and AD by proxy, comprising 455,258 samples in total.50
+  d386e36babf4_1:
+    quotes:
+    - exact: The proteomics data used in our analysis comprise 54,306 participants from the UK Biobank
+        Pharma Proteomics Project (UKB-PPP).20

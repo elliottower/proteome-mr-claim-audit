@@ -1,0 +1,32 @@
+source:
+  citation: triage2026_41254737_a58dbcba40f1
+  local: sources/triage2026/41254737_a58dbcba40f1.txt
+  sha256: a58dbcba40f17f1ea60f6b3035cf942b22b1238eb42a1ee37f145a9b1325b7d2
+  note: Text of a supplementary file of record 41254737 (PMC12625383), file supplementaryFiles.zip/12967_2025_7269_MOESM1_ESM.xlsx,
+    type XLSX, file sha256 7215213cb55aac065991764215189b99388fc8f7740a689e37222a40c3a4c876; the text
+    the first registration's retrieval stored (text_sha256), or for a file it left without text the local
+    conversion of the supplement triage scan (scripts/supplement_triage_v2.py). Spreadsheets are pinned
+    in this extracted text (sheets as '## sheet', cells tab-separated) because citations does not read
+    xlsx. Pins of the unregistered supplement triage of 22 October 2026.
+claims:
+  4f470758a685_1:
+    quotes:
+    - exact: "Coronary atherosclerosis\tKurki MI\t2024\t56685\t378019\t36653562\tEuropean\tFinnGen R11"
+  4f470758a685_2:
+    quotes:
+    - exact: "Peripheral atherosclerosis\tKurki MI\t2022\t11197\t225597\thttps://r7.finngen.fi/\tEuropean\t\
+        FinnGen R7"
+  4f470758a685_3:
+    quotes:
+    - exact: "Atherosclerosis (exclude cerebral, coronary and PAD)\tKurki MI\t2024\t17832 \t420324\t36653562\t\
+        European\tFinnGen R11"
+  7659104bdc67_1:
+    quotes:
+    - exact: "Ferkingstad E\t2021\t35559\t18084\t4907\t34857953\tEuropean\tSomaLogic\tdeCODE"
+  4f470758a685_4:
+    quotes:
+    - exact: "FinnGen Cohort\tMGAT1\tAlpha-1,3-mannosyl-glycoprotein 2-beta-N-acetylglucosaminyltransferase\t\
+        Ferkingstad  et al 2021"
+  4f470758a685_5:
+    quotes:
+    - exact: "FinnGen Cohort\tADK\tAdenosine kinase\tFerkingstad  et al 2021"

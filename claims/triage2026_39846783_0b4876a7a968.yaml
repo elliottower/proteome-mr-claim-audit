@@ -1,0 +1,19 @@
+source:
+  citation: triage2026_39846783_0b4876a7a968
+  local: sources/triage2026/39846783_0b4876a7a968.txt
+  sha256: 0b4876a7a968ae37edbf85bcbef42799f99ed432ae2ceae8a9fbe496a7c903cc
+  note: Text of a supplementary file of record 39846783 (PMC11754674), file supplementaryFiles.zip/dyae175_supplementary_data.zip/ije-2023-08-1026-File010.xlsx,
+    type XLSX, file sha256 3a0d7aeb1d7d190447ef1c0002d8442a907f0a5672c956d40975a0c08b3dfaa4; the text
+    the first registration's retrieval stored (text_sha256), or for a file it left without text the local
+    conversion of the supplement triage scan (scripts/supplement_triage_v2.py). Spreadsheets are pinned
+    in this extracted text (sheets as '## sheet', cells tab-separated) because citations does not read
+    xlsx. Pins of the unregistered supplement triage of 22 October 2026.
+claims:
+  b54a948f1da3_1:
+    quotes:
+    - exact: "meta-analysis of GWAS from multiple case control studies of up to 58131 cases and 67347\
+        \ controls in European and East Asian ancestries\tHuyghe\t10.1038/s41588-018-0286-6"
+  8936c4663981_1:
+    quotes:
+    - exact: "GWAS of individuals 4,907 protein levels in up to 35559 individuals from Iceland.\tFerkingstad\t\
+        10.1038/s41588-021-00978-w"

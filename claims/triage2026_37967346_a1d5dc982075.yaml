@@ -1,0 +1,24 @@
+source:
+  citation: triage2026_37967346_a1d5dc982075
+  local: sources/triage2026/37967346_a1d5dc982075.txt
+  sha256: a1d5dc982075ac816de8ec04ee84f75cb170defa593f74fbe1a62fdb9364b863
+  note: Text of a supplementary file of record 37967346 (PMC10685397), file supplementaryFiles.zip/euad320_supplementary_data.zip/supplementary_tables_post_review_updated.xlsx,
+    type XLSX, file sha256 98107aab01da1443f077697e7337acaa2ae950ccb9fd5902ce8a4ff21da64154; the text
+    the first registration's retrieval stored (text_sha256), or for a file it left without text the local
+    conversion of the supplement triage scan (scripts/supplement_triage_v2.py). Spreadsheets are pinned
+    in this extracted text (sheets as '## sheet', cells tab-separated) because citations does not read
+    xlsx. Pins of the unregistered supplement triage of 22 October 2026.
+claims:
+  f609842ba043_1:
+    quotes:
+    - exact: '*PMID: 35078996'
+  95a2fa13f1b3_1:
+    quotes:
+    - exact: '#PMID: 30061737'
+  f609842ba043_2:
+    quotes:
+    - exact: "AGES-RS protein GWAS*\t\t\tExternal AF GWAS#"
+  95a2fa13f1b3_2:
+    quotes:
+    - exact: 'S9: Summary statistics for the genetic instruments (SNPs) used in the MR analysis reported
+        in the study'

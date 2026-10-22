@@ -1,0 +1,16 @@
+source:
+  citation: triage2026_39221148_3aa70a4aeb06
+  local: sources/triage2026/39221148_3aa70a4aeb06.txt
+  sha256: 3aa70a4aeb061cf4cd987f3e16f642b9ed65e86568501b35e8320e8784ab3906
+  note: Text of a supplementary file of record 39221148 (PMC11362091), file supplementaryFiles.zip/Table1.XLSX,
+    type XLSX, file sha256 b1c345962edc7d7e9e60bb7b1886a4c494a9933a4b6602f6935483823802f49f; the text
+    the first registration's retrieval stored (text_sha256), or for a file it left without text the local
+    conversion of the supplement triage scan (scripts/supplement_triage_v2.py). Spreadsheets are pinned
+    in this extracted text (sheets as '## sheet', cells tab-separated) because citations does not read
+    xlsx. Pins of the unregistered supplement triage of 22 October 2026.
+claims:
+  83f5540cc108_1:
+    quotes:
+    - exact: 'Non-cancer illness code, self-reported: glaucoma || id:ukb-b-8398'
+      prefix: 'action mr_keep fgfr3 '
+      suffix: ' -0.007482357 0.'

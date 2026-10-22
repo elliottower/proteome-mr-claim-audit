@@ -1,0 +1,16 @@
+source:
+  citation: triage2026_39408566_2b79bf28cd1b
+  local: sources/triage2026/39408566_2b79bf28cd1b.txt
+  sha256: 2b79bf28cd1bb9e34dbf06b39f0444dc79653aef5c552216fa6c4c6346e37e8b
+  note: Text of a supplementary file of record 39408566 (PMC11476976), file supplementaryFiles.zip/ijms-25-10236-s001.zip/ijms-3215465-supplementary.xlsx,
+    type XLSX, file sha256 3bedb321a6c8d349e5b8059786523b0f4f74b4e8f09d23ab9a87af96f5e120ee; the text
+    the first registration's retrieval stored (text_sha256), or for a file it left without text the local
+    conversion of the supplement triage scan (scripts/supplement_triage_v2.py). Spreadsheets are pinned
+    in this extracted text (sheets as '## sheet', cells tab-separated) because citations does not read
+    xlsx. Pins of the unregistered supplement triage of 22 October 2026.
+claims:
+  895299c3f02f_2:
+    quotes:
+    - exact: "glaucoma\tSeqId_19367_34\tECI1"
+      prefix: '0.00056 0.04634 '
+      suffix: ' 16 2239402 2252300'

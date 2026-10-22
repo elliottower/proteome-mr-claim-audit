@@ -1,0 +1,15 @@
+source:
+  citation: triage2026_37516812_7f57411fb63c
+  local: sources/triage2026/37516812_7f57411fb63c.txt
+  sha256: 7f57411fb63c2f34e834e9ccf8d9200aa0a9c2f4a48ef5cd70b95fad5414fa4b
+  note: Text of the full text of record 37516812 (PMC10387057), file https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10387057/fullTextXML,
+    type JATS XML, file sha256 4dc95ef6de177b7bcd14d4c560505ea928a87d67f8c0ec1bd681ff09e5e47eb6; the text
+    the first registration's retrieval stored (text_sha256), or for a file it left without text the local
+    conversion of the supplement triage scan (scripts/supplement_triage_v2.py). Spreadsheets are pinned
+    in this extracted text (sheets as '## sheet', cells tab-separated) because citations does not read
+    xlsx. Pins of the unregistered supplement triage of 22 October 2026.
+claims:
+  119aac8dba1d_1:
+    quotes:
+    - exact: 'summary statistics for PD (ID: ieu-b-7)31, covering 33,674 patients and 449,056 controls,
+        were derived from the International Parkinson’s Disease Genomics Consortium'

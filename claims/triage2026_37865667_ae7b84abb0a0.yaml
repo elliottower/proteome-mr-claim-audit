@@ -1,0 +1,20 @@
+source:
+  citation: triage2026_37865667_ae7b84abb0a0
+  local: sources/triage2026/37865667_ae7b84abb0a0.txt
+  sha256: ae7b84abb0a09cdd42802637c5d7ea349dca888b7e23dec9f3ebffd22b4db366
+  note: Text of a supplementary file of record 37865667 (PMC10590374), file supplementaryFiles.zip/41531_2023_591_MOESM1_ESM.pdf,
+    type PDF, file sha256 fc7c834e4b2631c7b982d1723a57c346f826cd7abe0bd34bc285710b65e9c4dc; the text the
+    first registration's retrieval stored (text_sha256), or for a file it left without text the local
+    conversion of the supplement triage scan (scripts/supplement_triage_v2.py). Spreadsheets are pinned
+    in this extracted text (sheets as '## sheet', cells tab-separated) because citations does not read
+    xlsx. Pins of the unregistered supplement triage of 22 October 2026.
+claims:
+  9d79e89a02d6_2:
+    quotes:
+    - exact: 'meta-analysis of genome-wide association studies. Lancet Neurol 2019; 18 (12): 1091-1102.'
+  9d79e89a02d6_3:
+    quotes:
+    - exact: 'doi: 10.1016/S1474-4422(19)30320-5.'
+  9d79e89a02d6_4:
+    quotes:
+    - exact: Nalls et al. (2019)           PD GWAS      IPDGC            482730 (induvials)

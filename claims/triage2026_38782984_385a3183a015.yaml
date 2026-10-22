@@ -1,0 +1,19 @@
+source:
+  citation: triage2026_38782984_385a3183a015
+  local: sources/triage2026/38782984_385a3183a015.txt
+  sha256: 385a3183a01564a701986eed99a2999e4a82707813514fcb913773b5b8b8d7cf
+  note: Text of the full text of record 38782984 (PMC11116402), file https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11116402/fullTextXML,
+    type JATS XML, file sha256 5b08234f6f381b4f670465da4e3cdfb55648e8006dd760cc1003034ef16f5adc; the text
+    the first registration's retrieval stored (text_sha256), or for a file it left without text the local
+    conversion of the supplement triage scan (scripts/supplement_triage_v2.py). Spreadsheets are pinned
+    in this extracted text (sheets as '## sheet', cells tab-separated) because citations does not read
+    xlsx. Pins of the unregistered supplement triage of 22 October 2026.
+claims:
+  6d9bf939a635_1:
+    quotes:
+    - exact: We examined 4,907 pQTLs in a dataset of 35,553 Icelanders
+      section: Data sources
+  6d9bf939a635_2:
+    quotes:
+    - exact: were chosen as IVs from GWAS in the deCODE study (https://www.decode.com/summarydata/)
+      section: Data sources

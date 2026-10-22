@@ -1,0 +1,15 @@
+source:
+  citation: triage2026_39592890_63d0312e6086
+  local: sources/triage2026/39592890_63d0312e6086.txt
+  sha256: 63d0312e6086bd52d0213f0d7b06fa415ea92e820b0ad2bc2e2ee7723a138672
+  note: Text of a supplementary file of record 39592890 (PMC7617254), file supplementaryFiles.zip/DOM-27-866-s002.pdf,
+    type PDF, file sha256 e04e524bdec6c2abb67aadb66d88968b58790d346d9cec406137b8df88169e50; the text the
+    first registration's retrieval stored (text_sha256), or for a file it left without text the local
+    conversion of the supplement triage scan (scripts/supplement_triage_v2.py). Spreadsheets are pinned
+    in this extracted text (sheets as '## sheet', cells tab-separated) because citations does not read
+    xlsx. Pins of the unregistered supplement triage of 22 October 2026.
+claims:
+  3c7eaee15f62_1:
+    quotes:
+    - exact: deCODE/Ferkingstad et al. (2021)        35,559 Icelanders                                                                            Age,
+        sex, and sample age                     34857953

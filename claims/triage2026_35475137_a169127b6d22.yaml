@@ -1,0 +1,18 @@
+source:
+  citation: triage2026_35475137_a169127b6d22
+  local: sources/triage2026/35475137_a169127b6d22.txt
+  sha256: a169127b6d22a2f1653a8d6fddcb3638e0d77390085eaaf5a51c3878c84a8bbe
+  note: Text of a supplementary file of record 35475137 (PMC9019629), file supplementaryFiles.zip/DAD2-14-e12280-s002.xlsx,
+    type XLSX, file sha256 45b89c5d283ebe8408be6f85ec530243edd67cae2b01a5504b4081bc9ef8a010; the text
+    the first registration's retrieval stored (text_sha256), or for a file it left without text the local
+    conversion of the supplement triage scan (scripts/supplement_triage_v2.py). Spreadsheets are pinned
+    in this extracted text (sheets as '## sheet', cells tab-separated) because citations does not read
+    xlsx. Pins of the unregistered supplement triage of 22 October 2026.
+claims:
+  64ed563df869_1:
+    quotes:
+    - exact: "Jansen I\t2018\t71880\tAlzheimer's disease risk (family history)\t30617256"
+  64ed563df869_2:
+    quotes:
+    - exact: Table S21. GWA Studies of Alzheimer's disease and associated traits that were used for Mendelian
+        Randomisation analyses in the present study

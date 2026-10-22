@@ -1,0 +1,23 @@
+source:
+  citation: triage2026_38637810_b75a961e4afd
+  local: sources/triage2026/38637810_b75a961e4afd.txt
+  sha256: b75a961e4afd0e305d8c4afb62cac5eac1dd523805df6713b755be167761488f
+  note: Text of a supplementary file of record 38637810 (PMC11025255), file supplementaryFiles.zip/12967_2024_5153_MOESM2_ESM.xlsx,
+    type XLSX, file sha256 9112bdf3e86ac5b29413e2d70810f3e2ab35c4374b191ac85d790fb55ab00114; the text
+    the first registration's retrieval stored (text_sha256), or for a file it left without text the local
+    conversion of the supplement triage scan (scripts/supplement_triage_v2.py). Spreadsheets are pinned
+    in this extracted text (sheets as '## sheet', cells tab-separated) because citations does not read
+    xlsx. Pins of the unregistered supplement triage of 22 October 2026.
+claims:
+  1f9b2155ac77_1:
+    quotes:
+    - exact: "Depression\t43280/329192\tEuropean\tgs://finngen-public-data-r9/summary_stats/finngen_R9_F5_DEPRESSIO.gz"
+  1f9b2155ac77_2:
+    quotes:
+    - exact: "Depression\t1145/360049\tEuropean\thttps://broad-ukb-sumstats-us-east-1.s3.amazonaws.com/round2/additive-tsvs/F5_DEPRESSIO.gwas.imputed_v3.both_sexes.tsv.bgz"
+  1f9b2155ac77_3:
+    quotes:
+    - exact: "MDD\t246363/561190\tEuropean\thttps://datashare.ed.ac.uk/handle/10283/3203"
+  04783757e790_1:
+    quotes:
+    - exact: "pQTL\thttps://www.decode.com/summarydata/"

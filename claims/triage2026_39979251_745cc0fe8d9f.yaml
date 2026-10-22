@@ -1,0 +1,20 @@
+source:
+  citation: triage2026_39979251_745cc0fe8d9f
+  local: sources/triage2026/39979251_745cc0fe8d9f.txt
+  sha256: 745cc0fe8d9f302d5ab94ab62f59fff96cec32c80da36266e36a0c3a1896eb3e
+  note: Text of the full text of record 39979251 (PMC11842700), file https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11842700/fullTextXML,
+    type JATS XML, file sha256 36128e876e3d1a802f84eca1c9df05579ca7b7ecbc6a675005b36465a9ad1d2f; the text
+    the first registration's retrieval stored (text_sha256), or for a file it left without text the local
+    conversion of the supplement triage scan (scripts/supplement_triage_v2.py). Spreadsheets are pinned
+    in this extracted text (sheets as '## sheet', cells tab-separated) because citations does not read
+    xlsx. Pins of the unregistered supplement triage of 22 October 2026.
+claims:
+  28aacb2fee5c_1:
+    quotes:
+    - exact: I downloaded the summary statistics from the Psychiatric Genomics Consortium (PGC) website
+        (https://pgc.unc.edu/for-researchers/download-results/), excluding the 23andMe samples (N = 500,199,
+        including 170,756 cases and 329,443 controls)
+  099319929422_1:
+    quotes:
+    - exact: I used a human plasma proteome data from the Atherosclerosis Risk in Communities (ARIC) study
+        [21], which quantified 4657 proteins in 7213 individuals of European American ancestry

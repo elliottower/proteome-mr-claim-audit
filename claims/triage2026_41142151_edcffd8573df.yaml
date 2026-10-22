@@ -1,0 +1,20 @@
+source:
+  citation: triage2026_41142151_edcffd8573df
+  local: sources/triage2026/41142151_edcffd8573df.txt
+  sha256: edcffd8573df9b8589c6ddd83f91d571380b9a341cfbd438045b7bc709e54f41
+  note: Text of the full text of record 41142151 (PMC12545141), file https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12545141/fullTextXML,
+    type JATS XML, file sha256 fc5c6f9260c5e20de632931ade408d12c7d84a91a24d6437d3d56fd63ee312eb; the text
+    the first registration's retrieval stored (text_sha256), or for a file it left without text the local
+    conversion of the supplement triage scan (scripts/supplement_triage_v2.py). Spreadsheets are pinned
+    in this extracted text (sheets as '## sheet', cells tab-separated) because citations does not read
+    xlsx. Pins of the unregistered supplement triage of 22 October 2026.
+claims:
+  33918ef934dc_1:
+    quotes:
+    - exact: The GWAS summary statistics for PHN were sourced from the FinnGen database.2 The data include
+        490 cases and 435,371 controls.
+  e7f3d5c587b6_1:
+    quotes:
+    - exact: encompassing a cohort of 35,559 individuals from Iceland (13). Plasma samples from all participants
+        were analyzed utilizing the Soma Scan version 4 assay (SomaLogic), thereby yielding measurements
+        for 4,907 distinct plasma protein levels.

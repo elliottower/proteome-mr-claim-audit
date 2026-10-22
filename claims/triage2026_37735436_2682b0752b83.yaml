@@ -1,0 +1,20 @@
+source:
+  citation: triage2026_37735436_2682b0752b83
+  local: sources/triage2026/37735436_2682b0752b83.txt
+  sha256: 2682b0752b838511b9a5e57db96084692bfde2b18a2bd5cc142bdc41f1bf43a7
+  note: Text of a supplementary file of record 37735436 (PMC10512580), file supplementaryFiles.zip/12967_2023_4525_MOESM1_ESM.zip/Table
+    S2.xlsx, type XLSX, file sha256 14aca812a4cb17d60c1ddd9fb1c3beea4a49b1833ade64ae8a5bea1238217e7a;
+    the text the first registration's retrieval stored (text_sha256), or for a file it left without text
+    the local conversion of the supplement triage scan (scripts/supplement_triage_v2.py). Spreadsheets
+    are pinned in this extracted text (sheets as '## sheet', cells tab-separated) because citations does
+    not read xlsx. Pins of the unregistered supplement triage of 22 October 2026.
+claims:
+  6a1707442786_1:
+    quotes:
+    - exact: "External validation\tprostate cancer\thttps://gwas.mrcieu.ac.uk/\tieu-b-4809\tEuropean"
+  6a1707442786_2:
+    quotes:
+    - exact: "breast cancer\thttps://gwas.mrcieu.ac.uk/\tukb-b-16890\tEuropean"
+  6a1707442786_3:
+    quotes:
+    - exact: "lung cancer\thttps://gwas.mrcieu.ac.uk/\tukb-b-20176\tEuropean"

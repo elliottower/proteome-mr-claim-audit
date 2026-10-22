@@ -1,0 +1,20 @@
+source:
+  citation: triage2026_39068416_b109d3a01f8b
+  local: sources/triage2026/39068416_b109d3a01f8b.txt
+  sha256: b109d3a01f8bacbfe3bd56ed8e41ce474ec8668ba8aa6518a3f32126fc78f501
+  note: Text of the full text of record 39068416 (PMC11282778), file https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11282778/fullTextXML,
+    type JATS XML, file sha256 e06c86c072d3ffe5fc75d4d497a0b308c57ae5643f0d346ad252fbde4c26104f; the text
+    the first registration's retrieval stored (text_sha256), or for a file it left without text the local
+    conversion of the supplement triage scan (scripts/supplement_triage_v2.py). Spreadsheets are pinned
+    in this extracted text (sheets as '## sheet', cells tab-separated) because citations does not read
+    xlsx. Pins of the unregistered supplement triage of 22 October 2026.
+claims:
+  076b6eeddbe3_1:
+    quotes:
+    - exact: The GWAS summary data of PCa were retrieved from the study of PRACTICAL Consortium [14],
+        which meta-analyzed genotype data from 79,148 PCa cases and 61,106 controls of European ancestry.
+  32bf7e5afe2e_1:
+    quotes:
+    - exact: We retrieved the genetic summary data of plasma proteins from Ferkingstad et al.’s study
+        [13]. In that study, the genome-wide association study (GWAS) was performed for 4,907 aptamers
+        in 35,559 Icelanders

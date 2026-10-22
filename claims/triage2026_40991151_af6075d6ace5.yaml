@@ -1,0 +1,22 @@
+source:
+  citation: triage2026_40991151_af6075d6ace5
+  local: sources/triage2026/40991151_af6075d6ace5.txt
+  sha256: af6075d6ace59edc532a56071b31861269a667ce47ce96d9abff822f8968e922
+  note: Text of the full text of record 40991151 (PMC12494647), file https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12494647/fullTextXML,
+    type JATS XML, file sha256 d67b2d2630811dab94310f1a71e4f82bbb0a58f1e3aa72cd61705f90b8d487d5; the text
+    the first registration's retrieval stored (text_sha256), or for a file it left without text the local
+    conversion of the supplement triage scan (scripts/supplement_triage_v2.py). Spreadsheets are pinned
+    in this extracted text (sheets as '## sheet', cells tab-separated) because citations does not read
+    xlsx. Pins of the unregistered supplement triage of 22 October 2026.
+claims:
+  a153f5434266_1:
+    quotes:
+    - exact: Ferkingstad et al. (2021) released publicly available GWAS summary statistics for 4,907 aptamers
+        measuring 4,719 proteins, in an Icelandic population sample (n = 35,559).
+  a153f5434266_2:
+    quotes:
+    - exact: Pietzner et al. (2021) released publicly available GWAS summary results statistics for 4,979
+        aptamers measuring 4,775 proteins, from a population of European-descent (n = 10,708).
+  a153f5434266_3:
+    quotes:
+    - exact: two large cohort proteome GWAS were combined (Ferkingstad et al. 2021; Pietzner et al. 2021)

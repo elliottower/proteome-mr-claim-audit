@@ -1,0 +1,19 @@
+source:
+  citation: triage2026_41261649_fa7c2ceafc5e
+  local: sources/triage2026/41261649_fa7c2ceafc5e.txt
+  sha256: fa7c2ceafc5e30e9e7ccb9fda47f5279deeca21a00b5aa1d5b51339ce7152691
+  note: Text of the full text of record 41261649 (PMC12582709), file https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12582709/fullTextXML,
+    type JATS XML, file sha256 05e6ddaa9d24e22dfbd6e62fe9a9ce7a5b890a7f8850f2f6578885582c9588c5; the text
+    the first registration's retrieval stored (text_sha256), or for a file it left without text the local
+    conversion of the supplement triage scan (scripts/supplement_triage_v2.py). Spreadsheets are pinned
+    in this extracted text (sheets as '## sheet', cells tab-separated) because citations does not read
+    xlsx. Pins of the unregistered supplement triage of 22 October 2026.
+claims:
+  07f69486f621_1:
+    quotes:
+    - exact: As external validation, we obtained independent GWAS data from the UK Biobank (2811 cases
+        and 406,150 controls).
+  becdd36c44f1_1:
+    quotes:
+    - exact: To validate findings, we extracted additional pQTL data from the Fenland Study, which includes
+        measurements of 4775 proteins in 10,708 individuals of European ancestry.

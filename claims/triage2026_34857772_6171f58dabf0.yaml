@@ -1,0 +1,14 @@
+source:
+  citation: triage2026_34857772_6171f58dabf0
+  local: sources/triage2026/34857772_6171f58dabf0.txt
+  sha256: 6171f58dabf063634029ef15776c1decf727087b776d8bea49f2b280b825d1de
+  note: Text of a supplementary file of record 34857772 (PMC8640022), file supplementaryFiles.zip/41467_2021_27387_MOESM13_ESM.xlsx,
+    type XLSX, file sha256 5e110dd990b401610daa7828d37cc8eceda3878dab647e8d0fca7fff8a5a550c; the text
+    the first registration's retrieval stored (text_sha256), or for a file it left without text the local
+    conversion of the supplement triage scan (scripts/supplement_triage_v2.py). Spreadsheets are pinned
+    in this extracted text (sheets as '## sheet', cells tab-separated) because citations does not read
+    xlsx. Pins of the unregistered supplement triage of 22 October 2026.
+claims:
+  008f994e9bb8_1:
+    quotes:
+    - exact: "CD33\tCD33\tGCST90059917\tMyeloid cell surface antigen CD33"

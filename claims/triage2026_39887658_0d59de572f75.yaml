@@ -1,0 +1,19 @@
+source:
+  citation: triage2026_39887658_0d59de572f75
+  local: sources/triage2026/39887658_0d59de572f75.txt
+  sha256: 0d59de572f75aecd839f41288238b2f120ee679c26429d7cb0e3f59539d8232a
+  note: Text of the full text of record 39887658 (PMC12209750), file https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12209750/fullTextXML,
+    type JATS XML, file sha256 6550542cff6642cf997fb9d9379e9c46a7491bf725ac3ced804810eb22e6b054; the text
+    the first registration's retrieval stored (text_sha256), or for a file it left without text the local
+    conversion of the supplement triage scan (scripts/supplement_triage_v2.py). Spreadsheets are pinned
+    in this extracted text (sheets as '## sheet', cells tab-separated) because citations does not read
+    xlsx. Pins of the unregistered supplement triage of 22 October 2026.
+claims:
+  709dc039c3a3_1:
+    quotes:
+    - exact: 4,719 proteins on the SomaLogic version 4 panel measured in plasma on 35,559 Icelanders in
+        the deCODE study
+  709dc039c3a3_2:
+    quotes:
+    - exact: 2,923 proteins on the Olink Explore panel measured in plasma on 54,306 participants in UK
+        Biobank.

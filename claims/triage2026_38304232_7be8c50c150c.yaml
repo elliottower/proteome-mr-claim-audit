@@ -1,0 +1,25 @@
+source:
+  citation: triage2026_38304232_7be8c50c150c
+  local: sources/triage2026/38304232_7be8c50c150c.txt
+  sha256: 7be8c50c150ca501648fcb5eaa8e3eaa5ecb39e14b77968e6dc9750e3725bcea
+  note: Text of the full text of record 38304232 (PMC10833003), file https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10833003/fullTextXML,
+    type JATS XML, file sha256 02eb4b9eec2573c0cdce98998a38c07021c8e55539740aa15e5da6f302a3e283; the text
+    the first registration's retrieval stored (text_sha256), or for a file it left without text the local
+    conversion of the supplement triage scan (scripts/supplement_triage_v2.py). Spreadsheets are pinned
+    in this extracted text (sheets as '## sheet', cells tab-separated) because citations does not read
+    xlsx. Pins of the unregistered supplement triage of 22 October 2026.
+claims:
+  51d9ba12301d_1:
+    quotes:
+    - exact: 'GWAS: Overall Breast Cancer | Cohort: Association analysis identifies 65 new breast cancer
+        risk loci | Paper title: Association analysis identifies 65 new breast cancer risk loci | Year:
+        2017 | Author: Kyriaki Michailidou, et al | PMID: 29,059,683 | Sample size: 228,951'
+  a484cd4496a8_1:
+    quotes:
+    - exact: 'GWAS: Discovery | Cohort: ARIC study | Paper title: Plasma proteome analyses in individuals
+        of European and African ancestry identify cis-pQTLs and models for proteome-wide association studies
+        | Year: 2022 | Author: Jingning Zhang, et al | PMID: 35,501,419 | Sample size: 7,213'
+  a484cd4496a8_2:
+    quotes:
+    - exact: Cis-pQTL data for European Americans’ (EA) plasma proteins were obtained from the ARIC cohort
+        (nilanjanchatterjeelab.org/pwas/)

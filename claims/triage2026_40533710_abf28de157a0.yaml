@@ -1,0 +1,14 @@
+source:
+  citation: triage2026_40533710_abf28de157a0
+  local: sources/triage2026/40533710_abf28de157a0.txt
+  sha256: abf28de157a08bed42418fae887cea2fc1154d04bc07c3cb27cc5c096ec5dffe
+  note: Text of a supplementary file of record 40533710 (PMC12176702), file supplementaryFiles.zip/12672_2025_2968_MOESM2_ESM.csv,
+    type CSV, file sha256 abf28de157a08bed42418fae887cea2fc1154d04bc07c3cb27cc5c096ec5dffe; the text the
+    first registration's retrieval stored (text_sha256), or for a file it left without text the local
+    conversion of the supplement triage scan (scripts/supplement_triage_v2.py). Spreadsheets are pinned
+    in this extracted text (sheets as '## sheet', cells tab-separated) because citations does not read
+    xlsx. Pins of the unregistered supplement triage of 22 October 2026.
+claims:
+  78c464baad5b_1:
+    quotes:
+    - exact: ukb-ppp-C5-OID30744,ebi-a-GCST006085,Prostate cancer || id:ebi-a-GCST006085

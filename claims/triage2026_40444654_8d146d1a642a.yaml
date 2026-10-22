@@ -1,0 +1,20 @@
+source:
+  citation: triage2026_40444654_8d146d1a642a
+  local: sources/triage2026/40444654_8d146d1a642a.txt
+  sha256: 8d146d1a642a501739724ed5dfe6966b20c44c5c2b8bf1282e7e5ab595e4f7a3
+  note: Text of a supplementary file of record 40444654 (PMC12123450), file supplementaryFiles.zip/BRB3-15-e70606-s001.xlsx,
+    type XLSX, file sha256 ada21b84c7a3bf80eb43f53bc9e4289b75c053acb576dc928e84138f78ef6d3a; the text
+    the first registration's retrieval stored (text_sha256), or for a file it left without text the local
+    conversion of the supplement triage scan (scripts/supplement_triage_v2.py). Spreadsheets are pinned
+    in this extracted text (sheets as '## sheet', cells tab-separated) because citations does not read
+    xlsx. Pins of the unregistered supplement triage of 22 October 2026.
+claims:
+  5c53d07308a5_1:
+    quotes:
+    - exact: "pQTL\tFerkingstad et al.\t35,559 Icelanders\t34857953"
+      section: Table S1
+  5eae0a81ba76_1:
+    quotes:
+    - exact: "Multiple sclerosis\tthe International Multiple Sclerosis Genetics Consortium(IMSGC)\t47,429\
+        \ European-ancestry cases and 68,374European-ancestry controls"
+      section: Table S1

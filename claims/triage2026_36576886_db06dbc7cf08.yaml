@@ -1,0 +1,18 @@
+source:
+  citation: triage2026_36576886_db06dbc7cf08
+  local: sources/triage2026/36576886_db06dbc7cf08.txt
+  sha256: db06dbc7cf0887b6306fbe5b9e40ee479f423b414c8e8b83ffd0ab07ea87d3b0
+  note: Text of a supplementary file of record 36576886 (PMC10155748), file supplementaryFiles.zip/jjac191_suppl_supplementary_material.docx,
+    type DOCX, file sha256 e701b392acac05e756b672e7432cd09701be5e4c8f5f5bd35a79b4c95e623fbd; the text
+    the first registration's retrieval stored (text_sha256), or for a file it left without text the local
+    conversion of the supplement triage scan (scripts/supplement_triage_v2.py). Spreadsheets are pinned
+    in this extracted text (sheets as '## sheet', cells tab-separated) because citations does not read
+    xlsx. Pins of the unregistered supplement triage of 22 October 2026.
+claims:
+  6d653ede5c4d_1:
+    quotes:
+    - exact: "CXCL11 (Eotaxin)\t2\tSun et al GWAS1\t3,301 healthy participants from the INTERVAL study\
+        \ of European ancestry"
+  6d653ede5c4d_2:
+    quotes:
+    - exact: "CXCL9 (MIG)\t1\tAhola-Olli AV et al GWAS3\tup to 8,293 individuals of European ancestry"

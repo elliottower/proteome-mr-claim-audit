@@ -1,0 +1,19 @@
+source:
+  citation: triage2026_40149599_94a88bbec98f
+  local: sources/triage2026/40149599_94a88bbec98f.txt
+  sha256: 94a88bbec98fec07b861609329140da7060c761095a75720ac94fb57e16812c1
+  note: Text of the full text of record 40149599 (PMC11940241), file https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11940241/fullTextXML,
+    type JATS XML, file sha256 99353fed39151490c5e8c04fa59633c50d4a365ab5801478aef30b05cfb0844f; the text
+    the first registration's retrieval stored (text_sha256), or for a file it left without text the local
+    conversion of the supplement triage scan (scripts/supplement_triage_v2.py). Spreadsheets are pinned
+    in this extracted text (sheets as '## sheet', cells tab-separated) because citations does not read
+    xlsx. Pins of the unregistered supplement triage of 22 October 2026.
+claims:
+  8cfc170ad44f_1:
+    quotes:
+    - exact: 'Trait: ALS | Accession Number: ebi-a-GCST90027163 | Population: European | Sample Size:
+        138,086 | Year: 2021 | Reference: van Rheenen W [12]'
+  0a4d0f4127f3_1:
+    quotes:
+    - exact: Summary-level statistics for genetic associations with 4907 circulatory protein levels were
+        extracted from a large-scale QTL study [9], which included 35,559 European individuals.

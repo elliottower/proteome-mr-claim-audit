@@ -1,0 +1,15 @@
+source:
+  citation: triage2026_41088581_e8860c37a0f4
+  local: sources/triage2026/41088581_e8860c37a0f4.txt
+  sha256: e8860c37a0f493a111f836d6bd2b058f4e8ff02f81af22fb1c10532c2331d92a
+  note: Text of the full text of record 41088581 (PMC12517818), file https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12517818/fullTextXML,
+    type JATS XML, file sha256 fa2ee8ca7f8976c98cab6e708e633762de21de3e4857da0ada332ed264eb971f; the text
+    the first registration's retrieval stored (text_sha256), or for a file it left without text the local
+    conversion of the supplement triage scan (scripts/supplement_triage_v2.py). Spreadsheets are pinned
+    in this extracted text (sheets as '## sheet', cells tab-separated) because citations does not read
+    xlsx. Pins of the unregistered supplement triage of 22 October 2026.
+claims:
+  13bb3c341e6e_2:
+    quotes:
+    - exact: For the analysis of 3282 human plasma proteins, genetic variation data from 3301 Europeans
+        were utilized

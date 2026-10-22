@@ -1,0 +1,15 @@
+source:
+  citation: triage2026_40193678_b0c162eba4b5
+  local: sources/triage2026/40193678_b0c162eba4b5.txt
+  sha256: b0c162eba4b54f64e505353525176a8847669f33d175273cf94579abd1903288
+  note: Text of the full text of record 40193678 (PMC11977695), file https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11977695/fullTextXML,
+    type JATS XML, file sha256 f32444e4bd276b061a976a16a35a9c54c8368b8ee11ffd0a349d1d28f4de868c; the text
+    the first registration's retrieval stored (text_sha256), or for a file it left without text the local
+    conversion of the supplement triage scan (scripts/supplement_triage_v2.py). Spreadsheets are pinned
+    in this extracted text (sheets as '## sheet', cells tab-separated) because citations does not read
+    xlsx. Pins of the unregistered supplement triage of 22 October 2026.
+claims:
+  c5bc46f404f8_2:
+    quotes:
+    - exact: The GWAS summary statistics for plasma proteins were derived from a European population,
+        covering a total of 4907 proteins.

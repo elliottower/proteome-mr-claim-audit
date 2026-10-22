@@ -1,0 +1,21 @@
+source:
+  citation: triage2026_36857861_fcef96855e74
+  local: sources/triage2026/36857861_fcef96855e74.txt
+  sha256: fcef96855e74752e5d970bb8aabddd56fe44c9fcbd14d64192ef654fe77d5012
+  note: Text of a supplementary file of record 36857861 (PMC9986512), file supplementaryFiles.zip/mmc1.xlsx,
+    type XLSX, file sha256 fcbe87e1be7dea000cebc42fc7ec1183f91f53694d2e0e271b0977ccc4cdbfb4; the text
+    the first registration's retrieval stored (text_sha256), or for a file it left without text the local
+    conversion of the supplement triage scan (scripts/supplement_triage_v2.py). Spreadsheets are pinned
+    in this extracted text (sheets as '## sheet', cells tab-separated) because citations does not read
+    xlsx. Pins of the unregistered supplement triage of 22 October 2026.
+claims:
+  6ae73a4b84b4_3:
+    quotes:
+    - exact: "The FinnGen study\t5,349 European-ancestry cases and 249,705 European-ancestry controls"
+  5d2e0d9a4ae5_1:
+    quotes:
+    - exact: "Ulcerative colitis\tThe International Inflammatory Bowel Disease Genetics Consortium (IIBDGC)\t\
+        6,968 European-ancestry cases and 20,464 European-ancestry controls\t26192919"
+  dcd54cffdc2d_1:
+    quotes:
+    - exact: "Circulating proteins levels\tFerkingstad E\t35,559 Icelanders\t34857953"

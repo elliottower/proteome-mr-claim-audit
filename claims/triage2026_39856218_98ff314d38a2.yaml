@@ -1,0 +1,14 @@
+source:
+  citation: triage2026_39856218_98ff314d38a2
+  local: sources/triage2026/39856218_98ff314d38a2.txt
+  sha256: 98ff314d38a229db1deb6e1f155e925102dbf2b8915c5a3da120fe57c16a07ef
+  note: Text of the full text of record 39856218 (PMC11821532), file https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11821532/fullTextXML,
+    type JATS XML, file sha256 8149c96a804e57040469966edafe02674346b738562eb933311dad91b19560cd; the text
+    the first registration's retrieval stored (text_sha256), or for a file it left without text the local
+    conversion of the supplement triage scan (scripts/supplement_triage_v2.py). Spreadsheets are pinned
+    in this extracted text (sheets as '## sheet', cells tab-separated) because citations does not read
+    xlsx. Pins of the unregistered supplement triage of 22 October 2026.
+claims:
+  7d09c8df5ca5_2:
+    quotes:
+    - exact: For the outcome, we used GWAS of CAD25 (181,522 CAD cases and 1,165,690 controls)

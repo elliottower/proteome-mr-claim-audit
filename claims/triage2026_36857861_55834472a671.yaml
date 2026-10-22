@@ -1,0 +1,19 @@
+source:
+  citation: triage2026_36857861_55834472a671
+  local: sources/triage2026/36857861_55834472a671.txt
+  sha256: 55834472a671ac89bf31c1b2012fb9af76442d6312569818b65c15a143906984
+  note: Text of the full text of record 36857861 (PMC9986512), file https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9986512/fullTextXML,
+    type JATS XML, file sha256 7dd8b8b3c0687e15bf46b65c6330d2f2665d16e5b231311d4b52fd393d7fb3d4; the text
+    the first registration's retrieval stored (text_sha256), or for a file it left without text the local
+    conversion of the supplement triage scan (scripts/supplement_triage_v2.py). Spreadsheets are pinned
+    in this extracted text (sheets as '## sheet', cells tab-separated) because citations does not read
+    xlsx. Pins of the unregistered supplement triage of 22 October 2026.
+claims:
+  6ae73a4b84b4_1:
+    quotes:
+    - exact: We also obtain summary-level data on IBD and its subtype from the R6 data release of the
+        FinnGen study.
+  6ae73a4b84b4_2:
+    quotes:
+    - exact: The IIBDGC GWASs were employed in the discovery stage, and the GWASs from the UK Biobank
+        study and the FinnGen study were employed for replication.

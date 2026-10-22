@@ -1,0 +1,16 @@
+source:
+  citation: triage2026_38029854_b63fec5e731a
+  local: sources/triage2026/38029854_b63fec5e731a.txt
+  sha256: b63fec5e731a17556c8f40ce91e75c619d8a36e76a0610412353bea176d50ce1
+  note: Text of the full text of record 38029854 (PMC7615672), file https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7615672/fullTextXML,
+    type JATS XML, file sha256 35383709a371872b3ee5b431aaf31aac60f7dbf308542c2a914a8485b6b7c712; the text
+    the first registration's retrieval stored (text_sha256), or for a file it left without text the local
+    conversion of the supplement triage scan (scripts/supplement_triage_v2.py). Spreadsheets are pinned
+    in this extracted text (sheets as '## sheet', cells tab-separated) because citations does not read
+    xlsx. Pins of the unregistered supplement triage of 22 October 2026.
+claims:
+  59b34b2fe997_1:
+    quotes:
+    - exact: summary-level data for 4907 blood proteins were obtained from GWASs in 35 559 Icelanders
+        (mean age, 55 years; 50% women) [15]. Plasma proteins were measured using the SomaScan version
+        4 assay (SomaLogic).

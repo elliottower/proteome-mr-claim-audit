@@ -1,0 +1,14 @@
+source:
+  citation: triage2026_37340071_ca5a8b142ce8
+  local: sources/triage2026/37340071_ca5a8b142ce8.txt
+  sha256: ca5a8b142ce8616cca829f6fa278945981858cc13b437efb3d797666fb0be564
+  note: Text of a supplementary file of record 37340071 (PMC10282034), file supplementaryFiles.zip/41598_2023_37144_MOESM1_ESM.xlsx,
+    type XLSX, file sha256 50bf28b0c36539cc420c18b30bcec97d686f85c224e266c186375784da843cca; the text
+    the first registration's retrieval stored (text_sha256), or for a file it left without text the local
+    conversion of the supplement triage scan (scripts/supplement_triage_v2.py). Spreadsheets are pinned
+    in this extracted text (sheets as '## sheet', cells tab-separated) because citations does not read
+    xlsx. Pins of the unregistered supplement triage of 22 October 2026.
+claims:
+  ea3016e40ff6_1:
+    quotes:
+    - exact: "prot-a-2944\tAngiopoietin-1 receptor, soluble\tNo overlap\t10\t5e-06\t1.108514"

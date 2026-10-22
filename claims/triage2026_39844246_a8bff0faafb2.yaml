@@ -1,0 +1,14 @@
+source:
+  citation: triage2026_39844246_a8bff0faafb2
+  local: sources/triage2026/39844246_a8bff0faafb2.txt
+  sha256: a8bff0faafb2e2c4f22876fcea2554a2add1357cbb862202acde5587ce6ab7c2
+  note: Text of the full text of record 39844246 (PMC11752815), file https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11752815/fullTextXML,
+    type JATS XML, file sha256 8089bcec0b3ff27e5671665893a5938d5fb0b732401f6e72595cc49df002b36f; the text
+    the first registration's retrieval stored (text_sha256), or for a file it left without text the local
+    conversion of the supplement triage scan (scripts/supplement_triage_v2.py). Spreadsheets are pinned
+    in this extracted text (sheets as '## sheet', cells tab-separated) because citations does not read
+    xlsx. Pins of the unregistered supplement triage of 22 October 2026.
+claims:
+  2546f472a9ad_1:
+    quotes:
+    - exact: protein QTL (pQTL) from Ferkingstad et al. (n = 35,559 Icelanders)

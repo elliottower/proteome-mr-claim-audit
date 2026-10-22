@@ -1,0 +1,25 @@
+source:
+  citation: triage2026_38730525_f283d4d7de70
+  local: sources/triage2026/38730525_f283d4d7de70.txt
+  sha256: f283d4d7de70acab75383e178235496194236483dbe47120e232315cd4a8da6d
+  note: Text of a supplementary file of record 38730525 (PMC11087394), file supplementaryFiles.zip/CLT2-14-e12357-s001.xlsx,
+    type XLSX, file sha256 4b793abe183291b5e33d62e0738ddcef6c49e59bbffece50b3670b2418c581e4; the text
+    the first registration's retrieval stored (text_sha256), or for a file it left without text the local
+    conversion of the supplement triage scan (scripts/supplement_triage_v2.py). Spreadsheets are pinned
+    in this extracted text (sheets as '## sheet', cells tab-separated) because citations does not read
+    xlsx. Pins of the unregistered supplement triage of 22 October 2026.
+claims:
+  3d26c0e33ad2_1:
+    quotes:
+    - exact: "Childhood asthma (age<16)\tukb-d-ASTHMA_CHILD\t361194"
+      section: Table S1
+  e468d3ab25ce_1:
+    quotes:
+    - exact: "plasma proteins\t—\t—\t—\tEuropean\thttps://gwas.mrcieu.ac.uk/datasets/?gwas_id__icontains=prot-a"
+      section: Table S1
+  e468d3ab25ce_2:
+    quotes:
+    - exact: "prot-a-1898\tMHC class I polypeptide-related sequence B"
+      prefix: '-0.981702 0.043 '
+      suffix: ' body mass index'
+      section: Table S4

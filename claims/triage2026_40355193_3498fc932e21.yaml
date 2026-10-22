@@ -1,0 +1,18 @@
+source:
+  citation: triage2026_40355193_3498fc932e21
+  local: sources/triage2026/40355193_3498fc932e21.txt
+  sha256: 3498fc932e212d59b0767aba3579f0e614c515df9e784434c3a803b3af22ffb6
+  note: Text of a supplementary file of record 40355193 (PMC12074030), file supplementaryFiles.zip/medi-104-e42409-s001.xlsx,
+    type XLSX, file sha256 9b84a4e39b68084d8b921372566522efaed3fb06b36ca6da84cd354b5fb33f4e; the text
+    the first registration's retrieval stored (text_sha256), or for a file it left without text the local
+    conversion of the supplement triage scan (scripts/supplement_triage_v2.py). Spreadsheets are pinned
+    in this extracted text (sheets as '## sheet', cells tab-separated) because citations does not read
+    xlsx. Pins of the unregistered supplement triage of 22 October 2026.
+claims:
+  94f3c8c0ea1d_1:
+    quotes:
+    - exact: "COPD\tFinnegan consortium, R10\t20,066 cases and 338,303 controls\tEuropean ancestry\thttps://storage.googleapis.com/finngen-public-data-r10/summary_stats/finngen_R10_J10_COPD.gz"
+  974c3e03da22_1:
+    quotes:
+    - exact: "Plasma Proteins\t UK Biobank Pharma Proteomics Project\t54,219 individuals\tEuropean ancestry\t\
+        https://www.decode.com/summarydata/ \t37794186"

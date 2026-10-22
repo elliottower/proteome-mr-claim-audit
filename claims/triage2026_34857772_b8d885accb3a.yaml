@@ -1,0 +1,15 @@
+source:
+  citation: triage2026_34857772_b8d885accb3a
+  local: sources/triage2026/34857772_b8d885accb3a.txt
+  sha256: b8d885accb3ad82a1a9a8e9667d4287953ea1d1e8e0ecdb14f2d4bf8b076fd95
+  note: Text of the full text of record 34857772 (PMC8640022), file https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8640022/fullTextXML,
+    type JATS XML, file sha256 12e87522ede67c3abb6c79bb183687088bebb7311ce0ed076042192691a210fc; the text
+    the first registration's retrieval stored (text_sha256), or for a file it left without text the local
+    conversion of the supplement triage scan (scripts/supplement_triage_v2.py). Spreadsheets are pinned
+    in this extracted text (sheets as '## sheet', cells tab-separated) because citations does not read
+    xlsx. Pins of the unregistered supplement triage of 22 October 2026.
+claims:
+  008f994e9bb8_2:
+    quotes:
+    - exact: Proteins from Olink’s (https://www.olink.com) Neurology and Neuro-exploratory panels were
+        measured in the serum of 1457 MANOLIS and 1611 Pomak samples.

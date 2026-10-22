@@ -1,0 +1,24 @@
+source:
+  citation: triage2026_40269081_d95c56de511c
+  local: sources/triage2026/40269081_d95c56de511c.txt
+  sha256: d95c56de511c50125e71860794b0fa8a5638f7508e282a161c90c8ec0fbf2490
+  note: Text of the full text of record 40269081 (PMC12019183), file https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12019183/fullTextXML,
+    type JATS XML, file sha256 d7fe7bc87f7989c810c49eb84ee7a24d1d36037e5c1f19bf636eed9035a57985; the text
+    the first registration's retrieval stored (text_sha256), or for a file it left without text the local
+    conversion of the supplement triage scan (scripts/supplement_triage_v2.py). Spreadsheets are pinned
+    in this extracted text (sheets as '## sheet', cells tab-separated) because citations does not read
+    xlsx. Pins of the unregistered supplement triage of 22 October 2026.
+claims:
+  7da1625a3150_1:
+    quotes:
+    - exact: 'Further validation was conducted using summary statistics from the UK Biobank (ID: 615:
+        Endometriosis) with a case-control sample size of 4036 cases and 210,927 controls of European
+        ancestries'
+  7da1625a3150_2:
+    quotes:
+    - exact: The GWAS summary statistics for endometriosis was available on Leelab Pheweb (https://pheweb.org/UKB-TOPMed/pheno/615)
+        for the UK Biobank cohort
+      prefix: 'discovery cohort could be sourced from the gwas catalog (https://www.ebi.ac.uk/gwas/home)
+        under the search term of gcst90269970 16. '
+      suffix: ' and on the finngen r10 (https://r10.risteys.finngen.fi/) for the finngen cohort. ## declarations
+        ## competing interests the authors'

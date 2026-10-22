@@ -1,0 +1,23 @@
+source:
+  citation: triage2026_39386869_32f94d4640e0
+  local: sources/triage2026/39386869_32f94d4640e0.txt
+  sha256: 32f94d4640e0cccd25bd8d208d86f533398d2b86d8c03e68decf0a3670d45bc9
+  note: Text of the full text of record 39386869 (PMC11462259), file https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11462259/fullTextXML,
+    type JATS XML, file sha256 53203433aa7ffd100530dd0a0daff4041c4ac81f47891b94346923281fd8e4fd; the text
+    the first registration's retrieval stored (text_sha256), or for a file it left without text the local
+    conversion of the supplement triage scan (scripts/supplement_triage_v2.py). Spreadsheets are pinned
+    in this extracted text (sheets as '## sheet', cells tab-separated) because citations does not read
+    xlsx. Pins of the unregistered supplement triage of 22 October 2026.
+claims:
+  54cbefe9aa84_1:
+    quotes:
+    - exact: We used the summary statistics from a meta-analysis of UK Biobank SOFT CAD GWAS with CARDIoGRAMplusC4D
+        1000 Genomes-based GWAS and the Myocardial Infarction Genetics and CARDIoGRAM Exome [24], which
+        included ∼76,014 cases and ∼264785 controls.
+  0506f4d9ac25_1:
+    quotes:
+    - exact: a total of 4907 aptamers that target a total of 4719 unique proteins remained for the pQTL
+        analysis
+  0506f4d9ac25_2:
+    quotes:
+    - exact: Of these, 35,559 Icelanders had both genotype and protein measurements.

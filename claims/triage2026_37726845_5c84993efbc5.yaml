@@ -1,0 +1,38 @@
+source:
+  citation: triage2026_37726845_5c84993efbc5
+  local: sources/triage2026/37726845_5c84993efbc5.txt
+  sha256: 5c84993efbc5b11fab73a958fbd2f1b38cf1d3dca6c3217124befe0861a47bff
+  note: Text of a supplementary file of record 37726845 (PMC10508028), file supplementaryFiles.zip/13073_2023_1229_MOESM1_ESM.xlsx,
+    type XLSX, file sha256 439ce0131503c686643d6c66ce9d8c9c1d8300c36aed34f7a2e27d01a534508f; the text
+    the first registration's retrieval stored (text_sha256), or for a file it left without text the local
+    conversion of the supplement triage scan (scripts/supplement_triage_v2.py). Spreadsheets are pinned
+    in this extracted text (sheets as '## sheet', cells tab-separated) because citations does not read
+    xlsx. Pins of the unregistered supplement triage of 22 October 2026.
+claims:
+  9034cf20ad73_1:
+    quotes:
+    - exact: "FinnGen\tFinnish biobank\t4957\t304197\tFinnGen ThermoFisher Axiom custom array"
+  72d245922f94_1:
+    quotes:
+    - exact: "Pietzner et al. 2021\t4775\t8328\t10708\tSomaLogic"
+  72d245922f94_2:
+    quotes:
+    - exact: "Ferkingstad et al. 2021\t4719\t18084\t35559\tSomaLogic"
+  72d245922f94_3:
+    quotes:
+    - exact: "Sun_1 et al. 2018\t2995\t1927\t3301\tSomaLogic"
+  72d245922f94_4:
+    quotes:
+    - exact: "GREM1\tPietzner\t10708\trs58658771"
+  72d245922f94_5:
+    quotes:
+    - exact: "CHRDL2\tSun_1\t3301\trs11607100"
+  72d245922f94_6:
+    quotes:
+    - exact: "CLSTN3\tFerkingstad\t35559\trs7137828"
+  72d245922f94_7:
+    quotes:
+    - exact: "CSF2RA\tFerkingstad\t35559\trs3184504"
+  72d245922f94_8:
+    quotes:
+    - exact: "CD86\tFerkingstad\t35559\trs3184504"

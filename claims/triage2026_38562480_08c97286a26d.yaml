@@ -1,0 +1,16 @@
+source:
+  citation: triage2026_38562480_08c97286a26d
+  local: sources/triage2026/38562480_08c97286a26d.txt
+  sha256: 08c97286a26d64356bff24e440d3087f5c2c583af2d2cc9fdd150dacb1339dfe
+  note: Text of a supplementary file of record 38562480 (PMC10982360), file supplementaryFiles.zip/Data_Sheet_1.XLSX,
+    type XLSX, file sha256 8654346931beb883bb547f738c3931ac8fedfc3b29d0be64fe8d27825fa5061a; the text
+    the first registration's retrieval stored (text_sha256), or for a file it left without text the local
+    conversion of the supplement triage scan (scripts/supplement_triage_v2.py). Spreadsheets are pinned
+    in this extracted text (sheets as '## sheet', cells tab-separated) because citations does not read
+    xlsx. Pins of the unregistered supplement triage of 22 October 2026.
+claims:
+  8c2f33a729e3_1:
+    quotes:
+    - exact: "finn-b-C3_COLON_EXALLC\tMalignant neoplasm of colon (all cancers excluded) || id:finn-b-C3_COLON_EXALLC"
+      prefix: 'lci95 or_uci95 ebi-a-gcst90016998 '
+      suffix: ' || id:ebi-a-gcst90016998 mr egger'

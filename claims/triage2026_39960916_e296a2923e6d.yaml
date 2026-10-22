@@ -1,0 +1,20 @@
+source:
+  citation: triage2026_39960916_e296a2923e6d
+  local: sources/triage2026/39960916_e296a2923e6d.txt
+  sha256: e296a2923e6dcbb7323f77321440b6aa601f4ec9aa9e816ca895c0094ea3b7dc
+  note: Text of the full text of record 39960916 (PMC11835111), file https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11835111/fullTextXML,
+    type JATS XML, file sha256 9d1fa88dc6601077cb125de1ff027855ed75932cae0fed149c0dfe0204a9ca75; the text
+    the first registration's retrieval stored (text_sha256), or for a file it left without text the local
+    conversion of the supplement triage scan (scripts/supplement_triage_v2.py). Spreadsheets are pinned
+    in this extracted text (sheets as '## sheet', cells tab-separated) because citations does not read
+    xlsx. Pins of the unregistered supplement triage of 22 October 2026.
+claims:
+  c5c6df542908_1:
+    quotes:
+    - exact: summary statistics were retrieved from a GWAS dataset including 14,267 individuals (ncase
+        = 5201, ncontrol = 9066) of European ancestry
+  fa528accfb9e_1:
+    quotes:
+    - exact: the plasma pQTL data were retrieved from a study,[14] which integrated 5 previously published
+        GWAS.[16–20] Based on the screening criteria used above in the CSF pQTL dataset, 738 cis-acting
+        SNPs for 734 proteins were included

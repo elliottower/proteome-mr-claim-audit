@@ -1,0 +1,14 @@
+source:
+  citation: triage2026_40193678_3b7d29ad1590
+  local: sources/triage2026/40193678_3b7d29ad1590.txt
+  sha256: 3b7d29ad159081ad3fd50dbb0c332023a693b86a8c113438434971f95a5c8dd3
+  note: Text of a supplementary file of record 40193678 (PMC11977695), file supplementaryFiles.zip/medi-104-e42050-s001.xlsx,
+    type XLSX, file sha256 d78f165f516771a68073db95a96fa7fd9d0af80e6a566e69c12c5b45b918c0e2; the text
+    the first registration's retrieval stored (text_sha256), or for a file it left without text the local
+    conversion of the supplement triage scan (scripts/supplement_triage_v2.py). Spreadsheets are pinned
+    in this extracted text (sheets as '## sheet', cells tab-separated) because citations does not read
+    xlsx. Pins of the unregistered supplement triage of 22 October 2026.
+claims:
+  c5bc46f404f8_1:
+    quotes:
+    - exact: "4811_33_ITIH4_ITI_heavy_chain_H4\te57yTP\tChildhood asthma\tITIH4\tMR Egger"

@@ -1,0 +1,15 @@
+source:
+  citation: triage2026_39911230_4ad10bb989c5
+  local: sources/triage2026/39911230_4ad10bb989c5.txt
+  sha256: 4ad10bb989c505c02e0295bc7efe1be73f118924bd1322242737fa6624a4bf11
+  note: Text of the full text of record 39911230 (PMC11794050), file https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11794050/fullTextXML,
+    type JATS XML, file sha256 6ffc245866b5527bc59e0c9c5e9b67a57a96c913eeea019f6c3e451383e6219e; the text
+    the first registration's retrieval stored (text_sha256), or for a file it left without text the local
+    conversion of the supplement triage scan (scripts/supplement_triage_v2.py). Spreadsheets are pinned
+    in this extracted text (sheets as '## sheet', cells tab-separated) because citations does not read
+    xlsx. Pins of the unregistered supplement triage of 22 October 2026.
+claims:
+  a8f47153e14a_2:
+    quotes:
+    - exact: We exploited publicly available GWAS summary datasets for non-cancer illness code (self-reported)
+        - endometriosis from MRC-IEU (total n = 462933; case =3809, control = 459124)

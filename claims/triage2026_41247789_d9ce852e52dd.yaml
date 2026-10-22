@@ -1,0 +1,22 @@
+source:
+  citation: triage2026_41247789_d9ce852e52dd
+  local: sources/triage2026/41247789_d9ce852e52dd.txt
+  sha256: d9ce852e52ddb1bcd579bdfbd5c312f8762039f92364dce0083a51974039cf96
+  note: Text of the full text of record 41247789 (PMC12622964), file https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12622964/fullTextXML,
+    type JATS XML, file sha256 99dccff31e45ada6c9b68a573a4a00df84aa2802f499d5c4fa5638c9b9f60b0f; the text
+    the first registration's retrieval stored (text_sha256), or for a file it left without text the local
+    conversion of the supplement triage scan (scripts/supplement_triage_v2.py). Spreadsheets are pinned
+    in this extracted text (sheets as '## sheet', cells tab-separated) because citations does not read
+    xlsx. Pins of the unregistered supplement triage of 22 October 2026.
+claims:
+  009366c918f1_1:
+    quotes:
+    - exact: The PRACTICAL consortium included 79,198 cases and 61,106 controls. We used the data on PCa
+        from the FinnGen study R10 in this analysis, which comprised 15,199 cases and 131,266 controls.
+  009366c918f1_2:
+    quotes:
+    - exact: we performed a fixed-effect GWAS meta-analysis of the two GWASs using the METAL package
+  c50317461fb5_1:
+    quotes:
+    - exact: The genetic association summary statistics of 35,559 Icelanders from deCODE Genetics and
+        54,219 Europeans from the UKB-PPP were utilized

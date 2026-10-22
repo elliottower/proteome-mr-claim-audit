@@ -1,0 +1,18 @@
+source:
+  citation: triage2026_40426943_7f4061d40331
+  local: sources/triage2026/40426943_7f4061d40331.txt
+  sha256: 7f4061d40331140f13f56bd6fb29962697900e95f823f693b20f92a4c5ffb6e2
+  note: Text of a supplementary file of record 40426943 (PMC12109284), file supplementaryFiles.zip/biomedicines-13-01115-s001.zip/Table.xlsx,
+    type XLSX, file sha256 647c742f273ba146a80ed5acba5e833998b67c4a235a4facfb1aabe216e66767; the text
+    the first registration's retrieval stored (text_sha256), or for a file it left without text the local
+    conversion of the supplement triage scan (scripts/supplement_triage_v2.py). Spreadsheets are pinned
+    in this extracted text (sheets as '## sheet', cells tab-separated) because citations does not read
+    xlsx. Pins of the unregistered supplement triage of 22 October 2026.
+claims:
+  3ca7d0e191ec_2:
+    quotes:
+    - exact: Table S3. The instrumental variables in MR analysis of UKB-PPP cis-pQTLs on COAD
+  3ca7d0e191ec_3:
+    quotes:
+    - exact: "rs1265957\tG\tA\tG\tA\t0.297273\t-0.0544568\t0.952234\t0.977853\tFalse\tFalse\tFalse\t19\t\
+        58347310\t0.0526803\t353919\t0.301265\t19\t58347310\t0.0166904\t33995"

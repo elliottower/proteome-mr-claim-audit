@@ -1,0 +1,15 @@
+source:
+  citation: triage2026_36253349_693c80f47d4d
+  local: sources/triage2026/36253349_693c80f47d4d.txt
+  sha256: 693c80f47d4dc3cf4f1aa7e935ff2d23defc548f50aa99828427de5011f075c7
+  note: Text of the full text of record 36253349 (PMC9576777), file https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9576777/fullTextXML,
+    type JATS XML, file sha256 a2a57ab9b1d00d4a3d4971e38b7617b059b1b75ab8aace56d6b0e6f8ffd8e27b; the text
+    the first registration's retrieval stored (text_sha256), or for a file it left without text the local
+    conversion of the supplement triage scan (scripts/supplement_triage_v2.py). Spreadsheets are pinned
+    in this extracted text (sheets as '## sheet', cells tab-separated) because citations does not read
+    xlsx. Pins of the unregistered supplement triage of 22 October 2026.
+claims:
+  9972fd59bfdd_1:
+    quotes:
+    - exact: 'Phenotype: Any stroke | Sample size #: 40,585/406,111 | Imputation reference panel: 1000
+        Genomes phase 1 | Ancestry: European | Source: 17 studies (Malik et al.)22'

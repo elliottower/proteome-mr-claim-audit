@@ -1,0 +1,16 @@
+source:
+  citation: triage2026_40052860_90763ddb2955
+  local: sources/triage2026/40052860_90763ddb2955.txt
+  sha256: 90763ddb29551b65abb9086328d4f2ca3d64b5ea9ff9cf3e1d1e56218d97621c
+  note: Text of the full text of record 40052860 (PMC11905629), file https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11905629/fullTextXML,
+    type JATS XML, file sha256 0c9455a8c167eadb2ca64288c1c9fa9899a1a39333182d24d4f6e24a36a0b0da; the text
+    the first registration's retrieval stored (text_sha256), or for a file it left without text the local
+    conversion of the supplement triage scan (scripts/supplement_triage_v2.py). Spreadsheets are pinned
+    in this extracted text (sheets as '## sheet', cells tab-separated) because citations does not read
+    xlsx. Pins of the unregistered supplement triage of 22 October 2026.
+claims:
+  6f31c2b4ead6_1:
+    quotes:
+    - exact: The UK Biobank data supplied 1403 electronic health record (EHR)-derived International Classification
+        of Diseases (ICD)-based phenotypes for 20 million imputed variants in 400,000 White British individuals
+        (https://pheweb.org/UKB-SAIGE/)

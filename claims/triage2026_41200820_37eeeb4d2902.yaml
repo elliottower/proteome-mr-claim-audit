@@ -1,0 +1,25 @@
+source:
+  citation: triage2026_41200820_37eeeb4d2902
+  local: sources/triage2026/41200820_37eeeb4d2902.txt
+  sha256: 37eeeb4d29025ce866511b85a5dfe6fe415e283fe077aec9318baa87edee415c
+  note: Text of the full text of record 41200820 (PMC12711270), file https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12711270/fullTextXML,
+    type JATS XML, file sha256 7912d5072999dece32a91f4c15d4bdaf86c65c3dc9725e33f7b307705edbfc32; the text
+    the first registration's retrieval stored (text_sha256), or for a file it left without text the local
+    conversion of the supplement triage scan (scripts/supplement_triage_v2.py). Spreadsheets are pinned
+    in this extracted text (sheets as '## sheet', cells tab-separated) because citations does not read
+    xlsx. Pins of the unregistered supplement triage of 22 October 2026.
+claims:
+  55cee993591b_1:
+    quotes:
+    - exact: We used only the sentinel cis-pQTL with the lowest P value (P<1.7×10−11) from the complete
+        UKB-PPP cohort for each protein as IVs
+  905f30aa36b5_1:
+    quotes:
+    - exact: Outcome data on CHD and myocardial infarction from the CARDIoGRAMplusC4D 1000 Genomes project
+        have been contributed by CARDIoGRAMplusC4D investigators and have been downloaded from www.CARDIOGRAMPLUSC4D.ORG,
+        including 60 801 cases and 123 504 controls.
+  905f30aa36b5_2:
+    quotes:
+    - exact: Causal estimates of association between genetic determinants of proteins and myocardial infarction
+        from CARDIoGRAMplusC4D and FinnGen R10 outcome data were subsequently combined in meta-analysis
+        using a fixed-effects model.

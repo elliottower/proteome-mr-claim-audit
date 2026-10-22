@@ -1,0 +1,28 @@
+source:
+  citation: triage2026_40442727_7aba416d2530
+  local: sources/triage2026/40442727_7aba416d2530.txt
+  sha256: 7aba416d2530db3005d13c8628e077dbb711f153e796a44f5058f65a4db5483d
+  note: Text of the full text of record 40442727 (PMC12124044), file https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12124044/fullTextXML,
+    type JATS XML, file sha256 61987b8c46ac57bdb35805d5586dc73f0d7f7f020fb0875bf5767cd62c55be4d; the text
+    the first registration's retrieval stored (text_sha256), or for a file it left without text the local
+    conversion of the supplement triage scan (scripts/supplement_triage_v2.py). Spreadsheets are pinned
+    in this extracted text (sheets as '## sheet', cells tab-separated) because citations does not read
+    xlsx. Pins of the unregistered supplement triage of 22 October 2026.
+claims:
+  826651bd2f08_1:
+    quotes:
+    - exact: We used GWAS data from the discovery cohort which were restricted to participants of European
+        ancestry (n = 34,557).
+  820e99772f92_1:
+    quotes:
+    - exact: Specifically, we obtained genetic associations with proteins from deCODE genetics, conducted
+        in 35,559 Icelanders
+  2b13ce54cdc6_1:
+    quotes:
+    - exact: GWAS summary statistics for CAD were obtained from a GWAS meta-analysis in CARDIoGRAMplusC4D
+        (including UK Biobank), which involved 122,733 cases and 424,528 controls, primarily of European
+        ancestry
+  4ee4b677d82b_1:
+    quotes:
+    - exact: We also obtained genetic associations with the risk of CAD from FinnGen Biobank, which involved
+        21,012 CAD cases and 197,780 controls.

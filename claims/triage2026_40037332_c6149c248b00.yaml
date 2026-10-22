@@ -1,0 +1,26 @@
+source:
+  citation: triage2026_40037332_c6149c248b00
+  local: sources/triage2026/40037332_c6149c248b00.txt
+  sha256: c6149c248b00c44a0acb3dedb51f5d3a5156ed7799aa0a13ecf9165097868c77
+  note: Text of a supplementary file of record 40037332 (PMC12233555), file supplementaryFiles.zip/awaf018_supplementary_data.zip/brain-2024-00441-File011.xlsx,
+    type XLSX, file sha256 5e037aa576a3cd85ae84a714ff5d4052a8442707ca56dac86fe63893b9c4fff2; the text
+    the first registration's retrieval stored (text_sha256), or for a file it left without text the local
+    conversion of the supplement triage scan (scripts/supplement_triage_v2.py). Spreadsheets are pinned
+    in this extracted text (sheets as '## sheet', cells tab-separated) because citations does not read
+    xlsx. Pins of the unregistered supplement triage of 22 October 2026.
+claims:
+  f6ab23eca0c6_1:
+    quotes:
+    - exact: "Alzheimer's disease\t35379992\tBellenguez C\t2022\t788989\t111326\t677663"
+  f240d2e2eac8_1:
+    quotes:
+    - exact: "Parkinson's disease\t31701892\tNalls MA\t2019\t482730\t33674\t449056"
+  73a20808ecdc_1:
+    quotes:
+    - exact: "Multiple sclerosis\t31604244\tIMSGC\t2019\t115803\t47429\t68374"
+  1ae2bffbcc30_1:
+    quotes:
+    - exact: "Olink platform\t37794186\tSun B\t2023\t35571"
+  61907972a595_1:
+    quotes:
+    - exact: "SomaScan platform\t34857953\tFerkingstad E\t2021\t35559"

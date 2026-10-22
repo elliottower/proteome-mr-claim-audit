@@ -1,0 +1,16 @@
+source:
+  citation: triage2026_37537391_41bdb61d7818
+  local: sources/triage2026/37537391_41bdb61d7818.txt
+  sha256: 41bdb61d7818dd13aa9a2daae2fc0dd07366131026c1ce12368fa27379fa6483
+  note: Text of the full text of record 37537391 (PMC10678328), file https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10678328/fullTextXML,
+    type JATS XML, file sha256 d234fc1867602de820c688886166574b7e78ef7f6eb1063640ed38b2de4dd9c7; the text
+    the first registration's retrieval stored (text_sha256), or for a file it left without text the local
+    conversion of the supplement triage scan (scripts/supplement_triage_v2.py). Spreadsheets are pinned
+    in this extracted text (sheets as '## sheet', cells tab-separated) because citations does not read
+    xlsx. Pins of the unregistered supplement triage of 22 October 2026.
+claims:
+  a24521e73c5a_1:
+    quotes:
+    - exact: We next obtained whole-blood pQTL data from the Atherosclerosis Risk in Communities (ARIC)
+        study [19] including 1348 cis-heritable plasma proteins from 7213 European Americans (EA) to match
+        the GWAS datasets.

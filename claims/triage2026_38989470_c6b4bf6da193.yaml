@@ -1,0 +1,27 @@
+source:
+  citation: triage2026_38989470_c6b4bf6da193
+  local: sources/triage2026/38989470_c6b4bf6da193.txt
+  sha256: c6b4bf6da19393139f8f38a0114853524889024d5608294eb1db72d59286c724
+  note: Text of the full text of record 38989470 (PMC11233907), file https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11233907/fullTextXML,
+    type JATS XML, file sha256 39a96cf0bfbaa1c20159f4de35cc89630aeea291b25c3d42f9b886c530c41d61; the text
+    the first registration's retrieval stored (text_sha256), or for a file it left without text the local
+    conversion of the supplement triage scan (scripts/supplement_triage_v2.py). Spreadsheets are pinned
+    in this extracted text (sheets as '## sheet', cells tab-separated) because citations does not read
+    xlsx. Pins of the unregistered supplement triage of 22 October 2026.
+claims:
+  8a4a6271da65_1:
+    quotes:
+    - exact: we used summary statistics from a recent CAD GWAS meta-analysis3 consisting of 181,522 CAD
+        cases and 984,168 controls. To better match the genetic ancestry of individuals involved in the
+        gene and protein level association studies, we only included the European ancestry sub-study summary
+        statistics
+  8a4a6271da65_2:
+    quotes:
+    - exact: 'CAD GWAS summary statistics | SOURCE: Aragam et al.3; GWAS catalog | IDENTIFIER: GCST90132315'
+  c4ec1871c334_1:
+    quotes:
+    - exact: using summary statistics from the recent deCODE pQTL study (n = 35,559) to generate cis-pQTL
+        instruments for 1,658 aptamers
+  c4ec1871c334_2:
+    quotes:
+    - exact: 'deCODE pQTL summary statistics | SOURCE: Ferkingstad et al.81 | IDENTIFIER: https://www.decode.com/summarydata/'

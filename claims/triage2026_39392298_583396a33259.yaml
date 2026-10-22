@@ -1,0 +1,19 @@
+source:
+  citation: triage2026_39392298_583396a33259
+  local: sources/triage2026/39392298_583396a33259.txt
+  sha256: 583396a3325923b0be954af517625fb0527fca86c5f558fce838abc2e4f0b708
+  note: Text of a supplementary file of record 39392298 (PMC11469671), file supplementaryFiles.zip/elife-96224-supp2.xlsx,
+    type XLSX, file sha256 5817f578d8de0d4e23d206d6b7400c574988d0dd72c743ff0b096f6be0aa5ff8; the text
+    the first registration's retrieval stored (text_sha256), or for a file it left without text the local
+    conversion of the supplement triage scan (scripts/supplement_triage_v2.py). Spreadsheets are pinned
+    in this extracted text (sheets as '## sheet', cells tab-separated) because citations does not read
+    xlsx. Pins of the unregistered supplement triage of 22 October 2026.
+claims:
+  d52fa502f0c4_1:
+    quotes:
+    - exact: "prot-a-1226\tGuanine nucleotide-binding protein G(k) subunit alpha\tNA\tEuropean\tMales\
+        \ and Females\t2018\t10534735\t3301\tNA\tNA\tImmune system\tProtein\tSun BB\t29875488"
+  d52fa502f0c4_2:
+    quotes:
+    - exact: "prot-a-439\tMyeloid cell surface antigen CD33\tNA\tEuropean\tMales and Females\t2018\t10534735\t\
+        3301\tNA\tNA\tImmune system\tProtein\tSun BB\t29875488"

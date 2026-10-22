@@ -1,0 +1,20 @@
+source:
+  citation: triage2026_40820167_6ccc3374ff1a
+  local: sources/triage2026/40820167_6ccc3374ff1a.txt
+  sha256: 6ccc3374ff1aedc7f19573388b0625545c40c0e909e55f8821448efeefd7c427
+  note: Text of the full text of record 40820167 (PMC12358540), file https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12358540/fullTextXML,
+    type JATS XML, file sha256 e6d4857c51473c5a13686954021a20c8c3f7269c8ca25789fce2e000a78d9a93; the text
+    the first registration's retrieval stored (text_sha256), or for a file it left without text the local
+    conversion of the supplement triage scan (scripts/supplement_triage_v2.py). Spreadsheets are pinned
+    in this extracted text (sheets as '## sheet', cells tab-separated) because citations does not read
+    xlsx. Pins of the unregistered supplement triage of 22 October 2026.
+claims:
+  55af990ed6df_1:
+    quotes:
+    - exact: Plasma protein QTL (pQTL) data were derived from a study by Ferkingstad et al.11, which involved
+        35,559 Icelandic participants
+  275a6ff566c1_1:
+    quotes:
+    - exact: GWAS summary statistics for AD were primarily sourced from the study by Bellenguez et al.28,
+        which analyzed data from 39,106 clinically diagnosed AD cases, 46,828 proxy cases (based on parental
+        history), and 401,577 controls

@@ -1,0 +1,41 @@
+source:
+  citation: triage2026_39434187_80aac923ebcd
+  local: sources/triage2026/39434187_80aac923ebcd.txt
+  sha256: 80aac923ebcd190832513a9fdcc5655ca65c85f827baed9b799ce3abd25e3c69
+  note: Text of the full text of record 39434187 (PMC11492627), file https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11492627/fullTextXML,
+    type JATS XML, file sha256 242872b6f2fe45b0ea6afa8610f628b9239ec57985e5addd4e78c52f69b63ced; the text
+    the first registration's retrieval stored (text_sha256), or for a file it left without text the local
+    conversion of the supplement triage scan (scripts/supplement_triage_v2.py). Spreadsheets are pinned
+    in this extracted text (sheets as '## sheet', cells tab-separated) because citations does not read
+    xlsx. Pins of the unregistered supplement triage of 22 October 2026.
+claims:
+  01a1983a4909_1:
+    quotes:
+    - exact: atrial fibrillation (cases = 60,620, total n = 1,030,836; https://www.ebi.ac.uk/gwas/publications/30061737(28))
+      prefix: 'uk government''s horizon europe funding guarantee ep/z000211/1, as well as by the ukri/nihr
+        multimorbidity fund mechanism and therapeutics research collaborative mr/v033867/1. ## data availability
+        all scripts and aggregated data are available online at https://gitlab.com/mvvugt/mr_metabolites_pub.
+        the gwas data on plasma metabolite values can be accessed via https://www.ebi.ac.uk/gwas/publications/33414548(27).
+        the individual gwas data on cardiac outcomes leveraged in this study can be accessed as follows: '
+      suffix: ', heart failure (cases = 47,309, total n = 977,323; https://www.ebi.ac.uk/gwas/publications/31919418(29)),
+        dilated cardiomyopathy (cases = 2,719, total n = 6,980; https://www.ebi.ac.uk/gwas/publications/33677556(30))
+        and non-ischemic cardiomyopathy (cases = 1,816, total n = 395,972; https://www.ebi.ac.uk/gwas/publications/30586722(31)).
+        the individual gwas data on plasma protein values can be accessed as follows: decode (n = 35,559,
+        https://www.decode.com/summarydata/(32)), scallop (n = 30,931, https://www.'
+  6bde0d2effd1_1:
+    quotes:
+    - exact: heart failure (cases = 47,309, total n = 977,323; https://www.ebi.ac.uk/gwas/publications/31919418(29))
+      prefix: 'mechanism and therapeutics research collaborative mr/v033867/1. ## data availability all
+        scripts and aggregated data are available online at https://gitlab.com/mvvugt/mr_metabolites_pub.
+        the gwas data on plasma metabolite values can be accessed via https://www.ebi.ac.uk/gwas/publications/33414548(27).
+        the individual gwas data on cardiac outcomes leveraged in this study can be accessed as follows:
+        atrial fibrillation (cases = 60,620, total n = 1,030,836; https://www.ebi.ac.uk/gwas/publications/30061737(28)), '
+      suffix: ', dilated cardiomyopathy (cases = 2,719, total n = 6,980; https://www.ebi.ac.uk/gwas/publications/33677556(30))
+        and non-ischemic cardiomyopathy (cases = 1,816, total n = 395,972; https://www.ebi.ac.uk/gwas/publications/30586722(31)).
+        the individual gwas data on plasma protein values can be accessed as follows: decode (n = 35,559,
+        https://www.decode.com/summarydata/(32)), scallop (n = 30,931, https://www.ebi.ac.uk/gwas/publications/33067605(33)),
+        ahola-olli et al. (n = 8,293, https://www.ebi.ac.uk/gwas/publications'
+  825f8d2a24d8_1:
+    quotes:
+    - exact: When a protein was available in multiple studies, we a priori decided to use the largest
+        sample size GWAS for the primary analysis

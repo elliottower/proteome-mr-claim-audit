@@ -1,0 +1,14 @@
+source:
+  citation: triage2026_39397782_f0c8d3c91bc9
+  local: sources/triage2026/39397782_f0c8d3c91bc9.txt
+  sha256: f0c8d3c91bc9434dceed228af47c65f4db395f6fec826f720617c8e6ed9dad24
+  note: Text of a supplementary file of record 39397782 (PMC11560279), file supplementaryFiles.zip/ehae658_supplementary_data.pdf,
+    type PDF, file sha256 f13d68b65d344e690f56bd64f20f1effbf7a1d7fec6bb139acfd16d481646d26; the text the
+    first registration's retrieval stored (text_sha256), or for a file it left without text the local
+    conversion of the supplement triage scan (scripts/supplement_triage_v2.py). Spreadsheets are pinned
+    in this extracted text (sheets as '## sheet', cells tab-separated) because citations does not read
+    xlsx. Pins of the unregistered supplement triage of 22 October 2026.
+claims:
+  c97000b919da_1:
+    quotes:
+    - exact: Outcome data source – Nikpay et al. 2015, CARDIoGRAMplusC4D Consortium, sample size =171,875

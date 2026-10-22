@@ -1,0 +1,14 @@
+source:
+  citation: triage2026_39824903_06c4fd3f24e8
+  local: sources/triage2026/39824903_06c4fd3f24e8.txt
+  sha256: 06c4fd3f24e87897e6171e5e1b9889c9fd6b91ab3fe25870fced90b30e1e2b02
+  note: Text of a supplementary file of record 39824903 (PMC11748740), file supplementaryFiles.zip/41598_2025_85338_MOESM1_ESM.xlsx,
+    type XLSX, file sha256 051c59c949ba78d09b7a74846e1eaaba53c32374cff1f45126215065f2eda7c5; the text
+    the first registration's retrieval stored (text_sha256), or for a file it left without text the local
+    conversion of the supplement triage scan (scripts/supplement_triage_v2.py). Spreadsheets are pinned
+    in this extracted text (sheets as '## sheet', cells tab-separated) because citations does not read
+    xlsx. Pins of the unregistered supplement triage of 22 October 2026.
+claims:
+  34d2ca2d8505_1:
+    quotes:
+    - exact: "37794186\t54219\t2923\tUK biobank\tantibody-based detection method"

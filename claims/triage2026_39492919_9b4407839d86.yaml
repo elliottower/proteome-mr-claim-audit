@@ -1,0 +1,15 @@
+source:
+  citation: triage2026_39492919_9b4407839d86
+  local: sources/triage2026/39492919_9b4407839d86.txt
+  sha256: 9b4407839d8616e151efc6b41355b45efd9390f5d320b0d4c1028bc2b0a7fae4
+  note: Text of the full text of record 39492919 (PMC11531621), file https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11531621/fullTextXML,
+    type JATS XML, file sha256 e5abae91460d085d551027c0daf0a3e25c3f054f575f29852eab0d2a6dc9e52a; the text
+    the first registration's retrieval stored (text_sha256), or for a file it left without text the local
+    conversion of the supplement triage scan (scripts/supplement_triage_v2.py). Spreadsheets are pinned
+    in this extracted text (sheets as '## sheet', cells tab-separated) because citations does not read
+    xlsx. Pins of the unregistered supplement triage of 22 October 2026.
+claims:
+  079bd01a6c58_2:
+    quotes:
+    - exact: were derived from the International Genomics of Alzheimer's Project (IGAP) Genome-wide association
+        studies (GWAS) Stage 1 result (N = 21,982 cases, 41,944 controls) [25]

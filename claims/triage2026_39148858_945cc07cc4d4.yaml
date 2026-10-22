@@ -1,0 +1,22 @@
+source:
+  citation: triage2026_39148858_945cc07cc4d4
+  local: sources/triage2026/39148858_945cc07cc4d4.txt
+  sha256: 945cc07cc4d45b7dd7dd1b131b1f1d47c5fb5e102fd295beab1f9e3629e4f1b9
+  note: Text of the full text of record 39148858 (PMC11326359), file https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11326359/fullTextXML,
+    type JATS XML, file sha256 7ccca4e2d549677319ba489984501fa5f0e67b48d3bf188292f9bb45bbdf2c55; the text
+    the first registration's retrieval stored (text_sha256), or for a file it left without text the local
+    conversion of the supplement triage scan (scripts/supplement_triage_v2.py). Spreadsheets are pinned
+    in this extracted text (sheets as '## sheet', cells tab-separated) because citations does not read
+    xlsx. Pins of the unregistered supplement triage of 22 October 2026.
+claims:
+  7a568d7b82c9_1:
+    quotes:
+    - exact: utilizing QTLs for plasma levels of 2,922 proteins from 35k individuals in the UK Biobank
+        Pharma Proteomics Project (UKB-PPP)17
+  7a568d7b82c9_2:
+    quotes:
+    - exact: fine-mapping of pQTLs can be found in the following manuscript https://doi.org/10.1038/s41586-023-06592-6
+      prefix: 'gcp000982. protein qtl summary statistics from the ukb-ppp are available at https://www.synapse.org/synapse:syn51364943/wiki/622119
+        and '
+      suffix: '. cell type cres are available as part of the cis-element atlas (catlas) http://catlas.org/catlas_hub/.
+        ## references ## associated'

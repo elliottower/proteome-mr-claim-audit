@@ -1,0 +1,15 @@
+source:
+  citation: triage2026_40304587_0d93f6a8d7e4
+  local: sources/triage2026/40304587_0d93f6a8d7e4.txt
+  sha256: 0d93f6a8d7e4beb783ff795b1ba8555f7ce8cf0762d9dfc4ed5456d46850a974
+  note: Text of the full text of record 40304587 (PMC12209511), file https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12209511/fullTextXML,
+    type JATS XML, file sha256 eb153cddd4588a233fe571f3628c47e3a375b5249a90365b8222a8e7b3b66ea5; the text
+    the first registration's retrieval stored (text_sha256), or for a file it left without text the local
+    conversion of the supplement triage scan (scripts/supplement_triage_v2.py). Spreadsheets are pinned
+    in this extracted text (sheets as '## sheet', cells tab-separated) because citations does not read
+    xlsx. Pins of the unregistered supplement triage of 22 October 2026.
+claims:
+  6297e2b784c0_1:
+    quotes:
+    - exact: we obtained summary statistics for DN from the FinnGen GWAS dataset (n = 3,283 cases; n =
+        210,463 controls)

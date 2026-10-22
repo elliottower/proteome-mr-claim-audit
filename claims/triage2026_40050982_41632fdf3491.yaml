@@ -1,0 +1,18 @@
+source:
+  citation: triage2026_40050982_41632fdf3491
+  local: sources/triage2026/40050982_41632fdf3491.txt
+  sha256: 41632fdf349110edac22d71901b6df45e6047103b4cc98dab4dc464bb065a930
+  note: Text of a supplementary file of record 40050982 (PMC11884171), file supplementaryFiles.zip/12967_2025_6317_MOESM1_ESM.xlsx,
+    type XLSX, file sha256 8a5f4a7789b3ee429a14286ebdfeaf78aead289f9293194b8409dba5cc9e3c10; the text
+    the first registration's retrieval stored (text_sha256), or for a file it left without text the local
+    conversion of the supplement triage scan (scripts/supplement_triage_v2.py). Spreadsheets are pinned
+    in this extracted text (sheets as '## sheet', cells tab-separated) because citations does not read
+    xlsx. Pins of the unregistered supplement triage of 22 October 2026.
+claims:
+  3d5692ff221d_1:
+    quotes:
+    - exact: "cis-pQTL\tPlasma\t34557\tNA\tNA\tEuropean\tUKB-PPP\t37794186\tSun et al. 2023"
+  793189260d44_1:
+    quotes:
+    - exact: "Alzheimer's Disease\tNA\t487511\t39,106 clinically diagnosed cases, 46,828 proxy cases\t\
+        401577\tEuropean\tNA\t35379992\tBellenguez et al. 2022\thttps://www.ebi.ac.uk/gwas/studies/GCST90027158"

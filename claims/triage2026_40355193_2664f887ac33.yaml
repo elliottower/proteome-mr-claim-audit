@@ -1,0 +1,15 @@
+source:
+  citation: triage2026_40355193_2664f887ac33
+  local: sources/triage2026/40355193_2664f887ac33.txt
+  sha256: 2664f887ac336b09f724124f8367bf20620f063bd9fd4d84df2632de2c18ca48
+  note: Text of a supplementary file of record 40355193 (PMC12074030), file supplementaryFiles.zip/medi-104-e42409-s002.xlsx,
+    type XLSX, file sha256 e3307f0b494c08f02bfc26f699f85ec064344126ac458a9f6927b973c92efe21; the text
+    the first registration's retrieval stored (text_sha256), or for a file it left without text the local
+    conversion of the supplement triage scan (scripts/supplement_triage_v2.py). Spreadsheets are pinned
+    in this extracted text (sheets as '## sheet', cells tab-separated) because citations does not read
+    xlsx. Pins of the unregistered supplement triage of 22 October 2026.
+claims:
+  974c3e03da22_2:
+    quotes:
+    - exact: "Tyrosine-protein kinase receptor Tie-1 | Cardiometabolic\tukb-ppp-TIE1-OID20303\trs4660729\t\
+        1\t43302229\tG\tC\t0.191275\t0.00723486\t0.60875\t5.02e-154\t34090"

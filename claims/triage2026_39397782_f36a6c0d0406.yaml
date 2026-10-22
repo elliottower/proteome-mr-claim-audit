@@ -1,0 +1,17 @@
+source:
+  citation: triage2026_39397782_f36a6c0d0406
+  local: sources/triage2026/39397782_f36a6c0d0406.txt
+  sha256: f36a6c0d04066ed9bc5df78ddce9acc330281839fb6351a1cde839a8022bceb5
+  note: Text of the full text of record 39397782 (PMC11560279), file https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11560279/fullTextXML,
+    type JATS XML, file sha256 6f8ec713b1ec2a3900c87757fa0a880e0ae3fdfcce80f7f53a5baf2780fb8664; the text
+    the first registration's retrieval stored (text_sha256), or for a file it left without text the local
+    conversion of the supplement triage scan (scripts/supplement_triage_v2.py). Spreadsheets are pinned
+    in this extracted text (sheets as '## sheet', cells tab-separated) because citations does not read
+    xlsx. Pins of the unregistered supplement triage of 22 October 2026.
+claims:
+  c97000b919da_2:
+    quotes:
+    - exact: which included 43 676 participants with and 128 199 participants without MI
+  e757fa1b9fdf_1:
+    quotes:
+    - exact: in which protein levels were measured with the Olink technique (n = 54 219).25

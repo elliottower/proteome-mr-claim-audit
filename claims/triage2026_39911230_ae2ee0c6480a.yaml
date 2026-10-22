@@ -1,0 +1,18 @@
+source:
+  citation: triage2026_39911230_ae2ee0c6480a
+  local: sources/triage2026/39911230_ae2ee0c6480a.txt
+  sha256: ae2ee0c6480a3b29861a0352baa73b2742cc15e4ffd7c2b7cec591cf6e4ec247
+  note: Text of a supplementary file of record 39911230 (PMC11794050), file supplementaryFiles.zip/Table1.xlsx,
+    type XLSX, file sha256 2d8becece70ffd0f26e120fd935a8126d64d68ca1990f6db0e188819a1b58453; the text
+    the first registration's retrieval stored (text_sha256), or for a file it left without text the local
+    conversion of the supplement triage scan (scripts/supplement_triage_v2.py). Spreadsheets are pinned
+    in this extracted text (sheets as '## sheet', cells tab-separated) because citations does not read
+    xlsx. Pins of the unregistered supplement triage of 22 October 2026.
+claims:
+  a8f47153e14a_1:
+    quotes:
+    - exact: "1\t0.0017543\t1e-11\t462933\t0.000257986\t22465820\tukb-b-10903"
+  fe161f4629aa_1:
+    quotes:
+    - exact: "Plasma\tRSPO3\tQ9BXY4\trs2489623\t6\t127455821\tC\tA\t0.27\t0.0245\t3.6e-28\t0.534679\t\
+        3301\tSun"

@@ -1,0 +1,14 @@
+source:
+  citation: triage2026_41350740_d7dbb8657c3a
+  local: sources/triage2026/41350740_d7dbb8657c3a.txt
+  sha256: d7dbb8657c3a33272cfd710db0055291406b7304a6b20f1ce1a826898ae96f4f
+  note: Text of a supplementary file of record 41350740 (PMC12681122), file supplementaryFiles.zip/13195_2025_1901_MOESM1_ESM.xlsx,
+    type XLSX, file sha256 591223cd1bac9ef6e14374225a281887d3c360aa1563cd30f7f967aa2255c842; the text
+    the first registration's retrieval stored (text_sha256), or for a file it left without text the local
+    conversion of the supplement triage scan (scripts/supplement_triage_v2.py). Spreadsheets are pinned
+    in this extracted text (sheets as '## sheet', cells tab-separated) because citations does not read
+    xlsx. Pins of the unregistered supplement triage of 22 October 2026.
+claims:
+  b832f77508af_1:
+    quotes:
+    - exact: "The plasma cis-pQTL\tPlasma\t35559\tEuropean\tdeCODE\t2021\tNat Genet. \tPMID: 34857953"

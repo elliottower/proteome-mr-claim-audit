@@ -1,0 +1,14 @@
+source:
+  citation: triage2026_39870808_be10e71887ce
+  local: sources/triage2026/39870808_be10e71887ce.txt
+  sha256: be10e71887cedcba01d6c55eeae4a3dfc10cc13851c36dc3e59882e9a429853b
+  note: Text of a supplementary file of record 39870808 (PMC11772851), file supplementaryFiles.zip/41598_2025_88196_MOESM1_ESM.xlsx,
+    type XLSX, file sha256 0d40954d95b26a7b50b855a77eb9ea8108cabc4e952ef8afd3007e8ecae694a0; the text
+    the first registration's retrieval stored (text_sha256), or for a file it left without text the local
+    conversion of the supplement triage scan (scripts/supplement_triage_v2.py). Spreadsheets are pinned
+    in this extracted text (sheets as '## sheet', cells tab-separated) because citations does not read
+    xlsx. Pins of the unregistered supplement triage of 22 October 2026.
+claims:
+  96dc2d4d4a68_1:
+    quotes:
+    - exact: "Type 2 diabetes\t38841\t451248\t490089\t34594039"

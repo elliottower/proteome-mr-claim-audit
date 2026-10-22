@@ -1,0 +1,31 @@
+source:
+  citation: triage2026_38828357_c26df7c493ce
+  local: sources/triage2026/38828357_c26df7c493ce.txt
+  sha256: c26df7c493ce00f14fa34c02107ed84a068a1d3b2a25ea5024cdbfbcea103a00
+  note: Text of the full text of record 38828357 (PMC11140797), file https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11140797/fullTextXML,
+    type JATS XML, file sha256 0cdff42421ebbfc9cc8483d50d2b51a95f509ce67ad07d0d580dc8f1289c1264; the text
+    the first registration's retrieval stored (text_sha256), or for a file it left without text the local
+    conversion of the supplement triage scan (scripts/supplement_triage_v2.py). Spreadsheets are pinned
+    in this extracted text (sheets as '## sheet', cells tab-separated) because citations does not read
+    xlsx. Pins of the unregistered supplement triage of 22 October 2026.
+claims:
+  ckdgen_sizes:
+    quotes:
+    - exact: The eGFR, BUN, and CKD GWASs included 567,460, 243,029, and 480,698 participants (41,395
+        cases and 439,303 controls)
+      section: Methods
+  ckdgen_round4:
+    quotes:
+    - exact: were retrieved from the CKDGen consortium (round 4, https://ckdgen.imbi.uni-freiburg.de/)
+      prefix: 'egfr, bun, and ckd '
+      suffix: ' [5]. the ckdgen'
+      section: Methods
+  f6029aa6af79_1:
+    quotes:
+    - exact: a total of 7213 individuals with European ancestry were included in this study
+      section: Methods
+  f6029aa6af79_2:
+    quotes:
+    - exact: The pQTL data can be found at http://nilanjanchatterjeelab.org/pwas
+      prefix: '-freiburg.de/). '
+      suffix: '. ## credit authorship'

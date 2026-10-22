@@ -1,0 +1,15 @@
+source:
+  citation: triage2026_40604874_dcf97a44025a
+  local: sources/triage2026/40604874_dcf97a44025a.txt
+  sha256: dcf97a44025a6b9a7fc5330e3943d0cc202df19eb3b997149adb2b8e4c0c8d48
+  note: Text of a supplementary file of record 40604874 (PMC12220662), file supplementaryFiles.zip/13098_2025_1792_MOESM2_ESM.xlsx,
+    type XLSX, file sha256 7e182d87c5d14104518d58e48d80f0ccf38abe9b8e6c14f36742f2c9d3d4cd13; the text
+    the first registration's retrieval stored (text_sha256), or for a file it left without text the local
+    conversion of the supplement triage scan (scripts/supplement_triage_v2.py). Spreadsheets are pinned
+    in this extracted text (sheets as '## sheet', cells tab-separated) because citations does not read
+    xlsx. Pins of the unregistered supplement triage of 22 October 2026.
+claims:
+  51165186e48b_1:
+    quotes:
+    - exact: "Inflammation proteins\tINTERVAL, STABILITY,BioFINDER, KORA,ORCADES, NSPHS,VIS,SWEBIC, Estonian\
+        \ Biobank, RECOMBINE/EIRA\t37563310\tEurope"

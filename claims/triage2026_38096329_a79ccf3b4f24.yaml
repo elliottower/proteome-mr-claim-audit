@@ -1,0 +1,15 @@
+source:
+  citation: triage2026_38096329_a79ccf3b4f24
+  local: sources/triage2026/38096329_a79ccf3b4f24.txt
+  sha256: a79ccf3b4f2418e8c3d1bebdeda622d3f995644deb54b0302b3de9b873644323
+  note: Text of the full text of record 38096329 (PMC10721084), file https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10721084/fullTextXML,
+    type JATS XML, file sha256 e096df9ccd8e6f66266eac69153a66a161558567bc0cc96ee6ccc654515f2629; the text
+    the first registration's retrieval stored (text_sha256), or for a file it left without text the local
+    conversion of the supplement triage scan (scripts/supplement_triage_v2.py). Spreadsheets are pinned
+    in this extracted text (sheets as '## sheet', cells tab-separated) because citations does not read
+    xlsx. Pins of the unregistered supplement triage of 22 October 2026.
+claims:
+  ee0bb29d50a0_1:
+    quotes:
+    - exact: data version 5 (R5 release version 11 May 2021), this GWAS included 3,022 CRC cases and 215,770
+        controls

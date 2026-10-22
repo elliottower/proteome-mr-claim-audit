@@ -1,0 +1,15 @@
+source:
+  citation: triage2026_40657364_d09e2a0752b3
+  local: sources/triage2026/40657364_d09e2a0752b3.txt
+  sha256: d09e2a0752b3d08aeeb2fa7420f9af49d08719f60087b53cee20331180e937be
+  note: Text of a supplementary file of record 40657364 (PMC12244032), file supplementaryFiles.zip/jcav16p2877s1.xlsx,
+    type XLSX, file sha256 52d992197835d46e972d9239a0f97f2dc1f30f683e9a31fd13027dc416b31aff; the text
+    the first registration's retrieval stored (text_sha256), or for a file it left without text the local
+    conversion of the supplement triage scan (scripts/supplement_triage_v2.py). Spreadsheets are pinned
+    in this extracted text (sheets as '## sheet', cells tab-separated) because citations does not read
+    xlsx. Pins of the unregistered supplement triage of 22 October 2026.
+claims:
+  b86f843bd34a_1:
+    quotes:
+    - exact: "breast cancer\tBreast Cancer Association Consortium (BCAC)\t122,977  European-ancestry cases\
+        \ and105,974  European-ancestry controls\t29059683"

@@ -1,0 +1,24 @@
+source:
+  citation: triage2026_38898508_7988f2e1f04f
+  local: sources/triage2026/38898508_7988f2e1f04f.txt
+  sha256: 7988f2e1f04fb78370decda2cd2f83fa627cf7496194b89e184643253069ca98
+  note: Text of the full text of record 38898508 (PMC11186236), file https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11186236/fullTextXML,
+    type JATS XML, file sha256 d5802c37043bb0cf89c0bfcdd1f8c0edae0b6a061e2082ede543628fd58b3f4a; the text
+    the first registration's retrieval stored (text_sha256), or for a file it left without text the local
+    conversion of the supplement triage scan (scripts/supplement_triage_v2.py). Spreadsheets are pinned
+    in this extracted text (sheets as '## sheet', cells tab-separated) because citations does not read
+    xlsx. Pins of the unregistered supplement triage of 22 October 2026.
+claims:
+  f3ff2bd19d58_1:
+    quotes:
+    - exact: which included 480,698 (41,395 cases) European ancestry participants across 23 studies (CKD1)
+  6d00a9591f89_1:
+    quotes:
+    - exact: for 4907 aptamers were identified in 35,559 Icelanders based on the SomaScan platform
+  6d00a9591f89_2:
+    quotes:
+    - exact: for 3892 plasma proteins were identified in 10,708 European-descent participants from Fenland
+        using the SomaScan platform
+  6d00a9591f89_3:
+    quotes:
+    - exact: for 2923 proteins in 54,219 participants from the UK Biobank Pharma Proteomics Project (UKB-PPP)

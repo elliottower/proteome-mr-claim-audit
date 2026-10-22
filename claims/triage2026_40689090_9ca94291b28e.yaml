@@ -1,0 +1,19 @@
+source:
+  citation: triage2026_40689090_9ca94291b28e
+  local: sources/triage2026/40689090_9ca94291b28e.txt
+  sha256: 9ca94291b28eee32bc85ede37bce7c4da85a41fbbffaf6132e024edff71a08fb
+  note: Text of the full text of record 40689090 (PMC12271078), file https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12271078/fullTextXML,
+    type JATS XML, file sha256 45e0b900fe21bb6b27d2137ee2fe4c0bfe59d8891a95172eb8d405e37e65f649; the text
+    the first registration's retrieval stored (text_sha256), or for a file it left without text the local
+    conversion of the supplement triage scan (scripts/supplement_triage_v2.py). Spreadsheets are pinned
+    in this extracted text (sheets as '## sheet', cells tab-separated) because citations does not read
+    xlsx. Pins of the unregistered supplement triage of 22 October 2026.
+claims:
+  644977dbebc7_1:
+    quotes:
+    - exact: extracted genetic associations of the 2940 plasma proteins in individuals of Central/South
+        Asian ancestry (N = 920) and European ancestry (N = 34,557) from the UKBPPP
+  644977dbebc7_2:
+    quotes:
+    - exact: The GWAS statistics for CAD were obtained from the East London Genes & Health (ELGH) study
+        for South Asians.

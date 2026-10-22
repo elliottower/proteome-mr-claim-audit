@@ -1,0 +1,21 @@
+source:
+  citation: triage2026_38689297_87c70fdb8b14
+  local: sources/triage2026/38689297_87c70fdb8b14.txt
+  sha256: 87c70fdb8b14cb042a387487c148d0716308a564d3309eff1022ebbd2449b559
+  note: Text of the full text of record 38689297 (PMC11061979), file https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11061979/fullTextXML,
+    type JATS XML, file sha256 b2ad0eca564a6ae5fffd4024eec4180c06fd57143e7adbd3707dc94d63b98ecd; the text
+    the first registration's retrieval stored (text_sha256), or for a file it left without text the local
+    conversion of the supplement triage scan (scripts/supplement_triage_v2.py). Spreadsheets are pinned
+    in this extracted text (sheets as '## sheet', cells tab-separated) because citations does not read
+    xlsx. Pins of the unregistered supplement triage of 22 October 2026.
+claims:
+  40c93e69d470_1:
+    quotes:
+    - exact: conducted in 2015 by the Coronary ARtery DIsease Genome wide Replication and Meta-analysis
+        plus The Coronary Artery Disease Genetics (CARDIoGRAM plus C4D) consortium [11]. Specifically,
+        the study is a GWAS meta-analysis of 60,801 CHD patients and 123,504 control patients obtained
+        from 48 studies.
+  aa498a6460d5_1:
+    quotes:
+    - exact: Given the gravity of MI, summary data on MI were extracted from this GWAS meta-analysis for
+        subsequent MR analysis. The summary GWAS data for MI included 43,676 MI patients and 128,199 controls.

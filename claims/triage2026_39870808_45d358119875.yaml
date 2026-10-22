@@ -1,0 +1,15 @@
+source:
+  citation: triage2026_39870808_45d358119875
+  local: sources/triage2026/39870808_45d358119875.txt
+  sha256: 45d3581198756da4984b5543ec34a995743dabf41d3bb8a633ab3ca8be291eaf
+  note: Text of the full text of record 39870808 (PMC11772851), file https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11772851/fullTextXML,
+    type JATS XML, file sha256 c8e1146f201ce1b8f790f132cdbb3ad70fdac1835a32b657fe61ec3ed12f0ef0; the text
+    the first registration's retrieval stored (text_sha256), or for a file it left without text the local
+    conversion of the supplement triage scan (scripts/supplement_triage_v2.py). Spreadsheets are pinned
+    in this extracted text (sheets as '## sheet', cells tab-separated) because citations does not read
+    xlsx. Pins of the unregistered supplement triage of 22 October 2026.
+claims:
+  96dc2d4d4a68_2:
+    quotes:
+    - exact: encompassing 38,841 patients with type 2 diabetes and 451,248 individuals of European ancestry
+        as controls

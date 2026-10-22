@@ -1,0 +1,19 @@
+source:
+  citation: triage2026_34172473_f51a025fa40e
+  local: sources/triage2026/34172473_f51a025fa40e.txt
+  sha256: f51a025fa40ef72b1ca5bb31bab5fe8c822b5d314a8fe646c8a49ff4fdec6649
+  note: Text of a supplementary file of record 34172473 (PMC8828995), file supplementaryFiles.zip/ERJ-03979-2020.Tables.xlsx,
+    type XLSX, file sha256 b02f7d7e1c957d82a53aa97b861130fd1e879a491ec0edba09f27a3799e00999; the text
+    the first registration's retrieval stored (text_sha256), or for a file it left without text the local
+    conversion of the supplement triage scan (scripts/supplement_triage_v2.py). Spreadsheets are pinned
+    in this extracted text (sheets as '## sheet', cells tab-separated) because citations does not read
+    xlsx. Pins of the unregistered supplement triage of 22 October 2026.
+claims:
+  9ad879b86ad5_4:
+    quotes:
+    - exact: 'Table S1: Mendelian Randomization analyses of the proteome GWAS (Sun et al. )) and the IPF
+        GWAS.'
+  9ad879b86ad5_5:
+    quotes:
+    - exact: 'Table S2: Mendelian Randomization analyses of the proteome GWAS (Emilsson et al.) and the
+        IPF GWAS'

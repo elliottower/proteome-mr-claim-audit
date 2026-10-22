@@ -1,0 +1,14 @@
+source:
+  citation: triage2026_41200167_d6e1436575e9
+  local: sources/triage2026/41200167_d6e1436575e9.txt
+  sha256: d6e1436575e9212ab7082f490f7dfbffd73c8f15b6df2412848d7e9df11cdd3b
+  note: Text of a supplementary file of record 41200167 (PMC12586143), file supplementaryFiles.zip/Table1.xls,
+    type XLS, file sha256 a2a393c4448e2f7221b006b57cc0e9bbb0b8698657fe44105d0bc2431b31c0d0; the text the
+    first registration's retrieval stored (text_sha256), or for a file it left without text the local
+    conversion of the supplement triage scan (scripts/supplement_triage_v2.py). Spreadsheets are pinned
+    in this extracted text (sheets as '## sheet', cells tab-separated) because citations does not read
+    xlsx. Pins of the unregistered supplement triage of 22 October 2026.
+claims:
+  d84406875f34_1:
+    quotes:
+    - exact: "Decode to Finngen\tTCL1A\tfinngen_R10_C3_AML_EXALLC\tInverse variance weighted"

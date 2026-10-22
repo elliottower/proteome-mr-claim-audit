@@ -1,0 +1,26 @@
+source:
+  citation: triage2026_40026415_ce8df94c326e
+  local: sources/triage2026/40026415_ce8df94c326e.txt
+  sha256: ce8df94c326ec1cf7701a9293ecb5a9bffaaed0c711a1e6211ee2a75c77a7217
+  note: Text of the full text of record 40026415 (PMC11870767), file https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11870767/fullTextXML,
+    type JATS XML, file sha256 c1009185c89e97f7c6a7adefe271b2bbe9c4e1bde8b9b6d216ab192c6b3d70a5; the text
+    the first registration's retrieval stored (text_sha256), or for a file it left without text the local
+    conversion of the supplement triage scan (scripts/supplement_triage_v2.py). Spreadsheets are pinned
+    in this extracted text (sheets as '## sheet', cells tab-separated) because citations does not read
+    xlsx. Pins of the unregistered supplement triage of 22 October 2026.
+claims:
+  fdffd6bb03bb_1:
+    quotes:
+    - exact: From a large-scale study on pQTLs involving 35,559 individuals of Icelandic descent, we extracted
+        GWAS data for 4907 plasma proteins
+      section: 2.1. Plasma pQTLs
+  1e70ad1f648e_1:
+    quotes:
+    - exact: 'Phenotype: Type 2 diabetes | ID: ebi-a-GCST90018926 | Sample size: 490,089 | Number of SNPs:
+        24,167,560 | Population: European | Sources: UK Biobank and FinnGen'
+      section: Table 1
+  1e70ad1f648e_2:
+    quotes:
+    - exact: 'Phenotype: Coronary artery disease | ID: ebi-a-GCST90013864 | Sample size: 352,063 | Number
+        of SNPs: 11,027,870 | Population: European | Sources: UK Biobank'
+      section: Table 1

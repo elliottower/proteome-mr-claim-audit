@@ -1,0 +1,17 @@
+source:
+  citation: triage2026_40596960_9b6fb76c866d
+  local: sources/triage2026/40596960_9b6fb76c866d.txt
+  sha256: 9b6fb76c866d0cd0c9f350d0ecbbb886315553182db0c3c416fe8242ab4a30be
+  note: Text of a supplementary file of record 40596960 (PMC12211327), file supplementaryFiles.zip/12883_2025_4239_MOESM1_ESM.zip/Revised
+    Supplementary Data/Supplementary Data 3(MR-Result UKB-PPP)/Table 3S4. Cardioembolic stroke.xlsx, type
+    XLSX, file sha256 1b35772fb52d5b69026579a69f78fcd0ce18855d7a8929fae8e2115d677097fe; the text the first
+    registration's retrieval stored (text_sha256), or for a file it left without text the local conversion
+    of the supplement triage scan (scripts/supplement_triage_v2.py). Spreadsheets are pinned in this extracted
+    text (sheets as '## sheet', cells tab-separated) because citations does not read xlsx. Pins of the
+    unregistered supplement triage of 22 October 2026.
+claims:
+  db29b9a8e920_1:
+    quotes:
+    - exact: "ukb-ppp-F11-OID30773\tebi-a-GCST005842\tIschemic stroke (cardioembolic) || id:ebi-a-GCST005842\t\
+        Coagulation factor XI | Inflammation_II\tInverse variance weighted"
+      section: Table 3S4

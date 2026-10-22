@@ -1,0 +1,39 @@
+source:
+  citation: triage2026_40148470_a49a023c0992
+  local: sources/triage2026/40148470_a49a023c0992.txt
+  sha256: a49a023c09922c79f94ff4aacde0c9d57a05de02aa8773c56135494f4ae00a11
+  note: Text of the full text of record 40148470 (PMC11950375), file https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11950375/fullTextXML,
+    type JATS XML, file sha256 71b5333fba870986a9044e4e237a1fb312d4fce3ee0fbff49cdea9272dc4b7c7; the text
+    the first registration's retrieval stored (text_sha256), or for a file it left without text the local
+    conversion of the supplement triage scan (scripts/supplement_triage_v2.py). Spreadsheets are pinned
+    in this extracted text (sheets as '## sheet', cells tab-separated) because citations does not read
+    xlsx. Pins of the unregistered supplement triage of 22 October 2026.
+claims:
+  0039ce94899d_1:
+    quotes:
+    - exact: derived from the 11th version of the GWAS dataset released in the FinnGen database on June
+        24, 2024
+      section: Methods
+  0039ce94899d_2:
+    quotes:
+    - exact: comprising 4,589 RA patients and 449,037 healthy controls
+      section: Methods
+  412ae90640c5_1:
+    quotes:
+    - exact: the GWAS data for multiple sclerosis (MS) include 452,390 individuals, with 2,620 MS patients
+        and 449,770 healthy controls
+      section: Methods
+  1a3c0a1113e8_1:
+    quotes:
+    - exact: employed the Olink platform to analyze 2,923 proteins from the UK Biobank Pharmaceutical
+        Proteomics Project (UKB-PPP)
+      section: Methods
+  1a3c0a1113e8_2:
+    quotes:
+    - exact: all participants in these studies were of European ancestry
+      section: Methods
+  1a3c0a1113e8_3:
+    quotes:
+    - exact: in the MS-related analysis, AGER, AIF1, BTN1A1, CD58, DSG4, EVI5, TNF, and TNFRSF14 were
+        identified as significantly positive proteins
+      section: Results

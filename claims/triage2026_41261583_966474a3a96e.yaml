@@ -1,0 +1,16 @@
+source:
+  citation: triage2026_41261583_966474a3a96e
+  local: sources/triage2026/41261583_966474a3a96e.txt
+  sha256: 966474a3a96ec7ed9a744673fbb340335a24b2dbcb5ce3c359db8ff912b35343
+  note: Text of a supplementary file of record 41261583 (PMC12582758), file supplementaryFiles.zip/medi-104-e45647-s001.xlsx,
+    type XLSX, file sha256 08664f4c7da8dfc897cae2279f0df1be241c6dc46eefc1458d8452b70dd1ea33; the text
+    the first registration's retrieval stored (text_sha256), or for a file it left without text the local
+    conversion of the supplement triage scan (scripts/supplement_triage_v2.py). Spreadsheets are pinned
+    in this extracted text (sheets as '## sheet', cells tab-separated) because citations does not read
+    xlsx. Pins of the unregistered supplement triage of 22 October 2026.
+claims:
+  d1e5568334b9_2:
+    quotes:
+    - exact: "8351_17_PRSS57_PRS57\tebi-a-GCST90013534\tRheumatoid arthritis\tPRSS57"
+      prefix: 'exposure method nsnp b se pval lo_ci up_ci or or_lci95 or_uci95 fdr '
+      suffix: ' inverse variance weighted 13 0.404209878 0.071236512 1.39e-08 0'

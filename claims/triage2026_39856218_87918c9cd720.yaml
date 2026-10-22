@@ -1,0 +1,18 @@
+source:
+  citation: triage2026_39856218_87918c9cd720
+  local: sources/triage2026/39856218_87918c9cd720.txt
+  sha256: 87918c9cd720ff9e7d46979a729f11b3548bc6120509db8a8e448959ba39819c
+  note: Text of a supplementary file of record 39856218 (PMC11821532), file supplementaryFiles.zip/41588_2024_2052_MOESM2_ESM.pdf,
+    type PDF, file sha256 592c72ecf8c0c3a5ad2dfcf4b39c742567223cbe07e73c8606bd33fb46281bfd; the text the
+    first registration's retrieval stored (text_sha256), or for a file it left without text the local
+    conversion of the supplement triage scan (scripts/supplement_triage_v2.py). Spreadsheets are pinned
+    in this extracted text (sheets as '## sheet', cells tab-separated) because citations does not read
+    xlsx. Pins of the unregistered supplement triage of 22 October 2026.
+claims:
+  928514aefb3e_1:
+    quotes:
+    - exact: 'Plasma proteome GWAS from deCODE (https://www.deCODE.com/summarydata/; doi: 10.1038/s41588-021-00978-w)'
+  7d09c8df5ca5_1:
+    quotes:
+    - exact: 'We also used the CAD GWAS from CARDIoGRAMplusC4D (http://www.cardiogramplusc4d.org/ doi:
+        10.1038/s41588-022-01233-6)'

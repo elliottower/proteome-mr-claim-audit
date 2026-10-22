@@ -1,0 +1,14 @@
+source:
+  citation: triage2026_40696606_f82c96481671
+  local: sources/triage2026/40696606_f82c96481671.txt
+  sha256: f82c9648167149605938c94fa0a6dee6226794b572d44db6e132412098b54e1e
+  note: Text of a supplementary file of record 40696606 (PMC12282691), file supplementaryFiles.zip/medi-104-e43447-s001.docx,
+    type DOCX, file sha256 2ddac285f409db80fdb727b82886c2324e916a40859cf3ef12699c22465373d2; the text
+    the first registration's retrieval stored (text_sha256), or for a file it left without text the local
+    conversion of the supplement triage scan (scripts/supplement_triage_v2.py). Spreadsheets are pinned
+    in this extracted text (sheets as '## sheet', cells tab-separated) because citations does not read
+    xlsx. Pins of the unregistered supplement triage of 22 October 2026.
+claims:
+  444d820be2c4_1:
+    quotes:
+    - exact: "L12_ATOPIC\t2023\tAtopic dermatitis\tFinnGen\t382,254\t15,208\t367,046\t36653562\tEuropean"

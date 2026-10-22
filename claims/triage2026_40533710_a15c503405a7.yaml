@@ -1,0 +1,17 @@
+source:
+  citation: triage2026_40533710_a15c503405a7
+  local: sources/triage2026/40533710_a15c503405a7.txt
+  sha256: a15c503405a734191939528f5bd4a07167b7b346d35888f13d011249a1f7207b
+  note: Text of a supplementary file of record 40533710 (PMC12176702), file supplementaryFiles.zip/12672_2025_2968_MOESM1_ESM.csv,
+    type CSV, file sha256 a15c503405a734191939528f5bd4a07167b7b346d35888f13d011249a1f7207b; the text the
+    first registration's retrieval stored (text_sha256), or for a file it left without text the local
+    conversion of the supplement triage scan (scripts/supplement_triage_v2.py). Spreadsheets are pinned
+    in this extracted text (sheets as '## sheet', cells tab-separated) because citations does not read
+    xlsx. Pins of the unregistered supplement triage of 22 October 2026.
+claims:
+  1d2770640609_1:
+    quotes:
+    - exact: 0.00765242,33995,6.55E-78,Complement C5 | Inflammation_II,TRUE,reported,ukb-ppp-C5-OID30744
+  1d2770640609_2:
+    quotes:
+    - exact: 0.00809376,32907,1.82E-08,Non-specific lipid-transfer protein | Oncology,TRUE,reported,ukb-ppp-SCP2-OID21161

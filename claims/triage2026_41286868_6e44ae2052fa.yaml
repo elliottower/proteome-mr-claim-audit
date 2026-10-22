@@ -1,0 +1,15 @@
+source:
+  citation: triage2026_41286868_6e44ae2052fa
+  local: sources/triage2026/41286868_6e44ae2052fa.txt
+  sha256: 6e44ae2052faa4f117036a05c3b6b100414dce9d5713ec7ce928edca296d4dbc
+  note: Text of the full text of record 41286868 (PMC12641967), file https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12641967/fullTextXML,
+    type JATS XML, file sha256 525bb355544151454b97da53d9869adae76c9da0ba5dd2e05f8c85705ba9038d; the text
+    the first registration's retrieval stored (text_sha256), or for a file it left without text the local
+    conversion of the supplement triage scan (scripts/supplement_triage_v2.py). Spreadsheets are pinned
+    in this extracted text (sheets as '## sheet', cells tab-separated) because citations does not read
+    xlsx. Pins of the unregistered supplement triage of 22 October 2026.
+claims:
+  b7bb04376da6_1:
+    quotes:
+    - exact: The plasma proteome data from deCODE genetics, comprising 4,907 plasma proteins measured
+        in 35,559 Icelanders, were used for replication MR analysis [23].

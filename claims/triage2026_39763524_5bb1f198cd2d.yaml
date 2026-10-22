@@ -1,0 +1,16 @@
+source:
+  citation: triage2026_39763524_5bb1f198cd2d
+  local: sources/triage2026/39763524_5bb1f198cd2d.txt
+  sha256: 5bb1f198cd2d89f6dc3950ebd1b7b76cac35d3f6b3db2d0c078c0b2536e27ec2
+  note: Text of the full text of record 39763524 (PMC11702717), file https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11702717/fullTextXML,
+    type JATS XML, file sha256 f1588c7875240aa02ed0bc5fbbc7d0c2b3620758d4326a428894cfdd97007d37; the text
+    the first registration's retrieval stored (text_sha256), or for a file it left without text the local
+    conversion of the supplement triage scan (scripts/supplement_triage_v2.py). Spreadsheets are pinned
+    in this extracted text (sheets as '## sheet', cells tab-separated) because citations does not read
+    xlsx. Pins of the unregistered supplement triage of 22 October 2026.
+claims:
+  bc3660039713_1:
+    quotes:
+    - exact: extracted genetic associations of the 2,940 plasma proteins in individuals of Central/South
+        Asian ancestry (CSA, N=920) and European ancestry (EUR, N=34,557) from the UKBPPP
+      section: Genetic associations for genetically predicted plasma proteins

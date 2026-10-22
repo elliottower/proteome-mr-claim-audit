@@ -1,0 +1,20 @@
+source:
+  citation: triage2026_40400956_957c83c3b24c
+  local: sources/triage2026/40400956_957c83c3b24c.txt
+  sha256: 957c83c3b24cdbc8fa670fb6097c5b9eb3338571af7aa0010ab2e48f4f156aeb
+  note: Text of the full text of record 40400956 (PMC12090138), file https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12090138/fullTextXML,
+    type JATS XML, file sha256 e318b1cb16cce41a3253c7e86b7694473d9e711026d2573c5a559fecf2f09e91; the text
+    the first registration's retrieval stored (text_sha256), or for a file it left without text the local
+    conversion of the supplement triage scan (scripts/supplement_triage_v2.py). Spreadsheets are pinned
+    in this extracted text (sheets as '## sheet', cells tab-separated) because citations does not read
+    xlsx. Pins of the unregistered supplement triage of 22 October 2026.
+claims:
+  4aaaf7abd445_1:
+    quotes:
+    - exact: The preliminary analysis used data from Zheng et al., which included 738 cis-single nucleotide
+        polymorphisms (SNPs) in 734 proteins
+  f6d01d505fa6_1:
+    quotes:
+    - exact: Next, we obtained the pQTL data of the filtered proteins from a total of 4,907 proteins in
+        the deCODE database, as reported by Ferkingstad et al. (17). This pQTL dataset was used as the
+        main pQTL dataset

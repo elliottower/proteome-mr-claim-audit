@@ -1,0 +1,15 @@
+source:
+  citation: triage2026_38240717_ddaaef86a23a
+  local: sources/triage2026/38240717_ddaaef86a23a.txt
+  sha256: ddaaef86a23aaafd582280cb3c431c42359e98fd9c86824e0e0bdf147637e81e
+  note: Text of the full text of record 38240717 (PMC10866412), file https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10866412/fullTextXML,
+    type JATS XML, file sha256 e72cf31c1db3a03bd516651dbfe738959f0625aceea1e6f53f5699704470660c; the text
+    the first registration's retrieval stored (text_sha256), or for a file it left without text the local
+    conversion of the supplement triage scan (scripts/supplement_triage_v2.py). Spreadsheets are pinned
+    in this extracted text (sheets as '## sheet', cells tab-separated) because citations does not read
+    xlsx. Pins of the unregistered supplement triage of 22 October 2026.
+claims:
+  c0a73049410e_1:
+    quotes:
+    - exact: including 33,674 PD cases and 449,056 controls [10]. PD GWAS data was obtained from public
+        websites (https://gwas.mrcieu.ac.uk/datasets/ieu-b-7/).

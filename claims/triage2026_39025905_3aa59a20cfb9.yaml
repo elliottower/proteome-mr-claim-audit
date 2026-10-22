@@ -1,0 +1,17 @@
+source:
+  citation: triage2026_39025905_3aa59a20cfb9
+  local: sources/triage2026/39025905_3aa59a20cfb9.txt
+  sha256: 3aa59a20cfb9d3c63397f2f939f5d17909953878e614fa1713d74821d21933bb
+  note: Text of a supplementary file of record 39025905 (PMC11258283), file supplementaryFiles.zip/41467_2024_50385_MOESM3_ESM.pdf,
+    type PDF, file sha256 77efb142e242e7084b9386dac93aa52ec6315b67ab8a9ff1872d05aeeb10ea4b; the text the
+    first registration's retrieval stored (text_sha256), or for a file it left without text the local
+    conversion of the supplement triage scan (scripts/supplement_triage_v2.py). Spreadsheets are pinned
+    in this extracted text (sheets as '## sheet', cells tab-separated) because citations does not read
+    xlsx. Pins of the unregistered supplement triage of 22 October 2026.
+claims:
+  e3e568d61aff_2:
+    quotes:
+    - exact: GWAS Catalog studies GCST003116 and GCST005194 for coronary artery disease
+  7a0ebd033729_3:
+    quotes:
+    - exact: ARIC pQTL, http://nilanjanchatterjeelab.org/pwas/

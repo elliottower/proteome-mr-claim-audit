@@ -1,0 +1,15 @@
+source:
+  citation: triage2026_39036049_2c3fbf7e5e26
+  local: sources/triage2026/39036049_2c3fbf7e5e26.txt
+  sha256: 2c3fbf7e5e26fd1ebe98ea1e773288166838c1c60bcec9c8bd662a9f0ec62f49
+  note: Text of the full text of record 39036049 (PMC11257892), file https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11257892/fullTextXML,
+    type JATS XML, file sha256 0a940df96745f6bd9244ca3955798cb07fd1c1cd9ef833277ae9f45d2c0da279; the text
+    the first registration's retrieval stored (text_sha256), or for a file it left without text the local
+    conversion of the supplement triage scan (scripts/supplement_triage_v2.py). Spreadsheets are pinned
+    in this extracted text (sheets as '## sheet', cells tab-separated) because citations does not read
+    xlsx. Pins of the unregistered supplement triage of 22 October 2026.
+claims:
+  0560bc2ec5f3_1:
+    quotes:
+    - exact: we selected 2,923 pQTLs from the baseline cohort (n = 34,557) (https://www.synapse.org/Synapse:syn51365301)
+        for analyses
