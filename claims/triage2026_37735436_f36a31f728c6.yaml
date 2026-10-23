@@ -1,0 +1,70 @@
+source:
+  citation: triage2026_37735436_f36a31f728c6
+  local: sources/triage2026/37735436_f36a31f728c6.txt
+  sha256: f36a31f728c6622fc1a36ced43f5526da569e1cb074717c94da7230706d4432e
+  note: Text of a supplementary file of record 37735436 (PMC10512580), file supplementaryFiles.zip/12967_2023_4525_MOESM1_ESM.zip/Table
+    S1.xlsx, type XLSX, file sha256 5e6c9c71c81babc212edd411fe750a8ab66170ff938cf58b283c2e58c6715714;
+    the text the first registration's retrieval stored (text_sha256), or for a file it left without text
+    the local conversion of the supplement triage scan (scripts/supplement_triage_v2.py). Spreadsheets
+    are pinned in this extracted text (sheets as '## sheet', cells tab-separated) because citations does
+    not read xlsx. Pins of the unregistered supplement triage of 22 October 2026.
+claims:
+  v2_70f838d41395_1:
+    quotes:
+    - exact: "CPNE1\tB0QZ18;Q99829\trs12481228\t20\t34218673\tC\tG\t-0.977\t0.0379\t1.8e-146\t0.097658\t\
+        3301\tSun"
+      section: Table S1
+  v2_70f838d41395_2:
+    quotes:
+    - exact: "CTSF\tQ9UBX1\trs1791679\t11\t66337874\tA\tC\t0.2349\t0.0269\t2.5e-18\t0.289477\t3301\tSun"
+      section: Table S1
+  v2_70f838d41395_3:
+    quotes:
+    - exact: "CTSS\tP25774\trs41271951\t1\t150737220\tG\tA\t-0.8605\t0.0419\t7.1e-94\t0.08349\t3301\t\
+        Sun"
+      section: Table S1
+  v2_70f838d41395_4:
+    quotes:
+    - exact: "FLRT3\tQ9NZU0\trs11908097\t20\t14689146\tC\tT\t0.4444\t0.0278\t2.5e-57\t0.25127\t3301\t\
+        Sun"
+      section: Table S1
+  v2_70f838d41395_5:
+    quotes:
+    - exact: "GSTP1\tP09211;V9HWE9\trs1695\t11\t67352689\tG\tA\t-0.1781\t0.0254\t2.3e-12\t0.34538\t3301\t\
+        Sun"
+      section: Table S1
+  v2_70f838d41395_6:
+    quotes:
+    - exact: "ICAM5\tQ8N6I2;Q9UMF0\trs281439\t19\t10400110\tC\tG\t0.8918\t0.0258\t1e-200\t0.7804\t3301\t\
+        Sun"
+      section: Table S1
+  v2_70f838d41395_7:
+    quotes:
+    - exact: "ISLR2\tQ6UXK2\trs2959011\t15\t74611781\tT\tA\t0.198\t0.0261\t3.2e-14\t0.34226\t3301\tSun"
+      section: Table S1
+  v2_70f838d41395_8:
+    quotes:
+    - exact: "KDELC2\tA0A024R3C4;Q7Z4H8\trs74911261\t11\t108357137\tA\tG\t-1.3136\t0.0745\t1.1e-69\t0.026545\t\
+        3301\tSun"
+      section: Table S1
+  v2_70f838d41395_9:
+    quotes:
+    - exact: "SPINT2\tA0A140VJV6;O43291\trs71354995\t19\t38791841\tG\tA\t-0.9908\t0.0227\t1e-200\t0.242563\t\
+        3301\tSun"
+      section: Table S1
+  v2_70f838d41395_10:
+    quotes:
+    - exact: "GDI2\tP50395\trs2890364\t10\t5833748\tG\tA\t0.219\t0.029\t9.1e-14\t0.774\t3200\tEmilsson"
+      section: Table S1
+  v2_70f838d41395_11:
+    quotes:
+    - exact: "PDIA3\tP30101\trs3110081\t15\t43995786\tC\tT\t0.194\t0.032\t1.5e-09\t0.821\t3200\tEmilsson"
+      section: Table S1
+  v2_70f838d41395_12:
+    quotes:
+    - exact: "SFTPB\tP07988\trs1130866\t2\t85893741\tA\tG\t-0.686\t0.022\t3.5e-189\t0.466\t3200\tEmilsson"
+      section: Table S1
+  v2_70f838d41395_13:
+    quotes:
+    - exact: "TNFRSF10B\tO14763\trs4871844\t8\t22879734\tT\tC\t-0.143\t0.026\t4.3e-08\t0.658\t3200\tEmilsson"
+      section: Table S1

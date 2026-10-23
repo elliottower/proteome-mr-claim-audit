@@ -1,0 +1,41 @@
+source:
+  citation: triage2026_36864689_049a0f825bc0
+  local: sources/triage2026/36864689_049a0f825bc0.txt
+  sha256: 049a0f825bc0cfc26ec3b119cfbe2cb4426da41259e411929ec1c80f0cd7b7eb
+  note: Text of a supplementary file of record 36864689 (PMC10393411), file supplementaryFiles.zip/awad070_supplementary_data.pdf,
+    type PDF, file sha256 6f1392f007e65291dd05be392035de6d3c9be66b8a61cad19765ae1b8943e554; the text the
+    first registration's retrieval stored (text_sha256), or for a file it left without text the local
+    conversion of the supplement triage scan (scripts/supplement_triage_v2.py). Spreadsheets are pinned
+    in this extracted text (sheets as '## sheet', cells tab-separated) because citations does not read
+    xlsx. Pins of the unregistered supplement triage of 22 October 2026.
+claims:
+  v2_7fd3f3e7859a_1:
+    quotes:
+    - exact: Colocalization analysis of plasma proteins for FCRL3 (A), TYMP (B) and AHSG (C),
+      prefix: 'ms risk increased. supplementary fig. 2 bayesian colocalization analysis of six potential
+        causal proteins and multiple sclerosis '
+      suffix: ' and csf proteins for mmel1 (d), slamf7 (e), and cd5l (f), respectively. diamond purple
+        points represented the snp that with the'
+      section: Supplementary data
+  v2_7fd3f3e7859a_2:
+    quotes:
+    - exact: and CSF proteins for MMEL1 (D), SLAMF7 (E), and CD5L (F), respectively.
+      prefix: 'per 10-fold increase in csf protein levels as ms risk increased. supplementary fig. 2 bayesian
+        colocalization analysis of six potential causal proteins and multiple sclerosis colocalization
+        analysis of plasma proteins for fcrl3 (a), tymp (b) and ahsg (c), '
+      suffix: ' diamond purple points represented the snp that with the minimal sum of p value in corresponded
+        protein gwas and multiple sclerosis gwas. supplementary fig. 3 comparison analysis of mr estimates
+        between plasma proteome and csf proteome (a) all 66 overlapping'
+      section: Supplementary data
+  v2_7fd3f3e7859a_3:
+    quotes:
+    - exact: Plasma     AHSG         P02765      rs35094235    3     186328951         G        T      0.731   0.625    0.026    2E-132      Sun
+      section: Supplementary data
+  v2_7fd3f3e7859a_4:
+    quotes:
+    - exact: Plasma   FCRL3       Q96P31       rs7528684    1    157670816        G   A   0.465   0.525    0.023   1.4E-112    Sun
+      section: Supplementary data
+  v2_7fd3f3e7859a_5:
+    quotes:
+    - exact: Plasma    TYMP      P19971    rs131798     22   50971509         G   T   0.773   0.204    0.030     1.8E-11     Emilsson
+      section: Supplementary data

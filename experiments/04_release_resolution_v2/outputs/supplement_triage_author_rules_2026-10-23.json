@@ -1,0 +1,79 @@
+{
+ "what": "the author's review decisions on the unregistered supplement triage, approved in chat on 23 October 2026; rule ids, rule texts in the reviewer's words, choices, card calls and the audit draw; no quotation from any source",
+ "applies_to": "outputs/supplement_triage_decisions_2026-10-22.json",
+ "practical_layer": {
+  "choice": "all accepted",
+  "rules": {
+   "P1": "a sample-size or assay signature unique to one dictionary row",
+   "P2": "case and control counts equal to those of exactly one release",
+   "P3": "an OpenGWAS id resolved through the stored OpenGWAS metadata",
+   "P4": "a GWAS Catalog accession found in the stored Catalog listing of a dictionary publication",
+   "P5": "UKB-PPP with per-protein N at or below 34,557, or the words discovery cohort, 35k, or 35,571, codes as UKB-PPP discovery",
+   "P6": "a consortium or author name with a description codes to the dictionary's single row of that name",
+   "P7": "obvious typos are read through; cases so far 35,553 for 35,559 and 79,198 for 79,148"
+  }
+ },
+ "review_rules": {
+  "R1": "UKB-PPP with only the project total (54,219 or 54,306), or anything else that does not fix the subset, stays unresolved",
+  "R2": "where one row covers claims from different sources, each claim gets the release its own protein or outcome used; a source with no dictionary row is coded dataset_absent_from_dictionary; a claim whose source is not shown stays unresolved",
+  "R3": "for the Zheng 2020 compiled set, where the supplement names the original study per protein, code that original study; code the Zheng 2020 row only when no original study is named; applies to practical rows coded as Zheng too",
+  "R4": "accept a near-match differing by at most 0.1% when no other release is closer; a subset of one study's data (European-only Okada 2014, the CKDGen European subset, Aragam's European primary analysis) codes as that study's row",
+  "R5": "40657364 stays unresolved: its table cell contradicts itself"
+ },
+ "card_calls": {
+  "reversals_of_stage_a_codes": {
+   "choice": "accept all",
+   "rows": [
+    "0560bc2ec5f3",
+    "119aac8dba1d",
+    "13bb3c341e6e",
+    "2c799dd0b09e",
+    "4947e0dd6a24",
+    "4f470758a685",
+    "508df9db15c4",
+    "521ced4aec2b",
+    "55af990ed6df",
+    "895299c3f02f",
+    "8cfc170ad44f",
+    "95eec871e698",
+    "a492a9d0f582",
+    "b832f77508af",
+    "c0a73049410e",
+    "c3585d84f011",
+    "c5d442aa4e1e",
+    "d52fa502f0c4",
+    "f609842ba043"
+   ]
+  },
+  "41350740": "split per R2: the IDUA claim is absent from the dictionary; the other claims go to Ferkingstad 2021",
+  "unresolved": [
+   "40193678",
+   "41270069",
+   "41323472"
+  ],
+  "41286868": "split per R2: TIE1, ERAP2, IL27RA and TNFRSF6B go to Sun 2018; the other seven claims stay unresolved"
+ },
+ "audit": {
+  "seed": 20261046,
+  "draw": "random.Random(20261046).sample over the resolved rows that are not reversals, sorted by row_id, 15 rows",
+  "pool_size": 158,
+  "rows": [
+   "2d01eb03622d",
+   "c621548c2374",
+   "412ae90640c5",
+   "f6d01d505fa6",
+   "dcd54cffdc2d",
+   "820e99772f92",
+   "20dc8e257634",
+   "0506f4d9ac25",
+   "62d7f99b0667",
+   "f92663101835",
+   "7b290373f7c2",
+   "55cee993591b",
+   "32bf7e5afe2e",
+   "2c9400ced03c",
+   "ddac493825d3"
+  ],
+  "accepted": 15
+ }
+}

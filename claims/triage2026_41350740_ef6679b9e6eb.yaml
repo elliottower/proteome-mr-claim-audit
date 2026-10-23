@@ -1,0 +1,16 @@
+source:
+  citation: triage2026_41350740_ef6679b9e6eb
+  local: sources/triage2026/41350740_ef6679b9e6eb.txt
+  sha256: ef6679b9e6eb62e3b5d032eb0bc43107a41ffb30db2ae52e0ba77a8af1fe42f0
+  note: Text of the full text of record 41350740 (PMC12681122), file https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12681122/fullTextXML,
+    type JATS XML, file sha256 3505569fe05fcebfc77d12ac33f7e082bd489273e6bc690075dc759af1b7a467; the text
+    the first registration's retrieval stored (text_sha256), or for a file it left without text the local
+    conversion of the supplement triage scan (scripts/supplement_triage_v2.py). Spreadsheets are pinned
+    in this extracted text (sheets as '## sheet', cells tab-separated) because citations does not read
+    xlsx. Pins of the unregistered supplement triage of 22 October 2026.
+claims:
+  v2_b832f77508af_1:
+    quotes:
+    - exact: '[Table 1. MR results for variables significantly associated with AD after FDR correction]
+        Tissue: Brain | Protein: IDUA'
+      section: Table 1

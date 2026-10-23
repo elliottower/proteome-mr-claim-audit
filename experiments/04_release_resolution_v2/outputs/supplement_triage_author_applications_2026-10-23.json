@@ -1,0 +1,2505 @@
+{
+ "what": "the rows of the supplement triage the author's rules change, with the rule applied, the new decision and, for split rows, one entry per claim record; ids, release names and pins only",
+ "rules_file": "outputs/supplement_triage_author_rules_2026-10-23.json",
+ "rows": {
+  "40fb3b0391c0": {
+   "rule": "R1",
+   "decision": "unresolved",
+   "layer": null,
+   "releases": [],
+   "claims": {},
+   "evidence": [],
+   "reason": "release_not_identified",
+   "reading": "UKB-PPP subset not fixed by the stated total or label."
+  },
+  "d27f06e1b5a7": {
+   "rule": "R1",
+   "decision": "unresolved",
+   "layer": null,
+   "releases": [],
+   "claims": {},
+   "evidence": [],
+   "reason": "release_not_identified",
+   "reading": "UKB-PPP subset not fixed by the stated total or label."
+  },
+  "34d2ca2d8505": {
+   "rule": "R1",
+   "decision": "unresolved",
+   "layer": null,
+   "releases": [],
+   "claims": {},
+   "evidence": [],
+   "reason": "release_not_identified",
+   "reading": "UKB-PPP subset not fixed by the stated total or label."
+  },
+  "35c79aea9dca": {
+   "rule": "R1",
+   "decision": "unresolved",
+   "layer": null,
+   "releases": [],
+   "claims": {},
+   "evidence": [],
+   "reason": "release_not_identified",
+   "reading": "UKB-PPP subset not fixed by the stated total or label."
+  },
+  "47e4ba085112": {
+   "rule": "R1",
+   "decision": "unresolved",
+   "layer": null,
+   "releases": [],
+   "claims": {},
+   "evidence": [],
+   "reason": "release_not_identified",
+   "reading": "UKB-PPP subset not fixed by the stated total or label."
+  },
+  "ebe5fe29bd4d": {
+   "rule": "R1",
+   "decision": "unresolved",
+   "layer": null,
+   "releases": [],
+   "claims": {},
+   "evidence": [],
+   "reason": "release_not_identified",
+   "reading": "UKB-PPP subset not fixed by the stated total or label."
+  },
+  "6d00a9591f89": {
+   "rule": "R1",
+   "decision": "unresolved",
+   "layer": null,
+   "releases": [],
+   "claims": {},
+   "evidence": [],
+   "reason": "release_not_identified",
+   "reading": "Every claim protein's estimate is UK Biobank-only or a combined estimate including UKB-PPP, whose subset is not fixed."
+  },
+  "9b2550fba19e": {
+   "rule": "R1",
+   "decision": "unresolved",
+   "layer": null,
+   "releases": [],
+   "claims": {},
+   "evidence": [],
+   "reason": "release_not_identified",
+   "reading": "The supplement does not show which pQTL source each claim protein used, and the UKB-PPP subset is not fixed."
+  },
+  "492f306a1dce": {
+   "rule": "R1",
+   "decision": "unresolved",
+   "layer": null,
+   "releases": [],
+   "claims": {},
+   "evidence": [],
+   "reason": "release_not_identified",
+   "reading": "The deCODE sizes fit both the 2021 and 2023 releases; the release is not fixed."
+  },
+  "1f9b2155ac77": {
+   "rule": "R1",
+   "decision": "unresolved",
+   "layer": null,
+   "releases": [],
+   "claims": {},
+   "evidence": [],
+   "reason": "release_not_identified",
+   "reading": "The depression set's PGC component is either Howard 2019 row (file without 23andMe, counts with it); a component not fixed leaves the set unresolved."
+  },
+  "f78c9111d278": {
+   "rule": "R5",
+   "decision": "unresolved",
+   "layer": null,
+   "releases": [],
+   "claims": {},
+   "evidence": [],
+   "reason": "release_not_identified",
+   "reading": "The source cell contradicts itself."
+  },
+  "c5bc46f404f8": {
+   "rule": "card",
+   "decision": "unresolved",
+   "layer": null,
+   "releases": [],
+   "claims": {},
+   "evidence": [],
+   "reason": "release_not_identified",
+   "reading": "Card call: stays unresolved."
+  },
+  "89abc2896027": {
+   "rule": "card",
+   "decision": "unresolved",
+   "layer": null,
+   "releases": [],
+   "claims": {},
+   "evidence": [],
+   "reason": "release_not_identified",
+   "reading": "Card call: stays unresolved."
+  },
+  "338804eedb11": {
+   "rule": "card",
+   "decision": "unresolved",
+   "layer": null,
+   "releases": [],
+   "claims": {},
+   "evidence": [],
+   "reason": "release_not_identified",
+   "reading": "Card call: stays unresolved."
+  },
+  "8a4a6271da65": {
+   "rule": "R4",
+   "decision": "resolved",
+   "layer": "practical",
+   "releases": [
+    {
+     "release": "CAD GWAS (Aragam 2022)",
+     "role": "primary"
+    }
+   ],
+   "claims": {},
+   "evidence": [],
+   "reason": null,
+   "reading": "Aragam's European primary analysis (181,522 cases) codes as the Aragam 2022 row; the two GCSTs name the same study."
+  },
+  "e364757e3921": {
+   "rule": "R4",
+   "decision": "resolved",
+   "layer": "practical",
+   "releases": [
+    {
+     "release": "FinnGen R9",
+     "role": "replication"
+    }
+   ],
+   "claims": {},
+   "evidence": [],
+   "reason": null,
+   "reading": "Controls differ from FinnGen R9 AD_LO_EXMORE by 60 (0.035%), cases equal, no closer release; replication only."
+  },
+  "d908c195bb72": {
+   "rule": "R4",
+   "decision": "resolved",
+   "layer": "practical",
+   "releases": [
+    {
+     "release": "RA trans-ethnic (Okada 2014)",
+     "role": "primary"
+    }
+   ],
+   "claims": {},
+   "evidence": [
+    {
+     "kind": "attribution",
+     "file": "supplementaryFiles.zip/pcbi.1013333.s001.xlsx",
+     "text_sha256": "93edd382ae449ab52329f41d163e49f7cd90bf45bc2d024fec6edc90564b14ac",
+     "location": null,
+     "identifier": "v2_d908c195bb72_1",
+     "pin": {
+      "claims_file": "claims/triage2026_40996951_93edd382ae44.yaml",
+      "id": "v2_d908c195bb72_1"
+     }
+    }
+   ],
+   "reason": null,
+   "reading": "The table cell gives Okada 2014's PMID with its European-only counts; the European subset codes as the Okada 2014 row."
+  },
+  "54cbefe9aa84": {
+   "rule": "R4",
+   "decision": "unresolved",
+   "layer": null,
+   "releases": [],
+   "claims": {},
+   "evidence": [],
+   "reason": "release_not_identified",
+   "reading": "The stated counts (about 76,014 and 264,785) are far from van der Harst 2018's combined counts, not a near-match; the description alone names no single row."
+  },
+  "40884b2e249d": {
+   "rule": "R2",
+   "decision": "split",
+   "layer": "practical",
+   "releases": [],
+   "claims": {
+    "34819519:000": {
+     "releases": [
+      {
+       "release": "MRC-IEU UK Biobank GWAS pipeline (OpenGWAS ukb-b)",
+       "role": "primary"
+      }
+     ],
+     "absent": [
+      "Marioni 2018 family-history AD GWAS"
+     ]
+    }
+   },
+   "evidence": [],
+   "reason": null,
+   "reading": "The PILRA colocalisation rests on the ukb-b maternal-history AD and Marioni 2018 (no row) jointly."
+  },
+  "6d653ede5c4d": {
+   "rule": "R2",
+   "decision": "split",
+   "layer": "practical",
+   "releases": [],
+   "claims": {
+    "36576886:004": {
+     "releases": [
+      {
+       "release": "INTERVAL SomaScan (Sun 2018)",
+       "role": "primary"
+      }
+     ],
+     "absent": []
+    },
+    "36576886:003": {
+     "releases": [],
+     "absent": [
+      "Ahola-Olli cytokine GWAS"
+     ]
+    }
+   },
+   "evidence": [],
+   "reason": null,
+   "reading": "CCL11 from Sun 2018; CXCL9 from the Ahola-Olli cytokine GWAS (no row)."
+  },
+  "7fd3f3e7859a": {
+   "rule": "R2+R3",
+   "decision": "split",
+   "layer": "practical",
+   "releases": [],
+   "claims": {
+    "36864689:000": {
+     "releases": [
+      {
+       "release": "INTERVAL SomaScan (Sun 2018)",
+       "role": "primary"
+      }
+     ],
+     "absent": []
+    },
+    "36864689:002": {
+     "releases": [
+      {
+       "release": "INTERVAL SomaScan (Sun 2018)",
+       "role": "primary"
+      }
+     ],
+     "absent": []
+    },
+    "36864689:001": {
+     "releases": [
+      {
+       "release": "AGES Reykjavik (Emilsson 2018)",
+       "role": "primary"
+      }
+     ],
+     "absent": []
+    },
+    "36864689:003": {
+     "releases": [],
+     "absent": [
+      "Yang CSF pQTLs"
+     ]
+    },
+    "36864689:004": {
+     "releases": [],
+     "absent": [
+      "Yang CSF pQTLs"
+     ]
+    },
+    "36864689:005": {
+     "releases": [],
+     "absent": [
+      "Yang CSF pQTLs"
+     ]
+    },
+    "36864689:011": {
+     "releases": [],
+     "absent": [
+      "Yang CSF pQTLs"
+     ]
+    },
+    "36864689:012": {
+     "releases": [],
+     "absent": [
+      "Yang CSF pQTLs"
+     ]
+    }
+   },
+   "evidence": [
+    {
+     "kind": "attribution",
+     "file": "supplementaryFiles.zip/awad070_supplementary_data.pdf",
+     "text_sha256": "049a0f825bc0cfc26ec3b119cfbe2cb4426da41259e411929ec1c80f0cd7b7eb",
+     "location": null,
+     "identifier": "v2_7fd3f3e7859a_1",
+     "pin": {
+      "claims_file": "claims/triage2026_36864689_049a0f825bc0.yaml",
+      "id": "v2_7fd3f3e7859a_1"
+     }
+    },
+    {
+     "kind": "attribution",
+     "file": "supplementaryFiles.zip/awad070_supplementary_data.pdf",
+     "text_sha256": "049a0f825bc0cfc26ec3b119cfbe2cb4426da41259e411929ec1c80f0cd7b7eb",
+     "location": null,
+     "identifier": "v2_7fd3f3e7859a_2",
+     "pin": {
+      "claims_file": "claims/triage2026_36864689_049a0f825bc0.yaml",
+      "id": "v2_7fd3f3e7859a_2"
+     }
+    },
+    {
+     "kind": "attribution",
+     "file": "supplementaryFiles.zip/awad070_supplementary_data.pdf",
+     "text_sha256": "049a0f825bc0cfc26ec3b119cfbe2cb4426da41259e411929ec1c80f0cd7b7eb",
+     "location": null,
+     "identifier": "v2_7fd3f3e7859a_3",
+     "pin": {
+      "claims_file": "claims/triage2026_36864689_049a0f825bc0.yaml",
+      "id": "v2_7fd3f3e7859a_3"
+     }
+    },
+    {
+     "kind": "attribution",
+     "file": "supplementaryFiles.zip/awad070_supplementary_data.pdf",
+     "text_sha256": "049a0f825bc0cfc26ec3b119cfbe2cb4426da41259e411929ec1c80f0cd7b7eb",
+     "location": null,
+     "identifier": "v2_7fd3f3e7859a_4",
+     "pin": {
+      "claims_file": "claims/triage2026_36864689_049a0f825bc0.yaml",
+      "id": "v2_7fd3f3e7859a_4"
+     }
+    },
+    {
+     "kind": "attribution",
+     "file": "supplementaryFiles.zip/awad070_supplementary_data.pdf",
+     "text_sha256": "049a0f825bc0cfc26ec3b119cfbe2cb4426da41259e411929ec1c80f0cd7b7eb",
+     "location": null,
+     "identifier": "v2_7fd3f3e7859a_5",
+     "pin": {
+      "claims_file": "claims/triage2026_36864689_049a0f825bc0.yaml",
+      "id": "v2_7fd3f3e7859a_5"
+     }
+    }
+   ],
+   "reason": null,
+   "reading": "Plasma FCRL3 and AHSG from Sun 2018 and TYMP from Emilsson 2018 per the supplement's author column; MMEL1, SLAMF7 and CD5L are CSF proteins from Yang (no row)."
+  },
+  "6a1707442786": {
+   "rule": "R2",
+   "decision": "split",
+   "layer": "rules",
+   "releases": [],
+   "claims": {
+    "37735436:002": {
+     "releases": [
+      {
+       "release": "MRC-IEU UK Biobank GWAS pipeline (OpenGWAS ukb-b)",
+       "role": "replication"
+      }
+     ],
+     "absent": []
+    },
+    "37735436:003": {
+     "releases": [
+      {
+       "release": "MRC-IEU UK Biobank GWAS pipeline (OpenGWAS ukb-b)",
+       "role": "replication"
+      }
+     ],
+     "absent": []
+    },
+    "37735436:007": {
+     "releases": [
+      {
+       "release": "MRC-IEU UK Biobank GWAS pipeline (OpenGWAS ukb-b)",
+       "role": "replication"
+      }
+     ],
+     "absent": []
+    },
+    "37735436:008": {
+     "releases": [
+      {
+       "release": "MRC-IEU UK Biobank GWAS pipeline (OpenGWAS ukb-b)",
+       "role": "replication"
+      }
+     ],
+     "absent": []
+    },
+    "37735436:009": {
+     "releases": [
+      {
+       "release": "MRC-IEU UK Biobank GWAS pipeline (OpenGWAS ukb-b)",
+       "role": "replication"
+      }
+     ],
+     "absent": []
+    },
+    "37735436:010": {
+     "releases": [
+      {
+       "release": "MRC-IEU UK Biobank GWAS pipeline (OpenGWAS ukb-b)",
+       "role": "replication"
+      }
+     ],
+     "absent": []
+    },
+    "37735436:011": {
+     "releases": [
+      {
+       "release": "MRC-IEU UK Biobank GWAS pipeline (OpenGWAS ukb-b)",
+       "role": "replication"
+      }
+     ],
+     "absent": []
+    },
+    "37735436:012": {
+     "releases": [
+      {
+       "release": "MRC-IEU UK Biobank GWAS pipeline (OpenGWAS ukb-b)",
+       "role": "replication"
+      }
+     ],
+     "absent": []
+    },
+    "37735436:000": {
+     "releases": [],
+     "absent": [
+      "ieu-b-4809 UK Biobank prostate GWAS"
+     ]
+    },
+    "37735436:001": {
+     "releases": [],
+     "absent": [
+      "ieu-b-4809 UK Biobank prostate GWAS"
+     ]
+    },
+    "37735436:004": {
+     "releases": [],
+     "absent": [
+      "ieu-b-4809 UK Biobank prostate GWAS"
+     ]
+    },
+    "37735436:005": {
+     "releases": [],
+     "absent": [
+      "ieu-b-4809 UK Biobank prostate GWAS"
+     ]
+    },
+    "37735436:006": {
+     "releases": [],
+     "absent": [
+      "ieu-b-4809 UK Biobank prostate GWAS"
+     ]
+    }
+   },
+   "evidence": [],
+   "reason": null,
+   "reading": "Validation outcomes: breast and lung from the MRC-IEU ukb-b batch, prostate from a UK Biobank GWAS with no row; replication only, so nothing enters."
+  },
+  "4bc0ccc9b44a": {
+   "rule": "R2+R3",
+   "decision": "split",
+   "layer": "practical",
+   "releases": [],
+   "claims": {
+    "37809092:000": {
+     "releases": [
+      {
+       "release": "AGES Reykjavik (Emilsson 2018)",
+       "role": "primary"
+      }
+     ],
+     "absent": []
+    },
+    "37809092:007": {
+     "releases": [
+      {
+       "release": "AGES Reykjavik (Emilsson 2018)",
+       "role": "primary"
+      }
+     ],
+     "absent": []
+    },
+    "37809092:002": {
+     "releases": [
+      {
+       "release": "AGES Reykjavik (Emilsson 2018)",
+       "role": "primary"
+      }
+     ],
+     "absent": []
+    },
+    "37809092:004": {
+     "releases": [],
+     "absent": [
+      "Robins brain pQTLs"
+     ]
+    },
+    "37809092:008": {
+     "releases": [],
+     "absent": [
+      "Robins brain pQTLs"
+     ]
+    },
+    "37809092:001": {
+     "unresolved": true
+    },
+    "37809092:003": {
+     "unresolved": true
+    }
+   },
+   "evidence": [
+    {
+     "kind": "attribution",
+     "file": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10551444/fullTextXML",
+     "text_sha256": "3039e69e995bd1341123034f69179ca2e3ab3f95b532d44f5d7e07bb6a6bb6c9",
+     "location": null,
+     "identifier": "v2_4bc0ccc9b44a_1",
+     "pin": {
+      "claims_file": "claims/triage2026_37809092_3039e69e995b.yaml",
+      "id": "v2_4bc0ccc9b44a_1"
+     }
+    },
+    {
+     "kind": "attribution",
+     "file": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10551444/fullTextXML",
+     "text_sha256": "3039e69e995bd1341123034f69179ca2e3ab3f95b532d44f5d7e07bb6a6bb6c9",
+     "location": null,
+     "identifier": "v2_4bc0ccc9b44a_2",
+     "pin": {
+      "claims_file": "claims/triage2026_37809092_3039e69e995b.yaml",
+      "id": "v2_4bc0ccc9b44a_2"
+     }
+    },
+    {
+     "kind": "attribution",
+     "file": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10551444/fullTextXML",
+     "text_sha256": "3039e69e995bd1341123034f69179ca2e3ab3f95b532d44f5d7e07bb6a6bb6c9",
+     "location": null,
+     "identifier": "v2_4bc0ccc9b44a_3",
+     "pin": {
+      "claims_file": "claims/triage2026_37809092_3039e69e995b.yaml",
+      "id": "v2_4bc0ccc9b44a_3"
+     }
+    },
+    {
+     "kind": "attribution",
+     "file": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10551444/fullTextXML",
+     "text_sha256": "3039e69e995bd1341123034f69179ca2e3ab3f95b532d44f5d7e07bb6a6bb6c9",
+     "location": null,
+     "identifier": "v2_4bc0ccc9b44a_4",
+     "pin": {
+      "claims_file": "claims/triage2026_37809092_3039e69e995b.yaml",
+      "id": "v2_4bc0ccc9b44a_4"
+     }
+    }
+   ],
+   "reason": null,
+   "reading": "Plasma IL1R1 and ADAM19 from Emilsson per Table 1; PDLIM4 and one ECM1 are brain proteins (Robins, no row); the claim records do not say which ECM1 claim is the plasma one, so both ECM1 claims stay unresolved."
+  },
+  "e468d3ab25ce": {
+   "rule": "R2",
+   "decision": "split",
+   "layer": "practical",
+   "releases": [],
+   "claims": {
+    "38730525:004": {
+     "releases": [
+      {
+       "release": "INTERVAL SomaScan (Sun 2018)",
+       "role": "primary"
+      }
+     ],
+     "absent": []
+    },
+    "38730525:005": {
+     "releases": [
+      {
+       "release": "INTERVAL SomaScan (Sun 2018)",
+       "role": "primary"
+      }
+     ],
+     "absent": []
+    },
+    "38730525:000": {
+     "unresolved": true
+    },
+    "38730525:002": {
+     "unresolved": true
+    },
+    "38730525:006": {
+     "unresolved": true
+    },
+    "38730525:007": {
+     "unresolved": true
+    },
+    "38730525:009": {
+     "unresolved": true
+    }
+   },
+   "evidence": [],
+   "reason": null,
+   "reading": "MICB and IL21 carry prot-a ids (Sun 2018); the other claim proteins' batch is not shown."
+  },
+  "ef83c5686d52": {
+   "rule": "R1+R2",
+   "decision": "split",
+   "layer": "practical",
+   "releases": [],
+   "claims": {
+    "38903171:001": {
+     "releases": [
+      {
+       "release": "deCODE SomaScan v4 (Ferkingstad 2021)",
+       "role": "primary"
+      }
+     ],
+     "absent": []
+    },
+    "38903171:007": {
+     "releases": [
+      {
+       "release": "deCODE SomaScan v4 (Ferkingstad 2021)",
+       "role": "primary"
+      }
+     ],
+     "absent": []
+    },
+    "38903171:009": {
+     "releases": [
+      {
+       "release": "deCODE SomaScan v4 (Ferkingstad 2021)",
+       "role": "primary"
+      }
+     ],
+     "absent": []
+    },
+    "38903171:010": {
+     "releases": [
+      {
+       "release": "deCODE SomaScan v4 (Ferkingstad 2021)",
+       "role": "primary"
+      }
+     ],
+     "absent": []
+    },
+    "38903171:000": {
+     "unresolved": true
+    },
+    "38903171:002": {
+     "unresolved": true
+    },
+    "38903171:003": {
+     "unresolved": true
+    },
+    "38903171:004": {
+     "unresolved": true
+    },
+    "38903171:005": {
+     "unresolved": true
+    },
+    "38903171:006": {
+     "unresolved": true
+    },
+    "38903171:008": {
+     "unresolved": true
+    },
+    "38903171:011": {
+     "unresolved": true
+    },
+    "38903171:012": {
+     "unresolved": true
+    },
+    "38903171:013": {
+     "unresolved": true
+    },
+    "38903171:014": {
+     "unresolved": true
+    },
+    "38903171:015": {
+     "unresolved": true
+    }
+   },
+   "evidence": [
+    {
+     "kind": "attribution",
+     "file": "supplementaryFiles.zip/Table_1.XLSX",
+     "text_sha256": "858090a64ebc2a4872c2630846ee211b5701bc807276a30c9a2aafd3cface93e",
+     "location": null,
+     "identifier": "v2_ef83c5686d52_1",
+     "pin": {
+      "claims_file": "claims/triage2026_38903171_858090a64ebc.yaml",
+      "id": "v2_ef83c5686d52_1"
+     }
+    },
+    {
+     "kind": "attribution",
+     "file": "supplementaryFiles.zip/Table_1.XLSX",
+     "text_sha256": "858090a64ebc2a4872c2630846ee211b5701bc807276a30c9a2aafd3cface93e",
+     "location": null,
+     "identifier": "v2_ef83c5686d52_2",
+     "pin": {
+      "claims_file": "claims/triage2026_38903171_858090a64ebc.yaml",
+      "id": "v2_ef83c5686d52_2"
+     }
+    },
+    {
+     "kind": "attribution",
+     "file": "supplementaryFiles.zip/Table_1.XLSX",
+     "text_sha256": "858090a64ebc2a4872c2630846ee211b5701bc807276a30c9a2aafd3cface93e",
+     "location": null,
+     "identifier": "v2_ef83c5686d52_3",
+     "pin": {
+      "claims_file": "claims/triage2026_38903171_858090a64ebc.yaml",
+      "id": "v2_ef83c5686d52_3"
+     }
+    },
+    {
+     "kind": "attribution",
+     "file": "supplementaryFiles.zip/Table_1.XLSX",
+     "text_sha256": "858090a64ebc2a4872c2630846ee211b5701bc807276a30c9a2aafd3cface93e",
+     "location": null,
+     "identifier": "v2_ef83c5686d52_4",
+     "pin": {
+      "claims_file": "claims/triage2026_38903171_858090a64ebc.yaml",
+      "id": "v2_ef83c5686d52_4"
+     }
+    },
+    {
+     "kind": "attribution",
+     "file": "supplementaryFiles.zip/Table_1.XLSX",
+     "text_sha256": "858090a64ebc2a4872c2630846ee211b5701bc807276a30c9a2aafd3cface93e",
+     "location": null,
+     "identifier": "v2_ef83c5686d52_5",
+     "pin": {
+      "claims_file": "claims/triage2026_38903171_858090a64ebc.yaml",
+      "id": "v2_ef83c5686d52_5"
+     }
+    },
+    {
+     "kind": "attribution",
+     "file": "supplementaryFiles.zip/Table_1.XLSX",
+     "text_sha256": "858090a64ebc2a4872c2630846ee211b5701bc807276a30c9a2aafd3cface93e",
+     "location": null,
+     "identifier": "v2_ef83c5686d52_6",
+     "pin": {
+      "claims_file": "claims/triage2026_38903171_858090a64ebc.yaml",
+      "id": "v2_ef83c5686d52_6"
+     }
+    }
+   ],
+   "reason": null,
+   "reading": "BRD2, COL10A1, VTN and SDF2 appear only in the deCODE tables; every other claim protein's estimate is in the UKB-PPP tables, whose subset is not fixed."
+  },
+  "95940b4321ed": {
+   "rule": "R2",
+   "decision": "split",
+   "layer": "practical",
+   "releases": [],
+   "claims": {
+    "39392298:000": {
+     "releases": [
+      {
+       "release": "IGAP (Kunkle 2019)",
+       "role": "primary"
+      },
+      {
+       "release": "IGAP stage 1 (Lambert 2013)",
+       "role": "primary"
+      }
+     ],
+     "absent": [
+      "ieu-b-5067 AD GWAS"
+     ]
+    },
+    "39392298:003": {
+     "releases": [
+      {
+       "release": "IGAP (Kunkle 2019)",
+       "role": "primary"
+      },
+      {
+       "release": "IGAP stage 1 (Lambert 2013)",
+       "role": "primary"
+      }
+     ],
+     "absent": [
+      "ieu-b-5067 AD GWAS"
+     ]
+    },
+    "39392298:006": {
+     "releases": [
+      {
+       "release": "IGAP (Kunkle 2019)",
+       "role": "primary"
+      },
+      {
+       "release": "IGAP stage 1 (Lambert 2013)",
+       "role": "primary"
+      }
+     ],
+     "absent": [
+      "ieu-b-5067 AD GWAS"
+     ]
+    },
+    "39392298:009": {
+     "releases": [
+      {
+       "release": "IGAP (Kunkle 2019)",
+       "role": "primary"
+      },
+      {
+       "release": "IGAP stage 1 (Lambert 2013)",
+       "role": "primary"
+      }
+     ],
+     "absent": [
+      "ieu-b-5067 AD GWAS"
+     ]
+    },
+    "39392298:012": {
+     "releases": [
+      {
+       "release": "IGAP (Kunkle 2019)",
+       "role": "primary"
+      },
+      {
+       "release": "IGAP stage 1 (Lambert 2013)",
+       "role": "primary"
+      }
+     ],
+     "absent": [
+      "ieu-b-5067 AD GWAS"
+     ]
+    }
+   },
+   "evidence": [],
+   "reason": null,
+   "reading": "The AD claims rest jointly on Kunkle 2019, Lambert 2013 and ieu-b-5067, which has no row."
+  },
+  "7d0d36f9c92d": {
+   "rule": "R2+R3",
+   "decision": "split",
+   "layer": "practical",
+   "releases": [],
+   "claims": {
+    "39806440:003": {
+     "releases": [
+      {
+       "release": "INTERVAL SomaScan (Sun 2018)",
+       "role": "primary"
+      }
+     ],
+     "absent": []
+    },
+    "39806440:001": {
+     "releases": [
+      {
+       "release": "KORA (Suhre 2017)",
+       "role": "primary"
+      }
+     ],
+     "absent": []
+    },
+    "39806440:002": {
+     "releases": [
+      {
+       "release": "KORA (Suhre 2017)",
+       "role": "primary"
+      }
+     ],
+     "absent": []
+    },
+    "39806440:000": {
+     "releases": [
+      {
+       "release": "AGES Reykjavik (Emilsson 2018)",
+       "role": "primary"
+      }
+     ],
+     "absent": []
+    },
+    "39806440:004": {
+     "releases": [
+      {
+       "release": "AGES Reykjavik (Emilsson 2018)",
+       "role": "primary"
+      }
+     ],
+     "absent": []
+    },
+    "39806440:006": {
+     "releases": [],
+     "absent": [
+      "Yang CSF pQTLs"
+     ]
+    }
+   },
+   "evidence": [],
+   "reason": null,
+   "reading": "Per Table S1: CD200R1 from Sun 2018, ECM1 and IL7R from Suhre 2017, ADAM19 and IL1R1 from Emilsson 2018; LAYN is a CSF protein (Yang, no row)."
+  },
+  "709dc039c3a3": {
+   "rule": "R1+R2",
+   "decision": "split",
+   "layer": "practical",
+   "releases": [],
+   "claims": {
+    "39887658:004": {
+     "releases": [
+      {
+       "release": "deCODE SomaScan v4 (Ferkingstad 2021)",
+       "role": "primary"
+      }
+     ],
+     "absent": []
+    },
+    "39887658:000": {
+     "unresolved": true
+    },
+    "39887658:001": {
+     "unresolved": true
+    },
+    "39887658:002": {
+     "unresolved": true
+    },
+    "39887658:003": {
+     "unresolved": true
+    },
+    "39887658:005": {
+     "unresolved": true
+    }
+   },
+   "evidence": [
+    {
+     "kind": "attribution",
+     "file": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12209750/fullTextXML",
+     "text_sha256": "0d59de572f75aecd839f41288238b2f120ee679c26429d7cb0e3f59539d8232a",
+     "location": null,
+     "identifier": "v2_709dc039c3a3_1",
+     "pin": {
+      "claims_file": "claims/triage2026_39887658_0d59de572f75.yaml",
+      "id": "v2_709dc039c3a3_1"
+     }
+    }
+   ],
+   "reason": null,
+   "reading": "LILRA4's trans score is from deCODE (Ferkingstad size); the other claim genes are from the UK Biobank Olink total, subset not fixed."
+  },
+  "fe161f4629aa": {
+   "rule": "R2+R3",
+   "decision": "split",
+   "layer": "practical",
+   "releases": [],
+   "claims": {
+    "39911230:000": {
+     "releases": [
+      {
+       "release": "INTERVAL SomaScan (Sun 2018)",
+       "role": "primary"
+      }
+     ],
+     "absent": []
+    },
+    "39911230:002": {
+     "releases": [
+      {
+       "release": "INTERVAL SomaScan (Sun 2018)",
+       "role": "primary"
+      }
+     ],
+     "absent": []
+    },
+    "39911230:003": {
+     "releases": [
+      {
+       "release": "IMPROVE (Folkersen 2017)",
+       "role": "primary"
+      }
+     ],
+     "absent": [
+      "Yang CSF pQTLs"
+     ]
+    },
+    "39911230:004": {
+     "releases": [],
+     "absent": [
+      "Yang CSF pQTLs"
+     ]
+    }
+   },
+   "evidence": [
+    {
+     "kind": "attribution",
+     "file": "supplementaryFiles.zip/Table1.xlsx",
+     "text_sha256": "ae2ee0c6480a3b29861a0352baa73b2742cc15e4ffd7c2b7cec591cf6e4ec247",
+     "location": null,
+     "identifier": "v2_fe161f4629aa_1",
+     "pin": {
+      "claims_file": "claims/triage2026_39911230_ae2ee0c6480a.yaml",
+      "id": "v2_fe161f4629aa_1"
+     }
+    }
+   ],
+   "reason": null,
+   "reading": "RSPO3 from Sun 2018; LGALS3 from Folkersen (N 3,394, the IMPROVE study) together with CSF data; CPE from CSF only (Yang, no row)."
+  },
+  "1e70ad1f648e": {
+   "rule": "R2",
+   "decision": "split",
+   "layer": "practical",
+   "releases": [],
+   "claims": {
+    "40026415:000": {
+     "releases": [],
+     "absent": [
+      "Mbatchou 2021 UK Biobank CAD GWAS"
+     ]
+    },
+    "40026415:001": {
+     "releases": [],
+     "absent": [
+      "Mbatchou 2021 UK Biobank CAD GWAS"
+     ]
+    },
+    "40026415:002": {
+     "releases": [],
+     "absent": [
+      "Mbatchou 2021 UK Biobank CAD GWAS"
+     ]
+    },
+    "40026415:003": {
+     "releases": [],
+     "absent": [
+      "Mbatchou 2021 UK Biobank CAD GWAS"
+     ]
+    },
+    "40026415:004": {
+     "releases": [],
+     "absent": [
+      "Mbatchou 2021 UK Biobank CAD GWAS"
+     ]
+    },
+    "40026415:005": {
+     "releases": [],
+     "absent": [
+      "Mbatchou 2021 UK Biobank CAD GWAS"
+     ]
+    },
+    "40026415:006": {
+     "releases": [],
+     "absent": [
+      "Mbatchou 2021 UK Biobank CAD GWAS"
+     ]
+    },
+    "40026415:007": {
+     "releases": [],
+     "absent": [
+      "Mbatchou 2021 UK Biobank CAD GWAS"
+     ]
+    },
+    "40026415:008": {
+     "releases": [],
+     "absent": [
+      "Mbatchou 2021 UK Biobank CAD GWAS"
+     ]
+    },
+    "40026415:009": {
+     "releases": [
+      {
+       "release": "Sakaue 2021 European meta-analysis (UKB + FinnGen R3)",
+       "role": "primary"
+      }
+     ],
+     "absent": []
+    },
+    "40026415:010": {
+     "releases": [
+      {
+       "release": "Sakaue 2021 European meta-analysis (UKB + FinnGen R3)",
+       "role": "primary"
+      }
+     ],
+     "absent": []
+    },
+    "40026415:011": {
+     "releases": [
+      {
+       "release": "Sakaue 2021 European meta-analysis (UKB + FinnGen R3)",
+       "role": "primary"
+      }
+     ],
+     "absent": []
+    },
+    "40026415:012": {
+     "releases": [
+      {
+       "release": "Sakaue 2021 European meta-analysis (UKB + FinnGen R3)",
+       "role": "primary"
+      }
+     ],
+     "absent": []
+    },
+    "40026415:013": {
+     "releases": [
+      {
+       "release": "Sakaue 2021 European meta-analysis (UKB + FinnGen R3)",
+       "role": "primary"
+      }
+     ],
+     "absent": []
+    },
+    "40026415:014": {
+     "releases": [
+      {
+       "release": "Sakaue 2021 European meta-analysis (UKB + FinnGen R3)",
+       "role": "primary"
+      }
+     ],
+     "absent": []
+    },
+    "40026415:015": {
+     "releases": [
+      {
+       "release": "Sakaue 2021 European meta-analysis (UKB + FinnGen R3)",
+       "role": "primary"
+      }
+     ],
+     "absent": []
+    },
+    "40026415:016": {
+     "releases": [
+      {
+       "release": "Sakaue 2021 European meta-analysis (UKB + FinnGen R3)",
+       "role": "primary"
+      }
+     ],
+     "absent": []
+    },
+    "40026415:017": {
+     "releases": [
+      {
+       "release": "Sakaue 2021 European meta-analysis (UKB + FinnGen R3)",
+       "role": "primary"
+      }
+     ],
+     "absent": []
+    },
+    "40026415:018": {
+     "releases": [
+      {
+       "release": "Sakaue 2021 European meta-analysis (UKB + FinnGen R3)",
+       "role": "primary"
+      }
+     ],
+     "absent": []
+    },
+    "40026415:019": {
+     "releases": [
+      {
+       "release": "Sakaue 2021 European meta-analysis (UKB + FinnGen R3)",
+       "role": "primary"
+      }
+     ],
+     "absent": []
+    },
+    "40026415:020": {
+     "releases": [
+      {
+       "release": "Sakaue 2021 European meta-analysis (UKB + FinnGen R3)",
+       "role": "primary"
+      }
+     ],
+     "absent": []
+    },
+    "40026415:021": {
+     "releases": [
+      {
+       "release": "Sakaue 2021 European meta-analysis (UKB + FinnGen R3)",
+       "role": "primary"
+      }
+     ],
+     "absent": []
+    },
+    "40026415:022": {
+     "releases": [
+      {
+       "release": "Sakaue 2021 European meta-analysis (UKB + FinnGen R3)",
+       "role": "primary"
+      }
+     ],
+     "absent": []
+    },
+    "40026415:023": {
+     "releases": [
+      {
+       "release": "Sakaue 2021 European meta-analysis (UKB + FinnGen R3)",
+       "role": "primary"
+      }
+     ],
+     "absent": []
+    },
+    "40026415:024": {
+     "releases": [
+      {
+       "release": "Sakaue 2021 European meta-analysis (UKB + FinnGen R3)",
+       "role": "primary"
+      }
+     ],
+     "absent": []
+    },
+    "40026415:025": {
+     "releases": [
+      {
+       "release": "Sakaue 2021 European meta-analysis (UKB + FinnGen R3)",
+       "role": "primary"
+      }
+     ],
+     "absent": []
+    },
+    "40026415:026": {
+     "releases": [
+      {
+       "release": "Sakaue 2021 European meta-analysis (UKB + FinnGen R3)",
+       "role": "primary"
+      }
+     ],
+     "absent": []
+    },
+    "40026415:027": {
+     "releases": [
+      {
+       "release": "Sakaue 2021 European meta-analysis (UKB + FinnGen R3)",
+       "role": "primary"
+      }
+     ],
+     "absent": []
+    },
+    "40026415:028": {
+     "releases": [
+      {
+       "release": "Sakaue 2021 European meta-analysis (UKB + FinnGen R3)",
+       "role": "primary"
+      }
+     ],
+     "absent": []
+    },
+    "40026415:029": {
+     "releases": [
+      {
+       "release": "Sakaue 2021 European meta-analysis (UKB + FinnGen R3)",
+       "role": "primary"
+      }
+     ],
+     "absent": []
+    },
+    "40026415:030": {
+     "releases": [
+      {
+       "release": "Sakaue 2021 European meta-analysis (UKB + FinnGen R3)",
+       "role": "primary"
+      }
+     ],
+     "absent": []
+    },
+    "40026415:031": {
+     "releases": [
+      {
+       "release": "Sakaue 2021 European meta-analysis (UKB + FinnGen R3)",
+       "role": "primary"
+      }
+     ],
+     "absent": []
+    }
+   },
+   "evidence": [],
+   "reason": null,
+   "reading": "CAD is the Mbatchou 2021 UK Biobank GWAS (no row); CHF, ischaemic stroke and T2DM are Sakaue 2021 European meta-analyses."
+  },
+  "9249bf0bb816": {
+   "rule": "R2",
+   "decision": "split",
+   "layer": "practical",
+   "releases": [],
+   "claims": {
+    "40026415:009": {
+     "releases": [
+      {
+       "release": "Sakaue 2021 European meta-analysis (UKB + FinnGen R3)",
+       "role": "primary"
+      }
+     ],
+     "absent": []
+    },
+    "40026415:010": {
+     "releases": [
+      {
+       "release": "Sakaue 2021 European meta-analysis (UKB + FinnGen R3)",
+       "role": "primary"
+      }
+     ],
+     "absent": []
+    },
+    "40026415:011": {
+     "releases": [
+      {
+       "release": "Sakaue 2021 European meta-analysis (UKB + FinnGen R3)",
+       "role": "primary"
+      }
+     ],
+     "absent": []
+    },
+    "40026415:012": {
+     "releases": [
+      {
+       "release": "Sakaue 2021 European meta-analysis (UKB + FinnGen R3)",
+       "role": "primary"
+      }
+     ],
+     "absent": []
+    },
+    "40026415:013": {
+     "releases": [
+      {
+       "release": "Sakaue 2021 European meta-analysis (UKB + FinnGen R3)",
+       "role": "primary"
+      }
+     ],
+     "absent": []
+    },
+    "40026415:014": {
+     "releases": [
+      {
+       "release": "Sakaue 2021 European meta-analysis (UKB + FinnGen R3)",
+       "role": "primary"
+      }
+     ],
+     "absent": []
+    },
+    "40026415:015": {
+     "releases": [
+      {
+       "release": "Sakaue 2021 European meta-analysis (UKB + FinnGen R3)",
+       "role": "primary"
+      }
+     ],
+     "absent": []
+    },
+    "40026415:016": {
+     "releases": [
+      {
+       "release": "Sakaue 2021 European meta-analysis (UKB + FinnGen R3)",
+       "role": "primary"
+      }
+     ],
+     "absent": []
+    },
+    "40026415:017": {
+     "releases": [
+      {
+       "release": "Sakaue 2021 European meta-analysis (UKB + FinnGen R3)",
+       "role": "primary"
+      }
+     ],
+     "absent": []
+    },
+    "40026415:018": {
+     "releases": [
+      {
+       "release": "Sakaue 2021 European meta-analysis (UKB + FinnGen R3)",
+       "role": "primary"
+      }
+     ],
+     "absent": []
+    },
+    "40026415:019": {
+     "releases": [
+      {
+       "release": "Sakaue 2021 European meta-analysis (UKB + FinnGen R3)",
+       "role": "primary"
+      }
+     ],
+     "absent": []
+    },
+    "40026415:020": {
+     "releases": [
+      {
+       "release": "Sakaue 2021 European meta-analysis (UKB + FinnGen R3)",
+       "role": "primary"
+      }
+     ],
+     "absent": []
+    },
+    "40026415:021": {
+     "releases": [
+      {
+       "release": "Sakaue 2021 European meta-analysis (UKB + FinnGen R3)",
+       "role": "primary"
+      }
+     ],
+     "absent": []
+    },
+    "40026415:022": {
+     "releases": [
+      {
+       "release": "Sakaue 2021 European meta-analysis (UKB + FinnGen R3)",
+       "role": "primary"
+      }
+     ],
+     "absent": []
+    },
+    "40026415:023": {
+     "releases": [
+      {
+       "release": "Sakaue 2021 European meta-analysis (UKB + FinnGen R3)",
+       "role": "primary"
+      }
+     ],
+     "absent": []
+    },
+    "40026415:024": {
+     "releases": [
+      {
+       "release": "Sakaue 2021 European meta-analysis (UKB + FinnGen R3)",
+       "role": "primary"
+      }
+     ],
+     "absent": []
+    },
+    "40026415:025": {
+     "releases": [
+      {
+       "release": "Sakaue 2021 European meta-analysis (UKB + FinnGen R3)",
+       "role": "primary"
+      }
+     ],
+     "absent": []
+    },
+    "40026415:026": {
+     "releases": [
+      {
+       "release": "Sakaue 2021 European meta-analysis (UKB + FinnGen R3)",
+       "role": "primary"
+      }
+     ],
+     "absent": []
+    },
+    "40026415:027": {
+     "releases": [
+      {
+       "release": "Sakaue 2021 European meta-analysis (UKB + FinnGen R3)",
+       "role": "primary"
+      }
+     ],
+     "absent": []
+    },
+    "40026415:028": {
+     "releases": [
+      {
+       "release": "Sakaue 2021 European meta-analysis (UKB + FinnGen R3)",
+       "role": "primary"
+      }
+     ],
+     "absent": []
+    },
+    "40026415:029": {
+     "releases": [
+      {
+       "release": "Sakaue 2021 European meta-analysis (UKB + FinnGen R3)",
+       "role": "primary"
+      }
+     ],
+     "absent": []
+    },
+    "40026415:030": {
+     "releases": [
+      {
+       "release": "Sakaue 2021 European meta-analysis (UKB + FinnGen R3)",
+       "role": "primary"
+      }
+     ],
+     "absent": []
+    },
+    "40026415:031": {
+     "releases": [
+      {
+       "release": "Sakaue 2021 European meta-analysis (UKB + FinnGen R3)",
+       "role": "primary"
+      }
+     ],
+     "absent": []
+    },
+    "40026415:000": {
+     "unresolved": true
+    },
+    "40026415:001": {
+     "unresolved": true
+    },
+    "40026415:002": {
+     "unresolved": true
+    },
+    "40026415:003": {
+     "unresolved": true
+    },
+    "40026415:004": {
+     "unresolved": true
+    },
+    "40026415:005": {
+     "unresolved": true
+    },
+    "40026415:006": {
+     "unresolved": true
+    },
+    "40026415:007": {
+     "unresolved": true
+    },
+    "40026415:008": {
+     "unresolved": true
+    }
+   },
+   "evidence": [],
+   "reason": null,
+   "reading": "For CHF, ischaemic stroke and T2DM the FinnGen data are the Sakaue 2021 European meta-analysis; CAD used no FinnGen data, so the CAD claims' Finnish name stays unresolved."
+  },
+  "d0c681946cc4": {
+   "rule": "R2",
+   "decision": "split",
+   "layer": "practical",
+   "releases": [],
+   "claims": {
+    "41254737:000": {
+     "releases": [
+      {
+       "release": "deCODE SomaScan v4 (Ferkingstad 2021)",
+       "role": "primary"
+      }
+     ],
+     "absent": []
+    },
+    "41254737:001": {
+     "releases": [
+      {
+       "release": "deCODE SomaScan v4 (Ferkingstad 2021)",
+       "role": "primary"
+      }
+     ],
+     "absent": []
+    },
+    "41254737:002": {
+     "releases": [
+      {
+       "release": "deCODE SomaScan v4 (Ferkingstad 2021)",
+       "role": "primary"
+      }
+     ],
+     "absent": []
+    },
+    "41254737:003": {
+     "releases": [
+      {
+       "release": "deCODE SomaScan v4 (Ferkingstad 2021)",
+       "role": "primary"
+      }
+     ],
+     "absent": []
+    },
+    "41254737:004": {
+     "releases": [
+      {
+       "release": "deCODE SomaScan v4 (Ferkingstad 2021)",
+       "role": "primary"
+      }
+     ],
+     "absent": []
+    }
+   },
+   "evidence": [
+    {
+     "kind": "attribution",
+     "file": "supplementaryFiles.zip/12967_2025_7269_MOESM1_ESM.xlsx",
+     "text_sha256": "a58dbcba40f17f1ea60f6b3035cf942b22b1238eb42a1ee37f145a9b1325b7d2",
+     "location": null,
+     "identifier": "v2_d0c681946cc4_1",
+     "pin": {
+      "claims_file": "claims/triage2026_41254737_a58dbcba40f1.yaml",
+      "id": "v2_d0c681946cc4_1"
+     }
+    },
+    {
+     "kind": "attribution",
+     "file": "supplementaryFiles.zip/12967_2025_7269_MOESM1_ESM.xlsx",
+     "text_sha256": "a58dbcba40f17f1ea60f6b3035cf942b22b1238eb42a1ee37f145a9b1325b7d2",
+     "location": null,
+     "identifier": "v2_d0c681946cc4_2",
+     "pin": {
+      "claims_file": "claims/triage2026_41254737_a58dbcba40f1.yaml",
+      "id": "v2_d0c681946cc4_2"
+     }
+    }
+   ],
+   "reason": null,
+   "reading": "Table S4 gives every claim's estimate from Ferkingstad 2021; UKB-PPP produced none of them."
+  },
+  "e0c95c697e88": {
+   "rule": "card",
+   "decision": "split",
+   "layer": "practical",
+   "releases": [],
+   "claims": {
+    "41286868:001": {
+     "releases": [
+      {
+       "release": "INTERVAL SomaScan (Sun 2018)",
+       "role": "primary"
+      }
+     ],
+     "absent": []
+    },
+    "41286868:003": {
+     "releases": [
+      {
+       "release": "INTERVAL SomaScan (Sun 2018)",
+       "role": "primary"
+      }
+     ],
+     "absent": []
+    },
+    "41286868:009": {
+     "releases": [
+      {
+       "release": "INTERVAL SomaScan (Sun 2018)",
+       "role": "primary"
+      }
+     ],
+     "absent": []
+    },
+    "41286868:010": {
+     "releases": [
+      {
+       "release": "INTERVAL SomaScan (Sun 2018)",
+       "role": "primary"
+      }
+     ],
+     "absent": []
+    },
+    "41286868:000": {
+     "unresolved": true
+    },
+    "41286868:002": {
+     "unresolved": true
+    },
+    "41286868:004": {
+     "unresolved": true
+    },
+    "41286868:005": {
+     "unresolved": true
+    },
+    "41286868:006": {
+     "unresolved": true
+    },
+    "41286868:007": {
+     "unresolved": true
+    },
+    "41286868:008": {
+     "unresolved": true
+    }
+   },
+   "evidence": [
+    {
+     "kind": "attribution",
+     "file": "supplementaryFiles.zip/12890_2025_4006_MOESM1_ESM.xlsx",
+     "text_sha256": "9d87825cf845a402d7debaf42f833145bd229d44441accff6a82586bfc87154f",
+     "location": null,
+     "identifier": "v2_e0c95c697e88_1",
+     "pin": {
+      "claims_file": "claims/triage2026_41286868_9d87825cf845.yaml",
+      "id": "v2_e0c95c697e88_1"
+     }
+    },
+    {
+     "kind": "attribution",
+     "file": "supplementaryFiles.zip/12890_2025_4006_MOESM1_ESM.xlsx",
+     "text_sha256": "9d87825cf845a402d7debaf42f833145bd229d44441accff6a82586bfc87154f",
+     "location": null,
+     "identifier": "v2_e0c95c697e88_2",
+     "pin": {
+      "claims_file": "claims/triage2026_41286868_9d87825cf845.yaml",
+      "id": "v2_e0c95c697e88_2"
+     }
+    },
+    {
+     "kind": "attribution",
+     "file": "supplementaryFiles.zip/12890_2025_4006_MOESM1_ESM.xlsx",
+     "text_sha256": "9d87825cf845a402d7debaf42f833145bd229d44441accff6a82586bfc87154f",
+     "location": null,
+     "identifier": "v2_e0c95c697e88_3",
+     "pin": {
+      "claims_file": "claims/triage2026_41286868_9d87825cf845.yaml",
+      "id": "v2_e0c95c697e88_3"
+     }
+    },
+    {
+     "kind": "attribution",
+     "file": "supplementaryFiles.zip/12890_2025_4006_MOESM1_ESM.xlsx",
+     "text_sha256": "9d87825cf845a402d7debaf42f833145bd229d44441accff6a82586bfc87154f",
+     "location": null,
+     "identifier": "v2_e0c95c697e88_4",
+     "pin": {
+      "claims_file": "claims/triage2026_41286868_9d87825cf845.yaml",
+      "id": "v2_e0c95c697e88_4"
+     }
+    }
+   ],
+   "reason": null,
+   "reading": "TIE1, ERAP2, IL27RA and TNFRSF6B have N 3,301 (Sun 2018) in Table S1; the other seven claims' source is not shown."
+  },
+  "b832f77508af": {
+   "rule": "card",
+   "decision": "split",
+   "layer": "rules",
+   "releases": [],
+   "claims": {
+    "41350740:000": {
+     "releases": [
+      {
+       "release": "deCODE SomaScan v4 (Ferkingstad 2021)",
+       "role": "primary"
+      }
+     ],
+     "absent": []
+    },
+    "41350740:001": {
+     "releases": [
+      {
+       "release": "deCODE SomaScan v4 (Ferkingstad 2021)",
+       "role": "primary"
+      }
+     ],
+     "absent": []
+    },
+    "41350740:002": {
+     "releases": [
+      {
+       "release": "deCODE SomaScan v4 (Ferkingstad 2021)",
+       "role": "primary"
+      }
+     ],
+     "absent": []
+    },
+    "41350740:003": {
+     "releases": [
+      {
+       "release": "deCODE SomaScan v4 (Ferkingstad 2021)",
+       "role": "primary"
+      }
+     ],
+     "absent": []
+    },
+    "41350740:004": {
+     "releases": [
+      {
+       "release": "deCODE SomaScan v4 (Ferkingstad 2021)",
+       "role": "primary"
+      }
+     ],
+     "absent": []
+    },
+    "41350740:005": {
+     "releases": [],
+     "absent": [
+      "brain pQTLs"
+     ]
+    }
+   },
+   "evidence": [
+    {
+     "kind": "attribution",
+     "file": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12681122/fullTextXML",
+     "text_sha256": "ef6679b9e6eb62e3b5d032eb0bc43107a41ffb30db2ae52e0ba77a8af1fe42f0",
+     "location": null,
+     "identifier": "v2_b832f77508af_1",
+     "pin": {
+      "claims_file": "claims/triage2026_41350740_ef6679b9e6eb.yaml",
+      "id": "v2_b832f77508af_1"
+     }
+    }
+   ],
+   "reason": null,
+   "reading": "IDUA is a brain protein (no row); the other claims are plasma estimates from Ferkingstad 2021."
+  },
+  "72d245922f94": {
+   "rule": "R2",
+   "decision": "split",
+   "layer": "practical",
+   "releases": [],
+   "claims": {
+    "37726845:000": {
+     "releases": [
+      {
+       "release": "Fenland SomaScan v4 (Pietzner 2021)",
+       "role": "primary"
+      }
+     ],
+     "absent": []
+    },
+    "37726845:001": {
+     "releases": [
+      {
+       "release": "INTERVAL SomaScan (Sun 2018)",
+       "role": "primary"
+      }
+     ],
+     "absent": []
+    },
+    "37726845:002": {
+     "releases": [
+      {
+       "release": "deCODE SomaScan v4 (Ferkingstad 2021)",
+       "role": "primary"
+      }
+     ],
+     "absent": []
+    },
+    "37726845:003": {
+     "releases": [
+      {
+       "release": "deCODE SomaScan v4 (Ferkingstad 2021)",
+       "role": "primary"
+      }
+     ],
+     "absent": []
+    },
+    "37726845:004": {
+     "releases": [
+      {
+       "release": "deCODE SomaScan v4 (Ferkingstad 2021)",
+       "role": "primary"
+      }
+     ],
+     "absent": []
+    }
+   },
+   "evidence": [],
+   "reason": null,
+   "reading": "One pQTL study per claim protein: GREM1 Pietzner, CHRDL2 Sun 2018, CLSTN3, CSF2RA and CD86 Ferkingstad."
+  },
+  "521ced4aec2b": {
+   "rule": "R2",
+   "decision": "split",
+   "layer": "practical",
+   "releases": [],
+   "claims": {
+    "41398348:000": {
+     "releases": [
+      {
+       "release": "KORA (Suhre 2017)",
+       "role": "primary"
+      }
+     ],
+     "absent": []
+    },
+    "41398348:001": {
+     "releases": [
+      {
+       "release": "SCALLOP CVD-I (Folkersen 2020)",
+       "role": "primary"
+      }
+     ],
+     "absent": []
+    },
+    "41398348:002": {
+     "releases": [
+      {
+       "release": "deCODE SomaScan v4 (Ferkingstad 2021)",
+       "role": "primary"
+      }
+     ],
+     "absent": []
+    }
+   },
+   "evidence": [],
+   "reason": null,
+   "reading": "One pQTL study per claim protein: ENG Suhre 2017, FABP4 Folkersen 2020, CADM1 Ferkingstad."
+  },
+  "3ca7d0e191ec": {
+   "rule": "R2",
+   "decision": "split",
+   "layer": "practical",
+   "releases": [],
+   "claims": {
+    "40426943:000": {
+     "releases": [
+      {
+       "release": "UKB-PPP discovery",
+       "role": "primary"
+      }
+     ],
+     "absent": []
+    },
+    "40426943:001": {
+     "releases": [
+      {
+       "release": "UKB-PPP discovery",
+       "role": "primary"
+      }
+     ],
+     "absent": []
+    },
+    "40426943:006": {
+     "releases": [
+      {
+       "release": "UKB-PPP discovery",
+       "role": "primary"
+      }
+     ],
+     "absent": []
+    },
+    "40426943:002": {
+     "releases": [
+      {
+       "release": "deCODE SomaScan v4 (Ferkingstad 2021)",
+       "role": "primary"
+      }
+     ],
+     "absent": []
+    },
+    "40426943:003": {
+     "releases": [
+      {
+       "release": "deCODE SomaScan v4 (Ferkingstad 2021)",
+       "role": "primary"
+      }
+     ],
+     "absent": []
+    },
+    "40426943:004": {
+     "releases": [
+      {
+       "release": "UKB-PPP discovery",
+       "role": "primary"
+      },
+      {
+       "release": "deCODE SomaScan v4 (Ferkingstad 2021)",
+       "role": "primary"
+      }
+     ],
+     "absent": []
+    },
+    "40426943:005": {
+     "releases": [
+      {
+       "release": "UKB-PPP discovery",
+       "role": "primary"
+      },
+      {
+       "release": "deCODE SomaScan v4 (Ferkingstad 2021)",
+       "role": "primary"
+      }
+     ],
+     "absent": []
+    },
+    "40426943:007": {
+     "releases": [
+      {
+       "release": "UKB-PPP discovery",
+       "role": "primary"
+      },
+      {
+       "release": "deCODE SomaScan v4 (Ferkingstad 2021)",
+       "role": "primary"
+      }
+     ],
+     "absent": []
+    }
+   },
+   "evidence": [
+    {
+     "kind": "attribution",
+     "file": "supplementaryFiles.zip/biomedicines-13-01115-s001.zip/Table.xlsx",
+     "text_sha256": "7f4061d40331140f13f56bd6fb29962697900e95f823f693b20f92a4c5ffb6e2",
+     "location": null,
+     "identifier": "v2_3ca7d0e191ec_1",
+     "pin": {
+      "claims_file": "claims/triage2026_40426943_7f4061d40331.yaml",
+      "id": "v2_3ca7d0e191ec_1"
+     }
+    },
+    {
+     "kind": "attribution",
+     "file": "supplementaryFiles.zip/biomedicines-13-01115-s001.zip/Table.xlsx",
+     "text_sha256": "7f4061d40331140f13f56bd6fb29962697900e95f823f693b20f92a4c5ffb6e2",
+     "location": null,
+     "identifier": "v2_3ca7d0e191ec_2",
+     "pin": {
+      "claims_file": "claims/triage2026_40426943_7f4061d40331.yaml",
+      "id": "v2_3ca7d0e191ec_2"
+     }
+    },
+    {
+     "kind": "attribution",
+     "file": "supplementaryFiles.zip/biomedicines-13-01115-s001.zip/Table.xlsx",
+     "text_sha256": "7f4061d40331140f13f56bd6fb29962697900e95f823f693b20f92a4c5ffb6e2",
+     "location": null,
+     "identifier": "v2_3ca7d0e191ec_3",
+     "pin": {
+      "claims_file": "claims/triage2026_40426943_7f4061d40331.yaml",
+      "id": "v2_3ca7d0e191ec_3"
+     }
+    },
+    {
+     "kind": "attribution",
+     "file": "supplementaryFiles.zip/biomedicines-13-01115-s001.zip/Table.xlsx",
+     "text_sha256": "7f4061d40331140f13f56bd6fb29962697900e95f823f693b20f92a4c5ffb6e2",
+     "location": null,
+     "identifier": "v2_3ca7d0e191ec_4",
+     "pin": {
+      "claims_file": "claims/triage2026_40426943_7f4061d40331.yaml",
+      "id": "v2_3ca7d0e191ec_4"
+     }
+    },
+    {
+     "kind": "attribution",
+     "file": "supplementaryFiles.zip/biomedicines-13-01115-s001.zip/Table.xlsx",
+     "text_sha256": "7f4061d40331140f13f56bd6fb29962697900e95f823f693b20f92a4c5ffb6e2",
+     "location": null,
+     "identifier": "v2_3ca7d0e191ec_5",
+     "pin": {
+      "claims_file": "claims/triage2026_40426943_7f4061d40331.yaml",
+      "id": "v2_3ca7d0e191ec_5"
+     }
+    },
+    {
+     "kind": "attribution",
+     "file": "supplementaryFiles.zip/biomedicines-13-01115-s001.zip/Table.xlsx",
+     "text_sha256": "7f4061d40331140f13f56bd6fb29962697900e95f823f693b20f92a4c5ffb6e2",
+     "location": null,
+     "identifier": "v2_3ca7d0e191ec_6",
+     "pin": {
+      "claims_file": "claims/triage2026_40426943_7f4061d40331.yaml",
+      "id": "v2_3ca7d0e191ec_6"
+     }
+    },
+    {
+     "kind": "attribution",
+     "file": "supplementaryFiles.zip/biomedicines-13-01115-s001.zip/Table.xlsx",
+     "text_sha256": "7f4061d40331140f13f56bd6fb29962697900e95f823f693b20f92a4c5ffb6e2",
+     "location": null,
+     "identifier": "v2_3ca7d0e191ec_7",
+     "pin": {
+      "claims_file": "claims/triage2026_40426943_7f4061d40331.yaml",
+      "id": "v2_3ca7d0e191ec_7"
+     }
+    },
+    {
+     "kind": "attribution",
+     "file": "supplementaryFiles.zip/biomedicines-13-01115-s001.zip/Table.xlsx",
+     "text_sha256": "7f4061d40331140f13f56bd6fb29962697900e95f823f693b20f92a4c5ffb6e2",
+     "location": null,
+     "identifier": "v2_3ca7d0e191ec_8",
+     "pin": {
+      "claims_file": "claims/triage2026_40426943_7f4061d40331.yaml",
+      "id": "v2_3ca7d0e191ec_8"
+     }
+    },
+    {
+     "kind": "attribution",
+     "file": "supplementaryFiles.zip/biomedicines-13-01115-s001.zip/Table.xlsx",
+     "text_sha256": "7f4061d40331140f13f56bd6fb29962697900e95f823f693b20f92a4c5ffb6e2",
+     "location": null,
+     "identifier": "v2_3ca7d0e191ec_9",
+     "pin": {
+      "claims_file": "claims/triage2026_40426943_7f4061d40331.yaml",
+      "id": "v2_3ca7d0e191ec_9"
+     }
+    },
+    {
+     "kind": "attribution",
+     "file": "supplementaryFiles.zip/biomedicines-13-01115-s001.zip/Table.xlsx",
+     "text_sha256": "7f4061d40331140f13f56bd6fb29962697900e95f823f693b20f92a4c5ffb6e2",
+     "location": null,
+     "identifier": "v2_3ca7d0e191ec_10",
+     "pin": {
+      "claims_file": "claims/triage2026_40426943_7f4061d40331.yaml",
+      "id": "v2_3ca7d0e191ec_10"
+     }
+    },
+    {
+     "kind": "attribution",
+     "file": "supplementaryFiles.zip/biomedicines-13-01115-s001.zip/Table.xlsx",
+     "text_sha256": "7f4061d40331140f13f56bd6fb29962697900e95f823f693b20f92a4c5ffb6e2",
+     "location": null,
+     "identifier": "v2_3ca7d0e191ec_11",
+     "pin": {
+      "claims_file": "claims/triage2026_40426943_7f4061d40331.yaml",
+      "id": "v2_3ca7d0e191ec_11"
+     }
+    },
+    {
+     "kind": "attribution",
+     "file": "supplementaryFiles.zip/biomedicines-13-01115-s001.zip/Table.xlsx",
+     "text_sha256": "7f4061d40331140f13f56bd6fb29962697900e95f823f693b20f92a4c5ffb6e2",
+     "location": null,
+     "identifier": "v2_3ca7d0e191ec_12",
+     "pin": {
+      "claims_file": "claims/triage2026_40426943_7f4061d40331.yaml",
+      "id": "v2_3ca7d0e191ec_12"
+     }
+    },
+    {
+     "kind": "attribution",
+     "file": "supplementaryFiles.zip/biomedicines-13-01115-s001.zip/Table.xlsx",
+     "text_sha256": "7f4061d40331140f13f56bd6fb29962697900e95f823f693b20f92a4c5ffb6e2",
+     "location": null,
+     "identifier": "v2_3ca7d0e191ec_13",
+     "pin": {
+      "claims_file": "claims/triage2026_40426943_7f4061d40331.yaml",
+      "id": "v2_3ca7d0e191ec_13"
+     }
+    }
+   ],
+   "reason": null,
+   "reading": "DBI, IGFBP3 and CD72 are significant only in UKB-PPP (discovery by per-protein N), SERPINH1 and CHRDL2 only in deCODE, HYAL1, LRP11 and SPARCL1 in both."
+  },
+  "4f470758a685": {
+   "rule": "R2",
+   "decision": "split",
+   "layer": "rules",
+   "releases": [],
+   "claims": {
+    "41254737:000": {
+     "releases": [
+      {
+       "release": "FinnGen R11",
+       "role": "primary"
+      }
+     ],
+     "absent": []
+    },
+    "41254737:001": {
+     "releases": [
+      {
+       "release": "FinnGen R11",
+       "role": "primary"
+      }
+     ],
+     "absent": []
+    },
+    "41254737:002": {
+     "releases": [
+      {
+       "release": "FinnGen R11",
+       "role": "primary"
+      }
+     ],
+     "absent": []
+    },
+    "41254737:003": {
+     "releases": [
+      {
+       "release": "FinnGen R7",
+       "role": "primary"
+      }
+     ],
+     "absent": []
+    },
+    "41254737:004": {
+     "releases": [
+      {
+       "release": "FinnGen R7",
+       "role": "primary"
+      }
+     ],
+     "absent": []
+    }
+   },
+   "evidence": [],
+   "reason": null,
+   "reading": "Coronary and other atherosclerosis claims (ADK, CD4, ANGPTL4) from FinnGen R11, peripheral (MGAT1, SYT11) from R7."
+  },
+  "70f838d41395": {
+   "rule": "R3",
+   "decision": "split",
+   "layer": "practical",
+   "releases": [],
+   "claims": {
+    "37735436:000": {
+     "releases": [
+      {
+       "release": "INTERVAL SomaScan (Sun 2018)",
+       "role": "primary"
+      }
+     ],
+     "absent": []
+    },
+    "37735436:002": {
+     "releases": [
+      {
+       "release": "INTERVAL SomaScan (Sun 2018)",
+       "role": "primary"
+      }
+     ],
+     "absent": []
+    },
+    "37735436:004": {
+     "releases": [
+      {
+       "release": "INTERVAL SomaScan (Sun 2018)",
+       "role": "primary"
+      }
+     ],
+     "absent": []
+    },
+    "37735436:005": {
+     "releases": [
+      {
+       "release": "INTERVAL SomaScan (Sun 2018)",
+       "role": "primary"
+      }
+     ],
+     "absent": []
+    },
+    "37735436:006": {
+     "releases": [
+      {
+       "release": "INTERVAL SomaScan (Sun 2018)",
+       "role": "primary"
+      }
+     ],
+     "absent": []
+    },
+    "37735436:008": {
+     "releases": [
+      {
+       "release": "INTERVAL SomaScan (Sun 2018)",
+       "role": "primary"
+      }
+     ],
+     "absent": []
+    },
+    "37735436:009": {
+     "releases": [
+      {
+       "release": "INTERVAL SomaScan (Sun 2018)",
+       "role": "primary"
+      }
+     ],
+     "absent": []
+    },
+    "37735436:011": {
+     "releases": [
+      {
+       "release": "INTERVAL SomaScan (Sun 2018)",
+       "role": "primary"
+      }
+     ],
+     "absent": []
+    },
+    "37735436:012": {
+     "releases": [
+      {
+       "release": "INTERVAL SomaScan (Sun 2018)",
+       "role": "primary"
+      }
+     ],
+     "absent": []
+    },
+    "37735436:001": {
+     "releases": [
+      {
+       "release": "AGES Reykjavik (Emilsson 2018)",
+       "role": "primary"
+      }
+     ],
+     "absent": []
+    },
+    "37735436:003": {
+     "releases": [
+      {
+       "release": "AGES Reykjavik (Emilsson 2018)",
+       "role": "primary"
+      }
+     ],
+     "absent": []
+    },
+    "37735436:007": {
+     "releases": [
+      {
+       "release": "AGES Reykjavik (Emilsson 2018)",
+       "role": "primary"
+      }
+     ],
+     "absent": []
+    },
+    "37735436:010": {
+     "releases": [
+      {
+       "release": "AGES Reykjavik (Emilsson 2018)",
+       "role": "primary"
+      }
+     ],
+     "absent": []
+    }
+   },
+   "evidence": [
+    {
+     "kind": "attribution",
+     "file": "supplementaryFiles.zip/12967_2023_4525_MOESM1_ESM.zip/Table S1.xlsx",
+     "text_sha256": "f36a31f728c6622fc1a36ced43f5526da569e1cb074717c94da7230706d4432e",
+     "location": null,
+     "identifier": "v2_70f838d41395_1",
+     "pin": {
+      "claims_file": "claims/triage2026_37735436_f36a31f728c6.yaml",
+      "id": "v2_70f838d41395_1"
+     }
+    },
+    {
+     "kind": "attribution",
+     "file": "supplementaryFiles.zip/12967_2023_4525_MOESM1_ESM.zip/Table S1.xlsx",
+     "text_sha256": "f36a31f728c6622fc1a36ced43f5526da569e1cb074717c94da7230706d4432e",
+     "location": null,
+     "identifier": "v2_70f838d41395_2",
+     "pin": {
+      "claims_file": "claims/triage2026_37735436_f36a31f728c6.yaml",
+      "id": "v2_70f838d41395_2"
+     }
+    },
+    {
+     "kind": "attribution",
+     "file": "supplementaryFiles.zip/12967_2023_4525_MOESM1_ESM.zip/Table S1.xlsx",
+     "text_sha256": "f36a31f728c6622fc1a36ced43f5526da569e1cb074717c94da7230706d4432e",
+     "location": null,
+     "identifier": "v2_70f838d41395_3",
+     "pin": {
+      "claims_file": "claims/triage2026_37735436_f36a31f728c6.yaml",
+      "id": "v2_70f838d41395_3"
+     }
+    },
+    {
+     "kind": "attribution",
+     "file": "supplementaryFiles.zip/12967_2023_4525_MOESM1_ESM.zip/Table S1.xlsx",
+     "text_sha256": "f36a31f728c6622fc1a36ced43f5526da569e1cb074717c94da7230706d4432e",
+     "location": null,
+     "identifier": "v2_70f838d41395_4",
+     "pin": {
+      "claims_file": "claims/triage2026_37735436_f36a31f728c6.yaml",
+      "id": "v2_70f838d41395_4"
+     }
+    },
+    {
+     "kind": "attribution",
+     "file": "supplementaryFiles.zip/12967_2023_4525_MOESM1_ESM.zip/Table S1.xlsx",
+     "text_sha256": "f36a31f728c6622fc1a36ced43f5526da569e1cb074717c94da7230706d4432e",
+     "location": null,
+     "identifier": "v2_70f838d41395_5",
+     "pin": {
+      "claims_file": "claims/triage2026_37735436_f36a31f728c6.yaml",
+      "id": "v2_70f838d41395_5"
+     }
+    },
+    {
+     "kind": "attribution",
+     "file": "supplementaryFiles.zip/12967_2023_4525_MOESM1_ESM.zip/Table S1.xlsx",
+     "text_sha256": "f36a31f728c6622fc1a36ced43f5526da569e1cb074717c94da7230706d4432e",
+     "location": null,
+     "identifier": "v2_70f838d41395_6",
+     "pin": {
+      "claims_file": "claims/triage2026_37735436_f36a31f728c6.yaml",
+      "id": "v2_70f838d41395_6"
+     }
+    },
+    {
+     "kind": "attribution",
+     "file": "supplementaryFiles.zip/12967_2023_4525_MOESM1_ESM.zip/Table S1.xlsx",
+     "text_sha256": "f36a31f728c6622fc1a36ced43f5526da569e1cb074717c94da7230706d4432e",
+     "location": null,
+     "identifier": "v2_70f838d41395_7",
+     "pin": {
+      "claims_file": "claims/triage2026_37735436_f36a31f728c6.yaml",
+      "id": "v2_70f838d41395_7"
+     }
+    },
+    {
+     "kind": "attribution",
+     "file": "supplementaryFiles.zip/12967_2023_4525_MOESM1_ESM.zip/Table S1.xlsx",
+     "text_sha256": "f36a31f728c6622fc1a36ced43f5526da569e1cb074717c94da7230706d4432e",
+     "location": null,
+     "identifier": "v2_70f838d41395_8",
+     "pin": {
+      "claims_file": "claims/triage2026_37735436_f36a31f728c6.yaml",
+      "id": "v2_70f838d41395_8"
+     }
+    },
+    {
+     "kind": "attribution",
+     "file": "supplementaryFiles.zip/12967_2023_4525_MOESM1_ESM.zip/Table S1.xlsx",
+     "text_sha256": "f36a31f728c6622fc1a36ced43f5526da569e1cb074717c94da7230706d4432e",
+     "location": null,
+     "identifier": "v2_70f838d41395_9",
+     "pin": {
+      "claims_file": "claims/triage2026_37735436_f36a31f728c6.yaml",
+      "id": "v2_70f838d41395_9"
+     }
+    },
+    {
+     "kind": "attribution",
+     "file": "supplementaryFiles.zip/12967_2023_4525_MOESM1_ESM.zip/Table S1.xlsx",
+     "text_sha256": "f36a31f728c6622fc1a36ced43f5526da569e1cb074717c94da7230706d4432e",
+     "location": null,
+     "identifier": "v2_70f838d41395_10",
+     "pin": {
+      "claims_file": "claims/triage2026_37735436_f36a31f728c6.yaml",
+      "id": "v2_70f838d41395_10"
+     }
+    },
+    {
+     "kind": "attribution",
+     "file": "supplementaryFiles.zip/12967_2023_4525_MOESM1_ESM.zip/Table S1.xlsx",
+     "text_sha256": "f36a31f728c6622fc1a36ced43f5526da569e1cb074717c94da7230706d4432e",
+     "location": null,
+     "identifier": "v2_70f838d41395_11",
+     "pin": {
+      "claims_file": "claims/triage2026_37735436_f36a31f728c6.yaml",
+      "id": "v2_70f838d41395_11"
+     }
+    },
+    {
+     "kind": "attribution",
+     "file": "supplementaryFiles.zip/12967_2023_4525_MOESM1_ESM.zip/Table S1.xlsx",
+     "text_sha256": "f36a31f728c6622fc1a36ced43f5526da569e1cb074717c94da7230706d4432e",
+     "location": null,
+     "identifier": "v2_70f838d41395_12",
+     "pin": {
+      "claims_file": "claims/triage2026_37735436_f36a31f728c6.yaml",
+      "id": "v2_70f838d41395_12"
+     }
+    },
+    {
+     "kind": "attribution",
+     "file": "supplementaryFiles.zip/12967_2023_4525_MOESM1_ESM.zip/Table S1.xlsx",
+     "text_sha256": "f36a31f728c6622fc1a36ced43f5526da569e1cb074717c94da7230706d4432e",
+     "location": null,
+     "identifier": "v2_70f838d41395_13",
+     "pin": {
+      "claims_file": "claims/triage2026_37735436_f36a31f728c6.yaml",
+      "id": "v2_70f838d41395_13"
+     }
+    }
+   ],
+   "reason": null,
+   "reading": "Table S1's author column names each claim protein's original study: Sun 2018 (N 3,301) or Emilsson 2018 (N 3,200)."
+  },
+  "fa528accfb9e": {
+   "rule": "R3",
+   "decision": "resolved",
+   "layer": "practical",
+   "releases": [
+    {
+     "release": "INTERVAL SomaScan (Sun 2018)",
+     "role": "primary"
+    }
+   ],
+   "claims": {},
+   "evidence": [],
+   "reason": null,
+   "reading": "The ICAM1 instrument row names Sun (N 3,301), the original study inside the Zheng set."
+  }
+ }
+}

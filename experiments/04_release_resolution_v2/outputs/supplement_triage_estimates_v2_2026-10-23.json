@@ -1,0 +1,285 @@
+{
+ "script": "scripts/supplement_triage_estimates_v2.py",
+ "what": "unregistered; the registered estimands recomputed with the supplement triage decisions after the author's review, at claim level for split rows; changes no registered result",
+ "inputs_sha256": {
+  "experiments/04_release_resolution_v2/outputs/raw/volume_copy_2026-10-22/accepted_stage_a.json": "b64373bf8fdb0627db69ab02822aa431dc68e17b753a08ea4c2509685e89ab62",
+  "experiments/04_release_resolution_v2/outputs/raw/volume_copy_2026-10-22/queue.json": "546befc2e0103b1344c6f719fb7a88c667fa1e9e639667ffaac8ab82d2e64ff6",
+  "experiments/04_release_resolution_v2/outputs/supplement_triage_decisions_v2_2026-10-23.json": "7f51e76c389ce85327444df3cc422d96292101ff91ead24e4f3c034e5ca510cc",
+  "experiments/04_release_resolution_v2/outputs/supplement_triage_estimates_2026-10-22.json": "a17d71266f9c2250a265dbfdad5ed8467f3486e2e8eb4a791512a722a06a15d5",
+  "experiments/03_release_resolution/reference/meta_analysis_expansions_omitted_v2.csv": "f3ed4b47dfe64591b2ccba4828657236c73c0edfefdcd72580835d435e7ec5c0",
+  "experiments/04_release_resolution_v2/outputs/stage_a_estimates_2026-10-21.json": "02e0fb82a0ced8df5a715bc61a11ba5ce6059f582a1f717c5e9eff0e0ce7808e",
+  "experiments/04_release_resolution_v2/outputs/stage_a_secondary_2026-10-21.json": "58ffcd1709aecdc5bd5288f2cd6c9aa95c3cb2e51b235b77c86ffe24a7961a80",
+  "experiments/02_claims_meta/outputs/registry/2026-10-03_amended_primary_coded_a/registry_claims.jsonl": "b5ef8c2a7f96a194fea1a1424dc6533060a053fddcb9c0ec1d350c4d38ce492c",
+  "experiments/02_claims_meta/outputs/registry/2026-10-03_amended_primary_coded_a/registry_claims_without_manual_coding.jsonl": "a227cd21336b90ac7098a82279c35eb6101033bfc4cde2d902deebb7576c31ec",
+  "experiments/02_claims_meta/dataset_dictionary.csv": "f30dda8e00f8bbc6c43e31e80b38935c7d4f0d3916f33b2e776cabc14fb0d39c",
+  "experiments/02_claims_meta/verification/dataset_components.csv": "b82a8ce799626ec054f6e79513f6b6af9af24e3f5de36ea6f9096911de85a591",
+  "experiments/04_release_resolution_v2/scripts/supplement_triage_estimates_v2.py": "96cbcee636aaeef8d22d7d23bf23efc78c38030b3c06c8654a5883144b4b438e",
+  "experiments/04_release_resolution_v2/scripts/supplement_triage_estimates_v1.py": "010cdcbd5b9dbd70920d165485eae3cafeacf65a61c98f126a4527c9e550436f",
+  "experiments/04_release_resolution_v2/scripts/estimands_v1.py": "1857f1c024e19aa91937f4b8dd71dc9aa8ad89f7953cdc95e53b31593ba42cc6",
+  "experiments/04_release_resolution_v2/scripts/secondary_v1.py": "7217402003cf459b3bfe68cc43d9c3093e0a20217eb674e7082ac3a197e7a3bb",
+  "experiments/02_claims_meta/outputs/verification_amendment02/amended_primary/sol_extraction_search_0b97103cd7a4_restored/claim_checks.jsonl": "3d41afa627d3e50ed14a7059b698037198d0bae96acfdc25c481dc98747140a5",
+  "experiments/02_claims_meta/outputs/verification_amendment02/amended_primary/sol_extraction_chase1_0b97103cd7a4_restored/claim_checks.jsonl": "f7b1644486b1116444c4b573c50d6200e6345e59a2094b783a833199285a8842",
+  "experiments/02_claims_meta/outputs/verification/sol_extraction_chase2_0b97103cd7a4/claim_checks.jsonl": "a5b527aa290e2a23be6a35767bc6cb06db4588e08a765d70f448243d477d7590",
+  "experiments/02_claims_meta/outputs/verification/sol_extraction_chase3_0b97103cd7a4/claim_checks.jsonl": "b3e7da2400f48f4400175dedd9993626d254d0fc91cc52a7c4ba95f7d1103f8d"
+ },
+ "answers_files_sha256": "0cec22ee5d100042a797e04990e57d64685a1cffa816c6bb953c00c80af0316a",
+ "stage_a_reproduced": {
+  "estimates_equal_to_registered": true,
+  "sa8_equal_to_registered": true
+ },
+ "side_by_side": {
+  "stage_a": {
+   "h1_identical_not_identical_unresolved": [
+    0,
+    23,
+    222
+   ],
+   "h2_overlapping_not_overlapping_unresolved": [
+    8,
+    11,
+    226
+   ],
+   "before_the_author_review": null
+  },
+  "rules": {
+   "h1_identical_not_identical_unresolved": [
+    0,
+    30,
+    215
+   ],
+   "h2_overlapping_not_overlapping_unresolved": [
+    9,
+    14,
+    222
+   ],
+   "before_the_author_review": [
+    [
+     0,
+     30,
+     215
+    ],
+    [
+     9,
+     14,
+     222
+    ]
+   ]
+  },
+  "practical": {
+   "h1_identical_not_identical_unresolved": [
+    0,
+    62,
+    183
+   ],
+   "h2_overlapping_not_overlapping_unresolved": [
+    14,
+    36,
+    195
+   ],
+   "before_the_author_review": [
+    [
+     0,
+     61,
+     184
+    ],
+    [
+     12,
+     33,
+     200
+    ]
+   ]
+  }
+ },
+ "layers": {
+  "stage_a": {
+   "rows_overlaid": 0,
+   "split_rows_overlaid_per_claim": 0,
+   "estimates": {
+    "h2_multi_family_pairs": 245,
+    "h2_known_identical": 0,
+    "h2_known_not_identical": 23,
+    "h2_unresolved": 222,
+    "h2_lower": 0.0,
+    "h2_upper": 0.9061224489795918,
+    "h2b_known_overlapping": 8,
+    "h2b_known_not_overlapping": 11,
+    "h2b_unresolved": 226,
+    "h2b_lower": 0.0326530612244898,
+    "h2b_upper": 0.9551020408163265,
+    "representation_unresolved_pairs": 0,
+    "h1_pairs": 0
+   },
+   "h2_verdict": "unresolved",
+   "h2b_verdict": "unresolved",
+   "claims_stats": {
+    "names_replaced_by_codes": 565,
+    "records_attribution_settled": 60
+   },
+   "sa8": {
+    "rows_by_level": {
+     "L1 release identified": 56,
+     "L2 one candidate in the frozen dictionary": 47,
+     "L3 several candidates in the frozen dictionary": 109,
+     "L4 dataset outside the dictionary": 136,
+     "L5 no dataset named": 141,
+     "conflict": 6,
+     "name status undetermined": 162
+    },
+    "attribution_unresolved_by_level": {
+     "L2 one candidate in the frozen dictionary": 5,
+     "L3 several candidates in the frozen dictionary": 10,
+     "L4 dataset outside the dictionary": 30,
+     "L5 no dataset named": 132,
+     "name status undetermined": 9
+    },
+    "repeated_pairs_holding_a_row_at_level": {
+     "L1 release identified": 85,
+     "L2 one candidate in the frozen dictionary": 73,
+     "L3 several candidates in the frozen dictionary": 123,
+     "L4 dataset outside the dictionary": 141,
+     "L5 no dataset named": 120,
+     "conflict": 11,
+     "name status undetermined": 168
+    }
+   },
+   "pair_movement_from_stage_a": null
+  },
+  "rules": {
+   "rows_overlaid": 51,
+   "split_rows_overlaid_per_claim": 3,
+   "estimates": {
+    "h2_multi_family_pairs": 245,
+    "h2_known_identical": 0,
+    "h2_known_not_identical": 30,
+    "h2_unresolved": 215,
+    "h2_lower": 0.0,
+    "h2_upper": 0.8775510204081632,
+    "h2b_known_overlapping": 9,
+    "h2b_known_not_overlapping": 14,
+    "h2b_unresolved": 222,
+    "h2b_lower": 0.036734693877551024,
+    "h2b_upper": 0.9428571428571428,
+    "representation_unresolved_pairs": 0,
+    "h1_pairs": 0
+   },
+   "h2_verdict": "unresolved",
+   "h2b_verdict": "unresolved",
+   "claims_stats": {
+    "names_replaced_by_codes": 831,
+    "records_attribution_settled": 69,
+    "claim_names_replaced|resolved": 10,
+    "claim_names_replaced|absent": 1
+   },
+   "sa8": {
+    "rows_by_level": {
+     "L1 release identified": 108,
+     "L2 one candidate in the frozen dictionary": 44,
+     "L3 several candidates in the frozen dictionary": 94,
+     "L4 dataset outside the dictionary": 134,
+     "L5 no dataset named": 137,
+     "conflict": 5,
+     "name status undetermined": 135
+    },
+    "attribution_unresolved_by_level": {
+     "L2 one candidate in the frozen dictionary": 5,
+     "L3 several candidates in the frozen dictionary": 10,
+     "L4 dataset outside the dictionary": 30,
+     "L5 no dataset named": 129,
+     "name status undetermined": 9
+    },
+    "repeated_pairs_holding_a_row_at_level": {
+     "L1 release identified": 113,
+     "L2 one candidate in the frozen dictionary": 72,
+     "L3 several candidates in the frozen dictionary": 117,
+     "L4 dataset outside the dictionary": 136,
+     "L5 no dataset named": 118,
+     "conflict": 10,
+     "name status undetermined": 156
+    }
+   },
+   "pair_movement_from_stage_a": {
+    "h2": {
+     "known_not_identical -> known_not_identical": 23,
+     "unresolved -> known_not_identical": 7,
+     "unresolved -> unresolved": 215
+    },
+    "h2b": {
+     "known_not_overlapping -> known_not_overlapping": 11,
+     "known_overlapping -> known_overlapping": 8,
+     "unresolved -> known_not_overlapping": 3,
+     "unresolved -> known_overlapping": 1,
+     "unresolved -> unresolved": 222
+    }
+   }
+  },
+  "practical": {
+   "rows_overlaid": 174,
+   "split_rows_overlaid_per_claim": 21,
+   "estimates": {
+    "h2_multi_family_pairs": 245,
+    "h2_known_identical": 0,
+    "h2_known_not_identical": 62,
+    "h2_unresolved": 183,
+    "h2_lower": 0.0,
+    "h2_upper": 0.746938775510204,
+    "h2b_known_overlapping": 14,
+    "h2b_known_not_overlapping": 36,
+    "h2b_unresolved": 195,
+    "h2b_lower": 0.05714285714285714,
+    "h2b_upper": 0.8530612244897959,
+    "representation_unresolved_pairs": 3,
+    "h1_pairs": 1
+   },
+   "h2_verdict": "unresolved",
+   "h2b_verdict": "unresolved",
+   "claims_stats": {
+    "names_replaced_by_codes": 1420,
+    "records_attribution_settled": 69,
+    "claim_names_replaced|resolved_with_absent_component": 7,
+    "claim_names_replaced|absent": 20,
+    "claim_names_replaced|resolved": 115
+   },
+   "sa8": {
+    "rows_by_level": {
+     "L1 release identified": 236,
+     "L2 one candidate in the frozen dictionary": 22,
+     "L3 several candidates in the frozen dictionary": 64,
+     "L4 dataset outside the dictionary": 122,
+     "L5 no dataset named": 131,
+     "conflict": 1,
+     "name status undetermined": 81
+    },
+    "attribution_unresolved_by_level": {
+     "L2 one candidate in the frozen dictionary": 5,
+     "L3 several candidates in the frozen dictionary": 10,
+     "L4 dataset outside the dictionary": 30,
+     "L5 no dataset named": 126,
+     "name status undetermined": 9
+    },
+    "repeated_pairs_holding_a_row_at_level": {
+     "L1 release identified": 183,
+     "L2 one candidate in the frozen dictionary": 53,
+     "L3 several candidates in the frozen dictionary": 100,
+     "L4 dataset outside the dictionary": 133,
+     "L5 no dataset named": 111,
+     "conflict": 5,
+     "name status undetermined": 117
+    }
+   },
+   "pair_movement_from_stage_a": {
+    "h2": {
+     "known_not_identical -> known_not_identical": 23,
+     "unresolved -> known_not_identical": 39,
+     "unresolved -> unresolved": 183
+    },
+    "h2b": {
+     "known_not_overlapping -> known_not_overlapping": 11,
+     "known_overlapping -> known_overlapping": 8,
+     "unresolved -> known_not_overlapping": 25,
+     "unresolved -> known_overlapping": 6,
+     "unresolved -> unresolved": 195
+    }
+   }
+  }
+ }
+}

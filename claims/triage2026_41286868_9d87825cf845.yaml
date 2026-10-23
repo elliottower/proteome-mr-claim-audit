@@ -1,0 +1,35 @@
+source:
+  citation: triage2026_41286868_9d87825cf845
+  local: sources/triage2026/41286868_9d87825cf845.txt
+  sha256: 9d87825cf845a402d7debaf42f833145bd229d44441accff6a82586bfc87154f
+  note: Text of a supplementary file of record 41286868 (PMC12641967), file supplementaryFiles.zip/12890_2025_4006_MOESM1_ESM.xlsx,
+    type XLSX, file sha256 de016a8847c73a58b4d6fd0bed98babddd29315ef8c79ab289276f657104abd0; the text
+    the first registration's retrieval stored (text_sha256), or for a file it left without text the local
+    conversion of the supplement triage scan (scripts/supplement_triage_v2.py). Spreadsheets are pinned
+    in this extracted text (sheets as '## sheet', cells tab-separated) because citations does not read
+    xlsx. Pins of the unregistered supplement triage of 22 October 2026.
+claims:
+  v2_e0c95c697e88_1:
+    quotes:
+    - exact: "COPD\tTIE1\tWald ratio\t1\t0.190040189125295\t0.045339243498818\t2.77095980239988e-05\t\
+        0.030042963233441\tB4DTW8;P35590\trs2275180\t1\t43773033\tG\tA\t0.2538\t0.0251\t4.8e-24\t0.623345\t\
+        3301"
+      section: Table S1
+  v2_e0c95c697e88_2:
+    quotes:
+    - exact: "COPD\tERAP2\tWald ratio\t1\t-0.0415813931388387\t0.0102443219614178\t4.92896936773174e-05\t\
+        0.543075092934951\tB2R769;Q6P179\trs2927608\t5\t96252432\tA\tG\t1.0523\t0.0168\t1e-200\t0.437292\t\
+        3301"
+      section: Table S1
+  v2_e0c95c697e88_3:
+    quotes:
+    - exact: "COPD\tIL27RA\tWald ratio\t1\t-0.0519722956540129\t0.0142169821296394\t0.000256532215954492\t\
+        0.24881480033667\tQ6UWB1\trs35026308\t19\t14153293\tC\tT\t-0.9457\t0.0286\t1e-200\t0.176436\t\
+        3301"
+      section: Table S1
+  v2_e0c95c697e88_4:
+    quotes:
+    - exact: "COPD\tTNFRSF6B\tWald ratio\t1\t-0.166363392857143\t0.0984888392857143\t0.0911888011680715\t\
+        0.0149939223455391\tO95407\trs62217798\t20\t62347189\tT\tG\t-0.224\t0.0316\t1.4e-12\t0.784171\t\
+        3301"
+      section: Table S1
