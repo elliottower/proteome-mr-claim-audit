@@ -49,3 +49,39 @@ this repository:
 The abstracts and open-access full texts can be fetched again with the study's scripts
 (`scripts/run_search.py`, `scripts/fetch_fulltext.py`); a fetched file can be compared with the
 recorded sha256.
+
+# History rewrite of 12 November 2026
+
+The history was rewritten a second time on 12 November 2026, before the repository was made
+public, to remove 68 files that commit `75ef799c2e64` (`9da805dc1c0e` before this rewrite)
+stopped tracking but that the commits before it still held:
+
+- 17 abstracts pinned as quotation sources under
+  `experiments/02_claims_meta/outputs/span_restoration/` and
+  `experiments/02_claims_meta/outputs/superseded/`. Each has the sha256 of a file listed in
+  `WITHHELD_FILES.tsv`.
+- 47 coder input files of the manual-coding reread (`*.disagreement.json`), which quote
+  sentences from the papers.
+- 4 briefs written for the coding sessions.
+
+The ignore rules added in that commit cover all 68 paths. The rewrite followed the procedure of
+8 October:
+
+- Every commit hash changed again, because the first commit holds removed files. The 231
+  commits keep their order, messages, author dates and committer dates, and are signed with the
+  same key.
+- Every file that remains is byte-identical to the same file in the commit before this rewrite.
+  For each of the 231 commits, the file list of the rewritten commit equals the earlier
+  list minus the removed paths.
+- `COMMIT_MAP_2026-11-12.tsv` gives the hash of each commit before and after this rewrite. A
+  hash of the original history maps through `COMMIT_MAP.tsv` first.
+- `WITHHELD_FILES_2026-11-12_second_rewrite.tsv` lists the 68 removed files with their size and
+  sha256.
+
+The freeze commit, `02bb006f3e55` in the original history and `82fb024ef0ac` after the first
+rewrite, is `7f99685c9db7` here. The tag `prereg-paper1-freeze-2026-10-03` points at
+`61b37d30a390`, the counterpart of the original tagged commit `c009e46f6257`. The records still
+name hashes of the original history and are not edited.
+
+The history before this rewrite is kept by the author as a git bundle (sha256
+`8ce625f2797fb3b5be0b44e08edb222e918f304e89ac825ca8ef55810c2b19f3`).
